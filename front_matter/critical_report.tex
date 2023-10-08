@@ -10,13 +10,13 @@
 
 \ifthenelse{\isundefined{\MetadataFestival}}{%
   \subtitle{%
-    \xmakefirstuc{\MetadataGenre}\\%
-    \MetadataSubtitle%
+    \MetadataSubtitle\\[\baselineskip]%
+    \xmakefirstuc{\MetadataGenre}%
   }%
 }{%
   \subtitle{%
-    \xmakefirstuc{\MetadataGenre}~(\MetadataFestival)\\%
-    \MetadataSubtitle%
+    \MetadataSubtitle\\[\baselineskip]%
+    \xmakefirstuc{\MetadataGenre}~(\MetadataFestival)%
   }%
 }%
 
