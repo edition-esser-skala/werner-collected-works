@@ -19,7 +19,7 @@
 \book {
   \bookpart {
     \section "42" "Veni creator Spiritus"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
       <<
@@ -71,7 +71,7 @@
         \new FiguredBass { \XLIIBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 110 }
+      \midi { \tempo 4 = 110 } % 55 – 90 – 130
     }
   }
 }
