@@ -36,6 +36,8 @@ Specify one of the following {color}targets{reset},\nwhere [id] is the catalogue
 
 - {color}final/[id]/scores{reset}:\n  all scores with front matter for a work (e.g. final/scores)
 
+- {color}midi{reset}:\n  MIDI archive
+
 - {color}works{reset}:\n  all final scores for all works
 
 - {color}info{reset}:\n  prints this message\
@@ -83,8 +85,13 @@ final/{work}/scores: {deps_final}
 """
 
 RULE_WORKS: Final = """
+.PHONY: midi
+midi:
+>mkdir -p final
+>if [ -d midi ]; then zip -j final/midi_collection.zip midi/*; fi
+
 .PHONY: works
-works: {all_works}
+works: midi {all_works}
 """
 
 
