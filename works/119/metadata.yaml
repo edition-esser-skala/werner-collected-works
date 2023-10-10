@@ -1,0 +1,16 @@
+title: Ave Regina cœlorum
+id: Hárich deest · A-Ed I 3
+genre: antiphon
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: I 3
+    rism: 600038504
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/426.html
+    license: public domain
+    principal: true
+toe: |
+  45 & org & The 4th \halfNote\ in \B1 also contains voices for S and A,
+             which here have been replaced by bass figures. \\
