@@ -1,0 +1,36 @@
+title: Responsoria
+subtitle: Ecce quomodo moritur iustus · Sepulto Domino
+id: Hárich 265 · A-Ed B 61
+genre: responsory
+festival: Sabbato Sancto
+scoring: S, A, T, B (coro)
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 61
+    rism: 600038028
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/790.html
+    license: public domain
+    principal: true
+toe: |
+  – & – & This work is denoted “4 Responsoria” in Hárich,
+          although the work consists rather of two
+          responsorys with respective verses. \\
+  – & B & All bass figures have been added by the editor. \\
+lyrics:
+  Ecce quomodo moritur iustus\\
+  et nemo percipit corde,\\
+  et viri iusti tolluntur,\\
+  et nemo considerat.\\
+  A facie iniquitatis ablatus est iustus,\\
+  et erit in pace memoria eius.\\
+  In pace factus est locus eius,\\
+  et in Syon habitatio eius.\\
+  (\bibleverse{Isa}(57:1-2), \bibleverse{Ps}(76/75:3))\\[1ex]
+  Sepulto Domino, signatum est monumentum,\\
+  volventes lapidem ad ostium monumenti:\\
+  ponentes milites, qui custodirent illud.\\
+  Ne forte veniant discipuli eius et furentur eum\\
+  et dicant plebi surrexit a mortuis.\\
+  (\bibleverse{Mat}(27:60,64-66))
