@@ -1,0 +1,30 @@
+title: 4 Responsoria
+id: Hárich deest · A-Ed F 32
+genre: responsory
+festival: Corpus Christi
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: F 32
+    rism: 600038318
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/968.html
+    license: public domain
+    principal: true
+toe: |
+  2 & T & 1st \halfNote\ in \B1: d′2 \\
+  23 & vl 1 & grace note added by editor \\
+  33f & – & These bars have been cancelled in all voices with red pencil by later hand, presumably in an attempt to shorten the movement. (The same hand added vide marks skipping bars 62 to 71). \\
+  49 & vl 2, A & grace note added by editor \\
+lyrics:
+  O salutaris hostia,\\
+  quae coeli pandis ostium:\\
+  bella premunt hostilia,\\
+  da robur, fer auxilium.\\
+  Uni trinoque Domino\\
+  sit sempiterna gloria,\\
+  qui vitam sine termino\\
+  nobis donet in patria.\\
+  Amen.
+  (\bibleverse{Ps}(25/24:1-3))
