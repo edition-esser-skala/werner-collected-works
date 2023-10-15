@@ -36,7 +36,7 @@ LXXIaOrgano = {
     cis cis16 h cis8 a a, cis %30
     d cis16 d e8 d e e,
     a a'16 gis a8-\soloE cis a gis
-    \mark \critnote fis, fis'16 e fis8 a fis e
+    fis, fis'16 e fis8 a fis e
     d cis16 d e8 d e e,
     a-\tuttiE a'16 gis a8 a, e' e' %35
     a,, a'16 gis a8 a, a a'
@@ -163,12 +163,69 @@ LXXIaBassFigures = \figuremode {
 LXXIbOrgano = {
   \relative c {
     \clef bass
-
+    \key c \major \time 4/4 \tempoLXXIb
+    \mvTr c8\fE-\tuttiE c c c c c c c
+    h h' c fis, g g g, g
+    g' g g g g g d d
+    e e h h c4 g
+    fis'8 fis fis fis g4 g, %5
+    g'8 h c fis, g4 g,8 a
+    h d g h fis, a d fis
+    g d h d g, g' h c
+    d h c c, f! a g g,
+    c c' a c f, a g g, %10
+    c c c c h h c c
+    a a' g fis g g g a
+    h g r h c c c e,
+    f!4 g a8 a g fis
+    g e h c d h c e %15
+    f f f fis g e f g
+    c, e g h c a f g
+    c, e g h c c, r c
+    g h c fis g d h d
+    g,4 r8 g c e g g, %20
+    a c e e, f a c c,
+    r d' h c g'4 g,
+    c8 e g h c c, r c
+    g h c fis g4 g,
+    c8 e g h c c, r a' %25
+    f4 g c, r
+    r8 a' f g c,4 r
+    r8 a' f g c c, g' g,
+    c4 r r2\fermata \bar "|." %29 finis
   }
 }
 
 LXXIbBassFigures = \figuremode {
-
+  \bo <[8 3]>4. \bc <[7 5]>4 <6 4>8 <5 [3]>4
+  <6 5> <9 [4]>8 <7 5> <6 4>4 <5 3>
+  \bo <[5 3]>4. <4 2>8 <5 4> \bc <[\t 3]> \bo <8 6 [_+]> \bc <7 5 [\t]>
+  <5>4 <6>8 <5\+> <5>2
+  <6>2 \bo <[9 4]>8 <8 3> <5 3> \bc <[6 4]> %5
+  <7!> <\t> <3> <[7]> <6 4>4 <[5 3]>
+  <6>2 <6 5>4. \bo <[7 _]>8
+  <9 4> \bc <[6 _]> r2 <6>4
+  r8 <6 5>4. <6>8 \bo <[6]> <6 4> \bc <[5] 3>
+  r2 <6>8 \bo <[6]> <6 4> \bc <[5] 3> %10
+  r4 <6 4>8 <5 3> <6 5>2
+  r4 <[6 4]>8 <6> r2
+  <6>4. <6 5!>8 \bo <[9 4]> <8 3>4 \bc <[6 _]>8
+  \bo <9 [5]>8 \bc <8 [6]> <6 [4]> <7 5> <5>4. \once \bassFigureExtendersOn q8
+  r <[6]> <6>4. <6 5> %15
+  <7>4 <6>8 <5>4 <6>8 <6 5>4
+  r2. q4
+  <5>4 \once \bassFigureExtendersOn q8 q r2
+  <7>4 <9 4>8 <[7]> <6 4>4 <6>
+  r4. <7>8 <9 4> <6> <6 4> <5 3> %20
+  <9 4> <6> \bo <[6] 4> \bc <[5] 3> <9 4> <6> <6 4> <5 3>
+  r <[9 4]> <6 5>4 \bo <[6] 4> \bc <[5] 3>
+  <5>4 \once \bassFigureExtendersOn q8 q r2
+  <7>4 <9 4>8 <[7 5]> \bo <[6] 4>4 \bc <[5] 3>
+  <5>4 \once \bassFigureExtendersOn q8 q r2 %25
+  <6>4 \bo <[6 4]>8 \bc <[5 3]> r2
+  r4 <6>2.
+  r4 q2 <4>8 <3>
+  r1 %29 finis
 }
 
 LXXIcOrgano = {

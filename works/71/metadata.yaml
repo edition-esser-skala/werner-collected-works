@@ -13,10 +13,14 @@ sources:
     license: public domain
     principal: true
 toe: |
-  2 & T & 1st \halfNote\ in \B1: d′2 \\
-  23 & vl 1 & grace note added by editor \\
-  33f & – & These bars have been cancelled in all voices with red pencil by later hand, presumably in an attempt to shorten the movement. (The same hand added vide marks skipping bars 62 to 71). \\
-  49 & vl 2, A & grace note added by editor \\
+  – & – & Several bars have been cancelled in all voices with red pencil by later hand, presumably in an attempt to shorten the respective movement: 1st movement: bars 33f; 2nd: bar 10. The same hand added vide marks skipping the following bars: 1st movement: bars 61–71; 2nd: 17–24. \\
+  1·2  & T       & 1st \halfNote\ in \B1: d′2 \\
+  1·23 & vl 1    & grace note added by editor \\
+  1·49 & vl 2, A & grace note added by editor \\
+  2·6  & T       & 4th \eighthNote\ in \B1: b8 \\
+  2·8  & vl 2, A & grace note added by editor \\
+  2·12 & vl 2, A & grace note added by editor \\
+  2·13 & vl 1, S & grace note added by editor \\
 lyrics:
   O salutaris hostia,\\
   quae coeli pandis ostium:\\
@@ -27,4 +31,10 @@ lyrics:
   qui vitam sine termino\\
   nobis donet in patria.\\
   Amen.
+
+  Da pacem, Domine in diebus nostris,
+  quia non est alius qui pugnet pro nobis,
+  nisi tu Deus noster.
+  Alleluia.
+
   (\bibleverse{Ps}(25/24:1-3))

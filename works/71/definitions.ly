@@ -1,6 +1,7 @@
 \version "2.24.0"
 
 tempoLXXIa = \tempoMarkup "Andante"
+tempoLXXIb = \tempoMarkup "Andante"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

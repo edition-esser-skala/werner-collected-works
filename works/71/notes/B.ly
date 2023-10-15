@@ -36,7 +36,7 @@ LXXIaBasso = {
     cis'2 a4 %30
     d,( e4.) e8
     a,2 r4
-    \mark \critnote R2.*2
+    R2.*2
     a'4 a e %35
     a2 a4
     e8. e16 e4 r
@@ -161,12 +161,69 @@ LXXIaBassoLyrics = \lyricmode {
 LXXIbBasso = {
   \relative c {
     \clef bass
-
+    \key c \major \time 4/4 \tempoLXXIb \autoBeamOff
+    \mvTr c4\fE^\tuttiE c8 c c8. c16 c4
+    h( c8) fis g8. g,16 g4
+    g'4. g8 g4 d8 d
+    e4 h c g'
+    fis8 fis fis fis g8. g16 g8 g %5
+    g4 c8 fis, g4 g,
+    h h8 h' fis4 fis
+    g g g h8 c
+    d([ h)] c c, f a g4
+    c, r r2 %10
+    c4 c8 c h8. h16 c4
+    a'8 a g fis g4 g8 r
+    h g g h c8. c16 c8 e,
+    f!4 g8 g a4 g8 fis
+    g([ e)] h c d([ h)] c4 %15
+    f8 f f fis g e f([ g)]
+    c,4 r r2
+    c8([ e g)] h c4 c,
+    g'8([ h, c)] fis g4 g,
+    g' g8 g c, e g g, %20
+    a[ c] e4 f8[ a c c,]
+    d4 h8 c g'4 g,
+    c8([ e g)] h c4 c,
+    g8([ h)] c[( fis)] g4 g,
+    c8([ e)] g,([ h)] c4 c8 a' %25
+    f4 g c, r
+    r8 a' f g c,4 r
+    r8 a' f g c c, g'8. g16
+    c,4 r r2\fermata \bar "|." %29 finis
   }
 }
 
 LXXIbBassoLyrics = \lyricmode {
-
+  Da pa -- cem, Do -- mi -- ne,
+  pa -- cem, Do -- mi -- ne,
+  in di -- e -- bus, di --
+  e -- bus no -- stris,
+  qui -- a non est a -- li -- us qui %5
+  pu -- gnet pro no -- bis,
+  ni -- si tu De -- us
+  no -- ster, ni -- si tu
+  De -- us, tu De -- us no --
+  ster. %10
+  Da pa -- cem, Do -- mi -- ne,
+  in di -- e -- bus no -- stris,
+  qui -- a non est a -- li -- us qui
+  pu -- gnet pro no -- bis, qui
+  pu -- gnet pro no -- bis, %15
+  ni -- si De -- us, De -- us no --
+  ster.
+  Al -- le -- lu -- ia,
+  al -- le -- lu -- ia,
+  al -- le -- lu -- ia, al -- le -- lu -- %20
+  ia, __ _ _
+  _ al -- le -- lu -- ia,
+  al -- le -- lu -- ia,
+  al -- le -- lu -- ia,
+  al -- le -- lu -- ia, al -- %25
+  le -- lu -- ia,
+  al -- le -- lu -- ia,
+  al -- le -- lu -- ia, al -- le -- lu --
+  ia. %29 finis
 }
 
 LXXIcBasso = {
