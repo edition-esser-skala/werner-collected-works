@@ -229,12 +229,161 @@ LXXIbSopranoLyrics = \lyricmode {
 LXXIcSoprano = {
   \relative c' {
     \clef treble
-
+    \key b \major \time 3/4 \tempoLXXIc \autoBeamOff
+    \mvTr b'2\fE^\tuttiE b4
+    c2 c4
+    d2 d4
+    f2( es4)\trill
+    d2 r4 %5
+    f2 b,4
+    g' g f~
+    f8 g f4( es)\trill
+    d2 r4
+    d d e %10
+    f c r
+    b2 c4
+    a4.(\trill b8) c4
+    d2 g4
+    \appoggiatura f e4. e8 f4 %15
+    \appoggiatura e16 d8([ c16 b)] a4( g)\trill
+    f2 r4
+    f b a
+    a8([ g)] g2
+    g4( es') c %20
+    \appoggiatura b8 a8.([ b16)] c4 r
+    c( d) es
+    d4. c8 b4
+    g' g8 g f4
+    \appoggiatura a16 g8([ f16 es)] d4( c)\trill %25
+    b2 r4
+    b2 d4
+    \appoggiatura es8 d4\trill c r
+    c2 es4
+    \appoggiatura f8 es4\trill d r %30
+    d d e
+    f2 c4
+    \appoggiatura e16 d8([ c16 b)] a4 g
+    f r f
+    b f b %35
+    d b b
+    g' g8 g f4
+    f8 g f4( es)\trill
+    d2 r4
+    d2 d4 %40
+    d c c
+    b4. b8 b4
+    c2 b4
+    \appoggiatura c8 b4\trillE a d
+    es!4. es8 d4 %45
+    c4. c8 b4
+    c( b a)\trill
+    g2 r4
+    g'4. g8 f!4
+    f es es8 es %50
+    f4. f8 es4
+    es d b
+    g'4. g8 f4
+    es4. es8 f4
+    d4.( es8) f4 %55
+    \appoggiatura a16 g8[ f16 es] d4 c
+    b2 r4
+    r f' f
+    f4.( es8) d4
+    \appoggiatura d8 c4( b) a %60
+    b8.[( c32 d]) c4 r
+    \appoggiatura f4 es2 d4
+    g2 f4
+    \appoggiatura a16 g8[ f16 es] d4 c
+    c( d) r %65
+    r f f
+    f2 e4
+    r es es
+    es2 d4
+    r b as %70
+    g( g') f
+    g8[ f16 es] d4 c
+    c( d2)
+    es8[ d16 c] b4 a\trill
+    b2 r4\fermata \bar "|." %75 finis
   }
 }
 
 LXXIcSopranoLyrics = \lyricmode {
-
+  Ho -- mo
+  qui -- dam
+  fe -- cit
+  coe --
+  nam, %5
+  coe -- nam
+  ma -- gnam fe --
+  cit ho --
+  mo,
+  et mi -- sit %10
+  ser -- vum,
+  ser -- vum
+  su -- um,
+  mi -- sit,
+  mi -- sit ser -- %15
+  vum __ su --
+  um,
+  et mi -- sit
+  ser -- vum,
+  ser -- vum %20
+  su -- um
+  ho -- ra
+  di -- ce -- re,
+  di -- ce -- re in --
+  vi -- ta -- %25
+  tis
+  ut ve --
+  ni -- rent,
+  ut ve --
+  ni -- rent, %30
+  qui -- a pa --
+  ra -- ta
+  sunt __ o -- mni --
+  a. Ve --
+  ni -- te, ve -- %35
+  ni -- te, ve --
+  ni -- te, com -- e --
+  di -- te pa --
+  nem,
+  pa -- nem %40
+  me -- um, et
+  bi -- bi -- te
+  vi -- num
+  me -- um, quod
+  mi -- scu -- i, %45
+  mi -- scu -- i
+  vo --
+  bis,
+  bi -- bi -- te
+  vi -- num et com -- %50
+  e -- di -- te
+  pa -- nem, quod
+  mi -- scu -- i,
+  mi -- scu -- i
+  vo -- bis, %55
+  vo -- _ _
+  bis.
+  A -- men,
+  a -- men,
+  a -- \xE men, %60
+  a -- \x men,
+  a -- men,
+  a -- men,
+  a -- _ _
+  men, __ %65
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men, %70
+  a -- \xE men,
+  a -- _ _
+  \x men, __
+  a -- _ _
+  men. %75 finis
 }
 
 LXXIdSoprano = {

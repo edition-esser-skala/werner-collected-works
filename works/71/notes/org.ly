@@ -231,12 +231,161 @@ LXXIbBassFigures = \figuremode {
 LXXIcOrgano = {
   \relative c {
     \clef bass
-
+    \key b \major \time 3/4 \tempoLXXIc
+    \mvTr b8\fE-\tuttiE b'16 a b8 c d b
+    a a16 g a8 f g a
+    b b16 a b8 c d b
+    c c16 b c8 c, f, f'
+    b, b'16 a b8 f d f %5
+    b, b'16 a b8 c d b
+    es, es'16 d es8 es, d d'
+    c16 b a b c8 c, f, f'
+    b, b'16 a b8 d,16 es f es d c
+    b8 b'16 a b8 g c b %10
+    a a16 g a8 a g f
+    g g16 f g8 f e c
+    f f16 e f8 g a f
+    b b16 a b8 a g b
+    c c16 b c8 b a f %15
+    b a16 b c8 b c c,
+    f f16 g f8 es! d c
+    b d16 c d8 b c d
+    es es16 d es8 g es d
+    c c16 b c8 d es c %20
+    f f16 es f8 g a g
+    f f16 es f8 f, f f'
+    b b16 a b8 c d b
+    es, es'16 d es8 es, d d'
+    \appoggiatura f,16 es8 d16 es f8 es f f, %25
+    b b'16 a b8 f d f
+    b, b'16 a b8 f d b
+    f' f16 es f8 g a g
+    f f16 e f8 c a f
+    b b'16 a b8 f d f %30
+    b, b'16 a b8 g c b
+    a a16 g a8 f g a
+    b a16 b c8 b c c,
+    f f16 g f8 es! d c
+    b b'16 a b8 b, d c %35
+    b b'16 a b8 b, c d
+    es es'16 d es8 es, d d'
+    c16 b a b c8 c, f, f'
+    b, b'16 a b8 f d f
+    b, b'16 a b8 b, d es %40
+    f f16 es f8 f, fis fis'
+    g g16 f g8 f es d
+    c c'16 b c8 c, cis cis'
+    d, d'16 c d8 c b g
+    c, c'16 b c8 c, g g' %45
+    fis, fis'16 e fis8 fis, g g'
+    c, b16 c d8 c d d
+    g, g'16 fis g8 d b d
+    g, g'16 fis g8 g, a b
+    c c'16 b c8 b a g %50
+    f! f16 es f8 f, g a
+    b b'16 a b8 b, c d
+    es es'16 d es8 es, d d'
+    c, c'16 b c8 b a f
+    b b16 a b8 c d b %55
+    es, d16 es f8 es f f,
+    b b'16 a b8 f d f
+    b, b'16 a b8 b, d b
+    f' f16 es f8 a b d,
+    es d16 es f8 es f f, %60
+    b'4 f8 c a f
+    g g'16 f g8 g, f f'
+    es es'16 d es8 es, d d'
+    f,16 es d es f8 es f f,
+    b b'16 a b8 f d b %65
+    f f'16 es f8 es d c
+    h h16 a h8 g c e16 g
+    c8 c16 b! c8 b a g
+    f f16 es! f8 a b f16 d
+    b8 b16 a b8 b c d %70
+    es es'16 d es8 es, d d'
+    es, d16 es f8 es f f,
+    b b'16 a b8 a g f
+    es d16 es f8 es f f,
+    b2 r4\fermata \bar "|." %75 finis
   }
 }
 
 LXXIcBassFigures = \figuremode {
-
+  r2 <6>4
+  q2.
+  r2 q4
+  <7 [4]>2 <7>4
+  r2. %5
+  r2 <6>4
+  r2 <6>4
+  <\tllur>16 <5> <\tllur> <6> <7 [4]>4 <7>
+  r2.
+  r4 <[6]> <_!> %10
+  <6>2.
+  r2 <6>4
+  r2 q4
+  r q2
+  <[4]>4 <_!> <6> %15
+  q <6 4> <5 _!>
+  r2.
+  r4 <6> q
+  \bo <[9 4]>4 \bc <[8 3]>2
+  r <6>4 %20
+  r2.
+  <5 3>4 <6 4> <7 5>
+  r2 <6>4
+  r2 <6>4
+  q <6 4> <[5] 3> %25
+  r2.
+  r
+  <6 4>4 <5 3>2
+  r2 <5>4
+  <9 4> <[8] 3>2 %30
+  r4 <6> <_!>
+  <6>2.
+  <6 5>4 <6 4> <5 _!>
+  r2 <[6]>4
+  r2 <6>4 %35
+  r2.
+  r2 <6>4
+  <\tllur>16 <5> <\tllur> <6> <7 [4]>4 <7>
+  r2.
+  r2 <6>4 %40
+  <6 4> <5 3> <6 5>
+  r2.
+  <6 5>2 <7 [_!]>4
+  <6 4> <[5] _+> <6>
+  <_->2 <5>4 %45
+  <6 5>2.
+  <6>4 <6 4> <[5] _+>
+  r2.
+  r2 <6!>8 <\t>
+  <[4]>4 <3>2 %50
+  r2 <6>8 <\t>
+  <9 4>4 <8 3>2
+  r2 <6>4
+  r2 q4
+  r2 q4 %55
+  <6 5> <6 4> <5 3>
+  r2.
+  r2 <6>4
+  <8 [6]>4. <5 3>4 <6>8
+  \bo <[9 7]>8 <\tllur \tllur>16 \bc <[8 6]> <6 4>4 <[5] 3> %60
+  r2.
+  <[7]>4 <6> q
+  <5>2 <6>4
+  <6 5> <6 4> <5 3>
+  <\t \t> <5 3>2 %65
+  r2 <5- 3>4
+  <6 5>2 <_!>4
+  <_->2.
+  <[7]>
+  r4 <8> <6->8 <\t> %70
+  r2 <6>4
+  q <6 4> <[5] _!>
+  <\t \t> <8 3>2
+  <6>4 <6 4> <5 3>
+  r2. %75 finis
 }
 
 LXXIdOrgano = {

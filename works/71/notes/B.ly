@@ -229,12 +229,161 @@ LXXIbBassoLyrics = \lyricmode {
 LXXIcBasso = {
   \relative c {
     \clef bass
-
+    \key b \major \time 3/4 \tempoLXXIc \autoBeamOff
+    \mvTr b'2\fE^\tuttiE b4
+    a2 a4
+    b2 b4
+    c2( f,4)
+    b2 r4 %5
+    b2 d,4
+    es es d
+    b c( f,)
+    b2 r4
+    b' b c %10
+    a a, r
+    g'4.( f8) e?([ c)]
+    f4.( g8) a4
+    b2 b4
+    c c a %15
+    b c( c,)
+    f2 r4
+    b, d8([ b)] c([ d)]
+    es2 es4
+    c2 es8([ c)] %20
+    f4 f r
+    f2 f4
+    b4. b,8 b4
+    es es8 es d4
+    es f2 %25
+    b, r4
+    b'2 b,4
+    f' f, r
+    f'2 f4
+    b b, r %30
+    b' g c
+    a4.( f8) g([ a)]
+    b4 c c,
+    f r d8([ c)]
+    b4 b d %35
+    b' b, d
+    es es8 es d4
+    b8 b c4( f,)
+    b2 r4
+    b'2 b,4 %40
+    f' f fis
+    g4. f8 es([ d)]
+    c2 cis4
+    d d b
+    c!4. c8 g'4 %45
+    fis4. fis8 g4
+    c,( d2)
+    g, r4
+    g'4. g8 a([ b)]
+    c4 c8([ b)] a g %50
+    f!4. f8 g([ a)]
+    b4 b, c8([ d)]
+    es4. es8 d4
+    c4. c8 a4
+    b4.( c8) d([ b)] %55
+    es4( f f,)
+    b2 r4
+    r b' b
+    f4.( a8) b4
+    es,( f) f %60
+    b f r
+    g2 f4
+    es2 d4
+    es( f f,)
+    b2 r4 %65
+    r f' d
+    h2 c4
+    r c' a
+    f2 b!4
+    r b, c8([ d)] %70
+    es2 d4
+    es( f2)
+    b r4
+    es, f f,
+    b2 r4\fermata \bar "|." %75 finis
   }
 }
 
 LXXIcBassoLyrics = \lyricmode {
-
+  Ho -- mo
+  qui -- dam
+  fe -- cit
+  coe --
+  nam, %5
+  coe -- nam
+  ma -- gnam fe --
+  cit ho --
+  mo,
+  et mi -- sit %10
+  ser -- vum,
+  ser -- vum
+  su -- um,
+  mi -- sit,
+  mi -- sit ser -- %15
+  vum su --
+  um,
+  et mi -- sit __
+  ser -- vum,
+  ser -- vum %20
+  su -- um
+  ho -- ra
+  di -- ce -- re,
+  di -- ce -- re in --
+  vi -- ta -- %25
+  tis
+  ut ve --
+  ni -- rent,
+  ut ve --
+  ni -- rent, %30
+  qui -- a pa --
+  ra -- ta __
+  sunt o -- mni --
+  a. Ve --
+  ni -- te, ve -- %35
+  ni -- te, ve --
+  ni -- te, com -- e --
+  di -- te pa --
+  nem,
+  pa -- nem %40
+  me -- um, et
+  bi -- bi -- te __
+  vi -- num
+  me -- um, quod
+  mi -- scu -- i, %45
+  mi -- scu -- i
+  vo --
+  bis,
+  bi -- bi -- te __
+  vi -- num et com -- %50
+  e -- di -- te __
+  pa -- nem, quod
+  mi -- scu -- i,
+  mi -- scu -- i
+  vo -- bis, __ %55
+  vo --
+  bis.
+  A -- men,
+  a -- men,
+  a -- men, %60
+  a -- men,
+  a -- men,
+  a -- men,
+  a --
+  men, %65
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men, %70
+  a -- men,
+  a --
+  men,
+  a -- _ _
+  men. %75 finis
 }
 
 LXXIdBasso = {

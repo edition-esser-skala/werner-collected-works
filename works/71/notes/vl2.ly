@@ -120,7 +120,82 @@ LXXIbViolinoII = {
 LXXIcViolinoII = {
   \relative c' {
     \clef treble
-
+    \key b \major \time 3/4 \tempoLXXIc
+    f2\fE f4
+    f2 f4
+    f2 b4
+    g2 c4
+    f,2 r4 %5
+    f2 f4
+    es8 f g a b4
+    d g, c
+    f,2 r4
+    f g g %10
+    a a r
+    g2 g4
+    f2 f4
+    f g2
+    g4 g f %15
+    f f e
+    f2 r4
+    f f8 d es! f
+    f es es2
+    es4. f8 g es %20
+    c4 c r
+    f2 f4
+    f4. f8 f4
+    g g8 a b4
+    b b a %25
+    b2 r4
+    f2 f4
+    f f r
+    f2 f4
+    f f r %30
+    f g g
+    f2 f4
+    f f e
+    f r f
+    f f f %35
+    f f f
+    g g8 a b4
+    b8 b b4 a
+    b2 r4
+    f2 f4 %40
+    f f a
+    g4. g8 g4
+    a2 g4
+    g\trill fis g
+    g4. g8 g4 %45
+    a4. a8 g4
+    a g fis
+    g2 r4
+    b4. b8 c d
+    g,4 g g8 g %50
+    a2 b8 c
+    f,4 f f
+    g4. a8 b f
+    g4. g8 a4
+    f2 b4 %55
+    b2 a4
+    b2 r4
+    r f f
+    f2 f4
+    g f f %60
+    f f r
+    b2 a4
+    g4. a8 b4
+    b2 a4
+    a b r %65
+    r a as
+    g2 g4
+    r g a!
+    a2 f4
+    r f es8 f %70
+    es f g a b4
+    g f2
+    f r4
+    g8 f16 es d4 c
+    d2 r4\fermata \bar "|." %75 finis
   }
 }
 

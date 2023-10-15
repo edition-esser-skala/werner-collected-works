@@ -229,12 +229,161 @@ LXXIbTenoreLyrics = \lyricmode {
 LXXIcTenore = {
   \relative c' {
     \clef "treble_8"
-
+    \key b \major \time 3/4 \tempoLXXIc \autoBeamOff
+    \mvTr d2\fE^\tuttiE d4
+    c2 c4
+    b2 b4
+    b2( a4)
+    b2 r4 %5
+    d2 b4
+    b b b
+    b b( a)
+    b2 r4
+    d d c %10
+    c c r
+    d2 c4
+    c2 c4
+    d2 d4
+    c c c %15
+    d c2
+    c r4
+    d b b
+    b2 b4
+    c( g) g %20
+    a a r
+    a( b) c
+    b4. b8 b4
+    b b8 b b4
+    g' f2 %25
+    d r4
+    d2 b4
+    \appoggiatura c8 b4\trillE a r
+    a2 c4
+    \appoggiatura d8 c4\trillE b r %30
+    d d c
+    c2 f4
+    d c4. c8
+    c4 r b
+    d d d %35
+    d d d
+    b b8 b b4
+    d8 d g,4( c)
+    f,2 r4
+    b2 b4 %40
+    b a d
+    d4. d8 d4
+    es2 e4
+    d d d
+    c4. c8 b([ c)] %45
+    d4. d8 d4
+    es!( d2)
+    d r4
+    d4. d8 d4
+    c c c8 c %50
+    c4. c8 c4
+    c b b
+    b4. b8 b4
+    c4. c8 c4
+    d2 d4 %55
+    g( f2)
+    d r4
+    r d d
+    d4.( c8) b4
+    \appoggiatura f'8 es4( d) c %60
+    d8([ b)] a4 r
+    b2 d4
+    es b2
+    g4( f2)
+    f r4 %65
+    r c' d
+    d2 c4
+    r c c
+    c2 b4
+    r d es8([ f)] %70
+    b,2 b4
+    b2( a4)
+    a( b2)
+    b8[ g] f2
+    f r4\fermata \bar "|." %75 finis
   }
 }
 
 LXXIcTenoreLyrics = \lyricmode {
-
+  Ho -- mo
+  qui -- dam
+  fe -- cit
+  coe --
+  nam, %5
+  coe -- nam
+  ma -- gnam fe --
+  cit ho --
+  mo,
+  et mi -- sit %10
+  ser -- vum,
+  ser -- vum
+  su -- um,
+  mi -- sit,
+  mi -- sit ser -- %15
+  vum su --
+  um,
+  et mi -- sit
+  ser -- vum,
+  ser -- vum %20
+  su -- um
+  ho -- ra
+  di -- ce -- re,
+  di -- ce -- re in --
+  vi -- ta -- %25
+  tis
+  ut ve --
+  ni -- rent,
+  ut ve --
+  ni -- rent, %30
+  qui -- a pa --
+  ra -- ta
+  sunt o -- mni --
+  a. Ve --
+  ni -- te, ve -- %35
+  ni -- te, ve --
+  ni -- te, com -- e --
+  di -- te pa --
+  nem,
+  pa -- nem %40
+  me -- um, et
+  bi -- bi -- te
+  vi -- num
+  me -- um, quod
+  mi -- scu -- i, __ %45
+  mi -- scu -- i
+  vo --
+  bis,
+  bi -- bi -- te
+  vi -- num et com -- %50
+  e -- di -- te
+  pa -- nem, quod
+  mi -- scu -- i,
+  mi -- scu -- i
+  vo -- bis, %55
+  vo --
+  bis.
+  \xE A -- men,
+  a -- men,
+  a -- men, %60
+  a -- men, \x
+  a -- men,
+  a -- men,
+  a --
+  men, %65
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men, %70
+  a -- men,
+  a --
+  men, __
+  a -- _
+  men. %75 finis
 }
 
 LXXIdTenore = {

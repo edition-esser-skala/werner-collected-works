@@ -74,8 +74,64 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "71·2" "Secunda statio"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \LXXIbViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \LXXIbViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \LXXIbSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \LXXIbSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \LXXIbAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \LXXIbAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \LXXIbTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \LXXIbTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \LXXIbBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \LXXIbBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \LXXIbOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \LXXIbBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "71·2" "Secunda statio"
+    \section "71·3" "Tertia statio"
     \addTocEntry
     \score { %\articulate
       <<
@@ -84,50 +140,50 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \LXXIbViolinoI
+              \LXXIcViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \LXXIbViolinoII
+              \LXXIcViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \LXXIbSoprano }
+            \new Voice = "Soprano" { \dynamicUp \LXXIcSoprano }
           }
-          \new Lyrics \lyricsto Soprano \LXXIbSopranoLyrics
+          \new Lyrics \lyricsto Soprano \LXXIcSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \LXXIbAlto }
+            \new Voice = "Alto" { \dynamicUp \LXXIcAlto }
           }
-          \new Lyrics \lyricsto Alto \LXXIbAltoLyrics
+          \new Lyrics \lyricsto Alto \LXXIcAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \LXXIbTenore }
+            \new Voice = "Tenore" { \dynamicUp \LXXIcTenore }
           }
-          \new Lyrics \lyricsto Tenore \LXXIbTenoreLyrics
+          \new Lyrics \lyricsto Tenore \LXXIcTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \LXXIbBasso }
+            \new Voice = "Basso" { \dynamicUp \LXXIcBasso }
           }
-          \new Lyrics \lyricsto Basso \LXXIbBassoLyrics
+          \new Lyrics \lyricsto Basso \LXXIcBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \LXXIbOrgano
+            \LXXIcOrgano
           }
         >>
-        \new FiguredBass { \LXXIbBassFigures }
+        \new FiguredBass { \LXXIcBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 70 }
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
+      \midi { \tempo 4 = 110 }
     }
   }
 }
