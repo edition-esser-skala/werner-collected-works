@@ -389,10 +389,123 @@ LXXIcTenoreLyrics = \lyricmode {
 LXXIdTenore = {
   \relative c' {
     \clef "treble_8"
-
+    \key c \major \time 3/4 \tempoLXXId \autoBeamOff
+    \mvTr c2\fE^\tuttiE c4
+    c c r
+    a2 a4
+    g g r
+    c2 c8([ d)] %5
+    d4 d h8([ e)]
+    e4 d d
+    d d r
+    c2 d4
+    d d h %10
+    d2 d4
+    e d2
+    d r4
+    d d d
+    g,2 g4 %15
+    d'2 c4
+    c d d
+    d2 c4
+    d d r
+    d d c %20
+    c4.( d8) c4
+    c d d
+    d d8 d e4
+    f( e) d8 d
+    e4 r r %25
+    c4. c8 c c
+    c8. c16 c4 r
+    d4. d8 d d
+    d8. d16 d8([ h)] c d
+    \appoggiatura d c4 h r %30
+    d e r
+    h c r
+    d2 c4
+    h h c
+    f e2 %35
+    e r4
+    e4. f8 f f
+    d4. d8 e4
+    h4. h8 c d
+    \appoggiatura d4 c4. c8 h4 %40
+    c( d) d
+    d d e
+    e8([ f)] e4( d)\trill
+    e r e~
+    e a, a8 a %45
+    a4 a c!(
+    d) g, g8 g
+    g4 g e'8 e
+    d2 c4
+    a( d) d %50
+    d d e
+    f e( d)
+    e e c
+    c2 c8([ b)]
+    a2 b4~ %55
+    b a2
+    g2.\fermata \bar "|." %57 finis
   }
 }
 
 LXXIdTenoreLyrics = \lyricmode {
-
+  Hic est
+  pa -- nis,
+  pa -- nis
+  vi -- vus
+  qui de __ %5
+  coe -- lo, de __
+  coe -- lo de --
+  scen -- dit,
+  qui de
+  coe -- lo, de %10
+  coe -- lo
+  de -- scen --
+  dit.
+  Non si -- cut
+  pa -- tres %15
+  ve -- stri
+  man -- du -- ca --
+  ve -- runt
+  man -- na,
+  man -- du -- ca -- %20
+  ve -- runt
+  man -- na et
+  mor -- tu -- i sunt,
+  \xE mor -- \x tu -- i
+  sunt, %25
+  si quis man -- du --
+  ca -- ve -- rit,
+  si quis man -- du --
+  ca -- ve -- rit ex hoc
+  pa -- ne, %30
+  vi -- vet,
+  vi -- vet,
+  vi -- vet,
+  vi -- vet in
+  ae -- ter -- %35
+  num.
+  Si quis man -- du --
+  ca -- ve -- rit,
+  si quis man -- du --
+  ca -- ve -- rit, %40
+  vi -- vet,
+  vi -- vet in
+  ae -- ter --
+  num, vi --
+  vet in ae -- %45
+  ter -- num, vi --
+  vet in ae --
+  ter -- num, in ae --
+  ter -- num,
+  vi -- vet, %50
+  vi -- vet in
+  ae -- ter --
+  num, vi -- vet,
+  vi -- vet __
+  in ae -- %55
+  ter --
+  num. %57 finis
 }

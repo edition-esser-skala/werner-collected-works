@@ -389,10 +389,123 @@ LXXIcSopranoLyrics = \lyricmode {
 LXXIdSoprano = {
   \relative c' {
     \clef treble
-
+    \key c \major \time 3/4 \tempoLXXId \autoBeamOff
+    \mvTr g'2\fE^\tuttiE c4
+    \appoggiatura h8 a4 g r
+    a( f') \appoggiatura e8 d4
+    \appoggiatura c8 h8.[( c32 d)] c4 r
+    e2 fis4 %5
+    g d e
+    \appoggiatura d8 c8.([ h32 c)] d4. c8
+    h8.([\trill c16)] d4 r
+    e2 fis4
+    g g8([ fis)] e([ d)] %10
+    \appoggiatura d4 c2 h4
+    \appoggiatura d16 c8([ h16 a)] g4( fis)
+    g2 r4
+    g a h
+    c( d) e %15
+    \appoggiatura g f!2 e4
+    e d c
+    h2 c4
+    d g, r
+    d' d e %20
+    \appoggiatura g f2 e4
+    e d c
+    h h8 h c4
+    c8([ d] c4) h8 h
+    c4 r r %25
+    g4. g8 a b
+    \appoggiatura c b8. a16 a4 r
+    a4. a8 f' d
+    \appoggiatura c h!8. c16 d4 e8 f
+    \appoggiatura f e4^\critnote d r %30
+    f e r
+    d c r
+    b2 a4
+    gis f'! e
+    \appoggiatura g!16 f8([ e16 d)] c4( h) %35
+    a2 r4
+    c4. c8 d c
+    h4. h8 c4
+    d4. d8 e f
+    \appoggiatura f4 e4. e8 d4 %40
+    e( d) c
+    h h c~
+    c8 d c4( h)\trillE
+    c r b~
+    b a g8 g %45
+    \appoggiatura g f8.([ g16)] a4 a~
+    a g f8 f
+    \appoggiatura f e8.([ f16)] g4 c8 c
+    \appoggiatura g'4 f2 e4
+    \appoggiatura e d2 c4 %50
+    \appoggiatura c8 h4 h c
+    \appoggiatura e8 d4 c( h)
+    c c b
+    a2 g4
+    f2 g4 %55
+    g( f2)
+    e2.\fermata \bar "|." %57 finis
   }
 }
 
 LXXIdSopranoLyrics = \lyricmode {
-
+  Hic est
+  pa -- nis,
+  pa -- nis
+  vi -- vus
+  qui de %5
+  coe -- lo, \xE de \x
+  coe -- lo de --
+  scen -- dit,
+  qui de
+  coe -- lo, __ de __ %10
+  coe -- lo
+  de -- scen --
+  dit.
+  Non si -- cut
+  pa -- tres %15
+  ve -- stri
+  man -- du -- ca --
+  ve -- runt
+  man -- na,
+  man -- du -- ca -- %20
+  ve -- runt
+  man -- na et
+  mor -- tu -- i sunt,
+  mor -- tu -- i
+  sunt, %25
+  si quis man -- du --
+  ca -- ve -- rit,
+  si quis man -- du --
+  ca -- ve -- rit ex hoc
+  pa -- ne, %30
+  vi -- vet,
+  vi -- vet,
+  vi -- vet,
+  vi -- vet in
+  ae -- ter -- %35
+  num.
+  Si quis man -- du --
+  ca -- ve -- rit,
+  si quis man -- du --
+  ca -- ve -- rit, %40
+  vi -- vet,
+  vi -- vet in __
+  ae -- ter --
+  num, vi --
+  vet in ae -- %45
+  ter -- num, vi --
+  vet in ae --
+  ter -- num, in ae --
+  ter -- num,
+  vi -- vet, %50
+  vi -- vet in
+  ae -- ter --
+  num, vi -- vet,
+  vi -- vet
+  in ae -- %55
+  ter --
+  num. %57 finis
 }

@@ -391,10 +391,124 @@ LXXIcBassFigures = \figuremode {
 LXXIdOrgano = {
   \relative c {
     \clef bass
+    \key c \major \time 3/4 \tempoLXXId
+    \mvTr c8\fE-\tuttiE c16 h c8 d e c
+    f a16 h c8 g e c
+    f, f'16 e d8 e f e16 f
+    g8 g, c c16 d e8 d
+    c c'16 h c8 h a d %5
+    h h16 a h8 a g e
+    a a16 g fis8 d e fis
+    g g16 a h8 a h g
+    c c16 h c8 a d c
+    h, h'16 a h8 h, g g' %10
+    fis, fis'16 e fis8 fis, g g'
+    c, c' d c d d,
+    g, g'16 fis g8 d h d
+    g, g'16 fis g8 g, f f'
+    e e' d, d' c, c' %15
+    h, h'16 a h8 g c c,
+    f f16 e f8 d e f
+    g g16 f g8 f f16 e d c
+    h8 h'16 a h8 h, a a'
+    g, h'16 a h8 g c h %20
+    a a16 g a8 h c c,
+    f f16 e f8 d e f
+    g g16 f g8 f e c
+    f e16 d g8 f g g,
+    c c'16 h c8 g e g %25
+    c, c'16 h c8 c, c c'
+    f,, f'16 e f8 f, e e'
+    d d16 c d8 d, d' f
+    g g16 f g8 g, g g'
+    c, e16 f g8 d h d %30
+    g a16 h c8 g e c
+    e fis16 gis a8 e c a
+    d d'16 c d8 d, dis dis'
+    e, e' d, d' c, c'
+    d, c16 d e8 d e e, %35
+    a a'16 gis a8 e c e
+    a, a'16 g a8 f d f
+    g g16 f g8 f e c
+    g g'16 f g8 g, g g'
+    c c16 h c8 e, g g, %40
+    e' d16 e f8 g a f
+    g g16 f g8 f e c
+    a' g16 f g8 f g g,
+    c c'16 h c8 g e g
+    cis, cis'16 h cis8 cis, cis cis' %45
+    d, d'16 c d8 d, c c'
+    h,! h'16 a h8 h, g g'
+    c, c16 h c8 d e c
+    g g'16 f g8 h c e,
+    f f16 e f8 f, fis fis' %50
+    g g16 f g8 f e c
+    f e16 f g8 f g g,
+    c c'16 h c8 c, c c'
+    c, c'16 h c8 c, c c'
+    f,2 e4 %55
+    f2.
+    c\fermata \bar "|." %57 finis
 
   }
 }
 
 LXXIdBassFigures = \figuremode {
-
+  r2 <6>4
+  \bo <[9 4]>8 <6> r2
+  r \bc <[7 _]>8 <6>
+  <7>2.
+  r2 <6\\>4 %5
+  <6>2 q4
+  r q4. <6 5>8
+  r4 <6>2
+  \bo <[5]>4 \bc <[6]> <_+>8 <\t>
+  <[6]>4. <5\+>8 <6> <5> %10
+  <6 5>2.
+  <6>4 \bo <[6] 4> \bc <[5] _+>
+  r2.
+  \bo <[3 1]>4 \bc <[4 2]> <4 2>
+  <6> q2 %15
+  <6 5>2.
+  <7>4 <6>2
+  r <[5 2]>4
+  <6>2.
+  r %20
+  \bo <[7 _]>4 <6>8 \bc <[6 5]>4.
+  <7>4 <6>2
+  r q4
+  r \bo <[6] 4> \bc <[5] 3>
+  r2. %25
+  r2 \bo <[6 4]>8 \bc <[7- 5]>
+  <\t \t>4 <5 3>2
+  r2 r8 <6>
+  <[_!]>2 <6 4>8 <7 5>
+  \bo <[9 4]>8 \bc <[6 _]> r2 %30
+  <7>2.
+  <7 _+>
+  <6->2 <[7] _+>4
+  <[5!] _+> <4\+ _!> <6>
+  q \bo <[6] 4> \bc <[5] _+> %35
+  r2.
+  r4. <5>8 q q
+  r2 <6>4
+  r2 \bo <[6 4]>8 <7 5>
+  <9 4>4 \bc <[8 3]>2 %40
+  <[6]>4 <6>2
+  r <6>4
+  r <6 4> <5 3>
+  r2 <5->4
+  <7- 5> <6 4> <5 3> %45
+  r2 <6 4>4
+  <7 5> <6 4> <7 5 3>
+  r4. \bo <[6]>8 \bc q4
+  <7>2.
+  <[7]>4 <6> <5> %50
+  \bo <[4]>8 \bc <[3]>4. <6>4
+  <[7]>8 <6> \bo <[6] 4>4 \bc <[5] 3>
+  r <8 6> <7- 5>
+  <6 4>2 <5 3>4
+  r2 <6 5->4 %55
+  <9 4-> <8 3>2
+  r2. %57 finis
 }

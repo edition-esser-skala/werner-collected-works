@@ -3,6 +3,7 @@
 tempoLXXIa = \tempoMarkup "Andante"
 tempoLXXIb = \tempoMarkup "Andante"
 tempoLXXIc = \tempoMarkup "Un poco allegro"
+tempoLXXId = \tempoMarkup "Un poco allegro"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

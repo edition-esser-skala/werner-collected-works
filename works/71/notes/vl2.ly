@@ -202,6 +202,63 @@ LXXIcViolinoII = {
 LXXIdViolinoII = {
   \relative c' {
     \clef treble
-
+    \key c \major \time 3/4 \tempoLXXId
+    e2\fE g4
+    \appoggiatura g8 f4 e r
+    f2 f4
+    f e r
+    g2 a4 %5
+    g g h
+    a a8 fis g a
+    g4 g r
+    g a2
+    g4 g g %10
+    a2 g4
+    \appoggiatura fis16 e8^\critnote d16 c h4 a
+    h2 r4
+    h c d
+    e f! g %15
+    g2 g4
+    a a8 f g a
+    g2 g4
+    g g r
+    g g g %20
+    a4. g8 g4
+    a a8 f g a
+    g4 g8-\critnote g g4
+    a g g8 g
+    g4 r r %25
+    e4. e8 f g
+    g8. f16 f4 r
+    f4. f8 f a
+    g8. g16 g4 g8 g
+    g4 g r %30
+    h g r
+    gis e r
+    f2 fis4
+    e gis a
+    a8 h a4 gis %35
+    a2 r4
+    a4. a8 a a
+    g!4. g8 g4
+    g4. g8 g g
+    g4. g8 g4 %40
+    g a e8 a
+    g4 g g
+    a g2
+    g4 r g~
+    g f e8 e %45
+    d8.\trill e16 f4 f~
+    f e d8 d
+    c8.\trill d16 e8 f g g
+    g2 g4
+    a2 a4 %50
+    g g g
+    a g2
+    g4 a g
+    f2 e8 d
+    c2 c4~ %55
+    c c2
+    c2.\fermata \bar "|." %57 finis
   }
 }

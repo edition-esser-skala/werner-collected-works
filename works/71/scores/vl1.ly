@@ -7,11 +7,39 @@
 
 \book {
   \bookpart {
-    \section "LXXI" ""
+    \section "71·1" "Prima statio"
     \addTocEntry
     \score {
       <<
-        \new Staff { \LXXIViolinoI }
+        \new Staff { \LXXIaViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "71·2" "Secunda statio"
+    \addTocEntry
+    \paper { systems-per-page = #7 }
+    \score {
+      <<
+        \new Staff { \LXXIbViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "71·3" "Tertia statio"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \LXXIcViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "71·4" "Quarta statio"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \LXXIdViolinoI }
       >>
     }
   }
