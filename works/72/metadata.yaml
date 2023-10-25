@@ -1,0 +1,40 @@
+title: 4 Offertoria
+id: Hárich deest · A-Ed F 32a
+genre: offertorium
+festival: Corpus Christi
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: F 32a
+    rism: 600038319
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/968.html
+    license: public domain
+    principal: true
+toe: |
+  – & – & After every movement in the vocal parts, \B1 contains antiphons for the four stations (see below). \\
+  1·11f & org & notes in treble ottavo clef added by editor \\
+  2·17  & org & bar in \B1: \flat B1–G2 \\
+lyrics: |
+  \textsb{1}\\
+  O salutaris hostia,\\
+  quae coeli pandis ostium:\\
+  bella premunt hostilia,\\
+  da robur, fer auxilium.\\
+  Uni trinoque Domino\\
+  sit sempiterna gloria,\\
+  qui vitam sine termino\\
+  nobis donet in patria.\\
+  Amen.\\[\baselineskip]
+  \textsb{Statio 1ma}\\
+  V: Cibavit eos ex adipe frumenti, alleluia.\\
+  R: Et de petra, melle saturavit eos, alleluia.\\[\baslineskip]
+  \textsb{2}\\
+  Da pacem, Domine in diebus nostris,\\
+  quia non est alius qui pugnet pro nobis,\\
+  nisi tu Deus noster.\\
+  Alleluia.\\[\baselineskip]
+  \textsb{Statio 2da}\\
+  V: Panem coeli didit eis, alleluia.\\
+  R: Panem Angelorum manducavit homo, alleluia.\\[\baslineskip]
