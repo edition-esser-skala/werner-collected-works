@@ -309,11 +309,163 @@ LXXIIcTenore = {
   \relative c' {
     \clef "treble_8"
     \key a \minor \time 4/4 \tempoLXXIIc \autoBeamOff
+    R1*3
+    r2 r4 \mvTr a~\fE^\tuttiE
+    a a c2 %5
+    h4 e2 d4
+    c2 h
+    a4. a8 e'4 e,
+    r d'2 c4
+    h2 a %10
+    h4 c d2
+    g,4 c2 h4
+    a2 h4 e~
+    e d8([ c)] h4 c~
+    c h c2 %15
+    R1
+    r2 r4 g
+    g c a2~
+    a4 d h g
+    r2 r4 a %20
+    a d2 h4~
+    h g c2
+    a r
+    r4 g g c
+    a2. d4 %25
+    h( a2 gis4)
+    a2 r
+    R1*4 %31
+    r2 r4 g
+    a2 g4 e'~
+    e d c2
+    h4 c a2 %35
+    g r4 g
+    a f2 e4
+    f2 g4 c
+    h2 a
+    r4 h c e %40
+    d4. c8 h4 d
+    g, c a2
+    r4 h c e
+    d4. c8 h2
+    c d4 h %45
+    h c2 h4
+    a4. a8 h2
+    r4 h c2
+    h r4 h
+    c2 h %50
+    r4 c c4. c8
+    d2 r4 h
+    h4. h8 c2
+    a c
+    R1 %55
+    r4 c a4. a8
+    d4 h2 g4
+    c2 a
+    R1
+    r2 r4 c %60
+    a h8 c f,4 f
+    R1
+    r4 d' h4. h8
+    e4 c2 a4
+    a f r2 %65
+    g4 c4. c8 a4
+    gis( a2 gis4)
+    a r a a~
+    a^\critnote g!8 g c2
+    h4 e a,4. h8 %70
+    c4. d8 e4 c
+    d2 c4 c8([ d]
+    e4) d2 r4
+    r4 d a4. h8
+    c2 g %75
+    R1
+    r4 a gis4. a8
+    h4 c8([ d)] e2
+    e4 cis2 d8([ e)]
+    f4.( e8 d4) cis %80
+    d1
+    cis\fermata \bar "|." %82 finis
   }
 }
 
 LXXIIcTenoreLyrics = \lyricmode {
+  Ho -- %4
+  mo qui -- %5
+  dam fe -- cit
+  coe -- nam,
+  coe -- nam ma -- gnam,
+  fe -- cit
+  coe -- nam, %10
+  coe -- nam ma --
+  gnam, fe -- cit
+  coe -- nam, fe --
+  cit __ coe -- nam __
+  ma -- gnam, %15
 
+  et
+  mi -- sit ser --
+  vum su -- um,
+  et %20
+  mi -- sit ser --
+  vum su --
+  um,
+  et mi -- sit
+  ser -- vum %25
+  su --
+  um
+
+  ut %32
+  ve -- ni -- rent, __
+  ve -- ni --
+  rent, ve -- ni -- %35
+  rent, ut
+  ve -- ni -- _
+  _ rent, ve --
+  ni -- rent,
+  qui -- a pa -- %40
+  ra -- ta sunt, pa --
+  ra -- ta sunt,
+  qui -- a pa --
+  ra -- ta sunt,
+  qui -- a pa -- %45
+  ra -- ta sunt
+  o -- mni -- a.
+  Ve -- ni --
+  te, ve --
+  ni -- te, %50
+  com -- e -- di --
+  te, com --
+  e -- di -- te
+  pa -- nem,
+  %55
+  et bi -- bi --
+  te vi -- num,
+  vi -- num,
+
+  com -- %60
+  e -- di -- te pa -- nem,
+
+  et bi -- bi --
+  te vi -- num
+  me -- um, %65
+  et bi -- bi -- te
+  vi --
+  num, quod mi --
+  scu -- i vo --
+  bis, a -- _ _ %70
+  _ _ _ men,
+  a -- men, a --
+  men,
+  a -- _ _
+  _ men, %75
+
+  a -- _ _
+  _ men, a --
+  men, a -- men,
+  a -- men, %80
+  a --
+  men. %82 finis
 }
 
 LXXIIdTenore = {

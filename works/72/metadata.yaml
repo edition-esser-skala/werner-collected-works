@@ -16,6 +16,7 @@ toe: |
   – & – & After every movement in the vocal parts, \B1 contains antiphons for the four stations (see below). \\
   1·11f & org & notes in treble ottavo clef added by editor \\
   2·17  & org & bar in \B1: \flat B1–G2 \\
+  3·69  & T   & 1st \halfNote\ in \B1: a8–g8–g4 \\
 lyrics: |
   \textsb{1}\\
   O salutaris hostia,\\
@@ -38,3 +39,14 @@ lyrics: |
   \textsb{Statio 2da}\\
   V: Panem coeli didit eis, alleluia.\\
   R: Panem Angelorum manducavit homo, alleluia.\\[\baslineskip]
+  \textsb{3}\\
+  Homo quidam fecit coenam magnam,\\
+  et misit servum suum hora\\
+  dicere invitatis ut venirent,\\
+  quia parata sunt omnia.\\
+  Venite, comedite panem meum,\\
+  et bibite vinum meum, quod miscui vobis.\\
+  (\bibleverse{Luk}(14:16-17), \bibleverse{Pro}(9:5))\\[\baselineskip]
+  \textsb{Statio 3tia}\\
+  V: Panem de coelo praestisti eis, alleluia.\\
+  R: Omne delecta mentum in se habentem, alleluia.\\[\baslineskip]

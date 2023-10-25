@@ -161,6 +161,88 @@ LXXIIcViolinoI = {
   \relative c' {
     \clef treble
     \key a \minor \time 4/4 \tempoLXXIIc
+    a'2.\fE a4
+    c2 h4 e~
+    e d c2
+    h a8 h c4~
+    c8 a c d e2 %5
+    e, r
+    r r4 e'~
+    e d c e
+    a,2 a
+    r4 e'2 d4~ %10
+    d c2 h4
+    c2 r4 d~
+    d c h2
+    a g
+    g r4 g %15
+    g c a2~
+    a4 d2 h4~
+    h g r2
+    r r4 h
+    h e c2 %20
+    f d~
+    d4 g e c
+    r a a d
+    h2 e
+    c4 a d2~ %25
+    d4 c h2
+    a4 a2 h4
+    c a h4. a8
+    g4 c2 a4
+    d4. c8 h a g4~ %30
+    g8 f e4 f2
+    e d4 e
+    f8 g a h c2
+    r4 g a2
+    g4 e'2 d4 %35
+    c2 h4 h
+    c2 d4 e
+    a, h c2
+    d4 e2 d4
+    e2 r %40
+    r r4 h
+    c e d4. c8
+    h2 a4. a8
+    g4 r r g
+    a c h4. a8 %45
+    g2 fis4 g~
+    g fis g d'
+    g2 g,
+    r4 h e2
+    e, r4 e' %50
+    c d8 e a,2
+    a4 d h c8 d
+    g,2 g
+    a g4 c
+    a4. a8 d4 h~ %55
+    h g c a~
+    a d h4. h8
+    e2 c
+    a r4 d
+    h c8 d g,4 g %60
+    c a2 d4
+    h4. h8 e4 c~
+    c a d h
+    g2 r
+    r4 d' h4. h8 %65
+    e4 c a d~
+    d c h2
+    a r
+    R1
+    r2 a4 a~ %70
+    a g8 g c2
+    h4 d a4. h8
+    c2. h4
+    a2 r
+    r4 e' h4. c8 %75
+    d4 d a4. h8
+    c2 h4 e~
+    e8 d c4 h2
+    a4 e a2
+    a2. a4 %80
+    a1
+    a\fermata \bar "|." %82 finis
   }
 }
 

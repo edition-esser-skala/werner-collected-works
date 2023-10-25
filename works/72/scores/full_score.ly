@@ -13,7 +13,7 @@
   markup-system-spacing.minimum-distance = #10
   system-system-spacing.minimum-distance = #19.5
   system-system-spacing.minimum-distance = #19.5
-  % systems-per-page = #2
+  systems-per-page = #2
 }
 
 \book {
@@ -183,7 +183,7 @@
         \new FiguredBass { \LXXIIcBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 110 }
+      \midi { \tempo 2 = 90 }
     }
   }
   % \bookpart {

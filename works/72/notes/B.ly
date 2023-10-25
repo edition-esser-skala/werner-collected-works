@@ -296,11 +296,161 @@ LXXIIcBasso = {
   \relative c {
     \clef bass
     \key a \minor \time 4/4 \tempoLXXIIc \autoBeamOff
+    R1*4
+    r2 r4 \mvTr e~\fE^\tuttiE %5
+    e e f2
+    e4 a2 g!4
+    f2 e
+    d a4 a'~
+    a g f2 %10
+    e d
+    c4 c g'2
+    a e
+    f4. f8 g4 c
+    g,2 c %15
+    R1*2
+    r4 c c f
+    d2 g
+    e4 c r2 %20
+    R1
+    r2 r4 c
+    c f d2
+    g e4 c
+    f2 d %25
+    e4 a, e2
+    a r
+    R1*3 %30
+    r4 c d2
+    c4 a'2 g4
+    f2 e4 c8([ d)]
+    e([ fis] g2 fis4)
+    g c, f2 %35
+    e r
+    r r4 c
+    d2 c4 a'~
+    a g f2
+    e r4 e %40
+    f a g!4. f8
+    e4 c d2
+    e4 g a c
+    h4. a8 g4 e
+    f a g4. f8 %45
+    e2 d~
+    d4 d g,2
+    r4 g' c2
+    g r4 e
+    a2 e %50
+    r4 a f g!8 a
+    d,4 d r g
+    e f8 g c,4 c
+    f2 c
+    R1 %55
+    r2 r4 f
+    d4. d8 g4 e~
+    e c r2
+    r4 d h c8 d
+    g,4 g r2 %60
+    r4 f' d4. d8
+    g4 e c2
+    r r4 g'
+    e4. e8 a4 f
+    d2 g %65
+    c, f
+    e4( a) e2
+    a, r
+    r e'4 e~
+    e d8 c f2 %70
+    e r4 a
+    d,4. e8 f2
+    e4 f( g2)
+    d f
+    c r4 g'( %75
+    d4. e8) f4 f
+    c4. d8 e2~
+    e4 a e2
+    a,4 a'4. g!8 f4~
+    f8[ e d cis] d4 a' %80
+    d,1
+    a\fermata \bar "|." %82 finis
   }
 }
 
 LXXIIcBassoLyrics = \lyricmode {
+  Ho -- %5
+  mo qui --
+  dam fe -- cit
+  coe -- nam
+  ma -- gnam, fe --
+  cit coe -- %10
+  nam ma --
+  gnam, fe -- cit
+  coe -- nam,
+  fe -- cit coe -- nam
+  ma -- gnam, %15
 
+  et mi -- sit %18
+  ser -- vum
+  su -- um, %20
+
+  et
+  mi -- sit ser --
+  vum su -- um,
+  ser -- vum, %25
+  ser -- vum su --
+  um
+
+  ut ve -- %31
+  ni -- rent, ve --
+  ni -- rent, ve --
+  ni --
+  rent, ve -- ni -- %35
+  rent,
+  ut
+  ve -- ni -- rent, __
+  ve -- ni --
+  rent, qui -- %40
+  a pa -- ra -- ta
+  sunt, pa -- ra --
+  ta, qui -- a pa --
+  ra -- ta sunt, qui --
+  a pa -- ra -- ta %45
+  sunt o --
+  mni -- a.
+  Ve -- ni --
+  te, ve --
+  ni -- te, %50
+  com -- e -- di -- te
+  pa -- nem, com --
+  e -- di -- te pa -- nem
+  me -- um,
+  %55
+  et
+  bi -- bi -- te vi --
+  num,
+  com -- e -- di -- te
+  pa -- nem, %60
+  et bi -- bi --
+  te vi -- num,
+  et
+  bi -- bi -- te vi --
+  num me -- %65
+  um, vi --
+  num __ me --
+  um,
+  quod mi --
+  scu -- i vo -- %70
+  bis, a --
+  _ _ _
+  men, a --
+  men, a --
+  men, a -- %75
+  men, a --
+  _ _ _
+  men, a --
+  men, a -- _ _
+  _ men, %80
+  a --
+  men. %82 finis
 }
 
 LXXIIdBasso = {

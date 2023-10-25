@@ -312,11 +312,173 @@ LXXIIcAlto = {
   \relative c' {
     \clef treble
     \key a \minor \time 4/4 \tempoLXXIIc \autoBeamOff
+    R1
+    \mvTr e2.\fE^\tuttiE e4
+    f2 e4 a~
+    a g f2
+    e4 a2 gis8[ fis] %5
+    gis2 a
+    R1
+    r4 a2 g!4
+    f2 e
+    d4( e) f a %10
+    g2 f4( d)
+    e2 r
+    r4 a2 g4
+    f2 d4( e)
+    d2 e %15
+    r4 c c f
+    d2 g
+    e c
+    f d4 g
+    g e e a~ %20
+    a f2 d4
+    g2. e4
+    e c f2
+    d r4 c
+    c f f2 %25
+    e e
+    e r4 e~
+    e fis g! d
+    e4. d8 c4 f~
+    f d g4. f8 %30
+    e[ d] c2 h4
+    c2 h4 h
+    c4. d8 e4. fis8
+    g[ a] h4 e, a
+    d, r r2 %35
+    r4 c d2
+    c4 a'2 g4
+    f2 e
+    f4( g) a2
+    gis r %40
+    R1
+    r4 e f a
+    g!4. f8 e2
+    r4 d e g
+    f e8([ f)] g4 d %45
+    e2 a,4 d
+    d4. d8 d2
+    r4 d e2
+    d r4 gis
+    a2 gis %50
+    r r4 a
+    f g!8 a d,4 d
+    r g e f8 g
+    c,4( d) e2
+    r4 f d4. d8 %55
+    g4 e2 c4
+    f2 d4 g~
+    g e4. e8 a4
+    f2 d
+    r4 g e f8 g %60
+    c,4 f2 f4
+    d g e4. e8
+    a4 f d2
+    r4 e c4. c8
+    f2 d4 g~ %65
+    g e c r
+    r2 e4 e~
+    e d8 c f2
+    e4 e2 g4~
+    g f8 e e4( d) %70
+    e2 r
+    R1
+    r4 a d,4. e8
+    f2 c4 c8[ d]
+    e[ f] g2 d4 %75
+    r f c4. d8
+    e4. fis8 gis8[ a h a]
+    gis4 a2( gis4)
+    a2 r4 a
+    d,4. e8 f!4 e %80
+    f1
+    e\fermata \bar "|." %82 finis
   }
 }
 
 LXXIIcAltoLyrics = \lyricmode {
+  Ho -- mo %2
+  qui -- dam fe --
+  cit coe --
+  nam ma -- _ %5
+  _ gnam,
 
+  fe -- cit
+  coe -- nam
+  ma -- gnam, fe -- %10
+  cit coe --
+  nam,
+  fe -- cit
+  coe -- nam __
+  ma -- gnam, %15
+  et mi -- sit
+  ser -- vum
+  su -- um,
+  ser -- vum su --
+  um, et mi -- sit __ %20
+  ser -- vum
+  su -- um,
+  ser -- vum su --
+  um, et
+  mi -- sit ser -- %25
+  vum su --
+  um ho --
+  ra coe -- nae
+  di -- ce -- re in --
+  vi -- ta -- _ %30
+  _ _ _
+  tis, in -- vi --
+  ta -- _ _ _
+  _ _ _ _
+  tis %35
+  ut ve --
+  ni -- rent, ve --
+  ni -- rent,
+  ve -- ni --
+  rent, %40
+
+  qui -- a pa --
+  ra -- ta sunt,
+  qui -- a pa --
+  ra -- ta __ sunt, pa -- %45
+  ra -- ta sunt
+  o -- mni -- a.
+  Ve -- ni --
+  te, ve --
+  ni -- te, %50
+  com --
+  e -- di -- te pa -- nem,
+  com -- e -- di -- te
+  pa -- nem,
+  et bi -- bi -- %55
+  te vi -- num,
+  vi -- num, et __
+  bi -- bi -- te
+  vi -- num,
+  com -- e -- di -- te %60
+  pa -- nem me --
+  um, et bi -- bi --
+  te vi -- num,
+  et bi -- bi --
+  te vi -- num __ %65
+  me -- um,
+  quod mi --
+  scu -- i vo --
+  bis, quod mi --
+  scu -- i vo -- %70
+  bis,
+
+  a -- _ _
+  _ men, a --
+  _ _ men, %75
+  a -- _ _
+  _ _ _
+  men, a --
+  men, a --
+  _ _ _ men, %80
+  a --
+  men. %82 finis
 }
 
 LXXIIdAlto = {
