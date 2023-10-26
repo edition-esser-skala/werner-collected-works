@@ -481,10 +481,117 @@ LXXIIcSopranoLyrics = \lyricmode {
 LXXIIdSoprano = {
   \relative c' {
     \clef treble
-
+    \key g \major \time 4/4 \tempoLXXIId \autoBeamOff
+    \mvTr d'4\fE^\tuttiE e d8 g, c4
+    h8 d4 c16([ h)] a8( d4 cis8)
+    d h4( a8) h4 r
+    r2 a4 h
+    a8 d, g4 fis2 %5
+    r8 a h4 a8 d, g4
+    fis8 h4 a g a8
+    fis g a4 d, d'
+    cis8 d4( cis8) d4 r
+    r2 r8 d4 e8 %10
+    d([ c!)] h d4 c( h8)
+    c e a, d4 c8 h4
+    c8 a h([ c] d[ c16 h] c4)
+    h r r8 g a a
+    h g c4. h8 a([ d)] %15
+    h c a d4( h8) a4
+    r8 g a a h g c!4~
+    c8 h a4 g8 g16([ a] h[ cis)] d8
+    e4 a, r2
+    R1 %20
+    r4 r8 d d h e8.([ d16)]
+    cis8 d4( cis8) d4 r
+    R1
+    r8 a4( h8) c!4 c8 c
+    h h4( cis8) d2~ %25
+    d8 d c4 h h8 h
+    a4. h8 cis4 h~
+    h8 h ais4 h h~
+    h8 h e d! c!4. c8
+    h g4 a8 h8. h16 e,4 %30
+    R1
+    r2 r4 h'~
+    h8 h e d! c4. c8
+    h2 r
+    r r8 c4 d8 %35
+    e h e4. d8 d4~
+    d8 d c a h2
+    a4 a4. a8 g4~
+    g fis g r
+    r g4. h8 fis g %40
+    a e a2 g4
+    fis4.( e16[ d] e2)
+    fis4 d'2 d,4
+    r2 r4 e'~
+    e d d8 h d[ c16 h] %45
+    a8[ h] c2 h4
+    a d, r2
+    r4 h' a d~
+    d c h e
+    d4.( e8) fis fis g4 %50
+    fis g2( fis4)
+    g e2 d4
+    e1
+    d\fermata \bar "|." %54 finis
   }
 }
 
 LXXIIdSopranoLyrics = \lyricmode {
+  Hic est pa -- nis vi --
+  vus, pa -- nis vi --
+  vus, pa -- nis,
+  hic est
+  pa -- nis vi -- vus, %5
+  hic est pa -- nis vi --
+  vus, pa -- nis vi -- vus,
+  pa -- nis vi -- vus, pa --
+  nis vi -- vus
+  qui de %10
+  coe -- lo de -- scen --
+  dit, de -- scen -- _ _ _
+  dit, de -- scen --
+  dit. Non si -- cut
+  pa -- tres, pa -- tres ve -- %15
+  stri, pa -- tres ve -- stri,
+  non si -- cut pa -- tres, pa --
+  tres ve -- stri, pa -- tres
+  ve -- stri
+  %20
+  man -- du -- ca -- ve --
+  runt man -- na
 
+  et __ mor -- tu -- i
+  sunt, et __ mor -- %25
+  tu -- i, mor -- tu -- i
+  sunt, et mor -- _
+  tu -- i sunt. Si __
+  quis man -- du -- ca -- ve --
+  rit, man -- du -- ca -- ve -- rit, %30
+
+  si __
+  quis man -- du -- ca -- ve --
+  rit
+  ex hoc %35
+  pa -- ne, vi -- vet, vi --
+  vet in ae -- ter --
+  num, in ae -- ter --
+  _ num,
+  vi -- vet in ae -- %40
+  ter -- num, in ae --
+  ter --
+  num, vi -- vet,
+  vi --
+  vet in ae -- ter -- %45
+  _ _ _
+  _ num,
+  in ae -- ter --
+  _ num, in
+  ae -- ter -- num, in %50
+  ae -- ter --
+  num, in ae --
+  ter --
+  num. %54 finis
 }

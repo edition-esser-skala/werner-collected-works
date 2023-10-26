@@ -456,10 +456,110 @@ LXXIIcBassoLyrics = \lyricmode {
 LXXIIdBasso = {
   \relative c {
     \clef bass
-
+    \key g \major \time 4/4 \tempoLXXIId \autoBeamOff
+    R1*2
+    r2 \mvTr g'4\fE^\tuttiE h
+    a8 d, g4 fis g~
+    g8 fis e4 d r %5
+    r2 d4 e
+    d8 g, c!4 h c~
+    c8 h a4 g8 g'4 h8
+    a d, a4 d r
+    r2 r4 r8 g~ %10
+    g a g[( f)] e a d,4
+    c r r r8 e
+    a, d4 c8 h4 a
+    g8 h e([ fis] g4. fis8)
+    g4 r r r8 d %15
+    e e fis d g4. fis8
+    e4 d r2
+    r8 g g fis h8.([ a16] g8) fis
+    e4 d r8 a' a gis
+    c!8.([ h16] a8) g fis4 e %20
+    r8 g g fis h8.[ a16] g4~
+    g8 fis e4 d r
+    r8 e4( fis8) g4. g8
+    d2 a'4. a8
+    e2 r8 h'4( a8) %25
+    gis4 a8 a e2
+    r8 c'4( h8) ais4 h
+    fis2 h,
+    r4 c8 d e4 a!
+    g4.( fis8 e4) e %30
+    d r r2
+    R1
+    r2 r4 e~
+    e8 e h' a g4. g8
+    fis fis4 gis8 a e a4~ %35
+    a8 g e g fis h, h' a
+    gis4 a e2
+    a,8 a'4 g8 fis4 g
+    d2 g,4 r
+    R1*3 %42
+    d'4. e8 fis4( g)
+    d2 r
+    r4 d4. e8 h c %45
+    d g, e'4 d g~
+    g fis e4. fis8
+    g2 d
+    a'4. a8 e4. fis8
+    g[ a h c] d4 g, %50
+    d g d2
+    g,4 c2 g'4
+    c,1
+    g\fermata \bar "|." %54 finis
   }
 }
 
 LXXIIdBassoLyrics = \lyricmode {
+  Hic est %3
+  pa -- nis vi -- vus, pa --
+  nis vi -- vus, %5
+  hic est
+  pa -- nis vi -- vus, pa --
+  nis vi -- vus, hic est
+  pa -- nis vi -- vus
+  qui __ %10
+  de coe -- lo de -- scen --
+  dit, de --
+  scen -- _ _ _ _
+  dit, de -- scen --
+  dit. Non %15
+  si -- cut pa -- tres, pa -- tres
+  ve -- stri
+  man -- du -- ca -- ve -- runt
+  man -- na, man -- du -- ca --
+  ve -- runt man -- na, %20
+  man -- du -- ca -- ve -- _
+  runt man -- na
+  et __ mor -- tu --
+  i, mor -- tu --
+  i, et __ %25
+  mor -- tu -- i sunt,
+  et __ mor -- tu --
+  i sunt.
+  Si quis man -- du --
+  ca -- ve -- %30
+  rit,
 
+  si __
+  quis man -- du -- ca -- ve --
+  rit ex hoc pa -- ne, vi -- %35
+  vet in ae -- ter -- num, vi -- vet
+  in ae -- ter --
+  num, vi -- vet in ae --
+  ter -- num,
+
+  in ae -- ter -- %43
+  num,
+  vi -- vet in ae -- %45
+  ter -- num, in ae -- ter --
+  num, in ae --
+  ter -- num,
+  in ae -- ter -- _
+  _ _ num, %50
+  in ae -- ter --
+  num, in ae --
+  ter --
+  num. %54 finis
 }

@@ -13,9 +13,10 @@ sources:
     license: public domain
     principal: true
 toe: |
-  – & – & After every movement in the vocal parts, \B1 contains antiphons for the four stations (see below). \\
+  –     & –   & After every movement in the vocal parts, \B1 contains lyrics
+                for antiphons at each station (see below). \\
   1·11f & org & notes in treble ottavo clef added by editor \\
-  2·17  & org & bar in \B1: \flat B1–G2 \\
+  2·17  & org & bar in \B1: \flat B1–G2 \\*
   3·69  & T   & 1st \halfNote\ in \B1: a8–g8–g4 \\
 lyrics: |
   \textsb{1}\\
@@ -30,7 +31,7 @@ lyrics: |
   Amen.\\[\baselineskip]
   \textsb{Statio 1ma}\\
   V: Cibavit eos ex adipe frumenti, alleluia.\\
-  R: Et de petra, melle saturavit eos, alleluia.\\[\baslineskip]
+  R: Et de petra, melle saturavit eos, alleluia.\\[\baselineskip]
   \textsb{2}\\
   Da pacem, Domine in diebus nostris,\\
   quia non est alius qui pugnet pro nobis,\\
@@ -38,7 +39,7 @@ lyrics: |
   Alleluia.\\[\baselineskip]
   \textsb{Statio 2da}\\
   V: Panem coeli didit eis, alleluia.\\
-  R: Panem Angelorum manducavit homo, alleluia.\\[\baslineskip]
+  R: Panem Angelorum manducavit homo, alleluia.\\[\baselineskip]
   \textsb{3}\\
   Homo quidam fecit coenam magnam,\\
   et misit servum suum hora\\
@@ -49,4 +50,12 @@ lyrics: |
   (\bibleverse{Luk}(14:16-17), \bibleverse{Pro}(9:5))\\[\baselineskip]
   \textsb{Statio 3tia}\\
   V: Panem de coelo praestisti eis, alleluia.\\
-  R: Omne delecta mentum in se habentem, alleluia.\\[\baslineskip]
+  R: Omne delecta mentum in se habentem, alleluia.\clearpage
+  \textsb{4}\\
+  Hic est panis vivus qui de coelo descendit.\\
+  Non sicut patres vestri manducaverunt manna et mortui sunt.\\
+  Si quis manducaverit ex hoc pane, vivet in aeternum.\\
+  (\bibleverse{John}(6:49-52))\\[\baselineskip]
+  \textsb{Statio 4ta}\\
+  V: Educas panem de terra, alleluia.\\
+  R: Et vinum laetificet cor hominis, alleluia.

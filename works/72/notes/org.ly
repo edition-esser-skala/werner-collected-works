@@ -549,11 +549,140 @@ LXXIIcBassFigures = \figuremode {
 
 LXXIIdOrgano = {
   \relative c {
-    \clef bass
-
+    \clef treble
+    \key g \major \time 4/4 \tempoLXXIId
+    << {
+      d''4 e d8 g, c4
+      h8 d~ d c16 h
+    } \\ {
+      \mvTr r2\fE-\tuttiE g4 a
+      g8 d g4
+    } >> \clef "treble_8" d e
+    d8 g, c!4 \clef bass g h
+    a8 d, g4 fis g~
+    g8 fis e4 d8 \noBeam \clef "treble_8" a' h4 %5
+    a8 d, g4 \clef bass d e
+    d8 g, c!4 h c~
+    c8 h a4 g8 g'4 h8
+    a d, a4 d \clef "treble_8" << {
+      a''8 g
+      fis a4 g fis8 s
+    } \\ {
+      d8 e
+      d c! h e d8. c16 h8
+    } >> \clef bass g~ %10
+    g a g f e a d,4
+    c8 \clef "treble_8" c'4 h8 a4 g8 \noBeam \clef bass e
+    a, d4 c8 h4 a
+    g8 h e fis g4. fis8
+    g4 \clef treble << { c'4~ c8[ h a] } \\ { e8 e fis g4 } >> \clef bass d,8 %15
+    e e fis d g4. fis8
+    e4 d \clef treble << { h''8 g c!4~ c8 } \\ {  g4 e8 a d,} >>
+    \clef bass g,4 fis8 h8. a16 g8 fis
+    e4 d r8 a' a gis
+    c!8. h16 a8 g fis4 e %20
+    r8 g g fis h8. a16 g4~
+    g8 fis e4 d \clef "treble_8" a'8-! h-!
+    c!-! \clef bass e,4 fis8 g4. g8
+    d2 a'
+    e r8 h'4 a8 %25
+    gis4 a e2
+    r8 c'4 h8 ais4 h
+    fis2 h,
+    r4 c!8 d e4 a!
+    g4. fis8 e2 %30
+    d4 \clef "treble_8" << {
+      fis'8 gis a e a4~
+      a8 g e g fis4
+    } \\ {
+      d4~ d8 c! a c
+      h e, e'2
+    } >> dis4
+    e e,8 fis16 g a4 \clef bass e~
+    e8 e h' a g2
+    fis4. gis8 a e a4~ %35
+    a8 g e g fis h, h' a
+    gis4 a e2
+    a,8 a'4 g8 fis4 g
+    d2 g,4 \clef "treble_8" << {
+      h'8 c
+      d g, s2 \clef treble fis'8 g %40
+      a e a2 g4
+      fis4~ fis8 e16 d e4
+    } \\ {
+      g,8 a
+      h4 c g d' %40
+      c2 h4. cis8
+      d a d4. cis16 h
+    } >> \clef "treble_8" a4
+    \clef bass d,4. e8 fis4 g
+    d2 \clef "treble_8" g
+    fis4 \clef bass d4. e8 h c %45
+    d g, e'4 d g~
+    g fis e4. fis8
+    g2 d
+    <a' a,> e4. fis8
+    g a h c d4 g, %50
+    d g d2
+    g,4 c2 g'4
+    c,1
+    g\fermata \bar "|." %54 finis
   }
 }
 
 LXXIIdBassFigures = \figuremode {
-
+  r1
+  r2 <5>4 <7>8 <6\\>
+  r4 <7>8 <6>4. <6>4
+  <_+> <5>8 <6\\> <6>2
+  <4\+ 2>8 <6> <5> <6\\> r4 <5> %5
+  <6 [4]> <5>8 <6> r4 <5>8 <6\\>
+  r4 <7>8 <6> <7> <6> <5> <6>
+  <4 2> <[6]> <5> <6>2 <[6]>8
+  <_+>4 <4>8 <_+> r2
+  r2. <6>8 q %10
+  <5> <3!> <3> <6> <7>4 <7 _!>8 <6 \t>
+  r <5> <6>4 <4>8 <3>4 <5>8
+  <7> <5 _!> <6 2>4 <5\+>8 <6> <7> <6>
+  r <[6]> <6> <6 5> <5 4> <\t 3> <4 2> <[6]>
+  r1 %15
+  <5>8 <6> <[6]>4 <3> <4\+ 2>8 <6>
+  <5> <6\\>2..
+  r8 <3> <4 2> <6> q4. <[6]>8
+  <7> <6\\> r4. <_!>8 <2> <[6]>
+  <6>4. <[6]>8 <7> <6\\>4. %20
+  r8 <[5!] 3> <4 2> <[6]> <6>4 q
+  <4\+ 2>8 <[6]> <7> <6\\> r2
+  r8 <6>4 <\t>8 <5>4. <6>8
+  <5 _!>4. <6 \t>8 <5>4. <6\\>8
+  <5>4. <6\\>4 <5> <\t>8 %25
+  <6 5>4 <[_!]> <4> <_+>
+  r8 <6>4 <[6! 4]>8 <6 5 [_+]>2
+  \bo <[5\+] 4>4 \bc <[\t] _+>2.
+  r4 \bo <[10]>8 \bc <[8]> <6>2
+  q4. <[3]>8 <5>4. <6\\>8 %30
+  r1
+  r2. <6>4
+  r2 <5>8 <6> q4
+  <5> <_+>8 <6> q2
+  <7>4 <6!>2. %35
+  <5 2>8 <[6]>4. <7 4>8 <3>4.
+  <6 5>2 <4>4 <_+>
+  r4. <[\t]>8 <6 5>2
+  <4>4 <3>2.
+  r4 <5 3> <6>2 %40
+  r1
+  r2. <_+>4
+  <5>8 <6> <5>4 <[6]>2
+  <6 4>4 <5 3> <5> <6>
+  <7> <8>4. <5>8 \bo <[6]> <8 6>16 \bc <[7] 5> %45
+  r4 <6> <7> <3>
+  <5 2> <6> <7> <6>
+  <4> <3> <4> <3>
+  <4> <3> <4> <3>
+  r1 %50
+  r2 <4>4 <3>
+  r1
+  r
+  r %54 finis
 }

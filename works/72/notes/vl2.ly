@@ -251,6 +251,60 @@ LXXIIcViolinoII = {
 LXXIIdViolinoII = {
   \relative c' {
     \clef treble
-
+    \key g \major \time 4/4 \tempoLXXIId
+    r2 g'4\fE a
+    g8 d g4 fis g
+    fis8 g e fis g4. g8
+    a fis d e fis fis d4
+    e8 fis h, cis d4 r8 d %5
+    fis4 d8 e fis4 h,8 e
+    a, r r4 d e
+    d8 g, c!4 h2
+    r4 r8 a'4 h8 a g
+    fis a4 g fis8 g4 %10
+    r g8 a g f16 e f4
+    e r r8 a d, g~
+    g f e4 fis8 g4 fis8
+    g4 r8 a d,4 c8 d
+    d d e e fis g4 fis8 %15
+    g4 r r r8 d
+    e e fis d g4 e8 a
+    d,4 c8 d d d h a
+    g4 fis8 d'16 e fis g a8 h e,~
+    e r r e e dis g8. fis16 %20
+    e8 d c d d g g e
+    a a g4 fis r
+    r2 r8 d4 e8
+    f4 f8 f e e4 fis8
+    g4 g8 g fis4 fis %25
+    e2. e4
+    e r8 g! fis4. fis8
+    fis2 fis
+    r r4 e~
+    e8 e h' a g4. g8 %30
+    fis fis4 gis8 a e a4~
+    a8 g e g fis h, fis' fis
+    g4. fis8 e fis g4~
+    g fis e8 h e4~
+    e d! c2 %35
+    h4 g'8 e fis4. fis8
+    e2 e8 e4 d8
+    c4 e d2
+    d4 d4. e8 h c
+    d g, e'2 d4 %40
+    c2 h8 h4 cis8
+    d a d4. cis16 h cis4
+    d fis8 e d4. g8
+    g4 fis h2
+    a4 fis4. g8 h a16 g %45
+    fis8 g4 g8 fis4 d~
+    d r r e
+    d g2 fis4
+    e2. h'4~
+    h h a h %50
+    a h a2
+    h4 g2 g4
+    g1
+    g\fermata \bar "|." %54 finis
   }
 }
