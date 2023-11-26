@@ -1,0 +1,18 @@
+title: Cœlestia mortales sunt
+id: Hárich deest · A-Ed B 42
+genre: offertorium
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 42
+    rism: 600038017
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/126.html
+    license: public domain
+    principal: true
+toe: |
+  15 & A & 3rd \quarterNote\ in \B1: f′4 \\
+lyrics:
+  Coelestia mortales sunt apetenda regna,\\
+  in ista patria nulla maestitia, sed omnis gloria.
