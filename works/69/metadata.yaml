@@ -1,0 +1,27 @@
+title: 3 Responsoria
+id: Hárich deest · A-Ed F 5
+genre: responsory
+festival: Cœna Domini
+scoring: S, A, T, B (coro), b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: F 5
+    rism: 600038298
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/972.html
+    license: public domain
+    principal: true
+toe: |
+
+lyrics:
+  \textsb{1}\\
+  In monte oliveti orabat ad Patrem:\\
+  Pater, si fieri potest,\\
+  transeat a me calix iste.\\
+  Spiritus quidem promptus est,\\
+  caro autem infirma:\\
+  fiat voluntas tua.\\
+  Vigilate et orate,\\
+  ut non intretis in tentationem.\\
+  (\bibleverse{Mat}(26:39-41))
