@@ -1,0 +1,20 @@
+title: Pastorella
+id: Hárich 287 · A-Ed E 32
+genre: pastorella
+festival: Nativitas Domini
+scoring: 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: E 32
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/881.html
+    license: public domain
+    principal: true
+toe: |
+  3   & vl 1 & 11th \sixteenthNote\ in \B1: g″16 \\
+  11  & vla  & 5th \eighthNote\ in \B1: d′8 \\
+  76  & vl 1 & 5th \sixteenthNote\ in \B1: \sharp f″16 \\
+  76  & vla  & 5th \sixteenthNote\ in \B1: \sharp f′16 \\
+  105 & vla  & last \sixteenthNote\ in \B1: d′16 \\
+  108 & vl 2 & 3rd \sixteenthNote\ in \B1: a′16 \\
