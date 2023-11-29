@@ -13,7 +13,7 @@ sources:
     license: public domain
     principal: true
 toe: |
-
+  2·14f & org & notes in treble clef added by editor \\
 lyrics:
   \textsb{1}\\
   In monte oliveti orabat ad Patrem:\\
@@ -24,4 +24,15 @@ lyrics:
   fiat voluntas tua.\\
   Vigilate et orate,\\
   ut non intretis in tentationem.\\
-  (\bibleverse{Mat}(26:39-41))
+  (\bibleverse{Mat}(26:39-41))\\[\baselineskip]
+  \textsb{2}\\
+  Tristis est anima mea usque ad mortem:\\
+  Sustinete hic et vigilate mecum,\\
+  nunc videbitis turbam\\
+  quae circumdabit me:\\
+  Vos fugam capietis,\\
+  et ego vadam immolari pro vobis.\\
+  Ecce appropinquat hora,\\
+  et Filius hominis\\
+  tradetur in manus peccatorum.\\
+  (\bibleverse{Mat}(26:38,45))\\[\baselineskip]

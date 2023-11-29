@@ -140,10 +140,145 @@ LXXIaSopranoLyrics = \lyricmode {
 LXXIbSoprano = {
   \relative c' {
     \clef treble
+    \key e \minor \time 4/2 \tempoLXXIba \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+      \markTimeSig #'(4 2)
+    h'1 h2 h
+    h1 h2 cis
+    d1 g,2 g
+    c! c h h~
+    h cis dis e~ \noBreak %5
+    e dis e1\fermata \bar "||"
+    c2. c4 c2 c \noBreak
+    h e c2. d4
+    e( c8[ d] e4 d) c1
+    h\breve %10
+    h1 r\fermata
+    h d
+    a2.( h4) c1
+    h2 h c2. h4
+    c2 d e1 %15
+    d2 e c d~
+    d c h1
+    a r2\fermata c
+    d e2. e4 e2
+    e1 dis %20
+    R\breve
+    r1 r2 h
+    c1 a2 h~
+    h gis a( h)
+    c2. c4 c1 \noBreak %25
+    h\breve\fermata \bar "||"
+    \time 4/4 \tempoLXXIbb \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      r2 c4 d~ \noBreak
+    d h c8([ d)] c([ h)]
+    a([ d, d' c)] h4 cis8 d
+    e4( a,) h h8 c %30
+    d4 g, r2
+    c e4 c
+    d8([ e)] d([ c16 h]) a4. a8
+    gis gis a2( gis4)
+    a c d e %35
+    cis8 cis d4( h) e
+    a, h c8([ e d c)]
+    h4 g a h
+    c8([ h)] c4 h( e)
+    a, r r c! %40
+    d d h c
+    h2\trill a4 c
+    h a g b
+    a g f d8[ e]
+    f[ g] a2 a4 %45
+    g2. fis8[ e] \noBreak
+    fis2 e\fermata \bar "||"
+    \time 3/2 \newSpacingSection h'2( d) h \noBreak
+    a d h
+    c d( h) %50
+    a a( h)
+    c1 c2
+    h cis d
+    cis cis( d)
+    e h( cis) %55
+    d4( e) fis2 e4( dis)
+    e2. fis8([ e)] d4( cis)
+    d2 r r
+    r a g4( fis)
+    e1 fis2 %60
+    g a h
+    cis d cis4( h)
+    a1.
+    g4 fis e1
+    fis1.\fermata \markVosFugamDaCapo \bar "||" %65 finis
   }
 }
 
 LXXIbSopranoLyrics = \lyricmode {
+  Tri -- stis est
+  a -- ni -- ma
+  me -- a us --
+  que ad mor -- tem, __
+  ad mor -- _ %5
+  _ tem:
+  Su -- sti -- ne -- te
+  hic et vi -- gi --
+  la -- te
+  me -- %10
+  cum,
+  su -- sti --
+  ne -- te
+  hic et vi -- gi --
+  la -- te me -- %15
+  cum, vi -- gi -- la --
+  te me --
+  cum, nunc
+  vi -- de -- bi -- tis
+  tur -- bam %20
+
+  quae
+  cir -- cum --
+  da -- bit, cir --
+  cum -- da -- bit %25
+  me:
+  Vos fu --
+  gam ca -- pi --
+  e -- tis, ca -- pi --
+  e -- tis, ca -- pi -- %30
+  e -- tis,
+  vos fu -- gam
+  ca -- pi -- e -- tis,
+  ca -- pi -- e --
+  tis, vos fu -- gam %35
+  ca -- pi -- e -- tis,
+  ca -- pi -- e --
+  tis, et e -- go
+  va -- dam, va --
+  dam %40
+  im -- mo -- la -- ri pro
+  vo -- bis, et
+  e -- go va -- dam
+  im -- mo -- la -- _
+  _ ri pro %45
+  vo -- _
+  _ bis.
+  Ec -- ce
+  ap -- pro -- pin --
+  quat ho -- %50
+  ra, et __
+  Fi -- li --
+  us ho -- mi --
+  nis tra --
+  de -- tur __ %55
+  in __ ma -- nus __
+  pec -- ca -- to --
+  rum,
+  pec -- ca --
+  to -- rum, %60
+  pec -- ca -- to --
+  rum, pec -- ca --
+  to --
+  _ _ _
+  rum. %65 finis
 }
 
 LXXIcSoprano = {

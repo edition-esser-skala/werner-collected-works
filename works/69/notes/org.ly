@@ -146,11 +146,156 @@ LXXIaBassFigures = \figuremode {
 LXXIbOrgano = {
   \relative c {
     \clef bass
+    \key e \minor \time 4/2 \tempoLXXIba
+      \set Staff.timeSignatureFraction = 2/2
+      \markTimeSig #'(4 2)
+    e\breve
+    e2 e e1
+    d c
+    r2 a e'1
+    e h~ \noBreak %5
+    h e\fermata \bar "||"
+    c2. c4 f2 c \noBreak
+    g' e f4 g a h
+    c2. h4 a g fis e
+    dis2 e h1 %10
+    e r\fermata
+    g,2 g'1 d2~
+    d a'1 a2
+    e1 \clef treble << {
+      c''2.^\critnote h4
+      c2 d e
+    } \\ {
+      a,2. g!4
+      g2 h c4 h
+    } >> \clef bass c,,2 %15
+    g'2. e4 f2 d
+    e a, e'1
+    a, r2\fermata a'
+    g! e2. e4 c2
+    a1 h2 h'-! %20
+    << { r2 e } \\ { c1 } >> a2 h
+    g a d,!2. d4
+    c2 e f d
+    e1 c2 h
+    a\breve \noBreak %25
+    e'\fermata \bar "||"
+    \clef treble \time 4/4 \tempoLXXIbb \newSpacingSection
+      \unset Staff.timeSignatureFraction
+    << {
+      r2 c''4 d~ \noBreak
+      d h c8 d c h
+    } \\ {
+      g!4 a2 fis4
+      g8 a g fis e fis g4
+    } >>
+    \clef "treble_8" d2 \clef bass g,4 a~
+    a fis g4. a8 %30
+    g f e4 d2
+    c4 c'4. h8 a g
+    fis!4 g2 f4
+    e f d e
+    a, \clef "treble_8" a' h gis %35
+    a \clef bass d, e c!
+    d8 c h4 a2
+    g4 \clef treble << { g'' a h c } \\ { r r d, e } >>
+    \clef "treble_8" a, h \clef bass e,
+    fis gis a f %40
+    d2 e4 c8 a
+    e2 a4 r
+    r f' e d
+    cis2 d4 f8 e
+    d4 c h2 %45
+    e h~ \noBreak
+    h e,\fermata \bar "||"
+    \clef "treble_8" \time 3/2 \newSpacingSection
+      g'4 a h2 g \noBreak
+    d' h e
+    a, fis g! %50
+    d1 r2
+    r e fis
+    g4 fis e2 d
+    a'2. g4 fis2
+    e g a %55
+    h4 a8 g fis2 h
+    e, g a
+    d, d' cis4 h
+    a1.
+    a1 g4 fis %60
+    e2 fis g
+    fis4 e d2 e
+    fis e4 d cis2
+    d a'1
+    d,1.\fermata \markVosFugamDaCapo \bar "||" %65 finis
   }
 }
 
 LXXIbBassFigures = \figuremode {
-
+  <_+>\breve
+  r1 <5 _+>2 <6\\ \t>
+  \bo <8 5 [_!]> \bc <\t 6 [\t]>1.
+  r1 <5 4>2 <\t _!>
+  <5> <6\\> <5 _+> <6 4> %5
+  <5 \t> <\t _+> \bo <[_+]>1
+  <5!>\breve
+  r2 <6>1 <6!>4 \bc <[\t]>
+  r\breve
+  <6 5 [_+]>1 <4>2 <_+> %10
+  r\breve
+  <[5!]>
+  r
+  <_+>
+  r1. <[5!]>2 %15
+  r2. <6> <[_!]>2
+  <7 _+>1 <4>2 <_+>
+  r\breve
+  <5>2 <6>1.
+  r1 <_+> %20
+  r <6!>2 <[5\+] _+>
+  <6> <_+> <5 _!> <6 \t>
+  r <[6]>1 <6 [_!]>2
+  <_+>1 <6>2 <6\\>
+  r\breve %25
+  <_+>
+  r1
+  r
+  <5 4>4 <\t _+> <6> <_+>
+  r <6> r4. <_!>8 %30
+  r4 <6> \bo <7 [_!]> \bc <6 [\t]>
+  r1
+  <[6]>4 <3> <4 2> <6>
+  <7 _+> <5> <6 5 [_!]> <_+>
+  r <10> q <6> %35
+  <10+> <_+> <5> <6>
+  r <[6]> <7> <6>
+  r1
+  r4 <6> q <6\\>
+  <6> <\t> <[_!]> <5> %40
+  \bo <5 [_!]> \bc <6 [\t]> <_+> <[6]>
+  <4> <_+>2.
+  r4 <6> <6\\> <6- [_!]>
+  <6> <5> <_!>2
+  q4 <6> <7 [5\+] _+>2 %45
+  <_!> <6 4>
+  <5 _+>1
+  r1.
+  r2 <5> <_+>
+  r <6>1 %50
+  r1.
+  r2 <6>1
+  r2 <6\\>1
+  <_+> <6>2
+  r1 <[7] _+>2 %55
+  r1 <6 4>4 <5 _+>
+  r1 <6 4[!]>4 <5 _+>
+  r1.
+  <8 _+>1 <7 5>4 <6 4>
+  \bo <[5] _+>1 <\tllur>4 <6> %60
+  r1.
+  <\tllur>4 \bc <[6\\]>2. <6\\>4 <5>
+  <3>1 <[6]>2
+  r2 <4> <_+>
+  r1. %65 finis
 }
 
 LXXIcOrgano = {

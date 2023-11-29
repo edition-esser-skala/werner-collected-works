@@ -136,10 +136,143 @@ LXXIaTenoreLyrics = \lyricmode {
 LXXIbTenore = {
   \relative c' {
     \clef "treble_8"
+    \key e \minor \time 4/2 \tempoLXXIba \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+      \markTimeSig #'(4 2)
+    e1 e
+    e2 e2. e4 e2
+    f1 e
+    r2 e1 e2~
+    e4 e, g2 h1~ \noBreak %5
+    h h\fermata \bar "||"
+    g2. g4 a2 g \noBreak
+    g c a4 h c_( h8[ a]
+    g2) c e2. e4
+    fis!2 e e( dis) %10
+    e1 r\fermata
+    d!2 h1 a2~
+    a a a1
+    gis r
+    r r2 g %15
+    g2. c4 a2( d
+    h) c4( d) e1
+    e r2\fermata a,
+    h c2. c4 c2
+    c1 h %20
+    r2 e f( dis)
+    e cis( d2.) d4
+    g,1 r2 d'4( h)
+    gis( a) h2 c d
+    e e2. e4 e2 \noBreak %25
+    e\breve\fermata \bar "||"
+    \time 4/4 \tempoLXXIbb \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      R1*2
+    d2 e
+    cis4 d4.( e8) d([ c)] %30
+    h4 c4. h8[ c d]
+    e4. d8 c4. h8
+    a4 h c d~
+    d c h2
+    r4 a h( gis) %35
+    a2 r
+    d4. d8 e4( a,)
+    d r r2
+    r4 a h cis
+    d4.( c16[ h] c4) a %40
+    f'4. f8 e4 e8 e
+    e2 e4 r
+    r a,8([ h)] cis4 d
+    e8([ d cis h!)] a4 a~
+    a a h2 %45
+    h h \noBreak
+    h h\fermata \bar "||"
+    \time 3/2 \newSpacingSection g2( h) g \noBreak
+    d' h e
+    a, fis( g!) %50
+    d1 r2
+    r e( fis)
+    g4( fis e2) d
+    a' a4( g) fis2
+    e g( a) %55
+    h4_( a8[ g)] fis2 h
+    e,( g a)
+    d, d' cis4( h)
+    a1.
+    a2 a g4( fis) %60
+    e2 fis g
+    fis4( e) d2 e
+    fis e4( d) cis2
+    d a'1
+    d,1.\fermata \markVosFugamDaCapo \bar "||" %65 finis
   }
 }
 
 LXXIbTenoreLyrics = \lyricmode {
+  Tri -- stis
+  est a -- ni -- ma
+  me -- a
+  us -- que __
+  _ ad mor -- %5
+  tem:
+  Su -- sti -- ne -- te
+  hic et vi -- gi -- la --
+  te, vi -- gi --
+  la -- te me -- %10
+  cum,
+  su -- sti -- ne --
+  te hic,
+  hic
+  et %15
+  vi -- gi -- la --
+  te __ me --
+  cum, nunc
+  vi -- de -- bi -- tis
+  tur -- bam %20
+  quae cir --
+  cum -- da -- bit
+  me, quae
+  cir -- cum -- da -- bit,
+  cir -- cum -- da -- bit %25
+  me:
+
+  Vos fu -- %29
+  gam ca -- pi -- %30
+  e -- _ _
+  _ _ _ tis,
+  ca -- pi -- e -- _
+  _ tis,
+  vos fu -- %35
+  gam
+  ca -- pi -- e --
+  tis,
+  et e -- go
+  va -- dam %40
+  im -- mo -- la -- ri pro
+  vo -- bis,
+  et __ e -- go
+  va -- dam im --
+  mo -- la -- %45
+  ri pro
+  vo -- bis.
+  Ec -- ce
+  ap -- pro -- pin --
+  quat ho -- %50
+  ra,
+  et __
+  Fi -- li --
+  us ho -- mi --
+  nis tra -- %55
+  de -- tur in
+  ma --
+  nus pec -- ca --
+  to --
+  rum, pec -- ca -- %60
+  to -- rum, pec --
+  ca -- to -- rum,
+  pec -- ca -- to --
+  _ _
+  rum. %65 finis
 }
 
 LXXIcTenore = {

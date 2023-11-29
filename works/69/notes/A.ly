@@ -132,10 +132,146 @@ LXXIaAltoLyrics = \lyricmode {
 LXXIbAlto = {
   \relative c' {
     \clef treble
+    \key e \minor \time 4/2 \tempoLXXIba \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+      \markTimeSig #'(4 2)
+    gis'1 gis
+    gis2 gis2. gis4 gis2
+    a( h) c1
+    r2 a1 g!2~
+    g g fis g \noBreak %5
+    fis1 gis\fermata \bar "||"
+    e2. e4 f2 e \noBreak
+    d g a4( g) f2
+    e1~ e4 fis8[ g] a4 g
+    fis2 g fis1 %10
+    e r\fermata
+    r2 g1 fis2~
+    fis e1 e2
+    e gis a2. g4
+    g2 h c4( h c2) %15
+    h g a2. a4
+    gis2( a1 gis2)
+    a1 r2\fermata e
+    g! g2. g4 g2
+    a1 fis %20
+    r r2 fis!
+    g e f2. f4
+    e2 r r f
+    e e e4( fis) gis2
+    a e a2. a4 \noBreak %25
+    gis\breve\fermata \bar "||"
+    \time 4/4 \tempoLXXIbb \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      g4 a2 fis4 \noBreak
+    g8([ a)] g([ fis)] e[ fis] g4~
+    g fis g e~
+    e8 a4 fis8 d4 r %30
+    r2 f
+    g4 e e fis8([ g)]
+    a4 g8[ fis] e16[ d c8] h[ a]
+    h4 a8 a f'4 e8[ d]
+    c[ h] a4 r2 %35
+    r4 fis'! g a
+    fis8 fis g2( fis4)
+    g r r d
+    e fis g8([ fis)] g4
+    fis( h) e, a~ %40
+    a h gis8 gis a4
+    a( gis) a2
+    r r4 f
+    e2 d4 a'8([ g]
+    f4) e dis2 %45
+    e4 e e dis8[ cis] \noBreak
+    dis2 e\fermata \bar "||"
+    \time 3/2 \newSpacingSection
+      d1 g2 \noBreak
+    fis2. fis4 gis2
+    a a( g) %50
+    fis fis( g)
+    a( g) a
+    d, g fis
+    e e( fis)
+    g1 g2 %55
+    fis4( g) a2 g4( fis)
+    g2. a8([ g)] fis4( e)
+    fis2 r r
+    r a8([ g] fis4) e( d)
+    cis1 d2 %60
+    e4( g) fis( e) d2
+    e fis g
+    a g4( fis) e2
+    d d( cis)
+    d1.\fermata \markVosFugamDaCapo \bar "||" %65
   }
 }
 
 LXXIbAltoLyrics = \lyricmode {
+  Tri -- stis
+  est a -- ni -- ma
+  me -- a
+  us -- que, __
+  us -- que ad %5
+  mor -- tem:
+  Su -- sti -- ne -- te
+  hic et vi -- gi --
+  la -- _ _ _
+  _ te me -- %10
+  cum,
+  su -- sti --
+  ne -- te
+  hic et vi -- gi --
+  la -- te me -- %15
+  cum, et vi -- gi --
+  la --
+  te, nunc
+  vi -- de -- bi -- tis
+  tur -- bam %20
+  quae
+  cir -- cum -- da -- bit
+  me, quae
+  cir -- cum -- da -- bit,
+  cir -- cum -- da -- bit %25
+  me:
+  Vos fu -- gam
+  ca -- pi -- e -- _
+  _ tis, fu --
+  _ _ gam, %30
+  vos
+  fu -- gam ca -- pi --
+  e -- _ _ _
+  tis, ca -- pi -- e -- _
+  _ tis, %35
+  vos fu -- gam
+  ca -- pi -- e --
+  tis, et
+  e -- go va -- dam,
+  va -- dam im -- %40
+  mo -- la -- ri pro
+  vo -- bis,
+  et
+  va -- dam im --
+  mo -- la -- %45
+  ri pro vo -- _
+  _ bis.
+  Ec -- ce
+  ap -- pro -- pin --
+  quat ho -- %50
+  ra, et __
+  Fi -- li --
+  us ho -- mi --
+  nis tra --
+  de -- tur %55
+  in __ ma -- nus __
+  pec -- ca -- to --
+  rum,
+  pec -- ca --
+  to -- rum, %60
+  pec -- ca -- to --
+  rum, pec -- ca --
+  to -- rum, pec --
+  ca -- to --
+  rum. %65 finis
 }
 
 LXXIcAlto = {

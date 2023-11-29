@@ -107,10 +107,109 @@ LXXIaBassoLyrics = \lyricmode {
 LXXIbBasso = {
   \relative c {
     \clef bass
+    \key e \minor \time 4/2 \tempoLXXIba \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+      \markTimeSig #'(4 2)
+    e1 e
+    e2 e2. e4 e2
+    d1 c
+    r2 a e'1
+    e h~ \noBreak %5
+    h e\fermata \bar "||"
+    c2. c4 f2 c \noBreak
+    g' e f4( g) a( h)
+    c2. h4 a g fis e
+    dis2 e h1 %10
+    e r\fermata
+    r2 g1 d2~
+    d a'1 a2
+    e1 r
+    r r2 c %15
+    g'2. e4 f2( d)
+    e( a) e1
+    a, r2\fermata a'
+    g! e2. e4 c2
+    a1 h2 h' %20
+    c1 a2( h)
+    g a d,!2. d4
+    c2 e f d
+    e2. e4 c2( h)
+    a2. a4 a1 \noBreak %25
+    e'\breve\fermata \bar "||"
+    \time 4/4 \tempoLXXIbb \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      R1*2
+    r2 g4 a~
+    a fis g4. a8 %30
+    g([ f] e4 d2)
+    c4 c'4.( h8) a([ g)]
+    fis!4( g2) f4
+    e f d( e)
+    a,2 r %35
+    r4 d e c!
+    d8([ c)] h4 a2
+    g4 r r2
+    r r4 e'
+    fis gis a f %40
+    d4. d8 e4 c8 a
+    e'2 a,4 r
+    r4 f' e d
+    cis4. cis8 d4 f8([ e)]
+    d4( c) h2 %45
+    e h~ \noBreak
+    h e\fermata \bar "||"
+    \time 3/2 \newSpacingSection R1.*17 %64
+    R1.\fermata \markVosFugamDaCapo \bar "||" %65 finis
   }
 }
 
 LXXIbBassoLyrics = \lyricmode {
+  Tri -- stis
+  est a -- ni -- ma
+  me -- a
+  us -- que
+  ad mor -- %5
+  tem:
+  Su -- sti -- ne -- te
+  hic et vi -- gi --
+  la -- _ _ _ _ _
+  _ te me -- %10
+  cum,
+  su -- sti --
+  ne -- te
+  hic
+  et %15
+  vi -- gi -- la --
+  te __ me --
+  cum, nunc
+  vi -- de -- bi -- tis
+  tur -- bam quae %20
+  cir -- cum, __
+  cir -- cum -- da -- bit
+  me, quae cir -- cum --
+  da -- bit, cir --
+  cum -- da -- bit %25
+  me:
+
+  Vos fu -- %29
+  gam ca -- pi -- %30
+  e --
+  tis, ca -- pi --
+  e -- tis,
+  ca -- pi -- e --
+  tis, %35
+  vos fu -- gam
+  ca -- pi -- e --
+  tis,
+  et
+  e -- go va -- dam %40
+  im -- mo -- la -- ri pro
+  vo -- bis,
+  et e -- go
+  va -- dam im -- mo --
+  la -- ri %45
+  pro vo --
+  bis. %47 finis
 }
 
 LXXIcBasso = {
