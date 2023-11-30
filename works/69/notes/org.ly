@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-LXXIaOrgano = {
+LXIXaOrgano = {
   \relative c {
     \clef "treble_8"
-    \twotwotime \key d \minor \time 4/2 \tempoLXXIaa
+    \twotwotime \key d \minor \time 4/2 \tempoLXIXaa
       \set Staff.timeSignatureFraction = 2/2
       \markTimeSig #'(4 2)
     a'1-! a-!
@@ -34,12 +34,12 @@ LXXIaOrgano = {
     b2. a4 g f g2
     a d, a1 \noBreak
     d r\fermata \bar "||"
-    \tempoLXXIab f2. f4 c1 \noBreak
+    \tempoLXIXab f2. f4 c1 \noBreak
     g' d2 f %30
     c1 d~
     \time 2/2 \markTimeSig #'(2 2) d2 d \noBreak
     \time 4/2 \markTimeSig #'(4 2) a\breve \bar "||"
-    \clef treble \time 4/4 \tempoLXXIac \newSpacingSection
+    \clef treble \time 4/4 \tempoLXIXac \newSpacingSection
       \unset Staff.timeSignatureFraction
       a''4. a8 b! g es d \noBreak
     << {
@@ -60,7 +60,7 @@ LXXIaOrgano = {
     a4 a, d r %45
     r8 f f f b4 fis \noBreak
     g2 d\fermata \bar "||"
-    \clef "treble_8" \time 3/2 \newSpacingSection
+    \clef "treble_8" \tempoLXIXad \time 3/2 \newSpacingSection
       f'!1 f2 \noBreak
     b,4 c d e f2
     b, g4 a b c %50
@@ -79,7 +79,7 @@ LXXIaOrgano = {
   }
 }
 
-LXXIaBassFigures = \figuremode {
+LXIXaBassFigures = \figuremode {
   r\breve
   <12>2 <5>1 <[6]>2
   <3> <10> <4> <3>
@@ -143,10 +143,10 @@ LXXIaBassFigures = \figuremode {
   r\breve %61 finis
 }
 
-LXXIbOrgano = {
+LXIXbOrgano = {
   \relative c {
     \clef bass
-    \key e \minor \time 4/2 \tempoLXXIba
+    \key e \minor \time 4/2 \tempoLXIXba
       \set Staff.timeSignatureFraction = 2/2
       \markTimeSig #'(4 2)
     e\breve
@@ -180,7 +180,7 @@ LXXIbOrgano = {
     e1 c2 h
     a\breve \noBreak %25
     e'\fermata \bar "||"
-    \clef treble \time 4/4 \tempoLXXIbb \newSpacingSection
+    \clef treble \time 4/4 \tempoLXIXbb \newSpacingSection
       \unset Staff.timeSignatureFraction
     << {
       r2 c''4 d~ \noBreak
@@ -208,7 +208,7 @@ LXXIbOrgano = {
     d4 c h2 %45
     e h~ \noBreak
     h e,\fermata \bar "||"
-    \clef "treble_8" \time 3/2 \newSpacingSection
+    \clef "treble_8" \time 3/2 \tempoLXIXbc \newSpacingSection
       g'4 a h2 g \noBreak
     d' h e
     a, fis g! %50
@@ -230,7 +230,7 @@ LXXIbOrgano = {
   }
 }
 
-LXXIbBassFigures = \figuremode {
+LXIXbBassFigures = \figuremode {
   <_+>\breve
   r1 <5 _+>2 <6\\ \t>
   \bo <8 5 [_!]> \bc <\t 6 [\t]>1.
@@ -298,12 +298,155 @@ LXXIbBassFigures = \figuremode {
   r1. %65 finis
 }
 
-LXXIcOrgano = {
+LXIXcOrgano = {
   \relative c {
     \clef bass
+    \key b \major \time 4/2 \tempoLXIXca
+      \set Staff.timeSignatureFraction = 2/2
+      \markTimeSig #'(4 2)
+    b1 b'
+    f2 fis g1
+    es\breve
+    d2 d1 g2
+    c, f! b2. b4 %5
+    f2 g d es
+    f d4 b f1
+    b r\fermata
+    g c2 c~
+    c b! es1 %10
+    as2 f c' c,~
+    c c f1
+    es! as2. g4
+    f2 es d1~
+    d g,2 g'~ %15
+    g f! b, b'~
+    b f g1~
+    g d2 d~
+    d c! h1
+    c cis2 cis %20
+    d d' b! fis
+    g1 f
+    es h
+    c\breve \noBreak
+    g\fermata \bar "||" %25
+    \tempoLXIXcb b!2-! b'1 a2 \noBreak
+    << { es^\critnote es'1 d2 } \\ { g,1 f } >>
+    es1. d2
+    c1 b
+    \clef treble << { c''^\critnote b2 } \\ { f2 es d } >> \clef bass d, %30
+    es4 f g a b2 f
+    g1 f2 d
+    c f c1
+    f2. es!4 d2 c
+    r b c4 d es f %35
+    g2. f4 es1~
+    es2 d c1
+    b4 a g2 f d'
+    es!4 f g a b2 f
+    g es f b %40
+    f1 f, \noBreak
+    b\breve \bar "||"
+    \clef "treble_8" \time 3/2 \tempoLXIXcc \newSpacingSection
+      g'2 b g \noBreak
+    d' d, r
+    c c' c %45
+    c4 h g2 b
+    a h4 a h2
+    c g a
+    b! f g
+    a e? fis %50
+    g d g
+    es! f!1
+    b2 d b
+    f'1 d2
+    c es, c %55
+    g'1 es2
+    d fis d
+    a' e fis
+    g b g
+    d' a h %60
+    c g a
+    b! d b
+    f' c d
+    es! es, c
+    g' d e %65
+    f c d
+    es! b c
+    d b' fis
+    g1.
+    d1 r2\fermata \markCuiusDaCapo \bar "||" %70 finis
   }
 }
 
-LXXIcBassFigures = \figuremode {
-
+LXIXcBassFigures = \figuremode {
+  r\breve
+  <4>2 <3> <9> <8>
+  <5->1 <6\\>
+  \bo <[5] _+>1 <6 \t>2 \bc <[7!] _!>
+  r1 <9>2 <8> %5
+  r1 <6>
+  r2 <[6]> <4> <3>
+  r\breve
+  <_!>1 <_->
+  r <5>2 <6> %10
+  r <[_-]> <_!> <\t>
+  r1 <5 _->2 <6 \t>
+  r1 <5>2 <6>4 <8 [6]>
+  <6 _->2 <6> <7 [5!] _+> <6 4>
+  <4> <_+>1. %15
+  r\breve
+  r1 <9>2 <8>
+  <4\+ 3>1 <_+>
+  r2 <_-> <[6]>1
+  <_-> <7- [_!]> %20
+  <_+> <6>2 <[6]>
+  r1 <4! _->
+  <6> q2 <5>
+  <9> <8> <6[!] 4\+ 3>1
+  <[_!]>\breve %25
+  r
+  r
+  <6>1 <5 2>2 <6>
+  <7> <6> <6 4> <5 3>
+  r1. <6>2 %30
+  r\breve
+  <5>2. <6!> q2
+  <_!>1 <4>2 <_!>
+  r1 <[6]>2 <6>
+  r\breve %35
+  r
+  <5 2>2 <6> <5> <6>
+  r <5>4 <6!> r2 <[3]>
+  r1. \bo <[8] 6>4 \bc <[7] 5>
+  r2 <6> <[7]>1 %40
+  <4>1 <3>
+  r\breve
+  r1.
+  <4>2 <_+>1
+  <4>2 <_!> <_-> %45
+  <5 2>4 \bo <[\t \t]> \bc <[_! _]>2 <6>
+  <7>4 <6\\> <6>2 <[5!]>
+  <4> <6- [_-]> <6 5>
+  r <6> \bo <[8] 6!>4 \bc <[7] 5>
+  <[5!] _+>2 <6!> <6 5> %50
+  <_!> <6-> <_->
+  \bo <[6]>4 \bc <[5]> <4>2 <3>
+  r1.
+  r1 <6!>2
+  <_-> <6>1 %55
+  <[_-]> <6\\>2
+  <[5!] _+>1 <_!>2
+  <_+>2 <[6!]> <5>
+  r1.
+  <_+>2 <[6!]> <5> %60
+  <_!>2 <_-> <5->
+  r1.
+  r2 <6-> <5[-]>
+  <9> <6>1
+  <_!>2 <6-> <5> %65
+  <_!> <6-> <\t>
+  r <[6]> <6[!]>4 <5>
+  <_+>2 <6> q
+  <9> <8> <6 4\+>
+  <[_+]>1. %70 finis
 }

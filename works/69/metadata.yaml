@@ -14,6 +14,12 @@ sources:
     principal: true
 toe: |
   2·14f & org & notes in treble clef added by editor \\
+  3·20  & A   & 3rd \halfNote\ in \B1: \sharp f′2 \\
+  3·27  & T   & 1st \halfNote\ of upper voice missing in \B1 \\
+  3·30  & org & notes in treble clef added by editor \\
+  3·51  & A   & 3rd \halfNote\ in \B1: f′2 \\
+  3·62  & A   & 1st \quarterNote\ in \B1: c′4 \\*
+  3·62  & A   & 1st \quarterNote\ in \B1: c′4 \\
 lyrics:
   \textsb{1}\\
   In monte oliveti orabat ad Patrem:\\
@@ -36,3 +42,15 @@ lyrics:
   et Filius hominis\\
   tradetur in manus peccatorum.\\
   (\bibleverse{Mat}(26:38,45))\\[\baselineskip]
+  \textsb{3}\\
+  Ecce vidimus eum\\
+  non habentem speciem, neque decorem:\\
+  aspectus in eo non est:\\
+  hic peccata nostra portavit,\\
+  et pro nobis dolet:\\
+  ipse autem vulneratus est\\
+  propter iniquitates nostras:\\
+  Cuius livore sanati sumus.\\
+  Vere languores nostros ipse tulit,\\
+  et dolores nostros ipse portavit.\\
+  (\bibleverse{Isa}(53:2,4,5))

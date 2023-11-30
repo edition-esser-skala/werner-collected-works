@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-LXXIaTenore = {
+LXIXaTenore = {
   \relative c' {
     \clef "treble_8"
-    \key d \minor \time 4/2 \tempoLXXIaa \autoBeamOff
+    \key d \minor \time 4/2 \tempoLXIXaa \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
       \markTimeSig #'(4 2)
     a1 a
@@ -34,12 +34,12 @@ LXXIaTenore = {
     d2.( c4) b( c) b2~
     b4 a a2 a1 \noBreak
     a r\fermata \bar "||"
-    \tempoLXXIab a2. a4 g1 \noBreak
+    \tempoLXIXab a2. a4 g1 \noBreak
     g2( b) d c~ %30
     c c a1
     \time 2/2 \markTimeSig #'(2 2) gis2( h?) \noBreak
     \time 4/2 \markTimeSig #'(4 2) a\breve\fermata \bar "||"
-    \time 4/4 \tempoLXXIac \newSpacingSection
+    \time 4/4 \tempoLXIXac \newSpacingSection
       \unset Staff.timeSignatureFraction
       R1*3 %36
     r2 e'!4. e8
@@ -53,7 +53,7 @@ LXXIaTenore = {
     a'2 a4 r %45
     r8 c! f c d4. c8 \noBreak
     b4._( a16[ g]) a2\fermata \bar "||"
-    \time 3/2 \newSpacingSection r2 f'! f \noBreak
+    \time 3/2 \tempoLXIXad \newSpacingSection r2 f'! f \noBreak
     b,4( c) d( e) f2
     b, g4( a b c) %50
     d2 d h
@@ -71,7 +71,7 @@ LXXIaTenore = {
   }
 }
 
-LXXIaTenoreLyrics = \lyricmode {
+LXIXaTenoreLyrics = \lyricmode {
   In mon --
   te o -- li --
   ve -- _
@@ -133,10 +133,10 @@ LXXIaTenoreLyrics = \lyricmode {
   nem. %61 finis
 }
 
-LXXIbTenore = {
+LXIXbTenore = {
   \relative c' {
     \clef "treble_8"
-    \key e \minor \time 4/2 \tempoLXXIba \autoBeamOff
+    \key e \minor \time 4/2 \tempoLXIXba \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
       \markTimeSig #'(4 2)
     e1 e
@@ -165,7 +165,7 @@ LXXIbTenore = {
     gis( a) h2 c d
     e e2. e4 e2 \noBreak %25
     e\breve\fermata \bar "||"
-    \time 4/4 \tempoLXXIbb \newSpacingSection
+    \time 4/4 \tempoLXIXbb \newSpacingSection
       \unset Staff.timeSignatureFraction
       R1*2
     d2 e
@@ -187,7 +187,7 @@ LXXIbTenore = {
     a a h2 %45
     h h \noBreak
     h h\fermata \bar "||"
-    \time 3/2 \newSpacingSection g2( h) g \noBreak
+    \time 3/2 \tempoLXIXbc \newSpacingSection g2( h) g \noBreak
     d' h e
     a, fis( g!) %50
     d1 r2
@@ -208,7 +208,7 @@ LXXIbTenore = {
   }
 }
 
-LXXIbTenoreLyrics = \lyricmode {
+LXIXbTenoreLyrics = \lyricmode {
   Tri -- stis
   est a -- ni -- ma
   me -- a
@@ -275,11 +275,152 @@ LXXIbTenoreLyrics = \lyricmode {
   rum. %65 finis
 }
 
-LXXIcTenore = {
+LXIXcTenore = {
   \relative c' {
     \clef "treble_8"
+    \key b \major \time 4/2 \tempoLXIXca \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+      \markTimeSig #'(4 2)
+    b1 b
+    c2 d d1
+    es( cis)
+    d2 d1 d2
+    es c d2. d4 %5
+    c2 b d c
+    c( d c1)
+    d r\fermata
+    d es
+    es2 d4( c) b2 c~ %10
+    c c c1
+    e2 e f1
+    b, c2.( b4)
+    as2 c a( b4 c
+    d1) d2 \once \tieDashed g,~ %15
+    g a b1~
+    b2 a g b4 a
+    g fis g2 fis d'~
+    d es! d d
+    c c e e %20
+    a,1 d
+    b2 b h h
+    c1 d
+    g,( fis) \noBreak
+    g\breve\fermata \bar "||" %25
+    \tempoLXIXcb R\breve \noBreak
+    es2 es'1 d2
+    c4( b g a) b2 d
+    g,( a) b1
+    R\breve %30
+    r1 r2 c
+    b1 a2 d
+    g, a g1
+    a2 f f4( g) a8([ b] c4)
+    d2 b r1 %35
+    R\breve
+    r1 r2 a
+    b4( c) d( e) f1(
+    es) d2 f
+    b, c a b~ %40
+    b a4 g a1 \noBreak
+    b\breve\fermata \bar "||"
+    \time 3/2 \tempoLXIXcc \newSpacingSection R1.*2
+    c,2 c' c %45
+    c4( h) g2( b)
+    a( h4 a) h2
+    c( g) a
+    b! f( g)
+    a e?( fis) %50
+    g d g
+    es! f!1
+    b2 d b
+    f'1( d2)
+    c es, c %55
+    g'1( es2)
+    d r r
+    a' e fis
+    g4( fis) g2 r
+    d' a h %60
+    c( g a)
+    b! r b
+    f'( c d)
+    es!1 c,2
+    g' d e %65
+    f c d
+    es! r r
+    d b' fis
+    g1.
+    d1 r2\fermata \markCuiusDaCapo \bar "||" %70 finis
   }
 }
 
-LXXIcTenoreLyrics = \lyricmode {
+LXIXcTenoreLyrics = \lyricmode {
+  Ec -- ce
+  vi -- di -- mus
+  e --
+  um non ha --
+  ben -- tem spe -- ci -- %5
+  em, ne -- que de --
+  co --
+  rem:
+  a -- spe --
+  ctus in __ e -- o __ %10
+  non est:
+  hic pec -- ca --
+  ta no --
+  stra por -- ta --
+  vit, et __ %15
+  pro no --
+  bis do -- _ _
+  _ _ _ let: i --
+  pse au -- tem
+  vul -- ne -- ra -- tus %20
+  est pro --
+  pter in -- i -- qui --
+  ta -- tes
+  no --
+  stras: %25
+
+  Cu -- ius li --
+  vo -- re, li --
+  vo -- re
+  %30
+  sa --
+  na -- ti, sa --
+  na -- ti su --
+  mus, sa -- na -- ti __
+  su -- mus, %35
+
+  sa --
+  na -- ti __ su --
+  mus, sa --
+  na -- ti su -- _ %40
+  _ _ _
+  mus.
+
+  Ve -- re lan -- %45
+  guo -- res __
+  no -- stros,
+  no -- stros
+  i -- pse, __
+  i -- pse __ %50
+  tu -- lit, i --
+  pse tu --
+  lit et do --
+  lo --
+  res, et do -- %55
+  lo --
+  res
+  i -- pse por --
+  ta -- vit,
+  i -- pse por -- %60
+  ta --
+  vit, por --
+  ta --
+  vit, por --
+  ta -- _ _ %65
+  _ _ _
+  vit,
+  por -- ta -- _
+  _
+  vit. %70 finis
 }

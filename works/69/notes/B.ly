@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-LXXIaBasso = {
+LXIXaBasso = {
   \relative c {
     \clef bass
-    \key d \minor \time 4/2 \tempoLXXIaa \autoBeamOff
+    \key d \minor \time 4/2 \tempoLXIXaa \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
       \markTimeSig #'(4 2)
     R\breve*3
@@ -32,12 +32,12 @@ LXXIaBasso = {
     b2. a4 g( f) g2
     a d, a1 \noBreak
     d r\fermata \bar "||"
-    \tempoLXXIab f2. f4 c1 \noBreak
+    \tempoLXIXab f2. f4 c1 \noBreak
     g' d2 f %30
     c1 d~
     \time 2/2 \markTimeSig #'(2 2) d2 d \noBreak
     \time 4/2 \markTimeSig #'(4 2) a\breve\fermata \bar "||"
-    \time 4/4 \tempoLXXIac \newSpacingSection
+    \time 4/4 \tempoLXIXac \newSpacingSection
       \unset Staff.timeSignatureFraction
       R1*2 %35
     r2 a'4. a8
@@ -52,13 +52,13 @@ LXXIaBasso = {
     a4( a,) d r %45
     r8 f f f b4 fis \noBreak
     g2 d\fermata \bar "||"
-    \time 3/2 \newSpacingSection R1.*6 %53
+    \time 3/2 \tempoLXIXad \newSpacingSection R1.*6 %53
     \time 4/2 \set Staff.timeSignatureFraction = 2/2 R\breve*7 %60
     R\breve\fermata \markSpiritusDaCapo \bar "||" %61 finis
   }
 }
 
-LXXIaBassoLyrics = \lyricmode {
+LXIXaBassoLyrics = \lyricmode {
   In mon -- %4
   te o -- li -- %5
   ve -- ti,
@@ -104,10 +104,10 @@ LXXIaBassoLyrics = \lyricmode {
   tu -- a. %47 finis
 }
 
-LXXIbBasso = {
+LXIXbBasso = {
   \relative c {
     \clef bass
-    \key e \minor \time 4/2 \tempoLXXIba \autoBeamOff
+    \key e \minor \time 4/2 \tempoLXIXba \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
       \markTimeSig #'(4 2)
     e1 e
@@ -136,7 +136,7 @@ LXXIbBasso = {
     e2. e4 c2( h)
     a2. a4 a1 \noBreak %25
     e'\breve\fermata \bar "||"
-    \time 4/4 \tempoLXXIbb \newSpacingSection
+    \time 4/4 \tempoLXIXbb \newSpacingSection
       \unset Staff.timeSignatureFraction
       R1*2
     r2 g4 a~
@@ -158,12 +158,12 @@ LXXIbBasso = {
     d4( c) h2 %45
     e h~ \noBreak
     h e\fermata \bar "||"
-    \time 3/2 \newSpacingSection R1.*17 %64
+    \time 3/2 \tempoLXIXbc \newSpacingSection R1.*17 %64
     R1.\fermata \markVosFugamDaCapo \bar "||" %65 finis
   }
 }
 
-LXXIbBassoLyrics = \lyricmode {
+LXIXbBassoLyrics = \lyricmode {
   Tri -- stis
   est a -- ni -- ma
   me -- a
@@ -212,11 +212,100 @@ LXXIbBassoLyrics = \lyricmode {
   bis. %47 finis
 }
 
-LXXIcBasso = {
+LXIXcBasso = {
   \relative c {
     \clef bass
+    \key b \major \time 4/2 \tempoLXIXca \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+      \markTimeSig #'(4 2)
+    b1 b'1
+    f2 fis g1
+    es\breve
+    d2 d1 g2
+    c, f! b2. b4 %5
+    f2 g d es
+    f( b f1)
+    b, r\fermata
+    g c2 c~
+    c b! es1 %10
+    as2 f c' c,~
+    c c f1
+    es! as?2.( g4)
+    f2 es d1~
+    d g,2 g'~ %15
+    g f! b, b'~
+    b f g1~
+    g d2 d~
+    d c! h h
+    c c cis cis %20
+    d d' b! fis
+    g1 f
+    es h
+    c\breve \noBreak
+    g\fermata \bar "||" %25
+    \tempoLXIXcb b!2 b'1 a2 \noBreak
+    g1 f
+    es1.( d2)
+    c1 b
+    r r2 d %30
+    es4( f g a) b2 f
+    g1 f2 d
+    c f c1
+    f2 f4( es!) d2 c
+    r b c4( d) es( f) %35
+    g2.( f4) es1~
+    es2 d c1
+    b r2 d
+    es!4( f) g( a) b2( f)
+    g es f b %40
+    f\breve
+    b,\fermata \bar "||"
+    \time 3/2 \tempoLXIXcc \newSpacingSection R1.*27 %69
+    R1.\fermata \markCuiusDaCapo \bar "||" %70 finis
   }
 }
 
-LXXIcBassoLyrics = \lyricmode {
+LXIXcBassoLyrics = \lyricmode {
+  Ec -- ce
+  vi -- di -- mus
+  e --
+  um non ha --
+  ben -- tem spe -- ci -- %5
+  em, ne -- que de --
+  co --
+  rem:
+  a -- spe -- ctus __
+  in e -- %10
+  o non est: hic __
+  pec -- ca --
+  ta no --
+  stra por -- ta --
+  vit, et __ %15
+  pro no -- _
+  bis do --
+  let: i --
+  pse au -- tem
+  vul -- ne -- ra -- tus %20
+  est pro -- pter in --
+  i -- qui --
+  ta -- tes
+  no --
+  stras: %25
+  Cu -- ius li --
+  vo -- re,
+  li --
+  vo -- re
+  sa -- %30
+  na -- ti, sa --
+  na -- ti, sa --
+  na -- ti su --
+  mus, sa -- na -- ti,
+  sa -- na -- ti __ %35
+  su -- mus, __
+  sa -- na --
+  ti, sa --
+  na -- ti __ su --
+  mus, sa -- na -- ti %40
+  su --
+  mus. %42 finis
 }

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-LXXIaAlto = {
+LXIXaAlto = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/2 \tempoLXXIaa \autoBeamOff
+    \key d \minor \time 4/2 \tempoLXIXaa \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
       \markTimeSig #'(4 2)
     R\breve*5 %5
@@ -30,12 +30,12 @@ LXXIaAlto = {
     d2 b'2.( a4) g( f)
     e!2 f e1 \noBreak
     d r\fermata \bar "||"
-    \tempoLXXIab f2 f1 e2 \noBreak
+    \tempoLXIXab f2 f1 e2 \noBreak
     d( g) f f~ %30
     f e f1~
     \time 2/2 \markTimeSig #'(2 2) f2 e4( d) \noBreak
     \time 4/2 \markTimeSig #'(4 2) e\breve\fermata \bar "||"
-    \time 4/4 \tempoLXXIac \newSpacingSection
+    \time 4/4 \tempoLXIXac \newSpacingSection
       \unset Staff.timeSignatureFraction
       a4. a8 b!([ g)] es d \noBreak
     cis2 d4 f~ %35
@@ -51,8 +51,7 @@ LXXIaAlto = {
     f([ e16 d] e4) d r %45
     r8 a' a a f f a4~ \noBreak
     a8[ g16 fis] g4 fis2\fermata \bar "||"
-    \time 3/2 \newSpacingSection
-      a1 a2 \noBreak
+    \time 3/2 \tempoLXIXad \newSpacingSection a1 a2 \noBreak
     f b a4( g)
     f2 g4( fis g2) %50
     fis fis fis
@@ -70,7 +69,7 @@ LXXIaAlto = {
   }
 }
 
-LXXIaAltoLyrics = \lyricmode {
+LXIXaAltoLyrics = \lyricmode {
   In mon -- %6
   te o -- li --
   ve -- ti,
@@ -129,10 +128,10 @@ LXXIaAltoLyrics = \lyricmode {
   nem. %61 finis
 }
 
-LXXIbAlto = {
+LXIXbAlto = {
   \relative c' {
     \clef treble
-    \key e \minor \time 4/2 \tempoLXXIba \autoBeamOff
+    \key e \minor \time 4/2 \tempoLXIXba \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
       \markTimeSig #'(4 2)
     gis'1 gis
@@ -161,7 +160,7 @@ LXXIbAlto = {
     e e e4( fis) gis2
     a e a2. a4 \noBreak %25
     gis\breve\fermata \bar "||"
-    \time 4/4 \tempoLXXIbb \newSpacingSection
+    \time 4/4 \tempoLXIXbb \newSpacingSection
       \unset Staff.timeSignatureFraction
       g4 a2 fis4 \noBreak
     g8([ a)] g([ fis)] e[ fis] g4~
@@ -184,8 +183,7 @@ LXXIbAlto = {
     f4) e dis2 %45
     e4 e e dis8[ cis] \noBreak
     dis2 e\fermata \bar "||"
-    \time 3/2 \newSpacingSection
-      d1 g2 \noBreak
+    \time 3/2 \newSpacingSection \tempoLXIXbc d1 g2 \noBreak
     fis2. fis4 gis2
     a a( g) %50
     fis fis( g)
@@ -206,7 +204,7 @@ LXXIbAlto = {
   }
 }
 
-LXXIbAltoLyrics = \lyricmode {
+LXIXbAltoLyrics = \lyricmode {
   Tri -- stis
   est a -- ni -- ma
   me -- a
@@ -274,11 +272,152 @@ LXXIbAltoLyrics = \lyricmode {
   rum. %65 finis
 }
 
-LXXIcAlto = {
+LXIXcAlto = {
   \relative c' {
     \clef treble
+    \key b \major \time 4/2 \tempoLXIXca \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+      \markTimeSig #'(4 2)
+    f1 f2 b~
+    b a1 g2
+    g1.( fis4 e?)
+    fis2 fis1 f?2
+    g f! f2. f4 %5
+    f2 d f g
+    f\breve
+    f1 r\fermata
+    g g2 g~
+    g b! g1 %10
+    es2 as g g~
+    g g as1
+    g2 es1( f4 g)
+    as2 g fis g~
+    g fis g d~ %15
+    d f! f1~
+    f2 a d,1(
+    cis) d2 fis~
+    fis g g g
+    g g g^\critnote g %20
+    fis fis g a
+    g1 as
+    g1. g2
+    es\breve \noBreak
+    d\fermata \bar "||" %25
+    \tempoLXIXcb R\breve*2
+    r1 b2 b'~
+    b a g f~
+    f es d f %30
+    g4( a) b( c) f,1
+    d4( e f g) a2 f
+    e f f( e)
+    f1 r
+    r2 d es!4( f) g( a) %35
+    b2._( a4 g1)
+    f2 f g( c)
+    f, g c, r
+    r g' f2.( es4)
+    d2 g f1 %40
+    f f \noBreak
+    f\breve\fermata \bar "||"
+    \time 3/2 \tempoLXIXcc \newSpacingSection g,2 g' g \noBreak
+    g4( fis) d2 f
+    f4( e) c2( es) %45
+    d2.( c4) d2
+    c d4( c d2)
+    g, b!4( b') a( g)
+    f( g) a2( g4 f)
+    e f g2( a) %50
+    d,1 d2^\critnote
+    g c,1
+    d2 f b
+    a4( g a2 h)
+    c2 r es, %55
+    d( g4 fis g2)
+    fis r f
+    e4( f g2 a)
+    d, d g
+    g4( fis) a2 f %60
+    f4^\critnote e g2 es
+    d4^\critnote es f2 d
+    c r f~
+    f4 es g2( es)
+    d f( g) %65
+    c,( es f)
+    b, d( es)
+    a, d1~
+    d cis2
+    d1 r2\fermata \markCuiusDaCapo \bar "||" %70 finis
   }
 }
 
-LXXIcAltoLyrics = \lyricmode {
+LXIXcAltoLyrics = \lyricmode {
+  Ec -- ce vi --
+  di -- mus
+  e --
+  um non ha --
+  ben -- tem spe -- ci -- %5
+  em, ne -- que de --
+  co --
+  rem:
+  a -- spe -- ctus __
+  in e -- %10
+  o non est: hic __
+  pec -- ca --
+  ta no --
+  stra por -- ta -- _
+  _ vit, et __ %15
+  pro no --
+  bis do --
+  let: i --
+  pse au -- tem
+  vul -- ne -- ra -- tus %20
+  est pro -- pter in --
+  i -- qui --
+  ta -- tes
+  no --
+  stras: %25
+
+  Cu -- ius __ %28
+  li -- vo -- _
+  _ re sa -- %30
+  na -- ti, __ sa --
+  na -- ti, sa --
+  na -- ti su --
+  mus,
+  sa -- na -- ti __ %35
+  su --
+  mus, sa -- na --
+  ti su -- mus,
+  sa -- na --
+  ti, sa -- na -- %40
+  ti su --
+  mus.
+  Ve -- re lan --
+  guo -- res, lan --
+  guo -- res __ %45
+  no -- stros,
+  lan -- guo --
+  res no -- stros
+  i -- pse __
+  tu -- lit, i -- %50
+  pse, i --
+  pse tu --
+  lit, et do --
+  lo --
+  res, do -- %55
+  lo --
+  res, do --
+  lo --
+  res no -- stros
+  i -- pse por -- %60
+  ta -- _ _ _
+  _ _ _ _
+  vit, por --
+  _ ta --
+  vit, por -- %65
+  ta --
+  vit, por --
+  ta -- _
+  _
+  vit. %70 finis
 }
