@@ -1,7 +1,5 @@
 \version "2.24.0"
 
-aTre = \markup \remark "a 3"
-
 tempoLXXVa = \tempoMarkup "[Tempo deest]"
 tempoLXXVb = \tempoMarkup "[Tempo deest]"
 tempoLXXVc = \tempoMarkup "[Tempo deest]"
