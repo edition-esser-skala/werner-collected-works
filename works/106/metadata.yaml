@@ -1,0 +1,16 @@
+title: Alma Redemptoris mater
+id: Hárich deest · A-Ed H 10
+genre: antiphon
+scoring: S, A, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: H 10
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/372.html
+    license: public domain
+    principal: true
+toe: |
+  3 & org, vlne & 2nd \halfNote\ in \B1: f2 \\
+extra_abbreviations:
+  vlne:
