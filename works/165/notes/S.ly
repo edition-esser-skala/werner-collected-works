@@ -5,7 +5,7 @@ CLXVSoprano = {
     \clef treble
     \key b \major \time 4/2 \tempoCLXV \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
-    \mvTrh b'1\fE^\tuttiE a2 f
+    b'1 a2 f
     g c b2. b4
     a2 d g, c
     f, b c a

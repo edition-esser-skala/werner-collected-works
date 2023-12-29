@@ -5,7 +5,7 @@ CLXVViolinoI = {
     \clef treble
     \key b \major \time 4/2 \tempoCLXV
       \set Staff.timeSignatureFraction = 2/2
-    b'1\fE a2 f
+    b'1 a2 f
     g c b2. b4
     a2 d g, c
     f, b c a

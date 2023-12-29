@@ -5,7 +5,7 @@ CLXVOrgano = {
     \clef treble
     \key b \major \time 4/2 \tempoCLXV
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr b''1\fE-\tuttiE a2 f
+    b''1 a2 f
     << {
       g c b1
       a2 d g, c

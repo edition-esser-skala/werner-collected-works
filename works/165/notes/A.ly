@@ -6,7 +6,7 @@ CLXVAlto = {
     \key b \major \time 4/2 \tempoCLXV \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
     R\breve
-    \mvTr es1\fE^\tuttiE d2 b
+    es1 d2 b
     c f es2. es4
     d2 g c, f
     \time 2/2 \markTimeSig #'(2 2) b, es %5

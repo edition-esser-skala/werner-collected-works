@@ -6,7 +6,7 @@ CLXVTenore = {
     \key b \major \time 4/2 \tempoCLXV \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
     R\breve*3
-    \mvTr b1\fE^\tuttiE a2 f
+    b1 a2 f
     \time 2/2 \markTimeSig #'(2 2) g c %5
     \time 4/2 \markTimeSig #'(4 2) b2. b4 a1
     r2 b4 c d c b2
