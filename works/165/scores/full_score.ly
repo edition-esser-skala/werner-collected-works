@@ -15,11 +15,11 @@
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
-              \incipit "I" "soprano" #-16.1 #-0.8
+              \incipitVlISoprano
               \CLXVViolinoI
             }
             \new Staff {
-              \incipit "II" "alto" #-16.4 #-0.8
+              \incipitVlIIAlto
               \CLXVViolinoII
             }
           >>
