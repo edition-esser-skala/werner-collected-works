@@ -1,5 +1,13 @@
 # Changelog
 
+## 2023.12.0 – 2023-12-31
+
+### Added
+
+- works: A-Ed B 43, G 93, H 10, I 5, J 11, K5, L 1, and M 7
+- global macro definitions: \aTre, \incipitVlISoprano, and \incipitVlIIAlto
+
+
 ## 2023.11.0 – 2023-11-30
 
 ### Added
