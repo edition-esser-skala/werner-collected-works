@@ -10,3 +10,5 @@
 aTre = \markup \remark "a 3"
 incipitVlISoprano = \incipit "I" "soprano" #-16.1 #-0.8
 incipitVlIIAlto = \incipit "II" "alto" #-16.4 #-0.8
+ignoreMelismas = \set ignoreMelismata = ##t
+obeyMelismas = \unset ignoreMelismata
