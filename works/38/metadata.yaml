@@ -1,0 +1,37 @@
+title: Iam hyems transiit
+subtitle: Motetto de Viduis
+id: Hárich deest · A-Ed B 46
+genre: motet
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 46
+    rism: 600038020
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/777.html
+    license: public domain
+    principal: true
+toe: |
+  4  & timp & bar missing in \B1 \\
+  92 & T    & 1st \quarterNote\ in \B1: b8–\quaverRest \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+lyrics:
+  Iam hyems transiit,\\
+  imber abiit et recessit.\\
+  Surge anima mea,\\
+  et veni electa mea,\\
+  et ponam te in thronum meum.\\
+  (\bibleverse{Songs}(2:11))\\[1ex]
+  Multae filiae congregaverunt divitias,\\
+  tu supergressa es universas,\\
+  fallax gratia et vana est pulchritudo,\\
+  mulier timens Dominum ipsa laudabitur.\\
+  (\bibleverse{Proverbs}(5:29-30))\\[1ex]
+  Rex Christe virtus fortium,\\
+  qui magna solus efficis,\\
+  huius precatu, quaesumus,\\
+  audi benignus supplices.\\
+  (4th verse of \textit{Fortem virili pectore}, Liber Hymnarius 1983)\\[1ex]
+  Alleluia.
