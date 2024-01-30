@@ -1,5 +1,13 @@
 # Changelog
 
+## 2024.01.0 – 2024-01-30
+
+### Added
+
+- works: A-Ed B 44 (1, 2), 46, 56, and 57
+- global macro definitions: \ignoreMelismas and \obeyMelismas
+
+
 ## 2023.12.0 – 2023-12-31
 
 ### Added
