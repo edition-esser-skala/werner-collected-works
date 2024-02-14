@@ -1,0 +1,18 @@
+title: Ave Regina cœlorum
+id: Hárich deest · A-Ed I 6
+genre: antiphon
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: I 6
+    rism: 600038507
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/432.html
+    license: public domain
+    principal: true
+toe: |
+  33f & B    & bar in \B1: A2–E2 \\
+  38  & S    & 3rd \halfNote\ in \B1: c″2 \\
+  45  & T    & 1st \halfNote\ in \B1: b2 \\
+  48  & vl 2 & 2nd \halfNote\ in \B1: c″2 \\
