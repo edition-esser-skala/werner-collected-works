@@ -1,0 +1,16 @@
+title: Salve Regina
+id: Hárich deest · A-Ed K 3 (2)
+genre: antiphon
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: K 3 (2)
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/492.html
+    license: public domain
+    principal: true
+toe: |
+  9  & vl 2 & 3rd \eighthNote\ in \B1: f′8 \\
+  32 & vl 2 & bar in \B1: g′4–g′4–e′4 \\
+  58 & org  & 1st \quarterNote\ in \B1: d4 \\
