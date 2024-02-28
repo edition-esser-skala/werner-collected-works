@@ -1,5 +1,18 @@
 # Changelog
 
+## 2024.02.0 – 2024-02-28
+
+### Added
+
+- works: A-Ed H 4, I 6, J 12, K 3 (1–4), L 2, M 8/12, and M 9
+- global macro definition: \incipitVlIISoprano
+
+
+### Changed
+
+- GitHub workflow now uses checkout@4.1.1 and rsync-deployments@6.0.0
+
+
 ## 2024.01.0 – 2024-01-30
 
 ### Added
