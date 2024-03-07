@@ -1,0 +1,70 @@
+title: 4 Responsoria
+id: WerW Z.5
+genre: responsory
+festival: Corpus Christi
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: F 32
+    rism: 600038318
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/968.html
+    license: public domain
+    principal: true
+toe: |
+  –     & –      & The factual nature of the work makes Werner's
+                   authorship appear doubtful. \\
+  –     & –      & Bars 33f (1st movement) and 10 (2nd mv.) have been
+                   cancelled in all voices with red pencil by later hand,
+                   presumably to shorten the respective mv.
+                   The same hand added vide marks skipping bars
+                   61–71 (1st mv.), 17–24 (2nd mv.), and 56–63 (3rd mv.). \\
+  \midrule
+  1·2  & T       & 1st \halfNote\ in \B1: d′2 \\
+  1·23 & vl 1    & grace note added by editor \\
+  1·49 & vl 2, A & grace note added by editor \\
+  \midrule
+  2·6  & T       & 4th \eighthNote\ in \B1: b8 \\
+  2·8  & vl 2, A & grace note added by editor \\
+  2·12 & vl 2, A & grace note added by editor \\
+  2·13 & vl 1, S & grace note added by editor \\
+  \midrule
+  3·73 & S       & bar in \B1: c″4–d″2 \\
+  3·73 & T       & bar in \B1: a′4–\flat b′2 \\
+  \midrule
+  4·12 & vl 2, A & grace note added by editor \\
+  4·23 & vl 2    & 2nd \quarterNote\ in \B1: g′4 \\
+  4·30 & S       & grace note added by editor \\
+  4·49 & vl 1    & grace note added by editor \\
+  4·51 & vl 1    & grace note added by editor \\
+  4·57 & B       & bar in \B1: c2–\crotchetRest \\
+lyrics:
+  \textsb{1}\\
+  O salutaris hostia,\\
+  quae coeli pandis ostium:\\
+  bella premunt hostilia,\\
+  da robur, fer auxilium.\\
+  Uni trinoque Domino\\
+  sit sempiterna gloria,\\
+  qui vitam sine termino\\
+  nobis donet in patria.\\
+  Amen.\\[\baselineskip]
+  \textsb{2}\\
+  Da pacem, Domine in diebus nostris,\\
+  quia non est alius qui pugnet pro nobis,\\
+  nisi tu Deus noster.\\
+  Alleluia.\\[\baselineskip]
+  \textsb{3}\\
+  Homo quidam fecit coenam magnam,\\
+  et misit servum suum hora\\
+  dicere invitatis ut venirent,\\
+  quia parata sunt omnia.\\
+  Venite, comedite panem meum,\\
+  et bibite vinum meum, quod miscui vobis.\\
+  (\bibleverse{Luk}(14:16-17), \bibleverse{Pro}(9:5))\\[\baselineskip]
+  \textsb{4}\\
+  Hic est panis vivus qui de coelo descendit.\\
+  Non sicut patres vestri manducaverunt manna et mortui sunt.\\
+  Si quis manducaverit ex hoc pane, vivet in aeternum.\\
+  (\bibleverse{John}(6:49-52))

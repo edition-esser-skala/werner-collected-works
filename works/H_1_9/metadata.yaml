@@ -1,0 +1,16 @@
+title: Beatus vir
+id: WerW H.1.9
+genre: psalm
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: G 93
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/925.html
+    license: public domain
+    principal: true
+toe: |
+  13 & vl 2 & 1st \quarterNote\ in \B1: f′4 \\
+  20 & S    & 2nd \eighthNote\ in \B1: a′8 \\
+  55 & A    & 3rd \quarterNote\ in \B1: f′4 \\

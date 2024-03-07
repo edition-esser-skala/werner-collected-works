@@ -1,0 +1,19 @@
+title: Estote fortes in bello
+id: WerW D.1.2
+genre: motet
+festival: de Omnibus Sanctis aut de Apostolis
+scoring: S, A (solo), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 44 (1)
+    rism: 600038019
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/776.html
+    license: public domain
+    principal: true
+    notes: first of two motets archived under this shelfmark
+lyrics:
+  Estote fortes in bello,\\
+  et pugnate cum antiquo serpente.\\
+  Bonum certamen certate, fidem servate.

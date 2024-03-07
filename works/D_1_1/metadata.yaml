@@ -1,0 +1,37 @@
+title: Estote fortes in bello
+id: WerW D.1.1
+genre: motet
+festival: de Omnibus Sanctis aut de Apostolis
+scoring: T (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 43
+    rism: 600038018
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/775.html
+    license: public domain
+    principal: true
+toe: |
+  10f & vl 1 & rhythm in \B1: 5 × 32–64–64–32–16–16 \\
+  11  & T    & 7th \eighthNote\ in \B1: c′8 \\
+  16  & S    & 1st \halfNote\ in \B1: f′8–e′8–e′4 \\
+  55  & vl 1 & rhythm of 1st \quarterNote\ in \B1: 32–32–16–32–32–16 \\
+  62  & vl 1 & 3rd \sixteenthNote\ in \B1: g″16 \\*
+  94  & vl 1 & rhythm of 2nd \eighthNote\ in \B1: tuplet 3×16 \\
+lyrics:
+  Estote fortes in bello,\\
+  et pugnate cum antiquo serpente,\\
+  et accipietis regnum aeternum.\\[1ex]
+  Vidi Dominus viam iustorum\\
+  qui in lege eius meditantur die ac nocte,\\
+  mirificavit Deus sanctos suos\\
+  et exaudivit eos clamantens ad se.\\[1ex]
+  Placare, Christe, servulis,\\
+  quibus Patris clementiam\\
+  tuae ad tribunal gratiae\\
+  patrona virgo postulat.\\[1ex]
+  Vos, purpurati Martyres,\\
+  vos, candidati praemio\\
+  confessionis, exules\\
+  vocate nos in patriam.
