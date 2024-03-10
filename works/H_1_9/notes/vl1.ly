@@ -1,9 +1,56 @@
 \version "2.24.0"
 
-H-I-IX-ViolinoI = {
+H-I-IX-aViolinoI = {
   \relative c' {
     \clef treble
-    \key f \major \time 4/4 \tempoH-I-IX
+    \key d \dorian \time 4/4 \tempoH-I-IX-a
+    R1*10 %10
+    r2 r16 a''\f f d a c e g
+    f a b d g, c e, b' a c, f a c g a f
+    e c e g fis a b g a fis d a d a fis d
+    r4 b''16 g fis d b g d b g' d b g
+    r4 c''16 a g e a f c a f' c a f %15
+    r b d f b4 r16 g, h d g4~
+    g8 f e8.\trill e16 d4 r
+    r8 a\p a16( b) b( c) d b a g f es d8
+    r f16 g a b c8 f,16 es d c b4
+    r8 a' d4~ d16 c b a g4 %20
+    r8 g c4~ c8. b32 a g8 c
+    a4 r r2
+    R1*4 %26
+    r16 e\f g c e c e g c g e c' d, c' d, h'
+    c8 g16.\trill f64( g) a8 e r16 f f16.\trill e64( f) g8 d
+    r16 e32 f g16 g gis gis a a h h a a a8 gis
+    a16 e32\p e e16 e e e e e r c32 c c16 c c c c c %30
+    r a32 a a16 a a a a a r b32 b b16 b b b b b
+    a4 r8 g' e c16 e f8 a16 f
+    d8. d16 g8 f e16 g8 g16 r e8 e16
+    r f8 f16 r d8 d16 r e8 e16 r4
+    R1*2 %36
+    r2 r4 r16 e\f f g
+    a f c a c g e c a' f a c f8 r
+    a16 e f d e, d' a, cis' d d, f a d a f d
+    h'! g' e c' d, c' g, h' c g e c r4 %40
+    a'16\p f c a r4 f'16 d a f r4
+    r8 d' c c16 f e c g e r4
+    c'16 g e c a' c f a f d b f g, f' g, e'
+    f4 r r2
+    r2 r4 d'8\fE h!16 d %45
+    e8 c16 e f8 d16 f g f e8 d e
+    f f, c'4. c8 d4
+    c b a r
+    r2 r8 a~ a16 gis h8~
+    h16 a c8~ c16 a^\critnote d8~ d16 e c d h8 cis %50
+    d d, r4 r8 d'~ d16 cis e8~
+    e16 d f8~ f16 e g8~ g f e4\trill
+    d16 a8 b16 f8 e d4 r\fermata \bar "|." %53 finis
+  }
+}
+
+H-I-IX-cViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoH-I-IX-c
     c'2\fE d4 h
     c8 b a g f e d4
     c r r2

@@ -1,6 +1,7 @@
 \version "2.24.0"
 
-tempoH-I-IX = \tempoMarkup "Presto"
+tempoH-I-IX-a = \tempoMarkup "Andante"
+tempoH-I-IX-c = \tempoMarkup "Presto"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

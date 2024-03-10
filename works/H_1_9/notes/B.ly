@@ -1,9 +1,120 @@
 \version "2.24.0"
 
-H-I-IX-Basso = {
+H-I-IX-aBasso = {
   \relative c {
     \clef bass
-    \key f \major \time 4/4 \tempoH-I-IX \autoBeamOff
+    \key d \dorian \time 4/4 \autoBeamOff \tempoH-I-IX-a
+    R1
+    r4 \mvTr a'8\pE^\solo a, d4. e16 f
+    g4. a16 b a8 f r4
+    R1
+    r8 f4 e8 f d e4 %5
+    d r r2
+    r8 f4 e8 f g e[ f]~
+    f e r g4 f!8 e a
+    d, g e([ f)] c r r e
+    f4 e8 fis g4 f8 g %10
+    a d a4 d,8 \mvTr d\fE^\tutti f c!
+    d b c4 f,8 f' e f
+    c8. c16 a'8 g d d r4
+    g16 d b g b8 d g g, r4
+    f'!16 c a f a8 c f f, r f' %15
+    b8. b16 b8 as g f es8.([ d16)]
+    cis8 d a4 d8 \mvTr d'\pE^\solo a g
+    f8. f16 g8 a b b, r b'
+    c16([ b a g] f8) es d b b' g
+    a16([ g)] fis([ e)] d8 a' b b16 a g8 g16 f %20
+    e4 f16([ g)] a([ b)] c8 a16 f c8 c16 c
+    f,4 r r2
+    r4 r8 g' e c d([ e)]
+    f4 r r r8 f
+    e c d e f8. e16 d8([ c)] %25
+    h! g' c, f16 f g4. g,8
+    c \mvDl c'16\fE^\tutti c16 c8 g e c g4
+    c r8 a' d, d r g
+    c, c16 c' h h a a gis8 a e4
+    a, r \mvTr f'4.\pE^\solo f8 %30
+    d d16 d d8 d cis4. cis8
+    d d' b g16 b c!8 c16 c a8 f16 a
+    b8([ g)] e f c' c, a' a,
+    d d g g, c e16([ c)] g'([ a)] h([ g)]
+    c8 h16([ a)] g([ f e d)] c8 a' g,4 %35
+    c r r8 h' h a16 h
+    c8. h16 a8 h gis4 a
+    \mvTr f8\fE^\tutti f16 f c4 f r8 d
+    cis d a8. a16 d8 d4 d8
+    g c,16 c g4 c r %40
+    R1*3
+    r8 \mvTr f~\fE^\tuttiE f16[ e g8]~ g16[ f a8]~ a16[ g b g]
+    e8 f4 e8 f16([ g f e] d4) %45
+    c r r2
+    r8 f~ f16[ e g8]~ g16[ f a8]~ a[ g16 f]
+    e8 f4( e16[ d] cis8) d a4
+    d r r2
+    R1 %50
+    r8 d~ d16[ cis e8]~ e16[ d f8] e[ cis16 a]
+    f'8.[ d16] g8[ e16 cis] a8 d a4
+    d r r2\fermata \bar "|." %53 finis
+  }
+}
+
+H-I-IX-aBassoLyrics = \lyricmode {
+  Di -- xit Do -- mi -- nus %2
+  Do -- mi -- no me -- o:
+
+  Do -- nec, do -- nec po -- %5
+  nam,
+  do -- nec, do -- nec po --
+  nam in -- i -- mi -- cos
+  tu -- os, tu -- os, sca --
+  bel -- lum, sca -- bel -- lum pe -- %10
+  dum tu -- o -- rum. Vir -- gam vir --
+  tu -- tis tu -- ae e -- mit -- tet
+  Do -- mi -- nus ex Si -- on:
+  Do -- mi -- na -- re, do -- mi -- na -- re,
+  do -- mi -- na -- re, do -- mi -- na -- re in %15
+  me -- di -- o in -- i -- mi -- co --
+  rum tu -- o -- rum. Te -- cum prin --
+  ci -- pi -- um in di -- e vir --
+  tu -- tis tu -- ae in splen --
+  do -- ri -- bus san -- cto -- rum, ex u -- te -- ro %20
+  an -- te lu -- ci -- fe -- rum ge -- nu -- i
+  te.
+  Tu es sa -- cer --
+  dos, tu
+  es sa -- cer -- dos in ae -- ter -- %25
+  num se -- cun -- dum Mel -- chi -- se --
+  dech. Do -- mi -- nus a dex -- tris tu --
+  is, con -- fre -- git, con --
+  fre -- git in di -- e i -- rae su -- ae re --
+  ges. Iu -- di -- %30
+  ca -- bit in na -- ti -- o -- ni --
+  bus, im -- ple -- bit ru -- i -- nas, im -- ple -- bit, im --
+  ple -- bit ru -- i -- nas, con -- quas --
+  sa -- bit, con -- quas -- sa -- bit ca -- pi --
+  ta in ter -- ra mul -- to -- %35
+  rum. Pro -- pter -- e -- a
+  ex -- al -- ta -- bit ca -- put.
+  Glo -- ri -- a Pa -- tri, Pa --
+  tri et Fi -- li -- o et Spi --
+  ri -- tu -- i San -- cto, %40
+
+  a -- %44
+  _ _ men, a -- %45
+  men,
+  a --
+  men, a -- men, a --
+  men,
+  %50
+  a -- _
+  _ _ _ men, a --
+  men. %53 finis
+}
+
+H-I-IX-cBasso = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoH-I-IX-c \autoBeamOff
     R1
     r4 \mvTr f2\fE^\tutti g4
     e f d4. d8
@@ -96,7 +207,7 @@ H-I-IX-Basso = {
   }
 }
 
-H-I-IX-BassoLyrics = \lyricmode {
+H-I-IX-cBassoLyrics = \lyricmode {
   Be -- a -- %2
   tus, be -- a -- tus
   vir, be -- a --

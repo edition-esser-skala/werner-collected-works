@@ -1,9 +1,111 @@
 \version "2.24.0"
 
-H-I-IX-Tenore = {
+H-I-IX-aTenore = {
   \relative c' {
     \clef "treble_8"
-    \key f \major \time 4/4 \tempoH-I-IX \autoBeamOff
+    \key d \dorian \time 4/4 \autoBeamOff \tempoH-I-IX-a
+    \mvTr a4.\pE^\solo h16([ cis)] d4. e16 f
+    e4. f16 g f8 d r4
+    r2 r4 r8 d~
+    d c16 b a4 g g
+    g r r8 d'4 cis8 %5
+    d b a4 g r
+    R1
+    r8 c4 b8 a16([ g)] a8 r a~
+    a b c c c c r c
+    c([ d)] g, c d([ e)] a, d %10
+    e a, a4 a8 \mvTr a\fE^\tutti a g
+    f b g4 a8 a c a
+    g8. g16 a8 b d d r4
+    b16 a b b d8 a b b r4
+    a16 g a a c8 g a a r a %15
+    b8. b16 b8 c d d g,([ c16 b)]
+    a8 a a4 a r
+    R1*4 %21
+    r2 \mvTr a8\pE^\solo a h! c
+    d c c([ h)] c4 r
+    r r8 c b g a4
+    g r8 g a a d([ e] %25
+    d) h! g f' d4. d8
+    e \mvDl c16\fE^\tutti c c8 h c c c([ h)]
+    c4 r8 a a a r g
+    g g16 g h h c c e8 c h4
+    a r r2 %30
+    R1*5 %35
+    r2 r8 \mvTr d\pE^\solo d c16 d
+    e8. d16 c8 d h4\trill a
+    \mvTr a8\fE^\tutti a16 a g4 a r8 a
+    a4. a8 a a4 a8
+    g g16 g g4 g8 \mvTr c4\pE^\aTre c8 %40
+    f, f a a d,8. d16 d8 d'
+    b? g e([ f)] c c'4 f,8
+    e e16 e f8 a b d c4
+    f, r r2
+    r r8 \mvTr c'~\fE^\tuttiE c16[ h! d8]~ %45
+    d16[ c e8]~ e16[ d f d] h8 c4 b8~
+    b a r4 r2
+    r r8 d~ d16[ cis e8]~
+    e16[ d f8] e8.[ cis16] a4 r
+    R1 %50
+    r8 a( g4) a4 g8[ a]~
+    a16[ f] d8 b'4( a8) a a4
+    a r r2\fermata \bar "|." %53 finis
+  }
+}
+
+H-I-IX-aTenoreLyrics = \lyricmode {
+  Di -- xit Do -- mi -- nus
+  Do -- mi -- no me -- o:
+  Se --
+  de a dex -- tris me --
+  is, do -- nec, %5
+  do -- nec po -- nam
+
+  in -- i -- mi -- cos, in --
+  i -- mi -- cos tu -- os, sca --
+  bel -- lum, sca -- bel -- lum pe -- %10
+  dum tu -- o -- rum. Vir -- gam vir --
+  tu -- tis tu -- ae e -- mit -- tet
+  Do -- mi -- nus ex Si -- on:
+  Do -- mi -- na -- re, do -- mi -- na -- re,
+  do -- mi -- na -- re, do -- mi -- na -- re in %15
+  me -- di -- o in -- i -- mi -- co --
+  rum tu -- o -- rum.
+
+  Et non poe -- ni -- %22
+  te -- bit e -- um.
+  Tu es sa -- cer --
+  dos se -- cun -- dum or -- %25
+  di -- nem Mel -- chi -- se --
+  dech. Do -- mi -- nus a dex -- tris tu --
+  is, con -- fre -- git, con --
+  fre -- git in di -- e i -- rae su -- ae re --
+  ges. %30
+
+  Pro -- pter -- e -- a %36
+  ex -- al -- ta -- bit ca -- put.
+  Glo -- ri -- a Pa -- tri et
+  Fi -- li -- o et Spi --
+  ri -- tu -- i San -- cto, si -- cut %40
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men,
+  a -- %45
+  men, a -- _
+  men,
+  a --
+  _ men,
+  %50
+  a -- men, a --
+  men, a -- men, a --
+  men. %53 finis
+}
+
+H-I-IX-cTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \major \time 4/4 \tempoH-I-IX-c \autoBeamOff
     R1
     \mvTr c2\fE^\tutti d4 h
     c a a d
@@ -91,7 +193,7 @@ H-I-IX-Tenore = {
   }
 }
 
-H-I-IX-TenoreLyrics = \lyricmode {
+H-I-IX-cTenoreLyrics = \lyricmode {
   Be -- a -- tus %2
   vir, be -- a -- tus
   vir, be -- a -- tus

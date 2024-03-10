@@ -1,16 +1,38 @@
-title: Beatus vir
+title: Vesperæ longiores de Confessore
 id: WerW H.1.9
-genre: psalm
+genre: vesper
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
+    shelfmark: G 83
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/915.html
+    rism: 600038328
+    license: public domain
+    principal: true
+    notes: Dixit Dominus and Magnificat
+  B2:
+    siglum: A-Ed
+    shelfmark: G 90
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/922.html
+    license: public domain
+    notes: Confitebor
+  B3:
+    siglum: A-Ed
     shelfmark: G 93
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/925.html
     license: public domain
-    principal: true
+    notes: Beatus vir
+  B4:
+    siglum: A-Ed
+    shelfmark: G 82
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/914.html
+    rism: 600038327
+    license: public domain
+    notes: Laudate pueri
 toe: |
-  13 & vl 2 & 1st \quarterNote\ in \B1: f′4 \\
-  20 & S    & 2nd \eighthNote\ in \B1: a′8 \\
-  55 & A    & 3rd \quarterNote\ in \B1: f′4 \\
+  1·50 & vl 1 & 6th \sixteenthNote\ in \B1: h′16 \\
+  3·13 & vl 2 & 1st \quarterNote\ in \B3: f′4 \\
+  3·20 & S    & 2nd \eighthNote\ in \B3: a′8 \\
+  3·55 & A    & 3rd \quarterNote\ in \B3: f′4 \\

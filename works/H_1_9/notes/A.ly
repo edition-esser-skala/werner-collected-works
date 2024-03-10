@@ -1,9 +1,112 @@
 \version "2.24.0"
 
-H-I-IX-Alto = {
+H-I-IX-aAlto = {
   \relative c' {
     \clef treble
-    \key f \major \time 4/4 \tempoH-I-IX \autoBeamOff
+    \key d \dorian \time 4/4 \autoBeamOff \tempoH-I-IX-a
+    R1
+    r2 r4 \mvTr f~\pE^\solo
+    f8 e16 d e([ d)] e8 f f r4
+    r r8 f f16([ d)] e([ f)] d4
+    e8 r r4 r2 %5
+    r8 g4 fis8 g e d4
+    c r r2
+    r8 e fis d d a' gis a
+    fis g4( f) e8 r g
+    g16([ f)] f8 r a a16([ g)] g8 r g~ %10
+    g16 g f8 e4 d8 \mvTr f\fE^\tutti f e
+    f f f([ e)] f f g f
+    e8. e16 fis8 g fis fis r4
+    g16 fis g g g8 fis g g r4
+    f16 e f f f8 e f f r f %15
+    f8. f16 f8 f g d g4~
+    g16 g f8 e4 d r
+    R1*4 %21
+    r2 \mvTr c8\pE^\solo c d e
+    f e16([ f)] d4\trill c r
+    r8 f e c d([ e)] f4
+    r8 e d c c c f a %25
+    g8. g16 e8 a g4. g8
+    g \mvDl g16\fE^\tutti g g8 g g g g4
+    g r8 e f f r d
+    e e16 e gis gis a a e8 e e4
+    e r r2 %30
+    R1*4
+    r2 r4 \mvTr d8\pE^\solo d %35
+    e f16 g f8 e e16([ d)] d8 r4
+    R1
+    \mvTr f8\fE^\tutti f16 f f8([ e)] f4 r8 f
+    e f e8. e16 d8 f4 f8
+    d e16 e d4 e8 \mvTr e4\pE^\aTreE e8 %40
+    f f cis cis d8. e16 f8 f
+    g g g([ f)] e e4 f8
+    g g16 g a8 f f f f([ e)]
+    f r \mvTr g[\fE^\tuttiE e16 g] a8[ f16 a] b8[ g16 b]
+    c[ b] a8 g[( c16 b] a[ b a g)] f4 %45
+    g8.([ e16 a8. f16)] d8 g([ f g)]
+    c,4 g'8[ e16 g] a8[ f16 a] b4~
+    b8 a g4~ g16[ a f g] e4
+    r8 d~ d16[ cis e8]~ e16[ d f8]~ f16[ e e d]
+    c8[ a16 e'] f8.[ d16] gis8 a4 g8~ %50
+    g f e[ cis16 e] f8[ d16 f] g8[ e16 cis]
+    a8[ a'16 f] d[ b' g e] cis8 d4( cis8)
+    d4 r r2\fermata \bar "|." %53 finis
+  }
+}
+
+H-I-IX-aAltoLyrics = \lyricmode {
+  Se -- %2
+  de a dex -- tris me -- is,
+  a dex -- tris me --
+  is, %5
+  do -- nec, do -- nec po --
+  nam
+  in -- i -- mi -- cos, in -- i --
+  mi -- cos tu -- os, sca --
+  bel -- lum, sca -- bel -- lum pe -- %10
+  dum tu -- o -- rum. Vir -- gam vir --
+  tu -- tis tu -- ae e -- mit -- tet
+  Do -- mi -- nus ex Si -- on:
+  Do -- mi -- na -- re, do -- mi -- na -- re,
+  do -- mi -- na -- re, do -- mi -- na -- re in %15
+  me -- di -- o in -- i -- mi -- co --
+  rum tu -- o -- rum.
+
+  Et non poe -- ni -- %22
+  te -- bit e -- um.
+  Tu es sa -- cer -- dos
+  in ae -- ter -- num se -- cun -- dum %25
+  or -- di -- nem Mel -- chi -- se --
+  dech. Do -- mi -- nus a dex -- tris tu --
+  is, con -- fre -- git, con --
+  fre -- git in di -- e i -- rae su -- ae re --
+  ges. %30
+
+  De tor -- %35
+  ren -- te in vi -- a bi -- bet.
+
+  Glo -- ri -- a Pa -- tri, Pa --
+  tri et Fi -- li -- o et Spi --
+  ri -- tu -- i San -- cto, si -- cut %40
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men, a -- _ _
+  _ men, a -- men, %45
+  a -- men, a --
+  men, a -- _ _
+  men, a -- men,
+  a --
+  _ _ men, a -- _ %50
+  men, a -- _ _
+  _ _ men, a --
+  men. %53 finis
+}
+
+H-I-IX-cAlto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoH-I-IX-c \autoBeamOff
     r4 \mvTr f2\fE^\tuttiE g4
     e f r2
     c d4 h
@@ -99,7 +202,7 @@ H-I-IX-Alto = {
   }
 }
 
-H-I-IX-AltoLyrics = \lyricmode {
+H-I-IX-cAltoLyrics = \lyricmode {
   Be -- a --
   tus vir,
   be -- a -- tus

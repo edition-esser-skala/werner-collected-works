@@ -11,7 +11,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-I-IX-Organo }
+        \new Staff { \H-I-IX-cOrgano }
       >>
     }
   }
