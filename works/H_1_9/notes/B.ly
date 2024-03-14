@@ -297,3 +297,96 @@ H-I-IX-cBassoLyrics = \lyricmode {
   _ _
   men. %104 finis
 }
+
+H-I-IX-fBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \autoBeamOff \tempoH-I-IX-f
+    R1*3
+    r2 r8 \mvTr d\pE^\solo fis d
+    a' e cis h16 a fis'8 d r d %5
+    h' g r e cis' a h cis
+    d8.[( cis32 h] a16[ g fis e] d8) cis h4
+    a r r2
+    R1
+    a'8 a fis e16 d g8 h16([ g)] e8 e %10
+    r \mvTr a\fE^\tuttiE fis d cis a' fis d
+    g d a4 d r
+    r2 r8 \mvTr a'\pE^\soloE d16[ a fis d]
+    h'8[ a16 g] fis[ e] d8 cis4 r
+    R1 %15
+    g'8 g h, d g, g16 g r8 g'
+    dis dis dis h16 dis e8 e a a,
+    fis' e16 d g8 g, e'8. d16 c8 h
+    ais ais16 ais ais4 h r
+    R1*7 %26
+    r8 \mvTr a'\fE^\tutti fis cis d d16 d g8 h
+    a a r fis g g r e
+    fis4 d8 h ais h16 d fis8 fis,
+    R1*2 %31
+    r2 r8 \mvTr d'\pE^\solo a' a
+    fis8. fis16 g8 a h16([ g)] fis([ e)] d8 c
+    h8. a16 g8 g' d8. d16 e8 e
+    h8. h16 c8 a' fis fis g8. g16 %35
+    d4 r r2
+    R1
+    r2 r8 a'4 a8
+    fis fis h h e,8. e16 a8 a
+    d, d cis([ d)] \tempoH-I-IX-fb a4 r %40
+    R1
+    \mvTr d4\fE^\tutti d d d8 d
+    a' cis, d([ e)] a, a'([ cis, d])
+    a a'[ cis, d] h16[ cis] d4 cis8
+    h h'[ a g] fis[ g] fis16[ e d e] %45
+    fis[ gis] a4 g8 fis16[ e d cis] h8[ cis]
+    d4 r8 a' g[ fis16 e] fis8[ e16 d]
+    cis8[ fis h, e] a,2
+    a1~
+    a2 d8 fis([ g a)] %50
+    d,4 r r2\fermata \bar "|." %51 finis
+  }
+}
+
+H-I-IX-fBassoLyrics = \lyricmode {
+  Et ex -- ul -- %4
+  ta -- vit spi -- ri -- tus me -- us in %5
+  De -- o, in De -- o sa -- lu --
+  ta -- ri me --
+  o.
+
+  Ec -- ce e -- nim ex hoc be -- a -- tam %10
+  me di -- cent o -- mnes ge -- ne --
+  ra -- ti -- o -- nes.
+  Qui po --
+  _ _ tens est.
+  %15
+  Et mi -- se -- ri -- cor -- di -- a, mi --
+  se -- ri -- cor -- di -- a e -- ius a pro --
+  ge -- ni -- e in pro -- ge -- ni -- es ti --
+  men -- ti -- bus e -- um.
+
+  E -- su -- ri -- en -- tes im -- ple -- vit %27
+  bo -- nis di -- mi -- sit, di --
+  mi -- sit, di -- mi -- sit in -- a -- nes.
+
+  Si -- cut lo -- %32
+  cu -- tus est ad pa -- tres no -- stros,
+  A -- bra -- ham et se -- mi -- ni, et
+  se -- mi -- ni e -- ius in sae -- cu -- %35
+  la.
+
+  Si -- cut
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per, %40
+
+  et in sae -- cu -- la
+  sae -- cu -- lo -- rum, a --
+  men, a -- _ _ _
+  men, a -- _ _ %45
+  _ _ _ _ _
+  men, a -- _ _
+  _ men,
+  a --
+  men, a -- %50
+  men. %51 finis
+}

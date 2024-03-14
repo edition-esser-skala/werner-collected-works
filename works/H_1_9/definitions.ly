@@ -2,6 +2,8 @@
 
 tempoH-I-IX-a = \tempoMarkup "Andante"
 tempoH-I-IX-c = \tempoMarkup "Presto"
+tempoH-I-IX-f = \tempoMarkup "Andante"
+  tempoH-I-IX-fb = \tempoMarkup "Allegro"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

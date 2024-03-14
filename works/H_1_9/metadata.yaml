@@ -36,3 +36,7 @@ toe: |
   3·13 & vl 2 & 1st \quarterNote\ in \B3: f′4 \\
   3·20 & S    & 2nd \eighthNote\ in \B3: a′8 \\
   3·55 & A    & 3rd \quarterNote\ in \B3: f′4 \\
+  6·8  & vlne & lower voice of 1st \quarterNote\ missing in \B1 \\
+  6·27 & org, vlne & last \eighthNote\ in \B1: a8 \\
+  6·29 & T    & 3rd \quarterNote\ in \B1: b8–\sharp c′8 \\
+  6·45 & vl 1 & 1st \quarterNote\ in \B1: e″8–e″16–e″16 \\

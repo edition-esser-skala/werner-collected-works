@@ -142,3 +142,49 @@ H-I-IX-cViolinoI = {
     g2 a\fermata \bar "|." %104 finis
   }
 }
+
+H-I-IX-fViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoH-I-IX-f
+    R1*3
+    r2 r8 a'\p d fis
+    e8.\trill fis32 g a8 e16 cis a8 fis16 a d8 fis %5
+    r h,16 d e8 g r2
+    r8 a, e' a fis a16 e d4\trill
+    cis r r2
+    R1*2 %10
+    r4 a'8\f fis a e fis fis
+    d fis e4 fis r
+    R1*3 %15
+    r16 g\p h, c d8 a h16 d8 g16 h4
+    r16 h, dis fis h4 r16 h32 a g a h16 e,4
+    r16 a32 g fis g a16 d,4 r8 g,4 g8
+    g16(-. g-.) g(-. g-.) g(-. g-.) g(-. g-.) fis4 r
+    R1*7 %26
+    r16 a\f cis e a a, cis e fis d, fis a h e d g
+    e8 e fis fis r d e e
+    r cis fis fis fis fis, r4
+    R1*2 %31
+    r2 r8 d'4\p cis8
+    d4~ d16 e fis8 g16 h a g fis g a8
+    d,16 e32 fis g16 a h g h8 a4 g8. g16
+    fis8 h e,8. e16 d fis a4 g8~ %35
+    g fis r4 r2
+    R1
+    r2 r8 e4 e8
+    a a fis fis g8. g16 e8 e
+    fis a a16( g) g( fis) \tempoH-I-IX-fb e8 a cis,\f  d %40
+    e a, a'8. g16 fis8 a g fis16 e
+    fis8 d fis, g a d, d'8. d16
+    cis8 e d cis16 h cis d e4 d8
+    cis16 d e4 d8~ d16 e fis8 e8. e16
+    d8^\critnote d16 d fis8 g a d,~ d16 e fis g %45
+    a8 e fis e d a' g fis16 e
+    fis8 e16 d e8 d16 cis d8 e a,4
+    r2 r8 a' g fis16 e
+    fis8 gis a16 e8 fis16 g8 fis16 e fis8 e16 d
+    e4~ e16 a, a' g fis e d4 cis8 %50
+    d fis, g a d,4 r\fermata \bar "|." %51 finis
+  }
+}

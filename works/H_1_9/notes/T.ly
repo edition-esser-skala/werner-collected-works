@@ -278,3 +278,84 @@ H-I-IX-cTenoreLyrics = \lyricmode {
   men, a -- men,
   a -- men. %104 finis
 }
+
+H-I-IX-fTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoH-I-IX-f
+    R1*8 %8
+    r2 r4 \mvTr e8\pE^\solo e
+    cis h16 a d8 fis16([ d)] h8 h r e %10
+    cis a r4 \mvTr a8\fE^\tutti a d a
+    h d d([ cis)] d \mvTr a4\pE^\solo fis'8
+    e16([ d)] cis([ h)] a8 g g fis r4
+    R1
+    r8 a^\aTre ais ais h e, fis4 %15
+    h r r2
+    R1*2
+    r2 r8 h h h
+    e h gis e a8. a16 a4 %20
+    r8 a a d16 a h8 h r e
+    e e16 cis a8 a16 cis d8 d d4~
+    d8 d d4 cis8 d4( cis8)
+    d4 r r2
+    R1*2 %26
+    r8 \mvTr a\fE^\tutti a cis a d16 d h8 d
+    e e r a, h h r e
+    cis4 d8 d cis^\critnote d r4
+    R1*7 %36
+    r2 r8 \mvTr d4\pE^\aTre fis,8
+    g4 e8 d a' a r4
+    R1
+    r2 \tempoH-I-IX-fb \mvTr a4\fE^\tutti a %40
+    a a8 a d fis, g([ a)]
+    d,4 d'4. a8 fis'8.[ e32 d]
+    cis16[ d e cis] fis8[ e] e cis16[ d] e8[ fis]
+    e[ cis16 d] e8[ fis]~ fis16[ e d8] e4
+    d8 d,16([ e] fis8[ g] a) d, r a'~ %45
+    a a fis([ g] a) fis h([ a)]
+    a r r4 r8 e'( d[ cis16 h])
+    a8 a4( gis8) a a([ h e]
+    a,[ h]) e,4 r8 e'( d[ cis16 h]
+    a8) a a4 a8 d([ e a,)] %50
+    a4 r r2\fermata \bar "|." %51 finis
+  }
+}
+
+H-I-IX-fTenoreLyrics = \lyricmode {
+  Ec -- ce %9
+  e -- nim ex hoc be -- a -- tam me %10
+  di -- cent o -- mnes ge -- ne --
+  ra -- ti -- o -- nes. Qui -- a
+  fe -- cit mi -- hi ma -- gna,
+
+  et san -- ctum no -- men e -- %15
+  ius.
+
+  Fe -- cit po -- %19
+  ten -- ti -- am in bra -- chi -- o, %20
+  in bra -- chi -- o su -- o, dis --
+  per -- sit su -- per -- bos, su -- per -- bos men --
+  te cor -- dis su --
+  i.
+
+  E -- su -- ri -- en -- tes im -- ple -- vit %27
+  bo -- nis di -- mi -- sit, di --
+  mi -- sit in -- a -- nes.
+
+  Et Spi -- %37
+  ri -- tu -- i San -- cto.
+
+  Et in %40
+  sae -- cu -- la sae -- cu -- lo --
+  rum, a -- men, a --
+  _ _ men, a -- _
+  _ _ _
+  men, a -- men, a -- %45
+  men, a -- men, a --
+  men, a --
+  men, a -- men, a --
+  men, a --
+  men, a -- men, a -- %50
+  men. %51 finis
+}

@@ -296,3 +296,86 @@ H-I-IX-cAltoLyrics = \lyricmode {
   _ men, a -- _
   _ men. %104 finis
 }
+
+H-I-IX-fAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoH-I-IX-f
+    R1*6 %6
+    r2 r4 r8 \mvTr d\pE^\solo
+    e \tuplet 3/2 8 { fis16([ g a)] } g4 fis8 gis a a
+    g4 fis8 fis gis a a([ gis)]
+    a4 r r2 %10
+    r4 \mvTr a8\fE^\tutti fis e e fis fis
+    d fis e4 fis r
+    R1
+    r2 r8 \mvTr e\pE^\solo eis eis
+    fis4. fis8 fis g16([ e)] cis4\trill %15
+    h r r2
+    R1*3
+    r8 e e e a e cis a %20
+    d8. d16 fis8 d h g' e h16 d
+    cis8 cis16 e a8 a,16 e' fis8 fis r4
+    e4. e8 e fis e4
+    fis r r2
+    R1*2 %26
+    r8 \mvTr e\fE^\tutti fis a a a16 a h8 fis16([ g)]
+    a8 a r a d, d r g
+    fis4 fis8 fis fis fis r \mvTr fis\pE^\solo
+    d16([ h)] g'8 fis8. e16 d8 fis e16([ d)] cis([ h)] %30
+    h8 ais fis' fis d e16 fis g8 e
+    cis([ d16 e] fis[ g fis g] a[ e)] fis d e4\trill
+    d r r2
+    R1*2 %35
+    r2 fis4 h8 fis
+    g([ h)] a e fis fis16 fis fis8 a
+    d,4 e8 fis e e r4
+    \after 4*6 \tempoH-I-IX-fb R1*6 %44
+    \mvTr d4\fE^\tuttiE d d d8 d %45
+    a' cis, d([ e)] a, a' g[ fis16 e]
+    fis8[ e16 d] e8[ d16 cis] d8[ e] a,4
+    r2 r8 a' g![ fis16 e]
+    fis8[ gis] a16[ e8 fis16] g8[ fis16 e] fis8[ e16 d]
+    e2 fis8 a([ g e)]
+    fis4 r r2\fermata \bar "|."
+  }
+}
+
+H-I-IX-fAltoLyrics = \lyricmode {
+  Qui -- %7
+  a re -- spe -- xit hu -- mi -- li --
+  ta -- tem an -- cil -- lae su --
+  ae. %10
+  O -- mnes, o -- mnes ge -- ne --
+  ra -- ti -- o -- nes.
+
+  Et san -- ctum
+  no -- men, no -- men e -- %15
+  ius.
+
+  Fe -- cit po -- ten -- ti -- am in %20
+  bra -- chi -- o su -- o, dis -- per -- sit su --
+  per -- bos, su -- per -- bos, su -- per -- bos
+  men -- te cor -- dis su --
+  i.
+
+  E -- su -- ri -- en -- tes im -- ple -- vit %27
+  bo -- nis di -- mi -- sit, di --
+  mi -- sit in -- a -- nes. Su --
+  sce -- pit Is -- ra -- el pu -- e -- rum %30
+  su -- um, re -- cor -- da -- tus mi -- se -- ri --
+  cor -- di -- ae su --
+  ae.
+
+  Glo -- ri -- a %36
+  Pa -- tri et Fi -- li -- o et Spi --
+  ri -- tu -- i San -- cto.
+
+  Et in sae -- cu -- la %45
+  sae -- cu -- lo -- rum, a -- _
+  _ _ _ men,
+  a -- _
+  _ _ _ _
+  _ men, a -- %50
+  men. %51 finis
+}
