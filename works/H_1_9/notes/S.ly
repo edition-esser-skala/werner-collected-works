@@ -106,6 +106,126 @@ H-I-IX-aSopranoLyrics = \lyricmode {
   men. %53 finis
 }
 
+H-I-IX-bSoprano = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/2 \autoBeamOff \tempoH-I-IX-b
+    \mvTr b'1\pE^\solo c4( d)
+    c b a( g) f( es)
+    d2. es4 f g8([ a)]
+    b2. c4 d es
+    f d b2 d %5
+    g,4 b es2 c4( b)
+    a2 b4 c d es
+    f2. es4 \tuplet 3/2 2 { d es f
+    es( d c) } b2( c)\trill
+    b r r %10
+    R1.*19 %29
+    r2 \mvTr b\fE^\tutti b %30
+    b b4 h c4. c8
+    h4 h2 h4 c2
+    a b4( f b2)
+    a4 c f f d f
+    b, d g, g r g %35
+    c c a8([ b c a] b4) d
+    g,( es'2) d8 d b2
+    a r r
+    R1.*5 %43
+    \mvTr c4.\pE^\solo b!8 a4 f8 a b4 c8 c
+    d4. d8 c2 r %45
+    R1.
+    r4 \mvTr b\fE^\tutti c f d b
+    es es c c8 c d2
+    c4 a h c d es
+    f f es es c2 %50
+    c c( h)
+    c \mvTr es\pE^\solo c
+    d2.( h4) g( f)
+    es2 es4 f g as
+    b!( g) es2 es' %55
+    c c4 b as c
+    b2 b4 as g8([ as] b4)
+    c8([ b] as4) g2( f4.)\trill f8
+    es2 r r
+    R1.*5 %64
+    r2 r d'4 d %65
+    d c8 b a4( g2 fis4)
+    g \mvTr b8\fE^\tutti b b4 d c c
+    d4. d8 d4 d f d
+    c c f f b,4. b8
+    es4 es2 d4 c2 %70
+    d4 d c d es d8[ c]
+    d4 e f4. e16[ d] c2
+    d4( c) c r r2
+    r4 d c d es! d8[ c]
+    d4 c8[ b] c4 b8[ a] b4 c %75
+    a2 g4 b a b
+    c b8[ a] b2. b4
+    c( b) b b( es d8[ c])
+    d4 d c d es d8[ c]
+    d4 e f d c2 %80
+    d4 b( c b8[ a]) b2\fermata \bar "|." %81 finis
+  }
+}
+
+H-I-IX-bSopranoLyrics = \lyricmode {
+  Con -- fi --
+  te -- bor ti -- bi, __
+  Do -- mi -- ne, in __
+  to -- to cor -- de
+  me -- o, in con -- %5
+  si -- li -- o iu --
+  sto -- rum, et con -- gre --
+  ga -- _ _ _ _
+  ti -- o --
+  ne. %10
+
+  Me -- mor %30
+  e -- rit in sae -- cu --
+  lum te -- sta -- men --
+  ti su --
+  i. Vir -- tu -- tem o -- pe --
+  rum su -- o -- rum an -- %35
+  nun -- ti -- a -- bit
+  po -- pu -- lo su --
+  o.
+
+  Con -- fir -- ma -- ta in sae -- cu -- lum %44
+  sae -- cu -- li. %45
+
+  Re -- dem -- pti -- o -- nem
+  mi -- sit po -- pu -- lo su --
+  o, man -- da -- vit in ae --
+  ter -- num te -- sta -- men -- %50
+  tum su --
+  um. San -- ctum
+  et __ ter --
+  ri -- bi -- le no -- men
+  e -- ius. I -- %55
+  ni -- ti -- um sa -- pi --
+  en -- ti -- ae ti --
+  mor __ Do -- mi --
+  ni.
+
+  Et Spi -- %65
+  ri -- tu -- i San --
+  cto, si -- cut e -- rat in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in sae -- cu --
+  la sae -- cu -- lo -- %70
+  rum, a -- _ _ _ _
+  _ _ _ _ men,
+  a -- men,
+  a -- _ _ _ _
+  _ _ _ _ _ men, %75
+  a -- men, a -- _ _
+  _ _ _ men,
+  a -- men, a --
+  men, a -- _ _ _ _
+  _ _ _ men, a -- %80
+  men, a -- men. %81 finis
+}
+
 H-I-IX-cSoprano = {
   \relative c' {
     \clef treble

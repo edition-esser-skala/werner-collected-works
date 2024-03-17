@@ -1,6 +1,7 @@
 \version "2.24.0"
 
 tempoH-I-IX-a = \tempoMarkup "Andante"
+tempoH-I-IX-b = \tempoMarkup "Andante"
 tempoH-I-IX-c = \tempoMarkup "Presto"
 tempoH-I-IX-f = \tempoMarkup "Andante"
   tempoH-I-IX-fb = \tempoMarkup "Allegro"

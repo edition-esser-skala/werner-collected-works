@@ -102,6 +102,103 @@ H-I-IX-aTenoreLyrics = \lyricmode {
   men. %53 finis
 }
 
+H-I-IX-bTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key b \major \time 3/2 \autoBeamOff \tempoH-I-IX-b
+    R1.*15 %15
+    r2 r \mvTr c\fE^\solo
+    a4. a8 a2 b4 c
+    d d d d8 c d4 a
+    b g a( h) h( c)
+    c2 c4 d es d %20
+    cis2 cis4 e d( c8[ b])
+    a4 g f2( e4.) d8
+    d2 r r
+    R1.*6 %29
+    r2 \mvDll g\fE^\tutti f %30
+    g g4 g g4. g8
+    g2 r g4 es'
+    c c d2.( c8[ b)]
+    c2 r4 a b d
+    d4. d8 es4 h c c %35
+    r2 r4 a d d
+    b c c b8 b d4( g,)
+    c2 r r
+    R1.*6 %44
+    r4 \mvTr b\pE^\solo c c b8([ a)] b4 %45
+    a d8 d b([ a)] b([ c)] a2
+    g4 \mvTr d'\fE^\tutti c a b b
+    b c a f8 c' c4( b)
+    a2 r r4 c
+    d d r c2 c4 %50
+    es d d1
+    c2 r r
+    R1.*14 %66
+    \mvTr d4.\fE^\tutti d8 d4 b b a
+    b4. b8 b4 b c b
+    a a d d d4. d8
+    c4 c2 b4 b( a) %70
+    b2 r r
+    r r4 a g a
+    b a8[ g] a4 b2( a4)
+    b2 r r
+    r r r4 g( %75
+    es') d2 g,4 d' b
+    a d g,2 r4 es'~
+    es d b2.( a!4)
+    b2 r4 b2( c4)
+    b c2( b a4) %80
+    b d( es d8[ c]) d2\fermata \bar "|." %81 finis
+  }
+}
+
+H-I-IX-bTenoreLyrics = \lyricmode {
+  Con -- %16
+  fes -- si -- o et ma --
+  gni -- fi -- cen -- ti -- a o -- pus
+  e -- ius et __ iu --
+  sti -- ti -- a e -- ius %20
+  ma -- net in sae --
+  cu -- lum sae -- cu --
+  li.
+
+  Me -- mor %30
+  e -- rit in sae -- cu --
+  lum te -- sta --
+  men -- ti su --
+  i. Vir -- tu -- tem
+  o -- pe -- rum su -- o -- rum %35
+  an -- nun -- ti --
+  a -- bit po -- pu -- lo su --
+  o.
+
+  Fa -- cta in ve -- ri -- %45
+  ta -- te et ae -- qui -- ta --
+  te. Re -- dem -- pti -- o -- nem
+  mi -- sit po -- pu -- lo su --
+  o, man --
+  da -- vit te -- sta -- %50
+  men -- tum su --
+  um.
+
+  Si -- cut e -- rat in prin -- %67
+  ci -- pi -- o et nunc et
+  sem -- per et in sae -- cu --
+  la sae -- cu -- lo -- %70
+  rum,
+  a -- _ _
+  _ _ men, a --
+  men,
+  a -- %75
+  men, a -- _ _
+  _ _ men, a --
+  men, a --
+  men, a --
+  men, a -- %80
+  men, a -- men. %81 finis
+}
+
 H-I-IX-cTenore = {
   \relative c' {
     \clef "treble_8"

@@ -103,6 +103,113 @@ H-I-IX-aAltoLyrics = \lyricmode {
   men. %53 finis
 }
 
+H-I-IX-bAlto = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/2 \autoBeamOff \tempoH-I-IX-b
+    R1.*21 %21
+    r4 \mvTr d\pE^\solo d2 cis4 e
+    f d f2. a4
+    d,2. c4 g' b,
+    a2 a4 b c d8([ e)] %25
+    f4 e8([ d)] c4 e g b,
+    a2 a4 a b c
+    d1~ d8[ e fis d]
+    g4 es b2 a8([ g)] a4
+    g2 \mvTr es'\fE^\tutti d %30
+    es es4 d es4. es8
+    d2 r es4 g
+    f f f1
+    f2 r4 f f f
+    g f g d es es %35
+    r es c c f8([ es d f]
+    es4) g f f8 f f4( e)
+    f2 r r
+    R1.*3 %41
+    r4 \mvTr f\pE^\solo f es8 f d4. d8
+    es4 f \tuplet 3/2 4 { g8([ f es]) } d([ c)] h2
+    c r r
+    r4 b'! b a a g %45
+    g fis8 fis g([ fis)] g([ a)] g4( fis)
+    g \mvTr g\fE^\tutti f f f g
+    g g f f8 f f2
+    f4 c d es f g
+    as as g g es4.( f8 %50
+    g4) as g1
+    g2 r r
+    R1.*11 %63
+    r2 \mvTr f\pE^\solo f4 f
+    d4.( e8) fis([ g)] a4 b4. b8 %65
+    a4 d, es d8 c b4( a)
+    g \mvTr g'8\fE^\tutti g g4 f! g f
+    f4. f8 f4 f a f
+    f f f f g4. g8
+    g4 g( f) f f2 %70
+    f4 b a g8[ f] g4 a
+    b a8[ g] a4 f g f~
+    f g2 f4 r2
+    r4 b a b2 a4~
+    a g2 fis4 g g~ %75
+    g fis g g fis g
+    a g8[ fis] g4 g f g
+    as g8[ f] g4 f( g) f~
+    f f2 f4 g f~
+    f g( a) f \once \tieDashed f2~ %80
+    f4 es8([ d)] g4( f) f2\fermata \bar "|." %81 finis
+  }
+}
+
+H-I-IX-bAltoLyrics = \lyricmode {
+  Me -- mo -- ri -- am %22
+  fe -- cit mi -- ra --
+  bi -- li -- um su --
+  o -- rum, mi -- se -- ri -- %25
+  cors et __ mi -- se -- ra -- tor
+  Do -- mi -- nus. E -- scam
+  de --
+  dit ti -- men -- ti -- bus
+  se. Me -- mor %30
+  e -- rit in sae -- cu --
+  lum te -- sta --
+  men -- ti su --
+  i. Vir -- tu -- tem
+  o -- pe -- rum su -- o -- rum %35
+  an -- nun -- ti -- a --
+  bit po -- pu -- lo su --
+  o.
+
+  Fi -- de -- li -- a o -- mni -- %42
+  a man -- da -- ta __ e --
+  ius.
+  Fa -- cta in ve -- ri -- %45
+  ta -- te et ae -- qui -- ta --
+  te. Re -- dem -- pti -- o -- nem
+  mi -- sit po -- pu -- lo su --
+  o, man -- da -- vit in ae --
+  ter -- num te -- sta -- men -- %50
+  tum su --
+  um.
+
+  Glo -- ri -- a %64
+  Pa -- tri et Fi -- li -- %65
+  o, Spi -- ri -- tu -- i San --
+  cto, si -- cut e -- rat in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in sae -- cu --
+  la sae -- cu -- lo -- %70
+  rum, a -- _ _ _ _
+  _ _ _ men, a -- _
+  _ men,
+  a -- _ _ _
+  _ _ men, a -- %75
+  _ men, a -- _ _
+  _ _ men, a -- _ _
+  _ _ men, a -- men, __
+  a -- men, a -- men, __
+  a -- men, a -- %80
+  men, a -- men. %81 finis
+}
+
 H-I-IX-cAlto = {
   \relative c' {
     \clef treble

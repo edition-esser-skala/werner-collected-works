@@ -47,6 +47,70 @@ H-I-IX-aViolinoI = {
   }
 }
 
+H-I-IX-bViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/2 \tempoH-I-IX-b
+    R1.*8
+    r2 r4 f'2\pE f4
+    d4. es8 f4 g a g8 a %10
+    b4 a8 g f4 es d f
+    b2. a4 g8 a b4
+    c2. b4 a8 b c4
+    d2. c4 b8 c d4
+    c2. e,4 f g %15
+    f2. e8 d e2
+    f r r
+    R1.*12 %29
+    r4 b,8\f d es4 g8 es d4 b'8 f %30
+    g4 es8 b g4 h8 d es4 g8 c
+    h4 g8 d h4 g' es g8 es
+    c4 f d b8 d f4 b
+    a2 r4 a f d
+    g f g h,^\critnote c c %35
+    r es c f~ f8 es d f
+    b,4 g' f f2 e4
+    f2 r r4 f~\p
+    f g8 a b4 a2 g4
+    fis d g4. g8 es4 c %40
+    f d b es4. d8 c4
+    f8 es d4 c2\trill b
+    R1.*4 %46
+    r8 b\f d g f c a f' d f b d,
+    g es4 c8 a c f c d f b d,
+    c4. c8 d4 es f g
+    as as g g es4. f8 %50
+    g4 as d, c' g, h'
+    c g2\p g4 g g
+    r g,2 g4 d' d
+    c g8 es c2 r
+    R1.*4 %58
+    r4 es g b es g
+    f b2 a!8 g f4 es %60
+    d8 b' a b f b d, f b,2
+    R1.
+    r4 b f'8 es f2 g8 a
+    b4 b,2 a8 g a2
+    b r r %65
+    R1.
+    r8 g\f b d g4 f g a
+    b8 f, b d f4 b c b
+    a8 f, a c f b, d f b g, b d
+    es4 g f f f2\trill %70
+    f4 d c d es d8c
+    d4 e f4. e16 d c2
+    d4 c c r r2
+    r4 d c d es! d8 c
+    d4 c8 b c4 b8 a b4 c %75
+    a2\trill g4 b a b
+    c b8 a b2. b4
+    c b b b es d8 c
+    d4 d c d es d8 c
+    d4 e f d c2 %80
+    d4 b c b8 a b2\fermata \bar "|." %81 finis
+  }
+}
+
 H-I-IX-cViolinoI = {
   \relative c' {
     \clef treble

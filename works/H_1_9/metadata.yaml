@@ -33,9 +33,13 @@ sources:
     notes: Laudate pueri
 toe: |
   1·50 & vl 1 & 6th \sixteenthNote\ in \B1: h′16 \\
+  \midrule
+  2·35 & vl 1 & 4th to 6th \quarterNote\ in \B2: c″4–d″4–d″4 \\
+  \midrule
   3·13 & vl 2 & 1st \quarterNote\ in \B3: f′4 \\
   3·20 & S    & 2nd \eighthNote\ in \B3: a′8 \\
   3·55 & A    & 3rd \quarterNote\ in \B3: f′4 \\
+  \midrule
   6·8  & vlne & lower voice of 1st \quarterNote\ missing in \B1 \\
   6·27 & org, vlne & last \eighthNote\ in \B1: a8 \\
   6·29 & T    & 3rd \quarterNote\ in \B1: b8–\sharp c′8 \\

@@ -111,6 +111,135 @@ H-I-IX-aBassoLyrics = \lyricmode {
   men. %53 finis
 }
 
+H-I-IX-bBasso = {
+  \relative c {
+    \clef bass
+    \key b \major \time 3/2 \autoBeamOff \tempoH-I-IX-b
+    R1.*8 %8
+    r2 \mvTr f\pE^\solo a
+    b8([ c] b4) a( g) f( es) %10
+    d8([ es f es] d4) c b2
+    g'4 b8([ a)] g4( f) e d
+    c( c'8[ b] a4 g) f4( e)
+    d( d'8[ c] b4 a g) f
+    e2. f8[ g] a4 b %15
+    c f, c1
+    f, r2
+    R1.*12 %29
+    r2 \mvTr g'\fE^\tutti b %30
+    es, es4 g c,4. c8
+    g4 g'2 g4 c,2
+    f b!2.( b,4)
+    f'2 r4 f b b
+    g b es, g c, c %35
+    r c f f d8([ es f d]
+    es[ d)] c([ b)] a4 b8 b g2
+    f4 \mvTr f'2\pE^\solo g8([ a)] b4 b8 c
+    b4 a g fis g4. g8
+    d4 g2 es8 es c4 f8 f %40
+    d4 b es4. d8 c4 f(
+    d) b' f4. f8 b,2
+    r r g'4. f8
+    e4 c8 e f4. es8 d4( a!)
+    b4. b8 f'4 r r2 %45
+    R1.
+    r4 \mvTr g\fE^\tutti a f! b g
+    es c f a8 a b2
+    f4 f f es d c
+    h h r2 as'4 as %50
+    es f g1
+    c,2 r r
+    R1.*4 %56
+    r2 r es
+    as4( c) b b, b' as
+    g4. f8 es4 g2 es4
+    b' b,8 b c1\trill %60
+    b2 r4 b' d, b8 b
+    f'2 f2.( g8[ a)]
+    b4( c8[ d] c4 b) a g
+    f es8 es f2. f4
+    b,2 r r %65
+    R1.
+    \mvTr g'4.\fE^\tutti g8 g4 d es f!
+    b,4. b8 b4 b' a b
+    f f d d g4. g8
+    c,4 c'( a) b f2 %70
+    b, r r
+    r r4 f' e f
+    d e f8[ es] d4 c2
+    b4 b f' d c f
+    b, es a, d g, es'( %75
+    c d) g,2 r
+    r r4 es'( d es
+    c d) es d( c f)
+    b, b' a b g a
+    b a8[ g] f4 b f2 %80
+    b,4 g'8([ f] es4 f) b,2\fermata \bar "|." %81 finis
+  }
+}
+
+H-I-IX-bBassoLyrics = \lyricmode {
+  Ma -- gna %9
+  o -- pe -- ra __ %10
+  Do -- mi -- ni:
+  Ex -- qui -- si -- ta in
+  o -- mnes
+  vo -- lun --
+  ta -- _ _ _ %15
+  _ tes e --
+  ius.
+
+  Me -- mor %30
+  e -- rit in sae -- cu --
+  lum te -- sta -- men --
+  ti su --
+  i. Vir -- tu -- tem
+  o -- pe -- rum su -- o -- rum %35
+  an -- nun -- ti -- a --
+  bit po -- pu -- lo su --
+  o, ut det il -- lis hae --
+  re -- di -- ta -- tem gen -- ti --
+  um. O -- pe -- ra ma -- nu -- um %40
+  e -- ius ve -- ri -- tas et __
+  iu -- di -- ci -- um.
+  Con -- fir --
+  ma -- ta in sae -- cu -- lum __
+  sae -- cu -- li. %45
+
+  Re -- dem -- pti -- o -- nem
+  mi -- sit po -- pu -- lo su --
+  o, man -- da -- vit in ae --
+  ter -- num te -- sta -- %50
+  men -- tum su --
+  um.
+
+  In -- %57
+  tel -- le -- ctus bo -- nus
+  o -- mni -- bus fa -- ci --
+  en -- ti -- bus e -- %60
+  um: Lau -- da -- ti -- o
+  e -- ius __
+  ma -- net in
+  sae -- cu -- lum sae -- cu --
+  li. %65
+
+  Si -- cut e -- rat in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in sae -- cu --
+  la sae -- cu -- lo -- %70
+  rum,
+  a -- _ _
+  _ _ _ men, a --
+  men, a -- _ _ _ _
+  _ _ _ _ men, a -- %75
+  men,
+  a --
+  men, a --
+  men, a -- _ _ _ _
+  _ _ _ men, a --
+  men, a -- men.
+}
+
 H-I-IX-cBasso = {
   \relative c {
     \clef bass
