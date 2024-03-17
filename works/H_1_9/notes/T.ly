@@ -376,6 +376,95 @@ H-I-IX-cTenoreLyrics = \lyricmode {
   a -- men. %104 finis
 }
 
+H-I-IX-dTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoH-I-IX-d
+    R1*5 %5
+    \mvTr c2\fE^\tutti c4 c,8 c'
+    c4 c, r8 c' c c
+    h4 c8 d e4. e8
+    d e d e16([ f)] g8 g, r4
+    r2 r4 c %10
+    c c c c8 c
+    c4 c c2
+    c4 c c2
+    r4 d d d8 h
+    c([ d)] e a, e'4 e8 f %15
+    e4. e8 e \mvTr c\pE^\solo h a
+    e'8. e16 e([ d)] e([ h)] c8 a e'8. cis16
+    a4 r r2
+    r r8 a h e
+    c d16 e f8 e16([ d)] e([ d)] e8 r4 %20
+    R1*3
+    r2 r8 g, a h
+    c8. c16 h4 r2 %25
+    R1
+    r2 r8 c h^\critnote d
+    g, h c16([ h)] c8 a8. c16 h8 a
+    a gis r4 r2
+    r r4 c~ %30
+    c h8 d e c r4
+    g8^\aTre g h g c g e c
+    g'4 r8 e a4 r8 fis
+    g c d4 d8 \mvTr d4\fE^\tutti d8
+    e e d4 c8 c c([ h)] %35
+    c4 r8 c h[ d g h,]
+    a[ c f a,] g c4( h8)
+    c g( c4. h8) g4
+    R1
+    r2 r4 r8 c %40
+    h[ d g h,] a[ c f a,]
+    g4 a8([ g)] g4 r8 c
+    d4. c16[ h] c4. h16[ a]
+    h4. a16[ g] a4. g16[ f]
+    g4 g g r8 h %45
+    c4 r r2\fermata \bar "|." %46 finis
+  }
+}
+
+H-I-IX-dTenoreLyrics = \lyricmode {
+  Lau -- da -- te, lau -- %6
+  da -- te, lau -- da -- te
+  pu -- e -- ri Do -- mi --
+  num, lau -- da -- te no -- men.
+  Sit %10
+  no -- men Do -- mi -- ni
+  be -- ne -- di --
+  ctum, ex hoc,
+  ex hoc nunc et
+  us -- que in sae -- cu -- lum %15
+  sae -- cu -- li. Ex -- cel -- sus
+  su -- per o -- mnes gen -- tes Do -- mi --
+  nus.
+  Quis si -- cut
+  Do -- mi -- nus De -- us no -- ster? %20
+
+  A ter -- ra %24
+  in -- o -- pem. %25
+
+  Qui ha -- bi --
+  ta -- re fa -- cit ste -- ri -- lem in
+  do -- mo.
+  Glo -- %30
+  ri -- a Pa -- tri,
+  si -- cut e -- rat in prin -- ci -- pi --
+  o et nunc, et
+  nunc et sem -- per, et in
+  sae -- cu -- la sae -- cu -- lo -- %35
+  rum, a -- _
+  _ men, a --
+  men, a -- men,
+
+  a -- %40
+  _ _
+  men, a -- men, a --
+  _ _ _ _
+  _ _ _ _
+  men, a -- men, a -- %45
+  men. %46 finis
+}
+
 H-I-IX-fTenore = {
   \relative c' {
     \clef "treble_8"

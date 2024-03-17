@@ -427,6 +427,95 @@ H-I-IX-cBassoLyrics = \lyricmode {
   men. %104 finis
 }
 
+H-I-IX-dBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoH-I-IX-d
+    R1*7 %7
+    r2 \mvTr g'\fE^\tutti
+    g4 g,8 g' g4 g,
+    r8 f' e d c4 a'8 g %10
+    f([ a)] g([ f)] e d c b
+    a([ f')] e([ d)] c([ b)] a([ g)]
+    f4 f' c8([ d)] e f
+    g4 g,8 g' d([ e)] f g
+    a4 c,8([ d)] e([ d)] c d %15
+    e([ d)] e4 a, r
+    r8 \mvTr gis'\pE^\solo fis e a8. a16 a([ g?)] a([ e)]
+    f8 d h'8. g16 e4 r
+    R1
+    r2 c8 e g c %20
+    h16([ c h a] g[ f e d] e8.) d16 c4
+    f4. a8 h,8. a16 g4
+    c16([ d)] e([ f)] g([ a)] h8 c g e c
+    a2 g4 r
+    e'8 fis g g16 g f8 d cis([ d)] %25
+    a8. a16 d4 r2
+    r r4 r8 g
+    e g c, e f16([ e)] f8 d8. d16
+    e4 r r2
+    R1 %30
+    r2 c8 e g c16 c
+    g8 g r4 r2
+    R1
+    r2 \mvTr g4.\fE^\tutti g8
+    c c g4 e8 c g4 %35
+    c8 c([ e] a4) h,8 r g'~
+    g a, r f'4 e8 d4
+    c r8 c g'4 r
+    R1
+    r2 r8 c,[ e a]~ %40
+    a h, r g'4 a,8 r f'~
+    f[ e] d g e[ g c e,]
+    d[ f h d,] c[ e a c,]
+    h[ d g h,] a[ c f a,]
+    g c g4 c r8 g' %45
+    c,4 r r2\fermata \bar "|." %46 finis
+  }
+}
+
+H-I-IX-dBassoLyrics = \lyricmode {
+  Lau -- %8
+  da -- te, lau -- da -- te,
+  lau -- da -- te pu -- e -- ri %10
+  Do -- mi -- num, lau -- da -- te
+  no -- men Do -- mi --
+  ni. Ex hoc nunc et
+  us -- que, ex hoc nunc et
+  us -- que, us -- que in %15
+  sae -- cu -- lum.
+  Ex -- cel -- sus su -- per o -- mnes
+  gen -- tes Do -- mi -- nus.
+
+  Qui in al -- tis %20
+  ha -- bi -- tat,
+  et hu -- mi -- li -- a
+  re -- spi -- cit in coe -- lo et in
+  ter -- ra?
+  Et de ster -- co -- re e -- ri -- gens %25
+  pau -- pe -- rem.
+  Qui
+  ha -- bi -- ta -- re fa -- cit ste -- ri --
+  lem.
+
+  Et Spi -- ri -- tu -- i %31
+  San -- cto,
+
+  et in
+  sae -- cu -- la sae -- cu -- lo -- %35
+  rum, a -- men, a --
+  men, a -- men, a --
+  men, a -- men,
+
+  a -- %40
+  men, a -- men, a --
+  men, a -- _
+  _ _
+  _ _
+  _ men, a -- men, a -- %45
+  men. %46 finis
+}
+
 H-I-IX-fBasso = {
   \relative c {
     \clef bass

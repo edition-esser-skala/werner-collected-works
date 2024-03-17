@@ -207,6 +207,52 @@ H-I-IX-cViolinoI = {
   }
 }
 
+H-I-IX-dViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoH-I-IX-d
+    r8 c''\f g a g c, r4
+    r8 a' g16 e f d e f e f g8 f16 e
+    d4 r r2
+    r8 e d16 h c a h8 g r4
+    r8 d' g16 e f d e8 c r4 %5
+    r8 a c f g16 c, a' c, g' c, f c
+    e8 c r4 r8 e g c
+    h16 c a h g a f g e8 c r4
+    r2 r16 g' e g d g c, g'
+    h,8 g r4 r8 g' c16 d b c %10
+    a4 r r8 f e16 f d e
+    c8 f, r4 r8 d' c16 d b c
+    a4 r r8 c g'16 e d c
+    h!8 g r4 r8 d' a'16 f e d
+    c8 a r4 r16 h c d e8 f %15
+    c a' h, gis' a a, r4
+    R1*3
+    r2 e8\p g c e %20
+    h d g h c g e c
+    a a'16 g a8 f d h' d, g
+    e c r4 e,8 g c e~
+    e e, fis fis g4 r
+    R1*6 %30
+    r2 e8 g c e
+    d16 c d8 r4 r2
+    R1
+    r2 g4.\f g8
+    e g4 d8 g c4 h8 %35
+    c4 r r2
+    R1
+    r2 r8 g, h e~
+    e fis, r d'4 e,8 r c'~
+    c h a d g, e'4 d16 c %40
+    d4 h8 d c4 a8 c
+    h c4 h8 c4 r8 e
+    f d4 f8 e c4 e8
+    d h4 d8 c a4 c8
+    h c4 h8 c g' c d, %45
+    e4 r r2\fermata \bar "|." %46 finis
+  }
+}
+
 H-I-IX-fViolinoI = {
   \relative c' {
     \clef treble

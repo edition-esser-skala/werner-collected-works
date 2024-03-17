@@ -7,12 +7,52 @@
 
 \book {
   \bookpart {
-    \section "H.1.9" "Beatus vir"
+    \section "H.1.9·1" "Dixit Dominus"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \H-I-IX-aOrgano }
+        \new FiguredBass { \H-I-IX-aBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "H.1.9·2" "Confitebor"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \H-I-IX-bOrgano }
+        \new FiguredBass { \H-I-IX-bBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "H.1.9·3" "Beatus vir"
     \addTocEntry
     \score {
       <<
         \new Staff { \H-I-IX-cOrgano }
         \new FiguredBass { \H-I-IX-cBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "H.1.9·4" "Laudate pueri"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \H-I-IX-dOrgano }
+        \new FiguredBass { \H-I-IX-dBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "H.1.9·6" "Magnificat"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \H-I-IX-fOrgano }
+        \new FiguredBass { \H-I-IX-fBassFigures }
       >>
     }
   }

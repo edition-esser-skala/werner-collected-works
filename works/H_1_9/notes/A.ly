@@ -404,6 +404,99 @@ H-I-IX-cAltoLyrics = \lyricmode {
   _ men. %104 finis
 }
 
+H-I-IX-dAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoH-I-IX-d
+    R1*2
+    r2 \mvTr g'\fE^\tutti
+    g4 g,8 g' g4 g,
+    r8 g' g g e4 f8 g %5
+    a4. a8 g a g f
+    e([ a)] g([ f)] e16[ f e f] g8[ f16 e]
+    d8[ e16 f] g[ a] h8 c4 r
+    r2 r4 g
+    g4. f8 e4 f8 g %10
+    a([ f)] g([ a)] g([ f)] e g
+    f([ a)] g f e([ g)] f g
+    a4. a8 g4 r
+    r g f4. f8
+    e4 a gis8([ a16 h)] a4~ %15
+    a gis a r
+    R1
+    r8 \mvTr d,\pE^\solo d g g e a8. g16
+    f8 f4 e16 e e8([ d)] e4
+    R1*4 %23
+    c8. c16 c8 c d e f8. f16
+    e4 r r r8 f %25
+    e a16 a f8 a g f e8. d16
+    c4 r r2
+    R1
+    e8 e e e e8.([ fis32 gis)] a8 f
+    c4( h)\trill a r %30
+    R1
+    g'8^\aTre g g16([ f)] g8 g g g e
+    d4 r8 g c,4 r8 a'~
+    a g g([ fis)] g \mvTr g4\fE^\tutti g8
+    g4 g8 g g g g4 %35
+    g r r2
+    r r4 r8 f~
+    f[ e16 d] e8[ d16 c] d4 r8 g
+    fis[ a d fis,] e[ g c e,]
+    d g4( f) e8 r e %40
+    d[ g] r h, c[ f] r a
+    d, g f([ e16 d)] e4 r8 c'~
+    c[ h16 a] h4~ h8[ a16 g] a4~
+    a8[ g16 f] g4~ g8[ f16 e] f4~
+    f8 e d4 e r8 g %45
+    g4 r r2\fermata \bar "|." %46 finis
+  }
+}
+
+H-I-IX-dAltoLyrics = \lyricmode {
+  Lau -- %3
+  da -- te, lau -- da -- te,
+  lau -- da -- te pu -- e -- ri %5
+  Do -- mi -- num, lau -- da -- te
+  no -- men Do -- _
+  _ _ mi -- ni.
+  Sit
+  no -- men Do -- mi -- ni %10
+  be -- ne -- di -- ctum, ex
+  hoc nunc et us -- que in
+  sae -- cu -- lum.
+  Lau -- da -- bi --
+  le no -- men __ Do -- %15
+  mi -- ni.
+
+  Et su -- per coe -- los glo -- ri --
+  a, glo -- ri -- a e -- ius.
+
+  Su -- sci -- tans a ter -- ra in -- o -- %24
+  pem, ut %25
+  col -- lo -- cet e -- um cum prin -- ci -- pi --
+  bus.
+
+  Ma -- trem fi -- li -- o -- rum lae --
+  tan -- tem. %30
+
+  Si -- cut e -- rat in prin -- ci -- pi --
+  o et nunc, nunc __
+  et sem -- per, et in
+  sae -- cu -- la sae -- cu -- lo -- %35
+  rum,
+  a --
+  _ men, a --
+  _ _
+  men, a -- men, a -- %40
+  _ _ _ _
+  _ men, a -- men, a --
+  _ _
+  _ _
+  men, a -- men, a -- %45
+  men. %46 finis
+}
+
 H-I-IX-fAlto = {
   \relative c' {
     \clef treble

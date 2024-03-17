@@ -434,6 +434,102 @@ H-I-IX-cSopranoLyrics = \lyricmode {
   a -- men. %104 finis
 }
 
+H-I-IX-dSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoH-I-IX-d
+    \mvTr c'2\fE^\tutti c4 c,8 c'
+    c4 c, r8 c' c c
+    h4 c8 d e4. e8
+    d e d c h([ e)] d([ c)]
+    h8.[( a16] g8[ a16 h] c4.) d16([ e)] %5
+    f4 f, c'2
+    c,4 r r2
+    g''2 g4 g,8 g'
+    g g, r c h([ e)] d([ c)]
+    h4 c8([ d)] e8.([ d16] c8[ d16 e] %10
+    f8.) f,16 f4 r8 c' c c
+    c4 c, c'8 c c d16([ e)]
+    f4 f, r c'
+    h!4. h8 a4 d
+    c c8 c h([ c16 d] e8) d %15
+    c4( h8.) a16 a4 r
+    R1
+    r4 r8 \mvTr g\pE^\solo g c c a
+    d8. c16 h8 c16(^[ h] a[ gis a8)] gis8 gis
+    a h16([ c)] d8 c16([ h)] c([ h)] c8 r4 %20
+    R1*4
+    r4 h8 cis d d16 d e8 d16 d %25
+    d8(^\critnote cis16) cis d4 r g,8 e
+    f? g16 g a8 g16 g g8([ fis)] g4
+    R1
+    r2 r4 a~
+    a gis8 h c a r4 %30
+    d4. c16 h c8. c16 c4
+    h8^\aTre h d h e d c8. c16
+    h8 h e4. c8 d4~
+    d8 e a,4 h8 \mvTr h4\fE^\tutti h8
+    c c h4 c8 e d4 %35
+    e r r2
+    R1
+    r2 r8 g,[ h e]~
+    e fis, r d'4 e,8 r c'~
+    c h a([ d)] g, e'4( d16[ c] %40
+    d4) h8([ d)] c4( a8[ c])
+    h c4( h8) c4 r8 e
+    f d4 f8 e c4 e8
+    d h4 d8 c a4 c8
+    h c4( h8) c4 r8 d %45
+    e4 r r2\fermata \bar "|." %46 finis
+  }
+}
+
+H-I-IX-dSopranoLyrics = \lyricmode {
+  Lau -- da -- te, lau --
+  da -- te, lau -- da -- te
+  pu -- e -- ri Do -- mi --
+  num, lau -- da -- te no -- men
+  Do -- mi -- %5
+  ni, lau -- da --
+  te,
+  lau -- da -- te, lau --
+  da -- te, lau -- da -- te __
+  no -- men Do -- %10
+  mi -- ni. A so -- lis
+  or -- tu us -- que ad oc --
+  ca -- sum, lau --
+  da -- bi -- le, lau --
+  da -- bi -- le no -- men %15
+  Do -- mi -- ni.
+
+  Et su -- per coe -- los
+  glo -- ri -- a e -- ius. Quis
+  si -- cut De -- us no -- ster? %20
+
+  Et de ster -- co -- re e -- ri -- gens %25
+  pau -- pe -- rem, cum prin --
+  ci -- pi -- bus po -- pu -- li su -- i.
+
+  Glo --
+  ri -- a Pa -- tri, %30
+  glo -- ri -- a Fi -- li -- o,
+  si -- cut e -- rat in prin -- ci -- pi --
+  o et nunc et sem --
+  per, sem -- per, et in
+  sae -- cu -- la sae -- cu -- lo -- %35
+  rum,
+
+  a --
+  men, a -- men, a --
+  men, a -- men, a -- %40
+  men, a --
+  men, a -- men, a --
+  _ _ _ _ _ _
+  _ _ _ _ _ _
+  men, a -- men, a -- %45
+  men. %46 finis
+}
+
 H-I-IX-fSoprano = {
   \relative c' {
     \clef treble

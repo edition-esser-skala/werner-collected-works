@@ -3,6 +3,7 @@
 tempoH-I-IX-a = \tempoMarkup "Andante"
 tempoH-I-IX-b = \tempoMarkup "Andante"
 tempoH-I-IX-c = \tempoMarkup "Presto"
+tempoH-I-IX-d = \tempoMarkup "Allegro / Vivace"
 tempoH-I-IX-f = \tempoMarkup "Andante"
   tempoH-I-IX-fb = \tempoMarkup "Allegro"
 
