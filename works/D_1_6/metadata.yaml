@@ -1,0 +1,26 @@
+title: Domum tuam Domine
+id: WerW D.1.6
+genre: motet
+festival: Dedicatio Ecclesiæ
+scoring: A (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 48
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/778.html
+    license: public domain
+    principal: true
+toe: |
+  16    & A    & bar in \B1: f′2–f′4–f′4 \\
+  31–34 & timp & In \B1, these bars appear as bars 32–35. \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+lyrics:
+  Domum tuam, Domine, decet sanctitudo\\
+  in longitudinem dierum.\\
+  (\bibleverse{Ps}(93/92:5))\\[1ex]
+  Locus iste sanctus est,\\
+  in quo orat sacerdos\\
+  pro delictis et peccatis populi.\\
+  (Antiphonale Monasticum 1934, p. 692)
