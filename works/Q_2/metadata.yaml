@@ -1,0 +1,26 @@
+title: Concerto per la Camera
+id: WerW Q.2
+genre: concerto
+scoring: 2 vl, vlc solo, b
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.3751
+    rism: 600139424
+    url: https://data.onb.ac.at/rec/AC14299751
+    license: public domain
+    principal: true
+toe: |
+  –     & b    & Bass figures in movements II–IV
+                 have been added by the editor. \\
+  1·26  & b    & 2nd/3rd \quarterNote\ in \B1: b4–B4 \\
+  2·103 & vl 1 & 2nd \quarterNote\ in \B1: e′8–\sharp g′8 \\
+  2·105 & vl 2 & 4th \eighthNote\ in \B1: d′′′8 \\
+  3·9   & vl 1 & 5th/6th \eighthNote\ in \B1: e′8–a′8 \\
+  3·12  & vl 2 & grace note added by editor \\
+  4·49  & vl 2 & grace note added by editor \\
+  4·71  & vl 1 & 2nd \sixteenthNote\ in \B1: b′16 \\
+  4·76f & vlc  & bass clef missing in \B1 \\
+parts:
+  vlc: Violoncello solo
