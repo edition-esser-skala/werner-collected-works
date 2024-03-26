@@ -9,6 +9,7 @@
 
 aTre = \markup \remark "a 3"
 aTreE = \markup \remarkE "a 3"
+hA = \once \override Accidental.stencil = ##f
 incipitVlISoprano = \incipit "I" "soprano" #-16.1 #-0.8
 incipitVlIISoprano = \incipit "II" "soprano" #-16.4 #-0.8
 incipitVlIIAlto = \incipit "II" "alto" #-16.4 #-0.8
