@@ -1,0 +1,15 @@
+title: Alma Redemptoris mater
+id: WerW I.1.2
+genre: antiphon
+scoring: S, A, T, B (coro), 2 vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: H 5
+    rism: 600038475
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/400.html
+    license: public domain
+    principal: true
+toe: |
+  7 & org & 2nd \quarterNote\ in \B1: g4 \\
