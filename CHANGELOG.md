@@ -1,5 +1,18 @@
 # Changelog
 
+## 2024.03.0 – 2024-03-31
+
+### Added
+
+- works: WerW D.1.6, H.1.9, I.1.2, I.2.8, I.3.21, I.4.46, O.2, and Q.2
+- global macro definitions: \extendLV and \hA
+
+
+### Changed
+
+- Works are now denoted by their WerW (v0.2.0) numbers.
+
+
 ## 2024.02.0 – 2024-02-28
 
 ### Added
