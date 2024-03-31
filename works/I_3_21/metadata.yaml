@@ -1,0 +1,21 @@
+title: Regina cœli
+id: WerW I.3.21
+genre: antiphon
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: J 13
+    rism: 600038541
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/440.html
+    license: public domain
+    principal: true
+toe: |
+  –  & vl   & denoted “ad libitum” in \B1 \\
+  –  & vl 2 & This part is missing in \B1 and has been
+              reconstructed by the editor. \\
+  4  & T    & 3rd \eighthNote\ in \B1: b8;
+              2nd \halfNoteDotted: b4–a8–a4–a8 \\
+  9  & org  & 2nd \quarterNoteDotted\ of lower voice in \B1: c′8–d′8–e′8 \\*
+  11 & A    & 9th \eighthNote\ in \B1: d′8 \\
