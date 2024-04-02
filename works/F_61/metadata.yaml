@@ -1,0 +1,28 @@
+title: Salutis humanæ sator
+id: WerW F.61
+genre: hymn
+festival: Ascensio Domini
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: M 10
+    rism: 600038636
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/243.html
+    license: public domain
+    principal: true
+lyrics:
+  Salutis humanae sator,\\
+  Jesu, voluptas cordium,\\
+  orbis redempti conditor,\\
+  et casta lux amantium.\\[1ex]
+  Perrumpis infernum chaos,\\
+  vinctis catenas detrahis,\\
+  victor triumpho nobili\\
+  ad dexteram Patris sede.\\[1ex]
+  Jesu tibi sit gloria,\\
+  qui victor in coelum redis\\
+  cum Patre et almo Spiritu\\
+
+  (Liber Usualis Solesmes 1961, p. 852)
