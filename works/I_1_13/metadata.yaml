@@ -1,0 +1,15 @@
+title: Alma Redemptoris mater
+id: WerW I.1.13
+genre: antiphon
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-DS
+    shelfmark: Mus.ms 584
+    rism: 450002723
+    date: 1818-12-06
+    license: public domain
+    principal: true
+toe: |
+  23 & vla 1 & bar in \B1: \wholeNoteRest \\
