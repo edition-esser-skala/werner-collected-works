@@ -1,0 +1,17 @@
+\version "2.24.0"
+
+tempoI-XV = \tempoMarkup "[Tempo deest]"
+
+\include "notes/cor1.ly"
+\include "notes/cor2.ly"
+\include "notes/cdb1.ly"
+\include "notes/cdb2.ly"
+\include "notes/fag1.ly"
+\include "notes/fag2.ly"
+\include "notes/trb1.ly"
+\include "notes/trb2.ly"
+\include "notes/trb3.ly"
+\include "notes/T1.ly"
+\include "notes/T2.ly"
+\include "notes/B1.ly"
+\include "notes/B2.ly"

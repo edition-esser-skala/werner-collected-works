@@ -1,0 +1,21 @@
+title: Dies iræ
+id: WerW Z.15
+genre: sequence
+scoring: 2 T, 2 B (solo), 2 T, 2 B (coro), 2 cor (D), 2 cdb (F), 2 fag, 3 trb
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-DS
+    shelfmark: Mus.ms 1294
+    rism: 450002726
+    license: public domain
+    principal: true
+toe: |
+  30 & trb 2 & 1st \quarterNote\ in \B1: \flat B4 \\
+  37 & B 1   & bar in \B1: a1 \\
+extra_abbreviations:
+  cdb: corno di bassetto
+parts:
+  cdb1: Corno di bassetto I in F
+  cdb2: Corno di bassetto II in F
+  cor12: Corno I, II in D
