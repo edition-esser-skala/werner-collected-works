@@ -1,0 +1,33 @@
+title: Salve Regina
+id: WerW I.4.54
+genre: antiphon
+festival:
+scoring: S, A, T, B (solo), S, A, T, B (coro), chalumeau, 2 vl, 2 vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2462-E-1
+    rism: 1001054545
+    url: https://digital.slub-dresden.de/id51457190X
+    license: public domain
+    principal: true
+    notes: an authentic copy by Johann Georg Thonner, dated 1729-12-13
+  B2:
+    siglum: A-Wn
+    shelfmark: SA.67.H.42
+    url: https://data.onb.ac.at/rec/AC14299748
+    license: public domain
+    notes: copied by Raphael Kiesewetter, most likely from B1
+toe: |
+  60  & org   & 5th \eighthNote\ in \B1 and \B2: a8 \\
+  110 & vla 1, A & 3rd \quarterNote\ in \B1: f′4 \\
+  137 & vla 1 & 1st \quarterNote\ in \B1 and \B2: g′4 \\
+  170 & vla, org & rhythm of bar in \B1 and \B2: \halfNoteDotted \\
+
+Ad te su -- spi -- ra -- mus, ge -- men -- tes et flen -- tes in hac la -- cry -- ma -- rum val -- le.
+E -- ia er -- go, ad -- vo -- ca -- ta no -- stra,
+il -- los tu -- os mi -- se -- ri -- cor -- des o -- cu -- los ad nos con -- ver -- te.
+Et Je -- sum, be -- ne -- di -- ctum fru -- ctum ven -- tris tu -- i,
+no -- bis post hoc ex -- i -- li -- um o -- sten -- de.
+O cle -- mens, o pi -- a, o dul -- cis vir -- go Ma -- ri -- a.
