@@ -87,10 +87,166 @@ I-IV-LIVcViolinoII = {
   }
 }
 
+I-IV-LIVdViolinoII = {
+  \relative c' {
+    \clef treble
+    \key es \lydian \time 3/4 \tempoI-IV-LIVd
+      \set Score.currentBarNumber = #171
+    r8 b'\fE b b b b
+    r as as as as as
+    r as as as g g
+    r g g g f f
+    r g\p g g g g %175
+    r as as as as as
+    r as as as g g
+    r g g g f f
+    r f f f es es
+    r g g g g g %180
+    r c c c c c
+    r c c c c c
+    r c c c c c
+    r c c c c c
+    r b b b b b %185
+    r b b b b b
+    r as as as as as
+    r as as as as as
+    r g g g g g
+    r ges ges ges ges ges %190
+    r f f f f f
+    r g!\psempre g g g g
+    r g g g g g
+    r g g g g g
+    r g g g g g %195
+    r g g g g g
+    r as as as as as
+    r g g g g g
+    r f f f f f
+    r as as as as as %200
+    r a a a a a
+    r a a a a a
+    r a a a a a
+    r g g g g g
+    r g g g fis fis %205
+    r g g g g g
+    r g g g g g
+    r g g g g g
+    r gis gis gis gis gis
+    r gis gis gis gis gis %210
+    r a a a a a
+    r a a a gis gis
+    r a a a a a
+    r a a a a a
+    r a a a a a %215
+    r g! g g g g
+    r f f f f f
+    r e e e e e
+    r f f f fis fis
+    r g g g g g %220
+    r a a a a a
+    r d, d d g g
+    r fis fis fis fis fis
+    r g g g g g
+    r g g g g g %225
+    r d' d d d d
+    r g, g g g g
+    r c c c c c
+    r b b b b b
+    r as as as c c %230
+    r f, f f f f
+    r b b b g g
+    r g g g g g
+    r c c c a? a
+    r a a a a a %235
+    r d d d d d
+    r c c c h h
+    r g g g f f
+    r g g g g g
+    r as as as c c %240
+    r des des des des des
+    r a! a a a a
+    r b b b b b
+    r h h h h h
+    r c c c c c %245
+    r c c c h h
+    r c  c c b b
+    r as as as as as
+    r g g g g g
+    r f f f f f %250
+    r f f f f f
+    e2.\fermata \bar "||" %252 finis
+  }
+}
 
-% I-IV-LIVViolinoII = {
-%   \relative c' {
-%     \clef treble
-%     \key g \minor \time 3/2 \tempoI-IV-LIVa
-%   }
-% }
+I-IV-LIVfViolinoII = {
+  \relative c' {
+    \clef treble
+    \key es \lydian \time 3/4 \tempoI-IV-LIVf
+      \set Score.currentBarNumber = #305
+    es4\p es es
+    c c c
+    b b b
+    as as as
+    g4. a8 b4
+    c a a %310
+    b b' d
+    es( d) c
+    d( c) b
+    c( b) a
+    b d,\p d %315
+    d d d
+    d4. c8 d h
+    c( h) h4 h'\f
+    c8( h) h4 h,4\p
+    \once \slurDashed c8( d) es4 es %320
+    e e e
+    e4. d8 e cis
+    d( cis) cis4 cis'\f
+    d8( cis) cis4 cis\p
+    a( b!) a %325
+    h( c) d
+    g,( a) g
+    a( b!) c
+    f, f a
+    b8( a) a4 a %330
+    a a b
+    a a b~
+    b c b
+    b8( a) a4 a
+    a d d %335
+    d d d8 c
+    h4 h c
+    h h c~
+    c d c
+    c8( h) h4 h %340
+    h e e
+    e e e8 d
+    cis4 cis d
+    cis cis d~
+    d e d %345
+    d8( cis) cis4 cis
+    a( b!) a
+    h( c) d
+    g,( a) g
+    a( b!) c %350
+    f,( g) f
+    g g g
+    a f f
+    f f f
+    f f r %355
+    r a a
+    d,2 d4
+    r h' h
+    e,2 e4
+    d d' c! %360
+    b a g
+    fis2 fis4
+    g a b
+    b2 b4
+    R2.\fermata %365
+    b4 a2
+    g4 d g
+    a d, f!
+    g2 es!4
+    a,2.\fermata \bar "||" %370 finis
+  }
+}

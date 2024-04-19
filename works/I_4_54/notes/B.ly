@@ -198,13 +198,324 @@ I-IV-LIVcBassoLyrics = \lyricmode {
   vae. %163 finis
 }
 
-% I-IV-LIVBasso = {
-%   \relative c {
-%     \clef bass
-%     \key g \minor \time 3/2 \tempoI-IV-LIVa \autoBeamOff
-%   }
-% }
+I-IV-LIVdBasso = {
+  \relative c {
+    \clef bass
+    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIVd
+      \set Score.currentBarNumber = #171
+    R2.*21 %191
+    r4 \mvTr es\fE^\solo es
+    es r r
+    es\p r r
+    des\piuP r r %195
+    c\pp r r
+    R2.*2
+    r4 f\f f
+    f r r %200
+    f\p r r
+    es!\piuP r r
+    d!\pp r r
+    R2.*2 %205
+    r4 g\f g
+    g r r
+    g\p r r
+    f!\piuP r r
+    e\pp r r %210
+    R2.*5 %215
+    r4 e2\fE
+    f4 f4. a8
+    cis,2.
+    d
+    R2.*3 %222
+    r4 a a
+    b2 h4
+    c( g) c %225
+    d2.
+    c
+    R
+    r4 g' g
+    as2 a4 %230
+    b( f) b
+    r b h
+    c( g) c
+    r c c
+    d2 c4 %235
+    h2.
+    c4 g2
+    as4 as4. c8
+    e,2.
+    f4 f es %240
+    des2 des4
+    c2.
+    b4 b' as
+    g2 g4
+    fis2 fis4 %245
+    g2.
+    c,2 r4
+    R2.*4 %251
+    R2.\fermata \bar "||" %252 finis
+  }
+}
 
-% I-IV-LIVBassoLyrics = \lyricmode {
+I-IV-LIVdBassoLyrics = \lyricmode {
+  Ad te %192
+  su --
+  spi --
+  ra -- %195
+  mus,
 
-% }
+  ad te %199
+  su -- %200
+  spi --
+  ra --
+  mus,
+
+  ad te %206
+  su --
+  spi --
+  ra --
+  mus, %210
+
+  ge -- %216
+  men -- tes et
+  flen --
+  tes
+
+  in hac %223
+  la -- cry --
+  ma -- rum %225
+  val --
+  le,
+
+  in hac
+  la -- cry -- %230
+  ma -- rum,
+  la -- cry --
+  ma -- rum,
+  la -- cry --
+  ma -- rum %235
+  val --
+  le, ge --
+  men -- tes et
+  flen --
+  tes in hac %240
+  la -- cry --
+  ma --
+  rum, in hac
+  la -- cry --
+  ma -- rum %245
+  val --
+  le. %247 finis
+}
+
+I-IV-LIVgBasso = {
+  \relative c {
+    \clef bass
+    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoI-IV-LIVg
+      \set Score.currentBarNumber = #371
+    R1*15 %385
+    \mvTr g'1\fE^\tutti
+    b
+    a2 g
+    a1
+    d,2 g~ %390
+    g fis
+    g r
+    R1
+    r2 g~
+    g f %395
+    es1
+    d
+    c2 f~
+    f es
+    d1 %400
+    c
+    b2 es~
+    es d
+    c4 d es f
+    g2. f4 %405
+    es f g as
+    b2 h
+    c1
+    fis,
+    g %410
+    cis,2 cis
+    d1
+    g,
+    R1*3 %416
+    g'1
+    as
+    g
+    f %420
+    g~
+    g
+    c,2 f
+    c1
+    f2 b~ %425
+    b as
+    g1
+    f
+    es
+    d %430
+    c~
+    c
+    f2 b,
+    f1
+    b %435
+    R
+    r2 c
+    d g
+    f1
+    es %440
+    d2. b4
+    f'1
+    c
+    g'
+    d %445
+    a'
+    g~
+    g2 f!4( g)
+    a1
+    d, %450
+    R1*3
+    d1
+    es %455
+    d2 c
+    d1
+    g,2 g4 a
+    b c d es
+    f2.( es4) %460
+    d2 b
+    es1
+    d
+    r2 g~
+    g f %465
+    es1
+    d
+    c2.( d4)
+    es1
+    d %470
+    c
+    g'
+    d
+    r2 c
+    d g %475
+    f1
+    es2 c
+    g'1
+    d
+    g~ %480
+    g2 c,
+    g1
+    c~
+    c~
+    c~ %485
+    c~
+    c2 c
+    c1
+    g~
+    g\fermata \bar "|." %490 finis
+  }
+}
+
+I-IV-LIVgBassoLyrics = \lyricmode {
+  O! __ %386
+  _
+  _ _
+  cle --
+  mens, cle -- %390
+  _
+  mens,
+
+  o __
+  _ %395
+  pi --
+  _
+  a, o __
+  _
+  pi -- %400
+  _
+  a, o __
+  _
+  dul -- _ _ _
+  _ _ %405
+  _ _ _ _
+  _ cis
+  vir --
+  go,
+  vir -- %410
+  go Ma --
+  ri --
+  a,
+
+  o __ %417
+  _
+  _
+  _ %420
+  cle --
+
+  mens, o
+  pi --
+  a, o __ %425
+  _
+  pi --
+  a,
+  dul --
+  cis %430
+  vir --
+
+  go Ma --
+  ri --
+  a, %435
+
+  o
+  dul -- cis
+  vir --
+  go, %440
+  dul -- cis
+  vir --
+  go,
+  dul --
+  cis %445
+  vir --
+  go __
+  Ma --
+  ri --
+  a, %450
+
+  o __ %454
+  _ %455
+  _ _
+  cle --
+  mens, o __ _
+  _ _ _ _
+  pi -- %460
+  a, o
+  dul --
+  cis,
+  o __
+  _ %465
+  pi --
+  a,
+  o __
+  dul --
+  _ %470
+  cis
+  vir --
+  go,
+  o
+  dul -- cis %475
+  vir --
+  go Ma --
+  ri --
+  a,
+  Ma -- %480
+  _
+  ri --
+  a, __
+
+  Ma -- %487
+  ri --
+  a. __
+  %490 finis
+}
