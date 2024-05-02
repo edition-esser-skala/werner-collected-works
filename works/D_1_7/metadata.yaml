@@ -1,0 +1,33 @@
+title: Tota pulchra es, Maria
+id: WerW D.1.7
+genre: motet
+festival: Immaculata Conceptio
+scoring: T (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 49
+    rism: 600038021
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/779.html
+    license: public domain
+    principal: true
+toe: |
+  23  & T    & 2nd to 4th \eighthNote\ in \B1: c′8–f′4 \\
+  24  & B    & 4th/5th \eighthNote\ in \B1: c8–\flat B8 \\
+  37f & vl 1 & 1st \eighthNote\ missing in \B1 \\
+  46  & vlne & tempo indication in \B1: “Allegro” \\*
+  86  & T    & 2nd \halfNote\ in \B1: g2 \\
+lyrics:
+  Tota pulchra es, Maria,\\
+  et macula originalis non est in te.\\[1ex]
+  Tu gloria Ierusalem,\\
+  tu laetitia Israel,\\
+  tu honorificentia populi nostri,\\
+  ru advocata peccatorum, o Maria,\\
+  virgo prudentissima,\\
+  virgo clementissima,\\
+  ora pro nobis.\\[1ex]
+  Intercede pro nobis\\
+  ad Dominum nostrum Iesum Christum.\\
+  (\bibleverse{Judith}(15:10), \bibleverse{Songs}(4:7))
