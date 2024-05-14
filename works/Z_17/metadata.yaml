@@ -1,0 +1,46 @@
+title: Wann der Himmel laſſet fallen
+id: WerW Z.17
+genre: aria
+festival: advent
+scoring: S (solo), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: E 10
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/98.html
+    license: public domain
+    principal: true
+toe: |
+  –             & –    & This work has been attributed to Werner since the title page of the single source \B1 contains a note “Werner”, added in pencil by later hand. However, the 1837 inventory of A-Ed does not list Werner as author, and the style of the work also suggests a different composer. Since \B1 also contains a second aria (written by a different copyist), and its org part is attributed to “Auth: Sign: | Reuter”, the author of the first aria may be one of the Reutters. \\
+  –             & –    & The title page of \B1 also lists a viola part,
+                         but this part is missing from the source. \\
+  14 (110, 206) & vl 2 & grace note added by editor \\
+  35            & S    & grace note added by editor \\
+  49 (145)      & vl 1 & 1st \halfNote\ in \B1: e′+b′2 \\
+  97–214        & –    & In \B1, these bars are indicated by “da capo”
+                         in the instrumental parts, but written out in S. \\
+  188           & S    & grace note added by editor \\
+parts:
+  S_solo: Soprano solo
+lyrics:
+  Wann der Himmel laſſet fallen\\
+  und mit Thau das Meer verſüßt,\\
+  gleich das Perlein ſeinen Schallen\\
+  vor den Durſt zu ſtillen aufſchließt,\\
+  und ob zwar\\
+  immerdar\\
+  bitre Wellen\\
+  thun anprellen,\\
+  tringts doch nur das Thau hinein,\\
+  bleibet von dem Meer Salz rein.\\[1ex]
+  Nur Mariæ ſich gebühret\\
+  daß ſo edle Perlein klar,\\
+  mit dem Sie von Gott gezieret\\
+  ſchon in der Empfängnis war,\\
+  da wir all\\
+  nach dem Fall\\
+  warn beflecket\\
+  und bedecket\\
+  mit dem ſchwarzen Erb=Sünds Flor,\\
+  ſtig ſie hell wie d=Sonn empor.
