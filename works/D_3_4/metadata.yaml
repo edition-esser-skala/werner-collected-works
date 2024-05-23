@@ -1,0 +1,31 @@
+title: 3 Responsoria
+subtitle: Omnes amici mei · Velum templi scissum · Vinea mea electa
+id: WerW D.3.4
+genre: responsory
+festival: in Parasceve
+scoring: S, A, T, B (coro), b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: F 6
+    rism: 600038299
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/973.html
+    license: public domain
+    principal: true
+toe: |
+  1·10 & A & 2nd/3rd \halfNote\ in \B1: g′1 \\
+  1·40 & S & 2nd \halfNoteDOtted\ in \B1: d″2 \\
+  1·40 & T & 2nd \halfNote\ in \B1: c′2 \\
+  1·42 & – & tempo indication in S, A, and org: “Larghetto”; in T and vlne: “Largo” \\
+extra_abbreviations:
+  vlne:
+lyrics: |
+  Omnes amici mei dereliquerunt me,
+  et praevaluerunt insidiantes mihi:
+  tradidit me, quem diligebam.
+  Et terribilibus oculis plaga percutientes crudeli,
+  aceto potabant me.
+  Inter iniquos proiecerunt me,
+  et non pepercerunt animae meae.
+  (\bibleverse{Ps}(Ps 69/68:22))
