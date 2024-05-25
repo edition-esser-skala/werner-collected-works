@@ -15,30 +15,39 @@ sources:
     principal: true
 toe: |
   1·10 & A & 2nd/3rd \halfNote\ in \B1: g′1 \\
-  1·40 & S & 2nd \halfNoteDOtted\ in \B1: d″2 \\
+  1·40 & S & 2nd \halfNoteDotted\ in \B1: d″2 \\
   1·40 & T & 2nd \halfNote\ in \B1: c′2 \\
-  1·42 & – & tempo indication in S, A, and org: “Larghetto”; in T and vlne: “Largo” \\
+  1·42 & – & tempo indication in S, A, and org: “Larghetto”;
+             in T and vlne: “Largo” \\
   2·12 & A & 3rd \halfNote\ in \B1: d′ \\
   2·29 & B & 1st \halfNote\ in \B1: e2 \\
+  4·19 & A & 3rd \halfNote\ in \B1: a′2 \\
+  4·26 & A & 2nd to 4th \halfNote\ in \B1: e′2–e′1 \\
 extra_abbreviations:
   vlne:
 lyrics: |
-  Omnes amici mei dereliquerunt me,
-  et praevaluerunt insidiantes mihi:
-  tradidit me, quem diligebam.
-  Et terribilibus oculis plaga percutientes crudeli,
-  aceto potabant me.
-  Inter iniquos proiecerunt me,
-  et non pepercerunt animae meae.
-  (\bibleverse{Ps}(69/68:22))
-
-  Velum templi scissum est,
-  et omnis terra tremuit.
-  Latro in cruce clamabat, dicens:
-  memento mei, Domine,
-  dum veneris in regnum tuum.
-  Petrae scissae sunt,
-  monumenta aperta sunt,
-  et multa corpora sanctorum
-  quae dormierant surrexerunt.
-  (\bibleverse{Mat}(27:51-52))
+  Omnes amici mei dereliquerunt me,\\
+  et praevaluerunt insidiantes mihi:\\
+  tradidit me, quem diligebam.\\
+  Et terribilibus oculis plaga percutientes crudeli,\\
+  aceto potabant me.\\
+  Inter iniquos proiecerunt me,\\
+  et non pepercerunt animae meae.\\
+  (\bibleverse{Ps}(69/68:22))\\[1ex]
+  Velum templi scissum est,\\
+  et omnis terra tremuit.\\
+  Latro in cruce clamabat, dicens:\\
+  memento mei, Domine,\\
+  dum veneris in regnum tuum.\\
+  Petrae scissae sunt,\\
+  monumenta aperta sunt,\\
+  et multa corpora sanctorum\\
+  quae dormierant surrexerunt.\\
+  (\bibleverse{Mat}(27:51-52))\\[1ex]
+  Vinea mea electa quam plantavi:\\
+  Quomodo conversa es in amaritudinem,\\
+  ut me crucifigeres,\\
+  et Barabbam dimitteres?\\
+  Sepivi te, et lapides elegi ex te,\\
+  et aedificavi turrim.\\
+  (\bibleverse{Jer}(2:21))

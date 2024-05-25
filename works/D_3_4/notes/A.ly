@@ -5,7 +5,7 @@ D-III-IVaAlto = {
     \clef treble
     \key b \major \time 4/2 \tempoD-III-IVaa \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr f1\fE^\tuttiE g
+    f1 g
     g g2 g
     g g g1
     g2 g1 es2
@@ -124,7 +124,7 @@ D-III-IVbAlto = {
     \clef treble
     \key g \dorian \time 4/2 \autoBeamOff \tempoD-III-IVba
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr d2\fE^\tuttiE g1 fis2
+    d2 g1 fis2
     g b2. a4 g2~
     g4 f es2. d4 c2~
     c4 c d1 c2 \noBreak
@@ -234,4 +234,113 @@ D-III-IVbAltoLyrics = \lyricmode {
   xe -- runt, sur --
   re -- xe --
   runt. %55 finis
+}
+
+D-III-IVcAlto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/2 \autoBeamOff \tempoD-III-IVca
+      \set Staff.timeSignatureFraction = 2/2
+    f2 f1 e2
+    f( g1) f2
+    r a gis a
+    a( gis) a1
+    R\breve %5
+    r2 a1 e2
+    g1 f
+    r2 c d( e)
+    f f a( gis4 fis?)
+    gis2 gis \once \tieDashed a1~ %10
+    a2 gis4 fis? gis1 \noBreak
+    a\breve\fermata \bar "||"
+    \tempoD-III-IVcb R\breve*2
+    r1 f( %15
+    g2.) g4 f2 a
+    d,4( e) f( g) a2 a4( g)
+    f2 f e c
+    f4( g) a( h) g2^\critnote r
+    r c, f( e) %20
+    a g f2. e4
+    d2 c f2. e4
+    d2( e) f( g)
+    c, f f e
+    d2. d4 e1 %25
+    r2 e1^\critnote e2
+    fis2 g g fis
+    g1 r2 gis~
+    gis gis a1
+    fis2 d g1~ %30
+    g2 f1 g2
+    e( f1) e2 \noBreak
+    f\breve\fermata \bar "||"
+    \time 3/2 \tempoD-III-IVcc e2^\aTre f2. f4 \noBreak
+    e1 r2 %35
+    fis2 g4( d) g2
+    fis1 r2
+    f g2. g4
+    c,2 c d4( e)
+    fis2 g1 %40
+    fis2 r r
+    R1.
+    r2 f! b
+    g2. a4 b c
+    d2 b1 %45
+    g( f2)
+    f b( g)
+    e a f
+    g e1\trill
+    d r2\fermata \markQuomodoDaCapo \bar "||" %50 finis
+  }
+}
+
+D-III-IVcAltoLyrics = \lyricmode {
+  Vi -- ne -- a
+  me -- a,
+  me -- a e --
+  le -- cta
+  %5
+  quam plan --
+  ta -- vi,
+  plan -- ta --
+  vi, plan -- ta --
+  vi, plan -- ta -- %10
+  _ _ _
+  vi:
+
+  Quo -- %15
+  mo -- do con --
+  ver -- sa __ es, con --
+  ver -- sa es, con --
+  ver -- sa __ es
+  in a -- %20
+  ma -- ri -- tu -- di --
+  nem, a -- ma -- ri --
+  tu -- di --
+  nem, a -- ma -- ri --
+  tu -- di -- nem, %25
+  ut me
+  cru -- ci -- fi -- ge --
+  res, et __
+  Ba -- rab --
+  bam, Ba -- rab -- %30
+  bam di --
+  mit -- te --
+  res?
+  Se -- pi -- vi
+  te, %35
+  se -- pi -- vi
+  te,
+  et la -- pi --
+  des e -- le --
+  gi ex %40
+  te,
+
+  et ae --
+  di -- fi -- ca -- vi
+  tur -- rim, %45
+  tur --
+  rim, ae --
+  di -- fi -- ca --
+  vi tur --
+  rim. %50 finis
 }

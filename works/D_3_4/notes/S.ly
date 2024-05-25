@@ -5,7 +5,7 @@ D-III-IVaSoprano = {
     \clef treble
     \key b \major \time 4/2 \tempoD-III-IVaa \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr b'1\fE^\tuttiE b2 b~
+    b'1 b2 b~
     b es1 es2
     d c c( h)
     c c c c
@@ -122,7 +122,7 @@ D-III-IVbSoprano = {
     \clef treble
     \key g \dorian \time 4/2 \autoBeamOff \tempoD-III-IVba
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr b'2.\fE^\tuttiE b4 a1
+    b'2. b4 a1
     g2 r b2. a4
     g2. a8[ b] c4 g c( b)
     a2( b4 a g b) a( g) \noBreak
@@ -224,4 +224,107 @@ D-III-IVbSopranoLyrics = \lyricmode {
   xe -- runt, sur --
   _ re -- xe --
   runt. %55 finis
+}
+
+D-III-IVcSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/2 \autoBeamOff \tempoD-III-IVca
+      \set Staff.timeSignatureFraction = 2/2
+    a'2. a4 g2( a)
+    b1 a2 a
+    d1. c2
+    h1 a
+    r g'2 d %5
+    f1 e
+    r2 d1 a2
+    c1( b)
+    a2 a c h~
+    h e1( d4 c) %10
+    h\breve \noBreak
+    a\fermata \bar "||"
+    \tempoD-III-IVcb R\breve*4 %16
+    r1 c(
+    d2.) d4 c2 e
+    a,4( h) c( d) e2 r
+    R\breve*2 %21
+    r2 f, b( a)
+    d c b2. b4
+    a2 a d c
+    c h c1 %25
+    r2 cis1 cis2
+    d d d2. d4
+    d1 r2 h~
+    h e cis d~
+    d h g c!~ %30
+    c a d d
+    c1. c2 \noBreak
+    c\breve\fermata \bar "||"
+    \time 3/2 \tempoD-III-IVcc cis2^\aTre d2. d4 \noBreak
+    cis1 r2 %35
+    a b!2. b4
+    a2 d b4 c
+    d2 c2. b4
+    a2 f'4( e) d2
+    c1 b2 %40
+    a a d
+    b2. c4 d e
+    f2 b, d
+    b2. c4 d es
+    f2 es f %45
+    es4 d c1
+    d2 d e
+    cis d1
+    d2 d( cis)
+    d1 r2\fermata \markQuomodoDaCapo \bar "||" %50 finis
+  }
+}
+
+D-III-IVcSopranoLyrics = \lyricmode {
+  Vi -- ne -- a __
+  me -- a e --
+  le -- _
+  _ cta
+  quam plan -- %5
+  ta -- vi,
+  quam plan --
+  ta --
+  vi, plan -- ta -- vi, __
+  plan -- %10
+  ta --
+  vi:
+
+  Quo -- %17
+  mo -- do con --
+  ver -- sa __ es
+
+  in a -- %22
+  ma -- ri -- tu -- di --
+  nem, a -- ma -- ri --
+  tu -- di -- nem, %25
+  ut me
+  cru -- ci -- fi -- ge --
+  res, et __
+  Ba -- rab -- _
+  _ bam, Ba -- %30
+  rab -- bam di --
+  mit -- te --
+  res?
+  Se -- pi -- vi
+  te, %35
+  se -- pi -- vi
+  te, et la -- _
+  _ _ pi --
+  des e -- le --
+  gi ex %40
+  te, et ae --
+  di -- fi -- ca -- vi
+  tur -- rim, ae --
+  di -- fi -- ca -- vi
+  tur -- rim, ae -- %45
+  di -- fi -- ca --
+  vi, ae -- di --
+  fi -- ca --
+  vi tur --
+  rim. %50 finis
 }

@@ -5,7 +5,7 @@ D-III-IVaOrgano = {
     \clef bass
     \key b \major \time 4/2 \tempoD-III-IVaa
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr b'1\fE-\tuttiE g
+    b'1 g
     es c2 c
     h c g1
     c es2 c
@@ -129,7 +129,7 @@ D-III-IVbOrgano = {
     \clef bass
     \key g \dorian \time 4/2 \tempoD-III-IVba
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr g2\fE-\tuttiE g' d1
+    g2 g' d1
     g, g'2. f!4
     es2. d4 c2. d8 es
     f2 b, es1 \noBreak
@@ -262,4 +262,121 @@ D-III-IVbBassFigures = \figuremode {
   <_+>1 <6>2
   <[6]>1.
   <_+> %55 finis
+}
+
+D-III-IVcOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/2 \tempoD-III-IVca
+      \set Staff.timeSignatureFraction = 2/2
+    f1 c
+    d2 e f1
+    r2 d e f
+    d e a, a'~
+    a e g!1 %5
+    f c
+    r2 b'1 f2
+    a1 g
+    f c2 d
+    e1 c2 a %10
+    <e e'>\breve \noBreak
+    a\fermata \bar "||"
+    \tempoD-III-IVcb f'1-! g!2.-! g4-! \noBreak
+    << {
+      c1 d2. d4
+      c2 e
+    } \\ {
+      f,2 a d,4 e f g
+      a2 g
+    } >> f4 e d2 %15
+    c1 d2 c
+    b4 c d e f2. e4
+    d e f g a2. g4
+    f e d2 c c
+    f e a g %20
+    f e d2. c4
+    b2 f' d4 e f2
+    b, c d e
+    f4 e d c h2 c
+    g1 c %25
+    r2 a1 a2
+    d g d1
+    g, r2 e'2~
+    e e a fis
+    d g e c %30
+    f!1 b,
+    c\breve \noBreak
+    f,\fermata \bar "||"
+    \clef "treble_8" \time 3/2 \tempoD-III-IVcc
+      a'1^\aTre gis2 \noBreak
+    a2. g4 f e %35
+    << { d'2~^\org d } \\ { d,_\markup \remark "vlne" d' } >> cis
+    d d, g
+    f! e1
+    f2 a b
+    a g1 %40
+    d'2 fis, d
+    g g' f!4 e
+    d1 b2
+    es1 d4 c
+    b2 g d %45
+    es f1
+    b2 g1
+    a2 f b
+    g a1
+    d, r2\fermata \markQuomodoDaCapo \bar "||" %50 finis
+  }
+}
+
+D-III-IVcBassFigures = \figuremode {
+  r1 <5 4>2 <6 3>
+  <6> <\t> <9> <8>
+  r1 <7 [5!] _+>2 <5>
+  <6[!] 5> <[5!] _+>1 \bo <[1]>2
+  r \bc <[8]> <6 _!>1 %5
+  <6>2 <5> <6>1
+  r2 \bo <[6]> <5>1
+  \bc <[6]> <5>2 <6>
+  r1 <[6]>2 <6!>
+  <8 [5!] _+>1 <[6]> %10
+  <5[!] 4>1 <\t _+>
+  r\breve
+  r
+  r
+  r1 <8 3> %15
+  r1. <6>2
+  <3>4 q q q r1
+  <6>\breve
+  <6>2 <5>4 <6!> r1
+  r2 <6> q \bo <[6]> %20
+  <3> q \bc <[3]>1
+  r <6>
+  r <6>2 <\t>
+  r1 <6 5>
+  <4>2 <_!>1. %25
+  r2 <_+>1.
+  q2 <_-> <4> <_+>
+  r1. <[5!] _+>2
+  r1. \bo <[6]>2
+  \bc <[_+]> <_!> <[6]>1 %30
+  <9>2 <8> <5> <6>
+  \bo <[5 3]> <6 4> <5 \t> \bc <[\t 3]>
+  r\breve
+  <5 _+>2 <6 4> <7 5>
+  <_+>1. %35
+  <[5] _+>2 <6- 4> <\t \t>
+  <_+>1.
+  <6>2 q1
+  r1.
+  <6\\>2 <4> <3> %40
+  <_+>1.
+  r
+  <6>
+  r
+  r2 <6-> <6> %45
+  r <9 4> <8 3>
+  r <5> <6!>
+  <_+> <6>1
+  r2 <4> <_+>
+  r1. %50 finis
 }

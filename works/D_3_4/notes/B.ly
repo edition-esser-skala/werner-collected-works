@@ -5,7 +5,7 @@ D-III-IVaBasso = {
     \clef bass
     \key b \major \time 4/2 \tempoD-III-IVaa \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr b'1\fE^\tuttiE g
+    b'1 g
     es c2 c
     h c g1
     c2 c es c
@@ -102,7 +102,7 @@ D-III-IVbBasso = {
     \clef bass
     \key g \dorian \time 4/2 \autoBeamOff \tempoD-III-IVba
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr g'2.\fE^\tuttiE g4 d1
+    g'2. g4 d1
     g, g'2. f!4
     es2. d4 c2. d8[ es]
     f2 b, es2. es4 \noBreak
@@ -182,4 +182,83 @@ D-III-IVbBassoLyrics = \lyricmode {
   gnum
   tu --
   um. %38 finis
+}
+
+D-III-IVcBasso = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/2 \autoBeamOff \tempoD-III-IVca
+      \set Staff.timeSignatureFraction = 2/2
+    f2. f4 c1
+    d2( e) f1
+    r2 d e f
+    d( e) a, a'~
+    a e g!1( %5
+    f) c
+    r2 b'1 f2
+    a1( g)
+    f c2( d)
+    e1 c2 a %10
+    e'\breve \noBreak
+    a,\fermata \bar "||"
+    \tempoD-III-IVcb f'1( g!2.) g4 \noBreak
+    f2 a d,4( e) f( g)
+    a2 g f4( e) d2 %15
+    c1 d2( c)
+    b4( c) d( e) f2.( e4)
+    d( e) f( g) a2.( g4)
+    f( e) d2 c c
+    f( e) a g %20
+    f( e d2.) c4
+    b2 f' d4( e) f2
+    b,( c) d( e)
+    f4( e) d( c) h2 c
+    g2. g4 c1 %25
+    r2 a1 a2
+    d g d2. d4
+    g,1 r2 e'~
+    e e a( fis)
+    d g e( c) %30
+    f!1 b,
+    c1. c2 \noBreak
+    f\breve\fermata \bar "||"
+    \time 3/2 \tempoD-III-IVcc R1.*16 %49
+    R1.\fermata \markQuomodoDaCapo \bar "||" %50 finis
+  }
+}
+
+D-III-IVcBassoLyrics = \lyricmode {
+  Vi -- ne -- a
+  me -- a,
+  me -- a e --
+  le -- cta quam __
+  plan -- ta -- %5
+  vi,
+  quam plan --
+  ta --
+  vi, plan --
+  ta -- vi, plan -- %10
+  ta --
+  vi:
+  Quo -- mo --
+  do con -- ver -- sa __
+  es, con -- ver -- sa %15
+  es, con --
+  ver -- sa, __ con --
+  ver -- sa, __ con --
+  ver -- sa es in
+  a -- ma -- ri -- %20
+  tu -- di --
+  nem, a -- ma -- ri --
+  tu -- di --
+  nem, a -- ma -- ri --
+  tu -- di -- nem, %25
+  ut me
+  cru -- ci -- fi -- ge --
+  res, et __
+  Ba -- rab --
+  bam, Ba -- rab -- %30
+  bam di --
+  mit -- te --
+  res? %33 finis
 }
