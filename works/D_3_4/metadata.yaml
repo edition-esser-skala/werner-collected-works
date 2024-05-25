@@ -18,6 +18,8 @@ toe: |
   1·40 & S & 2nd \halfNoteDOtted\ in \B1: d″2 \\
   1·40 & T & 2nd \halfNote\ in \B1: c′2 \\
   1·42 & – & tempo indication in S, A, and org: “Larghetto”; in T and vlne: “Largo” \\
+  2·12 & A & 3rd \halfNote\ in \B1: d′ \\
+  2·29 & B & 1st \halfNote\ in \B1: e2 \\
 extra_abbreviations:
   vlne:
 lyrics: |
@@ -28,4 +30,15 @@ lyrics: |
   aceto potabant me.
   Inter iniquos proiecerunt me,
   et non pepercerunt animae meae.
-  (\bibleverse{Ps}(Ps 69/68:22))
+  (\bibleverse{Ps}(69/68:22))
+
+  Velum templi scissum est,
+  et omnis terra tremuit.
+  Latro in cruce clamabat, dicens:
+  memento mei, Domine,
+  dum veneris in regnum tuum.
+  Petrae scissae sunt,
+  monumenta aperta sunt,
+  et multa corpora sanctorum
+  quae dormierant surrexerunt.
+  (\bibleverse{Mat}(27:51-52))

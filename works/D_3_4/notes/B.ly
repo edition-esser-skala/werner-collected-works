@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-D-III-IVBasso = {
+D-III-IVaBasso = {
   \relative c {
     \clef bass
     \key b \major \time 4/2 \tempoD-III-IVaa \autoBeamOff
@@ -53,7 +53,7 @@ D-III-IVBasso = {
   }
 }
 
-D-III-IVBassoLyrics = \lyricmode {
+D-III-IVaBassoLyrics = \lyricmode {
   O -- mnes,
   o -- mnes a --
   mi -- ci me --
@@ -95,4 +95,91 @@ D-III-IVBassoLyrics = \lyricmode {
   ce -- to
   po -- ta -- bant %40
   me. %41 finis
+}
+
+D-III-IVbBasso = {
+  \relative c {
+    \clef bass
+    \key g \dorian \time 4/2 \autoBeamOff \tempoD-III-IVba
+      \set Staff.timeSignatureFraction = 2/2
+    \mvTr g'2.\fE^\tuttiE g4 d1
+    g, g'2. f!4
+    es2. d4 c2. d8[ es]
+    f2 b, es2. es4 \noBreak
+    d\breve\fermata \bar "||" %5
+    \tempoD-III-IVbb d2 d2. d4 b d \noBreak
+    es2. es4 d2 d4_( c
+    b c) d( es?) f2 r
+    b, b'2. a4 g f
+    es( c) g( a) b2 d %10
+    g,4( a) b( c) d( e) f( g)
+    a2 d, a2. a4
+    d2 g2. es4 c!2
+    f d4( b) f'2. f4
+    b,1 r %15
+    R\breve*2
+    r1 d2. d4
+    b2 b'1 a4 g
+    a( d, d'2. c4) g( a) %20
+    b( a f g a2) a,
+    r d d d
+    f1 e!2 a~
+    a g f g
+    f4 g f e d e f g %25
+    a1 g
+    f r
+    d f2. f4
+    d2^\critnote g2. g4 fis2
+    g e( f) d4( b) %30
+    f'1 b,
+    R\breve
+    es2 f2. f4 d2
+    es2. es4 d2 g
+    c, d es( d4 \once \stemDown c %35
+    b1) c
+    d\breve \noBreak
+    g,\fermata \bar "||"
+    \time 3/2 \tempoD-III-IVbc R1.*16 %54
+    R1.\fermata \markEtOmnisDaCapo \bar "||" %55 finis
+  }
+}
+
+D-III-IVbBassoLyrics = \lyricmode {
+  Ve -- lum tem --
+  pli scis -- _
+  _ _ _ _
+  _ sum, scis -- sum
+  est, %5
+  et o -- mnis ter -- ra
+  tre -- mu -- it, tre --
+  mu -- it,
+  et o -- mnis ter -- ra
+  tre -- mu -- it, ter -- %10
+  ra __ tre -- mu -- it, __
+  ter -- ra tre -- mu --
+  it, tre -- mu -- it,
+  ter -- ra __ tre -- mu --
+  it. %15
+
+  La -- tro %18
+  in cru -- ce cla --
+  ma -- bat, %20
+  di -- cens:
+  me -- men -- to
+  me -- i, Do --
+  mi -- ne, Do --
+  _ _ _ _ _ _ _ _ %25
+  _ mi --
+  ne,
+  dum ve -- ne --
+  ris, ve -- ne -- ris
+  in re -- gnum %30
+  tu -- um,
+
+  dum ve -- ne -- ris,
+  ve -- ne -- ris in
+  re -- gnum, re -- %35
+  gnum
+  tu --
+  um. %38 finis
 }

@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-D-III-IVAlto = {
+D-III-IVaAlto = {
   \relative c' {
     \clef treble
     \key b \major \time 4/2 \tempoD-III-IVaa \autoBeamOff
@@ -63,7 +63,7 @@ D-III-IVAlto = {
   }
 }
 
-D-III-IVAltoLyrics = \lyricmode {
+D-III-IVaAltoLyrics = \lyricmode {
   O -- mnes,
   o -- mnes a --
   mi -- ci me --
@@ -117,4 +117,121 @@ D-III-IVAltoLyrics = \lyricmode {
   mae, a -- ni --
   mae me --
   ae. %55 finis
+}
+
+D-III-IVbAlto = {
+  \relative c' {
+    \clef treble
+    \key g \dorian \time 4/2 \autoBeamOff \tempoD-III-IVba
+      \set Staff.timeSignatureFraction = 2/2
+    \mvTr d2\fE^\tuttiE g1 fis2
+    g b2. a4 g2~
+    g4 f es2. d4 c2~
+    c4 c d1 c2 \noBreak
+    d\breve\fermata \bar "||" %5
+    \tempoD-III-IVbb R\breve*3
+    d2 d2. d4 b d
+    es2. es4 d2 d~ %10
+    d g1( f2)
+    e! f4( e) e2^\critnote a~
+    a4 f d2 g2. es4
+    c2 f1 f2
+    f1 r2 d~ %15
+    d4 d b2 g'1
+    f4 b, b'2. a8[ g] a4 f
+    g2 g1( fis2)
+    g1 r
+    r2 a f g %20
+    f4.( g8 a4) b f2( e)
+    d1 r
+    R\breve
+    r1 r2 d
+    d d f1 %25
+    e2( fis) g2. g4
+    c,2 a' b2. b4
+    a1 d,2 f~
+    f4 f d2 d a'~
+    a g f1 %30
+    f f2 g~
+    g4 g e2 f d
+    es c f1
+    b,2 g' fis d
+    es d4( c) b2( c) %35
+    d b' b_( a4 g)
+    fis2 g1( fis2) \noBreak
+    g\breve\fermata \bar "||"
+    \time 3/2 \tempoD-III-IVbc f!2.(^\aTre g4 a g8[ f)] \noBreak
+    e2 f g %40
+    c, r g'
+    f f4( e8[ d)] c2
+    b4( c) d2 g
+    fis fis g
+    es f2. f4 %45
+    d2 g4( a) b_( a8[ g)]
+    f4( g) es( d) es2
+    d g e
+    f f( e)
+    f c f %50
+    g4( f es f g a)
+    b2 d, g
+    fis fis g
+    a d,( g)
+    fis1 r2\fermata \markEtOmnisDaCapo \bar "||" %55 finis
+  }
+}
+
+D-III-IVbAltoLyrics = \lyricmode {
+  Ve -- lum tem --
+  pli scis -- _ _
+  _ _ _ _
+  sum, scis -- sum
+  est, %5
+
+  et o -- mnis ter -- ra %9
+  tre -- mu -- it, ter -- %10
+  ra __
+  tre -- mu -- it, tre --
+  mu -- it, tre -- mu --
+  it, tre -- mu --
+  it. La -- %15
+  tro in cru --
+  ce cla -- ma -- _ _ _
+  bat, di --
+  cens,
+  la -- tro cla -- %20
+  ma -- bat, di --
+  cens:
+
+  me --
+  men -- to %25
+  me -- i, __ Do -- mi --
+  ne, dum ve -- ne --
+  ris, dum ve --
+  ne -- ris in re --
+  gnum tu -- %30
+  um, dum ve --
+  ne -- ris in re --
+  gnum, in re --
+  gnum, in re -- gnum,
+  re -- gnum tu -- %35
+  um, in re --
+  gnum tu --
+  um.
+  Pe --
+  trae scis -- sae %40
+  sunt, mo --
+  nu -- men -- ta
+  a -- per -- ta
+  sunt, et mul --
+  ta cor -- po -- %45
+  ra san -- cto --
+  rum, cor -- po --
+  ra quae dor --
+  mi -- e --
+  rant sur -- re -- %50
+  xe --
+  runt, sur -- re --
+  xe -- runt, sur --
+  re -- xe --
+  runt. %55 finis
 }
