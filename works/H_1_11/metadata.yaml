@@ -1,0 +1,22 @@
+title: Vesperæ de Apostolis
+id: WerW H.1.11
+genre: vesper
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: G 22
+    rism: 600038424
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/1008.html
+    license: public domain
+    principal: true
+toe: |
+  1·2  & vl 1 & 2nd to 4th \quarterNote\ in \B1: g″8.–d′′′16–c′′′2 \\
+  1·14 & vlne & last \quarterNote\ in \B1: A4 \\
+  1·42 & S    & 2nd \halfNote\ in \B1: b′8–b′8–b′4 \\
+extra_abbreviations:
+  vlne:
+lyrics:
+
+  (\bibleverse{Ps}(25/24:1-3))
