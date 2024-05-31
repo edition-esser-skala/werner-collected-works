@@ -95,3 +95,82 @@ H-I-XIaTenoreLyrics = \lyricmode {
   men, a --
   men, a -- men. %54 finis
 }
+
+H-I-XIbTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \minor \time 4/4 \autoBeamOff \tempoH-I-XIba
+    R1
+    r2 r4 r8 \mvTr dis\fE^\tutti
+    e h r h4 c8 fis,8.\trill fis16
+    e4 r r2
+    \mvTr a8\pE^\solo h c d h e4 d8 %5
+    c( h4) a8 h4 r
+    h8 e, c' a r \mvTr g\fE^\tutti d'8. d16
+    d8 g d8. d16 d8 g d d16 c
+    h8 c a8. a16 h4 r
+    r2 r8 \mvTr gis\pE^\solo gis16([ a)] a([ h)] %10
+    h([ c)] c8 h4. a16 a a8([ gis)]
+    a4 r r2
+    r r8 \mvTr g\fE^\tutti g c
+    h8. h16 h4 r8 h h h16 h
+    a8. a16 a4 r8 f f f16 f %15
+    e8. e16 e8 c' fis, fis g g
+    fis2\trill e4 r
+    R1*4 %21
+    r8 \mvTr g\pE^\solo g fis g16([ a)] h([ c)] d([ e)] fis([ d)]
+    g8 fis16([ e)] d([ c)] h([ a)] h8 g r4
+    R1
+    r8 a a a a16([ d cis h)] a8 g %25
+    fis8. e16 d4 r2
+    R1
+    r2 \mvTr d'4.\fE^\tutti d8
+    d d h h h8. h16 c8 h
+    c h a([ g)] a a4 a8 %30
+    h h16 h g8 h h2\trill
+    \tempoH-I-XIbb h4 r8 h e8.[ d!16] c8[ e]~
+    e dis r4 r2
+    r r8 g, c4
+    h16[ a h g] fis[ e fis d] g[ fis g e] fis8[ h]~ %35
+    h[ g] e a4( fis8) d \once \tieDashed g~
+    g[ d] a'8.[\trill g32( a)] h4 h
+    h r r2\fermata \bar "|." %38 finis
+  }
+}
+
+H-I-XIbTenoreLyrics = \lyricmode {
+  Lau -- %2
+  da -- te no -- men Do -- mi --
+  ni.
+  ex hoc nunc et us -- que in %5
+  sae -- cu -- lum.
+  ad oc -- ca -- sum lau -- da -- bi --
+  le, lau -- da -- bi -- le, lau -- da -- bi -- le
+  no -- men Do -- mi -- ni.
+  et su -- per %10
+  coe -- los glo -- ri -- a e --
+  ius.
+  in al -- tis
+  ha -- bi -- tat, hu -- mi -- li -- a
+  re -- spi -- cit, hu -- mi -- li -- a %15
+  re -- spi -- cit in coe -- lo et in
+  ter -- ra?
+
+  Qui ha -- bi -- ta -- re fa -- cit %22
+  ste -- ri -- lem in do -- mo,
+
+  Glo -- ri -- a Pa -- tri et %25
+  Fi -- li -- o
+
+  si -- cut
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per et in %30
+  sae -- cu -- la sae -- cu -- lo --
+  rum, a -- _ _
+  men,
+  a -- _
+  _ _ _ _ %35
+  men, a -- men, a --
+  _ men, a --
+  men. %38 finis
+}

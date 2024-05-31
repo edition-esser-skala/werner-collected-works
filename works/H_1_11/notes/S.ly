@@ -113,3 +113,84 @@ H-I-XIaSopranoLyrics = \lyricmode {
   _ _ _
   _ _ men. %54 finis
 }
+
+H-I-XIbSoprano = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \autoBeamOff \tempoH-I-XIba
+    R1*2
+    r8 \mvTr e'\fE^\tutti h h h e c h
+    h \mvTr g'\pE^\solo d!8. c16 h8 h16 c d([ h)] a([ g)]
+    fis8 d r4 r2 %5
+    R1
+    e16([ fis)] g8 a16([ g a8)] h4 r8 \mvTr a\fE^\tutti
+    h8. h16 h8 d h8. h16 h8 d~
+    d e d8. d16 d8 \mvTr h\pE^\solo c d
+    e8. e16 e,8 c' c16([ h)] h8 r4 %10
+    R1*2
+    g8 g h d g8. g,16 g4
+    r8 \mvTr g'([\fE^\tutti d)] h gis8. gis16 gis4
+    r8 fis'!([ dis)] a gis8. gis16 gis4 %15
+    a8 e c' a dis fis e e,
+    e4( dis)\trill e8 \mvTr e'(\pE^\solo dis16[ e)] fis8
+    e h16([ a)] g([ fis)] e8 ais4.\trill ais8
+    h4 r g8 d! h' g16 g
+    d'8 h16 g d8. d16 d4 r %20
+    r2 r8 h'4 h8
+    a h16 h c8 h16 a h([ a)] g8 r4
+    r2 r8 h4 e8
+    r cis4 fis8 d cis16 h e4~
+    e8 d4 cis8 d4 r %25
+    R1
+    g,8 g h a16 g d'[\trill cis d8]~ d[ e16 fis]
+    g[ fis e d] cis[ h a g] fis8 \mvTr a4\fE^\tutti d8
+    h h e dis e8. e16 e8 d
+    e d d([ cis)] d d4 d8 %30
+    d d16 d e8 e dis e4 dis8
+    \tempoH-I-XIbb e4 r r2
+    r8 h e8.[ d!16] c[ d e8] d8.[ c16]
+    h8[ c] d16[ h a g] fis8 g~ g16[ fis g a]
+    h8 g( d'8.[ c16] h8 e4) dis8 %35
+    e4.( c8) a d4 h8
+    g16[ a h8] c16[ h] a4 g8 fis4\trill
+    e r r2\fermata \bar "|." %38 finis
+  }
+}
+
+H-I-XIbSopranoLyrics = \lyricmode {
+  Lau -- da -- te no -- men Do -- mi -- %3
+  ni. Sit no -- men Do -- mi -- ni be -- ne --
+  di -- ctum %5
+
+  ad oc -- ca -- sum lau --
+  da -- bi -- le, lau -- da -- bi -- le no --
+  men Do -- mi -- ni. Ex -- cel -- sus
+  su -- per o -- mnes gen -- tes %10
+
+  qui in al -- tis ha -- bi -- tat, %13
+  et __ hu -- mi -- li -- a,
+  et __ hu -- mi -- li -- a %15
+  re -- spi -- cit in coe -- lo et in
+  ter -- ra? Su -- sci --
+  tans a __ ter -- ra in -- o --
+  pem, et de ster -- co -- re
+  e -- ri -- gens pau -- pe -- rem, %20
+  cum prin --
+  ci -- pi -- bus po -- pu -- li su -- i.
+  ma -- trem
+  fi -- li -- o -- rum lae -- tan --
+  _ _ tem. %25
+
+  et Spi -- ri -- tu -- i San --
+  _ _ cto, si -- cut
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per et in %30
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men,
+  a -- _ _ _
+  _ _ men, a --
+  men, a -- men, %35
+  a -- men, a -- _
+  _ _ _ men, a --
+  men. %38 finis
+}

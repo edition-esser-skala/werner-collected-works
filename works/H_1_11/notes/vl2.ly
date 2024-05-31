@@ -51,3 +51,45 @@ H-I-XIaViolinoII = {
     a' g2 fis4 g2\fermata \bar "|." %54 finis
   }
 }
+
+H-I-XIbViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \tempoH-I-XIba
+    R1
+    r2 r16 fis\fE dis h h'4
+    r16 h g h fis'8. dis16 h8 e c h
+    h e,\pE fis d! g e h c
+    d4 r r2 %5
+    r16 h' c d e8 a, h4 r
+    R1
+    r16 d\fE h g d'8 d, r16 d' h g d'8 d,
+    h'16 g' e g a, g' a, fis' g4 r
+    R1*2 %11
+    r4 r8 d\pE e16 d c h a h c8~
+    c16 h h8 r4 r16 h\fE d g e g c e,
+    d g h, d g,4 r16 h8\dstU h16 r h8\dstU h16
+    r a8\dstD a16 r a8\dstD a16 r gis8\dstD gis16 r gis8\dstD gis16 %15
+    r e8\dstD e16 r e8\dstD e16 r fis!8\dstD fis16 r g8\dstD g16
+    fis8 e' h, h' g \tuplet 3/2 8 { e16\pE dis e } h'8 \tuplet 3/2 8 { fis16 e fis }
+    g8 e r e16 d c8 c c c
+    \kneeBeam h16 h'' ais( h) fis( g) dis( e) h8. a16 g4
+    fis8 g4 fis8 g4 r8 fis %20
+    g h16 a g8 fis g16 \once \slurDashed h32( c) d16 c h4
+    R1
+    r16 g' fis e d c h a g4 r
+    R1*3 %26
+    r8 g g g fis4 h
+    e, a d,8 fis16.\fE a32 d8 a
+    h g16. h32 e8 dis e h16. e32 c8 h
+    c h a g a a~ a fis16. a32 %30
+    h8 h~ h16 g h8 dis e4 dis8
+    \tempoH-I-XIbb e8 e, h'8. a16 g8 h a g
+    fis4 r8 g16 fis e8 c'16 h a g fis e
+    d g fis e d8 e a,4 r8 c
+    g'16 fis g h a g a fis d8 h' a fis %35
+    r e a8. g16 fis8 d! g8. fis16
+    e fis g8 fis e dis e4 dis8
+    e4 r r2\fermata \bar "|." %38 finis
+  }
+}

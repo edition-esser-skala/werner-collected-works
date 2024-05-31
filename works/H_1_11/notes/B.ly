@@ -105,3 +105,76 @@ H-I-XIaBassoLyrics = \lyricmode {
   men, a --
   men, a -- men. %54 finis
 }
+
+H-I-XIbBasso = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 4/4 \autoBeamOff \tempoH-I-XIba
+    R1
+    r2 r4 r8 \mvTr h\fE^\tutti
+    e e r dis([ e)] c a h
+    e4 r r2
+    r4 \mvTr e8\pE^\solo fis g e fis4 %5
+    e8 d c8. c16 h4 r
+    e8 c a([ d!)] g,4 r8 \mvTr d'\fE^\tutti
+    g8. g16 g8 fis g4 g8 fis
+    g c, d8. d16 g,4 r
+    R1 %10
+    r2 r4 r8 \mvTr e'\pE^\solo
+    c' h16([ a)] g!([ f)] e([ d)] c4 f8 c
+    g' g, r4 r8 \mvTr h'\fE^\tutti c16([ g)] e([ c)]
+    g'8. g,16 g4 r8 f' f f16 f
+    dis8. dis16 dis4 r8 d d d16 d %15
+    c8. c16 c8 c h h' g! e
+    h2 e4 r
+    R1*2
+    r4 r8 \mvTr d\pE^\solo g h16 a g8 d %20
+    h g h d g4 r
+    R1*6 %27
+    r2 \mvTr d8\fE^\tutti d fis d
+    g g g h e,8. e16 e8 g
+    c, g d'([ e)] d4 d8 d %30
+    g g16 g e8 g h e, h4
+    \tempoH-I-XIbb e r r r8 e
+    h'8.[ a16] g8[ e] a8.[ g16] fis8[ d!]
+    g16[ e d c] h8 c d h a4
+    g r r r8 h %35
+    e8.[ d!16] c8[ a] d8.[ c16] h8[ g]
+    c[ h] a16[ h c8] h e h4
+    e r r2\fermata \bar "|." %38 finis
+  }
+}
+
+H-I-XIbBassoLyrics = \lyricmode {
+  Lau -- %2
+  da -- te no -- men Do -- mi --
+  ni.
+  ex hoc nunc et us -- %5
+  que in sae -- cu -- lum.
+  ad oc -- ca -- sum lau --
+  da -- bi -- le, lau -- da -- bi -- le
+  no -- men Do -- mi -- ni.
+  %10
+  Quis
+  si -- cut Do -- mi -- nus De -- us
+  no -- ster, in al -- tis
+  ha -- bi -- tat, hu -- mi -- li -- a
+  re -- spi -- cit, hu -- mi -- li -- a %15
+  re -- spi -- cit in coe -- lo et in
+  ter -- ra?
+
+  ut col -- lo -- cet e -- um %20
+  cum prin -- ci -- pi -- bus,
+
+  si -- cut, si -- cut %28
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per et in %30
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men, a --
+  _ _ _ _
+  _ _ men, a -- men, a --
+  men, a -- %35
+  _ _ _ _
+  _ _ _ men, a --
+  men. %38 finis
+}
