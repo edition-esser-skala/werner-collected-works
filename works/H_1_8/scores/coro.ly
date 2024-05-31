@@ -6,7 +6,7 @@
 
 \book {
   \bookpart {
-    \section "H.1.8·1" "Dixit Dominus"
+    \section "H.1.8 · 1" "Dixit Dominus"
     \addTocEntry
     \score {
       <<
@@ -41,7 +41,7 @@
     }
   }
   \bookpart {
-    \section "H.1.8·2" "Confitebor"
+    \section "H.1.8 · 2" "Confitebor"
     \addTocEntry
     \score {
       <<
@@ -76,7 +76,7 @@
     }
   }
   \bookpart {
-    \section "H.1.8·3" "Beatus vir"
+    \section "H.1.8 · 3" "Beatus vir"
     \addTocEntry
     \score {
       <<
@@ -111,7 +111,7 @@
     }
   }
   \bookpart {
-    \section "H.1.8·4" "Laudate pueri"
+    \section "H.1.8 · 4" "Laudate pueri"
     \addTocEntry
     \score {
       <<
@@ -146,7 +146,7 @@
     }
   }
   \bookpart {
-    \section "H.1.8·5" "Laudate Dominum"
+    \section "H.1.8 · 5" "Laudate Dominum"
     \addTocEntry
     \score {
       <<
@@ -181,7 +181,7 @@
     }
   }
   \bookpart {
-    \section "H.1.8·6" "Magnificat"
+    \section "H.1.8 · 6" "Magnificat"
     \addTocEntry
     \score {
       <<

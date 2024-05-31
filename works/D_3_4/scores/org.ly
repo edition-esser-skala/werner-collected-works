@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "D.3.4·1" "Omnes amici mei"
+    \section "D.3.4 · 1" "Omnes amici mei"
     \addTocEntry
     \score {
       <<
@@ -17,7 +17,7 @@
     }
   }
   \bookpart {
-    \section "D.3.4·2" "Velum templi scissum"
+    \section "D.3.4 · 2" "Velum templi scissum"
     \addTocEntry
     \score {
       <<
@@ -27,7 +27,7 @@
     }
   }
   \bookpart {
-    \section "D.3.4·3" "Vinea mea electa"
+    \section "D.3.4 · 3" "Vinea mea electa"
     \addTocEntry
     \paper { systems-per-page = #7 }
     \score {

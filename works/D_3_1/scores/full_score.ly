@@ -13,7 +13,7 @@
 
 \book {
   \bookpart {
-    \section "D.3.1·1" "Ecce quomodo moritur iustus"
+    \section "D.3.1 · 1" "Ecce quomodo moritur iustus"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -50,7 +50,7 @@
     }
   }
   \bookpart {
-    \section "D.3.1·2" "Sepulto Domino"
+    \section "D.3.1 · 2" "Sepulto Domino"
     \addTocEntry
     \score { %\articulate
       <<

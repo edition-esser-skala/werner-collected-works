@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "Z.5·1" "Prima statio"
+    \section "Z.5 · 1" "Prima statio"
     \addTocEntry
     \score {
       <<
@@ -16,7 +16,7 @@
     }
   }
   \bookpart {
-    \section "Z.5·2" "Secunda statio"
+    \section "Z.5 · 2" "Secunda statio"
     \addTocEntry
     \score {
       <<
@@ -25,7 +25,7 @@
     }
   }
   \bookpart {
-    \section "Z.5·3" "Tertia statio"
+    \section "Z.5 · 3" "Tertia statio"
     \addTocEntry
     \score {
       <<
@@ -34,7 +34,7 @@
     }
   }
   \bookpart {
-    \section "Z.5·4" "Quarta statio"
+    \section "Z.5 · 4" "Quarta statio"
     \addTocEntry
     \paper { systems-per-page = #7 }
     \score {

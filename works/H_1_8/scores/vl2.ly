@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "H.1.8·1" "Dixit Dominus"
+    \section "H.1.8 · 1" "Dixit Dominus"
     \addTocEntry
     \paper { systems-per-page = #4 }
     \score {
@@ -17,7 +17,7 @@
     }
   }
   \bookpart {
-    \section "H.1.8·2" "Confitebor"
+    \section "H.1.8 · 2" "Confitebor"
     \addTocEntry
     \paper { systems-per-page = #5 }
     \score {
@@ -27,7 +27,7 @@
     }
   }
   \bookpart {
-    \section "H.1.8·3" "Beatus vir"
+    \section "H.1.8 · 3" "Beatus vir"
     \addTocEntry
     \paper { systems-per-page = #5 }
     \score {
@@ -37,7 +37,7 @@
     }
   }
   \bookpart {
-    \section "H.1.8·4" "Laudate pueri"
+    \section "H.1.8 · 4" "Laudate pueri"
     \addTocEntry
     \paper { systems-per-page = #4 }
     \score {
@@ -47,7 +47,7 @@
     }
   }
   \bookpart {
-    \section "H.1.8·5" "Laudate Dominum"
+    \section "H.1.8 · 5" "Laudate Dominum"
     \addTocEntry
     \paper { systems-per-page = #2 }
     \score {
@@ -57,7 +57,7 @@
     }
   }
   \bookpart {
-    \section "H.1.8·6" "Magnificat"
+    \section "H.1.8 · 6" "Magnificat"
     \addTocEntry
     \paper { systems-per-page = #3 }
     \score {

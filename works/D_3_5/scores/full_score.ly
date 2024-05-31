@@ -18,7 +18,7 @@
 
 \book {
   \bookpart {
-    \section "D.3.5·1" "Offertorium ad 1mum Evangelium"
+    \section "D.3.5 · 1" "Offertorium ad 1mum Evangelium"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -75,7 +75,7 @@
     }
   }
   \bookpart {
-    \section "D.3.5·2" "Offertorium ad 2dum Evangelium"
+    \section "D.3.5 · 2" "Offertorium ad 2dum Evangelium"
     \addTocEntry
     \score { %\articulate
       <<
@@ -131,7 +131,7 @@
     }
   }
   \bookpart {
-    \section "D.3.5·3" "Offertorium ad 3tium Evangelium"
+    \section "D.3.5 · 3" "Offertorium ad 3tium Evangelium"
     \addTocEntry
     \score { %\articulate
       <<
@@ -187,7 +187,7 @@
     }
   }
   \bookpart {
-    \section "D.3.5·4" "Offertorium ad 4tum Evangelium"
+    \section "D.3.5 · 4" "Offertorium ad 4tum Evangelium"
     \addTocEntry
     \score { %\articulate
       <<

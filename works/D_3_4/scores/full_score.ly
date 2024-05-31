@@ -13,7 +13,7 @@
 
 \book {
   \bookpart {
-    \section "D.3.4·1" "Omnes amici mei"
+    \section "D.3.4 · 1" "Omnes amici mei"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -57,7 +57,7 @@
     }
   }
   \bookpart {
-    \section "D.3.4·2" "Velum templi scissum"
+    \section "D.3.4 · 2" "Velum templi scissum"
     \addTocEntry
     \score { %\articulate
       <<
@@ -100,7 +100,7 @@
     }
   }
   \bookpart {
-    \section "D.3.4·3" "Vinea mea electa"
+    \section "D.3.4 · 3" "Vinea mea electa"
     \addTocEntry
     \score { %\articulate
       <<
