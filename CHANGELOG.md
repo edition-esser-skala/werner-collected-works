@@ -1,5 +1,17 @@
 # Changelog
 
+## 2025.05.0 – 2024-05-31
+
+### Added
+
+- works: WerW C.5, D.1.7, D.3.4, D.5.4, D.5.7, E.38, and Z.17
+
+### Changed
+
+- work titles of WerW D.3.1, 3, 4, and 5
+- improved spacing between WerW and movement number in titles
+
+
 ## 2024.04.0 – 2024-04-30
 
 ### Added
