@@ -522,64 +522,6 @@ H-I-IX-cBassFigures = \figuremode {
   <5 \t> <\t 3>2. %104 finis
 }
 
-H-I-IX-fOrgano = {
-  \relative c {
-    \clef bass
-    \key d \major \time 4/4 \tempoH-I-IX-f
-    \mvTr d8\pE-\solo e fis d g, g' fis d
-    h h' a g fis e d cis
-    h h' fis e16 d g8 e fis h
-    g fis16 e a8 g fis4 d
-    cis a8 cis d d' fis, d %5
-    g4 e a g8 e
-    fis d cis a d cis h4
-    << { a'8[^\critnote fis] } \\ { a,4 } >> e' h' fis
-    e h' e,8 a e4
-    a,8 a' fis e16 d g!4 gis %10
-    a \mvTr fis8\fE-\tutti d cis a' fis d
-    g d a4 d \mvTr fis8\pE-\soloE d
-    cis a cis4 d fis8 d
-    g,4 r8 gis a4 r
-    \clef "treble_8" r8 a'-\aTre ais ais h e, fis4 %15
-    \clef bass g8 g, h d g,4 g'
-    dis4. h8 e4 cis~
-    cis h c4. h8
-    ais ais ais ais h4. a8
-    gis4 e' cis! a' %20
-    fis d8 fis g4 gis
-    a8.[ g16 fis8. e16] d8.[ cis16 h8. a16]
-    g4 gis a8 d a'4
-    d,4. cis8 h16 h' a g fis8 d
-    g h a g fis d cis a %25
-    h h'16 a gis fis e d cis8 d e e,
-    a \mvTr a'\fE-\tutti fis cis d d' g, h^\critnote
-    a a, r fis' g g r e
-    fis fis d h ais h16 d fis8 fis,
-    \mvTr h\pE-\solo h' ais fis h a g e %30
-    fis8. gis16 ais8 fis h g e g
-    a fis d d' cis d a a,
-    d d'16 c h8 a g fis16 e d8 c
-    h8. a16 g8 g' d4 e
-    h c8 a fis fis' g g, %35
-    d'4. d8 dis4 h
-    e cis! d \clef "treble_8" \mvTr d'8\pE-\aTre fis,
-    g4 e8 d \clef bass a'4. a8
-    fis4 h e, a
-    d,8 d cis d \tempoH-I-IX-fb a4 \clef "treble_8" \mvTr a'\fE-\tutti %40
-    a a8 a d fis, g a
-    \clef bass d,4 d d d8 d
-    a' cis, d e a, a' cis, d
-    a' a,16 h cis8 d h16 cis d8~ d cis
-    h h' a g fis g fis16 e d e %45
-    fis gis a8~ a g fis16 e d cis h8 cis
-    d4 r8 a' g fis16 e fis8 e16 d
-    cis8 fis h, e a,2~-\tasto
-    a1~
-    a2 d8 fis g a %50
-    d, d' g, a d,4 r\fermata \bar "|." %51 finis
-  }
-}
-
 H-I-IX-dOrgano = {
   \relative c {
     \clef bass
@@ -685,6 +627,64 @@ H-I-IX-dBassFigures = \figuremode {
   <7>4. <6>8 <7>4. <6>8
   <7>4 <4>8 <3> r2 %45
   r1 %46 finis
+}
+
+H-I-IX-fOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoH-I-IX-f
+    \mvTr d8\pE-\solo e fis d g, g' fis d
+    h h' a g fis e d cis
+    h h' fis e16 d g8 e fis h
+    g fis16 e a8 g fis4 d
+    cis a8 cis d d' fis, d %5
+    g4 e a g8 e
+    fis d cis a d cis h4
+    << { a'8[^\critnote fis] } \\ { a,4 } >> e' h' fis
+    e h' e,8 a e4
+    a,8 a' fis e16 d g!4 gis %10
+    a \mvTr fis8\fE-\tutti d cis a' fis d
+    g d a4 d \mvTr fis8\pE-\soloE d
+    cis a cis4 d fis8 d
+    g,4 r8 gis a4 r
+    \clef "treble_8" r8 a'-\aTre ais ais h e, fis4 %15
+    \clef bass g8 g, h d g,4 g'
+    dis4. h8 e4 cis~
+    cis h c4. h8
+    ais ais ais ais h4. a8
+    gis4 e' cis! a' %20
+    fis d8 fis g4 gis
+    a8.[ g16 fis8. e16] d8.[ cis16 h8. a16]
+    g4 gis a8 d a'4
+    d,4. cis8 h16 h' a g fis8 d
+    g h a g fis d cis a %25
+    h h'16 a gis fis e d cis8 d e e,
+    a \mvTr a'\fE-\tutti fis cis d d' g, h^\critnote
+    a a, r fis' g g r e
+    fis fis d h ais h16 d fis8 fis,
+    \mvTr h\pE-\solo h' ais fis h a g e %30
+    fis8. gis16 ais8 fis h g e g
+    a fis d d' cis d a a,
+    d d'16 c h8 a g fis16 e d8 c
+    h8. a16 g8 g' d4 e
+    h c8 a fis fis' g g, %35
+    d'4. d8 dis4 h
+    e cis! d \clef "treble_8" \mvTr d'8\pE-\aTre fis,
+    g4 e8 d \clef bass a'4. a8
+    fis4 h e, a
+    d,8 d cis d \tempoH-I-IX-fb a4 \clef "treble_8" \mvTr a'\fE-\tutti %40
+    a a8 a d fis, g a
+    \clef bass d,4 d d d8 d
+    a' cis, d e a, a' cis, d
+    a' a,16 h cis8 d h16 cis d8~ d cis
+    h h' a g fis g fis16 e d e %45
+    fis gis a8~ a g fis16 e d cis h8 cis
+    d4 r8 a' g fis16 e fis8 e16 d
+    cis8 fis h, e a,2~-\tasto
+    a1~
+    a2 d8 fis g a %50
+    d, d' g, a d,4 r\fermata \bar "|." %51 finis
+  }
 }
 
 H-I-IX-fBassFigures = \figuremode {
