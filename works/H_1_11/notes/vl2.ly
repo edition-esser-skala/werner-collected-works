@@ -93,3 +93,41 @@ H-I-XIbViolinoII = {
     e4 r r2\fermata \bar "|." %38 finis
   }
 }
+
+H-I-XIcViolinoII = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \tempoH-I-XIca
+    R1*9 %9
+    r2 a'4.\pE g16 a %10
+    fis8 fis g a h4. g8
+    cis4. a8 d4. h8
+    cis d4 cis8 d4 r
+    r2 r4 cis8\fE cis
+    d cis h h ais4 d8.^\critnote d16 %15
+    d8 d cis cis cis cis h h
+    h4 ais8 ais h h h ais
+    h4 r r2
+    R1*3 %21
+    r4 dis,8\pE dis e fis e4
+    dis r r2
+    R1
+    r2 r4 h'8\fE a %25
+    h a g g fis4 ais
+    fis8 fis d fis g fis4 e8
+    fis4 r8 fis g g g fis
+    g4. g8 g4 fis8 e
+    dis e4 dis8 e4 r %30
+    R1*3
+    r4 d8\pE d d d g8. g16
+    fis4. fis4 d'8 d cis16 h %35
+    cis4 r r2
+    \after 2 \tempoH-I-XIcb R1
+    r2 r8 fis,\fE g4
+    fis8 h4 a8 g h ais h
+    cis4 r8 h4 ais16 gis? \hA ais8 \hA gis %40
+    fis fis4 e8 d4. cis16 h
+    cis1
+    dis\fermata \bar "|."
+  }
+}

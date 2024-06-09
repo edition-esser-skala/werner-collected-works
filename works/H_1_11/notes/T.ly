@@ -174,3 +174,68 @@ H-I-XIbTenoreLyrics = \lyricmode {
   _ men, a --
   men. %38 finis
 }
+
+H-I-XIcTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key h \minor \time 4/4 \autoBeamOff \tempoH-I-XIca
+    R1*6 %6
+    r4 \mvTr h8\pE^\solo h ais h16 cis d8. d16
+    cis4. d8 h cis16 d e8. d16
+    cis4 d8 e d4( cis)\trill
+    d r r2 %10
+    R1*2
+    r2 r4 d8 cis
+    d cis h h16 h a8 a \mvTr ais\fE^\tutti ais
+    h cis d h16 h cis8 cis h8. h16 %15
+    h8 h a! a a a g g16 g
+    g4 fis fis8 g fis4
+    fis r r2
+    R1*5 %23
+    r8 \mvTr d'\pE^\solo d cis! d a16([ h)] c8 d16 c
+    h8 a a4\trill g \mvTr g8\fE^\tutti a %25
+    g a h g16 g a8 a ais ais
+    h ais h a g cis16^\critnote cis h4\trill
+    cis r8 dis e e16 e e8 d?
+    d8. d16 d8 d c?4 c8 c
+    fis, g16 a h8. h16 h4 r %30
+    R1*6 %36
+    r2 \tempoH-I-XIcb r8 \mvTr h(\fE^\tuttiE d4)
+    cis8 fis4( e d16[ cis)] h8 h_(
+    ais[ h)] cis4 r8 h( d4)
+    cis8 fis4 e8 d4 cis~ %40
+    cis8[ h ais gis] fis2
+    fis1
+    fis\fermata \bar "|." %43 finis
+  }
+}
+
+H-I-XIcTenoreLyrics = \lyricmode {
+  Quid re -- tri -- bu -- am Do -- mi -- %7
+  no pro o -- mni -- bus quae re --
+  tri -- bu -- it mi --
+  hi? %10
+
+  Vo -- ta %13
+  me -- a Do -- mi -- no red -- dam co -- ram
+  o -- mni po -- pu -- lo e -- ius. Pre -- ti -- %15
+  o -- sa in con -- spe -- ctu Do -- mi -- ni
+  mors san -- cto -- rum e --
+  ius.
+
+  et no -- men, no -- men Do -- mi -- ni %24
+  in -- vo -- ca -- bo. Vo -- ta %25
+  me -- a Do -- mi -- no red -- dam in con --
+  spe -- ctu o -- mnis po -- pu -- li e --
+  ius, in a -- tri -- is do -- mus
+  Do -- mi -- ni, in me -- di -- o
+  tu -- i, Ie -- ru -- sa -- lem. %30
+
+  a -- %37
+  men, a -- men, a --
+  men, a --
+  men, a -- men, a -- _ %40
+  men,
+  a --
+  men. %43 finis
+}

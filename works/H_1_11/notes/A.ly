@@ -177,3 +177,78 @@ H-I-XIbAltoLyrics = \lyricmode {
   _ _ men, a --
   men. %38 finis
 }
+
+H-I-XIcAlto = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \autoBeamOff \tempoH-I-XIca
+    R1*4
+    \mvTr a'4.\pE^\solo g8 fis g16([ a)] h8 g %5
+    a h g4\trill fis h8 a
+    g fis fis([ e)] fis4 r
+    R1*5 %12
+    r2 r4 fis8 e
+    fis e d d16 d cis8 cis \mvTr fis\fE^\tuttiE fis
+    fis fis fis fis16 e fis8 fis fis8. fis16 %15
+    g8 g g g fis fis fis fis16 fis
+    e4. e8 d e d([ cis)]
+    d \mvTr h'\pE^\solo a!8. g16 fis4 a8 fis
+    h a g fis fis4\trillE e
+    a8 g fis e dis4 e8 fis %20
+    g a16([ g)] fis8 e dis4 h'8 a
+    g fis fis4\trill e r
+    R1*2
+    r4 \mvTr d8\fE^\tuttiE d d2 %25
+    d4 g8 g16 g fis8 fis fis fis
+    fis fis d fis g fis16 fis fis8([ e)]
+    fis4 r8 fis g g16 g g8 fis^\critnote
+    g8. g16 g8 g e4 fis8 e
+    dis e16 e e8 dis e4 \mvTr e~\pE^\solo %30
+    e8[ fis16 g] fis8 e dis4 e8 fis
+    g4. g8 fis4 g8 fis
+    e8. e16 a8 g fis4 g8 e
+    fis2\trill g4 r
+    R1*3 %37
+    r2 r8 \mvTr fis(\fE^\tuttiE g4)
+    fis8 h4_( a8 g[ h ais h])
+    cis4 r8 h4_( ais16[ gis] \hA ais8[ \hA gis)] %40
+    fis fis4 e8 d4. cis16[ h]
+    cis1
+    dis\fermata \bar "|." %43 finis
+  }
+}
+
+H-I-XIcAltoLyrics = \lyricmode {
+  E -- go di -- xi in ex -- %5
+  ces -- su me -- o: O -- mnis
+  ho -- mo men -- dax.
+
+  Vo -- ta %13
+  me -- a Do -- mi -- no red -- dam co -- ram
+  o -- mni po -- pu -- lo e -- ius. Pre -- ti -- %15
+  o -- sa in con -- spe -- ctu Do -- mi -- ni
+  mors san -- cto -- rum e --
+  ius. O Do -- mi -- ne, qui -- a
+  e -- go ser -- vus tu -- us:
+  e -- go ser -- vus tu -- us, et %20
+  fi -- li -- us an -- cil -- lae, an --
+  cil -- lae tu -- ae.
+
+  Vo -- ta me -- %25
+  a Do -- mi -- no red -- dam in con --
+  spe -- ctu o -- mnis po -- pu -- li e --
+  ius, in a -- tri -- is do -- mus
+  Do -- mi -- ni, in me -- di -- o
+  tu -- i, Ie -- ru -- sa -- lem. Glo -- %30
+  ri -- a Pa -- tri et
+  Fi -- li -- o et Spi --
+  ri -- tu -- i, Spi -- ri -- tu -- i
+  San -- cto,
+
+  a -- %38
+  men, a --
+  men, a -- %40
+  men, a -- _ _ _
+  _
+  men. %43 finis
+}

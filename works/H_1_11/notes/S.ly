@@ -194,3 +194,75 @@ H-I-XIbSopranoLyrics = \lyricmode {
   _ _ _ men, a --
   men. %38 finis
 }
+
+H-I-XIcSoprano = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 4/4 \autoBeamOff \tempoH-I-XIca
+    \mvTr h'4.\pE^\solo cis16 d cis8 d e d16([ cis)]
+    d8 cis h4 r e8 d
+    cis4 cis r8 a d cis
+    h4 e8 d cis a d e16 h
+    cis2\trill d4 r %5
+    R1*7 %12
+    r4 a8 a a2~
+    a8 a a gis16 gis a8 a \mvTr cis\fE^\tuttiE cis
+    d cis h h16 h ais8 ais d8. d16 %15
+    d8 d cis cis cis cis h h16 h
+    h4 ais8 ais h h h([ ais)]
+    h4 r r2
+    R1*4 %22
+    r8 \mvTr fis\pE^\solo h a g a16([ h)] c8 a
+    h a16 h g4\trill fis r
+    r2 r4 \mvTr h8\fE^\tutti a %25
+    h d d cis!16 cis d8 d cis cis
+    d cis h h h ais16 ais h4
+    ais r8 h h h16 h c8 a
+    h8. h16 h8 h h4 a8 a
+    a g16 g fis8. fis16 e4 r %30
+    R1*4
+    r2 r4 \mvTr h'8\pE^\solo h %35
+    ais8. h16 cis8 cis([ fis,)] gis16([ ais)] h4~
+    h8 cis h([ ais)] \tempoH-I-XIcb h4 r
+    r2 r4 r8 \mvTr h(\fE^\tutti
+    d4) cis8 fis4( e8[ fis]) d
+    e([ cis)] h4 r8 fis'4 e8 %40
+    d4 cis4. h16[ ais] h4~
+    h ais8[ gis] ais2\trill
+    h1\fermata \bar "|." %43 finis
+  }
+}
+
+H-I-XIcSopranoLyrics = \lyricmode {
+  Cre -- di -- di, pro -- pter quod lo --
+  cu -- tus sum, e -- go
+  au -- tem hu -- mi -- li --
+  a -- tus, hu -- mi -- li -- a -- tus sum
+  ni -- mis. %5
+
+  Vo -- ta me -- %13
+  a Do -- mi -- no red -- dam co -- ram
+  o -- mni po -- pu -- lo e -- ius. Pre -- ti -- %15
+  o -- sa in con -- spe -- ctu Do -- mi -- ni
+  mors, mors san -- cto -- rum e --
+  ius.
+
+  Ti -- bi sa -- cri -- fi -- ca -- bo %23
+  ho -- sti -- am lau -- dis.
+  Vo -- ta %25
+  me -- a Do -- mi -- no red -- dam in con --
+  spe -- ctu o -- mnis po -- pu -- li e --
+  ius, in a -- tri -- is do -- mus
+  Do -- mi -- ni, in me -- di -- o
+  tu -- i, Ie -- ru -- sa -- lem. %30
+
+  et in %35
+  sae -- cu -- la sae -- cu -- lo --
+  rum, a -- men,
+  a --
+  men, a -- men,
+  a -- men, a -- _ %40
+  _ _ _ _
+  _ _
+  men. %43 finis
+}

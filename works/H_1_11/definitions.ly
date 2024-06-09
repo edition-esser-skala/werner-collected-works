@@ -1,9 +1,11 @@
 \version "2.24.0"
 
 tempoH-I-XIaa = \tempoMarkup "Andante"
-tempoH-I-XIab = \tempoMarkup "Allegro"
+  tempoH-I-XIab = \tempoMarkup "Allegro"
 tempoH-I-XIba = \tempoMarkup "Andante"
-tempoH-I-XIbb = \tempoMarkup "Allegro"
+  tempoH-I-XIbb = \tempoMarkup "Allegro"
+tempoH-I-XIca = \tempoMarkup "Andante"
+  tempoH-I-XIcb = \tempoMarkup "Vivace"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
