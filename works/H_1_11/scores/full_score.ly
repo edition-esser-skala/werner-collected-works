@@ -130,10 +130,66 @@
   %     \midi { \tempo 4 = 75 } % 90
   %   }
   % }
+  % \bookpart {
+  %   \section "3" "Credidi"
+  %   \addTocEntry
+  %   \paper { page-count = #5 }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \H-I-XIcViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \H-I-XIcViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \H-I-XIcSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \H-I-XIcSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \H-I-XIcAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \H-I-XIcAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \H-I-XIcTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \H-I-XIcTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \H-I-XIcBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \H-I-XIcBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \H-I-XIcOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \H-I-XIcBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 75 } % 90
+  %   }
+  % }
   \bookpart {
-    \section "3" "Credidi"
+    \section "4" "In convertendo"
     \addTocEntry
-    \paper { page-count = #5 }
     \score { %\articulate
       <<
         \new StaffGroup <<
@@ -141,50 +197,50 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \H-I-XIcViolinoI
+              \H-I-XIdViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \H-I-XIcViolinoII
+              \H-I-XIdViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \H-I-XIcSoprano }
+            \new Voice = "Soprano" { \dynamicUp \H-I-XIdSoprano }
           }
-          \new Lyrics \lyricsto Soprano \H-I-XIcSopranoLyrics
+          \new Lyrics \lyricsto Soprano \H-I-XIdSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \H-I-XIcAlto }
+            \new Voice = "Alto" { \dynamicUp \H-I-XIdAlto }
           }
-          \new Lyrics \lyricsto Alto \H-I-XIcAltoLyrics
+          \new Lyrics \lyricsto Alto \H-I-XIdAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \H-I-XIcTenore }
+            \new Voice = "Tenore" { \dynamicUp \H-I-XIdTenore }
           }
-          \new Lyrics \lyricsto Tenore \H-I-XIcTenoreLyrics
+          \new Lyrics \lyricsto Tenore \H-I-XIdTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \H-I-XIcBasso }
+            \new Voice = "Basso" { \dynamicUp \H-I-XIdBasso }
           }
-          \new Lyrics \lyricsto Basso \H-I-XIcBassoLyrics
+          \new Lyrics \lyricsto Basso \H-I-XIdBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \H-I-XIcOrgano
+            \H-I-XIdOrgano
           }
         >>
-        \new FiguredBass { \H-I-XIcBassFigures }
+        \new FiguredBass { \H-I-XIdBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 75 } % 90
+      \midi { \tempo 4 = 75 }
     }
   }
 }

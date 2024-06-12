@@ -252,3 +252,76 @@ H-I-XIcAltoLyrics = \lyricmode {
   _
   men. %43 finis
 }
+
+H-I-XIdAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoH-I-XId
+    R1*9 %9
+    r2 r8 \mvTr g'\pE^\solo fis e %10
+    d e16([ fis)] g8. g16 fis4 a8. e16
+    fis8 e d4 cis e8 fis
+    g!([ fis16 g)] a8 g fis16[ d e fis] e[ a g a]
+    fis[ d e fis] e[ a g a] fis8[ e16 d] e4\trill
+    d r r2 %15
+    r \mvTr fis8\fE^\tutti fis h4
+    g8 g fis4 fis8 \mvTr d16([\pE^\solo e)] fis4~
+    fis8 e16([ d)] e8 d d8.\trill cis16 cis4
+    R1
+    r2 r8 a' a g %20
+    fis4 h8 a g4 fis
+    r8 e fis g a([ fis)] g e
+    fis2\trill e4 \mvTr g8.\fE^\tutti g16
+    a8 a a a g8. g16 g8 a
+    g a g g g fis r fis %25
+    h4. a16 h g8 a16 a g8([ fis)]
+    g4 h2 h8 h
+    a4 a r8 h g8. g16
+    fis4 fis8 fis g8. g16 g8 g
+    fis fis16 fis fis4 fis fis8 fis %30
+    h h a a a8. a16 g8 a
+    g a g4 fis r
+    r fis8 fis h8. h16 h4
+    r g8 g e4 e
+    r cis'8 cis h h h4 %35
+    a2 g~
+    g8 fis e4 fis r
+    g8[ fis] e4 fis8[ e] d[ e16 fis]
+    g2~ g8 fis e4
+    fis e fis r\fermata \bar "|." %40 finis
+  }
+}
+
+H-I-XIdAltoLyrics = \lyricmode {
+  Ma -- gni -- fi -- %10
+  ca -- vit Do -- mi -- nus fa -- ce --
+  re no -- bis -- cum, fa -- cti
+  su -- mus lae -- tan -- _
+  _ _ _ _
+  tes. %15
+  si -- cut tor --
+  rens in au -- stro. Qui se --
+  mi -- nant in la -- chry -- mis,
+
+  E -- un -- tes %20
+  i -- bant et fle -- bant,
+  mit -- ten -- tes se -- mi -- na
+  su -- a. Ve -- ni -- %23
+  en -- tes au -- tem ve -- ni -- ent cum
+  ex -- ul -- ta -- ti -- o -- ne, por -- %25
+  tan -- tes ma -- ni -- pu -- los su --
+  os. Glo -- ri -- a
+  Pa -- tri et Fi -- li --
+  o et Spi -- ri -- tu -- i, Spi --
+  ri -- tu -- i San -- cto, si -- cut %30
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per
+  et in sae -- cu -- la
+  sae -- cu -- lo -- rum,
+  sae -- cu -- lo -- rum, a -- %35
+  men, a --
+  men, a -- men,
+  a -- _ _ _
+  _ men, a --
+  men, a -- men. %40 finis
+}

@@ -6,6 +6,7 @@ tempoH-I-XIba = \tempoMarkup "Andante"
   tempoH-I-XIbb = \tempoMarkup "Allegro"
 tempoH-I-XIca = \tempoMarkup "Andante"
   tempoH-I-XIcb = \tempoMarkup "Vivace"
+tempoH-I-XId = \tempoMarkup "Andante"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

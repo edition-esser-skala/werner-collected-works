@@ -19,6 +19,8 @@ toe: |
   3 & 15 & vl 2 & 4th \quarterNote\ in \B1: d″8–d″8 \\
     & 27 & T & 11th \sixteenthNote\ in \B1: d′16 \\
     & 28 & A    & last \eighthNote\ in \B1: g′8 \\
+  4 & 26 & vl 1 & 4th \quarterNote\ in \B1: b′8–a′8 \\
+    & 35 & vl 1 & 2nd \quarterNote\ in \B1: \sharp f″8.–e″16 \\
 extra_abbreviations:
   vlne:
 lyrics:

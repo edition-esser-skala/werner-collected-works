@@ -266,3 +266,66 @@ H-I-XIcSopranoLyrics = \lyricmode {
   _ _
   men. %43 finis
 }
+
+H-I-XIdSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoH-I-XId
+    R1*7 %7
+    r4 r8 \mvTr e'\pE^\solo cis cis fis e
+    d([ cis)] h d cis e16([ d)] cis8 h
+    ais16 gis? fis8 fis'8. e16 d8 cis cis4\trill %10
+    h r r2
+    R1*4 %15
+    \mvTr cis8\fE^\tutti cis fis4 d2
+    r8 e d([ cis)] h4 r
+    R1*5 %22
+    r2 r4 \mvTr h8.\fE^\tuttiE h16
+    c8 c c c h8. h16 h8 d
+    h a h cis d d16 a d4~ %25
+    d8 c16 d h4. c16 c a4
+    h d2 e8 d
+    cis!4 d r8 d d cis
+    d4 d8 d d8. d16 cis8 h
+    ais h16 h h8([ ais)] h4 d8 d %30
+    d d cis cis d8. cis16 h8 a
+    h d d([ cis)] d4 a8 a
+    d8. d16 d4 r h8 h
+    e4 e r cis8 cis
+    fis4 fis8([ e)] d4 e8[ d]
+    cis4 d8[ cis] h4 cis8[ d]
+    e d4( cis8) d4 r
+    e8[ d] cis4 d8[ cis] h4~
+    h cis8[ d] e d d([ cis)]
+    d4 cis d r\fermata \bar "|."
+  }
+}
+
+H-I-XIdSopranoLyrics = \lyricmode {
+  Tunc di -- cent in -- ter %8
+  gen -- tes: Ma -- gni -- fi -- ca -- vit
+  Do -- mi -- nus fa -- ce -- re cum e -- %10
+  is.
+
+  si -- cut tor -- rens %16
+  in au -- stro.
+
+  Ve -- ni -- %23
+  en -- tes au -- tem ve -- ni -- ent cum
+  ex -- ul -- ta -- ti -- o -- ne, por -- tan -- %25
+  tes ma -- ni -- pu -- los su --
+  os. Glo -- ri -- a
+  Pa -- tri et Fi -- li --
+  o et Spi -- ri -- tu -- i, Spi --
+  ri -- tu -- i San -- cto, si -- cut %30
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per et in
+  sae -- cu -- la sae -- cu --
+  lo -- rum, sae -- cu --
+  lo -- rum, a -- _ %35
+  _ _ _ _
+  men, a -- men,
+  a -- _ _ _
+  _ _ men, a --
+  men, a -- men. %40 finis
+}

@@ -251,3 +251,76 @@ H-I-XIcBassoLyrics = \lyricmode {
 
   men. %43 finis
 }
+
+H-I-XIdBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \autoBeamOff \tempoH-I-XId
+    R1*3
+    r2 r4 \mvTr e8\pE^\solo e
+    a([ cis16 h)] a8 gis a8. gis16 fis8 fis %5
+    e e r gis a gis16([ a)] h8 a
+    gis fis16[ gis] a8[ gis16 a] fis8[ e16 fis] gis8[ fis16 gis]
+    a8 d, e4 a, r
+    R1*7 %15
+    r4 \mvTr fis'8\fE^\tuttiE fis h4 g~
+    g8 e fis4 h, r
+    r2 r4 r8 \mvTr fis'\pE^\solo
+    h a! g16[ e fis g] a8[ g] fis16[ d e fis]
+    g8[ fis] e fis16([ g)] a8 d, a4 %20
+    d r r2
+    R1
+    r2 r4 \mvTr e8.\fE^\tuttiE e16
+    a8 a fis fis g8. g16 g8 fis
+    g fis g e d d r d %25
+    g4. fis16 g e8 c16 c d4
+    g, g'2 g8 g
+    g4 fis r8 g e8. e16
+    d4 h8 h e8. e16 e8 e
+    fis h,16 h fis4 h h'8 h %30
+    g g a a fis fis g fis
+    g fis e4 d r
+    r d8 d g8. g16 g4
+    r e8 e a4 a
+    r fis8 fis h a g4 %35
+    a8[ g] fis4 g8[ fis e d]
+    cis d a4 d h'8[ a]
+    g4 a8[ g] fis4 g8[ fis]
+    e[ g16 fis] e8[ d] cis d a4
+    d a d r\fermata \bar "|." %40 finis
+  }
+}
+
+H-I-XIdBassoLyrics = \lyricmode {
+  Tunc re -- %4
+  ple -- tum est gau -- di -- o os %5
+  no -- strum, et lin -- gua no -- stra
+  ex -- ul -- ta -- _ _
+  _ ti -- o -- ne.
+
+  si -- cut tor -- rens __ %16
+  in au -- stro.
+  in
+  ex -- ul -- ta -- _ _
+  _ _ ti -- o -- ne me -- %2
+  tent.
+
+  Ve -- ni -- %23
+  en -- tes au -- tem ve -- ni -- ent cum
+  ex -- ul -- ta -- ti -- o -- ne, por -- %25
+  tan -- tes ma -- ni -- pu -- los su --
+  os. Glo -- ri -- a
+  Pa -- tri et Fi -- li --
+  o et Spi -- ri -- tu -- i, Spi --
+  ri -- tu -- i San -- cto, si -- cut %30
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per
+  et in sae -- cu -- la
+  sae -- cu -- lo -- rum,
+  sae -- cu -- lo -- rum, a -- %35
+  _ _ _
+  _ men, a -- men, a --
+  _ _ _ _
+  _ _ _ men, a --
+  men, a -- men. %40 finis
+}

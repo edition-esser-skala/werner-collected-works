@@ -300,3 +300,93 @@ H-I-XIcBassFigures = \figuremode {
   <5 4> \bassFigureExtendersOn <5 _+>8 <5 2\+> <5 _+>2 \bassFigureExtendersOff
   r1 %43 finis
 }
+
+H-I-XIdOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoH-I-XId
+    \mvTr d4\pE-\solo fis8 e d4 g8 gis
+    a4. fis8 g fis e4
+    d8 cis h a gis4 gis'
+    a8 gis fis e d4 e
+    a, a'8 gis a gis fis4 %5
+    e8 e gis e a4 h
+    gis a fis gis
+    a8 d, e4 a, ais
+    h d e4. eis8
+    fis4 ais h8 e, fis fis, %10
+    h4. cis8 d4 cis
+    d8 a'! fis gis a a, cis a
+    h4 cis d8 d' cis a
+    d, d' cis a d, g a a,
+    d4 fis g e %15
+    \mvTr fis4.\fE-\tutti fis8 h4 g~
+    g8 e fis4 h, r8 \mvTr h'\pE-\solo
+    h,4 e8 eis fis4. fis8
+    h a! g16 e fis g a8 g fis16 d e fis
+    g8 fis e fis16 g a8 d, a4 %20
+    d dis e8 ais, h a
+    g4 fis'8 e dis4 e8 a
+    h a h h, e4 \mvTr e\fE-\tutti
+    a fis g4. fis8
+    g fis g e d4 r8 d %25
+    g4. fis16 g e8 c d4
+    g, g'2 g4
+    g fis r8 g e4
+    d h e2
+    fis8 h, fis4 h h' %30
+    g a fis g8 fis
+    g fis e4 d r
+    r d g g
+    r e a a
+    r fis h8 a g4 %35
+    a8 g fis4 g8 fis e d
+    cis d a4 d h'8 a
+    g4 a8 g fis4 g8 fis
+    e g16 fis e8 d cis d a4
+    d a d, r\fermata \bar "|." %40 finis
+  }
+}
+
+H-I-XIdBassFigures = \figuremode {
+  r2. <6>8 <5>
+  r4. \bo <[6]>4 \bc q8 <7> <6>
+  r4 <6\\> <[6 5]>2
+  r <6 5>4 \bo <[4]>8 <_+>
+  r4. <6>4 \bc <[6]>8 <7> <6\\> %5
+  <_+>2 <6 5>
+  q q
+  r8 <[6 5]> <4> <_+>4. <6>4
+  r2 <7>4 <6>8 <5>
+  <_+>2 r8 <[6]> <4> <_+> %10
+  \bo <[5]>4 <6>8 <\t>4. <6>4
+  r4 \bc <[6]>8 <6 5>2 <[6]>8
+  <6[!]>4 <6 5>2 \bo <[6]>4
+  r \bc q2 <4>8 <3>
+  r2. <6>4 %15
+  <[4]>8 <_+>2..
+  r4 \bo <[6 4]>8 \bc <[5 _+]> r2
+  r4 \bo <[8 6 _]>8 <7 5 _+> <6 4>4 \bc <[5 _+ _]>
+  r <[6]>2 <6 5>4
+  r2. <4>8 <3> %20
+  r4 <6>8 <5>4 <7>8 <_+>4
+  <6>4 <6\\> <6 5>2
+  <4>4 <_+>2.
+  <_!>4 <6 5[!]> r4. \bo <[6]>8
+  r \bc q4 <6\\>8 \bo <[4]> \bc <[3]>4. %25
+  r2 r8 <[6]> <4> <3>
+  r4 <3>2 <6>8 <5>
+  <[4\+] 2>4 <6>2 <7>8 <6>
+  r2 <7>4 <6>8 <5>
+  <_+>4 <4>8 <_+> r2 %30
+  <6 5>2 \bo <[6]>4. <6>8
+  r \bc <[6]> <7> <6> r2
+  r1
+  r
+  r2. <6>8 <5> %35
+  r4 <6>8 <5> r2
+  <6 5>4 <4>8 <3> r2
+  \bo <[8] 6>8 \bc <[7] 5>4. \bo <[8 6]>8 \bc <[7 5]>4.
+  r4 <6>8 \bo <[6 4]> \bc <[6 5]>4 <4>8 <3>
+  r1 %40 finis
+}

@@ -239,3 +239,73 @@ H-I-XIcTenoreLyrics = \lyricmode {
   a --
   men. %43 finis
 }
+
+H-I-XIdTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoH-I-XId
+    r8 \mvTr a\pE^\solo d4. e16([ fis)] e8 d
+    cis8. h16 a8 d h a g a16([ g)]
+    fis([ e)] d8 d'4. cis16([ d)] e8 d
+    cis h a4. h8 h4
+    a r r2 %5
+    R1*8 %13
+    r2 r8 d d cis
+    d8. a16 d8 cis h cis16([ d)] cis8 h %15
+    h ais \mvTr ais\fE^\tutti ais d4 h~
+    h8 h h([ ais)] h \mvTr h16([\pE^\solo cis)] d4~
+    d8 cis16([ h)] cis8 h h8. ais16 ais4
+    R1*4 %22
+    r2 r4 \mvTr e'8.\fE^\tutti e16
+    e8 e d4. d8 d d
+    d d d g, a a r d %25
+    d4. d16 d e8 e16 e d4
+    d h2 h8 h
+    e4 d r8 d e8. e16
+    a,4 h8 h h h16 h cis8 cis
+    cis d16 d cis4 d d8 d %30
+    e e e e d8. d16 d8 d
+    d d e4 a, r
+    r d8 d d8. d16 d4
+    r h8 h cis4 cis
+    r a8 a d d e4~ %35
+    e d2 e4
+    a,8 a a4 a d8[ cis]
+    h4 cis8[ h] a4 h8[ a]
+    g4. h8 a a a4
+    a a a r\fermata \bar "|." %40 finis
+  }
+}
+
+H-I-XIdTenoreLyrics = \lyricmode {
+  In con -- ver -- ten -- do
+  Do -- mi -- nus ca -- pti -- vi -- ta -- tem
+  Si -- on, fa -- cti su -- mus
+  si -- cut con -- so -- la --
+  ti. %5
+
+  Con -- ver -- te, %14
+  Do -- mi -- ne, ca -- pti -- vi -- ta -- tem %15
+  no -- stram, si -- cut tor -- rens __
+  in au -- stro. Qui se --
+  mi -- nant in la -- chry -- mis,
+
+  Ve -- ni -- %23
+  en -- tes ve -- ni -- ent cum
+  ex -- ul -- ta -- ti -- o -- ne, por -- %25
+  tan -- tes ma -- ni -- pu -- los su --
+  os. Glo -- ri -- a
+  Pa -- tri et Fi -- li --
+  o et Spi -- ri -- tu -- i, et Spi --
+  ri -- tu -- i San -- cto, si -- cut %30
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per
+  et in sae -- cu -- la
+  sae -- cu -- lo -- rum,
+  sae -- cu -- lo -- rum, a -- %35
+  _ men,
+  a -- men, a -- men, a --
+  _ _ _ _
+  _ men, a -- men, a --
+  men, a -- men. %40 finis
+}
