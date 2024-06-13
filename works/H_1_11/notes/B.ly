@@ -324,3 +324,162 @@ H-I-XIdBassoLyrics = \lyricmode {
   _ _ _ men, a --
   men, a -- men. %40 finis
 }
+
+H-I-XIeBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \autoBeamOff \tempoH-I-XIea
+    \mvTr g'8.\fE^\tutti a16 h8 g a fis
+    g g16([ a)] h8 g a d,^\critnote
+    g4 r8 g g g
+    g fis g8. fis16 e8 d
+    d([ cis)] d d16([ e)] fis8 d %5
+    g16([ fis)] e([ d)] cis8 d a4
+    d r r
+    R2.*7 %14
+    r4 r \mvTr fis8\pE^\solo fis %15
+    h8. a!16 g8 g a8. g16
+    fis8 fis g e16 d cis8 d
+    a4 d r
+    R2.*2 %20
+    r8 fis h h16 a! g8 g16 g
+    fis8 fis r4 r
+    R2.
+    \mvTr d8\fE^\tuttiE cis d16 d fis d a'8 a16 a
+    h8. h16 a4 r %25
+    a8 g fis16 e32 e fis16 d g8 fis
+    e4 d r
+    r r r8 \mvTr fis\pE^\soloE
+    h8. a!16 gis8 fis16 gis a8 fis
+    cis d e4 a, %30
+    R2.*2
+    r8 e' fis fis gis a
+    a gis16 gis a a a gis fis8 gis16 fis
+    fis8([ eis)] fis \mvTr fis16\fE^\tutti fis h8 fis16 fis %35
+    h8 ais h a g! g16 g
+    fis8 dis e h'16 a g8 g16 fis
+    e8 d c8. c16 h4
+    g8 h d c16 h a8 a
+    e' d16 c h8 c d4 %40
+    g, r r
+    R2.*2
+    r4 \mvTr g'8.\fE^\tutti g16 c8 a
+    h h r4 e,8 e %45
+    a8. g16 fis8. fis16 g8 fis
+    e d c8. c16 h4
+    h'8 h h h16 h a8 a16 a
+    a4 g8 g a a16 a
+    fis4 g8 e h c %50
+    d4 g, r
+    R2.*3
+    \mvTr fis'8\pE^\solo fis h g! a! g16 a %55
+    fis8 fis g fis16 g e4
+    d8 d16 d e8 e fis fis
+    g fis16 fis g4 fis
+    R2.*2 %60
+    r4 r h,8 h16 h
+    e8 fis g g16 g h,8 h16 h
+    e8 e16 e h8 c16 c d4
+    g, g'8. fis16 e e e e
+    fis8 h, fis4 h %65
+    R2.*6 %71
+    r4 \mvTr e8\fE^\tutti e a g!
+    f e16 e d8. d16 c4
+    f8. f16 e8 e a16 a f g
+    e8 c f e16([ f)] g4 %75
+    c, r r
+    R2.*7 %83
+    \mvTr d8\pE^\soloE d16 d g8 fis16 fis e8. e16
+    d4 r e8. e16 %85
+    a8 a h h c8. c16
+    h4 r r
+    R2. \noBreak
+    r4 r r8 \mvTr d,(\fE^\tutti
+    \time 4/4 \tempoH-I-XIeb
+      e g4) fis8 g4.( fis8 \noBreak %90
+    e4) d r2
+    r4 r8 g( a c4) h8
+    c([ h] a4) g8 g,([ c cis)]
+    d2 d~
+    d g,^\critnote %95
+    g2. g4
+    c2 g\fermata \bar "|." %97 finis
+  }
+}
+
+H-I-XIeBassoLyrics = \lyricmode {
+  Do -- mi -- ne, pro -- ba -- sti
+  me, et co -- gno -- vi -- sti
+  me, tu co -- gno --
+  vi -- sti ses -- si -- o -- nem
+  me -- am et re -- sur -- %5
+  re -- cti -- o -- nem me --
+  am.
+
+  Tu for -- %15
+  ma -- sti me, et po -- su --
+  i -- sti su -- per me ma -- num
+  tu -- am.
+
+  Quo i -- bo a spi -- ri -- tu %21
+  tu -- o?
+
+  Si a -- scen -- de -- ro in coe -- lum, tu
+  il -- lic es, %25
+  si de -- scen -- de -- ro in in -- fer -- num,
+  ad -- es.
+  et
+  ha -- bi -- ta -- ve -- ro in ex --
+  tre -- mis \xE ma -- ris, \x %30
+
+  et nox il -- lu -- mi -- %33
+  na -- ti -- o me -- a in de -- li -- ci -- is
+  me -- is. Qui -- a te -- ne -- brae %35
+  non ob -- scu -- ra -- bun -- tur a
+  te, et nox si -- cut di -- es il --
+  lu -- mi -- na -- bi -- tur,
+  si -- cut te -- ne -- brae e -- ius,
+  i -- ta et lu -- men e -- %40
+  ius.
+
+  Con -- fi -- te -- bor %44
+  ti -- bi qui -- a %45
+  ter -- ri -- bi -- li -- ter ma --
+  gni -- fi -- ca -- tus es,
+  mi -- ra -- bi -- li -- a o -- pe -- ra
+  tu -- a, et a -- ni -- ma
+  me -- a co -- gno -- scit %50
+  ni -- mis.
+
+  Im -- per -- fe -- ctum me -- um vi -- %55
+  de -- runt o -- cu -- li tu --
+  i, et in li -- bro tu -- o
+  o -- mnes scri -- ben -- tur.
+
+  Di -- nu -- me -- %61
+  ra -- bo e -- os, et su -- per a --
+  re -- nam mul -- ti -- pli -- ca -- bun --
+  tur. Ex -- ur -- re -- xi, et ad --
+  huc sum te -- cum. %65
+
+  Non -- ne qui o -- %72
+  de -- runt te, Do -- mi -- ne,
+  o -- de -- ram, et su -- per in -- i --
+  mi -- cos ta -- be -- sce -- %75
+  bam?
+
+  Glo -- ri -- a Pa -- tri et Fi -- li -- %84
+  o si -- cut %85
+  e -- rat in prin -- ci -- pi --
+  o
+
+  a --
+  men, a -- %90
+  men,
+  a -- men,
+  a -- men, a --
+  men, a --
+  men, %95
+  a -- men,
+  a -- men. %97 finis
+}

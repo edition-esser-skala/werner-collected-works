@@ -170,3 +170,80 @@ H-I-XIdViolinoI = {
     d4 cis d r\fermata \bar "|." %40 finis
   }
 }
+
+H-I-XIeViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoH-I-XIea
+    g''8.\fE g16 g8 g e a
+    g8. g16 g8 g e fis
+    g4 r8 h h h
+    a a h8. a16 g8 g
+    g4 fis8 fis16 g a8 fis %5
+    h16 a g g g8 fis e4
+    fis r r
+    R2.*8 %15
+    h,8\pE h e8. d16 cis8 a
+    d8. cis16 h8 cis16 d e8 d
+    d cis d4 r
+    R2.*2 %20
+    r8 fis4 fis8 fis^\critnote e
+    fis4 r r
+    R2.
+    fis8\fE e fis16 fis a a a8 a~
+    a gis a4 e8 d %25
+    cis16 h cis a d8 d d4~
+    d8 cis d4 r
+    r r r8 cis\pE
+    d d4 d8 cis cis
+    cis h h4\trill a %30
+    R2.*4
+    r4 r8 fis'16\fE fis fis8 fis %35
+    fis4. fis8 fis e
+    fis fis g fis g h16 a
+    g8 fis e4 dis
+    d8 h a a16 h c8 c
+    h h16 c d8 c h a %40
+    h4 r r
+    R2.*2
+    r4 h8.\fE h16 e8 fis
+    dis4 r g,8 g %45
+    c8. h16 a8. a16 h8 d
+    c h4 a8 h4
+    h c8 c c c
+    h4^\critnote h8 h c c
+    c4 h8 h h a %50
+    a4 h r
+    R2.*3
+    cis8\pE cis d e cis cis16 cis %55
+    d8 d d4. cis8
+    d fis e16 d cis h ais4
+    h8 ais h4 ais
+    R2.*2 %60
+    r4 r fis'8 fis
+    g fis16 e d8 d g g
+    g g4 g8 g fis
+    g4 h8. a16 g8 g
+    fis e16 d cis4 h %65
+    R2.*6 %71
+    r4 gis'8\fE gis a a
+    a a16 g f8. f16 e4
+    e8. d16 e8 e c16 c c^\critnote h
+    c c c c c8 c4 h8 %75
+    c4 r r
+    R2.*7 %83
+    a8\pE a h d4 cis8
+    d4 r e8. e16 %85
+    e8 e dis dis e4
+    dis r r
+    R2.*2
+    \time 4/4 \tempoH-I-XIeb R1 \noBreak %90
+    r8 g,\fE a c4 h8 cis d~
+    d c h4\trill a r8 d
+    e g4 fis8 g d e8. e16
+    d8 d4 c h a16 g
+    fis8 g4 fis8 g2 %95
+    r8 h c e~ e d c h
+    c2\trill h\fermata \bar "|." %97 finis
+  }
+}

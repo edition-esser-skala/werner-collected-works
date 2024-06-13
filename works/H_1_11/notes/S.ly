@@ -329,3 +329,177 @@ H-I-XIdSopranoLyrics = \lyricmode {
   _ _ men, a --
   men, a -- men. %40 finis
 }
+
+H-I-XIeSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoH-I-XIea
+    \mvTr h'8.\fE^\tutti c16 d8 h c a
+    h h16([ c)] d8 h c a
+    h h e4. d8
+    cis d h8. h16 cis8 d
+    e4 a,8 a d cis %5
+    h cis16([ d)] e8 d d([ cis)]
+    d \mvTr a\pE^\solo d h c4
+    h d16 h c d e8 d16([ c)]
+    d8 c16 h c4\trill h
+    R2.*7 %16
+    r4 r r8 a
+    a g16 a fis8 g16([ a)] h8 g
+    a h16 a g8 g16 g fis4
+    R2.*2 %21
+    r8 cis' d d e e16^\critnote d
+    cis8 d d8. cis16 d4
+    \mvTr d8\fE^\tutti e d16 d d d cis8 cis16 cis
+    d8. d16 cis4 e8 d %25
+    cis16([ h)] cis a d8 d d d
+    d([ cis)] d \mvTr fis\pE^\solo e fis16 e
+    d8 cis d e16 d cis8. cis16
+    h4 r r
+    R2. %30
+    r4 r r8 a
+    a gis a cis16 d e8 e16 d
+    cis8 h a8. a16 gis4
+    R2.
+    r4 r8 \mvTr cis16\fE^\tutti cis d8 cis16 cis %35
+    d8 cis d cis h h16 h
+    ais8 h h h16 h h8 h16 h
+    h8 h h a h4
+    h8 h a a16 h c8 c
+    h h16 c d8 c h([ a)] %40
+    g \mvTr g16\pE^\solo a h8 g16 a h8 cis
+    d h g4\trill fis
+    R2.
+    r4 \mvTr h8.\fE^\tutti h16 e8 fis
+    dis dis r4 g,8 g %45
+    c8. h16 a8. a16 h8 d
+    c h h a h4
+    h8 h c c16 c c8 c16 c
+    h4 h8 h c c16 c
+    c4 h8 h h a %50
+    a4\trill h \mvTr h16\pE^\solo h a g
+    a8 h16 a g8 a16 g fis4
+    r ais8 ais h h16 h
+    cis cis cis cis h8 h h h16 h
+    h8([ ais)] h4 r %55
+    R2.*4
+    r4 h16 h h h h8 a16 a %60
+    h8 a g a16 g fis4\trill
+    e r r
+    R2.*4 %66
+    r4 r fis8 fis
+    g16 g fis g a8 h h a
+    h4 h8 h e8. d16
+    c8 h a h16([ c)] d8 c %70
+    h c16([ d)] e8 e a,4
+    h \mvTr h8\fE^\tutti h c h
+    c c16 c c8 h c4
+    a8. a16 gis8 gis c16 c c h
+    c c c c c8 c c([ h)] %75
+    c4 r r
+    R2.*3
+    r4 r r8 \mvTr h\pE^\solo %80
+    h4 g8 e' d! c16 d
+    h8 a g16 fis g a fis8 a
+    d h e c d c16 h
+    a4 g r
+    a8. a16 h8 c16 c h4 %85
+    a r r
+    r r8 h e8. d16
+    c8 h a a d8. c16 \noBreak
+    h4 a8 a a4\trill
+    \time 4/4 \tempoH-I-XIeb g4 r r2 \noBreak %90
+    r8 \mvTr g\fE^\tutti a c!4 h8[ cis d]~
+    d^\critnote c h4 a r8 d(
+    e g4 fis8) g d( e4)
+    d8 d4( c h a16_[ g])
+    fis8 g4( fis8) g2 %95
+    r8 h[ c e]~ e[ d c h]
+    c2\trill h\fermata \bar "|." %97 finis
+  }
+}
+
+H-I-XIeSopranoLyrics = \lyricmode {
+  Do -- mi -- ne, pro -- ba -- sti
+  me, et co -- gno -- vi -- sti
+  me, tu co -- gno --
+  vi -- sti ses -- si -- o -- nem
+  me -- am et re -- sur -- %5
+  re -- cti -- o -- nem me --
+  am. In -- tel -- le -- xi --
+  sti co -- gi -- ta -- ti -- o -- nes
+  me -- as de lon -- ge,
+
+  Mi -- %17
+  ra -- bi -- lis fa -- cta est sci --
+  en -- ti -- a tu -- a ex me,
+
+  et quo a fa -- ci -- e %22
+  tu -- a fu -- gi -- am?
+  Si a -- scen -- de -- ro in coe -- lum, tu
+  il -- lic es, si de -- %25
+  scen -- de -- ro in in -- fer -- num,
+  ad -- es. Si sum -- pse -- ro
+  pen -- nas me -- as di -- lu -- cu --
+  lo,
+  %30
+  Et
+  di -- xi: For -- si -- tan te -- ne -- brae
+  con -- cul -- ca -- bunt me,
+
+  Qui -- a te -- ne -- brae %35
+  non ob -- scu -- ra -- bun -- tur a
+  te, et nox si -- cut di -- es il --
+  lu -- mi -- na -- bi -- tur,
+  si -- cut te -- ne -- brae e -- ius,
+  i -- ta et lu -- men e -- %40
+  ius. Qui -- a tu pos -- se -- di -- sti
+  re -- nes me -- os,
+
+  Con -- fi -- te -- bor
+  ti -- bi qui -- a %45
+  ter -- ri -- bi -- li -- ter ma --
+  gni -- fi -- ca -- tus es,
+  mi -- ra -- bi -- li -- a o -- pe -- ra
+  tu -- a, et a -- ni -- ma
+  me -- a co -- gno -- scit %50
+  ni -- mis. Non est oc -- cul --
+  ta -- tum os me -- um a te,
+  et sub -- stan -- ti -- a
+  me -- a in in -- fe -- ri -- o -- ri -- bus
+  ter -- rae. %55
+
+  ni -- mis con -- for -- ta -- tus est %60
+  prin -- ci -- pa -- tus e -- o --
+  rum.
+
+  qui -- a %67
+  di -- ci -- tis in co -- gi -- ta -- ti --
+  o -- ne, ac -- ci -- pi --
+  ent in va -- ni -- ta -- te %70
+  ci -- vi -- ta -- tes tu --
+  as. Non -- ne qui o --
+  de -- runt te, Do -- mi -- ne,
+  o -- de -- ram, et su -- per in -- i --
+  mi -- cos tu -- os ta -- be -- sce -- %75
+  bam?
+
+  Et %80
+  vi -- de si vi -- a in --
+  i -- qui -- ta -- tis in me est, et
+  de -- duc me in vi -- a ae --
+  ter -- na.
+  et Spi -- ri -- tu -- i San -- %85
+  cto,
+  et nunc et
+  sem -- per et in sae -- cu --
+  la sae -- cu -- lo --
+  rum, %90
+  a -- _ _ _
+  _ _ men, a --
+  men, a --
+  men, a --
+  men, a -- men, %95
+  a --
+  _ men. %97 finis
+}

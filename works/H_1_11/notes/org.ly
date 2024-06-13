@@ -390,3 +390,207 @@ H-I-XIdBassFigures = \figuremode {
   r4 <6>8 \bo <[6 4]> \bc <[6 5]>4 <4>8 <3>
   r1 %40 finis
 }
+
+H-I-XIeOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \tempoH-I-XIea
+    \mvTr g'8.\fE-\tutti a16 h8 g a fis
+    g g16 a h8 g a d,
+    g g, r g' g g
+    g fis g8. fis16 e8 d~
+    d cis d d16 e fis8 d %5
+    g16 fis e d cis8 d a4
+    d4. \mvTr d8\pE-\solo e fis
+    g h a g c,4
+    h a g8 h
+    c4 a h %10
+    e4. fis8 g4
+    d!8 e fis4 g8 e
+    fis h, fis4 h
+    h8 cis d4 a!
+    ais h8 e fis4 %15
+    h, g' a!
+    fis g8 e16 d cis8 d
+    a4 d g
+    fis e d8 fis
+    g fis e4 fis8 h, %20
+    fis'4 h8 a! g4
+    fis \clef "treble_8" h g~
+    g8 fis16 g a4 d,
+    \clef bass \mvTr d8\fE-\tutti cis d fis16 d a'4
+    h a r %25
+    a8 g fis16 e fis d g8 fis
+    e4 d \mvTr a'8\pE-\soloE ais
+    h fis h, e fis4
+    h8 a! gis4 a8 fis
+    cis d e4 a8 gis %30
+    fis4 e fis8 d!
+    e4 a, gis'
+    a8 gis fis4 e8 a
+    e4 a,8 cis d h
+    cis4 fis,8 \mvTr fis'\fE-\tuttiE h fis %35
+    h ais h a g4
+    fis8 dis e h'16 a g8. fis16
+    e8 d! c4 h
+    g8 h d c16 h a4
+    e'8 d16 c h8 c d4 %40
+    g, \mvTr g'4.\pE-\solo e8
+    fis g e4 d
+    e8 fis g c,! d4
+    g, \mvTr g'8.\fE-\tutti g16 c8 a
+    h h, h'4 e, %45
+    a8. g16 fis4 g8. fis16
+    e8 d c4 h
+    h'2 a4~
+    a g a
+    fis g8 e h c %50
+    d4 g, \mvTr g'\pE-\solo
+    fis e d8 e
+    fis4 \clef "treble_8" fis gis
+    ais h e,
+    \clef bass fis h8 g! a4 %55
+    fis g8 fis e4
+    d e fis
+    g8 fis g4 fis
+    h, g' a
+    d,8 dis e d c4 %60
+    h e8 a, h4
+    e8 fis g4 h,
+    e h8^\critnote c d4
+    g, g'8. fis16 e4
+    fis8 h, fis'4 h,8 a! %65
+    g4 a8 fis' g4
+    d g,8 a h4
+    e d!8 h c4
+    h \clef "treble_8" e'8. d!16 c8 h
+    a h16 c d8 c h c16 d %70
+    e8 d c4 d
+    g, \clef bass \mvTr e\fE-\tutti a8 g!
+    f e d4 c
+    f e a8 f16 g
+    e8 c f e16 \hA f g4 %75
+    c,8 \mvTr c'\pE-\solo h4 a
+    g d e8 fis!
+    g c, d4 g,
+    c8 a h4 cis
+    dis e8 a, h g16 a %80
+    h4 e fis
+    g8 fis e c d4
+    h c h8 c
+    d4 g8 fis e4
+    d h'8 a e4 %85
+    a h c
+    h \clef "treble_8" e8 d! c h
+    a4 d8. c16 h4 \noBreak
+    e8. d16 c4 d8 \noBeam \clef bass \mvTr d,\fE-\tutti
+    \time 4/4 \tempoH-I-XIeb e g4 fis8 g4. fis8 %90
+    e4 d g d
+    r r8 g a c4 h8
+    c h a4 g c,8 cis
+    d1~-\tasto
+    d2 g, %95
+    g1
+    c2 g\fermata \bar "|." %97 finis
+  }
+}
+
+H-I-XIeBassFigures = \figuremode {
+  r2 r8 <[6]>
+  r2 r8 <7>
+  r4. <6>4 \bo <[5]>8
+  \bc <[4\+] 2>8 <6>4. \bo <[6\\ _]>8 \bc <[6 4]>
+  <2> <[6 5]> r2 %5
+  r4 <[6 5]> <4>8 <_+>
+  r4. <[6]>8 <6[!]>4
+  r2.
+  <6>4 <7>8 <6>4.
+  r4 <6 5> <4>8 <_+> %10
+  r4 <6>2
+  r r8 <6\\>
+  \bo <[5\+] _+>4 <5\+ 4>8 \bc <[\t] _+>4.
+  <6>8 q4. \bo <[_+ _]>4
+  \bc <[6 _+]>4. \bo <[6\\ _]>8 \bc <[5\+ _+]>4 %15
+  r <6> <_+>
+  <6>2 <6 5>4
+  <4>8 <_+> r2
+  <[6]>4 <7>8 <6\\>4.
+  r4 <6\\>8 <5> \bo <[5\+] _+>4 %20
+  <5\+ 4>8 <\t _+>4 \bc <[6]>8 <7> <6>
+  \bo <[5\+] _+>2 \bc <[6]>4
+  <4\+>8 <[6]> <4> <_+>4.
+  r8 <[6]>4. <_+>4
+  <7>8 <6\\> <_+>2 %25
+  q4 \bo <[6]>4. \bc q8
+  <7> <6\\>4. <[_+]>8 <6>
+  r <[5\+] _+>4 <6\\>8 \bo <[5\+] 4> <\t _+>
+  r4 <6> <_+>8 <5\+>
+  <6> \bc <[6]> <4> <_+>4 <[6]>8 %30
+  <7> <6\\> <_+>4 <[5\+]>
+  <4>8 <_+>4. <6>4
+  r8 <[6]> <7> <6\\> <_+> q
+  <4> <_+> <[_+]>4. <6\\>8
+  \bo <[5\+] 4>8 <\t _+>4 <5\+ _+> \bc <[5\+] _+>8 %35
+  r \bo <[6 _+]>4 \bc q8 <7> <6>
+  <[5\+] _+> <6>4 <_+>8 <6>4
+  r8 <[6]> <7> <6> <_+>4
+  <5!>2.
+  r4 \bo <[6]> <6 4>8 \bc <[5] 3> %40
+  r2 r8 <6\\>
+  <[6]>4 <7>8 <6\\>4.
+  <6!>8 <6>4 <[6]>8 <4> <3>
+  r2 r8 <6>
+  <_+>4 <\t>2 %45
+  r4 <6[!]>2
+  <6>8 q <7> <6> <_+>4
+  <\t> <2> <6>
+  <4\+> <6>2
+  <6[!] 5> <6>8 <6 [5]> %50
+  <4> <3> r2
+  <[6]>4 <7>8 <6\\>4 q8
+  <[5\+] _+>2 <7>8 <6>
+  <6 5 [_+]>2 <6\\ 5>4
+  \bo <[5\+ 4]>8 \bc <[\t _+]>4 <6>8 <4> <_+> %55
+  <6>4. <[6]>8 <7> <6\\>
+  r4 q \bo <[5\+] _+>
+  r8 \bc q <7> <6> <[5\+] _+>4
+  r4 <6 5> \bo <[4]>8 \bc <[_+]>
+  r <6 5>4 <[6]>8 <7> <6> %60
+  <_+>4. <6 5>8 <4> <_+>
+  r <6[!]> r2
+  r4 <6>8 <5> \bo <[6 4]> \bc <[5 3]>
+  r4.. <6\\>16 <5>4
+  \bo <[5\+] _+> <5\+ 4>8 \bc <[\t] _+> <_+>4 %65
+  <6>4 <[_!]>8 <6[!]>4.
+  \bo <[4]>8 \bc <[3]>4 <6>8 <4> <_+>
+  r4. <6>8 <7> <6>
+  <[_+]>2.
+  r %70
+  r4 <6 5> \bo <[4]>8 \bc <[3]>
+  r4 <_+>2
+  r8 <[6]> \bo <7 [_!]> \bc <6 [\t]>4.
+  <7>8 <6> <_+>4. <6 [5]>8
+  \bo <[6 _]>4 \bc q <4>8 <3> %75
+  r4 <[6]> <7>8 <6\\>
+  r2 <6>8 q
+  r4 <[6 4]>8 \bo <[5] 4>16 \bc <[\t] 3> r4
+  r8 <6> <_+>4 <6>
+  q2 <_+>8 <6> %80
+  <4> <_+>4. <[6!]>4
+  r8 <[6]>4 <6>8 <4> <3>
+  <6>2 \bo <[6]>4
+  <3>4. \bc <[6]>8 <7> <6\\>
+  r4 <6\\> <4>8 <_+> %85
+  r4 q <7>8 <6>
+  \bo <[_+ _]>2.
+  r
+  r4 <6 5> <5 4>8 \bc <[\t 3]>
+  r <3> <2> <5> <4> <3> <4\+> <6> %90
+  <7> <6\\> <4> <3> \bo <[5 4]> <\t 3> <7\\ 4> \bc <[8 3]>
+  r2 r8 <3>4 <6>8
+  r <[6]> <7> <6> <4> <3> <[7]> <6>16 <5>
+  r1
+  r %95
+  r
+  r %97 finis
+}

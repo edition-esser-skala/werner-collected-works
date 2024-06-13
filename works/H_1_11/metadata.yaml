@@ -21,6 +21,19 @@ toe: |
     & 28 & A    & last \eighthNote\ in \B1: g′8 \\
   4 & 26 & vl 1 & 4th \quarterNote\ in \B1: b′8–a′8 \\
     & 35 & vl 1 & 2nd \quarterNote\ in \B1: \sharp f″8.–e″16 \\
+  5 & 2  & B    & last \eighthNote\ in \B1: \sharp f8 \\
+    & 4  & vl 2 & bar in \B1: \sharp c″4–d″8–b′8–b′8–\sharp c″16–d″16 \\
+    & 21 & vl 1 & 5th \eighthNote\ in \B1: e″8 \\
+    & 22 & S    & 11th \sixteenthNote\ in \B1: f″16 \\
+    & 24 & T    & 5th \sixteenthNote\ in \B1: b16 \\
+    & 36 & vl 2 & 4th \eighthNote\ in \B1: \sharp a′8 \\
+    & 40 & T    & 4th \eighthNote\ in \B1: d′8 \\
+    & 49 & vl 1 & 1st \quarterNote\ in \B1: c″4 \\
+    & 54 & A    & last \sixteenthNote\ in \B1: d′16 \\
+    & 63 & org  & 2nd \quarterNote\ in \B1: c4 \\
+    & 74 & vl 1 & 11th \sixteenthNote\ in \B1: b′16 \\
+    & 92 & S    & 1st \halfNote\ in \B1: d″8–c″4–b′8 \\
+    & 95 & B    & 2nd \halfNote\ in \B1: \sharp F2 \\
 extra_abbreviations:
   vlne:
 lyrics:
@@ -35,3 +48,40 @@ lyrics:
   Vota mea Domino reddam in conspectu omnis populi eius,
   in atriis domus Domini, in medio tui, Ierusalem.
   (\bibleverse{Ps}(116/115:))
+
+
+Do -- mi -- ne, pro -- ba -- sti me, et co -- gno -- vi -- sti me,
+  tu co -- gno -- vi -- sti ses -- si -- o -- nem me -- am et re -- sur -- re -- cti -- o -- nem me -- am.
+  In -- tel -- le -- xi -- sti co -- gi -- ta -- ti -- o -- nes me -- as de lon -- ge,
+  se -- mi -- tam me -- am et fu -- ni -- cu -- lum me -- um in -- ve -- sti -- ga -- sti,
+  et o -- mnes vi -- as me -- as prae -- vi -- di -- sti,
+  qui -- a non est ser -- mo in lin -- gua me -- a.
+  Ec -- ce, Do -- mi -- ne, tu co -- gno -- vi -- sti o -- mni -- a, no -- vis -- si -- ma et an -- ti -- qua.
+  Tu for -- ma -- sti me, et po -- su -- i -- sti su -- per me ma -- num tu -- am.
+  Mi -- ra -- bi -- lis fa -- cta est sci -- en -- ti -- a tu -- a ex me, con -- for -- ta -- ta est, et non po -- te -- ro ad e -- am.
+  Quo i -- bo a spi -- ri -- tu tu -- o? et quo a fa -- ci -- e tu -- a fu -- gi -- am?
+  Si a -- scen -- de -- ro in coe -- lum, tu il -- lic es, si de -- scen -- de -- ro in in -- fer -- num, ad -- es.
+  Si sum -- pse -- ro pen -- nas me -- as di -- lu -- cu -- lo, et ha -- bi -- ta -- ve -- ro in ex -- tre -- mis ma -- ris,
+  et -- e -- nim il -- luc ma -- nus tu -- a de -- du -- cet me, et te -- ne -- bit me dex -- te -- ra tu -- a.
+  Et di -- xi: For -- si -- tan te -- ne -- brae con -- cul -- ca -- bunt me, et nox il -- lu -- mi -- na -- ti -- o me -- a in de -- li -- ci -- is me -- is.
+  Qui -- a te -- ne -- brae non ob -- scu -- ra -- bun -- tur a te, et nox si -- cut di -- es il -- lu -- mi -- na -- bi -- tur,
+  si -- cut te -- ne -- brae e -- ius, i -- ta et lu -- men e -- ius.
+  Qui -- a tu pos -- se -- di -- sti re -- nes me -- os, su -- sce -- pi -- sti me de u -- te -- ro ma -- tris me -- ae.
+  Con -- fi -- te -- bor ti -- bi qui -- a ter -- ri -- bi -- li -- ter ma -- gni -- fi -- ca -- tus es, mi -- ra -- bi -- li -- a o -- pe -- ra tu -- a,
+  et a -- ni -- ma me -- a co -- gno -- scit ni -- mis.
+  Non est oc -- cul -- ta -- tum os me -- um a te, quod fe -- ci -- sti in oc -- cul -- to, et sub -- stan -- ti -- a me -- a in in -- fe -- ri -- o -- ri -- bus ter -- rae.
+  Im -- per -- fe -- ctum me -- um vi -- de -- runt o -- cu -- li tu -- i, et in li -- bro tu -- o o -- mnes scri -- ben -- tur.
+  Di -- es for -- ma -- bun -- tur, et ne -- mo in e -- is.
+  Mi -- hi au -- tem ni -- mis ho -- no -- ri -- fi -- ca -- ti sunt a -- mi -- ci tu -- i, De -- us, ni -- mis con -- for -- ta -- tus est prin -- ci -- pa -- tus e -- o -- rum.
+  Di -- nu -- me -- ra -- bo e -- os, et su -- per a -- re -- nam mul -- ti -- pli -- ca -- bun -- tur.
+  Ex -- ur -- re -- xi, et ad -- huc sum te -- cum.
+  Si oc -- ci -- de -- ris, De -- us, pec -- ca -- to -- res, vi -- ri san -- gui -- num, de -- cli -- na -- te a me,
+  qui -- a di -- ci -- tis in co -- gi -- ta -- ti -- o -- ne, ac -- ci -- pi -- ent in va -- ni -- ta -- te ci -- vi -- ta -- tes tu -- as.
+  Non -- ne qui o -- de -- runt te, Do -- mi -- ne, o -- de -- ram, et su -- per in -- i -- mi -- cos tu -- os ta -- be -- sce -- bam?
+  Per -- fe -- cto o -- di -- o o -- de -- ram il -- los, et in -- i -- mi -- ci fa -- cti sunt mi -- hi.
+  Pro -- ba me, De -- us, et sci -- to cor me -- um: in -- ter -- ro -- ga me, et co -- gno -- sce se -- mi -- tas me -- as.
+  Et vi -- de si vi -- a in -- i -- qui -- ta -- tis in me est, et de -- duc me in vi -- a ae -- ter -- na.
+  Glo -- ri -- a Pa -- tri et Fi -- li -- o et Spi -- ri -- tu -- i San -- cto,
+si -- cut e -- rat in prin -- ci -- pi -- o et nunc et sem -- per
+et in sae -- cu -- la sae -- cu -- lo -- rum, a -- men.
+(\bibleverse{Ps}(139/138:))
