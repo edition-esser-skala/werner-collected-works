@@ -503,3 +503,88 @@ H-I-XIeSopranoLyrics = \lyricmode {
   a --
   _ men. %97 finis
 }
+
+H-I-XIfSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoH-I-XIfa
+    \mvTr c'2\fE^\tutti d4. d8
+    e g f e d4. e8
+    a,(^[ d] h[ a16 g] a4.)\trill a8
+    h4 r r8 d d d
+    d d r4 r8 e e d %5
+    e e e4 d8 d c4
+    h r8 a d d r e
+    d4 c d8 d e e
+    d2 e4 r
+    R1 %10
+    r2 \mvTr e8\pE^\solo h gis fis?16 e
+    c'8 a e' d16 e c8 a \mvTr c\fE^\tuttiE h
+    a c d f e2
+    e4 r r2
+    R1 %15
+    r2 r8 \mvTr g,\fE^\tutti c h
+    e([ d)] c4 c4._(\trill h16[ a])
+    h4 r r2
+    R1*6 %24
+    r8 \mvTr c\pE^\solo h16([ a)] g([ f)] e8 g c e16 c %25
+    g'8 g, r16 \mvTr e\fE^\tuttiE g c e8 e, e8. e16
+    e4 r r r8 \mvTr e'\pE^\soloE
+    e16([ d)] cis([ h)] a8 e' f e16 d c([\trill h c8)]
+    h4 r r2
+    r r8 g g fis %30
+    g a16([ h)] c8 d e e d c
+    h8. h16 c8 d e e,16 e f8([ g)]
+    a b g8. g16 a4 r
+    R1*2 %35
+    \after 2 \tempoH-I-XIfb R1
+    r8 \mvTr g4\fE^\tuttiE c8 h4 e8 e
+    d g, c([ d)] g, g' c,16[ h c d]
+    e4. d4 c h8
+    a d4( c8) h4 r %40
+    g8 c h e d d4 g8
+    f e d8.([ c16)] h8 g a16[ g a h]
+    c[ h c d] e[ d e f] g8 e d4
+    e8 c4( h8) c4 r\fermata \bar "|." %44 finis
+  }
+}
+
+H-I-XIfSopranoLyrics = \lyricmode {
+  Ma -- gni -- fi --
+  cat a -- ni -- ma me -- a
+  Do -- mi --
+  num, et ex -- ul --
+  ta -- vit, et ex -- ul -- %5
+  ta -- vit spi -- ri -- tus me --
+  us in De -- o, in
+  De -- o sa -- lu -- ta -- ri
+  me -- o.
+  %10
+  Ec -- ce e -- nim ex
+  hoc be -- a -- tam me di -- cent o -- mnes
+  ge -- ne -- ra -- ti -- o --
+  nes.
+  %15
+  et san -- ctum
+  no -- men e --
+  ius.
+
+  De -- po -- su -- it po -- ten -- tes de %25
+  se -- de et ex -- al -- ta -- vit hu -- mi --
+  les. et
+  di -- vi -- tes di -- mi -- sit in -- a --
+  nes.
+  Si -- cut lo -- %30
+  cu -- tus est ad pa -- tres no -- stros,
+  A -- bra -- ham et se -- mi -- ni e --
+  ius in sae -- cu -- la.
+
+  et in sae -- cu -- la %37
+  sae -- cu -- lo -- rum, a -- _
+  _ _ _ _
+  men, a -- men, %40
+  et in sae -- cu -- la sae -- cu --
+  lo -- rum, a -- men, a -- _
+  _ _ _ men, a --
+  men, a -- men. %44 finis
+}

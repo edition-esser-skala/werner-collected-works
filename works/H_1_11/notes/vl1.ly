@@ -247,3 +247,51 @@ H-I-XIeViolinoI = {
     c2\trill h\fermata \bar "|." %97 finis
   }
 }
+
+H-I-XIfViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoH-I-XIfa
+    r8 g''\fE e c a' f d g
+    e c r4 r8 h' a g
+    fis d h g' e c a d
+    h c16 d e fis g a h8 g r4
+    r16 g, a h c d e f g8 e r4 %5
+    r8 e g c r g e a
+    r g c, f r f g e
+    d g4 e8 d g e c'
+    d, c' g, h' c16 g g e e4
+    R1 %10
+    r2 r8 h4\pE e8~
+    e c h8.\trill h16 e, a\fE c e a8 gis
+    a16 e c a r8 f' c a' h, gis'
+    a16 e c e a,4 r8 \tuplet 3/2 8 { d16\trill\pE c d } h'8 r
+    r16 e, a32 e c e a,8 r r2 %15
+    r r4 r8 d\fE
+    e d g e~ e e a a
+    d,4 r r2
+    R1*2 %20
+    r2 r4 r8 g~\pE
+    g16 e c g e' c g e r8 f' e16 d c8
+    h16. h32 e8 r16 c a8 r16 a d8 r16 h g8
+    r2 g8 g'~ g16 f e8
+    d16 g8 e16 d8.\trill d16 c4 r16 a' e fis %25
+    g4 r16 e,\fE g c e8.\trill d32 c h8.\trill h16
+    a4 r r2
+    R1*3 %30
+    r2 r8 g'\pE g16( f) f( e)
+    d8. d16 e8 f g8. g16 a8 b
+    c16( a) g( f) e8.\trill e16 f4 r
+    r2 r8 a~ a16. f32 f8~
+    f e d4\trill e8.\trill d32 e f8.\trill e32 f %35
+    g8 f16 e d8 c \tempoH-I-XIfb h16( a) h8 r4
+    r8 g4\fE c8 h4 e8 e
+    d g, c d g, g' c,16 h c d
+    e4. d4 c h8
+    a d4 c8 h4 r %40
+    g8 c h e d d4 g8
+    f e d8. c16 h8 g a16 g a h
+    c h c d e d e f g8 e d4\trill
+    e8 c4 h8 c4 r\fermata \bar "|." %44 finis
+  }
+}

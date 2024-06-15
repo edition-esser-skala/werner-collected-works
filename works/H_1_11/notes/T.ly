@@ -486,3 +486,95 @@ H-I-XIeTenoreLyrics = \lyricmode {
   _ men,
   a -- men. %97 finis
 }
+
+H-I-XIfTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoH-I-XIfa
+    \mvTr g4\fE^\tutti c2 h4
+    c8 e d c h g r4
+    a g e' d
+    d r r8 h d a
+    h h r4 r8 c c h %5
+    c c c8. c16 h4 a
+    g r8 a a a r c
+    h h c e d d c4~
+    c h \mvTr c\pE^\solo c8 c
+    c e16 d c8 h c c16 h a8 gis %10
+    a h16 c h8 a a16([ gis)] gis8 r4
+    r2 \mvTr a4.\fE^\tutti gis8
+    a a a d c4( h)\trill
+    a r r2
+    R1 %15
+    r2 r8 \mvTr c\fE^\tutti c d
+    c([ d)] e4 e4.( d16[ c)]
+    d4 \mvTr c8\pE^\solo d d c c b
+    a4 d8([ c)] h h4 c8
+    d e16 e f8 e16([ d)] c8. c16 d8 d %20
+    g, c16 c c8([ h)] c4 r
+    R1*4 %25
+    r4 r16 \mvTr c\fE^\tutti c e c8 c h8. h16
+    a8 \mvTr c\pE^\solo h c16([ d)] c8 h16 a h8 a16([ gis)]
+    a8 a r4 r2
+    r e'8 e cis e
+    a, d h16([ c)] d8 g, a16 h c4 %30
+    h r r2
+    R1
+    r4 c4. b16 a a8([ d)]
+    h g g c a4 r
+    R1 %35
+    r2 \tempoH-I-XIfb r8 \mvTr g4\fE^\tutti c8
+    h4 e8 e d g, c4
+    h8 e( a,16[ g a h)] c4 r
+    R1
+    r2 r8 g4 c8 %40
+    h e d c h16([ a h c] d8[ c]
+    h) c d([ g,)] g c([ a d)]
+    c4 r8 c d c4( h8)
+    c4 a8([ g)] g4 r\fermata \bar "|." %44 finis
+  }
+}
+
+H-I-XIfTenoreLyrics = \lyricmode {
+  Ma -- gni -- fi --
+  cat a -- ni -- ma me -- a,
+  me -- a Do -- mi --
+  num, et ex -- ul --
+  ta -- vit, et ex -- ul -- %5
+  ta -- vit spi -- ri -- tus me --
+  us in De -- o, in
+  De -- o sa -- lu -- ta -- ri me --
+  o. Qui -- a re --
+  spe -- xit hu -- mi -- li -- ta -- tem, hu -- mi -- li -- %10
+  ta -- tem an -- cil -- lae su -- ae.
+  o -- mnes
+  ge -- ne -- ra -- ti -- o --
+  nes.
+  %15
+  et san -- ctum
+  no -- men e --
+  ius. Et mi -- se -- ri -- cor -- di --
+  a e -- ius a pro --
+  ge -- ni -- e in pro -- ge -- ni -- es ti -- %20
+  men -- ti -- bus e -- um.
+
+  et ex -- al -- ta -- vit hu -- mi -- %26
+  les. E -- su -- ri -- en -- tes im -- ple -- vit
+  bo -- nis
+  re -- cor -- da -- tus
+  est mi -- se -- ri -- cor -- di -- ae su -- %30
+  ae.
+
+  Glo -- ri -- a Pa -- %33
+  tri et Fi -- li -- o
+  %35
+  et in
+  sae -- cu -- la sae -- cu -- lo --
+  rum, a -- men,
+
+  et in %40
+  sae -- cu -- lo -- rum, a --
+  men, a -- men, a --
+  men, a -- men, a --
+  men, a -- men. %44 finis
+}

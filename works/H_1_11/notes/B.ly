@@ -483,3 +483,93 @@ H-I-XIeBassoLyrics = \lyricmode {
   a -- men,
   a -- men. %97 finis
 }
+
+H-I-XIfBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoH-I-XIfa
+    \mvTr c2\fE^\tutti f4 g
+    c, r r8 g' fis e
+    d4 e c d
+    g, r r8 g h d
+    g g, r4 r8 c e g %5
+    c c, c'8. c16 g4 a
+    e r8 f d d r c
+    g' g e c h4 c
+    g2 c4 r
+    r r8 \mvTr g'\pE^\solo e c r e %10
+    c h16 a gis8 a e' e r4
+    r2 \mvTr a4.\fE^\tutti e8
+    c' a f d e2
+    a,8 \mvTr a'4\pE^\solo c8 gis h e, h'
+    c a, r c' \tuplet 3/2 8 { h16[( a g] f[ g a] g[ f e]) d([ e f)] } %15
+    e8 \mvTr c\fE^\tutti e g c c, e g
+    c([ g)] e([ c)] a2
+    g4 r r2
+    R1*2 %20
+    r4 r8 \mvTr g'\pE^\solo c16([ g)] e([ c)] g'([ d)] h([ g)]
+    c4 r8 c' gis a16 a gis8([ a)]
+    e h' c a, r a' h g,
+    c([ c')] h([ a)] g2~
+    g8 e16([ c)] g4 c r %25
+    r r16 \mvTr c\fE^\tutti e g c8 a e8. e16
+    a,4 r r2
+    R1
+    r8 \mvTr e'\pE^\solo e e cis d16 e a,8 h16 cis
+    d8 d r4 r2 %30
+    R1*3
+    r2 f8 a d, f16 f
+    h,8([ c)] g4 r2 %35
+    \after 2 \tempoH-I-XIfb R1*2
+    r8 \mvTr c4\fE^\tutti f8 e4 a8 a
+    g c, f4 e8 a( d,16[ c d e])
+    f8 d( e16[ d e f]) g4 e8 c %40
+    g'1~
+    g2 g8 e f16[ e f g]
+    a8.[ g32 f] e8.[ d32 c] h8 c g4
+    c8 a'([ f g)] c,4^\critnote r\fermata \bar "|." %44 finis
+  }
+}
+
+H-I-XIfBassoLyrics = \lyricmode {
+  Ma -- gni -- fi --
+  cat a -- ni -- ma
+  me -- a Do -- mi --
+  num, et ex -- ul --
+  ta -- vit, et ex -- ul -- %5
+  ta -- vit spi -- ri -- tus me --
+  us in De -- o, in
+  De -- o sa -- lu -- ta -- ri
+  me -- o.
+  re -- spe -- xit, re -- %10
+  spe -- xit hu -- mi -- li -- ta -- tem
+  o -- mnes
+  ge -- ne -- ra -- ti -- o --
+  nes. Qui -- a fe -- cit mi -- hi
+  ma -- gna, qui po -- tens %15
+  est, et san -- ctum no -- men, san -- ctum
+  no -- men e --
+  ius.
+
+  Fe -- cit po -- ten -- ti -- %21
+  am in bra -- chi -- o su --
+  o, dis -- per -- sit su -- per -- bos
+  men -- te __ cor --
+  dis su -- i. %25
+  et ex -- al -- ta -- vit hu -- mi -- %26
+  les.
+
+  Su -- sce -- pit Is -- ra -- el pu -- e -- rum
+  su -- um, %30
+
+  et Spi -- ri -- tu -- i %34
+  San -- cto, %35
+
+  et in sae -- cu -- la %38
+  sae -- cu -- lo -- rum, a --
+  men, a -- men, a -- men, %40
+  a --
+  men, a -- _
+  _ _ _ men, a --
+  men, a -- men. %44 finis
+}
