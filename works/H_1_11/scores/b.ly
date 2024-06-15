@@ -7,11 +7,56 @@
 
 \book {
   \bookpart {
-    \section "H-I-XIa" ""
+    \section "H.1.11 · 1" "Dixit Dominus"
     \addTocEntry
     \score {
       <<
         \new Staff { \H-I-XIaOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Laudate pueri"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \H-I-XIbOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Credidi"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \H-I-XIcOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "In convertendo"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \H-I-XIdOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Domine, probasti me"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \H-I-XIeOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Magnificat"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \H-I-XIfOrgano }
       >>
     }
   }
