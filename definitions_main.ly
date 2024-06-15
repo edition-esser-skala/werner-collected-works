@@ -9,6 +9,8 @@
 
 aTre = \markup \remark "a 3"
 aTreE = \markup \remarkE "a 3"
+dstU = \tweak self-alignment-X #CENTER ^\markup { \hspace #1.3 \teeny \musicglyph #'"scripts.uhenzelongfermata" }
+dstD = \tweak self-alignment-X #CENTER _\markup { \hspace #1.3 \teeny \musicglyph #'"scripts.dhenzelongfermata" }
 hA = \once \override Accidental.stencil = ##f
 incipitVlISoprano = \incipit "I" "soprano" #-16.1 #-0.8
 incipitVlIISoprano = \incipit "II" "soprano" #-16.4 #-0.8
