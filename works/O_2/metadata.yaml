@@ -10,17 +10,18 @@ sources:
     rism: 700001744
     license: public domain
     principal: true
+toestyle: movement
 toe: |
-  1·16–18 & b & bars in \B1: e2–r4–b4,
-                g8–\sharp g–a–\sharp f–g–\sharp f–\sharp g–e,
-                and b2–\halfNoteRest \\
-  2·26 & vl 2 & 4th \eighthNote\ in \B1: a′8 \\
-  2·50 & vl 2 & 1st \quarterNote\ in \B1: \sharp g′16–a′16–b′8 \\
-  2·54 & b    & bar in \B1: A2 \\
-  3·12 & vl 2 & last \eighthNote\ in \B1: b′8 \\
-  3·15 & b    & 1st \halfNote\ in \B1: e2 \\
-  4·29 & vl 2 & bar in \B1: 7×\eighthNote \\
-  4·34 & vl 1 & bar in \B1: a′2–\crotchetRest \\
-  5·28 & vl 2 & 3rd \eighthNote\ in \B1: d′8 \\
+  1 & 16–18 & b & bars in \B1: e2–r4–b4,
+                  g8–\sharp g–a–\sharp f–g–\sharp f–\sharp g–e,
+                  and b2–\halfNoteRest \\
+  2 & 26 & vl 2 & 4th \eighthNote\ in \B1: a′8 \\
+    & 50 & vl 2 & 1st \quarterNote\ in \B1: \sharp g′16–a′16–b′8 \\
+    & 54 & b    & bar in \B1: A2 \\
+  3 & 12 & vl 2 & last \eighthNote\ in \B1: b′8 \\
+    & 15 & b    & 1st \halfNote\ in \B1: e2 \\
+  4 & 29 & vl 2 & bar in \B1: 7×\eighthNote \\
+    & 34 & vl 1 & bar in \B1: a′2–\crotchetRest \\
+  5 & 28 & vl 2 & 3rd \eighthNote\ in \B1: d′8 \\
 parts:
   b: Basso

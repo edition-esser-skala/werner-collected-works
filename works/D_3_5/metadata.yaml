@@ -13,12 +13,13 @@ sources:
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/968.html
     license: public domain
     principal: true
+toestyle: movement
 toe: |
-  –     & –   & After every movement in the vocal parts, \B1 contains lyrics
-                for antiphons at each station (see below). \\
-  1·11f & org & notes in treble ottavo clef added by editor \\
-  2·17  & org & bar in \B1: \flat B1–G2 \\*
-  3·69  & T   & 1st \halfNote\ in \B1: a8–g8–g4 \\
+  – & –   & –   & After every movement in the vocal parts, \B1 contains
+                  lyrics for antiphons at each station (see below). \\
+  1 & 11f & org & notes in treble ottavo clef added by editor \\
+  2 & 17  & org & bar in \B1: \flat B1–G2 \\*
+  3 & 69  & T   & 1st \halfNote\ in \B1: a8–g8–g4 \\
 lyrics: |
   \textsb{1}\\
   O salutaris hostia,\\
