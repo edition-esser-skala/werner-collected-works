@@ -57,7 +57,7 @@
     }
   }
   \bookpart {
-    \section "D.3.4 · 2" "Velum templi scissum"
+    \section "2" "Velum templi scissum"
     \addTocEntry
     \score { %\articulate
       <<
@@ -100,7 +100,7 @@
     }
   }
   \bookpart {
-    \section "D.3.4 · 3" "Vinea mea electa"
+    \section "3" "Vinea mea electa"
     \addTocEntry
     \score { %\articulate
       <<

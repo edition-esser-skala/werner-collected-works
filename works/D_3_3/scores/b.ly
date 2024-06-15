@@ -17,7 +17,7 @@
     }
   }
   \bookpart {
-    \section "D.3.3 · 2" "Tristis est anima"
+    \section "2" "Tristis est anima"
     \addTocEntry
     \score {
       <<
@@ -26,7 +26,7 @@
     }
   }
   \bookpart {
-    \section "D.3.3 · 3" "Ecce vidimus eum"
+    \section "3" "Ecce vidimus eum"
     \addTocEntry
     \paper { page-count = #1 }
     \score {

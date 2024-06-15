@@ -50,7 +50,7 @@
     }
   }
   \bookpart {
-    \section "D.3.1 · 2" "Sepulto Domino"
+    \section "2" "Sepulto Domino"
     \addTocEntry
     \score { %\articulate
       <<

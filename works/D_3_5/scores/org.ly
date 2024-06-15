@@ -19,7 +19,7 @@
     }
   }
   \bookpart {
-    \section "D.3.5 · 2" "Offertorium ad 2dum Evangelium"
+    \section "2" "Offertorium ad 2dum Evangelium"
     \addTocEntry
     \score {
       <<
@@ -29,7 +29,7 @@
     }
   }
   \bookpart {
-    \section "D.3.5 · 3" "Offertorium ad 3tium Evangelium"
+    \section "3" "Offertorium ad 3tium Evangelium"
     \addTocEntry
     \score {
       <<
@@ -39,7 +39,7 @@
     }
   }
   \bookpart {
-    \section "D.3.5 · 4" "Offertorium ad 4tum Evangelium"
+    \section "4" "Offertorium ad 4tum Evangelium"
     \addTocEntry
     \score {
       <<

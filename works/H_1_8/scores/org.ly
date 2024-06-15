@@ -18,7 +18,7 @@
     }
   }
   \bookpart {
-    \section "H.1.8 · 2" "Confitebor"
+    \section "2" "Confitebor"
     \addTocEntry
     \score {
       <<
@@ -28,7 +28,7 @@
     }
   }
   \bookpart {
-    \section "H.1.8 · 3" "Beatus vir"
+    \section "3" "Beatus vir"
     \addTocEntry
     \paper { systems-per-page = #7 }
     \score {
@@ -39,7 +39,7 @@
     }
   }
   \bookpart {
-    \section "H.1.8 · 4" "Laudate pueri"
+    \section "4" "Laudate pueri"
     \addTocEntry
     \paper { systems-per-page = #7 }
     \score {
@@ -50,7 +50,7 @@
     }
   }
   \bookpart {
-    \section "H.1.8 · 5" "Laudate Dominum"
+    \section "5" "Laudate Dominum"
     \addTocEntry
     \paper { systems-per-page = #3 }
     \score {
@@ -61,7 +61,7 @@
     }
   }
   \bookpart {
-    \section "H.1.8 · 6" "Magnificat"
+    \section "6" "Magnificat"
     \addTocEntry
     \paper { systems-per-page = #4 }
     \score {

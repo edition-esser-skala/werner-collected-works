@@ -16,7 +16,7 @@
     }
   }
   \bookpart {
-    \section "Z.5 · 2" "Secunda statio"
+    \section "2" "Secunda statio"
     \addTocEntry
     \paper { systems-per-page = #7 }
     \score {
@@ -26,7 +26,7 @@
     }
   }
   \bookpart {
-    \section "Z.5 · 3" "Tertia statio"
+    \section "3" "Tertia statio"
     \addTocEntry
     \score {
       <<
@@ -35,7 +35,7 @@
     }
   }
   \bookpart {
-    \section "Z.5 · 4" "Quarta statio"
+    \section "4" "Quarta statio"
     \addTocEntry
     \score {
       <<

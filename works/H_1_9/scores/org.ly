@@ -17,7 +17,7 @@
     }
   }
   \bookpart {
-    \section "H.1.9 · 2" "Confitebor"
+    \section "2" "Confitebor"
     \addTocEntry
     \score {
       <<
@@ -27,7 +27,7 @@
     }
   }
   \bookpart {
-    \section "H.1.9 · 3" "Beatus vir"
+    \section "3" "Beatus vir"
     \addTocEntry
     \score {
       <<
@@ -37,7 +37,7 @@
     }
   }
   \bookpart {
-    \section "H.1.9 · 4" "Laudate pueri"
+    \section "4" "Laudate pueri"
     \addTocEntry
     \score {
       <<
@@ -47,7 +47,7 @@
     }
   }
   \bookpart {
-    \section "H.1.9 · 6" "Magnificat"
+    \section "6" "Magnificat"
     \addTocEntry
     \score {
       <<
