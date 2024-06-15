@@ -8,6 +8,8 @@
 \shortname{Werner}
 \shorttitle{Proprium missæ}
 
+\providecommand\MetadataToestyle{short}
+
 \ifthenelse{\isundefined{\MetadataFestival}}{%
   \subtitle{%
     \MetadataSubtitle\\[\baselineskip]%
@@ -27,10 +29,13 @@
 
 \makeatletter%
   \ifthenelse{\isundefined{\MetadataToe}}{\ees@toefalse}{}%
+  \ifthenelse{\equal{\MetadataToestyle}{movement}}%
+    {\let\ees@tocstyle\ees@tocstyle@default}{}%
 \makeatother%
 \eesCriticalReport{\csname MetadataToe\endcsname}
 \makeatletter%
   \ees@toetrue%
+  \let\ees@tocstyle\ees@tocstyle@none%
 \makeatother
 
 \ifthenelse{\isundefined{\MetadataLyrics}}{}{%
