@@ -4,7 +4,7 @@ I-I-XXVII-Tenore = {
   \relative c' {
     \clef "treble_8"
     \key g \major \time 4/4 \tempoI-I-XXVII \autoBeamOff
-    \mvTr g4~ g16[ h a g] d'8 a h fis
+    \mvTr g4~\pE^\soloE g16[ h a g] d'8 a h fis
     g16([ fis)] g8 g'4. fis16([ e)] d([ a)] h([ c)]
     h([ a)] g8 r h a h16 cis d8 fis,
     g16([ fis)] g8 e'16([ cis)] a([ g)] g([ fis)] fis8 r a
