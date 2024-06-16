@@ -15,7 +15,7 @@
     \section "P.4" "Symphonia prima"
     \addTocEntry
     \paper { indent = 3\cm }
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -40,13 +40,13 @@
         \new FiguredBass { \P-IVSymphoniaPrimaBassFigures }
       >>
       \layout { }
-      \midi { \tempo4 = 100 }
+      \midi { \tempo 4 = 90 } % 60 – 4. = 100
     }
   }
   \bookpart {
     \section "M.17" "Sonata prima"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -71,13 +71,13 @@
         \new FiguredBass { \P-IVSonataPrimaBassFigures }
       >>
       \layout { }
-      \midi { \tempo4 = 100 }
+      \midi { \tempo 4 = 80 } % 120 – 160 – 90
     }
   }
   \bookpart {
     \section "P.5" "Symphonia secunda"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -102,13 +102,13 @@
         \new FiguredBass { \P-IVSymphoniaSecundaBassFigures }
       >>
       \layout { }
-      \midi { \tempo4 = 100 }
+      \midi { \tempo 4 = 90 } % 80 – 120
     }
   }
   \bookpart {
     \section "M.18" "Sonata secunda"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -133,13 +133,13 @@
         \new FiguredBass { \P-IVSonataSecundaBassFigures }
       >>
       \layout { }
-      \midi { \tempo4 = 100 }
+      \midi { \tempo 4 = 100 } % 240 – 60 – 100
     }
   }
   \bookpart {
     \section "P.6" "Symphonia tertia"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -164,13 +164,13 @@
         \new FiguredBass { \P-IVSymphoniaTertiaBassFigures }
       >>
       \layout { }
-      \midi { \tempo4 = 100 }
+      \midi { \tempo 4 = 110 } % 80 – 130
     }
   }
   \bookpart {
     \section "M.19" "Sonata tertia"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -195,13 +195,13 @@
         \new FiguredBass { \P-IVSonataTertiaBassFigures }
       >>
       \layout { }
-      \midi { \tempo4 = 100 }
+      \midi { \tempo 4 = 70 } % 110 – 160 – 110
     }
   }
   \bookpart {
     \section "P.7" "Symphonia quarta"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -226,13 +226,13 @@
         \new FiguredBass { \P-IVSymphoniaQuartaBassFigures }
       >>
       \layout { }
-      \midi { \tempo4 = 100 }
+      \midi { \tempo 4 = 120 } % 80 – 120
     }
   }
   \bookpart {
     \section "M.20" "Sonata quarta"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -257,13 +257,13 @@
         \new FiguredBass { \P-IVSonataQuartaBassFigures }
       >>
       \layout { }
-      \midi { \tempo4 = 100 }
+      \midi { \tempo 4 = 80 } % 120 – 70 – 120
     }
   }
   \bookpart {
     \section "P.8" "Symphonia quinta"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -288,13 +288,13 @@
         \new FiguredBass { \P-IVSymphoniaQuintaBassFigures }
       >>
       \layout { }
-      \midi { \tempo4 = 100 }
+      \midi { \tempo 4 = 120 } % 80 – 130
     }
   }
   \bookpart {
     \section "M.21" "Sonata quinta"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -319,13 +319,13 @@
         \new FiguredBass { \P-IVSonataQuintaBassFigures }
       >>
       \layout { }
-      \midi { \tempo4 = 100 }
+      \midi { \tempo 4 = 70 } % 120 – 70 – 110
     }
   }
   \bookpart {
     \section "P.9" "Symphonia sexta"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -350,13 +350,13 @@
         \new FiguredBass { \P-IVSymphoniaSextaBassFigures }
       >>
       \layout { }
-      \midi { \tempo4 = 100 }
+      \midi { \tempo 4 = 100 } % 60 – 120
     }
   }
   \bookpart {
     \section "M.22" "Sonata sexta"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
@@ -381,7 +381,7 @@
         \new FiguredBass { \P-IVSonataSextaBassFigures }
       >>
       \layout { }
-      \midi { \tempo4 = 100 }
+      \midi { \tempo 4 = 60 } % 120 – 70 – 120
     }
   }
 }
