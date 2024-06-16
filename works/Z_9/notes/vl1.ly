@@ -3,7 +3,7 @@
 Z-IX-IViolinoI = {
   \relative c' {
     \clef treble
-    \key f \major \time 3/4 \zempoZ-IX-Ia
+    \key f \major \time 3/4 \tempoZ-IX-Ia
     r8 a''\fE a a, a4
     r8 b' b b, b4
     r8 c' c c, d f,
@@ -35,7 +35,7 @@ Z-IX-IViolinoI = {
     r a\piuP a16\trill g a8 a16\trill g a8
     r as\pp as16\trill g as8 as16\trill g as8 \noBreak %30
     as( g) g4 r\fermata \bar "||"
-    \time 4/4 \zempoZ-IX-Ib R1*4 %35
+    \time 4/4 \tempoZ-IX-Ib R1*4 %35
     r8 c\fE e a fis e16 fis g8 g,
     r g d' g e d16 e f8 f,
     dis' cis16 dis e8 e, cis' h16 cis d8 d,
@@ -77,7 +77,7 @@ Z-IX-IViolinoI = {
     a c f e16 f d8 f b a16 b
     g8 g c b16 c a8 a d c16 d %75
     b2.\fermata r4
-    \zempoZ-IX-Ic as\fermata r f2~
+    \tempoZ-IX-Ic as\fermata r f2~
     f8. g16 e4\trill f r\fermata \bar "|." %78 finis
   }
 }
@@ -85,7 +85,7 @@ Z-IX-IViolinoI = {
 Z-IX-IIViolinoI = {
   \relative c' {
     \clef treble
-    \key d \minor \time 3/4 \zempoZ-IX-IIa
+    \key d \minor \time 3/4 \tempoZ-IX-IIa
     r4 a'\f a
     r f'\p f
     r b\f b
@@ -111,7 +111,7 @@ Z-IX-IIViolinoI = {
     a\pp a a
     gis gis gis \noBreak
     a2 r4\fermata \bar "||" %25
-    \time 4/4 \zempoZ-IX-IIb \newSpacingSection d2\fE gis4~ gis8.\trill fis32 gis \noBreak
+    \time 4/4 \tempoZ-IX-IIb \newSpacingSection d2\fE gis4~ gis8.\trill fis32 gis \noBreak
     a8 a, c4 fis~ fis8.\trill e32 fis
     g!8 g, b!4 e!~ e8.\trill d32 e
     f!8 e d e16 f e8 d cis d16 e
@@ -170,7 +170,7 @@ Z-IX-IIViolinoI = {
     e4. e8 a,4 r8 a'
     g e a, g' f d a f'
     e h e, d' cis a d4~ %85
-    d cis \zempoZ-IX-IIc d8 d, d d
+    d cis \tempoZ-IX-IIc d8 d, d d
     gis2~ gis8 h h h
     d2 cis8 e e e
     g2. f4
@@ -182,7 +182,7 @@ Z-IX-IIViolinoI = {
 Z-IX-IIIViolinoI = {
   \relative c' {
     \clef treble
-    \key c \dorian \time 4/4 \zempoZ-IX-IIIa
+    \key c \dorian \time 4/4 \tempoZ-IX-IIIa
     r8 g''\f es( d)^\critnote r g,\p es( d)
     r g\f es' c as4~ as16 f' d as
     g4 es' d2
@@ -197,7 +197,7 @@ Z-IX-IIIViolinoI = {
     es) d( es) fis( g) f es4
     r es,\pp es4. es8 \noBreak
     d1\fermata \bar "||"
-    \time 3/4 \zempoZ-IX-IIIb r4 es'\fE g \noBreak %15
+    \time 3/4 \tempoZ-IX-IIIb r4 es'\fE g \noBreak %15
     c,2 r4
     r d f
     b,2 r4
@@ -251,7 +251,7 @@ Z-IX-IIIViolinoI = {
 Z-IX-IVViolinoI = {
   \relative c' {
     \clef treble
-    \key c \dorian \time 4/4 \zempoZ-IX-IVa
+    \key c \dorian \time 4/4 \tempoZ-IX-IVa
     R1
     c'2\fE h
     as' g
@@ -292,7 +292,7 @@ Z-IX-IVViolinoI = {
     c8 c[\pp c c] as'2~
     as4 g2 fis4 \noBreak
     g1\fermata \bar "||" %40
-    \zempoZ-IX-IVb r8 g'\f g g as fis fis fis \noBreak
+    \tempoZ-IX-IVb r8 g'\f g g as fis fis fis \noBreak
     g es es es f d g g,
     c16 d es d es c es f g fis g a! g b a g
     fis d e fis g f es d es d c b a d c d
@@ -358,7 +358,7 @@ Z-IX-IVViolinoI = {
 Z-IX-VViolinoI = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/4 \zempoZ-IX-Va
+    \key d \minor \time 4/4 \tempoZ-IX-Va
     R1
     r4 d'2\fE c!4
     b2\trill a4 a'~
@@ -378,7 +378,7 @@ Z-IX-VViolinoI = {
     f8 f' e4 d c
     b a4. a8 d gis, \noBreak
     a2 r\fermata \bar "||"
-    \zempoZ-IX-Va r2 a8.\fE a16 a8 a \noBreak %20
+    \tempoZ-IX-Vb r2 a8.\fE a16 a8 a \noBreak %20
     d, d' f4 r8 e g4
     r8 f a4 r8 g b4~
     b8 a16 g f8 e f d16 e f4~
@@ -418,7 +418,7 @@ Z-IX-VViolinoI = {
     a,8. a16 b8 c d8. d16 e8 f
     g a f g f4 e\trill
     d8 d,\p b'4 r8 c, a'4
-    r8 d g,2 \zempoZ-IX-Vc f4~ %60
+    r8 d g,2 \tempoZ-IX-Vc f4~ %60
     f f e2\trill
     d1\fermata \bar "|." %62 finis
   }
@@ -427,7 +427,7 @@ Z-IX-VViolinoI = {
 Z-IX-VIViolinoI = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \zempoZ-IX-VIa
+    \key g \minor \time 4/4 \tempoZ-IX-VIa
     g'4.\p a8 b( c) d es16( d)
     es4. g,8 fis2
     g4. b'8 cis,4.\f d16( cis)
@@ -449,7 +449,7 @@ Z-IX-VIViolinoI = {
     g4. a16 b c4. b16 a
     b8 a g4. g,8 cis4\trill \noBreak %20
     d2 r\fermata \bar "||"
-    \time 3/4 \zempoZ-IX-VIb R2.*3
+    \time 3/4 \tempoZ-IX-VIb R2.*3
     g4 b r8 gis %25
     a16 gis a8 r fis g? f16 e
     f8 fis g gis a a,

@@ -3,7 +3,7 @@
 Z-IX-IViola = {
   \relative c' {
     \clef alto
-    \key d \minor \time 3/4 \zempoZ-IX-Ia
+    \key d \minor \time 3/4 \tempoZ-IX-Ia
     c4\fE r8 c c c
     c4 r8 g' g g
     c,4 r8 f d4
@@ -35,7 +35,7 @@ Z-IX-IViola = {
     c,4 r8 c\piuP c c
     d4 r8 d\pp d d \noBreak %30
     c2 r4\fermata \bar "||"
-    \time 4/4 \zempoZ-IX-Ib r8 f\fE a d h a16 h c8 c, \noBreak
+    \time 4/4 \tempoZ-IX-Ib r8 f\fE a d h a16 h c8 c, \noBreak
     r c g' c a g16 a b8 b,
     gis' fis16 gis a8 a, fis' e16 fis g?8 g,
     e' d16 e f8 e d f g16 f g f %35
@@ -77,7 +77,7 @@ Z-IX-IViola = {
     c, r8 f4 d g8~
     g e4 a f b8~ %75
     b g4 g8 g4\fermata r
-    \zempoZ-IX-Ic c,\fermata r des d
+    \tempoZ-IX-Ic c,\fermata r des d
     c4. c8 c4 r\fermata \bar "|." %78 finis
   }
 }
@@ -85,7 +85,7 @@ Z-IX-IViola = {
 Z-IX-IIViola = {
   \relative c' {
     \clef alto
-    \key d \minor \time 3/4 \zempoZ-IX-IIa
+    \key d \minor \time 3/4 \tempoZ-IX-IIa
     a4\f r r
     f'\p r r
     b\f r r
@@ -111,7 +111,7 @@ Z-IX-IIViola = {
     a,\pp d d
     d d d \noBreak
     cis2 r4\fermata \bar "||" %25
-    \time 4/4 \zempoZ-IX-IIb \newSpacingSection R1*5 %30
+    \time 4/4 \tempoZ-IX-IIb \newSpacingSection R1*5 %30
     r2 a\fE
     dis4~ dis8.\trill cis32 dis e8 e, g4
     cis~ cis8.\trill h32 cis d8 d, f!4
@@ -166,7 +166,7 @@ Z-IX-IIViola = {
     cis~ cis8.\trill h32 cis d4~ d8.\trill cis32 d
     e4~ e8.\trill d32 e f4~ f8.\trill e32 f
     gis4~ gis8.\trill fis32 gis a4 r8 a, %85
-    a2 \zempoZ-IX-IIc a4 r
+    a2 \tempoZ-IX-IIc a4 r
     r8 h h h h4 r
     r8 h h h e,4 r
     r8 e' e e e4 d
@@ -178,7 +178,7 @@ Z-IX-IIViola = {
 Z-IX-IIIViola = {
   \relative c' {
     \clef alto
-    \key c \dorian \time 4/4 \zempoZ-IX-IIIa
+    \key c \dorian \time 4/4 \tempoZ-IX-IIIa
     es4\f r8 g4 es8 r g~\p
     g es r as,\f f'2~
     f8 es g a!~ a fis d g~
@@ -193,7 +193,7 @@ Z-IX-IIIViola = {
     g8 g'4 a!8 d,4 c
     r8 a\pp a a r a a a \noBreak
     h1\fermata \bar "||"
-    \time 3/4 \zempoZ-IX-IIIb R2. \noBreak %15
+    \time 3/4 \tempoZ-IX-IIIb R2. \noBreak %15
     r8 f'16\fE e f8 f,16 g as b c8
     d16 c d c b4 r
     r8 es16 d es8 es,16 f g as b8
@@ -247,7 +247,7 @@ Z-IX-IIIViola = {
 Z-IX-IVViola = {
   \relative c' {
     \clef alto
-    \key c \dorian \time 4/4 \zempoZ-IX-IVa
+    \key c \dorian \time 4/4 \tempoZ-IX-IVa
     r2 r8 g\fE as h
     c c, es' d16 c g'8 d g4~
     g f es8 g4 es8
@@ -288,7 +288,7 @@ Z-IX-IVViola = {
     g4 r f'8\ppE f f f
     f4. es16 d c8 es d c \noBreak
     h1\fermata \bar "||" %40
-    \zempoZ-IX-IVb R1*6 %46
+    \tempoZ-IX-IVb R1*6 %46
     r2 r8 g'\fE g g
     as fis fis fis g es es es
     f d g g, c g'16 f g8 es
@@ -346,7 +346,7 @@ Z-IX-IVViola = {
 Z-IX-VViola = {
   \relative c' {
     \clef alto
-    \key d \minor \time 4/4 \zempoZ-IX-Va
+    \key d \minor \time 4/4 \tempoZ-IX-Va
     r2 r4 e~\fE
     e d e4. e8
     f4 g c,4. c8
@@ -366,7 +366,7 @@ Z-IX-VViola = {
     a d e a d, g c, f
     b, e a, d d,4 b' \noBreak
     e,2 r\fermata \bar "||"
-    \zempoZ-IX-Va r8 d'\fE f d e4. cis8 \noBreak %20
+    \tempoZ-IX-Vb r8 d'\fE f d e4. cis8 \noBreak %20
     a4 r r2
     R1*3
     r2 r8 c a a'~ %25
@@ -404,7 +404,7 @@ Z-IX-VViola = {
     r8 c f16 g e f d e c d b8 d
     cis e f b a4. a8
     a4 r8 g\p g4 r8 f
-    f4 r8 e e4 \zempoZ-IX-Vc d %60
+    f4 r8 e e4 \tempoZ-IX-Vc d %60
     a' h a a,
     a1\fermata \bar "|." %62 finis
   }
@@ -413,7 +413,7 @@ Z-IX-VViola = {
 Z-IX-VIViola = {
   \relative c' {
     \clef alto
-    \key g \minor \time 4/4 \zempoZ-IX-VIa
+    \key g \minor \time 4/4 \tempoZ-IX-VIa
     b4.\p c8 d( c) b( g)
     g'2 a4. a8
     d,2 r4 r8 e\f
@@ -435,7 +435,7 @@ Z-IX-VIViola = {
     r g' fis8 g a4
     d, d4. g8 fis g \noBreak %20
     a2 r\fermata \bar "||"
-    \time 3/4 \zempoZ-IX-VIb r4 g a \noBreak
+    \time 3/4 \tempoZ-IX-VIb r4 g a \noBreak
     r8 fis g fis16 g e8 fis
     g16 a g f e8 a16 g fis d d' c
     b8 g r4 r %25

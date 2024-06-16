@@ -3,7 +3,7 @@
 Z-IX-ICello = {
   \relative c {
     \clef bass
-    \key f \major \time 3/4 \zempoZ-IX-Ia
+    \key f \major \time 3/4 \tempoZ-IX-Ia
     f4\fE r8 f f f
     e4 r8 e e e
     f4 r8 f b, d
@@ -35,7 +35,7 @@ Z-IX-ICello = {
     f4 r8 f\piuP f f
     h,4 r8 h\pp h h \noBreak %30
     c4 c, r\fermata \bar "||"
-    \time 4/4 \zempoZ-IX-Ib R1*4 %35
+    \time 4/4 \tempoZ-IX-Ib R1*4 %35
     c'4\fE c'2 h4
     g, b'2 a4~
     a gis g fis
@@ -74,7 +74,7 @@ Z-IX-ICello = {
     f4 r8 a' b a16 b g8 g
     c b16 c a8 a d c16 d b8 a16 b %75
     g8 f16 g e8 d16 e c4\fermata r
-    \zempoZ-IX-Ic f\fermata r des h
+    \tempoZ-IX-Ic f\fermata r des h
     c c, f r\fermata \bar "|." %78 finis
   }
 }
@@ -155,7 +155,7 @@ Z-IX-IBassFigures = \figuremode {
 Z-IX-IICello = {
   \relative c {
     \clef bass
-    \key d \minor \time 3/4 \zempoZ-IX-IIa
+    \key d \minor \time 3/4 \tempoZ-IX-IIa
     d4\f r r
     d'\p r r
     g,\f r r
@@ -181,7 +181,7 @@ Z-IX-IICello = {
     d\pp d d
     b! b b \noBreak
     a2 r4\fermata \bar "||" %25
-    \time 4/4 \zempoZ-IX-IIb \newSpacingSection \newSpacingSection R1*5 %30
+    \time 4/4 \tempoZ-IX-IIb \newSpacingSection \newSpacingSection R1*5 %30
     r2 r8 e'\fE a, c'
     h fis h, a' g h, e, h''
     a e a, g' f a, d, a''
@@ -234,7 +234,7 @@ Z-IX-IICello = {
     a~
     a2. f8 d %85
     a'4 a, d r
-    \zempoZ-IX-IIc r8 f f f e4 r
+    \tempoZ-IX-IIc r8 f f f e4 r
     r8 e e e a4 r
     r8 b! b b a4 b
     r8 gis,\ppE gis gis a2 %90
@@ -325,7 +325,7 @@ Z-IX-IIBassFigures = \figuremode {
 Z-IX-IIICello = {
   \relative c {
     \clef bass
-    \key c \dorian \time 4/4 \zempoZ-IX-IIIa
+    \key c \dorian \time 4/4 \tempoZ-IX-IIIa
     c4\fE r8 g' es c r g\p
     es c r4 r8 f'\f d' b
     es es, c' a! fis d b' g
@@ -340,7 +340,7 @@ Z-IX-IIICello = {
     g2. as4
     r8 fis\pp fis fis r fis fis fis \noBreak
     g1\fermata \bar "||"
-    \time 3/4 \zempoZ-IX-IIIb r8 c'16\fE h c8 c,16 d es f g8 \noBreak %15
+    \time 3/4 \tempoZ-IX-IIIb r8 c'16\fE h c8 c,16 d es f g8 \noBreak %15
     as16 g as g f4 r
     r8 b16 a b8 b,16 c d es f8
     g16 f g f es4 r8 g
@@ -456,7 +456,7 @@ Z-IX-IIIBassFigures = \figuremode {
 Z-IX-IVCello = {
   \relative c {
     \clef bass
-    \key c \dorian \time 4/4 \zempoZ-IX-IVa
+    \key c \dorian \time 4/4 \tempoZ-IX-IVa
     c2\fE h
     as' g
     r8 f as h c c, c' b
@@ -497,7 +497,7 @@ Z-IX-IVCello = {
     c4 r f8\pp f f f
     h,4 c as2 \noBreak
     g1\fermata \bar "||" %40
-    \zempoZ-IX-IVb R1*8 %48
+    \tempoZ-IX-IVb R1*8 %48
     r2 r8 c'\fE c c
     es cis cis cis d b! b b %50
     c a d d, g4 r16 g as b
@@ -633,7 +633,7 @@ Z-IX-IVBassFigures = \figuremode {
 Z-IX-VCello = {
   \relative c {
     \clef bass
-    \key d \minor \time 4/4 \zempoZ-IX-Va
+    \key d \minor \time 4/4 \tempoZ-IX-Va
     d2\fE cis
     d a4 a'
     d, e f2
@@ -653,7 +653,7 @@ Z-IX-VCello = {
     a1~
     a2 b \noBreak
     a r\fermata \bar "||"
-    \zempoZ-IX-Va r4 d4.\fE cis8 cis d16 e \noBreak %20
+    \tempoZ-IX-Vb r4 d4.\fE cis8 cis d16 e \noBreak %20
     f4 r8 d a'4 r8 a,
     d4 r8 d g4 g,
     a r8 cis d8.[ c16 h8. a16]
@@ -688,7 +688,7 @@ Z-IX-VCello = {
     f f' e f d e c d b c a b g a f g
     e8 cis' d g, a g a a
     d,4 r8 g'\p c,4 r8 f
-    b,4 r8 e a,4 \zempoZ-IX-Vc b %60
+    b,4 r8 e a,4 \tempoZ-IX-Vc b %60
     a gis a2
     d,1\fermata \bar "|." %62 finis
   }
@@ -757,7 +757,7 @@ Z-IX-VBassFigures = \figuremode {
 Z-IX-VICello = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \zempoZ-IX-VIa
+    \key g \minor \time 4/4 \tempoZ-IX-VIa
     g'1~\p
     g~
     g2 r8 g4\f g8
@@ -779,7 +779,7 @@ Z-IX-VICello = {
     es d c b a g fis4
     g g'8 f! es2 \noBreak %20
     d r\fermata \bar "||"
-    \time 3/4 \zempoZ-IX-VIb R2.*9 %30
+    \time 3/4 \tempoZ-IX-VIb R2.*9 %30
     g4 b r8 gis
     a16 gis a8 r fis g? f16 e
     f8 fis g gis a a,

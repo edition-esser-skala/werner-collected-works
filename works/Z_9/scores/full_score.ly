@@ -15,7 +15,7 @@
     \section "Z.9 · 1" "Larghetto – Vivace – Adagio"
     \addTocEntry
     \paper { indent = 2\cm }
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
@@ -42,13 +42,13 @@
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 80 } % 110 – 70
     }
   }
   \bookpart {
     \section "2" "Largo – Allegro – Adagio"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
@@ -75,13 +75,13 @@
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 90 } % 110 – 7ß
     }
   }
   \bookpart {
     \section "3" "Adagio ma poco – Allegro"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
@@ -108,13 +108,13 @@
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 60 } % 120
     }
   }
   \bookpart {
     \section "4" "Grave – Allegro"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
@@ -141,13 +141,13 @@
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 55 } % 110
     }
   }
   \bookpart {
     \section "5" "Adagio ma poco – Allegro – Adagio"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
@@ -174,13 +174,13 @@
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 60 } % 110 – 70
     }
   }
   \bookpart {
     \section "6" "Adagio ma poco – Vivace"
     \addTocEntry
-    \score {
+    \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
@@ -207,7 +207,7 @@
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 70 } % 120
     }
   }
 }
