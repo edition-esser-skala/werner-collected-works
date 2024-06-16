@@ -1,0 +1,64 @@
+title: Symphoniæ sex senæque sonatæ
+id: WerW P.4–9, M.17–22
+genre: sinfonias, sonatas
+scoring: 2 vl, bc
+license: cc-by-sa-4.0
+sources:
+  C1:
+    siglum: D-Dl
+    shelfmark: Mus.2462-Q-1
+    date: 1734–1735
+    rism: 990068292
+    url: https://digital.slub-dresden.de/id334703093
+    license: public domain
+    principal: true
+    notes: Johann Christian Leopold, Augsburg, 1735
+imslp: Symphoniae_6_senaeque_sonatae_(Werner,_Gregor_Joseph)
+toestyle: movement
+toe: |
+  P.4  & 94f & vl 1 & bars in \C1: g4. \\
+  P.5  & 13  & vl 1 & 4th \sixteenthNote\ in \C1: f″8 \\
+       & 62  & bc   & bar in \C1: d2–\crotchetRest \\
+       & 84  & bc   & bar in \C1: \flat B4. \\
+  M.18 & 27  & vl 1 & bar in \C1: g″1 \\
+       & 201 & vl 2 & 1st to 4th \sixteenthNote\ in \C1:
+                      a′16–\sharp g′16–a′16–\flat b′16 \\
+  P.6  & 123 & vl 2 & bar in \C1: c″8–d″8–e″8 \\
+  P.7  & 118 & bc   & bar in \C1: A4. \\
+  P.8  & 18  & vl 2 & 3nd \eighthNote\ in \C1: e′8 \\
+       & 60  & vl 2 & 3rd \eighthNote\ in \C1: \sharp f″8 \\
+  M.21 & 86  & vl 1 & bar in \C1: e′2. \\*
+       & 153 & vl 1 & bar in \C1: d″4. \\
+commentary: |
+  \textsb{Prefatory pages}\\[3ex]
+  The first three pages of each part contain the following text:\\[1ex]
+  \textit{Page 1}\\
+  sYMphonIæ seX senæqVè sonatæ, | qVæ | posterIores pro CapeLLIs VsVrpanDæ, | AnterIores Verò eX CaMerIs | VenIrent eXCIpIenDæ. | A | GregorIo Werner, ALtetItVulatI PrInCI= | pIs EsterhasY CapeLLæ MagIstro | ConCInnatæ, aC eXposItæ. | EX Vrbe EIsenstatt, proXIMè aD | CoLLes LeYthæ In HVngarIa.\\[1ex]
+  \textit{Page 2}\\
+  EsterhasIanæ AntonIaDI, | EX aVstrasIa fortUnâ seCVnDâ reDVCI. | ſeu | Celsiſsimo Sac:Rom:Imp: Principi ac Domino, | Domino Antonio Carolo Esterhasy de Galantha, | Perpetuo Comiti in Frakno Sac:Cæſ:Regiæque | Majestatis Conſiliario, Camerario, | nec non Inclyti Comitatûs | ſopronienſis hæreditario | ſupremo Comiti /:Tit:/ | Domino Domino | Gratiosiſsimo. | CVI | faVente faVsto sYDere, eX MarChIonIbVs | LVnatI VIsContI, VIrtVte, | ALtoqVe sangVIne aDnataM,\\[1ex]
+  \textit{Page 3}\\
+  VICesIMâ seCVndâ XbrIs, | atqVè annI nVperi, | LVnæ: VILLæ In LotharInoIa, IVXta | Vota DesponsataM | Neo: PrInCIpeM, fortVnatIs AVIbVs | eXInDè aLLatVro. | [ornament] | Ista DeDICat, seqVe sVbsternIt DICtVs | GregorIVs Werner.\\[3ex]
+  Uppercase letters most likely indicate Roman numerals, whose exact meaning remain elusive.
+
+# YMIXVVICLLIVVD
+# IVXCMI
+# VIXCIID
+# IWLIVLIICI
+# IYCLLMI
+# CCICXI
+# XVIXIMD
+# CLLLYIVI
+# IIDI
+# XVIVCVDDVCI
+# CVI
+# VVYDXMCIIV
+# LVIVICIVIV
+# LVVIDM
+# VICIMCVDXI
+# VIVI
+# LVVILLILIIIVX
+# VDM
+# ICIMVIVIV
+# XIDLLV
+# IDDICVVIDICV
+# IVW
