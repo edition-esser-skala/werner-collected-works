@@ -18,7 +18,7 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
@@ -29,8 +29,6 @@
               \P-IVSymphoniaPrimaViolinoII
             }
           >>
-        >>
-        \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
             % \transpose c c,
@@ -49,7 +47,7 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -60,8 +58,6 @@
               \P-IVSonataPrimaViolinoII
             }
           >>
-        >>
-        \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
@@ -80,7 +76,7 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -91,8 +87,6 @@
               \P-IVSymphoniaSecundaViolinoII
             }
           >>
-        >>
-        \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
@@ -111,7 +105,7 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -122,8 +116,6 @@
               \P-IVSonataSecundaViolinoII
             }
           >>
-        >>
-        \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
@@ -142,7 +134,7 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -153,8 +145,6 @@
               \P-IVSymphoniaTertiaViolinoII
             }
           >>
-        >>
-        \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
@@ -173,7 +163,7 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -184,8 +174,6 @@
               \P-IVSonataTertiaViolinoII
             }
           >>
-        >>
-        \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
@@ -204,7 +192,7 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -215,8 +203,6 @@
               \P-IVSymphoniaQuartaViolinoII
             }
           >>
-        >>
-        \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
@@ -235,7 +221,7 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -246,8 +232,6 @@
               \P-IVSonataQuartaViolinoII
             }
           >>
-        >>
-        \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
@@ -266,7 +250,7 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -277,8 +261,6 @@
               \P-IVSymphoniaQuintaViolinoII
             }
           >>
-        >>
-        \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
@@ -297,7 +279,7 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -308,8 +290,6 @@
               \P-IVSonataQuintaViolinoII
             }
           >>
-        >>
-        \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
@@ -328,7 +308,7 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -339,8 +319,6 @@
               \P-IVSymphoniaSextaViolinoII
             }
           >>
-        >>
-        \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
@@ -359,7 +337,7 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -370,8 +348,6 @@
               \P-IVSonataSextaViolinoII
             }
           >>
-        >>
-        \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
