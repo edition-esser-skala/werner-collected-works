@@ -1,0 +1,63 @@
+\version "2.24.0"
+
+\include "../../../definitions_main.ly"
+\include "../definitions.ly"
+#(define option-instrument-name "vla")
+\include "score_settings/one-staff.ly"
+
+\book {
+  \bookpart {
+    \section "Z.9 · 1" "Larghetto – Vivace – Adagio"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \Z-IX-IViola }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Largo – Allegro – Adagio"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \Z-IX-IIViola }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Adagio ma poco – Allegro"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \Z-IX-IIIViola }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Grave – Allegro"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \Z-IX-IVViola }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Adagio ma poco – Allegro – Adagio"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \Z-IX-VViola }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Adagio ma poco – Vivace"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \Z-IX-VIViola }
+      >>
+    }
+  }
+}

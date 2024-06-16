@@ -1,0 +1,25 @@
+title: Sechs Fugen in Quartetten
+id: WerW Z.9
+genre: fugues
+scoring: 2 vl, vla, vlc, [bc]
+license: cc-by-sa-4.0
+sources:
+  C1:
+    siglum: US-DMu
+    shelfmark: 269477
+    date: 1804
+    rism: 990068295
+    url: https://idn.duke.edu/ark:/87924/r3qz22w7k
+    license: public domain
+    principal: true
+    notes: Artaria, Vienna, plate number 1707
+imslp: 6_Fugues_(Werner,_Gregor_Joseph)
+toestyle: movement
+toe: |
+  – & –  & vlc  & All bass figures have been added by the editor. \\
+  1 & 35 & vl 2 & 1st note in \C1: b′8. \\
+  2 & 10 & vl 1 & 1st \quarterNote\ in \C1: c′′′ \\
+  3 & 1  & vl 1 & 4th \eighthNote\ in \C1: c″8 \\
+    & 1  & vl 2 & 6th to 8th \eighthNote\ in \C1: g′8–\flat e′8–d′8 \\
+    & 46 & vlc  & 4th \eighthNote\ in \C1: d16–\flat e16 \\
+  6 & 51 & vl 1 & 2nd \quarterNote\ in \C1: f″8–d″16–f″16 \\
