@@ -1,0 +1,33 @@
+title: Ecce homo sine quærella
+id: WerW D.1.11
+genre: motet
+festival: de Confessore
+scoring: S (solo), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 53
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/783.html
+    license: public domain
+    principal: true
+    notes: one of two org parts is an autograph manuscript
+parts:
+  S_solo: Soprano solo
+toe: |
+  44 & vl 2 & 4th \eighthNote\ in \B1: d′8 \\
+lyrics:
+  Ecce homo sine quaerella verus Dei cultor abstinens\\
+  se ab omni opere malo\\
+  et permanens in innocentia sua.\\
+  (Corpus Antiphonalium Officii, no. 6592)\\[1ex]
+  Iesu corona celsior\\
+  et veritas sublimior\\
+  qui confitenti servulo\\
+  reddis perenne praemium.\\[1ex]
+  Proinde te piissime\\
+  precamur omnes supplices\\
+  nobis ut huius gratia\\
+  poenas remittas debitas.\\
+  (Liber Hymnarius 1983, p. 312; Cantus Index 830352.1)\\[1ex]
+  Alleluia.
