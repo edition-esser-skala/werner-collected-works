@@ -95,3 +95,132 @@ Q-IIIaViolinoII = {
     a2 r4\fermata \bar "||" %103 finis
   }
 }
+
+Q-IIIcViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/8 \tempoQ-IIIc
+    R4.
+    a'8\fE a( h)
+    cis d h
+    cis4 r8
+    R4. %5
+    cis'8 cis( h)
+    a gis( fis)
+    e4 r8
+    R4.
+    cis8\pE cis( h) %10
+    a gis fis
+    e4 r8
+    R4.
+    \once \slurDashed fis16( gis) gis8.\trillE fis32( gis)
+    a8 gis fis %15
+    \once \slurDashed e16( fis) fis8.\trillE e32( fis)
+    gis8 fis e
+    d d' cis16 h
+    a8 fis e16 d
+    cis8 e-\critnote cis %20
+    a4 r8
+    R4.*22 %43
+    r8 cis'\fE fis~
+    fis gis16 a h8 %45
+    r h, e~
+    e fis16 gis a8
+    r a, dis~
+    dis e16 fis gis8~
+    gis e cis~ %50
+    cis dis16 e fis8~
+    fis dis h~
+    h cis16 dis e8~
+    e cis a
+    dis8. h16 e8 %55
+    e,16 fis gis8 fis\trillE
+    e4 r8
+    R4.
+    e8\pE e( fis)
+    gis e16 fis gis8 %60
+    a e cis
+    a4 r8
+    a a( h)
+    cis a16 h cis8
+    d' a fis %65
+    d4 r8
+    h h( cis)
+    dis h16 cis dis8
+    e' h gis
+    e4 cis'8 %70
+    cis( h) r
+    r r h
+    h( a) r
+    R4.*11 %84
+    e8\fE e( fis) %85
+    gis a fis
+    gis4 r8
+    R4.
+    gis'8 gis( fis)
+    e dis cis %90
+    h4 r8
+    R4.
+    \slurDashed cis,16( dis) dis8.\trill cis32( dis)
+    e8 dis cis
+    h16( cis) cis8.\trillE h32( cis) \slurSolid %95
+    dis8 cis h
+    a a' gis16 fis
+    e8 cis h16 a
+    gis4 r8
+    R4. %100
+    \sbOn gis'8 \tuplet 3/2 8 { a16 h a } gis fis
+    gis8 e r
+    r e16 fis gis8
+    R4.
+    ais8 \tuplet 3/2 8 { h16 cis h } ais gis %105
+    ais8 fis r
+    r fis16 gis ais8
+    h,4 r8
+    e\pE \tuplet 3/2 8 { fis16 g? fis g a \hA g }
+    a8 g fis16 e %110
+    d8 \tuplet 3/2 8 { e16 fis e fis g fis }
+    g8 fis e16 d
+    cis8 \tuplet 3/2 8 { d16 e d e fis e } \sbOff
+    fis4 r8
+    R4.*3 %117
+    r8 fis'\fE \once \tieDashed h~
+    h eis, \once \tieDashed cis'~
+    cis fis, d' %120
+    cis eis, fis
+    d gis,8. fis16
+    fis8 a16 gis fis e!
+    d4 r8
+    d\p d( e) %125
+    fis g fis16 e
+    fis4 r8
+    R4.
+    fis'8 fis( e)
+    d cis h %130
+    a4 r8
+    a\fE a( h)
+    cis cis( d)
+    e fis gis
+    a a, r %135
+    cis' cis( h)
+    a a( gis)
+    fis e dis
+    e4 r8
+    R4. %140
+    \slurDashed fis,16( gis) gis8.\trill fis32( gis)
+    a8 gis fis
+    e16( fis) fis8.\trill e32( fis) \slurSolid
+    gis8 fis e
+    d d' cis16 h %145
+    a8 fis e16 d
+    cis4 r8
+    R4.
+    \slurDashed fis16(\pE gis) gis8.\trillE fis32( gis)
+    a8 gis fis %150
+    e16( fis) \slurSolid fis8.\trill e32( fis)
+    gis8 fis e
+    d d' cis16 h
+    a8 fis e16 d
+    cis4 r8\fermata \bar "|." %155 finis
+  }
+}

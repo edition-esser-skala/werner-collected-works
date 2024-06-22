@@ -70,4 +70,64 @@
       \midi { \tempo 4 = 90 }
     }
   }
+  \bookpart {
+    \subsection "II"
+    \addTocEntry
+    \paper { systems-per-page = #5 }
+    \score { %\articulate
+      <<
+        \new Staff {
+          \set Staff.instrumentName = "fl"
+          \Q-IIIbFlauto
+        }
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = "vl 1"
+            \Q-IIIbViolinoI
+          }
+          \new Staff {
+            \set Staff.instrumentName = "b"
+            % \transpose c c,
+            \Q-IIIbBasso
+          }
+        >>
+        \new FiguredBass { \Q-IIIbBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 60 }
+    }
+  }
+  \bookpart {
+    \subsection "III"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new Staff {
+          \set Staff.instrumentName = "fl"
+          \Q-IIIcFlauto
+        }
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \Q-IIIcViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \Q-IIIcViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "b"
+            % \transpose c c,
+            \Q-IIIcBasso
+          }
+        >>
+        \new FiguredBass { \Q-IIIcBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4. = 72 }
+    }
+  }
 }

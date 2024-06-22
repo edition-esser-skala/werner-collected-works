@@ -95,3 +95,163 @@ Q-IIIaViolinoI = {
     a2 r4\fermata \bar "||" %103 finis
   }
 }
+
+Q-IIIbViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoQ-IIIb
+    R1*4
+    r2 e'4.\pE c16 h %5
+    a gis a8 r a h \tuplet 3/2 8 { h16 c d } c d h8
+    \appoggiatura d16 c h a8 r c d \tuplet 3/2 8 { d16 e f } e f d8
+    e16( d) c8 r e fis \tuplet 3/2 8 { fis16 g a } g( a) fis8
+    g16( e) g( a) a( h) h( c) c( fis,) fis( g) g( a) a( h)
+    h( e,) e( fis) fis( g) g( a) a( dis,) dis( e) e( fis) fis( g) %10
+    g8 h, e4~ e8 fis16 cis dis8.\trill e16
+    e4 r r2
+    r r8 h16( c!) c( d!) d( e)
+    e8 g, c4. d16 a h8.\trill c16
+    c4 r r2 %15
+    R1*4
+    d4. h16 a g( fis) g8 r g %20
+    a a32( h c16) h( c) a8 h a16 g c4~
+    c8 d16 a h8.\trill c16 c4 r
+    r2 \sbOn r16 a' \tuplet 3/2 8 { a[ g f] f e d d c h }
+    g'8 e, r4 r16 f' \tuplet 3/2 8 { f16[ e d] d c h h a g }
+    e'8 c, r4 r16 d' \tuplet 3/2 8 { d[ c h] h a gis gis fis? e %25
+    c' h a a h c d c h h c d e d c c d e f e d d e f } \sbOff
+    gis, f' e d \appoggiatura c8 h8.\trill a16 a( h) h( c) c( gis) gis( a)
+    a( h) h( c) c( gis) gis( a) a( h) h( c) c d e8~
+    e16 e a a, d8. e16 e2\fermata \bar "||" %29 finis
+  }
+}
+
+Q-IIIcViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/8 \tempoQ-IIIc
+    a'8\fE a( h)
+    cis cis( d)
+    e fis gis
+    a a, r
+    cis' cis( h) %5
+    a a( gis)
+    fis e dis
+    e4 r8
+    cis\pE cis( h)
+    a a( gis) %10
+    fis e dis
+    e4 r8
+    \slurDashed d'!16(\fE e) e8.\trill d32( e) \slurSolid
+    fis8 e d
+    cis16( d) d8.\trill cis32( d) %15
+    e8 d cis
+    h16( cis) cis8.\trillE h32( cis)
+    \once \slurDashed d16( e) e8.\trill d32( e)
+    fis8 a, gis
+    a e cis %20
+    a4 r8
+    R4.*22 %43
+    r8 cis'\fE fis~
+    fis gis16 a h8 %45
+    r h, e~
+    e fis16 gis a8
+    r a, dis~
+    dis e16 fis \once \tieDashed gis8~
+    gis e cis~ %50
+    cis dis?16 e fis8~
+    fis dis h~
+    h cis16 dis e8~
+    e cis a
+    dis8. h16 e8 %55
+    e,16 fis gis8 fis\trill
+    e4 r8
+    R4.
+    e8\p e( fis)
+    gis e16 fis gis8 %60
+    a e cis
+    a4 r8
+    a a( h)
+    cis a16 h cis8
+    d' a fis %65
+    d4 r8
+    h h( cis)
+    dis h16 cis dis8
+    << { e' h gis } \\ { e4 s8 } >>
+    e4 cis'8 %70
+    cis( h) r
+    r r h
+    h( a) r
+    R4.*10 %83
+    e8\fE e( fis)
+    gis gis( a) %85
+    h cis dis
+    e e, r
+    gis' gis( fis)
+    e e( dis)
+    cis h ais %90
+    h4 r8
+    \slurDashed a!16( h) h8.\trillE a32( h)
+    cis8 h a
+    gis16( a) a8.\trillE gis32( a)
+    h8 a gis %95
+    fis16( gis) gis8.\trillE fis32( gis)
+    a16( h) h8.\trillE a32( h) \slurSolid
+    cis8 e, dis
+    e4 r8
+    R4. %100
+    \sbOn h'8 \tuplet 3/2 8 { cis16 d! cis } h a \sbOff
+    h8 e r
+    r gis,16 a h8
+    R4.
+    \sbOn cis8 \tuplet 3/2 8 { d16 e d } cis h \sbOff %105
+    cis8 fis r
+    r ais,16 h cis8
+    h,4 r8
+    \sbOn g'8\pE \tuplet 3/2 8 { a16 h a h cis h } \sbOff
+    cis8 h a16 g %110
+    \sbOn fis8 \tuplet 3/2 8 { g16 a \hA g a h a } \sbOff
+    h8 a g16 fis
+    \sbOn e8 \tuplet 3/2 8 { fis16 g fis \hA g a \hA g } \sbOff
+    cis,4 r8
+    R4.*3 %117
+    r8 fis'\fE \once \tieDashed h~
+    h eis, cis'~
+    cis fis, d' %120
+    cis eis, fis
+    d gis,8. fis16
+    fis8 a16 gis fis e!
+    d4 r8
+    d\p d( e) %125
+    fis g fis16 e
+    fis4 r8
+    R4.
+    fis'8 fis( e)
+    d cis h %130
+    a4 r8
+    a\fE a( h)
+    cis cis( d)
+    e fis gis
+    a a, r %135
+    cis' cis( h)
+    a a( gis)
+    fis e dis
+    e4 r8
+    \slurDashed d!16( e) e8.\trillE d32( e) \slurSolid %140
+    fis8 e d
+    cis16( d) d8.\trill cis32( d)
+    e8 d cis
+    \once \slurDashed h16( cis) cis8.\trill h32( cis)
+    d16( e) e8.\trillE d32( e) %145
+    fis8 a, gis
+    a4 r8
+    \slurDashed d16(\p e) e8.\trillE d32( e)
+    fis8 e d
+    cis16( d) d8.\trillE cis32( d) %150
+    e8 d cis
+    h16( cis) cis8.\trillE h32( cis)
+    d16( e) e8.\trill d32( e) \slurSolid
+    fis8 a, gis
+    a4 r8\fermata \bar "|." %155 finis
+  }
+}
