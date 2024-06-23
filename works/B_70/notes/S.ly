@@ -80,6 +80,362 @@ B-LXXKyrieSopranoLyrics = \lyricmode {
   son. %36 finis
 }
 
+B-LXXCredoSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \lydian \time 4/2 \tempoB-LXXCredo \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+    c'1( d)
+    c2 a d d
+    d( cis) d d
+    h g c2.( h4)
+    a2 c h a %5
+    a( gis) a1
+    r r2 c~
+    c h a d~
+    d c h h
+    cis d h c?~ %10
+    c h c c~
+    c f e d
+    c4( g c1) b2
+    a f'2. e4 d2~
+    d4 c b1 a2 %15
+    a( h) c c~
+    c4 c a2 d2. d4
+    cis2 d e d~
+    d cis d d~
+    d d c b %20
+    a( g) f1
+    b g2 g(
+    c2.) c4 a2 b(
+    g2.) g4 a1
+    R\breve %25
+    r2 f b a
+    d c4 b a2 h
+    c c a d~
+    d4 d c2 h c
+    c( h) c1 %30
+    R\breve
+    r2 f, g b~
+    b4 a g2 f d'
+    g, r r1
+    r r2 g %35
+    a h!( c2.) c4
+    d2 e4( f) c2 f,
+    R\breve
+    f2 f' e d4 c
+    d2( e) f f( %40
+    e) e4 e d1~
+    d2 d d1
+    r r2 e
+    d h c2. c4
+    h2 h h h %45
+    cis1 d2 d
+    d( cis) d1
+    r r2 d
+    g,1. c2~
+    c a d1~ \noBreak %50
+    d c\fermata \bar "||"
+    \time 3/2 \tempoB-LXXEtIncarnatus
+      \unset Staff.timeSignatureFraction
+      R1.*4 %55
+    h2 e, d'
+    d c h~
+    h a g~
+    g f e
+    f1 a2 %60
+    a gis c
+    h a4 gis a2~
+    a gis r
+    r g a4( b)
+    c2( b) a %65
+    g2. g4 g2
+    R1.*2
+    g2 h d
+    es1.~ %70
+    es~
+    es2 d1
+    c r2\fermata \bar "||"
+    \time 4/2 \tempoB-LXXCrucifixus
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*4 %77
+    r1 g
+    as h!
+    c2 c2. g4 es'2~ %80
+    es d4( c) h2 c~
+    c h c r
+    R\breve
+    c1 h2 b
+    a as g2. g4 %85
+    fis2 g1( fis2)
+    g d'( es) h!
+    c2. b4 a!2 d
+    c d c1~
+    c c2 c %90
+    c1 h! \noBreak
+    c\breve\fermata \bar "||"
+    \tempoB-LXXEtResurrexit
+      r1 g2 c~ \noBreak
+    c e d d
+    R\breve %95
+    r2 h c d
+    a1 g2 c
+    c h4 h a1
+    h2 g1 h2~
+    h d1 g2~ %100
+    g g, r e~
+    e g c1
+    c2 c c d~
+    d e d d
+    r e( d) h %105
+    c( e) d h
+    g c h a~
+    a gis a c
+    c1. c2
+    a d e f %110
+    e c c h!
+    c1 c~
+    c2 c d1
+    d b
+    c2 b a2. a4 %115
+    g2 b2. b4 a2
+    b d c2 b
+    a2. a4 b( \once \stemDown a b2)
+    a c1 c2
+    d2. d4 a2 b~ %120
+    b g c1~
+    c2 f e e~
+    e c f d
+    c( d) c c~
+    c a d1 %125
+    h!2 e2. e4 c2~
+    c4 c c2 c( h)
+    c1 r
+    R\breve*2 %130
+    d1. d2
+    d d d1
+    d2 g, b d
+    e1 e
+    e\breve %135
+    e2 e1 c2
+    a d h g
+    c1. h4 a
+    d1 h2 c~
+    c h c g %140
+    c1 a2 d~
+    d h g c~
+    c a d1
+    h2( e1) c2
+    a d d c %145
+    h2. h4 a1
+    r2 c c2. c4
+    c2 cis d d
+    d( cis) d f~
+    f e d1 %150
+    c b
+    a2 a1 a2
+    a( g) a1
+    r2 a1 c!2
+    c1. d2 %155
+    c f e d
+    c2. b4 a( h) c2
+    c h4 a h1
+    c r
+    R\breve %160
+    r1 f,
+    a2.( h!4) c2 a
+    b c d c4( b)
+    a2 a1( h2)
+    c g c a %165
+    f' e4 d c2 b4 a
+    g2 r r1
+    f1 c'2 a
+    f' e4 d c2 b4 a
+    g2 c, f e %170
+    a g c b4 a
+    g2 a b c
+    d e f e4 d
+    c2 c c1
+    c2 a( d c4 b) %175
+    a2 c1 c2
+    c\breve
+    c1 r\fermata \bar "|." %178 finis
+  }
+}
+
+B-LXXCredoSopranoLyrics = \lyricmode {
+  Pa --
+  trem o -- mni -- po --
+  ten -- tem, fa --
+  cto -- rem coe --
+  li, coe -- li et %5
+  ter -- rae,
+  vi --
+  si -- bi -- _
+  li -- um et
+  in -- vi -- si -- bi -- %10
+  li -- um. Et __
+  in u -- num
+  Do -- mi --
+  num Je -- _ _
+  _ _ sum %15
+  Chri -- stum, Fi --
+  li -- um De -- i
+  u -- ni -- ge -- _
+  ni -- tum, et __
+  ex Pa -- tre %20
+  na -- tum
+  an -- te o --
+  mni -- a sae --
+  cu -- la.
+  %25
+  De -- um de
+  De -- _ _ _ _
+  o, De -- um ve --
+  rum de De -- o
+  ve -- ro, %30
+
+  ge -- ni -- tum __
+  non fa -- ctum, fa --
+  ctum,
+  con -- %35
+  sub -- stan -- ti --
+  a -- lem Pa -- tri,
+
+  per quem o -- mni -- a
+  fa -- cta, o -- %40
+  mni -- a fa --
+  cta sunt.
+  Pro --
+  pter nos ho -- mi --
+  nes et pro -- pter %45
+  no -- stram sa --
+  lu -- tem
+  de --
+  scen -- dit __
+  de coe -- %50
+  lis.
+
+  Et in -- car -- %56
+  na -- _ _
+  _ _
+  _ tus
+  est de %60
+  Spi -- ri -- tu
+  San -- _ _ _
+  cto
+  ex Ma --
+  ri -- a %65
+  Vir -- gi -- ne,
+
+  et ho -- mo %69
+  fa -- %70
+
+  ctus
+  est.
+
+  Cru -- %78
+  ci -- fi --
+  xus e -- ti -- am __ %80
+  pro no -- _
+  _ bis
+
+  sub Pon -- ti --
+  o Pi -- la -- to, %85
+  Pi -- la --
+  to, pas -- sus
+  et se -- pul -- tus
+  est, se -- pul --
+  tus, se -- %90
+  pul -- tus
+  est.
+  Et re --
+  sur -- re -- xit
+  %95
+  ter -- ti -- a
+  di -- e se --
+  cun -- dum Scri -- ptu --
+  ras, et a --
+  scen -- _ %100
+  dit, et __
+  a -- scen --
+  dit, a -- scen -- dit __
+  in coe -- lum,
+  se -- det, %105
+  se -- det ad
+  dex -- te -- ram Pa --
+  _ tris. Et
+  i -- te --
+  rum ven -- tu -- rus %110
+  est cum glo -- ri --
+  a iu --
+  di -- ca --
+  re vi --
+  vos et mor -- tu -- %115
+  os, cu -- ius re --
+  gni non e -- rit,
+  e -- rit fi --
+  nis. Et in
+  Spi -- ri -- tum San -- %120
+  ctum, Do --
+  mi -- num et __
+  vi -- vi -- fi --
+  can -- tem, qui __
+  ex Pa -- %125
+  tre Fi -- li -- o --
+  que pro -- ce --
+  dit.
+
+  Si -- mul %131
+  ad -- o -- ra --
+  tur et con -- glo --
+  ri -- fi --
+  ca -- %135
+  tur: qui lo --
+  cu -- tus est, lo --
+  cu -- tus est
+  per Pro -- phe --
+  _ tas. Et %140
+  u -- nam san --
+  _ ctam, san --
+  ctam ca --
+  tho -- li --
+  cam, san -- ctam Ec -- %145
+  cle -- si -- am.
+  Con -- fi -- te --
+  or u -- num ba --
+  ptis -- ma in __
+  re -- mis -- %150
+  si -- o --
+  nem pec -- ca --
+  to -- rum.
+  Et ex --
+  pe -- cto %155
+  re -- sur -- re -- cti --
+  o -- nem mor -- tu --
+  o -- _ _ _
+  rum,
+  %160
+  et
+  vi -- tam ven --
+  tu -- ri sae -- cu --
+  li, a --
+  men, a -- _ _ %165
+  _ _ _ _ _ _
+  men,
+  a -- _ _
+  _ _ _ _ _ _
+  men, a -- _ _ %170
+  _ _ _ _ _
+  men, a -- _ _
+  _ _ _ _ _
+  _ men, a --
+  men, a -- %175
+  men, a -- men,
+  a --
+  men. %178 finis
+}
+
 % B-LXXSoprano = {
 %   \relative c' {
 %     \clef treble
@@ -113,13 +469,16 @@ B-LXXKyrieSopranoLyrics = \lyricmode {
 
 % }
 
-% B-LXXSoprano = {
-%   \relative c' {
-%     \clef treble
-
-%   }
-% }
-
-% B-LXXSopranoLyrics = \lyricmode {
-
-% }
+B-LXXFragmentSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \lydian \time 4/2 \tempoB-LXXFragment \autoBeamOff
+    R\breve*2
+    r1 c'
+    e2 d4 c h2 c
+    c h c1 %5
+    s\breve*2
+    c1 c2 c
+    a d2. c4 h!2 %9 finis
+  }
+}
