@@ -456,16 +456,106 @@ B-LXXCredoTenoreLyrics = \lyricmode {
   men. %178 finis
 }
 
-% B-LXXTenore = {
-%   \relative c' {
-%     \clef "treble_8"
+B-LXXSanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \lydian \time 4/2 \tempoB-LXXSanctus \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+    r1 c~
+    c4 h g2 a2. h4
+    c1 r2 c~
+    c4 a d2 g, r
+    a( g) g c~ %5
+    c4 b a b c2 g
+    f4( d' c b a g) f2
+    g c c1
+    c r2 c~
+    c4 c h!2 c1~ %10
+    c2 h4( a) g1~
+    g2 g g1
+    r2 a a a
+    a1 a2 b
+    a1 g %15
+    r c(
+    d2) b g c
+    a1 r
+    c2 c1 d2
+    g, f4( e) a1( \noBreak %20
+    g) a\fermata \bar "||"
+    \tempoB-LXXOsanna c f, \noBreak
+    g\trill f
+    r4 a2 h4 c d e d8[ e]
+    f4 d a h c g( c) b %25
+    a f a2. b4 c a
+    f b f g a c2 b4
+    a2 f r1
+    r c'
+    f, g2 g %30
+    f d' g,1
+    b1 f
+    g f
+    r c'
+    c2( f1) e2 %35
+    r4 a,2 h!4 c d e d8[ e]
+    f4. e8 d1 c2~
+    c b1 a4 g
+    a2 f r1
+    R\breve %40
+    f'1 c
+    d c2 c4 f
+    e c r c c4. c8 b4 a
+    g2 c c2. b8([ a)]
+    g2( c) c1\fermata \bar "|." %45 finis
+  }
+}
 
-%   }
-% }
-
-% B-LXXTenoreLyrics = \lyricmode {
-
-% }
+B-LXXSanctusTenoreLyrics = \lyricmode {
+  San --
+  _ _ _ _
+  ctus, san --
+  _ _ ctus,
+  san -- ctus, san -- %5
+  _ _ _ _ ctus,
+  san -- ctus,
+  san -- ctus, san --
+  ctus Do --
+  mi -- nus De -- %10
+  us __ Sa --
+  ba -- oth.
+  Ple -- ni sunt
+  coe -- li et
+  ter -- ra %15
+  glo --
+  ri -- a tu --
+  a,
+  o -- san -- na
+  in ex -- cel -- %20
+  sis.
+  O -- san --
+  _ na
+  in ex -- cel -- _ _ _
+  _ _ _ _ sis, in __ ex -- %28
+  cel -- _ _ _ _ _
+  _ _ _ _ sis, in ex --
+  cel -- sis,
+  o --
+  san -- na in %30
+  ex -- cel -- sis,
+  o -- san --
+  _ na,
+  o --
+  san -- na %35
+  in ex -- cel -- _ _ _
+  _ _ _ _
+  _ _ _
+  _ sis,
+  %40
+  o -- san --
+  _ na in ex --
+  cel -- sis, o -- san -- na in ex --
+  cel -- sis, in ex --
+  cel -- sis. %45 finis
+}
 
 % B-LXXTenore = {
 %   \relative c' {

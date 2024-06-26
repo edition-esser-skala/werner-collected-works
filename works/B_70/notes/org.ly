@@ -497,16 +497,116 @@ B-LXXCredoBassFigures = \figuremode {
   r\breve %178 finis
 }
 
-% B-LXXOrgano = {
-%   \relative c {
-%     \clef bass
+B-LXXSanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key f \lydian \time 4/2 \tempoB-LXXSanctus
+      \set Staff.timeSignatureFraction = 2/2
+    << {
+      s1 c'~
+      c4 h g2 a s
+    } \\ {
+      f1~-! f4 e c2
+      d e f4 e d2
+    } >>
+    c a g c
+    f d c a'
+    f g c,1 %5
+    f~ f4 e c2
+    d e f d
+    c\breve
+    f,2 f'2. f4 e2
+    f d c1 %10
+    a2 h! c1
+    g c
+    r2 f d d
+    a'2. g4 fis2 g
+    d1 g,2 \parOn g'~-\parenthesize-! %15
+    g \parOff e-\parenthesize-! a f
+    d g e c
+    f1 d2 g
+    e c f d
+    c\breve~ \noBreak %20
+    c1 f,\fermata \bar "||"
+    \clef "treble_8" \tempoB-LXXOsanna c''1-! f,-! \noBreak
+    g\trill f
+    \clef bass << {
+      r4 a2 h4 c d e d8[ e]
+      f4 d a h c1 %25
+    } \\ {
+      f,1 c
+      d c %25
+    } >>
+    r4 d2 e4 f g a g8[ a]
+    b4 g d e f a2 g4
+    f2. e8[ d] e2 c
+    \clef treble << { a''1 } \\ { f4 d a h } >> \clef "treble_8" c1
+    \clef bass f, c %30
+    d c
+    \clef "treble_8" b' f
+    g f
+    r c'
+    \clef bass f, c %35
+    d c
+    r2 b'2 f1
+    g f
+    r4 a,2 b4 c d e d8[ e]
+    f4 d a h c1 %40
+    r4 d2 e4 f g a g8[ a]
+    b4 g d e f2 e4 d
+    c\breve~-\tasto
+    c~
+    c1 f,\fermata \bar "|." %45 finis
+  }
+}
 
-%   }
-% }
-
-% B-LXXBassFigures = \figuremode {
-
-% }
+B-LXXSanctusBassFigures = \figuremode {
+  r\breve
+  r1. <5 3>4 <6!>
+  <4> <3>2. <4>4 <_!>2.
+  r2 <6!> <4> <5>
+  <6 5> <_!> \bo <[5]> \bc <[6]> %5
+  <10>1 <5>4 <10> q2
+  <7>4 <6!> <6>1 <6!>2
+  <8 3> <6 4> <5 \t> <\t 3>
+  r\breve
+  r2 <6!> <4> <3> %10
+  <6> q <9> <8>
+  <4> <3>1.
+  r\breve
+  <4>2 <_+> <[6]> <_->
+  <4> <_+> <_->1 %15
+  r \bo <[3]>
+  r2 <_->1.
+  r <_->2
+  <6>1. <6!>2
+  r1 <6 5>2 <\t 4> %20
+  <5 \t> <\t 3>1.
+  r\breve
+  r
+  r
+  r %25
+  r
+  r2 <6[-]>1.
+  r1 <[6]>
+  r <5 3>
+  r\breve %30
+  <5>2. <6!>4 <4>2 <3>
+  r\breve
+  <5 _->2. <6 \t>4 <4[-]>2 <3>
+  r\breve
+  r1 <4>2 <3> %35
+  <5>2. <6!>4 <8 6>2 <_ 5>
+  r1 <6>2 <5>
+  <5 4> <\t _-> <4[-]> <3>
+  r4 <6>1..
+  r2 <6> <4> <3> %40
+  r\breve
+  r2 <6-> <4[-]>4 <3>2.
+  r\breve
+  r
+  <4>2 <3>1. %45 finis
+}
 
 % B-LXXOrgano = {
 %   \relative c {

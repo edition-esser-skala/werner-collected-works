@@ -453,16 +453,99 @@ B-LXXCredoAltoLyrics = \lyricmode {
   men. %180 finis
 }
 
-% B-LXXAlto = {
-%   \relative c' {
-%     \clef treble
+B-LXXSanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key f \lydian \time 4/2 \tempoB-LXXSanctus \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve
+    r1 r2 f~
+    f4 e c2 d e
+    f4 c f1 e2
+    d1 e4 e( a) a %5
+    a1~ a4 g e2
+    f e4 d c2 d
+    e f1 e2
+    f1 r
+    r2 f2. f4 e2 %10
+    f d e2. d8[ c]
+    d2. d4 e1
+    r2 f f f
+    e2. e4 a2 g~
+    g fis g1 %15
+    r r2 f~
+    f d g e
+    c f1 d2
+    g e c f
+    e( g2.) g4 f2 \noBreak %20
+    f e f1\fermata \bar "||"
+    \tempoB-LXXOsanna R\breve*4 %25
+    f1 c
+    d\trill c
+    r4 a2 h4 c d e d8[ e]
+    f4 d a h c d e f8[ g]
+    a2 f e c %30
+    r f f e
+    r4 d2 e4 f g a g8[ a]
+    b4 g d e f c f2~
+    f e4 d e2 c
+    r1 c' %35
+    f, e
+    r r2 a
+    d,( e f) c
+    r f e c~
+    c4 d8[ e] f1 e2 %40
+    d2. c8[ b] a2 f
+    r1 r4 c'2 d4
+    e f g f8[ g] e4 f g a
+    b a8[ b] g4 f8[ g] a2. g8[ f]
+    g1 a\fermata \bar "|." %45 finis
+  }
+}
 
-%   }
-% }
+B-LXXSanctusAltoLyrics = \lyricmode {
+  San -- %2
+  _ _ _ ctus,
+  san -- _ _ _
+  _ ctus, san -- ctus, %5
+  san -- _ _
+  _ _ _ _ ctus,
+  san -- _ _
+  ctus
+  Do -- mi -- nus %10
+  De -- us Sa -- _
+  _ ba -- oth.
+  Ple -- ni sunt
+  coe -- li et ter --
+  _ ra %15
+  glo --
+  _ _ ri --
+  a, glo -- ri --
+  a tu -- a, o --
+  san -- na in %20
+  ex -- cel -- sis.
 
-% B-LXXAltoLyrics = \lyricmode {
-
-% }
+  O -- san -- %26
+  _ na
+  in ex -- cel -- _ _ _
+  _ _ _ _ _ _ _ _
+  sis, o -- san -- na, %30
+  o -- san -- na
+  in ex -- cel -- _ _ _
+  _ _ _ _ _ _ _
+  _ _ _ sis,
+  o -- %35
+  san -- na,
+  o --
+  san -- na,
+  o -- san -- _
+  _ _ _ %40
+  _ _ _ na
+  in ex --
+  cel -- _ _ _ _ _ _ _
+  _ _ _ _ _ _
+  _ sis. %45 finis
+}
 
 % B-LXXAlto = {
 %   \relative c' {

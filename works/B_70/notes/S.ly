@@ -436,16 +436,93 @@ B-LXXCredoSopranoLyrics = \lyricmode {
   men. %178 finis
 }
 
-% B-LXXSoprano = {
-%   \relative c' {
-%     \clef treble
+B-LXXSanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \lydian \time 4/2 \tempoB-LXXSanctus \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve*2
+    r2 c'2. h4 g2
+    a h c4 g c2~
+    c h c1 %5
+    r c~
+    c4 h g2 a h
+    c4 b a g8[ f] g1
+    a2 a2. a4 g2
+    a d g, c~ %10
+    c d1 c2~
+    c h c1
+    r2 c d d
+    d cis d1
+    d d %15
+    R\breve
+    r1 r2 c~
+    c a d b
+    g c a h
+    c2. c4 c2 c \noBreak %20
+    c1 c\fermata \bar "||"
+    \tempoB-LXXOsanna R\breve*6 %27
+    c1 g
+    a\trill g
+    r4 a2 h4 c d e d8[ e] %30
+    f4 d a h c1
+    r2 d a4 g f e
+    d2( b'1) a2
+    c1 g
+    a g %35
+    r4 f2 g4 a b c b8[ c]
+    d4 b f g a1
+    R\breve
+    c1 g
+    a g %40
+    r4 f2 g4 a b c a
+    f g8[ a] b2. a4 g f
+    g a b a8[ b] c4 a b c
+    d c8[ d] e4 d8[ e] f4 c f2~
+    f4 e8[ d] e2 f1\fermata \bar "|." %45 finis
+  }
+}
 
-%   }
-% }
+B-LXXSanctusSopranoLyrics = \lyricmode {
+  San -- _ _ %3
+  _ ctus, san -- _ _
+  _ ctus, %5
+  san --
+  _ _ _ ctus,
+  san -- _ _ _ _
+  ctus Do -- mi -- nus
+  De -- us, De -- us __ %10
+  Sa -- _
+  ba -- oth.
+  Ple -- ni sunt
+  coe -- li et
+  ter -- ra %15
 
-% B-LXXSopranoLyrics = \lyricmode {
+  glo --
+  _ _ ri --
+  a tu -- a, o --
+  san -- na in ex -- %20
+  cel -- sis.
 
-% }
+  O -- san -- %28
+  _ na
+  in ex -- cel -- _ _ _ %30
+  _ _ _ _ sis,
+  o -- san -- na in ex --
+  cel -- sis,
+  o -- san --
+  _ na %35
+  in ex -- cel -- _ _ _
+  _ _ _ _ sis,
+
+  o -- san --
+  _ na %40
+  in ex -- cel -- _ _ _
+  _ _ _ _ _ sis,
+  in ex -- cel -- _ _ _ _ _
+  _ _ _ _ _ _ _
+  _ _ sis. %45 finis
+}
 
 % B-LXXSoprano = {
 %   \relative c' {
@@ -482,3 +559,14 @@ B-LXXFragmentSoprano = {
     a d2. c4 h!2 %9 finis
   }
 }
+
+% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
+% O -- san -- na in ex -- cel -- sis.
+
+
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Do -- na no -- bis pa -- cem.

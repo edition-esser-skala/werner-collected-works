@@ -421,16 +421,100 @@ B-LXXCredoBassoLyrics = \lyricmode {
   men. %178 finis
 }
 
-% B-LXXBasso = {
-%   \relative c {
-%     \clef bass
+B-LXXSanctusBasso = {
+  \relative c {
+    \clef bass
+    \key f \lydian \time 4/2 \tempoB-LXXSanctus \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+    f1~ f4 e c2
+    d e f4( e d2)
+    c a'( g) c,
+    f( d c) a'
+    f( g) c,1 %5
+    f~ f4 e c2
+    d e f d
+    c\breve
+    f2 f2. f4 e2
+    f( d) c1 %10
+    a2 h! c1(
+    g2.) g4 c1
+    r2 f d d
+    a'2.( g4) fis2 g
+    d1 g,2 g'~ %15
+    g e a f
+    d g e c
+    f1 d2 g
+    e c f d
+    c\breve~ \noBreak %20
+    c1 f\fermata \bar "||"
+    \tempoB-LXXOsanna R\breve*2
+    f1 c
+    d\trill c %25
+    r4 d2 e4 f g a g8[ a]
+    b4 g d e f a2 g4
+    f2.( e8[ d] e2) c
+    R\breve
+    f1 c %30
+    d c
+    R\breve*3
+    f1 c %35
+    d c
+    r2 b' f1
+    g f
+    r4 a,2 b4 c d e d8[ e]
+    f4 d a h c1 %40
+    r4 d2 e4 f g a g8[ a]
+    b4 g d e f2 e4 d
+    c\breve~
+    c~
+    c1 f\fermata \bar "|." %45 finis
+  }
+}
 
-%   }
-% }
+B-LXXSanctusBassoLyrics = \lyricmode {
+  San -- _ _
+  _ ctus, san --
+  ctus, san -- ctus,
+  san -- ctus,
+  san -- ctus, %5
+  san -- _ _
+  _ ctus, san -- ctus,
+  san --
+  ctus Do -- mi -- nus
+  De -- us, %10
+  De -- us Sa --
+  ba -- oth.
+  Ple -- ni sunt
+  coe -- li et
+  ter -- ra glo -- %15
+  _ _ ri --
+  a tu -- a, o --
+  san -- na, o --
+  san -- na in ex --
+  cel -- %20
+  sis.
 
-% B-LXXBassoLyrics = \lyricmode {
+  O -- san -- %24
+  _ na %25
+  in ex -- cel -- _ _ _
+  _ _ _ _ sis, in ex --
+  cel -- sis,
 
-% }
+  o -- san -- %30
+  _ na,
+
+  o -- san -- %35
+  _ na,
+  o -- san --
+  _ na
+  in ex -- cel -- _ _ _
+  _ _ _ _ sis, %40
+  in ex -- cel -- _ _ _
+  _ _ _ _ sis, in ex --
+  cel --
+
+  sis. %45 finis
+}
 
 % B-LXXBasso = {
 %   \relative c {
