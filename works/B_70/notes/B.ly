@@ -527,17 +527,6 @@ B-LXXSanctusBassoLyrics = \lyricmode {
 
 % }
 
-% B-LXXBasso = {
-%   \relative c {
-%     \clef bass
-
-%   }
-% }
-
-% B-LXXBassoLyrics = \lyricmode {
-
-% }
-
 B-LXXFragmentBasso = {
   \relative c {
     \clef bass

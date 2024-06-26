@@ -547,16 +547,37 @@ B-LXXSanctusAltoLyrics = \lyricmode {
   _ sis. %45 finis
 }
 
-% B-LXXAlto = {
-%   \relative c' {
-%     \clef treble
+B-LXXBenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \key f \lydian \time 3/2 \tempoB-LXXBenedictus \autoBeamOff
+    f2. e4 a2
+    a4 g f1
+    e2 a2. g4
+    f1 e2
+    f4 g a2 a4 g %5
+    f1 e2
+    f4 g a( g8[ f)] g2~
+    g4 f8([ e)] f4( d) f2
+    e f d
+    e4 e d2. d4 %10
+    e1.\fermata \markOsannaUtSupra \bar "||" %11 finis
+  }
+}
 
-%   }
-% }
-
-% B-LXXAltoLyrics = \lyricmode {
-
-% }
+B-LXXBenedictusAltoLyrics = \lyricmode {
+  Be -- ne -- di --
+  ctus, qui ve --
+  nit, ve -- _
+  _ _
+  nit in no -- mi -- ne %5
+  Do -- mi --
+  ni, in no -- mi --
+  ne Do -- mi --
+  ni, in no --
+  mi -- ne Do -- mi -- %10
+  ni. %11 finis
+}
 
 % B-LXXAlto = {
 %   \relative c' {

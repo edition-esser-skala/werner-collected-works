@@ -524,16 +524,37 @@ B-LXXSanctusSopranoLyrics = \lyricmode {
   _ _ sis. %45 finis
 }
 
-% B-LXXSoprano = {
-%   \relative c' {
-%     \clef treble
+B-LXXBenedictusSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \lydian \time 3/2 \tempoB-LXXBenedictus \autoBeamOff
+    a'2.( cis4) d2
+    e1 d2~
+    d cis d~
+    d4 c b( a b2)
+    a4 b c2. b4 %5
+    a2 g2. a4
+    b c8[ b] a4 h c g
+    c2. d4 a h
+    c2 a h4 h
+    c2 c h %10
+    c1.\fermata \markOsannaUtSupra \bar "||"
+  }
+}
 
-%   }
-% }
-
-% B-LXXSopranoLyrics = \lyricmode {
-
-% }
+B-LXXBenedictusSopranoLyrics = \lyricmode {
+  Be -- ne --
+  di -- _
+  ctus, qui __
+  _ ve --
+  nit in no -- mi -- %5
+  ne Do -- _
+  _ _ _ _ _ _
+  _ _ _ mi --
+  ni, in no -- mi --
+  ne Do -- mi -- %10
+  ni. %11 finis
+}
 
 % B-LXXSoprano = {
 %   \relative c' {
@@ -560,8 +581,7 @@ B-LXXFragmentSoprano = {
   }
 }
 
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
+
 
 
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:

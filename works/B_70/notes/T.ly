@@ -557,16 +557,37 @@ B-LXXSanctusTenoreLyrics = \lyricmode {
   cel -- sis. %45 finis
 }
 
-% B-LXXTenore = {
-%   \relative c' {
-%     \clef "treble_8"
+B-LXXBenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \lydian \time 3/2 \tempoB-LXXBenedictus \autoBeamOff
+    d2._( a4 f2)
+    cis d1
+    a'2. g4 f( e)
+    d2 g1
+    f2. g4 a2 %5
+    d4 d b2 c
+    d4 e f2 e
+    a, d2. d4
+    c2 f, g
+    e4 c g'2. g4 %10
+    c,1.\fermata \markOsannaUtSupra \bar "||" %11 finis
+  }
+}
 
-%   }
-% }
-
-% B-LXXTenoreLyrics = \lyricmode {
-
-% }
+B-LXXBenedictusTenoreLyrics = \lyricmode {
+  Be --
+  ne -- di --
+  ctus, qui ve --
+  nit, ve --
+  nit in no -- %5
+  mi -- ne Do -- mi --
+  ni, in no -- mi --
+  ne Do -- mi --
+  ni, in no --
+  mi -- ne Do -- mi -- %10
+  ni. %11 finis
+}
 
 % B-LXXTenore = {
 %   \relative c' {

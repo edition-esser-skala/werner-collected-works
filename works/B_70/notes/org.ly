@@ -608,16 +608,37 @@ B-LXXSanctusBassFigures = \figuremode {
   <4>2 <3>1. %45 finis
 }
 
-% B-LXXOrgano = {
-%   \relative c {
-%     \clef bass
+B-LXXBenedictusOrgano = {
+  \relative c {
+    \clef "treble_8"
+    \key f \lydian \time 3/2 \tempoB-LXXBenedictus
+    d'2. a4 f2
+    cis d1
+    a'2. g4 f e
+    d2 g1
+    f2. g4 a2 %5
+    d b c
+    d4 e f2 e
+    a, d1
+    c2 f, g
+    e4 c g'1 %10
+    c,1.\fermata \markOsannaUtSupra \bar "||" %11 finis
+  }
+}
 
-%   }
-% }
-
-% B-LXXBassFigures = \figuremode {
-
-% }
+B-LXXBenedictusBassFigures = \figuremode {
+  r2. <_+>4 <6>2
+  <[6]> <9> <8>
+  <4> <_+> <[6]>
+  r <7 _-> <6 \t>
+  r1. %5
+  r2 <6 5> <5>4 <6>
+  <6-> <6> <3> <4!> <6>2
+  <7> q2. <6!>4
+  r1 <_!>2
+  <[6]> <4> <_!> %10
+  r1.
+}
 
 % B-LXXOrgano = {
 %   \relative c {
