@@ -33,7 +33,7 @@
 
 \book {
   \bookpart {
-    \section "Q.2" "Concerto per la Camera"
+    \section "1" "Arioso"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -67,7 +67,7 @@
     }
   }
   \bookpart {
-    \subsection "II"
+    \section "2" "Allegro"
     \addTocEntry
     \score { %\articulate
       <<
@@ -100,7 +100,7 @@
     }
   }
   \bookpart {
-    \subsection "III"
+    \section "3" "[Adagio]"
     \addTocEntry
     \score { %\articulate
       <<
@@ -133,7 +133,7 @@
     }
   }
   \bookpart {
-    \subsection "IV"
+    \section "4" "[Allegro]"
     \addTocEntry
     \score { %\articulate
       <<

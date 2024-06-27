@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "Q.3" "Concerto"
+    \section "1" "Affettuoso"
     \addTocEntry
     \paper { page-count = #1 }
     \score {
@@ -17,7 +17,7 @@
     }
   }
   \bookpart {
-    \subsection "II"
+    \section "2" "Adagio"
     \addTocEntry
     \score {
       <<
@@ -26,7 +26,7 @@
     }
   }
   \bookpart {
-    \subsection "III"
+    \section "3" "Allegro"
     \addTocEntry
     \score {
       <<

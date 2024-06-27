@@ -13,7 +13,7 @@
 
 \book {
   \bookpart {
-    \section "D.3.4 · 1" "Omnes amici mei"
+    \section "1" "Omnes amici mei"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate

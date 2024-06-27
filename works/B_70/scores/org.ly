@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "B.70 · 1" "Kyrie"
+    \section "1" "Kyrie"
     \addTocEntry
     \paper { systems-per-page = #7 }
     \score {

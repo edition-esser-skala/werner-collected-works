@@ -37,7 +37,7 @@
 
 \book {
   \bookpart {
-    \section "Q.3" "Concerto"
+    \section "1" "Affettuoso"
     \addTocEntry
     \paper { indent = 2\cm }
     \score { %\articulate
@@ -71,7 +71,7 @@
     }
   }
   \bookpart {
-    \subsection "II"
+    \section "2" "Adagio"
     \addTocEntry
     \paper { systems-per-page = #5 }
     \score { %\articulate
@@ -98,7 +98,7 @@
     }
   }
   \bookpart {
-    \subsection "III"
+    \section "3" "Allegro"
     \addTocEntry
     \score { %\articulate
       <<

@@ -32,7 +32,7 @@ sources:
     rism: 600038327
     license: public domain
     notes: Laudate pueri
-toestyle: movement
+tocstyle: default
 toe: |
   1 & 50 & vl 1 & 6th \sixteenthNote\ in \B1: h′16 \\
   2 & 35 & vl 1 & 4th to 6th \quarterNote\ in \B2: c″4–d″4–d″4 \\

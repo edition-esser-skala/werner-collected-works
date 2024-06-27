@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "Q.3" "Concerto"
+    \section "1" "Affettuoso"
     \addTocEntry
     \score {
       <<
@@ -16,7 +16,7 @@
     }
   }
   \bookpart {
-    \subsection "II"
+    \section "2" "Adagio"
     \addTocEntry
     \paper { systems-per-page = #8 }
     \score {
@@ -26,7 +26,7 @@
     }
   }
   \bookpart {
-    \subsection "III"
+    \section "3" "Allegro"
     \addTocEntry
     \score {
       <<

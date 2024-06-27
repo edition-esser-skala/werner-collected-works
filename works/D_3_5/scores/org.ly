@@ -9,7 +9,7 @@
 
 \book {
   \bookpart {
-    \section "D.3.5 · 1" "Offertorium ad 1mum Evangelium"
+    \section "1" "Offertorium ad 1mum Evangelium"
     \addTocEntry
     \score {
       <<

@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "Q.2" "Concerto per la Camera"
+    \section "1" "Arioso"
     \addTocEntry
     \score {
       <<
@@ -17,7 +17,7 @@
     }
   }
   \bookpart {
-    \subsection "II"
+    \section "2" "Allegro"
     \addTocEntry
     \score {
       <<
@@ -27,7 +27,7 @@
     }
   }
   \bookpart {
-    \subsection "III"
+    \section "3" "[Adagio]"
     \addTocEntry
     \score {
       <<
@@ -37,7 +37,7 @@
     }
   }
   \bookpart {
-    \subsection "IV"
+    \section "4" "[Allegro]"
     \addTocEntry
     \score {
       <<

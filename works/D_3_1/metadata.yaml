@@ -14,10 +14,11 @@ sources:
     license: public domain
     principal: true
 toe: |
-  – & – & This work is denoted “4 Responsoria” in H-Bn,
+  – & – & – & This work is denoted “4 Responsoria” in H-Bn,
           although the work consists rather of two
           responsorys with respective verses. \\
-  – & B & All bass figures have been added by the editor. \\
+  – & – & B & All bass figures have been added by the editor. \\
+tocstyle: default
 lyrics:
   Ecce quomodo moritur iustus\\
   et nemo percipit corde,\\

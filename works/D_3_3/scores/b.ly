@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "D.3.3 · 1" "In monte oliveti"
+    \section "1" "In monte oliveti"
     \addTocEntry
     \paper { page-count = #1 }
     \score {

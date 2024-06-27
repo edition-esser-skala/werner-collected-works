@@ -12,7 +12,7 @@ sources:
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/968.html
     license: public domain
     principal: true
-toestyle: movement
+tocstyle: default
 toe: |
   – & –  & –       & The factual nature of the work makes Werner's
                      authorship appear doubtful. \\

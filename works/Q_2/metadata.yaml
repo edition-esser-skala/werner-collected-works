@@ -11,7 +11,7 @@ sources:
     url: https://data.onb.ac.at/rec/AC14299751
     license: public domain
     principal: true
-toestyle: movement
+tocstyle: default
 toe: |
   – & –   & b    & Bass figures in movements II–IV
                    have been added by the editor. \\

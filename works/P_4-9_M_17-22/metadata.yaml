@@ -14,7 +14,7 @@ sources:
     principal: true
     notes: Johann Christian Leopold, Augsburg, 1735
 imslp: Symphoniae_6_senaeque_sonatae_(Werner,_Gregor_Joseph)
-toestyle: movement
+tocstyle: default
 toe: |
   P.4  & 94f & vl 1 & bars in \C1: g4. \\
   P.5  & 13  & vl 1 & 4th \sixteenthNote\ in \C1: f″8 \\

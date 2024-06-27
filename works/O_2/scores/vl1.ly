@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "O.2" "Partita"
+    \section "1" "Extravaganza"
     \addTocEntry
     \score {
       <<
@@ -16,7 +16,7 @@
     }
   }
   \bookpart {
-    \subsection "II"
+    \section "2" "Laraglieria"
     \addTocEntry
     \score {
       <<
@@ -25,7 +25,7 @@
     }
   }
   \bookpart {
-    \subsection "III"
+    \section "3" "Menuet"
     \addTocEntry
     \paper { systems-per-page = #5 }
     \score {
@@ -35,7 +35,7 @@
     }
   }
   \bookpart {
-    \subsection "IV"
+    \section "4" "Aria"
     \addTocEntry
     \paper { systems-per-page = #5 }
     \score {
@@ -45,7 +45,7 @@
     }
   }
   \bookpart {
-    \subsection "V"
+    \section "5" "Tournee"
     \addTocEntry
     \paper { systems-per-page = #7 }
     \score {

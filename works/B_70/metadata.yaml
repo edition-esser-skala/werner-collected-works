@@ -11,7 +11,7 @@ sources:
     url: https://data.onb.ac.at/rec/AC14247571
     license: public domain
     principal: true
-toestyle: movement
+tocstyle: default
 toe: |
   2  & 80f & org & In \A1, org plays colla parte with S and A.
                    However, Werner noted “NB Tenor” below the staff,

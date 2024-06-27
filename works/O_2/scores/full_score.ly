@@ -12,7 +12,7 @@
 
 \book {
   \bookpart {
-    \section "O.2" "Partita"
+    \section "1" "Extravaganza"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -41,7 +41,7 @@
     }
   }
   \bookpart {
-    \subsection "II"
+    \section "2" "Laraglieria"
     \addTocEntry
     \paper { page-count = #2 }
     \score { %\articulate
@@ -70,7 +70,7 @@
     }
   }
   \bookpart {
-    \subsection "III"
+    \section "3" "Menuet"
     \addTocEntry
     \score { %\articulate
       <<
@@ -98,7 +98,7 @@
     }
   }
   \bookpart {
-    \subsection "IV"
+    \section "4" "Aria"
     \addTocEntry
     \score { %\articulate
       <<
@@ -126,7 +126,7 @@
     }
   }
   \bookpart {
-    \subsection "V"
+    \section "5" "Tournee"
     \addTocEntry
     \score { %\articulate
       <<

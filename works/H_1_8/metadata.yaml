@@ -12,7 +12,7 @@ sources:
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/1028.html
     license: public domain
     principal: true
-toestyle: movement
+tocstyle: default
 toe: |
   2 & 7  & T    & 2nd \quarterNote\ in \B1: e′8.–e′16 \\
     & 23 & vl 1 & 6th \eighthNote\ in \B1: e″8 \\

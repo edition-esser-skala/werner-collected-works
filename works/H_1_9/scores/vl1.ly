@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "H.1.9 · 1" "Dixit Dominus"
+    \section "1" "Dixit Dominus"
     \addTocEntry
     \paper { systems-per-page = #6 }
     \score {

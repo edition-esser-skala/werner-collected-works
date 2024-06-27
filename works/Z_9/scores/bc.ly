@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "Z.9 · 1" "Larghetto – Vivace – Adagio"
+    \section "1" "Larghetto – Vivace – Adagio"
     \addTocEntry
     \score {
       <<

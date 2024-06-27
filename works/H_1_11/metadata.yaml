@@ -12,7 +12,7 @@ sources:
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/1008.html
     license: public domain
     principal: true
-toestyle: movement
+tocstyle: default
 toe: |
   – & –  & –    & This vesper has been attributed to Werner (H-VEs, Vesp.58),
                   to a composer named “Carl [Lindt]” (\B1), or to both of them

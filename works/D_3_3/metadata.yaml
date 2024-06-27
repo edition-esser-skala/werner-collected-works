@@ -13,7 +13,7 @@ sources:
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/972.html
     license: public domain
     principal: true
-toestyle: movement
+tocstyle: default
 toe: |
   2 & 14f & org & notes in treble clef added by editor \\
   3 & 20  & A   & 3rd \halfNote\ in \B1: \sharp f′2 \\

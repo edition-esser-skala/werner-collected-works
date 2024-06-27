@@ -13,7 +13,7 @@ sources:
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/968.html
     license: public domain
     principal: true
-toestyle: movement
+tocstyle: default
 toe: |
   – & –   & –   & After every movement in the vocal parts, \B1 contains
                   lyrics for antiphons at each station (see below). \\

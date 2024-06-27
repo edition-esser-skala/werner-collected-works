@@ -13,7 +13,7 @@ sources:
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/973.html
     license: public domain
     principal: true
-toestyle: movement
+tocstyle: default
 toe: |
   1 & 10 & A & 2nd/3rd \halfNote\ in \B1: g′1 \\
     & 40 & S & 2nd \halfNoteDotted\ in \B1: d″2 \\

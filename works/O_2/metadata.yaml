@@ -10,7 +10,7 @@ sources:
     rism: 700001744
     license: public domain
     principal: true
-toestyle: movement
+tocstyle: default
 toe: |
   1 & 16–18 & b & bars in \B1: e2–r4–b4,
                   g8–\sharp g–a–\sharp f–g–\sharp f–\sharp g–e,

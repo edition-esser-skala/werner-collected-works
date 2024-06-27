@@ -13,7 +13,7 @@
 
 \book {
   \bookpart {
-    \section "D.3.3 · 1" "In monte oliveti"
+    \section "1" "In monte oliveti"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate

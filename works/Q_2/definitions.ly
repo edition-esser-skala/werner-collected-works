@@ -2,8 +2,8 @@
 
 tempoQ-IIa = \tempoMarkup "Arioso"
 tempoQ-IIb = \tempoMarkup "Allegro"
-tempoQ-IIc = \tempoMarkup "[Tempo deest]"
-tempoQ-IId = \tempoMarkup "[Tempo deest]"
+tempoQ-IIc = \tempoMarkup "[Adagio]"
+tempoQ-IId = \tempoMarkup "[Allegro]"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

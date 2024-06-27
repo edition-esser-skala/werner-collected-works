@@ -18,7 +18,7 @@
 
 \book {
   \bookpart {
-    \section "Z.5 · 1" "Prima statio"
+    \section "1" "Prima statio"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
