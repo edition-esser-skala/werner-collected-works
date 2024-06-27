@@ -579,16 +579,112 @@ B-LXXBenedictusAltoLyrics = \lyricmode {
   ni. %11 finis
 }
 
-% B-LXXAlto = {
-%   \relative c' {
-%     \clef treble
+B-LXXAgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key f \lydian \time 4/2 \tempoB-LXXAgnus \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+    f1 fis
+    g gis2 gis
+    a( e) fis g
+    e f d4( cis d2)
+    cis1 r2 f~ %5
+    f f f( g)
+    a a1 g2~
+    g f!4 e f1~
+    f e
+    r\fermata f %10
+    f2 f1( e2)
+    f2. g4 f1
+    g2. a4 g2 g
+    fis( g1 fis2)
+    g1 r2 g~ %15
+    g g g1~
+    g2 f f4( e f2)
+    e1 r2 f~
+    f f f1
+    f2 f f( b) %20
+    a g f1
+    e2 g g f \noBreak
+    f( e) f1\fermata \bar "||"
+    \time 3/2 \tempoB-LXXDona \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      R1.*2 %25
+    f2. e4 f2
+    c d c4 e(
+    a g8[ a] f4) g e c
+    d8[ e] f2 e4 f e8[ f]
+    d4 c8[ d] e4 d8[ e] f2 %30
+    r4 a d, g2 e4
+    c e d2 e
+    R1.
+    r2 a2. g4
+    a2 e f %35
+    e4 e( f e8[ f] d4 h)
+    c2 r r
+    f2. e4 f2
+    d f1
+    f2 d4( g) c,2 %40
+    r4 e f e8[ f] d4 f
+    e c r c( d c8[ b]
+    c4) a r c( b a8[ g])
+    a4 a' b a8[ b] g4 f8[ g]
+    a4 f r2 f %45
+    f f( e)
+    f r4 f( e2)
+    f r r\fermata \bar "|." %48 finis
+  }
+}
 
-%   }
-% }
+B-LXXAgnusAltoLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta mun --
+  di: Mi -- %5
+  se -- re --
+  re, mi -- se --
+  re -- re no --
+  bis.
+  A -- %10
+  gnus De --
+  i, qui tol --
+  lis pec -- ca -- ta
+  mun --
+  di: Mi -- %15
+  se -- re --
+  re no --
+  bis. A --
+  gnus De --
+  i, qui tol -- %20
+  lis pec -- ca --
+  ta, pec -- ca -- ta
+  mun -- di:
 
-% B-LXXAltoLyrics = \lyricmode {
+  Do -- na no -- %26
+  bis pa -- cem, pa --
+  cem, pa -- cem,
+  pa -- _ _ _ _
+  _ _ _ _ cem, %30
+  pa -- cem, no -- bis
+  pa -- cem, pa -- cem,
 
-% }
+  do -- na
+  no -- bis pa -- %35
+  cem, pa --
+  cem,
+  do -- na no --
+  bis pa --
+  cem, pa -- cem, %40
+  pa -- _ _ _ _
+  _ cem, pa --
+  cem, pa --
+  cem, pa -- _ _ _ _
+  _ cem, pa -- %45
+  cem, pa --
+  cem, pa --
+  cem. %48 finisx
+}
 
 B-LXXFragmentAlto = {
   \relative c' {

@@ -640,16 +640,120 @@ B-LXXBenedictusBassFigures = \figuremode {
   r1.
 }
 
-% B-LXXOrgano = {
-%   \relative c {
-%     \clef bass
+B-LXXAgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key f \lydian \time 4/2 \tempoB-LXXAgnus
+      \set Staff.timeSignatureFraction = 2/2
+    f1 d
+    g e2 e
+    a1 d,2 g!
+    c, f! b,1
+    a r2 f'~ %5
+    f f b1
+    fis g
+    cis, d
+    gis, a
+    r\fermata f'~ %10
+    f2 f c1
+    d2. e4 f2 f
+    e2. fis4 g2 es
+    d g d1
+    g, r2 g'~ %15
+    g g e1
+    f2. e4 d1
+    c r2 f~
+    f f d1
+    a2 a b1 %20
+    c d
+    c2 b a d \noBreak
+    g,1 f\fermata \bar "||"
+    \time 3/2 \tempoB-LXXDona \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      f'2.-! e4-! f2-! \noBreak
+    << { c'2. h4 c2 } \\ { c,2 d c4 c } >> %25
+    d4 c8 d b4 c a f
+    f' e8 f d4 g e c
+    \clef treble << { c''2. h4 c } \\ { a4 g8 a f4 g e } >> \clef "treble_8" a,
+    b a8 b g4 \clef bass c, d c8 d
+    b2 c4 b8 c a4 f %30
+    r f' g f8 g e2
+    f4 c g2 c
+    \clef "treble_8" c'2. h4 c2
+    g \clef bass f2. e4
+    f2 c d %35
+    c4 \clef treble << {
+      g'' a g8 a f4 g
+      e \clef bass c d c8 d b4 c
+      s2 \clef treble d'4 c8 b a4 c
+    } \\ {
+      e,4 f e8 f d4 h %36
+      c a b a8 b g4 e
+      f2 f'4 e f2
+    } >>
+    \clef bass b,2. a4 b2
+    f g f %40
+    e d1
+    c b2
+    a1 g2
+    f4 \clef treble << { c''' d c8 d e4 d8 e f4 } \\ { a, b a8 b g4 f8 g a4 } >>
+    \clef bass f, g f8 g a4 g8 a %45
+    b2 c c,
+    f r4 b, c2
+    f, r r\fermata \bar "|." %48 finis
+  }
+}
 
-%   }
-% }
-
-% B-LXXBassFigures = \figuremode {
-
-% }
+B-LXXAgnusBassFigures = \figuremode {
+  r1 <7 _+>
+  <_->2 <_!> <7 _+>1
+  r <7 _+>2 <_->
+  <7[-]>1 <7>2 <6>
+  <_+>1. <[5!]>2 %5
+  r1 <5>2 <6>
+  q1 <9 _->2 <8 \t>
+  <6 5>1 <9 [_!]>2 <8>
+  <7 5>1 <_+>
+  r <[5!]> %10
+  r <5 4>2 <\t 3>4 <6 \t>
+  <6->1. <3>4 <4!>
+  <6>1 <_->2 <5[-]>4 <6>
+  <_+>2 <_-> <4> <_+>
+  <_->1. q2 %15
+  r1 <6>
+  <9>2 <8> <7> <6!>
+  r\breve
+  r1 <5>2 <6->
+  <6>\breve %20
+  <8 6>2 <7- 5>1.
+  <6>2 q <7> q
+  <7 _-> <6 \t>1.
+  r1.
+  r %25
+  <5 3>2 <6 5> <[6]>
+  r <7>4 <_!> <[6]>2
+  r1 r4 <6>
+  r2 <7>1
+  <5>4 <6> r2 <6> %30
+  r4 <6> <_!>2 <6>
+  r <4>4 <_!>2.
+  <10>2. q4 q2
+  q1 r4 <[6]>
+  r1 <6!>2 %35
+  r1.
+  r
+  r
+  r2. <[6]>4 <9> <8>
+  r2 <7 _->4 <6 \t>2. %40
+  <6>2 <7> <6->
+  <7[-]> <6> q
+  <7> <6> <6 _->
+  r1.
+  r2 <7 _-> <6> %45
+  <5>4 <6> <4>2 <3>
+  r1.
+  r %48 finis
+}
 
 B-LXXFragmentOrgano = {
   \relative c {

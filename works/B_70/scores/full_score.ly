@@ -142,42 +142,85 @@
   %     \midi { \tempo 2 = 90 } % 120
   %   }
   % }
+  % \bookpart {
+  %   \section "4" "Benedictus"
+  %   \addTocEntry
+  %   \paper { systems-per-page = #2 }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \B-LXXBenedictusSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \B-LXXBenedictusSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \B-LXXBenedictusAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \B-LXXBenedictusAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \B-LXXBenedictusTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \B-LXXBenedictusTenoreLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \B-LXXBenedictusOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \B-LXXBenedictusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "4" "Benedictus"
+    \section "5" "Agnus Dei"
     \addTocEntry
-    \paper { systems-per-page = #2 }
     \score { %\articulate
       <<
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \B-LXXBenedictusSoprano }
+            \new Voice = "Soprano" { \dynamicUp \B-LXXAgnusSoprano }
           }
-          \new Lyrics \lyricsto Soprano \B-LXXBenedictusSopranoLyrics
+          \new Lyrics \lyricsto Soprano \B-LXXAgnusSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \B-LXXBenedictusAlto }
+            \new Voice = "Alto" { \dynamicUp \B-LXXAgnusAlto }
           }
-          \new Lyrics \lyricsto Alto \B-LXXBenedictusAltoLyrics
+          \new Lyrics \lyricsto Alto \B-LXXAgnusAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \B-LXXBenedictusTenore }
+            \new Voice = "Tenore" { \dynamicUp \B-LXXAgnusTenore }
           }
-          \new Lyrics \lyricsto Tenore \B-LXXBenedictusTenoreLyrics
+          \new Lyrics \lyricsto Tenore \B-LXXAgnusTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \B-LXXAgnusBasso }
+          }
+          \new Lyrics \lyricsto Basso \B-LXXAgnusBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \B-LXXBenedictusOrgano
+            \B-LXXAgnusOrgano
           }
         >>
-        \new FiguredBass { \B-LXXBenedictusBassFigures }
+        \new FiguredBass { \B-LXXAgnusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 90 }
+      \midi { \tempo 2 = 70 } % 110
     }
   }
   % \bookpart {

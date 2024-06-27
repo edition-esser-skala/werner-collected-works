@@ -516,16 +516,114 @@ B-LXXSanctusBassoLyrics = \lyricmode {
   sis. %45 finis
 }
 
-% B-LXXBasso = {
-%   \relative c {
-%     \clef bass
+B-LXXAgnusBasso = {
+  \relative c {
+    \clef bass
+    \key f \lydian \time 4/2 \tempoB-LXXAgnus \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+    f1 d
+    g e2 e
+    a1 d,2 g!
+    c, f! b,1
+    a r2 f'~ %5
+    f f b1
+    fis g
+    cis, d2 d
+    gis,1 a
+    r\fermata f'~ %10
+    f2 f c1
+    d2. e4 f1
+    e2. fis4 g2( es)
+    d( g) d1
+    g, r2 g'~ %15
+    g g e e
+    f2.( e4 d1)
+    c r2 f~
+    f f d1
+    a2 a b1 %20
+    c d
+    c2 b a d \noBreak
+    g1 f\fermata \bar "||"
+    \time 3/2 \tempoB-LXXDona \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      f2. e4 f2 \noBreak
+    c d c %25
+    \once \stemUp d4( c8[ d] b4 c a) f
+    f'( e8[ f] d4 g e) c
+    R1.
+    r2 r4 c d c8[ d]
+    b2 c4 b8[ c] a4 f %30
+    r f' g f8[ g] e2
+    f4 c g2 c
+    R1.
+    r2 f2. e4
+    f2 c d %35
+    c r r
+    r4 a'( b a8[ b] g4 e)
+    f2 r r
+    b2. a4 b2
+    f g f( %40
+    e) d1
+    c2 c' b
+    a1( g2)
+    f r r
+    r4 f g f8[ g] a4 g8[ a] %45
+    b2 c( c,)
+    f r4 b,( c2)
+    f, r r\fermata \bar "|." %48 finis
+  }
+}
 
-%   }
-% }
+B-LXXAgnusBassoLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta mun --
+  di: Mi -- %5
+  se -- re --
+  re, mi --
+  se -- re -- re
+  no -- bis.
+  A -- %10
+  gnus De --
+  i, qui tol --
+  lis pec -- ca --
+  ta __ mun --
+  di: Mi -- %15
+  se -- re -- re
+  no --
+  bis. A --
+  gnus De --
+  i, qui tol -- %20
+  lis, tol --
+  lis pec -- ca -- ta
+  mun -- di:
+  Do -- na no --
+  bis pa -- cem, %25
+  pa -- cem,
+  pa -- cem,
 
-% B-LXXBassoLyrics = \lyricmode {
+  pa -- _ _
+  _ _ _ _ cem, %30
+  pa -- _ _ _
+  _ cem, pa -- cem,
 
-% }
+  do -- na
+  no -- bis pa -- %35
+  cem,
+  pa --
+  cem,
+  do -- na no --
+  bis pa -- cem, __ %40
+  pa --
+  cem, no -- bis
+  pa --
+  cem,
+  pa -- _ _ _ _ %45
+  cem, pa --
+  cem, pa --
+  cem. %48 finis
+}
 
 B-LXXFragmentBasso = {
   \relative c {

@@ -589,16 +589,114 @@ B-LXXBenedictusTenoreLyrics = \lyricmode {
   ni. %11 finis
 }
 
-% B-LXXTenore = {
-%   \relative c' {
-%     \clef "treble_8"
+B-LXXAgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \lydian \time 4/2 \tempoB-LXXAgnus \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+    a1. d2~
+    d h! h e~
+    e c d d
+    c2. a4 f2( b)
+    e,1 r2 a~ %5
+    a a b1
+    a2 d1 d2
+    e1. d4( cis)
+    d1 cis
+    r\fermata c %10
+    c c
+    f,2 d' c2.( d4)
+    e2 e d es
+    a,( \once \stemUp b a1)
+    g r2 b %15
+    d1 g,2 c
+    c1.( h!2)
+    c1 r2 c~
+    c c d1
+    c2 c b( d) %20
+    e e, f2.( g4)
+    a2 d c a \noBreak
+    b1 c\fermata \bar "||"
+    \time 3/2 \tempoB-LXXDona \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      R1. \noBreak
+    c2. h4 c2 %25
+    a g f4 a~
+    a8[ h] c2 h8[ a] g2
+    r r r4 a(
+    \once \stemUp b a8[ b] g4) c a f
+    r g2( c) a4 %30
+    r2 r4 d g, g(
+    a) g g2 g
+    c2. h4 c2
+    g a4 b c2~
+    c4 a g2( f) %35
+    g r r
+    r4 c( d c8[ d] b4) c
+    a f r2 r
+    r4 f( d' c2 b4)
+    a2 b a %40
+    g a4 d2 c8[ d]
+    g,2 a b
+    r c( g')
+    c, r r
+    r4 a b a8[ b] c4 b8[ c] %45
+    d4 b g1
+    a2 r4 d( c2)
+    c r r\fermata \bar "|." %48 finis
+  }
+}
 
-%   }
-% }
+B-LXXAgnusTenoreLyrics = \lyricmode {
+  A -- gnus __
+  De -- i, qui __
+  tol -- lis pec --
+  ca -- ta mun --
+  di: Mi -- %5
+  se -- re --
+  re, mi -- se --
+  re -- re __
+  no -- bis.
+  A -- %10
+  gnus De --
+  i, qui tol --
+  lis pec -- ca -- ta
+  mun --
+  di: Mi -- %15
+  se -- re -- re
+  no --
+  bis. A --
+  gnus De --
+  i, qui tol -- %20
+  lis pec -- ca --
+  ta, pec -- ca -- ta
+  mun -- di:
 
-% B-LXXTenoreLyrics = \lyricmode {
+  Do -- na no -- %25
+  bis pa -- cem, pa --
+  _ _ cem,
+  pa --
+  cem, pa -- cem,
+  pa -- cem, %30
+  pa -- cem, no --
+  bis pa -- cem,
+  do -- na no --
+  bis, do -- _ _
+  na no -- %35
+  bis
 
-% }
+  pa -- cem,
+  pa -- cem,
+  pa -- %40
+  cem, pa -- cem,
+  pa -- _ _ _
+  cem, no -- bis
+  pa -- cem,
+  pa -- _ _ _ _ %45
+  _ cem, pa --
+  cem, pa --
+  cem. %48 finis
+}
 
 B-LXXFragmentTenore = {
   \relative c' {

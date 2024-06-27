@@ -556,16 +556,108 @@ B-LXXBenedictusSopranoLyrics = \lyricmode {
   ni. %11 finis
 }
 
-% B-LXXSoprano = {
-%   \relative c' {
-%     \clef treble
+B-LXXAgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \lydian \time 4/2 \tempoB-LXXAgnus \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+    c'1. b4( a)
+    b2 d1 c4( h)
+    c2 c1 b2
+    b a1 g2
+    a1 r2 c!~ %5
+    c c d1~
+    d2 a b1^\critnote
+    a a2 a
+    h!1 a
+    r\fermata a~ %10
+    a2 a g2.( a4)
+    b2 b a2.( h4)
+    c2 c b2. c4
+    d\breve
+    d2 d1 d2 %15
+    b1 c
+    a( d)
+    g, r2 a~
+    a a a( b)
+    c c d1 %20
+    c2 b a a~
+    a b c c \noBreak
+    b1 a\fermata \bar "||"
+    \time 3/2 \tempoB-LXXDona \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      R1.*4 %27
+    c2. h4 c2
+    f, g f4 a
+    b a8[ b] g2 a4 c %30
+    d c8[ d] h2 c4 h8[ c]
+    a[ h] c2 h4 c2
+    e2. d4 e2
+    h c1~
+    c h2 %35
+    c4 g( a g8[ a] f4) g
+    e c r2 r
+    r4 a' d c8[ b] a[ b a g]
+    f2 r r
+    f'2. e4 f2 %40
+    c1 b2~
+    b a g~
+    g f e
+    f4 c' d c8[ d] e4 d8[ e]
+    f1.~ %45
+    f4 d c1
+    c4 c( d2 g,)
+    a r r\fermata \bar "|." %48 finis
+  }
+}
 
-%   }
-% }
+B-LXXAgnusSopranoLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta mun --
+  di: Mi -- %5
+  se -- re --
+  re, \xE mi --
+  se -- re -- re
+  no -- bis. \x
+  A -- %10
+  gnus De --
+  i, qui tol --
+  lis pec -- ca -- ta
+  mun --
+  di: Mi -- se -- %15
+  re -- re
+  no --
+  bis. A --
+  gnus De --
+  i, qui tol -- %20
+  lis pec -- ca -- ta, __
+  pec -- ca -- ta
+  mun -- di:
 
-% B-LXXSopranoLyrics = \lyricmode {
-
-% }
+  Do -- na no -- %28
+  bis pa -- cem, pa --
+  _ _ _ cem, pa -- %30
+  _ _ _ _ _
+  _ _ _ cem,
+  do -- na no --
+  bis pa --
+  _ %35
+  cem, pa -- cem,
+  pa -- cem,
+  pa -- _ _ _
+  cem,
+  do -- na no -- %40
+  bis pa --
+  _ _
+  _ _
+  cem, pa -- _ _ _ _
+  _ %45
+  cem, pa --
+  cem, pa --
+  cem. %48 finis
+}
 
 B-LXXFragmentSoprano = {
   \relative c' {
@@ -580,13 +672,3 @@ B-LXXFragmentSoprano = {
     a d2. c4 h!2 %9 finis
   }
 }
-
-
-
-
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.

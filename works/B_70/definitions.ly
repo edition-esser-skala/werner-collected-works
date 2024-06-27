@@ -18,6 +18,8 @@ tempoB-LXXCredo = \tempoMarkup "[Tempo deest]"
 tempoB-LXXSanctus = \tempoMarkup "[Tempo deest]"
   tempoB-LXXOsanna = \tempoMarkup "Osanna · [Tempo deest]"
 tempoB-LXXBenedictus = \tempoMarkup "[Tempo deest]"
+tempoB-LXXAgnus = \tempoMarkup "[Tempo deest]"
+  tempoB-LXXDona = \tempoMarkup "[Tempo deest]"
 tempoB-LXXFragment = \tempoMarkup "[Tempo deest]"
 
 \include "notes/S.ly"
