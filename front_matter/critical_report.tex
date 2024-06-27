@@ -1,4 +1,4 @@
-\documentclass[changelog=false,tocdir=\tocdir,tocstyle=none]{ees}
+\documentclass[changelog=false,tocdir=\tocdir]{ees}
 
 \usepackage{mfirstuc}
 \usepackage{multicol}
@@ -7,8 +7,6 @@
 \lastname{Werner}
 \shortname{Werner}
 \shorttitle{Collected works}
-
-\providecommand\MetadataToestyle{short}
 
 \ifthenelse{\isundefined{\MetadataFestival}}{%
   \subtitle{%
@@ -22,25 +20,31 @@
   }%
 }%
 
+\makeatletter
+\providecommand\MetadataTocstyle{none}
+\ifthenelse{\equal{\MetadataTocstyle}{none}}{%
+  \let\ees@tocstyle\ees@tocstyle@none%
+  \renewcommand\newtocentry[6]{%
+    \bookmark[level=#2,dest=score.#6]{#5}%
+  }%
+}{}%
+
+\ifthenelse{\isundefined{\MetadataToe}}{\ees@toefalse}{}%
+\makeatother
+
+\def\acknowledgements{}
+\ifthenelse{\isundefined{\MetadataCommentary}}{
+  \def\eesCommentaryAfterToe{\acknowledgements}%
+}{%
+  \def\eesCommentaryAfterToe{\MetadataCommentary\acknowledgements}%
+}
+
 
 \begin{document}
 
 \eesTitlePage
 
-\ifthenelse{\isundefined{\MetadataCommentary}}{}{%
-\def\eesCommentaryAfterToe{\MetadataCommentary}%
-}
-
-\makeatletter%
-  \ifthenelse{\isundefined{\MetadataToe}}{\ees@toefalse}{}%
-  \ifthenelse{\equal{\MetadataToestyle}{movement}}%
-    {\let\ees@tocstyle\ees@tocstyle@default}{}%
-\makeatother%
 \eesCriticalReport{\csname MetadataToe\endcsname}
-\makeatletter%
-  \ees@toetrue%
-  \let\ees@tocstyle\ees@tocstyle@none%
-\makeatother
 
 \ifthenelse{\isundefined{\MetadataLyrics}}{}{%
   \ifPrintFrontMatter%
