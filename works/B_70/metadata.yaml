@@ -11,6 +11,11 @@ sources:
     url: https://data.onb.ac.at/rec/AC14247571
     license: public domain
     principal: true
+toestyle: movement
 toe: |
-  2  & 80f & org & In \A1, org plays colla parte with S and A; however, Werner noted “NB Tenor” blow the staff, indicating that org should rather play colla parte with T. \\
-  2* & –   & –   & This cancelled fragment of a \textit{Credo} appears in \A1 following the \textit{Kyrie}. \\
+  2  & 80f & org & In \A1, org plays colla parte with S and A.
+                   However, Werner noted “NB Tenor” below the staff,
+                   indicating that org should rather play colla parte with T. \\
+  5  & 7–9 & S   & Lyrics have been added by later hand. \\
+  2* & –   & –   & This cancelled fragment of a \textit{Credo}
+                   appears in \A1 following the \textit{Kyrie}. \\
