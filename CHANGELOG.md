@@ -4,14 +4,16 @@
 
 ### Added
 
-- works:
+- works: WerW B.70, D.1.11, D.5.5, G.6, H.1.11, I.4.41, J.2, Q.3, and Z.9
 - works incorporated that were previously published separately:
- - WerW Z.9 *Sechs Fugen in Quartetten* (original repository: werner-six-fugues; v2.0.0, 2021-12-06; v1.0, 2021-07-30)
- - WerP P.4–9 & M.17–22 *Symphoniae sex senaeque sonatae* (original repository: werner-symphoniae-sex-senaeque-sonatae; v1.0.0, 2022-12-19)
+  - WerW Z.9 *Sechs Fugen in Quartetten* (original repository: werner-six-fugues; v2.0.0, 2021-12-06; v1.0, 2021-07-30)
+  - WerP P.4–9 & M.17–22 *Symphoniae sex senaeque sonatae* (original repository: werner-symphoniae-sex-senaeque-sonatae; v1.0.0, 2022-12-19)
+- a YAML key *tocstyle* which supports works with multiple movements
+- global macros: \dstU and \dstD
 
 ### Changed
 
--
+- renamed the project to “Collected works”
 
 
 ## 2024.05.0 – 2024-05-31
