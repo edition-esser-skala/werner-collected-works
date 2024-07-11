@@ -214,3 +214,274 @@ B-XLVIIIGloriaAltoLyrics = \lyricmode {
   men, a -- men, __
   a -- men. %98 finis
 }
+
+B-XLVIIICredoAlto = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoB-XLVIIICredo
+    \mvTr e8\fE^\tutti fis4 gis8 a e fis([ gis)]
+    a gis16([ fis)] e([ cis')] h([ a)] gis8 a16 a h8([ gis)]
+    e e8.([ fis16)] g8 a4. g8
+    fis fis8.[( gis16] a8 h[ a]) gis([ fis)]
+    e4 e8 e fis4 e8([ a)] %5
+    a4. gis8 a4 r
+    \mvTr a8\pE^\solo e cis' h16([ a)] gis8. gis16 a8([ h)]
+    cis16([ d cis8)] h([ a)] gis([ fis)] e4
+    cis a'8 fis dis4 h'8([ gis)]
+    e16([ fis)] gis([ a)] h8([ a] gis4 fis8.)\trill e16 %10
+    e4 r r2
+    R1*2
+    r2 r8 e a a
+    a([ gis)] gis4 r8 fis h, h' %15
+    h a16([ gis)] a4 r cis,8 gis'
+    gis16([ fis)] fis8 fis4 fis8 gis fis([ eis)]
+    fis4 r r2
+    R1*3 %21
+    r2 r8 \mvTr e\fE^\tutti a gis
+    a e cis e a,4 r
+    r8 e' e e e4 d8 e
+    e e r4 r8 a gis16([ fis gis8)] %25
+    e e a2 fis8 a \noBreak
+    fis2 e4 r\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoB-XLVIIIEtIncarnatus \newSpacingSection
+      \mvTr e4\pE^\solo e e \noBreak
+    c'2.~
+    c4 h a %30
+    gis2 r4
+    R2.*4 %35
+    g4 c2
+    h4( c) d
+    d8([ c)] c4 r
+    R2.
+    r4 d, g~ %40
+    g f!\trill e
+    f4. f8 f4
+    R2.
+    e4 c'!2
+    h4 h2 %45
+    a4 a2
+    gis4( a) \once \stemUp h(
+    a8[ gis)] a2
+    gis4 r r
+    R2.*3 \noBreak %52
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoB-XLVIIICrucifixus \newSpacingSection
+      \mvTr f4\pE^\solo a e4.( a8) \noBreak
+    f2 r\fermata %55
+    f4 fis g4.( a8)
+    fis4 g4. a8 fis f~
+    f g e e f[ c] f4~
+    f8[ g16 f] e8[ d] e4 r
+    r8 a a a g4 r %60
+    r8 h! h h a4 r8 fis
+    g f e e f a4 h8
+    a4( gis) a2\fermata
+    r4 f2( e4)
+    d2 r\fermata %65
+    f( e4 a)
+    gis e( f!) fis
+    gis( a8[ gis] a16[ h a8]) gis([ fis)] \noBreak
+    gis2 r\fermata \bar "||"
+    \key a \major \time 3/2 \tempoB-XLVIIIEtResurrexit \newSpacingSection
+      \mvTr cis,2\fE^\tutti cis e \noBreak %70
+    a a r4 cis
+    a2 a r4 e
+    e2 cis r
+    e e e
+    e e r4 gis %75
+    e2 e r4 a
+    fis2 h4 gis fis2
+    gis r r
+    e2. fis4 gis( a)
+    h a8([ gis)] fis4( gis a \once \stemUp h) %80
+    e,2 r4 a h a
+    gis4. gis8 gis4 a h gis
+    a a2( gis8[ fis] gis2)
+    a r r^\aTre
+    r4 \mvTr a\pE^\solo a4.( gis8) fis4( eis) %85
+    fis a gis2. fis4
+    eis fis gis( fis) gis( fis)
+    eis2 r fis~
+    fis4 d d h e2
+    cis4 a'2( h4) a gis %90
+    a a fis gis a2
+    gis8([ fis] gis4) cis, fis fis \tuplet 3/2 4 { h8([ a gis)] }
+    fis4( eis) fis2 r
+    R1.*6 %99
+    r4 \mvTr eis2\fE^\tutti eis4 fis d! %100
+    g( fis) fis2 r4 e
+    e fis a a gis( fis)
+    gis gis2 gis4 a2
+    fis r4 gis a2
+    a4( fis2) h4 e, e( %105
+    a2) gis a~ \noBreak
+    a4 gis a2 r
+    \time 4/4 \tempoB-XLVIIIEtInSpiritum \newSpacingSection
+      R1*2
+    r4 r8 \mvTr e\pE^\solo e dis e a %110
+    fis e d4\trill cis8 e4 e8
+    e4. fis16([ gis)] a8 h cis e,
+    a2 gis4 r
+    R1*3 \noBreak %116
+    R1\fermata \bar "||"
+    \tempoB-XLVIIIEtVitam
+      r4 \mvTr a4.\fE^\tuttiE gis8 g[ fis16 e] \noBreak
+    fis8[ h,] h'4. ais8 a[ gis16 fis]
+    gis8[ cis, gis' ais] h[ a16 gis] fis8[ gis] %120
+    a[ gis16 fis] e8[ fis] gis gis( h16[ gis fis e)]
+    fis8 fis16([ gis] a8[ h)] e, a4 gis16[ fis]
+    gis8.[ a16] h8[ cis] fis,[ gis] a[ gis16 fis]
+    e8 a([ e fis] gis) e r4
+    r8 fis h4. ais8 a[ gis16 fis] %125
+    gis8[ cis, gis' ais] h fis4 gis8
+    a4 gis8[ ais] h4. a16[ gis]
+    fis8[ h,] h'[ a16 h] gis8 e gis h
+    fis h, r4 r8 fis' a! cis
+    gis cis, r e! fis4( gis) %130
+    cis,8 fis4 fis8 h, \once \stemUp h'4( a16[ gis]
+    fis4) h, r8 fis'~ fis16[ e fis8]
+    h, e~ e16[ d e8] a, a'4 g16[ fis]
+    g[ a h8] a[ g] fis d fis([ a)]
+    e([ a,)] e'([ fis)] g4. h8 %135
+    fis([ h,)] fis' gis a4. g16[ fis]
+    g8[ a] h[ a16 g] fis8[ gis] a[ gis16 fis]
+    e8 a, r a' e[ h']~ h[ a16 gis]
+    fis4 r8 h( fis) cis' r a(
+    e) h' r e,( fis a4 gis16[ fis]) %140
+    gis8 gis4( a16[ h] \once \stemUp cis8) a r fis(
+    e[ gis dis fis]) e2
+    r4 e2 e4
+    e2 e4 r
+    e8( fis4 e8) e4 r\fermata \bar "|." %145 finis
+  }
+}
+
+B-XLVIIICredoAltoLyrics = \lyricmode {
+  Pa -- trem o -- mni -- po -- ten --
+  tem, fa -- cto -- rem coe -- li et ter --
+  rae, vi -- si -- bi -- li --
+  um o -- mni --
+  um et in -- vi -- si -- %5
+  bi -- li -- um.
+  Et in u -- num Do -- mi -- num
+  Je -- sum Chri -- stum,
+  Fi -- li -- um De -- i __
+  u -- ni -- ge -- ni -- %10
+  tum.
+
+  De -- um de %14
+  De -- o, lu -- men de %15
+  lu -- mi -- ne, De -- um
+  ve -- rum de De -- o ve --
+  ro.
+
+  Qui pro -- pter %22
+  nos, nos ho -- mi -- nes
+  et pro -- pter no -- stram sa --
+  lu -- tem de -- scen -- %25
+  dit de coe -- lis, de
+  coe -- lis.
+  Et in -- car --
+  na --
+  _ tus %30
+  est
+
+  de Spi -- %36
+  ri -- tu
+  San -- cto
+
+  ex Ma -- %40
+  ri -- a
+  Vir -- gi -- ne,
+
+  et ho --
+  mo fa -- %45
+  ctus, ho --
+  mo __ fa --
+  ctus
+  est.
+
+  Cru -- ci -- fi -- %54
+  xus, %55
+  cru -- ci -- fi --
+  xus e -- ti -- am, e --
+  ti -- am pro no -- _
+  _ bis
+  sub Pon -- ti -- o, %60
+  sub Pon -- ti -- o, sub
+  Pon -- ti -- o Pi -- la -- to, Pi --
+  la -- to,
+  pas --
+  sus, %65
+  pas --
+  sus et __ se --
+  pul -- tus
+  est.
+  Et re -- sur -- %70
+  re -- xit, sur --
+  re -- xit, sur --
+  re -- xit
+  ter -- ti -- a
+  di -- e se -- %75
+  cun -- dum, se --
+  cun -- dum Scri -- ptu --
+  ras,
+  et a -- scen --
+  dit in __ coe -- %80
+  lum, se -- det ad
+  dex -- te -- ram, ad dex -- te --
+  ram Pa --
+  tris.
+  Et i -- te -- %85
+  rum ven -- tu -- rus
+  est cum glo -- ri --
+  a iu --
+  di -- ca -- re vi --
+  vos et __ mor -- tu -- %90
+  os, cu -- ius re -- gni,
+  re -- gni non e -- rit __
+  fi -- nis.
+
+  Si -- mul ad -- o -- %100
+  ra -- tur et
+  con -- glo -- ri -- fi -- ca --
+  tur: qui lo -- cu --
+  tus, qui lo --
+  cu -- tus est per __ %105
+  Pro -- phe --
+  _ tas.
+
+  Con -- fi -- te -- or u -- %110
+  num ba -- ptis -- ma in re --
+  mis -- si -- o -- nem pec -- ca --
+  to -- rum.
+
+  A -- _ _ %118
+  _ _ _ _
+  _ _ _ %120
+  _ _ men, a --
+  men, a -- men, a -- _
+  _ _ _ _
+  men, a -- men,
+  a -- _ _ _ %125
+  _ _ _ _
+  men, a -- _ _
+  _ _ men, et vi -- tam,
+  vi -- tam ven -- tu -- ri,
+  vi -- tam ven -- tu -- %130
+  ri sae -- cu -- li, a --
+  men, a --
+  men, a -- men, a -- _
+  _ _ men, et vi --
+  tam ven -- tu -- ri %135
+  sae -- cu -- li, a -- _
+  _ _ _ _
+  _ men, a -- _
+  men, a -- men, a --
+  men, a -- %140
+  men, a -- men, a --
+  men,
+  a -- men,
+  a -- men,
+  a -- men. %145 finis
+}

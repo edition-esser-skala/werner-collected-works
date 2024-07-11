@@ -141,3 +141,128 @@ B-XLVIIIGloriaViolinoI = {
     d cis h4\trill cis r\fermata \bar "|." %98 finis
   }
 }
+
+B-XLVIIICredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoB-XLVIIICredo
+    cis'16\fE e a,8~ a16 d cis h cis e a,8~ a16 fis' e d
+    cis a' gis fis e cis' h a gis fis e dis e h' a h
+    cis e d e cis d h cis a cis h cis a h g a
+    fis d fis a d e cis d h cis a h gis a fis gis
+    e fis d e cis d h cis a8 e' a cis16( a) %5
+    fis8 d'16( h) \appoggiatura a8 gis8.\trill gis16 a8 \once \slurDashed cis,16( e) fis8 h,
+    cis4 r r2
+    r r16 e\p dis( e) e, d' cis h
+    cis( a) cis8 cis8.\trill h32( cis) dis16( h) \hA dis8 dis8.\trill cis32( \hA dis)
+    e8 dis16 cis h8 cis16( fis) e4( dis8.)\trillE e16 %10
+    e4 r r2
+    r r8 fis\p h h
+    h a16 gis a4 r2
+    R1*4 %17
+    r8 \tuplet 3/2 8 { a,16\f h cis } d8 cis d4 r
+    r16 d\p fis a d4 r16 e,32 d cis16 e a,4
+    r2 r16 e'32 d cis16 e a,4 %20
+    r16 a32 gis fis16 a d,4 r8 e'4 cis8
+    h4.\trill h8 cis e\f a gis
+    a r r4 r16 a,,-! cis-! e-! a-! cis-! e-! a-!
+    cis8 a, r16 e' cis a h8 e,16 a h8 cis
+    h32 e, fis gis a h cis d e fis gis a h16 gis e8 cis h gis' %25
+    a,16 h cis a d e fis d e8 a fis e~
+    e d16 cis d4\trill cis r\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoB-XLVIIIEtIncarnatus \newSpacingSection
+      R2.*3 %30
+    h,4\pE h h
+    e2 a4~
+    a g! fis
+    g f e
+    f e d %35
+    e r r
+    R2.
+    r4 r e'
+    a, h c
+    c8( h) h4 r %40
+    R2.
+    r4 a d~
+    d c! h
+    c2 r4
+    R2.*4 %48
+    e4(\pp dis) d
+    c8( a') gis4 g~ %50
+    g f!8 e f4
+    r f,8( e) f4 \noBreak
+    e2 r4\fermata \bar "||"
+    \time 4/4 \tempoB-XLVIIICrucifixus \newSpacingSection
+      R1 \noBreak
+    R\fermata %55
+    R1*7 %62
+    R1\fermata
+    R
+    R\fermata %65
+    R1*3 \noBreak
+    R1\fermata \bar "||"
+    \key a \major \time 3/2 \tempoB-XLVIIIEtResurrexit \newSpacingSection
+      <cis e a>2\fE r r \noBreak %70
+    r8 cis e a e cis e a cis2
+    r8 e, a cis a e a cis e2
+    r8 a, cis e cis a cis e a e cis e
+    a,2 r r
+    r8 e gis h e e, gis h e h gis e' %75
+    cis a cis e a e cis e a, cis' a fis
+    dis h dis fis h4 gis fis h
+    gis8 h e, gis h, gis' e gis h, e gis, h
+    e,4 fis gis a h cis
+    d! e fis2. e8 d %80
+    cis2 r8 e cis e h e cis a
+    gis e gis h e gis cis, e h e gis e
+    a e cis a' h,4 a' e, gis'
+    a8 cis a e cis a' e cis a cis a e
+    cis2 r r %85
+    R1.*7 %92
+    r2 a''4\p fis8 gis a h cis4
+    fis,8 gis a2 gis4 a2
+    r4 e2 dis4 e4. e8 %95
+    fis4. e8 d cis d e cis d \tuplet 3/2 4 { e[ fis gis] }
+    a h cis h a4. fis8 h a h gis
+    a h cis2 h4 a2~
+    a8 h a gis fis h a h gis4 e
+    r gis2\f cis4 ais h~ %100
+    h ais h8 h, d fis h a gis h
+    a4 fis e8 a, a'4 gis fis
+    gis gis2 gis4 a8 gis a4
+    fis2 r4 gis a a~
+    a fis2 h4 e, e %105
+    a2 gis a~ \noBreak
+    a4 gis a a, fis' h,
+    \time 4/4 \tempoB-XLVIIIEtInSpiritum \newSpacingSection
+      cis4 r r2 \noBreak
+    R1*8 \noBreak %116
+    R1\fermata \bar "||"
+    \tempoB-XLVIIIEtVitam
+      r8 a\fE cis e h e, h' cis \noBreak
+    d4. fis8 cis fis, cis' dis
+    e4. d16 cis d8 e fis e16 d %120
+    cis8 dis e d16 cis h4 e,
+    R1*2
+    r2 r8 e e'4~
+    e8 dis d cis16 h cis8 fis, fis'4~ %125
+    fis8 eis e4. dis8 d4
+    cis8 dis e fis16 e dis4 e~
+    e8 dis16 cis dis4\trillE e e~
+    e8 dis h4 r fis'~
+    fis8 eis cis4 r2 %130
+    R1*3
+    r2 r4 d~
+    d8 cis c h16 a h8 e, e'4~ %135
+    e8 dis d cis16 h cis8 fis, cis' dis
+    e d16 cis h8 cis d cis16 h a8 h
+    cis16 d cis h a h cis a h8 e16 d e8 e,
+    r16 h' d cis h cis d h cis8 fis16 e fis8 fis,
+    h e16 d e8 e, a4. fis'8 %140
+    h,4. cis16 h a4. h16 a
+    gis8 e' fis, dis' e d cis d16 cis
+    h8 e, h'4. a16 gis a4~
+    a8 gis16 fis gis4 a16 cis, d e fis gis a h
+    cis8.\trill h32 cis d8 h cis4 r\fermata \bar "|." %145 finis
+  }
+}

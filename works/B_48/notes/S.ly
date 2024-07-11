@@ -239,53 +239,225 @@ B-XLVIIIGloriaSopranoLyrics = \lyricmode {
   men, a -- men. %98 finis
 }
 
+B-XLVIIICredoSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoB-XLVIIICredo
+    \mvTr cis'8\fE^\tutti d4 h8 cis cis d([ cis16 h)]
+    cis8 d e d16([ cis)] h4 e,8 e'
+    cis cis cis e a, h16 cis d8 e
+    fis4 d8 fis e[ h]~ h16[ cis] d8
+    e d cis e a,16([ h cis d] e8) cis %5
+    fis([ d)] h([ e)] cis4 r
+    R1*4 %10
+    \mvTr e8\pE^\solo h gis' fis16([ e)] dis([ e fis e] dis[ cis h a]
+    gis8) e h' e e dis16([ cis)] dis8 r
+    r4 a8 cis h16([ cis dis e] fis8) a,
+    gis4 a8_([ h] cis4.) cis8
+    h h e e e([ d!)] d4 %15
+    r8 cis fis, fis' fis eis16 fis gis8 h,
+    h16([ a)] a8 r h cis16([ fis)] \tuplet 3/2 8 { d16([ cis h)] } a8([ gis)]
+    fis4 r r2
+    R1*3 %21
+    r2 r8 \mvTr h\fE^\tutti cis h
+    cis e cis e a,4 r
+    r8 cis e cis h([ a)] gis a
+    gis gis r e' cis16([ h cis8)] h4 %25
+    a16([ h cis a)] d[ e fis d] e[ d cis h] a4~ \noBreak
+    a d cis r\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoB-XLVIIIEtIncarnatus \newSpacingSection
+      R2.*25 \noBreak %52
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoB-XLVIIICrucifixus \newSpacingSection
+      \mvTr a4.\pE^\solo d8 d([ cis16 h] cis4) \noBreak
+    d2 r\fermata %55
+    a4. d8 es4 es
+    d4. e8 cis c4 d8
+    h! b4 c8 a4. a8
+    a4( gis) a8 a a a
+    c! c c4 b8 b b b %60
+    d d d4 cis8 cis d d
+    h! h c4 a8 a f'[( d]
+    c4 h!) a2\fermata
+    r4 a( g! c)
+    h!2 r\fermata %65
+    a4( d2 c4)
+    h! e2 d4~
+    d c8[( h] c16[ d c8]) h8([ a)] \noBreak
+    h2 r\fermata \bar "||"
+    \key a \major \time 3/2 \tempoB-XLVIIIEtResurrexit \newSpacingSection
+      \mvTr e,2\fE^\tutti e a \noBreak %70
+    cis cis r4 a
+    e'2 e r4 cis
+    a'2 a, r
+    cis e cis
+    h h r4 e %75
+    cis2 cis r4 fis
+    dis2 e4 e e( dis)
+    e2 r r
+    e,4 fis gis( a h cis)
+    d! e fis2.( e8[ d)] %80
+    cis4 e,( a) cis e2
+    e4 e e2. e4
+    e( cis) h1\trill
+    cis2 r r^\aTre
+    r4 \mvTr cis\pE^\solo cis4.( h8) a4( gis) %85
+    a cis cis( h) h( a)
+    gis a h( a) h( a)
+    gis2 r4 cis2 a4
+    a fis r h2 gis4
+    cis4.( d8) e4 d h4. h8 %90
+    cis4 cis d h cis2
+    h4 cis2 a8([ h)] cis4 d
+    a( gis) fis2 r
+    R1.*6 %99
+    r4 \mvTr cis'2\fE^\tutti cis4 cis h %100
+    h( ais) h2 r4 h
+    cis d e e e( dis)
+    e h2 cis a4~
+    a h gis e'2 fis4~
+    fis d2 e4 cis cis~ %105
+    cis dis e2 e4 e \noBreak
+    e2 e r
+    \time 4/4 \tempoB-XLVIIIEtInSpiritum \newSpacingSection
+      r8 \mvTr a,16([\pE^\solo h)] cis([ d)] e8 d4 cis8 h16([ cis)] \noBreak
+    d8 cis fis16([ d)] h([ a)] gis8 a h cis
+    d16([ fis)] e([ d)] cis([ d)] e([ e,)] a8.\trill a16 gis8 r %110
+    R1*6 \noBreak %116
+    R1\fermata \bar "||"
+    \tempoB-XLVIIIEtVitam
+      r8 \mvTr a\fE^\tutti cis([ e)] h([ e,)] h'([ cis)] \noBreak
+    d4. fis8 cis([ fis,)] cis' dis
+    e4. d16 cis d8[ e] fis[ e16 d] %120
+    cis8[ dis] e[ d16 cis] h4 e,
+    R1*2
+    r2 r8 e e'4~
+    e8[ dis] d[ cis16 h] cis8[ fis,] fis'4~ %125
+    fis8[ eis] e4. dis8 d4
+    cis8[ dis] e[ fis16 e] dis4 e~
+    e8[ dis16 cis] dis4\trill e4 e~
+    e8[ dis] h4 r fis'~
+    fis8[ eis] cis4 r2 %130
+    R1*3
+    r2 r4 d~
+    d8[ cis] c[ h16 a] h8[ e,] e'4~ %135
+    e8[ dis] d[ cis16 h] cis8[ fis, cis' dis]
+    e[ d16 cis] h8[ cis] d[ cis16 h] a8[ h]
+    cis16[ d cis h] a[ h cis a] h8[ e16 d] e8 e,
+    r16 h'[ d cis] h[ cis d h] cis8[ fis16 e] fis8[ fis,]
+    h[ e16 d] e8[ e,] a4. fis'8 %140
+    h,4. cis16[ h] a4. h16[ a]
+    gis8[ e' fis, dis'] e[ d] cis[ d16 cis]
+    h8[ e,] h'4. a16[ gis] a4~
+    a8[ gis16 fis] gis4 a r
+    cis8.([\trill h32 cis] d8[ h]) cis4 r\fermata \bar "|." %145 finis
+  }
+}
 
-% Cre -- do in u -- num De -- um,
-% Pa -- trem o -- mni -- po -- ten -- tem,
-% fa -- cto -- rem coe -- li et ter -- rae,
-% vi -- si -- bi -- li -- um o -- mni -- um
-% et in -- vi -- si -- bi -- li -- um.
-% Et in u -- num Do -- mi -- num Je -- sum Chri -- stum,
-% Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum,
-% et ex Pa -- tre na -- tum an -- te o -- mni -- a sae -- cu -- la.
-% De -- um de De -- o, lu -- men de lu -- mi -- ne,
-% De -- um ve -- rum de De -- o ve -- ro,
-% ge -- ni -- tum non fa -- ctum,
-% con -- sub -- stan -- ti -- a -- lem Pa -- tri,
-% per quem o -- mni -- a fa -- cta sunt.
-% Qui pro -- pter nos ho -- mi -- nes
-% et pro -- pter no -- stram sa -- lu -- tem
-% de -- scen -- dit de coe -- lis.
+B-XLVIIICredoSopranoLyrics = \lyricmode {
+  Pa -- trem o -- mni -- po -- ten --
+  tem, fa -- cto -- rem coe -- li et
+  ter -- rae, vi -- si -- bi -- li -- um o -- mni --
+  um et in -- vi -- si --
+  bi -- li -- um, in -- vi -- si -- %5
+  bi -- li -- um.
 
-% Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto
-% ex Ma -- ri -- a Vir -- gi -- ne, et ho -- mo fa -- ctus est.
+  Et ex Pa -- tre na -- %11
+  tum an -- te o -- mni -- a,
+  an -- te o -- mni --
+  a sae -- cu --
+  la, De -- um de De -- o, %15
+  lu -- men de lu -- mi -- ne, De -- um
+  ve -- rum de De -- o __ ve --
+  ro.
 
-% Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis
-% sub Pon -- ti -- o Pi -- la -- to, pas -- sus et se -- pul -- tus est.
+  Qui pro -- pter %22
+  nos, nos ho -- mi -- nes
+  et pro -- pter no -- stram sa --
+  lu -- tem de -- scen -- dit %25
+  de __ coe -- _ _
+  _ lis.
 
-% Et re -- sur -- re -- xit ter -- ti -- a di -- e
-% se -- cun -- dum Scri -- ptu -- ras,
-% et a -- scen -- dit in coe -- lum,
-% se -- det ad dex -- te -- ram Pa -- tris.
-% Et i -- te -- rum ven -- tu -- rus est cum glo -- ri -- a
-% iu -- di -- ca -- re vi -- vos et mor -- tu -- os,
-% cu -- ius re -- gni non e -- rit fi -- nis.
-% Et in Spi -- ri -- tum San -- ctum,
-% Do -- mi -- num et vi -- vi -- fi -- can -- tem,
-% qui ex Pa -- tre Fi -- li -- o -- que pro -- ce -- dit.
-% Qui cum Pa -- tre et Fi -- li -- o
-% si -- mul ad -- o -- ra -- tur et con -- glo -- ri -- fi -- ca -- tur:
-% qui lo -- cu -- tus est per Pro -- phe -- tas.
-% Et u -- nam san -- ctam ca -- tho -- li -- cam
-% et a -- po -- sto -- li -- cam Ec -- cle -- si -- am.
-% Con -- fi -- te -- or u -- num ba -- ptis -- ma
-% in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
-% Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o -- rum,
-% et vi -- tam ven -- tu -- ri sae -- cu -- li.
-% A -- men.
+  Cru -- ci -- fi -- %54
+  xus, %55
+  cru -- ci -- fi -- xus
+  e -- ti -- am, e -- ti --
+  am, e -- ti -- am pro
+  no -- bis sub Pon -- ti --
+  o Pi -- la -- to, sub Pon -- ti -- %60
+  o Pi -- la -- to, sub Pon -- ti --
+  o Pi -- la -- to, Pi -- la --
+  to,
+  pas --
+  sus, %65
+  pas --
+  sus et se --
+  pul -- tus
+  est.
+  Et re -- sur -- %70
+  re -- xit, sur --
+  re -- xit, sur --
+  re -- xit
+  ter -- ti -- a
+  di -- e se -- %75
+  cun -- dum, se --
+  cun -- dum Scri -- ptu --
+  ras,
+  et a -- scen --
+  dit in coe -- %80
+  lum, se -- det, se --
+  det ad dex -- te --
+  ram Pa --
+  tris.
+  Et i -- te -- %85
+  rum ven -- tu -- rus
+  est cum glo -- ri --
+  a iu -- di --
+  ca -- re vi -- vos,
+  vi -- vos et mor -- tu -- %90
+  os, cu -- ius re -- gni,
+  re -- gni non e -- rit
+  fi -- nis.
 
+  Si -- mul ad -- o -- %100
+  ra -- tur et
+  con -- glo -- ri -- fi -- ca --
+  tur: qui lo -- cu --
+  tus est, qui lo --
+  cu -- tus est per __ %105
+  Pro -- phe -- tas, Pro --
+  phe -- tas.
+  Et u -- nam san -- ctam, san --
+  ctam ca -- tho -- li -- cam et a -- po --
+  sto -- li -- cam Ec -- cle -- si -- am. %110
 
-% ## Sanctus
+  Et vi -- tam ven -- %118
+  tu -- ri sae -- cu -- li,
+  sae -- cu -- li, a -- _ %120
+  _ _ _ men,
+
+  a -- _ %124
+  _ _ _ %125
+  _ _ _
+  _ _ men, a --
+  _ men, a --
+  men, a --
+  men, %130
+
+  a -- %134
+  _ _ _ %135
+  _ _
+  _ _ _ _
+  _ _ _ _ men,
+  a -- _ _ _
+  _ _ _ _ %140
+  _ _ _ _
+  _ _ _
+  _ _ _ _
+  _ men,
+  a -- men. %145 finis
+}
+
 
 % San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
 % Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.

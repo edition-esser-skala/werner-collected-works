@@ -141,3 +141,130 @@ B-XLVIIIGloriaViolinoII = {
     h a4 gis!8 a4 r\fermata \bar "|." %98 finis
   }
 }
+
+B-XLVIIICredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoB-XLVIIICredo
+    cis'16\fE e \once \tieDashed a,8~ a16 h a gis a cis8 a16~ a d cis h
+    cis a' gis fis e cis' h a gis fis e dis e h' a h
+    cis e d e cis d h cis a cis h cis a h g a
+    fis d fis a d e cis d h cis a h gis a fis gis
+    e fis d e cis d h cis a8 e' a cis16( a) %5
+    fis8 d'16( h) \appoggiatura a8 gis8.\trill gis16 a8 cis,16( e) fis8 h,
+    cis4 r r2
+    r r16 e\p dis( e) e, d' cis( h)
+    cis( a) cis8 cis8.\trill h32( cis) dis16( h) \hA dis8 dis8.\trill cis32( \hA dis)
+    e8 dis16 cis h8 cis16( fis) \once \slurDashed e4( dis8.)\trillE e16 %10
+    e4 r r2
+    r r8 dis16\p cis dis8 gis
+    cis,4 r r2
+    R1*4 %17
+    r8 a4\f g8 fis4 r
+    r r16 a\p d fis a4 r16 a,32 gis fis16 a
+    d,4 r r r16 cis'32 h a16 cis %20
+    fis,4 r16 fis32 e d16 fis h,8 gis' e a~
+    a gis16 fis gis4\trill a8 h\f cis h
+    cis r r4 r16 a,8 cis16 e a8 cis16
+    e8 a, r16 e' cis a h8 e,16 fis gis8 a
+    gis32 e fis gis a h cis d e fis gis a h16 gis e8 cis h gis' %25
+    a,16 h cis a d e fis d e8 a fis e~ \noBreak
+    e d16 cis d4\trill cis r\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoB-XLVIIIEtIncarnatus \newSpacingSection
+      R2.*4 %31
+    a,4\pE a a
+    dis2.
+    e4 d cis
+    d c h %35
+    c r r
+    R2.
+    r4 e g
+    fis g a
+    \once \slurDashed a8( g) g4 r %40
+    R2.
+    r4 f'! a,
+    gis a gis
+    a2 r4
+    R2.*4 %48
+    e4\pp f! gis
+    a h cis %50
+    d a d
+    r \once \slurDashed d,8( cis) d4 \noBreak
+    cis2 r4\fermata \bar "||"
+    \time 4/4 \tempoB-XLVIIICrucifixus \newSpacingSection
+      R1 \noBreak
+    R\fermata %55
+    R1*7 %62
+    R1\fermata
+    R
+    R\fermata %65
+    R1*3 \noBreak
+    R1\fermata \bar "||"
+    \key a \major \time 3/2 \tempoB-XLVIIIEtResurrexit \newSpacingSection
+      <cis e a>2\fE r r \noBreak %70
+    r8 a cis e cis a cis e a2
+    r8 cis, e a e cis e a cis2
+    r8 a cis e cis a cis e a e cis e
+    a,2 r r
+    r8 e gis h e e, gis h e h gis e' %75
+    cis a cis e a e cis e a, cis' a fis
+    dis h dis fis h4 gis fis h
+    gis8 h e, gis h, gis' e gis h, e gis, h
+    e,2. fis4 gis a
+    h a8 gis fis4 gis a h %80
+    e,8 a gis a cis,4 cis' h8 e cis a
+    gis e gis h e gis cis, e h e gis e
+    a e cis a' h,4 a' e, gis'
+    a8 e cis e a, e' cis a e a e cis
+    a2 r r %85
+    R1.*7 %92
+    r2 cis'~\p cis8 h a gis
+    a h \tuplet 3/2 4 { cis[ d e] } d4.\trill d8 cis2~
+    cis4 h cis a gis a~ %95
+    a fis8 gis a4. h8 cis h a h
+    cis4. d8 e4 a, d4.\trill cis16 h
+    cis8 d e4. fis8 gis4 cis,4. cis8
+    h4 e2 dis4 e2
+    r4 eis2\f eis4 fis d %100
+    g fis fis8 h, d fis d4 h
+    cis d e2. dis4
+    e h2 cis a4~
+    a h gis e'2 fis4~
+    fis d2 e4 cis cis~ %105
+    cis dis e2. e4 \noBreak
+    e2 cis4 a2 gis4
+    \time 4/4 \tempoB-XLVIIIEtInSpiritum \newSpacingSection
+      a4 r r2 \noBreak
+    R1*8 \noBreak %116
+    R1\fermata \bar "||"
+    \tempoB-XLVIIIEtVitam
+    r4 a4.\fE gis8 g fis16 e \noBreak
+    fis8 h, h'4. ais8 a gis16 fis
+    gis8 cis, gis' ais h a16 gis fis8 gis %120
+    a gis16 fis e8 fis gis16 e gis a h gis fis e
+    fis8 fis16 gis a8 h e, a4 gis16 fis
+    gis8. a16 h8 cis fis, gis a gis16 fis
+    e8 a e fis gis e r4
+    r8 fis h4. ais8 a gis16 fis %125
+    gis8 cis, gis' ais h fis4 gis8
+    a4 gis8 ais h4. a16 gis
+    fis8 h, h' a16 h gis8 e gis h
+    fis h, r4 r8 fis' a! cis
+    gis cis, r e! fis4 gis %130
+    cis,8 fis4 fis8 h, h'4 a16 gis
+    fis4 h, r8 fis'~ fis16 e fis8
+    h, e~ e16 d e8 a, a'4 g16 fis
+    g a h8 a g fis d fis a
+    e a, e' fis g4. h8 %135
+    fis h, fis' gis a4. g16 fis
+    g8 a h a16 g fis8 gis a gis16 fis
+    e8 a, r a' e h'~ h a16 gis
+    fis4 r8 h fis cis' r a
+    e h' r e, fis a4 gis16 fis %140
+    gis8 gis4 a16 h cis8 a r fis
+    e gis dis fis e h'4 a8~
+    a gis16 fis gis8 a16 h cis4. h16 a
+    h4. h8 a16 a, h cis d e fis gis
+    a8.\trill gis32 a h8 gis a4 r\fermata \bar "|." %145 finis
+  }
+}
