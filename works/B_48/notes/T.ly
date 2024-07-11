@@ -411,3 +411,43 @@ B-XLVIIICredoTenoreLyrics = \lyricmode {
   _ men,
   a -- men. %145 finis
 }
+
+B-XLVIIISanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \major \time 4/4 \autoBeamOff \tempoB-XLVIIISanctus
+    \mvTr a2\fE^\tutti a
+    h2.( ais4)
+    h8 h cis d e4. d8
+    cis([ e)] a,([ d)] h( e4) fis8
+    e4. e8 e4 r %5
+    r2 \tempoB-XLVIIIPleni r8 a, cis e
+    cis4 cis8 h cis cis r4
+    R1*4 %11
+    r2 r8 \mvTr a\fE^\tuttiE a a
+    cis h16([ a)] gis8[ a] h[ a16 gis] fis8[ gis]
+    a[ gis16 fis] e8[ fis16 gis] a8 a e([ fis)]
+    gis gis4 gis8 a[ h] cis[ h16 a] %15
+    gis8[ a] h[ a16 gis] fis8[ gis a h]
+    cis4. h16([ a)] gis8 gis a4~
+    a8[ gis16 fis] gis4 a r\fermata \bar "|." %18 finis
+  }
+}
+
+B-XLVIIISanctusTenoreLyrics = \lyricmode {
+  San -- ctus,
+  san --
+  ctus Do -- mi -- nus De -- us,
+  De -- us, __ De -- us
+  Sa -- ba -- oth. %5
+  Ple -- ni sunt
+  coe -- li et ter -- ra.
+
+  O -- san -- na %12
+  in ex -- cel -- _ _
+  _ _ sis, o -- san --
+  na in ex -- cel -- _ %15
+  _ _ _
+  _ sis, in ex -- cel --
+  _ sis. %18 finis
+}

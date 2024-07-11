@@ -266,3 +266,27 @@ B-XLVIIICredoViolinoI = {
     cis8.\trill h32 cis d8 h cis4 r\fermata \bar "|." %145 finis
   }
 }
+
+B-XLVIIISanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoB-XLVIIISanctus
+    r16 a'\f cis e a8 a, r16 fis a cis fis8 fis,
+    r fis' h, g' fis h cis, ais'
+    h4 r r8 g a h
+    a4. h16 a gis8 h4 a8~
+    a gis16 fis gis4\trill a8 cis,(\p d) e %5
+    r h( cis) d \tempoB-XLVIIIPleni r8 cis\f e a
+    e cis4 h8 cis32 e, fis gis a h cis d e a, h cis d e fis gis
+    a4 r r8 a~\p a16 e fis a,
+    gis a h8 e,4 r2
+    r8 e'4 d8 r cis4 h8~ %10
+    h a r4 r2
+    R1*2
+    r8 a\f a a cis h16 a gis8 a
+    h4 e8 e cis d e d16 cis %15
+    h8 cis d e fis e16 d cis8 d
+    e4. d16 cis h8 e cis h16 a
+    h2\trill cis4 r\fermata \bar "|." %18 finis
+  }
+}

@@ -485,3 +485,43 @@ B-XLVIIICredoAltoLyrics = \lyricmode {
   a -- men,
   a -- men. %145 finis
 }
+
+B-XLVIIISanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoB-XLVIIISanctus
+    \mvTr e2\fE^\tutti fis
+    fis8.([ g32 a)] h8([ g)] fis2
+    fis4 r r8 g a h
+    a4. h16([ a)] gis4 a~
+    a gis a r %5
+    r2 \tempoB-XLVIIIPleni r8 e a a
+    a4 e8 e e e r4
+    R1*4 %11
+    r8 \mvTr e\fE^\tutti e e fis e16([ dis)] cis8([ dis)]
+    e d16([ cis)] h8[ cis] d[ e] fis[ e16 d]
+    cis8 d e([ d)] cis e e([ dis16 fis)]
+    e4 r8 h' a([ gis16 fis] e8[ fis)] %15
+    gis r r4 d'8 cis16([ h)] a8([ h)]
+    e, cis16([ d)] e8 fis gis([ h)] e,4
+    e2 e4 r\fermata \bar "|." %18 finis
+  }
+}
+
+B-XLVIIISanctusAltoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus, san --
+  ctus Do -- mi -- nus
+  De -- us Sa -- _
+  ba -- oth. %5
+  Ple -- ni sunt
+  coe -- li et ter -- ra.
+
+  O -- san -- na in ex -- cel -- %12
+  sis, ex -- cel -- _ _
+  sis, o -- san -- na, o -- san --
+  na, o -- san -- %15
+  na in ex -- cel --
+  sis, o -- san -- na in __ ex --
+  cel -- sis. %18 finis
+}

@@ -599,3 +599,49 @@ B-XLVIIICredoBassFigures = \figuremode {
   <4>4 <3>2.
   r4 <6>2. %145 finis
 }
+
+B-XLVIIISanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \tempoB-XLVIIISanctus
+    \mvTr a'2\fE-\tutti fis4 d
+    h8 h' g e fis4 fis,
+    h r r8 e fis g
+    a4 fis8 d e4 a8 d,
+    e4 e, a r8 e\pE \noBreak %5
+    e4 r \tempoB-XLVIIIPleni a r
+    a'8\fE a, cis e a,4 r \noBreak
+    \mvTr a'\pE^\soloE gis fis8 e16 d cis8 d
+    e h gis e a4 a'
+    gis fis e d %10
+    cis fis16 e d cis h h' a gis fis8 gis
+    a4. gis8 fis2
+    \mvTr e4.\fE^\tuttiE d16 cis h8 cis d e
+    fis e16 d cis8 h a \clef "treble_8" a'[ e fis]
+    gis \clef bass e[ e e] fis e16 d cis8 d %15
+    e d16 cis h8 cis d e fis e16 d
+    cis8 a16 h cis8 d e2~
+    e4 e, a r\fermata \bar "|." %18 finis
+  }
+}
+
+B-XLVIIISanctusBassFigures = \figuremode {
+  r1
+  r4. <_!>8 <4>4 <_+>
+  r2 r8 <_!>4 <7>8
+  r4 <6> <7 _+>2
+  <4>4 <3>2 r8 <6 4> %5
+  <5 3>1
+  r
+  r4 <6>2 q4
+  r1
+  <6>4 <7>8 <6> <7> <6> <7> <6> %10
+  <7> <6> r2 <6>8 <\t>
+  r4. <6>8 <5>4. <6\\>8
+  <6 4>4 <5 3> <_!>2
+  r4 <6> r4. <6\\>8
+  <6>2. q4 %15
+  r1
+  <6>2 <5 3>4 <6 4>
+  <5 \t> <\t 3>2. %18 finis
+}

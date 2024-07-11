@@ -458,13 +458,54 @@ B-XLVIIICredoSopranoLyrics = \lyricmode {
   a -- men. %145 finis
 }
 
+B-XLVIIISanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoB-XLVIIISanctus
+    \mvTr cis'2.\fE^\tutti d4
+    d4. e8 cis2
+    h8 d e fis g4. fis8
+    e cis d4.( e16[ d)] cis8([ d)]
+    \appoggiatura cis h4.\trill h8 a4 r %5
+    r2 \tempoB-XLVIIIPleni r8 cis e a
+    e([ cis)] a gis a a r4
+    \mvTr cis16[\pE^\solo d e fis] e[ d cis h] a8[ cis] e \tuplet 3/2 8 { a16([ gis fis)] }
+    e4~ e16[ d cis d] cis8 a16[ h] cis[ d e fis]
+    h,[ cis d e] a,[ h cis d] gis,[ a h cis] fis,[ gis a h] %10
+    e,8.[\trill fis32 gis] a8 h16([ cis)] d2\trill
+    cis8 a16([ h)] cis([ d)] e8 a,2\trill
+    gis4 r r2
+    r8 \mvTr a\fE^\tutti a a cis h16([ a)] gis8([ a)]
+    h4 e8 e cis[ d] e[ d16 cis] %15
+    h8[ cis d e] fis[ e16 d] cis8[ d]
+    e4. d16([ cis)] h8([ e)] cis([ h16 a)]
+    h2\trill cis4 r\fermata \bar "|." %18 finis
+  }
+}
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
+B-XLVIIISanctusSopranoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus, san --
+  ctus Do -- mi -- nus De -- us,
+  De -- us, De -- us __
+  Sa -- ba -- oth. %5
+  Ple -- ni sunt
+  coe -- li et ter -- ra
+  glo -- _ _ ri -- a __
+  tu -- a, glo -- _
+  _ _ _ _ %10
+  _ ri -- a __ tu --
+  a, glo -- ri -- a tu --
+  a.
+  O -- san -- na in ex -- cel --
+  sis, in ex -- cel -- _ %15
+  _ _ _
+  _ sis, in __ ex --
+  cel -- sis. %18 finis
+}
 
 
-% ## Benedictus
+
 
 % Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
 % O -- san -- na in ex -- cel -- sis.

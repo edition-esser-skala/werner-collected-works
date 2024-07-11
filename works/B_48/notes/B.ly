@@ -383,3 +383,37 @@ B-XLVIIICredoBassoLyrics = \lyricmode {
   a -- men, %144
   a -- men. %145 finis
 }
+
+B-XLVIIISanctusBasso = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \autoBeamOff \tempoB-XLVIIISanctus
+    \mvTr a'2(\fE^\tutti fis4) d
+    h8([ h')] g([ e)] fis2
+    h,4 r r8 e fis g
+    a4 fis8([ d)] e4 a8([ d,)]
+    e4. e8 a,4 r %5
+    r2 \tempoB-XLVIIIPleni r8 a' a^\critnote cis
+    a([ a,)] cis e a, a r4
+    R1*7 %14
+    r8 \mvTr e'\fE^\tutti e e fis e16([ d)] cis8[ d] %15
+    e[ d16 cis] h8[ cis] d e fis([ e16 d)]
+    cis8 a16([ h] cis8) d e2~
+    e a,4 r\fermata \bar "|." %18 finis
+  }
+}
+
+B-XLVIIISanctusBassoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus, san --
+  ctus Do -- mi -- nus
+  De -- us, __ De -- us __
+  Sa -- ba -- oth. %5
+  Ple -- ni sunt
+  coe -- li et ter -- ra.
+
+  O -- san -- na in ex -- cel -- %15
+  _ _ sis, o -- san --
+  na in __ ex -- cel --
+  sis. %18 finis
+}
