@@ -557,8 +557,6 @@ B-XLVIIIBenedictusSopranoLyrics = \lyricmode {
   _ sis. %45 finis
 }
 
-
-
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
