@@ -293,3 +293,53 @@ B-XLVIIISanctusViolinoII = {
     e4.\trill e8 e4 r\fermata \bar "|." %18 finis
   }
 }
+
+B-XLVIIIBenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key fis \minor \time 3/8 \tempoB-XLVIIIBenedictus
+    r8 cis'\p fis
+    eis16( fis) gis8 h,
+    a a' cis,
+    d gis e,
+    cis'16 e a,8 r %5
+    d16 fis h,8 r
+    e16 gis cis,8 r
+    R4.*2
+    r8 a4~
+    a8 gis16 a h8~
+    h a16 h cis8
+    d16( h) gis( a) h8
+    cis16 h cis8 r
+    R4.*4
+    r8 cis\f fis,
+    d'16( cis) h( a) gis( fis)
+    eis8. fis16 gis8
+    gis16 fis32( eis) fis4~
+    fis16 gis fis8 eis \noBreak
+    fis4 r8\fermata \bar "||"
+    \key a \major \time 4/4 \tempoB-XLVIIIOsanna \newSpacingSection
+      R1 \noBreak %25
+    r2 a4.\fE gis8
+    a4 fis e cis'8 h
+    a gis a2 gis4
+    fis8. gis16 a8 h cis cis, d e
+    fis8. gis16 a8 h e,4. fis16 gis %30
+    a gis a4 gis16 fis gis8 gis fis16 gis a8
+    h gis fis e e dis16 cis \hA dis4
+    e8 gis4 fis8 gis4 a~
+    a r r2
+    r8 a gis fis e4. fis16 gis %35
+    fis2 r8 gis a! fis
+    dis4 e dis2\trill
+    cis r
+    R1
+    r2 a'4. gis8 %40
+    a4 fis8 gis a e fis gis
+    a e4 a8 gis16 fis gis8 a h
+    e,2. fis4
+    h, r e4. e8
+    e2 e8 cis'4\p h8 %45
+    \parOn a4-\parenthesize-! \parOff gis-\parenthesize-! a r\fermata \bar "|." %46 finis
+  }
+}

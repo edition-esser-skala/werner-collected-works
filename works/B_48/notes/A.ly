@@ -525,3 +525,58 @@ B-XLVIIISanctusAltoLyrics = \lyricmode {
   sis, o -- san -- na in __ ex --
   cel -- sis. %18 finis
 }
+
+B-XLVIIIBenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \key fis \minor \time 3/8 \autoBeamOff \tempoB-XLVIIIBenedictus
+    R4.*23 \noBreak %23
+    R4.\fermata \bar "||"
+    \key a \major \time 4/4 \tempoB-XLVIIIOsanna \newSpacingSection
+      R1 \noBreak %25
+    r2 \mvTr a'4.(\fE^\tuttiE gis8)
+    a4( fis) e cis'8([ h)]
+    a gis a2 gis4
+    fis8.[( gis16] a8[ h]) cis cis, d e
+    fis8.([ gis16)] a8([ h)] e,4. fis16[ gis] %30
+    a[ gis] a4 gis16[ fis] gis8 gis fis16([ gis a8)]
+    h gis fis e e([ dis16 cis] \hA dis4)
+    e8 gis4( fis8) gis4 a~
+    a r r2
+    r8 a([ gis)] fis e4.( fis16[ gis)] %35
+    fis2 r8 gis a! fis
+    dis4 e dis2\trill
+    cis r
+    R1
+    r2 a'4.( gis8) %40
+    a4 fis8([ gis)] a([ e)] fis([ gis)]
+    a( e4 a8) gis gis([ a h)]
+    e,2.( fis4)
+    h, r e4. e8
+    e2 cis4 r %45
+    R1\fermata \bar "|." %46 finis
+  }
+}
+
+B-XLVIIIBenedictusAltoLyrics = \lyricmode {
+  O -- %26
+  san -- na, o --
+  san -- na in ex --
+  cel -- sis, o -- san -- na
+  in __ ex -- cel -- _ %30
+  _ _ _ sis, in ex --
+  cel -- sis, in ex -- cel --
+  sis, o -- san -- na __
+
+  in __ ex -- cel -- %35
+  sis, o -- san -- na
+  in ex -- cel --
+  sis,
+
+  o -- %40
+  san -- na __ in __ ex --
+  cel -- sis, o --
+  san --
+  na in ex --
+  cel -- sis. %45 finis
+}

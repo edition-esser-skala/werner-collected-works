@@ -13,16 +13,16 @@ sources:
     principal: true
 tocstyle: default
 toe: |
-  – & –  & org  & The single extant source \B1 only comprises a vlne part,
-                  but lacks an org part. Thus, all notes in treble clef
-                  and all bass figures have been added by the editor. \\
-  1 & 24 & S    & above 5th \eighthNote\ in \B1: “h” (in pencil) \\
-    & 24 & org  & 5th \eighthNote\ in \B1: a8, corrected to \sharp g8 in ink \\
-  2 & 5  & vl 1 & 4th \eighthNote\ in \B1: \sharp g″16–b″16 \\
-    & 12 & S    & last \eighthNote\ in \B1: \sharp c″8 \\
-    & 60 & A    & 2nd \quarterNote\ in \B1: g′4 \\
-    & 86 & A    & 6th \eighthNote\ in \B1: b′8 \\
-    & 86 & T    & 8th \sixteenthNote\ in \B1: a16 \\
-    & 90 & S    & 5th \eighthNote\ missing in \B1 \\
-  3 & 5  & org  & lower voice added by editor \\
-  4 & 6  & B    & 7th \eighthNote\ in \B1: b8 \\
+  – & –   & org  & The single extant source \B1 only comprises a vlne part,
+                   but lacks an org part. Thus, all notes in treble clef
+                   and all bass figures have been added by the editor. \\
+  1 & 24  & S    & above 5th \eighthNote\ in \B1: “h” (in pencil) \\
+    & 24  & org  & 5th \eighthNote\ in \B1: a8, corrected to \sharp g8 in ink \\
+  2 & 5   & vl 1 & 4th \eighthNote\ in \B1: \sharp g″16–b″16 \\
+    & 12  & S    & last \eighthNote\ in \B1: \sharp c″8 \\
+    & 60  & A    & 2nd \quarterNote\ in \B1: g′4 \\
+    & 86  & A    & 6th \eighthNote\ in \B1: b′8 \\
+    & 86  & T    & 8th \sixteenthNote\ in \B1: a16 \\
+    & 90  & S    & 5th \eighthNote\ missing in \B1 \\
+  3 & 5   & org  & lower voice added by editor \\
+  4 & 6   & B    & 7th \eighthNote\ in \B1: b8 \\

@@ -186,8 +186,64 @@
   %     \midi { \tempo 4 = 80 } % 60 – 50 – 200 – 72 – 110
   %   }
   % }
+  % \bookpart {
+  %   \section "4" "Sanctus"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \B-XLVIIISanctusViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \B-XLVIIISanctusViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \B-XLVIIISanctusSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \B-XLVIIISanctusSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \B-XLVIIISanctusAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \B-XLVIIISanctusAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \B-XLVIIISanctusTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \B-XLVIIISanctusTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \B-XLVIIISanctusBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \B-XLVIIISanctusBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \B-XLVIIISanctusOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \B-XLVIIISanctusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 50 } % 100
+  %   }
+  % }
   \bookpart {
-    \section "4" "Sanctus"
+    \section "5" "Benedictus"
     \addTocEntry
     \score { %\articulate
       <<
@@ -196,50 +252,50 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \B-XLVIIISanctusViolinoI
+              \B-XLVIIIBenedictusViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \B-XLVIIISanctusViolinoII
+              \B-XLVIIIBenedictusViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \B-XLVIIISanctusSoprano }
+            \new Voice = "Soprano" { \dynamicUp \B-XLVIIIBenedictusSoprano }
           }
-          \new Lyrics \lyricsto Soprano \B-XLVIIISanctusSopranoLyrics
+          \new Lyrics \lyricsto Soprano \B-XLVIIIBenedictusSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \B-XLVIIISanctusAlto }
+            \new Voice = "Alto" { \dynamicUp \B-XLVIIIBenedictusAlto }
           }
-          \new Lyrics \lyricsto Alto \B-XLVIIISanctusAltoLyrics
+          \new Lyrics \lyricsto Alto \B-XLVIIIBenedictusAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \B-XLVIIISanctusTenore }
+            \new Voice = "Tenore" { \dynamicUp \B-XLVIIIBenedictusTenore }
           }
-          \new Lyrics \lyricsto Tenore \B-XLVIIISanctusTenoreLyrics
+          \new Lyrics \lyricsto Tenore \B-XLVIIIBenedictusTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \B-XLVIIISanctusBasso }
+            \new Voice = "Basso" { \dynamicUp \B-XLVIIIBenedictusBasso }
           }
-          \new Lyrics \lyricsto Basso \B-XLVIIISanctusBassoLyrics
+          \new Lyrics \lyricsto Basso \B-XLVIIIBenedictusBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \B-XLVIIISanctusOrgano
+            \B-XLVIIIBenedictusOrgano
           }
         >>
-        \new FiguredBass { \B-XLVIIISanctusBassFigures }
+        \new FiguredBass { \B-XLVIIIBenedictusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 50 } % 100
+      \midi { \tempo 4. = 40 } % 4 = 105
     }
   }
 }

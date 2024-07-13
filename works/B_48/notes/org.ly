@@ -645,3 +645,106 @@ B-XLVIIISanctusBassFigures = \figuremode {
   <6>2 <5 3>4 <6 4>
   <5 \t> <\t 3>2. %18 finis
 }
+
+B-XLVIIIBenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key fis \minor \time 3/8 \tempoB-XLVIIIBenedictus
+    \mvTr fis8\pE-\solo a fis
+    gis eis4
+    fis4.
+    h,8 e!4
+    a8 fis d %5
+    h gis' e
+    cis a' fis
+    d e fis
+    d e e,
+    a cis fis %10
+    h, e d
+    cis d a
+    h cis h
+    a4 d8
+    h4 cis8 %15
+    a fis fis'
+    eis cis fis
+    h, cis cis,
+    fis4 d'8\fE
+    h4. %20
+    cis8. dis16 eis8
+    fis16 d cis h a8
+    h cis cis, \noBreak
+    fis4 r8\fermata \bar "||"
+    \key a \major \time 4/4 \tempoB-XLVIIIOsanna \newSpacingSection
+      \mvTr a'4.\fE-\tutti gis8 a4 fis \noBreak %25
+    e a8 gis fis4.e8
+    fis4 d cis a8 h
+    cis4 a e'2
+    h8 h' a gis fis8. e16 d8 cis
+    h a16 gis fis8 gis a a'4 gis8 %30
+    fis2 e8 e dis cis
+    h1
+    e4 \clef "treble_8" e'8 dis? e4 cis
+    \clef bass d,!4. cis8 d4 h
+    fis' e8 d cis4. h8 %35
+    ais4 h e fis
+    gis e8 cis gis2
+    cis a'4. gis8
+    a4 fis e2~
+    e fis4. e8 %40
+    fis4 d cis4. h8
+    cis4 a e8 e' fis gis
+    a4. gis8 a4 fis
+    e1~
+    e4 e, a8. h16\pE cis8 d %45
+    e4 e, a r\fermata \bar "|." %46 finis
+  }
+}
+
+B-XLVIIIBenedictusBassFigures = \figuremode {
+  r4.
+  <6\\>8 <6> <5>
+  r4.
+  r
+  r %5
+  r
+  r
+  r
+  r
+  r %10
+  <7>8 <3> <\t>
+  <7> <5> <6>
+  q <_+> <\t>
+  <7> <6>4
+  q <_+>8 %15
+  <6>4.
+  q8 <_+>4
+  r8 q4
+  r4.
+  <5>4 <6>8 %20
+  <_+>4.
+  <9>8 <6 4> <6>
+  <5>16 <6> <4>8 <_+>
+  r4.
+  <1>4. q8 <5>4 <7>8 <6\\> %25
+  <8>4 <3>8 <\t> <6!>2
+  <6> q
+  r <5 4>4 <\t 3>8 <6 \t>
+  r4 <6> r4. q8
+  r4 q r4. q8 %30
+  <7>4 <6\\>2 <6>8 q
+  <5 _+>4 <6 4> <5 \t> <\t _+>
+  r <3>8 q q4 <6>
+  r4. <6>8 r2
+  r q %35
+  <6 5> q4 <_!>
+  <5\+ _+>4 <6> <5\+ 4> <\t _+>
+  r2.. <6 _!>8
+  r4 <7>8 <6\\> <5 3>4 <6 4>
+  <5 \t> <\t 3>2. %40
+  r2 <6>4. q8
+  q1
+  r4. q <7>8 <6\\>
+  <5 3>4 <6 4> <5 3> <6 4>
+  <5 \t> <\t 3>2 <6>8 q %45
+  <6 4>4 <5 3>2. %46 finis
+}

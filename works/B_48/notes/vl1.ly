@@ -290,3 +290,49 @@ B-XLVIIISanctusViolinoI = {
     h2\trill cis4 r\fermata \bar "|." %18 finis
   }
 }
+
+B-XLVIIIBenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key fis \minor \time 3/8 \tempoB-XLVIIIBenedictus
+    r8 cis'\p fis
+    eis16( fis) gis8 h,
+    a a' cis,
+    d gis e,
+    cis'16 e a,8 r %5
+    d16 fis h,8 r
+    e16 gis cis,8 r
+    R4.*4 %11
+    r8 fis4~
+    fis8 eis16 fis gis8~
+    gis fis r
+    R4.*5 %19
+    r8 fis\f gis~ %20
+    gis16 fis( eis) dis( cis) h
+    a8. h16 cis( fis,)
+    d' h \appoggiatura a8 gis8.\trill gis16 \noBreak
+    fis4 r8\fermata \bar "||"
+    \key a \major \time 4/4 \tempoB-XLVIIIOsanna \newSpacingSection
+      R1*2 %26
+    r2 e'4.\fE d8
+    e4 cis h8 h4 cis8
+    d8. e16 fis8 gis a8. gis16 fis8 e
+    d2\trill cis8. d16 e8 h %30
+    cis16 h cis8 fis16 e fis8 h,4 r
+    r8 h a gis fis2\trillE
+    gis4 r r2
+    fis'4. e8 fis4 d!
+    cis8 cis4 d8 e cis16 d e4~ %35
+    e d cis4. cis8
+    his4 cis2 his4
+    cis2 cis4. h8
+    cis4 a gis a~
+    a gis a r %40
+    r fis' e a,
+    R1
+    cis4. h8 cis4 a
+    gis a gis a~
+    a gis a8 a'\p e fis %45
+    cis4-! h-! a r\fermata \bar "|." %46 finis
+  }
+}

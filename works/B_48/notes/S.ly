@@ -504,14 +504,60 @@ B-XLVIIISanctusSopranoLyrics = \lyricmode {
   cel -- sis. %18 finis
 }
 
+B-XLVIIIBenedictusSoprano = {
+  \relative c' {
+    \clef treble
+    \key fis \minor \time 3/8 \autoBeamOff \tempoB-XLVIIIBenedictus
+    R4.*23 \noBreak %23
+    R4.\fermata \bar "||"
+    \key a \major \time 4/4 \tempoB-XLVIIIOsanna \newSpacingSection
+      R1*2 %26
+    r2 \mvTr e'4.(\fE^\tuttiE d8)
+    e4( cis) h8 h4 cis8
+    d8.[ e16] fis8[ gis] a8.[ gis16] fis8[ e]
+    d2\trill cis8 cis16([ d e8)] h %30
+    cis16[( h cis8] fis16[ e fis8]) h,4 r
+    r8 h([ a)] gis fis2\trill
+    gis4 r r2
+    fis'4.( e8) fis4( d!)
+    cis8 cis4 d8 e[ cis16 d] e4~ %35
+    e d cis4. cis8
+    his4( cis2 his4)
+    cis2 cis4.( h8)
+    cis4( a) gis a8 a
+    a4( gis) a r %40
+    r fis' e a,
+    R1
+    cis4.( h8) cis4( a)
+    gis a gis a~
+    a gis a r %45
+    R1\fermata \bar "|." %46 finis
+  }
+}
+
+B-XLVIIIBenedictusSopranoLyrics = \lyricmode {
+  O -- %27
+  san -- na in ex --
+  cel -- _ _ _
+  _ sis, in __ ex -- %30
+  cel -- sis,
+  in __ ex -- cel --
+  sis,
+  o -- san --
+  na in ex -- cel -- _ %35
+  sis, in ex --
+  cel --
+  sis, o --
+  san -- na in ex --
+  cel -- sis, %40
+  o -- san -- na,
+
+  o -- san --
+  na in ex -- cel --
+  _ sis. %45 finis
+}
 
 
-
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
-
-
-% ## Agnus Dei
 
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.

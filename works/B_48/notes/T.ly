@@ -451,3 +451,59 @@ B-XLVIIISanctusTenoreLyrics = \lyricmode {
   _ sis, in ex -- cel --
   _ sis. %18 finis
 }
+
+B-XLVIIIBenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key fis \minor \time 3/8 \autoBeamOff \tempoB-XLVIIIBenedictus
+    R4.*23 \noBreak %23
+    R4.\fermata \bar "||"
+    \key a \major \time 4/4 \tempoB-XLVIIIOsanna \newSpacingSection
+      r2 \mvTr e4.(\fE^\tuttiE dis8) \noBreak %25
+    e4( cis d8[ cis d e])
+    a,4 a a2
+    e r8 e4 e'8
+    d16([ e d8] cis[ h)] a a4 h16([ cis)]
+    d8([ cis16 h] a8_[ h)] a a16([ h)] cis[ d e8]~ %30
+    e[ dis16 cis] dis4\trill e8 e h([ cis]
+    dis) h r4 r2
+    e4.( dis8) e4( cis)
+    d a2 h4
+    a4. h8 cis2~ %35
+    cis4 h2 a!4
+    gis4. gis8 gis2
+    gis r
+    e'4.( dis8) e4 cis
+    h8 h e4 cis2 %40
+    r e4.( d8)
+    e4( cis) h2
+    r e4.( dis8)
+    e4 cis h8([ e)] cis([ h16 a)]
+    h2 cis4 r %45
+    R1\fermata \bar "|." %46 finis
+  }
+}
+
+B-XLVIIIBenedictusTenoreLyrics = \lyricmode {
+  O -- %25
+  san --
+  na, o -- san --
+  na in ex --
+  cel -- sis, in ex --
+  cel -- sis, o -- san -- %30
+  _ na, o -- san --
+  na,
+  o -- san --
+  na in ex --
+  cel -- _ _ %35
+  _ sis,
+  in ex -- cel --
+  sis,
+  o -- san -- na
+  in ex -- cel -- sis, %40
+  o --
+  san -- na,
+  o --
+  san -- na in __ ex --
+  cel -- sis. %45 finis
+}
