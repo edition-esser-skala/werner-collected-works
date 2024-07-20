@@ -26,7 +26,7 @@ E-I-Basso = {
     c r %20
     R1
     r2 g'
-    \once \slurDashed e( fis)
+    e fis
     g e
     c d %25
     g,1
@@ -67,7 +67,7 @@ E-I-BassoLyricsA = \lyricmode {
   Erd, %20
 
   er --
-  wäh --
+  wäh -- _
   let von
   E -- wig -- %25
   keit
@@ -105,8 +105,8 @@ E-I-BassoLyricsB = \lyricmode {
   ſehrt, %20
 
   ein %22
-  Jung -- frau
-  kei --
+  Jung -- _
+  frau kei --
   ner Ge -- %25
   burth,
   dein
@@ -143,7 +143,7 @@ E-I-BassoLyricsC = \lyricmode {
   Gut, %20
 
   daß
-  durch __
+  durch __ _
   dei -- ne
   ſchö -- ne %25
   Frucht
@@ -181,7 +181,7 @@ E-I-BassoLyricsD = \lyricmode {
   Both, %20
 
   du
-  \ignoreMelismas ſolſt ein \obeyMelismas
+  ſolſt ein
   Mut -- ter,
   Mut -- ter %25
   ſeyn,

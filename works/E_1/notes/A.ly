@@ -4,15 +4,15 @@ E-I-Alto = {
   \relative c' {
     \clef treble
     \key c \major \time 2/2 \tempoE-I \autoBeamOff
-    R1
-    c2 \once \tieDashed f~
-    f d
+    \phrasingSlurDashed R1
+    c2 f\(
+    f\) d
     g4( a g f)
     e2 r %5
     r g
     g a~
-    a \once \tieDashed g~
-    g fis
+    a g\(
+    g\) fis
     g1 %10
     r2 g
     f! f
@@ -27,8 +27,8 @@ E-I-Alto = {
     R
     r2 d
     g a~
-    a \once \tieDashed g~
-    g fis %25
+    a g\(
+    g\) fis %25
     g1
     r2 g
     f! f
@@ -47,13 +47,13 @@ E-I-Alto = {
 
 E-I-AltoLyricsA = \lyricmode {
   A -- ve __ %2
-  Ma --
+  _ Ma --
   ri --
   a, %5
   du
   hel -- ler __
   Mor --
-  gen --
+  _ gen --
   ſtern, %10
   du
   biſt ein
@@ -69,7 +69,7 @@ E-I-AltoLyricsA = \lyricmode {
   er --
   wählt von __
   E --
-  wig -- %25
+  _ wig -- %25
   keit
   zu
   seyn ein
@@ -84,14 +84,14 @@ E-I-AltoLyricsA = \lyricmode {
 }
 
 E-I-AltoLyricsB = \lyricmode {
-  Ohn \ignoreMelismas Sünd %2
-  biſt \obeyMelismas em --
+  Ohn Sünd %2
+  biſt em --
   pfan --
   gen %5
   alß
   dich die __
   Kir --
-  chen
+  _ chen
   ehrt, %10
   und
   von der
@@ -106,8 +106,8 @@ E-I-AltoLyricsB = \lyricmode {
 
   ein %2
   Jung -- frau __
-  \ignoreMelismas kei --
-  ner \obeyMelismas Ge -- %25
+  kei --
+  ner Ge -- %25
   burth,
   dein
   Lob kan
@@ -123,13 +123,13 @@ E-I-AltoLyricsB = \lyricmode {
 
 E-I-AltoLyricsC = \lyricmode {
   Hat dich __ %2
-  ge --
+  _ ge --
   boh --
   ren, %5
   Ma --
   ri -- a __
-  \ignoreMelismas du
-  ed -- les \obeyMelismas
+  du
+  ed -- les
   Blut, %10
   da
   A -- dam
@@ -145,7 +145,7 @@ E-I-AltoLyricsC = \lyricmode {
   daß
   durch dein __
   ſchö --
-  ne %25
+  _ ne %25
   Frucht
   ſoll
   wie -- der
@@ -161,13 +161,13 @@ E-I-AltoLyricsC = \lyricmode {
 
 E-I-AltoLyricsD = \lyricmode {
   Ein Gruß __ %2
-  ge --
+  _ ge --
   ſen --
   det %5
   von
   al -- ler --
   höch --
-  ſten
+  _ ſten
   Gott, %10
   durch
   Ga -- bri --
@@ -183,7 +183,7 @@ E-I-AltoLyricsD = \lyricmode {
   du
   ſolſt ein __
   Mut --
-  ter %25
+  _ ter %25
   ſeyn,
   ein
   Jung -- frau

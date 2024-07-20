@@ -127,10 +127,10 @@ D-V-VBassoLyricsB = \lyricmode {
   mel -- la, huc, huc da -- te %15
   fa -- vos, vo -- la -- _
   _ te, do -- na -- _ _ _
-  _ te, for -- ma -- te_Ca -- tha -- ri --
+  _ te, for -- ma -- te~Ca -- tha -- ri --
   dem, for -- ma -- _
   _ _ _ _ _ _ %20
-  te_Ca -- tha -- ri -- dem.
+  te~Ca -- tha -- ri -- dem.
 
   Gra -- ti -- ae, gra -- ti -- ae vos %24
   di -- vae, vo -- _ la -- te, pro -- pe -- %25
@@ -139,7 +139,7 @@ D-V-VBassoLyricsB = \lyricmode {
   ta -- te do -- na -- _
   _ _ _ _
   _ _ _ _ %30
-  _ te_vic -- tri -- cem, for --
+  _ te~vic -- tri -- cem, for --
   ma -- _ te Ca -- tha -- ri --
   dem, pro -- pe -- ra -- te, for --
   ma -- _ _ _
@@ -153,23 +153,23 @@ D-V-VBassoLyricsB = \lyricmode {
   te vic -- tri -- cem, sua -- vi -- ta -- _
   te Ca -- tha -- ri -- dem, vic --
   tricem for -- ma -- te Ca -- tha -- ri --
-  dem, for -- ma -- te_Ca -- tha -- ri -- %45
+  dem, for -- ma -- te~Ca -- tha -- ri -- %45
   dem.
 
   Sed cur, gra -- ti -- ae, vos %53
   mo -- ror in __ _ Ma -- tris si -- nu
   iam ob -- fir -- ma -- stis, in %55
-  o -- re mel -- li_fi -- ca -- stis, cu --
+  o -- re mel -- li~fi -- ca -- stis, cu --
   ius vix e -- nim __ _ mun -- do,
   vix mun -- do ad -- na --
   _ _
   ta il -- li -- co ae -- vi su -- i %60
   facta e de -- cus et glo -- ri --
-  a, fa -- cta_ex glo -- ri --
+  a, fa -- cta~ex glo -- ri --
   a? sed cur vos mo -- ror in
-  Ma -- tris si -- nu iam __ _ ob_fir --
-  ma_stis, cum_in o -- re fa -- cta e %65
-  de -- cus_et glo -- ri --
+  Ma -- tris si -- nu iam __ _ ob~fir --
+  ma~stis, cum~in o -- re fa -- cta e %65
+  de -- cus~et glo -- ri --
   a, de -- cus et __ _ glo -- ri --
   a? %68 finis
 }

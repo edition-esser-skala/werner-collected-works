@@ -4,6 +4,25 @@
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
 
+\paper {
+  top-system-spacing.basic-distance = #10
+  top-system-spacing.minimum-distance = #10
+  top-markup-spacing.basic-distance = #0
+  top-markup-spacing.minimum-distance = #0
+  markup-system-spacing.basic-distance = #10
+  markup-system-spacing.minimum-distance = #10
+  system-system-spacing.basic-distance = #15.5
+  system-system-spacing.minimum-distance = #15.5
+  systems-per-page = #2
+}
+
+\layout {
+  \context {
+    \Lyrics
+    \setLyricsDistance #2
+  }
+}
+
 \book {
   \bookpart {
     \section "E.1" "Ave Maria klare"
@@ -12,7 +31,7 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
             \set GrandStaff.instrumentName = "Viola"
             \new Staff {
               \incipitVlISoprano
@@ -24,7 +43,7 @@
             }
           >>
         >>
-        \new ChoirStaff \with { \setGroupDistance #20 #24 } <<
+        \new ChoirStaff \with { \setGroupDistance #15.5 #15.5 } <<
           \new Staff {
             \incipitSoprano
             \new Voice = "Soprano" { \dynamicUp \E-I-Soprano }
