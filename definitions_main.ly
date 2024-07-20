@@ -26,3 +26,13 @@ extendLV = #(define-music-function
     \once \override LaissezVibrerTie.details.note-head-gap = #(/ further -2)
     \once \override LaissezVibrerTie.extra-offset = #(cons (/ further 2) 0)
   #})
+
+setLyricsDistance = #(define-scheme-function
+  (parser location after-staff)
+  (number?)
+  #{
+    \override VerticalAxisGroup.nonstaff-nonstaff-spacing.basic-distance = #after-staff
+    \override VerticalAxisGroup.nonstaff-nonstaff-spacing.minimum-distance = #after-staff
+    \override VerticalAxisGroup.staff-staff-spacing.padding = #-100
+    \override VerticalAxisGroup.staff-staff-spacing.stretchability = #0
+  #}) % default (engraver-init.ly) : 2.8
