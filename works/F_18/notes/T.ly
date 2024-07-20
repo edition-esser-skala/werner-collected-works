@@ -4,22 +4,22 @@ F-XVIII-Tenore = {
   \relative c' {
     \clef "treble_8"
     \key b \major \time 3/2 \tempoF-XVIII \autoBeamOff
-    R1.*2
+    \phrasingSlurDashed R1.*2
     b2 c a4 f
     r b c d es4. es8
     d2 c b %5
     r r4 g b b
     a4. a8 g4 f f g
-    a( g8[ f] b4) b a2
-    r4 b g \once \slurDashed g8( g) a4 b
+    a_( g8[ f] b4) b a2
+    r4 b g g8\( g\) a4 b
     b a b2 r %10
     r r r4 f
-    \once \slurDashed g( c) \once \slurDashed f,( b2) a4
+    g c f, b2 a4
     g4. g8 f4 b2 g4
     d'4. d8 g,2 r
     r r4 c c h %15
     c g a4. a8 b4 d
-    \once \slurDashed b( c) b2 c4. c8
+    b c b2 c4. c8
     f,2 r r
     r r r4 f'
     f e f c d4. d8 %20
@@ -37,15 +37,15 @@ F-XVIII-TenoreLyricsA = \lyricmode {
   e -- rant A --
   po -- sto -- li, e -- rant A --
   po -- sto -- li
-  de \ignoreMelismas Chri -- sti a -- cer -- bo \obeyMelismas
+  de Chri -- sti a -- cer -- bo
   fu -- ne -- re, %10
   quem
-  mor -- \ignoreMelismas te cru -- de -- \obeyMelismas
+  mor -- _ te cru -- de --
   lis -- si -- ma, cru -- de --
   lis -- si -- ma
   ser -- vi ne -- %15
   ca -- rant im -- pi -- i, ne --
-  ca -- rant im -- pi --
+  ca -- _ rant im -- pi --
   i,
   ser --
   vi ne -- ca -- rant im -- pi -- %20
@@ -62,15 +62,15 @@ F-XVIII-TenoreLyricsB = \lyricmode {
   ad al -- ta
   mon -- ti -- um, ad al -- ta
   mon -- ti -- um
-  se con -- fe -- runt A --
+  se con -- fe -- _ runt A --
   po -- sto -- li %10
   Je --
-  \ignoreMelismas su -- que \obeyMelismas vo -- ti
+  su -- que vo -- _ ti
   com -- po -- tes, vo -- ti
   com -- po -- tes
   al -- mo be -- %15
   an -- tur lu -- mi -- ne, be --
-  an -- tur lu -- mi --
+  an -- _ tur lu -- mi --
   ne,
   al --
   mo be -- an -- tur lu -- mi -- %20
@@ -85,15 +85,15 @@ F-XVIII-TenoreLyricsC = \lyricmode {
   Pa -- tri sit
   glo -- ri -- a, Pa -- tri sit
   glo -- ri -- a
-  et \ignoreMelismas Fi -- li -- o \obeyMelismas qui a
+  et Fi -- li -- o qui a
   mor -- tu -- is %10
   sur --
-  \ignoreMelismas re -- xit \obeyMelismas ac __ Pa --
+  re -- xit ac __ _ Pa --
   ra -- cli -- to, ac Pa --
   ra -- cli -- to
   in sem -- pi -- %15
   ter -- na sae -- cu -- la, in
-  \ignoreMelismas sae -- cu -- la, \obeyMelismas sae -- cu --
+  sae -- cu -- la, sae -- cu --
   la,
   in
   sem -- pi -- ter -- na sae -- cu -- %20

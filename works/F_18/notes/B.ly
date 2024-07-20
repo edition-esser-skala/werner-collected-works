@@ -4,26 +4,26 @@ F-XVIII-Basso = {
   \relative c {
     \clef bass
     \key b \major \time 3/2 \tempoF-XVIII \autoBeamOff
-    R1.*2
+    \phrasingSlurDashed R1.*2
     r2 es f
     d4 b r f' g a
     b4. b8 a2 g %5
     f r r
     r4 f g a b4. b8
     a2 g f4 f
-    d \once \slurDashed d8( d) es2. d4
+    d d8 d es2. d4
     c4. c8 b2 r4 d %10
-    \once \slurDashed es8([ f] g[ a] b4.) b8 f2
-    r r4 b, \once \slurDashed c( f)
-    \once \slurDashed b,( es2) d4 g2~
+    es8[ f] g[ a] b4. b8 f2
+    r r4 b, c f
+    b, es2 d4 g2~
     g4 f es es d2
     R1. %15
     r4 g g fis g d
-    \once \slurDashed es2( es4 d c4.) c8
+    es2\( es4\) d c4. c8
     b2 r r
     r4 b' b a b^\critnote f
-    g4. g8 f4 f \once \slurDashed d2( %20
-    es f2.) f4
+    g4. g8 f4 f d2 %20
+    es f2. f4
     b,1. \bar ":|."
     es
     b\fermata \bar "|." %24 finis
@@ -37,20 +37,20 @@ F-XVIII-BassoLyricsA = \lyricmode {
   stes
   e -- rant A -- po -- sto --
   li, tri -- stes de
-  \ignoreMelismas Chri -- sti a -- cer -- bo \obeyMelismas
+  Chri -- sti a -- cer -- bo
   fu -- ne -- re, a -- %10
-  \ignoreMelismas cer -- _ bo _ \obeyMelismas fu -- ne -- re,
-  quem mor --
-  \ignoreMelismas te cru -- \obeyMelismas de -- lis --
+  cer -- bo fu -- ne -- re,
+  quem mor -- _
+  te cru -- de -- lis --
   _ _ si -- ma
   %15
   ser -- vi ne -- ca -- rant,
-  \ignoreMelismas ne -- ca -- rant im -- pi -- \obeyMelismas
+  ne -- ca -- rant im -- pi --
   i,
   ser -- vi ne -- ca -- rant
-  im -- pi -- i, \ignoreMelismas ne -- ca -- %20
+  im -- pi -- i, ne -- ca -- %20
   rant im -- pi --
-  i. \obeyMelismas
+  i.
   A --
   men. %24 finis
 }
@@ -62,20 +62,20 @@ F-XVIII-BassoLyricsB = \lyricmode {
   ta,
   ad al -- ta mon -- ti --
   um, al -- ta se
-  con -- fe -- runt A --
+  con -- fe -- _ runt A --
   po -- sto -- li, se %10
-  con -- fe -- runt
-  \ignoreMelismas Je -- su -- que \obeyMelismas
-  vo -- ti, vo --
+  con -- _ _ fe -- runt
+  Je -- su -- que
+  vo -- _ ti, vo --
   ti com -- po -- tes
   %15
   al -- mo be -- an -- tur,
-  \ignoreMelismas be -- an -- tur lu -- mi -- \obeyMelismas
+  be -- an -- tur lu -- mi --
   ne,
   al -- mo be -- an -- tur
-  lu -- mi -- ne, \ignoreMelismas be -- an -- %20
+  lu -- mi -- ne, be -- an -- %20
   tur lu -- mi --
-  ne. \obeyMelismas %22 finis
+  ne. %22 finis
 }
 
 F-XVIII-BassoLyricsC = \lyricmode {
@@ -85,18 +85,18 @@ F-XVIII-BassoLyricsC = \lyricmode {
   tri,
   Pa -- tri sit glo -- ri --
   a, Pa -- tri et
-  \ignoreMelismas Fi -- li -- o qui a \obeyMelismas
+  Fi -- li -- o qui a
   mor -- tu -- is, a %10
-  mor -- tu -- is
-  \ignoreMelismas sur -- re -- xit,
-  sur -- re -- xit \obeyMelismas ac __
+  mor -- _ _ tu -- is
+  sur -- re -- xit,
+  sur -- re -- xit ac __
   Pa -- ra -- cli -- to
   %15
   in sem -- pi -- ter -- na
-  sae -- cu --
+  sae -- _ _ _ cu --
   la,
   in sem -- pi -- ter -- na
   sae -- cu -- la, in sae -- %20
-  cu --
+  _ _ cu --
   la. %22 finis
 }

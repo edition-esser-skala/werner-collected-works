@@ -12,7 +12,7 @@ sources:
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/243.html
     license: public domain
     principal: true
-lyrics:
+lyrics: |
   Salutis humanae sator,\\
   Jesu, voluptas cordium,\\
   orbis redempti conditor,\\
@@ -23,6 +23,5 @@ lyrics:
   ad dexteram Patris sede.\\[1ex]
   Jesu tibi sit gloria,\\
   qui victor in coelum redis\\
-  cum Patre et almo Spiritu\\
-
-  (Liber Usualis Solesmes 1961, p. 852)
+  cum Patre et almo Spiritu\\[1ex]
+  (Cantus Index 008331.1; 3rd stanza: 008255.1:08)

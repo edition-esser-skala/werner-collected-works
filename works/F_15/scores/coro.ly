@@ -4,6 +4,13 @@
 \include "../definitions.ly"
 \include "score_settings/coro.ly"
 
+\layout {
+  \context {
+    \Lyrics
+    \setLyricsDistance #2.5
+  }
+}
+
 \book {
   \bookpart {
     \section "F.15" "Doctor egregie Paule"

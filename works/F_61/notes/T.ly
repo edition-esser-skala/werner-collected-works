@@ -62,7 +62,7 @@ F-LXITenoreLyricsC = \lyricmode {
   glo -- ri -- a,
   qui vi -- ctor in coe --
   lum re -- dis %5
-  cum Pa -- tre_et
+  cum Pa -- tre~et
   al -- mo Spi -- ri -- tu,
   Spi -- ri -- tu
   in sem -- pi --

@@ -4,7 +4,7 @@ F-LXIBasso = {
   \relative c {
     \clef bass
     \key d \minor \time 3/2 \tempoF-LXI \autoBeamOff
-    d2 g d
+    \phrasingSlurDashed d2 g d
     a d4( e) f4.( g8)
     a2 d, r
     r4 d8([ c)] b([ c)] d([ e)] f4 d
@@ -14,7 +14,7 @@ F-LXIBasso = {
     d4 c( b) b a2
     R1.
     r4 a' a g a f %10
-    \once \tieDashed e~ e d c! b b
+    e\( e\) d c! b b
     a a'8([ g)] f[ e] d4 a4. a8
     d1. \bar ":|."
     g
@@ -33,7 +33,7 @@ F-LXIBassoLyricsA = \lyricmode {
   tor, con -- di -- tor,
 
   et ca -- sta lux a -- %10
-  \ignoreMelismas man -- ti -- um, et ca -- sta \obeyMelismas
+  man -- ti -- um, et ca -- sta
   lux a -- man -- _ _ ti --
   um.
   A --
@@ -51,7 +51,7 @@ F-LXIBassoLyricsB = \lyricmode {
   li, no -- bi -- li
 
   ad dex -- tram Pa -- tris %10
-  se -- de, ad dex -- tram
+  se -- _ de, ad dex -- tram
   Pa -- tris se -- _ _ _
   de. %13 finis
 }
@@ -60,14 +60,14 @@ F-LXIBassoLyricsC = \lyricmode {
   Je -- su ti --
   bi sit __ glo --
   ri -- a,
-  qui vi -- ctor_in coe -- lum
+  qui vi -- ctor~in coe -- lum
   re -- _ dis %5
   cum
-  Pa -- tre_et al -- mo Spi -- ri --
+  Pa -- tre~et al -- mo Spi -- ri --
   tu, Spi -- ri -- tu
 
   in sem -- pi -- ter -- na %10
-  \ignoreMelismas sae -- cu -- la, in sem -- pi -- \obeyMelismas
+  sae -- cu -- la, in sem -- pi --
   ter -- na sae -- _ _ cu --
   la. %13 finis
 }

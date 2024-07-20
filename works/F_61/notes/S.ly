@@ -4,7 +4,7 @@ F-LXISoprano = {
   \relative c' {
     \clef treble
     \key d \minor \time 3/2 \tempoF-LXI \autoBeamOff
-    a'2 b a4 d
+    \phrasingSlurDashed a'2 b a4 d
     d c b2 a
     r r4 a b8([ c)] d([ e)]
     f4 f, b4. b8 a2
@@ -12,10 +12,10 @@ F-LXISoprano = {
     h8([ c)] d4 c4. b8 a2
     r4 f( g) e f2
     r r4 d' d cis
-    d e \once \tieDashed f4.~ f8 e2
+    d e f4.\( f8\) e2
     r4 c! h h cis d %10
     d cis d e d d
-    cis a \once \tieDashed a2.~ a4
+    cis a a2.\( a4\)
     a1. \bar ":|."
     b
     a\fermata \bar "|." %15 finis
@@ -31,10 +31,10 @@ F-LXISopranoLyricsA = \lyricmode {
   dem -- pti con -- di -- tor,
   con -- di -- tor,
   et ca -- sta
-  \ignoreMelismas lux a -- man -- ti -- um, \obeyMelismas
+  lux a -- man -- ti -- um,
   et ca -- sta lux a -- %10
   man -- ti -- um, et ca -- sta
-  \ignoreMelismas lux a -- man -- ti -- \obeyMelismas
+  lux a -- man -- ti --
   um.
   A --
   men. %15 finis
@@ -49,10 +49,10 @@ F-LXISopranoLyricsB = \lyricmode {
   um -- pho no -- bi -- li,
   no -- bi -- li
   ad dex -- tram
-  Pa -- tris se -- de,
+  Pa -- tris se -- _ de,
   ad dex -- tram Pa -- tris %10
   se -- _ de, ad dex -- tram
-  Pa -- tris se --
+  Pa -- tris se -- _
   de. %13 finis
 }
 
@@ -65,9 +65,9 @@ F-LXISopranoLyricsC = \lyricmode {
   al -- mo Spi -- ri -- tu,
   Spi -- ri -- tu
   in sem -- pi --
-  \ignoreMelismas ter -- na sae -- cu -- la, \obeyMelismas
+  ter -- na sae -- cu -- la,
   in sem -- pi -- ter -- na %10
   sae -- cu -- la, in sem -- pi --
-  \ignoreMelismas ter -- na sae -- cu -- \obeyMelismas
+  ter -- na sae -- cu --
   la. %13 finis
 }

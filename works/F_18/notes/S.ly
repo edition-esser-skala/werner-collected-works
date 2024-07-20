@@ -14,15 +14,15 @@ F-XVIII-Soprano = {
     f2. e4 f2
     r r r4 f,
     g c f, b2 a4 %10
-    g g f \once \slurDashed b2( a4)
-    b \once \slurDashed g( a) d g, a
+    g g f b2 a4
+    b g a d g, a
     b2 r r
     r4 d d cis d a
     b4. b8 g2 a4 d %15
     g,2 r r
     r r4 b b a
     b f g4. g8 f4 b
-    \once \slurDashed g( f es4.) es8 d2
+    g f es4. es8 d2
     r4 b' b a b2~ %20
     b4 a8([ g)] \appoggiatura b4 a2. a4 \noBreak
     b1. \bar ":|."
@@ -42,15 +42,15 @@ F-XVIII-SopranoLyricsA = \lyricmode {
   po -- sto -- li
   quem
   mor -- te cru -- de -- _ %10
-  lis -- si -- ma, mor --
-  te, \ignoreMelismas quem cru -- \obeyMelismas de -- lis -- si --
+  lis -- si -- ma, mor -- _
+  te, quem cru -- de -- lis -- si --
   ma
   ser -- vi ne -- ca -- rant
   im -- pi -- i, im -- pi -- %15
   i,
   ser -- vi ne --
   ca -- rant im -- pi -- i, ne --
-  \ignoreMelismas ca -- rant im -- pi -- i, \obeyMelismas
+  ca -- rant im -- pi -- i,
   ser -- vi ne -- ca -- %20
   rant im -- pi --
   i.
@@ -69,15 +69,15 @@ F-XVIII-SopranoLyricsB = \lyricmode {
   mon -- ti -- um,
   Je --
   su -- que vo -- _ ti %10
-  com -- po -- tes, \ignoreMelismas com -- po -- \obeyMelismas
-  tes, vo -- ti com -- po --
+  com -- po -- tes, com -- po --
+  tes, vo -- _ ti com -- po --
   tes
   al -- mo be -- an -- tur
   lu -- mi -- ne, lu -- mi -- %15
   ne,
   al -- mo be --
   an -- tur lu -- mi -- ne, be --
-  \ignoreMelismas an -- tur lu -- mi -- ne, \obeyMelismas
+  an -- tur lu -- mi -- ne,
   al -- mo be -- an -- %20
   tur lu -- mi --
   ne. %22 finis
@@ -94,15 +94,15 @@ F-XVIII-SopranoLyricsC = \lyricmode {
   glo -- ri -- a,
   sur --
   re -- xit ac Pa -- _ %10
-  ra -- cli -- to, \ignoreMelismas ac Pa -- \obeyMelismas
-  ra -- \ignoreMelismas cli -- to, \obeyMelismas Pa -- ra -- cli --
+  ra -- cli -- to, ac Pa --
+  ra -- cli -- to, Pa -- ra -- cli --
   to
   in sem -- pi -- ter -- na
   sae -- cu -- la, sae -- cu -- %15
   la,
   in sem -- pi --
   ter -- na sae -- cu -- la, in
-  sae -- cu -- la,
+  sae -- _ _ cu -- la,
   in sem -- pi -- ter -- %20
   na sae -- cu --
   la. %22 finis

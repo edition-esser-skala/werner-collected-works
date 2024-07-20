@@ -62,7 +62,7 @@ F-LXIAltoLyricsC = \lyricmode {
   ri -- a, qui vi -- ctor
   in coe -- lum re -- dis, re --
   _ dis cum %5
-  Pa -- tre_et al -- mo Spi -- ri --
+  Pa -- tre~et al -- mo Spi -- ri --
   tu, Spi --
   ri -- tu in
   sem -- pi -- ter -- na sae -- cu --

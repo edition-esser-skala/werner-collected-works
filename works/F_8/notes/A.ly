@@ -5,7 +5,7 @@ F-VIIIAlto = {
     \clef treble
     \key d \dorian \time 2/1 \tempoF-VIII \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
-    d1. c2
+    \phrasingSlurDashed d1. c2
     f1. e2
     d1.( cis2)
     d f1 e4( d)
@@ -13,8 +13,8 @@ F-VIIIAlto = {
     f4( d f1) e2
     r d1 cis2
     d e f e4 d
-    e a, a'1 \once \tieDashed g2~
-    g f e1 %10
+    e a, a'1 g2\(
+    g\) f e1 %10
     d2 c!4 h a a' gis fis
     gis2 a1 gis2
     a1 r
@@ -43,7 +43,7 @@ F-VIIIAltoLyricsA = \lyricmode {
   De -- i
   ma -- ter al -- _ _
   _ _ _ _
-  ma, al -- %10
+  _ ma, al -- %10
   ma, ma -- _ _ _ _ _
   ter al -- _
   ma,
@@ -70,8 +70,8 @@ F-VIIIAltoLyricsB = \lyricmode {
   A -- ve
   Ga -- bri --
   e -- _ lis o -- _
-  _ _ _ \ignoreMelismas re,
-  o -- _ _ \obeyMelismas %10
+  _ _ _ re,
+  o -- _ _ %10
   _ re, __ _ o -- _ _ _
   re, o -- _
   re,
@@ -97,7 +97,7 @@ F-VIIIAltoLyricsC = \lyricmode {
   sum -- mo
   Chri -- sto de -- _ _
   _ _ _ _
-  cus, de -- %10
+  _ cus, de -- %10
   cus, Chri -- _ _ _ sto __ _
   de -- _ _
   cus,
