@@ -20,6 +20,18 @@ LILYPOND = lilypond \
     --include=$(EES_TOOLS_PATH)/
 """
 
+MAKE_PREFACE: Final = """\
+.PHONY: preface
+preface:
+>latexmk -cd \\
+>        -lualatex \\
+>        -outdir=../final \\
+>        front_matter/general_preface.tex
+>latexmk -c \\
+>        -outdir=final \\
+>        front_matter/general_preface.tex
+"""
+
 MAKE_INFO: Final = """\
 Specify one of the following {color}targets{reset},\nwhere [id] is the catalogue of works number of a work:
 
@@ -52,12 +64,12 @@ final/{work}/{score}.pdf: tmp/{work}/{score}.pdf \
                           front_matter/critical_report.tex \
                           works/{work}/metadata.yaml
 >python $(EES_TOOLS_PATH)/read_metadata.py edition \\
->                                          -i works/{work}/metadata.yaml \\
->                                          -t {score} \\
->                                          -k festival genre lyrics toe tocstyle commentary \\
->                                          -s ../tmp/{work} \\
-> -q https://edition.esser-skala.at/assets/pdf/werner-collected-works/{work} \\
->                                          -c tag
+>  -i works/{work}/metadata.yaml \\
+>  -t {score} \\
+>  -k acknowledgements commentary festival genre lyrics tocstyle toe \\
+>  -s ../tmp/{work} \\
+>  -q https://edition.esser-skala.at/assets/pdf/werner-collected-works/{work} \\
+>  -c tag
 >latexmk -cd \\
 >        -lualatex \\
 >        -outdir=../final/{work} \\
@@ -102,7 +114,7 @@ def generate_makefile(n_jobs: int = 1) -> str:
         ignored_works = []
     included_works = [w for w in os.listdir("works") if w not in ignored_works]
 
-    makefile = [MAKE_HEADER]
+    makefile = [MAKE_HEADER, MAKE_PREFACE]
 
     for work in included_works:
         scores = [os.path.splitext(os.path.basename(s))[0]
