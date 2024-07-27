@@ -1,0 +1,21 @@
+title: Alma Redemptoris mater
+id: WerW I.1.1
+genre: antiphon
+scoring: S, A, T, B (coro), 2 vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: H 6
+    rism: 600038476
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/401.html
+    license: public domain
+    principal: true
+  D1:
+    siglum: A-Ed
+    shelfmark: H 8
+    rism: 600038478
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/403.html
+    license: public domain
+toe: |
+  29 & org & treble ottavo clef added by editor \\
