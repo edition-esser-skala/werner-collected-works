@@ -1,0 +1,20 @@
+title: Concerto
+id: WerW Q.4
+genre: concerto
+scoring: fl solo, [vl solo], vl, bc
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.3753
+    rism: 600139438
+    url: https://data.onb.ac.at/rec/AC14299753
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  – & –  & fl   & According to \B1, either a fl or vl may play the solo part. \\
+    &    & b    & All bass figures have been added by the editor. \\
+  3 & 7  & fl   & last \quarterNote\ in \B1: a′4 \\
+    & 12 & fl   & 1st \halfNote\ in \B1: b′2 \\
+    & 42 & fl   & 3rd \eighthNote\ in \B1: a′8 \\
