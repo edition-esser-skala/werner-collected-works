@@ -1,5 +1,24 @@
 # Changelog
 
+## 2024.07.0 – 2024-07-27
+
+### Added
+
+- works: WerW B.48, F.19/20/43, Q.4, I.1.1, I.2.4, and I.4.35
+- a YAML key *acknowledgements* which supports per-work acknowledgements
+- a general preface for the project, currently only containing a reference to the catalogue of works, editorial guidelines, and the changelog
+- a make target 'preface' which typesets the preface
+- global macros: \setLyricsDistance
+
+### Changed
+
+- The layout for three- and four-stanza hymns was greatly improved. Notably, the full score now contains two systems per page.
+
+### Fixed
+
+- system-system-spacing in all works (previously, minimum-distance was set twice, but basic-distance not at all)
+
+
 ## 2024.06.0 – 2024-06-30
 
 ### Added
