@@ -45,53 +45,53 @@ B-IKyrieBasso = {
     c2 r4\fermata \bar "||"
     \key a \minor \time 4/4 \tempoB-IChriste \newSpacingSection
       R1*5 %56
-    r8 \mvTr a\pE^\solo e'16([ gis)] h([ d)] c8 c, c'4~
-    c8[ h16 a] g[( f e d)] c8 g' c4~
+    r8 \mvTr a\pE^\solo e'16([ gis)] h([ d)] c8 a, c'4~
+    c8 h16([ a] g[ f e d)] c8 g' c4~
     c8[ h16 a] h4. a16[ g] a4~
-    a8[ gis16 fis] gis4 a8 c h16([ d32 c h16 a] %60
+    a8[ gis16 fis?] gis4 a8 c h16([ d32 c h16 a] %60
     gis8) e r4 r16 d f[ d] a'8.[ g16]
-    f[ d8 e16] f[^\critnote g a8]~ a16[ g32 fis g16 e] h'8[ h,]
+    f[ d8 f16] g8[ a]~ a16[ g32 fis g16 e] h'8[ h,]
     e4 r r2
     R1*3 %66
     r2 r8 e h16([ dis)] fis([ a)]
     g8 e r4 r8 a, e'16([ gis)] h([ d!)]
-    c8 c, c'4.( d16[ a]) h4~
+    c8 a, c'4.( d16[ a]) h4~
     h8[ c16 g] a4. h16[ fis] gis8.[\trill fis32 gis] %70
-    a8.[ g32 f] e16[ d c h] a([ a')] f([ d)] e4
+    a8.[\trill g32 f] e16[ d c h] a([ a')] f([ d)] e4\trill
     a, r r2
     R1 \noBreak
     R1\fermata \bar "||"
     \key c \major \time 4/4 \tempoB-IKyrieFuga
-      \mvTr c4.\fE^\tuttiE c8 d4.\trill c16([ d)] \noBreak %75
+      \mvTr c4.\fE^\tutti c8 d4. c16([ d)] \noBreak %75
     e4.\trill d16[ e] f[ g a f] d[ e f d]
     e[ f g e] c[ d e c] f[ g f e] d4\trill
     c8 e16([ d)] c8([ h)] c h16([ a)] d4
     g,8 g'16([ fis)] e([ d c h)] a8 a' fis([ d)]
-    g, h \once \tieDashed e4~ e16[ fis] g4 f?8~ %80
+    g, h \once \tieDashed e4~ e16[ fis] g4 f8~ %80
     f[ e16 d] e8 a f([ d g g,)]
     c c'16([ h)] a([ g f e)] d8 f g([ g,)]
     c e f([ e)] d c4 h8
     c4. h8 c([ a] \once \stemUp d4)
     g, r r2 %85
     R1
-    c4. c8 d4.\trill c16([ d)]
-    e4.\trill d16[ e] f[ g a f] d[ e f d]
+    c4. c8 d4. c16([ d)]
+    e4. d16[ e] f[ g a f] d[ e f d]
     e[ f g e] c[ d e h] c8[ a] d4
     g,8 g' e([ a)] f! d g([ g,)] %90
     c b a([ d] b[ g] c4)
     f, r r2
     r r4 c'8 c
-    d4.\trill c16([ d)] e4.\trill d16[ e]
+    d4. c16([ d)] e4. d16[ e]
     f[ g a f] d[ e f d] e[ f g e] c[ d e c] %95
     f[ g f e] d8[ g] c, c f4
     d8 d g4 e8 e a4
     d,8 c4 h8 c a d4
     g,8 g' e([ a)] f! d g([ g,)]
     c4 r r2 %100
-    r4 c8 c d4.\trill c16([ d)]
-    e4.\trillE d16[ e] f[ g a f] d[ e f d]
+    r4 c8 c d4. c16([ d)]
+    e4. d16[ e] f[ g a f] d[ e f d]
     g[ a h g] e[ f g e] a[ h c a] f[ g a f]
-    \once \tieDashed g1~
+    g1
     g8 g e16[ f g e] a[ h c a] d,[ e f d] %105
     g[ a h g] c,[ d e c] f[ g a f] d[ e f d]
     h8 c g4 c16([ d)] e([ c)] f([ g a f)]
@@ -184,9 +184,21 @@ B-IKyrieBassoLyrics = \lyricmode {
   Ky -- ri -- e e --
   lei -- _ _ _
   _ _ _ _
-  son, __
-  e -- lei -- _ _ %105
+  _
+  son, e -- lei -- _ _ %105
   _ _ _ _
   son, e -- lei -- son, e -- lei --
   son, e -- lei -- son. %108 finis
+}
+
+B-IGloriaBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoB-IGloria
+
+  }
+}
+
+B-IGloriaBassoLyrics = \lyricmode {
+
 }
