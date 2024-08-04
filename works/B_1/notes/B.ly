@@ -195,10 +195,210 @@ B-IGloriaBasso = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \autoBeamOff \tempoB-IGloria
-
+    \mvTr c4\fE^\tutti r8 c' g4. g8
+    c,4 r8 c' g4. g8
+    c, c'4 c,8 f8. f16 f4
+    r8 d4 d8 g8. g16 g4
+    r8 e4 e8 a8. a16 a4 %5
+    d, g c, f
+    h, e a, d
+    g8 e c([ d)] g,4 r
+    R1*4 %12
+    r8 \mvTr a'4\pE^\soloE d,8 cis16([ e)] g b \hA \appoggiatura b8 a8. g16
+    f8. e16 d4 r8 \mvTr c!\fE^\tuttiE c c
+    b4^\critnote b'8 a g4 f %15
+    e!4. d8 cis a d g
+    a4 a, d r
+    R1*23 %40
+    \mvTr d'8.([\pE^\solo c32 b)] a16([ g)] a([ e)] f8 d r4
+    R1
+    r2 r4 g16([ a)] h([ g)]
+    c8.([ h32 a] g16[ f)] e([ d)] e8 c r4
+    r2 r8 a'~ a16[ f] d f %45
+    b,8[ b']~ b16[ g e g] c,8[ c']~ c16[ a f a]
+    d,8[ d']~ d16[ b g \hA b] e,8 f4 e8
+    f4 r r2
+    R1*2 \noBreak %50
+    R1\fermata \bar "||"
+    \tempoB-IQuiTollis \newSpacingSection
+      \mvTr c2\fE^\tutti f4 a8 a \noBreak
+    d,4 f8 f b, b h4
+    \time 3/4 \tempoB-IMiserere c c8([ d)] e([ f)] \noBreak
+    g4( b,8[ c)] d([ e)] %55
+    f([ e] d2)
+    c r4
+    r g' g
+    fis( d') f,
+    e( c' es,) %60
+    d g8([ f)] es([ d)]
+    c4( f8[ es d c])
+    b([ a)] g2
+    f4^\critnote f f'
+    c2. %65
+    g'
+    f4 d2
+    es4 c2
+    d4 h!2
+    c4 a2 %70
+    b4 g a
+    d a2
+    d r4
+    R2.*10 %83
+    r4 r r8 \mvTr g\fE^\tutti
+    c4 g r8 g %85
+    c,4 g r8 g'
+    c,4. c8 e4
+    a, a8 a' d,4
+    g8 g d2
+    g,4 g' e %90
+    d2 d4
+    a' g f
+    e f c
+    g'4. g8 e4
+    c' g2 \noBreak %95
+    c, r4\fermata \bar "||"
+    \time 4/4 \tempoB-IQuoniam \newSpacingSection
+      R1*4 %100
+    \mvTr c8\pE^\solo c' h16([ a)] g([ f)] e([ g32 f e16 d)] c8 c'
+    h16[ d32 c h16 a] g[ h32 a g16 f] e[ g32 f e16 d] c8 c'
+    d,16([ a')] h([ g)] d4\trill g, r
+    R1*2 %105
+    r2 a'8 e cis a
+    f'8. e16 d8 d' c!16([ g)] e([ c)] b'8. b16
+    a4 r8 a g4. f16[ e]
+    f4. e16[ d] e[ f e f] g[ a32 h c16 g]
+    a[ h32 c d16 f,] g[ a32 h c16 e,] f[ e f a] g8.[\trill f16] %110
+    e[ f32 g a16 h] c4~ c16[ a] f([ a)] g8([ g,)]
+    c4 r r2 \noBreak
+    R1\fermata \bar "||"
+    \tempoB-ICumSancto
+      \mvTr c'2\fE^\tutti c4 c, \noBreak
+    r8 c' h a g([ f)] e([ d)] %115
+    c e d([ c)] h([ c)] h([ a]
+    g) e'([ d)] c h([ e)] d([ c)]
+    h[ g a h] c[ f e d]
+    c[ f e d] c[ a' g f]
+    e[ d c h] a2 %120
+    g4 r r2
+    R1
+    r2 c'
+    c4 c, r8 c' h a
+    g([ f)] e([ d)] c d16([ e)] f8 e %125
+    d e16([ f)] g8 f e([ d)] c b
+    a([ b16 c] \once \stemUp d8) c b f' c4
+    f r r2
+    R1*3 %131
+    r2 c'
+    c4 c, r8 c' h! a
+    g([ f)] e([ d)] c4 r8 a'
+    g([ f)] e([ d)] c([ b)] a' g %135
+    f([ e)] d([ c)] h'![ a g f]
+    e[ d c h] a'[ g f e]
+    d[ c h a] g[ g' e] c
+    g'([ f g g,)] c c'[ h a]
+    g[ f e d] c[ c'] a([ f)] %140
+    g([ f g g,)] c4 r\fermata \bar "|." %141 finis
   }
 }
 
 B-IGloriaBassoLyrics = \lyricmode {
+  Et in ter -- ra
+  pax, in ter -- ra
+  pax, pax ho -- mi -- ni -- bus,
+  pax ho -- mi -- ni -- bus,
+  pax ho -- mi -- ni -- bus %5
+  bo -- nae, bo -- nae
+  vo -- lun -- ta -- tis,
+  vo -- lun -- ta -- tis.
 
+  be -- ne -- di -- ci -- mus, ad -- o -- %13
+  ra -- mus te, glo -- ri -- fi --
+  ca -- mus, glo -- ri -- fi -- %15
+  ca -- mus te, glo -- ri -- fi --
+  ca -- mus te.
+
+  Do -- mi -- ne De -- us, %41
+
+  De -- us,
+  A -- gnus De -- i,
+  Fi -- li -- us %45
+  Pa -- _
+  _ _ _ _
+  tris.
+
+  Qui tol -- lis pec -- %52
+  ca -- ta, pec -- ca -- ta mun --
+  di: Mi -- se --
+  re -- re %55
+  no --
+  bis,
+  mi -- se --
+  re -- re
+  no -- %60
+  bis, mi -- se --
+  re --
+  re no --
+  bis, mi -- se --
+  re -- %65
+  re,
+  mi -- se --
+  re -- re,
+  mi -- se --
+  re -- re, %70
+  mi -- se -- re --
+  re no --
+  bis.
+
+  Qui %84
+  se -- des, qui %85
+  se -- des ad
+  dex -- te -- ram
+  Pa -- tris, ad dex --
+  te -- ram Pa --
+  tris: Mi -- se -- %90
+  re -- re,
+  mi -- se -- re --
+  re no -- bis,
+  mi -- se -- re --
+  re no -- %95
+  bis.
+
+  Quo -- ni -- am tu so -- lus, tu %101
+  so -- _ _ lus, tu
+  so -- lus san -- ctus,
+
+  tu, tu so -- lus %106
+  Do -- mi -- nus, so -- lus al -- tis -- si --
+  mus, Je -- _ _
+  _ _ _ _
+  _ _ _ _ %110
+  _ _ su Chri --
+  ste.
+
+  Cum San -- cto,
+  cum San -- cto Spi -- ri -- %115
+  tu in glo -- ri -- a __
+  De -- i Pa -- tris,
+  a -- _
+  _ _
+  _ _ %120
+  men,
+
+  cum
+  San -- cto, cum San -- cto
+  Spi -- ri -- tu in glo -- ri -- %125
+  a, in glo -- ri -- a __ De -- i
+  Pa -- tris, a -- men, a --
+  men,
+
+  cum %132
+  San -- cto, cum San -- cto
+  Spi -- ri -- tu in
+  glo -- ri -- a __ De -- i %135
+  Pa -- tris, a --
+  _ _
+  _ _ men,
+  a -- men, a --
+  _ _ men, %140
+  a -- men. %141 finis
 }

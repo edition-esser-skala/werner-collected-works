@@ -55,6 +55,42 @@ B-IGloriaTimpani = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoB-IGloria
-
+    c8\fE g16 c c16. c64 c g16 c g8. g32 g g8 g
+    c8. c32 c c16 c g c g8. g32 g g16 g g g
+    c8. c32 c c16 c g c c8 c r4
+    R1*47 \noBreak %50
+    R1\fermata \bar "||"
+    \tempoB-IQuiTollis \newSpacingSection R1*2
+    \time 3/4 \tempoB-IMiserere R2.*30 %83
+    r4 r r8 g\fE
+    c c16 c g4 r8 g16 g %85
+    c8 c16 c g4 r8 g16 g
+    c8 c16 c c4 r
+    R2.*5 %92
+    c8. c32 c c8 c c c
+    g8. g32 g g8 g c8. c32 c
+    c8 c g g16 g g g g g \noBreak %95
+    c2 r4\fermata \bar "||"
+    \time 4/4 \tempoB-IQuoniam \newSpacingSection
+      R1*16 \noBreak %112
+    R1\fermata \bar "||"
+    \tempoB-ICumSancto R1*9 %122
+    r2 c8\fE c16 c c8 c
+    c c16 c c4 r8 c16 c g8 c
+    g g16 g c8 g c4 r %125
+    r g r c8. c32 c
+    c4 r r8 c c16. c64 c c16 c
+    c4 r r2
+    R1*3 %131
+    r2 c8 c16 c c c c c
+    c8 c16 c c8 c c4 r8 c
+    g g16 g c8 g c4 r8 c
+    g8. g32 g c8 g16 g c8 c16 c c8 c %135
+    c4 r g8 g16 g g8.-\critnote g32 g
+    c4 r c r
+    r2 g8 g16 g c8 c
+    g g16 g g8. g32 g c4 r8 c
+    g g16 g c8 g c8. c32 c c8 c %140
+    g8. g32 g g16 g g g c4 r\fermata \bar "|." %141 finis
   }
 }

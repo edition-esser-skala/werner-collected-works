@@ -150,10 +150,183 @@ B-IGloriaAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoB-IGloria
-
+    \mvTr g'4\fE^\tutti r8 g g4. g8
+    g4 r8 e d4. d8
+    e e4 e8 f8. f16 f4
+    r8 fis4 fis8 g8. g16 g4
+    r8 gis4 gis8 a8. a16 a4 %5
+    a8 a h4. h8 a4~
+    a8 a gis4 a fis8 fis
+    g4.( fis8) g4 r
+    R1
+    r8 \mvTr d\pE^\solo g h a16[ g fis e] \appoggiatura e8 d8.\trill c16 %10
+    h8.\trill a16 g4 r2
+    R1*2
+    r2 r8 \mvTr fis'\fE^\tutti fis fis
+    g4 g8 a b4 a %15
+    g16([ f)] g4 f8 e([ a)] f([ g)]
+    f4( e8.)\trill d16 d4 r
+    R1*18 %35
+    r2 a'8.([ g32 f)] e16([ d)] c([ h)]
+    c8 a c16([ e)] e([ g!)] g([ a)] g([ f)] e([ d)] c([ h)]
+    c8 e16([ f] \tuplet 3/2 8 { g[ a g]) } f([ e)] d([ c)] d8 r4
+    r8 f16([ g] \tuplet 3/2 8 { a[ b a]) } g([ f)] e([ d)] e8 r a(
+    g) f \tuplet 3/2 8 { e16([ f e)] } d([ cis)] d4.( cis8) %40
+    d4 r r2
+    R1*9 \noBreak %50
+    R1\fermata \bar "||"
+    \tempoB-IQuiTollis \newSpacingSection
+      \mvTr e2\fE^\tutti f4 e8 e \noBreak
+    f4 f8 f f f f([ e16 d)]
+    \time 3/4 \tempoB-IMiserere e4 r r \noBreak
+    R2. %55
+    r4 f f
+    e( c') es,
+    d( b') g
+    a2.
+    g %60
+    f4 d8([ es16 f] g8[ f])
+    es([ d] c[ d16 es] f8[ \hA es)]
+    d4 g8([ f] g4)
+    c, f f
+    e!( c') es, %65
+    d2( e4)
+    f2.
+    r4 a!2~
+    a4 g2~
+    g4 f2~ %70
+    f4 g2
+    f4 e!2\trill
+    d r4
+    R2.*10 %83
+    r4 r r8 \mvTr g!\fE^\tutti
+    g4 g r8 d %85
+    e4 d r8 g
+    g4. g8 gis4
+    a e8 e fis4
+    g!8 g g4( fis)
+    g d e %90
+    f!2.
+    e4 e f
+    g( f) e
+    d4. d8 g4
+    e d2 \noBreak %95
+    e r4\fermata \bar "||"
+    \time 4/4 \tempoB-IQuoniam \newSpacingSection
+      R1*16 \noBreak %112
+    R1\fermata \bar "||"
+    \tempoB-ICumSancto R1*4 %117
+    r2 \mvTr c'\fE^\tuttiE
+    c4 c, r8 c' h a
+    g([ f)] e([ d)] c d e([ fis] %120
+    g8.) g,16 g8 e' d([ e)] d([ c)]
+    h h'([ a)] g g16([ fis] g4 a8)
+    d, g( f[ e16 d]) e8 f([ e)] c16([ d)]
+    e8([ f e)] c16([ d)] e([ d e8] d) c
+    d8.([ e32 f] g8[ f)] e f16[ g] a8[ g] %125
+    f[ g16 a] g4. a16[ b] c[ c, d e]
+    f4~ f16[ g a8] d,16[ e] f4 e8
+    f f16[ g] a8[ b] a[ d c b]
+    a[ b16 a] g8[ f] e4 r
+    f2 f4 f, %130
+    r8 f' e d c([ b)] a([ g)]
+    f g a h c c16([ d e8)] f
+    e a g([ a)] g e d[ e16 f]
+    g4. f8 e4 g~
+    g8[ d g f] e4 f8[ g] %135
+    a[ g] f[ g16 a] g8[ g,16 a] h8[ c16 d]
+    e8[ f] g[ a16 h] c8[ h a g]
+    f[ e16 f] g2 g4
+    g2 g4 r
+    r8 d[( g f] e8.[ f32 g] f8) a %140
+    g2 g4 r\fermata \bar "|." %141 finis
   }
 }
 
 B-IGloriaAltoLyrics = \lyricmode {
+  Et in ter -- ra
+  pax, in ter -- ra
+  pax, pax ho -- mi -- ni -- bus,
+  pax ho -- mi -- ni -- bus,
+  pax ho -- mi -- ni -- bus %5
+  bo -- nae, bo -- nae vo --
+  lun -- ta -- tis, vo -- lun --
+  ta -- tis.
 
+  Lau -- da -- mus te, __ _ lau -- %10
+  da -- mus te,
+
+  glo -- ri -- fi -- %14
+  ca -- mus, glo -- ri -- fi -- %15
+  ca -- mus, glo -- ri -- fi --
+  ca -- mus te.
+
+  Do -- mi -- ne %36
+  Fi -- li, Fi -- li __ u -- ni -- ge -- ni --
+  te, Je -- su Chri -- ste,
+  Je -- su Chri -- ste, Je --
+  su, Je -- su Chri -- %40
+  ste.
+
+  Qui tol -- lis pec -- %52
+  ca -- ta, pec -- ca -- ta mun --
+  di:
+  %55
+  Mi -- se --
+  re -- re
+  no -- bis,
+  no --
+  bis, %60
+  mi -- se --
+  re --
+  re no --
+  bis, mi -- se --
+  re -- re %65
+  no --
+  bis,
+  mi --
+  se --
+  re -- %70
+  _
+  re no --
+  bis.
+
+  Qui %84
+  se -- des, qui %85
+  se -- des ad
+  dex -- te -- ram
+  Pa -- tris, ad dex --
+  te -- ram Pa --
+  tris: Mi -- se -- %90
+  re --
+  re, mi -- se --
+  re -- re,
+  mi -- se -- re --
+  re no -- %95
+  bis.
+
+  Cum %118
+  San -- cto, cum San -- cto
+  Spi -- ri -- tu in glo -- %120
+  ri -- a, in glo -- ri --
+  a De -- i Pa --
+  tris, a -- men, De -- i __
+  Pa -- tris, a -- men,
+  a -- men, a -- _ %125
+  _ _ _ _
+  _ _ _ _
+  men, a -- _ _
+  _ _ men,
+  cum San -- cto, %130
+  cum San -- cto Spi -- ri --
+  tu in glo -- ri -- a De -- i
+  Pa -- tris, a -- men, a -- _
+  _ _ men, a --
+  men, a -- %135
+  _ _ _ _
+  _ _ _
+  _ _ men,
+  a -- men,
+  a -- men, %140
+  a -- men. %141 finis
 }

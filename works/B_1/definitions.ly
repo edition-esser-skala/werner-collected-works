@@ -1,8 +1,13 @@
 \version "2.24.0"
 
 tempoB-IKyrie = \tempoMarkup "Vivace"
-tempoB-IChriste = \tempoMarkup "Larghetto"
-tempoB-IKyrieFuga = \tempoMarkup "Allegro"
+  tempoB-IChriste = \tempoMarkup "Larghetto"
+  tempoB-IKyrieFuga = \tempoMarkup "Allegro"
+tempoB-IGloria = \tempoMarkup \markup \concat { "Vivace passato " \normalsize \critnote }
+  tempoB-IQuiTollis = \tempoMarkup "Largo"
+  tempoB-IMiserere = \tempoMarkup "Tempo giusto"
+  tempoB-IQuoniam = \tempoMarkup "Andante"
+  tempoB-ICumSancto = \tempoMarkup "Presto"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
@@ -13,4 +18,5 @@ tempoB-IKyrieFuga = \tempoMarkup "Allegro"
 \include "notes/A.ly"
 \include "notes/T.ly"
 \include "notes/B.ly"
+\include "notes/chords.ly"
 \include "notes/org.ly"

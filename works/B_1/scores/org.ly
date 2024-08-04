@@ -6,14 +6,31 @@
 \include "score_settings/one-staff.ly"
 
 \book {
+  % \bookpart {
+  %   \section "B-I" ""
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new Staff { \B-IOrgano }
+  %       \new FiguredBass { \B-IBassFigures }
+  %     >>
+  %   }
+  % }
   \bookpart {
-    \section "B-I" ""
+    \subsection "Quoniam (org solo)"
     \addTocEntry
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \B-IOrgano }
-        \new FiguredBass { \B-IBassFigures }
+        \new PianoStaff <<
+          \set PianoStaff.instrumentName = \markup \center-column { "org" "solo" }
+          \new Staff \with { instrumentName = ##f } { \B-IQuoniamChords }
+          \new Staff \with { instrumentName = ##f } { \B-IQuoniamOrgano }
+        >>
+        \new FiguredBass { \B-IQuoniamBassFigures }
       >>
+      \layout { }
+      \midi { \tempo 4 = 75 }
     }
   }
 }
