@@ -109,3 +109,67 @@ B-IGloriaClarinoII = {
     d4.\trill d8 e4 r\fermata \bar "|." %141 finis
   }
 }
+
+B-ICredoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoB-ICredo
+    e'4.\fE d8 c e
+    d4 r8 d16 d d8 d
+    e4 r8 d c e
+    f4 r8 e f f
+    d4 r8 d16 d d8 d %5
+    d4 r8 d16 d d8 d
+    e4 r8 g,16 g g8 g16 g
+    g4 r8 g16 g g8 g
+    c c d4.\trill d8
+    e4 r r %10
+    R2.*41 \noBreak %51
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoB-IEtIncarnatus \newSpacingSection
+      R1*10 \noBreak %62
+    R1\fermata \bar "||"
+    \tempoB-ICrucifixus
+      R1*15 \noBreak %78
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-IEtResurrexit \newSpacingSection
+      c4\fE c r g c c \noBreak %80
+    d d r d d d
+    e g, e'8 e d e c2
+    r4 c f8 f e f d2
+    r4 d g8 g f g e2
+    r4 e d2 d %85
+    r4 d d2. d4
+    d d d2.\trill d4
+    d2 r r
+    R1.*23 %111
+    c2.\fE c4 e e
+    d d r d d d
+    e e r2 r
+    R1. %115
+    r4 g,8 g g4 c c c
+    c4. f8 d2.\trill d4 \noBreak
+    e2 r r\fermata \bar "||"
+    \time 4/4 \tempoB-IEtUnam
+      R1*7 \noBreak %125
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-IEtVitam
+      R1.*11 %137
+    r4 g,\fE c h8 c d4 c8 d
+    e4 c r c2 c4
+    c d r d2 d4 %140
+    e2. c8 d e4 c
+    f d r f d c8 h
+    c2 r r
+    R1.*8 %151
+    r2 c2. c4
+    c d d2.\trill c8 d
+    e4 e d e d e
+    d g,8 g g4 g8 g g g g g %155
+    g2 r r
+    r4 g c h8 c d4 c8 d
+    e f e d c4 f d2\trill
+    e r4 f d4.\trill d8
+    c2 r r\fermata \bar "|." %160 finis
+  }
+}

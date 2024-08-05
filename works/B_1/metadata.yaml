@@ -16,6 +16,7 @@ sources:
     shelfmark: A 74
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/725.html
     license: public domain
+    notes: several pages missing in digitized version
 tocstyle: default
 toe: |
   – & –    & –    & Minor differences between \A1 and \B1 appear in all parts. Notably, the timp parts of the two sources differ to a greater extent, and the part of \A1 is more virtuous. Here, none of these differences are annotated. The title page of \A1 contains the note “NB In defectu Clarinorum Organum Clarinum concertantem supplet”. Accordingly, the org part of \A1 also contains the solo parts of clno 1 in the \textit{Quoniam} and \textit{Pleni sunt cœli}. Here these organ solos are only reproduced in the org part as an appendix. \\
@@ -34,3 +35,13 @@ toe: |
     & 119  & vl 2 & 5th \eighthNote\ in \A1 and \B1: d′8 \\
     & 124  & S    & 9th \sixteenthNote\ in \A1 and \B1: a′16 \\
     & 136  & timp & 4th \quarterNote\ in \A1: G8.–G32–A32–B32 \\
+  3 & 41   & vl 2 & 3rd to 5th \eighthNote\ in \A1: \quaverRest–e″4 \\
+    & 57   & B    & 2nd \halfNote\ in \A1 and \B1: e2 \\
+    & 68   & vl 1 & 2nd \eighthNote\ in \A1: a′8 \\
+    & 73   & vl 2 & 2nd to 4th \eighthNote\ in \A1: g′8–f′8–e′8 \\
+    & 89   & vl 2 & 4th \quarterNote\ in \A1: \sharp f′8–e′8 \\
+    & 98   & vl 2 & 2nd \quarterNote\ in \A1: d″4 \\
+    & 121  & vl 2 & 4th \quarterNote\ in \A1 and \B1: e′4 \\
+    & 129  & org  & 5th \quarterNote\ of upper voice in \A1: b4 \\
+    & 132  & vl 2 & 5th \quarterNote\ in \A1 and \B1: b4 \\
+    & 140  & B    & last \quarterNote\ in \A1: f4 \\

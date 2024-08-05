@@ -402,3 +402,241 @@ B-IGloriaBassoLyrics = \lyricmode {
   _ _ men, %140
   a -- men. %141 finis
 }
+
+B-ICredoBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \autoBeamOff \tempoB-ICredo
+    \mvDl c'4\fE^\tutti c8 g e c
+    g' g, r d'' h g
+    c c, r g' e c
+    f f, r4 f'8 f
+    d4 d8 d d d %5
+    g4 r8 g4 g8
+    c4. g8 e c
+    g'4 r8 g4 g8
+    e c g'([ f)] g([ g,)]
+    c4 r r %10
+    R2.*26 %36
+    r4 r8 \mvTr d\pE^\solo g h
+    a4 r8 a fis d
+    g4 r8 d g h
+    e, c r g' c a %40
+    fis d r a' d16([ a fis d]
+    h8) g r d' g[ h16 g]
+    e8[ g16 e] c8[ e16 c] a8[ c'16 a]
+    fis8[ a16 \hA fis] d8[ \hA fis16 d] h8[ d'16 h]
+    g8[ fis16 e] d8([ fis)] a([ c)] %45
+    h[ a16 g] fis8[ e d c]
+    h16[ g' e c] d8[ c] d4\trill
+    g, r r
+    R2.*3 \noBreak %51
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoB-IEtIncarnatus \newSpacingSection
+      \mvTr e'2\fE^\tutti a4 b \noBreak
+    g! gis a f8 d
+    e4 a d, es %55
+    c d8 d g, g c4
+    a2 e'!4^\critnote r
+    c8 c c c b'4. b8
+    gis gis gis gis a4 fis
+    e cis h! e %60
+    h4. h8 e4 r
+    r8 ais,\p ais ais h4. h8 \noBreak
+    e2 r\fermata \bar "||"
+    \tempoB-ICrucifixus
+      \mvTr a4\pE^\solo e c8 a c' a \noBreak
+    f d h' g! e c r4 %65
+    R1
+    r8 e a c d, f g h
+    e, c r4 a'4.( g16[ f])
+    g8 h c4~ c8[ h16 a] h4~
+    h8[ a16 g] a4. g16[ f] g4~ %70
+    g8 f16([ e)] f8 d b' b a4~
+    a g8([ a)] g4( fis8.) e16
+    e4 r r2
+    r8 c a'4. gis16([ fis?)] \hA gis8 h
+    a([ c)] h[( a)] a gis r4 %75
+    r2 r8 a[( f d]
+    h') a16([ gis)] a8 h a4( gis8.) a16
+    a4 r r2 \noBreak
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-IEtResurrexit \newSpacingSection
+      \mvTr c,2\fE^\tutti r4 c' c, c' \noBreak %80
+    h g r g g, g'
+    e c r c a'2
+    f r4 d h'2
+    g r4 e c'2
+    a r4 fis d2 %85
+    h r4 g8([ a)] h([ a h c)]
+    d4 g \stemUp d( c d2) \stemNeutral
+    g, r g4 g'
+    fis d r d fis d
+    g2 g, r4 g'( %90
+    e c) a2 r4 a'(
+    fis d) h2 r4 h'
+    g( e) c a h2
+    e r r
+    R1.*17 %111
+    \mvTr c2.\fE^\tuttiE c4 c c'
+    h g8 g g4 g g, g'
+    e c c c' a a
+    f2 d4 d' h h %115
+    g g e e c2
+    a'4 f g2( g,) \noBreak
+    c r r\fermata \bar "||"
+    \time 4/4 \tempoB-IEtUnam R1*2 %120
+    r2 r4 r8 \mvTr g'\pE^\solo
+    c g16 g e!8 f16 g c,8 c a' c
+    b g g d es es cis4
+    d r r2
+    R1 \noBreak %125
+    R\fermata \bar "||"
+    \time 3/2 \tempoB-IEtVitam
+      r4 \mvTr c\fE^\tutti e d8[ e] c4 e \noBreak
+    f d f e8[ f] d4 g
+    e c8(_[ d] e4 d8[ e] fis4 e8[ \hA fis)]
+    g4 h8([ a] g2.) e4 %130
+    a2. a,4 d2
+    g, g4( a h a8[ h)]
+    c2 r r
+    R1.*2 %135
+    g'2 d h'4 g
+    e c a'2 fis
+    g4( f) e2( d)
+    c4 c e d8[ e] c4 e
+    f d f e8[ f] d4 g^\critnote %140
+    e c r e( c f
+    d) h r d( h e
+    c) a r2 r
+    R1.*2 %145
+    f'2 c a'4 f
+    d b g'2 e
+    f4 f2 e8[ f] d4 g
+    e c r2 r
+    R1.*2 %151
+    r4 c e d8[ e] c4 e
+    f d f e8[ f] d4 g
+    e c h( c h c)
+    g1 r2 %155
+    r r4 c f e8[ f]
+    d4 g e d8[ c] h4 a8[ g]
+    c4 g' a f g2
+    c, r4 f( g g,)
+    c2 r r\fermata \bar "|." %160 finis
+  }
+}
+
+B-ICredoBassoLyrics = \lyricmode {
+  Pa -- trem o -- mni -- po --
+  ten -- tem, fa -- cto -- rem
+  coe -- li, coe -- li et
+  ter -- rae, vi -- si --
+  bi -- li -- um o -- mni -- %5
+  um et in --
+  vi -- si -- bi -- li --
+  um, et in --
+  vi -- si -- bi -- li --
+  um. %10
+
+  Qui pro -- pter %37
+  nos, nos ho -- mi --
+  nes et pro -- pter
+  no -- stram, no -- stram sa -- %40
+  lu -- tem de -- scen --
+  dit, de -- scen --
+  _ _ _
+  _ _ _
+  _ dit de __ %45
+  coe -- _
+  _ _ _
+  lis.
+
+  Et in -- car -- %53
+  na -- tus est, in -- car --
+  na -- tus, in -- car -- %55
+  na -- tus de Spi -- ri -- tu
+  San -- cto
+  ex Ma -- ri -- a Vir -- gi --
+  ne, et ho -- mo fa -- ctus,
+  ho -- mo, ho -- mo %60
+  fa -- ctus est,
+  et ho -- mo fa -- ctus
+  est.
+  Cru -- ci -- fi -- xus e -- ti --
+  am pro no -- bis, pas -- sus, %65
+
+  sub Pon -- ti -- o Pi -- la -- to
+  pas -- sus, pas --
+  sus, pas -- _ _
+  _ _ _ %70
+  sus et se -- pul -- tus, et __
+  se -- pul -- tus
+  est,
+  sub Pon -- ti -- o Pi --
+  la -- to __ pas -- sus, %75
+  pas --
+  sus et se -- pul -- tus
+  est.
+
+  Et, et re -- sur -- %80
+  re -- xit ter -- ti -- a
+  di -- e se -- cun --
+  dum, se -- cun --
+  dum, se -- cun --
+  dum, se -- cun -- %85
+  dum, se -- cun --
+  dum Scri -- ptu --
+  ras, et a --
+  scen -- dit in coe -- lum,
+  se -- det, se -- %90
+  det, se --
+  det ad
+  dex -- te -- ram Pa --
+  tris.
+
+  Si -- mul ad -- o -- %112
+  ra -- tur et con -- glo -- ri -- fi --
+  ca -- tur: qui lo -- cu -- tus
+  est, qui lo -- cu -- tus %115
+  est, lo -- cu -- tus est
+  per Pro -- phe --
+  tas.
+
+  Con -- %121
+  fi -- te -- or u -- num ba -- ptis -- ma in re --
+  mis -- si -- o -- nem pec -- ca -- to --
+  rum.
+
+  A -- _ _ _ _ %127
+  _ _ _ _ _ _
+  men, a --
+  men, a -- men, %130
+  a -- men, a --
+  men, a --
+  men,
+
+  et vi -- tam ven -- %136
+  tu -- ri sae -- cu --
+  li, __ a --
+  men, a -- _ _ _ _
+  _ _ _ _ _ _ %140
+  _ men, a --
+  men, a --
+  men,
+
+  et vi -- tam ven -- %146
+  tu -- ri sae -- cu --
+  li, a -- _ _ _
+  _ men,
+
+  a -- _ _ _ _ %152
+  _ _ _ _ _ _
+  _ men, a --
+  men, %155
+  a -- _ _
+  _ _ _ _ _ _
+  _ men, a -- men, a --
+  men, a --
+  men. %160 finis
+}

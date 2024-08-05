@@ -8,6 +8,12 @@ tempoB-IGloria = \tempoMarkup \markup \concat { "Vivace passato " \normalsize \c
   tempoB-IMiserere = \tempoMarkup "Tempo giusto"
   tempoB-IQuoniam = \tempoMarkup "Andante"
   tempoB-ICumSancto = \tempoMarkup "Presto"
+tempoB-ICredo = \tempoMarkup "Andante"
+  tempoB-IEtIncarnatus = \tempoMarkup "Largo"
+  tempoB-ICrucifixus = \tempoMarkup "Adagio"
+  tempoB-IEtResurrexit = \tempoMarkup "Allegro"
+  tempoB-IEtUnam = \tempoMarkup "Largo"
+  tempoB-IEtVitam = \tempoMarkup "Vivace"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"

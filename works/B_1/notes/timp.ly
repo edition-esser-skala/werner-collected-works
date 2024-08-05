@@ -94,3 +94,58 @@ B-IGloriaTimpani = {
     g8. g32 g g16 g g g c4 r\fermata \bar "|." %141 finis
   }
 }
+
+B-ICredoTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoB-ICredo
+    c8\fE c16 g c8 g c c16 c
+    g4 r8 g16 g g8. g32 g
+    c4 r8 g16 g c8. c32 c
+    c4 r r
+    R2. %5
+    g4 r8 g16 g g8. g32 g
+    c4 r8 g16 g c8 c16 c
+    g4 r8 g16 g g8 g
+    c c g8. g32 g g16 g g g
+    c4 r r %10
+    R2.*41 \noBreak %51
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoB-IEtIncarnatus \newSpacingSection
+      R1*10 \noBreak %62
+    R1\fermata \bar "||"
+    \tempoB-ICrucifixus
+      R1*15 \noBreak %78
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-IEtResurrexit \newSpacingSection
+      c4\fE c r c c c8 c \noBreak %80
+    g4 g r g g g8 g
+    c4 c r2 r
+    R1.*29 %111
+    c4\fE c8 c c4 c c c8 c
+    g4 g r g8 g g4 g8 g
+    c4 c r2 r
+    R1. %115
+    r4 g g g8 g c4 c
+    c c8 c g4 g8 g g g g g \noBreak
+    c2 r r\fermata \bar "||"
+    \time 4/4 \tempoB-IEtUnam
+      R1*7 \noBreak %125
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-IEtVitam
+      R1.*12 %138
+    r4 c\fE c c8 c c4 c
+    c r r2 r4 g %140
+    c c8 c c2 r
+    R1.*10 %151
+    r4 c c c8 c c4 c
+    c r r2 r4 g8 g
+    c4 c8 c g4 c g c8 c
+    g4 g8 g g4 c g8 g c c %155
+    g2 r r
+    r4 g c g8 c g4 g8 g
+    c4 g c c8 c g g g g
+    c2 r4 c g g8 g
+    c2 r r\fermata \bar "|." %160 finis
+  }
+}
