@@ -545,3 +545,92 @@ B-ICredoAltoLyrics = \lyricmode {
   men, a --
   men. %160 finis
 }
+
+B-ISanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoB-ISanctus
+    \mvTr e2(\fE^\tutti f4) e
+    f1
+    e2 r\fermata
+    e2 fis4 g~
+    g a b a %5
+    g2 r\fermata
+    f( g4) f
+    e a2 f4~
+    f e d2
+    e8 e e e g2 %10
+    f8 f f f es2
+    d4 d2 c8([ e)] dis dis e2 dis4 \noBreak
+    e2 r\fermata \bar "||"
+    \tempoB-IPleni \newSpacingSection R1*14 \noBreak %28
+    R1\fermata \bar "||"
+    \tempoB-IOsanna R1*5 %34
+    r2 r4 \mvTr c\fE^\tutti %35
+    g' e a f
+    c' h8[ a] g[ f e d]
+    e[ fis] g4 g4. f?16([ e)]
+    d8([ c16 h] c[ d e fis] g4.) fis8
+    h([ a)] g([ f16 e)] f8_([ g a h] %40
+    c4) c,8 e d4 g,
+    R1
+    r4 c g' e
+    c8.([ d16)] e8([ f)] g16[ f] g4 a8
+    h16[ a h8] c[ d] g,4 a~ %45
+    a8 gis16([ fis)] \hA gis4 a8([ g)] f4
+    e( a4.) a8 g g
+    fis2\trill e8 g([ a)] f
+    g16([ a g8] f[ e)] d4 r
+    r2 r4 c %50
+    g'4.( f8 e4) d
+    g e8([ c')] h_([ a16 g] a8[ h]
+    c4) g r8 a4 g8
+    f([ e d c)] h h'4 a8
+    g[ f e d] c4. d16[ e] %55
+    f2~ f8 f e e
+    d4( e8[ d16 c] d2)\trill
+    e4 r r2\fermata \bar "|." %58 finis
+  }
+}
+
+B-ISanctusAltoLyrics = \lyricmode {
+  San -- ctus,
+  san --
+  ctus,
+  san -- ctus, san --
+  _ _ _ %5
+  ctus,
+  san -- ctus,
+  san -- _ _
+  ctus, san --
+  ctus Do -- mi -- nus De -- %10
+  us, Do -- mi -- nus De --
+  us, De -- us, __
+  De -- us Sa -- ba --
+  oth.
+
+  O -- %35
+  san -- na in ex --
+  cel -- _ _
+  _ sis, in ex --
+  cel -- sis,
+  in __ ex -- cel -- %40
+  sis, ex -- cel -- sis,
+
+  o -- san -- na
+  in __ ex -- cel -- _ _
+  _ _ sis, in __ %45
+  ex -- cel -- sis, ex --
+  cel -- sis, in ex --
+  cel -- sis, in __ ex --
+  cel -- sis,
+  o -- %50
+  san -- na
+  in ex -- cel --
+  sis, in ex --
+  cel -- sis, in ex --
+  cel -- _ _ %55
+  _ sis, in ex --
+  cel --
+  sis. %58 finis
+}

@@ -543,15 +543,94 @@ B-ICredoSopranoLyrics = \lyricmode {
   men. %160 finis
 }
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
+B-ISanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoB-ISanctus
+    \mvTr c'2.\fE^\tutti cis4
+    d c d( c)
+    c2 r\fermata
+    cis d
+    e4 f! g( f) %5
+    e2 r\fermata
+    c( cis4) d
+    e2. d8([ c)]
+    h!4( c2 h4)
+    c8 g g g b2 %10
+    a8 d d d c!2
+    b8 d \hA b([ a)] gis4 a~
+    a8 a g g fis4. fis8 \noBreak
+    e2 r\fermata \bar "||"
+    \tempoB-IPleni \newSpacingSection R1*14 \noBreak %28
+    R1\fermata \bar "||"
+    \tempoB-IOsanna R1*7 %36
+    r2 r4 \mvTr g\fE^\tuttiE
+    c h e c
+    g' fis8[ e] d[ c h a]
+    g[ a h c] d[ e f d] %40
+    e c e([ d16 c] h8_[ a)] g([ f)]
+    e f16([ g)] a8[( g16 f] g4. a8)
+    d,4 r r g
+    c h e d8([ c)]
+    g'4. f8 e[ d] c[ h16 a] %45
+    h2\trill a
+    r4 e' dis e~
+    e dis e8 h([ c)] d?
+    e16([ f e8] d[ c] h_[ a)] g4
+    R1 %50
+    r4 g c h
+    e c g'4. f8
+    e[ d c h] a4. h16[ c]
+    d4 a h4. c16([ d)]
+    e4 h c8([ h)] a([ h16 c)] %55
+    d8([ a d c)] h4 c
+    h8 h c4. h16(_[ a)] h4
+    c r r2\fermata \bar "|." %58 finis
+  }
+}
 
+B-ISanctusSopranoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus, san --
+  ctus,
+  san -- ctus,
+  san -- ctus, san -- %5
+  ctus,
+  san -- ctus,
+  san -- ctus,
+  san --
+  ctus Do -- mi -- nus De -- %10
+  us, Do -- mi -- nus De --
+  us, De -- us, __ De -- _
+  us, De -- us Sa -- ba --
+  oth.
 
-% ## Benedictus
+  O -- %37
+  san -- na in ex --
+  cel -- _ _
+  _ _ %40
+  sis, o -- san -- na
+  in ex -- cel --
+  sis, o --
+  san -- na in ex --
+  cel -- _ _ _ %45
+  _ sis,
+  in ex -- cel --
+  _ sis, in __ ex --
+  cel -- sis,
+  %50
+  o -- san -- na
+  in ex -- cel -- _
+  _ _ _
+  _ sis, in ex --
+  cel -- sis, in __ ex -- %55
+  cel -- sis, o --
+  san -- na in ex -- cel --
+  sis. %58 finis
+}
+
 
 % Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
 
 
 % ## Agnus Dei

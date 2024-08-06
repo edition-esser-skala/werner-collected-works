@@ -584,3 +584,97 @@ B-ICredoTenoreLyrics = \lyricmode {
   men, a --
   men. %160 finis
 }
+
+B-ISanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoB-ISanctus
+    \mvTr g2\fE^\tutti a
+    a( b4 a)
+    g2 r\fermata
+    a a4 b~
+    b a e'( c) %5
+    c2 r\fermata
+    a g8([ a)] b4~
+    b a8([ g)] f4 a
+    g1
+    g4 r r8 e' e e %10
+    e([ d)] d4 r8 a a a
+    b4 g8([ a)] h4 a8([ c)]
+    h2. h4 \noBreak
+    h2 r\fermata \bar "||"
+    \tempoB-IPleni \newSpacingSection R1*14 \noBreak %28
+    R1\fermata \bar "||"
+    \tempoB-IOsanna R1*2 %31
+    r4 \mvTr g\fE^\tutti c h
+    e d g fis8[ e]
+    d[ c h a] g[ a h c]
+    d[ e f! d] e[ d] e[ d16 c] %35
+    h8[ a] g([ c)] a([ h)] c([ d)]
+    e([ d16 c] d8[ c16 h)] c4 r8 d
+    c4( d) g, r
+    R1*2 %40
+    r2 r4 g
+    c a e'16([ f e8)] d([ c)]
+    h([ a g f] e[ d)] c4
+    r2 r8 g'4 c8
+    h4 g r8 h c16([ d e8)] %45
+    e[ h] e4. f16[ e] d4~
+    d c! h4. h8
+    h2^\critnote h4 r
+    r2 g
+    c4 a e'4. d16([ c)] %50
+    h8([ d c d)] g,4 r
+    g c d8[ h c d]
+    e4. d8 c[ h] a4
+    f'4. e8 d([ c)] h4
+    c8([ h16 a] g8) f e[ f16 g] a4~ %55
+    a4. h16[ c] d4 g,~
+    g g g2
+    g4 r r2\fermata \bar "|." %58 finis
+  }
+}
+
+B-ISanctusTenoreLyrics = \lyricmode {
+  San -- ctus,
+  san --
+  ctus,
+  san -- ctus, san --
+  ctus, san -- %5
+  ctus,
+  san -- ctus, san --
+  ctus, san -- ctus,
+  san --
+  ctus Do -- mi -- nus %10
+  De -- us, Do -- mi -- nus
+  De -- us, __ De -- us __
+  Sa -- ba --
+  oth.
+
+  O -- san -- na %32
+  in ex -- cel -- _
+  _ _
+  _ _ _ %35
+  _ sis, __ in __ ex --
+  cel -- sis, ex --
+  cel -- sis,
+
+  o -- %41
+  san -- na in __ ex --
+  cel -- sis,
+  in ex --
+  cel -- sis, in ex -- %45
+  cel -- _ _ _
+  sis, in ex --
+  cel -- sis,
+  o --
+  san -- na in ex -- %50
+  cel -- sis,
+  in ex -- cel --
+  _ _ _ sis,
+  in ex -- cel -- sis,
+  in __ ex -- cel -- _ %55
+  _ sis, in __
+  ex -- cel --
+  sis. %58 finis
+}

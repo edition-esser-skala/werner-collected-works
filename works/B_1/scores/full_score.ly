@@ -141,70 +141,138 @@
   %     \midi { \tempo 4 = 80 } % 40 – 120 – 75 – 120
   %   }
   % }
+  % \bookpart {
+  %   \section "3" "Credo"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+  %           \partCombine #'(0 . 10) \B-ICredoClarinoI \B-ICredoClarinoII
+  %         >>
+  %       >>
+  %       \new Staff {
+  %         \set Staff.instrumentName = "timp"
+  %         \B-ICredoTimpani
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \B-ICredoViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \B-ICredoViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \B-ICredoSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \B-ICredoSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \B-ICredoAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \B-ICredoAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \B-ICredoTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \B-ICredoTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \B-ICredoBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \B-ICredoBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \B-ICredoOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \B-ICredoBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 } % 50 – 60 – 200 – 60 – 220
+  %   }
+  % }
   \bookpart {
-    \section "3" "Credo"
-    \addTocEntry
+    \section "4" "Sanctus"
+    % \addTocEntry
     \score { %\articulate
       <<
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine #'(0 . 10) \B-ICredoClarinoI \B-ICredoClarinoII
+            \set Staff.soloText = \markup \medium \remark "clno 1"
+            \set Staff.soloIIText = \markup \medium \remark "clno 2"
+            \partCombine #'(0 . 10) \B-ISanctusClarinoI \B-ISanctusClarinoII
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = "timp"
-          \B-ICredoTimpani
+          \B-ISanctusTimpani
         }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \B-ICredoViolinoI
+              \B-ISanctusViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \B-ICredoViolinoII
+              \B-ISanctusViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \B-ICredoSoprano }
+            \new Voice = "Soprano" { \dynamicUp \B-ISanctusSoprano }
           }
-          \new Lyrics \lyricsto Soprano \B-ICredoSopranoLyrics
+          \new Lyrics \lyricsto Soprano \B-ISanctusSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \B-ICredoAlto }
+            \new Voice = "Alto" { \dynamicUp \B-ISanctusAlto }
           }
-          \new Lyrics \lyricsto Alto \B-ICredoAltoLyrics
+          \new Lyrics \lyricsto Alto \B-ISanctusAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \B-ICredoTenore }
+            \new Voice = "Tenore" { \dynamicUp \B-ISanctusTenore }
           }
-          \new Lyrics \lyricsto Tenore \B-ICredoTenoreLyrics
+          \new Lyrics \lyricsto Tenore \B-ISanctusTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \B-ICredoBasso }
+            \new Voice = "Basso" { \dynamicUp \B-ISanctusBasso }
           }
-          \new Lyrics \lyricsto Basso \B-ICredoBassoLyrics
+          \new Lyrics \lyricsto Basso \B-ISanctusBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \B-ICredoOrgano
+            \B-ISanctusOrgano
           }
         >>
-        \new FiguredBass { \B-ICredoBassFigures }
+        \new FiguredBass { \B-ISanctusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 } % 50 – 60 – 200 – 60 – 220
+      \midi { \tempo 4 = 50 } % 75 – 120
     }
   }
 }

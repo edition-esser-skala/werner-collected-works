@@ -640,3 +640,120 @@ B-ICredoBassoLyrics = \lyricmode {
   men, a --
   men. %160 finis
 }
+
+B-ISanctusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoB-ISanctus
+    \mvTr c2(\fE^\tutti f4) a
+    d, f b,( f)
+    c'2 r\fermata
+    a'( d,4) g
+    c, f! e( f) %5
+    c2 r\fermata
+    f( e4) d
+    cis2( d4) f
+    g c, g2
+    c4 r r8 cis cis cis %10
+    d4 d r8 fis fis fis
+    g4. f8 e4 a
+    h e, h4. h8 \noBreak
+    e2 r\fermata \bar "||"
+    \tempoB-IPleni \newSpacingSection R1*5 %19
+    \mvTr c8\pE^\solo e16([ f)] g8 h16 g c8 c, r c' %20
+    d16([ c h a)] \appoggiatura a8 g8.\trill f16 e8 c r16 g'[ a h]
+    c[ c, c'8]~ c16[ a fis d] h'[ g, h'8]~ h16[ g e c]
+    d[ d'] h g d4\trill g, r
+    g'16[ a h c] h[ g a h] c8[ g] e16[ g c, e]
+    f,8[ a'] f16[ a d, f] g,8[ h'] g16[ h e, g] %25
+    a8[ h16 c] h[ a g f] \tuplet 3/2 8 { \sbOn e[ f g g a h] \sbOff } c4~
+    c16[ a] f a g,4\trill c r
+    R1 \noBreak
+    R\fermata \bar "||"
+    \tempoB-IOsanna \mvTr c2\fE^\tutti g'4 e \noBreak %30
+    a f c' h8[ a]
+    g[ f e d] e[ fis] g4
+    c,8 c'([ h)] a g[ h a g]
+    fis[ e d c] h[ a g a]
+    h[ c a h] c[ h] a4 %35
+    g c f!8([ g] a[ g16 f)]
+    e8 a([ g)] f e([ d c h)]
+    a4 g c8[ d] e[ d16 c]
+    h8[ a16 g] a8([ c)] h c d4\trill
+    g, r r2 %40
+    c g'4 e
+    a f c' h8[ a]
+    g[ f e d] c4. h8
+    a a'([ g)] f e[( c' h a]
+    g[ f e d]) c([ h)] a4 %45
+    e'4. d8 cis4 d
+    a'4. a8 h4 e,
+    h2 e4 r
+    c!2 g'4 e
+    a f c'( h8[ a] %50
+    g[ f e d]) c4 g'(
+    e) a g8([ f e d)]
+    c4 e f4.( e8)
+    d4 f g4. f8
+    e4 g a8([ g f e] %55
+    d[ c h a)] g4 c
+    g8 g' e c' g4( g,)
+    c r r2\fermata \bar "|." %58 finis
+  }
+}
+
+B-ISanctusBassoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus, san --
+  ctus,
+  san -- ctus,
+  san -- ctus, san -- %5
+  ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- ctus, san --
+  ctus Do -- mi -- nus %10
+  De -- us, Do -- mi -- nus
+  De -- us, De -- us,
+  De -- us Sa -- ba --
+  oth.
+
+  Ple -- ni, ple -- ni sunt coe -- li, sunt %20
+  coe -- li et ter -- ra glo --
+  _ _
+  _ ri -- a tu -- a,
+  glo -- _ _ _
+  _ _ _ _ %25
+  _ _ _ _
+  ri -- a tu -- a.
+
+  O -- san -- na %30
+  in ex -- cel -- _
+  _ _ _
+  sis, in __ ex -- cel --
+  _ _
+  _ _ _ %35
+  sis, o -- san --
+  na in __ ex -- cel --
+  sis, o -- san -- _
+  _ na __ in ex -- cel --
+  sis, %40
+  o -- san -- na
+  in ex -- cel -- _
+  _ _ _
+  sis, in __ ex -- cel --
+  sis, o -- %45
+  san -- na in ex --
+  cel -- sis, in ex --
+  cel -- sis,
+  o -- san -- na
+  in ex -- cel -- %50
+  sis, in __
+  ex -- cel --
+  sis, o -- san --
+  na, o -- san -- na
+  in ex -- cel -- %55
+  sis, o --
+  san -- na in ex -- cel --
+  sis. %58 finis
+}

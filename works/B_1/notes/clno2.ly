@@ -173,3 +173,42 @@ B-ICredoClarinoII = {
     c2 r r\fermata \bar "|." %160 finis
   }
 }
+
+B-ISanctusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-ISanctus
+    e'2\fE f4 e
+    f c d c
+    c2 r\fermata
+    e4. e8 d2
+    e4 c e c %5
+    c2 r\fermata
+    c e4 f8 d
+    e4. e8 d2~
+    d4 e d4. d8
+    e4_\critnote r r2 %10
+    R1*3 \noBreak
+    R1\fermata \bar "||"
+    \tempoB-IPleni \newSpacingSection R1*14 \noBreak %28
+    R1\fermata \bar "||"
+    \tempoB-IOsanna R1*11 %40
+    r2 r4 g,\fE
+    c4. d8 e16 f e8 d c
+    d4 c g' e
+    c8. d16 e8 f g4 g,
+    r8 g c d e d c8. d16 %45
+    e2\trill e4 r
+    R1*2
+    r8 e d c g g16 g g4
+    r8 c4 c8 c16 d e4 d16 c %50
+    d8 d c d g,4 r
+    r2 r4 g
+    c4.\trill d16 e c4 r
+    d4.\trill e16 f d4 r
+    r8 g, g g16 g e4 r8 c' %55
+    d4. c8 d g, g g16 g
+    g8 d' c g g g16 g g g g g
+    e8 c' d c16 h c4 r\fermata \bar "|." %58 finis
+  }
+}

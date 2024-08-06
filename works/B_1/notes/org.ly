@@ -931,3 +931,177 @@ B-ICredoBassFigures = \figuremode {
   r1 <4>4 <3>
   r1. %160 finis
 }
+
+B-ISanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoB-ISanctus
+    \mvTr c2\fE-\tutti f4 a
+    d, f b, f
+    c'2 r\fermata
+    a' d,4 g
+    c, f! e f %5
+    c2 r\fermata
+    f e4 d
+    cis2 d4 f
+    g c, g2
+    c r8 cis cis cis %10
+    d2 r8 fis fis fis
+    g4. f8 e!4 a
+    h e, h2 \noBreak
+    e r\fermata \bar "||"
+    \tempoB-IPleni \newSpacingSection \mvTr c'4\fE-\solo h a e \noBreak %15
+    d h c8 e16 d e8 c
+    h e a,4 g8 g' h, g
+    c e16 d e8 c f4 d
+    g8 f e h c f g g,
+    c4 h8\pE g a16 a' g f e8 a %20
+    f d h g c c' h h,
+    a a' d, d, g g' e c
+    d g d d, g\fE h' fis d
+    g g, g'\pE f e e16 d e8 c
+    f f16 e f8 d g g16 f g8 e %25
+    a a, h g c h a e
+    f a' g g, c\fE c16 d e8 c
+    f d h g c e a,16 a' g f \noBreak
+    e8 f g g, c4 r\fermata \bar "||"
+    \tempoB-IOsanna \mvTr c2\fE-\tuttiE-! g'4-! e-! \noBreak %30
+    a-! f-! c'-! h8-! a-!
+    << {
+      s4 g c h %32
+      e d g fis8 e
+      d c h a g a h c
+      d e f! d
+    } \\ {
+      g,8^! f^! e d e fis g g, %32
+      c c' h a g h a g
+      fis e d c h a g a
+      h c a h
+    } >> c h a4 %35
+    g c f!8 g a g16 f
+    e8 a g f e d c h
+    a4 g8 a16 h c8 d e8 d16 c
+    h8 a16 g a8 c h c d4
+    g, \clef treble << { h''8 c d e f! d } \\ { g,8 f!16 e f8 g a h } >> %40
+    \clef bass c,,2 g'4 e
+    a f c' h8 a
+    g f e d c4. h8
+    a a' g f e c' h a
+    g f e d c h a4 %45
+    e'4. d8 cis4 d
+    a'4. a8 h4 e,
+    h2 e4 r
+    c!2 g'4 e
+    a f c' h8 a %50
+    g f e d c4 g'
+    e a g8 f e d
+    c4 e f4. e8
+    d4 f g4. f8
+    e4 g a8 g f e %55
+    d c h a g4 c
+    g8 g' e c' g4 g,
+    c8 a f g c,4 r\fermata \bar "|." %58 finis
+  }
+}
+
+B-ISanctusBassFigures = \figuremode {
+  r2. <_+>4
+  r <5[!]>2.
+  r1
+  <_+>2 q4 <_->
+  <7->2 <5-> %5
+  r1
+  r2 <6\\ 3>8 <\t 4> <6->4
+  <7[-]> <6>8 <5> <9>4 <6>8 <5[!]>
+  <7 [_!]>2 <4>4 <3>
+  r2 r8 <7- 5>4. %10
+  <9>8 <8>2 <7- 5[!]>4.
+  <9 _->8 <8 \t>4 <[6] 3>8 <7 [5!] _+>2
+  <7 [5\+] _+>4 \bo <[_!]> <5\+ 4> \bc <[\t] _+>
+  r1
+  r4 <[6]>2 <6>4 %15
+  r \bo <[6]>2.
+  \bc q4 <7>8 <6\\> r2
+  r1
+  r4 \bo <[6]>8 \bc q4 <6 5>8 <4> <3>
+  r4 \bo <[6]>2 \bc q4 %20
+  <6>8 q \bo <[6]>2 \bc q4
+  r <7 _+>2.
+  <7 _+>4 <4>8 <_+>4. \bo <[6]>4
+  r2 \bc q
+  r8 <6>2 q4. %25
+  r4 \bo <[6]>4. <6>4 \bc <[6]>8
+  r <6> <6 4> <5 3> r2
+  r4 \bo <[6]>2.
+  \bc q4 <6 4>8 <5 3> r2
+  r1 %30
+  r
+  r
+  r
+  r
+  r2 <3>8 q <5 3> <6\\> %35
+  r2. <6>4
+  q8 <10> q q q q q <[6]>
+  <5> <6\\> r2 <6>4
+  <[6]> <6\\>8 <3> <6>4 <6 4>8 <5 _+>
+  r1 %40
+  r2. <5>4
+  <5>8 <6> r2 \bo <[6]>4
+  r1
+  r4 <6> q q
+  r <6>8 q4 \bc <[6]>4. %45
+  <4>4 <_+> <6>8 <5>4.
+  <4>4 <_!> <7 [5\+] _+>2
+  \bo <[5\+] 4>4 \bc <[\t] _+>2.
+  r2. <6>4
+  r1 %50
+  r4 \bo <[6]>8 \bc q r2
+  <5>4 <5>8 <6\\> r2
+  r1
+  r4 <6>2.
+  r4 q2. %55
+  r4 <\t> <7>2
+  r4 <6> <4> <3>
+  r <6 5>2. %58 finis
+}
+
+B-IPleniOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoB-IPleni
+      \set Score.currentBarNumber = #15
+    \mvTr c'4\fE-\solo h a e %15
+    d h c8 e16 d e8 c
+    h e a,4 g8 g' h, g
+    c e16 d e8 c f4 d
+    g8 f e h c f g g,
+    c4 h8\pE g a16 a' g f e8 a %20
+    f d h g c c' h h,
+    a a' d, d, g g' e c
+    d g d d, g\fE h' fis d
+    g g, g'\pE f e e16 d e8 c
+    f f16 e f8 d g g16 f g8 e %25
+    a a, h g c h a e
+    f a' g g, c\fE c16 d e8 c
+    f d h g c e a,16 a' g f
+    e8 f g g, c4 r\fermata \bar "||" %29 finis
+  }
+}
+
+B-IPleniBassFigures = \figuremode {
+  r4 <[6]>2 <6>4 %15
+  r \bo <[6]>2.
+  \bc q4 <7>8 <6\\> r2
+  r1
+  r4 \bo <[6]>8 \bc q4 <6 5>8 <4> <3>
+  r4 \bo <[6]>2 \bc q4 %20
+  <6>8 q \bo <[6]>2 \bc q4
+  r <7 _+>2.
+  <7 _+>4 <4>8 <_+>4. \bo <[6]>4
+  r2 \bc q
+  r8 <6>2 q4. %25
+  r4 \bo <[6]>4. <6>4 \bc <[6]>8
+  r <6> <6 4> <5 3> r2
+  r4 \bo <[6]>2.
+  \bc q4 <6 4>8 <5 3> r2 %29 finis
+}

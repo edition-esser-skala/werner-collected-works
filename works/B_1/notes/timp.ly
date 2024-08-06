@@ -149,3 +149,41 @@ B-ICredoTimpani = {
     c2 r r\fermata \bar "|." %160 finis
   }
 }
+
+B-ISanctusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoB-ISanctus
+    c8.\fE c32 c c8 c c4 r
+    r2 r4 c8 c16 c
+    c2 r\fermata
+    r2 r4 g8 g16 g
+    c8. c32 c c8 c c8. c32 c c16 c c c %5
+    c2 r\fermata
+    c8. c32 c c8 c r2
+    R1
+    g8. g32 g c8 c g g16 g g g g g
+    c4 r r2 %10
+    R1*3 \noBreak
+    R1\fermata \bar "||"
+    \tempoB-IPleni \newSpacingSection R1*14 \noBreak %28
+    R1\fermata \bar "||"
+    \tempoB-IOsanna R1*11 %40
+    r2 r4 c\fE
+    c8 c16 c c8 c c4 r
+    g8 g16 g c8 c16 c c4 r
+    r2 c8 c16 c c8 c
+    g g16 g g g g g c8 g16 g c4 %45
+    R1*3
+    c8. c32 c c16 g c8 g8. g32 g c4
+    r8 c16 c c8 c c16 g c8 g c16 c %50
+    g8. g32 g c8 g16 g c4 r
+    R1
+    r8 g16 g c8 c c8. c32 c c4
+    r2 r8 g16 g g8 g16 g
+    c8 c16 c g8 g c4 r %55
+    r2 g8 g c c16 c
+    g8. g32 g g8 c16 c g8 g16 g g g g g
+    c4 r8 g16 g c4 r\fermata \bar "|." %58 finis
+  }
+}

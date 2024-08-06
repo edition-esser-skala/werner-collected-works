@@ -409,3 +409,49 @@ B-ICredoViolinoI = {
     e2 r r\fermata \bar "|." %160 finis
   }
 }
+
+B-ISanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-ISanctus
+    r16 c'\fE e16. g32 c16. g32 g8\trill r16 a a8\trill r16 e e8\trill
+    r16 f f8\trill r16 c c8\trill r16 d d8\trill r16 c f16. a32
+    g16. c32 e,16. g32 c,4 r2\fermata
+    r16 a cis16. e32 a16. e32 e8\trill r16 fis fis8\trill r16 g g8\trill
+    r16 e e8\trill r16 f f8\trill r16 g g8\trill r16 c, f16. a32 %5
+    g16. e32 c16. g32 e4 r2\fermata
+    r16 a c16. f32 a16. c,32 c8\trill r16 cis cis8\trill r16 d d8\trill
+    r16 e e8\trill r16 a, a8\trill r16 a a8\trill r16 a' a8\trill
+    r16 g g8\trill r16 e g16. c32 d,16. c'32 c8 d,16. h'32 h8
+    c4 r r8 g g g %10
+    f f, f4 r8 a' a a
+    a( g) d4. d8 c e
+    dis4 e4. e8 dis dis \noBreak
+    e2 r\fermata \bar "||"
+    \tempoB-IPleni \newSpacingSection R1*14 \noBreak %28
+    R1\fermata \bar "||"
+    \tempoB-IOsanna R1*7 %36
+    r2 r4 g,\fE
+    c h e c
+    g' fis8 e d c h a
+    g a h c d e f d %40
+    e c e d16 c h8 a g f
+    e f16 g a8 g16 f g4. a8
+    d,4 r r g
+    c h e d8 c
+    g'4. f8 e d c h16 a %45
+    h2\trill a
+    r4 e' dis e~
+    e8 e dis e e8 h c d
+    e16 f e8 d c h a g4
+    r2 r4 c %50
+    g'4. f8 e4 d
+    g e8 c' h a16 g a8 h
+    c4 g r8 a4 g8
+    f e d c h h'4 a8
+    g f e d c4. d16 e %55
+    f2~ f8 f e e
+    d g, e'4 d4. d8
+    e16 g c8 d, h' c4 r\fermata \bar "|." %58 finis
+  }
+}

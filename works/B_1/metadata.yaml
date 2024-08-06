@@ -45,3 +45,7 @@ toe: |
     & 129  & org  & 5th \quarterNote\ of upper voice in \A1: b4 \\
     & 132  & vl 2 & 5th \quarterNote\ in \A1 and \B1: b4 \\
     & 140  & B    & last \quarterNote\ in \A1: f4 \\
+  4 & 10   & clno 2 & 1st \quarterNote\ in \A1 and \B1: d″4 \\
+    & 48   & T    & 1st \halfNote\ in \A1 and \B1: c′2 \\
+    & 51   & vl 2 & 2nd \quarterNote\ in \A1: a′4:
+                    4th \quarterNote: a′4 \\
