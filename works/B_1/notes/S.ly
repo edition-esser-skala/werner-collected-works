@@ -629,11 +629,35 @@ B-ISanctusSopranoLyrics = \lyricmode {
   sis. %58 finis
 }
 
+B-IBenedictusSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoB-IBenedictus
+    R1*4
+    \mvTr e'4~\pE^\soloE e16[ c] h([ a)] \appoggiatura d8 f4 e16([ d)] c([ h]) %5
+    c([ h a gis)] a8 h c8.[\trill h32 c] d8.[\trill c32 d]
+    e8.[\trill d32 e] f8.[\trill e32 f] g16[ e] d c \appoggiatura c8 d8.\trill c16
+    c4 r r8 d, g4~
+    g16[ f] f8 r4 r8 e a4~
+    a16[ gis] gis8 r \hA gis a8.[\trill gis32 a] h8.[\trill a32 h] %10
+    c8.[\trill h32 c] d8.[\trill c32 d] e16[ c] h a \appoggiatura a8 h8.\trill a16
+    a4 r r2
+    R1
+    R\fermata \markOsannaUtSupra \bar "||" %14 finis
+  }
+}
 
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
+B-IBenedictusSopranoLyrics = \lyricmode {
+  Be -- ne -- di -- ctus, qui %5
+  ve -- nit in no -- _
+  _ _ _ mi -- ne Do -- mi --
+  ni, qui ve --
+  nit, qui ve --
+  nit in no -- _ %10
+  _ _ _ mi -- ne Do -- mi --
+  ni. %12 finis
+}
 
-
-% ## Agnus Dei
 
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.

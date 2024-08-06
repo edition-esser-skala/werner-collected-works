@@ -455,3 +455,30 @@ B-ISanctusViolinoI = {
     e16 g c8 d, h' c4 r\fermata \bar "|." %58 finis
   }
 }
+
+B-IBenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoB-IBenedictus
+    e'4.\fE c'64( h a16.) a16( gis) gis8 a, f'64( e d16.)
+    d16( c) c,( d) e( f) f16.\trill e64( f) g16( e') c( a) \appoggiatura g8 f8.\trill e16
+    << {
+      e8 g' c c c16 h h8 h16 a a8
+      a16 gis gis8 a16( h) h( c) c32( a16.) \once \slurDashed f32( d16.) c8 h\trill
+      a4
+    } \\ {
+      s8 e' e e d d c e16. c32 %3
+      h8 h c16( d) d( e) e8 s a, gis
+      a4
+    } >> r r2 %5
+    R1
+    r2 r4 r8 d
+    << { e g c c c16 h h8 } \\ { s8 e, e e d[ d] } >> r4
+    << { r8 a' d4~ d16 c c8 } \\ { r4 r8 f, e[ e] } >> r4
+    << { r8 h e e e[ c] } \\ { r4 r8 gis a[ a] } >> r4 %10 %10
+    R1
+    e'4. c'64( h) a16. a16( gis) gis8 a,16( f' e d)
+    d32( c16.) e32( d16.) f32( e16.) f32( a,16.) a32( gis16.) h32( a16.) c32( h16.) d32( e16.)
+    c32( a16.) f32( d16.) c8 h16.\trill a32 a4 r\fermata \markOsannaUtSupra \bar "||" %14 finis
+  }
+}

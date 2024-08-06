@@ -1105,3 +1105,41 @@ B-IPleniBassFigures = \figuremode {
   r4 \bo <[6]>2.
   \bc q4 <6 4>8 <5 3> r2 %29 finis
 }
+
+B-IBenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \tempoB-IBenedictus
+    \mvTr a8\fE-\solo a' g f e d c h
+    a a' g f e a d, g
+    c, c'16. g32 e16. g32 c,16. e32 g8 gis16. e32 a8 c,16. a32
+    e8 e'16. d32 c8 h a d e e,
+    a h\pE c f d d'16. h32 gis8 e %5
+    a, h c gis a a' f g
+    c, c' a g16 f e8 f g g,
+    c c'16. g32 e16. g32 c,16. e32 g,8 g'16. d32 h16. d32 g,16. h32
+    d8 d'16. a32 f16. a32 d,16. f32 a,8 a'16. e32 c16. e32 a,16. c32
+    e8 e'16. h32 gis16. h32 e,16. \hA gis32 c,8 a' gis e %10
+    a, a' f d c d e e,
+    a\fE a' g! f e d c h
+    a h c d e fis gis e
+    a d, e e, a4 r\fermata \markOsannaUtSupra \bar "||" %14 finis
+  }
+}
+
+B-IBenedictusBassFigures = \figuremode {
+  r2 <4>8 <4\+> <6> <6\\>
+  <4> <3> <6> q q4 <7>8 q
+  r4 <6> <5 4>8 <\t 3> <9> <6>
+  <4> <_+> <6> <6\\>4. <6 4>8 <5 _+>
+  r2 r8.. <\t>32 <6>4 %5
+  r8 <6\\> <6> <[6]>4. <6 5>4
+  r <6> q8 <6 5> <6 4> <5 3>
+  r2 <4>8 <3> <6>4
+  \bo <[4]>8 \bc <[3]> <6>4 <4>8 <3> <6>4
+  <4>8 <_+> <6>4 q <[6]> %10
+  r <6> q8 q <6 4> <5 _+>
+  r2 <4>8 <4\+> <6> <6\\>
+  r2 <_+>
+  r4 <6 4>8 <5 _+> r2 %14 finis
+}

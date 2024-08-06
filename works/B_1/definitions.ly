@@ -1,5 +1,10 @@
 \version "2.24.0"
 
+markOsannaUtSupra = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Osanna ut sipra"
+}
+
 tempoB-IKyrie = \tempoMarkup "Vivace"
   tempoB-IChriste = \tempoMarkup "Larghetto"
   tempoB-IKyrieFuga = \tempoMarkup "Allegro"
@@ -17,6 +22,7 @@ tempoB-ICredo = \tempoMarkup "Andante"
 tempoB-ISanctus = \tempoMarkup "Largo"
   tempoB-IPleni = \tempoMarkup "Andante"
   tempoB-IOsanna = \tempoMarkup "Osanna · Presto"
+tempoB-IBenedictus = \tempoMarkup "Tempo giusto"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
