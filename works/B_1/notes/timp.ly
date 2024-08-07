@@ -187,3 +187,32 @@ B-ISanctusTimpani = {
     c4 r8 g16 g c4 r\fermata \bar "|." %58 finis
   }
 }
+
+B-IAgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoB-IAgnus
+    c8.\fE c32 c c8 c c c16 c c8 c
+    g16 g32 g g16 g g4 r2
+    R1*10 %12
+    c8.\fE c32 c c8 c g g r c
+    c c16 c c8 r c c16 c c8 r
+    R1 %15
+    g8 g c c c c16 c c c c c \noBreak
+    c8. c32 c c8 c g4 r\fermata \bar "||"
+    \tempoB-IDona \newSpacingSection c8\fE c16 c c8 g c c16 c g4 \noBreak
+    c8 g16 g c c c c g4 r
+    R1*20 %39
+    r2 g8\fE g16 g c g c8
+    g4 r c8 g16 g c8 c16 c
+    g8 g16 g g8 g r2
+    g8. g32 g g8 c r2
+    g8 g16 g c8 c g8. g32 g g16 g g g
+    c4 r8 c g g16 g g8 g16 c
+    g4 r g8 g16 g g8 c
+    g4 r r2
+    g8 g16 g c8 c g g16 g g g g g
+    c4 r g8 g16 g g g g g
+    c4 r r2\fermata \bar "|."
+  }
+}

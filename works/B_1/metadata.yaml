@@ -49,3 +49,7 @@ toe: |
     & 48   & T    & 1st \halfNote\ in \A1 and \B1: c′2 \\
     & 51   & vl 2 & 2nd \quarterNote\ in \A1: a′4:
                     4th \quarterNote: a′4 \\
+  6 & 3    & A    & 1st to 3rd \quarterNote\ in \A1: f′2–e′4 \\
+    & 7    & S    & 4th \eighthNote\ in \A1 and \B1: g′8 \\
+    & 27   & B    & 2nd \eighthNote\ in \A1: b8 \\
+    & 44   & T    & 1st \quarterNote\ in \A1 and \B1: c′8–d′16–e′16 \\

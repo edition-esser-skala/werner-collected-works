@@ -456,3 +456,60 @@ B-ISanctusViolinoII = {
     c8 e f d e4 r\fermata \bar "|." %58 finis
   }
 }
+
+B-IAgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-IAgnus
+    r8 \sbOn \tuplet 3/2 8 { g'16\trill\fE f g c\trill h c e\trill d e c\trill h c a\trill g a c\trill h c e\trill d e
+    d\trill c d } h g \tuplet 3/2 8 { d\trill c d } h8 r16 cis' \tuplet 3/2 8 { cis\trill h \hA cis } r e \tuplet 3/2 8 { e\trill d e }
+    r a, \tuplet 3/2 8 { a\trill g a } r c \tuplet 3/2 8 { c\trill h c } \sbOff h h' e, gis h, e gis, h
+    e,16.\p a32 cis16. e32 r16 a, cis16. e32 f16. d32 a16. f32 d'16. a32 f16. d32
+    r16 g h16. d32 r16 g, h16. d32 e16. c32 g16. e32 c'16. g32 e16. c32 %5
+    \tuplet 3/2 8 { f16 a c } f8 e16. g32 c8 h16 d g, h d, g h, d
+    \tuplet 3/2 8 { \sbOn e16\trill d e h\trill a h gis\trill fis \hA gis e\trill d e } c8 a r4
+    \tuplet 3/2 8 { d'16 c d a g a f e f d c d } h8 g r4 \sbOff
+    r2 r16 g' h d g d h g
+    r16 g g8\trill r16 f f8\trill r16 d d8\trill r16 d' d8\trill %10
+    r16 d d8\trill r16 c! c8\trill r16 h h8\trill r16 h h8\trill
+    r16 fis fis8\trill h16. fis32 fis8 g16. h32 e8\f d d
+    e \tuplet 3/2 8 { e16 d e \sbOn c h c } e c \sbOff h8 h4 c8~
+    c16 a c4 d8 g, e'4 e8
+    d a h d d4. a8 %15
+    d d e e c4. e8 \noBreak
+    c4. h16 a h2\fermata \bar "||"
+    \tempoB-IDona \newSpacingSection e8.\fE e16 g8 d e4 d \noBreak
+    c8 d e16 d e8 d h'16 g d8 h
+    r2 r8 h e, gis %20
+    r2 r8 gis4\p a8
+    r gis,4 a8 r h'\f gis e
+    f! f'16 e d8 cis d a b g
+    f16 e d8 cis4\trill d8 f' d f
+    b, b g \hA b e, e' c e %25
+    a, c4 a8 g e' cis16 h \hA cis8
+    r2 r8 a cis e
+    r2 r8 cis4\p d8
+    r cis,4 d8 r4 r8 a'\f
+    f'4. d8 h4 r8 h %30
+    e4. c8 a4. d8
+    h e c a h4. h8
+    a c e, c r2
+    r8 gis'4\p a8 r gis,4 a8
+    r gis' a h c16 h c8 r4 %35
+    r8 h4 c8 r h,4 c8
+    r4 r8 h'\f e4. c8
+    a4 r8 c f4. d8
+    h4 r8 d g4. e8
+    c a4 a8 d d c c %40
+    h g h d g, h c c
+    h h g d r2
+    r8 h'4 c8 d a d c
+    h c16 d c4. h16 a h4
+    c r r8 h4 c8 %45
+    r h4 c8 r h,4 c8
+    h h'4 c8 d a d c
+    h c16 d c4. h16 a h4
+    c8 g c e r g, h d
+    e4 r r2\fermata \bar "|." %50 finis
+  }
+}

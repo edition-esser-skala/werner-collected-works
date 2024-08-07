@@ -212,3 +212,36 @@ B-ISanctusClarinoII = {
     e8 c' d c16 h c4 r\fermata \bar "|." %58 finis
   }
 }
+
+B-IAgnusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-IAgnus
+    r8 e'\fE e e f c f e
+    d d16 d d4 r8 e e e
+    f4 e e r
+    R1*9 %12
+    e4.\fE e8 d4 e
+    c4. d8 e c e e
+    d4. d8 d2~\trill %15
+    d4 c4. c8 e e \noBreak
+    c4 a' d,2\fermata \bar "||"
+    \tempoB-IDona \newSpacingSection e8\fE e16 e g8 d e4 d \noBreak
+    e8 d e4 d r
+    R1 %20
+    r2 e,8(-.\p e-.) e([-. e-.)]
+    e([-. e-.)] e(-. e-.) e4 r
+    R1*17 %39
+    r2 d'8\fE d e e %40
+    d4 r e8 d c e
+    d d16 d d8 d r2
+    r8 g,4 c8 d2~
+    d8 d c c d4.\trill d8
+    e4. d16 c g8 g16 g g8 g %45
+    r g16 g g8 g r g16 g g8 g
+    g4. c8 d2~
+    d8 d c c d4.\trill d8
+    e4 r g,8 g16 g g g g g
+    g4 r r2\fermata \bar "|." %50 finis
+  }
+}

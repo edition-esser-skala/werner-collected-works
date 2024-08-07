@@ -658,10 +658,110 @@ B-IBenedictusSopranoLyrics = \lyricmode {
   ni. %12 finis
 }
 
+B-IAgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoB-IAgnus
+    \mvTr c'4.\fE^\tutti c8 c c4 c8
+    h4 h8 h cis4. cis8
+    d4( c) h r
+    e4.\p a,8 f'4 f
+    d4. g,8 e'4 e %5
+    c( e) d r
+    e4.^\soloE e,8^\critnote c'4 a
+    r8 a f'([ d)] h4 r
+    r8 e d c c([ h)] h4
+    cis^\aTreE d d8 d d4~ %10
+    d8[ c16 h] c8[ e] dis[ e16 \hA dis] e4~
+    e8[ dis16 cis] \hA dis4\trill e r
+    \mvTr e4.\fE^\tutti e8 d4 e8 e
+    c4 f8 f e4. e8
+    d2 d4. a8 %15
+    d4 c4. c8 c c \noBreak
+    c4._( h16[ a)] h2\fermata \bar "||"
+    \tempoB-IDona \newSpacingSection \mvTr c4.\fE^\tuttiE d8 e4 d \noBreak
+    e8([ d c e)] d4 r
+    c8([ h] c4) h r %20
+    \mvTr e4.\pE^\soloE^\aTreE d16([ c)] h(_[ a] h4) c8
+    h16(_[ a] h4) c8 c h r4
+    \mvTr d4.\fE^\tuttiE cis8 d2~
+    d4 cis d r
+    d r e r %25
+    c2 c4 r
+    d8([ cis] d4) cis r
+    R1*2
+    \mvTr f4.(\fE^\tuttiE d8) h4 r %30
+    e4.( c8) a4 d(
+    h) c h2
+    a4 r \mvTr e'4.\pE^\soloE^\aTreE d16([ c)]
+    h(_[ a] h4) c8 h16(_[ a] h4) c8
+    c h r4 e4. d16([ c)] %35
+    h(_[ a] h4) c8 h16(_[ a] h4) c8
+    c h r4 \mvTr e4.(\fE^\tuttiE c8)
+    a4 r f'4.( d8)
+    h4 r g'4.( e8)
+    c4 r d( c) %40
+    h r e8([ d c e)]
+    d4 r c8([ h] c4)
+    h8 h4 c8 d([ a)] d4~
+    d c2( h4)
+    c8 e4 d16([ c)] h4. c16([ a)] %45
+    h4.( c16[ a] h4. c16[ a])
+    h8 h4 c8 d([ a)] d4~
+    d c2( h4)
+    c r g2
+    g4 r r2\fermata \bar "|." %50 finis
+  }
+}
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+B-IAgnusSopranoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re %5
+  no -- bis.
+  A -- gnus De -- i,
+  qui tol -- lis
+  pec -- ca -- ta mun -- di:
+  Mi -- se -- re -- re no -- %10
+  _ _ _
+  _ bis.
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di, pec -- %15
+  ca -- ta, pec -- ca -- ta
+  mun -- di:
+  Do -- na no -- bis
+  pa -- cem,
+  pa -- cem, %20
+  do -- na no -- bis
+  pa -- cem, pa -- cem,
+  no -- bis pa --
+  _ cem,
+  pa -- cem, %25
+  pa -- cem,
+  pa -- cem,
+
+  pa -- cem, %30
+  no -- bis pa --
+  cem, pa --
+  cem, do -- na
+  no -- bis pa -- cem,
+  pa -- cem, do -- na %35
+  no -- bis pa -- cem,
+  pa -- cem, do --
+  na no --
+  bis pa --
+  cem, pa -- %40
+  cem, pa --
+  cem, pa --
+  cem, do -- na no -- bis __
+  pa --
+  cem, do -- na no -- bis %45
+  pa --
+  cem, do -- na no -- bis __
+  pa --
+  cem, pa --
+  cem. %50 finis
+}

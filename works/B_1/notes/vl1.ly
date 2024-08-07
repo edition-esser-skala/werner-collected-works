@@ -482,3 +482,60 @@ B-IBenedictusViolinoI = {
     c32( a16.) f32( d16.) c8 h16.\trill a32 a4 r\fermata \markOsannaUtSupra \bar "||" %14 finis
   }
 }
+
+B-IAgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-IAgnus
+    r8 \sbOn \tuplet 3/2 8 { e'16\fE\trill d e g\trill f g c\trill h c a\trill g a f\trill e f a\trill g a c\trill h c
+    h\trill a h } g d \tuplet 3/2 8 { h\trill a h } g8 r16 g' \tuplet 3/2 8 { g\trill f g } r g \tuplet 3/2 8 { g\trill f g }
+    r f \tuplet 3/2 8 { f\trill e f } r a \tuplet 3/2 8 { a\trill gis a } \sbOff \hA gis h e, \hA gis h, e gis, h
+    \tuplet 3/2 8 { e,\p a cis } e8 \tuplet 3/2 8 { a,16 cis e } a8 \tuplet 3/2 8 { d,,16 f a } d8 \tuplet 3/2 8 { f,16 a d } f8
+    \tuplet 3/2 8 { d,16 g h } d8 \tuplet 3/2 8 { g,16 h d } g8 \tuplet 3/2 8 { c,,!16 e g } c8 \tuplet 3/2 8 { e,16 g c } e8 %5
+    \tuplet 3/2 8 { a,16 c f } a8 \tuplet 3/2 8 { g16 e g } c8 h16 d g, h d, g h, d
+    e4 r \sbOn \tuplet 3/2 8 { a16\trill gis a e\trill d e c\trill h c a\trill gis a }
+    f8 d r4 \tuplet 3/2 8 { g'16 f g d c d h a h g f g }
+    e8 c \sbOff r4 r16 g' h d g d h g
+    r e' e8\trill r16 d d8\trill r16 f, f8\trill r16 h! h8\trill %10
+    r16 a a8\trill r16 a' a8\trill r16 fis fis8\trill r16 g! g8\trill
+    r16 h h8\trill h,16. dis32 dis8 e16. g32 c4\f h8
+    \sbOn \tuplet 3/2 8 { c16 h c g f g e d e g f g } d8 g4 e8~
+    e a4 f8 \tuplet 3/2 8 { e16 d e g f g } \sbOff c8 a~
+    a fis d h' a d, a'4 %15
+    g4. g8 a4 g~ \noBreak
+    g8 fis16 e \hA fis4\trill g2\fermata \bar "||"
+    \tempoB-IDona \newSpacingSection g8.\fE g16 c8 h c4 h \noBreak
+    e,8 g4 c8 h d h g
+    r2 r8 d e h %20
+    r2 r8 e\p h c
+    r e, h c r e'\f h cis
+    d a'16 g f8 e f d b g
+    f4 e\trill d8 a'' f d
+    r d b g r g' e c %25
+    f e f4 e8 g a e
+    r2 r8 a e cis
+    r2 r8 a'\p e f
+    r a, e f r e'\f a4~
+    a8 f d4 r8 d g4~ %30
+    g8 e c4 r8 a f'4
+    e8 gis a4. a8 gis gis
+    a e c a r2
+    r8 e'\p h c r e, h c
+    r h' c d e16 d e8 r4 %35
+    r8 g d e r g, d e
+    r d'\f g4. e8 c4
+    r8 c a'4. f8 d4
+    r8 d h'4. g8 e4
+    r8 c f4. f8 e e %40
+    d g, h d e g~ g f16 e
+    d8 g d h r2
+    r8 d4 e!8 f2~
+    f8 f e e d4. g8
+    e4 r r8 g d e %45
+    r g d e r g, d e
+    d d'4 e8 f2~
+    f8 f e16 f e f g4.\trill g8
+    g e g c r d, g h
+    c4 r r2\fermata \bar "|." %50 finis
+  }
+}

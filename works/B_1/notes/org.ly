@@ -1143,3 +1143,113 @@ B-IBenedictusBassFigures = \figuremode {
   r2 <_+>
   r4 <6 4>8 <5 _+> r2 %14 finis
 }
+
+B-IAgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoB-IAgnus
+    \mvTr c4.\fE-\tutti c8 f4. c8
+    g'4 g, r8 e' e e
+    d4 a e' r
+    cis8\p cis cis cis d d d d
+    h h h h c c c c %5
+    f f c c g'4 r
+    gis8-\solo gis gis gis a a a a
+    d, d d d g g g g
+    c,4 f8 c g'4 g,
+    \clef "treble_8" a'4^\aTre b a gis %10
+    a2 h4 e
+    h2 e,8 \clef bass e[\fE f! g!]
+    c,4.-\tutti c8 g'4 e
+    a f c' a
+    fis g d4. c8 %15
+    h4 c f c \noBreak
+    a2 g\fermata \bar "||"
+    \tempoB-IDona \newSpacingSection \mvTr c'8\fE-\tutti c, e g c4 g \noBreak
+    c8 g e c g'4 r
+    c8-\tasto g e c g'4 \clef "treble_8" r8 \mvTr e\pE-\soloE ^\tweak TextScript.X-offset #0 ^\aTre %20
+    a h c d e4 e,
+    e'4. a,8 e4 r
+    \clef bass \mvTr d'8\fE-\tutti d, f a d4 g,
+    a a, d r
+    g r c,! r %25
+    f8 c a f c'4 r
+    d8-\tasto a f d a'4 r
+    \mvTr d8\pE-\solo ^\tweak TextScript.X-offset #0 ^\aTre e f g a4 a,
+    a'4. d,8 a4 r
+    \mvTr d4.\fE-\tutti h!8 g4 r %30
+    c4. e8 f4 d
+    e a e2
+    a,4 r \clef "treble_8" \mvTr a'8\pE-\solo ^\tweak TextScript.X-offset #0 ^\aTre h c d
+    e4 e, e'4. a,8
+    e4 r \clef bass c8-\solo d e f %35
+    g4 g, g'4. c,8
+    g4 r \mvTr c4.\fE-\tutti a8
+    f4 r d'4. h8
+    g4 r e'4. c8
+    a4 d h c %40
+    g r c'8 g e c
+    g g' h, g c'-\tasto g es c
+    g g'-\tutti f e d c h a
+    g4 c g' g,
+    c8. d16 e8 f g4 g, %45
+    g' g, g'4. c,8
+    g g' f e d c h a
+    g4 c g2
+    c8 c' e, c g'4 g,
+    c r r2\fermata \bar "|." %50 finis
+  }
+}
+
+B-IAgnusBassFigures = \figuremode {
+  r1
+  r2 r8 <6\\>4.
+  r4 <[_!]> <_+>2
+  <6>1
+  <[6]> %5
+  r
+  <6>
+  r
+  r4 <6> <6 4>8 <5 3>4.
+  <7 _+>4 <5> <6 4> <7 5 [_!]> %10
+  <5 4> <8 _!> <7 [5\+] _+> \bo <[_!]>
+  <5\+ 4> \bc <[\t] _+>4. <6>8 <6[!] 5>4
+  r2. <5>8 <6>
+  r4 <5>8 <6> r2
+  <6 5> <5 4>4 <\t _!> %15
+  <6 5>1
+  <7>4 <6\\>2.
+  r1
+  r4 <[6]>2.
+  r2.. <_+>8 %20
+  r2 <_+>4 <5 _+>8 <6 4>
+  <_+>2 <6 4>8 <5 _+>4.
+  r4. <_+> <_->4
+  <6 4> <5 _+>2.
+  <_->1 %25
+  r
+  r
+  r2 <_+>4 <5 _+>8 <6 4>
+  <5 _+>2 <6 4>8 <5 _+>4.
+  r1 %30
+  r
+  <_+>2 <4>4 <_+>
+  r1
+  <_+>4 <5 _+>8 <6 4> <[5] _+>2
+  <6 4>8 <5 _+>4. <[5!]>2 %35
+  r4 <5 3>8 <6 4> <5 3>2
+  <6 4>8 <5 3>2..
+  r1
+  r
+  r2 <6 5> %40
+  r2. <[6]>4
+  r1
+  r8 <_!>4 <[6]>8 r4 <\t>
+  <[7]>2 <5 4>4 <\t 3>
+  r2. <5 3>8 <6 4> %45
+  <5 3>4 <\t \t>8 <6 4> r2
+  r4. <[6]>8 r4 <\t>
+  <7>2 <5 4>4 <\t 3>
+  r2 <5 4>4 <\t 3>
+  r1 %50 finis
+}

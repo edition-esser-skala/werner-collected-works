@@ -241,3 +241,36 @@ B-ISanctusClarinoI = {
     e e f d \pd e4 r\fermata \bar "|." %58 finis
   }
 }
+
+B-IAgnusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-IAgnus
+    r8 g''\fE g g \pa a4. g8 \pd
+    g g16 g g4 r8 g g g
+    f a a c h4 r
+    R1*9 %12
+    g4.\fE g8 g4 g
+    \pa e8 e a a \pd g e a a
+    a4 g4. g8 f4~ %15
+    f8 f e4 a g~ \noBreak
+    g8 fis16 e \hA fis4\trill g2\fermata \bar "||"
+    \tempoB-IDona \newSpacingSection g8\fE g16 g \pa g8 g \pd g4 g \noBreak
+    g4. c8 h4 r
+    R1 %20
+    r2 e,,8(-.\p e-.) e([-. e-.)]
+    e([-. e-.)] e(-. e-.) e4 r
+    R1*17 %39
+    r2 \pa g'8\fE g16 g g8 g \pd %40
+    g4 r \pa g4. g8 \pd
+    g g16 g g8 g r2
+    r8 d4 e8 f2~
+    f8 f e16 f e f g4.\trill g8
+    g4. f16 e \pa d8 g,16 g g8 g \pd %45
+    r \pa g16 g g8 g \pd r \pa g16 g g8 g \pd
+    g d'4 e8 f2~
+    f8 f e16 f e f g4.\trill g8
+    g4 r d4.\trill d8
+    e4 r r2\fermata \bar "|." %50 finis
+  }
+}

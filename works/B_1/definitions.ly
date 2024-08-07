@@ -23,6 +23,8 @@ tempoB-ISanctus = \tempoMarkup "Largo"
   tempoB-IPleni = \tempoMarkup "Andante"
   tempoB-IOsanna = \tempoMarkup "Osanna · Presto"
 tempoB-IBenedictus = \tempoMarkup "Tempo giusto"
+tempoB-IAgnus = \tempoMarkup "Largo"
+  tempoB-IDona = \tempoMarkup "Presto"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"

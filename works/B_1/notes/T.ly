@@ -678,3 +678,109 @@ B-ISanctusTenoreLyrics = \lyricmode {
   ex -- cel --
   sis. %58 finis
 }
+
+B-IAgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoB-IAgnus
+    \mvTr e4.\fE^\tutti e8 c4 f8 e
+    d4 d r8 e e e
+    a,2 gis4 r
+    r8 a([\p cis)] e a,4 d
+    r8 g,([ h)] d g,4 c %5
+    a( c) h r
+    R1*3
+    a4^\markup { \remarkE "Solo" \remark "a 3" } b a gis %10
+    a4. a8 h4 e
+    h2 e,4 r
+    \mvTr c'4.\fE^\tuttiE c8 h h4 c8
+    c4.( d8) e c c4~
+    c h a2 %15
+    g4. c8 a([ c)] e4 \noBreak
+    e( c) d2\fermata \bar "||"
+    \tempoB-IDona \newSpacingSection \mvTr e4.\fE^\tutti h8 c4 h \noBreak
+    c8([ h] c4) h r
+    e8([ d c e)] d4 r %20
+    \mvTr a8(_[\pE^\soloE^\aTreE h)] c([ d)] e4 e,
+    e'4.( a,8) e4 r
+    \mvTr a4.\fE^\tuttiE a8 a4 b
+    a2 a4 r
+    b r c! r %25
+    a( c) g r
+    a2 a4 r
+    \mvTr f'4.\pE^\soloE^\aTreE e16([ d)] cis([ h] \hA cis4) d8
+    cis16([ h] \hA cis4) d8 d cis r4
+    r \mvTr d4.(\fE^\tuttiE h!8) g4 %30
+    r c4.( a8) f([ a)]
+    gis4( a2 gis4)
+    a r \mvTr a8(_[\pE^\soloE^\aTreE h)] c([ d)]
+    e4 e, e'4.( a,8)
+    e4 r r2 %35
+    R1
+    r2 r4 \mvTr c'~\fE^\tuttiE
+    c8[ a] f4 r d'~
+    d8[ h] g4 r e'4~
+    e8[ c] a4 g2 %40
+    g4 r c8([ h] c4)
+    h r g2
+    g4 r8 g( a[ h16 c]) d8([ c)]
+    h8([^\critnote c16 d)] g,4 g2
+    g4 r g2~ %45
+    g4 g g2
+    g4 r8 g( a[ h16 c)] d8([ c)]
+    h([ c16 d)] g,4 g2
+    g4 r d'2
+    e4 r r2\fermata \bar "|." %50 finis
+  }
+}
+
+B-IAgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re %5
+  no -- bis.
+
+  Mi -- se -- re -- re, %10
+  mi -- se -- re -- re
+  no -- bis.
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca --
+  ta mun -- %15
+  di, pec -- ca -- ta
+  mun -- di:
+  Do -- na no -- bis
+  pa -- cem,
+  pa -- cem, %20
+  do -- na no -- bis
+  pa -- cem,
+  do -- na no -- bis
+  pa -- cem,
+  pa -- cem, %25
+  pa -- cem,
+  pa -- cem,
+  do -- na no -- bis
+  pa -- cem, pa -- cem,
+  pa -- cem, %30
+  no -- bis
+  pa --
+  cem, do -- na
+  no -- bis pa --
+  cem, %35
+
+  no --
+  bis pa --
+  cem, no --
+  bis pa -- %40
+  cem, pa --
+  cem, pa --
+  cem, do -- na
+  no -- bis pa --
+  cem, no -- %45
+  bis pa --
+  cem, do -- na
+  no -- bis pa --
+  cem, pa --
+  cem. %50 finis
+}
