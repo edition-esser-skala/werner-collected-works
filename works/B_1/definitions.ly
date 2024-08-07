@@ -2,7 +2,7 @@
 
 markOsannaUtSupra = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Osanna ut sipra"
+  \mark \markup \remark "Osanna ut supra"
 }
 
 tempoB-IKyrie = \tempoMarkup "Vivace"

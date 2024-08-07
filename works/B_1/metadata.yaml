@@ -1,7 +1,6 @@
 title: Missa Trinitas in Unitate veneranda
 id: WerW B.1
 genre: mass
-festival:
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
@@ -19,14 +18,27 @@ sources:
     notes: several pages missing in digitized version
 tocstyle: default
 toe: |
-  – & –    & –    & Minor differences between \A1 and \B1 appear in all parts. Notably, the timp parts of the two sources differ to a greater extent, and the part of \A1 is more virtuous. Here, none of these differences are annotated. The title page of \A1 contains the note “NB In defectu Clarinorum Organum Clarinum concertantem supplet”. Accordingly, the org part of \A1 also contains the solo parts of clno 1 in the \textit{Quoniam} and \textit{Pleni sunt cœli}. Here these organ solos are only reproduced in the org part as an appendix. \\
-    & –    & –    & In \A1 and \B2, punctuated rhythms involving a \sixteenthNoteDotted typically comprise \thirtysecondNotes, i.e., 16.–64–64 or 64–64–16. Here, these rhythms are reproduced as 16.–32–32 and 32–32–16., respectively. \\
+  – & –    & –    & Minor differences between \A1 and \B1 occur in all parts.
+                    Notably, the timp parts of the two sources differ to a
+                    greater extent, and the part of \A1 is more virtuosic.
+                    Here, none of these differences are annotated. \\
+    & –    & –    & In \A1 and \B1, punctuated rhythms involving a
+                    \sixteenthNoteDotted\ typically comprise \thirtysecondNote,
+                    i.e., 16.–32–32 or 32–32–16. Here, these rhythms are
+                    reproduced as 16.–64–64 and 64–64–16., respectively. \\
+    & –    & org  & The title page of \A1 contains the note “NB In defectu
+                    Clarinorum Organum Clarinum concertantem supplet”.
+                    Accordingly, the org part of \A1 also contains the solo
+                    parts of clno 1 in the \textit{Quoniam} and
+                    \textit{Pleni sunt cœli}. Here, these organ solos are
+                    reproduced in the org part as an appendix to the
+                    respective movement. \\
   1 & 9    & T    & 3rd \quarterNote\ in \B1: a4 \\
     & 93   & vl 2 & 2nd \quarterNote\ in \A1: d′8–e′16–f′16 \\
     & 98   & vl 2 & 1st \quarterNote\ in \A1 and \B1: a8–b16–c′16 \\
     & 107  & vl 1 & 5th \eighthNote\ in \A1: a′8 \\
-  2 & –    & –    &
-    & 1    & –    & tempo indication in S, A, clno 1, timp, vl 1, and vl 2: “Vivace” (no tempo in clno 2) \\
+  2 & 1    & –    & tempo indication in S, A, clno 1, timp, vl 1, and vl 2:
+                    “Vivace”\newline (tempo indication missing in clno 2) \\
     & 15   & B    & 1st \halfNote\ in \A1: \flat B8–\flat b8–a4 \\
     & 55   & org  & 2nd \quarterNote\ of upper voice in \A1: e′4 \\
     & 64   & B    & 1st \quarterNote\ in \A1 and \B1: G4 \\
@@ -53,3 +65,5 @@ toe: |
     & 7    & S    & 4th \eighthNote\ in \A1 and \B1: g′8 \\
     & 27   & B    & 2nd \eighthNote\ in \A1: b8 \\
     & 44   & T    & 1st \quarterNote\ in \A1 and \B1: c′8–d′16–e′16 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G

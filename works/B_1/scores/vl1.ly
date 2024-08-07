@@ -7,11 +7,59 @@
 
 \book {
   \bookpart {
-    \section "B-I" ""
+    \section "1" "Kyrie"
+    \addTocEntry
+    \paper { page-count = #3 }
+    \score {
+      <<
+        \new Staff { \B-IKyrieViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Gloria"
     \addTocEntry
     \score {
       <<
-        \new Staff { \B-IViolinoI }
+        \new Staff { \B-IGloriaViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Credo"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-ICredoViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Sanctus"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-ISanctusViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Benedictus"
+    \addTocEntry
+    \paper { systems-per-page = #5 }
+    \score {
+      <<
+        \new Staff { \B-IBenedictusViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Agnus Dei"
+    \addTocEntry
+    \paper { systems-per-page = #8 }
+    \score {
+      <<
+        \new Staff { \B-IAgnusViolinoI }
       >>
     }
   }
