@@ -1,0 +1,37 @@
+\version "2.24.0"
+
+markOsannaUtSupra = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Osanna ut supra"
+}
+
+tempoB-XLVIKyrie = \tempoMarkup "Allegretto o vivace"
+  tempoB-XLVIChriste = \tempoMarkup "Andante passato"
+  tempoB-XLVIKyrieB = \tempoMarkup "Allegro"
+tempoB-XLVIGloria = \tempoMarkup "Allegro non molto"
+  tempoB-XLVILaudamus = \tempoMarkup "Larghetto"
+  tempoB-XLVIDomine = \tempoMarkup "Andante"
+  tempoB-XLVIQuiTollis = \tempoMarkup "Largo"
+  tempoB-XLVIQuiSedes = \tempoMarkup "Vivace"
+  tempoB-XLVIQuoniam = \tempoMarkup "Largo"
+  tempoB-XLVICumSancto = \tempoMarkup "Allegro"
+tempoB-XLVICredo = \tempoMarkup "Vivace"
+  tempoB-XLVIEtIncarnatus = \tempoMarkup "Adagio"
+  tempoB-XLVICrucifixus = \tempoMarkup "Allabreve"
+  tempoB-XLVIEtResurrexit = \tempoMarkup "Allegro"
+  tempoB-XLVIEtInSpiritum = \tempoMarkup "Andante passato"
+  tempoB-XLVIEtVitam = \tempoMarkup "Presto"
+tempoB-XLVISanctus = \tempoMarkup "Tempo ordinario"
+  tempoB-XLVIPleni = \tempoMarkup "Larghetto"
+  tempoB-XLVIOsanna = \tempoMarkup "Osanna · Presto"
+tempoB-XLVIBenedictus = \tempoMarkup "Larghetto"
+tempoB-XLVIAgnus = \tempoMarkup "Adagio"
+  tempoB-XLVIDona = \tempoMarkup "Vivace"
+
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"
