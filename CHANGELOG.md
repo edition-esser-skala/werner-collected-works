@@ -13,6 +13,7 @@
 ### Changed
 
 - The layout for three- and four-stanza hymns was greatly improved. Notably, the full score now contains two systems per page.
+- For each work, a separate MIDI archive is now created.
 
 ### Fixed
 
