@@ -413,17 +413,17 @@ B-XXXVIIISanctusSoprano = {
     a r r2
     r a4( d)
     cis r r2
-    r a8( d4) h8~
+    r a8( d4) h8~ %5
     h g'4 e e8 d8. d16
     cis4 r r2
     \tempoB-XXXVIIIPleni r8 cis e cis d d r cis
     d d, \mvTr d16[\pE^\solo e fis g] a[ g a8]~ a16[ h cis a]
-    d[ fis32 e d16 cis] h[ a gis h] \sbOn \tuplet 3/2 8 { cis[\trill h cis cis\trill h cis] cis[\trill h cis e\trill d e] } \sbOff
+    d[ fis32 e d16 cis] h[ a gis h] \sbOn \tuplet 3/2 8 { cis[\trill h cis cis\trill h cis] cis[\trill h cis e\trill d e] } \sbOff %10
     fis([ d)] cis([ h)] a8([ gis)] a4 r8 \mvTr e'\fE^\tutti
     cis a r4 r8 d cis a
     r d([ h)] e cis fis d g
     fis([ e)] d4 e8 d d([ cis)]
-    d4 r r2\fermata \bar "|."
+    d4 r r2\fermata \bar "|." %15 finis
   }
 }
 

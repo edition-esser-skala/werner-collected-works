@@ -238,17 +238,17 @@ B-XXXVIIISanctusViolinoII = {
     r16 d'\p fis,( g) e( g) e( fis) d32( e16.) e32( fis16.) fis32( g16.) g32( a16.)
     a4 r r2
     r16 a'\p cis,( d) h( d) h( cis) a32( h16.) h32( cis16.) cis32( d16.) d32( e16.)
-    e32( fis16.) fis32( g16.) g32( e16.) e32( fis16.) fis4 r
+    e32( fis16.) fis32( g16.) g32( e16.) e32( fis16.) fis4 r %5
     R1
     r16 a,\p cis( d) e( cis) d( h) cis( a) fis( d) e( cis) d( h)
     \tempoB-XXXVIIIPleni cis16 d32 e fis gis a h cis16 e a cis, d fis8 d16 a fis e cis
     d8 d fis'\p d, cis cis' a' cis,
-    h a gis h a gis fis cis
+    h a gis h a gis fis cis %10
     d fis e4 e8 cis'\f h gis
     e32 cis d e fis g a h cis8 a fis d r d
     fis8 a16 fis \sbOn \tuplet 3/2 8 { d e fis g fis g e fis g a g a fis g a h a h } \sbOff
     a fis' cis e a,8 a a4. e8
-    fis16 fis'32 e d16 fis d a fis a d,4 r\fermata \bar "|."
+    fis16 fis'32 e d16 fis d a fis a d,4 r\fermata \bar "|." %15 finis
   }
 }
 
