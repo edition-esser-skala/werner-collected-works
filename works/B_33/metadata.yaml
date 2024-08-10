@@ -1,0 +1,36 @@
+title: Missa festivalis in honorem Divi Peregrini
+id: WerW B.33
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: A 81
+    rism: 600037881
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/731.html
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 21  & S    & 1st \quarterNote\ in \B1: \sharp f′8–\quaverRest \\
+    & 23  & B    & 1st \quarterNote\ in \B1: c4 \\
+  2 & 28  & vl 2 & 1st \quarterNote\ in \B1: \sharp f′16–e′16–\sharp f′8 \\
+    & 43  & T    & 1st \quarterNote\ in \B1: a4 \\
+    & 79  & vl 2 & last \eighthNote\ in \B1: \sharp f′8 \\
+    & 97  & vl 2 & 1st to 3rd \eighthNote\ in \B1: \sharp f′8–d′8–g′8 \\
+    & 99  & org  & 1st \quarterNote\ of lower voice in \B1:
+                   g′8–g′16–\sharp f′16 \\
+    & 100 & vl 2 & 4th \quarterNote\ in \B1: b′16–a′16–b′8 \\
+  3 & 6   & T    & 2nd \quarterNote\ in \B1: d′4 \\
+    & 7   & vl 1 & 4th \eighthNote\ in \B1: \sharp f″8 \\
+    & 25  & T    & last \eighthNote\ in \B1: d′8 \\
+    & 45  & vl 2 & 2nd \eighthNote\ in \B1: \flat b′8 \\
+    & 50  & vl 2 & 5th \eighthNote\ in \B1: g′8 \\
+    & 82  & A    & 3rd \halfNote\ in \B1: a′2 \\
+    & 120 & org  & 2nd \eighthNote\ of upper voice in \B1: e′8 \\
+  5 & 2   & vl 2 & 5th \sixteenthNote\ in \B1: \sharp g″16 \\
+  6 & 6   & org  & 4th \quarterNote\ in \B1: e8–c8 \\
+    & 14  & vl 2 & 4th \quarterNote\ in \B1: b′8–c″8 \\
+    & 23  & A    & 5th \eighthNote\ in \B1: a′8 \\
+    & 26  & vl 2 & 1st \eighthNote\ in \B1: tuplet g′16–a′16–g′16 \\

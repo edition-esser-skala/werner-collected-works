@@ -6,6 +6,7 @@
 
 - masses from separate repositories (previously unreleased; name of original repository and release history are indicated):
   - B.7 *Missa in contrapuncto* (werner-missa-in-contrapuncto-WerW-B-7; v1.0.0, 2024-04-03)
+  - B.33 *Missa festivalis in honorem Divi Peregrini* (werner-missa-festivalis-A-Ed-A-81; v1.0.0, 2023-11-02)
   - B.38 *Missa Lætatus sum in tribulatione* (werner-missa-laetatus-sum-A-Ed-A-49; v1.0.0, 2024-01-12)
   - B.46 *Missa Post nubila Phœbus* (werner-missa-post-nubila-phoebus-A-Ed-A-50; v1.0.0, 2023-03-03)
 
