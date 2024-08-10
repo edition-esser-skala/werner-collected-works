@@ -3,7 +3,7 @@
 B-VIIKyrieAlto = {
   \relative c' {
     \clef treble
-    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoB-XLVIKyrie
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoB-VIIKyrie
     r2 r4 \mvTr e8([\fE^\tuttiE c)]
     a4 f' r f8([ d)]
     h4 g' r g8([ e)]
@@ -41,7 +41,7 @@ B-VIIKyrieAlto = {
     g4 g8([ f)] e([ f e d)] %35
     c4 e d2 \noBreak
     e r\fermata \bar "||"
-    \key a \minor \time 3/2 \tempoB-XLVIChriste \newSpacingSection
+    \key a \minor \time 3/2 \tempoB-VIIChriste \newSpacingSection
       a,4 a'2 g4 f2 \noBreak
     e r a,4 a'~
     a g f2 e %40
@@ -124,7 +124,7 @@ B-VIIKyrieAltoLyrics = \lyricmode {
 B-VIICredoAlto = {
   \relative c' {
     \clef treble
-    \key c \major \time 2/1 \autoBeamOff \tempoB-XLVICredo
+    \key c \major \time 2/1 \autoBeamOff \tempoB-VIICredo
       \set Staff.timeSignatureFraction = 2/2
     \mvTr c1(\fE^\tuttiE d)
     e2 g g fis
@@ -172,7 +172,7 @@ B-VIICredoAlto = {
     c d8[ e] f4 e d2 e
     e d1 c4 h \noBreak %45
     c1 h\fermata \bar "||"
-    \time 3/2 \tempoB-XLVIEtIncarnatus \newSpacingSection
+    \time 3/2 \tempoB-VIIEtIncarnatus \newSpacingSection
       \unset Staff.timeSignatureFraction
       R1. \noBreak
     e2 f2. e4
@@ -199,7 +199,7 @@ B-VIICredoAlto = {
     d) h e
     e e2. e4 \noBreak %70
     e1 r2\fermata \bar "||"
-    \time 2/1 \tempoB-XLVIEtResurrexit \newSpacingSection
+    \time 2/1 \tempoB-VIIEtResurrexit \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2
       r2 e f e \noBreak
     f4( e f2) e c'~
@@ -429,7 +429,7 @@ B-VIICredoAltoLyrics = \lyricmode {
 B-VIISanctusAlto = {
   \relative c' {
     \clef treble
-    \key c \major \time 2/1 \autoBeamOff \tempoB-XLVISanctus
+    \key c \major \time 2/1 \autoBeamOff \tempoB-VIISanctus
       \set Staff.timeSignatureFraction = 2/2
     \mvTr e2.\fE^\tuttiE d8[ e] f2. e8[ f]
     g2. f8[ g] a2 a
@@ -476,7 +476,7 @@ B-VIISanctusAltoLyrics = \lyricmode {
 B-VIIBenedictusAlto = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/2 \autoBeamOff \tempoB-XLVIBenedictus
+    \key c \major \time 3/2 \autoBeamOff \tempoB-VIIBenedictus
     r2 r \mvTr f~\fE^\tuttiE
     f4 e d2 c
     r4 c d8([ c] d4) e e
@@ -491,7 +491,7 @@ B-VIIBenedictusAlto = {
     d,2 r4 g d2
     e4 e d2. d4 \noBreak
     d1 r2\fermata \bar "||"
-    \twotwotime \time 2/2 \tempoB-XLVIOsanna \newSpacingSection
+    \twotwotime \time 2/2 \tempoB-VIIOsanna \newSpacingSection
       c1 \noBreak %15
     d
     e
@@ -639,7 +639,7 @@ B-VIIBenedictusAltoLyrics = \lyricmode {
 B-VIIAgnusAlto = {
   \relative c' {
     \clef treble
-    \key c \major \time 2/1 \autoBeamOff \tempoB-XLVIAgnus
+    \key c \major \time 2/1 \autoBeamOff \tempoB-VIIAgnus
       \set Staff.timeSignatureFraction = 2/2
     \mvTr e2.\fE^\tuttiE d4 c2 c
     f e1 f2
@@ -657,7 +657,7 @@ B-VIIAgnusAlto = {
     g2 a4( g) f2.( g8[ a)]
     g2 g1 fis4 e \noBreak %15
     fis1 g\fermata \bar "||"
-    \tempoB-XLVIDona R\breve*2
+    \tempoB-VIIDona R\breve*2
     r1 c,(
     f) e %20
     r4 c( e fis g d) g( f)

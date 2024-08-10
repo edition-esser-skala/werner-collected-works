@@ -3,7 +3,7 @@
 B-VIIKyrieOrgano = {
   \relative c {
     \clef bass
-    \twotwotime \key c \major \time 2/2 \tempoB-XLVIKyrie
+    \twotwotime \key c \major \time 2/2 \tempoB-VIIKyrie
     << { r4 g'2 c4 } \\ { \mvTr r2\fE-\tuttiE c, } >>
     f d
     g e
@@ -56,7 +56,7 @@ B-VIIKyrieOrgano = {
     c r4 c %35
     f c g2 \noBreak
     c r\fermata \bar "||"
-    \clef treble \key a \minor \time 3/2 \tempoB-XLVIChriste \newSpacingSection
+    \clef treble \key a \minor \time 3/2 \tempoB-VIIChriste \newSpacingSection
       << { r2 e'4 e'2 d4 } \\ { a,4 a'2 g4 f2 } >> \noBreak
     \clef bass a,,4 a'2 g4 f2
     e d a4 a'~ %40
@@ -139,7 +139,7 @@ B-VIIKyrieBassFigures = \figuremode {
 B-VIICredoOrgano = {
   \relative c {
     \clef bass
-    \key c \major \time 2/1 \tempoB-XLVICredo
+    \key c \major \time 2/1 \tempoB-VIICredo
       \set Staff.timeSignatureFraction = 2/2
     \mvTr c2\fE-\tuttiE a' f g4 f
     e d c h a2 d
@@ -216,7 +216,7 @@ B-VIICredoOrgano = {
     a g f2 g c2~
     c g a1~ \noBreak %45
     a e\fermata \bar "||"
-    \clef "treble_8" \time 3/2 \tempoB-XLVIEtIncarnatus \newSpacingSection
+    \clef "treble_8" \time 3/2 \tempoB-VIIEtIncarnatus \newSpacingSection
       \unset Staff.timeSignatureFraction
       a'2^\markup \remark "a 3" c2. h4 \noBreak
     a2. g4 f2
@@ -243,7 +243,7 @@ B-VIICredoOrgano = {
     h e c
     gis a1 \noBreak %70
     e r2\fermata \bar "||"
-    \clef "treble_8" \time 2/1 \tempoB-XLVIEtResurrexit \newSpacingSection
+    \clef "treble_8" \time 2/1 \tempoB-VIIEtResurrexit \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2
       c'2 c'1 c2 \noBreak
     f,4 g a h c2 c,
@@ -494,7 +494,7 @@ B-VIICredoBassFigures = \figuremode {
 B-VIISanctusOrgano = {
   \relative c {
     \clef bass
-    \key c \major \time 2/1 \tempoB-XLVISanctus
+    \key c \major \time 2/1 \tempoB-VIISanctus
       \set Staff.timeSignatureFraction = 2/2
     \mvTr c2.\fE-\tuttiE h8 c d2. c8 d
     e2. d8 e f2. e8 f
@@ -546,7 +546,7 @@ B-VIISanctusBassFigures = \figuremode {
 B-VIIBenedictusOrgano = {
   \relative c {
     \clef treble
-    \key c \major \time 3/2 \tempoB-XLVIBenedictus
+    \key c \major \time 3/2 \tempoB-VIIBenedictus
     << { \mvTr c''2._\fE_\tuttiE h4 a2 } \\ { r r f } >>
     \clef "treble_8" c2. h4 \clef bass f2~
     f4 e d2 c
@@ -561,7 +561,7 @@ B-VIIBenedictusOrgano = {
     g2 r4 e h2
     c d d, \noBreak
     g1 r2\fermata \bar "||"
-    \twotwotime \clef treble \time 2/2 \tempoB-XLVIOsanna \newSpacingSection
+    \twotwotime \clef treble \time 2/2 \tempoB-VIIOsanna \newSpacingSection
     << {
       r2 c''4 a \noBreak %15
       f d d' h
@@ -725,7 +725,7 @@ B-VIIBenedictusBassFigures = \figuremode {
 B-VIIAgnusOrgano = {
   \relative c {
     \clef "treble_8"
-    \key c \major \time 2/1 \tempoB-XLVIAgnus
+    \key c \major \time 2/1 \tempoB-VIIAgnus
       \set Staff.timeSignatureFraction = 2/2
     \mvTr c'2.\fE-\tutti h4 \clef bass f2. e4
     d2 e a, \clef "treble_8" f'^\markup \remark "a 3"
@@ -743,7 +743,7 @@ B-VIIAgnusOrgano = {
     c2 cis d2. c4
     h!2 c a1~ \noBreak %15
     a g\fermata \bar "||"
-    \tempoB-XLVIDona c1-! f-! \noBreak
+    \tempoB-VIIDona c1-! f-! \noBreak
     << {
       g c %18
       h
