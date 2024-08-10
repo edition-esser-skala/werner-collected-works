@@ -702,6 +702,7 @@ B-LXXFragmentTenore = {
   \relative c' {
     \clef "treble_8"
     \key f \lydian \time 4/2 \tempoB-LXXFragment \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
     r1 c
     e2 d4 c h2 c
     d4 c d2 e2. d4

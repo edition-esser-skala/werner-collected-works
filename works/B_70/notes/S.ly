@@ -663,6 +663,7 @@ B-LXXFragmentSoprano = {
   \relative c' {
     \clef treble
     \key f \lydian \time 4/2 \tempoB-LXXFragment \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
     R\breve*2
     r1 c'
     e2 d4 c h2 c

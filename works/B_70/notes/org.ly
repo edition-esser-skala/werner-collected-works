@@ -759,6 +759,7 @@ B-LXXFragmentOrgano = {
   \relative c {
     \clef bass
     \key f \lydian \time 4/2 \tempoB-LXXFragment
+      \set Staff.timeSignatureFraction = 2/2
     << {
       s1 c'
       e2 d4 c h2 c

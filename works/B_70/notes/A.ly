@@ -690,6 +690,7 @@ B-LXXFragmentAlto = {
   \relative c' {
     \clef treble
     \key f \lydian \time 4/2 \tempoB-LXXFragment \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
     R\breve*2
     f1 a2 g4 f
     e2 f g f4 e
