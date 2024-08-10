@@ -8,30 +8,30 @@ B-XXXIIIKyrieViolinoII = {
     fis8\f d'~ d16 a fis a d, fis8 a16
     d,4 r8 h'4 d8
     e8. e16 cis a e a cis,8 e'
-    fis16 d a d fis,8 d fis a
+    fis16 d a d fis,8 d fis a %5
     h16 g h d g h g d h d h g
     e'8.\trill d32 c h8 \tuplet 3/2 8 { c16 h a } g8 fis
     g \once \tieDashed g'~ g16 d h d h g d g
     h,4 r r
-    r8 e'~\p e16 h g h e,4
+    r8 e'~\p e16 h g h e,4 %10
     r8 dis'~ dis16 h fis h dis,4
     r r8 e'~ e16 c a c
     fis,4 r8 d'~ d16 h g h
     e,4 r r
-    r8 g4 e e'8
+    r8 g4 e e'8 %15
     a,4 r r8 \tuplet 3/2 8 { d16 e f }
     g( c,) h( f') e8 r r4
     R2.
     g,8\f g'~ g16 d h d h g d h
-    g4 r r
+    g4 r r %20
     fis'8 d'~ d16 a fis a d, fis8 a16
     d,4 r8 h'4 d8
     e8. e16 cis a e a cis,8 e'
     fis16 d a d fis,8 d fis a
-    h16 g h g' e a, c a' fis h, d h'
+    h16 g h g' e a, c a' fis h, d h' %25
     g c, e c' a fis g h, a g' a, fis'
     g d h g d h' g d h8 g'~
-    g fis g4 r\fermata \bar "|."
+    g fis g4 r\fermata \bar "|." %28 finis
   }
 }
 

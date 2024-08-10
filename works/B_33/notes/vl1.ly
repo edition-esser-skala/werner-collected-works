@@ -44,7 +44,7 @@ B-XXXIIIGloriaViolinoI = {
     a( d) cis( d) a( h) fis( g) a8 d, r4
     d8 e f e16 d e8 fis16 g a4~
     a8 fis g e16 c h8 g' a, fis' %5
-    g16 d h' a g8 fis g4 r16d\p c h
+    g16 d h' a g8 fis g4 r16 d\p c h
     a g a8 r a h4 r
     r8 h16. d32 g8 h r a \tuplet 3/2 8 { fis16 e fis } d8
     g16\trill fis e\trill d cis\trill h a g' fis4 r
