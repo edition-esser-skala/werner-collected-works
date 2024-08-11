@@ -512,3 +512,29 @@ B-XLVIIIBenedictusBassoLyrics = \lyricmode {
   na in ex --
   cel -- sis. %45 finis
 }
+
+B-XLVIIIAgnusBasso = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \autoBeamOff \tempoB-XLVIIIAgnus
+    \mvTr a'2.\fE^\tutti ais4
+    h a8 a gis!4( fis)
+    eis fis gis a
+    e( fis) e2\fermata
+    ais,4. ais8 h4 h %5
+    r8 h'4 h8 a!4 d,
+    h( a e'2)
+    a,4 r r2
+  }
+}
+
+B-XLVIIIAgnusBassoLyrics = \lyricmode {
+  A -- gnus De --
+  i, qui tol --
+  lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re -- re, %5
+  mi -- se -- re -- re
+  no --
+  bis.
+}

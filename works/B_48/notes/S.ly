@@ -557,8 +557,33 @@ B-XLVIIIBenedictusSopranoLyrics = \lyricmode {
   _ sis. %45 finis
 }
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
+B-XLVIIIAgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \autoBeamOff \tempoB-XLVIIIAgnus
+    \mvTr cis'4\fE^\tutti d d( cis)
+    h fis' eis d!8 d
+    cis4( d2) cis4
+    h( a) gis2\fermata
+    r8 cis4 cis8 cis([ h)] h4 %5
+    r8 d4 d8 cis4 d~
+    d cis h2\trill
+    cis4 r r2
+  }
+}
+
+B-XLVIIIAgnusSopranoLyrics = \lyricmode {
+  A -- gnus De --
+  i, qui tol -- lis pec --
+  ca -- ta
+  mun -- di:
+  Mi -- se -- re -- re, %5
+  mi -- se -- re -- _
+  re no --
+  bis.
+}
+
+
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:

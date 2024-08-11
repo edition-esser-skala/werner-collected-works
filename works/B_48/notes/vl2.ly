@@ -343,3 +343,18 @@ B-XLVIIIBenedictusViolinoII = {
     \parOn a4-\parenthesize-! \parOff gis-\parenthesize-! a r\fermata \bar "|." %46 finis
   }
 }
+
+B-XLVIIIAgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoB-XLVIIIAgnus
+    cis'4\fE d2 cis4
+    h cis h a8. h16
+    cis4 d2 cis4
+    h a gis2\fermata
+    r8 cis4 cis8 cis( h) h4
+    r8 fis g4. fis8 fis4
+    h e, e2\trill
+    e8 cis'~\p cis16 h cis8 r eis gis16( fis) gis8
+  }
+}

@@ -336,3 +336,18 @@ B-XLVIIIBenedictusViolinoI = {
     cis4-! h-! a r\fermata \bar "|." %46 finis
   }
 }
+
+B-XLVIIIAgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoB-XLVIIIAgnus
+    e'4\fE fis e fis
+    g fis eis fis8 fis
+    gis4 fis e e~
+    e dis e2\fermata
+    r8 e4 e8 e( d) d4 %5
+    r8 d4 d8 cis4 d~
+    d8 d cis4 h4. e8
+    cis e~\p e16 d e8 r h'~ h16 a h8
+  }
+}

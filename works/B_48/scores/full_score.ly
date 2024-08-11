@@ -298,4 +298,60 @@
       \midi { \tempo 4. = 40 } % 4 = 105
     }
   }
+  \bookpart {
+    \section "6" "Agnus Dei"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \B-XLVIIIAgnusViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \B-XLVIIIAgnusViolinoII
+            }
+          >>
+        >>
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \B-XLVIIIAgnusSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \B-XLVIIIAgnusSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \B-XLVIIIAgnusAlto }
+          }
+          \new Lyrics \lyricsto Alto \B-XLVIIIAgnusAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \B-XLVIIIAgnusTenore }
+          }
+          \new Lyrics \lyricsto Tenore \B-XLVIIIAgnusTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \B-XLVIIIAgnusBasso }
+          }
+          \new Lyrics \lyricsto Basso \B-XLVIIIAgnusBassoLyrics
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
+            % \transpose c c,
+            \B-XLVIIIAgnusOrgano
+          }
+        >>
+        \new FiguredBass { \B-XLVIIIAgnusBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 60 }
+    }
+  }
 }

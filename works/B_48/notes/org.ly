@@ -748,3 +748,29 @@ B-XLVIIIBenedictusBassFigures = \figuremode {
   <5 \t> <\t 3>2 <6>8 q %45
   <6 4>4 <5 3>2. %46 finis
 }
+
+B-XLVIIIAgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \tempoB-XLVIIIAgnus
+    \mvTr a'2.\fE-\tutti ais4
+    h a gis! fis
+    eis fis gis a
+    e fis e2\fermata
+    ais, h %5
+    h' a!4 d,
+    h a e'2
+    a,4 \mvTr a'\pE-\soloE gis r
+  }
+}
+
+B-XLVIIIAgnusBassFigures = \figuremode {
+  <5 3>4 <6 4> <5 \t> <6>
+  <6!> <6> <6\\> <6!>
+  <6> q <6! 5>2
+  r4 <6\\>2.
+  <7!>2 <9 4>8 <8 _!>4. %5
+  <5>4 <6!> <7!>2
+  <6\\> <4>4 <3>
+  r2 <6\\>
+}

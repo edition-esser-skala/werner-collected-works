@@ -507,3 +507,29 @@ B-XLVIIIBenedictusTenoreLyrics = \lyricmode {
   san -- na in __ ex --
   cel -- sis. %45 finis
 }
+
+B-XLVIIIAgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \major \time 4/4 \autoBeamOff \tempoB-XLVIIIAgnus
+    \mvTr a2.\fE^\tutti cis4
+    d( cis) h8 h a4
+    cis a h a
+    gis( a) h2\fermata
+    r8 g4 g8 fis4 fis %5
+    r8 h d4 e8([ a,!)] a4
+    gis!( a2 gis4)
+    a r r2
+  }
+}
+
+B-XLVIIIAgnusTenoreLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui tol --
+  lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re -- re, %5
+  mi -- se -- re -- re
+  no --
+  bis.
+}

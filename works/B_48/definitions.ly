@@ -19,6 +19,7 @@ tempoB-XLVIIISanctus = \tempoMarkup "Largo"
   tempoB-XLVIIIPleni = \tempoMarkup "Vivace"
 tempoB-XLVIIIBenedictus = \tempoMarkup "Andante moderato"
   tempoB-XLVIIIOsanna = \tempoMarkup "Presto"
+tempoB-XLVIIIAgnus = \tempoMarkup "Largo"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
