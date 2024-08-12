@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-XII-Tenore = {
+D-I-XI-Tenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \major \time 3/2 \autoBeamOff \tempoD-I-XII-Veni
+    \key c \major \time 3/2 \autoBeamOff \tempoD-I-XI-Veni
     \mvTr e2\fE^\tutti e4 c e d
     c h8([ a)] g2. e4
     f2. g4 a g
@@ -19,7 +19,7 @@ D-I-XII-Tenore = {
     c r r
     R1.*3 \noBreak %16
     R1.\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoD-I-XII-Cum
+    \key a \minor \time 4/4 \tempoD-I-XI-Cum
       r8 \mvTr a\pE^\soloE c8. d16 e8 e, h'16 c d e \noBreak
     cis8 cis r cis16 a d8 d16 d d8 a16 h
     c8. c16 c4 r8 h16 h fis8 a %20
@@ -29,7 +29,7 @@ D-I-XII-Tenore = {
     f f r a16 d c8 g b c
     a a r c16 c d4. e16 f \noBreak %25
     f8 c r4 r2\fermata \bar "||"
-    \key f \major \time 3/4 \tempoD-I-XII-Beata R2.*10 %36
+    \key f \major \time 3/4 \tempoD-I-XI-Beata R2.*10 %36
     r8 \mvTr f,\pE^\soloE a f c'16([ d)] e([ c)]
     f4. f,8 f4
     r8 f g a \tuplet 3/2 8 { b16([ c d)] } c([ b)]
@@ -64,7 +64,7 @@ D-I-XII-Tenore = {
     f4 r r
     R2.*6 \noBreak %82
     R2.\fermata \bar "||" %83 finis
-    \key a \minor \time 4/4 \tempoD-I-XII-Exurge
+    \key a \minor \time 4/4 \tempoD-I-XI-Exurge
       r8 \mvTr a\fE^\tutti a c e4 e \noBreak
     c8. c16 a4 h r %85
     r8 c c c h4. c8
@@ -73,7 +73,7 @@ D-I-XII-Tenore = {
     c4 r r8 a4 c8
     a4 g d'2 \noBreak %90
     d r\fermata \bar "||"
-    \key c \major \time 4/4 \tempoD-I-XII-Alleluia
+    \key c \major \time 4/4 \tempoD-I-XI-Alleluia
       r8 \mvTr c\fE^\tutti c c c h c h \noBreak
     c4 r g8 g g4
     \mvTr g16[\pE^\solo a h c] d[ e f g] e[ c e f] g[ d e h]
@@ -99,7 +99,7 @@ D-I-XII-Tenore = {
   }
 }
 
-D-I-XII-TenoreLyrics = \lyricmode {
+D-I-XI-TenoreLyrics = \lyricmode {
   Ve -- ni, cre -- a -- tor
   Spi -- ri -- tus, cre --
   a -- tor Spi -- ri --

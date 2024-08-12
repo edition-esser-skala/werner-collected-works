@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-XII-Organo = {
+D-I-XI-Organo = {
   \relative c {
     \clef bass
-    \key c \major \time 3/2 \tempoD-I-XII-Veni
+    \key c \major \time 3/2 \tempoD-I-XI-Veni
     \mvTr c4\fE-\tutti e8 d c4 c'2 h4
     a g8 f e2. c4
     f4. e8 d4 c8 h a4 h
@@ -21,7 +21,7 @@ D-I-XII-Organo = {
     g, g'2 f4 e d %15
     c c' g2 g, \noBreak
     c4 c8 c c4 c c2\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoD-I-XII-Cum \newSpacingSection
+    \key a \minor \time 4/4 \tempoD-I-XI-Cum \newSpacingSection
       \mvTr a'2\pE-\soloE gis \noBreak
     g fis~
     fis dis %20
@@ -31,7 +31,7 @@ D-I-XII-Organo = {
     d e
     f b, \noBreak %25
     c f,\fermata \bar "||"
-    \key f \major \time 3/4 \tempoD-I-XII-Beata
+    \key f \major \time 3/4 \tempoD-I-XI-Beata
       \mvTr f4\f-\soloE f' e \noBreak
     d4. c16 b a8 f
     b4 c e
@@ -89,7 +89,7 @@ D-I-XII-Organo = {
     f8 f'16 e d8 c16 b a8 g
     f b c b c c, \noBreak
     f4^\critnote r r\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoD-I-XII-Exurge
+    \key a \minor \time 4/4 \tempoD-I-XI-Exurge
       \mvTr a4\fE-\tutti c8 a e'4. e8 \noBreak
     f4. f8 e4 r %85
     c e8 c g'4 e
@@ -98,7 +98,7 @@ D-I-XII-Organo = {
     c \clef bass e,[ d c] f4. es8
     d4. cis8 d4 d, \noBreak %90
     g2 r\fermata \bar "||"
-    \key c \major \time 4/4 \tempoD-I-XII-Alleluia
+    \key c \major \time 4/4 \tempoD-I-XI-Alleluia
       \mvTr c8\f-\tutti c' c c c g e g \noBreak
     c,16 c' h a g f e d c8 h c4
     g \mvTr h\pE-\solo c h8 g'
@@ -124,7 +124,7 @@ D-I-XII-Organo = {
   }
 }
 
-D-I-XII-BassFigures = \figuremode {
+D-I-XI-BassFigures = \figuremode {
   r1 r4 \bo <[6]>
   r2 \bc q1
   r <6>2

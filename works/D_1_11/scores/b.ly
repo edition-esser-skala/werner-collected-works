@@ -2,16 +2,16 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "b")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "D.1.12" "Veni creator Spiritus"
+    \section "D.1.11" "Veni creator Spiritus"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-I-XII-ViolinoI }
+        \new Staff { \D-I-XI-Organo }
       >>
     }
   }

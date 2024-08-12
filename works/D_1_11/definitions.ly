@@ -1,0 +1,15 @@
+\version "2.24.0"
+
+tempoD-I-XI-Veni = \tempoMarkup "Vivace"
+tempoD-I-XI-Cum = \tempoMarkup "Recitativo"
+tempoD-I-XI-Beata = \tempoMarkup "Spirituoso"
+tempoD-I-XI-Exurge = \tempoMarkup "Tempo ordinario"
+tempoD-I-XI-Alleluia = \tempoMarkup "Allegro"
+
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"

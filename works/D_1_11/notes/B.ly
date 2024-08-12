@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-XII-Basso = {
+D-I-XI-Basso = {
   \relative c {
     \clef bass
-    \key c \major \time 3/2 \autoBeamOff \tempoD-I-XII-Veni
+    \key c \major \time 3/2 \autoBeamOff \tempoD-I-XI-Veni
     \once \override DynamicText.X-offset = #-2 \mvTr c'2\fE^\tutti c4 c, c' h
     a g8([ f)] e2. c4
     f4. e8 d4_( c8[ h)] a4( h)
@@ -19,11 +19,11 @@ D-I-XII-Basso = {
     c,2 r r
     R1.*3 \noBreak %16
     R1.\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoD-I-XII-Cum R1*8 \noBreak %25
+    \key a \minor \time 4/4 \tempoD-I-XI-Cum R1*8 \noBreak %25
     R1\fermata \bar "||"
-    \key f \major \time 3/4 \tempoD-I-XII-Beata R2.*56 \noBreak %82
+    \key f \major \time 3/4 \tempoD-I-XI-Beata R2.*56 \noBreak %82
     R2.\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoD-I-XII-Exurge
+    \key a \minor \time 4/4 \tempoD-I-XI-Exurge
       r8 \mvTr a\fE^\tutti c a e'4. e8 \noBreak
     f8. f16 f4 e r %85
     r8 c e c g'4 e
@@ -32,7 +32,7 @@ D-I-XII-Basso = {
     r8 e d c16 c f8 f4 es8
     d4. cis8 d2 \noBreak %90
     g, r\fermata \bar "||"
-    \key c \major \time 4/4 \tempoD-I-XII-Alleluia
+    \key c \major \time 4/4 \tempoD-I-XI-Alleluia
       r8 \mvTr c'\fE^\tutti c c c g e g \noBreak
     c,16([ c' h a] g[ f e d)] c8 h c4
     g r r2
@@ -50,7 +50,7 @@ D-I-XII-Basso = {
   }
 }
 
-D-I-XII-BassoLyrics = \lyricmode {
+D-I-XI-BassoLyrics = \lyricmode {
   Ve -- ni, cre -- a -- tor
   Spi -- ri -- tus, cre --
   a -- tor Spi -- ri --

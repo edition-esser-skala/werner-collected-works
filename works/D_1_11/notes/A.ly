@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-XII-Alto = {
+D-I-XI-Alto = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/2 \autoBeamOff \tempoD-I-XII-Veni
+    \key c \major \time 3/2 \autoBeamOff \tempoD-I-XI-Veni
     \mvTr g'2\fE^\tutti g4 g g h
     e,4. f8 g2 e
     a,4 c d2 c4( d)
@@ -19,11 +19,11 @@ D-I-XII-Alto = {
     g2 r r
     R1.*3 \noBreak %16
     R1.\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoD-I-XII-Cum R1*8 \noBreak %25
+    \key a \minor \time 4/4 \tempoD-I-XI-Cum R1*8 \noBreak %25
     R1\fermata \bar "||"
-    \key f \major \time 3/4 \tempoD-I-XII-Beata R2.*56 \noBreak %82
+    \key f \major \time 3/4 \tempoD-I-XI-Beata R2.*56 \noBreak %82
     R2.\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoD-I-XII-Exurge
+    \key a \minor \time 4/4 \tempoD-I-XI-Exurge
       r8 \mvTr e\fE^\tutti e a a([ gis)] gis4 \noBreak
     a a8 a gis4 r %85
     r8 g g g g4. g8
@@ -32,7 +32,7 @@ D-I-XII-Alto = {
     r8 g f e16 e a8 a4 g8
     fis fis g2( fis4) \noBreak %90
     g2 r\fermata \bar "||"
-    \key c \major \time 4/4 \tempoD-I-XII-Alleluia
+    \key c \major \time 4/4 \tempoD-I-XI-Alleluia
       r8 \mvTr g\fE^\tutti g g g g g g \noBreak
     g4 r g8 d e4
     d r r2
@@ -50,7 +50,7 @@ D-I-XII-Alto = {
   }
 }
 
-D-I-XII-AltoLyrics = \lyricmode {
+D-I-XI-AltoLyrics = \lyricmode {
   Ve -- ni, cre -- a -- tor
   Spi -- ri -- tus, cre --
   a -- tor Spi -- ri --

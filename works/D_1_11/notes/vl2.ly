@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-XII-ViolinoII = {
+D-I-XI-ViolinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/2 \tempoD-I-XII-Veni
+    \key c \major \time 3/2 \tempoD-I-XI-Veni
     e'4\f g8 f e4 c e g
     c, e8 d c4 g c e
     a, c f g a g8 f
@@ -21,7 +21,7 @@ D-I-XII-ViolinoII = {
     h,8 g a h c d e f g a h g %15
     c4 e d c' g, h' \noBreak
     c e, g e c2\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoD-I-XII-Cum \newSpacingSection
+    \key a \minor \time 4/4 \tempoD-I-XI-Cum \newSpacingSection
       e,1~\p \noBreak
     e2 d
     fis1 %20
@@ -31,7 +31,7 @@ D-I-XII-ViolinoII = {
     f g
     a f~ %25
     f4 e f2\fermata \bar "||" \noBreak
-    \key f \major \time 3/4 \tempoD-I-XII-Beata
+    \key f \major \time 3/4 \tempoD-I-XI-Beata
       r8 c16\f f a8 f16 a c8 c, \noBreak
     f f'16 f f8 f f a
     g16 a f g e f d e c d b c
@@ -83,7 +83,7 @@ D-I-XII-ViolinoII = {
     a8 c f4~ f16 e f g
     a8 g f8. g16 e4\trill \noBreak
     f r r\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoD-I-XII-Exurge
+    \key a \minor \time 4/4 \tempoD-I-XI-Exurge
       r8 c4\f c8 h h e4~ \noBreak
     e8 e dis4 e8 gis16 e h gis e gis %85
     r8 c4 e8 d d e4~
@@ -92,7 +92,7 @@ D-I-XII-ViolinoII = {
     e4 r r c~
     c8 c b b a2 \noBreak %90
     h r\fermata \bar "||"
-    \key c \major \time 4/4 \tempoD-I-XII-Alleluia
+    \key c \major \time 4/4 \tempoD-I-XI-Alleluia
       c8\f g16 c e8 c16 e g8 g g g \noBreak
     g4 r c,8 d g, c
     h4 r r r8 c\p

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-XII-Soprano = {
+D-I-XI-Soprano = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/2 \autoBeamOff \tempoD-I-XII-Veni
+    \key c \major \time 3/2 \autoBeamOff \tempoD-I-XI-Veni
     \mvTr c'2\fE^\tutti c4 e c g
     c4. c8 c4 g c2~
     c4 a f2. f4
@@ -19,11 +19,11 @@ D-I-XII-Soprano = {
     e2 r r
     R1.*3 \noBreak %16
     R1.\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoD-I-XII-Cum R1*8 \noBreak %25
+    \key a \minor \time 4/4 \tempoD-I-XI-Cum R1*8 \noBreak %25
     R1\fermata \bar "||"
-    \key f \major \time 3/4 \tempoD-I-XII-Beata R2.*56 \noBreak %82
+    \key f \major \time 3/4 \tempoD-I-XI-Beata R2.*56 \noBreak %82
     R2.\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoD-I-XII-Exurge
+    \key a \minor \time 4/4 \tempoD-I-XI-Exurge
       r8 \mvTr c\fE^\tutti e c h h e4~ \noBreak
     e8 e dis4 e r %85
     r8 e c e d d e4~
@@ -32,7 +32,7 @@ D-I-XII-Soprano = {
     e4 r r c~
     c8 c b b a2 \noBreak %90
     h? r\fermata \bar "||"
-    \key c \major \time 4/4 \tempoD-I-XII-Alleluia
+    \key c \major \time 4/4 \tempoD-I-XI-Alleluia
       r8 \mvTr e\fE^\tutti e e e d c d \noBreak
     e([ d16 c] h[ a g f]) e8 g4 c8
     h4 r r2
@@ -50,7 +50,7 @@ D-I-XII-Soprano = {
   }
 }
 
-D-I-XII-SopranoLyrics = \lyricmode {
+D-I-XI-SopranoLyrics = \lyricmode {
   Ve -- ni, cre -- a -- tor
   Spi -- ri -- tus, cre -- a --
   tor Spi -- ri --
