@@ -12,7 +12,7 @@
     \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \Z-IX-IViolinoII }
+        \new Staff { \M-SI-IViolinoII }
       >>
     }
   }
@@ -22,7 +22,7 @@
     \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \Z-IX-IIViolinoII }
+        \new Staff { \M-SI-IIViolinoII }
       >>
     }
   }
@@ -31,7 +31,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-IX-IIIViolinoII }
+        \new Staff { \M-SI-IIIViolinoII }
       >>
     }
   }
@@ -41,7 +41,7 @@
     \paper { page-count = #3 }
     \score {
       <<
-        \new Staff { \Z-IX-IVViolinoII }
+        \new Staff { \M-SI-IVViolinoII }
       >>
     }
   }
@@ -50,7 +50,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-IX-VViolinoII }
+        \new Staff { \M-SI-VViolinoII }
       >>
     }
   }
@@ -59,7 +59,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-IX-VIViolinoII }
+        \new Staff { \M-SI-VIViolinoII }
       >>
     }
   }

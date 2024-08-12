@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vla")
+#(define option-instrument-name "vlc")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -11,7 +11,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-IX-IViola }
+        \new Staff { \M-SI-ICello }
       >>
     }
   }
@@ -20,7 +20,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-IX-IIViola }
+        \new Staff { \M-SI-IICello }
       >>
     }
   }
@@ -29,7 +29,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-IX-IIIViola }
+        \new Staff { \M-SI-IIICello }
       >>
     }
   }
@@ -38,7 +38,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-IX-IVViola }
+        \new Staff { \M-SI-IVCello }
       >>
     }
   }
@@ -47,7 +47,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-IX-VViola }
+        \new Staff { \M-SI-VCello }
       >>
     }
   }
@@ -56,7 +56,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-IX-VIViola }
+        \new Staff { \M-SI-VICello }
       >>
     }
   }

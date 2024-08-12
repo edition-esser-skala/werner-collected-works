@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vlc")
+#(define option-instrument-name "bc")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -11,7 +11,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-IX-ICello }
+        \new Staff { \M-SI-ICello }
+        \new FiguredBass { \M-SI-IBassFigures }
       >>
     }
   }
@@ -20,7 +21,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-IX-IICello }
+        \new Staff { \M-SI-IICello }
+        \new FiguredBass { \M-SI-IIBassFigures }
       >>
     }
   }
@@ -29,7 +31,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-IX-IIICello }
+        \new Staff { \M-SI-IIICello }
+        \new FiguredBass { \M-SI-IIIBassFigures }
       >>
     }
   }
@@ -38,7 +41,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-IX-IVCello }
+        \new Staff { \M-SI-IVCello }
+        \new FiguredBass { \M-SI-IVBassFigures }
       >>
     }
   }
@@ -47,7 +51,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-IX-VCello }
+        \new Staff { \M-SI-VCello }
+        \new FiguredBass { \M-SI-VBassFigures }
       >>
     }
   }
@@ -56,7 +61,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-IX-VICello }
+        \new Staff { \M-SI-VICello }
+        \new FiguredBass { \M-SI-VIBassFigures }
       >>
     }
   }
