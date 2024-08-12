@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-C-VAlto = {
+D-III-VIAlto = {
   \relative c' {
     \clef treble
-    \key d \dorian \time 4/2 \tempoC-V \autoBeamOff
+    \key d \dorian \time 4/2 \tempoD-III-VI \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
     \time 13/4 s4*13 \bar "||"
     \time 4/2 r2 d1 cis2
@@ -54,7 +54,7 @@ C-VAlto = {
   }
 }
 
-C-VAltoLyrics = \lyricmode {
+D-III-VIAltoLyrics = \lyricmode {
   De mor -- %2
   te ae -- ter --
   _ _ _

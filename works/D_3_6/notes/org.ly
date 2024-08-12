@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-C-VOrgano = {
+D-III-VIOrgano = {
   \relative c {
     \clef bass
-    \key d \dorian \time 4/2 \tempoC-V
+    \key d \dorian \time 4/2 \tempoD-III-VI
       \set Staff.timeSignatureFraction = 2/2
     \time 13/4 s4*13 \time 4/2 \normalsize \bar "||"
     d1 a
@@ -54,7 +54,7 @@ C-VOrgano = {
   }
 }
 
-C-VBassFigures = \figuremode {
+D-III-VIBassFigures = \figuremode {
   s4*13
   r1 <4>2 <_+>
   <_!> <_+> <6> <6 5>

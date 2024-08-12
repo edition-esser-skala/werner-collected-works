@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-C-VViolaI = {
+D-III-VIViolaI = {
   \relative c' {
     \clef treble
-    \key d \dorian \time 4/2 \tempoC-V
+    \key d \dorian \time 4/2 \tempoD-III-VI
       \set Staff.timeSignatureFraction = 2/2
     \time 13/4 s4*13 \bar "||"
     \time 4/2 d1 e

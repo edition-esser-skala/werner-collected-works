@@ -5,7 +5,7 @@ markLiberaUtSupra = {
   \mark \markup \remark "Libera ut supra"
 }
 
-tempoC-V = \tempoMarkup "Alla breve"
+tempoD-III-VI = \tempoMarkup "Alla breve"
 
 \include "notes/vla1.ly"
 \include "notes/vla2.ly"
