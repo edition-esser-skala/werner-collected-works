@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VIIViolinoI = {
+D-I-VIViolinoI = {
   \relative c' {
     \clef treble
-    \key b \major \time 3/4 \tempoD-I-VIIa
+    \key b \major \time 3/4 \tempoD-I-VIa
     d'16\fE es f es d8 f4 b8
     a f c a f4
     d'16 es f es d8 f b d
@@ -32,7 +32,7 @@ D-I-VIIViolinoI = {
     b16 b d d b b f f d d b b
     f8 b'16 b f f d d b b f f \noBreak
     d4 r r\fermata \bar "||"
-    \twofourtime \key g \minor \time 2/4 \tempoD-I-VIIb \newSpacingSection
+    \twofourtime \key g \minor \time 2/4 \tempoD-I-VIb \newSpacingSection
       d'2\fE \noBreak
     \grace { c16( d } es4.) r8 %30
     fis2
@@ -50,7 +50,7 @@ D-I-VIIViolinoI = {
     g fis
     g g,\trill \noBreak
     a2\fermata \bar "||" %45
-    \key b \major \time 4/4 \tempoD-I-VIIc \newSpacingSection
+    \key b \major \time 4/4 \tempoD-I-VIc \newSpacingSection
       r8 b' f! d r f d b \noBreak
     \slurDashed d16( b) a( g) \slurSolid f8 es d16 d' b( d) b( d) b( d)
     r b f( b) f( b) f( b) r b g( b) g( b) g( b)
@@ -59,7 +59,7 @@ D-I-VIIViolinoI = {
     r es'4 g,8 r d'4 f,8
     r c' r d r es r f \noBreak
     r d16 b f'8 f, r2
-    \time 3/4 \tempoD-I-VIId R2. \noBreak
+    \time 3/4 \tempoD-I-VId R2. \noBreak
     r8 g'4 g8 g f16( e) %55
     \tuplet 3/2 8 { f e d } d8 d4 r
     r8 f4 f8 f es16( d)
@@ -77,7 +77,7 @@ D-I-VIIViolinoI = {
     b8 d!4 f b8
     ges( es) a,!4.\trill b8 \noBreak %70
     b2 r4\fermata \bar "||"
-    \time 4/4 \tempoD-I-VIIe R1*4 %75
+    \time 4/4 \tempoD-I-VIe R1*4 %75
     r8 f~\fE f16 g a b c8 a16 b c8 d16 e
     f8 f, d' b a d g, c
     f, f4 b8 a b a b16 c

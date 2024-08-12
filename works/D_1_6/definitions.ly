@@ -1,0 +1,15 @@
+\version "2.24.0"
+
+tempoD-I-VIa = \tempoMarkup "Allegro"
+tempoD-I-VIb = \tempoMarkup "Aria · Larghetto"
+tempoD-I-VIc = \tempoMarkup "Allegretto"
+tempoD-I-VId = \tempoMarkup "Largo"
+tempoD-I-VIe = \tempoMarkup "Vivace"
+
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"

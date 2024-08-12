@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VIIBasso = {
+D-I-VIBasso = {
   \relative c {
     \clef bass
-    \key b \major \time 3/4 \tempoD-I-VIIa \autoBeamOff
+    \key b \major \time 3/4 \tempoD-I-VIa \autoBeamOff
     \mvTr b'4.\fE^\tutti f8 d b
     f'4 r r
     b4. f8 d b
@@ -32,15 +32,15 @@ D-I-VIIBasso = {
     b,4 r r
     R2. \noBreak
     R\fermata \bar "||"
-    \twofourtime \key g \minor \time 2/4 \tempoD-I-VIIb \newSpacingSection
+    \twofourtime \key g \minor \time 2/4 \tempoD-I-VIb \newSpacingSection
       R2*16 \noBreak %44
     R2\fermata \bar "||"  %45
-    \key b \major \time 4/4 \tempoD-I-VIIc \newSpacingSection
+    \key b \major \time 4/4 \tempoD-I-VIc \newSpacingSection
       R1*8 %53
-    \time 3/4 \tempoD-I-VIId
+    \time 3/4 \tempoD-I-VId
       R2.*17 \noBreak %70
     R2.\fermata \bar "||"
-    \time 4/4 \tempoD-I-VIIe
+    \time 4/4 \tempoD-I-VIe
       r8 \mvTr b~\fE^\tuttiE b16[ c] d([ es]) f8 d16([ es] f8) g16([ a)] \noBreak
     b8 b,16([ c]) d8 c16([ b]) a8([ d]) c b
     a( f'4 es!8) d([ es]) d([ c])
@@ -61,7 +61,7 @@ D-I-VIIBasso = {
   }
 }
 
-D-I-VIIBassoLyrics = \lyricmode {
+D-I-VIBassoLyrics = \lyricmode {
   To -- ta pul -- chra
   es,
   pul -- chra es, Ma --

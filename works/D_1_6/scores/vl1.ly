@@ -2,17 +2,16 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "vl 1")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "D.1.7" "Tota pulchra es, Maria"
+    \section "D.1.6" "Tota pulchra es, Maria"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-I-VIIOrgano }
-        \new FiguredBass { \D-I-VIIBassFigures }
+        \new Staff { \D-I-VIViolinoI }
       >>
     }
   }

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VIISoprano = {
+D-I-VISoprano = {
   \relative c' {
     \clef treble
-    \key b \major \time 3/4 \tempoD-I-VIIa \autoBeamOff
+    \key b \major \time 3/4 \tempoD-I-VIa \autoBeamOff
     \mvTr d'4.\fE^\tutti c8 b d
     c4 r r
     d4. c8 b d
@@ -32,15 +32,15 @@ D-I-VIISoprano = {
     b r r
     R2. \noBreak
     R\fermata \bar "||"
-    \twofourtime \key g \minor \time 2/4 \tempoD-I-VIIb \newSpacingSection
+    \twofourtime \key g \minor \time 2/4 \tempoD-I-VIb \newSpacingSection
       R2*16 \noBreak %44
     R2\fermata \bar "||"  %45
-    \key b \major \time 4/4 \tempoD-I-VIIc \newSpacingSection
+    \key b \major \time 4/4 \tempoD-I-VIc \newSpacingSection
       R1*8 %53
-    \time 3/4 \tempoD-I-VIId
+    \time 3/4 \tempoD-I-VId
       R2.*17 \noBreak %70
     R2.\fermata \bar "||"
-    \time 4/4 \tempoD-I-VIIe R1*4 %75
+    \time 4/4 \tempoD-I-VIe R1*4 %75
     r8 \mvTr f~\fE^\tutti f16[ g] a([ b)] c8 a16_([ b] c8) d16([ e)]
     f8 f, d' b a d g, c
     f, f4 b8 a([ b)] a b16([ c)]
@@ -57,7 +57,7 @@ D-I-VIISoprano = {
   }
 }
 
-D-I-VIISopranoLyrics = \lyricmode {
+D-I-VISopranoLyrics = \lyricmode {
   To -- ta pul -- chra
   es,
   pul -- chra es, Ma --

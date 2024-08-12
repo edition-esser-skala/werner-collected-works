@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VIITenore = {
+D-I-VITenore = {
   \relative c' {
     \clef "treble_8"
-    \key b \major \time 3/4 \tempoD-I-VIIa \autoBeamOff
+    \key b \major \time 3/4 \tempoD-I-VIa \autoBeamOff
     \mvTr b4.\fE^\tuttiE a8 b b
     a4 r r
     b4. a8 b b
@@ -32,7 +32,7 @@ D-I-VIITenore = {
     d4 r r
     R2. \noBreak
     R\fermata \bar "||"
-    \twofourtime \key g \minor \time 2/4 \tempoD-I-VIIb \newSpacingSection
+    \twofourtime \key g \minor \time 2/4 \tempoD-I-VIb \newSpacingSection
       R2*11 %39
     r4 \mvTr d\pE^\soloE %40
     b8. b16 d8 b
@@ -40,7 +40,7 @@ D-I-VIITenore = {
     a4 d
     cis16([ d e d] e8) g, \noBreak
     fis2\fermata \bar "||" %45
-    \key b \major \time 4/4 \tempoD-I-VIIc \newSpacingSection
+    \key b \major \time 4/4 \tempoD-I-VIc \newSpacingSection
       b4~ b16[ c] d([ es)] f8. b,16 b8 d \noBreak
     b a16 g f8 es d4 r8 f
     b d b f g8. g16 g4
@@ -49,7 +49,7 @@ D-I-VIITenore = {
     b[ c d es] g,[ a b c] a[ b c d] f,[ g a b]
     g[ a b c] a[ b c d] b[ c d es] c[ d es f] \noBreak
     d8 b f'16([ d)] c([ b)] a4( g)\trill \noBreak
-    \time 3/4 \tempoD-I-VIId
+    \time 3/4 \tempoD-I-VId
       f4 c' f \noBreak
     cis2 cis4 %55
     r a d
@@ -68,7 +68,7 @@ D-I-VIITenore = {
     b r r
     R2. \noBreak %70
     R\fermata \bar "||"
-    \time 4/4 \tempoD-I-VIIe R1 \noBreak
+    \time 4/4 \tempoD-I-VIe R1 \noBreak
     r8 \mvTr f~\fE^\tuttiE f16[ g] a([ b)] c8 a16_([ b] c8) d16([ e)]
     f8 f,16([ g)] a([ b)] c8 f, g f([ es)]
     d4 d'8 c b16([ c)] d4 e8 %75
@@ -87,7 +87,7 @@ D-I-VIITenore = {
   }
 }
 
-D-I-VIITenoreLyrics = \lyricmode {
+D-I-VITenoreLyrics = \lyricmode {
   To -- ta pul -- chra
   es,
   pul -- chra es, Ma --

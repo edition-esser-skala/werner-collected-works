@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VIIAlto = {
+D-I-VIAlto = {
   \relative c' {
     \clef treble
-    \key b \major \time 3/4 \tempoD-I-VIIa \autoBeamOff
+    \key b \major \time 3/4 \tempoD-I-VIa \autoBeamOff
     \mvTr f4.\fE^\tutti f8 f f
     f4 r r
     f4. f8 f f
@@ -32,15 +32,15 @@ D-I-VIIAlto = {
     f4 r r
     R2. \noBreak
     R\fermata \bar "||"
-    \twofourtime \key g \minor \time 2/4 \tempoD-I-VIIb \newSpacingSection
+    \twofourtime \key g \minor \time 2/4 \tempoD-I-VIb \newSpacingSection
       R2*16 \noBreak %44
     R2\fermata \bar "||"  %45
-    \key b \major \time 4/4 \tempoD-I-VIIc \newSpacingSection
+    \key b \major \time 4/4 \tempoD-I-VIc \newSpacingSection
       R1*8 %53
-    \time 3/4 \tempoD-I-VIId
+    \time 3/4 \tempoD-I-VId
       R2.*17 \noBreak %70
     R2.\fermata \bar "||"
-    \time 4/4 \tempoD-I-VIIe R1*2 %73
+    \time 4/4 \tempoD-I-VIe R1*2 %73
     r2 r8 \mvTr b,~\fE^\tutti b16[ c] d([ es)]
     f8 d16([ es] f8) g16([ a)] b8 b, b' b %75
     b a16([ g)] a8 f e f4 e8
@@ -59,7 +59,7 @@ D-I-VIIAlto = {
   }
 }
 
-D-I-VIIAltoLyrics = \lyricmode {
+D-I-VIAltoLyrics = \lyricmode {
   To -- ta pul -- chra
   es,
   pul -- chra es, Ma --

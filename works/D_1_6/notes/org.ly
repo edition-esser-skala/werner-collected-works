@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VIIOrgano = {
+D-I-VIOrgano = {
   \relative c {
     \clef bass
-    \key b \major \time 3/4 \tempoD-I-VIIa
+    \key b \major \time 3/4 \tempoD-I-VIa
     \mvTr b'8\fE-\tutti d16 c b8 f d b
     f' a16 g f8 f, a f'
     b d16 c b8 f d b
@@ -32,7 +32,7 @@ D-I-VIIOrgano = {
     b r8 b'16 b b8 b
     b4 r8 b,16 b b8 b \noBreak
     b4 r r\fermata \bar "||"
-    \twofourtime \key g \minor \time 2/4 \tempoD-I-VIIb \newSpacingSection
+    \twofourtime \key g \minor \time 2/4 \tempoD-I-VIb \newSpacingSection
       \mvTr g'8\fE-\solo g g g \noBreak
     g g g g %30
     g g g g
@@ -50,7 +50,7 @@ D-I-VIIOrgano = {
     d d d d
     e2 \noBreak
     d\fermata \bar "||" %45
-    \key b \major \time 4/4 \tempoD-I-VIIc \newSpacingSection
+    \key b \major \time 4/4 \tempoD-I-VIc \newSpacingSection
       b8 b b b b b b b \noBreak
     b4 a b r
     d r es r
@@ -59,7 +59,7 @@ D-I-VIIOrgano = {
     g, es' f, d'
     es f g a \noBreak
     b a8 b c4 c,
-    \time 3/4 \tempoD-I-VIId
+    \time 3/4 \tempoD-I-VId
       f8^\markup \remark "staccato" f f f f f \noBreak
     e e e e e e %55
     d d d d d d
@@ -78,7 +78,7 @@ D-I-VIIOrgano = {
     b b b b b b
     b b b b b b \noBreak %70
     b2 r4\fermata \bar "||"
-    \time 4/4 \tempoD-I-VIIe
+    \time 4/4 \tempoD-I-VIe
       r8 \mvTr b~\fE-\tuttiE-! b16 c-! d-! es-! f8-! d16-! es-! f8-! g16-! a-! \noBreak
     << {
       r8 f~ f16 g a b c8 a16 b c8 d16 e
@@ -110,7 +110,7 @@ D-I-VIIOrgano = {
   }
 }
 
-D-I-VIIBassFigures = \figuremode {
+D-I-VIBassFigures = \figuremode {
   r2 \bo <[6]>4
   r2.
   r2 \bc <[6]>4
