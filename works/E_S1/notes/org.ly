@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-Z-XVIIOrgano = {
+E-SIOrgano = {
   \relative c {
     \clef bass
-    \key a \major \time 3/4 \tempoZ-XVII
+    \key a \major \time 3/4 \tempoE-SI
     \mvTr a2\fE-\solo h4
     cis a8 h cis4
     gis' e gis
@@ -207,7 +207,7 @@ Z-XVIIOrgano = {
   }
 }
 
-Z-XVIIBassFigures = \figuremode {
+E-SIBassFigures = \figuremode {
   r2.
   <6>
   q

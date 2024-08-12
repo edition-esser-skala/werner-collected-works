@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-Z-XVIISoprano = {
+E-SISoprano = {
   \relative c' {
     \clef treble
-    \key a \major \time 3/4 \tempoZ-XVII \autoBeamOff
+    \key a \major \time 3/4 \tempoE-SI \autoBeamOff
     R2.*21 %21
     \mvTr a'4(\pE^\solo cis8[ a)] d([ h)]
     e([ cis)] \appoggiatura h4 a2
@@ -125,7 +125,7 @@ Z-XVIISoprano = {
   }
 }
 
-Z-XVIISopranoLyrics = \lyricmode {
+E-SISopranoLyrics = \lyricmode {
   Wann __ der %22
   Him -- mel
   laſ -- ſet

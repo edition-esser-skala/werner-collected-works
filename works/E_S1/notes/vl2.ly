@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-Z-XVIIViolinoII = {
+E-SIViolinoII = {
   \relative c' {
     \clef treble
-    \key a \major \time 3/4 \tempoZ-XVII
+    \key a \major \time 3/4 \tempoE-SI
     a4\fE cis'8( a) d( h)
     e cis \appoggiatura h4 a2
     e8 gis h d h' d,

@@ -12,19 +12,19 @@
 
 \book {
   \bookpart {
-    \section "Z.17" "Wann der Himmel laſſet fallen"
+    \section "E.S1" "Wann der Himmel laſſet fallen"
     \addTocEntry
     \score {
       <<
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \Z-XVIISoprano }
+            \new Voice = "Soprano" { \dynamicUp \E-SISoprano }
           }
-          \new Lyrics \lyricsto Soprano \Z-XVIISopranoLyrics
+          \new Lyrics \lyricsto Soprano \E-SISopranoLyrics
         >>
-        \new Staff { \Z-XVIIOrgano }
-        \new FiguredBass { \Z-XVIIBassFigures }
+        \new Staff { \E-SIOrgano }
+        \new FiguredBass { \E-SIBassFigures }
       >>
     }
   }

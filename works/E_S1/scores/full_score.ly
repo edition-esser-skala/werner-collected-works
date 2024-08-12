@@ -12,7 +12,7 @@
 
 \book {
   \bookpart {
-    \section "Z.17" "Wann der Himmel laſſet fallen"
+    \section "E.S1" "Wann der Himmel laſſet fallen"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -22,29 +22,29 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \Z-XVIIViolinoI
+              \E-SIViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \Z-XVIIViolinoII
+              \E-SIViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \incipit "Soprano" "soprano" #-18.0 #-2.8
-            \new Voice = "Soprano" { \dynamicUp \Z-XVIISoprano }
+            \new Voice = "Soprano" { \dynamicUp \E-SISoprano }
           }
-          \new Lyrics \lyricsto Soprano \Z-XVIISopranoLyrics
+          \new Lyrics \lyricsto Soprano \E-SISopranoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
             % \transpose c c,
-            \Z-XVIIOrgano
+            \E-SIOrgano
           }
         >>
-        \new FiguredBass { \Z-XVIIBassFigures }
+        \new FiguredBass { \E-SIBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 120 }
