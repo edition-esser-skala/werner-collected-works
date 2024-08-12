@@ -7,11 +7,11 @@
 
 \book {
   \bookpart {
-    \section "D.1.11" "Ecce homo sine quærella"
+    \section "D.1.10" "Ecce homo sine quærella"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-I-XIOrgano }
+        \new Staff { \D-I-XOrgano }
       >>
     }
   }

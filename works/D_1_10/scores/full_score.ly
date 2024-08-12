@@ -12,7 +12,7 @@
 
 \book {
   \bookpart {
-    \section "D.1.11" "Ecce homo sine quærella"
+    \section "D.1.10" "Ecce homo sine quærella"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -22,29 +22,29 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \D-I-XIViolinoI
+              \D-I-XViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \D-I-XIViolinoII
+              \D-I-XViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \incipit "Soprano" "soprano" #-18.0 #-2.8
-            \new Voice = "Soprano" { \dynamicUp \D-I-XISoprano }
+            \new Voice = "Soprano" { \dynamicUp \D-I-XSoprano }
           }
-          \new Lyrics \lyricsto Soprano \D-I-XISopranoLyrics
+          \new Lyrics \lyricsto Soprano \D-I-XSopranoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
             % \transpose c c,
-            \D-I-XIOrgano
+            \D-I-XOrgano
           }
         >>
-        \new FiguredBass { \D-I-XIBassFigures }
+        \new FiguredBass { \D-I-XBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 60 } % 75 – 270

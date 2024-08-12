@@ -1,16 +1,16 @@
 \version "2.24.0"
 
-D-I-XISoprano = {
+D-I-XSoprano = {
   \relative c' {
     \clef treble
-    \key f \major \time 4/4 \tempoD-I-XIa \autoBeamOff
+    \key f \major \time 4/4 \tempoD-I-Xa \autoBeamOff
     r8 \mvTr c'4\pE^\solo f8 f c a b16 c
     c8 f, a c es4. d8
     b b d4. a8 a a16 b
     c8 c es es16 d h8 h r d
     c8. g16 g g a b a4. h16 c \noBreak %5
     c8 g r4 r2\fermata \bar "||"
-    \twofourtime \time 2/4 \tempoD-I-XIb
+    \twofourtime \time 2/4 \tempoD-I-Xb
       a16([ b!)] c([ b] c8) c, \noBreak
     f16([ e] f4) f'8
     f([ e16 d] c[ b]) a([ b)]
@@ -71,7 +71,7 @@ D-I-XISoprano = {
     f4 r
     R2*6 \noBreak %74
     R2\fermata \bar "||" %75
-    \time 3/2 \tempoD-I-XIc \newSpacingSection
+    \time 3/2 \tempoD-I-Xc \newSpacingSection
       f2 a c \noBreak
     f r r
     f, a c
@@ -116,7 +116,7 @@ D-I-XISoprano = {
   }
 }
 
-D-I-XISopranoLyrics = \lyricmode {
+D-I-XSopranoLyrics = \lyricmode {
   Ec -- ce ho -- mo si -- ne quae --
   rel -- la ve -- rus De -- i
   cul -- tor ab -- sti -- nens se ab

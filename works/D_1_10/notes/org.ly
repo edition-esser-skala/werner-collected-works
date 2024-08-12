@@ -1,16 +1,16 @@
 \version "2.24.0"
 
-D-I-XIOrgano = {
+D-I-XOrgano = {
   \relative c {
     \clef bass
-    \key f \major \time 4/4 \tempoD-I-XIa
+    \key f \major \time 4/4 \tempoD-I-Xa
     \mvTr f2\pE-\soloE f,
     a a
     b fis'
     fis f
     e f \noBreak %5
     g4 g, c2\fermata \bar "||"
-    \twofourtime \time 2/4 \tempoD-I-XIb
+    \twofourtime \time 2/4 \tempoD-I-Xb
       f4\pE e \noBreak
     d a
     b c
@@ -80,7 +80,7 @@ D-I-XIOrgano = {
     a f e c
     f b, c c, \noBreak
     f4 r\fermata \bar "||" %75
-    \time 3/2 \tempoD-I-XIc \newSpacingSection
+    \time 3/2 \tempoD-I-Xc \newSpacingSection
       f'1\pE r2 \noBreak
     f1 r2
     f1 r2
@@ -133,7 +133,7 @@ D-I-XIOrgano = {
   }
 }
 
-D-I-XIBassFigures = \figuremode {
+D-I-XBassFigures = \figuremode {
   r1
   <6>2 <5->
   r <6>

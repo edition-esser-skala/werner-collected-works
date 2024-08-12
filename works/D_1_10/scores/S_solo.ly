@@ -12,19 +12,19 @@
 
 \book {
   \bookpart {
-    \section "D.1.11" "Ecce homo sine quærella"
+    \section "D.1.10" "Ecce homo sine quærella"
     \addTocEntry
     \score {
       <<
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \D-I-XISoprano }
+            \new Voice = "Soprano" { \dynamicUp \D-I-XSoprano }
           }
-          \new Lyrics \lyricsto Soprano \D-I-XISopranoLyrics
+          \new Lyrics \lyricsto Soprano \D-I-XSopranoLyrics
         >>
-        \new Staff { \D-I-XIOrgano }
-        \new FiguredBass { \D-I-XIBassFigures }
+        \new Staff { \D-I-XOrgano }
+        \new FiguredBass { \D-I-XBassFigures }
       >>
     }
   }

@@ -2,16 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "org")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "D.1.11" "Ecce homo sine quærella"
+    \section "D.1.10" "Ecce homo sine quærella"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-I-XIViolinoI }
+        \new Staff { \D-I-XOrgano }
+        \new FiguredBass { \D-I-XBassFigures }
       >>
     }
   }
