@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-V-Organo = {
+D-II-VIOrgano = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoD-I-V
+    \key c \major \time 4/4 \tempoD-II-VIa
     \mvTr c4\fE-\tutti r8 g' c c r g
     c c r g c g e c
     g'8. g16 g8 e f g a h
@@ -15,8 +15,10 @@ D-I-V-Organo = {
     g4 g, c8 g' e c
     a'4 f g e8 c \noBreak %10
     g2 c\fermata \bar "||"
-    \clef treble \time 6/8 \tempoD-I-V-b \newSpacingSection
-      \partial 8 g''8-! \bar "|" \noBreak c4-! c8-! h8.-! c16-! d8-!
+    \clef treble \time 6/8 \tempoD-II-VIb \newSpacingSection
+      \partial 8 g''8-! \bar "|" \noBreak
+      \set Score.currentBarNumber = #12
+      c4-! c8-! h8.-! c16-! d8-!
     c-! h-! a-! << {
       g c16 d e8
       a, d16 e f8 g, c16 d e8
@@ -73,7 +75,7 @@ D-I-V-Organo = {
     g4 f8 e f d %45
     c h a g f e \noBreak
     f g4 c4.\fermata \bar "||"
-    \time 4/4 \tempoD-I-V-c \newSpacingSection
+    \time 4/4 \tempoD-II-VIc \newSpacingSection
       \mvTr a2\pE-\soloE h \noBreak
     gis a
     e' cis %50
@@ -82,7 +84,7 @@ D-I-V-Organo = {
     es' d
     g a4 gis \noBreak
     a2 d,\fermata \bar "||" %55
-    \key a \minor \time 4/4 \tempoD-I-V-d
+    \key a \minor \time 4/4 \tempoD-II-VId
       \mvTr a'8\fE-\solo a, c a gis e' r gis, \noBreak
     a4 r8 a h g'! r h,
     c4 r8 c f4 r8 fis
@@ -125,7 +127,7 @@ D-I-V-Organo = {
     a8 a, r16 d f16. d32 e8 c f d %95
     e c d e a,16. h32 c16 d e8 e, \noBreak
     a4 r r2\fermata \bar "||"
-    \key c \major \time 3/2 \tempoD-I-V-e \newSpacingSection
+    \key c \major \time 3/2 \tempoD-II-VIe \newSpacingSection
       \mvTr c2\fE-\tutti e g \noBreak
     c r r
     c, e g %100
@@ -168,7 +170,7 @@ D-I-V-Organo = {
   }
 }
 
-D-I-V-BassFigures = \figuremode {
+D-II-VIBassFigures = \figuremode {
   r1
   r2. <[6]>4
   r4. <6> \bo <[6]>8 \bc q

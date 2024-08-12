@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-V-Timpani = {
+D-II-VITimpani = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoD-I-V
+    \key c \major \time 4/4 \tempoD-II-VIa
     c4\fE r c r
     c r8 g c g16 g c8 c
     g16 g32 g g16 g g4 r r8 g
@@ -14,14 +14,16 @@ D-I-V-Timpani = {
     g g16 g g8 g c g c c16 c
     c8 c c c g4 c \noBreak %10
     g8 g16 g g8 g c2\fermata \bar "||"
-    \time 6/8 \tempoD-I-V-b
-      \partial 8 r8 \noBreak R2.*35 \noBreak %46
+    \time 6/8 \tempoD-II-VIb
+      \partial 8 r8 \noBreak
+      \set Score.currentBarNumber = #12
+      R2.*35 \noBreak %46
     R2.\fermata \bar "||"
-    \time 4/4 \tempoD-I-V-c R1*7 \noBreak %54
+    \time 4/4 \tempoD-II-VIc R1*7 \noBreak %54
     R1\fermata \bar "||" %55
-    \time 4/4 \tempoD-I-V-d R1*41 \noBreak %96
+    \time 4/4 \tempoD-II-VId R1*41 \noBreak %96
     R1\fermata \bar "||"
-    \time 3/2 \tempoD-I-V-e \newSpacingSection
+    \time 3/2 \tempoD-II-VIe \newSpacingSection
       c4\fE c8 c c4 c g g \noBreak
     c2 r r
     c4 c8 c c4 c g g8 g %100

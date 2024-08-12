@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-V-Tenore = {
+D-II-VITenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \major \time 4/4 \tempoD-I-V \autoBeamOff
+    \key c \major \time 4/4 \tempoD-II-VIa \autoBeamOff
     r4 r8 \mvTr h\fE^\tutti c c r h
     c c r h c h c c
     h8. h16 h8 e c h a16([ f')] e([ d)]
@@ -15,8 +15,10 @@ D-I-V-Tenore = {
     c4 h c8 d e e
     c4 f d( e \noBreak %10
     d4.) d8 e2\fermata \bar "||"
-    \time 6/8 \tempoD-I-V-b \newSpacingSection
-      \partial 8 r8 \noBreak R2.*7 %18
+    \time 6/8 \tempoD-II-VIb \newSpacingSection
+      \partial 8 r8 \noBreak
+      \set Score.currentBarNumber = #12
+      R2.*7 %18
     r4 g,8 c4 c8
     h8.([ c16)] d8 c([ h)] a %20
     g8.([ f!16 e8)] a a d~
@@ -45,11 +47,11 @@ D-I-V-Tenore = {
     g[ a16 h] c8 c4 d8 %45
     g,([^\critnote h c] d4) e8 \noBreak
     d d4 e4.\fermata \bar "||"
-    \time 4/4 \tempoD-I-V-c \newSpacingSection R1*7 \noBreak %54
+    \time 4/4 \tempoD-II-VIc \newSpacingSection R1*7 \noBreak %54
     R1\fermata \bar "||" %55
-    \key a \minor \time 4/4 \tempoD-I-V-d R1*41 \noBreak %96
+    \key a \minor \time 4/4 \tempoD-II-VId R1*41 \noBreak %96
     R1\fermata \bar "||"
-    \key c \major \time 3/2 \tempoD-I-V-e \newSpacingSection
+    \key c \major \time 3/2 \tempoD-II-VIe \newSpacingSection
       \mvTr c2\fE^\tuttiE c d \noBreak
     e r r
     c c d %100
@@ -92,7 +94,7 @@ D-I-V-Tenore = {
   }
 }
 
-D-I-V-TenoreLyrics = \lyricmode {
+D-II-VITenoreLyrics = \lyricmode {
   Sur -- re -- xit, sur --
   re -- xit, sur -- re -- xit Chri -- stus
   ho -- di -- e hu -- ma -- no pro so --

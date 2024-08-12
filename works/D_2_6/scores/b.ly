@@ -2,17 +2,16 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 2")
+#(define option-instrument-name "b")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "D.1.5" "Surrexit Christus hodie"
+    \section "D.2.6" "Surrexit Christus hodie"
     \addTocEntry
-    \paper { page-count = #3 }
     \score {
       <<
-        \new Staff { \D-I-V-ViolinoII }
+        \new Staff { \D-II-VIOrgano }
       >>
     }
   }

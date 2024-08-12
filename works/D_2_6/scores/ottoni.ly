@@ -10,7 +10,7 @@
 
 \book {
   \bookpart {
-    \section "D.1.5" "Surrexit Christus hodie"
+    \section "D.2.6" "Surrexit Christus hodie"
     \addTocEntry
     \score {
       <<
@@ -19,17 +19,17 @@
             \set GrandStaff.instrumentName = \transposedNameShort "clno" "C" ""
             \new Staff {
               \set Staff.instrumentName = "1"
-              \D-I-V-ClarinoI
+              \D-II-VIClarinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \D-I-V-ClarinoII
+              \D-II-VIClarinoII
             }
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
-          \D-I-V-Timpani
+          \D-II-VITimpani
         }
       >>
     }

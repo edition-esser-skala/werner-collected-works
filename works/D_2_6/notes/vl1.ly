@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-V-ViolinoI = {
+D-II-VIViolinoI = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-I-V
+    \key c \major \time 4/4 \tempoD-II-VIa
     c''16.\fE g32 g16 g e8 d e e r4
     c'16. g32 g16 g e8 d e g4 c8
     h16 g d h g8 c a16 c h d c a' g f
@@ -15,8 +15,10 @@ D-I-V-ViolinoI = {
     c8 h16 a h4\trill c8 h c c
     c c a a g4. g8 \noBreak %10
     g2 g\fermata \bar "||"
-    \time 6/8 \tempoD-I-V-b \newSpacingSection
-      \partial 8 g,8 \noBreak c4 c8 h8. c16 d8 \noBreak
+    \time 6/8 \tempoD-II-VIb \newSpacingSection
+      \partial 8 g,8 \noBreak
+      \set Score.currentBarNumber = #12
+      c4 c8 h8. c16 d8 \noBreak
     c h a g c16 d e8
     a, d16 e f8 g, c16 d e8
     a,4 h8 c e d %15
@@ -52,7 +54,7 @@ D-I-V-ViolinoI = {
     h g a g a f %45
     e g c h4 c8 \noBreak
     c \appoggiatura c h4\trill c4.\fermata \bar "||"
-    \time 4/4 \tempoD-I-V-c \newSpacingSection
+    \time 4/4 \tempoD-II-VIc \newSpacingSection
       c4\pE a gis2 \noBreak
     h a
     c e %50
@@ -61,7 +63,7 @@ D-I-V-ViolinoI = {
     g,4 es' fis, d'~
     d8 b4 g8 g4 f \noBreak
     e2\trill d\fermata \bar "||" %55
-    \key a \minor \time 4/4 \tempoD-I-V-d
+    \key a \minor \time 4/4 \tempoD-II-VId
       r8 e\f a c h16 a gis f e d c h \noBreak
     c a a' e c'8 e d16 c h a g f e d
     e8 g c e d16 a' g f e d c d
@@ -104,7 +106,7 @@ D-I-V-ViolinoI = {
     r16 a c16. a32 f'8 a, gis16. h32 e16. c32 a16. f32 f'16. a,32
     gis16. e32 a16. c,32 d16. h'32 e,16. gis32 a16. g64 f e16 d c8( h16.)\trill a32 \noBreak
     a4 r r2\fermata \bar "||"
-    \key c \major \time 3/2 \tempoD-I-V-e \newSpacingSection
+    \key c \major \time 3/2 \tempoD-II-VIe \newSpacingSection
       e''2\fE g d \noBreak
     e4 d8 c h4 a g f
     e2 c d %100

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-V-Alto = {
+D-II-VIAlto = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-I-V \autoBeamOff
+    \key c \major \time 4/4 \tempoD-II-VIa \autoBeamOff
     r4 r8 \mvTr g'\fE^\tutti g g r g
     g g r g g g g g
     g8. g16 g8 g f e16([ d)] c8 g'
@@ -15,8 +15,10 @@ D-I-V-Alto = {
     g4. g8 g g g g
     e4 a g2~ \noBreak %10
     g4 g g2\fermata \bar "||"
-    \time 6/8 \tempoD-I-V-b \newSpacingSection
-      \partial 8 r8 \noBreak R2.\noBreak
+    \time 6/8 \tempoD-II-VIb \newSpacingSection
+      \partial 8 r8 \noBreak
+      \set Score.currentBarNumber = #12
+      R2.\noBreak
     r4 r8 r4 c,8
     f4 f8 e8.([ f16)] g8
     f([ e)] d c[ c' h] %15
@@ -52,11 +54,11 @@ D-I-V-Alto = {
     g d r e c h %45
     c[( d e16 fis] g4) g8 \noBreak
     a g4 g4.\fermata \bar "||"
-    \time 4/4 \tempoD-I-V-c \newSpacingSection R1*7 \noBreak %54
+    \time 4/4 \tempoD-II-VIc \newSpacingSection R1*7 \noBreak %54
     R1\fermata \bar "||" %55
-    \key a \minor \time 4/4 \tempoD-I-V-d R1*41 \noBreak %96
+    \key a \minor \time 4/4 \tempoD-II-VId R1*41 \noBreak %96
     R1\fermata \bar "||"
-    \key c \major \time 3/2 \tempoD-I-V-e \newSpacingSection
+    \key c \major \time 3/2 \tempoD-II-VIe \newSpacingSection
       \mvTr g2\fE^\tuttiE g g \noBreak
     g r r
     g g g %100
@@ -99,7 +101,7 @@ D-I-V-Alto = {
   }
 }
 
-D-I-V-AltoLyrics = \lyricmode {
+D-II-VIAltoLyrics = \lyricmode {
   Sur -- re -- xit, sur --
   re -- xit, sur -- re -- xit Chri -- stus
   ho -- di -- e hu -- ma -- no pro so --

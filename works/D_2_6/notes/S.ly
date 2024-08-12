@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-V-Soprano = {
+D-II-VISoprano = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-I-V \autoBeamOff
+    \key c \major \time 4/4 \tempoD-II-VIa \autoBeamOff
     r4 r8 \mvTr d'\fE^\tutti e e r d
     e e r d e d c e
     d8. d16 d8 c a h c d
@@ -15,8 +15,10 @@ D-I-V-Soprano = {
     d4. d8 e d c c
     c4 c h8[ c16 d] c4~ \noBreak %10
     c8[ h16 a] h8. h16 c2\fermata \bar "||"
-    \time 6/8 \tempoD-I-V-b \newSpacingSection
-      \partial 8 g8 \noBreak c4 c8 h8.([ c16)] d8 \noBreak
+    \time 6/8 \tempoD-II-VIb \newSpacingSection
+      \partial 8 g8 \noBreak
+      \set Score.currentBarNumber = #12
+      c4 c8 h8.([ c16)] d8 \noBreak
     c([ h)] a g[ c16 d e8]
     a,[ d16 e f8] g,[ c16 d e8]
     a,4 h8 c[ e d] %15
@@ -52,11 +54,11 @@ D-I-V-Soprano = {
     h([ g)] a g([ a)] f %45
     e([ g c] h4) c8 \noBreak
     c \appoggiatura c h4\trill c4.\fermata \bar "||"
-    \time 4/4 \tempoD-I-V-c \newSpacingSection R1*7 \noBreak %54
+    \time 4/4 \tempoD-II-VIc \newSpacingSection R1*7 \noBreak %54
     R1\fermata \bar "||" %55
-    \key a \minor \time 4/4 \tempoD-I-V-d R1*41 \noBreak %96
+    \key a \minor \time 4/4 \tempoD-II-VId R1*41 \noBreak %96
     R1\fermata \bar "||"
-    \key c \major \time 3/2 \tempoD-I-V-e \newSpacingSection
+    \key c \major \time 3/2 \tempoD-II-VIe \newSpacingSection
       \mvTr e2\fE^\tuttiE c h \noBreak
     c r r
     e c h %100
@@ -99,7 +101,7 @@ D-I-V-Soprano = {
   }
 }
 
-D-I-V-SopranoLyrics = \lyricmode {
+D-II-VISopranoLyrics = \lyricmode {
   Sur -- re -- xit, sur --
   re -- xit, sur -- re -- xit Chri -- stus
   ho -- di -- e hu -- ma -- no pro so --

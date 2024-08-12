@@ -1,10 +1,10 @@
 \version "2.24.0"
 
-tempoD-I-V = \tempoMarkup "Allegro"
-tempoD-I-V-b = \tempoMarkup "[Tempo deest]"
-tempoD-I-V-c = \tempoMarkup "Recitativo · Adagio"
-tempoD-I-V-d = \tempoMarkup "Aria · Allegro non molto"
-tempoD-I-V-e = \tempoMarkup "Allegro"
+tempoD-II-VIa = \tempoMarkup "Allegro"
+tempoD-II-VIb = \tempoMarkup "[Tempo deest]"
+tempoD-II-VIc = \tempoMarkup "Recitativo · Adagio"
+tempoD-II-VId = \tempoMarkup "Aria · Allegro non molto"
+tempoD-II-VIe = \tempoMarkup "Allegro"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"

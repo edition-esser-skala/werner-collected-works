@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-V-Basso = {
+D-II-VIBasso = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoD-I-V \autoBeamOff
+    \key c \major \time 4/4 \tempoD-II-VIa \autoBeamOff
     r4 r8 \mvTr g'\fE^\tutti c c r g
     c c r g c g e c
     g'8. g16 g8 e f g a h
@@ -15,8 +15,10 @@ D-I-V-Basso = {
     g4. g8 c, g' e c
     a'4 f g e8[ c] \noBreak %10
     g4. g8 c2\fermata \bar "||"
-    \time 6/8 \tempoD-I-V-b \newSpacingSection
-      \partial 8 r8 \noBreak R2.*9 %20
+    \time 6/8 \tempoD-II-VIb \newSpacingSection
+      \partial 8 r8 \noBreak
+      \set Score.currentBarNumber = #12
+      R2.*9 %20
     r4 c8 f!4 f8
     e8.([ f16)] g8 f([ e)] d
     c4 r8 r4 r8
@@ -43,7 +45,7 @@ D-I-V-Basso = {
     g4 f8 e([ f)] d %45
     c4( a'8 g[ f]) e \noBreak
     f g4 c,4.\fermata \bar "||"
-    \time 4/4 \tempoD-I-V-c \newSpacingSection \mvTr a'8\pE^\soloE a16 a c8 a16 f d8. d16 d4 \noBreak
+    \time 4/4 \tempoD-II-VIc \newSpacingSection \mvTr a'8\pE^\soloE a16 a c8 a16 f d8. d16 d4 \noBreak
     r8 f4 e8 c8. c16 c4
     r8 c e g! g e16 cis a8 g' %50
     f8. f16 f4 r8 f a c!
@@ -51,7 +53,7 @@ D-I-V-Basso = {
     g8. g16 g8 fis a a r16 d, fis a
     b8 b r g16 e! cis8 cis d4~ \noBreak
     d8 a r4 r2\fermata \bar "||" %55
-    \key a \minor \time 4/4 \tempoD-I-V-d
+    \key a \minor \time 4/4 \tempoD-II-VId
       R1*7 %62
     r8 \mvTr e'\pE^\solo a c h16([ a)] gis([ f)] e([ d)] c([ h)]
     a8 e' a c h16([ c)] h([ a)] g([ f)] e([ d)]
@@ -81,7 +83,7 @@ D-I-V-Basso = {
     a,4 r r2 %90
     R1*6 \noBreak %96
     R1\fermata \bar "||"
-    \key c \major \time 3/2 \tempoD-I-V-e \newSpacingSection
+    \key c \major \time 3/2 \tempoD-II-VIe \newSpacingSection
       \mvTr c2\fE^\tuttiE e g \noBreak
     c r r
     c, e g %100
@@ -124,7 +126,7 @@ D-I-V-Basso = {
   }
 }
 
-D-I-V-BassoLyrics = \lyricmode {
+D-II-VIBassoLyrics = \lyricmode {
   Sur -- re -- xit, sur --
   re -- xit, sur -- re -- xit Chri -- stus
   ho -- di -- e hu -- ma -- no pro so --
