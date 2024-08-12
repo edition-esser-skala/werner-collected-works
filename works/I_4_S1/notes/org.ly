@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-Z-VI-Organo = {
+I-IV-SIOrgano = {
   \relative c {
     \clef bass
-    \key c \major \time 3/4 \tempoZ-VI
+    \key c \major \time 3/4 \tempoI-IV-SIa
     r4 \mvTr c'\fE-\soloE g
     r e c
     r c' c,
@@ -129,7 +129,7 @@ Z-VI-Organo = {
     c g g,
     c' g g, \noBreak
     c2 r4\fermata \bar "||" %125
-    \key g \major \time 4/4 \tempoZ-VI-b \newSpacingSection
+    \key g \major \time 4/4 \tempoI-IV-SIb \newSpacingSection
       \partial 8 r8 \noBreak r g g g d' d d d \noBreak
     d d d d g g g g
     h, h c c d e r4
@@ -156,7 +156,7 @@ Z-VI-Organo = {
     d d d d d d d d %150
     e c d d, g cis d d, \noBreak
     g2 r\fermata \bar "||"
-    \key c \major \tempoZ-VI-c
+    \key c \major \tempoI-IV-SIc
       e'2\pE e4 r8 d \noBreak
     c e d g, c e d g,
     c e d g, c c16 d e8 c %155
@@ -165,13 +165,13 @@ Z-VI-Organo = {
     f4 r a8 r c r
     f,4 r r2
     r8 g e c f4 h,! %160
-    c r \tempoZ-VI-d r8 es' c a
+    c r \tempoI-IV-SId r8 es' c a
     fis fis fis fis g cis, d fis
     g g fis fis g g fis fis
     g g, r e' f f e e
     f f e e f f, r4 \noBreak %165
     d'2 c
-    \tempoZ-VI-e r8 e'\fE d c h4 c8 d \noBreak
+    \tempoI-IV-SIe r8 e'\fE d c h4 c8 d \noBreak
     r e, d c h4 c8 d
     e d e f d e16 f g8 g,
     c g' c, c' fis, g fis d %170
@@ -217,7 +217,7 @@ Z-VI-Organo = {
   }
 }
 
-Z-VI-BassFigures = \figuremode {
+I-IV-SIBassFigures = \figuremode {
   r2.
   r4 <[6]>2
   r2.

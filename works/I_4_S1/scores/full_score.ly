@@ -33,7 +33,7 @@
 
 \book {
   \bookpart {
-    \section "Z.6" "Salve Regina"
+    \section "I.4.S1" "Salve Regina"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -43,33 +43,33 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \Z-VI-ViolinoI
+              \I-IV-SIViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \Z-VI-ViolinoII
+              \I-IV-SIViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "Viola"
-            \Z-VI-Viola
+            \I-IV-SIViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \incipit "Soprano" "soprano" #-18.0 #-2.8
-            \new Voice = "Soprano" { \dynamicUp \Z-VI-Soprano }
+            \new Voice = "Soprano" { \dynamicUp \I-IV-SISoprano }
           }
-          \new Lyrics \lyricsto Soprano \Z-VI-SopranoLyrics
+          \new Lyrics \lyricsto Soprano \I-IV-SISopranoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
             % \transpose c c,
-            \Z-VI-Organo
+            \I-IV-SIOrgano
           }
         >>
-        \new FiguredBass { \Z-VI-BassFigures }
+        \new FiguredBass { \I-IV-SIBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 150 } % 50 – 100 – 50 – 100

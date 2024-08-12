@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-Z-VI-Soprano = {
+I-IV-SISoprano = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/4 \tempoZ-VI \autoBeamOff
+    \key c \major \time 3/4 \tempoI-IV-SIa \autoBeamOff
     R2.*29 %29
     \mvTr g'2.\pE^\solo %30
     c
@@ -77,7 +77,7 @@ Z-VI-Soprano = {
     c r4
     R2.*18 \noBreak %124
     R2.\fermata \bar "||" %125
-    \key g \major \time 4/4 \tempoZ-VI-b \newSpacingSection
+    \key g \major \time 4/4 \tempoI-IV-SIb \newSpacingSection
       \partial 8 g'8 \noBreak d'4. g,8 g fis r d \noBreak
     c'8.([ d32 e] d8) c c([ h)] h4
     h8 c16 h a8. g16 fis8 g r g
@@ -103,7 +103,7 @@ Z-VI-Soprano = {
     g4 r r2
     R1*2 \noBreak %151
     R1\fermata \bar "||"
-    \key c \major \tempoZ-VI-c
+    \key c \major \tempoI-IV-SIc
       r8 c4 c8 c16[ g a h] c[ d e f] \noBreak
     g[ e d c] f[ d] c([ h)] c8 c r4
     g'16[( e d c] f[ d]) c([ h)] c8 c c b %155
@@ -112,13 +112,13 @@ Z-VI-Soprano = {
     a[ f g a] b[ c d e] f[ e g f] e[ d c b]
     a[ f g a] b[ c d e] f[ e a g] f[ e d c]
     b4. c8 a2 %160
-    g4 r \tempoZ-VI-d c8 c c c16 c
+    g4 r \tempoI-IV-SId c8 c c c16 c
     c[( d es8.]) d32([ c)] b16 a b8. a16 a8 d
     d2~ d4. c8
     b16([ a)] g8 c4 c2~
     c4. b8 a16([ g)] f8 f'4 \noBreak %165
     f8 h, h h c4 c
-    \tempoZ-VI-e R1*8 %174
+    \tempoI-IV-SIe R1*8 %174
     r4 r8 g c4 f~ %175
     f8 e16([ d)] c8 h c g f'4~
     f8[ e16 d] c8 h \appoggiatura d16 c8([ h16 a] g8) a
@@ -156,7 +156,7 @@ Z-VI-Soprano = {
   }
 }
 
-Z-VI-SopranoLyrics = \lyricmode {
+I-IV-SISopranoLyrics = \lyricmode {
   Sal -- %30
   _
   _

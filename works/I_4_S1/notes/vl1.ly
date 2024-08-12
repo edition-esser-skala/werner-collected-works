@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-Z-VI-ViolinoI = {
+I-IV-SIViolinoI = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/4 \tempoZ-VI
+    \key c \major \time 3/4 \tempoI-IV-SIa
     g'2.\fE
     c
     e
@@ -103,7 +103,7 @@ Z-VI-ViolinoI = {
     e16 d c8 d2\trill
     e,16 d c8 d2\trillE \noBreak
     c r4\fermata \bar "||" %125
-    \key g \major \time 4/4 \tempoZ-VI-b \newSpacingSection
+    \key g \major \time 4/4 \tempoI-IV-SIb \newSpacingSection
       \partial 8 r8 \noBreak r h'\p h h h a a a \noBreak
     r a a c c h~ h16 d(-. d-. d-.)
     d8 d \appoggiatura d c8. h16 a8 g r4
@@ -130,7 +130,7 @@ Z-VI-ViolinoI = {
     g16 d, d d \kneeBeam d h''8 a32 g fis16 d, a' c fis a c fis, %150
     g h, e g, d8 a''\trillE g g,4 fis8 \noBreak
     g2 r\fermata \bar "||"
-    \key c \major \tempoZ-VI-c c2\pE r \noBreak
+    \key c \major \tempoI-IV-SIc c2\pE r \noBreak
     r g'16-! e( d c) f-! d( c h)
     c4 r r2 %155
     c'16-! a( g f) b!-! g( f e) f8 f, r4
@@ -138,12 +138,12 @@ Z-VI-ViolinoI = {
     r2 c''8 r g r
     a4 r r2
     g4. a8 f2 %160
-    e4 r \tempoZ-VI-d es16(-. es-. es-. es-.) es(-. es-. es-. es-.)
+    e4 r \tempoI-IV-SId es16(-. es-. es-. es-.) es(-. es-. es-. es-.)
     es8-! es-! es-! es-! << { g[ g] } \\ { d4 } >> fis8 a
     b64 c d16. b64 a g16. d8 a'\trill b64 c d16. b64 a g16. d8 a'\trill
     g4 r8 g a64 b c16. a64 g f16. c8 g'\trill
     a64 b c16. a64 g f16. c8 g'\trill f4 r \noBreak %165
-    r2 r4 r8 g,\fE \tempoZ-VI-e
+    r2 r4 r8 g,\fE \tempoI-IV-SIe
     c4 f4. e16 d c8 h \noBreak
     c g f'4. e16 d c8 h
     \appoggiatura d16 c8 h16 a g8 a \appoggiatura g4 f2

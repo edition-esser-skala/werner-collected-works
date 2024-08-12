@@ -7,12 +7,12 @@
 
 \book {
   \bookpart {
-    \section "Z.6" "Salve Regina"
+    \section "I.4.S1" "Salve Regina"
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-VI-Organo }
-        \new FiguredBass { \Z-VI-BassFigures }
+        \new Staff { \I-IV-SIOrgano }
+        \new FiguredBass { \I-IV-SIBassFigures }
       >>
     }
   }

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-Z-VI-Viola = {
+I-IV-SIViola = {
   \relative c' {
     \clef alto
-    \key c \major \time 3/4 \tempoZ-VI
+    \key c \major \time 3/4 \tempoI-IV-SIa
     r4 e\fE h
     r g' e
     r g g
@@ -103,7 +103,7 @@ Z-VI-Viola = {
     c c h
     c c h \noBreak
     c2 r4\fermata \bar "||" %125
-    \key g \major \time 4/4 \tempoZ-VI-b \newSpacingSection
+    \key g \major \time 4/4 \tempoI-IV-SIb \newSpacingSection
       \partial 8 r8 \noBreak
     r d\pE d d d d d d \noBreak
     r d d d d d d d
@@ -131,7 +131,7 @@ Z-VI-Viola = {
     d16 d d d d8 d d d d d %150
     e c d fis g4 r8 d \noBreak
     d2 r\fermata \bar "||"
-    \key c \major \tempoZ-VI-c e2\pE r \noBreak
+    \key c \major \tempoI-IV-SIc e2\pE r \noBreak
     r r8 c c16( h) f'8
     e4 r r2 %155
     r8 f f16 e b'8 a4 r
@@ -139,13 +139,13 @@ Z-VI-Viola = {
     r2 c8 r c r
     c4 r r2
     r8 d, g e c4 h! %160
-    c r \tempoZ-VI-d r8 es c a
+    c r \tempoI-IV-SId r8 es c a
     fis' fis fis fis g cis, d fis
     g g a fis g g a fis
     g4 e8 e f f g e
     f f g e f4 r \noBreak %165
     R1
-    \tempoZ-VI-e r8 g\fE f e d4 e8 f \noBreak
+    \tempoI-IV-SIe r8 g\fE f e d4 e8 f \noBreak
     r g f e d4 e8 f
     g4 c,2 h4
     c8 g'4 g8 a h a fis %170
