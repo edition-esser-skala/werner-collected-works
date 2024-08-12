@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-Z-XVISoprano = {
+D-V-SISoprano = {
   \relative c' {
     \clef treble
-    \key a \major \time 4/4 \tempoZ-XVI \autoBeamOff
+    \key a \major \time 4/4 \tempoD-V-SI \autoBeamOff
     R1*10 %10
     \mvTr e'4\pE^\solo e a,16([ gis)] a4.
     h16([ cis d e] fis[ d]) cis([ h)] \tuplet 3/2 8 { cis([ h a)] } a4.
@@ -46,7 +46,7 @@ Z-XVISoprano = {
   }
 }
 
-Z-XVISopranoLyrics = \lyricmode {
+D-V-SISopranoLyrics = \lyricmode {
   Da -- te ro -- sas, %11
   da -- te flo -- res,
   da -- te flo -- res,

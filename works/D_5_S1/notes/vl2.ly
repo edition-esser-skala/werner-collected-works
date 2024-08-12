@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-Z-XVIViolinoII = {
+D-V-SIViolinoII = {
   \relative c' {
     \clef treble
-    \key a \major \time 4/4 \tempoZ-XVI
+    \key a \major \time 4/4 \tempoD-V-SI
     cis'16\fE h cis8 cis16 h cis8 cis16 h cis8 e4
     fis,8 fis gis gis a cis16 a e4
     fis8 fis gis gis a cis r gis
