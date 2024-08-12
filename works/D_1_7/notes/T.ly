@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VIII-Tenore = {
+D-I-VII-Tenore = {
   \relative c' {
     \clef "treble_8"
-    \key b \major \time 4/4 \autoBeamOff \tempoD-I-VIII-Veni
+    \key b \major \time 4/4 \autoBeamOff \tempoD-I-VII-Veni
     \mvTr b4\fE^\tutti c8 d c2
     f,4 r8 f' b,([ c)] b4
     b( a8.) b16^\critnote b4 r
@@ -28,7 +28,7 @@ D-I-VIII-Tenore = {
     b4 r r8 es es es
     c4 d c4. c8 \noBreak
     d1\fermata \bar "||"
-    \tempoD-I-VIII-QuiDiceris R1 \noBreak %25
+    \tempoD-I-VII-QuiDiceris R1 \noBreak %25
     r4 \mvTr g,\pE^\solo d'8. g,16 g8 f
     es8. es16 es4 r8 g c c16 c
     c8 f, c' a f4 f
@@ -40,7 +40,7 @@ D-I-VIII-Tenore = {
     d8 b r4 r8 c c d
     b([ a)] g([ a)] b4. a16([ g)] \noBreak %35
     a1\fermata \bar "||"
-    \tempoD-I-VIII-Accende R1*8 %44
+    \tempoD-I-VII-Accende R1*8 %44
     r8 \mvTr f\pE^\soloE d' c16 b c8 f, b8. a16 %45
     a4 r r8 c c d16 e
     f8 f, r4 r8 g g a16 g
@@ -63,7 +63,7 @@ D-I-VIII-Tenore = {
     r4 r8 c' h16([ c)] h([ c)] d8 c16([ h)]
     c2~ c8[ b16 a] b([ a g8)] \noBreak
     g4( fis8.)\trill g16 g4 r \markDaCapo \bar "||" %70
-    \tempoD-I-VIII-DeoPatri R1 \noBreak
+    \tempoD-I-VII-DeoPatri R1 \noBreak
     r2 \mvTr b\fE^\tutti
     a4 c f, b
     a g8([ f)] g[ f g a]
@@ -107,7 +107,7 @@ D-I-VIII-Tenore = {
   }
 }
 
-D-I-VIII-TenoreLyrics = \lyricmode {
+D-I-VII-TenoreLyrics = \lyricmode {
   Ve -- ni, cre -- a --
   tor, cre -- a -- tor
   Spi -- ri -- tus,

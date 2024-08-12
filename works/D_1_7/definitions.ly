@@ -6,10 +6,10 @@ markDaCapo = {
   \mark \markup \remark "da capo"
 }
 
-tempoD-I-VIII-Veni = \tempoMarkup "Presto"
-tempoD-I-VIII-QuiDiceris = \tempoMarkup "Adagio"
-tempoD-I-VIII-Accende = \tempoMarkup "Vivace"
-tempoD-I-VIII-DeoPatri = \tempoMarkup "Presto"
+tempoD-I-VII-Veni = \tempoMarkup "Presto"
+tempoD-I-VII-QuiDiceris = \tempoMarkup "Adagio"
+tempoD-I-VII-Accende = \tempoMarkup "Vivace"
+tempoD-I-VII-DeoPatri = \tempoMarkup "Presto"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

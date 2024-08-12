@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VIII-Soprano = {
+D-I-VII-Soprano = {
   \relative c' {
     \clef treble
-    \key b \major \time 4/4 \autoBeamOff \tempoD-I-VIII-Veni
+    \key b \major \time 4/4 \autoBeamOff \tempoD-I-VII-Veni
     \mvTr b'2\fE^\tutti f'4 f
     d b r8 es d c
     d4( c8.)\trill b16^\critnote b8 d c b
@@ -28,7 +28,7 @@ D-I-VIII-Soprano = {
     d f f f b,2
     a4 b2 a4 \noBreak
     b1\fermata \bar "||"
-    \tempoD-I-VIII-QuiDiceris R1*3 %27
+    \tempoD-I-VII-QuiDiceris R1*3 %27
     r4 \mvTr f\pE^\solo c'8. f,16 f8 es
     d8. d16 d4 r8 f b b16 b
     b8 es, es' b g4 g %30
@@ -38,8 +38,8 @@ D-I-VIII-Soprano = {
     r8 d d c16([ b)] c4.( b16[ a])
     b8([ c)] d2 c4 \noBreak %35
     d1\fermata \bar "||"
-    \tempoD-I-VIII-Accende R1*34 \bar "||" %70
-    \tempoD-I-VIII-DeoPatri R1*5 %75
+    \tempoD-I-VII-Accende R1*34 \bar "||" %70
+    \tempoD-I-VII-DeoPatri R1*5 %75
     r2 \mvTr b\fE^\tutti
     a4 c f, b
     a g8([ f)] g[( f g a]
@@ -80,7 +80,7 @@ D-I-VIII-Soprano = {
   }
 }
 
-D-I-VIII-SopranoLyrics = \lyricmode {
+D-I-VII-SopranoLyrics = \lyricmode {
   Ve -- ni, cre --
   a -- tor, cre -- a -- tor
   Spi -- ri -- tus, men -- tes tu --

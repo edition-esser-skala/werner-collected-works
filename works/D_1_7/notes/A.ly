@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VIII-Alto = {
+D-I-VII-Alto = {
   \relative c' {
     \clef treble
-    \key b \major \time 4/4 \autoBeamOff \tempoD-I-VIII-Veni
+    \key b \major \time 4/4 \autoBeamOff \tempoD-I-VII-Veni
     R1
     \mvTr b2\fE^\tutti g'8 es f g
     f4. f8 f4 r
@@ -28,7 +28,7 @@ D-I-VIII-Alto = {
     f4 r r8 g g g
     f4 f f4. f8 \noBreak
     f1\fermata \bar "||"
-    \tempoD-I-VIII-QuiDiceris r4 \mvTr d\pE^\solo a'8. d,16 d8 c \noBreak %25
+    \tempoD-I-VII-QuiDiceris r4 \mvTr d\pE^\solo a'8. d,16 d8 c \noBreak %25
     b8. b16 b4 r8 d g g16 g
     g8 c, g' es c4 c
     R1
@@ -40,7 +40,7 @@ D-I-VIII-Alto = {
     f4 r8 g g fis16([ e)] fis8([ a)]
     d,2 g4. g8 \noBreak %35
     fis1\fermata \bar "||"
-    \tempoD-I-VIII-Accende R1*7 %43
+    \tempoD-I-VII-Accende R1*7 %43
     r8 \mvTr f\pE^\soloE b a16([ g)] f8 b, es8. es16
     d4 r r2 %45
     r8 c c d16([ e)] f8 f, r4
@@ -64,7 +64,7 @@ D-I-VIII-Alto = {
     d16([ es)] d([ es)] f2~ f8 es16([ d)]
     es2 d8 d4 es16([ c)] \noBreak
     b4( a8.)\trill g16 g4 r \markDaCapo \bar "||" %70
-    \tempoD-I-VIII-DeoPatri R1*4
+    \tempoD-I-VII-DeoPatri R1*4
     \mvTr f'2\fE^\tutti d4 g %75
     c, f4. f8 e4
     f4. es8 d4 r
@@ -106,7 +106,7 @@ D-I-VIII-Alto = {
   }
 }
 
-D-I-VIII-AltoLyrics = \lyricmode {
+D-I-VII-AltoLyrics = \lyricmode {
   Ve -- ni, cre -- a -- tor %2
   Spi -- ri -- tus,
   men -- tes tu -- o -- rum vi -- si --

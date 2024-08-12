@@ -1,8 +1,8 @@
 \version "2.24.0"
 
-D-I-VIII-Chords = {
+D-I-VII-Chords = {
   \clef treble
-  \key b \major \time 4/4 \tempoD-I-VIII-Veni
+  \key b \major \time 4/4 \tempoD-I-VII-Veni
   << \relative c' {
     <f b>2 <f c'>
     <f b> b8 c b4
@@ -28,7 +28,7 @@ D-I-VIII-Chords = {
     b r <es, g>2
     <f a>4 <f b> b a
     <f b>1\fermata \bar "||"
-    \tempoD-I-VIII-QuiDiceris d2 d %25
+    \tempoD-I-VII-QuiDiceris d2 d %25
     d <d g>
     <c es> <c g'>
     <c f> q
@@ -40,7 +40,7 @@ D-I-VIII-Chords = {
     <b d,>2 <c c,>
     <g b>4. <d a'>8 <b g'>2 %35
     <d fis>1\fermata \bar "||"
-    \tempoD-I-VIII-Accende <f b>4. <f a>8 <d b'>4 <g c>8 <f a>
+    \tempoD-I-VII-Accende <f b>4. <f a>8 <d b'>4 <g c>8 <f a>
     <f b>4 r8 q b a <g b,>4
     b8 a <f b> <g b> <e b'> <f a> <c g'>4
     <c f> f8 <d a'> b'2 %40
@@ -74,7 +74,7 @@ D-I-VIII-Chords = {
     <as c>8 <es b'> <f as>4 <f g>2
     <es g>4 <es a> <d a'> <d g>8 <es g>
     <b g'>4 <a fis'> <d g> r \bar "||" %70
-    \tempoD-I-VIII-DeoPatri \oneVoice R1
+    \tempoD-I-VII-DeoPatri \oneVoice R1
     R
     R
     R \voiceOne

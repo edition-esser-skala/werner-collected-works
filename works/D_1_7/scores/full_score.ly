@@ -18,7 +18,7 @@
 
 \book {
   \bookpart {
-    \section "D.1.8" "Veni creator Spiritus"
+    \section "D.1.7" "Veni creator Spiritus"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -28,47 +28,47 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \D-I-VIII-ViolinoI
+              \D-I-VII-ViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \D-I-VIII-ViolinoII
+              \D-I-VII-ViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \incipitSoprano
-            \new Voice = "Soprano" { \dynamicUp \D-I-VIII-Soprano }
+            \new Voice = "Soprano" { \dynamicUp \D-I-VII-Soprano }
           }
-          \new Lyrics \lyricsto Soprano \D-I-VIII-SopranoLyrics
+          \new Lyrics \lyricsto Soprano \D-I-VII-SopranoLyrics
 
           \new Staff {
             \incipitAlto
-            \new Voice = "Alto" { \dynamicUp \D-I-VIII-Alto }
+            \new Voice = "Alto" { \dynamicUp \D-I-VII-Alto }
           }
-          \new Lyrics \lyricsto Alto \D-I-VIII-AltoLyrics
+          \new Lyrics \lyricsto Alto \D-I-VII-AltoLyrics
 
           \new Staff {
             \incipitTenore
-            \new Voice = "Tenore" { \dynamicUp \D-I-VIII-Tenore }
+            \new Voice = "Tenore" { \dynamicUp \D-I-VII-Tenore }
           }
-          \new Lyrics \lyricsto Tenore \D-I-VIII-TenoreLyrics
+          \new Lyrics \lyricsto Tenore \D-I-VII-TenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \D-I-VIII-Basso }
+            \new Voice = "Basso" { \dynamicUp \D-I-VII-Basso }
           }
-          \new Lyrics \lyricsto Basso \D-I-VIII-BassoLyrics
+          \new Lyrics \lyricsto Basso \D-I-VII-BassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
             % \transpose c c,
-            \D-I-VIII-Organo
+            \D-I-VII-Organo
           }
         >>
-        \new FiguredBass { \D-I-VIII-BassFigures }
+        \new FiguredBass { \D-I-VII-BassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 110 } % 55 – 90 – 130

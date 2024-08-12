@@ -7,11 +7,11 @@
 
 \book {
   \bookpart {
-    \section "D.1.8" "Veni creator Spiritus"
+    \section "D.1.7" "Veni creator Spiritus"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-I-VIII-ViolinoI }
+        \new Staff { \D-I-VII-ViolinoI }
       >>
     }
   }

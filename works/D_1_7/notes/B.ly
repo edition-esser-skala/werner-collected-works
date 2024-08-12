@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VIII-Basso = {
+D-I-VII-Basso = {
   \relative c {
     \clef bass
-    \key b \major \time 4/4 \autoBeamOff \tempoD-I-VIII-Veni
+    \key b \major \time 4/4 \autoBeamOff \tempoD-I-VII-Veni
     r2 \mvTr f\fE^\tutti
     b4 b g f8([ es)]
     f4. f8 b,4 r
@@ -28,7 +28,7 @@ D-I-VIII-Basso = {
     b,4 r r8 es es es
     f4 b, f4. f8 \noBreak
     b1\fermata \bar "||"
-    \tempoD-I-VIII-QuiDiceris R1*2 %26
+    \tempoD-I-VII-QuiDiceris R1*2 %26
     r4 \mvTr c\pE^\solo g'8. c,16 c8 b
     a8. a16 a4 r8 c f f16 f
     f8 b, f' d b4 b
@@ -39,8 +39,8 @@ D-I-VIII-Basso = {
     b,4 r r8 a' a g16([ fis)]
     g4. f8 es4. es8 \noBreak %35
     d1\fermata \bar "||"
-    \tempoD-I-VIII-Accende R1*34 \bar "||" %70
-    \tempoD-I-VIII-DeoPatri \mvTr f2\fE^\tutti d4 g \noBreak
+    \tempoD-I-VII-Accende R1*34 \bar "||" %70
+    \tempoD-I-VII-DeoPatri \mvTr f2\fE^\tutti d4 g \noBreak
     c, f es d
     c4. c8 d([ c)] d([ e)]
     f[ c] f2 es4
@@ -85,7 +85,7 @@ D-I-VIII-Basso = {
   }
 }
 
-D-I-VIII-BassoLyrics = \lyricmode {
+D-I-VII-BassoLyrics = \lyricmode {
   Ve --
   ni, cre -- a -- tor
   Spi -- ri -- tus,

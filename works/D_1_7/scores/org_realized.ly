@@ -6,15 +6,15 @@
 
 \book {
   \bookpart {
-    \section "D.1.8" "Veni creator Spiritus"
+    \section "D.1.7" "Veni creator Spiritus"
     \addTocEntry
     \score {
       <<
         \new PianoStaff <<
-          \new Staff { \D-I-VIII-Chords }
-          \new Staff { \D-I-VIII-Organo }
+          \new Staff { \D-I-VII-Chords }
+          \new Staff { \D-I-VII-Organo }
         >>
-        \new FiguredBass { \D-I-VIII-BassFigures }
+        \new FiguredBass { \D-I-VII-BassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 60 }

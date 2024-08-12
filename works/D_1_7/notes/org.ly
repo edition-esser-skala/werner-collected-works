@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VIII-Organo = {
+D-I-VII-Organo = {
   \relative c {
     \clef bass
-    \key b \major \time 4/4 \tempoD-I-VIII-Veni
+    \key b \major \time 4/4 \tempoD-I-VII-Veni
     \mvTr b'8\fE-\tutti d c b a f g a
     b a g f es c d es
     f es f f, b4 r
@@ -28,7 +28,7 @@ D-I-VIII-Organo = {
     b,4 r r8 es es es
     f4 b, f2 \noBreak
     b1\fermata \bar "||"
-    \tempoD-I-VIII-QuiDiceris \mvTr g'2\pE-\solo fis \noBreak %25
+    \tempoD-I-VII-QuiDiceris \mvTr g'2\pE-\solo fis \noBreak %25
     g h,
     c e
     f a,
@@ -40,7 +40,7 @@ D-I-VIII-Organo = {
     b,2 a
     g4. f!8 es2 \noBreak %35
     d1\fermata \bar "||"
-    \tempoD-I-VIII-Accende \mvTr b'4.\fE-\soloE c8 d g c, f \noBreak
+    \tempoD-I-VII-Accende \mvTr b'4.\fE-\soloE c8 d g c, f \noBreak
     b,4 r8 b f'4 g
     f b8 g c f, c4
     f a8 f g4 c, %40
@@ -74,7 +74,7 @@ D-I-VIII-Organo = {
     f g as f g a? h g
     c, c'16 b a!8 g fis d g c, \noBreak
     d4 d, g r \markDaCapo \bar "||" %70
-    \tempoD-I-VIII-DeoPatri \mvTr f'2\fE-\tuttiE-! d4-! g-! \noBreak
+    \tempoD-I-VII-DeoPatri \mvTr f'2\fE-\tuttiE-! d4-! g-! \noBreak
     c,-! f-! << {
       b2
       a4 c f, b
@@ -130,7 +130,7 @@ D-I-VIII-Organo = {
   }
 }
 
-D-I-VIII-BassFigures = \figuremode {
+D-I-VII-BassFigures = \figuremode {
   r2 <[6]>
   r2. \bo <[6 _]>8 \bc <[6 5]>
   <6 4>4 <5 3>2.

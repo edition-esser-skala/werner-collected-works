@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VIII-ViolinoII = {
+D-I-VII-ViolinoII = {
   \relative c' {
     \clef treble
-    \key b \major \time 4/4 \tempoD-I-VIII-Veni
+    \key b \major \time 4/4 \tempoD-I-VII-Veni
     r2 r8 a'\f b c
     f,4 r8 f' b, c b4~
     b a b r
@@ -28,7 +28,7 @@ D-I-VIII-ViolinoII = {
     d f f f b,2
     a4 b2 a4 \noBreak
     b1\fermata \bar "||"
-    \tempoD-I-VIII-QuiDiceris b2\p a \noBreak %25
+    \tempoD-I-VII-QuiDiceris b2\p a \noBreak %25
     b g
     g1
     a
@@ -40,7 +40,7 @@ D-I-VIII-ViolinoII = {
     b c
     b4. a8 g2 \noBreak %35
     fis1\fermata \bar "||"
-    \tempoD-I-VIII-Accende R1 \noBreak
+    \tempoD-I-VII-Accende R1 \noBreak
     r8 f\f d' c16 b c8 f, b8. b16
     b8 a16 c d8 b~ b16 c a b g8.\trill g16
     f8 c'~ c16 c d a b8 g'16 f g8 b, %40
@@ -67,7 +67,7 @@ D-I-VIII-ViolinoII = {
     es4 r r8 b'\pE es16 b g es
     d'8 g, r4 r2
     R1*3 \markDaCapo \bar "||" %70 finis
-    \tempoD-I-VIII-DeoPatri R1*4
+    \tempoD-I-VII-DeoPatri R1*4
     f2\fE d4 g %75
     c, f4. f8 e4
     f4. es8 d4 r
