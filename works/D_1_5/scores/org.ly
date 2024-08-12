@@ -2,16 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "org")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "D.1.6" "Domum tuam Domine"
+    \section "D.1.5" "Domum tuam Domine"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-I-VIViolinoI }
+        \new Staff { \D-I-VOrgano }
+        \new FiguredBass { \D-I-VBassFigures }
       >>
     }
   }

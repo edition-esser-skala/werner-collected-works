@@ -7,11 +7,11 @@
 
 \book {
   \bookpart {
-    \section "D.1.6" "Domum tuam Domine"
+    \section "D.1.5" "Domum tuam Domine"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-I-VIViolinoII }
+        \new Staff { \D-I-VViolinoII }
       >>
     }
   }

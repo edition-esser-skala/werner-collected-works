@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VITenore = {
+D-I-VTenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \major \time 4/4 \tempoD-I-VIa \autoBeamOff
+    \key c \major \time 4/4 \tempoD-I-Va \autoBeamOff
     r4 \mvDl c2\fE^\tutti c4
     d2 d
     e2. c4
@@ -45,13 +45,13 @@ D-I-VITenore = {
     d1 %40
     e2 r \noBreak
     R1\fermata \bar "||"
-    \key e \minor \time 3/4 \tempoD-I-VIb \newSpacingSection
+    \key e \minor \time 3/4 \tempoD-I-Vb \newSpacingSection
       R2.*59  %101
     R2.\fermata \markDomumDaCapo \bar "||" %102 finis
   }
 }
 
-D-I-VITenoreLyrics = \lyricmode {
+D-I-VTenoreLyrics = \lyricmode {
   Do -- mum
   tu -- am,
   Do -- mi --

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VIBasso = {
+D-I-VBasso = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoD-I-VIa \autoBeamOff
+    \key c \major \time 4/4 \tempoD-I-Va \autoBeamOff
     r4 \mvDl c'2\fE^\tutti c4
     h2 h
     a2. a4
@@ -46,13 +46,13 @@ D-I-VIBasso = {
     g2( g,) %40
     c r \noBreak
     R1\fermata \bar "||"
-    \key e \minor \time 3/4 \tempoD-I-VIb \newSpacingSection
+    \key e \minor \time 3/4 \tempoD-I-Vb \newSpacingSection
       R2.*59 %101
     R2.\fermata \markDomumDaCapo \bar "||" %102 finis
   }
 }
 
-D-I-VIBassoLyrics = \lyricmode {
+D-I-VBassoLyrics = \lyricmode {
   Do -- mum
   tu -- am,
   Do -- mi --

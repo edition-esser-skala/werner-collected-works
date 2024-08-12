@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VIOrgano = {
+D-I-VOrgano = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoD-I-VIa
+    \key c \major \time 4/4 \tempoD-I-Va
     \mvTr c8\fE-\tutti ^\tweak TextScript.X-offset #0 ^\markup \remark "staccato per tutto" c c c c c c c
     h h h h h h h h
     a a a a a a a a
@@ -46,7 +46,7 @@ D-I-VIOrgano = {
     g g g g g g g g %40
     c c c c c c c c \noBreak
     c4 r r2\fermata \bar "||"
-    \key e \minor \time 3/4 \tempoD-I-VIb \newSpacingSection
+    \key e \minor \time 3/4 \tempoD-I-Vb \newSpacingSection
       \mvTr e4\fE-\solo e, r \noBreak
     e'8( fis) g( a) h( c)
     h4. cis8 dis e %45
@@ -109,7 +109,7 @@ D-I-VIOrgano = {
   }
 }
 
-D-I-VIBassFigures = \figuremode {
+D-I-VBassFigures = \figuremode {
   r1
   <[6]>
   <7>2. <6\\>4

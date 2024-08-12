@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VIViolinoII = {
+D-I-VViolinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-I-VIa
+    \key c \major \time 4/4 \tempoD-I-Va
     r8 c\fE e g c e g c
     d, h, d g h d g h
     c, c, e a c e fis a
@@ -46,7 +46,7 @@ D-I-VIViolinoII = {
     d, d, h d g h d g %40
     e c, e g c c e g \noBreak
     c c, r4 r2\fermata \bar "||"
-    \key e \minor \time 3/4 \tempoD-I-VIb \newSpacingSection
+    \key e \minor \time 3/4 \tempoD-I-Vb \newSpacingSection
       R2.*2
     h,8(\f cis) dis( e) fis( g) %45
     fis4 r e

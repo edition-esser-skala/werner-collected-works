@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VISoprano = {
+D-I-VSoprano = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-I-VIa \autoBeamOff
+    \key c \major \time 4/4 \tempoD-I-Va \autoBeamOff
     r4 \mvDl e'2\fE^\tutti e4
     g2 d
     c2. c4
@@ -44,13 +44,13 @@ D-I-VISoprano = {
     c_( h8[ a] h2) %40
     c r \noBreak
     R1\fermata \bar "||"
-    \key e \minor \time 3/4 \tempoD-I-VIb \newSpacingSection
+    \key e \minor \time 3/4 \tempoD-I-Vb \newSpacingSection
       R2.*59 %101
     R2.\fermata \markDomumDaCapo \bar "||" %102 finis
   }
 }
 
-D-I-VISopranoLyrics = \lyricmode {
+D-I-VSopranoLyrics = \lyricmode {
   Do -- mum
   tu -- am,
   Do -- mi --

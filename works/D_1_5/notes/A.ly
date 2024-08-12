@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VIAlto = {
+D-I-VAlto = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-I-VIa \autoBeamOff
+    \key c \major \time 4/4 \tempoD-I-Va \autoBeamOff
     r4 \mvDl g'2\fE^\tutti g4
     g2 g
     g2. fis4
@@ -45,7 +45,7 @@ D-I-VIAlto = {
     g1 %40
     g2 r \noBreak
     R1\fermata \bar "||"
-    \key e \minor \time 3/4 \tempoD-I-VIb \newSpacingSection
+    \key e \minor \time 3/4 \tempoD-I-Vb \newSpacingSection
       R2.*12 %54
     r4 \mvTr h\pE^\solo g %55
     e8([ dis)] e4 r
@@ -93,7 +93,7 @@ D-I-VIAlto = {
   }
 }
 
-D-I-VIAltoLyrics = \lyricmode {
+D-I-VAltoLyrics = \lyricmode {
   Do -- mum
   tu -- am,
   Do -- mi --

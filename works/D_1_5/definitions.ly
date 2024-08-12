@@ -5,8 +5,8 @@ markDomumDaCapo = {
   \mark \markup \remark "Domum tuam da capo"
 }
 
-tempoD-I-VIa = \tempoMarkup "Allegro"
-tempoD-I-VIb = \tempoMarkup "Arietta · Larghetto"
+tempoD-I-Va = \tempoMarkup "Allegro"
+tempoD-I-Vb = \tempoMarkup "Arietta · Larghetto"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"

@@ -10,7 +10,7 @@
 
 \book {
   \bookpart {
-    \section "D.1.6" "Domum tuam Domine"
+    \section "D.1.5" "Domum tuam Domine"
     \addTocEntry
     \score {
       <<
@@ -19,17 +19,17 @@
             \set GrandStaff.instrumentName = \transposedNameShort "clno" "C" ""
             \new Staff {
               \set Staff.instrumentName = "1"
-              \D-I-VIClarinoI
+              \D-I-VClarinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \D-I-VIClarinoII
+              \D-I-VClarinoII
             }
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
-          \D-I-VITimpani
+          \D-I-VTimpani
         }
       >>
     }

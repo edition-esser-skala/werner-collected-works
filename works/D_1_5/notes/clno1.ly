@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VIClarinoI = {
+D-I-VClarinoI = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoD-I-VIa
+    \key c \major \time 4/4 \tempoD-I-Va
     c'4\fE r c r8 e
     d4 r d r
     R1
@@ -34,7 +34,7 @@ D-I-VIClarinoI = {
     d r d d8 d %40
     \pa c c16 c c4 r8 c16 c \pd c8 c \noBreak
     c4 r r2\fermata \bar "||"
-    \time 3/4 \tempoD-I-VIb \newSpacingSection
+    \time 3/4 \tempoD-I-Vb \newSpacingSection
       R2.*59 %101
     R2.\fermata \markDomumDaCapo \bar "||" %102 finis
   }

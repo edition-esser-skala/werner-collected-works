@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-I-VITimpani = {
+D-I-VTimpani = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoD-I-VIa
+    \key c \major \time 4/4 \tempoD-I-Va
     c4\fE r r2
     g4 r r2
     R1*13 %15
@@ -25,7 +25,7 @@ D-I-VITimpani = {
     g r g r %40
     c r c8 c16 c c8 c16 c \noBreak
     c4 r r2\fermata \bar "||"
-    \time 3/4 \tempoD-I-VIb \newSpacingSection
+    \time 3/4 \tempoD-I-Vb \newSpacingSection
       R2.*59 %101
     R2.\fermata \markDomumDaCapo \bar "||" %102 finis
   }
