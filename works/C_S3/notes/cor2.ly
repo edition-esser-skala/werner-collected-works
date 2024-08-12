@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-XVCornoII = {
+C-SIIICornoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoI-XV
+    \key c \major \time 4/4 \tempoC-SIII
     \after 2. \! c1\f\>\fermata
     R
     R\fermata

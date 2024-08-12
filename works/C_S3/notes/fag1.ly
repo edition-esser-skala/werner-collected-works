@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-XVFagottoI = {
+C-SIIIFagottoI = {
   \relative c {
     \clef bass
-    \key d \minor \time 4/4 \tempoI-XV
+    \key d \minor \time 4/4 \tempoC-SIII
     d'1\f\fermata
     d,4\pE f g a
     b gis a a,\fermata

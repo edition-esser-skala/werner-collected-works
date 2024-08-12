@@ -2,17 +2,16 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "trb 1")
+#(define option-instrument-name "fag 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "Z.15" "Dies iræ"
+    \section "C.S3" "Dies iræ"
     \addTocEntry
-    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \I-XVTromboneI }
+        \new Staff { \C-SIIIFagottoII }
       >>
     }
   }

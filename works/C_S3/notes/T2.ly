@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-XVTenoreII = {
+C-SIIITenoreII = {
   \relative c' {
     \clef "treble_8"
-    \key d \minor \time 4/4 \tempoI-XV \autoBeamOff
+    \key d \minor \time 4/4 \tempoC-SIII \autoBeamOff
     R1\fermata
     \mvTr d4\pE^\solo d d d
     d d d cis\fermata
@@ -66,7 +66,7 @@ I-XVTenoreII = {
   }
 }
 
-I-XVTenoreIILyrics = \lyricmode {
+C-SIIITenoreIILyrics = \lyricmode {
   Di -- es i -- rae, %2
   di -- es il -- la,
   sol -- vet

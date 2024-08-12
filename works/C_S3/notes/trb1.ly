@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-XVTromboneI = {
+C-SIIITromboneI = {
   \relative c' {
     \clef alto
-    \key d \minor \time 4/4 \tempoI-XV
+    \key d \minor \time 4/4 \tempoC-SIII
     d'1\f\fermata
     R
     R\fermata

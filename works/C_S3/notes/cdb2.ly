@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-XVCornoDiBassettoII = {
+C-SIIICornoDiBassettoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoI-XV
+    \key c \major \time 4/4 \tempoC-SIII
     R1\fermata
     a'\pE
     a2 a4 gis\fermata
