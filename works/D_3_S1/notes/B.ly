@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-Z-V-aBasso = {
+D-III-SIaBasso = {
   \relative c {
     \clef bass
-    \key a \major \time 3/4 \tempoZ-V-a \autoBeamOff
+    \key a \major \time 3/4 \tempoD-III-SIa \autoBeamOff
     \mvTr a'4\fE^\tutti a a8([ gis)]
     fis2 fis8([ e)]
     d4 d' cis
@@ -81,7 +81,7 @@ Z-V-aBasso = {
   }
 }
 
-Z-V-aBassoLyrics = \lyricmode {
+D-III-SIaBassoLyrics = \lyricmode {
   O sa -- lu --
   ta -- ris, __
   sa -- lu -- ta --
@@ -158,10 +158,10 @@ Z-V-aBassoLyrics = \lyricmode {
   men. %75 finis
 }
 
-Z-V-bBasso = {
+D-III-SIbBasso = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoZ-V-b \autoBeamOff
+    \key c \major \time 4/4 \tempoD-III-SIb \autoBeamOff
     \mvTr c4\fE^\tuttiE c8 c c8. c16 c4
     h( c8) fis g8. g,16 g4
     g'4. g8 g4 d8 d
@@ -194,7 +194,7 @@ Z-V-bBasso = {
   }
 }
 
-Z-V-bBassoLyrics = \lyricmode {
+D-III-SIbBassoLyrics = \lyricmode {
   Da pa -- cem, Do -- mi -- ne,
   pa -- cem, Do -- mi -- ne,
   in di -- e -- bus, di --
@@ -226,10 +226,10 @@ Z-V-bBassoLyrics = \lyricmode {
   ia. %29 finis
 }
 
-Z-V-cBasso = {
+D-III-SIcBasso = {
   \relative c {
     \clef bass
-    \key b \major \time 3/4 \tempoZ-V-c \autoBeamOff
+    \key b \major \time 3/4 \tempoD-III-SIc \autoBeamOff
     \mvTr b'2\fE^\tuttiE b4
     a2 a4
     b2 b4
@@ -308,7 +308,7 @@ Z-V-cBasso = {
   }
 }
 
-Z-V-cBassoLyrics = \lyricmode {
+D-III-SIcBassoLyrics = \lyricmode {
   Ho -- mo
   qui -- dam
   fe -- cit
@@ -386,10 +386,10 @@ Z-V-cBassoLyrics = \lyricmode {
   men. %75 finis
 }
 
-Z-V-dBasso = {
+D-III-SIdBasso = {
   \relative c {
     \clef bass
-    \key c \major \time 3/4 \tempoZ-V-d \autoBeamOff
+    \key c \major \time 3/4 \tempoD-III-SId \autoBeamOff
     \mvTr c2\fE^\tuttiE e4
     f c r
     f( d8[ e)] f([ e16 f)]
@@ -450,7 +450,7 @@ Z-V-dBasso = {
   }
 }
 
-Z-V-dBassoLyrics = \lyricmode {
+D-III-SIdBassoLyrics = \lyricmode {
   Hic est
   pa -- nis,
   pa -- nis __

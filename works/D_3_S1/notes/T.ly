@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-Z-V-aTenore = {
+D-III-SIaTenore = {
   \relative c' {
     \clef "treble_8"
-    \key a \major \time 3/4 \tempoZ-V-a \autoBeamOff
+    \key a \major \time 3/4 \tempoD-III-SIa \autoBeamOff
     \mvTr cis4\fE^\tutti cis cis
     cis2^\critnote a4
     a a a~
@@ -81,7 +81,7 @@ Z-V-aTenore = {
   }
 }
 
-Z-V-aTenoreLyrics = \lyricmode {
+D-III-SIaTenoreLyrics = \lyricmode {
   O sa -- lu --
   ta -- ris,
   sa -- lu -- ta --
@@ -158,10 +158,10 @@ Z-V-aTenoreLyrics = \lyricmode {
   men. %75 finis
 }
 
-Z-V-bTenore = {
+D-III-SIbTenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \major \time 4/4 \tempoZ-V-b \autoBeamOff
+    \key c \major \time 4/4 \tempoD-III-SIb \autoBeamOff
     \mvTr e4\fE^\tuttiE e8 e c8. c16 c4
     d4. c8 c8. h16 h4
     r2 d4. c8
@@ -194,7 +194,7 @@ Z-V-bTenore = {
   }
 }
 
-Z-V-bTenoreLyrics = \lyricmode {
+D-III-SIbTenoreLyrics = \lyricmode {
   Da pa -- cem, Do -- mi -- ne,
   pa -- cem, Do -- mi -- ne,
   in di --
@@ -226,10 +226,10 @@ Z-V-bTenoreLyrics = \lyricmode {
   ia. %29 finis
 }
 
-Z-V-cTenore = {
+D-III-SIcTenore = {
   \relative c' {
     \clef "treble_8"
-    \key b \major \time 3/4 \tempoZ-V-c \autoBeamOff
+    \key b \major \time 3/4 \tempoD-III-SIc \autoBeamOff
     \mvTr d2\fE^\tuttiE d4
     c2 c4
     b2 b4
@@ -308,7 +308,7 @@ Z-V-cTenore = {
   }
 }
 
-Z-V-cTenoreLyrics = \lyricmode {
+D-III-SIcTenoreLyrics = \lyricmode {
   Ho -- mo
   qui -- dam
   fe -- cit
@@ -386,10 +386,10 @@ Z-V-cTenoreLyrics = \lyricmode {
   men. %75 finis
 }
 
-Z-V-dTenore = {
+D-III-SIdTenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \major \time 3/4 \tempoZ-V-d \autoBeamOff
+    \key c \major \time 3/4 \tempoD-III-SId \autoBeamOff
     \mvTr c2\fE^\tuttiE c4
     c c r
     a2 a4
@@ -450,7 +450,7 @@ Z-V-dTenore = {
   }
 }
 
-Z-V-dTenoreLyrics = \lyricmode {
+D-III-SIdTenoreLyrics = \lyricmode {
   Hic est
   pa -- nis,
   pa -- nis

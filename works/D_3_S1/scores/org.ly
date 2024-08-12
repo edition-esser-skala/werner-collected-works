@@ -11,8 +11,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-V-aOrgano }
-        \new FiguredBass { \Z-V-aBassFigures }
+        \new Staff { \D-III-SIaOrgano }
+        \new FiguredBass { \D-III-SIaBassFigures }
       >>
     }
   }
@@ -21,8 +21,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-V-bOrgano }
-        \new FiguredBass { \Z-V-bBassFigures }
+        \new Staff { \D-III-SIbOrgano }
+        \new FiguredBass { \D-III-SIbBassFigures }
       >>
     }
   }
@@ -31,8 +31,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \Z-V-cOrgano }
-        \new FiguredBass { \Z-V-cBassFigures }
+        \new Staff { \D-III-SIcOrgano }
+        \new FiguredBass { \D-III-SIcBassFigures }
       >>
     }
   }
@@ -42,8 +42,8 @@
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \Z-V-dOrgano }
-        \new FiguredBass { \Z-V-dBassFigures }
+        \new Staff { \D-III-SIdOrgano }
+        \new FiguredBass { \D-III-SIdBassFigures }
       >>
     }
   }

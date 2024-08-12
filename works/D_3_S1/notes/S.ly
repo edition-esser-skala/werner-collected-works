@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-Z-V-aSoprano = {
+D-III-SIaSoprano = {
   \relative c' {
     \clef treble
-    \key a \major \time 3/4 \tempoZ-V-a \autoBeamOff
+    \key a \major \time 3/4 \tempoD-III-SIa \autoBeamOff
     \mvTr a'4\fE^\tuttiE a a
     a2 a4
     fis' fis e~
@@ -81,7 +81,7 @@ Z-V-aSoprano = {
   }
 }
 
-Z-V-aSopranoLyrics = \lyricmode {
+D-III-SIaSopranoLyrics = \lyricmode {
   O sa -- lu --
   ta -- ris,
   sa -- lu -- ta --
@@ -158,10 +158,10 @@ Z-V-aSopranoLyrics = \lyricmode {
   men. %75 finis
 }
 
-Z-V-bSoprano = {
+D-III-SIbSoprano = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoZ-V-b \autoBeamOff
+    \key c \major \time 4/4 \tempoD-III-SIb \autoBeamOff
     \mvTr c'4\fE^\tuttiE c8 h \appoggiatura h a8. a16 g4
     f'4. e8 e8. d16 d4
     d4. c8 c([ h)] h a
@@ -194,7 +194,7 @@ Z-V-bSoprano = {
   }
 }
 
-Z-V-bSopranoLyrics = \lyricmode {
+D-III-SIbSopranoLyrics = \lyricmode {
   Da pa -- cem, Do -- mi -- ne,
   pa -- cem, Do -- mi -- ne,
   in di -- e -- bus, di --
@@ -226,10 +226,10 @@ Z-V-bSopranoLyrics = \lyricmode {
   ia. %29 finis
 }
 
-Z-V-cSoprano = {
+D-III-SIcSoprano = {
   \relative c' {
     \clef treble
-    \key b \major \time 3/4 \tempoZ-V-c \autoBeamOff
+    \key b \major \time 3/4 \tempoD-III-SIc \autoBeamOff
     \mvTr b'2\fE^\tuttiE b4
     c2 c4
     d2 d4
@@ -308,7 +308,7 @@ Z-V-cSoprano = {
   }
 }
 
-Z-V-cSopranoLyrics = \lyricmode {
+D-III-SIcSopranoLyrics = \lyricmode {
   Ho -- mo
   qui -- dam
   fe -- cit
@@ -386,10 +386,10 @@ Z-V-cSopranoLyrics = \lyricmode {
   men. %75 finis
 }
 
-Z-V-dSoprano = {
+D-III-SIdSoprano = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/4 \tempoZ-V-d \autoBeamOff
+    \key c \major \time 3/4 \tempoD-III-SId \autoBeamOff
     \mvTr g'2\fE^\tuttiE c4
     \appoggiatura h8 a4 g r
     a( f') \appoggiatura e8 d4
@@ -450,7 +450,7 @@ Z-V-dSoprano = {
   }
 }
 
-Z-V-dSopranoLyrics = \lyricmode {
+D-III-SIdSopranoLyrics = \lyricmode {
   Hic est
   pa -- nis,
   pa -- nis

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-Z-V-aOrgano = {
+D-III-SIaOrgano = {
   \relative c {
     \clef bass
-    \key a \major \time 3/4 \tempoZ-V-a
+    \key a \major \time 3/4 \tempoD-III-SIa
     \mvTr a8\fE-\tutti a'16 gis a8 cis a gis
     fis, fis'16 e fis8 a fis e
     d d'16 cis d8 d, cis cis'
@@ -82,7 +82,7 @@ Z-V-aOrgano = {
   }
 }
 
-Z-V-aBassFigures = \figuremode {
+D-III-SIaBassFigures = \figuremode {
   r2.
   <5>
   r2 <6>4
@@ -160,10 +160,10 @@ Z-V-aBassFigures = \figuremode {
   r2. %75 finis
 }
 
-Z-V-bOrgano = {
+D-III-SIbOrgano = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoZ-V-b
+    \key c \major \time 4/4 \tempoD-III-SIb
     \mvTr c8\fE-\tuttiE c c c c c c c
     h h' c fis, g g g, g
     g' g g g g g d d
@@ -196,7 +196,7 @@ Z-V-bOrgano = {
   }
 }
 
-Z-V-bBassFigures = \figuremode {
+D-III-SIbBassFigures = \figuremode {
   \bo <[8 3]>4. \bc <[7 5]>4 <6 4>8 <5 [3]>4
   <6 5> <9 [4]>8 <7 5> <6 4>4 <5 3>
   \bo <[5 3]>4. <4 2>8 <5 4> \bc <[\t 3]> \bo <8 6 [_+]> \bc <7 5 [\t]>
@@ -228,10 +228,10 @@ Z-V-bBassFigures = \figuremode {
   r1 %29 finis
 }
 
-Z-V-cOrgano = {
+D-III-SIcOrgano = {
   \relative c {
     \clef bass
-    \key b \major \time 3/4 \tempoZ-V-c
+    \key b \major \time 3/4 \tempoD-III-SIc
     \mvTr b8\fE-\tuttiE b'16 a b8 c d b
     a a16 g a8 f g a
     b b16 a b8 c d b
@@ -310,7 +310,7 @@ Z-V-cOrgano = {
   }
 }
 
-Z-V-cBassFigures = \figuremode {
+D-III-SIcBassFigures = \figuremode {
   r2 <6>4
   q2.
   r2 q4
@@ -388,10 +388,10 @@ Z-V-cBassFigures = \figuremode {
   r2. %75 finis
 }
 
-Z-V-dOrgano = {
+D-III-SIdOrgano = {
   \relative c {
     \clef bass
-    \key c \major \time 3/4 \tempoZ-V-d
+    \key c \major \time 3/4 \tempoD-III-SId
     \mvTr c8\fE-\tuttiE c16 h c8 d e c
     f a16 h c8 g e c
     f, f'16 e d8 e f e16 f
@@ -453,7 +453,7 @@ Z-V-dOrgano = {
   }
 }
 
-Z-V-dBassFigures = \figuremode {
+D-III-SIdBassFigures = \figuremode {
   r2 <6>4
   \bo <[9 4]>8 <6> r2
   r \bc <[7 _]>8 <6>

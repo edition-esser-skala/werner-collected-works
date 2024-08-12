@@ -28,47 +28,47 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \Z-V-aViolinoI
+              \D-III-SIaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \Z-V-aViolinoII
+              \D-III-SIaViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \incipitSoprano
-            \new Voice = "Soprano" { \dynamicUp \Z-V-aSoprano }
+            \new Voice = "Soprano" { \dynamicUp \D-III-SIaSoprano }
           }
-          \new Lyrics \lyricsto Soprano \Z-V-aSopranoLyrics
+          \new Lyrics \lyricsto Soprano \D-III-SIaSopranoLyrics
 
           \new Staff {
             \incipitAlto
-            \new Voice = "Alto" { \dynamicUp \Z-V-aAlto }
+            \new Voice = "Alto" { \dynamicUp \D-III-SIaAlto }
           }
-          \new Lyrics \lyricsto Alto \Z-V-aAltoLyrics
+          \new Lyrics \lyricsto Alto \D-III-SIaAltoLyrics
 
           \new Staff {
             \incipitTenore
-            \new Voice = "Tenore" { \dynamicUp \Z-V-aTenore }
+            \new Voice = "Tenore" { \dynamicUp \D-III-SIaTenore }
           }
-          \new Lyrics \lyricsto Tenore \Z-V-aTenoreLyrics
+          \new Lyrics \lyricsto Tenore \D-III-SIaTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \Z-V-aBasso }
+            \new Voice = "Basso" { \dynamicUp \D-III-SIaBasso }
           }
-          \new Lyrics \lyricsto Basso \Z-V-aBassoLyrics
+          \new Lyrics \lyricsto Basso \D-III-SIaBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
             % \transpose c c,
-            \Z-V-aOrgano
+            \D-III-SIaOrgano
           }
         >>
-        \new FiguredBass { \Z-V-aBassFigures }
+        \new FiguredBass { \D-III-SIaBassFigures }
       >>
       \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
       \midi { \tempo 4 = 90 }
@@ -84,47 +84,47 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \Z-V-bViolinoI
+              \D-III-SIbViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \Z-V-bViolinoII
+              \D-III-SIbViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \Z-V-bSoprano }
+            \new Voice = "Soprano" { \dynamicUp \D-III-SIbSoprano }
           }
-          \new Lyrics \lyricsto Soprano \Z-V-bSopranoLyrics
+          \new Lyrics \lyricsto Soprano \D-III-SIbSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \Z-V-bAlto }
+            \new Voice = "Alto" { \dynamicUp \D-III-SIbAlto }
           }
-          \new Lyrics \lyricsto Alto \Z-V-bAltoLyrics
+          \new Lyrics \lyricsto Alto \D-III-SIbAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \Z-V-bTenore }
+            \new Voice = "Tenore" { \dynamicUp \D-III-SIbTenore }
           }
-          \new Lyrics \lyricsto Tenore \Z-V-bTenoreLyrics
+          \new Lyrics \lyricsto Tenore \D-III-SIbTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \Z-V-bBasso }
+            \new Voice = "Basso" { \dynamicUp \D-III-SIbBasso }
           }
-          \new Lyrics \lyricsto Basso \Z-V-bBassoLyrics
+          \new Lyrics \lyricsto Basso \D-III-SIbBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \Z-V-bOrgano
+            \D-III-SIbOrgano
           }
         >>
-        \new FiguredBass { \Z-V-bBassFigures }
+        \new FiguredBass { \D-III-SIbBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 70 }
@@ -140,47 +140,47 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \Z-V-cViolinoI
+              \D-III-SIcViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \Z-V-cViolinoII
+              \D-III-SIcViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \Z-V-cSoprano }
+            \new Voice = "Soprano" { \dynamicUp \D-III-SIcSoprano }
           }
-          \new Lyrics \lyricsto Soprano \Z-V-cSopranoLyrics
+          \new Lyrics \lyricsto Soprano \D-III-SIcSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \Z-V-cAlto }
+            \new Voice = "Alto" { \dynamicUp \D-III-SIcAlto }
           }
-          \new Lyrics \lyricsto Alto \Z-V-cAltoLyrics
+          \new Lyrics \lyricsto Alto \D-III-SIcAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \Z-V-cTenore }
+            \new Voice = "Tenore" { \dynamicUp \D-III-SIcTenore }
           }
-          \new Lyrics \lyricsto Tenore \Z-V-cTenoreLyrics
+          \new Lyrics \lyricsto Tenore \D-III-SIcTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \Z-V-cBasso }
+            \new Voice = "Basso" { \dynamicUp \D-III-SIcBasso }
           }
-          \new Lyrics \lyricsto Basso \Z-V-cBassoLyrics
+          \new Lyrics \lyricsto Basso \D-III-SIcBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \Z-V-cOrgano
+            \D-III-SIcOrgano
           }
         >>
-        \new FiguredBass { \Z-V-cBassFigures }
+        \new FiguredBass { \D-III-SIcBassFigures }
       >>
       \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
       \midi { \tempo 4 = 110 }
@@ -196,47 +196,47 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \Z-V-dViolinoI
+              \D-III-SIdViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \Z-V-dViolinoII
+              \D-III-SIdViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \Z-V-dSoprano }
+            \new Voice = "Soprano" { \dynamicUp \D-III-SIdSoprano }
           }
-          \new Lyrics \lyricsto Soprano \Z-V-dSopranoLyrics
+          \new Lyrics \lyricsto Soprano \D-III-SIdSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \Z-V-dAlto }
+            \new Voice = "Alto" { \dynamicUp \D-III-SIdAlto }
           }
-          \new Lyrics \lyricsto Alto \Z-V-dAltoLyrics
+          \new Lyrics \lyricsto Alto \D-III-SIdAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \Z-V-dTenore }
+            \new Voice = "Tenore" { \dynamicUp \D-III-SIdTenore }
           }
-          \new Lyrics \lyricsto Tenore \Z-V-dTenoreLyrics
+          \new Lyrics \lyricsto Tenore \D-III-SIdTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \Z-V-dBasso }
+            \new Voice = "Basso" { \dynamicUp \D-III-SIdBasso }
           }
-          \new Lyrics \lyricsto Basso \Z-V-dBassoLyrics
+          \new Lyrics \lyricsto Basso \D-III-SIdBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \Z-V-dOrgano
+            \D-III-SIdOrgano
           }
         >>
-        \new FiguredBass { \Z-V-dBassFigures }
+        \new FiguredBass { \D-III-SIdBassFigures }
       >>
       \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
       \midi { \tempo 4 = 110 }

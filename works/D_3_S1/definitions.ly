@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-tempoZ-V-a = \tempoMarkup "Andante"
-tempoZ-V-b = \tempoMarkup "Andante"
-tempoZ-V-c = \tempoMarkup "Un poco allegro"
-tempoZ-V-d = \tempoMarkup "Un poco allegro"
+tempoD-III-SIa = \tempoMarkup "Andante"
+tempoD-III-SIb = \tempoMarkup "Andante"
+tempoD-III-SIc = \tempoMarkup "Un poco allegro"
+tempoD-III-SId = \tempoMarkup "Un poco allegro"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

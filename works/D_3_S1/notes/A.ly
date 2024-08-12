@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-Z-V-aAlto = {
+D-III-SIaAlto = {
   \relative c' {
     \clef treble
-    \key a \major \time 3/4 \tempoZ-V-a \autoBeamOff
+    \key a \major \time 3/4 \tempoD-III-SIa \autoBeamOff
     \mvTr e4\fE^\tuttiE e e
     fis2 fis4
     fis4. gis8 a4
@@ -81,7 +81,7 @@ Z-V-aAlto = {
   }
 }
 
-Z-V-aAltoLyrics = \lyricmode {
+D-III-SIaAltoLyrics = \lyricmode {
   O sa -- lu --
   ta -- ris,
   sa -- lu -- ta --
@@ -158,10 +158,10 @@ Z-V-aAltoLyrics = \lyricmode {
   men. %75 finis
 }
 
-Z-V-bAlto = {
+D-III-SIbAlto = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoZ-V-b \autoBeamOff
+    \key c \major \time 4/4 \tempoD-III-SIb \autoBeamOff
     \mvTr g'4\fE^\tutti g8 g \appoggiatura g f8. f16 e4
     g4. a8 g8. g16 g4
     h4. a8 g4 fis8 fis
@@ -194,7 +194,7 @@ Z-V-bAlto = {
   }
 }
 
-Z-V-bAltoLyrics = \lyricmode {
+D-III-SIbAltoLyrics = \lyricmode {
   Da pa -- cem, Do -- mi -- ne,
   pa -- cem, Do -- mi -- ne,
   in di -- e -- bus, di --
@@ -226,10 +226,10 @@ Z-V-bAltoLyrics = \lyricmode {
   ia. %29 finis
 }
 
-Z-V-cAlto = {
+D-III-SIcAlto = {
   \relative c' {
     \clef treble
-    \key b \major \time 3/4 \tempoZ-V-c \autoBeamOff
+    \key b \major \time 3/4 \tempoD-III-SIc \autoBeamOff
     \mvTr f2\fE^\tuttiE f4
     f2 f4
     f2 b4
@@ -308,7 +308,7 @@ Z-V-cAlto = {
   }
 }
 
-Z-V-cAltoLyrics = \lyricmode {
+D-III-SIcAltoLyrics = \lyricmode {
   Ho -- mo
   qui -- dam
   fe -- cit
@@ -386,10 +386,10 @@ Z-V-cAltoLyrics = \lyricmode {
   men. %75 finis
 }
 
-Z-V-dAlto = {
+D-III-SIdAlto = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/4 \tempoZ-V-d \autoBeamOff
+    \key c \major \time 3/4 \tempoD-III-SId \autoBeamOff
     \mvTr e2\fE^\tuttiE g4
     \appoggiatura g8 f4 e r
     f2 f4
@@ -450,7 +450,7 @@ Z-V-dAlto = {
   }
 }
 
-Z-V-dAltoLyrics = \lyricmode {
+D-III-SIdAltoLyrics = \lyricmode {
   Hic est
   pa -- nis,
   pa -- nis

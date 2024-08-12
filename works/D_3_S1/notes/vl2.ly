@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-Z-V-aViolinoII = {
+D-III-SIaViolinoII = {
   \relative c' {
     \clef treble
-    \key a \major \time 3/4 \tempoZ-V-a
+    \key a \major \time 3/4 \tempoD-III-SIa
     e4\fE e e
     fis2 fis4
     fis4. gis8 a4
@@ -81,10 +81,10 @@ Z-V-aViolinoII = {
   }
 }
 
-Z-V-bViolinoII = {
+D-III-SIbViolinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoZ-V-b
+    \key c \major \time 4/4 \tempoD-III-SIb
     g'4\fE g8 g \appoggiatura g f8. f16 e4
     g4. a8 g8. g16 g4
     h4. a8 g4 fis8 fis
@@ -117,10 +117,10 @@ Z-V-bViolinoII = {
   }
 }
 
-Z-V-cViolinoII = {
+D-III-SIcViolinoII = {
   \relative c' {
     \clef treble
-    \key b \major \time 3/4 \tempoZ-V-c
+    \key b \major \time 3/4 \tempoD-III-SIc
     f2\fE f4
     f2 f4
     f2 b4
@@ -199,10 +199,10 @@ Z-V-cViolinoII = {
   }
 }
 
-Z-V-dViolinoII = {
+D-III-SIdViolinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/4 \tempoZ-V-d
+    \key c \major \time 3/4 \tempoD-III-SId
     e2\fE g4
     \appoggiatura g8 f4 e r
     f2 f4
