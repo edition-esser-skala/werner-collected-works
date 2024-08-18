@@ -10,6 +10,7 @@
   - B.38 *Missa Lætatus sum in tribulatione* (werner-missa-laetatus-sum-A-Ed-A-49; v1.0.0, 2024-01-12)
   - B.40 *Missa in honorem Matris meæ Virginis Mariæ* (werner-missa-festiva-A-Ed-A-68; v1.0.0, 2023-10-06)
   - B.46 *Missa Post nubila Phœbus* (werner-missa-post-nubila-phoebus-A-Ed-A-50; v1.0.0, 2023-03-03)
+  - B.52 *Missa Mixta cantu chorali et figurali* (werner-missa-mixta-A-Ed-A-67; v1.0.0, 2022-11-12)
   - B.55 *Missa festivalis Memento mei* (werner-missa-festivalis-A-Ed-A-70; v1.0.0, 2023-08-31)
 
 
