@@ -1,0 +1,42 @@
+title: Missa Hic labor hoc opus est
+id: WerW B.58
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: A 75
+    rism: 600037877
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/726.html
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 14  & A    & 3rd \quarterNote\ in \B1: g′8.–f′16 \\
+    & 24  & A    & 6th/7th \eighthNote\ in \B1: \crotchetRest \\
+    & 27  & T    & 2nd \halfNote\ in \B1: \flat b4.–a8 \\
+  2 & 1f  & A    & bars in \B1: 2 × \wholeNoteRest \\*
+    & 31  & vl 2 & 8th \sixteenthNote\ in \B1: \flat b′16 \\
+    & 32  & T    & 1st \eighthNote\ in \B1: a8 \\
+    & 46  & vl 1 & rhythm of 1st \eighthNote\ in \B1:
+                   \sixteenthNote–\sixteenthNote \\
+    & 56  & T    & 2nd \eighthNote\ in \B1: c′8 \\
+    & 78  & T    & 2nd \sixteenthNote\ in \B1: a16 \\
+  3 & 29  & A    & 1st \halfNote\ in \B1: \flat e′2 \\
+    & 35  & T    & bar in \B1: \flat b2–g1 \\
+    & 52  & T    & last \quarterNote\ in \B1: f′4 \\
+    & 75  & T    & 3rd \halfNote\ in \B1: \halfNoteRest \\
+    & 78  & B    & 5th \quarterNote\ in \B1: d4 \\
+    & 84  & vl 2 & 6th \eighthNote\ in \B1: a′8 \\
+    & 90  & vl 2 & 4th \quarterNote\ in \B1: a4 \\
+    & 103 & org  & last \eighthNote\ in \B1: c′16–e′16 \\
+    & 111 & S    & 7th \sixteenthNote\ in \B1: \flat e″16 \\
+    & 114 & T    & 3rd to 6th \eighthNote\ in \B1: c′8–\flat b4. \\
+  4 & 6   & T    & 1st \quarterNoteDotted\ in \B1: g4. \\
+    & 35  & org  & upper voice, 6th \eighthNote\ in \B1: a8 \\
+    & 37  & B    & rhythm of 1st \quarterNote\ in \B1:
+                   \eighthNoteDotted–\sixteenthNote \\
+    & 39  & org  & treble clef and upper voice added by editor \\
+  5 & 23  & org  & 6th to 8th \eighthNote\ of upper voice in \B1
+                   indicated by bass figures \\

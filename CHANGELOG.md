@@ -9,9 +9,13 @@
   - B.33 *Missa festivalis in honorem Divi Peregrini* (werner-missa-festivalis-A-Ed-A-81; v1.0.0, 2023-11-02)
   - B.38 *Missa Lætatus sum in tribulatione* (werner-missa-laetatus-sum-A-Ed-A-49; v1.0.0, 2024-01-12)
   - B.40 *Missa in honorem Matris meæ Virginis Mariæ* (werner-missa-festiva-A-Ed-A-68; v1.0.0, 2023-10-06)
+  - B.42 *Missa primitiva* (werner-missa-primitiva-A-Ed-A-51; v0.1.0, 2021-12-06)
   - B.46 *Missa Post nubila Phœbus* (werner-missa-post-nubila-phoebus-A-Ed-A-50; v1.0.0, 2023-03-03)
+  - B.47 *Missa Vicit leo de tribe Juda* (werner-missa-vicit-leo-de-tribe-juda-A-Ed-A-54; v1.0.0, 2022-10-18)
+  - B.51 *Missa Missa piæ fiduciæ* (werner-missa-piae-fiduciae-A-Ed-A-64; v1.0.0, 2021-12-06)
   - B.52 *Missa Mixta cantu chorali et figurali* (werner-missa-mixta-A-Ed-A-67; v1.0.0, 2022-11-12)
   - B.55 *Missa festivalis Memento mei* (werner-missa-festivalis-A-Ed-A-70; v1.0.0, 2023-08-31)
+  - B.58 *Missa Hic labor hoc opus est* (werner-missa-hic-labor-hoc-opus-est-A-Ed-A-75; v1.0.0, 2022-10-06)
 
 
 ## 2024.07.0 – 2024-07-27
