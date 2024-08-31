@@ -37,7 +37,7 @@
 
 \book {
   \bookpart {
-    \section "E.38" "Pastorella di Natale del Nostro Salvatore Giesu Cristo"
+    \section "E.38" "Gloria in altissimis Deo"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate

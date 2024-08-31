@@ -1,7 +1,5 @@
 \version "2.24.0"
 
-allaOttava = \markup \remark "alla 8va"
-allaOttavaE = \markup \remarkE "alla 8va"
 correctBn = \set Score.currentBarNumber = #120
 markChorusUtSupra = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
