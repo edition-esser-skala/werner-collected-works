@@ -4,6 +4,7 @@
 
 ### Added
 
+- works: WerW B.1, D.1.8, E.34, and P.3
 - masses from separate repositories (previously unreleased; name of original repository and release history are indicated):
   - B.7 *Missa in contrapuncto* (werner-missa-in-contrapuncto-WerW-B-7; v1.0.0, 2024-04-03)
   - B.33 *Missa festivalis in honorem Divi Peregrini* (werner-missa-festivalis-A-Ed-A-81; v1.0.0, 2023-11-02)
@@ -16,6 +17,17 @@
   - B.52 *Missa Mixta cantu chorali et figurali* (werner-missa-mixta-A-Ed-A-67; v1.0.0, 2022-11-12)
   - B.55 *Missa festivalis Memento mei* (werner-missa-festivalis-A-Ed-A-70; v1.0.0, 2023-08-31)
   - B.58 *Missa Hic labor hoc opus est* (werner-missa-hic-labor-hoc-opus-est-A-Ed-A-75; v1.0.0, 2022-10-06)
+- global macros: `\allaOttava` and `\allaOttavaE`
+
+### Changed
+
+- title of WerW B.38 (“Pastorella di Natale del Nostro Salvatore Giesu Cristo” -> “Gloria in altissimis Deo”); previous title is now subtitle
+- signature on preface cover (now from title page of H-Bn Ms.mus III.48)
+- several works have been renumbered: WerW C.5 -> D.3.6, D.1.5 -> D.2.6, D.1.6 -> D.1.5, D.1.7 -> D.1.6, D.1.8 -> D.1.7, D.1.11 -> D.1.10, D.1.12 -> D.1.11, Z.5 -> D.3.S1, Z.6 -> I.4.S1, Z.9 -> M.S1, Z.15 -> C.S3, Z.16 -> D.5.S1, and Z.17 -> E.S1
+
+### Fixed
+
+- WerW B.70: time signature in Credo fragment
 
 
 ## 2024.07.0 – 2024-07-27
