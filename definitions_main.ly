@@ -7,6 +7,8 @@
 #(define option-print-all-bar-numbers #f)
 \include "ees.ly"
 
+allaOttava = \markup \remark "alla 8va"
+allaOttavaE = \markup \remarkE "alla 8va"
 aTre = \markup \remark "a 3"
 aTreE = \markup \remarkE "a 3"
 dstU = \tweak self-alignment-X #CENTER ^\markup { \hspace #1.3 \teeny \musicglyph #'"scripts.uhenzelongfermata" }
