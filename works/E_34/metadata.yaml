@@ -1,0 +1,83 @@
+title: Ehr ſey Gott in den höchſten Thron
+subtitle: Pastorella da Cantarsi in Sacratissima Notte del Nostro Salvatore
+id: WerW E.34
+genre: pastorella
+scoring: A, 2 T, B (solo), S, A, 2 T, B (coro), 2 vl, vla, b, org solo
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: E 33
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/882.html
+    license: public domain
+    principal: true
+toe: |
+  3       & B    & bar in \B1: g2–G2 \\
+  119–149 & B    & In \B1, lyrics in these bars apparently have been emended
+                   by later hand in order to replace colloquial language
+                   by more standard German. \\
+  267     & vl 2 & 3rd \eighthNote\ in \B1: d′8 \\*
+  270     & T 2  & 4th \quarterNote\ in \B1: b4 \\
+parts:
+  org: Organo solo
+lyrics:
+  \begin{multicols}{2}
+  Ehr ſey Gott in den höchſten Thron,\\
+  wie auch ſein eingebohrnen Sohn,\\
+  Frid ſey auff Erd dem Menſchenkind,\\
+  wo ſich ein gutter Willn befind.\\[1ex]
+  Hörts wunder wie ſingens,\\
+  wie thuns halt ſo ſchön,\\
+  des Hertz mächt ein würklich\\
+  für Freuden zergehn.\\
+  Es glanzt ja und ſchimmert\\
+  wie lauter Cryſtaln\\
+  in Himmel thun alle\\
+  mit Jubel erſchalln.\\
+  Ich denkh hin und wieder,\\
+  ich wir mir nicht gſcheid,\\
+  was immer diß weſen\\
+  ſo s’fath [?] jetz bedeuth.\\[1ex]
+  Ey daß iſt woll ein Wundergfill,\\
+  das bey der Nacht woß meuſelſtill\\
+  ſich alls ſo luſtig macht,\\
+  ſogar bey finſtrer Nacht.\\
+  Die Vögel ſingen um und um,\\
+  das Viech gumbt auch voll Freud herum,\\
+  das ein das Hertz recht lacht!\\[1ex]
+  Schau schau, wer kommt nur dorth daher,\\
+  als wan er föllig gfligelt wer,\\
+  ich fircht mich ſchier halb dot,\\
+  ich bin voll Angſt und Noth.\\
+  Er ſchimmert pur von lauter Gold,\\
+  das einer ja faſt glauben ſolt,\\
+  er wer ein Himmelsboth.\\[1ex]
+  Ihr Hirten, legt die Forcht beyſeith,\\
+  ſeht, ich verkhünd euch große Freud,\\
+  anheut iſt euch gebohren\\
+  der Heyland außerkhoren.\\
+  Diß ſolle euch zum Zeichen ſein,\\
+  ihr werdet ſehn ein Kindelein\\
+  in einer Krippen ligen,\\
+  diß wird die Höll beſigen!\\[1ex]
+  So laßt uns gehn nach Bethlehem\\
+  zum eingebohrnen Kind,\\
+  damit wir doch däß Wunder ſehn\\
+  ſo ſich aldorth befindt.\\[1ex]
+  Ey du gebenedeyter Gott,\\
+  wie ligſt halt da ſo voller Noth,\\
+  Ich will zum Angedenckhen\\
+  mich ſelbſt leibaigen ſchenckhen.\\[1ex]
+  Mei Hertz iſt voller Sieſſigkeit,\\
+  ich denckh mein Tag kein ſolche Freud,\\
+  was mus mär ich da geben,\\
+  mei Schatz, mei anzigs Leben.\\[1ex]
+  S’Kind liewelt ja und lacht ſo ſchön,\\
+  es mueß ein recht zu Hertzen gehn,\\
+  ich kan vor lauther Freuden\\
+  unmöglich von Ihm ſcheiden.\\[1ex]
+  So falln wir nider auf dö Knie,\\
+  und opffern Ihm all unſer Mieh,\\
+  Gott ſey gebenedeyet\\
+  der uns heut ſo erfreuet!
+  \end{multicols}
