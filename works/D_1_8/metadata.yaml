@@ -1,0 +1,35 @@
+title: Concussum est mare
+id: WerW D.1.8
+genre: motet
+festival: de S. Michaele Archangelo
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 51
+    rism: 600038023
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/781.html
+    license: public domain
+    principal: true
+toe: |
+  31 & vl 2 & 5th \quarterNote\ in \B1: e″4 \\
+  47 & A    & last \eighthNote\ in \B1: a′8 \\
+  63 & vl 1 & 2nd \quarterNote\ in \B1: c″16–d″16–e″8 \\
+  69 & T    & 6th \eighthNote\ in \B1: a8 \\
+lyrics: |
+  Concussum est mare\\
+  et contremuit terra,\\
+  ubi Archangelus Michael\\
+  descendebat de coelo.\\
+  (\bibleverse{Ps}(18/17:8,10); Cantus Index 001864)\\[1ex]
+  Angelus pacis Michael\\
+  in aedes coelitus nostras veniat\\
+  serenae auctor ut pacis lachrymosa\\
+  in orcum bella releget.\\
+  (Cantus Index 002879.1)\\[1ex]
+  Princeps gloriosissime Michael archangele:\\
+  Esto memor nostri hic et ubique semper,\\
+  precare pro nobis Filium Dei.\\
+  Alleluia.\\
+  (Cantus Index a02853)
