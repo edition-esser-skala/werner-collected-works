@@ -1,0 +1,15 @@
+title: Symphonia
+id: WerW P.3
+genre: sinfonia
+scoring: 2 vl, vla, bc
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-LA
+    shelfmark: 42
+    rism: 603000465
+    license: public domain
+    principal: true
+toe: |
+  96  & vla & last \eighthNote\ in \B1: \flat e″8 \\
+  110 & bc  & bar in \B1: d2. \\
