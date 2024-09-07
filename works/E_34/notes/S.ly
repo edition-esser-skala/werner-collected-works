@@ -8,22 +8,22 @@ E-XXXIVSoprano = {
     e c
     d h
     c r4 e
-    d2 c
+    d2 c %5
     h4( c) d( e)
     h2 a
     g r4 g
     c2 e
-    a, r4 c
+    a, r4 c %10
     f2 e
     d r4 g,
     c2 d
     e f
-    g4( e) d( c)
+    g4( e) d( c) %15
     h d c a
     c2( h4.)\trill c8
     c2 r
     R1 \noBreak
-    R\fermata \bar "||"
+    R\fermata \bar "||" %20
     \key g \major \time 3/4 \tempoE-XXXIVb \newSpacingSection
       R2.*51 \noBreak %71
     R2.\fermata \markChorusUtSupra \bar "||"

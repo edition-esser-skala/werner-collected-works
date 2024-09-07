@@ -8,22 +8,22 @@ E-XXXIVBasso = {
     c2 e,4 a
     f(^\critnote d) g2
     c, r
-    r4 g' e fis
+    r4 g' e fis %5
     g( e) h( c)
     d( c) d2
     g, r
     r c
-    f4( g) f( e)
+    f4( g) f( e) %10
     d h' c c,
     g'2 r
     r4 c h g
     c( a) g( f)
-    e2 f
+    e2 f %15
     g4 f e f
     g2 g,
     c r
     R1 \noBreak
-    R\fermata \bar "||"
+    R\fermata \bar "||" %20
     \key g \major \time 3/4 \tempoE-XXXIVb \newSpacingSection
       R2.*51 \noBreak %71
     R2.\fermata \markChorusUtSupra \bar "||"

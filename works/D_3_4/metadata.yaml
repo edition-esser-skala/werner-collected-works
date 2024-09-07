@@ -27,6 +27,7 @@ toe: |
 extra_abbreviations:
   vlne:
 lyrics: |
+  \textsb{1}\\
   Omnes amici mei dereliquerunt me,\\
   et praevaluerunt insidiantes mihi:\\
   tradidit me, quem diligebam.\\
@@ -34,7 +35,8 @@ lyrics: |
   aceto potabant me.\\
   Inter iniquos proiecerunt me,\\
   et non pepercerunt animae meae.\\
-  (\bibleverse{Ps}(69/68:22))\\[1ex]
+  (\bibleverse{Ps}(69/68:22))\\[\baselineskip]
+  \textsb{2}\\
   Velum templi scissum est,\\
   et omnis terra tremuit.\\
   Latro in cruce clamabat, dicens:\\
@@ -44,7 +46,8 @@ lyrics: |
   monumenta aperta sunt,\\
   et multa corpora sanctorum\\
   quae dormierant surrexerunt.\\
-  (\bibleverse{Mat}(27:51-52))\\[1ex]
+  (\bibleverse{Mat}(27:51-52))\\[\baselineskip]
+  \textsb{3}\\
   Vinea mea electa quam plantavi:\\
   Quomodo conversa es in amaritudinem,\\
   ut me crucifigeres,\\
