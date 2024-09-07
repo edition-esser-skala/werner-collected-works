@@ -1,0 +1,49 @@
+title: Lamentationes in Parasceve
+id: WerW K.3
+genre: lamentation
+scoring: 2 S, A, T, B (solo), 2 S, A, T, B (coro), vla, b, cemb
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: G 13 (2)
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/899.html
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 6f & vla & In \B1, the vla part also contains notes in bass clef.
+                 Here, these notes have been transposed one octave up
+                 (in the vla part). \\
+  2 & 6  & cemb & 4th \quarterNote\ in \B1: c8–A8 \\
+  3 & 27 & S 2  & last \quarterNote\ in \B1: g′4 \\
+    & 56 & S 1  & last \quarterNote\ in \B1: c″4 \\*
+    & 66 & S 1  & last \quarterNote\ in \B1: c″4 \\
+lyrics: |
+  \textit{Lamentatio 1ma}\\
+  De lamentatione Ieremiae Prophetae.\\
+  Heth. Cogitavit Dominus dissipare murum Filiae Syon, tetendit funiculum suum, et non avertit manum suam a perditione, luxitque antemurale, et murus pariter dissipatus est.\\
+  Teth. Defixae sunt in terra portae eius, perdidit et contrivit vectes eius, regem eius et principes eius in gentibus, non est lex, et prophetae eius non invenerunt visionem a Domino.\\
+  Iod. Sederunt in terra, conticuerunt senes Filiae Syon, consperserunt cinere capita sua, accincti sunt ciliciis, abiecerunt in terram capita sua virgines Ierusalem.\\
+  Caph. Defecerunt prae lacrymis oculi mei, conturbata sunt viscera mea, effusum est in terra iecur meum super contritione populi mei, cum deficeret parvulus, et lactens in plateis oppidi.\\
+  Ierusalem, Ierusalem, convertere ad Dominum Deum tuum.\\
+  (\bibleverse{Lam}(2:8-11))\\[1ex]
+  \textit{Lamentatio 2da}\\
+  Lamed. Matribus suis dixerunt: Ubi est triticum et vinum? Cum deficerent quasi vulnerati in plateis civitatis, cum exhalarent animas suas in sinu matrum suarum.\\
+  Mem. Cui comparabo te, vel cui assimilabo te, Filia Ierusalem? Cui exaequabo te, et consolabor te, virgo Filia Syon? Magna est enim velut mare contritio tua: quis medebitur tui?\\
+  Nun. Prophetae tui viderunt tibi falsa et stulta, nec aperiebant iniquitatem tuam, ut te ad poenitentiam provocarent. Viderunt autem tibi assumptiones falsas et eiectiones.\\
+  Samech. Plauserunt super te manibus omnes transeuntes per viam, sibilaverunt et moverunt capita sua super Filiam Ierusalem: haeccine est urbs, dicentes, perfecti decoris, gaudium universae terrae?\\
+  Ierusalem, Ierusalem, convertere ad Dominum Deum tuum.\\
+  (\bibleverse{Lam}(2:12-15))\\[1ex]
+  \textit{Lamentatio 3tia}\\
+  Aleph. Ego vir videns paupertatem meam in virga indignationis eius.\\
+  Aleph. Meminavit et adduxit in tenebras et non in lucem.\\
+  Aleph. Tantum in me vertit et convertit manum suam tota die.\\
+  Beth. Vetustam fecit pellem meam et carnem meam, contrivit ossa mea.\\
+  Beth. Aedificavit in gyro meo et circumdedit me felle et labore.\\
+  Beth. In tenebrosis collocavit me quasi mortuos sempiternos.\\
+  Ghimel. Circumaedificavit adversum me ut non egrediar, aggravavit compedem meam.\\
+  Ghimel. Sed cum clamavero et rogavero exclusit orationem meam.\\
+  Ghimel. Conclusit vias meas lapidibus quadris, semitas meas subvertit.\\
+  Ierusalem, Ierusalem, convertere ad Dominum Deum tuum.\\
+  (\bibleverse{Lam}(3:1-9))
