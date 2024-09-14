@@ -49,7 +49,7 @@ D-III-IVaBasso = {
     es f2. f4 \noBreak %40
     b,1 r2\fermata \bar "||"
     \tempoD-III-IVac R1.*13 %54
-    R1.\fermata \markEtTerribilisUtSupra \bar "||" %55 finis
+    R1.\fermata \markEtTerribilibusUtSupra \bar "||" %55 finis
   }
 }
 
@@ -139,7 +139,9 @@ D-III-IVbBasso = {
     b1) c
     d\breve \noBreak
     g,\fermata \bar "||"
-    \time 3/2 \tempoD-III-IVbc R1.*16 %54
+    \time 3/2 \tempoD-III-IVbc
+      \unset Staff.timeSignatureFraction
+      R1.*16 %54
     R1.\fermata \markEtOmnisDaCapo \bar "||" %55 finis
   }
 }
@@ -222,7 +224,9 @@ D-III-IVcBasso = {
     f!1 b,
     c1. c2 \noBreak
     f\breve\fermata \bar "||"
-    \time 3/2 \tempoD-III-IVcc R1.*16 %49
+    \time 3/2 \tempoD-III-IVcc
+      \unset Staff.timeSignatureFraction
+      R1.*16 %49
     R1.\fermata \markQuomodoDaCapo \bar "||" %50 finis
   }
 }

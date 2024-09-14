@@ -1,8 +1,8 @@
 \version "2.24.0"
 
-markEtTerribilisUtSupra = {
+markEtTerribilibusUtSupra = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Et terribilis ut supra"
+  \mark \markup \remark "Et terribilibus ut supra"
 }
 markEtOmnisDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
@@ -14,7 +14,7 @@ markQuomodoDaCapo = {
 }
 
 tempoD-III-IVaa = \tempoMarkup "Allabreve moderato"
-tempoD-III-IVab = \tempoMarkup "Et terribilis · Vivace"
+tempoD-III-IVab = \tempoMarkup "Et terribilibus · Vivace"
 tempoD-III-IVac = \tempoMarkup "Larghetto / Largo"
 
 tempoD-III-IVba = \tempoMarkup "Alla capella"

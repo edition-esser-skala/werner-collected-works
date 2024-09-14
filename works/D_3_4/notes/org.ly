@@ -61,7 +61,7 @@ D-III-IVaOrgano = {
     b2 f g
     a f g
     gis a1
-    d, r2\fermata \markEtTerribilisUtSupra \bar "||" %55 finis
+    d, r2\fermata \markEtTerribilibusUtSupra \bar "||" %55 finis
 
   }
 }
@@ -186,6 +186,7 @@ D-III-IVbOrgano = {
     d\breve \noBreak
     g,\fermata \bar "||"
     \clef "treble_8" \time 3/2 \tempoD-III-IVbc
+      \unset Staff.timeSignatureFraction
       d'2.^\aTre e4 f! g \noBreak
     a2 d, e %40
     f f' e
@@ -308,6 +309,7 @@ D-III-IVcOrgano = {
     c\breve \noBreak
     f,\fermata \bar "||"
     \clef "treble_8" \time 3/2 \tempoD-III-IVcc
+      \unset Staff.timeSignatureFraction
       a'1^\aTre gis2 \noBreak
     a2. g4 f e %35
     << { d'2~^\org d } \\ { d,_\markup \remark "vlne" d' } >> cis

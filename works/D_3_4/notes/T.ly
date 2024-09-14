@@ -60,7 +60,7 @@ D-III-IVaTenore = {
     b2 f g
     a f g
     gis a1
-    d, r2\fermata \markEtTerribilisUtSupra \bar "||" %55 finis
+    d, r2\fermata \markEtTerribilibusUtSupra \bar "||" %55 finis
   }
 }
 
@@ -164,7 +164,9 @@ D-III-IVbTenore = {
     b2. c8[ d] es1
     d\breve \noBreak
     d\fermata \bar "||"
-    \time 3/2 \tempoD-III-IVbc d,2.(^\aTre e4 f! g) \noBreak
+    \time 3/2 \tempoD-III-IVbc
+      \unset Staff.timeSignatureFraction
+      d,2.(^\aTre e4 f! g) \noBreak
     a2 d, e %40
     f f' e
     d( d,4 e) f2
@@ -280,7 +282,9 @@ D-III-IVcTenore = {
     c2 c b b
     g( a) g1 \noBreak
     a\breve\fermata \bar "||"
-    \time 3/2 \tempoD-III-IVcc a2^\aTre a gis \noBreak
+    \time 3/2 \tempoD-III-IVcc
+      \unset Staff.timeSignatureFraction
+      a2^\aTre a gis \noBreak
     a1 r2 %35
     d d cis
     d r g,(

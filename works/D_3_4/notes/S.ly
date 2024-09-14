@@ -58,7 +58,7 @@ D-III-IVaSoprano = {
     b d2. d4
     cis2 d1
     d2 d( cis)
-    d1 r2\fermata \markEtTerribilisUtSupra \bar "||"
+    d1 r2\fermata \markEtTerribilibusUtSupra \bar "||"
   }
 }
 
@@ -154,7 +154,9 @@ D-III-IVbSoprano = {
     g2 d'1 c2~
     c b( a1) \noBreak
     g\breve\fermata \bar "||"
-    \time 3/2 \tempoD-III-IVbc a2^\aTre d1( \noBreak
+    \time 3/2 \tempoD-III-IVbc
+      \unset Staff.timeSignatureFraction
+      a2^\aTre d1( \noBreak
     c2) b2. b4 %40
     a2 d c
     b1 a2
@@ -260,7 +262,9 @@ D-III-IVcSoprano = {
     c a d d
     c1. c2 \noBreak
     c\breve\fermata \bar "||"
-    \time 3/2 \tempoD-III-IVcc cis2^\aTre d2. d4 \noBreak
+    \time 3/2 \tempoD-III-IVcc
+      \unset Staff.timeSignatureFraction
+      cis2^\aTre d2. d4 \noBreak
     cis1 r2 %35
     a b!2. b4
     a2 d b4 c

@@ -59,7 +59,7 @@ D-III-IVaAlto = {
     d2 f4( a) g( f)
     e2 a g
     f e1
-    d r2\fermata \markEtTerribilisUtSupra \bar "||" %55 finis
+    d r2\fermata \markEtTerribilibusUtSupra \bar "||" %55 finis
   }
 }
 
@@ -160,7 +160,9 @@ D-III-IVbAlto = {
     d b' b_( a4 g)
     fis2 g1( fis2) \noBreak
     g\breve\fermata \bar "||"
-    \time 3/2 \tempoD-III-IVbc f!2.(^\aTre g4 a g8[ f)] \noBreak
+    \time 3/2 \tempoD-III-IVbc
+      \unset Staff.timeSignatureFraction
+      f!2.(^\aTre g4 a g8[ f)] \noBreak
     e2 f g %40
     c, r g'
     f f4( e8[ d)] c2
@@ -273,7 +275,9 @@ D-III-IVcAlto = {
     g2 f1 g2
     e( f1) e2 \noBreak
     f\breve\fermata \bar "||"
-    \time 3/2 \tempoD-III-IVcc e2^\aTre f2. f4 \noBreak
+    \time 3/2 \tempoD-III-IVcc
+      \unset Staff.timeSignatureFraction
+      e2^\aTre f2. f4 \noBreak
     e1 r2 %35
     fis2 g4( d) g2
     fis1 r2
