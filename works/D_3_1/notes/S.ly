@@ -1,12 +1,12 @@
 \version "2.24.0"
 
-D-III-I-aSoprano = {
+D-III-ISoprano = {
   \relative c' {
     \clef treble
-    \key g \dorian \time 4/2 \tempoD-III-I-a
+    \key g \dorian \time 4/2 \tempoD-III-I
       \set Staff.timeSignatureFraction = 2/2
       \markTimeSig #'(4 2)
-    \mvTr b'\breve~\fE^\tuttiE
+    b'\breve~
     b2 a4 g a1\fermata
     b\breve~
     b2 a4 g a1\fermata
@@ -34,7 +34,7 @@ D-III-I-aSoprano = {
     a h4 h c2 d4 d
     c2 b4 b a1 \noBreak
     \time 2/2 \markTimeSig #'(2 2) h\fermata \bar "||"
-    \time 4/2 \markTimeSig #'(4 2) r2 b\fE a1 \noBreak
+    \time 4/2 \markTimeSig #'(4 2) r2 b a1 \noBreak
     b2 b1 a4 a %30
     h2 c d1
     c r2 c~
@@ -46,12 +46,55 @@ D-III-I-aSoprano = {
     c2 d4 d c2 b4 b
     a1 h
     r2 g\p a h4 h %40
-    c2 d4 d c2 b4 b
-    a1 h\fermata \bar "|." %42 finis
+    c2 d4 d c2 b4 b \noBreak
+    a1 h\fermata \bar "||"
+    \key d \dorian h1 h2 cis \noBreak
+    d( f1) f2
+    e1 r2 cis %45
+    d d4 d d2 d
+    d( cis) d1
+    r2 d es d4 d
+    c!2 h c1
+    h r2 h %50
+    c1. c2
+    d2. d4 d2 d
+    c b4 b a2 g
+    f1 f
+    r2 a a h! %55
+    c2. c4 c1
+    r2 cis cis cis
+    d1 d
+    d2( cis) d1
+    r2 cis\p cis cis %60
+    d1 d \noBreak
+    d2( cis) d1\fermata \bar "||"
+    \key g \dorian d e2 f \noBreak
+    d2. d4 c2 d
+    g, c2. c4 a2( %65
+    d1) cis
+    r2 d d e~
+    e f d1
+    \time 2/2 \markTimeSig #'(2 2) c!
+    \time 4/2 \markTimeSig #'(4 2) r2 a b a %70
+    r a\p b a
+    r a\f b d
+    c1 d
+    r2 d d d4 d
+    \appoggiatura d cis2. cis4 d1 %75
+    r2 d\p d d4 d
+    \appoggiatura d cis2. cis4 d1
+    r2 d\f d c
+    c2. c4 c1
+    r2 d d d %80
+    c1 b
+    a h
+    r2 d\p d d
+    c1 b!
+    a h\fermata \bar "|." %85 finis
   }
 }
 
-D-III-I-aSopranoLyrics = \lyricmode {
+D-III-ISopranoLyrics = \lyricmode {
   Ec --
   _ _ ce,
   ec --
@@ -93,103 +136,48 @@ D-III-I-aSopranoLyrics = \lyricmode {
   e -- ius,
   et e -- rit in %40
   pa -- ce me -- mo -- ri -- a
-  e -- ius. %42 finis
-}
-
-D-III-I-bSoprano = {
-  \relative c' {
-    \clef treble
-    \key d \dorian \time 4/2 \tempoD-III-I-b
-      \set Staff.timeSignatureFraction = 2/2
-      \markTimeSig #'(4 2)
-    \mvTr h'1\fE^\tuttiE h2 cis
-    d( f1) f2
-    e1 r2 cis
-    d d4 d d2 d
-    d( cis) d1 %5
-    r2 d es d4 d
-    c!2 h c1
-    h r2 h
-    c1. c2
-    d2. d4 d2 d %10
-    c b4 b a2 g
-    f1 f
-    r2 a a h!
-    c2. c4 c1
-    r2 cis cis cis %15
-    d1 d
-    d2( cis) d1
-    r2 cis\p cis cis
-    d1 d \noBreak
-    d2( cis) d1\fermata \bar "||" %20
-    \key g \dorian d\fE e2 f \noBreak
-    d2. d4 c2 d
-    g, c2. c4 a2(
-    d1) cis
-    r2 d d e~ %25
-    e f d1
-    \time 2/2 \markTimeSig #'(2 2) c!
-    \time 4/2 \markTimeSig #'(4 2) r2 a b a
-    r a\p b a
-    r a\f b d %30
-    c1 d
-    r2 d d d4 d
-    \appoggiatura d cis2. cis4 d1
-    r2 d\p d d4 d
-    \appoggiatura d cis2. cis4 d1 %35
-    r2 d\f d c
-    c2. c4 c1
-    r2 d d d
-    c1 b
-    a h %40
-    r2 d\p d d
-    c1 b!
-    a h\fermata \bar "|." %43 finis
-  }
-}
-
-D-III-I-bSopranoLyrics = \lyricmode {
+  e -- ius.
   Se -- pul -- to
   Do -- mi --
-  no, si --
+  no, si -- %45
   gna -- tum est mo -- nu --
-  men -- tum, %5
+  men -- tum,
   si -- gna -- tum est
   mo -- nu -- men --
-  tum vol --
+  tum vol -- %50
   ven -- tes
-  la -- pi -- dem ad %10
+  la -- pi -- dem ad
   o -- sti -- um mo -- nu --
   men -- ti:
+  po -- nen -- tes %55
+  mi -- li -- tes,
+  qui cu -- sto --
+  di -- rent
+  il -- lum,
+  qui cu -- sto -- %60
+  di -- rent
+  il -- lum.
+  Ne for -- te
+  ve -- ni -- ant di --
+  sci -- pu -- li e -- %65
+  ius
+  et fu -- ren --
+  tur e --
+  um
+  et di -- cant, %70
+  et di -- cant,
+  et di -- cant
+  ple -- bi
+  sur -- re -- xit a
+  mor -- tu -- is, %75
+  sur -- re -- xit a
+  mor -- tu -- is,
   po -- nen -- tes
   mi -- li -- tes,
-  qui cu -- sto -- %15
+  qui cu -- sto -- %80
   di -- rent
   il -- lum,
   qui cu -- sto --
   di -- rent
-  il -- lum. %20
-  Ne for -- te
-  ve -- ni -- ant di --
-  sci -- pu -- li e --
-  ius
-  et fu -- ren -- %25
-  tur e --
-  um
-  et di -- cant,
-  et di -- cant,
-  et di -- cant %30
-  ple -- bi
-  sur -- re -- xit a
-  mor -- tu -- is,
-  sur -- re -- xit a
-  mor -- tu -- is, %35
-  po -- nen -- tes
-  mi -- li -- tes,
-  qui cu -- sto --
-  di -- rent
-  il -- lum, %40
-  qui cu -- sto --
-  di -- rent
-  il -- lum. %43 finis
+  il -- lum. %85 finis
 }

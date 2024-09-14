@@ -13,7 +13,7 @@
 
 \book {
   \bookpart {
-    \section "1" "Ecce quomodo moritur iustus"
+    \section "D.3.1" "Ecce quomodo moritur iustus"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -21,65 +21,29 @@
         \new ChoirStaff <<
           \new Staff {
             \incipit "Soprano" "soprano" #-20.5 #-0.3
-            \new Voice = "Soprano" { \dynamicUp \D-III-I-aSoprano }
+            \new Voice = "Soprano" { \dynamicUp \D-III-ISoprano }
           }
-          \new Lyrics \lyricsto Soprano \D-III-I-aSopranoLyrics
+          \new Lyrics \lyricsto Soprano \D-III-ISopranoLyrics
 
           \new Staff {
             \incipit "Alto" "alto" #-18.3 #-0.3
-            \new Voice = "Alto" { \dynamicUp \D-III-I-aAlto }
+            \new Voice = "Alto" { \dynamicUp \D-III-IAlto }
           }
-          \new Lyrics \lyricsto Alto \D-III-I-aAltoLyrics
+          \new Lyrics \lyricsto Alto \D-III-IAltoLyrics
 
           \new Staff {
             \incipit "Tenore" "tenor" #-19.7 #-0.3
-            \new Voice = "Tenore" { \dynamicUp \D-III-I-aTenore }
+            \new Voice = "Tenore" { \dynamicUp \D-III-ITenore }
           }
-          \new Lyrics \lyricsto Tenore \D-III-I-aTenoreLyrics
+          \new Lyrics \lyricsto Tenore \D-III-ITenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \D-III-I-aBasso }
+            \new Voice = "Basso" { \dynamicUp \D-III-IBasso }
           }
-          \new Lyrics \lyricsto Basso \D-III-I-aBassoLyrics
+          \new Lyrics \lyricsto Basso \D-III-IBassoLyrics
         >>
-        \new FiguredBass { \D-III-I-aBassFigures }
-      >>
-      \layout { }
-      \midi { \tempo 2 = 100 }
-    }
-  }
-  \bookpart {
-    \section "2" "Sepulto Domino"
-    \addTocEntry
-    \score { %\articulate
-      <<
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \D-III-I-bSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \D-III-I-bSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \D-III-I-bAlto }
-          }
-          \new Lyrics \lyricsto Alto \D-III-I-bAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \D-III-I-bTenore }
-          }
-          \new Lyrics \lyricsto Tenore \D-III-I-bTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \D-III-I-bBasso }
-          }
-          \new Lyrics \lyricsto Basso \D-III-I-bBassoLyrics
-        >>
-        \new FiguredBass { \D-III-I-bBassFigures }
+        \new FiguredBass { \D-III-IBassFigures }
       >>
       \layout { }
       \midi { \tempo 2 = 100 }

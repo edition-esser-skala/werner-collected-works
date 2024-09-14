@@ -1,8 +1,7 @@
-title: 2 Responsoria
-subtitle: Ecce quomodo moritur iustus · Sepulto Domino
+title: Ecce quomodo moritur
 id: WerW D.3.1
 genre: responsory
-festival: Sabbato Sancto
+festival: Sabbatum Sanctum
 scoring: S, A, T, B (coro)
 license: cc-by-sa-4.0
 sources:
@@ -14,11 +13,11 @@ sources:
     license: public domain
     principal: true
 toe: |
-  – & – & – & This work is denoted “4 Responsoria” in H-Bn,
-          although the work consists rather of two
-          responsorys with respective verses. \\
-  – & – & B & All bass figures have been added by the editor. \\
-tocstyle: default
+  – & – & It is unclear whether this work comprises
+          (a) a single movement,
+          (b) two responsories with respective verses, or
+          (c) four separate movements. \\
+  – & B & All bass figures have been added by the editor. \\
 lyrics:
   Ecce quomodo moritur iustus\\
   et nemo percipit corde,\\

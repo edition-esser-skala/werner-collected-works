@@ -1,12 +1,12 @@
 \version "2.24.0"
 
-D-III-I-aTenore = {
+D-III-ITenore = {
   \relative c' {
     \clef "treble_8"
-    \key g \dorian \time 4/2 \tempoD-III-I-a
+    \key g \dorian \time 4/2 \tempoD-III-I
       \set Staff.timeSignatureFraction = 2/2
       \markTimeSig #'(4 2)
-    \mvTr d\breve\fE^\tuttiE
+    d\breve
     d\fermata
     d~
     d2 c4 b c1\fermata
@@ -34,7 +34,7 @@ D-III-I-aTenore = {
     c d4 d es2 f4 f
     es2 e4 e a,2( d) \noBreak
     \time 2/2 \markTimeSig #'(2 2) d1\fermata \bar "||"
-    \time 4/2 \markTimeSig #'(4 2) r2 d\fE d1 \noBreak
+    \time 4/2 \markTimeSig #'(4 2) r2 d d1 \noBreak
     d2 d1 c4 c %30
     d2 g, h( d)
     g,1 r2 a~
@@ -46,12 +46,55 @@ D-III-I-aTenore = {
     es2 f4 f es2 e4 e
     a,2( d) d1
     r2 c\p c d4 d %40
-    es2 f4 f es2 e4 e
-    a,2( d) d1\fermata \bar "|." %42 finis
+    es2 f4 f es2 e4 e  \noBreak
+    a,2( d) d1\fermata \bar "||"
+    \key d \dorian g,1 g2 g \noBreak
+    a1 h
+    cis r2 a %45
+    b a4 a b2 a
+    b( a4 g) a1
+    r2 a c! d4 d
+    es2 d es( d4 c)
+    d1 r2 g, %50
+    g1. a2
+    b2. b4 b2 b
+    a b4 b d2 b
+    b1 a
+    r2 c d h %55
+    g2. g4 g1
+    r2 a cis e
+    d1 h!
+    a a
+    r2 a\p cis e %60
+    d1 h! \noBreak
+    a a\fermata \bar "||"
+    \key g \dorian b2 b1 c2 \noBreak
+    b2. b4 a2 h
+    c2. c4 a2 d~ %65
+    d4 cis d2 e!1
+    r2 a, b c~
+    c c b( d)
+    \time 2/2 \markTimeSig #'(2 2) f1
+    \time 4/2 \markTimeSig #'(4 2) r2 c d c %70
+    r c\p des c
+    r c\f f, b
+    a1 b
+    r2 a a a4 d
+    b2 a4( g) a1 %75
+    r2 a\p a a4 d
+    b2 a4( g) a1
+    r2 b\f b g
+    a2. a4 a1
+    r2 a a a %80
+    g1 g
+    fis g
+    r2 a\p a a
+    g1 g
+    fis g\fermata \bar "|." %85 finis
   }
 }
 
-D-III-I-aTenoreLyrics = \lyricmode {
+D-III-ITenoreLyrics = \lyricmode {
   Ec --
   ce,
   ec --
@@ -93,103 +136,48 @@ D-III-I-aTenoreLyrics = \lyricmode {
   e -- ius,
   et e -- rit in %40
   pa -- ce me -- mo -- ri -- a
-  e -- ius. %42 finis
-}
-
-D-III-I-bTenore = {
-  \relative c' {
-    \clef "treble_8"
-    \key d \dorian \time 4/2 \tempoD-III-I-b
-      \set Staff.timeSignatureFraction = 2/2
-      \markTimeSig #'(4 2)
-    \mvTr g1\fE^\tuttiE g2 g
-    a1 h
-    cis r2 a
-    b a4 a b2 a
-    b( a4 g) a1 %5
-    r2 a c! d4 d
-    es2 d es( d4 c)
-    d1 r2 g,
-    g1. a2
-    b2. b4 b2 b %10
-    a b4 b d2 b
-    b1 a
-    r2 c d h
-    g2. g4 g1
-    r2 a cis e %15
-    d1 h!
-    a a
-    r2 a\p cis e
-    d1 h! \noBreak
-    a a\fermata \bar "||" %20
-    \key g \dorian b2\fE b1 c2 \noBreak
-    b2. b4 a2 h
-    c2. c4 a2 d~
-    d4 cis d2 e!1
-    r2 a, b c~ %25
-    c c b( d)
-    \time 2/2 \markTimeSig #'(2 2) f1
-    \time 4/2 \markTimeSig #'(4 2) r2 c d c
-    r c\p des c
-    r c\f f, b %30
-    a1 b
-    r2 a a a4 d
-    b2 a4( g) a1
-    r2 a\p a a4 d
-    b2 a4( g) a1 %35
-    r2 b\f b g
-    a2. a4 a1
-    r2 a a a
-    g1 g
-    fis g %40
-    r2 a\p a a
-    g1 g
-    fis g\fermata \bar "|." %43 finis
-  }
-}
-
-D-III-I-bTenoreLyrics = \lyricmode {
+  e -- ius.
   Se -- pul -- to
   Do -- mi --
-  no, si --
+  no, si -- %45
   gna -- tum est mo -- nu --
-  men -- tum, %5
+  men -- tum,
   si -- gna -- tum est
   mo -- nu -- men --
-  tum vol --
+  tum vol -- %50
   ven -- tes
-  la -- pi -- dem ad %10
+  la -- pi -- dem ad
   o -- sti -- um mo -- nu --
   men -- ti:
+  po -- nen -- tes %55
+  mi -- li -- tes,
+  qui cu -- sto --
+  di -- rent
+  il -- lum,
+  qui cu -- sto -- %60
+  di -- rent
+  il -- lum.
+  Ne for -- te
+  ve -- ni -- ant di --
+  sci -- pu -- li e -- %65
+  _ _ ius
+  et fu -- ren --
+  tur e --
+  um
+  et di -- cant, %70
+  et di -- cant,
+  et di -- cant
+  ple -- bi
+  sur -- re -- xit a
+  mor -- tu -- is, %75
+  sur -- re -- xit a
+  mor -- tu -- is,
   po -- nen -- tes
   mi -- li -- tes,
-  qui cu -- sto -- %15
+  qui cu -- sto -- %80
   di -- rent
   il -- lum,
   qui cu -- sto --
   di -- rent
-  il -- lum. %20
-  Ne for -- te
-  ve -- ni -- ant di --
-  sci -- pu -- li e --
-  _ _ ius
-  et fu -- ren -- %25
-  tur e --
-  um
-  et di -- cant,
-  et di -- cant,
-  et di -- cant %30
-  ple -- bi
-  sur -- re -- xit a
-  mor -- tu -- is,
-  sur -- re -- xit a
-  mor -- tu -- is, %35
-  po -- nen -- tes
-  mi -- li -- tes,
-  qui cu -- sto --
-  di -- rent
-  il -- lum, %40
-  qui cu -- sto --
-  di -- rent
-  il -- lum. %43 finis
+  il -- lum. %85 finis
 }

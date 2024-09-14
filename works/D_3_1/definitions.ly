@@ -1,7 +1,6 @@
 \version "2.24.0"
 
-tempoD-III-I-a = \tempoMarkup ""
-tempoD-III-I-b = \tempoMarkup ""
+tempoD-III-I = \tempoMarkup "[Tempo deest]"
 
 \include "notes/S.ly"
 \include "notes/A.ly"

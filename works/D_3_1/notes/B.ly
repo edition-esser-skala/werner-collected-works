@@ -1,12 +1,12 @@
 \version "2.24.0"
 
-D-III-I-aBasso = {
+D-III-IBasso = {
   \relative c {
     \clef bass
-    \key g \dorian \time 4/2 \tempoD-III-I-a
+    \key g \dorian \time 4/2 \tempoD-III-I
       \set Staff.timeSignatureFraction = 2/2
       \markTimeSig #'(4 2)
-    \mvTr g'\breve\fE^\tuttiE
+    g'\breve
     d\fermata
     b'
     f\fermata
@@ -34,7 +34,7 @@ D-III-I-aBasso = {
     f d4 d c2 h4 h
     c2 cis4 cis  d1 \noBreak
     \time 2/2 \markTimeSig #'(2 2) g,\fermata \bar "||"
-    \time 4/2 \markTimeSig #'(4 2) r2 g'\fE d1 \noBreak
+    \time 4/2 \markTimeSig #'(4 2) r2 g' d1 \noBreak
     g2 b1 f4 f %30
     d2 c h1
     c r2 f~
@@ -46,12 +46,55 @@ D-III-I-aBasso = {
     c2 h4 h c2 cis4 cis
     d1 g,
     r2 c\p f d4 d %40
-    c2 h4 h c2 cis4 cis
-    d1 g,\fermata \bar "|." %42 finis
+    c2 h4 h c2 cis4 cis \noBreak
+    d1 g,\fermata \bar "||"
+    \key d \dorian e'1 e2 e \noBreak
+    d1. d2
+    a1 r2 a' %45
+    g fis4 fis g2 d
+    g,1 d'
+    r2 d c! h!4 h
+    c2 g' c,1
+    g r2 g' %50
+    c,1. f2
+    b,2. b4 b2 b
+    f' g4 g d2 es
+    b1 f
+    r2 f' d g %55
+    c,2. c4 c1
+    r2 a a a
+    b1 gis
+    a d
+    r2 a\p a a %60
+    b1 gis \noBreak
+    a d\fermata \bar "||"
+    \key g \dorian g2 g1 f2 \noBreak
+    b2. b4 f2 d
+    c2. c4 f1 %65
+    b, a
+    r2 d g c,!~
+    c f b,1
+    \time 2/2 \markTimeSig #'(2 2) f
+    \time 4/2 \markTimeSig #'(4 2) r2 f' b, f' %70
+    r f\p e f
+    r f\f d! b
+    f1 b
+    r2 d d d4 d
+    es2. es4 d1 %75
+    r2 d\p d d4 d
+    es2. es4 d1
+    r2 b\f g c
+    f2. f4 f1
+    r2 d d d %80
+    es1 cis
+    d g,
+    r2 d'\p d d
+    es1 cis
+    d g,\fermata \bar "|." %85 finis
   }
 }
 
-D-III-I-aBassoLyrics = \lyricmode {
+D-III-IBassoLyrics = \lyricmode {
   Ec --
   ce,
   ec --
@@ -93,10 +136,53 @@ D-III-I-aBassoLyrics = \lyricmode {
   e -- ius,
   et e -- rit in %40
   pa -- ce me -- mo -- ri -- a
-  e -- ius. %42 finis
+  e -- ius.
+  Se -- pul -- to
+  Do -- mi --
+  no, si -- %45
+  gna -- tum est mo -- nu --
+  men -- tum,
+  si -- gna -- tum est
+  mo -- nu -- men --
+  tum vol -- %50
+  ven -- tes
+  la -- pi -- dem ad
+  o -- sti -- um mo -- nu --
+  men -- ti:
+  po -- nen -- tes %55
+  mi -- li -- tes,
+  qui cu -- sto --
+  di -- rent
+  il -- lum,
+  qui cu -- sto -- %60
+  di -- rent
+  il -- lum.
+  Ne for -- te
+  ve -- ni -- ant di --
+  sci -- pu -- li %65
+  e -- ius
+  et fu -- ren --
+  tur e --
+  um
+  et di -- cant, %70
+  et di -- cant,
+  et di -- cant
+  ple -- bi
+  sur -- re -- xit a
+  mor -- tu -- is, %75
+  sur -- re -- xit a
+  mor -- tu -- is,
+  po -- nen -- tes
+  mi -- li -- tes,
+  qui cu -- sto -- %80
+  di -- rent
+  il -- lum,
+  qui cu -- sto --
+  di -- rent
+  il -- lum. %85 finis
 }
 
-D-III-I-aBassFigures = \figuremode {
+D-III-IBassFigures = \figuremode {
   r\breve
   <6 4>2 <5 _+>4 <4 2> <5 _+>1
   <5!>\breve
@@ -138,149 +224,48 @@ D-III-I-aBassFigures = \figuremode {
   <4> <_+> <_!>1
   r1. <6!>2 %40
   <_-> <7-> <_-> <7- _!>
-  <4> <_+> <_!>1 %42 finis
-}
-
-D-III-I-bBasso = {
-  \relative c {
-    \clef bass
-    \key d \dorian \time 4/2 \tempoD-III-I-b
-      \set Staff.timeSignatureFraction = 2/2
-      \markTimeSig #'(4 2)
-    \mvTr e1\fE^\tuttiE e2 e
-    d1. d2
-    a1 r2 a'
-    g fis4 fis g2 d
-    g,1 d' %5
-    r2 d c! h!4 h
-    c2 g' c,1
-    g r2 g'
-    c,1. f2
-    b,2. b4 b2 b %10
-    f' g4 g d2 es
-    b1 f
-    r2 f' d g
-    c,2. c4 c1
-    r2 a a a %15
-    b1 gis
-    a d
-    r2 a\p a a
-    b1 gis \noBreak
-    a d\fermata \bar "||" %20
-    \key g \dorian g2\fE g1 f2 \noBreak
-    b2. b4 f2 d
-    c2. c4 f1
-    b, a
-    r2 d g c,!~ %25
-    c f b,1
-    \time 2/2 \markTimeSig #'(2 2) f
-    \time 4/2 \markTimeSig #'(4 2) r2 f' b, f'
-    r f\p e f
-    r f\f d! b %30
-    f1 b
-    r2 d d d4 d
-    es2. es4 d1
-    r2 d\p d d4 d
-    es2. es4 d1 %35
-    r2 b\f g c
-    f2. f4 f1
-    r2 d d d
-    es1 cis
-    d g, %40
-    r2 d'\p d d
-    es1 cis
-    d g,\fermata \bar "|." %43 finis
-  }
-}
-
-D-III-I-bBassoLyrics = \lyricmode {
-  Se -- pul -- to
-  Do -- mi --
-  no, si --
-  gna -- tum est mo -- nu --
-  men -- tum, %5
-  si -- gna -- tum est
-  mo -- nu -- men --
-  tum vol --
-  ven -- tes
-  la -- pi -- dem ad %10
-  o -- sti -- um mo -- nu --
-  men -- ti:
-  po -- nen -- tes
-  mi -- li -- tes,
-  qui cu -- sto -- %15
-  di -- rent
-  il -- lum,
-  qui cu -- sto --
-  di -- rent
-  il -- lum. %20
-  Ne for -- te
-  ve -- ni -- ant di --
-  sci -- pu -- li
-  e -- ius
-  et fu -- ren -- %25
-  tur e --
-  um
-  et di -- cant,
-  et di -- cant,
-  et di -- cant %30
-  ple -- bi
-  sur -- re -- xit a
-  mor -- tu -- is,
-  sur -- re -- xit a
-  mor -- tu -- is, %35
-  po -- nen -- tes
-  mi -- li -- tes,
-  qui cu -- sto --
-  di -- rent
-  il -- lum, %40
-  qui cu -- sto --
-  di -- rent
-  il -- lum. %43 finis
-}
-
-D-III-I-bBassFigures = \figuremode {
+  <4> <_+> <_!>1
   <5>1. <6\\>2
   <5 3>1 <6 4\+>
-  <_+>1. <\t>2
+  <_+>1. <\t>2 %45
   <_-> <6> <_-> <_+>
-  <5 _-> <4\+ 2> <_+>1 %5
+  <5 _-> <4\+ 2> <_+>1
   r2 <\t> <_-> <6>
   <_->1 <5 _->2 <4\+ 2>
-  r\breve
+  r\breve %50
   <_!>
-  r %10
+  r
   r2 <_->1 <5->2
   r\breve
-  r1. <_!>2
+  r1. <_!>2 %55
   q\breve
-  r2 <_+>1. %15
+  r2 <_+>1.
   <6>1 <7 _!>
   <6 4>2 <5 _+> <_+>1
-  r2 <_+>1.
+  r2 <_+>1. %60
   <6>1 <7 _!>
-  <6 4>2 <5 _+> <_+>1 %20
+  <6 4>2 <5 _+> <_+>1
   <5> <6>2 <8>
   r1. <6!>2
-  <_->1 <5>2 <6>
+  <_->1 <5>2 <6> %65
   <5> <6> <5! _+>1
-  r2 <_+>1. %25
+  r2 <_+>1.
   r\breve
   r1
-  r\breve
+  r\breve %70
   r1 <7->
-  r <6> %30
+  r <6>
   r\breve
   r2 <_+>1.
-  <7>4 <6\\>2. <_+>1
+  <7>4 <6\\>2. <_+>1 %75
   r2 <\t>1.
-  <7>4 <6\\>2. <_+>1 %35
+  <7>4 <6\\>2. <_+>1
   r2 <5!>1 <_!>2
   r\breve
+  r2 <_+>1. %80
+  <6>1 <7 _!>
+  <_+> <_!>
   r2 <_+>1.
   <6>1 <7 _!>
-  <_+> <_!> %40
-  r2 <_+>1.
-  <6>1 <7 _!>
-  <_+> <_!> %43 finis
+  <_+> <_!> %85 finis
 }
