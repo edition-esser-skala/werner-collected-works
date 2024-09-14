@@ -61,7 +61,7 @@ D-III-III-aOrgano = {
     r8 f f f b4 fis \noBreak
     g2 d\fermata \bar "||"
     \clef "treble_8" \tempoD-III-III-ad \time 3/2 \newSpacingSection
-      f'!1 f2 \noBreak
+      f'!1^\aTre f2 \noBreak
     b,4 c d e f2
     b, g4 a b c %50
     d2 d h
@@ -209,7 +209,7 @@ D-III-III-bOrgano = {
     e h~ \noBreak
     h e,\fermata \bar "||"
     \clef "treble_8" \time 3/2 \tempoD-III-III-bc \newSpacingSection
-      g'4 a h2 g \noBreak
+      g'4^\aTre a h2 g \noBreak
     d' h e
     a, fis g! %50
     d1 r2
@@ -347,7 +347,7 @@ D-III-III-cOrgano = {
     f1 f, \noBreak
     b\breve \bar "||"
     \clef "treble_8" \time 3/2 \tempoD-III-III-cc \newSpacingSection
-      g'2 b g \noBreak
+      g'2^\aTre b g \noBreak
     d' d, r
     c c' c %45
     c4 h g2 b

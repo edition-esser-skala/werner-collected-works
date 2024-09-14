@@ -55,7 +55,8 @@ D-III-III-aSoprano = {
     d8[ cis16 h?] cis4 d d8 d %45
     f4( c) d d \noBreak
     d2 d\fermata \bar "||"
-    \time 3/2 \tempoD-III-III-ad \newSpacingSection f!1 c2 \noBreak
+    \time 3/2 \tempoD-III-III-ad \newSpacingSection
+      f!1^\aTre c2 \noBreak
     d2. d4 c2
     d b4( c d c8[ b]) %50
     a2 a d
@@ -191,7 +192,8 @@ D-III-III-bSoprano = {
     f[ g] a2 a4 %45
     g2. fis8[ e] \noBreak
     fis2 e\fermata \bar "||"
-    \time 3/2 \tempoD-III-III-bc \newSpacingSection h'2( d) h \noBreak
+    \time 3/2 \tempoD-III-III-bc \newSpacingSection
+      h'2(^\aTre d) h \noBreak
     a d h
     c d( h) %50
     a a( h)
@@ -326,7 +328,8 @@ D-III-III-cSoprano = {
     b2 es es d %40
     c\breve \noBreak
     d\fermata \bar "||"
-    \time 3/2 \tempoD-III-III-cc \newSpacingSection R1.*3 %45
+    \time 3/2 \tempoD-III-III-cc \newSpacingSection
+      \after 4*0 ^\aTre R1.*3 %45
     g,2 g' g
     g4( fis) d2 f~
     f es!4 d es2

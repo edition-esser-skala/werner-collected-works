@@ -53,7 +53,8 @@ D-III-III-aTenore = {
     a'2 a4 r %45
     r8 c! f c d4. c8 \noBreak
     b4._( a16[ g]) a2\fermata \bar "||"
-    \time 3/2 \tempoD-III-III-ad \newSpacingSection r2 f'! f \noBreak
+    \time 3/2 \tempoD-III-III-ad \newSpacingSection
+      r2^\aTre f'! f \noBreak
     b,4( c) d( e) f2
     b, g4( a b c) %50
     d2 d h
@@ -187,7 +188,8 @@ D-III-III-bTenore = {
     a a h2 %45
     h h \noBreak
     h h\fermata \bar "||"
-    \time 3/2 \tempoD-III-III-bc \newSpacingSection g2( h) g \noBreak
+    \time 3/2 \tempoD-III-III-bc \newSpacingSection
+      g2(^\aTre h) g \noBreak
     d' h e
     a, fis( g!) %50
     d1 r2
@@ -323,7 +325,8 @@ D-III-III-cTenore = {
     b, c a b~ %40
     b a4 g a1 \noBreak
     b\breve\fermata \bar "||"
-    \time 3/2 \tempoD-III-III-cc \newSpacingSection R1.*2
+    \time 3/2 \tempoD-III-III-cc \newSpacingSection
+      \after 4*0 ^\aTre R1.*2
     c,2 c' c %45
     c4( h) g2( b)
     a( h4 a) h2

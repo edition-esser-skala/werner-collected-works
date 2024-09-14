@@ -51,7 +51,8 @@ D-III-III-aAlto = {
     f([ e16 d] e4) d r %45
     r8 a' a a f f a4~ \noBreak
     a8[ g16 fis] g4 fis2\fermata \bar "||"
-    \time 3/2 \tempoD-III-III-ad \newSpacingSection a1 a2 \noBreak
+    \time 3/2 \tempoD-III-III-ad \newSpacingSection
+      a1^\aTre a2 \noBreak
     f b a4( g)
     f2 g4( fis g2) %50
     fis fis fis
@@ -183,7 +184,8 @@ D-III-III-bAlto = {
     f4) e dis2 %45
     e4 e e dis8[ cis] \noBreak
     dis2 e\fermata \bar "||"
-    \time 3/2 \newSpacingSection \tempoD-III-III-bc d1 g2 \noBreak
+    \time 3/2 \newSpacingSection \tempoD-III-III-bc
+      d1^\aTre g2 \noBreak
     fis2. fis4 gis2
     a a( g) %50
     fis fis( g)
@@ -319,7 +321,8 @@ D-III-III-cAlto = {
     d2 g f1 %40
     f f \noBreak
     f\breve\fermata \bar "||"
-    \time 3/2 \tempoD-III-III-cc \newSpacingSection g,2 g' g \noBreak
+    \time 3/2 \tempoD-III-III-cc \newSpacingSection
+      g,2^\aTre g' g \noBreak
     g4( fis) d2 f
     f4( e) c2( es) %45
     d2.( c4) d2
