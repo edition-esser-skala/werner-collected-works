@@ -5,7 +5,7 @@ D-III-V-aAlto = {
     \clef treble
     \key c \major \time 4/2 \tempoD-III-V-a \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr c1\fE^\tuttiE g'
+    c1 g'
     e2 a1 g2
     f f e1
     d2 g1 e2
@@ -150,7 +150,7 @@ D-III-V-bAlto = {
     \clef treble
     \key d \minor \time 3/2 \tempoD-III-V-b \autoBeamOff
     R1.*2
-    \mvTr d1\fE^\tuttiE a'2
+    d1 a'2
     b a2. g4
     f2 d4 e f g %5
     a1 gis2
@@ -313,7 +313,7 @@ D-III-V-cAlto = {
     \clef treble
     \key a \minor \time 4/4 \tempoD-III-V-c \autoBeamOff
     R1
-    \mvTr e2.\fE^\tuttiE e4
+    e2. e4
     f2 e4 a~
     a g f2
     e4 a2 gis8[ fis] %5
@@ -485,7 +485,7 @@ D-III-V-dAlto = {
   \relative c' {
     \clef treble
     \key g \major \time 4/4 \tempoD-III-V-d \autoBeamOff
-    r2 \mvTr g'4\fE^\tuttiE a
+    r2 g'4 a
     g8 d g4 fis g
     fis8 g e([ fis)] g4. g8
     a fis d([ e)] fis fis d4(

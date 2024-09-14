@@ -6,7 +6,7 @@ D-III-V-aViolinoI = {
     \key c \major \time 4/2 \tempoD-III-V-a
       \set Staff.timeSignatureFraction = 2/2
     R\breve*3
-    g'1\fE c
+    g'1 c
     h2 e1 d2 %5
     c c h1
     r r2 d
@@ -77,7 +77,7 @@ D-III-V-bViolinoI = {
   \relative c' {
     \clef treble
     \key d \minor \time 3/2 \tempoD-III-V-b
-    a'2\fE f' e
+    a'2 f' e
     d1 cis2
     d d,2. e4
     f2 e1
@@ -161,7 +161,7 @@ D-III-V-cViolinoI = {
   \relative c' {
     \clef treble
     \key a \minor \time 4/4 \tempoD-III-V-c
-    a'2.\fE a4
+    a'2. a4
     c2 h4 e~
     e d c2
     h a8 h c4~
@@ -250,7 +250,7 @@ D-III-V-dViolinoI = {
   \relative c' {
     \clef treble
     \key g \major \time 4/4 \tempoD-III-V-d
-    d'4\fE e d8 g, c4
+    d'4 e d8 g, c4
     h8 d4 c16 h a8 d4 cis8
     d h4 a8 h4 r
     r2 a4 h

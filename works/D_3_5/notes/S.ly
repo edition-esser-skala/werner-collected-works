@@ -6,7 +6,7 @@ D-III-V-aSoprano = {
     \key c \major \time 4/2 \tempoD-III-V-a \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
     R\breve*3
-    \mvTr g'1\fE^\tuttiE c
+    g'1 c
     h2 e1 d2 %5
     c c h1
     r r2 d
@@ -144,7 +144,7 @@ D-III-V-bSoprano = {
   \relative c' {
     \clef treble
     \key d \minor \time 3/2 \tempoD-III-V-b \autoBeamOff
-    \mvTr a'2\fE^\tuttiE f' e
+    a'2 f' e
     d1 cis2
     d d,2.( e4)
     f2 e e
@@ -308,7 +308,7 @@ D-III-V-cSoprano = {
   \relative c' {
     \clef treble
     \key a \minor \time 4/4 \tempoD-III-V-c \autoBeamOff
-    \mvTr a'2.\fE^\tuttiE a4
+    a'2. a4
     c2 h4 e~
     e d c2
     h a8[ h] c4~
@@ -482,7 +482,7 @@ D-III-V-dSoprano = {
   \relative c' {
     \clef treble
     \key g \major \time 4/4 \tempoD-III-V-d \autoBeamOff
-    \mvTr d'4\fE^\tuttiE e d8 g, c4
+    d'4 e d8 g, c4
     h8 d4 c16([ h)] a8( d4 cis8)
     d h4( a8) h4 r
     r2 a4 h

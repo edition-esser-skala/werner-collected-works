@@ -6,7 +6,7 @@ D-III-V-aBasso = {
     \key c \major \time 4/2 \tempoD-III-V-a \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
     R\breve*2
-    r1 \mvTr c\fE^\tuttiE
+    r1 c
     g' e2 a~
     a g f f %5
     e1 r2 g
@@ -142,7 +142,7 @@ D-III-V-bBasso = {
   \relative c {
     \clef bass
     \key d \minor \time 3/2 \tempoD-III-V-b \autoBeamOff
-    \mvTr d1\fE^\tuttiE a'2
+    d1 a'2
     b a2. g4
     f2. g4 f e
     d1 cis2
@@ -297,7 +297,7 @@ D-III-V-cBasso = {
     \clef bass
     \key a \minor \time 4/4 \tempoD-III-V-c \autoBeamOff
     R1*4
-    r2 r4 \mvTr e~\fE^\tuttiE %5
+    r2 r4 e~ %5
     e e f2
     e4 a2 g!4
     f2 e
@@ -458,7 +458,7 @@ D-III-V-dBasso = {
     \clef bass
     \key g \major \time 4/4 \tempoD-III-V-d \autoBeamOff
     R1*2
-    r2 \mvTr g'4\fE^\tuttiE h
+    r2 g'4 h
     a8 d, g4 fis g~
     g8 fis e4 d r %5
     r2 d4 e

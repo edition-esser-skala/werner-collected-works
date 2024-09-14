@@ -5,7 +5,7 @@ D-III-V-aTenore = {
     \clef "treble_8"
     \key c \major \time 4/2 \tempoD-III-V-a \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
-    r1 \mvTr g\fE^\tuttiE
+    r1 g
     c h2 e~
     e d c c
     h1 r
@@ -149,7 +149,7 @@ D-III-V-bTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \minor \time 3/2 \tempoD-III-V-b \autoBeamOff
-    \mvTr f2\fE^\tuttiE d( cis)
+    f2 d( cis)
     d e2. e4
     a,1 r2
     R1.
@@ -310,7 +310,7 @@ D-III-V-cTenore = {
     \clef "treble_8"
     \key a \minor \time 4/4 \tempoD-III-V-c \autoBeamOff
     R1*3
-    r2 r4 \mvTr a~\fE^\tuttiE
+    r2 r4 a~
     a a c2 %5
     h4 e2 d4
     c2 h
@@ -473,7 +473,7 @@ D-III-V-dTenore = {
     \clef "treble_8"
     \key g \major \time 4/4 \tempoD-III-V-d \autoBeamOff
     R1
-    r2 \mvTr d4\fE^\tuttiE e
+    r2 d4 e
     d8 g, c!4 h8 d4 d8
     cis d h([ cis)] d4. h8
     cis a g4 a8 a h4 %5

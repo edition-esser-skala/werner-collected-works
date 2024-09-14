@@ -10,7 +10,7 @@ D-III-V-aOrgano = {
       e2 a1 g2
       f1
     } \\ {
-      \mvTr r1\fE-\tuttiE g,
+      r1 g,
       c h2 e~
       e d
     } >> \clef bass c,1
@@ -165,7 +165,7 @@ D-III-V-bOrgano = {
   \relative c {
     \clef bass
     \key d \minor \time 3/2 \tempoD-III-V-b
-    \mvTr d1\fE-\tuttiE a'2
+    d1 a'2
     b a2. g4
     f2. g4 f e
     d1 cis2
@@ -352,7 +352,7 @@ D-III-V-cOrgano = {
   \relative c {
     \clef treble
     \key a \minor \time 4/4 \tempoD-III-V-c
-    \mvTr a''2.\fE-\tuttiE a4
+    a''2. a4
     << {
       c2 h4 e~
       e d c2
@@ -555,7 +555,7 @@ D-III-V-dOrgano = {
       d''4 e d8 g, c4
       h8 d~ d c16 h
     } \\ {
-      \mvTr r2\fE-\tuttiE g4 a
+      r2 g4 a
       g8 d g4
     } >> \clef "treble_8" d e
     d8 g, c!4 \clef bass g h
