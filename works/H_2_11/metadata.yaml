@@ -1,0 +1,17 @@
+title: Miserere
+id: WerW H.2.11
+genre: psalm
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: G 95
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/926.html
+    license: public domain
+    principal: true
+toe: |
+  28  & T   & 2nd \wholeNote\ in \B1: g1 \\
+  53  & T   & 2nd \wholeNote\ in \B1: d′1 \\
+  72  & T   & 4th \halfNote\ in \B1: a2 \\
+  187 & org & last \quarterNote\ in \B1: a′4 \\
