@@ -1,0 +1,19 @@
+title: Benedictus
+id: WerW B.54
+genre: mass movement
+scoring: T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: A 69a
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/720.html
+    license: public domain
+    principal: true
+toe: |
+  –  & –   & This work has been archived together with the
+             \textit{Missa melioris spei} at least since the inventory of 1837
+             was assembled (“zu Nr. 69 ein Benedictus eingelegt”). \\
+  22 & B   & 3rd \eighthNote\ in \B1: a8 \\
+  77 & org & 6th to last \eighthNote\ in \B1: \flat b16–c′16–d′8–c′8 \\*
+  79 & T   & 4th \quarterNote\ in \B1: d′4 \\
