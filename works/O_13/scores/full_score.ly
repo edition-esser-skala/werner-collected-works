@@ -22,17 +22,17 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \O-IIaViolinoI
+              \O-XIIIaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \O-IIaViolinoII
+              \O-XIIIaViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "Basso"
             % \transpose c c,
-            \O-IIaBasso
+            \O-XIIIaBasso
           }
         >>
       >>
@@ -51,17 +51,17 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \O-IIbViolinoI
+              \O-XIIIbViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \O-IIbViolinoII
+              \O-XIIIbViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "b"
             % \transpose c c,
-            \O-IIbBasso
+            \O-XIIIbBasso
           }
         >>
       >>
@@ -79,17 +79,17 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \O-IIcViolinoI
+              \O-XIIIcViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \O-IIcViolinoII
+              \O-XIIIcViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "b"
             % \transpose c c,
-            \O-IIcBasso
+            \O-XIIIcBasso
           }
         >>
       >>
@@ -107,17 +107,17 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \O-IIdViolinoI
+              \O-XIIIdViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \O-IIdViolinoII
+              \O-XIIIdViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "b"
             % \transpose c c,
-            \O-IIdBasso
+            \O-XIIIdBasso
           }
         >>
       >>
@@ -135,17 +135,17 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \O-IIeViolinoI
+              \O-XIIIeViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \O-IIeViolinoII
+              \O-XIIIeViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "b"
             % \transpose c c,
-            \O-IIeBasso
+            \O-XIIIeBasso
           }
         >>
       >>

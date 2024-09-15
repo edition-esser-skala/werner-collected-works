@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -11,7 +11,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \O-IIaBasso }
+        \new Staff { \O-XIIIaViolinoII }
       >>
     }
   }
@@ -20,7 +20,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \O-IIbBasso }
+        \new Staff { \O-XIIIbViolinoII }
       >>
     }
   }
@@ -30,7 +30,7 @@
     \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \O-IIcBasso }
+        \new Staff { \O-XIIIcViolinoII }
       >>
     }
   }
@@ -40,7 +40,7 @@
     \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \O-IIdBasso }
+        \new Staff { \O-XIIIdViolinoII }
       >>
     }
   }
@@ -50,7 +50,7 @@
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \O-IIeBasso }
+        \new Staff { \O-XIIIeViolinoII }
       >>
     }
   }

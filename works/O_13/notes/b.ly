@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-O-IIaBasso = {
+O-XIIIaBasso = {
   \relative c {
     \clef bass
-    \key a \minor \time 4/4 \tempoO-IIa
+    \key a \minor \time 4/4 \tempoO-XIIIa
     R1*2
     r4 a8\fE h c d e f
     g4 c, f2
@@ -56,10 +56,10 @@ O-IIaBasso = {
   }
 }
 
-O-IIbBasso = {
+O-XIIIbBasso = {
   \relative c {
     \clef bass
-    \twofourtime \key a \minor \time 2/4 \tempoO-IIb
+    \twofourtime \key a \minor \time 2/4 \tempoO-XIIIb
     \repeat volta 2 {
       a'4.\fE g8
       f4. e8
@@ -125,10 +125,10 @@ O-IIbBasso = {
   }
 }
 
-O-IIcBasso = {
+O-XIIIcBasso = {
   \relative c {
     \clef bass
-    \key a \minor \time 3/4 \tempoO-IIc
+    \key a \minor \time 3/4 \tempoO-XIIIc
     \partial 4 r4
     \repeat volta 2 {
       a'2\fE g4
@@ -169,10 +169,10 @@ O-IIcBasso = {
   }
 }
 
-O-IIdBasso = {
+O-XIIIdBasso = {
   \relative c {
     \clef bass
-    \key a \minor \time 3/4 \tempoO-IId
+    \key a \minor \time 3/4 \tempoO-XIIId
     \repeat volta 2 {
       a4\fE c' h
       a c, e
@@ -218,10 +218,10 @@ O-IIdBasso = {
   }
 }
 
-O-IIeBasso = {
+O-XIIIeBasso = {
   \relative c {
     \clef bass
-    \key a \minor \time 3/4 \tempoO-IIe
+    \key a \minor \time 3/4 \tempoO-XIIIe
       \once \override Staff.TimeSignature.style = #'single-digit
     r4 a'~\fE a16 g f e
     \once \tieDashed f4~ f16 e d c d4

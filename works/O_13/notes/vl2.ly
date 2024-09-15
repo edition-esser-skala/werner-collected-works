@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-O-IIaViolinoII = {
+O-XIIIaViolinoII = {
   \relative c' {
     \clef treble
-    \key a \minor \time 4/4 \tempoO-IIa
+    \key a \minor \time 4/4 \tempoO-XIIIa
     r4 e\fE a8 gis a h
     c2~ c8 h fis gis
     a h c2 h8 a
@@ -57,10 +57,10 @@ O-IIaViolinoII = {
   }
 }
 
-O-IIbViolinoII = {
+O-XIIIbViolinoII = {
   \relative c' {
     \clef treble
-    \twofourtime \key a \minor \time 2/4 \tempoO-IIb
+    \twofourtime \key a \minor \time 2/4 \tempoO-XIIIb
     \repeat volta 2 {
       r8 e\fE c'16 h c8
       r a a'16 gis \once \tieDashed a8~
@@ -126,10 +126,10 @@ O-IIbViolinoII = {
   }
 }
 
-O-IIcViolinoII = {
+O-XIIIcViolinoII = {
   \relative c' {
     \clef treble
-    \key a \minor \time 3/4 \tempoO-IIc
+    \key a \minor \time 3/4 \tempoO-XIIIc
     \partial 4 r4
     \repeat volta 2 {
       c'8\fE h a2
@@ -170,10 +170,10 @@ O-IIcViolinoII = {
   }
 }
 
-O-IIdViolinoII = {
+O-XIIIdViolinoII = {
   \relative c' {
     \clef treble
-    \key a \minor \time 3/4 \tempoO-IId
+    \key a \minor \time 3/4 \tempoO-XIIId
     \repeat volta 2 {
       R2.
       a8\fE c e4 gis
@@ -219,10 +219,10 @@ O-IIdViolinoII = {
   }
 }
 
-O-IIeViolinoII = {
+O-XIIIeViolinoII = {
   \relative c' {
     \clef treble
-    \key a \minor \time 3/4 \tempoO-IIe
+    \key a \minor \time 3/4 \tempoO-XIIIe
       \once \override Staff.TimeSignature.style = #'single-digit
     r4 \once \tieDashed c'~\fE c16 h a g
     a4~ a16 g f e f8 a
