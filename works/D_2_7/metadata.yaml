@@ -1,0 +1,48 @@
+title: Gloria et honore
+id: WerW D.2.7
+genre: offertorium
+festival: de Quovis Sanctum vel Sancta
+scoring: T (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-WIL
+    shelfmark: 1145
+    date: 1734–1750
+    rism: 600077663
+    license: public domain
+    principal: true
+toe: |
+  –   & coro & \B1 contains alternative lyrics for male and female saints,
+               as indicated below. \\
+  23  & –    & tempo indication in org: “Adagio”; in T: “Largo” \\
+  35  & vl 2 & 6th \eighthNote\ in \B1: \sharp f′8 \\
+  53  & org  & 2nd \eighthNote\ in \B1: f8 \\
+  87  & S    & 4th \quarterNote\ in \B1: d″8–d″8 \\
+  92  & vl 2 & 6th \sixteenthNote\ in \B1: \flat b″16 \\
+  93  & A    & 3rd \quarterNote\ in \B1: g′4 \\
+  94  & org  & last \eighthNote\ in \B1: d8 \\
+  115 & –    & The six-four chord followed by its resolution only appears
+               in the violins, but not in the chorus, where the dominant
+               already sounds on the 3rd \quarterNote. (The same inconsistency
+               occurs in bars 124 and 135.)
+               Thus, performers may consider adding a suspension to S and T. \\
+  117 & vl 1 & 4th \eighthNote\ in \B1: c″16–e″16 \\
+  122 & T    & 3rd \quarterNote\ in \B1: d′4 \\
+  123 & vl 1 & 12th \sixteenthNote\ in \B1: \flat e″16 \\
+lyrics:
+  Gloria et honore coronavit eum [eam] Dominus,\\
+  et constituit eum [eam] in solium gloriae eiae.\\
+  (\bibleverse{Ps}(8:6-7))\\[1ex]
+  Optatissima dies in qua divi[ni] benedicti\\
+  pia recensetur memoria.\\
+  Ecclesia sancta laetatur\\
+  ipsius meritis suffragantibus,\\
+  nobis pax vera donatur.\\[1ex]
+  Formosae vos rosae\\
+  non minus spinosae,\\
+  odore manantes\\
+  exserta parate,\\
+  benedictum laudate.\\[1ex]
+  Laudate sanctum [sanctam] confessorem,\\
+  in aeternum laudate semper eum [eam].
