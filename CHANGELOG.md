@@ -1,5 +1,17 @@
 # Changelog
 
+## 2024.09.0 – 2024-09-28
+
+### Added
+
+- works: WerW B.54, D.2.7, D.3.7, H.2.11/12, and K.3
+
+### Changed
+
+- revised WerW D.3.1/3–5
+- renumbered WerW O.2 → O.13
+
+
 ## 2024.08.0 – 2024-08-31
 
 ### Added
