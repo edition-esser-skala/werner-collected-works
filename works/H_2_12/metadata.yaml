@@ -1,0 +1,18 @@
+title: Lauda Ierusalem
+id: WerW H.2.12
+genre: psalm
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-HE
+    shelfmark: VIII b 3
+    date: not later than 1749
+    rism: 600090675
+    license: public domain
+    principal: true
+toe: |
+  14 & A    & 1st \quarterNote\ in \A1: b4 \\
+  40 & vlne & 4th \quarterNote\ in \A1: g4 \\
+extra_abbreviations:
+  vlne:
