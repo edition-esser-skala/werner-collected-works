@@ -7,12 +7,12 @@
 
 \book {
   \bookpart {
-    \section "I.5.24" "Sub tuum præsidium"
+    \section "I.5.23" "Sub tuum præsidium"
     \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \I-V-XXIV-Organo }
+        \new Staff { \I-V-XXIII-Organo }
       >>
     }
   }

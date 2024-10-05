@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-V-XXIV-Organo = {
+I-V-XXIII-Organo = {
   \relative c {
     \clef bass
-    \key a \minor \time 4/4 \tempoI-V-XXIV
+    \key a \minor \time 4/4 \tempoI-V-XXIII
     \mvTr a8\pE-\solo a' d, f a, a'4 gis8
     a f d e c16 d c h a h c d
     e e, e'8~ e dis e c a h
@@ -30,7 +30,7 @@ I-V-XXIV-Organo = {
   }
 }
 
-I-V-XXIV-BassFigures = \figuremode {
+I-V-XXIII-BassFigures = \figuremode {
   r2 r8 <3> <2> <5>
   r <6> <6 5> <_+> <6>2
   <[_!]>4 <4 2\+>8 <5 [_+]>4 <6>8 <6[+] 5> <[5+] _+>

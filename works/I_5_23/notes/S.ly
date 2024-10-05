@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-V-XXIV-Soprano = {
+I-V-XXIII-Soprano = {
   \relative c' {
     \clef treble
-    \key a \minor \time 4/4 \tempoI-V-XXIV \autoBeamOff
+    \key a \minor \time 4/4 \tempoI-V-XXIII \autoBeamOff
     R1
     r2 \mvTr a'4\pE^\solo c
     h a g8( a4) fis8
@@ -30,7 +30,7 @@ I-V-XXIV-Soprano = {
   }
 }
 
-I-V-XXIV-SopranoLyrics = \lyricmode {
+I-V-XXIII-SopranoLyrics = \lyricmode {
   Sub tu -- %2
   um prae -- si -- di --
   um con -- fu -- gi --

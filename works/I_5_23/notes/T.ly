@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-V-XXIV-Tenore = {
+I-V-XXIII-Tenore = {
   \relative c' {
     \clef "treble_8"
-    \key a \minor \time 4/4 \tempoI-V-XXIV \autoBeamOff
+    \key a \minor \time 4/4 \tempoI-V-XXIII \autoBeamOff
     r4 \mvTr a\pE^\solo c h8 h
     a4. gis8 a4 r
     R1
@@ -30,7 +30,7 @@ I-V-XXIV-Tenore = {
   }
 }
 
-I-V-XXIV-TenoreLyrics = \lyricmode {
+I-V-XXIII-TenoreLyrics = \lyricmode {
   Sub tu -- um prae --
   si -- di -- um
 

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-V-XXIV-Basso = {
+I-V-XXIII-Basso = {
   \relative c {
     \clef bass
-    \key a \minor \time 4/4 \tempoI-V-XXIV \autoBeamOff
+    \key a \minor \time 4/4 \tempoI-V-XXIII \autoBeamOff
     R1
     r2 r4 \mvTr e\pE^\solo
     g fis8 fis e4. dis8
@@ -30,7 +30,7 @@ I-V-XXIV-Basso = {
   }
 }
 
-I-V-XXIV-BassoLyrics = \lyricmode {
+I-V-XXIII-BassoLyrics = \lyricmode {
   Sub %2
   tu -- um prae -- si -- di --
   um con -- fu -- gi --

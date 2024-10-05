@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-V-XXIV-Alto = {
+I-V-XXIII-Alto = {
   \relative c' {
     \clef treble
-    \key a \minor \time 4/4 \tempoI-V-XXIV \autoBeamOff
+    \key a \minor \time 4/4 \tempoI-V-XXIII \autoBeamOff
     \mvTr e4\pE^\solo f e d
     c8( d4) h8 a4 r
     R1
@@ -30,7 +30,7 @@ I-V-XXIV-Alto = {
   }
 }
 
-I-V-XXIV-AltoLyrics = \lyricmode {
+I-V-XXIII-AltoLyrics = \lyricmode {
   Sub tu -- um prae --
   si -- di -- um
 
