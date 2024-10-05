@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-I-XXXI-ViolinoII = {
+I-I-XXX-ViolinoII = {
   \relative c' {
     \clef treble
-    \key d \dorian \time 4/4 \tempoI-I-XXXI
+    \key d \dorian \time 4/4 \tempoI-I-XXX
     R1*3
     r2 d\fE
     a4 a'4. gis8 a h %5
@@ -35,7 +35,7 @@ I-I-XXXI-ViolinoII = {
     e d2 cis4
     d4. e8 f4 e8 d \noBreak
     e1\fermata \bar "||"
-    \key f \major \time 4/4 \tempoI-I-XXXI-b
+    \key f \major \time 4/4 \tempoI-I-XXX-b
       r8 a\pE a a r b b b \noBreak
     r b b b r a a a %35
     r a c c r a a a
@@ -59,10 +59,10 @@ I-I-XXXI-ViolinoII = {
     g2 a
     g8 g g g f f f f \noBreak %55
     f r d r f r r4\fermata \bar "||"
-    \tempoI-I-XXXI-c \newSpacingSection
+    \tempoI-I-XXX-c \newSpacingSection
       R1*5 \noBreak %61
     R1\fermata \bar "||"
-    \twotwotime \key d \dorian \time 2/2 \tempoI-I-XXXI-d
+    \twotwotime \key d \dorian \time 2/2 \tempoI-I-XXX-d
       R1*2
     a1\fE %65
     g

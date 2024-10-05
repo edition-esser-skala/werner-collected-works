@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-I-XXXI-Soprano = {
+I-I-XXX-Soprano = {
   \relative c' {
     \clef treble
-    \key d \dorian \time 4/4 \tempoI-I-XXXI \autoBeamOff
+    \key d \dorian \time 4/4 \tempoI-I-XXX \autoBeamOff
     R1
     \mvTr a'2\fE^\tuttiE d,4 d'~
     d8 cis d e f2
@@ -37,7 +37,7 @@ I-I-XXXI-Soprano = {
     a8[( g f a] g2)
     f8([ g)] a2 a4 \noBreak
     a2 a\fermata \bar "||"
-    \key f \major \time 4/4 \tempoI-I-XXXI-b
+    \key f \major \time 4/4 \tempoI-I-XXX-b
       R1*9 %42
     \mvTr c8.\pE^\solo c16 c8 g as4 as8 as
     g4 g8 g f([ as)] g([ d)]
@@ -53,14 +53,14 @@ I-I-XXXI-Soprano = {
     b8([ d)] c b a a a a
     b4 b b( a) \noBreak %55
     b2 r\fermata \bar "||"
-    \tempoI-I-XXXI-c \newSpacingSection
+    \tempoI-I-XXX-c \newSpacingSection
       r4 \mvTr a2\fE^\tuttiE a4 \noBreak
     a2 a
     r4 a2 a4
     d, a' b a~ %60
     a g8[( fis)] g2 \noBreak
     fis1\fermata \bar "||"
-    \twotwotime \key d \dorian \time 2/2 \tempoI-I-XXXI-d
+    \twotwotime \key d \dorian \time 2/2 \tempoI-I-XXX-d
       R1*2
     r2 a( %65
     h) cis
@@ -102,7 +102,7 @@ I-I-XXXI-Soprano = {
   }
 }
 
-I-I-XXXI-SopranoLyrics = \lyricmode {
+I-I-XXX-SopranoLyrics = \lyricmode {
   Al -- ma Re -- %2
   dem -- pto -- ris Ma --
   ter, Re --

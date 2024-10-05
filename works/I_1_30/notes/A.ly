@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-I-XXXI-Alto = {
+I-I-XXX-Alto = {
   \relative c' {
     \clef treble
-    \key d \dorian \time 4/4 \tempoI-I-XXXI \autoBeamOff
+    \key d \dorian \time 4/4 \tempoI-I-XXX \autoBeamOff
     R1*3
     r2 \mvTr d2\fE^\tuttiE
     a4 a'4. gis8 a h %5
@@ -35,7 +35,7 @@ I-I-XXXI-Alto = {
     e d2 cis4
     d4.( e8 f4 e8[ d)] \noBreak
     e1\fermata \bar "||"
-    \key f \major \time 4/4 \tempoI-I-XXXI-b
+    \key f \major \time 4/4 \tempoI-I-XXX-b
       R1*8 %41
     r2 \mvTr es8.\pE^\solo es16 es8 c
     g'4 g8 g g[ f16 e] f4~
@@ -52,14 +52,14 @@ I-I-XXXI-Alto = {
     g([ f)] es d c c c c
     des4. des8 c2 \noBreak %55
     d r\fermata \bar "||"
-    \tempoI-I-XXXI-c \newSpacingSection
+    \tempoI-I-XXX-c \newSpacingSection
       r4 \mvTr f2\fE^\tuttiE f4 \noBreak
     e2 e
     r4 fis2 fis4
     g d d4. d8 %60
     b'2._( a8[ g)] \noBreak
     a1\fermata \bar "||"
-    \twotwotime \key d \dorian \time 2/2 \tempoI-I-XXXI-d
+    \twotwotime \key d \dorian \time 2/2 \tempoI-I-XXX-d
       R1*2
     a1 %65
     g
@@ -101,7 +101,7 @@ I-I-XXXI-Alto = {
   }
 }
 
-I-I-XXXI-AltoLyrics = \lyricmode {
+I-I-XXX-AltoLyrics = \lyricmode {
   Al -- %4
   ma Re -- dem -- pto -- ris %5
   Ma -- ter,

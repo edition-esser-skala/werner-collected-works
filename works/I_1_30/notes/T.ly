@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-I-XXXI-Tenore = {
+I-I-XXX-Tenore = {
   \relative c' {
     \clef "treble_8"
-    \key d \dorian \time 4/4 \tempoI-I-XXXI \autoBeamOff
+    \key d \dorian \time 4/4 \tempoI-I-XXX \autoBeamOff
     \mvTr a2\fE^\tuttiE d,4 d'~
     d8 cis d e f2
     e r4 d~
@@ -37,17 +37,17 @@ I-I-XXXI-Tenore = {
     c a h e
     a, a d2~ \noBreak
     d4 cis8[ h] cis2\fermata \bar "||"
-    \key f \major \time 4/4 \tempoI-I-XXXI-b
+    \key f \major \time 4/4 \tempoI-I-XXX-b
       R1*22 \noBreak %55
     R1\fermata \bar "||"
-    \tempoI-I-XXXI-c \newSpacingSection
+    \tempoI-I-XXX-c \newSpacingSection
       r4 \mvTr d2\fE^\tuttiE d4 \noBreak
     a2 a
     r d4. d8
     d4. c8 b4 fis %60
     g8([ a b a] b[ c] d4) \noBreak
     d1\fermata \bar "||"
-    \twotwotime \key d \dorian \time 2/2 \tempoI-I-XXXI-d
+    \twotwotime \key d \dorian \time 2/2 \tempoI-I-XXX-d
       r2 a( \noBreak
     h) cis
     d4 a d2~ %65
@@ -90,7 +90,7 @@ I-I-XXXI-Tenore = {
   }
 }
 
-I-I-XXXI-TenoreLyrics = \lyricmode {
+I-I-XXX-TenoreLyrics = \lyricmode {
   Al -- ma Re --
   dem -- pto -- ris Ma --
   ter, Re --

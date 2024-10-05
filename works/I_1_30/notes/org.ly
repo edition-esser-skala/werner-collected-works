@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-I-XXXI-Organo = {
+I-I-XXX-Organo = {
   \relative c {
     \clef "treble_8"
-    \key d \dorian \time 4/4 \tempoI-I-XXXI
+    \key d \dorian \time 4/4 \tempoI-I-XXX
     \mvTr a'2-!\fE-\tuttiE d,4-! d'~-!
     d8 cis d e f2
     e \clef bass d,^\critnote
@@ -37,7 +37,7 @@ I-I-XXXI-Organo = {
     f e
     d1 \noBreak
     a\fermata \bar "||"
-    \key f \major \time 4/4 \tempoI-I-XXXI-b
+    \key f \major \time 4/4 \tempoI-I-XXX-b
       r8 \mvTr f'\pE-\solo f f r f f f \noBreak
     r e e e r f f f %35
     r f f f r f f f
@@ -61,14 +61,14 @@ I-I-XXXI-Organo = {
     es!2 f
     e8 e e e f f f f \noBreak %55
     b, r b r b r r4\fermata \bar "||"
-    \tempoI-I-XXXI-c \newSpacingSection
+    \tempoI-I-XXX-c \newSpacingSection
       \mvTr d1\fE-\tuttiE \noBreak
     cis
     c2. c4
     b fis g d' %60
     g,1 \noBreak
     d'\fermata \bar "||"
-    \twotwotime \key d \dorian \time 2/2 \tempoI-I-XXXI-d
+    \twotwotime \key d \dorian \time 2/2 \tempoI-I-XXX-d
     << {
       r2 a' \noBreak
       h cis
@@ -117,7 +117,7 @@ I-I-XXXI-Organo = {
   }
 }
 
-I-I-XXXI-BassFigures = \figuremode {
+I-I-XXX-BassFigures = \figuremode {
   r1
   <5>2 <6>
   <7>4 <6\\>2.

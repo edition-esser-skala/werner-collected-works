@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-I-XXXI-Basso = {
+I-I-XXX-Basso = {
   \relative c {
     \clef bass
-    \key d \dorian \time 4/4 \tempoI-I-XXXI \autoBeamOff
+    \key d \dorian \time 4/4 \tempoI-I-XXX \autoBeamOff
     R1*2
     r2 \mvTr d\fE^\tuttiE
     a4 a'4. gis8 a h
@@ -36,7 +36,7 @@ I-I-XXXI-Basso = {
     f e4. e8
     d1 \noBreak
     a\fermata \bar "||"
-    \key f \major \time 4/4 \tempoI-I-XXXI-b R1*2 %35
+    \key f \major \time 4/4 \tempoI-I-XXX-b R1*2 %35
     \mvTr f'4\pE^\solo a8 a16 c c([ f,)] f8 r c'
     c16([ f,)] f8 r c' c16([ fis,)] fis fis fis8 g16 a
     b8 g, r g' h g16 d' h8 g16 h
@@ -57,14 +57,14 @@ I-I-XXXI-Basso = {
     es4 es8 es f f f f
     e4. e8 f2 \noBreak %55
     b,8 b'16([ f)] d8 es16 f b,8 b r4\fermata \bar "||"
-    \tempoI-I-XXXI-c \newSpacingSection
+    \tempoI-I-XXX-c \newSpacingSection
       r4 \mvTr d2\fE^\tuttiE d4 \noBreak
     cis2 cis
     r4 c2 c'4
     b fis g d %60
     g,1 \noBreak
     d'\fermata \bar "||"
-    \twotwotime \key d \dorian \time 2/2 \tempoI-I-XXXI-d
+    \twotwotime \key d \dorian \time 2/2 \tempoI-I-XXX-d
       a' \noBreak
     g
     f2 f %65
@@ -106,7 +106,7 @@ I-I-XXXI-Basso = {
   }
 }
 
-I-I-XXXI-BassoLyrics = \lyricmode {
+I-I-XXX-BassoLyrics = \lyricmode {
   Al -- %3
   ma Re -- dem -- pto -- ris
   Ma -- ter, %5
