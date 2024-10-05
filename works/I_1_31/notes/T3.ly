@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-I-XXXII-TenoreIII = {
+I-I-XXXI-TenoreIII = {
   \relative c' {
     \clef "treble_8"
-    \key c \dorian \time 4/4 \autoBeamOff \tempoI-I-XXXII
+    \key c \dorian \time 4/4 \autoBeamOff \tempoI-I-XXXI
     R1*2
     c4. es8 d g, g f
     es c c'4.( h16_[ a] h4)
@@ -53,7 +53,7 @@ I-I-XXXII-TenoreIII = {
   }
 }
 
-I-I-XXXII-TenoreIIILyrics = \lyricmode {
+I-I-XXXI-TenoreIIILyrics = \lyricmode {
   Al -- ma Re -- dem -- pto -- ris %3
   ma -- ter, al --
   ma, quae per -- vi -- a %5

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-I-XXXII-Organo = {
+I-I-XXXI-Organo = {
   \relative c {
     \clef bass
-    \key c \dorian \time 4/4 \tempoI-I-XXXII
+    \key c \dorian \time 4/4 \tempoI-I-XXXI
     c4 c'2 h4
     c8 c, es c g'4. f8
     es4 c g2
@@ -54,7 +54,7 @@ I-I-XXXII-Organo = {
   }
 }
 
-I-I-XXXII-BassFigures = \figuremode {
+I-I-XXXI-BassFigures = \figuremode {
   r4 <3> <2> <[6]>
   r2 <4>4 <_!>
   <6>2 <4>4 <_!>

@@ -7,11 +7,11 @@
 
 \book {
   \bookpart {
-    \section "I.1.32" "Alma Redemptoris mater"
+    \section "I.1.31" "Alma Redemptoris mater"
     \addTocEntry
     \score {
       <<
-        \new Staff { \I-I-XXXII-Organo }
+        \new Staff { \I-I-XXXI-Organo }
       >>
     }
   }
