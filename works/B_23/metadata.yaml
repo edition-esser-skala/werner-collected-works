@@ -1,4 +1,4 @@
-title: Missa contrapuncata
+title: Missa contrapunctata
 id: WerW B.23
 genre: mass
 scoring: S, A, T, B (coro), b, org
@@ -7,8 +7,14 @@ sources:
   B1:
     siglum: A-Wn
     shelfmark: F115.St.Karl.XIII/416
-    date: 1756
     url: https://data.onb.ac.at/rec/AC15282245
     license: public domain
     principal: true
+tocstyle: default
 toe: |
+  2 & 162 & T   & 3rd \halfNote\ in \B1: d′ \\
+    & 191 & S   & last \quarterNote\ in \B1: b′4 \\
+    & 192 & A   & 5th \quarterNote\ in \B1: f′4 \\
+    & 213 & S   & 2nd/3rd \quarterNote\ in \B1: d″2 \\
+  3 & 14  & T   & 1st \halfNote\ in \B1: a2 \\
+  5 & 28  & org & bar in \B1: \wholeNoteRest \\

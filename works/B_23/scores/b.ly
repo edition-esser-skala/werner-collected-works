@@ -28,6 +28,7 @@
   \bookpart {
     \section "3" "Sanctus"
     \addTocEntry
+    \paper { systems-per-page = #7 }
     \score {
       <<
         \new Staff { \B-XXIIISanctusOrgano }
@@ -37,7 +38,7 @@
   \bookpart {
     \section "4" "Benedictus"
     \addTocEntry
-    \paper { systems-per-page = #2 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
         \new Staff { \B-XXIIIBenedictusOrgano }
@@ -47,6 +48,7 @@
   \bookpart {
     \section "5" "Agnus Dei"
     \addTocEntry
+    \paper { system-count = #13 }
     \score {
       <<
         \new Staff { \B-XXIIIAgnusOrgano }
