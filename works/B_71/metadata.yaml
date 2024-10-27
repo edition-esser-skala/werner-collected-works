@@ -1,0 +1,25 @@
+title: Missa Bonæ spei
+id: WerW B.71
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-GÖ
+    shelfmark: 653
+    date: not later than 1732
+    license: public domain
+    principal: true
+  B2:
+    siglum: A-WIL
+    shelfmark: 1143
+    date: 1750–1820
+    license: public domain
+  B3:
+    siglum: A-SEI
+    shelfmark: E VIII 3 e
+    date: 1741
+    license: public domain
+toe: |
+  1 & 18 & org & 2nd \halfNote\ in \B1 and \B3: f2 \\
+    & 36 & org & bar in \B1 and \B3: g2–f2.–e4 \\
