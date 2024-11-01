@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-XIISoprano = {
+H-I-XVILaudaSoprano = {
   \relative c' {
     \clef treble
-    \key g \major \time 3/2 \tempoH-II-XIIa \autoBeamOff
+    \key g \major \time 3/2 \tempoH-I-XVILauda \autoBeamOff
     \mvTr d'2\fE^\tutti d d4 d
     d2 d d
     d4 d8 d d2. d4
@@ -39,7 +39,7 @@ H-II-XIISoprano = {
     g4 h8 h a a d d h h e e
     cis4 d d( \hA cis) d d8 d \noBreak
     e4 c8 c d4 d d2
-    \tempoH-II-XIIb d r r \noBreak
+    \tempoH-I-XVILaudaB d r r \noBreak
     R1. %55
     r2 r r4 d~
     d h e cis a d~
@@ -56,7 +56,7 @@ H-II-XIISoprano = {
   }
 }
 
-H-II-XIISopranoLyrics = \lyricmode {
+H-I-XVILaudaSopranoLyrics = \lyricmode {
   Lau -- da, lau -- da,
   lau -- da Ie --
   ru -- sa -- lem, Do -- mi --

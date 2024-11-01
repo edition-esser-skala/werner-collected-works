@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-XIIAlto = {
+H-I-XVILaudaAlto = {
   \relative c' {
     \clef treble
-    \key g \major \time 3/2 \tempoH-II-XIIa \autoBeamOff
+    \key g \major \time 3/2 \tempoH-I-XVILauda \autoBeamOff
     \mvTr g'2\fE^\tutti g4 fis g fis
     g4. g8 g4 fis g fis
     g a8 a g4( fis) g2
@@ -46,7 +46,7 @@ H-II-XIIAlto = {
     d d8 d d d fis fis d d g g
     e4 a g2 fis4 g8 g \noBreak
     g4 e8 e a4 g g( fis)
-    \tempoH-II-XIIb g2 r r \noBreak
+    \tempoH-I-XVILaudaB g2 r r \noBreak
     R1. %55
     r4 g2 e4 a fis
     d g8[ fis] e4 a8[ g] fis[ e fis d]
@@ -63,7 +63,7 @@ H-II-XIIAlto = {
   }
 }
 
-H-II-XIIAltoLyrics = \lyricmode {
+H-I-XVILaudaAltoLyrics = \lyricmode {
   Lau -- da, lau -- da, Ie --
   ru -- sa -- lem, lau -- da, Ie --
   ru -- sa -- lem, Do -- mi --

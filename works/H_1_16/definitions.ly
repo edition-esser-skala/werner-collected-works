@@ -1,7 +1,7 @@
 \version "2.24.0"
 
-tempoH-II-XIIa = \tempoMarkup "Andante"
-tempoH-II-XIIb = \tempoMarkup "Vivace"
+tempoH-I-XVILauda = \tempoMarkup "Andante"
+tempoH-I-XVILaudaB = \tempoMarkup "Vivace"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-XIITenore = {
+H-I-XVILaudaTenore = {
   \relative c' {
     \clef "treble_8"
-    \key g \major \time 3/2 \tempoH-II-XIIa \autoBeamOff
+    \key g \major \time 3/2 \tempoH-I-XVILauda \autoBeamOff
     \mvTr h2\fE^\tutti h4 a h a
     h4. h8 h4 a h a
     h a8 a h4( a) h2
@@ -41,7 +41,7 @@ H-II-XIITenore = {
     h4 g8 g a a a a h h g g
     a4 a h( e) a, d8 d \noBreak
     c!4 c8 c a4 h a2
-    \tempoH-II-XIIb h r r4 d~ \noBreak
+    \tempoH-I-XVILaudaB h r r4 d~ \noBreak
     d h e cis a d~ %55
     d8[ c] h4 e c2 a4
     h2 r r
@@ -59,7 +59,7 @@ H-II-XIITenore = {
   }
 }
 
-H-II-XIITenoreLyrics = \lyricmode {
+H-I-XVILaudaTenoreLyrics = \lyricmode {
   Lau -- da, lau -- da, Ie --
   ru -- sa -- lem, lau -- da, Ie --
   ru -- sa -- lem, Do -- mi --

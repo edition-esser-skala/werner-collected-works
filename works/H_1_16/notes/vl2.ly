@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-XIIViolinoII = {
+H-I-XVILaudaViolinoII = {
   \relative c' {
     \clef treble
-    \key g \major \time 3/2 \tempoH-II-XIIa
+    \key g \major \time 3/2 \tempoH-I-XVILauda
     g'4\fE g2 a4 h a
     h g2 a4 h a
     h d2 fis4 d g
@@ -46,7 +46,7 @@ H-II-XIIViolinoII = {
     d g8 g a a d d h h e e
     cis4 fis h, \hA cis d d8 d \noBreak
     e4 c8 c d4 d d2
-    \tempoH-II-XIIb d r r \noBreak
+    \tempoH-I-XVILaudaB d r r \noBreak
     R1. %55
     r4 g,2 e4 a fis
     d g8 fis e4 a8 g fis e fis d

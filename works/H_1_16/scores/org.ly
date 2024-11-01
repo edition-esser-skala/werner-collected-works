@@ -7,13 +7,13 @@
 
 \book {
   \bookpart {
-    \section "H.2.12" "Lauda Ierusalem"
+    \section "H.1.16/5" "Lauda Ierusalem"
     \addTocEntry
     \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \H-II-XIIOrgano }
-        \new FiguredBass { \H-II-XIIBassFigures }
+        \new Staff { \H-I-XVILaudaOrgano }
+        \new FiguredBass { \H-I-XVILaudaBassFigures }
       >>
     }
   }

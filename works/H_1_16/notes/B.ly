@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-XIIBasso = {
+H-I-XVILaudaBasso = {
   \relative c {
     \clef bass
-    \key g \major \time 3/2 \tempoH-II-XIIa \autoBeamOff
+    \key g \major \time 3/2 \tempoH-I-XVILauda \autoBeamOff
     \mvTr g'2\fE^\tutti g4 d h d
     g4. g8 g4 d h d
     g fis8 fis g4( d) h( g)
@@ -42,7 +42,7 @@ H-II-XIIBasso = {
     g g8 g fis fis d d g g e e
     a4 fis e2 d4 h8 h \noBreak
     c!4 a'8 a fis4 g d2
-    \tempoH-II-XIIb g,4 g'2 e4 a fis \noBreak
+    \tempoH-I-XVILaudaB g,4 g'2 e4 a fis \noBreak
     d g8[ fis] e4 a8[ g] fis[ e d c] %55
     h4 e c2 a4 d(
     h) g r2 r
@@ -59,7 +59,7 @@ H-II-XIIBasso = {
   }
 }
 
-H-II-XIIBassoLyrics = \lyricmode {
+H-I-XVILaudaBassoLyrics = \lyricmode {
   Lau -- da, lau -- da, Ie --
   ru -- sa -- lem, lau -- da, Ie --
   ru -- sa -- lem, Do -- mi --

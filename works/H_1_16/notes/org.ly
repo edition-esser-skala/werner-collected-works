@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-XIIOrgano = {
+H-I-XVILaudaOrgano = {
   \relative c {
     \clef bass
-    \key g \major \time 3/2 \tempoH-II-XIIa
+    \key g \major \time 3/2 \tempoH-I-XVILauda
     \mvTr g'4\fE-\tutti h8 a g4 d h d
     g h8 a g4 d h d
     g fis g d h g
@@ -57,7 +57,7 @@ H-II-XIIOrgano = {
     g g fis d g e
     a fis e2 d4 h \noBreak
     c! a' fis g d2
-    \tempoH-II-XIIb g,4 g'2-! e4-! a-! << {
+    \tempoH-I-XVILaudaB g,4 g'2-! e4-! a-! << {
       d~ \noBreak
       d h e cis a d~ %55
       d
@@ -80,7 +80,7 @@ H-II-XIIOrgano = {
   }
 }
 
-H-II-XIIBassFigures = \figuremode {
+H-I-XVILaudaBassFigures = \figuremode {
   r1 <6>2
   r1 q2
   r4 \bo <[6]>2. \bc q2
