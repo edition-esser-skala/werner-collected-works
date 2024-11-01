@@ -65,21 +65,67 @@ B-LXXIGloriaBasso = {
     f c1 %45
     d2. d4 b2~
     b c1
-    f, r2 \noBreak
-    R1.\fermata \bar "||"
-    \key d \minor \time 4/4 \tempoB-LXXIDomine \newSpacingSection
-      R1*23 %72
-    \mvTr c''4.\pE^\solo a16 g f([ e)] f8 r4
+    f, r2
+    R1.\fermata \bar "||" %49 finis
+  }
+}
+
+B-LXXIGloriaBassoLyrics = \lyricmode {
+  Et in
+  ter -- ra pax,
+  pax ho -- mi -- ni -- bus bo -- nae
+  vo -- lun -- ta --
+  tis. %5
+
+  Gra -- ti -- as %36
+  a -- gi --
+  mus ti --
+  bi pro -- pter ma -- gnam
+  glo -- ri -- am, %40
+  glo -- ri -- am
+  tu -- am,
+  pro -- pter ma -- gnam
+  glo -- ri -- am
+  tu -- am, %45
+  glo -- ri -- am __
+  tu --
+  am. %48 finis
+}
+
+B-LXXIDomineDeusBasso = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \autoBeamOff \tempoB-LXXIDomineDeus
+      \set Score.currentBarNumber = #50
+    R1*23 %72
+    \mvTr c'4.\pE^\solo a16 g f([ e)] f8 r4
     g8 b a16([ b)] g8 a16([ g)] f8 f a16 f
     d[ f g a] b[ d, e f] e[ g a b] c[ e, f g] %75
     f[ a b c] d[ d, e f] e8 c c' c16 c
     c[ a d c] c[ b b a] b[ c a b] g4~
     g16[ a a g] g[ f f e] f4 e\trill
     d r r2
-    R1 \noBreak %80
-    R1\fermata \bar "||"
-    \key f \major \tempoB-LXXIQuiTollis
-      r4 \mvTr b\fE^\tutti b'2~ \noBreak
+    R1 %80
+    R1\fermata \bar "||" %81 finis
+  }
+}
+
+B-LXXIDomineDeusBassoLyrics = \lyricmode {
+  Do -- mi -- ne De -- us, %73
+  De -- us, A -- gnus De -- i, Fi -- li -- us
+  Pa -- _ _ _ %75
+  _ _ _ tris, Fi -- li -- us
+  Pa -- _ _ _
+  _ _ _
+  tris. %79 finis
+}
+
+B-LXXIQuiTollisBasso = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \autoBeamOff \tempoB-LXXIQuiTollis
+      \set Score.currentBarNumber = #82
+    r4 \mvTr b\fE^\tutti b'2~
     b4 a b2
     f r
     r8 fis4 fis8 g4. g8 %85
@@ -92,14 +138,36 @@ B-LXXIGloriaBasso = {
     g,8. g16 g8 g' e f!16 f c4 %95
     f, r r2
     d'4. c8 d es c d
-    es4. d8 c2~ \noBreak
-    c f,\fermata \bar "||"
-    \time 3/2 \tempoB-LXXIQuoniam \newSpacingSection
-      R1.*40 \noBreak %139
-    R1.\fermata \bar "||" %140
-    \time 4/4 \tempoB-LXXICumSancto \newSpacingSection
-      R1*4
-    r2 \mvTr f'2\fE^\tutti %145
+    es4. d8 c2~
+    c f,\fermata \bar "||" %99 finis
+  }
+}
+
+B-LXXIQuiTollisBassoLyrics = \lyricmode {
+  Qui tol -- %82
+  lis, tol --
+  lis:
+  Mi -- se -- re -- re %85
+  no --
+  bis.
+
+  Qui %92
+  se -- des ad dex -- te -- ram Pa --
+  tris, ad dex -- te -- ram, ad
+  dex -- te -- ram, ad dex -- te -- ram Pa -- %95
+  tris:
+  Mi -- se -- re -- re, mi -- se --
+  re -- re no --
+  bis. %99 finis
+}
+
+B-LXXICumSanctoBasso = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \autoBeamOff \tempoB-LXXICumSancto
+      \set Score.currentBarNumber = #141
+    R1*4
+    r2 \mvTr f2\fE^\tutti %145
     a8([ g)] a4 f4. f8
     g([ f)] g4 e4. e8
     f([ e)] f2 e4
@@ -166,51 +234,7 @@ B-LXXIGloriaBasso = {
   }
 }
 
-B-LXXIGloriaBassoLyrics = \lyricmode {
-  Et in
-  ter -- ra pax,
-  pax ho -- mi -- ni -- bus bo -- nae
-  vo -- lun -- ta --
-  tis. %5
-
-  Gra -- ti -- as %36
-  a -- gi --
-  mus ti --
-  bi pro -- pter ma -- gnam
-  glo -- ri -- am, %40
-  glo -- ri -- am
-  tu -- am,
-  pro -- pter ma -- gnam
-  glo -- ri -- am
-  tu -- am, %45
-  glo -- ri -- am __
-  tu --
-  am.
-
-  Do -- mi -- ne De -- us, %73
-  De -- us, A -- gnus De -- i, Fi -- li -- us
-  Pa -- _ _ _ %75
-  _ _ _ tris, Fi -- li -- us
-  Pa -- _ _ _
-  _ _ _
-  tris.
-
-  Qui tol -- %82
-  lis, tol --
-  lis:
-  Mi -- se -- re -- re %85
-  no --
-  bis.
-
-  Qui %92
-  se -- des ad dex -- te -- ram Pa --
-  tris, ad dex -- te -- ram, ad
-  dex -- te -- ram, ad dex -- te -- ram Pa -- %95
-  tris:
-  Mi -- se -- re -- re, mi -- se --
-  re -- re no --
-  bis.
-
+B-LXXICumSanctoBassoLyrics = \lyricmode {
   Cum %145
   San -- cto Spi -- ri --
   tu __ in glo -- ri --

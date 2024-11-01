@@ -149,10 +149,69 @@ B-LXXIGloriaOrgano = {
     f c1 %45
     d b2~
     b c1
-    f,2 r4 d' b c \noBreak
-    f,1 r2\fermata \bar "||"
-    \key d \minor \time 4/4 \tempoB-LXXIDomine \newSpacingSection
-      \mvTr d'8\fE-\solo d' cis a b a16 g f8 d \noBreak %50
+    f,2 r4 d' b c
+    f,1 r2\fermata \bar "||" %49 finis
+  }
+}
+
+B-LXXIGloriaBassFigures = \figuremode {
+  r1
+  <7>4 <6> <_+>2
+  r4 <6- _+>8 \bo <[6]> r2
+  \bc <[5] 3>4 <6 4> <5 \t> <\t 3>
+  r2 <6> <6 5> %5
+  r1 <[6 5]>2
+  r1.
+  r
+  r
+  r1 <6 5>2 %10
+  r1.
+  r1 <[6 5]>2
+  r1.
+  r
+  r %15
+  r1 <6>4 q
+  r1 r4 \bo <[6 _]>
+  r1 r4 <6>
+  r1 r4 q
+  r1 r4 q %20
+  r1.
+  r
+  r
+  <6>1 q4 <5>
+  r <6> q2 q4 q %25
+  r1.
+  <6>
+  r2 <6 4> <5 3>
+  r \bc <[6 _]>1
+  <5>4 <6> r1 %30
+  r1.
+  r
+  r
+  r1 \bo <[6]>2
+  r1 \bc q2 %35
+  r1.
+  r
+  r
+  <_+>
+  <6>1 r4 <[6\\]> %40
+  <_!>1 \bo <[6 5!]>2
+  r1 \bc <[6 5]>2
+  r1.
+  <6 5->1.
+  r2 <6> <5> %45
+  r1.
+  r2 <4> <3>
+  r1 <[6]>2
+  r1. %49 finis
+}
+
+B-LXXIDomineDeusOrgano = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \tempoB-LXXIDomineDeus
+      \set Score.currentBarNumber = #50
+    \mvTr d8\fE-\solo d' cis a b a16 g f8 d %50
     g e a a, d d'16 c b8 g
     c, c'16 b a8 f b, b'16 a g8 e
     a g f e d c! h a
@@ -182,10 +241,52 @@ B-LXXIGloriaOrgano = {
     fis d e \hA fis g f e d
     cis a h \hA cis d b? g a
     d\fE c b a g' f! e! d
-    cis a h \hA cis d b g a \noBreak %80
-    d,4 r r2\fermata \bar "||"
-    \key f \major \tempoB-LXXIQuiTollis
-      \mvTr b'2\fE-\tutti b'~ \noBreak
+    cis a h \hA cis d b g a %80
+    d,4 r r2\fermata \bar "||" %81 finis
+  }
+}
+
+B-LXXIDomineDeusBassFigures = \figuremode {
+  r4 \bo <[6]>2 \bc q4 %50
+  <6 5> <6 4>8 <5 _+> <_!> <_+> \bc <[6]>4
+  r <6>2 \bc <[6]>4
+  <_+>1
+  <5 [_!]>2. <6[!] 5>8 <[5!] _+>
+  r4. <[6]>8 <6! 5>4 <6 4>8 <5[!] _+> %55
+  r <_+> <[6]>4 <_!> \bo <[6]>
+  r <6!> <5! _+> \bc <[6]>8 <6\\>
+  <_+> <4\+> <[6]> <6\\> <_!> <4\+ [_-]> <[6]> <6\\>
+  r2 <6>
+  r4 <6 5>8 <_+>4. \bo <[6]>4 %60
+  r \bc q <6> <6 4>8 <5 _+>
+  r4 <6 [_!]> <6> <6 4>8 <5 3>
+  r2. <6>4
+  <_+> <6> <_!>4 <[6!]>8 <6!>
+  r4 <6 5>8 \bo <[_!]>4. <6!>8 \bc <[5!] _+> %65
+  r4 \bo <[6 _!]>2 <6>4
+  \bc <[6! _]> <6 4>8 <5[!] _+>4. <[6 _!]>4
+  <6 5> <6 4>8 <5 _!> r2
+  r4 <6!> \bo <[5!] _+>4 \bc <[6]>8 <6\\>
+  r4 <6[!] 5>8 <[5!] _+>4 <4\+>8 <[6]> <6\\> %70
+  r <4\+ _-> <[6]> <6\\>4 <4!>8 \bo <[6]> <6!>
+  r <4> <6> \bc <[6]>4. <6 5>4
+  r4 \bo <[6]>2 <6>4
+  \bc <[6]> <6 4>8 <5 3> r2
+  r1 %75
+  r
+  r
+  <5>2. <6 5>8 <_+>
+  r <4\+ _-> <[6]> <6\\> r2
+  \bo <[6 _]>2. <6 5>8 \bc <[_+ _]> %80
+  r1 %81 finis
+}
+
+B-LXXIQuiTollisOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoB-LXXIQuiTollis
+      \set Score.currentBarNumber = #82
+    \mvTr b2\fE-\tutti b'~
     b4 a b2
     f r
     r8 fis4 fis8 g2 %85
@@ -201,10 +302,38 @@ B-LXXIGloriaOrgano = {
     g,4. g'8 e f! c4 %95
     f, \clef "treble_8" a'8 g a b g a
     \clef bass << { b4 } \\ { d,4. c8 } >> d es c d
-    es4. d8 c2~ \noBreak
-    c f,\fermata \bar "||"
-    \time 3/2 \tempoB-LXXIQuoniam \newSpacingSection
-      \mvTr f'2.\fE-\solo g4 a f \noBreak %100
+    es4. d8 c2~
+    c f,\fermata \bar "||" %99 finis
+  }
+}
+
+B-LXXIQuiTollisBassFigures = \figuremode {
+  r1 %82
+  <6 4->4 <6 5-> <9> <8>
+  <4> <3>2.
+  r8 <7- 5>4. <5 4>4 <\t 3> %85
+  <6 5>2 <4>4 <3>
+  r2.. <_+>8
+  r2. <6[!]>4
+  r1
+  <6\\>2 <6>4 <5>8 <6> %90
+  <7> <6> <7> <6> <7 _+>4 <6 4>
+  <5 \t> <\t _+>2.
+  r4. \bo <[6]> \bc q4
+  r2.. <_+>8
+  r2 <[6 5]>4 <4>8 <3> %95
+  r4 <10>8 q q q <[6-]> <10>
+  r4. <_->8 <6>4 <6- [_-]>8 <6>
+  r4. <[6]>8  <7 _!>4 <6[!] 4>
+  <5 \t> <\t 3>2. %99 finis
+}
+
+B-LXXIQuoniamOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 3/2 \tempoB-LXXIQuoniam
+      \set Score.currentBarNumber = #100
+    \mvTr f2.\fE-\solo g4 a f
     c'2 c,4 d e c
     f2. g4 a2
     b g4 a b2
@@ -243,10 +372,61 @@ B-LXXIGloriaOrgano = {
     c2 r4 c c c
     c2 r4 h h h
     c2. b4 a!2~
-    a4 b c2 c, \noBreak
-    f1.\fermata \bar "||" %140
-    \clef "treble_8" \time 4/4 \tempoB-LXXICumSancto \newSpacingSection
-      \mvTr c''2-!\fE-\tutti d8-! c-! d4-! \noBreak
+    a4 b c2 c,
+    f1.\fermata \bar "||" %140 finis
+  }
+}
+
+B-LXXIQuoniamBassFigures = \figuremode {
+  r1. %100
+  <5 4>2 <\t 3>2. <7>4
+  <4>2 <3> <6>4 <5->
+  <9> <8>2. <6>4 <5>
+  <9> <8>2 <7>2.
+  <6 4> <\t \t> %105
+  <6- 4> <7->
+  r1 <[6]>2
+  r <6 4> <5 3>
+  r1.
+  <4>2 <3>1 %110
+  <4>2 <3>1
+  <4>2 <3>1
+  <4>2 <3> <5->
+  <4[-]> <3> <5>
+  <4> <3[!]>1 %115
+  r1 <[6]>2
+  <_!>1 <[6]>2
+  <6 5> <4> <_!>
+  \bo <[4]>4 <3>2. <6>4 \bc <[5-]>
+  <9> <8>2. \bo <[6]>4 \bc <[5]> %120
+  <9 _!> <8 \t>2 <7 _!>2.
+  <6 4> <\t \t>
+  <6- 4> <7- 5>
+  <_!>1 <[6]>2
+  r <6 4> <5 _!> %125
+  r1.
+  <4>2 <3>1
+  <4>4 <3> r1
+  <[6]>1.
+  r %130
+  r
+  r2 <6 4> <5 3>
+  r1 \bo <[6]>4 <5->
+  <9> <8>2. <6>4 <5>
+  <9> \bc <[8]>2 <7>2. %135
+  <6 4> <\t \t>
+  <6- 4> \bo <[7- _]>
+  r1 <6>2
+  r <6 4> \bc <[5 3]>
+  r1. %140 finis
+}
+
+B-LXXICumSanctoOrgano = {
+  \relative c {
+    \clef "treble_8"
+    \key f \major \time 4/4 \tempoB-LXXICumSancto
+      \set Score.currentBarNumber = #141
+    \mvTr c'2-!\fE-\tutti d8-! c-! d4-!
     b4.-! b8-! c-! b-! c4-!
     a4.-! a8-! b-! a-! b4~-!
     b a-! g2-!\trill
@@ -343,147 +523,7 @@ B-LXXIGloriaOrgano = {
   }
 }
 
-B-LXXIGloriaBassFigures = \figuremode {
-  r1
-  <7>4 <6> <_+>2
-  r4 <6- _+>8 \bo <[6]> r2
-  \bc <[5] 3>4 <6 4> <5 \t> <\t 3>
-  r2 <6> <6 5> %5
-  r1 <[6 5]>2
-  r1.
-  r
-  r
-  r1 <6 5>2 %10
-  r1.
-  r1 <[6 5]>2
-  r1.
-  r
-  r %15
-  r1 <6>4 q
-  r1 r4 \bo <[6 _]>
-  r1 r4 <6>
-  r1 r4 q
-  r1 r4 q %20
-  r1.
-  r
-  r
-  <6>1 q4 <5>
-  r <6> q2 q4 q %25
-  r1.
-  <6>
-  r2 <6 4> <5 3>
-  r \bc <[6 _]>1
-  <5>4 <6> r1 %30
-  r1.
-  r
-  r
-  r1 \bo <[6]>2
-  r1 \bc q2 %35
-  r1.
-  r
-  r
-  <_+>
-  <6>1 r4 <[6\\]> %40
-  <_!>1 \bo <[6 5!]>2
-  r1 \bc <[6 5]>2
-  r1.
-  <6 5->1.
-  r2 <6> <5> %45
-  r1.
-  r2 <4> <3>
-  r1 <[6]>2
-  r1.
-  r4 \bo <[6]>2 \bc q4 %50
-  <6 5> <6 4>8 <5 _+> <_!> <_+> \bc <[6]>4
-  r <6>2 \bc <[6]>4
-  <_+>1
-  <5 [_!]>2. <6[!] 5>8 <[5!] _+>
-  r4. <[6]>8 <6! 5>4 <6 4>8 <5[!] _+> %55
-  r <_+> <[6]>4 <_!> \bo <[6]>
-  r <6!> <5! _+> \bc <[6]>8 <6\\>
-  <_+> <4\+> <[6]> <6\\> <_!> <4\+ [_-]> <[6]> <6\\>
-  r2 <6>
-  r4 <6 5>8 <_+>4. \bo <[6]>4 %60
-  r \bc q <6> <6 4>8 <5 _+>
-  r4 <6 [_!]> <6> <6 4>8 <5 3>
-  r2. <6>4
-  <_+> <6> <_!>4 <[6!]>8 <6!>
-  r4 <6 5>8 \bo <[_!]>4. <6!>8 \bc <[5!] _+> %65
-  r4 \bo <[6 _!]>2 <6>4
-  \bc <[6! _]> <6 4>8 <5[!] _+>4. <[6 _!]>4
-  <6 5> <6 4>8 <5 _!> r2
-  r4 <6!> \bo <[5!] _+>4 \bc <[6]>8 <6\\>
-  r4 <6[!] 5>8 <[5!] _+>4 <4\+>8 <[6]> <6\\> %70
-  r <4\+ _-> <[6]> <6\\>4 <4!>8 \bo <[6]> <6!>
-  r <4> <6> \bc <[6]>4. <6 5>4
-  r4 \bo <[6]>2 <6>4
-  \bc <[6]> <6 4>8 <5 3> r2
-  r1 %75
-  r
-  r
-  <5>2. <6 5>8 <_+>
-  r <4\+ _-> <[6]> <6\\> r2
-  \bo <[6 _]>2. <6 5>8 \bc <[_+ _]> %80
-  r1
-  r1
-  <6 4->4 <6 5-> <9> <8>
-  <4> <3>2.
-  r8 <7- 5>4. <5 4>4 <\t 3> %85
-  <6 5>2 <4>4 <3>
-  r2.. <_+>8
-  r2. <6[!]>4
-  r1
-  <6\\>2 <6>4 <5>8 <6> %90
-  <7> <6> <7> <6> <7 _+>4 <6 4>
-  <5 \t> <\t _+>2.
-  r4. \bo <[6]> \bc q4
-  r2.. <_+>8
-  r2 <[6 5]>4 <4>8 <3> %95
-  r4 <10>8 q q q <[6-]> <10>
-  r4. <_->8 <6>4 <6- [_-]>8 <6>
-  r4. <[6]>8  <7 _!>4 <6[!] 4>
-  <5 \t> <\t 3>2.
-  r1. %100
-  <5 4>2 <\t 3>2. <7>4
-  <4>2 <3> <6>4 <5->
-  <9> <8>2. <6>4 <5>
-  <9> <8>2 <7>2.
-  <6 4> <\t \t> %105
-  <6- 4> <7->
-  r1 <[6]>2
-  r <6 4> <5 3>
-  r1.
-  <4>2 <3>1 %110
-  <4>2 <3>1
-  <4>2 <3>1
-  <4>2 <3> <5->
-  <4[-]> <3> <5>
-  <4> <3[!]>1 %115
-  r1 <[6]>2
-  <_!>1 <[6]>2
-  <6 5> <4> <_!>
-  \bo <[4]>4 <3>2. <6>4 \bc <[5-]>
-  <9> <8>2. \bo <[6]>4 \bc <[5]> %120
-  <9 _!> <8 \t>2 <7 _!>2.
-  <6 4> <\t \t>
-  <6- 4> <7- 5>
-  <_!>1 <[6]>2
-  r <6 4> <5 _!> %125
-  r1.
-  <4>2 <3>1
-  <4>4 <3> r1
-  <[6]>1.
-  r %130
-  r
-  r2 <6 4> <5 3>
-  r1 \bo <[6]>4 <5->
-  <9> <8>2. <6>4 <5>
-  <9> \bc <[8]>2 <7>2. %135
-  <6 4> <\t \t>
-  <6- 4> \bo <[7- _]>
-  r1 <6>2
-  r <6 4> \bc <[5 3]>
-  r1. %140
+B-LXXICumSanctoBassFigures = \figuremode {
   r1
   r
   r

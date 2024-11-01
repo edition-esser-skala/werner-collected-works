@@ -96,13 +96,17 @@ B-LXXIGloriaViolinoII = {
     a' f, a c c, b' %45
     a a' f f, d' b
     f' d g, f' c, e'
-    f2 r4 f, g e \noBreak
-    f1 r2\fermata \bar "||"
-    \key d \minor \time 4/4 \tempoB-LXXIDomine \newSpacingSection
-      \after 4*0 -\critnote R1*31 \noBreak %80
-    R1\fermata \bar "||"
-    \key f \major \tempoB-LXXIQuiTollis
-      r2 r4 b~\fE \noBreak
+    f2 r4 f, g e
+    f1 r2\fermata \bar "||" %49 finis
+  }
+}
+
+B-LXXIQuiTollisViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoB-LXXIQuiTollis
+      \set Score.currentBarNumber = #82
+    r2 r4 b'~\fE
     b c2 b4~
     b a8 g a4 r
     r c2 b4~ %85
@@ -115,11 +119,18 @@ B-LXXIGloriaViolinoII = {
     d8. d16 d4 c8 c c4 %95
     c8 c4 b8 c d es c
     d c b4. b8 c b16 as
-    g8 a b2 a4 \noBreak
-    g2 a\fermata \bar "||"
-    \time 3/2 \tempoB-LXXIQuoniam \newSpacingSection
-      R1. \noBreak %100
-    g4\fE c,8 d e4 f g b~
+    g8 a b2 a4
+    g2 a\fermata \bar "||" %89 finis
+  }
+}
+
+B-LXXIQuoniamViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/2 \tempoB-LXXIQuoniam
+      \set Score.currentBarNumber = #100
+    R1. %100
+    g'4\fE c,8 d e4 f g b~
     b a8 b c2 f,4 c'~
     c b8 c d2 g,4 d'~
     d c8 d e2 g
@@ -156,10 +167,17 @@ B-LXXIGloriaViolinoII = {
     a, c f
     as, r4 f d' f,
     e8 g a b c2 f,
-    r4 d f2 e \noBreak
-    f1.\fermata \bar "||" %140
-    \time 4/4 \tempoB-LXXICumSancto \newSpacingSection
-      R1*8 %148
+    r4 d f2 e
+    f1.\fermata \bar "||" %140 finis
+  }
+}
+
+B-LXXICumSanctoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoB-LXXICumSancto
+      \set Score.currentBarNumber = #141
+    R1*8 %148
     r2 c'\fE
     d8 c d4 b4. b8 %150
     c8 b c4 a4. a8

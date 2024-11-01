@@ -118,13 +118,59 @@ B-LXXIGloriaSoprano = {
     a c2 c4 c, b' %45
     a2. a4 d2~
     d c1
-    c r2 \noBreak
-    R1.\fermata \bar "||"
-    \key d \minor \time 4/4 \tempoB-LXXIDomine \newSpacingSection
-      R1*31 \noBreak %80
-    R1\fermata \bar "||"
-    \key f \major \tempoB-LXXIQuiTollis
-      r2 r4 \mvTr b~\fE^\tutti
+    c r2
+    R1.\fermata \bar "||" %49 finis
+  }
+}
+
+B-LXXIGloriaSopranoLyrics = \lyricmode {
+  Et in ter -- ra pax, in ter -- ra,
+  ter -- ra pax,
+  pax ho -- mi -- ni -- bus bo --
+  nae vo -- lun -- ta --
+  tis. %5
+
+  Lau -- da -- mus %11
+  te,
+  lau -- da -- mus
+  te, be -- ne -- di -- ci -- mus
+  te, ad -- o -- ra -- mus %15
+  te, glo -- ri -- fi --
+  ca -- _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ _ %20
+  _ _ _ _ _ mus
+  te, glo -- ri -- fi --
+  ca -- mus,
+  glo -- ri -- fi -- ca -- mus
+  te, glo -- ri -- fi -- ca -- _ %25
+  _ _ _ _ _ _
+  _ mus, glo --
+  ri -- fi -- ca -- mus
+  te.
+
+  Gra -- ti -- as %36
+  a -- gi -- mus
+  ti --
+  bi pro -- pter
+  ma -- gnam, %40
+
+  pro -- pter ma -- gnam
+  glo -- ri -- am __
+  tu --
+  am, pro -- pter ma -- gnam %45
+  glo -- ri -- am __
+  tu --
+  am. %48 finis
+}
+
+B-LXXIQuiTollisSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoB-LXXIQuiTollis
+      \set Score.currentBarNumber = #82
+    r2 r4 \mvTr b'~\fE^\tutti
     b c2 b4
     \once \stemUp b( a8[ g)] a4 r
     r c2 b4 %85
@@ -140,10 +186,38 @@ B-LXXIGloriaSoprano = {
     d8. d16 d4 c2 %95
     c8 c4 b8 c d es c
     d c b es d b c b16([ as)]
-    g8([ a] \once \stemUp b2) a4 \noBreak
-    g2 a\fermata \bar "||"
-    \time 3/2 \tempoB-LXXIQuoniam \newSpacingSection
-      R1.*9 %108
+    g8([ a] \once \stemUp b2) a4
+    g2 a\fermata \bar "||" %99 finis
+  }
+}
+
+B-LXXIQuiTollisSopranoLyrics = \lyricmode {
+  Pec -- %82
+  ca -- ta
+  mun -- di:
+  Mi -- se -- %85
+  re -- re no --
+  bis. Qui tol -- lis pec --
+  ca -- ta, pec -- ca -- ta
+  mun -- di: Su -- sci -- pe
+  de -- pre -- ca -- ti -- o -- nem, %90
+  de -- pre -- ca -- ti -- o -- nem
+  no -- stram. Qui
+  se --
+  des ad dex -- te -- ram, ad
+  dex -- te -- ram Pa -- %95
+  tris: Mi -- se -- re -- re, mi -- se --
+  re -- re, mi -- se -- re -- re, mi -- se --
+  re -- re
+  no -- bis. %99 finis
+}
+
+B-LXXIQuoniamSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/2 \autoBeamOff \tempoB-LXXIQuoniam
+      \set Score.currentBarNumber = #100
+    R1.*9 %108
     \mvTr f4.\pE^\solo g8 a4 b c f
     f( e) e2 r %110
     r r4 b c f
@@ -164,10 +238,40 @@ B-LXXIGloriaSoprano = {
     f4 e8[ d] c4 b a g
     f( d') g,1\trill
     f r2
-    R1.*6 \noBreak %139
-    R1.\fermata \bar "||" %140
-    \time 4/4 \tempoB-LXXICumSancto \newSpacingSection
-      R1*8 %148
+    R1.*6 %139
+    R1.\fermata \bar "||" %140 finis
+  }
+}
+
+B-LXXIQuoniamSopranoLyrics = \lyricmode {
+  Quo -- ni -- am tu so -- lus %109
+  san -- ctus, %110
+  tu so -- lus
+  Do -- mi -- nus,
+  tu, tu so -- lus
+  san -- ctus, tu so -- lus
+  Do -- mi -- nus, tu %115
+  so -- lus al --
+  tis -- si -- mus, Je --
+  su Chri --
+  ste.
+
+  Tu so -- lus san -- %126
+  ctus, tu so -- lus Do -- mi --
+  nus, tu so -- _ _ _
+  _ _ lus, so -- lus al --
+  tis -- si -- mus, Je -- %130
+  _ _ _ _ _ _
+  su __ Chri --
+  ste. %133 finis
+}
+
+B-LXXICumSanctoSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoB-LXXICumSancto
+      \set Score.currentBarNumber = #141
+    R1*8 %148
     r2 \mvTr c'\fE^\tutti
     d8([ c)] d4 b4. b8 %150
     c8([ b)] c4 a4. a8
@@ -234,87 +338,7 @@ B-LXXIGloriaSoprano = {
   }
 }
 
-B-LXXIGloriaSopranoLyrics = \lyricmode {
-  Et in ter -- ra pax, in ter -- ra,
-  ter -- ra pax,
-  pax ho -- mi -- ni -- bus bo --
-  nae vo -- lun -- ta --
-  tis. %5
-
-  Lau -- da -- mus %11
-  te,
-  lau -- da -- mus
-  te, be -- ne -- di -- ci -- mus
-  te, ad -- o -- ra -- mus %15
-  te, glo -- ri -- fi --
-  ca -- _ _ _
-  _ _ _ _
-  _ _ _ _
-  _ _ _ _ %20
-  _ _ _ _ _ mus
-  te, glo -- ri -- fi --
-  ca -- mus,
-  glo -- ri -- fi -- ca -- mus
-  te, glo -- ri -- fi -- ca -- _ %25
-  _ _ _ _ _ _
-  _ mus, glo --
-  ri -- fi -- ca -- mus
-  te.
-
-  Gra -- ti -- as %36
-  a -- gi -- mus
-  ti --
-  bi pro -- pter
-  ma -- gnam, %40
-
-  pro -- pter ma -- gnam
-  glo -- ri -- am __
-  tu --
-  am, pro -- pter ma -- gnam %45
-  glo -- ri -- am __
-  tu --
-  am.
-
-  Pec -- %82
-  ca -- ta
-  mun -- di:
-  Mi -- se -- %85
-  re -- re no --
-  bis. Qui tol -- lis pec --
-  ca -- ta, pec -- ca -- ta
-  mun -- di: Su -- sci -- pe
-  de -- pre -- ca -- ti -- o -- nem, %90
-  de -- pre -- ca -- ti -- o -- nem
-  no -- stram. Qui
-  se --
-  des ad dex -- te -- ram, ad
-  dex -- te -- ram Pa -- %95
-  tris: Mi -- se -- re -- re, mi -- se --
-  re -- re, mi -- se -- re -- re, mi -- se --
-  re -- re
-  no -- bis.
-
-  Quo -- ni -- am tu so -- lus %109
-  san -- ctus, %110
-  tu so -- lus
-  Do -- mi -- nus,
-  tu, tu so -- lus
-  san -- ctus, tu so -- lus
-  Do -- mi -- nus, tu %115
-  so -- lus al --
-  tis -- si -- mus, Je --
-  su Chri --
-  ste.
-
-  Tu so -- lus san -- %126
-  ctus, tu so -- lus Do -- mi --
-  nus, tu so -- _ _ _
-  _ _ lus, so -- lus al --
-  tis -- si -- mus, Je -- %130
-  _ _ _ _ _ _
-  su __ Chri --
-  ste.
-
+B-LXXICumSanctoSopranoLyrics = \lyricmode {
   Cum %149
   San -- cto Spi -- ri -- %150
   tu __ in glo -- ri --

@@ -50,11 +50,18 @@ B-LXXIGloriaTromboneII = {
     a2. a4 g2 %45
     f2. f4 b2~
     b g1
-    a r2 \noBreak
-    R1.\fermata \bar "||"
-    \key d \minor \time 4/4 \tempoB-LXXIDomine \newSpacingSection
-      R1*4 %53
-    r2 e'4.-\solo c16 h
+    a r2
+    R1.\fermata \bar "||" %49 finis
+  }
+}
+
+B-LXXIDomineDeusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key d \minor \time 4/4 \tempoB-LXXIDomineDeus
+      \set Score.currentBarNumber = #50
+    R1*4 %53
+    r2 e4.-\solo c16 h
     a gis a8 r c h d c16 d h8 %55
     c \once \tieDashed cis~ cis16 d f d h a \hA h8~ h16 c e c
     a gis a8~ a16 h d \hA h gis8 f'16( e) e( d) d( c)
@@ -74,9 +81,16 @@ B-LXXIGloriaTromboneII = {
     R1*5 %78
     r8 es'16(\fE d) d( c) c( b) b( a) a( g) g8 b
     \once \tieDashed a4~ a16( g) g( f) f8. g16 e8. d16 %80
-    d4 r r2\fermata \bar "||"
-    \key f \major \tempoB-LXXIQuiTollis
-      r2 r4 \mvTr d'\fE-\tuttiE \noBreak
+    d4 r r2\fermata \bar "||" %81 finis
+  }
+}
+
+B-LXXIQuiTollisTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key f \major \time 4/4 \tempoB-LXXIQuiTollis
+      \set Score.currentBarNumber = #82
+    r2 r4 d\fE
     es2 d
     c f,4 a8 c
     es4 es d4. d8 %85
@@ -92,13 +106,17 @@ B-LXXIGloriaTromboneII = {
     b8. b16 b4 b8 a16 a g4 %95
     a8 a4 g8 a b g a
     b4. c8 b g es' d16 c
-    b8 c d4 g, a8 b \noBreak
-    c2 c\fermata \bar "||"
-    \time 3/2 \tempoB-LXXIQuoniam \newSpacingSection
-      R1.*40 \noBreak %139
-    R1.\fermata \bar "||" %140
-    \time 4/4 \tempoB-LXXICumSancto \newSpacingSection
-      c2\fE d8 c d4 \noBreak
+    b8 c d4 g, a8 b
+    c2 c\fermata \bar "||" %89 finis
+  }
+}
+
+B-LXXICumSanctoTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key f \major \time 4/4 \tempoB-LXXICumSancto
+      \set Score.currentBarNumber = #141
+    c2\fE d8 c d4
     b4. b8 c b c4
     a4. a8 b a b4~
     b a g2

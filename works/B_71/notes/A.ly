@@ -96,20 +96,65 @@ B-LXXIGloriaAlto = {
     c,2 e e %45
     f2. f4 d2
     f1( e2)
-    f1 r2 \noBreak
-    R1.\fermata \bar "||"
-    \key d \minor \time 4/4 \tempoB-LXXIDomine \newSpacingSection
-      R1*10 %59
-    r2 \mvTr a4.\pE^\solo f16 e %60
+    f1 r2
+    R1.\fermata \bar "||" %49 finis
+  }
+}
+
+B-LXXIGloriaAltoLyrics = \lyricmode {
+  Et in __
+  ter -- ra pax ho --
+  mi -- ni -- bus bo -- nae vo -- lun --
+  ta -- _ _ _
+  tis. %5
+
+  Gra -- ti -- as %36
+  a -- gi --
+  mus ti --
+  bi
+  pro -- pter ma -- gnam %40
+  glo -- ri -- am
+  tu --
+  am, pro -- pter
+  ma -- gnam glo -- ri --
+  am, ma -- gnam %45
+  glo -- ri -- am
+  tu --
+  am. %48 finis
+}
+
+B-LXXIDomineDeusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \autoBeamOff \tempoB-LXXIDomineDeus
+      \set Score.currentBarNumber = #50
+    R1*10 %59
+    r2 \mvTr a'4.\pE^\solo f16 e %60
     d([ cis)] d8 r4 e8 g f16([ g)] e8
     f16([ e)] d8 r4 g8 b a16([ b)] g8
     a16([ g)] f8 f a16([ f)] d([ cis)] d8 e g16([ e)]
     cis([ h)] \hA cis8 d f16([ d)] h4 c8 f
     e16([ d)] c([ d)] h8. c16 c4 r %65
-    R1*15 \noBreak %80
-    R1\fermata \bar "||"
-    \key f \major \tempoB-LXXIQuiTollis
-      r2 r4 \mvTr f\fE^\tutti \noBreak
+    R1*15 %80
+    R1\fermata \bar "||" %81 finis
+  }
+}
+
+B-LXXIDomineDeusAltoLyrics = \lyricmode {
+  Do -- mi -- ne %60
+  De -- us, De -- us, Rex coe --
+  le -- stis, De -- us, Rex coe --
+  le -- stis, De -- us Pa -- ter, De -- us
+  Pa -- ter, De -- us Pa -- ter, Pa --
+  ter o -- mni -- po -- tens. %65 finis
+}
+
+B-LXXIQuiTollisAlto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoB-LXXIQuiTollis
+      \set Score.currentBarNumber = #82
+    r2 r4 \mvTr f\fE^\tutti
     g f f2
     f r
     r8 a4 a8 g4 g %85
@@ -125,13 +170,38 @@ B-LXXIGloriaAlto = {
     g8. g16 g4 g8( f4 e8) %95
     f4 r r2
     f4. es8 f g as f
-    g4. f8 e4 f~ \noBreak
-    f e f2\fermata \bar "||"
-    \time 3/2 \tempoB-LXXIQuoniam \newSpacingSection
-      R1.*40 \noBreak %139
-    R1.\fermata \bar "||" %140
-    \time 4/4 \tempoB-LXXICumSancto \newSpacingSection
-      R1*12 %152
+    g4. f8 e4 f~
+    f e f2\fermata \bar "||" %99 finis
+  }
+}
+
+B-LXXIQuiTollisAltoLyrics = \lyricmode {
+  Pec -- %82
+  ca -- ta mun --
+  di:
+  Mi -- se -- re -- re %85
+  no --
+  bis. Qui tol -- lis pec --
+  ca -- ta, pec -- ca -- ta __
+  mun -- di: Su -- sci -- pe
+  de -- pre -- ca -- ti -- %90
+  o -- nem no -- _
+  _ stram. Qui
+  se -- des ad dex -- te -- ram Pa --
+  tris, ad dex -- te -- ram, ad
+  dex -- te -- ram Pa -- %95
+  tris:
+  Mi -- se -- re -- re, mi -- se --
+  re -- re no -- _
+  _ bis. %99 finis
+}
+
+B-LXXICumSanctoAlto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoB-LXXICumSancto
+      \set Score.currentBarNumber = #141
+    R1*12 %152
     r2 \mvTr f2\fE^\tutti
     a8([ g)] a4 f4. f8
     g([ f)] g4 e4. e8 %155
@@ -194,53 +264,7 @@ B-LXXIGloriaAlto = {
   }
 }
 
-B-LXXIGloriaAltoLyrics = \lyricmode {
-  Et in __
-  ter -- ra pax ho --
-  mi -- ni -- bus bo -- nae vo -- lun --
-  ta -- _ _ _
-  tis. %5
-
-  Gra -- ti -- as %36
-  a -- gi --
-  mus ti --
-  bi
-  pro -- pter ma -- gnam %40
-  glo -- ri -- am
-  tu --
-  am, pro -- pter
-  ma -- gnam glo -- ri --
-  am, ma -- gnam %45
-  glo -- ri -- am
-  tu --
-  am.
-
-  Do -- mi -- ne %60
-  De -- us, De -- us, Rex coe --
-  le -- stis, De -- us, Rex coe --
-  le -- stis, De -- us Pa -- ter, De -- us
-  Pa -- ter, De -- us Pa -- ter, Pa --
-  ter o -- mni -- po -- tens. %65
-
-  Pec -- %82
-  ca -- ta mun --
-  di:
-  Mi -- se -- re -- re %85
-  no --
-  bis. Qui tol -- lis pec --
-  ca -- ta, pec -- ca -- ta __
-  mun -- di: Su -- sci -- pe
-  de -- pre -- ca -- ti -- %90
-  o -- nem no -- _
-  _ stram. Qui
-  se -- des ad dex -- te -- ram Pa --
-  tris, ad dex -- te -- ram, ad
-  dex -- te -- ram Pa -- %95
-  tris:
-  Mi -- se -- re -- re, mi -- se --
-  re -- re no -- _
-  _ bis.
-
+B-LXXICumSanctoAltoLyrics = \lyricmode {
   Cum %153
   San -- cto Spi -- ri --
   tu __ in glo -- ri -- %155

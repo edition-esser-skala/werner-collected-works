@@ -70,19 +70,63 @@ B-LXXIGloriaTenore = {
     a2. a4 g2 %45
     f2. f4 b2~
     b g1
-    a r2 \noBreak
-    R1.\fermata \bar "||"
-    \key d \minor \time 4/4 \tempoB-LXXIDomine \newSpacingSection
-      R1*16 %65
-    \mvTr e'4.\pE^\solo c16 h a([ gis)] a8 r4
+    a r2
+    R1.\fermata \bar "||" %49 finis
+  }
+}
+
+B-LXXIGloriaTenoreLyrics = \lyricmode {
+  Et in
+  ter -- ra pax, pax ho --
+  mi -- ni -- bus bo -- nae, bo -- nae
+  vo -- lun -- ta --
+  tis. %5
+
+  Gra -- ti -- as %36
+  a -- gi -- mus
+  ti -- bi
+  pro -- pter,
+  %40
+  pro -- pter ma -- gnam
+  glo -- ri -- am
+  tu -- am,
+  pro -- pter ma -- gnam
+  glo -- ri -- am, %45
+  glo -- ri -- am __
+  tu --
+  am. %48 finis
+}
+
+B-LXXIDomineDeusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \minor \time 4/4 \autoBeamOff \tempoB-LXXIDomineDeus
+      \set Score.currentBarNumber = #50
+    R1*16 %65
+    \mvTr e4.\pE^\solo c16 h a([ gis)] a8 r4
     h8 d c16([ d)] h8 c16 h a8 c4~
     c8 d16([ a)] \appoggiatura c8 h4 c g16([ c)] e([ c)]
     a([ gis)] a8 h d16([ \hA h)] gis4 a8([ h)]
     c4( h) a r %70
-    R1*10 \noBreak %80
-    R1\fermata \bar "||"
-    \key f \major \tempoB-LXXIQuiTollis
-      r2 r4 \mvTr d\fE^\tutti \noBreak
+    R1*10 %80
+    R1\fermata \bar "||" %81 finis
+  }
+}
+
+B-LXXIDomineDeusTenoreLyrics = \lyricmode {
+  Do -- mi -- ne Fi -- li, %66
+  Fi -- li u -- ni -- ge -- ni -- te, Je --
+  su Chri -- ste, Je -- su,
+  Je -- su, Je -- su, Je -- su __
+  Chri -- ste. %70 finis
+}
+
+B-LXXIQuiTollisTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \major \time 4/4 \autoBeamOff \tempoB-LXXIQuiTollis
+      \set Score.currentBarNumber = #82
+    r2 r4 \mvTr d\fE^\tutti
     es2( d)
     c f,4 a8 c
     es4 es d4. d8 %85
@@ -98,13 +142,38 @@ B-LXXIGloriaTenore = {
     b8. b16 b4 b8 a16 a g4 %95
     a8 a4 g8 a b g a
     b4. c8 b g es' d16([ c)]
-    b8([ c)] d4 g, a8([ b)] \noBreak
-    c2 c\fermata \bar "||"
-    \time 3/2 \tempoB-LXXIQuoniam \newSpacingSection
-      R1.*40 \noBreak %139
-    R1.\fermata \bar "||" %140
-    \time 4/4 \tempoB-LXXICumSancto \newSpacingSection
-      \mvTr c2\fE^\tutti d8([ c)] d4 \noBreak
+    b8([ c)] d4 g, a8([ b)]
+    c2 c\fermata \bar "||" %99 finis
+  }
+}
+
+B-LXXIQuiTollisTenoreLyrics = \lyricmode {
+  Qui %82
+  tol --
+  lis pec -- ca -- ta
+  mun -- di: Mi -- se -- %85
+  re -- re no --
+  bis. Qui tol -- lis pec --
+  ca -- ta, pec -- ca -- ta
+  mun -- di: Su -- sci -- pe
+  de -- pre -- ca -- ti -- %90
+  o -- nem no --
+  stram. Qui
+  se -- des ad dex -- te -- ram Pa --
+  tris, ad dex -- te -- ram, ad
+  dex -- te -- ram, dex -- te -- ram Pa -- %95
+  tris: Mi -- se -- re -- re, mi -- se --
+  re -- re, mi -- se -- re -- re,
+  mi -- se -- re -- re __
+  no -- bis. %99 finis
+}
+
+B-LXXICumSanctoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \major \time 4/4 \autoBeamOff \tempoB-LXXICumSancto
+      \set Score.currentBarNumber = #141
+    \mvTr c2\fE^\tutti d8([ c)] d4 \noBreak
     b4. b8 c([ b)] c4
     a4. a8 b([ a)] b4~
     b a g2
@@ -175,52 +244,7 @@ B-LXXIGloriaTenore = {
   }
 }
 
-B-LXXIGloriaTenoreLyrics = \lyricmode {
-  Et in
-  ter -- ra pax, pax ho --
-  mi -- ni -- bus bo -- nae, bo -- nae
-  vo -- lun -- ta --
-  tis. %5
-
-  Gra -- ti -- as %36
-  a -- gi -- mus
-  ti -- bi
-  pro -- pter,
-  %40
-  pro -- pter ma -- gnam
-  glo -- ri -- am
-  tu -- am,
-  pro -- pter ma -- gnam
-  glo -- ri -- am, %45
-  glo -- ri -- am __
-  tu --
-  am.
-
-  Do -- mi -- ne Fi -- li, %66
-  Fi -- li u -- ni -- ge -- ni -- te, Je --
-  su Chri -- ste, Je -- su,
-  Je -- su, Je -- su, Je -- su __
-  Chri -- ste. %70
-
-  Qui %82
-  tol --
-  lis pec -- ca -- ta
-  mun -- di: Mi -- se -- %85
-  re -- re no --
-  bis. Qui tol -- lis pec --
-  ca -- ta, pec -- ca -- ta
-  mun -- di: Su -- sci -- pe
-  de -- pre -- ca -- ti -- %90
-  o -- nem no --
-  stram. Qui
-  se -- des ad dex -- te -- ram Pa --
-  tris, ad dex -- te -- ram, ad
-  dex -- te -- ram, dex -- te -- ram Pa -- %95
-  tris: Mi -- se -- re -- re, mi -- se --
-  re -- re, mi -- se -- re -- re,
-  mi -- se -- re -- re __
-  no -- bis.
-
+B-LXXICumSanctoTenoreLyrics = \lyricmode {
   Cum San -- cto %141
   Spi -- ri -- tu __ in
   glo -- ri -- a __ De --
