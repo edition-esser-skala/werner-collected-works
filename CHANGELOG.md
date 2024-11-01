@@ -1,5 +1,16 @@
 # Changelog
 
+## 2024.10.0 – 2024-11-01
+
+### Added
+
+- works: WerW B.23, D.4.1/4, H.1.14, and I.3.22
+
+### Changed
+
+- renumbered WerW H.2.12 → H.1.16/5, I.1.31 → 30, I.1.32 → 31, and I.5.24 → 23
+
+
 ## 2024.09.0 – 2024-09-28
 
 ### Added
