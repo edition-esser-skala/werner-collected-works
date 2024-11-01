@@ -12,27 +12,21 @@ sources:
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/1029.html
     license: public domain
     principal: true
-  B2:
-    siglum: A-Z
-    shelfmark: V/45
-    rism: 600067079
-    license: public domain
-    notes: Laudate Dominum missing
 tocstyle: default
 toe: |
   1 & 10  & org  & 2nd \eighthNote\ in \B1: e16–d16 \\
   2 & 48  & B    & 3rd \halfNote\ in \B1: d2 \\
     & 63f & T    & last \quarterNote\ of bar 63 in \B1: \sharp f4;
                    1st \halfNote\ of bar 64: g4–g4 \\
-    & 64  & vl 1 & 3rd \eighthNote\ in \B1 and \B2: g″8 \\
+    & 64  & vl 1 & 3rd \eighthNote\ in \B1: g″8 \\
     & 76  & S    & 2nd \halfNote\ in \B1: e′2 \\
-  3 & 19  & S    & last \eighthNote\ in \B1 and \B2: d″8 \\
+  3 & 19  & S    & last \eighthNote\ in \B1: d″8 \\
     & 25  & org  & 2nd \eighthNote\ in \B1: B8 \\
-    & 37  & T    & 2nd \quarterNote\ in \B1 and \B2: e4 \\
+    & 37  & T    & 2nd \quarterNote\ in \B1: e4 \\
   4 & 1   & vl 2 & 2nd \halfNote\ in \B1: e′2 \\
     & 13  & T    & last \eighthNote\ in \B1: f′8 \\
     & 27  & S    & 4th \eighthNote\ in \B1: d″8 \\
-  6 & 6   & T    & 2nd \eighthNote\ in \B1 and \B2: a8 \\
-    & 18  & vl 2 & 2nd \eighthNote\ in \B1 and \B2: d″16–f″16 \\
+  6 & 6   & T    & 2nd \eighthNote\ in \B1: a8 \\
+    & 18  & vl 2 & 2nd \eighthNote\ in \B1: d″16–f″16 \\
     & 18  & T    & 12th \sixteenthNote\ in \B1: a16 \\
     & 24  & A    & 6th \eighthNote\ in \B1: \sharp c′8 \\
