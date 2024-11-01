@@ -419,3 +419,51 @@ B-LXXIEtVitamTromboneI = {
     fis1\fermata \bar "|." %316 finis
   }
 }
+
+B-LXXISanctusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key f \major \time 4/4 \tempoB-LXXISanctus
+    f2.\fE^\critnote e4
+    d2 c
+    d4 e fis g
+    fis8 g a4 gis a~
+    a8 gis16 fis \hA gis4 a a~ %5
+    a8 a a4 g8 g g4~
+    g8 g g4 f2~
+    f4 e8 f g4. g8
+    g2 r
+    R1 \noBreak %10
+    R\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoB-LXXIPleni \newSpacingSection
+      R2.*24 \noBreak %35
+    R2.\fermata \bar "||"
+    \key f \major \time 3/2 \tempoB-LXXIOsanna \newSpacingSection
+      R1.*7 %43
+    f2\fE d \once \tieDashed g~
+    g es2. d4 %45
+    es2 c1
+    d2 f4 es d c
+    b a g1
+    f2 r r
+    c' f2. e4 %50
+    d2 g2. f4
+    e2 a2. g4
+    f1.
+    e2 d g~
+    g e1 %55
+    a2 f2. e4
+    f2 d g~
+    g4 f g2 es~
+    es c1
+    f2. e4 d e %60
+    f1 e2
+    f a1
+    f2 b1
+    g1.
+    a2 g1 %65
+    a2 r c,
+    c d1
+    c1.\fermata \bar "|." %68 finis
+  }
+}

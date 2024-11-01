@@ -26,6 +26,10 @@ tempoB-LXXIEtResurrexit = \tempoMarkup "Allegro"
 tempoB-LXXIEtInSpiritum = \tempoMarkup "Andante"
 tempoB-LXXIEtVitam = \tempoMarkup "Presto"
 
+tempoB-LXXISanctus = \tempoMarkup "Largo"
+  tempoB-LXXIPleni = \tempoMarkup "[Tempo deest]"
+  tempoB-LXXIOsanna = \tempoMarkup "Osanna · [Tempo deest]"
+
 \include "notes/trb1.ly"
 \include "notes/trb2.ly"
 \include "notes/vl1.ly"

@@ -420,3 +420,56 @@ B-LXXIEtVitamTromboneII = {
     d1\fermata \bar "|." %316 finis
   }
 }
+
+B-LXXISanctusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key f \major \time 4/4 \tempoB-LXXISanctus
+    R1
+    r4 b2\fE a4
+    g c2 b4
+    a2 r4 e'~
+    e d c2 %5
+    d8. d16 d4 d d
+    c8. c16 c4 c d~
+    d c d4. d8
+    e2 r
+    R1 \noBreak %10
+    R\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoB-LXXIPleni \newSpacingSection
+      R2.*24 \noBreak %35
+    R2.\fermata \bar "||"
+    \key f \major \time 3/2 \tempoB-LXXIOsanna \newSpacingSection
+      c1\fE a2~ \noBreak
+    a d b~
+    b4 a b2 g~
+    g c a~ %40
+    a4 b c g c2~
+    c4 h c2 a
+    c1 f4 e
+    d2. c4 b2~
+    b c1 %45
+    g2 a1
+    R1.*2
+    r2 g c~
+    c4 b a2 d4 c %50
+    b a g2 c~
+    c4 b a2 f'~
+    f4 e d1
+    g, r2
+    c1 a2~ %55
+    a d b~
+    b4 a b2 g
+    c2. b4 c2
+    g a1
+    R1. %60
+    r2 r c~
+    c a d~
+    d b2. b4
+    c2 c c
+    c c1 %65
+    c2 a1
+    a2 b1
+    a1.\fermata \bar "|." %68 finis
+  }
+}

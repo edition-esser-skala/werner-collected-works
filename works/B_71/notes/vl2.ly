@@ -540,3 +540,72 @@ B-LXXIEtVitamViolinoII = {
     a1\fermata \bar "|." %316 finis
   }
 }
+
+B-LXXISanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoB-LXXISanctus
+    r8 f-!\fE^\markup \remark "staccato" a-! c-! g b c e
+    f, a b d e, g a c
+    b d g, c a a' b, g'
+    a, b c a' h, gis' a c,
+    e, a' h, gis' a, e' a c %5
+    d d, d, c' h d g b
+    c c, c, b' a c d f
+    h, g' e c' d, c' g, h'
+    c, c, e g a c f d
+    h g' c c, e, c' g, h' \noBreak %10
+    c e g, e c2\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoB-LXXIPleni \newSpacingSection
+      R2. \noBreak
+    r8 c'\p c c d c
+    r c, c c d c
+    d4 e e %15
+    a,8 a'16 h c8 c c d
+    e c g e c4
+    r8 e' e e f e
+    r e, e e f e
+    R2. %20
+    r8 c'16 h c d e f g a \once \tieDashed b8~
+    b a16 g a8 c, f,4
+    r8 d'16 cis d e fis g a h \once \tieDashed c8~
+    c h16 a h8 d, g,4
+    r r8 g' c c, %25
+    h4 r8 d g g,
+    f4 r8 a' d d,
+    c4 r8 e a a,
+    gis4 r r
+    R2.*3 %32
+    r8 e e e f e
+    r c c c d c
+    r a' gis4. a8 \noBreak %35
+    a2 r4\fermata \bar "||"
+    \key f \major \time 3/2 \tempoB-LXXIOsanna \newSpacingSection
+      R1.*5 %41
+    r2 r c\fE
+    a1 d2
+    b2. a4 b2
+    g1 c2~ %45
+    c a r
+    f b2. a4
+    g2. f4 e!2
+    f1 e2
+    f r f %50
+    b2. a4 g2
+    c2. b4 a2
+    f'2. e4 d2
+    c1 h2
+    c1 r2 %55
+    R1.*3
+    c1 a2~
+    a d b~ %60
+    b4 a b2 g
+    a1 f'2~
+    f d g~
+    g e1
+    f2 f e %65
+    f f, f
+    f1.
+    f\fermata \bar "|." %68 finis
+  }
+}

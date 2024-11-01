@@ -818,3 +818,131 @@ B-LXXIEtVitamBassoLyrics = \lyricmode {
   a -- men, a -- %315
   men. %316 finis
 }
+
+B-LXXISanctusBasso = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \autoBeamOff \tempoB-LXXISanctus
+    R1
+    r2 r4 \mvTr f~\fE^\tutti
+    f e d2~
+    d4 d e2~
+    e a, %5
+    fis'4. fis16 fis g4 g
+    e4. e8 f4 f
+    g c, g4. g8
+    c2 r
+    R1 \noBreak %10
+    R\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoB-LXXIPleni \newSpacingSection
+      R2.*5 %16
+    \mvTr c4\pE^\solo e g
+    c2.
+    c2 r4
+    r8 a g([ f)] e([ d)] %20
+    e4 c8 c16[ d] e[ f g e]
+    f4. f8 f4
+    r r8 d16[ e] fis[ g a \hA fis]
+    g4. g8 g4
+    r g~ g16[ a g a] %25
+    h[ a g a] h[ c h c] d8 c16 h
+    a8 a r a~ a16[ h a h]
+    c[ h a h] c[ d c d] e8 d16 c
+    h8 e, gis4~ \sbOn \tuplet 3/2 8 { gis16[ a \hA gis } fis \hA gis] \sbOff
+    a[ gis a h] \sbOn \tuplet 3/2 8 { a[ h a } g a] \tuplet 3/2 8 { h[ c h } a h] \sbOff %30
+    c4. h8 a4~
+    a gis2\trill
+    a2.~
+    a2 r4
+    R2. \noBreak %35
+    R\fermata \bar "||"
+    \key f \major \time 3/2 \tempoB-LXXIOsanna \newSpacingSection
+      R1.*4 %40
+    \mvTr f1\fE^\tuttiE e2~
+    e a f~
+    f4 e f2 d~
+    d g2.( f4)
+    es( d c2.) b4 %45
+    c2 f2.( es4)
+    d2.( c4) b2~
+    b c2. b4
+    a( b c1)
+    f, r2 %50
+    r r c'~
+    c f2.( e4
+    d2.) c4 h2
+    c g'1
+    c, r2 %55
+    f1 d2~
+    d g es~
+    es4 d es2 c~
+    c f2. es4
+    d2 b r %60
+    R1.
+    f'1 d2~
+    d g1
+    c,1.
+    f2 c1 %65
+    f, f'2
+    f b,1
+    f'1.\fermata \bar "|." %68 finis
+  }
+}
+
+B-LXXISanctusBassoLyrics = \lyricmode {
+  San -- %2
+  ctus, san --
+  ctus, san --
+  ctus %5
+  Do -- mi -- nus De -- us,
+  san -- ctus De -- us,
+  De -- us Sa -- ba --
+  oth.
+
+  Ple -- ni sunt %17
+  coe --
+  li,
+  coe -- li __ et __ %20
+  ter -- ra glo -- _
+  _ ri -- a,
+  glo -- _
+  _ ri -- a,
+  glo -- %25
+  _ _ _ ri -- a
+  tu -- a, glo --
+  _ _ _ ri -- a
+  tu -- a, glo --
+  _ _ _ %30
+  _ ri -- a __
+  tu --
+  a. __
+
+  O -- san -- %41
+  na in __
+  ex -- cel -- sis, __
+  o --
+  san -- na %45
+  in ex --
+  cel -- sis, __
+  in ex --
+  cel --
+  sis, %50
+  o --
+  san --
+  na in
+  ex -- cel --
+  sis, %55
+  o -- san --
+  na in __
+  ex -- cel -- sis, __
+  in ex --
+  cel -- sis, %60
+
+  o -- san --
+  na
+  in
+  ex -- cel -- %65
+  sis, in
+  ex -- cel --
+  sis. %68 finis
+}

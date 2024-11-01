@@ -939,19 +939,94 @@ B-LXXIEtVitamSopranoLyrics = \lyricmode {
   men. %316 finis
 }
 
+B-LXXISanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoB-LXXISanctus
+    R1*2
+    r2 r4 \mvTr d'~\fE^\tutti
+    d c h c
+    h2 a4 c~ %5
+    c c h b~
+    b8 b b4 a a
+    h( c2) \hA h4
+    c2 r
+    R1 \noBreak %10
+    R\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoB-LXXIPleni \newSpacingSection
+      R2.*24 \noBreak %35
+    R2.\fermata \bar "||"
+    \key f \major \time 3/2 \tempoB-LXXIOsanna \newSpacingSection
+      R1.*5 %41
+    r2 r \mvTr c\fE^\tutti
+    a1 d2
+    b2. a4 b2
+    g1 c2~ %45
+    c a r
+    f b2. a4
+    g2. f4 e!2
+    f1 e2
+    f r f %50
+    b2.( a4) g2
+    c2. b4 a2
+    f'2. e4 d2
+    c1 h2
+    c1 r2 %55
+    R1.*3
+    c1 a2~
+    a d b~ %60
+    b4 a b2( g)
+    a1 f'2~
+    f d g~
+    g e1
+    f2 f( e) %65
+    f f, f
+    f1.
+    f\fermata \bar "|." %68 finis
+  }
+}
+
+B-LXXISanctusSopranoLyrics = \lyricmode {
+  San -- %3
+  ctus, san -- ctus,
+  san -- ctus Do -- %5
+  mi -- nus, Do --
+  mi -- nus De -- us
+  Sa -- ba --
+  oth.
+
+  O -- %42
+  san -- na
+  in ex -- cel --
+  _ _ %45
+  sis,
+  o -- san -- na
+  in ex -- cel --
+  _ _
+  sis, o -- %50
+  san -- na
+  in ex -- cel --
+  _ _ _
+  _ _
+  sis, %55
+
+  o -- san -- %59
+  na in __ %60
+  ex -- cel --
+  sis, o --
+  san -- na __
+  in
+  ex -- cel -- %65
+  sis, in ex --
+  cel --
+  sis. %68 finis
+}
 
 
 
-
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
-
-
-% ## Benedictus
 
 % Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
+
 
 
 % ## Agnus Dei

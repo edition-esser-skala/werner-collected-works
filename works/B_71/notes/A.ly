@@ -928,3 +928,130 @@ B-LXXIEtVitamAltoLyrics = \lyricmode {
   men, a -- %315
   men. %316 finis
 }
+
+B-LXXISanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoB-LXXISanctus
+    \mvTr f2.\fE^\tutti e4
+    d2 c
+    d4 e fis( g
+    fis8[ g]) a4 gis a~
+    a8[ gis16 fis] \hA gis4 a a~ %5
+    a8 a a4 g8 g g4~
+    g8 g g4 f2~
+    f4 e8([ f)] g4. g8
+    g2 r
+    R1 \noBreak %10
+    R\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoB-LXXIPleni \newSpacingSection
+      \mvTr a,4\pE^\solo c e \noBreak
+    a2.
+    a2 r4
+    r8 f e([ d)] c([ h)] %15
+    c4 a r
+    R2.*3
+    r4 r g'~ %20
+    g16[ f e d] e8. d16 c4
+    r r a'~
+    a16[ g fis e] \hA fis8. e16 d4
+    r d~ \tuplet 3/2 8 { \sbOn d16[ e d } c d] \sbOff
+    e[ d c d] e[ f e f] g8 f16 e %25
+    d8 d r d~ d16[ e d e]
+    f[ e d e] f[ g f g] a8 g16 f
+    e8 e r4 r
+    r8 h4 h16 h \tuplet 3/2 8 { \sbOn h[ c h } a h] \sbOff
+    c[ h c d] \tuplet 3/2 8 { \sbOn c16[ d c } h c] \tuplet 3/2 8 { d[ e d } c d] \sbOff %30
+    e8 d c2~
+    c4 h2
+    a r4
+    R2.*2 \noBreak %35
+    R2.\fermata \bar "||"
+    \key f \major \time 3/2 \tempoB-LXXIOsanna \newSpacingSection
+      R1.*7 %43
+    \mvTr f'2\fE^\tutti d g~
+    g es2. d4 %45
+    es2( c1)
+    d2 f4( es) d c
+    b a g1
+    f2 r r
+    c' f2.( e4) %50
+    d2 g2. f4
+    e2 a2. g4
+    f1.
+    e2 d g~
+    g e1 %55
+    a2 f2. e4
+    f2 d g~
+    g4 f g2 es~
+    es c1
+    f2.( e4) d( e) %60
+    f1( e2)
+    f a1
+    f2 b1
+    g1.
+    a2 g1 %65
+    a2 r c,
+    c d1
+    c1.\fermata \bar "|." %68 finis
+  }
+}
+
+B-LXXISanctusAltoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus, san --
+  ctus, san -- _
+  _ ctus Do -- %5
+  mi -- nus De -- us, Do --
+  mi -- nus De --
+  us __ Sa -- ba --
+  oth.
+
+  Ple -- ni sunt %12
+  coe --
+  li,
+  coe -- li __ et __ %15
+  ter -- ra
+
+  glo -- %20
+  _ ri -- a,
+  glo --
+  _ ri -- a,
+  glo --
+  _ _ _ ri -- a %25
+  tu -- a, glo --
+  _ _ _ ri -- a
+  tu -- a,
+  glo -- ri -- a, glo --
+  _ _ _ %30
+  _ ri -- a __
+  tu --
+  a.
+
+  O -- san -- na __ %44
+  in ex -- %45
+  cel --
+  sis, o -- san -- _
+  _ _ _
+  na,
+  o -- san -- %50
+  na in ex --
+  cel -- _ _
+  _
+  _ sis, o --
+  san -- %55
+  na in ex --
+  cel -- sis, in __
+  ex -- cel -- _
+  sis,
+  in __ ex -- %60
+  cel --
+  sis, o --
+  san -- na
+  in
+  ex -- cel -- %65
+  sis, in
+  ex -- cel --
+  sis. %68 finis
+}

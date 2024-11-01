@@ -913,3 +913,99 @@ B-LXXIEtVitamTenoreLyrics = \lyricmode {
   a -- men, a -- %315
   men. %316 finis
 }
+
+B-LXXISanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \major \time 4/4 \autoBeamOff \tempoB-LXXISanctus
+    R1
+    r4 \mvTr b2\fE^\tutti a4
+    g( c2 b4)
+    a2 r4 e'~
+    e d c2 %5
+    d8. d16 d4 d d
+    c8. c16 c4 c d~
+    d c d4. d8
+    e2 r
+    R1 \noBreak %10
+    R\fermata \bar "||"
+    \key a \minor \time 3/4 \tempoB-LXXIPleni \newSpacingSection
+      R2.*24 \noBreak %35
+    R2.\fermata \bar "||"
+    \key f \major \time 3/2 \tempoB-LXXIOsanna \newSpacingSection
+      \mvTr c1\fE^\tutti a2~ \noBreak
+    a d b~
+    b4 a b2 g~
+    g c a~ %40
+    a4 b c g c2~
+    c4 h c2 a
+    c1 f4( e)
+    d2. c4 b2~
+    b c1 %45
+    g2 a1
+    R1.*2
+    r2 g c~
+    c4 b a2 d4( c) %50
+    b( a) g2 c~
+    c4 b a2 f'~
+    f4 e d1
+    g, r2
+    c1 a2~ %55
+    a d b~
+    b4 a b2 g
+    c2. b4 c2(
+    g) a1
+    R1. %60
+    r2 r c~
+    c a d~
+    d b2. b4
+    c2 c c
+    c c1 %65
+    c2 a1
+    a2 b1
+    a1.\fermata \bar "|." %68 finis
+  }
+}
+
+B-LXXISanctusTenoreLyrics = \lyricmode {
+  San -- ctus, %2
+  san --
+  ctus, san --
+  _ ctus %5
+  Do -- mi -- nus De -- us,
+  Do -- mi -- nus De -- _
+  us Sa -- ba --
+  oth.
+
+  O -- san -- %37
+  na in __
+  ex -- cel -- _
+  sis, o -- %40
+  _ san -- _ _
+  _ _ na
+  in ex --
+  cel -- _ _
+  _ %45
+  _ sis,
+
+  o -- san -- %49
+  _ na, o -- %50
+  san -- na in __
+  ex -- cel -- _
+  _ _
+  sis,
+  o -- san -- %55
+  na in __
+  ex -- cel -- sis,
+  in ex -- cel --
+  sis,
+  %60
+  o --
+  san -- na __
+  in ex --
+  cel -- sis, in
+  ex -- cel -- %65
+  sis, in
+  ex -- cel --
+  sis. %68 finis
+}
