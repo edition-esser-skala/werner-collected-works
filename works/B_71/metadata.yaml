@@ -21,5 +21,25 @@ sources:
     date: 1741
     license: public domain
 toe: |
-  1 & 18 & org & 2nd \halfNote\ in \B1 and \B3: f2 \\
-    & 36 & org & bar in \B1 and \B3: g2–f2.–e4 \\
+  1 & 18  & org   & 2nd \halfNote\ in \B1 and \B3: f2 \\
+    & 36  & org   & bar in \B1 and \B3: g2–f2.–e4 \\
+  2 & 22  & vl 1  & 3rd \halfNote\ in \B2: \halfNoteRest \\
+    & 40  & B     & bar in all sources: f2.–f4–e2 \\
+    & 40  & org   & bar in \B2: f2.–f4–e2 \\
+    & 50–81 & vl  & In \B2, vl 1/2 play solo parts of trb 1/2 (transposed one octave up). \\
+    & 74  & trb 1 & 2nd \quarterNote in \B1 and \B3: f′8–g′16–e′16 \\
+    & 91  & S     & last \eighthNote\ in \B1 and \B3: d″8 \\
+    & 116 & S     & 1st \halfNote\ in \B2: a′4–c″4 \\
+    & 141–211 & – & In \B2, the rhythm 16–16–8 is frequently (and inconsistently) replaced by 8–16–16. \\
+    & 151 & org   & 3rd \eighthNote\ in \B1: \flat b8 \\
+    & 179–184 & – & in \B2 replaced by a single bar \\
+  3 & 30  & vl 1  & 3rd \quarterNote\ in \B1 and \B3: g″8.–\sharp f″32–e″32 \\
+    & 42  & S     & 2nd \quarterNote\ in all sources: a′4 \\
+    & 76  & trb 1 & 3rd \quarterNote\ in \B1 and \B3: f′4 \\
+    & 103–119 & – & The scoring of this section is unclear. \B1 and \B3 start with S and A solo and switch to S and A coro in bar 107, as shown here. The trb play colla parte with A and T. By contrast, \B2 calls for a solo ensemble throughout. \\
+    & 238 & org   & 2nd \quarterNote\ in \B2: F4 \\
+    & 247 & B     & last \eighthNote\ in \B1: a8 \\
+    & 248 & trb 1, A & bar in \B1 and \B3: f′2–e′4 \\
+    & 249 & vl 1  & last \eighthNote\ in \B1: a′8 \\
+    & 265 & vl 2  & 2nd \eighthNote\ in \B1: b′16–c″16 \\
+    & 304 & org   & 7th \eighthNote\ of lower voice in \B1 and \B3: e′8 \\

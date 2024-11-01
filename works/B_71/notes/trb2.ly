@@ -27,3 +27,378 @@ B-LXXIKyrieTromboneII = {
     R\fermata \markKyrieUtSupra \bar "||" %41 finis
   }
 }
+
+B-LXXIGloriaTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key f \major \time 4/4 \tempoB-LXXIGloria
+    \mvTr c4\fE-\tutti r r c
+    f, b e,8 a4 cis8
+    d d16 c b8 a g4. a16 b \noBreak
+    c8 b a g16 f g4 c
+    \time 3/2 \tempoB-LXXILaudamus c2 r r \noBreak %5
+    R1.*30 %35
+    c2.\fE c4 c2
+    c2. c4 c2
+    a1 d2
+    cis a r
+    R1. %40
+    r4 d2 d4 d, c'!
+    b2. b4 a2
+    g g r
+    r4 c2 c4 c, b'
+    a2. a4 g2 %45
+    f2. f4 b2~
+    b g1
+    a r2 \noBreak
+    R1.\fermata \bar "||"
+    \key d \minor \time 4/4 \tempoB-LXXIDomine \newSpacingSection
+      R1*4 %53
+    r2 e'4.-\solo c16 h
+    a gis a8 r c h d c16 d h8 %55
+    c \once \tieDashed cis~ cis16 d f d h a \hA h8~ h16 c e c
+    a gis a8~ a16 h d \hA h gis8 f'16( e) e( d) d( c)
+    c8 cis d e a, es'16( d) d( c?) c( b)
+    b( a) a( g) g8 b \once \tieDashed a4~ a16( g) g( f)
+    f8. g16 e8. d16 d4 r %60
+    R1
+    r8 a' c! f r2
+    R1*2
+    r2 r8 c16( h) h( a) a( gis) %65
+    a4 r r2
+    R1*3
+    r2 r8 b!16(\fE a) a( g!) g( f) %70
+    f8 fis g a d, a'16( g) g( f) f( e)
+    e8 e f g c, f4 e8
+    f4 r r2
+    R1*5 %78
+    r8 es'16(\fE d) d( c) c( b) b( a) a( g) g8 b
+    \once \tieDashed a4~ a16( g) g( f) f8. g16 e8. d16 %80
+    d4 r r2\fermata \bar "||"
+    \key f \major \tempoB-LXXIQuiTollis
+      r2 r4 \mvTr d'\fE-\tuttiE \noBreak
+    es2 d
+    c f,4 a8 c
+    es4 es d4. d8 %85
+    c4 c c2
+    c4 r8 f, b4 b8 d
+    g,4 g r8 g a c
+    f,4 f f'8. f16 f4
+    e d cis d %90
+    c b a2~
+    a d,4 r8 c'
+    d4 d8 c d c16 c d4
+    c r8 a b8. b16 b8 a
+    b8. b16 b4 b8 a16 a g4 %95
+    a8 a4 g8 a b g a
+    b4. c8 b g es' d16 c
+    b8 c d4 g, a8 b \noBreak
+    c2 c\fermata \bar "||"
+    \time 3/2 \tempoB-LXXIQuoniam \newSpacingSection
+      R1.*40 \noBreak %139
+    R1.\fermata \bar "||" %140
+    \time 4/4 \tempoB-LXXICumSancto \newSpacingSection
+      c2\fE d8 c d4 \noBreak
+    b4. b8 c b c4
+    a4. a8 b a b4~
+    b a g2
+    f r8 f a b %145
+    c16 d e8 f g a f, g a
+    h16 c d8 e f g e, f g
+    a16 h c8 d c h4 c~
+    c h r8 e16 d c8 h
+    a4 r r8 d16 c b8 a %150
+    g4 r r8 c16 b a8 g
+    f4 r c'2
+    h4 c8 g a4 f
+    e r r8 f'16 e d8 c
+    b!4 r r8 e16 d c8 b %155
+    a4 f g a
+    f g a8 c16 b a8 g
+    f4 r r8 b16 a g8 f
+    e4 r r8 a16 g f8 e
+    d2 c %160
+    r4 g' a8 g a4
+    f4. f8 g f g4
+    e4. e8 f4 a
+    b8 a b4 g4. g8
+    a g a4 f4. f8 %165
+    g f g4 f2
+    g4 c f,8 d es f
+    g16 a b a g8 f es8 es f g
+    a16 b c b a8 g f f g a
+    b16 c d c b8 a g4 f~ %170
+    f e f2
+    R1
+    r2 b
+    c8 b c4 a4. a8
+    b a b4 g4. g8 %175
+    a4 h c4. c8
+    b a b4 es2
+    d4 c b2
+    a r
+    R1*4 %183
+    c2 d8 c d4
+    b4. b8 c b c4 %185
+    a4. a8 b a b4
+    g g2 c4
+    f, b8 a g2
+    a g
+    g2. a8 b %190
+    c2 c4 c
+    d8 c d4 b4. b8
+    c b c4 a4. a8
+    b2 r8 g'16 f e8 d
+    c4 r r8 f16 e d8 c %195
+    b4 r r8 e16 d c8 b
+    a f g a b d16 c b8 a
+    g g a b c e!16 d c8 b
+    a a b c d f16 e d8 c
+    h4 c2 h4 %200
+    c8 e16 d c8 b a4 r
+    r8 d16 c b8 a g4 r
+    r8 c16 b a8 g f4 r
+    g a f g
+    g8 e f g a16 b c8 b a %205
+    g16 f e8 d c c'2~
+    c8 b a g f a g f
+    g2. c4
+    c8 a b c d4 a
+    b c d2 %210
+    c1\fermata \bar "|." %211 finis
+  }
+}
+
+B-LXXICredoTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key d \minor \time 3/4 \tempoB-LXXICredo
+    R2.*62
+    r4 a8.\fE a16 a4
+    a a2
+    a4 r f' %65
+    r d e
+    r c d
+    r b c
+    c2 c4
+    c f,8 g a4 %70
+    b g a
+    b d4. c8
+    b4 c b8 as
+    g4 g \once \tieDashed f~
+    f g4. a!16 b %75
+    c4 b8 a \once \tieDashed g4~
+    g c4. c8
+    d4 r r
+    R2.*3 %81
+    R2.\fermata \bar "||" %82 finis
+  }
+}
+
+B-LXXICrucifixusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key d \minor \time 3/2 \tempoB-LXXICrucifixus
+      \set Score.currentBarNumber = #103
+    R1.*3 %105
+    r2 d\pE f!
+    f4 e e2 r
+    c2. c4 c c
+    c d, d2 r
+    d'2. d4 d d %110
+    d e, e2 r
+    e'2. e4 e e
+    dis1.
+    d2 d1
+    cis1. %115
+    c
+    h1 r2
+    R1. \noBreak
+    R\fermata \bar "||"
+    \key a \minor \time 2/2 \tempoB-LXXISubPontio \newSpacingSection
+      a1\fE \noBreak %120
+    c2. d4
+    e2 e,4 fis
+    g! a h cis
+    d2 d,4 e
+    f! g a h %125
+    c2. h4
+    a c h a
+    gis2 a~
+    a g4 fis
+    e1 %130
+    r2 h'~
+    h a
+    r a~
+    a g
+    r g~ %135
+    g4 h a g
+    fis2 h~
+    h a
+    fis fis'
+    h,1 %140
+    r2 e
+    a,1
+    r2 d
+    g, a~
+    a g %145
+    a a
+    h4 g h c
+    d2. c8 h
+    a4 g a2~
+    a4 h c h8 a %150
+    g4 f! g2~
+    g4 a h a8 g
+    fis1
+    R1*3 %156
+    r2 a~
+    a gis
+    c2. h4
+    a1 %160
+    e
+    R1*3
+    e'1 %165
+    c2. h4
+    a2 h4 c
+    d2 a
+    gis a~
+    a g %170
+    a1
+    g
+    f
+    R
+    r2 e'~ %175
+    e dis
+    g!1
+    fis
+    r2 e
+    a,2. h4 %180
+    c d e2~
+    e e,
+    fis h
+    e,1
+    r2 a~ %185
+    a gis
+    c h
+    r h~
+    h a
+    r a~ %190
+    a gis
+    a h
+    gis h
+    c1
+    h~ %195
+    h2 h
+    a cis~\pE
+    cis cis
+    d1
+    h %200
+    cis\breve*1/2\fermata \bar "||" %201 finis
+  }
+}
+
+B-LXXIEtResurrexitTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key f \major \time 3/4 \tempoB-LXXIEtResurrexit
+      \set Score.currentBarNumber = #202
+    R2.*8 %209
+    c4\fE e c %210
+    a2 a4
+    R2.
+    c4. c8 f4
+    e2 e4
+    r r d %215
+    d h e
+    c4. d8 e4
+    d c h
+    c g g
+    a a a %220
+    a b! a
+    b2 b4
+    a a a
+    b4. b8 c4~
+    c a2 %225
+    g4 r g
+    a4. a8 a4
+    c a4. a8
+    g2 g4
+    a4. a8 b4 %230
+    c b4. b8
+    a2 r4
+    r b d
+    g, c e
+    a, d f %235
+    c8 d e f g4 \noBreak
+    f f r
+    \time 4/4 \tempoB-LXXIEtMortuos c2\pE c4. c8 \noBreak
+    h1\fermata
+    \time 3/4 \tempoB-LXXICuiusRegni r4 d\fE h \noBreak %240
+    c c r
+    r d d
+    c c8 c c4
+    c r8 d a4
+    h r8 e h4 %245
+    c r f
+    d d2
+    e4 d2
+    R2.\fermata \bar "||" %249 finis
+  }
+}
+
+B-LXXIEtVitamTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key d \minor \time 4/4 \tempoB-LXXIEtVitam
+      \set Score.currentBarNumber = #267
+    R1*2
+    r2 e\fE
+    h d4 d %270
+    a a c4. c8
+    g4 r8 c4 h16 a g8 a
+    b f b4. a16 g f8 g
+    a c4 b16 a g4 a8 b
+    c d c b16 a g2 %275
+    a1
+    R
+    r4 d a2
+    c4 c g g
+    b4. b8 f4 f8 g %280
+    a h c \hA h16 a g4 e
+    R1
+    a2 e
+    g4 g d d
+    f4. f8 c2 %285
+    g' d
+    a' e
+    e' c4 a
+    r e'4. d16 c h8 cis
+    d a d4. c16 h a8 h %290
+    c g c2 h4
+    d4. c16 h a4 r
+    r2 r4 d~
+    d8 c16 h a4. h8 c h16 a
+    g4 g8 a h a16 g f8 g %295
+    a g16 f e e' d c b8 a16 g f4~
+    f8 g a f f4 e
+    f2 r
+    R1
+    r2 d' %300
+    a c4 c
+    g g b4. b8
+    f2 r
+    R1
+    r4 d' a2 %305
+    c4 c h8 c d e
+    f4 f,8 g a2
+    a r
+    r4 d2 c4~
+    c b a4. h8 %310
+    c g c2 d8 c
+    b! g g' f e d cis h
+    a1
+    a2 a
+    b4 d d2 %315
+    d1\fermata \bar "|." %316 finis
+  }
+}

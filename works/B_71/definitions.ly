@@ -6,8 +6,25 @@ markKyrieUtSupra = {
 }
 
 tempoB-LXXIKyrie = \tempoMarkup "Allegro"
-tempoB-LXXIChriste = \tempoMarkup "[no tempo]"
-tempoB-LXXIChristeB = \tempoMarkup "Adagio"
+  tempoB-LXXIChriste = \tempoMarkup "[Tempo deest]"
+  tempoB-LXXIChristeB = \tempoMarkup "Adagio"
+
+tempoB-LXXIGloria = \tempoMarkup "Grave"
+  tempoB-LXXILaudamus = \tempoMarkup "[Tempo deest]"
+  tempoB-LXXIDomine = \tempoMarkup "Andante"
+  tempoB-LXXIQuiTollis = \tempoMarkup "Adagio"
+  tempoB-LXXIQuoniam = \tempoMarkup "Andante"
+  tempoB-LXXICumSancto = \tempoMarkup "Presto"
+
+tempoB-LXXICredo = \tempoMarkup "[Tempo deest]"
+tempoB-LXXIQuiPropter = \tempoMarkup "Adagio"
+tempoB-LXXICrucifixus = \tempoMarkup "Adagio"
+  tempoB-LXXISubPontio = \tempoMarkup "Allabreve"
+tempoB-LXXIEtResurrexit = \tempoMarkup "Allegro"
+  tempoB-LXXIEtMortuos = \tempoMarkup "Adagio"
+  tempoB-LXXICuiusRegni = \tempoMarkup "Allegro"
+tempoB-LXXIEtInSpiritum = \tempoMarkup "Andante"
+tempoB-LXXIEtVitam = \tempoMarkup "Presto"
 
 \include "notes/trb1.ly"
 \include "notes/trb2.ly"
