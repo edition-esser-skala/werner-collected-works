@@ -473,3 +473,36 @@ B-LXXISanctusTromboneII = {
     a1.\fermata \bar "|." %68 finis
   }
 }
+
+B-LXXIAgnusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key f \major \time 4/4 \tempoB-LXXIAgnus
+    R1*8 %8
+    r2 e4.\fE e8
+    e4 e8 e e cis a4 %10
+    r r8 d d b b c
+    d4 d c2 \noBreak
+    c1\fermata \bar "||"
+    \tempoB-LXXIDona R1*7 %20
+    \after 4*0 ^\critnote R1*3 %23
+    r8 a4\fE b16 g a8 f16 g a8 b16 g
+    a8 f r4 r2 %25
+    r8 c'4 d16 e f8 e d c
+    d16 e f8 c c c16 d e4 c8
+    e c16 d e8 c16 d e8 c d d
+    d1^\critnote
+    d4 r r8 gis,4 e16 fis %30
+    gis8 e16 fis \hA gis8 e16 \hA fis \hA gis8 e r4
+    R1
+    d'8 c b16 c d8 c b a4
+    a8 a16 h cis8 d16 \hA h \hA cis8 a16 \hA h \hA cis8 d16 \hA h
+    cis8 a16 h \hA cis8 d d g, g4 %35
+    g8 a16 b c8 b a g f g16 a
+    b8 c d4 d4. es16 c
+    d8 b16 c d8 es16 c d8 b16 c d8 d
+    c c c4 c8 d4\pE es16 c
+    d8 b16 c d8 es16 c d8 b16 c d8 d %40
+    c c c4 c r\fermata \bar "|." %41 finis
+  }
+}

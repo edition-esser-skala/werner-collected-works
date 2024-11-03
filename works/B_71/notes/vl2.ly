@@ -609,3 +609,45 @@ B-LXXISanctusViolinoII = {
     f\fermata \bar "|." %68 finis
   }
 }
+
+B-LXXIAgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoB-LXXIAgnus
+    c4.\pE b8 a4 a'
+    g2 c,4 f-\critnote
+    es2 d
+    d1
+    c2 h %5
+    a a'~
+    a a~
+    a4 g fis2
+    e r8 c'4\fE c8
+    g' c, b!8. a16 a4. a8 %10
+    f'4 f8 f d4. a'8
+    b,2. a4 \noBreak
+    g1\fermata \bar "||"
+    \tempoB-LXXIDona R1*7 %20
+    e'8.\pE e16 e8 f16 d e8 c16 d e8 f16 d
+    e4. f16 g f8. e16 d8 e16 f
+    g8 c, d4 g,8 a g4
+    a16\fE b c4 d16 b c8 a16 b c8 d16 b
+    c8 a16 b c8 d16 e f8 e d16 e f8~ %25
+    f e16 d e8 f16 g c,4 d16 e f8
+    b,4. a16 b c2~
+    c c4 r
+    r8 a4 b16 g a8 fis16 g a8 b16 g
+    a8 fis r4 r8 h4 c16 a %30
+    h8 gis16 a \hA h8 c16 a h8 gis e' d
+    c16 d e8 d c h16 c d8 c b
+    a4 b g a8 d~
+    d cis r4 r2
+    r8 a4 a8 h c4 \hA h8 %35
+    c4 r r a8 b16 c
+    d8 c4 b8 a4 b8 c
+    b g16 a b8 c b g16 a b8 b
+    b a g4 a r
+    R1 %40
+    R\fermata \bar "|." %41 finis
+  }
+}

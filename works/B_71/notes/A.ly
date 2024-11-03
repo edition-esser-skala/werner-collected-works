@@ -1106,3 +1106,78 @@ B-LXXIBenedictusAltoLyrics = \lyricmode {
   ne Do -- mi --
   ni. %22 finis
 }
+
+B-LXXIAgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoB-LXXIAgnus
+    R1*4
+    r2 \mvTr e4.\pE^\solo e8 %5
+    c'4 a8 a a e16 f g!8 g
+    g16([ f)] f8 f a dis,4. dis8
+    dis4( e2 dis4)
+    e2 \mvDl g4.\fE^\tutti g8
+    g4 g8 g e4 e %10
+    r r8 a f4 f8 f
+    g2 g4 f~ \noBreak
+    f e8[ d] e2\fermata \bar "||"
+    \tempoB-LXXIDona R1*5 %18
+    \mvTr f4.\pE^\solo g16([ e)] f8 d16([ e)] f8 g16([ e)]
+    f8 d16([ e)] f4. e8 d4 %20
+    e r r2
+    R1*2
+    r4 \mvTr f4.\fE^\tutti f8 f4
+    f r f8 g16([ a)] b8 a %25
+    g4. g8 a g f f
+    g4.( f8) e g4 a16([ f)]
+    g8 e16([ f)] g8 a16([ f)] g8 e r4
+    r8 fis4 d16([ e)] \hA fis8 d16([ e)] \hA fis8 g16([ e)]
+    fis8 d e e e2~ %30
+    e e4 r
+    a8 g! f!16([ g)] a8 g f e4
+    f d e8 d8.([ e16)] f8
+    e4. f16([ d)] e8 cis16([ d)] e8 f16([ d)]
+    e8 cis16([ d)] e8 f f e d4 %35
+    e r c8 d16([ e)] f8 e
+    d e16([ fis)] g4. fis8 g g
+    g2 g
+    g8( f!4 e8) f4 r
+    g4.\p g8 g4 g %40
+    g8( f4 e8) f4 r\fermata \bar "|." %41 finis
+  }
+}
+
+B-LXXIAgnusAltoLyrics = \lyricmode {
+  A -- gnus %5
+  De -- i, qui tol -- lis pec -- ca -- ta
+  mun -- di: Mi -- se -- re -- re
+  no --
+  bis. A -- gnus
+  De -- i, qui tol -- lis, %10
+  qui tol -- lis pec --
+  ca -- ta mun --
+  _ di:
+
+  Do -- na no -- bis pa -- cem, %19
+  pa -- cem, no -- bis pa -- %20
+  cem.
+
+  Do -- na no -- %24
+  bis, do -- na no -- bis %25
+  pa -- cem, do -- na no -- bis
+  pa -- cem, do -- na,
+  do -- na no -- bis pa -- cem,
+  do -- na no -- bis pa -- cem,
+  pa -- cem, no -- bis pa -- %30
+  cem,
+  do -- na no -- bis pa -- cem, no --
+  bis pa -- cem, no -- bis
+  do -- na no -- bis pa -- cem,
+  pa -- cem, do -- na no -- bis pa -- %35
+  cem, do -- na no -- bis
+  pa -- cem, pa -- cem, do -- na
+  pa -- cem,
+  pa -- cem,
+  do -- na no -- bis %40
+  pa -- cem. %41 finis
+}

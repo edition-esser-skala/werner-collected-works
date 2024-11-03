@@ -946,3 +946,85 @@ B-LXXISanctusBassoLyrics = \lyricmode {
   ex -- cel --
   sis. %68 finis
 }
+
+B-LXXIAgnusBasso = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \autoBeamOff \tempoB-LXXIAgnus
+    r8 \mvTr f4\pE^\solo g8 a4. b16 c
+    e,4 e8. f16 f4 f
+    r8 c' a f d4 d
+    b'4. d8 gis, gis gis8. a16
+    a4. fis8 \appoggiatura a4 gis2\trill %5
+    a4 r r2
+    R1*2
+    r2 \mvDl c4.\fE^\tutti c8
+    c4 c,8 c cis2 %10
+    d4 r8 d b'4 b8 a
+    g4 g8([ f)] e4( f) \noBreak
+    c1\fermata \bar "||"
+    \tempoB-LXXIDona R1*2 %15
+    r2 \mvTr g'4.\pE^\solo a16([ f)]
+    g8 e16([ f)] g8 a16([ f)] g8 e16([ f)] g8 a16([ b!)]
+    c8 b a g f4( e)\trill
+    d r r2
+    R1*4 %23
+    \mvTr f4.\fE^\tutti f8 f2
+    f4 r r2 %25
+    r f8 g16([ a)] b8 a
+    g f e f c4. f8
+    c'4.( f,8) c4 r
+    r8 d4 g8 d'4.( g,8)
+    d4 r r8 e4 a8 %30
+    e'4.( a,8) e4 r
+    r2 r4 a8 g
+    f16([ g)] a8 g f e16([ f)] g8 f d
+    a'1
+    a4 r8 d,( g,) c! g'4 %35
+    c, c8 d16([ e)] f8 e d c
+    b a g4 d' g8 c,
+    g'4. c,8 g'4. f!8
+    e f c4 f g8\p c,
+    g'4. c,8 g'4. f8 %40
+    e f c4 f, r\fermata \bar "|." %41 finis
+  }
+}
+
+B-LXXIAgnusBassoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta,
+  pec -- ca -- ta mun -- di:
+  Mi -- se -- re -- re, mi -- se --
+  re -- re no -- %5
+  bis.
+
+  A -- gnus %9
+  De -- i qui tol -- %10
+  lis, qui tol -- lis pec --
+  ca -- ta __ mun --
+  di:
+
+  Do -- na %16
+  no -- bis pa -- cem, pa -- cem, do -- na
+  no -- bis pa -- cem, pa --
+  cem.
+
+  Do -- na no -- %24
+  bis, %25
+  do -- na no -- bis
+  pa -- cem, do -- na no -- bis
+  pa -- cem,
+  no -- bis pa --
+  cem, no -- bis %30
+  pa -- cem,
+  do -- na
+  no -- bis pa -- cem, do -- na no -- bis
+  pa --
+  cem, no -- bis pa -- %35
+  cem, do -- na no -- bis pa -- cem,
+  no -- bis pa -- cem, do -- na
+  no -- bis pa -- cem,
+  no -- bis pa -- cem, do -- na
+  no -- bis pa -- cem, %40
+  no -- bis pa -- cem. %41 finis
+}

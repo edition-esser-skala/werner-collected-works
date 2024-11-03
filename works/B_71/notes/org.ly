@@ -1537,3 +1537,99 @@ B-LXXIBenedictusBassFigures = \figuremode {
   r4 \bo <[5!] 4> \bc <[\t] _+>
   r2. %22 finis
 }
+
+B-LXXIAgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoB-LXXIAgnus
+    \mvTr f,1~\pE_\solo
+    f~
+    f2 fis
+    << { g'4. f!8 } \\ { g,2 } >> e'
+    dis e %5
+    a, cis
+    d c
+    h4 ais h2
+    e4. d!8 \mvTr c2\fE-\tuttiE
+    c cis %10
+    d4 r8 d b'4 b8 a
+    g4. f8 e4 f \noBreak
+    c1\fermata \bar "||"
+    \tempoB-LXXIDona \mvTr f,8\pE-\solo f'16 g a8 b a f r b \noBreak
+    a f r b a g f e %15
+    d f g g, c, c'16 d e8 f
+    e c r f e c r b'!
+    a g f e d b g a
+    d d' d d, r d' d d,
+    r d' d c h c g4 %20
+    c,8 c' c f, r c' c f,
+    \clef "treble_8" c'4. b!8 a d g, f
+    e f b d c f, c4
+    \clef bass \mvTr f,8\fE-\tutti f' f b, r f' f b,
+    f4 \clef treble << { c'''8 d16 e f8 e d16 e f8 } \\ { r4 f,8 g16 a b8 a } >> %25
+    \clef "treble_8" c,4. d16 e \clef bass f,8 g16 a b8 a
+    g f e f c c' c f,
+    r c' c f, c4 \clef "treble_8" d'8-! d-!
+    d-! \clef bass d,[ d g] r d d g,
+    d'4 \clef treble e'8-! e-! e-! \clef bass e,[ e a,] %30
+    r e' e a, e4 \clef treble << {
+      e'''8 d
+      c16 d e8 d c h16 c d8
+    } \\ {
+      r4 a8 g! f!16 g a8 g[ f]
+    } >> \clef bass a,8 g
+    f16 g a8 g f e16 f g8 f d
+    a'1~-\tasto
+    a4. d,8 g, c! g4 %35
+    << { g'8^\critnote a16 b! c8 b } \\ { c,4 c8 d16 e } >> f8 e d c
+    b a g4 d' g8 c,
+    g'4. c,8 g'4. f!8
+    e! f c4 f, r
+    R1 %40
+    R\fermata \bar "|." %41 finis
+  }
+}
+
+B-LXXIAgnusBassFigures = \figuremode {
+  r1
+  <7 4 2>2 <8 5 3>
+  <7-> <6>
+  r <7 [5!] _+>
+  <7 5 [_+]> \bo <[5!] 4>4 \bc <[\t] _+> %5
+  r2 <6>4 <5[!]>
+  <[_!]>2 <4\+ 2\+>
+  <7 [5\+] _+>4 <7 5 [_+]> \bo <[5\+] 4>4 \bc <[\t] _+>
+  r4. <6!>8 r2
+  <8>4 <7-> <6>2 %10
+  r <5>4. <[6 _!]>8
+  r2 <6 5>
+  <5 4>4 \bassFigureExtendersOn <5 3>8 <5 2> <5 3>2 \bassFigureExtendersOff
+  r2 <[6]>
+  \bc q <6>8 q q q %15
+  <7>4 <4>8 <_!> r2
+  \bo <[6]> <6>4. \bc <[2]>8
+  <6> q4 <6\\>4. <6 5>8 <_+>
+  r4. <6 4>4 <[5] 3> <6 4>8
+  r2 <6 5>4 <4>8 <_!> %20
+  r1
+  r4. <6>8 q2
+  <6 5>4 <6>2 <4>8 <3>
+  r1
+  r %25
+  <4>4 <3> r4. <[6]>8
+  r4 <6 5>2.
+  r1
+  r8 <_+>4 <_-> <_+>4.
+  q2 r8 \bo <[5!] _+>4. %30
+  r8 \bc q4. <[5! _+]>2
+  r2.. <[6 _-]>8
+  <6>2 q4 q
+  \bo <[4]>8 \bc <[_+]>2..
+  <_+>2 <7 _!>4 <4>8 <_!> %35
+  r2 <5 3>
+  r8 <6\\> <4> <_-> <4> <_+>4 <_->8
+  r4. q2 <6>8
+  <6 5>4 <4>8 <3> r2
+  r1 %40
+  r %41 finis
+}

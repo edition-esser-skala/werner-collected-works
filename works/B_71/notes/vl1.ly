@@ -612,3 +612,45 @@ B-LXXISanctusViolinoI = {
     f\fermata \bar "|." %68 finis
   }
 }
+
+B-LXXIAgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoB-LXXIAgnus
+    a'4.\pE b8 c2
+    b a
+    a1
+    g4. a8 h4 gis
+    fis2 e %5
+    e1
+    f!2 fis~
+    fis4 cis' h2
+    h g'4.\fE g8
+    g4 g8 g e4 e %10
+    r r8 a f4. f8
+    g2. f4~ \noBreak
+    f e8 d e2\fermata \bar "||"
+    \tempoB-LXXIDona R1*7 %20
+    g8.\pE g16 g8 a16 f g8 e16 f g8 a16 f
+    g8 e16 f g8 a16 b! c8 f, b4~
+    b8 a g f e f4 e8
+    f4\fE f4. f8 f4
+    f r f8 g16 a b8 a %25
+    g4. g8 a g f f
+    g4. f8 e g4 a16 f
+    g8 e16 f g8 a16 f g8 e r4
+    r8 fis4 d16 e \hA fis8 d16 e \hA fis8 d16 e
+    fis8 d e e e2~ %30
+    e e4 r
+    a8 g! f!16 g a8 g f e4
+    f d e8 d~ d16 e f8
+    e a, r4 r2
+    r4 e'8 f f e d4 %35
+    e r c8 d16 e f8 e
+    d e16 fis \once \tieDashed g4~ g8 fis g g
+    g2 g
+    g8 f!4 e8 f4 r
+    R1 %40
+    R\fermata \bar "|." %41 finis
+  }
+}

@@ -36,6 +36,9 @@ tempoB-LXXISanctus = \tempoMarkup "Largo"
 
 tempoB-LXXIBenedictus = \tempoMarkup "[Tempo deest]"
 
+tempoB-LXXIAgnus = \tempoMarkup "Adagio"
+  tempoB-LXXIDona = \tempoMarkup "Andante"
+
 \include "notes/trb1.ly"
 \include "notes/trb2.ly"
 \include "notes/vl1.ly"

@@ -467,3 +467,35 @@ B-LXXISanctusTromboneI = {
     c1.\fermata \bar "|." %68 finis
   }
 }
+
+B-LXXIAgnusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key f \major \time 4/4 \tempoB-LXXIAgnus
+    R1*8 %8
+    r2 g'4.\fE g8
+    g4 g8 g e4 e %10
+    r r8 a f4 f8 f
+    g2 g4 f~ \noBreak
+    f e8 d e2\fermata \bar "||"
+    \tempoB-LXXIDona R1*10 %23
+    r4 f4.\fE f8 f4
+    f r f8 g16 a b8 a %25
+    g4. g8 a g f f
+    g4. f8 e g4 a16 f
+    g8 e16 f g8 a16 f g8 e r4
+    r8 fis4 d16 e \hA fis8 d16 e \hA fis8 g16 e
+    fis8 d e e e2~ %30
+    e e4 r
+    a8 g! f!16 g a8 g f e4
+    f d e8 d8.[ e16] f8
+    e4. f16 d e8 cis16 d e8 f16 d
+    e8 cis16 d e8 f f e d4 %35
+    e r c8 d16 e f8 e
+    d e16 fis g4. fis8 g g
+    g2 g
+    g8 f!4 e8 f4 r
+    g4.\pE g8 g4 g %40
+    g8 f4 e8 f4 r\fermata \bar "|." %41 finis
+  }
+}

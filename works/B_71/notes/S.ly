@@ -1076,12 +1076,69 @@ B-LXXIBenedictusSopranoLyrics = \lyricmode {
   ni. %22 finis
 }
 
+B-LXXIAgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoB-LXXIAgnus
+    R1*8 %8
+    r2 \mvDl c'4.\fE^\tutti c8
+    g' c, b!8. a16 a4 a8 a %10
+    f'4 f8 f d4 d8 f
+    b,2. a4 \noBreak
+    g2 g\fermata \bar "||"
+    \tempoB-LXXIDona R1*5 %18
+    \mvTr a4.\pE^\solo b16([ g)] a8 f16([ g)] a8 b16([ g)]
+    a8 f16([ g)] a8. a16 d8 c c([ h)] %20
+    c4 r r2
+    R1*2
+    \mvTr c4.\fE^\tutti d16([ b)] c8 a16([ b)] c8 d16([ b)]
+    c8 a16([ b)] c8 d16([ e)] f8 e d16[ e f8]~ %25
+    f[ e16 d] e8[ f16 g] c,4 d16([ e)] f8
+    b,4. a16([ b)] c2~
+    c c4 r
+    r8 a4 b16([ g)] a8 fis16([ g)] a8 b16([ g)]
+    a8 fis r4 r8 h4 c16([ a)] %30
+    h8 gis16([ a)] \hA h8 c16([ a)] h8 gis e' d
+    c16([ d)] e8 d c h16([ c)] d8 c b
+    a4 b g4 a8 d~
+    d cis a4 a r
+    r8 a4 a8 h c c([ \hA h)] %35
+    c4 r r a8 b16([ c)]
+    d8 c c([ b)] a4 b8 c
+    b g16([ a)] b8 c b g16([ a)] b8 b
+    b a g4 a8^\critnote b4\p c16([ a)]
+    b8 g16([ a)] b8 c16([ a)] b8 g16([ a)] b8 b %40
+    b a g4 a r\fermata \bar "|." %41 finis
+  }
+}
 
+B-LXXIAgnusSopranoLyrics = \lyricmode {
+  A -- gnus %9
+  De -- i, A -- gnus De -- i, qui %10
+  tol -- lis pec -- ca -- ta, pec --
+  ca -- ta
+  mun -- di:
 
+  Do -- na no -- bis pa -- cem, %19
+  pa -- cem, do -- na no -- bis pa -- %20
+  cem.
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+  Do -- na no -- bis pa -- cem, %24
+  pa -- cem, do -- na no -- bis pa -- %25
+  _ cem, do -- na
+  no -- bis, do --
+  na,
+  do -- na no -- bis pa -- cem,
+  pa -- cem, do -- na %30
+  no -- bis pa -- cem, pa -- cem, do -- na
+  no -- bis pa -- cem, do -- na no -- bis
+  pa -- cem, no -- bis pa --
+  cem, pa -- cem,
+  do -- na no -- bis pa -- %35
+  cem, do -- na
+  no -- bis pa -- cem, do -- na,
+  do -- na no -- bis pa -- cem, do -- na
+  no -- bis pa -- cem, do -- na
+  no -- bis pa -- cem, do -- na, do -- na %40
+  no -- bis pa -- cem. %41 finis
+}
