@@ -1,5 +1,127 @@
 \version "2.24.0"
 
+H-I-XVIDixitOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoH-I-XVIDixit
+    \mvTr c8\fE-\tutti c' h h, a4 h
+    c e f d
+    e c d h
+    c8 c' h4 a g
+    f e f g %5
+    c, r c' h
+    a g! f e
+    d h c8 h c4
+    g r8 g c c r c
+    f f r d g c g4 %10
+    c, r r8 \mvTr a\pE-\solo c e
+    a, \clef "treble_8" a'[-\aTre c e] a,4. a8
+    d, d' h c g4 g'8 f
+    e4. d8 cis2
+    d4 r8 d h4 c %15
+    \clef bass g4. f8 e4 h
+    c r8 h c4 a
+    d g e h8 c
+    d c d4 g, fis
+    g g'8 a h4 c %20
+    d8 h fis g e h c a
+    e'4 fis8 d g, g'16 f e8 d
+    c c' h a gis4 fis8 \hA gis
+    a g f c d h e e,
+    a \mvTr a'\fE-\tutti f g! c, c' h c %25
+    a e f c g' g, h g
+    c c' h g c h a g
+    a f g g, c \mvTr c'\pE-\solo h g
+    a g fis d g, g' f e
+    f d cis a d c b f' %30
+    g b a g fis4 g8 f
+    e c h!4 c8 c'16 b a8 e
+    f g a4 g8 g e e16 g
+    c,8 c' a a16 c f,8 d h c
+    g g' f e d d' c h %35
+    a4 g8 f e a d,4
+    c8 h a e' fis g d4
+    g,8 g' fis d g, g' fis d
+    g, g' c, e d d' c h
+    a, a' g fis e e' d c %40
+    h a gis e a c, d e
+    a, c' gis e a c h g
+    e c h g c c' a e
+    f g a4 g8 \mvTr g,\fE-\tutti h g
+    c' g e c g' g, h g %45
+    c h c c, g' g' e g
+    c, c' a e f c g'4
+    \tempoH-I-XVIDixitB << { s4. g8 a h c a h } \\ { c, c^! d^! e f d e fis g[ e] } >>
+    d4 c8 \clef treble << { a'' h c d } \\ { fis, g e fis } >>
+    \clef "treble_8" g, a h c \clef bass c,[ d e] %50
+    f! d e fis g e fis gis
+    a4 gis a8 \clef treble << {  g' fis a g } \\ { e d c h } >>
+    \clef "treble_8" g a h c \clef bass c,[ d e]
+    f d e f g e f g
+    e c g4 c8 c' g g, %55
+    c4 r r2\fermata \bar "|." %56 finis
+  }
+}
+
+H-I-XVIDixitBassFigures = \figuremode {
+  r4 \bo <[6]>2 \bc q4
+  r2. <5>8 <6>
+  <5> <6> <5> <6> <5> <6> <5> <6>
+  r4 <[6]>2 <6 4>4
+  r <[6]>2 <4>8 <3> %5
+  r2. <6>8 <6\\>
+  r2. <6>8 <6\\>
+  r4 \bo <[6]>4. \bc q
+  r1
+  r2. <4>8 <3> %10
+  r2.. <_+>8
+  r4. q8 r2
+  r4 <[6!]> <6 4>8 <5 3>4.
+  <6>4. <6->8 <6>4. <5>8
+  r2 <[6]>4 <9>8 <8> %15
+  r2 \bo <[6]>4 <6>
+  r4. \bc <[6]>8 r2
+  <_+>2. <6>8 q
+  <6 4>4 <5 _+> <5>8 <6> q4
+  r1 %20
+  <_+>8 <6> <[6]>4 <6>8 <[6]>4 <6\\>8
+  r4 \bo <[6 _]>8 <7 _+>4. <6>8 <6 _!>
+  r4 <6\\> \bc <[6 _]> <6>
+  r2 <6 5>4 <_+>
+  r <6 5>2 \bo <[6]>4 %25
+  r8 <6>2..
+  r4 \bc <[6]>2.
+  r8 <6 5> <4> <3>4. <[6]>8 <6>
+  r q q2 <\t>8 <6\\>
+  <6>4 <[6]> r4. <6>8 %30
+  <[_-]>4 <_+> <6>8 <5[!]>4.
+  <[6]>4 <6>8 <5>4. \bo <[6]>8 \bc q
+  r4 <7>8 <6\\>4. <6>4
+  r4 <6>2 <6 5>4
+  r1 %35
+  r2 <[6]>4 <7>8 <6>
+  r8 <[6]>4 <6>8 <6 5>4 <4>8 <_+>
+  r4 \bo <[6]>2 \bc q4
+  r <6>8 <3> <4> <_+>4.
+  r2. <\t>4 %40
+  r8 <6> <6 5>4. <6>8 <6 5> <_+>
+  r4 <[6]>4. <6>8 <6[!]>4
+  \bo <[6]> \bc q2 <6>8 q
+  r4 <7>8 <6\\> r2
+  r4 <[6]>2. %45
+  r8 <6> r2 q4
+  r4. \bc <[6]> <4>8 <3>
+  r1
+  r8 <3 6> <5> <6> <8 3>2
+  r8 <3 8> <7> <5[!]> <4> <3>4. %50
+  r8 <6> q <3> q <6\\> <6> <3>
+  <3[!]> <6> <6 3> <5> <8>2
+  r4 <7>8 <5>4. <6>4
+  r8 q q4. q8 q4
+  <[6]> <4>8 <3>4. <4>8 <3> %55
+  r1 %56 finis
+}
+
 H-I-XVILaudaOrgano = {
   \relative c {
     \clef bass

@@ -1,7 +1,7 @@
-title: Lauda Ierusalem
-subtitle: from Vesperæ de Beata
-id: WerW H.1.16/5
-genre: psalm
+title: Vesperæ de Beata
+subtitle: Dixit Dominus · Laudate pueri · Lætatus sum · Nisi Dominus · Lauda Ierusalem · Magnificat
+id: WerW H.1.16
+genre: vesper
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
@@ -12,8 +12,17 @@ sources:
     rism: 600090675
     license: public domain
     principal: true
+    notes: only Lauda Ierusalem
+  B1:
+    siglum: A-Ed
+    shelfmark: G 78
+    rism: 600038323
+    license: public domain
+    notes: complete vesper
+tocstyle: default
 toe: |
-  14 & A    & 1st \quarterNote\ in \A1: b4 \\
-  40 & vlne & 4th \quarterNote\ in \A1: g4 \\
+  1 & 28 & T    & 8th \sixteenthNote\ in \B1: c′16 \\
+  5 & 14 & A    & 1st \quarterNote\ in \A1: b4 \\
+  5 & 40 & vlne & 4th \quarterNote\ in \A1: g4 \\
 extra_abbreviations:
   vlne:

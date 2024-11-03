@@ -1,5 +1,119 @@
 \version "2.24.0"
 
+H-I-XVIDixitSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoH-I-XVIDixit
+    \mvDl e'4\fE^\tutti g c,8 d16 e d8 d16 d
+    e8 e r c4 a8 r h~
+    h g r a4 f8 r g
+    g g r g c c r c
+    c c r c c c c([ h)] %5
+    c4 r r8 g4 gis8
+    a a r4 r8 c4 cis8
+    d d d d e d e4
+    d r8 d e e r e
+    c c r d d e d4 %10
+    e r r2
+    r8^\aTre \mvTr e\pE^\solo c h c c r4
+    r8 a d c c h r4
+    r8 c, c' b a8. a16 cis8 e
+    a, a r a d4.( c8) %15
+    h4 r r2
+    R1*2
+    r4 r8 d h e d8. c16
+    h8 c d4. c16 h e8 g, %20
+    fis g a h c d e fis
+    g fis16 e d8 c16 d h4 c8 d
+    e8. e16 e4 e8 h16 c d8 c16 h
+    c4 a4. h8 gis4
+    a8 \mvTr c\fE^\tutti d d e16 e e e d8 e %25
+    c c c e d d r16 d d d
+    e8 e r d16 d e8 e16 e e8 e
+    e16 e f f d8. d16 e4 r
+    R1*4 %32
+    r4 r8 \mvTr c\pE^\soloE h h16 d g,8 g
+    r4 r8 c a a16 a d8([ c)]
+    h4 r r2 %35
+    R1
+    r2 r4 d8 d
+    d16[ e h c] d4~ d16[ e h c] d4~
+    d8 c16 h a8 g g fis r h
+    c d16 d e8 fis g[ g,]~ g16[ a h c] %40
+    d4. e8 c4( h)\trill
+    a r r2
+    R1
+    r2 \mvTr d4.\fE^\tutti d8
+    e d c e d8. d16 d8 h %45
+    c d c4 h c8 h
+    c c16 c c8 c c e d4
+    \tempoH-I-XVIDixitB e r r2
+    r8 g,[ a h] c[ a h c]
+    d h c([ d)] g,4 r %50
+    R1
+    r4 r8 \once \stemUp h( a[ g! fis a])
+    g h([ c d)] g,4 r8 g
+    a[ h c a] h[ c d h]
+    c e d4 e8 c4( h8) %55
+    c4 r r2\fermata \bar "|." %56 finis
+  }
+}
+
+H-I-XVIDixitSopranoLyrics = \lyricmode {
+  Di -- xit Do -- mi -- nus Do -- mi -- no
+  me -- o: Se -- de, se --
+  de, se -- de a
+  dex -- tris, a dex -- tris, a
+  dex -- tris, a dex -- tris me -- %5
+  is, do -- nec
+  po -- nam, do -- nec
+  po -- nam in -- i -- mi -- cos tu --
+  os, sca -- bel -- lum, sca --
+  bel -- lum pe -- dum tu -- o -- %10
+  rum.
+  Vir -- gam vir -- tu -- tis,
+  vir -- tu -- tis tu -- ae
+  e -- mit -- tet Do -- mi -- nus ex
+  Si -- on, ex Si -- %15
+  on:
+
+  Te -- cum prin -- ci -- pi -- %19
+  um in di -- e vir -- tu -- tis %20
+  tu -- ae in splen -- do -- ri -- bus san --
+  cto -- rum, ex u -- te -- ro an -- te lu --
+  ci -- fe -- rum ge -- nu -- i, ge -- nu -- i
+  te, ge -- nu -- i
+  te. Iu -- ra -- vit Do -- mi -- nus et non, non %25
+  poe -- ni -- te -- bit e -- um: Tu es sa --
+  cer -- dos in ae -- ter -- num se -- cun -- dum
+  or -- di -- nem Mel -- chi -- se -- dech.
+
+  im -- ple -- bit ru -- i -- nas, %33
+  im -- ple -- bit ru -- i --
+  nas, %35
+
+  De tor --
+  ren -- _ _
+  te in vi -- a bi -- bet, pro --
+  pter -- e -- a ex -- al -- ta -- %40
+  _ bit ca --
+  put.
+
+  si -- cut
+  e -- rat in prin -- ci -- pi -- o et %45
+  nunc et sem -- per et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men,
+  a -- _
+  _ men, a -- men, %50
+
+  a --
+  men, a -- men, a --
+  _ _
+  _ men, a -- men, a -- %55
+  men. %56 finis
+}
+
 H-I-XVILaudaSoprano = {
   \relative c' {
     \clef treble

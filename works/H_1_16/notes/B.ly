@@ -1,5 +1,105 @@
 \version "2.24.0"
 
+H-I-XVIDixitBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoH-I-XVIDixit
+    \mvDl c'4\fE^\tutti h a8 a16 a h8 h16 h
+    c8 c, e4 f d
+    e c d( h)
+    c r8 h' a a r g
+    f4 e f( g) %5
+    c, r c' h
+    a8 a, r4 f' e
+    d8 d h h c h c4
+    g r8 g' c c r c,
+    f f r d g c g4 %10
+    c, r r2
+    R1*4 %15
+    r8 \mvTr g'16\pE^\solo g h h h g c8[ h16 a] g[ f e d]
+    e8 c r4 r8 c' a a
+    fis d' h g e4 h8 c
+    d([ c] \once \stemUp d4) g, r
+    R1*5 %24
+    r8 \mvTr a'\fE^\tutti f g! c,16 c c c' h8 c %25
+    a e f c g' g r16 h g g
+    c8 c, r g'16 g c8 h16 h a8 g
+    a16 a f f g8. g16 c,4 r
+    R1*2 %30
+    r2 r4 \mvTr g'8\pE^\solo f!
+    e([ c] h!4) c8 c' a e
+    f([ g] a8.) a16 g8 g e e16 g
+    c,8 c16 c' a8 a16 c f,8 d16 d h8([ c)]
+    g4 r r16 d'8 e16 f g a h %35
+    c8 c r4 e,8 a d,4
+    c8 r r e fis g16 g d4
+    g, r r2
+    R1*4 %42
+    r2 c8 e f g16 g
+    a8( g4 fis8) g4 \mvDl h8\fE^\tutti g
+    c g e c g'8. g16 g8 g %45
+    c h c4 g e8 g
+    c, c16 c a'8 e f c g'4
+    \tempoH-I-XVIDixitB c,8 c[ d e] f[ d e fis]
+    g e d4 c8 r r4
+    r2 r8 c[ d e] %50
+    f![ d e fis] g[ e fis gis]
+    a4 gis a r
+    r2 r8 c,[ d e]
+    f[ d e f] g[ e f g]
+    e c g'4 c,8 c'( g4) %55
+    c, r r2\fermata \bar "|." %56 finis
+  }
+}
+
+H-I-XVIDixitBassoLyrics = \lyricmode {
+  Di -- xit Do -- mi -- nus Do -- mi -- no
+  me -- o: Se -- de a
+  dex -- tris me --
+  is, a dex -- tris, a
+  dex -- tris me -- %5
+  is, do -- nec
+  po -- nam, do -- nec
+  po -- nam in -- i -- mi -- cos tu --
+  os, sca -- bel -- lum, sca --
+  bel -- lum pe -- dum tu -- o -- %10
+  rum.
+
+  Do -- mi -- na -- re, do -- mi -- na -- _ %16
+  _ re in me -- di --
+  o in -- i -- mi -- co -- rum tu --
+  o -- rum.
+
+  Iu -- ra -- vit Do -- mi -- nus et non, non %25
+  poe -- ni -- te -- bit e -- um: Tu es sa --
+  cer -- dos in ae -- ter -- num se -- cun -- dum
+  or -- di -- nem Mel -- chi -- se -- dech.
+
+  Iu -- di -- %31
+  ca -- bit in na -- ti --
+  o -- ni -- bus, im -- ple -- bit ru --
+  i -- nas, im -- ple -- bit ru -- i -- nas, ru -- i --
+  nas, con -- quas -- sa -- bit, con -- quas -- %35
+  sa -- bit, con -- quas -- sa --
+  bit in ter -- ra mul -- to --
+  rum.
+
+  et Spi -- ri -- tu -- i %43
+  San -- cto, si -- cut
+  e -- rat in prin -- ci -- pi -- o et %45
+  nunc et sem -- per et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men, a -- _
+  _ men, a -- men,
+  a -- %50
+  _ _
+  _ _ men,
+  a --
+  _ _
+  _ men, a -- men, a -- %55
+  men. %56 finis
+}
+
 H-I-XVILaudaBasso = {
   \relative c {
     \clef bass

@@ -1,5 +1,107 @@
 \version "2.24.0"
 
+H-I-XVIDixitTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoH-I-XVIDixit
+    \mvDl c4\fE^\tutti d e8 d16 c h8 d16 d
+    c8 c g4 a d
+    g, c f,( g)
+    e r8 d' e e r e
+    f f r c c f d4 %5
+    e r c d
+    c8 c r4 c e
+    a,8 a d d c d c4
+    h r8 h c c r c
+    a a r a h c c([ h)] %10
+    c4 r^\aTre \mvTr e\pE^\solo a,8 gis
+    a a r4 r8 e' c a
+    f' d h([ c)] g g g' f
+    e8. e16 e8 d cis2
+    d4 r8 d h h c8. c16 %15
+    g4 r r2
+    R1*8 %24
+    r8 \mvTr c\fE^\tutti c h c16 c c c d8 c %25
+    c c a c h h r16 g h h
+    c8 c r h16 h c8 c16 c c8 c
+    c16 c c d \appoggiatura c8 h8. h16^\critnote c4 r
+    R1*2 %30
+    r2 \mvTr d8\pE^\solo c! h8. h16
+    c8 e d16([ c d8)] g, g c4~
+    c8 h c8. c16 d4 r
+    R1
+    r16 g,8 a16 h c d e f8 f r4 %35
+    r2 g,8 c c([ h)]
+    c r r g a g16 g g8([ fis)]
+    g4 r r2
+    R1*3 %41
+    e'4. d16 e c8 a r4
+    R1
+    r2 \mvTr h8\fE^\tutti h d h
+    c h c c h8. h16 h8 d %45
+    e d e4 d e8 d
+    e e16 e e8 e a, c c([ h)]
+    \tempoH-I-XVIDixitB c4 r8 g( a[ h c a]
+    h) c f,4 g8 r r4
+    r8 g([ a h)] c4 r8 g %50
+    a[ h c a] h[ cis d h]
+    c16[ h a c] h4 r2
+    r8 g[ a h] c4 h
+    a8[ d] c16[ e d c] h8[ e] d16[ f e d]
+    c4. h8 c e d4 %55
+    e r r2\fermata \bar "|." %56 finis
+  }
+}
+
+H-I-XVIDixitTenoreLyrics = \lyricmode {
+  Di -- xit Do -- mi -- nus Do -- mi -- no
+  me -- o: Se -- de a
+  dex -- tris me --
+  is, a dex -- tris, a
+  dex -- tris, a dex -- tris me -- %5
+  is, do -- nec
+  po -- nam, do -- nec
+  po -- nam in -- i -- mi -- cos tu --
+  os, sca -- bel -- lum, sca --
+  bel -- lum pe -- dum tu -- o -- %10
+  rum. Vir -- gam vir --
+  tu -- tis, vir -- gam vir --
+  tu -- tis tu -- ae e -- mit -- tet
+  Do -- mi -- nus ex Si --
+  on, e -- mit -- tet Do -- mi -- %15
+  nus:
+
+  Iu -- ra -- vit Do -- mi -- nus et non, non %25
+  poe -- ni -- te -- bit e -- um: Tu es sa --
+  cer -- dos in ae -- ter -- num se -- cun -- dum
+  or -- di -- nem Mel -- chi -- se -- dech.
+
+  Iu -- di -- ca -- bit, %31
+  iu -- di -- ca -- bit in na --
+  ti -- o -- ni -- bus,
+
+  con -- quas -- sa -- bit, con -- quas -- sa -- bit, %35
+  con -- quas -- sa --
+  bit in ter -- ra mul -- to --
+  rum.
+
+  Glo -- ri -- a Pa -- tri, %42
+
+  si -- cut, si -- cut
+  e -- rat in prin -- ci -- pi -- o et %45
+  nunc et sem -- per et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men, a --
+  men, a -- men,
+  a -- men, a -- %50
+  _ _
+  _ men,
+  a -- _ _
+  _ _ _ _
+  _ men, a -- men, a -- %55
+  men. %56 finis
+}
+
 H-I-XVILaudaTenore = {
   \relative c' {
     \clef "treble_8"

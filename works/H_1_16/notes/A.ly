@@ -1,5 +1,107 @@
 \version "2.24.0"
 
+H-I-XVIDixitAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoH-I-XVIDixit
+    \mvDl g'4.\fE^\tutti g8 a a16 a d,8 g16 g
+    g8 g r4 r8 f4 d8
+    r e4 c8 r d4 h8
+    r c g' g r e g g
+    r a g g a4( g) %5
+    g r e h'
+    e,8 e r4 a g
+    f8 f g g g g g4
+    g r8 g g g r g
+    f f r f g g g4 %10
+    g r r2
+    r8^\aTre \mvTr c,\pE^\solo a' gis a a r4
+    r8 f g e e d r4
+    r2 r8 a a' g
+    f8. f16 f4 r8 g e4 %15
+    d r r2
+    R1*8 %24
+    r8 \mvTr e\fE^\tutti a g! g16 g g g g8 g %25
+    a g a g g g r16 g g g
+    g8 g r g16 g g8 g16 g e8 g
+    c,16 c a' a g8. g16 g4 \mvTr g8.\pE^\solo e16
+    c8 e d8. c16 h([ a)] h8 r cis
+    d8.([ f16)] e([ g)] f([ e)] f8 a d,8. d16 %30
+    b'([ g)] f([ e)] \appoggiatura d8 cis4 d r
+    r g8 f e4 f8 g
+    a g \appoggiatura g fis8. g16 g4 r8 g
+    e e16 g c,8 c16 e f4 f8 e
+    d d r4 r2 %35
+    r16 a8 h16 c d e f g8 e f8. f16
+    e8 g c,4 c8 h16([ c)] a4
+    g r r2
+    R1*4 %42
+    g'4. f16 g e8. d16 c4
+    r2 \mvTr g'4.\fE^\tutti g8
+    g g g g g8. g16 g8 g %45
+    g g g4 g g8 g
+    g g16 g a8 g a g g4
+    \tempoH-I-XVIDixitB g r r2
+    r4 r8 d e[ fis g e]
+    fis g4 f8~ f[ e f g] %50
+    c, r r4 r2
+    r8 f[ e d] c[ e d c]
+    h g' f!4 e8 e[ f g]
+    c,[ f g a] d,[ g a g]
+    g4 g g g %55
+    g r r2\fermata \bar "|." %56 finis
+  }
+}
+
+H-I-XVIDixitAltoLyrics = \lyricmode {
+  Di -- xit Do -- mi -- nus Do -- mi -- no
+  me -- o: Se -- de,
+  se -- de, se -- de
+  a dex -- tris, a dex -- tris,
+  a dex -- tris me -- %5
+  is, do -- nec
+  po -- nam, do -- nec
+  po -- nam in -- i -- mi -- cos tu --
+  os, sca -- bel -- lum, sca --
+  bel -- lum pe -- dum tu -- o -- %10
+  rum.
+  Vir -- gam vir -- tu -- tis,
+  vir -- tu -- tis tu -- ae
+  e -- mit -- tet
+  Do -- mi -- nus ex Si -- %15
+  on:
+
+  Iu -- ra -- vit Do -- mi -- nus et non, non %25
+  poe -- ni -- te -- bit e -- um: Tu es sa --
+  cer -- dos in ae -- ter -- num se -- cun -- dum
+  or -- di -- nem Mel -- chi -- se -- dech. Do -- mi --
+  nus a dex -- tris tu -- is, con --
+  fre -- git in di -- e i -- rae %30
+  su -- ae re -- ges.
+  Iu -- di -- ca -- bit in
+  na -- ti -- o -- ni -- bus, im --
+  ple -- bit ru -- i -- nas, im -- ple -- bit ru --
+  i -- nas, %35
+  con -- quas -- sa -- bit, con -- quas -- sa -- bit ca -- pi --
+  ta in ter -- ra mul -- to --
+  rum.
+
+  glo -- ri -- a Fi -- li -- o %43
+  si -- cut
+  e -- rat in prin -- ci -- pi -- o et %45
+  nunc et sem -- per et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men,
+  a -- _
+  _ _ _ %50
+  men,
+  a -- _
+  _ men, a -- men, a --
+  _ _
+  men, a -- men, a -- %55
+  men. %56 finis
+}
+
 H-I-XVILaudaAlto = {
   \relative c' {
     \clef treble

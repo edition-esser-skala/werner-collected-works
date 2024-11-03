@@ -1,5 +1,52 @@
 \version "2.24.0"
 
+H-I-XVIDixitViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoH-I-XVIDixit
+    r16 c'\fE e16. f32 g16. a32 h16 a32 g c16. c32 h16. a32 g16. f32 e16. d32
+    e16. g32 c8~ c16. g32 e16. c32 a16. f32 a'8~ a16. f32 d16. h32
+    g16. e32 g'8~ g16. e32 c16. a32 f16. d32 f'8~ f16. d32 h16. g32
+    e16. c32 e16. f32 g16. g32 a16. h32 c16. a32 c16. d32 e16. e32 f16. g32
+    a16. f32 a16. h32 c16. g32 e16. c32 a'16. c32 h16. c32 d,8 h' %5
+    c16. g32 e16. c32 e16. c32 g16. e32 c4 r
+    a''16. e32 c16. a32 e'16. h32 g16. e32 a4 r
+    d'16. a32 f16. d32 g16. d32 h16. g32 e'16. g32 d16. g32 e16. g32 c16. e,32
+    d16. h32 d16. g32 h8 h, r16 e g16. c32 e8 e,
+    r16 a, c16. f32 a8 f d16. g32 e16. c'32 d,8 h' %10
+    c16. g32 e16. g32 e16. c32 g16. e32 c4 r
+    R1*5 %16
+    r16 e'\pE d c h a g f e8 c r a''~
+    a fis d g4 g, a8
+    g8. a16 fis4\trill g r
+    R1*5 %24
+    r16 a\fE c e a f d g e c e g d g e g %25
+    c, e g c a f e c' h g d h g8 g'
+    r16 g g g d' h8 g16 e16. g32 g8 r16 c c8
+    r16 c, c16. a32 d,8 h' c4 r
+    R1*9 %37
+    r8 d\pE a16 h g a h c d8 a16 h g a
+    h4 e a,8 a16 h c8 d
+    e c16 d e8 fis g g, r4 %40
+    r r8 h' a4. gis8
+    a4 r r2
+    r r8 g, c4~
+    c8 h c8. c16 h8 g'4\f g8
+    g g4 c8 h16 g d h g8 g' %45
+    g g g8. g16 g8 g4 g8
+    g g a g a g g4
+    \tempoH-I-XVIDixitB g r r2
+    r8 g, a h c a h c
+    d h c d g,4 r %50
+    R1
+    r4 r8 h a g! fis a
+    g h c d g,4 r8 g
+    a h c a h c d h
+    c e d g e4 g %55
+    g r r2\fermata \bar "|." %56 finis
+  }
+}
+
 H-I-XVILaudaViolinoI = {
   \relative c' {
     \clef treble
