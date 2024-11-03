@@ -1483,3 +1483,57 @@ B-LXXISanctusBassFigures = \figuremode {
   r
   r %68 finis
 }
+
+B-LXXIBenedictusOrgano = {
+  \relative c {
+    \clef "treble_8"
+    \key d \minor \time 3/4 \tempoB-LXXIBenedictus
+    \mvTr d'8\pE-\solo ^\tweak TextScript.X-offset #0 ^\aTre e f4 cis
+    d2 a4
+    f'2 e4
+    d2 c!4
+    b2. %5
+    a8 h cis4 a
+    d8 e d c b a
+    g4 g g
+    c8 d c b a g
+    f4 f' c %10
+    d d, a'
+    b2 a4
+    g8 a b c d4
+    c b2
+    a8 h cis4 a %15
+    d g,4. g8
+    c!4 f,2
+    b!4 c c
+    d8 e d c h a
+    gis2 a4 %20
+    d, e2
+    a2.\fermata \markOsannaUtSupra \bar "||" %22 finis
+  }
+}
+
+B-LXXIBenedictusBassFigures = \figuremode {
+  r4 <6> <[6]>
+  r2 <_+>4
+  <6>2 <6!>4
+  <6>2 q4
+  <7> <6>2 %5
+  <[_+]>2.
+  r
+  r
+  r
+  r2 <8 6>8 <[7 5]> %10
+  r2 <8 6>8 <[7 5]>
+  <5 3>4 <6 4> <6\\>
+  r2 <_!>4
+  <6> <7> <6>
+  \bo <[_+]>2. %15
+  r
+  r
+  <6>4 <4> \bc <[3]>
+  r2 <5>4
+  <6 5 [_!]>2. %20
+  r4 \bo <[5!] 4> \bc <[\t] _+>
+  r2. %22 finis
+}

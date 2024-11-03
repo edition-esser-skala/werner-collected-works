@@ -4,6 +4,10 @@ markKyrieUtSupra = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark "Kyrie ut supra"
 }
+markOsannaUtSupra = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Osanna ut supra"
+}
 
 tempoB-LXXIKyrie = \tempoMarkup "Allegro"
   tempoB-LXXIChriste = \tempoMarkup "[Tempo deest]"
@@ -29,6 +33,8 @@ tempoB-LXXIEtVitam = \tempoMarkup "Presto"
 tempoB-LXXISanctus = \tempoMarkup "Largo"
   tempoB-LXXIPleni = \tempoMarkup "[Tempo deest]"
   tempoB-LXXIOsanna = \tempoMarkup "Osanna · [Tempo deest]"
+
+tempoB-LXXIBenedictus = \tempoMarkup "[Tempo deest]"
 
 \include "notes/trb1.ly"
 \include "notes/trb2.ly"

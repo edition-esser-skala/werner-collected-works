@@ -1022,14 +1022,62 @@ B-LXXISanctusSopranoLyrics = \lyricmode {
   sis. %68 finis
 }
 
+B-LXXIBenedictusSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/4 \autoBeamOff \tempoB-LXXIBenedictus
+    r4^\aTre \mvTr d'\pE^\solo a
+    f'2 e4
+    r d c!
+    b4. b8 a4~
+    a g8([ f] g4) %5
+    a2 r4
+    r a2
+    b8[ c d b c d]
+    g,4 g g
+    a8[ b c d c b] %10
+    a4. b8[ a g]
+    f4 g8([ a)] g([ a)]
+    b4. b8 a4
+    a2 g4
+    a a2 %15
+    a4 b!8([ c!)] d4
+    g, a8([ b)] c4
+    b( g4.) f8
+    f4 r d'
+    d4. h8 c4 %20
+    a2 gis4
+    a2.\fermata \markOsannaUtSupra \bar "||" %22 finis
+  }
+}
+
+B-LXXIBenedictusSopranoLyrics = \lyricmode {
+  Be -- ne --
+  di -- ctus,
+  be -- ne --
+  di -- ctus, qui __
+  ve -- %5
+  nit,
+  qui
+  ve --
+  _ nit, qui
+  ve -- %10
+  _ _
+  _ nit in __
+  no -- mi -- ne
+  Do -- mi --
+  ni, qui %15
+  ve -- nit in
+  no -- mi -- ne
+  Do -- mi --
+  ni, in
+  no -- mi -- ne %20
+  Do -- mi --
+  ni. %22 finis
+}
 
 
 
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-
-
-
-% ## Agnus Dei
 
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.

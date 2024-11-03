@@ -1055,3 +1055,54 @@ B-LXXISanctusAltoLyrics = \lyricmode {
   ex -- cel --
   sis. %68 finis
 }
+
+B-LXXIBenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/4 \autoBeamOff \tempoB-LXXIBenedictus
+    \after 4*0 ^\aTre R2.*2
+    r4 \mvTr a'\pE^\solo g
+    f2 e4
+    d d2 %5
+    cis4 e2
+    f4 f f
+    g8[ a b g a b]
+    e,4 e e
+    f8[ g a b a g] %10
+    f4. g8[ f e]
+    d4 e8([ d)] e([ fis)]
+    g4. g8 f4(
+    e) d4. d8
+    cis4 r e %15
+    f g8([ a)] b4
+    e, f8([ g)] a4
+    g( \grace f e4.) f8
+    f4 f2
+    e e4 %20
+    f8([ d)] h4. a8
+    \mvTrr a2.\fermata^\critnote \markOsannaUtSupra \bar "||" %22 finis
+  }
+}
+
+B-LXXIBenedictusAltoLyrics = \lyricmode {
+  Be -- ne -- %3
+  di -- ctus,
+  qui ve -- %5
+  nit, qui
+  ve -- nit, qui
+  ve --
+  _ nit, qui
+  ve -- %10
+  _ _
+  _ nit in __
+  no -- mi -- ne __
+  Do -- mi --
+  ni, qui %15
+  ve -- nit in
+  no -- mi -- ne
+  Do -- mi --
+  ni, in
+  no -- mi -- %20
+  ne Do -- mi --
+  ni. %22 finis
+}

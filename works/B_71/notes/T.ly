@@ -1009,3 +1009,56 @@ B-LXXISanctusTenoreLyrics = \lyricmode {
   ex -- cel --
   sis. %68 finis
 }
+
+B-LXXIBenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \minor \time 3/4 \autoBeamOff \tempoB-LXXIBenedictus
+    \after 4*0 ^\aTre R2.
+    r4 \mvTr d\pE^\solo a
+    f'2 e4
+    r d c!
+    b2. %5
+    a2 a4
+    d8[ e d c! b! a]
+    g4 g g
+    c8[ d c b a g]
+    f4 f' c %10
+    d d a
+    b b a
+    g8([ a b c] d4)
+    c8 c b4. b8
+    a4 r a %15
+    d g, r8 g
+    c!4 f, f
+    b c c
+    d8[ e d c h a]
+    gis2 a4 %20
+    d, e4. e8
+    a2.\fermata \markOsannaUtSupra \bar "||" %22 finis
+  }
+}
+
+B-LXXIBenedictusTenoreLyrics = \lyricmode {
+  Be -- ne -- %2
+  di -- ctus,
+  be -- ne --
+  di -- %5
+  ctus, qui
+  ve --
+  _ nit, qui
+  ve --
+  nit, be -- ne -- %10
+  di -- ctus, qui
+  ve -- nit in
+  no --
+  mi -- ne Do -- mi --
+  ni, qui %15
+  ve -- nit, qui
+  ve -- nit, qui
+  ve -- nit in
+  no --
+  _ mi -- %20
+  ne Do -- mi --
+  ni. %22 finis
+}
