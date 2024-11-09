@@ -2,8 +2,14 @@
 
 tempoH-I-XVIDixit = \tempoMarkup "Vivace"
   tempoH-I-XVIDixitB = \tempoMarkup "Allegro"
+tempoH-I-XVILaudate = \tempoMarkup "Allegro"
+tempoH-I-XVILaetatus = \tempoMarkup "Allegro"
+tempoH-I-XVINisi = \tempoMarkup "Andante"
+  tempoH-I-XVINisiB = \tempoMarkup "Vivace"
 tempoH-I-XVILauda = \tempoMarkup "Andante"
   tempoH-I-XVILaudaB = \tempoMarkup "Vivace"
+tempoH-I-XVIMagnificat = \tempoMarkup "Andante"
+  tempoH-I-XVIMagnificatB = \tempoMarkup "Vivace"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

@@ -7,11 +7,59 @@
 
 \book {
   \bookpart {
-    \section "H.1.16/5" "Lauda Ierusalem"
+    \section "1" "Dixit Dominus"
+    \addTocEntry
+    \paper { system-count = #12 }
+    \score {
+      <<
+        \new Staff { \H-I-XVIDixitViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Laudate pueri"
     \addTocEntry
     \score {
       <<
+        \new Staff { \H-I-XVILaudateViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Lætatus sum"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \H-I-XVILaetatusViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Nisi Dominus"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \H-I-XVINisiViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Lauda Ierusalem"
+    \addTocEntry
+    \paper { system-count = #14 }
+    \score {
+      <<
         \new Staff { \H-I-XVILaudaViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Magnificat"
+    \addTocEntry
+    \paper { system-count = #8 }
+    \score {
+      <<
+        \new Staff { \H-I-XVIMagnificatViolinoII }
       >>
     }
   }
