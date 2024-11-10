@@ -1,0 +1,77 @@
+\version "2.24.0"
+
+A-XIIIntroViola = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 4/4 \tempoA-XIIIntro
+    b4.\p c8 d( c) b( g)
+    g'2 a4. a8
+    d,2 r4 r8 e\f
+    a,4 r r r8 d
+    g,4 r r8 e' e e %5
+    a,4\p d4. b8 a g
+    a2 r\fermata
+    c!\f r
+    e r
+    d r %10
+    d e4 d
+    a' h a4. g8
+    f4 d8 f g4. f8
+    e2 a,4 d~
+    d8 d16 c b8 a g4 c8 b %15
+    a4 r8 a' g4 r
+    d\p r e\pp r
+    d4. c8\f b a g4
+    r g' fis8 g a4
+    d, d4. g8 fis g \noBreak %20
+    a2 r\fermata \bar "||"
+    \time 3/4 \tempoA-XIIIntroB r4 g a \noBreak
+    r8 fis g \hA fis16 g e8 fis
+    g16 a g f e8 a16 g fis d d' c
+    b8 g r4 r %25
+    R2.*2
+    d4 es! r8 cis
+    d16 cis d8 r h c? b16 a
+    b8 h c cis d d, %30
+    g d'~ d16 c b8~ b16 a gis8
+    a16 gis a8 r d d8.\trill c!32 b
+    a4 b8 h a a
+    a fis d4 r8 g'~
+    g es! c4 r8 f~ %35
+    f d b16 g' es c a a' f d
+    b b' g es c c' a f d8 f
+    b, d g, b c es~
+    es16 c f,8 f4 r8 a\p
+    b16 a b8 r a' b16 a b8 %40
+    r h, c16 \hA h c8 r h'
+    c16 h c8 r cis, d16 \hA cis d8
+    r cis' d c b a
+    g f e d cis a
+    d[ b f g] a8. g16 %45
+    f8 d r4 r
+    r d'\f e
+    r8 cis d16 \hA cis d8 r b!
+    c16 b c8 r a b16 a b8
+    r g a b c c %50
+    c4 r8 f d b
+    g c r e c a
+    f b r g' e4
+    r8 fis d16 c d8 r e
+    c4 r8 d b16 a b8 %55
+    r a4 fis8 r d'\p
+    es!16 d es8 r e f! f,
+    r fis' g16 \hA fis g8 r c,
+    f b, es!4 d
+    r8 es b c d8. c16 %60
+    b8 g r4 r
+    r g'\f a
+    r8 fis g16 \hA fis g8 r es
+    f16 es f8 r d es16 d es8
+    r c d16 c d8 r d %65
+    es8. es16 d8 d d4
+    d r8 es\p f!16 es f8
+    r d es16 d es8 r c
+    d d4 d8 b16 c d8\f
+    es d d4 r\fermata \bar "|." %70 finis
+  }
+}
