@@ -1,0 +1,17 @@
+\version "2.24.0"
+
+tempoG-XVII = \tempoMarkup "Largo"
+tempoG-XVIIb = \tempoMarkup "Allegro"
+tempoG-XVIIc = \tempoMarkup "Allegro"
+tempoG-XVIId = \tempoMarkup "Andante"
+tempoG-XVIIe = \tempoMarkup "Largo"
+tempoG-XVIIf = \tempoMarkup "Alla breve"
+tempoG-XVIIg = \tempoMarkup "Andante"
+
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"
