@@ -4,7 +4,7 @@ I-II-XII-ViolinoI = {
   \relative c' {
     \clef treble
     \key e \minor \time 3/8 \tempoI-II-XII
-    r8 h'16(\pE e,) c'( e,)
+    r8^\conSord h'16(\pE e,) c'( e,)
     r8 h'16( e,) c'( e,)
     h'8~ \tuplet 3/2 8 { h16 a g a[ g fis] }
     \once \slurDashed g( fis) e8 r
@@ -37,7 +37,7 @@ I-II-XII-ViolinoI = {
     e, c' g8 fis\trill \noBreak %35
     e4 r8\fermata \bar "||"
     \twofourtime \time 2/4 \tempoI-II-XII-b \newSpacingSection
-      R2*3
+      \after 4*0 ^\senzaSord R2*3
     r16 fis\f ais h cis d e fis %40
     d( h) ais( h) fis g' fis e
     d( h) ais( h) fis g fis e
