@@ -25,38 +25,38 @@
         \new ChoirStaff \with { \setGroupDistance #18 #18 } <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \M-XISoprano }
+            \new Voice = "Soprano" { \dynamicUp \F-XIXSoprano }
           }
-          \new Lyrics \lyricsto Soprano \M-XISopranoLyricsA
-          \new Lyrics \lyricsto Soprano \M-XISopranoLyricsB
-          \new Lyrics \lyricsto Soprano \M-XISopranoLyricsC
+          \new Lyrics \lyricsto Soprano \F-XIXSopranoLyricsA
+          \new Lyrics \lyricsto Soprano \F-XIXSopranoLyricsB
+          \new Lyrics \lyricsto Soprano \F-XIXSopranoLyricsC
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \M-XIAlto }
+            \new Voice = "Alto" { \dynamicUp \F-XIXAlto }
           }
-          \new Lyrics \lyricsto Alto \M-XIAltoLyricsA
-          \new Lyrics \lyricsto Alto \M-XIAltoLyricsB
-          \new Lyrics \lyricsto Alto \M-XIAltoLyricsC
+          \new Lyrics \lyricsto Alto \F-XIXAltoLyricsA
+          \new Lyrics \lyricsto Alto \F-XIXAltoLyricsB
+          \new Lyrics \lyricsto Alto \F-XIXAltoLyricsC
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \M-XITenore }
+            \new Voice = "Tenore" { \dynamicUp \F-XIXTenore }
           }
-          \new Lyrics \lyricsto Tenore \M-XITenoreLyricsA
-          \new Lyrics \lyricsto Tenore \M-XITenoreLyricsB
-          \new Lyrics \lyricsto Tenore \M-XITenoreLyricsC
+          \new Lyrics \lyricsto Tenore \F-XIXTenoreLyricsA
+          \new Lyrics \lyricsto Tenore \F-XIXTenoreLyricsB
+          \new Lyrics \lyricsto Tenore \F-XIXTenoreLyricsC
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \M-XIBasso }
+            \new Voice = "Basso" { \dynamicUp \F-XIXBasso }
           }
-          \new Lyrics \lyricsto Basso \M-XIBassoLyricsA
-          \new Lyrics \lyricsto Basso \M-XIBassoLyricsB
-          \new Lyrics \lyricsto Basso \M-XIBassoLyricsC
+          \new Lyrics \lyricsto Basso \F-XIXBassoLyricsA
+          \new Lyrics \lyricsto Basso \F-XIXBassoLyricsB
+          \new Lyrics \lyricsto Basso \F-XIXBassoLyricsC
         >>
-        \new Staff { \M-XIOrgano }
-        \new FiguredBass { \M-XIBassFigures }
+        \new Staff { \F-XIXOrgano }
+        \new FiguredBass { \F-XIXBassFigures }
       >>
     }
   }

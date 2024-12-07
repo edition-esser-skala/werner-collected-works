@@ -12,7 +12,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \M-XIOrgano }
+        \new Staff { \F-XIXOrgano }
       >>
     }
   }

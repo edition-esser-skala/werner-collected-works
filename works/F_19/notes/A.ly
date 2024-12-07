@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-M-XIAlto = {
+F-XIXAlto = {
   \relative c' {
     \clef treble
-    \key a \minor \time 3/2 \tempoM-XI \autoBeamOff
+    \key a \minor \time 3/2 \tempoF-XIX \autoBeamOff
     \phrasingSlurDashed R1.
     r2 e fis
     d4 g2 fis8([ e)] fis4 fis
@@ -32,7 +32,7 @@ M-XIAlto = {
   }
 }
 
-M-XIAltoLyricsA = \lyricmode {
+F-XIXAltoLyricsA = \lyricmode {
   Sa -- lu -- %2
   tis hu -- ma -- nae sa --
   tor, hu -- ma --
@@ -59,7 +59,7 @@ M-XIAltoLyricsA = \lyricmode {
   men. %25 finis
 }
 
-M-XIAltoLyricsB = \lyricmode {
+F-XIXAltoLyricsB = \lyricmode {
   Qua vi -- %2
   ctus es cle -- men -- ti --
   a, vi -- ctus __
@@ -84,7 +84,7 @@ M-XIAltoLyricsB = \lyricmode {
   res. %23 finis
 }
 
-M-XIAltoLyricsC = \lyricmode {
+F-XIXAltoLyricsC = \lyricmode {
   Tu dux %2
   ad a -- stra se -- mi --
   ta, ad a --

@@ -12,8 +12,8 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \M-XIOrgano }
-        \new FiguredBass { \M-XIBassFigures }
+        \new Staff { \F-XIXOrgano }
+        \new FiguredBass { \F-XIXBassFigures }
       >>
     }
   }

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-M-XITenore = {
+F-XIXTenore = {
   \relative c' {
     \clef "treble_8"
-    \key a \minor \time 3/2 \tempoM-XI \autoBeamOff
+    \key a \minor \time 3/2 \tempoF-XIX \autoBeamOff
     \phrasingSlurDashed R1.*3
     r2 a h
     g4 c2 h8[( a]) h4 h %5
@@ -30,7 +30,7 @@ M-XITenore = {
   }
 }
 
-M-XITenoreLyricsA = \lyricmode {
+F-XIXTenoreLyricsA = \lyricmode {
   Sa -- lu -- %4
   tis hu -- ma -- nae sa -- %5
   tor, sa -- tor, sa --
@@ -55,7 +55,7 @@ M-XITenoreLyricsA = \lyricmode {
   men. %25 finis
 }
 
-M-XITenoreLyricsB = \lyricmode {
+F-XIXTenoreLyricsB = \lyricmode {
   Qua vi -- %4
   ctus es cle -- men -- ti -- %5
   a, es cle -- men --
@@ -78,7 +78,7 @@ M-XITenoreLyricsB = \lyricmode {
   res. %23 finis
 }
 
-M-XITenoreLyricsC = \lyricmode {
+F-XIXTenoreLyricsC = \lyricmode {
   Tu dux %4
   ad a -- stra~et se -- mi -- %5
   ta, a -- stra et

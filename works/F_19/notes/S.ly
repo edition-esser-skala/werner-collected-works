@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-M-XISoprano = {
+F-XIXSoprano = {
   \relative c' {
     \clef treble
-    \key a \minor \time 3/2 \tempoM-XI \autoBeamOff
+    \key a \minor \time 3/2 \tempoF-XIX \autoBeamOff
     \phrasingSlurDashed a'2 h g4 c\(
     c\) h8([ a)] h4\( h\) a d\(
     d\) h e2. dis4
@@ -32,7 +32,7 @@ M-XISoprano = {
   }
 }
 
-M-XISopranoLyricsA = \lyricmode {
+F-XIXSopranoLyricsA = \lyricmode {
   Sa -- lu -- tis hu --
   ma -- nae sa -- _ tor, hu --
   ma -- nae sa -- _
@@ -60,7 +60,7 @@ M-XISopranoLyricsA = \lyricmode {
   men. %25 finis
 }
 
-M-XISopranoLyricsB = \lyricmode {
+F-XIXSopranoLyricsB = \lyricmode {
   Qua vi -- ctus es __
   _ cle -- men -- ti -- a, es __
   _ cle -- men -- ti --
@@ -86,7 +86,7 @@ M-XISopranoLyricsB = \lyricmode {
   res. %23 finis
 }
 
-M-XISopranoLyricsC = \lyricmode {
+F-XIXSopranoLyricsC = \lyricmode {
   Tu dux ad a --
   stra et se -- mi -- ta, a --
   stra et se -- mi --

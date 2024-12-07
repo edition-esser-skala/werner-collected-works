@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-M-XIBasso = {
+F-XIXBasso = {
   \relative c {
     \clef bass
-    \key a \minor \time 3/2 \tempoM-XI \autoBeamOff
+    \key a \minor \time 3/2 \tempoF-XIX \autoBeamOff
     R1.*4
     r2 r e %5
     fis d4 g2 fis8([ e)]
@@ -29,7 +29,7 @@ M-XIBasso = {
   }
 }
 
-M-XIBassoLyricsA = \lyricmode {
+F-XIXBassoLyricsA = \lyricmode {
   Sa -- %5
   lu -- tis hu -- ma --
   nae sa -- tor,
@@ -53,7 +53,7 @@ M-XIBassoLyricsA = \lyricmode {
   men. %25 finis
 }
 
-M-XIBassoLyricsB = \lyricmode {
+F-XIXBassoLyricsB = \lyricmode {
   Qua %5
   vi -- ctus es cle --
   men -- ti -- a
@@ -75,7 +75,7 @@ M-XIBassoLyricsB = \lyricmode {
   res. %23 finis
 }
 
-M-XIBassoLyricsC = \lyricmode {
+F-XIXBassoLyricsC = \lyricmode {
   Tu %5
   dux ad a -- stra~et
   se -- mi -- ta,
