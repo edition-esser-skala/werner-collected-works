@@ -13,21 +13,27 @@ sources:
     principal: true
     notes: only S, A, and org
   B2:
+    siglum: A-Ed
+    shelfmark: J 15
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/442.html
+    license: public domain
+    notes: only vlne
+  B3:
     siglum: H-K
     shelfmark: Ms.748
     rism: 530004560
     license: public domain
 toe: |
-  –  & –    & time signature in \B2: 3/8 \\
-  1  & S    & 1st \quarterNoteDotted\ in \B2: \flat b′8–d″8–\flat b′8 \\
-  3  & A    & 11th \eighthNote\ in \B2: f′8 \\
-  5  & A    & 3rd \quarterNoteDotted\ in \B2: g′4–g′8 \\
-  8  & S    & 5th \eighthNote\ in \B2: c″8 \\
-  9  & S    & 10th/11th \eighthNote\ in \B2: \sharp c″4 \\
-  12 & S    & last \eighthNote\ in \B2: a′8 \\
-  12 & A    & 4th \quarterNoteDotted\ in \B2: d4 \\
-  13 & A    & 2nd/3rd \eighthNote\ in \B2: d′8–d′8;
+  –  & –    & time signature in \B3: 3/8 \\
+  1  & S    & 1st \quarterNoteDotted\ in \B3: \flat b′8–d″8–\flat b′8 \\
+  3  & A    & 11th \eighthNote\ in \B3: f′8 \\
+  5  & A    & 3rd \quarterNoteDotted\ in \B3: g′4–g′8 \\
+  8  & S    & 5th \eighthNote\ in \B3: c″8 \\
+  9  & S    & 10th/11th \eighthNote\ in \B3: \sharp c″4 \\
+  12 & S    & last \eighthNote\ in \B3: a′8 \\
+  12 & A    & 4th \quarterNoteDotted\ in \B3: d4 \\
+  13 & A    & 2nd/3rd \eighthNote\ in \B3: d′8–d′8;
               8th/9th \eighthNote: f′8–f′8 \\
-  14 & A    & 6th \eighthNote\ in \B2: g′8;
+  14 & A    & 6th \eighthNote\ in \B3: g′8;
               9th \eighthNote: \flat e′8 \\
-  15 & vl 2 & 1st \quarterNoteDotted\ in \B2: \flat e″4–c″8 \\
+  15 & vl 2 & 1st \quarterNoteDotted\ in \B3: \flat e″4–c″8 \\
