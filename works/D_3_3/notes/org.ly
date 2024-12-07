@@ -1,452 +1,384 @@
 \version "2.24.0"
 
-D-III-III-aOrgano = {
-  \relative c {
-    \clef "treble_8"
-    \twotwotime \key d \minor \time 4/2 \tempoD-III-III-aa
-      \set Staff.timeSignatureFraction = 2/2
-      \markTimeSig #'(4 2)
-    a'1-! a-!
-    d,2 d'1 c2
-    b1 a
-    \clef bass d, d
-    a2 a'1 g2 %5
-    f4 e d c b2 << { g' } \\ { g, } >>
-    fis'1 d
-    b2. c4 d1
-    e\breve
-    a,1 r\fermata %10
-    \clef treble << { a'' b! } \\ { r2 a1 g2 } >>
-    \clef bass d,1 es
-    d c~
-    c2 b! a a'4 g
-    f2 cis d1~ \noBreak %15
-    d a\fermata \bar "||"
-    f'\breve \noBreak
-    f1. fis2
-    g es cis1
-    d\breve %20
-    << { d'2. b4 g2 es' } \\ { r g,2. es4 c2 } >>
-    b b'4 g es2. c4
-    a2 d2. b4 b'2
-    g2. es4 c2 f
-    d g es4 f g a %25
-    b2. a4 g f g2
-    a d, a1 \noBreak
-    d r\fermata \bar "||"
-    \tempoD-III-III-ab f2. f4 c1 \noBreak
-    g' d2 f %30
-    c1 d~
-    \time 2/2 \markTimeSig #'(2 2) d2 d \noBreak
-    \time 4/2 \markTimeSig #'(4 2) a\breve \bar "||"
-    \clef treble \time 4/4 \tempoD-III-III-ac \newSpacingSection
-      \unset Staff.timeSignatureFraction
-      a''4. a8 b! g es d \noBreak
-    << {
-      r e'!4 e8 f d b! a %35
-      gis4. a16 h
-    } \\ {
-      cis,2 d4 \once \tieDashed f~ %35
-      f8 e!16 d e8 d
-    } >> \clef bass a4. a8
-    b! g es d cis2
-    d4 f~ f8 e16 d e8 d
-    c!4 d e2
-    a,8 \clef treble << { d'' b! a gis a h16 a h8 a } \\ { f g! f e f e d cis } >> %40
-    \clef bass b! a g! fis2
-    g8 f es d c! \clef "treble_8" c'[ as g]
-    fis2 g8 \clef bass f[ es d]
-    c4 c'8 b! a g f b
-    a4 a, d r %45
-    r8 f f f b4 fis \noBreak
-    g2 d\fermata \bar "||"
-    \clef "treble_8" \tempoD-III-III-ad \time 3/2 \newSpacingSection
-      f'!1^\aTre f2 \noBreak
-    b,4 c d e f2
-    b, g4 a b c %50
-    d2 d h
-    c a b
-    a g1 \noBreak
-    \time 4/2 \set Staff.timeSignatureFraction = 2/2
-      f2 f g a \noBreak
-    b g a1 %55
-    g2 f4 e d e f g
-    a2 r f b~
-    b4 a g2. f4 e2~
-    e4 d c2 d1
-    e\breve %60
-    a\fermata \markSpiritusDaCapo \bar "||" %61 finis
-  }
-}
-
-D-III-III-aBassFigures = \figuremode {
-  r\breve
-  <12>2 <5>1 <[6]>2
-  <3> <10> <4> <3>
-  <6 [5]> <\t 4> <5 \t> <\t 3>
-  <4> <3> <2>1 %5
-  <6>\breve
-  <[6]>1 <_+>
-  <6> <4>2 <_!>
-  <7 _+> <6 4> <5[!] \t> <\t _+>
-  r\breve %10
-  r
-  <4>2 <_+> <7> <6>
-  <7 [_!]> <6> <_->1
-  r2 \bo <[6]> \bc <[5!] _+>1
-  <6>2 <[6]> <9> <8> %15
-  <4\+ 3>1 <_+>
-  <5[!] 3> <6 4>2 <7- 5>
-  <6 \t> <\t 4> <5 \t> <\t 3>
-  <9> <[5]> <7 5 [_!]>1
-  <_+>\breve %20
-  r
-  <3>2 \bo <[6]> \bc <[5]> <6>4 <[_-]>
-  <6>2 <5> <6>1
-  <5>2 <6[-]> <[_-]>1
-  r\breve %25
-  r1. <6!>4 <5>
-  \bo <[9] _+> \bc <[8] \t> r2 <4> <_+>
-  r\breve
-  <[5!]>1 <4>2 <3>
-  \bo <[4]> \bc <[3]>1. %30
-  <4>2 <3> <7> <6!>4 <5>
-  <6! [4\+ 3]>1
-  <_+>\breve
-  r1
-  r %35
-  r2 <_+>
-  r4. \bo <[6 _]>8 <6 _!>2
-  r4 \bc <[6 4-]>8 \bc <[\t 3]> \bo <[4!] 2\+>4 \bc <[5!] _+>
-  <6> <8 6[!]>8 <7 5> <6 4>4 <5[!] _+>
-  r1 %40
-  r8 <6\! 2\+> \bassFigureExtendersOn q q \bassFigureExtendersOff <6> <7-> <6> <5[!]>
-  r2 <_->8 <3[-]> <3> <6[-]>
-  <6 [_!]> <7-> <6> <5> <_!> <4! _-> <6> <8>
-  <_->4. <3>8 <[5!] _+>4 <6>8 q
-  <6 4>4 <5 _+>2. %45
-  r8 \bo <[5!]> r2 \bc <[6]>4
-  <9> <8> <[_+]>2
-  r1.
-  r
-  r2. \bo <[6\\]>4 \bc <[6]>2 %50
-  <_+>1 <[5\+]>2
-  r <5>4 <6[!]>2.
-  <[6]>2 <7> <6!>
-  r1. <3>2
-  q <6> <[6]>1 %55
-  r <6>
-  q\breve
-  r2 <_!>1.
-  r1 <7>2 <6!>4 <5>
-  <[5!] _+>2 <6 4> <5[!] \t> <\t _+> %60
-  r\breve %61 finis
-}
-
-D-III-III-bOrgano = {
+D-III-IIIaOrgano = {
   \relative c {
     \clef bass
-    \key e \minor \time 4/2 \tempoD-III-III-ba
+    \key b \major \time 4/2 \tempoD-III-IIIaa
       \set Staff.timeSignatureFraction = 2/2
-      \markTimeSig #'(4 2)
-    e\breve
-    e2 e e1
-    d c
-    r2 a e'1
-    e h~ \noBreak %5
-    h e\fermata \bar "||"
-    c2. c4 f2 c \noBreak
-    g' e f4 g a h
-    c2. h4 a g fis e
-    dis2 e h1 %10
-    e r\fermata
-    g,2 g'1 d2~
-    d a'1 a2
-    e1 \clef treble << {
-      c''2.^\critnote h4
-      c2 d e
-    } \\ {
-      a,2. g!4
-      g2 h c4 h
-    } >> \clef bass c,,2 %15
-    g'2. e4 f2 d
-    e a, e'1
-    a, r2\fermata a'
-    g! e2. e4 c2
-    a1 h2 h'-! %20
-    << { r2 e } \\ { c1 } >> a2 h
-    g a d,!2. d4
-    c2 e f d
-    e1 c2 h
-    a\breve \noBreak %25
-    e'\fermata \bar "||"
-    \clef treble \time 4/4 \tempoD-III-III-bb \newSpacingSection
+    b'1 g
+    es c2 c
+    h c g1
+    c es2 c
+    f1 g %5
+    f r2 d
+    g f es1
+    d c2 c
+    es c f!1
+    a, b2 a %10
+    b1 f
+    r2 d'2. d4 g2
+    f! f d b
+    g'\breve \noBreak
+    f\fermata \bar "||" %15
+    \time 3/2 \tempoD-III-IIIab
       \unset Staff.timeSignatureFraction
-    << {
-      r2 c''4 d~ \noBreak
-      d h c8 d c h
-    } \\ {
-      g!4 a2 fis4
-      g8 a g fis e fis g4
-    } >>
-    \clef "treble_8" d2 \clef bass g,4 a~
-    a fis g4. a8 %30
-    g f e4 d2
-    c4 c'4. h8 a g
-    fis!4 g2 f4
-    e f d e
-    a, \clef "treble_8" a' h gis %35
-    a \clef bass d, e c!
-    d8 c h4 a2
-    g4 \clef treble << { g'' a h c } \\ { r r d, e } >>
-    \clef "treble_8" a, h \clef bass e,
-    fis gis a f %40
-    d2 e4 c8 a
-    e2 a4 r
-    r f' e d
-    cis2 d4 f8 e
-    d4 c h2 %45
-    e h~ \noBreak
-    h e,\fermata \bar "||"
-    \clef "treble_8" \time 3/2 \tempoD-III-III-bc \newSpacingSection
-      g'4^\aTre a h2 g \noBreak
-    d' h e
-    a, fis g! %50
-    d1 r2
-    r e fis
-    g4 fis e2 d
-    a'2. g4 fis2
-    e g a %55
-    h4 a8 g fis2 h
-    e, g a
-    d, d' cis4 h
-    a1.
-    a1 g4 fis %60
-    e2 fis g
-    fis4 e d2 e
-    fis e4 d cis2
-    d a'1
-    d,1.\fermata \markVosFugamDaCapo \bar "||" %65 finis
+      b,2-! b'2.-! b4-! \noBreak
+    a c f, as2 as4
+    << { g b es2. es4 } \\ { es,2. g2 es4 } >>
+    b'2 g1
+    f2 d1 %20
+    c2 c1
+    b!2 b2. c4
+    d2 e f
+    b, c1
+    f,4 f'2 f4 e g %25
+    c, es2 es4 d f
+    b,2 d4 b f' es
+    d2 c2. b4
+    a2 a b4 a
+    g g'2 f8 es d4 es %30
+    f2. es8 d c4 d
+    es2. d8 c b2
+    c d1
+    g,2 r4 g' f! es
+    d b8 c d2 es %35
+    f4 d g1
+    f es!2
+    d4 b c d es f
+    g2 f4 es d2
+    es f f, \noBreak %40
+    b1 r2\fermata \bar "||"
+    \clef "treble_8" \tempoD-III-IIIac d'1^\aTre d2 \noBreak
+    g, c f,!
+    b! es,1
+    d d2 %45
+    e f! fis
+    g1 g2
+    a b h
+    c g a
+    b! g d %50
+    es f1
+    b2 f g
+    a f g
+    gis a1
+    d, r2\fermata \markEtTerribilibusUtSupra \bar "||" %55 finis
+
   }
 }
 
-D-III-III-bBassFigures = \figuremode {
-  <_+>\breve
-  r1 <5 _+>2 <6\\ \t>
-  \bo <8 5 [_!]> \bc <\t 6 [\t]>1.
-  r1 <5 4>2 <\t _!>
-  <5> <6\\> <5 _+> <6 4> %5
-  <5 \t> <\t _+> \bo <[_+]>1
-  <5!>\breve
-  r2 <6>1 <6!>4 \bc <[\t]>
-  r\breve
-  <6 5 [_+]>1 <4>2 <_+> %10
-  r\breve
-  <[5!]>
-  r
-  <_+>
-  r1. <[5!]>2 %15
-  r2. <6> <[_!]>2
-  <7 _+>1 <4>2 <_+>
+D-III-IIIaBassFigures = \figuremode {
   r\breve
   <5>2 <6>1.
-  r1 <_+> %20
-  r <6!>2 <[5\+] _+>
-  <6> <_+> <5 _!> <6 \t>
-  r <[6]>1 <6 [_!]>2
-  <_+>1 <6>2 <6\\>
-  r\breve %25
-  <_+>
-  r1
-  r
-  <5 4>4 <\t _+> <6> <_+>
-  r <6> r4. <_!>8 %30
-  r4 <6> \bo <7 [_!]> \bc <6 [\t]>
-  r1
-  <[6]>4 <3> <4 2> <6>
-  <7 _+> <5> <6 5 [_!]> <_+>
-  r <10> q <6> %35
-  <10+> <_+> <5> <6>
+  <[6]>1 <4>2 <_!>
+  r1 <6>
+  <5>2 <6> <7> <6!> %5
+  r1. <_!>2
   r <[6]> <7> <6>
-  r1
-  r4 <6> q <6\\>
-  <6> <\t> <[_!]> <5> %40
-  \bo <5 [_!]> \bc <6 [\t]> <_+> <[6]>
-  <4> <_+>2.
-  r4 <6> <6\\> <6- [_!]>
-  <6> <5> <_!>2
-  q4 <6> <7 [5\+] _+>2 %45
-  <_!> <6 4>
-  <5 _+>1
+  <5 4> <\t _+> <5 _->1
+  <6>\breve
+  \bo <[6]>1. \bc q2 %10
+  <9> <8>1.
+  r2 <_+>1.
+  r1 <[6]>
+  <5> <6!>
+  r\breve %15
   r1.
-  r2 <5> <_+>
-  r <6>1 %50
+  r
+  r
+  r2 <5>2. <6!>4
+  r2 <5>2. <6!>4 %20
+  <_!>2 <5 _->2. <6 \t>4
+  r2 r2. <_!>4
+  <5>2 <6>1
+  r2 <4> <_!>
+  r2. <6>4 q <_!> %25
+  r <6>2. <6[-]>4 <_!>
+  r1 r4 <[6]>
+  <6>2 <4> <_!>4 <[6]>
+  <6> <5[-]>1 \bo <[6]>4
+  r1 <6>2 %30
+  r1 r4 \bc <[6]>
   r1.
-  r2 <6>1
-  r2 <6\\>1
-  <_+> <6>2
-  r1 <[7] _+>2 %55
-  r1 <6 4>4 <5 _+>
-  r1 <6 4[!]>4 <5 _+>
+  \bo <[8] 6>4 \bc <[7] 5> <4>2 <_+>
+  r2. <10>4 q q
+  <6>1 q2 %35
+  r <7> <6!>
   r1.
-  <8 _+>1 <7 5>4 <6 4>
-  \bo <[5] _+>1 <\tllur>4 <6> %60
+  \bo <[6]>
+  r2. <6>4 \bc <[6]>2
+  <6>4 <5> <4>2 <3> %40
   r1.
-  <\tllur>4 \bc <[6\\]>2. <6\\>4 <5>
-  <3>1 <[6]>2
-  r2 <4> <_+>
-  r1. %65 finis
+  <_+>
+  <_!>2 <_->1
+  r2 <7> <6>
+  <_+>1. %45
+  <6\\>2 <6 3> <5[!]>
+  r1.
+  <6\\>2 <6 3> <5[!]>
+  <_!> <6 _-> <\t>
+  r1 <6>2 %50
+  q4 <[5]> <4>2 <3>
+  r2 <6> <5>
+  <[5!] _+> <6> <5>
+  <7 5 [_!]> \bo <[5!] 4> \bc <[\t] _+>
+  r1. %55 finis
 }
 
-D-III-III-cOrgano = {
+D-III-IIIbOrgano = {
   \relative c {
     \clef bass
-    \key b \major \time 4/2 \tempoD-III-III-ca
+    \key g \dorian \time 4/2 \tempoD-III-IIIba
       \set Staff.timeSignatureFraction = 2/2
-      \markTimeSig #'(4 2)
-    b1 b'
-    f2 fis g1
-    es\breve
-    d2 d1 g2
-    c, f! b2. b4 %5
-    f2 g d es
+    g2 g' d1
+    g, g'2. f!4
+    es2. d4 c2. d8 es
+    f2 b, es1 \noBreak
+    d\breve\fermata \bar "||" %5
+    \tempoD-III-IIIbb d2-! d2.-! d4-! b-! d-! \noBreak
+    << { g2 g2. g4 f! a } \\ { es1 d2. c4 } >>
+    b c d es? f \hA es d c
+    b2 b'2. a4 g f
+    es c g a b c d2 %10
+    g,4 a b c d e f g
+    a2 d, a2. a4
+    d2 g2. es4 c!2
     f d4 b f1
-    b r\fermata
-    g c2 c~
-    c b! es1 %10
-    as2 f c' c,~
-    c c f1
-    es! as2. g4
-    f2 es d1~
-    d g,2 g'~ %15
-    g f! b, b'~
-    b f g1~
-    g d2 d~
-    d c! h1
-    c cis2 cis %20
-    d d' b! fis
-    g1 f
-    es h
-    c\breve \noBreak
-    g\fermata \bar "||" %25
-    \tempoD-III-III-cb b!2-! b'1 a2 \noBreak
-    << { es^\critnote es'1 d2 } \\ { g,1 f } >>
-    es1. d2
-    c1 b
-    \clef treble << { c''^\critnote b2 } \\ { f2 es d } >> \clef bass d, %30
-    es4 f g a b2 f
-    g1 f2 d
-    c f c1
-    f2. es!4 d2 c
-    r b c4 d es f %35
-    g2. f4 es1~
-    es2 d c1
-    b4 a g2 f d'
-    es!4 f g a b2 f
-    g es f b %40
-    f1 f, \noBreak
-    b\breve \bar "||"
-    \clef "treble_8" \time 3/2 \tempoD-III-III-cc \newSpacingSection
-      g'2^\aTre b g \noBreak
-    d' d, r
-    c c' c %45
-    c4 h g2 b
-    a h4 a h2
-    c g a
-    b! f g
-    a e? fis %50
-    g d g
-    es! f!1
-    b2 d b
-    f'1 d2
-    c es, c %55
-    g'1 es2
-    d fis d
-    a' e fis
-    g b g
-    d' a h %60
-    c g a
-    b! d b
-    f' c d
-    es! es, c
-    g' d e %65
-    f c d
-    es! b c
-    d b' fis
-    g1.
-    d1 r2\fermata \markCuiusDaCapo \bar "||" %70 finis
+    b r2 \clef "treble_8" << {
+      d'~ %15
+      d4 d b2 g'1
+      f2 b2. a8 g a4 f
+      g1
+    } \\ {
+      s2 %15
+      g,2. g4 es2 es'~
+      es4 d8 c d4 b c f, f'2~
+      f4 es d c8 b
+    } >> \clef bass d,2. d4
+    b2 b'1 a4 g
+    a d, d'2. c4 g a %20
+    b a f g a2 a,
+    r d-! d-! << {
+      a'
+      a a c1
+      h2 cis
+    } \\ {
+      d,2 %22
+      f1 e!2 a~
+      a g
+    } >> f g
+    f4 g f e d e f g %25
+    a1 g
+    f2 a1 g2
+    d1 f2. f4
+    d2 g2. g4 fis2
+    g e f d4 b %30
+    f1 b2 \clef "treble_8" << {
+      g''~
+      g4 g e2 f d
+    } \\ {
+      b2 %31
+      c2. c4 a2 b
+    } >>
+    \clef bass es, f2. f4 d2
+    es1 d2 g
+    c, d es d4 c %35
+    b1 c
+    d\breve \noBreak
+    g,\fermata \bar "||"
+    \clef "treble_8" \time 3/2 \tempoD-III-IIIbc
+      \unset Staff.timeSignatureFraction
+      d'2.^\aTre e4 f! g \noBreak
+    a2 d, e %40
+    f f' e
+    d d,4 e f2
+    b g1
+    d2 d' g,
+    c f,!1 %45
+    g2 es4 f g a
+    b1 a2
+    b g c
+    a g1
+    f2 f' es4 d %50
+    c1 b4 a
+    g2. a4 b c
+    d2. c4 b2
+    fis g1
+    d r2\fermata \markEtOmnisDaCapo \bar "||" %55 finis
   }
 }
 
-D-III-III-cBassFigures = \figuremode {
+D-III-IIIbBassFigures = \figuremode {
+  r1 <4>2 <_+>
   r\breve
-  <4>2 <3> <9> <8>
-  <5->1 <6\\>
-  \bo <[5] _+>1 <6 \t>2 \bc <[7!] _!>
-  r1 <9>2 <8> %5
+  r1 <[_-]>
+  r <7>2 <6>
+  <_+>\breve %5
+  r
+  r
+  r
+  r
+  r2 <6[-]> <6>1 %10
+  <9>2 <6> <4> <6>
+  <_+>1 <4>2 <_+>
+  r1. \bo <[_-]>2
+  r \bc <[6]> <4> <3>
+  r\breve %15
+  r
+  r
+  r1 <4>2 <_+>
+  <6> <\t>1.
+  <6[!]> <6->2 %20
+  r <[6]> <6 4> <5 _+>
+  r\breve
+  r
   r1 <6>
-  r2 <[6]> <4> <3>
+  <[6]>\breve %25
+  <5 [_!]>2 <6\\>1.
+  r2 <8> <9>1
+  <4>2 <3> <6>1
+  <6->2 <5 _-> <\t 2> <6>
+  <9 _!> <6> <3> <6[-]> %30
+  <4> <3>1.
   r\breve
-  <_!>1 <_->
-  r <5>2 <6> %10
-  r <[_-]> <_!> <\t>
-  r1 <5 _->2 <6 \t>
-  r1 <5>2 <6>4 <8 [6]>
-  <6 _->2 <6> <7 [5!] _+> <6 4>
-  <4> <_+>1. %15
+  <6>2 <5>1 <[6]>2
+  <7 5> <6> <7 _+>1
+  <6 [_-]>2 <_+>1 \bo <[\tllur]>4 \bc <[_-]> %35
+  <6>1 \bo <9 7 [_-]>2 \bc <8 6 [\t]>
+  <5 _+> <6 4> <5 \t> <\t _+>
   r\breve
-  r1 <9>2 <8>
-  <4\+ 3>1 <_+>
-  r2 <_-> <[6]>1
-  <_-> <7- [_!]> %20
-  <_+> <6>2 <[6]>
-  r1 <4! _->
-  <6> q2 <5>
-  <9> <8> <6[!] 4\+ 3>1
-  <[_!]>\breve %25
+  r1.
+  <_!>2 <6-> <\t> %40
+  r <6> q
+  q1.
+  r2 <5>2. <6>4
+  <_+>2 <\t> <_!>
+  <_->1. %45
+  r
+  <5>4 <6> <4- 2>2 <\t \t>
+  r1 <_!>2
+  <[6]> <7> <6!>
+  r1. %50
+  <[_-]>1 <6>2
+  r1 <[6 4]>2
+  <_+>1 <6>2
+  <[6]>1.
+  <_+> %55 finis
+}
+
+D-III-IIIcOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/2 \tempoD-III-IIIca
+      \set Staff.timeSignatureFraction = 2/2
+    f1 c
+    d2 e f1
+    r2 d e f
+    d e a, a'~
+    a e g!1 %5
+    f c
+    r2 b'1 f2
+    a1 g
+    f c2 d
+    e1 c2 a %10
+    <e e'>\breve \noBreak
+    a\fermata \bar "||"
+    \tempoD-III-IIIcb f'1-! g!2.-! g4-! \noBreak
+    << {
+      c1 d2. d4
+      c2 e
+    } \\ {
+      f,2 a d,4 e f g
+      a2 g
+    } >> f4 e d2 %15
+    c1 d2 c
+    b4 c d e f2. e4
+    d e f g a2. g4
+    f e d2 c c
+    f e a g %20
+    f e d2. c4
+    b2 f' d4 e f2
+    b, c d e
+    f4 e d c h2 c
+    g1 c %25
+    r2 a1 a2
+    d g d1
+    g, r2 e'2~
+    e e a fis
+    d g e c %30
+    f!1 b,
+    c\breve \noBreak
+    f,\fermata \bar "||"
+    \clef "treble_8" \time 3/2 \tempoD-III-IIIcc
+      \unset Staff.timeSignatureFraction
+      a'1^\aTre gis2 \noBreak
+    a2. g4 f e %35
+    << { d'2~^\org d } \\ { d,_\markup \remark "vlne" d' } >> cis
+    d d, g
+    f! e1
+    f2 a b
+    a g1 %40
+    d'2 fis, d
+    g g' f!4 e
+    d1 b2
+    es1 d4 c
+    b2 g d %45
+    es f1
+    b2 g1
+    a2 f b
+    g a1
+    d, r2\fermata \markQuomodoDaCapo \bar "||" %50 finis
+  }
+}
+
+D-III-IIIcBassFigures = \figuremode {
+  r1 <5 4>2 <6 3>
+  <6> <\t> <9> <8>
+  r1 <7 [5!] _+>2 <5>
+  <6[!] 5> <[5!] _+>1 \bo <[1]>2
+  r \bc <[8]> <6 _!>1 %5
+  <6>2 <5> <6>1
+  r2 \bo <[6]> <5>1
+  \bc <[6]> <5>2 <6>
+  r1 <[6]>2 <6!>
+  <8 [5!] _+>1 <[6]> %10
+  <5[!] 4>1 <\t _+>
+  r\breve
   r
   r
-  <6>1 <5 2>2 <6>
-  <7> <6> <6 4> <5 3>
-  r1. <6>2 %30
+  r1 <8 3> %15
+  r1. <6>2
+  <3>4 q q q r1
+  <6>\breve
+  <6>2 <5>4 <6!> r1
+  r2 <6> q \bo <[6]> %20
+  <3> q \bc <[3]>1
+  r <6>
+  r <6>2 <\t>
+  r1 <6 5>
+  <4>2 <_!>1. %25
+  r2 <_+>1.
+  q2 <_-> <4> <_+>
+  r1. <[5!] _+>2
+  r1. \bo <[6]>2
+  \bc <[_+]> <_!> <[6]>1 %30
+  <9>2 <8> <5> <6>
+  \bo <[5 3]> <6 4> <5 \t> \bc <[\t 3]>
   r\breve
-  <5>2. <6!> q2
-  <_!>1 <4>2 <_!>
-  r1 <[6]>2 <6>
-  r\breve %35
+  <5 _+>2 <6 4> <7 5>
+  <_+>1. %35
+  <[5] _+>2 <6- 4> <\t \t>
+  <_+>1.
+  <6>2 q1
+  r1.
+  <6\\>2 <4> <3> %40
+  <_+>1.
   r
-  <5 2>2 <6> <5> <6>
-  r <5>4 <6!> r2 <[3]>
-  r1. \bo <[8] 6>4 \bc <[7] 5>
-  r2 <6> <[7]>1 %40
-  <4>1 <3>
-  r\breve
-  r1.
-  <4>2 <_+>1
-  <4>2 <_!> <_-> %45
-  <5 2>4 \bo <[\t \t]> \bc <[_! _]>2 <6>
-  <7>4 <6\\> <6>2 <[5!]>
-  <4> <6- [_-]> <6 5>
-  r <6> \bo <[8] 6!>4 \bc <[7] 5>
-  <[5!] _+>2 <6!> <6 5> %50
-  <_!> <6-> <_->
-  \bo <[6]>4 \bc <[5]> <4>2 <3>
-  r1.
-  r1 <6!>2
-  <_-> <6>1 %55
-  <[_-]> <6\\>2
-  <[5!] _+>1 <_!>2
-  <_+>2 <[6!]> <5>
-  r1.
-  <_+>2 <[6!]> <5> %60
-  <_!>2 <_-> <5->
-  r1.
-  r2 <6-> <5[-]>
-  <9> <6>1
-  <_!>2 <6-> <5> %65
-  <_!> <6-> <\t>
-  r <[6]> <6[!]>4 <5>
-  <_+>2 <6> q
-  <9> <8> <6 4\+>
-  <[_+]>1. %70 finis
+  <6>
+  r
+  r2 <6-> <6> %45
+  r <9 4> <8 3>
+  r <5> <6!>
+  <_+> <6>1
+  r2 <4> <_+>
+  r1. %50 finis
 }

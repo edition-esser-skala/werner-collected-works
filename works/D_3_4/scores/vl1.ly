@@ -13,7 +13,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-III-V-aViolinoII }
+        \new Staff { \D-III-IV-aViolinoI }
       >>
     }
   }
@@ -22,7 +22,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-III-V-bViolinoII }
+        \new Staff { \D-III-IV-bViolinoI }
       >>
     }
   }
@@ -31,7 +31,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-III-V-cViolinoII }
+        \new Staff { \D-III-IV-cViolinoI }
       >>
     }
   }
@@ -40,7 +40,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-III-V-dViolinoII }
+        \new Staff { \D-III-IV-dViolinoI }
       >>
     }
   }

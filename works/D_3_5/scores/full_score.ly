@@ -18,228 +18,60 @@
 
 \book {
   \bookpart {
-    \section "1" "Offertorium ad 1mum Evangelium"
+    \section "D.3.5" "Libera me"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = "Violino"
+            \set GrandStaff.instrumentName = "Viola"
             \new Staff {
-              \incipit "I" "soprano" #-16.1 #-0.8
-              \D-III-V-aViolinoI
+              \incipitVlISoprano
+              \D-III-VViolaI
             }
             \new Staff {
-              \incipit "II" "alto" #-16.4 #-0.8
-              \D-III-V-aViolinoII
+              \incipitVlIIAlto
+              \D-III-VViolaII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \incipitSoprano
-            \new Voice = "Soprano" { \dynamicUp \D-III-V-aSoprano }
+            \new Voice = "Soprano" { \dynamicUp \D-III-VSoprano }
           }
-          \new Lyrics \lyricsto Soprano \D-III-V-aSopranoLyrics
+          \new Lyrics \lyricsto Soprano \D-III-VSopranoLyrics
 
           \new Staff {
             \incipitAlto
-            \new Voice = "Alto" { \dynamicUp \D-III-V-aAlto }
+            \new Voice = "Alto" { \dynamicUp \D-III-VAlto }
           }
-          \new Lyrics \lyricsto Alto \D-III-V-aAltoLyrics
+          \new Lyrics \lyricsto Alto \D-III-VAltoLyrics
 
           \new Staff {
             \incipitTenore
-            \new Voice = "Tenore" { \dynamicUp \D-III-V-aTenore }
+            \new Voice = "Tenore" { \dynamicUp \D-III-VTenore }
           }
-          \new Lyrics \lyricsto Tenore \D-III-V-aTenoreLyrics
+          \new Lyrics \lyricsto Tenore \D-III-VTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \D-III-V-aBasso }
+            \new Voice = "Basso" { \dynamicUp \D-III-VBasso }
           }
-          \new Lyrics \lyricsto Basso \D-III-V-aBassoLyrics
+          \new Lyrics \lyricsto Basso \D-III-VBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
             % \transpose c c,
-            \D-III-V-aOrgano
+            \D-III-VOrgano
           }
         >>
-        \new FiguredBass { \D-III-V-aBassFigures }
+        \new FiguredBass { \D-III-VBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 110 }
-    }
-  }
-  \bookpart {
-    \section "2" "Offertorium ad 2dum Evangelium"
-    \addTocEntry
-    \score { %\articulate
-      <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \D-III-V-bViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \D-III-V-bViolinoII
-            }
-          >>
-        >>
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \D-III-V-bSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \D-III-V-bSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \D-III-V-bAlto }
-          }
-          \new Lyrics \lyricsto Alto \D-III-V-bAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \D-III-V-bTenore }
-          }
-          \new Lyrics \lyricsto Tenore \D-III-V-bTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \D-III-V-bBasso }
-          }
-          \new Lyrics \lyricsto Basso \D-III-V-bBassoLyrics
-        >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \D-III-V-bOrgano
-          }
-        >>
-        \new FiguredBass { \D-III-V-bBassFigures }
-      >>
-      \layout { }
-      \midi { \tempo 1. = 50 }
-    }
-  }
-  \bookpart {
-    \section "3" "Offertorium ad 3tium Evangelium"
-    \addTocEntry
-    \score { %\articulate
-      <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \D-III-V-cViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \D-III-V-cViolinoII
-            }
-          >>
-        >>
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \D-III-V-cSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \D-III-V-cSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \D-III-V-cAlto }
-          }
-          \new Lyrics \lyricsto Alto \D-III-V-cAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \D-III-V-cTenore }
-          }
-          \new Lyrics \lyricsto Tenore \D-III-V-cTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \D-III-V-cBasso }
-          }
-          \new Lyrics \lyricsto Basso \D-III-V-cBassoLyrics
-        >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \D-III-V-cOrgano
-          }
-        >>
-        \new FiguredBass { \D-III-V-cBassFigures }
-      >>
-      \layout { }
-      \midi { \tempo 2 = 90 }
-    }
-  }
-  \bookpart {
-    \section "4" "Offertorium ad 4tum Evangelium"
-    \addTocEntry
-    \score { %\articulate
-      <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \D-III-V-dViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \D-III-V-dViolinoII
-            }
-          >>
-        >>
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \D-III-V-dSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \D-III-V-dSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \D-III-V-dAlto }
-          }
-          \new Lyrics \lyricsto Alto \D-III-V-dAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \D-III-V-dTenore }
-          }
-          \new Lyrics \lyricsto Tenore \D-III-V-dTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \D-III-V-dBasso }
-          }
-          \new Lyrics \lyricsto Basso \D-III-V-dBassoLyrics
-        >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \D-III-V-dOrgano
-          }
-        >>
-        \new FiguredBass { \D-III-V-dBassFigures }
-      >>
-      \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 2 = 80 }
     }
   }
 }

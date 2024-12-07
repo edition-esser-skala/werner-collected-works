@@ -1,63 +1,27 @@
-title: 4 Offertoria in Festo Corporis Christi
-subtitle: O salutaris hostia · Da pacem Domine · Homo quidam fecit · Hic est panis
+title: Libera me
 id: WerW D.3.5
-genre: offertorium
-festival: Corpus Christi
-scoring: S, A, T, B (coro), 2 vl, b, org
+genre: responsory
+festival: Officium Defunctorum
+scoring: S, A, T, B (coro), 2 vla, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
-    shelfmark: F 32a
-    rism: 600038319
-    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/968.html
+    shelfmark: G 13 (1)
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/899.html
     license: public domain
     principal: true
-tocstyle: default
-toe: |
-  – & –   & –   & After every movement in the vocal parts, \B1 contains
-                  lyrics for antiphons at each station (see below). \\
-  1 & 11f & org & notes in treble ottavo clef added by editor \\
-  2 & 17  & org & bar in \B1: \flat B1–G2 \\*
-  3 & 69  & T   & 1st \halfNote\ in \B1: a8–g8–g4 \\
-lyrics: |
-  \textsb{1}\\
-  O salutaris hostia,\\
-  quae coeli pandis ostium:\\
-  bella premunt hostilia,\\
-  da robur, fer auxilium.\\
-  Uni trinoque Domino\\
-  sit sempiterna gloria,\\
-  qui vitam sine termino\\
-  nobis donet in patria.\\
-  Amen.\\[\baselineskip]
-  \textsb{Statio 1ma}\\
-  V: Cibavit eos ex adipe frumenti, alleluia.\\
-  R: Et de petra, melle saturavit eos, alleluia.\\[\baselineskip]
-  \textsb{2}\\
-  Da pacem, Domine in diebus nostris,\\
-  quia non est alius qui pugnet pro nobis,\\
-  nisi tu Deus noster.\\
-  Alleluia.\\[\baselineskip]
-  \textsb{Statio 2da}\\
-  V: Panem coeli didit eis, alleluia.\\
-  R: Panem Angelorum manducavit homo, alleluia.\\[\baselineskip]
-  \textsb{3}\\
-  Homo quidam fecit coenam magnam,\\
-  et misit servum suum hora\\
-  dicere invitatis ut venirent,\\
-  quia parata sunt omnia.\\
-  Venite, comedite panem meum,\\
-  et bibite vinum meum, quod miscui vobis.\\
-  (\bibleverse{Luk}(14:16-17), \bibleverse{Pro}(9:5))\\[\baselineskip]
-  \textsb{Statio 3tia}\\
-  V: Panem de coelo praestisti eis, alleluia.\\
-  R: Omne delecta mentum in se habentem, alleluia.\clearpage
-  \textsb{4}\\
-  Hic est panis vivus qui de coelo descendit.\\
-  Non sicut patres vestri manducaverunt manna et mortui sunt.\\
-  Si quis manducaverit ex hoc pane, vivet in aeternum.\\
-  (\bibleverse{John}(6:49-52))\\[\baselineskip]
-  \textsb{Statio 4ta}\\
-  V: Educas panem de terra, alleluia.\\
-  R: Et vinum laetificet cor hominis, alleluia.
+    notes: originally archived under shelfmark D 13
+lyrics:
+  Libera me, Domine, de morte aeterna,\\
+  in die illa tremenda,\\
+  quando coeli movendi sunt et terra.\\
+  Tremens factus sum ego, et timeo,\\
+  dum discussio venerit, atque ventura ira.\\
+  In die illa tremenda quando\\
+  coeli movendi sunt et terra.\\
+  Dies illa, dies irae, calamitatis et miseriae,\\
+  dies magna et amara valde.\\
+  Quando coeli movendi sunt et terra.\\
+  Requiem aeternam dona eis, Domine:\\
+  et lux perpetua luceat eis.

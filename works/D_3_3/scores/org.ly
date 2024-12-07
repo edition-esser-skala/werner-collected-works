@@ -7,34 +7,33 @@
 
 \book {
   \bookpart {
-    \section "1" "In monte oliveti"
+    \section "1" "Omnes amici mei"
     \addTocEntry
-    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \D-III-III-aOrgano }
-        \new FiguredBass { \D-III-III-aBassFigures }
+        \new Staff { \D-III-IIIaOrgano }
+        \new FiguredBass { \D-III-IIIaBassFigures }
       >>
     }
   }
   \bookpart {
-    \section "2" "Tristis est anima"
+    \section "2" "Velum templi scissum"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-III-III-bOrgano }
-        \new FiguredBass { \D-III-III-bBassFigures }
+        \new Staff { \D-III-IIIbOrgano }
+        \new FiguredBass { \D-III-IIIbBassFigures }
       >>
     }
   }
   \bookpart {
-    \section "3" "Ecce vidimus eum"
+    \section "3" "Vinea mea electa"
     \addTocEntry
-    \paper { page-count = #1 }
+    \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \D-III-III-cOrgano }
-        \new FiguredBass { \D-III-III-cBassFigures }
+        \new Staff { \D-III-IIIcOrgano }
+        \new FiguredBass { \D-III-IIIcBassFigures }
       >>
     }
   }

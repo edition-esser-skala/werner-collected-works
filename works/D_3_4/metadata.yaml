@@ -1,57 +1,63 @@
-title: 3 Responsoria in Parasceve
-subtitle: Omnes amici mei · Velum templi scissum · Vinea mea electa
+title: 4 Offertoria in Festo Corporis Christi
+subtitle: O salutaris hostia · Da pacem Domine · Homo quidam fecit · Hic est panis
 id: WerW D.3.4
-genre: responsory
-festival: Parasceve
-scoring: S, A, T, B (coro), b, org
+genre: offertorium
+festival: Corpus Christi
+scoring: S, A, T, B (coro), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
-    shelfmark: F 6
-    rism: 600038299
-    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/973.html
+    shelfmark: F 32a
+    rism: 600038319
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/968.html
     license: public domain
     principal: true
 tocstyle: default
 toe: |
-  1 & 10 & A & 2nd/3rd \halfNote\ in \B1: g′1 \\
-    & 40 & S & 2nd \halfNoteDotted\ in \B1: d″2 \\
-    & 40 & T & 2nd \halfNote\ in \B1: c′2 \\
-    & 42 & – & tempo indication in S, A, and org: “Larghetto”;
-               in T and vlne: “Largo” \\
-  2 & 12 & A & 3rd \halfNote\ in \B1: d′ \\
-    & 29 & B & 1st \halfNote\ in \B1: e2 \\
-  4 & 19 & A & 3rd \halfNote\ in \B1: a′2 \\
-    & 26 & A & 2nd to 4th \halfNote\ in \B1: e′2–e′1 \\
-extra_abbreviations:
-  vlne:
+  – & –   & –   & After every movement in the vocal parts, \B1 contains
+                  lyrics for antiphons at each station (see below). \\
+  1 & 11f & org & notes in treble ottavo clef added by editor \\
+  2 & 17  & org & bar in \B1: \flat B1–G2 \\*
+  3 & 69  & T   & 1st \halfNote\ in \B1: a8–g8–g4 \\
 lyrics: |
   \textsb{1}\\
-  Omnes amici mei dereliquerunt me,\\
-  et praevaluerunt insidiantes mihi:\\
-  tradidit me, quem diligebam.\\
-  Et terribilibus oculis plaga percutientes crudeli,\\
-  aceto potabant me.\\
-  Inter iniquos proiecerunt me,\\
-  et non pepercerunt animae meae.\\
-  (\bibleverse{Ps}(69/68:22))\\[\baselineskip]
+  O salutaris hostia,\\
+  quae coeli pandis ostium:\\
+  bella premunt hostilia,\\
+  da robur, fer auxilium.\\
+  Uni trinoque Domino\\
+  sit sempiterna gloria,\\
+  qui vitam sine termino\\
+  nobis donet in patria.\\
+  Amen.\\[\baselineskip]
+  \textsb{Statio 1ma}\\
+  V: Cibavit eos ex adipe frumenti, alleluia.\\
+  R: Et de petra, melle saturavit eos, alleluia.\\[\baselineskip]
   \textsb{2}\\
-  Velum templi scissum est,\\
-  et omnis terra tremuit.\\
-  Latro in cruce clamabat, dicens:\\
-  memento mei, Domine,\\
-  dum veneris in regnum tuum.\\
-  Petrae scissae sunt,\\
-  monumenta aperta sunt,\\
-  et multa corpora sanctorum\\
-  quae dormierant surrexerunt.\\
-  (\bibleverse{Mat}(27:51-52))\\[\baselineskip]
+  Da pacem, Domine in diebus nostris,\\
+  quia non est alius qui pugnet pro nobis,\\
+  nisi tu Deus noster.\\
+  Alleluia.\\[\baselineskip]
+  \textsb{Statio 2da}\\
+  V: Panem coeli didit eis, alleluia.\\
+  R: Panem Angelorum manducavit homo, alleluia.\\[\baselineskip]
   \textsb{3}\\
-  Vinea mea electa quam plantavi:\\
-  Quomodo conversa es in amaritudinem,\\
-  ut me crucifigeres,\\
-  et Barabbam dimitteres?\\
-  Sepivi te, et lapides elegi ex te,\\
-  et aedificavi turrim.\\
-  (\bibleverse{Jer}(2:21))
+  Homo quidam fecit coenam magnam,\\
+  et misit servum suum hora\\
+  dicere invitatis ut venirent,\\
+  quia parata sunt omnia.\\
+  Venite, comedite panem meum,\\
+  et bibite vinum meum, quod miscui vobis.\\
+  (\bibleverse{Luk}(14:16-17), \bibleverse{Pro}(9:5))\\[\baselineskip]
+  \textsb{Statio 3tia}\\
+  V: Panem de coelo praestisti eis, alleluia.\\
+  R: Omne delecta mentum in se habentem, alleluia.\clearpage
+  \textsb{4}\\
+  Hic est panis vivus qui de coelo descendit.\\
+  Non sicut patres vestri manducaverunt manna et mortui sunt.\\
+  Si quis manducaverit ex hoc pane, vivet in aeternum.\\
+  (\bibleverse{John}(6:49-52))\\[\baselineskip]
+  \textsb{Statio 4ta}\\
+  V: Educas panem de terra, alleluia.\\
+  R: Et vinum laetificet cor hominis, alleluia.

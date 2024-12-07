@@ -1,28 +1,29 @@
 \version "2.24.0"
 
-markSpiritusDaCapo = {
+markEtTerribilibusUtSupra = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Spiritus quidem da capo"
+  \mark \markup \remark "Et terribilibus ut supra"
 }
-markVosFugamDaCapo = {
+markEtOmnisDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Vos fugam da capo"
+  \mark \markup \remark "Et omnis terra da capo"
 }
-markCuiusDaCapo = {
+markQuomodoDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Cuius livore da capo"
+  \mark \markup \remark "Quomodo conversa da capo"
 }
 
-tempoD-III-III-aa = \tempoMarkup "Alla capella"
-  tempoD-III-III-ab = \tempoMarkup "Spiritus quidem"
-  tempoD-III-III-ac = \tempoMarkup "Allegro"
-  tempoD-III-III-ad = \tempoMarkup "[Largo]"
-tempoD-III-III-ba = \tempoMarkup "[Tempo deest]"
-  tempoD-III-III-bb = \tempoMarkup "Vos fugam · Presto"
-  tempoD-III-III-bc = \tempoMarkup "[Largo]"
-tempoD-III-III-ca = \tempoMarkup "[Tempo deest]"
-  tempoD-III-III-cb = \tempoMarkup "Cuius livore · Vivace"
-  tempoD-III-III-cc = \tempoMarkup "Largo"
+tempoD-III-IIIaa = \tempoMarkup "Allabreve moderato"
+tempoD-III-IIIab = \tempoMarkup "Et terribilibus · Vivace"
+tempoD-III-IIIac = \tempoMarkup "Larghetto / Largo"
+
+tempoD-III-IIIba = \tempoMarkup "Alla capella"
+tempoD-III-IIIbb = \tempoMarkup "Et omnis terra · [Tempo deest]"
+tempoD-III-IIIbc = \tempoMarkup "Largo"
+
+tempoD-III-IIIca = \tempoMarkup "Allabreve"
+tempoD-III-IIIcb = \tempoMarkup "Quomodo conversa · Vivace"
+tempoD-III-IIIcc = \tempoMarkup "Largo"
 
 \include "notes/S.ly"
 \include "notes/A.ly"

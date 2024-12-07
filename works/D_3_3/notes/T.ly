@@ -1,429 +1,358 @@
 \version "2.24.0"
 
-D-III-III-aTenore = {
+D-III-IIIaTenore = {
   \relative c' {
     \clef "treble_8"
-    \key d \minor \time 4/2 \tempoD-III-III-aa \autoBeamOff
+    \key b \major \time 4/2 \tempoD-III-IIIaa \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
-      \markTimeSig #'(4 2)
-    a1 a
-    d,2 d'1 c2
-    b1 a~
-    a2 g1 f2
-    e1 r2 g %5
-    a d d4( c) b( c)
-    d2 d,4 e fis g a fis
-    g a b2 a2. a4
-    gis2( a1 gis2)
-    a1 r\fermata %10
-    R\breve
-    r2 d1 c2~
-    c h c1
-    r2 d e! a,
-    a a a1 \noBreak %15
-    gis a\fermata \bar "||"
-    c b2 a4( g)
-    f2. f4 f2 a
-    b b4 b e!( d e2)
-    d\breve %20
-    d2. b4 g2 es'
-    d b2. g4 es2
-    c' a d1
-    r4 b2 g4 c2 a
-    d r b b4( c) %25
-    d2.( c4) b( c) b2~
-    b4 a a2 a1 \noBreak
-    a r\fermata \bar "||"
-    \tempoD-III-III-ab a2. a4 g1 \noBreak
-    g2( b) d c~ %30
-    c c a1
-    \time 2/2 \markTimeSig #'(2 2) gis2( h?) \noBreak
-    \time 4/2 \markTimeSig #'(4 2) a\breve\fermata \bar "||"
-    \time 4/4 \tempoD-III-III-ac \newSpacingSection
+    d1 b
+    b2 c1 c2
+    d es d1
+    c2 es c c
+    c( d1) b2 %5
+    c1 r2 d
+    b d1 c2
+    a( d) g, c
+    c c c( a)
+    c1 b2( c %10
+    d1) c
+    r2 d2. d4 d2
+    f! c d d
+    b1( g') \noBreak
+    c,\breve\fermata \bar "||" %15
+    \time 3/2 \tempoD-III-IIIab
       \unset Staff.timeSignatureFraction
-      R1*3 %36
-    r2 e'!4. e8
-    f([ d)] b! a gis2
-    a8 c! h a a([ gis16 fis?] gis4)
-    a r r2 %40
-    R1
-    d4. d8 es([ c!)] as g
-    fis2 g8 as g f
-    es c r4 r8 cis' d d,
-    a'2 a4 r %45
-    r8 c! f c d4. c8 \noBreak
-    b4._( a16[ g]) a2\fermata \bar "||"
-    \time 3/2 \tempoD-III-III-ad \newSpacingSection
-      r2^\aTre f'! f \noBreak
-    b,4( c) d( e) f2
-    b, g4( a b c) %50
-    d2 d h
-    c a b \noBreak
+      R1.*2
+    es,2 es'2. es4
+    d f b, d2 e4
+    f2 a, d %20
+    g, c2. c4
+    f,2 d'2.( c8[ b])
+    a2 g4( c) a2
+    b g2. g4
+    a1 r2 %25
+    R1.
+    d2. d4 c4. c8
+    b4( d) g,2. g4
+    a c2 c4 b c
+    d4.( c8) b4_( a8[ g)] b2 %30
+    a4 f a b c_( b8[ a)]
+    g2. a4 b( d)
+    c( b) a1\trill
+    g4 d g2 a
+    r r4 d c( b) %35
+    a d b( a) b2
+    a4 f g a b c
+    d2 c1
+    b2. c4 d2
+    c4( b) b2^\critnote a \noBreak %40
+    b1 r2\fermata \bar "||"
+    \tempoD-III-IIIac d2^\aTre d d \noBreak
+    g, c f,!
+    b! es,2. es4
+    d1 d2 %45
+    e f! fis
+    g1 g2
+    R1.
+    c2 g a
+    b! g d( %50
+    es) f1
+    b2 f g
+    a f g
+    gis a1
+    d, r2\fermata \markEtTerribilibusUtSupra \bar "||" %55 finis
+  }
+}
+
+D-III-IIIaTenoreLyrics = \lyricmode {
+  O -- mnes,
+  o -- mnes a --
+  mi -- ci me --
+  i de -- re -- li --
+  que -- runt %5
+  me, et
+  prae -- va -- lu --
+  e -- runt in --
+  si -- di -- an --
+  res mi -- %10
+  hi:
+  tra -- di -- dit
+  me, quem di -- li --
+  ge --
+  bam. %15
+
+  Et ter -- ri -- %18
+  bi -- li -- bus o -- cu --
+  lis, o -- cu -- %20
+  lis, o -- cu --
+  lis pla --
+  ga per -- cu --
+  ti -- en -- tes
+  me, %25
+
+  ter -- ri -- bi -- li --
+  bus o -- cu --
+  lis, ter -- ri -- bi -- li --
+  bus __ o -- cu -- %30
+  lis pla -- ga cru -- de --
+  li per -- cu --
+  ti -- en --
+  tes, a -- ce -- to,
+  a -- ce -- %35
+  to po -- ta -- bant
+  me, a -- ce -- _ _ _
+  _ _
+  to __ _ _
+  po -- ta -- bant %40
+  me.
+  In -- ter in --
+  i -- quos pro --
+  ie -- ce -- runt
+  me, et %45
+  non pe -- per --
+  ce -- runt
+
+  a -- ni -- mae,
+  a -- ni -- mae __ %50
+  me --
+  ae, a -- ni --
+  mae, a -- ni --
+  mae me --
+  ae. %55 finis
+}
+
+D-III-IIIbTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \dorian \time 4/2 \autoBeamOff \tempoD-III-IIIba
+      \set Staff.timeSignatureFraction = 2/2
+    d2 d d2.( c4)
+    b_( a g2) d' b~
+    b4 a g1 es'2
+    c( b1) es2 \noBreak
+    a,\breve\fermata \bar "||" %5
+    \tempoD-III-IIIbb R\breve \noBreak
+    g2 g2. g4 f! a
+    b2. b4 a2 f'4 es
+    d2. c4 b2. a4
+    g c( b) c b2 a~ %10
+    a4 a g2 r a~
+    a4 a a1 a2
+    a b2. g4 es2
+    r4 c' b( d) c2. c4
+    d1 r %15
+    g,2. g4 es2 es'~
+    es4 d8[ c] d4 b c f, f'2~
+    f4 es d c8([ b)] a1
+    g2 d' d( c4 b)
+    a2 f4( g) a2 b4( c) %20
+    d2. c8([ b)] a2.( g4
+    f e) d2 r a'
+    a a c1
+    h2( cis) d2. c8[ b?]
+    a4 b a g f e d2 %25
+    R\breve
+    a'2 a1 g2~
+    g4 g f2 r1
+    r d'
+    d2( c1) d2 %30
+    c1 d2 b
+    c2. c4 a2 b
+    g a1 d2~
+    d c d1
+    r2 a g2. a4 %35
+    b2. c8[ d] es1
+    d\breve \noBreak
+    d\fermata \bar "||"
+    \time 3/2 \tempoD-III-IIIbc
+      \unset Staff.timeSignatureFraction
+      d,2.(^\aTre e4 f! g) \noBreak
+    a2 d, e %40
+    f f' e
+    d( d,4 e) f2
+    b g2. g4
+    d2 d' g,
+    c f,!2. f4 %45
+    g2 es4( f) g a
+    b1 a2
+    b g c
     a g1
-    \time 4/2 \set Staff.timeSignatureFraction = 2/2
-      f2 f g a \noBreak
-    b g a1 %55
-    g2 f4 e d e f g
-    a2 r f b~
-    b4 a g2. f4 e2~
-    e4 d c2 d1
-    e\breve %60
-    a\fermata \markSpiritusDaCapo \bar "||" %61 finis
+    f2 f' es4( d) %50
+    c2 c r
+    g2.( a4) b( c)
+    d2. c4 b2
+    fis g1
+    d r2\fermata \markEtOmnisDaCapo \bar "||" %55 finis
   }
 }
 
-D-III-III-aTenoreLyrics = \lyricmode {
-  In mon --
-  te o -- li --
-  ve -- _
+D-III-IIIbTenoreLyrics = \lyricmode {
+  Ve -- lum tem --
+  pli __ scis -- _
+  _ _ sum,
+  scis -- sum
+  est, %5
+
+  et o -- mnis ter -- ra
+  tre -- mu -- it, tre -- _
+  _ _ _ mu --
+  it, tre -- mu -- it, tre -- %10
+  mu -- it, ter --
+  ra tre -- mu --
+  it, tre -- mu -- it,
+  ter -- ra __ tre -- mu --
+  it. %15
+  La -- tro in cru --
+  _ ce cla -- ma -- _ _
+  _ _ bat, di --
+  cens, cla -- ma --
+  bat, cla -- ma -- bat, %20
+  di -- cens, di --
+  cens: me --
+  men -- to me --
+  i, __ Do -- _
+  _ _ _ _ _ mi -- ne, %25
+
+  dum ve -- _
+  ne -- ris
+  in
+  re -- gnum %30
+  tu -- um, dum
+  ve -- ne -- ris in
+  re -- gnum tu --
+  _ um,
+  in re -- _ %35
+  _ _ gnum
+  tu --
+  um.
+  Pe --
+  trae scis -- sae %40
+  sunt, mo -- nu --
+  men -- ta
+  a -- per -- ta
+  sunt, et mul --
+  ta cor -- po -- %45
+  ra san -- cto -- _
   _ _
-  ti, in %5
-  mon -- te o -- li --
-  ve -- _ _ _ _ _ _
-  _ _ ti, o -- li --
-  ve --
-  ti %10
-
-  o -- ra --
-  _ bat
-  Pa -- trem, o --
-  ra -- bat ad %15
-  Pa -- trem:
-  Pa -- ter, si __
-  fi -- e -- ri, si
-  fi -- e -- ri po --
-  test, %20
-  trans -- e -- at a
-  me, trans -- e -- at,
-  trans -- e -- at,
-  trans -- e -- at a
-  me ca -- lix __ %25
-  i -- ste, __ ca --
-  _ lix i --
-  ste.
-  Spi -- ri -- tus
-  qui -- dem, qui -- %30
-  dem prom --
-  ptus __
-  est,
-
-  ca -- ro %37
-  au -- tem in -- fir --
-  ma, au -- tem in -- fir --
-  ma, %40
-
-  ca -- ro au -- tem in --
-  fir -- ma, au -- tem in --
-  fir -- ma, au -- tem in --
-  fir -- ma: %45
-  fi -- at vo -- lun -- tas
-  tu -- a.
-  Vi -- gi --
-  la -- te __ et
-  o -- ra -- %50
-  te, et o --
-  ra -- te, et
-  o -- ra --
-  te, ut non in --
-  tre -- tis, in -- %55
-  tre -- _ _ _ _ _ _
-  tis in ten --
-  _ ta -- ti -- o --
-  _ _ _
-  _ %60
-  nem. %61 finis
+  rum quae dor --
+  mi -- e --
+  rant sur -- re -- %50
+  xe -- runt,
+  sur -- re --
+  xe -- runt, sur --
+  re -- xe --
+  runt. %55 finis
 }
 
-D-III-III-bTenore = {
+D-III-IIIcTenore = {
   \relative c' {
     \clef "treble_8"
-    \key e \minor \time 4/2 \tempoD-III-III-ba \autoBeamOff
+    \key f \major \time 4/2 \autoBeamOff \tempoD-III-IIIca
       \set Staff.timeSignatureFraction = 2/2
-      \markTimeSig #'(4 2)
-    e1 e
-    e2 e2. e4 e2
-    f1 e
-    r2 e1 e2~
-    e4 e, g2 h1~ \noBreak %5
-    h h\fermata \bar "||"
-    g2. g4 a2 g \noBreak
-    g c a4 h c_( h8[ a]
-    g2) c e2. e4
-    fis!2 e e( dis) %10
-    e1 r\fermata
-    d!2 h1 a2~
-    a a a1
-    gis r
-    r r2 g %15
-    g2. c4 a2( d
-    h) c4( d) e1
-    e r2\fermata a,
-    h c2. c4 c2
-    c1 h %20
-    r2 e f( dis)
-    e cis( d2.) d4
-    g,1 r2 d'4( h)
-    gis( a) h2 c d
-    e e2. e4 e2 \noBreak %25
-    e\breve\fermata \bar "||"
-    \time 4/4 \tempoD-III-III-bb \newSpacingSection
-      \unset Staff.timeSignatureFraction
-      R1*2
-    d2 e
-    cis4 d4.( e8) d([ c)] %30
-    h4 c4. h8[ c d]
-    e4. d8 c4. h8
-    a4 h c d~
-    d c h2
-    r4 a h( gis) %35
-    a2 r
-    d4. d8 e4( a,)
-    d r r2
-    r4 a h cis
-    d4.( c16[ h] c4) a %40
-    f'4. f8 e4 e8 e
-    e2 e4 r
-    r a,8([ h)] cis4 d
-    e8([ d cis h!)] a4 a~
-    a a h2 %45
-    h h \noBreak
-    h h\fermata \bar "||"
-    \time 3/2 \tempoD-III-III-bc \newSpacingSection
-      g2(^\aTre h) g \noBreak
-    d' h e
-    a, fis( g!) %50
-    d1 r2
-    r e( fis)
-    g4( fis e2) d
-    a' a4( g) fis2
-    e g( a) %55
-    h4_( a8[ g)] fis2 h
-    e,( g a)
-    d, d' cis4( h)
-    a1.
-    a2 a g4( fis) %60
-    e2 fis g
-    fis4( e) d2 e
-    fis e4( d) cis2
-    d a'1
-    d,1.\fermata \markVosFugamDaCapo \bar "||" %65 finis
-  }
-}
-
-D-III-III-bTenoreLyrics = \lyricmode {
-  Tri -- stis
-  est a -- ni -- ma
-  me -- a
-  us -- que __
-  _ ad mor -- %5
-  tem:
-  Su -- sti -- ne -- te
-  hic et vi -- gi -- la --
-  te, vi -- gi --
-  la -- te me -- %10
-  cum,
-  su -- sti -- ne --
-  te hic,
-  hic
-  et %15
-  vi -- gi -- la --
-  te __ me --
-  cum, nunc
-  vi -- de -- bi -- tis
-  tur -- bam %20
-  quae cir --
-  cum -- da -- bit
-  me, quae
-  cir -- cum -- da -- bit,
-  cir -- cum -- da -- bit %25
-  me:
-
-  Vos fu -- %29
-  gam ca -- pi -- %30
-  e -- _ _
-  _ _ _ tis,
-  ca -- pi -- e -- _
-  _ tis,
-  vos fu -- %35
-  gam
-  ca -- pi -- e --
-  tis,
-  et e -- go
-  va -- dam %40
-  im -- mo -- la -- ri pro
-  vo -- bis,
-  et __ e -- go
-  va -- dam im --
-  mo -- la -- %45
-  ri pro
-  vo -- bis.
-  Ec -- ce
-  ap -- pro -- pin --
-  quat ho -- %50
-  ra,
-  et __
-  Fi -- li --
-  us ho -- mi --
-  nis tra -- %55
-  de -- tur in
-  ma --
-  nus pec -- ca --
-  to --
-  rum, pec -- ca -- %60
-  to -- rum, pec --
-  ca -- to -- rum,
-  pec -- ca -- to --
-  _ _
-  rum. %65 finis
-}
-
-D-III-III-cTenore = {
-  \relative c' {
-    \clef "treble_8"
-    \key b \major \time 4/2 \tempoD-III-III-ca \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
-      \markTimeSig #'(4 2)
-    b1 b
-    c2 d d1
-    es( cis)
-    d2 d1 d2
-    es c d2. d4 %5
-    c2 b d c
-    c( d c1)
-    d r\fermata
-    d es
-    es2 d4( c) b2 c~ %10
-    c c c1
-    e2 e f1
-    b, c2.( b4)
-    as2 c a( b4 c
-    d1) d2 \once \tieDashed g,~ %15
-    g a b1~
-    b2 a g b4 a
-    g fis g2 fis d'~
-    d es! d d
-    c c e e %20
-    a,1 d
-    b2 b h h
-    c1 d
-    g,( fis) \noBreak
-    g\breve\fermata \bar "||" %25
-    \tempoD-III-III-cb R\breve \noBreak
-    es2 es'1 d2
-    c4( b g a) b2 d
-    g,( a) b1
-    R\breve %30
-    r1 r2 c
-    b1 a2 d
-    g, a g1
-    a2 f f4( g) a8([ b] c4)
-    d2 b r1 %35
+    c1 c2 c
+    f,4( f' e d) c2 c
+    f1 e2 a,
+    f'( e) e1
+    r2 e1 h2 %5
+    d( a4 h) c1
     R\breve
-    r1 r2 a
-    b4( c) d( e) f1(
-    es) d2 f
-    b, c a b~ %40
-    b a4 g a1 \noBreak
-    b\breve\fermata \bar "||"
-    \time 3/2 \tempoD-III-III-cc \newSpacingSection
-      \after 4*0 ^\aTre R1.*2
-    c,2 c' c %45
-    c4( h) g2( b)
-    a( h4 a) h2
-    c( g) a
-    b! f( g)
-    a e?( fis) %50
-    g d g
-    es! f!1
-    b2 d b
-    f'1( d2)
-    c es, c %55
-    g'1( es2)
-    d r r
-    a' e fis
-    g4( fis) g2 r
-    d' a h %60
-    c( g a)
-    b! r b
-    f'( c d)
-    es!1 c,2
-    g' d e %65
-    f c d
-    es! r r
-    d b' fis
-    g1.
-    d1 r2\fermata \markCuiusDaCapo \bar "||" %70 finis
+    r2 f g4( f g2)
+    c,1 r
+    r2 h c4( d) e2 %10
+    e1 e \noBreak
+    e\breve\fermata \bar "||"
+    \tempoD-III-IIIcb R\breve \noBreak
+    c1( d2.) d4
+    c2 e a,4( h) c( d) %15
+    e2 c a1(
+    b!2.) b4 a2 f
+    b a4( b) c( b) a2
+    a4( g) f2 g r
+    R\breve %20
+    r1 r2 f
+    b( a) d c
+    b a4( g) f2 r
+    r f g g
+    g2. g4 g1 %25
+    r2 a1 a2
+    a b a2. a4
+    g1 r2 e'~
+    e e e d~
+    d d c1~ %30
+    c2 c b b
+    g( a) g1 \noBreak
+    a\breve\fermata \bar "||"
+    \time 3/2 \tempoD-III-IIIcc
+      \unset Staff.timeSignatureFraction
+      a2^\aTre a gis \noBreak
+    a1 r2 %35
+    d d cis
+    d r g,(
+    f!) e2. e4
+    f2 a b
+    a g1 %40
+    d'2 r r
+    R1.
+    d1 b2
+    es1 d4( c)
+    b2( g) d( %45
+    es) f1
+    b2 g1
+    a2 f b
+    g a1
+    d, r2\fermata \markQuomodoDaCapo \bar "||" %50 finis
   }
 }
 
-D-III-III-cTenoreLyrics = \lyricmode {
-  Ec -- ce
-  vi -- di -- mus
-  e --
-  um non ha --
-  ben -- tem spe -- ci -- %5
-  em, ne -- que de --
-  co --
-  rem:
-  a -- spe --
-  ctus in __ e -- o __ %10
-  non est:
-  hic pec -- ca --
-  ta no --
-  stra por -- ta --
-  vit, et __ %15
-  pro no --
-  bis do -- _ _
-  _ _ _ let: i --
-  pse au -- tem
-  vul -- ne -- ra -- tus %20
-  est pro --
-  pter in -- i -- qui --
-  ta -- tes
-  no --
-  stras: %25
+D-III-IIIcTenoreLyrics = \lyricmode {
+  Vi -- ne -- a
+  me -- a e --
+  le -- cta, e --
+  le -- cta
+  quam plan -- %5
+  ta -- vi,
 
-  Cu -- ius li --
-  vo -- re, li --
-  vo -- re
-  %30
-  sa --
-  na -- ti, sa --
-  na -- ti su --
-  mus, sa -- na -- ti __
-  su -- mus, %35
+  plan -- ta --
+  vi,
+  plan -- ta -- vi, %10
+  plan -- ta --
+  vi:
 
-  sa --
-  na -- ti __ su --
-  mus, sa --
-  na -- ti su -- _ %40
-  _ _ _
-  mus.
+  Quo -- mo --
+  do con -- ver -- sa __ %15
+  es, con -- ver --
+  sa es, con --
+  ver -- sa __ es, __ con --
+  ver -- sa es
+  %20
+  in
+  a -- ma -- ri --
+  tu -- di -- nem,
+  a -- ma -- ri --
+  tu -- di -- nem, %25
+  ut me
+  cru -- ci -- fi -- ge --
+  res, et __
+  Ba -- rab -- bam __
+  di -- mit -- %30
+  te -- res, di --
+  mit -- te --
+  res?
+  Se -- pi -- vi
+  te, %35
+  se -- pi -- vi
+  te, et __
+  la -- pi --
+  des e -- le --
+  gi ex %40
+  te,
 
-  Ve -- re lan -- %45
-  guo -- res __
-  no -- stros,
-  no -- stros
-  i -- pse, __
-  i -- pse __ %50
-  tu -- lit, i --
-  pse tu --
-  lit et do --
-  lo --
-  res, et do -- %55
-  lo --
-  res
-  i -- pse por --
-  ta -- vit,
-  i -- pse por -- %60
-  ta --
-  vit, por --
-  ta --
-  vit, por --
-  ta -- _ _ %65
-  _ _ _
-  vit,
-  por -- ta -- _
-  _
-  vit. %70 finis
+  et ae --
+  di -- fi --
+  ca -- vi __ %45
+  tur --
+  rim, ae --
+  di -- fi -- ca --
+  vi tur --
+  rim. %50 finis
 }

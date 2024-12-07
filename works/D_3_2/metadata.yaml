@@ -1,0 +1,58 @@
+title: 3 Responsoria in Cœna Domini
+subtitle: In monte oliveti · Tristis est anima · Ecce vidimus eum
+id: WerW D.3.2
+genre: responsory
+festival: Cœna Domini
+scoring: S, A, T, B (coro), b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: F 5
+    rism: 600038298
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/972.html
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  2 & 14f & org & notes in treble clef added by editor \\
+  3 & 20  & A   & 3rd \halfNote\ in \B1: \sharp f′2 \\
+    & 27  & T   & 1st \halfNote\ of upper voice missing in \B1 \\
+    & 30  & org & notes in treble clef added by editor \\
+    & 51  & A   & 3rd \halfNote\ in \B1: f′2 \\
+    & 62  & A   & 1st \quarterNote\ in \B1: c′4 \\*
+    & 62  & A   & 1st \quarterNote\ in \B1: c′4 \\
+lyrics:
+  \textsb{1}\\
+  In monte oliveti orabat ad Patrem:\\
+  Pater, si fieri potest,\\
+  transeat a me calix iste.\\
+  Spiritus quidem promptus est,\\
+  caro autem infirma:\\
+  fiat voluntas tua.\\
+  Vigilate et orate,\\
+  ut non intretis in tentationem.\\
+  (\bibleverse{Mat}(26:39-41))\\[\baselineskip]
+  \textsb{2}\\
+  Tristis est anima mea usque ad mortem:\\
+  Sustinete hic et vigilate mecum,\\
+  nunc videbitis turbam\\
+  quae circumdabit me:\\
+  Vos fugam capietis,\\
+  et ego vadam immolari pro vobis.\\
+  Ecce appropinquat hora,\\
+  et Filius hominis\\
+  tradetur in manus peccatorum.\\
+  (\bibleverse{Mat}(26:38,45))\\[\baselineskip]
+  \textsb{3}\\
+  Ecce vidimus eum\\
+  non habentem speciem, neque decorem:\\
+  aspectus in eo non est:\\
+  hic peccata nostra portavit,\\
+  et pro nobis dolet:\\
+  ipse autem vulneratus est\\
+  propter iniquitates nostras:\\
+  Cuius livore sanati sumus.\\
+  Vere languores nostros ipse tulit,\\
+  et dolores nostros ipse portavit.\\
+  (\bibleverse{Isa}(53:2,4,5))

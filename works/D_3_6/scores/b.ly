@@ -7,11 +7,30 @@
 
 \book {
   \bookpart {
-    \section "D.3.6" "Libera me"
+    \section "1" "Sicut ovis"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-III-VIOrgano }
+        \new Staff { \D-III-VIaOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Ierusalem surge"
+    \addTocEntry
+    \paper { systems-per-page = #7 }
+    \score {
+      <<
+        \new Staff { \D-III-VIbOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Plange quasi virgo"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \D-III-VIcOrgano }
       >>
     }
   }

@@ -1,58 +1,57 @@
-title: 3 Responsoria in Cœna Domini
-subtitle: In monte oliveti · Tristis est anima · Ecce vidimus eum
+title: 3 Responsoria in Parasceve
+subtitle: Omnes amici mei · Velum templi scissum · Vinea mea electa
 id: WerW D.3.3
 genre: responsory
-festival: Cœna Domini
+festival: Parasceve
 scoring: S, A, T, B (coro), b, org
 license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
-    shelfmark: F 5
-    rism: 600038298
-    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/972.html
+    shelfmark: F 6
+    rism: 600038299
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/973.html
     license: public domain
     principal: true
 tocstyle: default
 toe: |
-  2 & 14f & org & notes in treble clef added by editor \\
-  3 & 20  & A   & 3rd \halfNote\ in \B1: \sharp f′2 \\
-    & 27  & T   & 1st \halfNote\ of upper voice missing in \B1 \\
-    & 30  & org & notes in treble clef added by editor \\
-    & 51  & A   & 3rd \halfNote\ in \B1: f′2 \\
-    & 62  & A   & 1st \quarterNote\ in \B1: c′4 \\*
-    & 62  & A   & 1st \quarterNote\ in \B1: c′4 \\
-lyrics:
+  1 & 10 & A & 2nd/3rd \halfNote\ in \B1: g′1 \\
+    & 40 & S & 2nd \halfNoteDotted\ in \B1: d″2 \\
+    & 40 & T & 2nd \halfNote\ in \B1: c′2 \\
+    & 42 & – & tempo indication in S, A, and org: “Larghetto”;
+               in T and vlne: “Largo” \\
+  2 & 12 & A & 3rd \halfNote\ in \B1: d′ \\
+    & 29 & B & 1st \halfNote\ in \B1: e2 \\
+  4 & 19 & A & 3rd \halfNote\ in \B1: a′2 \\
+    & 26 & A & 2nd to 4th \halfNote\ in \B1: e′2–e′1 \\
+extra_abbreviations:
+  vlne:
+lyrics: |
   \textsb{1}\\
-  In monte oliveti orabat ad Patrem:\\
-  Pater, si fieri potest,\\
-  transeat a me calix iste.\\
-  Spiritus quidem promptus est,\\
-  caro autem infirma:\\
-  fiat voluntas tua.\\
-  Vigilate et orate,\\
-  ut non intretis in tentationem.\\
-  (\bibleverse{Mat}(26:39-41))\\[\baselineskip]
+  Omnes amici mei dereliquerunt me,\\
+  et praevaluerunt insidiantes mihi:\\
+  tradidit me, quem diligebam.\\
+  Et terribilibus oculis plaga percutientes crudeli,\\
+  aceto potabant me.\\
+  Inter iniquos proiecerunt me,\\
+  et non pepercerunt animae meae.\\
+  (\bibleverse{Ps}(69/68:22))\\[\baselineskip]
   \textsb{2}\\
-  Tristis est anima mea usque ad mortem:\\
-  Sustinete hic et vigilate mecum,\\
-  nunc videbitis turbam\\
-  quae circumdabit me:\\
-  Vos fugam capietis,\\
-  et ego vadam immolari pro vobis.\\
-  Ecce appropinquat hora,\\
-  et Filius hominis\\
-  tradetur in manus peccatorum.\\
-  (\bibleverse{Mat}(26:38,45))\\[\baselineskip]
+  Velum templi scissum est,\\
+  et omnis terra tremuit.\\
+  Latro in cruce clamabat, dicens:\\
+  memento mei, Domine,\\
+  dum veneris in regnum tuum.\\
+  Petrae scissae sunt,\\
+  monumenta aperta sunt,\\
+  et multa corpora sanctorum\\
+  quae dormierant surrexerunt.\\
+  (\bibleverse{Mat}(27:51-52))\\[\baselineskip]
   \textsb{3}\\
-  Ecce vidimus eum\\
-  non habentem speciem, neque decorem:\\
-  aspectus in eo non est:\\
-  hic peccata nostra portavit,\\
-  et pro nobis dolet:\\
-  ipse autem vulneratus est\\
-  propter iniquitates nostras:\\
-  Cuius livore sanati sumus.\\
-  Vere languores nostros ipse tulit,\\
-  et dolores nostros ipse portavit.\\
-  (\bibleverse{Isa}(53:2,4,5))
+  Vinea mea electa quam plantavi:\\
+  Quomodo conversa es in amaritudinem,\\
+  ut me crucifigeres,\\
+  et Barabbam dimitteres?\\
+  Sepivi te, et lapides elegi ex te,\\
+  et aedificavi turrim.\\
+  (\bibleverse{Jer}(2:21))

@@ -7,31 +7,30 @@
 
 \book {
   \bookpart {
-    \section "1" "In monte oliveti"
+    \section "1" "Omnes amici mei"
     \addTocEntry
-    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \D-III-III-aOrgano }
+        \new Staff { \D-III-IIIaOrgano }
       >>
     }
   }
   \bookpart {
-    \section "2" "Tristis est anima"
+    \section "2" "Velum templi scissum"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-III-III-bOrgano }
+        \new Staff { \D-III-IIIbOrgano }
       >>
     }
   }
   \bookpart {
-    \section "3" "Ecce vidimus eum"
+    \section "3" "Vinea mea electa"
     \addTocEntry
-    \paper { page-count = #1 }
+    \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \D-III-III-cOrgano }
+        \new Staff { \D-III-IIIcOrgano }
       >>
     }
   }

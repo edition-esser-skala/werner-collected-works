@@ -7,12 +7,33 @@
 
 \book {
   \bookpart {
-    \section "D.3.6" "Libera me"
+    \section "1" "Sicut ovis"
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-III-VIOrgano }
-        \new FiguredBass { \D-III-VIBassFigures }
+        \new Staff { \D-III-VIaOrgano }
+        \new FiguredBass { \D-III-VIaBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Ierusalem surge"
+    \addTocEntry
+    \paper { systems-per-page = #7 }
+    \score {
+      <<
+        \new Staff { \D-III-VIbOrgano }
+        \new FiguredBass { \D-III-VIbBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Plange quasi virgo"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \D-III-VIcOrgano }
+        \new FiguredBass { \D-III-VIcBassFigures }
       >>
     }
   }
