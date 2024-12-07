@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "D.5.4" "O quam suavis est"
+    \section "D.5.4" "Furiæ vos divæ abyssi volate"
     \addTocEntry
     \score {
       <<

@@ -1,20 +1,43 @@
-title: O quam suavis est
+title: Furiæ vos divæ abyssi volate
 id: WerW D.5.4
-genre: antiphon
-scoring: S, A, T, B (coro), b, org
+genre: aria
+scoring: B (solo), 2 vl, vlc, b, org
 license: cc-by-sa-4.0
 sources:
-  A1:
-    siglum: A-Wn
-    shelfmark: Mus.Hs.15974
-    rism: 600101187
-    url: https://data.onb.ac.at/dtl/3451806
+  B1:
+    siglum: D-MÜs
+    shelfmark: SANT Hs 4312
+    rism: 451024488
+    date: 1745-07-07
     license: public domain
     principal: true
+    notes: authentic copy by Johann Georg Thonner
+toe: |
+  –  & B    & \B1 contains a second set of lyrics above the B staff,
+              (here given in italics). \\
+  25 & vl 1 & 4th \eighthNote\ in \B1: a′8 \\
+  68 & vl 1 & 4th \eighthNote\ in \B1: a′8 \\
+parts:
+  B_solo: Basso solo
 lyrics:
-  O quam suavis est, Domine, spiritus tuus,\\
-  qui ut dulcedinem tuam in filios demonstrares\\
-  pane suavissimo de coelo praestito,\\
-  esurientes reples bonis,\\
-  fastidiosos divites dimittens inanes.\\
-  (\bibleverse{Wis}(12:1,16:21))
+  Furiae vos divae abyssi volate, properate,\\
+  huc date tela haec ad bella,\\
+  huc lacerate,\\
+  mactate crudelem\\
+  iniquam barbaram.\\
+  Sed cur, furiae, sed cur ipso\\
+  in Matris sinu non lacerastis,\\
+  cur non tunc tentastis,\\
+  cur non secluso timore\\
+  in primo mactastis\\
+  aetatis flore impiam?\\[1ex]
+  Gratiae vos divae Parnassi volate, properate,\\
+  huc date favos, fer te mella,\\
+  suavitate victricem\\
+  formate Catharidem.\\
+  Sed cur, gratiae, vos moror\\
+  in Matris sinu iam obfirmastis,\\
+  in ore mellificastis,\\
+  cuius vix enim mundo\\
+  adnata illico aevi sui facta\\
+  e decus et gloria.

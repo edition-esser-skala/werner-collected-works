@@ -11,29 +11,14 @@
   top-markup-spacing.minimum-distance = #0
   markup-system-spacing.basic-distance = #10
   markup-system-spacing.minimum-distance = #10
-  system-system-spacing.basic-distance = #17
-  system-system-spacing.minimum-distance = #17
-  systems-per-page = #3
-}
-
-\layout {
-  \context {
-    \StaffGroup
-    \setGroupDistance #11 #11
-  }
-  \context {
-    \GrandStaff
-    \setGroupDistance #11 #11
-  }
-  \context {
-    \ChoirStaff
-    \setGroupDistance #12 #14.5
-  }
+  system-system-spacing.basic-distance = #19.5
+  system-system-spacing.minimum-distance = #19.5
+  systems-per-page = #2
 }
 
 \book {
   \bookpart {
-    \section "D.5.4" "Furiæ vos divæ abyssi volate"
+    \section "D.5.6" "Amen"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -43,37 +28,50 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \D-V-IVViolinoI
+              \D-V-VIViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \D-V-IVViolinoII
+              \D-V-VIViolinoII
             }
           >>
-          \new Staff {
-            \set Staff.instrumentName = "Viola"
-            \D-V-IVViola
-          }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \D-V-IVBasso }
+            \incipitSoprano
+            \new Voice = "Soprano" { \dynamicUp \D-V-VISoprano }
           }
-          \new Lyrics \lyricsto Basso \D-V-IVBassoLyricsA
-          \new Lyrics \lyricsto Basso \D-V-IVBassoLyricsB
+          \new Lyrics \lyricsto Soprano \D-V-VISopranoLyrics
+
+          \new Staff {
+            \incipitAlto
+            \new Voice = "Alto" { \dynamicUp \D-V-VIAlto }
+          }
+          \new Lyrics \lyricsto Alto \D-V-VIAltoLyrics
+
+          \new Staff {
+            \incipitTenore
+            \new Voice = "Tenore" { \dynamicUp \D-V-VITenore }
+          }
+          \new Lyrics \lyricsto Tenore \D-V-VITenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "Basso"
+            \new Voice = "Basso" { \dynamicUp \D-V-VIBasso }
+          }
+          \new Lyrics \lyricsto Basso \D-V-VIBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
             % \transpose c c,
-            \D-V-IVOrgano
+            \D-V-VIOrgano
           }
         >>
-        \new FiguredBass { \D-V-IVBassFigures }
+        \new FiguredBass { \D-V-VIBassFigures }
       >>
-      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
-      \midi { \tempo 4 = 80 }
+      \layout { }
+      \midi { \tempo 4 = 110 }
     }
   }
 }

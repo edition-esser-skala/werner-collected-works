@@ -1,0 +1,20 @@
+title: O quam suavis est
+id: WerW D.5.3
+genre: antiphon
+scoring: S, A, T, B (coro), b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15974
+    rism: 600101187
+    url: https://data.onb.ac.at/dtl/3451806
+    license: public domain
+    principal: true
+lyrics:
+  O quam suavis est, Domine, spiritus tuus,\\
+  qui ut dulcedinem tuam in filios demonstrares\\
+  pane suavissimo de coelo praestito,\\
+  esurientes reples bonis,\\
+  fastidiosos divites dimittens inanes.\\
+  (\bibleverse{Wis}(12:1,16:21))
