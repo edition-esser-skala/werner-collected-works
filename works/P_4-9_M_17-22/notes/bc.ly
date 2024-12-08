@@ -2978,7 +2978,7 @@ P-IVSonataSextaBassoContinuo = {
     as2. \noBreak
     g\fermata \bar "||"
     \time 6/8 \tempoP-VISonataSextaD \newSpacingSection
-      c,4\f c8~ c h as' \noBreak %70
+      c,4\fE c8~ c h as' \noBreak %70
     g4 c,8~\p c h as'
     g4 f8\f es es' d
     c g as f g g,

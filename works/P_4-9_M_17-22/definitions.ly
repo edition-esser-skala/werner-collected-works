@@ -34,7 +34,7 @@ tempoP-VISymphoniaQuartaC = \tempoMarkup "Allegro assai"
 tempoP-VISonataQuarta = \tempoMarkup "Largo"
 tempoP-VISonataQuartaB = \tempoMarkup "Allegro"
 tempoP-VISonataQuartaC = \tempoMarkup "Largo"
-tempoP-VISonataQuartaD = \tempoMarkup "tempogiusto"
+tempoP-VISonataQuartaD = \tempoMarkup "Tempo giusto"
 
 tempoP-VISymphoniaQuinta = \tempoMarkup "Allegro"
 tempoP-VISymphoniaQuintaB = \tempoMarkup "Adagio"
