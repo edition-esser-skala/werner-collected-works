@@ -1,0 +1,20 @@
+title: Alma Redemptoris mater
+id: WerW I.1.4
+genre: antiphon
+scoring: S, A, T, B (coro), 2 vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: H 13
+    rism: 600038481
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/375.html
+    license: public domain
+    principal: true
+    notes: S missing; contains title page of a lost Salve Regina
+  B2:
+    siglum: A-Ed
+    shelfmark: H 7
+    rism: 600038477
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/402.html
+    license: public domain
