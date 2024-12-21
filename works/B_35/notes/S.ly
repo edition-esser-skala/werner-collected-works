@@ -28,15 +28,15 @@ B-XXXVKyrieSopranoLyrics = \lyricmode {
   lei -- son, Ky -- ri --
   e __ e -- lei --
   son, e -- lei -- _ _ _
-  _ son,
+  _ son, %5
   Ky -- ri --
   e __ e -- lei --
   son, e -- lei --
   son, Ky -- ri -- e e --
-  lei -- son, e -- lei --
+  lei -- son, e -- lei -- %10
   _ _ _ _ _
   _ son, e -- lei --
-  son, e -- lei -- son.
+  son, e -- lei -- son. %13 finis
 }
 
 B-XXXVGloriaSoprano = {
