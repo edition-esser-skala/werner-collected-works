@@ -5,51 +5,51 @@
 \include "score_settings/org-realized.ly"
 
 \book {
-  % \bookpart {
-  %   \section "1" "Kyrie"
-  %   \addTocEntry
-  %   \score {
-  %     <<
-  %       \new PianoStaff <<
-  %         \new Staff { \B-IKyrieChords }
-  %         \new Staff { \B-IKyrieOrgano }
-  %       >>
-  %       \new FiguredBass { \B-IKyrieBassFigures }
-  %     >>
-  %     \layout { }
-  %     \midi { \tempo 4 = 90 } % 60 – 90
-  %   }
-  % }
-  % \bookpart {
-  %   \section "2" "Gloria"
-  %   \addTocEntry
-  %   \score {
-  %     <<
-  %       \new PianoStaff <<
-  %         \new Staff { \B-IGloriaChords }
-  %         \new Staff { \B-IGloriaOrgano }
-  %       >>
-  %       \new FiguredBass { \B-IGloriaBassFigures }
-  %     >>
-  %     \layout { }
-  %     \midi { \tempo 4 = 80 } % 40 – 120 – 75 – 120
-  %   }
-  % }
-  % \bookpart {
-  %   \section "3" "Credo"
-  %   \addTocEntry
-  %   \score {
-  %     <<
-  %       \new PianoStaff <<
-  %         \new Staff { \B-ICredoChords }
-  %         \new Staff { \B-ICredoOrgano }
-  %       >>
-  %       \new FiguredBass { \B-ICredoBassFigures }
-  %     >>
-  %     \layout { }
-  %     \midi { \tempo 4 = 80 } % 50 – 60 – 200 – 60 – 220
-  %   }
-  % }
+  \bookpart {
+    \section "1" "Kyrie"
+    \addTocEntry
+    \score {
+      <<
+        \new PianoStaff <<
+          \new Staff { \B-IKyrieChords }
+          \new Staff { \B-IKyrieOrgano }
+        >>
+        \new FiguredBass { \B-IKyrieBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 90 } % 60 – 90
+    }
+  }
+  \bookpart {
+    \section "2" "Gloria"
+    \addTocEntry
+    \score {
+      <<
+        \new PianoStaff <<
+          \new Staff { \B-IGloriaChords }
+          \new Staff { \B-IGloriaOrgano }
+        >>
+        \new FiguredBass { \B-IGloriaBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 80 } % 40 – 120 – 75 – 120
+    }
+  }
+  \bookpart {
+    \section "3" "Credo"
+    \addTocEntry
+    \score {
+      <<
+        \new PianoStaff <<
+          \new Staff { \B-ICredoChords }
+          \new Staff { \B-ICredoOrgano }
+        >>
+        \new FiguredBass { \B-ICredoBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 80 } % 50 – 60 – 200 – 60 – 220
+    }
+  }
   \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
@@ -63,6 +63,37 @@
       >>
       \layout { }
       \midi { \tempo 4 = 50 } % 75 – 120
+    }
+  }
+  \bookpart {
+    \section "5" "Benedictus"
+    \addTocEntry
+    \paper { system-count = #5 }
+    \score {
+      <<
+        \new PianoStaff <<
+          \new Staff { \B-IBenedictusChords }
+          \new Staff { \B-IBenedictusOrgano }
+        >>
+        \new FiguredBass { \B-IBenedictusBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 60 }
+    }
+  }
+  \bookpart {
+    \section "6" "Agnus Dei"
+    \addTocEntry
+    \score {
+      <<
+        \new PianoStaff <<
+          \new Staff { \B-IAgnusChords }
+          \new Staff { \B-IAgnusOrgano }
+        >>
+        \new FiguredBass { \B-IAgnusBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 50 } % 110
     }
   }
 }

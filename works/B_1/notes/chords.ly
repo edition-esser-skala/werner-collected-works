@@ -871,6 +871,47 @@ B-ISanctusChords = {
     <d, b'>4. <d a'>8 <d gis>4 <c a'>
     <fis a> <e g> <h fis'>2 \noBreak
     <h e> r\fermata \bar "||"
+    \tempoB-IPleni \newSpacingSection
+      \oneVoice c'16 d e f g8 g, c16 d e d c c d e \noBreak %15
+    f f g a g f e d e d c8 r16 e f g
+    d e fis g c, d e fis g8 d~ d16 e f g
+    e8 g~ g16 a h c a h a g f g f e
+    d d e f g a g f e d c d d8.\trill c16
+    c4 \voiceOne \tiny d8 h <e, a>4 <e c'> %20
+    <a d> d8 h \oneVoice \normalsize r16 c e f g4~
+    \sbOn \tuplet 3/2 8 { g16 a g } fis e \sbOff \hA fis4\trill g \voiceOne \tiny h,8 c
+    <fis, c'> <g h> <g a> \noBeam \oneVoice \normalsize d' d16 e d e \tuplet 3/2 8 { \sbOn d e fis fis g a \sbOff }
+    h8 g \voiceOne \tiny <g, h>4 <g c>8 \noBeam \oneVoice \normalsize c \tuplet 3/2 8 { \sbOn c16 d e e f g \sbOff }
+    a8 d, \tuplet 3/2 8 { \sbOn d16 e f f g a } h8 e, \tuplet 3/2 8 { e16 f g g a h \sbOff } %25
+    c c h a g\trill f e\trill d e8 r \tuplet 3/2 8 { \sbOn c16 d e e f g \sbOff }
+    a8.\trill g32 f e8 d c16 d e f g a h c
+    \tuplet 3/2 8 { \sbOn a h a } f a \tuplet 3/2 8 { g a g f e d } e8 g c4~ \noBreak
+    c16 h32 a g16 f \sbOff e8 d\trill c4 r\fermata \bar "||"
+    \tempoB-IOsanna R1*5 %34
+    r2 \voiceOne e,8 d e fis %35
+    <d g>4 <e g> <f a> f
+    <c c'>2. g'4
+    <a c> <g h> <c e> c
+    <d g> <c fis>8 <c e> <g d'> <g c> <g h> <fis a>
+    <g h> a h c d e f d %40
+    <c e>4 <g c> <g h>2
+    <a c> <g c>4 <g d'>
+    <g h>2 <g c>
+    <a c>4 h <c e> <g d'>
+    <h d> <g c>8 <f h> <g c> <g d'> <a c>4 %45
+    <e h'>2 a8 g <d f>4
+    <e a>2 <fis a>4 <e g>
+    <h fis'>2 <h e>8 h' c d
+    <c e>4 <f, d'>8 <e c'> <g h>4 <g c>
+    <a c>2 <g c> %50
+    <g h>4 <g c>8 <f h> <g c>4 <g h>
+    q <a c> <h d>2
+    <c e>4 <g c> <f a>2
+    <a d> <g h>
+    <h e> <a c> %55
+    <a d> <h d>4 <g c>
+    <g h> <g c> c h
+    <e, c'> <a c>8 <g h> <g c>4 r\fermata \bar "|." %58 finis
   } \\ \relative c' {
     <e g>2 <f a>4 <e a>
     <f a>2 f
@@ -886,6 +927,37 @@ B-ISanctusChords = {
     a8 g4 a,8 e'2
     dis4 h e dis
     g,2 r\fermata
+    \tiny s1*5 %19
+    s4 <d' g> c g'8 a %20
+    f4 <d g> s2
+    s2. <e g>4
+    d d8 s s2
+    s4 d e8 s4.
+    s1*10 %34
+    s2. \normalsize c4 %35
+    h c c c
+    g'8 c h a g f <c e> d
+    e fis d4 g g
+    g a8 g d e d4
+    d g8 f16 e f8 g a h %40
+    g4 e d e
+    e8 f f4 e d
+    d2 e
+    e g4 d
+    g c,8 d e d e4 %45
+    a gis <a, e'> a
+    d c! dis h
+    e dis g,8 g' a f
+    g4 g d c
+    e f e2 %50
+    d4 c8 d e4 d
+    e e8 fis g2
+    g4 c, c2
+    f4 d d2
+    g4 e e2 %55
+    f f4 e
+    d e <d g>2
+    g8 a d,4 e r\fermata %58 finis
   } >>
 }
 
@@ -912,12 +984,147 @@ B-IPleniChords = {
   }
 }
 
-xxxChords = {
+B-IBenedictusChords = {
   \clef treble
-
+  \key a \minor \time 4/4 \tempoB-IBenedictus
   << \relative c' {
-
+    <e a>4 <e h'>8 <f a> <e h'>4 e
+    <a, e'>4 e'8 <d f> <c g'> <c e> f4
+    <c e> <g' c> <g c>8 <e h'> h'[ a]
+    a[ gis] <e a> <gis h> <a c> <f a> <c a'>[ <h gis'>]
+    <e a>4. <f a>8 q4 h8 gis %5
+    <e a> <e gis> <e a> <e h'> <e a>4 <c a'>8 <h g'>
+    <e g>4 <f a> <g c>8 <a c> <e c'>[ <d h'>]
+    <g c>2 c8 h <d, g>4
+    g8 f <a d>4 d8 c <e, a>4
+    a8 gis h[ gis] <e a>4 h'8 gis %10
+    <e a>4 a8 f <e a> <f h> <c a'>[ <h gis'>]
+    <e a>4 <e h'>8 <f a> <e h'>4 e
+    e4 e8 <d f> <h e>2
+    <c e>8[ <a d>] <a c> <gis h> \oneVoice a4 r\fermata \bar "|." %14 finis
   } \\ \relative c' {
+    c4 h8 c a'[ gis] a, <gis d'>
+    d'[ c] h a g a <a c>[ <g h>]
+    g4 c8 e d4 <c e>
+    <h e> c8 d e d e4
+    c4. c8 d4 <h e> %5
+    c8 d c h c4 d
+    c2 e8 d g4
+    e2 <d g>4 g,8 h
+    <a d>4 d8 f <e a>4 a,8 c
+    <h e>4 q a8 c <h e>4 %10
+    c <a d> c8 h e4
+    c h8 c a'[ gis] a, <gis d'>
+    <a c> <gis d'> a4 gis2
+    a8 f e4 s2 %14 finis
+  } >>
+}
 
+B-IAgnusChords = {
+  \clef treble
+  \key c \major \time 4/4 \tempoB-IAgnus
+  << \relative c' {
+    <g' c>2 <a c>4. <g c>8
+    <g h>2 <g cis>
+    <f d'>4 <e c'> <gis h> r
+    <e a>2 <f a>
+    <d g> <e g> %5
+    <f a>4 <e g> <d g> r
+    <e h'>2 <e a>
+    <f a> <g h>
+    <g c>4 <a d>8 <g c> <e c'> <d h'> <g h>4
+    cis d2.~ %10
+    d4 c dis e
+    e dis e8 <g, c>[ <a c> <g h>]
+    <g c>2 <g h>4 h8 c
+    <a c>4 c8 d <e, c'>2
+    <a c>4 <g h> <d a'>2 %15
+    <f d'>4 <e c'> c'2~ \noBreak
+    c h\fermata \bar "||"
+    \tempoB-IDona \newSpacingSection
+      <g c>4. <h d>8 <c e>4 <h d> \noBreak
+    <c e>8 <h d> <g c>4 <g h> r
+    \oneVoice r2 r4 r8 \voiceOne h %20
+    c2 h4. c8
+    h4. c8 c h r4
+    <a d>4. <a cis>8 <a d>4 <b d>
+    <f d'> <e cis'> <a d> r
+    <g b> r <g c> r %25
+    <f a>8 <e g> <f a>4 <e g>4 r
+    \once \oneVoice R1
+    a4. g16 f e4. f8
+    e4. f8 f e r4
+    a4. h8 <g h>4 r %30
+    <g c>2 <f a>4 <a d>
+    <gis h> <a c> <e h'>2
+    <e a>4 r e'4. d16 c
+    h4. c8 h4. c8
+    c h r4 e4. d16 c %35
+    h4. c8 h4. c8
+    c h r4 <e, c'>2
+    <a c>4 r <f d'>2
+    <h d>4 r <g e'>2
+    <c e>4 <a d> <f d'> <e c'> %40
+    <g h> r <g c>8 <g h> <g c>4
+    <g h>2 r
+    r8 <g h>4 <g c>8 <a d>2
+    <h d>4 <g c> c h
+    <g c>2 <d h'>4. <e c'>8 %45
+    <d h'>4. <e c'>8 <d h'>4. <e c'>8
+    <g h>4. <g c>8 <a d>2
+    <h d>4 <g c> c h
+    <g c>2 c4 h
+    <g c> r r2\fermata \bar "|." %50 finis
+  } \\ \relative c' {
+    e2 f4. e8
+    d2 e
+    a2 e4 r
+    a,2 d
+    g, c %5
+    c h4 r
+    h2 c
+    d d
+    e4 d8 e g4 d
+    g f2. %10
+    e2 a4 g
+    fis2 g8 \noBeam e d4
+    e2 d4 <e g>
+    e <f a> g a
+    d,2 g4 f! %15
+    g2 <f a>4 <e g>~
+    q <c fis> <d g>2\fermata
+    e4. g8 g2
+    g4 c,8 e d4 r
+    s2.. gis8 %20
+    a2 gis4. a8
+    gis4. a8 a gis r4
+    f4. e8 f4 g
+    a2 f4 r
+    d r e r %25
+    c2 c4 r
+    s1
+    f4. e16 d cis4. d8
+    cis4. d8 d cis r4
+    <d f>2 d4 r %30
+    e4. c8 c4 f
+    e2 a4 gis
+    c,4 r c'4. h16 a
+    gis4. a8 gis4. a8
+    a gis r4 g4. f16 e %35
+    d4. e8 d4. e8
+    e d r4 g4. a8
+    f4 r a4. h8
+    g4 r h4. c8
+    a4 f g2 %40
+    d4 r e8 d c[ e]
+    d2 r
+    r8 d4 e8 f2
+    f4 e <d g>2
+    e g %45
+    g g
+    d4. e8 f2
+    f4 e <d g>2
+    e <d g>
+    e4 r r2\fermata %50 finis
   } >>
 }
