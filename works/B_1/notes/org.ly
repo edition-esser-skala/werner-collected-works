@@ -246,8 +246,8 @@ B-IGloriaOrgano = {
     \mvTr c16\fE-\tutti c' h c c, c' h c g, g' f g g, g' f g
     c, c' h c c, c' h c g, g' f g g, g' f g
     c, c' h c c, c' h c f,, f' e f f, f' e f
-    d d' cis d d, d' cis d g,, g' f g g, g' f g
-    e e' dis e e, e' dis e a,, a' g a a, a' g a %5
+    d d' c d d, d' c d g,, g' f g g, g' f g
+    e e' d e e, e' d e a,, a' g a a, a' g a %5
     d, d' c d g,, g' f g c, c' h c f,, f' e f
     h, h' a h e,, e' d e a, a' g a d,, d' c d
     g8 e c d g,16 h'-\markup \remark "org solo" a h e, g fis g
