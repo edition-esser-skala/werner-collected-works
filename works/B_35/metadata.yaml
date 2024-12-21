@@ -20,3 +20,7 @@ toe: |
   3 & 3   & T    & 2nd \quarterNote\ in \B1: d″4 \\
     & 5   & A    & 2nd/3rd \quarterNote\ in \B1: e′4–e′4 \\
     & 62  & vl 2 & 2nd \eighthNote\ in \B1: c″8 \\
+  4 & 4   & vl 1 & 4th \eighthNote\ in \B1: d″8 \\
+  5 & 7   & vl 1 & 11th \sixteenthNote\ in \B1: e″16 \\
+  6 & 9   & A    & 2nd/3rd \eighthNote\ in \B1: e′4 \\
+    & 28  & S    & 2nd \eighthNote\ in \B1: a′8 \\

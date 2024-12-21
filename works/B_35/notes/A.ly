@@ -362,3 +362,161 @@ B-XXXVCredoAltoLyrics = \lyricmode {
   a -- men,
   a -- men. %125 finis
 }
+
+B-XXXVSanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoB-XXXVSanctus
+    r4 \mvTr g'8([\fE^\tutti fis g fis)]
+    g4 g8([ fis g fis)]
+    e4 e8([ d e d)]
+    e4 r e8[ a]~
+    a[ fis] d4 g~ %5
+    g8 g g([ a)] fis4
+    g fis4.\trill fis8
+    e4 r r
+    r8 g g g g g16 g
+    g8 g r4 r %10
+    r8 a a gis a \hA gis16 gis
+    a8 a r e a([ g)]
+    f4 r8 e g([ fis)]
+    g4 r8 a g([ f)]
+    e4 g4. g8 %15
+    e4 e4. e8
+    c4 f e
+    d2 d4
+    d d2 \noBreak
+    d r4\fermata \bar "||" %20
+    \time 3/2 \tempoB-XXXVOsanna \newSpacingSection
+      r2 \mvTr d\fE^\tuttiE fis4( d) \noBreak
+    g2 r4 e( a) fis
+    d g2 fis8[ e] d[ e d c]
+    h4 h'2 a4 g8[ fis] g4~
+    g e a g8([ fis)] g([ h a g] %25
+    fis4) d r2 r4 g
+    h( g) c g c8([ h] c4)
+    h2 g g4( fis)
+    fis2 r a
+    a4( g) g2 fis4 g %30
+    fis2 e r
+    r4 d! g8([ fis] g4) fis2
+    d4 g e( a fis8[ e] fis4)
+    d r e2 fis8([ e]) fis4
+    r fis g8([ fis)] g4 g e %35
+    a( g fis g2 fis4)
+    g2 r r\fermata \bar "|." %37 finis
+  }
+}
+
+B-XXXVSanctusAltoLyrics = \lyricmode {
+  San --
+  ctus, san --
+  ctus, san --
+  ctus, san --
+  ctus Do -- %5
+  mi -- nus De --
+  us Sa -- ba --
+  oth.
+  Ple -- ni sunt coe -- li et
+  ter -- ra, %10
+  ple -- ni sunt coe -- li et
+  ter -- ra, et ter --
+  ra, et ter --
+  ra, et ter --
+  ra glo -- ri -- %15
+  a, glo -- ri --
+  a tu -- a,
+  glo -- ri --
+  a tu --
+  a. %20
+  O -- san --
+  na in __ ex --
+  cel -- _ _ _
+  sis, in ex -- cel -- _
+  sis, in ex -- cel -- %25
+  sis, o --
+  san -- na, o -- san --
+  na, o -- san --
+  na, o --
+  san -- na in ex -- %30
+  cel -- sis,
+  o -- san -- na
+  in ex -- cel --
+  sis, o -- san -- na,
+  o -- san -- na in ex -- %35
+  cel --
+  sis. %37 finis
+}
+
+B-XXXVAgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoB-XXXVAgnus
+    \mvTr d4\fE^\tutti g g( f)
+    e8 e a4. a8 g4
+    fis!8 h fis([ gis)] a a4 a8
+    a fis a16([ gis a8)] \hA gis4 r
+    R1*2 %6
+    r2 r8 \mvTr e4\fE^\tutti e8
+    fis fis g2( fis4)
+    g8 d4^\critnote e8 f16([ e)] \hA f4 f8
+    e e r4 r8 e e16([ d e8)] %10
+    f a a g16([ f)] e4 g8 g
+    g4 fis e2\trill \noBreak
+    fis r\fermata \bar "||"
+    \time 3/2 \tempoB-XXXVDona \newSpacingSection
+      R1. \noBreak
+    r4 \mvTr g2\fE^\tutti fis8([ d)] e2\trill %15
+    d c4( d e8[ d] e4)
+    d2 r4 a'( g8[ fis] g4
+    fis) d r a'( \once \stemUp h a8[ g)]
+    f4 e2( d cis4)
+    d d8[ e] fis[ g e fis] g[ a fis g] %20
+    a[ h c a] h4 a8[ g] a2
+    g r g4. g8
+    fis4 d r a'( gis) e
+    r e( c8[ d]) e([ g)] f([ a g \hA f)]
+    e4 c'2 h a4~ %25
+    a g2 fis!4 g2
+    r4 d( g8[ fis] g4 fis) d
+    r e( fis) g e2\trill
+    d r4 g2 g4
+    g( a) h( a) h8([ g fis e)] %30
+    d4 e( d) h e( d)
+    d g2( fis4) g2\fermata \bar "|." %32 finis
+  }
+}
+
+B-XXXVAgnusAltoLyrics = \lyricmode {
+  A -- gnus De --
+  i, qui tol -- lis pec --
+  ca -- ta mun -- di: Mi -- se --
+  re -- re no -- bis.
+
+  Mi -- se -- %7
+  re -- re no --
+  bis. A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- %10
+  ta, pec -- ca -- ta mun -- di, pec --
+  ca -- ta mun --
+  di:
+
+  Do -- na no -- %15
+  bis pa --
+  cem, pa --
+  cem, pa --
+  cem, pa --
+  cem, pa -- _ _ %20
+  _ _ _ _
+  cem, do -- na
+  no -- bis pa -- cem,
+  pa -- cem, pa --
+  cem, do -- na pa -- %25
+  _ _ cem,
+  pa -- cem,
+  no -- bis pa --
+  cem, do -- na
+  no -- bis __ pa -- %30
+  cem, no -- bis pa --
+  cem, pa -- cem. %32 finis
+}

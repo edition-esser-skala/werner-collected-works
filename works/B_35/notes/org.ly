@@ -510,3 +510,220 @@ B-XXXVCredoBassFigures = \figuremode {
   \bc <[6]>2 <6 5>4 <4>8 <_+>
   <6>4 \bo <[4]>8 \bc <[3]> r2 %125 finis
 }
+
+B-XXXVSanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \tempoB-XXXVSanctus
+    \mvTr g'8.\fE-\tutti h32 a g8 d h d
+    e8. g32 fis e8 h g h
+    c8. e32 d c8 g e g
+    c,4 r a'8 a'
+    fis4 g8 g4 g8 %5
+    e4 c8 a h4
+    e h2
+    e4 r r
+    r8 c e g c g
+    e c r4 r %10
+    r8 a c e a e
+    c a r g'! f e
+    d4 r8 c! h a
+    g4 r8 f' e d
+    c2 g'4 %15
+    a2 e4
+    f2 c4
+    d4. e8 fis4
+    g d2 \noBreak
+    g, r4\fermata \bar "||" %20
+    \clef "treble_8" \time 3/2 \tempoB-XXXVOsanna \newSpacingSection
+    << {
+      s2 d'' fis4 d \noBreak
+      g2 r4 e a fis
+      d g
+    } \\ {
+      \mvTr g,2^!\fE-\tuttiE h4 g d'2 %21
+      r4 h e c a d
+      h g
+    } >> \clef bass d2 fis4 d
+    g2 r4 fis h g
+    e a fis e8 d e2 %25
+    d4 d fis d g2
+    \clef "treble_8" g r4 c e c
+    g' \clef bass g, h g d' d,
+    fis d a' a, c a
+    e' e, g e h' e %30
+    h2 e r4 c
+    g' g,8 a h4 g d'2
+    \clef "treble_8" r4 g c a d \clef bass d,
+    g e c a' fis d
+    h h' g e c a' %35
+    fis g d e c d
+    g,2 r r\fermata \bar "|." %37 finis
+  }
+}
+
+B-XXXVSanctusBassFigures = \figuremode {
+  r2 <6>4
+  r2 q4
+  r2 q4
+  r2 <_+>4
+  <[6]>2. %5
+  <6>2 <_+>4
+  r <4> <_+>
+  r2.
+  r
+  <[6]> %10
+  r4. <_+>4 q8
+  <[6]>4. <6>8 q <6\\>
+  <_!>4. <6>8 q <6\\>
+  r4. <6>8 q <6 [_!]>
+  r2. %15
+  r2 <_!>4
+  r2.
+  <_+>
+  r4 <4> <_+>
+  r2. %20
+  r1.
+  r
+  r2 <4>4 <_+> <6 3>2
+  r2. <[6]>4 <6>2
+  r4 <_+> <6>2 <7>4 <6\\> %25
+  <8 _+>2 <6>1
+  r2. <3>4 q q
+  r1 <4>4 <_+>
+  <6>2 <4>4 <3> <6>2
+  <4>4 <3> <6>2 <_+> %30
+  <4>4 <_+> r1
+  r1.
+  r4 \bo <[6]>2 \bc q2.
+  r1.
+  r %35
+  <6 5>2. <5>4 <6 5>2
+  r1. %37 finis
+}
+
+B-XXXVBenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 4/4 \tempoB-XXXVBenedictus
+    \mvTr e8\fE-\solo g dis h e g16 fis e8 h
+    c a d d, g16 g' d h g8 g'
+    d16 d' a fis dis8 h e c' g a
+    h a g fis e a h h,
+    e g\pE dis h e g c g %5
+    a a, h4 e,8 e' d! c
+    h16 e d c h8 fis g g' g16 d h g
+    d'8 d'16 a fis8 d g fis e g
+    a g fis a h g a a,
+    d e fis d g, g'16 f e8 h %10
+    c a e' d16 c h8 c d d,
+    g\fE e' h c d4 r8 fis
+    g e16 c d4 e8 c d d,
+    g4 r r2 \markOsannaUtSupra \bar "||" %14 finis
+  }
+}
+
+B-XXXVBenedictusBassFigures = \figuremode {
+  r4 \bo <[6 _]> r4. \bc <[6 _!]>8
+  r4 <6 4>8 <5 3> r2
+  r4 <[6 5]>4. <6>8 q q
+  <_+> \bo <[_!]> <6> \bc <[6\\]>4. <6 4>8 <5 _+>
+  r4 \bo <[6]>4. <6>4 \bc <[6]>8 %5
+  r4 <6 4>8 <5 _+>4. <6>8 q
+  q4. <[6]>8 r2
+  \bo <[6] 4>8 <5 3>2 \bc <[6]>4 <6>8
+  <_+>4 <6>8 <6 [_+]>4 <6>8 <4> <_+>
+  r2. <6>8 <[6]> %10
+  r <6\\> r2 <6 4>8 <5 3>
+  r <6> q q r2
+  r8 <[6]> <4> <3>4. <6 4>8 <5 3>
+  r1 %14 finis
+}
+
+B-XXXVAgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoB-XXXVAgnus
+    \mvTr g'2\fE-\tutti d
+    a'8 a, c a e'2
+    h a4 f'
+    dis2 e4 r
+    \mvTr e2\pE-\solo cis %5
+    f4 d dis8 dis dis dis
+    e4 r r8 \mvTr a4\fE-\tutti a,8
+    d4 g! d2
+    g,4 r r8 h'4 a8
+    gis2 r8 a, a' cis, %10
+    d f g h, c4. b8
+    a1 \noBreak
+    d2 r\fermata \bar "||"
+    \clef "treble_8" \time 3/2 \tempoB-XXXVDona \newSpacingSection
+      r4 \mvTr d'2-!\fE-\tuttiE h8-! g-! a2-!\trill \noBreak
+    << { r4 g'2 fis8 d } \\ { g,4. a8 h c d4 g, a } >> %15
+    fis g2 fis4 e4. fis8
+    g4 \clef bass g2 fis8 d e2
+    d4 g2 f4 e \hA f
+    d e cis d a2
+    d4 \clef treble << {
+      fis'8 g a h c a h c d h %20
+      c d e fis g d g4
+    } \\ {
+      d,8 e fis g e fis g a fis g %20
+      a h c a h4 a8 g
+    } >> \clef "treble_8" d2
+    \clef bass g,2. fis8 d e2
+    d4 g2 f8 d e4 a~
+    a g!8 e f4 e8 c d2
+    c4 \clef treble << {
+      e''8 f d e \hA f g c, d e \hA f %25
+      h, c d e a,4 d
+    } \\ {
+      c2 h a4~ %25
+      a g2 fis!4
+    } \\ {
+      \voiceFour s4 s1 %25
+      s2 d
+    } >> \clef bass g,~
+    g4 fis8 d e2 d4 h'
+    e, a d, g c,2
+    d4 h' fis g e h
+    c a e' fis g8 e d c %30
+    h4 c d e c d
+    h a8 g d'4 d, g2\fermata \bar "|." %32 finis
+  }
+}
+
+B-XXXVAgnusBassFigures = \figuremode {
+  r2 <5 4>4 <\t _!>
+  r2 <5 4>4 <\t 3>8 <6\\ \t>
+  <5>4. <6\\> <5>4
+  <7 5 [_+]>2 <_+>
+  <6 [_!]> <6> %5
+  q <7[!] 5 [_+]>
+  <_+>1
+  <7 _+>2 <4>4 <3>
+  r2 r8 <5! 3>4 <\t 3>8
+  <6>2 r8 <_!>4. %10
+  <9 [_!]>8 <6> <9> <6> <9> <8>4 <[6] 3>8
+  <7 _+>4 <6\\ 4> <5 \t> <\t _+>
+  r1
+  r1.
+  r1 <6>4 <5> %15
+  <6 5> <3> <4 2> <6> q2
+  <5 4>4 <[\t 3]> <2> <[6]> <7> <6!>
+  <7> <3> <5 2> <6> <7 _+> <5>
+  <6 5 _!> <3[!]> <6 5> <_+> <4> <_+>
+  r1. %20
+  r1 <4>4 <_+>
+  r2 <2>4 <[6]> <7> <6>
+  <7> <3> <2> <[6]> <7 _+>2
+  <2>4 <[6]> <5> <6> <7 _!> <6 \t>
+  r1. %25
+  r
+  <5 2>4 <[6]> <7> <6\\>2.
+  <7>4 <[_!]> <7>2 q4 <6>8 <5>
+  r4 <6> <[6]>2 <6>4 <[6]>
+  r <6\\>2 \bo <[6]>2. %30
+  \bc q4 <6 5> r1
+  <6>2 <4>4 <3>2. %32 finis
+}

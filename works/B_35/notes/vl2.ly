@@ -195,3 +195,108 @@ B-XXXVCredoViolinoII = {
     g4. fis8 g4 r\fermata \bar "|." %125 finis
   }
 }
+
+B-XXXVSanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoB-XXXVSanctus
+    g''16\fE d h d g,8 r r4
+    e'16 h g h e,8 r r4
+    c'16 g e g c,8 r r4
+    g' r8 e4 a8~
+    a fis d4 g~ %5
+    g8 g g a fis h
+    g e fis4.\trill fis8
+    e \tuplet 3/2 8 { \sbOn g16 fis g a g a h a h c h c d c d }
+    e4 r r
+    r8 \tuplet 3/2 8 { e,16 d e f e \hA f g \hA f g a g a h a h } %10
+    c4 r r
+    r8 \tuplet 3/2 8 { c16 h c d c d e d e } f8 r
+    r \tuplet 3/2 8 { a,16 g a h a h c h c } d8 r
+    r \tuplet 3/2 8 { h16 a h c h c d c d } c8 h
+    c4 e d %15
+    r c h
+    r a g
+    fis!8 d16 e fis8 g a4
+    h a4.\trill a8 \noBreak
+    h2 r4\fermata \bar "||" %20
+    \time 3/2 \tempoB-XXXVOsanna \newSpacingSection
+      r2 d,\fE fis4 d \noBreak
+    g2 r4 e a fis
+    d g2 fis8 e d e d c
+    h4 h'2 a4 g8 fis g4~
+    g e a g8 fis g h a g %25
+    fis4 d r2 r4 g
+    h g c g c8 h c4
+    h2 g2. fis4
+    fis2 r a~
+    a4 g g2 fis4 g %30
+    fis2\trill e r
+    r4 d! g8 fis g4 fis2
+    d4 g e a fis8 e fis4
+    d r e2 fis8 e fis4
+    r fis g8 fis g4 g e %35
+    a g fis g2 fis4
+    g2 r r\fermata \bar "|." %37 finis
+  }
+}
+
+B-XXXVBenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \tempoB-XXXVBenedictus
+    e'8.\f\trill d32 c h16 fis dis h \tuplet 3/2 8 { g' fis e } e8 g4~
+    g16( e') d( c) h( a) g( fis) g8 \tuplet 3/2 8 { g'16 fis g } r g h g
+    fis8 \tuplet 3/2 8 { fis,16 e fis } r fis dis fis \tuplet 3/2 8 { \sbOn g a h a h c h a g fis g e \sbOff }
+    dis c' c c h a' a a g64( fis e16.) c64( h a16.) g64( fis e16.) fis8\trill
+    e4 r r8 h''16(\p g) e4~ %5
+    e8 \tuplet 3/2 8 { a16 g fis } e8 dis e16 e,32 fis g16 a \tuplet 3/2 8 { \sbOn h a h c d e \sbOff }
+    d4 r r16 g, h d g fis g8~
+    g16 fis fis8 r4 r8 d g4
+    r8 e16( e,) a4 r2
+    a'64( g fis16.) g64( fis e16.) \tuplet 3/2 8 { \sbOn d16 e d c! h a \sbOff h a g } g8 r4 %10
+    r2 r4 r8 a\f
+    h16( g) c( e) d( h) a( g) fis( a) a( c) c( fis) a( c)
+    h( g) c( a) g( a) a8\trill \tuplet 3/2 8 { \sbOn g16 fis e e d c \sbOff h a g } a8
+    g4 r r2\fermata \markOsannaUtSupra \bar "||" %14 finis
+  }
+}
+
+B-XXXVAgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoB-XXXVAgnus
+    r8 h'\fE d h a d a h
+    c e4 c8 h4. cis8
+    d4. c16 h c8 c4 c8
+    c c~ c16 h c8 h4 r
+    R1*2 %6
+    r2 r8 e,4\fE e8
+    fis fis g4. g8 fis fis
+    g d4 e8 f16( e) \hA f8 r4
+    r8 h e e, c'4 r8 e~ %10
+    e d16 c h c d8~ d c16 d e8 d
+    cis4 d4. \hA cis16 h \hA cis4 \noBeam
+    d2 r\fermata \bar "||"
+    \time 3/2 \tempoB-XXXVDona \newSpacingSection
+      R1. \noBreak
+    r4 g,2\fE fis8 d e2\trill %15
+    d c4 d e8 d e4
+    d2 r4 a' g8 fis g4
+    fis d r a' \once \stemUp h a8 g
+    f4 e2 d cis4
+    d4. e8 fis g e fis g a fis g %20
+    a h c a h4 a8 g a d, d' c
+    h4 g r2 g4. g8
+    fis4 d r a' gis e
+    r e c8 d e g f a g \hA f
+    e4 c'2 h a4~ %25
+    a g2 fis!4 g2
+    r4 d g8 fis g4 fis d
+    r e fis g e2\trill
+    d r4 g2 g4
+    g a h a h8 g fis e %30
+    d4 e d h e d
+    d g2 fis4 g2\fermata \bar "|." %32 finis
+  }
+}
