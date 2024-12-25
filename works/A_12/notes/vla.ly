@@ -107,3 +107,42 @@ A-XIIAriaPrimaViola = {
     R1\fermata \markDaCapo \bar "||" %39 finis
   }
 }
+
+A-XIIAriaSecundaViola = {
+  \relative c' {
+    \clef alto
+    \key a \minor \time 4/4 \tempoA-XIIAriaSecunda
+    r4 c8.\fE d16 e8. f16 g8 a
+    d, g, r4 a8. h16 c8 d
+    g,4 r f8. g16 a8 h
+    e, fis16 gis a4. gis'8 a h
+    e,4. d16 c h8 h a gis %5
+    a4 a'4. gis8 gis fis16 \hA gis
+    a8. h16 c8 d g,16 f e8 d c
+    r g h16 a h8 c f16 g a8 g
+    g8. g16 f8 e d4. h'8
+    e,8. e16 d8 c h4. e8 %10
+    a,4 f' e8. d16 c8 a
+    e' f e e e4 r
+    R1*17 %29
+    r16 g,\f h d g8 g fis e d c %30
+    h4 r8 a g4 fis
+    g r r2
+    R1*19 %51
+    r16 a\f c e a8 a gis fis e d
+    c4 a8 f' e4 e
+    e r8 a gis f! e d
+    c4 a8 f' e4 e %55
+    e\fermata r r2
+    R1*11 %67
+    g4.\f g8 e4 a
+    g e r h~
+    h h' e, r %70
+    a,8. h16 c8 dis e4 r
+    r fis h, e
+    a, d g, c
+    fis, r r2
+    R1*15 %89
+    \tempoA-XIIAriaSecundaB R1\fermata \markDaCapo \bar "||" %90 finis
+  }
+}

@@ -1,6 +1,7 @@
 \version "2.24.0"
 
 Job = \markup \remark "Job"
+JobsFrau = \markup \remark "Jobs Frau"
 Eliphas = \markup \remark "Eliphas"
 fC = \set Staff.forceClef = ##t
 
@@ -9,6 +10,9 @@ tempoA-XIIIntro = \tempoMarkup "Adagiosè"
 tempoA-XIIScenaPrima = \tempoMarkup "Recitativo"
   tempoA-XIIScenaPrimaB = \tempoMarkup "Ariosè"
 tempoA-XIIAriaPrima = \tempoMarkup "Andante"
+tempoA-XIIScenaSecunda = \tempoMarkup "Recitativo"
+tempoA-XIIAriaSecunda = \tempoMarkup "Presto moderato"
+  tempoA-XIIAriaSecundaB = \tempoMarkup "Largo"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

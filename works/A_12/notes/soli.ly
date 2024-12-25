@@ -116,3 +116,199 @@ A-XIIAriaPrimaSoliLyrics = \lyricmode {
   ſo ver -- bleibt mein Gwiſ -- ſen
   rein. %39 finis
 }
+
+A-XIIScenaSecundaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIScenaSecunda
+    r4^\JobsFrau r8 g' c c e c
+    a r16 a a a a d cis8. cis16 cis8 e
+    g, g b a f8. f16 f8 a
+    fis a c! b \appoggiatura a g4 r8 d'
+    gis,8. gis16 h8 d, e e \clef "treble_8" r^\Job a, %5
+    c! c e c a8. a16 a8 b
+    c8. c16 c8 d es es es d
+    b b r d f b, d \hA b
+    g8. g16 g8 h d d f es
+    c4 r8 es b b d \hA b %10
+    g8. g16 g8 g c g b c
+    a r16 a a a a h cis8 cis16 cis d8 e!
+    g, g b a f a d16 d cis d
+    d8 a r4 \clef treble r8^\JobsFrau a' a16 b c! d
+    h8 g h d c e c g %15
+    a4 r16 c h c c8. g16 g4
+    R1\fermata \bar "|." %17 finis
+  }
+}
+
+A-XIIScenaSecundaSoliLyrics = \lyricmode {
+  Be -- glückht biſ -- tu mein
+  Job! Und wirſt auch ſtets ge -- ſeg -- net ſein ſambt
+  mir und al -- len Kün -- dn dein, ſo --
+  lang als Got -- tes Lob in
+  dei -- nen Mund er -- ſchal -- let. Mit %5
+  al -- len dem iſt lang noch nicht nach
+  Men -- ſchen -- pflicht die gring -- ſte Schuld be --
+  zah -- let. Doch weil ſich Gott be --
+  gnü -- gen laßt mit un -- ſrer We -- nig --
+  keit, ſo ſey dem -- nach der %10
+  Schluß ge -- faßt, daß ich zu je -- der --
+  zeit ihm täg -- lich Op -- fer rei -- che, da -- mit hin --
+  führ von mir und dir all Schad und Ue -- bel
+  wei -- che. Der Vor -- ſatz iſt ge --
+  macht, nun iſt mein Bitt, daß di -- ßes %15
+  Glübt von dir auch werd vol -- bracht! %16 finis
+}
+
+A-XIIAriaSecundaSoli = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoA-XIIAriaSecunda
+    R1*12 %12
+    a'2 c
+    h4 e4.( d8) a h
+    c g c2( h4) %15
+    c r r2
+    R1
+    a4. a8 c2
+    h4 h8 cis d a d4~
+    d c c( h) %20
+    c r r2
+    r8 c4 c8 h a g f
+    e4 g c e~
+    e8 a, d2 \tuplet 3/2 4 { c8[( h a])
+    h[( a g]) } g4 e'16([ c8.)] a16([ g8.)] %25
+    \tuplet 3/2 4 { fis8[( e \hA fis)] g([ \hA fis g)] a([ h c)] h([ a g)]
+    fis([ g a)] } d,4 e'4. e8
+    d16([ a8.)] h16([ g8.)] \appoggiatura h8 a4. g8
+    g4 r r2
+    R1*2 %31
+    r2 g
+    a g4 c~
+    c h8 g a4. h8
+    c[ g] c4. h16[ a] h4 %35
+    c r r2
+    R1
+    a4. a8 c2
+    h8 h4 cis8 d[ a] d4~
+    d c4. c8 h a %40
+    \tuplet 3/2 4 { gis([ fis e)] } e4 r2
+    r8 a4 a8 \tuplet 3/2 4 { h([ a)] \once \stemUp h cis([ h)] \hA cis }
+    d4 r r2
+    r8 g,4 g8 \tuplet 3/2 4 { a([ g)] a h([ a)] \once \stemUp h }
+    c4 g c e~ %45
+    e8 a, d4~ \tuplet 3/2 4 { d8[ e d] c([ h a)]
+    h([ a g)] } g4 e'4. e8
+    c4 \tuplet 3/2 4 { c8([ d e)] f([ e d)] c([ h a)] }
+    a4\trill gis f'!4. f8
+    e16([ h8.)] c16([ a8.)] \appoggiatura c8 h4.\trill a8 %50
+    a4 r r2
+    R1*4 %55
+    r2\fermata h
+    e,4 c'4. h8 h a
+    g8.([ fis16)] e4 d!8([ fis)] a([ c)]
+    h16([ a] \once \stemUp h4) c16([ d)] e8([ c)] a([ g)]
+    \tuplet 3/2 4 { fis([ g a)] } d,4 a'8 a([ h c)] %60
+    h16([ a h8)] r h \tuplet 3/2 4 { c([ d e)] d([ e f)] }
+    e4 e4.( h8) c([ d)]
+    c([ d)] e4 \appoggiatura e8 d4. c8
+    h([ a]) g4 g h8([ g)]
+    e([ e')] c([ h)] a([ g)] fis([ e)] %65
+    e4\trill dis c'4. c8
+    h16([ fis8.)] g16([ e8.)] g4( fis8.) e16
+    e4 r r2
+    R1*4 %72
+    r2 e
+    g fis4. gis8
+    a e a2 g4~ %75
+    g fis g r
+    R1
+    e4. e8 g2
+    fis8 fis4 gis8 a[ e] a4~
+    a gis a r %80
+    r2 h4. h8
+    c c c16([ h)] c8 h4 e~
+    e d c2
+    h8 h4 cis8 d a d4~
+    d8 c c dis e h e4 %85
+    dis h c4. c8
+    h2 r
+    r r4 e
+    e,2~ e4 fis
+    \tempoA-XIIAriaSecundaB fis2\trill e\fermata \markDaCapo \bar "||" %90 finis
+  }
+}
+
+A-XIIAriaSecundaSoliLyrics = \lyricmode {
+  Wer Gott %13
+  will, Gott __ will was
+  an -- ge -- lo -- %15
+  ben,
+
+  und das Werckh
+  wird auff -- ge -- ſcho -- ben, auff --
+  ge -- ſcho -- %20
+  ben,
+  di -- ſer ſey -- e wohl ver --
+  gwißt, daß er mit __
+  der -- glei -- chen
+  Her -- tzen gar nicht %25
+  pfle -- ge __ vill __ zu __
+  ſcher -- tzen wan man
+  auch ſein Glübt ver --
+  gißt.
+
+  Wer %32
+  Gott will, Gott __
+  will was an -- ge --
+  lo -- _ _ _ %35
+  ben,
+
+  und das Werckh
+  wird auff -- ge -- ſcho -- _
+  _ ben, auff -- ge -- %40
+  ſcho -- ben,
+  di -- ſer ſey -- e wohl ver --
+  gwißt,
+  di -- ſer ſey -- e wohl ver --
+  gwißt, daß er mit __ %45
+  der -- glei -- chen
+  Her -- tzen gar nicht
+  pfle -- ge __ vill __ zu __
+  ſcher -- tzen wan man
+  auch ſein Glübt ver -- %50
+  gißt.
+
+  Gott %56
+  iſt von Na -- tur be --
+  ſchaf -- fen, je -- ne __
+  Heych -- ler ab -- zu --
+  ſtraf -- fen, die da __ %60
+  nur auf bloſ -- ſen
+  Schein in __ der
+  Noth zwahr vill ver --
+  ſpre -- chen, dan -- noch
+  ſol -- ches un -- ter -- %65
+  bre -- chen wan ſie
+  in __ den Wohl -- ſtand
+  ſeyn.
+
+  Gott %73
+  iſt von Na --
+  tur be -- ſchaf -- _ %75
+  _ fen,
+
+  je -- ne Heych --
+  ler ab -- zu -- ſtraf -- _
+  _ fen, %80
+  die da
+  nur auf bloſ -- ſen Schein in __
+  der Noth
+  zwahr vill ver -- ſpre -- chen, dan --
+  noch un -- ter -- bre -- chen wan %85
+  ſie in Wohl -- ſtand
+  ſeyn,
+  in
+  Wohl -- _
+  ſtand ſeyn. %90 finis
+}

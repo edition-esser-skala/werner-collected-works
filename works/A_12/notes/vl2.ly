@@ -122,3 +122,97 @@ A-XIIAriaPrimaViolinoII = {
     R1\fermata \markDaCapo \bar "||" %39 finis
   }
 }
+
+A-XIIAriaSecundaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoA-XIIAriaSecunda
+    a'2\fE c
+    h4 e4. d8 a h
+    c g c4. h8 fis gis
+    a4. h16 c d2~
+    d8 c h a h e, e'4~ %5
+    e8 dis dis cis16 \hA dis e8 e, e4
+    r2 r4 c'
+    d!2 c8 a16 h c8 d~
+    d g, c4 r8 g a h~
+    h e, a4 r8 e f g %10
+    a4. h8 gis4 a~
+    a8 h \appoggiatura a gis4\trill a8 e c e
+    a,4 r r2
+    r4 g'!\p a2
+    g4. g8 a16 h c8 d d %15
+    g, c, r e' d4. c16 h
+    c4. d16 c h4. c16 h
+    a8 c h a gis e e4
+    r2 r8 d e f
+    g!16 f g4 g8 a4 d %20
+    g,8 e'4\f e8 d c h a
+    \tuplet 3/2 4 { g f e } e4 r2
+    r r8 c'\p g b
+    a16( g) f8 r4 r8 d' a c
+    h!16( a) g8 r4 r8 e' a, g %25
+    fis( d') cis( d) \once \slurDashed d,( a') \tuplet 3/2 4 { h a g }
+    fis4 r r2
+    R1
+    r16 g\f h d g8 g fis e d c
+    h4. h8 a g fis a %30
+    d16( g8.) e16( c8.) h8 a16( g) a8 fis
+    g g4\p a16 h c( h) c8 r4
+    R1*2
+    r4 r8 e\p a,16( g) a8 d16( c) d8 %35
+    g, c, r e' d4. c16 h
+    c4. d16 c h4. c16 h
+    a8 c h a gis e e4
+    R1
+    r8 a16 h c d e8 fis( dis) h( a) %40
+    gis e4\f e8 \tuplet 3/2 4 { fis e \hA fis gis \hA fis \hA gis }
+    a16( h) c( h) a4 r2
+    r8 d,4 d8 \tuplet 3/2 4 { e d e fis e \hA fis }
+    \slurDashed g16( fis) g( a) \slurSolid h4 r2
+    r8 c,\p e g \tuplet 3/2 4 { c h c } e4~ %45
+    e8 a, d2 \tuplet 3/2 4 { c8 h a }
+    h4 r r8 e, gis h
+    \tuplet 3/2 4 { c h c } c,4 r2
+    R1*2 %50
+    r16 a'\f c e a8 a gis f! e d
+    c4. c8 h a gis h
+    e16( a8.) f!16( d8.) c8 \once \slurDashed h16( a) h8 gis
+    a16 a, c e a8 a gis f! e d
+    c16( e8.) f16( d8.) c8 d16 c d8 h %55
+    a4\fermata r r2
+    r8 h\p e16 fis g8 \hA fis8 h4 a8
+    g h4 e8 r d!4 c8
+    h4. c16 d e8( c) a( g)
+    fis4 r r8 a d, a' %60
+    \tuplet 3/2 4 { h a h } r4 r8 g4 g8
+    \tuplet 3/2 4 { e' d e } r4 r8 e,4 e8
+    \tuplet 3/2 4 { c' h c } r4 r8 d,4 d8
+    \tuplet 3/2 4 { h' a h } r4 r2
+    r4 e, \tuplet 3/2 4 { a8 g a c h c } %65
+    R1*2
+    r4 h4.\f a8 e fis
+    g e16 fis g8 e fis4. e8
+    fis h fis gis a4 e8 d %70
+    e a e fis g4 r8 h
+    a c h a g h a g
+    fis a g \hA fis e16 \hA fis g8 \hA fis e
+    dis4 r r2
+    r r8 g\p a h %75
+    c16 d e8 d c h4 r
+    r c2 h4~
+    h ais h r
+    R1
+    r4 h c2 %80
+    h4 e2 dis4
+    R1
+    r4 r8 g c,4 r
+    r2 r8 d,16 e fis8 gis
+    \tuplet 3/2 4 { a gis a } r4 r8 e16 fis g?8 ais %85
+    \tuplet 3/2 4 { h ais h } r4 r2
+    r4 e dis h
+    c dis e8 h e4~
+    e e, e2
+    \tempoA-XIIAriaSecundaB dis\trill e\fermata \markDaCapo \bar "||" %90 finis
+  }
+}
