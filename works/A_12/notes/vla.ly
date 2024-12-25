@@ -75,3 +75,35 @@ A-XIIIntroViola = {
     es d d4 r\fermata \bar "|." %70 finis
   }
 }
+
+A-XIIAriaPrimaViola = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 4/4 \tempoA-XIIAriaPrima
+    d8\fE f16. es32 d8 c d16. b32 d16. es32 f8 d16. f32
+    b,8 es c f~ f d16. c32 b8 d
+    b es c g' c,16. f32 a,16. b32 c8 a
+    f b16. d32 c8 f\p f, b16. d32 c8 f~\f
+    f16 d b( es) d( g,) a8\trill b8. es16 d( g,) a8\trill %5
+    b4 r r2
+    R1*4 %10
+    r2 a'8\f c16. b32 a8 g
+    f a d c b d g,8. g16
+    f8. b16 \tuplet 3/2 8 { a g f } e8\trill f8. b16 a32 g f8 e16
+    f4 r r2
+    R1*4 %18
+    r2 d8\f f16. es32 d8 c
+    d16. b32 d16. es32 f8 d16. f32 b,8 es c f~ %20
+    f d16. c32 b8 d b es c g'
+    c,16. f32 a,16. b32 c8 a f b16. d32 c8 f\p
+    f, b16. d32 c8 f~\f f16 d b es \tuplet 3/2 8 { d c b } a8\trill
+    b8. es16 \tuplet 3/2 8 { d c b } a8\trill
+    b4\fermata r %25
+    R1*6 %31
+    d8.\f c16 b8 a g d' es! d
+    c8. b16 a8 a' d,16 g,8 es'16 b32( a) g8 fis16
+    g4 r r2
+    R1*5 %38
+    R1\fermata \markDaCapo \bar "||" %39 finis
+  }
+}

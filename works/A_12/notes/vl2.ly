@@ -76,3 +76,49 @@ A-XIIIntroViolinoII = {
     c8 a g4 r\fermata \bar "|." %70 finis
   }
 }
+
+A-XIIAriaPrimaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoA-XIIAriaPrima
+    b'4~\fE \sbOn \tuplet 3/2 8 { b16 d f } f,16. a32 b4~ \tuplet 3/2 8 { b16 f' b } b,16. d32 \sbOff
+    g32( b16.) a32( g16.) f32( es16.) d32( es16.) \appoggiatura es8 d4 f8 \tuplet 3/2 8 { g16 a b }
+    g32( es16.) d32( c16.) g'32( c,16.) b\trill c32 \appoggiatura b8 a4 r16 f c'32( es16.)
+    es32( d16.) f32( b,16.) b32( a16.) c32(\p es,16.) es32( d16.) f32( b,16.) b32( a16.) c'32(\f es16.)
+    \sbOn \tuplet 3/2 8 { d16 es f g es c } b16. c32 c8\trill \tuplet 3/2 8 { d16 es f g es c } b16. c32 c8\trill %5
+    b4 r r2
+    r8 a\p \tuplet 3/2 8 { \sbOn b16 c d c d es d b f b f d } b4 \sbOff
+    r2 r8 a'16 b c8 b
+    b16( a) a( b) c8 b b16( a) a8 r4
+    g16( a) a( b) \tuplet 3/2 8 { c b c } c8 r4 r8 d\trill %10
+    \kneeBeam g16. c,,32 c8\trill r4 f4~\f \sbOn \tuplet 3/2 8 { f16 a c } c,16. e32
+    f16. f'32 f8~\trill \tuplet 3/2 8 { f16 f f f g a b a g f e d \hA e d c b a g
+    a b c d b g } f16. g32 g8\trill \tuplet 3/2 8 { a16 b c d b g } f16. g32 g8\trill \sbOff
+    f4 r d'8\p f, d16 f'( es d)
+    \tuplet 3/2 8 { es d c } c8 r4 r8  a b \tuplet 3/2 8 { c16 b c } %15
+    f,4 r r2
+    r8 a16\p b c8 b b16( a) a8 r4
+    g16( a) a( b) \tuplet 3/2 8 { c b c } c8 r4 r8 b'
+    b,4 r b~\f \tuplet 3/2 8 { \sbOn b16 d f } f,16. a32
+    b4~ \tuplet 3/2 8 { b16 f' b } b,16. d32 \sbOff g32( b16.) a32( g16.) f32( es16.) d32( es16.) %20
+    \appoggiatura es8 d4 f8 \tuplet 3/2 8 { g16 a b } g32( es16.) d32( c16.) g'32( c,16.) b32( c16.)
+    \appoggiatura b8 a4 r16 f c'32( es16.) es32( d16.) f32( b,16.) b32( a16.) c32(\p es,16.)
+    es32( d16.) f32( b,16.) b32( a16.) c'32(\f es16.) \tuplet 3/2 8 { \sbOn d16 es f g es c } b16. c32 c8\trill
+    \tuplet 3/2 8 { d16 es f g es c } b16. c32 c8\trill \sbOff b4\fermata r
+    R1 %25
+    r2 r8 g16.\f d'32 c8 b,16. b'32
+    a8 f r4 r8 a\p d16 g, fis c'
+    \tuplet 3/2 8 { b a g } g8~ g16 b a g g( fis) fis8 d b'
+    b16( a) a8 r4 r8 d,~ d16( e) e( fis)
+    fis8 d r4 r2 %30
+    g4~\f \tuplet 3/2 8 { \sbOn g16 b d } d,16. f!32 g16. g'32 g8~ \tuplet 3/2 8 { g16 g g g a b
+    c b a g fis e \hA fis \hA e d c b a b c d es c a } g16. a32 a8\trill \sbOff
+    g4 r r16 b'\p a g f( es) d( c)
+    \tuplet 3/2 8 { d c b } b8 r4 r2
+    r8 a16. b32 c8 b b16( a) a8 r4 %35
+    r8 fis16 g a( fis) g( b,) b( a) a8 r4
+    r2 r8 g' es'16( d) d( cis)
+    cis8 r r4 r2
+    R1\fermata \markDaCapo \bar "||" %39 finis
+  }
+}

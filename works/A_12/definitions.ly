@@ -8,6 +8,7 @@ tempoA-XIIIntro = \tempoMarkup "Adagiosè"
   tempoA-XIIIntroB = \tempoMarkup "Vivace passato"
 tempoA-XIIScenaPrima = \tempoMarkup "Recitativo"
   tempoA-XIIScenaPrimaB = \tempoMarkup "Ariosè"
+tempoA-XIIAriaPrima = \tempoMarkup "Andante"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
