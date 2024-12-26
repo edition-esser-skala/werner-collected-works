@@ -312,3 +312,78 @@ A-XIIAriaSecundaSoliLyrics = \lyricmode {
   Wohl -- _
   ſtand ſeyn. %90 finis
 }
+
+A-XIIAriaTertiaSoli = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \autoBeamOff \tempoA-XIIAriaTertia
+    R1*5 %5
+    c'8([ g)] es([ c)] h([ d)] g4
+    c16([ b as8)] g([ fis)] fis([ g)] g,4
+    d''8([ h)] g([ f)] e([ f16 \hA e] f8) b
+    c4 c, f, r
+    R1 %10
+    c'8([ e)] g([ c)] as([ f)] \tuplet 3/2 4 { \hA as([ b c)] }
+    b4. as8 as([\trill g)] es4
+    b'8([ g)] es([ g)] c,([ c')] b([ es,)]
+    b4. b8 es,4 r
+    R1 %15
+    c''8([ g)] es([ c)] h([ d)] g4
+    e8([ des')] c([ b!)] as16([ g f8)] f4
+    b,8([ d)] f([ as)] g4. as16([ b)]
+    c([ b as8)] g([ fis)] g4 r
+    g8([ h)] d([ f,)] \appoggiatura f e4. e8 %20
+    f([ a!)] c([ es,)] es4\trill d
+    es16[( f] g4) es8 c([ c')] as([ f)]
+    es4. d16([ c)] h4 r
+    r8 d'4 g,8 es([ c')] as([ f)]
+    g4. g,8 c4 r %25
+    R1*2
+    r2\fermata g'4. b8
+    a([ cis)] d([ d,)] g16([ a b8)] a([ g)]
+    g4 fis g4. a8 %30
+    b([ a16 g] f8) g es4~ es16[ d] es8
+    d4 r b'4. f8
+    g([ a)] b4 a8([ c16 b] a8) g
+    g4\trill fis g8([ b16 a] g8) f
+    es([ d)] c([ b!)] a([ e')] a([ g)] %35
+    fis d'4 c8 b g a h
+    c c,4 cis8 d4. d8
+    g,2 r\fermata \markDaCapo \bar "||" %38 finis
+  }
+}
+
+A-XIIAriaTertiaSoliLyrics = \lyricmode {
+  Mei -- ne Ur -- theill %6
+  ſein __ ver -- bor -- gen,
+  die ich nie -- mand
+  kün -- dig mach,
+  %10
+  al -- ler Men -- ſchen
+  Witz und Sor -- gen
+  ſein hier -- in -- fahls
+  vill zu ſchwach.
+  %15
+  Mei -- ne Ur -- theill
+  ſein ver -- bor -- gen,
+  die ich nie -- mand
+  kün -- dig mach,
+  al -- ler Men -- ſchen %20
+  Witz und Sor -- gen
+  ſein __ hier -- in -- fahls
+  vill zu ſchwach,
+  ſein hier -- in -- fahls
+  vill zu ſchwach. %25
+
+  Ich pfleg %28
+  ſol -- che offt zu
+  züch -- ten, die mirs %30
+  auß -- er -- wäh -- let
+  ſeyn, bö -- ſe
+  werd ich ein -- ſtens
+  rich -- ten mit __ der
+  Straff und Höl -- len -- %35
+  peyn, mit der Straff und Höl -- len --
+  peyn, Straff und Höl -- len --
+  peyn. %38 finis
+}

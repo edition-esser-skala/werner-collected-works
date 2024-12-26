@@ -216,3 +216,48 @@ A-XIIAriaSecundaViolinoII = {
     \tempoA-XIIAriaSecundaB dis\trill e\fermata \markDaCapo \bar "||" %90 finis
   }
 }
+
+A-XIIAriaTertiaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoA-XIIAriaTertia
+    r8 \mvTr es\pE-\conSord es c d4 r8 e
+    f4 r8 as d, g es c'
+    a4. a8 g4. g16 a
+    h( c) \hA h( c) d( c) d8 g,4 c8. b?16
+    as8 a d, g g4 r %5
+    r2 g8( h) d( g,)
+    c c,4 c8 d2
+    r2 g'8( e) c( f,)
+    f4( e8.)\trill f16 f4 r8 c
+    f as g4. f8 es( d) %10
+    r2 c8( f) as( c,)
+    f4~ f16 es f8 b,( es) g( as)
+    b4. g8 es8. f16 g8 f
+    es16 f g4 f8 es4 r8 es~
+    es f16 g f8 es d8. d16 g8 f %15
+    es4 g4. d'16 c h8 d
+    \once \slurDashed c( b) as( g) \hA as4. b16 c
+    f,4 b4. g8 es4
+    c'8 c,4 c8 d2
+    d'8 g,4 f8~ \appoggiatura f e8 c r4 %20
+    c'8 f,4 es8 es( d) b4
+    R1
+    r8 es~ es16 d es8 d8 h g4
+    g' h16( c d8) g,4 as16( g f8)
+    es4 d c r8 c' %25
+    as4. g8 f4 g~
+    g8 f g as16( f) es8. f16 d4\trill
+    c\fermata r r2
+    r4 d16 es f8 g16 a b8 a4~
+    a16 g a8 d,4 r2 %30
+    f8. g32 a b4 g8. a16 b8 c~
+    c b16 a b4 r2
+    b,8 es4 f8 es a4 g8
+    g4\trill fis8 g16 a d,4. d'8
+    g, a16 h c8 c,16 d \hA e d e4 e8 %35
+    a, fis' g a d, b' c d
+    g, es'4 g,4 fis16 e \hA fis4\trill
+    g2 r\fermata \markDaCapo \bar "||" %38 finis
+  }
+}

@@ -146,3 +146,31 @@ A-XIIAriaSecundaViola = {
     \tempoA-XIIAriaSecundaB R1\fermata \markDaCapo \bar "||" %90 finis
   }
 }
+
+A-XIIAriaTertiaViola = {
+  \relative c' {
+    \clef alto
+    \key c \dorian \time 4/4 \tempoA-XIIAriaTertia
+    \mvTr c8\pE-\conSord c' c c h4 r8 b
+    a4 r8 as g g as as
+    fis4. fis8 f f es es
+    d c h h c b as es'
+    f fis g g, c es'16. c32 g8 es %5
+    c4 r r2
+    R1*2
+    r2 as'8 g f es
+    d! c h4 c4. d8 %10
+    e4 r r2
+    R1*2
+    r2 g8 f es es'
+    as,4 f g8 f es d %15
+    c4 r r2
+    R1*8 %24
+    r2 e %25
+    f8 as16 g f8 es d c h4
+    c8 d es f g f g g,
+    c4\fermata r r2
+    R1*9 %37
+    R1\fermata \markDaCapo \bar "||" %38 finis
+  }
+}

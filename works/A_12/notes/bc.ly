@@ -489,3 +489,151 @@ A-XIIAriaSecundaBassFigures = \figuremode {
   <7 5 [_+]>2 <6 4>
   <5\+ _+>1 %90 finis
 }
+
+A-XIIScenaTertiaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XIIScenaTertia
+    f2-\tutti e
+    cis d
+    e f4 b,
+    c2 f,8 a' f d
+    b2 h %5
+    gis a
+    fis g
+    dis'1
+    e2 d
+    c cis %10
+    d e4 e,
+    f2 fis
+    g f'!
+    es e
+    f4 es d2 %15
+    es as
+    b4 as g2
+    e! c
+    a! b
+    h c %20
+    f g4 gis
+    a g f2
+    fis1
+    g4 h, c2
+    f g4 g, %25
+    c1\fermata \bar "|." %26 finis
+  }
+}
+
+A-XIIScenaTertiaBassFigures = \figuremode {
+  r2 <6\\>
+  <6>1
+  <6[!]>
+  <4>4 <3>2.
+  r2 <6> %5
+  q1
+  q
+  \bo <6 [_+]>2 \bc <5 [\t]>
+  r <4\+ _!>
+  <6> q %10
+  r <4>4 <_+>
+  r2 <7- 5>
+  <_-> <4! _->
+  <6> <[\t]>
+  <_->4 <\t> <6->2 %15
+  \bo <[5-]> \bc q
+  <4->4 <4 2[-]> <6- [_-]>2
+  <6> <6- _->
+  <6>1
+  <6> %20
+  r2 <4>4 <6 3>
+  r <4\+ 2> <6>2
+  q <5[!]>
+  r4 <6>2.
+  r2 <4>4 <3> %25
+  r1 %26 finis
+}
+
+A-XIIAriaTertiaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \tempoA-XIIAriaTertia
+    \mvTr c8\pE-\soloE c' c c h4 r8 b
+    a4 r8 as g g as as
+    fis4. fis8 f f es es
+    d c h h c b as es'
+    f fis g g, c es'16. c32 g8 es %5
+    c4 c' h b
+    as a g g,8 a
+    h4 h' b as8 b
+    c4. b8 as g f es!
+    d! c h4 c4. d8 %10
+    e4 c f4. es8
+    d2 es4. f8
+    g4 es as g8 \hA as
+    b4. as8 g f es es'
+    as,4 f g8 f es d %15
+    c4 c' h g8 f
+    e2 f4. es8
+    d4 b es8 es'16 d c8 b
+    as4 a g g,8 a
+    h4 h' c e, %20
+    f a,! b2
+    es4 g, as2
+    fis8 fis fis fis g g' g, a
+    h2 c4 f
+    g4. f8 e2 %25
+    f8 as16 g f8 es d c h4
+    c8 d es f g f g g,
+    c\fermata es' d c b! a g4
+    fis f es8 d cis4
+    d8 a' d c b a g f!16 es! %30
+    d4. b8 c c' g a
+    b4 b,8 c d4 b
+    es4. d8 c4 cis
+    d8 a' d c b8. a16 g8^\critnote f!
+    es8 d c b! a e' a g %35
+    fis d e \hA fis g g, a h
+    c4. cis8 d4 d,
+    g2 r\fermata \markDaCapo \bar "||" %38 finis
+  }
+}
+
+A-XIIAriaTertiaBassFigures = \figuremode {
+  r2 <6>4. <4! 2>8
+  <6>2 <7 _!>4 <5>
+  <7 [_!]>8 <6>4 <5>8 <4! 2>4 <6>
+  <6! [5-]>8 <8 6-> <7> <6> r2
+  <_->8 <7 [_!]> <4> <_!> r2 %5
+  r <6>
+  <7>8 <6> <6\\>4 <4>8 <_!>4.
+  <6>4 q8 <5> <4! 2>4 <6>8 <_->
+  <6- 4>4 <5 _!> <6> <_->
+  <6! [5-]>8 <8 \t> <6 5 3>4 <_->2 %10
+  <[6]> <_->4. <6>8
+  <6>4 <\bfdot>8 <5-> <4[-]> <3>4.
+  r2. <6>8 q
+  <6 4>4. q8 <6>2
+  <7>8 <6>16 <5> \bo <6 [_-]>8 \bc <5 [\t]> <_!>2 %15
+  r <[_!]>
+  <6>4 <\bfdot>8 <5[-]> <9 _-> <8 \t>4.
+  <6>2 <9>8 <8>4.
+  <7>8 <6> <6\\>4 <4>8 <_!>4.
+  <6>2 <_!>4 <6> %20
+  r <6>8 <5-> <4>4 <3>
+  r <6> <5> <6>
+  <7- 5 [_!]>2 <_!>
+  <6>2. <_->4
+  <4> <_!> <6> <\bfdot>8 <5-> %25
+  <_->4 q <6\\ [5-]>8 <8 \t> <6> <5>
+  r <6!> <6> <_-> <6 4>4 <5 _!>
+  r8 <6> <6[-]> <6\\> <6>2
+  q q8 q \bo <6 [_!]> \bc <5 [\t]>
+  <9[!] 4>4 <8 _+> <6>2 %30
+  q4. q q8 <\t>
+  <9>4 <8>2.
+  r2 <6>4 \bo <6 [_!]>8 \bc <5 [\t]>
+  <9[!] 4>4 <8 _+> <[6]>4. <4!>8
+  <6> <6!>4. \bo <[5!] _+>4 \bc q %35
+  <6> <\t>8 <5[!]> <_->2
+  r4. <7 5 [_!]>8 <4>4 <_+>
+  r1 %38 finis
+}

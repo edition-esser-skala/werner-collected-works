@@ -1,9 +1,12 @@
 \version "2.24.0"
 
+Eliphas = \markup \remark "Eliphas"
 Job = \markup \remark "Job"
 JobsFrau = \markup \remark "Jobs Frau"
-Eliphas = \markup \remark "Eliphas"
+Leviathan = \markup \remark "Leviathan"
+Schöpffer = \markup \remark "Schöpffer"
 fC = \set Staff.forceClef = ##t
+bfdot = \markup { \combine \transparent \figured-bass 0 \raise #.6 \draw-circle #.2 #0 ##t }
 
 tempoA-XIIIntro = \tempoMarkup "Adagiosè"
   tempoA-XIIIntroB = \tempoMarkup "Vivace passato"
@@ -13,7 +16,10 @@ tempoA-XIIAriaPrima = \tempoMarkup "Andante"
 tempoA-XIIScenaSecunda = \tempoMarkup "Recitativo"
 tempoA-XIIAriaSecunda = \tempoMarkup "Presto moderato"
   tempoA-XIIAriaSecundaB = \tempoMarkup "Largo"
+tempoA-XIIScenaTertia = \tempoMarkup "Recitativo"
+tempoA-XIIAriaTertia = \tempoMarkup "Largo"
 
+\include "notes/ob.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
 \include "notes/vla.ly"

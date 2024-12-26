@@ -208,3 +208,48 @@ A-XIIAriaSecundaViolinoI = {
     \tempoA-XIIAriaSecundaB fis\trill e\fermata \markDaCapo \bar "||" %90 finis
   }
 }
+
+A-XIIAriaTertiaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoA-XIIAriaTertia
+    r8 \mvTr g'\pE-\conSord g g g r g( g')
+    c,16( h) c8 f,( c') h c16 \hA h c4~
+    c16 es d4 c8 h8. c32 d c8. d32 es
+    f16( e) f8 f8.( es32 d) es16( d) es8~ es16 d c8~
+    c8. d16 \appoggiatura c8 h8.\trill c16 c4 r %5
+    r2 g8( h) d( g)~
+    g f es16 d c8~ c h h4
+    r2 g'8( e) c( des)
+    as4( g8.)\trill f16 f4 r8 c'
+    h c d16( c) d8 g,4 r %10
+    r2 c,8( f) \tuplet 3/2 4 { as( b c) }
+    b( d) f( as,) as4\trill g8 as
+    b( es) g( b,) c8. d16 es8 \tuplet 3/2 8 { f16 g as }
+    g f es4 d8 es4~ es16 f g8
+    c,4 as'16( g) \hA as8 h,8. h16 c8 d %15
+    es4. es8 d4. es16 f
+    g2~ g8 f16 e f8 g16 as
+    b,8. c16 d es f8~ f es16 f g4~
+    g8 f es16 d c4 h8 h4
+    r2 c8( e) g( b,) %20
+    a!4 r b8( d) f( as,)
+    g4 r r c~
+    c8 c,~ c16 h c8 \hA h4 d'~
+    d8 h g'4. es8 c4~
+    c h c g'( %25
+    c,4.) c8 h16( c) c( d) d( c) d8
+    es d c4~ c8. d16 h4\trill
+    c\fermata r r2
+    r8 a4 h8 c d e4~
+    e8 d16( cis) d4 r2 %30
+    b4~ b8. c32 d es16 f g4 f16 es
+    d8 f, d es f b4 d8
+    g, a! b16( a) b8 c8. d16 e( d) \hA e8~
+    e d16 cis d4 r8 g,16 a b8 h
+    c d es16 f g8 cis,4. d16 e %35
+    d4 r r8 g4 f!8
+    es!16 d c4 b!8 a2\trill
+    g r\fermata \markDaCapo \bar "||" %38 finis
+  }
+}
