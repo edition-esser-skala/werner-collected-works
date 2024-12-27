@@ -357,3 +357,27 @@ A-XIIAriaQuartaViolinoII = {
     R1\fermata \markDaCapo \bar "||" %49 finis
   }
 }
+
+A-XIIScenaQuintaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XIIScenaQuinta
+    R1*27 %27
+    \tempoA-XIIScenaQuintaB b'2-\markup \remark "con sordino, stendato" g
+    a fis
+    g gis %30
+    a8-! r h-! r c8. c16 h8-! a-!
+    a([ gis)] gis r e2~
+    e1
+    a,4 a'~ a2
+    gis8( h) a( \hA gis) a4. a8 %35
+    gis4 r a2
+    c1~
+    c2 b~
+    b a
+    g a4 r %40
+    a'\f r d,2\p
+    c4. des8 as-! as-! g-! g-! \bar "||"
+    f4 r %43 finis
+  }
+}

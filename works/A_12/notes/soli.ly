@@ -105,15 +105,15 @@ A-XIIAriaPrimaSoliLyrics = \lyricmode {
   dein __ Ge -- bott recht zu er --
   fül -- len, nur dein Wil -- le ſoll ge --
   ſche -- hen, ſo __ ver -- bleibt __
-  mein __ Gwiſ -- ſen %30
+  mein __ Gwi -- ßen %30
   rein.
 
   Ich ſuech bloß dich __ an -- zu --
   fle -- hen, dein Ge -- bott recht zu __ er --
   fül -- len, nur dein %35
   Wil -- le ſoll ge -- ſche -- hen, ſo ver --
-  bleibt mein Gwiſ -- ſen rein,
-  ſo ver -- bleibt mein Gwiſ -- ſen
+  bleibt mein Gwi -- ßen rein,
+  ſo ver -- bleibt mein Gwi -- ßen
   rein. %39 finis
 }
 
@@ -284,7 +284,7 @@ A-XIIAriaSecundaSoliLyrics = \lyricmode {
   ſchaf -- fen, je -- ne __
   Heych -- ler ab -- zu --
   ſtraf -- fen, die da __ %60
-  nur auf bloſ -- ſen
+  nur auf blo -- ßen
   Schein in __ der
   Noth zwahr vill ver --
   ſpre -- chen, dan -- noch
@@ -302,7 +302,7 @@ A-XIIAriaSecundaSoliLyrics = \lyricmode {
   ler ab -- zu -- ſtraf -- _
   _ fen, %80
   die da
-  nur auf bloſ -- ſen Schein in __
+  nur auf blo -- ßen Schein in __
   der Noth
   zwahr vill ver -- ſpre -- chen, dan --
   noch un -- ter -- bre -- chen wan %85
@@ -609,4 +609,16 @@ A-XIIAriaQuartaSoliLyrics = \lyricmode {
   ihn ver -- leith,
   ſo er dan e -- wig __
   nach -- be -- reut. %49 finis
+}
+
+A-XIIScenaQuintaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIScenaQuinta
+
+  }
+}
+
+A-XIIScenaQuintaSoliLyrics = \lyricmode {
+
 }

@@ -881,3 +881,99 @@ A-XIIAriaQuartaBassFigures = \figuremode {
   r2. <7 5 [_+]>4
   <6 4> <5\+ _+>2. %49 finis
 }
+
+A-XIIScenaQuintaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XIIScenaQuinta
+    g'2-\tutti fis
+    dis e
+    fis g4 c,
+    d2 g
+    e cis %5
+    ais h4 g'
+    fis fis8 a d,2
+    dis h~
+    h gis
+    a4 d e e, %10
+    cis'2 d
+    h c
+    gis a
+    d4 dis e e,
+    f2 h! %15
+    c dis
+    e h
+    c4 f g gis
+    a2 g
+    f4 e d2 %20
+    dis d
+    c4 d e d
+    cis2 a
+    h c4 f
+    g g, cis2 %25
+    a a
+    b4 es f2
+    \tempoA-XIIScenaQuintaB e1^\markup \remark "stendato"
+    d2 c!
+    b h %30
+    << { a'8 } \\ { a,-! } >> r g'!-! r f-! f-! f-! f-!
+    e4. d8 c2^\markup \remark "stendato"
+    cis1
+    d2 dis
+    e f %35
+    e4 r d2
+    e es~
+    es cis~
+    cis d
+    e! f %40
+    a, b~
+    b4 as8 b c-! c-! c-! c-! \bar "||"
+    \markScenaSexta f2 %43 finis
+  }
+}
+
+A-XIIScenaQuintaBassFigures = \figuremode {
+  r2 <6\\>
+  <6 [_+]>1
+  <[6]>
+  <4>4 <_+>2.
+  <6>2 q %5
+  <6 [_+]> <[5\+]>4 <7>8 <6\\>
+  <[5\+] _+>4 <6 _!>8 <_+> q2
+  <6 [_+]> <6 [_!]>
+  r <6>
+  r <4>4 <_+> %10
+  <6>1
+  q
+  \bo <[6]>
+  r4 <_+> <4> \bc <[_+]>
+  r2 <6[!]> %15
+  r <6 [_+]>
+  r <6 [_!]>
+  r <4>4 <6 3>
+  r2 <4\+ 2>
+  <6>4 <6\\ 5->2. %20
+  <7[!] 5 [_+]>2 <4\+ 2>
+  <6> <4>4 <4\+>
+  <6>2 <6 [_!]>
+  <6>1
+  <4>4 <3> <6>2 %25
+  <6 _!> <5->
+  r4 <[5-]> <4[-]> <3>
+  <6\\ 5->1
+  r2 <4\+ _->
+  <6> <6\\ 5[!]> %30
+  r <7>8 <6\\>4.
+  <_+> <6 _!>8 r2
+  <6> <7- 5>
+  r <7[!] 5 [_+]>
+  <_+> <7>8 <6\\>4. %35
+  <_+>1
+  <6 [_!]>2 <4 2\+>
+  r <7- 5>
+  r1
+  <6[!]> %40
+  <6>
+  <4 2>4 <[6]>8 <_-> <6- 4>4 <5 _!>
+  r2 %43 finis
+}

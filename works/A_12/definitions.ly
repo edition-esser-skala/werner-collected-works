@@ -8,6 +8,11 @@ Schöpffer = \markup \remark "Schöpffer"
 fC = \set Staff.forceClef = ##t
 bfdot = \markup { \combine \transparent \figured-bass 0 \raise #.6 \draw-circle #.2 #0 ##t }
 
+markScenaSexta = {
+  \once \override Score.RehearsalMark.self-alignment-X = #LEFT
+  \mark \markup \remark "(Scena sexta)"
+}
+
 tempoA-XIIIntro = \tempoMarkup "Adagiosè"
   tempoA-XIIIntroB = \tempoMarkup "Vivace passato"
 tempoA-XIIScenaPrima = \tempoMarkup "Recitativo"
@@ -27,6 +32,8 @@ tempoA-XIIScenaQuarta = \tempoMarkup "Recitativo"
   tempoA-XIIScenaQuartaG = \tempoMarkup "Lamentabile"
   tempoA-XIIScenaQuartaH = \tempoMarkup "Strepitoso"
 tempoA-XIIAriaQuarta = \tempoMarkup "Vivace"
+tempoA-XIIScenaQuinta = \tempoMarkup "Recitativo"
+  tempoA-XIIScenaQuintaB = \tempoMarkup "Lamentabile"
 
 \include "notes/ob.ly"
 \include "notes/vl1.ly"

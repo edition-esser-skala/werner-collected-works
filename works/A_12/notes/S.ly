@@ -19,3 +19,22 @@ A-XIIScenaTertiaSopranoLyrics = \lyricmode {
   dir ſich al -- les un -- ter -- thä -- nig zu dei -- nen
   Dien -- ſten ſtellt. %4 finis
 }
+
+A-XIIScenaQuintaSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIScenaQuinta
+    d'8.^\tuttiE d16 d8 e fis fis r \hA fis
+    h,8. h16 a8 h g4 r8 e'
+    d! d d16 d fis d h8 h16 d e8 e
+    d8. d16 d4 r2
+    R1*38 \bar "||" %42 finis
+  }
+}
+
+A-XIIScenaQuintaSopranoLyrics = \lyricmode {
+  Gro -- ßer Gott und Kö -- nig! Du
+  Herr -- ſcher al -- ler Weld, vor
+  dir ſich al -- les un -- ter -- thä -- nig zu dei -- nen
+  Dien -- ſten ſtellt. %4 finis
+}

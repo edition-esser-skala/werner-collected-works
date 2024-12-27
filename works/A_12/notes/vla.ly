@@ -246,3 +246,27 @@ A-XIIAriaQuartaViola = {
     R1\fermata \markDaCapo \bar "||" %49 finis
   }
 }
+
+A-XIIScenaQuintaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XIIScenaQuinta
+    R1*27 %27
+    \tempoA-XIIScenaQuintaB e1-\markup \remark "con sordino, stendato"
+    d2 c!
+    b h %30
+    a8-! r g'!-! r f-! f-! f-! f-!
+    e4. d8 c2
+    cis1
+    d2 dis
+    e f %35
+    e4 r d2
+    e es~
+    es cis~
+    cis d
+    e! f %40
+    a, b~
+    b4 as8 b c-! c-! c-! c-! \bar "||"
+    \markScenaSexta f4 r %43 finis
+  }
+}
