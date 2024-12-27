@@ -174,3 +174,75 @@ A-XIIAriaTertiaViola = {
     R1\fermata \markDaCapo \bar "||" %38 finis
   }
 }
+
+A-XIIScenaQuartaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XIIScenaQuarta
+    R1*6 %6
+    \tempoA-XIIScenaQuartaB e2-\markup \remark "con sordino, stendato" a,
+    cis e~
+    e a,
+    fis' g~ %10
+    g4 f8 d a4.^\critnote a8
+    \tempoA-XIIScenaQuartaC a4 r r2
+    R1*7 %19
+    \tempoA-XIIScenaQuartaD a'1~-\conSord %20
+    a2 c,!~
+    c a
+    c b4 g'
+    f!2 e
+    fis e %25
+    c4 r r2
+    R1*9 %35
+    r2 \tempoA-XIIScenaQuartaE e2-\conSord
+    \once \tieDashed d~ d
+    g, e'~
+    e4 d c!2
+    h c %40
+    a g4. a8
+    g2 g4 \tempoA-XIIScenaQuartaF r
+    R1*11 %53
+    \tempoA-XIIScenaQuartaG d'2-\conSord f!
+    d1 %55
+    h2 g
+    h d
+    f e
+    f4 fis h, e
+    \tempoA-XIIScenaQuartaH e4 r r2 %60
+    R1*2
+    R1\fermata \bar "|." %63 finis
+  }
+}
+
+A-XIIAriaQuartaViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 4/4 \tempoA-XIIAriaQuarta
+    d8\fE d' fis, d a' a, cis a
+    h4 cis d8 a fis d
+    d''16 e fis d h8 d cis16 d e cis a8 cis
+    h16 cis h a gis fis \hA gis e a8 e cis a
+    r d'16 cis h8 a gis4 a8 d, %5
+    e d e e, a a'16 g! fis8 e
+    d r r4 r2
+    R1*6 %13
+    r2 fis4\f gis
+    a8 e cis a h4 cis %15
+    d8 a fis d r2
+    R1*8 %24
+    h'4\fE cis d8 d' fis, d %25
+    e4 fis g16 a h g e8 g
+    fis16 g a fis d8 fis e16 fis g e cis a h cis
+    d8 a fis d r g'16 fis e8 d
+    cis4 d8 g a g a a,
+    d4\fermata r r2 %30
+    R1*7 %37
+    fis,8\f fis' a, fis cis'4 ais
+    h8 h' d, h fis'4 dis
+    e cis d fis8 d %40
+    g4 gis a8 e cis e
+    R1*7 %48
+    R1\fermata \markDaCapo \bar "||" %49 finis
+  }
+}

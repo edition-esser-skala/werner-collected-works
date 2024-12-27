@@ -387,3 +387,226 @@ A-XIIAriaTertiaSoliLyrics = \lyricmode {
   peyn, Straff und Höl -- len --
   peyn. %38 finis
 }
+
+A-XIIScenaQuartaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIScenaQuarta
+    r8^\Leviathan b es16 \hA b c des c8 c r g16 a
+    b8 b d! c a a r a16 h
+    cis8. cis16 d8 e! f, f r f16 g
+    a8 a c b g g r d'16 b
+    as8. as16 as8 g es es r c'16 g %5
+    as8 c h! c c g r4
+    \tempoA-XIIScenaQuartaB \fC c8^\Job c e c a8. a16 a4
+    r8 a16 cis e8 a, g8. g16 g4
+    r8 g16 a b b b a f8 f r f16 g
+    a8 a c! b g g r b16 g %10
+    cis8 e d4~ d8. a16 a4
+    \tempoA-XIIScenaQuartaC \fC r8^\Leviathan d16 d d a c d b8 b r f16 f
+    b8. b16 d8 b g g r g16 a
+    h!8 c d e c c r g16 g
+    c8 c e c a a r a16 e %15
+    g8 g b a f f r f16 a
+    c!8 c d es d a a c
+    h! h d e c c r e16 c
+    a8. a16 h8 c c g r4
+    \tempoA-XIIScenaQuartaD \fC r^\Job a8 h cis cis e f %20
+    d d d a c8. c16 g8 b
+    a a c16 c f c d8. a16 a8 a16 b
+    c8 c es d b b d \hA b
+    gis h d e c4 e8 c
+    a8. a16 c8 a a e r4 %25
+    \fC r4^\Leviathan c' r8 cis cis16 cis e g,
+    f8 f a a r c16 d es8 fis,
+    g g d' b gis h d c
+    a4 r r8 c16 c f c a c
+    fis,8 es'16 c a fis es d b8 b r b'16 c %30
+    d8 d f! es c c16 c es c h c
+    c8 g r4 r8 g16 g g g c g
+    a8 cis16 e g, g b a f8 f r f16 a
+    c8. c16 d8 es d a a c
+    h! fis a h g g r e'16 h %35
+    c e dis e e8 h \tempoA-XIIScenaQuartaE \fC r^\Job g16 g c c d e
+    f4 f8 d h! h d f,
+    f e g c b g \hA b a
+    f4 a8 d c!8. c16 c8 h
+    gis gis h e c8. c16 e8 c %40
+    a4 f'8 d h8.([ c32 d)] c8 \tuplet 3/2 8 { d16([ e f)] }
+    e32([ d c8.)] d4\trill c \tempoA-XIIScenaQuartaF \fC r8^\Leviathan g16 a
+    h8 r r16 h d e c4 c8 e
+    a, a d a h4 r
+    r8 a16 cis e e e f d8 d f d %45
+    c g b c a a c16 c c d
+    es8. es16 es4 r8 d16 d b b d \hA b
+    g8 g'16 e c g e c a4 r8 a'16 c
+    e8. cis16 b8 a f f r a16 c?
+    fis,8 a c b g g d' b %50
+    gis h d e c c r e16 cis
+    b8 g g e d d d'4
+    r8 f cis d d8. a16 a4
+    \tempoA-XIIScenaQuartaG \fC r8^\Job a16 a d a c d b8 b r \hA b16 d
+    f8 b, d as g g h d %55
+    f d f e c4 e8 e
+    e h h c d d r d16 e
+    f8 d f e c c e c
+    a4 c8([ a)] a8. e16 e4
+    \tempoA-XIIScenaQuartaH \fC r8^\Leviathan a16 a cis a e g! fis8 fis16 ais cis cis e d %60
+    h4 h8 d a8. a16 cis8 a
+    fis fis a d h4 r16 d cis d
+    d8 a r4 r2\fermata \bar "|." %63 finis
+  }
+}
+
+A-XIIScenaQuartaSoliLyrics = \lyricmode {
+  Weil mir dan Gwald ge -- ge -- ben, mei -- ne
+  Hand an Job zu ſtreck -- hen, werd ich
+  ihn an al -- len Eck -- hen mör -- der --
+  lich zu quel -- len trach -- ten, daß er
+  ſolt vor Äng -- ſten be -- ben, mit -- hin %5
+  ſei -- nen Gott ver -- ach -- ten.
+  Nun mein gro -- ßer Gott und Herr,
+  nehm es dan zu dei -- ner Ehr
+  di -- ſes Opf -- fer an in Gna -- de, ſchü -- tze
+  mich vor al -- len Scha -- de, mir dein %10
+  Huld und Gnad __ be -- ſcher!
+  Hör mein Job, was ich dir mel -- de, all dein
+  Viech ſo auf dem Fel -- de hat der
+  Feund hin -- weg ge -- tri -- ben, all die
+  Knech -- te auff -- ge -- ri -- ben, und mit %15
+  ſei -- nen Schwerd er -- ſchla -- gen, ich al --
+  lein bin noch ent -- ron -- nen und ſo
+  vill der Zeit ge -- wun -- nen, daß ich
+  dir könt ſol -- ches kla -- gen.
+  Gott hats ge -- ben und ge -- %20
+  noh -- men, al -- les iſt durch ihn ge --
+  khom -- men, wies dem Herrn ge -- fal -- len hat al -- ſo
+  iſt es auch ge -- ſche -- hen, dan -- noch
+  werd ich frueh und ſpath ihn umb
+  ſei -- ne Hilff an -- fle -- hen. %25
+  Ach! waß jam -- mer -- vol -- le
+  Kla -- gen, hö -- re, was vor ſchwä -- re
+  Pla -- gen ü -- ber dich ver -- hän -- get
+  ſeyn: Von dem Him -- mel kam daß
+  Feur auf die Erd he -- rab ge -- fal -- len, Menſch und %30
+  Viech mußt un -- ge -- heur al -- les mit der Haut be --
+  zah -- len; ich bin ein -- zig nur al --
+  lein di -- ſem Un -- heyl noch ent -- run -- nen, auch Ge --
+  le -- gen -- heit ge -- wun -- nen, umb dir
+  ſol -- ches noch bey -- zei -- ten in der %35
+  Wahr -- heit an -- zu -- dei -- then. Bloß kam ich auß ei -- nen
+  Weib, bloß werd ich zur Er -- de
+  ge -- hen, gwiß iſt, daß in mei -- nen
+  Leib ein -- ſtens wer -- de Gott an --
+  ſe -- hen, da -- rum ſey zu je -- der -- %40
+  zeit Got -- tes Nahm __ _ ge --
+  be -- ne -- deyt. Job merckh
+  auf, ver -- neh -- me mich, es be --
+  trifft dein Weib und dich:
+  als nun dei -- ne lie -- be Kin -- der fröh -- lich %45
+  wa -- ren, und nichts mün -- der dach -- ten auf ein
+  Todt -- ge -- fahr, kam ein Sturm -- wind al -- ſo
+  ſcharff, daß ers Hauß zu Bo -- den warff, al -- les
+  iſt zu -- grund ge -- rich -- tet, ich al --
+  lein hab mich ge -- flüch -- tet, dir die %50
+  Poſt zu hin -- ter -- brin -- gen, daß ſie
+  mit dem To -- de rin -- gen, nun
+  iſt all dein Hoff -- nung gar.
+  Ey, ſo le -- bet doch mein Schö -- pffer, je -- ner
+  gro -- ße Men -- ſchen -- tö -- pffer, der auß %55
+  Laim mich hat for -- mirt, die -- ſen
+  werd ich dan -- noch prey -- ſen, al -- les
+  Lob und Ehr er -- wei -- ſen, ob Er
+  ſchon ſein Gfäß pro -- birt.
+  Ich merckh ſchon, auf ſol -- che Weiß kom ich nicht zu Ehr und %60
+  Preiß, es muß weiß -- li -- cher ge --
+  ſche -- hen, ſonſt werd ich den Krebß -- gang
+  ge -- hen. %63 finis
+}
+
+A-XIIAriaQuartaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoA-XIIAriaQuarta
+    R1*6 %6
+    d,4 d' cis16([ d e cis)] a4
+    h16([ a) h8] cis16([ h) cis8] d([ a)] fis([ d)]
+    fis([ a)] d([ fis)] e([ gis,)] a16([ h cis8)]
+    d([ h)] gis([ d')] cis16([ h a gis)] a4 %10
+    e'16([ d] e4) f8 d16([ c] d4) e8
+    c16([ h] \hA c4) c8 h16([ a h8)] h cis
+    d e fis e16([ d)] cis8 e a, fis'
+    e,4. e8 a4 r
+    R1 %15
+    d,4 d' cis16([ d e cis)] a4
+    h16([ a) h8] cis16([ h) cis8] d([ a)] fis([ d)]
+    d'16([ e] fis4) h,8 cis16([ d] e4) ais,8
+    h16([ cis] d4) h8 h[( ais)] ais4
+    h cis16([ h) cis8] d4. cis16([ h)] %20
+    a!([ h cis d] e8) g, fis4 r
+    r2 cis'4. d8
+    e d16([ cis)] h8 cis d4 d
+    d8([ cis16 h] a8) h fis4 e
+    d r r2 %25
+    R1*4
+    r2\fermata e'4. a,8 %30
+    gis4. \tuplet 3/2 8 { d'16([ e fis)] } e8([ a,)] gis([ d')]
+    \tuplet 3/2 4 { cis([ h a)] } a4 cis4. d8
+    d([ cis)] cis([ h)] ais4~ \tuplet 3/2 8 { ais16[ h cis] } h([ \hA ais)]
+    h([ ais h cis)] d4 cis8([ e16 d] cis8) h
+    ais4 ais \tuplet 3/2 4 { h8([ cis d)] cis([ d e)] } %35
+    d4 d2 cis8([ h)]
+    a!16([ h cis a)] d8([ h)] a4( gis8.)\trill fis16
+    fis4 r r2
+    R1*3 %41
+    e'4 g,! fis8([ a)] d([ fis)]
+    e16([ d cis h] a8) g g4\trill fis
+    d'16([ e] fis4) d8 h([ ais)] h4
+    cis16([ d e d] cis8) h ais16([ h cis \hA ais)] fis4 %45
+    h cis\trill d4. d8
+    cis([ h)] a!([ gis)] a4 r
+    r8 fis a cis \tuplet 3/2 4 { d([ cis h)] a([ gis fis)] }
+    a4( gis8.)\trill fis16 fis4 r\fermata \markDaCapo \bar "||" %49 finis
+  }
+}
+
+A-XIIAriaQuartaSoliLyrics = \lyricmode {
+  Mein Ver -- ſu -- chung %7
+  iſt __ ver -- ge -- ben,
+  alß __ ſo __ lang der __
+  Menſch im __ Le -- ben %10
+  Got -- tes Gnad __ bey
+  ſich __ ver -- ſpürth, ei -- nen
+  fro -- men Wan -- del fürth, ein from -- men
+  Wan -- del fürth.
+  %15
+  Mein Ver -- ſu -- chung
+  iſt __ ver -- ge -- ben,
+  alß __ ſo lang __ der
+  Menſch im Le -- ben
+  Got -- tes __ Gnad bey %20
+  ſich __ ver -- ſpürth,
+  ei -- nen
+  from -- men Wan -- del fürth, ein
+  from -- men Wan -- del
+  fürth. %25
+
+  Iſt er %30
+  hie -- von ab -- ge --
+  wi -- chen, komm ich
+  leicht -- lich ein -- ge --
+  ſchli -- chen und __ zur
+  Boß -- heit ihn __ ver -- %35
+  leith, ſo er __
+  e -- wig nach -- be --
+  reut.
+
+  Iſt er hie -- von %42
+  ab -- ge -- wi -- chen,
+  komm __ ich leicht -- lich
+  ein -- ge -- ſchli -- chen %45
+  und zur Boß -- heit
+  ihn ver -- leith,
+  ſo er dan e -- wig __
+  nach -- be -- reut. %49 finis
+}

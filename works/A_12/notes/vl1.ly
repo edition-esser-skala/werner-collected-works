@@ -253,3 +253,96 @@ A-XIIAriaTertiaViolinoI = {
     g r\fermata \markDaCapo \bar "||" %38 finis
   }
 }
+
+A-XIIScenaQuartaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XIIScenaQuarta
+    R1*6 %6
+    \tempoA-XIIScenaQuartaB c'2-\markup \remark "con sordino, stendato" e~
+    e g~
+    g f
+    es d %10
+    cis4 d2 cis4
+    \tempoA-XIIScenaQuartaC d r r2
+    R1*7 %19
+    \tempoA-XIIScenaQuartaD e1-\conSord %20
+    d2 c!~
+    c d
+    es d~
+    d c~
+    c h %25
+    a4 r r2
+    R1*9 %35
+    r2 \tempoA-XIIScenaQuartaE c2-\conSord
+    h1
+    c2 b
+    a1
+    gis2 g %40
+    a h4 c
+    c h\trill c \tempoA-XIIScenaQuartaF r
+    R1*11 %53
+    \tempoA-XIIScenaQuartaG d1-\conSord
+    f2 g %55
+    f e~
+    e d~
+    d c~
+    c h\trill
+    \tempoA-XIIScenaQuartaH a4 r r2 %60
+    R1*2
+    R1\fermata \bar "|." %63 finis
+  }
+}
+
+A-XIIAriaQuartaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoA-XIIAriaQuarta
+    r2 a'4\fE a'
+    gis16 a h \hA gis e8 g fis16 g a fis d4
+    fis8. fis16 d'8 fis, e8. e16 cis'8 e,
+    d8. d16 h'8 d, cis16 d e cis a4
+    d16( e fis4.) e8( d') cis( d) %5
+    cis8. d16 h4\trill a r
+    r2 a,,4\p a'
+    gis16 a h \hA gis e8 g fis16 g a fis d( cis) d8
+    r8 fis'~ fis[ d'] r e,~ e[ cis']
+    r d,~ d[ h'] r \once \tieDashed cis,~ cis[ a'] %10
+    r e,4 f8 r d4 e8
+    r c4 c8 h4 r
+    R1*2
+    a'4\f a' gis16 a h \hA gis e8 g %15
+    fis16 g a fis d4 r r8 a\p
+    gis16 a h \hA gis e8 g fis16 g a fis d( cis) d8
+    r fis'4 d'8 r e,4 cis'8
+    r d,4 d8 d( cis) cis4
+    R1 %20
+    r2 r8 a d fis
+    e16 fis g a h8 d, cis16( h) cis8 r4
+    R1*2
+    r2 d,4\f d' %25
+    cis16 d e cis a8 c h8. h16 g'8 h,
+    a8. a16 fis'8 a, g8. g16 e'8 g,
+    fis16 g a fis d4 g16( a \once \stemUp h4.)
+    a8( g') fis( g) fis8. g16 e4\trill
+    d\fermata r r2 %30
+    h'4.\p fis8 e a d, h'
+    cis,16 d e cis a4 r2
+    r8 gis'16 fis eis fis \hA gis8 cis,4 r
+    R1
+    fis,8 ais16 gis fis8 e d h' ais fis %35
+    h fis h,4 r2
+    R1*2
+    h'4\f h' ais16 h cis \hA ais fis8 a
+    gis16 a h \hA gis e8 g fis16 g a fis d8 fis %40
+    h, g16 a h8 d, cis16 d e cis a4
+    r2 a''4\p a,
+    e'16 d cis h a8 g g4\trill fis
+    r2 h16 cis d4 h8
+    g'16 fis e d cis8 h ais16 h cis \hA ais fis4 %45
+    R1
+    r2 r8 fis a! cis
+    fis16( eis) fis8 r4 r2
+    R1\fermata \markDaCapo \bar "||" %49 finis
+  }
+}
