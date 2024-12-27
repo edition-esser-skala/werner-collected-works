@@ -611,14 +611,127 @@ A-XIIAriaQuartaSoliLyrics = \lyricmode {
   nach -- be -- reut. %49 finis
 }
 
-A-XIIScenaQuintaSoli = {
+A-XIIScenaSextaSoli = {
   \relative c' {
-    \clef treble
-    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIScenaQuinta
-
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIScenaSexta
+    f,8^\Job \clef treble c''^\JobsFrau c16 c f c d8. a16 a8 a16 b
+    c8 c es d b b r \hA b16 d
+    c8 f, es' d b4 d8 \hA b
+    g8. g16 a8 b b f r4
+    r g16 h d es c8. c16 c8 \hA es16 c %5
+    b8 f as \hA b g g \hA b16 b c des
+    c8. g16 g8 b16 c as8 c es c
+    c g r4 \tempoA-XIIScenaSextaB \clef "treble_8" r8 e! e16 cis a g
+    f8. f16 f8 f' c g b c
+    a a r c a c es d %10
+    b8. b16 b8 d g,8. g16 g8 fis
+    a a r \tempoA-XIIScenaSextaC a b8. b16 d8 \hA b
+    g8. g16 g8 d' es8. es16 es8 c
+    b f' d as g g r b
+    b b b c des des r b %15
+    des b \hA des c as as f'4
+    r8 d f d c c es fis,
+    g8. g16 g8 f' es c b g
+    g d r4 %19 finis
   }
 }
 
-A-XIIScenaQuintaSoliLyrics = \lyricmode {
+A-XIIScenaSextaSoliLyrics = \lyricmode {
+  ben! Ey, ey, wie gar ein from -- men Mann ha -- be
+  ich doch ü -- ber -- khom -- men, je -- zo
+  ſe -- he ich den Lohn, wie das
+  Glickh hat ab -- ge -- noh -- men.
+  Kenn -- ſtu dei -- ne Ein -- fald nicht, wil -- ſtu %5
+  fehr -- ner dich noch här -- ben? See -- gne Gott nach
+  dei -- ner Pflicht, dann du wirſt in Kür -- tze
+  ſter -- ben. Du re -- deſt als ein
+  tör -- richt Weib und ach -- teſt nicht der
+  Sün -- den. Ach mög -- ſtu nur an %10
+  dei -- nen Leib der tau -- ſen -- de em --
+  pfün -- den! Ich lie -- ge hier gleich
+  ei -- nem Viech und wel -- tze mich mit
+  Koth und Wuſt umb -- ge -- ben; ô
+  wohl ein Jam -- mer -- le -- ben! der -- %15
+  glei -- chen nie ge -- fun -- den. Ach!
+  daß ich nur bald in blei -- cher
+  Tods -- ge -- ſtald deß Schmer -- tzens wurd ent --
+  bun -- den! %19 finis
+}
 
+A-XIIScenaSeptimaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIScenaSeptima
+    \partial 2 r8^\Eliphas b b16 b es \hA b
+      g8 g g16 as b c \hA as8 as r16 \hA as c \hA as
+    f8. f16 f8 d' b as c b
+    g g16 \clef treble b'^\JobsFrau b b c des c8. g16 g8 \clef "treble_8" g,^\Eliphas
+    g b des c as << \context Voice = "Soli" { \once \stemUp c^\Job } \\ { as_\markup \remark "Ach" } >> \fC c16 c c d
+    es8 << \context Voice = "Soli" { \once \stemUp c'^\JobsFrau } \\ { es,_\markup \remark "Er" } >> \clef treble c'16 es d! a! b8. b16 b8 \clef "treble_8" g,^\Leviathan %5
+    es' c b g g8. d16 d4
+    \clef bass r8^\Schöpffer d g16 d f! g es8 << \context Voice = "Soli" { \once \stemUp c'^\Job } \\ { es,_\markup \remark "Doch" } >> \clef "treble_8" es'16 c b g
+    g8 d r4 r8 b' b16 b es \hA b
+    b8. f16 f8 f h d f g
+    es es r \hA es d a c d %10
+    b8. b16 b8 d g, g c g
+    a a r a b b b16 b c d
+    es8 es r c a a a16 c es d
+    b8 b r d c g b c
+    a8. a16 a8 a cis16 cis cis d e8 g, %15
+    f f r a c c c16 c d es
+    d8 d r f b,16 b b b d8 b
+    g c c16. g32 b16 c a8. a16 a4
+    r8 e' a,16 a a b g8. g16 g8 a
+    b g \hA b a f8. f16 f8 a %20
+    c! c c16 c c h gis8 h d e
+    c c e c a a a16 c h c
+    c8. g16 g4 r16 cis cis cis cis d e g,
+    f4 r8 f' es fis, fis g
+    g8. g16 g8 d' cis e f d %25
+    d8. a16 a4 \fC r8^\Eliphas a a16 a a d
+    b8. b16 b8 d f b, d \hA b
+    g8. g16 g8 h d d f es
+    c c r es b b d \hA b
+    g g16 b b b es \hA b c8. g16 g8 b %30
+    a g b a f8. f16 f4
+    r8 b b16 d cis d d8 a r4
+    R1\fermata \bar "|." %33 finis
+  }
+}
+
+A-XIIScenaSeptimaSoliLyrics = \lyricmode {
+  Die Peyn iſt al -- zu
+  groß, hier muß man bil -- lich ſchwei -- gen, es kan ſich %1
+  wohl daß Loß auf un -- ſern Ruck -- hen
+  zei -- gen. Al -- lein er greifft den Schö -- pffer an. Diß
+  kan ich ſchwär -- lich glau -- ben. thut mir doch er --
+  lau -- ben! iſt dem Heüch -- len zue -- ge -- than. Nun %5
+  hab ich mei -- ne Freud da -- ran.
+  Und du wirſt nicht ob -- ſi -- gen. muß ich un -- ter --
+  li -- gen. Soll dan ein flüch -- tig
+  dü -- res Blat von Wind und Lufft ge --
+  tri -- ben, ſo gar ohn al -- le %10
+  Huld und Gnad ſein gänz -- lich auf -- ge --
+  rie -- ben? Siechſt du dan auch mit Men -- ſchen --
+  au -- gen, die mei -- ſtens nur zum Bö -- ſen
+  tau -- gen, ſeynd dei -- ne Jahr auch
+  Men -- ſchen -- jahr, daß du nach mei -- ner Sün -- de %15
+  ſu -- cheſt, mich dei -- ner Hän -- de Werckh ver --
+  flu -- cheſt, in de -- me ja vor dir kein
+  Haar noch Pünct -- lein mag ver -- bor -- gen ſein.
+  Du weißt, daß ich nicht gott -- los bin, und
+  würfſt mich doch zur Fol -- ter -- peyn auf %20
+  ein ver -- ach -- tes Beth da -- hin, da doch nie --
+  mand auß dei -- ner Hand ſich kei -- nes -- wegs er --
+  ret -- ten kann. Ô daß ich doch zu di -- ſer
+  Stund in Ab -- grund mich ver --
+  ber -- gen kunt, ſo wär ich ein be -- %25
+  glückh -- ter Mann. Mein Freund, du re -- deſt
+  un -- be -- dacht, wie kan ein Menſch von
+  Gott ge -- macht ge -- recht vor ihn ſich
+  nen -- nen, mu -- ſtu nicht ſelbſt be --
+  khen -- nen, es wa -- ren ja die En -- gel ſein nicht %30
+  al -- le von der Boß -- heit rein,
+  und du wilſt dich be -- ſchö -- nen. %32 finis
 }

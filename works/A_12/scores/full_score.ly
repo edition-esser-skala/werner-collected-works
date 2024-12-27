@@ -422,73 +422,133 @@
   %     \midi { \tempo 4 = 105 }
   %   }
   % }
+  % \bookpart {
+  %   \section "10" "Scena quinta"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #2
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-XIIScenaQuintaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-XIIScenaQuintaViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \concat { "vla " \critnote }
+  %           \A-XIIScenaQuintaViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \set ChoirStaff.instrumentName = \markup { \rotate #90 "D I E   K I N D E R   G O T T E S" \hspace #8 }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \A-XIIScenaQuintaSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \A-XIIScenaQuintaSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Alto" { \dynamicUp \A-XIIScenaQuintaAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \A-XIIScenaQuintaAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \A-XIIScenaQuintaTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \A-XIIScenaQuintaTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "B" "soli" }
+  %           \new Voice = "Basso" { \dynamicUp \A-XIIScenaQuintaBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \A-XIIScenaQuintaBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \A-XIIScenaQuintaBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIIScenaQuintaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
+  % \bookpart {
+  %   \section "11" "Scena sexta"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #18
+  %     system-system-spacing.minimum-distance = #18
+  %     systems-per-page = #6
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff \with { \smallGroupDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "soli"
+  %           \new Voice = "Soli" { \dynamicUp \A-XIIScenaSextaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-XIIScenaSextaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \A-XIIScenaSextaBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIIScenaSextaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "10" "Scena quinta"
+    \section "12" "Scena septima"
     \addTocEntry
     \paper {
-      top-system-spacing.basic-distance = #10
-      top-system-spacing.minimum-distance = #10
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #10
-      markup-system-spacing.minimum-distance = #10
-      system-system-spacing.basic-distance = #17
-      system-system-spacing.minimum-distance = #17
-      systems-per-page = #2
+      system-system-spacing.basic-distance = #18
+      system-system-spacing.minimum-distance = #18
+      systems-per-page = #6
     }
     \score { %\articulate
       <<
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
-          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \A-XIIScenaQuintaViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \A-XIIScenaQuintaViolinoII
-            }
-          >>
+        \new ChoirStaff \with { \smallGroupDistance } <<
           \new Staff {
-            \set Staff.instrumentName = \markup \concat { "vla " \critnote }
-            \A-XIIScenaQuintaViola
+            \set Staff.instrumentName = "soli"
+            \new Voice = "Soli" { \dynamicUp \A-XIIScenaSeptimaSoli }
           }
-        >>
-        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
-          \set ChoirStaff.instrumentName = \markup { \rotate #90 "D I E   K I N D E R   G O T T E S" \hspace #8 }
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \A-XIIScenaQuintaSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \A-XIIScenaQuintaSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Alto" { \dynamicUp \A-XIIScenaQuintaAlto }
-          }
-          \new Lyrics \lyricsto Alto \A-XIIScenaQuintaAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \A-XIIScenaQuintaTenore }
-          }
-          \new Lyrics \lyricsto Tenore \A-XIIScenaQuintaTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "B" "soli" }
-            \new Voice = "Basso" { \dynamicUp \A-XIIScenaQuintaBasso }
-          }
-          \new Lyrics \lyricsto Basso \A-XIIScenaQuintaBassoLyrics
+          \new Lyrics \lyricsto Soli \A-XIIScenaSeptimaSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \A-XIIScenaQuintaBassoContinuo
+            \A-XIIScenaSeptimaBassoContinuo
           }
         >>
-        \new FiguredBass { \A-XIIScenaQuintaBassFigures }
+        \new FiguredBass { \A-XIIScenaSeptimaBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 60 }

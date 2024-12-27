@@ -977,3 +977,128 @@ A-XIIScenaQuintaBassFigures = \figuremode {
   <4 2>4 <[6]>8 <_-> <6- 4>4 <5 _!>
   r2 %43 finis
 }
+
+A-XIIScenaSextaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XIIScenaSexta
+    f2 fis~
+    fis g
+    a b
+    es, f4 f,
+    h!2 c %5
+    d es
+    e f4 fis
+    g g, \tempoA-XIIScenaSextaB cis2
+    d e
+    f fis %10
+    g es
+    \after 4. \tempoA-XIIScenaSextaB d d
+    h! c
+    d es~
+    es e~ %15
+    e f
+    h,! c
+    h! c4 cis
+    d d, %19 finis
+  }
+}
+
+A-XIIScenaSextaBassFigures = \figuremode {
+  r2 <6>
+  <7- 5> <_->
+  <6[!]>1
+  <[5-]>2 <4->4 <3>
+  <6>2 <_-> %5
+  <6-> <[5-]>
+  <6> <_->4 <7- 5 [_!]>
+  <4> <_!> <6[!]>2
+  r <6[!]>
+  r <7- 5> %10
+  <_-> <7>4. <6\\>8
+  <_+>2 <6- _!>
+  <6> <_->
+  <6-> <[5-]>
+  r <7- 5> %15
+  r <_->
+  <7- 5 [_!]> <5 _->4 <4\+ \t>
+  <6>2 <_->4 <7- 5 [_!]>
+  <4> <_+> %19 finis
+}
+
+A-XIIScenaSeptimaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XIIScenaSeptima
+    \partial 2 << { es2 } \\ { es, } >>
+    e' c
+    d1
+    es2 e~
+    e f
+    fis g %5
+    c,4 cis d d,
+    h'!2 c
+    d4 d, es'2
+    d d
+    c fis %10
+    g es
+    d b
+    a1
+    b2 e!
+    f e %15
+    d a
+    b d
+    e! f
+    cis1~
+    cis2 d %20
+    dis e
+    e f
+    g4 f e2
+    d c
+    b a4 gis %25
+    a2 d
+    d1
+    h!
+    c2 d
+    es e %30
+    cis d
+    g a4 a,
+    d2 r\fermata \bar "|." %33 finis
+  }
+}
+
+A-XIIScenaSeptimaBassFigures = \figuremode {
+  <[5-]>2 <6> <6- _->
+  <6->1
+  <[5-]>2 <6>
+  <7- 5> <_->
+  <7- 5 [_!]> <[5!] _-> %5
+  <_->4 <7- 5 [_!]> <4> <_+>
+  <6>2 <_->
+  <4>4 <_+> <[5-]>2
+  <6-> <6!>
+  <_-> <6> %10
+  <_-> <7>4 <6>
+  <_+>2 <5[!]>
+  <5->1
+  r2 <6>
+  r <6\\> %15
+  r <6 [_!]>
+  r <6->
+  <6>1
+  <6>2 <5>
+  <7- 5>1 %20
+  <7! 5 [_+]>2 <[5!] _+>
+  <6 _!>1
+  <4>4 <4!> <6\\>2
+  r <4\+ _->
+  <6> <[5!] _+>4 <7 5 [_!]> %25
+  <4> <_+>2.
+  <6->1
+  <6>2 <5>
+  <_-> <6->
+  <[5-]> <6> %30
+  <6>1
+  <_->2 <4>4 <_+>
+  r1 %33 finis
+}
