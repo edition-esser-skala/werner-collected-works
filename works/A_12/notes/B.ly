@@ -157,3 +157,61 @@ A-XIIScenaQuintaBassoLyrics = \lyricmode {
   doch des To -- des ſter --
   ben! Ey, ey, wie gar ein %43 finis
 }
+
+A-XIIChorusBasso = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \autoBeamOff \tempoA-XIIChorus
+    \mvTr g'4\fE^\tutti r fis r8 \hA fis
+    g f es d cis2
+    d r8 g4 g8
+    es! es h h c4 c
+    r8 a'4 g8 fis4. fis8 %5
+    g g4 f8 es4. d8
+    c b! a! g fis4 g'8([ f)]
+    es4. es8 d2
+    R1
+    g4. f!8 d b' a g %10
+    f d e fis g b16([ a)] g8 g,
+    c4( d) g, r
+    R1
+    g'4. es!8 c as' g f!
+    es c d e f f, r4 %15
+    r8 b c d es([ d)] c b
+    a g fis4 g g'8 f
+    es2 d4 r
+    r2 r8 d([ e)] fis
+    g a b! cis d4 r8 b, %20
+    es4 c d8 d' b g
+    fis4 g d4. d8
+    g,4 r8 g' c4 h
+    c4. c8 g2\fermata \bar "|." %24 finis
+  }
+}
+
+A-XIIChorusBassoLyrics = \lyricmode {
+  Seht! ſeht! ſo
+  pfle -- get Gott zu ſtih --
+  len, dan nach
+  ſei -- nen Worth und Wil -- len
+  wird diß Rund der %5
+  Weld, wird diß Rund der
+  Weld, der Weld re -- girt, der __
+  Weld re -- girt.
+
+  Al -- les muß ſich un -- ter -- %10
+  werf -- fen, nie -- mand darff die Zun -- gen
+  ſchärf -- fen,
+
+  al -- les muß ſich un -- ter --
+  werf -- fen, un -- ter -- werf -- fen, %15
+  die Zun -- gen ſchärf -- fen, ſich
+  un -- ter -- werf -- fen, un -- ter --
+  werf -- fen,
+  ihm al --
+  lein das Recht ge -- bürth, al -- %20
+  lein das Recht, al -- lein das
+  Recht, das Recht ge --
+  bürth, al -- lein das
+  Recht ge -- bürth. %24 finis
+}

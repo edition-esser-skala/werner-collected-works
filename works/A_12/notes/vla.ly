@@ -270,3 +270,32 @@ A-XIIScenaQuintaViola = {
     \markScenaSexta f4 r %43 finis
   }
 }
+
+A-XIIChorusViola = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 4/4 \tempoA-XIIChorus
+    g'4\fE r fis r8 \hA fis
+    g f es d cis2
+    d r8 g4 g8
+    es! es h h c4 c
+    r8 a'4 g8 fis4. fis8 %5
+    g g4 f8 es4. d8
+    c b! a! g fis4 g8 f
+    es4. es'8 d2
+    \tempoA-XIIChorusB R1*3 %11
+    r2 g,4. f!8
+    d b' a g f d e fis
+    g b16 a g8 a16 h c d es c d8 h
+    g4 r r8 f g a %15
+    b8. c32 b a16 g a f g8 f es g
+    fis g a4. g8 g4~
+    g es' a, r
+    r2 r8 d4 c8
+    b fis g16 a g8 fis4 r8 b %20
+    g4. a8 fis8 a d d
+    d4 b a4. a8
+    g4 r8 h c4 d
+    es4. es8 d2\fermata \bar "|." %24 finis
+  }
+}

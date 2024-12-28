@@ -850,3 +850,24 @@ A-XIIAriaQuintaSoliLyrics = \lyricmode {
   ren See -- len --
   heyl. %68 finis
 }
+
+A-XIIScenaOctavaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIScenaOctava
+    r8 f, b16 b c d es8 es r c
+    a c es d b4 r8 f
+    b b d \hA b g g16 g c8 g
+    a cis e! g, f4 r8 d'
+    b g cis8. d16 d8 a r4 %5
+    R1\fermata \bar "|." %6 finis
+  }
+}
+
+A-XIIScenaOctavaSoliLyrics = \lyricmode {
+  Ey la -- ßet mich dan ra -- ſten auf
+  di -- ſen Kran -- khen -- beth, ihr
+  pflegt nur an -- zu -- ta -- ſten mein Gmüth und
+  Hertz ſo vol -- ler Schmertz, gleich
+  de -- nen erz -- ver -- haß -- ten.
+}

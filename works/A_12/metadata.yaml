@@ -14,11 +14,11 @@ sources:
     principal: true
 tocstyle: default
 toe: |
-  7 & –  & vla & In \B1, there is no staff for vla. Here, it plays
-                 in unison with bc when the voice pauses. Same in no. 8, 9 \\
-    & 34 & bc  & rhythm of 4th \quarterNote\ in \B1:
-                 \eighthNoteDotted–\sixteenthNote \\
-  8 & 11 & vla & 2nd \halfNote\ in \B1: c′4.–c′8 \\
+  –  & –  & vla  & In \B1, there is no staff for vla in movements 7, 8, 9, 15. Here, it plays in unison with bc when the voice pauses. \\
+  7  & 34 & bc   & rhythm of 4th \quarterNote\ in \B1:
+                   \eighthNoteDotted–\sixteenthNote \\
+  8  & 11 & vla  & 2nd \halfNote\ in \B1: c′4.–c′8 \\
+  15 & 13 & vl 1 & 1st \quarterNote\ in \B1: f″8–e″16–d″16 \\
 lyrics:
   Jobs Frau (S)
   Eliphas (T)
@@ -438,3 +438,21 @@ lyrics:
   daß Gott nur ein kleine Weyl
   ſie probire, exercire,
   pur zu ihren Seelenheyl.
+
+  [Scena sine numero]
+
+  Job.
+  Ey laßet mich dan raſten
+  auf diſen Krankhenbeth,
+  ihr pflegt nur anzutaſten
+  mein Gmüth und Hertz ſo voller Schmertz,
+  gleich denen erzverhaßten.
+
+  Chorus deren Kindern Gottes
+
+  Seht! ſeht! ſo pfleget Gott zu ſtihlen,
+  dan nach ſeinen Worth und Willen
+  wird diß Rund der Weld regirt.
+  Alles muß ſich unterwerffen,
+  niemand darff die Zungen ſchärffen,
+  ihm allein das Recht gebürth.

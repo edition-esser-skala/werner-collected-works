@@ -1249,3 +1249,88 @@ A-XIIAriaQuintaBassFigures = \figuremode {
   <6>4 <6 4> <5 3>
   r2. %68 finis
 }
+
+A-XIIScenaOctavaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XIIScenaOctava
+    b2 a~
+    a b
+    d e!
+    cis d4 fis
+    g2 a4 a, %5
+    d2 r\fermata \bar "|." %6 finis
+  }
+}
+
+A-XIIScenaOctavaBassFigures = \figuremode {
+  r2 <5->
+  r1
+  <6->2 <6>
+  q2. q4
+  <_->2 <4>4 <_+> %5
+  r1 %6 finis
+}
+
+A-XIIChorusBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \tempoA-XIIChorus
+    \mvTr g'4\fE-\tutti r fis r8 \hA fis
+    g f es d cis2
+    d r8 g4 g8
+    es! es h h c4 c
+    r8 a'4 g8 fis4. fis8 %5
+    g g4 f8 es4. d8
+    c b! a! g fis4 g8 f
+    << { es'4. es8 d2 } \\ { es, d } >>
+    \clef "treble_8" \tempoA-XIIChorusB d''4.-! b8-! g-! es'-! d-! c-!
+    << {
+      b g16 a b c d e f \hA e d8 cis16 d \hA e \hA cis %10
+      d8. es32 d c16 b c a
+    } \\ {
+      g4. f!8 d b' a g %10
+      f d e fis
+    } >> \clef bass g4 g,
+    c d g,8 \clef "treble_8" g'4 f!8
+    d b' a g f d e fis
+    \clef bass g4. es8 c as' g f
+    es c d e f f, g a! %15
+    b b c d es d c b
+    a g fis4 g g'8 f
+    es2 d~-\tasto
+    d1~
+    d2~ d4 r8 b %20
+    es4 c d8 d' b g
+    fis4 g d2
+    g,4 r8 g c4 h
+    c2 g\fermata \bar "|." %24 finis
+  }
+}
+
+A-XIIChorusBassFigures = \figuremode {
+  r2 <7- 5>
+  r8 <6> q q \bo <7 [_!]> \bassFigureExtendersOn <6 _!> <6\! _!> \bc <5 [_!]> \bassFigureExtendersOff
+  <9[!] 4> <8 _+> r4. <_!>
+  <6>4 <5> <9 4>8 <8 _->4.
+  r8 <[5!] _+>4 <6!>8 <6>4. <5[!]>8 %5
+  <_!>4. <6>8 q4. <6[-]>8
+  <6-> <6> <6\\> <8 6-> <6>4 <6->8 <6>
+  <7>4 <6> <_+>2
+  r1
+  r %10
+  r
+  r4 <6 4>8 <5 _+>2 \bo <[6]>8
+  r4 \bc <[5!] _+> <6> <6[!]>
+  <_-> <_!>8 <6>4. <_!>8 <6 [4!]>
+  <6>4 <[6]>2 <6->4 %15
+  r <6>4. q8 <[6]> <6>
+  <6\\> <6> q <5> <9> <8>4.
+  <7>4 <6> <_+>2
+  r1
+  r2 <_+> %20
+  r4 <5>8 <6> <_+>4 <6>
+  <[6]>2 <4>4 <_+>
+  r4. <_!> <[6]>4
+  r2 <_!> %24 finis
+}

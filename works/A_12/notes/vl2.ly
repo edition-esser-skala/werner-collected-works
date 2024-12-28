@@ -381,3 +381,34 @@ A-XIIScenaQuintaViolinoII = {
     f4 r %43 finis
   }
 }
+
+A-XIIChorusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoA-XIIChorus
+    b'4\fE r c r8 c
+    b a g b b( a) a g
+    g( fis) fis4 r8 h4 d8
+    c c d d d c4 d8
+    e4. e8 a,2
+    r8 d,4 d8 g4. f8
+    es d c es d4 b'8 a
+    g b a g fis2
+    \tempoA-XIIChorusB d4. b8 g es' d c
+    b g16 a b c d e f \hA e d8 cis16 d \hA e \hA cis %10
+    d8. es32 d c16 b c a b8 g16 a b c d8
+    es16 d c8 b a g b'4 a16 g
+    a8 d, r4 a'8 g16 f! g8 a
+    d,4 r r2
+    r8 es! f g c, f es16 d es c %15
+    d8 d es f b,8. c32 b a8 b
+    c b a a' d,4 b'~
+    b c8 b16 c d8 d, e fis
+    g a b! cis d4 r
+    r2 r4 r8 d, %20
+    b b' c c a4 r8 b
+    a4 g2 fis4
+    g r8 d' es4 g,
+    g4. g8 g2\fermata \bar "|." %24 finis
+  }
+}
