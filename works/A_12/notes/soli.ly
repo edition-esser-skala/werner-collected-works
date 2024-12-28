@@ -735,3 +735,118 @@ A-XIIScenaSeptimaSoliLyrics = \lyricmode {
   al -- le von der Boß -- heit rein,
   und du wilſt dich be -- ſchö -- nen. %32 finis
 }
+
+A-XIIAriaQuintaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \minor \time 3/4 \autoBeamOff \tempoA-XIIAriaQuinta
+      \once \override Staff.TimeSignature.style = #'single-digit
+    R2.*8 %8
+    r4 d a
+    f16([ e] d4) f'8 e d %10
+    cis16([ d e \hA cis] a4) d8 e
+    f4. e16([ d)] c8 b
+    a4 c4. \tuplet 3/2 8 { c16([ d es)] }
+    d8([ c16 d)] b4 d8 \tuplet 3/2 8 { d16([ e f)] }
+    e8([ d16 e)] c4 c8 f %15
+    d \tuplet 3/2 8 { d16([ e f)] } e8([ d)] c([ b)]
+    a4 a8 b c([ d16 e]
+    f8) f, a4( g8.) f16
+    f4 r r
+    R2.*7 %26
+    r4 d' a
+    f16([ e] f4) d16([ e)] f8 g
+    a16([ gis] a4) h16([ cis] d8) e
+    f4. e16([ d)] c([ b)] a([ b)] %30
+    a4 c4. g8
+    fis16([ e] \hA fis4) es'8 d c
+    b16([ a)] g8 d'4. a8
+    gis16([ fis] \hA gis4) f'?8 e d
+    c16([ h)] a8 d4. c8 %35
+    b \tuplet 3/2 8 { b16([ c d)] } c4. b8
+    a c b4. a8
+    g \tuplet 3/2 8 { g16([ a b)] } a4. g8
+    f a d4. c16([ b)]
+    a8 \tuplet 3/2 8 { b16([ a g)] } f4( e8.)\trill d16 %40
+    d4 r r
+    R2.*3
+    R2.\fermata %45
+    r4 c' a
+    e'4. \tuplet 3/2 8 { d16([ e f)] } e8 d
+    c([ h)] a4 f'8 d
+    h16([ a \hA h8)] r c e c
+    a16([ gis a8)] r4 d8 h %50
+    gis a h4. c8
+    gis a h4. cis8
+    d a e'([ cis)] a([ g)]
+    f4 f' \tuplet 3/2 4 { e8([ d c)] }
+    h([ a)] c4( h8.)\trill a16 %55
+    a4 r r
+    r c e8([ c)]
+    a h16([ c)] d4. c16([ d)]
+    h8 c16([ d)] e4. d16([ e)]
+    c8 d16([ e)] f8([ d)] b([ a)] %60
+    gis4 e'4. c8
+    h e, e'4. c8
+    h e, \hA h'([ cis)] cis([ d)]
+    d4 e2\trill
+    f8([ e16 d] c!4) b! %65
+    a c f
+    f, a( g8.)\trill f16
+    f2 r4\fermata \markDaCapo \bar "||" %68 finis
+  }
+}
+
+A-XIIAriaQuintaSoliLyrics = \lyricmode {
+  Al -- ſo %9
+  ſeyn __ der Men -- ſchen %10
+  Gmüth, __ offt der
+  From -- men auch ſo --
+  gar, daß ſie __
+  mur -- ren, wi -- der --
+  khur -- ren in der %15
+  grin -- gſten Leibs -- ge --
+  fahr, in der grin --
+  gſten Leibs -- ge --
+  fahr.
+
+  Al -- ſo %27
+  ſeyn __ der Men -- ſchen
+  Gmüth, __ offt __ der
+  From -- men auch ſo -- %30
+  gar, daß ſie
+  mur -- ren, wi -- der --
+  khur -- ren, daß ſie
+  mur -- ren, wi -- der --
+  khur -- ren ge -- gen %35
+  je -- nen Weld -- ge --
+  büe -- ther, ge -- gen
+  je -- nen Weld -- ge --
+  büe -- ther in der
+  grin -- gſten Leibs -- ge -- %40
+  fahr.
+
+  Sol -- che %46
+  Klä -- ger __ ſol -- len
+  wi -- ßen, daß Gott
+  nur __ ein klei -- ne
+  Weyl __ ſie pro -- %50
+  bi -- re, ex -- er --
+  ci -- re, pur zu
+  ih -- ren See -- len --
+  heyl, zu ih --
+  ren See -- len -- %55
+  heyl.
+  Sol -- che
+  Klä -- ger ſol -- len
+  wi -- ßen, daß Gott
+  nur ein klei -- ne __ %60
+  Weyl ſie pro --
+  bi -- re, ex -- er --
+  ci -- re, pur zu __
+  ih -- ren
+  See -- len -- %65
+  heyl, zu ih --
+  ren See -- len --
+  heyl. %68 finis
+}

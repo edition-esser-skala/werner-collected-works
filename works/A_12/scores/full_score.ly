@@ -524,34 +524,66 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \section "12" "Scena septima"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #18
+  %     system-system-spacing.minimum-distance = #18
+  %     systems-per-page = #6
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff \with { \smallGroupDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "soli"
+  %           \new Voice = "Soli" { \dynamicUp \A-XIIScenaSeptimaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-XIIScenaSeptimaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \A-XIIScenaSeptimaBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIIScenaSeptimaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "12" "Scena septima"
+    \section "13" "Aria quinta"
     \addTocEntry
     \paper {
-      system-system-spacing.basic-distance = #18
-      system-system-spacing.minimum-distance = #18
-      systems-per-page = #6
+      system-system-spacing.basic-distance = #21
+      system-system-spacing.minimum-distance = #21
+      systems-per-page = #5
+      system-count = #13
+      indent = 1.5\cm
     }
     \score { %\articulate
       <<
-        \new ChoirStaff \with { \smallGroupDistance } <<
+        \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "soli"
-            \new Voice = "Soli" { \dynamicUp \A-XIIScenaSeptimaSoli }
+            \set Staff.instrumentName = "Eliphas"
+            \new Voice = "Soli" { \dynamicUp \A-XIIAriaQuintaSoli }
           }
-          \new Lyrics \lyricsto Soli \A-XIIScenaSeptimaSoliLyrics
+          \new Lyrics \lyricsto Soli \A-XIIAriaQuintaSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \A-XIIScenaSeptimaBassoContinuo
+            \A-XIIAriaQuintaBassoContinuo
           }
         >>
-        \new FiguredBass { \A-XIIScenaSeptimaBassFigures }
+        \new FiguredBass { \A-XIIAriaQuintaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 80 }
     }
   }
 }
