@@ -493,3 +493,94 @@ A-XIIAriaSextaViolinoII = {
     \time 4/4 \tempoA-XIIAriaSextaC R1\fermata \markDaCapo \bar "||" %79 finis
   }
 }
+
+A-XIIAriaSeptimaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoA-XIIAriaSeptima
+    g'8\f h~ h cis16 d a8 cis, d e16 fis
+    g8 g' g g g fis16 e fis8 d
+    r e4 fis16 g d8 fis, g a16 h
+    c!8 c' c c c h16 a h8 g
+    r h e,( g) a( cis,) d8. e32 fis %5
+    g8 h, c4. h16 a h4
+    r8 e a,( c) d fis, g8. a32 h
+    c8 e, c'4. h16 a h8 d
+    e( c) a g fis16 g a8 d,4
+    fis8( a) d( c) h h' a g %10
+    fis,(\p a) d( c) h16( a) h8 r4
+    r g8(\f d') e( c) h( a)
+    g a16 g a8 fis g4 r
+    r g8(\p d') e( c) h( a)
+    g a16 g a8 fis g4 r %15
+    R1
+    r8 h16\p cis d8 e a, cis, d4
+    r8 e' fis g d fis, g a16 h
+    e,8. fis16 g8 a d, g, r4
+    R1 %20
+    r8 e' e'16( d) e8 r e c a
+    r d, d'16( c) d8 r d h g
+    r a e'^\critnote g, fis d16 fis a8 d
+    fis4 r r8 g, fis e
+    d e16 d e8 cis d d16 fis a8 d %25
+    fis4 r r8 g,\pp fis e
+    d e16 d e8 cis d4 r
+    fis8(\f a) d( c!) h h' a g
+    fis,(\p a) d( c) h16( a) h8 r4
+    r g4.\f a16 h c8 h %30
+    a4 a4. h16 cis d8 c
+    h4 dis8.\trill cis32( \hA dis) e16( \hA dis) e8~ e16 fis g8
+    a d, fis a d, h r4
+    r2 d,4.\p fis8
+    g a16 h c8 c c( h) h c16 d %35
+    e8( c) a( g) fis d d'16(\trill c) d8
+    d16(\trill c) d8 d, h' a d, r4
+    R1
+    r8 e e'16( d) e8 r e c a
+    r d, d'16( c) d8 r d h g %40
+    r8 a e' g, fis4 r
+    r r8 h e,( c') h( a) g a16 g a8 fis g4 r
+    r r8 h\pp e,( c') h( a)
+    g a16 g a8 fis g4 r
+    g8\f h4 cis16 d a8 cis, d e16 fis %45
+    g8 g' g g g fis16 e fis8 d
+    r e4 fis16 g d8 fis, g a16 h
+    c!8 c' c c c h16 a h8 g
+    e( c) a( g) fis16 g a8 d,4 %50
+    fis8( a) d( c) h h' a g
+    fis,(\p a) d( c) h16( a) h8 r4
+    r g8(\f d') e( c) h( a)
+    g a16 g a8 fis g4 r
+    r g8(\p d') e( c) h( a) %55
+    g a16 g a8 fis g4 r\fermata
+    R1
+    r8 fis16\p g a h c8 fis, h, r4
+    h'16(\trill a) h8 h16(\trillE a) h8 h8. c!16 d!8 e
+    fis16 g a4 c,8 h g r4 %60
+    r8 fis h( a) g g' fis e
+    r fis,\pp h( a) g16( fis) g8 a h
+    e,4 c'4. a8 fis4
+    r h4. g8 e4
+    r a4. fis8 dis4 %65
+    R1*2
+    r4 e' fis,16( e) fis8 r4
+    r2 r8 h8\f a g
+    fis16( g) a8 g fis r g fis e %70
+    dis16( e) fis8 e \hA dis e4 g8 fis
+    e h' a g fis dis h4
+    r2 h'8\p c16 d! e8 d
+    c a r4 r2
+    r g'16 f e d c8 h %75
+    a4 r d16 c h a g8 fis!
+    g4 r r8 e' d c
+    r2 r8 e,\pp d c
+    r2 r4 a'~
+    a fis! d h'~ %80
+    h gis e r
+    R1
+    r2 r8 h'16 a g8 fis!
+    e4 r r2
+    R1 %85
+    R\fermata \markDaCapo \bar "||" %86 finisg
+  }
+}

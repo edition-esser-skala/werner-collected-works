@@ -343,3 +343,46 @@ A-XIIAriaSextaViola = {
     \time 4/4 \tempoA-XIIAriaSextaC R1\fermata \markDaCapo \bar "||" %79 finis
   }
 }
+
+A-XIIAriaSeptimaViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 4/4 \tempoA-XIIAriaSeptima
+    h4\f g d'8. e16 fis8 d
+    h8. cis16 d8 e a,2
+    e'4 c g'8. a16 h8 g
+    e8. fis16 g8 a d,2
+    r4 h' a4. d,8 %5
+    e8. fis16 g8 a16 g fis4. g16 fis
+    e4. a4 d,8 d4
+    e8. fis16 g8 a d,4. h'8
+    g8. e16~ e d e8 a,4 r
+    d d d r %10
+    d\p d d r
+    d4.\f h8 g4 e'
+    d4. d8 h4 r
+    d4.\p h8 g4 e'
+    d4. d8 h4 r %15
+    R1*12 %27
+    d4\f d d r
+    d\p d d r
+    h\f d16 c d8 g,4 r %30
+    e' cis16 h \hA cis8 a4 r
+    fis'4. dis8 h4 e
+    d a h r
+    R1*12 %45
+    h4\f g d'8. e16 fis8 d
+    h8. cis16 d8 e a,2
+    e'4 c g'8. a16 h8 g
+    e8. fis16 g8 a d,4. h'8
+    g e~ e16 d e8 a,4 r %50
+    d d d r
+    d\p d d r
+    d4.\f h8 g4 e'
+    d4. d8 h4 r
+    d4.\p h8 g4 e' %55
+    d4. d8 h4 r\fermata
+    R1*29 %85
+    R1\fermata \markDaCapo \bar "||" %86 finis
+  }
+}

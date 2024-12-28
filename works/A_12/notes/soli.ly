@@ -1091,3 +1091,171 @@ A-XIIAriaSextaSoliLyrics = \lyricmode {
   ckhen, ſich
   ſchi -- ckhen kan. %79 finis
 }
+
+A-XIIpsScenaSecundaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIpsScenaSecunda
+    f,8^\Leviathan f b16 b b d g,8 g g f
+    as8. as16 as8 g es r es' c
+    a! g b a fis fis d' b
+    g4 r8 g g8. d16 d4
+    \clef bass r8^\markup \remark "ardito" ^\Schöpffer g h!16 h c d es,8 c' b16 f as \hA b %5
+    g8 g16 g b b b c des8 des r g,
+    b b, e!8. e16 f4 r16 b as f
+    f8. c16 c4 r8 fis a16 a b c
+    b8 b r d g,8. g16 c8 g
+    a a16 fis a b c d es8 r16 c a fis es d %10
+    b8 b r d f8. as16 g8 d
+    es es16 es es es g \hA es c8 f c'16 c d es
+    d8 b, b'4 r8 f \hA b16 b d \hA b
+    g8 g16 c, e! g b c a8 r16 f d d e f
+    f8 c r4 \clef "treble_8" r8^\Leviathan a' a16 a a d %15
+    c!8 c16 c c a gis a a8 e r4
+    \clef bass r8^\Schöpffer c f16 f f g a8 r16 a a a a b
+    c8 r16 c a fis es d b4 r8 c'
+    b8. g16 d8 d g,4 r\fermata \bar "|." %19 finis
+  }
+}
+
+A-XIIpsScenaSecundaSoliLyrics = \lyricmode {
+  Al -- les geth nach Wunſch und Wil -- len, nun find
+  ſich Ver -- zweiff -- lung ein, reitz ich
+  ihn zum Werks -- er -- fül -- len, ſoll diß
+  mein Ver -- gnü -- gen ſein.
+  Du ir -- reſt all -- zu weith in dei -- nen Ur -- theil -- %5
+  ſchö -- pffen, was ich mit mein Ge -- ſchö -- pffen vor
+  lan -- ger E -- wig -- kheit bey mir be --
+  ſchlo -- ßen hab. Ich pfleg die Men -- ſchen --
+  kin -- der nur ſtill -- weiß zu tra --
+  ctie -- ren, bald heb ich ſie hi -- nauf, gleich ſtürtz ich ſie her -- %10
+  nie -- der, und hel -- ffe doch hin --
+  wi -- der nach mein ver -- bor -- gen Lauf, ſie hoch hi -- nan zu
+  füh -- ren, wie, Wer wird mir di -- ßes
+  wäh -- ren? Bin ich dann nicht der Herr, der al -- les hat er --
+  ſcha -- ffen? Du kanſt ſie ja zer -- %15
+  ſtö -- ren und gleich zu Bo -- den raf -- fen.
+  So wi -- ße dan hie -- mit, Job hat in ſei -- nen
+  Schmertz noch ein ge -- treu -- es Hertz, be --
+  ley -- di -- get mich nicht. %19 finis
+}
+
+A-XIIAriaSeptimaSoli = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoA-XIIAriaSeptima
+    R1*15 %15
+    g'4. h8 a([ cis,)] d([ e16 fis)]
+    g4. g8 g4 fis
+    e4. fis8 g16([ fis] g4) a16([ h)]
+    c4. c8 h4 d~
+    d16[ c h8] a([ g)] fis4 d'~ %20
+    d8[ h] gis([ e)] c a c'4~
+    c8[ a] fis([ d)] h4 h'~
+    h8[ a] a([ g)] fis4 r
+    fis8 a d4~ d8[ h] a([ g)]
+    fis([ g16 fis] g8) e d4 r %25
+    fis8\p a d4~ d8[ h] a([ g)]
+    fis([ g16 fis] g8) e d4 r
+    R1*6 %33
+    g4. h8 a([ h16 c] d8) fis,
+    g([ a16 h] c8) c c([ h)] h4 %35
+    a8([ c16 h] a8) g fis4 g
+    fis16([ g a g] a8) h a4 d~
+    d8[ c16 h] a8([ g)] fis4 d'~
+    d8[ h] gis([ e)] c a c'4~
+    c8[ a] fis([ d)] h4 h'~ %40
+    h8[ a] a([ g)] fis4 r
+    h,8 d g4~ g8[ c] h([ a)]
+    g([ a16 g] a8) fis g4 r
+    h,8\p d g4~ g8[ c] h[([ a)]
+    g([ a16 g] a8) fis g4 r %45
+    R1*10 %55
+    R1\fermata
+    e4. g8 fis([ ais)] h([ dis,)]
+    e([ a)] c([ e,)] e4\trill dis
+    e fis g4. fis16([ e)]
+    d4. c8\trill h4 r %60
+    h' dis, e r
+    h'\p dis, e r
+    c'4. a8 fis4 d
+    h'4. g8 e4 r
+    a4. fis8 dis4 r %65
+    e4. fis8 g16([ a h8)] a([ g)]
+    fis([ e)] d([ c)] h4 d'
+    e, c'd,8 fis g c,
+    d4. d8 g,4 r
+    R1*3 %72
+    fis'8([ g16 a] h8) a gis4. gis8
+    a4 h c16([ h a gis]) a4
+    g16([ a h c] d8) f,? e4. e8 %75
+    d16([ e f g] a8) c, h4 r
+    d'8([ h)] g([ f)] e4 r
+    d'8([\p h)] g([ f)] e4 r
+    g8([ e)] c([ h)] a4 a'~
+    a8[ fis!] d([ c)] h4 h'~ %80
+    h8[ gis] e([ d)] c4 c'~
+    c h8([ a)] g([ e)] c'([ a)]
+    h,4. h8 e4 e8([ fis]
+    g[ a)] h4 ais( fis)
+    h( e,) fis4. fis8 %85
+    h,2 r\fermata \markDaCapo \bar "||" %86 finis
+  }
+}
+
+A-XIIAriaSeptimaSoliLyrics = \lyricmode {
+  Ich, der Schö -- pffer %16
+  al -- ler Din -- gen,
+  khenn daß Hertz nur
+  all -- zu wohl, wie __
+  es ſoll ge -- %20
+  gen mir be -- ſchaf --
+  fen ſeyn, keuſch __
+  und rein,
+  und bey -- nebſt __ der
+  Tu -- gend voll, %25
+  und bey -- nebſt __ der
+  Tu -- gend voll.
+
+  Ich, der Schö -- pffer %34
+  al -- ler Din -- gen, %35
+  khenn daß Hertz nur
+  all -- zu wohl, wie __
+  es ſoll ge --
+  gen mir be -- ſchaf --
+  fen ſeyn, keuſch __ %40
+  und rein,
+  und bey -- nebſt __ der
+  Tu -- gend voll,
+  und bey -- nebſt __ der
+  Tu -- gend voll. %45
+
+  Kei -- ner ſol -- le __ %57
+  mich be -- zwün -- gen,
+  was ich mit ihm
+  ma -- chen will, %60
+  ich ſein Zihl,
+  was ich will,
+  ſchaf -- fe wie es
+  mir ge -- fällt,
+  wohl be -- ſtellt, %65
+  acht der Men -- ſchen
+  Worth nicht vill, der
+  Men -- ſchen Worth, der Men -- ſchen
+  Worth nicht vill.
+
+  Kei -- ner ſol -- le %73
+  mich be -- zwün -- gen,
+  was __ ich mit ihm %75
+  ma -- chen will,
+  ich ſein Zihl,
+  was ich will,
+  ſchaf -- fe __ wie mirs __
+  ge -- fällt, wohl __ %80
+  be -- ſtellt, acht __
+  der Men -- ſchen
+  Worth nicht vill, acht __
+  der Men --
+  ſchen Worth nicht %85
+  vill. %86 finis
+}

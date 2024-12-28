@@ -47,6 +47,8 @@ tempoA-XIIpsScenaPrima = \tempoMarkup "Recitativo, Adagio"
 tempoA-XIIAriaSexta = \tempoMarkup "Largo"
   tempoA-XIIAriaSextaB = \tempoMarkup "Allegro"
   tempoA-XIIAriaSextaC = \tempoMarkup "Adagio"
+tempoA-XIIpsScenaSecunda = \tempoMarkup "Recitativo"
+tempoA-XIIAriaSeptima = \tempoMarkup "Allegretto"
 
 \include "notes/ob.ly"
 \include "notes/vl1.ly"
