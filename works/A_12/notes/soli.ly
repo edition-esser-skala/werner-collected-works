@@ -26,13 +26,13 @@ A-XIIScenaPrimaSoli = {
 }
 
 A-XIIScenaPrimaSoliLyrics = \lyricmode {
-  O mich be -- glückh -- ter
+  Ô mich be -- glückh -- ter
   Job! wie werd ich wohl be --
   zah -- len mein höch -- ſten Gott und
   Herr die ü -- ber -- häuff -- te Gna -- den? mit
   den Er mich vor al -- len pflegt %5
-  gnä -- digſt zu be -- la -- den. O!
-  o! daß ich doch mit Lob ihm gnug -- ſam könt be --
+  gnä -- digſt zu be -- la -- den. Ô!
+  ô! daß ich doch mit Lob ihm gnug -- ſam könt be --
   flen; und mich mit ſchön -- ge -- ſtal -- ten
   Kin -- dern, mit Schaff, Ca -- mel und fet -- ten
   Rün -- dern ſo groß ge -- ſeg -- net hat. %10
