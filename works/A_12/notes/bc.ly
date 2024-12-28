@@ -1334,3 +1334,103 @@ A-XIIChorusBassFigures = \figuremode {
   r4. <_!> <[6]>4
   r2 <_!> %24 finis
 }
+
+A-XIIpsScenaPrimaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XIIpsScenaPrima
+    d2 e~
+    e d
+    dis d4 c
+    cis2 h
+    fis' g4 f %5
+    e dis e2
+    cis ais~
+    ais h
+    a g
+    a4 ais h2 %10
+    e,4 e'8 g c,2
+    d e
+    cis d
+    dis e
+    c4 cis h2 %15
+    a g
+    a4 h e2~
+    e cis
+    e d
+    e fis %20
+    dis e~
+    e cis
+    d dis
+    e4 ais h h,
+    e2 c %25
+    f e
+    d e
+    f fis
+    g a
+    b as %30
+    g e!
+    es4 d! es e
+    f f, h!2
+    c cis
+    d e! %35
+    fis1
+    g2 gis
+    a g
+    f fis
+    g e!~ %40
+    e cis~
+    cis d
+    e f
+    b, c4 c,
+    f2 r\fermata \bar "|." %45 finis
+  }
+}
+
+A-XIIpsScenaPrimaBassFigures = \figuremode {
+  r2 <6\\ 5->
+  r1
+  <7[!] 5 [_+]>2 <4\+ 2>4 <6>
+  <6\\>2 <[5\+] _+>
+  <6 [_!]>2. <\t>4 %5
+  <7 _+> <7 5 [_+]> <4> <_+>
+  <6>2 <6\\>
+  <5> <[5\+]>
+  <[6\\] 4\+ _!> <6>
+  r4 <7 5 [_+]> <6 4> <5\+ _+> %10
+  r <6 [_!]>2.
+  <6>2 q
+  <7- 5>1
+  <7 5 [_+]>2 <[5!] _+>
+  <6>4 <6\\> <[5\+] _+>2 %15
+  <[6\\] 4\+ _!> <6>
+  r4 <6 4>8 <5\+ _+> r2
+  <6> q
+  <6\\ 5->1
+  <6[!]>2 <6> %20
+  <6 [_+]>1
+  <6>2 q
+  r <7[!] 5 [_+]>
+  r4 <7 5 [_+]> \bo <[5\+] 4> \bc <[\t] _+>
+  r2 <5> %25
+  r <6\\>
+  r <6[!]>
+  r <6>
+  <_-> <6[!]>
+  r <4 2!> %30
+  <6- [_-]> <7- 5>
+  <4! 2>4 <6-> <[5-]> <7- 5[-]>
+  <4[-]> <3> <6>2
+  <_-> <6 5 [_!]>
+  r <6[!]> %35
+  <7- 5>1
+  <_->2 <7 5 [_!]>
+  r <4\+ _->
+  <6> <7- 5[!]>
+  <_-> <6> %40
+  r q
+  r1
+  <6[!]>
+  <5>4 <6>8 <5> <6 4>4 <5 3>
+  r1 %45 finis
+}

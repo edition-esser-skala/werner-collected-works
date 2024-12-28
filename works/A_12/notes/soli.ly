@@ -871,3 +871,103 @@ A-XIIScenaOctavaSoliLyrics = \lyricmode {
   Hertz ſo vol -- ler Schmertz, gleich
   de -- nen erz -- ver -- haß -- ten.
 }
+
+A-XIIpsScenaPrimaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIpsScenaPrima
+    a'8^\markup \remark "lamentuoso"^\JobsFrau a f' d b8. b16 b8 g
+    cis cis e g, f f a4
+    r8 a a16 a c a gis8 h! e c
+    ais16([ h] \once \stemUp cis4) e,8 fis fis fis g
+    a c e d h d4 h8 %5
+    gis([ h)] c([ a)] a8. e16 e4
+    r8 a16 a a a cis a fis8 fis ais cis
+    e cis e d h4 h8 h
+    c c dis,8. dis16 e8 e h' e
+    c([ a)] g32([ fis e8.)] g4( fis8.) e16 %10
+    e4 r r8 g16 g c c e c
+    h8 h16 c d d f e c8 c r g16 a
+    b8. b16 b8 a f r f a
+    a a c! a gis gis h c
+    a a ais8. h16 h4 r8 h16 c! %15
+    c8 dis, dis8. e16 e4 r8 h'16 e
+    c8 a \appoggiatura g fis8. e16 e4 \clef "treble_8" r16^\markup \remark "lamentabile"^\Job g, g g
+    c8 e c g a a r cis16 e
+    g,8 g b a f4 r16 a a d
+    c!8 e c g a a a16 c e c %20
+    h8. h16 h4 r8 g16 g h c d e
+    c8 c g c a e g a
+    f f16 g a a a h c8 c c h
+    g h e4~ e8. h16 h4
+    \fC r4^\Eliphas g8 g c c e c %25
+    a4 a8 h cis cis e g,
+    f f r f16 a c8 c e c
+    a4 a8 a d a c d
+    b b r \hA b16 d c8 d es8. es16
+    d8 r d d d h as g %30
+    es es r \hA es16 g b8 b des \hA b
+    a! a r b16 f g4 r8 b
+    b8. f16 f4 \fC r8^\Job g16 h d d f es
+    c8 c r es16 c a8 g b a
+    f4 r8 a16 b c!8 c c d %35
+    es8 es es c a8. a16 c8 b
+    g4 r8 g16 b d8 d f! gis,
+    a a c e! g! g, cis8. d16
+    d4 a16 a c d es8. es16 es4
+    r8 d16 d b b d \hA b g8 g g' e %40
+    c e c g e4 a8 a
+    cis e e f d d f d
+    c g b c a a c f
+    d([ b)] g([ f)] a4( g8.)\trill f16
+    f2 r\fermata \bar "|." %45 finis
+  }
+}
+
+A-XIIpsScenaPrimaSoliLyrics = \lyricmode {
+  Ô daß gro -- ße Her -- tzen -- leyd ſo
+  mei -- ne Seel em -- pfün -- det, wie,
+  hab ich mich dan vil -- leicht geg’n Gott ſo
+  ſchwär __ ver -- ſün -- det? Daß all
+  Hoff -- nung von mir weicht und ſich %5
+  häufft die Bit -- ter -- kheit,
+  nie -- mand kan den Schmertz er -- ra -- then, ſo mir
+  all mein Mann durch -- dringt, ich leb
+  in den Tod -- tes -- ſchat -- ten, der mich
+  in __ die __ Grue -- be %10
+  bringt. Wan ich mich nun recht be --
+  ſchau, wer ich bin und vor ge -- we -- ſen, nemb -- lich
+  ein be -- glückh -- te Frau, werd ich
+  an der Stir -- ne le -- ſen, daß ich
+  ſey -- e voll der Noth und mit -- %15
+  hin der Men -- ſchen Spott, diß macht
+  vor den Jah -- ren grau. Ey, bin ich
+  dan auf al -- len Sei -- then voll der
+  Angſt und Bit -- ter -- kheit, will ſich dan
+  auch der Schmertz auß -- brei -- then in die lan -- ge %20
+  E -- wig -- keit, wa -- rum bin ich nicht umb --
+  khom -- men, da ich gieng auß Mut -- ters
+  Schooß, und al -- ſo hin -- weg ge -- noh -- men wär ich
+  al -- les Jam -- mers loß.
+  Sag, wo iſt nun dein Ge -- %25
+  dult, wo -- drin all dein gut -- tes
+  Wee -- ſen? Ha -- ſtu dan nie -- mahl ge --
+  hört, o -- der ir -- gend -- wo ge --
+  le -- ſen, daß ein Menſch gantz un -- ver --
+  ſchuld ſey ſo -- gar von Gott ver -- %30
+  ſto -- ßen, auß der Huld -- ſchaft auß -- ge --
+  ſchlo -- ßen, wa -- rum biſt dir
+  ſelbſt be -- ſchwärt? Waß will dan mein Stärckh auß --
+  wei -- ſen, der ich wil -- lig ley -- den
+  ſolt, bin ich dan von Stein und %35
+  Ey -- ſen, daß man nich zer -- mal -- len
+  wolt. Ô deß Ja -- mers, wer kan
+  glau -- ben di -- ſe gro -- ße Höl -- len --
+  peyn, muß ich dan ge -- fol -- tert ſeyn?
+  Wan mein Gott mir thät er -- lau -- ben, gieng ich %40
+  in daß khüe -- le Grab, al -- da
+  könt ich wohl ge -- ne -- ſen, wä -- re
+  gleich als nie ge -- we -- ſen, und nehm
+  all mein Schmer -- tzen
+  ab. %45 finis
+}

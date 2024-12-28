@@ -43,6 +43,8 @@ tempoA-XIIScenaOctava = \tempoMarkup "Recitativo"
 tempoA-XIIChorus = \tempoMarkup "Adagio"
   tempoA-XIIChorusB = \tempoMarkup "Vivace"
 
+tempoA-XIIpsScenaPrima = \tempoMarkup "Recitativo, Adagio"
+
 \include "notes/ob.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

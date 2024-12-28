@@ -617,77 +617,109 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \section "15" "Chorus deren Kindern Gottes"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #2
+  %     system-count = #7
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-XIIChorusViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-XIIChorusViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \concat { "vla " \critnote }
+  %           \A-XIIChorusViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \A-XIIChorusSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \A-XIIChorusSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Alto" { \dynamicUp \A-XIIChorusAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \A-XIIChorusAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \A-XIIChorusTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \A-XIIChorusTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "B" "soli" }
+  %           \new Voice = "Basso" { \dynamicUp \A-XIIChorusBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \A-XIIChorusBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \A-XIIChorusBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIIChorusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 } % 80
+  %   }
+  %   \markup { \vspace #4 \fontsize #3 \fill-line { "" "Finis Primæ Partis" "" } }
+  % }
+  % \part "secunda" "2" "Pars secunda"
   \bookpart {
-    \section "15" "Chorus deren Kindern Gottes"
+    \section "16" "Scena prima"
     \addTocEntry
     \paper {
-      top-system-spacing.basic-distance = #10
-      top-system-spacing.minimum-distance = #10
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #10
-      markup-system-spacing.minimum-distance = #10
-      system-system-spacing.basic-distance = #17
-      system-system-spacing.minimum-distance = #17
-      systems-per-page = #2
-      system-count = #7
+      system-system-spacing.basic-distance = #21
+      system-system-spacing.minimum-distance = #21
+      systems-per-page = #5
+      system-count = #13
     }
     \score { %\articulate
       <<
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
-          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \A-XIIChorusViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \A-XIIChorusViolinoII
-            }
-          >>
+        \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \concat { "vla " \critnote }
-            \A-XIIChorusViola
+            \set Staff.instrumentName = "soli"
+            \new Voice = "Soli" { \dynamicUp \A-XIIpsScenaPrimaSoli }
           }
-        >>
-        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \A-XIIChorusSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \A-XIIChorusSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Alto" { \dynamicUp \A-XIIChorusAlto }
-          }
-          \new Lyrics \lyricsto Alto \A-XIIChorusAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \A-XIIChorusTenore }
-          }
-          \new Lyrics \lyricsto Tenore \A-XIIChorusTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "B" "soli" }
-            \new Voice = "Basso" { \dynamicUp \A-XIIChorusBasso }
-          }
-          \new Lyrics \lyricsto Basso \A-XIIChorusBassoLyrics
+          \new Lyrics \lyricsto Soli \A-XIIpsScenaPrimaSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \A-XIIChorusBassoContinuo
+            \A-XIIpsScenaPrimaBassoContinuo
           }
         >>
-        \new FiguredBass { \A-XIIChorusBassFigures }
+        \new FiguredBass { \A-XIIpsScenaPrimaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 } % 80
+      \midi { \tempo 4 = 60 }
     }
-    \markup { \vspace #4 \fontsize #3 \fill-line { "" "Finis Primæ Partis" "" } }
   }
 }
