@@ -691,35 +691,88 @@
   %   \markup { \vspace #4 \fontsize #3 \fill-line { "" "Finis Primæ Partis" "" } }
   % }
   % \part "secunda" "2" "Pars secunda"
+  % \bookpart {
+  %   \section "16" "Scena prima"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #21
+  %     system-system-spacing.minimum-distance = #21
+  %     systems-per-page = #5
+  %     system-count = #13
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "soli"
+  %           \new Voice = "Soli" { \dynamicUp \A-XIIpsScenaPrimaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-XIIpsScenaPrimaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \A-XIIpsScenaPrimaBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIIpsScenaPrimaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "16" "Scena prima"
+    \section "17" "Aria sexta · Siciliana"
     \addTocEntry
     \paper {
-      system-system-spacing.basic-distance = #21
-      system-system-spacing.minimum-distance = #21
-      systems-per-page = #5
-      system-count = #13
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      system-system-spacing.basic-distance = #17
+      system-system-spacing.minimum-distance = #17
+      systems-per-page = #3
     }
     \score { %\articulate
       <<
-        \new ChoirStaff <<
+        \new Staff \with { \setStaffDistance #12 } {
+          \set Staff.instrumentName = "ob"
+          \A-XIIAriaSextaOboe
+        }
+        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \A-XIIAriaSextaViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \A-XIIAriaSextaViolinoII
+            }
+          >>
+        >>
+        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
-            \set Staff.instrumentName = "soli"
-            \new Voice = "Soli" { \dynamicUp \A-XIIpsScenaPrimaSoli }
+            \set Staff.instrumentName = "Job"
+            \new Voice = "Soli" { \dynamicUp \A-XIIAriaSextaSoli }
           }
-          \new Lyrics \lyricsto Soli \A-XIIpsScenaPrimaSoliLyrics
+          \new Lyrics \lyricsto Soli \A-XIIAriaSextaSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = "bc"
+            \set Staff.instrumentName = \markup \center-column { \concat { "vla " \critnote } "bc" }
             % \transpose c c,
-            \A-XIIpsScenaPrimaBassoContinuo
+            \A-XIIAriaSextaBassoContinuo
           }
         >>
-        \new FiguredBass { \A-XIIpsScenaPrimaBassFigures }
+        \new FiguredBass { \A-XIIAriaSextaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 60 } % 120 – 60
     }
   }
 }

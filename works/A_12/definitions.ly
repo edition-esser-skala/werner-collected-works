@@ -7,7 +7,7 @@ Leviathan = \markup \remark "Leviathan"
 Schöpffer = \markup \remark "Schöpffer"
 fC = \set Staff.forceClef = ##t
 bfdot = \markup { \combine \transparent \figured-bass 0 \raise #.6 \draw-circle #.2 #0 ##t }
-
+sempreP = \markup \remark \whiteout \pad-markup #0.5 \concat { "sempre " \bold \fontsize #2 "p" }
 markScenaSexta = {
   \once \override Score.RehearsalMark.self-alignment-X = #LEFT
   \mark \markup \remark "(Scena sexta)"
@@ -44,6 +44,9 @@ tempoA-XIIChorus = \tempoMarkup "Adagio"
   tempoA-XIIChorusB = \tempoMarkup "Vivace"
 
 tempoA-XIIpsScenaPrima = \tempoMarkup "Recitativo, Adagio"
+tempoA-XIIAriaSexta = \tempoMarkup "Largo"
+  tempoA-XIIAriaSextaB = \tempoMarkup "Allegro"
+  tempoA-XIIAriaSextaC = \tempoMarkup "Adagio"
 
 \include "notes/ob.ly"
 \include "notes/vl1.ly"

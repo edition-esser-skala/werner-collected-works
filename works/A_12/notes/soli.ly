@@ -971,3 +971,123 @@ A-XIIpsScenaPrimaSoliLyrics = \lyricmode {
   all mein Schmer -- tzen
   ab. %45 finis
 }
+
+A-XIIAriaSextaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \minor \time 6/8 \autoBeamOff \tempoA-XIIAriaSexta
+    R2.*12 %12
+    d4 a8 f'8.([ e16)] d8
+    b!8.([ a16)] gis8 \hA \appoggiatura gis a4 r8
+    e'4 g,8 fis([ a)] c! %15
+    h16([ c d8)] f, e([ g)] b
+    a16([ b c8)] d c16([ b a8)] b
+    a16([ b c8)] g f4 r8
+    R2.*4 %22
+    d'4 a8 b8.([ c16)] d8
+    g([ c,)] b \appoggiatura b a4 r8
+    c8.([ d16)] es8 es[( cis)] d %25
+    d8.([ e16)] f8 f([ dis)] e
+    a,8.([ cis16)] e8 f8.([ e16)] d8
+    b!8.([ a16)] gis8 a8.([ cis16)] e8
+    g4.( f8.) e16 d8
+    es8.([ d16)] cis8 d([ a)] b %30
+    f8.([ g16)] e8 d4 r8
+    R2.*5 \noBreak %36
+    R2. \fermata
+    \time 2/4 \tempoA-XIIAriaSextaB \newSpacingSection
+      a'16_([ b] c4.) \noBreak
+    c16([ h c8)] c d16([ e)]
+    f8([ e16 d] c8) b %40
+    a4 c8 f
+    d16[ c b a] g[ a b g]
+    c[ b a g] f[ g a f]
+    b[ a g a] b[ c d e]
+    f8 c a f %45
+    c'2~
+    c~\trill
+    c4~\trill c16[ d e c]
+    f8 c a f
+    d4 d' %50
+    d8([ h)] g([ f)]
+    e4 g'~
+    g8[ e] c([ b!)]
+    a16([ h c8)] f([ d)]
+    \appoggiatura c h4.\trill c8 %55
+    c4 r
+    R2*6 %62
+    a16_([ b] c4.)
+    c16([ h c8)] c d16([ e)]
+    f8([ e16 d] c8) b %65
+    a4 c~
+    c8[ d16 e] f8 es
+    es d d4~
+    d8[ e16 f] g8 f
+    f e r4 %70
+    h16([ c] d4) b8
+    a4 r8 f'
+    d16([ c b8)] a16([ g f8)]
+    e4 g'~
+    g8([ e)] c([ b)] %75
+    a4 c
+    f2~
+    f8 e16([ d] c8) h
+    \time 4/4 \tempoA-XIIAriaSextaC a8.([ h16)] h4\trill a2\fermata \markDaCapo \bar "||" %79 finis
+  }
+}
+
+A-XIIAriaSextaSoliLyrics = \lyricmode {
+  Leicht -- lich iſt __ ge -- %13
+  dul -- dig ſeyn,
+  wo kein Schmer -- tzen %15
+  in __ den Her -- tzen,
+  da __ kein Jam -- mer,
+  Creütz und Pein.
+
+  Leicht -- lich iſt __ ge -- %23
+  dul -- dig ſeyn,
+  wo __ kein Schmer -- tzen %25
+  in __ den Her -- tzen,
+  da __ kein Jam -- mer,
+  Creütz und Pein, kein
+  Jam -- mer, noch
+  Creütz und Pein, noch %30
+  Creütz und Pein.
+
+  Diß __ %38
+  iſt __ ein be --
+  herz -- ter %40
+  Man, der nicht
+  kla -- _
+  _ _
+  _ _
+  _ get, noch ver -- %45
+  za --
+
+  _ get, in die %49
+  Noth ſich %50
+  ſchi -- ckhen
+  kan, in __
+  die
+  Noth ſich
+  ſchi -- ckhen %55
+  kan.
+
+  Diß __ %63
+  iſt __ ein be --
+  herz -- ter %65
+  Man, der __
+  _ nicht
+  kla -- get, noch __
+  _ ver --
+  za -- get, %70
+  in __ die
+  Noth ſich
+  ſchi -- ckhen
+  kan, in __
+  die %75
+  Noth ſich
+  ſchi --
+  ckhen, ſich
+  ſchi -- ckhen kan. %79 finis
+}

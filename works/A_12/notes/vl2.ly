@@ -412,3 +412,84 @@ A-XIIChorusViolinoII = {
     g4. g8 g2\fermata \bar "|." %24 finis
   }
 }
+
+A-XIIAriaSextaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 6/8 \tempoA-XIIAriaSexta
+    f8.-\sempreP^\conSord d32 e f16 g a8. g16 f8
+    f4 e8 e4 r8
+    a4 e'8 a,4 a16 b
+    c8. b16 a8 a g r
+    \appoggiatura { d'16[ es] } f8. es16 d8 c4 es,8 %5
+    e4 e8 e d r
+    \appoggiatura { c'!16[ d] } es8. d16 c8 c b r
+    b8. a16 g8 g f r
+    d'8. c16 h8 e,4 a8
+    b4 a16( cis,) d4 r8 %10
+    b'4 a8 a8. f16 d8
+    d8. e16 cis8 d4 r8
+    r4 r8 a'8.\p g16 f8
+    f4 e8 e4 r8
+    e8. fis16 g8 \hA fis8. g16 a8 %15
+    d,8. e16 f8 e8. f16 g8
+    f16 g a8 b a16 g f8 g
+    f8. g16 e8 f4 r8
+    r4 r8 e'4\f r8
+    a,4 e'8 a,4 r8 %20
+    a8. b16 c!8 d4 c8
+    b8. g16 b8 e,4 r8
+    r4 r8 b'4\p a8
+    g4. f8. a16 b8
+    c8. b16 c8 f,4. %25
+    d'8. c16 d8 g,4.
+    e'8. d16 e8 a,4 r8
+    f4 e8 e4 r8
+    a4. a4 a8
+    b4 a8 a8. f16 d8~ %30
+    d8. e16 cis8 d4 r8
+    r4 c'!8\f b!8. cis16 d8
+    cis4 d8 a r r
+    a4.~ a8. g16 a8
+    b4 a16( cis,) d4 r8 %35
+    b'4 a8 a8. f16 d8 \noBreak
+    d8. e16 cis8 d4 r8\fermata
+    \twofourtime \time 2/4 \tempoA-XIIAriaSextaB \newSpacingSection
+      \after 4*0 -\senzaSord R2 \noBreak
+    r8 g\p c g
+    a d c g %40
+    a f r4
+    r r8 g
+    c16( b) c8 r f,
+    b16( a) b8 r e,
+    a16( g) a8 r4 %45
+    e8 c'16( b) c8 e
+    f, a16( g) a8 c
+    e, c'16( b) c8 e
+    c a r4
+    f8 d4 b8 %50
+    R2
+    e'8 c g e
+    R2*4 %56
+    c8\f a' f a
+    d, h' g\hA h
+    e, c' a c
+    h16 c d \hA h c8 a, %60
+    c d h4
+    c r
+    R2
+    r8 g'\p c g
+    a d c g %65
+    a f r4
+    c~ c16 d es8~
+    es d16 c d4
+    d~ d16 e f8~
+    f e16 d e4 %70
+    R2
+    f16( g) a4 f8
+    R2
+    e'8 c g16( f) e8
+    R2*4 %78
+    \time 4/4 \tempoA-XIIAriaSextaC R1\fermata \markDaCapo \bar "||" %79 finis
+  }
+}

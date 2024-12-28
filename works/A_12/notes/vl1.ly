@@ -400,3 +400,85 @@ A-XIIChorusViolinoI = {
     c4. c8 h2\fermata \bar "|."
   }
 }
+
+A-XIIAriaSextaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 6/8 \tempoA-XIIAriaSexta
+    d'4_\sempreP^\conSord a8 f'8. e16 d8
+    b!8. a16 gis8 \hA \appoggiatura gis a4 r8
+    e'8. cis16 g8 fis8. a16 c!8
+    es8. d16 c8 c h r
+    \appoggiatura { f'!16[ g] } as8. g16 f8 es8. d16 c8 %5
+    b!8. a!16 g8 g fis r
+    \appoggiatura { a16[ b] } c8. b16 a8 a g r
+    g8. f!16 e8 e d r
+    f'8. e16 d8 cis4 d8
+    es8. d16 cis8 a'8. f16 d8 %10
+    es8. d16 cis8 d8. a16 b8
+    f8. g16 e8 d4 r8
+    r4 r8 f8.\p e16 d8
+    b'!8. a16 gis8 a8. cis16 e8
+    a,4 e'8~ e d c %15
+    h8. c16 d8~ d c b
+    a16 b c8 d c16 b a8 b
+    a16 b c8 g f4 r8
+    r4 r8 a8.\f cis16 d8
+    e8. d16 cis8 d4 e8 %20
+    f8. g16 a8 g8. b16 f8
+    es8. g16 d8 \appoggiatura d cis4 r8
+    r4 r8 g'4\p d8
+    c!8. d16 b8 a8. f'16 e8
+    f4 es8~ es( cis) d %25
+    g4 f8~ f( dis) e
+    a4 g8 f8. e16 d8
+    b!8. a16 gis8 a4 r8
+    e'4. f8. e16 d8
+    es8. d16 cis8 d( a) b %30
+    f8. g16 e8 d4 a'8\f
+    d8. e16 f8 e8. f16 f16.\trill e64( f)
+    g8. a16 f8 e8. cis16 d8
+    e4 g8 f8. e16 d8
+    es8. d16 cis8 a'8. f16 d8 %35
+    es8. d16 cis8 d8. a16 b8 \noBreak
+    f8. g16 e8 d4 r8\fermata
+    \twofourtime \time 2/4 \tempoA-XIIAriaSextaB \newSpacingSection
+      \after 4*0 -\senzaSord R2 \noBreak
+    c'16\p d e4 f16 g
+    f8 e16 f g8 b, %40
+    a f r4
+    r8 d' b'16( a) b8
+    r c, a'16( g) a8
+    r b, g'16( f) g8
+    R2 %45
+    g,8 e'16( d) e8 g
+    a, f'16( e) f8 a
+    g, e'16( d) e8 g
+    f f, r4
+    d'8 b f d %50
+    R2
+    g'8 e c g
+    R2*3 %55
+    r8 g\f c e
+    a,16 h c a f' e d f
+    h, c d \hA h g' f e g
+    c, d e c a' g f a
+    h, c d \hA h c8 f, %60
+    e f d4\trill
+    c r
+    R2
+    c'16(\p d) e4 f16( g)
+    f8 g16 f g8 b, %65
+    a f r4
+    r f~
+    f8 g16 a b8 b,
+    r4 g'~
+    g8 a16 h c8 c, %70
+    R2
+    a'16( b) c4 a8
+    R2
+    g'16( f) e8 e16( d) c8
+    R2*4 %78
+    \time 4/4 \tempoA-XIIAriaSextaC R1\fermata \markDaCapo \bar "||" %79 finis
+  }
+}

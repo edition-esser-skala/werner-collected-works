@@ -299,3 +299,47 @@ A-XIIChorusViola = {
     es4. es8 d2\fermata \bar "|." %24 finis
   }
 }
+
+A-XIIAriaSextaViola = {
+  \relative c' {
+    \clef alto
+    \key d \minor \time 6/8 \tempoA-XIIAriaSexta
+    d4-\sempreP r8 d4 r8
+    d4. cis4 r8
+    cis4. d4 r8
+    fis4 r8 g4 r8
+    h,4 r8 c!4 r8 %5
+    cis4 r8 d4 r8
+    fis4 r8 g4 r8
+    cis,4 r8 d4 r8
+    gis4 r8 a8. g16 f8
+    g4 a8 f4 r8 %10
+    g4 a8 f4 g8
+    a4 a,8 d8. a16 f8
+    d4 r8 r4 r8
+    R2.*5
+    f'8.\fE e16 d8 cis4 r8
+    cis8. h16 a8 d4 r8 %20
+    d'4 c!8 b4 a8
+    g4. a4 r8
+    R2.*8 %30
+    r4 r8 r4 c!8\fE
+    b4 a8 g4 f8
+    e4 d8 cis8. a16 h8
+    cis4. d4 f8
+    g4 a8 f4 r8 %35
+    g4 a8 f4 g8 \noBreak
+    a4 a,8 d4\fermata r8
+    \twofourtime \time 2/4 \tempoA-XIIAriaSextaB \newSpacingSection
+      R2*18 %55
+    r8 c'\f e, c
+    f, f' d f
+    g, g' e g
+    a, a' f a
+    g f e f %60
+    g f g g,
+    c4 r
+    R2*16 %78
+    \time 4/4 \tempoA-XIIAriaSextaC R1\fermata \markDaCapo \bar "||" %79 finis
+  }
+}
