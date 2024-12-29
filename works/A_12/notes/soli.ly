@@ -1624,3 +1624,115 @@ A-XIIpsScenaQuintaSoliLyrics = \lyricmode {
   Peyn ver -- gnü -- get ſeyn, die
   Bueß hab ich ver -- ſchwo -- ren. %18 finis
 }
+
+A-XIIAriaNonaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \dorian \time 3/4 \autoBeamOff \tempoA-XIIAriaNona
+      \once \override Staff.TimeSignature.style = #'single-digit
+    g4 es' h
+    c8.([ b32 as?] g4.) f8
+    es4 r r
+    g c8([ d)] es4
+    b!( f) as %5
+    g r r
+    b es8([ d)] es4
+    c8([ d] es4) b
+    as4. b8 g4
+    g8([ f)] f4 r %10
+    as8([ b] \once \stemUp c4) b8([ \hA as)]
+    g4( g8[ as)] b4
+    as \appoggiatura g8 f2
+    es4 r r
+    g es' h %15
+    c_( g8[ as]) b4
+    as r r
+    b f8([ g)] as4
+    g2 as8([ b)]
+    \tuplet 3/2 4 { c([ b as)] } g4( fis) %20
+    g2 r4
+    as as8([ g)] \hA as4
+    g2 c4
+    des4.( c8 b!4)
+    as2 r4 %25
+    g2 r4
+    es'2 c4
+    des4. c8 h4
+    c4._( b16[ as]) g8 f \noBreak
+    es4.( f8 d4) %30
+    \key c \major \time 4/4 \tempoA-XIIAriaNonaB \newSpacingSection
+      c r8 g' c g e c \noBreak
+    g'4 r8 g d' h g f
+    e g c4. e8 c g
+    a4 f'~ \tuplet 3/2 4 { f8[ e d] c[ h a] }
+    g4 e'~ \tuplet 3/2 4 { e8[ d c] h[ a g] } %35
+    f4 d'~ \tuplet 3/2 4 { d8[ c h] a[ g f] }
+    e4 e' e8([ d)] d([ c)]
+    \tuplet 3/2 4 { h([ c d)] e([ d c)] h([ a g] } a4)\trill
+    g r r2
+    R1 %40
+    r4 r8 g c g e c
+    g'4 r8 g d' h g f
+    e g c4. g16([ a)] b8 b
+    a[ cis] d4~ d8[ a16 h] \tuplet 3/2 4 { c?8[ h a] }
+    h[ dis] e4~ e8[ h16 c] \tuplet 3/2 4 { d?8[ c h] } %45
+    c[ e] f4. d8[ h g]
+    e4 g c16([ d] e4) c8
+    a16([ h c h] c8) f, e4( d)\trill
+    c r r2
+    R1 %50
+    R\fermata \bar "|." %51 finis
+  }
+}
+
+A-XIIAriaNonaSoliLyrics = \lyricmode {
+  Umb di -- ße
+  ſchö -- ne
+  Beuth
+  iſt mir von
+  Her -- tzen %5
+  leyd,
+  daß ſie mir
+  wird __ ent --
+  zo -- gen, ent --
+  zo -- gen, %10
+  daß __ ſie
+  mir __ wird
+  ent -- zo --
+  gen.
+  Umb di -- ße %15
+  ſchö -- ne
+  Beuth
+  iſt mir von
+  Her -- tzen,
+  Her -- tzen __ %20
+  leyd,
+  daß ſie mir
+  wird ent --
+  zo --
+  gen, %25
+  mir
+  wird ent --
+  zo -- gen, ent --
+  zo -- gen, ent --
+  zo -- %30
+  gen. Wie wur -- de nit mein
+  Herr, der gro -- ße Lu -- ci --
+  fer, mir da -- rum ſein ge --
+  wo -- _ _
+  _ _ _ %35
+  _ _ _
+  gen, mir da -- rum
+  ſein ge -- wo --
+  gen?
+  %40
+  Wie wur -- de nit mein
+  Herr, der gro -- ße Lu -- ci --
+  fer, mir da -- rum ſein ge --
+  wo -- _ _
+  _ _ _ %45
+  _ _ _
+  gen, mir da -- rum
+  ſein __ ge -- wo --
+  gen? %49 finis
+}

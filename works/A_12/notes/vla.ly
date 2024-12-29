@@ -489,3 +489,21 @@ A-XIIpsScenaQuartaViola = {
     R1*7 \bar "|" %49 finis
   }
 }
+
+A-XIIAriaNonaViola = {
+  \relative c' {
+    \clef alto
+    \key c \dorian \time 3/4 \tempoA-XIIAriaNona
+      \once \override Staff.TimeSignature.style = #'single-digit
+    R2.*30 \bar "|" %30
+    \key c \major \time 4/4 \tempoA-XIIAriaNonaB \newSpacingSection
+      R1*8
+    g'4.\f fis8 e e d c
+    h4. c8 d4 d, %40
+    g r r2
+    R1*7 %48
+    c'4.\f h8 a a g f
+    e4. f8 g4 g, %50
+    c r r2\fermata \bar "|." %51 finis
+  }
+}

@@ -730,3 +730,55 @@ A-XIIpsScenaQuartaViolinoI = {
     R1*7 \bar "|" %49 finis
   }
 }
+
+A-XIIAriaNonaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 3/4 \tempoA-XIIAriaNona
+      \once \override Staff.TimeSignature.style = #'single-digit
+    \after 4*0 -\conSord R2.*2
+    r8 r16 g''\pE es4 h
+    R2.*2 %5
+    r8 r16 b' g4 d
+    R2.*3
+    r8 r16 b' f4 d %10
+    R2.
+    r4 b8 as g4
+    as \appoggiatura g8 f2\trill
+    es4 g' h,
+    c r r %15
+    R2.
+    r8 r16 f c4 as
+    R2.*3 %20
+    r8 r16 g' d4 h
+    r8 r16 f' d4 h
+    r8 r16 c' g4 es
+    r8 r16 b'! g4 e
+    r8 r16 as f4 c %25
+    r8 r16 d' h4 g
+    r8 r16 c, g4 es
+    R2.*3 %30
+    \key c \major \time 4/4 \tempoA-XIIAriaNonaB \newSpacingSection
+      r8^\senzaSord e\p g16 e c' g e'8 e, r4 \noBreak
+    r8 h' d16 h g' d h'8 h, r4
+    r8 g'16 f e8 f \tuplet 3/2 4 { g8 f g e d e }
+    c8 a r4 r8 f' f f
+    \tuplet 3/2 4 { g, f g } g4 r8 e' e e %35
+    \tuplet 3/2 4 { f, e f } f4 r8 d' d d
+    \tuplet 3/2 4 { e, d e } e'4~ e8( d) d( c)
+    \tuplet 3/2 4 { h a h } r4 r2
+    r16 h\f d g h8 h h h h h
+    h16 c d4 c8  h c16 h c8 a %40
+    g4 r r2
+    r8 h,\p d16  h g' d h'8 h, r4
+    r8 g'16 f! e8 f \tuplet 3/2 4 { g8 f g e d e }
+    c a r4 \tuplet 3/2 4 { a'8 g a fis e \hA fis }
+    d h r4 \tuplet 3/2 4 { h'8 a h gis fis? \hA gis } %45
+    e8 c r a' g g, r d'
+    e c g e r2
+    R1
+    r16 e\f g c e8 e e e e e
+    e16( f g4) f8 e f16 e f8 d %50
+    c4 r r2\fermata \bar "|." %51 finis
+  }
+}

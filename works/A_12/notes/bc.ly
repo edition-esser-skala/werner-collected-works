@@ -2221,3 +2221,117 @@ A-XIIpsScenaQuintaBassFigures = \figuremode {
   <_->4 <7- 5 [_!]> <4> <_!>
   r1 %19 finis
 }
+
+A-XIIAriaNonaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 3/4 \tempoA-XIIAriaNona
+      \once \override Staff.TimeSignature.style = #'single-digit
+    \mvTr c2\pE-\soloE d4
+    es h g
+    c2 d4
+    es2 c4
+    d2. %5
+    es2 f4
+    g2 es4
+    as2 g4
+    f d es
+    b2 r4 %10
+    c2 d4
+    es es, r
+    as' b b,
+    es2 d4
+    c2 d4 %15
+    e2 c4
+    f2 r4
+    d2 b4
+    es!8. d16 c4 b
+    as a2 %20
+    g r4
+    f'!2 r4
+    es2 r4
+    e2 r4
+    f2 r4 %25
+    h,2 r4
+    c2 r4
+    f2 g4
+    es2 f4 \noBreak
+    g2 g,4 %30
+    \key c \major \time 4/4 \tempoA-XIIAriaNonaB \newSpacingSection
+      c8 c' g e c4 r8 e \noBreak
+    h g' d h g4 h
+    c4. d8 e2
+    f8 f d d d d d d
+    e e c c c c c c %35
+    d d h h h h h h
+    c c c c d4 fis
+    g8 g c, c d d d, d
+    << { g'4. fis8 } \\ {g,4\f s  } >> e'8 e d c
+    h4. c8 d4 d, %40
+    g8 g'16\p f! e8 e16 d c4 r8 e
+    h g' d h g4 h
+    c4. d8 e2
+    f4. f8 fis2
+    g4. g8 gis2 %45
+    a4. a8 h2
+    c8 g e c e2
+    f4 e8 f g4 g,
+    << { c'4. h8 } \\ { c,4\f s } >> a'8 a g f
+    e4. f8 g4 g, %50
+    c r r2\fermata \bar "|." %51 finis
+  }
+}
+
+A-XIIAriaNonaBassFigures = \figuremode {
+  r2 <6!>4
+  <6> q2
+  r <6!>4
+  <6>2.
+  <6[-]>2 <5->4 %5
+  r2 <6 _->4
+  <6>2.
+  r2 <[6]>4
+  <_-> <6- 5>2
+  <6 4>8 <5 3> r2 %10
+  <6->2 <6>4
+  r2.
+  <6>4 <6 4> <5 3>
+  r2 <6!>4
+  r2 q4 %15
+  <6>2 <7[-] [_!]>4
+  <_->2.
+  <6->2 <7->4
+  r2.
+  <7>4 q <6\\> %20
+  <_!>2.
+  <4! _->
+  <6>
+  <7- 5[-]>
+  <_-> %25
+  <[6 _!]>
+  <_->
+  <6->2 <[5!] _!>4
+  <6>2 <_->4
+  <6- 4>2 <5 _!>4 %30
+  <_!>1
+  <[6]>2. <6>4
+  r1
+  r
+  r %35
+  r
+  r2 <9 _+>8 <8 \t> <6> <5>
+  r2 <6 4>4 <5 _+>
+  r2 <\l>4. \once \bassFigureExtendersOn q8
+  <6>4. q8 <6 4>4 <5 _+> %40
+  r1
+  <[6]>
+  r2 <6>4 <5->
+  <5> <6>2.
+  <5>4 <6>2. %45
+  <5>4 <6> <6 5>2
+  r1
+  r4 <[6]> <6 4> <5 3>
+  r2 <\l>4. \once \bassFigureExtendersOn q8
+  <6>4. q8 <6 4>4 <5 3> %50
+  r1 %51 finis
+}
