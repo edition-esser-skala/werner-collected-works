@@ -1469,3 +1469,158 @@ A-XIIAriaOctavaSoliLyrics = \lyricmode {
 
   _ ben. %69 finis
 }
+
+A-XIIpsScenaQuartaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIScenaQuarta
+    h8^\Job dis fis a, g8. g16 g8 h
+    d d16 e f8 e c c r c16 e
+    a,8 g b a f4 f'8 d
+    c!8. c16 c8 h gis gis r4
+    \clef bass r4^\Schöpffer c r8 g g16 g h g %5
+    e8 c e16 g b a f8 f r f16 g
+    a8. e16 e8 cis16 e g8 g16 b a8 e
+    f f r4 r8 g16 g c!8 g
+    a8. a16 a4 r8 f a16 b c d
+    b8. b16 b8 d fis, a c b %10
+    g g r g c8. c16 c8 g
+    a8. a16 a8 e g g g f
+    d d r f f f a f
+    d8. d16 d8 d fis a c b
+    g g r g h8. h16 h8 d %15
+    c8. c,16 c8 c g' g b g
+    fis fis r4 r16 b,^\markup \remark "ardito" d f b f d f
+    f8 c r16 c f a c8. c16 f,8 es'
+    d b,16 b d d f g as8 as16 f h h d f,
+    es8 es r g f b b, as' %20
+    g g16 b g es g \hA es c8. c16 c8 e
+    g16 g g a b8 c des b g16 e! des c
+    as8 as r c' fis,8. fis16 a8 c,
+    h! h16 d g8 d es c' b, as'
+    g b c16 as f es es8 b r4 %25
+    r8 es g16 g g as b8. b16 b8 f
+    h8. h16 d8 f, es es16 es g g c g
+    as8. as16 as8 f h!8. d16 c8 f,
+    g g, r4 r2
+    \clef "treble_8" r8^\markup \remark "spaventuoso"^\Job g' b16 b b c d8 d a16 c b a %30
+    b8 g \hA b16 b d es f!8 d b16 b d \hA b
+    g8 g c16 c g b a8 a cis16 d e f
+    d8 a d16 d f d c8 r16 g c g b c
+    a8 c c16 c d es d8 a16 a a b c d
+    b8. b16 b8 g es' c b g %35
+    g d r4 r8 g h16 h h c
+    d8 d16 d f! f f es c8 c16 g g g g c
+    b8 b16 b b g b a f8 f16 a d4
+    r8 es es fis, g4 r8 d'
+    f!8. f16 f8 es c c c d %40
+    e8. e16 e8 g f4 d16([ cis) d8]
+    d8. a16 a4 r2
+    \clef bass r8^\Schöpffer f b16 b b d a8 a a16 a c es,
+    d8 d16 d f f f g a8 r16 a a a c b
+    g8 b es,16 g fis g g8 d r4 %45
+    r8 d g16 g h g e8 e gis16 a h c
+    a8 a r c g d f g
+    e e16 g g g a b a8. e16 e4
+    r8 d b'16 g f d d8 a r4 \bar "|" %49 finis
+  }
+}
+
+A-XIIpsScenaQuartaSoliLyrics = \lyricmode {
+  Al -- les hat ſein Zihl und End, doch
+  will ſich bey mir nichts zeü -- gen, weill der
+  Schmertz ſchon all -- be -- hend im -- mer
+  grö -- ßer ſucht zu ſtei -- gen.
+  Wie, was muß ich dan von %5
+  dir vor al -- be -- ren -- des hö -- ren? Glau -- be --
+  ſtu vil -- leicht mei -- nen Wil -- len mir umb -- zu --
+  khe -- ren? Sa -- ge an, wo
+  wa -- reſt du, als ich der gro -- ßen
+  Weld Ge -- bau auß ei -- nem Worth for -- %10
+  mi -- ret, daß Fir -- ma -- ment mit
+  man -- cher -- ley Ge -- ſtür -- nen auß -- ge --
+  züh -- ret? Geb Anth -- wort, wer hat
+  dan daß Meer ſo weiß -- lich ein -- ge --
+  ſchrän -- khet, wer hat die Wolck -- hen %15
+  hin und her durch ſei -- ne Hand ge --
+  len -- ckhet? Wer hat dem Don -- ner Sprach ge --
+  ge -- ben, wer thut den Ne -- bel hoch er --
+  hö -- ben, daß er ſo greu -- lich kra -- chet und gro -- ße Schrö -- ckhen
+  ma -- chet? Kan -- ſtu den Blitz auß -- %20
+  la -- ßen, daß er mit größ -- ter Hitz und Eyll vill
+  ſchnel -- ler als ein Bo -- gen -- pfeyl auf Erd her -- nü -- der
+  fal -- le, auch al -- le Ding be --
+  ſtrah -- le, ſo doch nie -- mand mit ſein Ver --
+  ſtand biß -- he -- ro kun -- te fa -- ßen. %25
+  Da -- he -- ro le -- ge dich zum Zihl, thus
+  in Ge -- dult be -- ſte -- hen, ge -- denckhs, daß al -- les,
+  waß ich will, muß un -- ver -- ruckht ge --
+  ſche -- hen.
+  Ô Herr, ich weiß gar wohl dein Stär -- ckhe, Gwald und %30
+  Macht, und was der fleiſch -- lich Menſch bey ſich in -- gheim ge --
+  dacht, iſt vor dir je -- der -- zeit gantz of -- fen -- bahr und
+  klar, da -- rum hab ich für -- wahr als ein be -- thör -- ter
+  Man un -- weiß -- lich mich ge -- kla -- get, daß ich von dir ohn
+  al -- le Schuld ſo ſchmertz -- lich wurd ge -- %35
+  bla -- get. Will al -- ſo nun daß
+  Gwi -- ßen in bitt -- ren Thrä -- nen wa -- ſchen, auch mei -- ne Sün -- den
+  büe -- ßen in Mo -- der -- ſtaub und A -- ſche. Ô Gott,
+  er -- zeig nur doch an
+  mir Barm -- her -- zig -- kheit, ſo bleib ich %40
+  fort -- hin noch zu al -- ler __
+  Straff be -- reith.
+  Dein Sün -- de iſt nun -- mehr von dir hin -- weg ge --
+  noh -- men, al -- lein mein Zorn und Rach ſoll hin -- forth all -- ge --
+  mach auf dei -- ne Freun -- de kom -- men. %45
+  Doch wan ſie ih -- re Schuld reu -- hafft vor mir be --
+  khen -- nen, ſich bil -- lich Sün -- der
+  nen -- nen, ſo laß ich mich auch wil -- lig -- lich
+  durch dei -- ne Bitt ver -- ſöh -- nen. %49 finis
+}
+
+A-XIIpsScenaQuintaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIpsScenaQuinta
+    r8^\Eliphas a d a b r16 \hA b d8. \hA b16
+    g8 h d16 d d e! c8 c r16 c e c
+    a8 a d16 d f d h!8 d c \tuplet 3/2 8 { f16[( e d)] }
+    c8.[ d16] d4\trill c8 \fC g^\Job c16 c e c
+    a8. a16 a8 cis e e e f %5
+    d d r a c8. c16 f8 c
+    d8. a16 a8 fis a c e d
+    h h \fC r^\Leviathan h h16 h h fis a8 h
+    g g h16 c d! e c8 c r16 c e c
+    a8 cis e g, f d' c16 g e b' %10
+    a8 a r16 a a b c8 c es d
+    b4 r8 d g, g c g
+    a a r a b r16 f \hA b b d \hA b
+    g8 h d16 f es d \hA es8 es r \hA es
+    b8. b16 d8 \hA b g g16 g b b b c %15
+    des8 des r b g16 g g b des8 c
+    as4 r8 c h8. h16 h8 f'
+    es4 r16 c h! c c8 g r4
+    R1\fermata \bar "|." %19 finis
+  }
+}
+
+A-XIIpsScenaQuintaSoliLyrics = \lyricmode {
+  Ô Job, mein Freund! ſo helf -- fe
+  doch, da -- mit wir Gnad er -- lan -- gen. Dan wie es
+  ſcheint, ſo ſeynd wir all mit Sa -- thans Strickh ge --
+  fan -- _ gen. Ge -- hab dich wohl, ver --
+  za -- ge nicht, es iſt noch Huld zu %5
+  hof -- fen. So -- bald der Menſch thut
+  ſei -- ne Pflicht, da ſteth der Him -- mel
+  of -- fen. Die Bueß gibt mir den größ -- ten
+  Stos, ſie iſt nicht zu er -- dul -- ten, es ſey des
+  Men -- ſchen Sünd ſo groß, er mag die Höll ver -- %10
+  ſchul -- den, da iſt be -- reith Barm -- her -- zig --
+  kheit, es geth mein Gwald ver --
+  loh -- ren. Doch nein! ich la -- ße mich nicht
+  ein, die Hoff -- arth zu be -- reu -- en, ich
+  hab kein Men -- ſchen -- ſpoh -- ren, umb Hilff und Gnad zu %15
+  frey -- en, will lie -- ber in der größ -- ten
+  Peyn ver -- gnü -- get ſeyn, die
+  Bueß hab ich ver -- ſchwo -- ren. %18 finis
+}

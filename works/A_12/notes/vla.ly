@@ -442,3 +442,50 @@ A-XIIAriaOctavaViola = {
     \time 4/4 R1\fermata \markDaCapo \bar "|." %69 finis
   }
 }
+
+A-XIIpsScenaQuartaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XIIScenaQuarta
+    R1*4
+    c4 r h r %5
+    c r a r
+    cis r \hA cis r
+    d r e r
+    f r a, r
+    b r a r %10
+    g r e'! r
+    cis r \hA cis r
+    d r a r
+    b r a r
+    g r f'! r %15
+    es r e r
+    d r b r
+    a r a r
+    b r h r
+    c r d r %20
+    es r e r
+    e r e r
+    f r fis r
+    g r c, d
+    es as b b, %25
+    es r d r
+    h! r c r
+    f r f es8 f
+    g4 g, c r
+    g'2-\markup \remark "stendato" fis %30
+    g d
+    e! cis
+    d e
+    f fis
+    g c,4 cis %35
+    d2 h!
+    h c
+    cis d
+    c b
+    h c %40
+    b gis
+    a d4 r
+    R1*7 \bar "|" %49 finis
+  }
+}

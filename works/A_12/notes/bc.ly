@@ -2065,3 +2065,159 @@ A-XIIAriaOctavaBassFigures = \figuremode {
   <7 5 [_+]>2
   <6 4>4 <5[!] _+>2. %69 finis
 }
+
+A-XIIpsScenaQuartaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XIIScenaQuarta
+    dis2 e
+    h e
+    cis d
+    dis e
+    c4 r h r %5
+    c r a r
+    cis r \hA cis r
+    d r e r
+    f r a, r
+    b r a r %10
+    g r e'! r
+    cis r \hA cis r
+    d r a r
+    b r a r
+    g r f'! r %15
+    es r e r
+    d r b r
+    a r a r
+    b r h r
+    c r d r %20
+    es r e r
+    e r e r
+    f r fis r
+    g r c, d
+    es as b b, %25
+    es r d r
+    h! r c r
+    f r f es8 f
+    g4 g, c r
+    \mvTr g'2\p-\markup \remark "stendato" fis %30
+    g d
+    e! cis
+    d e
+    f fis
+    g c,4 cis %35
+    d2 h!
+    h c
+    cis d
+    c b
+    h c %40
+    b gis
+    a d4 d8^\markup \remark "staccato" f
+    b,2 b
+    b fis'
+    g4 c, d2 %45
+    h! gis
+    a h!
+    c cis
+    d4 g a a, \bar "|" %49 finis
+  }
+}
+
+A-XIIpsScenaQuartaBassFigures = \figuremode {
+  \bo <6 [_+]>1
+  \bc <6 [_!]>2 <6>
+  <6 5>1
+  <7[!] 5 [_+]>2 <_+>
+  \bo <[5!]> \bc <[6]> %5
+  r <6>
+  q <5>
+  r <6[!]>
+  r <6>
+  r <6\\> %10
+  <_-> <6>
+  q <5>
+  r <6 [_!]>
+  r <6\\>
+  <_-> <6 4!> %15
+  <6> <6\\>
+  <_+> <[5!]>
+  <6>1
+  r2 <7->
+  <_-> <6-> %20
+  <[5-]> <6>
+  <5[-]> <7- 5[-]>
+  <_-> <7- 5 [_!]>
+  <_!> <_->4 <6->
+  \bo <[5-]> <5-> <6 4-> \bc <[5] 3> %25
+  <[5-]>2 <6->
+  <5> <_->
+  q <4! 2>4 <6>8 <_->
+  <4>4 <_!>2.
+  <_->2 <6> %30
+  <_-> <6- [_!]>
+  <6> q
+  r <6[!]>
+  r <6>
+  <_-> q4 <7- 5 [_!]> %35
+  <4> <_+> <6>2
+  <5[!]> <_->
+  <7- [_!]>1
+  <4\+ _->2 <6>
+  <7- [5!]> <_-> %40
+  <4 2\+> <7 5 [_!]>
+  <6 4>4 <5 _+>2 <6->4
+  r2 <7! 4- 2>
+  <8 3> <6>
+  <_->4 q <4> <_+> %45
+  <6>2 q
+  r <6[!]>
+  r <6>
+  r4 <_-> <4> <_+> %49 finis
+}
+
+A-XIIpsScenaQuintaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XIIpsScenaQuinta
+    fis2 d
+    h! e!
+    f~ f4 e8 f
+    g4 g, e'2
+    cis1 %5
+    d2 a'
+    fis1
+    g2 dis
+    e~ e
+    cis d4 e %10
+    f2 fis
+    g es
+    d b
+    h c
+    d es %15
+    e1
+    f2 d
+    c4 fis g g,
+    c2 r\fermata \bar "|." %19 finis
+  }
+}
+
+A-XIIpsScenaQuintaBassFigures = \figuremode {
+  <6>2 <6- _!>
+  <6> q
+  <5>4 <6> <4! 2> <6>
+  <4> <3> <6>2
+  q1 %5
+  r2 <6 [_!]>
+  <6> <5>
+  <_!> <6 [_+]>
+  r <6>
+  q2. <6[!]>4 %10
+  r2 <7- 5>
+  <_-> <7>4 <6>
+  <_+>2 <[5!]>
+  <6> <_->
+  <6-> <[5-]> %15
+  <7- 5[-]>1
+  <_->2 <6!>
+  <_->4 <7- 5 [_!]> <4> <_!>
+  r1 %19 finis
+}

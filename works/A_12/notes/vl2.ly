@@ -692,3 +692,50 @@ A-XIIAriaOctavaViolinoII = {
     \time 4/4 R1\fermata \markDaCapo \bar "||" %69 finis
   }
 }
+
+A-XIIpsScenaQuartaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XIIScenaQuarta
+    R1*4
+    g'4 r d' r %5
+    e r f16. c32 a16. c32 f,4
+    r16 a a16. cis32 e16( d) e8 e,4 r
+    r16 d f16. a32 f8 d g4 r
+    r8 a f'16. c32 a16. f32 c4 r
+    r16 f f16. f32 f4 r16 c' c16. c32 c4 %10
+    r16 b,-! d-! g-! b-! d-! g8 r16 e c8 r16 g e8
+    r16 cis'32 a e16 cis a4 r16 g'32 g g16 g g4
+    r16 f8 d16 f-! a-! d-! f-! a4 r
+    r16 d, d16. d32 d4 r16 c c16. c32 c4
+    r16 b-! d-! \hA b-! g-! d-! b-! g-! r8 d'16( g) g( h) h( d) %15
+    r c8 g es16 c8 r16 g' g16. g32 g8. g16
+    a8 fis'16. d32 a16 fis8 d16 r2
+    r32 f' c f a, c f, a c,16 a f'8 r16 f8 a c16 es8
+    r16 b8 d f16 b8 r32 d, d d d16 d f8 r
+    r16 es32 es es16 es es4 r16 d b f d4 %20
+    r16 b'32( as g \hA as \hA b16) g8 r r16 e'-! c-! g-! e-! c'-! g-! e-!
+    g4 r r16 g g16. g32 g4
+    r16 f'8 c as16 f \hA as c,4 r
+    r16 h! h8 r16 d d8 r16 es es8 r16 f f8
+    r16 b b8 r16 c c f es8. f16 d4\trill %25
+    es16. g,32 es8 r4 r16 b' b16. b32 b4
+    r16 d d16. d32 d4 r16 g, g16. g32 g4
+    r8 as f'16( es) f8 r2
+    R1
+    b,2-\markup \remark "con sordino, stendato" a %30
+    d, f!
+    g a
+    f g
+    a d,~
+    d c4 b %35
+    a2 d~
+    d g,
+    e'! a,
+    fis' g
+    as g~ %40
+    g f!~
+    f4 e!\trill d r
+    R1*7 \bar "|" %49 finis
+  }
+}
