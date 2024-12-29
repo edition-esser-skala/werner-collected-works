@@ -386,3 +386,59 @@ A-XIIAriaSeptimaViola = {
     R1\fermata \markDaCapo \bar "||" %86 finis
   }
 }
+
+A-XIIpsScenaTertiaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XIIpsScenaTertia
+    R1*3
+    r2-\markup \remark "con sordino, stendato" g'
+    f! dis~ %5
+    dis e
+    d c
+    cis h
+    g1~
+    g2 gis %10
+    a dis
+    e c
+    cis1
+    d2 c
+    b h %15
+    a f
+    fis g
+    f'! es
+    e f
+    es des %20
+    d c
+    R1*14 %35
+    R1\fermata \bar "|." %36 finis
+  }
+}
+
+A-XIIAriaOctavaViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 4/4 \tempoA-XIIAriaOctava
+    d8\f d' fis, d a'4. h8
+    a g fis e d d' d, e
+    fis4 d g2
+    a4. d,8 a2
+    r8 e' h cis d a fis d %5
+    r2 d'4.\f cis8
+    d h' g a d,4 r
+    R1*15 %22
+    r2 r8 h'8\f fis gis
+    a e cis a r2
+    a'4.\f gis8 a fis d e %25
+    a,4 r r2
+    R1*12 %38
+    r4. d'8\f cis h a g
+    fis d r d' cis h a g %40
+    fis4 g a a, \noBreak
+    d8 d' a fis d4 r\fermata
+    \key d \minor \time 3/4 \tempoA-XIIAriaOctavaB \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
+      R2.*26 %68
+    \time 4/4 R1\fermata \markDaCapo \bar "|." %69 finis
+  }
+}

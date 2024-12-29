@@ -584,3 +584,111 @@ A-XIIAriaSeptimaViolinoII = {
     R\fermata \markDaCapo \bar "||" %86 finisg
   }
 }
+
+A-XIIpsScenaTertiaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XIIpsScenaTertia
+    R1*3
+    r2-\markup \remark "con sordino, stendato" h'
+    as-\critnote a~ %5
+    a g
+    f! e
+    g!4. e8 fis2
+    h a
+    d,1 %10
+    c
+    h2 g'
+    a b
+    a1
+    b2 gis %15
+    a a~
+    a b
+    h c
+    des c
+    ges f~ %20
+    f e!
+    R1*14 %35
+    R1\fermata \bar "|." %36 finis
+  }
+}
+
+A-XIIAriaOctavaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoA-XIIAriaOctava
+      \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8)
+    d4\f d' cis8( h) a h
+    a g fis e fis16( e) d( cis) d4
+    a'16 fis a d fis8 d h( h') g( e)
+    cis16 h cis d cis8 d d( cis) cis4
+    g16(\trill fis) g8 g16(\trill fis) g8 fis16 d a' d fis16(\trillE e) fis8 %5
+    g,16(\trill\p fis) g8 g16(\trill fis) g8 fis16\f d a' d fis8 e
+    d16(\trill cis) d8 e cis d fis,\p g e
+    d16( cis) d8 e cis d d'\f a fis
+    d4 r r2
+    R1 %10
+    r8 e16\p fis g a h8 a4 r
+    r2 r8 a' a16(\trill g) a8
+    a16(\trill g) a8 a16(\trill g) a8 r8 a, a16(\trill g) a8
+    a16(\trill g) a8 a16(\trill g) a8 r2
+    r4 d,4. e16 fis g8 fis %15
+    e4 e4. fis16 g a4
+    r2 h16( a) gis( fis) \hA gis( fis) e( d)
+    e4 r a16( gis) fis( e) fis( e) d( cis)
+    d4 r r2
+    r8 a'' gis fis e d cis h %20
+    r a gis fis e d cis h
+    a4 r r2
+    r8 cis'\f e, fis d16(\trill cis) d8 d16(\trill cis) d8
+    cis16 a e' a cis(\trill h) cis8 d,16(\trill\p cis) d8 d16(\trill cis) d8
+    cis16\f a e' a cis8 h a16(\trill gis) a8 h \hA gis %25
+    a4 r r2
+    R1
+    r2 r8 e16\p fis g! a h8
+    a4 r r2
+    r8 a'\p a16(\trill g) a8 a16(\trill g) a8 a16(\trill g) a8 %30
+    r8 a, a16(\trill g) a8 a16(\trill g) a8 a16(\trill g) a8
+    r2 r4 d~
+    \tuplet 3/2 4 { d8 cis h } a g r4 e'~
+    \tuplet 3/2 4 { e8 d cis } h a r2
+    r4 r8 h g e r cis' %35
+    a fis r d' h g r e'
+    cis a r4 r2
+    R1
+    r8 fis'\f e d a'16( g) a8 a h16 cis
+    \kneeBeam d8 fis,, e d a'16( g) a8 a h16 cis %40
+    d8 a h g fis g16 fis g8 e \noBreak
+    d d' a fis d4 r\fermata
+    \key d \minor \time 3/4 \tempoA-XIIAriaOctavaB \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
+      \revert Score.SpacingSpanner.common-shortest-duration
+      r4 \mvDl f\pE-\pizz f \noBreak
+    r g g
+    r g g %45
+    r f f
+    r f f
+    r d d
+    r d' d
+    r cis cis %50
+    r b! b
+    r a a
+    r a a
+    r gis gis
+    r gis gis %55
+    r a a
+    r fis gis
+    r a a,
+    r e' e
+    r f! f %60
+    r fis fis
+    r h, h
+    r gis' gis
+    r a a
+    r h h %65
+    r e, e
+    r f! f
+    r fis fis
+    \time 4/4 R1\fermata \markDaCapo \bar "||" %69 finis
+  }
+}

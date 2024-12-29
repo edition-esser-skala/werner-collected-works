@@ -1833,3 +1833,235 @@ A-XIIAriaSeptimaBassFigures = \figuremode {
   <6>4 <6\\ 5> \bo <[5\+] 4> \bc <[\t] _+> %85
   r1 %86 finis
 }
+
+A-XIIpsScenaTertiaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XIIpsScenaTertia
+    e2 cis
+    d cis
+    h e4 fis
+    h, h'8 d g,2\p^\markup \remark "stendato"
+    f! dis~ %5
+    dis e
+    d c
+    cis h
+    g~ g~
+    g gis %10
+    a dis
+    e c
+    cis~ cis
+    d c
+    b h %15
+    a f
+    fis g
+    f'! es
+    e f
+    es des %20
+    d c
+    a\f^\markup \remark "staccato" b
+    a g
+    f'! e!
+    f cis %25
+    d c
+    b h
+    a e'
+    f~ f4 e8 f
+    g4 g, c2 %30
+    cis cis
+    c h!~
+    h c
+    cis d
+    g4 gis a a, %35
+    d,2 r\fermata \bar "|." %36 finis
+  }
+}
+
+A-XIIpsScenaTertiaBassFigures = \figuremode {
+  <6>2 q
+  <_+> <6\\>
+  \bo <[5\+]>2. <5\+ 4>8 <\t _+>
+  \bc <[5\+]>4 <6>8 <[_+]> r2
+  <4! _-> <7 5[!] [_+]> %5
+  r1
+  <4\+ _!>2 <6>
+  <6\\ 5[!]> <[5\+] _+>
+  <5[!]> <7\\ 4 2>
+  <8 3> <7[!] 5> %10
+  r <7 5 [_+]>
+  <_+> <[5!]>
+  <6> <7- 5>
+  r <4\+ _->
+  <6> <6\\> %15
+  <_+> <5[!]>
+  <6> <_->
+  <4! 2> <6>
+  <7- 5-> <_->
+  <4[!] [_-]> <6[-]> %20
+  <6!> <_!>
+  <6>1
+  <6\\>2 <_->
+  <4!> <6>
+  r q %25
+  r <4\+ _->
+  <6> <6\\>
+  r <6 [_!]>
+  r <4! 2>4 <6>
+  <4> <_!>2. %30
+  <6>2 <7- 5>
+  <4\+ 2> <6>
+  <5[!]> <_!>
+  <7- 5>1
+  <_->4 <7 5 [_!]> <4> <_+> %35
+  r1 %36 finis
+}
+
+A-XIIAriaOctavaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoA-XIIAriaOctava
+    \mvTr d8\f-\soloE d' fis, d a'4. h8
+    a g fis e d d' d, e
+    fis4 d g2
+    a4. d,8 a2
+    r8 e' h cis d a fis d %5
+    r e'\p h cis d4.\f cis8
+    d h' g a d,4 r
+    r8 h'\p g a d,4 r
+    d8\p d' fis, d a'4. h8
+    a g fis e d d' fis, d %10
+    g, g' fis e fis4 d
+    e cis d8 fis' e d
+    cis h a g fis d' cis h
+    a g fis e d d' d, e
+    fis2 g %15
+    gis a4 a,
+    d h e4. d8
+    cis4 a d4. cis8
+    h4 d e4. d8
+    cis a r4 e' r %20
+    a r e r
+    a,8 a' d, fis e d e e,
+    a4 r r8 h'\f fis gis
+    a e cis a r h'\p fis gis
+    a4.\f gis8 a fis d e %25
+    a, a'16 g fis8 e d\p d' fis, d
+    a'4. h8 a g fis e
+    d d' fis, d g, g' fis e
+    fis4. d8 e d16 cis h8 cis
+    d fis' e d cis h a g %30
+    fis d' cis h a g fis e
+    d4. e8 fis2
+    g4. fis8 e4 g
+    a,8 a' a, h cis4 a
+    d2 e %35
+    fis g
+    a4. h8 cis4 a
+    d, g a a,
+    d r8 d'\f cis h a g
+    fis d r d' cis h a g %40
+    fis4 g a a, \noBreak
+    d8 d' a fis d4 r\fermata
+    \key d \minor \time 3/4 \tempoA-XIIAriaOctavaB \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
+      \mvDl d2\pE-\pizz d4 \noBreak
+    r d d
+    r d d %45
+    r d d
+    r b b
+    r b b
+    r gis gis
+    r a a %50
+    r g! g
+    r f f
+    r fis fis
+    r e e
+    r d'! d %55
+    r c c
+    r h h
+    r a a
+    r g'! g
+    r f f %60
+    r fis fis
+    r e e
+    r d! d
+    r c c
+    r h h %65
+    r a a
+    r f' f
+    r dis dis
+    \time 4/4 e e, a2\fermata \markDaCapo \bar "||" %69 finis
+  }
+}
+
+A-XIIAriaOctavaBassFigures = \figuremode {
+  r1
+  r
+  r
+  r2 <6 4>8 <5 3>4.
+  r4 <6>2. %5
+  r4 q2.
+  r4 q2.
+  r4 q2.
+  r1
+  r %10
+  r4. q8 q4 q
+  r q2.
+  \bo <[6]>2 \bc q
+  r1
+  r %15
+  <[6]>
+  r2 <_+>
+  <[6]>1
+  r4 <6> <_+>2
+  <[6]> <_+> %20
+  r q
+  r4 <6>8 q <6 4>4 <5 _+>
+  r2. <6>4
+  r2. q4
+  r2. q8 <_+> %25
+  r1
+  r
+  r2.. <6>8
+  q4. q8 r2
+  r2 \bo <[6]> %30
+  \bc q1
+  r
+  r2. <6>4
+  r1
+  <5>4 <\bfdot>8 <6> <5>4 <\bfdot>8 <6> %35
+  <5>4 <\bfdot>8 <6> <5>4 <\bfdot>8 <6>
+  r4. \bo <[6\\]>8 \bc <[6]>2
+  r <6 4>4 <5 3>
+  r2 \bo <[6]>
+  <6> q %40
+  \bc <[6]> <6 4>4 <5 _+>
+  r1
+  r2.
+  r4 <6- 4>2.
+  <7\\ 4 2> %45
+  <8 3>
+  <5>
+  <6>
+  <7 5 [_!]>
+  <_+> %50
+  <4\+ _->
+  <6>
+  <6\\>
+  <[5!] _+>
+  <[6!] 4\+ _!> %55
+  <6>
+  <5\+ _+>4 <6\\ [_!]>
+  r2.
+  r4 <4\+ _->2.
+  <6> %60
+  <6\\>
+  <[5!] _+>
+  <[6!] 4\+ 2>
+  <6>
+  <6\\> %65
+  r
+  <5>
+  <7 5 [_+]>2
+  <6 4>4 <5[!] _+>2. %69 finis
+}

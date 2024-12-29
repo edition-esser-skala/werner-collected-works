@@ -1259,3 +1259,213 @@ A-XIIAriaSeptimaSoliLyrics = \lyricmode {
   ſchen Worth nicht %85
   vill. %86 finis
 }
+
+A-XIIpsScenaTertiaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIpsScenaTertia
+    r8^\JobsFrau g'16 g c c e c a8 e16 fis g8 h16 a
+    fis8 fis r \hA fis16 gis ais8 cis e fis
+    d d r h16 fis g8 h h8. fis16
+    fis4 r \clef "treble_8" r^\markup \remark "lamentuoso" ^\Job g,8 h
+    d d f! e c c c a %5
+    dis8. dis16 fis8 a, g4 g8 h
+    d d f gis, a a e' c
+    ais8. ais16 cis8 e, fis4 r
+    r8 d!16 d g g a h c8 a16 h c c e c
+    h4 r8 h16 d f!8. d16 d8 c %10
+    a a e' c a8. a16 c8 a
+    gis4 r8 h16 h c8 c e c
+    a a cis e g, g b a
+    f4 a8 d es fis, fis8. g16
+    g8 g b d gis, gis gis8. a16 %15
+    a4 r r c!8 f
+    a,8. a16 d8 a b b b d
+    h h d es c4 \hA es8 c
+    b b des c as as as c
+    es es ges^\critnote a, b b f' des %20
+    h h d f, g4 r
+    \fC r8^\markup \remark "ardito" ^\Eliphas f16 a c c d es d8 d b d
+    fis, a c d b b r g16 a
+    h8 h16 c d8 e! c c c16 c e c
+    a8. a16 a4 r8 a16 a a g b a %25
+    f8 f a16 b c d es8. fis,16 fis4
+    r8 g16 a b b c d gis,8 gis h16 c d e
+    c8. c16 c4 r8 g16 g c g b c
+    a8 a f'^\markup \remark "ariosè" d h8.[( c32 d] c8) \tuplet 3/2 8 { f16([ e d)] }
+    c8.([ d16)] d4\trill c8 \clef treble g'16^\JobsFrau g c c e c %30
+    a8 a r e16 f g8 g b a
+    fis fis fis16 g a h g8. g16 g4
+    r8 h16 c d d f! e c8 c e c
+    b8. b16 b8 a f f r a16 d
+    b4 r8 d d8. a16 a4 %35
+    R1\fermata \bar "|." %36 finis
+  }
+}
+
+A-XIIpsScenaTertiaSoliLyrics = \lyricmode {
+  Nun iſt end -- lich al -- les hin, Hauß und Hoff, Schaaf und
+  Rün -- der, auch ſo -- gar die eyg -- ne
+  Kin -- der, ich weiß nicht mehr wo ich
+  bin. Mei -- ne
+  Seel ver -- deüſt zu le -- ben, hätt ich %5
+  diß je -- mahl ge -- dacht, daß ich
+  ſoll in Trang -- ſall ſchwe -- ben biß der
+  Tod ein En -- de macht.
+  Wa -- rum zöhr -- net Gott auf mich, bin ich dan ſein Ang -- ſten --
+  feund? Wa -- rum plagt er al -- le %10
+  Gli -- der, die in mir ge -- zeh -- let
+  ſeynd? Mei -- ne Tä -- ge ſein ver --
+  gan -- gen als der Rauch ſo bald ver --
+  ſchwünd, ô daß ich möcht hin -- ge --
+  lan -- gen, wo man kei -- ne Qual mehr %15
+  find. Ach er --
+  bar -- met euch doch mei -- ner, we -- nig --
+  ſtens ihr, mei -- ne Freund! Weill die
+  Hand deß Herrn mich pre -- ßet, rings he --
+  rum daß Fleiſch zer -- fre -- ßet, daß mein %20
+  Aug vor Jam -- mer weint. Wie lang wilſt die Zun -- ge
+  ſchärf -- fen, und ſo
+  bit -- ter Worth auß -- werf -- fen, mei -- neſt
+  du daß umb dei -- net -- wil -- len al -- le Weld ver --
+  la -- ßen werd. Kan -- ſtu Got -- tes All -- macht %25
+  ſtil -- len, der du nur auß Koth und Erd.
+  Sie -- he, wie ein Traum ver -- ge -- het, al -- ſo iſt der
+  Menſch da -- hin. Wer es recht und wohl ver --
+  ſte -- het, dem kommt bö -- ſes __
+  nie __ in Sinn. Was ſoll ich nur wei -- thers %30
+  kla -- gen? Meh -- ren ſich doch ſtäths die
+  Pla -- gen au -- gen -- blickh -- lich wie es ſcheint,
+  könt ich gleich nur je -- zo ſter -- ben, als ſo
+  e -- lend muß ver -- der -- ben, mir iſt
+  nichts dan Creütz ver -- meint. %35 finis
+}
+
+A-XIIAriaOctavaSoli = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoA-XIIAriaOctava
+    R1*8 %8
+    d4 d' cis8([ h)] a([ h)]
+    a([ g)] fis([ e)] fis16([ e d8)] d4 %10
+    h'4. cis8 d([ a)] h([ fis)]
+    g([ a16 h] a8) g fis4 r
+    a4. h16[( cis)] d([ e fis8)] e([ d)]
+    cis([ h)] a([ g)] fis4 a~
+    a8[ h16 cis] d8 cis h4 h~ %15
+    h8[ cis16 d] e8 d cis a cis e
+    fis16[ e d cis] d[ cis h a] gis8[ e \hA gis h]
+    e16[ d cis h] cis[ h a gis?] fis8[ d fis a]
+    d16[ cis h a] h[ a gis fis] \hA gis8 e \hA gis h
+    e1~ %20
+    e~
+    e16[ d cis8] h a cis4( h)\trill
+    a r r2
+    R1*2 %25
+    r2 d,4 d'
+    cis8([ h)] a([ h)] a([ g)] fis([ e)]
+    fis16([ e d8)] d4 h'4. cis16([ d)]
+    a8([ fis')] d16([ cis h8)] \appoggiatura a g4. g8
+    fis4 r a4. h16([ cis)] %30
+    \tuplet 3/2 4 { d8([ e fis)] } e([ d)] cis([ h)] a([ g)]
+    fis4 a~ \tuplet 3/2 4 { a8[ g fis] } e([ d)]
+    h'4 h~ \tuplet 3/2 4 { h8[ a g] fis([ e d)] }
+    cis4 r8 d e([ fis16 g] a8) g
+    fis16[ e d e] fis[ g a h] g[ fis e fis] g[ a h cis] %35
+    a[ g fis g] a[ h cis d] h[ a g a] h[ cis d e]
+    cis8 a e'4 \tuplet 3/2 4 { e8([ d cis)] h([ a g)] }
+    fis([ d')] h g fis4( e)\trill
+    d r r2
+    R1*2 %41
+    R1\fermata
+    \key d \minor \time 3/4 \tempoA-XIIAriaOctavaB \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
+      d'8([ cis] d4) a \noBreak
+    b!8([ a] \once \stemUp b4) g
+    cis8([ d] e4) g, %45
+    g8([ f)] f4 r
+    d'2 b4
+    g8([ fis)] g2
+    f f4
+    e2 r4 %50
+    e'2 g,4
+    f8([ g] a4) f
+    dis2 dis4
+    e2 r4
+    gis8([ a] \once \stemUp h4) \hA gis %55
+    a2 e'4
+    dis( h) d
+    c2.
+    cis
+    d %60
+    dis
+    e2 r4
+    e,( gis) h
+    a( c) e
+    d8([ e] f4) d %65
+    c2.~
+    c~
+    c~
+    \time 4/4 c4 h\trill a2\fermata \markDaCapo \bar "||" %69 finis
+  }
+}
+
+A-XIIAriaOctavaSoliLyrics = \lyricmode {
+  Erd, er -- öff -- ne __ %9
+  dei -- nen Ra -- chen, %10
+  ſchluckh mich in __ die
+  küh -- le Schooß,
+  daß ich werd der
+  Mar -- ter loß, die __
+  _ mit mir, die __ %15
+  _ mit mir kein End will
+  ma -- _ _
+  _ _ _
+  _ _ chen, kein End will
+  ma -- %20
+
+  chen, will ma --
+  chen.
+
+  Erd, er -- %26
+  öff -- ne __ dei -- nen
+  Ra -- chen, ſchluckh mich
+  in __ die __ küh -- le
+  Schooß, daß ich %30
+  werd der Mar -- ter __
+  loß, die __ mit
+  mir, die __ mit
+  mir kein End __ will
+  ma -- _ _ _ %35
+  _ _ _ _
+  _ chen, kein End will
+  ma -- chen, will ma --
+  chen.
+
+  Böſ -- ſer %43
+  iſt __ mir
+  ja __ zu %45
+  ſter -- ben
+  und zu
+  ge -- hen
+  in daß
+  Land, %50
+  so dem
+  Tod -- ten
+  nur be --
+  khant,
+  al -- ſo %55
+  kan ich
+  Rueh er --
+  wer --
+  _
+  _ %60
+  _
+  ben,
+  al -- ſo
+  kan __ ich
+  Rueh er -- %65
+  wer --
+
+  _ ben. %69 finis
+}
