@@ -215,3 +215,85 @@ A-XIIChorusBassoLyrics = \lyricmode {
   bürth, al -- lein das
   Recht ge -- bürth. %24 finis
 }
+
+A-XIIpsChorusBasso = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \autoBeamOff \tempoA-XIIpsChorus
+    r4 r8 \mvTr d\fE^\tuttiE g b fis d
+    g4 r8 g a f16([ g)] a8 f
+    b4 r8 b, es4. f16[ es]
+    f4. g16[ f] g4. a16[ g]
+    a4. b16[ a] b8 b, r a' %5
+    b f d b f'4 r8 g
+    a f b g es4. es8 \noBreak
+    d2\fermata r \bar "||"
+    R1 \noBreak
+    r8 g g g d([ b'16 a] b8) g %10
+    a d, e fis g4.( f8)
+    es c4 c'8 g4 g8 g
+    f g16([ f)] g4. f16([ e)] f8[( d]
+    e4 fis) g4. f8
+    g4( a) d, r8 d %15
+    g f es! d16([ c)] d2
+    c4 r8 b'! a4( b)
+    f f f2
+    b,4 r r2
+    R1 %20
+    r4 c es4. es8
+    d([ b)] d([ e)] f4. f8
+    es([ c)] es([ fis)] g4 r
+    R1
+    r4 g fis d %25
+    e fis g r
+    R1
+    r2 r4 g
+    fis d es!4. es8
+    d2 r %30
+    r r4 cis
+    d2. d4
+    g,2 r
+    r4 g' es h
+    c2. c4 %35
+    g1\fermata \bar "|." %36 finis
+  }
+}
+
+A-XIIpsChorusBassoLyrics = \lyricmode {
+  Ge -- lo -- bet ſey der
+  Herr, der höch -- ſte Weld -- re --
+  gent, der höch -- _
+  _ _ _ _
+  _ _ _ ſte, der %5
+  höch -- ſte Weld -- re -- gent, der
+  höch -- ſte, höch -- ſte Weld -- re --
+  gent.
+
+  Er woll uns fehr -- ner %10
+  lei -- then, fehr -- ner lei --
+  then, fehr -- ner lei -- then mit
+  ſei -- nen Schutz be -- glei --
+  then, be --
+  glei -- then, mit %15
+  ſei -- nen Schutz be -- glei --
+  then, be -- glei --
+  then, be -- glei --
+  then
+  %20
+  zu ſei -- ner
+  grö -- ßern Ehr, zu
+  grö -- ßern Ehr
+
+  auf ein be -- %25
+  glickh -- tes End,
+
+  auf
+  ein be -- glickh -- tes
+  End, %30
+  be --
+  glickh -- tes
+  End,
+  auf ein be --
+  glickh -- tes %35
+  End. %36 finis
+}

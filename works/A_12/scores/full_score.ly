@@ -1116,8 +1116,95 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \section "26" "Aria decima · Duetto"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #3
+  %     system-count = #10
+  %     indent = 1.5\cm
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-XIIAriaDecimaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-XIIAriaDecimaViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Job"
+  %           \new Voice = "Job" { \dynamicUp \A-XIIAriaDecimaJob }
+  %         }
+  %         \new Lyrics \lyricsto Job \A-XIIAriaDecimaJobLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Schöpffer"
+  %           \new Voice = "Schöpffer" { \dynamicUp \A-XIIAriaDecimaSchöpffer }
+  %         }
+  %         \new Lyrics \lyricsto Schöpffer \A-XIIAriaDecimaSchöpfferLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { \concat { "vla " \critnote } "bc" }
+  %           % \transpose c c,
+  %           \A-XIIAriaDecimaBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIIAriaDecimaBassFigures }
+  %     >>
+  %     \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
+  % \bookpart {
+  %   \section "27" "Scena septima"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #21
+  %     system-system-spacing.minimum-distance = #21
+  %     systems-per-page = #5
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "soli"
+  %           \new Voice = "Soli" { \dynamicUp \A-XIIpsScenaSeptimaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-XIIpsScenaSeptimaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \A-XIIpsScenaSeptimaBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIIpsScenaSeptimaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "26" "Aria decima · Duetto"
+    \section "28" "Chorus deren Kindern Gottes"
     \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
@@ -1128,9 +1215,7 @@
       markup-system-spacing.minimum-distance = #10
       system-system-spacing.basic-distance = #17
       system-system-spacing.minimum-distance = #17
-      systems-per-page = #3
-      system-count = #10
-      indent = 1.5\cm
+      systems-per-page = #2
     }
     \score { %\articulate
       <<
@@ -1139,38 +1224,55 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \A-XIIAriaDecimaViolinoI
+              \A-XIIpsChorusViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \A-XIIAriaDecimaViolinoII
+              \A-XIIpsChorusViolinoII
             }
           >>
+          \new Staff {
+            \set Staff.instrumentName = \markup \concat { "vla " \critnote }
+            \A-XIIpsChorusViola
+          }
         >>
         \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
-            \set Staff.instrumentName = "Job"
-            \new Voice = "Job" { \dynamicUp \A-XIIAriaDecimaJob }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \A-XIIpsChorusSoprano }
           }
-          \new Lyrics \lyricsto Job \A-XIIAriaDecimaJobLyrics
+          \new Lyrics \lyricsto Soprano \A-XIIpsChorusSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "Schöpffer"
-            \new Voice = "Schöpffer" { \dynamicUp \A-XIIAriaDecimaSchöpffer }
+            \set Staff.instrumentName = "T"
+            \new Voice = "Alto" { \dynamicUp \A-XIIpsChorusAlto }
           }
-          \new Lyrics \lyricsto Schöpffer \A-XIIAriaDecimaSchöpfferLyrics
+          \new Lyrics \lyricsto Alto \A-XIIpsChorusAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \A-XIIpsChorusTenore }
+          }
+          \new Lyrics \lyricsto Tenore \A-XIIpsChorusTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "B" "soli" }
+            \new Voice = "Basso" { \dynamicUp \A-XIIpsChorusBasso }
+          }
+          \new Lyrics \lyricsto Basso \A-XIIpsChorusBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { \concat { "vla " \critnote } "bc" }
+            \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \A-XIIAriaDecimaBassoContinuo
+            \A-XIIpsChorusBassoContinuo
           }
         >>
-        \new FiguredBass { \A-XIIAriaDecimaBassFigures }
+        \new FiguredBass { \A-XIIpsChorusBassFigures }
       >>
-      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
-      \midi { \tempo 4 = 60 }
+      \layout { }
+      \midi { \tempo 4 = 80 }
     }
+    \markup { \vspace #4 \fontsize #3 \fill-line { "" "Fine" "" } }
   }
 }

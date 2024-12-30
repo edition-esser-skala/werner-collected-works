@@ -525,3 +525,46 @@ A-XIIAriaDecimaViola = {
     R1\fermata \markDaCapo \bar "||" %32 finis
   }
 }
+
+A-XIIpsChorusViola = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 4/4 \tempoA-XIIpsChorus
+    \mvTr d8\fE d' fis, d g b fis d
+    g d b g a f' a f
+    b f d b es, es' c a
+    f f' d b g g' es c
+    a a' f d b d'16. c32 b8 a %5
+    b f d b f'4 r8 g
+    a f b g es2 \noBreak
+    d\fermata r \bar "||"
+    r8 d d d g, es'16 d es8 c \noBreak
+    d g, r d'16 e f \hA e d cis d f \hA e d %10
+    cis8 d c16 b c a b8 g16 a b a b8~
+    b c16 b c4~ c8 b16 a b8 g
+    a d, r b' a4. g16 f
+    g8 e r a d, b'4 a8
+    g16 f g8 f e d4 r %15
+    r8 h' c!4 as?8 c d16 c d8
+    g,4 r8 g f2~
+    f4 f8 f f2
+    f4 r r g
+    b4. b8 a f a h %20
+    c4 c b8 g b c
+    d4 d c8 a c d
+    es4. es8 d4 r
+    R1
+    r2 r4 d %25
+    cis a b4. b8
+    a4 h c c,
+    g' r r2
+    r4 fis g4. g8
+    fis4 fis g4. g8 %30
+    a2 r4 e'
+    d2. d4
+    d2 r
+    r4 h g g
+    g c2 c4 %35
+    h1\fermata \bar "|." %36 finis
+  }
+}

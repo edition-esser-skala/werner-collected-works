@@ -94,3 +94,81 @@ A-XIIChorusSopranoLyrics = \lyricmode {
   bürth, al -- lein, al -- lein das
   Recht ge -- bürth. %24 finis
 }
+
+A-XIIpsChorusSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \autoBeamOff \tempoA-XIIpsChorus
+    fis4^\JobsFrau r8 \mvTr d'\fE^\tuttiE d d d d
+    d4 r8 d c c f! c
+    d4 r8 d g,4. a16[ g]
+    a4. b16[ a] b4. c16[ b]
+    c4. d16[ c] d8 d r c %5
+    d c b d c d es4~
+    es8 es d2 c4 \noBreak
+    d2\fermata r \bar "||"
+    R1*3 %11
+    r2 r8 g, g g
+    d([ b'16 a] \once \stemUp b8) g a d, r d'
+    g, c b a b[ g16 a] b[ c d8]~
+    d[ cis16 h] \hA cis4 d8 a d c %15
+    h c16([ d)] c4.( h16_[ a] \hA h4)
+    c8 d es4. es8 d4
+    c4.( b4 \stemDown a16[ g] a4) \stemNeutral
+    b r r2
+    R1 %20
+    r2 r4 g
+    b4. b8 a([ f)] a([ h)]
+    c4 c b8([ g)] b([ cis)]
+    d4 d cis a
+    b!4. b8 a4 g8([ fis)] %25
+    g4 a d, r
+    r2 r4 c'
+    h g b4. b8
+    a4 d2 c4~
+    c b8[ a] \once \stemUp b4 a8[( g]) %30
+    fis4 a g2~
+    g4 fis8[ e?] \hA fis2
+    g4 g' es h
+    g2 g4 g
+    g2. g4 %35
+    g1\fermata \bar "|." %36 finis
+  }
+}
+
+A-XIIpsChorusSopranoLyrics = \lyricmode {
+  man: Ge -- lo -- bet ſey der
+  Herr, der höch -- ſte Weld -- re --
+  gent, der höch -- _
+  _ _ _ _
+  _ _ _ ſte, der %5
+  höch -- ſte Weld -- re -- gent, der höch --
+  ſte Weld -- re --
+  gent.
+
+  Er woll uns %12
+  fehr -- ner lei -- then, mit
+  ſei -- nen Schutz be -- glei -- _
+  _ then, mit ſei -- nen %15
+  Schutz be -- glei --
+  then, be -- glei -- then, be --
+  glei --
+  then
+  %20
+  zu
+  ſei -- ner grö -- ßern
+  Ehr, zu ſei -- ner
+  Ehr auf ein be --
+  glickh -- tes End, be -- %25
+  glickh -- tes End,
+  auf
+  ein be -- glickh -- tes
+  End, be -- glickh --
+  _ _ tes %30
+  End, be -- glickh --
+  _ tes
+  End, auf ein be --
+  glickh -- tes, be --
+  glickh -- tes %35
+  End. %36 finis
+}

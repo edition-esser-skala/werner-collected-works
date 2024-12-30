@@ -96,3 +96,83 @@ A-XIIChorusAltoLyrics = \lyricmode {
   bürth, al -- lein das
   Recht ge -- bürth. %24 finis
 }
+
+A-XIIpsChorusAlto = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \minor \time 4/4 \autoBeamOff \tempoA-XIIpsChorus
+    r4 r8 \mvTr fis\fE^\tuttiE g d d a
+    b4 r8 d f f f, a
+    b f b4. c16[ b] c4~
+    c8[ d16 c] d4. es16[ d] es4~
+    es8[ f16 es] f4. d8 r f %5
+    f f, b b a4 r8 b
+    c4 d8([ b)] g([ b)] a([ g)] \noBreak
+    a2\fermata r \bar "||"
+    R1*2 %10
+    r2 r8 d d d
+    g,([ es'16 d] es8) c d g, d' d
+    d4 d8 e cis[ d16 \hA cis] d4~
+    d8[ c] d16[ c] d4 b8 g a
+    d, b' a g f[ d16 e?] f[ g a8] %15
+    d,[ es16 f] g8[ f16 es] f8[ as g f]
+    es4 r8 g c4 b!~
+    b8[ a] d4 c2
+    d4 d es4. es8
+    d8([ b)] d([ e)] f4 f %20
+    es8([ c)] es([ f)] g4 r
+    R1
+    r2 r4 g
+    fis d e fis
+    g r r2 %25
+    r r4 g
+    fis d es!4. es8
+    d4 r8 g g,([ a)] b([ cis)]
+    d4 r r2
+    r4 d2 c!4~ %30
+    c b8[( a]) b4 a8([ g)]
+    a2. a4
+    g2 r
+    r4 d' c d
+    es2. es4 %35
+    d1\fermata \bar "|." %36 finis
+  }
+}
+
+A-XIIpsChorusAltoLyrics = \lyricmode {
+  Ge -- lo -- bet ſey der
+  Herr, der höch -- ſte Weld -- re --
+  gent, der höch -- _ _
+  _ _ _
+  _ ſte, der %5
+  höch -- ſte Weld -- re -- gent, der
+  höch -- ſte Weld -- re --
+  gent.
+
+  Er woll uns %11
+  fehr -- ner lei -- then, uns be --
+  glei -- then be -- glei -- _
+  _ _ _ then mit
+  ſei -- nen Schutz be -- glei -- _ %15
+  _ _ _
+  then, be -- glei -- _
+  _ _
+  then zu ſei -- ner
+  grö -- ßern Ehr, zu %20
+  ſei -- ner Ehr
+
+  auf
+  ein be -- glickh -- tes
+  End, %25
+  auf
+  ein be -- glickh -- tes
+  End, be -- glickh -- tes
+  End,
+  be -- glickh -- %30
+  tes End, be --
+  glickh -- tes
+  End,
+  auf ein be --
+  glickh -- tes %35
+  End. %36 finis
+}

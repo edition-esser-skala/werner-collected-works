@@ -92,3 +92,85 @@ A-XIIChorusTenoreLyrics = \lyricmode {
   bürth, al -- lein das
   Recht ge -- bürth. %24 finis
 }
+
+A-XIIpsChorusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \minor \time 4/4 \autoBeamOff \tempoA-XIIpsChorus
+    r4 r8 \mvTr a\fE^\tuttiE b g a fis
+    g4 r8 b c a16([ b)] c8 a
+    f4 r8 f g4. c8
+    a4 r8 d b4 r8 es
+    c4 r8 f, b b r c %5
+    b c f, f f4 r8 b
+    c([ a)] f([ b)] g([ b)] a([ g)] \noBreak
+    fis2\fermata r \bar "||"
+    r8 d' d d g,([ es'16 d] es8) c \noBreak
+    d g, r d'16([ e)] f([ \hA e)] d([ cis)] d([ f)] \hA e([ d)] %10
+    cis8 d c16[ b c a] b8[ g16 a] b[ a b8]~
+    b[ c16 b] c4~ c8[ b16 a] b8[ g]
+    a d, r b' a4. g16[ f]
+    g8 e r a d, b'4 a8
+    g16[ f g8] f[ e] d4 r %15
+    r8 h' c!4 as?8[ c] d16[ c d8]
+    g,4 r8 g f2~
+    f4 f8 f f2
+    f4 r r g
+    b4. b8 a([ f)] a([ h)] %20
+    c4 c b8([ g)] b([ c)]
+    d4 d c8([ a)] c([ d)]
+    es4. es8 d4 r
+    R1
+    r2 r4 d %25
+    cis a b4. b8
+    a4 h c c,
+    g' r r2
+    r4 fis g4. g8
+    fis4 fis g4. g8 %30
+    a2 r4 e'
+    d2. d4
+    d2 r
+    r4 h g g
+    g( c2) c4 %35
+    h1\fermata \bar "|." %36 finis
+  }
+}
+
+A-XIIpsChorusTenoreLyrics = \lyricmode {
+  Ge -- lo -- bet ſey der
+  Herr, der höch -- ſte Weld -- re --
+  gent, der höch -- ſte
+  Weld -- re -- gent, Re --
+  gent, der höch -- ſte, der %5
+  höch -- ſte Weld -- re -- gent, der
+  höch -- ſte Weld -- re --
+  gent.
+  Er woll uns fehr -- ner
+  lei -- then, mit ſei -- nen Gna -- den -- %10
+  ſchutz be -- glei -- _ _
+  _ _
+  _ then, be -- glei -- _
+  _ then, be -- glei -- _ _
+  _ _ then, %15
+  be -- glei -- _ _
+  then, be -- glei --
+  then, be -- glei --
+  then zu
+  ſei -- ner grö -- ßern %20
+  Ehr, zu ſei -- ner
+  Ehr, zu ſei -- ner,
+  ſei -- ner Ehr
+
+  auf %25
+  ein be -- glickh -- tes
+  End, be -- glickh -- tes
+  End,
+  be -- glickh -- tes
+  End, be -- glickh -- tes %30
+  End, be --
+  glickh -- tes
+  End,
+  auf ein be --
+  glickh -- tes %35
+  End. %36 finis
+}

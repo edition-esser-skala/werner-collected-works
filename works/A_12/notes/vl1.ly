@@ -818,3 +818,44 @@ A-XIIAriaDecimaViolinoI = {
     R\fermata \markDaCapo \bar "||" %32 finis
   }
 }
+
+A-XIIpsChorusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoA-XIIpsChorus
+    r16 d'\fE fis a d a fis d r d, g b d a fis d
+    r b d g b d g b r c a f c a f c
+    r b' d f b f d b g b g b es, g c, es
+    a, c' a c f, a d, f b, d' b d g, b es, g
+    c, es' c es a, c f, a d, b'' f b d, f c f %5
+    d b f' c b' f d b' a8 f, r b'
+    c a f b16 a g8 b a g \noBreak
+    fis2\fermata r \bar "||"
+    R1*3 %11
+    r2 r8 g, g g
+    d b'16 a \once \stemUp b8 g a d, r d'
+    g, c b a b g16 a b c d8~
+    d cis16 h \hA cis4 d8 a d c %15
+    h c16 d c4. h16 a \hA h4
+    c8 d es4. es8 d4
+    c4. b4 a16 g a4
+    b r r2
+    R1 %20
+    r2 r4 g
+    b4. b8 a f a h
+    c4 c b8 g b cis
+    d4 d cis a
+    b!4. b8 a4 g8 fis %25
+    g4 a d, r
+    r2 r4 c'
+    h g b4. b8
+    a4 d2 c4~
+    c b8 a \once \stemUp b4 a8 g %30
+    fis4 a g2~
+    g4 fis8 e? \hA fis2
+    g4 g' es h
+    g2 g4 g
+    g2. g4 %35
+    g1\fermata \bar "|." %36 finis
+  }
+}

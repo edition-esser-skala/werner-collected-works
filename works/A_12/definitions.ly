@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-Eliphas = \markup \larger "Eliphas"
+Eliphas = \markup { \override #'(box-padding . 0.5) \box "Eliphas" }
 Job = \markup { \override #'(box-padding . 0.5) \box "Job" }
-JobsFrau = \markup \larger "Jobs Frau"
-Leviathan = \markup \larger "Leviathan"
+JobsFrau = \markup { \override #'(box-padding . 0.5) \box "Jobs Frau" }
+Leviathan = \markup { \override #'(box-padding . 0.5) \box "Leviathan" }
 Schöpffer = \markup { \override #'(box-padding . 0.5) \box "Schöpffer" }
 fC = \set Staff.forceClef = ##t
 bfdot = \markup { \combine \transparent \figured-bass 0 \raise #.6 \draw-circle #.2 #0 ##t }
@@ -11,6 +11,10 @@ sempreP = \markup \remark \whiteout \pad-markup #0.5 \concat { "sempre " \bold \
 markScenaSexta = {
   \once \override Score.RehearsalMark.self-alignment-X = #LEFT
   \mark \markup \remark "(Scena sexta)"
+}
+markChorus = {
+  \once \override Score.RehearsalMark.self-alignment-X = #LEFT
+  \mark \markup \remark "(Chorus)"
 }
 
 tempoA-XIIIntro = \tempoMarkup "Adagiosè"
@@ -58,6 +62,8 @@ tempoA-XIIAriaNona = \tempoMarkup "Adagio"
   tempoA-XIIAriaNonaB = \tempoMarkup "Allegro"
 tempoA-XIIpsScenaSexta = \tempoMarkup "Recitativo"
 tempoA-XIIAriaDecima = \tempoMarkup "Andante"
+tempoA-XIIpsScenaSeptima = \tempoMarkup "Recitativo"
+tempoA-XIIpsChorus = \tempoMarkup "Allegretto"
 
 \include "notes/ob.ly"
 \include "notes/vl1.ly"

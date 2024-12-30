@@ -1904,3 +1904,37 @@ A-XIIAriaDecimaSchöpfferLyrics = \lyricmode {
   Gott, der dir am
   be -- ſten gfällt. %32 finis
 }
+
+A-XIIpsScenaSeptimaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIpsScenaSeptima
+    r16^\JobsFrau a' a a a e g a f8 f \clef "treble_8" r^\Job a,
+    c! c c16 c es d b8 b \fC r^\Eliphas d
+    d a c d h8. h16 h8 \fC d^\markup \remark "rabbiato" ^\Leviathan
+    c g es' c c g r4
+    \clef bass r16^\Schöpffer g g g c g b c a8 a16 \clef "treble_8" c^\Job f4 %5
+    r8 c c16 c d es d8 d16 \clef treble f^\JobsFrau b8 d
+    fis,8 r16 a c8 d es c c16 es d a
+    b8 b \clef "treble_8" r16^\markup \remark "furioso" ^\Leviathan g, g h d8 r16 d f8 h,
+    c c e!16 cis b a fis?8 << \context Voice = "Soli" { \once \stemUp a^\Job_\markup \remark "Gott" } \\ { fis } >> \fC a16 a d a
+    b8 \fC f^\Eliphas b16 b d \hA b g8 g h8. c16 %10
+    c8 \clef treble g'^\JobsFrau es' c b8. b16 b8 a
+    fis4 r8 s
+  }
+}
+
+A-XIIpsScenaSeptimaSoliLyrics = \lyricmode {
+  So iſt dan al -- les Leyd ver -- ſchwun -- den? Die --
+  weill ich wie -- der Gnad ge -- fun -- den. Ein
+  ſel -- za -- me Ver -- en -- de -- rung. Und
+  ich fahl in Ver -- zweiff -- lung.
+  So pfleg ich mei -- ne Freund zu züch -- ten. Ô Herr! %5
+  du thuſt als weiß -- lich rich -- ten. Nun ſoll mein
+  Mund zu je -- der Stund dem gro -- ßen Gott lob --
+  ſin -- gen. Ich möcht vor Leyd und Höl -- len --
+  neyd in tau -- ſend Stuckh zer -- ſprün -- gen. ſelbſt hat mich ge --
+  tröſt und von der Noth er -- löſt, der Noth er --
+  löſt. So ruef -- fe dan nun je -- der --
+  man
+}
