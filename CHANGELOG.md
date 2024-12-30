@@ -1,10 +1,30 @@
 # Changelog
 
+## 2024.12.0 – 2024-12-30
+
+### Added
+
+- works: WerW A.12 (only source code), B.35, F.2/3/32, I.1.4, I.2.7, I.3.1, I.4.50, and I.5.13
+- realized bass figures to WerW B.1
+
+### Changed
+
+- renumbered WerW D.3.3–7 → 2–6 and D.5.4/5/7 → 3/4/6
+
+### Fixed
+
+- WerW B.1: b/org in Gloria bars 4f
+- WerW I.1.27: link to A-Ed digitized version
+- WerW I.2.12: missing con/senza sordino
+- WerW I.5.10: link to A-Ed digitized version
+- WerW M.20: tempo indication of second fugue
+
+
 ## 2024.11.0 – 2024-11-30
 
 ### Added
 
-- works: B.71, D.2.10, G.17, and H.1.16 (1–4, 6)
+- works: WerW B.71, D.2.10, G.17, and H.1.16 (1–4, 6)
 
 
 ## 2024.10.0 – 2024-11-01
