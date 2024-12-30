@@ -20,7 +20,7 @@ A-XIIScenaPrimaSoli = {
     r8 f b16 b b d a8 a16 b c c es d
     b8 b16 b b b d b g8 g16 g c c g b %15
     a8 a16 \fC c^\Job f8 c d8. d16 d8 f
-    \tempoA-XIIScenaPrimaB e f16([ g)] f32([ c16.)] d32([ b16.)] a4( g)\trill
+    e^\markup \remark "ariosè" f16([ g)] f32([ c16.)] d32([ b16.)] a4( g)\trill
     f2 r\fermata \bar "|."
   }
 }
@@ -403,7 +403,7 @@ A-XIIScenaQuartaSoli = {
     r8 g16 a b b b a f8 f r f16 g
     a8 a c! b g g r b16 g %10
     cis8 e d4~ d8. a16 a4
-    \tempoA-XIIScenaQuartaC \fC r8^\Leviathan d16 d d a c d b8 b r f16 f
+    \fC r8^\markup \remark "con spavento" ^\Leviathan d16 d d a c d b8 b r f16 f
     b8. b16 d8 b g g r g16 a
     h!8 c d e c c r g16 g
     c8 c e c a a r a16 e %15
@@ -411,7 +411,7 @@ A-XIIScenaQuartaSoli = {
     c!8 c d es d a a c
     h! h d e c c r e16 c
     a8. a16 h8 c c g r4
-    \tempoA-XIIScenaQuartaD \fC r^\Job a8 h cis cis e f %20
+    \fC r^\markup \remark "lamentuoso" ^\Job a8 h cis cis e f %20
     d d d a c8. c16 g8 b
     a a c16 c f c d8. a16 a8 a16 b
     c8 c es d b b d \hA b
@@ -427,13 +427,13 @@ A-XIIScenaQuartaSoli = {
     a8 cis16 e g, g b a f8 f r f16 a
     c8. c16 d8 es d a a c
     h! fis a h g g r e'16 h %35
-    c e dis e e8 h \tempoA-XIIScenaQuartaE \fC r^\Job g16 g c c d e
+    c e dis e e8 h \fC r^\markup \remark "lamentabile" ^\Job g16 g c c d e
     f4 f8 d h! h d f,
     f e g c b g \hA b a
     f4 a8 d c!8. c16 c8 h
     gis gis h e c8. c16 e8 c %40
     a4 f'8 d h8.([ c32 d)] c8 \tuplet 3/2 8 { d16([ e f)] }
-    e32([ d c8.)] d4\trill c \tempoA-XIIScenaQuartaF \fC r8^\Leviathan g16 a
+    e32([ d c8.)] d4\trill c \fC r8^\markup \remark "strepitoso" ^\Leviathan g16 a
     h8 r r16 h d e c4 c8 e
     a, a d a h4 r
     r8 a16 cis e e e f d8 d f d %45
@@ -445,13 +445,13 @@ A-XIIScenaQuartaSoli = {
     gis h d e c c r e16 cis
     b8 g g e d d d'4
     r8 f cis d d8. a16 a4
-    \tempoA-XIIScenaQuartaG \fC r8^\Job a16 a d a c d b8 b r \hA b16 d
+    \fC r8^\markup \remark "lamentabile" ^\Job a16 a d a c d b8 b r \hA b16 d
     f8 b, d as g g h d %55
     f d f e c4 e8 e
     e h h c d d r d16 e
     f8 d f e c c e c
     a4 c8([ a)] a8. e16 e4
-    \tempoA-XIIScenaQuartaH \fC r8^\Leviathan a16 a cis a e g! fis8 fis16 ais cis cis e d %60
+    \fC r8^\markup \remark "strepitoso" ^\Leviathan a16 a cis a e g! fis8 fis16 ais cis cis e d %60
     h4 h8 d a8. a16 cis8 a
     fis fis a d h4 r16 d cis d
     d8 a r4 r2\fermata \bar "|." %63 finis
@@ -615,18 +615,18 @@ A-XIIScenaSextaSoli = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoA-XIIScenaSexta
-    f,8^\Job \clef treble c''^\JobsFrau c16 c f c d8. a16 a8 a16 b
+    f,8^\Job \clef treble c''^\markup \remark "ardita" ^\JobsFrau c16 c f c d8. a16 a8 a16 b
     c8 c es d b b r \hA b16 d
     c8 f, es' d b4 d8 \hA b
     g8. g16 a8 b b f r4
     r g16 h d es c8. c16 c8 \hA es16 c %5
     b8 f as \hA b g g \hA b16 b c des
     c8. g16 g8 b16 c as8 c es c
-    c g r4 \tempoA-XIIScenaSextaB \clef "treble_8" r8 e! e16 cis a g
+    c g r4 \clef "treble_8" r8^\markup \remark "furioso" ^\Job e! e16 cis a g
     f8. f16 f8 f' c g b c
     a a r c a c es d %10
     b8. b16 b8 d g,8. g16 g8 fis
-    a a r \tempoA-XIIScenaSextaC a b8. b16 d8 \hA b
+    a a r a^\markup \remark "lamentabile" b8. b16 d8 \hA b
     g8. g16 g8 d' es8. es16 es8 c
     b f' d as g g r b
     b b b c des des r b %15

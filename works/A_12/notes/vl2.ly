@@ -267,14 +267,14 @@ A-XIIScenaQuartaViolinoII = {
     \clef treble
     \key c \major \time 4/4 \tempoA-XIIScenaQuarta
     R1*6 %6
-    \tempoA-XIIScenaQuartaB g'2-\markup \remark "con sordino, stendato" \once \tieDashed a~
+    \tempoA-XIIScenaQuartaB g'2^\markup \remark "con sordino, stendato" \once \tieDashed a~
     a b~
     b a~
     a b %10
     e,4 f2 e4
-    \tempoA-XIIScenaQuartaC d r r2
+    d r r2
     R1*7 %19
-    \tempoA-XIIScenaQuartaD c'2-\conSord cis %20
+    c'2^\conSord cis %20
     a g
     \once \tieDashed a1~
     a2 b
@@ -282,21 +282,21 @@ A-XIIScenaQuartaViolinoII = {
     a~ a4 gis %25
     a r r2
     R1*9 %35
-    r2 \tempoA-XIIScenaQuartaE g2-\conSord
+    r2 g2^\conSord
     f1
     e2 g
     f fis
     e1 %40
     c2 d4 g8 f
-    e4 d\trill c \tempoA-XIIScenaQuartaF r
+    e4 d\trill c r
     R1*11 %53
-    \tempoA-XIIScenaQuartaG a'2-\conSord b~
+    a'2^\conSord b~
     b d~ %55
     d c
     h1~
     h2 a~
     a2. gis4\trill
-    \tempoA-XIIScenaQuartaH a4 r r2 %60
+    a4 r r2 %60
     R1*2
     R1\fermata \bar "|." %63 finis
   }
@@ -363,7 +363,7 @@ A-XIIScenaQuintaViolinoII = {
     \clef treble
     \key c \major \time 4/4 \tempoA-XIIScenaQuinta
     R1*27 %27
-    \tempoA-XIIScenaQuintaB b'2-\markup \remark "con sordino, stendato" g
+    b'2-\markup \remark "con sordino, stendato" g
     a fis
     g gis %30
     a8-! r h-! r c8. c16 h8-! a-!
@@ -590,7 +590,7 @@ A-XIIpsScenaTertiaViolinoII = {
     \clef treble
     \key c \major \time 4/4 \tempoA-XIIpsScenaTertia
     R1*3
-    r2-\markup \remark "con sordino, stendato" h'
+    r2^\markup \remark "con sordino, stendato" h'
     as-\critnote a~ %5
     a g
     f! e
@@ -723,7 +723,7 @@ A-XIIpsScenaQuartaViolinoII = {
     r16 d d16. d32 d4 r16 g, g16. g32 g4
     r8 as f'16( es) f8 r2
     R1
-    b,2-\markup \remark "con sordino, stendato" a %30
+    b,2^\markup \remark "con sordino, stendato" a %30
     d, f!
     g a
     f g

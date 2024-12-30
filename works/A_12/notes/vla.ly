@@ -180,14 +180,14 @@ A-XIIScenaQuartaViola = {
     \clef alto
     \key c \major \time 4/4 \tempoA-XIIScenaQuarta
     R1*6 %6
-    \tempoA-XIIScenaQuartaB e2-\markup \remark "con sordino, stendato" a,
+    \tempoA-XIIScenaQuartaB e2^\markup \remark "con sordino, stendato" a,
     cis e~
     e a,
     fis' g~ %10
     g4 f8 d a4.^\critnote a8
-    \tempoA-XIIScenaQuartaC a4 r r2
+    a4 r r2
     R1*7 %19
-    \tempoA-XIIScenaQuartaD a'1~-\conSord %20
+    a'1~^\conSord %20
     a2 c,!~
     c a
     c b4 g'
@@ -195,21 +195,21 @@ A-XIIScenaQuartaViola = {
     fis e %25
     c4 r r2
     R1*9 %35
-    r2 \tempoA-XIIScenaQuartaE e2-\conSord
+    r2 e2^\conSord
     \once \tieDashed d~ d
     g, e'~
     e4 d c!2
     h c %40
     a g4. a8
-    g2 g4 \tempoA-XIIScenaQuartaF r
+    g2 g4 r
     R1*11 %53
-    \tempoA-XIIScenaQuartaG d'2-\conSord f!
+    d'2^\conSord f!
     d1 %55
     h2 g
     h d
     f e
     f4 fis h, e
-    \tempoA-XIIScenaQuartaH e4 r r2 %60
+    e4 r r2 %60
     R1*2
     R1\fermata \bar "|." %63 finis
   }
@@ -237,12 +237,7 @@ A-XIIAriaQuartaViola = {
     d8 a fis d r g'16 fis e8 d
     cis4 d8 g a g a a,
     d4\fermata r r2 %30
-    R1*7 %37
-    fis,8\f fis' a, fis cis'4 ais
-    h8 h' d, h fis'4 dis
-    e cis d fis8 d %40
-    g4 gis a8 e cis e
-    R1*7 %48
+    R1*18 %48
     R1\fermata \markDaCapo \bar "||" %49 finis
   }
 }
@@ -252,7 +247,7 @@ A-XIIScenaQuintaViola = {
     \clef alto
     \key c \major \time 4/4 \tempoA-XIIScenaQuinta
     R1*27 %27
-    \tempoA-XIIScenaQuintaB e1-\markup \remark "con sordino, stendato"
+    e1-\markup \remark "con sordino, stendato"
     d2 c!
     b h %30
     a8-! r g'!-! r f-! f-! f-! f-!
@@ -331,15 +326,7 @@ A-XIIAriaSextaViola = {
     g4 a8 f4 g8 \noBreak
     a4 a,8 d4\fermata r8
     \twofourtime \time 2/4 \tempoA-XIIAriaSextaB \newSpacingSection
-      R2*18 %55
-    r8 c'\f e, c
-    f, f' d f
-    g, g' e g
-    a, a' f a
-    g f e f %60
-    g f g g,
-    c4 r
-    R2*16 %78
+      R2*41 %78
     \time 4/4 \tempoA-XIIAriaSextaC R1\fermata \markDaCapo \bar "||" %79 finis
   }
 }
@@ -392,7 +379,7 @@ A-XIIpsScenaTertiaViola = {
     \clef alto
     \key c \major \time 4/4 \tempoA-XIIpsScenaTertia
     R1*3
-    r2-\markup \remark "con sordino, stendato" g'
+    r2^\markup \remark "con sordino, stendato" g'
     f! dis~ %5
     dis e
     d c
@@ -473,7 +460,7 @@ A-XIIpsScenaQuartaViola = {
     h! r c r
     f r f es8 f
     g4 g, c r
-    g'2-\markup \remark "stendato" fis %30
+    g'2^\markup \remark "con sordino, stendato" fis %30
     g d
     e! cis
     d e
@@ -487,24 +474,6 @@ A-XIIpsScenaQuartaViola = {
     b gis
     a d4 r
     R1*7 \bar "|" %49 finis
-  }
-}
-
-A-XIIAriaNonaViola = {
-  \relative c' {
-    \clef alto
-    \key c \dorian \time 3/4 \tempoA-XIIAriaNona
-      \once \override Staff.TimeSignature.style = #'single-digit
-    R2.*30 \bar "|" %30
-    \key c \major \time 4/4 \tempoA-XIIAriaNonaB \newSpacingSection
-      R1*8
-    g'4.\f fis8 e e d c
-    h4. c8 d4 d, %40
-    g r r2
-    R1*7 %48
-    c'4.\f h8 a a g f
-    e4. f8 g4 g, %50
-    c r r2\fermata \bar "|." %51 finis
   }
 }
 

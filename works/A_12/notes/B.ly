@@ -93,7 +93,7 @@ A-XIIScenaQuintaBasso = {
     c8 g r4 \clef "treble_8" r8^\Leviathan e'' a,16 a b a %25
     f8 f r16 f a c es8 c \hA es d
     b d g,16 g a b b8 f r4
-    \tempoA-XIIScenaQuintaB \fC cis'^\Job r8 e b b b a
+    \fC cis'^\markup \remark "lamentabile" ^\Job r8 e b b b a
     f f r f16 a c8 c es fis,
     g d'4 b8 gis d' f e %30
     c4 r r2

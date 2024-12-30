@@ -2,7 +2,7 @@ title: Job
 subtitle: Der Jammer-volle, ſo gedultig – als unſchuldig – leydende Hussiten Fürſt JOB oder Der dadurch vorgeſtelte, und von anbegin erwählte allerhöchſte König der Juden Chriſtus JEſus Beede in ihren Schmerzen um From Geſinten Herzen Ein mitleyden zu erwecken
 id: WerW A.12
 genre: oratorio
-scoring: S (Jobs Frau), 3 T (Eliphas, Job, Leviathan), B (Schöpffer), STTB coro (Die Kinder Gottes)\\ob, 2 vl, vla, b, org
+scoring: S, 3 T, B (solo), S, 2 T, B (coro), ob, 2 vl, vla, b, org
 license: cc-by-sa-4.0
 sources:
   A1:
@@ -14,7 +14,18 @@ sources:
     principal: true
 tocstyle: default
 toe: |
-  –  & –  & vla  & In \B1, there is no staff for vla in movements 7, 9, 10, 15, 17, 20, 22, 26, and 28. Here, it plays in unison with bc when the voice pauses. \\
+  –  & –  & vla  & In \B1, there is no staff for vla in movements 7, 9, 10,
+                   15, 17, 20–22, 26, and~28. Here, a vla part has been added
+                   by the editor to these movements.
+                   In arias (no. 7, 9, 17, 21, and 26), the vla plays in unison
+                   with bc whenever the voice pauses during the first section.
+                   In accompagnatos (no. 10, 20, and 22), it plays
+                   unison with bc.
+                   In choruses (no. 15 and 28), it generally plays unison
+                   with T~2 in fugues (except for bars 21–24 of no. 15, where
+                   it plays unison with T~1), and unison with bc otherwise.
+                   Note that no vla part has been added to no. 24,
+                   since the soloist never pauses during the first section. \\
   7  & 34 & bc   & rhythm of 4th \quarterNote\ in \B1:
                    \eighthNoteDotted–\sixteenthNote \\
   8  & 11 & vla  & 2nd \halfNote\ in \B1: c′4.–c′8 \\
@@ -22,3 +33,6 @@ toe: |
   19 & 23 & vl   & 3rd \eighthNote\ in \B1: d″8 \\
   20 & 5  & vl 2 & 1st \halfNote\ in \B1: \sharp g′2 \\
      & 20 & Job  & 3rd \eighthNote\ in \B1: a′8 \\
+acknowledgements:
+  Assistance of the National Széchényi Library is gratefully acknowledged.
+  \includepdf[pages=-,link=false,pagecommand={}]{../works/A_12/appendix.pdf}

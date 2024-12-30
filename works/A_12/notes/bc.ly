@@ -142,7 +142,7 @@ A-XIIScenaPrimaBassoContinuo = {
     b2 c
     d e! %15
     f b,4 h
-    \tempoA-XIIScenaPrimaB c a8 b c4 c,
+    c a8 b c4 c,
     f2 r\fermata \bar "|." %18 finis
   }
 }
@@ -653,7 +653,7 @@ A-XIIScenaQuartaBassoContinuo = {
     cis d
     c b %10
     a4 gis a2
-    \tempoA-XIIScenaQuartaC fis2 d'~
+    fis2 d'~
     d h!~
     h c
     e cis~ %15
@@ -661,7 +661,7 @@ A-XIIScenaQuartaBassoContinuo = {
     a fis'
     f e
     f g4 gis
-    \tempoA-XIIScenaQuartaD a2 g %20
+    a2 g %20
     f e
     f fis~
     fis g
@@ -677,13 +677,13 @@ A-XIIScenaQuartaBassoContinuo = {
     cis d
     a fis
     dis' e %35
-    a4 h \tempoA-XIIScenaQuartaE <c c,>2~
+    a4 h <c c,>2~
     c,1
     c2 cis
     d dis
     e e %40
     f2. e8 f
-    g2 \after 4 \tempoA-XIIScenaQuartaF c,
+    g2 c,
     h a
     f' e4 e8 d
     cis2 d %45
@@ -695,13 +695,13 @@ A-XIIScenaQuartaBassoContinuo = {
     h a
     g! f
     gis a
-    \tempoA-XIIScenaQuartaG fis' d~
+    fis' d~
     d h!~ %55
     h c
     gis~ gis~
     gis a
     f'4 dis e2
-    \tempoA-XIIScenaQuartaH cis ais %60
+    cis ais %60
     h cis
     d4 fis g gis
     a a, d2\fermata \bar "|." %63 finis
@@ -913,7 +913,7 @@ A-XIIScenaQuintaBassoContinuo = {
     g g, cis2 %25
     a a
     b4 es f2
-    \tempoA-XIIScenaQuintaB e1^\markup \remark "stendato"
+    e1^\markup \remark "stendato"
     d2 c!
     b h %30
     << { a'8 } \\ { a,-! } >> r g'!-! r f-! f-! f-! f-!
@@ -989,11 +989,11 @@ A-XIIScenaSextaBassoContinuo = {
     h!2 c %5
     d es
     e f4 fis
-    g g, \tempoA-XIIScenaSextaB cis2
+    g g, cis2
     d e
     f fis %10
     g es
-    \after 4. \tempoA-XIIScenaSextaB d d
+    d d
     h! c
     d es~
     es e~ %15
