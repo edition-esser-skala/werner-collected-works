@@ -426,7 +426,7 @@ A-XIIAriaOctavaViola = {
     \key d \minor \time 3/4 \tempoA-XIIAriaOctavaB \newSpacingSection
       \once \override Staff.TimeSignature.style = #'single-digit
       R2.*26 %68
-    \time 4/4 R1\fermata \markDaCapo \bar "|." %69 finis
+    \time 4/4 R1\fermata \markDaCapo \bar "||" %69 finis
   }
 }
 
