@@ -14,7 +14,7 @@ sources:
     principal: true
 tocstyle: default
 toe: |
-  –  & –  & vla  & In \B1, there is no staff for vla in movements 7, 9, 10, 15, 17, 20, 22. Here, it plays in unison with bc when the voice pauses. \\
+  –  & –  & vla  & In \B1, there is no staff for vla in movements 7, 9, 10, 15, 17, 20, 22, 26. Here, it plays in unison with bc when the voice pauses. \\
   7  & 34 & bc   & rhythm of 4th \quarterNote\ in \B1:
                    \eighthNoteDotted–\sixteenthNote \\
   8  & 11 & vla  & 2nd \halfNote\ in \B1: c′4.–c′8 \\

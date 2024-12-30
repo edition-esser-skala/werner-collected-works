@@ -782,3 +782,39 @@ A-XIIAriaNonaViolinoI = {
     c4 r r2\fermata \bar "|." %51 finis
   }
 }
+
+A-XIIAriaDecimaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoA-XIIAriaDecima
+    r4 f'8\f f, b b'~ b16 g f es
+    \tuplet 3/2 8 { d16 c b } b8 f'16( b,) g'( b,) a32( b16.) b32( c16.) \tuplet 3/2 8 { \sbOn c16 d es d c b \sbOff }
+    a32( b16.) b32( c16.) c32( d16.) d32( es16.) es32( f16.) f32( g16.) g32( a16.) a32( b16.)
+    b8.\trill a32 g f( c16.) d32( es16.) d32( b16.) g32( es'16.) d32( c16.) b32( a16.)
+    b4 r b'8\p b,~ \sbOn b16 a \tuplet 3/2 8 { a b c } \sbOff %5
+    d8 b, r4 c'16( a) f( e) f4
+    r2 r4 r8 f
+    d' c32( b16.) a16( g) f( e) f4 r
+    f'8 f,~ \sbOn f16 e \tuplet 3/2 8 { e f g } \sbOff a8 f r4
+    g16( e) c( h) c4 r2 %10
+    r8 f b16( a) a( g) g8 r r4
+    r16 f' c16. b32 a8 f r f' b16(\trill a) b8
+    r2 r8 g,16 a b( c) c( d)
+    d( c) d8 r4 r2
+    R1*2 %16
+    r2 r8 es c' d,
+    c f, r4 r8 f d' b
+    a d, r4 r2
+    R1*2 %21
+    r16 f\f f32( g16.) g32( a16.) a32( b16.) b32( c16.) c32( d16.) d32( es16.) es32( f16.)
+    f4~ f32( c16.) d32( es16.) d32( b16.) g32( es'16.) d32( c16.) b32( a16.)
+    b4\fermata r r2
+    R1 %25
+    r16 c\p es16. g32 f8 f, r2
+    R1*2
+    r2 r8 d' g g,
+    r d g g, r2 %30
+    R1
+    R\fermata \markDaCapo \bar "||" %32 finis
+  }
+}

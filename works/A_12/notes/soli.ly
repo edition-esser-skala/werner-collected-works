@@ -1736,3 +1736,171 @@ A-XIIAriaNonaSoliLyrics = \lyricmode {
   ſein __ ge -- wo --
   gen? %49 finis
 }
+
+A-XIIpsScenaSextaSoli = {
+  \relative c' {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIpsScenaSexta
+    r8^\Schöpffer e, e16 e g a f8 f f16 a f c
+    d8 d r fis a a c h
+    g g r h dis, fis a g
+    e e a16 a c e, fis8 fis16 fis fis8 h
+    g8. g16 g8 h e, gis h c %5
+    a a r c g8. g16 d8 f
+    e e r16 e g a b8. b16 b g \hA b a
+    f8. f16 f8 d c!4 r16 c' gis a
+    a8 e r4 r8 e e16 e a e
+    f8 f16 f f a f c d8 d16 d g g h g %10
+    e8 e r e g8. g16 c8 g
+    a a16 a a e g a f8 f r d
+    a'8. a16 c!8 a a e r4
+    \clef "treble_8" r8^\Job a c16 c f c a8 a a16 b c d
+    b8 f \hA b16 b d \hA b g8 g r g %15
+    c8. g16 g8 b a8. a16 a8 c
+    f b, g r16 \hA b b8 f r4
+    R1\fermata \bar "|." %18 finis
+  }
+}
+
+A-XIIpsScenaSextaSoliLyrics = \lyricmode {
+  Weill du dem -- nach, mein Job, er -- tuld ſo bitt -- re
+  Schmer -- tzen, und doch in dei -- nen
+  Her -- tzen nie -- mahl von mei -- nen
+  Lob dich pfleg -- teſt ab -- zu -- wen -- den, ſo ſol -- ſtu
+  auch hin -- führ von mei -- nen mil -- den %%
+  Hän -- den zwey -- fal -- tig ü -- ber --
+  khom -- men, was dir durch Sa -- thans Neyd und ſei -- ner
+  Grau -- ſamb -- keit ſo ſchnell hin -- weg ge --
+  noh -- men. Du ſolſt bey lan -- gen
+  Jah -- ren vill tröſt -- li -- ches er -- fah -- ren, und wer -- deſt dei -- ne %10
+  Er -- ben ins vier -- te Glid er --
+  le -- ben, als -- dan ver -- gnügt auch ſter -- ben und
+  dei -- nen Geiſt auf -- ge -- ben.
+  Woll -- an mein Gott und Herr! Ich lieb dich noch vill --
+  mehr, mein Zung ſoll dich ſtets prey -- ſen, und %15
+  dir al -- lein, dem Schö -- pffer mein, die
+  höch -- ſte Ehr er -- wei -- ſen. %17 finis
+}
+
+A-XIIAriaDecimaJob = {
+  \relative c' {
+    \clef "treble_8"
+    \key b \major \time 4/4 \autoBeamOff \tempoA-XIIAriaDecima
+    R1*4
+    r4 f8 f, b16([ a)] b8 c \tuplet 3/2 8 { c16([ d es)] } %5
+    d8 f~ f16[ d] c([ b)] a4 c8 f
+    d d \appoggiatura d c8. b16 a8 c f4~
+    f32([ d16.)] c32([ b16.)] a16([ g)] f([ e)] f4 r
+    R1*3 %11
+    r4 c'8 c d16([ c)] d8 \tuplet 3/2 8 { d16([ es f)] } es([ d)]
+    c([ b)] c8 c16([ d)] d([ es!)] es8 es es16([ d)] es8
+    d d16([ es)] f8 es16([ d)] d([ c)] c8 c d
+    es f g f16([ es)] d8 d4 es8 %15
+    f2~ f8[ es16 d] es8([ f)]
+    es4( d8.)\trill c16 c4 f32([ c16.)] d32([ b!16.)]
+    c8 a16([ g)] f8 d' d16([ c)] c8 r4
+    r2 r8 a4 d8
+    h16([ a)] \hA h8 c16([ d)] d([ es)] es4 es~ %20
+    es8 f d es d4( c8.)\trill b16
+    b4 r r2
+    R1
+    R\fermata
+    r8 d4 c8 h c des c16([ h)] %25
+    c8 es4 d8 c f4 d8
+    c4 c8 d es f g f16([ es)]
+    d4 r8 d e([ cis)] d([ e)]
+    d4( cis8.)\trill d16 d4 g,8 es'!
+    es([ d)] r4 r  c8 d %30
+    es4. es8 d([ c)] b([ c)]
+    b4( a8.)\trill g16 g4 r\fermata \markDaCapo \bar "||" %32 finis
+  }
+}
+
+A-XIIAriaDecimaJobLyrics = \lyricmode {
+  Al -- ſo folgt auf Leyd die %5
+  Freud je -- der -- zeit den, der
+  ſich zu Gott be -- reith, zu Gott, __
+  zu Gott be -- reith.
+
+  Ey, wer ſolt dan nicht gern %12
+  ley -- den, wan er kan ſo gro -- ße
+  Freud, ſo __ gro -- ße Freu -- den ihm auff
+  e -- wig ſamb -- len ein, oh -- ne %15
+  End __ ver --
+  gnie -- get ſeyn. Ey, wer
+  ſolt dan nicht gern ley -- den,
+  ihm auff
+  e -- wig ſamb -- len ein, oh -- %20
+  ne End ver -- gnie -- get
+  ſeyn.
+
+  di -- ße iſt gar falſch be -- %25
+  ſtellt, füh -- ro -- hin ſey mein
+  Gwün Gott, der mir am be -- ſten
+  gfällt, der mir am
+  be -- ſten gfällt, füh -- ro --
+  hin Gott, der %30
+  mir, der mir am
+  be -- ſten gfällt. %32 finis
+}
+
+A-XIIAriaDecimaSchöpffer = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \autoBeamOff \tempoA-XIIAriaDecima
+    R1*7 %7
+    r2 r4 c'8 c,
+    f16([ e)] f8 g \tuplet 3/2 8 { g16([ a b)] } a8 c~ c16[ a] g([ f)]
+    e4 g8 \tuplet 3/2 8 { g16([ a b)] } a8 a b16([ c)] c([ d)] %10
+    d8 r b d c32([ g16.)] a32([ f16.)] c8. c16
+    f,4 a'8 a b16([ a)] b8 \tuplet 3/2 8 { b16([ c d)] } c([ b)]
+    a([ g)] a8 r4 r g16([ a)] a([ b)]
+    b8 b b16([ d)] c([ b)] b([ a)] a8 a b
+    c b16([ a)] g8 a b4 r %15
+    r8 a([ h)] c d h c4~
+    c h c r
+    r2 r4 d32([ a16.)] b32([ g16.)]
+    a8 fis16([ e?)] d8 b' b16([ a)] a8 r4
+    d,8 g es h c4 c'~ %20
+    c8 a b c b4( a8.)\trillE b16
+    b4 r r2
+    R1
+    r4\fermata b8 a16([ g)] a([ cis,)] d8 \tuplet 3/2 8 { g16([ a b)] } a([ g)]
+    fis4 r r2 %25
+    r8 c'4 b!8 a4 f8 b
+    a4 a8 b c b16([ a)] g8 a
+    b d, g4. e8 a g
+    f4( e8.)\trillE d16 d4 r
+    r g8 c c([ h)] r4 %30
+    r fis8 g a4 g8([ a)]
+    g4( fis8.)\trill g16 g4 r\fermata \markDaCapo \bar "||" %32 finis
+  }
+}
+
+A-XIIAriaDecimaSchöpfferLyrics = \lyricmode {
+  Wer nicht %8
+  ſtrei -- thet wie ein Man, hat __ als --
+  dan, hat kein Recht zur Him -- mels -- %10
+  fron, hat kein Recht zur Him -- mels --
+  fron. Ey, wer ſolt dan nicht gern
+  ley -- den, wan er
+  kan ſo gro -- ße Freu -- den ihm auff
+  e -- wig ſamb -- len ein, %15
+  oh -- ne End ver -- gnie --
+  get ſeyn.
+  wan er
+  kan ſo gro -- ße Freu -- den
+  ihm auff e -- wig ein, oh -- %20
+  ne End ver -- gnie -- get
+  ſeyn.
+
+  So ver -- la -- ße dan die
+  Weld, %25
+  füh -- ro -- hin ſey dein
+  Gwün Gott, der dir am be -- ſten
+  gfällt, der dir, der dir am
+  be -- ſten gfällt,
+  ſey dein Gwin %30
+  Gott, der dir am
+  be -- ſten gfällt. %32 finis
+}

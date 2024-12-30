@@ -507,3 +507,21 @@ A-XIIAriaNonaViola = {
     c r r2\fermata \bar "|." %51 finis
   }
 }
+
+A-XIIAriaDecimaViola = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 4/4 \tempoA-XIIAriaDecima
+    b'8.\fE d32 c b8 a g d es f
+    b,8. c16 d8 es f d a b
+    f' d a b g' d es c
+    g' g, a f b es f f,
+    b4 r r2 %5
+    R1*16 %21
+    b8\fE d es c d a b g'
+    d16. d'32 c16. b32 a8 f b, es f f,
+    b4\fermata r r2
+    R1*7 %31
+    R1\fermata \markDaCapo \bar "||" %32 finis
+  }
+}

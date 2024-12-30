@@ -2335,3 +2335,124 @@ A-XIIAriaNonaBassFigures = \figuremode {
   <6>4. q8 <6 4>4 <5 3> %50
   r1 %51 finis
 }
+
+A-XIIpsScenaSextaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XIIpsScenaSexta
+    a2 a
+    fis1
+    g2 fis
+    e4 c' h2~
+    h gis %5
+    a h
+    c cis
+    h! a4 dis
+    e e, cis'2
+    a h! %10
+    c e
+    cis d
+    dis e
+    f fis
+    d \once \tieDashed e!~ %15
+    e f
+    d4 es f f,
+    b1\fermata \bar "|." %18 finis
+  }
+}
+
+A-XIIpsScenaSextaBassFigures = \figuremode {
+  <_+>2 <6 _!>
+  <6>1
+  r2 <6\\>
+  r4 <6> <[5\+] _+>2
+  <6 [_!]> <6> %5
+  r <6[!]>
+  r <7 5->
+  <6\\ 5> <[_!]>4 <7 5 [_+]>
+  <4> <_+> <6>2
+  <6 _!> <6> %10
+  r <6>
+  q1
+  <7 5 [_+]>2 <4>4 <_+>
+  <5>2 <6>
+  <6->1 %15
+  <6>
+  <6->4 <[5-]> <4[-]> <3>
+  r1 %18 finis
+}
+
+A-XIIAriaDecimaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \tempoA-XIIAriaDecima
+    \mvTr b'8.\fE-\soloE d32 c b8 a g d es f
+    b,8. c16 d8 es f d a b
+    f' d a b g' d es c
+    g' g, a f b es f f,
+    b d'16.\p c32 b8 a g d es f %5
+    b,8. c16 d8 es f f,16. g32 a8 f
+    b g' e c f \hA e d a
+    b d c c, f a'16. g32 f8 e
+    d a b c f8. g16 a8 b
+    c c,16. d32 e8 c f, f'16. es32 d8 a %10
+    b b'16. a32 g8 f e f c c,
+    f a'16. g32 f8 f, b b' d, b
+    f f' es! d c c' g a
+    b f d es f4 es8 d
+    c d es f g g f es %15
+    d4. c8 h g c f
+    g f g g, c c'16. b!32 a8 b
+    f8. g16 a8 b f4 fis8 g
+    d8. e16 fis8 g d8. e16 fis8 d
+    g, g'16. f32 es8 d c es'16. d32 c8 b! %20
+    a f b es, f es f f,
+    b\fE d es c d a b g'
+    d16. d'32 c16. b32 a8 f b, es f f,
+    b\fermata b'16.\pE a32 g8 g, fis' f es! cis
+    d8. e16 fis8 d g es f? g %25
+    c, c'16. b!32 a8 b f f,16. g32 a8 b
+    f f' es d c d es f
+    g f e d cis a' f g
+    a g a a, d d'16. c!32 h8 c
+    g g16 f es!8 c g g'16. f32 es8 d %30
+    c c'16. b!32 a8 g fis d g c,
+    d4 d, g r\fermata \markDaCapo \bar "||" %32 finis
+  }
+}
+
+A-XIIAriaDecimaBassFigures = \figuremode {
+  r4. <[6]>4 <6>8 <6 5>4
+  r2 r8 <6> <[6]>4
+  r8 <6> q4 q8 q q q
+  r4 q2 <6 4>8 <5 3>
+  r4. <[6]>4 <6>8 <6 5>4 %5
+  r <6>8 q r2
+  r4 <6>4. <[6]>4 <6>8
+  r q <6 4> <5 _!> r2
+  r8 <6> <6 5> <_!>4. <6>8 q
+  <_!>2. <6>8 q %10
+  r4. q8 q4 <4>8 <_!>
+  r1
+  r2. <6->4
+  r8 <\t> <6>4 <6 4>8 <5 3> <\t \t> <6>
+  r1 %15
+  <5>4 <6!> <[5]>4. <_->8
+  <6 4>4 <5 _!>2 <6>4
+  r2 <6 4>8 <5 3> <6>4
+  <_+>2 <6 4>8 <5 _+>4.
+  <_!>4 <6>8 <6!> r2 %20
+  <6 5>4. <[6]>8 <6 4>4 <5 _!>
+  r4. <6>8 q q4 q8
+  q4 <[6]>2 <6 4>8 <5 3>
+  r2 \bo <[6 _]>8 <\t>4 <6 _!>8
+  <_+>2 \bc <[_! _]>8 <6> <6- _-> <[5!] _!> %25
+  r4 <6 5>2.
+  r4 <\t>8 <6> r2
+  r4 <5->8 <6-> <6 [_!]> <[5!] _+> <6> <6!>
+  <6 4>4 <5! _+> r4 <[6]>8 <_->
+  <6- 4> <5 _!> <[6]>4 <4>8 <_!> <6>4 %30
+  r <6\\>8 \bo <[6]> \bc <[6]>4. <6>8
+  <6 4>4 <5 _+>2. %32 finis
+
+}
