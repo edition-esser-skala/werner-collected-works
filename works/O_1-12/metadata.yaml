@@ -1,0 +1,20 @@
+title: Neuer und sehr curios-musicalischer Instrumentalkalender
+subtitle: (work in progress)
+id: WerW O.1–12
+genre: partita
+scoring: 2 vl, bc
+license: cc-by-sa-4.0
+sources:
+  C1:
+    siglum: D-Mbs
+    shelfmark: 2 Mus.pr. 288
+    rism: 990068293
+    url: https://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb11131389-8
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  \setcounter{tocdepth}{1}
+  1 & 111 & bc   & bar in \C1: C4–\quaverRest \\
+    & 133 & vl 1 & 1st \eighthNote\ in \C1: a′8 \\
+    & 140 & vl 1 & 2nd \eighthNote\ in \C1: d″8 \\
