@@ -1,0 +1,37 @@
+title: Plaudentes virgini
+id: WerW D.1.9
+genre: motet
+festival: de Beata aut quocunque Sancto
+scoring: S, A (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 52
+    rism: 600038024
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/782.html
+    license: public domain
+    principal: true
+toe: |
+  70 & A      & last \quarterNote\ in \B1: grace f′8–e′8.–f′16 \\
+  76 & clno 1 & 2nd \eighthNote\ in \B1: f″16–d″16 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+lyrics:
+  Plaudentes virgini (vocibus),\\
+  prodite populi,\\
+  psalentes cantibus,\\
+  adeste plausibus\\
+  et veneramini Mariam (patronum).\\[1ex]
+  Si vita misera,\\
+  funde suspiria,\\
+  hanc Matrem (hunc Sanctum) visita,\\
+  cor illi consecra.\\
+  Cum Matre (Sanctis) victurus\\
+  tranquillus securus,\\
+  non sortem videbis,\\
+  nec mortem timebis.\\[1ex]
+  Sola laetitia\\
+  nulla maestitia\\
+  in ista Patria.\\
+  Quicunque regnat in gloria.
