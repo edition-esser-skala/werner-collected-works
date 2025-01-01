@@ -38,3 +38,8 @@ setLyricsDistance = #(define-scheme-function
     \override VerticalAxisGroup.staff-staff-spacing.padding = #-100
     \override VerticalAxisGroup.staff-staff-spacing.stretchability = #0
   #}) % default (engraver-init.ly) : 2.8
+
+skips = #(define-music-function
+  (parser location n)
+  (number?)
+  #{ \repeat unfold #n { \skip 8 } #})
