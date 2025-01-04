@@ -35,7 +35,7 @@ markGennaroIIIa = \markTitle
   "Die Tags-Länge 9. Stund, …"
 markGennaroIIIb = \markTitle
   "La notte di 15. hore."
-  "… die Nacht 13. Stund."
+  "… die Nacht 1[5]. Stund."
 markGennaroIV = \markTitle
   "4. Il Villano fantaſtico."
   "Der aberwitzige Baur."
