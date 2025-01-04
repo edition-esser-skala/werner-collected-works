@@ -11,34 +11,34 @@
 
 \book {
   \bookpart {
-    \section "C.S3" "Dies iræ"
+    \section "C.S4" "Dies iræ"
     \addTocEntry
     \score {
       <<
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "T 1"
-            \new Voice = "TenoreI" { \dynamicUp \C-SIIITenoreI }
+            \new Voice = "TenoreI" { \dynamicUp \C-SIVTenoreI }
           }
-          \new Lyrics \lyricsto TenoreI \C-SIIITenoreILyrics
+          \new Lyrics \lyricsto TenoreI \C-SIVTenoreILyrics
 
           \new Staff {
             \set Staff.instrumentName = "T 2"
-            \new Voice = "TenoreII" { \dynamicUp \C-SIIITenoreII }
+            \new Voice = "TenoreII" { \dynamicUp \C-SIVTenoreII }
           }
-          \new Lyrics \lyricsto TenoreII \C-SIIITenoreIILyrics
+          \new Lyrics \lyricsto TenoreII \C-SIVTenoreIILyrics
 
           \new Staff {
             \set Staff.instrumentName = "B 1"
-            \new Voice = "BassoI" { \dynamicUp \C-SIIIBassoI }
+            \new Voice = "BassoI" { \dynamicUp \C-SIVBassoI }
           }
-          \new Lyrics \lyricsto BassoI \C-SIIIBassoILyrics
+          \new Lyrics \lyricsto BassoI \C-SIVBassoILyrics
 
           \new Staff {
             \set Staff.instrumentName = "B 2"
-            \new Voice = "BassoII" { \dynamicUp \C-SIIIBassoII }
+            \new Voice = "BassoII" { \dynamicUp \C-SIVBassoII }
           }
-          \new Lyrics \lyricsto BassoII \C-SIIIBassoIILyrics
+          \new Lyrics \lyricsto BassoII \C-SIVBassoIILyrics
         >>
       >>
     }

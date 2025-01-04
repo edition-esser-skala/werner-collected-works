@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-C-SIIITromboneIII = {
+C-SIVTromboneIII = {
   \relative c {
     \clef bass
-    \key d \minor \time 4/4 \tempoC-SIII
+    \key d \minor \time 4/4 \tempoC-SIV
     d1\f\fermata
     R
     R\fermata

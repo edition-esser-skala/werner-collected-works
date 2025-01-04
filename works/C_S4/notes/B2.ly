@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-C-SIIIBassoII = {
+C-SIVBassoII = {
   \relative c {
     \clef bass
-    \key d \minor \time 4/4 \tempoC-SIII \autoBeamOff
+    \key d \minor \time 4/4 \tempoC-SIV \autoBeamOff
     R1\fermata
     R
     R\fermata
@@ -68,7 +68,7 @@ C-SIIIBassoII = {
   }
 }
 
-C-SIIIBassoIILyrics = \lyricmode {
+C-SIVBassoIILyrics = \lyricmode {
   Di -- es i -- rae, %4
   di -- es il -- la, %5
   te -- ste Da -- vid

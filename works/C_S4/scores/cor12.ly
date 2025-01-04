@@ -9,7 +9,7 @@
 
 \book {
   \bookpart {
-    \section "C.S3" "Dies iræ"
+    \section "C.S4" "Dies iræ"
     \addTocEntry
     \score {
       <<
@@ -18,11 +18,11 @@
             \set GrandStaff.instrumentName = \transposedNameShort "cor" "D" ""
             \new Staff {
               \set Staff.instrumentName = "1"
-              \C-SIIICornoI
+              \C-SIVCornoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \C-SIIICornoII
+              \C-SIVCornoII
             }
           >>
         >>

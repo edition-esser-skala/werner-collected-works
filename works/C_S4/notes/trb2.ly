@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-C-SIIITromboneII = {
+C-SIVTromboneII = {
   \relative c' {
     \clef tenor
-    \key d \minor \time 4/4 \tempoC-SIII
+    \key d \minor \time 4/4 \tempoC-SIV
     d1\f\fermata
     R
     R\fermata

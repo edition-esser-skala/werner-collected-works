@@ -6,7 +6,7 @@
 
 \book {
   \bookpart {
-    \section "C.S3" "Dies iræ"
+    \section "C.S4" "Dies iræ"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -17,13 +17,13 @@
             \set Staff.soloText = \markup \remark \medium "cdb 1"
             \set Staff.soloIIText = \markup \remark \medium "cdb 2"
             % \transpose c f,
-            \partCombine #'(0 . 10) \C-SIIICornoDiBassettoI \C-SIIICornoDiBassettoII
+            \partCombine #'(0 . 10) \C-SIVCornoDiBassettoI \C-SIVCornoDiBassettoII
           >>
           \new Staff <<
             \set Staff.instrumentName = "Fagotto I, II"
             \set Staff.soloText = \markup \remark \medium "fag 1"
             \set Staff.soloIIText = \markup \remark \medium "fag 2"
-            \partCombine #'(0 . 10) \C-SIIIFagottoI \C-SIIIFagottoII
+            \partCombine #'(0 . 10) \C-SIVFagottoI \C-SIVFagottoII
           >>
         >>
         \new StaffGroup <<
@@ -31,48 +31,48 @@
             \set Staff.instrumentName = \transposedName "Corno I, II" "D" ""
             \set Staff.soloText = \markup \remark \medium "cor 1"
             % \transpose c d,
-            \partCombine #'(0 . 10) \C-SIIICornoI \C-SIIICornoII
+            \partCombine #'(0 . 10) \C-SIVCornoI \C-SIVCornoII
           >>
           \new GrandStaff <<
             \set GrandStaff.instrumentName = \markup { \rotate #90 "T R O M B O N E" \hspace #10 }
             \new Staff {
               \set Staff.instrumentName = "I"
-              \C-SIIITromboneI
+              \C-SIVTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \C-SIIITromboneII
+              \C-SIVTromboneII
             }
             \new Staff {
               \set Staff.instrumentName = "III"
-              \C-SIIITromboneIII
+              \C-SIVTromboneIII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "Tenore I"
-            \new Voice = "TenoreI" { \dynamicUp \C-SIIITenoreI }
+            \new Voice = "TenoreI" { \dynamicUp \C-SIVTenoreI }
           }
-          \new Lyrics \lyricsto TenoreI \C-SIIITenoreILyrics
+          \new Lyrics \lyricsto TenoreI \C-SIVTenoreILyrics
 
           \new Staff {
             \set Staff.instrumentName = "Tenore II"
-            \new Voice = "TenoreII" { \dynamicUp \C-SIIITenoreII }
+            \new Voice = "TenoreII" { \dynamicUp \C-SIVTenoreII }
           }
-          \new Lyrics \lyricsto TenoreII \C-SIIITenoreIILyrics
+          \new Lyrics \lyricsto TenoreII \C-SIVTenoreIILyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso I"
-            \new Voice = "BassoI" { \dynamicUp \C-SIIIBassoI }
+            \new Voice = "BassoI" { \dynamicUp \C-SIVBassoI }
           }
-          \new Lyrics \lyricsto BassoI \C-SIIIBassoILyrics
+          \new Lyrics \lyricsto BassoI \C-SIVBassoILyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso II"
-            \new Voice = "BassoII" { \dynamicUp \C-SIIIBassoII }
+            \new Voice = "BassoII" { \dynamicUp \C-SIVBassoII }
           }
-          \new Lyrics \lyricsto BassoII \C-SIIIBassoIILyrics
+          \new Lyrics \lyricsto BassoII \C-SIVBassoIILyrics
         >>
       >>
       \layout { }

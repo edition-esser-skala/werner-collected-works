@@ -7,11 +7,11 @@
 
 \book {
   \bookpart {
-    \section "C.S3" "Dies iræ"
+    \section "C.S4" "Dies iræ"
     \addTocEntry
     \score {
       <<
-        \new Staff { \C-SIIICornoDiBassettoII }
+        \new Staff { \C-SIVCornoDiBassettoII }
       >>
     }
   }

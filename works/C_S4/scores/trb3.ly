@@ -7,12 +7,12 @@
 
 \book {
   \bookpart {
-    \section "C.S3" "Dies iræ"
+    \section "C.S4" "Dies iræ"
     \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \C-SIIITromboneIII }
+        \new Staff { \C-SIVTromboneIII }
       >>
     }
   }
