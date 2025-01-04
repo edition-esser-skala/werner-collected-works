@@ -71,7 +71,7 @@ A-XIIScenaQuintaBasso = {
     fis fis fis16 fis d fis g8 g16 g c,8 c
     d8. d16 d4 \fC r^\Schöpffer g16 g h g
     c8 g g16 g c g a8 e e16 e a e %5
-    fis8 << \context Voice = "Basso" { \once \stemUp cis'_\markup \remark "Ich" } \\ { fis, } >> \clef "treble_8" cis'16^\Leviathan cis d e d8 fis h,16 h h ais
+    fis8 << \context Voice = "Basso" { \once \stemUp cis'_\markup \remark "Ich" ^\Leviathan } \\ { fis, } >> \clef "treble_8" cis'16 cis d e d8 fis h,16 h h ais
     cis8 cis r4 \clef bass r8^\Schöpffer fis, a16 a h c
     h8 fis16 fis fis a c h g8 d! g16 g h c
     d8 h g16 g h g e8 e16 e gis e h e

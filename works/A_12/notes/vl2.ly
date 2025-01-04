@@ -390,7 +390,7 @@ A-XIIChorusViolinoII = {
     b a g b b( a) a g
     g( fis) fis4 r8 h4 d8
     c c d d d c4 d8
-    e4. e8 a,2
+    e4. e8 a,2 %5
     r8 d,4 d8 g4. f8
     es d c es d4 b'8 a
     g b a g fis2

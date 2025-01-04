@@ -2,7 +2,7 @@ title: Job
 subtitle: Der Jammer-volle, ſo gedultig – als unſchuldig – leydende Hussiten Fürſt JOB oder Der dadurch vorgeſtelte, und von anbegin erwählte allerhöchſte König der Juden Chriſtus JEſus Beede in ihren Schmerzen um From Geſinten Herzen Ein mitleyden zu erwecken
 id: WerW A.12
 genre: oratorio
-scoring: S, 3 T, B (solo), S, 2 T, B (coro), ob, 2 vl, vla, b, org
+scoring: S, 3 T, B (solo), S, 2 T, B (coro), ob, 2 vl, vla, bc
 license: cc-by-sa-4.0
 sources:
   A1:
@@ -33,6 +33,5 @@ toe: |
   19 & 23 & vl   & 3rd \eighthNote\ in \B1: d″8 \\
   20 & 5  & vl 2 & 1st \halfNote\ in \B1: \sharp g′2 \\
      & 20 & Job  & 3rd \eighthNote\ in \B1: a′8 \\
-acknowledgements:
-  Assistance of the National Széchényi Library is gratefully acknowledged.
+commentary: |
   \includepdf[pages=-,link=false,pagecommand={}]{../works/A_12/appendix.pdf}

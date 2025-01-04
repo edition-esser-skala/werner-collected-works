@@ -4,7 +4,7 @@
 
 ### Added
 
-- works: WerW A.12 (only source code), B.35, F.2/3/32, I.1.4, I.2.7, I.3.1, I.4.50, and I.5.13
+- works: WerW A.12 (only source code), B.35, F.2/3/32, I.1.4, I.2.17, I.3.1, I.4.50, and I.5.13
 - realized bass figures to WerW B.1
 
 ### Changed

@@ -307,7 +307,7 @@
         >>
         \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
-            \set Staff.instrumentName = "Leviathan"
+            \set Staff.instrumentName = "Schöpffer"
             \new Voice = "Soli" { \dynamicUp \A-XIIAriaTertiaSoli }
           }
           \new Lyrics \lyricsto Soli \A-XIIAriaTertiaSoliLyrics

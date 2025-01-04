@@ -778,7 +778,7 @@ A-XIIAriaQuartaBassoContinuo = {
   \relative c {
     \clef bass
     \key d \major \time 4/4 \tempoA-XIIAriaQuarta
-    \mvTr d8\fE-\solo d' fis, d a' a, cis a
+    \mvTr d8\fE-\soloE d' fis, d a' a, cis a
     h4 cis d8 a fis d
     d''16 e fis d h8 d cis16 d e cis a8 cis
     h16 cis h a gis fis \hA gis e a8 e cis a

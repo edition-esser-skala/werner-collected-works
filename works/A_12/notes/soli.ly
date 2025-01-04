@@ -1767,7 +1767,7 @@ A-XIIpsScenaSextaSoliLyrics = \lyricmode {
   Schmer -- tzen, und doch in dei -- nen
   Her -- tzen nie -- mahl von mei -- nen
   Lob dich pfleg -- teſt ab -- zu -- wen -- den, ſo ſol -- ſtu
-  auch hin -- führ von mei -- nen mil -- den %%
+  auch hin -- führ von mei -- nen mil -- den %5
   Hän -- den zwey -- fal -- tig ü -- ber --
   khom -- men, was dir durch Sa -- thans Neyd und ſei -- ner
   Grau -- ſamb -- keit ſo ſchnell hin -- weg ge --
