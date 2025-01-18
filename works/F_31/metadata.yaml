@@ -1,0 +1,28 @@
+title: Ave maris stella
+id: WerW F.31
+genre: hymn
+festival: de Beata
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: M 35
+    rism: 600038654
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/268.html
+    license: public domain
+    principal: true
+lyrics:
+  Ave maris stella,\\
+  Dei mater alma,\\
+  atque semper virgo,\\
+  felix coeli porta.\\[1ex]
+  Sumens illud Ave\\
+  Gabrielis ore,\\
+  funda nos in pace,\\
+  mutans Evae nomen.\\[1ex]
+  Sit laus Deo Patri,\\
+  summo Christo decus.\\
+  Spiritui Sancto\\
+  tribus honor unus.\\[1ex]
+  (Liber Hymnarius 1983, p. 258; Cantus Index 008272)
