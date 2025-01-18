@@ -46,7 +46,7 @@ E-XXVIIIaSoprano = {
 E-XXVIIIaSopranoLyrics = \lyricmode {
   Ô
   längſt er --
-  wünsch -- te
+  wünſch -- te
   Nacht voll
   Liecht und %5
   kla -- ren

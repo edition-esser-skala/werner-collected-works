@@ -46,7 +46,7 @@ E-XXVIIIaTenore = {
 E-XXVIIIaTenoreLyrics = \lyricmode {
   Ô
   längſt er --
-  wünsch -- te
+  wünſch -- te
   Nacht voll
   Liecht und %5
   kla -- ren
