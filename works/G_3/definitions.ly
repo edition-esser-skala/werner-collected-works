@@ -1,0 +1,16 @@
+\version "2.24.0"
+
+tempoG-IIIa = \tempoMarkup "Andante passato"
+tempoG-IIIb = \tempoMarkup "Andante"
+tempoG-IIIc = \tempoMarkup "Larghetto"
+tempoG-IIId = \tempoMarkup "Adagio"
+tempoG-IIIe = \tempoMarkup "Andante"
+tempoG-IIIf = \tempoMarkup "Tempo ordinario"
+
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"
