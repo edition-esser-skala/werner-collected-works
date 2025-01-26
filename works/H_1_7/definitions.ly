@@ -1,0 +1,16 @@
+\version "2.24.0"
+
+tempoH-I-VIIDixit = \tempoMarkup "[Tempo deest]"
+  tempoH-I-VIIDixitB = \tempoMarkup "Allegro"
+tempoH-I-VIILaudate = \tempoMarkup "[Tempo deest]"
+  tempoH-I-VIILaudateB = \tempoMarkup "Vivace"
+tempoH-I-VIILaetatus = \tempoMarkup "Vivace"
+  tempoH-I-VIILaetatusB = \tempoMarkup "Allegro"
+
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"
