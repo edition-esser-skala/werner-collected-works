@@ -104,3 +104,122 @@ H-I-VIILaetatusViolinoII = {
     a1 r2\fermata \bar "|." %69 finis
   }
 }
+
+H-I-VIINisiViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoH-I-VIINisi
+    r2 a'8\p c16 h a8 gis
+    a gis a16 e a8 gis4 r
+    R1*3 %5
+    r2 r8 e'\f e e
+    e e, r e' e e, r h'
+    a cis a d~ d cis d4
+    r8 h4 h16 h c8. c16 h4
+    r8 h c4 r8 d g,8. g16 %10
+    g8 g4 f8 e e f f
+    a4 gis r2
+    r4 r8 c4\p h a8~
+    a g4 f e8 d d
+    R1*8 %22
+    r2 r8 d' h16 c d h
+    g8 h c16 d e f d8 dis e16 \hA dis e8~
+    e gis16 fis e8 c h gis4 a8 %25
+    h c d c16 h a8 h \appoggiatura a gis4
+    \tempoH-I-VIINisiB a r r2
+    r8 a\f g e fis gis a16 g a f
+    g f e8 d4 c r
+    R1 %30
+    r4 r8 a' gis  e fis \hA gis
+    a16 gis a fis? \hA gis \hA fis \hA gis a h a h \hA gis a e a8~
+    a gis a4 r2\fermata \bar "|." %33 finis
+  }
+}
+
+H-I-VIILaudaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoH-I-VIILauda
+    e'8\f c16 e g4 e
+    e8 c16 e g4 e
+    d8 e d c h d
+    c4. d8 e4
+    c2 d4 %5
+    d2 e4~
+    e8 f d2
+    e4 r r
+    R2.*14 %22
+    r4 r g,~\p
+    g8 f e4 c
+    f8 d h2 %25
+    a4 r r
+    e'8 f g a h4~
+    h8 a16 h c8 a c4
+    h r r
+    R2.*7 %36
+    c4\f c h
+    c4. c8 d d
+    e4. e8 e e
+    c4. c8 e4 %40
+    d d d8 c
+    d e f4. f8
+    e4 e d
+    c e dis
+    e2 dis4 %45
+    e r r
+    R2.*9 %55
+    g,4\p c e
+    d4. d8 c4~
+    c8 d c h16 a h4
+    a r r
+    R2. %60
+    g4. a8 h d
+    c4. h16 a h4
+    c \tempoH-I-VIILaudaB r r
+    R2.
+    r4 r d,\f %65
+    g e a
+    g8 f e4 d
+    g a2
+    g fis4
+    g r r %70
+    R2.
+    r4 e a
+    g c h8 a
+    g2.
+    g4 g2 %75
+    g r4\fermata \bar "|." %76 finis
+  }
+}
+
+H-I-VIIMagnificatViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoH-I-VIIMagnificat
+    R1*5 %5
+    r16 gis'\p h \hA gis e c32 d e16 d c8 a'4 g8~
+    g f e4 r2
+    r4 f8\f f e16 e c e f8 a
+    g4 f8. f16 e e f4 e8
+    f4 r r2 %10
+    R1*3
+    r2 r4 f'8\p f,16 es'
+    d8. c16 b8 f' b, d g,8. g16 %15
+    a b c a f8 g~ g16 e f g \appoggiatura f8 e4\trill
+    d r r2
+    R1*3 %20
+    r4 r8 d' e8. c16 b!8 g16 e'
+    c a8 d16 d8 cis d\f d c8. c16
+    c c c c c8 f d16 d c c h8 h16 h
+    c8 c16 c c8. c16 c4 r
+    R1*2 %26
+    a8\p c d16 c b8~ b a g4
+    \tempoH-I-VIIMagnificatB a r r2
+    r r8 f4\fE b8
+    a g f4. e8 d4 %30
+    e r r8 c4 f8
+    e d c d16 e f2
+    r4 f g8 f4 e8
+    f2 r\fermata \bar "|." %34 finis
+  }
+}

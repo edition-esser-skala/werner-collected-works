@@ -208,3 +208,273 @@ H-I-VIILaetatusSopranoLyrics = \lyricmode {
   _ _
   men. %69 finis
 }
+
+H-I-VIINisiSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoH-I-VIINisi
+    R1
+    r4 r8 \mvTr e'\pE^\solo e e16 e e8 e
+    e e, h' e e16([ c)] h a \appoggiatura c8 h4
+    a r r2
+    R1 %5
+    r2 r8 \mvTr e'\fE^\tutti e e
+    e e, r e' e e, r e'~
+    e cis a d \appoggiatura d cis8. cis16 d8 d~
+    d d16 d g8. g,16 g4 r8 d'
+    e4 r8 e f8. f16 e8 e %10
+    g d cis cis cis4 d8 d
+    dis4 e8 \mvTr h\pE^\solo e8. d16 c8 c
+    h16 a g f e8 e r2
+    R1*3 %16
+    r2 r8 e' d8. c16
+    h4 c8 e d d16([ c)] h([ c)] d([ h)]
+    c8 h16 a g8 f16 g e8 e r16 a c a
+    d8 d r d16 h e8 e c16[( d)] e8 %20
+    d c b a gis a4( \hA gis8)
+    a4 r r8 h4 h8
+    cis d16 d d8([ cis)] d4 r
+    R1*3 %26
+    \tempoH-I-VIINisiB R1
+    r4 r8 \mvTr e\fE^\tutti d[ h] c16[ h c d]
+    h8 c4 h8 c4 r
+    R1 %30
+    r2 r8 e[ d h]
+    c16[ h c d] e[ d e c] d[ c d e] c8[ h16 a]
+    h4 a r2\fermata \bar "|." %33 finis
+  }
+}
+
+H-I-VIINisiSopranoLyrics = \lyricmode {
+  in va -- num la -- bo -- ra -- %2
+  ve -- runt qui ae -- di -- fi -- cant e --
+  am.
+  %5
+  Va -- num est
+  vo -- bis, est vo -- bis an --
+  te lu -- cem sur -- ge -- re: sur --
+  gi -- te, sur -- gi -- te post --
+  quam se -- de -- ri -- tis, qui %10
+  man -- du -- ca -- tis pa -- nem do --
+  lo -- ris. Cum de -- de -- rit di --
+  lec -- tis su -- is som -- num,
+
+  Be -- a -- tus %17
+  vir qui im -- ple -- vit de -- si --
+  de -- ri -- um su -- um ex ip -- sis: non con -- fun --
+  de -- tur cum lo -- que -- tur in -- i -- %20
+  mi -- cis su -- is in por --
+  ta. et Spi --
+  ri -- tu -- i San -- cto,
+
+  a -- _ _ %28
+  _ _ _ men,
+  %30
+  a --
+  _ _ _ _
+  _ men. %33 finis
+}
+
+H-I-VIILaudaSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoH-I-VIILauda
+    \mvDl e'4\fE^\tutti e, e'8 e
+    e4 e, e'
+    d8([ e)] d([ c)] h([ d)]
+    c4. d8 e4
+    c2 d4 %5
+    d2 e4
+    e8 f d2
+    e4 r r
+    \mvTr c4.\pE^\solo d8 e([ f)]
+    e4. d8 e h %10
+    c4 d e
+    f8([ e)] d([ c)] h([ a)]
+    a4 gis r
+    R2.*4 %17
+    e'4 e e
+    e4. d8 e h
+    c4 a r %20
+    r8 a a h16 c d8 c
+    h16([ c h c)] d4 h8 d
+    c d \appoggiatura c4 h2
+    c4 r r
+    R2.*3 %27
+    r4 c c8 c
+    d2 e4
+    f!8 d f4 f8 f %30
+    e([ d)] e4 r
+    R2.*5 %36
+    \mvTr c4\fE^\tutti c d
+    e2 d4
+    e e8 e e e
+    c4. c8 e4 %40
+    d d d8([ c)]
+    d([ e)] f4. f8
+    e4 e d
+    c e dis
+    e2( dis4) %45
+    e \mvTr h\pE^\solo e
+    d! c4. c8
+    h4 e8 d e h
+    c4 a c~
+    c8 d h4. h8 %50
+    c4 d2
+    h4 c d
+    e d8([ c)] h([ a)]
+    g4 g( fis)
+    g r r %55
+    R2.*2
+    r4 e'4. d8
+    c h a2
+    g4 f4. f8 %60
+    e4 r r
+    R2.
+    \after 4 \tempoH-I-VIILaudaB R2.*4 %66
+    \mvTr g4\fE^\tuttiE c h
+    e d8[ c] h4
+    c a2
+    h4 h e %70
+    d g f!8[ e]
+    d4 c4. d8
+    e4. c8[ e f]
+    g4 f8[ e] d4
+    e d2 %/5
+    e r4\fermata \bar "|." %76 finis
+  }
+}
+
+H-I-VIILaudaSopranoLyrics = \lyricmode {
+  Lau -- da, lau -- da,
+  lau -- da Ie --
+  ru -- sa -- lem,
+  Do -- mi -- num,
+  lau -- da %5
+  De -- um
+  tu -- um, Si --
+  on.
+  Quo -- ni -- am
+  con -- for -- ta -- vit %10
+  se -- ras por --
+  ta -- rum tu --
+  a -- rum,
+
+  E -- mit -- tet %18
+  ver -- bum su -- um
+  ter -- rae, %20
+  ve -- lo -- ci -- ter cur -- rit
+  ser -- mo, cur -- rit
+  ser -- mo e --
+  ius.
+
+  Mit -- tit cry -- %28
+  stal -- lum
+  su -- am si -- cut buc -- %30
+  cel -- las,
+
+  E -- mit -- tet %37
+  ver -- bum
+  su -- um et li -- que --
+  fa -- ci -- et %40
+  e -- a, fla --
+  bit spi -- ri --
+  tus e -- ius,
+  et flu -- ent
+  a -- %45
+  quae. Non fe --
+  cit ta -- li --
+  ter o -- mni na -- ti --
+  o -- ni, et __
+  iu -- di -- ci -- %50
+  a su --
+  a non ma --
+  ni -- fe -- sta --
+  vit e --
+  is. %55
+
+  si -- cut
+  e -- rat in
+  prin -- ci -- pi --
+  o %60
+
+  a -- _ _ %67
+  _ _ _
+  men, a --
+  men, a -- _ %70
+  _ _ _
+  men, a -- _
+  _ _
+  _ _ _
+  men, a -- %75
+  men. %76 finis
+}
+
+H-I-VIIMagnificatSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoH-I-VIIMagnificat
+    R1*2
+    r4 r8 \mvTr f\pE^\solo g c c b
+    a16 a d8 d c16 c b4. a8
+    a8. a16 d8 c c([ h)] c4 %5
+    R1
+    a8 a a h16 cis d8 e f e16 d
+    c8.([ b16)] a4 r2
+    \mvTr c8\fE^\tutti c a16 a f a c2
+    c4 \mvTr b8\pE^\solo c d d d16([ a)] fis([ d)] %10
+    b'8 c16 d es8 g, fis4 r
+    r2 r4 f8 c'
+    d d16 d c8 c b8. b16 b8 b
+    b a16 b g4 f r
+    R1*4 %18
+    r8 d' e8. e16 a,8 d c b16 a
+    b8 c16 d c4 c r %20
+    R1
+    r4 r8 \mvTr cis\fE^\tutti d d c8. c16
+    c c c c c8 f d16 d c c h8 h16 h
+    c8 c16 c c8. c16 c8 \mvTr a8.\pE^\solo a16 h8
+    c c r4 r2 %25
+    r4 a8 a b!16 b c d c8. b16
+    a4 r r2
+    \tempoH-I-VIIMagnificatB R1
+    r8 \mvTr c4\fE^\tutti f8 e[ d] c[ d16 e]
+    f8[ c] d4. c4 h8 %30
+    c4 r r2
+    r8 f,4 b!8 a[ d c f]
+    e[ d] c4. c8 c4
+    c2 r\fermata \bar "|." %34 finis
+  }
+}
+
+H-I-VIIMagnificatSopranoLyrics = \lyricmode {
+  et ex -- ul -- ta -- vit %3
+  spi -- ri -- tus me -- us in De -- o
+  sa -- lu -- ta -- ri me -- o. %5
+
+  Ec -- ce e -- nim ex hoc be -- a -- tam me
+  di -- cent
+  o -- mnes ge -- ne -- ra -- ti -- o --
+  nes. Qui -- a fe -- cit mi -- hi %10
+  ma -- gna, qui po -- tens est,
+  a pro --
+  ge -- ni -- e in pro -- ge -- ni -- es ti --
+  men -- ti -- bus e -- um.
+
+  et di -- vi -- tes di -- mi -- sit in -- %19
+  a -- nes, in -- a -- nes. %20
+
+  Si -- cut lo -- cu -- tus
+  est ad pa -- tres no -- stros, A -- bra -- ham et se -- mi -- ni
+  e -- ius in sae -- cu -- la. Glo -- ri -- a
+  Pa -- tri, %25
+  si -- cut e -- rat in prin -- ci -- pi --
+  o
+
+  a -- _ _ _
+  _ _ _ _ %30
+  men,
+  a -- _ _
+  _ _ men, a --
+  men. %34 finis
+}

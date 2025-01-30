@@ -14,3 +14,4 @@ sources:
 tocstyle: default
 toe: |
   2 & 17 & A & bar missing in \B1 \\
+  6 & 5  & A & 2nd \sixteenthNote\ in \B1: c′16 \\
