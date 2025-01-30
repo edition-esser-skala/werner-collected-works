@@ -1,5 +1,17 @@
 # Changelog
 
+## 2025.01.0 – 2025-01-30
+
+### Added
+
+- works: WerW D.1.9, D.4.9 (only source code), E.28, F.31/59, G.3, H.1.7, and O.1
+- global macro `\skips`
+
+### Changed
+
+- renumberd WerW C.S3 → C.S4
+
+
 ## 2024.12.0 – 2024-12-30
 
 ### Added
