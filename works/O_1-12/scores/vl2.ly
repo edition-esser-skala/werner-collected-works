@@ -19,7 +19,7 @@
 
 \book {
   \bookpart {
-    \section "O.1" "Il Gennáro, oder im Jenner"
+    \section "O.1" "Il Gennàro, oder im Jenner"
     \addTocEntry
     \paper { system-count = #16 }
     \score {
@@ -55,6 +55,55 @@
     \score {
       <<
         \new Staff { \O-IdViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "O.2" "Il Febbràro, im Hornung"
+    \addTocEntry
+    \paper { system-count = #14 }
+    \score {
+      <<
+        \new Staff { \O-IIaViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper { system-count = #5 }
+    \score {
+      <<
+        \new Staff { \O-IIbViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \paper { page-count = #1 }
+    \score {
+      <<
+        \new Staff { \O-IIcViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \paper { system-count = #5 }
+    \score {
+      <<
+        \new Staff { \O-IIdViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-IIeViolinoII }
       >>
     }
   }

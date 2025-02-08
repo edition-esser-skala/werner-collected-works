@@ -40,6 +40,28 @@ markGennaroIV = \markTitle
   "4. Il Villano fantaſtico."
   "Der aberwitzige Baur."
 
+markFebbraroI = \markTitle
+  "1. Il Carnevale."
+  "Die Faßnacht."
+markFebbraroIIa = \markTitle
+  "2. Menuet il Giorno di 10. hore."
+  "Die Tags-Länge 10. Stund, …"
+markFebbraroIIb = \markTitle
+  "La Notte di 14. hore."
+  "… die Nacht 14. Stund."
+markFebbraroIII = \markTitle
+  "3. Le Nozze d’Arleghino."
+  "Hochzeit des Hanßwurſt."
+markFebbraroIVa = \markTitle
+  "4. Menuet il Giorno di 11. hore."
+  "Die Tags-Länge 11. Stund, …"
+markFebbraroIVb = \markTitle
+  "La notte di 13. hore."
+  "… die Nacht 13. Stund."
+markFebbraroV = \markTitle
+  "5. La Maſcara."
+  "Maſqueraden."
+
 \layout {
   \set Score.doubleRepeatBarType = #":|.|:"
 }
@@ -50,6 +72,12 @@ tempoO-Ia = \tempoMarkup "Allegro"
 tempoO-Ib = \tempoMarkup "Allegro"
 tempoO-Ic = \tempoMarkup "Cantabile"
 tempoO-Id = \tempoMarkup "Allegro"
+
+tempoO-IIa = \tempoMarkup "Vivace"
+tempoO-IIb = \tempoMarkup "[Tempo deest]"
+tempoO-IIc = \tempoMarkup "Allegro. Allabreve"
+tempoO-IId = \tempoMarkup "[Tempo deest]"
+tempoO-IIe = \tempoMarkup "Allegro"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

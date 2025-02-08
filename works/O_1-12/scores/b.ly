@@ -19,7 +19,7 @@
 
 \book {
   \bookpart {
-    \section "O.1" "Il Gennáro, oder im Jenner"
+    \section "O.1" "Il Gennàro, oder im Jenner"
     \addTocEntry
     \paper { system-count = #15 }
     \score {
@@ -55,6 +55,54 @@
     \score {
       <<
         \new Staff { \O-IdBassoContinuo }
+      >>
+    }
+  }
+  \bookpart {
+    \section "O.2" "Il Febbràro, im Hornung"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-IIaBassoContinuo }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \O-IIbBassoContinuo }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-IIcBassoContinuo }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \O-IIdBassoContinuo }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \paper { system-count = #8 }
+    \score {
+      <<
+        \new Staff { \O-IIeBassoContinuo }
       >>
     }
   }

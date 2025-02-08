@@ -227,3 +227,289 @@ O-IdViolinoII = {
     c4\fermata \bar ":|." %176 finis
   }
 }
+
+O-IIaViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key d \major \time 2/4 \tempoO-IIa
+      \markFebbraroI
+    a''8-!\fE r h-! r
+    cis, d~ \tuplet 6/4 4 { d16 e fis g a h }
+    cis,8 d \tuplet 6/4 4 { d,16\p e fis g a h }
+    cis,8 d \tuplet 6/4 4 { r16 d'\f e fis e d }
+    cis a' cis a h, gis' h \hA gis %5
+    a4 \tuplet 6/4 4 { r16 d,,\p e fis e d }
+    cis a' cis a h, gis' h \hA gis
+    a e a h cis\f d e8~
+    e d4 cis8
+    d a16 fis d4 %10
+    \tuplet 6/4 4 { r16 e' d cis d e r d cis h cis d
+    cis e d cis h a } e'4~
+    e8 d4 cis8~
+    cis h4 a8~
+    a g4 fis8~ %15
+    fis16 e h'8 e,8. fis32 g
+    \tuplet 6/4 4 { a16 fis' fis fis fis fis e d cis e d cis
+    d fis, fis fis fis fis e d cis e d cis }
+    d fis' fis( e) r d, d( cis)
+    r h'' h( a) r gis, gis( fis) %20
+    r e' e( d) r cis cis( h)
+    \tuplet 6/4 4 { a a a a a a a a a a a a
+    a\p a a a a a a a a a a a
+    a\f h cis d cis h } a8 h\trill \noBreak
+    \tuplet 6/4 4 { a16 a' e cis e cis } a8 r \bar ":|.|:" %25
+    \repeat volta 2 {
+      e'-! r fis-! r \noBreak
+      gis, a~ \tuplet 6/4 4 { a16 h cis d e fis }
+      gis,8 a~ \tuplet 6/4 4 { a16 h cis d e fis }
+      ais,8 h r h~
+      h g! e a~ %30
+      a fis d g~
+      g e cis fis
+      \tuplet 3/2 8 { fis16 fis fis } fis8 \tuplet 3/2 8 { fis16 fis fis } fis8
+      \tuplet 6/4 4 { h16 h h h h h h h h h h h
+      h h h h h h e e e e, e e %35
+      dis h' cis dis e fis g e, fis g a h
+      c h a g fis e } h'8 h,
+      e16. e'32 e16. cis32 \tuplet 3/2 8 { cis16 d e } d[ cis]
+      d16. fis32 fis8~ fis16. fis32 e16 d
+      cis16. e32 a,16 h cis d e8~ %40
+      e d4 cis8
+      d a16 fis d4
+      \tuplet 6/4 4 { r16 e' d cis d e r d cis h cis d
+      cis e d cis h a } e'4~
+      e8 d4 cis8~ %45
+      cis h4 a8
+      h8. h16 e,8. fis32 g
+      \tuplet 6/4 4 { a16 fis' fis fis fis fis e d cis e d cis
+      d d d d d d cis h a g fis e }
+      fis16. a'32 h,16. d32 g,16. h'32 cis,16. e32 %50
+      a,16. cis'32 d,16. fis32 h,16. g'32 e16. g32
+      cis,16. a'32 fis16. a32 d,16. fis32 h,16. d32
+      g,16. h32 e,16. g32 \tuplet 6/4 4 { cis,16 e' d cis h a
+      d d d d d d d d d d d d
+      d\p d d d d d d d d d d d %55
+      d\f e fis g fis e } d8 e\trill
+    }
+    \alternative {
+      { \tuplet 6/4 4 { d16 d' a fis a fis } d8 r }
+      { \tuplet 6/4 4 { d16 d' a fis a fis } d8 r\fermata }
+    } \bar "||" %%8 finis
+  }
+}
+
+O-IIbViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoO-IIb
+      \set Score.currentBarNumber = #59
+      \markFebbraroIIa
+    \repeat volta 2 {
+      d'2.\fE
+      fis16([ e8.) d16( cis8.) h16( a8.)] %60
+      g4~ \tuplet 3/2 4 { g8 a h } a g
+      g4 fis8( g) g8.\trill fis32 g
+      a8 d, \afterGrace fis'4 e8 \afterGrace d4 cis8
+      h16([ h'8.) g16( fis8.) e16( d8.)]
+      cis8( d) e( a,) \tuplet 3/2 4 { fis' g a } %65
+      \grace fis e2 r4
+      cis,8\p d e a, \tuplet 3/2 4 { fis' g a }
+    }
+    \alternative {
+      { \grace fis8 e2 r4 }
+      { \grace fis8 e2 r4 }
+    }
+    \markFebbraroIIb \repeat volta 2 {
+      e'2\f fis4 \noBreak %70
+      g16([ e8.) cis16( a8.) fis16( d8.)]
+      e'2\p fis4
+      g16([ e8.) cis16( a8.) fis16( d8.)]
+      e16([ fis8.) fis16( g8.) gis16( a8.)]
+      \grace fis8 e2 r4 %75
+      a2.\f
+      \grace h8 h,2.
+      cis'
+      \grace d8 d,2.
+      e'16([ d8.) cis16( h8.) a16( g8.)] %80
+      fis8( d) d'4~ d8 a
+      \tuplet 3/2 4 { h d, g } \grace fis e2\trill
+    }
+    \alternative {
+      { d2. }
+      { d\fermata }
+    }
+  } \bar "||" %84 finis
+}
+
+O-IIcViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \major \time 2/2 \tempoO-IIc
+      \set Score.currentBarNumber = #85
+      \markFebbraroIII
+    \repeat volta 2 {
+      \tuplet 3/2 4 { d8\fE cis d fis[ e fis] a g a d[ cis d] }
+      fis( d) cis( h) a2
+      h8( g) fis( e) d4 a8 g'
+      fis4 d2 a8(\p cis)
+      d( fis) cis( e) d( fis) cis( e)
+      d d'\f a fis d4 d' %90
+      cis a h gis
+      a e8 cis a4 a'
+      gis e fis dis
+      e gis8( e) \hA gis4\p a
+      h4. a16 gis fis4 \hA gis %95
+      a4. gis16 fis e4 fis
+      gis h8( a) a( \hA gis) h( a)
+      a4\trill gis8 a h\f cis d h
+      \tuplet 3/2 4 { a h cis } cis4-! a'8 cis, cis4-!
+      \tuplet 3/2 4 { a8 h cis } cis4-! a'8 cis, cis4-! %100
+      cis4. a'8 fis4-! gis,-!
+    }
+    \alternative {
+      { a2 r }
+      { a r }
+    }
+    \repeat volta 2 {
+      \tuplet 3/2 4 { cis8 h cis d[ cis d] e d e cis[ h cis]
+      d cis d h[ a h] } cis4 a %105
+      \tuplet 3/2 4 { cis,8\p h cis d[ cis d] e d e cis[ h cis]
+      d cis d h[ a h] } cis4 a
+      r2 r4 fis''\f
+      h, d g8 g, fis fis'
+      \tuplet 3/2 4 { e fis e d[ e d] } cis cis, h h' %110
+      a4 cis fis8 fis, e e'
+      \tuplet 3/2 4 { d e d cis[ d cis] } h h, a a'
+      g4 h e8 e, d d'
+      cis4 h16( d8.) cis16([ ais8.) fis16( h8.)]
+      cis4 h16( d8.) cis16([ ais8.) fis16( h8.)] %115
+      cis16( d8.) \tuplet 3/2 4 { d8 cis d e d cis } cis[ e]
+      \tuplet 3/2 4 { d cis d fis[ e fis] h, ais h } h'8. a?16
+      g8 fis16 e d8 cis h4 ais
+      h2 r
+      \tuplet 3/2 4 { d,8 cis d fis[ e fis] a g a d[ cis d] } %120
+      h g \tuplet 3/2 4 { d[ cis d] h a h } g4
+      \tuplet 3/2 4 { e'8 d e gis[ fis \hA gis] h a h e[ d e] }
+      cis[ a] \tuplet 3/2 4 { e d e cis h cis } a4
+      cis'16([\p e8.) d16( fis8.)] e,16([ g!8.) fis16( a8.)]
+      cis16([ e8.) d16( fis8.)] e,16([ g8.) fis16( a8.)] %125
+      cis16([ e8.) a,16( g8.)] \slurDashed fis16[( d8.) a16( d8.]) \slurSolid
+      \grace d8 cis4. d8\f e fis g e
+      \tuplet 3/2 4 { d e fis } fis4-! d'8 fis, fis4-!
+      \tuplet 3/2 4 { d8 e fis } fis4-! d'8 fis, fis4-!
+      fis4. d'8 h4 cis, %130
+    }
+    \alternative {
+      { d2 r }
+      { d r\fermata }
+    } \bar "||" %132 finis
+  }
+}
+
+O-IIdViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoO-IId
+      \set Score.currentBarNumber = #133
+      \markFebbraroIVa
+    \repeat volta 2 {
+      a''4.\fE g16( fis) e4
+      \tuplet 3/2 4 { fis8 e d } \grace d cis2
+      d4. cis16( h) a8 g %135
+      \tuplet 3/2 4 { fis e d } \grace d cis2
+      d4. e16 fis e4
+      \tuplet 3/2 4 { fis8 g a } \grace a g2
+      fis4. gis16 a \hA gis4
+      a \tuplet 3/2 4 { h8 cis d cis[ h a] } %140
+      gis4 gis' a16( e8.)
+      \tuplet 3/2 4 { fis8 fis, h } gis2\trill
+    }
+    \alternative {
+      { a r4 }
+      { a2 r4 }
+    }
+    \markFebbraroIVb \repeat volta 2 {
+      e'4. fis16 g! a4 %145
+      \tuplet 3/2 4 { g8 fis e } \grace e dis2
+      e4 c' h8( a)
+      \tuplet 3/2 4 { g fis e } \grace e dis2
+      e4. fis16 g a4
+      \tuplet 3/2 4 { fis8 e d! } \grace d cis2 %150
+      d4 h' a8( g)
+      \tuplet 3/2 4 { fis e d } \grace d cis2\trill
+      d4. e16 fis e4
+      a8( a,) \grace a g2
+      fis16( a8.) g16( h8.) a16( d8.) %155
+      \tuplet 3/2 4 { h8 a g } fis( e) d( cis)
+    }
+    \alternative {
+      { d2 r4 }
+      { d2 r4\fermata }
+    } \bar "||" %158 finis
+  }
+}
+
+O-IIeViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/8 \tempoO-IIe
+      \set Score.currentBarNumber = #159
+      \markFebbraroV
+    \repeat volta 2 {
+      \afterGrace d'2\fE { d16( cis h) }
+      \afterGrace a2 { g16( fis e) } %160
+      d16 e fis d a8 g'
+      fis d r4
+      d16\p e fis d a8 g'
+      fis d r4
+      \grace { d'16 e } fis4\f \grace { fis16 g } a4 %165
+      e8-! gis,-! a4
+      d16( e) fis( e) d( cis) h( a)
+      gis a h8 e,4
+      gis32( a h8.) a32( h cis8.)
+      h8 gis16 h e,4 %170
+      gis32(\p a h8.) a32( h cis8.)
+      h8 gis16 h e,8 h'\f
+      cis[-! a-! d-! h]-!
+      e16 d cis d e fis gis e
+      a8. gis32 fis e8 d %175
+      cis16 d cis d e8 fis
+      cis h16 a h4\trill
+    }
+    \alternative {
+      { a r }
+      { a r }
+    }
+    \repeat volta 2 {
+      R2 %180
+      h,4. cis16 d
+      e4. d8
+      cis4~ cis16[ d] d16.\trill cis64 d
+      e4.\p d8
+      cis4 r8 d'\f %185
+      cis16([ d)] d16.\trill cis64 d e4
+      cis16([ d)] d16.\trill cis64 d e4
+      cis16([\p d)] d16.\trill cis64 d e4~
+      e16 g\f fis e d8 cis
+      d16 fis h, d cis8 ais %190
+      h4 r
+      d,16( fis) a!( d) fis( d) a'( c,)
+      \grace c8 h4 r
+      e,16 gis h e gis( e) h'( d,)
+      \grace d8 cis!4 r %195
+      cis32( d e8.) d32( e fis8.)
+      e8 cis16( e) a,4
+      cis,32(\p d e8.) d32( e fis8.)
+      e8 cis16 e a,8 e''\f
+      fis[-! d-! g-! e]-! %200
+      a16 g fis g a h cis a
+      d8. cis32 h a8 g
+      fis16 g fis g a8 h
+      fis e16 d e4\trill
+    }
+    \alternative {
+      { d r } %205
+      { d r\fermata }
+    } \bar "|." %206 finis
+  }
+}

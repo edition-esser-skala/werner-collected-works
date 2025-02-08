@@ -19,7 +19,7 @@
 
 \book {
   \bookpart {
-    \section "O.1" "Il Gennáro, oder im Jenner"
+    \section "O.1" "Il Gennàro, oder im Jenner"
     \addTocEntry
     \paper { system-count = #15 }
     \score {
@@ -59,6 +59,59 @@
       <<
         \new Staff { \O-IdBassoContinuo }
         \new FiguredBass { \O-IdBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "O.2" "Il Febbràro, im Hornung"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-IIaBassoContinuo }
+        \new FiguredBass { \O-IIaBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \O-IIbBassoContinuo }
+        \new FiguredBass { \O-IIbBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-IIcBassoContinuo }
+        \new FiguredBass { \O-IIcBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \O-IIdBassoContinuo }
+        \new FiguredBass { \O-IIdBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \paper { system-count = #8 }
+    \score {
+      <<
+        \new Staff { \O-IIeBassoContinuo }
+        \new FiguredBass { \O-IIeBassFigures }
       >>
     }
   }
