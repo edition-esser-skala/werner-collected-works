@@ -7,11 +7,32 @@
 
 \book {
   \bookpart {
-    \section "P.3" "Symphonia"
+    \section "1" "Allegro assai"
     \addTocEntry
+    \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \P-IIIViolinoII }
+        \new Staff { \P-IIIaViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Larghetto"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \P-IIIbViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Allabreve"
+    \addTocEntry
+    \paper { system-count = #14 }
+    \score {
+      <<
+        \new Staff { \P-IIIcViolinoII }
       >>
     }
   }

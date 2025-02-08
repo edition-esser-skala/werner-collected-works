@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-P-IIIViolinoII = {
+P-IIIaViolinoII = {
   \relative c' {
     \clef treble
     \twofourtime \key b \major \time 2/4 \tempoP-IIIa
@@ -97,11 +97,18 @@ P-IIIViolinoII = {
       d, f b, d \noBreak
     }
     \alternative {
-      { d,4 r \noBreak }
+      { d,4 r }
       { d r\fermata }
-    } \bar "||"
-    \time 3/4 \tempoP-IIIb \newSpacingSection
-      b'2.~ \noBreak
+    } \bar "||" %88 finis
+  }
+}
+
+P-IIIbViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/4 \tempoP-IIIb
+      \set Score.currentBarNumber = #89
+    b'2.~\fE
     b2 g8 c~ %90
     \tuplet 3/2 4 { c b a b a g a g fis }
     g2.
@@ -122,6 +129,107 @@ P-IIIViolinoII = {
     a d, a'4 d~
     d b8 c d es
     f!4 b, c\trill
-    d2 r4 \markDaCapo \bar "||" %110 finis
+    d2 r4 \bar "||" %110 finis
+  }
+}
+
+P-IIIcViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key b \major \time 2/2 \tempoP-IIIc
+      \set Score.currentBarNumber = #111
+    R1*4 %114
+    r2 es4\fE f %115
+    g a b c
+    d es f g8 a
+    b1
+    a2 f,
+    c'2. d8 e %120
+    f2. e8 d
+    c4 b a g
+    f e d c
+    b1
+    a2 r %125
+    f''2. e8 d
+    e2. d8 c
+    d2 g
+    c,2. d8 c
+    b4 d c b %130
+    a f b2~
+    b4 a a b8 c
+    d4 es f g
+    a a b c d
+    c b a %135
+    g2 c~
+    c4 d a b~
+    b c g a~
+    a b fis \once \tieDashed g~
+    g a e fis %140
+    g a b g,8 a
+    b2 es
+    a,4 d2 c4
+    b g b a8 g
+    d'2 d, %145
+    r4 b' f! g
+    a2. b8 c
+    d2. c8 b
+    a4 g f e
+    d d' a h8 c! %150
+    d2 h
+    g4 c g a8 b
+    c2 a
+    f4 b f g8 a
+    b4 a g b %155
+    a1
+    a
+    a
+    R
+    r2 g4 a %160
+    b c d e
+    f f e d
+    cis8 d e4 d \hA cis
+    r d c b
+    a8 b c4 b a %165
+    r b a g
+    fis8 g a4 g \hA fis
+    g d g2~
+    g4 a8 b c4 b
+    a g f!2~ %170
+    f4 g8 a b4 a
+    g f es2~
+    es4 f8 g a4 g
+    f es d2~
+    d4 e8 f g4 f %175
+    e2 f
+    c'2. d8 e
+    f2. e8 d
+    c4 b a g
+    f e d c %180
+    b2 b
+    a r
+    r4 f'' g f
+    e2 f~
+    f es~ %185
+    es d
+    c1
+    f,4 b f g
+    a a b c
+    d c b a %190
+    g2 c~
+    c4 d a b
+    c d es2~
+    es \once \tieDashed d~
+    d4 es8 d c4 b %195
+    a f'2 es4
+    d c b c
+    a f g a
+    b c d es
+    f2. g4 %200
+    d2 c
+    b4 d, es f
+    b,2. c4
+    b b' b,2~
+    b a %205
+    b r\fermata \bar "|." %206 finis
   }
 }

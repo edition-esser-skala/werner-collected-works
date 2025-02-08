@@ -12,7 +12,7 @@
 
 \book {
   \bookpart {
-    \section "P.3" "Symphonia"
+    \section "1" "Allegro assai"
     \addTocEntry
     \paper { indent = 2\cm }
     \score { %\articulate
@@ -22,27 +22,93 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \P-IIIViolinoI
+              \P-IIIaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \P-IIIViolinoII
+              \P-IIIaViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "Viola"
-            \P-IIIViola
+            \P-IIIaViola
           }
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
             % \transpose c c,
-            \P-IIIContinuo
+            \P-IIIaContinuo
           }
-          \new FiguredBass { \P-IIIBassFigures }
+          \new FiguredBass { \P-IIIaBassFigures }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 120 } % 80
+      \midi { \tempo 4 = 120 }
+    }
+  }
+  \bookpart {
+    \section "2" "Larghetto"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \P-IIIbViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \P-IIIbViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \P-IIIbViola
+          }
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \P-IIIbContinuo
+          }
+          \new FiguredBass { \P-IIIbBassFigures }
+        >>
+      >>
+      \layout { }
+      \midi { \tempo 4 = 80 }
+    }
+  }
+  \bookpart {
+    \section "3" "Allabreve"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \P-IIIcViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \P-IIIcViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \P-IIIcViola
+          }
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \P-IIIcContinuo
+          }
+          \new FiguredBass { \P-IIIcBassFigures }
+        >>
+      >>
+      \layout { }
+      \midi { \tempo 2 = 120 }
     }
   }
 }

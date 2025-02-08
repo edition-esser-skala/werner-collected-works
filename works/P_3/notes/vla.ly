@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-P-IIIViola = {
+P-IIIaViola = {
   \relative c' {
     \clef alto
     \twofourtime \key b \major \time 2/4 \tempoP-IIIa
@@ -97,11 +97,18 @@ P-IIIViola = {
       f' r\noBreak
     }
     \alternative {
-      { f r \noBreak }
+      { f r }
       { f r\fermata }
-    } \bar "||"
-    \time 3/4 \tempoP-IIIb \newSpacingSection
-      g2.~ \noBreak
+    } \bar "||" %88 finis
+  }
+}
+
+P-IIIbViola = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 3/4 \tempoP-IIIb
+      \set Score.currentBarNumber = #89
+    g'2.~\fE
     g2 es4 %90
     r r r8 d
     d4. b8 g b
@@ -122,6 +129,105 @@ P-IIIViola = {
     r8 a' d a fis d
     g, b d c b c
     d4 es2
-    a, r4 \markDaCapo \bar "||" %110 finis
+    a, r4 \bar "||" %110 finis
+  }
+}
+
+P-IIIcViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key b \major \time 2/2 \tempoP-IIIc
+      \set Score.currentBarNumber = #111
+    R1*4 %114
+    r2 c4\fE d %115
+    es f g a
+    b2 f
+    g1
+    c,
+    R1*3 %122
+    r2 g4 a
+    b c d e
+    f2 e %125
+    d g
+    c, f
+    b, b'~
+    b a
+    g1 %130
+    \once \tieDashed f~
+    f4 c f es
+    d b8 c d4 es
+    f f, f' es
+    d2 es4 f %135
+    g1
+    f
+    es
+    d
+    c2 a' %140
+    d,1
+    r2 g,
+    d'2. e8 fis
+    g2. fis8 e
+    d4 c b a %145
+    g g' d es!
+    f!2 f,
+    r4 b' f g
+    a2 a,
+    r4 d d' c! %150
+    h2 g
+    r4 c, c' b
+    a2 f
+    r4 b, b' a
+    g1~ %155
+    g2 f
+    e1
+    d4 f e d
+    e f8 g a4 g
+    f es d c %160
+    b1
+    a2 b
+    a1~
+    a2 g
+    a f' %165
+    d es
+    d1
+    d4 b'8 a g4 f
+    es d c2
+    r4 c f es %170
+    d c b2
+    r4 b es d
+    c b a2
+    r4 a d c
+    b a g a8 b %175
+    c2 f, ~
+    f e
+    c'4 b a2
+    g c
+    r4 f, g a %180
+    b c d e
+    f2 e
+    d1
+    c2 d
+    b c4 b %185
+    a2 b~
+    b4 a a b8 c
+    d4 b8 c d4 es
+    f f, f' es
+    d2. es8 f %190
+    g1
+    f
+    g2 c
+    f,1
+    g %195
+    a4 a b c
+    f,2. es8 d
+    c4 a b c
+    f, f'2 es8 d
+    c2 d4 b %200
+    f'2 f
+    r4 b, c d
+    es f g a
+    b g d es
+    f2 f, %205
+    b r\fermata \bar "|." %206 finis
   }
 }

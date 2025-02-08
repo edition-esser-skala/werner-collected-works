@@ -10,6 +10,7 @@ sources:
     rism: 603000465
     license: public domain
     principal: true
+tocstyle: default
 toe: |
-  96  & vla & last \eighthNote\ in \B1: \flat e″8 \\
-  110 & bc  & bar in \B1: d2. \\
+  1 & 96  & vla & last \eighthNote\ in \B1: \flat e″8 \\
+    & 110 & bc  & bar in \B1: d2. \\

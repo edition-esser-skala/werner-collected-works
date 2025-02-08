@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-P-IIIViolinoI = {
+P-IIIaViolinoI = {
   \relative c' {
     \clef treble
     \twofourtime \key b \major \time 2/4 \tempoP-IIIa
@@ -94,14 +94,21 @@ P-IIIViolinoI = {
       d,16 f' g a b8 b,
       d4 c\trill
       b8 d' b d %85
-      f, b d, f \noBreak
+      f, b d, f
     }
     \alternative {
-      { b,4 r \noBreak }
+      { b,4 r }
       { b r\fermata }
-    } \bar "||"
-    \time 3/4 \tempoP-IIIb \newSpacingSection
-      d2.~ \noBreak
+    } \bar "||" %88 finis
+  }
+}
+
+P-IIIbViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/4 \tempoP-IIIb
+      \set Score.currentBarNumber = #89
+    d'2.~\fE
     d2 es4~ %90
     \tuplet 3/2 4 { es8 d c d c b c b a }
     b4 g r
@@ -122,6 +129,109 @@ P-IIIViolinoI = {
     g fis r8 \hA fis
     g d g a b4
     a g2
-    fis r4 \markDaCapo \bar "||" %110 finis
+    fis r4 \bar "||" %110 finis
+  }
+}
+
+P-IIIcViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key b \major \time 2/2 \tempoP-IIIc
+      \set Score.currentBarNumber = #111
+    b'1\fE
+    f'2. g8 a
+    b2. a8 g
+    f4 es d c
+    b a g f %115
+    es1
+    d2 r4 c'
+    b c d e
+    f f, f'2~
+    f e %120
+    d4 c8 b a4 b
+    c2. b4
+    a8 f g a b4 c
+    d e? f g
+    a b c2~ %125
+    c b~
+    b a~
+    a4 g8 f e4 d
+    e c f2~
+    f es~ %130
+    es d
+    c1\trill
+    b
+    R
+    r2 g4 a %135
+    b c d es
+    f b, c d
+    es a, b c
+    d g, a b
+    c fis, g a %140
+    b c d es8 f!
+    g4 b a g
+    fis fis g a
+    d,2. e4
+    fis2. g8 a %145
+    b2. a8 g
+    f!4 es! d c
+    b8 a b c d2~
+    d cis
+    f1~ %150
+    f4 d g f
+    es!1~
+    es4 c f es
+    d1~
+    d4 f e d %155
+    cis a d2~
+    d4 cis cis d8 e
+    f4 f g a
+    cis, cis d e
+    a, a b c %160
+    d e f g
+    a a g f
+    e8 f g4 f e
+    r f es d
+    c8 d es4 d c %165
+    r d c b
+    a8 b c4 b a
+    b2. c8 d
+    es2. f8 g
+    a,2. b8 c %170
+    d2. es8 f
+    g,2. a8 b
+    c2. d8 es
+    f,2. g8 a
+    b2. c8 d %175
+    e,4 c' a b
+    g1
+    f
+    R
+    r4 a b c %180
+    d e f g
+    a b c2~
+    c b~
+    b a
+    g1 %185
+    f
+    f
+    R1*2
+    r2 g,4 a %190
+    b c d es
+    f b, c d
+    es f g a
+    b2. a4
+    g f es d %195
+    c f, g a
+    b c d es
+    f2. es4
+    d c b c
+    a f b2~ %200
+    b a
+    b2. a4
+    g f es f
+    d8 es d es f4 g
+    d2 c\trill %205
+    b r\fermata \bar "|." %206 finis
   }
 }

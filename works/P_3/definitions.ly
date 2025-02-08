@@ -2,6 +2,7 @@
 
 tempoP-IIIa = \tempoMarkup "Allegro assai"
 tempoP-IIIb = \tempoMarkup "Larghetto"
+tempoP-IIIc = \tempoMarkup "Allabreve"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
