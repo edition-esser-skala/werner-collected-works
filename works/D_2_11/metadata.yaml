@@ -1,0 +1,28 @@
+title: Lauda Sion
+id: WerW D.2.11
+genre: offertory
+festival: de SS. Sacramento Eucharistia
+scoring: B (solo), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Gdab
+    shelfmark: Bad Aussee, Ms 140
+    url: https://archiv.graz-seckau.at/actaproweb/document/Vz_2a779980-39f9-4523-ae47-261f04eca469
+    license: public domain
+    principal: true
+toe: |
+  6   & vla  & 4th \quarterNote\ in \B1: a4 \\
+  19  & vla  & 1st \quarterNote\ in \B1: e′4 \\
+  22  & org  & 1st \quarterNote\ in \B1: a4 \\
+  67  & vl 1 & bar missing in \B1 \\
+  86  & vl 2 & 4th \quarterNote\ in \B1: e′4 \\
+  94  & vl 1 & 2nd \quarterNote\ in \B1: b″4 \\
+  105 & vla  & 1st \quarterNote\ in \B1: e′4 \\
+  105 & org  & 1st \quarterNote\ in \B1: a4 \\
+  112 & vl 2 & 4th \quarterNote\ in \B1: e″4 \\
+  119 & org  & 2nd \quarterNote\ in \B1: a4 \\
+  128 & vla  & 1st \quarterNote\ in \B1: e′4 \\
+  149 & org  & 1st \halfNote\ in \B1: g2 \\
+parts:
+  B_solo: Basso solo
