@@ -1,0 +1,54 @@
+title: Missa Vicit leo de tribe Juda
+id: WerW B.40
+genre: mass
+scoring: S, A, T, 2 B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G),\\2 vl, 2 vla, vlc solo, b, org solo
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: A 54
+    rism: 600037863
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/704.html
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 2     & vl 2   & 2nd \quarterNote\ in \B1:
+                       c′32–g32–a32–b32–c′32–d′32–e′32–f′32 \\
+    & 12    & S      & 2nd \eighthNote\ in \B1: e″8 \\
+    & 19    & clno 2 & 4th \quarterNote\ in \B1:
+                       g′16–g′32–g′32–e′16–e′32–e′32 \\
+    & 31    & org    & 2nd to 4th \eighthNote\ in \B1: c8–d8–e8 \\
+    & 64f   & B      & last \quarterNote\ of bar 64 in \B1: d16–e16–d16–c16;
+                       1st \eighthNote\ of bar 65: B8 \\
+  2 & 7     & vl 2   & 2nd and 4th \eighthNote\ in \B1: c′′′32–g″32–e″32–g″32 \\
+    & 8     & T      & 5th \eighthNote\ in \B1: b8 \\
+    & 28    & vla 2  & 3rd \eighthNote\ in \B1: f″8 \\
+    & 87    & vl 2   & 3rd \quarterNote\ in \B1:
+                       \semiquaverRest–d′16–\flat e′16–f′16 \\
+    & 91    & vl 2   & 4th/5th \eighthNote\ in \B1: c″4 \\
+    & 94    & vl 2   & last \eighthNote\ in \B1: c″8 \\
+    & 134   & org    & 7th \eighthNote\ of lower voice in \B1: b8 \\
+  3 & 6     & clno 2 & 3rd \halfNote\ in \B1: e″2 \\
+    & 48–64 & org    & Notes in small print have been added by the editor. \\
+    & 88    & T      & 6th/7th \eighthNote\ in \B1: a4 \\
+    & 94    & clno 1 & 6th \sixteenthNote\ in \B1: e″16 \\
+    & 96    & A      & rhythtm of 1st \halfNote\ in \B1:
+                       \quarterNote–\eighthNote–\eighthNote \\
+    & 118   & vl 1   & 6th \sixteenthNote\ in \B1: e″16 \\
+  4 & 6     & A      & 5th \eighthNote\ in \B1: d′8 \\
+    & 13    & –      & In the clno 1, 2, and timp parts of \B1,
+                       the directive \textit{Fiat marche} probably indicates
+                       that these instruments should play an interlude. \\
+    & 18    & org    & 4th \eighthNote\ in \B1: f8 \\
+    & 51    & clno 1 & 6th \eighthNote\ in \B1: g′8 \\
+  6 & 1     & A      & 3rd \halfNote\ in \B1: b′2 \\
+    & 30    & vl 2   & In \B1, the last \quarterNote\ of bar 30 and
+                       the 1st \wholeNote\ of bar 31 are duplicated. \\
+    & 35    & T      & 1st \halfNote\ in \B1: b2 \\
+    & 36    & vl 1   & 12th \eighthNote\ in \B1: c″ \\
+    & 47    & A      & 1st to 3rd \quarterNote\ in \B1: g′4–f′2 \\
+parts:
+  b: Violoncello solo\\Bassi
+  org: Organo solo
+  ottoni: Clarino I, II in C\\Timpani in C–G

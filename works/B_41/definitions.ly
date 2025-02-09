@@ -1,0 +1,30 @@
+\version "2.24.0"
+
+tightNotes = \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
+looseNotes = \revert Score.SpacingSpanner.common-shortest-duration
+
+tempoB-XLIKyrie = \tempoMarkup "Vivace"
+tempoB-XLIGloria = \tempoMarkup "Allegro"
+  tempoB-XLIQuiTollis = \tempoMarkup "Largo"
+  tempoB-XLIQuiSedes = \tempoMarkup "Allegro passato"
+  tempoB-XLIQuoniam = \tempoMarkup "Andante"
+  tempoB-XLICumSancto = \tempoMarkup "Vivace"
+tempoB-XLICredo = \tempoMarkup "Vivace"
+  tempoB-XLIEtIncarnatus = \tempoMarkup "Adagio"
+  tempoB-XLICrucifixus = \tempoMarkup "Tarde"
+  tempoB-XLIEtResurrexit = \tempoMarkup "Vivace"
+  tempoB-XLIEtInSpiritum = \tempoMarkup "Andante"
+  tempoB-XLIEtVitam = \tempoMarkup "Molto vivace"
+tempoB-XLISanctus = \tempoMarkup "Largo"
+  tempoB-XLIPleni = \tempoMarkup "Vivace"
+tempoB-XLIBenedictus = \tempoMarkup "Andante moderato"
+  tempoB-XLIOsanna = \tempoMarkup "Presto"
+tempoB-XLIAgnus = \tempoMarkup "Largo"
+
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"
