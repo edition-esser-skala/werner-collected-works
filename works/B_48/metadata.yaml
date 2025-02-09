@@ -1,0 +1,30 @@
+title: Missa festivalis Memento mei
+id: WerW B.48
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: A 70
+    rism: 600037875
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/722.html
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 4  & T    & 4th \quarterNote\ in \B1: d′8–d′8 \\
+    & 5  & vl 2 & 1st \eighthNote\ in \B1: e″8 \\
+    & 10 & vl 2 & last \sixteenthNote\ in \B1: a′16 \\
+  2 & 2  & vl 2 & 3rd \quarterNote\ in \B1: \sharp f″8–e″16–d″16 \\*
+    & 8  & vl 2 & 1st \quarterNote\ in \B1: \sharp f″8–e″16–d″16 \\
+    & 12 & vl   & 1st \quarterNote\ in \B1: \sharp f″8–e″16–\sharp f″16 \\
+    & 47 & vl 2 & 4th \quarterNote\ in \B1 unison with vl 1 \\
+    & 64 & T    & 6th \eighthNote\ in \B1: e′8 \\
+    & 65 & vl 1 & 13th \sixteenthNote\ in \B1: a″16 \\
+  3 & 3  & A    & 6th/7th \eighthNote\ in \B1: \sharp f′4 \\
+    & 40 & vl 2 & 2nd \quarterNote\ in \B1: e′4 \\
+    & 74 & org  & 2nd/3rd \eighthNote\ in \B1: d″4 \\
+    & 83 & A    & 2nd \quarterNote\ in \B1: e′4 \\
+  4 & 12 & org  & 1st \halfNote\ in \B1: d2 \\
+  6 & 25–28 & org & In \B1, the upper voice is implicated by bass figures. \\
