@@ -1,14 +1,8 @@
 \version "2.24.0"
 
-tempoI-I-XXX = \tempoMarkup "Presto"
-tempoI-I-XXX-b = \tempoMarkup "Adagio"
-tempoI-I-XXX-c = \tempoMarkup "Tarde"
-tempoI-I-XXX-d = \tempoMarkup "Allabreve"
+tempoI-I-XXX = \tempoMarkup "Largo"
 
-\include "notes/vl1.ly"
-\include "notes/vl2.ly"
-\include "notes/S.ly"
-\include "notes/A.ly"
-\include "notes/T.ly"
-\include "notes/B.ly"
+\include "notes/T1.ly"
+\include "notes/T2.ly"
+\include "notes/T3.ly"
 \include "notes/org.ly"

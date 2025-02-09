@@ -5,15 +5,9 @@
 \include "score_settings/full-score.ly"
 
 \paper {
-  top-system-spacing.basic-distance = #10
-  top-system-spacing.minimum-distance = #10
-  top-markup-spacing.basic-distance = #0
-  top-markup-spacing.minimum-distance = #0
-  markup-system-spacing.basic-distance = #10
-  markup-system-spacing.minimum-distance = #10
-  system-system-spacing.basic-distance = #19.5
-  system-system-spacing.minimum-distance = #19.5
-  systems-per-page = #2
+  system-system-spacing.minimum-distance = #22
+  system-system-spacing.minimum-distance = #22
+  systems-per-page = #3
 }
 
 \book {
@@ -23,43 +17,24 @@
     \paper { indent = 3\cm }
     \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "Violino"
-            \new Staff {
-              \set Staff.instrumentName = "I"
-              \I-I-XXX-ViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "II"
-              \I-I-XXX-ViolinoII
-            }
-          >>
-        >>
         \new ChoirStaff <<
           \new Staff {
-            \incipitSoprano
-            \new Voice = "Soprano" { \dynamicUp \I-I-XXX-Soprano }
+            \incipit "Tenore I" "tenor" #-19.8 #-0.8
+            \new Voice = "TenoreI" { \dynamicUp \I-I-XXX-TenoreI }
           }
-          \new Lyrics \lyricsto Soprano \I-I-XXX-SopranoLyrics
+          \new Lyrics \lyricsto TenoreI \I-I-XXX-TenoreILyrics
 
           \new Staff {
-            \incipitAlto
-            \new Voice = "Alto" { \dynamicUp \I-I-XXX-Alto }
+            \incipit "Tenore II" "tenor" #-20.3 #-0.8
+            \new Voice = "TenoreII" { \dynamicUp \I-I-XXX-TenoreII }
           }
-          \new Lyrics \lyricsto Alto \I-I-XXX-AltoLyrics
+          \new Lyrics \lyricsto TenoreII \I-I-XXX-TenoreIILyrics
 
           \new Staff {
-            \incipitTenore
-            \new Voice = "Tenore" { \dynamicUp \I-I-XXX-Tenore }
+            \incipit "Tenore III" "tenor" #-20.8 #-0.8
+            \new Voice = "TenoreIII" { \dynamicUp \I-I-XXX-TenoreIII }
           }
-          \new Lyrics \lyricsto Tenore \I-I-XXX-TenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \I-I-XXX-Basso }
-          }
-          \new Lyrics \lyricsto Basso \I-I-XXX-BassoLyrics
+          \new Lyrics \lyricsto TenoreIII \I-I-XXX-TenoreIIILyrics
         >>
         \new StaffGroup <<
           \new Staff {
@@ -71,7 +46,7 @@
         \new FiguredBass { \I-I-XXX-BassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 120 } % 55 – 60 – 120
+      \midi { \tempo 4 = 60 }
     }
   }
 }

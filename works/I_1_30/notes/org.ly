@@ -2,221 +2,104 @@
 
 I-I-XXX-Organo = {
   \relative c {
-    \clef "treble_8"
-    \key d \dorian \time 4/4 \tempoI-I-XXX
-    \mvTr a'2-!\fE-\tuttiE d,4-! d'~-!
-    d8 cis d e f2
-    e \clef bass d,^\critnote
-    a4 a'4. gis8 a h
-    c!2 h %5
-    r4 a2 g!4
-    f2 e
-    d4. d8 a4 a'
-    g2 d
-    r4 a'2 g4 %10
-    f2 e
-    r4 e f a8 a
-    d, e f2 e8 d
-    c2 f4. e8
-    d2 c %15
-    r4 g'2 f4
-    e2 d
-    a e'
-    r4 e a4. a8
-    f4 g! e c %20
-    f4. f8 d4 e
-    r c d4. d8
-    h4 c a f
-    c'1
-    g2. \clef treble g''4 %25
-    << { c4. c8 a4 } \\ { e2 f4 } >> \clef "treble_8" g,
-    c \clef bass c, f4. f8
-    d4 e c2
-    d4. d8 b4 c
-    a b c2 %30
-    f e
-    d1 \noBreak
-    a\fermata \bar "||"
-    \key f \major \time 4/4 \tempoI-I-XXX-b
-      r8 \mvTr f'\pE-\solo f f r f f f \noBreak
-    r e e e r f f f %35
-    r f f f r f f f
-    r es es es r d d d
-    r g g g r f f f
-    es4 r8 c c c r c
-    b! b b b r b b b %40
-    r h h h r h h h
-    r c c c r c c c
-    r c c c r c c c
-    r c c c r h h h
-    r c c c r c c c %45
-    r b! b b r as as as
-    r a a a r g g g
-    r fis' fis f r es es e
-    r d d d r d d d
-    r g, g g r c c c %50
-    r a b b r f' d d
-    r es es es r e e e
-    r f f f r d d d
-    es!2 f
-    e8 e e e f f f f \noBreak %55
-    b, r b r b r r4\fermata \bar "||"
-    \tempoI-I-XXX-c \newSpacingSection
-      \mvTr d1\fE-\tuttiE \noBreak
-    cis
-    c2. c4
-    b fis g d' %60
-    g,1 \noBreak
-    d'\fermata \bar "||"
-    \twotwotime \key d \dorian \time 2/2 \tempoI-I-XXX-d
-    << {
-      r2 a' \noBreak
-      h cis
-      d4 a d2 %65
-    } \\ {
-      a1
-      g
-      f %65
-    } >>
-    e
-    d
-    a
-    \clef "treble_8" f''2. e4
-    d2 d~ %70
-    d4 c! \clef bass g2~
-    g fis
-    g1
-    d
-    r2 g~ %75
-    g f!~
-    f e
-    d1
-    c
-    f %80
-    e2 c
-    d4 e f g
-    a1
-    d,2 \clef "treble_8" a'4 h
-    c1 %85
-    \clef bass r2 a~
-    a a
-    g e
-    f1
-    g4 f e2 %90
-    d2. e4
-    f1
-    c
-    d
-    a~ %95
-    a~
-    a~
-    a~
-    a~
-    a %100
-    <d d,>\breve*1/2\fermata \bar "|." %101 finis
+    \clef bass
+    \key c \dorian \time 4/4 \tempoI-I-XXX
+    c4 c'2 h4
+    c8 c, es c g'4. f8
+    es4 c g2
+    c4 r r g'
+    c, c'4. b!8 b as %5
+    g4 as b d,
+    es r r b
+    es8 es' c as b4. as8
+    g4 as b b,
+    es r r g~ %10
+    g8 g c as b4 g
+    es4. as8 g2
+    c, r4 g'
+    es c g g'
+    es c2 h4 %15
+    c2 g
+    c, r
+    \clef "treble_8" r8 g'' c2 h8 d
+    es4 \clef bass c, g'2
+    es4 as g2 %20
+    c8 g c4. b!8 b4
+    r8 as es f g2
+    c, g
+    r8 c' g a! b4 g
+    es2 d %25
+    c b
+    es8 f g a b4 g
+    es f b, r
+    r2 r4 g'
+    es f b,2~ %30
+    b4 a b2
+    c g
+    c b
+    es d4 r
+    r8 b' a g d4 d'8 b %35
+    g4 c,8 es d4. d8
+    b g c es d2
+    es d
+    g4. g8 c,4 d
+    g, g'2 fis4 %40
+    g4. f8 es4 h
+    c2 f
+    g4 c, g2
+    c4. c8 as'4 f
+    g1~ %45
+    g
+    c,\fermata \bar "|." %47 finis
   }
 }
 
 I-I-XXX-BassFigures = \figuremode {
+  r4 <3> <2> <[6]>
+  r2 <4>4 <_!>
+  <6>2 <4>4 <_!>
+  r2. <_!>4
+  r <3> <2>8 <6>4 q8 %5
+  q2 <9 5>8 <8 6> <6> <5->
   r1
-  <5>2 <6>
-  <7>4 <6\\>2.
-  <5 4>4 <\t 3[!]> <4 2>2
-  <9 6>4 <8 \t> <7> <6\\> %5
-  r <3> <4 2> <6>
-  <7> <6> <6 4> <5 3>8 <6\\>
-  r2 <5 4>4 <\t 3[!]>8 <6\\ \t>
-  <_->2 <4>4 <3[!]>
-  r <3> <4 2!> <6> %10
-  <7> <6> <7 _+> <6 4>
-  <5 \t> <\t _+> <5>2
-  r4 <3> <6 4 2!>2
-  r <5>
-  <6>4 <5>8 <6> r2 %15
-  r4 <3> <4 2> <6>
-  <6 4> <6\\ 3>2.
-  <4>4 <3[!]> <4> <_+>8 <[2\+]>
-  <_+>1
-  <6>2 q %20
-  r <6 5>4 <5 _>
-  r <6>2.
-  q2 <5>
-  r1
-  <5 4>4 \bassFigureExtendersOn <5 3>8 <5 2> <5 3>2 \bassFigureExtendersOff %25
-  r2. <5 3>4
-  r <[6]> <5> <6>
-  <6> <5> q <6>
-  r2 <6>
-  r4 <9>8 <8> <4>4 <3> %30
-  <7> <6> <7 [5!]> <6\\>
-  r1
-  <5 4>4 \bassFigureExtendersOn <5 _+>8 <5 2> <5 _+>2 \bassFigureExtendersOff
-  r2 r8 <6 4>4.
-  r8 <7- 5>2.. %35
-  r1
-  r8 <6 4 2>2 <7 _+>4.
-  r2 r8 <4! 2>4.
-  <6>4. <[6] _->8 <4\+ 2>4. <\t \t>8
-  <6>2 r8 <8 6>4. %40
-  r8 <7- 5>2 <6 5>4.
-  r8 <_->2 <\t>4.
-  r8 <[5 _-]>2 <6- 4>4.
-  r8 <[5] _->2 <7- 5>8 <6 \t>4
-  r8 <_->2 <\t>4. %45
-  r8 <6! 4>2 <6>4.
-  r8 <6\\>2 <5>4 <6->8
-  r <6>4 <\t> <6> <6\\>8
-  r <_+>2 <\t>4.
-  r2 r8 <_->4. %50
-  r8 <6[!] 5-> r2 <6>4
-  r8 <5 3>2 <6 5>4.
-  r2 r8 <6>4.
-  <5>4 <8 6>8 <7 5> r2
-  <7- 5> <5 4>4 <\t 3> %55
-  \bo <[_!]>1
-  r
-  \bc <[6]>
-  <4\+ 2>
-  <6>4 <[6]>2 <_+>4 %60
-  <9>2 <8>
-  <_+>1
-  r
-  r
-  r %65
-  <7>2 <6\\>
-  r1
-  <4>2 <_+>
+  r2 <4>4 <3>
+  <6>2 <4>4 <3>
+  r2. <_->4 %10
   <6>1
-  <5 3> %70
-  r2 <5 _->
-  <\t 2> <[6]>
-  <_->1
-  <4>2 <_+>
-  r <5 [_-]> %75
-  <2> <6>
-  <5>1
-  <4>2 <3>
-  <4> <3>
-  <6>1 %80
-  q
-  r
-  <5 _!>
-  r2 <6>
-  r1 %85
-  r2 <6>
-  <5> <\t>4 <6>
-  r2 <[6]>
-  <5>1
-  <_!>2 <6> %90
+  <6>2 <4>4 <_!>
+  r2. <_!>4
+  <[6]>2 <4>4 <_!>
+  <[6]> <5 3> <\t 2> <[6]> %15
+  r2 <4>4 <_!>
   r1
-  <5>
-  <4>2 <3>
-  <9> <8>
-  <4> <_+> %95
-  <8 _+> <7 5>
-  <6 \t> <\t 4>
-  <\t \t>1
-  <5 4>2 \bassFigureExtendersOn <5 _+>4 <5 2>
-  <5 _+>1 \bassFigureExtendersOff %100
-  <_+> %101 finis
+  r4 <3> <2> <[6]>
+  <6>2 <4>4 <_->
+  <6>2 <4>4 <_-> %20
+  r <5 3> <\t 2>2
+  r4 <6> <_->2
+  <5>4. <6!>8 <_->2
+  r4 \bo <[6]>8 \bc <[\t]> r2
+  <5>4. <6>8 <8 6>2 %25
+  <5>4. <6>8 r2
+  r1
+  <6 5>
+  r
+  <6 5>2 <5>4 <6> %30
+  <4 2> <[6]> <5> <6>
+  <5> <6>2.
+  <5>4 <6> <5> <6>
+  <7> <6> <_+>2
+  r8 <[6]>4 <6->8 <_+>4 <[\t]>8 <6>8 %35
+  r4 <6>8 <3> <_+>2
+  <[6]>4 <6>8 <3> <4>4 <_+>
+  <5> <6> <4> <_+>
+  <_-> <_!> <6 5> <_+>
+  <_-> <_!> <4 2> <[6]> %40
+  <_-> <_!> <6> <[6]>
+  <9> <8> <5 _-> <6>
+  <7 _!>2 <4>4 <_!>
+  r2. <6>8 <[5]>
+  <7 _!>4 <6 4> <5 4> <\t _!> %45
+  <6 5> <\t 4> <5 4> <\t _!>
+  r1 %47 finis
 }
