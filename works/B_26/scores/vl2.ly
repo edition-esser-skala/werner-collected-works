@@ -1,0 +1,66 @@
+\version "2.24.0"
+
+\include "../../../definitions_main.ly"
+\include "../definitions.ly"
+#(define option-instrument-name "vl 2")
+\include "score_settings/one-staff.ly"
+
+\book {
+  \bookpart {
+    \section "1" "Kyrie"
+    \addTocEntry
+    \paper { systems-per-page = #6 }
+    \score {
+      <<
+        \new Staff { \B-XXVIKyrieViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Gloria"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-XXVIGloriaViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Credo"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-XXVICredoViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Sanctus"
+    \addTocEntry
+    \paper { systems-per-page = #4 }
+    \score {
+      <<
+        \new Staff { \B-XXVISanctusViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Benedictus"
+    \addTocEntry
+    \paper { systems-per-page = #6 }
+    \score {
+      <<
+        \new Staff { \B-XXVIBenedictusViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Agnus Dei"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-XXVIAgnusViolinoII }
+      >>
+    }
+  }
+}
