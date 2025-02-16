@@ -1,0 +1,16 @@
+title: Sonata
+id: WerW M.23
+genre: sonata
+scoring: fl, vl, bc
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: CZ-Bm
+    shelfmark: A 13116
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  – & –  & bc & All bass figures have been added by the editor. \\
+  1 & 65 & bc & 1st \quarterNote\ in \B1: \flat B4 \\
+  2 & 70 & fl & 2nd \eighthNote\ in \B1: g′8 \\
