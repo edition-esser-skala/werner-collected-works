@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 2")
+#(define option-instrument-name "fl")
 \include "score_settings/one-staff.ly"
 
 \book {
