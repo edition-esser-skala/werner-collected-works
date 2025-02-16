@@ -1,0 +1,19 @@
+title: Sub tuum præsidium
+id: WerW I.5.19
+genre: sacred song
+scoring: A (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: L 9
+    rism: 600038623
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/552.html
+    license: public domain
+    principal: true
+  B2:
+    siglum: A-WIL
+    shelfmark: 2304
+    rism: 1001317882
+    license: public domain
+    notes: comprises title page and B part of the A-Ed copy
