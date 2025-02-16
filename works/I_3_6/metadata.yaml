@@ -1,0 +1,18 @@
+title: Regina cœli
+id: WerW I.3.6
+genre: antiphon
+scoring: S, A, T, B (solo), S, A, T, B (coro), clno solo (C), 2 vl, b, org solo
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: J 14
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/441.html
+    license: public domain
+    principal: true
+toe: |
+  74  & vl 2 & 4th \eighthNote\ in \B1: e″8 \\
+  124 & T    & 2nd \halfNote\ in \B1: a4.–a8 \\
+parts:
+  clno_solo: Clarino solo (C)
+  org_solo: Organo solo
