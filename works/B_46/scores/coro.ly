@@ -2,96 +2,49 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-\include "score_settings/full-score.ly"
-
-\paper {
-  top-system-spacing.basic-distance = #10
-  top-system-spacing.minimum-distance = #10
-  top-markup-spacing.basic-distance = #0
-  top-markup-spacing.minimum-distance = #0
-  markup-system-spacing.basic-distance = #10
-  markup-system-spacing.minimum-distance = #10
-  system-system-spacing.basic-distance = #19.5
-  system-system-spacing.minimum-distance = #19.5
-  systems-per-page = #2
-}
+\include "score_settings/coro.ly"
 
 \book {
   \bookpart {
     \section "1" "Kyrie"
     \addTocEntry
-    \paper { indent = 3\cm }
-    \score { %\articulate
+    \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "Violino"
-            \new Staff {
-              \set Staff.instrumentName = "I"
-              \B-XLVIKyrieViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "II"
-              \B-XLVIKyrieViolinoII
-            }
-          >>
-        >>
         \new ChoirStaff <<
           \new Staff {
-            \incipitSoprano
+            \set Staff.instrumentName = "S"
             \new Voice = "Soprano" { \dynamicUp \B-XLVIKyrieSoprano }
           }
           \new Lyrics \lyricsto Soprano \B-XLVIKyrieSopranoLyrics
 
           \new Staff {
-            \incipitAlto
+            \set Staff.instrumentName = "A"
             \new Voice = "Alto" { \dynamicUp \B-XLVIKyrieAlto }
           }
           \new Lyrics \lyricsto Alto \B-XLVIKyrieAltoLyrics
 
           \new Staff {
-            \incipitTenore
+            \set Staff.instrumentName = "T"
             \new Voice = "Tenore" { \dynamicUp \B-XLVIKyrieTenore }
           }
           \new Lyrics \lyricsto Tenore \B-XLVIKyrieTenoreLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "Basso"
+            \set Staff.instrumentName = "B"
             \new Voice = "Basso" { \dynamicUp \B-XLVIKyrieBasso }
           }
           \new Lyrics \lyricsto Basso \B-XLVIKyrieBassoLyrics
         >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
-            % \transpose c c,
-            \B-XLVIKyrieOrgano
-          }
-        >>
+        \new Staff { \B-XLVIKyrieOrgano }
         \new FiguredBass { \B-XLVIKyrieBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 80 } % 160
     }
   }
   \bookpart {
     \section "2" "Gloria"
     \addTocEntry
-    \score { %\articulate
+    \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \B-XLVIGloriaViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \B-XLVIGloriaViolinoII
-            }
-          >>
-        >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
@@ -117,37 +70,16 @@
           }
           \new Lyrics \lyricsto Basso \B-XLVIGloriaBassoLyrics
         >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \B-XLVIGloriaOrgano
-          }
-        >>
+        \new Staff { \B-XLVIGloriaOrgano }
         \new FiguredBass { \B-XLVIGloriaBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 80 }
     }
   }
   \bookpart {
     \section "3" "Credo"
     \addTocEntry
-    \score { %\articulate
+    \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \B-XLVICredoViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \B-XLVICredoViolinoII
-            }
-          >>
-        >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
@@ -173,38 +105,17 @@
           }
           \new Lyrics \lyricsto Basso \B-XLVICredoBassoLyrics
         >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \B-XLVICredoOrgano
-          }
-        >>
+        \new Staff { \B-XLVICredoOrgano }
         \new FiguredBass { \B-XLVICredoBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 140 } % 60 – 180 – 70
     }
   }
   \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
-    \paper { page-count = #3 }
-    \score { %\articulate
+    \paper { page-count = #2 }
+    \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \B-XLVISanctusViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \B-XLVISanctusViolinoII
-            }
-          >>
-        >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
@@ -230,38 +141,17 @@
           }
           \new Lyrics \lyricsto Basso \B-XLVISanctusBassoLyrics
         >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \B-XLVISanctusOrgano
-          }
-        >>
+        \new Staff { \B-XLVISanctusOrgano }
         \new FiguredBass { \B-XLVISanctusBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 80 }
     }
   }
   \bookpart {
     \section "5" "Benedictus"
     \addTocEntry
-    \paper { page-count = #3 }
-    \score { %\articulate
+    \paper { page-count = #2 }
+    \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \B-XLVIBenedictusViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \B-XLVIBenedictusViolinoII
-            }
-          >>
-        >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
@@ -287,37 +177,16 @@
           }
           \new Lyrics \lyricsto Basso \B-XLVIBenedictusBassoLyrics
         >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \B-XLVIBenedictusOrgano
-          }
-        >>
+        \new Staff { \B-XLVIBenedictusOrgano }
         \new FiguredBass { \B-XLVIBenedictusBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 60 } % 120
     }
   }
   \bookpart {
     \section "6" "Agnus Dei"
     \addTocEntry
-    \score { %\articulate
+    \score {
       <<
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \B-XLVIAgnusViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \B-XLVIAgnusViolinoII
-            }
-          >>
-        >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
@@ -343,17 +212,9 @@
           }
           \new Lyrics \lyricsto Basso \B-XLVIAgnusBassoLyrics
         >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \B-XLVIAgnusOrgano
-          }
-        >>
+        \new Staff { \B-XLVIAgnusOrgano }
         \new FiguredBass { \B-XLVIAgnusBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 60 } % 200
     }
   }
 }

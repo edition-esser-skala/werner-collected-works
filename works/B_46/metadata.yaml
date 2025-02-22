@@ -7,7 +7,7 @@ sources:
   B1:
     siglum: A-Ed
     shelfmark: A 69
-    rism: 600037873
+    rism: 600037874
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/720.html
     license: public domain
     principal: true
@@ -18,9 +18,35 @@ sources:
     license: public domain
 tocstyle: default
 toe: |
-  1 & 10 & A    & 1st \eighthNote\ in \B2: b′16–a′16 \\
-    & 11 & A    & 1st \eighthNote\ in \B2: a′16–g′16 \\
-    & 14 & vl 1 & 2nd \quarterNote\ in \B2: g″8.–\sharp f″32–g″32 \\
-    & 15 & org  & 1st \halfNote\ in \B2: d4–D4 \\
-    & 17 & T    & last \eighthNote\ in \B2: c′16–b16 \\
-    & 45 & vl 2 & 2nd \halfNote\ in \B2: a′4–c″4 \\
+  1 & 10  & A    & 1st \eighthNote\ in \B2: b′16–a′16 \\
+    & 11  & A    & 1st \eighthNote\ in \B2: a′16–g′16 \\
+    & 14  & vl 1 & 2nd \quarterNote\ in \B2: g″8.–\sharp f″32–g″32 \\
+    & 15  & org  & 1st \halfNote\ in \B2: d4–D4 \\
+    & 17  & T    & last \eighthNote\ in \B2: c′16–b16 \\
+    & 45  & vl 2 & 2nd \halfNote\ in \B2: a′4–c″4 \\
+  2 & –   & vl   & The rhythm \rhythmSdSS\ is always written as \rhythmSdTT\
+                   in both \B1 and \B2. \\
+    & 2   & B    & 8th \sixteenthNote\ in \B1: e16 \\
+    & 23  & S    & 1st \quarterNote\ in \B2: c″16–b′16–c″16–e″16 \\
+    & 39  & vl 2 & 2nd to 4th \eighthNote\ in \B2: d″4–g″8 \\
+    & 49  & org  & 4th \quarterNote\ of lower voice in \B1: g′4 \\
+  3 & 42  & A    & 1st \halfNote\ in \B1: a′4–g′4 \\
+    & 26  & vl 2 & 3rd \halfNote\ in \B1: \sharp f′4–\sharp f′4 \\
+    & 62  & T    & 1st \halfNote\ in \B1: d′4–d′4 \\
+    & 75f & T    & bars in \B2: b4–g4–g2–\sharp f2 and \wholeNoteRest \\
+    & 75  & coro & Werner's intended design of the cadence in these two bars
+                   is unclear. Several variants are conceivable:
+                   (1) The choral parts originally contained an authentic
+                   cadence, and two half notes in bar 76 of S and A
+                   were lost during copying.
+                   (2) In bar 76 there was originally a rest in all
+                   choral parts, so that the missing tonic corresponded
+                   to the text “non erit finis”. In this case, the copyists
+                   would have only corrected T and B to a “correct” cadence,
+                   but not S and A.
+                   (3) The original version corresponded to the one
+                   shown in this edition. \\
+    & 82  & B    & 2nd/3rd \eighthNote\ in \B2: a16–g16–a8 \\
+  5 & 17  & vl 1 & 3rd \quarterNote\ in \B2: b′8–b′8 \\
+    & 18  & org  & 1st \eighthNote\ in \B2: B8 \\
+  6 & 19  & vl 1 & 1st \halfNote\ in \B1: b′4–c″4 \\
