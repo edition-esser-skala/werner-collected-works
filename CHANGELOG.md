@@ -1,5 +1,23 @@
 # Changelog
 
+## 2025.02.0 – 2025-03-01
+
+### Added
+
+- works: WerW B.46, D.2.11, H.2.9, I.1.8, I.3.6, I.4.4, I.5.19, M.23, and O.2
+- global LaTeX macros: `\rhythmSdTT` and `\rhythmSdSS`
+
+## Changed
+
+- renumbered WerW B.33 → 26, 35 → 28, 38 → 31, 40 → 33, 42 → 35, 46 → 39, 47 → 40, 48 → 41, 51 → 44, 52 → 45, 54 → 47, 55 → 48, 58 → 51, 70 → 63, and 71 → 64
+- renumbered WerW I.1.27 → 26, 30 → 29, and 31 → 30
+
+### Fixed
+
+- WerW P.3: added missing movement
+- WerW Q.4: short names in fl/vl part
+
+
 ## 2025.01.0 – 2025-01-30
 
 ### Added
