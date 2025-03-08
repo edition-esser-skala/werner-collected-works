@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-V-VISoprano = {
+D-V-IISoprano = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/4 \tempoD-V-VI \autoBeamOff
+    \key c \major \time 3/4 \tempoD-V-II \autoBeamOff
     r4 \mvTr g'2\pE^\soloE
     a8[ g] a2
     h8[ a] h2
@@ -28,7 +28,7 @@ D-V-VISoprano = {
   }
 }
 
-D-V-VISopranoLyrics = \lyricmode {
+D-V-IISopranoLyrics = \lyricmode {
   A --
   _ _
   _ _

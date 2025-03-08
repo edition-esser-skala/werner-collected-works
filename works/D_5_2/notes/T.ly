@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-V-VITenore = {
+D-V-IITenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \major \time 3/4 \tempoD-V-VI \autoBeamOff
+    \key c \major \time 3/4 \tempoD-V-II \autoBeamOff
     R2.*11 %11
     \mvTr e4\f^\tutti c c~
     c8[ a] d2~
@@ -18,7 +18,7 @@ D-V-VITenore = {
   }
 }
 
-D-V-VITenoreLyrics = \lyricmode {
+D-V-IITenoreLyrics = \lyricmode {
   A -- men, a -- %12
   _
   _

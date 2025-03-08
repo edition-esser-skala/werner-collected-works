@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-V-VIOrgano = {
+D-V-IIOrgano = {
   \relative c {
     \clef bass
-    \key c \major \time 3/4 \tempoD-V-VI
+    \key c \major \time 3/4 \tempoD-V-II
     \mvTr c8\pE-\soloE d e4 c
     f, f' d
     g, g' e
@@ -29,7 +29,7 @@ D-V-VIOrgano = {
   }
 }
 
-D-V-VIBassFigures = \figuremode {
+D-V-IIBassFigures = \figuremode {
   r2.
   r
   r

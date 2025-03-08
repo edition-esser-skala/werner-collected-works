@@ -6,7 +6,7 @@
 
 \book {
   \bookpart {
-    \section "D.5.6" "Amen"
+    \section "D.5.2" "Amen"
     \addTocEntry
     \paper { page-count = #1 }
     \score {
@@ -14,30 +14,30 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \D-V-VISoprano }
+            \new Voice = "Soprano" { \dynamicUp \D-V-IISoprano }
           }
-          \new Lyrics \lyricsto Soprano \D-V-VISopranoLyrics
+          \new Lyrics \lyricsto Soprano \D-V-IISopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \D-V-VIAlto }
+            \new Voice = "Alto" { \dynamicUp \D-V-IIAlto }
           }
-          \new Lyrics \lyricsto Alto \D-V-VIAltoLyrics
+          \new Lyrics \lyricsto Alto \D-V-IIAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \D-V-VITenore }
+            \new Voice = "Tenore" { \dynamicUp \D-V-IITenore }
           }
-          \new Lyrics \lyricsto Tenore \D-V-VITenoreLyrics
+          \new Lyrics \lyricsto Tenore \D-V-IITenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \D-V-VIBasso }
+            \new Voice = "Basso" { \dynamicUp \D-V-IIBasso }
           }
-          \new Lyrics \lyricsto Basso \D-V-VIBassoLyrics
+          \new Lyrics \lyricsto Basso \D-V-IIBassoLyrics
         >>
-        \new Staff { \D-V-VIOrgano }
-        \new FiguredBass { \D-V-VIBassFigures }
+        \new Staff { \D-V-IIOrgano }
+        \new FiguredBass { \D-V-IIBassFigures }
       >>
     }
   }

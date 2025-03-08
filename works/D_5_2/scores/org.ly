@@ -7,13 +7,13 @@
 
 \book {
   \bookpart {
-    \section "D.5.6" "Amen"
+    \section "D.5.2" "Amen"
     \addTocEntry
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \D-V-VIOrgano }
-        \new FiguredBass { \D-V-VIBassFigures }
+        \new Staff { \D-V-IIOrgano }
+        \new FiguredBass { \D-V-IIBassFigures }
       >>
     }
   }

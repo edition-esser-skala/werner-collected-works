@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-V-VIAlto = {
+D-V-IIAlto = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/4 \tempoD-V-VI \autoBeamOff
+    \key c \major \time 3/4 \tempoD-V-II \autoBeamOff
     R2.*5 %5
     r4 \mvTr d2\pE^\soloE
     e8[ d] e2
@@ -24,7 +24,7 @@ D-V-VIAlto = {
   }
 }
 
-D-V-VIAltoLyrics = \lyricmode {
+D-V-IIAltoLyrics = \lyricmode {
   A -- %6
   _ _
   _ _

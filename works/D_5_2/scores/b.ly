@@ -2,17 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "b")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "D.5.6" "Amen"
+    \section "D.5.2" "Amen"
     \addTocEntry
-    \paper { systems-per-page = #5 }
+    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \D-V-VIViolinoI }
+        \new Staff { \D-V-IIOrgano }
       >>
     }
   }

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-V-VIBasso = {
+D-V-IIBasso = {
   \relative c {
     \clef bass
-    \key c \major \time 3/4 \tempoD-V-VI \autoBeamOff
+    \key c \major \time 3/4 \tempoD-V-II \autoBeamOff
     R2.*11 %11
     r4 \mvTr e\f^\tutti e
     f2.
@@ -18,7 +18,7 @@ D-V-VIBasso = {
   }
 }
 
-D-V-VIBassoLyrics = \lyricmode {
+D-V-IIBassoLyrics = \lyricmode {
   A -- men, %12
   a --
   _
