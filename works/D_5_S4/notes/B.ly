@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-V-IVBasso = {
+D-V-SIVBasso = {
   \relative c {
     \clef bass
-    \key b \major \time 4/4 \tempoD-V-IV \autoBeamOff
+    \key b \major \time 4/4 \tempoD-V-SIV \autoBeamOff
     R1*9 \bar "S-S" %9
     \mvTr b'8\fE^\soloE b,16 b r8 f' b a16 g f8 es16 f %10
     d8 b r4 r r8 f'16\pE f
@@ -62,7 +62,7 @@ D-V-IVBasso = {
   }
 }
 
-D-V-IVBassoLyricsA = \lyricmode {
+D-V-SIVBassoLyricsA = \lyricmode {
   Fu -- ri -- ae vos di -- vae a -- bys -- si vo -- %10
   la -- te, pro -- pe --
   ra -- te, pro -- pe --
@@ -118,7 +118,7 @@ D-V-IVBassoLyricsA = \lyricmode {
   non? %68 finis
 }
 
-D-V-IVBassoLyricsB = \lyricmode {
+D-V-SIVBassoLyricsB = \lyricmode {
   \xE Gra -- ti -- ae vos di -- vae Par -- nas -- si vo -- %10
   la -- te, pro -- pe --
   ra -- te, pro -- pe --

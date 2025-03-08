@@ -12,20 +12,20 @@
 
 \book {
   \bookpart {
-    \section "D.5.4" "Furiæ vos divæ abyssi volate"
+    \section "D.5.S4" "Furiæ vos divæ abyssi volate"
     \addTocEntry
     \score {
       <<
         \new ChoirStaff \with { \setGroupDistance #15 #15 } <<
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \D-V-IVBasso }
+            \new Voice = "Basso" { \dynamicUp \D-V-SIVBasso }
           }
-          \new Lyrics \lyricsto Basso \D-V-IVBassoLyricsA
-          \new Lyrics \lyricsto Basso \D-V-IVBassoLyricsB
+          \new Lyrics \lyricsto Basso \D-V-SIVBassoLyricsA
+          \new Lyrics \lyricsto Basso \D-V-SIVBassoLyricsB
         >>
-        \new Staff { \D-V-IVOrgano }
-        \new FiguredBass { \D-V-IVBassFigures }
+        \new Staff { \D-V-SIVOrgano }
+        \new FiguredBass { \D-V-SIVBassFigures }
       >>
     }
   }

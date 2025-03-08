@@ -33,7 +33,7 @@
 
 \book {
   \bookpart {
-    \section "D.5.4" "Furiæ vos divæ abyssi volate"
+    \section "D.5.S4" "Furiæ vos divæ abyssi volate"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -43,34 +43,34 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \D-V-IVViolinoI
+              \D-V-SIVViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \D-V-IVViolinoII
+              \D-V-SIVViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "Viola"
-            \D-V-IVViola
+            \D-V-SIVViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \D-V-IVBasso }
+            \new Voice = "Basso" { \dynamicUp \D-V-SIVBasso }
           }
-          \new Lyrics \lyricsto Basso \D-V-IVBassoLyricsA
-          \new Lyrics \lyricsto Basso \D-V-IVBassoLyricsB
+          \new Lyrics \lyricsto Basso \D-V-SIVBassoLyricsA
+          \new Lyrics \lyricsto Basso \D-V-SIVBassoLyricsB
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
             % \transpose c c,
-            \D-V-IVOrgano
+            \D-V-SIVOrgano
           }
         >>
-        \new FiguredBass { \D-V-IVBassFigures }
+        \new FiguredBass { \D-V-SIVBassFigures }
       >>
       \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
       \midi { \tempo 4 = 80 }
