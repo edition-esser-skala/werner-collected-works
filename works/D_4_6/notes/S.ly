@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-IV-IXViolinoI = {
+D-IV-VISoprano = {
   \relative c' {
     \clef treble
-    \key f \major \time 6/4 \tempoD-IV-IX \autoBeamOff
+    \key f \major \time 6/4 \tempoD-IV-VI \autoBeamOff
       \once \omit Staff.TimeSignature
     s4*6 \bar "||"
     \time 4/2
@@ -22,17 +22,17 @@ D-IV-IXViolinoI = {
     a gis a c
     d a4 b! c1~
     c2 b a2. g4 %15
-    g1 f4 g a2~
+    g1 f4( g) a2~
     a4 h c1 \hA h2
     cis d2. \hA cis4 e2~
     e d1 c2
-    h a a gis %20
+    h a a( gis) %20
     a r b1
     a2. a4 g2 r
     a1 g2. g4
     f2 r r1
-    r2 d' cis d %25
-    d cis d d~
+    r2 d'( cis) d %25
+    d( cis) d d~
     d c b1 \noBreak
     a\breve\fermata \bar "||"
     \time 14/4 \once \omit Staff.TimeSignature
@@ -41,7 +41,7 @@ D-IV-IXViolinoI = {
     c1 b2 a4 g
     a2 d4 d d2 c~
     c b1 a2
-    h c1 \hA h2 %35
+    h c1( \hA h2) %35
     c1 r
     R\breve*2
     f,1 g2 c4 c
@@ -50,4 +50,46 @@ D-IV-IXViolinoI = {
     f2 es d1
     c\breve\fermata \markRorateDaCapo \bar "||" %43 finis
   }
+}
+
+D-IV-VISopranoLyrics = \lyricmode {
+  Coe -- li, coe -- %2
+  li de -- su --
+  per,
+  et nu -- bes plu -- ant, nu -- %5
+  bes plu -- ant, plu -- ant
+  iu --
+  stum:
+
+  a -- %10
+  pe -- ri -- a -- tur ter --
+  _ _ _
+  _ ra, et
+  ger -- mi -- net Sal --
+  va -- to -- _ %15
+  _ rem, Sal --
+  va -- to -- _
+  _ _ rem, Sal --
+  _ _
+  _ va -- to -- %20
+  rem, et
+  ger -- mi -- net,
+  et ger -- mi --
+  net
+  Sal -- va -- %25
+  to -- rem, Sal --
+  va -- to --
+  rem.
+
+  Et o -- pe -- ra %32
+  ma -- nu -- um e -- ius, __
+  ma -- nu --
+  um e -- %35
+  ius
+
+  an -- nun -- ti -- at %39
+  fir -- ma -- men -- _ %40
+  tum, fir --
+  ma -- men --
+  tum. %43 finis
 }

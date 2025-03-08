@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-IV-IXViolinoII = {
+D-IV-VIViolinoII = {
   \relative c' {
     \clef treble
-    \key f \major \time 6/4 \tempoD-IV-IX
+    \key f \major \time 6/4 \tempoD-IV-VI
       \once \omit Staff.TimeSignature
     s4*6 \bar "||"
     \time 4/2

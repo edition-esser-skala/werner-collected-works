@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-IV-IXTenore = {
+D-IV-VITenore = {
   \relative c' {
     \clef "treble_8"
-    \key f \major \time 6/4 \tempoD-IV-IX \autoBeamOff
+    \key f \major \time 6/4 \tempoD-IV-VI \autoBeamOff
       \once \omit Staff.TimeSignature
     s4*6 \bar "||"
     \time 4/2
@@ -53,7 +53,7 @@ D-IV-IXTenore = {
   }
 }
 
-D-IV-IXTenoreLyrics = \lyricmode {
+D-IV-VITenoreLyrics = \lyricmode {
   Coe -- %3
   li, coe -- li de --
   su -- per, et __ %5

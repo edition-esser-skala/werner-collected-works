@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-IV-IXOrgano = {
+D-IV-VIOrgano = {
   \relative c {
     \clef bass
-    \key f \major \time 6/4 \tempoD-IV-IX
+    \key f \major \time 6/4 \tempoD-IV-VI
       \once \omit Staff.TimeSignature
     c\breve*1/8 d d a' b a\fermata \bar "||"
     \clef treble \time 4/2
@@ -88,7 +88,7 @@ D-IV-IXOrgano = {
   }
 }
 
-D-IV-IXBassFigures = \figuremode {
+D-IV-VIBassFigures = \figuremode {
   r4*6
   r\breve
   r1 <4>2 <3>

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-D-IV-IXBasso = {
+D-IV-VIBasso = {
   \relative c {
     \clef bass
-    \key f \major \time 6/4 \tempoD-IV-IX \autoBeamOff
+    \key f \major \time 6/4 \tempoD-IV-VI \autoBeamOff
       \once \omit Staff.TimeSignature
     c\breve*1/8 d d a' b a\fermata \bar "||"
       \set Staff.timeSignatureFraction = 2/2
@@ -50,7 +50,7 @@ D-IV-IXBasso = {
   }
 }
 
-D-IV-IXBassoLyrics = \lyricmode {
+D-IV-VIBassoLyrics = \lyricmode {
   Ro -- _ ra -- _ _ te
 
   coe -- li %4
