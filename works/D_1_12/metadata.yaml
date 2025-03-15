@@ -1,0 +1,36 @@
+title: Euge serve bone et fidelis
+id: WerW D.1.12
+genre: motet
+festival: de quovis Sancto vel Sancta
+scoring: S (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 55
+    rism: 600038026
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/.html
+    license: public domain
+    principal: true
+toe: |
+  28   & vl 1 & 1st \eighthNote\ in \B1: g′8 \\
+  77ff & coro & “N:\_\_\_” is to be replaced with the name
+                of the worshipped saint. The rhythm suggests that
+                Werner originally composed the work for a name with
+                three syllables, the second of which is stressed
+                (such as “Jacobus” or “Maria”). \\
+  100  & B    & 7th \eighthNote\ in \B1: e8 \\
+lyrics: |
+  Euge serve bone et fidelis,\\
+  quia in paucis fuisti fidelis,\\
+  supra multa te constituam,\\
+  intra in gaudium Domini tui.\\
+  (\bibleverse{Mat}(25:21))\\[1ex]
+  Iste cognovit iustitiam\\
+  et vidit mirabilia magna,\\
+  et exoravit Altissimum,\\
+  et inventus est in numero sanctorum.\\
+  (Cantus Index 003418)\\[1ex]
+  Laudemus ergo sanctum N: \_\_\_\\
+  ut pro nobis intercedat\\
+  ad Dominum Deum nostrum.
