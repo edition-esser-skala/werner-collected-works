@@ -1,0 +1,22 @@
+title: Pange lingua gloriosi
+id: WerW D.5.S3
+genre: hymn
+festival: Festum Corporis Christi
+scoring: S, A, T, B (coro)
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 59
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/.html
+    license: public domain
+    principal: true
+toe: |
+  – & – & \B1 comprises six stanzas
+          (\textit{Pange lingua gloriosi};
+          \textit{Nobis datus, nobis natus};
+          \textit{In supremae noctae coenae};
+          \textit{Verbum caro, panem verum};
+          \textit{Tantum ergo sacramentum}; and
+          \textit{Genitori genitoque}),
+          of which only the first is reproduced in this edition. \\
