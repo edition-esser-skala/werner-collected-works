@@ -115,4 +115,58 @@
       >>
     }
   }
+  \bookpart {
+    \section "O.3" "Il Màrzo, in dem Merzen"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \O-IIIaBassoContinuo }
+        \new FiguredBass { \O-IIIaBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-IIIbBassoContinuo }
+        \new FiguredBass { \O-IIIbBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \O-IIIcBassoContinuo }
+        \new FiguredBass { \O-IIIcBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \O-IIIdBassoContinuo }
+        \new FiguredBass { \O-IIIdBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \paper { system-count = #7 }
+    \score {
+      <<
+        \new Staff { \O-IIIeBassoContinuo }
+        \new FiguredBass { \O-IIIeBassFigures }
+      >>
+    }
+  }
 }

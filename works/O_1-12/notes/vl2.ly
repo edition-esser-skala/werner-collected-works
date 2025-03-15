@@ -513,3 +513,286 @@ O-IIeViolinoII = {
     } \bar "|." %206 finis
   }
 }
+
+O-IIIaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 4/4 \tempoO-IIIa
+    \repeat volta 2 {
+      r8 b'16(\f a) a8 g16( cis) d8 es16(\p d) d( d,) c'8
+      b a g fis16.(\trill g32) g4 r
+      a'8.\f\trillE g32 a b16( b, es8) es( d) r4
+      a8.\pE b32 c b16( a) a8 b b, r4
+      r8 h'16(\f c) c( d) d( es) es( d) es8 r4 %5
+      r8 cis16(\p d) d( e) e( f) f( \hA e) f8 r4
+      d16(\f cis) d8 r4 d16(\p cis) d8 r4
+      g4~\f g8. f32 e d8 cis d8. e16
+      d4 cis\trill d64( e f16.) g64([ f \hA e16.)] \appoggiatura d8 cis4\trill
+    }
+    \alternative {
+      { d,64(\p e f16.) g64([ f \hA e16.)] \appoggiatura d8 cis4\trillE d r } %10
+      { d64(\p e f16.) g64([ f \hA e16.)] \appoggiatura d8 cis4\trillE d r }
+    }
+    \repeat volta 2 {
+      r8 a'\f d16( c!) c( h) h( d) c \hA h c4~
+      c8 d d16( c) c( h) c4 r
+      r8 e,\p a4~ a8. b32 c d4~
+      d8 e e16( d) d( cis) d8 a'\f g16( fis) e( d) %15
+      d4~ \sbOn \tuplet 3/2 8 { d16 c b } a g \sbOff g8\trill fis r a\p
+      b \tuplet 3/2 8 { a16 g fis } g( d) c( b) b8\trill a r4
+      r8 b'16\f a a4. g16 a h8 c
+      r es16\p d d4. c16 h c8 r
+      r cis16(\f d) d( e) e( f) f8 a,( d) fis,( %20
+      g) d'( g) h,( c2)~
+      c8. d32 c b8 a g8. a16 fis4\trill
+    }
+    \alternative {
+      { g64(\p a b16.) c64([ b a16.)] \appoggiatura g8 fis4\trill g r }
+      { g64(\p a b16.) c64([ b a16.)] \appoggiatura g8 fis4\trill g r\fermata }
+    } \bar "||" %24 finis
+  }
+}
+
+O-IIIbViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/8 \tempoO-IIIb
+      \set Score.currentBarNumber = #25
+      \markMarzoII
+    \repeat volta 2 {
+      g''16.\fE f64 es d16[ c b a] %25
+      g8. a16 g fis
+      g16.\trill fis64 g a8[-! g]-!
+      g-! fis-! r
+      b,16.\p c64 d c8[-! b]-!
+      b[-! a]-! r %30
+      r16 h'\f c g f h
+      c32( d es d) es8 r
+      r16 a, b f es a
+      b32( c d c) d8 r16 f,
+      a32( b c b) c8 r16 c,\p %35
+      d32( es f es) f8 r16 b,
+      a32( b c b) c8 r16 a'\f
+      \tuplet 3/2 8 { b16 b b } b8 r
+      \tuplet 3/2 8 { b16 b b } b8 r
+      g'4 es,8 %40
+      c'4 b16( a)
+      b16. c64 d c8[ a]
+      \tuplet 3/2 8 { b16\p b b } b8 r
+      \tuplet 3/2 8 { b16 b b } b8 r
+      g'4\f es,8 %45
+      c'4 b16( a)
+      b16. c64 d c8[ a]
+    }
+    \alternative {
+      { b4 r8 }
+      { b4 r8 }
+    }
+    \repeat volta 2 {
+      b'16. a64 g f16[ es d c] %50
+      b8. c16 b a
+      b16. c64 d c8[-! b]-!
+      b-! a-! r16 h\p
+      c16. d64 es d8[-! c]-!
+      c[-! h]-! r16 cis\f %55
+      d16. e64 f \hA e8[-! d]-!
+      d[-! cis]-! r16 d
+      e32( f g f) g8 r
+      e,32(\p f g f) g8 r
+      e32(\f f g f) g16[ g f \hA e] %60
+      f8. g16 a d~
+      d[ e] \appoggiatura d8 cis8.\trillE d16
+      d8 d, r16 fis
+      g32( a b a) b8 r16 h
+      c32( d es d) es8 r16 e, %65
+      f32( g a g) a8 r16 a
+      b32( c d c) d8 r16 f,
+      a32( g f g) a8 r16 a
+      g32( a b a) b8 r16 d,
+      fis32( e d \hA e) \hA fis8 r16 \hA fis %70
+      \tuplet 3/2 8 { g16 g g } g8 r
+      \tuplet 3/2 8 { g16 g g } g8 r
+      es'4 c,8
+      a'4 g16( fis)
+      g16.\trill fis64 g a8[ \hA fis] %75
+      \tuplet 3/2 8 { g16\p g g } g8 r
+      \tuplet 3/2 8 { g16 g g } g8 r
+      es'4\f c,8
+      a'4 g16( fis)
+      g16.\trill fis64 g a8[ \hA fis] %80
+    }
+    \alternative {
+      { g4 r8 }
+      { g4 r8\fermata }
+    } \bar "||" %82 finis
+  }
+}
+
+O-IIIcViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/4 \tempoO-IIIc
+      \set Score.currentBarNumber = #83
+      \markMarzoIII
+    \repeat volta 2 {
+      d'2 \tuplet 3/2 4 { es8 d c }
+      \grace c b2 a4
+      d,16([ fis8.) a16( c8.)] \tuplet 3/2 4 { es8 d c } %85
+      \grace c b2 a4
+      g \tuplet 3/2 4 { g8 a b b c d }
+      es4 \tuplet 3/2 4 { es8 f g g a b }
+      c16([ a8.) f16( es8.)] \tuplet 3/2 4 { d8 es f }
+      \grace d c2 r4 %90
+      b'16([ f8.) g16( c,8.) d16( a8.)]
+      b8( g) f( es) \tuplet 3/2 4 { d es f
+      g a b } d,4 c\trill
+    }
+    \alternative {
+      { b2 r4 }
+      { b2 r4 } %95
+    }
+    \repeat volta 2 {
+      f''2 \tuplet 3/2 4 { g8 f es }
+      \grace es d2 c4
+      g16([ h8.) d16( f8.) as16( h8.)]
+      c4 c, r
+      g'2 \tuplet 3/2 4 { as8 g f } %100
+      \grace f es2 d4
+      a16([ cis8.) \once \slurDashed e16( g8.) b!16( cis8.)]
+      d4 d, r
+      \tuplet 3/2 4 { c!8 b c } c16( d es! d) es4
+      \tuplet 3/2 4 { a8 g a } d,,16([ fis8.) a16( c8.)] %105
+      \tuplet 3/2 4 { b8 a g } c16([ a8.) g16( fis8.)]
+    }
+    \alternative {
+      { g2 r4 }
+      { g2 r4\fermata }
+    } \bar "||" %108 finis
+  }
+}
+
+O-IIIdViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/4 \tempoO-IIId
+      \set Score.currentBarNumber = #109
+      \markMarzoIV
+    \repeat volta 2 {
+      b'2.-\conSord
+      c8( b) \once \slurDashed b4~ b16( g'8.) %110
+      fis16([ es!8.) d16( c8.) b16( a8.)]
+      g8 d b4 r
+      r d2
+      es8( d) \once \slurDashed d4~ d16( b'8.)
+      a16([ g8.) f16( es8.) d16( c8.)] %115
+      c8(\trill b) b4 r
+      r \tuplet 3/2 4 { b'8 d f } f( d)
+      b4 \once \slurDashed g'16([ f8.) es16( d8.)]
+      d8( es) \grace d c2\trillE
+      b r4 %120
+      r f8( d) f4
+      b, g'16([ b8.) a16( g8.)]
+      f8( g) \grace b, a2\trill
+      b r4
+    }
+    \repeat volta 2 {
+      r4 d'8 b16( c) d4 %125
+      r c8 a16( b) c4
+      r b8( d,) e4
+      r f8( a) a( c)
+      r d, d( f) f( as)
+      r as as( g) g( f) %130
+      es4 as16([ f8.) es16( d8.)]
+      c2 r4
+      r a!8 cis e16( d) \hA e8
+      r4 fis8( g) g( a)
+      a16( g) a4 a8 a4~ %135
+      a8( g) g( fis) fis( g)
+      g4~ g8 h d4~
+      d c g8( fis)
+      g2~ \tuplet 3/2 4 { g8 fis g }
+      g fis fis4 r %140
+      r d8( b) d16( c) d8
+      r4 es8( d) es( es')
+      d( es) \grace g, fis2\trill
+      g4 g'2~
+      g2. %145
+      b16([ g8.) fis16( es!8.) d16( c8.)]
+      b8( c) \grace b a2\trill
+    }
+    \alternative {
+      { g2 r4 }
+      { g2 r4\fermata }
+    } \bar "||" %149 finis
+  }
+}
+
+O-IIIeViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key g \minor \time 2/4 \tempoO-IIIe
+      \override Score.TimeSignature.style = #'rotCC
+      \set Score.currentBarNumber = #150
+      \markMarzoV
+    \repeat volta 2 {
+      g'8\fE es' d d, %150
+      g4 g'
+      es8 d16 c b8 a
+      b a g4
+      b8(\p es) d( cis)
+      d, a' d d, %155
+      g a b! cis
+      d4 r8 a'\f
+      g( fis) e-! \hA fis-!
+      g4 fis8 f
+      e d16 c d8 \hA e %160
+      f4 e8 es
+      d( b') es,( d)
+      cis(\p a') d,( c)
+      h(\f g') c,( b)
+      a(\p f') b,( a) %165
+      g\f a b c
+      d es f g
+      b,8. c16 c4\trill
+    }
+    \alternative {
+      { b4 r }
+      { b r } %170
+    }
+    \repeat volta 2 {
+      d8( b') a( d,)
+      es!( d) d( cis)
+      a' g16 f e8 d
+      \grace d cis4 r8 f
+      e( gis) a d, %175
+      \grace d cis4 r8 f,\p
+      e( gis) a d,
+      \grace d cis4 r8 a''\f
+      gis( e) a, g'
+      fis( a,) d, f' %180
+      e a d d,
+      cis8. cis16 d8 e
+      f e16 f g8 \hA e
+      d a d\p c!
+      h as' g( f!) %185
+      es! g, c b
+      a g' f( es!)
+      d f, b a
+      g( es') a,( g)
+      fis( d') g, f %190
+      es! c'16 b! a8 g
+      fis4 r
+      g8\f a b! cis
+      cis( d) a-! h-!
+      h( c) g-! a-! %195
+      a( b) f-! g-!
+      g(\p a) e fis
+      g\f es'! d c
+      b a16 b c8 a
+    }
+    \alternative {
+      { g4 r } %200
+      { g r \fermata }
+    } \bar "|." %201 finis
+  }
+}

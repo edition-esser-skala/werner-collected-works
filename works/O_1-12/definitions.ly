@@ -8,6 +8,13 @@ foureighttime = {
     #'((end . (((1 . 16) . (2 2 2 2)))))
 }
 
+#(add-simple-time-signature-style 'rotCC
+   (lambda (fraction)
+     (make-line-markup
+       (list
+         (make-rotate-markup 180 (make-musicglyph-markup "timesig.C44"))
+         (make-musicglyph-markup "timesig.C44")))))
+
 markTitle = #(define-music-function
   (parser location it de)
   (string? string?)
@@ -62,6 +69,22 @@ markFebbraroV = \markTitle
   "5. La Maſcara."
   "Maſqueraden."
 
+markMarzoI = \markTitle
+  "1. La Quareſima."
+  "Die Faſten."
+markMarzoII = \markTitle
+  "2. Sol in Ariete."
+  "Die Sonne betritt den Widder."
+markMarzoIII = \markTitle
+  "3. Menuet il Giorno e la Notte equale."
+  "Tag und Nacht gleich."
+markMarzoIV = \markTitle
+  "4. La Contemplazione."
+  "Die Nachſinn= und Betrachtung."
+markMarzoV = \markTitle
+  "5. Il giorno critico."
+  "Verworffener Tag."
+
 \layout {
   \set Score.doubleRepeatBarType = #":|.|:"
 }
@@ -78,6 +101,13 @@ tempoO-IIb = \tempoMarkup "[Tempo deest]"
 tempoO-IIc = \tempoMarkup "Allegro. Allabreve"
 tempoO-IId = \tempoMarkup "[Tempo deest]"
 tempoO-IIe = \tempoMarkup "Allegro"
+
+tempoO-IIIa = \tempoMarkup "Andante non troppo"
+tempoO-IIIb = \tempoMarkup "Allegro"
+tempoO-IIIc = \tempoMarkup "[Tempo deest]"
+tempoO-IIId = \tempoMarkup "Larghetto e sempre piano"
+tempoO-IIIe = \tempoMarkup "Allegro"
+
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

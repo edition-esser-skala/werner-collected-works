@@ -18,23 +18,110 @@
 }
 
 \book {
+  % \bookpart {
+  %   \section "O.1" "Il Gennàro, oder im Jenner"
+  %   \addTocEntry
+  %   \paper { system-count = #15 }
+  %   \score {
+  %     <<
+  %       \new Staff { \O-IaBassoContinuo }
+  %     >>
+  %   }
+  % }
+  % \bookpart {
+  %   \subsection "☙"
+  %   \addTocEntry
+  %   \paper { system-count = #6 }
+  %   \score {
+  %     <<
+  %       \new Staff { \O-IbBassoContinuo }
+  %     >>
+  %   }
+  % }
+  % \bookpart {
+  %   \subsection "❦"
+  %   \addTocEntry
+  %   \paper { system-count = #4 }
+  %   \score {
+  %     <<
+  %       \new Staff { \O-IcBassoContinuo }
+  %     >>
+  %   }
+  % }
+  % \bookpart {
+  %   \subsection "❧"
+  %   \addTocEntry
+  %   \paper { system-count = #6 }
+  %   \score {
+  %     <<
+  %       \new Staff { \O-IdBassoContinuo }
+  %     >>
+  %   }
+  % }
+  % \bookpart {
+  %   \section "O.2" "Il Febbràro, im Hornung"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new Staff { \O-IIaBassoContinuo }
+  %     >>
+  %   }
+  % }
+  % \bookpart {
+  %   \subsection "☙"
+  %   \addTocEntry
+  %   \paper { system-count = #4 }
+  %   \score {
+  %     <<
+  %       \new Staff { \O-IIbBassoContinuo }
+  %     >>
+  %   }
+  % }
+  % \bookpart {
+  %   \subsection "❦"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new Staff { \O-IIcBassoContinuo }
+  %     >>
+  %   }
+  % }
+  % \bookpart {
+  %   \subsection "❧"
+  %   \addTocEntry
+  %   \paper { system-count = #4 }
+  %   \score {
+  %     <<
+  %       \new Staff { \O-IIdBassoContinuo }
+  %     >>
+  %   }
+  % }
+  % \bookpart {
+  %   \subsection "⁂"
+  %   \addTocEntry
+  %   \paper { system-count = #8 }
+  %   \score {
+  %     <<
+  %       \new Staff { \O-IIeBassoContinuo }
+  %     >>
+  %   }
+  % }
   \bookpart {
-    \section "O.1" "Il Gennàro, oder im Jenner"
+    \section "O.3" "Il Màrzo, in dem Merzen"
     \addTocEntry
-    \paper { system-count = #15 }
+    \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \O-IaBassoContinuo }
+        \new Staff { \O-IIIaBassoContinuo }
       >>
     }
   }
   \bookpart {
     \subsection "☙"
     \addTocEntry
-    \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \O-IbBassoContinuo }
+        \new Staff { \O-IIIbBassoContinuo }
       >>
     }
   }
@@ -44,7 +131,7 @@
     \paper { system-count = #4 }
     \score {
       <<
-        \new Staff { \O-IcBassoContinuo }
+        \new Staff { \O-IIIcBassoContinuo }
       >>
     }
   }
@@ -54,55 +141,17 @@
     \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \O-IdBassoContinuo }
-      >>
-    }
-  }
-  \bookpart {
-    \section "O.2" "Il Febbràro, im Hornung"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \O-IIaBassoContinuo }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "☙"
-    \addTocEntry
-    \paper { system-count = #4 }
-    \score {
-      <<
-        \new Staff { \O-IIbBassoContinuo }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "❦"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \O-IIcBassoContinuo }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "❧"
-    \addTocEntry
-    \paper { system-count = #4 }
-    \score {
-      <<
-        \new Staff { \O-IIdBassoContinuo }
+        \new Staff { \O-IIIdBassoContinuo }
       >>
     }
   }
   \bookpart {
     \subsection "⁂"
     \addTocEntry
-    \paper { system-count = #8 }
+    \paper { system-count = #7 }
     \score {
       <<
-        \new Staff { \O-IIeBassoContinuo }
+        \new Staff { \O-IIIeBassoContinuo }
       >>
     }
   }

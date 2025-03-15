@@ -282,4 +282,151 @@
       \midi { \tempo 4 = 100 }
     }
   }
+  \bookpart {
+    \section "O.3" "Il Màrzo, in dem Merzen"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-IIIaViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-IIIaViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-IIIaBassoContinuo
+          }
+        >>
+        \new FiguredBass { \O-IIIaBassFigures }
+      >>
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+      \midi { \tempo 4 = 60 }
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper { page-count = #2 }
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-IIIbViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-IIIbViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-IIIbBassoContinuo
+          }
+        >>
+        \new FiguredBass { \O-IIIbBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 8 = 120 }
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-IIIcViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-IIIcViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-IIIcBassoContinuo
+          }
+        >>
+        \new FiguredBass { \O-IIIcBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 120 }
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-IIIdViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-IIIdViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-IIIdBassoContinuo
+          }
+        >>
+        \new FiguredBass { \O-IIIdBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 80 }
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-IIIeViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-IIIeViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-IIIeBassoContinuo
+          }
+        >>
+        \new FiguredBass { \O-IIIeBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 120 }
+    }
+  }
 }

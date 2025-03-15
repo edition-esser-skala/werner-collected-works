@@ -913,6 +913,506 @@ O-IIeBassFigures = \figuremode {
   r %206 finis
 }
 
+O-IIIaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 4/4 \tempoO-IIIa
+      \markMarzoI
+    \repeat volta 2 {
+      g8\fE g' f es d c b a
+      g\p c d d, g b'\f a g
+      f es d c b\p b' a g
+      f es d c b f'\f b as
+      g f es d c g' c b\p %5
+      a g f e d\f a' d c
+      b a b a g\p f g f
+      e\f d cis a d e f g
+      a g a a, b' g a a,
+    }
+    \alternative {
+      { b'\p g a a, d, d'16 c! b8 a } %10
+      { b'8\p g a a, d a'16 g f8 e }
+    }
+    \repeat volta 2 {
+      d\f d'16 c! h8 a g g, c as'
+      f d g f es d c b!
+      a\p a'16 g f8 e d c! b a
+      g e' a g fis\f d e \hA fis %15
+      g a b c d\p d, e fis
+      g a b c d\f d,16 d' c8 b
+      a g fis d g, g' f es!
+      d\p c h g c g' c b\f
+      a g f e d c' b a %20
+      g f! es d c c'16 b a8 g
+      fis d g c, d c d d,
+    }
+    \alternative {
+      { es'\p c d d, g g' f! e }
+      { es\p c d d, g4 r\fermata }
+    } \bar "||" %24 finis
+  }
+}
+
+O-IIIaBassFigures = \figuremode {
+  r4 <[6]>8 <3>16 <6\\> <4> <_+> <\tllur>8 <6> <6\\>
+  r <6 5> <6 4> <5 _+> r2
+  <3>8 <\t> <6> q <4> <3>4.
+  <3>8 <\t> <6> q r2
+  <_!>8 <\t> <6> <6!> r2 %5
+  <[5!] _+>8 <3> <6> <6\\> <_!>2
+  <3> <5 3>
+  <5- 3>8 <\t \t> <7> <8 _+>16 <7 \t> r8 <6\\> <6> <6!>
+  <6 4>4 <5[!] _+>4. <6 5>8 <[5!] _+>4
+  <3>8 <6 5> <[5!] _+>2. %10
+  <3>8 <6 5> <[5!] _+>2.
+  r4 <5 3>8 <\t 3> <7 _!> \bo <6 [4]>16 \bc <5 [_!]> r4
+  <_-> <6 4>8 <6 4!> <6>2
+  <[5!] _+>4 <6>2.
+  r4 <6 4>8 <6! 4\+> <6>2 %15
+  <_->8 <6\\> <6> q16 <5> <6 4>8 <5 _+>4.
+  r8 <6\\> <6> q16 <5> <6 4>8 <5 _+>4 <3>8
+  <5- 3> <\t 3> <7 3> <8 _+>16 <7 \t> \bo <[9] 4>8 \bc <[8] _!> <\t> <6>
+  <5- 3> <\t 3> <7 3> <8 _!>16 <7 \t> \bo <[9] 4> \bc <[8] _-> r4 <3>8
+  \bo <[5!] _+> \bc <[\t] \t> <6> <6\\> <_!> <4\+> <6> <6\\> %20
+  <_-> <4!> <6> <6!> <_->4. \once \bassFigureExtendersOn q8
+  <7->8 <8 _+>16 <7 \t> r8 <6 5> <6 4>4 <5 _+>
+  r8 <6> <6 4> <5 _+> r2
+  r8 <6> <6 4> <5 _+> r2 %24 finis
+}
+
+O-IIIbBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 3/8 \tempoO-IIIb
+      \set Score.currentBarNumber = #25
+      \markMarzoII
+    \repeat volta 2 {
+      R4. %25
+      g'16.\fE f64 e d16[ c b a]
+      g8-! fis-! g-!
+      d d'16.\p c32 b16. a32
+      g8-! fis-! g-!
+      \kneeBeam d d''16.\f c32 b16. a32 %30
+      g16 f es8 d
+      c c'16. b!32 a16. g32
+      f16 es d8 c
+      b b'16. f32 d16. b32
+      f8 f'16. c32 a16. f32 %35
+      b8\p b'16. f32 d16. b32
+      f8 f'16. c32 a16. f32
+      b8\f b' a
+      r g f
+      r es16 d c b %40
+      a8 a' f
+      b es, f
+      b,\p b' a
+      r g f
+      r es16\f d c b %45
+      a8 a' f
+      b es, f
+    }
+    \alternative {
+      { b,16 d'32 c b8 a }
+      { b,16 b' f8 d }
+    }
+    \repeat volta 2 {
+      b4 r8 %50
+      b'16. a64 g f16[ es d c]
+      b8-! a-! b-!
+      f f'16.\p f32 es16 d
+      c8-! h-! c-!
+      g g'16.\f g32 f16 e %55
+      d8-! cis-! d-!
+      a a'16. a32 g16 f
+      e4 d8
+      r cis\p h
+      r a\f a' %60
+      d, b' f
+      g a a,
+      d d'16. c!32 b16. a32
+      g8 g16. f32 es16. d32
+      c8 c'16. b32 a16. g32 %65
+      f8 f16. es32 d16. c32
+      b8 b'16. f32 d16. b32
+      f'8. a16 fis d
+      g,8 g'16. d32 b16. g32
+      d'8 d'16. a32 fis16. d32 %70
+      g,8 g' f
+      r es d
+      r c16 b a g
+      fis8 fis' d
+      g c, d %75
+      g,\p g' f!
+      r es d
+      r c16\f b a g
+      fis8 fis' d
+      g c, d %80
+    }
+    \alternative {
+      { g,16. g'32 f!16 es d c }
+      { g4 r8\fermata }
+    } \bar "||" %82 finis
+  }
+}
+
+O-IIIbBassFigures = \figuremode {
+  r4. %25
+  r8. <6>16 q <6\\>
+  r8 <5 3>4
+  <6 4>8 <5 _+>4
+  r8 <5>4
+  <6 4>8 <5 _+>4 %30
+  <_!>8 <6> <6!>
+  r4.
+  <3>8 <6> q
+  r4.
+  <7 3> %35
+  r
+  q
+  r4 <\t>8
+  r4 q8
+  r <3> <\t> %40
+  <7> <6>4
+  r8 <6 5> <3>
+  r4.
+  r
+  r8 <3>4 %45
+  <7>8 <6>4
+  r8 <6 5> <3>
+  r4.
+  r
+  r %50
+  r8. <6>16 q q
+  r8 <5>4
+  <6 4>8 <5 3>8. <[6!]>16
+  <_->8 <5 3>4
+  <6 4>8 <5 _!>8. <[6\\]>16 %55
+  r8 <5 3[!]>4
+  <6 4>8 <5[!] _+>4
+  <3 5-> <\t \t>8
+  r <\t>4
+  r8 <[5!] _+>4 %60
+  <_!> <6>8
+  <6! 5> <[5] _+>4
+  <_!> r16. <6\\>32
+  <_->4 r16. <6!>32
+  <_->4 r16. <6!>32 %65
+  r4 r16. <6>32
+  r4.
+  <5 3>4 r16 <7 _+>
+  <_->4.
+  <_+> %70
+  <_->4 <\t>8
+  r q4
+  r8 <_-> <\t>
+  <7> <6> <_+>
+  <_-> <6 5> <_+> %75
+  <_->4 <\t>8
+  r4 q8
+  r <_-> <\t>
+  <7> <6> <_+>
+  <_-> <6 5> <_+> %80
+  r4.
+  r %82 finis
+}
+
+O-IIIcBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 3/4 \tempoO-IIIc
+      \set Score.currentBarNumber = #83
+      \markMarzoIII
+    \repeat volta 2 {
+      r4 g' fis
+      g g, d'
+      r fis d %85
+      g g, d'
+      r es d
+      r c' b
+      r a b
+      f, f' es %90
+      d es f
+      g8 b a c b4
+      es, f f,
+    }
+    \alternative {
+      { b b' a }
+      { b, d c } %95
+    }
+    \repeat volta 2 {
+      r b a
+      r b' as
+      r g f
+      es es' d
+      r c h %100
+      r c b
+      r a g
+      fis8 e? \hA fis4 g
+      r a g
+      r fis d %105
+      g c, d
+    }
+    \alternative {
+      { g g, a }
+      { g2 r4\fermata }
+    } \bar "||" %108 finis
+  }
+}
+
+O-IIIcBassFigures = \figuremode {
+  r2 <6>8 <5> %83
+  r2 <_+>4
+  r <[6]> <_+> %85
+  <_->2 <_+>4
+  r2 <6>4
+  r2 q4
+  r q8 <5>4.
+  r2. %90
+  <6>4 q \bo <[6]>
+  r4 \bc q2
+  <6 5>4 <6 4> <5 3>
+  r2.
+  r %95
+  r2 <6>8 <5>
+  r2 <3>4
+  r <_!> <\t>
+  <6> q <6!>
+  r <_-> <6>8 <5> %100
+  r4 <3> q
+  r \bo <[5!] _+> \bc <[\t] \t>
+  <6>8 <\t> r2
+  r4 <5-> <\t>
+  r <6> <7 _+> %105
+  <_-> <6 5> <_+>
+  r2.
+  r %108 finis
+}
+
+O-IIIdBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 3/4 \tempoO-IIId
+      \set Score.currentBarNumber = #109
+      \markMarzoIV
+    \repeat volta 2 {
+      r4 g' g,
+      r g' g, %110
+      r d' d,
+      g g' f!8 es
+      d c b4 b'
+      r b b,
+      r f' f, %115
+      r b c
+      r d d
+      r es es
+      r f f,
+      r g' f8 es %120
+      r4 d d
+      r es es
+      r f f,
+      b8 b'16 f d4 b
+    }
+    \repeat volta 2 {
+      r b' b %125
+      r a a
+      r g g
+      r f es
+      r d c
+      r h h %130
+      c f, g
+      c es d
+      r cis cis
+      r d e
+      r fis fis %135
+      r g, a
+      r h h
+      r c! c
+      r cis cis
+      r d c %140
+      r b b
+      r c c
+      r d d
+      r es es
+      r b b %145
+      r c c
+      r d d,
+    }
+    \alternative {
+      { g8 g'16 d b4 g }
+      { g2 r4\fermata }
+    } \bar "||" %149 finis
+  }
+}
+
+O-IIIdBassFigures = \figuremode {
+  r2. %109
+  r %110
+  r4 <_+> <7 [_+]>
+  r2.
+  <6>
+  r
+  r2 <7>4 %115
+  r2.
+  r4 <6>2
+  r2.
+  r4 <7 5> <\t \t>
+  r2. %120
+  r4 <6>2
+  r4 <5> <6>8 <5>
+  r2.
+  r
+  r2 <5>8 <6> %125
+  r4 <6>2
+  r4 <5> <6!>
+  r <3> <\t>
+  r <6! 3> <8 \t>
+  r <7-> <6>8 <5> %130
+  <9> <8> <6 5 _->4 <6 4>8 <5 _!>
+  <_->4 <6>2
+  r4 <6 [_!]>2
+  r4 <_+> <3>
+  r <6>2 %135
+  r4 <_-> <6\\>
+  r <6>2
+  r4 <_->2
+  r4 <7- 3[!]>2
+  r4 <_+> <\t> %140
+  r <6>2
+  r <6>8 <5>
+  r4 <_+>2
+  r4 <3>2
+  r4 <6>2 %145
+  r2.
+  r4 <_+>2
+  r2.
+  r %149 finis
+}
+
+O-IIIeBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key g \minor \time 2/4 \tempoO-IIIe
+      \override Score.TimeSignature.style = #'rotCC
+      \set Score.currentBarNumber = #150
+      \markMarzoV
+    \repeat volta 2 {
+      g'4\fE f %150
+      es8 d16 c b8 es
+      c a d d,
+      << { g' a b a } \\ { g,4 s } >>
+      g'4 r
+      fis\p f %155
+      e es
+      d8 a d,4
+      d''\f cis8 c
+      h a16 g a8 \hA h
+      c4 h8 b %160
+      a g16 f g8 a
+      b4 g
+      a\p fis
+      g\f e
+      f\p d %165
+      es!8.\fE es16 d8 c
+      b c d es
+      f4 f,
+    }
+    \alternative {
+      { b8 b' b a }
+      { b,8 b' f d } %170
+    }
+    \repeat volta 2 {
+      g,4 f'
+      g a
+      f! gis
+      a8 g16 f e8 d
+      cis4 c8 b %175
+      a\p a' f d
+      cis4 c8 b
+      a\f a' g f
+      e4 cis'
+      d, r8 d' %180
+      cis c h b
+      a g f e
+      d b' g a
+      d,4 fis\p
+      g h, %185
+      c e
+      f! a,
+      b! d
+      es! cis
+      d h %190
+      c! cis
+      d8\f a' d c
+      b a g4
+      fis f
+      e es %195
+      d d'\p
+      cis c
+      b16 a g8\f fis4
+      g8 es c d
+    }
+    \alternative {
+      { g,8 g' d f! } %200
+      { g,4 r\fermata }
+    } \bar "|." %201 finis
+  }
+}
+
+O-IIIeBassFigures = \figuremode {
+  r4 <6> %150
+  r q
+  <6 5> <6 4>8 <5 _+>
+  r4 <6>
+  r2
+  <6>4 <\t> %155
+  <3>8 <4> <5> <7\\>
+  <_+>2
+  <4>8 <_+> <_!> <4\+>
+  <6>4 <6\\>8 <5!>
+  <_!>4 <3>8 <4!> %160
+  <6>4 <6!>8 <5->
+  <3>4 <6>8 <5>
+  <[5!] _+>4 <6>8 <5!>
+  <_!>4 <6>8 <5->
+  <3>4 <6>8 <5> %165
+  <3>4 <6>8 q
+  <3>2
+  <4>4 <3>
+  r2
+  r %170
+  r4 <6>
+  <6->8 <5> \bo <[5!] 4> \bc <[\t] _+>
+  <6>4 \bo <6[!] [_!]>8 \bc <5 [\t]>
+  <[5!] _+>4. <_!>8
+  <3[!]>4 <6 [_!]>8 <6> %175
+  <[5!] _+>4 <6>
+  <3[!]> <6 [_!]>8 <6>
+  <[5!] _+>2
+  <[5!] _+>4 \bo <6 [_!]>8 \bc <5! [\t]>
+  <_+>4. <_!>8 %180
+  <3[!]> <6 [_!]> <7 3> <6>
+  \bo <[5!] _+> \bc <[\t] \t> <6>4
+  r8 <3> <6! 5> <[5!] _+>
+  r4 <6>8 <5[!]>
+  <_!>4 <6>8 <5[!]> %185
+  <_->4 <6>8 <5[-]>
+  r4 <6>8 <5->
+  r4 <6>8 <5>
+  r4 \bo <6 [_!]>8 \bc <5 [\t]>
+  <_+>4 <6>8 <5!> %190
+  <_->4 <6 _!>8 <5 \t>
+  <_+>2
+  <6>4 <3>8 <4\+>
+  <6>4 <3>8 <4!>
+  <5[!]> <6> <3> <4> %195
+  <5> <6[-]> <3> <4>
+  \bo <5 [_!]> \bc <6 [\t]> <3!> <4\+>
+  <6> <6-> <6> <5>
+  r4 <6 5>8 <_+>
+  r2 %200
+  r %201 finis
+}
+
 % \repeat volta 2 {
 
 %     }
