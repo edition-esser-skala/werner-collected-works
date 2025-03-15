@@ -1,0 +1,82 @@
+title: O Mutter meines Herren
+id: WerW E.2
+genre: sacred song
+scoring: A, T (solo), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.250
+    rism: 530003588
+    license: public domain
+    principal: true
+toe: |
+  – & – & In \A1, the three stanzas are written out in A and T.
+          In vl 1/2, org, and vlne, one stanza is written
+          (i.e., bars 1–26), and repetition is indicated
+          by the directive “Aria da capo 3 volte”. \\
+lyrics:
+  \begin{multicols}{2}
+  \textsb{1}\\
+  \textit{Der beängſtigte Sünder}\\
+  Ô Mutter meines Herren,\\
+  du wolleſt mich erhören,\\
+  auf daß ich nicht verzag.\\[1ex]
+  \textit{Maria, die troſtvolle Mutter}\\
+  Mein Sohn, hab dein Vertrauen\\
+  zu mir alß deiner Frauen,\\
+  in waß beſteht die Klag?\\[1ex]
+  \textit{S}\quad Darin, weil ich vermerke\\
+  mein allzugringe Stärke,\\
+  der Sünd zuwiderſtrebn.\\[1ex]
+  \textit{M}\quad Ey laß dich diß nicht irren,\\
+  nicht thue dein Herz verwürren,\\
+  diß macht dein Schwachheit ebn,\\
+  weil du ein Menſch, khein Engel.\\[1ex]
+  \textit{S}\quad Diß zeigen meine Mängel,\\
+  wan ich die Sünd bereu,\\
+  ſo leb ich ſorgenfrey.\\[1ex]
+  \textit{M}\quad Nur deine Sünd bereu,\\
+  ſo lebſtu ſorgenfrey.
+
+  \par\columnbreak
+  \textsb{2}\\
+  \textit{S}\quad Allein, ich merkhe eben,\\
+  daß ich in meinem Leben\\
+  niemahl mehr böſſer werd.\\[1ex]
+  \textit{M}\quad Da mußt du alzeit Gott anflehen,\\
+  daß Er dir woll beyſtehen,\\
+  und dir ſein Gnad beſchert.\\[1ex]
+  \textit{S}\quad Dem bin ich nachgekhommen,\\
+  doch wurd ſie mir entnohmen,\\
+  gar bald ich weiß nicht wie.\\[1ex]
+  \textit{M}\quad Ich will dirs nicht verhellen,\\
+  am Vorſaz thuet es fählen,\\
+  du gibſt dir wenig Müh,\\
+  haſt es nun wohl verſtanden?\\[1ex]
+  \textit{S}\quad Jezt ſtehe ich zuſchanden,\\
+  ſo folg ich dan hinführ\\
+  nach ſchuldigſter Gebühr.\\[1ex]
+  \textit{M}\quad So folge dan hinführ\\
+  nach ſchuldigſter Gebühr.
+  \end{multicols}
+
+  \textsb{3}\\
+  \textit{S}\quad Jezt iſt mir recht die Buß getroffen,\\
+  waß hab ich mit der Zeit zu hoffen?\\
+  nichts als der Sünden Straff.\\[1ex]
+  \textit{M}\quad Nicht ſeye gleich kleinmüthig,\\
+  Gott iſt nur allzu güetig,\\
+  dein Herzen Rueh verſchaff.\\[1ex]
+  \textit{S}\quad Ô Mutter! mein Vertrauen\\
+  will ich ſtäts auf dich bauen,\\
+  du biſt der Sünder Schutz!\\[1ex]
+  \textit{M}\quad Wirſtu mich recht verehren,\\
+  ſo werd ich dir beſcheren\\
+  alls waß der Seelen nutz,\\
+  und wan es kommt zum ſterben.\\[1ex]
+  \textit{S}\quad Alßdan khan ich erwerben\\
+  zu meinem größten Lohn\\
+  die ewig Himmelskron.\\[1ex]
+  \textit{M}\quad Zu deinem größten Lohn\\
+  die ewig Himmelskron.
