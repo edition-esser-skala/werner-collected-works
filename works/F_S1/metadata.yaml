@@ -1,0 +1,26 @@
+title: Jesu redemptor omnium
+id: WerW F.S1
+genre: hymn
+festival: de Nativitate Domini
+scoring: S, A, T, B (coro), b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-KN
+    shelfmark: 118/14
+    rism: 601001050
+    date: 1889-12-31
+    license: public domain
+    principal: true
+toe: |
+  – & org & Bass figures have been added by the editor. \\
+lyrics:
+  Jesu redemptor omnium\\
+  quem lucis ante originem\\
+  parem paternae gloriae\\
+  pater supernus edidit.\\[1ex]
+  Jesu tibi sit gloria\\
+  qui natus es de virgine\\
+  cum Patre et almo Spiritu\\
+  in sempiterna saecula.\\[1ex]
+  (Cantus Index 008277.1)
