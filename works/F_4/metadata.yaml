@@ -1,0 +1,30 @@
+title: Vexilla regis prodeunt
+id: WerW F.4
+genre: hymn
+festival: de Sancta Cruce
+scoring: A, T (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: M 40
+    rism: 600038659
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/273.html
+    license: public domain
+    principal: true
+toe: |
+  9 & org & bar in \B1: b2–\halfNoteRest–\halfNoteRest \\
+lyrics:
+  Vexilla regis prodeunt\\
+  fulget crucis mysterium\\
+  quo carne carnis conditor\\
+  suspensus est patibulo.\\[1ex]
+  Quae vulnerata insuper\\
+  mucrone diro lanceae\\
+  ut nos lavaret crimine\\
+  manavit unda et sanguine.\\[1ex]
+  Te fons salutis trinitas\\
+  collaudet omnis spiritus\\
+  quos per crucis mysterium\\
+  salvas rege per saecula.\\[1ex]
+  (Cantus Index 008410)
