@@ -1,0 +1,16 @@
+\version "2.24.0"
+
+tempoH-I-IVa = \tempoMarkup "[Tempo deest]"
+tempoH-I-IVb = \tempoMarkup "[Tempo deest]"
+tempoH-I-IVc = \tempoMarkup "[Tempo deest]"
+tempoH-I-IVd = \tempoMarkup "[Tempo deest]"
+tempoH-I-IVe = \tempoMarkup "[Tempo deest]"
+tempoH-I-IVf = \tempoMarkup "[Tempo deest]"
+
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"
