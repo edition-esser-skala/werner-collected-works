@@ -1,0 +1,39 @@
+title: Te Deum
+id: WerW J.6
+genre: hymn
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Gk
+    shelfmark: AMC, W. 101.
+    rism: 530012400
+    license: public domain
+    principal: true
+toe: |
+  –  & –    & The single known source \B1 is heavily damaged,
+              since the lower left corner of each folded bifolio is missing.
+              Moreover, manuscript damage prevented digitization of
+              fol.~2v/3r of the vl~1~part and fol.~1v/2r of the S~part.
+              Thus, the following bars have been lost:
+              clno~1: 62f, 103f, 183–188, 196–203;
+              clno~2: 42, 59f, 98, 104–114, 176–179, 190–193, 268f;
+              timp: 65f, 98, 105–115, 177–179, 195–202;
+              vl~1: 17, 20, 22, 24, 56, 60f, 66f, 72f, 88, 92f, 95f, 97–174,
+                    204f, 208f, 213f, 222–224, 253f, 258f, 263, 267, 271f;
+              vl~2: 13, 16, 19, 21, 23f, 56f, 61f, 69f, 72f, 92, 94, 97f, 100,
+                    102f, 125f, 129, 133, 138f, 145f, 166f, 172–174, 211f,
+                    218, 222f, 227f, 252, 257f, 262, 266, 270f;
+              S: 31f, 37f, 45–47, 55–57, 63–65, 68–72, 75–218, 261f, 265, 269f;
+              A: 29, 35f, 42f, 50–52, 60–62, 68–75, 116, 120f, 126, 133f, 140,
+                 145f, 208f, 213, 216, 259f, 263, 267f, 272f;
+              T: 25f, 33f, 38f, 45–47, 55–58, 64–66, 177, 181f, 187f, 194f,
+                 200–202, 207–209, 234, 245, 251, 256f, 262f, 268f, 272f;
+              B: 20, 23, 30–32, 37f, 44–46, 52–54, 98, 101, 105, 114f, 117–133,
+                 195, 202f, 208, 211f, 214f, 217f, 261f, 264f, 268f, 273; and
+              org: 111f, 121, 129, 258, 262. \\
+  28  & vl 2 & 1st \halfNote\ in \B1: a′2 \\
+  36  & org  & 1st \halfNote\ in \B1: e2 \\
+  40  & timp & 3rd \quarterNote\ in \B1: G4 \\
+  67  & T    & bar in \B1: c′2–r4 \\
+  272 & timp & 2nd \halfNote\ in \B1: c4–c8–c8 \\
