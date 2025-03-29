@@ -1,0 +1,17 @@
+title: Magnificat
+id: WerW H.3.1
+genre: canticle
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: G 81
+    rism: 600038326
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/913.html
+    license: public domain
+    principal: true
+toe: |
+  4    & vl 1 & 3rd \quarterNote\ in \B1:
+                \flat b′16–\flat b″16–f″32–\flat e″32–d″16 \\
+  106f & A    & bars in \B1: \flat b4–a4–a4–g4 and a4 \\
