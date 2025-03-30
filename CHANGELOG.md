@@ -1,5 +1,17 @@
 # Changelog
 
+## 2025.03.0 – 2025-03-30
+
+### Added
+
+- works: WerW D.1.12, D.5.S3, F.4/41/S1, H.1.4, H.2.1, H.3.1, I.1.23, I.3.S1, I.4.9, I.5.16, N.15, and O.3
+- unpublished works: WerW D.2.1, D.4.2, E.2, G.1, I.2.2, I.3.3, and J.6
+
+## Changed
+
+- renumbered WerW D.4.9 → 6, D.5.4 → S4, and D.5.6 → 2
+
+
 ## 2025.02.0 – 2025-03-01
 
 ### Added
