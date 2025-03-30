@@ -1,0 +1,19 @@
+title: Pastorella
+id: WerW N.15
+genre: pastorella
+festival: Nativitas Domini
+scoring: 2 vl, vla, b, org solo
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: E 60
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/.html
+    license: public domain
+    principal: true
+toe: |
+  102 & vl 2 & bar in \B1: e′2–g′2–\sharp f′2 \\
+  105 & vl 2 & 3rd \halfNote\ in \B1: b2 \\
+  119 & org  & bar missing in \B1 \\
+parts:
+  org_solo: Organo solo
