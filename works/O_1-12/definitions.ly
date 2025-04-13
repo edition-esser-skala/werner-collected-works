@@ -85,6 +85,25 @@ markMarzoV = \markTitle
   "5. Il giorno critico."
   "Verworffener Tag."
 
+markAprileI = \markTitle
+  "1. La Primavera."
+  "Der Frühling."
+markAprileII = \markTitle
+  "2. Il Paſtore fiſchiante."
+  "Der ſpiehlende Schäfer."
+markAprileIIIa = \markTitle
+  "3. Menuet il Giorno di 13. hore."
+  "Die Tags-Länge 13. Stund, …"
+markAprileIIIb = \markTitle
+  "La notte di 11. hore."
+  "… die Nacht 11. Stund."
+markAprileIV = \markTitle
+  "4. Tempo variabile."
+  "Das veränderliche April-Wetter."
+markAprileV = \markTitle
+  "5. Il grido di Ranochio."
+  "Das Froſch-Geſchrey."
+
 \layout {
   \set Score.doubleRepeatBarType = #":|.|:"
 }
@@ -107,6 +126,12 @@ tempoO-IIIb = \tempoMarkup "Allegro"
 tempoO-IIIc = \tempoMarkup "[Tempo deest]"
 tempoO-IIId = \tempoMarkup "Larghetto e sempre piano"
 tempoO-IIIe = \tempoMarkup "Allegro"
+
+tempoO-IVa = \tempoMarkup "Allegro"
+tempoO-IVb = \tempoMarkup "Allegretto"
+tempoO-IVc = \tempoMarkup "[Tempo deest]"
+tempoO-IVd = \tempoMarkup "[Tempo deest]"
+tempoO-IVe = \tempoMarkup "Prestissimo"
 
 
 \include "notes/vl1.ly"

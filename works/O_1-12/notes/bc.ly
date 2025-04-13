@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-O-IaBassoContinuo = {
+O-IaContinuo = {
   \relative c {
     \clef bass
     \foureighttime \key c \major \time 4/8 \tempoO-Ia
@@ -134,7 +134,7 @@ O-IaBassFigures = \figuremode {
   <6 4>4 <5 3>2. %65 finis
 }
 
-O-IbBassoContinuo = {
+O-IbContinuo = {
   \relative c {
     \clef bass
     \key c \major \time 3/8 \tempoO-Ib
@@ -244,7 +244,7 @@ O-IbBassFigures = \figuremode {
   r
 }
 
-O-IcBassoContinuo = {
+O-IcContinuo = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoO-Ic
@@ -316,7 +316,7 @@ O-IcBassFigures = \figuremode {
   r
 }
 
-O-IdBassoContinuo = {
+O-IdContinuo = {
   \relative c {
     \clef bass
     \twofourtime \key c \major \time 2/4 \tempoO-Id
@@ -406,7 +406,7 @@ O-IdBassFigures = \figuremode {
   r4 %176 finis
 }
 
-O-IIaBassoContinuo = {
+O-IIaContinuo = {
   \relative c {
     \clef bass
     \twofourtime \key d \major \time 2/4 \tempoO-IIa
@@ -537,7 +537,7 @@ O-IIaBassFigures = \figuremode {
   r2 %58 finis
 }
 
-O-IIbBassoContinuo = {
+O-IIbContinuo = {
   \relative c {
     \clef bass
     \key d \major \time 3/4 \tempoO-IIb
@@ -609,7 +609,7 @@ O-IIbBassFigures = \figuremode {
   r %84 finis
 }
 
-O-IIcBassoContinuo = {
+O-IIcContinuo = {
   \relative c {
     \clef bass
     \twotwotime \key d \major \time 2/2 \tempoO-IIc
@@ -725,7 +725,7 @@ O-IIcBassFigures = \figuremode {
   r %132 finis
 }
 
-O-IIdBassoContinuo = {
+O-IIdContinuo = {
   \relative c {
     \clef bass
     \key d \major \time 3/4 \tempoO-IId
@@ -797,7 +797,7 @@ O-IIdBassFigures = \figuremode {
   r %158 finis
 }
 
-O-IIeBassoContinuo = {
+O-IIeContinuo = {
   \relative c {
     \clef bass
     \key d \major \time 4/8 \tempoO-IIe
@@ -913,7 +913,7 @@ O-IIeBassFigures = \figuremode {
   r %206 finis
 }
 
-O-IIIaBassoContinuo = {
+O-IIIaContinuo = {
   \relative c {
     \clef bass
     \key g \minor \time 4/4 \tempoO-IIIa
@@ -980,7 +980,7 @@ O-IIIaBassFigures = \figuremode {
   r8 <6> <6 4> <5 _+> r2 %24 finis
 }
 
-O-IIIbBassoContinuo = {
+O-IIIbContinuo = {
   \relative c {
     \clef bass
     \key g \minor \time 3/8 \tempoO-IIIb
@@ -1116,7 +1116,7 @@ O-IIIbBassFigures = \figuremode {
   r %82 finis
 }
 
-O-IIIcBassoContinuo = {
+O-IIIcContinuo = {
   \relative c {
     \clef bass
     \key g \minor \time 3/4 \tempoO-IIIc
@@ -1188,7 +1188,7 @@ O-IIIcBassFigures = \figuremode {
   r %108 finis
 }
 
-O-IIIdBassoContinuo = {
+O-IIIdContinuo = {
   \relative c {
     \clef bass
     \key g \minor \time 3/4 \tempoO-IIId
@@ -1288,7 +1288,7 @@ O-IIIdBassFigures = \figuremode {
   r %149 finis
 }
 
-O-IIIeBassoContinuo = {
+O-IIIeContinuo = {
   \relative c {
     \clef bass
     \twofourtime \key g \minor \time 2/4 \tempoO-IIIe
@@ -1411,6 +1411,486 @@ O-IIIeBassFigures = \figuremode {
   r4 <6 5>8 <_+>
   r2 %200
   r %201 finis
+}
+
+O-IVaContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key d \major \time 2/4 \tempoO-IVa
+      \markAprileI
+    \repeat volta 2 {
+      d4-!\fE fis-!
+      a-! d-!
+      a8 fis16 g a g fis e
+      d8 a fis d
+      R2*4 %8
+      g'4\p r
+      fis-! f-! %10
+      r8 e h cis
+      d4 r8 d'\f
+      h a16 h gis8 fis16 \hA gis
+      e4 r8 cis'
+      a gis16 a fis8 e16 fis %15
+      d4 r8 h'
+      gis fis16 \hA gis e8 d16 e
+      cis4. fis8
+      e4 e,
+      fis'\p r %20
+      gis r
+      a8 fis cis d
+      e4 e,
+    }
+    \alternative {
+      { a8 a'16 g! fis8 e }
+      { a,8 e'16 d cis8 h }
+    }
+    \repeat volta 2 {
+      a4\f a'
+      gis g
+      fis8 e dis4
+      e r
+      e'2\p %30
+      dis4 d
+      cis8 h ais4
+      h r
+      h,\f h'
+      ais r %35
+      a,!\p a'
+      gis r
+      g,!\f g'
+      fis r
+      e cis %40
+      d d'
+      g,2~
+      g8 fis16 e fis8 h
+      a4-! a,-!
+      h\p r %45
+      cis r
+      d8 h' fis g
+      a4 a,
+    }
+    \alternative {
+      { d8 d' fis, d }
+      { d,4 r\fermata }
+    } \bar "||" %50 finis
+  }
+}
+
+O-IVaBassFigures = \figuremode {
+  r2
+  r
+  r
+  r
+  r2*4 %8
+  r2
+  <3>4 <6> %10
+  r q8 <\t>
+  <4> <3>4.
+  <3>8 <\t>4.
+  <7 _+>2
+  <3>8 <\t>4. %15
+  <7 3>2
+  <3>8 <\t> <_+>4
+  <7> <6>8 q
+  <6 4>4 <5 _+>
+  <6\\>2 %20
+  <5!>
+  <3>8 <\t> <6> <6 5>
+  <6 4>4 <5 _+>
+  r2
+  r %25
+  r
+  <6>4 q
+  r8 <6!> <6> <5>
+  <_!>2
+  r %30
+  <6>4 q
+  r8 q q <5>
+  <_!>2
+  r
+  <6> %35
+  q
+  q
+  q
+  <6 _!>
+  r4 <6>8 <5> %40
+  r2
+  <5>4 <6>
+  <4\+ 2> <6>8 q
+  <6 4>4 <5 3>
+  <6\\>2 %45
+  <5! 3>
+  r4 <6>8 <6 5>
+  <6 4>4 <5 3>
+  r2
+  r %50 finis
+}
+
+O-IVbContinuo = {
+  \relative c {
+    \clef bass
+    \key d \major \time 3/4 \tempoO-IVb
+      \set Score.currentBarNumber = #51
+      \markAprileII
+    \repeat volta 2 {
+      d4\fE d'8 fis, g a
+      d,2.~-\tasto
+      d4 d'8 fis, g a
+      d,2.~
+      d~ %55
+      d~
+      d~
+      d~
+      d8. e16 fis4 gis
+      a2.~-\tasto %60
+      a~
+      a4 d cis
+      r d cis
+      h8 fis h a gis fis
+      e2 e4 %65
+      a8-! r gis-! r fis e16 d
+      cis8 d e4 e,
+    }
+    \alternative {
+      { a a'8 g! fis e }
+      { a,4 e'8 d cis h }
+    }
+    \repeat volta 2 {
+      a2-\tasto r4 %70
+      a2 r4
+      a2 r4
+      a2 r4
+      a2.~
+      a~ %75
+      a~
+      a8 a'4 fis8 a a,
+      d4 r8 d' a a,
+      d2.~-\tasto
+      d~ %80
+      d~
+      d8-\unisono d' cis h a gis
+      a2 e4
+      a, a' fis8( d)
+      a'2 a,4 %85
+      d2.~
+    }
+    \alternative {
+      { d8 d' fis, e fis d }
+      { d,2 r4\fermata }
+    } \bar "||" %88 finis
+  }
+}
+
+O-IVbBassFigures = \figuremode {
+  r4. <6>8 <6 5>4 %51
+  r2.
+  r4. <6>8 <6 5>4
+  r2.
+  r %55
+  r
+  r
+  r
+  r4 <6> q
+  r2. %60
+  r
+  r2 <6>4
+  r2 <6>4
+  <_!>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+  <7 _+>2. %65
+  r4 <6>2
+  q8 <6 5> <6 4>4 <\t \t>8 <[5] _+>
+  r2.
+  r
+  r %70
+  r
+  r
+  r
+  r
+  r %75
+  r
+  r4. <6>
+  r2 <6 4>8 <5 3>
+  r2.
+  r %80
+  r
+  r
+  r2 <_+>4
+  r2 <[6]>4
+  r2. %85
+  r
+  r
+  r %88 finis
+}
+
+O-IVcContinuo = {
+  \relative c {
+    \clef bass
+    \key d \major \time 3/4 \tempoO-IVc
+      \set Score.currentBarNumber = #89
+      \markAprileIIIa
+    \repeat volta 2 {
+      d4\fE e fis
+      d e cis %90
+      d fis8 e d4
+      e cis d
+      a8 h cis4 d
+      h e cis
+      gis'2 a4 %95
+      gis fis h
+      e, a d,
+      fis e d
+      cis2 d4
+      fis e e, %100
+    }
+    \alternative {
+      { a a'8 g! fis e }
+      { a,4 cis e }
+    }
+    \repeat volta 2 {
+      \markAprileIIIb a g! fis
+      h e, a
+      d, d' cis %105
+      ais h eis,
+      fis h8 a g4
+      e! a g
+      fis4. e8 d4
+      cis h e %110
+      a, d g
+      e a a,
+    }
+    \alternative {
+      { d8 cis d e fis g }
+      { d,2 r4\fermata }
+    } \bar "||" %114 finis
+  }
+}
+
+O-IVcBassFigures = \figuremode {
+  r2 <6>4 %89
+  q <_!> <\t> %90
+  r <6>2
+  <3>4 <5>2
+  r4 <6>8 <5>4.
+  r4 <_+> <6>
+  q2 q4 %95
+  q <\t> <_!>
+  <7 _+>2 <6>4
+  q <_+> <\t>
+  <6>2 q4
+  q <_+>2 %100
+  r2.
+  r
+  r2 <6>4
+  r <7> q
+  <4> <3> q %105
+  <5>8 <6> <_!>4 <\t>
+  <_+> q <6>
+  r <_+> <\t>
+  <6>2 q4
+  q <\t> <3> %110
+  <7> <3> <6>
+  r2.
+  r
+  r %114 finis
+}
+
+O-IVdContinuo = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/8 \tempoO-IVd
+      \set Score.currentBarNumber = #115
+      \markAprileIV
+    \partial 8 d8\fE
+      a'4-! d,-! %115
+      a d
+      a'\pE d,
+      a d
+      \time 12/8 g4.\fE e4 cis'8 fis,4. d4 h'8
+      e,4. cis4 a'8 d,4. r8 r fis\p %120
+      g4. e4 cis'8 fis,4. d4 h'8
+      e,4. cis4 a'8 d,4. d'4\f a8
+      \time 2/4 fis16 g fis e d8 a'
+      fis16 g fis e d8 a'
+      fis16\p g fis e d8 a' %125
+      fis16 g fis e d4
+      a'\f a
+      a r
+      a,\p a
+      a r8 cis\fE %130
+      \time 12/8 d4. h' cis, a'
+      h, gis' a e
+      \time 2/4 cis4-! d-!
+      \time 3/8 gis4 a8
+      d, e e, %135
+      cis'4\p fis8
+      d e e,
+      a4 \bar ":|.|:" \time 4/8 \partial 8 r8
+      a'4\f a
+      a r %140
+      a\p a
+      a r8 ais\f
+      \time 12/8 h4. e, a d,
+      g cis, fis4 gis8 ais \hA gis fis
+      \time 2/4 h fis d ais %145
+      h fis' d h
+      \time 12/8 e4. fis h4 h,8 e4 g,8
+      a4. h e4 h8 g4 e8
+      \time 4/8 a'[ e cis a]
+      d'[ a fis d] %150
+      \time 12/8 g4. e' fis, d'
+      e, cis' d a
+      \time 2/4 fis4-! g-!
+      \time 3/8 cis, d8
+      g a a, %155
+      fis'4\p h8
+      g a a,
+      d4\fermata \bar ":|." %158 finis
+  }
+}
+
+O-IVdBassFigures = \figuremode {
+  r8 r2 %115
+  r
+  r
+  r
+  r1.
+  r2. r4. r4 <6>8 %120
+  r1.
+  r2. r4. <3>4 <6 4>8
+  <6>2
+  q
+  q %125
+  <[6]>
+  <5 3>4 <\t \t>8 <6 4>
+  <5 3>2
+  r4 q8 <6 4>
+  <5 3>4. <6>8 %130
+  r1.
+  r4. <6>4 <5>8 <3>4. <\t>
+  <6>2
+  q8 <5>4
+  <6>8 <_+>4 %135
+  <6>4.
+  q8 <_+>4
+  r4.
+  r4 <6 4>8 <7\\ 2>
+  <8 3>2 %140
+  r4 <6 4>8 <7\\ 2>
+  <8 3>4. <6>8
+  <10 9>4 <\t 8>8 <7 [_!]>4. <10 9>4 <\t 8>8 <7>4.
+  <9>4 <8>8 <7 5!>4. <9>8 <8> <6\\> <6>4.
+  r8 <_+> <6> q %145
+  r <_+> <6>4
+  r4. <6 4>4 <5 _+>8 <_+>4. r4 <6>8
+  <_!>4. <6 4>4 <5 _+>8 r2.
+  r8 <_+> <6>4
+  r q %150
+  r1.
+  r4. <6>4 <5>8 <3>4. <6 4>
+  <6>4 <3>
+  <6>8 <5>4
+  <6>4. %155
+  q4 <5>8
+  <6 5>4.
+  r4 %158 finis
+}
+
+O-IVeContinuo = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoO-IVe
+      \set Score.currentBarNumber = #159
+      \markAprileV
+    \repeat volta 2 {
+      \grace s8 d16(\fE fis) d( fis) d( fis) d( fis) d( fis) d( fis) d( fis) d( fis)
+      d( g) d( g) d( g) d( g) d( g) d( g) d( g) d( g) %160
+      cis,( e) cis( e) cis( e) cis( e) cis( e) cis( e) cis( e) cis( e)
+      d( fis) d( fis) d( fis) d( fis) d( fis) d( fis) d( fis) d( fis)
+      cis(\p e) cis( e) cis( e) cis( e) cis( e) cis( e) cis( e) cis( e)
+      d( fis) d( fis) d( fis) d( fis) d( fis) d( fis) d( fis) d( fis)
+      g(\f h) g( h) g( h) g( h) g( h) g( h) g( h) g( h) %165
+      g( a) g( a) g( a) g( a) g( a) g( a) g( a) g( a)
+      fis( a) fis( a) fis( a) fis( a) fis( a) fis( a) fis( a) fis( a)
+      g( h) g( h) g( h) g( h) gis( h) \hA gis( h) \hA gis( h) \hA gis( h)
+      \tuplet 3/2 4 { a8\p a a a-\tasto a a a a a a a a
+      a a a a a a a a a a a a } %170
+      a16(\f cis) a( cis) a( cis) a( cis) a( cis) a( cis) a( cis) a( cis)
+      a(\p h) a( h) a( h) a( h) a( h) a( h) a( h) a( h)
+      gis(\f h) \hA gis( h) \hA gis( h) \hA gis( h) \hA gis( h) \hA gis( h) \hA gis( h) \hA gis( h)
+      g(\p a) g( a) g( a) g( a) g( a) g( a) g( a) g( a)
+      fis(\f a) fis( a) fis( a) fis( a) fis( a) fis( a) fis( a) fis( a)
+      e8-! r a-! r d,-! r e-! r
+      cis-! r fis-! r d-! r e-! r
+    }
+    \alternative {
+      { a16 a e e cis cis e e a,8 a'16 g! fis8 e }
+      { a16 a e e cis cis e e a,8 e'16 d cis8 h }
+    }
+    \repeat volta 2 {
+      a'16(\f cis) a( cis) a( cis) a( cis) a( cis) a( cis) a( cis) a( cis) %180
+      \parOn a8\p-\parenthesize-! r g!-! r fis-! r \parOff e-\parenthesize-! r
+      dis16(\f fis) \hA dis( fis) \hA dis( fis) \hA dis( fis) \hA dis( fis) \hA dis( fis) \hA dis( fis) \hA dis( fis)
+      d8-!\p r cis!-! r h-! r a-! r
+      gis16(\f h) \hA gis( h) \hA gis( h) \hA gis( h) \hA gis( h) \hA gis( h) \hA gis( h) \hA gis( h)
+      a'( cis) a( cis) a( cis) a( cis) g!( a) g( a) g( a) g( a) %185
+      fis( a) fis( a) fis( a) fis( a) cis,( e) cis( e) cis( e) cis( e)
+      d( fis) d( fis) d( fis) d( fis) e( g) e( g) eis( gis) \hA eis( \hA gis)
+      \tuplet 3/2 4 { fis8\p fis fis fis-\tasto fis fis fis fis fis fis fis fis
+      fis fis fis fis fis fis fis fis fis fis fis fis }
+      fis, fis'16 e! d8 e fis4. e8 %190
+      dis16(\f h) \hA dis( h) \hA dis( h) \hA dis( h) g'!( e) g( e) g( e) g( e)
+      dis( h) \hA dis( h) \hA dis( h) \hA dis( h) g( e) g( e) g( e) g( e)
+      cis''( a) cis( a) cis( a) cis( a) fis( d) fis( d) fis( d) fis( d)
+      cis( a) cis( a) cis( a) cis( a) fis( d) fis( d) fis( d) fis( d)
+      g'8-! r e-! r a-! r fis-! r %195
+      cis-! r cis'-! r d-! r fis,-! r
+      g-! r a-! r d,8 d16 d fis fis a a
+      d d a a fis fis a a d,4 r\fermata %198 finis
+    }
+  }
+}
+
+O-IVeBassFigures = \figuremode {
+  r1 %159
+  <6 4> %160
+  <6>2. q8 <5>
+  <4 2>4 <3 1>2.
+  <6>2. q8 <5>
+  <4 2>4 <3 1>2.
+  <3>4. <6>8 <\t>2 %165
+  <4 2>1
+  <5 3>4. <6>8 <\t>2
+  <5>2 <6>4. <5>8
+  r1
+  r %170
+  <5 3>
+  <4\+ 2>
+  <5! 3>
+  <4\+ 2>
+  <6> %175
+  <[7] _+>2 <6 5>4 <_+>
+  <6>2 <6 5>4 <_+>
+  r1
+  r
+  r %180
+  <4\+ 2>4 <6> <6\\>2
+  <7! 5 3>1
+  <4\+ 2>4 <6> <6\\>2
+  <5! 3>1
+  r2 <6 4\+ 2> %185
+  <6> q
+  r2. <7 5 [_+]>4
+  <[_+]>1
+  r
+  <4>8 <_+> <6> <6\\> <6 4>4 <5 _+>8 <\t \t> %190
+  <6>2 q
+  q q
+  q q
+  q q
+  r2. <6>4 %195
+  q <5>2 <6>4
+  <6 5>1
+  r %198 finis
 }
 
 % \repeat volta 2 {

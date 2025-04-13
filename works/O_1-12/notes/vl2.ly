@@ -796,3 +796,277 @@ O-IIIeViolinoII = {
     } \bar "|." %201 finis
   }
 }
+
+O-IVaViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key d \major \time 2/4 \tempoO-IVa
+      \markAprileI
+    \repeat volta 2 {
+      d'4-!\fE fis-!
+      a-! d-!
+      a8 fis16 g a g fis e
+      d8 a fis d
+      d'4\p r %5
+      cis-! c-!
+      r8 h fis gis
+      a e a,4
+      h'4. a16 g!
+      a8 fis d4 %10
+      h'8. cis16 d8 e
+      a, d, r4
+      r8 fis'\f h a16 h
+      gis8 fis16 \hA gis e4
+      r8 e a gis16 a %15
+      fis8 e16 fis d4
+      r8 h gis' h
+      e, fis16 gis a4~
+      a-! gis-!
+      a8\p a, a a %20
+      r h h h
+      a16 h a h cis h a h
+      a4 gis\trill
+    }
+    \alternative {
+      { a r }
+      { a r } %25
+    }
+    \repeat volta 2 {
+      r8 cis\f h a
+      h e, e'4
+      a8 g! fis16( e) fis8
+      h, g4 e8
+      r g\p fis e %30
+      fis h, h'4
+      e8 d! cis16( h) cis8
+      fis, d4 h8
+      R2
+      r8 cis'\f fis, cis' %35
+      fis16( e) fis8 fis,4
+      r8 h\p e, h'
+      \once \slurDashed e16( d) e8 e,4
+      r8 a\f h a
+      g4 e' %40
+      a,8 fis4 d8
+      h' d g, h
+      a h16 cis d4~
+      d-! cis-!
+      d8\p d, d d %45
+      r e e e
+      d16 e d e fis e d e
+      \parOn d4-\parenthesize-! \parOff cis-\parenthesize-!
+    }
+    \alternative {
+      { d r }
+      { d r\fermata }
+    } \bar "||" %50 finis
+  }
+}
+
+O-IVbViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoO-IVb
+      \set Score.currentBarNumber = #51
+      \markAprileII
+    \repeat volta 2 {
+      fis4.\fE d'8 h cis
+      d fis, g fis g e
+      fis4. d'8 h cis
+      d fis, g fis g e
+      fis a h a h cis %55
+      d16( a) fis'( a,) g'( a,) fis'( a,) g'( a,) e'( a,)
+      fis'8 a, h a h cis
+      d16( a) fis'( a,) g'( a,) fis'( a,) g'( a,) e'( a,)
+      fis'8 d16 e fis8( a) gis( e)
+      cis16( h) cis( a) d8( h) e( d) %60
+      cis16( h) cis( a) d8( h) e( d)
+      cis e16 cis fis8 d16 a e'8 cis16 a
+      cis( d) e cis fis8 d16 a e'8 cis16 a
+      d( e) fis( e) d8 d16( cis) h8 h16( a)
+      gis4. h16( \hA gis) e8 \hA gis %65
+      \tuplet 3/2 8 { a16 gis a } r8 \tuplet 3/2 8 { h16 a h } r8 cis8. d16
+      e8 d cis h a gis
+    }
+    \alternative {
+      { a2 r4 }
+      { a2 r4 }
+    }
+    \repeat volta 2 {
+      a8( cis) e,( a) fis( gis) %70
+      a( cis) e( cis) fis16( d) h( cis)
+      a8( cis) e,( a) fis( gis)
+      a( cis) e( cis) fis16( d) h( cis)
+      a8 a, cis e a e
+      cis a cis e a e %75
+      cis a cis e a e
+      cis a'4 fis8 a16( g!) e( fis)
+      d8 fis'4 d8 fis16( e) cis( a)
+      fis8 d fis a d a
+      fis d fis a d a %80
+      fis d fis a d a
+      fis d' cis h a gis
+      a,4 a' \once \slurDashed h8( gis)
+      a2 fis8( d)
+      a( cis) e( g!) fis( cis) %85
+      d fis16( d) a'( fis) d'8~ d16( a) fis( a)
+    }
+    \alternative {
+      { fis2 r4 }
+      { fis2 r4\fermata }
+    } \bar "||" %88 finis
+  }
+}
+
+O-IVcViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoO-IVc
+      \set Score.currentBarNumber = #89
+      \markAprileIIIa
+    \repeat volta 2 {
+      a'4.\fE h16 cis d4
+      h \grace a8 g2 %90
+      fis4 a2
+      g fis4
+      e a8 g fis4
+      d'8( h) \tuplet 3/2 4 { gis a h a h cis }
+      h4 e fis %95
+      e2 d4~
+      d cis fis8( h,)
+      d( fis,) \grace a8 gis2\trill
+      a4 e' fis8( h,)
+      d( fis,) \grace a gis2 %100
+    }
+    \alternative {
+      { a2 r4 }
+      { a2 r4 }
+    }
+    \repeat volta 2 {
+      \markAprileIIIb e'4. fis16 g! a4
+      d, g2~
+      g4 fis e~ %105
+      e8 fis \grace e8 d2
+      cis4 dis \tuplet 3/2 4 { e8 fis g
+      g fis e } \grace d8 cis2
+      d4 a h
+      a2 g4~ %110
+      g fis h8( e,)
+      g( h,) \grace d cis2
+    }
+    \alternative {
+      { d2 r4 }
+      { d2 r4\fermata }
+    } \bar "||" %114 finis
+  }
+}
+
+O-IVdViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/8 \tempoO-IVd
+      \set Score.currentBarNumber = #115
+      \markAprileIV
+    \partial 8 fis8\fE e( g) fis-! d'-! %115
+    cis16 d e cis d8 fis,\p
+    e( g) fis-! d-!
+    cis16 d e cis d8 d'\fE
+    \time 12/8 h4.~ h8 a g a4.~ a8 g fis
+    g4.~ g8 fis e fis4 d8 fis4 a8\p %120
+    h, h' a g fis e a, a' g fis e d
+    g, g' fis e d cis d4 fis8\f a4 fis8
+    \time 2/4 d16 cis d e fis8 cis
+    d16 cis d e fis8 cis
+    d16\p cis d e fis8 cis %125
+    d16 cis d e fis8 d'\f
+    cis16 d cis h a8 fis
+    e16 fis e d cis8 d\p
+    cis16 d cis h a8 fis'
+    e16 fis e d cis8 a'\f %130
+    \time 12/8 a4 fis8 fis4 d'8 r r e, e4 cis'8
+    r r d, h' a h e,4 a8 cis a cis
+    \time 2/4 e4-! a,-!
+    \time 3/8 h8 gis e
+    h' \appoggiatura a gis4 %135
+    a8\p cis16 h a8
+    h \appoggiatura a gis4\trill
+    a \bar ":|.|:" \time 4/8 \partial 8 cis8\f
+    a( cis) d16( h) gis'8
+    a e cis16( h) cis8\p %140
+    a( cis) d16( h) gis'8
+    a e cis16( h) cis8
+    \time 12/8 cis4\f h8~ h g! h h4 a8 a fis a~
+    a4 g8 g e g g fis eis fis4.
+    \time 2/4 fis4 fis %145
+    fis4. d'8
+    \time 12/8 h4.~ h8 cis ais h cis dis e4.~
+    e~ e8 fis dis e e, g h g h
+    \time 4/8 e, e'4 cis8
+    a a'4 fis8 %150
+    \time 12/28 d4 h8 h4 g'8 r r a, a4 fis'8
+    r r g, e'4 e,8 fis4 d8 fis d fis
+    \time 2/4 a4-! d,-!
+    \time 3/8 e8 cis a
+    e' \appoggiatura d cis4 %155
+    d8\p fis16 e d8
+    e \appoggiatura d cis4
+    d\fermata \bar ":|." %158 finis
+  }
+}
+
+O-IVeViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoO-IVe
+      \set Score.currentBarNumber = #159
+      \markAprileV
+    \repeat volta 2 {
+      % r4 fis\fE a fis  % for MIDI
+      % r g h d %160
+      \grace s8 r4 \grace { fis16 e } fis4\fE \grace { a16 g } a4 fis
+      r \grace { g16 fis } g4 \grace { h16 a } h4 d %160
+      r e,8( a) cis( a) e'( e,)
+      e4\trill d r2
+      r4 e8(\p a) cis( a) \once \slurDashed e'( e,)
+      e8 d4 fis a fis8
+      d4 r r r8 e~\f %165
+      e g4 a cis e8
+      a,4 r r r8 d,~
+      d g4 h gis h8
+      e,4 fis'8(\p e) r4 d8( h)
+      r4 fis'8( e) r4 d8( h) %170
+      cis16(\ff e) cis( e) cis( e) cis( e) cis( e) cis( e) cis( e) cis( e)
+      h(\p dis) h( \hA dis) h( \hA dis) h( \hA dis) h( \hA dis) h( \hA dis) h( \hA dis) h( \hA dis)
+      h(\f d) h( d) h( d) h( d) h( d) h( d) h( d) h( d)
+      a(\p cis) a( cis) a( cis) a( cis) a( cis) a( cis) a( cis) a( cis)
+      a(\f d) a( d) a( d) a( d) a( d) a( d) a( d) a( d) %175
+      gis,8-! r a-! r a-! r gis-! r
+      a-! r a-! r h-! r gis-! r
+    }
+    \alternative {
+      { a16 a e e cis cis e e a,4 r }
+      { a'16 a e e cis cis e e a,4 r }
+    }
+    \repeat volta 2 {
+      cis'16(\f e) cis( e) cis( e) cis( e) cis( e) cis( e) cis( e) cis( e) %180
+      h8-!\p r h-! r dis-! r e-! r
+      fis16(\f dis) fis( \hA dis) fis( \hA dis) fis( \hA dis) fis( \hA dis) fis( \hA dis) fis( \hA dis) fis( \hA dis)
+      \parOn e8\p-\parenthesize-! r e,-! r gis-! r \parOff a-\parenthesize-! r
+      h16(\f d) h( d) h( d) h( d) h( d) h( d) h( d) h( d)
+      cis( a) cis( a) cis( a) cis( a) e'( cis) e( cis) e( cis) e( cis) %185
+      a( fis) a( fis) a( fis) a( fis) a( cis) a( cis) a( cis) a( cis)
+      a( d) a( d) a( d) a( d) h8 h gis gis
+      fis4\p d'8( cis) r4 d8( h)
+      r4 d8( cis) r4 d8( h)
+      r cis h cis h4( ais8.)\trill h16 %190
+      h8\f fis16( h) fis( h) fis( h) e,( g) e( g) e( g) e( g)
+      fis( dis') fis,( \hA dis') fis,( \hA dis') fis,( \hA dis') e( h) e( h) e( h) e( h)
+      a8 e16( a) e( a) e( a) d,!( fis) d( fis) d( fis) d( fis)
+      e( cis') e,( cis') e,( cis') e,( cis') d( a) d( a) d( a) d( a)
+      h8-! r e-! r cis-! r a-! r %195
+      a-! r e'-! r a,-! r fis'-! r
+      e-! r cis-! r d16 d d, d fis fis a a
+      d d a a fis fis a a d,4 r\fermata %198 finis
+    }
+  }
+}

@@ -24,7 +24,7 @@
     \paper { system-count = #15 }
     \score {
       <<
-        \new Staff { \O-IaBassoContinuo }
+        \new Staff { \O-IaContinuo }
         \new FiguredBass { \O-IaBassFigures }
       >>
     }
@@ -35,7 +35,7 @@
     \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \O-IbBassoContinuo }
+        \new Staff { \O-IbContinuo }
         \new FiguredBass { \O-IbBassFigures }
       >>
     }
@@ -46,7 +46,7 @@
     \paper { system-count = #4 }
     \score {
       <<
-        \new Staff { \O-IcBassoContinuo }
+        \new Staff { \O-IcContinuo }
         \new FiguredBass { \O-IcBassFigures }
       >>
     }
@@ -57,7 +57,7 @@
     \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \O-IdBassoContinuo }
+        \new Staff { \O-IdContinuo }
         \new FiguredBass { \O-IdBassFigures }
       >>
     }
@@ -67,7 +67,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \O-IIaBassoContinuo }
+        \new Staff { \O-IIaContinuo }
         \new FiguredBass { \O-IIaBassFigures }
       >>
     }
@@ -78,7 +78,7 @@
     \paper { system-count = #4 }
     \score {
       <<
-        \new Staff { \O-IIbBassoContinuo }
+        \new Staff { \O-IIbContinuo }
         \new FiguredBass { \O-IIbBassFigures }
       >>
     }
@@ -88,7 +88,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \O-IIcBassoContinuo }
+        \new Staff { \O-IIcContinuo }
         \new FiguredBass { \O-IIcBassFigures }
       >>
     }
@@ -99,7 +99,7 @@
     \paper { system-count = #4 }
     \score {
       <<
-        \new Staff { \O-IIdBassoContinuo }
+        \new Staff { \O-IIdContinuo }
         \new FiguredBass { \O-IIdBassFigures }
       >>
     }
@@ -110,7 +110,7 @@
     \paper { system-count = #8 }
     \score {
       <<
-        \new Staff { \O-IIeBassoContinuo }
+        \new Staff { \O-IIeContinuo }
         \new FiguredBass { \O-IIeBassFigures }
       >>
     }
@@ -121,7 +121,7 @@
     \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \O-IIIaBassoContinuo }
+        \new Staff { \O-IIIaContinuo }
         \new FiguredBass { \O-IIIaBassFigures }
       >>
     }
@@ -131,7 +131,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \O-IIIbBassoContinuo }
+        \new Staff { \O-IIIbContinuo }
         \new FiguredBass { \O-IIIbBassFigures }
       >>
     }
@@ -142,7 +142,7 @@
     \paper { system-count = #4 }
     \score {
       <<
-        \new Staff { \O-IIIcBassoContinuo }
+        \new Staff { \O-IIIcContinuo }
         \new FiguredBass { \O-IIIcBassFigures }
       >>
     }
@@ -153,7 +153,7 @@
     \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \O-IIIdBassoContinuo }
+        \new Staff { \O-IIIdContinuo }
         \new FiguredBass { \O-IIIdBassFigures }
       >>
     }
@@ -164,8 +164,62 @@
     \paper { system-count = #7 }
     \score {
       <<
-        \new Staff { \O-IIIeBassoContinuo }
+        \new Staff { \O-IIIeContinuo }
         \new FiguredBass { \O-IIIeBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "O.4" "L’Apríle, im April"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \O-IVaContinuo }
+        \new FiguredBass { \O-IVaBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \O-IVbContinuo }
+        \new FiguredBass { \O-IVbBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \O-IVcContinuo }
+        \new FiguredBass { \O-IVcBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-IVdContinuo }
+        \new FiguredBass { \O-IVdBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \paper { system-count = #13 }
+    \score {
+      <<
+        \new Staff { \O-IVeContinuo }
+        \new FiguredBass { \O-IVeBassFigures }
       >>
     }
   }

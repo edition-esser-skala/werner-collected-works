@@ -38,7 +38,7 @@
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
             % \transpose c c,
-            \O-IaBassoContinuo
+            \O-IaContinuo
           }
         >>
         \new FiguredBass { \O-IaBassFigures }
@@ -67,7 +67,7 @@
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \O-IbBassoContinuo
+            \O-IbContinuo
           }
         >>
         \new FiguredBass { \O-IbBassFigures }
@@ -96,7 +96,7 @@
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \O-IcBassoContinuo
+            \O-IcContinuo
           }
         >>
         \new FiguredBass { \O-IcBassFigures }
@@ -126,7 +126,7 @@
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \O-IdBassoContinuo
+            \O-IdContinuo
           }
         >>
         \new FiguredBass { \O-IdBassFigures }
@@ -155,7 +155,7 @@
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \O-IIaBassoContinuo
+            \O-IIaContinuo
           }
         >>
         \new FiguredBass { \O-IIaBassFigures }
@@ -185,7 +185,7 @@
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \O-IIbBassoContinuo
+            \O-IIbContinuo
           }
         >>
         \new FiguredBass { \O-IIbBassFigures }
@@ -214,7 +214,7 @@
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \O-IIcBassoContinuo
+            \O-IIcContinuo
           }
         >>
         \new FiguredBass { \O-IIcBassFigures }
@@ -244,7 +244,7 @@
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \O-IIdBassoContinuo
+            \O-IIdContinuo
           }
         >>
         \new FiguredBass { \O-IIdBassFigures }
@@ -273,7 +273,7 @@
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \O-IIeBassoContinuo
+            \O-IIeContinuo
           }
         >>
         \new FiguredBass { \O-IIeBassFigures }
@@ -302,7 +302,7 @@
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \O-IIIaBassoContinuo
+            \O-IIIaContinuo
           }
         >>
         \new FiguredBass { \O-IIIaBassFigures }
@@ -332,7 +332,7 @@
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \O-IIIbBassoContinuo
+            \O-IIIbContinuo
           }
         >>
         \new FiguredBass { \O-IIIbBassFigures }
@@ -361,7 +361,7 @@
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \O-IIIcBassoContinuo
+            \O-IIIcContinuo
           }
         >>
         \new FiguredBass { \O-IIIcBassFigures }
@@ -391,7 +391,7 @@
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \O-IIIdBassoContinuo
+            \O-IIIdContinuo
           }
         >>
         \new FiguredBass { \O-IIIdBassFigures }
@@ -420,13 +420,161 @@
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \O-IIIeBassoContinuo
+            \O-IIIeContinuo
           }
         >>
         \new FiguredBass { \O-IIIeBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 120 }
+    }
+  }
+  \bookpart {
+    \section "O.4" "L’Apríle, im April"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-IVaViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-IVaViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-IVaContinuo
+          }
+        >>
+        \new FiguredBass { \O-IVaBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 110 }
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper { page-count = #2 }
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-IVbViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-IVbViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-IVbContinuo
+          }
+        >>
+        \new FiguredBass { \O-IVbBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 80 }
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-IVcViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-IVcViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-IVcContinuo
+          }
+        >>
+        \new FiguredBass { \O-IVcBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 120 }
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \paper { page-count = #2 }
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-IVdViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-IVdViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-IVdContinuo
+          }
+        >>
+        \new FiguredBass { \O-IVdBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 120 }
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \paper { page-count = #3 }
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-IVeViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-IVeViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-IVeContinuo
+          }
+        >>
+        \new FiguredBass { \O-IVeBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 140 }
     }
   }
 }

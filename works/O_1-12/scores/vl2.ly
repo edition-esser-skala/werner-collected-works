@@ -157,4 +157,52 @@
       >>
     }
   }
+  \bookpart {
+    \section "O.4" "L’Apríle, im April"
+    \addTocEntry
+    \paper { system-count = #7 }
+    \score {
+      <<
+        \new Staff { \O-IVaViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-IVbViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \O-IVcViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-IVdViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \paper { system-count = #13 }
+    \score {
+      <<
+        \new Staff { \O-IVeViolinoII }
+      >>
+    }
+  }
 }
