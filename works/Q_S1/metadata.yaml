@@ -1,0 +1,18 @@
+title: Concerto a 5
+subtitle: First movement
+id: WerW Q.S1
+genre: concerto
+scoring: 2 vl, vla, vlc solo, bc
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: CZ-Pn
+    shelfmark: XXXIV C 417
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  –   & bc   & All bass figures have been added by the editor. \\
+  27  & vlc  & bar in \B1: \crotchetRest–A4 \\
+  49  & vl 1 & bar missing in \B1 \\
+  186 & vl 1 & 1st \eighthNote\ in \B1: \sharp f′16–e′32–d′32 \\
