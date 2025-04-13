@@ -1,0 +1,19 @@
+title: Sinfonia
+id: WerW P.10
+genre: sinfonia
+scoring: 2 vl, vla, bc
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: CZ-Pn
+    shelfmark: XXXIV C 416
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 91  & vla  & 1st \quarterNote\ in \B1: e′4 \\
+    & 111 & vl 2 & 3rd \eighthNote\ in \B1: c″8 \\
+    & 112 & vl 1 & 3rd \eighthNote\ in \B1: c″8 \\
+    & 158 & vla  & 2nd \eighthNote\ in \B1: c′8 \\
+  3 & 28  & vla  & 3rd \quarterNote\ in \B1: g4 \\
+    & 50  & vla  & 4th \eighthNote\ in \B1: a8 \\
