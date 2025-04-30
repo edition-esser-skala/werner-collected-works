@@ -1,5 +1,17 @@
 # Changelog
 
+## 2025.04.0 – 2025-04-30
+
+### Added
+
+- works: WerW O.4, P.10, and Q.S1
+
+### Fixed
+
+- WerW H.1.4 and 7: added missing subtitle
+- WerW N.15: added link to A-Ed
+
+
 ## 2025.03.0 – 2025-03-30
 
 ### Added
