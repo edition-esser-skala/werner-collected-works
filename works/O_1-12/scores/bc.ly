@@ -223,4 +223,57 @@
       >>
     }
   }
+  \bookpart {
+    \section "O.5" "Il Màggio, im May"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-VaContinuo }
+        \new FiguredBass { \O-VaBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \O-VbContinuo }
+        \new FiguredBass { \O-VbBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \paper { system-count = #7 }
+    \score {
+      <<
+        \new Staff { \O-VcContinuo }
+        \new FiguredBass { \O-VcBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \O-VdContinuo }
+        \new FiguredBass { \O-VdBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-VeContinuo }
+        \new FiguredBass { \O-VeBassFigures }
+      >>
+    }
+  }
 }

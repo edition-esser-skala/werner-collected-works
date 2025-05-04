@@ -1074,3 +1074,286 @@ O-IVeViolinoI = {
     }
   }
 }
+
+O-VaViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \tempoO-Va
+      \markMaggioI
+    \repeat volta 2 {
+      e'8-!\fE r a-! r
+      e-! r cis-! r
+      fis4.\trill e16 d
+      a'8-! e-! r4
+      d8(\p h) gis( e) %5
+      d2~
+      d8.\trill cis32( d) d8.\trill cis32( d)
+      d8-! cis-! r4
+      cis''8(\f a) fis( e)
+      e( dis) r4 %10
+      e8(\p dis) r4
+      dis8( e) r4
+      h'8(\f gis) e( d)
+      d( cis) r4
+      d8(\p cis) r4 %15
+      cis8( d) r4
+      a16( cis) e( cis) g'4
+      fis16( a) cis,8 \appoggiatura cis d4
+      r16 cis,\p e cis g'4
+      fis16( a) cis,8 \appoggiatura cis d4 %20
+      h'16(\f dis) fis( \hA dis) a'4
+      gis!16( h) dis,8 \hA \appoggiatura dis e4
+      r16 dis,\p fis \hA dis a'4
+      gis16( h) dis,8 \hA \appoggiatura dis e4
+      cis''2\f %25
+      h8( dis,) e( a,)
+      gis4 fis\trill
+      e r
+      cis'2\p
+      h8( dis,) e( cis') %30
+      gis4 fis\trill \noBreak
+      e r
+    }
+    \repeat volta 2 {
+      h'8\f\trill r cis\trill r \noBreak
+      dis\trill r e\trill r
+      cis4.\trill h16 a %35
+      e'8-! h-! r4
+      g'8( e) cis( h)
+      \appoggiatura h ais4. h16 cis
+      h8( d) fis( ais)
+      h h, r4 %40
+      fis'8( d) h( a!)
+      \appoggiatura a gis4. a16 h
+      a8( cis) e( gis)
+      a a, r4
+      cis8(\p dis) r4 %45
+      dis8( e) r4
+      h8( cis) r4
+      cis8( d!) r4
+      a8( h) r4
+      his8( cis) gis' h, %50
+      a gis16 a h8 gis
+      fis4 r
+      a'8(\f e!) cis( a)
+      g2~
+      g8.\trill fis32( \hA g) g8.\trill fis32( \hA g) %55
+      g8 fis r4
+      h'8( fis) dis( h)
+      \once \tieDashed a2~
+      a8.\trill \slurDashed gis!32( a) a8.\trill gis32( a) \slurSolid
+      a8 gis r4 %60
+      e16( gis) h( gis) d'4
+      cis16( e) gis,8 \appoggiatura gis a4
+      r16 e\p h' gis d'4
+      cis16( e) gis,8 \appoggiatura gis a4
+      fis'2\f %65
+      e8( gis,) a( d)
+      cis4 h\trill
+      a r
+      fis'2\p
+      e8( gis,) a( d,) %70
+      cis4 h\trill
+    }
+    \alternative {
+      { a r }
+      { a r\fermata }
+    } \bar "||" %73 finis
+  }
+}
+
+O-VbViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \tempoO-Vb
+      \set Score.currentBarNumber = #74
+      \markMaggioIIa
+    \repeat volta 2 {
+      cis'8( d) e( fis) e( dis)
+      e4 e, e %75
+      cis''8( a) gis( fis) e( dis)
+      \appoggiatura dis e2 r4
+      h'8( g) fis( e) d( cis)
+      \appoggiatura cis d2 r4
+      \slurDashed a'8( f) e( d) c( h) \slurSolid %80
+      c2.~
+      c4 h8 fis! a4
+      \appoggiatura a8 gis!2 a4
+      h8( cis!) d( e) cis( a)
+      \appoggiatura a gis2 a4 %85
+      h8( e) cis( fis) e( dis) \noBreak
+    }
+    \alternative {
+      { \appoggiatura dis8 e2 r4 }
+      { \appoggiatura dis8 e2 r4 }
+    }
+    \repeat volta 2 {
+      \markMaggioIIb
+      h8( cis) cis( d) dis( e) \noBreak
+      h( cis) cis( d) dis( e) %90
+      h( cis) d( e) cis( a)
+      h4 e,2
+      a2 \tuplet 3/2 4 { a8 h cis }
+      h2 \tuplet 3/2 4 { h8 cis d }
+      cis2 \tuplet 3/2 4 { cis8 d e } %95
+      d2 \tuplet 3/2 4 { d8 e fis }
+      fis( e) d( cis) h( cis)
+    }
+    \alternative {
+      { a2 r4 }
+      { a2 r4\fermata }
+    } \bar "||" %99 finis
+  }
+}
+
+O-VcViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoO-Vc
+      \set Score.currentBarNumber = #100
+      #(define afterGraceFraction (cons 15 16))
+      \markMaggioIII
+    \partial 16 a''16(\pE e2) \grace fis8 e2 %100
+    \grace e8 d16\fE \grace e8 d16 \grace e8 d16 \grace e8 d16 \grace e8 d16 \grace e8 d16 \grace e8 d16 \grace e8 d16 cis32 e, a cis e[ a, cis e] a8 r
+    \grace e8 d16\p \grace e8 d16 \grace e8 d16 \grace e8 d16 \grace e8 d16 \grace e8 d16 \grace e8 d16 \grace e8 d16 cis32 e, a cis e[ a, cis e] a8 r
+    cis32(\fE h16.) a32( gis16.) fis32( e16.) dis32( cis16.)( h8.) gis'16( h,8.) cis16(
+    h8.) a16( h,8.) a'16( gis8.)\p gis'16( h,8.) cis16(
+    h8.) a16( h,8.) \once \slurDashed a'16( gis32[) h( a) cis]( h) dis( cis) e( dis[) fis( e) gis]( fis) a( gis) h %105
+    a8.\fE h32 cis cis16( h) h( a) gis8. h32( dis,) e8. gis32( h,)
+    cis8. a'32( fis) \grace e8 dis4\trill e8. h'32( dis,) e8. gis32( h,) \noBreak
+    cis8. a32( fis) \grace e8 dis4\trill-\critnote e r8 r16 \bar ":|.|:" e'16\p( \noBreak
+    \afterGrace h2) gis'8 \afterGrace h,2 h'8 \noBreak
+    h32(\f a) a( gis) gis([ fis) fis( e)] e( dis) dis( cis) cis([ h) h( a)] gis e gis h e[ gis, h e] gis8 r16 h\p %110
+    h32( a) a( gis) gis([ fis) fis( e)] e( dis) dis( cis) cis([ h) h( a)] gis e gis h e[ gis, h e] gis8 r16 h\f(
+    \afterGrace d,!4) h'8 \afterGrace d,4 h'8 \afterGrace cis,4 a'8 \afterGrace cis,4 a'8
+    d,32( cis) d( cis) d([ cis) d( cis)] d( cis) d( cis) d([ cis) d( cis)] \afterGrace cis4\trill fis8 \afterGrace fis,4 h8
+    fis8. gis16 gis8.\trill fis16 fis4 r
+    e'8. cis'16( e,8.) fis16( e8.) d16( e,8.) d'16( %115
+    cis8.)\pE cis'16( e,8.) fis16( e8.) d16( e,8.) d'16(
+    cis32[)( e)\fE d( e)] cis( d) h( cis) a16. a'32 a8 r32 fis e( fis) d([ e) cis( d)] h16. h'32 h8
+    r32 e, d( e) d([ e) cis( d)] h( cis) a( h) gis([ a) fis( gis)] e16 e'^\critnote h gis e8. a16
+    d8. e32 fis fis16( e) e( d) cis8. e32( gis,) a8. cis32( e,)
+    fis8. d'32( h) \grace a8 gis4\trill a8. e'32( gis,) a8. cis32( e,) %120
+    fis8. d'32( h) \grace a8 gis4\trill a r8 r16\fermata \bar ":|." %121 finis
+  }
+}
+
+O-VdViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \tempoO-Vd
+      \set Score.currentBarNumber = #122
+      \markMaggioIVa
+    \repeat volta 2 {
+      a'4 \tuplet 3/2 4 { a8 h cis } h4
+      \tuplet 3/2 4 { cis8 d e } \appoggiatura e d2
+      cis4 d8 e fis gis
+      a( e) \appoggiatura e d2 %125
+      cis4 fis2
+      e4 a fis8 e
+      dis4 e \tuplet 3/2 4 { fis8 gis a
+      gis fis e } dis( e) e8.\trill \hA dis32( e)
+      fis8( dis) h4 cis %130
+      h4~ h8 ais a4~
+      a8 gis gis4 cis8( fis,)
+      a( cis,) \appoggiatura e dis2\trill
+      e4 gis'8( e) cis( fis,)
+      a( cis,) \appoggiatura e dis2\trill \noBreak %135
+    }
+    \alternative {
+      { e2 r4 }
+      { e2 r4 }
+    }
+    \repeat volta 2 {
+      \markMaggioIVb
+      h'~ \tuplet 3/2 4 { h8 cis d! } e( cis) \noBreak
+      h( a) d2\trill
+      cis4 \tuplet 3/2 4 { cis8 d e d e fis %140
+      g fis e } \appoggiatura d cis2
+      d4 \tuplet 3/2 4 { d8 e fis e d cis }
+      h( a) \tuplet 3/2 4 { d cis h } a( gis)
+      cis( d) d8.\trill cis32( d) \tuplet 3/2 4 { e8 d cis }
+      fis( fis,) \appoggiatura a gis2\trill %145
+    }
+    \alternative {
+      { a2 r4 }
+      { a2 r4\fermata }
+    } \bar "||" %147 finis
+  }
+}
+
+O-VeViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/8 \tempoO-Ve
+      \set Score.currentBarNumber = #148
+      \markMaggioV
+    \repeat volta 2 {
+      a'16(\fE cis8.) h16( d8.)
+      cis16( e8.) r8 e,
+      a gis16 fis e8 d %150
+      d( cis) r e\p
+      a gis16 fis e8 d
+      d( cis) r fis'\f
+      e d16 cis h8 a
+      gis16( h8.) a16( cis8.) %155
+      h16( d8.) cis16( e8.)
+      gis,16(\p h8.) a16( cis8.)
+      h16( d8.) cis16( e8.)
+      << { h4 } \\ { gis } >> r8 e'\f
+      cis32( dis e8.) a32( gis fis8.) %160
+      h,32( cis dis8.) gis32( fis e8.)
+      cis32(\p dis e8.) a32( gis fis8.)
+      h,32( cis dis8.) gis32( fis e8.)
+      cis8\f a'16 gis fis8 e
+      \appoggiatura e dis4 r8 h' %165
+      ais16( cis8.) \slurDashed fis,16( a8.)
+      gis16( h8.) \slurSolid r8 h\p
+      ais16( cis8.) fis,16( a8.)
+      gis16( h8.) r8 e,\f
+      dis16( fis8.) h,16( d8.) %170
+      cis16( e8.) a32( gis fis8.)
+      h,16( dis8.) gis32( fis e8.)
+      a,16( cis8.) fis32( e dis8.)
+      gis,16( h8.) a16( cis8.)
+      h16( e8.) cis16( a'8.) %175
+      gis16 fis e4 dis8
+      h16(\p e8.) cis16( a'8.)
+      gis16 fis e4 dis8 \noBreak
+      e4 r
+    }
+    \repeat volta 2 {
+      e8\f e,4 dis8 \noBreak %180
+      e32( fis gis8.) fis32( gis a8.)
+      gis16( fis) e4 dis8
+      e4 r
+      a'8 a,4 gis8
+      a32( h cis8.) h32( cis d8.) %185
+      cis16( h) a4 gis8
+      a4 r8 d\p
+      cis16( h) a4 gis8
+      a4 r8 g'\f
+      fis16( d8.) cis16( e8.) %190
+      d16( fis8.) r8 g\p
+      fis16( d8.) cis16( e8.)
+      d16( fis8.) r8 a\f
+      gis!16( e8.) dis16( fis8.)
+      e16( gis8.) r8 a\p %195
+      gis16( e8.) dis16( fis8.)
+      e16( gis8.) r8 e\f
+      cis h16 a e'8 d16 cis
+      h8 e, r e'\p
+      cis h16 a e'8 d16 cis %200
+      h8 e, r cis'\f
+      d16( fis8.) e,16( d'8.)
+      cis16( e8.) fis,16( d'8.)
+      cis16( h) a4 gis8
+      a16(\p cis8.) fis,16( d'8.) %205
+      cis16( h) a4 gis8
+    }
+    \alternative {
+      { a4 r }
+      { a r\fermata }
+    } \bar "|." %208 finis
+  }
+}

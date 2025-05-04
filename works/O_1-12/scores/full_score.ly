@@ -577,4 +577,151 @@
       \midi { \tempo 4 = 140 }
     }
   }
+  \bookpart {
+    \section "O.5" "Il Màggio, im May"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-VaViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-VaViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-VaContinuo
+          }
+        >>
+        \new FiguredBass { \O-VaBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 90 }
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-VbViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-VbViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-VbContinuo
+          }
+        >>
+        \new FiguredBass { \O-VbBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 120 }
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \paper { system-count = #10 }
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-VcViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-VcViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-VcContinuo
+          }
+        >>
+        \new FiguredBass { \O-VcBassFigures }
+      >>
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+      \midi { \tempo 4 = 65 }
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-VdViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-VdViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-VdContinuo
+          }
+        >>
+        \new FiguredBass { \O-VdBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 120 }
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \paper { system-count = #10 }
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-VeViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-VeViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-VeContinuo
+          }
+        >>
+        \new FiguredBass { \O-VeBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 140 }
+    }
+  }
 }

@@ -1893,6 +1893,511 @@ O-IVeBassFigures = \figuremode {
   r %198 finis
 }
 
+O-VaContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key a \major \time 2/4 \tempoO-Va
+      \markMaggioI
+    \repeat volta 2 {
+      a'8\fE a a a
+      a a a a
+      a a a a
+      a a r4
+      gis\p r %5
+      gis8 gis gis gis
+      gis gis gis gis
+      a e cis a
+      a'4\f r
+      a8 a a a %10
+      a\p a a a
+      gis gis gis gis
+      gis4\f r
+      g8 g g g
+      g\p g g g %15
+      fis fis fis fis
+      cis\f cis cis cis
+      d d d d
+      cis\p cis cis cis
+      d d d d %20
+      dis\f dis dis dis
+      e e e e
+      dis\p dis dis dis
+      e e e e
+      a\f a a a %25
+      gis4 r8 cis
+      h4 h,
+      e8 e' gis, e
+      a\p a a a
+      gis4 r8 a %30
+      h4 h, \noBreak
+      e8 h gis e
+    }
+    \repeat volta 2 {
+      e'\f e e e \noBreak
+      e e e e
+      e e e e %35
+      e e r4
+      e r
+      fis4. e8
+      d fis16 e d8 cis
+      h h' fis d %40
+      h4 r
+      e4. d8
+      cis e16 d cis8 h
+      a a' e cis
+      a\p a' a a %45
+      gis gis gis gis
+      g g g g
+      fis fis fis fis
+      fis fis fis fis
+      eis eis eis eis %50
+      fis d h cis
+      fis,\f fis' e! d
+      cis4 r
+      cis8 cis cis cis
+      cis cis cis cis %55
+      d d' a fis
+      dis4 r
+      dis8 dis dis dis
+      dis dis dis dis
+      e e e fis %60
+      gis gis gis gis
+      a a a a
+      gis\p gis gis gis
+      a a a a
+      d,\f d d d %65
+      cis4 r8 fis
+      e4 e,
+      a8\p a' cis, a
+      d d d d
+      cis4 r8 fis %70
+      e4 e,
+    }
+    \alternative {
+      { a8 a' cis, a }
+      { a4 r\fermata }
+    } \bar "||" %73 finis
+  }
+}
+
+O-VaBassFigures = \figuremode {
+  r2
+  r
+  <6 4>4 <\t \t>
+  <5 3>2
+  q %5
+  <\t \t>
+  <5 3>
+  <4 2>8 <8 6>4.
+  r2
+  <6 5>8 <\t 4\+>4. %10
+  <6 5>8 <\t 4\+>4.
+  <6>2
+  q
+  <6 5>8 <\t 4\+>4.
+  <6 5>8 <\t 4\+>4. %15
+  <6>2
+  q4 <5!>8 <\t>
+  r <4[!]> <\t> <3>
+  <6 5!>4 <\t \t>
+  r8 <4[!]> <\t> <3> %20
+  <6>4 <5>
+  r8 <4>4 <_+>8
+  <6>4 <5>
+  r8 <4>4 <_+>8
+  <6>4. <4\+>8 %25
+  <6>4. q8
+  <6 4>4 <5 _+>
+  r2
+  <6 3>4 <\t \t>8 <4\+>
+  <6>4. q8 %30
+  <6 4>4 <5 _+>
+  r2
+  r4 <6 4>
+  <7\\ 2> <8 3>
+  <6 4>2 %35
+  <5 3>
+  <_!>
+  <_+>
+  <6>4. <6\\>8
+  <_!>2 %40
+  r
+  <_+>4. <\t>8
+  <6>4. q8
+  r2
+  <3>8 <4\+> <6> <\t> %45
+  <5\+> <6> <\t>4
+  <3>8 <4> <6> <\t>
+  <5> <6> <\t>4
+  <3>8 <4> <6> <\t>
+  <5\+> <6> <\t> <5!> %50
+  <_!>4 <6\\ 5>8 <_+>
+  r2
+  <6>
+  <5!>4 <\t>
+  <6>8 <5!> <\t>4 %55
+  <4[!] 2>8 <3 1>4.
+  <6>2
+  <5! 3>
+  <6>8 <5!>4.
+  <4 2>8 <3 1>4. %60
+  <6>4 <5>
+  <3>2
+  <6>4 <5>
+  <3>2
+  <6 3>4. <4\+>8 %65
+  <6>4. q8
+  <6 4>4 <5 3>
+  r2
+  <6 3>4. <4\+>8
+  <6>4. q8 %70
+  <6 4>4 <5 3>
+  r2
+  r %73 finis
+}
+
+O-VbContinuo = {
+  \relative c {
+    \clef bass
+    \key a \major \time 3/4 \tempoO-Vb
+      \set Score.currentBarNumber = #74
+      \markMaggioIIa
+    \repeat volta 2 {
+      a'2 4
+      gis gis gis %75
+      a2 r4
+      gis gis gis
+      g2 r4
+      fis fis fis
+      f2 r4 %80
+      e e e
+      dis2 r4
+      e d cis!
+      gis'!2 a4
+      e d cis %85
+      gis' a h
+    }
+    \alternative {
+      { e,4 e'8 d! cis h }
+      { \grace s8 e,4 h'8 a gis fis }
+    }
+    \repeat volta 2 {
+      \markMaggioIIb
+      gis4 e fis
+      gis e fis %90
+      gis e a
+      e e' d
+      cis8 h a gis fis e
+      d' cis h a gis fis
+      e' d cis h a gis %95
+      fis' e d cis h a
+      gis4 a e
+    }
+    \alternative {
+      { a, cis' h8 a }
+      { a,2 r4\fermata }
+    } \bar "||" %99 finis
+  }
+}
+
+O-VbBassFigures = \figuremode {
+  r2. %74
+  <6> %75
+  r
+  q
+  <5[!] 3>
+  <6>
+  <5[!] 3> %80
+  <6!>
+  <7! [_+]>4 <6> <5>
+  <_+>2 <6>4
+  q <5>2
+  r2 <6>4 %85
+  q q <_+>
+  r2.
+  r
+  <6>4 q <6\\>
+  <3> <6> <6\\> %90
+  <6> <7!>2
+  r2.
+  <6>
+  q
+  q %95
+  q
+  q4 <4>8 <3> <_+>4
+  r2.
+  r %99 finis
+}
+
+O-VcContinuo = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \tempoO-Vc
+      \set Score.currentBarNumber = #100
+      \markMaggioIII
+    \partial 16 r16 r a'\p a a a a a a r a a a a a a a %100
+    gis4\f r8 gis a16 a a a a a a a
+    gis4\p r8 gis a16 a a a a a a a
+    a4 r e16\f e e e e e e e
+    e e e e dis dis dis dis e\p e e e e e e e
+    e e e e dis dis dis dis e4 r %105
+    r16 fis,\f fis' e dis8 h e fis gis e
+    a fis h a gis e16 fis gis8 e \noBreak
+    a fis h h, e16. h32 gis16. h32 e,8. \bar ":|.|:" r16 \noBreak
+    r e'\p e e e e e e r e e e e e e e \noBreak
+    dis4\f r8 \hA dis e16 e e e e e e e\p %110
+    dis4 r8 \hA dis e16 e e e e e e e
+    eis\f eis eis eis eis eis eis eis fis fis fis fis fis fis fis fis
+    eis4 r8 \hA eis fis16 fis fis fis d! d d d
+    his his his his cis cis cis cis fis fis' fis fis e!32([ fis d e)] cis( d h cis)
+    a16 a a a a a a a a a a a gis gis gis gis %115
+    a\p a a a a a a a a a a a gis gis gis gis
+    a8\f a, cis cis' d, d' dis dis,
+    e16 e' d cis h a gis fis e4 r16 e' d cis
+    h8. a16 gis8 e a h cis a
+    d, h e d cis a16 h cis8 a %120
+    d h e e, a16. a'32 cis,16. e32 a,8 r16\fermata \bar ":|." %121 finis
+  }
+}
+
+O-VcBassFigures = \figuremode {
+  r16 r1 %100
+  <6 5!>1
+  q
+  r2 <5 _+>4.. <6 4>16
+  <5 3>4 <6>8. <5>16 <3>4.. <6 4>16
+  <5 3>4 <6>8. <5>16 <3>2 %105
+  r8 <5 3>16 <\t \t> <7> <6> <_+>4 <7>16 <6\\> <[6]>4
+  r <_+>8 <\t> <6>8. <6\\>16 <6>4
+  r <_+>2.
+  r1
+  <6>4. <5>8 r2 %110
+  <6>4. <[5]>8 r2
+  <7! 5>2 <5 _!>
+  <7! 5> <5 _!>
+  <6\\ 5 [_+]>4 <_+>2.
+  <3 5>4.. <6 4>16 <5 3>4 <6>8. <5>16 %115
+  <3>4.. <6 4>16 <5 3>4 <6>8. <5>16
+  r4 <6>2 q4
+  r1
+  <_!>4 <6>4. <[7]>16 <6\\> <6>4
+  r <_+>8 <\t> <6>8. <6\\>16 <6>4 %120
+  r2... %121 finis
+}
+
+O-VdContinuo = {
+  \relative c {
+    \clef bass
+    \key a \major \time 3/4 \tempoO-Vd
+      \set Score.currentBarNumber = #122
+      \markMaggioIVa
+    \repeat volta 2 {
+      a4 a' gis
+      e fis gis
+      a8 gis fis e d4
+      cis h e, %125
+      a d' h
+      cis fis, a
+      h8 a gis4 dis
+      e h' gis
+      dis2 e4 %130
+      dis cis fis
+      h, e a
+      fis h a
+      gis e a \noBreak
+      fis h h, %135
+    }
+    \alternative {
+      { e, e'8 d! cis h }
+      { e,4 h''8 a gis fis }
+    }
+    \repeat volta 2 {
+      \markMaggioIVb
+      e4 d! cis \noBreak
+      fis h, e
+      a, a'8 g fis4 %140
+      h a g
+      fis8 e d4 cis
+      fis h, e
+      a, fis' cis
+      d e e, %145
+    }
+    \alternative {
+      { a cis8 h cis a }
+      { a2 r4\fermata }
+    } \bar "||" %147 finis
+  }
+}
+
+O-VdBassFigures = \figuremode {
+  r2 <6>4 %122
+  q q <\t>
+  r <6>2
+  q4 <7> q %125
+  r2.
+  r2 <6>8 <5>
+  <_+>4 <6> <6 5>
+  r <_+> <6>
+  q2 q4 %130
+  q <7>8 <6\\> <_!>4
+  <7>8 <6\\> <_+>4 <6>
+  r <_+> <\t>
+  <6>2 q4
+  r <_+>2 %135
+  r2.
+  r
+  <5 3>4 <\t \t> <8 6>
+  r <7 _!> <7 _+>
+  r2 <6>4 %140
+  <6!> <5 _+> <\t \t>
+  <6>2 q4
+  r2 <4>8 <3>
+  r4 <6> q
+  <6 5> <_+>2 %145
+  r2.
+  r %147 finis
+}
+
+O-VeContinuo = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/8 \tempoO-Ve
+      \set Score.currentBarNumber = #148
+      \markMaggioV
+    \repeat volta 2 {
+      a'4\fE gis
+      a e16( gis8.)
+      fis16( a8.) gis16( h8.) %150
+      a16( cis8.) e,16(\p gis8.)
+      fis16( a8.) gis16( h8.)
+      a16( cis8.) h16( d8.)
+      cis16(\f e8.) d16( fis8.)
+      e4 cis %155
+      gis a
+      e\p cis
+      gis a
+      e8\f e'16 fis gis8 e
+      a16( cis8.) fis,16( a8.) %160
+      gis16( h8.) e,16( gis8.)
+      a16(\p cis8.) fis,16( a8.)
+      gis16( h8.) e,16( gis8.)
+      a4\fE ais,
+      h h' %165
+      cis dis
+      e h\p
+      cis dis
+      e e,\f
+      fis gis %170
+      a16( cis8.) fis,16( a8.)
+      gis16( h8.) e,16( gis8.)
+      fis16( a8.) dis,16( fis8.)
+      e4 cis'
+      gis a %175
+      h h,
+      gis'\p a
+      h h, \noBreak
+      e8[ h gis e]
+    }
+    \repeat volta 2 {
+      e'16(\fE gis8.) fis16( a8.) \noBreak %180
+      gis16( h8.) a16( cis8.)
+      h4. a8
+      gis fis16 e fis8 gis
+      a,16( cis8.) h16( d8.)
+      cis16( e8.) d16( fis8.) %185
+      e4. d8
+      cis16(\p e8.) d16( fis8.)
+      e4. d8
+      cis\f h16 a h8 cis
+      d16( fis8.) e16( g8.) %190
+      fis16( a8.) cis,16(\p e8.)
+      d16( fis8.) e16( g8.)
+      fis16( a8.) dis,16(\f fis8.)
+      e16( gis!8.) fis16( a8.)
+      gis16( h8.) dis,16(\p fis8.) %195
+      e16( gis8.) fis16( a8.)
+      gis8\f fis16 e fis8 gis
+      a[ fis cis d]
+      e[ fis gis e]
+      a[\p fis cis d] %200
+      e[ fis gis e]
+      fis4\f gis
+      a d,
+      e e,
+      cis'\p d %205
+      e e,
+    }
+    \alternative {
+      { a8[ a' cis, a] }
+      { a4 r\fermata }
+    } \bar "|." %208 finis
+  }
+}
+
+O-VeBassFigures = \figuremode {
+  r4 <6>8 <5> %148
+  r4 r16 <6>8.
+  r16 q4 q8. %150
+  <4>16 <3>4 <6>8.
+  r16 q8. q16 <3>8.
+  <4>16 <3>4..
+  <6>4 q
+  r q %155
+  q16 <5>4..
+  r4 <6>
+  q2
+  r
+  r4 r16 <6>8. %160
+  r16 <_+>4 <6>8.
+  r4 r16 <6>8.
+  r16 <_+>4 <6>8.
+  r4 <6>8 <5>
+  <_+>2 %165
+  <6\\>4 <6>8 <5!>
+  r4 <_+>
+  <6\\> <6>8 <5!>
+  r2
+  <6\\>4 <6>8 <5!> %170
+  r4 r16 <6>8.
+  r16 <_+>4 <6>8.
+  r4 r16 <6\\>8.
+  r4 <6>
+  q <6 5> %175
+  <6 4> <5 \t>8 <\t _+>
+  <6>4 <6 5>
+  <6 4> <5 \t>8 <\t _+>
+  r2
+  r16 <6>8. <7>16 <4\+>8. %180
+  <6>16 q8. q16 q8.
+  <6 4>4 <5 \t>8 <4\+>
+  <6>4 <6!>8 <6>16 <5>
+  r <6>8. <7>16 <4\+>8.
+  <6>16 q8. q16 q8. %185
+  <6 4>4 <5 \t>8 <4\+>
+  <6>4 r16 q8.
+  <6 4>4 <5 \t>8 <4\+>
+  <6>4 <6! 3>8 <\t 3>
+  r16 <6>8. <6 [_!]>16 <6>8. %190
+  q16 q4 <_!>8.
+  r16 <6>8. <6 [_!]>16 <6>8.
+  q16 q8. <5!>4
+  <_+>16 <6>8. <6\\>16 <6>8.
+  q16 q8. <5!>4 %195
+  r16 <6>8. <6\\>16 <6>8.
+  q4. q8
+  r4 <6>8 q16 <5>
+  r2
+  r4 <6> %200
+  r4. <6>8
+  q4 q8 <5>
+  r4 <6 5>
+  <6 4> <5 \t>8 <\t 3>
+  <6>4 <6 5> %205
+  <6 4> <5 \t>8 <\t 3>
+  r2
+  r %208 finis
+}
+
 % \repeat volta 2 {
 
 %     }
