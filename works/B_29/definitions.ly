@@ -2,6 +2,18 @@
 
 tempoB-XXIXKyrie = \tempoMarkup "Adagiosè"
   tempoB-XXIXKyrieB = \tempoMarkup "Allegro"
+tempoB-XXIXGloria = \tempoMarkup "Allegretto"
+  tempoB-XXIXAmen = \tempoMarkup "Allegro"
+tempoB-XXIXCredo = \tempoMarkup "Vivace"
+  tempoB-XXIXEtIncarnatus = \tempoMarkup "Largo"
+  tempoB-XXIXEtResurrexit = \tempoMarkup "Allegretto"
+  tempoB-XXIXEtVitam = \tempoMarkup "Allegro"
+tempoB-XXIXSanctus = \tempoMarkup "Adagiosè"
+  tempoB-XXIXPleni = \tempoMarkup "Allegro"
+  tempoB-XXIXBenedictus = \tempoMarkup "Benedictus · Larghetto"
+  tempoB-XXIXOsanna = \tempoMarkup "Alla capella"
+tempoB-XXIXAgnus = \tempoMarkup "Adagio"
+  tempoB-XXIXDona = \tempoMarkup "Allegro"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

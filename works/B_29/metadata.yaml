@@ -7,8 +7,12 @@ sources:
   A1:
     siglum: F-Pn
     shelfmark: MS-2231
+    date: 1762
     url: https://gallica.bnf.fr/ark:/12148/btv1b525250946
     license: public domain
     principal: true
 tocstyle: default
 toe: |
+  3 & 33 & – & In \A1, bars 33–36 are still written in G major,
+               while the key changes to G~minor in bar 37
+               (flats written at begin of system). \\
