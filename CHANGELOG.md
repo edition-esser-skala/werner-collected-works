@@ -19,7 +19,7 @@
 - works: WerW D.1.12, D.5.S3, F.4/41/S1, H.1.4, H.2.1, H.3.1, I.1.23, I.3.S1, I.4.9, I.5.16, N.15, and O.3
 - unpublished works: WerW D.2.1, D.4.2, E.2, G.1, I.2.2, I.3.3, and J.6
 
-## Changed
+### Changed
 
 - renumbered WerW D.4.9 → 6, D.5.4 → S4, and D.5.6 → 2
 
@@ -31,7 +31,7 @@
 - works: WerW B.46, D.2.11, H.2.9, I.1.8, I.3.6, I.4.4, I.5.19, M.23, and O.2
 - global LaTeX macros: `\rhythmSdTT` and `\rhythmSdSS`
 
-## Changed
+### Changed
 
 - renumbered WerW B.33 → 26, 35 → 28, 38 → 31, 40 → 33, 42 → 35, 46 → 39, 47 → 40, 48 → 41, 51 → 44, 52 → 45, 54 → 47, 55 → 48, 58 → 51, 70 → 63, and 71 → 64
 - renumbered WerW I.1.27 → 26, 30 → 29, and 31 → 30
