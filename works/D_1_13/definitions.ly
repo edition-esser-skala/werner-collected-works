@@ -1,0 +1,15 @@
+\version "2.24.0"
+
+tempoD-I-XIIIa = \tempoMarkup "Andante"
+tempoD-I-XIIIb = \tempoMarkup "Recitativo"
+tempoD-I-XIIIc = \tempoMarkup "Aria · Allegretto"
+tempoD-I-XIIId = \tempoMarkup "Chorus · Vivace"
+tempoD-I-XIIIe = \tempoMarkup "Presto"
+
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"

@@ -1,0 +1,45 @@
+title: Te invocamus, te laudamus
+id: WerW D.1.13
+genre: motet
+festival: de SSma Trinitate
+scoring: B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 57
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/787.html
+    license: public domain
+    principal: true
+toe: |
+  15 & vl 2 & last \eighthNote\ in \B1: d″8 \\
+  64 & vl 1 & 9th \sixteenthNote\ in \B1: d′16 \\
+lyrics:
+  Te invocamus, te laudamus,\\
+  te adoramus, o beata trinitas,\\
+  o tu spes nostra, salus nostra,\\
+  tu honor noster, o beata trinitas,\\
+  o beata sacrosancta trinitas.\\
+  (Cantus Index 005119)\\[1ex]
+  O altitudo divitiarum\\
+  sapientiae et scientiae Dei,\\
+  quam incomprehensibilia sunt iudicia eius,\\
+  et investigabiles viae eius.\\
+  (\bibleverse{Rom}(11:33))\\[1ex]
+  Tu Trinitatis Unitas\\
+  orbem potenter qui regis,\\
+  attende laudum cantica\\
+  quae excubantes psallimus.\\
+  Ortus refulget Lucifer\\
+  sparsamque lucem nuntiat,\\
+  cadit caligo noctium,\\
+  lux sancta nos illuminet.\\
+  (Cantus Index 008404)\\[1ex]
+  Te Deum patrem ingenitum,\\
+  te filium unigenitum,\\
+  te Spiritum Sanctum paraclitum,\\
+  sanctam et individuam trinitatem\\
+  toto corde et ore confitemur,\\
+  laudamus atque benedicimus,\\
+  tibi gloria in saecula.\\
+  (Cantus Index 005117)
