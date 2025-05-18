@@ -117,7 +117,7 @@ markMaggioIII = \markTitle
   "3. Il Roſſignuolo."
   "Die Nachtigall."
 markMaggioIVa = \markTitle
-  "2. Menuet il Giorno di 15. hore."
+  "4. Menuet il Giorno di 15. hore."
   "Die Tags-Länge 15. Stund, …"
 markMaggioIVb = \markTitle
   "La notte di 9. hore."
