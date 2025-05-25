@@ -4,6 +4,7 @@ I-III-X-ViolinoII = {
   \relative c' {
     \clef treble
     \key a \major \time 4/4 \tempoI-III-X
+      \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
     r2 r8 a'\f a'4~
     a8 gis16 fis e d cis h a4 r
     r16 cis\p \tuplet 3/2 8 { cis[ h cis] } e8 cis r2
@@ -11,44 +12,46 @@ I-III-X-ViolinoII = {
     dis,8 r h'64([ a) h16.] cis64( h) a16. gis16 gis8 gis16 gis8 e' %5
     r2 r8 h\f e4~
     e8 dis16 cis h a gis fis e4 r
-    fis64(\p eis) fis16. a64([ gis) a16.] d64( cis) d16. r8 gis,64( fis) gis16. \slurDashed h64([ a) h16.] e64( d) e16. r8 \slurSolid
+    fis64(\p eis) fis16. a64([ gis) a16.] d64( cis) d16. r8 gis,64( fis) gis16. h64([ a) h16.] e64( d) e16. r8
     R1
     r2 r16 cis8\f d16 h h8. %10
     a16 a8. gis16 gis8. fis16 fis8. e16 fis32 gis a16 h
-    cis d32 e fis16 gis a fis32 gis a16 h cis8 a \appoggiatura a gis8.\trill a16 \noBreak
+    cis d32 e fis16 gis a fis32 gis a16 h cis8 h \appoggiatura a gis8.\trill a16 \noBreak
     a e8 a,16 \appoggiatura a8 gis8.\trill a16 a4 r\fermata \bar "||"
     \time 3/4 \tempoI-III-X-b \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
+      \revert Score.SpacingSpanner.common-shortest-duration
       R2.*27 \noBreak %40
     R2.\fermata \bar "||"
     \time 4/4 \tempoI-III-X-c \newSpacingSection
-      \tuplet 3/2 4 { d,8\fE cis d fis e fis a g a } d fis \noBreak
+      \tuplet 3/2 4 { d,8\f cis d fis e fis a g a } d fis \noBreak
     cis d e cis d a fis d
     cis\p d e cis d fis a d
     gis,!\f h d h' cis,16 a cis e a8 r %45
-    gis,\p h d h' cis,16 a cis e a8 a\f
-    h-! r gis-! r a e cis a
-    h-!\p r gis-! r a e'\f cis a
+    gis,!\p h d h' cis,16 a cis e a8 a\f
+    h-! r gis-! r a e cis a\p
+    h-! r gis-! r a e'\f cis a
     r2 r8 d4\p fis8
     cis d e cis d a fis d %50
     cis d e cis d fis a d
     e-! r d-! r cis16 a h cis d e fis8
-    e-! r d-! r cis16 a h cis d e fis gis
+    e-! r d-! r cis16 a h cis d e fis gis!
     a1~
     a~ %55
     a16 cis\fE h a gis fis e d cis8 e a, e'
-    fis16 d cis h a8 gis\trillE a4 r
+    fis16 d cis h a8 gis a4 r
     r a'8\pE a, r2
     r16 a\f h cis d e fis g a8 a, a4\trill
     fis'8\p fis, fis4\trill r2 %60
     r4 d'16( cis) d8 r2
-    r4 \once \slurDashed d,16( cis) d8 r2
+    r4 d,16( cis) d8 r2
     r16 a' h cis d e fis8 r2
     a,8 fis' g, e' fis, d' e, cis'
     d,4 r r2 %65
     r fis8\f a d fis
     cis, e g e' fis,16 d fis a d8 r
-    cis,\p e g e' fis,16 d fis a d8 d\f
-    e-! r cis-! r d a fis d \noBreak
+    cis,\p e g e' fis,16 d fis a d8 d
+    e-!\f r cis-! r d a fis d \noBreak
     e-! r cis-! r d4 r\fermata \bar "||" %70
     \time 3/2 \tempoI-III-X-d \newSpacingSection
       R1. \noBreak
@@ -91,7 +94,7 @@ I-III-X-ViolinoII = {
     R2
     r8 gis-! r a-! %110
     r h-! r cis-!
-    r dis r e\f
+    r dis! r e\f
     fis16(\trillE e) fis gis gis(\trillE fis) gis a
     a gis fis e dis cis h a
     gis8 e' h' a %115
@@ -100,12 +103,12 @@ I-III-X-ViolinoII = {
     R2
     r8 a\f e fis
     e16 a, h cis d! e fis gis %120
-    a8 e\pE cis a
+    a8 e\p cis a
     fis fis' d h
     gis gis' e cis
     a a' fis d
     h h' gis e %125
-    cis16\f a h cis d e fis gis
+    cis16 a\f h cis d e fis gis
     a( gis) a8 r4
     R2*2
     r8 cis,\f cis16(\trill h) cis8 %130

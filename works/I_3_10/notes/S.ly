@@ -13,15 +13,16 @@ I-III-X-Soprano = {
     r2 r8 e \tuplet 3/2 8 { a16([ gis a)] cis([ h a)] }
     fis([ eis)] fis8 r \tuplet 3/2 8 { d'16([ cis h)] } gis([ fis)] gis8 r16 e'8([ fis16)]
     d32([\trill cis) d8 e16] cis32([\trill h) cis8 d16] h32([\trill a) h8 cis16] a32([\trill gis) a8 h16]
-    gis8 a16 fis \appoggiatura a gis8.\trill a16 a4 r %10
+    gis8 a16 fis \appoggiatura a8 gis8.\trill a16 a4 r %10
     R1*2 \noBreak
     R1\fermata \bar "||"
     \time 3/4 \tempoI-III-X-b \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
       cis4 cis8 a fis16([ eis)] fis8 \noBreak
     fis8([ eis)] eis4 cis' %15
     d8([ cis)] d2~
     d8[ h] gis([ e)] a8.([ h32 cis)]
-    d32([ cis h8.)] \appoggiatura a4 gis2\trill
+    d16([ cis h8)] \appoggiatura a4 gis2\trill
     a4 r r
     R2.*5 %24
     h8([ e)] dis cis h a %25
@@ -52,13 +53,13 @@ I-III-X-Soprano = {
     cis[ d cis d] e[ d e8] fis16[ e fis8] e16[ fis e d] %55
     cis4 r r2
     r a8([ cis)] cis([ e)]
-    a,([ gis)] a4 fis'8 e16([ d)] cis8 h
+    a,([ gis!)] a4 fis'8 e16([ d)] cis8 h
     cis a r4 d,8([ fis)] fis([ a)]
     a([ d)] d([ fis)] e4. d16([ cis)] %60
     d([ cis)] d8 r4 e4. d16([ cis)]
     d([ cis)] d8 r fis e16([ fis e cis)] d([ e d h)]
     cis4 r8 fis e16[ fis e cis] d[ e d h]
-    cis[ d cis a] h[ cis h g] a[ h a fis] g[ a g e]
+    cis[ d cis a] h[ cis h g] a[ h a fis] g[ a \hA g e]
     fis[ d e fis] g[ a h cis] d2~ %65
     \tuplet 3/2 8 { d16[ e fis] g([ fis e)] } \appoggiatura d8 cis4\trill d r
     R1*3 \noBreak
@@ -75,7 +76,7 @@ I-III-X-Soprano = {
     gis! h e,
     a!1 a2 %80
     a fis' a,
-    a1. \noBreak
+    a1.\trill \noBreak
     gis!1 r2\fermata \bar "||"
     \twofourtime \time 2/4 \tempoI-III-X-e \newSpacingSection
       R2*17 %100
@@ -90,7 +91,7 @@ I-III-X-Soprano = {
     h16([ cis dis e] fis8) a,
     gis16[\trill fis gis a] a[\trill gis a h] %110
     h[\trill a h cis] cis[\trill h cis dis]
-    dis[\trill cis dis e] e[\trill dis e fis]
+    dis[\trill cis \hA dis e] e[\trill dis e fis]
     fis[ e dis cis] h4
     R2*3 %116
     r8 e h cis
@@ -105,7 +106,7 @@ I-III-X-Soprano = {
     cis4 r
     r16 e,[ fis gis] a[ h cis d]
     e8[ fis16 e] fis8[ d]
-    cis4\trill h8.([ a16])
+    cis4(\trill h8.) a16
     a4 r %130
     R2
     r4 a8-! r
@@ -207,8 +208,8 @@ I-III-X-SopranoLyrics = \lyricmode {
   _
   _
   _ %125
-  _
-  _ _
+  ""
+  al -- _
   _ _
   le -- lu --
   ia, %130

@@ -9,6 +9,7 @@
   \bookpart {
     \section "I.3.10" "Regina cœli"
     \addTocEntry
+    \paper { system-count = #23 }
     \score {
       <<
         \new Staff { \I-III-X-ViolinoII }
