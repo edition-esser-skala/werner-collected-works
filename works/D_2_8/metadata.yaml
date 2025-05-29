@@ -1,0 +1,36 @@
+title: Tradiderunt me in manus impiorum
+id: WerW D.2.8
+genre: offertorium
+festival: de Passione Domini
+scoring: A (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: CZ-Pak
+    shelfmark: 1345
+    rism: 550268625
+    license: public domain
+    principal: true
+toe: |
+  95 & trb 1    & 1st \quarterNote\ in \B1: d′8–d′8 \\
+lyrics: |
+  Tradiderunt me in manus impiorum,\\
+  et inter iniquos proiecerunt me,\\
+  et non pepercerunt animae meae.\\
+  (\bibleverse{Job}(16:2))\\[1ex]
+  Eheu mortalis,\\
+  quot pro te malis\\
+  Rex immortalis\\
+  praemitur.\\
+  Ah nimis cruenta\\
+  heu tormenta\\
+  queis Deus\\
+  demitur.\\[1ex]
+  O vos omnes qui hac itis via\\
+  attendite et audite:\\
+  (\bibleverse{Jer}(1:12))\\[1ex]
+  Pro omnibus Christus est mortuus,\\
+  ut omnes qui hic vivunt\\
+  non ipsis verum Christo vivant,\\
+  qui pro illis mortuus est.\\
+  (\bibleverse{IICor}(5:15))

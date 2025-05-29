@@ -1,0 +1,16 @@
+\version "2.24.0"
+
+tempoD-II-VIIIa = \tempoMarkup "Recitativo"
+tempoD-II-VIIIb = \tempoMarkup "Aria · Larghetto"
+tempoD-II-VIIIc = \tempoMarkup "Adagio"
+tempoD-II-VIIId = \tempoMarkup "Andante"
+
+\include "notes/trb1.ly"
+\include "notes/trb2.ly"
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"
