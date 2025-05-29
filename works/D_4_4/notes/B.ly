@@ -3,10 +3,10 @@
 D-IV-IVBasso = {
   \relative c {
     \clef bass
-    \key f \major \time 6/8 \tempoD-IV-IV \autoBeamOff
+    \key f \major \time 6/8 \autoBeamOff
       \once \omit Staff.TimeSignature
     c\breve*1/16 d d a' b a\fermata \bar "||"
-    \time 4/4 R1*2
+    \time 4/4 \tempoD-IV-IVa R1*2
     r2 f4.( g16[ a]
     b8[ f)] d([ b)] f'([ c a)] f %5
     c'4 r r2
@@ -20,22 +20,22 @@ D-IV-IVBasso = {
     f r\fermata \bar "|."
     \time 14/8 \once \omit Staff.TimeSignature
       f\breve*1/16 g a a a a a c \once \hide Stem a8 a\breve*1/16 a g g a \bar "||" %15
-    \time 4/4 R1*3
+    \time 4/4 \tempoD-IV-IVb R1*3
     r2 r4 f
     b a8 g f16([ g f8)] e d %20
     e16([ f e8)] d c d2
     c4 r r2
     r4 f f g8 a
-    b4. a8 g4.( f8)
-    e4.( d8) c4. b8 %25
-    a2( b4) b
-    c f c2
-    f r\fermata \markRorateDaCapo \bar "||" %28 finis
+    b4. a8 g4. f8
+    e4. d8 c4. b8 %25
+    a2 b4 b(
+    c) f c2
+    f r\fermata \bar "|." %28 finis
   }
 }
 
 D-IV-IVBassoLyrics = \lyricmode {
-  Ro -- _ ra -- _ te __ _
+  Ro -- _ ra -- _ _ te
 
   coe -- %4
   li __ de -- su -- %5
@@ -55,9 +55,9 @@ D-IV-IVBassoLyrics = \lyricmode {
   ma -- nu -- um e --
   ius
   an -- nun -- ti -- at
-  fir -- ma -- men --
-  tum, __ fir -- ma --
-  men -- tum,
-  fir -- ma -- men --
-  tum.
+  fir -- ma -- men -- _
+  _ tum, __ fir -- ma -- %25
+  men -- tum, fir --
+  ma -- men --
+  tum. %28 finis
 }

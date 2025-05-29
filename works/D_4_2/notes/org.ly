@@ -35,7 +35,7 @@ D-IV-IIOrgano = {
     c d g, \clef "treble_8" b' b a8 g
     f!4 \clef bass d d c8 b a2~ %20
     a4 b c f c2
-    f,1 r2\fermata \markRorateDaCapo \bar "||" %22 finis
+    f,1 r2\fermata \bar "|." %22 finis
   }
 }
 

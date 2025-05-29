@@ -27,7 +27,7 @@ D-IV-IISoprano = {
     a g4 d' d c8 b
     a4. a8 a4( b) c c %20
     c b8 a g4 a g2
-    f1 r2\fermata \markRorateDaCapo \bar "||" %22 finis
+    f1 r2\fermata \bar "|." %22 finis
   }
 }
 

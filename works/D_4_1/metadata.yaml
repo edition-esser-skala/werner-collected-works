@@ -1,15 +1,22 @@
 title: Rorate cœli desuper
 id: WerW D.4.1
 genre: introit
-scoring: S, A, T, B (coro), 2 vl, b, org
+scoring: S, A, T, B (coro), 2 vla, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.62 (1)
+    date: 1746
+    rism: 530005546
+    url: https://copia.oszk.hu/kotta/2-rorate-caeli-f-dur/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Wps
     shelfmark: 126/2
     rism: 600258652
     license: public domain
-    principal: true
 lyrics:
   Rorate coeli desuper,\\
   et nubes pluant iustum:\\

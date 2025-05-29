@@ -27,6 +27,6 @@ D-IV-IIViolaII = {
     g4 fis g2 r
     r4 f f e8 d c2~ %20
     c4 d e c c2
-    c1 r2\fermata \markRorateDaCapo \bar "||" %22 finis
+    c1 r2\fermata \bar "|." %22 finis
   }
 }

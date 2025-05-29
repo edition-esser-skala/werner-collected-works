@@ -3,10 +3,10 @@
 D-IV-IVTenore = {
   \relative c' {
     \clef "treble_8"
-    \key f \major \time 6/8 \tempoD-IV-IV \autoBeamOff
+    \key f \major \time 6/8 \autoBeamOff
       \once \omit Staff.TimeSignature
     s8*6 \bar "||"
-    \time 4/4 R1*2
+    \time 4/4 \tempoD-IV-IVa R1*2
     c4.( d16[ e] f8[ c)] a([ f)]
     d'([ c] b8.) b16 a8 g([ a)] c %5
     c4 r r2
@@ -20,7 +20,7 @@ D-IV-IVTenore = {
     a r\fermata \bar "||"
     \time 14/8 \once \omit Staff.TimeSignature
       s8*14 \bar "||" %15
-    \time 4/4 R1*2
+    \time 4/4 \tempoD-IV-IVb R1*2
     r2 c
     f4 e8 d c16([ d c8)] b8 a
     d16([ e d8)] c b c4( d) %20
@@ -31,7 +31,7 @@ D-IV-IVTenore = {
     g4. f8 e([ d)] c4 %25
     r c' b b8 b
     g4 a g2
-    a r\fermata \markRorateDaCapo \bar "||" %28 finis
+    a r\fermata \bar "|." %28 finis
   }
 }
 

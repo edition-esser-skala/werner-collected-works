@@ -1,14 +1,10 @@
 \version "2.24.0"
 
-markRorateDaCapo = {
-  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Rorate da capo"
-}
+tempoD-IV-Ia = \tempoMarkup "Allegro"
+tempoD-IV-Ib = \tempoMarkup "Allegro"
 
-tempoD-IV-I = \tempoMarkup "Allegro"
-
-\include "notes/vl1.ly"
-\include "notes/vl2.ly"
+\include "notes/vla1.ly"
+\include "notes/vla2.ly"
 \include "notes/S.ly"
 \include "notes/A.ly"
 \include "notes/T.ly"

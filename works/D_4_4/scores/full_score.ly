@@ -27,12 +27,12 @@
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
-              \set Staff.instrumentName = "I"
-              \D-IV-IVViolinoI
+              \incipitVlISoprano
+              \D-IV-IVViolaI
             }
             \new Staff {
-              \set Staff.instrumentName = "II"
-              \D-IV-IVViolinoII
+              \incipitVlIIAlto
+              \D-IV-IVViolaII
             }
           >>
         >>

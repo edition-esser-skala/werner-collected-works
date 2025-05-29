@@ -3,10 +3,10 @@
 D-IV-IOrgano = {
   \relative c {
     \clef bass
-    \key f \major \time 6/8 \tempoD-IV-I
+    \key f \major \time 5/8
       \once \omit Staff.TimeSignature
-    c\breve*1/16 d d a' b a\fermata \bar "||"
-    \clef "treble_8" \time 4/4 << {
+    c\breve*1/16 d a' b a\fermata \bar "||"
+    \clef "treble_8" \time 4/4 \tempoD-IV-Ia << {
       r4 f' e8 a4 g8
       c b16 a g8 a
     } \\ {
@@ -29,24 +29,24 @@ D-IV-IOrgano = {
     f, r\fermata \bar "||"
     \time 14/8 \once \omit Staff.TimeSignature
       f'\breve*1/16 g a a a a a c \once \hide Stem a8 a\breve*1/16 a g g a \bar "||" %15
-    \clef treble \time 4/4 c'4-! d8-! c16-! b-! << {
+    \clef treble \time 4/4 \tempoD-IV-Ia c'4-! d8-! c16-! b-! << {
       a8 c4 h8
-      c a
+      c[ a]
     } \\ {
       f4 a8 g16 f \noBreak
       e8[ f]
     } >> \clef "treble_8" c4 d8 c16 b \clef bass f4 %15
     a8 g16 f e8 f g c, g4
-    << { s8 g' g a b! } \\ { c,4 r8 c d e } >> f e16 d
-    c4 b \clef treble << { a''8[ d] d } \\ { g,[ f] e! } >> \clef bass c,
-    d e f d c2
+    << { s8 g' g a b! } \\ { c,4 r8 c d[ e] } >> f es16 d
+    c4 b \clef treble << { a''8[ d]~ d } \\ { g,[ f] e! } >> \clef bass c,
+    d e! f d c2
     f8 d4 a8 b2 %20
-    f1\fermata \markRorateDaCapo \bar "||" %21 finis
+    f1\fermata \bar "|." %21 finis
   }
 }
 
 D-IV-IBassFigures = \figuremode {
-  r8*6
+  r8*5
   r1
   r2 <5 2>8 <[\t \t]> <5> <6>
   <7> <3> <10> <8 6>16 <_ 5> r8 \bo <[\tllur]>16 \bc <[6!]> <5 3>8 <6 4>
@@ -62,7 +62,7 @@ D-IV-IBassFigures = \figuremode {
   r1
   r4 <5 4>8 <8 3> <5>2 %15
   <5>8 <_!> <6> q16 <5> <7 _!>4 <4>8 <_!>
-  r2 r8 <[6 5]>4 <7>16 <\t>
+  r2 r8 <6 5>4 <7>16 <\t>
   <5 _->8 <6 \t> <5> <6>2 <8 _!>8
   <5> <6>4 <6!>8 <5 3> <6 4> <5 \t> <\t 3>
   r <5> <6> q <9>4 <8> %20

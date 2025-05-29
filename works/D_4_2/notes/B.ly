@@ -27,7 +27,7 @@ D-IV-IIBasso = {
     c( d) g,2 r
     r4 d' d c8 b a2~ %20
     a4 b c( f c2)
-    f,1 r2\fermata \markRorateDaCapo \bar "||" %22 finis
+    f,1 r2\fermata \bar "|." %22 finis
   }
 }
 

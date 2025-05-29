@@ -3,10 +3,10 @@
 D-IV-IVAlto = {
   \relative c' {
     \clef treble
-    \key f \major \time 6/8 \tempoD-IV-IV \autoBeamOff
+    \key f \major \time 6/8 \autoBeamOff
       \once \omit Staff.TimeSignature
     s8*6 \bar "||"
-    \time 4/4 r2 f4.( g16[ a]
+    \time 4/4 \tempoD-IV-IVa r2 f4.( g16[ a]
     b8[ f)] d([ b)] f'16([ g f g] a8) g16([ f)]
     e8 e4 f16([ g)] a8 a4 a8
     f f4 f8 f e([ f)] a %5
@@ -21,7 +21,7 @@ D-IV-IVAlto = {
     f2 r\fermata \bar "||"
     \time 14/8 \once \omit Staff.TimeSignature
       s8*14 \bar "||" %15
-    \time 4/4 R1 \noBreak
+    \time 4/4 \tempoD-IV-IVb R1 \noBreak
     f2 b4 a8 g
     f16([ g f8)] e d e4. f16[ g]
     a[ b a8] g[ f] e8.[ d16] c4
@@ -33,7 +33,7 @@ D-IV-IVAlto = {
     g8[ f] e4. f8 g4 %25
     f8 c f2 g4
     e8 e f2( e4)
-    f2 r\fermata \markRorateDaCapo \bar "||" %28 finis
+    f2 r\fermata \bar "|." %28 finis
   }
 }
 

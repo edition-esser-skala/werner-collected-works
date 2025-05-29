@@ -25,14 +25,14 @@
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = "Violino"
+            \set GrandStaff.instrumentName = "Viola"
             \new Staff {
-              \set Staff.instrumentName = "I"
-              \D-IV-IViolinoI
+              \incipitVlISoprano
+              \D-IV-IViolaI
             }
             \new Staff {
-              \set Staff.instrumentName = "II"
-              \D-IV-IViolinoII
+              \incipitVlIIAlto
+              \D-IV-IViolaII
             }
           >>
         >>

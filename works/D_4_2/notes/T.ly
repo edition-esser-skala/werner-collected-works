@@ -27,7 +27,7 @@ D-IV-IITenore = {
     es'4( d) d b b a8 g
     f!4. f8 f4( g) a a %20
     a g8 f e4 f f( e)
-    f1 r2\fermata \markRorateDaCapo \bar "||" %22 finis
+    f1 r2\fermata \bar "|." %22 finis
   }
 }
 

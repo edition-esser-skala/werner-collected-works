@@ -2,17 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 2")
+#(define option-instrument-name "vla 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "D.4.1" "Rorate cœli desuper"
+    \section "D.4.4" "Rorate cœli desuper"
     \addTocEntry
-    \paper { systems-per-page = #5 }
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \D-IV-IViolinoII }
+        \new Staff { \D-IV-IVViolaII }
       >>
     }
   }
