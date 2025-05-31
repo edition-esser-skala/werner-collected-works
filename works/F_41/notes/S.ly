@@ -19,8 +19,8 @@ F-XLISoprano = {
     d2) es d1
     r2 d c1
     d b2 g~
-    g a b g~ %15
-    g fis g1 \bar ":|."
+    g a b( g) %15
+    \appoggiatura g fis1 g \bar ":|."
     g1 g\fermata \bar "|." %17 finis
   }
 }
@@ -40,7 +40,7 @@ F-XLISopranoLyricsA = \lyricmode {
   di -- tor
   su -- spen --
   sus est __ _
-  pa -- ti -- _ %15
+  pa -- ti -- %15
   bu -- lo.
   A -- men. %17 finis
 }
@@ -51,8 +51,8 @@ F-XLISopranoLyricsB = \lyricmode {
   ta lan --
   ce -- ae
   mu -- cro -- %5
-  ne di -- _
-  ro cri -- _
+  ne di -- ro __
+  _ cri -- _
   mi -- num
   ut nos __
   la -- va -- %10
@@ -60,12 +60,12 @@ F-XLISopranoLyricsB = \lyricmode {
   di -- bus
   ma -- na --
   vit un -- da __
-  et san -- _ %15
+  et san -- %15
   gui -- ne. %16 finis
 }
 
 F-XLISopranoLyricsC = \lyricmode {
-  Te fons
+  Te fons __
   sa -- lu --
   tis tri --
   ni -- tas
@@ -74,11 +74,11 @@ F-XLISopranoLyricsC = \lyricmode {
   mnis spi -- _
   ri -- tus
   qui -- bus __
-  cru -- cis %10
+  cru -- cis __ %10
   vi -- cto --
   ri -- am
   lar -- gi --
-  ris ad -- _
-  de prae -- _ %15
+  ris ad -- de __
+  _ prae -- %15
   mi -- um. %16 finis
 }

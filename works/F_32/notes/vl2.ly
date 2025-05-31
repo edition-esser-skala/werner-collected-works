@@ -12,8 +12,8 @@ F-XXXIIViolinoII = {
     g,2 r4 g' c c
     h8 a g h a g fis a g4 a~
     a g2 fis4 g2
-    r4 g g g a a
-    fis2 g4. g8 e2~ %10
+    r4 g g g a2
+    fis4 fis g4. g8 e2 %10
     e4 a2 fis4 d g~
     g e c2 r4 f~
     f d g2 f4. f8
@@ -22,6 +22,6 @@ F-XXXIIViolinoII = {
     d4 g2 e4 c2
     f d4 g2 e4
     \time 4/4 d4. d8 e2 \bar ":|."
-    f1*1/2 e\fermata \bar "|." %19 finis
+    f e\fermata \bar "|." %19 finis
   }
 }

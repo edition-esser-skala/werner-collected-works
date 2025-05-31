@@ -7,7 +7,7 @@ F-XLIIIOrgano = {
     << { g''4_! a8 c h a g c } \\ { s4 c, d8 f e a } >>
     \clef "treble_8" g,4 \clef bass c, d8 f e a
     d,4 c8 h c16 d e fis g8 d
-    e4 d2 g,8 \noBeam \clef treble g''-!
+    e4 d4. d8 g, \noBeam \clef treble g''-!
     << { r c a d h } \\ { e, a f! d g } >> \clef bass g,[ e a] %5
     f d g e c4 d8. c16
     h4 c r8 c d4

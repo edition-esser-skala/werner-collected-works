@@ -58,15 +58,15 @@ F-XLIAltoLyricsB = \lyricmode {
   nos la -- va -- %10
   ret sor --
   di -- bus ma --
-  na -- vit un -- da_et
+  na -- vit un -- da
   san -- gui -- ne, ma --
-  na -- vit un -- da_et %15
+  na -- vit un -- da %15
   san -- gui -- ne. %16 finis
 }
 
 F-XLIAltoLyricsC = \lyricmode {
   Te
-  fons sa --
+  fons __ sa --
   lu -- tis tri --
   ni -- tas
   col -- _ lau -- %5

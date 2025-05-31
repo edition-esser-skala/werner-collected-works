@@ -4,6 +4,7 @@ F-XXXIViolinoI = {
   \relative c' {
     \clef treble
     \key d \minor \time 3/2 \tempoF-XXXI
+      \set Staff.timeSignatureFraction = 3/2
     R1.*3
     a'2. f4 b2
     a c2. b4 %5
@@ -21,8 +22,8 @@ F-XXXIViolinoI = {
     b a c2. b4
     d2. c2 b4~
     b a2 g f4
-    e f e1 %20
+    e f e1\trill %20
     d1. \bar ":|."
-    \time 4/4 g1 fis\fermata \bar "|." %22 finis
+    \time 2/1 g1 fis\fermata \bar "|." %22 finis
   }
 }

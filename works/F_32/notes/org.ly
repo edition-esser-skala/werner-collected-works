@@ -13,21 +13,21 @@ F-XXXIIOrgano = {
     g4 g fis8 e d \hA fis e4 \hA fis
     g c, d2 g,
     \clef treble << {
-      d'''4 d e2 cis
+      d'''4 d e2 cis4 cis
       d4. d8 h4
     } \\ {
-      r4 g g g a a
-      fis2 g4
+      r4 g g g a2
+      fis4 fis g4
     } >> \clef "treble_8" g, g \clef bass c, %10
     c c d2 h4 h
     c4. c8 a4 a'2 f!4
     d g2 e4 d2
     c4 \clef treble << { e'' a, c d4. c8 h4 } \\ { r4 r a d, f g } >>
     \clef "treble_8" e a, \clef bass a d, f %15
-    g4. f8 e2 f4 f
+    g4. f8 e2 f4 f~
     f d g2 e4 c
     \time 4/4 g2 c \bar ":|."
-    f1*1/2^\critnote c\fermata \bar "|." %19 finis
+    f c\fermata \bar "|." %19 finis
   }
 }
 

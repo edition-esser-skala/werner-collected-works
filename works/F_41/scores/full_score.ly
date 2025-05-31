@@ -33,14 +33,14 @@
       <<
         \new StaffGroup <<
           \new GrandStaff \with { \setGroupDistance #11 #11 } <<
-            \set GrandStaff.instrumentName = "Viola"
+            \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \incipitVlISoprano
-              \F-XLIViolaI
+              \F-XLIViolinoI
             }
             \new Staff {
               \incipitVlIIAlto
-              \F-XLIViolaII
+              \F-XLIViolinoII
             }
           >>
         >>

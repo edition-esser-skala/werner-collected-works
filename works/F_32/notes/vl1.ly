@@ -11,7 +11,7 @@ F-XXXIIViolinoI = {
     e8 f g e d4 g2 fis4
     g2 r4 d c8 h a c
     h4 c a4. a8 h4 d
-    d d e2 cis
+    d d e2 cis4 cis
     d4. d8 h4 h2 e4~ %10
     e c a d2 h4
     g2 r4 c2 a4
@@ -19,8 +19,8 @@ F-XXXIIViolinoI = {
     c e a, c d4. c8
     h4 h c a2 d4~ %15
     d h g c2 a4
-    d2 h \once \tieDashed c~
-    \time 4/4 c8  h16 a h8. h16 c2 \bar ":|."
-    a1*1/2 g\fermata \bar "|." %19 finis
+    d2 h c~
+    \time 4/4 c8 h16 a h8. h16 c2 \bar ":|."
+    c c\fermata \bar "|." %19 finis
   }
 }

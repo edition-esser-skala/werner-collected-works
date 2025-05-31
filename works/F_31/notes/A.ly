@@ -83,10 +83,10 @@ F-XXXIAltoLyricsC = \lyricmode {
   cus,
 
   Spi -- ri -- tu --
-  i San -- cto, San -- %15
+  i, tu -- i San -- %15
   cto
   tri -- bus ho --
-  nor, tri -- bus ho --
+  nor, ho -- _ _
   _ _ nor,
   ho -- _ nor u -- %20
   nus. %21 finis

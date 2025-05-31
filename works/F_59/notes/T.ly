@@ -39,7 +39,7 @@ F-LIXTenoreLyricsA = \lyricmode {
   lix coe -- li por --
   ta,
   fe -- lix coe --
-  _ li, fe -- lix
+  li, __ _ fe -- lix
   coe -- li, coe -- li por -- %15
   ta.
   A -- men. %17 finis

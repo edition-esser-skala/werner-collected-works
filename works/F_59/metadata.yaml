@@ -2,16 +2,22 @@ title: Ave maris stella
 id: WerW F.59
 genre: hymn
 festival: de Apostolis
-scoring: S, A, T, B (coro), 2 vla, b, org
+scoring: S, A, T, B (coro), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.210 (29)
+    rism: 530004319
+    url: https://copia.oszk.hu/kotta/hymni-de-b-virgine-de-apostolis-et-aliis-festis-1mae-classis/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: M 37
     rism: 600038656
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/270.html
     license: public domain
-    principal: true
 toe: |
   12 & org & 3rd \quarterNote\ in \B1: \crotchetRest \\
 lyrics:

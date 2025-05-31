@@ -5,27 +5,30 @@ festival: de Apostolis
 scoring: S, A, T, B (coro), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.210 (2)
+    rism: 530004293
+    url: https://copia.oszk.hu/kotta/hymni-de-b-virgine-de-apostolis-et-aliis-festis-1mae-classis/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: M 27
     rism: 600038646
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/260.html
     license: public domain
-    principal: true
-extra_abbreviations:
-  vlne:
 toe: |
-  18 & B & 1st \halfNote\ in \B1: G2 \\
-  19 & B, vlne, org & rhythm in \B1: \halfNote–\halfNote \\
+  – & – & In \B1, the second stanza is the verse “Qui templa coeli clauditis”. \\
 lyrics:
   Exultet orbis gaudiis:\\
   Coelum resultet laudibus:\\
   Apostolorum gloriam\\
   tellus et astra concinunt.\\[1ex]
-  Qui templa coeli clauditis\\
-  serasque verbo solvitis\\
-  nos a reatu noxios\\
-  solvi iubete quaesumus.\\[1ex]
+  Vos saeculorum iudices\\
+  et vera mundi lumina\\
+  votis precamur cordium\\
+  audite preces supplicum.\\[1ex]
   Patri, simulque Filio,\\
   tibique, Sancte Spiritus,\\
   sicut fuit, sit iugiter\\

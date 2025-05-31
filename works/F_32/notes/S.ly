@@ -11,8 +11,8 @@ F-XXXIISoprano = {
     e8([ f)] g([ e)] d4( g2) fis4
     g2 r4 d c8([ h)] a([ c)]
     h4 c a4. a8 h4 d
-    d d e2 cis
-    d4. d8 h4 h2 e4~ %10
+    d d e2 cis4 cis(
+    d4.) d8 h4 h2 e4~ %10
     e c a d2 h4
     g2 r4 c2 a4
     f h4. g8 c2 h4
@@ -21,7 +21,7 @@ F-XXXIISoprano = {
     d h g c2 a4
     d2 h c~
     \time 4/4 c8 [ h16 a] h8. h16 c2 \bar ":|."
-    a1*1/2 g\fermata \bar "|." %19 finis
+    c c\fermata \bar "|." %19 finis
   }
 }
 
@@ -30,38 +30,38 @@ F-XXXIISopranoLyricsA = \lyricmode {
   bis gau -- di -- is:
   Coe -- lum re -- %5
   sul -- tet lau -- di --
-  bus, coe -- lum re --
-  sul -- tet lau -- di -- bus: A --
-  po -- sto -- lo -- rum
-  glo -- ri -- am, A -- po -- %10
-  sto -- lo -- _ _
-  rum glo -- ri --
-  am, glo -- ri -- am, A --
-  po -- sto -- lo -- rum glo -- ri --
-  am tel -- lus, tel -- lus __ %15
-  et a -- stra, et
+  bus, re -- sul -- tet
+  coe -- lum lau -- di -- bus: A --
+  po -- sto -- lo -- rum glo --
+  ri -- am, glo -- _ %10
+  _ _ _ ri --
+  am, glo -- _
+  _ _ _ _ ri --
+  am, tel -- lus et a -- stra
+  con -- ci -- nut, con -- _
+  ci -- nut, a -- stra,
   a -- stra con --
   _ ci -- nunt.
   A -- men. %19 finis
 }
 
 F-XXXIISopranoLyricsB = \lyricmode {
-  Qui tem -- pla coe -- %3
-  li clau -- di -- tis
-  se -- ras -- que %5
-  ver -- bo sol -- vi --
-  tis, se -- ras -- que
-  ver -- bo sol -- vi -- tis nos
-  a re -- a -- tu
-  no -- xi -- os, nos a __ %10
-  re -- a -- _ _
-  tu no -- xi --
-  os, no -- xi -- os, nos
-  a re -- a -- tu no -- xi --
-  os, sol -- vi, sol -- vi __ %15
-  iu -- be -- te, iu --
-  be -- te quae --
-  _ su -- mus. %18 finis
+  Vos sae -- cu -- lo -- %3
+  rum iu -- di -- ces
+  et ve -- ra %5
+  mun -- di lu -- mi --
+  na, et ve -- ra
+  mun -- di lu -- mi -- na, vo --
+  tis pre -- ca -- mur cor --
+  di -- um, cor -- _ %10
+  _ _ _ di --
+  um, cor -- _
+  _ _ _ _ di --
+  um, au -- di -- te pre -- ces
+  sup -- pli -- cum, sup -- _ %15
+  pli -- cum, pre -- ces,
+  pre -- ces sup --
+  _ pli -- cum. %18 finis
 }
 
 F-XXXIISopranoLyricsC = \lyricmode {
@@ -72,13 +72,13 @@ F-XXXIISopranoLyricsC = \lyricmode {
   tus, ti -- bi -- que,
   San -- cte Spi -- ri -- tus, si --
   cut fu -- it, sit
-  iu -- gi -- ter, si -- cut, __ %10
-  si -- cut fu -- _
-  it, si -- cut
-  fu -- it, sit iu -- gi --
+  iu -- gi -- ter, sit iu --
+  _ _ _ gi --
+  ter, fu -- it,
+  sit iu -- _ _ gi --
   ter sae -- clum per o -- mne
-  glo -- ri -- a, sae -- clum %15
-  per o -- mne, per
+  glo -- ri -- a, glo -- _ %15
+  ri -- a, o -- mne,
   o -- mne glo --
   _ ri -- a. %18 finis
 }

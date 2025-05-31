@@ -61,7 +61,7 @@ F-IVAltoETenoreLyricsB = \lyricmode {
   cri -- mi --
   ne ma -- %30
   na -- vit
-  un -- da_et
+  un -- da~et
   san -- gui --
   ne. %34 finis
 }

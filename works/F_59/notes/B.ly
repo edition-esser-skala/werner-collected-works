@@ -16,7 +16,7 @@ F-LIXBasso = {
     f e f g e a8([ g)] %10
     f([ e)] d4 g8([ f)] e4 d2
     c r r
-    r4 c d f( e) d
+    r4 c d f e( d)
     c a b d c b
     a8([ a')] g([ f)] e4 f c2 %15
     f,1 r2 \bar ":|."
@@ -35,8 +35,8 @@ F-LIXBassoLyricsA = \lyricmode {
   que sem -- per vir -- go, %10
   at -- que sem -- per vir --
   go,
-  fe -- lix coe -- li
-  por -- ta, coe -- li, coe -- li,
+  fe -- lix coe -- li __
+  por -- ta, fe -- lix coe -- li,
   fe -- lix coe -- li por -- %15
   ta.
   A -- men. %17 finis
@@ -53,7 +53,7 @@ F-LIXBassoLyricsB = \lyricmode {
   da nos in pa -- ce, %10
   fun -- da nos in pa --
   ce,
-  mu -- tans E -- vae
+  mu -- tans E -- vae __
   no -- men, mu -- tans E -- vae
   no -- men, E -- vae no -- %15
   men. %16 finis
@@ -70,7 +70,7 @@ F-LIXBassoLyricsC = \lyricmode {
   ri -- tu -- i San -- cto, %10
   Spi -- ri -- tu -- i San --
   cto
-  tri -- bus ho -- nor
+  tri -- bus ho -- nor __
   u -- nus, tri -- bus ho -- nor,
   tri -- bus ho -- nor u -- %15
   nus. %16 finis

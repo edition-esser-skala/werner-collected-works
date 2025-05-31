@@ -23,8 +23,8 @@ F-XXXIBasso = {
     r4 f2 e4 g2
     f c4 c' g2
     d a' b
-    f g d(
-    a'4) d, a1 %20
+    f g d
+    a'4( d,) a1 %20
     d1. \bar ":|."
     \time 2/1 g1 d\fermata \bar "|." %22 finis
   }
@@ -50,7 +50,7 @@ F-XXXIBassoLyricsA = \lyricmode {
   li, coe -- li por --
   ta, fe -- lix
   coe -- li, coe --
-  li por -- %20
+  li __ por -- %20
   ta.
   A -- men. %22 finis
 }
@@ -73,9 +73,9 @@ F-XXXIBassoLyricsB = \lyricmode {
   %15
   mu -- tans E --
   vae, E -- vae no --
-  men, mu -- tans
-  E -- vae, E --
-  vae no -- %20
+  men, mu -- tans,
+  mu -- tans E --
+  vae __ no -- %20
   men. %21 finiss
 }
 
@@ -99,6 +99,6 @@ F-XXXIBassoLyricsC = \lyricmode {
   nor, ho -- nor u --
   nus, tri -- bus
   ho -- nor, ho --
-  nor u -- %20
+  nor __ u -- %20
   nus. %21 finis
 }

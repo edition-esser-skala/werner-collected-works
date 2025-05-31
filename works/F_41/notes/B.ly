@@ -58,9 +58,9 @@ F-XLIBassoLyricsB = \lyricmode {
   ret, la -- va -- %10
   ret sor --
   di -- bus ma --
-  na -- vit un -- da_et
+  na -- vit un -- da~et
   san -- gui -- ne, ma --
-  na -- vit un -- da_et %15
+  na -- vit un -- da %15
   san -- gui -- ne. %16 finis
 }
 
@@ -73,8 +73,8 @@ F-XLIBassoLyricsC = \lyricmode {
   mnis, __ o --
   mnis __ spi --
   ri -- tus qui --
-  bus __ _ cru --
-  cis, cru -- cis __ %10
+  bus cru -- cis, __
+  cru -- cis __ _ %10
   vi -- cto --
   ri -- am lar --
   gi -- ris ad -- de

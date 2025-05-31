@@ -18,8 +18,8 @@ F-XLITenore = {
     b1 g2 c
     b a b d
     c b c1
-    a b~
-    b2 a g g %15
+    a \once \phrasingSlurDashed b\(
+    b2\) a g g %15
     c a g1 \bar ":|."
     g2( c) h1\fermata \bar "|." %17 finis
   }
@@ -36,10 +36,10 @@ F-XLITenoreLyricsA = \lyricmode {
   quo car -- ne
   car -- _ %10
   nis con -- _
-  _ di -- tor su --
+  di -- _ tor su --
   spen -- sus est
   pa -- ti --
-  bu -- lo, pa -- %15
+  _ bu -- lo, pa -- %15
   ti -- bu -- lo.
   A -- men. %17 finis
 }
@@ -55,10 +55,10 @@ F-XLITenoreLyricsB = \lyricmode {
   ut nos la --
   va -- ret %10
   sor -- _ _
-  _ di -- bus ma --
+  di -- _ bus ma --
   na -- vit un --
-  da et __
-  san -- gui -- ne,_et %15
+  da et
+  san -- gui -- ne, et %15
   san -- gui -- ne. %16 finis
 }
 
@@ -76,6 +76,6 @@ F-XLITenoreLyricsC = \lyricmode {
   cto -- ri -- am lar --
   gi -- ris ad --
   de prae --
-  mi -- um, prae -- %15
+  _ mi -- um, prae -- %15
   _ mi -- um. %16 finis
 }

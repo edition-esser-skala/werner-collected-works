@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vla 1")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,7 +12,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \F-XLIViolaI }
+        \new Staff { \F-XLIViolinoII }
       >>
     }
   }

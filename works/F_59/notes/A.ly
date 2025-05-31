@@ -15,8 +15,8 @@ F-LIXAlto = {
     f2 d4 g2 f4
     e a d,( g) c,2
     r r4 g'2 e4 %10
-    f2 d4 g f8[ e] \once \phrasingSlurDashed f4\(
-    f\) e r f g \once \stemUp b
+    f2 d4 g f8[ e] f4~
+    f e r f g \once \stemUp b
     a g f2 r4 d
     e a( g) f g4.\trill f16[ g]
     a8[ c b a] g4 f2( e4) %15
@@ -37,7 +37,7 @@ F-LIXAltoLyricsA = \lyricmode {
   sem -- per vir -- go,
   at -- que %10
   sem -- per, sem -- per vir --
-  _ go, fe -- lix coe --
+  go, fe -- lix coe --
   _ _ li, fe --
   lix coe -- li por -- _
   _ ta, por -- %15
@@ -56,7 +56,7 @@ F-LIXAltoLyricsB = \lyricmode {
   fun -- da nos in
   pa -- ce, pa -- ce,
   fun -- da %10
-  nos, fun -- da nos in
+  nos, fun -- da in
   pa -- ce, mu -- _ tans
   E -- _ vae, mu --
   tans E -- vae no -- _
@@ -76,7 +76,7 @@ F-LIXAltoLyricsC = \lyricmode {
   tu -- i San -- cto,
   Spi -- ri -- %10
   tu -- i San -- _ _
-  _ cto tri -- bus ho --
+  cto tri -- bus ho --
   _ _ nor, tri --
   bus ho -- nor, ho -- _
   _ nor u -- %15

@@ -2,17 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vla 2")
+#(define option-instrument-name "vl 1")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "F.41" "Vexilla regis prodeunt"
+    \section "F.59" "Ave maris stella"
     \addTocEntry
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \F-XLIViolaII }
+        \new Staff { \F-LIXViolinoI }
       >>
     }
   }

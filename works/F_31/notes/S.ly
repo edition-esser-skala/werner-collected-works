@@ -52,8 +52,8 @@ F-XXXISopranoLyricsA = \lyricmode {
 
 F-XXXISopranoLyricsB = \lyricmode {
   Su -- mens il -- %4
-  lud A -- _ %5
-  _ _ _
+  lud, il -- lud  %5
+  A -- _ _
   ve
   Ga --
   bri -- e -- lis
@@ -79,11 +79,11 @@ F-XXXISopranoLyricsC = \lyricmode {
   Chri --
   sto sum -- mo
   de -- cus, %10
-  de -- _ _
+  Chri -- sto de --
   cus,
   Spi --
-  ri -- tu -- i San --
-  cto, San -- cto %15
+  ri -- tu -- i, tu --
+  i San -- cto %15
   tri --
   bus ho -- nor
   u -- nus, ho --

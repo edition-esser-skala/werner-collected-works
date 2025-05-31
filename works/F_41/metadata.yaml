@@ -5,12 +5,18 @@ festival: de Sancta Cruce
 scoring: S, A, T, B (coro), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.210 (11)
+    rism: 530004302
+    url: https://copia.oszk.hu/kotta/hymni-de-b-virgine-de-apostolis-et-aliis-festis-1mae-classis/
+    license: public domain
+    principal: true
   B1:
     siglum: A-KN
     shelfmark: 130 (37)
     rism: 601001036
     license: public domain
-    principal: true
 lyrics:
   Vexilla regis prodeunt\\
   fulget crucis mysterium\\
