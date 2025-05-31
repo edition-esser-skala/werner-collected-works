@@ -1,5 +1,18 @@
 # Changelog
 
+## 2025.05.0 – 2025-05-31
+
+### Added
+
+- works: WerW B.29, D.1.13, D.2.8, D.4.3, D.5.1, E.3, F.33/34, G.4, and O.5
+- WerW I.3.10: realized bass figures
+
+### Changed
+
+- editions of WerW D.2.1, D.4.2, E.2, G.1, I.2.2, and I.3.3 have been released
+- revised WerW D.4.1/2/4, F.31/32/41/43/59, and I.3.10 after autograph manuscript
+
+
 ## 2025.04.0 – 2025-04-30
 
 ### Added
@@ -29,7 +42,7 @@
 ### Added
 
 - works: WerW B.46, D.2.11, H.2.9, I.1.8, I.3.6, I.4.4, I.5.19, M.23, and O.2
-- global LaTeX macros: `\rhythmSdTT` and `\rhythmSdSS`
+- global LaTeX macros `\rhythmSdTT` and `\rhythmSdSS`
 
 ### Changed
 
@@ -121,13 +134,13 @@
   - B.52 *Missa Mixta cantu chorali et figurali* (werner-missa-mixta-A-Ed-A-67; v1.0.0, 2022-11-12)
   - B.55 *Missa festivalis Memento mei* (werner-missa-festivalis-A-Ed-A-70; v1.0.0, 2023-08-31)
   - B.58 *Missa Hic labor hoc opus est* (werner-missa-hic-labor-hoc-opus-est-A-Ed-A-75; v1.0.0, 2022-10-06)
-- global macros: `\allaOttava` and `\allaOttavaE`
+- global macros `\allaOttava` and `\allaOttavaE`
 
 ### Changed
 
-- title of WerW B.38 (“Pastorella di Natale del Nostro Salvatore Giesu Cristo” -> “Gloria in altissimis Deo”); previous title is now subtitle
+- title of WerW B.38 (“Pastorella di Natale del Nostro Salvatore Giesu Cristo” → “Gloria in altissimis Deo”); previous title is now subtitle
 - signature on preface cover (now from title page of H-Bn Ms.mus III.48)
-- several works have been renumbered: WerW C.5 -> D.3.6, D.1.5 -> D.2.6, D.1.6 -> D.1.5, D.1.7 -> D.1.6, D.1.8 -> D.1.7, D.1.11 -> D.1.10, D.1.12 -> D.1.11, Z.5 -> D.3.S1, Z.6 -> I.4.S1, Z.9 -> M.S1, Z.15 -> C.S3, Z.16 -> D.5.S1, and Z.17 -> E.S1
+- renumbered WerW C.5 → D.3.6, D.1.5 → D.2.6, D.1.6 → D.1.5, D.1.7 → D.1.6, D.1.8 → D.1.7, D.1.11 → D.1.10, D.1.12 → D.1.11, Z.5 → D.3.S1, Z.6 → I.4.S1, Z.9 → M.S1, Z.15 → C.S3, Z.16 → D.5.S1, and Z.17 → E.S1
 
 ### Fixed
 
@@ -141,8 +154,8 @@
 - works: WerW B.48, F.19/20/43, Q.4, I.1.1, I.2.4, and I.4.35
 - a YAML key *acknowledgements* which supports per-work acknowledgements
 - a general preface for the project, currently only containing a reference to the catalogue of works, editorial guidelines, and the changelog
-- a make target 'preface' which typesets the preface
-- global macros: \setLyricsDistance
+- a make target *preface* which typesets the preface
+- global macro `\setLyricsDistance`
 
 ### Changed
 
@@ -163,7 +176,7 @@
   - WerW Z.9 *Sechs Fugen in Quartetten* (original repository: werner-six-fugues; v2.0.0, 2021-12-06; v1.0, 2021-07-30)
   - WerP P.4–9 & M.17–22 *Symphoniae sex senaeque sonatae* (original repository: werner-symphoniae-sex-senaeque-sonatae; v1.0.0, 2022-12-19)
 - a YAML key *tocstyle* which supports works with multiple movements
-- global macros: \dstU and \dstD
+- global macros `\dstU` and `\dstD`
 
 ### Changed
 
@@ -194,8 +207,7 @@
 ### Added
 
 - works: WerW D.1.6, H.1.9, I.1.2, I.2.8, I.3.21, I.4.46, O.2, and Q.2
-- global macro definitions: \extendLV and \hA
-
+- global macros `\extendLV` and `\hA`
 
 ### Changed
 
@@ -207,8 +219,7 @@
 ### Added
 
 - works: A-Ed H 4, I 6, J 12, K 3 (1–4), L 2, M 8/12, and M 9
-- global macro definition: \incipitVlIISoprano
-
+- global macro `\incipitVlIISoprano`
 
 ### Changed
 
@@ -220,7 +231,7 @@
 ### Added
 
 - works: A-Ed B 44 (1, 2), 46, 56, and 57
-- global macro definitions: \ignoreMelismas and \obeyMelismas
+- global macros `\ignoreMelismas` and `\obeyMelismas`
 
 
 ## 2023.12.0 – 2023-12-31
@@ -228,7 +239,7 @@
 ### Added
 
 - works: A-Ed B 43, G 93, H 10, I 5, J 11, K5, L 1, and M 7
-- global macro definitions: \aTre, \incipitVlISoprano, and \incipitVlIIAlto
+- global macros `\aTre`, `\incipitVlISoprano`, and `\incipitVlIIAlto`
 
 
 ## 2023.11.0 – 2023-11-30
