@@ -1,0 +1,20 @@
+title: Litaniæ lauretanæ
+id: WerW G.4
+genre: litany
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.68
+    rism: 530001975
+    url: https://copia.oszk.hu/kotta/lytaniae-breves-in-a-moll/
+    license: public domain
+    principal: true
+    notes: only A part in the hand of Werner
+toe: |
+  1  & org  & 2nd \halfNote\ in \A1: \flat g8–e8\flat g4 \\
+  35 & org  & 6th \eighthNote\ of upper voice in \A1: e′8 \\
+  39 & org  & 4th to 6th \eighthNote\ in \A1: c′8.–\flat b16–a8 \\
+  60 & vl 2 & 3rd \eighthNote\ in \A1: b′8 \\*
+  69 & org  & 4th \sixteenthNote\ of lower voice in \A1: g′16 \\
