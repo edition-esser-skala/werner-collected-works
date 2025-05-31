@@ -1,0 +1,34 @@
+title: Iste confessor Domini
+id: WerW F.33
+genre: hymn
+festival: de Confessore
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.210 (3)
+    rism: 530004294
+    url: https://copia.oszk.hu/kotta/hymni-de-b-virgine-de-apostolis-et-aliis-festis-1mae-classis/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: M 30
+    rism: 600038649
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/263.html
+    license: public domain
+lyrics:
+  Iste confessor Domini colentes,\\
+  quem pie laudant populi per orbem:\\
+  Hac die laetus meruit beatas\\
+  scandere sedes.\\[1ex]
+  Qui pius prudens et humilis, pudicus,\\
+  sobriam duxit sine labe vitam,\\
+  donec humanos animavit aures\\
+  spiritus artus.\\[1ex]
+  Sit salus illi, decus et virtus,\\
+  qui supra coeli solio coruscans,\\
+  totius mundi seriem gubernat,\\
+  trinus et unus.\\[1ex]
+  (Cantus Index 008323)
