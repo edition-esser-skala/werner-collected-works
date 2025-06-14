@@ -126,6 +126,25 @@ markMaggioV = \markTitle
   "5. Eccho."
   "Der Widerhall oder Echo."
 
+markGiugnoI = \markTitle
+  "1. L’eſtade amena."
+  "Der liebliche Sommer."
+markGiugnoII = \markTitle
+  "2. Il ſole in gambaro."
+  "Die Sonn im Krebs."
+markGiugnoIII = \markTitle
+  "3. Il terre moto."
+  "Ein Erdbeben."
+markGiugnoIVa = \markTitle
+  "4. Menuet il Giorno di 16. hore."
+  "Die Tags-Länge 16. Stund, …"
+markGiugnoIVb = \markTitle
+  "La notte di 8. hore."
+  "… die Nacht 8. Stund."
+markGiugnoV = \markTitle
+  "5. Il paſſa tempo."
+  "Zeit-Vertreib."
+
 \layout {
   \set Score.doubleRepeatBarType = #":|.|:"
 }
@@ -160,6 +179,12 @@ tempoO-Vb = \tempoMarkup "[Tempo deest]"
 tempoO-Vc = \tempoMarkup "Tempo ordinario"
 tempoO-Vd = \tempoMarkup "[Tempo deest]"
 tempoO-Ve = \tempoMarkup "Molto allegro"
+
+tempoO-VIa = \tempoMarkup "Allegro"
+tempoO-VIb = \tempoMarkup "Menuet[to] Cancrizante"
+tempoO-VIc = \tempoMarkup "Tempo ordinario"
+tempoO-VId = \tempoMarkup "[Tempo deest]"
+tempoO-VIe = \tempoMarkup "Allegro assai"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

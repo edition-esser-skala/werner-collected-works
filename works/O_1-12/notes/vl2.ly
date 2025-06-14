@@ -1353,3 +1353,266 @@ O-VeViolinoII = {
     } \bar "|." %208 finis
   }
 }
+
+O-VIaViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key g \major \time 2/4 \tempoO-VIa
+      \markGiugnoI
+    \repeat volta 2 {
+      g'16\fE g h h d d g g
+      h4 d
+      r8 c d, c'
+      h16 h g g d d h8
+      r c\p d, c' %5
+      h16 h g g d d h8
+      r h'4\f e8
+      r a,4 d8
+      r g,4 e'8
+      a, d a fis %10
+      r f'\p e d
+      r e d cis
+      r d cis h
+      cis4 r
+      r8 f,\pp e d %15
+      r e d cis
+      r d cis h
+      cis4 r
+      d'16\ff d fis fis a a d d
+      a a fis fis d d a a %20
+      d d fis fis a a d d
+      a a fis fis d d a a
+      d32(\p e fis8.) r4
+      d32( e fis8.) r4
+      d32( e fis8.) r4 %25
+      d32( e fis8.) r4
+      d8\f e4 d8
+      cis( e) \once \slurDashed a,( g)
+      fis g16 fis g8 e
+      d4 r %30
+      h''8(\p g) e( d)
+      cis( e) a,( g)
+      fis g16 fis g8 e
+    }
+    \alternative {
+      { d4 r }
+      { d4 r } %35
+    }
+    \repeat volta 2 {
+      r8 d\f fis a
+      r h dis fis
+      a g4 fis8
+      g16( fis) e8 r4
+      e32(\p fis g8.) r4 %40
+      e32( fis g8.) r4
+      fis8\f e4 dis8
+      e32( fis g8.) r4
+      fis8\p e4 dis8
+      e4 r %45
+      g,16\f g h h d d g g
+      e e c c g g e e
+      a a cis cis e e a a
+      fis fis d d a a fis8
+      r g\pE fis e %50
+      r fis e d
+      r e d cis
+      d4 r
+      r8 c'!\p h a
+      r h a g %55
+      r a g fis
+      g4 r
+      g16\f g h h d d g g
+      d d h h g g d d
+      g g h h d d g g %60
+      d d h h g g d d
+      g32(\p a h8.) r4
+      g32( a h8.) r4
+      g32( a h8.) r4
+      g32( a h8.) r4 %65
+      g8\f a4 g8
+      fis( a) d,( c)
+      h c16 h c8 a
+      g4 r
+      e''8(\p c) a( g) %70
+      fis( a) d,( c)
+      h c16 h c8 a
+    }
+    \alternative {
+      { g4 r }
+      { g r\fermata }
+    } \bar "||" %74 finis
+  }
+}
+
+O-VIbViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoO-VIb
+      \set Score.currentBarNumber = #75
+      \markGiugnoII
+    g'2.
+    fis8( g) g( a) a( h)
+    g( h) d4 \tuplet 3/2 4 { e8 fis g
+    fis e d c h a } h4
+    h \tuplet 3/2 4 { a8 h c d e fis
+    g fis e } d4 h8( g) %80
+    h( a) a( g) g( fis)
+    g2.\fermata \bar ":|.|:"
+    d'
+    cis8( d) \tuplet 3/2 4 { e d \hA cis } d( a')
+    a,( d) g,( d') fis,( d') %85
+    \tuplet 3/2 4 { cis d e d \hA cis h } a4
+    a \tuplet 3/2 4 { h8 cis d e d \hA cis }
+    d( fis,) d'( g,) d'( a)
+    a' d, \tuplet 3/2 4 { cis d e } d( \hA cis)
+    d2. \bar ":|." %90 finis
+  }
+}
+
+O-VIcViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoO-VIc
+      \set Score.currentBarNumber = #91
+      \markGiugnoIII
+    g'16.\fE\trill fis64( g) h16.[\trill a64( h)] d16.\trill c64( d) g16.[\trill fis64( g)] a2~
+    a4 g2 fis4~
+    fis e e16. e32 e16. e32 e16. e32 e16. e32
+    dis8[ r32 fis \hA dis h] fis8[ r32 fis dis h] g8[ r32 h' g e] gis8[ r32 h \hA gis e]
+    a8[ r32 e' c a] g8[ r32 e' cis a] fis8[ r32 a' fis d] a8[ r32 a' fis d] %95
+    h[ g, h d] g h, d g h[ d, g h] d g, h d gis,4 r
+    a32 a a a a a a a a a a a a a a a a\p a a a a a a a a a a a a a a a
+    a\f a a a a a a a g g g g g g g g g g g g g g g g f f f f f f f f
+    e e e e e e e e e e e e e e e e fis\pp fis fis fis fis fis fis fis g g g g g g g g
+    g g g g g g g g fis fis fis fis fis fis fis fis g8[\ff r32 g' d h] g8[ r32 d' h g] %100
+    d8[ r32 h' g d] h8[ r32 g' d h] g4 r\fermata \bar "||" %101 finis
+  }
+}
+
+O-VIdViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoO-VId
+      \set Score.currentBarNumber = #102
+      \markGiugnoIVa
+    \repeat volta 2 {
+      h'8( cis) d( \hA cis) d4
+      d,2.\trill
+      e'8( fis) g( fis) g4
+      g,2.\trill %105
+      a'8 h c4 a
+      g( fis) e
+      d16( e fis g) a8( fis) c4
+      \grace c8 h2 r4
+      a( h) c %110
+      \tuplet 3/2 4 { e8 d c } \grace c h2
+      h4( cis) d
+      \tuplet 3/2 4 { fis8 e d } \grace d cis2
+      e8( cis) a4 g
+      fis8 d' a'4 a, %115
+      h8( g') fis( e) d( cis)
+    }
+    \alternative {
+      { \grace cis8 d2 r4 }
+      { \grace cis8 d2 r4 }
+    }
+    \repeat volta 2 {
+      \markGiugnoIVb
+      fis8( g) a( g) a4
+      c,!2.\trill %120
+      d,8( a') \grace d, c2\trill
+      h r4
+      g'8( d') g2
+      e8( c) h4 a
+      d,8( c') h( a) g( fis) %125
+    }
+    \alternative {
+      { g2 r4 }
+      { g2 r4\fermata }
+    } \bar "||" %127 finis
+  }
+}
+
+O-VIeViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/8 \tempoO-VIe
+      \set Score.currentBarNumber = #128
+      \markGiugnoV
+    \repeat volta 2 {
+      g'16\fE a h8 g
+      a16( g) a8 d
+      h16( a) g8 e %130
+      fis16( e) fis8 r
+      g16\p a h8 g
+      a16( g) a8 d
+      h16( a) g8 e
+      fis16( e) fis8 r %135
+      e16\f fis g8 a
+      d, fis' g
+      e16( d) c8 a
+      h16 a g a h cis
+      d(\p cis) d8 e %140
+      a, h16 cis d8
+      r d\f e
+      a, h16 cis d8
+      r d e~
+      e d16 cis d8~ %145
+      d c16 h c8~
+      c h16 a h8~
+      h a16 g a8~
+      a g d'
+      e c a %150
+      \grace g fis4 a8
+      h cis d
+      a4 a8\p
+      h cis d
+      a4 a8\f %155
+      h cis d
+      e fis g
+      fis16 e d8 cis
+      d4 a8\p
+      h cis d %160
+      e fis g
+      fis16 e d8 cis
+      d4 r8
+    }
+    \repeat volta 2 {
+      d16\f e fis8 g
+      a h c! %165
+      d g, f
+      e8. g16 a h
+      c8 f, e
+      dis8. fis16 g a
+      h8 e, d %170
+      c d e
+      f a, gis
+      a4 e'8\p
+      f a, gis
+      a4 r8 %175
+      a'\f d, c
+      h4 d8
+      e c a
+      \grace g fis4 a8
+      h cis d %180
+      a4 a8\p
+      b cis d
+      a4 d8\f
+      e fis g
+      d4 d8\p %185
+      e fis g
+      d4 d8\f
+      e fis g
+      a h c
+      h16 a g8 fis %190
+      g4 d,8\p
+      e fis g
+      a h c
+      h16 a g8 fis
+    }
+    \alternative {
+      { g4 r8 } %195
+      { g4 r8\fermata }
+    } \bar "|." %196 finis
+  }
+}

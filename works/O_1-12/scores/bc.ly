@@ -170,7 +170,7 @@
     }
   }
   \bookpart {
-    \section "O.4" "L’Apríle, im April"
+    \section "O.4" "L’Aprìle, im April"
     \addTocEntry
     \paper { system-count = #6 }
     \score {
@@ -273,6 +273,61 @@
       <<
         \new Staff { \O-VeContinuo }
         \new FiguredBass { \O-VeBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "O.6" "Il Giùgno, im Brachmonat"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-VIaContinuo }
+        \new FiguredBass { \O-VIaBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper { system-count = #2 }
+    \score {
+      <<
+        \new Staff { \O-VIbContinuo }
+        \new FiguredBass { \O-VIbBassFigures }
+      >>
+    }
+    \markup { \vspace #3 \fontsize #2 \fill-line { "" "Da Capo la prima Parte. Allora ſi Comincia al fine retrogrado ſin al principio." "" } }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \paper { system-count = #5 }
+    \score {
+      <<
+        \new Staff { \O-VIcContinuo }
+        \new FiguredBass { \O-VIcBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \O-VIdContinuo }
+        \new FiguredBass { \O-VIdBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \O-VIeContinuo }
+        \new FiguredBass { \O-VIeBassFigures }
       >>
     }
   }

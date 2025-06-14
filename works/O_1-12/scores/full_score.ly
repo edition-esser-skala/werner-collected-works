@@ -430,7 +430,7 @@
     }
   }
   \bookpart {
-    \section "O.4" "L’Apríle, im April"
+    \section "O.4" "L’Aprìle, im April"
     \addTocEntry
     \score { %\articulate
       <<
@@ -722,6 +722,154 @@
       >>
       \layout { }
       \midi { \tempo 4 = 140 }
+    }
+  }
+  \bookpart {
+    \section "O.6" "Il Giùgno, im Brachmonat"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-VIaViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-VIaViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-VIaContinuo
+          }
+        >>
+        \new FiguredBass { \O-VIaBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 120 }
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-VIbViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-VIbViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-VIbContinuo
+          }
+        >>
+        \new FiguredBass { \O-VIbBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 120 }
+    }
+    \markup { \vspace #3 \fontsize #2 \fill-line { "" "Da Capo la prima Parte. Allora ſi Comincia al fine retrogrado ſin al principio." "" } }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-VIcViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-VIcViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-VIcContinuo
+          }
+        >>
+        \new FiguredBass { \O-VIcBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 60 }
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-VIdViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-VIdViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-VIdContinuo
+          }
+        >>
+        \new FiguredBass { \O-VIdBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 120 }
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-VIeViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-VIeViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-VIeContinuo
+          }
+        >>
+        \new FiguredBass { \O-VIeBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4. = 70 }
     }
   }
 }

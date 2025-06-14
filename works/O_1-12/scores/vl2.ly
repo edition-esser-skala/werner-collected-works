@@ -158,7 +158,7 @@
     }
   }
   \bookpart {
-    \section "O.4" "L’Apríle, im April"
+    \section "O.4" "L’Aprìle, im April"
     \addTocEntry
     \paper { system-count = #7 }
     \score {
@@ -250,6 +250,57 @@
     \score {
       <<
         \new Staff { \O-VeViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "O.6" "Il Giùgno, im Brachmonat"
+    \addTocEntry
+    \paper { page-count = #1 }
+    \score {
+      <<
+        \new Staff { \O-VIaViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper { system-count = #3 }
+    \score {
+      <<
+        \new Staff { \O-VIbViolinoII }
+      >>
+    }
+    \markup { \vspace #3 \fontsize #2 \fill-line { "" "Da Capo la prima Parte. Allora ſi Comincia al fine retrogrado ſin al principio." "" } }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \O-VIcViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \O-VIdViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \O-VIeViolinoII }
       >>
     }
   }
