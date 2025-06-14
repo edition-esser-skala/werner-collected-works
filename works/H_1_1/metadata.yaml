@@ -1,0 +1,25 @@
+title: Vesperæ de Confessore
+subtitle: Dixit Dominus · Confitebor · Beatus vir · \\Laudate pueri · Laudate Dominum · Magnificat
+id: WerW H.1.1
+genre: vespers
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.88
+    rism: 530002141
+    url: https://copia.oszk.hu/kotta/vesperae-de-confessore-in-a-moll/
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 15 & vl 2 & 5th \sixteenthNote\ in \A1: c″16 \\
+  2 & 54 & vlne & 1st \quarterNote\ in \A1: f4 \\
+    & 58 & B    & 2nd \quarterNote\ in \A1: g4 \\
+  3 & 49 & vl 1 & rhythm of 6th \eighthNote\ in \A1:
+                  tuplet of \sixteenthNote \\
+    & 50 & vlne & 4th/5th \eighthNote\ in \A1: \flat b8–a8 \\
+  5 & 19 & vl 2 & 3rd \eighthNote\ in \A1: e′8 \\
+  6 & 32 & vlne & 2nd \quarterNote\ in \A1: d4; 4th \quarterNote: e4 \\
+    & 33 & vlne & 4th \eighthNote\ in \A1: e8 \\
