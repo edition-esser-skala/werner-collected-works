@@ -5,7 +5,6 @@ I-I-IBasso = {
     \clef bass
     \key c \major \time 4/2 \tempoI-I-Ia \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
-      \markTimeSig #'(4 2)
     c1 d
     e f
     g2 g a1
@@ -16,7 +15,7 @@ I-I-IBasso = {
     d2 g d1
     g, r2 g'
     g g4 g c g e c %10
-    g'2 g, r4 gis' e gis
+    g'2 g, r4 gis' e \hA gis
     a e c a e'2 r4 e
     a2. f4 d2. h4
     g! g'2 e4 c c2 a4

@@ -5,7 +5,6 @@ I-I-IOrgano = {
     \clef bass
     \key c \major \time 4/2 \tempoI-I-Ia
       \set Staff.timeSignatureFraction = 2/2
-      \markTimeSig #'(4 2)
     c1 d
     e f
     g a
@@ -16,7 +15,7 @@ I-I-IOrgano = {
     d2 g d1
     g, r2 g'
     g g4 g c g e c %10
-    g'2 g, r4 gis' e gis
+    g'2 g, r4 gis' e \hA gis
     a e c a e'2 r4 e
     a2. f4 d2. h4
     g! g'2 e4 c c2 a4
@@ -65,8 +64,8 @@ I-I-IBassFigures = \figuremode {
   r <6>
   <7 _+> <4>2 <_+>
   r\breve
-  r1. <[6]>2 %10
-  r1 r4 \bo <[6]>2.
+  r1. \bo <[6]>2 %10
+  r1 r4 <6>2.
   r4 <_+> \bc <[6]>2 <_+>1
   r\breve
   r
@@ -79,7 +78,7 @@ I-I-IBassFigures = \figuremode {
   r \bo <[6]>1 <_+>2
   r \bc <[6]>1 <6>2
   <4 2[!]> <6> <7> <6\\>
-  r1 <6\\>2 \bo <[_!]>
+  r1 q2 \bo <[_!]>
   \bc <[6]>1 <4>2 <_+> %25
   r1 <6 5>
   <6 4>2 <5 3>1.

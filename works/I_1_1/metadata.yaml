@@ -4,13 +4,19 @@ genre: antiphon
 scoring: S, A, T, B (coro), 2 vla, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.160
+    rism: 530002053
+    url: https://copia.oszk.hu/kotta/alma-redemptoris-in-c-dur/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: H 6
     rism: 600038476
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/401.html
     license: public domain
-    principal: true
   D1:
     siglum: A-Ed
     shelfmark: H 8
@@ -18,4 +24,4 @@ sources:
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/403.html
     license: public domain
 toe: |
-  29 & org & treble ottavo clef added by editor \\
+  29–31 & org & treble ottavo clef added by editor \\

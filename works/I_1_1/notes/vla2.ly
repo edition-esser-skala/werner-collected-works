@@ -5,7 +5,6 @@ I-I-IViolaII = {
     \clef treble
     \key c \major \time 4/2 \tempoI-I-Ia
       \set Staff.timeSignatureFraction = 2/2
-      \markTimeSig #'(4 2)
     e2 e f2. f4
     e f g e a2. a4
     g2 h e, a
@@ -13,11 +12,11 @@ I-I-IViolaII = {
     c2. h4 a2. g8 f %5
     e4 e2 g4 a1
     d,2 d g g
-    fis4 fis g1 fis2
+    fis4 fis g1 \hA fis2
     g1 r2 d
     d g4 g g1 %10
     g2 r r h
-    a4 gis a2 gis4 h gis e
+    a4 gis a2 \hA gis4 h \hA gis e
     r e c a r a' f d
     r d h g! r g' e c
     r c a f d'2 c~ %15
@@ -31,8 +30,8 @@ I-I-IViolaII = {
     g!2 g g fis
     g4 g2 g4 g g f f
     e e f f e1 %25
-    d2 f1 e2~
-    e4 d d2 r h'4 h
+    d2 f1 e2
+    e4( d) d2 r h'4 h
     g2 h r h4 h
     g g h2 h, c
     d e4 g f a g f %30

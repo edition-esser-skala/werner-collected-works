@@ -5,7 +5,6 @@ I-I-ITenore = {
     \clef "treble_8"
     \key c \major \time 4/2 \tempoI-I-Ia \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
-      \markTimeSig #'(4 2)
     g2 c a h
     c1. d2
     d2. c8[ h] c4 e d c
