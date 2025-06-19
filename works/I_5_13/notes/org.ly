@@ -24,7 +24,7 @@ I-V-XIIIOrgano = {
     d cis d h
     c4. c8 a a h4
     << {
-      g8^\markup \remark "vlne" g' fis e h2 %15
+      g8^\vlne g' fis e h2 %15
       e
     } \\ {
       g,4_\org fis8 e h'2 %15

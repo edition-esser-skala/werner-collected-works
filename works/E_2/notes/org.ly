@@ -15,7 +15,7 @@ E-IIOrgano = {
     e d cis h a e' r4
     a,8 a' fis h gis e dis h %10
     e a h h, e\fE e'16 dis e8 a,
-    r e16 dis << { e8^\markup \remark "vlne" a gis a h h, } \\ { e8_\org a, gis a h h } >>
+    r e16 dis << { e8^\vlne a gis a h h, } \\ { e8_\org a, gis a h h } >>
     e, e'16\pE fis gis8 a h a gis fis
     e fis gis e a, a' gis fis
     e e' gis, e a fis h gis %15
@@ -41,7 +41,7 @@ E-IIOrgano = {
     e d cis h a e' r4 %35
     a,8 a' fis h gis e dis h
     e a h h, e\fE e'16 dis e8 a,
-    r e16 dis << { e8^\markup \remark "vlne" a gis a h h, } \\ { e8_\org a, gis a h h } >>
+    r e16 dis << { e8^\vlne a gis a h h, } \\ { e8_\org a, gis a h h } >>
     e, e'16\pE fis gis8 a h a gis fis
     e fis gis e a, a' gis fis %40
     e e' gis, e a fis h gis
@@ -67,7 +67,7 @@ E-IIOrgano = {
     e d cis h a e' r4
     a,8 a' fis h gis e dis h
     e a h h, e\fE e'16 dis e8 a,
-    r e16 dis << { e8^\markup \remark "vlne" a gis a h h, } \\ { e8_\org a, gis a h h } >>
+    r e16 dis << { e8^\vlne a gis a h h, } \\ { e8_\org a, gis a h h } >>
     e, e'16\pE fis gis8 a h a gis fis %65
     e fis gis e a, a' gis fis
     e e' gis, e a fis h gis

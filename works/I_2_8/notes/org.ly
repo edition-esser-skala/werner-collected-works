@@ -7,9 +7,9 @@ I-II-VIIIOrgano = {
     \mvTr a4\pE-\solo c8 e a,4 r8 e'
     a4 e a,8 h c e
     f4 e d c
-    << { a8^\markup \remark "vlne" h c a' fis g d d, } \\ { a'_\org h c a fis g d' d, } >>
+    << { a8^\vlne h c a' fis g d d, } \\ { a'_\org h c a fis g d' d, } >>
     g g' fis d h e d g %5
-    << { \once \override TextScript.X-offset = #-3 e^\markup \remark "vlne" c' h g } \\ { e_\org c h <g g'> } >> c c' f, a
+    << { \once \override TextScript.X-offset = #-3 e^\vlne c' h g } \\ { e_\org c h <g g'> } >> c c' f, a
     g d h g c c' gis a
     e e' gis, e a, a'4 fis8
     dis h e a, h a h h

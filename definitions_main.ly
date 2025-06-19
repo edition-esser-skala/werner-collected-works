@@ -19,6 +19,7 @@ incipitVlIISoprano = \incipit "II" "soprano" #-16.4 #-0.8
 incipitVlIIAlto = \incipit "II" "alto" #-16.4 #-0.8
 ignoreMelismas = \set ignoreMelismata = ##t
 obeyMelismas = \unset ignoreMelismata
+vlne = \markup \remark "vlne"
 
 extendLV = #(define-music-function
   (parser location further)

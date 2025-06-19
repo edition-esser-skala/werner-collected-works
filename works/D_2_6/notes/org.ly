@@ -148,7 +148,7 @@ D-II-VIOrgano = {
     g e g %115
     a f a
     h g h
-    << { c^\org } \\ { c,_\markup \remark "vlne" } >> e g
+    << { c^\org } \\ { c,_\vlne } >> e g
     c r r
     a, c e %120
     a r r

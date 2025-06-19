@@ -312,7 +312,7 @@ D-III-IIIcOrgano = {
       \unset Staff.timeSignatureFraction
       a'1^\aTre gis2 \noBreak
     a2. g4 f e %35
-    << { d'2~^\org d } \\ { d,_\markup \remark "vlne" d' } >> cis
+    << { d'2~^\org d } \\ { d,_\vlne d' } >> cis
     d d, g
     f! e1
     f2 a b

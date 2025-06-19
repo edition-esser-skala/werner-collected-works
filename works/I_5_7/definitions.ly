@@ -1,7 +1,5 @@
 \version "2.24.0"
 
-vlne = \markup \remark "vlne"
-
 tempoI-V-VII-SubTuum = \tempoMarkup "Alla breve moderato"
 tempoI-V-VII-Domina = \tempoMarkup "Allegro"
 

@@ -12,7 +12,7 @@ D-I-XIIIOrgano = {
       c!^\org c' h a %5
       g8 a h a h h,
     } \\ {
-      c8_\markup \remark "vlne" h16 a
+      c8_\vlne h16 a
       g8 a h a h h
     } >>
     e g16 fis e8 e16 d! c8 d

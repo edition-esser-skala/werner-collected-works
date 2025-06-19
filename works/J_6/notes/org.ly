@@ -29,10 +29,10 @@ J-VIOrgano = {
     g g' h g c c, c' h \noBreak
     a a a a g4 g, \bar "||"
     \tempoJ-VIb s1 \noBreak %25
-    << { g'2^\org fis } \\ { g8_\markup \remark "vlne" g g g fis \hA fis fis4 } >>
+    << { g'2^\org fis } \\ { g8_\vlne g g g fis \hA fis fis4 } >>
     R1\fermata
     \clef treble << { a'2~ a } \\ { r <fis dis> } >>
-    \clef bass << { c2^\org h } \\ { c,8_\markup \remark "vlne" c c c h h h4 } >>
+    \clef bass << { c2^\org h } \\ { c,8_\vlne c c c h h h4 } >>
     R1\fermata %30
     \clef treble << { f''2~ f } \\ { r h, } >>
     \clef bass gis8 gis gis gis a a a g

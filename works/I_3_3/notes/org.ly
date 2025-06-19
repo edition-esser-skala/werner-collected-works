@@ -46,7 +46,7 @@ I-III-IIIOrgano = {
     f \mvTr g\pE-\solo a
     b f r8 \mvTr f'\fE-\tutti %40
     b4 f \mvTr fis\pE-\solo
-    g << { es'!^\org c d2 } \\ { es,!4_\markup \remark "vlne" c d2 } >>
+    g << { es'!^\org c d2 } \\ { es,!4_\vlne c d2 } >>
     r8 \mvTr d\fE-\tutti
     g4 d \mvTr g8\pE-\solo f!
     es d c4 h %45

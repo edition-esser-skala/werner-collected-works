@@ -7,7 +7,7 @@ E-IIIaOrgano = {
     \mvTr b'8\fE-\soloE b f f \bar "S-S"
     g g d d
     es es f f
-    << { b,4^\org } \\ { b8[_\markup \remark "vlne" b'] } >> d,8 b
+    << { b,4^\org } \\ { b8[_\vlne b'] } >> d,8 b
     f'8. c16 a8 f %5
     b4 r
     c r
@@ -24,7 +24,7 @@ E-IIIaOrgano = {
     b,8\pE b f' f
     g g d d
     es c f f, %20
-    << { b4^\org } \\ { b8[_\markup \remark "vlne" b'] } >> d,8 b
+    << { b4^\org } \\ { b8[_\vlne b'] } >> d,8 b
     a d g, c
     f, f' a, f
     b4 r8 h
