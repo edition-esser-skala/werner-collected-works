@@ -24,7 +24,7 @@ I-II-IVTenore = {
       \mvTr cis2~\pE^\solo cis4. his8 \noBreak
     cis2 r8 cis cis d! %45
     e!([ cis)] d h cis4 cis
-    r8 \mvTr cis\fE^\tuttiE cis cis cis([ d)] d4
+    r8 \mvTr cis\fE^\tutti cis cis cis([ d)] d4
     r8 h h h h([ c)] c d
     c a4 h8 c4( dis) \noBreak
     e2 r\fermata \bar "||" %50

@@ -27,15 +27,15 @@ I-II-IVViolinoII = {
     r2 r8 h'\fE d fis
     gis,!4 r r8 a4 gis8
     a h c h a gis! a4~ \noBreak
-    a gis! r2\fermata \bar "||" %50
+    a8 gis! gis4 r2\fermata \bar "||" %50
     \tempoI-II-IVd R1*2
-    e4. e8 fis gis a4~
-    a8 gis gis4 r fis
-    e8 h e4. dis16 cis dis4\trill %55
+    e4. e8 fis gis a4
+    a8( gis) gis4 r fis
+    e8 h e4. dis16 cis \hA dis4\trill %55
     e r cis4. cis8
-    d e fis4 fis8( e) e4
+    d! e fis4 fis8( e) e4
     r2 e4. e8
-    fis gis a4~ a8 gis gis h
+    fis gis a4 a8( gis) gis h
     a h16 a gis8 fis e4 e %60
     e2\trill e4 e
     fis e fis2~

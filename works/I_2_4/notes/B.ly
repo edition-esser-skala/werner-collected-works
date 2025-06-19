@@ -21,7 +21,7 @@ I-II-IVBasso = {
     R2\fermata \bar "||"
     \time 4/4 \tempoI-II-IVc \newSpacingSection
       R1*3 %46
-    r8 \mvTr e'\fE^\tuttiE e e e([ d)] d4
+    r8 \mvTr e'\fE^\tutti e e e([ d)] d4
     r8 d d d d([ c)] c h
     a4 a'8 g f2 \noBreak
     e r\fermata \bar "||" %5ß

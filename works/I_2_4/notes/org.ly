@@ -14,14 +14,14 @@ I-II-IVOrgano = {
     e,4 \mvTr e'2\fE-\tutti
     a4 e8 r r e
     a,4 a'2
-    d,4 a8 r r4 %10
-    d r r
+    d,4 a8 r r a %10
+    d4 r r
     e r r
     fis4. fis8 cis4
     d e2
     a,4 r r %15
     a r r \noBreak
-    a2.\fermata \bar "||"
+    a r r\fermata \bar "||"
     \twofourtime \time 2/4 \tempoI-II-IVb \newSpacingSection
       \mvTr e'8\pE-\solo e'16 dis e8 e, \noBreak
     r e'16 dis e8 e,
@@ -52,17 +52,17 @@ I-II-IVOrgano = {
     \time 4/4 \tempoI-II-IVc \newSpacingSection
       \mvTr cis'2~\pE-\solo cis~ \noBreak
     cis4. h!8 a2~ %45
-    \once \tieDashed a~ a
+    a~ a
     r8 \mvTr e'\fE-\tutti e e e( d) d4
-    r8 d d d d c c h
+    r8 d d d d( c) c h
     a4. g8 f2 \noBreak
     e r\fermata \bar "||" %50
     \clef "treble_8" \tempoI-II-IVd
       a'4.-! a8-! h-! cis!-! d4-! \noBreak
-    << { a'4. a8 h cis d4 } \\ { d,8 cis cis4 r h } >>
+    << { a'4. a8 h cis d4 } \\ { d,8( cis) cis4 r h } >>
     a4. gis8 fis2
     \clef bass e4. e8 fis gis a4
-    a8 gis gis4 fis2 %55
+    a8( gis) gis4 fis2 %55
     e8 d! cis h a4 \clef treble << {
       a''
       h8 cis d4

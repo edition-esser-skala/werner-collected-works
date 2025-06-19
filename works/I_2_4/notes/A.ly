@@ -6,8 +6,8 @@ I-II-IVAlto = {
     \key a \major \time 3/4 \tempoI-II-IVa \autoBeamOff
       \once \override Staff.TimeSignature.style = #'single-digit
     \mvTr cis4\pE^\solo \tuplet 3/2 4 { cis8([ d e)] d([ cis h)] }
-    cis8.[(\trillE h16)] \tuplet 3/2 4 { cis8([ d e)] d([ cis h)] }
-    cis8.[(\trillE h16)] cis4 a'~
+    cis8.[(\trill h16)] \tuplet 3/2 4 { cis8([ d e)] d([ cis h)] }
+    cis8.[(\trill h16)] cis4 a'~
     a8[ gis] gis4 fis~
     fis8 e16([ dis)] e4 e~ %5
     e8 fis \appoggiatura e4 dis2\trill
@@ -29,16 +29,16 @@ I-II-IVAlto = {
       r8 \mvTr eis\pE^\soloE eis fis gis([ eis)] fis dis \noBreak
     eis4 eis r8 e e fis %45
     g([ e)] fis d e4 e
-    r8 \mvTr g\fE^\tuttiE g g g([ fis)] fis4
+    r8 \mvTr g\fE^\tutti g g g([ fis)] fis4
     r8 f f f f([ e)] e d
     e4 e8 e f4( a,) \noBreak
     h2 r\fermata %50
     \tempoI-II-IVd R1*2
     e4. e8 fis([ gis)] a4
     a8([ gis)] gis4 r fis
-    e8 h e4.( dis16[ cis] dis4)\trill %55
+    e8 h e4.( dis16[ cis] \hA dis4)\trill %55
     e4 r cis4. cis8
-    d([ e)] fis4 fis8([ e)] e4
+    d!([ e)] fis4 fis8([ e)] e4
     r2 e4. e8
     fis([ gis)] a4 a8([ gis)] gis h
     a[( h16 a] gis8[ fis)] e4 e %60

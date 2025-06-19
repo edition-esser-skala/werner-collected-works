@@ -10,7 +10,7 @@ I-II-IVSoprano = {
     a8.([\trill gis16)] a4 cis~
     cis8[ h] h4.( a8)
     gis4 gis8 a h([ e)] %5
-    \tuplet 3/2 4 { cis([ h a)] } \appoggiatura gis4 fis2\trillE
+    \tuplet 3/2 4 { cis([ h a)] } \appoggiatura gis4 fis2\trill
     e4 \mvTr e'\fE^\tutti h
     cis h8 r r4
     r cis cis
@@ -26,7 +26,7 @@ I-II-IVSoprano = {
     gis16([ fis] gis4) a8
     h16([ a] \once \stemUp h4) cis16([ dis)] %20
     e8 e, r4
-    cis'16[( dis cis dis] e8) h
+    cis'16[( dis cis \hA dis] e8) h
     a16(_[ h a h] cis8) gis
     fis16([ gis fis gis] a8) e
     e16([ dis)] dis8 r4 %25
@@ -38,12 +38,12 @@ I-II-IVSoprano = {
     h cis\trill
     dis8 \tuplet 3/2 8 { e16([ dis cis)] } \appoggiatura h8 ais4\trill
     h r
-    gis16([ a gis a] \once \stemUp h8) d,!
+    gis16([ a! gis a] \once \stemUp h8) d,!
     d16([ cis)] cis8 r4 %35
     a'16([ h a h] \once \stemUp cis8) e,
     e16([ dis)] dis8 h' h
     h2~\trill
-    h4 h16([ cis] \tuplet 3/2 8 { dis[ cis \hA dis)] }
+    h4~ h16[ cis] \tuplet 3/2 8 { dis[( cis \hA dis)] }
     e([ h)] cis([ e,)] \appoggiatura gis8 fis4\trill %40
     e r
     R2 \noBreak
