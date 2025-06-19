@@ -1,15 +1,19 @@
 title: Regina cœli
 id: WerW I.3.1
 genre: antiphon
-scoring: S, A, T, B (coro), 2 vl, b, org
+scoring: S, A, T, B (coro), 2 vla, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.189
+    rism: 530002082
+    url: https://copia.oszk.hu/kotta/regina-coeli-4/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: J 18
     rism: 600038544
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/445.html
     license: public domain
-    principal: true
-toe: |
-  – & – & In \B1, bars with two or four half notes are inconsistent between voices.\newline Thus, all bars comprise two half notes in this edition. \\
