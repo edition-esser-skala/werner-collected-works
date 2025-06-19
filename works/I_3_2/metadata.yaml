@@ -1,0 +1,19 @@
+title: Regina cœli
+id: WerW I.3.2
+genre: antiphon
+scoring: A (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.190
+    rism: 530002083
+    url: https://copia.oszk.hu/kotta/regina-coeli-in-c-6/
+    license: public domain
+    principal: true
+toe: |
+  – & – & \A1 contains two different tempo indications,
+          both of which are not by Werner:
+          First, “Larghetto” was added to B, vl 1/2, and org in pencil.
+          Second, it was crossed out and replaced by “Allegretto”,
+          which was also added to the remaining parts. \\
