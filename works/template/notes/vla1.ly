@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-I-I-IIIViolaI = {
+xxxViolaI = {
   \relative c' {
     \clef treble
 
