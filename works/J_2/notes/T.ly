@@ -19,7 +19,7 @@ J-IITenore = {
     c h2
     c r4
     R2. %15
-    r4 \mvTr a\pE^\solo a
+    r4 \mvTr a\pE^\solo^\aTre a
     gis2 gis4
     r a a
     e'4. e8 e4
@@ -88,7 +88,7 @@ J-IITenore = {
     e) d16 c h8. c16 c4 r \noBreak %90
     R1\fermata \bar "||"
     \time 3/4 \tempoJ-IIe \newSpacingSection
-      \mvTr e2\pE^\markup \remark "Solo a 3" e4 \noBreak
+      \mvTr e2\pE^\solo^\aTre e4 \noBreak
     h4. h8 h4
     cis2.
     h2 h4 %95
@@ -117,7 +117,7 @@ J-IITenore = {
     a4 g2
     a4 a a
     e' e8 e a, a %120
-    cis4 e cis
+    cis4 e \hA cis
     a4. a8 h!4
     gis4. gis8 gis4
     a2( gis4) \noBreak
@@ -229,7 +229,7 @@ J-IITenore = {
     d2. c4 h c8[ d]
     e2. d4 c d8[ e] %245
     f4 d e2. e4
-    c c2 b4 a b8([ c)]
+    c c2 b4 a \hA b8([ c)]
     d2. c4 b c8[ d]
     e2. d4 c d8[ e]
     f4 a, h! c d c %250

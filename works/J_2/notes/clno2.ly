@@ -116,7 +116,7 @@ J-IIClarinoII = {
     R1.*3 %241
     r2 g, g
     g1 r2
-    R1.*6_\critnote %249
+    R1.*6 %249
     r2 r4 c d c %250
     g2 g g
     g g g4 g

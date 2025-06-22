@@ -39,7 +39,7 @@ J-IIClarinoI = {
     R1.*2 %51
     e'2 f4 g~ \tuplet 3/2 4 { g8 a g } f[ e]
     d g f e d g e4 c8 d e4~
-    e d8 e f2 e4 d
+    e d8 e f4~ f e d
     c2 d8.\trill c32( d) e4 e, r %55
     R1.
     r2 r4 r e'8 f g4~
@@ -47,7 +47,7 @@ J-IIClarinoI = {
     g2 f4 e f8 e f g
     a2 a4 g8 a g f e4 %60
     f8 e d2 c r4
-    g'8( a) a4.\trill g16 a h2 r4
+    g'8( a) a4.\trill g16( a) h2 r4
     R1.
     a8 h h4.\trill a16 h c4 e,8 f g4~
     g f e d \pa g8 f e g %65
@@ -130,7 +130,7 @@ J-IIClarinoI = {
     R1.*3 %241
     \pa r4 d, e f g f
     e2 r r \pd
-    R1.*6^\critnote %249
+    R1.*6 %249
     \pa r4 c d e f e %250
     d1.
     e4 f g1

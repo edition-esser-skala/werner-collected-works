@@ -10,7 +10,7 @@ J-IIViolinoII = {
     h' g d h h' g d h h' g d h
     g' e c g g' e c g g' e c g %5
     a' f c a a' f c a a' f c a
-    a' fis d a a' fis d a a' fis d a
+    a' fis d a a' \hA fis d a a' \hA fis d a
     h' g d h h' g d h h' g d h
     c' g e c c' g e c c' g e c
     c' a e c c' a e c c' a e c %10
@@ -18,14 +18,14 @@ J-IIViolinoII = {
     h' g d h h' g d h h' g d h
     c' g e c g' d h g h' g d h
     c' g e c g' e c g e' c g e
-    c4 r8 e\p gis' e %15
-    a16 e c a a' e c a a' e c a
-    h' gis e h h' gis e h h' gis e h
+    c4 r8 e\p gis' h, %15
+    a'16 e c a a' e c a a' e c a
+    h' gis e h h' \hA gis e h h' \hA gis e h
     c' a e c c' a e c c' a e c
-    h' gis e h h' gis e h h' gis e h
-    a' e cis a a' e cis a a' e cis a %20
+    h' gis e h h' \hA gis e h h' \hA gis e h
+    a' e cis a a' e \hA cis a a' e \hA cis a %20
     a' f d a a' f d a a' f d a
-    e' h gis e e' h gis e e' h gis e
+    e' h gis e e' h \hA gis e e' h \hA gis e
     e' c a e e' c a e e' c a e
     f' d a f e' h gis e h'' gis e h
     c'\f a e c c' a e c c' a e c %25
@@ -77,8 +77,8 @@ J-IIViolinoII = {
     g'8 e, r h' fis' h,, r h'
     e e,16 fis g8 a h h,16 cis dis8 h
     e a h h, e16 h' g' h, fis' h, e8
-    d! h, r fis' cis' fis, r fis' %75
-    d h,16 cis d8 e fis gis ais fis
+    d! h, r fis' cis' \hA fis, r fis' %75
+    d h,16 cis d8 e fis gis ais \hA fis
     h h,4 ais8 h4 r8 h''
     e, e,4 c'!8 h fis gis e
     a16 a, e' fis gis e a e h'8 a' g! h,
@@ -144,7 +144,7 @@ J-IIViolinoII = {
     r8 c e c g' c,
     a f' a f c' a
     f d a' f d d'
-    cis a e' cis d a
+    cis a e' \hA cis d a
     b g f d' e, cis' %175
     d d, f a d a
     h! g d' g, e g

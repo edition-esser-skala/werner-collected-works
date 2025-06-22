@@ -5,24 +5,21 @@ scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.259
+    rism: 530002134
+    url: https://copia.oszk.hu/kotta/te-deum-laudamus-in-c-2/
+    license: public domain
+    principal: true
+  B2:
     siglum: A-Ed
     shelfmark: C 5
     rism: 600038246
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/72.html
     license: public domain
-    principal: true
-extra_abbreviations:
-  vlne:
 parts:
   clno12: Clarino I, II in C
 toe: |
-  –   & clno      & denoted as “ad libitum” in \B1 \\
-  37  & B         & 1st \eighthNote\ in \B1: \flat B8 \\
-  40  & vl 2      & 1st \halfNote\ in \B1: d′4.–d′8 \\
-  41–68 & –       & In \B1, half-measure rests are generally
-                    written as \halfNoteRest, \newline which is here
-                    resolved to \halfNoteRest\ \crotchetRest. \\
-  90  & org, vlne & 6th \eighthNote\ in \B1: b8 \\
-  215 & B         & 1st \wholeNote\ in \B1: B1 \\
-  244ff & clno 1  & one full-measure rest missing in \B1 \\
-  255 & clno 1    & bar in \B1: g″1. \\
+  –   & clno   & denoted as “ad libitum” in \B1 and \B2 \\
+  40  & vl 2   & 1st \halfNote\ in \B1 and \B2: d′4.–d′8 \\
+  255 & clno 1 & bar in \B1 and \B2: g″1. \\

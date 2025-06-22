@@ -32,7 +32,7 @@ J-IIBasso = {
     es d8([ c)] h2
     c f! %35
     c d
-    g,8^\critnote g'4 f8 es4 e8 e
+    g,8 g'4 f8 es4 e8 e
     f2( b,!4) es
     b b8 as g4 g \noBreak
     fis4. fis8 g2\fermata \bar "||" %40
@@ -157,7 +157,7 @@ J-IIBasso = {
     d e8([ f)] g2. f4
     e f8[ g] a2. g4
     fis g d1
-    g,^\critnote r2 %215
+    g, r2 %215
     r c c
     f2. e4 d e8([ f)]
     g2. f4 e d

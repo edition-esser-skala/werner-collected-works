@@ -19,7 +19,7 @@ J-IIOrgano = {
     c g g,
     c c c
     c \mvTr c'\pE-\solo h %15
-    a \clef "treble_8" a a
+    a \clef "treble_8" a^\aTreE a
     gis gis gis
     a a a
     e' e e
@@ -38,7 +38,7 @@ J-IIOrgano = {
     \key c \dorian \time 4/4 \tempoJ-IIb \newSpacingSection
     << {
       g'4. g8 es'4 c \noBreak
-      r as2 g4
+      r \hA as2 g4
       fis2
     } \\ {
       r2 c4. c8 %32
@@ -56,17 +56,17 @@ J-IIOrgano = {
     g-! a-! h-! c-! c,-! f~-!
     f e f d g e
     h c d e2 a4
-    d, e f!2 e4 d %45
+    d, e f!~ f e d %45
     c c' h8 a g2 f4
     e2 d4 c \clef "treble_8" c'8 h a4
     g \clef treble << {
       h' c d e fis %48
       g g, c2 h4 a
-      gis4. a8 h2 a4 g
-      fis4. g8 a2 g4 f?
+      gis4. a8 h4~ h a g %50
+      fis4. g8 a4~ a g f?
     } \\ {
       g4 e h c d %48
-      e2 a4 d,4. e8 \once \tieDashed f!4~
+      e2 a4 d,4. e8 f!4~
       f e d cis4. d8 e4~ %50
       e d c h4. c8 d4
     } >>
@@ -88,28 +88,28 @@ J-IIOrgano = {
     c g e c g2 \noBreak
     c1.\fermata \bar "||"
     \time 4/4 \tempoJ-IId \newSpacingSection
-      \mvTr a'8\pE-\solo c h a gis e fis gis \noBreak
+      \mvTr a'8\pE-\solo c h a gis e fis \hA gis \noBreak
     a a,16 h c8 d e fis gis e %70
     a c, d e a, a' g fis
-    e g fis e dis h16 cis dis8 h
+    e g fis e dis h16 cis \hA dis8 h
     e e,16 fis g8 a h h16 cis dis8 h
     e a h h, e, e' d cis
-    h d cis h ais fis gis ais %75
-    h h16 cis d8 e fis gis ais fis
+    h d cis h ais fis gis \hA ais %75
+    h h16 cis d8 e fis gis ais \hA fis
     h d, e fis h, h'16 a gis8 e
-    a c h a gis fis \hA gis e
+    a c! h a gis fis \hA gis e
     a c! h a g f e d
-    c c' h a gis e fis gis %80
+    c c' h a gis e fis \hA gis %80
     a c, d e a, e' a g
-    fis d e fis g a h a16 g
-    fis8 d e fis g a h a16 g
+    fis d e \hA fis g a h a16 g
+    fis8 d e \hA fis g a h a16 g
     d'8 d, e fis g a h a16 g
-    fis8 d e fis g a h fis %85
+    fis8 d e \hA fis g a h fis %85
     g h, c d g f\fE e d
     c-\tutti c' h g c e, f g
     c, c' h g c, c' h g
     c f, g g, c h c g'
-    e f g g, c a'^\critnote f g \noBreak %90
+    e f g g, c c' f, g \noBreak %90
     c,1\fermata \bar "||"
     \clef "treble_8" \time 3/4 \tempoJ-IIe \newSpacingSection
       \mvTr e'2\pE-\solo ^\tweak TextScript.X-offset #0 ^\aTre e4 \noBreak
@@ -209,9 +209,9 @@ J-IIOrgano = {
     g4. a8 h4
     c g2 %185
     c,4 c c \noBreak
-    c2 r4\fermata \bar "||"
+    << { c2 } \\ { c, } >> r4\fermata \bar "||"
     \time 4/4 \tempoJ-IIh \newSpacingSection
-      \mvTr cis1~\pE-\solo \noBreak
+      \mvTr cis'1~\pE-\solo \noBreak
     cis2 d~
     d dis %190
     e a
@@ -334,12 +334,12 @@ J-IIBassFigures = \figuremode {
   <6->4 <5> <9- 6 _+> <8 5! \t>
   <_!>4. <\t>8 <7>4 <6>8 <5[-]>
   <9 _->4 <8 \t> <9 7[-]>2
-  <6 4>4 <5 3> <7 _!> <6 4>8 <5 _!>
-  <7 5>2 <_!> %40
+  <6 4>4 <5 3> <7 _!> <6- 4>8 <5 _!>
+  <7 5 [_!]>2 <_!> %40
   r1.
   r
   <2>4 <3> q <6> <3> <6>
-  <3> q <_+> \bo <[3]>2 \bc q4
+  \bo <[3]> \bc q <_+> \bo <[3]>2 \bc q4
   <7> <5> <3> <2> <6> q %45
   r2. r2 <6 4>4
   <6>2. <4>4 <3> <6\\>
@@ -364,23 +364,23 @@ J-IIBassFigures = \figuremode {
   r4 <4> <3>2. \bo <[6]>4
   r2 \bc q <4>4 <3>
   r1.
-  r2 <[6]>
-  r4. <6 5>8 <_+>2 %70
-  r4 <6 5>8 <_+> r4 <[6]>8 <6\\>
+  r2 \bo <[6 _]>
+  r4. <6 5>8 \bc <[_+ _]>2 %70
+  r4 <6 5>8 <_+>4. <[6]>8 <6\\>
   r2 <[6 _+]>
   r <[5\+] _+>
   r8 <6\\ 5> \bo <[5\+] 4> \bc <[\t] _+>4. <[6 _+]>8 <6\\>
-  <[5\+]>2 <6 [_+]> %75
+  <[5\+]>2 <6\\ [_+]> %75
   \bo <[5\+]> <5\+ _+>
-  \bc q4 <6\\ 5>8 \bo <[5\+] _+> \bc <[5\+]>4 <6 5>
+  \bc <[5\+]>4 <6\\ 5>8 \bo <[5\+] _+> \bc <[5\+]>4 <6 5>
   <_!>2 <[6]>
   r4 <6\\>2.
   r4 <6\\> <[6]>2 %80
   r4 <6 5>8 <_+> r2
   <6>1
-  \bo <[6]>
+  <[6]>
   <_+>
-  <6>2 r8 <6\\> <6> \bc <[6]> %85
+  \bo <[6]>2 r8 <6\\> <6> \bc <[6]> %85
   r4 <6 5>8 <_+>4. \bo <[6]>8 <6>
   r4 q2.
   r4 <6>2 \bc <[6]>4
@@ -421,18 +421,18 @@ J-IIBassFigures = \figuremode {
   <7 _+>2.
   <[_!]>4 <4> <_+>
   r2. %125
-  r2 <_+>
+  <_!>2 <_+>
   <6 _+> <\t 4>
   <6\\ 4 _!> <6->4 <6!>
-  <5 4> <\t 3> \bo <[5]> \bc <[6]>
+  <5 4> <\t 3> <10 9> <6 8>
   <7> <6> <7> <6-> %130
-  <7[-]> <[6]> <5 [_+]>2
+  <7- 5> <6 \t> <5 [_+]>2
   <6- 4> <5 \t>4 <\t _!>
   <7 _!> <6 4> <5 \t> <4 2>
   <7 _+> <6 4> <5- \t> <\t _!>
-  \bo <[6] 5>2 <_!> %135
-  \bc <[6\\] 4\+ 2\+> <7 [5\+] _+>4 <6 4>
-  <5[+] \t> <\t _+> <[8] _+> <7[!] \t>
+  <6 5>2 <_!> %135
+  <[6\\] 4\+ 2\+> <7 [5\+] _+>4 <6 4>
+  <5\+ \t> <\t _+> <[8] _+> <7[!] \t>
   <6 4>2 <[5] _+>
   r2.
   r %140
@@ -450,7 +450,7 @@ J-IIBassFigures = \figuremode {
   \bo <[6]>
   r
   r
-  \bc <[6]> %155
+  \bc q %155
   r4 <6 4> <5 3>
   r2.
   r
@@ -488,7 +488,7 @@ J-IIBassFigures = \figuremode {
   <7[!] _+> <6 5 [_+]> %190
   r1
   <6\\ 5>4 \bassFigureExtendersOn <6\\ 4>8 <6\\ 3> <5 _!>4 <6 _!>8 <5 _!> \bassFigureExtendersOff
-  <[6\\] 4\+ 2\+>4 <6 [_+]> <6 4> <5[+] _+>
+  <[6\\] 4\+ 2\+>4 <6 [_+]> <6 4> <5\+ _+>
   \bo <[5\+]>1
   \bc <[_!]>2 <7 _+>4 <6 4> %195
   <5 \t> <\t _+>2.
@@ -515,7 +515,7 @@ J-IIBassFigures = \figuremode {
   r
   r
   r
-  <5>4 <6> <5 4>2 <\t _+> %220
+  <5>4 <6> <8 5 4>2 <\t \t _+> %220
   r1.
   r2 <4> <_+>
   r1 <6\\>2

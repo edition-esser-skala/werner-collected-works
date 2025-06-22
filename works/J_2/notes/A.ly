@@ -19,7 +19,7 @@ J-IIAlto = {
     g g2
     g r4
     R2. %15
-    r4 \mvTr e\pE^\solo e
+    r4 \mvTr e\pE^\solo^\aTre e
     e2 e4
     r c a'
     gis4. gis8 gis4
@@ -47,7 +47,7 @@ J-IIAlto = {
       R1.*4
     r2 r4 r c d %45
     e e f g a h
-    c c, f2 e4 fis
+    c c, f~ f e fis
     g8([ d g f)] e4 h c d
     e2 a4 d,4. e8 f!4~
     f e d cis4. d8 e4~ %50
@@ -71,8 +71,8 @@ J-IIAlto = {
     g1.\fermata \bar "||"
     \time 4/4 \tempoJ-IId \newSpacingSection
       R1*6 %74
-    \mvTr fis4\pE^\solo r8 fis fis fis16 fis fis8 fis %75
-    fis4 fis r fis
+    \mvTr fis4\pE^\solo r8 \hA fis fis fis16 fis fis8 fis %75
+    fis4 fis r \hA fis
     fis8 e16([ d)] cis8. h16 h8 h e16[ f d e]
     c[ h a gis] a[ h c d] e[ fis gis a] h[ gis a h]
     c8 a r4 h,16[ g a h] c[ d e f]
@@ -89,9 +89,9 @@ J-IIAlto = {
     g8 a16 a g8. g16 g4 r \noBreak %90
     R1\fermata \bar "||"
     \time 3/4 \tempoJ-IIe \newSpacingSection
-      \mvTr g2\pE^\markup \remark "Solo a 3" g4 \noBreak
+      \mvTr g2\pE^\solo^\aTre g4 \noBreak
     fis4. fis8 h4
-    h( ais8[ gis] ais4)
+    \once \stemUp h( ais8[ gis] \hA ais4)
     h fis2 %95
     g!2 g4
     a!2 a4
@@ -196,7 +196,7 @@ J-IIAlto = {
     ais4 fis'8 e d4 cis
     h8 fis' h8. a!16 g4 r
     r8 e a8. g16 fis8 d g4~ %195
-    g8 fis16([ e)] fis8. g16 g4 r
+    g8 fis16([ e)] \hA fis8. g16 g4 r
     R1 \noBreak
     R\fermata \bar "||"
     \time 3/2 \tempoJ-IIi \newSpacingSection
@@ -243,7 +243,7 @@ J-IIAlto = {
     r fis g a h a
     r gis a h c h %245
     a h gis1
-    a4 c, d e f e
+    a4 c, d e f! e
     r d e f g! f
     r e f g a b
     a2. g4 f g8[ a] %250

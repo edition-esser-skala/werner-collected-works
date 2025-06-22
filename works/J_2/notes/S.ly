@@ -19,7 +19,7 @@ J-IISoprano = {
     e g2
     e r4
     R2. %15
-    r4 \mvTr c\pE^\solo c
+    r4 \mvTr c\pE^\solo^\aTre c
     h2 h4
     r e, c'
     h4. h8 h4
@@ -72,8 +72,8 @@ J-IISoprano = {
       \mvTr e4\pE^\solo r8 e e4. e8 \noBreak
     e4 e r8 e e e %70
     e d16([ c)] h4\trill a8 c h cis16([ dis)]
-    e8[ e,16 fis] g![ fis g a] h[ cis dis e] fis[ dis e fis]
-    g8.[ fis16] e[ dis] e([ fis)] dis8 h r fis
+    e8[ e,16 fis] g![ \hA fis g a] h[ cis dis e] fis[ dis e \hA fis]
+    g8.[ fis16] e[ dis] e([ \hA fis)] \hA dis8 h r fis
     g fis16 e dis8. e16 e4 r
     R1*12 %86
     \mvTr g'4\fE^\tutti g g8 g r4
@@ -82,14 +82,14 @@ J-IISoprano = {
     g) f16 e d8. c16 c4 r \noBreak %90
     R1\fermata \bar "||"
     \time 3/4 \tempoJ-IIe \newSpacingSection
-      \mvTr h2\pE^\markup \remark "Solo a 3" h4 \noBreak
+      \mvTr h2\pE^\solo^\aTre h4 \noBreak
     dis4. dis8 dis4
     e2.
     dis2 r4 %95
     r e h
     c!8([ d!] e4 c)
     a a2
-    b4. a8 b4
+    b4. a8 \hA b4
     a a d~ %100
     d h! c
     h h h~
@@ -207,7 +207,7 @@ J-IISoprano = {
     c d h1
     a4 e f g! a g
     r f g a b a
-    r g a b c b
+    r g a b c \hA b
     r c d e f e %250
     d2 h!4( c) d2
     e4 e d1
