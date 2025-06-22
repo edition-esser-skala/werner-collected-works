@@ -5,7 +5,7 @@ I-V-VTenore = {
     \clef "treble_8"
     \key c \major \time 2/1 \tempoI-V-Va \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
-    \mvDl c1\fE^\tutti c
+    \mvDl c1\fE^\tuttiE c
     c a2( f)
     g2. g4 c,1
     r r4 h' c d
@@ -13,7 +13,7 @@ I-V-VTenore = {
     h4.( c8 d4) c a2. a4
     h2 d4 e d g f! e
     d8([ e d c)] h2 r1
-    r2 e4 e c e a, c
+    r2 e4 d c e a, c
     a2 e' e r %10
     R\breve*3
     \mvTr h4.(\fE^\tutti c8) d4 c d h8([ c)] d4 c \noBreak

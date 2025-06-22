@@ -71,7 +71,7 @@
         \new FiguredBass { \I-V-VBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 110 } % 4 = 135
+      \midi { \tempo 2 = 100 } % 4 = 135
     }
   }
 }

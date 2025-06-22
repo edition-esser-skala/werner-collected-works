@@ -5,7 +5,7 @@ I-V-VSoprano = {
     \clef treble
     \key c \major \time 2/1 \tempoI-V-Va \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
-    \mvDl c'1\fE^\tutti c
+    \mvDl c'1\fE^\tuttiE c
     c a2( f)
     g2. g4 c,2 r
     r g' h g
@@ -29,9 +29,9 @@ I-V-VSoprano = {
     c4 r r2
     r4 c2 h4
     c4. h8 a4 d~
-    d8 c h a g4 e'~ %25
+    d8[ c] h a g4 e'~ %25
     e8[ d] c([ h)] a[ c h a]
-    gis4 a2 gis4
+    gis4 a2 \hA gis4
     a r a a
     f'4. e8 d8([ c)] h([ d)]
     g,!4( c2) a4 %30
@@ -63,7 +63,7 @@ I-V-VSopranoLyrics = \lyricmode {
   da,
   tu -- o
   fi -- li -- o, fi --
-  li -- o nos re -- _ %25
+  li -- o nos re -- %25
   prae -- sen --
   _ _ _
   ta, tu -- o

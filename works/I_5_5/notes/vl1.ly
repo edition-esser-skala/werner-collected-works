@@ -14,11 +14,11 @@ I-V-VViolinoI = {
     g2 g,2. c4 h a
     g4. a8 h[ c] d4 c f! e d
     c4. d8 e4 fis8 gis a4 e a c8 h
-    a4 a, e gis a e'\p d c %10
+    a4 a, e gis a e'\pE d c %10
     h a gis fis e8 f e d c4 c'
     d, h c d e2 f
     g!4 g' f e d16( f8.) e16( g8.) f16([ d8.) e16( c8.)]
-    d4 h8\f c d4 e d g d e \noBreak
+    d4\fE h8 c d4 e d g d e \noBreak
     d h8 c d4 e d h r2 %15
     \time 4/4 \tempoI-V-Vb \newSpacingSection
       \unset Staff.timeSignatureFraction
@@ -33,7 +33,7 @@ I-V-VViolinoI = {
     c4. h8 a4 d~
     d8 c h a g4 e'~ %25
     e8 d c h a c h a
-    gis4 a2 gis4
+    gis4 a2 \hA gis4
     a r a a
     f'4. e8 d c h d
     g,!4 c2 a4 %30

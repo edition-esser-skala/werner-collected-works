@@ -5,15 +5,15 @@ I-V-VOrgano = {
     \clef bass
     \key c \major \time 2/1 \tempoI-V-Va
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr c4\fE-\tutti d e f e f e d
-    << { c'^\critnote } \\ { c, } >> h' a g f e d c
+    \mvTr c4\fE-\tuttiE d e f e f e d
+    << { c' } \\ { c, } >> h' a g f e d c
     h a g h c d e d
     c c' h a g f e d
-    << { c'^\critnote } \\ { c, } >> h' a g fis d e fis %5
+    << { c' } \\ { c, } >> h' a g fis d e \hA fis %5
     g g, h c d c d d,
     g a h c h e d c
-    h a << { g'^\critnote } \\ { g, } >> f'! e a g f
-    e d c h << { a'^\critnote } \\ { a, } >> g'! f c
+    h a << { g' } \\ { g, } >> f'! e a g f
+    e d c h << { a' } \\ { a, } >> g'! f c
     d f e e, a2 r %10
     R\breve*3
     \mvTr g'4\fE-\tutti g,8 a h4 c h g8 a h4 c \noBreak
@@ -53,7 +53,7 @@ I-V-VOrgano = {
     d4. c8 h a g4
     c a' e f %30
     g e8 c g2
-    c r\fermata \bar "|." %32 dinis
+    c r\fermata \bar "|." %32 finis
   }
 }
 
@@ -66,15 +66,15 @@ I-V-VBassFigures = \figuremode {
   r <4>2 <_+>
   r1 r4 <6> q q
   q2. q4 q q q q
-  r2. <6\\>1 <6>4
-  r4 <[6]> <6 4> <5 _+> r1 %10
+  q2. <6\\>1 <6>4
+  r2 <6 4>4 <5 _+> r1 %10
   r\breve*3
   r1 \bo <[6]>
   \bc q\breve %15
   r1
   r2 <5 4>4 <\t 3>
   <6> q q8 q <4> <3>
-  <5 2>4 <\t \t>2.
+  <5 2>4 <[6]>2.
   r1 %20
   r
   <6>4 <3>2.

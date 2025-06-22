@@ -5,11 +5,11 @@ I-V-VBasso = {
     \clef bass
     \key c \major \time 2/1 \tempoI-V-Va \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
-    \mvDl c'1\fE^\tutti c
+    \mvDl c'1\fE^\tuttiE c
     c a2( f)
     g2. g4 c,1
     r4 c'( h a) g( f) e( d)
-    c2 r fis4( d) e( fis) %5
+    c2 r fis4( d) e( \hA fis) %5
     g( g,) h( c) d( c) d2
     g, r r1
     r2 g'4 f! e a g f

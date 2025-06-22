@@ -47,7 +47,7 @@ I-V-VAltoLyrics = \lyricmode {
   um prae --
   si -- di -- um con --
   fu -- gi -- mus,
-  \xE San -- cta \x De -- i __ %5
+  San -- cta De -- i __ %5
   Ge -- ni --
   trix,
   no -- stras de -- pre -- ca -- ti --
