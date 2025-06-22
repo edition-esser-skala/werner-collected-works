@@ -10,3 +10,9 @@ sources:
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/492.html
     license: public domain
     principal: true
+  B2:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.107
+    rism: 530002000
+    url: https://copia.oszk.hu/kotta/salve-regina-17/
+    license: public domain
