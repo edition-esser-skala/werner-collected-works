@@ -4,7 +4,7 @@ N-XVViola = {
   \relative c' {
     \clef alto
     \key g \major \time 3/4 \tempoN-XVa
-    g'2\f h8( g)
+    g'2\fE h8( g)
     d'2 h8( g)
     d2 h8( g)
     d2 r4
@@ -36,7 +36,7 @@ N-XVViola = {
     g e a %60
     d,2 r4
     R2.*24 %85
-    g2\f h8( g)
+    g2\fE h8( g)
     d'2 h8( g)
     d2 h8( g)
     d2 r4
@@ -63,13 +63,13 @@ N-XVViola = {
     fis g fis
     fis1 r2
     R1.*28 %136
-    r2 d\fE a'
+    r2 d a'
     g1 h2
     a d, fis
     h, e1 \noBreak %140
     a1.\fermata \bar "||"
     \time 3/8 \tempoN-XVc \newSpacingSection
-      g,8\f g' g \noBreak
+      g,8\fE g' g \noBreak
     g fis e
     d4 e16( cis)
     d4. %145
@@ -93,12 +93,12 @@ N-XVViola = {
     g fis e
     d h h
     h a g %165
-    fis4.~\p
+    fis4.~\pE
     fis~
     fis~
     fis4 r8
     R4.*11 %180
-    r8 g'\f g
+    r8 g'\fE g
     g fis e
     d4 e16( cis)
     d4.
@@ -116,7 +116,7 @@ N-XVViola = {
     c h a
     g a h
     c a d16( h)
-    g4.~\trill
+    g4.~
     g8 r r\fermata \bar "|." %200 finis
   }
 }

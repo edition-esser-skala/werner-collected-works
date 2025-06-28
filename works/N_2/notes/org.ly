@@ -1,33 +1,155 @@
 \version "2.24.0"
 
-N-II-Organo = {
+N-IIViolone = {
   \relative c {
     \clef bass
-    \key d \major \time 4/4 \tempoN-II-a
+    \key d \major \time 4/4 \tempoN-IIa
     \partial 8 r8 d4\fE r8 a' d,4 r8 a
-    d,4 r8 a' d2~-\tasto
+    d,4 r8 a' d2~
     d1~
-    d2 d16-\markup \remark "alla 8va" e fis d g e fis cis
+    d2~ d16 e fis d g e fis cis
     d e fis d g e fis cis d2~ %5
     d~ d8 d' cis h
     a4 e a,8 d' cis h
-    a4 e a,2~-\tastoE
+    a4 e a,2~
     a1~
     a~ %10
     a~
     a2~ a16 a32 a a16 cis a a32 a a16 e'
     a, a32 a a16 cis a a32 a a16 e' a,8(-. a-.) a(-. a-.)
     a2 a8(-. a-.) a(-. a-.)
-    a2 a8 a' a a %15
+    a2 a8 a'-! a-! a-! %15
     g! e16 cis e8 cis16 a d4 r8 fis
-    g e16 cis e8 cis16 a d2~-\tastoE
+    g e16 cis e8 cis16 a d2~
     d1~
-    d2 d4 a
-    d a d a %20
+    d2~ d4 a
+    d a d, a' %20
     d a d,8 d' d d
     d4 r d r \noBreak
     d8 d d d d4 r\fermata \bar "||"
-    \key d \minor \time 3/8 \tempoN-II-b \newSpacingSection
+    \key d \minor \time 3/8 \tempoN-IIb \newSpacingSection
+      \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
+      d4\p r8 \noBreak
+    e a r %25
+    d, b4
+    a r8
+    r a a
+    r a a
+    r a d %30
+    a' a, r
+    f'\ffE f f
+    f f f
+    f f f
+    f f f %35
+    c r r
+    c r r
+    c r r
+    c r r
+    c4.~ %40
+    c8 c, r
+    f' f f
+    f4.~
+    f~
+    f~ %45
+    f~
+    f~
+    f~
+    f32( a) g( a) f[( c') b( c)] f,( f') e( f)
+    f,( a) g( a) f[( c') b( c)] f,( f') e( f) %50
+    f,8  r16 f f f
+    e8 r16 e e e
+    d8 d'16 c! b a
+    gis r \hA gis r \hA gis r
+    r gis32\pp gis gis16 gis gis gis \noBreak %55
+    a4 r8\fermata \bar "||"
+    \key d \major \tempoN-IIc
+      d,8\fE d d \noBreak
+    d d d
+    d d' a
+    d,4 r8 %60
+    d,\p d' a
+    d,4 r8
+    a'\f r r
+    d r r
+    a r r %65
+    d r r
+    a r r
+    d r r
+    cis!4 d8
+    a4 r8 %70
+    R4.*2
+    d4.~
+    d~
+    d~ %75
+    d~
+    d~
+    d~
+    d~
+    d~ %80
+    d16 e fis d g e
+    a fis g e cis a
+    d e fis d g e
+    a fis g e cis a
+    d8 r r %85
+    h h h
+    a4.~
+    a~
+    a~
+    a~ %90
+    a16( cis) h( cis) d( h)
+    cis( d) cis( d) h( cis)
+    a( cis) h( cis) d( h)
+    cis( d) cis( d) h( cis)
+    a4.~ %95
+    a~
+    a~
+    a~
+    a16 h cis a h cis
+    d32 d' cis d d,[ d' cis d] d, d' cis d %100
+    d, d' cis d d,[ d' cis d] d, d' cis d
+    d, d' cis d d,[ d' cis d] d, d' cis d
+    d, d' cis d d,[ d' cis d] d, d' cis d
+    d,4.~
+    d~ %105
+    d~
+    d~
+    d~
+    d~
+    d8 d d %110
+    d d d
+    d16 d32 d d16 d d d
+    d4 r8\fermata \bar "|." %113 finis
+  }
+}
+
+N-IIOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoN-IIa
+    \partial 8 r8 d4\fE r8 a' d,4 r8 a
+    d,4 r8 a' d2~-\tasto
+    d1~
+    d2~ d16-\allaOttava e fis d g e fis cis
+    d e fis d g e fis cis d2~\trill %5
+    d~\trill d8 d' cis h
+    a4 e a,8 d' cis h
+    a4 e a,2~-\tasto
+    a1~
+    a~ %10
+    a~
+    a2~ a16 a32 a a16 cis a a32 a a16 e'
+    a, a32 a a16 cis a a32 a a16 e' a,8(-. a-.) a(-. a-.)
+    a2 a8(-. a-.) a(-. a-.)
+    a2 a8-\allaOttava a' a a %15
+    g! e16 cis e8 cis16 a d4 r8 fis
+    g e16 cis e8 cis16 a d2~\trill
+    d1~\trill
+    d2~ d4 a
+    d a d, a' %20
+    d a d,8 d' d d
+    d4 r d r \noBreak
+    d8 d d d d4 r\fermata \bar "||"
+    \key d \minor \time 3/8 \tempoN-IIb \newSpacingSection
       \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
       d4\p r8 \noBreak
     e a r %25
@@ -45,24 +167,37 @@ N-II-Organo = {
     c r r
     c r r
     c r r
-    c4. %40
+    c4.~ %40
     c8 c, r
-    f' f f
-    f4.~-\tastoE
-    f~
-    f~ %45
-    f~
-    f~
-    f~
-    f32 a( g a) f[ c'( b c)] f, f'( e f)
-    f, a( g a) f[ c'( b c)] f, f'( e f) %50
-    f,8 r16 f f f
+    << {
+      f' f f
+      f4.~
+      f~
+      f~ %45
+      f~
+      f~
+      f~
+      f32( a) g( a) f[( c') b( c)] f,( f') e( f)
+      f,( a) g( a) f[( c') b( c)] f,( f') e( f) %50
+      f,8
+    } \\ {
+      f,8-\tasto f f
+      f4.~
+      f~
+      f~ %45
+      f~
+      f~
+      f~
+      f~
+      f~ %50
+      f8
+    } >> r16 f' f f
     e8 r16 e e e
     d8 d'16 c! b a
-    gis r gis r gis r
-    r \mvTrr gis,\pp-\markup \remark "con pedale" gis gis gis gis \noBreak %55
+    gis r \hA gis r \hA gis r
+    r \mvTrr gis,\pp-\tasto gis gis gis gis \noBreak %55
     a4 r8\fermata \bar "||"
-    \key d \major \tempoN-II-c
+    \key d \major \tempoN-IIc
       d8\fE d d \noBreak
     d d d
     d d' a
@@ -75,7 +210,7 @@ N-II-Organo = {
     d r r
     a r r
     d r r
-    cis4 d8
+    cis!4 d8
     a4 r8 %70
     R4.*2
     d4.~-\tasto
@@ -86,7 +221,7 @@ N-II-Organo = {
     d~
     d~
     d~ %80
-    d16 e fis d g e
+    d16-\allaOttava e fis d g e
     a fis g e cis a
     d e fis d g e
     a fis g e cis a
@@ -96,19 +231,30 @@ N-II-Organo = {
     a~
     a~
     a~ %90
-    a16( cis) h( cis) d( h)
-    cis( d) cis( d) h( cis)
-    a( cis) h( cis) d( h)
-    cis( d) cis( d) h( cis)
-    a4.~ %95
-    a~
-    a~
-    a~
-    a16 h cis a h cis
-    d32 d'( cis d) d,[ d'( cis d]) d, d'( cis d) %100
-    d, d'( cis d) d,[ d'( cis d)] d, d'( cis d)
-    d, d'( cis d) d,[ d'( cis d)] d, d'( cis d)
-    d, d'( cis d) d,[ d'( cis d)] d, d'( cis d)
+    a16(-\allaOttava cis) h( cis) d( h)
+    << {
+      cis( d) cis( d) h( cis)
+      a( cis) h( cis) d( h)
+      cis( d) cis( d) h( cis)
+      a4.~ %95
+      a~
+      a~
+      a~
+      a16 h cis a h cis
+    } \\ {
+      a,4.~ %92
+      a~
+      a~
+      a~ %95
+      a
+      s
+      s
+      s
+    } >>
+    d'32 d' cis d d,[ d' cis d] d, d' cis d %100
+    d, d' cis d d,[ d' cis d] d, d' cis d
+    d, d' cis d d,[ d' cis d] d, d' cis d
+    d, d' cis d d,[ d' cis d] d, d' cis d
     d,4.~
     d~ %105
     d~
@@ -122,29 +268,29 @@ N-II-Organo = {
   }
 }
 
-N-II-BassFigures = \figuremode {
+N-IIBassFigures = \figuremode {
   r8 r1
   r
   r
-  r2. <8>16 q q q
-  q q q q q q q q r2 %5
-  r2. \bo <[6]>8 <6\\>
-  r4 <_+>2 <6>8 <6\\>
-  r4 \bc <[_+]>2.
+  r
+  r %5
+  r2 r8 <_+> \bo <[6]> \bc <[6\\]>
+  <_+>4 q2 \bo <[6]>8 \bc <[6\\]>
+  r4 <_+>2.
   r1
   r %10
   r
-  r2... <_+>16
+  r2 <_+>4.. q16
   r4.. q16 r2
-  <7\\ 4 2> <8 3>
-  <6 4>4 <7\\ 4 2> <8 3>2 %15
-  r4 \bo <[6]>2.
-  r4 \bc q2.
+  <7\\ 4 2> <8 _+>
+  <6 4>4 <7\\ 4 2> <8 _+>2 %15
   r1
   r
-  r %20
   r
-  r
+  r2. <_+>4
+  r q2 q4 %20
+  r q2.
+  r1
   r
   r4.
   <6\\>8 <_+>4 %25
@@ -158,7 +304,7 @@ N-II-BassFigures = \figuremode {
   <6 4>8 <7 \t> <8 3>
   <6 4>4 <5 3>8
   <6 4>4 <5 3>8 %35
-  <[5 3]>4.
+  r4.
   <6 4>
   <5 3>
   <6 4>
@@ -174,17 +320,17 @@ N-II-BassFigures = \figuremode {
   r
   r %50
   r
-  <6\\>
+  <6\\>8. <\t>
+  r4.
+  \bo <7 5 [_!]>8 <\t \t \t> \bc <\t \t [\t]>
+  r4. %55
   r
-  <7 5 [_!]>
-  r %55
-  \bo <[_+ _]>
-  \bc <[5 3]>4 <6 4>8
-  <5 3>4 <6 4>8
-  <5 3>4.
-  r %60
-  r
-  r
+  r4 <6 4>8
+  <5 _+>4 <6 4>8
+  <5 _+>4 <_+>8
+  r4. %60
+  r4 q8
+  r4.
   r
   r
   r %65
@@ -220,18 +366,18 @@ N-II-BassFigures = \figuremode {
   r
   r
   r
-  r8. <6>16 \bo <[6]> \bc <[\t]>
+  r8. <6\\>16 <6> <3>
   r4. %100
   r
   r
   r
-  r4 <6 4>8
-  <5 3>4 <6 4>8 %105
-  <5 3>4 <6 4>8
-  <5 3> <6 4> <7 2>
-  <8 3> <6 4> <7 2>
-  <8 3> <6 4> <7 2>
-  <8 3>4. %110
+  <5 _+>4 <6 4>8
+  <5 _+>4 <6 4>8 %105
+  <5 _+>4 <6 4>8
+  <5 _+> <6 4> <7\\ 2>
+  <5 _+> <6 4> <7\\ 2>
+  <5 _+> <6 4> <7\\ 2>
+  <8 _+>4. %110
   r
   r
   r %113 finis

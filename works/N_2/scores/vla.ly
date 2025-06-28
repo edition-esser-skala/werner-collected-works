@@ -11,7 +11,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \N-II-Viola }
+        \new Staff { \N-IIViola }
       >>
     }
   }

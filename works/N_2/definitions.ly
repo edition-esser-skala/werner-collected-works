@@ -6,9 +6,9 @@ sbTOn = {
   \set beatStructure = #'(2 2 2)
 }
 
-tempoN-II-a = \tempoMarkup "Vivace"
-tempoN-II-b = \tempoMarkup "Larghetto"
-tempoN-II-c = \tempoMarkup "Passato"
+tempoN-IIa = \tempoMarkup "Vivace moderato"
+tempoN-IIb = \tempoMarkup "Larghetto"
+tempoN-IIc = \tempoMarkup "Allegro passato"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

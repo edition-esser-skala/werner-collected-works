@@ -17,34 +17,34 @@
     \paper { indent = 2\cm }
     \score { %\articulate
       <<
-        \new StaffGroup \with { \smallGroupDistance } <<
+        \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \N-II-ViolinoI
+              \N-IIViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \N-II-ViolinoII
+              \N-IIViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "Viola"
-            \N-II-Viola
+            \N-IIViola
           }
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
             % \transpose c c,
-            \N-II-Organo
+            \N-IIOrgano
           }
         >>
-        \new FiguredBass { \N-II-BassFigures }
+        \new FiguredBass { \N-IIBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 } % 8 = 90 – 8 = 120
+      \midi { \tempo 4 = 80 } % 8 = 90 – 8 = 120
     }
   }
 }

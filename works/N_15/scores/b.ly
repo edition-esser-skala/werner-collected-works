@@ -11,7 +11,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \N-XVOrgano }
+        \new Staff { \N-XVViolone }
       >>
     }
   }

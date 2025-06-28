@@ -11,8 +11,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \N-II-Organo }
-        \new FiguredBass { \N-II-BassFigures }
+        \new Staff { \N-IIOrgano }
+        \new FiguredBass { \N-IIBassFigures }
       >>
     }
   }

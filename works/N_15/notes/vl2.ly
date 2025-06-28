@@ -4,7 +4,7 @@ N-XVViolinoII = {
   \relative c' {
     \clef treble
     \key g \major \time 3/4 \tempoN-XVa
-    g'2\f h8( g)
+    g'2\fE h8( g)
     d'2 h8( g)
     d2 h8( g)
     d'( d') a( fis) d( fis)
@@ -18,7 +18,7 @@ N-XVViolinoII = {
     fis( g) fis( d) g( h)
     a( h) a( fis) g( e)
     fis( g) \parOn fis-\parenthesize-! \parOff d-\parenthesize-! fis( d)
-    g( a) \parOn g-\parenthesize-! \parOff e-\parenthesize-! a( fis) %15
+    g( a) g-! e-! a( fis) %15
     d'( e) d-! a-! fis( d)
     g( a) g-! e-! a4
     d,2 r4
@@ -43,11 +43,11 @@ N-XVViolinoII = {
     d a' g
     fis2.~
     fis~
-    fis16(\f g) a( fis) d4 r %40
+    fis16(\fE g) a( fis) d4 r %40
     fis16( g) a( fis) d4 r
     fis16( g) a( fis) d4 r
     fis16( g) a( fis) d4 r
-    r8 fis'\p e4 d
+    r8 fis' e4 d
     cis16( d) e( \hA cis) a4 r %45
     cis16( d) e( \hA cis) a4 r
     cis16( d) e( \hA cis) a4 r
@@ -83,11 +83,11 @@ N-XVViolinoII = {
       d e fis
       g c, a
     } \\ {
-      s2.\p %67
-      h\f
-      s\p
-      h\f %70
-      h~\p
+      s2. %67
+      h
+      s
+      h~ %70
+      h~
       h~
       h~
       h4 c a
@@ -95,7 +95,7 @@ N-XVViolinoII = {
       h4 c a
       h8 h16 d s2
     } >>
-    h8 g'\ff g g a16( g) fis( e)
+    h8 g'\ffE g g a16( g) fis( e)
     << {
       a2.~
       a~ %80
@@ -109,14 +109,14 @@ N-XVViolinoII = {
     d( fis) a( g) e( fis)
     d( fis) a( g) e( fis)
     d16 a' h cis d fis, g a d, e fis d %85
-    g2 h8( g)
+    g2\f h8( g)
     d'2 h8( g)
     d2 h8( g)
     d'( d') a( fis) d( fis)
     a4( c) a8( fis) %90
     g2 d8( h')
     a4( c) a8( fis)
-    g2 \once \slurDashed g'8( h,)
+    g2 g'8( h,)
     c( d) c-! a-! d( h)
     g( a) g-! d-! d'( h) %95
     c( d) c-! a-! d( h)
@@ -124,19 +124,19 @@ N-XVViolinoII = {
     q2 r4\fermata \bar "||"
     \time 3/2 \tempoN-XVb \newSpacingSection
       \set Score.currentBarNumber = #98
-      \partial 2 h2\f \noBreak
+      \partial 2 h2\fE \noBreak
       e,1 dis2 \noBreak
     e1 fis2 %100
     e1 dis2
-    e1-\critnote g2
+    e1 g2
+    fis1 fis2
     fis( d'!) cis
-    h1 ais2
-    h1 ais2-\critnote %105
+    h1 ais2 %1ß5
     h1 h,2
     h e cis
     h1 r2
     R1.*7 %115
-    r2 r g'\p
+    r2 r g'
     c,1 d2
     g,1 g'2
     fis d g
@@ -157,13 +157,13 @@ N-XVViolinoII = {
     fis1 g2
     c, d1 %135
     g,2 r r
-    r a'\f fis
+    r a' fis
     h2. g4 g e
     a2. fis4 fis d
     g h a2 g \noBreak %140
     fis1.\fermata \bar "||"
     \time 3/8 \tempoN-XVc \newSpacingSection
-      g8\f g' g \noBreak
+      g8\fE g' g \noBreak
     g fis e
     d4 e16( cis)
     d4. %145
@@ -187,7 +187,7 @@ N-XVViolinoII = {
     h a g
     fis g g
     g fis e %165
-    d4.~\p
+    d4.~\pE
     d~
     d~
     d8 d'( a)
@@ -202,7 +202,7 @@ N-XVViolinoII = {
     fis4 e8
     d fis( g)
     fis4 e8 %180
-    d g'\f g
+    d g'\fE g
     g fis e
     d4 e16( cis)
     d4.

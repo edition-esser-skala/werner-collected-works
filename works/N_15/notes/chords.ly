@@ -28,25 +28,25 @@ N-XVChords = {
     d fis d a d a fis' d a' fis d a
     \voiceOne d2.~\trill %40
     d~\trill
-    d~\trill
-    d~\trill
+    d\trill
+    d~
     d16 e fis d e a, h cis d e fis gis
     a2.~\trill %45
     a~\trill
     a~\trill
-    a~\trill
-    a\trill
+    a~
+    a
     \oneVoice d,,2 fis8( d) %50
     a'2 fis8( d)
     \clef bass a2 fis8( d)
     a'2.
     s2.*7 %60
-    \clef treble d16 e fis g a8 fis16( d) h'8 g16( d)
-    a'8 \once \slurDashed fis16( d) d'8 a16( fis) h8 g16( d)
-    a'8 fis16( d) d' a fis d g e cis a
+    \clef treble d16 e fis g a8 fis16 d h'8 g16 d
+    a'8 fis16 d d'8 a16 fis h8 g16 d
+    a'8 fis16 d d' a fis d g e cis a
     d2.~\trill
-    d~\trill %65
-    d~\trill
+    d~ %65
+    d~
     d16 e fis g \voiceOne a8 h c! h16 a
     h2.
     d,16 e fis g a8 h c h16 a
@@ -60,11 +60,11 @@ N-XVChords = {
     h a fis \oneVoice
     g8 g' g g a16( g) fis( e)
     d2.~\trill
-    d~\trill %80
-    d~\trill
-    d~\trill
-    d~\trill
-    d~\trill
+    d~ %80
+    d~
+    d~
+    d~
+    d~
     d4 r r %85
     g,2 h8( g)
     d'2 h8( g)
@@ -82,27 +82,27 @@ N-XVChords = {
     g,1 \voiceOne a2
     h c d
     c h a %115
-    h4 c h c <h d>2
-    <a c> <g h> <fis a>
-    <g h> q4 <a c> <h d>2
-    <a d> <a c> <g h>
+    h4 c h c d2
+    c h a
+    h h4 c d2
+    c d h
     a d cis4 e %120
     d1.~\trill
-    d1\trill cis4 e
+    d1\trill cis4( e)
     d1.~\trill
-    d1\trill c!2~
-    c h a~ %125
-    a g c~
+    d1 c2~
+    c h a %125
+    a( g) c~
     c h a~
     a g g'~
     g fis e~
-    e d <h d> %130
-    <a c> <fis d'> <g h>
-    <fis a>1 <g h>2
+    e d d %130
+    c d h
+    a1 h2
     c2. d4 e2
     d c h
-    <a c> <g h> <fis a> %135
-    g1 \oneVoice r2
+    c h a %135
+    \oneVoice g1 r2
     s1.*5 \bar "||" %141
     \time 3/8 \tempoN-XVc \newSpacingSection
       s4.*24 %165
@@ -117,10 +117,10 @@ N-XVChords = {
     d,( fis) a,-! d-! cis( e)
     \voiceOne d4.~\trill %175
     d~\trill
-    d~\trill
-    d~\trill
-    d~\trill
-    d~\trill %180
+    d~
+    d~
+    d~
+    d~ %180
     d8 s4
     \oneVoice g8 fis e
     d4 e16( cis)
@@ -130,17 +130,17 @@ N-XVChords = {
     g4 a16( fis)
     g8. d16 e fis
     g4.~\trill
-    g~\trill %190
-    g~\trill
-    g~\trill
-    g~\trill
-    g~\trill
-    g~\trill %195
-    g~\trill
+    g~ %190
+    g~
+    g~
+    g~
+    g~
+    g~ %195
+    g~
     g16 d a' d, h' d,
     c'8 a d16( h)
-    g4.\trill
-    g'8 r r\fermata \bar "|." %200 finis
+    g4.(\trill
+    g'8) r r\fermata \bar "|." %200 finis
   } \\ \relative c' {
     s2.*24 %24
     r4 e' fis %25
@@ -177,27 +177,27 @@ N-XVChords = {
     s1 fis2
     g a h
     a g fis %115
-    g4 a g a g2
-    c,1 d2
-    g,1 g'2
-    fis-\critnote d g,
-    <d' fis> r <e g> %120
-    <fis a> <d fis> <g h>
-    <fis a> <d fis> <e g>
-    <fis a> <d fis> <g h>
-    <fis a> <d fis> <e g>
-    <d fis>1 <c e>2 %125
-    <h d>1 e4 fis
+    g4 a g a \voiceThree h2
+    a g fis
+    g g4 a h2
+    a s g
+    fis g\rest g %120
+    a fis h
+    a s g
+    a fis h
+    a fis g
+    fis1 e2 %125
+    d1 \voiceTwo e4 fis
     g1 fis2~
     fis e e'~
     e d c~
-    c h g %130
-    fis d g,
-    d' c h
-    a'4 e a2 h
+    c h \voiceThree h %130
+    a fis g
+    fis1 g2
+    \voiceTwo a4 e a2 h
     a1 g2
-    c, d1 %135
-    s1.*6 %141
+    \voiceThree a g fis %135
+    \voiceTwo s1.*6 %141
     s4.*33 %177
     r8 fis16 a g h
     fis a d, fis e cis

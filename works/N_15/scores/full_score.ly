@@ -56,15 +56,15 @@
           }
         >>
         \new PianoStaff <<
-          \set PianoStaff.instrumentName = \markup \center-column { "Organo" "solo" }
-          \new Staff {
+          \set PianoStaff.instrumentName = \markup \center-column { "Cembalo" "solo" }
+          \new Staff = "RH" {
             \incipit " " "soprano" #0 #-1.8
             \N-XVChords
           }
-          \new Staff {
+          \new Staff = "LH" {
             \set Staff.instrumentName = "Bassi"
             % \transpose c c,
-            \N-XVOrgano
+            \N-XVCembalo
           }
         >>
         \new FiguredBass { \N-XVBassFigures }
