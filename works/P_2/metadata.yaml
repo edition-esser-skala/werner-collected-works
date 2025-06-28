@@ -1,0 +1,24 @@
+title: Sinfonia
+id: WerW P.2
+genre: sinfonia
+scoring: 3 vl, bc
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Gdab
+    shelfmark: Bad Aussee Ms 328
+    url: https://archiv.graz-seckau.at/actaproweb/document/Vz_c737a819-2a21-4254-b757-297fbb7b6aa5
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 4     & vl 2 & 1st \eighthNote\ in \B1: g″8\\
+    & 33    & bc   & 3rd \eighthNote\ in \B1: \sharp c8 \\
+    & 50    & vl 3 & 4th \eighthNote\ in \B1: g″16–\sharp f″16 \\
+    & 51    & vl 2 & 4th \eighthNote\ in \B1: d″8 \\
+    & 73    & bc   & 2nd \eighthNote\ in \B1: A8 \\
+  2 & 1     & vl 1 & 11th \sixteenthNote\ in \B1: a″16 \\
+    & 26    & vl 3 & bar in \B1: d″4–c″4–b′8–a′8 \\
+    & 32    & vl 1 & 2nd \sixteenthNoteDotted\ in \B1: a″16. \\
+    & 39–42 & vl 1 & rhythm of each \quarterNote\ in \B1: 32–32–16.–32–32 \\*
+  3 & 13    & bc   & 2nd \eighthNote\ in \B1: e8 \\
