@@ -1,0 +1,21 @@
+title: Missa Divi Francisci de Hyeronimo
+id: WerW B.8
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.21
+    date: ca. 1760
+    rism: 530001931
+    url: https://copia.oszk.hu/kotta/missa-divi-francisci-de-hyeronimo/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: A 62
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/713.html
+    license: public domain
+toe: |
+  22 org, vlne: Adagio; S, A: Largo

@@ -1,0 +1,16 @@
+\version "2.24.0"
+
+tempoB-VIIIKyrie = \tempoMarkup "Ariosè"
+  tempoB-VIIIKyrieB = \tempoMarkup "Vivacè"
+tempoB-VIIIGloria = \tempoMarkup "Andante"
+tempoB-VIIICredo = \tempoMarkup "Andante"
+  tempoB-VIIIEtIncarnatus = \tempoMarkup "Adagio"
+  tempoB-VIIIEtResurrexit = \tempoMarkup "Allegro"
+
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"
