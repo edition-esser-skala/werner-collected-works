@@ -1,0 +1,23 @@
+title: Missa Quoniam hic est Deus
+id: WerW B.67
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: CZ-Pak
+    shelfmark: 1344
+    rism: 550268624
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 29–31 & org  & treble ottavo clef added by editor \\
+    & 55    & org  & bar in \B1: c1–\sharp G2 \\
+  2 & 10    & T    & 2nd to 4th \quarterNote\ in \B1:
+                     d′8–\sharp c′16–b16–\sharp c′4.–\sharp c′8 \\
+    & 95    & vl 1 & 4th to 6th \eighthNote\ in \B1: f″8–f′8 \\
+    & 106   & vl 2 & 2nd \eighthNote\ in \B1: e″8 \\
+  4 & 63    & vl 1 & bar in \B1: f′4–e′4–d′2 \\*
+    & 65    & T    & bar missing in \B1 \\
+  6 & 22    & T    & bar in \B1: d′2–\crotchetRest \\
