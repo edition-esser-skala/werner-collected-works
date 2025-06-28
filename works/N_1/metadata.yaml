@@ -1,0 +1,20 @@
+title: Pastorella
+id: WerW N.1
+genre: pastorella
+festival: Nativitas Domini
+scoring: vl princ, 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.286
+    rism: 530003617
+    url: https://copia.oszk.hu/kotta/pastorella-per-il-natale-del-nostro-sig-re/
+    license: public domain
+    principal: true
+toe: |
+  52 & vl princ & tempo indication: “Larghetto” \\
+extra_abbreviations:
+  vl princ: Violino principale
+parts:
+  vl_princ: Violino principale
