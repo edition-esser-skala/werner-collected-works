@@ -1,5 +1,22 @@
 # Changelog
 
+## 2025.06.0 – 2025-06-29
+
+### Added
+
+- works: WerW B.8, B.67, H.1.1, H.2.10, I.1.3, I.2.3, I.3.2, I.4.2, I.5.2, N.1, O.6, and P.2
+- global macro `\vlne`
+
+### Changed
+
+- an edition of WerW A.12 has been released
+- revised WerW I.1.1, I.2.4, I.3.1, I.4.7, I.5.5, J.2, and N.2/15 after autograph manuscript
+
+## Fixed
+
+- WerW P.10: part for vl 2 (previously displayed vl 1)
+
+
 ## 2025.05.0 – 2025-05-31
 
 ### Added
