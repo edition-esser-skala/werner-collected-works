@@ -224,3 +224,196 @@ B-VIIICredoBassoLyrics = \lyricmode {
   men, a -- men, a -- %55
   men. %56 finis
 }
+
+B-VIIISanctusBasso = {
+  \relative c {
+    \clef bass
+    \key e \major \time 4/4 \autoBeamOff \tempoB-VIIISanctus
+    \mvTr e1\fE^\tutti
+    e2 fis4 h,
+    cis d8([ c)] h4 e
+    ais,2 h4 r
+    r8 cis cis cis his4 cis %5
+    gis'4. gis8 cis,4 r
+    r2 \mvTr h16([\pE^\solo cis dis e] fis[ gis a h] \noBreak
+    gis8.) fis16 e4 \mvTr a,8\fE^\tutti h16 h cis4
+    \tempoB-VIIISanctusB h4 r r2 \noBreak
+    R1 %10
+    r8 h e4 cis8 a fis'4
+    dis8 h gis'4 e8 dis cis4
+    h r8 e a16([ gis fis e)] dis8 gis~
+    gis16[ fis] e([ dis)] cis8 a h e h4
+    e r r2\fermata \bar "|." %15 finis
+  }
+}
+
+B-VIIISanctusBassoLyrics = \lyricmode {
+  San --
+  ctus, san -- ctus,
+  san -- ctus, san -- ctus,
+  san -- ctus
+  Do -- mi -- nus De -- us %5
+  Sa -- ba -- oth.
+  glo --
+  ri -- a, glo -- ri -- a tu --
+  a,
+  %10
+  o -- san -- na, o -- san --
+  na, o -- san -- na, o -- san --
+  na, o -- san -- na in __
+  ex -- cel -- sis, in ex -- cel --
+  sis. %15 finis
+}
+
+B-VIIIBenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key e \major \time 4/4 \autoBeamOff \tempoB-VIIIBenedictus
+    R1*6 \noBreak %6
+    R1\fermata \bar "||"
+    \time 4/2 \tempoB-VIIIOsanna \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      \mvTr e1\fE^\tuttiE fis4 gis a2~ \noBreak
+    a gis4( fis) e dis cis2
+    h1 e2. dis4 %10
+    cis1 h2 r
+    R\breve
+    h1 cis4 dis e2~
+    e dis cis4( cis') h( a)
+    gis( fis e dis cis1) %15
+    h r2 e
+    fis4 gis a1 gis2
+    fis1 e~
+    e2 d( cis) fis
+    cis1 fis %20
+    R\breve*2
+    r1 e
+    fis4( gis a1) gis4( fis)
+    e dis! cis2 h1 %25
+    e2.( dis4) cis1
+    h\breve~
+    h~
+    h
+    e2 cis a( h) %30
+    e\breve\fermata \bar "|." %31 finis
+  }
+}
+
+B-VIIIBenedictusBassoLyrics = \lyricmode {
+  O -- san -- _ _ %8
+  na __ in ex -- cel --
+  sis, in ex -- %10
+  cel -- sis,
+
+  o -- san -- _ _
+  na in __ ex --
+  cel -- %15
+  sis, o --
+  san -- _ _ _
+  _ na __
+  in __ ex --
+  cel -- sis, %20
+
+  o -- %23
+  san -- na __
+  in ex -- cel -- sis, %25
+  o -- san --
+  na __
+
+  in ex -- cel -- %30
+  sis. %31 finis
+}
+
+B-VIIIAgnusBasso = {
+  \relative c {
+    \clef bass
+    \key e \major \time 3/2 \autoBeamOff \tempoB-VIIIAgnus
+    R1.*4
+    r2 \mvTr h\pE^\solo h %5
+    c( cis) dis!
+    r e e
+    f( fis) gis!
+    a1 h2
+    cis1. %10
+    h1 r2
+    R1.*4 %15
+    r2 h h
+    h( ais) a
+    r e e
+    e( dis!) d
+    cis2. cis4 h2 %20
+    e cis1
+    h2 \mvTr e\fE^\tutti e
+    a a cis
+    fis, fis h
+    e, e gis %25
+    cis,2.( h!4 ais2)
+    h fis'1 \noBreak
+    h,1.\fermata \bar "||"
+    \time 4/4 \tempoB-VIIIDona \newSpacingSection
+      R1*8 %36
+    \mvTr h'2\fE^\tutti h,
+    h' h,4 gis'8[ fis16 e]
+    dis8[ cis h a] gis[ fis] e4
+    r r8 dis'( e[ dis)] cis([ h)] %40
+    ais4 h fis'2
+    h,4 r r2
+    r4 gis'8[( fis16 e] dis8[ cis h a])
+    gis r e'8([ d] cis[ h)] a r
+    gis'8([ e)] fis([ gis)] a4 h %45
+    cis( cis,) fis r
+    R1*3
+    r2 r8 cis'[ h a] %50
+    gis[ a gis fis] e[ cis' h a]
+    gis[ a] gis[ fis16 e] dis4 e8[ fis]
+    gis[ fis] e[ dis16 cis] dis8[ h cis dis]
+    e[ d cis h] a4 a'
+    gis8[ fis16 e] fis8[ gis] a4 gis %55
+    a e a,2
+    e' r\fermata \bar "|." %57 finis
+  }
+}
+
+B-VIIIAgnusBassoLyrics = \lyricmode {
+  Mi -- se -- %5
+  re -- re,
+  mi -- se --
+  re -- re
+  no -- _
+  _ %10
+  bis.
+
+  Mi -- se -- %16
+  re -- re,
+  mi -- se --
+  re -- re,
+  mi -- se -- re -- %20
+  re  no --
+  bis. A -- gnus
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta, pec -- %25
+  ca --
+  ta mun --
+  di:
+
+  Do -- na %37
+  no -- bis pa --
+  _ _ cem,
+  pa -- cem, %40
+  no -- bis pa --
+  cem,
+  pa --
+  cem, pa -- cem,
+  no -- bis pa -- cem, %45
+  pa -- cem,
+
+  pa -- %50
+  _ _
+  _ _ cem, pa --
+  _ _ _
+  _ cem, pa --
+  _ _ _ cem, %55
+  no -- bis pa --
+  cem. %57 finis
+}

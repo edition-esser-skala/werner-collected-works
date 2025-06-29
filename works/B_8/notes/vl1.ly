@@ -104,3 +104,123 @@ B-VIIICredoViolinoI = {
     gis r r2\fermata \bar "|." %56 finis
   }
 }
+
+B-VIIISanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 4/4 \tempoB-VIIISanctus
+    h'4.\fE h8 cis4. dis16 e
+    h8 e, e'2 d4
+    cis8 h a2 g4~
+    g8 e16 fis g4 fis8 h h h
+    e4. e8 dis dis cis4~ %5
+    cis8 cis his his cis4 r
+    R1 \noBreak
+    r2 e8\fE dis e8. e16
+    \tempoB-VIIISanctusB dis8 h~ h16 a gis fis e8 cis'~ cis16 h a gis \noBreak
+    fis8 dis'~ dis16 cis h a gis8 cis~ cis16 h a gis %10
+    fis e dis cis h4 r2
+    r r8 h' e4
+    dis8 gis~ gis16 fis e dis cis8 fis~ fis16 e dis cis
+    h8 e~ e16 dis cis e dis8 e4 dis8
+    e4 r r2\fermata \bar "|." %15 finis
+  }
+}
+
+B-VIIIBenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 4/4 \tempoB-VIIIBenedictus
+    r2 gis''32(\f e16.) dis32( cis16.) a'32( fis16.) e32( dis16.)
+    e8 e, r cis' dis16 e fis8 r4
+    r2 h,32( gis16.) fis32( e16.) cis'32( a16.) gis32( fis16.)
+    gis8 e r4 fis'32(\p dis16.) cis32( h16.) gis'4~
+    gis32( e16.) dis32( cis16.) a'4 r2 %5
+    gis32(\f e16.) dis32( cis16.) a'32( fis16.) e32( dis16.) e16 fis32 gis a16 cis, e8( dis16.)\trill cis32 \noBreak
+    cis4 r r2\fermata \bar "||"
+    \time 4/2 \tempoB-VIIIOsanna \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*2
+    r1 h\fE %10
+    cis4 dis e1 dis2
+    cis fis h, e~
+    e dis e1
+    R\breve
+    r1 e, %15
+    fis4 gis a1 gis2
+    a4 h cis1 h2
+    a4 h cis dis e2 e,
+    a h2. h4 a2
+    gis1 fis %20
+    R\breve
+    a1 h4 cis d2~
+    d cis h2. h4
+    a4 h cis dis e2 e,
+    R\breve %25
+    h'1 cis4 dis e2~
+    e dis cis fis
+    h, e1 dis2~
+    dis cis1 h4 a
+    gis2. gis4 fis1\trill %30
+    gis\breve\fermata \bar "|." %31 finis
+  }
+}
+
+B-VIIIAgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/2 \tempoB-VIIIAgnus
+    R1.*4
+    r2 r r4 dis\pE %5
+    e2. e4 fis8 e fis4
+    h,2 r4 h' e2~
+    e dis d~
+    d cis h~
+    h ais4 gis \hA ais2 %10
+    h1 r2
+    R1.*4 %15
+    r2 dis dis
+    e fis4 e fis2
+    h, gis' gis
+    a h4 a h2
+    e, a2. a4 %20
+    gis1 ais2
+    h gis\fE gis
+    a a gis
+    a a fis
+    gis gis1 %25
+    gis2. gis4 fis2
+    fis fis2. fis4 \noBreak
+    fis1.\fermata \bar "||"
+    \time 4/4 \tempoB-VIIIDona \newSpacingSection
+      r8 e\fE dis cis h cis h a \noBreak
+    gis e' dis cis h gis16 a h8. cis16 %30
+    dis8 cis16 dis e8 fis gis16 a h8 a gis
+    fis h, a gis fis gis fis e
+    dis h' a gis fis e dis16 h' a h
+    gis8 a gis fis e cis' h a
+    gis a gis fis e a gis16 e' dis cis %35
+    h8 a gis fis e fis gis ais
+    h h' fis gis dis e fis gis
+    r h, fis gis dis cis16 dis e8 dis16 e
+    fis8 gis16 a h8 cis16 dis e8 fis gis fis16 e
+    dis8 cis h a gis ais16 h cis8 dis16 e %40
+    fis4. fis8 fis4 cis
+    dis8 fis h ais16 gis fis8 e dis cis
+    h cis16 dis e8 dis16 e fis gis a8 h4~
+    h8 a gis fis e d16 e cis8 a
+    r h' a gis16 fis e8 a gis fis %45
+    fis4 eis fis16 gis a4 a8
+    gis4.\trill fis16 gis a2
+    gis fis
+    e dis4 e8 fis16 gis
+    cis,8 dis e fis gis a gis fis %50
+    e cis' h a gis a gis fis
+    e4. dis16 e fis4 h,
+    r gis' fis8 e16 dis e8 fis
+    h, cis16 d e8 \hA d cis4. h16 a
+    h8 gis a h e,4 h' %55
+    a gis cis4. h16 a
+    h2 r\fermata \bar "|."
+  }
+}

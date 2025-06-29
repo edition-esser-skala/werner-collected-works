@@ -236,3 +236,225 @@ B-VIIICredoTenoreLyrics = \lyricmode {
   men, a -- men, a -- %55
   men. %56 finis
 }
+
+B-VIIISanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \major \time 4/4 \autoBeamOff \tempoB-VIIISanctus
+    \mvTr e4.\fE^\tutti e8 e2~
+    e4 h ais h
+    gis! fis4. h4 h8
+    cis!2 fis,4 r
+    r8 cis' cis cis dis4 e %5
+    dis4. dis8 cis4 r
+    R1 \noBreak
+    \mvTr e,16([\pE^\solo fis gis a] h[ cis d e] \mvTr cis8)\fE^\tutti h16 h h8([ ais)]
+    \tempoB-VIIISanctusB h4 r r2 \noBreak
+    r4 r8 gis cis4 a8 fis %10
+    h4~ h16[ a gis fis] e8 cis'8.([ h16)] a([ gis)]
+    fis8[ dis']~ dis16[ cis h a] gis[ a] h4 ais16[ cis]
+    fis,8 h gis( e'4) a,8 dis4
+    dis8 gis, cis8. cis16 h2
+    h4 r r2\fermata \bar "|." %15 finis
+  }
+}
+
+B-VIIISanctusTenoreLyrics = \lyricmode {
+  San -- ctus, san --
+  ctus, san -- ctus,
+  san -- ctus, san -- ctus,
+  san -- ctus
+  Do -- mi -- nus De -- us %5
+  Sa -- ba -- oth.
+
+  glo -- ri -- a tu --
+  a,
+  o -- san -- na, o -- %10
+  san -- na in __ ex --
+  cel -- _ _ _
+  sis, o -- san -- na, o --
+  san -- na in ex -- cel --
+  sis. %15 finis
+}
+
+B-VIIIBenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \major \time 4/4 \autoBeamOff \tempoB-VIIIBenedictus
+    r8 \mvTr cis,([\pE^\solo^\aTre e)] gis cis cis, r4
+    r8 cis' fis, fis r h e, e'16 e
+    dis8 e16 e h8. h16 e,4 r
+    e8 e' dis e16 e h8 h r his
+    cis cis r fis, gis cis16 cis gis8. gis16 %5
+    cis,4 r r2 \noBreak
+    R1\fermata \bar "||"
+    \time 4/2 \tempoB-VIIIOsanna \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve \noBreak
+    \mvTr h'1\fE^\tuttiE cis4 dis e2~
+    e dis4( cis) h2 e,4( fis) %10
+    gis2( cis) fis, r
+    r1 e
+    fis4( gis a1) gis2
+    cis h e dis4 cis
+    h a gis1 cis2 %15
+    fis,1 r
+    r2 a cis4 dis e2
+    cis fis h,1
+    r2 h cis1
+    cis cis %20
+    a h4 cis d2~
+    d cis h1
+    a r
+    r h
+    cis4( dis! e1) dis4( cis) %25
+    h2 e,4( fis) gis2( cis)
+    fis, r4 h cis2 dis
+    e e, h'1
+    cis2. h8[ a] h1
+    h2 cis cis( h) %30
+    h\breve\fermata \bar "|." %31 finis
+  }
+}
+
+B-VIIIBenedictusTenoreLyrics = \lyricmode {
+  Be -- ne -- di -- ctus,
+  qui ve -- nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni,
+  be -- ne -- di -- ctus, qui ve -- nit, qui
+  ve -- nit in no -- mi -- ne Do -- mi -- %5
+  ni.
+
+  O -- san -- _ _ %9
+  na __ in ex -- %10
+  cel -- sis,
+  o --
+  san -- na
+  in ex -- cel -- _ _
+  _ _ _ _ %15
+  sis,
+  o -- san -- _ _
+  _ _ na
+  in ex --
+  cel -- sis, %20
+  o -- san -- _ _
+  _ _
+  na,
+  o --
+  san -- na __ %25
+  in ex -- cel --
+  sis, o -- san -- na
+  in ex -- cel --
+  _ _ sis,
+  in ex -- cel -- %30
+  sis. %31 finis
+}
+
+B-VIIIAgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \major \time 3/2 \autoBeamOff \tempoB-VIIIAgnus
+    \mvTr e1\pE^\solo^\aTre h2
+    cis cis gis
+    a fis e
+    h'1 cis2
+    h1 h2 %5
+    R1.*5 %10
+    r2 h^\aTre gis
+    dis dis e
+    h' a gis
+    fis1 e2
+    dis1( e2) %15
+    h'1 r2
+    R1.*5 %21
+    r2 \mvTr gis\fE^\tutti gis
+    a a gis
+    a a fis
+    gis1 gis2 %25
+    gis1 fis2
+    fis fis1 \noBreak
+    fis1.\fermata \bar "||"
+    \time 4/4 \tempoB-VIIIDona \newSpacingSection
+      \mvTr e'2\fE^\tutti e, \noBreak
+    e' e,4 e'8[( dis16 cis] %30
+    h8[ a gis fis]) e4 a
+    h r r2
+    R1
+    r8 cis([ h)] a gis([ a)] gis([ fis)]
+    e[ cis' h a] gis[ fis e e'] %35
+    dis[ cis h a] gis[ fis] e4
+    dis8 dis'4 e8 dis h r4
+    dis16([ cis] dis4) e8 dis h r4
+    h2. h4
+    r4 r8 h4 h8 cis dis %40
+    cis cis h2( ais4)
+    h r r2
+    h2 h4 r
+    r e,8[ fis16 gis] a8[ h cis d]
+    e4. d8 cis4 h %45
+    a( gis) fis8 fis16[ gis] a8[ h]
+    cis[ dis] eis[ dis16 \hA eis] fis8[ e] d[ cis16 \hA d]
+    e8[ d] cis[ h16 cis] d8[ cis] h[ a16 h]
+    cis8[ h] a[ gis16 a] h8[ a] gis[ fis16 e]
+    fis2 e8 e'[ dis cis] %50
+    h[ cis h a] gis[ e' dis cis]
+    h[ cis] h8.[ cis16] dis8[ cis h a]
+    gis[ a h cis] fis,4 h~
+    h8[ cis16 d] e8[ \hA d] cis4. h16[ a]
+    h8[ gis a h] cis4 h %55
+    a h cis4.( h16_[ a)]
+    h2 r\fermata \bar "|." %57 finis
+  }
+}
+
+B-VIIIAgnusTenoreLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta
+  mun -- di: %5
+
+  A -- gnus %11
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta
+  mun -- %15
+  di:
+
+  A -- gnus %22
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta, %25
+  pec -- ca --
+  ta mun --
+  di:
+  Do -- na
+  no -- bis pa -- %30
+  cem, pa --
+  cem,
+
+  do -- na no -- bis
+  pa -- _ %35
+  _ _ _
+  cem, no -- bis pa -- cem,
+  pa -- cem, pa -- cem,
+  pa -- cem,
+  do -- na, do -- na %40
+  no -- bis pa --
+  cem,
+  pa -- cem,
+  pa -- _
+  _ cem, no -- bis %45
+  pa -- cem, pa -- _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ cem, pa -- %50
+  _ _
+  _ _ _
+  _ cem, pa --
+  _ _ _
+  _ _ cem, %55
+  no -- bis pa --
+  cem. %57 finis
+}
