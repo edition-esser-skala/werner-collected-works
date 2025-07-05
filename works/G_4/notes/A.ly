@@ -31,7 +31,7 @@ G-IVAlto = {
     e8 e e4 e r
     R1
     r8 \mvTr c8.([\pE^\solo d16)] e([ f)] g8 g g16([ f)] g([ d)]
-    e4.^\markup \remark "a 2" e8 d d e16([ d)] e8 %30
+    e4.^\aDue e8 d d e16([ d)] e8 %30
     f f b a16 g a8 a r4
     r8 a g f e( f4 e8)
     f \mvTr f4\fE^\tutti d8 g e f a16([ g)]

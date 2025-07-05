@@ -40,7 +40,7 @@ B-LXVIIKyrieOrgano = {
     cis d a1
     d1.\fermata \bar "||" %35
     \tempoB-LXVIIChriste \newSpacingSection
-      \mvTr f4\pE-\solo ^\tweak TextScript.X-offset #0 ^\markup \remark "a 2" g a2 e \noBreak
+      \mvTr f4\pE-\solo ^\tweak TextScript.X-offset #0 ^\aDue g a2 e \noBreak
     f4 g a2 e
     f a f
     g e f

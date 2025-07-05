@@ -9,6 +9,8 @@
 
 allaOttava = \markup \remark "alla 8va"
 allaOttavaE = \markup \remarkE "alla 8va"
+aDue = \markup \remark "a 2"
+aDueE = \markup \remarkE "a 2"
 aTre = \markup \remark "a 3"
 aTreE = \markup \remarkE "a 3"
 dstU = \tweak self-alignment-X #CENTER ^\markup { \hspace #1.3 \teeny \musicglyph #'"scripts.uhenzelongfermata" }

@@ -31,7 +31,7 @@ G-IVTenore = {
     d8 c h4 a r
     r2 \mvTr e'8.\pE^\solo e16 f8 e16([ d)]
     e([ d)] e8 r4 r2
-    r8 c4^\markup \remarkE "a 2" c8 h h cis16([ h)] \hA cis8 %30
+    r8 c4^\aDueE c8 h h cis16([ h)] \hA cis8 %30
     d d d e16 e f8 f r4
     r2 r4 r8 \mvTr c~\fE^\tutti
     c a d b g c a f16([ g)]
