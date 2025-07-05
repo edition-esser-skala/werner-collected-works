@@ -1,0 +1,53 @@
+title: Missa Annuntio vobis gaudium
+id: WerW B.5
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), 2 trb, timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.18
+    rism: 530001928
+    url: https://copia.oszk.hu/kotta/missa-c-2/
+    license: public domain
+    principal: true
+    notes: partially autograph (only clno 1/2, timp, vlne, and org parts in the hand of Werner)
+tocstyle: default
+toe: |
+  1 & 1    & trb    & tempo indication in \A1: “Allegro” \\
+    & 60   & B      & 2rd \quarterNote\ in \A1: f8–e8 \\
+    & 87   & vl 1   & 1st \halfNote\ in \A1: a′8–b′4–a′8 \\
+    & 89   & vl 1   & 2nd/3rd \eighthNote\ in \A1: c″16–b′8. \\
+    & 93   & vl 1   & 15th \sixteenthNote\ in \A1: c″16 \\
+    & 99   & trb 1  & last \eighthNote\ in \A1: f′16–e′16 \\
+  2 & 1    & –      & tempo indication in non-autograph parts of \A1:\newline
+                      “Tempo ordinario” \\
+    & 28   & vl 2   & 5th \eighthNote\ in \A1: d″8 \\
+    & 36   & –      & tempo indication in non-autograph parts of \A1:
+                      “Alla breve” \\
+    & 68   & A, vl  & tempo indication in \A1: “Larghetto” \\
+    & 75–81 & –     & The directive “Tutti” is missing in the (non-autograph)
+                      vocal parts of \A1, and trb 1/2 pause. Here, colla parte
+                      notes have been added to trb 1/2 in small print. \\
+    & 101  & S      & bar in \A1: \sharp f′1. \\
+    & 110f & S      & bars in \A1: d″4–d″4–d″2 and d″2–d″2 \\
+    & 137  & –      & tempo indication in clno 1 and vlne of \A1: “Adagio”;
+                      \newline in clno 2 and org: “Largo” \\
+  3 & 34   & clno 1 & 2nd \halfNote\ in \A1: e″4–\crotchetRest \\
+    & 73   & vl 2   & 15th \sixteenthNote\ in \A1: c″16 \\
+    & 87   & vl     & 9th \sixteenthNote\ in \A1: c′′′ \\
+    & 90   & vl 1   & 11th \sixteenthNote\ in \A1: d″16 \\
+    & 118f & B      & 3rd \quarterNote\ of bar 118 to 1st \eighthNote\
+                      of bar 119 in \A1: a8–g16–f16–e8 \\
+    & 119  & vl 2   & 2nd \eighthNote\ in \A1: e″8 \\
+    & 151  & clno 1 & 4th \quarterNote\ in \A1: g″8–a″8 \\
+    & 178  & B      & bar in \A1: a2–a2–g4–\sharp f4 \\
+    & 191  & timp   & bar in \A1: c1–\halfNoteRest \\
+  4 & 6    & S      & 5th to 7th \eighthNote\ in \A1: d″4–b′8 \\
+    & 10   & clno 1, vlne, org & rhythm of bar in \A1: \wholeNote \\
+    & 52   & trb 2, T & 4th \eighthNote\ in \A1: d′8 \\
+  6 & 25   & vl 1   & 7th \eighthNote\ in \A1: c″8 \\
+    & 27   & trb 1, A & 3rd \halfNote\ in \A1: f′2 \\
+    & 60   & trb 1, A & 2nd \eighthNote\ in \A1: a′8 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
