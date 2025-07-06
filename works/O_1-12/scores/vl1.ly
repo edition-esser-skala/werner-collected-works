@@ -304,4 +304,54 @@
       >>
     }
   }
+  \bookpart {
+    \section "O.7" "Il Lùglio, im Heumonat"
+    \addTocEntry
+    \paper { system-count = #5 }
+    \score {
+      <<
+        \new Staff { \O-VIIaViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper { system-count = #5 }
+    \score {
+      <<
+        \new Staff { \O-VIIbViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \paper { system-count = #12 }
+    \score {
+      <<
+        \new Staff { \O-VIIcViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \O-VIIdViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \O-VIIeViolinoI }
+      >>
+    }
+  }
 }

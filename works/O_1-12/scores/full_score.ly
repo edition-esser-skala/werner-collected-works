@@ -872,4 +872,154 @@
       \midi { \tempo 4. = 70 }
     }
   }
+  \bookpart {
+    \section "O.7" "Il Lùglio, im Heumonat"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-VIIaViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-VIIaViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-VIIaContinuo
+          }
+        >>
+        \new FiguredBass { \O-VIIaBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 60 }
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper { page-count = #1 }
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-VIIbViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-VIIbViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-VIIbContinuo
+          }
+        >>
+        \new FiguredBass { \O-VIIbBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 120 }
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \paper { system-count = #14 }
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-VIIcViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-VIIcViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-VIIcContinuo
+          }
+        >>
+        \new FiguredBass { \O-VIIcBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 70 }
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-VIIdViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-VIIdViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-VIIdContinuo
+          }
+        >>
+        \new FiguredBass { \O-VIIdBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 8 = 80 }
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-VIIeViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-VIIeViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-VIIeContinuo
+          }
+        >>
+        \new FiguredBass { \O-VIIeBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 8 = 120 }
+    }
+  }
 }

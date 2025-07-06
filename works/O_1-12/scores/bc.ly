@@ -331,4 +331,59 @@
       >>
     }
   }
+  \bookpart {
+    \section "O.7" "Il Lùglio, im Heumonat"
+    \addTocEntry
+    \paper { system-count = #5 }
+    \score {
+      <<
+        \new Staff { \O-VIIaContinuo }
+        \new FiguredBass { \O-VIIaBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \O-VIIbContinuo }
+        \new FiguredBass { \O-VIIbBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \paper { system-count = #12 }
+    \score {
+      <<
+        \new Staff { \O-VIIcContinuo }
+        \new FiguredBass { \O-VIIcBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \O-VIIdContinuo }
+        \new FiguredBass { \O-VIIdBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \O-VIIeContinuo }
+        \new FiguredBass { \O-VIIeBassFigures }
+      >>
+    }
+  }
 }

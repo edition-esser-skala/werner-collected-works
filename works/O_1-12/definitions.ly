@@ -145,6 +145,25 @@ markGiugnoV = \markTitle
   "5. Il paſſa tempo."
   "Zeit-Vertreib."
 
+markLuglioI = \markTitle
+  "1. Il Poltròne."
+  "Der Faullentzende."
+markLuglioIIa = \markTitle
+  "2. Menuet il Giorno di 15. hore."
+  "Die Tags-Länge 15. Stund, …"
+markLuglioIIb = \markTitle
+  "La notte di 9. hore."
+  "… die Nacht 9. Stund."
+markLuglioIII = \markTitle
+  "3. La Tempeſtà."
+  "Ein Donner-Wetter."
+markLuglioIV = \markTitle
+  "4. Tempo quieto."
+  "Stilles Wetter."
+markLuglioV = \markTitle
+  "5. La Cantina."
+  "Der Keller."
+
 \layout {
   \set Score.doubleRepeatBarType = #":|.|:"
 }
@@ -185,6 +204,15 @@ tempoO-VIb = \tempoMarkup "Menuet[to] Cancrizante"
 tempoO-VIc = \tempoMarkup "Tempo ordinario"
 tempoO-VId = \tempoMarkup "[Tempo deest]"
 tempoO-VIe = \tempoMarkup "Allegro assai"
+
+tempoO-VIIa = \tempoMarkup "Larghetto"
+tempoO-VIIb = \tempoMarkup "[Tempo deest]"
+tempoO-VIIca = \tempoMarkup "Vivace"
+  tempoO-VIIcb = \tempoMarkup "Allegro"
+  tempoO-VIIcc = \tempoMarkup "Vivace"
+  tempoO-VIIcd = \tempoMarkup "Allegro"
+tempoO-VIId = \tempoMarkup "Allegretto"
+tempoO-VIIe = \tempoMarkup "Vivace"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

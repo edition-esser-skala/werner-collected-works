@@ -2858,6 +2858,407 @@ O-VIeBassFigures = \figuremode {
   r %196 finis
 }
 
+O-VIIaContinuo = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \tempoO-VIIa
+      \markLuglioI
+    \repeat volta 2 {
+      % r8 d\fE d' d, r a' a, a' % for MIDI
+      \grace s8 r8 d\fE d' d, r a' a, a'
+      r a,\p a' a, r d d, d'
+      r2 r8 g,\f g'16 g, f'8
+      e4 r r8 f,\p a c
+      f f, r f\f c' c'16. g32 e8 cis %5
+      d d, r d'\p a a'16. e32 cis8 a
+      r d'16.\f a32 f8 d r c'!16.\p a32 fis8 d
+      r g16.\f d32 b8 g r e'16.\p h32 gis8 e
+      r a'16.\f e32 c8 a r gis'\p r \hA gis
+      r a r f r d\f e e, \noBreak %10
+      a a'-! d,-! e-! a,-! a'16. e32 c8 a
+    }
+    \repeat volta 2 {
+      r fis'\f fis, \hA fis' r g, g' g, \noBreak
+      r cis'\p cis, \hA cis' r d, d' d,
+      r c'16.\f a32 fis8 d r g16. d32 b8 g
+      r d''16.\p h32 gis8 e r a16. e32 cis8 a %15
+      r g'16.\f d32 b8 g r d''16. a32 f8 d
+      r a'16. e32 cis8 a r d16. a32 f8 d
+      r cis'\p r \hA cis r d r b'
+      r g\f a a, d4 r16 b' a g
+    }
+    \alternative {
+      { f8 g a a, d d'16. a32 f8 d } %20
+      { f8 g a a, d4 r\fermata }
+    } \bar "||" %21 finis
+  }
+}
+
+O-VIIaBassFigures = \figuremode {
+  r2 r8 <_+>4.
+  r8 q2 <_!>4.
+  r1
+  <6>
+  r2 <6 4>16 <5 3>4.. %5
+  r2 <6 4>16 <5 _+>4..
+  r4 <6>4. <4\+ 2>4.
+  r8 <_->2 <[5!] _+>4.
+  r8 <_!>2 <5 [_!]>4.
+  r8 <_!>2 <6! 5>8 <6 4> <5[!] _+> %10
+  <_!>1
+  r8 <5! 3>2 <_->4.
+  r8 <5 3>2 <_!>4.
+  r8 <4\+ _->4 <8 _+>16 <7 \t>8. <_->4.
+  r8 <[6!] 4\+ _!>4 <8 _+>16 <7 \t>8. <_+>4. %15
+  r8 <_->2 <5 4>8 <6>4
+  r8 <7 6>16. <\t \t>32 <3>4. <3 9>8 <6>4
+  r8 <5 3>4 <\t \t> <_!> <\t>8
+  r <6 5> <6 4> <5 _+> <_!>4 r16 <6> q q
+  q8 <6 5> <_+>2. %20
+  q8 <6 5> <_+>2. %21 finis
+}
+
+O-VIIbContinuo = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 3/4 \tempoO-VIIb
+      \set Score.currentBarNumber = #22
+      \markLuglioIIa
+    \repeat volta 2 {
+      d8\fE e f4 cis
+      d a' g
+      f8\pE e d4 cis
+      d a' g %25
+      fis\f g  \hA fis
+      g fis g
+      e\p f e
+      f e f
+      e\f f e %30
+      d g e
+      f b, c
+      d e c
+      f d a
+      b c c, \noBreak %35
+    }
+    \alternative {
+      { f4 a'8 g f e }
+      { f,4 c''8 b a g }
+    }
+    \repeat volta 2 {
+      \markLuglioIIb f8 g a4 e
+      f c' cis,
+      d8\p e f4 cis %40
+      d a' g
+      f\f e d
+      cis d \hA cis
+      d d'8 c! b a
+      g4 a a, %45
+    }
+    \alternative {
+      { d8 d' c! b a g }
+      { d,2.\fermata }
+    } \bar "||" %47 finis
+  }
+}
+
+O-VIIbBassFigures = \figuremode {
+  r4 <6> q %22
+  r <_+> <\t>
+  <6>2 q4
+  r <_+>2 %25
+  <6>4 <_->2
+  r2.
+  <6>
+  r
+  <6>4 q q %30
+  <6->2 <6>8 <5>
+  r4 <6 5>2
+  <3>4 <6> <7>
+  r <6> q
+  <6 5> <6 4> <5 3> %35
+  r2.
+  r
+  r2 <6>4
+  r2 <6 5>4
+  r <6> q %40
+  r <_+> <\t>
+  <6>2.
+  q2 <[6]>4
+  r2.
+  <6 5>4 <6 4> <5 _+> %45
+  r2.
+  r %47 finis
+}
+
+O-VIIcContinuo = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 3/4 \tempoO-VIIca
+      \set Score.currentBarNumber = #48
+      \markLuglioIII
+    d4 r r
+    d8.\f d'16 a8. d32( a) f8. a32( f)
+    d32\pE d d d d d d d d d d d d d d d d d d d d d d d %50
+    cis cis cis cis cis cis cis cis cis cis cis cis cis cis cis cis cis cis cis cis cis cis cis cis
+    d d d d d d d d d d d d d d d d d d d d d d d d
+    a4 r r
+    a8.\f a'16 e8. a32( e) cis8. e32( \hA cis)
+    a32\ff a' a a a a a a a a a a a a a a a a a a a a a a %55
+    g4 r r
+    f32 f f f f f f f f f f f f f f f f f f f f f f f
+    fis4 r r
+    g32 g g g g g g g g g g g g g g g g g g g g g g g
+    gis4 r r %60
+    \mvTr a32\p-\tasto a a a a a a a a a a a a a a a a a a a a a a a
+    a\pp a a a a a a a a a a a a a a a a a a a a a a a
+    a a a a a a a a a a a a a a a a a a a a a a a a \noBreak
+    a a, a a a a a a a4 r\fermata
+    \twofourtime \time 2/4 \tempoO-VIIcb
+      f'16\ff f f f f f f f \noBreak %65
+    e e e e e e e e
+    d d d d d d d d
+    c32 c' h a g f e d c16 c' g e
+    c32 c' h a g f e d c16 c' g e
+    c d32 e f g a h c4 %70
+    R2\fermata \noBreak
+    \tempoO-VIIcc b!8\pp b b b \noBreak
+    a a a a
+    gis gis gis gis
+    g g g g %75
+    fis fis fis fis
+    g g g g
+    cis, cis cis cis
+    d d b! b
+    gis gis gis gis %80
+    a r a'16\f g32 f e d cis h
+    a a' g f e d cis h a8 r
+    \tempoO-VIIcd g'16\ff g g g g g g g
+    f f f f f f f f
+    e e e e e e e e %85
+    d32 d' c b a g f e d16 d' a f
+    d32 d' c b a g f e d16 d' a f
+    d32 d d d b'![ b b b] g g g g a[ a a a]
+    d, d' c b a g f e d8 r\fermata \bar "||" %89 finis
+  }
+}
+
+O-VIIcBassFigures = \figuremode {
+  r2. %48
+  r
+  r %50
+  <5 3>4 <7- 5 3> <\t \t \t>
+  <_!>2 <6! 4\+ 2>4
+  <_+>2.
+  q
+  q %55
+  <4\+ _->
+  <6 3>
+  <7- 5>
+  <5 _->
+  <7! 5 [_!]> %60
+  <_+>
+  r
+  r
+  r
+  <5 3>4 <6> %65
+  <3>8 <6> <\t>4
+  <7 3>8 <6!> <\t>4
+  r2
+  r
+  r %70
+  r
+  <6 4 2\+>
+  <6 4>
+  <7 5 3[!]>
+  <6 4\+ 2> %75
+  <7- 5>
+  <5 _->
+  <5 3[!]>
+  <3>4 <\t>
+  <7! 5 _!>2 %80
+  <_+>
+  r
+  <5 3>4 <6>
+  <7 3>8 <6> <\t>4
+  <7 3>8 <6\\> <\t>4 %85
+  <_!>2
+  r
+  r
+  r %89 finis
+}
+
+O-VIIdContinuo = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 3/8 \tempoO-VIId
+      \set Score.currentBarNumber = #90
+      \markLuglioIV
+    d8\p d' c
+    r b a
+    r g f
+    r e d
+    r cis cis
+    r d'-!\f c!-! %95
+    b16-! a-! g-! f-! e-! d-!
+    \tuplet 3/2 8 { a'[ gis a] } a,-\tasto a a\p a
+    a a a a a a
+    a a a a a a
+    a\pp a a a a a %100
+    a a a a a a
+    g8\f g g
+    f16 f' f f f f
+    f8 f f
+    e16 e e e e e %105
+    cis\p cis cis cis cis cis
+    d8 d'16 c! b a
+    gis4 gis8
+    a4\f g8-!
+    f16-! e-! d-! c!-! h-! a-! %110
+    \tuplet 3/2 8 { e'[ dis e] } e,-\tasto e e\p e
+    e e e e e e
+    e e e e e e
+    e\pp e e e e e
+    e e e e e8 %115
+    d'16\f d d d d d
+    c c c c c c
+    cis cis cis cis cis cis
+    d d d d d d
+    g g g g g g %120
+    g g g g g g
+    f g a8 a,
+    d16 d'-!\ffE c-! b-! a-! g
+    f b a g f e
+    d4 r8\fermata \bar "||" %125 finis
+  }
+}
+
+O-VIIdBassFigures = \figuremode {
+  r8 <3> <\t> %90
+  r <5 3> <\t \t>
+  r <7 5> <\t \t>
+  r <6\\>4
+  r8 <7- 3> <6>16 <5>
+  r4. %95
+  r
+  r
+  r
+  r
+  r %100
+  r
+  <6->8 <5> <6!>
+  <6 3>4.
+  <6>
+  <5 _+>4 <5- _+>8 %105
+  <6 5!>4.
+  <_!>
+  <7 [_!]>8 <6> <5>
+  <_!>4.
+  r %110
+  r
+  r
+  r
+  r
+  r %115
+  <4\+ _!>
+  <6>
+  <5! 3>
+  <_!>
+  <6-> %120
+  <[6!] 4\+ 2>
+  <6>8 <4> <_+>
+  r4.
+  r
+  r %125 finis
+}
+
+O-VIIeContinuo = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 3/8 \tempoO-VIIe
+      \set Score.currentBarNumber = #126
+      \markLuglioV
+    \repeat volta 2 {
+      d16\fE e f8 cis
+      d d'16-! c!-! b-! a-!
+      g f e d cis b!
+      a a'\p a a a a
+      a( g) g g g g %130
+      g( f) f f f f
+      f( e) e e d d
+      cis8 r r
+      d\f d'16 a f d
+      b4. %135
+      a16 cis' a e cis a
+      b!4.\p
+      a16 e'' cis a e cis
+    }
+    \repeat volta 2 {
+      r8 a'16\f e cis a
+      r8 d16 a f d %140
+      r8 d''16 a fis d
+      r8 g16 d b g
+      r8 c'16 g e c
+      r8 f16 c a f
+      b8 c c, %145
+      f8. a16\p c f
+      c8. e16 cis a
+      d8. f16 a d
+      a,8. cis16 e a
+      d,\f e f8 cis %150
+      d d'16-! c!-! b-! a-!
+      g f e d cis b!
+      a a' a a\p a a
+      a( g) g g g g
+      g( f) f f f f %155
+      f( e) e e e e
+      e( d) d c! b a
+      g8 a a
+    }
+    \alternative {
+      { d16 f d a f d }
+      { d4.\fermata }
+    } \bar "|." %160 finis
+  }
+}
+
+O-VIIeBassFigures = \figuremode {
+  r8 <6> q16 <5> %126
+  r4.
+  r
+  r8 <_+>4
+  r16 <6 4\+ _-> r4 %130
+  <4\+ 2>16 <6> r4
+  <4- 2>8 <\t \t>4
+  <6 5>4.
+  <_!>
+  <5 3>4 <5>16 <6\\> %135
+  <_+>4.
+  <5 3>4 <5>16 <6\\>
+  <_+>4.
+  r8 <_+>4
+  r8 <_!>4 %140
+  r8 <_+>4
+  r8 <_->4
+  r4.
+  r
+  <6 5>8 <6 4> <5 3> %145
+  r4.
+  <5 3>4 r16 <_+>
+  <_!>8. <6>
+  <_+>4.
+  r8 <6> q16 <5> %150
+  r4.
+  r
+  r4 <_+>8
+  <3+ 2->16 <\t \t> r4
+  r16 <6 3> r4 %155
+  r16 <3 6\\> r4
+  <9 7>8 <\t \t>4
+  <6 5>8 <6 4> <5 _+>
+  r4.
+  r %160 finis
+}
+
 % \repeat volta 2 {
 
 %     }
