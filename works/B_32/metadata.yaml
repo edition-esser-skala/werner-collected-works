@@ -1,0 +1,38 @@
+title: Missa Quis ut Deus?
+id: WerW B.32
+genre: mass
+scoring: 2 S, A, T, B (solo), 2 S, A, T, B (coro), fag solo, 2 cor (C), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.49
+    date: 1762
+    rism: 530001957
+    url: https://copia.oszk.hu/kotta/missa-quis-ut-deus/
+    license: public domain
+    principal: true
+parts:
+  cor12: Corno I, II in C
+  b: Fagotto solo\\Bassi
+tocstyle: default
+toe: |
+  1 & 15  & vl 1  & last \eighthNote\ in \A1: e″16–f″16 \\
+    & 23  & cor 1 & 3rd \eighthNote\ in \A1: d″8 \\
+    & 25  & S 1   & tempo indication in \A1: “Tempo gusto” \\
+  2 & –   & fag   & The vlne part of \A1 only contains a solo for fag in bars 42–66. In the remaining sections, fag has been added by the editor (colla parte with org). \\
+    & 18  & vlne, org & tempo indication in \A1: “Largo” \\
+    & 67  & A, T  & tempo indication in \A1: “Andante” \\
+    & 71  & T     & 2nd \quarterNote\ missing in \A1 \\
+    & 86  & cor 2 & 1st \quarterNote\ missing in \A1 \\
+    & 87  & cor 2 & 3rd \quarterNote\ in \A1: d″4 \\
+    & 132 & vl 1  & 2nd \eighthNote\ in \A1: g″32–e″32–c″32–g′32 \\
+    & 146 & A     & 8th \sixteenthNote\ in \A1: b′16 \\
+  3 & 1   & S 1   & tempo indication in \A1: “Presto moderato” \\
+    & 7   & T     & 3rd \eighthNote\ in \A1: \quaverRest \\
+    & 24  & A vs T ???
+    27 tutti ???
+    & 70  & vlne  & 14th \sixteenthNote\ in \A1: a16 \\
+    & 81  & vlne  & tempo indication in \A1: “Allegro” \\
+    & 125 & cor 2 & 4th/5th \eighthNote\ in \A1: c″8–d″8 \\
+    & 140 & cor 1 & tempo indication in \A1: “Vivace” \\
