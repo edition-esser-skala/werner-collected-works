@@ -202,3 +202,82 @@ B-XXXIICredoCornoI = {
     g8 e d4\trill \pd c r\fermata \bar "|." %161 finis
   }
 }
+
+B-XXXIISanctusCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-XXXIISanctus
+    R1*2
+    c8.\fE c32 c e16 c g' e \tuplet 3/2 8 { \sbOn c16 c c e e e g g g c c c \sbOff }
+    g16. g64 g g16 g g g g g g,4 r
+    R1 %5
+    e'8. e32 e e16 e e e e e e e e e32 e e16 e
+    e4 r r2
+    R1
+    g8. g32 g g16 g g g \tuplet 3/2 8 { \sbOn c c c g g g e e e c c c \sbOff }
+    g'4 r r8 e' d e %10
+    f4. e16 d e8 g f e
+    \pa d8.\trill e32 f g8 g g4. f16 e
+    d4.\trill d8 \pd e4 r
+    c,8. c32 c e16 c g' e \tuplet 3/2 8 { \sbOn c' c c g g g \sbOff } e8 g \noBreak
+    c,4 r r2\fermata \bar "||" %15
+    \tempoB-XXXIIPleni R1*13 \noBreak %28
+    R1\fermata \bar "||"
+    \tempoB-XXXIIOsanna R1*7 %36
+    \pa g''4\fE c4. h16 a h8 g
+    r4 f4. e16 d e8 f16 g
+    a8 h c h16 a g fis g8 a16 g a8
+    \pd g4 r r2 %40
+    \pa e4. e8 d4 g~
+    g8 f16 g a8 g16 f g4. c8
+    a16 g a4 a8 \pd d,4 r
+    R1*2 %45
+    r8 g4 e a8 f16 g a8
+    g4. f16 e d2\trill
+    c r\fermata \bar "|." %48 finis
+  }
+}
+
+B-XXXIIAgnusCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-XXXIIAgnus
+    \pa e'8\fE g16 f e8 d \pd e16 d e8 r \pao e
+    e e r g a16 g a8 r a
+    \pa g4. fis8 \pd g4 r
+    R1*4 %7
+    \pa g8\fE g4 c8 \pd a a r a
+    a a r f f f r fis
+    \pa g g4 f8 \pd e4 r %10
+    R1*3
+    r2 c,8.\fE c32 c c16 c c c
+    c8. c32 c c16 c c c c8. c32 c c16 c c c %15
+    g'8. g32 g g16 g g g g4 r8 d'
+    e d r4 r2
+    r r8 e g a16 b
+    c4. b8 \pa a c16 \hA b a8 g
+    f4. g16 a g8 d e8.\trill d32 c \pd \noBreak %20
+    d8. d32 d d8 e d4 r\fermata \bar "||"
+    \time 3/8 \tempoB-XXXIIDona \newSpacingSection
+      e8 g g \noBreak
+    g r16 d d d
+    \pa e8 g8.\trill f32 g
+    a8 a8.\trill g32 a %25
+    g8 d8.\trill c32 d
+    e8. d16 c d
+    e8. d16 c d
+    e g d8 g \pd
+    e16 e32 e e8 r %30
+    R4.*18 %48
+    e8\fE g g
+    a16 a32 a a8 r %50
+    a a a
+    g16 g32 g g8 r
+    e16 g32 f e16[ d c d]
+    e g32 f e16[ d c d]
+    e16 g d8[ g] %55
+    e c g
+    e16. e64 e e32[ e e e] e16. e64 e
+    e4 r8\fermata \bar "|." %58 finis
+  }
+}

@@ -315,13 +315,13 @@ B-XXXIICredoTenore = {
     R1*10 %21
     r2 \mvTr g8\pE^\solo g' fis e
     dis16([ cis?)] dis8 r4 r2
-    e8. e16 e([ d)] d([ c)] c([ h)] h8 r4
-    r2 r8 g4 c8
+    e8. e16 e([ d)] d([ c)] h(_[^\critnote a)] h8 r4
+    r2 r8 g4 c8 %25
     a f'16([ e)] d([ c)] h([ c)] h([ a)] h8 c d
     e16([ c)] a d \appoggiatura c8 h8.\trill h16 c8 \mvTr e\fE^\tutti d8. d16
     c8 c4 h8 c g c h
     a h16 h a4 h r8 d
-    c c r c c4 a8[ d]~
+    c c r c c4 a8[ d]~ %30
     d g, r d' c4.( h8) \noBreak
     c4 r r2\fermata \bar "||"
     \key d \minor \time 3/4 \tempoB-XXXIIEtIncarnatus \newSpacingSection
@@ -469,4 +469,185 @@ B-XXXIICredoTenoreLyrics = \lyricmode {
   men, a -- men, a --
   _ men, a -- %160
   men, a -- men. %161 finis
+}
+
+B-XXXIISanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoB-XXXIISanctus
+    \mvDl e4.\fE^\tutti d8 c4 c
+    h16[ a h8] c16[ d e8] d2
+    e4 r r2
+    R1
+    r8 h4 e8 e2 %5
+    e4 r r2
+    r r8 a,([ c e)]
+    d2 d
+    d4 r r2
+    r8 d d d c( e4) c8 %10
+    a( d4) h8 g4 a(
+    h) g g2~
+    g4. g8 g4 r
+    R1 \noBreak
+    R\fermata \bar "||" %15
+    \key f \major \tempoB-XXXIIPleni R1*13 \noBreak %28
+    R1\fermata \bar "||"
+    \key c \major \tempoB-XXXIIOsanna R1*3 %32
+    \mvTr g4.(\fE^\tutti a8) h([ c)] d4
+    e2 d4( g)
+    c,2 h4 e %35
+    a, d8([ c] h[ a16 g] a8[ h)]
+    c g c4._( h16[ a)] h4
+    r f' f8([ e16 d)] e4
+    a,8([ g)] a([ h)] c([ e d c]
+    h4) g r d' %40
+    d8([ c16 h)] c4 r8 d4 g8
+    e[ c a d]~ d[ h g c]~
+    c a4 f'8 d g,16([ a)] h([ c d8)]
+    g, g c4.( h16[ a] h[ c a h]
+    c8) g c c h4.( c8)^\critnote %45
+    g4 c4. a8 d16([ c d8])
+    d h c2( h4)
+    c2 r\fermata \bar "|." %48 finis
+  }
+}
+
+B-XXXIISanctusTenoreLyrics = \lyricmode {
+  San -- ctus, san -- ctus,
+  san -- _ _
+  ctus,
+
+  san -- ctus, san -- %5
+  ctus,
+  san --
+  ctus, san --
+  ctus
+  Do -- mi -- nus De -- us %10
+  Sa -- ba -- oth, De --
+  us Sa --
+  ba -- oth.
+
+  O -- san -- na %33
+  in ex --
+  cel -- sis, in %35
+  ex -- cel --
+  sis, o -- san -- na,
+  o -- san -- na
+  in __ ex -- cel --
+  sis, o -- %40
+  san -- na in ex --
+  cel --
+  _ _ sis, o -- san --
+  na, o -- san --
+  na in ex -- cel -- %45
+  sis, in ex -- cel --
+  sis, ex -- cel --
+  sis. %48 finis
+}
+
+B-XXXIIAgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoB-XXXIIAgnus
+    \mvDl c4.\fE^\tuttiE d8 e16([ d)] e8 r e
+    e e r c c c r f
+    d e d([ c)] d4 r
+    \mvTr gis,4.\pE^\solo ^\tweak TextScript.X-offset #0 ^\aTreE gis8 a4 a
+    b a g4. f!8 %5
+    e4 f e2
+    a4 r r2
+    \mvDl e'4\fE^\tutti c a8 a r a
+    a a r a b b r d
+    d b b([ a)] g4 r %10
+    \mvTr gis4.\pE^\solo^\aTreE gis8 a4 d
+    g, c f, h
+    e, a8([ e)] a([ e' c a)]
+    e4 r \mvTr e'\fE^\tutti c
+    c c8 e a,4 g8 c %15
+    d d e4 d r8 d
+    e d r h\p c h r4
+    r8 c\f c16([ e)] d8 c4.( d16[ e)]
+    f4 r r8 a,16([ b)] c8 c
+    d([ f16 e] d2 c4) %20
+    h r r2\fermata \bar "||"
+    \time 3/8 \tempoB-XXXIIDona \newSpacingSection
+      c8. c16 g c \noBreak
+    h8 h r
+    r c g
+    r a a %25
+    r h([ d)]
+    c16 c8([ h16 c h)]
+    c c8([ h16 c h)]
+    c8 d4\trill
+    e8 r r %30
+    R4.*2
+    r8 \mvTr c\pE^\solo c
+    h32([ a h8)] c16 d c32([ h)]
+    c8 c r %35
+    R4.
+    r8 c c
+    h32([ a h8)] c16 d c32([ h)]
+    c8 c r
+    R4.*9 %48
+    \mvTr c8.\fE^\tutti c16^\critnote g c
+    a8 a r %50
+    a d4
+    d8 d r
+    e8.[ d16 c g']
+    e8.[ d16 c g']
+    e[ c8 h32 a h8] %55
+    c4 r8
+    R4.
+    R\fermata \bar "|." %58 finis
+  }
+}
+
+B-XXXIIAgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta, pec --
+  ca -- ta mun -- di:
+  Mi -- se -- re -- re
+  no -- bis, mi -- se -- %5
+  re -- re no --
+  bis.
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta, pec --
+  ca -- ta mun -- di: %10
+  Mi -- se -- re -- re
+  no -- bis, mi -- se --
+  re -- re __ no --
+  bis. A -- gnus
+  De -- i, qui tol -- lis pec -- %15
+  ca -- ta mun -- di, pec --
+  ca -- ta, pec -- ca -- ta,
+  pec -- ca -- ta mun --
+  di, pec -- ca -- ta
+  mun -- %20
+  di:
+  Do -- na no -- bis
+  pa -- cem,
+  no -- bis
+  pa -- cem, %25
+  pa --
+  cem, pa --
+  cem, pa --
+  cem, pa --
+  cem. %30
+
+  Do -- na, %33
+  do -- na no -- bis
+  pa -- cem, %35
+
+  do -- na,
+  do -- na no -- bis
+  pa -- cem.
+
+  Do -- na no -- bis %49
+  pa -- cem, %50
+  no -- bis
+  pa -- cem,
+  pa --
+  _
+  _ %55
+  cem. %%6 finis
 }

@@ -18,9 +18,11 @@ parts:
 tocstyle: default
 toe: |
   1 & 15  & vl 1  & last \eighthNote\ in \A1: e″16–f″16 \\
-    & 23  & cor 1 & 3rd \eighthNote\ in \A1: d″8 \\
+    & 23  & cor 2 & 3rd \eighthNote\ in \A1: d″8 \\
     & 25  & S 1   & tempo indication in \A1: “Tempo gusto” \\
-  2 & –   & fag   & The vlne part of \A1 only contains a solo for fag in bars 42–66. In the remaining sections, fag has been added by the editor (colla parte with org). \\
+  2 & –   & fag   & The vlne part of \A1 contains a solo for fag in bars 42–66.
+                    In the remaining sections, fag has been added
+                    by the editor (playing colla parte with org). \\
     & 18  & vlne, org & tempo indication in \A1: “Largo” \\
     & 67  & A, T  & tempo indication in \A1: “Andante” \\
     & 71  & T     & 2nd \quarterNote\ missing in \A1 \\
@@ -29,10 +31,21 @@ toe: |
     & 132 & vl 1  & 2nd \eighthNote\ in \A1: g″32–e″32–c″32–g′32 \\
     & 146 & A     & 8th \sixteenthNote\ in \A1: b′16 \\
   3 & 1   & S 1   & tempo indication in \A1: “Presto moderato” \\
-    & 7   & T     & 3rd \eighthNote\ in \A1: \quaverRest \\
-    & 24  & A vs T ???
-    27 tutti ???
+    & 7   & vlne  & 3rd \eighthNote\ in \A1: \quaverRest \\
+    & 24  & T     & 5th \eighthNote\ in \A1: c′16–b16 \\
     & 70  & vlne  & 14th \sixteenthNote\ in \A1: a16 \\
     & 81  & vlne  & tempo indication in \A1: “Allegro” \\
     & 125 & cor 2 & 4th/5th \eighthNote\ in \A1: c″8–d″8 \\
     & 140 & cor 1 & tempo indication in \A1: “Vivace” \\
+  4 & 40  & cor 2 & 1st \quarterNote\ in \A1: e″4 \\
+    & 40f & org   & upper voice removed by editor \\
+    & 45  & T     & last \eighthNote\ in \A1: d′8 \\
+    & 48  & A     & bar in \A1: g′1 \\
+  6 & 22  & S     & tempo indication in \A1: “Allegro passato” \\
+    & 23  & vl 2  & 8th \thirtysecondNote\ in \A1: f″32 \\
+    & 29  & B     & 2nd \sixteenthNote\ in \A1: f16 \\
+    & 45  & vl 1  & 4th/5th \sixteenthNote\ in \A1: d″16–b′16 \\
+    & 45  & vl 2  & 4th \sixteenthNote\ in \A1: g″16 \\
+    & 48  & vl 2  & bar in \A1: b8–g8–\crotchetRest \\
+    & 49  & T     & 4th/5th \eighthNote\ in \A1: e′16–d′16 \\
+    & 56  & B     & bar in \A1: c8–\crotchetRest \\

@@ -492,3 +492,185 @@ B-XXXIICredoBassoLyrics = \lyricmode {
   men, a -- %160
   men, a -- men. %161 finis
 }
+
+B-XXXIISanctusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoB-XXXIISanctus
+    \mvDl c'4.\fE^\tutti g8 a[ e f] c
+    g([ g')] e([ c)] g2
+    c4 r r2
+    R1
+    r8 e([ gis)] e a([ e c a)] %5
+    e'4 r r2
+    r r8 a16([ e] c8[ a]
+    d4) g! d2
+    g,4 r r2
+    r8 g' g g e4 a %10
+    d, g c, f(
+    g) e8([ c)] h4 c
+    g4. g8 c4 r
+    R1 \noBreak
+    R\fermata \bar "||" %15
+    \key f \major \tempoB-XXXIIPleni R1*13 \noBreak %28
+    R1\fermata \bar "||"
+    \key c \major \tempoB-XXXIIOsanna R1*7 %36
+    \mvTr c4.(\fE^\tutti d8) e([ f)] g4
+    a2 g4( c)
+    f,2 e4 r
+    R1 %40
+    r4 c c8([ h16 a)] h8([ g)]
+    a4 d g, c8 c
+    f2 g
+    R1*2 %45
+    r8 g([ e)] c' a[ f d d']
+    h[ g e c] g2
+    c r\fermata \bar "|." %48 finis
+  }
+}
+
+B-XXXIISanctusBassoLyrics = \lyricmode {
+  San -- _ _ ctus,
+  san -- ctus, san --
+  ctus,
+
+  san -- ctus, san -- %5
+  ctus,
+  san --
+  ctus, san --
+  ctus
+  Do -- mi -- nus De -- us %10
+  Sa -- ba -- oth, De --
+  us, __ De -- us
+  Sa -- ba -- oth.
+
+  O -- san -- na %37
+  in ex --
+  cel -- sis,
+  %40
+  o -- san -- na __
+  in ex -- cel -- sis, o --
+  san -- na
+
+  in __ ex -- cel -- %46
+  _ _
+  sis. %48 finis
+}
+
+B-XXXIIBenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \autoBeamOff \tempoB-XXXIIBenedictus
+    R1*3
+    r2 \mvTr a'16([ c32 h)] a16([ gis)] a([ e)] c' a
+    e'8 e, r h' c8.[\trill h32 a] g[ a h c d16 f,] %5
+    e8 g c4~ c16[ h32 a] g16 f e([\trill d)] c([ h)]
+    c4 r r2
+    r e16([ fis)] gis([ a)] \tuplet 3/2 8 { h([ c d)] } c h
+    c4~ c16[ h32 c d16 c] h4~ h16[ a32 h c16 h]
+    a4~ a16[ gis32 a h16 a] \hA gis([ e)] fis([ \hA gis)] a([ h c d)] %10
+    e([ h)] c([ a)] e8. e16 a,4 r
+    R1
+    R\fermata \markOsannaUtSupra \bar "||" %13 finis
+  }
+}
+
+B-XXXIIBenedictusBassoLyrics = \lyricmode {
+  Be -- ne -- di -- ctus, qui %4
+  ve -- nit, qui ve -- _ %5
+  nit in no -- mi -- ne Do -- mi --
+  ni,
+  be -- ne -- di -- ctus, qui
+  ve -- _
+  _ nit in no -- %10
+  mi -- ne Do -- mi -- ni. %11 finis
+}
+
+B-XXXIIAgnusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoB-XXXIIAgnus
+    \mvDl c'4.\fE^\tutti g8 e c r e
+    a, a r c f f r d
+    h c g([ a)] g4 r
+    R1*4 %7
+    \mvDl c'8([\fE^\tutti g)] e([ c)] f f r a
+    d, d r f b, b r d
+    g, g' e([ f)] c4 r %10
+    R1*3
+    r2 \mvTr c4\fE^\tutti e8([ c)]
+    a4 e'8 c f4 e8 c %15
+    h g' e([ c)] g'4 r8 g
+    c g r g\p c g r4
+    r8 c,\f e g c4.( b8)
+    a c16([ b)] a8 g f4.( e8)
+    d4. c8 h!4( c) \noBreak %20
+    g r r2\fermata \bar "||"
+    \time 3/8 \tempoB-XXXIIDona \newSpacingSection
+      c8. g'16 e c \noBreak
+    g'8 g, r
+    r c e
+    r f d %25
+    r g([ h)]
+    c r16 g([ e h)]
+    c8 r16 g'([ e h)]
+    c([ e)]^\critnote g4
+    c,8 r r %30
+    R4.*6 %36
+    r8 \mvTr a'\pE^\solo a
+    gis32([ fis? \hA gis8)] a16 h a32([ \hA gis)]
+    a8 a r
+    R4.*9 %48
+    \mvTr c,8.\fE^\tutti g'16 e c
+    f8 f r %50
+    fis8. fis16 d \hA fis
+    g8 g r
+    c,8.([ g'16)] e([ h)]
+    c8.([ g'16)] e([ h)]
+    c([ e g8 g,)] %55
+    c4^\critnote r8
+    R4.
+    R\fermata \bar "|." %58 finis
+  }
+}
+
+B-XXXIIAgnusBassoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta, pec --
+  ca -- ta mun -- di:
+
+  A -- gnus De -- i, qui %8
+  tol -- lis pec -- ca -- ta, pec --
+  ca -- ta mun -- di: %10
+
+  A -- gnus %14
+  De -- i, qui tol -- lis pec -- %15
+  ca -- ta mun -- di, pec --
+  ca -- ta, pec -- ca -- ta,
+  pec -- ca -- ta mun --
+  di, pec -- ca -- ta, pec --
+  ca -- ta mun -- %20
+  di:
+  Do -- na no -- bis
+  pa -- cem,
+  no -- bis
+  pa -- cem, %25
+  pa --
+  cem, pa --
+  cem, pa --
+  cem, pa --
+  cem. %30
+
+  Do -- na, %37
+  do -- na no -- bis
+  pa -- cem.
+
+  Do -- na no -- bis %49
+  pa -- cem, %50
+  do -- na no -- bis
+  pa -- cem,
+  do -- na
+  no -- bis
+  pa -- %55
+  cem. %56 finis
+}

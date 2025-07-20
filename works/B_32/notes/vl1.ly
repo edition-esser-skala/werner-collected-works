@@ -309,3 +309,152 @@ B-XXXIICredoViolinoI = {
     e16 c e g d8 g e4 r\fermata \bar "|." %161 finis
   }
 }
+
+B-XXXIISanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-XXXIISanctus
+    r8 e'16\fE f g a h8 c8. h16 a h c8
+    h16 c d8 c e, d4. g8
+    e4 r r2
+    R1
+    r16 h' gis a h8 \hA gis e \hA gis a16( \hA gis) a8 %5
+    gis4 r r2
+    r r8 a, c e
+    d fis h, g' a, g' d, fis'
+    g4 r r2
+    r8 d4 d8 g e4 a8 %10
+    f d4 g8 e g f a
+    g4. f16 e d8 g e c'
+    d,4 h' c8 c, g e
+    c4 r r2 \noBreak
+    R1\fermata \bar "||" %15
+    \key f \major \tempoB-XXXIIPleni
+      a''64(\fE b c16.) e,64( f g16.) f64( g a16.) c,32( b16.) \tuplet 3/2 8 { a16 g f } f8 c''64( b a16.) g32( f16.) \noBreak
+    e16 g c8~ c16 c( b a) b d, b'8~ b16 b( a g)
+    a( b) a( b) a( b) a( b) c32( b) a16 d32( c) b16 \tuplet 3/2 8 { a16 g f } g8\trill
+    f4 r r2
+    r4 r8 c~\p c16 c h a \hA h4\trill %20
+    c r r2
+    R1
+    e64(\f f g16.) h,64( c d16.) c64( d e16.) g,32( f16.) \slurDashed e32( d c d) e( f g a) \slurSolid b64( c d16.) c32( b16.)
+    a64( b c16.) e,64( f g16.) f4 r2
+    R1*2 %26
+    a'64(\f b c16.) e,64( f g16.) f64( g a16.) c,32( b16.) a64( b c16.) b64( c d16.) c16( c') b( a)
+    g( a) g( a) g( a) g( a) b2~ \noBreak
+    b16 g a( b) g8.\trill f16 f4 r\fermata \bar "||"
+    \key c \major \tempoB-XXXIIOsanna
+      r4 \mvTr c4.\fE h16 a h4 \noBreak %30
+    r f'4. e16 d e4
+    a,8 g a h c g c4~
+    c8 h16 a h8 c d c h a
+    g a16 h a8 g fis4 r8 d
+    e fis g a d,4 r8 g %35
+    c8 a4 d c16 h c8 d
+    g,4 r r2
+    R1*2
+    g4. a8 h c d4 %40
+    e2 d4 g
+    c, f4. e16 d e4~
+    e8 d16 c d8 c h16 a h c d4~
+    d8 c16 h c d e8~ e d16 c d e f8~
+    f e16 d e f g4 f e8 %45
+    d4 e c8 f~ f16 e f8
+    d8 g4 e8 d4 g
+    e2 r\fermata \bar "|." %48 finis
+  }
+}
+
+B-XXXIIBenedictusViolinoSolo = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoB-XXXIIBenedictus
+    \sbOn e'64( a, h c d e fis? gis) a16 a, \sbOff gis( d') h'( d,) \tuplet 3/2 8 { c h a } a8 r << {
+      a'
+      a16 gis h8~ h16 a c,8 c16 h e8
+    } \\ {
+      c8
+      h d c a a16 gis gis8
+    } >> e'16( dis) h'( d,)
+    d( c) cis( d) d( b') a( e) e( f) a( e) dis8.\trill e32 fis
+    e16( h) c( a') f( e32 d c h a gis) a4 r
+    R1*2 %6
+    c16( e) g( c) d64( c h16.) a64( g f16.) << {
+      e16 g c8~ c16 h h8~
+      h16 a a g
+    } \\ {
+      s8 e d4 %7
+      c
+    } >> f64( e d16.) c64( h a16.) gis4 r
+    r8 a f'4~ f16 e32 f g16 f e4~
+    e16 d32 e f16 e d( c) h( a) gis4 r %10
+    r2 r16 c( h a) f' a,( h a)
+    gis d'( e d) c32( a h c d e f g) a( a,16.) f'64( e d16.) c64( h a16.) h8\trill
+    a4 r r2\fermata \markOsannaUtSupra \bar "||" %13 finis
+  }
+}
+
+B-XXXIIAgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-XXXIIAgnus
+    e'16\fE c g'8~ g16 c h d c h32 a g f e d c16 e8 gis16
+    a g32 f e d c h a16 c8 e16 f e32 d c h a g f16 a8 d16~
+    d g8 e16 d g8 fis16 g \hA fis32 e d c h a g16 h d, g
+    h,4 r r2
+    R1*2 %6
+    r16 a'32\f h c16 d e c32 d e16 f g32 e f g a h c d e16 d32 c h16 a
+    g8. a32 h c16 g e c' a32( c16.) f,32( a16.) c,32( f16.) a,8
+    r16 a' f32( a16.) d,32( f16.) c8 r16 f d32( f16.) b,32( d16.) a8
+    b32( g16.) \hA b32( d16.) c32( g16.) a32( f'16.) e32 c d e f g a h? c16 g e c %10
+    r8 h4\p e8 r c f4
+    r8 g, e'4 r8 f, d'4
+    R1
+    r8 h32(\fE d16.) c32( e16.) d32( f16.) e32 c d e f g a h c16 g e g
+    c,32 c, d e f g a h c16 g e c' a f8 a16 c e8 g16 %15
+    d32 g, a h c d e f g16 c8 e,16 d4 r16 g h d
+    c8 h r16 g,\p h d c8 h r4
+    r8 e\f g h c c, e g
+    f16( e) f4 g8 a c16 b a8 g
+    f4. g16 a g8 d' g, c \noBreak %20
+    h4. c8 h4 r\fermata \bar "||"
+    \time 3/8 \tempoB-XXXIIDona \newSpacingSection
+      c,32( d) e( f) e([ f) g( a)] g( a) h( c) \noBreak
+    h( c) d( c) h([ a) g( a)] g( f) e( d)
+    e( f) g( f) e([ d) c( d)] c( b) a( \hA b)
+    a'( b) c( \hA b) a([ g) f( g)] f( e) d( e) %25
+    h'( c) d( c) h([ a) g( a)] g( f) e( f)
+    e( f) g( f) e([ f) d( e)] c( e) d( f)
+    e( f) g( f) e([ f) d( e)] c( e) d( f)
+    e( g) c( e,) d16[ c' d, h']
+    c32( g) e( g) e([ c) g( e')] c( g) e( g) %30
+    e4 r8
+    R4.
+    r32 g'\p f( g) e([ f) d( e)] c16 e
+    d8[ r16 g, h g]
+    c8 r r %35
+    R4.
+    r32 e[ d( e)] c( d) h( c) a8
+    R4.
+    r32 e' d( e) c([ d) h( c)] a( h) g( a)
+    f( g) e( f) d8 r %40
+    r32 d' c( d) h([ c) a( h)] g( a) f( g)
+    e([ f) d( e)] c16 g'' e c~
+    c a f a' f d~
+    d h g g' e c~
+    c a'8 f16^\critnote d g %45
+    e32(\fE g) f( g) e[( f) d( e)] c( d) h( c)
+    a( h) g( a) f([ g) e( f)] d( e) c( d)
+    h16 g r8 r
+    c'32( d) e( f) e([ f) g( a)] g( a) h( c)
+    a( b) c( \hA b) a([ \hA g) f( g)] f( e) d( e) %50
+    d( e) fis( g) \hA fis([ g) a( h)] a( h) c( d)
+    h( c) d( c) h([ a) g( a)] g( f) e( f)
+    e( f) g( f) e([ f) d( e)] c( e) d( f)
+    e( f) g( f) e([ f) d( e)] c( e) d( f)
+    e( g) c( e,) d16[ c' d, h'] %55
+    c32( g) e( g) e([ c) g( e')] c( g) e( g)
+    <c e,>8 <c e, g,> q
+    q4 r8\fermata \bar "|." %58 finis
+  }
+}

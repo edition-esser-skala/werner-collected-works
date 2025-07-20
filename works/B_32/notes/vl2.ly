@@ -300,3 +300,123 @@ B-XXXIICredoViolinoII = {
     g c4 h8 c4 r\fermata \bar "|." %161 finis
   }
 }
+
+B-XXXIISanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-XXXIISanctus
+    r8 c'16\fE d e f g8 e16 f g8 c,16 d e8
+    d8.\trill e32 f g8 c4 h16 a h4\trill
+    c r r2
+    r r8 g, h d
+    e4. e8 c h c16( h) c8 %5
+    h4 r r2
+    r8 e, gis h c4. c8
+    a d4 h8 a g' d, fis'
+    g4 r r2
+    r8 h,4 h8 r c4 c8 %10
+    a4 h c8 e d c
+    h4 c d8 g4 e8
+    d4.\trill d8 e c g e
+    c4 r r2 \noBreak
+    R1\fermata \bar "||" %15
+    \key f \major \tempoB-XXXIIPleni
+      a''64(\fE b c16.) e,64( f g16.) f64( g a16.) c,32( b16.) \tuplet 3/2 8 { a16 g f } f8 c''64( b a16.) g32( f16.) \noBreak
+    e8. e16 fis a( g \hA fis) g8. d16 e g( f e)
+    f( g) f( g) f( g) f( g) f8. g16 f8 e
+    f4 r8 f,~\p f e16 d e4\trill
+    f r r2 %20
+    R1*2
+    e'64(\f f g16.) h,64( c d16.) c64( d e16.) g,32( f16.) e32( d c d) e( f g a) b64( c d16.) c32( b16.)
+    a64( b c16.) e,64( f g16.) f4 r2
+    R1*2 %26
+    a'64(\f b c16.) e,64( f g16.) f64( g a16.) c,32( b16.) a64( b c16.) b64( c d16.) c16( a') g( f)
+    e( f) e( f) e( f) e( f) g2~ \noBreak
+    g16 e f d e8.\trill f16 f4 r\fermata \bar "||"
+    \key c \major \tempoB-XXXIIOsanna
+      c,4.\fE d8 e f g4 \noBreak %30
+    a2 g4 c
+    f,2 e4 a
+    d, g4. fis16 e \hA fis4
+    r c'4. h16 a h4
+    e,8 d e fis g d g4~ %35
+    g8 fis16 e \hA fis4 g f~
+    f8 e16 d e8 f g f16 e d8 g
+    c,4 r8 c' h4. a16 g
+    a8 h c h16 a g fis g8 a16 g a8
+    d,4 g4. fis16 e \hA fis4 %40
+    g4. g8 a4 g8 a16 h
+    c4. h16 a h4. a16 g
+    a g a8 a,4 r8 d g f
+    e4 r8 c' f,16 e f8 r d'
+    g,16 f g8 r e d d'4 c8 %45
+    h4 g a4. a8
+    h c16 d c2 h4
+    c2 r\fermata \bar "|." %48 finis
+  }
+}
+
+B-XXXIIAgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-XXXIIAgnus
+    e'16\fE c g'8~ g16 c h d c h32 a g f e d c16 e8 gis16
+    a g32 f e d c h a16 c8 e16 f e32 d c h a g f16 a8 d16~
+    d g8 e16 d g8 fis16 g \hA fis32 e d c h a g16 h d, g
+    h,4 r r2
+    R1*2 %6
+    r4 r16 a'32\f h c16 d e32 c d e f g a h c16 h32 a g16 f
+    e8. f16 g8 c~ c32( a16.) f32( a16.) c,32( f16.) a,8
+    r16 a' f32( a16.) d,32( f16.) c8 r16 f d32( f16.) b,32( d16.) a8
+    b32( g16.) \hA b32( d16.) c32( g16.) a32( f'16.) e32 c d e f g a h? c16 g e c %10
+    r4 r8 e,4\p a8 r d,
+    h'4 r8 c, a'4 r8 h,
+    gis'4 r r2
+    r8 gis32(\fE h16.) a32( c16.) h32( d16.) c16 d32 e f g a h c16 g e g
+    c,32 c, d e f g a h c16 g e c' a f8 a16 c e8 g16 %15
+    d32 g, a h c d e f g16 c8 e,16 d4 r16 h d g
+    e8 d r16 h,\p d g e8 d r4
+    r8 g'\f e d e g c, d16 e
+    f g a8 c, d16 e f8 a16 g f8 c
+    r a f' e d g e16 d e8 %20
+    d d4 e8 d4 r\fermata \bar "||"
+    \time 3/8 \tempoB-XXXIIDona \newSpacingSection
+      c32( d) e( f) e([ f) g( a)] g( a) h( c) \noBreak
+    h( c) d( c) h([ a) g( a)]^\critnote g( f) e( d)
+    e( f) g( f) e([ d) c( d)] c( b) a( \hA b)
+    a'( b) c( \hA b) a([ g) f( g)] f( e) d( e) %25
+    h'( c) d( c) h([ a) g( a)] g( f) e( f)
+    e( f) g( f) e([ f) d( e)] c( e) d( f)
+    e( f) g( f) e([ f) d( e)] c( e) d( f)
+    e( g) c( e,) d8[ g]
+    e16 c32( e) c([ g) e( c')] g( e) c( e) %30
+    c4 r8
+    R4.
+    r32 g''\p f( g) e([ f) d( e)] c16 c,
+    g'8[ r16 g h g]
+    c8 r r %35
+    R4.
+    r32 e[ d( e)] c( d) h( c) a8
+    R4.
+    r32 e' d( e) c([ d) h( c)] a( h) g( a)
+    f( g) e( f) d8 r %40
+    r32 d' c( d) h([ c) a( h)] g( a) f( g)
+    e([ f) d( e)] c16 g'' e c~
+    c a f a' f d~
+    d h g g' e c~
+    c a'8 f16^\critnote d g %45
+    e32(\f g) f( g) e[( f) d( e)] c( d) h( c)
+    a( h) g( a) f([ g) e( f)] d( e) c( d)
+    h16-\critnote g r8 r
+    c'32( d) e( f) e([ f) g( a)] g( a) h( c)
+    a( b) c( \hA b) a([ \hA g) f( g)] f( e) d( e) %50
+    d( e) fis( g) \hA fis([ g) a( h)] a( h) c( d)
+    h( c) d( c) h([ a) g( a)] g( f) e( f)
+    e( f) g( f) e([ f) d( e)] c( e) d( f)
+    e( f) g( f) e([ f) d( e)] c( e) d( f)
+    e( g) c( e,) d8[ g] %55
+    e16 c32( e) c([ g) e( c')] g( e) c( e)
+    c8 <c e> q
+    q4 r8\fermata \bar "|." %58 finis
+  }
+}

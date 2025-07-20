@@ -1,9 +1,14 @@
 \version "2.24.0"
 
 SIsolo = \markup \remark "S 1 solo"
+SIeIIsolo = \markup \remark "S 1 & 2 solo"
 SIIsolo = \markup \remark "S 2 solo"
 Asolo = \markup \remark "A solo"
 Atutti = \markup \remark "A tutti"
+markOsannaUtSupra = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Osanna ut supra"
+}
 
 tempoB-XXXIIKyrie = \tempoMarkup "Vivace"
   tempoB-XXXIIChriste = \tempoMarkup "Passato"
@@ -23,6 +28,12 @@ tempoB-XXXIICredo = \tempoMarkup "Allegro"
   tempoB-XXXIIEtResurrexit = \tempoMarkup "Vivace" % 100
   tempoB-XXXIIEtUnam = \tempoMarkup "Larghetto" % 55
   tempoB-XXXIIEtVitam = \tempoMarkup "Allegro" % 110
+tempoB-XXXIISanctus = \tempoMarkup "Largo"
+  tempoB-XXXIIPleni = \tempoMarkup "Andante"
+  tempoB-XXXIIOsanna = \tempoMarkup "Osanna · Allegro"
+tempoB-XXXIIBenedictus = \tempoMarkup "Largo"
+tempoB-XXXIIAgnus = \tempoMarkup "Vivace"
+  tempoB-XXXIIDona = \tempoMarkup "Allegro"
 
 \include "notes/cor1.ly"
 \include "notes/cor2.ly"

@@ -578,3 +578,218 @@ B-XXXIICredoAltoLyrics = \lyricmode {
   men, a -- %160
   men, a -- men. %161 finis
 }
+
+B-XXXIISanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoB-XXXIISanctus
+    \mvDl g'4\fE^\tutti g e8([ g)] a([ g)]
+    g4. g8 g2
+    g4 r r2
+    R1
+    r8 gis([ e)] \hA gis a([ \hA gis] a4) %5
+    gis r r2
+    r r8 e4 a8
+    fis[ g!16 a] g4. \hA fis16[ e] \hA fis4
+    g r r2
+    r8 g g g g4 e %10
+    f!4. e16([ d)] e8 g([ f)] e
+    d4 e d8[( g] e[ d16 c]
+    d4.) d8 e4 r
+    R1 \noBreak
+    R\fermata \bar "||" %15
+    \key f \major \tempoB-XXXIIPleni R1*3
+    r8 \mvTr c\pE^\SIIsolo f f g16([ f)] g8.([ a16)] b8
+    \tuplet 3/2 8 { a16([ g f)] } f8 r4 r2 %20
+    r8 g~ \sbOn \tuplet 3/2 8 { g16[ a h c d e] } a,[ g a8]~ \tuplet 3/2 8 { a16[ h c d e f] }
+    h,[ a \hA h8]~ \tuplet 3/2 8 { h16[ c d~ d c d] } \sbOff e([ c)] a([ d)] \appoggiatura c8 h4\trill
+    c r r2
+    r4 f, g~ g16[ a] \tuplet 3/2 8 { b!([ a g)]
+    a([ g f)] } f8 \sbOn \tuplet 3/2 8 { a16[ g f f e d] } d8[ b']~ \tuplet 3/2 8 { b16[ a g g f e] } %25
+    e8[ e']~ \tuplet 3/2 8 { e16[ d c c b a] } \sbOff a8 b16 b g4\trill
+    a r r2
+    R1 \noBreak
+    R\fermata \bar "||"
+    \key c \major \tempoB-XXXIIOsanna
+      \mvTr c,4.(\fE^\Atutti d8) e([ f)] g4 \noBreak %30
+    a2 g4( c)
+    f,2\trill e4 a
+    d,( g4. fis16[ e]) \hA fis4
+    r c' c8[([ h16 a)] h4
+    e,8([ d)] e([ fis)] g[ d] g4~ %35
+    g8[ fis16 e] \hA fis4 g f?
+    f8[ e16 d] e8[ f] g[ f16 e] d8[ g]
+    c,4 r8 c' \once \stemUp h4.( a16[ g)]
+    a8[ h] c[ h16 a] g[ fis g8] a16[ g a8]
+    d,4 g g8([ fis16 e)] \hA fis4 %40
+    g4. g8 a4 g8[ a16 h]
+    c4. h16[ a] h4. a16[ g]
+    a[ g a8] a,4 r8 d g([ f)]
+    e4 r8 c' f,16([ e)] f8 r d'
+    g,16([ f)] g8 r e d d'4( c8 %45
+    h4) g a4. a8
+    g1
+    g2^\critnote r\fermata \bar "|." %48 finis
+  }
+}
+
+B-XXXIISanctusAltoLyrics = \lyricmode {
+  San -- ctus, san -- ctus,
+  san -- ctus, san --
+  ctus,
+
+  san -- ctus, san -- %5
+  ctus,
+  san -- ctus,
+  san -- _ _ _
+  ctus
+  Do -- mi -- nus De -- us %10
+  Sa -- ba -- oth, De -- us,
+  De -- us Sa --
+  ba -- oth.
+
+  Ple -- ni sunt coe -- li __ et %19
+  ter -- ra %20
+  glo -- _
+  _ ri -- a __ tu --
+  a,
+  ple -- ni __ sunt
+  coe -- li glo -- _ %25
+  _ _ ri -- a tu --
+  a.
+
+  O -- san -- na %30
+  in ex --
+  cel -- sis, ex --
+  cel -- sis,
+  o -- san -- na
+  in __ ex -- cel -- _ %35
+  _ sis, o --
+  san -- _ _ _
+  na in ex --
+  cel -- _ _ _
+  sis, o -- san -- na %40
+  in ex -- cel -- _
+  _ _ _ _
+  _ sis, o -- san --
+  na, o -- san -- na, o --
+  san -- na in ex -- cel -- %45
+  sis, in ex --
+  cel --
+  sis. %48 finis
+}
+
+B-XXXIIAgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoB-XXXIIAgnus
+    \mvDl g'4.\fE^\tuttiE g8 g g r gis
+    a16([ gis)] a8 r e f16([ e)] f8 r f16([ a)]
+    g8 g g([ fis)] g4 r
+    r8 \mvTr e4\pE^\soloE^\aTre e8 e([ f)] f4
+    f( fis) g8 d4 d8 %5
+    d( c4) d8 c4( h)\trill
+    a r r2
+    \mvDl g'!4.\fE^\tutti g8 f f r e
+    f f r f f f r fis
+    g g g([ f)] e4 r %10
+    \mvTr e\pE^\soloE^\aTre gis8[( h)] c4. h16[ a]
+    h4. a16[ g] a4. gis16[ fis?]
+    gis4 a8([ \hA gis)] e([ \hA gis] a16[ \hA gis a8)]
+    gis4 r \mvTr g4.\fE^\tutti e8
+    e4 e8 g a4 g8 g %15
+    g g g4 g r8 g
+    g g r d\p e d r4
+    r8 e\fE g h g([ e16 f] g4)
+    a c8([ b)] a([ f16 g] a8) g
+    f4.( g16[ a] g2) \noBreak %20
+    g4 r r2\fermata \bar "||"
+    \time 3/8 \tempoB-XXXIIDona \newSpacingSection
+      g8. g16 g g \noBreak
+    g8 g r
+    r g g
+    r a f %25
+    r d([ g)]
+    g g4
+    g8 g4
+    g8 g4
+    g8 r r %30
+    R4.*2
+    r8 \mvTr e\pE^\solo e
+    d32([ c d8)] e16 f e32([ d)]
+    e8 e r %35
+    R4.*4
+    r8 a^\SIIsolo f %40
+    d d r
+    r r c~
+    c16[ d32 e] f8 d~
+    d16[ e32 f] g8.([ a32 h)]
+    e,8.([ a16 g d')] %45
+    c8 r r
+    R4.*2 %48
+    \mvTr g8.\fE^\Atutti g16 g g
+    a8 a r %50
+    a8. a16 fis a
+    g8 g r
+    g4 g8
+    g4 g8
+    g4.\trill %55
+    g4 r8
+    R4.
+    R\fermata \bar "|." %58 finis
+  }
+}
+
+B-XXXIIAgnusAltoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta, pec --
+  ca -- ta mun -- di:
+  Mi -- se -- re -- re
+  no -- bis, mi -- se -- %5
+  re -- re no --
+  bis.
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta, pec --
+  ca -- ta mun -- di: %10
+  Mi -- se -- re -- _
+  _ _ _ _
+  _ re __ no --
+  bis. A -- gnus
+  De -- i, qui tol -- lis pec -- %15
+  ca -- ta mun -- di, pec --
+  ca -- ta, pec -- ca -- ta,
+  pec -- ca -- ta mun --
+  di, pec -- ca -- ta
+  mun -- %20
+  di:
+  Do -- na no -- bis
+  pa -- cem,
+  no -- bis
+  pa -- cem, %25
+  pa --
+  cem, pa --
+  cem, pa --
+  cem, pa --
+  cem. %30
+
+  Do -- na, %33
+  do -- na no -- bis
+  pa -- cem. %35
+
+  do -- na %40
+  no -- bis,
+  do --
+  na no --
+  bis __
+  pa -- %45
+  cem.
+
+  Do -- na no -- bis %49
+  pa -- cem, %50
+  do -- na no -- bis
+  pa -- cem,
+  do -- na
+  no -- bis
+  pa -- %55
+  cem. %56 finis
+}

@@ -202,3 +202,82 @@ B-XXXIICredoCornoII = {
     e8 c g g16 g e4 r\fermata \bar "|." %161 finis
   }
 }
+
+B-XXXIISanctusCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-XXXIISanctus
+    R1*2
+    c8.\fE c32 c e16 c g' e \tuplet 3/2 8 { \sbOn c16 c c e e e g g g c c c \sbOff }
+    g16. g64 g g16 g g g g g g,4 r
+    R1 %5
+    e'8. e32 e e16 e e e e e e e e e32 e e16 e
+    e4 r r2
+    R1
+    g8. g32 g g16 g g g \tuplet 3/2 8 { \sbOn c c c g g g e e e c c c \sbOff }
+    g'4 r r8 c c c %10
+    d4. c16 h c8 e d c
+    g4 r8 e' d d e d16 c
+    g8. g32 g g16 g g g g4 r
+    c,8. c32 c e16 c g' e \tuplet 3/2 8 { \sbOn c' c c g g g \sbOff } e8 g \noBreak
+    c,4 r r2\fermata \bar "||" %15
+    \tempoB-XXXIIPleni R1*13 \noBreak %28
+    R1\fermata \bar "||"
+    \tempoB-XXXIIOsanna R1*7 %36
+    r2 r4 g'\fE
+    c4. c8 d c16 h c4~
+    c8 d c d e4 d
+    d_\critnote r r2 %40
+    r g,4. d'8
+    c d16 e f4~ f8 e16 d e4~
+    e8 d16 c d8 c g4 r
+    R1*2 %45
+    r8 d'4 c c8 d4~
+    d c g8 g16 g g8 g
+    e2 r\fermata \bar "|." %48 finis
+  }
+}
+
+B-XXXIIAgnusCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-XXXIIAgnus
+    c'4.\fE g8 c16 h c8 r e
+    c c r e f16 e f8 r f
+    d e d c d4 r
+    R1*4 %7
+    e8.\fE e16 c8 e c c r e
+    f f r c d d r d
+    d d c4\trill c r %10
+    R1*3
+    r2 c,8.\fE c32 c c16 c c c
+    c8. c32 c c16 c c c c8. c32 c c16 c c c %15
+    g'8. g32 g g16 g g g g4 r8 g16 g
+    g8 g r4 r2
+    r r8 c16 d e8 f16 g
+    f4. e8 f c4 d16 e
+    f8 d16 e f8 e d4\trill c \noBreak %20
+    g8. g32 g g16 g g g g4 r\fermata \bar "||"
+    \time 3/8 \tempoB-XXXIIDona \newSpacingSection
+      c8 c e \noBreak
+    d r16 g, g g
+    g4 c8
+    c4\trill d8 %25
+    d8. d16 g, g
+    g g32 g g8 r
+    g16 g32 g g8 r
+    c g16 g32 g g16 g
+    g g32 g g8 r %30
+    R4.*18 %48
+    c8\fE c e
+    c16 c32 c c8 r %50
+    d d d
+    d16 d32 d d8 r
+    c16 g32 g g16 g g g
+    g g32 g g16 g g g
+    g8. g32 g g16 g %55
+    g8 g e
+    c16. c64 c c32[ c c c] c16. c64 c
+    c4 r8\fermata \bar "|." %58 finis
+  }
+}
