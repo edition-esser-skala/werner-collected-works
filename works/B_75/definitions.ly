@@ -1,0 +1,38 @@
+\version "2.24.0"
+
+markOsannaUtSupra = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Osanna ut supra"
+}
+
+tempoB-LXXVKyrie = \tempoMarkup "Vivace"
+  tempoB-LXXVChriste = \tempoMarkup "Christe · Andante"
+  tempoB-LXXVKyrieFuga = \tempoMarkup "Allegro"
+tempoB-LXXVGloria = \tempoMarkup "Allegro"
+  tempoB-LXXVLaudamus = \tempoMarkup "Laudamus · Larghetto"
+  tempoB-LXXVGratias = \tempoMarkup "Gratias · Largo"
+  tempoB-LXXVPropter = \tempoMarkup "Vivace"
+  tempoB-LXXVDomine = \tempoMarkup "Domine · Andante"
+  tempoB-LXXVQuiTollis = \tempoMarkup "Qui tollis · Adagio"
+  tempoB-LXXVQuiSedes = \tempoMarkup "Qui sedes · Allegro"
+  tempoB-LXXVQuoniam = \tempoMarkup "Quoniam · Ariose"
+  tempoB-LXXVCumSancto = \tempoMarkup "Cum Sancto · Tempo ordinario"
+  tempoB-LXXVCumSanctoFuga = \tempoMarkup "Allegro"
+tempoB-LXXVCredo = \tempoMarkup "Vivace"
+  tempoB-LXXVEtIncarnatus = \tempoMarkup "Et incarnatus · Largo"
+  tempoB-LXXVCrucifixus = \tempoMarkup "Crucifixus · Adagiose"
+  tempoB-LXXVEtResurrexit = \tempoMarkup "Et resurrexit · Vivace"
+  tempoB-LXXVEtInSpiritum = \tempoMarkup "Et in Spiritum · Andante"
+  tempoB-LXXVEtVitam = \tempoMarkup "Et vitam · Allegro"
+tempoB-LXXVSanctus = \tempoMarkup "Allegro"
+  tempoB-LXXVPleni = \tempoMarkup "Pleni · Tempo giusto"
+  tempoB-LXXVOsanna = \tempoMarkup "[Tempo deest]"
+tempoB-LXXVBenedictus = \tempoMarkup "Larghetto"
+tempoB-LXXVAgnus = \tempoMarkup "Vivace"
+  tempoB-LXXVDona = \tempoMarkup "Dona · Allegro"
+
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"

@@ -1,0 +1,28 @@
+title: Missa
+subtitle: fragment
+id: WerW B.75
+genre: mass
+scoring: S, A, T, B (coro), [?], b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.39/2
+    rism: 530003972
+    url: https://copia.oszk.hu/kotta/7-orgelstimmen-zu-werners-messen/
+    license: public domain
+    principal: true
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms. mus. IV. 2.166
+    rism: 1001303905
+    license: public domain
+tocstyle: default
+toe: |
+  – & – & –   & \A1 only comprises an org part. \B1 contains three
+                fugues from this mass (\textit{Kyrie eleison},
+                \textit{Cum Sancto Spiritu}, and \textit{Osanna}),
+                but lacks lyrics. \\
+  2 & B & 187 & 3rd \quarterNote\ in \B1: A4 \\
+extra_abbreviations:
+  "?": unknown
