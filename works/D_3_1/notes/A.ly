@@ -3,26 +3,26 @@
 D-III-IAlto = {
   \relative c' {
     \clef treble
-    \key g \dorian \time 4/2 \tempoD-III-I
+    \key g \dorian \time 4/2 \tempoD-III-Ia
       \set Staff.timeSignatureFraction = 2/2
       \markTimeSig #'(4 2)
     g'\breve~
-    g2 fis4 e fis1\fermata
+    g2 fis4 e \hA fis1\fermata \bar "||"
     f\breve
-    f\fermata
+    f\fermata \bar "||"
     r2 f2. f4 g2 %5
     as1. as2
     g1 g~
-    g2 fis r fis
+    g2 fis r \hA fis
     g1 f2 f~
     f4 f f2 f1 %10
     f r2 d~
     d es f1
     f2 f g1
-    fis r2 fis
+    fis r2 \hA fis
     g1 g2 f~ %15
     f4 f f2 f es4( d)
-    es1 r2 es
+    es1 r2 \hA es
     e2. e4 e2 e
     d e d1
     d r2 g %20
@@ -31,10 +31,11 @@ D-III-IAlto = {
     f f4 f g2 as4 as
     g2 g4 g g2( fis)
     g1 r2 e\p %25
-    f f4 f g2 as4 as
+    f! f4 f g2 as4 as
     g2 g4 g g2( fis) \noBreak
     \time 2/2 \markTimeSig #'(2 2) g1\fermata \bar "||"
-    \time 4/2 \markTimeSig #'(4 2) r2 g g( fis) \noBreak
+    \time 4/2 \markTimeSig #'(4 2) \tempoD-III-Ib
+      r2 g g( fis) \noBreak
     g f1 f4 f %30
     f2 es f1
     es r2 f~
@@ -48,10 +49,10 @@ D-III-IAlto = {
     r2 e\p f f4 f %40
     g2 as4 as g2 g4 g \noBreak
     g2( fis) g1\fermata \bar "||"
-    \key d \dorian e1 e2 e \noBreak
+    \tempoD-III-Ic e1 e2 e \noBreak
     f1 gis
     a r2 a %45
-    d, fis4 a g2 fis
+    d, fis4 a g!2 fis
     g1 fis
     r2 fis g g4 g
     g2 g g( fis)
@@ -66,20 +67,20 @@ D-III-IAlto = {
     g1 f
     f2( e) fis1
     r2 e\p a a %60
-    g1 f \noBreak
+    g1 f! \noBreak
     f2( e) fis1\fermata \bar "||"
-    \key g \dorian g2 g1 a2 \noBreak
+    \tempoD-III-Id g2 g1 a2 \noBreak
     f!2. f4 f2 f
     es2. es4 c2 f~ %65
     f g a1
     r2 fis g g~
     g a f( b)
     \time 2/2 \markTimeSig #'(2 2) a1
-    \time 4/2 \markTimeSig #'(4 2) r2 f f f %70
+    \time 4/2 \markTimeSig #'(4 2) \tempoD-III-Ie r2 f f f %70
     r f\p g f
     r f\f f f
     f1 f
-    r2 fis fis fis4 fis
+    \tempoD-III-If r2 fis fis fis4 fis
     g2. g4 fis1 %75
     r2 fis\p fis fis4 fis
     g2. g4 fis1

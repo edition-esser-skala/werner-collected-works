@@ -5,18 +5,20 @@ festival: Sabbatum Sanctum
 scoring: S, A, T, B (coro)
 license: cc-by-sa-4.0
 sources:
-  B1:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.265
+    rism: 530003599
+    url: https://copia.oszk.hu/kotta/4-responsoria/
+    license: public domain
+    principal: true
+  B2:
     siglum: A-Ed
     shelfmark: B 61
     rism: 600038028
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/790.html
     license: public domain
-    principal: true
 toe: |
-  – & – & It is unclear whether this work comprises
-          (a) a single movement,
-          (b) two responsories with respective verses, or
-          (c) four separate movements. \\
   – & B & All bass figures have been added by the editor. \\
 lyrics:
   Ecce quomodo moritur iustus\\

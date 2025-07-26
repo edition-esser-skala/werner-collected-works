@@ -3,13 +3,13 @@
 D-III-IBasso = {
   \relative c {
     \clef bass
-    \key g \dorian \time 4/2 \tempoD-III-I
+    \key g \dorian \time 4/2 \tempoD-III-Ia
       \set Staff.timeSignatureFraction = 2/2
       \markTimeSig #'(4 2)
-    g'\breve
-    d\fermata
+    g'\breve^\critnote
+    d\fermata \bar "||"
     b'
-    f\fermata
+    f\fermata \bar "||"
     r2 d2. d4 c2 %5
     h1. h2
     c1 cis
@@ -34,7 +34,8 @@ D-III-IBasso = {
     f d4 d c2 h4 h
     c2 cis4 cis  d1 \noBreak
     \time 2/2 \markTimeSig #'(2 2) g,\fermata \bar "||"
-    \time 4/2 \markTimeSig #'(4 2) r2 g' d1 \noBreak
+    \time 4/2 \markTimeSig #'(4 2) \tempoD-III-Ib
+      r2 g' d1 \noBreak
     g2 b1 f4 f %30
     d2 c h1
     c r2 f~
@@ -48,7 +49,7 @@ D-III-IBasso = {
     r2 c\p f d4 d %40
     c2 h4 h c2 cis4 cis \noBreak
     d1 g,\fermata \bar "||"
-    \key d \dorian e'1 e2 e \noBreak
+    \tempoD-III-Ic e'1 e2 e \noBreak
     d1. d2
     a1 r2 a' %45
     g fis4 fis g2 d
@@ -68,18 +69,18 @@ D-III-IBasso = {
     r2 a\p a a %60
     b1 gis \noBreak
     a d\fermata \bar "||"
-    \key g \dorian g2 g1 f2 \noBreak
+    \tempoD-III-Id g2 g1 f2 \noBreak
     b2. b4 f2 d
     c2. c4 f1 %65
     b, a
     r2 d g c,!~
     c f b,1
     \time 2/2 \markTimeSig #'(2 2) f
-    \time 4/2 \markTimeSig #'(4 2) r2 f' b, f' %70
+    \time 4/2 \markTimeSig #'(4 2) \tempoD-III-Ie r2 f' b, f' %70
     r f\p e f
     r f\f d! b
     f1 b
-    r2 d d d4 d
+    \tempoD-III-If r2 d d d4 d
     es2. es4 d1 %75
     r2 d\p d d4 d
     es2. es4 d1
@@ -225,18 +226,18 @@ D-III-IBassFigures = \figuremode {
   r1. <6!>2 %40
   <_-> <7-> <_-> <7- _!>
   <4> <_+> <_!>1
-  <5>1. <6\\>2
-  <5 3>1 <6 4\+>
+  <5!>1. <6\\>2
+  <5 3>1 <6! 4\+ 3>
   <_+>1. <\t>2 %45
   <_-> <6> <_-> <_+>
-  <5 _-> <4\+ 2> <_+>1
+  <5 3> <4\+ \t> <_+>1
   r2 <\t> <_-> <6>
-  <_->1 <5 _->2 <4\+ 2>
-  r\breve %50
-  <_!>
+  <_-> <_!> <5 _-> <4\+ \t>
+  <_!>1. <\t>2 %50
+  <_!>\breve
   r
-  r2 <_->1 <5->2
-  r\breve
+  r
+  r
   r1. <_!>2 %55
   q\breve
   r2 <_+>1.
@@ -257,9 +258,9 @@ D-III-IBassFigures = \figuremode {
   r <6>
   r\breve
   r2 <_+>1.
-  <7>4 <6\\>2. <_+>1 %75
+  <7>2 <6\\> <_+>1 %75
   r2 <\t>1.
-  <7>4 <6\\>2. <_+>1
+  <7>2 <6\\> <_+>1
   r2 <5!>1 <_!>2
   r\breve
   r2 <_+>1. %80

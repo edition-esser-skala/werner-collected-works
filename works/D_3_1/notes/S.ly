@@ -3,19 +3,19 @@
 D-III-ISoprano = {
   \relative c' {
     \clef treble
-    \key g \dorian \time 4/2 \tempoD-III-I
+    \key g \dorian \time 4/2 \tempoD-III-Ia
       \set Staff.timeSignatureFraction = 2/2
       \markTimeSig #'(4 2)
     b'\breve~
-    b2 a4 g a1\fermata
+    b2 a4 g a1\fermata \bar "||"
     b\breve~
-    b2 a4 g a1\fermata
+    b2 a4 g a1\fermata \bar "||"
     r2 a2. h4 c2 %5
     d1. d2
     d( c) b!1~
     b2 a r d
     d es1 d2~
-    d4 d c2 b( a4 g) %10
+    d4 d c2 \once \stemUp b( a4 g) %10
     a1 r2 g~
     g g a1
     b2 d d( cis)
@@ -34,7 +34,8 @@ D-III-ISoprano = {
     a h4 h c2 d4 d
     c2 b4 b a1 \noBreak
     \time 2/2 \markTimeSig #'(2 2) h\fermata \bar "||"
-    \time 4/2 \markTimeSig #'(4 2) r2 b a1 \noBreak
+    \time 4/2 \markTimeSig #'(4 2) \tempoD-III-Ib
+      r2 b a1 \noBreak
     b2 b1 a4 a %30
     h2 c d1
     c r2 c~
@@ -48,17 +49,17 @@ D-III-ISoprano = {
     r2 g\p a h4 h %40
     c2 d4 d c2 b4 b \noBreak
     a1 h\fermata \bar "||"
-    \key d \dorian h1 h2 cis \noBreak
+    \tempoD-III-Ic h1 h2 cis \noBreak
     d( f1) f2
     e1 r2 cis %45
     d d4 d d2 d
     d( cis) d1
     r2 d es d4 d
     c!2 h c1
-    h r2 h %50
+    h! r2 \hA h %50
     c1. c2
     d2. d4 d2 d
-    c b4 b a2 g
+    c b!4 b a2 g
     f1 f
     r2 a a h! %55
     c2. c4 c1
@@ -68,21 +69,21 @@ D-III-ISoprano = {
     r2 cis\p cis cis %60
     d1 d \noBreak
     d2( cis) d1\fermata \bar "||"
-    \key g \dorian d e2 f \noBreak
+    \tempoD-III-Id d e2 f \noBreak
     d2. d4 c2 d
-    g, c2. c4 a2( %65
-    d1) cis
+    g,( c2.) c4 a2 %65
+    d1 cis
     r2 d d e~
     e f d1
     \time 2/2 \markTimeSig #'(2 2) c!
-    \time 4/2 \markTimeSig #'(4 2) r2 a b a %70
+    \time 4/2 \markTimeSig #'(4 2) \tempoD-III-Ie r2 a b a %70
     r a\p b a
     r a\f b d
     c1 d
-    r2 d d d4 d
-    \appoggiatura d cis2. cis4 d1 %75
+    \tempoD-III-If r2 d d d4 d
+    d2( cis4.) cis8 d1 %75
     r2 d\p d d4 d
-    \appoggiatura d cis2. cis4 d1
+    d2( cis4.) cis8 d1
     r2 d\f d c
     c2. c4 c1
     r2 d d d %80
@@ -159,8 +160,8 @@ D-III-ISopranoLyrics = \lyricmode {
   il -- lum.
   Ne for -- te
   ve -- ni -- ant di --
-  sci -- pu -- li e -- %65
-  ius
+  sci -- pu -- li %65
+  e -- ius
   et fu -- ren --
   tur e --
   um
