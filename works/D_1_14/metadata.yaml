@@ -1,0 +1,48 @@
+title: In dedicatione templi
+id: WerW D.1.14
+genre: motet
+festival: in Dedicatione Ecclesiæ
+scoring: T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: B 58
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/788.html
+    license: public domain
+    principal: true
+toe: |
+  127 & B    & 1st \halfNote\ in \B1: c2 \\
+  128 & vl 1 & 2nd/3rd \halfNote\ in \B1: b′2–a′2 \\
+lyrics:
+  In dedicatione templi\\
+  decantabat populus laudem\\
+  et in ore eorum dulcis resonabat sonus.\\
+  Et dixit Dominus:\\[1ex]
+  Domus mea, domus orationis vocabitur,\\
+  omnis qui hic petit accipiet:\\
+  et qui quaerit, invenit,\\
+  et pulsanti aperietur.\\
+  (\bibleverse{Isa}(56:7), \bibleverse{Mat}(7:8))\\[1ex]
+  Qui confidunt in Domino sicut mons Syon,\\
+  non commovebitur in aeternum\\
+  qui habitat in Ierusalem.\\
+  (\bibleverse{Ps}(125/124:1-2))\\[1ex]
+  Vidi civitatem sanctam Ierusalem novam\\
+  descendentem de coelo a Deo paratam\\
+  sicut sponsam ornatam viro suo.\\
+  (\bibleverse{Rev}(21:2))\\[1ex]
+  Haec templa rex coelestium\\
+  imple benigno lumine\\
+  huc o rogatus adveni\\
+  plebisque vota suscipe\\
+  et corda nostra iugiter\\
+  perfunde coeli gratia.\\
+  Hinc impetrent fidelium\\
+  voces precesque supplicum\\
+  domus beatae munera\\
+  patrisque donis gaudeant\\
+  donec soluti corpore\\
+  sedes beatas impleant.\\
+  (Cantus Index a01591)\\[1ex]
+  Alleluia.

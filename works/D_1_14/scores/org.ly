@@ -1,0 +1,19 @@
+\version "2.24.0"
+
+\include "../../../definitions_main.ly"
+\include "../definitions.ly"
+#(define option-instrument-name "org")
+\include "score_settings/one-staff.ly"
+
+\book {
+  \bookpart {
+    \section "D.1.14" "In dedicatione templi"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \D-I-XIVOrgano }
+        \new FiguredBass { \D-I-XIVBassFigures }
+      >>
+    }
+  }
+}
