@@ -1,0 +1,33 @@
+title: Qui manducat meam carnem
+id: WerW D.2.9
+genre: offertorium
+festival: de Venerabili Sacramento
+scoring: T (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Gk
+    shelfmark: AMC, W. 87.
+    rism: 530012386
+    license: public domain
+    principal: true
+toe: |
+  16ff & vl     & Istvánffy likely changed the 2nd \eighthNote\ in this bar
+                  and subsequent analogous bars from two \sixteenthNote\
+                  (e.g., a′16–b′16 in bar 16) to the tuplet shown. \\
+  74   & org    & 1st to 3rd \eighthNote\ in \B1 illegible
+                  due to manuscript damage \\*
+  120  & clno 1 & 1st/2nd \eighthNote\ in \B1: a″4 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+lyrics:
+  Qui manducat meam carnem,\\
+  et bibit meum sanguinem,\\
+  in me manet, et ego cum illo.\\
+  (\bibleverse{John}(6:57))\\[1ex]
+  Sic sacrificium istud instituit\\
+  cuius officium committi voluit,\\
+  solis presbyteris quibus sic congruit\\
+  ut sumant et dent ceteris.\\
+  (Cantus Index 830301)\\[1ex]
+  Alleluia.
