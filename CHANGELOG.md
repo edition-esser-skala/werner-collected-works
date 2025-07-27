@@ -1,5 +1,13 @@
 # Changelog
 
+## 2025.07.0 – 2025-07-27
+
+### Added
+
+- works: WerW B.5/32/75, D.1.14, D.2.9 (unreleased), D.3.1, and O.7
+- global macros `\aDue` and `\aDueE`
+
+
 ## 2025.06.0 – 2025-06-29
 
 ### Added
