@@ -1,0 +1,34 @@
+title: Deus tuorum militum
+id: WerW F.35
+genre: hymn
+festival: de Martyre
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.210 (5)
+    rism: 530004296
+    url: https://copia.oszk.hu/kotta/hymni-de-b-virgine-de-apostolis-et-aliis-festis-1mae-classis/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: M 32
+    rism: 600038651
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/265.html
+    license: public domain
+lyrics:
+  Deus tuorum militum\\
+  sors et corona praemium\\
+  laudes canentes martyris\\
+  absolve nexu criminis.\\[1ex]
+  Poenas cucurrit fortiter\\
+  et sustulit viriliter\\
+  fundensque pro te sanguinem\\
+  aeterna dona possidet.\\[1ex]
+  Jesu tibi sit gloria\\
+  qui natus es de virgine\\
+  cum Patre et Sancto Spiritu\\
+  in sempiterna saecula.\\[1ex]
+  (Cantus Index 008294)
