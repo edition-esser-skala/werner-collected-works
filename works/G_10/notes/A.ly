@@ -4,6 +4,7 @@ G-XAlto = {
   \relative c' {
     \clef treble
     \key d \minor \time 3/4 \tempoG-Xa \autoBeamOff
+      \once \override Staff.TimeSignature.style = #'single-digit
     R2.*9 %9
     \mvTr d4.\fE^\tutti e16([ fis)] g8 a %10
     b8.[( a16] g8[ f e f])
@@ -16,16 +17,16 @@ G-XAlto = {
     e e f
     e4. e8 e4
     f f f %20
-    f g g
-    f2 e4 \noBreak
+    f8 f g2
+    f4 f e \noBreak
     f2 r4\fermata \bar "||"
     \time 4/4 \tempoG-Xb \newSpacingSection R1*2 %25
-    \mvTr c8.\pE^\solo c16 c4 f8([ a)] f([ c)]
+    \mvTr c8.\pE^\solo c16 c4 f8([ a16 g] f8) c
     d16([ c)] d8 fis a d,4 d
-    r8 e4 g8 c, c a' g
-    fis fis fis4 g8 b4 a8
+    r8 e8.([ f16)] g8 c, c a' g
+    fis16([ e)] \hA fis8 fis4 g8 b4 a8
     gis a a([ gis)] \tempoG-Xc a \mvTr a\fE^\tutti a g %30
-    f d16([ e)] f([ g a8)] d, \once \tieDashed d~ d16[ e f8]
+    f d16([ e)] f([ g a8)] d, d~ d16[ e f8]
     g f f([ e)] f a4 g8
     f d16([ e)] f([ g)] a8 d, d~ d16[ e f8]
     g f f([ e)] f a4 g8
@@ -47,18 +48,18 @@ G-XAlto = {
     g8 \tuplet 3/2 8 { g16([ a b)] a([ b a)] } g([ f)] e[( d)] c8 g' f16([ e)] %50
     a8 g16([ f)] e([ d)] c8 c h g' g
     g1~
-    g8 a16 f \appoggiatura e8 d4\trill c r
+    g8 a16 f \appoggiatura e8 d4 c r
     R1*9 %62
     \tempoG-Xe r8 \mvTr a'4\fE^\tutti f8 d b' a8. g16
     f([ g)] a4( gis8) a a f16([ e f g)]
     a4 a gis8 a a h %65
-    gis a4( gis8) a a4 h8
-    gis8. gis16 a8 a~ a16 a g?8 fis4
+    gis a4( \hA gis8) a a4 h8
+    gis8. gis16 a8 a~ a16 a g8 fis4
     e r8 e a g16([ f)] g8([ e)]
-    f a4 gis16 gis a8 a, f'8. e16
+    f a4 gis16 gis a8 a f8. e16
     d8 g16([ f)] e([ d)] c8 f d16 d b8 c %70
-    r f f e a g16 f g8([ e)]
-    a, f b([ a)] a a' g([ a)]
+    r f f e a g16 f g8([ f16 e)]
+    a8 f b([ a)] a a g([ a)]
     d,4 r r8 g g fis
     b8.([ a16)] g4. f8 e4 \noBreak
     d r r2\fermata \bar "||" %75
@@ -69,18 +70,18 @@ G-XAlto = {
     R1. %80
     r2 d es
     d es es~
-    es d4( c) d es
-    f2 g4 fis g2
+    es d4( c) d( es)
+    f2 g4( fis g2)
     fis1 r2 %85
     R1.*3
     r2 f f
-    f es? es~ %90
-    es4 d d1
+    f es es~ %90
+    es4 d d1\trill
     c r2
     R1.*2
     r2 r a' %95
     f2. f4 fis2
-    g f e
+    g f4( g) e2
     f4( e) f2 r
     R1.*4 \noBreak %102
     R1.\fermata \bar "||"
@@ -88,12 +89,12 @@ G-XAlto = {
     r2 r8 \mvTr d16([\pE^\solo e)] f([ e)] f([ g)] %105
     a8 g16 f g4.( f4 e8)
     f4 r r2
-    r8 f g f16([ e)] a8 f f([ e)]
+    r8 f g f16 e a8 f f([ e)]
     f a g f16([ e)] f4( e)\trill
     d8 \mvTr a'\fE^\tutti a a16 a a8 a g([ f16 e)] %110
     f8 f g f e8. e16 e8 fis
     g g a g fis fis r fis
-    g g g([ fis)] g g g f?
+    g g g([ fis)] g g g f
     e8. e16 g8 e f f16^\critnote f f8 a
     g8. g16 g8 g a4 r8 f %115
     f f f([ e)] f4 r \noBreak
@@ -101,17 +102,17 @@ G-XAlto = {
     \tempoG-Xh R1*2
     r2 \mvTr d8\pE^\solo fis a c! %120
     b2~ b8 a16([ g)] a8 g16([ f)]
-    g4. g8 f4 r
+    g4.\trill g8 f4 r
     R1*4 %126
     \mvTr g4.\fE^\tutti a8 b b b4
     b a8 a f4. f8
     f4( e) e8 e16 e f!8 gis
     a8. a16 gis8 g f fis g a %130
-    d, d r4 r8 g16 g fis8 f
-    es8. es16 d8 d cis16([ h?)] cis8 d([ e?)]
+    d,16([ c)] d8 r4 r8 g16 g fis8 f
+    es8. es16 d8 d cis16([ h \hA cis8] d[ e?)]
     a,4 r r2
-    g'8. g16 fis8 g fis8. fis16 g8 fis
-    g4( fis8[ e)] fis2\fermata \bar "|." %135 finis
+    g'8. g16 fis8 g \hA fis8. fis16 g8 \hA fis
+    g4( fis8[ e)] \hA fis2\fermata \bar "|." %135 finis
   }
 }
 
@@ -127,8 +128,8 @@ G-XAltoLyrics = \lyricmode {
   Chri -- ste ex --
   au -- di nos,
   Chri -- ste ex -- %20
-  au -- di, ex --
-  au -- di
+  au -- di nos,
+  ex -- au -- di
   nos.
 
   Spi -- ri -- tus San -- cte, %26
@@ -180,9 +181,9 @@ G-XAltoLyrics = \lyricmode {
   %80
   re -- fu --
   gi -- um pec --
-  ca -- to -- _
-  _ _ _ _
-  rum, %85
+  ca -- to --
+  rum, o --
+  ra, %85
 
   con -- so -- %89
   la -- trix af -- %90
@@ -197,7 +198,7 @@ G-XAltoLyrics = \lyricmode {
   Re -- gi -- na %105
   Pa -- tri -- ar -- cha --
   rum,
-  re -- gi -- na Pro -- phe -- ta --
+  re -- gi -- na A -- po -- sto -- lo --
   rum, o -- ra pro no --
   bis, re -- gi -- na A -- po -- sto -- lo -- %110
   rum, re -- gi -- na Mar -- ty -- rum, re --
@@ -216,8 +217,8 @@ G-XAltoLyrics = \lyricmode {
   mun -- di: Mi -- se -- re -- re,
   mi -- se -- re -- re, mi -- se -- re -- re %130
   no -- bis, mi -- se -- re -- re,
-  mi -- se -- re -- re, mi -- se -- re --
-  re,
+  mi -- se -- re -- re no --
+  bis,
   mi -- se -- re -- re, mi -- se -- re -- re
   no -- bis. %135 finis
 }

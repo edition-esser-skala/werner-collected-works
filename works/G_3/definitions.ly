@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-tempoG-IIIa = \tempoMarkup "Andante passato"
+tempoG-IIIa = \tempoMarkup "Andante [passato]"
 tempoG-IIIb = \tempoMarkup "Andante"
 tempoG-IIIc = \tempoMarkup "Larghetto"
 tempoG-IIId = \tempoMarkup "Adagio"

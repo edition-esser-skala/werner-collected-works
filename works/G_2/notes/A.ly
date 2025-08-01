@@ -13,15 +13,15 @@ G-II-Alto = {
     f f f8. f16 f4 r
     \mvTr g\pE^\solo \appoggiatura { f!16[ es!] } d8 a' \tuplet 3/2 8 { b16([ a g)] } g8 \sbOn \tuplet 3/2 8 { a16([ b a } g fis)] \sbOff
     g4 r r2
-    g8 d16 d a'([ g)] a8 \tuplet 3/2 8 { b16([ a g)] } a([ b]) \appoggiatura g8 fis4\trill %10
+    g8 d16 d a'([ g)] a8 \tuplet 3/2 8 { b16([ a g)] } a([ b]) fis4\trill %10
     g b8 b a4.( g8)
     f!4 a8 a a2~
-    a8 f f d b' g e4
+    a8 f f d b' g e4\trill
     d r r2
     R1 %15
-    d8. d16 e8 a16([ g] \tuplet 3/2 8 { f[ g f)] } e([ d)] e8([ d16 cis)]
+    d8. d16 e8 a16([ g] \tuplet 3/2 8 { f[ g f)] } e([ d)] \hA e8([ d16 cis)]
     d4 r r2
-    d16([ e)] \tuplet 3/2 8 { f([ e d)] } a'8. g16 f4 fis16([ e)] fis8
+    d16([ e)] \tuplet 3/2 8 { f([ \hA e d)] } a'8. g16 f4 fis16([ e)] \hA fis8
     g2\trill fis8 a4 a8
     b4.( a8) g4 g8 g %20
     g2\trill g8 c4 g8
@@ -37,30 +37,30 @@ G-II-Alto = {
     g8) g f2 %30
     f8 f4 f8 f b,
     c d c d16([ e)] f8 g
-    f g a f f([ e)]
+    f([ g a]) f f([ e)]
     f4 \mvTr c2~\pE^\solo
     c8[ d16 e] f4. g16[ a] %35
-    b8 g e2
+    b8 g e2\trill
     f4 c2~
     c4. d16 e f4~
-    f8 \grace { g32[ a] } b16([ g)] e4.\trill e8
-    f4 r8 a f \tuplet 3/2 8 { f16([ e d)] } %40
-    cis8. cis16 d8 a' f \tuplet 3/2 8 { f16([ e d)] }
+    \tuplet 3/2 8 { f16[ g a] b([ a g)] } \appoggiatura f8 e4.\trill e8
+    f4 r8 a g16([ f)] e([ d)] %40
+    cis8. cis16 d8 a'\tuplet 3/2 8 { b16([ a g)] f([ e d)] }
     cis8. cis16 d8 e f g
     \tuplet 3/2 8 { a16([ g a)] } a,8 r4 r
     r8 d e fis g16([ a)] a([ b)]
-    \tuplet 3/2 8 { b([ a g)] } g4 a8 \appoggiatura g fis4 %45
+    \tuplet 3/2 8 { b([ a g)] } g4 a8 \appoggiatura g fis4\trill %45
     g r r
     R2.*3
     r4 r8 g c, f %50
     d16([ c)] d8 r4 r
     R2.*6 %57
     r4 d2~
-    d8 e16([ f]) g4. g8
-    g a16([ b)] \appoggiatura g4 fis2 %60
+    d8 es!16([ f]) g4. g8
+    g \tuplet 3/2 8 { c16([ b a)] } \appoggiatura g4 fis2\trill %60
     g4 r8 d g f
     es([ d16 es)] c8 es d c
-    b4( a2) \noBreak
+    b4( a2)\trill \noBreak
     g r4\fermata \bar "||"
     \time 4/4 \tempoG-II-c \newSpacingSection
       r2 \mvTr f'4.\fE^\tutti f8 \noBreak %65
@@ -87,12 +87,12 @@ G-II-Alto = {
     f4 f g a
     g a g a~
     a8 a b4 g2
-    a4 r r f(
-    g) b4. a8 g4 %90
+    a4 r r f
+    g b4.( a8) g4 %90
     f a( g8) g f([ e)]
-    c4(^\critnote g') c, f
+    d4( g) c, f
     e a8([ g)] f([ d] f4)
-    e c8 d e([ f)] g([ e)]
+    e c8 d \hA e([ f)] g([ \hA e)]
     f([ c)] f2 es8([ f)] %95
     d4 r r c
     f4. g16([ a)] b4 f
@@ -100,8 +100,8 @@ G-II-Alto = {
     f1 \noBreak
     f\fermata \bar "||" %100
     \tempoG-II-d \mvTr g,8\pE^\solo h d f as4 as8 g16([ f)] \noBreak
-    es8 c16([ d)] es([ f)] g8 cis,([ d16 cis)] d8 c
-    h([ c16 h)] c8 d e16([ d] e4 cis8)
+    es8 c16([ d)] es([ f)] g8 cis,([ d16 \hA cis)] d8 c
+    h([ c16 \hA h)] c8 d e16([ d] \hA e4 cis8)
     a4 r r2
     R1*7 \noBreak %111
     R1\fermata \bar "||"
@@ -130,21 +130,21 @@ G-II-Alto = {
     f\breve\fermata \bar "||" %135
     \time 4/4 \tempoG-II-f \newSpacingSection
       \unset Staff.timeSignatureFraction
-      \mvTr g4.\pE^\solo d8 es4 e16([ d)] e8 \noBreak
+      \mvTr g4.\pE^\solo d8 es4 e16([ d)] \hA e8 \noBreak
     f c r f f([ d)] b([ f')]
     g4.( f8) e4 g
     c, c4. c8 b4~
     b8 a16([ g)] a8. a16 g4 r %140
     R1*4
-    \mvTr f'4.\fE^\tutti fis8 g g4 f?8 %145
+    \mvTr f'4.\fE^\tutti fis8 g g4 g8 %145
     g g4 g8 g4 g8 g
     g g g4 fis r
     r8 g16 d h8 g es'16([ d es16. f32] g8[ e)]
-    c4 r8 f4 b8 b[ a]~
-    a g4 f! es \once \tieDashed d8~ %150
+    c4 r8 f4 b a8~
+    a g4 f! es d8~ %150
     d c e4 d8 d4 g8
-    g4. g8 fis( g4 fis8)
-    g4 r8 h,16 d d8 c16([ h)] c8([ h16 a)]
+    g4. g8 fis( g4 \hA fis8)
+    g4 r8 h,16 d d8 c16([ \hA h)] c8([ \hA h16 a)]
     h2 r\fermata \bar "|."
   }
 }
@@ -181,7 +181,7 @@ G-II-AltoLyrics = \lyricmode {
   pro no -- %30
   bis, san -- cta vir -- go
   vir -- gi -- num, o -- ra, o --
-  ra, o -- ra pro no --
+  ra __ pro no --
   bis. Ma --
   _ _ %35
   _ ter Chri --

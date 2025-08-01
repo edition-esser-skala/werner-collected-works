@@ -4,15 +4,16 @@ G-XTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \minor \time 3/4 \tempoG-Xa \autoBeamOff
+      \once \override Staff.TimeSignature.style = #'single-digit
     R2.*10 %10
-    \mvTr g4.\fE^\tutti a16[( b]) c8( d
+    \mvTr g4.\fE^\tutti a16[( b]) c8([ d]
     e4) r8 c a([ b)]
-    c8.([^\critnote b16] a8) a b([ c)]
-    d4 r8 a g8.([ a32 b)]
+    c8.([ b16] a8) a b([ c)]
+    d4 r8 b g8.([ a32 b)]
     c8 c c2 %15
-    c4 f^\aTre f
+    c4 f f
     f4. f,8 f4
-    r c'2^\tutti
+    r c'2
     c4. c8 c4
     c d c %20
     b b2
@@ -26,8 +27,8 @@ G-XTenore = {
     r2 r4 f8 g
     a a d4 d g,8 a
     h c16([ d)] e4 \tempoG-Xc e r %30
-    r8 \mvTr d\fE^\tutti d c b g16([ a)] b([ c d8)]
-    c c c4 c r
+    r8 \mvTr d\fE^\tutti d c b g16([ a)] b([ c)] d8
+    c4 c c r
     r8 d4 c8 b g16([ a)] b([ c)] d8
     c c c4 c r
     r8 d4 c8 b g16([ a)] b([ c)] d8 %35
@@ -42,22 +43,22 @@ G-XTenore = {
     a d4 h8 g c4( h8)
     c4 r r2 %45
     f,8 b! a d c([ b)] a g16([ a)]
-    b8 r r c d d e e \noBreak
+    b8 r r c d d e! e \noBreak
     d2 e4 r\fermata \bar "||"
     \tempoG-Xd R1*7 %55
-    r4 \mvTr d8.\pE^\solo c16 h8 h c d
-    e e~ e16[ d] e([ h)] c8 cis d e
-    f f4 c8 d f16 c b8. a16
+    r4 \mvTr d8.\pE^\solo c16 h8 h c16([ d)] d([ e)]
+    e8 e~ e16[ d] e([ h)] c8 cis d e
+    f f4 c8 d f16 c b8.\trill a16
     a8 c f4~ f16[ d] c([ b)] a8([ g)]
     f4 r r2 %60
     R1*2
     \tempoG-Xe r2 r8 \mvTr d'4\fE^\tutti c!8
-    a f' e8. d16 cis8 d d16([ cis)] d8
+    a f' e8. d16 cis8 d d16([ \hA cis)] d8
     e a, r d4 c16 a f'8. f16 %65
     e4 r8 e4 f8 dis8. dis16
-    e8 e16([ d)] c([ h)] a8 h( c4 h8)
+    e8 e16([ d)] c([ h)] a8 \hA h( c4 \hA h8)
     h e4( cis8) a f' e4
-    a,16([ b)] c8 d8.([ cis32 d)] e4 r
+    a,16([ b)] c8 d8.([\trill cis32 d)] e4 r
     R1 %70
     r2 r8 d d cis
     f4 e4. d4 c8~
@@ -70,8 +71,8 @@ G-XTenore = {
     fis1.
     g1 r2
     R1.*2 %81
-    h2^\aTre c2. c4
-    f,2 b4( a g2)
+    h2 c2. c4
+    f,2 \once \stemUp b4( a g2)
     f es1
     d r2 %85
     R1.*3
@@ -87,7 +88,7 @@ G-XTenore = {
     R1.*4 \noBreak %102
     R1.\fermata \bar "||"
     \time 4/4 \tempoG-Xg \newSpacingSection R1*3 %106
-    r8 \mvTr c'\pE^\solo b a16([ g)] c8 b \appoggiatura a g4
+    r8 \mvTr c'\pE^\solo b a16([ g)] c8 b \appoggiatura a g4\trill
     f r r2
     R1
     r8 \mvTr f'\fE^\tutti e cis16 cis d8 a c4 %110
@@ -99,7 +100,7 @@ G-XTenore = {
     b a g4 a r \noBreak
     R1\fermata \bar "||"
     \tempoG-Xh \mvTr d8([\pE^\solo a)] a([ g)] f4. e16 d \noBreak
-    c'!4 c8 d es?4. f16([ g)]
+    c'!4 c8 d es4. f16([ g)]
     cis,2 d4 r %120
     R1*6 %126
     \mvTr c4.\fE^\tutti c8 b4 b8 b
@@ -135,8 +136,8 @@ G-XTenoreLyrics = \lyricmode {
   mi -- se --
   re -- re no -- bis, mi -- se --
   re -- re no -- bis. %30
-  San -- cta Ma -- ri -- a, __ o --
-  ra pro no -- bis,
+  San -- cta Ma -- ri -- a, __ o -- ra
+  pro no -- bis,
   san -- cta De -- i __ ge -- ni --
   trix, pro no -- bis,
   san -- cta vir -- go __ vir -- gi -- %35
@@ -198,7 +199,7 @@ G-XTenoreLyrics = \lyricmode {
 
   re -- gi -- na A -- po -- sto -- lo -- %110
   rum, re -- gi -- na Mar -- ty -- rum, re --
-  gi -- na \xE Con -- fes -- so -- rum, \x o --
+  gi -- na Con -- fes -- so -- rum, o --
   ra pro no -- bis, re -- gi -- na
   Vir -- gi -- num, re -- gi -- na San -- cto -- rum
   o -- mni -- um, o -- ra, o -- %115

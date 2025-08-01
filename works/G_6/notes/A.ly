@@ -14,7 +14,7 @@ G-VIAlto = {
     f8. f16 f8 as g4 r %10
     r8 g4 g8 a8. a16 a8 a
     f4 r8 f g g f8. f16
-    f4 r \mvTr d8\pE^\solo g4 fis8
+    f4 r \mvTr d8\pE^\solo^\aDue g4 fis8
     g16([ fis)] g8 r b4 a16([ g] fis8) g
     g16([ fis)] fis8 r4 g4. c,8 %15
     a'4. d,8 b' a16([ g)] f4~
@@ -40,6 +40,7 @@ G-VIAlto = {
     f g f4 f r \noBreak
     R1\fermata \bar "||"
     \key d \minor \time 3/4 \tempoG-VIb \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
       \mvTr d2.~\pE^\solo \noBreak
     d4 cis d %40
     e f2
@@ -84,9 +85,9 @@ G-VIAlto = {
     f r
     R1 %85
     r2 f
-    d4 g es4.\trillE d16[ es]
+    d4 g es4.\trill d16[ es]
     f8[ c f es] d4 g8([ f)]
-    e4( f2 e4)
+    e4( f2 \hA e4)
     f8 a, c a f'4. es16([ d)] %90
     c4 f, r2
     r8 f' a f b2
@@ -127,6 +128,7 @@ G-VIAlto = {
     \tempoG-VId R1*15 \noBreak %141
     R1\fermata \bar "||"
     \time 3/4 \tempoG-VIe \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
       \mvTr f4\fE^\tutti f a \noBreak
     d,4. d8 f4
     g8 g f4 f %145
@@ -165,7 +167,7 @@ G-VIAlto = {
     f f2 \noBreak %185
     f r4\fermata \bar "||"
     \time 4/4 \tempoG-VIf \newSpacingSection
-      \mvTr d4.\pE^\solo b'8 g4 g8 g \noBreak
+      \mvTr d4.\pE^\solo^\aDueE b'8 g4 g8 g \noBreak
     g4 e8 g a, a r a'
     g g b([ a)] f4 r
     R1*2 %191

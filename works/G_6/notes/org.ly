@@ -16,7 +16,7 @@ G-VIOrgano = {
     d4. c8 h4. g8 %10
     c4. b8 a!4. f8
     << { b' a g d } \\ { b4 s } >> es8 c f f,
-    b4 r8 b'16.-\solo^\critnote a32 g4.\pE d8
+    b4 r8 d'16.-\solo b32 g4.\pE d8
     g,4. g'8 c,4 d8 g,
     d'4. b8 es4 c %15
     f! d g a
@@ -29,7 +29,7 @@ G-VIOrgano = {
     e d4. c!8
     b4 e a, d
     g, a b8 b'16 a g8 f %25
-    es2 d
+    es!2 d
     \clef "treble_8" g4^\aTre b8 d g,4. g8
     a4 f! b d
     g, c f, b
@@ -43,6 +43,7 @@ G-VIOrgano = {
     d' es f f, b4. f8 \noBreak
     b4 r r2\fermata \bar "||"
     \key d \minor \time 3/4 \tempoG-VIb \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
       \mvTr d4\pE-\solo c b \noBreak
     a a'8 g f4 %40
     cis d2
@@ -173,7 +174,7 @@ G-VIOrgano = {
     d d d d fis fis fis fis
     g g g g a a a a
     b b b b d, d d d %135
-    es es f f g g g g
+    es es f! f g g g g
     f f f f es es es es
     d d d c h h h h
     c c c c cis cis cis cis
@@ -181,6 +182,7 @@ G-VIOrgano = {
     d d d d g,4 r \noBreak
     r8 c\p c c g4 r\fermata \bar "||"
     \time 3/4 \tempoG-VIe \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
       \mvTr b4\fE-\tutti b' a \noBreak
     g4. g8 d4
     es f f, %145
@@ -224,9 +226,9 @@ G-VIOrgano = {
     es f f,
     b2 r4
     b' f2 \noBreak %185
-    b,2-\critnote r4\fermata \bar "||"
+    b,2^\critnote r4\fermata \bar "||"
     \time 4/4 \tempoG-VIf \newSpacingSection
-      \mvTr g'2\pE-\solo es \noBreak
+      \mvTr g'2\pE-\solo-\aDueE es \noBreak
     e f
     e d
     e d4 c8 b %190
@@ -253,8 +255,8 @@ G-VIBassFigures = \figuremode {
   r2.. <[6]>8
   r2. <6 5>4 %5
   r2 \bo <[6]>
-  <6>1
-  <_!>4. \bc <[6]>8 <5>4 <6>
+  \bc q1
+  <_!>4. <[6]>8 <5>4 <6>
   r <4>8 <_!>2 <\t>8
   <6>4. <6->8 <6>4. <7 [_!]>8 %10
   r4. <6>8 q4. <7->8
@@ -262,23 +264,23 @@ G-VIBassFigures = \figuremode {
   r4. <_+>2 q8
   r2 <7>8 <6>16 <5> <7 _+>4
   <6 4>8 <5 _+>4 <6>8 <7> <6>4. %15
-  <7>8 <6>4. <7>8 <6-> <6 5>4
+  <7>8 <6>4. <7>8 <6->16 <5> <6 5>4
   r <\t \t> <6 4> <5[!] _+>
   r2 <[6 _!]>
-  r <7>4 <6>
-  <7> <6> \bo <7 [_!]> \bc <6 [\t]> %20
-  <7> <6> <_!>4 <[6]>
+  r <7>8 <6[!]>4.
+  <7>8 <6>4. <7 _!>8 <6 \t>4. %20
+  <7>8 <6>4. <_!>4 <[6]>
   <4>8 <_!>4. \bo <5 [4]>8 \bc <\t [3]> <6>4
   <7>8 <6\\>4. <4>8 <3>4.
   <7>4 q <7 [5!]> <7>
-  q8 <6-> <6 5->4 <9>8 <8>4 <[6]>8 %25
+  q8 <6-> <6 5>4 <9>8 <8>4 <[6]>8 %25
   <7>4 <6\\> <_+>2
   r4. <_+>8 r2
   <6[!]>2. <6>4
   <7> q q q
   q8 <6> q <5> <9> <8> <6> <5> %30
   \bo <[9]> \bc <[8]>4. <7 _!> <8 6>8
-  \bo <[6 4]>4 \bc <[5 _!]>2.
+  <6 4>4 <5 _!>2.
   r1
   r
   r2 <5>8 <8> <6>4 %35
@@ -292,8 +294,8 @@ G-VIBassFigures = \figuremode {
   <4> <_-> <7>
   r <4> <3>
   r <6> <6\\> %45
-  r <\t> q
-  <4> <_+> <6>
+  r <\t>2
+  <4>4 <_+> <6>
   <6[!]> <6->2
   <[6]>2.
   <6>4 <4> <3> %50
@@ -324,7 +326,7 @@ G-VIBassFigures = \figuremode {
   r <\t> <6> %75
   q <9> <8>
   r <6> <7 _!>
-  r <4> <3>
+  r <4> <_!>
   r2.
   r1 %80
   r2 <5 4>4 <[\t 3]>
@@ -332,7 +334,7 @@ G-VIBassFigures = \figuremode {
   <4> <3>2.
   <4>4 <3>2.
   <6>1 %85
-  r2 <6>
+  r2 q
   r1
   r
   r2 <4>4 <_!>
@@ -364,7 +366,7 @@ G-VIBassFigures = \figuremode {
   r %115
   <4>4 <3> <[6]> <3>
   <2> <6>8 <\t> <8>4 <6>8 <5>
-  <4 2>4 <6> <5>2
+  <2 4>4 <6> <5>2
   <6 4>4 <5 3>2 <5>8 <6!>
   r4 <10>2 q4 %120
   q q8 q <_!>2
@@ -385,10 +387,10 @@ G-VIBassFigures = \figuremode {
   r4 <6 4> <7> <6!>
   r2 <4 2>
   <6>4. <6- 4>8 <6 5>2
-  r <[7- _!]>
+  r <7[-] 5 [_!]>
   r <5>4 <6\\ 5> %140
   <6 4> <5 _+> <_!>2
-  r8 <_->4 <6 4\+>8 <_!>2
+  r8 <_ _ _->4 <6 4\+ \t>8 <_!>2
   r2 <[6]>4
   r2 <6>4
   <6 5> <9 4> <8 3> %145
@@ -427,7 +429,7 @@ G-VIBassFigures = \figuremode {
   r2 <[6]>4
   <9> <8>2
   <7 5>8 <6 \t> <9> <8>4. %180
-  <7 5>8 <6 \t> <9> <8>4.
+  <7 5>8 <6 \t> <9> <8> <5>4
   <7 5>8 <6 \t> <9> <8>4.
   <6 5>4 <6 4> <5 3>
   r2.
@@ -437,7 +439,7 @@ G-VIBassFigures = \figuremode {
   <6>
   <6\\>2 <5>4. <6!>8
   <6[!]>2 <6->4 <\t> %190
-  \bo <9 [_!]>8 \bc <8 [\t]> <5>4 <6 4> <5 _!>
+  <9 7 _!>8 <8 \t \t> <5>4 <6 4> <5 _!>
   r2 <6\\>
   <6>2 <5>4 <6->
   <7>2 <5 4>4 <\t 3>

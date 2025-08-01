@@ -4,11 +4,12 @@ G-XBasso = {
   \relative c {
     \clef bass
     \key d \minor \time 3/4 \tempoG-Xa \autoBeamOff
+      \once \override Staff.TimeSignature.style = #'single-digit
     R2.*11 %11
     \mvTr c4.\fE^\tutti d16([ e)] f8 g
     a8.([ g16 f8. es16] d8[ c])
-    b4 g'8.([ f16] e8[ d]
-    c[ f]) c2 %15
+    b b'16([ a)] g8.([ f16] e8[ d])
+    c f c2 %15
     f,4 r r
     R2.
     c''4 c c
@@ -28,8 +29,8 @@ G-XBasso = {
     e f c8. c16 f4 r
     r2 r8 g4 f8 %35
     e f c8. c16 f4 r8 d
-    d b f' f r4 r8 f
-    b,16([ c)] d([ e!)] f8 f r4 r8 d
+    d b f' f, r4 r8 f'
+    b,16([ c)] d([ e!)] f8 f, r4 r8 d'
     a b c4 f r
     r r8 g e e f4 %40
     c r r r8 g'
@@ -42,14 +43,14 @@ G-XBasso = {
     g'4( g,) c r\fermata \bar "||"
     \tempoG-Xd R1*4 %52
     r2 \mvTr c'8\pE^\solo g e c
-    g'4. a16([ h)] c8 h16([ c)] d([ h)] g f
+    g'4. a16([ h)] c8 \hA h16([ c)] d([ \hA h)] g f
     e8 c c'4.( fis,8) g e' %55
     d([ h16 g] d4) g, r
     R1*3
     f'8. f16 g8 b a([ g)] fis a %60
     g16([ f)] g([ d)] e8 e16 e f8 c d f16 f
-    b8 f g a16 b e,8 f d4
-    \tempoG-Xe cis r r2
+    b8 f g a16 b e,8 f d([ b')]
+    \tempoG-Xe cis,4 r r2
     r \mvTr a'8\fE^\tutti f16 d b'!8. b16
     a8 a d, d e f d4 %65
     e8 a e4 a, r
@@ -75,7 +76,7 @@ G-XBasso = {
     R1.*2 %91
     c2 c' c
     f,1 b2
-    g e!1
+    g e!1\trill
     f2 r r %95
     R1.*2
     r2 f e
@@ -89,7 +90,7 @@ G-XBasso = {
     f4 r r2
     r8 f e d16([ cis)] d4.( cis8)
     d \mvTr d\fE^\tutti cis a16 a d8 f e([ c?)] %110
-    f f e f c'8. c16 c8 a
+    f f e f c'8. c,16 c8 a'
     g g fis g d d r d
     es c d4 g,8 g' e f
     c8. c16 c8 c f c'16 c a8 f
@@ -115,14 +116,14 @@ G-XBasso = {
 G-XBassoLyrics = \lyricmode {
   Ky -- ri -- e e -- %12
   lei --
-  son, e --
-  lei -- %15
+  son, e -- lei --
+  son, e -- lei -- %15
   son.
 
   Chri -- ste ex --
   au -- di nos,
   Chri -- ste ex -- %20
-  au -- di nos,
+  au -- di __ nos,
   ex -- au -- di
   nos.
 

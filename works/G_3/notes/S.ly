@@ -5,7 +5,7 @@ G-IIISoprano = {
     \clef treble
     \key g \minor \time 4/4 \tempoG-IIIa \autoBeamOff
     R1*4
-    r2\fermata \mvTr d'4.\fE^\tuttiE d8 %5
+    r2\fermata \mvTr d'4.\fE^\tutti d8 %5
     d4 r r d
     es2. d8 d
     c2 d
@@ -48,15 +48,17 @@ G-IIISoprano = {
     d d r d d d d4
     d8 d b es d4 d \noBreak
     d2 d\fermata \bar "||"
-    \time 3/4 \tempoG-IIIc R2. \noBreak %50
+    \time 3/4 \tempoG-IIIc
+      \once \override Staff.TimeSignature.style = #'single-digit
+      R2. \noBreak %50
     r4 \mvTr f,\pE^\solo b
-    as \appoggiatura g8 f2
+    as \appoggiatura g f2
     g4 r r
     f g a!
     b8([ a)] b4 r %55
     R2.
     r4 c f
-    es \appoggiatura d8 c2
+    es \appoggiatura d c2
     d4 r r
     R2.*13 %72
     d4 b8([ a)] g4
@@ -81,10 +83,10 @@ G-IIISoprano = {
     es c2 \noBreak %100
     d r4\fermata \bar "||"
     \time 4/4 \tempoG-IIId R1 \noBreak
-    r2 \mvTr b\pE^\solo
+    r2 \mvTr b\pE^\solo^\aQuattro
     a r8 a d c!
     b2.( a4) %105
-    b8 b d d16 es f4. d16([^\critnote c)]
+    b8 b d d16 es f4. d16([ c)]
     h4 c8 d g,4 r
     r8 c b as g es es' b
     a a h h c4 c8 es

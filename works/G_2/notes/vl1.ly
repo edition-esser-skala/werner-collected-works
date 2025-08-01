@@ -4,7 +4,7 @@ G-II-ViolinoI = {
   \relative c' {
     \clef treble
     \key g \minor \time 4/4 \tempoG-II-a
-    r2 r16 d'\f d( es) es c c( d)
+    r2 r16 d'\fE d( es) es c c( d)
     d b b( c) c a a( b) b8 g r4
     r16 f' f( g) g e e( f) f d d( es) es c c( d)
     d8 d, r4 r16 c' c( d) d8 d,
@@ -12,21 +12,21 @@ G-II-ViolinoI = {
     g g g( a) a f f( c) d b b( d) f d d( f)
     a f d b' c, b' c, a' b d, d( e) e( fis) fis( g)
     g8 g, r4 r2
-    r16 d' d( es) es c c( d) d b b( c) c a a( b)
+    r16 d'\f d( es) es c c( d) d b b( c) c a a( b)
     b4 r r2 %10
-    r cis16\p a cis e cis8.\trill h?32( cis)
-    d16 a d f d8.\trill cis32( d) e16 a, e' g e8.\trill \once \slurDashed d32( e)
+    r cis16\p a \hA cis e \hA cis8.\trill h32 \hA cis
+    d16 a d f d8.\trill cis32 d e16 a, \hA e' g \hA e8.\trill d32 \hA e
     f16 d a f d4 r2
-    r8 b''16\f d, cis8.\trill \once \slurDashed h?32( cis) d16 a a( b) b g g( a)
+    r8 b''16\f d, cis8.\trill h?32 \hA cis d16 a a( b) b g g( a)
     a f f( g) g e e( f) f d' b g f8 e\trill %15
     d4 r r2
-    r16 f' f( g) g e e( f) f d d( e) e cis cis( d)
-    d8 d, r4 a'16\p d, a' c a8.\trill g32( a)
-    b16 d, b' d b8.\trill \once \slurDashed a32( b) a8 fis16 d r4
-    g16 d g b g8 f es16 c es g es8.\trill \once \slurDashed d32( es) %20
-    d16 h d f d8.\trill \once \slurDashed c32( d) es4 r
+    r16 f'\f f( g) g e e( f) f d d( e) e cis cis( d)
+    d8 d, r4 a'16\p d, a' c a8.\trill g32 a
+    b16 d, b' d b8.\trill a32 b a8 fis16 d r4
+    g16 d g b g8 f es!16 c es g es8.\trill d32 es %20
+    d16 h d f d8.\trill c32 d es4 r
     r2 r16 d'\f d( es) es c c( d)
-    d b b( c) c a a( b) b8 \tuplet 3/2 8 { es16 d c } b8 a \noBreak
+    d b b( c) c a a( b) b8 \tuplet 3/2 8 { es16 d c } b8 a\trill \noBreak
     g16 g' g8\trill a fis g4 r\fermata \bar "||"
     \time 3/4 \tempoG-II-b \newSpacingSection
       f8\fE d16 es f4. g8 \noBreak %25
@@ -36,11 +36,11 @@ G-II-ViolinoI = {
     a g f g16 a b8 a
     g8. g16 f8 b c, a' %30
     b b,16 d f8 f4 b8
-    a d, c d16 e f8 g
+    a d, c d16 e? f8 g
     f g a f4 e8
     f4 r r
     R2.*8 %42
-    r8 a,\f h cis d16( e) e( f)
+    r8 a,\fE h cis d16( e) e( f)
     f( e) f8 r4 r
     R2.*19 \noBreak %63
     R2.\fermata \bar "||"
@@ -74,7 +74,7 @@ G-II-ViolinoI = {
     f4 r r2
     r d4. d8
     g,4 c2 b!4
-    a a8 b c d es! c %95
+    a4. b8 c d es! c %95
     d es16 d c8 b a g f4
     r b8 c d es f4~
     f es2 d4
@@ -99,7 +99,7 @@ G-II-ViolinoI = {
     d2 g, es' d4 c
     b d8 c b4 a g a b c %120
     d1 cis4 cis d2~
-    d4 cis8 h? cis2 d2. c4
+    d4 cis8 h \hA cis2 d2. c4
     b2 h c4 g c b
     a2. b8 c b4 c d2~
     d4 e f1 e2 %125
@@ -116,18 +116,18 @@ G-II-ViolinoI = {
     \time 4/4 \tempoG-II-f \newSpacingSection
       \unset Staff.timeSignatureFraction
       R1*4
-    r2 r8 d4\p d8 %140
+    r2 r8 d4\pE d8 %140
     e4. e8 a,4 f'~
     f8 f es es es es, es16 d es8
     d4 r8 g c d es4~
     es8 es d d c4. c8
-    d4. d8\f d8. d16 g8 f! %145
+    d4.\fE d8 d8. d16 g8 f! %145
     g8. g16 g8 d es8. es16 es8 es
     e e e e d d16 a fis8 d
     b'16 a b16. c32 d8 h g8. a32 h c4~
     c8 a f!4 r8 d' c4
     b a g4. f8 %150
-    es g~ g16 fis g8 fis4 g8 b~
+    es g~ g16 fis g8 \hA fis8. fis16 g8 b~
     b c4 es8 d4. d8
     d4 r8 d16 h g8 g fis fis
     g2 r\fermata \bar "|." %154 finis

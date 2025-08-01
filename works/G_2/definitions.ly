@@ -5,7 +5,7 @@ tempoG-II-b = \tempoMarkup "Passato"
 tempoG-II-c = \tempoMarkup "Presto"
 tempoG-II-d = \tempoMarkup "Adagio"
 tempoG-II-e = \tempoMarkup "[Alla breve]"
-tempoG-II-f = \tempoMarkup "Largo"
+tempoG-II-f = \tempoMarkup "Adagio"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

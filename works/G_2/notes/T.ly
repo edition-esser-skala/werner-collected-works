@@ -33,11 +33,11 @@ G-II-Tenore = {
     r8 b16([ c)] d8 d d16([ c)] d8
     c f c d es!16([ d)] es8
     d4 r8 b a4~
-    a8 d d4( cis)
+    a8 d d4( cis)\trill
     d r r %55
     R2.*6 %61
     r8 g, c b! a4
-    g4. fis16[ e?] fis4
+    g4. fis16[ e] \hA fis4
     g2 r4\fermata \bar "||"
     \time 4/4 \tempoG-II-c \newSpacingSection
       \mvTr b4.\fE^\tutti b8 b4 a \noBreak %65
@@ -71,7 +71,7 @@ G-II-Tenore = {
     c8[ g] c2 h4
     c r r2
     R1 %95
-    r4 f,8([ g)] a([ b)] c([ a)]
+    r4 f,8 g a([ b)] c([ a)]
     b4 f r c'
     d g, c b~
     b a8[ g] a2 \noBreak
@@ -98,10 +98,10 @@ G-II-Tenore = {
     R\breve
     r1 b
     b2 f d' c4 b %125
-    c a8[ b] c4 b a c f( es!)
-    d( c8[ b] a4) c b g8([ a)] b4( c)
-    f, d'( c) a f8([ es)] f2 g4
-    a4. g8 f4 g8[ a] b4( a) b( c)
+    c a8[ b] c4 b a c f es!
+    d( c8[ b]) a4 c b g8([ a)] b4( c)
+    f, d' c a f8([ es)] f2 g4
+    a4.( g8 f4 g8[ a]) b4( a) b( c)
     d b r2 r1 %130
     r2 r4 f b2. a4
     g( a8[ b] c4 d) g,2 r4 g
@@ -123,7 +123,7 @@ G-II-Tenore = {
     a'16([ g a16. b32] c8[ a)] f4 c'8 d
     d4. d8 b4 g %150
     g8 c b!16([ a b8)] a4 b8 d
-    es8.([ d16] c4.) b8 a4
+    es16[ d es8]~ es16[ d c8]~ c b a4
     g8 g'16 d h8 g es'4.( d16[ c)]
     d2 r\fermata \bar "|." %154 finis
   }
@@ -144,7 +144,7 @@ G-II-TenoreLyrics = \lyricmode {
   bis, san -- cta De -- i
   ge -- ni -- trix, o --
   ra pro no -- %30
-  bis, san -- cta vir -- go,
+  bis, san -- cta, san -- cta
   vir -- go, o -- ra,
   o -- ra pro no --
   bis.
@@ -194,8 +194,8 @@ G-II-TenoreLyrics = \lyricmode {
   no -- _ _
   bis,
   %95
-  o -- ra __ pro
-  no -- bis, o --
+  stel -- la ma -- tu --
+  ti -- na, o --
   ra pro no -- _
   _ _
   bis. %100
@@ -217,10 +217,10 @@ G-II-TenoreLyrics = \lyricmode {
 
   re --
   gi -- na Mar -- _ _ %125
-  _ _ _ _ _ _ ty --
-  rum, __ o -- ra pro no --
-  bis, o -- ra pro no -- _
-  _ _ _ _ bis, __ pro
+  _ _ _ ty -- rum, o -- ra pro
+  no -- bis, o -- ra pro no --
+  bis, o -- ra pro no -- bis, pro
+  no -- bis, __ pro
   no -- bis, %130
   o -- ra pro
   no -- bis, o --

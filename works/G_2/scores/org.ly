@@ -9,6 +9,7 @@
   \bookpart {
     \section "G.2" "Litaniæ lauretanæ"
     \addTocEntry
+    \paper { system-count = #32 }
     \score {
       <<
         \new Staff { \G-II-Organo }

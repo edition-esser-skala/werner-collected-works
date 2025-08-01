@@ -4,6 +4,7 @@ G-VIViolinoII = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \tempoG-VIa
+      \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
     d'8\f d, r4 b''8 f16. d32 b8 f
     d b r b'4 g8 es c'~
     c a f d'~ d es4 f8~
@@ -42,6 +43,8 @@ G-VIViolinoII = {
     b8 g'16. b32 c,8 a' b, f'16. d32 b8 a \noBreak
     b4 r r2\fermata \bar "||"
     \key d \minor \time 3/4 \tempoG-VIb \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
+      \revert Score.SpacingSpanner.common-shortest-duration
       R2.*40 \noBreak %78
     R2.\fermata \bar "||"
     \key b \major \time 4/4 \tempoG-VIc \newSpacingSection
@@ -54,7 +57,7 @@ G-VIViolinoII = {
     r2 f
     d4 g es4.\trill d16 es
     f8 c f es d4 g8 f
-    e4 f2 e4
+    e4 f2 \hA e4
     f8 a c a f4. es16 d %90
     c2 r
     r8 f a f b2
@@ -93,33 +96,34 @@ G-VIViolinoII = {
     a f f f \noBreak %125
     f2 f\fermata \bar "||"
     \tempoG-VId r8 b~\p b16. g32 g'8 r a,~ a16. fis32 a'8 \noBreak
-    r \once \tieDashed g,~ g16. b32 b8 r16 g' g8 r16 g, g8
-    r \once \tieDashed fis~ fis16. d32 fis8 r d'~ d16. b32 b'8
+    r g,~ g16. b32 b8 r16 g' g8 r16 g, g8
+    r fis~ fis16. d32 \hA fis8 r d'~ d16. b32 b'8
     r16 f, f'8 r16 c a8 r c~ c16. a32 a'8 %130
     r16 d, b8 r16 f d8 r d'~ d16. h32 f'8
     r16 es c8 r16 g es8 r e'~ e16. cis32 g'8
     r16 fis d8 r16 a fis8 r d~ d16. a'32 a8
     b16. g32 d'8~ d16. b32 g'8 r c,~ c16. a32 a'8
     r16 d, b8 r16 f d8 r b'~ b16. f'32 f8 %135
-    g16. es32 g8 f16. d32 f8~ f8. g16 e8.\trill f16
+    g16. es32 g8 f16. d32 f8~ f8.[ g16 e8.\trill f16]
     f8 a,~ a16. f32 f'8 r16 a a8 r16 a, a8
     r b~ b16. f'32 f8 r16 h h8 r16 d, d8
     r c~ c16. g32 es'8 r16 g g8 r16 g, g8
     r16 fis fis8 r16 a a8 r16 g g8 r16 g' g8 %140
-    r16 g, g8 r16 fis fis8 r16 g\p g8 r16 f f8 \noBreak
+    r16 g, g8 r16 fis fis8 r16 g\pp g8 r16 f f8 \noBreak
     r16 es es8 r16 es es8 d4 r\fermata \bar "||"
     \time 3/4 \tempoG-VIe \newSpacingSection
-      b'8.\trill\fE a32 b d8.\trill c32 d f8.\trill es32 f \noBreak
+      \once \override Staff.TimeSignature.style = #'single-digit
+      b'8.\trill\f a32 b d8.\trill c32 d f8.\trill es32 f \noBreak
     b8 b, b4 b'
     g4. as16 g f8 es %145
     d4~ d16 c d c b4
     b8.\trill a32 b c8 c, c'4
     a8.\trill g32 a b8 b, b'4
     g8.\trill f32 g a8 a, c'4
-    f, r8 f' \tieDashed b4~ %150
-    b4. a8 a4~
-    a4. g8 g4~ \tieSolid
-    g4. f8 f8.\trillE e32 f
+    f, r8 f' b4 %150
+    b4. a8 a4
+    a4. g8 g4
+    g4. f8 f8.\trill e32 f
     g8 d f4 e
     f,8.\trill e32 f a8.\trill g32 a c8.\trill b32 c %155
     f8 f, f4 f'
@@ -134,9 +138,9 @@ G-VIViolinoII = {
     f d4. b'8 %165
     a f c a f f'
     d b d f b g
-    fis d' a fis d g
+    fis d' a \hA fis d g
     b g a, g' d, fis'
-    g d' b^\critnote g f a %170
+    g d' b g f a %170
     d, b d f a c
     b f d f b d
     c a f4 r
@@ -145,9 +149,9 @@ G-VIViolinoII = {
     g8.\trill f32 g a8 f c'4
     f,4. d'8 c b
     a f a c f f,
-    g es r b' \tieDashed es4~
+    g es r b' es4
     es4. d8 d4~ %180
-    d4. c8 c4~ \tieSolid
+    d4. c8 c4
     c4. b8 b8.\trill a32 b
     c4 a2\trill
     b8 d f d b f
@@ -156,12 +160,12 @@ G-VIViolinoII = {
     \time 4/4 \tempoG-VIf \newSpacingSection
       R1*2
     r2 r4 f\p
-    e8. f16 g8 f16 e d8 f e d %190
-    e g f4~ f8. g16 e4\trill
+    e8. f16 g8 f16 \hA e d8 f \hA e d %190
+    e g f4~ f8. g16 \hA e4\trill
     f r r2
     R1
     r2 r4 a
-    h8 d c h c c, c'4~ %195
+    h8 d c \hA h c c, c'4~ %195
     c8 b16 a g8 a g4( fis8.)\trill g16
     g8 b\fE c a d4. f!8
     d4 d8 d b b a g

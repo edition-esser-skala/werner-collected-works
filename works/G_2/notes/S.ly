@@ -15,7 +15,7 @@ G-II-Soprano = {
     R1\fermata \bar "||"
     \time 3/4 \tempoG-II-b \newSpacingSection
       \mvDl d4\fE^\tutti b8 d c([ b)] \noBreak %25
-    c c d c b4^\critnote
+    c c d c b4
     b8 c b4( a)
     b b8 d c b
     c8. c16 d8 c b4~
@@ -36,16 +36,16 @@ G-II-Soprano = {
     r r r8 a %60
     d c b([ a16 b] g8[ a16 h)]
     c4 fis,8([ g)] a4(
-    b8) g es4( d) \noBreak
+    b8) g es4(^\critnote d) \noBreak
     d2 r4\fermata \bar "||"
     \time 4/4 \tempoG-II-c \newSpacingSection
       R1*2 %66
     r2 \mvTr b'4.\fE^\tutti b8
     a f d'2 c8 b
-    a([ b)] c([ a)] b4_( a8[ g)]
+    a([ b)] c([ a)] \once \stemUp b4( a8[ g)]
     c4 c d g, %70
     g2~ g8 g f4
-    e2 d4 d'~
+    e2\trill d4 d'~
     d8 d b b g4 c~
     c8 c a a f4 d'
     c f, r2 %75
@@ -58,17 +58,17 @@ G-II-Soprano = {
     fis fis g g g4( fis)
     g2 b4 d
     c4. c8 d4 d
-    es4. es8 d4. d8 %85
+    es es d4. d8 %85
     c4 d4. e8 f4
     g f e8 e f4~
     f d c2
     c4 c d f~
-    f8 e d4( c) e %90
+    f8[ e] d4 c e %90
     a,4. a8 b([ c d e)]
     f4 r r2
     r d4. d8
     g,4 c2( b!4)
-    a a8([ b)] c([ d)] es!([ c)] %95
+    a a8 b c([ d)] es!([ c)] %95
     d([ es16 d] c8[ b] a[ g)] f4
     r b8([ c)] d([ es)] f4~
     f es2 d4
@@ -77,19 +77,19 @@ G-II-Soprano = {
     \tempoG-II-d R1*5 %105
     \mvTr g,8.\pE^\solo g16 b8 d c([ a)] fis([ d)]
     b' g b d f!4 gis,8 gis
-    \once \tieDashed a4~ a16[ h a h] c4 h
+    a4~ a16[ h a \hA h] c4 \hA h\trill
     a r r2
     R1*2 \noBreak %111
     R1\fermata \bar "||"
     \time 4/2 \tempoG-II-e \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2
       R\breve*5 %117
-    r1 \mvTr d\fE^\tuttiE
+    r1 \mvTr d\fE^\tutti
     d2 g,4 g es'2 d4( c)
     b d8[ c] b4 a g a b( c) %120
-    d1 cis4 cis d2~
-    d4 cis8[ h?] cis2 d2. c4
-    b2 h c4 g^\critnote c b
+    d2. d4 cis2 d~
+    d4 cis8[ h?] \hA cis2 d2. c4
+    b2 h c4 g c b
     a2. b8[ c] b4 c d2~
     d4 e f1 e2 %125
     f f, r1
@@ -107,18 +107,18 @@ G-II-Soprano = {
       r2 \mvTr c4.\pE^\solo g8 \noBreak
     as4 a16([ g)] a8 b f r b
     b([ g)] es([ b')] c g c4~
-    c8 b as g fis[ g16 fis] g4~
+    c8 b as g fis[ g16 \hA fis] g4~
     g fis g r %140
     R1*4
     \mvTr d'4.\fE^\tutti d8 d d4 d8 %145
     es es4 h8 c4 c8 c
-    b b b4 a8 d16 a fis8 d
-    b'16([ a b16.^\critnote c32] d8) h g8.[ a32 h] c4~
-    c8[ a] f!4 r8 d' c4
-    b a g4. f8 %150
-    es g g16([ fis g8)] fis4 g8 b
-    b( c4) es8 d2
-    d4 r8 d16 h g8 g fis4
+    b b b4\trill a8 d16 a fis8 d
+    b'16[ a b16. c32] d8[ h] g8.[ a32 \hA h] c16[ \hA h c8]~
+    c[ a] f!4 r8 d' c4
+    b! a g4. f8 %150
+    es g g16([ fis g8)] \hA fis4 g8 b
+    c16([ h] c4) es8 d2
+    d4 d8 h g g fis4
     g2 r\fermata \bar "|." %154 finis
   }
 }
@@ -180,16 +180,16 @@ G-II-SopranoLyrics = \lyricmode {
   bur -- ne -- a, o -- ra __
   pro no --
   bis, do -- mus au --
-  re -- a, __ o -- %90
+  re -- a, o -- %90
   ra pro no --
   bis,
   ia -- nu --
   a coe --
-  li, o -- ra __ pro %95
-  no -- bis,
-  o -- ra, __ o --
-  ra pro
-  no --
+  li, stel -- la ma -- tu -- %95
+  ti -- na,
+  o -- ra pro __
+  no -- _
+  _
   bis. %100
 
   Con -- so -- la -- trix af -- fli -- %106
@@ -224,7 +224,7 @@ G-II-SopranoLyrics = \lyricmode {
   A -- gnus De -- i, qui %145
   tol -- lis pec -- ca -- ta, pec --
   ca -- ta mun -- di: Mi -- se -- re -- re
-  no -- bis, no -- _
+  no -- _ _ _
   bis, mi -- se --
   re -- re, mi -- se -- %150
   re -- re no -- bis, mi -- se --

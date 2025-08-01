@@ -183,9 +183,9 @@ G-XVIIOrgano = {
     d4 d e c
     gis r a'8 g? f e
     d c! h a gis4 a %160
-    e'2 a,4 \mvTr a'8\p-\senzaOrgE ^\tweak TextScript.X-offset #0 ^\critnote a
-    a4. a8 d,2
-    a1\fermata \bar "|." %163 finis
+    e'2 a,4 r
+    R1
+    R\fermata \bar "|." %163 finis
   }
 }
 

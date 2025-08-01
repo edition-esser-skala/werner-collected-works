@@ -19,7 +19,7 @@
 \book {
   \bookpart {
     \section "G.2" "Litaniæ lauretanæ"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
       <<
@@ -71,7 +71,7 @@
         \new FiguredBass { \G-II-BassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 65 } % 90 – 120 – 60 – 240 – 50
+      \midi { \tempo 4 = 65 } % 80 – 120 – 60 – 240 – 50
     }
   }
 }

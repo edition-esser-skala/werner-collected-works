@@ -5,7 +5,7 @@ G-IIIBasso = {
     \clef bass
     \key g \minor \time 4/4 \tempoG-IIIa \autoBeamOff
     R1*4
-    r2\fermata \mvTr g'4.\fE^\tuttiE g8 %5
+    r2\fermata \mvTr g'4.\fE^\tutti g8 %5
     g4 r r h,
     c es8 es f4 b!
     f2 b,4 r8 b'
@@ -36,9 +36,11 @@ G-IIIBasso = {
     f8. f16 f4 b8 b a b %45
     f8. f16 f4 b8 b fis g
     d d r d g d b([ g)]
-    d' b es c d([ d' b g] \noBreak
-    d2) g,\fermata \bar "||"
-    \time 3/4 \tempoG-IIIc R2. \noBreak %50
+    d' b es c d([ d')] b([ g]) \noBreak
+    d2 g,\fermata \bar "||"
+    \time 3/4 \tempoG-IIIc
+      \once \override Staff.TimeSignature.style = #'single-digit
+      R2. \noBreak %50
     r4 \mvTr as'\pE^\solo g
     as b( b,)
     es r es
@@ -73,19 +75,19 @@ G-IIIBasso = {
     R2.
     f'4. f8 d4 %95
     c c r
-    r b' g^\critnote
+    r b' g
     d2 es4
-    f d g
-    es( f2) %100
+    f d8 d g4
+    es f2 %100
     b, r4\fermata \bar "||"
     \time 4/4 \tempoG-IIId R1 \noBreak
-    \mvTr a'2.\pE^\solo g4~
+    \mvTr a'2.\pE^\solo^\aQuattro g4~
     g8 g f e f d r fis
     g8.([ f16] es8) d c4( f) %105
     b, b' a8. a16 as4
     g8 f es([ d)] c b'! as g
     f2 es
-    r r4 c^\critnote
+    r r4 c
     f8. f16 f4 g h8 h %110
     c4 c8 a! fis4 g
     d2 c4 c
@@ -121,7 +123,7 @@ G-IIIBasso = {
     es f1 \noBreak
     b,1.\fermata \bar "|."
     \time 4/4 \tempoG-IIIf \newSpacingSection R1*5 %154
-    \mvTr b'4\pE^\solo g f2 %155
+    \mvTr b'4\pE^\solo^\aDueE g f2 %155
     b,4 b' b8([ a)] a h
     c4 as r8 \hA as b f
     g es r g fis4 g8 g
@@ -168,8 +170,8 @@ G-IIIBassoLyrics = \lyricmode {
   ma -- bi -- lis, ma -- ter ad -- mi -- %45
   ra -- bi -- lis, ma -- ter Cre -- a --
   to -- ris et Sal -- va -- to --
-  ris, o -- ra pro no --
-  bis.
+  ris, o -- ra, o -- ra pro
+  no -- bis.
   %50
   O -- ra
   pro no --
@@ -207,8 +209,8 @@ G-IIIBassoLyrics = \lyricmode {
   coe -- li,
   stel -- la
   ma -- tu --
-  ti -- na, pro
-  no -- %100
+  ti -- na, o -- ra
+  pro no -- %100
   bis.
 
   Sa -- _

@@ -4,20 +4,20 @@ genre: litany
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.74
+    rism: 530001981
+    url: https://copia.oszk.hu/kotta/lytaniae-della-35ma-madonna/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: G 99
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/370.html
     license: public domain
-    principal: true
 toe: |
-  13  & T    & 1st \quarterNoteDotted\ in \B1: c′8.–a16–g8 \\
-  14  & vlne & lower voice missing in \B1 \\
-  22  & S    & 1st \halfNote\ in \B1: d″2 \\
-  23  & org  & bar in \B1: F2. \\
-  67  & org  & 3rd \quarterNote\ in \B1: d′8–e′8 \\
-  114 & A    & 11th \sixteenthNote\ in \B1: e′16 \\
-  121 & vlne & upper voice missing in \B1 \\
-  125 & vlne & upper voice missing in \B1 \\
-extra_abbreviations:
-  vlne:
+  1   & –    & tempo indication in S and org part of \A1: “Adagio”;
+               \newline in remaining parts: “Larghetto” \\
+  23  & org  & bar in \A1 and \B1: F2. \\
+  114 & A    & 6th \eighthNote\ in \A1: e′16–e′16 \\

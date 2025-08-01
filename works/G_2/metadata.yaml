@@ -4,19 +4,18 @@ genre: litany
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.66
+    rism: 530001973
+    url: https://copia.oszk.hu/kotta/lytaniae-della-sanctissima-modona/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: G 98
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/369.html
     license: public domain
-    principal: true
 toe: |
-  26  & S       & 3rd \quarterNote\ in \B1: c″4 \\
-  56  & vlne    & 1st \quarterNote\ in \B1: A8–g8 \\
-  59  & vlne    & 1st \quarterNote\ in \B1: G8–f8 \\
-  73  & org     & 4th \quarterNote\ of lower voice in \B1: c′8–c′8 \\
-  92  & vl 2, A & 1st \quarterNote\ in \B1: d′4 \\
-  123 & S       & 6th \quarterNote\ in \B1: a′4 \\
-  148 & S       & 2nd \eighthNote\ in \B1: \flat b′16–c″16 \\
-extra_abbreviations:
-  vlne:
+  63 & S & In \A1, the 2nd/3rd \quarterNote\ have been (incorrectly)
+           emended by later hand to g′4–\sharp f′4. \\

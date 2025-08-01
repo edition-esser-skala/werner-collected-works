@@ -20,7 +20,7 @@ G-VITenore = {
     d8 cis16 d e8 g, g f r4
     d'4. g,8 c4. f,8
     b4 c4. b4 a8 %25
-    g([ fis] g4)\trill fis r
+    g([ fis] g4)\trill \hA fis r
     g8^\aTre g b d g,8. g16 g4
     a f! b8 b d d
     g,4 c f, b
@@ -34,11 +34,12 @@ G-VITenore = {
     b b b([ a)] b4 r \noBreak
     R1\fermata \bar "||"
     \key d \minor \time 3/4 \tempoG-VIb \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
       R2.*2 %40
     r4 \mvTr a\pE^\solo d
     d cis c~
     c b2
-    a8([ b)] g2
+    a8([ b)] g2\trill
     a r4 %45
     R2.*3
     r4 cis a8([ d)]
@@ -119,6 +120,7 @@ G-VITenore = {
     \tempoG-VId R1*15 \noBreak %141
     R1\fermata \bar "||"
     \time 3/4 \tempoG-VIe \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
       \mvTr b4\fE^\tutti b c \noBreak
     d4. d8 b4
     b8 b b4 a %145
@@ -152,12 +154,12 @@ G-VITenore = {
     c a b~ %180
     b g a~
     a b2
-    es4 c2
+    es4 \appoggiatura d c2
     d r4
     b b( a) \noBreak %185
     b2 r4\fermata \bar "||"
     \time 4/4 \tempoG-VIf \newSpacingSection
-      r2 \mvTr g4.\pE^\solo es'8 \noBreak
+      r2 \mvTr g4.\pE^\solo^\aDue es'8 \noBreak
     c4 c8 c c4 a8 c
     cis cis cis4 d r
     R1*2 %191

@@ -11,10 +11,10 @@ G-VISoprano = {
     c a f'4\f d8 d g4
     e r8 c a d c8. c16
     c8 d c4 c a8 a
-    b8. b16 b8 c^\critnote d4 r %10
+    b8. b16 b8^\critnote c d4 r %10
     r8 es4 g8 f8. f16 f8 es
     d f b,4. c8 \appoggiatura b a8.\trill b16
-    b4 r \mvTr d8\pE^\solo b4 a8
+    b4 r \mvTr d8\pE^\solo^\aDue b4 a8
     b16([ a)] b8 r d es16([ d] c4) b8
     b16([ a)] a8 d4. g,8 es'4~ %15
     es8 a, f'4. es8 es d16([ c)]
@@ -34,6 +34,7 @@ G-VISoprano = {
     d c c4 d r \noBreak
     R1\fermata \bar "||"
     \key d \minor \time 3/4 \tempoG-VIb \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
       R2.*7 %45
     \mvTr d2.~\pE^\solo
     d4 cis8 e d4
@@ -53,7 +54,7 @@ G-VISoprano = {
     c4 b8 a d4
     c b2\trill
     a4 d b~
-    b8 c \appoggiatura b4 a2\trill
+    b8 c \appoggiatura b a2\trill
     b r4 %65
     R2.*2
     r4 b2~
@@ -113,6 +114,7 @@ G-VISoprano = {
     \tempoG-VId R1*15 \noBreak %141
     R1\fermata \bar "||"
     \time 3/4 \tempoG-VIe \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
       \mvTr d4\fE^\tutti d f \noBreak
     b,4. b8 b4
     c8 c c4 c %145
@@ -152,7 +154,7 @@ G-VISoprano = {
     d r4\fermata \bar "||"
     \time 4/4 \tempoG-VIf \newSpacingSection
       R1*5 %191
-    \mvTr c4.\pE^\solo^\aTre f8 cis4 cis8 cis
+    \mvTr c4.\pE^\solo^\aTreE f8 cis4 cis8 cis
     d4 d8 d d[ es!16 d] es4~
     es d c2
     d4 r r2 %195

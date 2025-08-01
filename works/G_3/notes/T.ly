@@ -5,7 +5,7 @@ G-IIITenore = {
     \clef "treble_8"
     \key g \minor \time 4/4 \tempoG-IIIa \autoBeamOff
     R1*4
-    r2\fermata \mvTr b4.\fE^\tuttiE b8 %5
+    r2\fermata \mvTr b4.\fE^\tutti b8 %5
     b4 r r d
     c2 c8 c b b
     b4( a) b2
@@ -17,7 +17,7 @@ G-IIITenore = {
     c8 c a8. a16 f4 g
     f4. f8 f2 %15
     R1*3
-    r4 \mvTr c'8\pE^\solo b16 c a8 f r c'^\critnote
+    r4 \mvTr c'8\pE^\solo b16 c a8 f r c'
     d a a g f d a' d %20
     b g g c a f f b
     g g g4 fis d'8^\aTre d
@@ -28,10 +28,10 @@ G-IIITenore = {
     R1*2 \noBreak
     R1\fermata \bar "||"
     \tempoG-IIIb r2 r4 r8 \mvTr b\pE^\solo \noBreak %30
-    b c \appoggiatura b a4 b r
-    r r8 b b c \appoggiatura b a4
+    b c \appoggiatura b a4\trill b r
+    r r8 b b c \appoggiatura b\trillE a4
     b r r r8 b
-    b c \appoggiatura b a4 b r
+    b c \appoggiatura b a4\trill b r
     r2 r4 r8 a %35
     b^\critnote d c4 c r
     r r8 a b d c4
@@ -44,18 +44,20 @@ G-IIITenore = {
     b8 es! c4 d8 b c b
     a8. a16 a4 b8 b c b %45
     a8. a16 a4 b8 b a b
-    a^\critnote a r a b a b4
+    a a r a b a b4
     a8 b g c a4 b \noBreak
     a2 g\fermata \bar "||"
-    \time 3/4 \tempoG-IIIc R2. \noBreak %50
+    \time 3/4 \tempoG-IIIc
+      \once \override Staff.TimeSignature.style = #'single-digit
+      R2. \noBreak %50
     r4 \mvTr f'\pE^\solo es~
-    es8 c \appoggiatura es d2
+    es8 c \appoggiatura es4 d2
     es4 r r
     b g c
     f, f r %55
     R2.
     r4 c' b~
-    b8 g \appoggiatura b a2
+    b8 g \appoggiatura b4 a2
     b4 r r
     R2.*19 %78
     f4.^\aTre f8 a f
@@ -81,7 +83,7 @@ G-IIITenore = {
     a4 b8 b b4
     b b( a) \noBreak %100
     b2 r4\fermata \bar "||"
-    \time 4/4 \tempoG-IIId \mvTr d2.\pE^\solo c4~
+    \time 4/4 \tempoG-IIId \mvTr d2.\pE^\solo^\aQuattro c4~
     c8 c b a b b r4
     r8 e, a4.( f8) d4
     r r8 b' c c c([ a)] %105
@@ -90,7 +92,7 @@ G-IIITenore = {
     as4( f') b, r
     r8 c d d g,4 g
     r2 r8 d' d d %110
-    g,4 g8 c c4 b!8.([ c16)]
+    g,4 g8 c c4 b!8.[ c16]
     d2 g,
     r4 f' d es
     a,! g8 e d2 \noBreak
@@ -117,16 +119,16 @@ G-IIITenore = {
     b b a
     b2. b4 c2
     b a g %145
-    f1 g2
+    f1( g2)
     a a b
-    b1( a2) \noBreak
+    b b( a) \noBreak
     b1.\fermata \bar "||"
     \time 4/4 \tempoG-IIIf \newSpacingSection R1*5 %154
-    r4 \mvTr b4.\pE^\solo b8 a4 %155
+    r4 \mvTr b4.\pE^\solo^\aDue b8 a4 %155
     b d d8([ c)] c d
     es4 c f4.( d8)
     b g c4.( d8) b a
-    a4. a8 g4 r
+    a4.\trill a8 g4 r
     \mvTr g\fE^\tutti b es d8 d %160
     d d r c c c d4~
     d4. c16[ b] c4 d8 d
@@ -223,8 +225,8 @@ G-IIITenoreLyrics = \lyricmode {
   no -- bis,
   o -- ra pro no -- bis,
   o -- ra pro %110
-  no -- bis, o -- ra pro
-  no -- bis,
+  no -- bis, pro no -- _
+  _ bis,
   o -- ra pro
   no -- bis, pro no --
   bis. %115
@@ -249,9 +251,9 @@ G-IIITenoreLyrics = \lyricmode {
   San -- cto -- rum
   o -- mni -- um,
   o -- ra pro %145
-  no -- bis,
-  o -- ra pro
   no --
+  bis, o -- ra
+  pro no --
   bis.
 
   A -- gnus De -- %155

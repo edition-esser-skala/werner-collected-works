@@ -4,21 +4,19 @@ genre: litany
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.70
+    rism: 530001977
+    url: https://copia.oszk.hu/kotta/lytaniae-b-v-maria-in-b/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: G 102
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/288.html
     license: public domain
-    principal: true
-  D1:
-    siglum: A-Wn
-    shelfmark: Mus.Hs.23434 (9)
-    rism: 600116130
-    url: https://data.onb.ac.at/rec/AC14272301
-    license: public domain
 toe: |
-  10  & S    & 3rd \eighthNote\ in \B1: c″8 \\
-  13  & org  & 4th \eighthNote\ in \B1: d′16.–c′32 \\
-  94  & vl 1 & 2nd \halfNote\ in \B1: c″2 \\
-  170 & vl 2 & 3rd \eighthNote\ in \B1: a″8 \\
-  186 & org  & bar in \B1: \flat B2. \\
+  10  & S    & 3rd \eighthNote\ in \A1 and \B1: c″8 \\
+  94  & vl 1 & 2nd \halfNote\ in \A1 and \B1: c″2 \\
+  186 & org  & bar in \A1 and \B1: \flat B2. \\

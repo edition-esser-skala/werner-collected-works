@@ -10,14 +10,14 @@ G-IIIAlto = {
     g2 f4 f
     f2 f
     f es8 f g4~
-    g g8 g f[ g] \once \tieDashed a4~ %10
+    g g8 g f[ g] a4~ %10
     a g2 f4
     e2 d4 f
     f d8. d16 es4 es~
     es8 es c8. c16 d4 c
     c4. c8 d2 %15
     R1*6 %21
-    r4 \mvTr g8\pE^\soloE^\aTre fis16 g a8 d, fis fis
+    r4 \mvTr g8\pE^\solo^\aTre fis16 g a8 d, fis fis
     g4. g8 g d16([ es)] f4
     es c8 c b!4 cis
     d8 c b g' b,4( a) %25
@@ -44,7 +44,9 @@ G-IIIAlto = {
     fis fis r \hA fis g \hA fis g4
     fis8 g4 g8 \hA fis4 g8 g \noBreak
     g4( fis) g2\fermata \bar "||"
-    \time 3/4 \tempoG-IIIc \mvTr es4.\pE^\solo g8 f es \noBreak %50
+    \time 3/4 \tempoG-IIIc
+      \once \override Staff.TimeSignature.style = #'single-digit
+      \mvTr es4.\pE^\solo g8 f es \noBreak %50
     d4. d8 es4
     R2.
     b4( es) g
@@ -54,20 +56,20 @@ G-IIIAlto = {
     a([ g)] a4 r
     R2.*13 %70
     a'4 f8([ e)] d4
-    e8([ f)] \appoggiatura d cis4.\trill d8
+    e8([ f)] \appoggiatura d4 cis4.\trill d8
     d4 r r
     R2.
-    f!4. f8 g([ d)] %75
-    es4. g8 f es
+    g4.( f8) g([ d)] %75
+    es4.( g8) f es
     d4. es8 f4
-    g8([ es)] c4.^\critnote b8
+    g8([ es)] c4. b8
     b([ a)] a4 r
     R2.*5 %84
     \mvTr f'2\fE^\tutti f4 %85
     f8. f16 f8 f a f
     f8. f16 f8 f f f
     f8. f16 f8 f f a
-    f4^\critnote b2
+    f4 b2
     a4 g8([ fis] g4) %90
     fis2 r4
     R2.
@@ -80,7 +82,7 @@ G-IIIAlto = {
     a4 f8 f g4
     g f2 \noBreak %100
     f r4\fermata \bar "||"
-    \time 4/4 \tempoG-IIId r2 \mvTr es\pE^\solo \noBreak
+    \time 4/4 \tempoG-IIId r2 \mvTr es\pE^\solo^\aQuattro \noBreak
     d r8 d g f!
     e4 d8 cis d a r4
     r8 d g f! es4.( d16[ c)] %105
@@ -90,8 +92,8 @@ G-IIIAlto = {
     r f f8. f16 es4
     es8([ d)] as' c, h4~ h8[ c16 d]~ %110
     d8[ c] c c a'4. g8
-    g4 f!2 \once \tieDashed es4~
-    es8[ d] d c^\critnote h4 c~
+    g4 f!2 es4~
+    es8[ d] d c h4 c~
     c8 c b4 a2 \noBreak
     g1\fermata \bar "||" %115
     \time 3/2 \tempoG-IIIe \newSpacingSection R1.*8 %123
@@ -123,7 +125,7 @@ G-IIIAlto = {
     f1.\fermata \bar "||"
     \time 4/4 \tempoG-IIIf \newSpacingSection
       \mvTr d4.\pE^\solo fis8 a([ \hA fis)] d c \noBreak %150
-    b2 a4 d
+    b2\trill a4 d
     es g8 es des4 c8([ h)]
     c2.( h4)
     c es8 g f c16([ d)] es8 es
@@ -193,8 +195,8 @@ G-IIIAltoLyrics = \lyricmode {
   iu -- sti -- ti --
   ae,
 
-  cau -- sa, cau -- %75
-  sa no -- strae lae --
+  cau -- sa %75
+  no -- strae lae --
   ti -- ti -- ae,
   o -- ra pro
   no -- bis.

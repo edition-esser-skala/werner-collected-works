@@ -18,8 +18,8 @@ G-IIIViolinoII = {
     d cis16 h \hA cis4 r16 d a16. f32 d8 f'
     r16 d h16. g32 g,8 f' r16 c es!16. g32 c8 c,
     r16 c' a16. f32 a,8 es' r16 b d16. f32 g8 b~
-    b a16 g a4-\critnote r16 d\p b16. f32 d8 b %15
-    b'16. b32 d16. b32 f'16. f32 a16. f32 b16. g,32 b16 .c32 d8 d,
+    b a16 g a4 r16 d b16. f32 d8 b %15
+    b'16.\p b32 d16. b32 f'16. f32 a16. f32 b16. g,32 b16 .c32 d8 d,
     r16 c' e16. g32 c,,8 b' r16 f a16. c32 d8 b,
     r16 g' c16. e32 g8 c,, r16 c' f16. a32 c16. f,,32 a16. c32
     d8 b, r4 f'16. f32 a16. f32 c'16. c32 e16. c32
@@ -32,34 +32,36 @@ G-IIIViolinoII = {
     g16.\f g32 b16. g32 d'16. d32 f!16. d32 g16. g,32 b16. d32 g8 b
     r16 es, c16. g32 a8 a' r16 d, b16. f32 g8 g'
     r16 c, a16. e32 fis8 a r16 g b16. d32 es8 cis \noBreak
-    d16. a32 b16. g32 a8. g16 g2\fermata \bar "||"
+    d16. a32 b16. g32 a8.\trill g16 g2\fermata \bar "||"
     \tempoG-IIIb R1*11 %40
-    r16 a\fE d f g c, e g a, c e g f c a f'
+    r16 a\fE d f g c, e g a, c \hA e g f c a f'
     e g, c \hA e g c, \hA e g a c, \hA e g f a c f,
     e4 r r8 f, g a
     b4. a8 b16 f b d f c d b
     c f, a c f a c f, d f, b d f c d b %45
-    c f, a c f a c f, d b d f a d, b' d,
+    c f, a c f a c es, d b d f a d, b' d,
     a' d, fis a d a \hA fis d b d a d g, b d g
     fis8 g4 g8 fis d4 b8 \noBreak
     a4. a8 g2\fermata \bar "||"
-    \time 3/4 \tempoG-IIIc R2.*9 %58
+    \time 3/4 \tempoG-IIIc
+      \once \override Staff.TimeSignature.style = #'single-digit
+      R2.*9 %58
     b16\pE c d8 b d4 c8
     d b f d r4 %60
     d16 es f8~ f d' c a
     b g d b r4
     g'8 b16 a g8 b g b
     a a' fis16( e) \hA fis8 r4
-    r8 d \once \slurDashed b16( a) b8 r4 %65
+    r8 d b16( a) b8 r4 %65
     r8 g' es16( d) es8 r4
     r8 c a16( g) a8 r4
     r8 f' d c b g
     e4 r8 a d b~
-    b g \appoggiatura f e4. d8 %70
+    b g \appoggiatura f e4.\trill d8 %70
     d4 r r
     R2.*7 %78
-    r8 a' f a c f
-    r d f( d) d c %80
+    r8 a'-\aTre f a c f
+    r d f d~ d c %80
     d4 r8 b d g
     e4 r8 a g a
     e4. c8 f4~
@@ -75,7 +77,7 @@ G-IIIViolinoII = {
     d b16 c d8 es f es16 d
     c4 f, r
     c'4. c8 d4 %95
-    es!8 d es4 r
+    es!8( d) es4 r
     r d es
     f4. f8 es d
     c4 f d
@@ -100,17 +102,17 @@ G-IIIViolinoII = {
       fis,1\pE \noBreak %150
     e2 d4 fis
     g2 f4 es8 d
-    c( as') es( d) d2\trill
+    \once \slurDashed c( as') es( d) d2\trill
     es f~
     f4 d8 e f2 %155
     f r
     R1*2
-    r2 g16.\f g32 b16. g32 d'16. d32 f!16. d32
+    r2 g16.\fE g32 b16. g32 d'16. d32 f!16. d32
     g16. g,32 b16. d32 g8 b r16 es, c16. a32 fis8 a' %160
     r16 g, b16. d32 es8 g r16 f, a16. c32 d8 b'
     b, d4 c16 b a16. f32 a16. c32 f8 h,
-    r16 es c16. g32-\critnote es8 c r16 g' b16. d32 g8 g,
-    r16 a' fis16. d32 b8 g'^\critnote a, g' d, fis'
+    r16 es c16. g32 es8 c r16 g' b16. d32 g8 g,
+    r16 a' fis16. d32 b8 g' a, g' d, fis'
     g,16. g32 b16. g32 h16. h32 d16. \hA h32 g8 es' d h %165
     g c d h c g es c
     h1\fermata \bar "|." %167 finis

@@ -11,10 +11,14 @@ sources:
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/291.html
     license: public domain
     principal: true
+  B2:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.81
+    rism: 530001988
+    url: https://copia.oszk.hu/kotta/lytaniae-d-b-v-in-am/
+    license: public domain
 toe: |
   100     & vl 1, S & grace note added by editor \\
-  114–145 & –       & In \B1, bars inconcistently comprise
+  114–145 & –       & In \B1 and \B2, bars inconcistently comprise
                       either two or four \halfNote. \\
   129     & S       & last \quarterNote\ in \B1: f′4 \\
-  161–163 & org     & last \quarterNote\ of bar 161 to last note
-                      in bar 163 missing in org \\

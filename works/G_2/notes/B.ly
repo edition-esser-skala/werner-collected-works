@@ -8,14 +8,14 @@ G-II-Basso = {
     r2 g4 es8 f!
     b, b r4 r2
     b'8. b16 a8 b f f r fis
-    g4 r8 g as([ f)] g8. g16 %5
+    g4 r8 g([ as)] f g8. g16 %5
     c,4 r8 f b!4 r8 b
     a b f8. f16 b,4 r
     R1*16 \noBreak %23
     R1\fermata \bar "||"
     \time 3/4 \tempoG-II-b \newSpacingSection
-      \mvDl b'8.[\fE^\tutti c16] d8 c16([ b)] a8([ g)] \noBreak %25
-    f es d([ es16 f] g8) f
+      \mvDl b'8.[\fE^\tutti c16] d8[ c16 b] a8 g \noBreak %25
+    f([ es]) d([ es16 f] g8) f
     es d16([ c)] f8([ es] f4)
     b,8 b'16([ c] d8) c16([ b)] a8 g
     f es d es16([ f)] g8 f
@@ -34,9 +34,9 @@ G-II-Basso = {
     r4 f2~
     f8 g16 a b8 g16([ es)] f4 %50
     b,8 f' b b b16([ a)] b8
-    a a a h c16([ h)] c8
+    a a a h c16([ \hA h)] c8
     b d, g4. f16([ e)]
-    f8 \tuplet 3/2 8 { b16([ a g)] } f4( e?)
+    f8 \tuplet 3/2 8 { b16([ a g)] } f4( e)
     d r r %55
     R2.*4
     r4 r8 a' d c %60
@@ -101,8 +101,8 @@ G-II-Basso = {
     b b' a f b2 a4 g
     f2. es4 d f8[ es] d4 c
     b b'8([ a)] g4 f es( f g a) %130
-    b2. a4 g2.( f4)
-    es2. d4 c2. b4
+    b2. a4 g2. f4
+    es2.( d4) c2. b4
     a( g f g8[ a)] b4 b' g es
     f2 d4 b f'1 \noBreak
     b,\breve\fermata \bar "||" %135
@@ -135,8 +135,8 @@ G-II-BassoLyrics = \lyricmode {
   nos, Chri -- ste, Chri --
   ste ex -- au -- di nos.
 
-  San -- cta Ma -- ri -- %25
-  a, o -- ra, __ o --
+  San -- _ cta Ma -- %25
+  ri -- a, __ o --
   ra pro no --
   bis, san -- cta De -- i
   ge -- ni -- trix, o -- ra, o --
@@ -220,8 +220,8 @@ G-II-BassoLyrics = \lyricmode {
   rum, o -- ra pro no -- _ _
   _ _ _ _ _ _
   bis, o -- ra pro no -- %130
-  bis, pro no --
   bis, o -- ra pro
+  no -- bis, pro
   no -- bis, o -- ra pro
   no -- bis, pro no --
   bis. %135
@@ -234,8 +234,8 @@ G-II-BassoLyrics = \lyricmode {
   tol -- lis pec -- ca -- ta, pec --
   ca -- ta mun -- di:
 
-  Mi -- se -- re -- re, mi -- se -- re -- re,
-  mi -- se -- re -- re, %150
+  Mi -- se -- re -- re no -- bis, mi -- se --
+  re -- re no -- bis, %150
   mi -- se -- re -- re, mi -- se -- re -- re,
   mi -- se -- re -- re no --
   bis, mi -- se -- re -- re no --

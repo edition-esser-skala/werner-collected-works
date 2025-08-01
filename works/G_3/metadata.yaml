@@ -4,31 +4,20 @@ genre: litany
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.83
+    rism: 530001989
+    url: https://copia.oszk.hu/kotta/lytaniae-d-b-v-in-g-mol/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: G 104
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/290.html
     license: public domain
-    principal: true
-extra_abbreviations:
-  vlne:
 toe: |
-  15  & vl 2 & 2nd \quarterNote\ in \B1: g′4 \\
-  19  & T    & last \eighthNote\ in \B1: \flat b8 \\
+  1   & –    & tempo indication in S, A, and org part of \A1: “Andante passato”;
+               in T, B, vl 1, vl 2, and vlne part: “Andante” \\
   36  & T    & 1st \eighthNote\ in \B1: a8 \\
-  47  & vl 1 & 12th \sixteenthNote\ in \B1: c″16 \\
-  47  & T    & 1st \eighthNote\ in \B1: \flat b8 \\
-  50  & –    & tempo indication in vocal parts and vlne of \B1:\newline
-               “Largo” (however, “Larghetto” is more likely) \\
-  78  & A    & 2nd/3rd \quarterNote\ in \B1: d′4–c′8 \\
-  66f & vlne & 4th \eighthNote\ of bar 66 to 1st \quarterNoteDotted\
-               of bar 67 one octave lower in \B1 \\
-  89  & A    & 1st \quarterNote\ in \B1: g′4 \\
-  97  & B    & 3rd \quarterNote\ in \B1: f4 \\
-  105 & vlne & 1st \halfNote\ one octave lower in \B1 \\
-  106 & S    & last \eighthNote\ in \B1: \flat e″16–d″16 \\
-  109 & B    & last \quarterNote\ in \B1: \flat B4 \\
-  113 & A    & 4th \eighthNote\ in \B1: d′8 \\
-  137 & S    & 2nd \halfNote\ in \B1: d″2 \\
-  163 & vl 2 & 8th \thirtysecondNote\ in \B1: a′32 \\
-  164 & vl 2 & 4th \eighthNote\ in \B1: a″8 \\
+  137 & S    & 2nd \halfNote\ in \A1 and \B1: d″2 \\

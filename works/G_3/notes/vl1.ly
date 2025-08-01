@@ -7,7 +7,7 @@ G-IIIViolinoI = {
     g'16.\f g32 b16. g32 d'16. d32 f16. d32 g8 g, r16 b' g16. d32
     es8 c' r16 a f16. c32 d8 b' r16 g es16. b32
     c8 a' r16 fis d16. a32 b8 d b'( a)
-    g( f) es!( d) cis2
+    g( f) es!( d) cis2\trill
     d\fermata r %5
     g,16. g32 b16. g32 d'16. d32 f!16. d32 g8 g, r16 d' h16. g32
     es'8 c, r16 g'' es16. c32 a8 a' r16 b! f16. d32
@@ -17,9 +17,9 @@ G-IIIViolinoI = {
     b'8 g, r16 b' g16. e32 cis'8 a, r16 d' a16. f32
     e8 d' a, cis' d4 r16 a f16. d32
     h8 d' r16 g,, h16. d32 es8 c, r16 g'' es16. c32
-    a8 a' r16 f, a16. c32 d8 b, r16 c' es16. g32
-    f,8 b' c, a' b4 r16 b\p f16. d32 %15
-    b16. b32 d16. b32 f'16. f32 a16. f32 b8 b, r16 d e16. f32
+    a8 c' r16 f,, a16. c32 d8 b, r16 c' es16. g32
+    f,8 b' c, a' b4 r16 b f16. d32 %15
+    b16.\p b32 d16. b32 f'16. f32 a16. f32 b8 b, r16 d e16. f32
     g8 c, r16 g e16. c32 a'16. f32 a16. c32 d8 b,
     r16 g' c16. e32 g8 c,, r16 c' f16. a32 c16. f,,32 a16. c32
     d8 b, r4 f'16. f32 a16. f32 c'16. c32 e16. c32
@@ -31,20 +31,22 @@ G-IIIViolinoI = {
     d8 a' g b, d,4 r %25
     g16.\f g32 b16. g32 d'16. d32 f!16. d32 g8 g, r16 b' g16. d32
     es8 c' r16 a f16. c32 d8 b' r16 g es16. b32
-    c8 a' r16 fis d16. a32 b8 d \once \tieDashed g4~ \noBreak
+    c8 a' r16 fis d16. a32 b8 d g4~ \noBreak
     g fis g2\fermata \bar "||"
     \tempoG-IIIb R1*11 %40
-    r16 a,\fE d f g c, e g a, c e g f c a f'
+    r16 a,\fE d f g c, e g a, c \hA e g f c a f'
     e g, c \hA e g c, \hA e g a c, \hA e g f a c f,
     e8 c d \hA e f4 es
     d8 g c, f d16 f, b d f c d b
     c f, a c f a c f, d f, b d f c d b %45
-    c f, a c f a c f, d b d f a d, b' d,
-    a' d, fis a d a \hA fis d b d a d^\critnote g, b d g
+    c f, a c f a c es, d b d f a d, b' d,
+    a' d, fis a d a \hA fis d b d a d g, b d g
     fis8 g4 c8 a fis g b, \noBreak
     a g' d, fis' g2\fermata \bar "||"
-    \time 3/4 \tempoG-IIIc R2.*9 %58
-    d16\pE es f8~ f \once \tieDashed b~ b a
+    \time 3/4 \tempoG-IIIc
+      \once \override Staff.TimeSignature.style = #'single-digit
+      R2.*9 %58
+    d16\pE es f4 b a8
     b f d b r4 %60
     b16 c d4 g fis8
     g d b g r4
@@ -58,7 +60,7 @@ G-IIIViolinoI = {
     d8 e \appoggiatura d cis4.\trill d8 %70
     d4 r r
     R2.*7 %78
-    r8 f, a c f a
+    r8 f,-\aTre a c f a
     r b, d f b a %80
     b b, d f b4
     r8 g c16( b) c8 c,4
@@ -105,7 +107,7 @@ G-IIIViolinoI = {
     c4 b2 a4 %155
     b2 r
     R1*2
-    r2 g16.\f g32 b16. g32 d'16. d32 f!16. d32
+    r2 g16.\fE g32 b16. g32 d'16. d32 f!16. d32
     g8 g, r16 b' g16. d32 es8 c' r16 a fis16. c32 %160
     b8 g' r16 g es16. c32 a8 f' r16 f d16. b32
     g8 f' b, e f4 r16 h, d16. f32
