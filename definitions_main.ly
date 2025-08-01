@@ -13,6 +13,8 @@ aDue = \markup \remark "a 2"
 aDueE = \markup \remarkE "a 2"
 aTre = \markup \remark "a 3"
 aTreE = \markup \remarkE "a 3"
+aQuattro = \markup \remark "a 4"
+aQuattroE = \markup \remarkE "a 4"
 dstU = \tweak self-alignment-X #CENTER ^\markup { \hspace #1.3 \teeny \musicglyph #'"scripts.uhenzelongfermata" }
 dstD = \tweak self-alignment-X #CENTER _\markup { \hspace #1.3 \teeny \musicglyph #'"scripts.dhenzelongfermata" }
 hA = \once \override Accidental.stencil = ##f
