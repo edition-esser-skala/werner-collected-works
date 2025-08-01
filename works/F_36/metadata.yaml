@@ -1,0 +1,36 @@
+title: Crudelis Herodes Deum
+id: WerW F.36
+genre: hymn
+festival: in Epiphania
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.210 (6)
+    rism: 530004297
+    url: https://copia.oszk.hu/kotta/hymni-de-b-virgine-de-apostolis-et-aliis-festis-1mae-classis/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: M 42
+    rism: 600038660
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/275.html
+    license: public domain
+toe: |
+  – & – & \B1 sets the lyrics „Te lucis ante terminum“ to music. \\
+lyrics:
+  Crudelis Herodes Deum\\
+  regem venire quid times\\
+  non eripit mortalia\\
+  qui regna dat coelestia.\\[1ex]
+  Ibant magi quam viderant\\
+  stellam sequentes praeviam\\
+  lumen requirunt lumine\\
+  Deum fatentur munere.\\[1ex]
+  Jesu tibi sit gloria\\
+  qui apparuisti gentibus\\
+  cum Patre et almo Spiritu\\
+  in sempiterna saecula.\\[1ex]
+  (Cantus Index 008248:08.1a)
