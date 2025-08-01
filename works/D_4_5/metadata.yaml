@@ -1,0 +1,21 @@
+title: Rorate cœli desuper
+id: WerW D.4.5
+genre: introit
+scoring: S, A, T, B (coro), 2 vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Gk
+    shelfmark: AMC, W. 95.
+    rism: 530012395
+    license: public domain
+    principal: true
+lyrics:
+  Rorate coeli desuper,\\
+  et nubes pluant iustum:\\
+  aperiatur terra,\\
+  et germinet Salvatorem.\\
+  (\bibleverse{Isa}(45:8))\\[1ex]
+  Coeli enarrant gloriam Dei:\\
+  Et opera manuum eius annuntiat firmamentum.\\
+  (\bibleverse{Ps}(19/18:2))
