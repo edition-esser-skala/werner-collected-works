@@ -1,0 +1,49 @@
+title: Maria Wurzel Davids
+id: WerW E.4
+genre: aria
+festival: Adventus, Dominica I
+scoring: S (solo), 2 vl, vla amabile (solo), b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.307
+    date: 1759
+    rism: 530003638
+    url: https://copia.oszk.hu/kotta/aria-in-c-pro-dominica-prima-adventus/
+    license: public domain
+    principal: true
+toe: |
+  – & – & In \A1, the three stanzas are written out in S.
+          In the instrumental parts, one stanza is written
+          (i.e., bars 9–55), and repetition is indicated
+          by the directive “Aria da capo 2 volte”. \\
+extra_abbreviations:
+  vla amabile: Viola amabile
+parts:
+  vla: Viola amabile
+  S_solo: Soprano solo
+lyrics:
+  Maria Wurzel Davids ſey gegrüßet!\\
+  die du voll der Gnade biſt.\\
+  Wo die gebenedeyte Frucht hersprüßet,\\
+  deines Leibes Jesu Christ,\\
+  der unß zum Heyl beſtimmet iſt.\\[1ex]
+  Gleich wie der Lilien Unſchuld Kleid\\
+  aller Blumen Schönheit überſteiget,\\
+  ſo hat Maria Reinigkeit\\
+  über alle andre ſich gezeiget,\\
+  dan ihrer Keuſchheit höchſter Grad\\
+  Gott ſelbſt zum Kind gemachet hat.\\[1ex]
+  Die Seele ſoll ſeyn Engelrein,\\
+  die in Gottes Reiche will gelangen,\\
+  wie keuſch muß daß Geſchöpf erſt ſeyn,\\
+  wo der Schöpfer ſelbſt iſt eingegangen.\\
+  Ach! da Maria kanſt allein\\
+  nur mit dir ſelbſt verglichen ſeyn.\\[1ex]
+  Drum, reinſte Gottesligerſtadt,\\
+  ſiehe unſre erſtre Unſchuldsfleken,\\
+  die unſre Seel empfangen hat,\\
+  ach! hilff ſie durch die Verdienſte dekhen,\\
+  die deiner Keuſchheit heylgen Pracht\\
+  bey Gottes Huld ſich hat gemacht.
