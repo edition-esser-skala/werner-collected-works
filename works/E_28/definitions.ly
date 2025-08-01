@@ -1,7 +1,7 @@
 \version "2.24.0"
 
-tempoE-XXVIIIa = \tempoMarkup "Andante"
-tempoE-XXVIIIba = \tempoMarkup "Allegretto mà non troppo / Vivace in tempo schietto"
+tempoE-XXVIIIa = \tempoMarkup "Chorus · Andante"
+tempoE-XXVIIIba = \tempoMarkup "Allegretto non troppo / Vivace in tempo schietto"
   tempoE-XXVIIIbb = \tempoMarkup "Tempo giusto"
 tempoE-XXVIIIc = \tempoMarkup "Largo"
 tempoE-XXVIIId = \tempoMarkup "Vivace"

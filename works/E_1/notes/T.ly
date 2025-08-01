@@ -3,196 +3,110 @@
 E-I-Tenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \major \time 2/2 \tempoE-I \autoBeamOff
-    R1
-    r2 c
-    d h
-    g1
-    g2 r %5
-    r h
-    c d
-    d e~
-    e d
-    h1 %10
-    r2 c
-    c d
-    c g
-    g e
-    r a %15
-    c1
-    a2 r
-    g a
-    a g
-    g1 %20
-    R
-    r2 h
-    e d
-    d e~
-    e d %25
-    d1
-    r2 c
-    c d
-    c g
-    g e %30
-    r a
-    c1
-    a2 r
-    g a
-    a g %35
-    g r
-    R1
-    R\fermata \bar ":|." %38 finis
+    \key c \major \time 4/2 \tempoE-I \autoBeamOff
+      \set Staff.timeSignatureFraction = 2/2
+    r1 r2 c
+    d h g1
+    g2 r r h
+    c d d e~
+    e d h1 %5
+    r2 c c d
+    c g g e
+    r a c1
+    a2 r g a
+    a g g1 %10
+    r r2 h
+    e d d e~
+    e d d1
+    r2 c c d
+    c g g e %15
+    r a c1
+    a2 r g a
+    a g g r
+    R\breve\fermata \bar ":|." %19 finis
   }
 }
 
 E-I-TenoreLyricsA = \lyricmode {
-  A -- %2
-  ve Ma --
-  ri --
-  a, %5
-  du
-  hel -- ler
-  Mor -- _
-  gen --
-  ſtern, %10
-  du
-  biſt ein
-  Freud für --
-  wah -- re
-  deß %15
-  Him --
-  mels,
-  Him -- mels
-  und der
-  Erd, %20
-
+  A --
+  ve Ma -- ri --
+  a, du
+  hel -- ler Mor -- _
+  gen -- ſtern! %5
+  du biſt ein
+  Freud für -- wah -- re
+  des Him --
+  mels, Him -- mels
+  und der Erd, %10
   er --
-  wählt von
-  E -- _
-  wig -- %25
-  keit
-  zu
-  seyn ein
-  Mut -- ter
-  Got -- tes %30
-  der
-  gan --
-  tzen,
-  gan -- tzen
-  Chri -- ſten -- %35
-  heit. %36 finis
+  wöhlt von E -- _
+  wig -- keit,
+  zu seyn ein
+  Mut -- ter Got -- tes %15
+  der gan --
+  zen, gan -- zen
+  Chri -- ſten -- heit. %18 finis
 }
 
 E-I-TenoreLyricsB = \lyricmode {
-  Ohn %2
-  Sünd em --
-  pfan --
-  gen %5
-  alß
-  dich die
-  Kir -- _
-  chen
-  ehrt, %10
-  und
-  von der
-  fal -- ſchen
-  Schlan -- gen
-  biſt %15
-  blie --
-  ben,
-  blie -- ben
-  un -- ver --
-  ſehrt, %20
-
-  ein %22
-  Jung -- frau
-  kei -- ner __
-  Ge -- %25
-  burth,
-  dein
-  Lob kan
-  nicht aus --
-  ſpre -- chen %30
-  all
-  irr --
-  diſch,
-  irr -- diſch
-  Kre -- a -- %35
-  tur. %36 finis
+  Ohn
+  Sünd em -- pfan --
+  gen, alß
+  dich die Kir -- _
+  chen ehrt, %5
+  und von der
+  fal -- ſchen Schlan -- gen
+  biſt bli --
+  ben, bli -- ben
+  un -- ver -- ſehrt, %10
+  ein
+  Jung -- frau rei -- ner __
+  Ge -- burth,
+  dein Lob khan
+  nit auß -- ſpre -- chen %15
+  all irr --
+  diſch, irr -- diſch
+  Kre -- a -- tur. %18 finis
 }
 
 E-I-TenoreLyricsC = \lyricmode {
-  Hat %2
-  dich ge --
-  boh --
-  ren, %5
-  Ma --
-  ri -- a
-  du ed --
-  les
-  Blut, %10
-  da
-  A -- dam
-  hat ver --
-  loh -- ren
-  daß %15
-  höch --
-  ſte,
-  al -- ler --
-  höch -- ſte
-  Gut, %20
-
+  Hat
+  dich ge -- boh -- ren,
+  Ma -- ri -- a
+  du ed -- les
+  Bluet, da %5
+  A -- dam hat ver --
+  loh -- ren daß
+  höch -- ſte,
+  al -- ler -- höch -- ſte
+  Guet, %10
   daß
+  durch dein ſchö -- _
+  ne Frucht
+  ſoll wi -- der
+  gfun -- den wer -- den, %15
   durch dein
-  ſchö -- _
-  ne %25
-  Frucht
-  ſoll
-  wie -- der
-  gfun -- den
-  wer -- den, %30
-  durch
-  dein
-  Lieb,
-  durch dein
-  Lieb und %35
-  Zucht. %36 finis
+  Lieb, durch dein
+  Lieb und Zucht. %18 finis
 }
 
 E-I-TenoreLyricsD = \lyricmode {
-  Ein %2
-  Gruß ge --
-  ſen --
-  det %5
-  von
-  al -- ler --
-  höch -- _
-  ſten
-  Gott, %10
-  durch
-  Ga -- bri --
-  el ge --
-  re -- det,
-  der
-  war
-  hier,
-  war hier --
-  zu der
-  Both, %20
-
+  Ein
+  Gruß ge -- ſen --
+  det von
+  al -- ler -- höch -- _
+  ſten Gott, %5
+  durch Ga -- bri --
+  el ge -- en -- det,
+  der wa --
+  re, war hier --
+  zur ein Both, %10
   du
-  ſolſt ein
-  Mut -- _
-  ter %25
-  ſeyn,
-  ein
-  Jung -- frau
-  ſolſt du
-  blei -- ben, %30
-  e --
-  wig --
-  lich,
-  e -- wig
-  keuſch und %35
-  rein. %36 finis
+  ſolſt ein Muet -- _
+  ter ſeyn,
+  ein Jung -- frau
+  ſolſ -- tu blei -- ben, %15
+  e -- wig --
+  lich, e -- wig
+  keuſch und rein. %18 finis
 }

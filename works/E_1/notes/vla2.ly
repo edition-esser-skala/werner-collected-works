@@ -3,44 +3,26 @@
 E-I-ViolaII = {
   \relative c' {
     \clef treble
-    \twotwotime \key c \major \time 2/2 \tempoE-I
-    R1
-    c2 f~
-    f d
-    g4 a g f
-    e2 r %5
-    r g
-    g a~
-    a g~
-    g fis
-    g1 %10
-    r2 g
-    f! f
-    e e4 d
-    c2 e
-    c f~ %15
-    f e~
-    e d~
-    d c
-    f d
-    e1 %20
-    R
-    r2 d
-    g a~
-    a g~
-    g fis %25
-    g1
-    r2 g
-    f! f
-    e e4 d
-    c2 e %30
-    c f~
-    f e2~
-    e d~
-    d c
-    f d %35
-    e1
-    R
-    R\fermata \bar ":|." %38 finis
+    \twotwotime \key c \major \time 4/2 \tempoE-I
+      \set Staff.timeSignatureFraction = 2/2
+    r1 c2 f~
+    f d g4 a g f
+    e2 r r g
+    g a1 g2~
+    g fis g1 %5
+    r2 g f! f
+    e e4 d c2 e
+    c f1 e2~
+    e d1 c2
+    f d e1 %10
+    r r2 d
+    g a1 g2~
+    g fis g1
+    r2 g f! f
+    e e4 d c2 e %15
+    c f1 e2~
+    e d1 c2
+    f d e1
+    R\breve\fermata \bar ":|." %19 finis
   }
 }

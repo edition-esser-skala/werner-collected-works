@@ -10,10 +10,10 @@ E-XXVIIIaOboeII = {
     g8 d16( g) h( g) h( d) g4
     r8 d4 fis8 d16( g8.) %5
     fis16([ d8.) a16( fis8.) g16( h8.)]
-    fis8 d'16( a) fis8 a16( fis) d8 fis
+    fis8 d'16( a) fis8 a16( fis) d8( fis)
     g16([ g'8.) g16( e8.) e16( h8.)]
     cis16([ a8.) a16( e8.) fis16( d8.)]
-    cis8 e16( a) cis8 a16( \hA cis) e8 \hA cis %10
+    e8 a cis a16( \hA cis) e8 \hA cis %10
     a fis16( a) d,8 fis'~ fis d16( fis)
     h,([ e8.) d16( fis8.) cis16( e8.)]
     d8 fis16( d) a8 d16( a) fis8 a16( fis)
@@ -39,7 +39,7 @@ E-XXVIIIaOboeII = {
     d8 g~ g h16( h,) a8 fis'
     g4 r8 d, g d16( g)
     h8 d,16( g) h8 g16( h) d8 h16( d) %35
-    \once \slurDashed g( a) h8~ h g16(_\critnote h) a8 fis16( d)
+    g( a) h8~ h g a fis16( d)
     h8 h'16( g) d8 g16( d) h8 d16( h)
     g2 r4\fermata \bar "||" %38 finis
   }
@@ -72,7 +72,7 @@ E-XXVIIIbOboeII = {
     c2~
     c~
     c8 c' g a %60
-    e c16 e g8 g,16 e'
+    \slurDashed e c16( e) g8 g,16( e') \slurSolid
     c8 g16 e c4
     r8 e16\p g c8 h
     R2*7 %70
@@ -80,9 +80,9 @@ E-XXVIIIbOboeII = {
     h4. c16( e)
     h8 g r4
     R2*4 %77
-    c,16(\fE e) g8~ g16 c e( c)
+    c,16(\fE e) g8~ g16( c) e( c)
     g8 c g e
-    c16( e) g8~ g16 c e( c) %80
+    c16( e) g8~ g16( c) e( c) %80
     g8 e'16.\trill d64( e) f8 d16( h)
     c4 r
     r16 e e16.\trill d64( e) f16( d) d( h)
@@ -117,9 +117,9 @@ E-XXVIIIbOboeII = {
     h4. c16( e) %130
     h8 g r4
     R2*4 %135
-    c,16(\fE e) g8~ g16 c e( c)
+    c,16(\fE e) g8~ g16( c) e( c)
     g8 c g e
-    c16( e) g8~ g16 c e( c)
+    c16( e) g8~ g16( c) e( c)
     g8 e'16.\trill d64( e) f8 d16( h)
     c4 r %140
     r16 e e16.\trill d64( e) f16( d) d( h)

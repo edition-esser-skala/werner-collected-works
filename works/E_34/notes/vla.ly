@@ -1,31 +1,38 @@
 \version "2.24.0"
 
-E-XXXIVViola = {
+E-XXXIVaViola = {
   \relative c' {
     \clef alto
     \twotwotime \key c \major \time 2/2 \tempoE-XXXIVa
-    \partial 4 r4 r g'\fE g g
-    g2 g4 e
+    \partial 4 r4 r g'2\fE g4
+    g2. e4
     a2 g
     g r
-    r4 g g a %5
+    r4 g2 a4 %5
     g2 g
     g fis
     g r
     r g
     f! a %10
-    a4 g g g
+    a4 g2 g4
     g2 r
-    r4 g g g
+    r4 g2 g4
     g c h a
-    g2 f4( e) %15
+    g2 f4 e %15
     d e8 f g4 f
-    e2( d4.)\trill e8
-    e2 r
-    R1 \noBreak
-    R\fermata \bar "||" %20
-    \key g \major \time 3/4 \tempoE-XXXIVb \newSpacingSection
-      R2. \noBreak
+    e2 d
+    e r
+    R1
+    R\fermata \bar "||" %20 finis
+  }
+}
+
+E-XXXIVbViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 3/4 \tempoE-XXXIVb
+      \set Score.currentBarNumber = #21
+    R2.
     r4 r d\p
     g, g8( h) a( c)
     h( d) h( g) a( d,)
@@ -35,7 +42,7 @@ E-XXXIVViola = {
     d2 r4 %30
     a'8( fis) h( g) e( cis)
     d2 r4
-    d2 \once \slurDashed g8( e)
+    d2 g8( e)
     fis4 a8( fis) g( e)
     d2 g8( e) %35
     fis4 a8( fis) g( e)
@@ -65,17 +72,17 @@ E-XXXIVViola = {
     g~
     g~
     g~ %70
-    g~ \noBreak
-    g2 r4 \markChorusUtSupra \bar "||"
-    \twofourtime \key f \major \time 2/4 \tempoE-XXXIVc \newSpacingSection
-      R2*84 \noBreak %156
-    R2\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoE-XXXIVd \newSpacingSection
-      \partial 8 r8 \correctBn \noBreak
-    R1*16 \noBreak %173
-    R1\fermata \bar "||"
-    \key c \major \time 3/4 \tempoE-XXXIVe \newSpacingSection
-      r4 r g\f \noBreak %175
+    g~
+    g2 r4 \markChorusUtSupra \bar "||" %72 finis
+  }
+}
+
+E-XXXIVeViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoE-XXXIVe
+      \set Score.currentBarNumber = #175
+    r4 r g'\fE
     g2 g4
     g2 h4
     g2 g4
@@ -119,8 +126,8 @@ E-XXXIVViola = {
     c~
     \time 2/2 c2 r4 g' \noBreak %270
     g2 g
-    g4( c) h( a)
-    g( e) a( g)
+    g4 c h a
+    g e a g
     g2 r4 g
     g2. a4 %275
     g2 g
@@ -128,13 +135,13 @@ E-XXXIVViola = {
     g r4 g
     g2 g
     a a %280
-    a4( g) g2
+    a4^\critnote g g2
     g r
-    r4 g g g
-    g( c) h( a)
-    g2( a) %285
-    g g4 a
-    g1
-    g2 r\fermata \bar "|." %288 finis
+    r4 g2 g4
+    g c h a
+    g2 a %285
+    g2. a4
+    g2 g
+    g r\fermata \bar "|." %288 finis
   }
 }

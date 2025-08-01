@@ -10,10 +10,10 @@ E-XXVIIIaOboeI = {
     \pa g8 h16( d) g8 d16( g) \pd h4
     r8^\critnote a4 \pa fis16( d) h'( g8.) \pd %5
     a16([ fis8.) d16( a8.) h16( g8.)]
-    a8 fis'16( d) a8 d16( a) fis8 d'
+    a8 fis'16( d) a8 d16( a) \once \slurDashed fis8( d')
     h16([ h'8.) h16( g8.) g16( e8.)]
     e16([ cis8.) cis16( a8.) a16( fis8.)]
-    e8 a16( cis) e8 \hA cis16( e) a8 e %10
+    \pa e8 a16( cis) \pd e8 \hA cis16( e) a8 e %10
     fis d16( fis) a8 fis16( a) d8 d,
     h'16([ g8.) fis16( d8.) e16( cis8.)]
     \pa d8 a'16( fis) \pd d8 fis16( d) a8 d16( a)
@@ -36,10 +36,10 @@ E-XXVIIIaOboeI = {
     e8 g16( e) c8 c'16( a) fis8 a16( fis) %30
     g8 h16( g) d8 g16( h) a( fis) d( a)
     h8 g16( h) d8 h16( d) e8 g16( e)
-    d8 g~ g \once \slurDashed h16( h,) a8 fis'
+    d8 g~ g h16( h,) a8 fis'
     \pa g d, g d16( g) \pd h8 g16( h)
     d8 g,16( h) d8 h16( d) g8 d16( g) %35
-    \once \slurDashed h( c) \once \tieDashed d8~ d \once \slurDashed h16( d) c8 a16( fis)
+    \pa \once \slurDashed h( c) \once \tieDashed d8~ d \once \slurDashed h16( d) \pd c8 a16( fis)
     g8 h16( g) d8 g16( d) h8 d16( h)
     g2 r4\fermata \bar "||" %38 finis
   }
@@ -72,7 +72,7 @@ E-XXVIIIbOboeI = {
     e'2~
     e~
     e8 c' g a %60
-    e c16 e g8 g,16 e'
+    e c16( e) g8 g,16( e')
     c8 g16 e c4
     r8 g'16\p c e8 d
     R2*7 %70

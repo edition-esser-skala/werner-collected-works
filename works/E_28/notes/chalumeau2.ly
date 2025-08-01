@@ -8,7 +8,7 @@ E-XXVIIIcSalmoeII = {
     c'2\trill\pE h\trill
     a4 r8 e' c4 h %180
     c4. g8 gis16( a) a8 \tuplet 3/2 8 { \sbOn f'16 e f e d c \sbOff }
-    ais( h) h8 h4\trill h16( c) cis8 cis16( d) e8
+    ais( h) h8 h4(\trill h16)( c) cis8 cis16( d) e8
     e16( f) fis8 fis16( g) gis8 a a, h gis
     a8. d16 \tuplet 3/2 8 { \sbOn c h a h a gis \sbOff } a4 r
     r2 r8 \tuplet 3/2 8 { c16 h a } g( c) e8 %185
@@ -31,6 +31,6 @@ E-XXVIIIcSalmoeII = {
     r2 h8 g a c
     h a g16( h) a( g) fis( g) g( a) a( h) h( c)
     c( d) d( e) e( d) c8 h r a d~ %205
-    d16 h g8 g fis g4 r\fermata \bar "||" %206 finis
+    d16 h g8~ g fis g4 r\fermata \bar "||" %206 finis
   }
 }

@@ -10,7 +10,7 @@ E-XXVIIIaViolinoII = {
     g8 d16( g) h( g) h( d) g4
     r8 d4 fis8 d16( g8.) %5
     fis16([ d8.) a16( fis8.) g16( h8.)]
-    fis8 d'16( a) fis8 a16( fis) d8 fis
+    fis8 d'16( a) fis8 a16( fis) d8( fis)
     g16([ g'8.) g16( e8.) e16( h8.)]
     cis16([ a8.) a16( e8.) fis16( d8.)]
     cis8 e16( a) cis8 a16( \hA cis) e8 \hA cis %10
@@ -39,7 +39,7 @@ E-XXVIIIaViolinoII = {
     d8 g~ g h16( h,) a8 fis'
     \kneeBeam g g,,16( h) d8 h16( d) g8 d16( g)
     h8 d,16( g) h8 g16( h) d8 h16( d) %35
-    g( a) h8~ h g16( h) a8 fis16( d)
+    g( a) h8~ h \once \slurDashed g16( h) a8 fis16( d)
     h8 d16( h) g8 h16( g) d8 g16( d)
     h2 r4\fermata \bar "||" %38 finis
   }
@@ -197,7 +197,7 @@ E-XXVIIIdViolinoII = {
     r8 g' a f16 a
     g8 c4 h8
     c c,16 e g8 h
-    g16( c,)-\critnote a'8 a16 f? d8 %220
+    g16( e) a8~ a16 f? d8 %220
     g c d16( h) h8
     g16( c) g( e) c4
     r8 h' g c

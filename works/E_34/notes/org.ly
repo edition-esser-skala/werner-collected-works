@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-E-XXXIVOrgano = {
+E-XXXIVaOrgano = {
   \relative c {
     \clef bass
     \twotwotime \key c \major \time 2/2 \tempoE-XXXIVa
@@ -22,10 +22,40 @@ E-XXXIVOrgano = {
     g4 f e f
     g f g g,
     c c' a e
-    f d g g, \noBreak
-    c2 r\fermata \bar "||" %20
+    f d g g,
+    c2 r\fermata \bar "||" %20 finis
+  }
+}
+
+E-XXXIVaBassFigures = \figuremode {
+  r4 r2 <[6]>
+  r1
+  <6>
+  \bo <[6]>
+  \bc q2 <6>4 <[6 5]> %5
+  r <6> <[6]>2
+  <6 4> <5 _+>
+  r4 <\t>2.
+  \bo <[6 _]>
+  r %10
+  r4 <6 5>2.
+  r1
+  <6>2 q
+  r <7>4 <6>
+  \bc <[6 _]>2 <6>4 <5> %15
+  r4 \bo <[6]> \bc q2
+  <6 4> <5 3>
+  r1
+  r
+  r %20 finis
+}
+
+E-XXXIVbOrgano = {
+  \relative c {
+    \clef bass
     \key g \major \time 3/4 \tempoE-XXXIVb \newSpacingSection
-      \mvTr g2\pE-\soloE r4 \noBreak
+      \set Score.currentBarNumber = #21
+    \mvTr g2\pE-\soloE r4
     g2 d'4
     g2 a4
     h g d
@@ -75,10 +105,72 @@ E-XXXIVOrgano = {
     g~
     g~
     g~ %70
-    g~ \noBreak
-    g\fermata \markChorusUtSupra \bar "||"
-    \twofourtime \key f \major \time 2/4 \tempoE-XXXIVc \newSpacingSection
-      \mvTr f'4\fE-\soloE r \noBreak
+    g~
+    g\fermata \markChorusUtSupra \bar "||" %72 finis
+  }
+}
+
+E-XXXIVbBassFigures = \figuremode {
+  r2. %21
+  r
+  r
+  <[6]>
+  r %25
+  <6>2 <6\\>4
+  r2.
+  r2 <_+>4
+  r2 q4
+  r2 q4 %30
+  <5 3> <6 4> <7\\ 4 2>
+  <8 3> <6 4> <7\\ 4 2>
+  <8 3>2 <6 4>4
+  <5 3>2 <7\\ 4 2>4
+  <8 3>2 <6 4>4 %35
+  <5 3>2 <7\\ 4 2>4
+  <8 3>2.
+  r
+  r
+  r %40
+  <7[!]>
+  <5 3>2 <6 4>4
+  <7 3>2.
+  r2.
+  \bo <[6]> %45
+  \bc q
+  r2 <_+>4
+  r2.
+  r
+  r2 <_+>4 %50
+  r2.
+  <5 3>4 <6 4> <7[!] 5>
+  <6 4> <7 5> <8 6>
+  <5 3> <6 4> <7 5>
+  r2. %55
+  r
+  <[6]>
+  r
+  r
+  r %60
+  r
+  r
+  r
+  r
+  r %65
+  r
+  r
+  r
+  r
+  r %70
+  r
+  r %72 finis
+}
+
+E-XXXIVcOrgano = {
+  \relative c {
+    \clef bass
+    \twofourtime \key f \major \time 2/4 \tempoE-XXXIVc
+      \set Score.currentBarNumber = #73
+    \mvTr f4\fE-\soloE r
     r8 f\pE e c
     f4 r8 b %75
     a g\fE f e
@@ -122,10 +214,10 @@ E-XXXIVOrgano = {
     c~
     c~ %115
     c~
-    c8 a'-!-\allaOttava g-! f-!
+    c8 a'-\allaOttava g f
     e d16 c g'8 g,
     c4 r
-    r8 c\pE h g %120
+    \key c \major r8 c\pE h g %120
     c4 r8 f
     e d\fE c h
     c a d d,
@@ -161,15 +253,115 @@ E-XXXIVOrgano = {
     c~
     c~
     c8 a'-\allaOttava g f %155
-    e d16 c g'8 g, \noBreak
-    c4 r\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoE-XXXIVd \newSpacingSection
-      \partial 8 r8 \noBreak \correctBn \mvTr a'8\p-\soloE c gis4 a8. h16 c8 a \noBreak
+    e d16 c g'8 g,
+    c4 r\fermata \bar "||" %157 finis
+  }
+}
+
+E-XXXIVcBassFigures = \figuremode {
+  r2 %73
+  r4 \bo <[6]>
+  r2 %75
+  <6>8 q4 \bc <[6]>8
+  r4 <_!>
+  r4. q8
+  r4. q8
+  r2 %80
+  r4 \bo <[6]>
+  r2
+  <6>8 q4 \bc <[6]>8
+  r4 <_!>
+  r4. q8 %85
+  r4 <6>8 <_!>
+  r2
+  r
+  r
+  r %90
+  r
+  r
+  r
+  r
+  \bo <[6]> %95
+  r
+  \bc q
+  r
+  <5 3>8 <6 4> <[5] 3>4
+  <5 3>8 <6 4> <5 3>4 %100
+  <5 3>8 <6 4> <5 3>4
+  r2
+  r
+  r
+  r %105
+  r
+  r
+  r
+  r
+  r %110
+  r
+  r
+  r
+  r
+  r %115
+  r
+  r
+  r
+  r
+  r4 \bo <[6]> %120
+  r2
+  <6>8 q4 \bc <[6]>8
+  r4 <_+>
+  r4. <_+>8
+  r4. <_+>8 %125
+  r2
+  r4 \bo <[6]>
+  r2
+  <6>8 q4 \bc <[6]>8
+  r4 <_+> %130
+  r4. <_+>8
+  r4 <6>8 <_+>
+  r2
+  r
+  r %135
+  r
+  r
+  r
+  r
+  r %140
+  \bo <[6]>2
+  r
+  \bc q
+  r
+  <5 3>8 <6 4> <5 3>4 %145
+  <5 3>8 <6 4> <5 3>4
+  <5 3>8 <6 4> <5 3>4
+  <[6]>2
+  r
+  r %150
+  r
+  r
+  r
+  r
+  r %155
+  r
+  r %157 finis
+}
+
+E-XXXIVdOrgano = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \tempoE-XXXIVd
+      \set Score.currentBarNumber = #158
+    \partial 8 r8 \mvTr a'8\pE-\soloE c gis4 a8. h16 c8 a
     h4 r8 g c, d e4
     f fis8 d g a h g %160
     c f, g g, c4 r
-    a8 c gis e a h c gis
-    a4 h8 g << { c' a e c } \\ { c4 s } >>
+    << {
+      a'8^\vlne c gis e a h c gis
+      a4 h8 g c a e c
+    } \\ {
+      a8_\org c gis e a h c gis
+      a4 h8 g c4 s
+    } >>
     f4 fis8 d g g,16 a h8 g
     c e h g c a' e f %165
     g f g g, c e h g
@@ -179,14 +371,25 @@ E-XXXIVOrgano = {
     a h c a d e f d %170
     e fis gis e a c gis e
     c a gis e a d e e,
-    << { a' g! f c } \\ { a4 s } >> d8 f e e, \noBreak
-    a4 r r2\fermata \bar "||"
-    \key c \major \time 3/4 \tempoE-XXXIVe \newSpacingSection
-      \mvTr c2\fE-\tutti g'4 \noBreak %175
+    << { a' g! f c } \\ { a4 s } >> d8 f e e,
+    a4 r r2\fermata \bar "||" %174 finis
+  }
+}
+
+E-XXXIVdBassFigures = \figuremode {
+  % tacet
+}
+
+E-XXXIVeOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoE-XXXIVe
+      \set Score.currentBarNumber = #175
+    \mvTr c2\fE-\tutti g'4
     c,2 h4
     c2 g'4
     c2 g4
-    e( c) c'
+    e c c'
     h2 a4 %180
     g2 d4
     g, r r
@@ -276,7 +479,7 @@ E-XXXIVOrgano = {
     c~
     c~
     c~ \noBreak
-    c~
+    c~ \tempo 4 = 200
     \time 2/2 c4-\tutti c' g e \noBreak %270
     c c' h g
     c a g f
@@ -299,181 +502,7 @@ E-XXXIVOrgano = {
   }
 }
 
-E-XXXIVBassFigures = \figuremode {
-  r4 r2 <[6]>
-  r1
-  <6>
-  \bo <[6]>
-  \bc q2 <6>4 <[6 5]> %5
-  r <6> <[6]>2
-  <6 4> <5 _+>
-  r1
-  \bo <[6 _]>
-  r %10
-  r4 <6 5>2.
-  r1
-  <6>2 q
-  r <7>4 <6>
-  \bc <[6 _]>2 <6>4 <5> %15
-  r4 \bo <[6]> \bc q2
-  <6 4> <5 3>
-  r1
-  r
-  r %20
-  r2.
-  r
-  r
-  <[6]>
-  r %25
-  <6>2 <6\\>4
-  r2.
-  r2 <_+>4
-  r2 q4
-  r2 q4 %30
-  <5 3> <6 4> <7\\ 2>
-  <8 3> <6 4> <7\\ 4>
-  <8 3>2 <6 4>4
-  <5 3>2 <7\\ 4 2>4
-  <8 3>2 <6 4>4 %35
-  <5 3>2 <7\\ 4 2>4
-  <8 3>2.
-  r
-  r
-  r %40
-  <7[!]>
-  <5 3>2 <6 4>4
-  <7 3>2.
-  r2.
-  \bo <[6]> %45
-  \bc q
-  r2 <_+>4
-  r2.
-  r
-  r2 <_+>4 %50
-  r2.
-  <5 3>4 <6 4> <7[!] 5>
-  <6 4> <7 5> <8 6>
-  <5 3> <6 4> <7 5>
-  r2. %55
-  r
-  <[6]>
-  r
-  r
-  r %60
-  r
-  r
-  r
-  r
-  r %65
-  r
-  r
-  r
-  r
-  r %70
-  r
-  r
-  r2
-  r4 \bo <[6]>
-  r2 %75
-  <6>8 q4 \bc <[6]>8
-  r4 <_!>
-  r4. q8
-  r4. q8
-  r2 %80
-  r4 \bo <[6]>
-  r2
-  <6>8 q4 \bc <[6]>8
-  r4 <_!>
-  r4. q8 %85
-  r4 <6>8 <_!>
-  r2
-  r
-  r
-  r %90
-  r
-  r
-  r
-  r
-  \bo <[6]> %95
-  r
-  \bc q
-  r
-  <5 3>8 <6 4> <5 3>4
-  <5 3>8 <6 4> <5 3>4 %100
-  <5 3>8 <6 4> <5 3>4
-  r2
-  r
-  r
-  r %105
-  r
-  r
-  r
-  r
-  r %110
-  r
-  r
-  r
-  r
-  r %115
-  r
-  r
-  r
-  r
-  r4 \bo <[6]> %120
-  r2
-  <6>8 <[6!]>4 \bc <[6]>8
-  r4 <_+>
-  <[_!]>4. <_+>8
-  <[_!]>4. <_+>8 %125
-  \bo <[_!]>2
-  r4 <6>
-  r2
-  <6>8 <[6!]>4 \bc <[6]>8
-  r4 <_+> %130
-  <[_!]>4. <_+>8
-  <[_!]> <6> q <_+>
-  r2
-  r
-  r %135
-  r
-  r
-  r
-  r
-  r %140
-  \bo <[6]>4. <_!>8
-  r2
-  \bc <[6]>
-  r
-  <5 _!>8 <6 4> <5 _!>4 %145
-  <5 _!>8 <6 4> <5 _!>4
-  <5 _!>8 <6 4> <5 _!>4
-  r2
-  r
-  r %150
-  r
-  r
-  r
-  r
-  r %155
-  r
-  r
-  r8 r1
-  r
-  r %160
-  r
-  r
-  r
-  r
-  r %165
-  r
-  r
-  r
-  r
-  r %170
-  r
-  r
-  r
-  r
+E-XXXIVeBassFigures = \figuremode {
   r2. %175
   r2 \bo <[6]>4
   r2.
@@ -500,9 +529,9 @@ E-XXXIVBassFigures = \figuremode {
   <3 1>2 <4 2>4
   <5 3>2.
   <6> %200
-  r2 q4
+  r2 <8 6>4
   r2.
-  r2 <10 8>4
+  <[6]>2 <10 8>4
   <5 3>2 <7 5>4
   r2. %205
   r
@@ -517,15 +546,15 @@ E-XXXIVBassFigures = \figuremode {
   r2 <5>4 %215
   r2 <_+>4
   r2 q4
-  r2.
-  <[5] _+>2 <6 4>4
+  r <\t>2
+  <[5] _+> <6 4>4
   <5 _+>2 <6 4>4 %220
   <5 _+> <7 5> <6 4>
   \bo <[5] _+>2 \bc <[\t] \t>4
   <6>2 \bo <[6]>4
-  r2 \bc <[6]>4
+  r2 \bc q4
   r2 <_+>4 %225
-  r2.
+  <[6]>2.
   r
   <6>4 <5> <_+>
   r2 q4
@@ -533,19 +562,19 @@ E-XXXIVBassFigures = \figuremode {
   r2 <[6]>4
   r2.
   <6>
-  r
+  <[6]>
   <6>2 <6!>4 %235
   r2 \bo <[6]>4
-  r2 \bc <[_!]>4
   r2.
+  r
   <8 3>4 <7-> <6 4>
   <5 3>2 <6 4>4 %240
   <5 3>2 <6 4>4
-  \bo <[5] 3>2.
+  \bo <[5 3 ]>2.
   <6>2 q4
   r2.
   r %245
-  \bc <[6]>
+  \bc <[6 _]>
   r
   r
   r
@@ -577,14 +606,14 @@ E-XXXIVBassFigures = \figuremode {
   <[6]>2 <6>4 \bo <[7]> %275
   r \bc <[6]> <6>2
   <6 4> <5 _+>
-  r1
-  \bo <[6 _]>
+  r4 <\t>2.
+  \bo <[6 _]>1
   r %280
-  r4 <[6 5]>2.
-  r1
-  <6>2 q
+  r4 \bc <[6 5]>2.
+  r4 <\t>2.
+  \bo <[6]>2 <6>
   r <7>4 <6>
-  \bc <[6 _]>2 <6>4 <5> %285
+  \bc <[6]>2 <6>4 <5> %285
   r2 <6>
   <5 4> <\t 3>
   r1 %288 finis

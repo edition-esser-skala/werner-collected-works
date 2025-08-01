@@ -7,11 +7,41 @@
 
 \book {
   \bookpart {
-    \section "E.34" "Ehr ſey Gott in den höchſten Thron"
+    \section "E.34" "Ehr ſey Gott in dem höchſten Thron"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \E-XXXIVaViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Aria prima"
+    \addTocEntry
+    % \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \E-XXXIVbViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Aria secunda"
     \addTocEntry
     \score {
       <<
-        \new Staff { \E-XXXIVViolinoI }
+        \new Staff { \E-XXXIVcViolinoI }
+      >>
+    }
+    \tacet "subsection" "Aria tertia"
+  }
+  \bookpart {
+    \subsection "Chorus"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \E-XXXIVeViolinoI }
       >>
     }
   }

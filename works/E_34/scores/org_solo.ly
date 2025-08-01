@@ -2,7 +2,6 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "b")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -13,6 +12,7 @@
     \score {
       <<
         \new Staff { \E-XXXIVaOrgano }
+        \new FiguredBass { \E-XXXIVaBassFigures }
       >>
     }
   }
@@ -23,6 +23,7 @@
     \score {
       <<
         \new Staff { \E-XXXIVbOrgano }
+        \new FiguredBass { \E-XXXIVbBassFigures }
       >>
     }
   }
@@ -32,26 +33,35 @@
     \score {
       <<
         \new Staff { \E-XXXIVcOrgano }
+        \new FiguredBass { \E-XXXIVcBassFigures }
       >>
     }
   }
   \bookpart {
     \subsection "Aria tertia"
     \addTocEntry
-    \paper { system-count = #6 }
+    \paper {
+      systems-per-page = #6
+      indent = 1.5\cm
+    }
     \score {
       <<
-        \new Staff { \E-XXXIVdOrgano }
+        \new PianoStaff <<
+          \set PianoStaff.instrumentName = "org solo"
+          \new Staff { \E-XXXIVdChords }
+          \new Staff { \E-XXXIVdOrgano }
+        >>
+        \new FiguredBass { \E-XXXIVdBassFigures }
       >>
     }
   }
   \bookpart {
     \subsection "Chorus"
     \addTocEntry
-    \paper { page-count = #2 }
     \score {
       <<
         \new Staff { \E-XXXIVeOrgano }
+        \new FiguredBass { \E-XXXIVeBassFigures }
       >>
     }
   }

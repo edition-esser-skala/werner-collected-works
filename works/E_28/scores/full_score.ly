@@ -81,7 +81,7 @@
     }
   }
   \bookpart {
-    \subsection "Hierten Aria"
+    \subsection "Hürten Aria"
     \addTocEntry
     \paper { systems-per-page = #2 }
     \score { %\articulate

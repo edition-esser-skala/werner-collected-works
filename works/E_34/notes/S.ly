@@ -1,10 +1,10 @@
 \version "2.24.0"
 
-E-XXXIVSoprano = {
+E-XXXIVaSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 2/2 \tempoE-XXXIVa \autoBeamOff
-    \partial 4 \mvTr g'4\fE^\tutti c2 g'
+    \partial 4 \mvTr g'4\fE^\tuttiE c2 g'
     e c
     d h
     c r4 e
@@ -22,20 +22,38 @@ E-XXXIVSoprano = {
     h d c a
     c2( h4.)\trill c8
     c2 r
-    R1 \noBreak
-    R\fermata \bar "||" %20
-    \key g \major \time 3/4 \tempoE-XXXIVb \newSpacingSection
-      R2.*51 \noBreak %71
-    R2.\fermata \markChorusUtSupra \bar "||"
-    \twofourtime \key f \major \time 2/4 \tempoE-XXXIVc \newSpacingSection
-      R2*84 \noBreak %156
-    R2\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoE-XXXIVd \newSpacingSection
-      \partial 8 r8 \correctBn \noBreak
-    R1*16 \noBreak %173
-    R1\fermata \bar "||"
-    \key c \major \time 3/4 \tempoE-XXXIVe \newSpacingSection
-      r4^\tutti r g\fE \noBreak %175
+    R1
+    R\fermata \bar "||" %20 finis
+  }
+}
+
+E-XXXIVaSopranoLyrics = \lyricmode {
+  Ehr ſey Gott
+  in dem
+  höch -- ſten
+  Thron, wie
+  auch ſein %5
+  ein -- ge --
+  bohr -- nen
+  Sohn, Frid
+  ſey auf
+  Erd dem %10
+  Men -- ſchen --
+  kind, wo
+  ſich ein
+  gue -- ter
+  Willn be -- %15
+  findt, ein gue -- ter
+  Willn __ be --
+  findt. %18 finis
+}
+
+E-XXXIVeSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoE-XXXIVe
+      \set Score.currentBarNumber = #175
+    r4^\tutti r g'\fE
     c2 d4
     e( c) g'
     e( c) d
@@ -52,7 +70,7 @@ E-XXXIVSoprano = {
     h( g) a
     g r r %190
     R2.*79 %169
-    \time 2/2 r2 r4 \mvTr g\fE^\tutti %170
+    \time 2/2 r2 r4 \mvTr g\fE^\tuttiE %170
     c2 d
     e f
     g4( c,) d( h)
@@ -74,57 +92,38 @@ E-XXXIVSoprano = {
   }
 }
 
-E-XXXIVSopranoLyrics = \lyricmode {
-  Ehr ſey Gott
-  in den
-  höch -- ſten
-  Thron, wie
-  auch ſein %5
-  ein -- ge --
-  bohr -- nen
-  Sohn, Frid
-  ſey auff
-  Erd dem %10
-  Men -- ſchen --
-  kind, wo
-  ſich ein
-  gut -- ter
-  Willn be -- %15
-  find, ein gut -- ter
-  Willn __ be --
-  find.
-
+E-XXXIVeSopranoLyrics = \lyricmode {
   So %175
-  laßt uns
+  laßt unß
   gehn nach
   Beth -- le --
   hem zum
-  ein -- ge -- %180
+  neu -- ge -- %180
   bohr -- nen
   Kind,
   da --
-  mit wir
-  doch däß %185
-  Wun -- der
+  mit mär
+  do __ döß %185
+  Wun -- dä
   ſehn ſo
-  ſich al --
-  dorth be --
+  ſi __ al --
+  dorts be --
   findt. %190
 
   So %270
-  falln wir
-  ni -- der
+  falln mär
+  ni -- dä
   auf dö __
   Knie, und
   opf -- fern %275
-  Ihm all
-  un -- ſer
-  Mieh, Gott
+  ihm all
+  un -- ſri
+  Müeh, Gott
   ſey ge --
   be -- ne -- %280
   dey --
   et, der
-  uns heut
+  unß heut
   ſo er --
   freu -- et, __ %285
   ſo er --

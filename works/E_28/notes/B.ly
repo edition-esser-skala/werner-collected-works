@@ -32,7 +32,7 @@ E-XXVIIIaBasso = {
     d2 d4
     d2 cis4
     d r g
-    e( c) h
+    e( c!) h
     c( a) d %30
     h r fis'
     g2 c,4
@@ -47,14 +47,14 @@ E-XXVIIIaBassoLyrics = \lyricmode {
   Ô
   längſt er --
   wünſch -- te
-  Nacht voll
+  Nacht! voll
   Liecht und %5
   kla -- ren
   Schein, mein
-  Hertz ſo
+  Herz ſo
   voll __ der
   Freud iſt %10
-  mir __ heunt
+  mir __ heut
   vill zu
   klein,
   die
@@ -67,10 +67,10 @@ E-XXVIIIaBassoLyrics = \lyricmode {
   heuf -- fen,
   daß
   ſich __ der
-  Schö -- pffer
+  Schö -- pfer
   ſelbſt zu %25
   ei -- nen
-  Gſchöpff ge --
+  Gſchöpf ge --
   macht, diß
   iſt __ ein
   ſol -- ches %30
@@ -85,7 +85,7 @@ E-XXVIIIbBasso = {
     \clef bass
     \twofourtime \key c \major \time 2/4 \autoBeamOff \tempoE-XXVIIIba
       \set Score.currentBarNumber = #39
-    R2*24 %62
+    \after 4*0 _\critnote R2*24 %62
     r4 r8 \mvTr g'\pE^\soloE
     e c r c'
     h g16([ h)] a8 fis16([ d)] %65
@@ -94,7 +94,7 @@ E-XXVIIIbBasso = {
     c h c a
     h4 h8 h
     c e d c %70
-    g4 r
+    h4 r
     R2
     r4 r8 h
     c a a h
@@ -126,7 +126,7 @@ E-XXVIIIbBasso = {
     c h c a
     h8. h16 h8 h
     c e d c
-    g4 r
+    h4 r
     R2 %130
     r4 r8 h
     c a a h
@@ -155,62 +155,62 @@ E-XXVIIIbBasso = {
 
 E-XXVIIIbBassoLyrics = \lyricmode {
   Waß %63
-  klingt da? Wer
-  ſpillt ſo wun -- der -- %65
-  ſchön,
-  alß
-  wan wir ſchon in
+  klingt de? Wer
+  ſpillt ſo wun -- dä -- %65
+  ſchö?
+  äß
+  wan mär ſcho in
   Him -- mel thät
-  würk -- lich hin -- ein -- %70
+  würk -- li ei -- ni -- %70
   gehn,
 
-  alß
-  wan wir ſchon in
+  äß
+  wan mär ſcho in
   Him -- mel thät %75
-  würk -- lich hin -- ein --
-  gehn?
+  würk -- li ei -- ni --
+  gehn.
 
   Dort %95
-  kom -- mens von
+  ke -- mäns von
   wei -- den mit
-  Ju -- bel und
-  Freu -- den und
+  Pau -- ken, Tro --
+  me -- ten und
   al -- ler -- ley %100
-  Still.
+  Spill.
 
-  Ich %104
-  weiß nicht, waß %105
-  dieß Ding be --
+  I %104
+  woäß nit, waß %105
+  döß Ding be --
   deu -- then nur
   will.
 
-  Eß %121
-  blitzt waß und
-  ſcheint alß wie die
+  Äß %121
+  blizt waß, und
+  ſcheint äß wie dö
   Sonn,
-  die %125
-  Mu -- sic hat ja
-  würk -- lich wohl recht
-  ein Eng -- li -- ſchen
+  dö %125
+  Mu -- si hat ä
+  wär -- lä wohl recht
+  oän Eng -- li -- ſchen
   Thon,
   %130
-  die
-  Mu -- sic hat ja
-  würk -- lich wohl recht
-  ein Eng -- li -- ſchen
+  dö
+  Mu -- si hat ä
+  wär -- lä wohl recht
+  oän Eng -- li -- ſchen
   Thon. %135
 
-  Ich %153
-  werd all -- weil
-  frö -- her, die %155
+  I %153
+  wir all -- wäl
+  frö -- her, dö %155
   gul -- de -- ne
-  Flü -- gel be --
-  theu -- ten waß
+  Flü -- gl be --
+  du -- then waß
   mehr,
 
   waß %162
-  gilds, dieß ſeind
-  En -- gel von
+  gilds, döß ſänd
+  En -- gl von
   Him -- mel obn %165
   her. %166 finis
 }
@@ -259,7 +259,7 @@ E-XXVIIIdBassoLyrics = \lyricmode {
   ju --
   bi -- %210
   lo, in
-  Her -- tzen
+  Her -- zen
   froh, __
   _
   _ %215

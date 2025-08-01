@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-E-XXXIVTenore = {
+E-XXXIVaTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 2/2 \tempoE-XXXIVa \autoBeamOff
@@ -22,11 +22,39 @@ E-XXXIVTenore = {
     h4 a g a
     g2 g
     g r
-    R1 \noBreak
-    R\fermata \bar "||" %20
-    \key g \major \time 3/4 \tempoE-XXXIVb \newSpacingSection
+    R1
+    R\fermata \bar "||" %20 finis
+  }
+}
+
+E-XXXIVaTenoreLyrics = \lyricmode {
+  Ehr ſey -- e
+  Gott in dem
+  höch -- ſten
+  Thron,
+  wie auch ſein %5
+  ein -- ge --
+  bohr -- nen
+  Sohn,
+  Frid
+  ſey auf %10
+  Erd dem Men -- ſchen --
+  kind,
+  wo ſich ein
+  gue -- ter
+  Willn be -- %15
+  findt, ein gut -- ter
+  Willn be --
+  findt. %18 finis
+}
+
+E-XXXIVbTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 3/4 \tempoE-XXXIVb \autoBeamOff
+      \set Score.currentBarNumber = #21
       \once \override TextScript.outside-staff-priority = #1000
-      r4^\markup \remark "Pastor 1mus" r \mvTr d\pE^\markup \remark "T 1 solo" \noBreak
+    r4^\markup \remark "Erſter Hirt · Pastor 1mus" r \mvTr d,\pE^\solo \noBreak
     g4 g8([ h)] a4
     h h8([ d)] c([ e)]
     d4 h8([ g)] a([ d,)]
@@ -55,11 +83,50 @@ E-XXXIVTenore = {
     d4 c8([ h)] a([ g)]
     c4 a d
     g, r r
-    R2.*12 \noBreak %71
-    R2.\fermata \markChorusUtSupra \bar "||"
-    \twofourtime \key f \major \time 2/4 \tempoE-XXXIVc \newSpacingSection
+    R2.*12 %71
+    R2.\fermata \markChorusUtSupra \bar "||" %72 finis
+  }
+}
+
+E-XXXIVbTenoreLyrics = \lyricmode {
+  Herts %21
+  wun -- dä wie
+  ßin -- gäns, wie
+  thänß halt ſo
+  ſchö, des %25
+  Herz möcht än
+  wär -- lä vor
+  Freu -- den zär --
+  gehn.
+
+  Äß %40
+  glanzt ja und
+  ſchim -- märt wie
+  lau -- tä Cry --
+  ſtaln in
+  Him -- mel thuet %45
+  al -- läs mit
+  Ju -- bel er --
+  ſchalln.
+
+  I %51
+  denk hin und
+  wi -- dä, i
+  wir -- mä nit
+  gſcheidt, waß %55
+  im -- mä döß
+  Wö -- ßen ſo
+  spath jez be --
+  deuth. %59 finis
+}
+
+E-XXXIVcTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \twofourtime \key f \major \time 2/4 \tempoE-XXXIVc \autoBeamOff
+      \set Score.currentBarNumber = #73
       \once \override TextScript.outside-staff-priority = #1000
-      r4^\markup \remark "Pastor 2dus" r8 \mvTr c\pE^\markup \remark "T 2 solo" \noBreak
+    r4^\markup \remark "Der anderte Hirt · Pastor 2dus" r8 \mvTr c\pE^\solo \noBreak
     f,4 g
     a8 f' e d %75
     c4 r
@@ -79,20 +146,104 @@ E-XXXIVTenore = {
     c a f a
     g c c, c
     f g a b
-    c4. d16([ h)]
-    c4. d16([ h)] %100
+    c4. d16[ h]
+    c4. d16[ h] %100
     c4 r8 b
     a g16([ f)] c'8 c,
     f4 r
-    R2*53 \noBreak %156
-    R2\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoE-XXXIVd \newSpacingSection
-      \partial 8 r8 \correctBn \noBreak
-      R1*16 \noBreak %173
-    R1\fermata \bar "||"
-    \key c \major \time 3/4 \tempoE-XXXIVe \newSpacingSection
-      r4^\tutti r << \context Voice = "Tenore" {
-      \voiceOne d'\fE %175
+    R2*15 %118
+    \once \override TextScript.outside-staff-priority = #1000
+    \clef bass r4^\markup \remark "Der dritte Hirt · Pastor 3tius" r8 \mvTr g\pE^\solo
+    \key c \major c,4 d %120
+    e8 c' h a
+    g4 r
+    R2*3 %125
+    r4 r8 g
+    c,4 d
+    e8 c' h a
+    g4 r8 d
+    e a d, fis %130
+    g4 r8 a
+    h g a fis
+    g4 r
+    R2*5 %138
+    r4 r8 g
+    g e c e %140
+    d g g, g'
+    g e c e
+    d g g, g
+    c d e f
+    g4. a16[ fis] %145
+    g4. a16[ fis]
+    g4 r8 f
+    e d16([ c)] g'8 g,
+    c4 r
+    R2*7  %156
+    R2\fermata \bar "||" %157 finis
+  }
+}
+
+E-XXXIVcTenoreLyrics = \lyricmode {
+  Ey %73
+  daß iß
+  woll ä Wun -- dä -- %75
+  spill,
+
+  daß %80
+  bey dä
+  Nacht woß meu -- ßel --
+  ſtill ßi
+  alls ſo lu -- ſti
+  macht, ßo -- %85
+  gar bey fin -- ſträ
+  Nacht.
+
+  Dö %93
+  Vö -- gl ſin -- gä
+  um -- ä -- dum, daß %95
+  Viech gumbt ä voll
+  Freud he -- rum, daß
+  än däß Herz recht
+  lacht, __ _
+  _ _ %100
+  _ däß
+  än däß Herz recht
+  lacht!
+
+  Schau %119
+  schau, wer %120
+  kimt nä dort dä --
+  her,
+
+  äß %126
+  wan är
+  föl -- li gfli -- gelt
+  wer, i
+  fircht mi ſchier halb %130
+  dot, i
+  bi voll Angſt und
+  Noth.
+
+  Är %139
+  ſchi -- mert pur vo %140
+  lau -- tä Gold, daß
+  ä -- ner ja faſt
+  glau -- ben ſolt, er
+  wär ä Him -- mels --
+  both, __ _ %145
+  _ _
+  _ er
+  wär ä Him -- mels --
+  both. %149 finis
+}
+
+E-XXXIVeTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 3/4 \tempoE-XXXIVe
+      \set Score.currentBarNumber = #175
+    r4^\tutti r << \context Voice = "Tenore" {
+      \voiceOne d\fE %175
       e2 d4
       c2 d4
       c( e) d
@@ -168,7 +319,7 @@ E-XXXIVTenore = {
     d2 e %275
     d4( c) h( e)
     d2 d
-    h r4 d
+    d^\critnote r4 d
     c2 c
     c a %280
     d( c)
@@ -182,97 +333,22 @@ E-XXXIVTenore = {
   }
 }
 
-E-XXXIVTenoreLyrics = \lyricmode {
-  Ehr ſey -- e
-  Gott in den
-  höch -- ſten
-  Thron,
-  wie auch ſein %5
-  ein -- ge --
-  bohr -- nen
-  Sohn,
-  Frid
-  ſey auff %10
-  Erd dem Men -- ſchen --
-  kind,
-  wo ſich ein
-  gut -- ter
-  Willn be -- %15
-  find, ein gut -- ter
-  Willn be --
-  find.
-
-  Hörts %21
-  wun -- der wie
-  ſin -- gens, wie
-  thuns halt ſo
-  ſchön, des %25
-  Hertz mächt ein
-  würk -- lich für
-  Freu -- den zer --
-  gehn.
-
-  Es %40
-  glanzt ja und
-  ſchim -- mert wie
-  lau -- ter Cry --
-  ſtaln in
-  Him -- mel thun %45
-  al -- le mit
-  Ju -- bel er --
-  ſchalln.
-
-  Ich %51
-  denkh hin und
-  wie -- der, ich
-  wir mir nicht
-  gſcheid, was %55
-  im -- mer diß
-  we -- ſen ſo
-  s’fath jetz be --
-  deuth.
-
-  Ey %73
-  daß iſt
-  woll ein Wun -- der -- %75
-  gfill,
-
-  das %80
-  bey der
-  Nacht woß meu -- ſel --
-  ſtill ſich
-  alls ſo luſ -- tig
-  macht, ſo -- %85
-  gar bey fin -- ſtrer
-  Nacht.
-
-  Die %93
-  Vö -- gel ſin -- gen
-  um und um, das %95
-  Viech gumbt auch voll
-  Freud he -- rum, das
-  ein das Hertz recht
-  lacht, __ _
-  _ _ %100
-  _ das
-  ein das Hertz recht
-  lacht!
-
+E-XXXIVeTenoreLyrics = \lyricmode {
   So %175
-  laßt uns
+  laßt unß
   gehn nach
   Beth -- le --
   hem zum
-  ein -- ge -- %180
+  neu -- ge -- %180
   bohr -- nen
   Kind,
   da --
-  mit wir
-  doch däß %185
-  Wun -- der
+  mit mär
+  do döß %185
+  Wun -- dä
   ſehn ſo
-  ſich al --
-  dorth be --
+  ſi al --
+  dorts be --
   findt. %190
   Ey
   du __ ge --
@@ -281,47 +357,47 @@ E-XXXIVTenoreLyrics = \lyricmode {
   Gott, wie %195
   ligſt halt
   da __ ſo
-  vol -- ler
-  Noth, Ich
+  vol -- lä
+  Noth, I
   will zum %200
   An -- ge --
-  den -- ckhen
-  mich
+  den -- kä
+  mi
   ſelbſt leib --
-  ai -- gen %205
-  ſchen -- ckhen.
+  äi -- gen %205
+  ſchen -- kä.
 
   Mei %214
-  Hertz iſt %215
-  vol -- ler
-  Sieſ -- ſig --
-  keit, ich
-  denckh mein
-  Tag kein %220
-  ſol -- che
-  Freud, was
-  mus mär
-  ich da
-  ge -- ben, %225
+  Herz iſt %215
+  vol -- lä
+  ẞüe -- ßi --
+  keit, I
+  denkh mei
+  Tag kä %220
+  ſol -- chö
+  Freud, waß
+  muäß nä
+  i __ dir
+  gö -- ben, %225
   mei
-  Schatz, mei
-  an -- zigs
-  Le -- ben.
+  Schaz, mei
+  än -- zigs
+  Lö -- wen.
 
   So %270
-  falln wir
-  ni -- der
+  falln mär
+  ni -- dä
   auf dö
   Knie, und
   opf -- fern %275
-  Ihm all
-  un -- ſer
-  Mieh, Gott
+  ihm all
+  un -- ſri
+  Müeh, Gott
   ſey ge --
   be -- ne -- %280
   dey --
   et,
-  der uns heut
+  der unß heut
   ſo er --
   freu -- et, __ %285
   ſo er --

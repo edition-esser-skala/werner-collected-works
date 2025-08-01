@@ -32,7 +32,7 @@ E-XXVIIIaOrgano = {
     d2.
     d2 cis4
     d d' g,
-    e c h
+    e c! h
     c a d %30
     h g' fis
     g2 c,4
@@ -60,9 +60,9 @@ E-XXVIIIaBassFigures = \figuremode {
   <6> <6 4> <5 _+>
   r2.
   r
-  <8 3>4 <7[!] 5> <6 4> %15
+  <8 _+>4 <7[!] 5> <6 4> %15
   <\t \t> <7 5> <6 4>
-  <\t \t> <5 3>2
+  <\t \t> <5 _+>2
   r2.
   <5 3>4 <7! 5> <6 4>
   <\t \t> <7! 5> <6 4> %20
@@ -70,8 +70,8 @@ E-XXVIIIaBassFigures = \figuremode {
   r2.
   \bo <[6]>2 \bc q4
   <5> <6>2
-  <7 5>2. %25
-  <\t \t>2 <6 4>4
+  r2. %25
+  <7 5>2 <6 4>4
   <5 3>2 q4
   r2.
   \bo <[6]>2 <6>4
@@ -81,7 +81,7 @@ E-XXVIIIaBassFigures = \figuremode {
   \bc <[6]>
   r
   r %35
-  r2 <6>8 <3>
+  r2 <6>8 <_+>
   r2.
   r %38 finis
 }
@@ -229,7 +229,7 @@ E-XXVIIIbOrgano = {
     c~
     c~ %175
     c~
-    \once \tieDashed c~
+    c~
     c4 r8\fermata \bar "||" %178 finis
   }
 }

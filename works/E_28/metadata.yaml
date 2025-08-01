@@ -5,81 +5,89 @@ genre: pastorella
 scoring: S, T, B (solo), S, A, T, B (coro), 2 ob, 2 chalumeau, 2 vl, b, org solo
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.331
+    rism: 530003663
+    url: https://copia.oszk.hu/kotta/pastorella-da-cantarsi-in-sacratissa-notte-del-nostro-salvatore/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: E 61
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/887.html
     license: public domain
-    principal: true
 toe: |
-  5   & ob 1 & 1st \halfNote\ in \B1: \quaverRest–a″8–\sharp f″16–d″8. \\
-  5   & S    & 3rd \quarterNote\ in \B1: b′4 \\
-  18  & T    & bar in \B1: \crotchetRest–\crotchetRest–d′4 \\
-  25  & ob 2 & in \B1, this bar is a duplicate of bar 26. \\
-  26  & S    & 2nd \quarterNote\ in \B1: g″4 \\
-  36  & ob 2 & 4th \eighthNote\ in \B1: g″8 \\
-  58  & vl 2 & 7th \sixteenthNote\ in \B1: e″16 \\
-  62–166 & T, B & In \B1, lyrics in these bars apparently have been emended
-               by later hand in order to replace colloquial language
-               by more standard German. \\
-  121–178 & – & In \B1, the da capo is written out only in T and B,
-               but indicated by “da capo al segno” in ob, vl, org, and vlne. \\
-  220 & vl 2 & 2nd \sixteenthNote\ in \B1: d′16 \\
-  215 & vl 1 & 2nd \quarterNote\ in \B1: b4 \\
+  5       & ob 1 & 1st \halfNote\ in \A1 and \B1:
+                   \quaverRest–a″8–\sharp f″16–d″8. \\
+  5       & S    & 3rd \quarterNote\ in \A1 and \B1: b′4 \\
+  18      & T    & bar in \A1 and \B1: \crotchetRest–\crotchetRest–d′4 \\
+  25      & ob 2 & In \A1 and \B1, this bar is a duplicate of bar 26. \\
+  39      & –    & tempo indications in \A1: org, “Vivace …”; ob~1, ob~2,
+                   vl~1, vl~2, T, and B, “Allegretto …”; vlne, missing \\
+  58      & vl 2 & 7th \sixteenthNote\ in \A1 and \B1: e″16 \\
+  62–166  & T, B & In \B1, lyrics in these bars apparently have been emended
+                   by later hand in order to replace colloquial language
+                   by more standard German. \\
+  121–178 & –    & In \A1 and \B1, the da capo is written out in T and B, but
+                   indicated by “da capo al segno” in the remaining parts. \\
+  197–206 & org  & In \A1, these bars are written in G major (however,
+                   the key remains the same in the other parts). \\
+  215     & vl 1 & 2nd \quarterNote\ in \A1 and \B1: b4 \\
 parts:
   org_solo: Organo solo
 lyrics:
   \begin{multicols}{2}
-  O längſt erwünſchte Nacht\\
+  O längſt erwünſchte Nacht!\\
   voll Liecht und klaren Schein,\\
-  mein Hertz ſo voll der Freud\\
-  iſt mir heunt vill zu klein,\\
+  mein Herz ſo voll der Freud\\
+  iſt mir heut vill zu klein,\\
   die Wunder zu begreiffen,\\
   ſo ſich an jezo heuffen,\\
-  daß ſich der Schöpffer ſelbſt\\
-  zu einen Gſchöpff gemacht,\\
+  daß ſich der Schöpfer ſelbſt\\
+  zu einen Gſchöpf gemacht,\\
   diß iſt ein ſolches Werckh,\\
   ô Menſch, diß wohl betracht.\\[1ex]
-  Wer ſingt da?\\
-  Waß klingt da?\\
-  Wer ſpillt ſo wunderſchön,\\
-  alß wan wir ſchon in Himmel\\
-  thät würklich hineingehn?\\[1ex]
-  S’Hertz lacht ſchon voll Freuden,\\
-  dort kommens von weiden\\
-  mit Jubel und Freuden\\
-  und allerley Still.\\
-  Ich weiß nicht, waß dieß Ding\\
+  Wer ſingt de?\\
+  Waß klingt de?\\
+  Wer ſpillt ſo wundäſchö,\\
+  äß wan mär ſcho in Himmel\\
+  thät würkli einigehn.\\[1ex]
+  S’Herz lacht ſcho voll Freuden,\\
+  dort kemäns von weiden\\
+  mit Pauken, Trometen\\
+  und allerley Spill.\\
+  I woäß nit, waß döß Ding\\
   bedeuthen nur will.\\[1ex]
-  Eß glitz waß,\\
-  es blitzt waß\\
-  und ſcheint alß wie die Sonn,\\
-  die Music hat ja würklich wohl\\
-  recht ein Engliſchen Thon.\\[1ex]
-  Hiez kommens ſchon näher,\\
-  ich werd allweil fröher,\\
-  die guldene Flügel\\
-  betheuten waß mehr,\\
-  waß gilds, diß ſeind Engel\\
+  Äß glizt waß,\\
+  äs blizt waß\\
+  und ſcheint äß wir dö Sonn,\\
+  dö Musi hat ä wärlä wohl\\
+  recht oän Engliſchen Thon.\\[1ex]
+  Hiez kemmäns ſcho neher,\\
+  i wir allwäl fröher,\\
+  dö guldene Flügl\\
+  beduthen waß mehr,\\
+  waß gilds, döß ſänd Engl\\
   von Himmel obn her.\\[1ex]
   Heb auf, du Hürtenſchaar,\\
-  die Augen, Hertz und Ohren,\\
+  die Augen, Herz und Ohren,\\
   Gott ſelbſt, o Niedrigkeit,\\
   iſt unß heunt menſchgebohren,\\
   den Himmel wird nunmehr\\
-  die Erden blutverwand,\\
+  die Erden bluetverwand,\\
   waß er zuvor beſchloß,\\
   ligt jezt in ihrer Hand.\\
   Der niemahls Fleiſch gehabt,\\
-  kein Muttermilch geſogen,\\
+  kein Muettermilch geſogen,\\
   hat einen Überzug\\
   der Menſchheit angezogen,\\
   wird gleich wie wir genährt,\\
   iſt Gott vor aller Zeit,\\
   Er iſt und bleibet Gott\\
   mit Gott in Ewigkeit.\\[1ex]
-  So ſing wär halt in dulci jubilo,\\
-  ein jeder ſey in ſeinem Hertzen froh,\\
+  So ſing mär halt in dulci jubilo,\\
+  än jede ſey in ſeinen Herzen froh,\\
   wäl unſär Seelenwohne ligt in præsepio\\
   und leuchtet alß die Sonne matris in gremio,\\
   ſo ſing halt und ſeyt froh.

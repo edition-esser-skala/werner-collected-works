@@ -29,7 +29,7 @@ E-XXVIIIaSoprano = {
     c( e) d
     e( c) h
     a r d %25
-    c( a')^\critnote h,
+    c( a') h,
     a( d) g,
     fis r h
     c( e) d
@@ -47,14 +47,14 @@ E-XXVIIIaSopranoLyrics = \lyricmode {
   Ô
   längſt er --
   wünſch -- te
-  Nacht voll
+  Nacht! voll
   Liecht und %5
   kla -- ren
   Schein, mein
-  Hertz ſo
+  Herz ſo
   voll __ der
   Freud iſt %10
-  mir heunt
+  mir heut
   vill __ zu
   klein,
   die
@@ -67,10 +67,10 @@ E-XXVIIIaSopranoLyrics = \lyricmode {
   heuf -- fen,
   daß
   ſich __ der
-  Schö -- pffer
+  Schö -- pfer
   ſelbſt zu %25
   ei -- nen
-  Gſchöpff ge --
+  Gſchöpf ge --
   macht, diß
   iſt __ ein
   ſol -- ches %30
@@ -113,17 +113,17 @@ E-XXVIIIcSoprano = {
 E-XXVIIIcSopranoLyrics = \lyricmode {
   Heb %184
   auf, du Hür -- ten -- ſchaar, die %185
-  Au -- gen, Hertz und Oh -- ren, Gott
+  Au -- gen, Herz und Oh -- ren, Gott
   ſelbſt, o __ Nied -- rig -- keit, iſt
   unß heunt menſch -- ge --  boh -- ren, den
   Him -- mel wird nun -- mehr die Er -- den
-  blut -- ver -- wand, waß er zu -- vor be -- %190
+  bluet -- ver -- wand, waß er zu -- vor be -- %190
   ſchloß, ligt jezt in ih -- rer __
   Hand, ligt jezt in __ ih -- rer
   Hand.
 
   Der nie -- mahls Fleiſch ge -- %196
-  habt, kein Mut -- ter -- milch ge --
+  habt, kein Muet -- ter -- milch ge --
   ſo -- gen, hat ei -- nen Ü -- ber --
   zug der Menſch -- heit an -- ge --
   zo -- gen, wird gleich wie wir ge -- %200
@@ -171,12 +171,12 @@ E-XXVIIIdSoprano = {
 }
 
 E-XXVIIIdSopranoLyrics = \lyricmode {
-  So ſing wär halt in %207
+  So ſing mär halt in %207
   dul -- ci ju -- bi --
   lo, __ _
-  _ ein %210
-  je -- der ſey in
-  ſei -- nem Her -- tzen
+  _ än %210
+  je -- de ſey in
+  ſei -- nen Her -- zen
   froh, __ _
   _
   wäl un -- ſär %215

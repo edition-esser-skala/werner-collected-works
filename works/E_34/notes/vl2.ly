@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-E-XXXIVViolinoII = {
+E-XXXIVaViolinoII = {
   \relative c' {
     \clef treble
     \twotwotime \key c \major \time 2/2 \tempoE-XXXIVa
@@ -22,13 +22,20 @@ E-XXXIVViolinoII = {
     h d c a
     c2( h4.)\trill c8
     c4 c8 d c h a g
-    f4 d g g, \noBreak
-    c2 r\fermata \bar "||" %20
-    \key g \major \time 3/4 \tempoE-XXXIVb \newSpacingSection
-      R2. \noBreak
+    f4 d g g,
+    c2 r\fermata \bar "||" %20 finis
+  }
+}
+
+E-XXXIVbViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoE-XXXIVb
+      \set Score.currentBarNumber = #21
+    R2.
     r4 r d\p
     g g8( h) a( c)
-    h4 d8( h) a( c)
+    h4 d8( h) c( a)
     h4 d8( h) g4 %25
     R2.*4
     a4\f fis8( d) cis( e) %30
@@ -42,7 +49,7 @@ E-XXXIVViolinoII = {
     d( fis) g( e) fis( cis)
     d( fis) g( e) fis( cis)
     d( a') fis( d) r4 %40
-    r r d8(\p h')
+    r r d8(\p g)
     fis4 fis g
     fis8( g) a4 g
     fis d fis'
@@ -52,11 +59,11 @@ E-XXXIVViolinoII = {
     d r r
     d8(\f a) fis( d) h'( g)
     a( fis) d( fis) e( cis) %50
-    d4 a'8( fis) d( fis)
-    fis4\p g a
+    d4 a'8( fis) d(\p e)
+    fis4 g a
     g a h
     fis g a
-    g d8( h) g4 %55
+    g \once \slurDashed d8( h) g4 %55
     R2.*4
     g''2\f d8( h) %60
     g2 d8( h')
@@ -69,10 +76,17 @@ E-XXXIVViolinoII = {
     q~
     q~
     q~ %70
-    q~ \noBreak
-    q2 r4\fermata \bar "||"
-    \twofourtime \key f \major \time 2/4 \tempoE-XXXIVc \newSpacingSection
-      r8 f'\f f,4 \noBreak
+    q~
+    q2 r4\fermata \markChorusUtSupra \bar "||" %72 finis
+  }
+}
+
+E-XXXIVcViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \major \time 2/4 \tempoE-XXXIVc
+      \set Score.currentBarNumber = #73
+    r8 f'\f f,4
     R2*2 %75
     r8 c\f f g
     a f'16( d) h8 d16( \hA h)
@@ -82,14 +96,14 @@ E-XXXIVViolinoII = {
     R2*2
     r8 c\p f g
     a f'16( d) h8 d16( \hA h)
-    c8 g16( c) e( c) d( h) %85
+    c8 \once \slurDashed g16( c) e( c) d( h) %85
     c8 e, f g
-    c,(-.\f c-. c-. c-.)
-    c(-. c-. c-. c-.)
-    c(-. c-. c-. c-.)
-    c(-. c-. c-. c-.) %90
-    c(-. c-. c-. c-.)
-    c(-. c-. c-. c-.)
+    c,(-.\f c-.) c(-. c-.)
+    c(-. c-.) c(-. c-.)
+    c(-. c-.) c(-. c-.)
+    c(-. c-.) c(-. c-.) %90
+    c(-. c-.) c(-. c-.)
+    c(-. c-.) c(-. c-.)
     c4 r
     r8 c\p f a16( f)
     c'8 g16( e) c4 %95
@@ -97,27 +111,27 @@ E-XXXIVViolinoII = {
     r4 r8 c
     f g a b
     c16( e) f( d) e4~
-    e8 \once \slurDashed f16( d) e4~ %100
+    e8 f16( d) e4~ %100
     e8 f16( d) e4
     R2
-    f,8(-.\f f-. f-. f-.)
-    f(-. f-. f-. f-.)
-    f(-. f-. f-. f-.) %105
-    f(-. f-. f-. f-.)
-    f(-. f-. f-. f-.)
-    f(-. f-. f-. f-.)
+    f,8(-.\f f-.) f(-. f-.)
+    f(-. f-.) f(-. f-.)
+    f(-. f-.) f(-. f-.) %105
+    f(-. f-.) f(-. f-.)
+    f(-. f-.) f(-. f-.)
+    f(-. f-.) f(-. f-.)
     f4 a
     c a %110
-    c,8(-. c-. c-. c-.)
-    c(-. c-. c-. c-.)
-    c(-. c-. c-. c-.)
-    c(-. c-. c-. c-.)
-    c(-. c-. c-. c-.) %115
-    c(-. c-. c-. c-.)
+    << { g4 } \\ { \voiceThree c,8_(_. c_.) c_(_. c_.) } >>
+    c(-. c-.) c(-. c-.)
+    c(-. c-.) c(-. c-.)
+    c(-. c-.) c(-. c-.)
+    c(-. c-.) c(-. c-.) %115
+    c(-. c-.) c(-. c-.)
     c a' g f
     e d16 c g'8 g,
     c c' c,4
-    R2*2 %121
+    \key c \major R2*2 %121
     r8 g'\f c d
     e c'16( a) fis8 a16( \hA fis)
     g8 h, d16( h) c( a)
@@ -128,12 +142,12 @@ E-XXXIVViolinoII = {
     e c'16( a) fis8 a16( \hA fis) %130
     g8 d16 g h( g) a( fis)
     g8 h, c d
-    g,(-.\f g-. g-. g-.)
-    g(-. g-. g-. g-.)
-    g(-. g-. g-. g-.) %135
-    g(-. g-. g-. g-.)
-    g(-. g-. g-. g-.)
-    g(-. g-. g-. g-.)
+    g,(-.\f g-.) g(-. g-.)
+    g(-. g-.) g(-. g-.)
+    g(-. g-.) g(-. g-.) %135
+    g(-. g-.) g(-. g-.)
+    g(-. g-.) g(-. g-.)
+    g(-. g-.) g(-. g-.)
     g4 r
     r8 g\p c e16( c) %140
     g'8 d16( h) g4
@@ -141,24 +155,27 @@ E-XXXIVViolinoII = {
     r4 r8 g,
     c d e f
     g16( h) c( a) h4~ %145
-    h8 \once \slurDashed c16( a) h4~
-    h8 \once \slurDashed c16( a) h4
+    h8 c16( a) h4~
+    h8 c16( a) h4
     R2
-    c,8(-.\f c-. c-. c-.)
-    c(-. c-. c-. c-.) %150
-    c(-. c-. c-. c-.)
-    c(-. c-. c-. c-.)
-    c(-. c-. c-. c-.)
-    c(-. c-. c-. c-.)
+    c,8(-.\f c-.) c(-. c-.)
+    c(-. c-.) c(-. c-.) %150
+    c(-. c-.) c(-. c-.)
+    c(-. c-.) c(-. c-.)
+    c(-. c-.) c(-. c-.)
+    c(-. c-.) c(-. c-.)
     c8 a' g f %155
-    e d16 c g'8 g, \noBreak %155
-    c4 r\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoE-XXXIVd \newSpacingSection
-      \partial 8 r8 \correctBn \noBreak
-      R1*16 \noBreak %173
-    R1\fermata \bar "||"
-    \key c \major \time 3/4 \tempoE-XXXIVe \newSpacingSection
-      r4 r g'\f \noBreak %175
+    e d16 c g'8 g,
+    c4 r\fermata \bar "||" %157 finis
+  }
+}
+
+E-XXXIVeViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoE-XXXIVe
+      \set Score.currentBarNumber = #175
+    r4 r g'\fE
     c2 d4
     e( c) g'
     e( c) d
@@ -198,8 +215,8 @@ E-XXXIVViolinoII = {
     gis2 gis8( h)
     e,2 e4
     e( c') h
-    a2 e4\fE %225
-    c8( e) a,4 c'\pE
+    a2 e4\f %225
+    c8( e) a,4 c'\p
     c( h) a
     h( a) gis
     a2 e4\f
@@ -208,7 +225,7 @@ E-XXXIVViolinoII = {
     f, a8( f) d'4
     c a8( f) g4
     f2 f4
-    \once \slurDashed e( c) h! %235
+    e( c) h! %235
     c2 d4
     c2 h8( d)
     c4( c') r
@@ -225,7 +242,7 @@ E-XXXIVViolinoII = {
     f4 a c8( h!)
     g4 c, b'8( a)
     f4 a c8( h)
-    g4 c, \once \slurDashed b'8( a)
+    g4 c, b'8( a)
     f4 f8( e) e( d) %255
     c( a') a( g) g( f)
     e( f) f( e) e( d)
@@ -233,14 +250,14 @@ E-XXXIVViolinoII = {
     e4( c) g'
     e( c) g' %260
     e( c) g'
-    e( f) d
+    \once \slurDashed e( f) d
     e8( g) c( e) d( h)
-    c e, f4 d
+    c( e,) f4 d
     e8( g) c( e) d( h) %265
     c( g) e( e') d( h)
-    c( g) e(-\critnote g) f( d)
+    c( g) e( g) f( d)
     e( g) c( e) d( h) \noBreak
-    c4. e8 d( h)
+    c4. e8 \once \slurDashed d( h)
     \time 2/2 c2 r4 g \noBreak %270
     c2 d
     e f
@@ -248,7 +265,7 @@ E-XXXIVViolinoII = {
     c c, r e'
     d2 c %275
     h8( g) c( g) d'4 e
-    h2 a\trill
+    h2 a\trillE
     g r4 g
     c2 e
     a, c %280

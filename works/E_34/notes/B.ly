@@ -1,10 +1,10 @@
 \version "2.24.0"
 
-E-XXXIVBasso = {
+E-XXXIVaBasso = {
   \relative c {
     \clef bass
     \key c \major \time 2/2 \tempoE-XXXIVa \autoBeamOff
-    \partial 4 r4 r \mvDl c'\fE^\tutti h g
+    \partial 4 r4 r \mvDl c'\fE^\tuttiE h g
     c2 e,4 a
     f(^\critnote d) g2
     c, r
@@ -13,7 +13,7 @@ E-XXXIVBasso = {
     d( c) d2
     g, r
     r c
-    f4( g) f( e) %10
+    f!4( g) f( e) %10
     d h' c c,
     g'2 r
     r4 c h g
@@ -22,47 +22,38 @@ E-XXXIVBasso = {
     g4 f e f
     g2 g,
     c r
-    R1 \noBreak
-    R\fermata \bar "||" %20
-    \key g \major \time 3/4 \tempoE-XXXIVb \newSpacingSection
-      R2.*51 \noBreak %71
-    R2.\fermata \markChorusUtSupra \bar "||"
-    \twofourtime \key f \major \time 2/4 \tempoE-XXXIVc \newSpacingSection
-      R2*46 %118
-    \once \override TextScript.outside-staff-priority = #1000
-      r4^\markup \remark "Pastor 3tius" r8 \mvTr g'\pE^\soloE
-    c,4 d %120
-    e8 c' h a
-    g4 r
-    R2*3 %125
-    r4 r8 g
-    c,4 d
-    e8 c' h a
-    g4 r8 d
-    e a d, fis %130
-    g4 r8 a
-    h g a fis
-    g4 r
-    R2*5 %138
-    r4 r8 g
-    g e c e %140
-    d g g, g'
-    g e c e
-    d g g, g
-    c d e f
-    g4. a16[ fis] %145
-    g4. a16[ fis]
-    g4 r8 f
-    e d16([ c)] g'8 g,
-    c4 r
-    R2*7 \noBreak %156
-    R2\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoE-XXXIVd \newSpacingSection
-      \partial 8 r8 \correctBn \noBreak
-      R1*16 \noBreak %173
-    R1\fermata \bar "||"
-    \key c \major \time 3/4 \tempoE-XXXIVe \newSpacingSection
-      r4^\tutti r g'\fE \noBreak %175
+    R1
+    R\fermata \bar "||" %20 finis
+  }
+}
+
+E-XXXIVaBassoLyrics = \lyricmode {
+  Ehr ſey -- e
+  Gott in dem
+  höch -- ſten
+  Thron,
+  wie auch ſein %5
+  ein -- ge --
+  bohr -- nen
+  Sohn,
+  Frid
+  ſey auf %10
+  Erd dem Men -- ſchen --
+  kind,
+  wo ſich ein
+  gue -- ter
+  Willn be -- %15
+  findt, ein gue -- ter
+  Willn be --
+  findt. %18 finis
+}
+
+E-XXXIVeBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoE-XXXIVe
+      \set Score.currentBarNumber = #175
+    r4^\tutti r g'\fE
     c,2 h4
     c2 g'4
     c2 g4
@@ -118,100 +109,55 @@ E-XXXIVBasso = {
   }
 }
 
-E-XXXIVBassoLyrics = \lyricmode {
-  Ehr ſey -- e
-  Gott in den
-  höch -- ſten
-  Thron,
-  wie auch ſein %5
-  ein -- ge --
-  bohr -- nen
-  Sohn,
-  Frid
-  ſey auff %10
-  Erd dem Men -- ſchen --
-  kind,
-  wo ſich ein
-  gut -- ter
-  Willn be -- %15
-  find, ein gut -- ter
-  Willn be --
-  find.
-
-  Schau %119
-  schau, wer %120
-  kommt nur dorth da --
-  her,
-
-  als %126
-  wan er
-  föl -- lig gfli -- gelt
-  wer, ich
-  fircht mich ſchier halb %130
-  dot, ich
-  bin voll Angſt und
-  Noth.
-
-  Er %139
-  ſchim -- mert pur von %140
-  lau -- ter Gold, das
-  ei -- ner ja faſt
-  glau -- ben ſolt, er
-  wer ein Him -- mels --
-  both, __ _ %145
-  _ _
-  _ er
-  wer ein Him -- mels --
-  both.
-
+E-XXXIVeBassoLyrics = \lyricmode {
   So %175
-  laßt uns
+  laßt unß
   gehn nach
   Beth -- le --
   hem zum
-  ein -- ge -- %180
+  neu -- ge -- %180
   bohr -- nen
   Kind,
   da --
-  mit wir
-  doch däß %185
-  Wun -- der
+  mit mär
+  do döß %185
+  Wun -- dä
   ſehn ſo
-  ſich al --
-  dorth be --
+  ſi al --
+  dorts be --
   findt. %190
 
   S’Kind %230
   lie -- welt
   ja __ und
   lacht ſo
-  ſchön, es
-  mueß ein %235
+  ſchö, äß
+  mueß än %235
   recht zu
-  Her -- tzen
-  gehn, ich
-  kan vor
-  lau -- ther %240
+  Her -- zen
+  gehn, I
+  kha vo
+  lau -- tä %240
   Freu -- den
-  un --
-  mög -- lich
-  von Ihm
+  u --
+  mig -- li
+  von ihm
   ſchei -- den. %245
 
   So %270
-  falln wir
-  ni -- der
+  falln mär
+  ni -- dä
   auf dö __
   Knie, und
   opf -- fern %275
-  Ihm all
-  un -- ſer
-  Mieh, Gott
+  ihm all
+  un -- ſri
+  Müeh, Gott
   ſey ge --
   be -- ne -- %280
   dey --
   et,
-  der uns heut
+  der unß heut
   ſo __ er --
   freu -- et, %285
   ſo __ er --

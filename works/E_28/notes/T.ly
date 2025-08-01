@@ -4,7 +4,7 @@ E-XXVIIIaTenore = {
   \relative c' {
     \clef "treble_8"
     \key g \major \time 3/4 \tempoE-XXVIIIa \autoBeamOff
-    r4 r \mvTr h\fE^\tutti
+    r4 r \mvTr h\fE^\tuttiE
     h8(_[ a] h4) c
     h8([ c] d4) d
     d r h
@@ -47,14 +47,14 @@ E-XXVIIIaTenoreLyrics = \lyricmode {
   Ô
   längſt er --
   wünſch -- te
-  Nacht voll
+  Nacht! voll
   Liecht und %5
   kla -- ren
   Schein, mein
-  Hertz ſo
+  Herz ſo
   voll der
   Freud iſt %10
-  mir heunt __
+  mir heut __
   vill zu
   klein,
   die
@@ -67,10 +67,10 @@ E-XXVIIIaTenoreLyrics = \lyricmode {
   heuf -- fen,
   daß
   ſich __ der
-  Schö -- pffer
+  Schö -- pfer
   ſelbſt zu %25
   ei -- nen
-  Gſchöpff ge --
+  Gſchöpf ge --
   macht, diß
   iſt __ ein
   ſol -- ches %30
@@ -85,8 +85,8 @@ E-XXVIIIbTenore = {
     \clef "treble_8"
     \twofourtime \key c \major \time 2/4 \autoBeamOff \tempoE-XXVIIIba
       \set Score.currentBarNumber = #39
-    R2*23 %61
-    r4 r8 \mvTr g\pE^\solo
+    \after 4*0 _\critnote R2*23 %61
+    r4 r8 \mvTr g\pE^\soloE
     e' c r4
     r r8 e
     d h16([ d)] d([ c)] a([ c)] %65
@@ -158,68 +158,68 @@ E-XXVIIIbTenore = {
 
 E-XXVIIIbTenoreLyrics = \lyricmode {
   Wer %62
-  ſingt da?
+  ſingt de?
   Wer
-  ſpillt ſo wun -- der -- %65
-  ſchön,
-  alß
-  wan wir ſchon in
+  ſpillt ſo wun -- dä -- %65
+  ſchö,
+  äß
+  wan mär ſcho in
   Him -- mel thät
-  würk -- lich hin -- ein -- %70
+  würk -- li ei -- ni -- %70
   gehn,
 
-  alß
-  wan wir ſchon in
+  äß
+  wan mär ſcho in
   Him -- mel thät %75
-  würk -- lich hin -- ein --
-  gehn?
+  würk -- li ei -- ni --
+  gehn.
 
-  S’Hertz %93
-  lacht ſchon voll
+  S’Herz %93
+  lacht ſcho voll
   Freu -- den %95
 
   mit
-  Ju -- bel und
-  Freu -- den und
+  Pau -- ken, Tro --
+  me -- ten und
   al -- ler -- ley %100
-  Still.
+  Spill.
 
-  Ich %104
-  weiß nicht, waß %105
-  dieß Ding be --
+  I %104
+  woäß nit, waß %105
+  döß Ding be --
   deu -- then nur
   will.
 
-  Eß %120
-  glitz waß
+  Äß %120
+  glizt waß
   und
-  ſcheint alß wie die
+  ſcheint äß wie dö
   Sonn,
-  die %125
-  Mu -- sic hat ja
-  würk -- lich wohl recht
-  ein Eng -- li -- ſchen
+  dö %125
+  Mu -- si hat ä
+  wär -- lä wohl recht
+  oän Eng -- li -- ſchen
   Thon,
   %130
-  die
-  Mu -- sic hat ja
-  würk -- lich wohl recht
-  ein Eng -- li -- ſchen
+  dö
+  Mu -- si hat ä
+  wär -- lä wohl recht
+  oän Eng -- li -- ſchen
   Thon. %135
 
   Hiez %151
-  kom -- mens ſchon
-  nä -- her
+  kem -- mäns ſcho
+  ne -- her
 
-  die %155
+  dö %155
   gul -- de -- ne
-  Flü -- gel be --
-  theu -- ten waß
+  Flü -- gl be --
+  du -- then waß
   mehr,
 
   waß %162
-  gilds, dieß ſeind
-  En -- gel von
+  gilds, döß ſänd
+  En -- gl von
   Him -- mel obn %165
   her. %166 finis
 }
@@ -267,8 +267,8 @@ E-XXVIIIdTenoreLyrics = \lyricmode {
   dul -- ci
   ju -- bi --
   lo, __ _ %210
-  _ ein
-  je -- der
+  _ än
+  je -- de
   ſey -- e
   froh, __ _
   _ %215

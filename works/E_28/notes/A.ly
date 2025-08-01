@@ -4,7 +4,7 @@ E-XXVIIIaAlto = {
   \relative c' {
     \clef treble
     \key g \major \time 3/4 \tempoE-XXVIIIa \autoBeamOff
-    r4 r \mvTr g'\fE^\tutti
+    r4 r \mvTr g'\fE^\tuttiE
     g2 g4
     g2 fis4
     g r g
@@ -47,14 +47,14 @@ E-XXVIIIaAltoLyrics = \lyricmode {
   Ô
   längſt er --
   wünſch -- te
-  Nacht voll
+  Nacht! voll
   Liecht und %5
   kla -- ren
   Schein, mein
-  Hertz ſo
+  Herz ſo
   voll der
   Freud iſt %10
-  mir heunt
+  mir heut
   vill __ zu
   klein,
   die
@@ -67,10 +67,10 @@ E-XXVIIIaAltoLyrics = \lyricmode {
   heuf -- fen,
   daß
   ſich der
-  Schö -- pffer
+  Schö -- pfer
   ſelbſt zu %25
   ei -- nen
-  Gſchöpff ge --
+  Gſchöpf ge --
   macht, diß
   iſt ein
   ſol -- ches %30
@@ -119,13 +119,13 @@ E-XXVIIIdAlto = {
 }
 
 E-XXVIIIdAltoLyrics = \lyricmode {
-  So ſing wär halt in %207
+  So ſing mär halt in %207
   dul -- ci,
   dul -- ci __
   ju -- bi -- %210
   lo, in
-  ſei -- nem
-  Her -- tzen
+  ſei -- nen
+  Her -- zen
   ſey er __
   froh, %215
   wäl un -- ſär
