@@ -1,0 +1,111 @@
+title: Litaniae de venerabili sacramento
+id: WerW G.8
+genre: litany
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.72 (1)
+    date: 1756
+    rism: 530004262
+    url: https://copia.oszk.hu/kotta/lytaniae-de-venerabili-sacramento/
+    license: public domain
+    principal: true
+toe: |
+  17  & A    & 4th \quarterNote\ missing in \A1 \\
+  21  & S    & 1st \quarterNote\ in \A1: c″8–\quaverRest \\
+  55  & A    & 1st \quarterNote\ in \A1: a′4 \\
+  127 & vl 1 & 11th \sixteenthNote\ in \A1: e′16 \\
+  127 & S    & 4th \eighthNote\ in \A1: c″8 \\
+  135 & org  & bar in \A1: c2. \\
+  137 & vl 1 & 5th \sixteenthNote\ in \A1: g″16 \\
+  209 & S    & 4th \quarterNote\ in \A1: \flat b′8.–\flat b′16 \\
+  265 & A    & 1st/2nd \halfNote\ in \A1: e′2–\halfNoteRest \\
+  266 & org  & bar in \A1: c1. \\
+lyrics: |
+  Kyrie eleison,\\
+  Christe eleison,\\
+  Kyrie eleison.\\
+  Christe audi nos,\\
+  Christe exaudi nos.\\
+  Pater de coelis, Deus,\\
+  Fili Redemptor mundi, Deus,\\
+  Spiritus Sancte, Deus,\\
+  Sancta Trinitas, unus Deus,\\
+  miserere nobis.\\[1ex]
+  Panis vivus de coelo descendens,\\
+  Deus absconditus et salvator,\\
+  frumentum electorum,\\
+  vinum germinans virgines,\\
+  panis pinguis et deliciae regum,\\
+  iuge sacrificium,\\
+  oblatio munda,\\
+  agnus absque macula,\\
+  mensa purissima,\\
+  angelorum esca,\\
+  manna absconditum,\\
+  memoria mirabilium Dei,\\
+  panis supersubstantialis,\\
+  verbum caro factum habitans in nobis,\\
+  hostia sancta,\\
+  calix benedictionis,\\
+  mysterium fidei,\\
+  praecelsum et venerabile sacramentum,\\
+  sacrificium omnium sanctissimum,\\
+  vere propitiatorium pro vivis et defunctis,\\
+  miserere nobis.\\[1ex]
+  Coeleste antidotum quo a peccatis praeservamur,\\
+  stupendum super omnia miraculum,\\
+  sacratissima dominicae passionis commemoratio,\\
+  donum transcendens omnem plenitudinem,\\
+  memoriale praecipuum divini amoris,\\
+  divinae affluentia largitas,\\
+  sacrosanctum et augustissimum mysterium,\\
+  pharmacum immortalitatis,\\
+  tremendum ac vivificum sacramentum,\\
+  panis omnipotentia caro factus,\\
+  incruentum sacrificium,\\
+  cibus et conviva,\\
+  dulcissimum convivium cui assistunt Angeli ministrantes,\\
+  sacramentum pietatis,\\
+  vinculum charitatis,\\
+  offerens et oblatio,\\
+  spiritualis in fonte degustata,\\
+  refectio animarum sanctarum,\\
+  viaticum in Domino morientium,\\
+  pignus futurae gloriae,\\
+  miserere nobis.\\[1ex]
+  Propitius esto, parce nobis, Domine,\\
+  propitius esto, exaudi nos, Domine,\\
+  ab indigna corporis et sanguinis tui susceptione,\\
+  a concupiscentia carnis,\\
+  a superbia vitae,\\
+  ab omni peccandi occasione,\\
+  libera nos, Domine.\\[1ex]
+  Per desiderium illud, quo hoc Pascha\\
+  cum discipulis manducare desiderasti,\\
+  per summam humilitatem, qua discipulorum pedes lavasti,\\
+  per ardentissimam charitatem,\\
+  qua hoc divinum sacramentum instituisti,\\
+  per sanguinem tuum pretiosum,\\
+  quem nobis in altari reliquisti,\\
+  per quinque vulnera tui corporis sacratissimi,\\
+  qua pro nobis suscepisti,\\
+  libera nos, Domine.\\[1ex]
+  Peccatores,\\
+  ut nobis fidem, reverentiam ac devotionem huius\\
+  admirabilis sacramenti augere et conservare digneris,\\
+  ut nos ab omni haeresi, perfidia ac cordis\\
+  caecitate liberare digneris,\\
+  ut in hora mortis nostrae hoc coelesti viatico\\
+  nos confortare et munire digneris,\\
+  ut ad coenam vitae aeternae nos perducere digneris,\\
+  Fili Dei,\\
+  te rogamus, audi nos.\\[1ex]
+  Agnus Dei, qui tollis peccata mundi:\\
+  Parce nobis Domine.\\
+  Agnus Dei, qui tollis peccata mundi:\\
+  Exaudi nos Domine.\\
+  Agnus Dei, qui tollis peccata mundi:\\
+  Miserere nobis.
