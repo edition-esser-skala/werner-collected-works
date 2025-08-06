@@ -1,0 +1,28 @@
+title: O salutaris hostia
+id: WerW F.1
+genre: hymn
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.72 (2)
+    date: 1756
+    rism: 530004263
+    url: https://copia.oszk.hu/kotta/lytaniae-de-venerabili-sacramento/
+    license: public domain
+    principal: true
+lyrics: |
+  \begin{multicols}{2}
+  O salutaris hostia,\\
+  quae coeli pandis ostium:\\
+  bella premunt hostilia,\\
+  da robur, fer auxilium.\\[1ex]
+  (Cantus Index 830336)
+
+  \columnbreak
+  Uni trinoque Domino\\
+  sit sempiterna gloria,\\
+  qui vitam sine termino\\
+  nobis donet in patria.
+  \end{multicols}
