@@ -20,7 +20,7 @@
 - an edition of WerW A.12 has been released
 - revised WerW I.1.1, I.2.4, I.3.1, I.4.7, I.5.5, J.2, and N.2/15 after autograph manuscript
 
-## Fixed
+### Fixed
 
 - WerW P.10: part for vl 2 (previously displayed vl 1)
 
