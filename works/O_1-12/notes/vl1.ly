@@ -1846,3 +1846,303 @@ O-VIIeViolinoI = {
     } \bar "|." %160 finis
   }
 }
+
+O-VIIIaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 2 2/8 \tempoO-VIIIa
+      \markAgostoI
+    \repeat volta 2 {
+      f16\fE a c8-!
+      f-! c'-!
+      a-! f-!
+      c-! a-!
+      f16\p a c8-! %5
+      f-! c'-!
+      a-! f-!
+      c-! a-!
+      f32\f a' a a a a a a
+      h8-! c-! %10
+      f,8.\trill e32 d
+      e16 g, c,8
+      d32 d' d d d d d d
+      e8-! f-!
+      b,8.\trill a32 g %15
+      a16 c, a8
+      d'16\p a' c,8
+      h16 d g,8
+      c16 g' b,8
+      a16 c f,8 %20
+      b16 f' a,8
+      gis16 h e,8
+      a16 e' g,8
+      fis16 a d,8
+      g16 d' f,8 %25
+      e32\f e e e e16[ f]
+      g32 g g g g16[ a]
+      h g' fis g
+      d es h c
+      g, g' fis g %30
+      d es h c
+      g32 g' g g g g g g
+      a16 h c8-!
+      h-! c-!
+      \tuplet 3/2 8 { d16\p e f } e8 %35
+      h-! c-!
+      \tuplet 3/2 8 { d16\f e f } e8-!
+      \tuplet 3/2 8 { f16 g a } g8
+      \tuplet 3/2 8 { a16 h c } \hA h8
+      c16 h32 a g16 a %40
+      c,8-! d\trill
+      c16\p h32 a g16 a
+      c,8-! d\trill \noBreak
+      c4
+    }
+    \repeat volta 2 {
+      c'16\f e g8 \noBreak %45
+      a8-! f,-!
+      b!16 d f8
+      g-! e,-!
+      a16 cis e8
+      f a~ %50
+      a16( g) g( f)
+      e8 a~
+      a f
+      d g~
+      g e %55
+      c~ c16 f
+      d8~ d16 g
+      e8~ e16 a
+      f8~ f16 b
+      g8~ g16 c %60
+      a8 a~
+      a16 f32 g a16 b
+      c c b a
+      g c h c
+      g as e f %65
+      c, c' h c
+      g as e f
+      c32 c' c c c c c c
+      d16 e f8-!
+      e-! f-! %70
+      \tuplet 3/2 8 { g16\p a b } a8-!
+      e-! f-!
+      \tuplet 3/2 8 { g,16\f a b } a8
+      \tuplet 3/2 8 { b16 c d } c8
+      \tuplet 3/2 8 { d16 e f } e8 %75
+      f16 e32 d c16 d
+      f,8 g\trill
+      f16 a' e f
+      f,8 g\trill
+    }
+    \alternative {
+      { f4 } %80
+      { f\fermata }
+    } \bar "||" %81 finis
+  }
+}
+
+O-VIIIbViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \tempoO-VIIIb
+      \set Score.currentBarNumber = #82
+      \markAgostoIIa
+    \repeat volta 2 {
+      c''2\fE a8( f)
+      c4 b' a8( f)
+      c2\p a8( f)
+      c4 b' a8( f) %85
+      g4\f c \tuplet 3/2 4 { d8 e f }
+      f( e) c4 r
+      b b'2
+      b8( a) f4 c8( b')
+      b( a) f4 c,8(\p b') %90
+      b( a) f4 c'8(\f g')
+      a,( a') g( d) e( h)
+      \grace h c2 c,8(\p g')
+      a,( a') g( d) e( h)
+    }
+    \alternative {
+      { \grace h8 c2 r4 } %95
+      { \grace h8 c2 r4 }
+    }
+    \repeat volta 2 {
+      \markAgostoIIb
+      g''2\f\tuplet 3/2 4 { a8 b! c }
+      b( g) a( f) g4
+      c,\p b8( g) a( f)
+      g4 c,2 %100
+      b'4\f b'2
+      b8( a) c( e,) f4
+      c,\p b'2
+      b8( a) c( e,) f( c')
+      d,( d') c( g) a( e) %105
+    }
+    \alternative {
+      { \grace e8 f2 r4 }
+      { \grace e8 f2 r4\fermata }
+    } \bar "||" %107 finis
+  }
+}
+
+O-VIIIcViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \major \time 2/4 \tempoO-VIIIc
+      \set Score.currentBarNumber = #108
+      \markAgostoIII
+    \repeat volta 2 {
+      f4~\fE\trill f8. f'16
+      f,4~\trill f8. f'16
+      f,8.\trill f'16 f,8.\trill f'16 %110
+      f,4~ f8. f'16
+      d( c) b( a) b( a) g( f)
+      e'( d) c( b) c( b) a( g)
+      f'( e) d( c) d( c) b( a)
+      g'( f) e( d) e( d) c( b) %115
+      a4~\trill a8. a'16
+      \once \tieDashed a,4~\trill a8. a'16
+      a,8.\trill a'16 a,8.\trill a'16
+      a,8. f16 a8. c16
+      f8. a16 d,8. f16 %120
+      g8. h16 e,8. g16
+      a8. c16 f,8. a16
+      h8. d16 g,8. \hA h16
+      e,4~\trill e8. e'16
+      e,4~\trill e8. e'16 %125
+      e,8.\trill e'16 e,8.\trill e'16
+      e, f g8~ g8. f16
+      e8. f16 e8. d16
+    }
+    \alternative {
+      { c4 r }
+      { c r } %130
+    }
+    \repeat volta 2 {
+      e,16( f) g( a) g( a) b!( c)
+      a( b) c( d) c( d) es( f)
+      b,( c) d( e) d( e) f( g)
+      c,( d) e( f) e( f) g( a)
+      f a g f e d cis h %135
+      cis h a g a g f e
+      f4~\trill f8. f'16
+      f,4~\trill f8. f'16
+      f, b a g f e d cis
+      d4 r %140
+      R2
+      b16( c) d( es) d( e) f( g)
+      g,4 r
+      c16( d) e( f) e( f) g( a)
+      b8. d16 g,8. b16 %145
+      c8. e16 a,8. c16
+      d8. f16 b,8. d16
+      e8. g16 c,8. e16
+      a,4~\trill a8. a'16
+      a,4~\trill a8. a'16 %150
+      a,8.\trill a'16 a,8.\trill a'16
+      a, b c8~ c8. b16
+      a8. b16 a8. g16
+    }
+    \alternative {
+      { f4 r }
+      { f r\fermata }
+    } \bar "||" %155 finis
+  }
+}
+
+O-VIIIdViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \major \time 2/4 \tempoO-VIIId
+      \set Score.currentBarNumber = #156
+      \markAgostoIV
+    \repeat volta 2 {
+      f4.\fE g8 %156
+      a b c d
+      e, f g a
+      b c d e
+      a,4. b8 %160
+      c d16 c b8 a
+      g e' f b,
+      a g16 f g4\trill
+      f a'~
+      a8 g f e %165
+      d4 g~
+      g8 f e d
+      c4 f~
+      f8 e d c
+      h c16 d c8 a %170
+      c4 h\trill \noBreak
+      c r
+    }
+    \repeat volta 2 {
+      c4. d8 \noBreak
+      e f g4
+      d4. e8 %175
+      f g a g16 f
+      e4. f8
+      g a16 g f8 e
+      d h' c f,
+      e d16 c d4\trill %180
+      c g~
+      g8 f e d
+      c4 c'~
+      c8 b a g
+      f4 f'~ %185
+      f8 es d c
+      b a16 b c8 d
+      e d16 \hA e f8 g
+      a16 b a b c8 b
+      a g16 f g4\trill %190
+    }
+    \alternative {
+      { f r }
+      { f r\fermata }
+    } \bar "||" %192 finis
+  }
+}
+
+O-VIIIeViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \tempoO-VIIIe
+      \set Score.currentBarNumber = #193
+      \markAgostoVa
+    \repeat volta 2 {
+      f'4. e16( d) c4
+      c16( d8.) d16( c8.) c16( b8.)
+      b4\trill a r %195
+      g16( a b c) d8( b) g( f)
+      \grace a e2 f4
+      g \tuplet 3/2 4 { g8 a b a g f
+      e f g } c,4 h'16( c8.)
+      b?16( a8.) a'16( f8.) d16( c8.) %200
+      c16( h8.) d16( \hA h8.) g16( f8.)
+      \tuplet 3/2 4 { f8 e g g f a a g b
+      b a c c h d c e g
+      a f d } \grace d h2\trill
+    }
+    \alternative {
+      { c2 r4 } %205
+      { c2 r4 }
+    }
+    \repeat volta 2 {
+      \markAgostoVb
+      g'2.
+      \tuplet 3/2 4 { a8 b! c } \grace c b2
+      a \tuplet 3/2 4 { b8 a g
+      f e d } \grace d cis2\trill %210
+      d4 a'16( d,8.) d16( c8.)
+      d,16( c'8.) c16( b8.) c,16( b'8.)
+      a4 b8.\trill a32( b) c8( f,)
+      f'4 \tuplet 3/2 4 { d8 c b a g f }
+      e4 c'16( f8.) d16( b'8.) %215
+      \tuplet 3/2 4 { a8 g f } \grace f e2\trill
+    }
+    \alternative {
+      { f2 r4 }
+      { f2 r4\fermata }
+    } \bar "|." %218 finis
+  }
+}

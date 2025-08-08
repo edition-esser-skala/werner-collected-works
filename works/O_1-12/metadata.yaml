@@ -31,6 +31,8 @@ toe: |
     & 15  & vl 1 & 4th \eighthNote\ in \C1: c′′′16.–e″32 \\
     & 20/21 & vl 2 & 1st \eighthNote\ in \C1: d′16–d″16 \\
     & 49  & vl 1 & 1st \quarterNote\ in \C1: a′8.–f″32–d″32 \\
+  8 & 106 & bc   & 1st \quarterNote\ in \C1: G4 \\
+    & 107 & bc   & bar in \C1: F2. \\
 commentary: |
   \clearpage\textsb{Prefatory pages of the bc part}\\[3ex]
   \textit{fol. 1r}\\

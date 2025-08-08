@@ -386,4 +386,61 @@
       >>
     }
   }
+  \bookpart {
+    \section "O.8" "L’Agòsto, im Augustmonat"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-VIIIaContinuo }
+        \new FiguredBass { \O-VIIIaBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      system-count = #4
+    }
+    \score {
+      <<
+        \new Staff { \O-VIIIbContinuo }
+        \new FiguredBass { \O-VIIIbBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-VIIIcContinuo }
+        \new FiguredBass { \O-VIIIcBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \O-VIIIdContinuo }
+        \new FiguredBass { \O-VIIIdBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \O-VIIIeContinuo }
+        \new FiguredBass { \O-VIIIeBassFigures }
+      >>
+    }
+  }
 }

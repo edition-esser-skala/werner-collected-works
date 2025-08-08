@@ -3259,6 +3259,539 @@ O-VIIeBassFigures = \figuremode {
   r %160 finis
 }
 
+O-VIIIaContinuo = {
+  \relative c {
+    \clef bass
+    \key f \major \time 2 2/8 \tempoO-VIIIa
+      \markAgostoI
+    \repeat volta 2 {
+      f8-!\fE r
+      f16 c a8-!
+      f-! f'-!
+      c-! a-!
+      f\p r %5
+      f'16 c a8-!
+      f-! f'-!
+      c-! a-!
+      f\f f'~
+      f-! e-! %10
+      r16 d a h
+      c8 r
+      r b'!~
+      b-! a-!
+      r16 g d e %15
+      f8 r
+      r fis\p
+      r g
+      r e
+      r f! %20
+      r d
+      r e
+      r cis
+      r d
+      r h %25
+      r16 c!\f c d
+      r e e f
+      g8 r
+      g r
+      g,16-\unisono g' fis g %30
+      d es h c
+      g32 g' g g g[ g g g]
+      f8-! e!-!
+      d-! e-!
+      h-!\p c-! %35
+      g'-! e-!
+      h\f-! c-!
+      a' e
+      f d
+      e8. f16 %40
+      g8 g,
+      e'8.\p f16
+      g8 g, \noBreak
+      c16 g c,8
+    }
+    \repeat volta 2 {
+      r8 e'\f \noBreak %45
+      r f
+      r d
+      r e
+      r cis
+      r d %50
+      g g,
+      a16 e' cis'8
+      d16 f, d8
+      b'16 d, g,8
+      c'16 e, c8 %55
+      a'16 c, f,8
+      b g16 b
+      c8 a16 c
+      d8 b16 d
+      e8 c16 e %60
+      f c a c
+      f,8 d'
+      a b
+      c r
+      c r %65
+      c16-\unisono c' h c
+      g as e f
+      c32 c' c c c[ c c c]
+      b!8-! a!-!
+      g-! a-! %70
+      e-!\p f-!
+      c'-! a-!
+      e-!\f f-!
+      d a
+      b g %75
+      a8. b16
+      c8 c,
+      f r16 d'
+      c8 c,
+    }
+    \alternative {
+      { f16 c' f8 } %80
+      { f,4\fermata }
+    } \bar "||" %81 finis
+  }
+}
+
+O-VIIIaBassFigures = \figuremode {
+  r4
+  r
+  r
+  r
+  r %5
+  r
+  r
+  r
+  r
+  <4!>8 <6> %10
+  r <6>16 <6 5>
+  r4
+  r8 <5>
+  <4> <6>
+  r <6>16 <6 5> %15
+  r4
+  r8 <6>
+  r <_!>
+  r <6 5->
+  r4 %20
+  r8 <5>
+  r <[5!] _+>
+  r <6 5!>
+  r <_+>
+  r <6 5!> %25
+  r4
+  r
+  <_!>
+  r
+  r %30
+  r
+  r
+  <3>16 <4!> <6>8
+  <6!> <6>
+  <5!> <3> %35
+  <_!> <6>
+  <5> <3>
+  <6> q
+  r <6!>
+  <6>4 %40
+  <4>8 <_!>
+  <6>4
+  <4>8 <_!>
+  r4
+  r8 <6> %45
+  r4
+  r8 <6->
+  r <\t>
+  r <6>
+  r4 %50
+  <7 _->8 <6>16 <5>
+  <_+>8 <6>
+  <_!>4
+  <6>
+  r %55
+  <6>
+  q8. q16
+  <[5]>8. <6>16
+  <5>8. <6>16
+  <5>8. <6>16 %60
+  r8 q
+  r4
+  q8 q16 <5>
+  r4
+  r %65
+  r
+  r
+  r
+  <3>16 <4> <6>8
+  q q %70
+  <6 5> <3>
+  r <6>
+  <6 5> <3>
+  <6> q
+  r q %75
+  q4
+  <6 4>8 <5 3>
+  r8. <6>16
+  <6 4>8 <5 3>
+  r4 %80
+  r %81 finis
+}
+
+O-VIIIbContinuo = {
+  \relative c {
+    \clef bass
+    \key f \major \time 3/4 \tempoO-VIIIb
+      \set Score.currentBarNumber = #82
+      \markAgostoIIa
+    \repeat volta 2 {
+      f4\fE a f %82
+      e c f
+      r e\p f
+      e c f~ %85
+      f\f e d
+      c c'8 b a4
+      g d e
+      f a e
+      f a e\p %90
+      f a e\f
+      f g g,
+      c d e\p
+      f g g,
+    }
+    \alternative {
+      { c4 c'8 b! a g  } %95
+      { \grace s8 c,4 e g }
+    }
+    \repeat volta 2 {
+      \markAgostoIIb
+      c\f b! a
+      g8( e) f4 c'8 b
+      a8(\p f) g( e) f4
+      c c'8 b a4 %100
+      g\f d e
+      f g a
+      r d,\p e
+      f g a
+      b c c, %105
+    }
+    \alternative {
+      { f,^\critnote f'8 g a b }
+      { \grace s8 f,2^\critnote r4\fermata }
+    } \bar "||" %107 finis
+  }
+}
+
+O-VIIIbBassFigures = \figuremode {
+  r4 <6>2 %82
+  q4 <7>2
+  r4 <6>2
+  q4 <7>2 %85
+  <2>4 <6> <6!>
+  <4>8 <3> r2
+  r4 <6> <\t>
+  <4>8 <3> <6>4 <6 5>
+  <4>8 <3> <6>4 <6 5> %90
+  <4>8 <3> <6>4 q
+  <6 5> <5 4> <\t _!>
+  r2 <6>4
+  <6 5> <5 4> <\t _!>
+  r2. %95
+  r
+  r4 <4> <6>
+  r2.
+  <6>
+  r %100
+  r4 <6> <\t>
+  <4>8 <3> <6>4 q
+  r q <\t>
+  \bo <[4]>8 \bc <[3]> <6>4 q
+  <6 5> <5 4> <\t 3> %105
+  r2.
+  r %107 finis
+}
+
+O-VIIIcContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key f \major \time 2/4 \tempoO-VIIIc
+      \set Score.currentBarNumber = #108
+      \markAgostoIII
+    \repeat volta 2 {
+      \mvDl f,8.\fE f'16 c8. a16
+      f8. f'16 c8. a16
+      f8. f'16 f,8. f'16 %110
+      f,8. f'16 a,8. f16
+      b8. d16 g,8. b16
+      c8. e16 a,8. c16
+      d8. f16
+      b,8. d16 %115
+      e8. g16 c,8. e16
+      f8. f'16 c8. a16
+      f8. f'16 c8. a16
+      f8. f'16 c8. a16
+      f4~ f8. e16 %120
+      d( c) h( a) \hA h( a) \once \slurDashed g( f)
+      e'( d) c( h) c( \hA h) a( g)
+      f'( e) d( c) d( c) h( a)
+      g'( f) e( d) \slurDashed e( d) c( h) \slurSolid
+      c8. c'16 g8. e16 %125
+      c8. c'16 g8. e16
+      c8. c'16 g8. e16
+      c8. c'16 e,8. f16
+      g4 g,
+    }
+    \alternative {
+      { c8. c'16 e,8. c16 } %130
+      { c8. c'16 g8. e16 }
+    }
+    \repeat volta 2 {
+      c8. c'16 e,8. c16
+      f,8. f'16 a,8. f16
+      b8. b'16 h,8. g16
+      c8. c'16 cis,8. a16 %135
+      d4 g
+      a~ a16 g f e
+      d8. d'16 a8. f16
+      d8. d'16 a8. f16
+      d8 g a a, %140
+      d16 f e d c! b a g
+      f8. c''16 a8. f16 b4 b,
+      h8. d'16 g,8. h16
+      c,8. c'16 b8. a16
+      g( f) e( d) e( d) c( b) %145
+      a'( g) f( e) f( e) d( c)
+      b'( a) g( f) g( f) e( d)
+      c'( b) a( g) a( g) f( e)
+      f8. f'16 c8. a16
+      f8. f'16 c8. a16 %150
+      f8. f,16 c'8. a16
+      f8. f'16 a,8. b16
+      c4 c,
+    }
+    \alternative {
+      { f8. f'16 a,8. f16 }
+      { f4 r\fermata }
+    } \bar "||" %155 finis
+  }
+}
+
+O-VIIIcBassFigures = \figuremode {
+  <8 5 3>4 <\t \t \t> %108
+  r2
+  r %110
+  r4 <6>
+  <5>8 <6>16 <3> <8>8. <\t>16
+  <5>8 <6>16 <3> <8>8. <\t>16
+  <5>8 <6>16 <3> <8>8. <\t>16
+  <5>8 <6>16 <3> <8>8. <\t>16 %115
+  <3>2
+  r
+  r
+  r4.. <6>16
+  r2 %120
+  \bo <[5!]>
+  r
+  \bc <[_!]>
+  r4 <6 4>
+  r2 %125
+  r
+  r4 <6>8. <6 5>16
+  <6 4>4 <\t \t>8 <5 _!>
+  r2
+  r %130
+  r4 <6>
+  r q
+  r <6>8. <_!>16
+  r4 <6>8. <_+>16
+  <_!>4 <6>8 <5> %135
+  <_+>2
+  r4 <6 4>
+  r2
+  r4 <6 4>8 <5 _+>
+  r2 %140
+  r4 <6>
+  r2
+  <6>
+  r4 <6 4>8. <8 6>16
+  <3->16 <3> q q r4 %145
+  r2
+  r
+  r
+  r
+  r %150
+  r
+  r4 <6>8. <8 6>16
+  <6 4>4 <\t \t>8 <5 3>
+  r2
+  r %155 finis
+}
+
+O-VIIIdContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key f \major \time 2/4 \tempoO-VIIId
+      \set Score.currentBarNumber = #156
+      \markAgostoIV
+    \repeat volta 2 {
+      r4 f~\fE
+      f8 g a b
+      c4 g~
+      g8 a b c
+      d, d' c b %160
+      a g a b
+      c b a b
+      c4 c,
+      f r
+      d'4. c8 %165
+      h a g4
+      c4. h8
+      a g f e
+      d c h a
+      g f' e f %170
+      g f g g, \noBreak
+      c g c,4
+    }
+    \repeat volta 2 {
+      r c'~ \noBreak
+      c8 d e f
+      g4 d~ %175
+      d8 e f g
+      a g16 f e8 d
+      c4 f
+      g8 f e f
+      g4 g, %180
+      c r
+      c4. b!8
+      a g f4
+      f'4. es8
+      d c b4 %185
+      b'4. a8
+      g f e! d
+      c b a g
+      f d' a b
+      c4 c, %190
+    }
+    \alternative {
+      { f8 c' f4 }
+      { f,4 r\fermata }
+    } \bar "||" %192 finis
+  }
+}
+
+O-VIIIdBassFigures = \figuremode {
+  r2 %156
+  r
+  <5 3>8 <6 4> <3 8>4
+  r2
+  <5 3>4 <\t \t>8 <6> %160
+  q4. <8 6>16 <7 5>
+  <5 3>8 <\t \t> <6> q
+  <6 4>4 <5 3>
+  r2
+  r %165
+  r4 <_!>
+  r2
+  r
+  <3>4 <\t>
+  <_!>8 <\t> <6> <6 5> %170
+  <6 4>4 <5 _!>
+  r2
+  r
+  r8 <3> q q
+  <_!>2 %175
+  r4 <3>8 <_!>
+  r4 <6>8 <6!>
+  r4 <6>8 <5>
+  <_!> <\t> <6> q
+  <6 4>4 <5 _!> %180
+  r2
+  r
+  <6>
+  r
+  q %185
+  r
+  r
+  r4 <6>8 q
+  r4 q8 q
+  <6 4>4 <5 3> %190
+  r2
+  r %192 finis
+}
+
+O-VIIIeContinuo = {
+  \relative c {
+    \clef bass
+    \key f \major \time 3/4 \tempoO-VIIIe
+      \set Score.currentBarNumber = #193
+      \markAgostoVa
+    \repeat volta 2 {
+      f8 g a4 e
+      f e a
+      d, c r %195
+      b g h
+      c c'8 b! a4
+      e c f
+      c8 d e4 c
+      f d f %200
+      g g, h
+      c d e
+      f g e
+      f g g,
+    }
+    \alternative {
+      { c c'8 b! a g } %205
+      { c,4 g'8 f e d }
+    }
+    \repeat volta 2 {
+      \markAgostoVb c4 c' b!
+      a g c,
+      f, f' g
+      b a g %210
+      fis d e
+      fis g e
+      f d a
+      f b d
+      c a b %215
+      d c c,
+    }
+    \alternative {
+      { f8 a' g f e d }
+      { f,2 r4\fermata }
+    } \bar "|." %218 finis
+
+  }
+}
+
+O-VIIIeBassFigures = \figuremode {
+  r4 <6> q %193
+  <5>8 <6> <7> <6> <3> <2>
+  <6>4 q2 %195
+  q q8 <5>
+  r2 <6>4
+  q <7>2
+  r4 <6>2
+  r q8 <5> %200
+  <_!>2 <6>8 <5>
+  r2.
+  r4 <_!> <6>
+  q <_!>2
+  r2. %205
+  r
+  r2 <6>4
+  q <7> q
+  r2.
+  <5>8 <6> <_+>4 <\t> %210
+  <6> <_+> <3>
+  <6>8 <5> <_->4 <6 5>
+  r <6> q
+  r2 <5>8 <6>
+  r4 <6>2 %215
+  <5>8 <6> <5 4>4 <\t 3>
+  r2.
+  r %218 finis
+}
+
 % \repeat volta 2 {
 
 %     }

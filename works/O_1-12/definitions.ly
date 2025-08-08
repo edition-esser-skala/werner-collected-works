@@ -164,6 +164,28 @@ markLuglioV = \markTitle
   "5. La Cantina."
   "Der Keller."
 
+markAgostoI = \markTitle
+  "1. Il Villano Contento."
+  "Der vergnügte Baur."
+markAgostoIIa = \markTitle
+  "2. Menuet il Giorno di 14. hore."
+  "Die Tags-Länge 14. Stund, …"
+markAgostoIIb = \markTitle
+  "La notte di 10. hore."
+  "… die Nacht 10. Stund."
+markAgostoIII = \markTitle
+  "3. Alla Poſta."
+  "Das Post-Horn."
+markAgostoIV = \markTitle
+  "4. Il Curriere Zoppo."
+  "Der hinckende Bott."
+markAgostoVa = \markTitle
+  "5. Menuet il Giorno di 13. hore."
+  "Die Tags-Länge 13. Stund, …"
+markAgostoVb = \markTitle
+  "La notte di 11. hore."
+  "… die Nacht 11. Stund."
+
 \layout {
   \set Score.doubleRepeatBarType = #":|.|:"
 }
@@ -213,6 +235,12 @@ tempoO-VIIca = \tempoMarkup "Vivace"
   tempoO-VIIcd = \tempoMarkup "Allegro"
 tempoO-VIId = \tempoMarkup "Allegretto"
 tempoO-VIIe = \tempoMarkup "Vivace"
+
+tempoO-VIIIa = \tempoMarkup "Spiccato"
+tempoO-VIIIb = \tempoMarkup "[Tempo deest]"
+tempoO-VIIIc = \tempoMarkup "Allegro"
+tempoO-VIIId = \tempoMarkup "Allegro"
+tempoO-VIIIe = \tempoMarkup "[Tempo deest]"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
