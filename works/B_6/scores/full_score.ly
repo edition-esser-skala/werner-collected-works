@@ -17,61 +17,117 @@
 }
 
 \book {
+  % \bookpart {
+  %   \section "1" "Kyrie"
+  %   \addTocEntry
+  %   \paper { indent = 3\cm }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "Violino"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "I"
+  %             \B-VIKyrieViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "II"
+  %             \B-VIKyrieViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \incipitSoprano
+  %           \new Voice = "Soprano" { \dynamicUp \B-VIKyrieSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \B-VIKyrieSopranoLyrics
+
+  %         \new Staff {
+  %           \incipitAlto
+  %           \new Voice = "Alto" { \dynamicUp \B-VIKyrieAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \B-VIKyrieAltoLyrics
+
+  %         \new Staff {
+  %           \incipitTenore
+  %           \new Voice = "Tenore" { \dynamicUp \B-VIKyrieTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \B-VIKyrieTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Basso"
+  %           \new Voice = "Basso" { \dynamicUp \B-VIKyrieBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \B-VIKyrieBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
+  %           % \transpose c c,
+  %           \B-VIKyrieOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \B-VIKyrieBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 45 } % 90
+  %   }
+  % }
   \bookpart {
-    \section "1" "Kyrie"
-    \addTocEntry
-    \paper { indent = 3\cm }
+    \section "2" "Gloria"
+    % \addTocEntry
     \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = "Violino"
+            \set GrandStaff.instrumentName = "vl"
             \new Staff {
-              \set Staff.instrumentName = "I"
-              \B-VIKyrieViolinoI
+              \set Staff.instrumentName = "1"
+              \B-VIGloriaViolinoI
             }
             \new Staff {
-              \set Staff.instrumentName = "II"
-              \B-VIKyrieViolinoII
+              \set Staff.instrumentName = "2"
+              \B-VIGloriaViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
-            \incipitSoprano
-            \new Voice = "Soprano" { \dynamicUp \B-VIKyrieSoprano }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \B-VIGloriaSoprano }
           }
-          \new Lyrics \lyricsto Soprano \B-VIKyrieSopranoLyrics
+          \new Lyrics \lyricsto Soprano \B-VIGloriaSopranoLyrics
 
           \new Staff {
-            \incipitAlto
-            \new Voice = "Alto" { \dynamicUp \B-VIKyrieAlto }
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \B-VIGloriaAlto }
           }
-          \new Lyrics \lyricsto Alto \B-VIKyrieAltoLyrics
+          \new Lyrics \lyricsto Alto \B-VIGloriaAltoLyrics
 
           \new Staff {
-            \incipitTenore
-            \new Voice = "Tenore" { \dynamicUp \B-VIKyrieTenore }
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \B-VIGloriaTenore }
           }
-          \new Lyrics \lyricsto Tenore \B-VIKyrieTenoreLyrics
+          \new Lyrics \lyricsto Tenore \B-VIGloriaTenoreLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \B-VIKyrieBasso }
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \keepWithTag #'full-score \B-VIGloriaBasso }
           }
-          \new Lyrics \lyricsto Basso \B-VIKyrieBassoLyrics
+          \new Lyrics \lyricsto Basso \B-VIGloriaBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \B-VIKyrieOrgano
+            \B-VIGloriaOrgano
           }
         >>
-        \new FiguredBass { \B-VIKyrieBassFigures }
+        \new FiguredBass { \B-VIGloriaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 45 } % 90
+      \midi { \tempo 4 = 70 } % see definitions
     }
   }
 }

@@ -2,7 +2,17 @@
 
 tempoB-VIKyrie = \tempoMarkup "Largo"
   tempoB-VIKyrieB = \tempoMarkup "Allegro"
+tempoB-VIGloria = \tempoMarkup "Vivace"
+  tempoB-VILaudamus = \tempoMarkup "Larghetto" % 60
+  tempoB-VIGratias = \tempoMarkup "Allegro" % 180
+  tempoB-VIDomine = \tempoMarkup "Andante" % 60
+  tempoB-VIQuiTollis = \tempoMarkup "Adagio" % 50
+  tempoB-VIQuiSedes = \tempoMarkup "Vivace" % 80
+  tempoB-VIQuoniam = \tempoMarkup "Larghetto" % 50
+  tempoB-VICumSancto = \tempoMarkup "Largo" % 50
+  tempoB-VICumSanctoB = \tempoMarkup "Allegro" % 140
 
+\include "notes/org_solo.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
 \include "notes/S.ly"

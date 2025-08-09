@@ -21,3 +21,15 @@ toe: |
     & 23  & org  & 6th \eighthNote\ in \B1: a8 \\
     & 61f & S    & 4th/1st \quarterNote\ in \B1: b′4–b′4 \\
     & 65  & vl 2 & 3rd \sixteenthNote\ in \B1: a′16 \\
+  2 & 7   & A    & 1st \eighthNote\ missing in \B1 \\
+    & 9   & A    & last \eighthNote\ in \B1: e′8 \\
+    & 9   & B    & 3rd \quarterNote\ in \B1: e4 \\
+    & 11  & T    & 2nd \eighthNote\ in \B1: \sharp g8 \\
+    & 30  & org  & last \quarterNote\ in \B1: b4 \\
+    & 34  & vl 2 & 3rd \halfNote\ in \B1: d′2 \\
+    & 38  & vl 1 & 1st \halfNote\ in \B1: g′2 \\
+    & 68  & org  & last \eighthNote\ in \B1: A8 \\
+    & 72  & A    & 9th \sixteenthNote\ in \B1: \sharp f′16 \\
+    & 89  & vl 2 & 6th to 8th \eighthNote\ in \B1: g′4–\sharp f′8 \\
+    & 96  & vlne & 1st \eighthNote\ in \B1: d8 \\
+    & 124 & A    & 1st \quarterNote\ in \B1: e′16–\sharp f′16–g′8 \\

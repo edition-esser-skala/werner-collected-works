@@ -132,3 +132,200 @@ B-VIKyrieTenoreLyrics = \lyricmode {
   lei -- son, e -- lei -- son,
   e -- lei -- son. %68 finis
 }
+
+B-VIGloriaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoB-VIGloria
+    \mvTr a4\fE^\tutti r d4. a8
+    fis4 d r2
+    c'4 r r \hA c
+    h8. h16 h4 r2
+    cis!4 r cis cis %5
+    fis,8. fis16 fis4 r2
+    r r4 e'~
+    e8 dis r d4 d8 c c
+    h16[ a h8] cis16[ h cis8] d16[ cis d8] dis4
+    e r8 e4 dis8 eis eis %10
+    fis fis,^\critnote h gis fis2 \noBreak
+    fis4 r r2\fermata \bar "||"
+    \key g \major \tempoB-VILaudamus R1*11 \noBreak %23
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-VIGratias \newSpacingSection
+      R1.*2 %26
+    \mvTr h2.\fE^\tutti cis4 d!2
+    cis h a
+    g e e'4 d!
+    c2 h4( fis) h2~ %30
+    h c2. h4
+    a2 h4 a g2
+    g1( fis2)
+    g r r
+    R1.*2 %36
+    h1 cis2
+    ais1 h2
+    gis( a2.) a4
+    a2 h4( g) e2~ %40
+    e r r
+    d' e cis(
+    d) h cis~
+    cis4 \hA cis ais2 h~
+    h ais4( h) cis2 %45
+    fis, h4( a) g2
+    r fis' h,
+    h c4( h) a2
+    fis h1
+    g2 fis1 \noBreak %50
+    e1.\fermata \bar "||"
+    \time 4/4 \tempoB-VIDomine \newSpacingSection
+      R1*11 %62
+    \mvTr e'2~\pE^\soloE^\aDue e8 dis16 cis \appoggiatura e8 \hA dis4\trill
+    e h8 g' d a16([ h)] c8.\trill c16
+    h8 d4 c16([ h)] a8 h( c16[ h c8)] %65
+    h cis( d16[ \hA cis d8)] c dis( e16[ \hA dis e8)]
+    dis e4( \hA dis8) e4 r
+    R1*8 \noBreak %75
+    R1\fermata \bar "||"
+    \key g \minor \tempoB-VIQuiTollis
+      \mvTr b2\fE^\tutti c4 c \noBreak
+    r8 c a c c([ b)] b4
+    r8 h4 h8 h([ c)] c4
+    c4. c8 b4 c %80
+    a8 a b4. c16([ d)] es4
+    a, r r2
+    R1*3 %85
+    \key d \major \tempoB-VIQuiSedes
+      r4 r8 \mvTr d\fE^\tutti e e r e \noBreak
+    a, a r a h h16 h h8 e
+    e4.( d8) cis4 r8 e~
+    e d e4. d8 r d~
+    d cis h4 cis d~ %90
+    d8[ cis16 h] cis4 d8 a4\pE ais8
+    h h d d h h e4~ \noBreak
+    e d cis2\fermata \bar "||"
+    \tempoB-VIQuoniam R1*12 \noBreak %105
+    R1\fermata \bar "||"
+    \tempoB-VICumSancto \mvTr h2\fE^\tutti h4 cis \noBreak
+    a4. cis8 a4 h
+    \time 6/4 \tempoB-VICumSanctoB \newSpacingSection
+      cis2 r4 r2 r4 \noBreak
+    R1. %110
+    d4 d d8 d cis4 a fis'
+    d h e cis8([ d cis h a cis]
+    d4) fis h,~ h8[ e cis d cis h]
+    a4 r r r2 r4
+    R1.*2 %116
+    d4 d d8 d h4 g e'
+    cis a d h8[ cis h a g h]
+    cis[ d cis h a cis] d[ e d cis h d]
+    e[ h] e2 d4 h2 %120
+    cis4 r r r2 r4
+    R1.
+    d4 d d8 d h4 g e'
+    cis a4. h16[ cis] d4. a8[ g fis]
+    g4 g8([ a16 h] c8[ d]) e4 d2~ %125
+    d4 h g r2 r4
+    r2 r4 d' d d8 d
+    cis!4 a fis' d h e
+    cis8[( a16 h cis8 d] e4) a,2 r4
+    h2 cis8[ h] cis[ d16 e] d4. e8 %130
+    a,4 a( h8[ a)] h4 h cis8[ h]
+    cis4 d4. e16[ fis] g4 e2
+    fis4 r r e( a,4. h16[ cis)]
+    a4 a8([ h16 cis] d4) h a2
+    a4 r r a2. %135
+    a4 r r r2 r4\fermata \bar "|." %136 finis
+  }
+}
+
+B-VIGloriaTenoreLyrics = \lyricmode {
+  Et, et in
+  ter -- ra
+  pax ho --
+  mi -- ni -- bus,
+  pax, pax ho -- %5
+  mi -- ni -- bus
+  bo --
+  nae, bo -- nae vo -- lun --
+  ta -- _ _ _
+  tis, bo -- nae vo -- lun -- %10
+  ta -- tis, vo -- lun -- ta --
+  tis.
+
+  Gra -- ti -- as %27
+  a -- gi -- mus
+  ti -- bi, a -- gi --
+  mus ti -- bi, __ %30
+  a -- gi --
+  mus, a -- gi -- mus
+  ti --
+  bi
+
+  pro -- pter %37
+  ma -- gnam
+  glo -- ri --
+  am tu -- am, __ %40
+
+  pro -- pter ma --
+  gnam glo --
+  ri -- am, glo --
+  ri -- am, %45
+  glo -- ri -- am,
+  ma -- gnam %45
+  glo -- ri -- am,
+  glo -- ri --
+  am tu -- %50
+  am.
+
+  Do -- mi -- ne Fi -- %63
+  li, Fi -- li u -- ni -- ge -- ni --
+  te, ge -- ni -- te Je -- %65
+  su, Je -- su, Je --
+  su Chri -- ste.
+
+  Qui tol -- lis %77
+  pec -- ca -- ta mun -- di:
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re, %80
+  mi -- se -- re -- re no --
+  bis.
+
+  Qui se -- des, qui %86
+  se -- des ad dex -- te -- ram Pa -- tris,
+  Pa -- tris: Mi --
+  se -- re -- re, mi --
+  se -- re -- re no -- %90
+  _ bis, mi -- se --
+  re -- re, mi -- se -- re -- re no --
+  _ bis.
+
+  Cum San -- cto, %107
+  San -- cto Spi -- ri --
+  tu
+  %110
+  in glo -- ri -- a De -- i Pa --
+  tris, a -- men, a --
+  men, a --
+  men,
+
+  in glo -- ri -- a De -- i Pa -- %117
+  tris, a -- men, a --
+  _ _
+  _ _ men, a -- %120
+  men,
+
+  in glo -- ri -- a De -- i Pa --
+  tris, a -- _ _ _
+  men, a -- men, a -- %125
+  _ men,
+  in glo -- ri -- a
+  De -- i Pa -- tris, a -- men,
+  a -- men,
+  a -- _ _ _ _ %130
+  men, a -- men, a -- _
+  _ _ _ men, a --
+  men, a --
+  men, a -- men, a --
+  men, a -- %135
+  men. %136 finis
+}

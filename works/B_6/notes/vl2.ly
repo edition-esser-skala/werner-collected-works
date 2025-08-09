@@ -75,3 +75,125 @@ B-VIKyrieViolinoII = {
     d,4 r r2\fermata \bar "|." %69 finis
   }
 }
+
+B-VIGloriaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoB-VIGloria
+    r16 d\fE fis d a' fis d' a fis' a, d a fis' d a' fis
+    \kneeBeam d' d,, d d d d d d d\p d d d d d d d
+    a'\f a a a a a a a fis fis fis fis fis fis fis fis
+    e g, h g e' h g' e h' e, g e h' g e' h
+    g' g, g g g g g g cis! e, e e e e e e %5
+    dis fis' dis h fis h fis dis h8 h' h h~
+    h ais a g16 fis g8 e g e16 g
+    fis8 fis h16( a) h8 gis a16 \hA gis a4~
+    a8 a g fis16 e fis4. fis8
+    g8 g e4 fis8 fis g g %10
+    cis, fis d gis fis4. ais8 \noBreak
+    h16( d) fis( d) h( cis) h( ais) h4 r\fermata \bar "||"
+    \key g \major \tempoB-VILaudamus R1*11 \noBreak %23
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-VIGratias \newSpacingSection
+      h2.\fE a4 g2 \noBreak %25
+    a g fis
+    e h r
+    R1.
+    e2. fis4 g2
+    fis e dis %30
+    e1 a2
+    d,2. d4 g fis
+    e2 d1
+    d2 r e-\critnote
+    fis dis1 %35
+    e2 cis d~
+    d4 d h2 e
+    cis fis dis
+    h r r
+    r g'1 %40
+    a2 fis1
+    g e2
+    a4 fis d2 r
+    r fis1
+    g2 e fis %45
+    d dis e~
+    e dis4 e fis2~
+    fis e4 dis e2
+    dis2.( e4) fis2
+    e1 dis2\trill \noBreak %50
+    e1.\fermata \bar "||"
+    \time 4/4 \tempoB-VIDomine \newSpacingSection
+      \mvTr g'8.\trill\f-\markup \remarkE "spirituoso" a32 h e,16 a g fis g a h8 r16 c, h a \noBreak
+    g a h8 r d16( h) g( e') e( d) d( c) c( h)
+    a d32( e) fis16. g32 a8 r a,16. g32 fis16. g32 e16. fis32 g16. a32
+    h16 g8 e16 g a32( g) a16 fis g16. d32 h16. d32 g,4 %55
+    R1*3
+    r2 d''8.\f\trill e32 fis h,16 e d cis
+    d e fis8 r4 g,8.\trill a32 h e,16 a g fis %60
+    g8 a g fis r d' c16( fis,) fis( g)
+    fis4 r8 h h16( e,) c'( e,) e8( dis16.)\trillE e32
+    e16 g8 h16 e4 r2
+    R1*3 %66
+    r2 g8.\fE\trill fis32 e d16 a' g fis
+    g a h8 r16 c, h a g a h8 r d16( h)
+    g( e') e( d) d( c) c( h) a4 r
+    R1 %70
+    r8 e\pE c'4 r8 d, h'4
+    R1
+    r2 r4 r16 e\f d c
+    h a h8 r d16( h) g( e') e( d) d( c) c( h)
+    a d32 e fis16. g32 a8 r a,16. g32 fis16. g32 e16. fis32 g16. a32 \noBreak %75
+    h16 g8 e16 g a32 g a16 fis g4 r\fermata \bar "||"
+    \key g \minor \tempoB-VIQuiTollis
+      r2 r16 a'\fE a16. a32 a16. a32 a16. a32 \noBreak
+    a4 r r16 b, d16. d32 d16. d32 d16. d32
+    f16. f32 f16. f32 f16. f32 f16. f32 f8. f16 es8. es16
+    es8 es es es d es16 d es4~ %80
+    es8 d16 cis d4. d8 cis cis
+    d16. fis32 d16. a32 fis16. a32 d,8 r2
+    r r8 c\pE c c
+    d2 e4 cis \noBreak
+    d gis8 gis a a a, a %85
+    \key d \major \tempoB-VIQuiSedes
+      d16 a'\fE fis a d8 d r16 e a e cis8 a \noBreak
+    r a d d h h r e~
+    e e a, d cis a4 g8
+    fis8. g16 a4 r8 g4-\critnote fis8
+    e4 d8 e4 a,8 a a %90
+    a2 a4 r
+    R1 \noBreak
+    R\fermata \bar "||"
+    \tempoB-VIQuoniam R1*12 \noBreak %105
+    R1\fermata \bar "||"
+    \tempoB-VICumSancto dis'4.\fE dis8 e4. e8 \noBreak
+    d d e4. e8 d d
+    \time 6/4 \tempoB-VICumSanctoB \newSpacingSection
+      cis2 r4 r2 r4 \noBreak
+    R1.*2 %111
+    r2 r4 a a a8 a
+    fis4 d h' g e a
+    fis8 g fis e d fis a g fis e d fis
+    h a gis fis \hA gis e a4 e4. fis16 g? %115
+    a4. g8 fis e16 fis g4. fis8 e d16 e
+    fis4 a fis d g a8 h
+    e,4 r r d e2~
+    e4 fis2~ fis4 h4. a8
+    gis4 a4. a8 a2 gis4 %120
+    a a a a8 a fis4 d
+    h' g! \once \tieDashed e~ e8 fis16 g a8 g a4~
+    a fis4. g16 a h8 g16 a h8 g g e
+    e fis16 g a8 h a g fis g a fis g a
+    d,4 r r r2 r4 %125
+    g g g8 g fis4 d h'
+    g e a fis8 g fis e d fis
+    a e a4. g8 fis g16 a h8 a g fis
+    e fis16 g a8 g fis e d4 fis8 e fis d
+    e4. fis8 g fis e fis16 g a8 h a g %130
+    fis[ g fis e] d e16 fis g8[ a g fis] e fis16 g
+    a8[ h a g] fis g16 a h4 a2
+    a4 r a'4. e8 a4 a,
+    r a8 g fis4 g e2
+    fis4 r16 d' fis d a'8 e fis d d4 cis
+    d r r r2 r4\fermata \bar "|."
+  }
+}
