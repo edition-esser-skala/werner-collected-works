@@ -11,6 +11,11 @@ tempoB-VIGloria = \tempoMarkup "Vivace"
   tempoB-VIQuoniam = \tempoMarkup "Larghetto" % 50
   tempoB-VICumSancto = \tempoMarkup "Largo" % 50
   tempoB-VICumSanctoB = \tempoMarkup "Allegro" % 140
+tempoB-VICredo = \tempoMarkup "Allegro"
+  tempoB-VIEtIncarnatus = \tempoMarkup "Adagio" % 45
+  tempoB-VIEtResurrexit = \tempoMarkup "Presto" % 120
+  tempoB-VIEtInSpiritum = \tempoMarkup "Andante" % 85
+  tempoB-VIEtVitam = \tempoMarkup "Allegro" % 100
 
 \include "notes/org_solo.ly"
 \include "notes/vl1.ly"

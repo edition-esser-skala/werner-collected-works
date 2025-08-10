@@ -203,3 +203,149 @@ B-VIGloriaViolinoI = {
     fis4 r r r2 r4\fermata \bar "|." %136 finis
   }
 }
+
+B-VICredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoB-VICredo
+    fis16\fE a d a d^\critnote a' fis a e a d, a'
+    cis, a' e cis a a' fis a e a d, a'
+    cis, a cis e a a, fis a e a d, a'
+    cis, a cis e a fis a d fis a d, fis
+    h, g h e g h e, g cis, a cis fis %5
+    a cis fis, a d, fis h, e cis a cis d
+    e cis a fis' e8 a h, gis'
+    a a, r4 r
+    r r r8 a'\p
+    fis4 d8 g! cis,8. cis16 %10
+    h8 r r4 r
+    R2.
+    r4 e8 a g8. g16
+    fis8 g4 fis8 g g,
+    r h4 e8 a,4 %15
+    R2.*4
+    r4 r a'8. a16 %20
+    fis8 r a r d, r
+    a' r g16 fis g8 a a,
+    r fis'4 h8 r e,
+    h' a gis16 e, gis h e8. cis16
+    a fis'8 d16 h gis'8 e16 cis a'8 fis16 %25
+    e h'8 gis16 e a8 fis16 cis8( h16.)\trill a32
+    a16\fE cis8 e16 a fis8 fis16 g h8 h16
+    a a,8 a16 a a'8 a16 h, g'8 g16
+    g,8 a fis8. fis16 e h''8 g16~
+    g e8 a16~ a fis8 d16~ d g8 e16~ %30
+    e a8 e16 fis a8 d16 e,8 cis' \noBreak
+    d2 r4\fermata \bar "||"
+    \key d \minor \time 4/4 \tempoB-VIEtIncarnatus \newSpacingSection
+      r16 a,\pp a( f') f( a,) a8 r16 g g( e') e( g,) g8 \noBreak
+    r16 a a( a') a( a,) a8 r16 c! c( g') g( g,) g8
+    r16 c c( a') a( c,) c8 r16 a a( c) c( f) f8 %35
+    r16 c c( fis) fis( a) a8 r16 b, b( d) d( g) g8
+    r16 d d( gis) gis( h) h8 r g fis16( a) c!8
+    r f, e16( g) c8 r16 a f( e) d c h c
+    h g d' \hA h g'8 r r16 d d d d d d d
+    r c c c r c c c r es, es es r d d d %40
+    c( e) e( g) g( c) c( e) cis4 r
+    R1*7 \noBreak %48
+    R1\fermata \bar "||"
+    \key d \major \tempoB-VIEtResurrexit
+      r2 r8 h'\fE a g \noBreak %50
+    fis a fis e d h' g fis
+    e a, a'4. a8 gis4
+    a2 r
+    R1
+    r4 d, h e %55
+    cis fis e4. e8
+    e cis a h cis d e fis
+    g!2 fis8 e fis g
+    a4 g8 fis e4 fis
+    g fis8 e d4 e %60
+    fis e4. e8 d4
+    cis4. cis8 h4 r
+    d g fis8 e fis d
+    e4 a g8 fis g e
+    fis4 g fis8 e d e %65
+    fis4 gis a2
+    a,4 fis'4. e8 d cis
+    h4 g'4. fis8 e d
+    cis4 a'4. g8 fis e
+    d4 g2 fis4 %70
+    fis2 r
+    a4 fis g e
+    fis g2 a4
+    fis8 e d e16 fis g4 d
+    g2. fis8 g %75
+    a4 a, a2 \noBreak
+    a r\fermata \bar "||"
+    \time 3/4 \tempoB-VIEtInSpiritum \newSpacingSection
+      h8\fE d16\trillE cis d8 fis16\trill e fis8 fis, \noBreak
+    h' h,16 ais h8 h, h4
+    r8 g'' fis( e) d( cis) %80
+    d h16 d fis8 d16 fis g8 h
+    r a,16 cis e8 cis16 e fis8 a
+    r h, g'16(\trill fis) g8 r e
+    cis'16(\trillE h) cis8 ais16(\trill gis?) \hA ais8 fis eis16 fis
+    g8 fis16 e d4 cis\trill %85
+    h r r
+    r r8 fis'\pE h h,
+    r g' fis( e) d( cis)
+    \tuplet 3/2 8 { d16 cis h } h8 r4 g'~
+    g8 a fis16( e) fis8 fis4~ %90
+    fis8 e16 fis g4 e8( d)
+    cis4 a'4. g8
+    fis e d cis h d
+    g fis e d cis h'
+    a g fis4 e %95
+    d r r
+    R2.*2
+    r8 d\fE g fis g a
+    h g d h r4 %100
+    r8 h e dis e fis
+    g e h g cis a'
+    fis d h d g h
+    a fis4 d h8~
+    h g' a, g' d, fis' %105
+    g h16 a h8 g d h
+    R2.
+    d8 h16 a h8 g d h
+    R2.
+    r8 g''16 fis g8 e h g %110
+    R2.*16 \noBreak %126
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoB-VIEtVitam \newSpacingSection
+      R1*3 %130
+    r2 a'4.\fE a8
+    a16 e fis g a cis, d e fis g a4 a8
+    a,4~ a16 a' g a fis8 d' a g16 fis
+    h c d4 h8 a16 g fis g a8 fis
+    g16 fis g4 h8 a g16 fis g8 a %135
+    d, d16 e fis e fis8 h g e16 d e8
+    fis a16 a, g' a, fis' a, e'8 fis16 g a8 a,
+    r a16 h cis8 d e fis16 g a8 h16 cis
+    d8 d,16 e fis g a fis \sbOn \tuplet 3/2 8 { h,\trill a h d\trill cis d g\trill fis g h\trill a h } \sbOff
+    a d, g d a'8 g16 fis e8 a, r a' %140
+    g16 e a e h'8 a16 g fis8 h, r h'
+    ais cis fis, h cis, h' cis, fis
+    d h r4 fis'16 gis ais8 h cis
+    fis,4 r e16 fis g8 a h
+    e,4 r d16 e fis8 g a %145
+    d,4 g4. fis16 e fis4
+    g8 fis16 e d8 e d g, r4
+    d'16 g fis e d8 c h16 g a h \hA c8 d
+    e16 fis e fis g8 g, e' c a h16 \hA c
+    d8 g fis g a g fis16 g a8 %150
+    g h a g fis16 g a8 g fis
+    g16 a h8 a fis h g e cis'!
+    d d, cis d e d cis d16 e
+    d8 fis e d cis16 d e8 d e
+    fis4 d4. fis8 g16 a h8 %155
+    a4. g16 fis e8 a4 g16 a
+    fis4. e16 d cis8 fis4 e16 fis
+    d4. cis16 h a fis g h a cis h d
+    cis e d fis e cis d e fis g fis g a8 g
+    fis d' e, cis' d4 r8 d %160
+    cis h a g fis4. g16 a
+    h8 g e a fis4 r\fermata \bar "|." %162 finis
+  }
+}
