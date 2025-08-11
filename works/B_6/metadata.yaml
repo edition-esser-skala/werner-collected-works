@@ -1,7 +1,7 @@
 title: Missa Sunt bona mixta malis
 id: WerW B.6
 genre: mass
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org solo
 license: cc-by-sa-4.0
 sources:
   B1:
@@ -19,7 +19,7 @@ toe: |
     & 9   & T    & 3rd \quarterNote\ in \B1: b4 \\
     & 13  & vl 2 & last \eighthNote\ in \B1: \sharp f′8 \\
     & 23  & org  & 6th \eighthNote\ in \B1: a8 \\
-    & 61f & S    & 4th/1st \quarterNote\ in \B1: b′4–b′4 \\
+    & 61f & S    & 4th/1st \quarterNote\ in \B1: b′4–b′4 \\*
     & 65  & vl 2 & 3rd \sixteenthNote\ in \B1: a′16 \\
   2 & 7   & A    & 1st \eighthNote\ missing in \B1 \\
     & 9   & A    & last \eighthNote\ in \B1: e′8 \\
@@ -40,7 +40,8 @@ toe: |
     & 65  & A    & 2nd \quarterNote\ in \B1: b4 \\
     & 153 & vl 2 & 1st \quarterNoteDotted\ in \B1: h′4. \\
   4 & 10–44 & –  & In \B1, this movement is written either in
-                   G~major (S, vl 1, vl 2) or G~lydian (org, vlne). \\
+                   G~major (S, vl 1, vl 2)
+                   \newline or G~lydian (org, vlne). \\
     & 47  & B    & 2nd/3rd \quarterNote\ in \B1: \sharp c4.–d16–e16 \\
     & 69  & T    & 4th \quarterNote\ in \B1: a4 \\
     & 70  & vl 2 & 2nd \quarterNote\ in \B1: b′4 \\
@@ -48,3 +49,5 @@ toe: |
     & 71  & A    & 1st \quarterNote\ in \B1: a′4 \\
   6 & 5   & vl 2 & 1st \quarterNote\ in \B1: b4 \\
     & 40  & vl 2 & 1st \quarterNote\ in \B1: a′8–g′16–a′16 \\
+parts:
+  org: Organo solo

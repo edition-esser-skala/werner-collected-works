@@ -14,3 +14,27 @@ B-VILaudamusOrganoSolo = \relative c' {
   d16( a) h( d) \sbOn e16. e,32 fis16.\trill e64 fis g16. g'32 g16.\trill fis64 e d16. c32 c16.\trill h64 a \sbOff
   h16( g) e( c') << { h8 a16.\trill g32 } \\ { g4 } >> g4 r\fermata \clef bass \autoBeamOff %24 finis
 }
+
+B-VIGloriaChords = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoB-VIGloria
+    s1*12 \bar "||" %12
+    \key g \major \tempoB-VILaudamus
+      \B-VILaudamusOrganoSolo \bar "||" %24
+    \time 3/2 \tempoB-VIGratias \newSpacingSection
+      s1.*27 \bar "||" %51
+    \time 4/4 \tempoB-VIDomine \newSpacingSection
+      s1*25 \bar "||" %76
+    \key g \minor \tempoB-VIQuiTollis
+      s1*9 %85
+    \key d \major \tempoB-VIQuiSedes
+      s1*8 \bar "||" %93
+    \tempoB-VIQuoniam
+      s1*13 \bar "||" %106
+    \tempoB-VICumSancto
+      s1*2 %108
+    \time 6/4 \tempoB-VICumSanctoB \newSpacingSection
+      s1.*28 \bar "|." %136 finis
+  }
+}

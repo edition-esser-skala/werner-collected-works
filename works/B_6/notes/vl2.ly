@@ -123,6 +123,7 @@ B-VIGloriaViolinoII = {
     e1 dis2\trill \noBreak %50
     e1.\fermata \bar "||"
     \time 4/4 \tempoB-VIDomine \newSpacingSection
+      \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
       \mvTr g'8.\trill\f-\markup \remarkE "spirituoso" a32 h e,16 a g fis g a h8 r16 c, h a \noBreak
     g a h8 r d16( h) g( e') e( d) d( c) c( h)
     a d32( e) fis16. g32 a8 r a,16. g32 fis16. g32 e16. fis32 g16. a32
@@ -145,6 +146,7 @@ B-VIGloriaViolinoII = {
     a d32 e fis16. g32 a8 r a,16. g32 fis16. g32 e16. fis32 g16. a32 \noBreak %75
     h16 g8 e16 g a32 g a16 fis g4 r\fermata \bar "||"
     \key g \minor \tempoB-VIQuiTollis
+      \revert Score.SpacingSpanner.common-shortest-duration
       r2 r16 a'\fE a16. a32 a16. a32 a16. a32 \noBreak
     a4 r r16 b, d16. d32 d16. d32 d16. d32
     f16. f32 f16. f32 f16. f32 f16. f32 f8. f16 es8. es16

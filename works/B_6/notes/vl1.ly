@@ -120,6 +120,7 @@ B-VIGloriaViolinoI = {
     h2 h1\trill \noBreak %50
     h1.\fermata \bar "||"
     \time 4/4 \tempoB-VIDomine \newSpacingSection
+      \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
       \mvTr g'8.\f\trill-\markup \remark "spirituoso" a32 h e,16 c' h a h c d8 r16 e, d c \noBreak
     h c d8 r h'16( g) e( c') c( h) h( a) a( g)
     fis16. g32 a16. h32 c8 r fis,,16. g32 a16. h32 c16. d32 e16. fis32
@@ -142,6 +143,7 @@ B-VIGloriaViolinoI = {
     fis16. g32 a16. h32 c8 r fis,,16. g32 a16. h32 c16. d32 e16. fis32 %75
     g16( g,) e'( c) h c32 h c16 a g4 r\fermata \bar "||"
     \key g \minor \tempoB-VIQuiTollis
+      \revert Score.SpacingSpanner.common-shortest-duration
       r2 r16 c'\fE c16. c32 c16. c32 c16. c32 \noBreak
     a4 r r16 f f16. f32 f16. f32 f16. f32
     as16. h,32 h16. h32 h16. h32 h16. h32 h8( c) c8. c16
@@ -160,7 +162,9 @@ B-VIGloriaViolinoI = {
     e2 fis4 r
     R1 \noBreak
     R\fermata \bar "||"
-    \tempoB-VIQuoniam d16(-\solo fis) a( d) \kneeBeam fis( g) a d,, cis( e) g( cis) e( fis) g g, \noBreak
+    \tempoB-VIQuoniam
+      \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
+      d16(-\solo fis) a( d) \kneeBeam fis( g) a d,, cis( e) g( cis) e( fis) g g, \noBreak
     \sbOn fis64( e d16.) fis'64( e d16.) \once \slurDashed h64( a g16.) e16 d \kneeBeam \bp #.5 #-.5 cis16. a''32 a16. h64 cis \tuplet 3/2 8 { d16 cis h a g fis } %95
     g16. h,32 h16.\trill cis64 d \tuplet 3/2 8 { e16 d cis h a g } \sbOff fis( fis') d( h) gis8.\trill a32 h
     a16( e) fis( d') << { fis,8.\trill e32 d } \\ { a4 } >> d4 r
@@ -173,7 +177,9 @@ B-VIGloriaViolinoI = {
     fis16( d) g( h) a( fis) e( d) \tuplet 3/2 8 { cis e g } e'8 \tuplet 3/2 8 { a,16 cis e } g8
     fis16( d) h( h,) \appoggiatura e8 cis8. d16 d16( a') h g'32( e) d16. e32 e8\trill \noBreak %105
     d4 r r2\fermata \bar "||"
-    \tempoB-VICumSancto fis4.\fE fis8 gis4 a \noBreak
+    \tempoB-VICumSancto
+      \revert Score.SpacingSpanner.common-shortest-duration
+      fis4.\fE fis8 gis4 a \noBreak
     fis8 fis a a fis fis h h
     \time 6/4 \tempoB-VICumSanctoB \newSpacingSection
       e,2 r4 r2 r4 \noBreak
