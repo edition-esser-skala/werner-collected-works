@@ -16,6 +16,9 @@ tempoB-VICredo = \tempoMarkup "Allegro"
   tempoB-VIEtResurrexit = \tempoMarkup "Presto" % 120
   tempoB-VIEtInSpiritum = \tempoMarkup "Andante" % 85
   tempoB-VIEtVitam = \tempoMarkup "Allegro" % 100
+tempoB-VISanctus = \tempoMarkup "Largo"
+  tempoB-VIPleni = \tempoMarkup "Passato"
+  tempoB-VIOsanna = \tempoMarkup "Osanna · Presto"
 
 \include "notes/org_solo.ly"
 \include "notes/vl1.ly"

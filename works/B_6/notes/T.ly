@@ -567,3 +567,89 @@ B-VICredoTenoreLyrics = \lyricmode {
   a -- _ _
   _ _ men. %162 finis
 }
+
+B-VISanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoB-VISanctus
+    \mvTr a4(\fE^\tutti d2) d,4~
+    d r8 d'( e4 dis)
+    e r r8 gis, gis gis
+    a4 a r8 ais ais ais
+    h4 h r8 c c c
+    h([ g16 a] h[ cis)] d8 e4 a,8([ h)]
+    cis4 h8([ a)] a4 r
+    r8 h h h cis([ e)] a,4 \noBreak
+    a4. a8 a2\fermata \bar "||"
+    \key g \major \time 3/4 \tempoB-VIPleni \newSpacingSection
+      R2.*34 \noBreak %43
+    R2.\fermata \bar "||"
+    \key d \major \time 4/4 \tempoB-VIOsanna \newSpacingSection
+      R1*2 %46
+    \mvTr a2\fE^\tuttiE fis'4 ais,
+    h8([ cis)] d4 e( gis,)
+    a8([ h)] cis4 cis8([ d)] e4
+    a, fis g8[ a] h4~ %50
+    h e, fis8([ g)] a4~
+    a fis r fis
+    d' h r e,
+    cis' a a g!8([ a)]
+    fis4 r r2 %55
+    R1
+    r4 d' h2
+    ais4( h2 \hA ais4)
+    h2 r4 e
+    cis a!2 d4 %60
+    h4. cis16([ d)] e4 a,~
+    a a2 d4
+    h g h e
+    cis a r a
+    h( d) cis4.( h8) %65
+    a2 h
+    a a
+    a r4 h
+    a8([ h)] c4 r h^\critnote
+    a8([ g)] fis4 g a %70
+    \once \stemUp h2.( a8[ g])
+    a1\fermata \bar "|." %72 finis
+  }
+}
+
+B-VISanctusTenoreLyrics = \lyricmode {
+  San -- ctus, __
+  san --
+  ctus Do -- mi -- nus
+  De -- us, Do -- mi -- nus
+  De -- us, Do -- mi -- nus %5
+  De -- us, De -- us
+  Sa -- ba -- oth,
+  Do -- mi -- nus De -- us
+  Sa -- ba -- oth.
+
+  O -- san -- na %47
+  in __ ex -- cel --
+  sis, o -- san -- na
+  in ex -- cel -- _ %50
+  sis, o -- san --
+  na, o --
+  san -- na, o --
+  san -- na, o -- san --
+  na %55
+
+  in ex --
+  cel --
+  sis, in
+  ex -- cel -- sis, %60
+  in ex -- cel -- sis, __
+  in ex --
+  cel -- sis, in ex --
+  cel -- sis, in
+  ex -- cel -- %65
+  sis, in
+  ex -- cel --
+  sis, o --
+  san -- na, o --
+  san -- na in ex -- %70
+  cel --
+  sis. %72 finis
+}

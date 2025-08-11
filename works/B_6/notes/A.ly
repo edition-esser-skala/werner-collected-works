@@ -594,3 +594,83 @@ B-VICredoAltoLyrics = \lyricmode {
   men,
   a -- men. %162 finis
 }
+
+B-VISanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoB-VISanctus
+    r4 \mvTr fis4\fE^\tutti g8[ d] g4~
+    g8 fis4 gis8 a4 fis
+    gis r r8 f f f
+    f([ e)] e4 r8 g g g
+    g([ fis)] fis4 r8 fis fis fis %5
+    e16([ g] \once \stemUp h4) a8 g4 fis
+    e8([ d16 cis)] d8([ e)] d4 r
+    r8 f f f e8.([ fis32 g] a8) fis \noBreak
+    e4. e8 fis2\fermata \bar "||"
+    \key g \major \time 3/4 \tempoB-VIPleni \newSpacingSection
+      R2.*34 \noBreak %43
+    R2.\fermata \bar "||"
+    \key d \major \time 4/4 \tempoB-VIOsanna \newSpacingSection
+      R1*5 %49
+    \mvTr d2\fE^\tuttiE h'4 dis, %50
+    e8([ fis)] g4 a( cis,)
+    d d d8([ e)] fis4~
+    fis h, cis8([ d)] e4
+    e a,8([ h)] cis([ d)] h([ cis)]
+    d8.([ e16] fis2) h,4 %55
+    r e e a,
+    r d2 g4
+    fis1
+    fis4 d e8[ fis] g4~
+    g cis, d8([ e)] fis4 %60
+    fis( h, g' fis)
+    e cis d8[ e] fis4~
+    fis h, e8[( fis)] g4
+    g cis, fis8([ g)] a4
+    d,( \once \stemUp h' a g) %65
+    fis a2 g4~
+    g fis e2
+    fis4 fis g8([ a)] h4
+    r fis g8([ a)] h4
+    r a( g) fis %70
+    g(^\critnote d2 e4)
+    fis1\fermata \bar "|." %72 finis
+  }
+}
+
+B-VISanctusAltoLyrics = \lyricmode {
+  San -- _ _
+  _ _ _ _
+  ctus Do -- mi -- nus
+  De -- us, Do -- mi -- nus
+  De -- us, Do -- mi -- nus %5
+  De -- us, De -- us
+  Sa -- ba -- oth,
+  Do -- mi -- nus De -- us
+  Sa -- ba -- oth.
+
+  O -- san -- na %50
+  in __ ex -- cel --
+  sis, in ex -- cel --
+  sis, in __ ex --
+  cel -- sis, in __ ex --
+  cel -- sis, %55
+  o -- san -- na
+  in ex --
+  cel --
+  sis, o -- san -- _
+  na in __ ex -- %60
+  cel --
+  sis, o -- san -- _
+  na in __ ex --
+  cel -- sis, in __ ex --
+  cel -- %65
+  sis, in ex --
+  _ cel --
+  sis, o -- san -- na,
+  o -- san -- na
+  in __ ex -- %70
+  cel --
+  sis. %72 finis
+}

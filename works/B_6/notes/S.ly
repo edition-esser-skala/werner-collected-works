@@ -667,18 +667,124 @@ B-VICredoSopranoLyrics = \lyricmode {
   _ men. %162 finis
 }
 
+B-VISanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoB-VISanctus
+    r4 \mvTr a'\fE^\tutti h4. cis16[ d]
+    a8[ d,] d'4 c2\trill
+    h4 r r8 d d d
+    d([ cis!)] cis4 r8 e e e
+    e([ dis)] dis4 r8 \hA dis dis dis %5
+    e e, e' d4 c h8
+    a4 g fis8 d' d d
+    d4. d8 cis e d4~ \noBreak
+    d8[ cis16 h] cis4 d2\fermata \bar "||"
+    \key g \major \time 3/4 \tempoB-VIPleni \newSpacingSection
+      R2.*12 %21
+    \mvTr g,16([\pE^\solo a h8)] h16([ c d8)] d16([ e fis8)]
+    g8([ g,)] g4 r8 d'
+    e([ c)] a([ fis)] d([ c')]
+    \tuplet 3/2 8 { h16([ a g)] } g8 r4 r %25
+    r8 g16[ a] h[ a h8] h8.[\trill cis32 d]
+    e16[ fis] g4 e8 cis g
+    fis16([\trill e fis a)] g([\trill fis g h)] a([\trill g a c!)]
+    h([\trill a h d)] cis([\trill h \hA cis e)] d8[ fis]
+    h, g'16([ e)] d8.([ e16] e4)\trill %30
+    d r r
+    h16[ c d8]~ d[ h] g f
+    f([\trill e)] e4 r
+    c'16([ d] e4 c8) a g
+    g([\trill fis!)] fis4 r %35
+    g16[ a h c] h[ c d e] d[ c h a]
+    g4 g'4. d8
+    e c16([ a)] g8.([ a16] a4)\trill
+    g r r
+    R2.*4 \noBreak %43
+    R2.\fermata \bar "||"
+    \key d \major \time 4/4 \tempoB-VIOsanna \newSpacingSection
+      R1*7 %51
+    \mvTr a2\fE^\tuttiE fis'4 ais,
+    h8([ cis)] d4 e gis,
+    a8([ h)] cis([ d)] e([ fis g! e)]
+    fis4 d4.( e8) fis4\( %55
+    fis\) h, cis8[( d]) e4\(
+    e\) a, h e~
+    e d cis2
+    h4 r r h
+    cis8([ d] e4) a, a %60
+    h8([ cis)] d4.( cis8 d4)
+    cis r r a
+    h8([ cis)] d4 r h
+    cis8([ d)] e4 r d~
+    d d e8[ d] e4~ %65
+    e d2 e4~
+    e d d( cis)
+    d a h8([ c)] d4
+    r a h8([ c)] d4
+    r d2 d4 %70
+    d1
+    d\fermata \bar "|." %72 finis
+  }
+}
+
+B-VISanctusSopranoLyrics = \lyricmode {
+  San -- _ _
+  _ _ _
+  ctus Do -- mi -- nus
+  De -- us, Do -- mi -- nus
+  De -- us, Do -- mi -- nus %5
+  De -- us Sa -- _ _ _
+  _ ba -- oth, Do -- mi -- nus
+  De -- us, De -- us Sa --
+  ba -- oth.
+
+  Ple -- ni __ sunt %22
+  coe -- li, sunt
+  coe -- li __ et __
+  ter -- ra %25
+  glo -- _ _
+  _ _ _ ri -- a,
+  glo -- _ _
+  _ _ _
+  ri -- a tu -- %30
+  a,
+  glo -- ri -- a
+  tu -- a,
+  glo -- ri -- a
+  tu -- a, %35
+  glo -- _ _
+  _ _ _
+  ri -- a tu --
+  a.
+
+  O -- san -- na %52
+  in __ ex -- cel -- sis,
+  in __ ex -- cel --
+  sis, in __ ex -- %55
+  cel -- sis, in __ ex --
+  cel -- sis, in ex --
+  _ cel --
+  sis, o --
+  san -- na in %60
+  ex -- cel --
+  sis, o --
+  san -- na, o --
+  san -- na in __
+  ex -- cel -- _ %65
+  sis, in __
+  ex -- cel --
+  sis, o -- san -- na,
+  o -- san -- na
+  in ex -- %70
+  cel --
+  sis. %72 finis
+}
 
 
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
-
-
-% ## Benedictus
 
 % Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
 
 
 % ## Agnus Dei

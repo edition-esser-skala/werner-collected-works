@@ -39,3 +39,10 @@ toe: |
     & 58  & T    & 1st \quarterNote\ in \B1: a8–b8 \\
     & 65  & A    & 2nd \quarterNote\ in \B1: b4 \\
     & 153 & vl 2 & 1st \quarterNoteDotted\ in \B1: h′4. \\
+  4 & 10–44 & –  & In \B1, this movement is written either in
+                   G~major (S, vl 1, vl 2) or G~lydian (org, vlne). \\
+    & 47  & B    & 2nd/3rd \quarterNote\ in \B1: \sharp c4.–d16–e16 \\
+    & 69  & T    & 4th \quarterNote\ in \B1: a4 \\
+    & 70  & vl 2 & 2nd \quarterNote\ in \B1: b′4 \\
+    & 70  & B    & 4th \quarterNote\ in \B1: g4 \\
+    & 71  & A    & 1st \quarterNote\ in \B1: a′4 \\

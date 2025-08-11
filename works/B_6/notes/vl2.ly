@@ -345,3 +345,79 @@ B-VICredoViolinoII = {
     d cis\trill d r\fermata \bar "|." %162 finis
   }
 }
+
+B-VISanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoB-VISanctus
+    r16 fis'\fE fis16. d32 d16. a32 fis8\trill r16 g' g16. d32 d16. h32 h8\trill
+    r16 a a8\trill r16 h' h8\trill r16 e, e8\trillE r16 fis, fis8\trillE
+    r16 gis'32 fis e16 \hA gis h, e gis, h d,16. d'32 d8\trill r4
+    r16 a8 cis!16 e a e cis ais16. e'32 e8\trillE r4
+    r16 fis,8 h dis fis16 a!8 fis, fis fis %5
+    g h4 a8 g4 fis
+    e8 a g4 fis8 d' d d
+    d4. d8 cis e d4~ \noBreak
+    d8 cis16 h cis4\trill d2\fermata \bar "||"
+    \key g \major \time 3/4 \tempoB-VIPleni \newSpacingSection
+      \mvTr g,16\fE-\markup \remark "spirituoso" h d8~ d g16( h) d,8 a'16( c) \noBreak %10
+    h c d c h8 a g16 a h8
+    e,16( d) e8~ e a g fis
+    g16 a h a g8 fis g4
+    h,8( h') g( e) cis( g)
+    fis16. fis'32 fis8\trill fis,16. fis'32 fis8\trill fis,16. fis'32 fis8\trill %15
+    d16( h) g'( e) d4( cis8.)\trill e16
+    d8 a16 h c(\trill h) c8 \once \slurDashed a'( a,)
+    ais( h) dis( e) a,?16( e) g8
+    fis16 a c8 c c a'16( fis) c( a)
+    h c d8 \slurDashed e16( c) a( e) \slurSolid \appoggiatura g8 fis8.\trill g16 %20
+    g8 g' e c16 a \appoggiatura g8 fis4\trill
+    g r r
+    r8 h\p g'16( d) h( d) h( g) d( g)
+    e4 r r
+    r8 h'4 h8 a4 %25
+    h8 h, h4\trill r
+    r8 g''4 e8 cis g
+    fis4 r8 h r a
+    r h r cis r d
+    R2. %30
+    a16(\f\trill g a) d c!(\trill h c) a' d,,(\trillE c d) c'
+    h4 r r
+    \slurDashed c,16( d e8) e16( fis g8) g16( a h8) \slurSolid
+    c16(\trill h) c8 r4 r
+    d,16 e fis8~ fis16 g a8~ a16 h c8 %35
+    d16( c) d8 r4 r
+    R2.*2
+    g,16\f a h4 h8 h h
+    g16(\trill fis) g8~ g g g g' %40
+    e c16( a) \appoggiatura g4 fis2\trill
+    g8. a16 h8 c d16( c) d8
+    e c16( a) g8. a16 a4\trill \noBreak
+    g r r\fermata \bar "||"
+    \key d \major \time 4/4 \tempoB-VIOsanna \newSpacingSection
+      R1*5 %49
+    d2\fE h'4 dis, %50
+    e8 fis g4 a cis,
+    d d4. e8 fis4~
+    fis h, cis8 d e4~
+    e a,8 h cis d h cis
+    d8. e16 fis2 h,4 %55
+    r e2 a,4
+    r d2 g4
+    fis2. fis4
+    fis d e8 fis g4~
+    g cis, d8 e fis4~ %60
+    fis h, g' fis
+    e cis d8 e fis4~
+    fis h, e8 fis g4~
+    g cis, fis8 g a4
+    d, h' a g %65
+    fis a2 g4~
+    g fis e2
+    fis4 fis g8 a h4
+    r fis g8 a h4
+    r a-\critnote g fis %70
+    g d2 e4
+    fis1\fermata \bar "|." %72 finis
+  }
+}

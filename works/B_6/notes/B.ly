@@ -579,3 +579,90 @@ B-VICredoBassoLyrics = \lyricmode {
   _ _
   _ _ men. %162 finis
 }
+
+B-VISanctusBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \autoBeamOff \tempoB-VISanctus
+    \mvTr d1~\fE^\tuttiE
+    d4 h a2
+    e'4 r h2
+    a cis!
+    h r8 a' a a %5
+    g4.( fis8 e4) d
+    cis8([ h16 a)] h8([ cis)] d4 r
+    r8 gis gis gis a4 fis8([ d)] \noBreak
+    a4. a8 d2\fermata \bar "||"
+    \key g \major \time 3/4 \tempoB-VIPleni \newSpacingSection
+      R2.*34 \noBreak %43
+    R2.\fermata \bar "||"
+    \key d \major \time 4/4 \tempoB-VIOsanna \newSpacingSection
+      \mvTr d2\fE^\tuttiE h'4 dis, \noBreak %45
+    e8([ fis)] g4 a( cis,)
+    d cis^\critnote d8([ e)] fis4~
+    fis h, cis8([ d)] e4~
+    e a, a' g!8([ a)]
+    fis4 d r h %50
+    g' e r a,
+    fis' d r2
+    R1*2
+    d2 h'4 dis, %55
+    e8([ fis)] g4 a( cis,)
+    d fis g e
+    fis h fis2
+    h,4 h'8([ a!)] g4 e
+    r a8([ g)] fis4 d %60
+    g4. fis8 e4( d)
+    a a'8([ g)] fis4( d)
+    g g2 e4
+    a2.( fis4)
+    h h, cis2 %65
+    d4 fis g e
+    cis d a2
+    d r4 g
+    fis8([ g)] a4 r g
+    fis8([ g)] a4 h fis^\critnote %70
+    g1
+    d\fermata \bar "|." %72 finis
+  }
+}
+
+B-VISanctusBassoLyrics = \lyricmode {
+  San --
+  ctus, san --
+  ctus, san --
+  ctus, san --
+  ctus Do -- mi -- nus %5
+  De -- us
+  Sa -- ba -- oth,
+  Do -- mi -- nus De -- us
+  Sa -- ba -- oth.
+
+  O -- san -- na %45
+  in __ ex -- cel --
+  sis, in ex -- cel --
+  sis, o -- san --
+  na in ex --
+  cel -- sis, o -- %50
+  san -- na, o --
+  san -- na,
+
+  o -- san -- na %55
+  in __ ex -- cel --
+  sis, o -- san -- na
+  in ex -- cel --
+  sis, o -- san -- na,
+  o -- san -- na %60
+  in ex -- cel --
+  sis, o -- san --
+  na in ex --
+  cel --
+  sis, o -- san -- %65
+  na, o -- san -- na
+  in ex -- cel --
+  sis, o --
+  san -- na, o --
+  san -- na in ex -- %70
+  cel --
+  sis. %72 finis
+}
