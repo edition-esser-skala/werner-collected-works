@@ -653,3 +653,41 @@ B-VISanctusTenoreLyrics = \lyricmode {
   cel --
   sis. %72 finis
 }
+
+B-VIBenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key h \minor \time 3/4 \autoBeamOff \tempoB-VIBenedictus
+    r4 \mvTr fis,8.([\pE^\solo gis32 ais)] h8([ cis)]
+    \tuplet 3/2 8 { d16([ cis h)] } h8 r h g'32[ fis e8 d16]
+    \tuplet 3/2 8 { cis16[ h a] } a8 r a fis'32[ e d8 cis16]
+    h[ a] h8 r h a8. g16
+    fis8 a d2~ %5
+    d8[ cis16 h] a4 g\trill
+    fis8 \tuplet 3/2 8 { d'16([ cis h] } a8._[ h16)] h4\trill
+    a a8.([ h32 cis)] d8([ e)]
+    \tuplet 3/2 8 { fis16([ e d)] } d8 r a d16[ e fis8]~
+    fis h, r h e16[ fis g8]~ %10
+    g cis, r cis d[( \tuplet 3/2 8 { e16 fis g]) }
+    fis([ d)] h([ g)] fis4( e8.) d16
+    d4 r r
+    R2.*2 %15
+    R2.\fermata \markOsannaUtSupra \bar "||" %16 finis
+  }
+}
+
+B-VIBenedictusTenoreLyrics = \lyricmode {
+  Be -- ne --
+  di -- ctus, qui ve --
+  _ nit, qui ve --
+  _ nit in no -- mi --
+  ne, in no -- %5
+  _ mi --
+  ne Do -- mi --
+  ni, be -- ne --
+  di -- ctus, qui ve --
+  nit, qui ve -- %10
+  nit in no --
+  mi -- ne Do -- mi --
+  ni. %13 finis
+}

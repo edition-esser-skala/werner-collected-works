@@ -186,60 +186,109 @@
   %     \midi { \tempo 4 = 80 } % see definitions
   %   }
   % }
+  % \bookpart {
+  %   \section "4" "Sanctus"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \B-VISanctusViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \B-VISanctusViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \B-VISanctusSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \B-VISanctusSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \B-VISanctusAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \B-VISanctusAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \B-VISanctusTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \B-VISanctusTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \B-VISanctusBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \B-VISanctusBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \B-VISanctusOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \B-VISanctusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 50 } % 90 – 140
+  %   }
+  % }
   \bookpart {
-    \section "4" "Sanctus"
+    \section "5" "Benedictus"
     \addTocEntry
+    \paper {
+      top-system-spacing.basic-distance = #10
+      top-system-spacing.minimum-distance = #10
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #10
+      markup-system-spacing.minimum-distance = #10
+      system-system-spacing.basic-distance = #16.5
+      system-system-spacing.minimum-distance = #16.5
+      systems-per-page = #4
+    }
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \setGroupDistance #10 #10 } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \B-VISanctusViolinoI
+              \B-VIBenedictusViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \B-VISanctusViolinoII
+              \B-VIBenedictusViolinoII
             }
           >>
         >>
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \B-VISanctusSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \B-VISanctusSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \B-VISanctusAlto }
-          }
-          \new Lyrics \lyricsto Alto \B-VISanctusAltoLyrics
-
+        \new ChoirStaff \with { \setGroupDistance #11 #12 } <<
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \B-VISanctusTenore }
+            \new Voice = "Tenore" { \dynamicUp \B-VIBenedictusTenore }
           }
-          \new Lyrics \lyricsto Tenore \B-VISanctusTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \B-VISanctusBasso }
-          }
-          \new Lyrics \lyricsto Basso \B-VISanctusBassoLyrics
+          \new Lyrics \lyricsto Tenore \B-VIBenedictusTenoreLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \B-VISanctusOrgano
+            \B-VIBenedictusOrgano
           }
         >>
-        \new FiguredBass { \B-VISanctusBassFigures }
+        \new FiguredBass { \B-VIBenedictusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 50 } % 90 – 140
+      \midi { \tempo 4 = 60 }
     }
   }
 }

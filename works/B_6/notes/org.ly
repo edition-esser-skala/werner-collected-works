@@ -953,3 +953,45 @@ B-VISanctusBassFigures = \figuremode {
   <9> \bc <[8]>2.
   r1 %72 finis
 }
+
+B-VIBenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key h \minor \time 3/4 \tempoB-VIBenedictus
+    \mvTr h8\pE-\solo h'16 ais h8 fis d ais
+    h h'16 a h8 g e g
+    a, a'16 g a8 fis d fis
+    g, g'16 fis g8 e cis a
+    d d'16 cis h8 fis h a16 g %5
+    fis8 e16 d cis8 h16 a h8 cis
+    d h e d e e,
+    a a'4 g!8 fis cis
+    d d16 e fis8 fis16 e fis8 d
+    r g16 a h8 g16 fis g8 e %10
+    r a16 g a8 a, fis' cis
+    d g a g a a,
+    d \mvTr d'16\fE-\unisonoE cis d8 h16 a h8 g16 fis
+    g8 e16 d e8 cis a16 a' g a
+    fis d' cis d h8 g a a, %15
+    d4 r r\fermata \markOsannaUtSupra \bar "||" %16 finis
+  }
+}
+
+B-VIBenedictusBassFigures = \figuremode {
+  r4. <_+>8 <6> <[6]>
+  r4. <6>
+  <9>8 <8>4 <6>4.
+  <9>8 <8>4 <6\\>4.
+  r2. %5
+  <6>8 <6\\>16 <6> <6>4 q
+  r <4> <_+>
+  r2 \bo <[6]>8 \bc q
+  r2.
+  r2 <6>4 %10
+  r8 <_+>4. \bo <[6]>8 \bc q
+  r4 <6 4> <5 _+>
+  r2.
+  r
+  r2 <4>8 <_+> %15
+  r2. %16 finis
+}

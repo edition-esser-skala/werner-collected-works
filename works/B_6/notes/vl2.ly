@@ -421,3 +421,25 @@ B-VISanctusViolinoII = {
     fis1\fermata \bar "|." %72 finis
   }
 }
+
+B-VIBenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key h \minor \time 3/4 \tempoB-VIBenedictus
+    d'16(\p cis) d8 r4 r
+    r r8 e,16 fis g a h8~
+    h e, r d16 e fis g a8~
+    a d, r e4 a8~
+    a fis d4 r %5
+    R2.*2
+    r8 cis16 h \once \slurDashed a( gis) a8 r4
+    r r8 a'16 g! a fis d8
+    g4 r8 h16 a h8 g16 e %10
+    cis8 a r cis' d a
+    fis'16 d, d8\trill r4 r
+    r8 d'16\f cis d8 h16 a h8 g16 fis
+    g8 e16 d e8 cis a16 a' g a
+    fis d' cis d h8 g16 h a8 a, %15
+    d4 r r\fermata \markOsannaUtSupra \bar "||" %16 finis
+  }
+}
