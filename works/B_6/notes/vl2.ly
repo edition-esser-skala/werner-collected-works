@@ -443,3 +443,57 @@ B-VIBenedictusViolinoII = {
     d4 r r\fermata \markOsannaUtSupra \bar "||" %16 finis
   }
 }
+
+B-VIAgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoB-VIAgnus
+    r2 d'4.\p d8
+    d a fis a d,4 r
+    r8 fis' fis fis r fis, fis fis
+    h,4 r r8 gis' gis gis
+    cis,!4-\critnote r r2 %5
+    R1*3
+    r2 r16 h''\f h16. fis32 fis16. dis32 dis16. h32
+    h8\p h4 d8 r c4 fis8 %10
+    r d4 g,8 r h4 d8
+    r e,4 c'8 r fis,4 a8
+    r d,4 h'8 r g4 e'8
+    r fis,4 a8 r fis4 dis'8
+    r h r h r cis! \once \slurDashed ais16(\trill gis) \hA ais8 %15
+    fis d' cis ais fis d4 e8
+    d4 cis\trill h r
+    r8 d'4\fE e8 d cis d cis
+    d16 fis8 a16 fis d8 fis16 h, g'8 h16 g h,8 e16
+    a, cis8 e16 a, d8 fis16 e cis8 a16 h8 cis %20
+    d16 cis d8 r c h g d'4~ \noBreak
+    d8 cis h4 cis r\fermata \bar "||"
+    \tempoB-VIDona R1*2
+    a4.\fE fis'8 e4 gis, %25
+    a8 h16 cis d e fis8 e4 gis,
+    a8 e cis a r4 h'16 cis d8
+    e4 cis16 d e8~ e d4 cis8~
+    cis h4 ais8 h16 fis h4 ais8
+    h16 fis h8~ h16 cis8 a16~ a h8 g16 e( ais) ais( fis) %30
+    d h fis'' e d cis h8 r e16 d cis h a8
+    r d e d cis a r4
+    r8 a4 fis'8 e cis a4
+    r8 h8.[ cis16 d8] e a, a16 h cis8
+    d16 e fis8 e d cis4 r8 cis %35
+    d16 e fis8 r h, cis16 d e8 r a,
+    h16 cis d8 r e d4. c8~
+    c h a4 h8 d16 c h a g8
+    a16 g a8 d,4 r8 d' e16 fis g8
+    a,16-\critnote g a8 d,4 r2 %40
+    r4 d'4. cis!16 d e8 g,
+    fis d r d'4 cis16 d e8 g,
+    fis16 e fis8~ fis16 gis a8 h \hA gis~ gis16 a h8
+    cis a~ a16 h cis8 d h~ h16 cis d8
+    e cis~ cis16 d e8 d e4 d8 %45
+    cis4~ cis16 d e8 d4 h16 cis d8
+    cis4 a16 h cis8 d4. cis8
+    d16( a) h( d) e( h) cis( e) fis( cis) d( fis) g( h,) h( e)
+    e( cis) a( d) d8 cis d16 fis8 a16 cis, e8 a16
+    fis8 r r4 r2\fermata \bar "|." %50 finis
+  }
+}

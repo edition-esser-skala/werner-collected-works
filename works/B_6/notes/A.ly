@@ -674,3 +674,90 @@ B-VISanctusAltoLyrics = \lyricmode {
   cel --
   sis. %72 finis
 }
+
+B-VIAgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoB-VIAgnus
+    R1*4
+    r8 \mvTr e!4\pE^\soloE e8 e([ dis)] dis4 %5
+    r d8 d d([ cis)] cis4
+    r a'8 a h([ h,)] h4
+    h8( e4) cis8 a( d4) h8
+    \ottava #-1 g4.( fis16[ e]) fis4 \ottava #0 r
+    R1*8 %17
+    \mvTr fis'4.\fE^\tutti a8 fis([ e)] d e
+    fis fis r fis g g r g
+    g g fis4 e r %20
+    r8 d e fis g8.([ a16)] h8 a \noBreak
+    gis a a([ \hA gis)] a4 r\fermata \bar "||"
+    \tempoB-VIDona R1*2
+    r4 \mvTr a4.(\fE^\tuttiE gis16[ a] \once \stemUp h8) d, %25
+    cis a r a'4( gis16[ a] \once \stemUp h8) d,
+    cis a16([ h)] cis([ d e8)] fis h,16([ cis] d[ e]) fis8
+    g([ cis,16 d] e[ fis)] g8 a16[ g a fis] g[ fis g e]
+    fis[ e fis d] e[ d e cis] d4 cis
+    h r r2 %30
+    r8 d4 e16([ fis)] g8 h, cis[ d16 e]
+    fis[ g a8]~ a16[ g8 fis16] e4 r
+    r8 a16[ g] fis[ e d8] cis16[ a cis d] e[ fis g8]
+    a[ h,16 cis] d[ e fis8] g[ a,16 h] cis[ d e8]
+    fis16[ g a8]~ a16[ g fis8] e eis fis4~ %35
+    fis8[ dis] e4. cis8 d4~
+    d8[ h] c4. h8 e4
+    d d d g~
+    g8[ fis16 g] a8 c, h g r g'~
+    g[ fis16 g] a8 c, h g d'([ \hA c16 h)] %40
+    a([ g a8)] r4 e'~ e16[ cis d e]
+    a,4 h16[ cis d8] e4~ e16[ cis d e]
+    a,8 a8.[ h16 cis8] d8[ h]~ h16[ cis d8]
+    e[ cis]~ cis16[ d e8] fis[ d]~ d16[ e fis8]
+    g[ e]~ e16[ fis g8] a e fis4 %45
+    e8 cis16([ d] e[ fis g8)] a h,16([ cis] d[ e fis8)]
+    g a,16([ h] cis[ d e8] fis) g e4
+    fis8 r r4 r2
+    a8 fis e4 fis8 r a r
+    a r r4 r2\fermata \bar "|." %50 finis
+  }
+}
+
+B-VIAgnusAltoLyrics = \lyricmode {
+  Mi -- se -- re -- re, %5
+  mi -- se -- re -- re,
+  mi -- se -- re -- re,
+  mi -- se -- re -- re
+  no -- bis.
+
+  A -- gnus De -- i, qui %18
+  tol -- lis, qui tol -- lis pec --
+  ca -- ta mun -- di, %20
+  pec -- ca -- ta mun -- di, pec --
+  ca -- ta mun -- di:
+
+  No -- bis %25
+  pa -- cem, do -- na
+  no -- bis pa -- cem, do -- na
+  no -- bis pa -- _
+  _ _ cem, pa --
+  cem, %30
+  do -- na no -- bis pa --
+  _ cem,
+  pa -- _ _ _
+  _ _ _ _
+  _ \xE cem, pa -- _ %35
+  _ _ _
+  _ _ _
+  \x cem, pa -- cem, no --
+  _ bis pa -- cem, do --
+  _ na no -- bis pa -- %40
+  cem, __ pa --
+  cem, pa -- _
+  cem, \xE no -- _
+  _ _
+  _ _ \x bis pa -- %45
+  cem, do -- na no --
+  bis pa -- cem, pa --
+  cem,
+  pa -- cem, pa -- cem, pa --
+  cem. %50 finis
+}

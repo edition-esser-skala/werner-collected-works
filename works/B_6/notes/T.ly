@@ -691,3 +691,99 @@ B-VIBenedictusTenoreLyrics = \lyricmode {
   mi -- ne Do -- mi --
   ni. %13 finis
 }
+
+B-VIAgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoB-VIAgnus
+    \mvTr d4.\pE^\solo d8 d[( a)] fis a
+    d,4 d r8 d16([ fis)] fis([ a)] a([ h)]
+    c4 a8 fis dis dis dis4
+    e8 e' h g eis2
+    fis4 r h4. fis'8 %5
+    fis e r4 a,4. e'8
+    e([ d)] d4 r dis8 dis
+    e e cis cis d d h4~
+    h ais\trill h r
+    R1*8 %17
+    \mvTr a4.\fE^\tutti cis8 a a4 a8
+    a a r a h g r e'
+    a, a a4 a8 a g e %20
+    fis4 g8([ a)] d, d'16([ c)] h8 d \noBreak
+    e2 e4 r\fermata \bar "||"
+    \tempoB-VIDona r4 \mvTr d4.(\fE^\tutti cis16[ d] e8) g, \noBreak
+    fis d r d'4( cis16[ d] e8) g,
+    fis d r d' h4 e~ %25
+    e8[ cis] a d( h4. gis8)
+    e4 a~ a16[ fis] d8 h'4~
+    h16[ g] e8 cis'8.[ h16] a8 h4 a8~
+    a[ h] cis16[ h cis ais] fis8 d([ g fis)]
+    fis4 r r2 %30
+    r4 r8 h16([ a] g[ fis)] e8 r a16([ g]
+    fis[ e]) d8 a'4 a8 a4 fis'8
+    e([ cis)] a4 r8 e'16([ d] cis8[ h)]
+    a r h a g( a4) g8
+    fis16([ e d8] a'4) a r8 cis~ %35
+    cis h r h4 a8 r a~
+    a g r g( a) h g[ a]~
+    a g4 fis8 g g4 e'8
+    d4 fis, g8[ a16 h] c[ d e8]
+    d4 fis, g8 h16[ a] h8[ g]~ %40
+    g[ fis16 e] fis4 r8 a4( e8)
+    fis4 r r8 a4( e8)
+    fis4 fis4. gis16[ fis] \hA gis4~
+    gis8[ a16 \hA gis] a4. h16[ a] h4~
+    h8[ cis16 h] cis4 a a %45
+    a8 a16([ h] cis[ d e8)] fis g,16([ a] h[ cis d8)]
+    e fis,16([ g] a4.) h8 a4
+    a8 r r4 r2
+    a8 a a4 a8 r cis r
+    d r r4 r2\fermata \bar "|." %50 finis
+  }
+}
+
+B-VIAgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di, pec -- ca -- ta mun --
+  di, pec -- ca -- ta mun --
+  di: Mi -- se -- %5
+  re -- re, mi -- se --
+  re -- re, mi -- se --
+  re -- re, mi -- se -- re -- re no --
+  _ bis.
+
+  A -- gnus De -- i, qui %18
+  tol -- lis, qui tol -- lis pec --
+  ca -- ta mun -- di, pec -- ca -- ta, %20
+  pec -- ca -- ta, pec -- ca -- ta
+  mun -- di:
+  Do -- na
+  no -- bis, do -- na
+  no -- bis pa -- _ _ %25
+  cem, pa --
+  cem, do -- na no --
+  bis pa -- _ _ _
+  _ cem, pa --
+  cem, %30
+  do -- na no --
+  bis pa -- cem, do -- na
+  no -- bis pa --
+  cem, do -- na no -- bis
+  pa -- cem, pa -- %35
+  cem, pa -- cem, pa --
+  cem, no -- bis pa --
+  _ _ cem, do -- na
+  no -- bis pa -- _
+  _ _ cem, pa -- _ %40
+  cem, no --
+  bis pa --
+  cem, pa -- _ _
+  _ _ _
+  _ cem, pa -- %45
+  cem, do -- na no --
+  bis pa -- cem, pa --
+  cem,
+  pa -- cem, pa -- cem, pa --
+  cem. %50 finis
+}

@@ -781,13 +781,89 @@ B-VISanctusSopranoLyrics = \lyricmode {
   sis. %72 finis
 }
 
+B-VIAgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoB-VIAgnus
+    R1*4
+    r2 r8 \mvTr a'!4\pE^\soloE a8 %5
+    a([ gis)] gis4 r8 g4 g8
+    g([ fis)] fis4 r fis8 fis
+    g g e e fis4 d
+    e2\trill dis4 r
+    R1*8 %17
+    \mvTr d'4.\fE^\tutti e8 d([ cis)] d cis
+    d d r d d h r h
+    e e d4 cis8 a h cis %20
+    d16([ cis)] d8 r4 r8 g, d'4~ \noBreak
+    d8 cis! h4 cis r\fermata \bar "||"
+    \tempoB-VIDona R1*2
+    \mvTr a4.\fE^\tuttiE fis'8 e4 gis, %25
+    a8[ h16 cis] d[ e fis8] e4 gis,
+    a8 cis16([ d] e8) a,4 r8 h16([ cis d8)]
+    e4 cis16[ d] e4 d cis8~
+    cis h4 ais8 h16([ fis] \once \stemUp h4 ais8)
+    h4 r r2 %30
+    r8 fis'16([ e] d[ cis)] h8 r e16([ d] cis[ h)] a8
+    r d([ e d)] cis4 r
+    r8 a4 fis'8 e([ cis)] a4
+    r8 h8.([ cis16 d8)] e r a,16([ h cis8]
+    d16[ e fis8] e[ d]) cis4 r8 cis8 %35
+    d16[ e fis8] r h, cis16[ d e8] r a,
+    h16[ cis d8] r e d4. c8~
+    c h a4 h8 d16([ c] h_[ a]) g8
+    a16([ g a8)] d,4 r8 d'([ e)] g,
+    a16([ g a8)] d,4 r2 %40
+    r4 d'4.( cis!16[ d] e8) g,
+    fis d r d'4( cis16[ d] e8) g,
+    fis16[ e fis8]~ fis16[ gis a8] h[ \hA gis]~ gis16[ a h8]
+    cis[ a]~ a16[ h cis8] d[ h]~ h16[ cis d8]
+    e[ cis]~ cis16[ d e8] d e4 d8 %45
+    cis4 cis d h
+    cis a16([ h cis8] d4. cis8)
+    d r r4 r2
+    e8( d4 cis8) d r e r
+    fis r r4 r2\fermata \bar "|." %50 finis
+  }
+}
 
+B-VIAgnusSopranoLyrics = \lyricmode {
+  Mi -- se -- %5
+  re -- re, mi -- se --
+  re -- re, mi -- se --
+  re -- re, mi -- se -- re -- re
+  no -- bis.
 
+  A -- gnus De -- i, qui %18
+  tol -- lis, qui tol -- lis pec --
+  ca -- ta mun -- di, pec -- ca -- ta %20
+  mun -- di, pec -- ca --
+  ta mun -- di:
 
-
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+  Do -- na no -- bis %25
+  pa -- _ _ _
+  cem, pa -- cem, no --
+  bis pa -- _ _ _
+  _ cem, pa --
+  cem, %30
+  do -- na no -- bis
+  pa -- cem,
+  do -- na no -- bis
+  pa -- cem, pa --
+  cem, pa -- %35
+  _ _ _ _
+  _ _ _ _
+  cem, pa -- cem, do -- na
+  no -- bis, no -- bis
+  pa -- cem, %40
+  no -- bis
+  pa -- cem, do -- na
+  pa -- _
+  _ _
+  _ _ _ _ %45
+  cem, do -- na no --
+  bis pa --
+  cem,
+  pa -- cem, pa --
+  cem. %50 finis
+}

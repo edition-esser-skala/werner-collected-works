@@ -25,6 +25,8 @@ tempoB-VISanctus = \tempoMarkup "Largo"
   tempoB-VIPleni = \tempoMarkup "Passato"
   tempoB-VIOsanna = \tempoMarkup "Osanna · Presto"
 tempoB-VIBenedictus = \tempoMarkup "Tempo giusto"
+tempoB-VIAgnus = \tempoMarkup "Largo"
+  tempoB-VIDona = \tempoMarkup "Allegro"
 
 \include "notes/org_solo.ly"
 \include "notes/vl1.ly"
