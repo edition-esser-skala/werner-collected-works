@@ -1,0 +1,17 @@
+title: Vesperæ brevissimæ de Confessoribus
+id: WerW H.1.17
+genre: vesper
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: G 79
+    rism: 600038324
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/1033.html
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 9 & vl & 13th \sixteenthNote\ in \B1: c″16 \\
+  2 & 3 & A  & 7th \eighthNote\ in \B1: \sharp f′8 \\
