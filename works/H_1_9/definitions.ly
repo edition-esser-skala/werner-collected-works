@@ -1,9 +1,20 @@
 \version "2.24.0"
 
+tupletSlurOn = {
+  \override TupletBracket.tuplet-slur = ##t
+  \override TupletBracket.bracket-visibility = ##t
+}
+
+tupletSlurOff = {
+  \override TupletBracket.tuplet-slur = ##f
+  \override TupletBracket.bracket-visibility = ##f
+}
+
 tempoH-I-IX-a = \tempoMarkup "Andante"
 tempoH-I-IX-b = \tempoMarkup "Andante"
-tempoH-I-IX-c = \tempoMarkup "Presto"
-tempoH-I-IX-d = \tempoMarkup "Allegro / Vivace"
+tempoH-I-IX-c = \tempoMarkup "Presto moderato"
+tempoH-I-IX-d = \tempoMarkup "Vivace"
+tempoH-I-IX-e = \tempoMarkup "Alla capella"
 tempoH-I-IX-f = \tempoMarkup "Andante"
   tempoH-I-IX-fb = \tempoMarkup "Allegro"
 

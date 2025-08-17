@@ -5,10 +5,10 @@ H-I-IX-aSoprano = {
     \clef treble
     \key d \dorian \time 4/4 \autoBeamOff \tempoH-I-IX-a
     r2 r4 \mvTr d'~\pE^\solo
-    d8 cis16 h? cis([ h)] cis8 d d r4
+    d8 cis16 h \hA cis([ h)] \hA cis8 d d r4
     r r8 c4 b16 a g8 f
     f16([ e)] e8 r4 r8 c'4 h8
-    c a g4 c, r %5
+    c a g4 f^\critnote r %5
     r2 r8 c'4 h!8
     c a g4 f8 b4 a8
     g16([ f)] g8 r4 r8 d'4 c8
@@ -38,12 +38,12 @@ H-I-IX-aSoprano = {
     R1
     \mvTr c8\fE^\tutti c16 c c4 c r8 d
     e d d cis d d4 d8
-    h c16 c c8([ h)] c \mvTr g4\pE^\aTre g8 %40
+    h c16 c c8([ h)] c g4^\aTre g8 %40
     a a e e f8. g16 a8 a
     b b b([ a)] g g4 a8
     c c16 c c8 c d b g4
     a r r2
-    r r4 \mvTr d8[\fE^\tuttiE h!16 d] %45
+    r r4 d8[^\tutti h!16 d] %45
     e8[ c16 e] f8[ d16 f] g[ f e8] d[ e]
     f f, c'4. c8 d4
     c b a r
@@ -117,8 +117,8 @@ H-I-IX-bSoprano = {
     f d b2 d %5
     g,4 b es2 c4( b)
     a2 b4 c d es
-    f2. es4 \tuplet 3/2 2 { d es f
-    es( d c) } b2( c)\trill
+    \tupletSlurOn \tupletUp f2. es4 \tuplet 3/2 2 { d es f
+    es d c } b2( c)\trill \tupletSlurOff \tupletNeutral
     b r r %10
     R1.*19 %29
     r2 \mvTr b\fE^\tutti b %30
@@ -127,7 +127,7 @@ H-I-IX-bSoprano = {
     a b4( f b2)
     a4 c f f d f
     b, d g, g r g %35
-    c c a8([ b c a] b4) d
+    c c a8([ b c a] \once \stemUp b4) d
     g,( es'2) d8 d b2
     a r r
     R1.*5 %43
@@ -144,8 +144,8 @@ H-I-IX-bSoprano = {
     es2 es4 f g as
     b!( g) es2 es' %55
     c c4 b as c
-    b2 b4 as g8([ as] b4)
-    c8([ b] as4) g2( f4.)\trill f8
+    b2 b4 as g8([ \hA as] \once \stemUp b4)
+    c8([ b] as4) g2( f4.)\trill es8
     es2 r r
     R1.*5 %64
     r2 r d'4 d %65
@@ -155,16 +155,16 @@ H-I-IX-bSoprano = {
     c c f f b,4. b8
     es4 es2 d4 c2 %70
     d4 d c d es d8[ c]
-    d4 e f4. e16[ d] c2
+    d4 e f4. \hA e16[ d] c2
     d4( c) c r r2
     r4 d c d es! d8[ c]
     d4 c8[ b] c4 b8[ a] b4 c %75
     a2 g4 b a b
-    c b8[ a] b2. b4
+    c b8_[ a] b2. b4
     c( b) b b( es d8[ c])
     d4 d c d es d8[ c]
     d4 e f d c2 %80
-    d4 b( c b8[ a]) b2\fermata \bar "|." %81 finis
+    d4 b( c b8_[ a]) b2\fermata \bar "|." %81 finis
   }
 }
 
@@ -177,7 +177,7 @@ H-I-IX-bSopranoLyrics = \lyricmode {
   si -- li -- o iu --
   sto -- rum, et con -- gre --
   ga -- _ _ _ _
-  ti -- o --
+  ti -- _ _ o --
   ne. %10
 
   Me -- mor %30
@@ -245,13 +245,13 @@ H-I-IX-cSoprano = {
     g,4 c b8([ d)] c([ b)]
     a([ c)] b([ a)] g([ b)] a([ g)]
     f([ a)] g([ f)] e e f4~ %15
-    f e f \mvTr \mvTr c'\pE^\aTre
+    f e f \mvTr c'\pE^\soloE^\aTre
     c f c a
     r c a f
     r a d8 d d d
-    c g^\critnote c2( h4) %20
+    c g c2( h4) %20
     c c8 c cis4. cis8
-    d4 d h8([ g)] h d
+    d4 d h8([ g)] \hA h d
     g,4 g c2
     h8 h a2( gis4)
     a r r2 %25
@@ -262,7 +262,7 @@ H-I-IX-cSoprano = {
     R1 %30
     r8 c4 c8 f,([ g a h)]
     c4 r a a
-    c b8 a g c, c'4~
+    c b!8 a g c, c'4~
     c c8 c c c d4
     c4. c8 c4 \mvTr a\pE^\solo %35
     d4. d8 cis4 e
@@ -279,7 +279,7 @@ H-I-IX-cSoprano = {
     b!8([ c d e)] f4 r
     r d c f
     b,4. b8 a4 d %50
-    cis8 cis d2 cis4
+    cis8 cis d2 \hA cis4
     d \mvTr d2\fE^\tutti c4
     c4. c8 a4 f'~
     f d2 b4~
@@ -310,8 +310,8 @@ H-I-IX-cSoprano = {
     R1*4 %82
     r2 g4 c8 c
     a f a4 g8. g16 g4
-    r8 c4 c8 f, f b4 %85
-    b( a) g8 \mvTr c4\fE^\tuttiE c8
+    r8 c4^\aTre c8 f, f b4 %85
+    b( a) g8 c4^\tutti c8
     c c a a b8. b16 b8 b
     d b a4 g8 b4 b8
     g g16 g c8 c a a r4
@@ -456,12 +456,12 @@ H-I-IX-dSoprano = {
     c4( h8.) a16 a4 r
     R1
     r4 r8 \mvTr g\pE^\solo g c c a
-    d8. c16 h8 c16(^[ h] a[ gis a8)] gis8 gis
+    d8. c16 h8 c16(^[ h] a[ gis a8)] \hA gis8 gis
     a h16([ c)] d8 c16([ h)] c([ h)] c8 r4 %20
     R1*4
     r4 h8 cis d d16 d e8 d16 d %25
-    d8(^\critnote cis16) cis d4 r g,8 e
-    f? g16 g a8 g16 g g8([ fis)] g4
+    d8( cis16.) cis32 d4 r g,8 e
+    f g16 g a8 g16 g g8([ fis)] g4
     R1
     r2 r4 a~
     a gis8 h c a r4 %30
@@ -530,6 +530,132 @@ H-I-IX-dSopranoLyrics = \lyricmode {
   men. %46 finis
 }
 
+H-I-IX-eSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/2 \autoBeamOff \tempoH-I-IX-e
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve*3
+    r1 r2 e'
+    a,4( c) h( a) g fis e2~ %5
+    e dis e1
+    R\breve*2
+    r2 a f' e4( d)
+    c d e1 dis2 %10
+    e h a1
+    g1. g2
+    g1 r
+    R\breve*2 %15
+    e'2 e4 e d2 g,
+    c d h4 g c2~
+    c h c a
+    h c2.( a4) c2
+    h h e d4( c) %20
+    h2 a4 g a( h c d)
+    g,2 g f f
+    e( a2.) a4 g2
+    g( fis) g1
+    R\breve %25
+    r2 c h a4 g
+    a2. a4 g2 c~
+    c4 h8[ a] h2 c e~
+    e c1 d2~
+    d h1 c2~ %30
+    c a1 h2~
+    h c h1
+    a2 c2. c4 c2
+    c1 h2 h
+    d2. d4 c2 c %35
+    e1 dis4 dis e2
+    e( dis) e1
+    r h~
+    h2 a d2. d4
+    d2 c h2. h4 %40
+    a2 r r1
+    R\breve
+    r1 e'
+    d2 c4( h) c2 h4( a)
+    h2 cis d a4 h %45
+    c( e) d( c) h e, e'2~
+    e d e1
+    R\breve*3 %50
+    r1 a,2 a
+    c2. c4 h2. cis4
+    d a d1( cis2)
+    d1 r4 f( c d)
+    e2 r r4 g d e %55
+    f d f2 e1
+    r r4 d( a h
+    c g) c2 r4 e( h cis
+    d a) d2 r4 e( c d
+    e2 e,) e1 %60
+    r4 e'( c d) e2 r
+    r4 a, f g a2. g4
+    f1. e4 d
+    e\breve\fermata \bar "|." %64 finis
+  }
+}
+
+H-I-IX-eSopranoLyrics = \lyricmode {
+  Lau -- %4
+  da -- te __ Do -- _ _ %5
+  mi -- num,
+
+  lau -- da -- te __ %9
+  e -- um po -- pu -- %10
+  li, o -- mnes
+  po -- pu --
+  li.
+
+  Quo -- ni -- am con -- fir -- %16
+  ma -- ta, con -- fir -- ma --
+  ta est su --
+  per, su -- per
+  nos mi -- se -- ri -- %20
+  cor -- di -- a e --
+  ius, mi -- se -- ri --
+  cor -- di -- a
+  e -- ius,
+  %25
+  et ve -- ri -- tas
+  Do -- mi -- ni, Do --
+  _ mi -- ni ma --
+  net, ma --
+  net, ma -- %30
+  net in __
+  ae -- ter --
+  num. Glo -- ri -- a
+  Pa -- tri et
+  Fi -- li -- o et %35
+  Spi -- ri -- tu -- i
+  San -- cto,
+  si --
+  cut e -- rat
+  in prin -- ci -- pi -- %40
+  o
+
+  et
+  nunc et __ sem -- per
+  et in sae -- cu -- la %45
+  sae -- cu -- lo -- _ _
+  _ rum,
+
+  et in %51
+  sae -- cu -- la, in
+  sae -- cu -- lo --
+  rum, a --
+  men, a -- _ _ %55
+  _ _ _ men,
+  a --
+  men, a --
+  men, a --
+  men, %60
+  a -- men,
+  a -- _ _ _ _
+  _ _ _
+  men. %64 finis
+}
+
 H-I-IX-fSoprano = {
   \relative c' {
     \clef treble
@@ -545,7 +671,7 @@ H-I-IX-fSoprano = {
     r4 \mvTr d8\fE^\tutti d e cis a d
     h a a4 a r
     R1*2
-    r8 \mvTr cis\pE^\solo cis cis d16([ cis)] h8 h([ ais)] %15
+    r8 \mvTr cis\pE^\solo^\aTreE cis cis d16([ cis)] h8 h([ ais)] %15
     h4 r r2
     R1*6 %22
     r2 r8 a a4~
@@ -557,19 +683,19 @@ H-I-IX-fSoprano = {
     r ais h4 cis8 h h([ ais)]
     h4 r r2 %30
     R1*5 %35
-    \mvTr a4\pE^\solo d8 a h([ dis)] fis dis
-    h8. g16 e4 r8 a4 d8
+    \mvTr a4\pE^\solo d8 a h([ dis)] fis \hA dis
+    h8. g16 e4 r8 a4^\aTreE d8
     h8. h16 cis8 d4 cis8 r4
     \after 4*6 \tempoH-I-IX-fb R1*4 %42
     r2 \mvTr a4\fE^\tutti a
     a a8 a d fis, g([ a)]
-    d, d'4 h8 a([ h)] a d(
+    d, d'4 h8 a([ h)] a d( %45
     a16[ h]) cis8 h([ cis)] d4 r8 e
     d[ cis16 h] cis8[ h16 a] h8[ cis] d fis
     e[ d16 cis] d8[ cis16 h] cis[ a cis d] e[ h8 cis16]
     d8[ cis16 h] cis8[ h16 a] h8[ cis] d16[ a d8]~
-    d[ cis16 h] cis4 d8 d4( cis8)
-    d4 r r2\fermata \bar "|."
+    d[ cis16 h] cis4 d8 d4( cis8) %50
+    d4 r r2\fermata \bar "|." %51 finis
   }
 }
 

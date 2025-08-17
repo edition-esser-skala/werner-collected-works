@@ -146,6 +146,41 @@
     }
   }
   \bookpart {
+    \section "5" "Laudate Dominum"
+    \addTocEntry
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \H-I-IX-eSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \H-I-IX-eSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \H-I-IX-eAlto }
+          }
+          \new Lyrics \lyricsto Alto \H-I-IX-eAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \H-I-IX-eTenore }
+          }
+          \new Lyrics \lyricsto Tenore \H-I-IX-eTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \H-I-IX-eBasso }
+          }
+          \new Lyrics \lyricsto Basso \H-I-IX-eBassoLyrics
+        >>
+        \new Staff { \H-I-IX-eOrgano }
+        \new FiguredBass { \H-I-IX-eBassFigures }
+      >>
+    }
+  }
+  \bookpart {
     \section "6" "Magnificat"
     \addTocEntry
     \score {

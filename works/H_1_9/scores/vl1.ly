@@ -9,7 +9,7 @@
   \bookpart {
     \section "1" "Dixit Dominus"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { system-count = #12 }
     \score {
       <<
         \new Staff { \H-I-IX-aViolinoI }
@@ -19,7 +19,7 @@
   \bookpart {
     \section "2" "Confitebor"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { system-count = #12 }
     \score {
       <<
         \new Staff { \H-I-IX-bViolinoI }
@@ -41,6 +41,16 @@
     \score {
       <<
         \new Staff { \H-I-IX-dViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Laudate Dominum"
+    \addTocEntry
+    \paper { system-count = #13 }
+    \score {
+      <<
+        \new Staff { \H-I-IX-eViolinoI }
       >>
     }
   }

@@ -47,6 +47,17 @@
     }
   }
   \bookpart {
+    \section "5" "Laudate Dominum"
+    \addTocEntry
+    \paper { system-count = #15 }
+    \score {
+      <<
+        \new Staff { \H-I-IX-eOrgano }
+        \new FiguredBass { \H-I-IX-eBassFigures }
+      >>
+    }
+  }
+  \bookpart {
     \section "6" "Magnificat"
     \addTocEntry
     \score {

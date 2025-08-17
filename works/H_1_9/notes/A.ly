@@ -16,8 +16,8 @@ H-I-IX-aAlto = {
     g16([ f)] f8 r a a16([ g)] g8 r g~ %10
     g16 g f8 e4 d8 \mvTr f\fE^\tutti f e
     f f f([ e)] f f g f
-    e8. e16 fis8 g fis fis r4
-    g16 fis g g g8 fis g g r4
+    e8. e16 fis8 g \hA fis fis r4
+    g16 fis g g g8 \hA fis g g r4
     f16 e f f f8 e f f r f %15
     f8. f16 f8 f g d g4~
     g16 g f8 e4 d r
@@ -37,19 +37,19 @@ H-I-IX-aAlto = {
     R1
     \mvTr f8\fE^\tutti f16 f f8([ e)] f4 r8 f
     e f e8. e16 d8 f4 f8
-    d e16 e d4 e8 \mvTr e4\pE^\aTreE e8 %40
+    d e16 e d4 e8 e4^\aTre e8 %40
     f f cis cis d8. e16 f8 f
     g g g([ f)] e e4 f8
     g g16 g a8 f f f f([ e)]
-    f r \mvTr g[\fE^\tuttiE e16 g] a8[ f16 a] b8[ g16 b]
-    c[ b] a8 g[( c16 b] a[ b a g)] f4 %45
+    f r g[^\tutti e16 g] a8[ f16 a] b8[ g16 \hA b]
+    c[ b] a8 g[( c16 \hA b] a[ \hA b a g)] f4 %45
     g8.([ e16 a8. f16)] d8 g([ f g)]
     c,4 g'8[ e16 g] a8[ f16 a] b4~
     b8 a g4~ g16[ a f g] e4
     r8 d~ d16[ cis e8]~ e16[ d f8]~ f16[ e e d]
     c8[ a16 e'] f8.[ d16] gis8 a4 g8~ %50
     g f e[ cis16 e] f8[ d16 f] g8[ e16 cis]
-    a8[ a'16 f] d[ b' g e] cis8 d4( cis8)
+    a8[ a'16 f] d[ b' g e] cis8 d4( \hA cis8)
     d4 r r2\fermata \bar "|." %53 finis
   }
 }
@@ -110,9 +110,9 @@ H-I-IX-bAlto = {
     R1.*21 %21
     r4 \mvTr d\pE^\solo d2 cis4 e
     f d f2. a4
-    d,2. c4 g' b,
+    d,2. c!4 g' b,
     a2 a4 b c d8([ e)] %25
-    f4 e8([ d)] c4 e g b,
+    f4 e8([ d)] c4 \hA e g b,
     a2 a4 a b c
     d1~ d8[ e fis d]
     g4 es b2 a8([ g)] a4
@@ -130,7 +130,7 @@ H-I-IX-bAlto = {
     es4 f \tuplet 3/2 4 { g8([ f es]) } d([ c)] h2
     c r r
     r4 b'! b a a g %45
-    g fis8 fis g([ fis)] g([ a)] g4( fis)
+    g fis8 fis g([ \hA fis)] g([ a)] g4( \hA fis)
     g \mvTr g\fE^\tutti f f f g
     g g f f8 f f2
     f4 c d es f g
@@ -152,10 +152,10 @@ H-I-IX-bAlto = {
     a g2 fis4 g g~ %75
     g fis g g fis g
     a g8[ fis] g4 g f g
-    as g8[ f] g4 f( g) f~
+    as g8[ f] g4 f( g f)
     f f2 f4 g f~
-    f g( a) f \once \tieDashed f2~ %80
-    f4 es8([ d)] g4( f) f2\fermata \bar "|." %81 finis
+    f g( a) f f2 %80
+    f4 es8([ d] g4 f) f2\fermata \bar "|." %81 finis
   }
 }
 
@@ -204,8 +204,8 @@ H-I-IX-bAltoLyrics = \lyricmode {
   _ _ men, a -- %75
   _ men, a -- _ _
   _ _ men, a -- _ _
-  _ _ men, a -- men, __
-  a -- men, a -- men, __
+  _ _ men, a --
+  men, a -- men, a -- men, __
   a -- men, a -- %80
   men, a -- men. %81 finis
 }
@@ -214,7 +214,7 @@ H-I-IX-cAlto = {
   \relative c' {
     \clef treble
     \key f \major \time 4/4 \tempoH-I-IX-c \autoBeamOff
-    r4 \mvTr f2\fE^\tuttiE g4
+    r4 \mvTr f2\fE^\tutti g4
     e f r2
     c d4 h
     c2 r
@@ -223,13 +223,13 @@ H-I-IX-cAlto = {
     d4. d8 e4 c
     d e f2
     e4 r g4. g8
-    fis4( g2) fis4 %10
+    fis4( g2) \hA fis4 %10
     g g2 f4
     f e f g
     e f d es
     f4. f8 e2
     d c4. d8 %15
-    c2 c4 \mvTr a'\pE^\aTre
+    c2 c4 \mvTr a'\pE^\solo^\aTre
     a a a f
     r a f c
     r f d8 d g g
@@ -250,8 +250,8 @@ H-I-IX-cAlto = {
     g([ e)] f g f4 f8 f
     f4 e f r %35
     R1*4
-    r4 \mvTr g\pE^\soloE g f %40
-    es?2 d4. es?8
+    r4 \mvTr g\pE^\solo g f %40
+    es2 d4. d8
     c2 b4 r
     R1*2
     r4 f' f e!8 c %45
@@ -268,7 +268,7 @@ H-I-IX-cAlto = {
     R1
     r2 f %60
     c4 d a4. b8
-    c f, f'4 e8 f16([ g] a8) a
+    c f, f'4 e8 f16([ g a8)] a
     g4. g8 c,4 a'
     d,( g4.) g8 e4
     R1 %65
@@ -279,16 +279,16 @@ H-I-IX-cAlto = {
     r a f f %70
     g g8 g a a g g
     g4( fis) g r
-    r2 r4 \mvTr g\pE^\soloE
+    r2 r4 \mvTr g\pE^\solo
     f!8 d f4 e4. fis8
-    g([ d)] g4 f? es8([ d)] %75
-    es([ f16 es]) d8 c d4. es8
+    g([ d)] g4 f es8([ d)] %75
+    es([ f16 \hA es]) d8 c d4. es8
     f([ g16 f)] es8 d c c d4
     c4. c8 b4 r
     R1*5 %83
     c4 f8 f e c e4
-    f8. f16 f8 f d4 d8 d %85
-    g4( f) e \mvTr e8\fE^\tuttiE e
+    f8.^\aTreE f16 f8 f d4 d8 d %85
+    g4( f) e \mvTr e8\fE^\tutti e
     e e fis fis g8. g16 g8 g
     a g g([ fis)] g4 d8 d
     e e16 e e8 e f f r4
@@ -303,8 +303,8 @@ H-I-IX-cAlto = {
     d8[ g,] g'2 f4
     e8[ a,] a'4. d,8 g4~ %100
     g8[ c,] f2 e4~
-    e8[ d] f4 es4. f16[ es]
-    d4 g8([ f)] e4 f~
+    e8[ d] f4 es4. f16[ \hA es]
+    d4 g8[ f] e4 f~
     f e f2\fermata \bar "|."
   }
 }
@@ -400,7 +400,7 @@ H-I-IX-cAltoLyrics = \lyricmode {
   _ _ _ _ %100
   _ _
   _ _ _
-  _ men, a -- _
+  _ _ men, a --
   _ men. %104 finis
 }
 
@@ -442,7 +442,7 @@ H-I-IX-dAlto = {
     g r r2
     r r4 r8 f~
     f[ e16 d] e8[ d16 c] d4 r8 g
-    fis[ a d fis,] e[ g c e,]
+    fis[ a d \hA fis,] e[ g c e,]
     d g4( f) e8 r e %40
     d[ g] r h, c[ f] r a
     d, g f([ e16 d)] e4 r8 c'~
@@ -497,6 +497,134 @@ H-I-IX-dAltoLyrics = \lyricmode {
   men. %46 finis
 }
 
+H-I-IX-eAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/2 \autoBeamOff \tempoH-I-IX-e
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve
+    a'1 e4( f) e( d)
+    c( h a1) gis2
+    a a'1 g!2
+    fis2. fis4 h,2 g' %5
+    fis1 h,2 g'~
+    g4 fis8[ e] \hA fis2 h, g'4 \hA fis
+    e d c h8[ a] h1
+    a r
+    r2 e' c' h4( a) %10
+    g( e) g1 f2~
+    f e d2. d4
+    e1 r
+    r a2 a4 a
+    g2 c, f2. f4 %15
+    e2 g1 d2
+    e( f) d e
+    f d e c
+    d e1 a2
+    d, g c,4( d) e( fis) %20
+    g d g1 f2~
+    f e1 d2~
+    d c2. c4 h2
+    a1 h
+    r r2 g' %25
+    e d4 c d2 g
+    c,2. d4 e g f e
+    f2. f4 e1
+    r2 a1( f2)
+    d g1( e2) %30
+    c f1 f2
+    e e e1
+    e f2. f4
+    e2 e d g
+    f2. f4 e2 a %35
+    g a2. a4 g2
+    fis1 e
+    R\breve*3 %40
+    fis1. e2
+    a2. a4 a2 g
+    fis gis a1
+    r r2 a
+    g! f!4( e) f2 e4( d) %45
+    e1. g2
+    a2. a4 gis1
+    R\breve*4 %51
+    e2 e g2. g4
+    f2 e4 d e1
+    d r
+    r4 c'( g a) h2 r %55
+    R\breve
+    e,2 e f2. f4
+    e2. fis4 g2. g4
+    f2. gis4 a2 a
+    gis4 gis a1( \hA gis2) %60
+    a1 r
+    r4 f( d e) f2 e~
+    e d4 cis d1
+    cis\breve\fermata \bar "|." %64 finis
+  }
+}
+
+H-I-IX-eAltoLyrics = \lyricmode {
+  Lau -- da -- te __ %2
+  Do -- mi --
+  num, o -- mnes
+  gen -- tes, o -- mnes %5
+  gen -- tes, gen --
+  _ _ tes, gen -- _
+  _ _ _ _ _
+  tes,
+  lau -- da -- te __ %10
+  e -- um, o --
+  mnes po -- pu --
+  li.
+  Quo -- ni -- am
+  con -- fir -- ma -- ta %15
+  est, con -- fir --
+  ma -- ta est
+  su -- per nos, su --
+  per, su -- per
+  nos mi -- se -- ri -- %20
+  cor -- _ _ _
+  _ _
+  _ di -- a
+  e -- ius,
+  et %25
+  ve -- ri -- tas Do -- _
+  _ _ _ _ _ _
+  _ mi -- ni
+  ma --
+  net, ma -- %30
+  net, ma -- net
+  in ae -- ter --
+  num. Glo -- ri --
+  a Pa -- tri et
+  Fi -- li -- o et %35
+  Spi -- ri -- tu -- i
+  San -- cto,
+
+  si -- cut %41
+  e -- rat in prin --
+  ci -- pi -- o
+  et
+  nunc et __ sem -- per %45
+  et in
+  sae -- cu -- la,
+
+  et in sae -- cu -- %52
+  la sae -- cu -- lo --
+  rum,
+  a -- men, %55
+
+  et in sae -- cu --
+  la, in sae -- cu --
+  la, in sae -- cu --
+  lo -- rum, a -- %60
+  men,
+  a -- men, a --
+  _ _ _
+  men. %64 finis
+}
+
 H-I-IX-fAlto = {
   \relative c' {
     \clef treble
@@ -504,12 +632,12 @@ H-I-IX-fAlto = {
     R1*6 %6
     r2 r4 r8 \mvTr d\pE^\solo
     e \tuplet 3/2 8 { fis16([ g a)] } g4 fis8 gis a a
-    g4 fis8 fis gis a a([ gis)]
+    g4 fis8 fis gis a a([ \hA gis)]
     a4 r r2 %10
     r4 \mvTr a8\fE^\tutti fis e e fis fis
     d fis e4 fis r
     R1
-    r2 r8 \mvTr e\pE^\solo eis eis
+    r2 r8 \mvTr e\pE^\solo^\aTreE eis eis
     fis4. fis8 fis g16([ e)] cis4\trill %15
     h r r2
     R1*3
@@ -528,7 +656,7 @@ H-I-IX-fAlto = {
     d r r2
     R1*2 %35
     r2 fis4 h8 fis
-    g([ h)] a e fis fis16 fis fis8 a
+    g([ h)] a e fis fis16 fis fis8^\aTreE a
     d,4 e8 fis e e r4
     \after 4*6 \tempoH-I-IX-fb R1*6 %44
     \mvTr d4\fE^\tuttiE d d d8 d %45

@@ -5,13 +5,19 @@ genre: vesper
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.96
+    url: https://copia.oszk.hu/kotta/vesperae-longiores-de-confessore-in-dm/
+    rism: 530002149
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: G 83
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/915.html
     rism: 600038328
     license: public domain
-    principal: true
     notes: Dixit Dominus and Magnificat
   B2:
     siglum: A-Ed
@@ -34,24 +40,9 @@ sources:
     notes: Laudate pueri
 tocstyle: default
 toe: |
-  1 & 50 & vl 1 & 6th \sixteenthNote\ in \B1: h′16 \\
-  2 & 35 & vl 1 & 4th to 6th \quarterNote\ in \B2: c″4–d″4–d″4 \\
-  3 & 13 & vl 2 & 1st \quarterNote\ in \B3: f′4 \\
-    & 20 & S    & 2nd \eighthNote\ in \B3: a′8 \\
-    & 55 & A    & 3rd \quarterNote\ in \B3: f′4 \\
-  4 & 1  & –    & tempo indication in org and vlne: “Vivace” \\
-    & 5  & vlne & lower voice missing in \B4 \\
-    & 10 & vlne & lower voice missing in \B4 \\
-    & 20 & vlne & lower voice missing in \B4 \\
-    & 25 & vlne & lower voice missing in \B4 \\
-    & 26 & S    & 1st to 3rd \quarterNote\ in \B4:
-                  d″4–\sharp c″8.–\sharp c″16–d″8–\quaverRest \\
-    & 27 & T    & 7th \eighthNote\ in \B4: a8 \\
-  5 & –  & –    & This movement is currently missing
-                  and will be added later. \\
-  6 & 8  & vlne & lower voice of 1st \quarterNote\ missing in \B1 \\
-    & 27 & org, vlne & last \eighthNote\ in \B1: a8 \\
-    & 29 & T    & 3rd \quarterNote\ in \B1: b8–\sharp c′8 \\
-    & 45 & vl 1 & 1st \quarterNote\ in \B1: e″8–e″16–e″16 \\
-extra_abbreviation:
-  vlne:
+  1 & 5  & S    & 3rd \quarterNote\ in \A1: originally f′4,
+                  emended by later hand to c′4 \\
+    & 50 & vl 1 & 6th \sixteenthNote\ in \A1 and \B1: h′16 \\
+  3 & 13 & vl 2 & 1st \quarterNote\ in \A1 and \B3: f′4 \\
+    & 55 & A    & 3rd \quarterNote\ in \A1 and \B3: f′4 \\
+  4 & 1  & –    & tempo indication in S and T of \A1: “Allegro” \\

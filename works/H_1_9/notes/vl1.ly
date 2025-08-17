@@ -5,20 +5,20 @@ H-I-IX-aViolinoI = {
     \clef treble
     \key d \dorian \time 4/4 \tempoH-I-IX-a
     R1*10 %10
-    r2 r16 a''\f f d a c e g
+    r2 r16 a''\fE f d a c e g
     f a b d g, c e, b' a c, f a c g a f
-    e c e g fis a b g a fis d a d a fis d
-    r4 b''16 g fis d b g d b g' d b g
+    e c e g fis a b g a \hA fis d a d a fis d
+    r4 b''16 g fis d b g d b g' d \hA b g
     r4 c''16 a g e a f c a f' c a f %15
     r b d f b4 r16 g, h d g4~
     g8 f e8.\trill e16 d4 r
-    r8 a\p a16( b) b( c) d b a g f es d8
+    r8 a\pE a16( b) b( c) d \hA b a g f es d8
     r f16 g a b c8 f,16 es d c b4
     r8 a' d4~ d16 c b a g4 %20
     r8 g c4~ c8. b32 a g8 c
     a4 r r2
     R1*4 %26
-    r16 e\f g c e c e g c g e c' d, c' d, h'
+    r16 e\fE g c e c e g c g e c' d, c' d, h'
     c8 g16.\trill f64( g) a8 e r16 f f16.\trill e64( f) g8 d
     r16 e32 f g16 g gis gis a a h h a a a8 gis
     a16 e32\p e e16 e e e e e r c32 c c16 c c c c c %30
@@ -27,10 +27,10 @@ H-I-IX-aViolinoI = {
     d8. d16 g8 f e16 g8 g16 r e8 e16
     r f8 f16 r d8 d16 r e8 e16 r4
     R1*2 %36
-    r2 r4 r16 e\f f g
+    r2 r4 r16 e\fE f g
     a f c a c g e c a' f a c f8 r
     a16 e f d e, d' a, cis' d d, f a d a f d
-    h'! g' e c' d, c' g, h' c g e c r4 %40
+    h'! g' e c'! d, c' g, h' c g e c r4 %40
     a'16\p f c a r4 f'16 d a f r4
     r8 d' c c16 f e c g e r4
     c'16 g e c a' c f a f d b f g, f' g, e'
@@ -59,29 +59,29 @@ H-I-IX-bViolinoI = {
     c2. b4 a8 b c4
     d2. c4 b8 c d4
     c2. e,4 f g %15
-    f2. e8 d e2
+    f2. e8 d \hA e2
     f r r
     R1.*12 %29
-    r4 b,8\f d es4 g8 es d4 b'8 f %30
+    r4 b,8\fE d es4 g8 es d4 b'8 f %30
     g4 es8 b g4 h8 d es4 g8 c
     h4 g8 d h4 g' es g8 es
     c4 f d b8 d f4 b
     a2 r4 a f d
-    g f g h,^\critnote c c %35
+    g f g d es es %35
     r es c f~ f8 es d f
     b,4 g' f f2 e4
-    f2 r r4 f~\p
+    f2 r r4 f~\pE
     f g8 a b4 a2 g4
     fis d g4. g8 es4 c %40
     f d b es4. d8 c4
     f8 es d4 c2\trill b
     R1.*4 %46
-    r8 b\f d g f c a f' d f b d,
+    r8 b\fE d g f c a f' d f b d,
     g es4 c8 a c f c d f b d,
     c4. c8 d4 es f g
     as as g g es4. f8 %50
     g4 as d, c' g, h'
-    c g2\p g4 g g
+    c g2\pE g4 g g
     r g,2 g4 d' d
     c g8 es c2 r
     R1.*4 %58
@@ -93,12 +93,12 @@ H-I-IX-bViolinoI = {
     b4 b,2 a8 g a2
     b r r %65
     R1.
-    r8 g\f b d g4 f g a
+    r8 g\fE b d g4 f g a
     b8 f, b d f4 b c b
     a8 f, a c f b, d f b g, b d
     es4 g f f f2\trill %70
-    f4 d c d es d8c
-    d4 e f4. e16 d c2
+    f4 d c d es d8 c
+    d4 e f4. \hA e16 d c2
     d4 c c r r2
     r4 d c d es! d8 c
     d4 c8 b c4 b8 a b4 c %75
@@ -131,7 +131,7 @@ H-I-IX-cViolinoI = {
     a c b a g b a g
     f a g f e4 f~ %15
     f e f2
-    r2 a'16\p b c b a b c b
+    r2 a'16\pE b c b a b c b
     a4 r a,16 b c b a b c b
     a4 r r2
     r r8 d g4 %20
@@ -139,7 +139,7 @@ H-I-IX-cViolinoI = {
     d16 e f e d e f e d4 r
     e,16 f g f e f g f e4 r
     R1
-    r8 e'4\f f g a8~ %25
+    r8 e'4\fE f g a8~ %25
     a f c a f4 a'
     g8 e c g e4 e'
     f8 a g b a c a f
@@ -147,15 +147,15 @@ H-I-IX-cViolinoI = {
     R1 %30
     r8 c'4 c8 f, g a h
     c4 r a a
-    c b8 a g c, c'4~
+    c b!8 a g c, c'4~
     c c8 c c4 d
     c4. c8 c4 r %35
-    r8 a\p d f e a, cis e
+    r8 a\pE d f e a, cis e
     d4 r r2
     r4 g4. f8 es4
     d r r2
     R1*12 %51
-    r2 c4\f a'
+    r2 c4\fE a'
     g4. e8 c4 r
     d b'2 g4~
     g f e r %55
@@ -165,7 +165,7 @@ H-I-IX-cViolinoI = {
     R1
     r2 f %60
     c4 d a4. b8
-    c f, f'4 e8 f16 g a4
+    c f, f'4 e8 f16 g a8 a
     g4. g8 c,4 a'
     d, g4. g8 e4
     R1 %65
@@ -175,10 +175,10 @@ H-I-IX-cViolinoI = {
     r f' f f e cis4 a8
     f'4 f d d8 d %70
     d d b' b a a g4~
-    g fis g8 f16 es d8 es
+    g fis g8 f16 es d8 \hA es
     b a16 g a4\trill g r
     R1*4 %77
-    r8 c4\p c8 d16 es d es f8 d
+    r8 c4\pE c8 d16 es d \hA es f8 d
     r c4 c8 a16 b a b c8 a
     r a4 a8 f16 g f g a8 f %80
     e e r4 b'4. g'8
@@ -211,7 +211,7 @@ H-I-IX-dViolinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoH-I-IX-d
-    r8 c''\f g a g c, r4
+    r8 c''\fE g a g c, r4
     r8 a' g16 e f d e f e f g8 f16 e
     d4 r r2
     r8 e d16 h c a h8 g r4
@@ -228,16 +228,16 @@ H-I-IX-dViolinoI = {
     c8 a r4 r16 h c d e8 f %15
     c a' h, gis' a a, r4
     R1*3
-    r2 e8\p g c e %20
+    r2 e8\pE g c e %20
     h d g h c g e c
     a a'16 g a8 f d h' d, g
     e c r4 e,8 g c e~
     e e, fis fis g4 r
     R1*6 %30
     r2 e8 g c e
-    d16 c d8 r4 r2
+    d16( c) d8 r4 r2
     R1
-    r2 g4.\f g8
+    r2 g4.\fE g8
     e g4 d8 g c4 h8 %35
     c4 r r2
     R1
@@ -253,30 +253,96 @@ H-I-IX-dViolinoI = {
   }
 }
 
+H-I-IX-eViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/2 \tempoH-I-IX-e
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve*3
+    r1 r2 e'
+    a,4 c h a g fis e2~ %5
+    e dis e1
+    R\breve*2
+    r2 a f' e4 d
+    c d e1 dis2 %10
+    e h a1
+    g1. g2
+    g1 r
+    R\breve*2 %15
+    e'2 e4 e d2 g,
+    c d h4 g c2~
+    c h c a
+    h c2. a4 c2
+    h h e d4 c %20
+    h2 a4 g a h c d
+    g,2. g4 f2 f
+    e a2. a4 g2~
+    g fis g1
+    R\breve %25
+    r2 c h a4 g
+    a2. a4 g2 c~
+    c4 h8 a h2 c e~
+    e c1 d2~
+    d h1 c2~ %30
+    c a1 h2~
+    h c h1
+    a2 c2. c4 c2
+    c1 h2 h
+    d2. d4 c2 c %35
+    e2. e4 dis2 e~
+    e dis e1
+    r h~
+    h2 a d2. d4
+    d2 c h2. h4 %40
+    a2 r r1
+    R\breve
+    r1 e'
+    d2 c4 h c2 h4 a
+    h2 cis d a4 h %45
+    c e d c h e, e'2~
+    e d e1
+    R\breve*3 %50
+    r1 a,2 a
+    c2. c4 h2. cis4
+    d a d1 cis2
+    d1 r4 f c d
+    e2 r r4 g d e %55
+    f d f2 e1
+    r r4 d a h
+    c g c2 r4 e h cis
+    d a d2 r4 e c d
+    e2 e, e1 %60
+    r4 e' c d e2 r
+    r4 a, f g a2. g4
+    f1. e4 d
+    e\breve\fermata \bar "|." %64 finis
+  }
+}
+
 H-I-IX-fViolinoI = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \tempoH-I-IX-f
     R1*3
-    r2 r8 a'\p d fis
+    r2 r8 a'\pE d fis
     e8.\trill fis32 g a8 e16 cis a8 fis16 a d8 fis %5
     r h,16 d e8 g r2
     r8 a, e' a fis a16 e d4\trill
     cis r r2
     R1*2 %10
-    r4 a'8\f fis a e fis fis
+    r4 a'8\fE fis a e fis fis
     d fis e4 fis r
     R1*3 %15
-    r16 g\p h, c d8 a h16 d8 g16 h4
+    r16 g\pE h, c d8 a h16 d8 g16 h4
     r16 h, dis fis h4 r16 h32 a g a h16 e,4
     r16 a32 g fis g a16 d,4 r8 g,4 g8
     g16(-. g-.) g(-. g-.) g(-. g-.) g(-. g-.) fis4 r
     R1*7 %26
-    r16 a\f cis e a a, cis e fis d, fis a h e d g
+    r16 a\fE cis e a a, cis e fis d, fis a h e d g
     e8 e fis fis r d e e
     r cis fis fis fis fis, r4
     R1*2 %31
-    r2 r8 d'4\p cis8
+    r2 r8 d'4\pE cis8
     d4~ d16 e fis8 g16 h a g fis g a8
     d,16 e32 fis g16 a h g h8 a4 g8. g16
     fis8 h e,8. e16 d fis a4 g8~ %35
@@ -284,12 +350,12 @@ H-I-IX-fViolinoI = {
     R1
     r2 r8 e4 e8
     a a fis fis g8. g16 e8 e
-    fis a a16( g) g( fis) \tempoH-I-IX-fb e8 a cis,\f  d %40
+    fis a a16( g) g( fis) \tempoH-I-IX-fb e8\fE a cis, d %40
     e a, a'8. g16 fis8 a g fis16 e
     fis8 d fis, g a d, d'8. d16
     cis8 e d cis16 h cis d e4 d8
     cis16 d e4 d8~ d16 e fis8 e8. e16
-    d8^\critnote d16 d fis8 g a d,~ d16 e fis g %45
+    d8 d16 e fis8 g a d,~ d16 e fis g %45
     a8 e fis e d a' g fis16 e
     fis8 e16 d e8 d16 cis d8 e a,4
     r2 r8 a' g fis16 e
