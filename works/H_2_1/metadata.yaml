@@ -10,5 +10,10 @@ sources:
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/920.html
     license: public domain
     principal: true
+  B2:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.261 (1)
+    url: https://copia.oszk.hu/kotta/psalm/
+    license: public domain
 toe: |
   83 & org & lower voice in \B1: d2–d4.–d8 \\
