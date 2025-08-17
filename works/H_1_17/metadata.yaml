@@ -1,4 +1,5 @@
 title: Vesperæ brevissimæ de Confessoribus
+subtitle: Dixit Dominus · Confitebor · Beatus vir · \\Laudate pueri · Laudate Dominum · Magnificat
 id: WerW H.1.17
 genre: vesper
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
@@ -13,5 +14,10 @@ sources:
     principal: true
 tocstyle: default
 toe: |
-  1 & 9 & vl & 13th \sixteenthNote\ in \B1: c″16 \\
-  2 & 3 & A  & 7th \eighthNote\ in \B1: \sharp f′8 \\
+  1 & 9  & vl   & 13th \sixteenthNote\ in \B1: c″16 \\
+  2 & 3  & A    & 7th \eighthNote\ in \B1: \sharp f′8 \\
+  6 & 5  & vl 1 & 13th \sixteenthNote\ in \B1: g′16 \\
+    & 5  & A    & 6th \eighthNote\ in \B1: a′8 \\
+    & 15 & B    & 15th \sixteenthNote\ in \B1: g16 \\
+    & 20 & vl 1 & last \eighthNote\ in \B1: g″8 \\
+    & 21 & T    & 1st \eighthNote\ in \B1: d′8 \\

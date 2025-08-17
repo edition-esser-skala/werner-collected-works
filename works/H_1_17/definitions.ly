@@ -2,6 +2,10 @@
 
 tempoH-I-XVIIDixit = \tempoMarkup "Allegro"
 tempoH-I-XVIIConfitebor = \tempoMarkup "Andante"
+tempoH-I-XVIIBeatus = \tempoMarkup "Andante"
+tempoH-I-XVIIPueri = \tempoMarkup "Vivace"
+tempoH-I-XVIILaudate = \tempoMarkup "Andante"
+tempoH-I-XVIIMagnificat = \tempoMarkup "Andante"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
