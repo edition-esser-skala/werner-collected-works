@@ -18,7 +18,7 @@ H-I-XIaBasso = {
     r r r4 \mvTr d\pE^\solo
     g h e,4. e8 c'([ a)] fis([ e)]
     e4 dis e4. e8 a[ e c e]
-    a,4 fis'8.[\trillE e32 fis] g8[ d h d] e4 e %15
+    a,4 fis'8.[\trill e32 fis] g8[ d h d] e4 e %15
     a g fis r h a8 a
     a4 f8 d e2 a,
     R1.
@@ -258,9 +258,9 @@ H-I-XIdBasso = {
     \key d \major \time 4/4 \autoBeamOff \tempoH-I-XId
     R1*3
     r2 r4 \mvTr e8\pE^\solo e
-    a([ cis16 h)] a8 gis a8. gis16 fis8 fis %5
-    e e r gis a gis16([ a)] h8 a
-    gis fis16[ gis] a8[ gis16 a] fis8[ e16 fis] gis8[ fis16 gis]
+    a([ cis16 h)] a8 gis a8. \hA gis16 fis8 fis %5
+    e e r gis a \hA gis16([ a)] h8 a
+    gis fis16[ \hA gis] a8[ \hA gis16 a] fis8[ e16 fis] \hA gis8[ fis16 \hA gis]
     a8 d, e4 a, r
     R1*7 %15
     r4 \mvTr fis'8\fE^\tuttiE fis h4 g~
@@ -329,6 +329,7 @@ H-I-XIeBasso = {
   \relative c {
     \clef bass
     \key g \major \time 3/4 \autoBeamOff \tempoH-I-XIea
+      \once \override Staff.TimeSignature.style = #'single-digit
     \mvTr g'8.\fE^\tutti a16 h8 g a fis
     g g16([ a)] h8 g a d,^\critnote
     g4 r8 g g g
@@ -350,11 +351,11 @@ H-I-XIeBasso = {
     a8 g fis16 e32 e fis16 d g8 fis
     e4 d r
     r r r8 \mvTr fis\pE^\soloE
-    h8. a!16 gis8 fis16 gis a8 fis
+    h8. a!16 gis8 fis16 \hA gis a8 fis
     cis d e4 a, %30
     R2.*2
     r8 e' fis fis gis a
-    a gis16 gis a a a gis fis8 gis16 fis
+    a gis16 gis a a a \hA gis fis8 \hA gis16 fis
     fis8([ eis)] fis \mvTr fis16\fE^\tutti fis h8 fis16 fis %35
     h8 ais h a g! g16 g
     fis8 dis e h'16 a g8 g16 fis
@@ -385,8 +386,8 @@ H-I-XIeBasso = {
     R2.*6 %71
     r4 \mvTr e8\fE^\tutti e a g!
     f e16 e d8. d16 c4
-    f8. f16 e8 e a16 a f g
-    e8 c f e16([ f)] g4 %75
+    f8. f16 e8 e a16 a \hA f g
+    e8 c f e16([ \hA f)] g4 %75
     c, r r
     R2.*7 %83
     \mvTr d8\pE^\soloE d16 d g8 fis16 fis e8. e16
@@ -401,7 +402,7 @@ H-I-XIeBasso = {
     r4 r8 g( a c4) h8
     c([ h] a4) g8 g,([ c cis)]
     d2 d~
-    d g,^\critnote %95
+    d g, %95
     g2. g4
     c2 g\fermata \bar "|." %97 finis
   }
@@ -508,14 +509,14 @@ H-I-XIfBasso = {
     g4 r r2
     R1*2 %20
     r4 r8 \mvTr g'\pE^\solo c16([ g)] e([ c)] g'([ d)] h([ g)]
-    c4 r8 c' gis a16 a gis8([ a)]
-    e h' c a, r a' h g,
+    c4 r8 c' gis a16 a \hA gis8([ a)]
+    e h' c a, r a' h g,!
     c([ c')] h([ a)] g2~
     g8 e16([ c)] g4 c r %25
     r r16 \mvTr c\fE^\tutti e g c8 a e8. e16
     a,4 r r2
     R1
-    r8 \mvTr e'\pE^\solo e e cis d16 e a,8 h16 cis
+    r8 \mvTr e'\pE^\solo e e cis d16 e a,8 h16 \hA cis
     d8 d r4 r2 %30
     R1*3
     r2 f8 a d, f16 f

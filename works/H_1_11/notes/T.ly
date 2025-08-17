@@ -30,7 +30,7 @@ H-I-XIaTenore = {
     r \mvTr d\pE^\aTre^\soloE c4( h)
     a g8([ fis)] e4 fis g a
     h e h2 h
-    r r r4 \mvTr a\pE^\solo
+    r r r4 a^\solo
     g4.( h8) a4 g g8([ fis)] fis4 %35
     R1.*5 %40
     r4 \mvTr d'\fE^\tutti d d d d
@@ -132,8 +132,8 @@ H-I-XIbTenore = {
     e dis r4 r2
     r r8 g, c4
     h16[ a h g] fis[ e fis d] g[ fis g e] fis8[ h]~ %35
-    h[ g] e a4( fis8) d \once \tieDashed g~
-    g[ d] a'8.[\trill g32( a)] h4 h
+    h[ g] e a4( fis8) d g~
+    g[ d] a'8.[\trill g32 a] h4 h
     h r r2\fermata \bar "|." %38 finis
   }
 }
@@ -186,13 +186,13 @@ H-I-XIcTenore = {
     d r r2 %10
     R1*2
     r2 r4 d8 cis
-    d cis h h16 h a8 a \mvTr ais\fE^\tutti ais
+    d cis h h16 h a8 a \mvTr ais\fE^\tuttiE ais
     h cis d h16 h cis8 cis h8. h16 %15
     h8 h a! a a a g g16 g
-    g4 fis fis8 g fis4
+    g4 fis fis8 g fis4\trill
     fis r r2
     R1*5 %23
-    r8 \mvTr d'\pE^\solo d cis! d a16([ h)] c8 d16 c
+    r8 \mvTr d'\pE^\solo d cis! d a16([ h)] c8 d16 \hA c
     h8 a a4\trill g \mvTr g8\fE^\tutti a %25
     g a h g16 g a8 a ais ais
     h ais h a g cis16^\critnote cis h4\trill
@@ -314,6 +314,7 @@ H-I-XIeTenore = {
   \relative c' {
     \clef "treble_8"
     \key g \major \time 3/4 \autoBeamOff \tempoH-I-XIea
+      \once \override Staff.TimeSignature.style = #'single-digit
     \mvTr d8.\fE^\tutti d16 d8 d c d
     d d d d c d
     d4 r8 h h h
@@ -325,26 +326,26 @@ H-I-XIeTenore = {
     r4 r8 \mvTr c\pE^\solo h a %10
     g16 g a h c8 a h4\trill
     a d16 d c d h8 cis16 h
-    ais8 h16([ cis)] h8([ ais)] h4
+    ais8 h16([ cis)] h8([ \hA ais)] h4
     R2.*5 %18
-    r8 d4 cis8 d8. cis16
-    h8 cis16 d cis8. h16 ais8 h %20
+    r8 d4 cis8 d8. \hA cis16
+    h8 cis16 d \hA cis8. h16 ais8 h %20
     h([ ais)] h4 r
     r8 fis h h g g16 g
     g8 fis16([ g)] a8. a16 d,4
-    \mvTr a'8\fE^\tutti a a16^\critnote a a a a8 cis16 cis
+    \mvTr a'8\fE^\tutti a a16 a a a a8 cis16 cis
     fis8 e e4 r %25
-    a,8 a a16 g32 g a16 a g8 a
-    h([ a16 g)] a8 \mvTr d\pE^\solo cis d16 cis
+    a,8 a a16 a32 a a16 a g8 a
+    h([ a16 g)] a8 \mvTr d\pE^\solo cis d16 \hA cis
     h8 ais h cis16 h h8. ais16
     h4 r r
     r r r8 e~ %30
-    e dis e e16 d cis8 d16 cis
+    e dis e e16 d cis8 d16 \hA cis
     h4 a r
     r8 e' e dis e cis
     h h16 h cis cis cis h a8 h16 h
-    a8([ gis)] fis \mvTr ais16\fE^\tutti ais h8 ais16 ais %35
-    h8 cis h cis d cis16 h
+    a8([ gis)] fis \mvTr ais16\fE^\tutti ais h8 \hA ais16 ais %35
+    h8 cis h \hA cis d \hA cis16 h
     cis8 h h dis16 dis e8 e16 e
     e8 h c8. c16 fis,4
     d'!8 d d d16 d e8 e
@@ -360,13 +361,13 @@ H-I-XIeTenore = {
     dis4 e8 e e e16 e
     d4 d8 e d e %50
     d4 d r
-    r8 \mvTr d4\pE^\solo cis8 d16 cis h cis
+    r8 \mvTr d4\pE^\solo cis8 d16 \hA cis h \hA cis
     ais8 ais fis fis gis gis16 gis
     ais ais ais ais h8 h e, e16 e
     fis4 h r %55
     R2.*2
     r4 h8 h cis cis
-    d d16 cis d8 e16 d d8([ cis)]
+    d d16 cis d8 e16 d d8([ \hA cis)]
     d4 r r %60
     R2.*4
     r4 cis8 fis dis dis16 dis %65
@@ -517,7 +518,7 @@ H-I-XIfTenore = {
     a8 \mvTr c\pE^\solo h c16([ d)] c8 h16 a h8 a16([ gis)]
     a8 a r4 r2
     r e'8 e cis e
-    a, d h16([ c)] d8 g, a16 h c4 %30
+    a, d h16([ c)] d8 g, a16 h c4\trill %30
     h r r2
     R1
     r4 c4. b16 a a8([ d)]

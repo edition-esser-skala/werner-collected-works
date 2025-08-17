@@ -9,12 +9,12 @@ H-I-XIaSoprano = {
     d4 h2 a4 h( e)
     a, h8([ c!)] d2 h4 e
     d d d2 d4 \mvTr d(\pE^\solo %5
-    h) e cis8([ h] cis4) a d~
+    h) e cis8([ h] \hA cis4) a d~
     d h h g g' e
-    e c c( h) a \mvTr a\fE^\tutti
+    e c! c( h) a \mvTr a\fE^\tutti
     d2 d, r4 a'\p
     d2 d, r4 d'\f %10
-    cis d d( cis) d \mvTr a\pE^\solo
+    cis d d( \hA cis) d \mvTr a\pE^\solo
     \tuplet 3/2 4 { e'8([ d cis)] cis([ h a)] fis'([ e d)] } d4 r2
     R1.
     h4. h8 e[ h g h] e,4 c'8.[\trill h32 c]
@@ -29,10 +29,10 @@ H-I-XIaSoprano = {
     R1.*2
     r2 r4 \mvTr d\fE^\tutti c d %25
     c h r d\p c d
-    c h r h\fE c d
+    c h r h\f c d
     g, r r d' d c8([ h)]
     a4 d h e d4. d8
-    d2 \mvTr c4.\pE^\soloE c8 h4 d %30
+    d2 \mvTr c4.\pE^\solo c8 h4 d %30
     d8([ c)] c([ h)] h([ a)] a4 r2
     R1.*2
     r2 r4 g g( fis)
@@ -146,7 +146,7 @@ H-I-XIbSoprano = {
     g[ fis e d] cis[ h a g] fis8 \mvTr a4\fE^\tutti d8
     h h e dis e8. e16 e8 d
     e d d([ cis)] d d4 d8 %30
-    d d16 d e8 e dis e4 dis8
+    d d16 d e8 e dis e4 \hA dis8
     \tempoH-I-XIbb e4 r r2
     r8 h e8.[ d!16] c[ d e8] d8.[ c16]
     h8[ c] d16[ h a g] fis8 g~ g16[ fis g a]
@@ -228,7 +228,7 @@ H-I-XIcSoprano = {
     d4) cis8 fis4( e8[ fis]) d
     e([ cis)] h4 r8 fis'4 e8 %40
     d4 cis4. h16[ ais] h4~
-    h ais8[ gis] ais2\trill
+    h ais8[ gis] \hA ais2\trill
     h1\fermata \bar "|." %43 finis
   }
 }
@@ -283,11 +283,11 @@ H-I-XIdSoprano = {
     r2 r4 \mvTr h8.\fE^\tuttiE h16
     c8 c c c h8. h16 h8 d
     h a h cis d d16 a d4~ %25
-    d8 c16 d h4. c16 c a4
-    h d2 e8 d
+    d8 c16 d h4. \hA c16 c h8([^\critnote a)]
+    h4 d2 e8 d
     cis!4 d r8 d d cis
     d4 d8 d d8. d16 cis8 h
-    ais h16 h h8([ ais)] h4 d8 d %30
+    ais h16 h h8([ \hA ais)] h4 d8 d %30
     d d cis cis d8. cis16 h8 a
     h d d([ cis)] d4 a8 a
     d8. d16 d4 r h8 h
@@ -334,12 +334,13 @@ H-I-XIeSoprano = {
   \relative c' {
     \clef treble
     \key g \major \time 3/4 \autoBeamOff \tempoH-I-XIea
+      \once \override Staff.TimeSignature.style = #'single-digit
     \mvTr h'8.\fE^\tutti c16 d8 h c a
     h h16([ c)] d8 h c a
     h h e4. d8
     cis d h8. h16 cis8 d
     e4 a,8 a d cis %5
-    h cis16([ d)] e8 d d([ cis)]
+    h cis16([ d)] e8 d d([ \hA cis)]
     d \mvTr a\pE^\solo d h c4
     h d16 h c d e8 d16([ c)]
     d8 c16 h c4\trill h
@@ -349,20 +350,20 @@ H-I-XIeSoprano = {
     a h16 a g8 g16 g fis4
     R2.*2 %21
     r8 cis' d d e e16^\critnote d
-    cis8 d d8. cis16 d4
+    cis8 d d8. \hA cis16 d4
     \mvTr d8\fE^\tutti e d16 d d d cis8 cis16 cis
     d8. d16 cis4 e8 d %25
-    cis16([ h)] cis a d8 d d d
+    cis16([ h)] \hA cis a d8 d d d
     d([ cis)] d \mvTr fis\pE^\solo e fis16 e
-    d8 cis d e16 d cis8. cis16
+    d8 cis d e16 d \hA cis8. cis16
     h4 r r
     R2. %30
     r4 r r8 a
     a gis a cis16 d e8 e16 d
     cis8 h a8. a16 gis4
     R2.
-    r4 r8 \mvTr cis16\fE^\tutti cis d8 cis16 cis %35
-    d8 cis d cis h h16 h
+    r4 r8 \mvTr cis16\fE^\tutti cis d8 \hA cis16 cis %35
+    d8 cis d \hA cis h h16 h
     ais8 h h h16 h h8 h16 h
     h8 h h a h4
     h8 h a a16 h c8 c
@@ -398,7 +399,7 @@ H-I-XIeSoprano = {
     c c c c c8 c c([ h)] %75
     c4 r r
     R2.*3
-    r4 r r8 \mvTr h\pE^\solo %80
+    r4 r r8 \mvTr h\pE^\soloE %80
     h4 g8 e' d! c16 d
     h8 a g16 fis g a fis8 a
     d h e c d c16 h
@@ -519,7 +520,7 @@ H-I-XIfSoprano = {
     d2 e4 r
     R1 %10
     r2 \mvTr e8\pE^\solo h gis fis?16 e
-    c'8 a e' d16 e c8 a \mvTr c\fE^\tuttiE h
+    c'8 a e' d16 e c8 a \mvTr c\fE^\tutti h
     a c d f e2
     e4 r r2
     R1 %15
@@ -535,7 +536,7 @@ H-I-XIfSoprano = {
     r r8 g g fis %30
     g a16([ h)] c8 d e e d c
     h8. h16 c8 d e e,16 e f8([ g)]
-    a b g8. g16 a4 r
+    a b g8.\trill g16 a4 r
     R1*2 %35
     \after 2 \tempoH-I-XIfb R1
     r8 \mvTr g4\fE^\tuttiE c8 h4 e8 e

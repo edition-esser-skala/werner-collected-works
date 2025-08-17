@@ -17,7 +17,7 @@ H-I-XIaOrgano = {
     a h g a d \mvTr fis\pE-\solo
     cis a d h fis' d
     g g, c2 a
-    h4 h' g e c << { a' } \\ { a,-\critnote } >>
+    h4 h' g e c << { a' } \\ { a, } >>
     fis' d h g c a %15
     fis g d' h' gis a
     f d e e, a a'
@@ -67,17 +67,17 @@ H-I-XIaOrgano = {
 
 H-I-XIaBassFigures = \figuremode {
   r2. <[6]>
-  r4 <5> <[6]>2 <4>4 <3>
+  r4 <5> <[6]>2 <4>4 <_+>
   r2. <[6]>2 <6\\>4
-  <[6]>2 <4>4 <3> <5>2
-  r <4>4 <3>2. %5
+  <[6]>2 <4>4 <_+> <5>2
+  r <4>4 <_+>2. %5
   r4 <6> <6\\> <_+> <[6]>2
   r4 <5> <6>2 <[6!]>
   <6> <5>1
   r1.
   r1 r4 <5>8 <6> %10
   <_+>4 <5> <6 5> <_+>2.
-  <[6]>1 <6>2
+  <[6]>2. <6>4 <[6]>2
   r1 <[_!]>2
   <4>4 <_+> \bo <[6]>1
   <6>2 \bc <[6]>1 %15
@@ -93,13 +93,13 @@ H-I-XIaBassFigures = \figuremode {
   r1 r4 \bc q
   r2. <6>4 <6!> <\t>
   <5> <6> <7> <6\\> <4> <3>
-  <_+>2 <5> <4>4 <3>
+  <_+>2 <5> <4>4 <_+>
   r2 <7>4 <6> q2 %30
-  <9 6>4 <8 5> <6 4>8 <5 3> r4 <\t \t> <6>
+  <9 6>4 <8 5> <6 4>8 <5 3> <\t \t>4 q <6>
   r2 \bo <[6]>4 \bc q2 <6>4
   <_+>2 <4>4 <_+>2.
   <6[!]>2. <[6]>4 <7> q
-  r2 <[6]> <6 4>4 <5 3> %35
+  r2 <[6]> <6 4>4 <5 _+> %35
   <7> <6\\> <7> <6> <7> <6>
   <_+>2 <4>4 <_+>2 <6\\>4
   <6> <[6]> r1
@@ -110,15 +110,15 @@ H-I-XIaBassFigures = \figuremode {
   r2 <6 5>1
   <6>4 <6\\>2. <6>4 <6\\>
   r2 <6!>4 <6>2. %45
-  <[6]>1 r4 <6\\>
+  <[6]>1 <\t>4 <6\\>
   r <6> q1
-  <4>4 <3> r1
+  <4>4 <_+> r1
   r1.
-  <4>4 <_+> <6>4. \once \bassFigureExtendersOn q8 r2 %50
-  <6>4. \once \bassFigureExtendersOn q8 <[6 5]>4 <3> <2> <[6]>
+  <4>4 <_+> <6> <\t>2. %50
+  <6>4 <\t> <[6 5]>4 <3> <5 2> <[6]>
   <7> <6\\> r1
-  <6>4. \once \bassFigureExtendersOn q8 <6>2 \bo <[6]>
-  \bc q <4>4 <3>2. %54 finis
+  <6>4 <\t> <6>2 \bo <[6]>
+  \bc q <4>4 <_+>2. %54 finis
 }
 
 H-I-XIbOrgano = {
@@ -166,13 +166,13 @@ H-I-XIbOrgano = {
 }
 
 H-I-XIbBassFigures = \figuremode {
-  r4. <[6]> <6\\>8 <[_+]>
+  r4. <[6]> <6\\>8 <\t>
   <3> <6 [_!]> <6\\> <3> <_+>4. q8
   r4. <[6]> <6 5>8 <_+>
   r1
   <5>8 <6> q q4. <7>8 <6> %5
   q q <7> <6> <_+>2
-  r4 <7>2.
+  r4 <7>8 <_+> r2
   r4. \bo <[6]>2 \bc q8
   r4 <4>8 <3>4. \bo <[6]>8 <6>
   r4 \bc <[6]> <6 4>8 <5 _+> <\t \t> <6> %10
@@ -198,10 +198,10 @@ H-I-XIbBassFigures = \figuremode {
   r4. <6>8 <_+>4 <4>8 <_+>
   r2.. <3 8>8
   <4> <_+> \bo <[6]>2 \bc q4
-  r2 <3>8 <6> <7> <6>
-  r4 <6> <5>8 <6> <7> <_+> %35
+  r2 <_+>8 <6> <7> <6>
+  r8 <6> <[6]>4 <5>8 <6> <7> <_+> %35
   r4 \bo <[6]>2 \bc q4
-  r8 <6> q q <7 _+>4 <4>8 <_+>
+  r8 <6> q <6 3> <7 _+>4 <4>8 <_+>
   r1 %38 finis
 }
 
@@ -209,7 +209,7 @@ H-I-XIcOrgano = {
   \relative c {
     \clef bass
     \key h \minor \time 4/4 \tempoH-I-XIca
-    \mvTr h4\pE-\solo h' ais8 h gis ais
+    \mvTr h4\pE-\solo h' ais8 h gis \hA ais
     h4. a8 g2
     r4 a8 g fis2
     g8 fis e g a4 fis8 g
@@ -241,7 +241,7 @@ H-I-XIcOrgano = {
     h8 e h4 e4. \mvTr d!8\pE-\solo %30
     c h a4 h8 a' g fis
     e fis g a h4 h,
-    c8 h a c d4 h8 c
+    c8 h a \hA c d4 h8 \hA c
     d c d d, g4 e'
     fis4. e8 d h g4 %35
     fis fis'8 e d4. h8
@@ -260,12 +260,12 @@ H-I-XIcBassFigures = \figuremode {
   r2 q
   r q
   r2. \bo <[6]>8 \bc q
-  <4>4 <3>2. %5
-  \bo <[6]>8 \bc q4 <7>4. <6>8 <5>
+  <4>4 <_+>2. %5
+  \bo <[6]>8 \bc q <7>2 <6>8 <5>
   r <_+> <7> <6> <_+>2
   <2>4. <6>8 <7>4 <6>8 <5>
-  <4>4 <6>8 <[6]> <4>4 <3>
-  r2 <4>4 <3> %10
+  <4>4 <6>8 <[6]> <4>4 <_+>
+  r2 <4>4 <_+> %10
   r2 <5>4 <6>
   <5> <6> <5> <6>
   <7> <4>8 <3>2 <[6]>8
@@ -276,11 +276,11 @@ H-I-XIcBassFigures = \figuremode {
   r4 <6[!]>2.
   r4. \bo <[7 _]>8 <6 4>4 <5 3>
   <3>8 q q \bc <[3 _]> <_+>4 <6>8 q %20
-  r4 <6>8 <5> <[_+]>2
+  r4 q8 <5> <[_+]>2
   r8 <6 5> <4> <_+>4 <[6]>8 <7> <6>
   <[_+]>2 <5>4 <6!>8 <\t>
   r8 <[6]> <7> <6\\>4. <6!>8 <\t>
-  r <6> <4> <3>2 \bo <[6]>8 %25
+  r <6> <4> <_+>2 \bo <[6]>8 %25
   r \bc q <7> <6\\>4. <_+>4
   r8 q <5> <6 [_!]>4 <_+>8 <7> <6>
   <_+>4. q <7 _!>8 <5>
@@ -289,7 +289,7 @@ H-I-XIcBassFigures = \figuremode {
   r4 <6>8 <5> <_+>4 <6>8 <6\\>
   r2 <_+>4 <6 _!>8 <5>
   r2. <[6]>4
-  <4> <3>2 <6\\>8 <5>
+  <4> <_+>2 <6\\>8 <5>
   <_+>2 <6>4 <7>8 <6> %35
   <_+>2 <7>4 <6>
   <5>8 <6\\> <4> <_+> <1> <3> <6> <3>
@@ -309,9 +309,9 @@ H-I-XIdOrgano = {
     a4. fis8 g fis e4
     d8 cis h a gis4 gis'
     a8 gis fis e d4 e
-    a, a'8 gis a gis fis4 %5
+    a, a'8 gis a \hA gis fis4 %5
     e8 e gis e a4 h
-    gis a fis gis
+    gis a fis \hA gis
     a8 d, e4 a, ais
     h d e4. eis8
     fis4 ais h8 e, fis fis, %10
@@ -360,21 +360,21 @@ H-I-XIdBassFigures = \figuremode {
   r2 <7>4 <6>8 <5>
   <_+>2 r8 <[6]> <4> <_+> %10
   \bo <[5]>4 <6>8 <\t>4. <6>4
-  r4 \bc <[6]>8 <6 5>2 <[6]>8
+  r4 \bc <[6]>8 <6 5> r2
   <6[!]>4 <6 5>2 \bo <[6]>4
-  r \bc q2 <4>8 <3>
+  r \bc q2 <4>8 <_+>
   r2. <6>4 %15
   <[4]>8 <_+>2..
   r4 \bo <[6 4]>8 \bc <[5 _+]> r2
-  r4 \bo <[8 6 _]>8 <7 5 _+> <6 4>4 \bc <[5 _+ _]>
-  r <[6]>2 <6 5>4
-  r2. <4>8 <3> %20
+  r4 <6>8 <5 [_+]> \bo <[6 4]>4 <5 _+>
+  r \bc <[6 _]>2 <6 5>4
+  r2. <4>8 <_+> %20
   r4 <6>8 <5>4 <7>8 <_+>4
   <6>4 <6\\> <6 5>2
   <4>4 <_+>2.
   <_!>4 <6 5[!]> r4. \bo <[6]>8
   r \bc q4 <6\\>8 \bo <[4]> \bc <[3]>4. %25
-  r2 r8 <[6]> <4> <3>
+  r2 r8 <[6]> <6 4> <[5] _+>
   r4 <3>2 <6>8 <5>
   <[4\+] 2>4 <6>2 <7>8 <6>
   r2 <7>4 <6>8 <5>
@@ -385,9 +385,9 @@ H-I-XIdBassFigures = \figuremode {
   r
   r2. <6>8 <5> %35
   r4 <6>8 <5> r2
-  <6 5>4 <4>8 <3> r2
-  \bo <[8] 6>8 \bc <[7] 5>4. \bo <[8 6]>8 \bc <[7 5]>4.
-  r4 <6>8 \bo <[6 4]> \bc <[6 5]>4 <4>8 <3>
+  <6 5>4 <4>8 <_+> r2
+  <6>8 <5>4. \bo <[6]>8 \bc <[5]>4.
+  r4 <6>8 \bo <[6 4]> \bc <[6 5]>4 <4>8 <_+>
   r1 %40 finis
 }
 
@@ -395,6 +395,7 @@ H-I-XIeOrgano = {
   \relative c {
     \clef bass
     \key g \major \time 3/4 \tempoH-I-XIea
+      \once \override Staff.TimeSignature.style = #'single-digit
     \mvTr g'8.\fE-\tutti a16 h8 g a fis
     g g16 a h8 g a d,
     g g, r g' g g
@@ -402,13 +403,13 @@ H-I-XIeOrgano = {
     d cis d d16 e fis8 d %5
     g16 fis e d cis8 d a4
     d4. \mvTr d8\pE-\solo e fis
-    g h a g c,4
+    g a h g c,4
     h a g8 h
     c4 a h %10
     e4. fis8 g4
     d!8 e fis4 g8 e
     fis h, fis4 h
-    h8 cis d4 a!
+    h8 cis? d4 a!
     ais h8 e fis4 %15
     h, g' a!
     fis g8 e16 d cis8 d
@@ -468,7 +469,7 @@ H-I-XIeOrgano = {
     e8 d c4 d
     g, \clef bass \mvTr e\fE-\tutti a8 g!
     f e d4 c
-    f e a8 f16 g
+    f e a8 \hA f16 g
     e8 c f e16 \hA f g4 %75
     c,8 \mvTr c'\pE-\solo h4 a
     g d e8 fis!
@@ -502,15 +503,15 @@ H-I-XIeBassFigures = \figuremode {
   \bc <[4\+] 2>8 <6>4. \bo <[6\\ _]>8 \bc <[6 4]>
   <2> <[6 5]> r2 %5
   r4 <[6 5]> <4>8 <_+>
-  r4. <[6]>8 <6[!]>4
+  r4. <6[!]>
   r2.
   <6>4 <7>8 <6>4.
   r4 <6 5> <4>8 <_+> %10
-  r4 <6>2
+  r4 <6[!]>2
   r r8 <6\\>
   \bo <[5\+] _+>4 <5\+ 4>8 \bc <[\t] _+>4.
   <6>8 q4. \bo <[_+ _]>4
-  \bc <[6 _+]>4. \bo <[6\\ _]>8 \bc <[5\+ _+]>4 %15
+  <6 _+>4. <6\\>8 \bc <[5\+ _+]>4 %15
   r <6> <_+>
   <6>2 <6 5>4
   <4>8 <_+> r2
@@ -522,7 +523,7 @@ H-I-XIeBassFigures = \figuremode {
   r8 <[6]>4. <_+>4
   <7>8 <6\\> <_+>2 %25
   q4 \bo <[6]>4. \bc q8
-  <7> <6\\>4. <[_+]>8 <6>
+  <7> <6\\>4. <[_+]>8 <6 [_+]>
   r <[5\+] _+>4 <6\\>8 \bo <[5\+] 4> <\t _+>
   r4 <6> <_+>8 <5\+>
   <6> \bc <[6]> <4> <_+>4 <[6]>8 %30
@@ -543,10 +544,10 @@ H-I-XIeBassFigures = \figuremode {
   <_+>4 <\t>2 %45
   r4 <6[!]>2
   <6>8 q <7> <6> <_+>4
-  <\t> <2> <6>
+  <3+> <2> <6>
   <4\+> <6>2
-  <6[!] 5> <6>8 <6 [5]> %50
-  <4> <3> r2
+  <6[!] 5> <6>8 q %50
+  <4> <_+> r2
   <[6]>4 <7>8 <6\\>4 q8
   <[5\+] _+>2 <7>8 <6>
   <6 5 [_+]>2 <6\\ 5>4
@@ -570,14 +571,14 @@ H-I-XIeBassFigures = \figuremode {
   r4 <_+>2
   r8 <[6]> \bo <7 [_!]> \bc <6 [\t]>4.
   <7>8 <6> <_+>4. <6 [5]>8
-  \bo <[6 _]>4 \bc q <4>8 <3> %75
+  \bo <[6]>4 \bc q <4>8 <3> %75
   r4 <[6]> <7>8 <6\\>
   r2 <6>8 q
-  r4 <[6 4]>8 \bo <[5] 4>16 \bc <[\t] 3> r4
+  r4 <4>8 <_+>4.
   r8 <6> <_+>4 <6>
   q2 <_+>8 <6> %80
   <4> <_+>4. <[6!]>4
-  r8 <[6]>4 <6>8 <4> <3>
+  r8 <[6]>4 <6>8 <4> <_+>
   <6>2 \bo <[6]>4
   <3>4. \bc <[6]>8 <7> <6\\>
   r4 <6\\> <4>8 <_+> %85
@@ -588,7 +589,7 @@ H-I-XIeBassFigures = \figuremode {
   r <3> <2> <5> <4> <3> <4\+> <6> %90
   <7> <6\\> <4> <3> \bo <[5 4]> <\t 3> <7\\ 4> \bc <[8 3]>
   r2 r8 <3>4 <6>8
-  r <[6]> <7> <6> <4> <3> <[7]> <6>16 <5>
+  r <[6]> <7> <6> <4> <3> <6> <5>
   r1
   r %95
   r
@@ -616,7 +617,7 @@ H-I-XIfOrgano = {
     a r8 a' g! f e d %15
     c4 r r8 \mvTr c\fE-\tutti e g
     c g e c a a a a
-    g \mvTr g\pE-\solo a h c4 d8 e
+    << { g' } \\ { g,[ \mvTr g]\pE-\solo } >> a h c4 d8 e
     f d h! c g g' f e
     d c16 h a a' g f e4 h %20
     c8 a f g c e h g
@@ -626,16 +627,16 @@ H-I-XIfOrgano = {
     g c g4 c8 h a4 %25
     g r16 \mvTr c\fE-\tutti e g c8 a e4
     a,8 \mvTr c'\pE-\solo gis e a f d e
-    cis a16 h cis4 d dis
+    cis a16 h \hA cis4 d dis
     e4. e8 cis4 a
-    d g8 g, c h a4 %30
+    d! g8 g, c h a4 %30
     << { g'8 f! e h } \\ { g4 s } >> c r
     R1
     r4 r8 c f4 d
     g c, f d
     h8 c g4 c d %35
-    e f \tempoH-I-XIfb g8 \clef "treble_8" \mvTr g4-!\fE-\tutti \parOn c8-\parenthesize-!
-    \parOff h4-\parenthesize-! e d8 g, c4
+    e f \tempoH-I-XIfb g8 \clef "treble_8" \mvTr g4-!\fE-\tutti c8-!
+    h4 e d8 g, c4
     h8 \clef bass c,4 f8 e4 a8 a
     g c, f4 e8 a d,16 c d e
     f8 d e16 d e f g4 e8 c %40
@@ -657,9 +658,9 @@ H-I-XIfBassFigures = \figuremode {
   r4 \bo <[6]> \bc q2
   <4>4 <3>2.
   r2 <[6]>4. <_+>8 %10
-  \bo <[6 _]>4 <6> <6 4>8 <5 3>4.
+  \bo <[6]>4 \bc q <_+>2
   r2.. <_+>8
-  \bc <[6 _]>4 <6> <6 4> <5 _+>
+  <[6]>4 <6> <6 4> <5 _+>
   r2 <6\\>4 <6>
   r1 %15
   r
@@ -671,7 +672,7 @@ H-I-XIfBassFigures = \figuremode {
   r2 <6\\>8 <8 6!> <6>4
   <_+>1
   r8 <6> q q \bo <[6]>4 \bc q
-  r4 <3>2 <5>8 <6\\> %25
+  r4 <3>2 <5>8. <6\\>16 %25
   r2. <4>8 <_+>
   r4 <[6]>2 <6>8 <_+>
   <[6]>2. <7[!] 5 [_+]>4
@@ -681,12 +682,12 @@ H-I-XIfBassFigures = \figuremode {
   r1
   r
   r
-  <6 5>4 <4>8 <3>4. <6>8 <5> %35
-  <6>4 \bo <[8] 6>8 \bc <[7] 5> r2
-  r8 <6> <3> <6> q <3> <10>4
+  <6 5>4 <4>8 <_!>4. <6>8 <5> %35
+  <6>4 <6>8 <5> r2
+  <6>4 <3>8 <6> q <3> <10>4
   q8 <5> <6> <6 3> <6>4 \bo <[5]>8 \bc <[6]>
   <6> <3> <7> <6> <7> <3> <7> <6>
-  r4 <7>8 <6> r4 <[6]> %40
+  r4 <7>8 <6>4. <[6]>4 %40
   r1
   r2 r8 <6> <3>16 q q q
   r4 \bo <[6]> \bc q <4>8 <3>

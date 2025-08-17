@@ -21,7 +21,7 @@ H-I-XIaViolinoII = {
     r4 c2\pE c4 h2
     a4 c d a d c
     h g r h'\fE g h %25
-    c h r h,\pE g h
+    c h r h,\p g h
     c h8 c d4\fE e f2
     e4 a2 gis4 a4. g8
     fis!2 g2. fis4
@@ -39,7 +39,7 @@ H-I-XIaViolinoII = {
     g8 h fis h g4 g2 f4
     e a2 g4 e8 f g a
     h4 c d4.\trill c16 h a4 g
-    fis d' c a h a %45
+    fis! d' c a h a %45
     g8 a h4 a a2 h4
     c d8 e d2.\trill c8 h
     a2 \after 4 \tempoH-I-XIab h r4 d,
@@ -66,10 +66,10 @@ H-I-XIbViolinoII = {
     r16 d\fE h g d'8 d, r16 d' h g d'8 d,
     h'16 g' e g a, g' a, fis' g4 r
     R1*2 %11
-    r4 r8 d\pE e16 d c h a h c8~
-    c16 h h8 r4 r16 h\fE d g e g c e,
+    r4 r8 d\pE e16 d c h a h c8
+    c16( h) h8 r4 r16 h\fE d g e g c e,
     d g h, d g,4 r16 h8\dstU h16 r h8\dstU h16
-    r a8\dstD a16 r a8\dstD a16 r gis8\dstD gis16 r gis8\dstD gis16 %15
+    r a8\dstD a16 r a8\dstD a16 r gis8\dstD gis16 r \hA gis8\dstD gis16 %15
     r e8\dstD e16 r e8\dstD e16 r fis!8\dstD fis16 r g8\dstD g16
     fis8 e' h, h' g \tuplet 3/2 8 { e16\pE dis e } h'8 \tuplet 3/2 8 { fis16 e fis }
     g8 e r e16 d c8 c c c
@@ -83,13 +83,13 @@ H-I-XIbViolinoII = {
     e, a d,8 fis16.\fE a32 d8 a
     h g16. h32 e8 dis e h16. e32 c8 h
     c h a g a a~ a fis16. a32 %30
-    h8 h~ h16 g h8 dis e4 dis8
+    h8 h~ h16 g h8 dis e4 \hA dis8
     \tempoH-I-XIbb e8 e, h'8. a16 g8 h a g
     fis4 r8 g16 fis e8 c'16 h a g fis e
     d g fis e d8 e a,4 r8 c
     g'16 fis g h a g a fis d8 h' a fis %35
     r e a8. g16 fis8 d! g8. fis16
-    e fis g8 fis e dis e4 dis8
+    e fis g8 fis e dis e4 \hA dis8
     e4 r r2\fermata \bar "|." %38 finis
   }
 }
@@ -117,7 +117,7 @@ H-I-XIcViolinoII = {
     fis8 fis d fis g fis4 e8
     fis4 r8 fis g g g fis
     g4. g8 g4 fis8 e
-    dis e4 dis8 e4 r %30
+    dis e4 \hA dis8 e4 r %30
     R1*3
     r4 d8\pE d d d g8. g16
     fis4. fis4 d'8 d cis16 h %35
@@ -143,7 +143,7 @@ H-I-XIdViolinoII = {
     d8 e, cis'4. h16 a h4
     e,8 a4 gis8 a4 r
     R1*7 %15
-    r2 fis8 fis h4~
+    r2 fis8\fE fis h4~
     h8 cis h ais h4 r
     r2 r4 cis\pE
     fis, h e, a
@@ -175,12 +175,13 @@ H-I-XIeViolinoII = {
   \relative c' {
     \clef treble
     \key g \major \time 3/4 \tempoH-I-XIea
+      \once \override Staff.TimeSignature.style = #'single-digit
     h'8.\fE c16 d8 h c a
     h8. c16 d8 h c a
     h h e4. d8
     cis^\critnote d h8. h16 cis8 d
     e4 a,8 a d8. cis16 %5
-    h8 cis16 d e8 d4 cis8
+    h8 cis16 d e8 d4 \hA cis8
     d4 r r
     R2.*7 %14
     r4 r ais8\pE ais %15
@@ -199,8 +200,8 @@ H-I-XIeViolinoII = {
     fis fis h h a a
     e fis e4 e %30
     R2.*4
-    r4 r8 cis'16\fE cis d8 cis %35
-    d cis d cis^\critnote h4
+    r4 r8 cis'16\fE cis d8 \hA cis %35
+    d cis d \hA cis^\critnote h4
     ais8 h4 h8 h h
     h h4 a8 h4~
     h8 g fis8. g16 a4
@@ -216,7 +217,7 @@ H-I-XIeViolinoII = {
     a4 g8 g g g %50
     g fis g4 r
     R2.*3
-    ais8\pE ais fis g e e16 e %55
+    ais8[\pE ais fis g] e e16 e %55
     fis8 a h a g4
     fis g cis,8 fis
     d16 e fis4 e8 fis4
@@ -225,7 +226,7 @@ H-I-XIeViolinoII = {
     e d16 cis h8 h d d
     h h16 c d8 c h a
     h4 h8 h4 cis16 h
-    ais8 h4 ais8 h4 %65
+    ais8 h4 \hA ais8 h4 %65
     R2.*6 %71
     r4 h8\fE h c h
     c c4 h8 c4
@@ -241,9 +242,9 @@ H-I-XIeViolinoII = {
     \time 4/4 \tempoH-I-XIeb r2 r4 r8 d,\fE \noBreak %90
     e g4 fis8 g g4 fis8
     e a4 g16 fis e fis e fis g4
-    r8 g a c4 \once \slurDashed h8~ h a16 g
+    r8 g a c4 \once \tieDashed h8~ h a16 g
     fis8 fis g a fis g e fis
-    d4. d8 d h c \once \tieDashed e~ %95
+    d4. d8 d h c e~ %95
     e d e g~ g f e d
     e2\trill d\fermata \bar "|."
   }
@@ -264,7 +265,7 @@ H-I-XIfViolinoII = {
     d, c' g, h' c16 g e c c4
     R1 %10
     r2 r8 gis4\pE e8
-    a4 gis16 e fis gis a8.\fE c16 e8 h
+    a4 gis16 e fis \hA gis a8.\fE c16 e8 h
     c e d f e16 c a e h'8.\trill h16
     a c e, a c,4 r r8 \tuplet 3/2 8 { e16\trill\pE d e }
     c'8 r r4 r2 %15
@@ -276,7 +277,7 @@ H-I-XIfViolinoII = {
     e16 c g e c' g e c r8 c' h a
     gis8.[ h16 e,8. a16] f8.[ a16 d,8. g16]
     e4 r d'8 e d c
-    h c h8. a16 g-\critnote g a h c8. a16 %25
+    h c h8. a16 g g a h c8. a16 %25
     d g,,\fE h d g4 e8 a4 gis8
     a4 r r2
     R1*3 %30

@@ -10,8 +10,8 @@ H-I-XIaAlto = {
     r4 g2 fis4 g e
     fis g2( fis4) g2 %5
     \mvTr g2.\pE^\solo e4 a8([ g] a4
-    fis) d e4. e8 c([ h)] c4
-    a( a'2 g4) fis2
+    fis) d e4. e8 c([ h] c4)
+    a a'2( g4) fis2
     r4 \mvTr fis\fE^\tutti g2 fis
     r4 fis\p g2 fis4 fis8([\f g)] %10
     a4 fis g( e) fis2
@@ -44,7 +44,7 @@ H-I-XIaAlto = {
     g2 e8[ fis g e] a[ g] fis4
     e a2( fis4) d g~ %50
     g e d2 r4 d(
-    g8[ e] g2) fis4 h4._( a8
+    g8[ e] g2) fis4 \once \stemUp h4.( a8
     g[ fis] e4) d2 r4 d(
     a' g2 fis4) g2\fermata \bar "|." %54 finis
   }
@@ -57,8 +57,8 @@ H-I-XIaAltoLyrics = \lyricmode {
   Se -- de a dex --
   tris me -- is, %5
   do -- nec po --
-  nam in -- i -- mi -- cos
-  tu -- os
+  nam in -- i -- mi --
+  cos tu -- os
   sca -- bel -- lum,
   sca -- bel -- lum pe -- %10
   dum tu -- o -- rum.
@@ -134,7 +134,7 @@ H-I-XIbAlto = {
     d[ g fis e] d8[ e] a, r r c
     g'16[ fis g h] a[ g a fis] d8 h'([ a)] fis %35
     r e a8.[ g16] fis8[ d!] g8.[ fis16]
-    e[ fis g8] fis[ e] dis e4( dis8)
+    e[ fis g8] fis[ e] dis e4( \hA dis8)
     e4 r r2\fermata \bar "|." %38 finis
   }
 }
@@ -193,7 +193,7 @@ H-I-XIcAlto = {
     g8 g g g fis fis fis fis16 fis
     e4. e8 d e d([ cis)]
     d \mvTr h'\pE^\solo a!8. g16 fis4 a8 fis
-    h a g fis fis4\trillE e
+    h a g fis fis4\trill e
     a8 g fis e dis4 e8 fis %20
     g a16([ g)] fis8 e dis4 h'8 a
     g fis fis4\trill e r
@@ -203,15 +203,15 @@ H-I-XIcAlto = {
     fis fis d fis g fis16 fis fis8([ e)]
     fis4 r8 fis g g16 g g8 fis^\critnote
     g8. g16 g8 g e4 fis8 e
-    dis e16 e e8 dis e4 \mvTr e~\pE^\solo %30
+    dis e16 e e8 \hA dis e4 \mvTr e~\pE^\solo %30
     e8[ fis16 g] fis8 e dis4 e8 fis
     g4. g8 fis4 g8 fis
     e8. e16 a8 g fis4 g8 e
     fis2\trill g4 r
     R1*3 %37
-    r2 r8 \mvTr fis(\fE^\tuttiE g4)
-    fis8 h4_( a8 g[ h ais h])
-    cis4 r8 h4_( ais16[ gis] \hA ais8[ \hA gis)] %40
+    r2 r8 \mvTr fis(\fE^\tutti g4)
+    fis8 \once \stemUp h4( a8 g[ h ais h])
+    cis4 r8 \once \stemUp h4( ais16[ gis] \hA ais8[ \hA gis)] %40
     fis fis4 e8 d4. cis16[ h]
     cis1
     dis\fermata \bar "|." %43 finis
@@ -330,6 +330,7 @@ H-I-XIeAlto = {
   \relative c' {
     \clef treble
     \key g \major \time 3/4 \autoBeamOff \tempoH-I-XIea
+      \once \override Staff.TimeSignature.style = #'single-digit
     \mvTr g'8.\fE^\tutti g16 g8 g e fis
     d g g g e fis
     g4 r8 g g g
@@ -376,7 +377,7 @@ H-I-XIeAlto = {
     g([ fis)] g4 r
     R2.
     r4 \mvTr fis8\pE^\solo fis fis e16 e
-    e e fis e d8 d cis cis16 cis^\critnote
+    e e fis e d8 d cis cis16 cis
     cis4 d r %55
     R2.*3
     r4 r a'16 a g a
@@ -401,7 +402,7 @@ H-I-XIeAlto = {
     h8 a g fis16([ e)] dis8 e16 fis %80
     fis4 e r
     R2.*3
-    fis8 fis gis a16 a a8([ gis)] %85
+    fis8 fis gis a16 a a8([ \hA gis)] %85
     a4 r r
     r8 dis, g8. fis16 e8 e
     e e fis8. e16 d4 \noBreak
@@ -500,7 +501,7 @@ H-I-XIeAltoLyrics = \lyricmode {
   men, a -- men,
   a --
   men, a --
-  \xE men, a -- \x men, a -- %95
+  men, a -- men, a -- %95
 
   _ men. %97 finis
 }
@@ -525,7 +526,7 @@ H-I-XIfAlto = {
     a r r2
     R1 %15
     r2 r8 \mvTr e\fE^\tutti g g
-    g4 g8 g4( fis16[ e] fis4)
+    g4 g8 g4( fis16[ e] \hA fis4)
     g8 \mvTr g4\pE^\solo f8 f e f g
     c, f4( e8) d d4 e8
     f g16 g a8 h c h16([ a)] g8 f %20
@@ -548,7 +549,7 @@ H-I-XIfAlto = {
     c,8 f( g16[ f g a)] d,8 h([ g' e] %40
     d) g, r4 d'8 g f e
     d c h16([ a h c]) d8 e[ c f]
-    e16[ d e f] g8.[ f32 e] d8 g4 g8
+    e16[ d e f] g8.[\trill f32 e] d8 g4 g8
     g([ a] d,4)\trill e r\fermata \bar "|." %44 finis
   }
 }

@@ -5,42 +5,50 @@ genre: vesper
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.98
+    date: 1757
+    rism: 530002151
+    url: https://copia.oszk.hu/kotta/vesperae-de-apostolis-in-g/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: G 22
     rism: 600038424
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/1008.html
     license: public domain
-    principal: true
+  B2:
+    siglum: A-KN
+    shelfmark: 73/3
+    rism: 601001134
+    url: https://db.klostermusiksammlungen.at/scores/97
+    license: public domain
 tocstyle: default
 toe: |
-  – & –  & –    & This vesper has been attributed to Werner (H-VEs, Vesp.58),
-                  to a composer named “Carl [Lindt]” (\B1), or to both of them
-                  (H-Bn Ms.mus III.98). However, the compositional technique
-                  of the work suggests that at least movements 1–3, 5, and 6
-                  are by Werner. \\
-  1 & 2  & vl 1 & 2nd to 4th \quarterNote\ in \B1: g″8.–d′′′16–c′′′2 \\
-    & 14 & vlne & last \quarterNote\ in \B1: A4 \\
-    & 42 & S    & 2nd \halfNote\ in \B1: b′8–b′8–b′4 \\
-  3 & 15 & vl 2 & 4th \quarterNote\ in \B1: d″8–d″8 \\
-    & 27 & T    & 11th \sixteenthNote\ in \B1: d′16 \\
-    & 28 & A    & last \eighthNote\ in \B1: g′8 \\
-  4 & 26 & vl 1 & 4th \quarterNote\ in \B1: b′8–a′8 \\
-    & 35 & vl 1 & 2nd \quarterNote\ in \B1: \sharp f″8.–e″16 \\
-  5 & 2  & B    & last \eighthNote\ in \B1: \sharp f8 \\
-    & 4  & vl 2 & bar in \B1: \sharp c″4–d″8–b′8–b′8–\sharp c″16–d″16 \\
-    & 21 & vl 1 & 5th \eighthNote\ in \B1: e″8 \\
-    & 22 & S    & 11th \sixteenthNote\ in \B1: f″16 \\
-    & 24 & T    & 5th \sixteenthNote\ in \B1: b16 \\
-    & 36 & vl 2 & 4th \eighthNote\ in \B1: \sharp a′8 \\
-    & 40 & T    & 4th \eighthNote\ in \B1: d′8 \\
-    & 49 & vl 1 & 1st \quarterNote\ in \B1: c″4 \\
-    & 54 & A    & last \sixteenthNote\ in \B1: d′16 \\
-    & 63 & org  & 2nd \quarterNote\ in \B1: c4 \\
-    & 74 & vl 1 & 11th \sixteenthNote\ in \B1: b′16 \\
-    & 92 & S    & 1st \halfNote\ in \B1: d″8–c″4–b′8 \\
-    & 95 & B    & 2nd \halfNote\ in \B1: \sharp F2 \\
-  6 & 6  & A    & 4th \quarterNote\ in \B1: f′4 \\
-    & 25 & vl 2 & 9th \sixteenthNote\ in \B1: a′16 \\
-extra_abbreviations:
-  vlne:
+  – & –  & –    & This vesper has been attributed to Werner (H-VEs Vesp.58),
+                  to Anton Carl (\B1, \B2), or to both of them (\A1).
+                  Since \B2 is attributed to Carl alone and comprises
+                  movements 3–5, the remaining movements are
+                  likely by Werner. \\
+  1 & 2  & vl 1 & 2nd to 4th \quarterNote\ in \A1: g″4.–d′′′8–c′′′2
+                  (emended by later hand to g″8.–d′′′16) \\
+    & 42 & S    & 2nd \halfNote\ in \A1 and \B1: b′8–b′8–b′4 \\
+  3 & 15 & vl 2 & 4th \quarterNote\ in \A1 and \B1: d″8–d″8 \\
+    & 27 & T    & 11th \sixteenthNote\ in \A1 and \B1: d′16 \\
+    & 28 & A    & last \eighthNote\ in \A1 and \B1: g′8 \\
+  4 & 26 & S    & 4th \quarterNote\ in \A1 and \B1: a′4 \\
+    & 35 & vl 1 & 2nd \quarterNote\ in \A1 and \B1: \sharp f″8.–e″16 \\
+  5 & 2  & B    & last \eighthNote\ in \A1 and \B1: \sharp f8 \\
+    & 4  & vl 2 & bar in \A1 and \B1: \sharp c″4–d″8–b′8–b′8–\sharp c″16–d″16 \\
+    & 21 & vl 1 & 5th \eighthNote\ in \A1 and \B1: e″8 \\
+    & 22 & S    & 11th \sixteenthNote\ in \A1 and \B1: f″16 \\
+    & 36 & vl 2 & 4th \eighthNote\ in \A1 and \B1: \sharp a′8 \\
+    & 40 & T    & 4th \eighthNote\ in \A1 and \B1: d′8 \\
+    & 49 & vl 1 & 1st \quarterNote\ in \A1 and \B1: c″4 \\
+    & 63 & org  & 2nd \quarterNote\ in \A1 and \B1: c4 \\
+    & 74 & vl 1 & 11th \sixteenthNote\ in \A1 and \B1: b′16 \\
+    & 92 & S    & 1st \halfNote\ in \A1 and \B1: d″8–c″4–b′8 \\
+  6 & 6  & A    & 4th \quarterNote\ in \A1 and \B1: f′4 \\
+    & 44 & B    & 2nd \halfNote\ in \A1 and \B1: c2 \\
