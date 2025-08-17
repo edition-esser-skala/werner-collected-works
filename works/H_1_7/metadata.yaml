@@ -5,14 +5,19 @@ genre: vesper
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.94
+    rism: 530002147
+    url: https://copia.oszk.hu/kotta/vesperae-breviores-de-b-virgine-in-g/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: G 80
     rism: 600038325
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/1034.html
     license: public domain
-    principal: true
 tocstyle: default
 toe: |
-  2 & 17 & A & bar missing in \B1 \\
-  6 & 5  & A & 2nd \sixteenthNote\ in \B1: c′16 \\
+  5 & 24 & A & bar in \A1: c′2–\crotchetRest \\

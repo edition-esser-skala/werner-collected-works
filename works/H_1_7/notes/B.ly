@@ -69,7 +69,7 @@ H-I-VIILaudateBasso = {
     g e cis d16 d a8 a r4
     R1*2
     r2 r8 \mvTr d\pE^\solo g8. g16 %10
-    fis8 fis16([ gis?] ais8) fis h fis d h
+    fis8 fis16([ gis ais8]) fis h fis d h
     fis'4 ais8 fis h d16 cis h([ cis a h]
     g8) fis16 fis e4 d r
     R1*2 %15
@@ -82,7 +82,7 @@ H-I-VIILaudateBasso = {
     r2 r4 r8 d
     g4. e8 a[ g16 a] fis8[ e16 fis]
     d8 d( g4. e8 a[ g16 a])
-    fis8 fis( h[ a16 h] g4 a8) d, %25
+    fis8 fis( h[ a16 h] g8[ fis16 g] a8) d, %25
     a4 d r2\fermata \bar "|." %26 finis
   }
 }
@@ -142,7 +142,7 @@ H-I-VIILaetatusBasso = {
     a a gis
     a4. h8 cis4 h a a
     gis2 fis1
-    e2 r r %35
+    e r2 %35
     R1.
     r2 e e
     fis gis!1
@@ -161,7 +161,7 @@ H-I-VIILaetatusBasso = {
     e2 r e
     fis gis a4( gis)
     fis( e) d1
-    e2 r r
+    e1 r2
     R1.*5 %59
     \tempoH-I-VIILaetatusB R1.*5 %64
     \mvTr a2.\fE^\tuttiE cis4 fis, a %65
@@ -234,7 +234,7 @@ H-I-VIINisiBasso = {
     a e c h16 a e'8 e r4
     R1*2
     r2 c'8 g e d16 c %5
-    c' h c a \appoggiatura c8 h4 c r
+    c' h c a \appoggiatura c8 h4\trill c r
     r8 \mvTr gis\fE^\tutti a e r gis a e
     cis a' f d a8. a16 d4
     r8 g!4 g16 g c8. c16 g4
@@ -308,8 +308,8 @@ H-I-VIILaudaBasso = {
     e([ f)] e([ d)] c4
     f8([ g f e)] d([ f)] %5
     g([ a)] g([ f)] e([ g)]
-    a([ f)] g([ f g g,)]
-    c4 r r
+    a([ f)] g([ f] g4)
+    c, r r
     R2.
     r4 \mvTr gis'\pE^\solo e %10
     a8 g f4 e8 e
@@ -321,7 +321,7 @@ H-I-VIILaudaBasso = {
     d e2 %25
     a,4 r r
     R2.*2
-    r4 g' g8 g
+    r4 g'^\aDue g8 g
     a2 h4 %30
     c8 g c4 c8 c
     h([ a)] h4 r
@@ -337,7 +337,7 @@ H-I-VIILaudaBasso = {
     e h2 %45
     e \mvTr e4\pE^\solo
     fis8 gis a4. a8
-    gis4 r r
+    gis2 r4
     a4. g8 a e
     f4 d g~ %50
     g8 a fis4. fis8
@@ -354,10 +354,10 @@ H-I-VIILaudaBasso = {
     e f g2
     c,4 \tempoH-I-VIILaudaB \mvTr c\fE^\tutti f
     e a g8[ f]
-    e4 fis( g8[ f)] %65
+    e4 fis( g8[ \hA fis)] %65
     e4 a8([ g] f4
     e8[ d)] c4 g'
-    e fis( g)
+    e fis g
     c, d2
     g,4 r r %70
     R2.
@@ -425,7 +425,7 @@ H-I-VIILaudaBassoLyrics = \lyricmode {
   men, a -- %65
   men, a --
   men, a --
-  men, a --
+  _ _ _
   men, a --
   men, %70
 
@@ -452,7 +452,7 @@ H-I-VIIMagnificatBasso = {
     f, r r8 \mvTr b'\pE^\solo fis a %10
     g16([ f)] es([ d)] c4 d r
     R1*2
-    r4 \mvTr c'8\pE^\solo c,16 b' a a a a b8 c16 c
+    r4 c'8 c,16 b' a a a a b8 c16 c
     d8 b, r d es d16 d c([ d e c] %15
     f[ g)] a([ f)] b8 g a f16([ d)] a4
     d r r2
@@ -462,7 +462,7 @@ H-I-VIIMagnificatBasso = {
     f16 f c' c a8 f b,16 b c c d8 d16 d
     e8 f16 f c8. c16 f,4 r
     R1 %25
-    r2 r4 \mvTr e'!8\pE^\solo c
+    r2 r4 \mvTr e'!8\pE^\soloE c
     f g16 a b([ a)] g([ f)] e8 f c4
     \tempoH-I-VIIMagnificatB f r8 \mvTr f4\fE^\tutti b8[ a g]
     f[ e f d] c b'[ a g]

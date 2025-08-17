@@ -22,7 +22,7 @@ H-I-VIIDixitAlto = {
     a8 a d, e16 fis g4.( fis8)
     g4 r r2
     r r4 r8 \mvTr a(\fE^\tutti
-    \tempoH-I-VIIDixitB fis8[ h e, a]) fis d([ e fis] %20
+    \tempoH-I-VIIDixitB fis8[ h e, a] fis) d e([ fis] %20
     g[ e fis d]) g e([ fis g]
     a[ g16 fis] g8[ e)] fis fis([ g a)]
     d, g([ a)] a g([ fis16 e] fis8[ e16 d]
@@ -76,7 +76,7 @@ H-I-VIILaudateAlto = {
     fis8. fis16 e8 d d cis r4
     r2 r8 d e e %15
     fis16([ e)] fis8 r4 r2
-    R1^\critnote
+    R1
     r4 \mvTr g8\fE^\tutti fis fis fis g e
     fis8. fis16 e8 a g g fis4
     e fis8 fis g g16 g g8 fis %20
@@ -130,7 +130,7 @@ H-I-VIILaetatusAlto = {
     fis4 a2 fis8 fis e4. e8
     e2 \mvTr e1~\pE^\solo
     e2. fis8([ gis)] a4 a,
-    fis' e d1
+    fis' e d1\trill
     cis4 d e2. fis8 gis %10
     a1 gis2
     a fis2. fis4
@@ -248,18 +248,18 @@ H-I-VIINisiAlto = {
     r2 r8 \mvTr g\pE^\solo g16([ d)] e([ f)]
     e8 e r4 r8 c f d16 c %15
     h8 h c d e e16 f g8 f
-    e4( d) c r
+    e4( d)\trill c r
     R1*3 %20
     r2 r4 f8 e16 d
-    c8 a r4 r8 g'!4 g8
+    c8 a r4 r8 g'!4^\aTreE g8
     g f16 f e4 d r
     R1*3 %26
     \tempoH-I-VIINisiB R1
     r8 \mvTr a'[\fE^\tuttiE g! e] fis[ gis] a16[ g a f]
-    g[ f e8] d4 c r
+    g[ f e8] d4\trill c r
     R1 %30
     r4 r8 a' gis[ e fis \hA gis]
-    a16[ gis a fis?] \hA gis[ \hA fis \hA gis a] h[ a h \hA gis] a[ e a8]~
+    a16[ gis a fis] \hA gis[ \hA fis \hA gis a] h[ a h \hA gis] a[ e a8]~
     a[ gis] a4 r2\fermata \bar "|." %33 finis
   }
 }
@@ -304,18 +304,18 @@ H-I-VIILaudaAlto = {
     e8([ a)] g2
     g4 r r
     R2.*10 %18
-    \mvTr h4\pE^\solo h h8 h
-    a4. g!16 g a8 e %20
+    \mvTr h4\pE^\solo h h
+    a4. g!8 a e %20
     f4 d r
     r8 d d e16 f g8 f
     e f d2
-    c4 r r
+    c4^\critnote r r
     R2.*7 %31
-    r4 d e
+    r4 d^\aDueE e
     c4. c8 d4
     h4. h8 c4
     d c8 h c4~ %35
-    c8 d h2
+    c8 d h2\trill
     a4 r r
     r \mvTr g'!\fE^\tutti g
     g g8 g g g
@@ -356,8 +356,8 @@ H-I-VIILaudaAltoLyrics = \lyricmode {
   um, Si --
   on.
 
-  E -- mit -- tet e -- %19
-  lo -- qui -- um su -- um %20
+  E -- mit -- tet %19
+  ver -- bum su -- um %20
   ter -- rae,
   ve -- lo -- ci -- ter cur -- rit
   ser -- mo e --
@@ -402,8 +402,8 @@ H-I-VIIMagnificatAlto = {
     \key f \major \time 4/4 \autoBeamOff \tempoH-I-VIIMagnificat
     R1*2
     r2 r8 \mvTr c\pE^\solo d g
-    g f e16 e a8 a g4 f8
-    f16 d-\critnote f8. f16 e e d4 e %5
+    g f e16 e a8~ a g4 f16 f
+    f d f8. f16 e e d4 e %5
     R1*2
     r4 \mvTr f8\fE^\tutti f e16 e c e f8([ a)]
     g4 f8. f16 e e f4( e8)
@@ -417,8 +417,8 @@ H-I-VIIMagnificatAlto = {
     f'8 e16 d c8([ b)] a16 c d e f g a b
     c([ a)] g([ f)] \appoggiatura f8 e8. e16 f4 r
     R1
-    r4 r8 g f f a g16 f %20
-    e8 f16 e d4 c r
+    r4 r8 g^\aDue f f a g16 f %20
+    e8 f16 e d4\trill c r
     r r8 \mvTr e\fE^\tutti f f g e
     f16 f e e f8 a f16 f e e f8 f16 f
     g8 f16 f f8 e f4 r
@@ -429,15 +429,15 @@ H-I-VIIMagnificatAlto = {
     r2 r8 \mvTr f4\fE^\tuttiE b8
     a[ g] f4. e8 d4 %30
     e r r8 c4 f8
-    e[ d] c[ d16 e] f2
-    r4 f( g8 f4 e8)
-    f2 r\fermata \bar "|."
+    e[ d] c[ d16 e] f4 f,
+    r f' g8 f4( e8)
+    f2 r\fermata \bar "|." %34 finis
   }
 }
 
 H-I-VIIMagnificatAltoLyrics = \lyricmode {
   et ex -- ul -- %3
-  ta -- vit spi -- ri -- tus me -- us in
+  ta -- vit spi -- ri -- tus __ me -- us in
   De -- o sa -- lu -- ta -- ri me -- o. %5
 
   o -- mnes ge -- ne -- ra -- ti -- o -- %8
@@ -464,7 +464,7 @@ H-I-VIIMagnificatAltoLyrics = \lyricmode {
   a -- _
   _ _ men, a -- %30
   men, a -- _
-  _ _ men,
-  a --
+  _ _ _ men,
+  a -- men, a --
   men. %34 finis
 }

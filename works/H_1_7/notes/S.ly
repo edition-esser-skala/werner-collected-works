@@ -68,7 +68,7 @@ H-I-VIILaudateSoprano = {
     d16 d e8 e d d cis cis dis
     e e e d cis4 r
     r2 \mvTr a8.\pE^\solo a16 a8 a
-    a16([ d cis h] a[ g)] fis([ e)] fis8. e16 d4
+    a16(^[ d cis h] a[ g)] fis([ e)] fis8. e16 d4
     R1*4 %13
     r2 e8 e e fis
     g a16 h a([ h cis a] d4. cis8) %15
@@ -127,7 +127,7 @@ H-I-VIILaetatusSoprano = {
     r2 \mvTr a\pE^\solo d
     d cis4( d) e( h) %15
     ais2 ais4 ais h cis
-    d cis8([ h)] cis1\trill
+    \appoggiatura e8 d4 cis8([ h)] cis1\trill
     h2 r r
     R1.
     a2^\aTreE a2. h4 %20
@@ -140,8 +140,12 @@ H-I-VIILaetatusSoprano = {
     e2 fis2. fis4
     e2. e4 dis2
     e r r
-    R1.*11 %40
-    \mvTr h4(\pE^\solo cis) d2 d
+    R1.
+    \mvTr e1\pE^\solo e,2
+    a fis'4 fis e d
+    cis2 a r
+    R1.*7 %40
+    h4( cis) d2 d
     cis h ais
     h r r
     R1.*5 %48
@@ -154,7 +158,7 @@ H-I-VIILaetatusSoprano = {
     R1.*5 %59
     \tempoH-I-VIILaetatusB R1.*3 %62
     \mvTr a,2.\fE^\tuttiE cis4 fis, a
-    gis h e, e' d! cis8[ h]
+    gis h e, e' \appoggiatura e8 d!4 cis8[ h]
     cis4 d8[ e] fis4 e fis2 %65
     e4 dis e h e2
     d4 cis d a d2~
@@ -189,6 +193,10 @@ H-I-VIILaetatusSopranoLyrics = \lyricmode {
   gen -- ti -- bus
   te.
 
+  Fi -- at %31
+  pax in vir -- tu -- te
+  tu -- a,
+
   lo -- que -- bar %41
   pa -- cem de
   te:
@@ -215,7 +223,7 @@ H-I-VIINisiSoprano = {
     \key a \minor \time 4/4 \autoBeamOff \tempoH-I-VIINisi
     R1
     r4 r8 \mvTr e'\pE^\solo e e16 e e8 e
-    e e, h' e e16([ c)] h a \appoggiatura c8 h4
+    e e, h' e e16([ c)] h a \appoggiatura c8 h4\trill
     a r r2
     R1 %5
     r2 r8 \mvTr e'\fE^\tutti e e
@@ -232,15 +240,15 @@ H-I-VIINisiSoprano = {
     c8 h16 a g8 f16 g e8 e r16 a c a
     d8 d r d16 h e8 e c16[( d)] e8 %20
     d c b a gis a4( \hA gis8)
-    a4 r r8 h4 h8
-    cis d16 d d8([ cis)] d4 r
+    a4 r r8 h4^\aTreE h8
+    cis d16 d d8([ \hA cis)] d4 r
     R1*3 %26
     \tempoH-I-VIINisiB R1
     r4 r8 \mvTr e\fE^\tutti d[ h] c16[ h c d]
     h8 c4 h8 c4 r
     R1 %30
     r2 r8 e[ d h]
-    c16[ h c d] e[ d e c] d[ c d e] c8[ h16 a]
+    c16[ h c d] e[ d e c] d[ c d e] \appoggiatura d c8[ h16 a]
     h4 a r2\fermata \bar "|." %33 finis
   }
 }
@@ -301,7 +309,7 @@ H-I-VIILaudaSoprano = {
     c d \appoggiatura c4 h2
     c4 r r
     R2.*3 %27
-    r4 c c8 c
+    r4 c^\aDueE c8 c
     d2 e4
     f!8 d f4 f8 f %30
     e([ d)] e4 r
@@ -332,7 +340,7 @@ H-I-VIILaudaSoprano = {
     e4 r r
     R2.
     \after 4 \tempoH-I-VIILaudaB R2.*4 %66
-    \mvTr g4\fE^\tuttiE c h
+    \mvTr g4\fE^\tutti c h
     e d8[ c] h4
     c a2
     h4 h e %70
@@ -340,7 +348,7 @@ H-I-VIILaudaSoprano = {
     d4 c4. d8
     e4. c8[ e f]
     g4 f8[ e] d4
-    e d2 %/5
+    e( d2) %75
     e r4\fermata \bar "|." %76 finis
   }
 }
@@ -405,8 +413,8 @@ H-I-VIILaudaSopranoLyrics = \lyricmode {
   _ _ _
   men, a -- _
   _ _
-  _ _ _
-  men, a -- %75
+  _ _ men,
+  a -- %75
   men. %76 finis
 }
 
@@ -426,7 +434,7 @@ H-I-VIIMagnificatSoprano = {
     b'8 c16 d es8 g, fis4 r
     r2 r4 f8 c'
     d d16 d c8 c b8. b16 b8 b
-    b a16 b g4 f r
+    b a16 b \appoggiatura a8 g4\trill f r
     R1*4 %18
     r8 d' e8. e16 a,8 d c b16 a
     b8 c16 d c4 c r %20

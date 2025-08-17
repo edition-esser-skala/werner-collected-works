@@ -15,7 +15,7 @@ H-I-VIIDixitTenore = {
     h c h h16 c d8 e d16 d e d
     d8. d16 e4 \mvTr gis,8\pE^\solo a h c16 d %10
     e([ d)] e([ h)] c8. h16 a8 f' e16([ c)] h a
-    h4 a r2
+    h4\trill a r2
     r r4 e8 e'
     c d16 e a,8 h16([ cis)] d8 d r c
     h c16 d g,8 a16([ h)] c8 c c d16([ e)] %15
@@ -24,7 +24,7 @@ H-I-VIIDixitTenore = {
     h r r2
     \after 1 \tempoH-I-VIIDixitB R1*3 %21
     r2 r4 r8 \mvTr d\fE^\tuttiE
-    h[ e] a,8.[ c16] c8.[ h16] a8[ h]
+    h[ e] a,8.[ h16] c8.[ h16] a8[ h]
     a g4( fis8) g4 r\fermata \bar "|." %24 finis
   }
 }
@@ -78,7 +78,7 @@ H-I-VIILaudateTenore = {
     r2 r8 a d4~
     d8[ h] e[ d16 e] cis8[ h16 cis] a4
     r8 a h4 r8 h cis4
-    r8 cis d4 r8 h( a) a %25
+    r8 cis d4 r8 h([ a)] a %25
     a4 a r2\fermata \bar "|." %26 finis
   }
 }
@@ -134,7 +134,7 @@ H-I-VIILaetatusTenore = {
     gis cis( h)
     h r r
     R1.*6 %35
-    \mvTr h1\pE^\solo ais2
+    \mvTr h1\pE^\solo^\aDue ais2
     h cis1
     d4( cis) d2 h
     cis2. cis4 dis2
@@ -149,17 +149,17 @@ H-I-VIILaetatusTenore = {
     gis2. gis4 a a %55
     e4. e8 e4 e' d cis
     h2. h4 a gis
-    fis2 fis4 fis' e( d)
+    fis2 fis4 fis' e d
     cis( a) e1
-    \tempoH-I-VIILaetatusB a2. \mvTr cis4(\fE^\tutti fis, a %60
-    gis h) e,2 e
+    \tempoH-I-VIILaetatusB \mvTr a2.\fE^\tutti cis4 fis, a %60
+    gis h e,2 e
     fis gis4 fis8[ e] fis4 gis
     a gis fis1
     e r2
     r cis'1 %65
     h2 r4 h2( gis4)
     a2 r4 a2 fis4
-    h cis8[ d] e1
+    h( cis8[ d] e1)
     e r2\fermata \bar "|." %69 finis
   }
 }
@@ -202,17 +202,17 @@ H-I-VIILaetatusTenoreLyrics = \lyricmode {
   e -- rat in prin -- ci -- %55
   pi -- o et nunc et
   sem -- per et in
-  sae -- cu -- la sae --
-  cu -- lo --
-  rum, a -- %60
-  men, a --
+  sae -- cu -- la sae -- cu --
+  lo -- rum,
+  a -- _ _ _ %60
+  _ _ men, a --
   _ _ _ _ _
   _ _ _
   men,
   a -- %65
   men, a --
-  men, a -- _
-  _ _ _
+  men, a -- men,
+  a --
   men. %69 finis
 }
 
@@ -236,11 +236,11 @@ H-I-VIINisiTenore = {
     r8 g4 a16([ h)] c8 c16 d e8 d
     c4( h) c r
     R1*4 %21
-    r8 c4 h16 a g!8 e16 e e'8 e
+    r8 c4 h16 a g!8 e16 e e'8^\aTreE e
     a, b16 b g8([ a)] d,4 r
     R1*2 %25
     r2 r4 r8 \mvTr e'\fE^\tuttiE
-    \tempoH-I-VIINisiB c[ a h cis] d16[ c d h] c[ d e8]~
+    \tempoH-I-VIINisiB c[ a h cis] d16[ c? d h] c[ d e8]~
     e[ d] e4 r2
     r r8 c[ h g]
     a[ h] c16[ h c a] h8[ cis] d16[ c d h] %30
@@ -301,14 +301,15 @@ H-I-VIILaudaTenore = {
     h r r
     R2.*6 %25
     a4 a8 g! a h
-    c4. c8 h4
-    e a,2
-    R2.*3 %31
-    r4 h c
+    c4. c8 h4(
+    e) a,2\trill
+    g4 r r
+    R2.*2 %31
+    r4 h^\aDue c
     a4. a8 h4
     gis4. gis8 a4
     h a8 gis a4~ %35
-    a8 h \appoggiatura a4 gis2
+    a8 h \appoggiatura a4 gis2\trill
     a4 r r
     r \mvTr c\fE^\tutti h
     c c8 c c c
@@ -324,7 +325,7 @@ H-I-VIILaudaTenore = {
     h4 g r %55
     R2.*7 %62
     \after 4 \tempoH-I-VIILaudaB R2.
-    \mvTr g4(\fE^\tutti c) h
+    \mvTr g4\fE^\tutti c h
     e d8[ c h a] %65
     g4 c8[ h a h]
     c4 r r
@@ -359,8 +360,9 @@ H-I-VIILaudaTenoreLyrics = \lyricmode {
   te.
 
   ne -- bu -- lam si -- cut %26
-  ci -- ne -- rem
-  spar -- git.
+  ci -- ne -- rem __
+  spar --
+  git.
 
   an -- te %32
   fa -- ci -- em
@@ -381,8 +383,8 @@ H-I-VIILaudaTenoreLyrics = \lyricmode {
   Glo -- ri -- a %54
   Pa -- tri, %55
 
-  a -- men, %64
-  a -- _ %65
+  a -- _ _ %64
+  _ _ %65
   _ _
   men,
   a --
@@ -412,7 +414,7 @@ H-I-VIIMagnificatTenore = {
     R1*5 %17
     r4 r8 c c d c b16 c
     a8 d d([ cis)] d4 r
-    r r8 b a a c b16 a %20
+    r r8 b^\aDue a a c b16 a %20
     g8 a16 g f4 e r
     r r8 \mvTr a\fE^\tutti a a g c
     a16 a g g a8 c b16 b g g f8 d'16 d
@@ -422,7 +424,7 @@ H-I-VIIMagnificatTenore = {
     r2 r4 r8 \mvTr c~\fE^\tutti
     \tempoH-I-VIIMagnificatB c[ f e d] c[ d c b]
     a[ g a h] c[ d16 e] f8[ b,]
-    c4 r8 a( g) g g4~ %30
+    c4 r8 a([ g)] g g4~ %30
     g8[ c h a] g[ a] g[ a16 h]
     c4 r r r8 f,(
     g[ a16 b] c8) a g a g4
