@@ -19,7 +19,7 @@
 \book {
   \bookpart {
     \section "H.2.1" "Memento Domine David"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
       <<
