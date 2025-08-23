@@ -1,0 +1,21 @@
+title: Confitebor
+id: WerW H.2.2
+genre: psalm
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.261 (2)
+    rism: 530003591
+    url: https://copia.oszk.hu/kotta/psalm/
+    license: public domain
+    principal: true
+  B2:
+    siglum: A-Ed
+    shelfmark: G 84
+    rism: 600038329
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/916.html
+    license: public domain
+toe: |
+  51 & A & 1st \halfNote\ in \B1: d′2\\
