@@ -77,9 +77,9 @@ I-I-XXIIIViolinoI = {
     R2*2
     d'4.\f e8
     a, h16( cis) d4 %80
-    r8 g( fis e)
+    r8 g( fis) e
     a, h16 cis d4
-    r8 g( fis e)
+    r8 g( fis) e
     a cis, d g
     fis4 e\trill %85
     d r
@@ -90,7 +90,7 @@ I-I-XXIIIViolinoI = {
     r8 h16 c d8 e
     d g4 f8~
     f e4 d8
-    e16( c d8) r4
+    e16( c) d8 r4
     r8 c a'4 %95
     r8 g g,4
     R2*3

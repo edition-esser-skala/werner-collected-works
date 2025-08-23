@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-tempoI-I-IIa = \tempoMarkup "Alla capella · Moderato"
+tempoI-I-IIa = \tempoMarkup "Alla capella moderato"
 tempoI-I-IIb = \tempoMarkup "Adagio"
 
 \include "notes/vla1.ly"

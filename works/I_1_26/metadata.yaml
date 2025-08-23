@@ -4,12 +4,18 @@ genre: antiphon
 scoring: T (solo), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.186
+    rism: 530002075
+    url: https://copia.oszk.hu/kotta/alma-in-g/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: H 4
     rism: 600038474
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/399.html
     license: public domain
-    principal: true
 parts:
   T_solo: Tenore solo

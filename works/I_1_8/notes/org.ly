@@ -4,7 +4,7 @@ I-I-VIIIOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoI-I-VIII
-    \mvTr c4\pE-\solo e8 c g'2
+    \mvTr c4\pE-\solo-\aDue e8 c g'2
     a g4 h,
     c a g h
     c4. d8 e4 gis
@@ -34,7 +34,7 @@ I-I-VIIIOrgano = {
     f g4 fis
     g g, c r
     r c\p g2 %30
-    c\f r\fermata \bar "|." %31 finis
+    c r\fermata \bar "|." %31 finis
   }
 }
 
@@ -42,7 +42,7 @@ I-I-VIIIBassFigures = \figuremode {
   r1
   <5>4 <6\\>2.
   r4 <6\\>2.
-  <5>8 <6>4 <_+>8 q2
+  <5>8 <6>4 r8 <_+>2
   r1 %5
   <7>2 q
   q q

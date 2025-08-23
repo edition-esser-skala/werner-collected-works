@@ -74,4 +74,60 @@
       \midi { \tempo 2 = 80 } % 4 = 40
     }
   }
+  \bookpart {
+    \subsection "Appendix"
+    \addTocEntry
+    \paper { system-count = #1 }
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "vla"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \I-I-IIbViolaI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \I-I-IIbViolaII
+            }
+          >>
+        >>
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \I-I-IIbSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \I-I-IIbSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \I-I-IIbAlto }
+          }
+          \new Lyrics \lyricsto Alto \I-I-IIbAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \I-I-IIbTenore }
+          }
+          \new Lyrics \lyricsto Tenore \I-I-IIbTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \I-I-IIbBasso }
+          }
+          \new Lyrics \lyricsto Basso \I-I-IIbBassoLyrics
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
+            % \transpose c c,
+            \I-I-IIbOrgano
+          }
+        >>
+        \new FiguredBass { \I-I-IIbBassFigures }
+      >>
+      \layout { }
+    }
+  }
 }

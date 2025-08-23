@@ -4,12 +4,20 @@ genre: antiphon
 scoring: S, A, T, B (coro), 2 vla, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.161
+    date: 1758
+    rism: 530002054
+    url: https://copia.oszk.hu/kotta/alma-redemptoris/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: H 5
     rism: 600038475
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/400.html
     license: public domain
-    principal: true
 toe: |
-  7 & org & 2nd \quarterNote\ in \B1: g4 \\
+  – & 42–45 & In \A1, these bars have been replaced by later hand
+              with five novel bars, which are here reproduced as appendix. \\

@@ -158,7 +158,7 @@ I-I-XXIIIBassFigures = \figuremode {
   r2.
   r2 <6\\>
   r <7 5>
-  r <7[!] 5>
+  r <7! 5>
   r <6> %35
   r1
   r2. <[6]>4
@@ -213,7 +213,7 @@ I-I-XXIIIBassFigures = \figuremode {
   r2
   r
   r
-  <7[!] 3>8 <6 4> q <5 3>
+  <7[!] _+>8 <6 4> q <5 _+>
   r2 %90
   <[6]>
   r
@@ -229,7 +229,7 @@ I-I-XXIIIBassFigures = \figuremode {
   q2
   r4 q8 q
   q2
-  <6 4>4 <5 3> %105
+  <6 4>4 <5 _+> %105
   r2
   r4. \bo <[7!]>8
   r2
@@ -237,6 +237,6 @@ I-I-XXIIIBassFigures = \figuremode {
   <_+>2 %110
   <6>4. <5!>8
   r4 \bc <[6]>
-  <6 4> <5 3>
+  <6 4> <5 _+>
   r2 %114 finis
 }

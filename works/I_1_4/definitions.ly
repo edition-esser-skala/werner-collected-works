@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-tempoI-I-IV = \tempoMarkup "Alla capella"
+tempoI-I-IV = \tempoMarkup "[Tempo deest]"
 
 \include "notes/vla1.ly"
 \include "notes/vla2.ly"

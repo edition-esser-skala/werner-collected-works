@@ -5,7 +5,7 @@ I-I-IIAlto = {
     \clef treble
     \key d \minor \time 2/1 \tempoI-I-IIa \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
-    r1 \mvTr a'~\fE^\tuttiE
+    r1 a'~
     a2 g f4( e f e)
     d2 e f4( g) a2
     g e f4( g) a2~
@@ -34,7 +34,7 @@ I-I-IIAlto = {
     r2 a' d, h'
     e,1 r
     e2. e4 d( f e d %30
-    c h) a2 r h~
+    c h) a2 r \hA h~
     h a d2. c8[ h]
     c4 d c h8[ a] g2 g'~
     g c, a' g4( f)
@@ -44,7 +44,7 @@ I-I-IIAlto = {
     a gis a1
     r2 f1 e2
     r g1 f2 \noBreak %40
-    f1 e
+    f1 e \segnoMark 1
     \time 4/4 \tempoI-I-IIb
       \unset Staff.timeSignatureFraction \newSpacingSection
       c!8\p c c c fis4. fis8 \noBreak
@@ -99,4 +99,26 @@ I-I-IIAltoLyrics = \lyricmode {
   re -- _
   re, mi -- se --
   re -- re. %45 finis
+}
+
+I-I-IIbAlto = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \minor \time 2/2 \autoBeamOff \tempoI-I-IIb
+      \set Score.currentBarNumber = #42
+      \segnoMark 1
+    a'2 a
+    a a
+    f! f
+    f( e) %45
+    fis1\fermata \bar "|." %46 finis
+  }
+}
+
+I-I-IIbAltoLyrics = \lyricmode {
+  pec -- ca -- %42
+  to -- rum
+  mi -- se --
+  re -- %45
+  re. %46 finis
 }

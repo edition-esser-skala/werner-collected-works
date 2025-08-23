@@ -5,14 +5,14 @@ I-I-VIIIAlto = {
     \clef treble
     \key c \major \time 4/4 \tempoI-I-VIII \autoBeamOff
     R1
-    \mvTr c'4.\pE^\solo c8 h a g f
-    e4( fis) g r
+    \mvTr c'4.\pE^\solo^\aDue c8 h a g f
+    e4( fis)\trill g r
     r8 a a a16 a gis8 h e, h'
     c a r a a([ f)] e([ d)] %5
     h'2~ h8[ g e c]
     a'2~ a8[ f d h]
     gis'4. gis8 a([ gis)] a([ h)]
-    \appoggiatura a4 gis2 a8 a, e' f16 g
+    \appoggiatura a4 gis2\trill a8 a, e' f16 g
     f8 f r4 r8 g, d' e16 f %10
     e8 e r4 r8 f a f16 e
     d8 d r4 r2
@@ -22,9 +22,9 @@ I-I-VIIIAlto = {
     a([ gis)] gis e cis cis~ cis16[ d] e([ f)]
     d8 d r d d d~ d16[ e] f([ g)]
     e8 e e4 fis g8 e
-    g4( fis) g r
+    g4( fis)\trill g r
     r2 r8 e4 f8 %20
-    g a b c a16[( b a g] f[ g f e]
+    g a b c a16[( \hA b a g] f[ g f e]
     d8) d d d a' fis d c
     h h16 h d8 d d([ c)] e e
     d d g4. f8 f e16([ d)]
@@ -34,7 +34,7 @@ I-I-VIIIAlto = {
     c, f f a d,4 es
     d2\trill c4 r
     r es8\p es d2 %30
-    e\f r\fermata \bar "|." %31 finis
+    e r\fermata \bar "|." %31 finis
   }
 }
 

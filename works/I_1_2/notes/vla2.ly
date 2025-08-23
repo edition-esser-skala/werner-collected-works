@@ -5,7 +5,7 @@ I-I-IIViolaII = {
     \clef treble
     \key d \minor \time 2/1 \tempoI-I-IIa
       \set Staff.timeSignatureFraction = 2/2
-    r1 a'~\fE
+    r1 a'~
     a2 g f4 e f e
     d2 e f4 g a2
     g e f4 g a2~
@@ -34,7 +34,7 @@ I-I-IIViolaII = {
     r2 a' d, h'
     e,1 r
     e2. e4 d f e d %30
-    c h a2 r h~
+    c h a2 r \hA h~
     h a d2. c8 h
     c4 d c h8 a g2 g'~
     g c, a' g4 f
@@ -44,12 +44,24 @@ I-I-IIViolaII = {
     a gis a1
     r2 f1 e2
     r g1 f2 \noBreak %40
-    f1 e
+    f1 e \segnoMark 1
     \time 4/4 \tempoI-I-IIb
       \unset Staff.timeSignatureFraction \newSpacingSection
-      c!8\p c c c fis4. fis8 \noBreak
-    g2. f4~
-    f4. e16 d e8 f4 e16 d
-    e2\trill d\fermata \bar "|." %45 finis
+      R1*3
+    R1\fermata \bar "|." %45 finis
+  }
+}
+
+I-I-IIbViolaII = {
+  \relative c' {
+    \clef soprano
+    \twotwotime \key d \minor \time 2/2 \tempoI-I-IIb
+      \set Score.currentBarNumber = #42
+      \segnoMark 1
+    a'2 a
+    a a
+    f! f
+    f e %45
+    fis1\fermata \bar "|." %46 finis
   }
 }

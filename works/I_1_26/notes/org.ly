@@ -6,7 +6,7 @@ I-I-XXVI-Organo = {
     \key g \major \time 4/4 \tempoI-I-XXVI
     \mvTr g4\pE-\solo g' fis d
     e h c d
-    g, g' fis d
+    g, g' fis h,
     e cis d fis
     g a h fis %5
     g a d, r
@@ -58,8 +58,8 @@ I-I-XXVI-BassFigures = \figuremode {
   <[6]>4 <6>2 <5>4
   <6 [_+]>4. <6\\ 5>8 <5[+] 4>4 <\t _+>
   r4. \bo <[6]>2 <6>8
-  <_!>4. <6>2 q8 %20
-  r4 q2 r8 q
+  <_+>2.. <6>8 %20
+  r2.. q8
   r2.. <\tllur>16 <6>
   <5>8 <6>4. <5>8 <\tllur>16 <6> \bc <[3]>4
   <6 5>4 <4>8 <_+>2 <6>8

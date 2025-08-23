@@ -32,12 +32,12 @@ I-I-XXIIIViolinoII = {
     h4 r r
     r8 e, d c h a
     g c h a g fis
-    g4 g'4.\fE fis16 e
+    g4 g'4.\f fis16 e
     d8 e g,8. a16 a4\trill \noBreak %30
     g2 r4\fermata \bar "||"
     \time 4/4 \tempoI-I-XXIIIb \newSpacingSection
       r2 r8 a\p dis4 \noBreak
-    e32 e h g e8 r32 e' h g e8 r32 fis' dis c! a8 r32 fis' dis c! a8
+    r32 e h g e8 r32 e' h g e8 r32 fis' dis c! a8 r32 fis' dis c! a8
     r32 e' h g e8 r32 e' h g e8 r32 d'! h gis h8 r32 d h gis h8
     r32 c a e c8 r32 c' a e c8 r32 a' fis! d a8 r32 a' fis d a8 %35
     r32 g' d h g8 r32 g' d h g8 r32 d'' h g d8 r32 h' g d h8
@@ -59,7 +59,7 @@ I-I-XXIIIViolinoII = {
     h( a) a4\trill %55
     d,16 g d h g8
     R4.*3
-    r8 d''~\f d16 cis32 h %60
+    r8 d''~\fE d16 cis32 h %60
     a16 h8 a16 e' g,
     fis g g16.[\trill fis64( g)] a16-\critnote g32 fis
     h16[ d,] \appoggiatura fis8 e8.\trillE d16 \noBreak
@@ -77,9 +77,9 @@ I-I-XXIIIViolinoII = {
     R2*2
     d'4.\f e8
     a, \once \slurDashed h16( cis) d4 %80
-    r8 g( fis e)
+    r8 g( fis) e
     a, h16 cis d4
-    r8 g( fis e)
+    r8 g( fis) e
     a cis, d g
     fis4 e\trill %85
     d r

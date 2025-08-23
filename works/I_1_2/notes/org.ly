@@ -5,13 +5,13 @@ I-I-IIOrgano = {
     \clef "treble_8"
     \key d \minor \time 2/1 \tempoI-I-IIa
       \set Staff.timeSignatureFraction = 2/2
-    << { r1 a'' } \\ { \mvTr d,1.-!\fE-\tuttiE c2 } >>
+    << { s1 a'' } \\ { d,1.^! c2 } >>
     b4 a b2 \clef bass a1~
     a2 g f4 e f2
     e a4 g f e d c!
     b1 a %5
     r2 d b'2. a4
-    g4 f^\critnote g b a g f e
+    g4 f g b a g f e
     d2 d g2. f4
     e d cis2 d4 c b2
     a a' b a4 gis %10
@@ -30,7 +30,7 @@ I-I-IIOrgano = {
     fis2 d g1
     gis2 e a1
     d2 g, c f,! %25
-    b1 a2 \clef bass a
+    b1 \clef bass a2 a
     d, b' cis, d~
     d c h1
     a2 a'4 g! f e d2
@@ -45,10 +45,10 @@ I-I-IIOrgano = {
     e1 a,
     f' c
     g' d \noBreak %40
-    r4 d f g a2 a,
+    r4 d f g a2 a, \segnoMark 1
     \time 4/4 \tempoI-I-IIb
       \unset Staff.timeSignatureFraction \newSpacingSection
-      r2 a'8\p a a a \noBreak
+      r2-\markup \remark "con pedale" a'8 a a a \noBreak
     g g es es cis cis d d
     h h h h a2~
     a d,\fermata \bar "|." %45 finis
@@ -68,10 +68,10 @@ I-I-IIBassFigures = \figuremode {
   <_+>2 <6 4> <5 3>2 \bo <[6 4]>4 \bc <[7 _!]> %10
   <6 4>2 <5 _+>1.
   r\breve
-  <6 3>2 <10 5>4 <\t 6> <4> <3> <6>2
+  <6 3>2 <10 7>4 <\t 6> <4> <3> <6>2
   q\breve
   <5>2. <6!>4 <8 4>2 <\t 3> %15
-  <6!> <6-> <9 5> <8 6>
+  <6!> <5-> <9 5> <8 6>
   r <_!> <5!>1
   r <7 [5!] _+>
   <6 4>2 <5[!] _+>1.
@@ -96,9 +96,28 @@ I-I-IIBassFigures = \figuremode {
   <5[!] \t> <\t _+>1.
   r1 <6 4>2 <5 3>
   <4> <_-> <6 4> <5 3> %40
-  r1 \bo <[_+ _]>
-  r2 <6\\ 5->
-  <6->8 <5>4. <7 _!>4 <9 _!>8 <8 \t>
-  <6\\>2 <5 _+>4 <6 4>
-  <5 \t> \bc <[\t _+]>2. %45 finis
+  r1 <[_+]>
+  r1*4\fermata %45 finis
+}
+
+I-I-IIbOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key d \minor \time 2/2 \tempoI-I-IIb
+      \set Score.currentBarNumber = #42
+      \segnoMark 1
+    g'2 g
+    f d
+    gis gis
+    a a, %45
+    d1\fermata \bar "|." %46 finis
+  }
+}
+
+I-I-IIbBassFigures = \figuremode {
+  <4\+ 2>1 %42
+  <6>
+  <7! 5 [_!]>
+  \bo <[6] 4>2 \bc <[5] _+> %45
+  <_+>1 %46 finis
 }

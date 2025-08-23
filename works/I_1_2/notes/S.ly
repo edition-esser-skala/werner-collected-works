@@ -6,10 +6,10 @@ I-I-IISoprano = {
     \key d \minor \time 2/1 \tempoI-I-IIa \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
     R\breve
-    \mvTr d'1.\fE^\tuttiE c2
-    b4( a) b2 a a
-    h cis d4( e) f( e)
-    d( cis) d2 d( cis) %5
+    d'1. c2
+    b4( a b2) a a(
+    h) cis d4( e) f( e)
+    d( cis d1 \hA cis2) %5
     d1 r
     r r2 a
     f' f4 e d( cis) d2
@@ -33,7 +33,7 @@ I-I-IISoprano = {
     a( gis) a1
     R\breve*2
     r2 e' a, f'
-    gis, a1 gis2 %30
+    gis, a1 \hA gis2 %30
     c1 h
     r2 a1 g!2
     f4( g f e d1)
@@ -43,8 +43,8 @@ I-I-IISoprano = {
     c c2 d4 e2 e4 e
     e1 e
     r2 a,1 g2
-    r b1 a2 \noBreak %40
-    d1 cis
+    r b!1 a2 \noBreak %40
+    d1 cis \segnoMark 1
     \time 4/4 \tempoI-I-IIb
       \unset Staff.timeSignatureFraction \newSpacingSection
       a8\p a a a c!4 c \noBreak
@@ -56,10 +56,11 @@ I-I-IISoprano = {
 
 I-I-IISopranoLyrics = \lyricmode {
   Al -- ma %2
-  Re -- dem -- pto -- ris
-  Ma -- ter, Re -- dem --
-  pto -- ris Ma -- %5
+  Ma -- ter, Re --
+  dem -- pto -- ris
+  Ma -- %5
   ter,
+
   quae
   per -- vi -- a coe -- li
   por -- ta ma -- nes
@@ -98,4 +99,26 @@ I-I-IISopranoLyrics = \lyricmode {
   re -- re,
   mi -- se -- re --
   re. %45 finis
+}
+
+I-I-IIbSoprano = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \minor \time 2/2 \autoBeamOff \tempoI-I-IIb
+      \set Score.currentBarNumber = #42
+      \segnoMark 1
+    cis'2 cis
+    d d
+    d d
+    d( cis) %45
+    d1\fermata \bar "|." %46 finis
+  }
+}
+
+I-I-IIbSopranoLyrics = \lyricmode {
+  pec -- ca -- %42
+  to -- rum
+  mi -- se --
+  re -- %45
+  re. %46 finis
 }

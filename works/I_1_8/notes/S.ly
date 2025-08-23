@@ -4,8 +4,8 @@ I-I-VIIISoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoI-I-VIII \autoBeamOff
-    \mvTr c'4.\pE^\solo c8 h a g f
-    e4( fis) g r
+    \mvTr c'4.\pE^\solo^\aDue c8 h a g f
+    e4( fis)\trill g r
     r8 c c c16 c h8 d g, d'
     e4 e, r e'
     e8([ c)] h([ a)] f'2~ %5
@@ -22,19 +22,19 @@ I-I-VIIISoprano = {
     c([ h)] h4 r r8 a
     a a8~ a16[ h] c([ d)] h8 h r d
     g,4 c2 h8([ c)]
-    a2 g8 h4 c8
+    a2\trill g8 h4 c8
     d e f! g e c r4 %20
     r g4. f8 a d16([ c)]
     h8 h r4 r a8 a
     d h g f e e16 e c'8 c
     c([ h]) h h a a d4~
-    d8 c16([ h)] c8 d c4( h) %25
+    d8 c16([ h)] c8 d c4( h)\trill %25
     a r r8 a4 c8
     c h h d g,2
-    a8 d4 f8 h,4 \once \tieDashed c~
+    a8 d4 f8 h,4 c~
     c h c g8\p g
     c2.( h4) %30
-    c2\f r\fermata \bar "|." %31 finis
+    c2 r\fermata \bar "|." %31 finis
   }
 }
 

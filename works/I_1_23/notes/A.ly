@@ -47,8 +47,8 @@ I-I-XXIIIAlto = {
     g([h)] g %40
     e fis g
     a e16([ fis)] g8
-    fis16[ a32 g] fis16[ e32 d] e16[ fis]
-    g[\trill fis] g4~
+    fis16[ a32 g fis16 e32 d e16 fis]
+    g[(\trill fis]) g4~
     g8 a4~ %45
     a8 h4~
     h8 c4~
@@ -146,7 +146,7 @@ I-I-XXIIIAltoLyrics = \lyricmode {
   ge -- nu -- %40
   i -- sti, na --
   tu -- ra mi --
-  ran -- _ _
+  ran --
   _ _
   _ %45
   _

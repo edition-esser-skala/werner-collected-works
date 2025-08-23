@@ -42,7 +42,7 @@ I-I-IVBasso = {
     d g
     e2 c1 f2 %35
     d2. d4 e1~
-    \once \tieDashed e~ e
+    e~ e
     a,\breve\fermata \bar "|." %38 finis
   }
 }
