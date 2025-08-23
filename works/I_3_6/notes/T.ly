@@ -62,7 +62,7 @@ I-III-VITenore = {
     \key c \major \time 4/4 \tempoI-III-VIf \newSpacingSection
       \mvTr e'4\fE^\tutti r8 c c4 h\trill \noBreak
     c r8 c d4 r8 c %120
-    h r e r d r e r
+    h-! r e-! r d-! r e-! r
     d4 r8 d c4 r8 e
     d4 r8 fis e-! r d-! r
     h-! r d([ c)] h4(^\critnote a8) a8

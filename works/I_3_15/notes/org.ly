@@ -23,7 +23,7 @@ I-III-XV-Organo = {
     d2 c4. b8
     a4. g8 f4 f'
     e a, d2
-    c! h!4 e,^\critnote %20
+    c! h!4 << { e^\vlne } \\ { e,_\org } >> %20
     a g! f8 f' e a
     d,4 e f2
     e4. e8 a4. f8
@@ -71,7 +71,7 @@ I-III-XV-Organo = {
     d4 e e,
     a r8 e''^\markup \remarkE "org solo" e, d' %65
     c h16 c a8 g16 a f8 a
-    d c16 d h8 a16 h gis8 fis?16 gis
+    d c16 d h8 a16 h gis8 fis?16 \hA gis
     e8 d16 e c8 h16 c a8 a'
     c, d e4 e, \noBreak
     a2 r4\fermata \bar "||" %70
@@ -262,7 +262,7 @@ I-III-XV-BassFigures = \figuremode {
   r4 <_-> r1 %105
   r4 <4[!] 2\+> r1
   r4 <7 _+> r1
-  r4 <6[+] 5-> r1
+  r4 <6\\ 5-> r1
   r4 <_+> r1
   r4 <6\\> r1 %110
   r4 <6 5!> r1
@@ -279,12 +279,12 @@ I-III-XV-BassFigures = \figuremode {
   q q
   <[6]>4. <6\\>2 q8
   <[6]>4 <4>8 <_+>4. <[6]>4
-  r2. \bo <[8] 6>8 \bc <[7] 5> %125
+  r2. <6>8 <5> %125
   <_+>2 q
-  q <7 _+>
-  r4 <6> <6 4> <5[+] _+>
+  q <7 [5\+] _+>
+  r4 <6> <6 4> <5\+ _+>
   r4 <[6 _+]>2.
-  r4 \bo <[6\\] 5>8 <5\+ _+> r2 %130
+  r4 <6\\ 5>8 \bo <[5\+] _+> r2 %130
   <5\+ 4>4 \bc <[\t] 3[!]> <9> <8>
   <4> <6 5> <9> <8>
   <_+>2. <6>4
@@ -295,7 +295,7 @@ I-III-XV-BassFigures = \figuremode {
   r4 <[6]>2.
   r4 <6 5>2.
   r1 %140
-  <[5]>2. <4>8 <3>
+  r2. <4>8 <3>
   r2. <6 5>4
   r1 %143 finis
 }

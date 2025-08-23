@@ -27,7 +27,7 @@ I-III-VIViolinoII = {
     f8 a r d-!
     r g,-! r e'-! %45
     r a,-! r f'-!
-    r h,!-! r g'-!
+    r h,!-! r g'-\parenthesize-!
     e4 r
     R2*5 %53
     r8 c\f e c
@@ -49,17 +49,17 @@ I-III-VIViolinoII = {
     R2*2 %71
     r8 a\f c f
     d16( c) b( a) g( f) e( d)
-    e8 e' c d^\critnote
+    e8 e' c d
     f,4 e\trill \noBreak %75
     f r\fermata \bar "||"
     \time 4/4 \tempoI-III-VId \newSpacingSection
       r2 \sbOn \tuplet 3/2 8 { g16\p a g } g h \tuplet 3/2 8 { h c h } h d \sbOff \noBreak
     c8 c, c4\trillE g'16 a h c d e f g
     a4 d,4. g8 c,4~
-    c8 h16 d d8 c h d~ d16 h8 g16 %80
+    c8 h16 d~ d8 c h d~ d16 h8 g16 %80
     e8 g f r g e a r
     r4 r8 e' d16( e) d( c) h c d8
-    e d c h\trill c16 e\fE c g c g e c
+    e d c h\trill c16\fE e c g c g e c
     r2 r4 r8 c'~\p
     c h16 a h4\trill c8 g16 c e8 e, %85
     r \parOn h'-\parenthesize-! r \parOff a-\parenthesize-! r2
@@ -112,7 +112,7 @@ I-III-VIViolinoII = {
     d g, a h c d e f g8 g, c4~
     c8 h16 a h4\trill c r8 c~
     c a c e c f d8.\trill c32( d)
-    e8-! r d-\parenthesize-! r e4 r8 c~
+    e8-! r d-! r e4 r8 c~
     c f e d e16 c h a g a g f %135
     \sbOn e c' \tuplet 3/2 8 { c\trill h c } g, g' \tuplet 3/2 8 { g\trill f g } \sbOff c8-! r r4\fermata \bar "|." %136 finis
   }

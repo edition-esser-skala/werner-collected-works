@@ -15,7 +15,7 @@ I-III-VIChords = {
     \sbOn \tuplet 3/2 8 { h\trill a h d\trill c d f-! e-! d-! c-! h-! a-! } \appoggiatura a8 g8.\trill f16
     \tuplet 3/2 8 { e\trill d e g\trill f g c\trill h c e\trill d e g-! f-! e-! d-! c-! b-! } %25
     a8 a' \tuplet 3/2 8 { f16\trill e f d\trill c d f-! e-! d-! c-! h-! a-! } \sbOff
-    gis( h) h( d) \slurDashed h( d) d( f) \slurSolid \appoggiatura f8 e8.\trill d16
+    gis( h) h( d) h( d) d( f) \appoggiatura f8 e8.\trill d16
     c e32( d) c16 h a h32 c d e fis gis \sbOn a16 e \tuplet 3/2 8 { e\trill d e } \sbOff
     f( d) c( h) a8. h16 h4\trill
     a r r %30
@@ -35,10 +35,10 @@ I-III-VIChords = {
     \key c \dorian \time 3/2 \tempoI-III-VIe \newSpacingSection
       r8^\markup \remark "Flautino" c[ es g] c([ es) es( g)] c([ g) es( c)] \noBreak
     r h,[ d f] as([ h) h( d)] f([ d) h( f)]
-    r es[ g c] es[ g, c e] g([ e) des( b)]
-    as?1.\trill %100
+    r es[ g c] es[ g, c e] g([ \hA e) des( b)]
+    as1.\trill %100
     h\trill
-    c\trill
+    c~\trill
     c\trill
     h2 r r
     r8 c,[ es g] c([ es) es( g)] c([ g) es( c)] %105

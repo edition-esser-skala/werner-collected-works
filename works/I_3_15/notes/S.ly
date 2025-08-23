@@ -5,7 +5,7 @@ I-III-XV-Soprano = {
     \clef treble
     \key c \major \time 4/4 \tempoI-III-XV \autoBeamOff
     R1*7 %7
-    r8 \mvTr c'\pE^\soloE h d c([ h16 a)] g8 f'
+    r8 \mvTr c'\pE^\solo h d c([ h16 a)] g8 f'
     e c r e d4. c16[ h]
     c4. h16[ a] h[ g a h] c[ a h c] %10
     d2~ d8 c16 h e4~
@@ -13,7 +13,7 @@ I-III-XV-Soprano = {
     d r r r8 a
     h16[ g a h] c[ a h c] d[ c h a] g8 f'!
     e4 f16([ e)] d([ c)] h([ c d8)] e16([ d)] c([ h)] %15
-    c8.[(\trill h32 c] d16[ c h a]) h8 h c a
+    c8.[\trill h32( c]) d16[ c h a] h8 h c a
     f[( g16 a] g8[ f] e8) c' e d
     cis4.( d16[ e] d8) a d4~
     d cis d8 a f' e16([ d)]
@@ -36,9 +36,9 @@ I-III-XV-Soprano = {
     e4 e, r
     r r a
     f'8[ e16 f] d8[ c16 d] h8[ a16 h]
-    \once \tieDashed g4~ g8[ a16 h] c8[ d]
+    g4~ g8[ a16 h] c8[ d]
     e[ d16 e] c8[ h16 c] a8[ g16 a] %40
-    \once \tieDashed f4~ f8[ g16 a] h8[ c]
+    f4~ f8[ g16 a] h8[ c]
     d[ c16 d] h8[ a16 h] g8[ f16 g]
     e8[ g] a([ h)] c4
     \tuplet 3/2 4 { d8([ e f)] e([ d c] } d4)\trill
@@ -54,11 +54,11 @@ I-III-XV-Soprano = {
     c4. d16[ e] d8[ c]
     h c h([ a16 g]) a4\trill
     g8 g h d e[ d16 e]
-    \once \tieDashed c4~ c16[ d e c] f8[ d] %60
+    c4~ c16[ d e c] f8[ d] %60
     h4~ h16[ c d h] e8[ c]
     a4~ a16[ h c a] d[ c h a]
-    gis[ e fis gis] a[ h c d] e[ f32 e d16 e]
-    \tuplet 3/2 4 { f8[( e d]) } c4( h8.) a16
+    gis[ e fis \hA gis] a[ h c d] e[ f32 e d16 e]
+    \tuplet 3/2 4 { f8[( e d]) } c4( h8.)\trill a16
     a4 r r %65
     R2.*4 \noBreak
     R2.\fermata \bar "||" %70
@@ -73,7 +73,7 @@ I-III-XV-Soprano = {
     d fis,2. fis4
     g2 g r
     r c1
-    c4( f,!) f1^\critnote
+    c4( f,!) f1
     es!1. %100
     d
     g
@@ -93,23 +93,23 @@ I-III-XV-Soprano = {
     R \noBreak
     R\fermata \bar "||"
     \key c \major \time 4/4 \tempoI-III-XV-e \newSpacingSection
-      c4 d e8 d16[( c] h[ a g f] \noBreak
-    e4) r r8 e'~ e16[ d e c]
+      c4 d\trill e8 d16[ c] h[ a g f] \noBreak
+    e4 r r8 e'~ e16[ d e c]
     d[ e d c] d[ h c d] c[ d c h] c[ a h c] %120
-    h[ c d8] d c16([ h)] a8[ a]~ a16[ fis h g]
+    h[( c d8]) d c16([ h)] a8[ a]~ a16[ fis h g]
     a8[ a]~ a16[ fis h g] a4 r
-    r16 g[ a h] c[ d e fis] g8[ fis16 e] d[ c h a]
+    r16 g[ a h] c[ d e fis] g8[ \hA fis16 e] d[ c h a]
     g8 c16([ a)] \appoggiatura g8 fis4 g r
     R1 %125
-    r8 a~ a16[ fis h g] a8[ a]~ a16[ fis h g]
+    r8 a~ a16[ fis h g] a8[ a]~ a16[ \hA fis h g]
     a8[ fis16 g] a4~ a8[ h16 c] h([ a)] g([ fis)]
-    g8( e'4) e,8 g4 fis\trill
+    g8 e'4 e,8 g4( fis)\trill
     e r r2
     r8 e' fis dis e4 r %130
     R1*2
-    r8 h e h c16[ d c e] d[ e d c]
-    h[ c h d] c[ d c h] a[ h a c] h[ c h a]
-    gis8 \once \tieDashed h~ h16[ gis c a] h8[ \once \tieDashed h]~ h16[ gis c a] %135
+    r8 h e h c16[( d) c e] d[ e d c]
+    h[( c) h d] c[ d c h] a[( h) a c] h[ c h a]
+    gis8 h~ h16[ \hA gis c a] h8[ h]~ h16[ \hA gis c a] %135
     h[ e, fis gis] a[ h] c([ d)] e8 e, r d'
     c16[( h] a4) gis8 a4 r
     c d\trill e8 d16([ c] h[ a g f]
@@ -130,7 +130,7 @@ I-III-XV-SopranoLyrics = \lyricmode {
   re, lae --
   ta -- _ _ re, lae --
   ta -- re, lae -- ta -- re, lae -- %15
-  ta -- re, al -- le -- lu --
+  ta -- _ re, al -- le -- lu --
   ia, __ al -- le -- lu --
   ia, __ al -- le --
   lu -- ia, al -- le -- lu --
@@ -201,17 +201,17 @@ I-III-XV-SopranoLyrics = \lyricmode {
   De --
   um. %115
 
-  Al -- le -- lu -- ia, __ %118
-  al --
+  Al -- le -- lu -- ia, __ _ %118
+  _ _
   _ _ _ _ %120
-  _ le -- lu -- ia, __
+  al -- le -- lu -- ia, __
   _ _
   al -- _ _ _
   _ le -- lu -- ia,
   %125
   al -- _
   _ _ le -- lu --
-  ia, __ al -- le -- lu --
+  ia, al -- le -- lu --
   ia, %130
   al -- le -- lu -- ia,
 

@@ -4,15 +4,21 @@ genre: antiphon
 scoring: S, A, T, B (solo), S, A, T, B (coro), clno solo (C), 2 vl, b, org solo
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.194
+    date: 1753
+    rism: 530002087
+    url: https://copia.oszk.hu/kotta/regina-coeli-in-c-7/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: J 14
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/441.html
     license: public domain
-    principal: true
 toe: |
-  74  & vl 2 & 4th \eighthNote\ in \B1: e″8 \\
-  124 & T    & 2nd \halfNote\ in \B1: a4.–a8 \\
+  124 & T    & 2nd \halfNote\ in \A1 and \B1: a4.–a8 \\
 parts:
   clno_solo: Clarino solo (C)
   org_solo: Organo solo

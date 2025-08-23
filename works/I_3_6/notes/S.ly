@@ -11,7 +11,7 @@ I-III-VISoprano = {
     r r8 g c e
     a, f'16 d h8 g'16 e c[ d e f] \sbOn \tuplet 3/2 8 { g[ a g f e d] } \sbOff %10
     e8 g16 d c8.\trill h16 h d[ d16.\trill c64( d)] e16.[ a,32 a16.\trill g64( a)]
-    d16.[ g,32 g16.\trill fis64( g)] c8~ \tuplet 3/2 8 { c16[ d e] } \sbOn d[ a \tuplet 3/2 8 { h a g] } \sbOff  \appoggiatura h a8.\trill g16
+    d16.[ g,32 g16.\trill fis64( g)] c8~ \tuplet 3/2 8 { c16[ d e] } \sbOn d[ a \tuplet 3/2 8 { h a g] } \sbOff \appoggiatura h8 a8.\trill g16
     g4 r r2
     r r8 g c e16([ c)]
     a8 f'16 d h8.[\trill a32 h] c8.[\trill h32 c] d8.[\trill c32 d] %15
@@ -35,8 +35,8 @@ I-III-VISoprano = {
     e4 r8 e g4 r8 e %120
     d r c r d r c r
     h4 r8 d g,4 r8 c
-    a4 r8 d \parOn h-\parenthesize-! r d-! r
-    \parOff d-\parenthesize-! r d([ e)] d4.\trill d8
+    a4 r8 d h r d r
+    d r d([ e)] d4.\trill d8
     d4 r8 h e4 d %125
     d r r8 g, c4
     r8 a d4 r8 h e4
@@ -46,7 +46,7 @@ I-III-VISoprano = {
     h4 r r r8 c
     d4.\trill c16([ d)] e4.\trill d16[ e]
     f8.[ e32 d] c4. d8 h!4\trill
-    \parOn c8-\parenthesize-! r \parOff d-\parenthesize-! r e4 r8 c~
+    c8 r d r e4 r8 c~
     c d c([ h)] c4 r8 d %135
     e-! r h-! r c-! r r4\fermata \bar "|." %136 finis
   }

@@ -2,7 +2,7 @@
 
 I-III-VII-ViolaI = {
   \relative c' {
-    \clef soprano
+    \clef treble
     \key g \major \time 12/8 \tempoI-III-VII
     d'8\fE d d g d g d h d h g r
     r4 r8 a a a d a d a fis a

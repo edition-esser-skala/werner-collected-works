@@ -4,6 +4,12 @@ genre: antiphon
 scoring: S, B (solo), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.203
+    rism: 530002095
+    url: https://copia.oszk.hu/kotta/regina-coeli-in-c-4/
+    license: public domain
   B1:
     siglum: A-Ed
     shelfmark: J 11
@@ -11,9 +17,4 @@ sources:
     license: public domain
     principal: true
 toe: |
-  20 & vlne & 4th \quarterNote\ in \B1: e4 \\
-  21 & vl 1 & 2nd \eighthNote\ in \B1: b′8 \\
-  90 & org, vlne & tempo indication in \B1: “Adagio” \\
-  99 & S    & 2nd/3rd \halfNote\ in \B1: g′1 \\
-extra_abbreviations:
-  vlne:
+  90 & org, vlne & tempo indication in \A1 and \B1: “Adagio” \\

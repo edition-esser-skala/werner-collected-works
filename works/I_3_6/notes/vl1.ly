@@ -44,7 +44,7 @@ I-III-VIViolinoI = {
     c-! r d-! r %65
     f-! r a-! r
     d,-! r e-! r
-    c-! r c-! r
+    f-! r c-! r
     a-! r f-! r
     R2*2 %71
     r8 a\f c f
@@ -60,7 +60,7 @@ I-III-VIViolinoI = {
     f,4\trill e\trill d8 g16 f g d h g %80
     c8 \tuplet 3/2 8 { c16\trill b c } c8 r c, \tuplet 3/2 8 { c16\trillE b c } c8 r
     r d' g2.~\trill
-    g8 \tuplet 3/2 8 { a16 g f } e8 d\trill c16 g'\f e c e c g e
+    g8 \tuplet 3/2 8 { a16 g f } e8 d\trill c16\f g' e c e c g e
     R1
     d'4.\p e16 f e c g' e c'8 c, %85
     r d-! r c-! r2

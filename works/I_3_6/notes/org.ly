@@ -126,7 +126,7 @@ I-III-VIOrgano = {
     r b! b b b b
     r as as as as as
     r fis fis fis fis fis %115
-    r g\pp g g g g
+    r g\pp^\markup \remark "con pedale" g g g g
     r g g g fis fis \noBreak
     g1 r2\fermata \bar "||"
     \key c \major \time 4/4 \tempoI-III-VIf \newSpacingSection
@@ -155,14 +155,14 @@ I-III-VIBassFigures = \figuremode {
   r2 \bo <[6]>4 <6>
   r2 r8 \bc <[6]> <7> q
   r1
-  r4 <[6]>2.
+  r4 <[6]>4. <\t>
   r2 <6>8 q16 q q4 %5
   r <4>8 <3> r2
   r \bo <[6]>4 \bc q
   r4. <6>8 <5> <6> <5> <6>
   q4 q2.
   r \bo <[6]>4 %10
-  r8 \bc q <7> <_+>4. \bo <[6]>4
+  r8 \bc q <7> <7 _+>4. \bo <[6]>4
   <6>2 \bc <[6]>4 <4>8 <_+>
   r4 \bo <[6]>2.
   r4 <6>2.

@@ -11,10 +11,16 @@ sources:
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/443.html
     license: public domain
     principal: true
+  B2:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.195
+    rism: 530002088
+    url: https://copia.oszk.hu/kotta/regina-coeli-in-g-2/
+    license: public domain
 toe: |
-  5  & T        & 2nd to 4th \quarterNoteDotted\ in \B1:
+  5  & T        & 2nd to 4th \quarterNoteDotted\ in \B1 and \B2:
                   c′4–\quaverRest–c′4–\quaverRest–d′4–\quaverRest \\
-  11 & B, org   & 2nd/3rd \quarterNoteDotted\ in \B1:
+  11 & B, org   & 2nd/3rd \quarterNoteDotted\ in \B1 and \B2:
                   \sharp G4–\quaverRest–A4–\quaverRest \\
-  18 & vla 1, S & 2nd \halfNoteDotted\ in \B1:
+  18 & vla 1, S & 2nd \halfNoteDotted\ in \B1 and \B2:
                   g″4–\quaverRest–\sharp f″4–\quaverRest \\

@@ -5,10 +5,10 @@ I-III-XV-Basso = {
     \clef bass
     \key c \major \time 4/4 \tempoI-III-XV \autoBeamOff
     R1*9 %9
-    r2 r8 \mvTr g'\pE^\soloE fis a %10
+    r2 r8 \mvTr g'\pE^\solo fis a %10
     g([ fis16 e)] d8 c' h g r h
-    a4. g16[ fis] g4. fis16[ e]
-    fis[ d e fis] g[ e fis g] a[ g fis e] d8 c'!
+    a4. g16[ fis] g4. \hA fis16[ e]
+    fis[ d e \hA fis] g[ e \hA fis g] a[ g \hA fis e] d8 c'!
     h g r4 r2
     r8 c c c d16[ c h a] h4~ %15
     h8 a r f! g!16([ f)] e([ d)] e8([ f16 g)]
@@ -35,7 +35,7 @@ I-III-XV-Basso = {
     c4 d e f
     g8. g16 a([ h)] c([ d)] h8 g r g
     c16[ g e g] c,8[ g'] c16[ g e g] c,8[ g']
-    c16[ e32 d c16 h] a[ c32 h a16 g] fis[ a32 g fis16 e] d[ fis32 e d16 c] %75
+    c16[ e32 d c16 h] a[ c32 h a16 g] fis[ a32 g \hA fis16 e] d[ \hA fis32 e d16 c] %75
     h[ g'] e([ c)] d4 g, r
     g' a h8 a16([ g)] a8 h
     c h16([ a)] g8 f! e c r4
@@ -46,7 +46,7 @@ I-III-XV-Basso = {
     a16[ e c e] a,8[ e'] a d, e4
     a, r r16 a'8 a16 gis fis e d
     c8 a r16 a[ c e] f4 r16 d[ f a] %85
-    g4 r16 g[ a h] c[ g e g] c,8[ g']
+    g!4 r16 g[ a h] c[ g e g] c,8[ g']
     c16[ g e g] c,8[ g'] c16[ e,] f([ a)] g8([ g,)]
     c4( d e f) \noBreak
     g8 c, g4 c r\fermata \bar "|."
@@ -78,22 +78,22 @@ I-III-XV-Basso = {
     R\fermata \bar "||"
     \key c \major \time 4/4 \tempoI-III-XV-e \newSpacingSection
       c'4 h c8 h16([ a] g[ f e d] \noBreak
-    c4) r r8 \once \tieDashed c'~ c16[ h c a]
+    c4) r r8 c'~ c16[ h c a]
     h[ c h a] h[ g a h] a[ h a g] a[ fis g a] %120
     g[ a h8] h a16([ g)] fis8[ fis]~ fis16[ d g e]
-    fis8[ fis]~ fis16[ d g e] fis[ d e fis] g([ a)] h([ c)]
+    fis8[ fis]~ fis16[ d g e] \hA fis[ d e \hA fis] g([ a)] h([ c)]
     d8 g, r c h[ a16 g] fis[ e d c]
     h8 e d4 g, r
     R1 %125
-    r8 fis'~ fis16[ d g e] fis8[ fis]~ fis16[ d g e]
-    fis[ e d e] fis8[ e] dis4. e16([ fis)]
-    e([ fis g a] h8) c e,4 dis
+    r8 fis'~ fis16[ d g e] \hA fis8[ fis]~ fis16[ d g e]
+    fis[ e d e] \hA fis8[ e] dis4. e16([ \hA fis)]
+    e([ fis g a]) h8 c e,4( dis)
     e r r2
     r8 g a h e,4 r %130
     R1*2
     r4 r8 e a e f!4
     r8 g! e4 r8 f d f
-    e gis~ gis16[ e a fis] gis8[ gis]~ gis16[ e] a([ fis)] %135
+    e gis~ gis16[ e a fis] \hA gis8[ gis]~ gis16[ e] a([ \hA fis)] %135
     gis8 e r4 r16 a,([ h c] d[ e fis gis]
     a8) d, e4 a, r
     c' h c8 h16([ a] g[ f e d]

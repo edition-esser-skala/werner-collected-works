@@ -37,8 +37,8 @@ I-III-VIAlto = {
     g r8 g h4 r8 g %120
     g r g r g r g r
     g4 r8 g e4 r8 a
-    fis4 r8 h \parOn g-\parenthesize-! r a-! r
-    \parOff g-\parenthesize-! r r g g4 fis
+    fis4 r8 h g r a r
+    g r r g g4 fis
     g r8 g g4 fis %125
     g r8 d g4 r8 e
     a4 r8 f! h4 r8 g
@@ -48,7 +48,7 @@ I-III-VIAlto = {
     d4 r r r8 e
     a([ f)] d([ g)] g4 r8 g
     a4 g f d
-    \parOn e8-\parenthesize-! r \parOff g-\parenthesize-! r g4 r8 g
+    e8 r g r g4 r8 g
     a4 g g r8 g %135
     g-! r g-! r g-! r r4\fermata \bar "|." %136 finis
   }

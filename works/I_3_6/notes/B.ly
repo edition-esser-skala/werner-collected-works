@@ -14,9 +14,9 @@ I-III-VIBasso = {
     \time 4/4 \tempoI-III-VId \newSpacingSection
       R1*7 %83
     \mvTr c16([\pE^\solo d e f] g8) a16([ h)] c8 c, c'4~
-    c8 h16([ a)] g8. f16 e8 c r c' %85
-    \sbOn \tuplet 3/2 8 { d,16[\trill c d h'\trill a h] c,[\trill h c a'\trill g a] } \sbOff h,[ d g h] d[ h g d]
-    e8 \tuplet 3/2 8 { c'16([ h a)] } fis4\trill g r
+    c8 h16([ a)] g8.\trill f16 e8 c r c' %85
+    \sbOn \tuplet 3/2 8 { d,16[\trill c d h'\trill a h] c,[\trill h c a'\trillE g a] } \sbOff h,[ d g h] d[ h g d]
+    e8 \tuplet 3/2 8 { c'16([ h a)] } \appoggiatura g8 fis4\trill g r
     R1*3 %90
     g4~ g16[ a] \tuplet 3/2 8 { h([ a g)] } c([ g)] e([ c)] g'([ d)] h([ g)]
     e'8 c r c' \sbOn \tuplet 3/2 8 { f,16[\trill e f d'\trill c d] e,[\trill d e c'\trill h c]
@@ -30,7 +30,7 @@ I-III-VIBasso = {
     \key c \major \time 4/4 \tempoI-III-VIf \newSpacingSection
       \mvTr c4\fE^\tutti r8 a' f4 g \noBreak
     c, r8 c' h4 r8 c %120
-    g r e r h r c r
+    g r e-! r h-! r c-! r
     g4 r8 h c4 r8 a
     d4 r8 h e-! r fis-! r
     g-! r h,([ c)] d4. d8
