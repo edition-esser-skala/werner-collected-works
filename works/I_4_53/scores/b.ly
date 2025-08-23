@@ -2,18 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "b")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "I.4.54" "Salve Regina"
+    \section "I.4.53" "Salve Regina"
     \addTocEntry
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \I-IV-LIVaOrgano }
-        \new FiguredBass { \I-IV-LIVaBassFigures }
+        \new Staff { \I-IV-LIIIaOrgano }
       >>
     }
   }
@@ -22,8 +21,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \I-IV-LIVbOrgano }
-        \new FiguredBass { \I-IV-LIVbBassFigures }
+        \new Staff { \I-IV-LIIIbOrgano }
       >>
     }
   }
@@ -32,8 +30,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \I-IV-LIVcOrgano }
-        \new FiguredBass { \I-IV-LIVcBassFigures }
+        \new Staff { \I-IV-LIIIcOrgano }
       >>
     }
   }
@@ -43,8 +40,7 @@
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \I-IV-LIVdOrgano }
-        \new FiguredBass { \I-IV-LIVdBassFigures }
+        \new Staff { \I-IV-LIIIdOrgano }
       >>
     }
   }
@@ -54,8 +50,7 @@
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \I-IV-LIVeOrgano }
-        \new FiguredBass { \I-IV-LIVeBassFigures }
+        \new Staff { \I-IV-LIIIeOrgano }
       >>
     }
   }
@@ -64,8 +59,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \I-IV-LIVfOrgano }
-        \new FiguredBass { \I-IV-LIVfBassFigures }
+        \new Staff { \I-IV-LIIIfOrgano }
       >>
     }
   }
@@ -75,8 +69,7 @@
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \I-IV-LIVgOrgano }
-        \new FiguredBass { \I-IV-LIVgBassFigures }
+        \new Staff { \I-IV-LIIIgOrgano }
       >>
     }
   }

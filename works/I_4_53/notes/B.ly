@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-IV-LIVbBasso = {
+I-IV-LIIIbBasso = {
   \relative c {
     \clef bass
-    \key b \major \time 4/4 \tempoI-IV-LIVb \autoBeamOff
+    \key b \major \time 4/4 \tempoI-IV-LIIIb \autoBeamOff
       \set Score.currentBarNumber = #52
     r8 \mvTr f\fE^\solo b b b a16([ g)] f([ es)] d([ c)]
     d8 b f' b b16([ a)] a8 f es'
@@ -46,7 +46,7 @@ I-IV-LIVbBasso = {
   }
 }
 
-I-IV-LIVbBassoLyrics = \lyricmode {
+I-IV-LIIIbBassoLyrics = \lyricmode {
   Vi -- ta, dul -- ce -- do et spes %52
   no -- stra, et spes no -- stra, et spes
   no -- stra, spes no -- stra,
@@ -87,10 +87,10 @@ I-IV-LIVbBassoLyrics = \lyricmode {
   sal -- ve. %91 finis
 }
 
-I-IV-LIVcBasso = {
+I-IV-LIIIcBasso = {
   \relative c {
     \clef bass
-    \key b \major \time 3/4 \tempoI-IV-LIVc \autoBeamOff
+    \key b \major \time 3/4 \tempoI-IV-LIIIc \autoBeamOff
       \set Score.currentBarNumber = #92
     R2.*9 %100
     \mvTr b4\fE^\tutti d f
@@ -147,7 +147,7 @@ I-IV-LIVcBasso = {
   }
 }
 
-I-IV-LIVcBassoLyrics = \lyricmode {
+I-IV-LIIIcBassoLyrics = \lyricmode {
   Ad te cla -- %101
   ma --
 
@@ -198,10 +198,10 @@ I-IV-LIVcBassoLyrics = \lyricmode {
   vae. %163 finis
 }
 
-I-IV-LIVdBasso = {
+I-IV-LIIIdBasso = {
   \relative c {
     \clef bass
-    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIVd
+    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIIId
       \set Score.currentBarNumber = #171
     R2.*21 %191
     r4 \mvTr es\fE^\solo es
@@ -257,7 +257,7 @@ I-IV-LIVdBasso = {
   }
 }
 
-I-IV-LIVdBassoLyrics = \lyricmode {
+I-IV-LIIIdBassoLyrics = \lyricmode {
   Ad te %192
   su --
   spi --
@@ -308,10 +308,10 @@ I-IV-LIVdBassoLyrics = \lyricmode {
   le. %247 finis
 }
 
-I-IV-LIVgBasso = {
+I-IV-LIIIgBasso = {
   \relative c {
     \clef bass
-    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoI-IV-LIVg
+    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoI-IV-LIIIg
       \set Score.currentBarNumber = #371
     R1*15 %385
     \mvTr g'1\fE^\tutti
@@ -418,7 +418,7 @@ I-IV-LIVgBasso = {
   }
 }
 
-I-IV-LIVgBassoLyrics = \lyricmode {
+I-IV-LIIIgBassoLyrics = \lyricmode {
   O! __ %386
   _
   _ _

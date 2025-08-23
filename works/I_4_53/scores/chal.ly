@@ -7,11 +7,11 @@
 
 \book {
   \bookpart {
-    \section "I.4.54" "Salve Regina"
+    \section "I.4.53" "Salve Regina"
     \addTocEntry
     \score {
       <<
-        \new Staff { \I-IV-LIVaChalumeau }
+        \new Staff { \I-IV-LIIIaChalumeau }
       >>
     }
     \tacet "subsection" "Vita dulcedo · Ad te clamamus"
@@ -22,7 +22,7 @@
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \I-IV-LIVdChalumeau }
+        \new Staff { \I-IV-LIIIdChalumeau }
       >>
     }
   }
@@ -32,7 +32,7 @@
     \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \I-IV-LIVeChalumeau }
+        \new Staff { \I-IV-LIIIeChalumeau }
       >>
     }
   }
@@ -41,7 +41,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \I-IV-LIVfChalumeau }
+        \new Staff { \I-IV-LIIIfChalumeau }
       >>
     }
     \tacet "subsection" "O clemens"

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-IV-LIVbSoprano = {
+I-IV-LIIIbSoprano = {
   \relative c' {
     \clef treble
-    \key b \major \time 4/4 \tempoI-IV-LIVb \autoBeamOff
+    \key b \major \time 4/4 \tempoI-IV-LIIIb \autoBeamOff
       \set Score.currentBarNumber = #52
     R1*5 %56
     r2 r8 \mvTr c'\fE^\solo f f
@@ -44,7 +44,7 @@ I-IV-LIVbSoprano = {
   }
 }
 
-I-IV-LIVbSopranoLyrics = \lyricmode {
+I-IV-LIIIbSopranoLyrics = \lyricmode {
   Vi -- ta, dul -- %57
   ce -- do et spes no -- stra, et spes
   no -- stra, et spes no -- stra, spes
@@ -82,10 +82,10 @@ I-IV-LIVbSopranoLyrics = \lyricmode {
   sal -- ve. %91 finis
 }
 
-I-IV-LIVcSoprano = {
+I-IV-LIIIcSoprano = {
   \relative c' {
     \clef treble
-    \key b \major \time 3/4 \tempoI-IV-LIVc \autoBeamOff
+    \key b \major \time 3/4 \tempoI-IV-LIIIc \autoBeamOff
       \set Score.currentBarNumber = #92
     R2.*12 %103
     \mvTr b4\fE^\tutti d f
@@ -138,7 +138,7 @@ I-IV-LIVcSoprano = {
   }
 }
 
-I-IV-LIVcSopranoLyrics = \lyricmode {
+I-IV-LIIIcSopranoLyrics = \lyricmode {
   Ad te cla -- %104
   ma -- mus, cla -- %105
   ma --
@@ -186,10 +186,10 @@ I-IV-LIVcSopranoLyrics = \lyricmode {
   vae. %163 finis
 }
 
-I-IV-LIVdSoprano = {
+I-IV-LIIIdSoprano = {
   \relative c' {
     \clef treble
-    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIVd
+    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIIId
       \set Score.currentBarNumber = #171
     R2.*21 %191
     r4 \mvTr es\fE^\solo es
@@ -240,7 +240,7 @@ I-IV-LIVdSoprano = {
   }
 }
 
-I-IV-LIVdSopranoLyrics = \lyricmode {
+I-IV-LIIIdSopranoLyrics = \lyricmode {
   Ad te %192
   su --
   spi --
@@ -286,10 +286,10 @@ I-IV-LIVdSopranoLyrics = \lyricmode {
   le. %247 finis
 }
 
-I-IV-LIVgSoprano = {
+I-IV-LIIIgSoprano = {
   \relative c' {
     \clef treble
-    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoI-IV-LIVg
+    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoI-IV-LIIIg
       \set Score.currentBarNumber = #371
     \mvTr d'1\fE^\tutti
     es
@@ -408,7 +408,7 @@ I-IV-LIVgSoprano = {
   }
 }
 
-I-IV-LIVgSopranoLyrics = \lyricmode {
+I-IV-LIIIgSopranoLyrics = \lyricmode {
   O! __ %371
   _
   _ _

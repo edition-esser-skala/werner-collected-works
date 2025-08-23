@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-IV-LIVaAlto = {
+I-IV-LIIIaAlto = {
   \relative c' {
     \clef treble
-    \key g \minor \time 3/2 \tempoI-IV-LIVa \autoBeamOff
+    \key g \minor \time 3/2 \tempoI-IV-LIIIa \autoBeamOff
     R1.*3
     r2 \mvTr d\pE^\solo ^\tweak TextScript.X-offset #0 ^\markup \remark "Ariose" d4 e8([ fis)]
     g1 \afterGrace g2( { a8[ b]) } %5
@@ -56,7 +56,7 @@ I-IV-LIVaAlto = {
   }
 }
 
-I-IV-LIVaAltoLyrics = \lyricmode {
+I-IV-LIIIaAltoLyrics = \lyricmode {
   Sal -- ve Re -- %4
   gi -- na, __ %5
   Re -- gi -- na,
@@ -106,10 +106,10 @@ I-IV-LIVaAltoLyrics = \lyricmode {
 
 }
 
-I-IV-LIVcAlto = {
+I-IV-LIIIcAlto = {
   \relative c' {
     \clef treble
-    \key b \major \time 3/4 \tempoI-IV-LIVc \autoBeamOff
+    \key b \major \time 3/4 \tempoI-IV-LIIIc \autoBeamOff
       \set Score.currentBarNumber = #92
     R2.*11 %102
     \mvTr f,4\fE^\tutti b d
@@ -165,7 +165,7 @@ I-IV-LIVcAlto = {
   }
 }
 
-I-IV-LIVcAltoLyrics = \lyricmode {
+I-IV-LIIIcAltoLyrics = \lyricmode {
   Ad te cla -- %103
   ma --
   mus, cla -- %105
@@ -216,10 +216,10 @@ I-IV-LIVcAltoLyrics = \lyricmode {
   vae. %163 finis
 }
 
-I-IV-LIVdAlto = {
+I-IV-LIIIdAlto = {
   \relative c' {
     \clef treble
-    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIVd
+    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIIId
       \set Score.currentBarNumber = #171
     R2.*21 %191
     r4 \mvTr b\fE^\solo b
@@ -278,7 +278,7 @@ I-IV-LIVdAlto = {
   }
 }
 
-I-IV-LIVdAltoLyrics = \lyricmode {
+I-IV-LIIIdAltoLyrics = \lyricmode {
   Ad te %192
   su --
   spi --
@@ -332,10 +332,10 @@ I-IV-LIVdAltoLyrics = \lyricmode {
   le. %247 finis
 }
 
-I-IV-LIVeAlto = {
+I-IV-LIIIeAlto = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoI-IV-LIVe
+    \key g \minor \time 4/4 \autoBeamOff \tempoI-IV-LIIIe
       \set Score.currentBarNumber = #253
     R1*17 %269
     \mvTr g'8\pE^\solo d g a16([ b)] a8 b16([ c)] fis,8 g %270
@@ -373,7 +373,7 @@ I-IV-LIVeAlto = {
   }
 }
 
-I-IV-LIVeAltoLyrics = \lyricmode {
+I-IV-LIIIeAltoLyrics = \lyricmode {
   E -- ia, e -- ia er -- go, ad -- vo -- %270
   ca -- ta, ad -- vo -- ca -- ta, ad -- vo --
   ca -- ta, ad -- vo -- ca -- ta, ad -- vo --
@@ -408,10 +408,10 @@ I-IV-LIVeAltoLyrics = \lyricmode {
   ver -- te. %304 finis
 }
 
-I-IV-LIVgAlto = {
+I-IV-LIIIgAlto = {
   \relative c' {
     \clef treble
-    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoI-IV-LIVg
+    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoI-IV-LIIIg
       \set Score.currentBarNumber = #371
     R1*5 %375
     \mvTr g'1\fE^\tutti
@@ -530,7 +530,7 @@ I-IV-LIVgAlto = {
   }
 }
 
-I-IV-LIVgAltoLyrics = \lyricmode {
+I-IV-LIIIgAltoLyrics = \lyricmode {
   O! __ %376
   _
   _ _

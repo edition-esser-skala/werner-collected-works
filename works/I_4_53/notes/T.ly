@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-IV-LIVcTenore = {
+I-IV-LIIIcTenore = {
   \relative c' {
     \clef "treble_8"
-    \key b \major \time 3/4 \tempoI-IV-LIVc \autoBeamOff
+    \key b \major \time 3/4 \tempoI-IV-LIIIc \autoBeamOff
       \set Score.currentBarNumber = #92
     R2.*10 %101
     \mvTr d,4\fE^\tutti f b
@@ -62,7 +62,7 @@ I-IV-LIVcTenore = {
   }
 }
 
-I-IV-LIVcTenoreLyrics = \lyricmode {
+I-IV-LIIIcTenoreLyrics = \lyricmode {
   Ad te cla -- %102
   ma --
 
@@ -115,10 +115,10 @@ I-IV-LIVcTenoreLyrics = \lyricmode {
   vae. %163 finis
 }
 
-I-IV-LIVdTenore = {
+I-IV-LIIIdTenore = {
   \relative c' {
     \clef "treble_8"
-    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIVd
+    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIIId
       \set Score.currentBarNumber = #171
     R2.*21 %191
     r4 \mvTr g\fE^\solo g
@@ -173,7 +173,7 @@ I-IV-LIVdTenore = {
   }
 }
 
-I-IV-LIVdTenoreLyrics = \lyricmode {
+I-IV-LIIIdTenoreLyrics = \lyricmode {
   Ad te %192
   su --
   spi --
@@ -222,10 +222,10 @@ I-IV-LIVdTenoreLyrics = \lyricmode {
   le. %247 finis
 }
 
-I-IV-LIVfTenore = {
+I-IV-LIIIfTenore = {
   \relative c' {
     \clef "treble_8"
-    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIVf
+    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIIIf
       \set Score.currentBarNumber = #305
     r4 \mvTr b2\p^\solo
     c4.( d8) es([ c)]
@@ -293,7 +293,7 @@ I-IV-LIVfTenore = {
   }
 }
 
-I-IV-LIVfTenoreLyrics = \lyricmode {
+I-IV-LIIIfTenoreLyrics = \lyricmode {
   Et %305
   Je -- sum,
   be -- ne --
@@ -357,10 +357,10 @@ I-IV-LIVfTenoreLyrics = \lyricmode {
   a. %367 finis
 }
 
-I-IV-LIVgTenore = {
+I-IV-LIIIgTenore = {
   \relative c' {
     \clef "treble_8"
-    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoI-IV-LIVg
+    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoI-IV-LIIIg
       \set Score.currentBarNumber = #371
     R1*10 %380
     \mvTr d1\fE^\tutti
@@ -469,7 +469,7 @@ I-IV-LIVgTenore = {
   }
 }
 
-I-IV-LIVgTenoreLyrics = \lyricmode {
+I-IV-LIIIgTenoreLyrics = \lyricmode {
   O! __ %381
   _
   _ _

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-I-IV-LIVcViolaII = {
+I-IV-LIIIcViolaII = {
   \relative c' {
     % \clef tenor
-    \key b \major \time 3/4 \tempoI-IV-LIVc
+    \key b \major \time 3/4 \tempoI-IV-LIIIc
       \set Score.currentBarNumber = #92
     d4\fE r b
     c2 c4
@@ -87,10 +87,10 @@ I-IV-LIVcViolaII = {
   }
 }
 
-I-IV-LIVdViolaII = {
+I-IV-LIIIdViolaII = {
   \relative c' {
     % \clef tenor
-    \key es \lydian \time 3/4 \tempoI-IV-LIVd
+    \key es \lydian \time 3/4 \tempoI-IV-LIIId
       \set Score.currentBarNumber = #171
     r8 g\fE g g g g
     r as as as as as
@@ -177,10 +177,10 @@ I-IV-LIVdViolaII = {
   }
 }
 
-I-IV-LIVgViolaII = {
+I-IV-LIIIgViolaII = {
   \relative c' {
     % \clef tenor
-    \twotwotime \key g \minor \time 2/2 \tempoI-IV-LIVg
+    \twotwotime \key g \minor \time 2/2 \tempoI-IV-LIIIg
       \set Score.currentBarNumber = #371
     R1*10 %380
     d1\fE
