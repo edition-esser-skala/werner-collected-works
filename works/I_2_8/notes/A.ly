@@ -4,14 +4,14 @@ I-II-VIIIAlto = {
   \relative c' {
     \clef treble
     \key a \minor \time 4/4 \tempoI-II-VIII \autoBeamOff
-    r2 r8 \mvTr e\pE^\solo a gis
+    r2^\aQuattro r8 \mvTr e\pE^\solo a gis
     c4. h8 r d,4( c8)
     a'4 g r8 a4 g8
     f8. f16 e4 d8 d d4
     d r r2 %5
     R1*3
     r2 r4 h8 h
-    g' fis?16([ e)] fis?8 e16([ dis)] e([ dis)] e8 r4 %10
+    g' fis?16([ e)] \hA fis8 e16([ dis)] e([ \hA dis)] e8 r4 %10
     R1
     r4 f8 a d,16([ c)] d8 r4
     r2 r8 c d16([ c)] d8
@@ -19,7 +19,7 @@ I-II-VIIIAlto = {
     r2 r4 r8 e'~ %15
     e a f16([ e)] f8 d g e4~
     e8 d4 c8 c16([ h)] h8 e16([ gis)] gis([ a)]
-    h4. a16 gis a4.( gis8)
+    h4. a16 gis a4.( \hA gis8)
     a4 r r2\fermata \bar "|." %19 finis
   }
 }

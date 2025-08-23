@@ -4,18 +4,21 @@ genre: antiphon
 scoring: A (solo), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.157
+    rism: 530002050
+    url: https://copia.oszk.hu/kotta/ave-regina-in-em/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: I 4
     rism: 600038505
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/430.html
     license: public domain
-    principal: true
 toe: |
-  7  & vlne & in \B1 one octave higher \\
-  19 & vl 1 & 1st \eighthNote\ in \B1: g′16–e″16 \\
-  36 & org  & bar in \B1: E4. \\
-extra_abbreviations:
-  vlne:
+  19 & vl 2      & 1st \eighthNote\ in \A1 and \B1: e′16.–a′32 \\
+  36 & org, vlne & bar in \A1 and \B1: E4. \\
 parts:
   A_solo: Alto solo

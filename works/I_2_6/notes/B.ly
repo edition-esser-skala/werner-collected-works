@@ -7,8 +7,8 @@ I-II-VI-Basso = {
     R1*3
     r2 \mvTr c8.([\pE^\solo d16] e8) c
     f c f a g4 c, %5
-    r8 a'4 f8 cis cis cis16([ d)] e([ cis)]
-    d8[ f]~ f16[ d f a] b[ c d c] b[ a g f]
+    r8 a'4 f8 cis cis cis16([ d)] e([ \hA cis)]
+    d8[ f]~ f16[ d f a] b[ c! d c] b[ a g f]
     e[ d c d] e[ c e g] a[ b c b] a[ g f e]
     d[ e f e] d[ c b a] h2
     c8([ d16 e] f[ g a b!]) c8 a f a %10

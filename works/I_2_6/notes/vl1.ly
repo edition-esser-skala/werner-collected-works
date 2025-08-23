@@ -12,12 +12,12 @@ I-II-VI-ViolinoI = {
     r f f f f f f f
     e4 r r2 %10
     f'8 d b d a4 g\trill
-    f16 a\f c a f'^\critnote c a' f c' c c c c c c c
-    c f,, a f c' a f' c a' a a a a a a a
+    f16\fE a c a f' c a' f c' c c c c c c c
+    \kneeBeam c f,, a f c' a f' c a' a a a a a a a
     a8 f4 d a'8 d a
     b b, r4 r8 e4 d8 %15
     c! a r4 r8 d4 c8
-    b g g a h e, gis h
+    b g g a h e, gis \hA h
     a a'4 g!8 f4 d
     r8 g4 f8 es es es d
     cis cis d4. d8 d4\trill %20
@@ -35,7 +35,7 @@ I-II-VI-ViolinoI = {
     cis( d) d4 r8 cis\p cis cis
     cis( d) d4 r8 cis4\f cis8
     d2 d
-    cis4 d8 d d4 cis %35
+    cis4 d8 d d4 \hA cis %35
     d r r8 cis cis cis
     cis( d) d4 r8 cis\p cis cis
     cis( d) d4 r8 d\f d d

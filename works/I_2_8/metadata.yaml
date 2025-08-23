@@ -1,12 +1,19 @@
 title: Ave Regina cœlorum
 id: WerW I.2.8
 genre: antiphon
-scoring: S, A, T, B (coro), b, org
+scoring: S, A, T, B (solo), b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.152
+    date: 1756
+    rism: 530002045
+    url: https://copia.oszk.hu/kotta/ave-regina-in-am/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: I 7
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/433.html
     license: public domain
-    principal: true

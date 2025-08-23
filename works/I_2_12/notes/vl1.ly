@@ -19,7 +19,7 @@ I-II-XII-ViolinoI = {
     R4.*4 %16
     r16 e\fE d( c) h( a)
     a8. fis'16 \tuplet 3/2 8 { g[ d e] }
-    g,16.^\critnote e'32 h8 a\trill
+    g, e' h8 a\trill
     g4 r8 %20
     r h16(\pE e) e( dis)
     \tuplet 3/2 8 { e[ fis g] } g8 fis
@@ -41,7 +41,7 @@ I-II-XII-ViolinoI = {
     r16 fis\f ais h cis d e fis %40
     d( h) ais( h) fis g' fis e
     d( h) ais( h) fis g fis e
-    \sbOn \tuplet 3/2 8 { d ais h } h' h, \sbOff cis8 ais
+    \sbOn \tuplet 3/2 8 { d cis h } h' h, \sbOff \hA cis8 ais
     h4 r
     R2*2 %46
     r16 a'\p cis d e fis g a
@@ -57,7 +57,7 @@ I-II-XII-ViolinoI = {
     a4 r
     R2
     a'4\f h\trill
-    cis16 h a gis a h cis d %60
+    cis16 h a gis a h \hA cis d %60
     e8 fis16 g! a8 g
     fis d, r4
     R2*2
@@ -66,17 +66,17 @@ I-II-XII-ViolinoI = {
     h'~ h16 cis d e
     cis8 a, r4
     a'~ a16 h cis d
-    cis8 cis, cis'4~ %70
-    cis8 h16 ais h d cis h
+    cis8 cis, \hA cis'4~ %70
+    cis8 h16 ais h d \hA cis h
     ais8 fis r4
     R2*2
     h4\f cis\trill %75
-    d16 cis h ais h cis d e
+    d16 cis h ais h \hA cis d e
     fis8 g16 fis g8 h,
-    ais16 fis ais h cis d e fis
+    ais16 fis \hA ais h cis d e fis
     d( h) ais( h) fis g' fis e
     d( h) ais( h) fis g fis e %80
-    \sbOn \tuplet 3/2 8 { d cis h } h' h, \sbOff cis8 ais \noBreak
+    \sbOn \tuplet 3/2 8 { d cis h } h' h, \sbOff \hA cis8 ais \noBreak
     h4 r\fermata \bar "||"
     \time 3/2 \tempoI-II-XII-c \newSpacingSection
       d1\p d2 \noBreak
@@ -97,7 +97,7 @@ I-II-XII-ViolinoI = {
     c!2 h1
     h2 g'\f g
     cis,1. %100
-    fis2. g8( a) g4( dis)
+    fis,2. g8( a) g4( dis)
     e1 dis2
     e1 r2\fermata \bar "|."
   }

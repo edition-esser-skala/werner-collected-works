@@ -4,7 +4,7 @@ I-II-VI-Tenore = {
   \relative c' {
     \clef "treble_8"
     \key d \minor \time 4/4 \tempoI-II-VI \autoBeamOff
-    r2 r8 \mvTr d\pE^\solo f e
+    r2 r8 \mvTr d\pE^\solo^\aTre f e
     d4 d8 c b4 a
     r8 g4 f8 b8. b16 a4
     g8 g g4 g r
@@ -16,7 +16,7 @@ I-II-VI-Tenore = {
     r8 a4 g!8 fis fis fis fis
     g4 d r8 h'4 h8
     e2 a,4 a~
-    a8 g a4 b g~
+    a8 g a4 b! g~
     g f f2 %20
     e4 r r8 d' d d
     d([ cis)] cis4 r8 d\p d d
@@ -66,7 +66,7 @@ I-II-VI-TenoreLyrics = \lyricmode {
   val -- de de -- co -- ra,
   pro no -- bis Chri -- stum ex --
   o -- ra, %30
-  \xE Chri -- stum ex -- o -- ra, \x
+  va -- le o val -- de,
   va -- le o val -- de,
   val -- de de -- co -- ra,
   pro no -- bis

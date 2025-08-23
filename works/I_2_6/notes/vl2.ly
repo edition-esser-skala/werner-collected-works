@@ -12,12 +12,12 @@ I-II-VI-ViolinoII = {
     f d4 d8 r g g g
     g4 r r2 %10
     r8 f g f~ f e16 d e4
-    f16 f\f a f c' a f' c a' a a a g g g g
+    f16\fE f a f c' a f' c a' a a a g g g g
     a a, f c' a f c' a f' f f f e e e e
     d8. d16 f,8 g a fis d d'~
     d g,4 a8 h4. h8 %15
     e, c'4 b8 a4. a8
-    d, b'4 a8 gis gis h gis
+    d, b'4 a8 gis gis h \hA gis
     e4 e' a,8 d, f a
     d4 c! r8 b!4 b8
     a4 a h4. h8 %20
@@ -39,7 +39,7 @@ I-II-VI-ViolinoII = {
     d8 fis fis fis fis( g) g4
     r8 fis\p fis fis fis( g) g4
     r8 fis4\f fis8 g4 a
-    g fis8 fis g4 fis8 e
+    g fis8 fis g4 \hA fis8 e
     fis1\fermata \bar "|." %40 finis
   }
 }

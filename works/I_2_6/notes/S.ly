@@ -4,7 +4,7 @@ I-II-VI-Soprano = {
   \relative c' {
     \clef treble
     \key d \minor \time 4/4 \tempoI-II-VI \autoBeamOff
-    r8 \mvTr d'\pE^\solo f e d4 d8 c
+    r8 \mvTr d'\pE^\solo^\aTre f e d4 d8 c
     b4 a r8 g4 f8
     b8. b16 a4 r8 g4 f8
     f([ e] d4) e r
@@ -23,7 +23,7 @@ I-II-VI-Soprano = {
     r8 a4\f a8 a([ f)] f([ d)]
     b'2 g8 g c c
     d([ e16 d] e8[ f16 e] f8[ d]) c b %25
-    a16([ b a b] c8[ b16 a]) g8 c c c
+    a16([ b a b] c8^[ b16 a]) g8 c c c
     c([ d)] d4 r8 c\p c c
     c([ d]) d4 r c~\f
     c8 c c c c c b4
@@ -32,7 +32,7 @@ I-II-VI-Soprano = {
     cis([ d)] d4 r8 cis\p cis cis
     cis([ d)] d4 r8 cis4\f cis8
     d2 d
-    cis4 d8 d d4( cis) %35
+    cis4 d8 d d4( \hA cis) %35
     d r r8 cis cis cis
     cis([ d)] d4 r8 cis\p cis cis
     cis([ d)] d4 r8 d\f d d

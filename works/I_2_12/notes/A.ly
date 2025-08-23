@@ -11,11 +11,11 @@ I-II-XII-Alto = {
     g fis16([ e)] d([ c)] %5
     h([ c)] d8 g~
     g fis16([ g)] \tuplet 3/2 8 { a([ g fis)] }
-    g([ fis)] g8 d
-    dis16[ e] e4
-    eis16[ fis] fis4~ %10
-    fis16[ g] g4
-    gis16[ a] a4
+    g([ fis)] g8 d(
+    dis16[) e] e4(
+    eis16[) fis] fis4~ %10
+    fis16[ g] g4(
+    gis16[) a] a4
     h16([ g)] fis([ e)] d([ cis)]
     d8 d16 c \tuplet 3/2 8 { h([ c d)]
     c([ h a)] } g16.([ a32 a8)]\trill %15
@@ -38,12 +38,12 @@ I-II-XII-Alto = {
     R4.\fermata \bar "||"
     \twofourtime \time 2/4 \tempoI-II-XII-b \newSpacingSection
       h4 cis \noBreak
-    d16[ cis h ais] h[ cis d e]
+    d16[ cis h ais] h[ \hA cis d e]
     fis8[ g16 fis] g8 h,
     h ais r4 %40
     R2*3
     h4 cis
-    d16[ cis h cis] d[ e fis g] %45
+    d16[ cis h \hA cis] d[ e fis g] %45
     a8[ h16 a] h8 d,
     d cis r4
     d e
@@ -69,7 +69,7 @@ I-II-XII-Alto = {
     fis([ e)] fis8 d fis
     e16[ d e8]~ e16[ cis fis e] %70
     d[ cis d8]~ d16[ fis e d]
-    cis[ fis, gis ais] h[ cis d e]
+    cis[ fis, gis ais] h[ \hA cis d e]
     fis8 gis16([ ais)] h8 h,
     h8.([ cis16] cis4)\trill
     h r %75
@@ -86,8 +86,8 @@ I-II-XII-Alto = {
     c( h a) } a2 a' %90
     g!1 \tuplet 3/2 2 { g4( fis! e)
     dis( cis h) } h2 fis'
-    g1.
-    gis1~ gis4 a
+    g1.(
+    gis1~) gis4 a
     a2 r a, %95
     ais1~ ais4 h
     h2.( cis8[ dis] e[ fis] g4)
@@ -107,10 +107,10 @@ I-II-XII-AltoLyrics = \lyricmode {
   gi -- na, a --
   ve __ coe --
   lo -- rum, a --
-  _ _
-  _ _ %10
   _
-  _ ve
+  _ %10
+  _
+  ve
   Do -- mi -- na, __
   Do -- mi -- na An --
   ge -- lo -- %15
@@ -178,7 +178,7 @@ I-II-XII-AltoLyrics = \lyricmode {
   no -- bis __
   Chri -- stum ex --
   o --
-  _ _
+  _
   ra, ex -- %95
   o -- _
   ra, __

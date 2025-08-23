@@ -4,10 +4,10 @@ I-II-VI-Alto = {
   \relative c' {
     \clef treble
     \key d \minor \time 4/4 \tempoI-II-VI \autoBeamOff
-    r2 r8 \mvTr f\pE^\solo a g
+    r2 r8 \mvTr f\pE^\solo^\aTre a g
     f4 f8 e d4 c
     r8 d([ e)] f d8. d16 c4
-    h8 c c([ h)] c4 r
+    h8 c c([ \hA h)] c4 r
     R1*7 %11
     r2 \mvTr f4\fE^\tutti e
     f8 f r4 f e
@@ -24,9 +24,9 @@ I-II-VI-Alto = {
     f([ d)] d g e4. f8~
     f g4 a b16[ a] g4~ %25
     g8 f~ f16[ a g f] e8 e e e
-    e([ f)] f4 r8 g\pE g e
+    e([ f)] f4 r8 g\p g e
     a([ f)] f4 r2
-    g4.\fE g8 fis( a4) g8
+    g4.\f g8 fis( a4) g8
     a2 gis8 gis a4~ %30
     a gis a8 e e e
     e([ f)] f4 r8 e\p e e
@@ -36,7 +36,7 @@ I-II-VI-Alto = {
     d8 fis fis fis fis([ g)] g4
     r8 fis\p fis fis fis([ g)] g4
     r8 fis4\f fis8 g4 a
-    g fis8 fis g4( fis8[ e])
+    g fis8 fis g4( \hA fis8[ e])
     fis1\fermata \bar "|." %40 finis
   }
 }

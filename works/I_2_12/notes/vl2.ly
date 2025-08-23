@@ -6,7 +6,7 @@ I-II-XII-ViolinoII = {
     \key e \minor \time 3/8 \tempoI-II-XII
     r8^\conSord g'\pE a
     r g a
-    \sbOn g16 fis \tuplet 3/2 8 { g fis e fis[ e dis] } \sbOff
+    \sbOn g16 fis \tuplet 3/2 8 { g( fis) e fis[ e dis] } \sbOff
     e( fis) g8 r
     d!16( e) fis( g) \tuplet 3/2 8 { a[ h c] %5
     h[ a g] } g8 g~
@@ -17,12 +17,12 @@ I-II-XII-ViolinoII = {
     r h16( c) c8
     r cis16( d) d8
     R4.*3 %15
-    r16 d\fE c( h) a( g)
+    r16 d\f c( h) a( g)
     g4 g8
     fis a d16( g,)
-    e16. a32 g8 fis\trillE
+    e-\critnote a g8 fis\trillE
     g4 r8 %20
-    r g\pE h
+    r g\p h
     h4 h8
     r g, h
     h4 h8
@@ -32,7 +32,7 @@ I-II-XII-ViolinoII = {
     e,8 cis'8. cis16
     fis,8. fis16 g8 %30
     \tuplet 3/2 8 { a16 g fis } \appoggiatura e8 dis4\trill
-    e16(\fE fis) g( a) h( e,)
+    e16(\f fis) g( a) h( e,)
     c'8~ \tuplet 3/2 8 { c16[ h a] g! fis g }
     fis8 h8. e,16
     c e e8 dis\trill \noBreak %35
@@ -42,7 +42,7 @@ I-II-XII-ViolinoII = {
     r16 fis\f ais h cis d e fis %40
     d( h) ais( h) fis g' fis e
     d( h) ais( h) fis g fis e
-    \sbOn \tuplet 3/2 8 { d cis h } h' h, \sbOff cis8 ais
+    \sbOn \tuplet 3/2 8 { d cis h } h' h, \sbOff \hA cis8 ais
     h4 r
     R2*2 %46
     r16 a'\p cis d e fis g a
@@ -58,7 +58,7 @@ I-II-XII-ViolinoII = {
     a4 r
     R2
     a'4\f h\trill
-    cis16 h a gis a h cis d %60
+    cis16 h a gis a h \hA cis d %60
     e8 fis16 g! a8 g
     fis d, r4
     R2*2
@@ -67,17 +67,17 @@ I-II-XII-ViolinoII = {
     h'~ h16 cis d e
     cis8 a, r4
     a'~ a16 h cis d
-    cis8 cis, cis'4~ %70
-    cis8 h16 ais h d cis h
+    cis8 cis, \hA cis'4~ %70
+    cis8 h16 ais h d \hA cis h
     ais8 fis r4
     R2*2
     h4\f cis\trillE %75
-    d16 cis h ais h cis d e
+    d16 cis h ais h \hA cis d e
     fis8 g16 fis g8 h,
-    ais16 fis ais h cis d e fis
+    ais16 fis \hA ais h cis d e fis
     d( h) ais( h) fis g' fis e
     d( h) ais( h) fis g fis e %80
-    \sbOn \tuplet 3/2 8 { d cis h } h' h, \sbOff cis8 ais \noBreak
+    \sbOn \tuplet 3/2 8 { d cis h } h' h, \sbOff \hA cis8 ais \noBreak
     h4 r\fermata \bar "||"
     \time 3/2 \tempoI-II-XII-c \newSpacingSection
       h1\p h2 \noBreak
