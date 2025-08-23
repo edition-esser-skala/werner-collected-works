@@ -7,10 +7,10 @@ I-IV-XLIBasso = {
     \mvTr g'8[\pE^\solo b16 a] g4. b16[ a] g4~
     g8[ b16 a] g8 d b g r4
     r2 r8 b f'4~
-    f8 e16([ d)] e4 f8 a16[ g] f4~
+    f8 e16([ d)] \hA e4 f8 a16[ g] f4~
     f8[ a16 g] f4. a16[ g] f[ g a f] %5
     b8 c16([ d)] es4 d8 b g c
-    a8. a16 b8 c d16[ b g es] c'[ a f d]
+    a8. a16 b8([ c]) d16[ b g es] c'[ a f d]
     b'[ g es c] a'[ f g a] b[ d,] es([ g)] f4
     b,8 d16[ f] b4. d16[ c] b4~
     b8[ d16 c] b[ c a c] b[ d, es g] f8[ f,] %10
@@ -28,18 +28,18 @@ I-IV-XLIBasso = {
     d d, r4 a'
     d2 d, r4 a'
     d8[ a h cis] d[ f, g a] d,[ f g a]
-    b[ g a b] c[ e, f g] c,[ e f g]
+    b[ g a b] c[ e, f g] c,[ \hA e f g]
     a2 f r4 c %25
     f2 f, r4 c'
     f8[ c d e] f[ g a b] a[ f a b]
-    c[ g a h] c[ e, f g] c,[ e f g]
-    f[ g a g] f[ e d e] f[ g a h] \noBreak
+    c[ g a h] c[ e, f g] c,[ \hA e f g]
+    f[ g a g] f[ e d \hA e] f[ g a h] \noBreak
     c2 c, r %30
     \time 4/4 \tempoI-IV-XLIc \newSpacingSection
       a'8 a16 a a8 a16 a b!2 \noBreak
     a g8 g16 g g8 g16 g
     as2 g
-    f4 f8 f es2(
+    f4 f8 f es!2(
     fis) g \noBreak %35
     R1\fermata \bar "||"
     \time 3/2 \tempoI-IV-XLId \newSpacingSection
@@ -82,7 +82,7 @@ I-IV-XLIBasso = {
     f4 g a8 f r4
     b c d8 b r4
     b16([ c] d4) g,8 a16([ b] c4) f,8 %85
-    g[( f16 e] d8[ e]) f a4 c8
+    g[( f16 e] d8[ \hA e]) f a4 c8
     b b, r d es g c es,
     d8. c16 b8 d' \tuplet 3/2 4 { c[( b a]) b[( a g]) }
     a[ b16 c] d8[ d,] e16[ g a b] c8[ c,]
@@ -97,10 +97,10 @@ I-IV-XLIBasso = {
     d8.([ es16)] f8 g f4( f,)
     b r r2 \noBreak
     R1\fermata \bar "||" %100
-    \tempoI-IV-XLIf r8 a' d, d' cis16([ d] e?4) g,8 \noBreak
-    f d a' d c16([ g)] e([ c)] \appoggiatura c'8 b4
+    \tempoI-IV-XLIf r8 a' d, d' cis16([ d] e4) g,8 \noBreak
+    f d a' d c16([ g)] e([ c)] \appoggiatura c'8 b4\trill
     a8 a a b c c16([ d)] es!8 g,
-    fis d16([ e)] fis[ g a b] g4~ g16[ d es c] \noBreak
+    fis d16([ e)] \hA fis[ g a b] g4~ g16[ d es c] \noBreak
     d2 g,\fermata \bar "||" %105
     \time 3/4 \tempoI-IV-XLIg \newSpacingSection
       r4 g'2 \noBreak
@@ -118,7 +118,7 @@ I-IV-XLIBasso = {
     d4 b c
     d4. g8 e4
     f f8([ g)] a([ f)]
-    e4 c e %125
+    e4 c \hA e %125
     f f, r
     R2.
     r4 r g'
@@ -126,7 +126,7 @@ I-IV-XLIBasso = {
     b g b %130
     a8([ g)] fis([ e?)] d([ c)]
     b4 g b'
-    a8([ b)] a([ g)] f([ es)]
+    a8([ b)] a([ g)] f!([ es)]
     d4 b f'
     g4.( a8) b([ f)] %135
     g4 es2
@@ -135,7 +135,7 @@ I-IV-XLIBasso = {
     r4 g( b)
     a8([ g)] fis([ e)] d([ c)] %140
     b4 g b'
-    a8([ g]) fis([ e)] d([ c)]
+    a8([ g]) fis([ e?)] d([ c)]
     b4( g') es
     c d2
     g, r4 %145
@@ -150,8 +150,8 @@ I-IV-XLIBassoLyrics = \lyricmode {
   Re -- gi --
   na sal -- ve, sal -- _
   _ _ _ %5
-  ve Re -- gi -- na, ma -- ter mi --
-  se -- ri -- cor -- diae, sal --  _
+  _ ve, ma -- ter mi -- se -- ri --
+  cor -- di -- ae, sal -- _
   _ _ _ ve, sal --
   ve, sal -- _ _ _
   _ _ _ %10

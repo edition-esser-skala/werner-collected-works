@@ -4,7 +4,7 @@ I-IV-XVII-Tenore = {
   \relative c' {
     \clef "treble_8"
     \twotwotime \key g \major \time 2/2 \tempoI-IV-XVII \autoBeamOff
-    \mvTr h1\fE^\tuttiE
+    h1
     h4( a) g( fis)
     e( fis) g2
     a1

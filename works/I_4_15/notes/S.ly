@@ -4,7 +4,7 @@ I-IV-XV-Soprano = {
   \relative c' {
     \clef treble
     \twotwotime \key c \major \time 2/2 \tempoI-IV-XV \autoBeamOff
-    \mvTr c'1\fE^\tuttiE
+    c'1\fE
     a2 c
     h4( c) d2
     d c
@@ -31,7 +31,7 @@ I-IV-XV-Soprano = {
     e
     R %30
     d'2 d
-    fis, r4 fis
+    fis, r4 \hA fis
     g a h c
     d e f!2~
     f e %35

@@ -4,8 +4,13 @@ I-IV-IXOrgano = {
   \relative c {
     \clef bass
     \key a \minor \time 3/4 \tempoI-IV-IX
-    \mvTr a4\pE-\solo h c~
-    c h a
+    << {
+      a'4^\vlne h c~
+      c h a
+    } \\ {
+      \mvTr a,4\pE-\solo_\org h c~
+      c h a
+    } >>
     d e f~
     f e d
     c c' gis %5
@@ -24,7 +29,7 @@ I-IV-IXOrgano = {
     fis2 fis4
     g2 g4
     fis2. %20
-    h,4 h'2
+    h,4 h'2~
     h4 ais a
     g2 e4
     f! fis gis
@@ -51,7 +56,7 @@ I-IV-IXOrgano = {
     c4 e c %45
     h2 e4
     a, d fis,
-    g g' g,
+    g g' h,
     c a r
     d h r %50
     e2 fis4

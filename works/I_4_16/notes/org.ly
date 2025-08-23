@@ -4,10 +4,10 @@ I-IV-XVIOrgano = {
   \relative c {
     \clef treble
     \key b \major \time 3/2 \tempoI-IV-XVI
-    \mvTr b''2.\fE-\tuttiE a4 b c
+    b''2.-! a4-! b-! c-!
     << { a f a b g a } \\ { f2. d4 es f } >>
     \clef "treble_8" b,2. a4 b c
-    \clef bass f,2. d4 es f
+    \clef bass f,2. d4 es! f
     d b b' a g2 %5
     f4. es8 d2 c
     b1 \clef treble << {
@@ -67,8 +67,8 @@ I-IV-XVIOrgano = {
     } \\ {
       d,4 c b b' a g %52
       f es d es d c
-      \once \tieDashed b2~^\critnote b
-    } >> a
+      b1
+    } >> a2
     b \clef treble << {
       d'' c4 b %55
       a c b2. es4
@@ -90,13 +90,13 @@ I-IV-XVIOrgano = {
 I-IV-XVIBassFigures = \figuremode {
   r1.
   r
-  r2. <6>4 <[6]> <_!>
+  r2. <[6]>4 <6> <_!>
   <5>2 <6> <6 5>
   \bo <[6]>2. \bc q4 <5> <6!> %5
   r2 <6> <5 [_-]>4 <6>
   r1.
   r
-  \bo <[6]>2. \bc <[2]>4 <6> q
+  <[6]>2. <6>4 q q
   r2 <5>2. <6!>4 %10
   r1 <6->2
   r1 <[6]>2
@@ -117,7 +117,7 @@ I-IV-XVIBassFigures = \figuremode {
   r1.
   r
   <_->
-  <7- 5>1 \bo <[6 4]>4 \bc <[8 6]> %30
+  <7- 5>1 r4 <[8 6]> %30
   r1 <6>2
   <9> <[5]> <6 5>
   r <4> <_!>
@@ -128,8 +128,8 @@ I-IV-XVIBassFigures = \figuremode {
   <6>2 <[6]>1
   r2. <6>4 <_!>2
   <[6]>1 <6[-]>2 %40
-  r <6-> <[5!] _+>
-  <[6]> <4> <_+>
+  r <6-> \bo <[5!] _+>
+  \bc <[6]> <4> <_+>
   r1 <[6]>2
   r1 <6[!]>4 <5>
   r2 <6 4!>4 <8 6>2 <6>4 %45

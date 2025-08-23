@@ -4,7 +4,7 @@ I-IV-XVISoprano = {
   \relative c' {
     \clef treble
     \key b \major \time 3/2 \tempoI-IV-XVI \autoBeamOff
-    \mvTr b'2.(\fE^\tuttiE a4) b c
+    b'2.( a4) b c
     a f a( b) g f
     b4.( c8) d4( c) d e
     f2 r r
@@ -43,7 +43,7 @@ I-IV-XVISoprano = {
     f4 c( d) d h2
     c4 c a a b b %40
     g g as as fis fis
-    g2.( fis8[ e?] fis2)
+    g2.( fis8[ e?] \hA fis2)
     g4 b b2 a
     r4 g2 b4 c c
     f,! f g a b( d) %45
@@ -51,7 +51,7 @@ I-IV-XVISoprano = {
     a2 a b4 c
     d2 d es4 f
     f b, es4. d8 c4 c
-    b2._( a8[ g] a2) %50
+    \once \stemUp b2.( a8[ g] a2) %50
     b r r
     R1.*3
     f2 d' c4 b %55

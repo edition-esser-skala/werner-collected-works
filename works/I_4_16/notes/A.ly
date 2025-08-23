@@ -5,7 +5,7 @@ I-IV-XVIAlto = {
     \clef treble
     \key b \major \time 3/2 \tempoI-IV-XVI \autoBeamOff
     R1.
-    \mvTr f2.(\fE^\tuttiE d4) es f
+    f2.( d4) es f
     d b f'8([ g)] a4 g2
     c,4 c f f g a
     b2 f b %5
@@ -16,7 +16,7 @@ I-IV-XVIAlto = {
     f4 es8[ f] d2 g %10
     c, r r
     r r4 f g a
-    b( g8[ a] b1)
+    \once \stemUp b( g8[ a] b1)
     a2 g1
     a2 r r %15
     R1.
@@ -41,7 +41,7 @@ I-IV-XVIAlto = {
     a r r %35
     r f4 f f2
     f r a4 f
-    b4._( a16[ g] f4) a f( b)
+    \once \stemUp b4.( a16[ g] f4) a f( b)
     a2 r4 a g g
     g g f f f f %40
     es! es es es d2

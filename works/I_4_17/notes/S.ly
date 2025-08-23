@@ -4,7 +4,7 @@ I-IV-XVII-Soprano = {
   \relative c' {
     \clef treble
     \twotwotime \key g \major \time 2/2 \tempoI-IV-XVII \autoBeamOff
-    \mvTr g'1\fE^\tuttiE
+    g'1
     h2 d
     e d
     c1

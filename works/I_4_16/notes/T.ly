@@ -5,7 +5,7 @@ I-IV-XVITenore = {
     \clef "treble_8"
     \key b \major \time 3/2 \tempoI-IV-XVI \autoBeamOff
     R1.*2
-    \mvTr b2.(\fE^\tuttiE a4) b c
+    b2.( a4) b c
     a f d'2 c
     r4 b d c d e %5
     f2 r r

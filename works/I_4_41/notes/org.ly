@@ -4,7 +4,7 @@ I-IV-XLIOrgano = {
   \relative c {
     \clef bass
     \key g \minor \time 4/4 \tempoI-IV-XLIa
-    \mvTr g'4\pE-\soloE r8 g g4 r8 g
+    \mvTr g'4\pE-\solo r8 g g4 r8 g
     g4. d8 b g g'\fE d
     es c f! f, b4 a8\pE d
     b g c c, f4 r8 f'
@@ -121,7 +121,7 @@ I-IV-XLIOrgano = {
     d4 d, g2\fermata \bar "||" %105
     \time 3/4 \tempoI-IV-XLIg \newSpacingSection
       g'8 a b4 g \noBreak
-    fis d fis
+    fis d \hA fis
     g4. f8 es d
     es4 c f
     b, b' d, %110
@@ -139,24 +139,24 @@ I-IV-XLIOrgano = {
     b d a
     b g c
     a f f'
-    e c e %125
+    e c \hA e %125
     f, f'8 es d4
     a f a
     b2 g'4
-    fis d fis
+    fis d \hA fis
     g b g %130
-    fis d fis
+    fis d \hA fis
     g2 d8 es!
     f!4 f, a
     b d b
     es c d %135
     es c f
-    b, d\fE b
+    b, d b
     f' r r
-    r g2\pE
-    fis4 d fis %140
+    r g2
+    fis4 d \hA fis %140
     g b g
-    fis d fis
+    fis d \hA fis
     g2 es!4
     c d2
     g,4 es'\fE b %145
@@ -201,13 +201,13 @@ I-IV-XLIBassFigures = \figuremode {
   r8 <6 4 _->2 <[6]>4.
   r8 <6 5>2..
   r8 <7- 5>2 <_!>4. %35
-  <\t>1
-  <[_!]>1.
+  r1
+  <_!>1.
   <4 2->2 <_->1
   <4! 2>2 <6>1
   r1. %40
   <4>2 <_!>1
-  <_->2 <\t> <6 [_-]>
+  <_->2 <\t> <[6] _->
   <6!> <_!>1
   <6->1.
   r %45
@@ -232,7 +232,7 @@ I-IV-XLIBassFigures = \figuremode {
   <6\\> %65
   <6>1 <5[!]>2
   <9> <6>1
-  <7 _->2 \bassFigureExtendersOn <6[-] _-> <5 _-> \bassFigureExtendersOff
+  <7 _->2 \bassFigureExtendersOn <6- _-> <5 _-> \bassFigureExtendersOff
   <9- [5! _!]> <6>1
   <9>2 <8>1 %70
   <7- 5 [_!]>1.
@@ -241,44 +241,44 @@ I-IV-XLIBassFigures = \figuremode {
   <7 5 [_!]> <5 4> <\t _+>
   r1. %75
   r4 \bo <[6]>2.
-  r2 <6>8 <_!> \bc <[6]>4
-  r <6>8 <5> r2
+  r2 <6>8 <_!> <6>4
+  r \bc <[6]>2.
   r1
   r2 <6 4>4 <[5] _!> %80
   r2. <_!>4
   r2 <6 4>4 <5 _!>
-  r <[6]>2 <6>4
-  q <[6]>2.
+  r \bo <[6]>2 <6>4
+  q \bc <[6]>2.
   r1 %85
-  r4 <6> r4. q8
-  q1
-  r2 <[6]>4 <6>
+  r4 <6> r4. \bo <[6]>8
+  <6>1
+  r2 q4 \bc <[6]>
   r2 <_!>4 <[5!]>
   r2 <6 5> %90
   <4>4 <_!>2.
-  r4 <_!>4. <3>8 <2> <4>
+  r4 <_!>4. \bo <[3]>8 <2> <4>
   <6>1
   r
-  \bo <[6]>4 \bc q2. %95
+  q4 \bc q2. %95
   r1
   <6 4>4 <5 3>2.
   r2 <4>4 <3>
   r2. <8 6>4
   r1 %100
-  r2 <6\\>4 <5 [_!]>
-  r2 <6[!]>4 <5>
-  r2 <6>
-  <7 _+>2. <6>4
+  r2 <6\\>4 <[5 _!]>
+  r2 <6[!]>
+  r <[6]>
+  <7 _+>2. <[6]>4
   <4> <_+>2. %105
   r2.
   <[6]>
   r
-  <6 5>2 <7>4
+  <6 5>4 <\t \t> <7>
   r2. %110
   r4 <7> q
   r2 <[6]>4
-  <6 5>2.
-  r2 <[6]>4
+  <6 5>4 <\t \t>2
+  r <[6]>4
   <6 5> <_!>2 %115
   r <6>4
   r <7> q
@@ -286,7 +286,7 @@ I-IV-XLIBassFigures = \figuremode {
   \bo <[6]>
   r %120
   <6>
-  r4 q \bc <[6]>
+  r2 \bc <[6]>4
   r2 <_!>4
   \bo <[6]>2.
   <6> %125

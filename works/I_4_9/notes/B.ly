@@ -25,10 +25,10 @@ I-IV-IXBasso = {
     ais,2. %30
     h4 h' a!
     g( c) h
-    a g fis
+    a( g) fis
     e dis2
-    e4 c' g %35
-    a h2
+    e4( c') g( %35
+    a) h2
     e, r4
     r \mvTr c'\pE^\solo g
     e c r
@@ -39,7 +39,7 @@ I-IV-IXBasso = {
     f d2
     c4 g' e' %45
     d8([ h)] g4 e
-    c'8 a^\critnote fis([ d)] a'([ c,)]
+    c'8 a fis([ d)] a'([ c,)]
     h4. h8 h4
     e c' a
     fis( d' h) %50
@@ -95,10 +95,10 @@ I-IV-IXBassoLyrics = \lyricmode {
   flen -- %30
   tes in hac
   la -- cry --
-  ma -- _ _
-  _ rum,
-  la -- cry -- ma -- %35
-  rum val --
+  ma -- rum,
+  la -- cry --
+  ma -- rum __ %35
+  val --
   le.
   E -- ia
   er -- go,

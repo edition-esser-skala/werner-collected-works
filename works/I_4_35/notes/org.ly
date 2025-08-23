@@ -4,7 +4,7 @@ I-IV-XXXVOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoI-IV-XXXVa
-    \mvTr c'8\pE-\soloE e d c h a g f
+    \mvTr c'8\pE-\solo e d c h a g f
     e4 h c8 d e c
     f4 r8 e d4 r8 c
     h4 r8 c g4 r
@@ -18,8 +18,8 @@ I-IV-XXXVOrgano = {
     g8 a h g c e, a h
     c e, a h c h a g16 f
     e8 c' h g c f, g g,
-    c\fE c' h a gis e fis gis %15
-    a g f e16 d c8 h d f
+    c\fE c' h a gis e fis \hA gis %15
+    a g f e16 d c8 a d f
     e fis gis\pE e a h c a
     h e cis a d c? h g
     c h a c h a g fis
@@ -91,7 +91,7 @@ I-IV-XXXVOrgano = {
     e8 d c h
     a f' d e %85
     a,4 r8 c'\pE
-    gis e4 gis8
+    gis e4 \hA gis8
     a8. a16 e8 f
     g!4 h,
     c4. d8 %90
@@ -147,7 +147,7 @@ I-IV-XXXVBassFigures = \figuremode {
   <6[!]>4 <[6]>2 <6 5>4
   r <6\\>8 <3> <[5\+] _+>2
   r4 \bo <[6 _+]>2 <6>4 %20
-  \bc <[6 _]> <6\\>8 <5> <6 4>4 <5[+] _+>
+  \bc <[6 _]> <6\\>8 <5> <6 4>4 <5\+ _+>
   r2 <[6 _+]>
   <6>4 \bo <[6 _+]>2.
   r2 \bc <[5\+ _+]>
@@ -157,7 +157,7 @@ I-IV-XXXVBassFigures = \figuremode {
   <4> <6>4. q2
   \bo <[6]> <6>4 \bc <[6]>
   r2 <4>4 <3> %30
-  r1
+  r2.. <6>8
   r4 <[6]> <4> <3>
   r1
   r
@@ -168,7 +168,7 @@ I-IV-XXXVBassFigures = \figuremode {
   r4 <[6]>2.
   <6\\>1 %40
   <[6 _+]>
-  <6>2 <7[!] 5[!]>
+  <6>2 <7! 5[!]>
   <6 5>2. <7[!] 5 [_+]>4
   \bo <[5\+] 4> \bc <[\t] _+>2.
   r2 %45
@@ -205,7 +205,7 @@ I-IV-XXXVBassFigures = \figuremode {
   <[5\+] _+>
   \bo <[6 _]>4 <6 _+>
   <6> <6 _+>
-  \bc <[6 _]> <6 4>8 <5[+] _+>
+  \bc <[6 _]> <6 4>8 <5\+ _+>
   r2 %80
   <6>
   r
@@ -215,9 +215,9 @@ I-IV-XXXVBassFigures = \figuremode {
   r4. <6>8
   <[6]>2
   r4 <[6 _!]>
-  <4>8 <3> <6 5>4
-  <4>8 <3>4. %90
-  r4 <6 5>
+  <4>8 <3> <6> <5>
+  <4> <3>4. %90
+  r4 <6>8 <5>
   r2
   r
   r

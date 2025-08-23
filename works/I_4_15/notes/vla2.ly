@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-I-IV-XV-ViolinoII = {
+I-IV-XV-ViolaII = {
   \relative c' {
     \clef treble
     \twotwotime \key c \major \time 2/2 \tempoI-IV-XV
@@ -29,7 +29,7 @@ I-IV-XV-ViolinoII = {
     e r
     R1
     a2 a
-    cis, r4 cis
+    cis, r4 \hA cis
     d e f g! %30
     a2 r
     R1

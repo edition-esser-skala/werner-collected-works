@@ -8,12 +8,12 @@ I-IV-XXXVAlto = {
     c8[ h16 a] g8 f e16([ d)] c8 r g'
     a16([ h c h] c8) g f16([ g a g] a8) e
     d16([ e f e] f8) e e d r d
-    e4 fis\trill g a %5
-    h c d8[ c16 h] a8 g
+    e4 fis\trill g a\trill %5
+    h c\trill d8[ c16 h] a8 g
     d([ g16 a] a4)\trill g r
     R1
     r2 c,4. \tuplet 3/2 8 { e16[ d c] }
-    \appoggiatura f8 g4. \tuplet 3/2 8 { h16[ a g] } c8[ h16 a] g8 f %10
+    g'4. \tuplet 3/2 8 { h16[ a g] } c8[ h16 a] g8 f %10
     e16([ d)] c8 r g' a h16([ c)] d8 c
     h16([ a)] g8 r d e g f e16 d
     e8 g f16[ e f d] e[ c d e] f[ g a h]
@@ -21,14 +21,14 @@ I-IV-XXXVAlto = {
     c4 r r2 %15
     R1
     r8 h' e, h' c16([ h c h)] a4
-    g!8 g a16([ g)] f([ e)] f[-! f g a] \tuplet 3/2 8 { \sbOn g[ a g f g f]\sbOff }
-    e[ e fis g] \tuplet 3/2 8 { \sbOn fis[ g \hA fis e \hA fis e] \sbOff } dis8 h r4
-    e fis\trill g a %20
-    h8([ a16 g)] fis8 e g4( fis)\trill
+    g!8 g a16([ g)] f([ e)] f[ f g a] \tuplet 3/2 8 { \sbOn g[ a g f g f]\sbOff }
+    e[ e fis g] \tuplet 3/2 8 { \sbOn \hA fis[ g \hA fis e \hA fis e] \sbOff } dis8 h r4
+    e fis\trill g a\trill %20
+    h8([ a16 g)] fis8 e g4( \hA fis)\trill
     e r r2
     R1
     r2 fis4~ fis16[ a] g([ fis)]
-    g4 gis\trill \sbOn \tuplet 3/2 8 { a16[ h a } gis a] \tuplet 3/2 8 { h[ c h } a h] \sbOff %25
+    g4 gis \sbOn \tuplet 3/2 8 { a16[ h a } \hA gis a] \tuplet 3/2 8 { h[ c h } a h] \sbOff %25
     c8 a r a g4. f8
     e16([ d)] c8 g' g a8.[( g16] f[ e)] d([ c)]
     c8\trill h r4 c4. \tuplet 3/2 8 { e16[ d c] }
@@ -41,17 +41,17 @@ I-IV-XXXVAlto = {
     h[ d, e fis] g[ a h c] d8 g, r h %35
     a16[ fis g a] h[ a g \hA fis] g[ e \hA fis g] a[ g \hA fis e]
     fis[ d e \hA fis] g[ \hA fis e d] e[ d c d] e[ \hA fis e \hA fis]
-    g[ d e fis] g[ a h g] c[ h a g] fis[ e d c]
+    g[ d e fis] g[ a h g] c[ h a g] \hA fis[ e d c]
     h8 \tempoI-IV-XXXVc d d e16([ fis)] g8 g16 g g8 a16([ h)]
-    cis,2\trill d4 r %40
-    fis8 fis a8. g16 \appoggiatura fis e8 e r h'
+    cis,2 d4 r %40
+    fis8 fis a8. g16 e8 e r h'
     h([ gis)] e16([ d!)] e8 f4 f
-    e8 gis h d c([ a)] g([ e)]
+    e8 gis h d c([ a)] g?([ e)]
     e h r4 r2\fermata \bar "||"
     \twofourtime \time 2/4 \tempoI-IV-XXXVd
       e4 h \noBreak %45
-    h'8 a16([ g?)] fis8 e
-    fis16([ g a h] a8) g16([ fis)]
+    h'8 a16([ g)] fis8 e
+    fis16([ g a h] a8) g16([ \hA fis)]
     g8 e r4
     R2*3 %51
     g4 d
@@ -65,7 +65,7 @@ I-IV-XXXVAlto = {
     d cis r a' %60
     a([ g)] r h
     h([ a)] a([ g)]
-    fis16[ e] d8~ d16[ e] fis([ g)]
+    fis16[ e] d8~ d16[ e] \hA fis([ g)]
     a8 g16([ fis)] h8 d,
     fis4( e)\trill %65
     d r
@@ -79,23 +79,23 @@ I-IV-XXXVAlto = {
     dis8. e16 fis8 g16([ a)]
     h2~
     h4. cis16([ dis)]
-    e8 e,16([ fis)] g8([ fis)]
+    e8 e,16([ fis)] g8([ \hA fis)]
     e4 r %80
     R2*5 %85
     e4 r8 e
     e16([ fis)] gis([ a)] h8 e,
     c' a c4~
-    c8 h16([ a)] g8 f
+    c8 h16([ a)] g!8 f!
     f e g4~ %90
     g8[ a16 g] f8 e
     d g d e
     d4 r8 e
     d[ e16 fis] g[ a h c]
-    h4 a %95
+    h4 a\trill %95
     g r
     R2
     r8 c, g'4~
-    g8 f16([ g)] a8 c,
+    g8 f!16([ g)] a8 c,
     c h r g' %100
     e d r g
     e d g4

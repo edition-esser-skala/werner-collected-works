@@ -9,7 +9,7 @@ I-IV-IXTenore = {
     cis cis8([ d)] e4
     d a8([ h)] c4
     h2 c4~ %10
-    c8 a \appoggiatura c4 h2
+    c8 a \appoggiatura c4 h2\trill
     c r4
     \mvTr e\fE^\tutti e e
     e2 e4
@@ -24,7 +24,7 @@ I-IV-IXTenore = {
     r4 r e
     e dis d
     c!8([ h)] c4 r %25
-    r e,( h')
+    r e, h'~
     h a e'
     fis2.
     h,2 e4
@@ -34,14 +34,14 @@ I-IV-IXTenore = {
     a!2 a4
     g8([ a)] h2
     h4 c h %35
-    a \appoggiatura g fis2
+    a \appoggiatura g fis2\trill
     e r4
     R2.*16 %53
     \mvTr g8([\pE^\solo a)] h([ c)] d([ e)]
-    c4 d2\trill %55
+    c4 d2 %55
     e4 c e~
     e8 e d([ c)] h([ a)]
-    a4 gis r
+    a4\trill gis r
     R2.*7 %65
     r4 \mvTr e'2\fE^\tutti
     e2.
@@ -55,7 +55,7 @@ I-IV-IXTenore = {
     e c4 %75
     h8([ a)] g4 e'
     d8([ c)] h4 h
-    c4.( h8) a4
+    c4. h8 a4
     h gis a
     r8 e gis4 a %80
     r8 gis h([ a)] a4
@@ -89,8 +89,8 @@ I-IV-IXTenoreLyrics = \lyricmode {
   Ad
   te su -- spi --
   ra -- mus, %25
-  ge --
-  men -- tes et
+  ge -- men --
+  tes et
   flen --
   tes, et
   flen -- %30
@@ -120,10 +120,10 @@ I-IV-IXTenoreLyrics = \lyricmode {
   a, o %75
   cle -- mens, o
   pi -- a, o
-  vir -- go,
-  o cle -- mens,
+  vir -- go, pi --
+  a, cle -- mens,
   o pi -- a, %80
-  o dul -- cis
+  o pi -- a
   vir -- go,
   cle -- mens,
   pi -- a,

@@ -4,7 +4,7 @@ I-IV-XVII-Alto = {
   \relative c' {
     \clef treble
     \twotwotime \key g \major \time 2/2 \tempoI-IV-XVII \autoBeamOff
-    \mvTr d1\fE^\tuttiE
+    d1
     g~
     g4 a h2
     e,2. fis4

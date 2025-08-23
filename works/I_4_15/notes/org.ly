@@ -4,7 +4,7 @@ I-IV-XV-Organo = {
   \relative c {
     \clef treble
     \twotwotime \key c \major \time 2/2 \tempoI-IV-XV
-    \mvTr c''1-!\fE-\tuttiE
+    c''1-!\fE
     a2-! c-!
     << {
       h4 c d2~
@@ -37,12 +37,12 @@ I-IV-XV-Organo = {
     } \\ {
       e d e g %21
       f g f e
-      d c d f-\critnote
+      d c d f
     } >>
     \clef "treble_8" e2 e
     gis, r4 gis %25
     \clef bass a2 a
-    cis, r4 cis
+    cis, r4 \hA cis
     d e f g!
     a2. g4
     f e d2~ %30

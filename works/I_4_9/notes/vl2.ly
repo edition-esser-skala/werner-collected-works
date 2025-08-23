@@ -12,8 +12,8 @@ I-IV-IXViolinoII = {
     d4. d8 d4
     R2.
     c!2 c4
-    b b2
-    h ais4 %20
+    b2 b4
+    h2 ais4 %20
     h fis d
     e2 fis4
     h,2 g'4
@@ -30,17 +30,17 @@ I-IV-IXViolinoII = {
     c4 h a
     g4. a8 h4 %35
     c h2
-    h4 h8\pE c d!4
-    e e,-\critnote r
-    r8 g c4 h
+    h4 h8\pE c d!4\trill
+    e e, r
+    r8 g c4 h\trill
     c r r %40
-    r8 e, a4 gis
+    r8 e, a4 gis\trill
     a r r
     r g! e'
     c4. h8 c d
     e4 e, r %45
     r16 g h g d'8 h g4
-    r r8 c4 a16 fis
+    r r8 d'4 a16 fis
     d4 r8 d'4 g,16 h
     e,4 r c'
     fis, r d' %50
@@ -51,12 +51,12 @@ I-IV-IXViolinoII = {
     R2.*12 %66
     r8 e\fE gis4 a
     r8 e gis4 a
-    r8 gis h( a) a4
-    a8 gis gis4 e' %70
+    r8 gis h([ a)] a4
+    a8( gis) gis4 e' %70
     c8 h a4 d
     h8 a g!4 g'
     e8 d c2
-    c8 d \appoggiatura c4 h2
+    c8 d \appoggiatura c4 h2\trill
     c e4 %75
     d8 c h4 r
     r d e
@@ -65,7 +65,7 @@ I-IV-IXViolinoII = {
     R2.*2 %81
     r4 e2
     c8 h a4 h
-    gis8 fis? e4 e'
+    gis8 fis e4 e'
     c8 h a4 f'! %85
     e2 c4
     f e2

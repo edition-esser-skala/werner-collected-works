@@ -6,7 +6,7 @@ I-IV-XLIViolinoI = {
     \key g \minor \time 4/4 \tempoI-IV-XLIa
     r4 r8 d'16(\p es) es8( d) r d16( es)
     es8( d) r4 r8 d\f b'4~
-    b16 b a g a4 b r8 f\p
+    b16 b a g a4\trill b r8 f\p
     g,4~ g16 a b c a8 f r c'16( d)
     d8( c) r c16( d) d8( c) r4 %5
     R1*3
@@ -15,8 +15,8 @@ I-IV-XLIViolinoI = {
     r8 d\f f16 d es c d8 d, r4
     r8 b' d16 b c a b8 b, r4
     R1
-    r2 r4 r8 \once \tieDashed g''~\p
-    \sbOn \tuplet 3/2 8 { g16 a g } fis e \sbOff fis8 a~ a g r4 %15
+    r2 r4 r8 g''~\p
+    \sbOn \tuplet 3/2 8 { g16 a g } fis e \sbOff \hA fis8 a~ a g r4 %15
     r2 r4 r8 d16( es)
     es8( d) r16 g d es es8( d) r4
     R1 \noBreak
@@ -30,7 +30,7 @@ I-IV-XLIViolinoI = {
     a g f g a b c d c b a g
     a4 r r2 r
     R1.*2 \noBreak
-    r8 c'\f g c e, g c, e g, c e, g %30
+    r8 c'\f g c e, g c, \hA e g, c e, g %30
     \time 4/4 \tempoI-IV-XLIc \newSpacingSection
       cis,4 r r8 e\p e e \noBreak
     r es es es r d d d
@@ -47,7 +47,7 @@ I-IV-XLIViolinoI = {
     c2 f,1~
     f2 e e %45
     f b2. as4
-    g1\p c2~
+    g1\pE c2~
     c h1
     c2 g1~
     g2 f4 g as2~ %50
@@ -81,8 +81,8 @@ I-IV-XLIViolinoI = {
     f8 d r4 r2
     R1
     r8 c\p f c r c f c
-    c4. d8 a4 g %80
-    f8 a'4\f \tieDashed c8~^\critnote c b16 a b8 a16 g
+    c4. d8 a4 g\trill %80
+    f8 a'4\f c8~ c b16 a b8 a16 g
     a f e d c8 d a g16 f g4\trill
     f r r16 f\p a b c d es! c
     f8 f, r4 r f8 d
@@ -108,7 +108,7 @@ I-IV-XLIViolinoI = {
     r4 f'2\f
     g4 g8( a) b( a) %115
     a4 f b
-    g \appoggiatura f8 es2\trill
+    g \appoggiatura f es2\trill
     d4 r r
     R2.*7 %125
     r4 r b\p
@@ -116,9 +116,9 @@ I-IV-XLIViolinoI = {
     d b d~
     d a r
     R2.*7 %136
-    r4 f'\f d'
+    r4 f' d'
     c8 b a g f es
-    \after 4 \p d2.~
+    d2.~
     d~ %140
     d~
     d~

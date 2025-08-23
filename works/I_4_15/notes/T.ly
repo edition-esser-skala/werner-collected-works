@@ -5,7 +5,7 @@ I-IV-XV-Tenore = {
     \clef "treble_8"
     \twotwotime \key c \major \time 2/2 \tempoI-IV-XV \autoBeamOff
     R1*5 %5
-    \mvTr c1\fE^\tuttiE
+    c1\fE
     a2 c
     h4( c) d2
     d c
@@ -21,7 +21,7 @@ I-IV-XV-Tenore = {
     d1 %20
     R1*3
     e2 e
-    gis, r4 gis %25
+    gis, r4 \hA gis %25
     a h c d
     e2 a,~
     a r

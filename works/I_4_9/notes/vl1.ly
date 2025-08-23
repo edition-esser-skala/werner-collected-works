@@ -10,12 +10,12 @@ I-IV-IXViolinoI = {
     e e e %15
     a,4. a8 a4
     f'4. f8 f4
-    es2.
-    d4. d8 d4
+    es2 es4
+    d4. d8 d4~
     d cis2 %20
     h!4 d h
     c! cis dis
-    e8 dis e4 r
+    e8( dis) e4 r
     R2.
     r4 a, f'!~ %25
     f e d
@@ -29,11 +29,11 @@ I-IV-IXViolinoI = {
     g fis2
     e e4 %35
     e2 dis4
-    e g\pE h8. a32 h
+    e g\pE h8.\trill a32( h)
     c4 c, r
-    r8 g'16 f e4 d
+    r8 g'16 f e4 d\trill
     c r r %40
-    r8 e16 d c4 h
+    r8 e16 d c4 h\trill
     a r r
     r c'4. h8
     a g f g a h
@@ -45,13 +45,13 @@ I-IV-IXViolinoI = {
     a, r fis' %50
     h,8 g' fis e d c
     h4. c8 d4~
-    d8 e h4 a
+    d8 e h4 a\trill
     g2 r4
     R2.*12 %66
     r8 e'\fE h4 c
     r8 e h4 c
-    r8 h d( c) c4
-    c8 h h4 r %70
+    r8 h d([ c)] c4
+    c8( h) h4 r %70
     e a8 g! f4
     d g8 f e4
     r e8 f g4
@@ -67,6 +67,6 @@ I-IV-IXViolinoI = {
     e a4.^\critnote h8 %85
     gis4 a2
     a, gis4
-    a2.\fermata \bar "|." %88 finis
+    a2 r4\fermata \bar "|." %88 finis
   }
 }

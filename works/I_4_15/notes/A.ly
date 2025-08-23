@@ -5,7 +5,7 @@ I-IV-XV-Alto = {
     \clef treble
     \twotwotime \key c \major \time 2/2 \tempoI-IV-XV \autoBeamOff
     R1*2
-    \mvTr g'1\fE^\tuttiE
+    g'1\fE
     e2 a
     g f %5
     e2. d4
@@ -29,7 +29,7 @@ I-IV-XV-Alto = {
     e r
     R1
     a2 a
-    cis, r4 cis
+    cis, r4 \hA cis
     d( e f g!) %30
     a2 r
     R1

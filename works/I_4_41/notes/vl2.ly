@@ -7,7 +7,7 @@ I-IV-XLIViolinoII = {
     r4 r8 b'16(\p c) c8( b) r b16( c)
     c8( b) r4 r r8 f!\f
     c'4~ c16 c d es d8 b r a\p
-    d \tuplet 3/2 8 { b16 c d } e,8. f16 f4 r8 a16( b)
+    d \tuplet 3/2 8 { b16 c d } e,8.\trill f16 f4 r8 a16( b)
     b8( a) r a16( b) b8( a) r4 %5
     R1*3
     r4 r8 d16( es) es8( d) r d16( es)
@@ -15,21 +15,21 @@ I-IV-XLIViolinoII = {
     r8 b\f d16 b c a b8 b, r4
     r8 d' b16 g a fis g8 g, r4
     R1*2
-    r8 a'~\p \sbOn \tuplet 3/2 8 { a16 b a } g fis \sbOff g8 g, r4 %15
+    r8 a'~\p \sbOn \tuplet 3/2 8 { a16 b a } g fis \sbOff g8 b, r4 %15
     r2 r4 r8 h'16( c)
-    c8( h) r16 g h c c8( h) r4
+    c8( h) r16 g h c c8( \hA h) r4
     R1 \noBreak
     R1\fermata \bar "||"
     \time 3/2 \tempoI-IV-XLIb \newSpacingSection R1. \noBreak %20
-    r4 a\f d8 e f g f e d cis
-    d a\p f e d e f g f e d cis
+    r4 a\f d8 e f g f \hA e d cis
+    d a\p f e d \hA e f g f \hA e d cis
     d4 r r2 r
     R1.
     r4 c\p f8 g a b a g f e %25
     f4 c f8 g a b a g f e
     f4 r r2 r
     R1.*2 \noBreak
-    r8 c''\f g c e, g c, e g, c e, g %30
+    r8 c''\f g c e, g c, \hA e g, c e, g %30
     \time 4/4 \tempoI-IV-XLIc \newSpacingSection
       cis,4 r r8 cis\p cis cis \noBreak
     r c c c r b b b
@@ -42,7 +42,7 @@ I-IV-XLIViolinoII = {
     as1 as2
     g1 g2~
     g g c~ %40
-    c h4 a! h2
+    c h4 a! \hA h2
     c1 r2
     r g g
     as1 as2
@@ -109,29 +109,29 @@ I-IV-XLIViolinoII = {
     r4 b2\f
     c4 c8( d) es( d)
     d4 b c8( f,)
-    d' d, e2\trill
+    d'( d,) e2\trill %115
     f8 g a b16 c b4
     b2 a4
     b r r
-    R2.*5
+    R2.*5 %123
     r4 r f\p
-    c'4. b8 c4
+    c'4. b8 c4 %125
     a f f8( b)
     c4 a8 b c4
     f, d' b
     a fis8 g a4
-    d, r r
-    R2.*6
-    r4 b'\f b'
+    d, r r %130
+    R2.*6 %136
+    r4 b' b'
     a8 g f es d c
-    b2 g4\p
-    a4. g8 fis e
+    b2 g4
+    a4. g8 fis e %140
     d2 g4
-    a4. g8 fis e
+    a4. g8 fis e?
     d b' d b g4
-    es' a,2\trill
-    g8 b4\f c8 d4
+    es'! a,2\trill
+    g8 b4\f c8 d4 %145
     es a,2\trill
-    g r4\fermata \bar "|."
+    g r4\fermata \bar "|." %147 finis
   }
 }

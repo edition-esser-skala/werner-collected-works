@@ -1,15 +1,18 @@
 title: Salve Regina
 id: WerW I.4.15
 genre: antiphon
-scoring: S, A, T, B (coro), 2 vl, b, org
+scoring: S, A, T, B (coro), 2 vla, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.115
+    rism: 530002008
+    url: https://copia.oszk.hu/kotta/salve-regina-in-c-alla-capella/
+    license: public domain
+    principal: true
+  B2:
     siglum: A-Ed
     shelfmark: K 3 (4)
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/492.html
     license: public domain
-    principal: true
-toe: |
-  23 & org  & 4th \quarterNote\ of lower voice in \B1: e′4 \\
-  25 & vl 1 & 2nd \quarterNote\ in \B1: c″4 \\

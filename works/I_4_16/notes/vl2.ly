@@ -4,7 +4,7 @@ I-IV-XVIViolinoII = {
   \relative c' {
     \clef treble
     \key b \major \time 3/2 \tempoI-IV-XVI
-    b'2.\fE a4 b c
+    b'2. a4 b c
     a f a b g f
     b4. c8 d4 c d e
     f2 r r
@@ -45,7 +45,7 @@ I-IV-XVIViolinoII = {
     c4 c d d h2
     c4 c a a b b %40
     g g as as fis fis
-    g2. fis8 e? fis2
+    g2. fis8 e? \hA fis2
     g r4 b a8 d, fis a
     d,4 b'2 b4 c8 a c4
     f,!2 r r %45

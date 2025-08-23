@@ -5,7 +5,7 @@ I-IV-XV-Basso = {
     \clef bass
     \twotwotime \key c \major \time 2/2 \tempoI-IV-XV \autoBeamOff
     R1*7 %7
-    \mvTr g'1\fE^\tuttiE
+    g'1\fE
     e2 a
     g f %10
     e d4 c
@@ -20,7 +20,7 @@ I-IV-XV-Basso = {
     g %20
     R1*5 %25
     a'2 a
-    cis, r4 cis
+    cis, r4 \hA cis
     d e f g!
     a2. g4
     f e d2~ %30

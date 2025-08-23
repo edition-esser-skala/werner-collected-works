@@ -4,7 +4,7 @@ I-IV-XVII-Organo = {
   \relative c {
     \clef bass
     \twotwotime \key g \major \time 2/2 \tempoI-IV-XVII
-    \mvTr g2\fE-\tuttiE g'~
+    g2 g'~
     g4 fis e d
     c2 h
     a4 h c d

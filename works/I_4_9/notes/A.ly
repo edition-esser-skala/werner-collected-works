@@ -8,9 +8,9 @@ I-IV-IXAlto = {
     r4 \mvTr e\pE^\solo a
     gis gis8([ a)] h4
     a e8([ f)] g4
-    f( a2)
+    f a2
     d,4 g2 %10
-    f4( e d)
+    f4 e( d)
     c2 r4
     \mvTr g'\fE^\tutti g g
     a2 a4
@@ -18,17 +18,17 @@ I-IV-IXAlto = {
     a4. a8 a4
     R2.
     a4. a8 a4
-    a g d
+    a( g) d
     fis2. %20
     fis2 d4
     e e fis
     h, h r
     R2.
-    r4 a( f'!) %25
+    r4 a f'!~ %25
     f e d
     c2 a4
     R2.
-    r4 h( g')
+    r4 h g'~
     g fis e %30
     dis4.( e8 fis4)
     h, r r
@@ -38,7 +38,7 @@ I-IV-IXAlto = {
     e2( dis4)
     e2 r4
     R2.*21 %58
-    \mvTr a4\pE^\solo d, e
+    \mvTr a4\pE^\solo^\aDueE d, e
     f2 g4 %60
     f4. a8 g f
     e([ d)] e4 r
@@ -75,9 +75,9 @@ I-IV-IXAltoLyrics = \lyricmode {
   Vi -- ta, %6
   vi -- ta dul --
   ce -- do et
-  spes __
-  no -- stra, %10
-  sal --
+  spes no --
+  stra, no -- %10
+  stra, sal --
   ve.
   Ad te cla --
   ma -- mus,
@@ -85,18 +85,18 @@ I-IV-IXAltoLyrics = \lyricmode {
   ex -- u -- les
 
   fi -- li -- i
-  E -- _ _
-  _ %20
+  E -- vae,
+  E -- %20
   vae. Ad
   te su -- spi --
   ra -- mus,
 
-  ge -- %25
-  men -- tes et
+  ge -- men -- %25
+  tes et
   flen -- tes,
 
-  ge --
-  men -- tes et %30
+  ge -- men --
+  tes et %30
   flen --
   tes
   in hac
@@ -125,7 +125,7 @@ I-IV-IXAltoLyrics = \lyricmode {
   vir -- go,
   dul -- cis,
   vir --
-  go Ma -- ri -- a,
+  go, o cle -- mens,
   o pi -- a, %80
   o pi -- a
   vir -- go,

@@ -4,15 +4,19 @@ genre: antiphon
 scoring: A (solo), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.135
+    rism: 530002028
+    url: https://copia.oszk.hu/kotta/salve-regina-28/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: K 21
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/483.html
     license: public domain
-    principal: true
 toe: |
-  4  & vl 1 & 6th \eighthNote\ in \B1: d′16–g″16 \\
-  77 & vl 1 & 1st \quarterNote\ in \B1: \semiquaverRest–b′8–b′16 \\
-  78 & vl 1 & 1st \quarterNote\ in \B1: b″8–b′16–b′16 \\
+  4  & vl 1 & 6th \eighthNote\ in \A1 and \B1: d′16–g″16 \\
 parts:
   A_solo: Alto solo

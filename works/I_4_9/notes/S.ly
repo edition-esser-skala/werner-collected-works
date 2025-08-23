@@ -27,26 +27,26 @@ I-IV-IXSoprano = {
     r a, h
     e, e r %25
     R2.
-    r4 e( c')
+    r4 e c'~
     c h a
     g! e r
     r cis' cis %30
     h4.( cis8) dis4
     e e,2
     c'!2.~
-    c4 h a
+    c4 h( a)
     g4. a8 h4 %35
     c h2
     h r4
     R2.*20 %57
-    \mvTr e4\pE^\solo h cis
+    \mvTr e4\pE^\solo^\aDue h cis
     d!2 a4
     a4. d8 c! b %60
     a([ g a c b a)]
     g4 c2
-    a4 \once \tieDashed f'2~
+    a4 f'2~
     f4 e8[ d] c4~
-    c8 d h2 %65
+    c8 d h2\trill %65
     a r4
     r8 \mvTr e'\fE^\tutti h4 c
     r8 e h4 c
@@ -97,14 +97,14 @@ I-IV-IXSopranoLyrics = \lyricmode {
   su -- spi --
   ra -- mus, %25
 
-  ge --
-  men -- tes et
+  ge -- men --
+  tes et
   flen -- tes
   in hac %30
   la -- cry --
   ma -- rum
   val --
-  _ le,
+  le, __
   la -- cry -- ma -- %35
   rum val --
   le.
@@ -115,7 +115,7 @@ I-IV-IXSopranoLyrics = \lyricmode {
   sten --
   de, o --
   sten -- _
-  _ de, __
+  de, __ _
   o -- sten -- %65
   de.
   O cle -- mens,
