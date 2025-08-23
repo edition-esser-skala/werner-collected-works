@@ -5,7 +5,7 @@ I-V-X-Tenore = {
     \clef "treble_8"
     \key c \major \time 4/2 \tempoI-V-X \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr c2\fE^\tuttiE c1( d2)
+    c2 c1( d2)
     c2. d4 e2. e4
     c2 d h2. h4
     a1 a2. a4
@@ -13,8 +13,8 @@ I-V-X-Tenore = {
     h1 r
     r r2 h
     e a,4 a h2 c
-    c( h) c a(
-    d,) g a2. a4 %10
+    c( h) c a
+    d, g a2. a4 %10
     h2. c4 d1~
     d2 d d h
     c h1 h2
@@ -64,8 +64,8 @@ I-V-X-TenoreLyrics = \lyricmode {
   trix,
   no --
   stras de -- pre -- ca -- ti --
-  o -- nes ne __
-  de -- spi -- ci -- %10
+  o -- nes ne,
+  ne de -- spi -- ci -- %10
   as, de -- spi --
   ci -- as in
   ne -- ces -- si --

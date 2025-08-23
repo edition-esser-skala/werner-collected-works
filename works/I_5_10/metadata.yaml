@@ -4,13 +4,18 @@ genre: sacred song
 scoring: S, A, T, B (coro), 2 vla, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.234
+    rism: 530002111
+    url: https://copia.oszk.hu/kotta/sub-tuum-c/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: L 1
     rism: 600038617
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/534.html
     license: public domain
-    principal: true
 toe: |
-  29 & vla 2, A & 4th \halfNote\ in \B1: f′2 \\
-  31 & S        & 2nd \halfNoteDotted\ in \B1: c″2. \\
+  29 & vla 2, A & 4th \halfNote\ in \A1 and \B1: f′2 \\

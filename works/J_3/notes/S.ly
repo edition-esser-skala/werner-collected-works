@@ -9,14 +9,16 @@ J-III-Soprano = {
     e e e e c c f f
     d d g e c4. f8
     e d c e d d r4 %5
-    \mvTr h8\pE^\solo h e h c c16 c c8 e
+    \mvTr h8\pE^\solo^\aTre h e h c c16 c c8 e
     d d16 d g!8 d e e e e
     d2 d8 \mvTr d4\fE^\tutti d8
     e8. e16 e8 e d8. d16 d4
     r8 e4 e8 c8. c16 f4 %10
     d g8 e c4. f8 \noBreak
     e([ d)] c e d d r4
-    \time 3/4 \tempoJ-III-b b2.\pE \noBreak
+    \time 3/4 \tempoJ-III-b
+      \once \override Staff.TimeSignature.style = #'single-digit
+      b2.\pp \noBreak
     a4 d2~
     d c!4 %15
     c2 b4~
@@ -37,7 +39,7 @@ J-III-Soprano = {
     r8 \mvTr c\pE^\solo c c c h16 c d8 d %35
     d c16([ h)] c4\trill h r
     r2 r8 g c c16 c
-    h([ a)] h8 cis16([ h)] cis8 d([ f)] e d
+    h([ a)] h8 cis16([ h)] \hA cis8 d([ f)] e d
     cis8. cis16 cis4 r2
     R1*2 %41
     r2 r8 h4 c16([ d)]
@@ -45,21 +47,23 @@ J-III-Soprano = {
     h c16 c c8 h c4 r
     R1*3 %47
     g8 g c d e e,16([ fis)] gis([ a)] h8
-    c16([ d)] e8 c8. c16 h8 e,16([ fis)] gis([ a)] h([ cis)]
+    c16([ d)] e8 c8.\trill c16 h8 e,16([ fis)] gis([ a)] h([ cis)]
     d4 d e8 d16 d d8 cis %50
     d4 r r2
     R1*2
-    \mvTr c8\fE^\tuttiE c c c16 c c8 c c4
+    \mvTr c8\fE^\tutti c c c16 c c8 c c4
     c8 g c8. c16 a8 a d8. d16 %55
     cis8 a f'4. e16 e d4
     e r g,\p g
     as8. as16 as4 h! h8 h
     c4 as8 as fis2\trill
     g4 r r8 \mvTr b\f^\solo c d %60
-    es b16 b c8 b as b16 c b8. as16
+    es b16 b c8 \hA b as \hA b16 c \hA b8. \hA as16
     g8 b es es es16([ d)] d8 c16([ h!)] c8 \noBreak
     h!4 c8 d c4( h)\trill
-    \time 3/4 \tempoJ-III-e c4 r8 \mvTr c\fE^\tutti g' d \noBreak
+    \time 3/4 \tempoJ-III-e
+      \once \override Staff.TimeSignature.style = #'single-digit
+      c4 r8 \mvTr c\fE^\tutti g' d \noBreak
     e!4 r8 e g d %65
     e4 r8 e d d
     d d r4 d
@@ -68,16 +72,16 @@ J-III-Soprano = {
     d8 d d2\trill %70
     d4 r r
     R2.*4 %75
-    \mvDl c8\fE^\tutti c16([ d] e8) e d d
+    \mvDl c8\fE^\tutti c16([ d e8)] e d d
     r c16 d e8 e d d
     r c4 c8 c e
     d d r4 r
     r r8 \mvTr g,\pE^\solo a b16 b %80
-    c([ b)] c8 c b a g16 g
-    f8 \mvTr a4\fE^\tuttiE f8 c'4~
+    c([ b)] c8 c \hA b a g16 g
+    f8 \mvTr a4\fE^\tutti f8 c'4~
     c8 c c4 a8 a~
     a d h! h c c~ \noBreak
-    c e16 e d8. d16 \after 8 \tempoJ-III-f e4 \noBreak %85
+    c e16 e d8. d16 \tempoJ-III-f e4 \noBreak %85
     R2.*8 %93
     r4 r8 \mvTr a,\pE^\solo f' d
     c! b a a16 a g8 f %95
@@ -92,8 +96,8 @@ J-III-Soprano = {
     r2 g4 r8 e
     a fis d g e16[ f g f] e8[ a]~ %105
     a[ gis] a a4 f'8 d h
-    r4 d r8 e cis16([ h)] cis8
-    d d c([ b)] a a g4
+    r4 d r8 e cis16([ h)] \hA cis8
+    d d c([ b)] a a g4\trill
     a r8 f b4 b8 g
     c4 c8 a( d) g, g4 %110
     g r8 a f d r4

@@ -15,7 +15,9 @@ J-III-Basso = {
     r c,8 c f8. f16 d4 %10
     g e8 e f16[ e f g] a[ g a h] \noBreak
     c8[ g] e c g'^\critnote g r4
-    \time 3/4 \tempoJ-III-b cis,2.\p \noBreak
+    \time 3/4 \tempoJ-III-b
+      \once \override Staff.TimeSignature.style = #'single-digit
+      cis,2.\pp \noBreak
     d
     e2 f4 %15
     d2 es4
@@ -33,10 +35,10 @@ J-III-Basso = {
     R1 \noBreak
     R\fermata \bar "||"
     \tempoJ-III-d R1*6 %35
-    r2 r8 \mvTr e\pE^\solo gis16([ fis?)] gis8
+    r2 r8 \mvTr e\pE^\solo gis16([ fis?)] \hA gis8
     a h16 c d8 c16 h c8. c,16 c4
     R1*3 %40
-    c'4 c,8 c' gis gis gis16([ a)] h([ gis)]
+    c'4 c,8 c' gis gis gis16([ a)] h([ \hA gis)]
     a8 a, r4 r2
     R1
     r4 g'8 g c g16 e c8 c'16 c
@@ -55,24 +57,26 @@ J-III-Basso = {
     c4 c8 c c2
     g4 r r2 %60
     R1*3
-    \time 3/4 \tempoJ-III-e r4 r8 \mvTr c\fE^\tutti e! g \noBreak
+    \time 3/4 \tempoJ-III-e
+      \once \override Staff.TimeSignature.style = #'single-digit
+      r4 r8 \mvTr c\fE^\tutti e! g \noBreak
     c4 r8 c, e g %65
     c4 r8 a fis g
     d d r d d16[( e fis d]
-    g[ a)] h([ g)] fis8 d d16([ e fis d]
+    g[ a)] h([ g)] fis8 d d16([ e \hA fis d]
     g[ a)] h([ g)] e([ fis g e)] c([ d e c]
-    d8) g d([ c] d4) %70
+    \once \stemUp d8) g d([ c] \once \stemUp d4) %70
     g, r r
     R2.*4 %75
-    \mvDl c8\fE^\tutti c'16([ h] c8) c, g' g,
+    \mvDl c8\fE^\tutti c'16([ h c8)] c, g' g,
     r c'16 h c8 c, g' g,
     r c'4 e,8 f c
-    g' g, r \mvTr g'\pE^\soloE g a16 h
+    g' g, r \mvTr g'\pE^\solo g a16 h
     c([ h)] c8 r4 r %80
     R2.*2
     r4 \mvTr e,8\fE^\tutti c f f
     d d g g r a
-    f c'16 c g8. g16 \after 8 \tempoJ-III-f c,4 %85
+    f c'16 c g8. g16 \tempoJ-III-f c,4 %85
     R2.*2
     r8 \mvTr g'\pE^\solo e16([ c)] g'([ c)] h([ a)] g([ f)]
     e8 c'4 c,8 c h

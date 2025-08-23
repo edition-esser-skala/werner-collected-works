@@ -4,7 +4,7 @@ I-V-XXIII-Soprano = {
   \relative c' {
     \clef treble
     \key a \minor \time 4/4 \tempoI-V-XXIII \autoBeamOff
-    R1
+    \after 4*0 ^\aQuattro R1
     r2 \mvTr a'4\pE^\solo c
     h a g8( a4) fis8
     e4 r r8 d' d c!16([ h)]
@@ -22,7 +22,7 @@ I-V-XXIII-Soprano = {
     c16([ h)] c([ d)] \appoggiatura c8 h4\trill a r
     r2 g8 g g16([ f!)] f([ e)]
     e([ d)] d8 r4 r2
-    r d'8 d dis cis16 dis
+    r d'8 d dis cis16 \hA dis
     e8 h4 a16 h c8 r h r %20
     cis r d! r e r f d
     c4 h\trill a8 a4 h8

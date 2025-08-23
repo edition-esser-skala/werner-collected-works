@@ -4,7 +4,7 @@ I-V-XIIISoprano = {
   \relative c' {
     \clef treble
     \key g \major \time 4/4 \tempoI-V-XIII \autoBeamOff
-    \mvTr d'2\fE^\tutti d
+    d'2 d
     d4 d d4. d8
     d4 d d4. d8
     d d c2 h4
@@ -43,7 +43,7 @@ I-V-XIIISoprano = {
     r4 d'8 d e e d4
     r h c h
     r d8 d e4 d
-    c h^\critnote c2 %40
+    c h c2 %40
     h1\fermata \bar "|." %41 finis
   }
 }

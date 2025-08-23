@@ -4,7 +4,7 @@ I-V-XIIIAlto = {
   \relative c' {
     \clef treble
     \key g \major \time 4/4 \tempoI-V-XIII \autoBeamOff
-    r2 r4 \mvTr fis\fE^\tutti
+    r2 r4 fis
     g fis r fis
     g8 g fis4 r fis
     g2. g4

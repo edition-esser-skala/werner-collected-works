@@ -2,11 +2,11 @@
 
 I-V-X-ViolaI = {
   \relative c' {
-    \clef soprano
+    \clef treble
     \key c \major \time 4/2 \tempoI-V-X
       \set Staff.timeSignatureFraction = 2/2
-    g'1\fE a2. h4
-    c2 c c h
+    g'1 a2. h4
+    c2 c2. c4 h2
     a a1 gis2
     a c1 c2
     c e d2. d4 %5

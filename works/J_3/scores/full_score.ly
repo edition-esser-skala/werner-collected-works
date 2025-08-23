@@ -83,7 +83,7 @@
         \new FiguredBass { \J-III-BassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 } % 60 – 90 – 60 – 90 – 60 – 120
+      \midi { \tempo 4 = 90 } % see definitions
     }
   }
 }

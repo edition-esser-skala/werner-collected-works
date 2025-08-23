@@ -4,29 +4,31 @@ J-III-ViolinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoJ-III-a
-    e16\f c g' e c' g e' c g'8 d h g
+    e16\fE c g' e c' g e' c g'8 d h g
     c e,16 g c g e' c g'8 d h g
     c e4 g8 a, c f a
     h, d g h c, a16 h c h c d
     e f g4 c8 h16 g d g h, d g, h %5
-    e,\p gis h e h gis e gis a c e a e c a c
+    \mvTr e,\p-\aTre gis h e h \hA gis e \hA gis a c e a e c a c
     g h d g d h g d' e c e g c a, c e
-    a c fis, a d, fis a, d h g d'\fE h g' d h' g
+    a c fis, a d, \hA fis a, d h g d'\fE h g' d h' g
     c8 g e c g' d h g
     c e4 g8 a, c f a %10
     h, d g h c, a16 h c h c d \noBreak
     e f g4 c8 h h, r4
-    \time 3/4 \tempoJ-III-b r16 g'\pp e( g) cis,( e) g,( b) e,( g) cis,8 \noBreak
+    \time 3/4 \tempoJ-III-b
+      \once \override Staff.TimeSignature.style = #'single-digit
+      r16 g'\pp e( g) cis,( e) g,( b) e,( g) cis,8 \noBreak
     r16 a'' f( a) d,( f) a,( d) f,( a) d,8
-    r16 h''! gis( h) d,( gis) h,( d) a( c) a'8 %15
-    r16 a fis( a) c,( fis) a,( c) g!( b) g'8
+    r16 h''! gis( h) d,( \hA gis) h,( d) a( c) a'8 %15
+    r16 a fis( a) c,( \hA fis) a,( c) g!( b) g'8
     r b, a a d d
     r16 h'! d,( gis) h,( d) gis,( h) e,( a) c!8
-    r16 a' fis( a) dis,( fis) h,( dis) g,( h) e8
-    r16 g e( g) h,( e) fis,( h) dis,( fis) h8 \noBreak %20
-    r16 h' g( h) e,( g) h,( e) g, h e, g
+    r16 a' fis( a) dis,( \hA fis) h,( \hA dis) g,( h) e8
+    r16 g e( g) h,( e) fis,( h) \once \slurDashed dis,( \hA fis) h8 \noBreak %20
+    r16 h' g( h) e,( g) h,( e) \slurDashed g,( h) e,( g) \slurSolid
     \time 4/4 \tempoJ-III-c c,\fE e g e c' g e' c g'8 d h g \noBreak
-    c e,16 g c g e' c g'8 d h g
+    c16-\critnote c, e g c g e' c g'8 d h g
     c e4 g8 a, c f a
     h, d g h c, e f a %25
     h, d e g a, c f a
@@ -58,15 +60,17 @@ J-III-ViolinoI = {
     e16. g32 c,16. e32 g,16. c32 e,16. g32 c,8 g'\p g g
     r as as as r h! h h
     r c c c r a a a
-    \sbOn \tuplet 3/2 8 { h16 a h d c d } \sbOff g d h g r2 %60
+    \sbOn \tuplet 3/2 8 { h16\f a h d c d } \sbOff g d h g r2 %60
     R1*3
-    \time 3/4 \tempoJ-III-e r8 e'!16\fE g c8 e, g d \noBreak
+    \time 3/4 \tempoJ-III-e
+      \once \override Staff.TimeSignature.style = #'single-digit
+      r8 e'!16\fE g c8 e, g d \noBreak
     e16 c e g c8 e, g d %65
     e16 c e g e8 a4 g8
-    fis16 d fis a d8 a fis d
+    fis16 d \hA fis a d8 a \hA fis d
     h g16 h d8 a fis d
     h d g h e16 fis g e
-    fis8 g a, g' d, fis' %70
+    fis8 g d,-\critnote g' a, fis' %70
     g d h g r4
     R2.*3
     r8 g'[\fE e h] c8. d16 %75
@@ -79,7 +83,7 @@ J-III-ViolinoI = {
     a'16\f f c a f' c a f c' g e c
     f a c f c e g c a f c a
     f a d f h,! g h d g e c a \noBreak
-    a' f e c g' d h g' e8 \tempoJ-III-f r \noBreak %85
+    a' f e c g' d h g' \tempoJ-III-f e8 r \noBreak %85
     R2.*9 %94
     r8 g\pE a f d4 %95
     e d c8. d16
@@ -93,7 +97,7 @@ J-III-ViolinoI = {
     r2 g4 r8 e
     a fis d g e16 f g f e8 a~ %105
     a gis a a4 f'8 d h
-    r4 d r8 e cis16 h cis8
+    r4 d r8 e cis16 h \hA cis8
     d d c b a a g4\trill
     a r8 f b4. g8
     c4. a8 d g, g4 %110

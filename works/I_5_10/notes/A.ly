@@ -5,18 +5,18 @@ I-V-X-Alto = {
     \clef treble
     \key c \major \time 4/2 \tempoI-V-X \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr e1\fE^\tuttiE f
+    e1 f
     e2 a a g
     f f e2. e4
     e1 f2. f4
     f2 g g2. g4 %5
-    g2 g( c,) f~
+    g2 g c, f~
     f e d2. d4
-    c2 a'( d,) g
+    c2 a' d, g
     f2. f4 e1
-    r r2 a( %10
-    d,) g fis g~
-    g4 g fis2 g g~
+    r r2 a %10
+    d, g fis g~
+    g4 g fis2 g g
     g gis1 gis2
     e( f!2.) f4 f2
     e1 e %15
@@ -30,7 +30,7 @@ I-V-X-Alto = {
     d( g1 fis2)
     g1 g2. g4
     f!2 gis a a4 a %25
-    gis gis a1( gis2)
+    gis gis a1( \hA gis2)
     a1 g2 g~
     g g1 f2
     e f1 g2^\critnote
@@ -62,14 +62,14 @@ I-V-X-AltoLyrics = \lyricmode {
   um con -- fu -- gi --
   mus, San -- cta
   De -- i Ge -- ne -- %5
-  trix, ne __ de --
-  _ spi -- ci --
-  as, ne __ de --
+  trix, ne, ne, ne __
+  de -- spi -- ci --
+  as, ne, ne de --
   spi -- ci -- as,
-  ne __ %10
-  de -- spi -- _
-  ci -- as in ne --
-  ces -- si --
+  ne, %10
+  ne de -- spi -- _
+  ci -- as, ne in
+  ne -- ces -- si --
   ta -- ti -- bus
   no -- stris, %15
   sed a per --

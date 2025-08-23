@@ -5,16 +5,16 @@ I-V-X-Basso = {
     \clef bass
     \key c \major \time 4/2 \tempoI-V-X \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr c1\fE^\tuttiE f2( d)
+    c1 f2( d)
     a' a,4( h) c( d) e2
     f d e2. e4
     a,1 f'2. f4
     f2 c g'2. g4 %5
     g1 r
-    r g(
-    c,2) f1( e2)
+    r g
+    c,2 f1 e2
     d2. d4 c1
-    r2 g'( c,) f~ %10
+    r2 g' c, f~ %10
     f e d1~
     d2 d g, g'
     c, e1 e2
@@ -62,11 +62,11 @@ I-V-X-BassoLyrics = \lyricmode {
   mus, San -- cta
   De -- i Ge -- ne -- %5
   trix,
-  ne __
-  de --
+  ne,
+  ne, ne de --
   spi -- ci -- as,
-  ne __ de -- %10
-  _ spi --
+  ne, ne, ne __ %10
+  de --  spi --
   ci -- as in
   ne -- ces -- si --
   ta -- ti -- bus

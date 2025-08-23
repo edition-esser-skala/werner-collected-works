@@ -5,10 +5,12 @@ J-III-SalmoeI = {
     \clef treble
     \key c \major \time 4/4 \tempoJ-III-a
     R1*12 %12
-    \time 3/4 \tempoJ-III-b R2.*9 %21
+    \time 3/4 \tempoJ-III-b
+      \once \override Staff.TimeSignature.style = #'single-digit
+      R2.*9 %21
     \time 4/4 \tempoJ-III-c R1*7 \noBreak %28
     R1\fermata \bar "||"
-    \tempoJ-III-d r8 c'\pE c c c16( h) h8 r4 \noBreak %30
+    \tempoJ-III-d r8 c'-\solo c c c16( h) h8 r4 \noBreak %30
     r8 e e e e16( d) d8 r4
     r8 g g g g16( f) f8 r4
     r8 g4 f e d8~
@@ -26,13 +28,15 @@ J-III-SalmoeI = {
     r c c c r f f f
     f( e) r4 r2
     R1*9 %63
-    \time 3/4 R2.*21 %84
-    r4 r r8 \tempoJ-III-f r %85
+    \time 3/4 \tempoJ-III-e
+      \once \override Staff.TimeSignature.style = #'single-digit
+      R2.*21 %84
+    r4 r \tempoJ-III-f r %85
     R2.*5 %90
-    r4 r r8 a~\pE
+    r4 r r8 a~-\solo
     a g r4 r8 g~
     g f! es4\trill d8. d16
-    cis8 d4 cis8 d4
+    cis8 d4 \hA cis8 d4
     R2.*4 %98
     \time 4/4 \tempoJ-III-g R1*19 %118
     R1\fermata \bar "|." %118 finis

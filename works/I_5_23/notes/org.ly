@@ -4,7 +4,7 @@ I-V-XXIII-Organo = {
   \relative c {
     \clef bass
     \key a \minor \time 4/4 \tempoI-V-XXIII
-    \mvTr a8\pE-\solo a' d, f a, a'4 gis8
+    \mvTr a8\pE-\solo ^\tweak TextScript.X-offset #0 ^\aQuattro a' d, f a, a'4 gis8
     a f d e c16 d c h a h c d
     e e, e'8~ e dis e c a h
     e, e' a a, d d, g! g'
@@ -33,7 +33,7 @@ I-V-XXIII-Organo = {
 I-V-XXIII-BassFigures = \figuremode {
   r2 r8 <3> <2> <5>
   r <6> <6 5> <_+> <6>2
-  <[_!]>4 <4 2\+>8 <5 [_+]>4 <6>8 <6[+] 5> <[5+] _+>
+  <[_!]>4 <4 2\+>8 <5 [_+]>4 <6>8 <6\\ 5> <[5\+] _+>
   r4 <7 _+> <[_!]> <7>
   r <8 6>2. %5
   \bo <[6]>2 <6>
@@ -41,11 +41,11 @@ I-V-XXIII-BassFigures = \figuremode {
   r
   <6>4. <6->8 <6>4. <5>8
   r2 \bo <[5\+] _+>4 \bc <[6]> %10
-  <5[+] 4> <\t _+> r4. <6>8
+  <5\+ 4> <\t _+> r4. <6>8
   r q <6 4> <5 _+> r4 <_+>8 <6[!]>
   r4 <6 4>8 <5 _+> r2
   <6 4>8 <5 _+> <[\t \t]>2.
-  <6 4>8 <5[+] _+>4. <_+> q8 %15
+  <6 4>8 <5\+ _+>4. <_+> q8 %15
   <[6]>4 <6 4>8 <5 _+> r4 <[6]>
   r <6>2 q8 q16 <5>
   <6 4>8 <5 3> <_+>4 <6> <_+>

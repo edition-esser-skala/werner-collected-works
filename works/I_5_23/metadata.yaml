@@ -4,12 +4,16 @@ genre: sacred song
 scoring: S, A, T, B (solo), b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.248
+    rism: 530002125
+    url: https://copia.oszk.hu/kotta/sub-tuum-2/
+    license: public domain
+    principal: true
   B1:
     siglum: A-Ed
     shelfmark: L 2
     rism: 600038618
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/545.html
     license: public domain
-    principal: true
-toe: |
-  23 & A & 3rd \quarterNote\ in \B1: f′4, corrected with pencil to e′4 \\

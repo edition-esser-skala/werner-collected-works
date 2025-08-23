@@ -5,7 +5,7 @@ I-V-X-Organo = {
     \clef bass
     \key c \major \time 4/2 \tempoI-V-X
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr c1\fE-\tuttiE f2 d
+    c1 f2 d
     a' a,4 h c d e2
     f d e1
     a, f'2. f4
@@ -43,7 +43,7 @@ I-V-X-Organo = {
     g2 g1 fis2
     e c h1~
     h e
-    c-! e2-! g-!
+    c e2 g
     a2. a4 g1 %35
     r2 f1 e2
     d1 c2 c'
@@ -95,7 +95,7 @@ I-V-X-BassFigures = \figuremode {
   r1. <6\\>2
   r <6> <7 _+> <6 4>
   <5\+ \t> <\t _+>1.
-  r\breve
+  <1>1 q2 q
   <3>1 <6>2 <8> %35
   r <3> <2> <6>
   <6 4> <8 3>1.

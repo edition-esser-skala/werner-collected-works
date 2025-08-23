@@ -15,7 +15,9 @@ J-III-ClarinoI = {
     g4 r8 g a4 r8 a %10
     h4 r8 g \pa a16 g a h c8.\trill h32 a \noBreak
     g4 r8 c \pd h h r4
-    \time 3/4 \tempoJ-III-b R2.*9 %21
+    \time 3/4 \tempoJ-III-b
+      \once \override Staff.TimeSignature.style = #'single-digit
+      R2.*9 %21
     \time 4/4 \tempoJ-III-c c,4\fE r8 e16 f g8 g g g \noBreak
     g4 r8 e16 f g8 g g g
     g4 r8 g a4 r8 a
@@ -33,13 +35,15 @@ J-III-ClarinoI = {
     r8 c16. c32 c8 c r c16. c32 c16 c c c
     g4 r r2 %60
     R1*3
-    \time 3/4 \tempoJ-III-e R2.*12 %75
+    \time 3/4 \tempoJ-III-e
+      \once \override Staff.TimeSignature.style = #'single-digit
+      R2.*12 %75
     r8 \pa g''4\fE c8 h h \pd
     r \pa g4 e8 d d \pd
     r \pa e~ e16 f g8 a g \pd
     g g r4 r
     R2.*5 %84
-    r4 r8 \mvTr g~\pE-\solo \sbOn g16 f \tempoJ-III-f \tuplet 3/2 8 { e d c } \sbOff %85
+    r4 r8 g~-\solo \tempoJ-III-f \sbOn g16 f \tuplet 3/2 8 { e d c } \sbOff %85
     d g f g e f e f \sbOn \tuplet 3/2 8 { g a g } f e \sbOff
     d e d e f g a h \sbOn c h \tuplet 3/2 8 { a g f }
     \appoggiatura e8 d8.\trill c16 c4 r

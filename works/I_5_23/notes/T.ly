@@ -4,7 +4,7 @@ I-V-XXIII-Tenore = {
   \relative c' {
     \clef "treble_8"
     \key a \minor \time 4/4 \tempoI-V-XXIII \autoBeamOff
-    r4 \mvTr a\pE^\solo c h8 h
+    \after 4*0 ^\aQuattro r4 \mvTr a\pE^\solo c h8 h
     a4. gis8 a4 r
     R1
     r8 e' e d!16([ cis)] d4 r
@@ -18,12 +18,12 @@ I-V-XXIII-Tenore = {
     r2 r8 a a h
     c4 h8 a h16([ a)] h8 r4
     d8 d h h h g r4
-    h8 h fis h gis16([ fis)] gis8 r4 %15
+    h8 h fis h gis16([ fis)] \hA gis8 r4 %15
     r2 a8 h16 c h8 e16 d
     c8 a r4 r2
-    r c8 c cis h16 cis
+    r c8 c cis h16 \hA cis
     d8 a4 a8 h16([ a)] h8 r4
-    g8 g gis fis16 gis a8 r h r %20
+    g8 g gis fis16 \hA gis a8 r h r %20
     a r a r a r a d
     e([ c f e)] e c([ a)] d
     c4( h)\trill a r\fermata \bar "|." %23 finis

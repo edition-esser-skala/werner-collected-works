@@ -2,10 +2,10 @@
 
 I-V-X-ViolaII = {
   \relative c' {
-    \clef alto
+    \clef treble
     \key c \major \time 4/2 \tempoI-V-X
       \set Staff.timeSignatureFraction = 2/2
-    e1\fE f
+    e1 f
     e2 a1 g2
     f f e2. e4
     e1 f2. f4
@@ -16,7 +16,7 @@ I-V-X-ViolaII = {
     f2. f4 e1
     r r2 a %10
     d, g fis g~
-    g4 g fis2 g \once \tieDashed g~
+    g4 g fis2 g g
     g gis1 gis2
     e f!2. f4 f2
     e1 e %15
@@ -30,10 +30,10 @@ I-V-X-ViolaII = {
     d g1 fis2
     g1 g2. g4
     f!2 gis a2. a4 %25
-    gis gis a1 gis2
+    gis gis a1 \hA gis2
     a1 g2 g~
     g g1 f2
-    e f1 g2^\critnote
+    e f1 g2-\critnote
     g g e fis %30
     g1 h2 a
     g a1 g2

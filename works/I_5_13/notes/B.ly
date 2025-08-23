@@ -4,7 +4,7 @@ I-V-XIIIBasso = {
   \relative c {
     \clef bass
     \key g \major \time 4/4 \tempoI-V-XIII \autoBeamOff
-    r2 r4 \mvTr d\fE^\tutti
+    r2 r4 d
     g d r d
     g8 g d4 r d
     g8 g e c g4. g8
@@ -43,7 +43,7 @@ I-V-XIIIBasso = {
     r4 g'8 g c c g4
     r g, c g
     r g'8 g c4 g
-    e h c2 %40
+    e g c,2 %40
     g1\fermata \bar "|." %41 finis
   }
 }

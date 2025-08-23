@@ -9,20 +9,22 @@ J-III-Tenore = {
     g e c' c a f d' d
     h g g g' f[ c]~ c16[ h] c([ d)]
     e8 h c c h h r4 %5
-    \mvTr gis8\pE^\soloE gis e gis a a16 a a8 a
+    \mvTr gis8\pE^\soloE^\aTre gis e \hA gis a a16 a a8 a
     h h16 h g8 h c c a a
-    fis2 g8 \mvTr h4\fE^\tuttiE h8
+    fis2 g8 \mvTr h4\fE^\tutti h8
     c8. c16 c8 g g8. g16 h4
     r c8 c a f d'4 %10
     h8 g4 g'8 f[ c]~ c16[ h c d] \noBreak
     e8 h g c h h r4
-    \time 3/4 \tempoJ-III-b e2.~\p \noBreak
+    \time 3/4 \tempoJ-III-b
+      \once \override Staff.TimeSignature.style = #'single-digit
+      e2.~\pp \noBreak
     e4 d2
     h!2 a4 %15
     a2 g4
     e'!2 d8 d
     h!4 e2
-    fis e4
+    dis e4
     e2 dis4 \noBreak %20
     e r r
     \time 4/4 \tempoJ-III-c c8\fE c r c d h4 g8 \noBreak
@@ -37,7 +39,7 @@ J-III-Tenore = {
     r2 r8 \mvTr h\pE^\solo h e
     c^\critnote d16 e f8 e16 d e8. e16 e4
     R1
-    a,8 cis e f16([ g)] f8([ e16 d)] c8. b16
+    a,8 cis e f16([ g)] f8 e16([ d c8.)] b16
     a8 c f f, d'16([ c)] b([ a)] g8 f16 g %40
     e8. e16 e4 r2
     R1*4 %45
@@ -52,7 +54,9 @@ J-III-Tenore = {
     c4 c8 c a!2
     h!4 r r2 %60
     R1*3
-    \time 3/4 \tempoJ-III-e r8 \mvTr g\fE^\tutti c4. h8 \noBreak
+    \time 3/4 \tempoJ-III-e
+      \once \override Staff.TimeSignature.style = #'single-digit
+      r8 \mvTr g\fE^\tutti c4. h8 \noBreak
     c4 r8 c c h %65
     c4 r8 c c h
     a a r a a([ d]
@@ -61,7 +65,7 @@ J-III-Tenore = {
     a8 h a2 %70
     h4 r r
     R2.*4 %75
-    \mvDl e8\fE^\tutti e16([ d] c8) c h h
+    \mvDl e8\fE^\tutti e16([ d c8)] c h h
     r e16 d c8 c h h
     r e4 c8 a c^\critnote
     h h r \mvTr h\pE^\solo c d16 d
@@ -69,7 +73,7 @@ J-III-Tenore = {
     R2.*2
     \mvTr a,8\fE^\tutti f c'8. c16 c4
     d d8 d r c
-    a c16 c c8 h \after 8 \tempoJ-III-f c4 %85
+    a c16 c c8 h \tempoJ-III-f c4 %85
     R2.*5 %90
     r8 \mvTr d4\pE^\solo cis8 d a
     b b a8. a16 g4
@@ -125,8 +129,8 @@ J-III-TenoreLyrics = \lyricmode {
   ter -- ra, sunt coe -- li et
   ter -- ra ma -- ie -- sta -- tis, ma -- ie --
   sta -- tis glo -- ri -- ae, glo -- ri -- %25
-  ae, glo -- ri -- ae, glo -- ri -- _
-  ae tu -- ae.
+  ae, glo -- ri -- ae, glo -- _
+  ri -- ae tu -- ae.
 
   Te pro -- phe -- %36
   ta -- rum lau -- da -- bi -- lis nu -- me -- rus,

@@ -4,7 +4,7 @@ I-V-XXIII-Basso = {
   \relative c {
     \clef bass
     \key a \minor \time 4/4 \tempoI-V-XXIII \autoBeamOff
-    R1
+    \after 4*0 ^\aQuattro R1
     r2 r4 \mvTr e\pE^\solo
     g fis8 fis e4. dis8
     e4 r r8 f f e16([ d)]
@@ -16,12 +16,12 @@ I-V-XXIII-Basso = {
     d4 r r8 h'([ g)] e %10
     h2 e4 r
     r2 r8 e fis g!
-    a4 g8 fis g16([ fis)] g8 r4
-    d8 d dis dis e16([ dis)] e8 r4
-    h'8 h, dis dis e16([ dis)] e8 r4 %15
+    a4 g8 fis g16([ \hA fis)] g8 r4
+    d8 d dis dis e16([ \hA dis)] e8 r4
+    h'8 h, dis dis e16([ \hA dis)] e8 r4 %15
     R1
     a8. a16 h([ a)] h8 c c, r4
-    g'8 g gis fis16 gis a8 a, a' g
+    g'8 g gis fis16 \hA gis a8 a, a' g
     f8. e16 d4 r8 g fis([ h)]
     e,4 r8 d! c r gis' r %20
     a r f r cis r d f

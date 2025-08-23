@@ -5,15 +5,15 @@ I-V-X-Soprano = {
     \clef treble
     \key c \major \time 4/2 \tempoI-V-X \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr g'1\fE^\tuttiE a2.( h4)
-    c2 c c h
-    a a a gis
+    g'1 a2. h4
+    c2 c2. c4 h2
+    a a1 gis2
     a c1 c2
     c e d2. d4 %5
     d2 h e a,4 a
     h2 c c( h)
     c1 r
-    r2 d( g,) c~
+    r2 d g, c~
     c h a2. a4 %10
     g1 a2 h
     a2. a4 h2 d
@@ -35,7 +35,7 @@ I-V-X-Soprano = {
     c4 c c2 a2.( h4)
     c2 c1 e2
     d e1 c2 %30
-    h h2.(^\critnote cis4) dis2
+    h h2.( cis4) dis2
     e2. e4 dis2 e~
     e dis e1
     R\breve*3 %36
@@ -55,16 +55,16 @@ I-V-X-Soprano = {
 }
 
 I-V-X-SopranoLyrics = \lyricmode {
-  Sub tu --
-  um prae -- si -- di --
-  um con -- fu -- gi --
+  Sub tu -- um
+  prae -- si -- di -- um
+  con -- fu -- gi --
   mus, San -- cta
   De -- i Ge -- ne -- %5
   trix, no -- stras de -- pre --
   ca -- ti -- o --
   nes
-  ne __ de --
-  _ spi -- ci -- %10
+  ne, ne, ne __
+  de -- spi -- ci -- %10
   as, ne de --
   spi -- ci -- as in
   ne -- ces -- si --

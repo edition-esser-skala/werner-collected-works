@@ -15,7 +15,9 @@ J-III-ClarinoII = {
     e4 r8 c c4 r8 d %10
     d4 r8 e c f4 f8
     e d c e d d r4
-    \time 3/4 \tempoJ-III-b R2.*9 %21
+    \time 3/4 \tempoJ-III-b
+      \once \override Staff.TimeSignature.style = #'single-digit
+      R2.*9 %21
     \time 4/4 \tempoJ-III-c e,4\fE r8 c' d d d d \noBreak
     e4 r8 c d d d d
     e4 r8 c c4 r8 d
@@ -33,7 +35,9 @@ J-III-ClarinoII = {
     r8 c16. c32 c8 c r c16. c32 c16 c c c
     g4 r r2 %60
     R1*3
-    \time 3/4 \tempoJ-III-e R2.*12 %75
+    \time 3/4 \tempoJ-III-e
+      \once \override Staff.TimeSignature.style = #'single-digit
+      R2.*12 %75
     r8 e''16\fE d e8 e d d \noBreak
     r e16 d e c g e g8 g
     r c4 c8 c e

@@ -1,7 +1,7 @@
 \version "2.24.0"
 
-tempoI-V-VII-SubTuum = \tempoMarkup "Alla breve moderato"
-tempoI-V-VII-Domina = \tempoMarkup "Allegro"
+tempoI-V-VIIa = \tempoMarkup "Allabreve moderato"
+tempoI-V-VIIb = \tempoMarkup "Allegro"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

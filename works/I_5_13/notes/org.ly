@@ -4,7 +4,7 @@ I-V-XIIIOrgano = {
   \relative c {
     \clef treble
     \key g \major \time 4/4 \tempoI-V-XIII
-    \mvTr d''2-!\fE-\tutti d4-! \clef bass d,,
+    d''2 d4 \clef bass d,,
     g d r d
     g8 g d4 r d
     g8 g e c g2
@@ -53,14 +53,14 @@ I-V-XIIIOrgano = {
     r4 g'8 g c c g4
     r g, c g
     r g'8 g c4 g
-    e h^\critnote c2 %40
+    e g c,2 %40
     g1\fermata \bar "|." %41 finis
   }
 }
 
 I-V-XIIIBassFigures = \figuremode {
+  <1>2 q
   r1
-  r
   r
   r4 <[6]> <4> <3>
   r2. <_+>4 %5
@@ -94,10 +94,10 @@ I-V-XIIIBassFigures = \figuremode {
   <6>
   \bc <[6]>
   <6> %35
-  <4>4 <3>2.
+  <4>4 <_+>2.
   r1
   r
   r
-  \bo <[6]>4 \bc q2. %40
+  <6>4 <3>2. %40
   r1 %41 finis
 }

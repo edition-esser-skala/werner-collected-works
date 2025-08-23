@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "vla 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,7 +12,7 @@
     \paper { system-count = #7 }
     \score {
       <<
-        \new Staff { \I-V-XIIIViolinoI }
+        \new Staff { \I-V-XIIIViolaII }
       >>
     }
   }

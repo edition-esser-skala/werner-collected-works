@@ -9,14 +9,16 @@ J-III-Alto = {
     g g g g a4. a8
     h4. h8 a4. a8
     g g g g g g r4 %5
-    \mvTr e8\pE^\solo e gis h e, e16 e e8 c
+    \mvTr e8\pE^\solo^\aTre e gis h e, e16 e e8 c
     g' g16 g h8 g g g c c
     c2 h8^\critnote \mvTr g4\fE^\tutti g8
     g8. g16 g8 g g8. g16 g4
     r8 g4 g8 a8. a16 a4 %10
     h h8 h a2 \noBreak
     g8 g g g g g r4
-    \time 3/4 \tempoJ-III-b g2.~\p \noBreak
+    \time 3/4 \tempoJ-III-b
+      \once \override Staff.TimeSignature.style = #'single-digit
+      g2.~\pp \noBreak
     g4 f a
     gis2 a4 %15
     fis2 g4~
@@ -35,7 +37,7 @@ J-III-Alto = {
     R\fermata \bar "||"
     \tempoJ-III-d R1*5 %34
     r8 \mvTr a\pE^\solo a a a gis16 a h8 h %35
-    h a16([ gis)] a4\trill gis r
+    h a16([ gis)] a4\trill \hA gis r
     r2 r8 c, e e16 e
     d([ c)] d8 e16([ d)] e8 f([ a)] g f
     e8. e16 e4 r2
@@ -54,18 +56,20 @@ J-III-Alto = {
     f8. f16 f4 f f8 f
     es4 es8 es d2
     d4 r r8 \mvTr g\f^\solo as f %60
-    g g16 f es([ f)] g8 c, d16 es f8 d
-    b g' es16([ f)] g8 g16([ f)] f8 es16([ d)] es8 \noBreak
-    d8 es4 f8 es4( d)\trill
-    \time 3/4 \tempoJ-III-e c4 r8 \mvTr g'\fE^\tuttiE g g \noBreak
+    g g16 f es([ f)] g8 c, d16 \hA es f8 d
+    b g' es16([ f)] g8 g16([ f)] f8 \hA es16([ d)] \hA es8 \noBreak
+    d8 es4 f8 \hA es4( d)\trill
+    \time 3/4 \tempoJ-III-e
+      \once \override Staff.TimeSignature.style = #'single-digit
+      c4 r8 \mvTr g'\fE^\tutti g g \noBreak
     g4 r8 g g g %65
     g4 r8 a a g
-    fis fis r fis fis16([ g)] a([ fis)]
-    d4 r8 fis fis16([ g)] a([ fis)]
+    fis fis r \hA fis fis16([ g)] a([ \hA fis)]
+    d4 r8 fis fis16([ g)] a([ \hA fis)]
     d4 g4. g8
-    fis( g4 fis16[ e] fis4) %70
+    fis( g4 \hA fis16[ e] \hA fis4) %70
     g r8 \mvTr h,\pE^\solo e fis
-    g g16 fis e8 g fis16([ g)] a8
+    g g16 fis e8 g \hA fis16([ g)] a8
     dis, fis h h16([ a)] g8 h
     e, g c a g([ fis)]
     e4 r r %75
@@ -78,11 +82,11 @@ J-III-Alto = {
     f4 r \mvTr e8\fE^\tutti c
     f a g e f f
     f a g g r e \noBreak
-    a g16 g g8. g16 \after 8 \tempoJ-III-f g4 \noBreak %85
+    a g16 g g8. g16 \tempoJ-III-f g4 \noBreak %85
     R2.*6 %91
     r8 \mvTr g4\pE^\soloE fis8 g4~
     g8 f es4 d8 g~
-    g f! e8. e16 d4
+    g f! e8.\trill e16 d4
     R2.*4 %98
     \time 4/4 \tempoJ-III-g r8 \mvDl g4\fE^\tutti g8 g8. g16 g8 g \noBreak
     g g r g\p g g r d\pp %100
@@ -178,7 +182,7 @@ J-III-AltoLyrics = \lyricmode {
   Per sin -- gu -- los %80
   di -- es, be -- ne -- di -- ci -- mus
   te et lau --
-  da -- mus \xE no -- men tu -- um, \x
+  da -- mus, et lau -- da -- mus
   no -- men tu -- um in sae --
   cu -- lum sae -- cu -- li. %85
 
@@ -189,8 +193,8 @@ J-III-AltoLyrics = \lyricmode {
   In te, Do -- mi -- ne, spe -- %99
   ra -- vi, spe -- ra -- vi, spe -- %100
   ra -- vi:
-  Non con -- fun -- dar
-  \xE in ae -- ter -- num, \x
+  Non con -- fun -- dar,
+  non con -- fun -- dar,
   non con -- fun -- dar
   in ae -- ter -- num, in ae -- ter -- %105
   num, ae -- ter -- num,

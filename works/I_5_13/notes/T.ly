@@ -4,7 +4,7 @@ I-V-XIIITenore = {
   \relative c' {
     \clef "treble_8"
     \key g \major \time 4/4 \tempoI-V-XIII \autoBeamOff
-    r2 r4 \mvTr a\fE^\tutti
+    r2 r4 a
     h a r a
     h8 h a4 r a
     h8 h c e d4. d8
