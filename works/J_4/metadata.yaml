@@ -1,0 +1,18 @@
+title: Te Deum
+id: WerW J.4
+genre: hymn
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org solo
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: C 6
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/73.html
+    license: public domain
+    principal: true
+toe: |
+  42 & vl 2   & 4th \quarterNote\ missing in \B1 \\
+  47 & clno 1 & bar in \B1: e′1–\halfNoteRest \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  org_solo: Organo solo
