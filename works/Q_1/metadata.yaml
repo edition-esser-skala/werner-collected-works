@@ -1,0 +1,25 @@
+title: Concerto
+id: WerW Q.1
+genre: concerto
+scoring: 2 chalumeau, 2 vl, b, org solo
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.305
+    date: 1753
+    rism: 530003636
+    url: https://copia.oszk.hu/kotta/concerto-5/
+    license: public domain
+    principal: true
+toe: |
+  39   & chalumeau 2 & 4th \eighthNote\ missing in \A1 \\
+  46ff & vlne        & Bars 46, 47, 48 (1st \quarterNote), 49 (1st \halfNote),
+                       50 (2nd to 6th \eighthNote), 64, 70, 80–86, 90–95,
+                       99–103, and 105 are illegible in \A1
+                       due to manuscript damage. \\
+  55f  & chalumeau 2 & Bars 55 (3rd \quarterNote) and 56 are illegible
+                       in \A1 due to manuscript damage. \\
+  144f & vl 1        & Bars are illegible in \A1 due to manuscript damage. \\
+parts:
+  org_solo: Organo solo
