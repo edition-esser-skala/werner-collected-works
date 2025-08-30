@@ -1,0 +1,54 @@
+title: Lamentationes in Cœna Domini
+id: WerW K.1
+genre: lamentation
+scoring: 2 S, A, T (solo), 2 S, A, T, B (coro), b, cemb
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.266
+    rism: 530003600
+    url: https://copia.oszk.hu/kotta/in-coena-domini/
+    license: public domain
+    principal: true
+  B2:
+    siglum: A-Ed
+    shelfmark: G 96
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/367.html
+    license: public domain
+tocstyle: default
+toe: |
+  2 & 97  & S 1  & bar in \B1 and \B2: g′1–\wholeNoteRest \\
+    & 97  & A    & bar in \B1 and \B2: d′2–\halfNoteRest–\wholeNoteRest \\
+    & 122 & A    & 2nd \wholeNote\ in \B1: e′1 \\
+    & 132 & A    & last \quarterNote\ in \B1 and \B2: d′4 \\
+  3 & 23  & cemb & 5th \eighthNote\ in \B1 and \B2: \flat B8 \\
+    & 24  & A    & bar in \B1 and \B2: f′4–d′2–\crotchetRest \\
+    & 27  & cemb & 2nd/3rd \quarterNote\ in \B1 and \B2: d8–c8–\flat B4 \\
+    & 59  & cemb & 3rd \eighthNote\ in \B1 and \B2: a8 \\
+    & 95  & cemb & 1st \quarterNote\ in \B1 and \B2: c8–g8 \\
+lyrics:
+  \textit{Lamentatio 1ma}\\
+  Incipit lamentatio Ieremiae Prophetae.\\
+  Aleph. Quomodo sedet sola civitas plena populo. Facta est quasi vidua domina gentium. Princeps provinciarum facta est sub tributo.\\
+  Beth. Plorans ploravit in nocte, et lacrymae eius in maxillis eius. Non est qui consoletur eam ex omnibus charis eius. Omnes amici eius spreverunt eam et facti sunt ei inimici.\\
+  Ghimel. Migravit Iudas propter afflictionem et multitudinem servitutis. Habitavit inter gentes nec invenit requiem. Omnes persecutores eius apprehenderunt eam inter angustias.\\
+  Daleth. Viae Syon lugent eo quod non sint qui veniant ad solemnitatem omnes portae eius destructae sacerdotes eius gementes virgines eius squalidae et ipsa oppressa amaritudine.\\
+  Heth. Facti sunt hostes eius in capite inimici eius locupletati sunt quia Dominus locutus est super eam propter multitudinem iniquitatum eius parvuli eius ducti sunt in captivitatem ante faciem tribulantis.\\
+  Ierusalem, Ierusalem, convertere ad Dominum Deum tuum.\\
+  (\bibleverse{Lam}(1:1-5))\\[1ex]
+  \textit{Lamentatio 2da}\\
+  Vau. Egressus est a filia Sion omnis decor eius. Facti sunt principes eius velut arietes non invenientes pascua. Et abierunt absque fortitudine ante faciem subsequentis.\\
+  Zain. Recordata est Ierusalem dierum afflictionis suae et praevaricationis, omnium desiderabilium suorum, quae habuerat a diebus antiquis, cum caderet populus eius in manu hostili, et non esset auxiliator. Viderunt eam hostes et deriserunt Sabbata eius.\\
+  Heth. Peccatum peccavit Ierusalem propterea instabilis facta est omnes qui glorificabant eam spreverunt illam quia viderunt ignominiam eius ipsa autem gemens conversa est retrorsum.\\
+  Teth. Sordes in pedibus eius nec recordata est finis sui deposita est vehementer non habens consolatorem vide Domine afflictionem meam quoniam erectus est inimicus.\\
+  Ierusalem, Ierusalem, convertere ad Dominum Deum tuum.\\
+  (\bibleverse{Lam}(1:6-9))\\[1ex]
+  \textit{Lamentatio 3tia}\\
+  Iod. Manum suam misit hostis ad omnia desiderabilia eius. Quia vidit gentes ingressas sanctuarium suum, de quibus praeceperas, ne intrarent in ecclesiam tuam.\\
+  Caph. Omnis populus gemens et quaerens panem. Dederunt pretiosa quaeque pro cibo ad refocillandam animam. Vide, Domine, et considera, quoniam facta sum vilis!\\
+  Lamed. O vos omnes, qui transitis per viam, attendite et videte, si est dolor sicut dolor meus. Quoniam vindemiavit me ut locutus est Dominus in die irae furoris sui.\\
+  Mem. De excelso misit ignem in ossibus meis et erudivit me expandit rete pedibus meis convertit me retrorsum posuit me desolatam tota die maerore confectam.\\
+  Nun. Vigilavit iugum iniquitatum mearum in manu eius convolutae sunt et impositae collo meo infirmata est virtus mea dedit me Dominus in manu de qua potero surgere.\\
+  Ierusalem, Ierusalem, convertere ad Dominum Deum tuum.\\
+  (\bibleverse{Lam}(1:10-14))
