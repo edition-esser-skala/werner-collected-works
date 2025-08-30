@@ -5,7 +5,7 @@ B-XXVIKyrieAlto = {
     \clef treble
     \key g \major \time 3/4 \autoBeamOff \tempoB-XXVIKyrie
     r4 \mvTr g'\fE^\tutti h
-    a r8 fis fis4
+    a r8 fis fis4\trill
     g r8 g h[ g]~
     g e r a cis[ a]~
     a fis r a fis a %5
@@ -23,12 +23,12 @@ B-XXVIKyrieAlto = {
     a[ g fis a] g4. fis8
     g4 r r
     r \mvTr g\fE^\tutti h %20
-    a r8 fis fis4\trill
+    a r8 fis fis4\trillE
     g r8 g h[ g]~
     g e r a cis[ a]~
     a fis r a fis a
     d, g e a fis([ h)] %25
-    g c a( g4 fis8)
+    g([ c]) a g4( fis8)
     g4 r g8 g~
     g[ fis] g4 r\fermata \bar "|." %28 finis
   }
@@ -59,7 +59,7 @@ B-XXVIKyrieAltoLyrics = \lyricmode {
   son, e -- lei --
   son, e -- lei -- son,
   Ky -- ri -- e e -- lei -- %25
-  son, e -- lei --
+  son, __ e -- lei --
   son, e -- lei --
   son. %28 finis
 }
@@ -88,17 +88,17 @@ B-XXVIGloriaAlto = {
     \tuplet 3/2 8 { h'([ a g)] } g8 r4 r8 a4 g8
     r g16([ h)] a8 fis g h a g
     fis16([ e)] fis8 r4 r2 %25
-    r4 g8. fis16 e([ fis)] g([ d)] c8.\trill c16
+    r4 g8. fis16 e([ fis)] g([ d)] c8. c16
     h8 d4 g8 fis16([ e)] fis8 r4
     r8 e4 a8 g16([ fis)] g8 r4
     r8 fis([ h)] a g16([ fis)] g8 r gis
-    a16[ h c8] c4~ c16[ a] h([ c)] a4\trill %30
+    a16[ h c8]~ \once \tieDashed c4~ c16[ a] h([ c)] a4 %30
     g r r2
     R1*2 \noBreak
     R1\fermata \bar "||"
     \key g \dorian \time 3/4 \tempoB-XXVIQuiTollis \newSpacingSection
       \mvTr d2.\fE^\tutti \noBreak %35
-    es4 fis8([ a)] g[( fis)]
+    es4 fis8([ a)] g[( \hA fis)]
     g([ d)] d4 b'
     f!4. f8 f4
     f2 r4
@@ -123,7 +123,7 @@ B-XXVIGloriaAlto = {
     g r r2\fermata \bar "||"
     \time 3/4 \tempoB-XXVIQuoniam \newSpacingSection
       \mvTr g4.\pE^\solo a8 h4 \noBreak
-    e,8([ c')] h16([ c h8)] a16([ g fis8)]
+    e,8([ c')] h16([^\critnote c h8)] a16([ g fis8)]
     g4 g r %70
     fis8.([ g16)] a8([ fis)] d([ g)]
     fis8. fis16 fis4 r
@@ -134,7 +134,7 @@ B-XXVIGloriaAlto = {
     fis4 fis~ \tuplet 3/2 8 { \sbOn fis16[ g a } g fis]
     g4 d~ \tuplet 3/2 8 { d16[ e f } e d] \sbOff
     e4 r r
-    r8 a~ a16[ g fis e] d[ c h c] %80
+    r8 a~ a16[ g fis! e] d[ c h c] %80
     h8 \tuplet 3/2 8 { c16([ d e)] } d8 \tuplet 3/2 8 { e16([ d c)] } h8([ a)]
     g4 r r
     R2.*3 \noBreak %85
@@ -153,7 +153,7 @@ B-XXVIGloriaAlto = {
     d8 g4 e8 a([ fis16 g] a4)
     d, g4. e8 a[ fis]
     h8.[ a16] g8[ fis16 e] fis8[ gis] a[ g16 fis]
-    g8 g g[ fis16 e] fis8[ h,] h'[ a16 h] %100
+    g8 g g[ fis16 e] fis8[ h,] h'[^\critnote a16 h] %100
     g4 e r2
     r r4 g~
     g8 e a[( fis] h16[ a h8)] g4
@@ -180,7 +180,7 @@ B-XXVIGloriaAltoLyrics = \lyricmode {
 
   Do -- mi -- ne %20
   De -- us, Rex coe -- le -- stis,
-  De -- us __
+  De -- us
   Pa -- ter, Pa -- ter
   o -- mni -- po -- tens, Do -- mi -- ne
   Fi -- li, %25
@@ -188,7 +188,7 @@ B-XXVIGloriaAltoLyrics = \lyricmode {
   te, Je -- su Chri -- ste,
   Je -- su Chri -- ste,
   Je -- su Chri -- ste, Je --
-  _ _ su Chri -- %30
+  _ su Chri -- %30
   ste.
 
   Qui %35
@@ -315,7 +315,7 @@ B-XXVICredoAlto = {
     f r4 a gis( a
     \once \stemUp h) a8 a a2( gis)
     a4 \mvTr e\pE^\solo a,2 a'
-    f4 f a8([ g] a4) f8([ e] f4)
+    f4 f a8([ g] a4) \hA f8([ e] \hA f4)
     d2 r r %75
     r4 c e( g2) c4
     a2 r r
@@ -323,7 +323,7 @@ B-XXVICredoAlto = {
     g1 g2
     g g r4 e %80
     e e e2. e4
-    e2 gis h^\critnote
+    e2 gis h
     e, e r4 e
     a2 fis a
     g!4 fis g( a) g( fis) %85
@@ -346,7 +346,7 @@ B-XXVICredoAlto = {
     g[ fis gis a] h e, r a(
     g) c, r4 r2
     g'4 a8([ g16 fis!)] g8 g a g16([ fis)] %120
-    g([ a)] g f32([ e)] d4\trill c8 a'16[ g] f[ e f d]
+    g([ a)] g f32([ e)] d4\trill c8 a'16[ g] f[ e \hA f d]
     e[ f e d] c8 c'16[ a] h8[ a16 g] a[ g e fis]
     g8.[ fis16] e8[ a] d, g16[ fis] e8[ a]~
     a g r g h([ a16 g)] fis8 g
@@ -462,10 +462,10 @@ B-XXVISanctusAlto = {
     e8( a4) g16([ fis)] e4. e8
     fis4 r r2
     r \tempoB-XXVIPleni r8 d fis a
-    d([ a)] fis a fis d r a'\p
+    d([ a)] fis a fis d r a'\pE
     d([ a)] fis a fis d r4 %10
     R1*3
-    r2 r4 r8 \mvTr a'\f^\tuttiE
+    r2 r4 r8 a'\fE
     fis h g e a4. fis8 %15
     g4. fis8 e([ fis] e4)
     fis r r2
@@ -497,7 +497,7 @@ B-XXVIBenedictusAlto = {
     \key h \phrygian \time 4/4 \autoBeamOff \tempoB-XXVIBenedictus
     R1*9 \noBreak
     R1\fermata \bar "||" %10
-    \key d \major \time 3/2 \tempoB-XXVIOsanna \newSpacingSection
+    \time 3/2 \tempoB-XXVIOsanna \newSpacingSection
       R1.*3
     \mvTr d2\fE^\tutti e1
     d2 g1 %15
@@ -554,7 +554,7 @@ B-XXVIAgnusAlto = {
     \mvTr g'4.\fE^\tutti g8 g4 g8 e
     gis4 gis8 a h h h4~
     h8[ a] a a a a a4~
-    a8[ gis16 fis] gis4 r8 g4 g8
+    a8[ gis16 fis] \hA gis4 r8 g4 g8
     a4 f e a %5
     g8.([ a32 h)] c8([ h)] a4( g
     fis2) e4 r
@@ -569,10 +569,10 @@ B-XXVIAgnusAlto = {
     d, r r g~ g16[ a] fis8 r fis~ %20
     fis16[ g] e8 a4. g16[ fis] e4
     fis d16([\trill cis d8)] e16([\trill d e8)] h cis
-    d16([ e fis d] e[ g fis a)] g8^\critnote h e,4
+    d16([ e fis d] e[ g fis a)] g8 h e,4
     r8 a d,4 r8 g([ a)] g
     g[ fis gis a]~ a[ g a d] %25
-    g,16[ a32 g f16 e] f[ a g f] e4 c16([\trill h c8)]
+    g,16[ a32 g f16 e] \hA f[ a g \hA f] e4 c16([\trill h c8)]
     d16([\trill c d8)] a([ h] c16[ d e fis] g8) h
     e,8.[( fis16] g[ c h a]) g4 g16([\trillE fis g8)]
     a16([\trill g a8)] fis16([\trillE e fis8)] g4 e8[ fis]~

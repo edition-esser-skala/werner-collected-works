@@ -4,7 +4,7 @@ B-VIIKyrieTenore = {
   \relative c' {
     \clef "treble_8"
     \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoB-VIIKyrie
-    r4 \mvTr g2\fE^\tuttiE c4~
+    r4 g2 c4~
     c a2 d4~
     d h2 e4~
     e8[ d] c2 h4
@@ -39,7 +39,7 @@ B-VIIKyrieTenore = {
     d4 a h h8([ c)]
     d4( e d2)
     e r4 g, %35
-    a( g g2) \noBreak
+    a( g g2)\trill \noBreak
     g r\fermata \bar "||"
     \key a \minor \time 3/2 \tempoB-VIIChriste \newSpacingSection
       R1. \noBreak
@@ -53,11 +53,11 @@ B-VIIKyrieTenore = {
     g2 r r
     e,4 e'2 d( c4)
     h2 a r4 e'
-    dis e2 dis4 e2
+    dis e2 \hA dis4 e2
     r r e,4 e'~ %50
     e d! c h2 a4
     d2. c2 h8[ a]
-    gis4 a2 gis4 a e'~
+    gis4 a2 \hA gis4 a e'~
     e8[ d c h] a4( h c h8[ a)]
     h1 r2\fermata \markKyrieUtSupra \bar "||" %55 finis
   }
@@ -126,17 +126,17 @@ B-VIICredoTenore = {
     \clef "treble_8"
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIICredo
       \set Staff.timeSignatureFraction = 2/2
-    r2 \mvTr c\fE^\tuttiE c h
+    r2 c c h
     c4( d) e( d) c2 d~
     d c d d
     c1 c2 c
-    c1( h4 c) d2~ %5
+    c1 h4 c d2~ %5
     d d d1
     d r
     R\breve
     c2. a4 d2 h
     c2. c4 a2 d~ %10
-    d4 d c2.( h8[ a] h2)
+    d4 d c2.( h8_[ a] h2)
     a1 r2 d~
     d4 d c1 h2~
     h4 h a2 h c~
@@ -241,7 +241,7 @@ B-VIICredoTenore = {
     gis2. gis4 a2 h
     a gis c2. h4
     a( h) c2 h a
-    gis a1( gis2)
+    gis a1( \hA gis2)
     a1 r %115
     R\breve*2
     r2 c a g
@@ -251,9 +251,9 @@ B-VIICredoTenore = {
     c2 h c1
     h2 h1 g2
     c2. a4 a2 h
-    c( e) a,( d) %125
-    d d d2.( c4)
-    h( a g f) e2 c
+    c e a,( d) %125
+    d1^\critnote d2.( c4)
+    \once \stemUp h( a g f) e2 c
     r a' h1
     h4 h c1 a2
     r4 c2 d4 e2( d4 c) %130
@@ -282,7 +282,7 @@ B-VIICredoTenoreLyrics = \lyricmode {
   ten -- tem, cre -- do __
   fa -- cto -- rem
   coe -- li et
-  ter -- rae, __ %5
+  ter -- rae, __ _ _ %5
   et ter --
   rae,
 
@@ -399,8 +399,8 @@ B-VIICredoTenoreLyrics = \lyricmode {
   num ba -- ptis --
   ma in re --
   mis -- si -- o -- nem
-  pec -- ca -- %125
-  to -- rum, et __
+  pec -- ca -- to --  %125
+  rum, et __
   ex -- pe -- cto
   re -- sur --
   re -- cti -- o -- nem
@@ -429,7 +429,7 @@ B-VIISanctusTenore = {
     \clef "treble_8"
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIISanctus
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr g2\fE^\tuttiE c a( d)
+    g2 c a( d)
     g, e'1 d2~
     d e a,( d)
     g, c2. a4 d2
@@ -442,8 +442,8 @@ B-VIISanctusTenore = {
     e d) c( h) c2 r
     r g2.( c4) h( a)
     h r r2 r4 f'( e d
-    c8[ d] c4) h( a) g2 g4 a
-    h( c8[ d]) e4( d8[ c] d1) %15
+    c8[ d] c4) h( a) g2 g4( a)
+    h( c8[ d]) e4( d8[ c]) d1 %15
     e2 r4 e c2. e4
     c2 c c1
     c\breve\fermata \bar "|." %18 finis
@@ -464,8 +464,8 @@ B-VIISanctusTenoreLyrics = \lyricmode {
   ri -- a,
   glo -- ri --
   a, glo --
-  ri -- a, glo -- ri --
-  a __ tu -- %15
+  ri -- a, glo --
+  ri -- a __ tu -- %15
   a. O -- san -- na
   in ex -- cel --
   sis. %18 finis
@@ -476,9 +476,9 @@ B-VIIBenedictusTenore = {
     \clef "treble_8"
     \key c \major \time 3/2 \autoBeamOff \tempoB-VIIBenedictus
     R1.
-    \mvTr c2.\fE^\tuttiE h4 a2
+    c2. h4 a2
     g r4 f g8[( f] g4
-    a h) c e d2(
+    a \once \stemUp h) c e d2(
     e4 d8[ c]) d2 c~ %5
     c4 h a2 g4 g
     a8([ g] a4) h c d8([ c] d4)
@@ -514,7 +514,7 @@ B-VIIBenedictusTenore = {
     d e~
     e f
     R1
-    r4 g,~ g8[ a] b4 %45
+    r4 g,4.( a8) b4 %45
     c1~
     c4 c, a' c
     d( b g2)
@@ -525,7 +525,7 @@ B-VIIBenedictusTenore = {
     a4 c8([ b] a4) g %55
     f2 f'~
     f4 e c a
-    f d d' h
+    f d d' h!
     g e e' c
     a f f' d %60
     h g c2~
@@ -542,7 +542,7 @@ B-VIIBenedictusTenore = {
     d4 h g2
     r4 h( c) e
     d1
-    e4 c c h %75
+    e4 c2^\critnote h4 %75
     c2 r\fermata \bar "|." %76 finis
   }
 }
@@ -613,7 +613,7 @@ B-VIIBenedictusTenoreLyrics = \lyricmode {
   _ na
   in __ ex --
   cel --
-  sis, in ex -- cel -- %75
+  _ _ _ %75
   sis. %76 finis
 }
 
@@ -622,7 +622,7 @@ B-VIIAgnusTenore = {
     \clef "treble_8"
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIIAgnus
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr c2.\fE^\tuttiE h4 a2. c4
+    c2. h4 a2. c4
     h1 a2 f
     c' cis4 cis d2 g,
     a4.( g8 f2) e1
@@ -630,7 +630,7 @@ B-VIIAgnusTenore = {
     e2( e,) a c4 h
     c2 c4 c a2 e'4 e
     a,2. b4 b2 a~
-    a g( es') d
+    a g es' d~
     d e4( d) c2( f) %10
     h,1 r2 a~
     a h c2.( d8[ e)]
@@ -645,14 +645,14 @@ B-VIIAgnusTenore = {
     e c d h
     c r r1
     r4 c( a) g fis2 g4( a8[ h)]
-    a1 h2 g(
-    c1) h %25
-    c4( g c h) a a( c d)
+    a1 h2 g
+    c1 h4^\critnote g a h %25
+    c g c h a a( c d)
     e2 e2.( d4 c2)
     d4 h( c d e2.) d4
     c( b) a2 g1
     a r %30
-    r4 f( g a b c) d( b)
+    r4 f( g a b4.^\critnote c8 d4) \hA b
     a2 f r4 \stemUp f( a h
     c g) \stemNeutral c( b) a2 f
     r f g1
@@ -675,8 +675,8 @@ B-VIIAgnusTenoreLyrics = \lyricmode {
   no -- bis. A -- gnus
   De -- i, qui tol -- lis pec --
   ca -- ta mun -- di: __
-  Mi -- se --
-  re -- re __ no -- %10
+  Mi -- se -- re --
+  re __ no -- %10
   bis. A --
   gnus De --
   i, qui tol --
@@ -691,13 +691,13 @@ B-VIIAgnusTenoreLyrics = \lyricmode {
   cem,
   do -- na no -- bis __
   pa -- cem, do --
-  na, %25
-  do -- na, do --
+  _ _ _ _ _ %25
+  _ _ _ _ na, do --
   na no --
   bis, do -- na
   no -- bis pa --
   cem, %30
-  do -- na __
+  do -- na
   no -- bis, do --
   na __ no -- bis,
   no -- bis
@@ -706,6 +706,6 @@ B-VIIAgnusTenoreLyrics = \lyricmode {
   no -- bis, do --
   na no -- bis
   pa -- cem,
-  pa -- _ _ %40
+  no -- bis pa -- %40
   cem. %41 finis
 }

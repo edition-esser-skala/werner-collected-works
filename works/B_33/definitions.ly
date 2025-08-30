@@ -1,9 +1,9 @@
 \version "2.24.0"
 
 conPedale = \markup \remark "con pedale"
-markOsannaDaCapo = {
+markOsannaUtSupra = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Osanna da capo"
+  \mark \markup \remark "Osanna ut supra"
 }
 tightNotes = \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
 
@@ -20,7 +20,7 @@ tempoB-XXXIIICredo = \tempoMarkup "Vivace"
   tempoB-XXXIIIEtVitam = \tempoMarkup "Allegro"
 tempoB-XXXIIISanctus = \tempoMarkup "Vivace"
   tempoB-XXXIIIOsanna = \tempoMarkup "Osanna · Tempo giusto"
-tempoB-XXXIIIBenedictus = \tempoMarkup "Andante"
+tempoB-XXXIIIBenedictus = \tempoMarkup "Larghetto / Andante"
 tempoB-XXXIIIAgnus = \tempoMarkup "Largo"
   tempoB-XXXIIIDona = \tempoMarkup "Andante"
   tempoB-XXXIIIDonaB = \tempoMarkup "Adagio"

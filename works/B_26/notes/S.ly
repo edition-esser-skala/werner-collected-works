@@ -4,19 +4,19 @@ B-XXVIKyrieSoprano = {
   \relative c' {
     \clef treble
     \key g \major \time 3/4 \autoBeamOff \tempoB-XXVIKyrie
-    r8 \mvTr h'4(\fE^\tuttiE d) g8
+    r8 \mvTr h'4(\fE^\tutti d) g8
     fis4 r8 d4 d8
     h h d4~ d8.[\trill c32 d]
     e8 cis e4~ e8.[\trill d32 e]
     fis4 r8 a,4 d8 %5
     h2 h4
-    e8.[\trill d32 c] h8[ \tuplet 3/2 8 { c16 h a] } g8[ fis]
+    e8.[ d32 c] h8[ \tuplet 3/2 8 { c16 h a] } g8[ fis]
     g4 r r
     R2.
-    r8 \mvTr h\pE^\solo e h g'8.([\trill fis32 e] %10
+    r8 \mvTr h\pE^\solo e h g'8.([\trillE fis32 e] %10
     fis8) h, r4 r
-    r8 h g'( e4 c8)\trill
-    a a fis'( d4 h8)\trillE
+    r8 h g'( e4 c8)
+    a a fis'( d4 h8)
     g g' e16([ c e8] d8.[\trill c16)]
     h4 r r %15
     r8 a h16([ c)] h([ c)] d([ c)] d8
@@ -80,13 +80,13 @@ B-XXVIGloriaSoprano = {
     h4. c16([ d)] a8 h16 cis d8 e16([ fis)]
     g([\trill fis e\trill d] cis[\trill h)] a([\trill g)] fis4 r
     r8 a d d d16.[ e64 fis g16 g,] d'4~\trill %10
-    d16.[ e64 fis g16 g,] \tuplet 3/2 16 { a32[( h cis) } d e fis16 fis,] \tuplet 3/2 8 { g32[( a h) } cis d e16 e,] fis16.[\trill g64 a] g16.[\trill a64 h]
-    a1\trill~
-    \sbOn a16[ d \tuplet 3/2 8 { h a g] } \sbOff \appoggiatura fis8 e8.\trill d16 d4 r
+    d16.[ e64 fis g16 g,] \tuplet 5/4 8 { a32[( h cis d e) } fis16 fis,] \tuplet 5/4 8 { g32[( a h cis d) } e16 e,] \sbOn fis16.[\trill g64 a g16.\trill a64 h]
+    a1~
+    a16[ d \tuplet 3/2 8 { h a g] } \sbOff \appoggiatura fis8 e8.\trillE d16 d4 r
     R1*16 %29
     r2 r8 d' \tuplet 3/2 8 { e16([ d c)] } h([ a)] %30
     h([ g)] d'([ h)] g'([ d)] c([ h)] a([ g)] a8 a d16 c
-    \tuplet 3/2 8 { \sbOn h[ c d e fis g] a,[ h c d e fis] g,[ a h c d e] \sbOff } fis,32[ d e fis g a h c]
+    \tuplet 6/4 4 { h[ c d e fis g] a,[ h c d e fis] g,[ a h c d e] } fis,32[ d e fis g a h c]
     \tuplet 3/2 8 { \sbOn d16[ c d e d c] \sbOff } h8[ a] g4 r \noBreak
     R1\fermata \bar "||"
     \key g \dorian \time 3/4 \tempoB-XXVIQuiTollis \newSpacingSection
@@ -106,7 +106,7 @@ B-XXVIGloriaSoprano = {
     \mvTr a\pE^\solo f'( d)
     b r b
     g'( e) cis8([ a)] %50
-    f4\trill d f'
+    f4 d f'
     c!~ c16[ d e f] g[ e] c([ b)]
     \tuplet 3/2 8 { a([ g f)] } f8 r4 r
     R2.*5 %58
@@ -146,13 +146,13 @@ B-XXVIGloriaSoprano = {
     g4 r r8 d'([ h)] g
     r e'([ d)] h c d e[ d]~
     d[ c16 h] c4. h16[ c] d4~ \noBreak
-    d8[ cis16 h] cis4 d r\fermata \bar "||"
+    d8[ cis16 h] \hA cis4 d r\fermata \bar "||"
     \tempoB-XXVIAmen R1 \noBreak %95
     r2 a4. fis8
-    h8.[(\trill a32 h] cis16[ d e cis]) d4 r
+    h8.[(\trill a32 h] cis16[ d e \hA cis]) d4 r
     d4. h8 e[ c fis d]
     g[ g,16 a] h8[ cis] d[ c16 h] c8[ dis]
-    e[ h] e4. dis16[ cis?] dis[ e fis8]~ %100
+    e[ h] e4. dis16[ cis?] \hA dis[ e fis8]~ %100
     fis e r e4 d8 r4
     r2 d4. h8
     e8([ c fis d] g) g, h c~
@@ -173,7 +173,7 @@ B-XXVIGloriaSopranoLyrics = \lyricmode {
   be -- ne -- di -- ci -- mus, ad -- o --
   ra -- mus te,
   glo -- ri -- fi -- ca -- _ %10
-  _ _ _ _
+  _ _ _
   _
   _ mus te.
 
@@ -286,7 +286,7 @@ B-XXVICredoSoprano = {
     r8 a! a d16 a b!8 d f! b,
     as as as g es!4 r
     R1 %40
-    r8 d' d d d([ es)] es!4
+    r8 d' d d d([ es!)] es4
     r8 d d f! f([ es)] es4
     r8 e, e g f2~
     f2. e8. d16
@@ -472,16 +472,16 @@ B-XXVISanctusSoprano = {
     ais4 h2 a4~
     a8[ g16 fis] g2 fis4
     r8 h e d cis4 d %5
-    e8 cis d2 cis4
+    e8 cis d2 \hA cis4
     d r r2
     r \tempoB-XXVIPleni r8 d, fis a
-    d([ fis)] d a fis d r a'\p
-    d([ fis)] d a^\soloE fis16[ g fis e] d[ e fis g] %10
-    a[ h cis a] \sbOn \tuplet 3/2 8 { d[ e fis } e d] \sbOff cis8 a d4~
+    d([ fis)] d a fis d r \mvTr a'\pE^\solo
+    d([ fis)] d a fis16[ g fis e] d[ e fis g] %10
+    a[ h cis a] \sbOn \tuplet 3/2 8 { d[ e fis } e d] \sbOff \hA cis8 a d4~
     d16[ e d h] e4~ e16[ d e fis] g8 g,
     fis h8.[( e,16] a8.[ d,16]) g4 fis8
     e16([ d)] e8 r4 r2
-    r8 \mvTr d'\f^\tuttiE h e cis a fis'([ d)] %15
+    r8 \mvTr d'\fE^\tuttiE h e cis a fis'([ d)] %15
     h h a4 a2
     a4 r r2
     R1\fermata \bar "|." %18 finis
@@ -514,7 +514,7 @@ B-XXVIBenedictusSoprano = {
     \key h \phrygian \time 4/4 \autoBeamOff \tempoB-XXVIBenedictus
     R1*9 \noBreak
     R1\fermata \bar "||" %10
-    \key d \major \time 3/2 \tempoB-XXVIOsanna \newSpacingSection
+    \time 3/2 \tempoB-XXVIOsanna \newSpacingSection
       R1.*8 %18
     \mvTr g'2\fE^\tuttiE a1
     g2 c1 %20
@@ -567,7 +567,7 @@ B-XXVIAgnusSoprano = {
     R1*2
     r2 \mvTr d'4.\fE^\tutti d8
     h h4 d8 d([ c)] c d
-    d a d4.( cis16[ h] cis4) \noBreak %15
+    d a d4.( cis16[ h] \hA cis4) \noBreak %15
     d2 r\fermata \bar "||"
     \tempoB-XXVIDona d16[(\trill c d8)] e16([\trill d e8)] r8 c16([ h] c8) d \noBreak
     h g g'8.[ fis16] e8 d4 cis8
@@ -579,11 +579,11 @@ B-XXVIAgnusSoprano = {
     a( d4 h8) g e'( d4)
     d r r2 %25
     r g,16([\trill f g8)] a16([\trill g a8)]
-    r8 f16([ e] f8) g e c r4
+    r8 f16([ e] \hA f8) g e c r4
     r2 d'16([\trill c d8)] e16([\trill d e8)]
     c16([\trill h c8)] d16([\trill c d8)] h16[ a h g] c[ h c a]
     d[ c d h] e[ d e c] a8 h a4 %30
-    h8 d( e16[ d)] e8 r cis( d16[ cis)] d8
+    h8 d( e16[ d)] e8 r cis( d16[ \hA cis)] d8
     r h( c16[ h] c4) h8 a4
     h r r2\fermata \bar "|." %33 finis
   }

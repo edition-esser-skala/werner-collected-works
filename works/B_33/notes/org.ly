@@ -1,13 +1,13 @@
 \version "2.24.0"
 
-B-XLKyrieOrgano = {
+B-XXXIIIKyrieOrgano = {
   \relative c {
     \clef bass
     \key a \major \time 4/4 \tempoB-XXXIIIKyrie
     \mvTr a'8\pE-\solo cis gis e a gis16 fis e8 d
     cis fis h, e a, a'16 gis fis8 e16 d
     cis8 fis h, e a, a'4 gis8
-    fis e dis4 e8 dis cis gis'
+    fis e dis4 e8 \hA dis cis gis'
     a cis h h, e e' cis a %5
     gis cis fis, h e, e'16 d! cis8 d
     a4. gis8 a fis cis d
@@ -27,6 +27,7 @@ B-XLKyrieOrgano = {
     a,4 r r2 \noBreak
     a'8-\conPedale fis d e a,4 r\fermata \bar "||"
     \key a \minor \time 3/4 \tempoB-XXXIIIChriste \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
       \mvTr a2\pE-\solo a'4 \noBreak
     gis4. e8 c a
     f' d e4 e, %25
@@ -66,7 +67,7 @@ B-XLKyrieOrgano = {
   }
 }
 
-B-XLKyrieBassFigures = \figuremode {
+B-XXXIIIKyrieBassFigures = \figuremode {
   r4 \bo <[6]>2.
   <6>4 <7>8 q r2
   <6>4 <7>8 q2 \bc <[6]>8
@@ -114,8 +115,8 @@ B-XLKyrieBassFigures = \figuremode {
   <_+>2. %45
   r2 \bo <[6 _]>4 <5> <6> <5> <6>2
   r4 <6> <6 4> <2> <6> <5> <6>2
-  <\l>2. \once \bassFigureExtendersOn \bc <[\l _]>4 <6>2 \bo <[5]>
-  <6>2. \bassFigureExtendersOff q4 <6> <5> <6>2
+  r1 <6>
+  \bo <[6]>1 <6>4 <5> <6>2
   r2. <2>4 <6> <5> <6>2 %50
   r1.. <7>4
   r2 <6>4 <5> q1
@@ -125,12 +126,12 @@ B-XLKyrieBassFigures = \figuremode {
   <6>4 <5> <6 4> \bc <[5 3]> r1 %56 finis
 }
 
-B-XLGloriaOrgano = {
+B-XXXIIIGloriaOrgano = {
   \relative c {
     \clef bass
     \key a \major \time 4/4 \tempoB-XXXIIIGloria
     \mvTr a'8.\fE-\tutti a,16 a4 r2
-    a'8. a,16 a4 e8 e' gis e
+    a'8. a,16 a4 << { e'8^\vlne e gis e } \\ { e,8_\org e' gis e } >>
     a, a' gis e a e cis a
     e' e, r4 r2
     cis'8 cis cis cis d! r eis r %5
@@ -145,9 +146,9 @@ B-XLGloriaOrgano = {
     dis e a, h e, \mvTr e'\fE-\tutti gis e
     a, a'16 g fis8 e d d' cis h %15
     a8. a16 gis8 fis e e' cis a
-    fis d e e, a4 r16 \mvTr a\pE-\solo^\tweak TextScript.X-offset #0 ^\critnote a' g
+    fis d e e, a4 r16 << { a'^\vlne a g } \\ { \mvTr a,\pE-\solo_\org a' g } >>
     fis8 d r16 d d' c h8 g fis d
-    g g, g'4 fis8 d e cis!
+    g g, \hA g'4 fis8 d e cis!
     d4 r d8 g a a, %20
     d4 e8 g fis4 r8 fis
     h, e cis a d d' h g
@@ -156,7 +157,7 @@ B-XLGloriaOrgano = {
     h4 r8 h' g4 a!8 cis, %25
     d d'4 fis,16 d cis8 fis h, e
     a fis cis d e h cis a
-    d cis h16 h' a g fis8 h16 g a8 a,
+    d cis h16 h' a g fis8 h16 \hA g a8 a,
     d fis\fE g e' fis, d' e,16 d cis h \noBreak
     a8 d16 g, a4 d, r\fermata \bar "||" %30
     \key a \minor \tempoB-XXXIIIQuiTollis
@@ -171,13 +172,13 @@ B-XLGloriaOrgano = {
     e4 f e a,
     e2 a4 r %40
     r8 \mvTr a'\pE-!-\solo-\tasto e-! c-! a4-! r
-    r2 r8 a'16.-! e32-! c!8-! a-!
+    r2 r8 a'16.-! e32-! cis?8-! a-!
     e4-! r r2
     r r8 \mvTr a\fE-\tutti cis e
-    a4 f?8 d h h' g e %45
-    h2 e4 \mvTr g8\pE-\solo e
+    a4 fis8 d h h' gis e %45
+    h2 e4 \mvTr gis8\pE-\solo e
     dis4 h e r
-    gis e a f! \noBreak
+    gis e a fis \noBreak
     dis8 dis dis dis \tempoB-XXXIIIQuiSedes e4 r8 \mvTr e\fE-\tuttiE
     \key a \major a e cis e a, a r a' \noBreak %50
     d a fis a d, d r h
@@ -196,7 +197,9 @@ B-XLGloriaOrgano = {
     e a-\tutti e e, a a'4 e8
     a, a'4 e8 a e cis a \noBreak %65
     e'4 r8 e-\conPedale a e cis a
-    \time 3/4 \tempoB-XXXIIIAmen e' \clef treble << {
+    \time 3/4 \tempoB-XXXIIIAmen
+      \once \override Staff.TimeSignature.style = #'single-digit
+      e' \clef treble << {
       h'' e cis4 a8 \noBreak
       r fis fis' d4 h8
       e8. d16 cis8
@@ -216,7 +219,7 @@ B-XLGloriaOrgano = {
   }
 }
 
-B-XLGloriaBassFigures = \figuremode {
+B-XXXIIIGloriaBassFigures = \figuremode {
   r1
   r
   r4 \bo <[6]>2 \bc q4
@@ -263,9 +266,9 @@ B-XLGloriaBassFigures = \figuremode {
   r2 r8 <_+>4. \once \bassFigureExtendersOn
   q4 \bo <[6]> <5\+ _+> <6> %45
   <5\+ 4>4 \bc <[\t] _+>2.
-  \bo <[6 _+]>4 <5\+ _+>2.
-  <6>4 \bc <[_+ _]>2.
-  <7 5 [_+]>2 \bo <[_+]>
+  \bo <[6 _+]>4 <5\+ _+> <_+>2
+  <6> <_+>4 \bc <[5\+ _]>
+  <7\\ 5 [_+]>2 \bo <[_+]>
   r8 <5> <6> <5> r2 %50
   r8 <5> <6> \bc <[5]>2 <_+>8
   r <_+> \bo <[6]> <_+> r2
@@ -287,16 +290,16 @@ B-XLGloriaBassFigures = \figuremode {
   r
   r2 \bo <[4]>8 \bc <[3]>
   r2 r8 <_+> %70
-  \bo <[\t]> <6>4 \bc <[6]>8 <6 5> <_+>
-  r2 r8 <[5]>
-  <6>2 r8 <[5]>
-  <6>2 r8 \bo <[5]>
-  <6>4 \bc <[6]> <5> %75
+  r \bo <[6]>4 \bc q8 <6 5> <_+>
+  r2.
+  <6>
+  q
+  \bo <[6]>4 \bc q <5> %75
   <4>8 <3> r2
   <[6 5]>2. %77 finis
 }
 
-B-XLCredoOrgano = {
+B-XXXIIICredoOrgano = {
   \relative c {
     \clef bass
     \key a \major \time 3/2 \tempoB-XXXIIICredo
@@ -333,7 +336,7 @@ B-XLCredoOrgano = {
     e2 gis e
     a ais fis
     h,4 h' a gis fis e
-    dis h cis dis e2
+    dis h cis \hA dis e2
     a h h, %35
     e2. e4 d! cis
     h a gis2 e
@@ -415,14 +418,12 @@ B-XLCredoOrgano = {
       \mvTr a,4-!\fE-\tutti a'-!~ a16 h-! a8-! gis-! fis-! \noBreak %110
     e-! d-! cis-! h-! a4-!
     << {
-      s4
-      e' e'~ e16 fis e8 dis cis
-      h a gis fis
+      a'4~_!
+      a8 gis16 fis
     } \\ {
-      a4~-!
-      a8 gis16 fis gis8 e a cis h a
-      gis fis e d!
-    } >> cis d cis h
+      s4 e
+    } >> gis8 e a cis h a
+    gis fis e d cis d cis h
     a4 h cis8 fis e d
     cis cis' h a gis a gis fis %115
     e \clef treble << {
@@ -441,7 +442,7 @@ B-XLCredoOrgano = {
   }
 }
 
-B-XLCredoBassFigures = \figuremode {
+B-XXXIIICredoBassFigures = \figuremode {
   r1.
   r
   r1 <[6]>2
@@ -461,38 +462,38 @@ B-XLCredoBassFigures = \figuremode {
   r2. <[6]>4 <6>2
   r <4> <3>
   r1 \bo <[8] 6>4 \bc <[7] 5>
-  r2. \bo <[\t]>4 <6> q %20
-  r2 \bc <[6]>1
+  r1 \bo <[6]>4 \bc q %20
+  r1.
   r2 <5>2. <6>4
   r1 \bo <[8] 6>4 \bc <[7] 5>
   r1 \bo <[7 5]>4 \bc <[8 6]>
   <6>1 <5>4 <6> %25
   r1.
   r
-  \bo <[_+]>
-  r1 <6>2
+  r
+  r1 \bo <[6]>2
   r1 <6>4 <6> %30
   r1.
-  r2 <6> \bc <[_+]>
-  <_+> <\t>4 \bo <[6]> \bc <[5]> <6>
+  r2 \bc <[6]>1
+  <_+>2 <\t>4 <[6]>2 <6>4
   <[6]>2 <6>4 <\t>2.
   r2 <6 4> <5 _+> %35
   r1 r4 \bo <[6]>
-  <_!> <6> q2 <8>4 \bc <[7]>
+  <_!> <6> \bo <[6]>1
   r1.
   <4>4 <3> r2 <7>
-  r \bo <[6 _]> <5> %40
-  r2. <\t>4 <6> q
-  r2. <\t>4 <6> <6 _!>
-  r2. <\t>4 <5> <\t>
-  \bc <[6 5]>2 <4> <3>
+  r \bo <[6 _]> <7> %40
+  r1 <6>4 q
+  r1 <6>4 \bc <[6 _!]>
+  r1.
+  r2 <4> <3>
   r1. %45
   r4 <3> <[6\\] 4\+ 2> <6>
   r <6\\> <_+>2
   <6!>4 <7 5 [_+]> <_+> <_!>8 <6 [_!]>
   r2. <6>4
-  <7 _+> <6 4> \bo <[5] 4> \bc <[\t] _!> %50
-  <[5\+] _+> <[6]> \bo <[5\+] 4> \bc <[\t] _+>
+  <7 _+> <6 4> \bo <[5] 4> <\t _!> %50
+  <5\+ _+> <6> <5\+ 4> \bc <[\t] _+>
   <_+>2 r8 <6- _!>4 <[5!] _+>8
   <5>4 <7 5 [_+]> <_+>2
   r2.. q8
@@ -506,7 +507,7 @@ B-XLCredoBassFigures = \figuremode {
   r1
   r8 <_+> <[6]>4 <_+>2
   r q4 <6\\>8 <5!>
-  r <_+> <6> <[6]> <[5] 3>4 <6\\ 4\+> %65
+  r <_+> <6> \bo <[6]> \bc <[5] 3>4 <6\\ 4\+> %65
   <[_+]>1
   r2. <[6]>
   <5>4 <6> <7>1
@@ -525,12 +526,12 @@ B-XLCredoBassFigures = \figuremode {
   <4> <3> <6> <\t> <7> <6\\>
   <_+>2 <6! [5]>4 <[6 5!]> <9 5> <8 6>
   <7> <[_!]> <7> <7 _!> <7!>2
-  <4>4 <3>2. <[_!]>2
+  <4>4 <3>2. <[_+]>2
   <6> q1 %85
   <2>2. <6>
   <6 5>2 q1
   <2>2 <7>4 <6\\>2.
-  \bo <[6 _]>2. <6>8 \bc <[6 _!]> r2
+  <[6]>1.
   <2>4 <[6]> <7> <6!> <4> <3> %90
   <7> <6> <4!> <3> <5 2> <\t \t>
   <7> <6\\> r1
@@ -541,44 +542,45 @@ B-XLCredoBassFigures = \figuremode {
   \bo <[6 _]>4 \bc <[6 _!]> <5> <6> <7 _+>2
   <4>4 <3>2. \bo <[6]>2
   r2 <6>1
-  r4 q2 q <\t>4 %100
-  <6>2 q2. \bc <[6]>4
+  r4 q2 q2. %100
+  q2 q2. \bc <[6]>4
   <7> <7 _+>1 <6>4
   q2 q1
   <5>4 <6\\>1 <6>4
   <7 _+> <[_!]> <4> <_+>2. %105
-  \bo <[\l]>4 \once \bassFigureExtendersOn <\l> \bc <[6]>2. <6>4
+  r2 <[6]>2. <6>4
   \bo <[6]>1 \bc q2
   r <6> <\t>
   r1.
   r1 %110
   r
-  r
-  r2 \bo <[6 _]>8 <6 5> \bc <[6 _]>4
+  r4 <6> <5>8 <3> <3+> <3>
+  q q q <6> \bo <[6 _]> <6 5> \bc <[6 _]>4
   r <6>8 <5> <[6]> <6> q q
   q2 q %115
   r1
   r2. <[6]>4
   <6> q8 q r4 <[6]>
-  <4> <3>8 <[2]> <6>4 q8 <5>
+  <4> <3> <6> q8 <5>
   r1 %120
   r2 r8 <6> q q
-  r \bo <[\t _]> <6> <6 _!>4 <6>8 <5> <\t>
-  \bc <[6]>4 <6> <4> <3>
+  r4 \bo <[6 _]>8 <6 _!>4 <6>8 <5>4
+  \bc <[6 _]>4 <6> <4> <3>
   r <6>2. %124 finis
 }
 
-B-XLSanctusOrgano = {
+B-XXXIIISanctusOrgano = {
   \relative c {
     \clef bass
     \key a \major \time 3/4 \tempoB-XXXIIISanctus
+      \once \override Staff.TimeSignature.style = #'single-digit
     \mvTr a'4.\fE-\tutti-! a16-! gis-! a8-! h-!
     << { e4. d16 cis d8 e } \\ { gis, fis16 e fis4. gis8 } >>
     a8. gis16 fis8 e16 d cis8 d
     e8. fis16 gis8 a fis gis
     a4 \clef treble << { e''8 d16 cis h8 a } \\ { cis h16 a gis8 fis } >> %5
     \clef "treble_8" e4. d16 cis d8 e
-    \clef bass a,4. g16 fis g8 a
+    \clef bass a,4. g16 fis \hA g8 a
     fis4. e16 d e8 cis
     d fis16 e d8 e fis gis!
     a4 a,8 h cis d %10
@@ -628,7 +630,7 @@ B-XLSanctusOrgano = {
   }
 }
 
-B-XLSanctusBassFigures = \figuremode {
+B-XXXIIISanctusBassFigures = \figuremode {
   r2.
   r
   <8 3>2 <6>8 q
@@ -640,19 +642,19 @@ B-XLSanctusBassFigures = \figuremode {
   r2 <6>8 q
   r4. <6>8 q \bc <[5]> %10
   r2 <6>8 q
-  r4. \bo <[6 _]>8 <6> <6 _!>
-  r4 <\l>4. \once \bassFigureExtendersOn \bc <[\l _]>8
+  r4. \bo <[6 _]>8 <6> \bc <[6 _!]>
+  r2.
   r4 <4> <3>
   r2.*3 %17
   r2.
-  r4 <[6]> <_+>
+  r2 <_+>4
   <6>2. %20
-  r2 \bc <[6]>4
+  r2 <[6]>4
   r <4> <_+>
-  r2 <6!>8 <6>
-  r4 <[6]>2
-  r4 <6>4. <[2]>8 %25
-  <6>4 \bo <[6] 4> \bc <[5] 3>
+  r2 <6[!]>8 <6>
+  r2.
+  r4 <6>2 %25
+  q4 \bo <[6] 4> \bc <[5] 3>
   r2.
   r
   r
@@ -660,15 +662,15 @@ B-XLSanctusBassFigures = \figuremode {
   r
   r
   <6>
-  \bo <[4]>8 <3> \bc <[6]>2
+  \bo <[4]>8 \bc <[3]> r2
   r2 <6\\>8 <_+> %35
-  <6> <8> <7> <6!> <5>4
+  <6> <8> <7> <6[!]> <5>4
   r8 <8> <7> <6> <5>4
   <_+>8 <6>4 \bo <[6]>8 \bc <[6\\]> <_+>
-  <6>4 <[6]> <4>8 <_+>
+  <6>2 <4>8 <_+>
   r2. %40
   r2 <\t>4
-  <6>4. <_+>4 \once \bassFigureExtendersOn q8
+  <6>4. <_+>
   <[6]>2 <\t>4
   \bo <[6]> <6>2
   <6>4 \bc <[6]>2 %45
@@ -677,23 +679,23 @@ B-XLSanctusBassFigures = \figuremode {
   r2. %48 finis
 }
 
-B-XLBenedictusOrgano = {
+B-XXXIIIBenedictusOrgano = {
   \relative c {
     \clef bass
     \key a \major \time 4/4 \tempoB-XXXIIIBenedictus
     \mvTr e8\pE-\solo e' a, h e, e' gis, a
     h a gis fis e gis16 fis e dis cis h
     ais8 h fis' fis, h h' e, fis
-    h, h' a! gis fis e16 dis cis8 dis
+    h, h' a! gis fis e16 dis cis8 \hA dis
     e gis dis e h h'16 a gis8 fis %5
     e d cis h a a'16 gis fis8 e
     dis16 h' gis e h'8 h, e\fE fis gis a
     h cis dis h e, a h h,
-    e4 r8 h-\tasto e,4 r\fermata \markOsannaDaCapo \bar "||" %9 finis
+    e4 r8 \mvTr h\pE-\tasto e,4 r\fermata \markOsannaUtSupra \bar "||" %9 finis
   }
 }
 
-B-XLBenedictusBassFigures = \figuremode {
+B-XXXIIIBenedictusBassFigures = \figuremode {
   r4 <6 5>8 <_+>4. <6>8 q
   <_+>1
   <6 5>8 <[_+]> <4> <_+> q4 <6 5>8 <_+>
@@ -705,7 +707,7 @@ B-XLBenedictusBassFigures = \figuremode {
   r1 %9 finis
 }
 
-B-XLAgnusOrgano = {
+B-XXXIIIAgnusOrgano = {
   \relative c {
     \clef bass
     \key a \major \time 4/4 \tempoB-XXXIIIAgnus
@@ -722,7 +724,7 @@ B-XLAgnusOrgano = {
     a r r8 \mvTr ais4\fE-\tutti ais8
     h2 r8 his4 his8
     cis2 r
-    a4 r8 a' gis gis gis gis
+    a!4 r8 a' gis gis gis gis
     a4 a, r2 %15
     r8 dis dis dis e r e r \noBreak
     e-\tasto r e e, e4 r\fermata \bar "||"
@@ -759,7 +761,7 @@ B-XLAgnusOrgano = {
   }
 }
 
-B-XLAgnusBassFigures = \figuremode {
+B-XXXIIIAgnusBassFigures = \figuremode {
   r2 <6>4. <8 6>8
   <6>1
   <4 2>2 <7 _+>
@@ -768,38 +770,38 @@ B-XLAgnusBassFigures = \figuremode {
   r2 <6\\>
   r <6>4 <\t>
   <6> <\t> <_+>2
-  \bo <[6]>4 <_+> q \bc <[6]>
+  \bo <[6]> \bc <[_+]>
   r2 <4>4 <3> %10
   r2 r8 <7! 5>4.
   r2 r8 <7! 5 [_+]>4.
   <_+>1
   <[5!]>2 <5>
-  <9 4>4 <8 3>2. %15
-  r8 <6>4 <[5]>8 r2
+  <9 4>8 <8 3>2.. %15
+  r8 <6>2..
   r1
-  r8 <\l>2 \once \bassFigureExtendersOn q8
+  r4 <\t> q
   <6 5>2.
-  \bo <[6]> %20
+  <[6]> %20
   r
-  r4. <5> \bassFigureExtendersOn
-  q4 \bc <[5]>8 \bassFigureExtendersOff <6> <4> <3>
+  r
+  r8 <\t> <[6]> <6> <4> <3>
   r4 \bo <[6]>4. <6>8
   r4 <6> \bc <[6]> %25
   r <6> <5>8 <6>
   r <4> <_+> r4.
-  r4 \bo <[6]>8 <5> <\t> \bc <[6]>
+  r4 \bo <[6]>8 <5>4 \bc <[6]>8
   <6 5>4 <_+>8 r4.
-  r8 <\l>2 \once \bassFigureExtendersOn q8 %30
+  r4 <\t> q %30
   <6 5>2.
   <[6]>
   r
-  <6>8 <[_+]>4 <_+>4.
+  <6>4. <_+>
   r2. %35
   <_+>4 <6> <4>8 <_+>
   r2 r8 <[6!]>
   r <4> <3> r4 \bo <[6]>8
-  r4 <6>4. q8
-  q4 \once \bassFigureExtendersOn \bc <[6]>4 <6>8 q %40
+  r4 <6>4. \bc <[6]>8
+  r2 <6>8 q %40
   r2.
   r
   r1

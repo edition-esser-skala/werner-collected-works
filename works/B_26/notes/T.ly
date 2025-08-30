@@ -4,7 +4,7 @@ B-XXVIKyrieTenore = {
   \relative c' {
     \clef "treble_8"
     \key g \major \time 3/4 \autoBeamOff \tempoB-XXVIKyrie
-    r4 \mvTr h4.\fE^\tuttiE d8
+    r4 \mvTr h4.\fE^\tutti d8
     d4 r8 a a([ d)]
     d4 r8 d h([ d)]
     c r r e cis([ e)]
@@ -18,8 +18,8 @@ B-XXVIKyrieTenore = {
     d4 r8 d h([ d)]
     c r r e cis([ e)]
     d4 d d
-    d8 h16[ g]~ g[ e c' a]~ a[ fis d' h]~ %25
-    h[ g e' c] d8.([ c32 h] a4)\trill
+    d8([ h16 g)] g[ e c' a]~ a[ fis d' h]~ %25
+    h[ g e' c] d8.([\trill c32 h] a4)\trill
     h r d8([ c16 e)]
     d4 d r\fermata \bar "|." %28 finis
   }
@@ -40,7 +40,7 @@ B-XXVIKyrieTenoreLyrics = \lyricmode {
   son, e -- lei --
   son, e -- lei --
   son, Ky -- ri --
-  e e -- %25
+  e __ e -- %25
   lei --
   son, e --
   lei -- son. %28 finis
@@ -52,8 +52,8 @@ B-XXVIGloriaTenore = {
     \key g \major \time 4/4 \autoBeamOff \tempoB-XXVIGloria
     \mvTr h4\fE^\tutti r8 a h h r a
     h h r d d d d d
-    d8. d16 d4 r2
-    d8 e f e16([ d)] e8 d c e
+    d8. d,16 d4 r2
+    d'8 e f e16([ d)] e8 d c e
     d4. e8 d2 %5
     d4 r r2
     r r8 h c h16([ a)]
@@ -67,12 +67,12 @@ B-XXVIGloriaTenore = {
     r2 \mvTr d4\pE^\solo d16([ e)] fis8
     h, g' fis e \tuplet 3/2 8 { fis16([ e d)] } d8 r4
     d8.[( e32 fis] g16[ d]) h([ g)] e'[ c8 a16] d[ h8 g16]
-    c8 d16 e \appoggiatura e8 d8. c16 h8 d c16([ d)] e8
+    c8 d16 e d8.\trill c16 h8 d c16([ d)] e8
     a,16([ g)] a8 d8. c16 h([ c)] d([ a)] g8.\trill g16 %25
     fis4 r r2
     r r8 a4 d8
     c!16([ h)] c8 r4 r8 h4 e8
-    dis16([ cis?)] dis8 r4 r8 h([ e)] d
+    dis16([ cis)] \hA dis8 r4 r8 h([ e)] d
     c8.([ h16)] a8([ g)] fis( g4 fis8) %30
     g4 r r2
     R1*2 \noBreak
@@ -118,7 +118,7 @@ B-XXVIGloriaTenore = {
     h8 g d' c16 h c8 e a, d %90
     h g r a([ fis)] d r4
     r8 c'!([ h)] g \once \tieDashed g2~
-    g4. a8 a g16([ a] h8) a \noBreak
+    g4. a8 a g16([ a] \once \stemUp h8) a \noBreak
     h4( e) a, r\fermata \bar "||"
     \tempoB-XXVIAmen R1 \noBreak %95
     r2 r4 d~
@@ -127,7 +127,7 @@ B-XXVIGloriaTenore = {
     R1
     r2 r4 h~ %100
     h8 g c4. h8 e4
-    d8 g, c4.( h16[ a] h8) g
+    d8 g, c4.( h16[ a] \once \stemUp h8) g
     r2 r8 h4 g8
     c([ a d h] e4) d
     h8 c a4 h8 h([ c a)] %105
@@ -229,13 +229,13 @@ B-XXVICredoTenore = {
     r4 r \mvTr d8.\pE^\solo c16
     h8 g a16([ d)] d([ c)] h8 e %15
     cis? fis d16([ fis)] e d cis([\trill h)] a([\trill g)]
-    fis8 d'16([ a)] h8 e16([ h)] cis8 fis16([ cis)]
-    \sbOn \tuplet 3/2 8 { d[( e d } cis d]) \sbOff e([ cis)] a([ g)] fis8 fis16 g
-    a8 \tuplet 3/2 8 { h16([ cis d)] } cis([ d)] e8 d8([ e)]
+    fis8 d'16([ a)] h8 e16([ h)] cis8 fis16([ \hA cis)]
+    \sbOn \tuplet 3/2 8 { d[( e d } cis d]) \sbOff e([ \hA cis)] a([ g)] fis8 fis16 g
+    a8 \tuplet 3/2 8 { h16([ cis d)] } \hA cis([ d)] e8 d8([ e)]
     fis16([ d)] h([ e)] \appoggiatura d8 cis4\trill d %20
     R2.*3
     r4 r8 \mvTr d\fE^\tutti d4
-    e8 d c4 h8 c^\critnote %25
+    e8 d c4 h8 c %25
     h h h16([ a)] a8 a a16 a
     a4 a r
     r8 e' cis a d4
@@ -305,7 +305,7 @@ B-XXVICredoTenore = {
     R1*2
     c'4 d8([ c16 h)] c8 c d c16([ h)]
     c([ d)] c h a8[ d16 c] h[ g e' d] c8[ d] %120
-    h c f,[ g] a16[ g f e] d8[ g]
+    h c f,[ g] a16[ g \hA f e] d8[ g]
     c,4 r r2
     R1
     d'4 e8([ d16 c)] h8 d a d,
@@ -414,7 +414,7 @@ B-XXVISanctusTenore = {
     \key g \major \time 4/4 \autoBeamOff \tempoB-XXVISanctus
     r4 \mvTr g4.\fE^\tutti a8[ h c]
     d4. c8 h4 a8([ h)]
-    cis4 d cis4. dis8
+    cis4 d \hA cis4. dis8
     e e,4 fis16[ g] a!4. d8
     h4. h8 a4 a8 a %5
     a4 a a4. a8
@@ -423,7 +423,7 @@ B-XXVISanctusTenore = {
     d([ fis)] d a fis d r a'\pE
     d([ a)] fis a fis d r4 %10
     R1*3
-    r4 r8 \mvTr d'\fE^\tuttiE h e cis a
+    r4 r8 d'\fE h e cis a
     d d, r4 a' d %15
     e4. d8 cis d d([ cis)]
     d4 r r2
@@ -455,7 +455,7 @@ B-XXVIBenedictusTenore = {
     \key h \phrygian \time 4/4 \autoBeamOff  \tempoB-XXVIBenedictus
     R1*9 \noBreak
     R1\fermata \bar "||" %10
-    \key d \major \time 3/2 \tempoB-XXVIOsanna \newSpacingSection
+    \time 3/2 \tempoB-XXVIOsanna \newSpacingSection
       \mvTr g2\fE^\tutti a1 \noBreak
     g2 c1
     h2 e1

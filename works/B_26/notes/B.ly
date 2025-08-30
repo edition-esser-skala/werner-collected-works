@@ -6,17 +6,17 @@ B-XXVIKyrieBasso = {
     \key g \major \time 3/4 \autoBeamOff \tempoB-XXVIKyrie
     r4 \mvTr g'4.\fE^\tutti g,8
     d'4 r8 d d'([ d,)]
-    g4 r8 g g([ h,)]
-    c r r a' a([ cis,)]
+    g4 r8 g, g'([ h,)]
+    c r r a a'([ cis,)]
     d4 r8 d'4 d,8 %5
     g4 g4. g8
     c, c' d([ c d d,)]
     g4 r r
     R2.*11 %19
-    r4 \mvTr g4.\fE^\tutti g,8 %20
+    r4 \mvTr g4.\fE^\tuttiE g,8 %20
     d'4 r8 d d'([ d,)]
     g4 r8 g g([ h,)]
-    c^\critnote r r a' a([ cis,)]
+    c4 r8 a' a([ cis,)]
     d4 r8 d'4 d,8
     g g, c[ a d h] %25
     e[ a] fis g d4
@@ -54,20 +54,20 @@ B-XXVIGloriaBasso = {
     h g r d' g d h g
     d'8. d16 d4 r2
     h'8 g a h c([ h)] a([ g)]
-    fis d g c, d([ c] d4) %5
+    fis d g c, d([ c] \once \stemUp d4) %5
     g, r r2
     r r8 e' c d
     g,4 r r2
     r d'8 h' g a
     d,4 r r2 %10
     R1*2
-    r4 r8 a d h' g a
+    r4 r8 a' d, h' g a
     d,4 r r2
     R1 %15
-    \mvTr h'8.[\pE^\solo ais32 gis?] fis16[ e d cis] d8. cis16 h8 d'
-    g,16([ a)] h8 a,([ g')] fis fis16([ g] a[ h)] c!8
-    dis,([ c')] h([ a)] g16[ h32 a g16 fis] e[ g32 fis e16 d]
-    c[ c'32 h a16 g] fis[ a32 g fis16 e] dis[ h'] g e h4\trill
+    \mvTr h'8.[\trill\pE^\solo ais32 g] fis16[ e d cis] d8. \hA cis16 h8 d'
+    g,16([ a)] h8 a8.([\trill g16)] fis8 fis16([ g] a[ h)] c!([ e,)]
+    dis8([ c')] h([ a)] g16[ h32 a g16 fis] e[ g32 fis e16 d]
+    c[ c'32 h a16 g] fis[ a32 g fis16 e] dis[ h'] g e h4
     e r r2 %20
     R1*13 \noBreak %33
     R1\fermata \bar "||"
@@ -126,7 +126,7 @@ B-XXVIGloriaBassoLyrics = \lyricmode {
   Et in ter -- ra, in
   ter -- ra, in ter -- ra pax ho --
   mi -- ni -- bus
-  bo -- nae vo -- lun -- ta -- tis, __
+  bo -- nae vo -- lun -- ta -- tis,
   bo -- nae vo -- lun -- ta -- %5
   tis.
   Lau -- da -- mus
@@ -221,7 +221,7 @@ B-XXVICredoBasso = {
     b([ a)] a4 b8 f d f
     h, h r4 c'8 g es g
     cis,2 d8 d' d, c'?
-    h g g,([ f'!)] es c' c, b'
+    h g g,([ f'!)] es! c' c, b'
     a f f,([ es'!)] d d' b f %50
     g e g4.( fis8) fis4
     es'!4. es8 fis,4 d'
@@ -243,7 +243,7 @@ B-XXVICredoBasso = {
     g, g' g,
     c c e
     g g, r
-    r8 c'[ h c] a[ h g a] f[ g e f] %70
+    r8 c'[ h c] a[ h g a] f[ g e \hA f] %70
     d2 r h'4( a)
     gis a8 a e4( d e2)
     a, r r
@@ -280,7 +280,7 @@ B-XXVICredoBasso = {
     e16[ d c h] c8 d h16([ g e' d] c8[ d)] %115
     h g'16([ fis] g8) a fis16([ d h' a] g8) a
     fis([ g c,! d)] e e([ fis g)]
-    d4 e8 a4 g!8 f16[ e f d]
+    d4 e8 a4 g!8 f16[ e \hA f d]
     e8[ a d, g] c, a'16([ g] f8[ g)]
     c,4 r r2 %120
     R1*2
@@ -403,7 +403,7 @@ B-XXVISanctusBasso = {
     d([ a)] fis a fis d r a'\pE
     d([ a)] fis a fis d r4 %10
     R1*3
-    r8 \mvTr a'\fE^\tuttiE fis h g e a([ fis)]
+    r8 a'\fE fis h g e a([ fis)]
     d h e cis a fis' d([ h')] %15
     g e([ cis)] d a'([ d,] a4)
     d r r2
@@ -443,7 +443,7 @@ B-XXVIBenedictusBasso = {
     a,[ cis fis, a] d,[ d' h d] g,[ h e, g] fis[ ais] cis fis,
     d([ h' g e] fis8.) fis16 h,4 r \noBreak
     R1\fermata \bar "||" %10
-    \key d \major \time 3/2 \tempoB-XXVIOsanna \newSpacingSection
+    \time 3/2 \tempoB-XXVIOsanna \newSpacingSection
       R1.*6 %16
     \mvTr d2\fE^\tutti e1
     d2 g2. fis4
@@ -505,7 +505,7 @@ B-XXVIAgnusBasso = {
     h4 h8 a gis gis gis4
     a a' fis!8 fis fis4
     e2 r8 c4 c8
-    f4 d a' f %5
+    f4 d a' \hA f %5
     c'8.([ h16)] a8([ g)] fis4 e
     a, h e2
     R1*5 %12
@@ -520,7 +520,7 @@ B-XXVIAgnusBasso = {
     d r r2
     r g16([\trill fis g8)] a16([\trill g a8)]
     r fis16([ e] fis8) g r e([ fis)] g
-    d4( e8[ a)] e e f16[ e f d] %25
+    d4( e8[ a)] e e f16[ e \hA f d] %25
     e8[ d16 c] d4 c r
     r2 r4 g'16([\trill fis g8)]
     a16([\trill g a8)] e([ fis)] g4 c,8([ c')]

@@ -7,7 +7,7 @@ B-XXVIKyrieOrgano = {
     \mvTr g8\fE-\tutti g'~ g16 d h d g, d' h g
     d'4 r8 d d' d,
     g, g'~ g16 d h d g, d' h g
-    c8 a'~ a16 e cis e a, e' cis a
+    c8 a'~ a16 e cis e a, e' \hA cis a
     d8 d'~ d16 a fis a d, a' fis d %5
     g, h' g d h g' d h g h d g
     c,8 c' d c d d,
@@ -26,7 +26,7 @@ B-XXVIKyrieOrgano = {
     \mvTr g8\fE-\tutti g'~ g16 d h d g, d' h g %20
     d'4 r8 d d' d,
     g, g'~ g16 d h d g, d' h g
-    c8 a'~ a16 e cis e a, e' cis a
+    c8 a'~ a16 e cis e a, e' \hA cis a
     d8 d'~ d16 a fis a d, a' fis d
     g, h' g e c c' a fis d d' h g %25
     e e' c a fis d h g' d8 d,
@@ -36,34 +36,34 @@ B-XXVIKyrieOrgano = {
 }
 
 B-XXVIKyrieBassFigures = \figuremode {
+  r4. <\t>4 q8
   r2.
-  r
   r
   r8 <_+> r2
   r2. %5
   r
   r8 <6> <6 4>8 <[5]> <6 4> <5 3>
   r2.
-  r4 \bo <[6 4]>2 \once \bassFigureExtendersOn
-  \bc q2. %10
-  <_+>2 <7 _+>4
+  r
+  r %10
+  <_+>4. q8 <7 [_+]>4
   r2.
   r
   r2 <6>4
   <9>8 <8> r2 %15
-  <4>8 <3> \bo <[6]>4. \once \bassFigureExtendersOn \bc q8
-  <6>8 <6 [_!]> r8. <[6]>4 <6>16
-  q4 <5> <6 4>8 <5 3>
+  <4>8 <_+> <[6]>2
+  <6>8 <6 [_!]> r8. \bo <[6]>4 \bc q16
+  q4 <5> <6 4>8 <5 _+>
   r2.
-  r %20
-  r
+  r4. <\t>4 q8 %20
+  r2.
   r
   r8 <_+> r2
   r2.
   r %25
-  r4 \bo <[6]>8 \bc q <4> <3>
-  r2 \bo <[6]>8 <6>
-  <4> \bc <[3]> r2 %28 finis
+  r4 \bo <[6]>8 \bc q <4> <_+>
+  r2 r8 <[6]>
+  <4> <_+> r2 %28 finis
 }
 
 B-XXVIGloriaOrgano = {
@@ -76,9 +76,9 @@ B-XXVIGloriaOrgano = {
     \clef bass h, g a h c h a g
     fis d g c, d c d d, %5
     g4 r8 d'-\solo g,4 r
-    r2 g'8-\tuttiE e c d
+    r2 g'8-\tutti e c d
     g,4 r r2
-    r d'8 h' g a
+    r d'8-\tutti h' g a
     d,4 r r2 %10
     R1
     \mvTr d8\pE-\tasto r a' r d, r a r
@@ -164,15 +164,15 @@ B-XXVIGloriaOrgano = {
     e4. fis8 g4. fis8 \noBreak
     e2 d4 r\fermata \bar "||"
     \clef treble \tempoB-XXVIAmen
-      d'4 \clef bass g,4. e8 a fis \noBreak %95
+      d'4-! \clef bass g,4. e8 a fis \noBreak %95
     h8. a16 g8 fis16 e fis4. d8
     g4 e8 a d,4. c!16 d
     h8 g \clef treble << {
-      d''' h e c! fis d
+      d''' h e c! fis d %98
       g g,16 a h8 cis d c16 h c8 dis
       e h e4. dis16 cis?
     } \\ {
-      g4~ g8 e a fis
+      g4~ g8 e a fis %98
       h8._\critnote a16 g8 fis16 e fis8 gis a g16 fis
       g4. fis16 e fis8[ h,]
     } >> \clef "treble_8" h4 %100
@@ -187,10 +187,10 @@ B-XXVIGloriaOrgano = {
 
 B-XXVIGloriaBassFigures = \figuremode {
   r2 \bo <[6]>
-  <6> r8 <3> \bc <[6]>4
+  <6>2. \bc <[6]>4
   r1
   <6>8 q <6!> <6>2 q8
-  q2 <6 4>4 <5 3> %5
+  q2 <6 4>4 <5 _+> %5
   r1
   r2. <6>4
   r1
@@ -198,28 +198,28 @@ B-XXVIGloriaBassFigures = \figuremode {
   r1 %10
   r
   r
-  r4 <4>8 <_+> r4 <6 5>8 <_+>
-  r4. <[5\+]> <_+>4
+  r4 <4>8 <_+>4. <6 5>8 <_+>
+  r4. \bo <[5\+]> \bc <[_+]>4
   r <6 4>8 <5 _+> r <[5\+] _+> <6> <6\\> %15
-  r \bo <[6 _]> <6 _+> <5\+ _+> r8. <6\\>16 \bc <[6 _]>4
-  r8 <6> \bo <[6! _]> <7 _+>2 \bc <[6 _]>8
-  <_+> \bo <[6]> <6> <6\\> r2
-  r2 \bc <[6]>4 <4>8 <_+>
-  r4 <[6!]>2. %20
-  r4 <6 4>8 <5 3>4. <[6]>4
+  r4 \bo <[6 _+]>8 \bc <[5\+ _+]> r2
+  r8 <6> <[6!]>2.
+  <_+>1
+  r2 <[6]>4 <4>8 <_+>
+  r4 \bc <[6!]>4. <\t> %20
+  r4 <6 4>8 <5 _+>4. <[6]>4
   r <6 4>8 <5 _+> r2
-  r2. <7>4
+  r2. <7>8 q
   r8 \bo <[6]> \bc q2 <6>8 <5>
   r2 r8 <[6]> <7> <7 _+> %25
   r4 \bo <[6]>4. \bc q8 <7> q
   r1
   <_!>
-  <_+>4 <6>8 <6\\> r4 <6>8 <6\\>
-  r4 <5> <7> <6 5> %30
+  <_+>4 <6>8 <6\\>4. <6>8 <6\\>
+  r4 <5>8 <\t> <7>4 <6 5> %30
   r1
   r
-  <[6]>4 <6 4>8 <5 3> r4 <5>8 <6>
-  r <[6]>  <6 4> <5 3> r2
+  <[6]>4 <6 4>8 <5 _+>4. <5>8 <6>
+  r <[6]> <6 4> <5 _+> r2
   r2. %35
   <6 _->4 <7 _+> <6 4>8 <5 _+>
   r2.
@@ -229,17 +229,17 @@ B-XXVIGloriaBassFigures = \figuremode {
   <9 4>8 <8 _-> r2
   r2 <7- 5 [_!]>4
   <6 4>8 <5 _+> r2
-  <6!>4 <[5 _-]> <6- \t>
+  <6!>2 <6- [_-]>4
   <7 [5!] _+>2 <6->4 %45
   \bo <[5!] _+> \bc <[6]> <4>8 <_+>
   r2.*6 %52
   r2.
-  <6>2 \bo <[\t]>8 \bc <[5]>
+  <6>2 <[\t _!]>4
   <_+>2. %55
   r2.*3
   r2.. <_+>8
   r q <6> <_+> r2 %60
-  r4. <3>8 r <3> <6> <3>
+  r4. <_+>8 <_!> <_+> <6> <_+>
   r4 <6>8 <[6]> r2
   <_+>4 \bo <[6]>8 \bc q r2
   r2 <6>4 \bo <[6]>
@@ -247,27 +247,27 @@ B-XXVIGloriaBassFigures = \figuremode {
   r4 q <4> \bc <[3]>
   r1
   r2.
-  r4 <6 4> <5 3>
+  r4 <6 4> <5 _+>
   r2. %70
   r
   r
   r2 <[6 5!]>4
-  <5>8 <6> <_+>4 \bo <[6 5]>
-  \bc <[_+ _]>2. %75
+  <5>8 <6> <_+>2
+  r2. %75
   <6\\>
-  r2 <\t>4
-  \bo <[6]>2 <7!>4
-  r2 <6>4
-  \bc <[_+]>2. %80
-  r4 <6 4>8 \bo <[6 5]> \bc <[6 4]> <5 3>
+  r2.
+  \bo <[6]>
+  r2 \bc q4
+  r2. %80
+  r4 <6 4>8 \bo <[6 5]> \bc <[6 4]> <5 _+>
   r2.
   r8 \bo <[6]>4 <6>8 q4
-  r8 \bc <[6]> <6 4> <5 3>4.
+  r8 \bc <[6]> <6 4> <5 _+>4.
   r2. %85
   r
   r2 <7>8 <6> <5>4
-  r2 <6 [4]>4 <9 7 _+>8 \bassFigureExtendersOn <8 6 _+>16 <7 5\+ _+> \bassFigureExtendersOff
-  <[_!]>4 <5>8 <\t> r4 <5>
+  r2 <6>4 <7 _+ 9>8 \bassFigureExtendersOn <6 _+ 8>16 <5\+ _+ 7> \bassFigureExtendersOff
+  <[_!]>4 <5>8 <\t>4. <5>4
   r1 %90
   r4 <_+>2.
   r2 <[6]>8 <6>4 <[6 4]>8
@@ -283,7 +283,7 @@ B-XXVIGloriaBassFigures = \figuremode {
   <2>8 <[6]> <6>4 <4>8 <3>4.
   r2.. <6>8
   r q4 \bo <[6]>4. \bc q4
-  r <4>8 <3> r2 %105
+  r <4>8 <_+> r2 %105
   r1 %106 finis
 }
 
@@ -298,7 +298,7 @@ B-XXVICredoOrgano = {
     g4 e h %5
     c a' fis
     g d d,
-    g r \mvTr e'16\p-\solo h g h
+    g r \mvTr e'16\pE-\solo h g h
     e,4 r e'16 h g' e
     h'4 r h16 h, dis h %10
     e4 e'16 e, g e c' a, c a
@@ -362,14 +362,14 @@ B-XXVICredoOrgano = {
     g,8 d' h d g d h d g, h d g
     e2 c e
     g8 d' c d h c a h g a f g
-    e c' h c a h g a f g e f %70
-    d f e f d e c d h c a h
+    e c' h c a h g a f g e \hA f %70
+    d f e \hA f d e c d h c a h
     gis4 a e' d e e,
     a2 \mvTr c\pE-\solo a
     d f d
     g,! h g %75
     c c' e,
-    f d f
+    f d \hA f
     g \mvTr g,\fE-\tutti h
     c4 h c g' e c
     g'2 g, r4 gis' %80
@@ -397,7 +397,7 @@ B-XXVICredoOrgano = {
     h c d d, g' h16 a g8 \mvTr dis\pE-\solo
     e c' a h g e16 fis g8 e
     a g fis d! g h16 a g8 fis
-    e d16 cis h8 cis d fis cis a
+    e d16 cis h8 \hA cis d fis \hA cis a
     d, d' e fis g4 fis8 h %105
     g e16 fis g a h8 a fis16 d a4
     d8 fis g16 d h g d'8 d' c! h
@@ -405,8 +405,8 @@ B-XXVICredoOrgano = {
     e4. d8 c4. b8
     a a' fis! d a a a a \noBreak %110
     d2 r\fermata \bar "||"
-    \tempoB-XXVIEtVitam \mvTr g4-!\fE-\tuttiE a8-! g16-! fis-! g8 g a g16 fis \noBreak
-    g a g fis e4\trill << {
+    \tempoB-XXVIEtVitam \mvTr g4-!\fE-\tuttiE a8-! g16-! fis-! g8-! g-! a-! g16-! fis-! \noBreak
+    g-! a-! g-! fis-! e4\trill << {
       d' e8 d16 cis
       d8 d e d16 cis d e d c32 h a4 \tweak X-offset #-1.5 \trillE
     } \\ {
@@ -416,7 +416,7 @@ B-XXVICredoOrgano = {
     e16 d c h c8 d h16 g e' d c8 d %115
     h16 a g fis g8 a fis16 d h' a g8 a
     fis g c! d e4 fis8 g
-    d4 e8 a4 g!8 f16 e f d
+    d4 e8 a4 g!8 f16 e \hA f d
     e8 a d, g c,16 h a g f8 g
     c \clef "treble_8" << {
       g''^\critnote a g16 fis! g8 g a g16 fis %120
@@ -424,7 +424,7 @@ B-XXVICredoOrgano = {
       s8 \clef treble c16 d e d e fis! g d c h c4\trill
     } \\ {
       c,16 h a8 d16 c h g e' d c8 d %120
-      h c f, g a16 g f e d8 g
+      h c f, g a16 g \hA f e d8 g
       c, e'16[ d] c8 c'16 a h8 a16 g a g e fis!
     } >>
     \clef bass g,4 a8 g16 fis g8 g a g16 fis
@@ -443,55 +443,55 @@ B-XXVICredoBassFigures = \figuremode {
   r
   r4 <6> \bo <[6]> %5
   r2 \bc q4
-  r <4> <3>
+  r <4> <_+>
   r2.
   r
   <_+> %10
   r2 \bo <[6]>4
   r2 <6>4
   r2.
-  \bc <[6]>2 <4>8 <3>
+  \bc <[6]>2 <4>8 <_+>
   r4 <[6]>4. <6>8 %15
-  <[5] _+> <6 \t> r4 <_+>
+  <_ _+> <6 [\t]>4. <_+>4
   r2 <_+>8 \bo <[5\+]>
   r4 <6>2
   \bc <[6]>4 <_+> <6>8 \bo <[6]>
   r \bc <[6]> <4> <_+>4. %20
   <_+>2 \bo <[6]>4
   r <6>2
-  <6>8 <_+> r2
-  <6>8 \bc <[6]> <4> <3>4.
+  q2.
+  q8 \bc <[6]> <4> <_+>4.
   \bo <[6]>8 <6>4. \bc <[6]>4 %25
-  <_+>8 \bo <[6]> <_+>4 \bc <[6]>
+  <_+>4 <9 [_+]>8 <_+> <[6]>4
   <4>8 <_+> r2
-  <6!>4. <_+>8 \bo <[6]>4
+  <6[!]>4. <_+>8 \bo <[6]>4
   r <6> q
   q q q %30
   \bc <[6]>2.
   r4 <6 5>2
   r2.
   r2 <7\\ 6 4 2>
-  <8 [3]> <7 5> %35
+  <8> <7- 5> %35
   r <4! _->
   <6> <6\\>
   <[5!] _+> <6- _!>
   <7- 5> <_->
   <[5!] _+> <_!> %40
-  r <6>8 <[7-]>4.
+  r <6>8 <5>4.
   \bo <[9] 4>8 <8 _!>4. <9 4>8 \bc <[8] _->4.
   <[5!] _+>1
-  <6>4 <7 5 [_!]> <6 4> <5! _+>
-  <5> <6>8 <6 [_-]>2 <[6 4]>8 %45
+  <6>4 <7 5 [_!]> <6 4> <5[!] _+>
+  <5>8 <6>4 <6 [_-]>2 <[6 4]>8 %45
   r <7- 5>4. <6- 4>8 <5 3>4.
   <7- 5>2 <6- 4>8 <5! 3>4.
-  <7- 5 [_!]>2 <6 4>8 <5! _+>4.
+  <7- 5 [_!]>2 <6 4>8 <5[!] _+>4.
   <_!>2 <_->
   r1 %50
-  <6\\ 5>2 \bo <[7\\] 6 4>8 \bc <[8] 5 _+>4.
+  <6\\ 5->2 \bo <[7\\] 6 4>8 \bc <[8] 5 _+>4.
   <4 2->4 <6> <4\+ 2> <6>
-  <4 2> <6\\>8 <8> \bo <[6]>2
+  <4- 2> <6\\>8 <8> \bo <[6]>2
   <6>4 \bc <[6]>2.
-  <_+>4 <[6]>8 <6>4 <_+>8 \bc <[6]>4 %55
+  <_+>4 \bo <[6]>8 <6>4 <_+>8 \bc <[6]>4 %55
   <_+>1
   r1.
   r
@@ -500,38 +500,38 @@ B-XXVICredoBassFigures = \figuremode {
   <_+>
   r
   \bo <[6]>
-  r1 <6>2
-  r1. %65
-  r2 \bc <[6]> <4>4 <_+>
+  r1.
+  r %65
+  r2 \bc q <4>4 <_+>
   r1.
   <6>
   r
   \bo <[6]> %70
-  \bc <[_!]>2. <6 [4!]>4 <6\\> <6->
+  \bc <[_!]>2. <6 [4!]>4 <6\\> <6>
   <[6]>2 <4> <_+>
   r1.
   \bo <[_!]>
   r %75
-  r1 <6>2
-  r <_!> <6>
+  r
+  r2 <_!>1
   r1.
   r4 <6>2. q2
   r1 r4 q %80
   r q2 <_+>4 \bc <[6]>2
   <_+>1.
   r
-  <[6]>
+  \bo <[6]>
   r2 <6>4 q2. %85
-  \bc <[6]>2 <4> <3>
+  \bc <[6]>2 <4> <_+>
   r1.
   r
   r1 <6 5>2
   r1. %90
-  r4 \bo <[6 _]>8 <_+>4. <6>8 <_+>
+  r4 \bo <[6 _]>2 <6>4
   r4. <6 _!>4 \bc <[6 _]>8 <7> q
   r4 \bo <[6]>8 <6>4 \bc <[6]>8 <7> <_+>
-  r2 <6!>4 \bo <[6 _]>
-  r2 <6 4>8 \bc <[5 3]>4. %95
+  r2 <6!>
+  r2 \bo <[6 4]>8 \bc <[5 3]>4. %95
   <4>8 <3>2..
   <_+>2. \bo <[6!]>4
   r1
@@ -539,31 +539,31 @@ B-XXVICredoBassFigures = \figuremode {
   r4 <6>2. %100
   \bc <[6]>4 <4>8 <_+>2 <[6]>8
   r4 <6\\>8 <_+> <6>2
-  r8 <6> <6!>4 r4. <[6]>8
-  r4 <6>2 \bo <[6]>8 \bc <[_+]>
-  r4 <6!>8 <\t> <5> <6> <7> <_+> %105
+  r8 <6> <6[!]>4 r4. <[6]>8
+  r4 <6>2 <[6]>4
+  r <6!>8 <\t> <5> <6> <7> <_+> %105
   <6>4 <6>8 <_!> <_+> <[6]> <4> <_+>
-  r2. \bo <[6]>4
-  \bc <[_!]> <6>2.
+  r1
+  r4 <6>2.
   <6>4. <_!>2 <[6]>8
   <_+>4 <[6]> <4> <_+> %110
   r1
   r
   r
   r
-  <3>4 <6>8 <3> <[6]>4 <6> %115
+  <3>4 <6>8 <_+> <[6]>4 <6> %115
   <6> q8 <_+> <[6]>4 <6>8 <_+>
   <[6]>4 <6 5> <5>8 <6> <6 5>4
-  <4>8 <3> <7 _+> <3> <2> <6> <3>16 q q <6>
+  <4>8 <_+> <7 _+> <3> <2> <6> <3>16 q q <6>
   q4 \bo <[_!]>8 \bc <[7!]>4. <6>4
   r1 %120
   r8 <8 3> <6>2 \bo <[_!]>8 \bc <[7!]>
   r1
-  <5>8 <6>4. <[5]>8 <6>4.
+  <5>8 <6>2 q4.
   <9>8 <8>2. \bo <[6 _]>8
   r <\tllur>16 <5> <9 7>8 <\tllur>16 \bc <[5 _]> r8 <6>8. \bo <[6]>16 \bc <[6]>8 %125
   r1
-  <4>4 <3>2 <6 5>4
+  <4>4 <_+>2 <6 5>4
   r1 %128 finis
 }
 
@@ -571,7 +571,7 @@ B-XXVISanctusOrgano = {
   \relative c {
     \clef bass
     \key g \major \time 4/4 \tempoB-XXVISanctus
-    \mvTr g4-!\fE-\tuttiE g'2 f8 e
+    \mvTr g4-!\fE-\tutti g'2 f8 e
     d c h a gis4 << { a'8 g } \\ { a,4 } >>
     fis'!8 e d e fis2
     e4. d8 cis4 d
@@ -582,7 +582,7 @@ B-XXVISanctusOrgano = {
     d a fis a fis d r a'\p
     d a fis a fis d r4 %10
     R1*3
-    r8 << { s4 d'8 h e cis4 } \\ { \mvTr a8-!\fE-\tuttiE fis-! h g e a fis } >>
+    r8 << { s4 d'8 h e cis4 } \\ { \mvTr a8^!\fE-\tuttiE fis^! h g e a fis } >>
     d h e cis a fis' d h' %15
     g e cis d a' d, a4
     d8 d' g, e a fis h cis
@@ -593,7 +593,7 @@ B-XXVISanctusOrgano = {
 B-XXVISanctusBassFigures = \figuremode {
   r2. <6 4>8 <6>
   <_!>4. \once \bassFigureExtendersOn q8 <6>8 <5> <3> q
-  <[5\+] _+>4 <6>8 <[7]> <5\+ 4>4 <\t _!>8 <6\\ \t>
+  <[5\+] _+>4 <6>4 <5\+ 4> <\t _!>8 <6\\ \t>
   <4>4 <3> <6 5>2
   <5>4 <6> <_+> \bo <[6]> %5
   <6>8 <_+> \bc <[6]>4 <4> <_+>
@@ -621,9 +621,9 @@ B-XXVIBenedictusOrgano = {
     h fis h e
     a,! d g8 e cis a'
     fis d h g' e cis ais fis
-    h e fis fis, h4\fE fis' \noBreak
+    h e fis fis, h4 fis'\fE \noBreak
     h, e8 fis h,4 r\fermata \bar "||" %10
-    \clef "treble_8" \key d \major \time 3/2 \tempoB-XXVIOsanna \newSpacingSection
+    \clef "treble_8" \time 3/2 \tempoB-XXVIOsanna \newSpacingSection
       \mvTr g'2-!\fE-\tutti a1-! \noBreak
     g2-! c1-!
     h2-! e1-!
@@ -649,7 +649,7 @@ B-XXVIBenedictusOrgano = {
     fis4 g a2 a,
     d \clef treble << { fis' h } \\ { d,1 } >>
     \clef "treble_8" g,2 c! \clef bass c,
-    g'2. fis4 e d %39
+    g'2. fis4 e d %30
     c2. h4 a h8 c
     d2. c4 h2
     c d1
@@ -702,7 +702,7 @@ B-XXVIAgnusOrgano = {
     h4. a8 gis4 gis
     a a' fis!2
     e r8 c4 c8
-    f4 d a' f %5
+    f4 d a' \hA f %5
     c'8. h16 a8 g fis4 e^\critnote
     a, h e~ \mvTr e\pE-\solo
     dis h e2
@@ -728,10 +728,10 @@ B-XXVIAgnusOrgano = {
       d16 e fis d e g fis a
     } >> \clef bass g,16\trill fis g8 a16\trill g a8
     r fis16 e fis8 g r e fis g
-    d4 e8 a e4 f16 e f d %25
+    d4 e8 a e4 f16 e \hA f d %25
     e8 d16 c d4 c \clef treble << {
       a''16\trillE g a8
-      r f16 e f8 g
+      r f16 e \hA f8 g
     } \\ {
       c,16_\trillE h c8
       d16_\trillE c d8 a h

@@ -13,30 +13,30 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \B-XLKyrieSoprano }
+            \new Voice = "Soprano" { \dynamicUp \B-XXXIIIKyrieSoprano }
           }
-          \new Lyrics \lyricsto Soprano \B-XLKyrieSopranoLyrics
+          \new Lyrics \lyricsto Soprano \B-XXXIIIKyrieSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \B-XLKyrieAlto }
+            \new Voice = "Alto" { \dynamicUp \B-XXXIIIKyrieAlto }
           }
-          \new Lyrics \lyricsto Alto \B-XLKyrieAltoLyrics
+          \new Lyrics \lyricsto Alto \B-XXXIIIKyrieAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \B-XLKyrieTenore }
+            \new Voice = "Tenore" { \dynamicUp \B-XXXIIIKyrieTenore }
           }
-          \new Lyrics \lyricsto Tenore \B-XLKyrieTenoreLyrics
+          \new Lyrics \lyricsto Tenore \B-XXXIIIKyrieTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \B-XLKyrieBasso }
+            \new Voice = "Basso" { \dynamicUp \B-XXXIIIKyrieBasso }
           }
-          \new Lyrics \lyricsto Basso \B-XLKyrieBassoLyrics
+          \new Lyrics \lyricsto Basso \B-XXXIIIKyrieBassoLyrics
         >>
-        \new Staff { \B-XLKyrieOrgano }
-        \new FiguredBass { \B-XLKyrieBassFigures }
+        \new Staff { \B-XXXIIIKyrieOrgano }
+        \new FiguredBass { \B-XXXIIIKyrieBassFigures }
       >>
     }
   }
@@ -48,30 +48,30 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \B-XLGloriaSoprano }
+            \new Voice = "Soprano" { \dynamicUp \B-XXXIIIGloriaSoprano }
           }
-          \new Lyrics \lyricsto Soprano \B-XLGloriaSopranoLyrics
+          \new Lyrics \lyricsto Soprano \B-XXXIIIGloriaSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \B-XLGloriaAlto }
+            \new Voice = "Alto" { \dynamicUp \B-XXXIIIGloriaAlto }
           }
-          \new Lyrics \lyricsto Alto \B-XLGloriaAltoLyrics
+          \new Lyrics \lyricsto Alto \B-XXXIIIGloriaAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \B-XLGloriaTenore }
+            \new Voice = "Tenore" { \dynamicUp \B-XXXIIIGloriaTenore }
           }
-          \new Lyrics \lyricsto Tenore \B-XLGloriaTenoreLyrics
+          \new Lyrics \lyricsto Tenore \B-XXXIIIGloriaTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \B-XLGloriaBasso }
+            \new Voice = "Basso" { \dynamicUp \B-XXXIIIGloriaBasso }
           }
-          \new Lyrics \lyricsto Basso \B-XLGloriaBassoLyrics
+          \new Lyrics \lyricsto Basso \B-XXXIIIGloriaBassoLyrics
         >>
-        \new Staff { \B-XLGloriaOrgano }
-        \new FiguredBass { \B-XLGloriaBassFigures }
+        \new Staff { \B-XXXIIIGloriaOrgano }
+        \new FiguredBass { \B-XXXIIIGloriaBassFigures }
       >>
     }
   }
@@ -83,30 +83,30 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \B-XLCredoSoprano }
+            \new Voice = "Soprano" { \dynamicUp \B-XXXIIICredoSoprano }
           }
-          \new Lyrics \lyricsto Soprano \B-XLCredoSopranoLyrics
+          \new Lyrics \lyricsto Soprano \B-XXXIIICredoSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \B-XLCredoAlto }
+            \new Voice = "Alto" { \dynamicUp \B-XXXIIICredoAlto }
           }
-          \new Lyrics \lyricsto Alto \B-XLCredoAltoLyrics
+          \new Lyrics \lyricsto Alto \B-XXXIIICredoAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \B-XLCredoTenore }
+            \new Voice = "Tenore" { \dynamicUp \B-XXXIIICredoTenore }
           }
-          \new Lyrics \lyricsto Tenore \B-XLCredoTenoreLyrics
+          \new Lyrics \lyricsto Tenore \B-XXXIIICredoTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \B-XLCredoBasso }
+            \new Voice = "Basso" { \dynamicUp \B-XXXIIICredoBasso }
           }
-          \new Lyrics \lyricsto Basso \B-XLCredoBassoLyrics
+          \new Lyrics \lyricsto Basso \B-XXXIIICredoBassoLyrics
         >>
-        \new Staff { \B-XLCredoOrgano }
-        \new FiguredBass { \B-XLCredoBassFigures }
+        \new Staff { \B-XXXIIICredoOrgano }
+        \new FiguredBass { \B-XXXIIICredoBassFigures }
       >>
     }
   }
@@ -118,30 +118,30 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \B-XLSanctusSoprano }
+            \new Voice = "Soprano" { \dynamicUp \B-XXXIIISanctusSoprano }
           }
-          \new Lyrics \lyricsto Soprano \B-XLSanctusSopranoLyrics
+          \new Lyrics \lyricsto Soprano \B-XXXIIISanctusSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \B-XLSanctusAlto }
+            \new Voice = "Alto" { \dynamicUp \B-XXXIIISanctusAlto }
           }
-          \new Lyrics \lyricsto Alto \B-XLSanctusAltoLyrics
+          \new Lyrics \lyricsto Alto \B-XXXIIISanctusAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \B-XLSanctusTenore }
+            \new Voice = "Tenore" { \dynamicUp \B-XXXIIISanctusTenore }
           }
-          \new Lyrics \lyricsto Tenore \B-XLSanctusTenoreLyrics
+          \new Lyrics \lyricsto Tenore \B-XXXIIISanctusTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \B-XLSanctusBasso }
+            \new Voice = "Basso" { \dynamicUp \B-XXXIIISanctusBasso }
           }
-          \new Lyrics \lyricsto Basso \B-XLSanctusBassoLyrics
+          \new Lyrics \lyricsto Basso \B-XXXIIISanctusBassoLyrics
         >>
-        \new Staff { \B-XLSanctusOrgano }
-        \new FiguredBass { \B-XLSanctusBassFigures }
+        \new Staff { \B-XXXIIISanctusOrgano }
+        \new FiguredBass { \B-XXXIIISanctusBassFigures }
       >>
     }
   }
@@ -158,18 +158,18 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \B-XLBenedictusSoprano }
+            \new Voice = "Soprano" { \dynamicUp \B-XXXIIIBenedictusSoprano }
           }
-          \new Lyrics \lyricsto Soprano \B-XLBenedictusSopranoLyrics
+          \new Lyrics \lyricsto Soprano \B-XXXIIIBenedictusSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \B-XLBenedictusAlto }
+            \new Voice = "Alto" { \dynamicUp \B-XXXIIIBenedictusAlto }
           }
-          \new Lyrics \lyricsto Alto \B-XLBenedictusAltoLyrics
+          \new Lyrics \lyricsto Alto \B-XXXIIIBenedictusAltoLyrics
         >>
-        \new Staff { \B-XLBenedictusOrgano }
-        \new FiguredBass { \B-XLBenedictusBassFigures }
+        \new Staff { \B-XXXIIIBenedictusOrgano }
+        \new FiguredBass { \B-XXXIIIBenedictusBassFigures }
       >>
     }
   }
@@ -181,30 +181,30 @@
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \B-XLAgnusSoprano }
+            \new Voice = "Soprano" { \dynamicUp \B-XXXIIIAgnusSoprano }
           }
-          \new Lyrics \lyricsto Soprano \B-XLAgnusSopranoLyrics
+          \new Lyrics \lyricsto Soprano \B-XXXIIIAgnusSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \B-XLAgnusAlto }
+            \new Voice = "Alto" { \dynamicUp \B-XXXIIIAgnusAlto }
           }
-          \new Lyrics \lyricsto Alto \B-XLAgnusAltoLyrics
+          \new Lyrics \lyricsto Alto \B-XXXIIIAgnusAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \B-XLAgnusTenore }
+            \new Voice = "Tenore" { \dynamicUp \B-XXXIIIAgnusTenore }
           }
-          \new Lyrics \lyricsto Tenore \B-XLAgnusTenoreLyrics
+          \new Lyrics \lyricsto Tenore \B-XXXIIIAgnusTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \B-XLAgnusBasso }
+            \new Voice = "Basso" { \dynamicUp \B-XXXIIIAgnusBasso }
           }
-          \new Lyrics \lyricsto Basso \B-XLAgnusBassoLyrics
+          \new Lyrics \lyricsto Basso \B-XXXIIIAgnusBassoLyrics
         >>
-        \new Staff { \B-XLAgnusOrgano }
-        \new FiguredBass { \B-XLAgnusBassFigures }
+        \new Staff { \B-XXXIIIAgnusOrgano }
+        \new FiguredBass { \B-XXXIIIAgnusBassFigures }
       >>
     }
   }

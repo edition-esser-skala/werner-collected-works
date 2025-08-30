@@ -11,7 +11,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \B-XLKyrieViolinoII }
+        \new Staff { \B-XXXIIIKyrieViolinoII }
       >>
     }
   }
@@ -21,7 +21,7 @@
     \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \B-XLGloriaViolinoII }
+        \new Staff { \B-XXXIIIGloriaViolinoII }
       >>
     }
   }
@@ -31,7 +31,7 @@
     \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \B-XLCredoViolinoII }
+        \new Staff { \B-XXXIIICredoViolinoII }
       >>
     }
   }
@@ -41,7 +41,7 @@
     \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \B-XLSanctusViolinoII }
+        \new Staff { \B-XXXIIISanctusViolinoII }
       >>
     }
   }
@@ -51,7 +51,7 @@
     \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \B-XLBenedictusViolinoII }
+        \new Staff { \B-XXXIIIBenedictusViolinoII }
       >>
     }
   }
@@ -61,7 +61,7 @@
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \B-XLAgnusViolinoII }
+        \new Staff { \B-XXXIIIAgnusViolinoII }
       >>
     }
   }

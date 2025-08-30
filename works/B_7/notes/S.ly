@@ -5,7 +5,7 @@ B-VIIKyrieSoprano = {
     \clef treble
     \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoB-VIIKyrie
     R1*4
-    \mvTr g'2\fE^\tuttiE c %5
+    g'2 c %5
     a d
     h e4. d8
     c4 h8[ a] h4 d8([ c)]
@@ -47,8 +47,8 @@ B-VIIKyrieSoprano = {
     e8([ d] c2 h4) c2
     e,4 e'2 d4 c2
     c r c,4 c'~ %45
-    c h a4.( h8 c2)
-    h c4( d) e2~
+    c h a4.( h8 c[^\critnote h] c4)
+    h2 c4( d) e2~
     e8[ h e d] cis4 d2 c4
     h2 r e,4 e'~
     e d! c2 h %50
@@ -73,7 +73,7 @@ B-VIIKyrieSopranoLyrics = \lyricmode {
   _ _ _ _
   son, e -- lei -- %15
   son, Ky --
-  ri -- e_e --
+  ri -- e~e --
   lei -- son,
   Ky -- ri -- e e --
   lei -- son, e -- %20
@@ -120,7 +120,7 @@ B-VIICredoSoprano = {
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIICredo
       \set Staff.timeSignatureFraction = 2/2
     R\breve
-    \mvTr g'1(\fE^\tuttiE a)
+    g'1( a)
     h2 c c h
     c4( d e d8[ e]) f2 f
     e e d2.( c8[ h)] %5
@@ -129,7 +129,7 @@ B-VIICredoSoprano = {
     c d2. d4 h2
     r1 r4 d2 h4
     g2 a2. a4 h2 %10
-    gis a2.( gis8[ fis] gis2)
+    gis a2.( \hA gis8[ fis] \hA gis2)
     a c2. c4 h2
     e2. e4 d2. d4
     c2. c4 d2 e
@@ -164,11 +164,11 @@ B-VIICredoSoprano = {
     d4( c h d) c2 g
     c4( h a2) h g
     c h1 a4( gis) \noBreak %45
-    a2( gis4 fis) gis1\fermata \bar "||"
+    a2( gis4 fis) \hA gis1\fermata \bar "||"
     \time 3/2 \tempoB-VIIEtIncarnatus \newSpacingSection
       \unset Staff.timeSignatureFraction
       c2 e2. d4 \noBreak
-    c2.( h4) c( a)
+    c2.( h4) a( c)
     h2 c2. c4
     c1 h2 %50
     c g h4 h
@@ -194,7 +194,7 @@ B-VIICredoSoprano = {
     h1 r2\fermata \bar "||"
     \time 2/1 \tempoB-VIIEtResurrexit \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2
-      r2 g a g \noBreak
+      r2 g a^\critnote g \noBreak
     a1 g2 e'~
     e4 e d2 c1
     h2 c a4( h c d %75
@@ -203,7 +203,7 @@ B-VIICredoSoprano = {
     h c d e~
     e4 d c2 h g
     r1 c2 c %80
-    f,4( g a h) c1
+    f,4( g a \once \stemUp h) c1
     r r4 e,f g
     a e f g8[ a] g2 c
     c2. c4 h2 e~
@@ -214,10 +214,10 @@ B-VIICredoSoprano = {
     d2. d4 g,2 g
     c1 a4( h c d) %90
     e( d) c2 h cis
-    d2. d4 cis cis d2~
+    d2. d4 cis2^\critnote d~
     d4 d cis2 d2. d4
     d2( e) f f,
-    b4( c) b( a) g1 %95
+    b4( c) \hA b( a) g1 %95
     a r
     R\breve
     r2 c1 h!2
@@ -239,10 +239,10 @@ B-VIICredoSoprano = {
     r2 e' e e,
     c'2.( d4 e2 c) %115
     a d cis d4( e)
-    f2 d h c4( d)
+    f2 d h4^\critnote h c d
     e( d) c2 c h
     c1 g
-    a2 g a g~ %120
+    a2 g a( g) %120
     g1 r2 g
     g g g( a)
     g1 r2 c~
@@ -257,7 +257,7 @@ B-VIICredoSoprano = {
     R\breve*5 %136
     r2 c c1
     h2 g e' d4( c)
-    h( c) h a g( f e d)
+    h( c) h( a) g( f) e( d)
     c2 r r c' %140
     c1 h2 g
     e' d4( c) h( c) h( a)
@@ -360,7 +360,7 @@ B-VIICredoSopranoLyrics = \lyricmode {
   glo -- ri -- a iu --
   di -- ca -- %90
   re __ vi -- vos et
-  mor -- tu -- os, et mor --
+  mor -- tu -- os, mor --
   tu -- os, cu -- ius
   re -- gni non
   e -- rit __ fi -- %95
@@ -385,11 +385,11 @@ B-VIICredoSopranoLyrics = \lyricmode {
   et u -- nam
   san -- %115
   ctam ca -- tho -- li --
+  cam et a -- po -- sto -- li --
   cam Ec -- cle -- si --
-  am, Ec -- cle -- si --
   am, u --
-  num ba -- ptis -- ma, __ %120
-  u --
+  num ba -- ptis -- %120
+  ma, u --
   num ba -- ptis --
   ma in __
   re -- mis -- si --
@@ -403,7 +403,7 @@ B-VIICredoSopranoLyrics = \lyricmode {
 
   et vi -- %137
   tam ven -- tu -- ri __
-  sae -- cu -- li, a --
+  sae -- cu -- li, __ a --
   men, et %140
   vi -- tam ven --
   tu -- ri __ sae -- cu --
@@ -419,7 +419,7 @@ B-VIISanctusSoprano = {
     \clef treble
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIISanctus
       \set Staff.timeSignatureFraction = 2/2
-    r2 \mvTr c'2.\fE^\tuttiE h8[ a] h2~
+    r2 c'2. h8[ a] h2~
     h4 a8[ h] c2. h8[ c] d4 c
     h2 c2.( h8_[ a] h2)
     c1 r
@@ -431,9 +431,9 @@ B-VIISanctusSoprano = {
     c h r1 %10
     r2 g2. c4 h a
     g a8[ h] c4( d) e( c) d2
-    d4 e( d c h d) c( d)
-    e2 r r4 e( d c)
-    h h c2.( h8[ a] h2) %15
+    d4 e( d c h8[^\critnote c] d4) c( d)
+    e2 r r4 e( d) c
+    h2^\critnote c2.( h8_[ a] h2) %15
     c4 g c1 c2
     c e f4( c f2)
     e\breve\fermata \bar "|." %18 finis
@@ -454,8 +454,8 @@ B-VIISanctusSopranoLyrics = \lyricmode {
   glo -- _ _ _
   _ _ ri -- a __ tu --
   a, glo -- ri --
-  a, glo --
-  ri -- a tu -- %15
+  a, glo -- ri --
+  a tu -- %15
   a. O -- san -- na
   in ex -- cel --
   sis. %18 finis
@@ -465,17 +465,17 @@ B-VIIBenedictusSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 3/2 \autoBeamOff \tempoB-VIIBenedictus
-    \mvTr c'2.\fE^\tuttiE h4 a2
+    c'2. h4 a2
     g r4 g a8([ g] a4)
     h c2( h4) c c~
     c d g, g a( h
     c8[ h] c2) h4 r g %5
     a h e, fis g2
-    r4 c d e a,( h)
-    c e a,8([ g] a4 h8[ a] h4)
+    r4 c d e a, h
+    c e a,8([ g] a4 h8[ a] \once \stemUp h4)
     c e a,( h2) c4~
     c a h8_[( a] h4 c8[ h] c4) %10
-    d d c2.\trill c4
+    d d c2. c4
     h d g,2. g4
     g2 g fis \noBreak
     g1 r2\fermata \bar "||"
@@ -489,12 +489,12 @@ B-VIIBenedictusSoprano = {
     c4 e d( c)
     h h2 a8([ h)]
     c2.\trill h8[ c]
-    d2. c8[ d]
-    e2. c4 %25
+    d2.\trill c8[ d]
+    e2.\trill c4 %25
     a d2 c8[ h]
-    c4 h8[ c] d4 c8[ d]
+    c4( h8[ c] d4 c8[ d])
     g,4 g2 c4
-    a2.( d4)
+    a8[(^\critnote g] a2 d4)
     g,2 r %30
     R1*3
     g1
@@ -516,7 +516,7 @@ B-VIIBenedictusSoprano = {
     e' c a f~
     f e8[ d] e[ f] g4
     f d d'2~
-    d4 c8[ b] c4 b
+    d4 c8[ b] c4 \hA b
     a f8[ g] a[ h] c4~ %55
     c h8[ a] h2
     c4 g a2~
@@ -549,8 +549,8 @@ B-VIIBenedictusSopranoLyrics = \lyricmode {
   _ nit, qui ve --
   nit, ve -- %5
   nit in no -- mi -- ne,
-  ve -- nit, qui ve --
-  nit, qui ve --
+  ve -- nit in no -- mi --
+  ne, qui ve --
   nit, qui ve -- nit, __
   qui ve -- %10
   nit in no -- mi --
@@ -568,8 +568,8 @@ B-VIIBenedictusSopranoLyrics = \lyricmode {
   cel -- _
   _ _
   _ _ %25
-  _ _ _
-  _ _ _ _
+  sis, in ex --
+  cel --
   sis, in ex --
   cel --
   sis, %30
@@ -591,8 +591,8 @@ B-VIIBenedictusSopranoLyrics = \lyricmode {
   ex -- cel -- sis,
   in ex -- cel -- sis, %50
   in ex -- cel -- _
-  _ _ _
-  _ _ _
+  _ _ sis,
+  in ex -- cel --
   _ _ _
   _ _ _ _ %55
   _ _
@@ -623,7 +623,7 @@ B-VIIAgnusSoprano = {
     \clef treble
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIIAgnus
       \set Staff.timeSignatureFraction = 2/2
-    r2 \mvTr c'2.\fE^\tuttiE h4 a2~
+    r2 c'2. h4 a2~
     a gis a a
     a a4 a a2 h
     c2.( d4) e2 e,4 e
@@ -646,18 +646,18 @@ B-VIIAgnusSoprano = {
     a1 a2 g~
     g fis g h(
     e1) d %25
-    r r4 f,( a h
+    r r4 f,!( a h
     c) g c2.( d4) e( fis)
     g2 g, r1
     R\breve
     r2 f( b1) %30
     a d
-    c2 c( f1)
-    e r4 a,( b) c
-    d2. c4 h h c2~
+    c^\critnote f
+    e r4 a,( b c
+    d2.) c4 h h c2~
     c4 h8[ a] h2 c r %35
-    r1 r4 g a h
-    c a c2. h4 c d
+    r1 r4 g( a h
+    c) a c2.( h4 c d)
     g,1 r4 c( d e
     f) f, f'1 e2
     d c1 h4 a %40
@@ -696,12 +696,12 @@ B-VIIAgnusSopranoLyrics = \lyricmode {
   do -- %30
   na no --
   bis pa --
-  cem, do -- na
-  no -- bis pa -- cem, pa --
+  cem, do --
+  na no -- bis pa --
   _ _ cem, %35
-  do -- _ _
-  _ _ _ _ _ _
-  na, do --
+  do --
+  na no --
+  bis, do --
   na no -- bis
   pa -- _ _ _ %40
   _ cem. %41 finis

@@ -4,17 +4,16 @@ genre: mass
 scoring: S, A, T, B (coro), b, org
 license: cc-by-sa-4.0
 sources:
-  B1:
-    siglum: A-Wn
-    shelfmark: F115.St.Karl.XIII/416
-    url: https://data.onb.ac.at/rec/AC15282245
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.36
+    date: 1756
+    rism: 530001946
+    url: https://copia.oszk.hu/kotta/missa-contrapunctata-in-c/
     license: public domain
     principal: true
 tocstyle: default
 toe: |
-  2 & 162 & T   & 3rd \halfNote\ in \B1: d′ \\
-    & 191 & S   & last \quarterNote\ in \B1: b′4 \\
-    & 192 & A   & 5th \quarterNote\ in \B1: f′4 \\
-    & 213 & S   & 2nd/3rd \quarterNote\ in \B1: d″2 \\
-  3 & 14  & T   & 1st \halfNote\ in \B1: a2 \\
-  5 & 28  & org & bar in \B1: \wholeNoteRest \\
+  3 & 8 & – & tempo indication in org and vlne part of \A1: “Andante”;
+              \newline in B: “Vivace”; in S, A, T: missing \\
+  5 & 14  & org & 2nd \wholeNote\ in \A1: \wholeNoteRest \\

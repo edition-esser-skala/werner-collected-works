@@ -12,7 +12,7 @@
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \B-XLKyrieOrgano }
+        \new Staff { \B-XXXIIIKyrieOrgano }
       >>
     }
   }
@@ -21,7 +21,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \B-XLGloriaOrgano }
+        \new Staff { \B-XXXIIIGloriaOrgano }
       >>
     }
   }
@@ -30,7 +30,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \B-XLCredoOrgano }
+        \new Staff { \B-XXXIIICredoOrgano }
       >>
     }
   }
@@ -39,7 +39,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \B-XLSanctusOrgano }
+        \new Staff { \B-XXXIIISanctusOrgano }
       >>
     }
   }
@@ -49,7 +49,7 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \B-XLBenedictusOrgano }
+        \new Staff { \B-XXXIIIBenedictusOrgano }
       >>
     }
   }
@@ -58,7 +58,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \B-XLAgnusOrgano }
+        \new Staff { \B-XXXIIIAgnusOrgano }
       >>
     }
   }

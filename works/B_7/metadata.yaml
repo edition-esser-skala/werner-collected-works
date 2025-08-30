@@ -5,10 +5,53 @@ scoring: S, A, T, B (coro), b, org
 license: cc-by-sa-4.0
 sources:
   A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.20
+    rism: 530001930
+    url: https://copia.oszk.hu/kotta/missa-in-c-4/
+    license: public domain
+    principal: true
+    notes: parts
+  A2:
     siglum: A-Wn
     shelfmark: Mus.Hs.15584 (1)
     rism: 600101286
     url: https://data.onb.ac.at/dtl/5429893
     license: public domain
-    principal: true
+    notes: full score
 tocstyle: default
+toe: |
+  – & –     & –   & Differences in the lyrics of \A1 and \A2
+                    are not explained in detail. \\
+  1 & 36    & B   & 2nd \halfNote\ in \A2: G2 \\
+    & 46    & S   & 3rd \halfNote\ in \A2: c″2 \\
+    & 52    & B   & bar in \A2: e2–e1 \\
+  2 & 2     & A   & 1st \halfNote\ in \A2: e′2 \\
+    & 36    & A   & 6th \quarterNote\ in \A2: d′4 \\
+    & 49    & A   & 2nd \halfNote\ in \A2: e′2 \\
+    & 65    & A   & 2nd \halfNote\ in \A2: e′2 \\
+    & 72    & S   & 3rd \halfNote\ in \A1: g′2 \\
+    & 72    & A   & 1st \wholeNote\ in \A2: \halfNoteRest–e′2 \\
+    & 84    & A   & 3rd \halfNote\ in \A2: g′2 \\
+    & 92    & S   & 3rd \halfNote\ in \A2: \sharp c″4–\sharp c″4 \\
+    & 100   & A   & 1st \wholeNote\ in \A2: f′1 \\
+    & 114   & B   & 2nd \halfNote\ in \A2: A2 \\
+    & 117   & S   & 3rd \halfNote\ in \A2: b′2 \\
+    & 126   & T   & 1st \wholeNote\ in \A2: d′2–d′2 \\
+  3 & 13    & S   & 5th \quarterNote\ in \A2: b′2 \\
+    & 14    & B   & 5th \quarterNote\ in \A2: e2 \\
+    & 15    & S   & 1st \halfNote\ in \A2: b′4–b′4 \\
+  4 & 4     & A   & 2nd \halfNote\ in \A2: e′4–e′4 \\
+    & 29    & S   & 1st to 3rd \quarterNote\ in \A2: a′2. \\
+    & 32    & B   & 1st \halfNote\ in \A1: g4–f4 \\
+    & 49–51 & org & bars in \A2: F4–c′4–d′2, \flat b4–d′4–e′2,
+                    and c′4–e′4–f′2 \\
+    & 62–64 & A   & bars in \A2: c′4–a′2–f′4, d′4–b′2–g′4,
+                    and e′4–c″2–a′4 \\
+    & 74    & B   & bar in \A2: G1 \\
+    & 75    & T   & 2nd/3rd \quarterNote\ in \A2: c′4–c′4 \\
+  5 & 5     & org & 2nd \halfNote\ in \A2: a4–a4 \\
+    & 22    & org & 5th \quarterNote\ of lower voice in \A1: e′4 \\
+    & 25    & T   & 2nd \halfNote\ in \A2: b2 \\
+    & 31    & T   & 3rd \halfNote\ in \A2: \flat b4–c′4 \\
+    & 32    & S   & 1st \wholeNote\ in \A2: c″2–c″2 \\

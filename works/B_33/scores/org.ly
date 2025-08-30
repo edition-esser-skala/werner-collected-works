@@ -12,8 +12,8 @@
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \B-XLKyrieOrgano }
-        \new FiguredBass { \B-XLKyrieBassFigures }
+        \new Staff { \B-XXXIIIKyrieOrgano }
+        \new FiguredBass { \B-XXXIIIKyrieBassFigures }
       >>
     }
   }
@@ -22,8 +22,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \B-XLGloriaOrgano }
-        \new FiguredBass { \B-XLGloriaBassFigures }
+        \new Staff { \B-XXXIIIGloriaOrgano }
+        \new FiguredBass { \B-XXXIIIGloriaBassFigures }
       >>
     }
   }
@@ -32,8 +32,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \B-XLCredoOrgano }
-        \new FiguredBass { \B-XLCredoBassFigures }
+        \new Staff { \B-XXXIIICredoOrgano }
+        \new FiguredBass { \B-XXXIIICredoBassFigures }
       >>
     }
   }
@@ -42,8 +42,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \B-XLSanctusOrgano }
-        \new FiguredBass { \B-XLSanctusBassFigures }
+        \new Staff { \B-XXXIIISanctusOrgano }
+        \new FiguredBass { \B-XXXIIISanctusBassFigures }
       >>
     }
   }
@@ -53,8 +53,8 @@
     \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \B-XLBenedictusOrgano }
-        \new FiguredBass { \B-XLBenedictusBassFigures }
+        \new Staff { \B-XXXIIIBenedictusOrgano }
+        \new FiguredBass { \B-XXXIIIBenedictusBassFigures }
       >>
     }
   }
@@ -63,8 +63,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \B-XLAgnusOrgano }
-        \new FiguredBass { \B-XLAgnusBassFigures }
+        \new Staff { \B-XXXIIIAgnusOrgano }
+        \new FiguredBass { \B-XXXIIIAgnusBassFigures }
       >>
     }
   }

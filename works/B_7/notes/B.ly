@@ -4,12 +4,12 @@ B-VIIKyrieBasso = {
   \relative c {
     \clef bass
     \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoB-VIIKyrie
-    r2 \mvTr c\fE^\tuttiE
+    r2 c
     f d
     g e
     a4.( g8 f4) g8([ f)]
     e[ f e d] c[ a a' g] %5
-    fis[ g fis e] d[ h h' a]
+    fis[ g \hA fis e] d[ h h' a]
     g[ a g fis] e[ d c h]
     a4 d g,2
     R1*3 %11
@@ -36,8 +36,8 @@ B-VIIKyrieBasso = {
     d[ e d c] h[ c h a]
     g4 c g2
     c r4 c %35
-    f( c g2) \noBreak
-    c r\fermata \bar "||"
+    f( c g'2)^\critnote \noBreak
+    c, r\fermata \bar "||"
     \key a \minor \time 3/2 \tempoB-VIIChriste \newSpacingSection
       R1. \noBreak
     a4 a'2 g4 f2(
@@ -53,8 +53,8 @@ B-VIIKyrieBasso = {
     h4 e h2 e
     r a,4 a'2 g4 %50
     f2 e e
-    e e1
-    e a,2
+    e1^\critnote e2
+    e1 a,2
     a'2.( g4) f2
     e1 r2\fermata \markKyrieUtSupra \bar "||" %55 finis
   }
@@ -120,7 +120,7 @@ B-VIICredoBasso = {
     \clef bass
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIICredo
       \set Staff.timeSignatureFraction = 2/2
-    r2 \mvTr a'\fE^\tuttiE f g4( f)
+    r2 a' f g4( f)
     e( d) c( h) a2 d
     g, r f'! g4( f)
     e( d) c h a2. h4
@@ -171,8 +171,8 @@ B-VIICredoBasso = {
     r2 h h
     g'1 e2
     a2. g4 f e
-    d2.( c4 h a)
-    g2 g'4 f e( d) %60
+    \once \stemUp d2.( c4 h a)
+    g2 g'4 f e d %60
     c2 c'4 h a g
     f e d1
     c c2
@@ -180,7 +180,7 @@ B-VIICredoBasso = {
     d cis( d) %65
     a a'( f)
     d g( e)
-    c f( d)
+    c! f( d)
     h e c
     gis a2. a4 \noBreak %70
     e'1 r2\fermata
@@ -220,8 +220,8 @@ B-VIICredoBasso = {
     g d r d %110
     e2. e4 a2 gis
     a e r1
-    f2. e4 d( e) f2
-    e a, e'1
+    f2. e4 d e f2
+    e a^\critnote e1
     a, r %115
     R\breve*2
     r2 a' f g
@@ -308,8 +308,8 @@ B-VIICredoBassoLyrics = \lyricmode {
   fi -- xus
   e -- ti -- am pro
   no --
-  bis, e -- ti -- am %60
-  pro no -- _ _ _
+  bis, e -- ti -- am pro %60
+  no -- _ _ _ _
   _ _ _
   bis, sub
   Pon -- ti -- o
@@ -354,7 +354,7 @@ B-VIICredoBassoLyrics = \lyricmode {
   ra -- tur et %110
   con -- glo -- ri -- fi --
   ca -- tur,
-  qui lo -- cu -- tus
+  qui lo -- cu -- tus est
   per Pro -- phe --
   tas, %115
 
@@ -395,7 +395,7 @@ B-VIISanctusBasso = {
     \clef bass
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIISanctus
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr c2.\fE^\tuttiE h8[ c] d2. c8[ d]
+    c2. h8[ c] d2. c8[ d]
     e2. d8[ e] f2. e8[ f]
     g4 f e d8[ c] d1
     c f2. d4
@@ -408,11 +408,11 @@ B-VIISanctusBasso = {
     r r4 c( d f
     e d) c( h) c( a) d2
     g,1 r
-    r4 a'( g f e c h a)
-    g2 c g'1
+    r4 a' g f e8[^\critnote d] c4 h4 a
+    g2 c g'1 %15
     c,2 r4 c f2. e4
     f2 c a'( f)
-    c\breve\fermata \bar "|."
+    c\breve\fermata \bar "|." %18 finis
   }
 }
 
@@ -430,7 +430,7 @@ B-VIISanctusBassoLyrics = \lyricmode {
   glo --
   ri -- a __ tu --
   a,
-  glo --
+  glo -- _ _ _ _ _ _
   ri -- a tu -- %15
   a. O -- san -- na
   in ex -- cel --
@@ -442,7 +442,7 @@ B-VIIBenedictusBasso = {
     \clef bass
     \key c \major \time 3/2 \autoBeamOff \tempoB-VIIBenedictus
     R1.
-    r2 r \mvTr f~\fE^\tuttiE
+    r2 r f~
     f4 e d2 c
     r c2. h4
     a2 g r %5
@@ -451,7 +451,7 @@ B-VIIBenedictusBasso = {
     c r r
     r4 c d8(_[ c] d4 e8[ d] e4)
     f2 r4 f e2 %10
-    d4 d e8([ d] e4 fis8[ e] fis4)
+    d4 d e8([ d] e4 fis8[ e] \hA fis4)
     g2 r4 e h2
     c4 c d2. d4 \noBreak
     g,1 r2\fermata \bar "||"
@@ -461,7 +461,7 @@ B-VIIBenedictusBasso = {
     d
     e %30
     f2. f4
-    g4. f8 e4 d8[ c]
+    g4.^\critnote f8 e4 d8[ c]
     d1
     g,4 g'2 e4
     c a a' fis %35
@@ -500,8 +500,8 @@ B-VIIBenedictusBasso = {
     f!( d2 f4)
     g2 e4 c'
     h g e c
-    g1
-    c4 c' g2 %75
+    g2.^\critnote g4
+    c c' g2 %75
     c, r\fermata \bar "|." %76 finis
   }
 }
@@ -564,8 +564,8 @@ B-VIIBenedictusBassoLyrics = \lyricmode {
   cel --
   sis, in ex --
   cel -- sis, in ex --
-  cel --
-  sis, ex -- cel -- %75
+  cel -- sis,
+  in ex -- cel -- %75
   sis. %76 finis
 }
 
@@ -574,7 +574,7 @@ B-VIIAgnusBasso = {
     \clef bass
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIIAgnus
       \set Staff.timeSignatureFraction = 2/2
-    r1 \mvTr f2.\fE^\tuttiE e4
+    r1 f2. e4
     d2( e) a,1
     R\breve*3 %5
     r1 a'2. g!4
@@ -583,8 +583,8 @@ B-VIIAgnusBasso = {
     d es( c) d
     g c, f1 %10
     e r2 a~
-    a g! c,( c'4 b)
-    a2 e f1
+    a g! c, c'4( b
+    a2) e f1
     c2 cis d2.( c4
     h!2) c a1~ \noBreak %15
     a g\fermata \bar "||"
@@ -599,20 +599,20 @@ B-VIIAgnusBasso = {
     R\breve %25
     c1 f
     e a
-    r4 g( a h c g) c( b)
+    r4 g( a h c g c) b
     a( g) f2 c1
     f, r2 g( %30
     d'1) b
     f'2. e4 d1
-    c r4 f( g) a
-    b( f) b( a) g2 c,
+    c r4 f( g a
+    b f) \hA b( a) g2 c,
     g1 c2 r %35
     r4 f( a h! c2.) h4
     a1 g2 r
     r4 c,( d e f2.) e4
     d2. c4 h2 c
-    g' e4 c g'1 %40
-    g, c\fermata \bar "|." %41 finis
+    g' e4( c) g'1( %40
+    g,) c\fermata \bar "|." %41 finis
   }
 }
 
@@ -626,8 +626,8 @@ B-VIIAgnusBassoLyrics = \lyricmode {
   di: Mi -- se --
   re -- re no -- %10
   bis. A --
-  gnus De --
-  i, qui tol --
+  gnus De -- i, __
+  qui tol --
   lis pec -- ca --
   ta mun -- %15
   di:
@@ -640,20 +640,20 @@ B-VIIAgnusBassoLyrics = \lyricmode {
   na no -- bis
   pa -- cem,
   %25
-  do -- _
-  _ na,
-  do -- na __
+  do -- na
+  no -- bis,
+  do -- na
   no -- bis pa --
   cem, do -- %30
   na
   no -- bis pa --
-  cem, do -- na
-  no -- bis pa -- cem,
+  cem, do --
+  na __ no -- bis
   pa -- cem, %35
   do -- na
   no -- bis,
   do -- na
   no -- bis pa -- cem,
-  pa -- _ _ _ %40
-  _ cem. %41 finis
+  no -- bis pa -- %40
+  cem. %41 finis
 }

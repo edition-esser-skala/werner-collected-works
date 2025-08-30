@@ -4,12 +4,12 @@ B-VIIKyrieOrgano = {
   \relative c {
     \clef bass
     \twotwotime \key c \major \time 2/2 \tempoB-VIIKyrie
-    << { r4 g'2 c4 } \\ { \mvTr r2\fE-\tuttiE c, } >>
+    << { r4 g'2 c4 } \\ { r2 c, } >>
     f d
     g e
     a4. g8 f4 g8 f
     e f e d c a a' g %5
-    fis g fis e d h h' a
+    fis g \hA fis e d h h' a
     g a g fis e d c h
     a4 d g,2
     \clef "treble_8" g' c
@@ -85,8 +85,8 @@ B-VIIKyrieBassFigures = \figuremode {
   r2 <6 5>
   <6> q %5
   q <6 [_+]>
-  <6>2 \bo <[6]>4. <6>8
-  \bc <[7]>4 <_+>2.
+  <6>2 \bo <[6]>4. \bc q8
+  <7>4 <_+>2.
   r1
   r2 <_+> %10
   <5\+>1
@@ -141,7 +141,7 @@ B-VIICredoOrgano = {
     \clef bass
     \key c \major \time 2/1 \tempoB-VIICredo
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr c2\fE-\tuttiE a' f g4 f
+    c2 a' f g4 f
     e d c h a2 d
     << { g } \\ { g, } >> a'4 g f!2 g4 f
     e d c h a f a h
@@ -218,7 +218,7 @@ B-VIICredoOrgano = {
     a e\fermata \bar "||"
     \clef "treble_8" \time 3/2 \tempoB-VIIEtIncarnatus \newSpacingSection
       \unset Staff.timeSignatureFraction
-      a'2^\markup \remark "a 3" c2. h4 \noBreak
+      a'2 c2. h4 \noBreak
     a2. g4 f2
     g e a~
     a4 f g1 %50
@@ -231,10 +231,10 @@ B-VIICredoOrgano = {
     g' e2
     a2. g4 f e
     d2. c4 h a
-    g2 g'4 f e d %60
-    c2 <c c'>4 <h h'> <a a'> <g g'>
-    <f f'> <e e'> <d d'>1
-    <c c'> c'2
+    << { g'2. } \\ { g, } >> f'4 e d %60
+    c2. h4 a g
+    f e d1
+    c c'2
     g'2. g4 e2
     d cis d %65
     a a' f
@@ -317,7 +317,7 @@ B-VIICredoOrgano = {
     e a1 f2
     c'2. h4 a g a2 %130
     g g-! g1-!
-    e2-! c-! \parOn a'-\parenthesize-! g4-! \parOff f-\parenthesize-!
+    e2-! c-! a'-! g4-! f-!
     << {
       r2 c' c1
       h2 g e' d4 c
@@ -326,7 +326,7 @@ B-VIICredoOrgano = {
       g f e d c c' h a
     } >>
     g a g f e f e d %135
-    c h a g f g a h
+    c b a g f g a h
     c d c h a1
     g2 \clef treble << { g''2 e' } \\ { e,4 d c2 } >> \clef bass g2
     g1 e2 c
@@ -496,14 +496,14 @@ B-VIISanctusOrgano = {
     \clef bass
     \key c \major \time 2/1 \tempoB-VIISanctus
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr c2.\fE-\tuttiE h8 c d2. c8 d
+    c2. h8 c d2. c8 d
     e2. d8 e f2. e8 f
     g4 f e d8 c d1
     c1 f2. d4
     g2 e a f %5
     d g c,1
     d d,
-    g \clef "treble_8" e''2 h
+    << { g2^\org } \\ { g1*1/2_\vlne } >> \clef "treble_8" g'2 e' h
     c \clef bass g e h
     c g \clef "treble_8" << {
       g''4 c h a %10
@@ -547,7 +547,7 @@ B-VIIBenedictusOrgano = {
   \relative c {
     \clef treble
     \key c \major \time 3/2 \tempoB-VIIBenedictus
-    << { \mvTr c''2._\fE_\tuttiE h4 a2 } \\ { r r f } >>
+    << { c''2._! h4_! a2 } \\ { s2 s f } >>
     \clef "treble_8" c2. h4 \clef bass f2~
     f4 e d2 c
     r c2. h4
@@ -557,7 +557,7 @@ B-VIIBenedictusOrgano = {
     c4 \clef treble << { e''4 a,8 g a4 h8 a h4 c } \\ { c, f8 e f4 d8 c d4 e } >>
     \clef bass c, d8 c d4 e8 d e4
     f2 r4 f e2 %10
-    d4 d e8 d e4 fis8 e fis4
+    d4 d e8 d e4 fis8 e \hA fis4
     g2 r4 e h2
     c d d, \noBreak
     g1 r2\fermata \bar "||"
@@ -611,9 +611,9 @@ B-VIIBenedictusOrgano = {
       d' b g g %50
       e' c a a
     } \\ {
-      c,4 d2
-      b4 d e2 %50
-      c4 e f2
+      c,4_\critnote d d
+      b d e e %50
+      c e f f
     } >>
     \clef bass c,1
     d
@@ -727,11 +727,11 @@ B-VIIAgnusOrgano = {
     \clef "treble_8"
     \key c \major \time 2/1 \tempoB-VIIAgnus
       \set Staff.timeSignatureFraction = 2/2
-    \mvTr c'2.\fE-\tutti h4 \clef bass f2. e4
-    d2 e a, \clef "treble_8" f'^\markup \remark "a 3"
+    c'2. h4 \clef bass f2. e4
+    d2 e a, \clef "treble_8" f'
     c' cis d g,
     a4. g8 f2 e1
-    r2 a4 a f'2 e4 dis %5
+    r2 a^\critnote f' e4 dis %5
     e2 e, \clef bass a2. g!4
     c,2. c4 f2 e
     d2. b4 g2 a
@@ -743,7 +743,7 @@ B-VIIAgnusOrgano = {
     c2 cis d2. c4
     h!2 c a1~ \noBreak %15
     a g\fermata \bar "||"
-    \tempoB-VIIDona c1-! f-! \noBreak
+    \tempoB-VIIDona c1 f \noBreak
     << {
       g c %18
       h
@@ -753,7 +753,7 @@ B-VIIAgnusOrgano = {
     } >> e2 a
     d,1 c2. h4 %20
     a1 g
-    \clef treble << { r4 g'' a h c } \\ { \voiceThree e,2. \voiceTwo d4 c } \\ { \voiceTwo c2 } >> \clef bass c,4 d e
+    \clef treble << { r4 g'' a h c } \\ { \voiceThree e,2. \voiceTwo d4 c-\critnote } \\ { \voiceTwo c2 } >> \clef bass c,4 d e
     f c f e d2 e
     c d g, \clef "treble_8" g'
     c1 h %25
@@ -765,7 +765,7 @@ B-VIIAgnusOrgano = {
     d'1 b
     f'2. e4 d1
     c r4 f g a
-    b f b a g2 c,
+    b f \hA b a g2 c,
     g1 c4 \clef "treble_8" << { e' f g a } \\ { c, d e f } >> %35
     \clef bass f, a h! c2. h4
     a1 g4 \clef "treble_8" g a h
@@ -790,11 +790,11 @@ B-VIIAgnusBassFigures = \figuremode {
   <4> <_+>1.
   r1.. <[6]>4
   <6>2 <[6]>1.
-  <5 4>2 \bo <[6 3]>1.
-  \bc <[6 _]>1 <7>2 <6\\>4 <5> %15
+  <5 4>2 <6 3>1.
+  <[6]>1 <7>2 <6\\>4 <5> %15
   <6\\>\breve
-  r
-  r
+  <1>1 q
+  r\breve
   r1 <6>2 <3>
   <5>2. <6>4 r1 %20
   <5>2. <6\\>4 r1

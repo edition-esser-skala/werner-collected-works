@@ -1,22 +1,22 @@
 \version "2.24.0"
 
-markKyrieDaCapo = {
+markKyrieUtSupra = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Kyrie da capo"
+  \mark \markup \remark "Kyrie ut supra"
 }
-markOsannaDaCapo = {
+markOsannaUtSupra = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Osanna da capo"
+  \mark \markup \remark "Osanna ut supra"
 }
 
-tempoB-XXIIIKyrie = \tempoMarkup "[no tempo]"
-  tempoB-XXIIIChriste = \tempoMarkup "[no tempo]"
-tempoB-XXIIICredo = \tempoMarkup "[no tempo]"
+tempoB-XXIIIKyrie = \tempoMarkup "Alla capella"
+  tempoB-XXIIIChriste = \tempoMarkup "[Tempo deest]"
+tempoB-XXIIICredo = \tempoMarkup "[Tempo deest]"
   tempoB-XXIIIEtIncarnatus = \tempoMarkup "Largo"
-  tempoB-XXIIICrucifixus = \tempoMarkup "Lento"
+  tempoB-XXIIICrucifixus = \tempoMarkup "Lente"
   tempoB-XXIIIEtResurrexit = \tempoMarkup "Vivace"
 tempoB-XXIIISanctus = \tempoMarkup "Larghetto"
-  tempoB-XXIIIPleni = \tempoMarkup "Vivace"
+  tempoB-XXIIIPleni = \tempoMarkup "Andante / Vivace"
   tempoB-XXIIIOsanna = \tempoMarkup "Osanna · Vivace"
 tempoB-XXIIIBenedictus = \tempoMarkup "Molto moderato"
 tempoB-XXIIIAgnus = \tempoMarkup "Andante"

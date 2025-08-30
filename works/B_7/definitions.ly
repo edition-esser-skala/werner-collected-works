@@ -5,8 +5,8 @@ markKyrieUtSupra = {
   \mark \markup \remark "Kyrie ut supra"
 }
 
-tempoB-VIIKyrie = \tempoMarkup "Allabreve moderato"
-  tempoB-VIIChriste = \tempoMarkup "[Tempo deest]"
+tempoB-VIIKyrie = \tempoMarkup "Alla capella moderato"
+  tempoB-VIIChriste = \tempoMarkup "Andante"
 tempoB-VIICredo = \tempoMarkup "[Tempo deest]"
   tempoB-VIIEtIncarnatus = \tempoMarkup "Larghetto"
   tempoB-VIIEtResurrexit = \tempoMarkup "[Tempo deest]"
@@ -14,7 +14,7 @@ tempoB-VIISanctus = \tempoMarkup "[Tempo deest]"
 tempoB-VIIBenedictus = \tempoMarkup "[Tempo deest]"
   tempoB-VIIOsanna = \tempoMarkup "Moderato"
 tempoB-VIIAgnus = \tempoMarkup "Moderato"
-  tempoB-VIIDona = \tempoMarkup "[Tempo deest]"
+  tempoB-VIIDona = \tempoMarkup "Vivace"
 
 \include "notes/S.ly"
 \include "notes/A.ly"

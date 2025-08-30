@@ -1,13 +1,13 @@
 \version "2.24.0"
 
-B-XLKyrieSoprano = {
+B-XXXIIIKyrieSoprano = {
   \relative c' {
     \clef treble
     \key a \major \time 4/4 \autoBeamOff \tempoB-XXXIIIKyrie
     \mvTr a'4\pE^\solo e' cis r8 fis
     \sbOn \tuplet 3/2 8 { e16[ fis e } d cis] \tuplet 3/2 8 { d[ e d } cis h] cis8 a r fis'
     \tuplet 3/2 8 { e16[ fis e } d cis] \tuplet 3/2 8 { d[ e d } cis h] \sbOff cis[( d cis d] e8) e,
-    a16[( h] cis4 h16[ a]) gis8 h e[ e,]~
+    a16[( h] \once \stemUp cis4 h16[ a]) gis8 h e[ e,]~
     e[ \tuplet 3/2 8 { a16 gis fis] } \appoggiatura e8 dis4\trill e r %5
     r2 r4 r8 d'!
     \sbOn \tuplet 3/2 8 { cis16[ d cis } h a] \sbOff h4~ h8[ a16 h] cis8 h
@@ -24,6 +24,7 @@ B-XLKyrieSoprano = {
     cis4 r r2 \noBreak
     r8 cis d([ h)] cis4 r\fermata \bar "||"
     \key a \minor \time 3/4 \tempoB-XXXIIIChriste \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
       \mvTr a8([\pE^\solo h)] c([ d)] e([ f)] \noBreak
     e4 e, r
     R2. %25
@@ -63,7 +64,7 @@ B-XLKyrieSoprano = {
   }
 }
 
-B-XLKyrieSopranoLyrics = \lyricmode {
+B-XXXIIIKyrieSopranoLyrics = \lyricmode {
   Ky -- ri -- e e --
   lei -- _ _ son, e --
   lei -- _ son, __ e --
@@ -118,7 +119,7 @@ B-XLKyrieSopranoLyrics = \lyricmode {
   lei -- son. %55 finis
 }
 
-B-XLGloriaSoprano = {
+B-XXXIIIGloriaSoprano = {
   \relative c' {
     \clef treble
     \key a \major \time 4/4 \autoBeamOff \tempoB-XXXIIIGloria
@@ -144,7 +145,7 @@ B-XLGloriaSoprano = {
     d8 h d4~ \tuplet 3/2 8 { d16[ e fis] } e([ d)] cis([\trill h)] a([\trill g)] %25
     \tuplet 3/2 8 { fis16([ e d)] } d8 a' d16 fis \sbOn \tuplet 3/2 8 { e[ fis e } d cis] \tuplet 3/2 8 { d[ e d } cis h]
     \tuplet 3/2 8 { cis[ h cis d cis d] e[ d e fis e fis] g[ fis e d cis h] } \sbOff a8.[\trill g16]
-    fis8 a d16([ e fis g)] \tuplet 3/2 8 { a([ g fis)] g([ fis e)] } d16.([ e32 e8)]\trill
+    fis8 a d16([ e fis g)] \tuplet 3/2 8 { a([ \hA g fis)] \hA g([ fis e)] } d16.([ e32 e8)]\trill
     d4 r r2 \noBreak
     R1\fermata \bar "||" %30
     \key a \minor \tempoB-XXXIIIQuiTollis
@@ -156,7 +157,7 @@ B-XLGloriaSoprano = {
     d c e d
     d2 cis4 d~
     d c h a
-    gis a gis8 gis a4~
+    gis a \hA gis8 gis a4~
     a gis a r %40
     R1*2
     \mvTr e'2\pE^\solo e4( dis)
@@ -164,7 +165,7 @@ B-XLGloriaSoprano = {
     cis8 cis d4 dis e~ %45
     e dis e r
     r2 r8 \mvTr e4\pE^\soloE e16 e
-    e8 h gis e c'4 a \noBreak
+    e8 h gis e cis'?4 a \noBreak
     a2\trill \tempoB-XXXIIIQuiSedes gis8 \mvTr h\fE^\tuttiE e4~
     \key a \major e e r8 e, a4~ \noBreak %50
     a a r8 fis h4~
@@ -177,7 +178,9 @@ B-XLGloriaSoprano = {
     r8 \mvTr cis\fE^\tuttiE cis h cis e16([ d)] cis8 h
     cis e16 d cis8 h cis h a([ cis)] \noBreak %65
     h4 r8 h( cis) h a([ cis)]
-    \time 3/4 \tempoB-XXXIIIAmen h8 h([ e] cis4) a8 \noBreak
+    \time 3/4 \tempoB-XXXIIIAmen
+      \once \override Staff.TimeSignature.style = #'single-digit
+      h8 h([ e] cis4) a8 \noBreak
     r fis([ fis'] d4) h8
     e8.[ d16] cis[ e d cis] h4\trill
     a fis'8.([ e16] dis[ e fis8)] %70
@@ -191,7 +194,7 @@ B-XLGloriaSoprano = {
   }
 }
 
-B-XLGloriaSopranoLyrics = \lyricmode {
+B-XXXIIIGloriaSopranoLyrics = \lyricmode {
   Glo -- ri -- a,
   glo -- ri -- a in ex -- cel -- sis
   De -- o, glo -- ri -- a in ex -- cel -- sis
@@ -259,7 +262,7 @@ B-XLGloriaSopranoLyrics = \lyricmode {
   men. %77 finis
 }
 
-B-XLCredoSoprano = {
+B-XXXIIICredoSoprano = {
   \relative c' {
     \clef treble
     \key a \major \time 3/2 \autoBeamOff \tempoB-XXXIIICredo
@@ -290,7 +293,7 @@ B-XLCredoSoprano = {
     cis a fis( cis') ais( fis)
     dis2. e4 a cis
     h2 a gis4( a8[ h]
-    cis4^\critnote h8[ a]) gis2( fis4.)\trill e8 %35
+    \stemUp \tuplet 3/2 2 { cis4 h a) } \stemNeutral gis2( fis4.)\trill e8 %35
     e2 r r
     R1.*8 \noBreak %44
     R1.\fermata \bar "||" %45
@@ -305,7 +308,7 @@ B-XLCredoSoprano = {
     r8 c c c h8. h16 h4
     r2 r4 r8 cis
     d d e4.( d16[ e)] f8([ e)] %55
-    dis dis e4.( dis16[ cis)] dis4
+    dis dis e4.( \hA dis16[ cis)] \hA dis4
     e r r2
     R1*8 \noBreak %65
     R1\fermata \bar "||"
@@ -313,9 +316,9 @@ B-XLCredoSoprano = {
       \mvTr a,4\fE^\tutti cis2 e4 cis h \noBreak
     a( d2) cis8 cis fis2
     e4 cis2 fis dis4
-    e e2( dis4) e \mvTr e,8([\pE^\solo fis] %70
-    gis4) gis8([ a)] h4 cis8 dis e[( dis)] e4~
-    e \mvTr d8([\fE^\tuttiE cis)] h2 cis
+    e e2( dis4) e e,8([ fis] %70
+    gis4) gis8([ a)] h4 cis8 dis e[( \hA dis)] e4~
+    e d8([ cis)] h2 cis
     r r r4 cis
     d2.( cis4) d d~
     d e d cis r cis~ %75
@@ -361,7 +364,7 @@ B-XLCredoSoprano = {
   }
 }
 
-B-XLCredoSopranoLyrics = \lyricmode {
+B-XXXIIICredoSopranoLyrics = \lyricmode {
   Pa -- trem o -- mni -- po --
   ten -- tem, fa -- cto -- rem
   coe -- li et ter --
@@ -453,10 +456,11 @@ B-XLCredoSopranoLyrics = \lyricmode {
   men. %124 finis
 }
 
-B-XLSanctusSoprano = {
+B-XXXIIISanctusSoprano = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \autoBeamOff \tempoB-XXXIIISanctus
+      \once \override Staff.TimeSignature.style = #'single-digit
     R2.*3
     \mvTr e'4.\fE^\tutti d16[ cis] d8[ e]
     cis a e'[ d16 cis] h8[ a] %5
@@ -474,14 +478,14 @@ B-XLSanctusSoprano = {
     \time 3/4 \tempoB-XXXIIIOsanna R2.*3 %32
     \mvTr a,4\fE^\tuttiE cis4._(\trill h16[ a)]
     e'4 r8 e([ h)] e
-    cis a cis16([ h cis8)] dis16([ cis dis8)] %35
+    cis a cis16([ h cis8)] dis16([ cis \hA dis8)] %35
     e8 e4 d8 d([ cis16 h)]
     cis8 fis4 e8 e([ dis16 cis)]
     dis8 gis e fis4( dis8)
     h e4 cis8 h4
     h8 gis h4._(\trill a16[ gis)] %40
     cis8 a cis4._(\trill h16[ a)]
-    d8 fis16([ e)] dis4.(\trill cis16[ h)]
+    d!8 fis16([ e)] dis4.(\trill cis16[ h)]
     e4 r r
     r8 cis([ h)] e cis a
     r fis'([ e)] a fis8.[\trill e16] %45
@@ -491,7 +495,7 @@ B-XLSanctusSoprano = {
   }
 }
 
-B-XLSanctusSopranoLyrics = \lyricmode {
+B-XXXIIISanctusSopranoLyrics = \lyricmode {
   San -- _ _ %4
   _ ctus, san -- _ %5
   _ ctus,
@@ -522,7 +526,7 @@ B-XLSanctusSopranoLyrics = \lyricmode {
   ex -- cel -- sis. %48 finis
 }
 
-B-XLBenedictusSoprano = {
+B-XXXIIIBenedictusSoprano = {
   \relative c' {
     \clef treble
     \key a \major \time 4/4 \autoBeamOff \tempoB-XXXIIIBenedictus
@@ -530,15 +534,15 @@ B-XLBenedictusSoprano = {
     r8 fis h8.[(\trill cis32 dis] e2)
     e16([ cis)] dis([ e)] cis8.\trill cis16 h4 r
     fis4. gis8 a!([ h)] cis h16([ a)]
-    gis([ fis)] gis8 r4 r8 fis \sbOn h16[ cis \tuplet 3/2 8 { dis cis dis] } \sbOff %5
+    gis([ fis)] gis8 r4 r8 fis \sbOn h16[ cis \tuplet 3/2 8 { dis cis \hA dis] } \sbOff %5
     e4. d8 cis4 r8 e
     h e16 e e8 dis e4 r
     R1
-    R\fermata \markOsannaDaCapo \bar "||" %9 finis
+    R\fermata \markOsannaUtSupra \bar "||" %9 finis
   }
 }
 
-B-XLBenedictusSopranoLyrics = \lyricmode {
+B-XXXIIIBenedictusSopranoLyrics = \lyricmode {
   Be -- ne -- di -- ctus, qui ve -- nit
   in no --
   mi -- ne __ Do -- mi -- ni,
@@ -548,7 +552,7 @@ B-XLBenedictusSopranoLyrics = \lyricmode {
   no -- mi -- ne Do -- mi -- ni. %7 finis
 }
 
-B-XLAgnusSoprano = {
+B-XXXIIIAgnusSoprano = {
   \relative c' {
     \clef treble
     \key a \major \time 4/4 \autoBeamOff \tempoB-XXXIIIAgnus
@@ -556,7 +560,7 @@ B-XLAgnusSoprano = {
     e([ h)] gis e cis4 cis
     r8 cis' e cis ais4 ais
     h8 d d fis eis4 fis~
-    fis8[ eis16 dis?] eis4\trill fis r %5
+    fis8[ eis16 dis?] \hA eis4\trill fis r %5
     R1*5 %10
     r8 \mvTr e,4\fE^\tutti e8 g4 g
     r8 fis4 fis8 a!4 a
@@ -598,7 +602,7 @@ B-XLAgnusSoprano = {
   }
 }
 
-B-XLAgnusSopranoLyrics = \lyricmode {
+B-XXXIIIAgnusSopranoLyrics = \lyricmode {
   A -- gnus De -- i, qui
   tol -- lis pec -- ca -- ta,
   pec -- ca -- ta mun -- di:

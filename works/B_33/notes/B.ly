@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-B-XLKyrieBasso = {
+B-XXXIIIKyrieBasso = {
   \relative c {
     \clef bass
     \key a \major \time 4/4 \autoBeamOff \tempoB-XXXIIIKyrie
@@ -20,6 +20,7 @@ B-XLKyrieBasso = {
     a,4 r r2 \noBreak
     r8 fis' d([ e)] a,4 r\fermata \bar "||"
     \key a \minor \time 3/4 \tempoB-XXXIIIChriste \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
       R2. \noBreak
     r4 r \mvTr a'~\pE^\solo
     a8[ g!16 f] e8([ d)] c([ h)] %25
@@ -41,7 +42,7 @@ B-XLKyrieBasso = {
     r8 e a4. g8
     f4. e8[ d f]
     e4 r8 e a4~
-    a8[ g!] f2 \noBreak
+    a8[ g!] f2\trill \noBreak
     e r4\fermata \bar "||" %45
     \key a \major \time 4/2 \tempoB-XXXIIIKyrieB \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2
@@ -59,7 +60,7 @@ B-XLKyrieBasso = {
   }
 }
 
-B-XLKyrieBassoLyrics = \lyricmode {
+B-XXXIIIKyrieBassoLyrics = \lyricmode {
   Ky -- ri -- %9
   e e -- lei -- _ %10
   _ son, e --
@@ -109,7 +110,7 @@ B-XLKyrieBassoLyrics = \lyricmode {
   lei -- son.
 }
 
-B-XLGloriaBasso = {
+B-XXXIIIGloriaBasso = {
   \relative c {
     \clef bass
     \key a \major \time 4/4 \autoBeamOff \tempoB-XXXIIIGloria
@@ -121,7 +122,7 @@ B-XLGloriaBasso = {
     fis fis fis fis g r ais4
     h8 d16 cis h8 a gis a e4
     a, r r8 \mvTr e'\pE^\solo a4~
-    a8[ gis16 fis] gis4 a8 \mvTr fis\fE^\tuttiE d e
+    a8[ gis16 fis] gis4 a8 \mvTr fis\fE^\tutti d e
     a,4 r r2 %10
     R1*3
     r2 r4 \mvTr gis'8\fE^\tutti e16 e
@@ -148,8 +149,8 @@ B-XLGloriaBasso = {
     r2 \mvTr a'\pE^\solo
     a4( gis) a r
     R1
-    r2 r8 \mvTr a,\fE^\tutti cis? e
-    a4 f8 d h([ h')] g?([ e)] %45
+    r2 r8 \mvTr a,\fE^\tutti cis e
+    a4 fis8 d h([ h')] gis([ e)] %45
     h2 e4 r
     R1*2 \noBreak
     r2 \tempoB-XXXIIIQuiSedes r4 r8 \mvTr e\fE^\tutti
@@ -161,7 +162,7 @@ B-XLGloriaBasso = {
     d cis h g' %55
     e( fis) h, r
     \mvTr d'8.\pE^\solo d,16 d8 d' d d, r d'
-    \tuplet 3/2 8 { cis16([^\critnote h a)] } h8 \tuplet 3/2 8 { a16([ g fis)] } g8 fis16([ d)] fis([ a)] d([ a)] fis([ d)]
+    cis64([ h a16.)] h8 a64([ g fis16.)] \hA g8 fis16([ d)] fis([ a)] d([ a)] fis([ d)]
     a'8. a,16 a4 r8 a' h cis
     d([ d,)] a' c h([ fis)] dis([ h)] %60
     gis'! e r4 a8([ e)] cis([ a)]
@@ -170,7 +171,9 @@ B-XLGloriaBasso = {
     r8 \mvTr a,\fE^\tutti e' e a4. e8
     a, a' a e16 e a8 e cis([ a)] \noBreak %65
     e'4 r8 e( a) e cis([ a)]
-    \time 3/4 \tempoB-XXXIIIAmen e'4 r r \noBreak
+    \time 3/4 \tempoB-XXXIIIAmen
+      \once \override Staff.TimeSignature.style = #'single-digit
+      e'4 r r \noBreak
     R2.
     r4 r r8 e(
     a fis4) d8 r h %70
@@ -184,7 +187,7 @@ B-XLGloriaBasso = {
   }
 }
 
-B-XLGloriaBassoLyrics = \lyricmode {
+B-XXXIIIGloriaBassoLyrics = \lyricmode {
   Glo -- ri -- a,
   glo -- ri -- a in ex -- cel -- sis
   De -- o, glo -- ri -- a in ex -- cel -- sis
@@ -253,7 +256,7 @@ B-XLGloriaBassoLyrics = \lyricmode {
   men. %77 finis
 }
 
-B-XLCredoBasso = {
+B-XXXIIICredoBasso = {
   \relative c {
     \clef bass
     \key a \major \time 3/2 \autoBeamOff \tempoB-XXXIIICredo
@@ -299,7 +302,7 @@ B-XLCredoBasso = {
     g8([ e16 c] g4) c r
     r8 g' c c, g' g d' d,
     a'([ e)] c([ a)] e'4. e8
-    e4. dis8 e e([ fis?)] gis
+    e4. dis8 e e([ fis)] gis
     a8([ e)] c gis a4. a8 \noBreak %65
     e4 r r2\fermata \bar "||"
     \key a \major \time 3/2 \tempoB-XXXIIIEtResurrexit \newSpacingSection
@@ -338,7 +341,7 @@ B-XLCredoBasso = {
     R1.*4 %102
     r4 \mvTr a\pE^\solo h cis d4. d8
     cis4 cis h fis' h fis
-    eis fis fis( eis) fis2 %105
+    eis fis fis( \hA eis) fis2 %105
     R1.*3 \noBreak
     R1.\fermata \bar "||"
     \time 4/4 \tempoB-XXXIIIEtVitam \newSpacingSection
@@ -360,7 +363,7 @@ B-XLCredoBasso = {
   }
 }
 
-B-XLCredoBassoLyrics = \lyricmode {
+B-XXXIIICredoBassoLyrics = \lyricmode {
   Vi -- si -- bi -- li -- um %7
   o -- mni -- um
   et in -- vi -- si --
@@ -457,17 +460,18 @@ B-XLCredoBassoLyrics = \lyricmode {
   men. %124 finis
 }
 
-B-XLSanctusBasso = {
+B-XXXIIISanctusBasso = {
   \relative c {
     \clef bass
     \key a \major \time 3/4 \autoBeamOff \tempoB-XXXIIISanctus
+      \once \override Staff.TimeSignature.style = #'single-digit
     \mvTr a'4.\fE^\tutti a16[ gis] a8[ h]
     gis[ fis16 e] fis4. gis8
     a8.[ gis16] fis8[ e16 d] cis8[ d]
     e8.[ fis16] gis8[ a fis gis]
     a4 r r %5
     R2.
-    a4. g16[ fis] g8[ a]
+    a4. g16[ fis] \hA g8[ a]
     fis4. e16[ d] e8[ cis]
     d fis16([ e] d8[ e fis gis!)]
     a4 a,8[ h cis d] %10
@@ -491,7 +495,7 @@ B-XLSanctusBasso = {
     R2. \noBreak
     R\fermata \bar "||"
     \time 3/4 \tempoB-XXXIIIOsanna R2.*4 %33
-    \mvTr e'4\fE^\tutti gis4.(\trill fis16[ e)]
+    \mvTr e'4\fE^\tuttiE gis4.(\trill fis16[ e)]
     a4 r8 a([ fis)] h %35
     gis e fis4 gis
     a8[( fis] gis4 ais)
@@ -509,7 +513,7 @@ B-XLSanctusBasso = {
   }
 }
 
-B-XLSanctusBassoLyrics = \lyricmode {
+B-XXXIIISanctusBassoLyrics = \lyricmode {
   San -- _ _
   _ _ ctus,
   san -- _ _
@@ -555,7 +559,7 @@ B-XLSanctusBassoLyrics = \lyricmode {
   ex -- cel -- sis.
 }
 
-B-XLAgnusBasso = {
+B-XXXIIIAgnusBasso = {
   \relative c {
     \clef bass
     \key a \major \time 4/4 \autoBeamOff \tempoB-XXXIIIAgnus
@@ -585,7 +589,7 @@ B-XLAgnusBasso = {
     a) h([ h,)] e4 r8
     e([ e')] dis cis([ h16 a)] gis8
     a4( h8) e,4 r8
-    a,([ a')] gis fis([ e16 d)] cis8 %30
+    a,([ a')] gis fis([ e16 d!)] cis8 %30
     d4( e8) a,4 r8
     gis'([ e a)] e4 r8
     gis([\p e a)] e4 r8
@@ -605,7 +609,7 @@ B-XLAgnusBasso = {
   }
 }
 
-B-XLAgnusBassoLyrics = \lyricmode {
+B-XXXIIIAgnusBassoLyrics = \lyricmode {
   A -- gnus De -- i, qui %6
   tol -- lis pec -- ca -- ta, pec --
   ca -- ta __ mun -- di:

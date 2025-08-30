@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-B-XLKyrieAlto = {
+B-XXXIIIKyrieAlto = {
   \relative c' {
     \clef treble
     \key a \major \time 4/4 \autoBeamOff \tempoB-XXXIIIKyrie
@@ -12,7 +12,7 @@ B-XLKyrieAlto = {
     R1*4 %12
     \mvTr e'4.\fE^\tutti e8 e4 r8 e
     fis2( gis)
-    a4 r8 fis eis( fis4 eis8) %15
+    a4 r8 fis eis( fis4 \hA eis8) %15
     fis4 r e4. e8
     e4 r a4. a8
     a a a([ h)] e, e e([ fis)]
@@ -21,6 +21,7 @@ B-XLKyrieAlto = {
     a4 r r2
     r8 a a([ gis)] a4 r\fermata \bar "||"
     \key a \minor \time 3/4 \tempoB-XXXIIIChriste \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
       R2.*22 \noBreak %44
     R2.\fermata \bar "||" %45
     \key a \major \time 4/2 \tempoB-XXXIIIKyrieB \newSpacingSection
@@ -39,7 +40,7 @@ B-XLKyrieAlto = {
   }
 }
 
-B-XLKyrieAltoLyrics = \lyricmode {
+B-XXXIIIKyrieAltoLyrics = \lyricmode {
   Ky -- ri -- e e -- %5
   lei -- _ _ son, e --
   lei -- _ son, __ e --
@@ -68,7 +69,7 @@ B-XLKyrieAltoLyrics = \lyricmode {
   lei -- son. %55 finis
 }
 
-B-XLGloriaAlto = {
+B-XXXIIIGloriaAlto = {
   \relative c' {
     \clef treble
     \key a \major \time 4/4 \autoBeamOff \tempoB-XXXIIIGloria
@@ -85,14 +86,14 @@ B-XLGloriaAlto = {
     r r8 \mvTr fis4\pE^\solo a8
     e([ fis16 gis)] a8 d, cis a'4 a8
     gis([ a] h[ a16 gis)] a8 r r cis
-    fis,16.([ gis32)] e8 e dis e4 \mvTr e8\fE^\tuttiE e16 e
+    fis,16.([ gis32)] e8 e dis e4 \mvTr e8\fE^\tutti e16 e
     e4 a8 g fis d e fis16([ gis)] %15
     a8 a, e'2 e8 e
     cis fis16 fis e4 e r
     R1*2
     r2 r4 \mvTr a8\pE^\solo g16 a %20
     fis([ d)] d'8 cis h ais8. gis16 fis4
-    g4. a16[ g] fis4. g16[ fis]
+    g4. a16[ \hA g] fis4. \hA g16[ fis]
     e4. fis16[ e] d8.[ e16] fis[ e] fis8
     h h, eis4\trill fis r
     R1*5 \noBreak %29
@@ -112,15 +113,15 @@ B-XLGloriaAlto = {
     f([ e] f4)\trill e r
     R1
     r2 r8 \mvTr cis\fE^\tutti e4~
-    e8 a4 f8 r fis g g %45
+    e8 a4 fis8 r \hA fis gis? gis %45
     fis2\trill e8 \mvTr h'4\pE^\solo h16 h
-    h8 fis dis h g'4 e
-    r8 e4 e8 e c c16([ h)] c8 \noBreak
-    c2\trill \tempoB-XXXIIIQuiSedes h4 r8 \mvTr gis'\fE^\tuttiE
+    h8 fis dis h gis'?4 e
+    r8 e4 e8 e cis? cis16([ h)] \hA cis8 \noBreak
+    \hA cis2\trill \tempoB-XXXIIIQuiSedes h4 r8 \mvTr gis'\fE^\tutti
     \key a \major a([ gis)] a gis a a r e \noBreak %50
     fis([ e)] fis e fis fis r fis
     gis([ fis)] e fis gis gis r gis
-    a([ gis)] e^\critnote a gis gis r4
+    a([ gis)] e a gis gis r4
     e e fis fis
     fis e d8([ fis)] h,([ h')] %55
     g4( fis) fis r
@@ -128,7 +129,9 @@ B-XLGloriaAlto = {
     r8 \mvTr a\fE^\tutti a gis a cis16([ h)] a8 gis
     a cis16 h a8 gis a gis a4 \noBreak %65
     gis r8 gis( a) gis a4
-    \time 3/4 \tempoB-XXXIIIAmen gis4 r8 e[ a^\critnote fis]~ \noBreak
+    \time 3/4 \tempoB-XXXIIIAmen
+      \once \override Staff.TimeSignature.style = #'single-digit
+      gis4 r8 e[ a fis]~ \noBreak
     fis d r h[ h' gis]~
     gis e a16([ e] a4 gis8)
     a4 a4.( fis8) %70
@@ -142,7 +145,7 @@ B-XLGloriaAlto = {
   }
 }
 
-B-XLGloriaAltoLyrics = \lyricmode {
+B-XXXIIIGloriaAltoLyrics = \lyricmode {
   Glo -- ri -- a,
   glo -- ri -- a in ex -- cel -- sis
   De -- o, glo -- ri -- a in ex -- cel -- sis
@@ -210,7 +213,7 @@ B-XLGloriaAltoLyrics = \lyricmode {
   men. %77 finis
 }
 
-B-XLCredoAlto = {
+B-XXXIIICredoAlto = {
   \relative c' {
     \clef treble
     \key a \major \time 3/2 \autoBeamOff \tempoB-XXXIIICredo
@@ -218,11 +221,11 @@ B-XLCredoAlto = {
     a([ gis)] a2 cis4 h8([ a)] h([ gis)]
     a4( cis8[ h)] a4 gis e( a)
     gis2 r r
-    eis4 eis fis( eis) fis fis %5
+    eis4 eis fis( \hA eis) fis fis %5
     eis4. eis8 eis2 r
     e4 a fis( e) f f
     e4. e8 e2 r
-    \mvTr fis\fE^\tutti r4 fis fis h
+    \mvTr fis!\fE^\tutti r4 fis fis h
     gis( a2 gis8[ fis)] gis2 %10
     a r r
     R1.
@@ -237,7 +240,7 @@ B-XLCredoAlto = {
     fis4 e fis2 h
     e, r r
     R1.*12 %35
-    \mvTr h2\pE^\solo h2. cis4
+    h2 h2. cis4
     d!8([ e] fis4) e2.\trill d4
     cis2 e a~
     a4 gis8[ a] h4 a h( gis)
@@ -249,11 +252,11 @@ B-XLCredoAlto = {
     a1 r2\fermata \bar "||" %45
     \key a \minor \time 4/4 \tempoB-XXXIIIEtIncarnatus \newSpacingSection
       r4 \mvTr e\fE^\tutti h'4. h8 \noBreak
-    a8([ gis)] a4 gis r8 e
+    a8([ gis)] a4 \hA gis r8 e
     f! f fis fis gis e g f?
     e4 r r8 e g4~
     g8. g16 f4 e( a8.[ g16)] %50
-    fis8 h4( a16[ g] fis2)\trill
+    fis8 \once \stemUp h4( a16[ g] fis2)\trill
     e4 r r8 f4 gis8
     a a a8. a16 gis4 r
     r2 r8 e a4
@@ -268,22 +271,22 @@ B-XLCredoAlto = {
     cis4 cis a'2 fis
     h4( gis) fis2 gis %70
     r r r4 gis
-    a2.( gis4) a \mvTr a,8([\pE^\soloE h]
-    cis4) cis8([ d)] e4 fis8 g a8([ g)] a4~
-    a \mvTr g8([\fE^\tuttiE fis)] e2 fis4 fis~
+    a2.( gis4) a \mvTr a,8([ h]
+    cis4) cis8([ d)] e4 fis8 g a8([ \hA g)] a4~
+    a g8([ fis)] e2 fis4 fis~
     fis a fis e r e~ %75
     e e e e r e
     a a8 a a4( gis) a2
     r r4 \mvTr e\pE^\solo a4. g8
-    fis4 gis8([ ais)] h([ ais)] h4 ais2
+    fis4 gis8([ ais)] h([ \hA ais)] h4 \hA ais2
     R1. %80
     r4 d, cis( fis2) eis4
     fis2 r r
     R1.
-    e2 fis g?8([ fis)] g?([ h)]
+    e2 fis gis!8([ fis)] gis([ h)]
     a2 g4 fis e4.\trill fis16[ e] %85
     d4.\trill d8 cis4 r r2
-    r4 a'2 gis4 a fis
+    r4 a'2 gis!4 a fis
     e2( d)\trill cis
     R1.
     a4 a' a g r fis %90
@@ -291,7 +294,7 @@ B-XLCredoAlto = {
     a4 gis! a2 r
     r r \mvTr fis4.\fE^\tutti fis8
     fis4 fis fis fis r fis
-    fis g h g fis2 %95
+    fis g h \hA g fis2 %95
     e4 g2 fis4 e e8 e
     fis4 g a( h) gis a
     a( gis) a2 r
@@ -319,7 +322,7 @@ B-XLCredoAlto = {
   }
 }
 
-B-XLCredoAltoLyrics = \lyricmode {
+B-XXXIIICredoAltoLyrics = \lyricmode {
   Pa -- trem o -- mni -- po --
   ten -- tem, fa -- cto -- rem
   coe -- li et ter --
@@ -346,7 +349,7 @@ B-XLCredoAltoLyrics = \lyricmode {
   Qui pro -- pter %36
   nos __ ho -- mi --
   nes et pro --
-  _ _ _ pter __
+  _ _ _ pter
   no -- stram sa -- %40
   lu -- tem de --
   scen -- dit de
@@ -419,34 +422,35 @@ B-XLCredoAltoLyrics = \lyricmode {
   men. %124 finis
 }
 
-B-XLSanctusAlto = {
+B-XXXIIISanctusAlto = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \autoBeamOff \tempoB-XXXIIISanctus
+      \once \override Staff.TimeSignature.style = #'single-digit
     R2.*2
     \mvTr a'4.\fE^\tuttiE a16[ gis] a8[ h]
     gis16[ fis gis a] h8 a4 h8
     e, cis'4 h16[ a] gis8[ fis] %5
     e[ fis] gis[ fis16 e] fis8[ gis]
     a4 r r
-    a4. g16[ fis] g8[ a]
+    a4. g16[ fis] \hA g8[ a]
     fis[ d16 e] fis8[ gis] a[ gis16 fis]
     e8 cis16[ d] e4. fis8 %10
     gis[ fis16 gis] e8[ gis] fis([ e)]
-    e4.( fis16[ g)] a8 g
+    e4.( fis16[ g)] a8 \hA g
     fis4.( gis16[ a]) h8([ a)]
     gis( a4 gis16[ fis)] gis4
     a r r %15
     R2.*13 \noBreak %28
     R2.\fermata \bar "||"
     \time 3/4 \tempoB-XXXIIIOsanna r4 r \mvTr e\fE^\tuttiE \noBreak %30
-    gis4.(\trillE fis16[ e]) a8 a(
+    gis4.(\trill fis16[ e]) a8 a(
     fis) h gis16[ a h8]~ h16[ a gis h]
     e,8 cis a' e a4~
     a8 gis16([ a)] h4. gis8
     e4 a r8 fis( %35
     h) gis a16[( gis a8] h16[ a h8])
-    e, a h16([ a h8] cis16[ h cis8)]
+    e, a h16([ a h8] cis16^[ h cis8)]
     fis, h([ gis)] cis a fis
     h([ gis)] e([ a)] fis4
     gis r r %40
@@ -461,7 +465,7 @@ B-XLSanctusAlto = {
   }
 }
 
-B-XLSanctusAltoLyrics = \lyricmode {
+B-XXXIIISanctusAltoLyrics = \lyricmode {
   San -- _ _ %3
   _ _ _ _
   ctus, san -- _ _ %5
@@ -497,11 +501,11 @@ B-XLSanctusAltoLyrics = \lyricmode {
   ex -- cel -- sis. %48 finis
 }
 
-B-XLBenedictusAlto = {
+B-XXXIIIBenedictusAlto = {
   \relative c' {
     \clef treble
     \key a \major \time 4/4 \autoBeamOff \tempoB-XXXIIIBenedictus
-    \mvTr e16([\pE^\solo gis)] gis8 e16([ fis)] e dis e([ dis)] e8 r4
+    \mvTr e16([\pE^\solo gis)] gis8 e16([ fis)] e dis e([ \hA dis)] e8 r4
     r2 r8 e gis8.([\trill ais32 h])
     cis8 h16([ ais)] \appoggiatura h8 ais8. ais16 h4 r
     dis,4. e8 fis([ gis)] a gis16([ fis)]
@@ -509,11 +513,11 @@ B-XLBenedictusAlto = {
     r8 h \sbOn e16[ fis \tuplet 3/2 8 { gis fis gis] } \sbOff a8[ e] a4~
     a16[ fis] gis8 fis8.\trill fis16 gis4 r
     R1
-    R\fermata \markOsannaDaCapo \bar "||" %9 finis
+    R\fermata \markOsannaUtSupra \bar "||" %9 finis
   }
 }
 
-B-XLBenedictusAltoLyrics = \lyricmode {
+B-XXXIIIBenedictusAltoLyrics = \lyricmode {
   Be -- ne -- di -- ctus, qui ve -- nit
   in no --
   mi -- ne __ Do -- mi -- ni,
@@ -523,7 +527,7 @@ B-XLBenedictusAltoLyrics = \lyricmode {
   ne Do -- mi -- ni. %7 finis
 }
 
-B-XLAgnusAlto = {
+B-XXXIIIAgnusAlto = {
   \relative c' {
     \clef treble
     \key a \major \time 4/4 \autoBeamOff \tempoB-XXXIIIAgnus
@@ -542,7 +546,7 @@ B-XLAgnusAlto = {
     h16([\p a gis8 a)] gis4 r8
     r4 r8 a4\fE a8
     a16([ h a h cis8)] h16([ a)] a8([ gis)]
-    a e gis r cis, e^\critnote
+    a e gis r cis, e
     r a, cis r e4 %25
     e8 a fis e4.
     e8 e([ dis)] e4 r8
@@ -552,23 +556,23 @@ B-XLAgnusAlto = {
     a([ gis16 fis gis8)] a4 r8
     h16([ a gis8 a)] gis4 r8
     h16([\p a gis8 a)] gis4 r8
-    gis16([\f fis eis8 fis)] eis4 r8
-    gis16([\p fis eis8 fis)] eis4 r8 %35
+    gis16([\f fis eis8 fis)] \hA eis4 r8
+    gis16([\p fis eis8 fis)] \hA eis4 r8 %35
     fis8.\f fis16 fis8 fis fis4
     fis r8 e!8. e16 e8
-    e e4 e8 e e^\critnote
-    r cis e r a, cis
+    e e4 e8 e gis
+    r cis e, r a, cis
     r e gis e( a4) %40
     gis8 h([ a)] gis4 r8 \noBreak
-    r h([\pE a)] gis4 r8
+    r h([\p a)] gis4 r8
     \key a \minor \time 4/4 \tempoB-XXXIIIDonaB a8 a a a b4 b \noBreak
     a8 a a a a4. a8
-    gis gis a2( gis4) %45
+    gis gis a2( \hA gis4) %45
     a8 e([ f e)] e4 r\fermata \bar "|." %46 finis
   }
 }
 
-B-XLAgnusAltoLyrics = \lyricmode {
+B-XXXIIIAgnusAltoLyrics = \lyricmode {
   A -- gnus De -- i, %11
   A -- gnus De -- i,
 
