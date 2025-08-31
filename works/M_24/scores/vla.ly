@@ -11,7 +11,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \M-SI-IViola }
+        \new Staff { \M-XXIV-IViola }
       >>
     }
   }
@@ -20,7 +20,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \M-SI-IIViola }
+        \new Staff { \M-XXIV-IIViola }
       >>
     }
   }
@@ -29,7 +29,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \M-SI-IIIViola }
+        \new Staff { \M-XXIV-IIIViola }
       >>
     }
   }
@@ -38,7 +38,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \M-SI-IVViola }
+        \new Staff { \M-XXIV-IVViola }
       >>
     }
   }
@@ -47,7 +47,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \M-SI-VViola }
+        \new Staff { \M-XXIV-VViola }
       >>
     }
   }
@@ -56,7 +56,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \M-SI-VIViola }
+        \new Staff { \M-XXIV-VIViola }
       >>
     }
   }

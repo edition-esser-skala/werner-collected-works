@@ -2,27 +2,27 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "bc")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Larghetto – Vivace – Adagio"
     \addTocEntry
+    \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \M-SI-ICello }
-        \new FiguredBass { \M-SI-IBassFigures }
+        \new Staff { \M-XXIV-IViolinoII }
       >>
     }
   }
   \bookpart {
     \section "2" "Largo – Allegro – Adagio"
     \addTocEntry
+    \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \M-SI-IICello }
-        \new FiguredBass { \M-SI-IIBassFigures }
+        \new Staff { \M-XXIV-IIViolinoII }
       >>
     }
   }
@@ -31,18 +31,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \M-SI-IIICello }
-        \new FiguredBass { \M-SI-IIIBassFigures }
+        \new Staff { \M-XXIV-IIIViolinoII }
       >>
     }
   }
   \bookpart {
     \section "4" "Grave – Allegro"
     \addTocEntry
+    \paper { page-count = #3 }
     \score {
       <<
-        \new Staff { \M-SI-IVCello }
-        \new FiguredBass { \M-SI-IVBassFigures }
+        \new Staff { \M-XXIV-IVViolinoII }
       >>
     }
   }
@@ -51,8 +50,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \M-SI-VCello }
-        \new FiguredBass { \M-SI-VBassFigures }
+        \new Staff { \M-XXIV-VViolinoII }
       >>
     }
   }
@@ -61,8 +59,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \M-SI-VICello }
-        \new FiguredBass { \M-SI-VIBassFigures }
+        \new Staff { \M-XXIV-VIViolinoII }
       >>
     }
   }

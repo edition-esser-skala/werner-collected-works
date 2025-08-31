@@ -11,7 +11,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \M-SI-ICello }
+        \new Staff { \M-XXIV-ICello }
       >>
     }
   }
@@ -20,7 +20,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \M-SI-IICello }
+        \new Staff { \M-XXIV-IICello }
       >>
     }
   }
@@ -29,7 +29,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \M-SI-IIICello }
+        \new Staff { \M-XXIV-IIICello }
       >>
     }
   }
@@ -38,7 +38,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \M-SI-IVCello }
+        \new Staff { \M-XXIV-IVCello }
       >>
     }
   }
@@ -47,7 +47,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \M-SI-VCello }
+        \new Staff { \M-XXIV-VCello }
       >>
     }
   }
@@ -56,7 +56,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \M-SI-VICello }
+        \new Staff { \M-XXIV-VICello }
       >>
     }
   }

@@ -22,23 +22,23 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \M-SI-IViolinoI
+              \M-XXIV-IViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \M-SI-IViolinoII
+              \M-XXIV-IViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "Viola"
-            \M-SI-IViola
+            \M-XXIV-IViola
           }
           \new Staff {
             \set Staff.instrumentName = "Violoncello"
             % \transpose c c,
-            \M-SI-ICello
+            \M-XXIV-ICello
           }
-          \new FiguredBass { \M-SI-IBassFigures }
+          \new FiguredBass { \M-XXIV-IBassFigures }
         >>
       >>
       \layout { }
@@ -55,23 +55,23 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \M-SI-IIViolinoI
+              \M-XXIV-IIViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \M-SI-IIViolinoII
+              \M-XXIV-IIViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \M-SI-IIViola
+            \M-XXIV-IIViola
           }
           \new Staff {
             \set Staff.instrumentName = "vlc"
             % \transpose c c,
-            \M-SI-IICello
+            \M-XXIV-IICello
           }
-          \new FiguredBass { \M-SI-IIBassFigures }
+          \new FiguredBass { \M-XXIV-IIBassFigures }
         >>
       >>
       \layout { }
@@ -88,23 +88,23 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \M-SI-IIIViolinoI
+              \M-XXIV-IIIViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \M-SI-IIIViolinoII
+              \M-XXIV-IIIViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \M-SI-IIIViola
+            \M-XXIV-IIIViola
           }
           \new Staff {
             \set Staff.instrumentName = "vlc"
             % \transpose c c,
-            \M-SI-IIICello
+            \M-XXIV-IIICello
           }
-          \new FiguredBass { \M-SI-IIIBassFigures }
+          \new FiguredBass { \M-XXIV-IIIBassFigures }
         >>
       >>
       \layout { }
@@ -121,23 +121,23 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \M-SI-IVViolinoI
+              \M-XXIV-IVViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \M-SI-IVViolinoII
+              \M-XXIV-IVViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \M-SI-IVViola
+            \M-XXIV-IVViola
           }
           \new Staff {
             \set Staff.instrumentName = "vlc"
             % \transpose c c,
-            \M-SI-IVCello
+            \M-XXIV-IVCello
           }
-          \new FiguredBass { \M-SI-IVBassFigures }
+          \new FiguredBass { \M-XXIV-IVBassFigures }
         >>
       >>
       \layout { }
@@ -154,23 +154,23 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \M-SI-VViolinoI
+              \M-XXIV-VViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \M-SI-VViolinoII
+              \M-XXIV-VViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \M-SI-VViola
+            \M-XXIV-VViola
           }
           \new Staff {
             \set Staff.instrumentName = "vlc"
             % \transpose c c,
-            \M-SI-VCello
+            \M-XXIV-VCello
           }
-          \new FiguredBass { \M-SI-VBassFigures }
+          \new FiguredBass { \M-XXIV-VBassFigures }
         >>
       >>
       \layout { }
@@ -187,23 +187,23 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \M-SI-VIViolinoI
+              \M-XXIV-VIViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \M-SI-VIViolinoII
+              \M-XXIV-VIViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \M-SI-VIViola
+            \M-XXIV-VIViola
           }
           \new Staff {
             \set Staff.instrumentName = "vlc"
             % \transpose c c,
-            \M-SI-VICello
+            \M-XXIV-VICello
           }
-          \new FiguredBass { \M-SI-VIBassFigures }
+          \new FiguredBass { \M-XXIV-VIBassFigures }
         >>
       >>
       \layout { }

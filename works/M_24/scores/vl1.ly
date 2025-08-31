@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 2")
+#(define option-instrument-name "vl 1")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,7 +12,7 @@
     \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \M-SI-IViolinoII }
+        \new Staff { \M-XXIV-IViolinoI }
       >>
     }
   }
@@ -22,7 +22,7 @@
     \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \M-SI-IIViolinoII }
+        \new Staff { \M-XXIV-IIViolinoI }
       >>
     }
   }
@@ -31,17 +31,16 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \M-SI-IIIViolinoII }
+        \new Staff { \M-XXIV-IIIViolinoI }
       >>
     }
   }
   \bookpart {
     \section "4" "Grave – Allegro"
     \addTocEntry
-    \paper { page-count = #3 }
     \score {
       <<
-        \new Staff { \M-SI-IVViolinoII }
+        \new Staff { \M-XXIV-IVViolinoI }
       >>
     }
   }
@@ -50,7 +49,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \M-SI-VViolinoII }
+        \new Staff { \M-XXIV-VViolinoI }
       >>
     }
   }
@@ -59,7 +58,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \M-SI-VIViolinoII }
+        \new Staff { \M-XXIV-VIViolinoI }
       >>
     }
   }

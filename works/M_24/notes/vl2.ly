@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-M-SI-IViolinoII = {
+M-XXIV-IViolinoII = {
   \relative c' {
     \clef treble
-    \key d \minor \time 3/4 \tempoM-SI-Ia
+    \key d \minor \time 3/4 \tempoM-XXIV-Ia
     r8 f'\fE f f, f4
     r8 g' g g, g4
     r8 a' a a, b a
@@ -80,15 +80,15 @@ M-SI-IViolinoII = {
     f8 a4 c8 f, d' g f16 g
     e8 e a g16 a f4. d8~ %75
     d b g' f16 g e4\fermata r
-    \tempoM-SI-Ic f4\fermata r as,2~
+    \tempoM-XXIV-Ic f4\fermata r as,2~
     as8. b16 g4\trill f r\fermata \bar "|." %78 finis
   }
 }
 
-M-SI-IIViolinoII = {
+M-XXIV-IIViolinoII = {
   \relative c' {
     \clef treble
-    \key d \minor \time 3/4 \tempoM-SI-IIa f4\f r r
+    \key d \minor \time 3/4 \tempoM-XXIV-IIa f4\f r r
     a\p r r
     d\f r r
     b\p r r
@@ -113,7 +113,7 @@ M-SI-IIViolinoII = {
     f\pp f f
     f f e8 d \noBreak
     e2 r4\fermata \bar "||" %25
-    \time 4/4 \tempoM-SI-IIb \newSpacingSection r8 a\fE d, f' e h e, d' \noBreak
+    \time 4/4 \tempoM-XXIV-IIb \newSpacingSection r8 a\fE d, f' e h e, d' \noBreak
     c e, a, es'' d a d, c'
     b d, g, d'' c g c, b'
     a g16 a b8 a g f16 g a8 g
@@ -173,7 +173,7 @@ M-SI-IIViolinoII = {
     g e a, g' f d a f'
     e cis4 e8 d f4 d8
     h4 e~ e8 f16 g a8 f %85
-    e2\trill \tempoM-SI-IIc d4 r
+    e2\trill \tempoM-XXIV-IIc d4 r
     r8 d d d d4 r
     r8 gis gis gis g4 r
     r8 cis cis cis cis4 d
@@ -182,10 +182,10 @@ M-SI-IIViolinoII = {
   }
 }
 
-M-SI-IIIViolinoII = {
+M-XXIV-IIIViolinoII = {
   \relative c' {
     \clef treble
-    \key c \dorian \time 4/4 \tempoM-SI-IIIa
+    \key c \dorian \time 4/4 \tempoM-XXIV-IIIa
     r8 es'\f c( h) r es,\p-\critnote c( h)
     r2 r8 as'\f f b
     b4 r8 c~ c16 c b a g( a) b8~
@@ -200,7 +200,7 @@ M-SI-IIIViolinoII = {
     c) h( c) d h4 c
     r c,\ppE c4. c8 \noBreak
     h1\fermata \bar "||"
-    \time 3/4 \tempoM-SI-IIIb R2. \noBreak %15
+    \time 3/4 \tempoM-XXIV-IIIb R2. \noBreak %15
     r4 as'\fE c
     f,2 r4
     r g b
@@ -251,10 +251,10 @@ M-SI-IIIViolinoII = {
   }
 }
 
-M-SI-IVViolinoII = {
+M-XXIV-IVViolinoII = {
   \relative c' {
     \clef treble
-    \key c \dorian \time 4/4 \tempoM-SI-IVa
+    \key c \dorian \time 4/4 \tempoM-XXIV-IVa
     r8 c\fE es fis g g, g'4~
     g8 g fis fis r g as h
     c as c d es es, es'4~
@@ -295,7 +295,7 @@ M-SI-IVViolinoII = {
     c4 r c8\pp c c c
     d4 c8. d16 es8 c h c \noBreak
     d1\fermata \bar "||" %40
-    \tempoM-SI-IVb R1*2
+    \tempoM-XXIV-IVb R1*2
     r8 c'\f c c es cis cis cis
     d b b b c a d d,
     g g' g g e4 f %45
@@ -357,10 +357,10 @@ M-SI-IVViolinoII = {
   }
 }
 
-M-SI-VViolinoII = {
+M-XXIV-VViolinoII = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/4 \tempoM-SI-Va
+    \key d \minor \time 4/4 \tempoM-XXIV-Va
     r4 a'2\fE g4
     f2\trill e4 a~
     a g2 f4
@@ -380,7 +380,7 @@ M-SI-VViolinoII = {
     e d4 c b a8~
     a g4 f16 e d8 f4 e16 d \noBreak
     cis2 r\fermata \bar "||"
-    \tempoM-SI-Vb R1 \noBreak %20
+    \tempoM-XXIV-Vb R1 \noBreak %20
     r8 f\fE d d'~ d cis e, e'~
     e d f, f'~ f e16 f e8 d
     cis16 h? cis8~ cis d16 e a,8.( h32 cis) d8 c
@@ -419,16 +419,16 @@ M-SI-VViolinoII = {
     a,8. a16 b8 c d8. d16 e8 f
     g e d2 cis4\trill
     d r8 d,\p e4 r8 c
-    d4 r8 g cis,4 \tempoM-SI-Vc d~ %60
+    d4 r8 g cis,4 \tempoM-XXIV-Vc d~ %60
     d d2 cis4
     d1\fermata \bar "|." %62 finis
   }
 }
 
-M-SI-VIViolinoII = {
+M-XXIV-VIViolinoII = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \tempoM-SI-VIa
+    \key g \minor \time 4/4 \tempoM-XXIV-VIa
     r4 g'4.\p a8 b4(
     h8) c16( h) c4. es8 d c~
     c b16 a b8 g r e'\f a,4~
@@ -450,7 +450,7 @@ M-SI-VIViolinoII = {
     b8 c16 d es8 d c d16 es d4~
     d8 c b a g b a g \noBreak %20
     fis2 r\fermata \bar "||"
-    \time 3/4 \tempoM-SI-VIb d'4 es r8 cis \noBreak
+    \time 3/4 \tempoM-XXIV-VIb d'4 es r8 cis \noBreak
     d16 cis d8 r h c? b16( a)
     b8 h c cis d d,
     g b'16 a g8 g16 f e8 d~ %25

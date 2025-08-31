@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-M-SI-ICello = {
+M-XXIV-ICello = {
   \relative c {
     \clef bass
-    \key f \major \time 3/4 \tempoM-SI-Ia
+    \key f \major \time 3/4 \tempoM-XXIV-Ia
     f4\fE r8 f f f
     e4 r8 e e e
     f4 r8 f b, d
@@ -35,7 +35,7 @@ M-SI-ICello = {
     f4 r8 f\piuP f f
     h,4 r8 h\pp h h \noBreak %30
     c4 c, r\fermata \bar "||"
-    \time 4/4 \tempoM-SI-Ib R1*4 %35
+    \time 4/4 \tempoM-XXIV-Ib R1*4 %35
     c'4\fE c'2 h4
     g, b'2 a4~
     a gis g fis
@@ -74,12 +74,12 @@ M-SI-ICello = {
     f4 r8 a' b a16 b g8 g
     c b16 c a8 a d c16 d b8 a16 b %75
     g8 f16 g e8 d16 e c4\fermata r
-    \tempoM-SI-Ic f\fermata r des h
+    \tempoM-XXIV-Ic f\fermata r des h
     c c, f r\fermata \bar "|." %78 finis
   }
 }
 
-M-SI-IBassFigures = \figuremode {
+M-XXIV-IBassFigures = \figuremode {
   r2.
   <6 5>
   r
@@ -152,10 +152,10 @@ M-SI-IBassFigures = \figuremode {
   <6- 4> <5 3> <[_!]>2 %78 finis
 }
 
-M-SI-IICello = {
+M-XXIV-IICello = {
   \relative c {
     \clef bass
-    \key d \minor \time 3/4 \tempoM-SI-IIa
+    \key d \minor \time 3/4 \tempoM-XXIV-IIa
     d4\f r r
     d'\p r r
     g,\f r r
@@ -181,7 +181,7 @@ M-SI-IICello = {
     d\pp d d
     b! b b \noBreak
     a2 r4\fermata \bar "||" %25
-    \time 4/4 \tempoM-SI-IIb \newSpacingSection \newSpacingSection R1*5 %30
+    \time 4/4 \tempoM-XXIV-IIb \newSpacingSection \newSpacingSection R1*5 %30
     r2 r8 e'\fE a, c'
     h fis h, a' g h, e, h''
     a e a, g' f a, d, a''
@@ -234,7 +234,7 @@ M-SI-IICello = {
     a~
     a2. f8 d %85
     a'4 a, d r
-    \tempoM-SI-IIc r8 f f f e4 r
+    \tempoM-XXIV-IIc r8 f f f e4 r
     r8 e e e a4 r
     r8 b! b b a4 b
     r8 gis,\ppE gis gis a2 %90
@@ -242,7 +242,7 @@ M-SI-IICello = {
   }
 }
 
-M-SI-IIBassFigures = \figuremode {
+M-XXIV-IIBassFigures = \figuremode {
   r2.
   r
   r
@@ -322,10 +322,10 @@ M-SI-IIBassFigures = \figuremode {
   r1
 }
 
-M-SI-IIICello = {
+M-XXIV-IIICello = {
   \relative c {
     \clef bass
-    \key c \dorian \time 4/4 \tempoM-SI-IIIa
+    \key c \dorian \time 4/4 \tempoM-XXIV-IIIa
     c4\fE r8 g' es c r g\p
     es c r4 r8 f'\f d' b
     es es, c' a! fis d b' g
@@ -340,7 +340,7 @@ M-SI-IIICello = {
     g2. as4
     r8 fis\pp fis fis r fis fis fis \noBreak
     g1\fermata \bar "||"
-    \time 3/4 \tempoM-SI-IIIb r8 c'16\fE h c8 c,16 d es f g8 \noBreak %15
+    \time 3/4 \tempoM-XXIV-IIIb r8 c'16\fE h c8 c,16 d es f g8 \noBreak %15
     as16 g as g f4 r
     r8 b16 a b8 b,16 c d es f8
     g16 f g f es4 r8 g
@@ -390,7 +390,7 @@ M-SI-IIICello = {
   }
 }
 
-M-SI-IIIBassFigures = \figuremode {
+M-XXIV-IIIBassFigures = \figuremode {
   r4. <_!>8 <6>4. <_!>8
   <6>2 r8 <_-> <6 5-> <\t \t>
   r2 <6 5>8 <\t \t> <6> <\t>
@@ -453,10 +453,10 @@ M-SI-IIIBassFigures = \figuremode {
   r2. %62 finis
 }
 
-M-SI-IVCello = {
+M-XXIV-IVCello = {
   \relative c {
     \clef bass
-    \key c \dorian \time 4/4 \tempoM-SI-IVa
+    \key c \dorian \time 4/4 \tempoM-XXIV-IVa
     c2\fE h
     as' g
     r8 f as h c c, c' b
@@ -497,7 +497,7 @@ M-SI-IVCello = {
     c4 r f8\pp f f f
     h,4 c as2 \noBreak
     g1\fermata \bar "||" %40
-    \tempoM-SI-IVb R1*8 %48
+    \tempoM-XXIV-IVb R1*8 %48
     r2 r8 c'\fE c c
     es cis cis cis d b! b b %50
     c a d d, g4 r16 g as b
@@ -547,7 +547,7 @@ M-SI-IVCello = {
   }
 }
 
-M-SI-IVBassFigures = \figuremode {
+M-XXIV-IVBassFigures = \figuremode {
   r2 <6>
   <7>4 <6\\> <_!>2
   <9 _->8 <\t \t> <6> <\t> r4. <\t>8
@@ -630,10 +630,10 @@ M-SI-IVBassFigures = \figuremode {
   r1*3 %100 finis
 }
 
-M-SI-VCello = {
+M-XXIV-VCello = {
   \relative c {
     \clef bass
-    \key d \minor \time 4/4 \tempoM-SI-Va
+    \key d \minor \time 4/4 \tempoM-XXIV-Va
     d2\fE cis
     d a4 a'
     d, e f2
@@ -653,7 +653,7 @@ M-SI-VCello = {
     a1~
     a2 b \noBreak
     a r\fermata \bar "||"
-    \tempoM-SI-Vb r4 d4.\fE cis8 cis d16 e \noBreak %20
+    \tempoM-XXIV-Vb r4 d4.\fE cis8 cis d16 e \noBreak %20
     f4 r8 d a'4 r8 a,
     d4 r8 d g4 g,
     a r8 cis d8.[ c16 h8. a16]
@@ -688,13 +688,13 @@ M-SI-VCello = {
     f f' e f d e c d b c a b g a f g
     e8 cis' d g, a g a a
     d,4 r8 g'\p c,4 r8 f
-    b,4 r8 e a,4 \tempoM-SI-Vc b %60
+    b,4 r8 e a,4 \tempoM-XXIV-Vc b %60
     a gis a2
     d,1\fermata \bar "|." %62 finis
   }
 }
 
-M-SI-VBassFigures = \figuremode {
+M-XXIV-VBassFigures = \figuremode {
   r2 <6>4 <5>
   <9> <8> <4> <_!>
   <6 5> q <9> <8>
@@ -754,10 +754,10 @@ M-SI-VBassFigures = \figuremode {
   r1 %62 finis
 }
 
-M-SI-VICello = {
+M-XXIV-VICello = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \tempoM-SI-VIa
+    \key g \minor \time 4/4 \tempoM-XXIV-VIa
     g'1~\p
     g~
     g2 r8 g4\f g8
@@ -779,7 +779,7 @@ M-SI-VICello = {
     es d c b a g fis4
     g g'8 f! es2 \noBreak %20
     d r\fermata \bar "||"
-    \time 3/4 \tempoM-SI-VIb R2.*9 %30
+    \time 3/4 \tempoM-XXIV-VIb R2.*9 %30
     g4 b r8 gis
     a16 gis a8 r fis g? f16 e
     f8 fis g gis a a,
@@ -817,7 +817,7 @@ M-SI-VICello = {
   }
 }
 
-M-SI-VIBassFigures = \figuremode {
+M-XXIV-VIBassFigures = \figuremode {
   <5 3>1
   <6 _!>8 <\t 4>4. <7\\ 6 2>2
   <8 5 4>8 <\t \t _->2 <6! 4\+ 2>4.
