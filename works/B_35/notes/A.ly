@@ -13,9 +13,9 @@ B-XXXVKyrieAlto = {
     g2 g4 r
     R1
     \mvTr g16([\pE^\solo a)] h([ c)] a([ h)] c([ d)] h8 g r4
-    r8 g \once \tieDashed a4~ \sbOn \tuplet 3/2 8 { a16[ h a } g f] g4~ %10
+    r8 g a4~ \sbOn \tuplet 3/2 8 { a16[ h a } g f] g4~ %10
     \tuplet 3/2 8 { g16[ a g } f e] f4~ \tuplet 3/2 8 { f16[ g f } e d] \sbOff e8 d
-    e16[( f g8]~ g16[ f8 e16]) d8 g e([ a]
+    e16[ f g8]~ g16[ f f e] d8 g e([ a]
     fis[ h]) g4~ g16[ h] a([ g)] g8([ fis)]
     g4 r r2
     R1*9 %23
@@ -38,7 +38,7 @@ B-XXXVKyrieAlto = {
     a8[ fis d \hA fis] h,4 h'~
     h8[ g e g] c,([ d c h]
     a2)\trill g8([ a)] h([ c)]
-    d[ e] f!4. e16[ d] e4~
+    d[( e] f!4. e16[ d]) e4~
     e8 c f4. d8 f4~ %65
     f8[ g16 f] g4. e8 g4~
     g8[ a16 g] a8[ g] f([ e)] a([ g)]
@@ -58,8 +58,8 @@ B-XXXVKyrieAlto = {
     fis2\trill e8 e g([ h]
     g[ e c e)] d2
     r g4. g8
-    g([ e c e] a,4) a'~
-    a8 fis([ d \hA fis]) h,4 g'~ %85
+    g([ e c e]) a,4 a'~
+    a8[ fis d \hA fis] h,4 g'~ %85
     g8 e([ c e)] a,4 f'~
     f f e8([ h)] e4~
     e8[ fis16 gis] a4.( c8[ h a)]
@@ -109,7 +109,7 @@ B-XXXVKyrieAltoLyrics = \lyricmode {
   _ _
   lei --
   son, e --
-  lei -- _ _ son, __
+  lei -- son, __
   e -- lei -- _ _ %65
   _ _ _
   _ son, e --
@@ -129,8 +129,8 @@ B-XXXVKyrieAltoLyrics = \lyricmode {
   _ son, e -- lei --
   son,
   Ky -- ri --
-  e __ e --
-  lei -- son, e -- %85
+  e __ e -- lei --
+  son, e -- %85
   lei -- son, Ky --
   ri -- e e --
   lei --
@@ -194,6 +194,7 @@ B-XXXVGratiasAlto = {
   \relative c' {
     \clef treble
     \key f \lydian \time 3/4 \autoBeamOff \tempoB-XXXVGratias
+      \once \override Staff.TimeSignature.style = #'single-digit
       \set Score.currentBarNumber = #36
     \mvTr c'4.\pE^\solo c,8 c16([ d e8)]
     f4. f8 f16([ g a8)]
@@ -206,7 +207,7 @@ B-XXXVGratiasAlto = {
     e[ c16 d] e8[ f] g[ a16 h]
     c2.~ %45
     c8[ d16 c] h8([\trill a)] g([\trill f)]
-    e4. f8 g[ a16 h]
+    e4.\trill f8 g[ a16 h]
     c8[ c,16 d] e4.\trill f16[ g]
     a8[ a,16 h] c4.\trill d16[ e]
     f8[ d'16 c] h8[( a]) g([ f)] %50
@@ -307,11 +308,11 @@ B-XXXVQuiTollisAlto = {
     r8 f4 a8 h4 g %120
     g2 fis
     R1*2
-    r2 \mvTr d8.\pE^\solo d16 d4
+    r2 \mvTr d8.\pE^\solo^\aTre d16 d4
     b'8. b16 b4 g8 e c c' %125
     a16([ b] \once \stemUp c4 a8) f4 g~
     g f e r
-    r2 \tempoB-XXXVQuiSedes r4 r8 \mvTr e\fE^\tuttiE
+    r2 \tempoB-XXXVQuiSedes r4 r8 \mvTr e\fE^\tutti
     f([ c16 f] g8[ e16 g]) f4 r8 a
     b([ f16 \hA b] c8[ a16 c]) \hA b4 r8 h %130
     c([ g16 c] d8[ h16 d]) c8 c a f16 a
@@ -372,13 +373,13 @@ B-XXXVCumSanctoAlto = {
     a16[ g fis e] \hA fis[ e d c] h8[ d] g4~ %180
     g16[ fis e d] c8 a'4 d,8 e[ d16 c]
     h8 g'16[ fis] e[ \hA fis e d] c8[ a'16 g] fis[ g \hA fis e]
-    d8[ h'16 a] g[ a g f] e8 e g16[(\trill f g8])
-    a16[(\trill g a8])~ a[ f] d g4 f8
+    d8[ h'16 a] g[ a g f] e8 e \slurDashed g16[(\trill f g8])
+    a16[(\trill g a8])~ \slurSolid a[ f] d g4 f8
     e16[ f] g4 e8 c a'4 f8 %185
     d h'4 g8 e g~ g16[ f e d]
     c8 a'~ a16[ g fis e] d8 h'~ h16[ a gis fis]
     e8 a( gis16[ a h8)] e, e([ d e)]
-    f a e8.[ f32 g] f16[ e f8] a[ f]
+    f a e8.[ f32 g] \once \slurDashed f16[(\trillE e f8]) a[ f]
     d g4 g8 g[ e]~ e16[ f g8] %190
     r f~ f16[ g a8] r g~ g16[ a h8]
     r a~ a16[ h c8] h g g4
@@ -482,7 +483,7 @@ B-XXXVCrucifixusAlto = {
     \clef treble
     \key d \minor \time 4/4 \autoBeamOff \tempoB-XXXVCrucifixus
       \set Score.currentBarNumber = #72
-    \mvTr f4.\pE^\solo f8 f[( e)] e4
+    \mvTr f4.\pE^\solo^\aQuattro f8 f[( e)] e4
     r2 f4. f8
     fis fis a8. a16 d,4 r
     es8. es16 es8 es d4 d8 d %75
@@ -533,7 +534,7 @@ B-XXXVEtResurrexitAlto = {
     g g g
     g4 g8 g g1
     g2 r r
-    \mvTr e\pE^\solo r4 a h a8([ gis)]
+    \mvTr e\pE^\solo^\aTre r4 a h a8([ gis)]
     a2 r4 e f e8([ d)] %100
     e2 r4 h' a g8([ fis)]
     g2 r r
@@ -549,7 +550,7 @@ B-XXXVEtResurrexitAlto = {
     r2 r8 \mvTr a4\pE^\solo a8
     f d f a c c,16([ d)] e([ f)] \tuplet 3/2 8 { g([ a b)] }
     a2. a,4 \noBreak
-    a8.([ h16] h4)\trill a r\fermata \bar "||"
+    a8.([ h!16] h4)\trill a r\fermata \bar "||"
     \tempoB-XXXVEtVitam R1 \noBreak
     r2 \mvTr g'8\fE^\tuttiE g4 g8
     e c4 e8 d g, g' f16 g
@@ -562,9 +563,9 @@ B-XXXVEtResurrexitAlto = {
     a8 c~ c16[ d e fis] gis[ a h a] \hA gis[ e \hA fis \hA gis]
     a[ g f e32 d] e16[ a, a'8]~ a16[ g f g] f[ e d e] %140
     c[ d c h] a[ h c d] e4 r
-    f8^\critnote f4 f8 e16([ d c d)] e([ f)] g([ a)]
+    f8 f f f e16([ d)] c([ d)] e([ f)] g([ a)]
     d,4 g4. g4 e8
-    c a'4 f8 d h'4( g8)
+    c( a'4) f8 d h'4( g8)
     e f16([ g] a4) g g %145
     g r8 g4 g8 r g~
     g g r e4 f8 d4
@@ -597,7 +598,7 @@ B-XXXVEtResurrexitAltoLyrics = \lyricmode {
   phe -- tas.
 
   Et ex -- %126
-  pe -- cto re -- sur -- re -- cti -- o -- nem __
+  pe -- cto re -- sur -- re -- cti -- o -- nem
   mor -- tu --
   o -- rum.
   %130
@@ -612,9 +613,9 @@ B-XXXVEtResurrexitAltoLyrics = \lyricmode {
   men, a -- _ _
   _ _ _ %140
   _ _ men,
-  et vi -- tam, vi -- tam, ven --
-  tu -- ri, ven -- tu --
-  ri sae -- cu -- li, a --
+  et vi -- tam ven -- tu -- ri sae -- cu --
+  li, ven -- tu -- ri
+  sae -- cu -- li, a --
   men, a -- men, a -- %145
   men, a -- men, a --
   men, a -- men, a --
@@ -695,12 +696,12 @@ B-XXXVAgnusAlto = {
     R1
     r4 g8 g f2 %5
     g4( a) g2
-    a4 r r8 \mvTr fis4\pE^\solo fis8
+    a4 r r8 \mvTr fis4\pE^\solo^\aTre fis8
     g4.( fis16[ e]) \hA fis4 r
     r8 fis fis fis g4 g
     r8 f f f e4 e %10
     R1*5 %15
-    \mvTr g8.([\fE^\tutti f16] e8) d e e r4
+    \mvDl g8.([\fE^\tutti f16] e8) d e e r4
     r r8 g g g r g
     g g r gis a a r fis
     g g r g g g g4

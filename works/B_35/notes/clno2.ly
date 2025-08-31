@@ -153,7 +153,7 @@ B-XXXVEtResurrexitClarinoII = {
     r2 c8 c4 c8
     g g4 d'8 e4 c~
     c8 d16 c d4~ d8 e16 d e4~
-    e8 f4 f8 e d c c-\critnote %145
+    e8 f4 f8 e d c c %145
     g4 r8 d' e d c d
     c g16 g g8 c~ c c g g16 g
     g g32 g g16 e32 e e16 g32 g g16 e32 e c4 r\fermata \bar "|." %148 finis

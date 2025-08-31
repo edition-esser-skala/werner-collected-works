@@ -14,9 +14,9 @@ B-XXXVKyrieSoprano = {
     \mvTr c16([\pE^\solo d)] e([ f)] d([ e)] f([ g)] e8 c r4
     r2 r4 r8 d
     \sbOn e4~ \tuplet 3/2 8 { e16[ f e } d c] d4~ \tuplet 3/2 8 { d16[ e d } c h] %10
-    c4~ \tuplet 3/2 8 { c16[ d c } h a] \sbOff h8.[ a32 h] c8 h
+    c4~ \tuplet 3/2 8 { c16[ d c } h a] \sbOff h8.[\trill a32 h] c8 h
     c16([ d e8] d[ c)] h4 r8 c
-    a[ d] h16[ c h c] d8[ \tuplet 3/2 8 { e16 d c] } h8[ a]
+    a[( d] h16[ c h c]) d8 \tuplet 3/2 8 { e16([ d c]) } h8[ a]
     g4 r r2
     R1*9 %23
     r2 \mvTr c8.\fE^\tutti c16 c8 c
@@ -33,9 +33,9 @@ B-XXXVKyrieSoprano = {
       R1*20 \noBreak %53
     R1\fermata \bar "||"
     \key c \major \tempoB-XXXVKyrieII
-      \mvTr c4.\fE^\tuttiE c8 c[( a f a] \noBreak %55
-    d,4) d'4. h8[ g h]
-    e,4 e'4. c8[ a c]
+      \mvTr c4.\fE^\tuttiE c8 c[ a f a] \noBreak %55
+    d,4 d'4. h8[ g h]
+    e,4 e'4.( c8[ a c])
     f,([ g f e] d2)\trill
     c8 e'([ d c)] h[ g16 a] h[ c d8]
     e4. c4 a16[ h] c[ d e8] %60
@@ -59,14 +59,14 @@ B-XXXVKyrieSoprano = {
     fis[ g \hA fis e] dis4 e~ %80
     e8[ dis16 cis?] \hA dis4\trill e r
     R1
-    d4. d8 d([ h g h]
-    e,4) e'4. cis8([ a \hA cis)]
+    d!4. d8 d([ h g h]
+    e,4) e'4.( cis8) a([ \hA cis)]
     fis,4 d'2 h4~ %85
-    h c2 a4~
-    a h gis gis^\critnote
+    h c!2 a4~
+    a h gis gis
     a8[ h] c2 d4~
     d8[ e] c[ h16 a] h2\trill
-    a4 c4.( a8[ f a)] %90
+    a4 c4._( a8[ f a)] %90
     d,4 d'4. h8[ g h]
     e, c e([ g)] a4 a~
     a d h h~
@@ -92,7 +92,7 @@ B-XXXVKyrieSopranoLyrics = \lyricmode {
   lei -- _ %10
   _ _ son, e --
   lei -- son, e --
-  lei -- _ _ _
+  lei -- son, e -- lei --
   son.
 
   Ky -- ri -- e e -- %24
@@ -107,8 +107,8 @@ B-XXXVKyrieSopranoLyrics = \lyricmode {
   son.
 
   Ky -- ri -- e __ %55
-  e -- _
   _ _ _
+  _ e --
   lei --
   son, e -- lei -- _
   _ _ _ _ %60
@@ -207,7 +207,7 @@ B-XXXVLaudamusSoprano = {
     a,16([ a')] f([\trill e16)] d([\trill c)] h([\trill c)] h4 r8 h16([ c)]
     c4. cis16([ d)] \sbOn \tuplet 3/2 8 { d[ e f g f e] } \appoggiatura d8 cis8.\trill d16
     d4 r r8 c a \tuplet 3/2 8 { d16([ c h)] }
-    gis8[\trill \tuplet 3/2 8 { gis16 fis \hA gis] a[\trill \hA gis a h\trill a h] c[\trill h c cis\trill h \hA cis] d[\trill \hA cis d e\trill d e] } %30
+    gis8~[\trill \tuplet 3/2 8 { gis16 fis \hA gis] a[\trill \hA gis a h\trill a h] c[\trill h c cis\trill h \hA cis] d[\trill \hA cis d e\trill d e] } %30
     \tuplet 3/2 4 { f[\trill e f fis\trill e \hA fis] g[\trill \hA fis g gis\trill \hA fis \hA gis] } a8.[ g32 f?] e8. d16
     \tuplet 3/2 8 { c([ h a)] f'([ e d)] c([ h a)] } h8 a4 r
     R1*2
@@ -272,7 +272,7 @@ B-XXXVQuiTollisSoprano = {
     r8 d4 d8 dis4 e %120
     e2 dis
     R1*2
-    \mvTr a8.\pE^\soloE a16 a8 r f'8. f16 f4
+    \mvTr a8.\pE^\soloE^\aTre a16 a8 r f'8. f16 f4
     d8 b g g' e16([ f] g4 e8) %125
     c4 f8 c d8. d16 d8 b
     c4( a) g r
@@ -323,14 +323,14 @@ B-XXXVQuoniamSoprano = {
       \set Score.currentBarNumber = #139
     R1*5 %143
     c'16.([\pE^\solo d32)] e16.([ f32)] \tuplet 3/2 8 { g16([ a g)] f([ e d)] e([ d c)] } c8 r \tuplet 3/2 8 { e16([ d c)] }
-    g'2~ \once \tieDashed g4~ g16.[\trill f32 e16.\trill d32] %145
-    c16.[\trill h32] a16.([\trill g32)] fis4 g8 d \tuplet 3/2 8 { h'16([\trill c h)] } a([ g)]
+    g'2~ g4~ g16.[\trill f32 e16.\trill d32] %145
+    c16.[\trill h32] a16.([\trill g32)] fis4\trill g8 d \tuplet 3/2 8 { h'16([\trill c h)] } a([ g)]
     d'2~ d8.[\trill e32 fis] g16[ d h g]
     e'8.[ fis32 g] a16[ e cis a] fis'8.\trill e16 d8 d16([ c?)]
     h8.[\trill a32 h] c8 d e8.\trill d16 c8 e
     gis,8.[(\trill fis?32 \hA gis]) a8 h c8.\trill h16 a8 c~ %150
     c16[ d32 e f16 d] h4~\trill h16[ c32 d e16 c] a4~\trill
-    a16[ h32 c d16 h] gis8.[\trill fis?32 \hA gis] a16[ h c d] \sbOn e[\trill fis \tuplet 3/2 8 { gis \hA fis e] } \sbOff
+    a16[ h32 c d16 h] gis8.[\trill fis?32 \hA gis] a16[ h c d] \sbOn e[ fis \tuplet 3/2 8 { gis \hA fis e] } \sbOff
     a[ g] \tuplet 3/2 8 { f([ e d)] } c8([ h)]\trill a4 r
     R1
     r2 r8 g \sbOn \tuplet 3/2 8 { a16[\trill g a h\trill a h] } %155
@@ -344,9 +344,9 @@ B-XXXVQuoniamSoprano = {
 }
 
 B-XXXVQuoniamSopranoLyrics = \lyricmode {
-  Quo -- ni -- am __ tu __ so -- lus, tu %144
+  Quo -- ni -- am tu so -- lus, tu %144
   so -- %145
-  _ lus __ san -- ctus, tu so -- lus __
+  _ lus san -- ctus, tu so -- lus
   Do -- _
   _ _ _ mi -- nus, tu __
   so -- lus al -- tis -- si -- mus, tu
@@ -375,18 +375,18 @@ B-XXXVCumSanctoSoprano = {
     r2 r4 r8 d( \noBreak
     e[ d c e)] d4 r\fermata \bar "||"
     \tempoB-XXXVCumSanctoFuga R1*10 %178
-    g,16([\trill fis? g8)] h16([\trill a h8)] r8 c4 e8
+    g,16([\trill fis g8)] h16([\trill a h8)] r8 c4 e8
     fis,16([\trill e \hA fis8)] a16([\trill g a8)] r8 h4 d8 %180
     e, a4 c8 d, h' a4\trill
     g8 h~ h16[ a g fis] e8[ c'~] c16[ h a g]
     fis8[ d']~ d16[ c h a] g[ f e d] c4
-    r c'16[(\trill h c8]) d16[(\trill c d8])~ d[ h]
+    \slurDashed r c'16[(\trill h c8]) d16[(\trill c d8])~ d[ h]
     g4 r8 h c16[(\trill h c8]) a16[ h c8] %185
-    d16[(\trill c d8]) h16[ c d8] e8 e,8~ e16[ f g8]
+    d16([\trill c d8]) \slurSolid h16[ c d8] e8 e,8~ e16[ f g8]
     f4 fis16([ g a8)] g4 gis16[ a h8]
-    a16[ h c e] d[ f e d] c8.[\trill h32 a] h4
+    a16[ h c e] d[ f e d] c8.[\trill h32 a] h4\trillE
     a8 d4 cis8 d16[(\trill \hA cis d8]) f[ d]
-    h16[ a h c] d8[ g] e16[(\trill d e8])~ e[ c]~ %190
+    h16[ a h c] d8[ g] \once \slurDashed e16[(\trill d e8])~ e[ c]~ %190
     c[ a f' d]~ d[ h g' e]~
     e[ c a' f] d e([ g e)]
     d c([ d c)] h4 r8 h
@@ -499,7 +499,7 @@ B-XXXVCrucifixusSoprano = {
     \clef treble
     \key d \minor \time 4/4 \autoBeamOff \tempoB-XXXVCrucifixus
       \set Score.currentBarNumber = #72
-    \mvTr a'4.\pE^\solo d8 b4 b
+    \mvTr a'4.\pE^\solo^\aQuattro d8 b4 b
     r2 d4. d8
     es8 es fis,8. fis16 g4 r
     r2 h8. h16 h8 h %75
@@ -510,7 +510,7 @@ B-XXXVCrucifixusSoprano = {
     r8 h4 h8 c4 c %80
     r8 cis4 cis8 d4 d
     h8 h h h c2~
-    c4 h? c g
+    c4 h c g
     g4. g8 g4 r
     R1\fermata \bar "||" %85 finis
   }
@@ -550,7 +550,7 @@ B-XXXVEtResurrexitSoprano = {
     e4. e8 e4 d c h
     c c8 c c2( h)
     c r r
-    \mvTr c\pE^\solo r4 c d c8([ h)]
+    \mvTr c\pE^\solo^\aTre r4 c d c8([ h)]
     c2 r4 c d c8([ h)] %100
     c2 r4 e fis e8([ dis)]
     e2 r r
@@ -705,14 +705,14 @@ B-XXXVBenedictusSoprano = {
     \clef treble
     \key a \minor \time 4/4 \autoBeamOff \tempoB-XXXVBenedictus
     R1*5 %5
-    \mvTr a'8.(_[\pE^\solo h16] \tuplet 3/2 8 { c[ d e]) e([ fis gis)] } a8 a, r c
+    \mvTr a'8.(_[\trill^\solo h16] \tuplet 3/2 8 { c[ d e]) e([ fis gis)] } a8 a, r c
     h16([ dis,)] e8 r dis' dis16([ e)] e,8 r h'
     c8.[\trill d32 e] d8.[\trill e32 f] e8.[\trill f32 g] f8.[\trill g32 a]
-    \tuplet 3/2 8 { g16([ f e)] } d([ c)] \appoggiatura e8 d8. c16 c4 r
+    \tuplet 3/2 8 { g16([ f e)] } d([ c)] \appoggiatura e d8.\trill c16 c4 r
     r2 e,8 gis \tuplet 3/2 8 { h16([ c d)] } c h %10
     c8 d16 e f4~ f16[ g32 f e16 dis] e4~
     e16[ f32 e d16 cis] d4~ d16[ e32 d c16 h] c[ a32 h c16 d]
-    \sbOn e32[ fis gis a h16 a] \sbOff gis([ fis)] e([\trill d)] c16([ d32 e) f16 a,] \appoggiatura c8 h8. a16
+    \sbOn e32[ fis gis a h16 a] \sbOff \hA gis([\trill \hA fis)] e([\trill d)] c16[ d32 e f16 a,] \appoggiatura c h8.\trill a16
     a4 r r2
     R1 %15
     R\fermata \markOsannaUtSupra \bar "||" %16 finis
@@ -741,12 +741,12 @@ B-XXXVAgnusSoprano = {
     R1
     h8 h cis cis d4. d8 %5
     e e f2( e4)
-    f r r8 \mvTr a,4\pE^\solo a8
+    f r r8 \mvTr a,4\pE^\solo^\aTre a8
     b2\trill a4 r
     r8 es' es es d4 d
     r8 d d d c!4 c %10
     R1*5 %15
-    \mvTr e8.([\fE^\tutti d16] c8) h c c r4
+    \mvDl e8.([\fE^\tutti d16] c8) h c c r4
     r r8 e d d r d
     e e r e e e r d
     d d r d e d c([ e)]

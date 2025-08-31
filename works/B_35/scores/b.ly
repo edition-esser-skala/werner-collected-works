@@ -18,7 +18,7 @@
   \bookpart {
     \section "2" "Gloria"
     \addTocEntry
-    \paper { systems-per-page = #5 }
+    \paper { systems-per-page = #4 }
     \score {
       <<
         \new Staff { \B-XXXVGloriaOrgano }

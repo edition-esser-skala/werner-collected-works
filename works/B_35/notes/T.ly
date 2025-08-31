@@ -14,7 +14,7 @@ B-XXXVKyrieTenore = {
     R1*11 %18
     \mvTr a16([\pE^\solo h)] c([ d)] h([ c)] d([ e)] c8 a r e'
     \sbOn f4~ \tuplet 3/2 8 { f16[ g f } e d] e4~ \tuplet 3/2 8 { e16[ f e } d c] %20
-    d4~ \tuplet 3/2 8 { d16[ e d } c h] \sbOff c8 e e16([ d)] d([ c)]
+    d4~ \tuplet 3/2 8 { d16[ e d } c h] \sbOff c8 e e16([ d) d( c)]
     h8 e cis16([ d)] e4 d8 h16([ c)] d8~
     d c16([ h)] a8([ d16 c)] h8 c c([ h)]
     c4 r \mvTr e8.\fE^\tutti e16 e8 e
@@ -32,10 +32,10 @@ B-XXXVKyrieTenore = {
     R1\fermata \bar "||"
     \key c \major \tempoB-XXXVKyrieII R1*9 %63
     r2 \mvTr c4.\fE^\tuttiE c8
-    c([ a f a] d,4) d'~ %65
+    c([ a f a]) d,4 d'~ %65
     d8[ h g h] e,4 e'~
-    e8[ c a c] f,([ g f e]
-    d2)\trill c4 c'~
+    e8[ c a c] f,([ g)] f([ e])
+    d2\trill c4 c'~
     c8[ h16 a] h4. c16[ h] c4~
     c8[ a] c4. d16[ c] d4~ %70
     d8[ h] d4. e16[ d] e8[ d]
@@ -56,12 +56,12 @@ B-XXXVKyrieTenore = {
     e4. d16[ e] c8[ a] d4~
     d8[ h] d[ c16 d] h4 h
     e8([ d c h)] a4 h~
-    h a f'( e)
+    h a f' e~
     e r r2 %90
     R1
     c4. c8 c([ a f a]
     d,4) d'4. h8[ g h]
-    e,4 e'4. c8[ a c]
+    e,4 e'4.( c8[ a c])
     f,4 d'2 c4 %95
     h e d( e
     d c) h r
@@ -81,7 +81,7 @@ B-XXXVKyrieTenoreLyrics = \lyricmode {
 
   Ky -- ri -- e e -- lei -- son, e -- %19
   lei -- _ %20
-  _ son, e -- le -- i --
+  _ son, e -- lei --
   son, e -- lei -- son, e -- lei -- son, __
   e -- lei -- son, e -- lei --
   son. Ky -- ri -- e e --
@@ -96,10 +96,10 @@ B-XXXVKyrieTenoreLyrics = \lyricmode {
   son.
 
   Ky -- ri -- %64
-  e __ e -- %65
+  e~e -- lei -- _ %65
   _ _
-  lei --
   son, e --
+  lei -- son, e --
   lei -- _ _
   _ _ _ %70
   _ _ _
@@ -120,12 +120,11 @@ B-XXXVKyrieTenoreLyrics = \lyricmode {
   _ _ _ _
   _ son, e --
   lei -- son, e --
-  _ lei --
-  son, %90
+  _ lei -- son, __
 
-  Ky -- ri -- e __
+  Ky -- ri -- e __ %92
   e -- _
-  _ lei -- _
+  _ lei --
   son, e -- lei -- %95
   son, e -- lei --
   son,
@@ -220,7 +219,7 @@ B-XXXVQuiTollisTenore = {
     r8 \mvTr g4(\pE^\solo h8) d([ e)] f! e
     c4 c r8 g'16([ e)] cis([ e)] g,8
     g8([ f)] f4 r2
-    g8. g16 g4 c e, %125
+    g8.^\aTre g16 g4 c e, %125
     f a b4. g8
     e4( f) c r
     r2 \tempoB-XXXVQuiSedes r4 r8 \mvTr g'\fE^\tutti
@@ -277,11 +276,11 @@ B-XXXVCumSanctoTenore = {
     r2 r4 r8 h(
     c) h c4 h r\fermata \bar "||"
     \tempoB-XXXVCumSanctoFuga R1*3 %171
-    r2 g16([\trill fis g8)] h16([\trill a h8)]
-    r c4 e8 fis,16([\trill e \hA fis8)] a16([\trill g a8)]
+    \slurDashed r2 g16([\trill fis g8)] h16([\trill a h8)]
+    r c4 e8 fis,16([\trill e \hA fis8)] a16([\trill g a8)] \slurSolid
     r h4 d8 e, a4 c8
     d, h' a4\trill g8 c~ c16[ h a g] %175
-    f8[ d']~ d16[ c h a] g8[ g']~ g16[ f e d]
+    f!8[ d']~ d16[ c h a] g8[ g']~ g16[ f e d]
     e8 c r c4 a8 h8.[\trill a32 h]
     c16[ g] c4 h8 c e([ d c)]
     h e~ e16[ d c h] a8 a~ a16[ g fis e]
@@ -289,13 +288,13 @@ B-XXXVCumSanctoTenore = {
     c8 c'~ c16[ h a g] fis8 g4 \hA fis8
     g2 a
     h c8 c~ c16[ h a g]
-    f8 f'[ c a] g8.[ a16] h8.[\trill a32 h]
+    f!8 f'[ c a] g8.[ a16] h8.[\trill a32( h])
     c4 r r2 %185
     r r8 g( c8.[ b16]
     a[ g]) f8 d'8.([ c16] h[ a)] g8 e'8.[ d16]
     c[ h a c] h[ a gis h] a[ e] a4 gis8
     a4 r r r8 d~
-    d[ h g d']~ d[ c16 h] c4 %190
+    d[ h g! d']~ d[ c16 h] c4 %190
     r d g, e'
     a, f'8([ f,)] g c([ d c)]
     h g4( e'8) d4 r
@@ -363,7 +362,7 @@ B-XXXVCredoTenore = {
     r4 \mvTr h2\pE^\solo d4 g h,
     a d, r d' a' c, %20
     h g d'2. g4
-    e(\trill d) c( h) a( g)
+    e(\trill d) c(\trill h) a(\trill g)
     fis4. e8 d4 a' h c
     h2 h4 h c d
     e2 e4 d c h %25
@@ -424,21 +423,21 @@ B-XXXVEtIncarnatusTenore = {
     \key f \major \time 3/4 \autoBeamOff \tempoB-XXXVEtIncarnatus
       \set Score.currentBarNumber = #44
     R2.*8 %51
-    \mvTr f,8.([\pE^\solo g32 a)] a8.([ b32 c)] c8.([ d32 e)]
+    \mvTr f,8.[\pE^\solo g32( a)] a8.[ b32( c)] c8.[ d32( e)]
     \appoggiatura e8 f4. f,8 f4
     r8 f' e32([ d c8.)] b32([ a g8.)]
-    a8.([ c32 b)] \sbOn a16[ g f32 g a b] \sbOff c8.([\trill d32 e)] %55
-    f16([ e) d\trill c] d([ c) h\trill a] \hA h([ a)] g[(\trill f)]
+    a8.[ c32 b] \sbOn a16[ g f32 g a b] \sbOff c8.[\trill d32 e] %55
+    f16([ e) d(\trill c)] d([ c) h(\trill a)] \hA h([ a)] g[(\trill f)]
     e4 r r
-    c'4. f8 d b
+    c'4. f8 d b!
     g4~ g16[ a h c] d([ e)] \tuplet 3/2 8 { f([ e d)] }
-    e8. d16 c4 r %60
-    r8 c c16([\trill b)] a([\trill g)] f([ a)] c([ es)]
+    e8.\trill d16 c4 r %60
+    r8 c c16([\trill b!)] a([\trill g)] f([ a)] c([ es)]
     d8.[\trill c32 d] b8.[\trill a32 b] g8.([\trill f32 g)]
-    e8 g' g16[ f e d] \tuplet 3/2 8 { c[ d c] b[( a g]) }
-    a8[\trill f32( e f g)] a8[\trill a32( g a b)] c8[~ c32 d e c]
+    e!8 g' g16[( f e d] \tuplet 3/2 8 { c[ d c]) b[( a g]) }
+    a8[ f32(\trill e f g)] a8[~ a32(\trill g a b)] c8[~ c32(\trill d e c])
     f2~ f8[ c] %65
-    \sbOn \tuplet 3/2 8 { d16[ c b } a g] \sbOff f8.[ g16] g4\trillE
+    \sbOn \tuplet 3/2 8 { d16[ c b } a g] \sbOff f8.[ g16] g4\trill
     f r r
     R2.*3 %70
     R2.\fermata \bar "||" %71 finis
@@ -457,7 +456,7 @@ B-XXXVEtIncarnatusTenoreLyrics = \lyricmode {
   Vir -- gi -- ne, %60
   et ho -- mo, ho -- mo
   fa -- _ ctus __
-  est, et ho -- _ mo __
+  est, et ho -- mo __
   fa -- _ _
   _ %65
   _ _ ctus
@@ -469,7 +468,7 @@ B-XXXVCrucifixusTenore = {
     \clef "treble_8"
     \key d \minor \time 4/4 \autoBeamOff \tempoB-XXXVCrucifixus
       \set Score.currentBarNumber = #72
-    \mvTr d4\pE^\solo a g4 g
+    \mvTr d4\pE^\solo^\aQuattro a g4 g
     r2 a4. a8
     a2 b4 r
     g8. g16 g8 g as2 %75
@@ -517,12 +516,12 @@ B-XXXVEtResurrexitTenore = {
     c4 a r a g2
     g r r
     c c4 h c h %95
-    4c4. c8 c4 h c d
+    c4. c8 c4 h c d
     e e8 e d1\trill
     e2 r r
-    \mvTr a,\pE^\solo r4 f' d e
+    \mvTr a,\pE^\solo^\aTre r4 f' d e
     a,2 r4 a f g %100
-    c,2 r4 h' a h
+    c,2 r4 g' a h
     e,2 r r
     R1.*9 \noBreak %111
     R1.\fermata \bar "||"
@@ -530,12 +529,12 @@ B-XXXVEtResurrexitTenore = {
       \mvTr c'4\pE^\solo r8 f g16([ f)] e d c8.\trill b16 a([ c32 b)] \noBreak
     a16([ g)] f4 d'8. c16 b8. a16
     g8 c, g' g a16([ g)] a8 h8.\trill h16 %115
-    c8.([ d32 e)] d8 d \sbOn \tuplet 3/2 8 { e16[ f g f e d] } \sbOff \appoggiatura c8 h4
+    c8.([ d32 e)] d8 d \sbOn \tuplet 3/2 8 { e16[ f g f e d] } \sbOff \appoggiatura c8 h4\trill
     c \tuplet 3/2 8 { b16([ c d)] } c([ \hA b)] a8.([\trill \hA b32 c)] d16([ \hA b)] g([ f)]
     e8 d16 c \mvTr g'8\fE^\tutti g a g a[( c)]
-    c4 r8 cis d cis d f
+    c4 r8 cis d \hA cis d f
     e e e a, a d d d( %120
-    c) e d4 e r
+    c!) e d4 e r
     R1*2
     r8 \mvTr c\pE^\solo c d16 e a,8([ cis)] e g,
     f d f' e d c b a %125
@@ -553,11 +552,11 @@ B-XXXVEtResurrexitTenore = {
     cis8( d4 \hA cis8) d4 a~ %140
     a a r2
     r c8 c4 c8
-    h( g16[ a)] h([ c)] d([ h)] c([ d e d] e8) c
+    h g16[( a] h^[ c)] d([ h)] c([ d e d] e8) c
     r4 a h h
     c4. c8 c([ h)] c4 %145
-    h r8 h( c[ d e d]
-    c[ h] c4.) a8 g4
+    h r8 h c[ d e d]
+    c[ h] c4. a8 g4
     g r r2\fermata \bar "|." %148 finis
   }
 }
@@ -605,11 +604,11 @@ B-XXXVEtResurrexitTenoreLyrics = \lyricmode {
   a -- men, a -- %140
   men,
   et vi -- tam,
-  vi -- tam ven -- tu -- ri,
+  vi -- tam __ ven -- tu -- ri,
   ven -- tu -- ri
   sae -- cu -- li, __ a -- %145
-  men, a --
-  men, a --
+  men, a -- _
+  _ _ men, a --
   men. %148 finis
 }
 
@@ -629,14 +628,14 @@ B-XXXVSanctusTenore = {
     \tempoB-XXXVPleni R1*3 %12
     r2 \mvTr c8\pE^\solo c, r c'
     g' g, r e' c2\trill
-    h8 g~ \sbOn \tuplet 3/2 8 { g16[ a h h c d] } e8[\trill \tuplet 3/2 8 { c16 h c] a[ h c c d e] } %15
-    fis8[\trill \tuplet 3/2 8 { d16 c d] h[ c d d e fis] } g8.([\trill \hA fis32 e)] \tuplet 3/2 8 { d16[ e d] c([ h a)] }
+    h8 g~ \sbOn \tuplet 3/2 8 { g16[ a h h c d] } e8[ \tuplet 3/2 8 { c16\trill h c] a[ h c c d e] } %15
+    fis8[ \tuplet 3/2 8 { d16\trill c d] h[ c d d e fis] } g8.[\trill \hA fis32 e] \tuplet 3/2 8 { d16[ e d] c([ h a)] }
     h8 g[(\trill h\trill d]\trill g8.)\trill g,16 g4
     r8 g' \tuplet 3/2 8 { fis16[ g \hA fis e \hA fis e] d[ e d c d c] h[ c h a h a] }
     \tuplet 3/2 8 { g[ a g fis g \hA fis] } \sbOff e8 c d2\trill
     g4 r r2 %20
     r r8 g c e
-    a,8.([\trill h64 c d e)] f8 d16 c h8 g r16 d'[ e f]
+    a,8.[\trill h64( c d e)] f8 d16 c h8 g r16 d'[ e f]
     e16[ d32 c h16 c] \sbOn \tuplet 3/2 8 { d16[\trill c d } e f] \sbOff e[ d32 c h16 c] d[ g,32 a h c d16]
     e[ c,32 d e f g16] a[ a32 h c d e16] f[ d,32 e f g a16] h[ h32 c d e f16]
     g[ c,] a f g4\trill c, r %25
@@ -647,7 +646,7 @@ B-XXXVSanctusTenore = {
     c4._(\trill h16[ a] h4) g %30
     r8 c16([ h a g)] f([ e)] d[ e f g] a[ h c d]
     g,8 e'4 d8 c( a4 h16[ c)]
-    d4 h8 c d8.([ c32 h)] a8[ h]
+    d4 h8 c d8.([ c32 h] a8[ h])
     c c f4 e2~
     e e4 a, %35
     e'2 d8 d,16([ e f g)] a([ h)]
@@ -693,11 +692,11 @@ B-XXXVSanctusTenoreLyrics = \lyricmode {
   san -- na %30
   in __ ex -- cel -- _
   sis, in ex -- cel --
-  sis, in ex -- cel -- _
+  sis, in ex -- cel --
   sis, in ex -- cel --
   sis, o -- %35
   san -- na in __ ex --
-  cel -- sis, __ o --
+  cel -- sis, o --
   san -- na in ex -- cel --
   sis, in ex -- cel --
   sis, in __ ex -- cel -- %40
@@ -719,12 +718,12 @@ B-XXXVAgnusTenore = {
     R1
     r2 a8 a b4~ %5
     b a8([ c8]) c2
-    c4 r \mvTr d\pE^\solo d
+    c4 r \mvTr d\pE^\solo^\aTre d
     d2 d,8 d d'4
     c!8 c c c b4 b
     r8 gis gis gis a4 a %10
     R1*5 %15
-    \mvTr g4.\fE^\tutti g8 g g r4
+    \mvDl g4.\fE^\tutti g8 g g r4
     r r8 c h h r h
     c c r h c c r a
     h h r h c h g([ c)]

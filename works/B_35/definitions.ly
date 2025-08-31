@@ -1,6 +1,5 @@
 \version "2.24.0"
 
-conPedale = \markup \remark "con pedale"
 markOsannaUtSupra = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark "Osanna ut supra"
@@ -34,7 +33,7 @@ tempoB-XXXVEtResurrexit = \tempoMarkup "Vivace"
 
 tempoB-XXXVSanctus = \tempoMarkup "Largo"
   tempoB-XXXVPleni = \tempoMarkup "Vivace"
-  tempoB-XXXVOsanna = \tempoMarkup "Osanna · Allegro"
+  tempoB-XXXVOsanna = \tempoMarkup "Osanna · Presto"
 
 tempoB-XXXVBenedictus = \tempoMarkup "Molto largo"
 

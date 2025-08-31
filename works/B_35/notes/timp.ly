@@ -6,7 +6,7 @@ B-XXXVKyrieTimpani = {
     \key c \major \time 4/4 \tempoB-XXXVKyrie
     c8.\fE c32 c c8 c g g r4
     c8. c32 c c8 c g g r4
-    c8. c32 c c8 c c4-\critnote r
+    c8. c32 c c8 c c4 r
     r2 g8 g16 g g4
     r16 c32 c c16 c g4 r16 c32 c c16 c g4 %5
     r8 c c4 r8 c c c16 c
@@ -145,7 +145,7 @@ B-XXXVEtResurrexitTimpani = {
     R1
     r8 c16 c c8 c c g c8. c32 c %145
     g4 r8 g16 g c8 g16 g c g g g
-    c8 g16 g c8. c32 c c8 c g g16 g
+    c8 g16 g c16. c64 c c16 c c8 c g g16 g
     c8. c32 c c16 g c c c4 r\fermata \bar "|." %148 finis
   }
 }

@@ -22,7 +22,7 @@ B-XXXVKyrieBasso = {
     g' g, r4 c8 c' e, c %25
     g' g, r g' c4( b)
     a r8 a d4( c)
-    h r8 g c([ c,)] g' g
+    h! r8 g c([ c,)] g' g
     c([ c,)] g' g c4( a)
     e r8 f g e16 c g4 %30
     c8 c' g4 c,8 c' g4
@@ -44,14 +44,14 @@ B-XXXVKyrieBasso = {
     R1*3
     R1\fermata \bar "||"
     \key c \major \tempoB-XXXVKyrieII R1*14 %68
-    \mvTr g'4.\fE^\tutti g8 g([ e c e]
+    \mvTr g'4.\fE^\tuttiE g8 g([ e c e]
     a,4) a'4. fis8[ d \hA fis] %70
     h,4 h'4. g8[ e g]
     c,[ d c h] a4 h
     c e f2
     fis8([ d)] \hA fis4 g2
     gis8([ e)] \hA gis4 a a %75
-    f8([ d h d)] g,([ g' e g)]
+    f!8([ d h d)] g,([ g' e g)]
     c,4 r r2
     R1*3 %80
     r2 e4. e8
@@ -61,7 +61,7 @@ B-XXXVKyrieBasso = {
     d4 fis g2 %85
     e f
     d e
-    r4 a8([ g)] f([ e] d4)
+    r4 a8([ g!)] f([ e] d4)
     e f d( e)
     a, r r2 %90
     R1
@@ -233,7 +233,7 @@ B-XXXVQuiTollisBasso = {
     d,4. d8 h4 c %120
     ais2 h
     R1*6 %127
-    r2 \tempoB-XXXVQuiSedes r4 r8 \mvTr c\fE^\tutti
+    r2 \tempoB-XXXVQuiSedes r4 r8 \mvTr c\fE^\tuttiE
     f8([ a16 f] e8[ c16 e] f8) f, r f'
     b([ d16 \hA b] a8[ f16 a] \hA b8) b, r g' %130
     c([ e16 c] h8[ g16 h]) c8 c, f a16 f
@@ -293,8 +293,8 @@ B-XXXVCumSanctoBasso = {
     e8[ c f g] e16[ c c'8] h[ a]
     g4 r r2
     R1*3 %182
-    r2 c,16[(\trill h c8]) e16[(\trill d e8])
-    r8 f4 a8 h,16[(\trill a h8]) d16[(\trill c d8])
+    r2 c,16[\trill h c8] e16[\trill d e8]
+    r8 f4 a8 h,16[\trill a h8] d16[\trill c d8]
     r8 e4 g8 a, f'4 a8 %185
     h, g'4 h8 c,4 r
     R1*2
@@ -419,7 +419,7 @@ B-XXXVCrucifixusBasso = {
     \clef bass
     \key d \minor \time 4/4 \autoBeamOff \tempoB-XXXVCrucifixus
       \set Score.currentBarNumber = #72
-    \mvTr d4.\pE^\solo d8 d([ cis)] cis4
+    \mvTr d4.\pE^\solo^\aQuattro d8 d([ cis)] cis4
     r2 d4. d8
     c! c c8. c16 b4 r
     c8. c16 c8 c f2 %75
@@ -472,7 +472,7 @@ B-XXXVEtResurrexitBasso = {
     c2 r r
     R1.*3 %101
     \mvTr e1\pE^\solo e2
-    f1 gis,2
+    f!1 gis,2
     a a a'
     b1 cis,2 %105
     d c'! dis,
@@ -486,8 +486,8 @@ B-XXXVEtResurrexitBasso = {
       R1*5 %117
     r8 \mvTr c4\fE^\tutti c8 f c' a([ f)]
     c4 r8 a d a f' d
-    a' a a, a d d g g( %120
-    e) c g4 c r
+    a' a a, a d d g g %120
+    e([ c] g4) c r
     R1*7 \noBreak %128
     R1\fermata \bar "||"
     \tempoB-XXXVEtVitam R1*4 %133
@@ -537,7 +537,7 @@ B-XXXVEtResurrexitBassoLyrics = \lyricmode {
 
   Si -- mul ad -- o -- ra -- %118
   tur et con -- glo -- ri -- fi --
-  ca -- tur: qui lo -- cu -- tus est per Pro -- %120
+  ca -- tur: qui lo -- cu -- tus est Pro -- %120
   phe -- tas.
 
   Et vi -- tam, %134
@@ -584,7 +584,7 @@ B-XXXVSanctusBasso = {
     R1
     c2 f4.\trill e16[( d])
     e4. a8 d,2
-    c8 e16([ d] c8) h a2
+    c8 e16([ d c8)] h a2
     g4 r c2 %40
     f d
     r8 g4 f8 e c c' b
@@ -644,14 +644,14 @@ B-XXXVAgnusBasso = {
     c c fis,4\trill g8 g([ e)] c
     h4 c g2
     c4 r r2 %15
-    \mvTr c'4.\fE^\tutti g8 c, c r4
+    \mvDl c'4.\fE^\tutti g8 c, c r4
     r r8 c' g g r g,
     c c r e a a r d,
     g g r g c g e([ c)]
     g'4 r r2 \noBreak %20
     R1\fermata \bar "||"
     \tempoB-XXXVDona
-      \mvTr c,4\fE^\tuttiE c'4 c8 h16([ a)] g8 f \noBreak
+      \mvTr c,4\fE^\tutti c'4 c8 h16([ a)] g8 f \noBreak
     e c f d g e a[ g16 f]~
     f8[ e16 d] e8[ d16 c] h8 c d e16([ fis)]
     g8 e4 fis g f8~ %25

@@ -18,7 +18,7 @@ B-XXXVKyrieClarinoI = {
     f4 r a8 a4 a8
     g g16 g g4 r16 g8 g16 g4
     r16 g8 c16 h4 r8 g a4
-    r8 g a a g g g8. g16 %30
+    r8 g a4 g8 g g8. g16 %30
     g4 r r8 \pa e d g \pd
     e e4 f8 d e \pa d8.\trill d16 \pd \noBreak
     e16 c32 c c16 c c g32 g g16 g e4 r\fermata \bar "||"
@@ -31,7 +31,7 @@ B-XXXVKyrieClarinoI = {
     g~ g8.\trill f32 g a4 a~
     a8 c h4. h8 gis h
     a h c h a c h a
-    gis4 a2 gis4
+    gis4 a2 \hA gis4
     a \pd r r2 %90
     R1
     \pa r2 a4. a8
@@ -39,7 +39,7 @@ B-XXXVKyrieClarinoI = {
     g c2 a4~
     a a g4. g8 %95
     g2. e4
-    d8 g e-\critnote c d4 \pd r
+    d8 g e c d4 \pd r
     r8 c4 d8 e d c e
     \pa d4.\trill d8 \pd c2\fermata \bar "|." %99 finis
   }
@@ -73,7 +73,7 @@ B-XXXVQuoniamClarinoI = {
       \set Score.currentBarNumber = #139
     c'16.\trill\fE d32 e16.\trill f32 \sbOn \tuplet 3/2 8 { g16 a g f e d e d c } c8 r e
     \tuplet 3/2 8 { d16 e fis g \hA fis e c d e } d8\trill d4 r8 d \sbOff %140
-    e16 f g a \sbOn g f g32( f e d) \sbOff e16 f g a \sbOn g f g32( f e d)
+    e16 f g a \sbOn g f g32( f) e( d) \sbOff e16 f g a \sbOn g f g32( f) e( d)
     e16. e32 e8\trill e16. e32 e16.\trill f64 g a8.\trill g32 f \tuplet 3/2 8 { e16 f g f e d }
     e16. f32 g f e d c4~\trill \tuplet 3/2 8 { c16 d e f e d } \sbOff c16. d32 d8\trill
     c4 r r2
@@ -102,8 +102,8 @@ B-XXXVCumSanctoClarinoI = {
     R\fermata \bar "||"
     \tempoB-XXXVCumSanctoFuga R1*21 %189
     r8 \pa d, g8. f16 e d e8~ e16 f g8 %190
-    r \once \tieDashed f~ f16 g a8 r \once \tieDashed g~ g16 a h8
-    r \once \tieDashed a~ a16 h c8 h16 a g8 g g \pd
+    r f~ f16 g a8 r g~ g16 a h8
+    r a~ a16 h c8 h16 a g8 g g \pd
     g4 r r2
     \pa r8 g4 g8 a4.\trill a8
     h4.\trill h8 c4. h8 %195
@@ -197,8 +197,8 @@ B-XXXVSanctusClarinoI = {
     \tempoB-XXXVPleni
       c'16\fE d c d e f g a g8 d g8.\trill a32 h \noBreak %10
     c8 h16 a g f e f e4 c~
-    c\trill d d8 e16.\trill d64 e \sbOn \tuplet 3/2 8 { f16 g a } g f
-    \tuplet 3/2 8 { e f g g f e } \sbOff e8 d\trill c4 r
+    c\trill d~ \sbOn d16 e e16.\trill d64 e \tuplet 3/2 8 { f16 g a } g f
+    \tuplet 3/2 8 { e f g a g f } \sbOff e8 d\trill c4 r
     R1*5 %18
     r2 r8 d\fE d d
     d16 g fis e d e d c d8 g, r g' %20
@@ -232,7 +232,7 @@ B-XXXVAgnusClarinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoB-XXXVAgnus
-    e'4\fE e16 f g f e8 d c d
+    e'4~\fE e16 f g f e8 d c d
     e e r g a a r g~
     g g g fis g4 r
     R1
@@ -253,7 +253,7 @@ B-XXXVAgnusClarinoI = {
     R1 %40
     \pa c4 c'~ c8 h16 a g8 f
     e4. d16 c g'2~
-    \once \tieDashed g4~ g16 f e f \pd g4.\trill g8
+    g4~ g16 f e f \pd g4.\trill g8
     g4 r8 e a4 g
     g8 e4 d8 c4 r\fermata \bar "|." %45 finis
   }

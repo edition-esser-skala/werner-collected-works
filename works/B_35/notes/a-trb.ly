@@ -4,6 +4,7 @@ B-XXXVGratiasTrombone = {
   \relative c' {
     \clef alto
     \key f \lydian \time 3/4 \tempoB-XXXVGratias
+      \once \override Staff.TimeSignature.style = #'single-digit
       \set Score.currentBarNumber = #36
     R2.*3
     r4 c4.\pE d16 e
@@ -26,7 +27,7 @@ B-XXXVGratiasTrombone = {
     a4. h8 c4~
     c8 h16 c d8( c) h( a) %65
     gis f! \appoggiatura f e4.\trill d8
-    c16( d) e8~ e16 f g8 a c
+    c16( d) e8 e16( f) g8 a c
     h( c) \appoggiatura a gis4.\trill a8
     a2 r4\fermata \bar "||" %69 finis
   }

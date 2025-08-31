@@ -69,7 +69,7 @@
         \new FiguredBass { \B-XXXVKyrieBassFigures }
       >>
       \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
-      \midi { \tempo 4 = 80 } % 60 – 120
+      \midi { \tempo 4 = 80 } % 50 – 120
     }
   }
   \bookpart {
@@ -176,14 +176,15 @@
     \subsection "Gratias agimus tibi"
     \addTocEntry
     \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
-      systems-per-page = #3
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #4
+      system-count = #6
     }
     \score { %\articulate
       <<
         \new Staff \with { \smallStaffDistance } {
-          \set Staff.instrumentName = "a-trb"
+          \set Staff.instrumentName = \markup \center-column { "a-trb" \critnote }
           \B-XXXVGratiasTrombone
         }
         \new ChoirStaff <<
@@ -203,7 +204,7 @@
         \new FiguredBass { \B-XXXVGratiasBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 120 }
+      \midi { \tempo 4 = 90 }
     }
   }
   \bookpart {
@@ -219,6 +220,7 @@
       system-system-spacing.basic-distance = #19.5
       system-system-spacing.minimum-distance = #19.5
       systems-per-page = #2
+      page-count = #5
     }
     \score { %\articulate
       <<
@@ -353,7 +355,7 @@
       system-system-spacing.basic-distance = #17
       system-system-spacing.minimum-distance = #17
       systems-per-page = #3
-      page-count = #3
+      system-count = #8
     }
     \score { %\articulate
       <<
@@ -533,6 +535,7 @@
       system-system-spacing.basic-distance = #20
       system-system-spacing.minimum-distance = #20
       systems-per-page = #4
+      system-count = #7
     }
     \score { %\articulate
       <<
@@ -688,7 +691,7 @@
         \new FiguredBass { \B-XXXVEtResurrexitBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 90 } % 70 – 100
+      \midi { \tempo 2 = 90 } % 70 – 90
     }
   }
   \bookpart {
@@ -756,16 +759,17 @@
         \new FiguredBass { \B-XXXVSanctusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 50 } % 80 – 100
+      \midi { \tempo 4 = 50 } % 75 – 100
     }
   }
   \bookpart {
     \section "5" "Benedictus"
     \addTocEntry
     \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
-      systems-per-page = #3
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #4
+      system-count = #6
     }
     \score { %\articulate
       <<
