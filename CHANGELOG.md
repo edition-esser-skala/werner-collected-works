@@ -1,5 +1,20 @@
 # Changelog
 
+## 2025.08.0 – 2025-08-31
+
+### Added
+
+- works: WerW B.6, D.4.5 (unreleased), D.5.4 (unreleased), E.4, F.1/35/36, G.8, H.1.17, H.2.2, I.1.5, I.2.5, I.4.47, I.5.3, J.4, K.1, M.14, N.3, O.8, and Q.1
+- WerW H.1.9: Laudate Dominum
+- global macros `\aQuattro` and `\aQuattroE`
+- general preface: full editorial guidelines
+
+### Changed
+
+- renumbered WerW I.5.54 to 53 and M.S1 to 24
+- revised WerW B.7/23/26/33/35, E.1/28/34, G.2/3/6/10/17, H.1.7/9/11, H.2.1, I.1.2/4/8/13/23/26, I.2.6/8/12, I.3.3/6/7/15/23, I.4.9/15-17/35/41, I.5.7/10/13/23, J.3, and K.3
+
+
 ## 2025.07.0 – 2025-07-27
 
 ### Added
