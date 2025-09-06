@@ -1,0 +1,39 @@
+title: Requiem
+id: WerW C.2
+genre: requiem
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.56
+    rism: 530001964
+    url: https://copia.oszk.hu/kotta/requiem-in-d-moll/
+    license: public domain
+    principal: true
+  B2:
+    siglum: A-Ed
+    shelfmark: D 11
+    rism: 600038265
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/929.html
+    license: public domain
+tocstyle: default
+toe: |
+  5 & 12 & vl 2  & 1st \quarterNote\ in \B1: c′4 \\
+    & 26 & trb 2 & bar in \B1: a4–c′4–a4 \\
+    & 33 & T     & 1st \quarterNote\ in \B1: c′4 \\
+    & 41 & vl 2  & 2nd \quarterNote\ in \B1: d′4 \\
+  6 & 10 & trb 2 & 1st \halfNote\ in \B1: a8–a4–a8 \\
+lyrics: |
+  \textsb{3}\\[1ex]
+  Memento mei, Deus,\\
+  quia ventus et fumus est vita mea:\\
+  Nec aspiciat me visus hominis.\\
+  (\bibleverse{Job}(7:7-8))\\[1ex]
+  Convertere, anima mea, in requiem tuam,\\
+  quia Dominus benefecit tibi.\\
+  (\bibleverse{Ps}(116/114:7))\\[1ex]
+  Introibo in domum tuam,\\
+  adorabo ad templum sanctum tuum\\
+  in timore tuo.\\
+  (\bibleverse{Ps}(5:8))
