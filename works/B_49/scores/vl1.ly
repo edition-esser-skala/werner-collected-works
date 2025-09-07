@@ -1,0 +1,68 @@
+\version "2.24.0"
+
+\include "../../../definitions_main.ly"
+\include "../definitions.ly"
+#(define option-instrument-name "vl 1")
+\include "score_settings/one-staff.ly"
+
+\book {
+  \bookpart {
+    \section "1" "Kyrie"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \B-XLIXKyrieViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Gloria"
+    \addTocEntry
+    \paper { system-count = #7 }
+    \score {
+      <<
+        \new Staff { \B-XLIXGloriaViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Credo"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-XLIXCredoViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Sanctus"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \B-XLIXSanctusViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Benedictus"
+    \addTocEntry
+    \paper { system-count = #7 }
+    \score {
+      <<
+        \new Staff { \B-XLIXBenedictusViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Agnus Dei"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \B-XLIXAgnusViolinoI }
+      >>
+    }
+  }
+}
