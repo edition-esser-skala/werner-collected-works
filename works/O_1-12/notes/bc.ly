@@ -3792,6 +3792,529 @@ O-VIIIeBassFigures = \figuremode {
   r %218 finis
 }
 
+O-IXaContinuo = {
+  \relative c {
+    \clef bass
+    \key a \major \time 2 2/8 \tempoO-IXa
+      \markSettembreI
+    \repeat volta 2 {
+      a'8\fE r
+      a r
+      a,\p r
+      a r
+      a'\f e %5
+      a, r
+      a'\p e
+      a, r
+      fis'\f a
+      h, dis %10
+      e gis
+      a, cis
+      d! fis
+      gis-! a-!
+      e-! cis-! %15
+      gis\p a
+      e'-! cis-!
+      gis\f r
+      r32 a' a a a a a a
+      h8-! a-! %20
+      gis32 gis gis gis gis gis gis gis
+      a8-! g-!
+      fis32 fis fis fis fis fis fis fis
+      gis!8-! fis-!
+      eis32 eis eis eis eis eis eis eis %25
+      fis8-! e-!
+      dis32 dis dis dis dis dis dis dis
+      e8 r
+      R4*3 %31
+      e16. fis32 gis16 a
+      h8 h, \noBreak
+      e16 h e,8
+    }
+    \repeat volta 2 {
+      e'8 \noBreak r %35
+      e r
+      e\p r
+      e r
+      e\f h
+      e,16 e'32 fis gis16 eis %40
+      fis8\p cis
+      fis, r
+      R4
+      r16 cis'\f fis cis
+      a' fis cis' a %45
+      fis'\p cis, fis cis
+      a' fis cis' a
+      fis' cis a h
+      cis h cis cis,
+      fis,8 fis'\f %50
+      gis e!
+      a cis,
+      d dis
+      e32 e' e e e e e e
+      fis8-! e-! %55
+      dis32 dis dis dis dis dis dis dis
+      \parOn e8-\parenthesize-! \parOff d-\parenthesize-!
+      cis16 a r8
+      r32 a a a a a a a
+      h8-! a-! %60
+      gis32 gis gis gis gis gis gis gis
+      a8 r
+      R4*3 %65
+      a16. h32 cis16 d
+      e8-! e,-!
+    }
+    \alternative {
+      { a16 e a,8 }
+      { a4\fermata }
+    } \bar "||" %69 finis
+  }
+}
+
+O-IXaBassFigures = \figuremode {
+  r4
+  r
+  r
+  r
+  r %5
+  r
+  r
+  r
+  r8 <6>16 <5>
+  <_+>8 <6>16 <5> %10
+  r8 <6>16 <5[!]>
+  r8 <6>16 <5!>
+  r8 <6>
+  q4
+  r8 q %15
+  q4
+  r8 q
+  q4
+  r32 <6>16. <5>8
+  <_+> <\t> %20
+  <6> <5!>
+  <3> <\t>
+  <6> <5>
+  \bo <[5\+ ]_+> \bc <[\t] \t>
+  <6> <5!> %25
+  <_+> <\t>
+  <6> <5!>
+  r4*5 %32
+  <6 4>8 <5 _+>
+  r4
+  r %35
+  r
+  r
+  r
+  r8 <_+>
+  r8. <6 5>16 %40
+  r8 <_+>
+  <_!>4
+  r
+  r
+  <6> %45
+  r
+  <6>
+  r8 q
+  <6 4> <5 _+>
+  r4 %50
+  <6[!]>
+  r8 <6>
+  <5> <\t>16 <6>
+  r4
+  <3>8 <\t> %55
+  <6> <5>
+  <3> <\t>
+  <6>4
+  r32 q16. <5>8
+  <_+> <\t> %60
+  <6> <5!>
+  r4*4 %65
+  r8 <6>
+  <6 4> <5 3>
+  r4
+  r %69 finis
+}
+
+O-IXbContinuo = {
+  \relative c {
+    \clef bass
+    \key a \major \time 3/8 \tempoO-IXb
+      \set Score.currentBarNumber = #70
+      \markSettembreII
+    \repeat volta 2 {
+      a8(-.-\tasto a-. a-.)
+      a(-. a-. a-.)
+      a(-. a-. a-.)
+      a(-. a-. a-.)
+      a(-. a-. a-.)
+      a4 a'8 %75
+      gis4 fis8
+      e gis16( e) a8
+      gis4 fis8
+      e gis16( e) h'( gis)
+      e8 gis16( e) h( gis') %80
+      e8 gis16( e) h'( gis)
+      e8 gis16( e) h( gis')
+      e8 gis e
+      h'4 a8
+      gis16 fis gis8 fis %85
+      e gis h
+      e, e'-\unisono e
+      dis h cis
+      h h, a'
+      gis h h, \noBreak %90
+    }
+    \alternative {
+      { e, e'16 d! cis h }
+      { e,8 h''16 a gis fis }
+    }
+    \repeat volta 2 {
+      e8(-.-\tasto e-. e-.) \noBreak
+      e(-. e-. e-.)
+      e(-. e-. e-.) %95
+      e(-. e-. e-.)
+      e(-. e-. e-.)
+      e4.~-\tastoE
+      \tieDashed e~
+      e~ \tieSolid %100
+      e8 gis a
+      e a a
+      a cis, d
+      a a' a
+      a cis, d %105
+      \tieDashed a4.~-\tasto
+      a~
+      a~ \tieSolid
+      a~
+      a8 cis a %110
+      e'4 h8
+      e fis gis
+      a cis, e
+      a, a'-\unisono a
+      gis e fis %115
+      e e, d'
+      cis e e,
+    }
+    \alternative {
+      { a a16 h cis d }
+      { a4 r8\fermata }
+    } \bar "||" %119 finis
+  }
+}
+
+O-IXbBassFigures = \figuremode {
+  r4. %70
+  r
+  r
+  r
+  r
+  r4 <3>8 %75
+  <6>4 <6\\>8
+  r4.
+  <6>4 <6\\>8
+  <_+>4.
+  r4 <\t>8 %80
+  r4.
+  r
+  r8 <6>4
+  <_+>4.
+  <6>4 <6\\>8 %85
+  r <6> <_+>
+  r4.
+  r
+  r
+  r %90
+  r
+  r
+  r
+  r
+  r %95
+  r
+  r
+  r
+  r
+  r %100
+  <3>8 <6 5[!]>4
+  r4.
+  r8 <6>4
+  r4.
+  r8 <6>4 %105
+  r4.
+  r
+  r
+  r
+  r8 <6>4 %110
+  <_+>4 q8
+  r <6!> <\t>
+  r <6>4
+  r4.
+  r %115
+  r
+  r
+  r
+  r %119 finis
+}
+
+O-IXcContinuo = {
+  \relative c {
+    \clef bass
+    \key a \major \time 3/4 \tempoO-IXc
+      \set Score.currentBarNumber = #120
+      \markSettembreIII
+    \repeat volta 2 {
+      a'4\fE a a
+      gis gis gis
+      fis fis fis
+      e e e
+      d r h'
+      cis, r a' %125
+      h, e gis
+      \tuplet 3/2 4 { a8 gis a e d e cis h cis }
+      a a' a gis fis e
+      r dis' dis cis h a \noBreak
+      gis a h4 h, %130
+    }
+    \alternative {
+      { e e'8 d! cis h }
+      { e,4 h'8 a gis fis }
+    }
+    \repeat volta 2 {
+      e4 fis gis \noBreak
+      a fis cis
+      d2 dis4 %135
+      e fis gis\p
+      a r a
+      gis r g
+      fis r f
+      e r e %140
+      dis r \hA dis
+      e\f fis gis
+      a d, e
+    }
+    \alternative {
+      { a, a8 h cis d }
+      { a2 r4\fermata }
+    } \bar "||" %145 finis
+  }
+}
+
+O-IXcBassFigures = \figuremode {
+  r2. %120
+  <6>
+  <5>4 <\t> <6\\>
+  r2.
+  r2 <4>8 <_+>
+  r2 <4>8 <3> %125
+  <_!>2 <6>8 <5>
+  r2.
+  r
+  r8 <6> <\t>2
+  <6>4 <4> <_+> %130
+  r2.
+  r
+  r4 <6!> <6>
+  r q q8 <5!>
+  r2 <6>8 <5> %135
+  <[_+]>2 <6>4
+  q8 <5> r2
+  <6> q4
+  <7>8 <6>4. q4
+  <7>8 <6>4. q4 %140
+  <7!>8 <6>4. <6 5>4
+  r <6[!]> <\t>
+  r <6 5> <4>8 <_+>
+  r2.
+  r %145 finis
+}
+
+O-IXdContinuo = {
+  \relative c {
+    \clef bass
+    \twotwotime \key a \major \time 2/2 \tempoO-IXd
+      \set Score.currentBarNumber = #146
+      \markSettembreIV
+    \repeat volta 2 {
+      a'4\fE e cis a
+      gis'2 r
+      fis r
+      e4 e' gis, e
+      d2 r %150
+      cis r
+      d\p r
+      cis r
+      h4 h' gis a
+      e2.\f fis4 %155
+      gis2 r
+      a\p r
+      gis r
+      fis4\f fis e e
+      dis dis cis cis %160
+      h2. cis4
+      dis1
+      e4 fis gis a
+      h2 h, \noBreak
+      e r %165
+    }
+    \alternative {
+      { e4 e' gis, e }
+      { e4 h gis e }
+    }
+    \repeat volta 2 {
+      e'2 d! \noBreak
+      cis h
+      ais r4 ais' %170
+      h fis d fis
+      h2 a!
+      gis fis
+      e r4 gis
+      a e cis e %175
+      a,2\p a'
+      gis g
+      fis1\f
+      e4 e' gis, e
+      d2\p d' %180
+      cis c
+      h1\f
+      a4 a, cis a
+      d2\p r
+      cis r %185
+      h4\f h' a a
+      gis gis fis fis
+      e e fis fis
+      gis2. e4
+      a2 gis %190
+      a4 h cis d
+      e2 e,
+      a, r
+    }
+    \alternative {
+      { a4 a' cis, a }
+      { a2 r\fermata }
+    } \bar "||" %195 finis
+  }
+}
+
+O-IXdBassFigures = \figuremode {
+  r2 <6> %146
+  q1
+  r
+  <4>4 <3> <6>2
+  r1 %150
+  <6>
+  r
+  q
+  r2 <6 5>
+  r1 %155
+  <6>
+  r
+  q
+  <_ 3>2 <6 \t>
+  <6 5> <8 \t> %160
+  <7 _+>1
+  <6>
+  r4 <6\\> <6>2
+  <6 4> <5 _+>
+  r1 %165
+  r
+  r
+  r2 <6 4>
+  <6 3> <6\\ 4>
+  <5>2. <6>4 %170
+  <_!> <_+> <6> <_+>
+  <3>2 <\t>
+  <5> <\t>
+  <7>2. <6>4
+  r2 q %175
+  r1
+  <6>4 <5\+> <6>2
+  <5>2. <6\\>4
+  \bo <[4]> \bc <[3]> <6>2
+  r1 %180
+  <6>4 <5\+> <6>2
+  <5>2. <6\\>4
+  <4> <3> <6>2
+  r1
+  <6> %185
+  <3>2 <\t>
+  <5> <\t>
+  <7> <\t>
+  <5> <6>
+  r <6>4 <5> %190
+  r q q2
+  <6 4> <5 3>
+  r1
+  r
+  r %195 finis
+}
+
+O-IXeContinuo = {
+  \relative c {
+    \clef bass
+    \key a \major \time 12/8 \tempoO-IXe
+      \set Score.currentBarNumber = #196
+      \markSettembreV
+    \repeat volta 2 {
+      a8\fE a' a gis, gis' gis fis e d cis4.
+      h e a8 e cis a cis e
+      a4. a, gis' gis,
+      fis' h e,8 h'16 a gis fis e4 dis8
+      cis4 r8 gis'4 r8 a4 r8 h4 r8 %200
+      cis4\p r8 gis4 r8 a4\f r8 gis4 r8
+      fis a16 gis fis e dis8 fis16 e \hA dis cis h4. r4 r8
+      h fis'16 e dis cis h8\p h'-\tasto h r h h r h h
+      r h h r h h r h h r h h
+      r h h r a a h4. h, \noBreak %205
+      e r4 r8 e\f h' gis e4.
+    }
+    \repeat volta 2 {
+      e4. d! cis h \noBreak
+      ais fis h h'8 fis d
+      h4. a'! gis fis
+      e e, a a'8 e cis %210
+      a4. r4 r8 e'16( d e fis) e8 h' gis e
+      a,4.\p r4 r8 e'16( d e fis) e8 h' gis e
+      r a\f a r gis gis r fis fis r e e
+      d4. cis h << { a' } \\ { a, } >>
+      gis' fis e8 h'16 a gis fis e8\p e' e %215
+      r e-\tasto e r e e r e e r e e
+      r e e r e e r e e r d d
+
+    }
+    \alternative {
+      { e4.\f e, a a,8 cis a }
+      { e''4.\f e, a~ a4 r8\fermata }
+    } \bar "|." %219 finis
+  }
+}
+
+O-IXeBassFigures = \figuremode {
+  r4. <6> r q %196
+  <7>8 <6> <7> <3 8>4 <_ 7>8 r2.
+  r <6>
+  r4. <7 _+> r r4 <6>8
+  r4. <6> r <4> %200
+  r <6> r q
+  <3>8 <\t>4 <5>8 <\t>4 <7 _+>2.
+  <_+>1.
+  r
+  r8 <6 4>4. <8 6>4 <6 4>4. <\t \t>4 <5 _+>8 %205
+  r1.
+  r4. <4 2> <6> <6!>
+  <6> <_+> <_!>2.
+  r4. <4 2> <6> <3 5>4 <_ 6\\>8
+  r1. %210
+  r
+  <_!>
+  r8 <3+ 1> <\t \t>4 <4 2>8 <\t \t>4 <5 3>8 <\t \t>4 <6 4>
+  <8 3>4. <6> r2.
+  <6>4. <6\\> r2. %215
+  r1.
+  r
+  <6 4>4. <\t \t>4 <5 3>8 r2.
+  r1. %219 finis
+}
+
 % \repeat volta 2 {
 
 %     }

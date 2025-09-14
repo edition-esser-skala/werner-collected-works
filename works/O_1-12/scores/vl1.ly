@@ -402,4 +402,52 @@
       >>
     }
   }
+  \bookpart {
+    \section "O.9" "Il Settèmbre, im Herbstmonat"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-IXaViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper { system-count = #7 }
+    \score {
+      <<
+        \new Staff { \O-IXbViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \O-IXcViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-IXdViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \paper { system-count = #8 }
+    \score {
+      <<
+        \new Staff { \O-IXeViolinoI }
+      >>
+    }
+  }
 }

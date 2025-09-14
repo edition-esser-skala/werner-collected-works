@@ -1,5 +1,4 @@
 \version "2.24.0"
-
 O-IaViolinoI = {
   \relative c' {
     \clef treble
@@ -2144,5 +2143,302 @@ O-VIIIeViolinoI = {
       { f2 r4 }
       { f2 r4\fermata }
     } \bar "|." %218 finis
+  }
+}
+
+O-IXaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 2 2/8 \tempoO-IXa
+      \markSettembreI
+    \repeat volta 2 {
+      \tuplet 3/2 8 { e'16\fE fis e } a8-!
+      \tuplet 3/2 8 { e16 fis e } cis'8-!
+      \tuplet 3/2 8 { e,16\p fis e } a8-!
+      \tuplet 3/2 8 { e16 fis e } cis'8-!
+      e,16\f d32 cis h16 d %5
+      cis a r8
+      e16\p d32 cis h16 d
+      cis a r8
+      cis''32(\f a16.) \tuplet 3/2 8 { gis16 fis e }
+      \appoggiatura e8 dis r %10
+      \once \slurDashed h'32( gis16.) \tuplet 3/2 8 { fis16 e d }
+      \appoggiatura d8 cis r
+      \once \slurDashed a'32( fis16.) \tuplet 3/2 8 { e16 d cis }
+      h8-! cis-!
+      gis64([ a h16.)] a64( h cis16.) %15
+      h8-!\p cis-!
+      gis64([ a h16.)] a64( h cis16.)
+      h32\f e e e e e e e
+      fis8-! e-!
+      dis32 dis dis dis dis dis dis dis %20
+      e8-! d-!
+      cis32 cis cis cis cis cis cis cis
+      d8-! cis-!
+      his32 his his his his his his his
+      cis8-! h-! %25
+      ais32 ais ais ais ais ais ais ais
+      h8-! a-!
+      gis32 e fis gis a h cis dis
+      e h cis dis e fis gis a
+      h8-! gis-! %30
+      e-! h-!
+      gis16 e' h cis
+      gis8-! fis-! \noBreak
+      e4
+    }
+    \repeat volta 2 {
+      \tuplet 3/2 8 { h'16 cis h } e8-! \noBreak %35
+      \tuplet 3/2 8 { h16 cis h } gis'8-!
+      \tuplet 3/2 8 { h,16\p cis h } e8-!
+      \tuplet 3/2 8 { h16 cis h } gis'8-!
+      h,16\f a32 gis fis16 a
+      gis e r8 %40
+      cis'16\p h32 a gis16 h
+      a\f fis cis' a
+      fis' cis a' fis
+      cis'32 cis cis cis cis cis cis cis
+      cis cis cis cis cis cis cis cis %45
+      cis,\p cis cis cis cis cis cis cis
+      cis cis cis cis cis cis cis cis
+      a16 cis fis fis,
+      a8 gis\trill
+      fis r %50
+      h'32(\f gis16.) \tuplet 3/2 8 { fis16 e! d }
+      \appoggiatura d8 cis r
+      fis32( d16.) \tuplet 3/2 8 { cis16 h a }
+      \appoggiatura a8 gis r
+      R4*3 %57
+      r32 e' e e e e e e
+      fis8-! e-!
+      dis32 dis dis dis dis dis dis dis %60
+      e8 d
+      cis32 a, h cis d e fis gis
+      a e fis gis a h cis d
+      e8-! cis-!
+      a-! e-! %65
+      cis16 a' e fis
+      cis8 h\trill
+    }
+    \alternative {
+      { a4 }
+      { a\fermata }
+    } \bar "||" %69 finis
+  }
+}
+
+O-IXbViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/8 \tempoO-IXb
+      \set Score.currentBarNumber = #70
+      \markSettembreII
+    \repeat volta 2 {
+      a'16( h) cis8 d %70
+      e cis16( a) fis'8
+      e( a) fis
+      e cis16( a) fis'8
+      e( a) fis
+      e cis16( a) a'8 %75
+      gis e16( h) dis8
+      e4 a,8
+      gis e16( h) dis8
+      e4.~\trill
+      e~ %80
+      e~
+      e
+      e8 e' e
+      dis h cis
+      h h, a' %85
+      gis16( h) h,8 dis
+      e e' e
+      dis h cis
+      h h, a'
+      gis16( h) h,8 dis \noBreak %90
+    }
+    \alternative {
+      { e4 r8 }
+      { e4 r8 }
+    }
+    \repeat volta 2 {
+      e16( fis) gis8 a \noBreak
+      h gis16( e) e'8
+      d! h'16( d,) cis8 %95
+      h gis16( e) e'8
+      d h'16( d,) cis8
+      h16( gis) e e' cis a
+      h( gis) e e' cis a
+      h( gis) e e' cis a %100
+      h cis d8 cis
+      h a' a
+      a e16( cis) a( fis')
+      e8 a, a
+      a e16( cis) a( fis') %105
+      e( cis) fis( d) cis( h)
+      cis( e) fis( d) cis( h)
+      cis( e) fis8 gis
+      a16( e) fis8 gis
+      a a' a %110
+      gis e fis
+      e d! d
+      cis a h
+      a a a
+      gis e fis %115
+      e e' d
+      cis16( e) e,8 gis
+    }
+    \alternative {
+      { a4 r8 }
+      { a4 r8\fermata }
+    } \bar "||" %119 finis
+  }
+}
+
+O-IXcViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \tempoO-IXc
+      \set Score.currentBarNumber = #120
+      \markSettembreIII
+    \repeat volta 2 {
+      \tuplet 3/2 4 { cis'8\fE a dis } \hA \appoggiatura dis e2
+      \tuplet 3/2 4 { h8 e, dis' } \hA \appoggiatura dis e2
+      \tuplet 3/2 4 { a8 a, h } cis8.\trill h32( cis) dis8.\trill cis32( \hA dis)
+      \tuplet 3/2 4 { e8 gis, h } e,4 r
+      fis'16( a8.) gis16( fis8.) e16( dis8.)
+      e16( g8.) fis16( e8.) d16( cis8.) %125
+      \tuplet 3/2 4 { d8 cis h a gis fis } e d
+      \appoggiatura d cis2 e'16( a8.)
+      cis2.
+      h~ \noBreak
+      h8 a \tuplet 3/2 4 { gis fis e fis e dis } %130
+    }
+    \alternative {
+      { e2 r4 }
+      { e2 r4 }
+    }
+    \repeat volta 2 {
+      h16( e8.) d!16( e8.) h16( e8.) \noBreak
+      cis16( e8.) d16( fis8.) e16( g8.)
+      \tuplet 3/2 4 { fis8 e d d cis h } h( a) %135
+      \appoggiatura a gis2 e'4\p
+      fis16( e8.) dis16( e8.) \hA dis16( e8.)
+      fis16( e8.) dis16( e8.) \hA dis16( e8.)
+      e16( d8.) cis16( d8.) cis16( d8.)
+      e16( d8.) cis16( d8.) cis16( d8.) %140
+      c16( h8.) a16( h8.) a16( h8.)
+      gis8\f h d2
+      cis!16( a'8.) fis16( d8.) cis16( h8.)
+    }
+    \alternative {
+      { a2 r4 }
+      { a2 r4\fermata }
+    } \bar "||" %145 finis
+  }
+}
+
+O-IXdViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key a \major \time 2/2 \tempoO-IXd
+      \set Score.currentBarNumber = #146
+      \markSettembreIV
+    \repeat volta 2 {
+      a''4\fE a2 h8 cis %146
+      h4 dis, e4. fis16 gis
+      a4 fis cis dis
+      e h e,2
+      r4 fis' gis( a) %150
+      e gis, a2
+      r4 fis'\p gis( a)
+      e gis, a4. h16 cis
+      d8( cis) d4 h' cis,
+      h\f e dis( e) %155
+      r e fis( e)
+      r e\p dis( e)
+      r e fis( e)
+      \grace { fis8[ gis] } a1~\f
+      a~ %160
+      a8 fis dis fis h,2
+      r4 cis' h( a)
+      gis( dis) e( a,)
+      gis8 a h4 h, dis \noBreak
+      e e' h gis %165
+    }
+    \alternative {
+      { e2 r }
+      { e r }
+    }
+    \repeat volta 2 {
+      h'4 h2 cis8 d! \noBreak
+      e4 e2 e4
+      cis' e,8( g) fis( e) d( cis) %170
+      d( e) cis( d) h2
+      h,4 h'2 cis4
+      d d2 d4
+      h' d,8( fis) e( d) cis( h)
+      cis( d) h( cis) a2 %175
+      r4 cis\p dis( e)
+      h dis, e4. fis16 gis
+      a4\f a' cis, dis
+      e h e,2
+      r4 fis'\p gis( a) %180
+      e gis, a4. h16 cis
+      d4\f d' fis, gis
+      a e a,2
+      r4 fis'\p h,( d)
+      r e a,( cis) %185
+      \grace { h8[ cis] } d1~\f
+      d~
+      d~
+      d8 h gis h e,2
+      r4 fis' e( d) %190
+      cis( gis) a( fis')
+      cis8 d e4 e, gis
+      a a' e cis
+    }
+    \alternative {
+      { a2 r }
+      { a r\fermata }
+    } \bar "||" %195 finis
+  }
+}
+
+O-IXeViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 12/8 \tempoO-IXe
+      \set Score.currentBarNumber = #196
+      \markSettembreV
+    \repeat volta 2 {
+      cis'16(\fE h cis d) cis8 e16( d e fis) e8 a4.~ a8 h cis
+      d16( cis) h8 a gis16( fis) e8 d \appoggiatura d8 cis4. r4 r8
+      r8 cis' e, r cis' e, r h' e, r h' e,
+      cis'( a) fis dis( h) a gis h16( a gis fis) e8 gis h
+      r e e r e e r e e r e e %200
+      r e\p e r e e r e\f e~ e fis gis
+      a4.~ a~ a8 \parOn fis-\parenthesize-! dis-! a-! fis-! \parOff dis-\parenthesize-!
+      h4 r8 h'4.\p cis dis
+      e h ais a
+      gis a gis16( a) h8 a gis( a) fis \noBreak %205
+      e h''\f gis e h gis e4 r8 r4 r8
+    }
+    \repeat volta 2 {
+      h'16( a h cis) h8 e16( d e fis) e8 a16( gis a h) a8 g16( fis \hA g a) \hA g8 \noBreak
+      fis8 cis ais fis \hA ais cis d h fis d4.
+      d'16( cis d e) d8 fis16( e fis gis) fis8 h h, h' a! a, a'
+      gis e h gis e h' cis a e cis4. %210
+      cis'16( h cis d) cis8 a'( e) cis \appoggiatura cis h4. r4 r8
+      c16(\p h \hA c d) \hA c8 a' e c \hA \appoggiatura c h4. r4 r8
+      cis16(\f h cis d) cis8 cis16( h cis d) cis8 cis16( h cis d) cis8 cis16( h cis d) cis8
+      r fis fis r e e r d' d r cis cis
+      r h, h r a a gis h16 a gis fis e4.\p %215
+      fis gis a e
+      dis d cis d
+    }
+    \alternative {
+      { cis16(\f d) e8 d cis( d) h a e'16 d cis h a4. }
+      { cis16( d) e8 d cis( d) h a e'16 d cis h a4.\fermata }
+    } \bar "|." %219 finis
   }
 }

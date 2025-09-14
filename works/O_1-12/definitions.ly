@@ -186,6 +186,23 @@ markAgostoVb = \markTitle
   "La notte di 11. hore."
   "… die Nacht 11. Stund."
 
+markSettembreI = \markTitle
+  "1. La Vacanza."
+  "Die erfreuliche Studenten-Vacanz."
+markSettembreII = \markTitle
+  "2. Pastorale."
+  "Ein Hirten-Stuck."
+markSettembreIII = \markTitle
+  "3. Menuet il Giorno e Notte equale."
+  "Tag und Nacht gleich."
+markSettembreIV = \markTitle
+  "4. L’Autunno Grato."
+  "Der angenehme Herbſt."
+markSettembreV = \markTitle
+  "5. Il Sole nella Libra."
+  "Die Sonn in der Waag."
+
+
 \layout {
   \set Score.doubleRepeatBarType = #":|.|:"
 }
@@ -241,6 +258,12 @@ tempoO-VIIIb = \tempoMarkup "[Tempo deest]"
 tempoO-VIIIc = \tempoMarkup "Allegro"
 tempoO-VIIId = \tempoMarkup "Allegro"
 tempoO-VIIIe = \tempoMarkup "[Tempo deest]"
+
+tempoO-IXa = \tempoMarkup "Vivace"
+tempoO-IXb = \tempoMarkup "Allegro"
+tempoO-IXc = \tempoMarkup "[Tempo deest]"
+tempoO-IXd = \tempoMarkup "Allegro"
+tempoO-IXe = \tempoMarkup "Spirituoso"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

@@ -443,4 +443,58 @@
       >>
     }
   }
+  \bookpart {
+    \section "O.9" "Il Settèmbre, im Herbstmonat"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-IXaContinuo }
+        \new FiguredBass { \O-IXaBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \O-IXbContinuo }
+        \new FiguredBass { \O-IXbBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \O-IXcContinuo }
+        \new FiguredBass { \O-IXcBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \paper { system-count = #7 }
+    \score {
+      <<
+        \new Staff { \O-IXdContinuo }
+        \new FiguredBass { \O-IXdBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \paper { system-count = #7 }
+    \score {
+      <<
+        \new Staff { \O-IXeContinuo }
+        \new FiguredBass { \O-IXeBassFigures }
+      >>
+    }
+  }
 }
