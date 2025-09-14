@@ -1,0 +1,35 @@
+title: Missa
+id: WerW B.68
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-HE
+    shelfmark: VIII a 2
+    rism: 600091425
+    license: public domain
+    principal: true
+    notes: vl 2 missing
+  B2:
+    siglum: A-KN
+    shelfmark: 940/2
+    url: https://db.klostermusiksammlungen.at/scores/1808
+    license: public domain
+    notes: S and A missing; includes 2 trb
+tocstyle: default
+toe: |
+  2 & 1     & vl 1 & last \quarterNote\ in \B1: e″4 \\
+    & 39–72 & –    & In most parts of \B1 and \B2, this section is written
+                     with two half notes per bar. However, in the bass part
+                     of \B1, each bar comprises four half notes, which likely
+                    corresponds to Werner's original notation. \\
+    & 42f, 56, 62f & org & treble ottavo clef added by editor \\
+  3 & 20    & vl 2 & 3rd to 6th \quarterNote\ in \B2:
+                     \sharp f′4–g′4–a′4–g′8–\sharp f′8 \\
+    & 25    & vl 2 & 2nd/3rd \quarterNote\ in \B2: \sharp f′2 \\
+    & 33    & vl 1 & 2nd \eighthNote\ in \B1 and \B2: g′8 \\
+    & 69    & vl 2 & last \quarterNote\ in \B2: b'4 \\
+  4 & 23    & vl 2 & 5th \eighthNote\ in \B2: a′8 \\
+  5 & 13    & vl 2 & 4th to 6th \eighthNote\ in \B2: b′8–a′8–g′8 \\
+  6 & 1     & B    & tempo indication in \B1: “Adagio” \\
