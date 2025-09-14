@@ -1,0 +1,24 @@
+title: Vidi aquam
+id: WerW D.5.S2
+genre: antiphon
+scoring: S, A, T, B (coro), b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.344
+    rism: 530003674
+    url: https://copia.oszk.hu/kotta/vidi-aquam-d-moll/
+    license: public domain
+    principal: true
+toe: |
+  26 & S & note in \B1: g′ \\
+  39 & T & note in \B1: d′ \\
+lyrics:
+  Vidi aquam egredientem de templo\\
+  a latere dextro, alleluia.\\
+  Et omnes, ad quos perveniet aqua ista,\\
+  salvi facti sunt et dicent alleluia.\\
+  Confitemini Domino, quoniam bonus:\\
+  Quoniam in saeculum misericordia eius.\\
+  (\bibleverse{Eze}(47:1,9), \bibleverse{Ps}(106/105:1))
