@@ -440,3 +440,161 @@ B-XIXCredoAltoLyrics = \lyricmode {
   a -- men, a --
   men. %117 finis
 }
+
+B-XIXSanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \autoBeamOff \tempoB-XIXSanctus
+    R1*2
+    r2 \mvTr d4\fE^\tutti b'~
+    b8[ a cis, g']~ g[ f16 e] d[ e f g]
+    a8[ gis16 fis?] e8[ fis] gis4 a16[ e a8]~ %5
+    a g4 f16[ e] f8 d r4
+    cis4 a'4. fis8[ d g]~
+    g[ e c f]~ f[ e16 d] e4
+    f r r8 g g b
+    a([ g)] f([ e)] f([ e)] f4 \noBreak %10
+    e r r2
+    \tempoB-XIXPleni r8 a a a a a r4 \noBreak
+    r8 d, g f e e r4
+    f8. f16 f4 f f8 f
+    e( f4 e8) f4 r \noBreak %15
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-XIXOsanna \newSpacingSection
+      R1.*3
+    r2 \mvTr a,\fE^\tutti a' %20
+    gis4 h e, fis g2
+    fis4 a d, e f2
+    e8[ d] e4~ e8[ f] g2 a4
+    d,8[ c] d4~ d8[ e] f2 g4
+    a d,2( e4 f g) %25
+    a2.( g4) e( fis)
+    g2. f4 d( e)
+    f a2 b4 c( b8[ a)]
+    g4 e8([ f] g4.) a8 b4( a8[ g)]
+    f2 b, b' %30
+    a4 c f, g as2
+    g4 b es, f g2
+    fis4 d2( e4) \hA fis( g)
+    a2. g4 e fis
+    g2. fis4 d e %35
+    fis g a g \hA fis a
+    g2 fis e!
+    fis1.\fermata \bar "|." %38 finis
+  }
+}
+
+B-XIXSanctusAltoLyrics = \lyricmode {
+  San -- _ %3
+  _
+  _ _ _ _ %5
+  _ _ _ ctus,
+  san -- _ _
+  _
+  ctus Do -- mi -- nus
+  De -- us Sa -- ba -- %10
+  oth.
+  Ple -- ni sunt coe -- li,
+  coe -- li et ter -- ra
+  glo -- ri -- a, glo -- ri -- a
+  tu -- a. %15
+
+  In ex -- %20
+  cel -- _ _ _ _
+  _ _ _ _ _
+  _ _ _ _
+  _ _ _ _
+  sis, o -- %25
+  san -- na __
+  in ex -- cel --
+  sis, in ex -- cel --
+  sis, in __ ex -- cel --
+  sis, in ex -- %30
+  cel -- _ _ _ _
+  _ _ _ _ _
+  sis, in __ ex --
+  cel -- _ _ _
+  _ _ _ _ %35
+  _ _ _ _ _ _
+  _ _ _
+  sis. %38 finis
+}
+
+B-XIXAgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \autoBeamOff \tempoB-XIXAgnus
+    r2 \mvTr fis4\fE^\tutti g
+    g( f8[ e)] f4 r
+    r8 fis fis fis g4.( f8
+    es2) d8 d b'4(
+    a) f e2 %5
+    d4 r r8 gis4 gis8
+    gis gis a2( \hA gis4)
+    a r r2
+    R1*4 %12
+    r2 r8 \mvTr d,4\fE^\tutti d8
+    gis4 gis8 gis a4 a8 a
+    fis4 g a4.( g8) %15
+    fis4 r r8 d g g
+    f2.( e!4) \noBreak
+    f2 r\fermata \bar "||"
+    \tempoB-XIXDona
+      \mvTr f8.([\pE^\solo a32 g] f8) e f8.([ a32 g] f8) e \noBreak
+    \mvTr f8([\fE^\tutti a f d)] a'4 r %20
+    r \mvTr e(\pE^\solo f) gis
+    \mvTr a8\fE^\tutti e a2( gis4)
+    a r r2
+    R1
+    f8.([ a32 g] f8) e f8.([ a32 g]) f8 r %25
+    R1
+    a8.([ c32 h] a8) gis a8.([ c32 \hA h] a8) \hA gis
+    a([ gis] a4) \hA gis gis(
+    a \once \stemUp h) e, a(
+    gis g) f! fis %30
+    g a4. g8 g4~
+    g8[ f] f4. e8 e4~
+    e8[ d] f4~ f16[ g f g] f[ g f g] \noBreak
+    e4 r r2
+    \tempoB-XIXDonaB r2 f8 f f f %35
+    f4 f r f(
+    e2)\trill d\fermata \bar "|." %37 finis
+  }
+}
+
+B-XIXAgnusAltoLyrics = \lyricmode {
+  A -- gnus
+  De -- i,
+  pec -- ca -- ta mun --
+  di, pec -- ca --
+  ta mun -- %5
+  di: Mi -- se --
+  re -- re no --
+  bis.
+
+  A -- gnus %13
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun -- %15
+  di, pec -- ca -- ta
+  mun --
+  di:
+  Do -- na no -- bis
+  pa -- cem, %20
+  do -- na
+  no -- bis pa --
+  cem,
+
+  do -- na no -- bis, %25
+
+  do -- na no -- bis
+  pa -- cem, pa --
+  cem, pa --
+  cem, pa -- %30
+  _ _ _ _
+  _ _ _
+  _ _
+  cem,
+  do -- na no -- bis %35
+  pa -- cem, pa --
+  cem. %37 finis
+}

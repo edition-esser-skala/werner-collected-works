@@ -543,3 +543,238 @@ B-XIXCredoBassFigures = \figuremode {
   <5 _+>4 <6 5>8 <\t 4> <5 \t>4 <\t _+>
   r1 %117 finis
 }
+
+B-XIXSanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \tempoB-XIXSanctus
+    << {
+      s1
+      a'4 f'4. e8 gis, d'~
+      d c16 b! a b c a
+    } \\ {
+      \oneVoice \mvTr d,4-!\fE-\tutti b'4.-! a8-! cis,-! g'~-!
+      \voiceTwo g f16 e d8 a16 h c8. d16 e fis gis e
+      a8. g16 fis g e \hA fis
+    } >> g8 g d e
+    f4 e d \clef treble << {
+      f''~
+      f8 e gis, d'~ d c16 h c4 %5
+      h cis
+    } \\ {
+      d,16 e f g
+      a8 gis16 fis? e8 fis gis4 a16 e a8~ %5
+      a g~ g f16 e
+    } >> \clef bass d,4 b'~
+    b8 a cis, g' fis4 g8. f16
+    e4 f8 d c2
+    f,4 r r8 e' e d
+    cis4 d8 a' d, a f d \noBreak %10
+    a'4 r r2
+    \tempoB-XIXPleni r8 a' f a d d, r4
+    r8 g e f c c r4
+    f8 f f f d d b b
+    c f c4 f, r \noBreak %15
+    r r8 c'-\markup \remark "con pedale" f,4 r\fermata \bar "||"
+    \time 3/2 \tempoB-XIXOsanna \newSpacingSection
+    << {
+      s2 d''1 \noBreak %17
+      cis4 e a, h c2
+      h4 d g, a b2
+      a
+    } \\ {
+      \mvTr d,2.\fE-\tuttiE e4 f g %17
+      a2. g4 e fis
+      g2. f4 d e
+      f2
+    } >> f, f' %20
+    e1 e2
+    d1 d2
+    a'2. g4 e fis
+    g2. f4 d e
+    f4. e8 d4 c b2 %25
+    a \clef treble << {
+      a''4 h c!2
+      h4 d g, a b2
+    } \\ {
+      a4 g e fis %26
+      g2. f4 d e
+    } >>
+    \clef "treble_8" f,2. g4 a b
+    c2. b4 g a
+    \clef bass << { b2 } \\ { b,2. } >> c4 d es %30
+    f2. es4 c d
+    es2. d4 b c
+    d1.~-\tasto
+    d~
+    d~ %35
+    d~
+    d~
+    d\fermata \bar "|." %38 finis
+  }
+}
+
+B-XIXSanctusBassFigures = \figuremode {
+  r1
+  r
+  r2 <5 3>4 <6->8 <\t>
+  <4 2> <3 1> <6\\> <3> <5 4> <\t 3>4.
+  r1 %5
+  r2 <5>8 <6-> <6>4
+  <5 2\+>8 <\t \t> <6> <4\+ 2> <6>2
+  <6[!] 5>4. <6->8 <6 4>4 <5 3>
+  r2 r8 <6\\>4 <8 6->8
+  <3 6>4. <_+>4 q8 <[6]>4 %10
+  <_+>1
+  r8 q <6> \bo <[_+]> r2
+  r4 \bc <[6!]>2.
+  r2 <5>
+  r4 <4>8 <3> r2 %15
+  r1
+  r1.
+  r
+  r
+  r2 <10 5>2. <\t 6>4 %20
+  <3+ 8>2 <3! 5[!]>2. <\t 6\\>4
+  <3+ 8>2 <3! 5>2. <\t 6!>4
+  r1 r4 <[6]>
+  <_->1 r4 <[6]>
+  <6>1 <5>4 <6> %25
+  <_+>1.
+  r
+  r
+  r1 <6->4 <\t>
+  <4[-]>2 <3>1 %30
+  r2. <[6]>4 <6- [_-]> <\t>
+  <3>2. <[6]>4 <6>2
+  <_+>1.
+  r
+  r %35
+  r
+  r
+  r %38 finis
+}
+
+B-XIXBenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \tempoB-XIXBenedictus
+    \mvTr f8\pE-\solo a g f e d c b
+    a f' e d c b a g
+    f4 r c' r
+    f8 a g f b,4 r
+    g'8 h a g c,4 r %5
+    a8 cis h? a d f g b
+    a g a a, d4 r
+    r2 d8 f' e d
+    cis h a g f d' cis h
+    a g f e d c! b a %10
+    g4 r c8 b a g
+    f4 r8 a b4 h
+    c cis d4. c8
+    b!2 a4 r
+    a^\markup \remark "con pedale" r a r\fermata \markOsannaUtSupra \bar "||" %15 finis
+  }
+}
+
+B-XIXBenedictusBassFigures = \figuremode {
+  r2 \bo <[6]>
+  <6>1
+  r
+  r
+  \bc <[_!]> %5
+  <_+>2.. <6>8
+  <6 4>4 <5 _+>2.
+  r1
+  \bo <[6]>2 \bc q
+  <_+>1 %10
+  r
+  r2. \bo <[6]>4
+  r \bc q2 <6->8 <6>
+  <7>4 <6\\> <_+>2
+  \bo <[6 4]> \bc <[5 _+]> %15 finis
+}
+
+B-XIXAgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \tempoB-XIXAgnus
+    \mvTr d2~\fE-\tutti d~
+    d~ d4 r
+    r8 es es es cis4 d
+    g, a b4. g8
+    a a' b f g4 a %5
+    d, r r8 f4 f8
+    e4 dis e2
+    a,8 a'4-\solo g8 f2\pE
+    es d
+    h c %10
+    cis d4. f8
+    g8. f16 e8 d cis4 d8 b!
+    g4 a d r
+    r8 \mvTr d\fE-\tutti d d a2
+    r8 d b g fis4 g %15
+    d' r r8 g es c^\critnote
+    f!4 d g2 \noBreak
+    f r\fermata \bar "||"
+    \tempoB-XIXDona \mvTr d4\pE-\solo r8 a' d,4 r8 a' \noBreak
+    \mvTr d\fE-\tutti-\unisono a f d a4 r %20
+    R1
+    \mvTr a'4.\fE-\tutti f8 d4 e
+    a, r gis-\solo r
+    a f' d e
+    f4.-\tutti c8 f4 f,8 fis'-\soloE-\markup \remark "con pedale" %25
+    g4. d8 g4. e8
+    a4.-\tutti e8 a4. e8
+    a e c a e4 e'
+    fis gis a \clef "treble_8" a
+    h cis d \clef bass d, %30
+    e fis g e
+    f d e cis
+    d d' b! gis
+    a r r2
+    \tempoB-XIXDonaB e4\p r r2 %35
+    h4 r a-\markup \remark "con pedale" d
+    a2 d\fermata \bar "|." %37 finis
+  }
+}
+
+B-XIXAgnusBassFigures = \figuremode {
+  <3>2<6- _+>4 <\t 4>
+  <7\\ 6 4> \bassFigureExtendersOn <7\\ 5 3[!]>8 <7\\ 4 2> \bassFigureExtendersOff <8 5 3>2
+  r8 <6[!] 4 2\+>4. <7 5 [_!]>4 <5 4>8 <\t 3[!]>
+  <6->4 <5[-]> <9>8 <8>4.
+  \bo <[5!] _+>4. \bc <[6]>8 <6 5>4 <_+> %5
+  r2 r8 <4! 2\+>4.
+  <[7] 5[!] _+>4 <7[!] 5 [_+]> <5[!] 4> <\t _+>
+  r8 <5> <6> <6 [_-]> r2
+  <6 4 2> <6->
+  <6>4 <5> <_->2 %10
+  <6 [_!]>4 <5>2.
+  r4 <6> q <9>8 <6>
+  <6 5>4 <_+>2.
+  r8 <[6!] 4\+ _!>4. <8 6 4>8 <\t 5 _+>4.
+  r8 <_+> <6[!]>4 <6>8 <5[!]> <9> <8> %15
+  <_+>2 r8 <_!> <6>4
+  r <6-> <7> <6>
+  r1
+  r4. <_+>2 q8
+  r1 %20
+  r
+  <[_!]>4. <6>8 <6! 5>4 <[5!] _+>
+  r2 <5 [_!]>
+  r <6- 5>
+  r2.. \bo <[6]>8 %25
+  r4. <_+>2 <5! _+>8
+  r4. q2 q8
+  r q <6>4 \bc <[5!] _+>2
+  <6\\>4 <5! [_!]> <_!> <_+>
+  <6\\> <5!> <_!> <_+> %30
+  <6\\> <5!> \bo <[9] _!>8 \bc <[8] \t> <6 5->4
+  <9>8 <8> <6- 5>4 <9 5- 3>8 <8 \t \t> <6 5>4
+  <9>8 <8>4. <5>4 <7 5 [_!]>
+  <_+>1
+  <6\\ 5-> %35
+  <6\\ 5>2 \bo <[_+]>
+  <4>4 \bc <[_+]>2. %37 finis
+}

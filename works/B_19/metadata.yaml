@@ -20,7 +20,10 @@ sources:
     license: public domain
 tocstyle: default
 toe: |
-  1 & 14 & vl 2 & 6th/7th \eighthNote\ in \A1: \sharp c′8–d′8 \\
-    & 49 & T    & 1st \quarterNote\ in \A1: e′4 \\
-  2 & 18–36 & – & in \B1 written with two flat signs \\
-    & 37–46 & – & In \A1, this section is written with two \halfNote\ per bar. \\
+  1 & 14    & vl 2 & 6th/7th \eighthNote\ in \A1: \sharp c′8–d′8 \\
+    & 49    & T    & 1st \quarterNote\ in \A1: e′4 \\
+  2 & 18–36 & –    & in \B1 written with two flat signs \\
+    & 37–46 & –    & In \A1, this section is written
+                     with two \halfNote\ per bar. \\
+  6 & 3     & vl 2 & 2nd \halfNote\ in \A1: g′4–f′4 \\
+    & 16    & org  & last \eighthNote\ in \A1: \flat e8 \\

@@ -248,3 +248,104 @@ B-XIXCredoViolinoI = {
     d2 r\fermata \bar "|." %117 finis
   }
 }
+
+B-XIXSanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoB-XIXSanctus
+    R1*3
+    r2 a'4\fE f'~
+    f8 e gis, d'~ d c16 h c4\trill %5
+    h cis\trill d8 b4 g8
+    r2 d4 b'~
+    b8 a16 g a8 b a4 g\trill
+    a8 a a h cis4. d8
+    e8. e16 d8 cis d( \hA cis) d4 \noBreak %10
+    cis16(\p a') gis( e) f( d) cis( h?) \hA cis( a) gis( e) f( d) cis( h?)
+    \tempoB-XIXPleni cis4 r r16 f'\fE a f d f a, d \noBreak
+    b4 r r16 g' e g c, e g, c
+    a32( f16.) c'32( a16.) f'32( c16.) a'8 f,32( d16.) a'32( f16.) d'32( b16.) f'8
+    e32( c16.) a32( f'16.) g,8 e' f32( a16.) a,32( c16.) b32( d16.) g,32( b16.) \noBreak %15
+    a32( c16.) f,32( a16.) g32( b16.) e,32( g16.) f4 r\fermata \bar "||"
+    \time 3/2 \tempoB-XIXOsanna \newSpacingSection
+      R1.*8 \noBreak %24
+    r2 d\fE d' %25
+    cis4 e a, h c2
+    h4 d g, a b2
+    a4 c f,2 f'
+    e4 g c, d es2~
+    es d r %30
+    R1.*2
+    d,1 d'2
+    cis4 e a, h c2
+    h4 d g, a b2 %35
+    a4 b c es d c
+    b8( c) b4 a2 g
+    a1.\fermata \bar "|." %38 finis
+  }
+}
+
+B-XIXBenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoB-XIXBenedictus
+    R1
+    r8 c'16(\pE a') g8 f e d c b
+    a c b a g b a g
+    a f r4 b8 d c b
+    h4 r e,8 g f e %5
+    a4 r r2
+    r r8 a16( f') e8 d
+    cis e16( b'!) a8 g f16( e) d8 r4
+    r2 r8 f e d
+    cis b! a g f4 r %10
+    d'8 c b a g4 r
+    c8 b a16 b c8 f, d d'4
+    r8 g, e'4 r2
+    r e,8\p g f e
+    f d cis h \hA cis4 r\fermata \markOsannaUtSupra \bar "||" %15 finis
+  }
+}
+
+B-XIXAgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoB-XIXAgnus
+    r2 r4 d'\fE
+    cis4. cis8 d a a b
+    c4 c b a
+    b c4. b8 d4
+    cis8 cis d2 \hA cis4 %5
+    d8 d,4 d8 h'2~
+    h4 c! \hA h2\trill
+    a8 c f e f4\pE c~
+    c a b8 b b b
+    d16( g,) h d f8.\trill es32 d \hA es8 c,16. es32 g8 c %10
+    e16( a,) cis( e) g8.\trill f32 e f16 d a f d4
+    r2 r8 e'4 d8~
+    d8. e16 cis4\trill d r
+    r8 h'4\fE h8 a4 r
+    r8 a, d, d' d c! b!4\trill %15
+    a8 d d d h4 c8 c
+    a a b4. g8 b4 \noBreak
+    a2 r\fermata \bar "||"
+    \tempoB-XIXDona R1*2 %20
+    e'16(\p f) e( f) e( f) e( f) d( e) d( e) d( e) d( e)
+    c!8.\fE e32 d c8 d \appoggiatura c4 h2\trill
+    a16( e') d( e) d( e) d( e) d( e) d( e) d( e) d( e)
+    c( d) c( d) c( d) c( d) b!( c) b( c) b( c) b( c)
+    a4 r r r8 d %25
+    b8. d32 c b8 a b8. d32 c b16 g h8
+    c8. e32 d c8 h c8. e32 d c8 \hA h
+    c h a c \hA h4 r
+    r2 r16 a' gis( a) \hA gis( a) \hA gis( a)
+    gis( a) \hA gis( a) g( a) g( a) f8 d fis4 %30
+    g a d,8 d g g
+    c, c f! f b,? b e e
+    a,4~ a8.\trill b32 c d16( e) d( e) d( e) d( e) \noBreak
+    cis( d) \hA cis( d) \hA cis( d) \hA cis( d) e( f) e( f) g( a) g( a)
+    \tempoB-XIXDonaB b4 r r2 %35
+    R1
+    R\fermata \bar "|." %37 finis
+  }
+}
