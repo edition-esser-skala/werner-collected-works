@@ -1,0 +1,26 @@
+title: Missa solitaria
+id: WerW B.19
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.32
+    date: 1759
+    rism: 530001942
+    url: https://copia.oszk.hu/kotta/missa-solitavia-in-d-m/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: A 65
+    rism: 600037871
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/716.html
+    license: public domain
+tocstyle: default
+toe: |
+  1 & 14 & vl 2 & 6th/7th \eighthNote\ in \A1: \sharp c′8–d′8 \\
+    & 49 & T    & 1st \quarterNote\ in \A1: e′4 \\
+  2 & 18–36 & – & in \B1 written with two flat signs \\
+    & 37–46 & – & In \A1, this section is written with two \halfNote\ per bar. \\
