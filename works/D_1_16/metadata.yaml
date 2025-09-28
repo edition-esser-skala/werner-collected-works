@@ -1,0 +1,45 @@
+title: Beatus vir qui inventus est
+id: WerW D.1.16
+genre: motet
+scoring: B (solo), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-P
+    shelfmark: W 19
+    rism: 530002909
+    license: public domain
+    principal: true
+toe: |
+  9  & vl 1 & 2nd \halfNote\ in \B1: c″4–\crotchetRest \\
+  28 & org  & 4th \eighthNote\ in \B1: b8 \\
+  29 & vl 2 & 2nd \halfNote\ in \B1: a′4–a4 \\
+  32 & vl 1 & 2nd \eighthNote\ in \B1: e′8 \\
+  41 & vl 2 & 6th \eighthNote\ in \B1: e′8 \\
+  42 & vl 1 & 3rd \quarterNote\ in \B1: d″8–e″16–f″16 \\
+  42 & vl 2 & 2nd \halfNote\ in \B1: \sharp e′8–f′8–g′16–f′16–g′8 \\
+  43 & vl 1 & 1st \quarterNote\ in \B1: c″8–d″16–e″16 \\
+  43 & org  & last \eighthNote\ in \B1: d8 \\
+  62 & org  & 2nd \halfNote\ in \B1: a2 \\
+  97 & vl 1 & 1st \wholeNote\ in \B1: e′2–\halfNoteRest \\
+  97 & B    & 1st \wholeNote\ in \B1: c2–\halfNoteRest \\
+lyrics:
+  Beatus vir qui inventus est sine macula,\\
+  et qui post aurum non abiit\\
+  nec speravit in pecuniae thesauris.\\
+  Quis est hic, et laudabimus eum,\\
+  fecit enim mirabilia in vita sua.\\
+  (Cantus Index 200607)\\[1ex]
+  Iustus germinabit sicut lilium\\
+  et florebit in aeternum ante Dominum\\
+  plantatus in domo Domini,\\
+  in atriis domus Dei nostri.\\
+  (Cantus Index 003549)\\[1ex]
+  Laetentur omnes qui sperant in te, Domine,\\
+  quoniam tu benedixisti iusto scuto,\\
+  bonae voluntatis coronasti eum.\\
+  (Cantus Index 003570)\\[1ex]
+  Alleluia.
+parts:
+  B_solo: Basso solo
+acknowledgements: Permission of the Diocese of Pécs to use their archival materials for this edition is gratefully acknowledged.
