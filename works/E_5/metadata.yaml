@@ -1,0 +1,53 @@
+title: Seht! Wie der ſtolzen Schlangen Haubt
+id: WerW E.5
+genre: aria
+festival: pro Adventu de immaculata conceptione
+scoring: S (solo), 2 vl, vla amabile (solo), b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.308
+    date: 1759
+    rism: 530003639
+    url: https://copia.oszk.hu/kotta/cantilena-pro-adventu-di-immaculata-conceptione-in-c/
+    license: public domain
+    principal: true
+toe: |
+  – & – & Due to manuscript damage, the following bars are illegible in \A1:
+          vl 1: 2 (2nd \quarterNote);
+          vla: 10 (1st \quarterNote);
+          S:  2 (1st \quarterNote) and
+             27 (4th \quarterNote);
+          vlne:  2 (1st \halfNote),
+                11 (1st \halfNote), and
+                14 (3rd \quarterNote);
+          org: 10,
+               11 (1st \halfNote),
+               12 (2nd to 4th \quarterNote),
+               13 (1st \halfNote), and
+               15 (4th to 8th \eighthNote). \\
+extra_abbreviations:
+  vla amabile: Viola amabile
+parts:
+  vla: Viola amabile
+  S_solo: Soprano solo
+lyrics:
+  Seht! Wie der ſtolzen Schlangen Haubt,\\
+  die durch die lange Erbſündsketten\\
+  den Theil des Himmels unß beraubt,\\
+  von einer Jungfrau wird zertretten,\\
+  die unß durch keuſche Tapfferkeit\\
+  von dißer Ketten auch befreyt.\\[1ex]
+  Gleich wie der reine Himmelsthau\\
+  daß Güfft von Früchten treibet,\\
+  ſo hat dich Gott, ô reine Frau,\\
+  der Keuſchheit einverleibet,\\
+  daß nie der hölliſch Schlangen Zahn\\
+  an deine Blüe ein Güfft gethan.\\
+  Weil dan die Schlang dich nicht verſucht,\\
+  drum iſt uns auch ein heilige Frucht\\
+  auß deiner reinen Schoß entſproßen,\\
+  worauß ein[?] bluetiger Safft gefloßen,\\
+  der unßer Seelen welges Blat\\
+  von Erbſündsgüfft gewaſchen hat.
