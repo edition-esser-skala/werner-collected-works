@@ -1,0 +1,21 @@
+title: Ad te Domine levavi
+id: WerW D.2.2
+genre: offertorium
+festival: de Tempore vel de Dominica
+scoring: S, A, T, B (coro), 2 vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.59
+    rism: 530002140
+    url: https://copia.oszk.hu/kotta/offertorium-de-tempore-vel-de-dominica/
+    license: public domain
+    principal: true
+lyrics: |
+  Ad te, Domine, levavi animam meam:\\
+  Deus meus, in te confido, non erubescam.\\
+  Neque irrideant me inimici mei:\\
+  et enim universi qui te expectant,\\
+  non confundentur.\\[1ex]
+  (\bibleverse{Ps}(25/24:1-3))
