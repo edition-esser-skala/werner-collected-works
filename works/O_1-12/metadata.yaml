@@ -16,24 +16,26 @@ sources:
 tocstyle: default
 toe: |
   \setcounter{tocdepth}{1}
-  – & –   & –    & In \C1, the rhythm \rhythmSdSS\ is always
-                   written as \rhythmSdTT. \\
-  1 & 111 & bc   & bar in \C1: C4–\quaverRest \\
-    & 133 & vl 1 & 1st \eighthNote\ in \C1: a′8 \\
-    & 140 & vl 1 & 2nd \eighthNote\ in \C1: d″8 \\
-  2 & 193 & bc   & 1st \eighthNote\ in \C1: \sharp F8 \\
-  4 & 30  & vl 1 & 2nd \quarterNote\ in \C1: a′4 \\
-    & 111 & vl 1 & 5th \eighthNote\ in \C1: a′8 \\
-  5 & 98  & vl 2 & bar in \C1: a′2. \\
-    & 108 & vl 1 & grace note of 2nd \quarterNote\ in \C1: \sharp g′8 \\
-    & 118 & vl 1 & 10th \sixteenthNote\ in \C1: d″16 \\
-  7 & 3   & vl 2 & 2hd \quarterNote\ in \C1: f″8–f′16–e″16 \\
-    & 7   & vl 2 & 1st \eighthNote\ in \C1: \sharp c″32–d″16. \\
-    & 15  & vl 1 & 4th \eighthNote\ in \C1: c′′′16.–e″32 \\
-    & 20/21 & vl 2 & 1st \eighthNote\ in \C1: d′16–d″16 \\
-    & 49  & vl 1 & 1st \quarterNote\ in \C1: a′8.–f″32–d″32 \\
-  8 & 106 & bc   & 1st \quarterNote\ in \C1: G4 \\
-    & 107 & bc   & bar in \C1: F2. \\
+  –  & –   & –    & In \C1, the rhythm \rhythmSdSS\ is always
+                    written as \rhythmSdTT. \\
+  1  & 111 & bc   & bar in \C1: C4–\quaverRest \\
+     & 133 & vl 1 & 1st \eighthNote\ in \C1: a′8 \\
+     & 140 & vl 1 & 2nd \eighthNote\ in \C1: d″8 \\
+  2  & 193 & bc   & 1st \eighthNote\ in \C1: \sharp F8 \\
+  4  & 30  & vl 1 & 2nd \quarterNote\ in \C1: a′4 \\
+     & 111 & vl 1 & 5th \eighthNote\ in \C1: a′8 \\
+  5  & 98  & vl 2 & bar in \C1: a′2. \\
+     & 108 & vl 1 & grace note of 2nd \quarterNote\ in \C1: \sharp g′8 \\
+     & 118 & vl 1 & 10th \sixteenthNote\ in \C1: d″16 \\
+  7  & 3   & vl 2 & 2hd \quarterNote\ in \C1: f″8–f′16–e″16 \\
+     & 7   & vl 2 & 1st \eighthNote\ in \C1: \sharp c″32–d″16. \\
+     & 15  & vl 1 & 4th \eighthNote\ in \C1: c′′′16.–e″32 \\
+     & 20/21 & vl 2 & 1st \eighthNote\ in \C1: d′16–d″16 \\
+     & 49  & vl 1 & 1st \quarterNote\ in \C1: a′8.–f″32–d″32 \\
+  8  & 106 & bc   & 1st \quarterNote\ in \C1: G4 \\
+     & 107 & bc   & bar in \C1: F2. \\
+  10 & 44  & vl 1 & 9th \sixteenthNote\ in \C1: a′16 \\
+     & 118 & vl 2 & 6th \quarterNote\ in \C1: a8 \\
 commentary: |
   \clearpage\textsb{Prefatory pages of the bc part}\\[3ex]
   \textit{fol. 1r}\\

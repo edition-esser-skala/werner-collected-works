@@ -202,6 +202,25 @@ markSettembreV = \markTitle
   "5. Il Sole nella Libra."
   "Die Sonn in der Waag."
 
+markOttobreI = \markTitle
+  "1. Che viva L’Imperatore Franceſco."
+  "Es lebe Ihro Maj. der Kayſer Franciſcus."
+markOttobreII = \markTitle
+  "2. Il Bottaro."
+  "Der Faßbinder."
+markOttobreIIIa = \markTitle
+  "3. Menuet il Giorno di 11. hore."
+  "Die Tags-Länge 11. Stund, …"
+markOttobreIIIb = \markTitle
+  "La notte di 13. hore."
+  "… die Nacht 13. Stund."
+markOttobreIV = \markTitle
+  "4. La Caccia."
+  "Die Jagd."
+markOttobreV = \markTitle
+  "5. Che viva L’Imperatrice Thereſia."
+  "Es lebe Ihro Maj. die Kayſerin Thereſia."
+
 
 \layout {
   \set Score.doubleRepeatBarType = #":|.|:"
@@ -264,6 +283,12 @@ tempoO-IXb = \tempoMarkup "Allegro"
 tempoO-IXc = \tempoMarkup "[Tempo deest]"
 tempoO-IXd = \tempoMarkup "Allegro"
 tempoO-IXe = \tempoMarkup "Spirituoso"
+
+tempoO-Xa = \tempoMarkup "Allegro"
+tempoO-Xb = \tempoMarkup "[Tempo deest]"
+tempoO-Xc = \tempoMarkup "[Tempo deest]"
+tempoO-Xd = \tempoMarkup "Allegro assai"
+tempoO-Xe = \tempoMarkup "Allegro assai"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

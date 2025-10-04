@@ -1003,7 +1003,7 @@ O-IVdViolinoII = {
     e~ e8 fis dis e e, g h g h
     \time 4/8 e, e'4 cis8
     a a'4 fis8 %150
-    \time 12/28 d4 h8 h4 g'8 r r a, a4 fis'8
+    \time 12/8 d4 h8 h4 g'8 r r a, a4 fis'8
     r r g, e'4 e,8 fis4 d8 fis d fis
     \time 2/4 a4-! d,-!
     \time 3/8 e8 cis a
@@ -2439,5 +2439,248 @@ O-IXeViolinoII = {
       { \slurDashed a16(\f h) cis8 h a( h) gis a e'16 d cis h a4. }
       { \slurDashed a16(\f h) cis8 h a( h) gis a e'16 d cis h a4.\fermata }
     } \bar "|." %219 finis
+  }
+}
+
+O-XaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoO-Xa
+      \markOttobreI
+    \repeat volta 2 {
+      r16 d'\fE d d f8 d c a4 c8
+      f, d'(\p es d) r c( a c)
+      b16\f d, d d f8 d c a4 c8
+      \slurDashed r d(\p es d) r c( a c) \slurSolid
+      b16\f d' d d d d d d e8 r f r %5
+      g16 e e e e e e e f8 r g r
+      a r f r g r e r
+      f a,(\p b a) r g( e g)
+      r16 a\f a a a a a a a8 r g r
+      g r f r r16 f f f e e e e %10
+      f8 a16 g f2 e4
+      f16\p f f f f f f f f f f f f f f f
+      f8 a16 g f2 e4
+    }
+    \alternative {
+      { f8\f \once \slurDashed a'16( f) c8 a f4 r }
+      { f8\f \once \slurDashed a'16( f) c8 a f4 r } %15
+    }
+    \repeat volta 2 {
+      r16 a a a a a a a h4-! c-!
+      d8 d,(\p h d) r c( d c)
+      h16\f d' d d d d d d g g, g g g g g g
+      c8 es,( d c) r d( c h)
+      r8 es(\p d c) r d( c h) %20
+      c16\f c' c c c c c c f,8 r f r
+      a r a r f\pE r b, r
+      c16 f\fE g a b c d es f es d c b a g f
+      b' a g f es d c b c b a g f es d c
+      b8 d16 c b2 a4 %25
+      b16\p b b b b b b b b b b b b b b b
+      b8 d16 c b2 a4
+    }
+    \alternative {
+      { b8\f \once \slurDashed d'16( b) f8 d b4 r }
+      { b8\f \once \slurDashed d'16( b) f8 d b4 r\fermata }
+    } \bar "||" %29 finis
+  }
+}
+
+O-XbViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 12/16 \tempoO-Xb
+      \set Score.currentBarNumber = #30
+      \markOttobreII
+    b'16\fE d b f8. d16 f d b8.
+    b'16 d b f b f d f d b8.
+    b16 b b d d d f f f b8.
+    r2*3/4 c8.~\p c16 a c
+    f, f f f8. b~ b16 g b
+    es, es es e8. d d'16 d d %35
+    c8. c16 c c b!8.~ b16 c d
+    es f g f g es d f es d c b
+    c\f a b c b a d b c d c b
+    c a b c b a d b c d c b
+    a a' g f e d c g e c c c %40
+    d d d e e e f f f c\p c c
+    d d d e e e f8\f g16 a b c \noBreak
+    d e f c b c f,8. r8 r16 \bar ":|.|:"
+    a8.~ a16 c a b f d b8. \noBreak
+    d8 g16 b8 cis16 d8 a16 fis8 d16 %45
+    b'\p b b b b b b b b b b b
+    a a a a a a a a a a a a
+    g g g g g g g g g g g g
+    f f f f f f f f f f f f
+    es c d es f g as g f es d c %50
+    g'8. g, c8\f es16 g8 c16
+    f,8 c'16 a8 c16 f,8 b16 d8 es16
+    f8 es16 d c b a8. f16 f f
+    g g g a a a b b b f\p f f
+    g g g a a a b\f b, c d es f %55
+    g a b f es f b,8. r8 r16\fermata \bar "||" %56 finis
+  }
+}
+
+O-XcViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \tempoO-Xc
+      \set Score.currentBarNumber = #57
+      \markOttobreIIIa
+    \repeat volta 2 {
+      d'8\fE es f2
+      f8( es) d4 c
+      b r r
+      g'8 a b2 %60
+      a8( g) f4 es
+      d r r
+      d8(\p g) f4 r
+      e8( b') a4 r
+      b,2.\f %65
+      a8 b c4 e,
+    }
+    \alternative {
+      { f2 r4 }
+      { f2 r4 }
+    }
+    \repeat volta 2 {
+      \markOttobreIIIb
+      c'2 \tuplet 3/2 4 { c8 d es! }
+      f4 es8( d) c( h) %70
+      c4 r as'
+      \grace as8 g2 f4
+      \grace f8 es2 d4
+      c8( es) d( c) h( d)
+      c2 r4 %75
+      f,8(\p es') d4 r
+      c'8( es,) d4 r
+      g2.~\f
+      g8 f es4 d
+      c8( es) d( c) b( a) %80
+    }
+    \alternative {
+      { b2 r4 }
+      { b2 r4\fermata }
+    } \bar "||" %82 finis
+  }
+}
+
+O-XdViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 6/8 \tempoO-Xd
+      \set Score.currentBarNumber = #83
+      \markOttobreIV
+    \partial 8 b'8\fE b4\trill f'8 d b f
+    b4\trill f'8 d b f
+    b f b d b d %85
+    f f,16\p g a b a8 c a~
+    a f16 g a b a8 c a
+    f' f, f f' f, f
+    f4.\trill r8 r b\f
+    b16( c) d8 a f( b) a\p %90
+    b16( c) d8 a f b b~\f
+    b g' d b es d\pE
+    b g' d es b g\f
+    f d'4 es,8 c'4
+    d,8 b'4 c,8 a'4 %95
+    b,8 g'4 f16 g a8 b
+    a c a f4 f8
+    f4\trill a8 a4\trill c8
+    c4\trill f8 f a c
+    a f c f c a \noBreak %100
+    f f16 f f f f4 \bar ":|.|:" a8 \noBreak
+    f4 e8 f4 \hA e16( g) \noBreak
+    f8 c e f f16 g a8
+    b( d) c b d, c
+    \once \slurDashed b( d) c b d f %105
+    g( es') c \appoggiatura b a4 b8
+    \once \slurDashed c16( f, c'8) b a a cis
+    d fis,16 g a8 d, d' r
+    r fis,16 g a8 d, g es'
+    r f, d' r es, c' %110
+    r d, a' d, g4
+    g8 g fis g b a
+    g f es d16 b d'8 c
+    b a g f a a
+    b d16 c d8 f, a16 g a8 %115
+    b d16 c d8 a f16 g a8
+    b( f) a b4 r8
+    b,4 a8 b4 b8-\critnote
+    b4\trill d8 d4\trill f8
+    f4\trill b8 b d f %120
+    d b f b f d
+    b b16 b b b b4\fermata \bar ":|." %122 finis
+  }
+}
+
+O-XeViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/8 \tempoO-Xe
+      \set Score.currentBarNumber = #123
+      \markOttobreV
+    b'16\fE b d d f f b b
+    d d b b f f d d
+    b b f f d d f f %125
+    d8 b r4
+    r8 f''[\p g( f)]
+    r e[ f( c)]
+    r g'[ d e]
+    f16(\f e f8) f,4 %130
+    r8 b[\p c( b)]
+    r a[ b( f)]
+    r c'[ g a]
+    b16(\f a b8) b,4
+    c'8([ g') g,( b)] %135
+    \appoggiatura b a4 r
+    g'8([\p e) c( b)]
+    \appoggiatura b a4 r8 f\f
+    f g16 f g4~
+    g8 a16 g a4~ %140
+    a8 b16 a b4~
+    b8 c16 b c4~
+    c8 a16 a c c f f
+    a a f f c c a a
+    a' a f f c c a a %145
+    a' b a g f8 e
+    f r a r
+    f r c r \noBreak
+    a4 r \bar ":|.|:"
+    f16 f a a c c f f \noBreak %150
+    a a f f c c a a
+    f f c' c a a f f
+    d8 b r4
+    \grace { b'16[ a] } b2\p
+    \grace { a16[ g] } a2 %155
+    \grace { g16[ fis] } g2
+    g8( fis) r4
+    \grace { h16[ a] } \hA h2\f
+    c16( h) c( d) c4
+    \grace { cis16[ h?] } \hA cis2 %160
+    d16( cis) d( e) d4
+    r8 es d( cis)
+    d( a) b16 a b8
+    a d4 cis8
+    d4 r %165
+    r8 a[\p d( h)]
+    g c16( h) c4
+    r8 g[ \once \slurDashed c( a)]
+    f b16( a) b8( d)
+    g([ es) c( b)] %170
+    \appoggiatura b a4 r8 b,\f
+    b c16 b c4~
+    c8 d16 c d4~
+    d8 es16 d es4~
+    es8 f16 es f4~ %175
+    f8 d16 d f f b b
+    d d b b f f d d
+    d' d b b f f d d
+    d' es d c b8 a\trill
+    b r d r %180
+    b r f r
+    d4 r\fermata \bar ":|." %182 finis
   }
 }

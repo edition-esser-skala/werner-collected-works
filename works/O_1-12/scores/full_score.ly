@@ -1317,4 +1317,150 @@
       \midi { \tempo 4 = 120 }
     }
   }
+  \bookpart {
+    \section "O.10" "L’Ottòbre, im Weinmonat"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-XaViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-XaViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-XaContinuo
+          }
+        >>
+        \new FiguredBass { \O-XaBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 120 }
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-XbViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-XbViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-XbContinuo
+          }
+        >>
+        \new FiguredBass { \O-XbBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4. = 70 }
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-XcViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-XcViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-XcContinuo
+          }
+        >>
+        \new FiguredBass { \O-XcBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 120 }
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-XdViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-XdViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-XdContinuo
+          }
+        >>
+        \new FiguredBass { \O-XdBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4. = 90 }
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \paper { system-count = #10 }
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-XeViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-XeViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-XeContinuo
+          }
+        >>
+        \new FiguredBass { \O-XeBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 120 }
+    }
+  }
 }

@@ -4315,6 +4315,446 @@ O-IXeBassFigures = \figuremode {
   r1. %219 finis
 }
 
+O-XaContinuo = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \tempoO-Xa
+      \markOttobreI
+    \repeat volta 2 {
+      b8\fE b' d, b a c f, a
+      b4 r a\p r
+      b8\f b' d, b a c f, a
+      b4 r a\p r
+      b\f r r16 b' b b a a a a %5
+      g4 r r16 c c c b b b b
+      a8 r d r g, r c r
+      f,4\p r e r
+      f8\f f, f f b r e, r
+      a r d, r g r c r %10
+      f,8. g16 a8 b c4-! c,-!
+      f'-!\p e-! d8 d' c b
+      a f16 g a8 b c4 c,
+    }
+    \alternative {
+      { f4\f r r8 f16 es! d8 c }
+      { f4\f r r8 c'16 b a8 g } %15
+    }
+    \repeat volta 2 {
+      f4-! es!-! d c
+      h r c\p r
+      g\f f' e d
+      c r f g
+      c, r f\p g %20
+      c,\f c' a8 r b! r
+      f4 r a,8\p r b r
+      f4 r r2
+      R1
+      b8.\f c16 d8 es f4 f, %25
+      b\p a g8 g' f es
+      d b16 c d8 es f4 f,
+    }
+    \alternative {
+      { b4\f r r8 b16 c d8 es }
+      { b4\f r r2\fermata }
+    } \bar "||" %29 finis
+  }
+}
+
+O-XaBassFigures = \figuremode {
+  r4 <6> q <7 3>8 <3>
+  r2 <5 3>
+  r4 <6> q <7 3>
+  r2 <5 3>
+  r r16 <6 4!>8. <6>4 %5
+  <6!>2 r16 <6 4>8. <8 6>4
+  <10 8>2 <_->4 <_!>
+  r2 <5- 3>
+  r2 <7>4 <5->
+  <7 [5!]> <5 3> <7> <7 _!> %10
+  r <6> <6 4> <5 _!>
+  r <4 2> <\t \t>2
+  <6>4 q <6 4> <5 _!>
+  r1
+  r %15
+  r4 <6 4> <6!> <8 6->
+  <6>2 <_->
+  <_!>4 <\t> <6>2
+  r <8 6>4 <6 4>8 <5 _!>
+  r2 <6>4 <6 4>8 <5 _!> %20
+  r2 <6>
+  r q
+  r1
+  r
+  r4 <6> <6 4> <5 3> %25
+  r <2> <\t>2
+  <6> <6 4>4 <5 3>
+  r1
+  r %29 finis
+}
+
+O-XbContinuo = {
+  \relative c {
+    \clef bass
+    \key b \major \time 12/16 \tempoO-Xb
+      \set Score.currentBarNumber = #30
+      \markOttobreII
+    b'16\fE b b b b b b b b b b b
+    b b b b b b b b b b f d
+    b b b d d d f f f b b b
+    b\p b b b b b a a a a a a
+    as as as as as as g g g g g g
+    g g g g g g fis fis fis f f f %35
+    e e e es es es d d d g8.
+    c, a b r16 r b'\f
+    a c b a g f b d c b a g
+    a c b a g f b d c b a g
+    f a g f e d c c c c c c %40
+    c c c c c c c c c c\p c c
+    c c c c d e \mvTr f\f-\unisono f, g a b c \noBreak
+    d e f c b c f, c' a f8. \bar ":|.|:"
+    f f'16 a f d8. b'16 d b \noBreak
+    g8. es! d~ d16 e fis %45
+    g,8.\p g' es c
+    f, f' d b
+    es, es' c a
+    d, d' h g
+    c,16 c'-\unisono d es f g as g f es d c %50
+    g'8. g, c16\f c' c c c c
+    a!8. f b16 b b g g g
+    d8. es f16 f f f f f
+    f f f f f f f f f f\p f f
+    f f f f g a b\f b,-\unisono c d es f %55
+    g a b f es f b, f' d b8.\fermata \bar ":|." %56 finis
+  }
+}
+
+O-XbBassFigures = \figuremode {
+  r2. %30
+  r
+  r
+  <3>8. <4!> <6>4.
+  <6 3>8. <4> <6[-]>4.
+  <6 3>8. <6! 4\+> <6 3> <4!> %35
+  <6 3> <4> <6[-]>4.
+  r8. <6>8 <5>16 r4.
+  <6>2.
+  q
+  r4. <_!> %40
+  <7 2>8. <[5] _!> <6 4>4.
+  <7 2>8. <5 _!> r4.
+  r2.
+  r4. <6>
+  r8. <5>8 <6\\>16 <_+>4. %45
+  <_-> <6 5>8. <\t \t>
+  <3>4. <6 5>8. <\t \t>
+  <3>4. <6 5>8. <\t \t>
+  <_!>4. <6 5>8. <\t \t>
+  <_->2. %50
+  r4. <_->
+  <6> r8. <5>8 <6->16
+  <6>2.
+  <7- 2>8. <[5] 3> <6 4> <8 3>
+  <7 2> <5 3> r4. %55
+  r2. %s56 finis
+}
+
+O-XcContinuo = {
+  \relative c {
+    \clef bass
+    \key b \major \time 3/4 \tempoO-Xc
+      \set Score.currentBarNumber = #57
+      \markOttobreIIIa
+    \repeat volta 2 {
+      b4\fE b' a
+      g f es
+      d r r
+      es2 d8 es %60
+      f4 g a
+      b r r
+      b,\p a r
+      g' f r
+      g\f d e %65
+      f a, c
+    }
+    \alternative {
+      { f, f'8 es! d c }
+      { f,4 c'8 b a g }
+    }
+    \repeat volta 2 {
+      \markOttobreIIIb
+      f4 f' es!
+      d f g %70
+      es r c
+      h h' g
+      c, c' b
+      as f g
+      c, c' b! %75
+      a\p b r
+      a, b r
+      es\f es' c
+      a2 b4
+      es, f f, %80
+    }
+    \alternative {
+      { b d8 c d b }
+      { b2.\fermata }
+    } \bar "||" %82 finis
+  }
+}
+
+O-XcBassFigures = \figuremode {
+  r2 <6>4 %57
+  <7>8 <6> q4 q
+  q2.
+  r2 q4 %60
+  r <7> <5>
+  <3>2.
+  <6>4 q2
+  <6!>2.
+  <_->2 \once \bassFigureExtendersOn q4 %65
+  r <6> <_!>
+  r2.
+  r
+  r2 <6>4
+  r2 <4>8 <_!> %70
+  <6>2 <6->4
+  <6>2 <7 _!>4
+  r2 <6>4
+  <3> <6 5 [_-]> <_!>
+  r2. %75
+  <6 5>4 <3>2
+  <6 5>4 <3>2
+  r2.
+  <7>8 <6> <5>4 <3>
+  <6> <6 4> <5 3> %80
+  r2.
+  r %82 finis
+}
+
+O-XdContinuo = {
+  \relative c {
+    \clef bass
+    \key b \major \time 6/8 \tempoO-Xd
+      \set Score.currentBarNumber = #83
+      \markOttobreIV
+    \partial 8 b8\fE b4\trill f'8 d b f
+    b4\trill f'8 d b f
+    b f b d b d %85
+    f \mvTr f,\p-\tasto f f f f
+    f f f f f f
+    f f f f f f
+    f f f f4 b8\f
+    b4\trill f'8 d b f\p %90
+    b4\trill f'8 d b d\f
+    es4\trill b'8 g es b\p
+    es4\trill b'8 g es es'\f
+    d4 b8 c4 a8
+    b4 g8 a4 f8 %95
+    g4 es8 f4 b,8
+    f4.~ f8 f f
+    f-\unisono f a a a c
+    c c f f a c
+    a f c f c a \noBreak %100
+    f f16 f f f f4 \bar ":|.|:" r8 \noBreak
+    f a c a f r \noBreak
+    f a c a f r
+    b'4 f8 b,4 r8
+    b'4 f8 b, b' d, %105
+    es c r f, f' d
+    a4 b8 f4 r8
+    r d' fis g g, r
+    r d' fis g g, es'!
+    c a' f b, g' es %110
+    a, fis' d g, es' b
+    c d d, g b'-! a-!
+    g-! f!-! es-! d-! b-! r
+    r4 r8 f' f, f'
+    f f, f' f f, f' %115
+    f f, f' f,4 r8
+    b' d, f d b r
+    b' d, f d b b
+    b-\unisono b d d d f
+    f f b b d f %120
+    d b f b f d
+    b b16 b b b b4\fermata \bar ":|." %122 finis
+  }
+}
+
+O-XdBassFigures = \figuremode {
+  r8 r2. %83
+  r
+  r %85
+  r
+  r
+  r
+  r4. r4 <3>8
+  r4. <6>4 <5 3>8 %90
+  r4. <6>
+  r q
+  r q
+  q4 q4. q8
+  r4 q4. q8 %95
+  r4 q2
+  r2.
+  r
+  r
+  r %100
+  r
+  r8 <6> <_!> <6>4.
+  r8 <6> <_!> <6>4.
+  r2.
+  r %105
+  r4. r4 <6>8
+  q2.
+  r8 <_+>4 r4.
+  r8 <[_+]> <6> r4.
+  r8 <6[!]> <6>4 q8 q %110
+  r q <_+> <_->4 <6>8
+  <6 5> <6 4> <5 _+> r4.
+  r2.
+  r
+  <6 4>4. <5 3> %115
+  <6 4> <5 3>
+  r8 <6> <3> <6>4.
+  r8 <6> <3> <6>4.
+  r2.
+  r %120
+  r
+  r4. r4 %122 finis
+}
+
+O-XeContinuo = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/8 \tempoO-Xe
+      \set Score.currentBarNumber = #123
+      \markOttobreV
+    b16\fE b d d f f b b
+    d d b b f f d d
+    b' b f f d d f f %125
+    d8 b r4
+    b'\p r
+    a r
+    g r
+    f8[\f c a f] %130
+    es'4\p r
+    d r
+    c r
+    b'8[\f f d b]
+    es4 e %135
+    f8[ c a f]
+    e4\p r
+    f8[ a c f]\f
+    b,[ g' h, d]
+    c[ a' cis, e] %140
+    d[ b' d, f]
+    e[ c'! \hA e, g]
+    f4 r
+    f16 f c c a a f f
+    f' f c c a a f f %145
+    f'8[ f, a c]
+    f, r f'-! r
+    c-! r a-! r \noBreak
+    f4 r \bar ":|.|:"
+    f16-\unisono f a a c c f f \noBreak %150
+    a a f f c' c a a
+    f f c c a a f f
+    b'8[ f d b]
+    r g'[\p g, g']
+    r fis[ d \hA fis] %155
+    r es![ d cis]
+    d[ a fis d]
+    r as''[\f g f!]
+    r es[ d c]
+    r b'![ a! g] %160
+    r f[ e d]
+    g,4 g'
+    f g
+    a a,
+    d8[ a f d] %165
+    r d''[\p h g]
+    c[ g es c]
+    r c'[ a f]
+    b![ f d b]
+    es4 e %170
+    f,8 f'16 es\f f8 d
+    es[ c' e, g]
+    f[ d' fis, a]
+    g[ es'! g, b]
+    a[ f'! a, c] %175
+    b4 r
+    b16 b f f d d b b
+    b' b f f d d b b
+    b'8[ b, d f]
+    b, r b'-! r %180
+    f-! r d-! r
+    b4 r\fermata \bar ":|." %182 finis
+  }
+}
+
+O-XeBassFigures = \figuremode {
+  r2 %123
+  r
+  r %125
+  r
+  <3>
+  <6>
+  <3>4 <5>8 <6!>
+  <4> <6 [4]> <6>4 %130
+  <3>2
+  <6>
+  <3>4 <5>8 <6>
+  <4> <6 [4]> <6>4
+  q <5> %135
+  r2
+  <6>
+  r
+  r4 <6>8 <\t>
+  <[_!]>4 <6 [_!]>8 <\t> %140
+  r4 <6>8 <\t>
+  r <_!> <6>4
+  r2
+  <5 3>8 <\t \t>4.
+  r2 %145
+  r4 <6>8 <_!>
+  r2
+  r
+  r
+  r %150
+  r
+  r
+  r
+  r8 <5 _->2
+  <5 3> %155
+  <5 3>4 \once \bassFigureExtendersOn q8
+  <6 4> <8 6\\> <\t \t>4
+  r8 <2! 7>2
+  <6>
+  <2\+ 7> %160
+  <6>4.
+  <6->4 <5>8 <4\+>
+  <6>4 <6!>8 <5>
+  \bo <[6] 4>4 <\t \t>8 \bc <[5!] _+>
+  r2 %165
+  r8 <3> <\t> <7 _!>
+  <_->2
+  r4. <7 3>8
+  r2
+  r4 <6>8 <5> %170
+  r4. <6>8
+  r4 <6>8 <\t>
+  r4 <6>8 <\t>
+  r4 <6->8 <\t>
+  r4 <6>8 <\t> %175
+  r2
+  <5 3>8 <\t \t>4.
+  r2
+  r4 <6>8 <3>
+  r2 %180
+  r
+  r %182 finis
+}
+
 % \repeat volta 2 {
 
 %     }
