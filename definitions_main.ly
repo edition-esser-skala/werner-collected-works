@@ -48,3 +48,11 @@ skips = #(define-music-function
   (parser location n)
   (number?)
   #{ \repeat unfold #n { \skip 8 } #})
+
+\layout {
+  \context {
+    \Lyrics
+    \override StanzaNumber.font-series = #'medium
+    \override StanzaNumber.font-size = #-1
+  }
+}

@@ -1,13 +1,5 @@
 \version "2.24.0"
 
-\layout {
-  \context {
-    \Lyrics
-    \override StanzaNumber.font-series = #'medium
-    \override StanzaNumber.font-size = #-1
-  }
-}
-
 tempoE-IIIa = \tempoMarkup "Tempo passato"
 tempoE-IIIb = \tempoMarkup "Vivace"
 
