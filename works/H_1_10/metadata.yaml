@@ -1,0 +1,25 @@
+title: Vesperæ de Dominica
+id: WerW H.1.10
+genre: vesper
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.97
+    rism: 530002150
+    url: https://copia.oszk.hu/kotta/vesperae-in-c-de-dominica/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: G 87
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/919.html
+    license: public domain
+    principal: true
+    notes: only “In exitu Israel”
+tocstyle: default
+toe: |
+  2 & 42 & S & grace note added by editor \\
+  3 & 29 & S & grace note added by editor \\
+  50 T vs bf
