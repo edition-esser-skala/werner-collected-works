@@ -3,7 +3,7 @@
 H-I-XDixitBasso = {
   \relative c {
     \clef bass
-    \key c \major \time 3/2 \tempoH-I-XDixita \autoBeamOff
+    \key c \major \time 3/2 \tempoH-I-XDixit \autoBeamOff
     \mvDl c'2.\fE^\tutti g4 e g
     c4. c8 c4 g e g
     c2 c4 g e g
@@ -608,4 +608,261 @@ H-I-XPueriBassoLyrics = \lyricmode {
 
   a -- men, a -- %96
   men. %97 finis
+}
+
+H-I-XLaudateBasso = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \autoBeamOff \tempoH-I-XLaudate
+    R1*3
+    r4 \mvTr c8\pE^\solo d16 e f8 es d \hA es16([ f)]
+    b,8 f'4 e8 f e d8. d16 %5
+    c8 c' a f b a16 b g4
+    a r8 g fis e16 \hA fis g8. g16
+    e8 c( f4) d8 g4 f8
+    c4 f r2
+    r r4 r8 f~ %10
+    f e d4 c r
+    r8 f4 e8 d4 c8 b!
+    a d g4 \after 8 \tempoH-I-XLaudateb f r
+    R1*4 %17
+    r8 \mvTr f4\fE^\tuttiE c'8 a g16 f a8 f
+    g e16([ c)] d4\trill c r
+    r8 f4( es) d8 c4 %20
+    b8 b'4( as8 g) c, g4
+    c r r2
+    r8 f4 b8 a g16 f g8 e
+    f4 d c8 f c4
+    f, r r2 %25
+    c'4( c,) f r\fermata \bar "|." %26 finis
+  }
+}
+
+H-I-XLaudateBassoLyrics = \lyricmode {
+  Quo -- ni -- am con -- fir -- ma -- ta %4
+  est su -- per nos, est su -- per %5
+  nos mi -- se -- ri -- cor -- di -- a e --
+  ius, et ve -- ri -- tas Do -- mi --
+  ni ma -- net in ae --
+  ter -- num.
+  si -- %10
+  cut e -- rat,
+  si -- cut e -- rat et
+  nunc et sem -- per
+
+  et in sae -- cu -- la sae -- cu -- %18
+  lo -- rum, a -- men,
+  a -- men, a -- %20
+  men, a -- men, a --
+  men,
+  et in sae -- cu -- la sae -- cu --
+  lo -- rum, a -- men, a --
+  men, %25
+  a -- men. %26 finis
+}
+
+H-I-XExituBasso = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \autoBeamOff \tempoH-I-XExitu
+    R1
+    r8 \mvTr g'\fE^\tutti c2 h8 h
+    c8. c16 c4 r2
+    d,4. e16([ f)] g8([ f)] e d
+    c4 a8 d b4 c %5
+    f, r r2
+    R1
+    r2 r4 \mvTr g'8\pE^\solo g
+    e c r c' a f r cis'
+    d c16 b a8. g16 f8 d g16([ a b g] %10
+    a8) a, r4 r2
+    r r8 a' d, e16 fis
+    g8([ f)] e e16 g c,8 c r f
+    b f g f e f16 g f8. f16
+    e8 a d,4 c r %15
+    R1
+    r2 r4 r8 c'
+    a g16 f b8. b16 f4 fis8 d16 \hA fis
+    g8 g, r e' f g16 a b8 c
+    d( c4 h8) c4 r %20
+    r2 r4 \mvTr f,8\fE^\tutti f
+    d f b, d16 d es8 d16 d c4
+    b8 b' a g16 g fis4 g8 g
+    e! f16 f c4 f, r8 \mvTr b\pE^\solo
+    es f16 f g8 a b4 r8 g %25
+    d8. d16 d8 d' b([ g] d8.) d16
+    g,4 r b'8 g d es
+    f8. f16 f4 r g8 f16 f
+    e!8 f16 f c8. c16 f8 \mvTr a\fE^\tutti e c
+    f f r4 r8 a e c %30
+    f f a f b16 b b8 fis16 fis g g
+    d8 d fis g16 g d8 d fis d
+    g g16 g a8 f b b16 a g8 g16 g
+    a8 d,16 d a4 d r8 \mvTr a'\pE^\solo
+    d, f e16([ f)] g8 f g16 a g8([ f)] %35
+    e4 r r r8 f
+    b d16 b g8 c a f e c
+    f4 r r r8 c
+    f a16 f d8 f g e16([ f)] g8. g16
+    c,4 r r r8 f %40
+    b d16 b g8 g a f16([ g)] a8. a16
+    d,8 \mvTr d16\fE^\tutti d e8 c! f a16 a e8 c
+    f c16 c a8 f b c16 c d4
+    c r8 f16 f b8 b r e,16 e
+    a8 a f d g16 g g g e8 c %45
+    a b16 b c4 f, r
+    r2 \mvTr d'8\pE^\solo b' a g
+    fis16([ g \hA fis e] d[ e]) d([ c)] b8 c d4
+    g, r r2
+    r8 a'4 g16 f e8 e16 e a([ h)] c([ a)] %50
+    h8 c16 c g4 c, r
+    R1*2
+    \tempoH-I-XExitub R1*3 %56
+    r4 r8 \mvTr f4\fE^\tuttiE e8 a[( f]
+    g[ e)] c c'16[ b] a[ g] f4 g8
+    e[ f16 e] d4 c8 f c4
+    f,2 r\fermata \bar "|." %60 finis
+  }
+}
+
+H-I-XExituBassoLyrics = \lyricmode {
+  In ex -- i -- tu %2
+  Is -- ra -- el
+  do -- mus Ja -- cob de
+  po -- pu -- lo bar -- ba -- %5
+  ro.
+
+  Ma -- re
+  vi -- dit et fu -- git Jor --
+  da -- nis con -- ver -- sus est re -- tror -- %10
+  sum.
+  Quid ti -- bi est
+  ma -- re quod fu -- gi -- sti, et
+  tu Jor -- da -- nis qui -- a con -- ver -- sus
+  es re -- tror -- sum? %15
+
+  A
+  fa -- ci -- e Do -- mi -- ni mo -- ta est
+  ter -- ra, a fa -- ci -- e De -- i
+  Ja -- cob, %20
+  qui con --
+  ver -- tit pe -- tram in sta -- gna a -- qua --
+  rum, et ru -- pem in fon -- tes, in
+  fon -- tes a -- qua -- rum. Sed
+  no -- mi -- ni tu -- o da, da %25
+  glo -- ri -- am, da glo -- ri --
+  am, si -- mu -- la -- cra
+  gen -- ti -- um o -- pe -- ra
+  ma -- nu -- um ho -- mi -- num. et non lo --
+  quen -- tur, et non vi -- %30
+  de -- bunt, et non au -- di -- ent, et non o -- do --
+  ra -- bunt, et non pal -- pa -- bunt, et non
+  am -- bu -- lant, non cla -- ma -- bunt in gut -- tu -- re,
+  gut -- tu -- re su -- o. Et
+  o -- mnes qui con -- fi -- dunt in e -- %35
+  is, ad --
+  ju -- tor e -- o -- rum et pro -- te -- ctor
+  est, ad --
+  ju -- tor e -- o -- rum et pro -- te -- ctor
+  est, ad -- %40
+  ju -- tor e -- o -- rum et pro -- te -- ctor
+  est. Be -- ne -- di -- xit do -- mu -- i Is -- ra --
+  el, be -- ne -- di -- xit do -- mu -- i Aa --
+  ron, be -- ne -- di -- cti, be -- ne --
+  di -- cti vos a Do -- mi -- no qui fe -- cit %45
+  coe -- lum et ter -- ram.
+  ne -- que qui de --
+  scen -- dunt in in -- fer --
+  num.
+  Glo -- ri -- a Fi -- li -- o et Spi -- %50
+  ri -- tu -- i San -- cto,
+
+  a -- men, a -- %57
+  men, a -- _ _ _
+  _ _ _ men, a --
+  men. %60 finis
+}
+
+H-I-XMagnificatBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoH-I-XMagnificat
+    r4 \mvDl c'\fE^\tutti c8. c,16 c8 c'
+    c8. c,16 c4 c' a8 a
+    fis g d8. d16 g,4 r16 g' e g
+    c8 c, r16 c' a c f,8 e d c16 c
+    g'8 g r4 r8 c, c' e, %5
+    f16 f c c g'4 c, r
+    R1*10 %16
+    r8 \mvTr c'\pE^\solo c h c16([ g e c] g'8.) f16
+    e8 g fis e16 \hA fis g8 h16 c d([ a)] fis d
+    h'8 g, h'4~ h16[ c] h([ c)] \tuplet 3/2 8 { d([ c h)] c([ h a)] }
+    g4( fis) g r %20
+    R1*2
+    r8 \mvTr d\fE^\tutti e c f a16 g f8 c
+    a f r c' f a16([ g)] f8 e
+    f c16 c a8([ f)] c'4 r %25
+    r8 \mvTr e\pE^\solo h' c16([ d)] c8 c16 h a([ c)] h a
+    a8 gis r4 r8 e4 f16([ g?)]
+    f4 fis8 fis g16([ d)] e([ fis)] g8([ f)]
+    e a d,([ g)] c,4 r
+    R1*5 %34
+    r2 r4 g'8 g %35
+    c c, c' h a8. a16 a8 c
+    gis4 r8 \hA gis a4 r8 a
+    d g, d4 \after 8 \tempoH-I-XMagnificatb g, r
+    R1*3 %41
+    r2 r8 \mvTr g'4\fE^\tutti a8
+    g e16 d c8 a' g e16([ d)] c8 f
+    e16([ d e c] d4)\trill c8 c16([ d] e[ d c8)]
+    h g'16([ f] e[ d c8)] h g'16([ f] e[ d e c] %45
+    g'8) e c([ d] h16[ a h g] a4)
+    g r r2
+    r r8 g'4 a8
+    g e16 d c8 a' g e16([ d)] c8 c'
+    h16([ a h g] a4) g r %50
+    R1
+    r2 c8 a f([ g)]
+    c,4 r r2\fermata \bar "|." %53 finis
+  }
+}
+
+H-I-XMagnificatBassoLyrics = \lyricmode {
+  Ma -- gni -- fi -- cat, ma --
+  gni -- fi -- cat a -- ni -- ma
+  me -- a Do -- mi -- num, et ex -- ul --
+  ta -- vit, et ex -- ul -- ta -- vit spi -- ri -- tus
+  me -- us in De -- o %5
+  sa -- lu -- ta -- ri me -- o.
+
+  Fe -- cit po -- ten -- ti -- %17
+  am in bra -- chi -- o su -- o, dis -- per -- sit su --
+  per -- bos men -- te cor -- dis
+  su -- i. %20
+
+  E -- su -- ri -- en -- tes im -- ple -- vit %23
+  bo -- nis et di -- vi -- tes di --
+  mi -- sit in -- a -- nes. %25
+  Su -- sce -- pit pu -- e -- rum, pu -- e -- rum
+  su -- um, re -- cor --
+  da -- tus mi -- se -- ri -- cor --
+  di -- ae su -- ae.
+
+  si -- cut %35
+  e -- rat in prin -- ci -- pi -- o et
+  nunc, et nunc, et
+  nunc et sem -- per
+
+  et in %42
+  sae -- cu -- la sae -- cu -- lo -- rum, a -- men,
+  a -- men, a --
+  men, a -- men, a -- %45
+  men, a --
+  men,
+  et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a -- men,
+  a -- men, %50
+
+  a -- men, a --
+  men. %53 finis
 }

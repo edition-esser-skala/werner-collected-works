@@ -1,4 +1,5 @@
 title: Vesperæ de Dominica
+subtitle: Dixit Dominus · Confitebor · Beatus vir · Laudate pueri ·\\Laudate Dominum · In exitu Israel · Magnificat
 id: WerW H.1.10
 genre: vesper
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
@@ -16,10 +17,9 @@ sources:
     shelfmark: G 87
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/919.html
     license: public domain
-    principal: true
     notes: only “In exitu Israel”
 tocstyle: default
 toe: |
-  2 & 42 & S & grace note added by editor \\
-  3 & 29 & S & grace note added by editor \\
-  50 T vs bf
+  2 & 42 & S    & grace note added by editor \\
+  3 & 29 & S    & grace note added by editor \\
+  6 & 46 & vl 2 & 2nd \eighthNote\ in \A1: c″8 \\

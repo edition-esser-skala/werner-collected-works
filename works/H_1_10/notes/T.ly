@@ -3,7 +3,7 @@
 H-I-XDixitTenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \major \time 3/2 \tempoH-I-XDixita \autoBeamOff
+    \key c \major \time 3/2 \tempoH-I-XDixit \autoBeamOff
     \mvDl c2.\fE^\tutti h4 c h
     c4. c8 c4 h c h
     c2 c4 h c h
@@ -598,4 +598,257 @@ H-I-XPueriTenoreLyrics = \lyricmode {
 
   a -- men, a -- %96
   men. %97 finis
+}
+
+H-I-XLaudateTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \major \time 4/4 \autoBeamOff \tempoH-I-XLaudate
+    R1*3
+    \mvTr g8\pE^\solo a16 h c8 b a b16([ c)] f,8 g16([ a)]
+    b8 r r4 r8 c4 h8 %5
+    c4 r r2
+    r r8 d b! g
+    c b16 c a8. a16 b8 b b a
+    g4 a r2
+    R1 %10
+    r2 r8 c4 b8
+    a8. a16 h8 c c \hA h c g
+    c a b4\trill \after 8 \tempoH-I-XLaudateb a r
+    R1*2 %15
+    r2 r8 \mvTr c4\fE^\tuttiE f8
+    e d16 c d8 b c a16([ f)] g4\trill
+    f8 f( c'16[ d e c] f8[ e16 d]) c8 c(
+    h16_[ g] c4 \hA h8) c c4 b8~
+    b[ a] b16[ g c8] f,4 c'16([ b c8)] %20
+    f,4 r8 f([ g)] g g4
+    g8 c4 f8 e d16 c d8 b
+    c a r4 r8 c b[ a16 g]
+    a4. g16[ f] g8 a g4
+    a r r2 %25
+    c8 c c4 c r\fermata \bar "|." %26 finis
+  }
+}
+
+H-I-XLaudateTenoreLyrics = \lyricmode {
+  Quo -- ni -- am con -- fir -- ma -- ta su -- per %4
+  nos, su -- per %5
+  nos
+  mi -- se -- ri --
+  cor -- di -- a e -- ius ma -- net in ae --
+  ter -- num.
+  %10
+  si -- cut
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per
+
+  et in %16
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men, a -- men, a --
+  men, a -- _
+  _ men, a -- %20
+  men, a -- men, a --
+  men, et in sae -- cu -- la sae -- cu --
+  lo -- rum, a -- _
+  _ _ _ men, a --
+  men, %25
+  a -- men, a -- men. %26 finis
+}
+
+H-I-XExituTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \major \time 4/4 \autoBeamOff \tempoH-I-XExitu
+    R1
+    \mvTr c2\fE^\tutti d4 d8 d
+    e8. e16 e4 r2
+    r g,4. a16([ b)]
+    c8 c16 c c8 a16 a d4 c %5
+    c r r2
+    r \mvTr c8.\pE^\solo c16 c8 d
+    c8.([ d16] e8) d c4( h)\trill
+    c r r2
+    R1*2 %11
+    r4 r8 e a, h16 cis d8([ c)]
+    b b16 d g,8 g r c f c
+    d16([ c)] d8 b c16 d c8. b16 a8 d
+    g,( c4 h8) c4 r %15
+    R1*5 %20
+    r2 \mvTr c8\fE^\tutti c a c
+    f,4 f r2
+    r8 d' c b16 b a4 g~
+    g8 a g4 a r8 \mvTr d\pE^\solo
+    es8. d16 d8 c c b a b16([ c)] %25
+    d4 r8 d d b a4
+    g r8 a b4. c16 b
+    a8 a f g16 a b4 b~
+    b8 a g8. g16 a8 \mvTr c\fE^\tutti g c
+    a a r4 r8 c g c %30
+    a a c c d16 d d8 d16 d b b
+    a8 a a b16 b a8 a a d
+    b b16 b c8 a b d16 c b8. b16
+    a4 a a r
+    r2 r4 \mvTr d8\pE^\solo d %35
+    g,16 g a b c8 b16 c a8. g16 f4
+    R1
+    r2 r8 g c e16 c
+    a8 a f' d h c16 a \appoggiatura c8 h8. c16
+    c4 r r2 %40
+    r r4 r8 \mvTr a16\fE^\tutti a
+    a8 a g16 g c c a8 a c8. c16
+    a8 g a c b g f8. f16
+    g4 c8 c d d b8. b16
+    a4 a8 a g g g g %45
+    a g16 g g8. g16 a4 r
+    R1
+    r2 r4 \mvTr a8\pE^\solo d
+    b g c4 a8 b g8. g16
+    f8 c'4 b16 a g8 g16 g r4 %50
+    r8 c4^\aTre h8 c c b a
+    g a b c d e f e16([ d)]
+    c8 b a g16 f e8 f c4
+    \tempoH-I-XExitub f r r2
+    R1 %55
+    r4 r8 \mvTr c'4\fE^\tutti a8[ d b]
+    c[ a] f16[ g a h] c[ \hA h] c4 d8
+    h[ c16 d] e8.[\trill d32 e] f8 f8.[ e16 d8]
+    e16[ d c8] d4 g,8 a g4
+    a2 r\fermata \bar "|." %60 finis
+  }
+}
+
+H-I-XExituTenoreLyrics = \lyricmode {
+  In ex -- i -- tu %2
+  Is -- ra -- el
+  do -- mus
+  Ja -- cob de po -- pu -- lo bar -- ba -- %5
+  ro.
+  Is -- ra -- el po --
+  te -- stas e --
+  ius.
+
+  Quid ti -- bi est ma -- %12
+  re quod fu -- gi -- sti, et tu Jor --
+  da -- nis qui -- a con -- ver -- sus es re --
+  tror -- sum? %15
+
+  qui con -- ver -- tit %21
+  pe -- tram
+  et ru -- pem in fon -- tes __
+  a -- qua -- rum. Ne --
+  quan -- do di -- cant gen -- tes u -- bi %25
+  est De -- us e -- o --
+  rum, ar -- gen -- tum et
+  au -- rum o -- pe -- ra ma -- nu --
+  um ho -- mi -- num. et non lo --
+  quen -- tur, et non vi -- %30
+  de -- bunt, et non au -- di -- ent, et non o -- do --
+  ra -- bunt, et non pal -- pa -- bunt, et non
+  am -- bu -- lant, non cla -- ma -- bunt in gut -- tu --
+  re su -- o.
+  Do -- mus %35
+  Is -- ra -- el spe -- ra -- vit in Do -- mi -- no,
+
+  ad -- ju -- tor e --
+  o -- rum et pro -- te -- ctor e -- o -- rum
+  est. %40
+  Be -- ne --
+  di -- xit o -- mni -- bus qui ti -- ment Do -- mi --
+  num, pu -- sil -- lis cum ma -- io -- ri --
+  bus, coe -- lum coe -- li Do -- mi --
+  no, ter -- ram au -- tem de -- dit %45
+  fi -- li -- is ho -- mi -- num.
+
+  ex hoc
+  nunc et us -- que in sae -- cu --
+  lum. Glo -- ri -- a Fi -- li -- o %50
+  si -- cut e -- rat in prin --
+  ci -- pi -- o et nunc et sem -- per
+  et in sae -- cu -- la sae -- cu -- lo --
+  rum,
+  %55
+  a -- _
+  _ _ _ _ _
+  _ _ men, a --
+  _ _ _ men, a --
+  men. %60 finis
+}
+
+H-I-XMagnificatTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoH-I-XMagnificat
+    r4 \mvDl c\fE^\tutti c8. c16 c8 c
+    c8. c16 c4 r8 c c c
+    c h a8. a16 h4 r16 d c d
+    e8 e r16 e f e f8 c h c16 c
+    h8 h r4 r8 c c c %5
+    a16 a c c c8([ h)] c4 r
+    R1*7 %13
+    r2 r4 \mvTr a8\pE^\solo a
+    a d c!16([ e)] d c h8 c d e %15
+    f!16([ e)] d c h([ a)] g([ f)] e8. f16 g8 c
+    a g16 a f4\trill e r
+    R1*5 %22
+    r8 \mvTr a\fE^\tutti g c a c16 b a8 c
+    c c r g a8. a16 a8 c
+    a g16 g a4 g8 \mvTr g\pE^\solo d' e16([ f)] %25
+    e8. e16 e4 r8 e4 d16 c
+    h8 e, h' c16([ d)] c4 cis8 cis
+    d16([ a)] h([ c)] d4. c8 h16[ c d8]~
+    d c4( h8) c4 r
+    R1 %30
+    r8 a^\aTre a h16 c d8 d r4
+    r8 h h c16 d e8([ d)] c a
+    d([ g,] d8.) d16 g4 r
+    R1*4 %37
+    \after 8*5 \tempoH-I-XMagnificatb R1*6 %43
+    r2 r8 \mvTr c4\fE^\tutti e8
+    d h16 a g8 e' d h16([ a)] g8 c %45
+    h16[ a h g] a4.\trill g4 fis8
+    g h4 c8 h d16 c h8 c
+    h d16([ c)] h8([ e)] d d4( c8)
+    d r r c d r r g,(
+    h) d c16([ h c a)] h4 r %50
+    R1
+    r2 c4.( h8)
+    c4 r r2\fermata \bar "|." %53 finis
+  }
+}
+
+H-I-XMagnificatTenoreLyrics = \lyricmode {
+  Ma -- gni -- fi -- cat, ma --
+  gni -- fi -- cat a -- ni -- ma
+  me -- a Do -- mi -- num, et ex -- ul --
+  ta -- vit, et ex -- ul -- ta -- vit spi -- ri -- tus
+  me -- us in De -- o %5
+  sa -- lu -- ta -- ri me -- o.
+
+  Et mi -- %14
+  se -- ri -- cor -- di -- a e -- ius a pro -- %15
+  ge -- ni -- e in pro -- ge -- ni -- es ti --
+  men -- ti -- bus e -- um.
+
+  E -- su -- ri -- en -- tes im -- ple -- vit %23
+  bo -- nis et di -- vi -- tes di --
+  mi -- sit in -- a -- nes. Su -- sce -- pit %25
+  Is -- ra -- el pu -- e -- rum
+  su -- um, re -- cor -- da -- tus mi --
+  se -- ri -- cor -- di -- ae __
+  su -- ae.
+  %30
+  et se -- mi -- ni e -- ius,
+  et se -- mi -- ni e -- ius in
+  sae -- cu -- la.
+
+  et in %44
+  sae -- cu -- la sae -- cu -- lo -- rum, a -- men, %45
+  a -- _ _ _
+  men, et in sae -- cu -- la sae -- cu --
+  lo -- rum, a -- men, a --
+  men, a -- men, a --
+  men, a -- men, %50
+
+  a --
+  men. %53 finis
 }

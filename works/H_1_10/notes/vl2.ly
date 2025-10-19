@@ -3,7 +3,7 @@
 H-I-XDixitViolinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 3/2 \tempoH-I-XDixita
+    \key c \major \time 3/2 \tempoH-I-XDixit
     e4\fE g8 c e4 d e d
     e8 c g c e4 d e d
     e8 c g c e,4 d e h'
@@ -316,5 +316,116 @@ H-I-XPueriViolinoII = {
     f e c d %95
     e1~\f
     e\fermata \bar "|." %97 finis
+  }
+}
+
+H-I-XLaudateViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoH-I-XLaudate
+    R1*12 %12
+    \after 8*5 \tempoH-I-XLaudateb R1*2
+    r8 f4\fE c'8 a g16 f a8 f %15
+    g e16 c d4\trill c8 e4 a8
+    g c a b16 a g8 a b16 g b8~
+    b a r g c, f4 a8
+    d, e f16 d f4 e8 f16 d g8
+    c, f g a16 f b8 f g a %20
+    b4 f4. e!8 d4\trill
+    e8 e4 a8 g f16 e f8 g
+    e f r f4 a8 d, g~
+    g f16 e f8. f16 e8 c r c'~\p
+    c f e d16 c d8 e f e16 d %25
+    e\fE c f8~ f e f4 r\fermata \bar "|." %26 finis
+  }
+}
+
+H-I-XExituViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoH-I-XExitu
+    f2\fE g4 g8 g
+    a8. a16 a8 c a d4 d8
+    g, c4 d16 e f8 f, a c
+    f8. e16 d4. e16 f g8 f
+    e g f2 e4 %5
+    f r r2
+    R1*2
+    r4 r16 c,\pE e g a4 r16 a cis e
+    f4 r r2 %10
+    R1*7 %17
+    r8 f d c16 b c4 r8 d~
+    d16 b8 g16 e g8 e16 c4 r
+    r f8\fE f e g c,4 %20
+    d e8 f4 e8 f4
+    r b8 b g b4 a8
+    b f4 g8 a4 d,
+    R1*5 %28
+    r2 r8 c'\fE c c
+    c4. c16 c c8 c r4 %30
+    c8 c f f r d16 d d8 d
+    r d16 d d8 d r d16 d d8 d
+    r4 r8 c d d e e16 d
+    cis8 d4 \hA cis8 d4 r
+    R1*7 %41
+    d8.\fE d16 c8 c c c r4
+    r8 c c c d c4 h8
+    c4 r8 c16 c d8 d e8. e16
+    cis4 d8 d h h c4~ %45
+    c8 d^\critnote c4 c r
+    R1*2
+    r4 g8\pE c4 d8 c4
+    R1 %50
+    r2 r8 e,4-\aTre f8
+    g f16 e d8 e f g a h
+    c g c4. a8 g c~\fE
+    \tempoH-I-XExitub c a d b c a f16 g a h
+    c g c4 d8 h c16 d e d c b %55
+    a c b a g f g4 a d8
+    g, c4 a8 g c, r4
+    r r8 c'4 a8 d b
+    c a f16 g a h c8 c c4
+    c2 r\fermata \bar "|." %60 finis
+  }
+}
+
+H-I-XMagnificatViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoH-I-XMagnificat
+    r4 r16 c\fE e g c8 c, r16 e g c
+    e8 e, r16 g c e g8 g, r16 a c e
+    a8 g4 fis8 g4 r16 h, g h
+    c8 c, r16 e' c e c8 e f e
+    d d16 d g8 g, e'4. e8 %5
+    c e d4\trill e16 e, g c e8 r
+    R1*16 %22
+    r8 d\fE c e c c16 e f8 e
+    f f g e c c4 e8
+    c e f8. f16 e4 r %25
+    R1*4
+    r2 r8 e,4\p^\aTre fis16 g %30
+    a8 e a g fis fis4 g16 a
+    h4.a8 g a16 h c8 h
+    a h a4\trill g r
+    R1*2 %35
+    r8 c16 d e8 d c4 r8 a16 c
+    e4 r8 h16 e c4 r8 c16 a
+    fis8 g4 \hA fis8 g \tempoH-I-XMagnificatb g4\fE a8
+    g e16 d c8 a' g e16 d c8 f
+    e16 d e c d4\trill c8 c16 d e d c8 %40
+    h g'16 f e d c8 h g'16 f e d e c
+    d8 g4 fis8 g d g16 f e fis
+    g8 g, r e'16 fis g8 g, r4
+    r8 g' f16 e f d e8 e16 f g f g8~
+    g d r g4 d8 r g~ %45
+    g g4 fis16 e d8 g e a
+    d,4 r8 g'4 g,8 r g'~
+    g g, r g'4 g,8 r e16 f
+    g8 g, r e'16 f g8 g, r g'~
+    g h e, a d, h'16\p a g8 c, %50
+    h g'16 a h a h g a8 h c16 h c a
+    h a h g a8 h c16\f g c4 h8
+    c4 r r2\fermata \bar "|." %53 finis
   }
 }
