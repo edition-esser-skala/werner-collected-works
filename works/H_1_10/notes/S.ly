@@ -665,8 +665,7 @@ H-I-XLaudateSoprano = {
 }
 
 H-I-XLaudateSopranoLyrics = \lyricmode {
-  Lau -- da -- te
-  Do -- mi -- num,
+  Lau -- da -- te Do -- mi -- num,
   o -- mnes gen -- tes, lau -- da --
   te e -- um, o -- mnes po -- pu --
   li.

@@ -888,7 +888,7 @@ H-I-XLaudateOrgano = {
   \relative c {
     \clef bass
     \key f \major \time 4/4 \tempoH-I-XLaudate
-    \mvTr f,8\pE_\solo f' a e f d a f'
+    \mvTr f,8\pE-\solo f' a e f d a f'
     b g e c f e d a
     b g' e g f d g f
     e d c d16 e f8 es d c
