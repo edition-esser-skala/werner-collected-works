@@ -1,13 +1,13 @@
 \version "2.24.0"
 
-H-II-XIAlto = {
+H-II-XAlto = {
   \relative c' {
     \clef treble
-    \key c \major \time 6/2 \tempoH-II-XIa \autoBeamOff
+    \key c \major \time 6/2 \tempoH-II-Xa \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
     e\breve f2 e \noBreak
     d\breve d2 cis\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb f!1 f \noBreak
+    \time 4/2 \tempoH-II-Xb f!1 f \noBreak
     f1. e2
     d( g1) f2 %5
     e f e a~
@@ -23,9 +23,9 @@ H-II-XIAlto = {
     h! a fis1
     e\breve \noBreak
     e\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa e\breve f!2 e \noBreak
+    \time 6/2 \tempoH-II-Xa e\breve f!2 e \noBreak
     \time 8/2 d\breve d2. d4 cis1\fermata \bar "||" %20
-    \time 4/2 \tempoH-II-XIb f!2. f4 f2 f \noBreak
+    \time 4/2 \tempoH-II-Xb f!2. f4 f2 f \noBreak
     f1 a
     f2 e f( d)
     e1 f
@@ -50,9 +50,9 @@ H-II-XIAlto = {
     g'1 g2 g~
     g f1( e4 d) \noBreak
     e1 f\fermata \bar "||" %45
-    \time 6/2 \tempoH-II-XIa e\breve f2 e \noBreak
+    \time 6/2 \tempoH-II-Xa e\breve f2 e \noBreak
     d\breve d2 cis\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb e1 e \noBreak
+    \time 4/2 \tempoH-II-Xb e1 e \noBreak
     f! f
     fis2 fis fis fis %50
     e e e e
@@ -68,9 +68,9 @@ H-II-XIAlto = {
     d c1 d2
     c\breve \noBreak
     c\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa e\breve f2 e \noBreak
+    \time 6/2 \tempoH-II-Xa e\breve f2 e \noBreak
     d\breve d2 cis\fermata \bar "||" %65
-    \time 4/2 \tempoH-II-XIb e1 e2 e \noBreak
+    \time 4/2 \tempoH-II-Xb e1 e2 e \noBreak
     f f1 f2
     f1 f2 f~
     f e d1
@@ -95,9 +95,9 @@ H-II-XIAlto = {
     f1 f2 e
     f1.( e4 d) \noBreak
     e\breve\fermata \bar "||" %90
-    \time 6/2 \tempoH-II-XIa e f4. f8 e2 \noBreak
+    \time 6/2 \tempoH-II-Xa e f4. f8 e2 \noBreak
     d\breve d2 cis\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb d1 d2 a' \noBreak
+    \time 4/2 \tempoH-II-Xb d1 d2 a' \noBreak
     g1. g2
     f!1 e~ %95
     e e2 a
@@ -118,9 +118,9 @@ H-II-XIAlto = {
     f2. g4 a2 a,
     f'1.( e4 d) \noBreak
     e\breve\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa e\breve f2 e \noBreak
+    \time 6/2 \tempoH-II-Xa e\breve f2 e \noBreak
     d\breve d2 cis\fermata \bar "||" %115
-    \time 4/2 \tempoH-II-XIb f!1. f2 \noBreak
+    \time 4/2 \tempoH-II-Xb f!1. f2 \noBreak
     f f es1
     d2 d es1~
     es2 d d1
@@ -142,9 +142,9 @@ H-II-XIAlto = {
     fis a1 g2~ %135
     g fis4( e) \hA fis2 fis \noBreak
     g\breve\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa e\breve f!2 e \noBreak
+    \time 6/2 \tempoH-II-Xa e\breve f!2 e \noBreak
     d\breve d4. d8 cis2\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb R\breve \noBreak %140
+    \time 4/2 \tempoH-II-Xb R\breve \noBreak %140
     r2 f1 e2
     f f g f~
     f d1 e2
@@ -156,9 +156,9 @@ H-II-XIAlto = {
     g1. f2~
     f2 e4 d e1 \noBreak %150
     f\breve\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa e\breve f2 e \noBreak
+    \time 6/2 \tempoH-II-Xa e\breve f2 e \noBreak
     d\breve d2 cis\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb e1 e2 e \noBreak
+    \time 4/2 \tempoH-II-Xb e1 e2 e \noBreak
     f2. f4 e2 a %155
     fis fis g fis4 e
     fis1. fis2
@@ -169,9 +169,9 @@ H-II-XIAlto = {
     e2 d c! h!
     c\breve \noBreak
     h\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa e\breve f4. f8 e2 \noBreak %165
+    \time 6/2 \tempoH-II-Xa e\breve f4. f8 e2 \noBreak %165
     d\breve d4. d8 cis2\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb f!1 f2 f~
+    \time 4/2 \tempoH-II-Xb f!1 f2 f~
     f e f1
     f b
     g2. g4 g2 g %170
@@ -184,9 +184,9 @@ H-II-XIAlto = {
     cis1 d2( \hA cis)
     d1. d2 \noBreak
     cis\breve\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa e\breve f2 e \noBreak %180
+    \time 6/2 \tempoH-II-Xa e\breve f2 e \noBreak %180
     d\breve d4. d8 cis2\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb e1 e2 e
+    \time 4/2 \tempoH-II-Xb e1 e2 e
     f1 e2 e~
     e e g1~
     g2 f e1 %185
@@ -222,7 +222,7 @@ H-II-XIAlto = {
   }
 }
 
-H-II-XIAltoLyrics = \lyricmode {
+H-II-XAltoLyrics = \lyricmode {
   \tl "Miserere mei," De -- us,
   \tl "secundum magnam misericordiam" tu -- am.
   Et se --

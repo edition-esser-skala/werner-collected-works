@@ -1,13 +1,13 @@
 \version "2.24.0"
 
-H-II-XIBasso = {
+H-II-XBasso = {
   \relative c {
     \clef bass
-    \key c \major \time 6/2 \tempoH-II-XIa \autoBeamOff
+    \key c \major \time 6/2 \tempoH-II-Xa \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
     c\breve f2 c \noBreak
     g'\breve d2 a \fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb d1. d2 \noBreak
+    \time 4/2 \tempoH-II-Xb d1. d2 \noBreak
     f1 c
     g' d %5
     cis2 d a1
@@ -23,9 +23,9 @@ H-II-XIBasso = {
     e! f dis1
     e\breve \noBreak
     a,\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa c\breve \noBreak f2 c \noBreak
+    \time 6/2 \tempoH-II-Xa c\breve \noBreak f2 c \noBreak
     \time 8/2 g'\breve d2. d4 a1\fermata \bar "||"  %20
-    \time 4/2 \tempoH-II-XIb f'2. f4 f2 f \noBreak
+    \time 4/2 \tempoH-II-Xb f'2. f4 f2 f \noBreak
     d1 a
     b2 c d1
     c r
@@ -50,9 +50,9 @@ H-II-XIBasso = {
     b g e!1
     f c~ \noBreak
     c f,\fermata \bar "||" %45
-    \time 6/2 \tempoH-II-XIa c'\breve f2 c \noBreak
+    \time 6/2 \tempoH-II-Xa c'\breve f2 c \noBreak
     g'\breve d2 a\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb a'1. a2 \noBreak
+    \time 4/2 \tempoH-II-Xb a'1. a2 \noBreak
     d,1 d
     dis2 dis dis dis %50
     e e c a
@@ -68,9 +68,9 @@ H-II-XIBasso = {
     c1. h2
     c\breve \noBreak
     f,\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa c' f2 c \noBreak
+    \time 6/2 \tempoH-II-Xa c' f2 c \noBreak
     g'\breve d2 a\fermata \bar "||"  %65
-    \time 4/2 \tempoH-II-XIb c!1 c2 c \noBreak
+    \time 4/2 \tempoH-II-Xb c!1 c2 c \noBreak
     f1 b,~
     b2 \hA b f' f
     c1( g)
@@ -94,9 +94,9 @@ H-II-XIBasso = {
     f, f'2 c
     d\breve \noBreak
     c\fermata \bar "||"  %90
-    \time 6/2 \tempoH-II-XIa c\breve f4. f8 c2 \noBreak
+    \time 6/2 \tempoH-II-Xa c\breve f4. f8 c2 \noBreak
     g'\breve d2 a\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb fis'\breve \noBreak
+    \time 4/2 \tempoH-II-Xb fis'\breve \noBreak
     g2 g cis,2. cis4
     d1 e~ %95
     e a,
@@ -117,9 +117,9 @@ H-II-XIBasso = {
     r2 d1 cis2
     d\breve \noBreak
     a\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa c!\breve f2 c \noBreak
+    \time 6/2 \tempoH-II-Xa c!\breve f2 c \noBreak
     g'\breve d2 a\fermata \bar "||"  %115
-    \time 4/2 \tempoH-II-XIb f'!1. f2 \noBreak
+    \time 4/2 \tempoH-II-Xb f'!1. f2 \noBreak
     b, b c1
     g r2 c
     f1 b,2 b
@@ -140,9 +140,9 @@ H-II-XIBasso = {
     d\breve %135
     d \noBreak
     g,\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa c\breve f2 c \noBreak
+    \time 6/2 \tempoH-II-Xa c\breve f2 c \noBreak
     g'\breve d4. d8 a2\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb R\breve \noBreak %140
+    \time 4/2 \tempoH-II-Xb R\breve \noBreak %140
     f'1 g
     d e2 f
     b,1 h2 c
@@ -154,7 +154,7 @@ H-II-XIBasso = {
     e1 f
     c\breve \noBreak %150
     f,\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa c'\breve f2 c \noBreak
+    \time 6/2 \tempoH-II-Xa c'\breve f2 c \noBreak
     g'\breve d2 a\fermata \bar "||"
     \time 4/2 e'1 e2 e \noBreak
     d2. d4 a'1 %155
@@ -167,9 +167,9 @@ H-II-XIBasso = {
     d) e
     a( a,) \noBreak
     e'\breve\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa c\breve f4. f8 c2 \noBreak %165
+    \time 6/2 \tempoH-II-Xa c\breve f4. f8 c2 \noBreak %165
     g'\breve d4. d8 a2\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb f'!1. f2 \noBreak
+    \time 4/2 \tempoH-II-Xb f'!1. f2 \noBreak
     g2. g4 d1
     b' g
     es2. es4 c2 c %170
@@ -182,9 +182,9 @@ H-II-XIBasso = {
     a!1 a
     gis1. gis2 \noBreak
     a\breve\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa c!\breve f2 c \noBreak %180
+    \time 6/2 \tempoH-II-Xa c!\breve f2 c \noBreak %180
     g'\breve d4. d8 a2\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb c!1 c2 c
+    \time 4/2 \tempoH-II-Xb c!1 c2 c
     d1 a2 a'~
     a a g2. g4
     d2 d e2. e4 %185
@@ -220,7 +220,7 @@ H-II-XIBasso = {
   }
 }
 
-H-II-XIBassoLyrics = \lyricmode {
+H-II-XBassoLyrics = \lyricmode {
   \tl "Miserere mei," De -- us,
   \tl "secundum magnam misericordiam" tu -- am.
   Et se --

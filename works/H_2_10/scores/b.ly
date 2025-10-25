@@ -7,11 +7,11 @@
 
 \book {
   \bookpart {
-    \section "H.2.11" "Miserere"
+    \section "H.2.10" "Miserere"
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-II-XIOrgano }
+        \new Staff { \H-II-XOrgano }
       >>
     }
   }

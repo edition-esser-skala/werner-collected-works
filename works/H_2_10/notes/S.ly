@@ -1,13 +1,13 @@
 \version "2.24.0"
 
-H-II-XISoprano = {
+H-II-XSoprano = {
   \relative c' {
     \clef treble
-    \key c \major \time 6/2 \tempoH-II-XIa \autoBeamOff
+    \key c \major \time 6/2 \tempoH-II-Xa \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
     g'\breve a2 g \noBreak
     g\breve fis2 e\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb r2 d'1 d2 \noBreak
+    \time 4/2 \tempoH-II-Xb r2 d'1 d2 \noBreak
     c1 c2 c~
     c b a1~ %5
     a2 a a1
@@ -23,9 +23,9 @@ H-II-XISoprano = {
     d c1 h2
     h\breve \noBreak
     a\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa g!\breve a2 g \noBreak
+    \time 6/2 \tempoH-II-Xa g!\breve a2 g \noBreak
     \time 8/2 g\breve fis2. fis4 e1\fermata \bar "||" %20
-    \time 4/2 \tempoH-II-XIb c'2. c4 c2 c \noBreak
+    \time 4/2 \tempoH-II-Xb c'2. c4 c2 c \noBreak
     d f1 e2
     d c1( h!2)
     c c d a
@@ -50,9 +50,9 @@ H-II-XISoprano = {
     b d c b~
     b a g1~ \noBreak
     g a\fermata \bar "||" %45
-    \time 6/2 \tempoH-II-XIa g\breve a2 g \noBreak
+    \time 6/2 \tempoH-II-Xa g\breve a2 g \noBreak
     g\breve fis2 e\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb a1. a2 \noBreak
+    \time 4/2 \tempoH-II-Xb a1. a2 \noBreak
     a1 a
     a2 a a a %50
     gis gis a a~
@@ -68,9 +68,9 @@ H-II-XISoprano = {
     e2 e f1~
     f2 e4 d e1 \noBreak
     f\breve\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa g\breve a2 g \noBreak
+    \time 6/2 \tempoH-II-Xa g\breve a2 g \noBreak
     g\breve fis2 e\fermata \bar "||" %65
-    \time 4/2 \tempoH-II-XIb c'!1 c2 c \noBreak
+    \time 4/2 \tempoH-II-Xb c'!1 c2 c \noBreak
     c1 d~
     d2 d c1
     c2 c1( h!2)
@@ -95,9 +95,9 @@ H-II-XISoprano = {
     a2 c1 c2
     a1( d) \noBreak
     g,\breve\fermata \bar "||" %90
-    \time 6/2 \tempoH-II-XIa g\breve a4. a8 g2 \noBreak
+    \time 6/2 \tempoH-II-Xa g\breve a4. a8 g2 \noBreak
     g\breve fis2 e\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb r2 a d1 \noBreak
+    \time 4/2 \tempoH-II-Xb r2 a d1 \noBreak
     d r2 e~
     e d2. d4 c!2 %95
     h1 cis2 cis
@@ -118,9 +118,9 @@ H-II-XISoprano = {
     d4( e) f2 e1~
     e2 d4 cis d1~ \noBreak
     d2 cis4 h \hA cis!1\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa g\breve a2 g \noBreak
+    \time 6/2 \tempoH-II-Xa g\breve a2 g \noBreak
     g\breve fis2 e\fermata \bar "||" %115
-    \time 4/2 \tempoH-II-XIb c'1. f2 \noBreak
+    \time 4/2 \tempoH-II-Xb c'1. f2 \noBreak
     d1 c2 c
     h! h c2. c4
     c1. b2~
@@ -141,9 +141,9 @@ H-II-XISoprano = {
     c2 b4( a) \hA b1 %135
     a\breve \noBreak
     h!\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa g\breve a2 g \noBreak
+    \time 6/2 \tempoH-II-Xa g\breve a2 g \noBreak
     g\breve fis4. fis8 e2\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb r2 c'!1 h!2 \noBreak %140
+    \time 4/2 \tempoH-II-Xb r2 c'!1 h!2 \noBreak %140
     c d d c4( b)
     a2 b1 a2~
     a g g1~
@@ -155,9 +155,9 @@ H-II-XISoprano = {
     c2 b1 a2
     g\breve \noBreak %150
     a\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa g\breve a2 g \noBreak
+    \time 6/2 \tempoH-II-Xa g\breve a2 g \noBreak
     g\breve fis2 e\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb h'1 h2 h \noBreak
+    \time 4/2 \tempoH-II-Xb h'1 h2 h \noBreak
     d d1 c2 %155
     h1 h2 h
     h1. h2
@@ -168,9 +168,9 @@ H-II-XISoprano = {
     f f e1~
     e2 e e1 \noBreak
     e\breve\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa g!\breve a4. a8 g2 \noBreak %165
+    \time 6/2 \tempoH-II-Xa g!\breve a4. a8 g2 \noBreak %165
     g\breve fis4. fis8 e2\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb a1. a2 \noBreak
+    \time 4/2 \tempoH-II-Xb a1. a2 \noBreak
     b2. b4 a2 d~
     d d d2. d4
     es1 es %170
@@ -183,9 +183,9 @@ H-II-XISoprano = {
     g2 g f e!
     f1 e \noBreak
     e\breve\fermata \bar "||"
-    \time 6/2 \tempoH-II-XIa g!\breve a2 g \noBreak %180
+    \time 6/2 \tempoH-II-Xa g!\breve a2 g \noBreak %180
     g\breve fis4. fis8 e2\fermata \bar "||"
-    \time 4/2 \tempoH-II-XIb c'!1 c2 c \noBreak
+    \time 4/2 \tempoH-II-Xb c'!1 c2 c \noBreak
     a( h) cis1
     cis2 cis d2. d4
     d2 d1 c2~ %185
@@ -221,7 +221,7 @@ H-II-XISoprano = {
   }
 }
 
-H-II-XISopranoLyrics = \lyricmode {
+H-II-XSopranoLyrics = \lyricmode {
   \tl "Miserere mei," De -- us,
   \tl "secundum magnam misericordiam" tu -- am.
   Et se --
