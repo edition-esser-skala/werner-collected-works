@@ -20,9 +20,28 @@
   \bookpart {
     \section "1" "Dixit Dominus"
     \addTocEntry
-    \paper { indent = 3\cm }
+    \paper {
+      top-system-spacing.basic-distance = #20
+      top-system-spacing.minimum-distance = #20
+      top-markup-spacing.basic-distance = #5
+      top-markup-spacing.minimum-distance = #5
+      markup-system-spacing.basic-distance = #15
+      markup-system-spacing.minimum-distance = #15
+      indent = 3\cm
+      systems-per-page = #1
+    }
     \score { %\articulate
       <<
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
+            \partCombine #'(0 . 10) \H-I-XDixitClarinoI \H-I-XDixitClarinoII
+          >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = \transposedTimp "C" "" "G" ""
+          \H-I-XDixitTimpani
+        }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "Violino"
@@ -357,8 +376,27 @@
   \bookpart {
     \section "7" "Magnificat"
     \addTocEntry
+    \paper {
+      top-system-spacing.basic-distance = #20
+      top-system-spacing.minimum-distance = #20
+      top-markup-spacing.basic-distance = #5
+      top-markup-spacing.minimum-distance = #5
+      markup-system-spacing.basic-distance = #15
+      markup-system-spacing.minimum-distance = #15
+      systems-per-page = #1
+    }
     \score { %\articulate
       <<
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+            \partCombine #'(0 . 10) \H-I-XMagnificatClarinoI \H-I-XMagnificatClarinoII
+          >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "timp"
+          \H-I-XMagnificatTimpani
+        }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"

@@ -2,7 +2,7 @@ title: Vesperæ de Dominica
 subtitle: Dixit Dominus · Confitebor · Beatus vir · Laudate pueri ·\\Laudate Dominum · In exitu Israel · Magnificat
 id: WerW H.1.10
 genre: vesper
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
   A1:
@@ -23,3 +23,5 @@ toe: |
   2 & 42 & S    & grace note added by editor \\
   3 & 29 & S    & grace note added by editor \\
   6 & 46 & vl 2 & 2nd \eighthNote\ in \A1: c″8 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
