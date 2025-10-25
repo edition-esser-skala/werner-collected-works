@@ -1,0 +1,18 @@
+title: Lauda Jerusalem
+id: WerW H.2.5
+genre: psalm
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.262 (3)
+    rism: 530003595
+    url: https://copia.oszk.hu/kotta/psalmi-de-vener/
+    license: public domain
+    principal: true
+toe: |
+  3  & org & 1st \quarterNote\ in \B1: c′8.–\flat b16 \\
+  11 & B   & 2nd \eighthNote\ in \B1: B16–A16 \\
+  25 & S   & grace note added by editor \\
+  29 & A   & last \eighthNote\ in \B1: g′8 \\
