@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-XViolinoII = {
+H-II-IXViolinoII = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/4 \tempoH-II-Xa
+    \key d \minor \time 4/4 \tempoH-II-IXa
     R1*3
     r8 f\f f f d'8. d16 d8 d
     d d c e d2 %5
@@ -25,7 +25,7 @@ H-II-XViolinoII = {
     a8. a16 f8 a g16 c g e c8 r
     r2 r4 r16 e'\f cis e
     a,8 fis16 a \hA fis8 d16 b' c8 b a8. a16 %25
-    gis8 a4 \hA gis8 \tempoH-II-Xb a4 r
+    gis8 a4 \hA gis8 \tempoH-II-IXb a4 r
     R1
     r8 a4 a8 f d b'8. b16
     a8 f~ f16 g a8 a, e'4 d8

@@ -1,7 +1,7 @@
 \version "2.24.0"
 
-tempoH-II-Xa = \tempoMarkup "Larghetto"
-tempoH-II-Xb = \tempoMarkup "Vivace"
+tempoH-II-IXa = \tempoMarkup "Larghetto"
+tempoH-II-IXb = \tempoMarkup "Vivace"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

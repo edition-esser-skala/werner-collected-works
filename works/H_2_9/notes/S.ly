@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-XSoprano = {
+H-II-IXSoprano = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/4 \tempoH-II-Xa \autoBeamOff
+    \key d \minor \time 4/4 \tempoH-II-IXa \autoBeamOff
     R1
     \mvTr a'4.\pE^\solo a8 a([ g)] g d'
     e e f f f4 e\trill
@@ -29,7 +29,7 @@ H-II-XSoprano = {
     a a16 a c8 f e e r a,\p
     b! a a([ b)] a a4\f a8
     a8. a16 a8 b c!([ b] a8.) a16 %25
-    gis8 a4 \hA gis8 \tempoH-II-Xb a4 r
+    gis8 a4 \hA gis8 \tempoH-II-IXb a4 r
     R1
     r2 r8 d4 d8
     c a f'8. f16 e4 r8 d
@@ -59,7 +59,7 @@ H-II-XSoprano = {
   }
 }
 
-H-II-XSopranoLyrics = \lyricmode {
+H-II-IXSopranoLyrics = \lyricmode {
   De pro -- fun -- dis cla -- %2
   ma -- vi ad te, Do -- mi --
   ne: Do -- mi -- ne, ex --

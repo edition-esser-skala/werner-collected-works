@@ -2,16 +2,16 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "b")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "H.2.10" "De profundis"
+    \section "H.2.9" "De profundis"
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-II-XViolinoI }
+        \new Staff { \H-II-IXOrgano }
       >>
     }
   }

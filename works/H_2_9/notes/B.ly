@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-XBasso = {
+H-II-IXBasso = {
   \relative c {
     \clef bass
-    \key d \minor \time 4/4 \tempoH-II-Xa \autoBeamOff
+    \key d \minor \time 4/4 \tempoH-II-IXa \autoBeamOff
     r2 r4 \mvTr a8\pE^\solo a
     d4 f8 d g4 b8 g
     c c f, f c4. c8
@@ -24,7 +24,7 @@ H-II-XBasso = {
     f f16 f a8 f c' c, r cis\p
     d cis d4 cis a8\f \hA cis
     d8. d16 d8 g fis([ g] d8.) d16 %25
-    e8 a e8. e16 \tempoH-II-Xb a,8 a'4 a8
+    e8 a e8. e16 \tempoH-II-IXb a,8 a'4 a8
     f d b'8. b16 a8 a f d~
     d[ cis16 h] \hA cis8. cis16 d4 g8 d16([ e)]
     f8.([ e16] d[ e)] f([ g)] a4 d,8. d16
@@ -57,7 +57,7 @@ H-II-XBasso = {
   }
 }
 
-H-II-XBassoLyrics = \lyricmode {
+H-II-IXBassoLyrics = \lyricmode {
   De pro --
   fun -- dis cla -- ma -- vi, cla --
   ma -- vi ad te, Do -- mi --

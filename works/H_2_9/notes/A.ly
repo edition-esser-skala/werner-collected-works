@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-XAlto = {
+H-II-IXAlto = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/4 \tempoH-II-Xa \autoBeamOff
+    \key d \minor \time 4/4 \tempoH-II-IXa \autoBeamOff
     r2 \mvTr e4.\pE^\solo e8
     e([ d)] d a' b4. b8
     g4 a g4. g8
@@ -24,7 +24,7 @@ H-II-XAlto = {
     f f16 f f8 a g g r e\p
     f e f4 e cis8\f e
     fis8. fis16 fis8 g a( g4 f8 %25
-    e4.) e8 \tempoH-II-Xb e4 r
+    e4.) e8 \tempoH-II-IXb e4 r
     R1
     r8 a4 a8 f d b'8. b16
     a8 f8.([ g16)] a8 a, e'4 d8
@@ -54,7 +54,7 @@ H-II-XAlto = {
   }
 }
 
-H-II-XAltoLyrics = \lyricmode {
+H-II-IXAltoLyrics = \lyricmode {
   De pro --
   fun -- dis cla -- ma -- vi
   ad te, Do -- mi --
