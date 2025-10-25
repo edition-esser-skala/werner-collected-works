@@ -1,0 +1,17 @@
+title: Salve Regina
+id: WerW I.4.48
+genre: antiphon
+scoring: S (solo), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: K 23
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/485.html
+    license: public domain
+    principal: true
+toe: |
+  1  & –    & tempo indication in vlne: “Andante” \\
+  69 & vl 2 & bar in \B1: e′2–d′4 \\
+parts:
+  S_solo: Soprano solo
