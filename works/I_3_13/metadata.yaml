@@ -1,0 +1,17 @@
+title: Regina cœli
+id: WerW I.3.13
+genre: antiphon
+scoring: S, A, T, 2 B (solo), S, A, T, 2 B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.201
+    date: 1764
+    rism: 530002093
+    url: https://copia.oszk.hu/kotta/regina-coeli-in-c-2/
+    license: public domain
+    principal: true
+toe: |
+  49 & – & tempo indication in vl 1/2: “Vivace” \\
+  69 & – & tempo indication in B 2, org, and vlne: “Adagio” \\
