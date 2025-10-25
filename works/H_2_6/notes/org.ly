@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-IXOrgano = {
+H-II-VIOrgano = {
   \relative c {
     \clef bass
-    \key d \major \time 3/4 \tempoH-II-IX
+    \key d \major \time 3/4 \tempoH-II-VI
     \mvTr d8\pE-\solo e fis4 cis
     d fis\fE d
     e cis a
@@ -64,7 +64,7 @@ H-II-IXOrgano = {
     d2 h4
     g a2 \noBreak
     d,2.\fermata \bar "||" %60
-    \time 4/4 \tempoH-II-IXb
+    \time 4/4 \tempoH-II-VIb
       \mvTr fis'2\fE-\tutti eis \noBreak
     fis4. h,8 e4. d16 cis
     d4. cis8 h4 fis'8 e
@@ -75,7 +75,7 @@ H-II-IXOrgano = {
     g,4 r r2
     R1*6 \noBreak %74
     R1\fermata \bar "||" %75
-    \time 3/4 \tempoH-II-IXc
+    \time 3/4 \tempoH-II-VIc
       \mvTr d'8\pE-\solo e fis4 d \noBreak
     a' fis cis
     \mvTr d8\fE-\tutti e fis4 d
@@ -121,7 +121,7 @@ H-II-IXOrgano = {
   }
 }
 
-H-II-IXBassFigures = \figuremode {
+H-II-VIBassFigures = \figuremode {
   r2 \bo <[6]>4
   r2.
   r

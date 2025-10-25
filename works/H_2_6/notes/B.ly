@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-IXBasso = {
+H-II-VIBasso = {
   \relative c {
     \clef bass
-    \key d \major \time 3/4 \tempoH-II-IX \autoBeamOff
+    \key d \major \time 3/4 \tempoH-II-VI \autoBeamOff
     R2.*22 %22
     r4^\aTre r \mvTr e\pE^\solo
     a2 g!4
@@ -34,7 +34,7 @@ H-II-IXBasso = {
     fis4 d h
     g a2 \noBreak
     d2.\fermata \bar "||" %60
-    \time 4/4 \tempoH-II-IXb
+    \time 4/4 \tempoH-II-VIb
       \mvTr fis4\fE^\tutti fis eis8 eis eis eis \noBreak
     fis4. h,8 e4._( d16[ cis)]
     d4. cis8 h4 fis'8([ e)]
@@ -45,7 +45,7 @@ H-II-IXBasso = {
     g,4 r r2
     R1*6 \noBreak %74
     R1\fermata \bar "||" %75
-    \time 3/4 \tempoH-II-IXc R2.*2
+    \time 3/4 \tempoH-II-VIc R2.*2
     \mvTr d'4\fE^\tutti fis d
     a' fis cis
     d4. d8 d4 %80
@@ -82,7 +82,7 @@ H-II-IXBasso = {
   }
 }
 
-H-II-IXBassoLyrics = \lyricmode {
+H-II-VIBassoLyrics = \lyricmode {
   La -- %23
   bo -- res
   ma -- nu -- um tu -- %25

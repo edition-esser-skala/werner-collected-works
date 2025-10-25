@@ -7,12 +7,12 @@
 
 \book {
   \bookpart {
-    \section "H.2.9" "Beati omnes"
+    \section "H.2.6" "Beati omnes"
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-II-IXOrgano }
-        \new FiguredBass { \H-II-IXBassFigures }
+        \new Staff { \H-II-VIOrgano }
+        \new FiguredBass { \H-II-VIBassFigures }
       >>
     }
   }

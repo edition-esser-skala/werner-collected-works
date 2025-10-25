@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-IXAlto = {
+H-II-VIAlto = {
   \relative c' {
     \clef treble
-    \key d \major \time 3/4 \tempoH-II-IX \autoBeamOff
+    \key d \major \time 3/4 \tempoH-II-VI \autoBeamOff
     \mvTr a'4\pE^\solo d, e
     fis8([ e)] d4 r
     R2.
@@ -57,7 +57,7 @@ H-II-IXAlto = {
     a,4 fis'2
     g4 e2 \noBreak
     fis2.\fermata \bar "||" %60
-    \time 4/4 \tempoH-II-IXb
+    \time 4/4 \tempoH-II-VIb
       \mvTr fis4\fE^\tutti fis gis8 gis gis gis \noBreak
     fis4 fis gis4.( fis16[ e])
     fis4 fis fis a!~
@@ -71,7 +71,7 @@ H-II-IXAlto = {
     dis8. dis16 dis4 r8 e16 fis g8 fis16 e
     fis8 h, fis' h g fis e d \noBreak
     cis4.\trill d8 d2\fermata \bar "||" %75
-    \time 3/4 \tempoH-II-IXc R2.*2
+    \time 3/4 \tempoH-II-VIc R2.*2
     \mvTr d4.\fE^\tuttiE d8 fis4
     e d e
     fis4. fis8 fis4 %80
@@ -110,7 +110,7 @@ H-II-IXAlto = {
   }
 }
 
-H-II-IXAltoLyrics = \lyricmode {
+H-II-VIAltoLyrics = \lyricmode {
   Be -- a -- ti
   o -- mnes,
 
