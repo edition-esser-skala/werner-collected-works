@@ -1,0 +1,16 @@
+title: Sonatina
+id: WerW M.15
+genre: sonata
+scoring: 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.284
+    rism: 530003615
+    url: https://copia.oszk.hu/kotta/suonatina-a-3-parti-in-g/
+    license: public domain
+    principal: true
+toe: |
+  11 & vl 1 & 2nd/3rd \quarterNote\ in \A1: a″2 \\
+  36 & vlne & 6th \eighthNote\ in \A1: e8 \\
