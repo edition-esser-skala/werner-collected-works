@@ -1,0 +1,17 @@
+title: Te Deum
+id: WerW J.5
+genre: hymn
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: C 8
+    rism: 600038248
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/75.html
+    license: public domain
+    principal: true
+toe: |
+  16  & vl 1 & 2nd \quarterNote\ in \B1: c″4 \\
+  121 & A    & bar in \B1: a′1–\halfNoteRest \\
+  121 & B    & bar in \B1: A1–\halfNoteRest \\
