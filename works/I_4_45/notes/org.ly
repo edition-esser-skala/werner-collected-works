@@ -3,7 +3,7 @@
 I-IV-XLVIOrgano = {
   \relative c {
     \clef bass
-    \twofourtime \key f \major \time 2/4 \tempoI-IV-XLVIa
+    \twofourtime \key f \major \time 2/4 \tempoI-IV-XLVa
     \mvTr f,4\p-\soloE r
     b f'8 f,
     g a b c
@@ -35,7 +35,7 @@ I-IV-XLVIOrgano = {
     g b a a,
     d r d r \noBreak %30
     d4 r\fermata \bar "||"
-    \time 3/4 \tempoI-IV-XLVIb \newSpacingSection
+    \time 3/4 \tempoI-IV-XLVb \newSpacingSection
       f4\pE r r \noBreak
     f r r
     f r r
@@ -56,7 +56,7 @@ I-IV-XLVIOrgano = {
     g r r
     g\pp g g \noBreak
     d2 r4\fermata \bar "||"
-    \key b \major \time 2/4 \tempoI-IV-XLVIc \newSpacingSection
+    \key b \major \time 2/4 \tempoI-IV-XLVc \newSpacingSection
       b8\pE b' b b \noBreak %55
     b4 b,
     a8 a' a a
@@ -87,7 +87,7 @@ I-IV-XLVIOrgano = {
     b,!8 b b b %85
     a d a' a, \noBreak
     d4 r\fermata \bar "||"
-    \key f \major \time 3/4 \tempoI-IV-XLVId \newSpacingSection
+    \key f \major \time 3/4 \tempoI-IV-XLVd \newSpacingSection
       f,4\pE f' es \noBreak
     d8 r r4 r8 d
     g,4 g' f! %90
@@ -102,7 +102,7 @@ I-IV-XLVIOrgano = {
     d~ d8. c32 b a4~
     a8 b c4 c, \noBreak %100
     f2 r4\fermata \bar "||"
-    \time 4/4 \tempoI-IV-XLVIe \newSpacingSection
+    \time 4/4 \tempoI-IV-XLVe \newSpacingSection
       f8\pE f' a f c' c, d e \noBreak
     f4. e8 d4 a8 h
     c4 e8 c f4 d

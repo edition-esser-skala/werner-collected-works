@@ -3,7 +3,7 @@
 I-IV-XLVISoprano = {
   \relative c' {
     \clef treble
-    \key f \major \time 2/4 \tempoI-IV-XLVIa \autoBeamOff
+    \key f \major \time 2/4 \tempoI-IV-XLVa \autoBeamOff
     \mvTr c'2\pE^\solo
     d8.[\trill e32 f] c4
     r8 f, \tuplet 3/2 8 { g16([ a b)] a([ b c)] }
@@ -33,7 +33,7 @@ I-IV-XLVISoprano = {
     d,4 r
     R2*3 \noBreak %30
     R2\fermata \bar "||"
-    \time 3/4 \tempoI-IV-XLVIb \newSpacingSection
+    \time 3/4 \tempoI-IV-XLVb \newSpacingSection
       \afterGrace f4( a16) \afterGrace a4( c16) \afterGrace c4( f16) \noBreak
     f4.\trill d16[ e] \sbOn \tuplet 3/2 8 { f[ e d } c b]
     c4.\trill b16[ c] \tuplet 3/2 8 { d[ c b } a g]
@@ -57,7 +57,7 @@ I-IV-XLVISoprano = {
     es8[ b']~ b[ \tuplet 3/2 8 { g16 f g]~ } g8[ \tuplet 3/2 8 { es16 d es] }
     cis2.\trill \noBreak
     d2 r4\fermata \bar "||"
-    \key b \major \time 2/4 \tempoI-IV-XLVIc \newSpacingSection
+    \key b \major \time 2/4 \tempoI-IV-XLVc \newSpacingSection
       b'4 f \noBreak %55
     b16[( c d es] f8) b,
     c4 f,
@@ -89,7 +89,7 @@ I-IV-XLVISoprano = {
     d,4 r
     R2*3 \noBreak %86
     R2\fermata \bar "||"
-    \key f \major \time 3/4 \tempoI-IV-XLVId \newSpacingSection
+    \key f \major \time 3/4 \tempoI-IV-XLVd \newSpacingSection
       f4 a16_([ b a b] c8) d16([ es)] \noBreak
     \tuplet 3/2 4 { fis,8([\trill e! \hA fis)] } g([ fis)] g a
     b g b4. c16([ d)] %90
@@ -103,7 +103,7 @@ I-IV-XLVISoprano = {
     f r r
     R2.*2 \noBreak %100
     R2.\fermata \bar "||"
-    \time 4/4 \tempoI-IV-XLVIe \newSpacingSection
+    \time 4/4 \tempoI-IV-XLVe \newSpacingSection
       f2 g16[ f g a] b4~ \noBreak
     b8 a4 g8 f f' c([ d)]
     g,4 c a8 f4 d'8

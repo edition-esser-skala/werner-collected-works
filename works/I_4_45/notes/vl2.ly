@@ -3,7 +3,7 @@
 I-IV-XLVIViolinoII = {
   \relative c' {
     \clef treble
-    \twofourtime \key f \major \time 2/4 \tempoI-IV-XLVIa
+    \twofourtime \key f \major \time 2/4 \tempoI-IV-XLVa
     r8 f\p g a
     \sbOn \tuplet 3/2 8 { b16 c d d c b } a4 \sbOff
     R2
@@ -35,7 +35,7 @@ I-IV-XLVIViolinoII = {
     b,32( a16.) g32( b16.) a8 cis
     \sbOn \tuplet 3/2 8 { d16 f a d a f d f a d a f } \sbOff \noBreak %30
     d4 r\fermata \bar "||"
-    \time 3/4 \tempoI-IV-XLVIb \newSpacingSection
+    \time 3/4 \tempoI-IV-XLVb \newSpacingSection
       R2. \noBreak
     \sbOn \tuplet 3/2 8 { a''16\pp g a c b a a g f } f8 r4
     \tuplet 3/2 8 { f16 e f a g f e d c } b8 r4
@@ -59,7 +59,7 @@ I-IV-XLVIViolinoII = {
     r8 g'4 es8-\critnote b g
     b8.[ b16 b8. b16 g8.-\critnote g'16] \noBreak
     fis8~ fis32 a\f fis d fis4 r\fermata \bar "||"
-    \key b \major \time 2/4 \tempoI-IV-XLVIc \newSpacingSection
+    \key b \major \time 2/4 \tempoI-IV-XLVc \newSpacingSection
       R2 \noBreak %55
     d'8\p b f d
     R2
@@ -92,7 +92,7 @@ I-IV-XLVIViolinoII = {
     \sbOn \tuplet 3/2 8 { d' c b } b( a) \sbOff gis8 gis %85
     a f16 d a8 a \noBreak
     d4 r\fermata \bar "||"
-    \key f \major \time 3/4 \tempoI-IV-XLVId \newSpacingSection
+    \key f \major \time 3/4 \tempoI-IV-XLVd \newSpacingSection
       R2. \noBreak
     r8 c'\p b a g fis
     g d4 b8 r4 %90
@@ -107,7 +107,7 @@ I-IV-XLVIViolinoII = {
     r4 r8 f c'4~
     c8 f, f4 e\trill \noBreak %100
     f2 r4\fermata \bar "||"
-    \time 4/4 \tempoI-IV-XLVIe \newSpacingSection
+    \time 4/4 \tempoI-IV-XLVe \newSpacingSection
       r2 r8 e\p f g \noBreak
     c, a'4 g8 a8. h16 c8 d
     g,4 r8 c4 a8 r d~
