@@ -1,11 +1,11 @@
 \version "2.24.0"
 
-I-IV-XLVIIViolinoII = {
+I-IV-XLVIIViolinoI = {
   \relative c' {
     \clef treble
-    \twofourtime \key d \major \time 2/4 \tempoI-IV-XLVIIa
+    \twofourtime \key d \major \time 2/4 \tempoI-IV-XLVIa
     R2*3
-    r8 a'\fE d4~
+    r8 a'\f \once \tieDashed d4~
     d16 cis h8 g'16 fis e8~ %5
     e16 d cis8 a'16 g fis8~
     fis16 e d8 h'16 a g fis
@@ -19,10 +19,10 @@ I-IV-XLVIIViolinoII = {
     cis4 r
     r8 fis,\p fis'4~
     fis8 e16 d cis h a g
-    fis8 fis' d, fis'
-    e e e e %25
-    d d16 e fis8 d
-    cis4 ais?
+    \kneeBeam fis8 d'' d d
+    d cis a, cis' %25
+    cis h h, h'
+    h ais16 gis \hA ais8 ais,
     R2*3 %30
     r4 h'8. g16
     e8 a, a'8. fis16
@@ -36,16 +36,16 @@ I-IV-XLVIIViolinoII = {
     d4 r
     r8 fis\p fis'4~
     fis8 e16 d cis h a g %45
-    fis8 fis' d, fis'
-    e e e e
-    d d, fis d'
-    cis fis, cis' cis
-    h h, d h' %50
-    a d, a' d
-    d cis16 h cis a h cis
+    fis8 d'' d d
+    d cis a, cis'
+    cis h h, h'
+    h a a, a'
+    a g g, g' %50
+    g fis fis, fis'
+    e16 e fis g a a, h cis
     d8 d, d'4~
     d16 cis h8 g'16 fis e8~
-    e16 d cis8 a'16 g fis8~ %55
+    e16 d cis8 a'16 g \once \tieDashed fis8~ %55
     fis16 e d8 h'16 a g fis
     e d cis h a g fis e
     d8 d' fis, e
@@ -56,10 +56,10 @@ I-IV-XLVIIViolinoII = {
     e d cis h a g fis e
     d8 d' fis, e \noBreak
     d4 r\fermata \bar "||" %65
-    \key d \minor \time 4/4 \tempoI-IV-XLVIIb \newSpacingSection
+    \key d \minor \time 4/4 \tempoI-IV-XLVIb \newSpacingSection
       R1*16 \noBreak %81
     R1\fermata \bar "||"
-    \key d \major \time 3/4 \tempoI-IV-XLVIIc \newSpacingSection
+    \key d \major \time 3/4 \tempoI-IV-XLVIc \newSpacingSection
       r4 a'4.\fE d8
     cis16 d e4 g,8 fis e
     fis16 e d4 fis8 a d %85
@@ -67,7 +67,7 @@ I-IV-XLVIIViolinoII = {
     fis16 e d4 a'8 d fis
     h,16 a g4 h8 e g
     cis,16 h a4 cis8 e a
-    fis16 e d4 a'8 a, cis %90
+    fis16^\critnote e d4 a'8 a, cis %90
     fis,16 e d4 a'8 a, cis
     d4 r r
     R2.
@@ -113,7 +113,7 @@ I-IV-XLVIIViolinoII = {
     fis'16 e d4 a'8 a, cis
     fis,16 e d4 a'8 a, cis
     d4 r r\fermata \bar "||"
-    \tempoI-IV-XLVIId R2.*2 %140
+    \tempoI-IV-XLVId R2.*2 %140
     r4 fis'2~\pE
     fis4. g8 fis, e'
     d4 h r
@@ -128,14 +128,14 @@ I-IV-XLVIIViolinoII = {
     g'8( cis,) cis4 r
     r cis d8( h)
     ais2 h4
-    r cis \once \slurDashed d8( h) %155
+    r cis d8( h) %155
     ais4. h8 cis4
     fis, fis'8 e d4
-    e cis2\trill
+    e \mvTr cis2\trill^\critnote
     h4 fis\p h,
-    \once \slurDashed cis8( d) ais2\trill \noBreak %160
+    cis8( d) ais2\trill \noBreak %160
     h r4\fermata \bar "||"
-    \twotwotime \time 2/2 \tempoI-IV-XLVIIe \newSpacingSection
+    \twotwotime \time 2/2 \tempoI-IV-XLVIe \newSpacingSection
       R1*8 %169
     r2 r4 a''\p %170
     fis d r d
@@ -165,7 +165,7 @@ I-IV-XLVIIViolinoII = {
     cis4 fis,8 e fis4 d
     e2 a
     gis4 fis8 e a4 fis'
-    cis2 h\trillE
+    cis2 h\trill
     a r4 a'\p %200
     e cis r e
     cis a r2
@@ -185,7 +185,7 @@ I-IV-XLVIIViolinoII = {
     fis e~ %220
     e d~
     d4 cis8 h cis4 d8 e
-    \once \slurDashed fis1~
+    fis1~
     fis4 e8 d e4 d
     cis2 d4 e %225
     d2 cis

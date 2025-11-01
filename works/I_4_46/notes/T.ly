@@ -3,7 +3,7 @@
 I-IV-XLVIITenore = {
   \relative c' {
     \clef "treble_8"
-    \key d \major \time 2/4 \tempoI-IV-XLVIIa \autoBeamOff
+    \key d \major \time 2/4 \tempoI-IV-XLVIa \autoBeamOff
     r8 \mvTr a\pE^\solo d cis
     d d, d'4~
     d8 cis16([ h]) a([ g fis e]
@@ -63,7 +63,7 @@ I-IV-XLVIITenore = {
     cis[ h a h] a[ g fis e]
     d8 d' fis,([ e)] \noBreak
     d4 r\fermata \bar "||" %65
-    \key d \minor \time 4/4 \tempoI-IV-XLVIIb \newSpacingSection
+    \key d \minor \time 4/4 \tempoI-IV-XLVIb \newSpacingSection
       r8 a' d, f' cis4 r \noBreak
     R1
     r2 r8 a d, f'
@@ -81,7 +81,7 @@ I-IV-XLVIITenore = {
     b([ g] f'!4) e16([ d)] cis16.[ d32 \hA cis h \tuplet 3/2 16 { a \hA h \hA cis] } d16.[ e32 d cis \tuplet 3/2 8 { h \hA cis d] } %80
     e16.[ f32 e d \tuplet 3/2 16 { cis d e] } f[ cis d a b! gis a e] f8 d' \appoggiatura f, e4 \noBreak
     d2 r\fermata \bar "||"
-    \key d \major \time 3/4 \tempoI-IV-XLVIIc \newSpacingSection
+    \key d \major \time 3/4 \tempoI-IV-XLVIc \newSpacingSection
       R2.*9 %91
     r4 a'4. d8
     cis16([ d)] e8 e g, fis e
@@ -124,7 +124,7 @@ I-IV-XLVIITenore = {
     d4 r r
     R2.*4 \noBreak %137
     R2.\fermata \bar "||"
-    \tempoI-IV-XLVIId r4 cis2 \noBreak
+    \tempoI-IV-XLVId r4 cis2 \noBreak
     cis4. d8 cis, h' %140
     a4 fis r
     R2.
@@ -147,7 +147,7 @@ I-IV-XLVIITenore = {
     h4 r r
     e\p cis2 \noBreak %160
     h4 r r\fermata \bar "||"
-    \twotwotime \time 2/2 \tempoI-IV-XLVIIe \newSpacingSection
+    \twotwotime \time 2/2 \tempoI-IV-XLVIe \newSpacingSection
       R1*8 %169
     r4 d a fis %170
     r a fis d

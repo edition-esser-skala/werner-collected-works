@@ -3,7 +3,7 @@
 I-IV-XLVIIContinuo = {
   \relative c {
     \clef bass
-    \twofourtime \key d \major \time 2/4 \tempoI-IV-XLVIIa
+    \twofourtime \key d \major \time 2/4 \tempoI-IV-XLVIa
     \mvTr d4.\pE-\soloE e8
     fis4. g8
     a4 a,
@@ -61,7 +61,7 @@ I-IV-XLVIIContinuo = {
     a~ a16 g fis e
     d8 fis a a, \noBreak
     d4 r\fermata \bar "||" %65
-    \key d \minor \time 4/4 \tempoI-IV-XLVIIb \newSpacingSection
+    \key d \minor \time 4/4 \tempoI-IV-XLVIb \newSpacingSection
       d'8\pE d,16. e32 f8 d a'16. b32 a16. g32 f8. e16 \noBreak
     << { d'16. e32 d16. c32 } \\ { d,4_\critnote } >> b'8 a g16 .a32 g16. f32 e8 d
     cis16. a'32 f16. d32 a'8 a, d, d'16. e32 f8 d
@@ -79,7 +79,7 @@ I-IV-XLVIIContinuo = {
     r gis gis gis a4 r %80
     r2 d,8 f16. g32 a8 a, \noBreak
     d2 r\fermata \bar "||"
-    \key d \major \time 3/4 \tempoI-IV-XLVIIc \newSpacingSection
+    \key d \major \time 3/4 \tempoI-IV-XLVIc \newSpacingSection
       d8\fE e fis e fis d \noBreak
     a h cis4 a
     d8 e fis4 d %85
@@ -129,7 +129,7 @@ I-IV-XLVIIContinuo = {
     d e fis4 a
     d,,8 e fis4 a \noBreak
     d, r r\fermata \bar "||"
-    \tempoI-IV-XLVIId fis'8\pE gis? a4 fis \noBreak
+    \tempoI-IV-XLVId fis'8\pE gis? a4 fis \noBreak
     eis8 dis \hA eis4 cis %140
     fis8 gis ais4 fis
     h, h' ais
@@ -152,7 +152,7 @@ I-IV-XLVIIContinuo = {
     h d\p g
     e fis fis, \noBreak %160
     h2 r4\fermata \bar "||"
-    \twotwotime \time 2/2 \tempoI-IV-XLVIIe \newSpacingSection
+    \twotwotime \time 2/2 \tempoI-IV-XLVIe \newSpacingSection
       d2\pE d'~ \noBreak
     d4 cis8 h cis4 a
     h h, h'2~
