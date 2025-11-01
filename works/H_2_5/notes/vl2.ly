@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-VIViolinoII = {
+H-II-VViolinoII = {
   \relative c' {
     \clef treble
-    \key d \major \time 3/4 \tempoH-II-VI
+    \key d \major \time 3/4 \tempoH-II-V
     R2.
     r4 a'\f fis'
     g, e' g,
@@ -49,7 +49,7 @@ H-II-VIViolinoII = {
     g r r
     R2.*7 \noBreak %59
     R2.\fermata \bar "||" %60
-    \time 4/4 \tempoH-II-VIb
+    \time 4/4 \tempoH-II-Vb
       cis4\f cis cis8 cis cis cis \noBreak
     a fis d'4. cis16 h cis4~
     cis8 fis, h cis d4 cis
@@ -65,7 +65,7 @@ H-II-VIViolinoII = {
     fis h, h' a g4 e
     dis r8 \hA dis e fis g h \noBreak
     a4 a, d2\fermata \bar "||" %75
-    \time 3/4 \tempoH-II-VIc R2.*2
+    \time 3/4 \tempoH-II-Vc R2.*2
     fis8\fE g a4 fis
     e a, a'~
     a fis r %80

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-VITenore = {
+H-II-VTenore = {
   \relative c' {
     \clef "treble_8"
-    \key d \major \time 3/4 \tempoH-II-VI \autoBeamOff
+    \key d \major \time 3/4 \tempoH-II-V \autoBeamOff
     R2.*24 %24
     r4^\aTre \mvTr a2\pE^\solo %25
     d2 c4
@@ -29,7 +29,7 @@ H-II-VITenore = {
     d d4
     h a2 \noBreak
     a2.\fermata \bar "||" %60
-    \time 4/4 \tempoH-II-VIb
+    \time 4/4 \tempoH-II-Vb
       \mvTr a4\fE^\tutti a cis8 gis cis cis \noBreak
     cis4 a8 \once \stemUp h4( a16[ h] gis4)
     fis8 d'16([ cis)] h8 ais h4 a
@@ -40,7 +40,7 @@ H-II-VITenore = {
     h4 r r2
     R1*6 \noBreak %74
     R1\fermata \bar "||" %75
-    \time 3/4 \tempoH-II-VIc R2.*2
+    \time 3/4 \tempoH-II-Vc R2.*2
     \mvTr a4.\fE^\tutti a8 a4
     a a a
     a4. a8 fis4 %80
@@ -78,7 +78,7 @@ H-II-VITenore = {
   }
 }
 
-H-II-VITenoreLyrics = \lyricmode {
+H-II-VTenoreLyrics = \lyricmode {
   La -- %25
   bo -- res
   ma -- nu -- um tu --

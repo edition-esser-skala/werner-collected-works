@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-VISoprano = {
+H-II-VSoprano = {
   \relative c' {
     \clef treble
-    \key d \major \time 3/4 \tempoH-II-VI \autoBeamOff
+    \key d \major \time 3/4 \tempoH-II-V \autoBeamOff
     R2.*29 %29
     \mvTr g''4\pE^\solo fis8([ e)] d([ cis)] %30
     d4 r d
@@ -27,7 +27,7 @@ H-II-VISoprano = {
     r4 d d
     d2( cis4) \noBreak
     d2.\fermata \bar "||" %60
-    \time 4/4 \tempoH-II-VIb
+    \time 4/4 \tempoH-II-Vb
       \mvTr cis4\fE^\tutti cis cis8 cis cis cis \noBreak
     a fis d'4. cis16[ h] cis4~
     cis8[ h16 ais] h8 cis d4 cis
@@ -42,7 +42,7 @@ H-II-VISoprano = {
     h4( a)\trill g r
     R1*2 \noBreak
     R1\fermata \bar "||" %75
-    \time 3/4 \tempoH-II-VIc
+    \time 3/4 \tempoH-II-Vc
       \mvTr a4.\pE^\solo a8 d4 \noBreak
     cis d e
     fis d r
@@ -88,7 +88,7 @@ H-II-VISoprano = {
   }
 }
 
-H-II-VISopranoLyrics = \lyricmode {
+H-II-VSopranoLyrics = \lyricmode {
   be -- a -- tus %30
   es et
   be -- ne ti --

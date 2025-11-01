@@ -2,17 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "H.2.6" "Beati omnes"
+    \section "H.2.5" "Beati omnes"
     \addTocEntry
     \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \H-II-VIViolinoI }
+        \new Staff { \H-II-VViolinoII }
       >>
     }
   }
