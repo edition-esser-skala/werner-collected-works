@@ -1,0 +1,83 @@
+composer:
+  last: Zacher
+  first: Johann Michael
+title: Missa Sancti Stephani
+id: WerW B.S10
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro),\\2 cnto, 2 clno (C), 2 trb, timp (C–G), 2 vl, 2 vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-KR
+    shelfmark: C 8/662
+    date: 1693
+    rism: 600178930
+    license: public domain
+    principal: true
+  B2:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.39/6
+    rism: 530003976
+    url: https://copia.oszk.hu/kotta/7-orgelstimmen-zu-werners-messen/
+    license: public domain
+    notes: only org part
+tocstyle: default
+toe: |
+  – & –    & –      & Title page and available parts indicate that the work
+                      can be performed with alternative instruments:
+                      (1) The part for vla 1 and trb 1 can either be played
+                      (a) continuously by one instrument, or (b) divided between
+                      the two (part title: “Viola e Trombone~1 in Compendio”;
+                      title page: “vel 2 Viola et Tromb. in Compendio”).
+                      The same applies to the pair vla/trb~2.
+                      In this edition, the sections to be played by the
+                      respective instruments are marked by their
+                      respective abbreviations. Moreover, this edition
+                      reproduces solely the “compendio” parts, while minor
+                      rhythmic differences that appear in the separate parts
+                      are ignored.
+                      (2) High wind instruments either comprise
+                      (a) two cornets and two clarions or
+                      (b) only two clarions, which then also
+                      play some sections of the cornets (title page:
+                      “vel 2. Clarini et 2. Cornet si placet”).
+                      In this edition, parts for version (a) are written
+                      in a single staff group at the top of the score,
+                      while clno parts for version (b) are written
+                      on a separate staff and labeled “clno*”. \\
+  – & –    & –      & In \B1 (but not in \B2), whole notes in hemiolas are
+                      frequently (but inconsistently) written with filled,
+                      stemless note heads (Gloria: bars 46f, 51f, 57f, 74f,
+                      92f, 99f, and 135f). This notation has been tacitly
+                      emended to the modern convention. \\
+  2 & 42ff & cnto 2 & bars 42–47 and 50–55 in \B1:\newline
+                      \includegraphics{snippet_1.pdf} \\
+    & 62   & vl 1   & 2nd \quarterNote\ in \B1: e″8–\sharp f″16–g″16 \\
+    & 64   & T      & 2nd \quarterNote\ in \B1: g8–a16–b16 \\
+  3 & 4    & T      & 3rd \eighthNote\ in \B1: d′8 \\
+    & 35   & org    & 1st/2nd \halfNote\ in \B1: b2–g2 \\
+    & 62   & vl 2   & 4th \quarterNote\ in \B1: d″4 \\
+    & 102  & –      & Parts of \B1 contain either “Presto”
+                      (vla/trb 1, vla 1, trb 1, vla/trb 2, vla 2, trb 2, vlne,
+                      org), “Allegro” (S solo, A solo, T solo, B solo, S coro,
+                      cnto 1, cnto 2, clno 1*, trb 3, vl 1, vl 2, mdc),
+                      or no tempo indication (A coro, T coro, clno 1, clno 2,
+                      clno 2*, timp). \\
+    & 123  & trb 3  & 4th \eighthNote\ in \B1: d8 \\
+    & 161  & trb 2  & 1st \wholeNote\ in \B1: c′1 \\
+    & 132  & –      & In \B1, parts consistently play \sharp f′2
+                      on the 1st \halfNote\ (A solo, A coro, trb 1),
+                      but \natural f″4 on the 2nd \quarterNote\
+                      (S solo, S coro, vl 2). \\
+    & 159  & –      & In \B1, parts consistently play \sharp f′2
+                      on the 3rd \halfNote\ (A solo, A coro, trb 1),
+                      but \natural f″4 on the last \quarterNote\
+                      (S solo, S coro, cnto 2, clno 2, vl 2). \\
+    & 163  & –      & In \B1, all parts except clno 1/2, clno* 1/2, and timp
+                      contain a final bar with a full measure rest.
+                      However, only clno 1/2* play in this final bar,
+                      while clno 1/2 and timp parts end after 162 bars.
+                      Thus, it is unclear which instruments should play
+                      in the final bar if version (2a) is performed. \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
