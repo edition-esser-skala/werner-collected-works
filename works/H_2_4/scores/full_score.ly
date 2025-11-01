@@ -18,7 +18,7 @@
 
 \book {
   \bookpart {
-    \section "H.2.5" "Lauda Jerusalem"
+    \section "H.2.4" "Lauda Jerusalem"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
@@ -28,47 +28,47 @@
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \H-II-VViolinoI
+              \H-II-IVViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \H-II-VViolinoII
+              \H-II-IVViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \incipitSoprano
-            \new Voice = "Soprano" { \dynamicUp \H-II-VSoprano }
+            \new Voice = "Soprano" { \dynamicUp \H-II-IVSoprano }
           }
-          \new Lyrics \lyricsto Soprano \H-II-VSopranoLyrics
+          \new Lyrics \lyricsto Soprano \H-II-IVSopranoLyrics
 
           \new Staff {
             \incipitAlto
-            \new Voice = "Alto" { \dynamicUp \H-II-VAlto }
+            \new Voice = "Alto" { \dynamicUp \H-II-IVAlto }
           }
-          \new Lyrics \lyricsto Alto \H-II-VAltoLyrics
+          \new Lyrics \lyricsto Alto \H-II-IVAltoLyrics
 
           \new Staff {
             \incipitTenore
-            \new Voice = "Tenore" { \dynamicUp \H-II-VTenore }
+            \new Voice = "Tenore" { \dynamicUp \H-II-IVTenore }
           }
-          \new Lyrics \lyricsto Tenore \H-II-VTenoreLyrics
+          \new Lyrics \lyricsto Tenore \H-II-IVTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \H-II-VBasso }
+            \new Voice = "Basso" { \dynamicUp \H-II-IVBasso }
           }
-          \new Lyrics \lyricsto Basso \H-II-VBassoLyrics
+          \new Lyrics \lyricsto Basso \H-II-IVBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
             % \transpose c c,
-            \H-II-VOrgano
+            \H-II-IVOrgano
           }
         >>
-        \new FiguredBass { \H-II-VBassFigures }
+        \new FiguredBass { \H-II-IVBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 80 }

@@ -2,17 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "H.2.5" "Lauda Jerusalem"
+    \section "H.2.4" "Lauda Jerusalem"
     \addTocEntry
+    \paper { system-count = #8 }
     \score {
       <<
-        \new Staff { \H-II-VOrgano }
-        \new FiguredBass { \H-II-VBassFigures }
+        \new Staff { \H-II-IVViolinoII }
       >>
     }
   }

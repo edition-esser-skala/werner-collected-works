@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-VAlto = {
+H-II-IVAlto = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoH-II-V \autoBeamOff
+    \key c \major \time 4/4 \tempoH-II-IV \autoBeamOff
     \mvDl g'8\fE^\tutti g g g g g r4
     g8 g16 g a8 a16 a a8. g16 g4
     g8 g a a g a g4
@@ -42,7 +42,7 @@ H-II-VAlto = {
   }
 }
 
-H-II-VAltoLyrics = \lyricmode {
+H-II-IVAltoLyrics = \lyricmode {
   Lau -- da, lau -- da, lau -- da,
   lau -- da Ie -- ru -- sa -- lem, Do -- mi -- num,
   lau -- da De -- um tu -- um, Si --

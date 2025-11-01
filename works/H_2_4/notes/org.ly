@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-VOrgano = {
+H-II-IVOrgano = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoH-II-V
+    \key c \major \time 4/4 \tempoH-II-IV
     \mvTr c'8\fE-\tutti g c h c c, r4
     c'8. b16 a8 g16 f c'4 c,
     c'8^\critnote b a g16 f e8 f g g,
@@ -57,7 +57,7 @@ H-II-VOrgano = {
   }
 }
 
-H-II-VBassFigures = \figuremode {
+H-II-IVBassFigures = \figuremode {
   r4. <[6]>8 r2
   r8. <\t>16 <6>4 \bo <[6] 4> \bc <[5] 3>
   r <6> \bo <[6 _]>8 <6 5> <5 4> \bc <[\t 3]>

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-VBasso = {
+H-II-IVBasso = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoH-II-V \autoBeamOff
+    \key c \major \time 4/4 \tempoH-II-IV \autoBeamOff
     \mvDl c'8\fE^\tutti g c h c c, r4
     c'8 c16 b a8 g16 f c'8. c,16 c4
     c'8 b a g16([ f)] e8 f g4
@@ -46,7 +46,7 @@ H-II-VBasso = {
   }
 }
 
-H-II-VBassoLyrics = \lyricmode {
+H-II-IVBassoLyrics = \lyricmode {
   Lau -- da, lau -- da, lau -- da,
   lau -- da Ie -- ru -- sa -- lem, Do -- mi -- num,
   lau -- da De -- um tu -- um, Si --

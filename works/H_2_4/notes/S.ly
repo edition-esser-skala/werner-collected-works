@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-VSoprano = {
+H-II-IVSoprano = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoH-II-V \autoBeamOff
+    \key c \major \time 4/4 \tempoH-II-IV \autoBeamOff
     \mvDl e'8\fE^\tutti d e g e c r4
     e8 e16 e f8 f16 f f8. e16 e4
     c8 c c d e d d4
@@ -46,7 +46,7 @@ H-II-VSoprano = {
   }
 }
 
-H-II-VSopranoLyrics = \lyricmode {
+H-II-IVSopranoLyrics = \lyricmode {
   Lau -- da, lau -- da, lau -- da,
   lau -- da Ie -- ru -- sa -- lem, Do -- mi -- num,
   lau -- da De -- um tu -- um, Si --

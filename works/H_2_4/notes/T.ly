@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-II-VTenore = {
+H-II-IVTenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \major \time 4/4 \tempoH-II-V \autoBeamOff
+    \key c \major \time 4/4 \tempoH-II-IV \autoBeamOff
     \mvDl c8\fE^\tutti h c d c c r4
     c8 c16 c c8 c16 c c8. c16 c4
     c8 c c c c c c([ h)]
@@ -44,7 +44,7 @@ H-II-VTenore = {
   }
 }
 
-H-II-VTenoreLyrics = \lyricmode {
+H-II-IVTenoreLyrics = \lyricmode {
   Lau -- da, lau -- da, lau -- da,
   lau -- da Ie -- ru -- sa -- lem, Do -- mi -- num,
   lau -- da De -- um tu -- um, Si --
