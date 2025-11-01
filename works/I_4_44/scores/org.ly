@@ -2,16 +2,17 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "org")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "I.4.45" "Salve Regina"
+    \section "I.4.44" "Salve Regina"
     \addTocEntry
     \score {
       <<
         \new Staff { \I-IV-XLV-Organo }
+        \new FiguredBass { \I-IV-XLV-BassFigures }
       >>
     }
   }

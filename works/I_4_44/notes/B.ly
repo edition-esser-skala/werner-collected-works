@@ -3,7 +3,7 @@
 I-IV-XLV-Basso = {
   \relative c {
     \clef bass
-    \key f \major \time 3/4 \tempoI-IV-XLV \autoBeamOff
+    \key f \major \time 3/4 \tempoI-IV-XLIV \autoBeamOff
     R2.*7 %7
     \mvTr f2\fE^\tuttiE g4
     e c r8 f
@@ -88,7 +88,7 @@ I-IV-XLV-Basso = {
     r g f
     r e f \noBreak
     b c( c,) %90
-    \time 4/4 \tempoI-IV-XLV-b f r r8 h, h h \noBreak
+    \time 4/4 \tempoI-IV-XLIV-b f r r8 h, h h \noBreak
     c2 f,\fermata \bar "|." %92 finis
   }
 }

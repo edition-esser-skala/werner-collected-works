@@ -3,7 +3,7 @@
 I-IV-XLV-Tenore = {
   \relative c' {
     \clef "treble_8"
-    \key f \major \time 3/4 \tempoI-IV-XLV \autoBeamOff
+    \key f \major \time 3/4 \tempoI-IV-XLIV \autoBeamOff
     R2.*10 %10
     \mvTr c2\fE^\tuttiE d4
     h g r8 c
@@ -83,7 +83,7 @@ I-IV-XLV-Tenore = {
     r d f
     r g, a \noBreak
     b g2 %90
-    \time 4/4 \tempoI-IV-XLV-b a4 r r8 d d d \noBreak
+    \time 4/4 \tempoI-IV-XLIV-b a4 r r8 d d d \noBreak
     g,4( c) c2\fermata \bar "|." %92 finis
   }
 }

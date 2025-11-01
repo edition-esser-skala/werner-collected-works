@@ -1,7 +1,7 @@
 \version "2.24.0"
 
-tempoI-IV-XLV = \tempoMarkup "[Andante]"
-tempoI-IV-XLV-b = \tempoMarkup "Adagio"
+tempoI-IV-XLIV = \tempoMarkup "[Andante]"
+tempoI-IV-XLIV-b = \tempoMarkup "Adagio"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

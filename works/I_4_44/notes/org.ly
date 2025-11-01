@@ -3,7 +3,7 @@
 I-IV-XLV-Organo = {
   \relative c {
     \clef bass
-    \key f \major \time 3/4 \tempoI-IV-XLV
+    \key f \major \time 3/4 \tempoI-IV-XLIV
     \mvTr f4\fE-\tuttiE d' b
     c4. b8 a4
     b8 a g4 c
@@ -107,7 +107,7 @@ I-IV-XLV-Organo = {
     r g f
     r e f \noBreak
     b c c, %90
-    \time 4/4 \tempoI-IV-XLV-b f r r8 h, h h \noBreak
+    \time 4/4 \tempoI-IV-XLIV-b f r r8 h, h h \noBreak
     c2 f,\fermata \bar "|." %92 finis
   }
 }

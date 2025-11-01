@@ -3,7 +3,7 @@
 I-IV-XLV-Alto = {
   \relative c' {
     \clef treble
-    \key f \major \time 3/4 \tempoI-IV-XLV \autoBeamOff
+    \key f \major \time 3/4 \tempoI-IV-XLIV \autoBeamOff
     \mvTr f2\fE^\tuttiE g4
     e c r8 f
     g a b4. a16([ g)]
@@ -93,7 +93,7 @@ I-IV-XLV-Alto = {
     b2.~
     b2 a4 \noBreak
     f f( e) %90
-    \time 4/4 \tempoI-IV-XLV-b f8 f f f f4 f8 f \noBreak
+    \time 4/4 \tempoI-IV-XLIV-b f8 f f f f4 f8 f \noBreak
     f4( e) f2\fermata \bar "|." %92 finis
   }
 }

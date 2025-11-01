@@ -3,7 +3,7 @@
 I-IV-XLV-ViolinoI = {
   \relative c' {
     \clef treble
-    \key f \major \time 3/4 \tempoI-IV-XLV
+    \key f \major \time 3/4 \tempoI-IV-XLIV
     R2.*3
     c'2\fE d4
     h g r8 c %5
@@ -90,7 +90,7 @@ I-IV-XLV-ViolinoI = {
     r b d
     c2 c4 \noBreak
     d c2 %90
-    \time 4/4 \tempoI-IV-XLV-b c4 r8 as as4 as8 as
+    \time 4/4 \tempoI-IV-XLIV-b c4 r8 as as4 as8 as
     g2 a\fermata \bar "|." %92 finis
   }
 }
