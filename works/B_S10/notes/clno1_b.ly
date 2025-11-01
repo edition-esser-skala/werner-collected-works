@@ -1,27 +1,40 @@
 \version "2.24.2"
 
-B-SXSonataClarinoI = {
+B-SXSonataClarinoIb = {
   \relative c' {
     \clef treble
     \twotwotime \key c \major \time 2/2 \tempoB-SXSonata
-    R1*8 %8
-    \pa c8\fE e g e g c e c
+    \pa g''4~\fE g16 a g f e8 c d e
+    f g16 a g8 f e4~ e16 f e d
+    c8 e d c d2
+    g,8 c e16 d c8 g'4 g \pd
+    g4. fis8 g2 %5
+    R1*3
+    \pa c,,8 e g e g c e c
     g'4~ g16 a g f e8 c d e %10
     f g16 a g8 f e4 d
     d2 \pd c\fermata \bar "|." %12 finis
   }
 }
 
-B-SXKyrieClarinoI = {
+B-SXKyrieClarinoIb = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoB-SXKyrie
     R2.*8 \bar "||" %8
     R2.*8 \bar "||" %16
     R2.*8 \bar "||" %24
-    R2.*9 \bar "||" %33
-    R2.*7 %40
-    e'4\fE d \pao c
+    R2.*2 %26
+    c'4\fE d e8 f
+    d2.
+    \pa d2 e4
+    g g8 f \pd e4 %30
+    d4. e8 c4
+    c d4. d8
+    c2. \bar "||"
+    R2.*6
+    c8.[ d16 e8. f16 g8. f16] %40
+    e4 d \pao c
     g'4. g8 g4
     a g8. f16 e4
     d4. d8 d4
@@ -32,7 +45,7 @@ B-SXKyrieClarinoI = {
     e4 d \pao c
     g'4. g8 g4 %50
     a g8. f16 e4
-    d2 d4
+    d4. d8 d4
     c g' \once \partCombineChords a
     g4. f8 e4
     e d4. d8 %55
@@ -43,7 +56,7 @@ B-SXKyrieClarinoI = {
   }
 }
 
-B-SXGloriaClarinoI = {
+B-SXGloriaClarinoIb = {
   \relative c' {
     \clef treble
     \twotwotime \key c \major \time 2/2 \tempoB-SXGloria
@@ -89,8 +102,12 @@ B-SXGloriaClarinoI = {
     g c g4. g8 \pd \noBreak
     g1\fermata \bar "||"
     \time 3/2 \tempoB-SXAmenA R1.*10 \bar "||" %137
-    \tempoB-SXAmenSonata R1.*8 %145
-    r4 g c2 d4 e \noBreak
+    \tempoB-SXAmenSonata r4 g'\fE e2 d \noBreak
+    c4 g c2 \pa d4 e
+    c g'2 \pd g4 g4. fis8 %140
+    g2 r r
+    R1.*4 %145
+    r4 g, c2 d4 e \noBreak
     \pa c2 e g
     g, g2. g4 \pd \noBreak
     g1. \bar "||"
@@ -104,8 +121,8 @@ B-SXGloriaClarinoI = {
     r r r4 d
     d2 d4. cis8 d2
     r r r4 a' %160
-    g2 f e4 g \pd
-    e2 d c4 r
-    R1.\fermata \bar "|." %163 finis
+    g2 f e
+    r r r4 \pd g
+    e2 d c\fermata \bar "|." %163 finis
   }
 }

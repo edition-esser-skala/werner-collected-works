@@ -1,5 +1,66 @@
 \version "2.24.2"
 
+B-SXSonataCornettoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoB-SXSonata
+    g''4~\fE g16 a g f e8 c d e
+    f g16 a g8 f e4~ e16 f e d
+    c8 e d c d2
+    g,8 c e16 d c8 g'4 g
+    g4. fis8 g2 %5
+    R1*5
+    r2 e4 d
+    d2 c\fermata \bar "|." %12 finis
+  }
+}
+
+B-SXKyrieCornettoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoB-SXKyrie
+    R2.*8 \bar "||" %8
+    R2.*8 \bar "||" %16
+    R2.*8 \bar "||" %24
+    R2.*2 %26
+    c'4\fE d e8 f
+    d2.
+    d2 e4
+    g g8 f e4 %30
+    d4. e8 c4
+    c d4. d8
+    c2. \bar "||"
+    R2.*6
+    c8.[ d16 e8. f16 g8. f16] %40
+    e4 d c
+    g'4. g8 g4
+    a g8. f16 e4
+    d4. d8 d4
+    c g' a %45
+    g4. f8 e4
+    e d4. d8
+    c2.
+    e4 d c
+    g'4. g8 g4 %50
+    a g8. f16 e4
+    d4. d8 d4
+    c g' a
+    g4. f8 e4
+    e d4. d8 %55
+    c2.\fermata \bar "||"
+    \time 2/2 \tempoB-SXChriste
+      R1*9 %65
+    r2 a'8\fE f g4
+    f8 d g4 h a8 d,
+    e4 f8. g16 a4. a8
+    a2 r
+    g4 a g8 c, e g %70
+    c, a' g4 g d'
+    c a d, g
+    g1\fermata \markKyrieUtSupra \bar "||" %73 finis
+  }
+}
+
 B-SXGloriaCornettoI = {
   \relative c' {
     \clef treble
