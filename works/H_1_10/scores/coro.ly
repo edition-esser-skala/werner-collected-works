@@ -250,4 +250,39 @@
       >>
     }
   }
+  \bookpart {
+    \section "8" "Beati"
+    \addTocEntry
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \H-I-XBeatiSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \H-I-XBeatiSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \H-I-XBeatiAlto }
+          }
+          \new Lyrics \lyricsto Alto \H-I-XBeatiAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \H-I-XBeatiTenore }
+          }
+          \new Lyrics \lyricsto Tenore \H-I-XBeatiTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \H-I-XBeatiBasso }
+          }
+          \new Lyrics \lyricsto Basso \H-I-XBeatiBassoLyrics
+        >>
+        \new Staff { \H-I-XBeatiOrgano }
+        \new FiguredBass { \H-I-XBeatiBassFigures }
+      >>
+    }
+  }
 }

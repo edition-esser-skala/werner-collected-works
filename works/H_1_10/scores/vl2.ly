@@ -65,10 +65,19 @@
   \bookpart {
     \section "7" "Magnificat"
     \addTocEntry
-    % \paper { system-count = #14 }
     \score {
       <<
         \new Staff { \H-I-XMagnificatViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "8" "Beati omnes"
+    \addTocEntry
+    \paper { system-count = #5 }
+    \score {
+      <<
+        \new Staff { \H-I-XBeatiViolinoII }
       >>
     }
   }

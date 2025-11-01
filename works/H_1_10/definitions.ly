@@ -14,6 +14,8 @@ tempoH-I-XExitu = \tempoMarkup "Allegro"
   tempoH-I-XExitub = \tempoMarkup "Presto"
 tempoH-I-XMagnificat = \tempoMarkup "Vivace"
   tempoH-I-XMagnificatb = \tempoMarkup "Allegro"
+tempoH-I-XBeatia = \tempoMarkup "Andante"
+  tempoH-I-XBeatib = \tempoMarkup "Allegro"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"

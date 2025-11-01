@@ -71,4 +71,13 @@
       >>
     }
   }
+  \bookpart {
+    \section "8" "Beati omnes"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \H-I-XBeatiOrgano }
+      >>
+    }
+  }
 }
