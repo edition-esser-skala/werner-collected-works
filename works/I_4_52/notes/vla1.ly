@@ -3,7 +3,7 @@
 I-IV-LIIIcViolaI = {
   \relative c' {
     \clef alto
-    \key b \major \time 3/4 \tempoI-IV-LIIIc
+    \key b \major \time 3/4 \tempoI-IV-LIIc
       \set Score.currentBarNumber = #92
     f4\fE r f
     a c a
@@ -90,7 +90,7 @@ I-IV-LIIIcViolaI = {
 I-IV-LIIIdViolaI = {
   \relative c' {
     \clef alto
-    \key es \lydian \time 3/4 \tempoI-IV-LIIId
+    \key es \lydian \time 3/4 \tempoI-IV-LIId
       \set Score.currentBarNumber = #171
     r8 es\fE es es es es
     r es es es es es
@@ -180,7 +180,7 @@ I-IV-LIIIdViolaI = {
 I-IV-LIIIgViolaI = {
   \relative c' {
     \clef alto
-    \twotwotime \key g \minor \time 2/2 \tempoI-IV-LIIIg
+    \twotwotime \key g \minor \time 2/2 \tempoI-IV-LIIg
       \set Score.currentBarNumber = #371
     R1*5 %375
     g'1\fE

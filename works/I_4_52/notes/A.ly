@@ -3,7 +3,7 @@
 I-IV-LIIIaAlto = {
   \relative c' {
     \clef treble
-    \key g \minor \time 3/2 \tempoI-IV-LIIIa \autoBeamOff
+    \key g \minor \time 3/2 \tempoI-IV-LIIa \autoBeamOff
     R1.*3
     r2 \mvTr d\pE^\solo ^\tweak TextScript.X-offset #0 ^\markup \remark "Ariose" d4 e8([ fis)]
     g1 \afterGrace g2( { a8[ b]) } %5
@@ -109,7 +109,7 @@ I-IV-LIIIaAltoLyrics = \lyricmode {
 I-IV-LIIIcAlto = {
   \relative c' {
     \clef treble
-    \key b \major \time 3/4 \tempoI-IV-LIIIc \autoBeamOff
+    \key b \major \time 3/4 \tempoI-IV-LIIc \autoBeamOff
       \set Score.currentBarNumber = #92
     R2.*11 %102
     \mvTr f,4\fE^\tutti b d
@@ -219,7 +219,7 @@ I-IV-LIIIcAltoLyrics = \lyricmode {
 I-IV-LIIIdAlto = {
   \relative c' {
     \clef treble
-    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIIId
+    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIId
       \set Score.currentBarNumber = #171
     R2.*21 %191
     r4 \mvTr b\fE^\solo b
@@ -335,7 +335,7 @@ I-IV-LIIIdAltoLyrics = \lyricmode {
 I-IV-LIIIeAlto = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \autoBeamOff \tempoI-IV-LIIIe
+    \key g \minor \time 4/4 \autoBeamOff \tempoI-IV-LIIe
       \set Score.currentBarNumber = #253
     R1*17 %269
     \mvTr g'8\pE^\solo d g a16([ b)] a8 b16([ c)] fis,8 g %270
@@ -411,7 +411,7 @@ I-IV-LIIIeAltoLyrics = \lyricmode {
 I-IV-LIIIgAlto = {
   \relative c' {
     \clef treble
-    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoI-IV-LIIIg
+    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoI-IV-LIIg
       \set Score.currentBarNumber = #371
     R1*5 %375
     \mvTr g'1\fE^\tutti

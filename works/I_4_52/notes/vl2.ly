@@ -3,7 +3,7 @@
 I-IV-LIIIcViolinoII = {
   \relative c' {
     \clef treble
-    \key b \major \time 3/4 \tempoI-IV-LIIIc
+    \key b \major \time 3/4 \tempoI-IV-LIIc
       \set Score.currentBarNumber = #92
     r8 b'16\fE b d d f f b b d d
     c c a a f f c c a a f' f
@@ -90,7 +90,7 @@ I-IV-LIIIcViolinoII = {
 I-IV-LIIIdViolinoII = {
   \relative c' {
     \clef treble
-    \key es \lydian \time 3/4 \tempoI-IV-LIIId
+    \key es \lydian \time 3/4 \tempoI-IV-LIId
       \set Score.currentBarNumber = #171
     r8 b'\fE b b b b
     r as as as as as
@@ -180,7 +180,7 @@ I-IV-LIIIdViolinoII = {
 I-IV-LIIIfViolinoII = {
   \relative c' {
     \clef treble
-    \key es \lydian \time 3/4 \tempoI-IV-LIIIf
+    \key es \lydian \time 3/4 \tempoI-IV-LIIf
       \set Score.currentBarNumber = #305
     es4\p es es
     c c c

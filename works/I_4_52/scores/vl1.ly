@@ -2,35 +2,28 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vl 1")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "I.4.53" "Salve Regina"
-    \addTocEntry
-    \paper { systems-per-page = #7 }
-    \score {
-      <<
-        \new Staff { \I-IV-LIIIaOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Vita dulcedo"
+    \section "I.4.52" "Salve Regina"
     \addTocEntry
     \score {
       <<
-        \new Staff { \I-IV-LIIIbOrgano }
+        \new Staff { \I-IV-LIIIaViolinoIeII }
       >>
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/4) }
     }
+    \tacet "subsection" "Vita dulcedo"
   }
   \bookpart {
     \subsection "Ad te clamamus"
     \addTocEntry
+    \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \I-IV-LIIIcOrgano }
+        \new Staff { \I-IV-LIIIcViolinoI }
       >>
     }
   }
@@ -40,7 +33,7 @@
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \I-IV-LIIIdOrgano }
+        \new Staff { \I-IV-LIIIdViolinoI }
       >>
     }
   }
@@ -50,7 +43,7 @@
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \I-IV-LIIIeOrgano }
+        \new Staff { \I-IV-LIIIeViolinoI }
       >>
     }
   }
@@ -59,7 +52,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \I-IV-LIIIfOrgano }
+        \new Staff { \I-IV-LIIIfViolinoI }
       >>
     }
   }
@@ -69,7 +62,7 @@
     \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \I-IV-LIIIgOrgano }
+        \new Staff { \I-IV-LIIIgViolinoIeII }
       >>
     }
   }

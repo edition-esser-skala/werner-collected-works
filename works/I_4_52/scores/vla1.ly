@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "I.4.53" "Salve Regina"
+    \section "I.4.52" "Salve Regina"
     \addTocEntry
     \tacet "section" ""
     \tacet "subsection" "Vita dulcedo"

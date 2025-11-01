@@ -3,7 +3,7 @@
 I-IV-LIIIaViolinoIeII = {
   \relative c' {
     \clef treble
-    \key g \minor \time 3/2 \tempoI-IV-LIIIa
+    \key g \minor \time 3/2 \tempoI-IV-LIIa
     r4 g-\pstac b d g b
     r g b d g b
     r a, c fis a c
@@ -61,7 +61,7 @@ I-IV-LIIIaViolinoIeII = {
 I-IV-LIIIcViolinoI = {
   \relative c' {
     \clef treble
-    \key b \major \time 3/4 \tempoI-IV-LIIIc
+    \key b \major \time 3/4 \tempoI-IV-LIIc
       \set Score.currentBarNumber = #92
     r8 b'16\fE b d d f f b b d d
     c c a a f f c c a a f' f
@@ -148,7 +148,7 @@ I-IV-LIIIcViolinoI = {
 I-IV-LIIIdViolinoI = {
   \relative c' {
     \clef treble
-    \key es \lydian \time 3/4 \tempoI-IV-LIIId
+    \key es \lydian \time 3/4 \tempoI-IV-LIId
       \set Score.currentBarNumber = #171
     r8 es'\fE es es es es
     r c c c c c
@@ -238,7 +238,7 @@ I-IV-LIIIdViolinoI = {
 I-IV-LIIIeViolinoI = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \tempoI-IV-LIIIe
+    \key g \minor \time 4/4 \tempoI-IV-LIIe
       \set Score.currentBarNumber = #253
     g''8\fE d g a16 b a8 b16 c \sbOn fis,( g) g16.\trill fis64( g) \sbOff
     a8 d, r d'16( c) c( b) b( a) a( g) g( f)
@@ -291,7 +291,7 @@ I-IV-LIIIeViolinoI = {
 I-IV-LIIIfViolinoI = {
   \relative c' {
     \clef treble
-    \key es \lydian \time 3/4 \tempoI-IV-LIIIf
+    \key es \lydian \time 3/4 \tempoI-IV-LIIf
       \set Score.currentBarNumber = #305
     g'4\p g g
     as as as
@@ -365,7 +365,7 @@ I-IV-LIIIfViolinoI = {
 I-IV-LIIIgViolinoIeII = {
   \relative c' {
     \clef treble
-    \twotwotime \key g \minor \time 2/2 \tempoI-IV-LIIIg
+    \twotwotime \key g \minor \time 2/2 \tempoI-IV-LIIg
       \set Score.currentBarNumber = #371
     d'1\fE
     es

@@ -2,12 +2,12 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "I.4.53" "Salve Regina"
+    \section "I.4.52" "Salve Regina"
     \addTocEntry
     \score {
       <<
@@ -23,36 +23,27 @@
     \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \I-IV-LIIIcViolinoI }
+        \new Staff { \I-IV-LIIIcViolinoII }
       >>
     }
   }
   \bookpart {
     \subsection "Ad te suspiramus"
     \addTocEntry
-    \paper { systems-per-page = #7 }
+    \paper { systems-per-page = #8 }
     \score {
       <<
-        \new Staff { \I-IV-LIIIdViolinoI }
+        \new Staff { \I-IV-LIIIdViolinoII }
       >>
     }
-  }
-  \bookpart {
-    \subsection "Eia ergo"
-    \addTocEntry
-    \paper { systems-per-page = #7 }
-    \score {
-      <<
-        \new Staff { \I-IV-LIIIeViolinoI }
-      >>
-    }
+    \tacet "subsection" "Eia ergo"
   }
   \bookpart {
     \subsection "Et Jesum benedictum"
     \addTocEntry
     \score {
       <<
-        \new Staff { \I-IV-LIIIfViolinoI }
+        \new Staff { \I-IV-LIIIfViolinoII }
       >>
     }
   }

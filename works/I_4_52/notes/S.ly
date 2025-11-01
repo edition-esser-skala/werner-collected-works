@@ -3,7 +3,7 @@
 I-IV-LIIIbSoprano = {
   \relative c' {
     \clef treble
-    \key b \major \time 4/4 \tempoI-IV-LIIIb \autoBeamOff
+    \key b \major \time 4/4 \tempoI-IV-LIIb \autoBeamOff
       \set Score.currentBarNumber = #52
     R1*5 %56
     r2 r8 \mvTr c'\fE^\solo f f
@@ -85,7 +85,7 @@ I-IV-LIIIbSopranoLyrics = \lyricmode {
 I-IV-LIIIcSoprano = {
   \relative c' {
     \clef treble
-    \key b \major \time 3/4 \tempoI-IV-LIIIc \autoBeamOff
+    \key b \major \time 3/4 \tempoI-IV-LIIc \autoBeamOff
       \set Score.currentBarNumber = #92
     R2.*12 %103
     \mvTr b4\fE^\tutti d f
@@ -189,7 +189,7 @@ I-IV-LIIIcSopranoLyrics = \lyricmode {
 I-IV-LIIIdSoprano = {
   \relative c' {
     \clef treble
-    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIIId
+    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIId
       \set Score.currentBarNumber = #171
     R2.*21 %191
     r4 \mvTr es\fE^\solo es
@@ -289,7 +289,7 @@ I-IV-LIIIdSopranoLyrics = \lyricmode {
 I-IV-LIIIgSoprano = {
   \relative c' {
     \clef treble
-    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoI-IV-LIIIg
+    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoI-IV-LIIg
       \set Score.currentBarNumber = #371
     \mvTr d'1\fE^\tutti
     es

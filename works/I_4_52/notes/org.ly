@@ -3,7 +3,7 @@
 I-IV-LIIIaOrgano = {
   \relative c {
     \clef bass
-    \key g \minor \time 3/2 \tempoI-IV-LIIIa
+    \key g \minor \time 3/2 \tempoI-IV-LIIa
     g2-\pstac-\solo g g
     g g g
     g g g
@@ -115,7 +115,7 @@ I-IV-LIIIaBassFigures = \figuremode {
 I-IV-LIIIbOrgano = {
   \relative c {
     \clef bass
-    \key b \major \time 4/4 \tempoI-IV-LIIIb
+    \key b \major \time 4/4 \tempoI-IV-LIIb
       \set Score.currentBarNumber = #52
     \mvTr b8\fE-\solo c d es f g a f
     << { b } \\ { b, c d b } >> f' g a f
@@ -206,7 +206,7 @@ I-IV-LIIIbBassFigures = \figuremode {
 I-IV-LIIIcOrgano = {
   \relative c {
     \clef bass
-    \key b \major \time 3/4 \tempoI-IV-LIIIc
+    \key b \major \time 3/4 \tempoI-IV-LIIc
       \set Score.currentBarNumber = #92
     \mvTr b4\fE-\solo r b
     f' a f
@@ -375,7 +375,7 @@ I-IV-LIIIcBassFigures = \figuremode {
 I-IV-LIIIdOrgano = {
   \relative c {
     \clef bass
-    \key es \lydian \time 3/4 \tempoI-IV-LIIId
+    \key es \lydian \time 3/4 \tempoI-IV-LIId
       \set Score.currentBarNumber = #171
     \mvTr es8\fE-\solo es es es es es
     r es es es es es
@@ -550,7 +550,7 @@ I-IV-LIIIdBassFigures = \figuremode {
 I-IV-LIIIeOrgano = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \tempoI-IV-LIIIe
+    \key g \minor \time 4/4 \tempoI-IV-LIIe
       \set Score.currentBarNumber = #253
     \mvTr g8\fE-\soloE g'16 a b8 g c, c' d b
     fis d16 e fis8 d g a b h
@@ -665,7 +665,7 @@ I-IV-LIIIeBassFigures = \figuremode {
 I-IV-LIIIfOrgano = {
   \relative c {
     \clef bass
-    \key es \lydian \time 3/4 \tempoI-IV-LIIIf
+    \key es \lydian \time 3/4 \tempoI-IV-LIIf
       \set Score.currentBarNumber = #305
     \mvTr es4\p-\solo es es
     es es es
@@ -808,7 +808,7 @@ I-IV-LIIIfBassFigures = \figuremode {
 I-IV-LIIIgOrgano = {
   \relative c {
     \clef treble
-    \twotwotime \key g \minor \time 2/2 \tempoI-IV-LIIIg
+    \twotwotime \key g \minor \time 2/2 \tempoI-IV-LIIg
       \set Score.currentBarNumber = #371
     \mvTr d''1\fE-\tutti
     es

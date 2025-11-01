@@ -9,13 +9,13 @@ psempre =
           #:line (#:normal-text #:large #:bold "p"
                   #:normal-text #:small "sempre")))
 
-tempoI-IV-LIIIa = \tempoMarkup "Largo"
-tempoI-IV-LIIIb = \tempoMarkup "Andante"
-tempoI-IV-LIIIc = \tempoMarkup "Allegro"
-tempoI-IV-LIIId = \tempoMarkup "Adagio e staccato"
-tempoI-IV-LIIIe = \tempoMarkup "Vivace"
-tempoI-IV-LIIIf = \tempoMarkup "Largo"
-tempoI-IV-LIIIg = \tempoMarkup "[Alla breve]"
+tempoI-IV-LIIa = \tempoMarkup "Largo"
+tempoI-IV-LIIb = \tempoMarkup "Andante"
+tempoI-IV-LIIc = \tempoMarkup "Allegro"
+tempoI-IV-LIId = \tempoMarkup "Adagio e staccato"
+tempoI-IV-LIIe = \tempoMarkup "Vivace"
+tempoI-IV-LIIf = \tempoMarkup "Largo"
+tempoI-IV-LIIg = \tempoMarkup "[Alla breve]"
 
 \include "notes/chal.ly"
 \include "notes/vl1.ly"

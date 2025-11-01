@@ -3,7 +3,7 @@
 I-IV-LIIIaChalumeau = {
   \relative c' {
     \clef treble
-    \key g \minor \time 3/2 \tempoI-IV-LIIIa
+    \key g \minor \time 3/2 \tempoI-IV-LIIa
     r2 \afterGrace { d'1\pE^\markup \remark "Ariose" } { e8( fis) }
     g1 \afterGrace g2 { a8( b) }
     fis2 fis2.\trill g4
@@ -61,7 +61,7 @@ I-IV-LIIIaChalumeau = {
 I-IV-LIIIdChalumeau = {
   \relative c' {
     \clef treble
-    \key es \lydian \time 3/4 \tempoI-IV-LIIId
+    \key es \lydian \time 3/4 \tempoI-IV-LIId
       \set Score.currentBarNumber = #171
     R2.*4 %174
     b'2 es4 %175
@@ -118,7 +118,7 @@ I-IV-LIIIdChalumeau = {
 I-IV-LIIIeChalumeau = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \tempoI-IV-LIIIe
+    \key g \minor \time 4/4 \tempoI-IV-LIIe
       \set Score.currentBarNumber = #253
     R1*5 %257
     d'8\fE a d e16 f e8 f16 g \sbOn cis,( d) d16.\trill cis64( d) \sbOff
@@ -162,7 +162,7 @@ I-IV-LIIIeChalumeau = {
 I-IV-LIIIfChalumeau = {
   \relative c' {
     \clef treble
-    \key es \lydian \time 3/4 \tempoI-IV-LIIIf
+    \key es \lydian \time 3/4 \tempoI-IV-LIIf
       \set Score.currentBarNumber = #305
     b'2\p es4~
     es2.~

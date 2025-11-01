@@ -3,7 +3,7 @@
 I-IV-LIIIbBasso = {
   \relative c {
     \clef bass
-    \key b \major \time 4/4 \tempoI-IV-LIIIb \autoBeamOff
+    \key b \major \time 4/4 \tempoI-IV-LIIb \autoBeamOff
       \set Score.currentBarNumber = #52
     r8 \mvTr f\fE^\solo b b b a16([ g)] f([ es)] d([ c)]
     d8 b f' b b16([ a)] a8 f es'
@@ -90,7 +90,7 @@ I-IV-LIIIbBassoLyrics = \lyricmode {
 I-IV-LIIIcBasso = {
   \relative c {
     \clef bass
-    \key b \major \time 3/4 \tempoI-IV-LIIIc \autoBeamOff
+    \key b \major \time 3/4 \tempoI-IV-LIIc \autoBeamOff
       \set Score.currentBarNumber = #92
     R2.*9 %100
     \mvTr b4\fE^\tutti d f
@@ -201,7 +201,7 @@ I-IV-LIIIcBassoLyrics = \lyricmode {
 I-IV-LIIIdBasso = {
   \relative c {
     \clef bass
-    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIIId
+    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIId
       \set Score.currentBarNumber = #171
     R2.*21 %191
     r4 \mvTr es\fE^\solo es
@@ -311,7 +311,7 @@ I-IV-LIIIdBassoLyrics = \lyricmode {
 I-IV-LIIIgBasso = {
   \relative c {
     \clef bass
-    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoI-IV-LIIIg
+    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoI-IV-LIIg
       \set Score.currentBarNumber = #371
     R1*15 %385
     \mvTr g'1\fE^\tutti

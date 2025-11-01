@@ -3,7 +3,7 @@
 I-IV-LIIIcTenore = {
   \relative c' {
     \clef "treble_8"
-    \key b \major \time 3/4 \tempoI-IV-LIIIc \autoBeamOff
+    \key b \major \time 3/4 \tempoI-IV-LIIc \autoBeamOff
       \set Score.currentBarNumber = #92
     R2.*10 %101
     \mvTr d,4\fE^\tutti f b
@@ -118,7 +118,7 @@ I-IV-LIIIcTenoreLyrics = \lyricmode {
 I-IV-LIIIdTenore = {
   \relative c' {
     \clef "treble_8"
-    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIIId
+    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIId
       \set Score.currentBarNumber = #171
     R2.*21 %191
     r4 \mvTr g\fE^\solo g
@@ -225,7 +225,7 @@ I-IV-LIIIdTenoreLyrics = \lyricmode {
 I-IV-LIIIfTenore = {
   \relative c' {
     \clef "treble_8"
-    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIIIf
+    \key es \lydian \time 3/4 \autoBeamOff \tempoI-IV-LIIf
       \set Score.currentBarNumber = #305
     r4 \mvTr b2\p^\solo
     c4.( d8) es([ c)]
@@ -360,7 +360,7 @@ I-IV-LIIIfTenoreLyrics = \lyricmode {
 I-IV-LIIIgTenore = {
   \relative c' {
     \clef "treble_8"
-    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoI-IV-LIIIg
+    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoI-IV-LIIg
       \set Score.currentBarNumber = #371
     R1*10 %380
     \mvTr d1\fE^\tutti
