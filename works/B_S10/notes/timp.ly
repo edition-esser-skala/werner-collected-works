@@ -141,3 +141,68 @@ B-SXCredoTimpani = {
     c1.\fermata \markAmenUtSupra \bar "||" %216 finis
   }
 }
+
+B-SXSanctusTimpani = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoB-SXSanctus
+    R1*13 \noBreak %13
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-SXPleni \newSpacingSection
+      R1.*18 \noBreak %32
+    R1.\fermata \bar "||"
+    \time 6/4 \tempoB-SXOsanna \newSpacingSection
+      R1.*20 %53
+    R1.\fermata \bar "|." %54 finis
+  }
+}
+
+B-SXSonataSecundaTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoB-SXSonataSecunda
+      \once \override Staff.TimeSignature.style = #'single-digit
+    R2.*18 %18
+    c2.\fE
+    c %20
+    R
+    c4 g2
+    c2.
+    R
+    c4 g2 %25
+    c2.\fermata \bar "|." %26 finis
+  }
+}
+
+B-SXAgnusTimpani = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoB-SXAgnus
+    R1*20 \noBreak %20
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-SXAgnusB
+      r2 c1\fE \noBreak
+    g1.
+    c2 c1
+    g1. %25
+    R1.*3
+    c1 g2
+    c1 c2 %30
+    R1.
+    r2 g1 \noBreak
+    c1.\fermata \bar "||"
+    \time 6/4 \tempoB-SXDona R1.*14 \bar "||" %47
+    \tempoB-SXDonaSonata c4\fE g2 c4 g2 \noBreak
+    c4 r r r2 r4
+    r g2 c4 r r %50
+    R1.*3
+    r2 r4 c g2 \noBreak
+    c1. \bar "||" %55
+    \tempoB-SXDonaB R1.*4
+    r2 r4 r g2\fE %60
+    c4 g2 c4 r r
+    r2 r4 r g2
+    c4 r r c g2
+    c4 r r r2 r4\fermata \bar "|." %64 finis
+  }
+}

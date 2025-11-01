@@ -978,3 +978,357 @@ B-SXCredoBassFigures = \figuremode {
   r2 \bo <[4]> \bc <[3]> %215
   r1. %216 finis
 }
+
+B-SXSanctusOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoB-SXSanctus
+    \mvTr c4.\fE-\tuttiE d8 e f g g,
+    a4. h8 c d e e,
+    f4. g8 a h c d
+    e4 f d2
+    c \clef "treble_8" g'4. a8 %5
+    h c d d, e4. fis8
+    g a h c d4 h
+    a2 g
+    \clef bass c,4. d8 e f! g g,
+    a4. h8 c d e f %10
+    g4 c, g2
+    c a
+    h4 e h2 \noBreak
+    e,1\fermata \bar "||"
+    \time 3/2 \tempoB-SXPleni \newSpacingSection
+      \mvTr c'1\pE-\soloE h2 \noBreak %15
+    c1 d2
+    e f1
+    g1.
+    e
+    f %20
+    f,
+    g
+    h
+    c1 d2
+    e4 c d1 %25
+    g, f!2
+    e' f g
+    a f g
+    c,1 e2
+    f1. %30
+    g1 e2
+    f g g, \noBreak
+    c1.\fermata \bar "||"
+    \time 6/4 \tempoB-SXOsanna \newSpacingSection
+      \mvTr c2\pE-\soloE e4 f d h \noBreak
+    e c d e c d %35
+    g,2 e'4 a f! d
+    g d g a f g
+    c,2 e4 f d h
+    e c d e c d
+    g,2 e'4 a2 fis4 %40
+    h2 c4 a fis h
+    e,2 \clef treble c'4 f!2 d4
+    g2 e4 a8 g f2
+    e d4 \clef bass c, f2
+    d4 g2 e4 a8 g f4 %45
+    f2 e4 f2 d4
+    g2 e4 a f g
+    a f g c,2 \mvTr g4\fE-\tuttiE
+    c2 a4 d2 h4
+    e8 d c2 h4 c d %50
+    g,2. g'4 e2
+    a4 f d g,2 c4
+    g1.
+    c\fermata \bar "|." %54 finis
+  }
+}
+
+B-SXSanctusBassFigures = \figuremode {
+  r4. <6>8 q4 <4>8 <3>
+  <9>4 <8>8 <6\\> <6>4 <4>8 <3[!]>
+  <9>4 <8> <6>8 q4 q8
+  q2 <7>4 <6>
+  r2.. <[6\\]>8 %5
+  <6>4 <4>8 <_+> <10 9\\>4 <[\t 8]>8 <6\\>
+  <6>4 <6 [_!]>8 <[6]> <_+>4 <6>
+  <7> <6\\>2.
+  r4. <6 [_!]>8 <6>4 <4>8 <3>
+  <9>4 <8>8 <[6\\]> <6>4 <[6 _!]> %10
+  <7>2 <4>4 <3>
+  r2 <_!>
+  <[5\+] _+>4 <6> \bo <[5\+] 4> \bc <[\t] _+>
+  <_+>1
+  r1 <6>2 %15
+  r1 q2
+  q q <5>
+  r1.
+  <6>1 <5>2
+  r1. %20
+  r
+  r
+  <6>
+  r1 <_+>2
+  r4 <[6]> <4>2 <_+> %25
+  r1.
+  <6>2 <9>4 <8>2.
+  r2 <6 5> \bo <[6 4]>4 \bc <[5 3]>
+  r1 <6>2
+  r1. %30
+  r1 <6>2
+  q4 <5> <4>2 <3>
+  r1.
+  r2 <6>2. q4
+  r4 <6 5> <_+>2 <6 5>4 <_+> %35
+  r2 <5> q
+  r1 <6 5>2
+  r <6>2. q4
+  r2 <_+> <6 5>4 <_+>
+  r2 <_!>4 <_+>2 <5\+>4 %40
+  <[5\+] _+>2. <6\\ 5>2 <[5\+] _+>4
+  r2. r2 <_!>4
+  r2 <[6]>1
+  <6>2 q1
+  r2. <[6]> %45
+  <4[-] 2>2 <[\t \t]>1
+  r2 <6>1
+  r4 <6 5> <3>1
+  r2. <_+>2 <6>4
+  r2. <6>4 <[6 5]> <_+> %50
+  r1.
+  r2. <7>
+  \bo <[4]> \bc <[3]>
+  r1. %54 finis
+}
+
+B-SXBenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoB-SXBenedictus
+    \mvTr c1\pE-\soloE
+    c2 f,~
+    f e
+    f e
+    d' c %5
+    g'4 h,8 c d2
+    g, c
+    h a
+    g4 c g' e8 c
+    g2 c\fermata \markOsannaUtSupra \bar "||" %10 finis
+  }
+}
+
+B-SXBenedictusBassFigures = \figuremode {
+  r1
+  r
+  <4 2>2 <6>
+  r <6>
+  <7>4 <6>2. %5
+  r4. <[6 5]>8 <4>4 <_+>
+  r1
+  <[6]>2 <7>4 <6\\>
+  r2. \bo <[6]>4
+  <4> \bc <[3]>2. %10 finis
+}
+
+B-SXSonataSecundaOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoB-SXSonataSecunda
+      \once \override Staff.TimeSignature.style = #'single-digit
+    c2.\fE
+    g'2 e4
+    f d h
+    c2 h4
+    a e'2 %5
+    a,2.
+    f
+    e'2 f4
+    e d2
+    c2. %10
+    h2 c4
+    c2.
+    h2 c4
+    h a2
+    g2. %15
+    fis2 g4
+    e' h2
+    e2.
+    c
+    c %20
+    f2 e4
+    f g2
+    c,2.
+    f2 e4
+    f g2 %25
+    c,2.\fermata \bar "|." %26 finis
+  }
+}
+
+B-SXSonataSecundaBassFigures = \figuremode {
+  r2.
+  r2 <6>4
+  r2 <[6]>4
+  r2 <6\\>4
+  r <4> <_+> %5
+  \bo <[_+]>2.
+  \bc <[5!]>
+  <6>
+  <[6]>4 <7> <6>
+  r2. %10
+  <6>
+  r
+  <6>
+  q4 <7> <6\\>
+  r2. %15
+  <6>
+  r4 \bo <[5\+] 4> \bc <[\t] _+>
+  <_+>2.
+  r
+  r %20
+  r2 <6>4
+  r <4> <3>
+  r2.
+  r2 <6>4
+  r <4> <3> %25
+  r2. %26 finis
+}
+
+B-SXAgnusOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoB-SXAgnus
+    \mvTr c2\fE-\tutti f
+    d g4 c,
+    a2 e'
+    e a,
+    d c %5
+    f4. d8 e4 a,
+    e'2 a,
+    \mvTr f1\pE-\solo
+    f
+    f2 e'4 f %10
+    d2 c
+    c f,
+    g4 c g2
+    c a
+    a1 %15
+    a2 b4. fis8
+    g2 a
+    d h!
+    gis a
+    h4 e, h'2 \noBreak %20
+    e,1\fermata \bar "||"
+    \time 3/2 \tempoB-SXAgnusB
+      r2 \mvTr c'\fE-\tuttiE c \noBreak
+    g'1.
+    e2 c1
+    g'1. %25
+    e1 c2~
+    c d1
+    g,1.
+    c'1 g2
+    e c c' %30
+    a1 f2~
+    f g1 \noBreak
+    c,1.\fermata \bar "||"
+    \time 6/4 \tempoB-SXDona
+      \mvTr c4\fE-\soloE h2 c4 g' f \noBreak
+    e a f d g g, %35
+    c a\p h c g2
+    c4 fis,2\f g4 d' c
+    h e c a d d,
+    g e'\p fis g d d,
+    g h2\f c4 g2 %40
+    c4 g' f e a f
+    d g g, c a h
+    c g' g, c a\p h
+    c g2 c4 fis,2\f
+    g4 d' c h e c %45
+    a d d, g e'\p fis \noBreak
+    g d d, g2. \bar "||"
+    \tempoB-SXDonaSonata
+      c4\fE h2 c4 g2 \noBreak
+    c4 g2 a4 a' f
+    d g g, c h2 %50
+    c h4 c d2
+    g,4 h2 c4 g2
+    a4 a' f d g g,
+    c a h c g2 \noBreak
+    c1. \bar "||" %55
+    \tempoB-SXDonaB \mvTr c4\fE-\tuttiE h2 c4 g' f \noBreak
+    e fis g e c d
+    g, e'\p fis g c, d
+    g, a2\f c4 h2
+    e2. c4 h2 %60
+    c4 g2 c4 g' f
+    e a f d g g,
+    c a h c g2
+    c4 r r r2 r4\fermata \bar "|." %64 finis
+  }
+}
+
+B-SXAgnusBassFigures = \figuremode {
+  r1
+  r2 <7>
+  <_!> <_+>
+  q1
+  <7>4 <6> <7> <6> %5
+  <7> <6>8 q <_+>2
+  <4>4 <_+> \bo <[_+]>2
+  \bc <[5!]>1
+  r
+  <4 2>2 <6> %10
+  <7>4 <6>2.
+  r2 <_->
+  <_!>4 q <4> <_!>
+  r1
+  r %15
+  <5>4 <6> r4. <6>8
+  <_->2 <4>4 <_+>
+  q2 <[5\+] _+>
+  <6> <_!>
+  <[5\+] _+>4 <_!> \bo <[5\+] 4> \bc <[\t] _+> %20
+  r1
+  r1.
+  r
+  <6>
+  r %25
+  <5>1 <6 5>2
+  r <4> <_+>
+  r1.
+  r
+  <6> %30
+  r1 <6 5>2
+  r <4> <3>
+  r1.
+  r4 <6> r1
+  <6>2 <6 5> <4>4 <3> %35
+  r <6> <5>2 <4>4 <3>
+  r <6>2. <_+>2
+  <6> <6 5> <4>4 <_+>
+  r <6> <5>2 <4>4 <_+>
+  r <6> r1 %40
+  r2. <6>2 <6 5>4
+  r <4> <3>2 <6>4 <5>
+  r <4> <3>2 <6>4 <5>
+  r <4> <3>2 <6>
+  r4 <_+>2 <6> <6 5>4 %45
+  r <4> <_+>2 <6>4 <5>
+  r <4> <_+>1
+  r4 <6> r1
+  r2. <_!>2 <6 5>4
+  r <4> <3>2 <6> %50
+  r <[6]> <4>4 <_+>
+  r <6> r1
+  r <4>4 <3>
+  r <6> <[6] 5>2 <4>4 <3>
+  r1. %55
+  r4 <6> r1
+  <6>4 <[6] 5>2. <6 5>4 <_+>
+  r <6> <[6] 5>2 <6 5>4 <_+>
+  r <6\\>2 <6>4 \bo <[5\+] 4> \bc <[\t] _+>
+  <_+>2. <[5!]>4 <6>2 %60
+  r1.
+  <6>2 <6 5> <4>4 <3>
+  r <6> <5>2 <4>4 <3>
+  r1. %64 finis
+}

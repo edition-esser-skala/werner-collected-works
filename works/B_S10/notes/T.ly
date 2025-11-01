@@ -581,3 +581,169 @@ B-SXCredoTenoreLyrics = \lyricmode {
   sae -- cu -- %215
   li. %216 finis
 }
+
+B-SXSanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoB-SXSanctus
+    \mvTr g4.\fE^\tutti d'8 c[ a] g4
+    e a8[ d,] a'[ d] h4
+    a4. g8 f[ d' c h]
+    c4 a d2
+    g, g4. a8 %5
+    h[ c d d,] e4. fis8
+    g[ a h c] d4 h
+    a2 g
+    g4. d'8 c[ a] g4
+    e a8[ d,] a'[ d c a] %10
+    g4 g g2
+    g c4 c8 c
+    h4 h h4. h8 \noBreak
+    h1\fermata \bar "||"
+    \time 3/2 \tempoB-SXPleni \newSpacingSection
+      R1.*18 \noBreak %32
+    R1.\fermata \bar "||"
+    \time 6/4 \tempoB-SXOsanna \newSpacingSection
+      R1.*4 %37
+    \mvTr g4\pE^\solo c2 a4 d d
+    g,( c8[ h] a4 g2 fis4)
+    g2 r4 r2 r4 %40
+    R1.*5 %45
+    r2 r4 r2 a4
+    h h g a a h
+    c c( h) c2 \mvTr g4\fE^\tutti
+    g2 a4 a2 h4
+    g2.( h4 a d) %50
+    d2. h2 c4
+    c2 d4 h2 c4
+    c2.( h)
+    c1.\fermata \bar "|." %54 finis
+  }
+}
+
+B-SXSanctusTenoreLyrics = \lyricmode {
+  San -- _ _ _
+  _ _ _ _
+  _ _ _
+  _ ctus, san --
+  ctus, san -- _ %5
+  _ _ _
+  _ _ ctus,
+  san -- ctus,
+  san -- _ _ _
+  _ _ _ %10
+  _ ctus, san --
+  ctus Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth.
+
+  O -- san -- na in ex -- %38
+  cel --
+  sis, %40
+
+  o -- %46
+  san -- na, o -- san -- na in
+  ex -- cel -- sis, o --
+  san -- na in ex --
+  cel -- %50
+  sis, in ex --
+  cel -- sis, in ex --
+  cel --
+  sis. %54 finis
+}
+
+B-SXAgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoB-SXAgnus
+    \mvTr g4.\fE^\tutti g8 a4 a8 a
+    a4 a8 a h4 g
+    a2 gis
+    gis4. gis8 a4 a
+    a4. d8 g,4 c %5
+    c4. d8 h4 c
+    h2 cis
+    \mvTr a4.\pE^\solo c8 f,4 f
+    a4. c8 f,4 f8 a
+    h!4 h8 h c4 c %10
+    c( h) c2
+    g4. g8 as4 as
+    g8 g g g g2
+    g r
+    R1*6 \noBreak %20
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-SXAgnusB
+      r2 \mvTr g\fE^\tutti g \noBreak
+    g g g
+    g g g
+    h h h %25
+    h1 e2~
+    e d1
+    d2 d d
+    c c h
+    c g c %30
+    c1 a2~
+    a g1 \noBreak
+    g1.\fermata \bar "||"
+    \time 6/4 \tempoB-SXDona R1.*10 %43
+    r2 r4 r \mvTr d'\fE^\solo c
+    h a2 g a4~ %45
+    a a2 g4 c2\p
+    h4 a2 g2. \bar "||"
+    \tempoB-SXDonaSonata R1.*8 \bar "||" %55
+    \tempoB-SXDonaB r4 \mvTr g\fE^\tutti g g g2 \noBreak
+    g4( d'2) g,4 e'( d)
+    d g,(\p d') h e( d)
+    d c(\f a) e fis2
+    gis2. r4 d' d %60
+    c h2 c4 h2
+    c a g
+    g4 a g2 g
+    g4 r r r2 r4 \fermata \bar "|." %64 finis
+  }
+}
+
+B-SXAgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re, %5
+  mi -- se -- re -- re
+  no -- bis.
+  A -- gnus De -- i,
+  a -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta %10
+  mun -- di:
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re no --
+  bis.
+
+  A -- gnus %22
+  De -- i, qui
+  tol -- lis, qui
+  tol -- lis pec -- %25
+  ca -- ta __
+  mun --
+  di, a -- gnus
+  De -- i, qui
+  tol -- lis pec -- %30
+  ca -- ta __
+  mun --
+  di:
+
+  Do -- na %44
+  no -- bis pa -- cem, __ %45
+  pa -- cem, pa --
+  cem, pa -- cem.
+
+  Do -- na no -- bis %56
+  pa -- cem, pa --
+  cem, pa -- cem, pa --
+  cem, no -- bis pa --
+  cem, do -- na %60
+  no -- bis, do -- na
+  no -- bis pa --
+  cem, pa -- cem, pa --
+  cem. %64 finis
+}

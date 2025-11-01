@@ -258,8 +258,33 @@ B-SXCredoTromboneIII = {
     R1\fermata \bar "||"
     \tempoB-SXCrucifixus R1*10 \noBreak %99
     R1\fermata \bar "||" %100
-    \time 3/2 \tempoB-SXCredoSonata R1.*25 \noBreak %125
-    R1.\fermata \bar "||"
+    \time 3/2 \tempoB-SXCredoSonata
+      c1\fE c2 \noBreak
+    c1.
+    c1 c2
+    c1.
+    c %105
+    f,1 b2
+    g a1
+    d1.
+    c2 h!4 c g2
+    c h4 c g2 %110
+    a' gis4 a e2
+    a gis4 a e2
+    f e4 f c2
+    f e4 f c2
+    c1 h2 %115
+    c g1
+    c1.
+    c1 h2
+    c g1
+    c1. %120
+    c
+    c
+    c
+    f,2 g1 %125
+    c1. \noBreak
+    c\fermata \bar "||"
     \tempoB-SXEtResurrexit R1.*6 %132
     r2 r h\fE
     c1 g2
@@ -311,5 +336,133 @@ B-SXCredoTromboneIII = {
     f1 c2~
     c g2. g4 %215
     c,1.\fermata \markAmenUtSupra \bar "||" %216 finis
+  }
+}
+
+B-SXSanctusTromboneIII = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoB-SXSanctus
+    c4.\fE d8 e f g g,
+    a4. h8 c d e e,
+    f4. g8 a h c d
+    e4 f d2
+    c r %5
+    R1*3
+    c4. d8 e f g g,
+    a4. h8 c d e f %10
+    g4 c, g2
+    c a4 a8 a
+    h4 e h4. h8 \noBreak
+    e,1\fermata \bar "||"
+    \time 3/2 \tempoB-SXPleni \newSpacingSection
+      R1.*18 \noBreak %32
+    R1.\fermata \bar "||"
+    \time 6/4 \tempoB-SXOsanna \newSpacingSection
+      R1.*2 %35
+    r2 e'4\pE a f d
+    g d g a f g
+    c,2 e4 f d h
+    e c d e c d
+    g,2 r4 r2 r4 %40
+    R1.*7 %47
+    r2 r4 r2 g4\fE
+    c2 a4 d2 h4
+    e8 d c2 h4 c d %50
+    g,2. r2 e'4
+    a f d g g, c8 e
+    g2 g,1
+    c1.\fermata \bar "|." %54 finis
+  }
+}
+
+B-SXSonataSecundaTromboneIII = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoB-SXSonataSecunda
+      \once \override Staff.TimeSignature.style = #'single-digit
+    c2.\fE
+    g'2 e4
+    f d h
+    c2 h4
+    a e'2 %5
+    a,2.
+    f
+    e'2 f4
+    e d2
+    c2. %10
+    R2.*4
+    g2. %15
+    fis2 g4
+    e' h2
+    e,2.
+    R2.*2 %20
+    f'2 e4
+    f g2
+    c,2.
+    f2 e4
+    f g2 %25
+    c,2.\fermata \bar "|." %26 finis
+  }
+}
+
+B-SXAgnusTromboneIII = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoB-SXAgnus
+    c4.\fE c8 f4 f8 f
+    d4 d8 d g4 c,
+    a2 e'
+    e4. e8 a,4 a
+    d4. d8 c4 c %5
+    f4. d8 e4 a,
+    e'2 a,
+    f1\pE
+    f
+    f2 e'4 f %10
+    d2 c
+    c f,
+    g4 c g2
+    c r
+    R1*6 \noBreak %20
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-SXAgnusB r2 c\fE c \noBreak
+    g' g g
+    e c c
+    g' g g %25
+    e1 c2~
+    c d1
+    g,2 g' g
+    c c g
+    e c c' %30
+    a1 f2~
+    f g1 \noBreak
+    c,1.\fermata \bar "||"
+    \time 6/4 \tempoB-SXDona c4\fE h2 c4 g' f
+    e a f d g g, %35
+    c a\p h c g2
+    c4 r r r2 r4
+    R1.*6 %43
+    r2 r4 r fis,2\fE
+    g4 d' c h e c %45
+    a d d, g e'\pE fis
+    g d d, g2. \bar "||"
+    \tempoB-SXDonaSonata c4\fE h2 c4 g2 \noBreak
+    c4 g2 a4 a' f
+    d g g, c h2 %50
+    c h4 c d2
+    g,4 h2 c4 g2
+    a4 a' f d g g,
+    c a h c g2 \noBreak
+    c1. \bar "||" %55
+    \tempoB-SXDonaB r4 h\fE h c g' f \noBreak
+    e fis g e c d
+    g, e'\p fis g c, d
+    g, a2\f c4 h2
+    e2. r4 h h %60
+    c g2 c4 g' f
+    e a f d g g,
+    c a h c g2
+    c4 r r r2 r4 \fermata \bar "|." %64 finis
   }
 }

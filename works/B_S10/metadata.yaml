@@ -4,13 +4,13 @@ composer:
 title: Missa Sancti Stephani
 id: WerW B.S10
 genre: mass
-scoring: S, A, T, B (solo), S, A, T, B (coro),\\2 cnto, 2 clno (C), 2 trb, timp (C–G), 2 vl, 2 vla, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro),\\2 cnto, 2 clno (C), 3 trb, timp (C–G), 2 vl, 2 vla, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-KR
     shelfmark: C 8/662
-    date: 1693-09-09
+    date: 1693
     rism: 600178930
     license: public domain
     principal: true
@@ -20,12 +20,12 @@ sources:
     rism: 530003976
     url: https://copia.oszk.hu/kotta/7-orgelstimmen-zu-werners-messen/
     license: public domain
-    notes: only org part
+    notes: only vlne part
 tocstyle: default
 toe: |
   – & –    & –      & Title page and available parts indicate that the work
                       can be performed with alternative instruments:
-                      (1) The part for vla 1 and trb 1 can either be played
+                      (1) The part for vla~1 and trb~1 can either be played
                       (a) continuously by one instrument, or (b) divided between
                       the two (part title: “Viola e Trombone~1 in Compendio”;
                       title page: “vel 2 Viola et Tromb. in Compendio”).
@@ -47,8 +47,12 @@ toe: |
                       on a separate staff and labeled “clno*”. \\
   – & –    & –      & In \B1 (but not in \B2), whole notes in hemiolas are
                       frequently (but inconsistently) written with filled,
-                      stemless note heads (Gloria: bars 46f, 51f, 57f, 74f,
-                      92f, 99f, and 135f; Credo: 12f, 18f, 25f, 29f, 33f, 43f, 49f, 56f, 106f, 115f, 118f, 135f, 138f, 161f, 204f, 209f, and 214f). This notation has been tacitly
+                      stemless note heads
+                      (\textit{Gloria}: bars 46f, 51f, 57f, 74f, 92f, 99f,
+                      and 135f; \textit{Credo}: 12f, 18f, 25f, 29f, 33f, 43f,
+                      49f, 56f, 106f, 115f, 118f, 135f, 138f, 161f, 204f,
+                      209f, and 214f; \textit{Agnus Dei}: 26f and 31f).
+                      This notation has been tacitly
                       emended to the modern convention. \\
     & 62   & vl 1   & 2nd \quarterNote\ in \B1: e″8–\sharp f″16–g″16 \\
     & 64   & T      & 2nd \quarterNote\ in \B1: g8–a16–b16 \\
@@ -56,13 +60,12 @@ toe: |
     & 35   & org    & 1st/2nd \halfNote\ in \B1: b2–g2 \\
     & 62   & vl 2   & 4th \quarterNote\ in \B1: d″4 \\
     & 102  & –      & Parts of \B1 contain either “Presto”
-                      (vla/trb 1, vla 1, trb 1, vla/trb 2, vla 2, trb 2, vlne,
+                      (trb+vla~1, vla 1, trb 1, trb+vla~2, vla 2, trb 2, vlne,
                       org), “Allegro” (S solo, A solo, T solo, B solo, S coro,
-                      cnto 1, cnto 2, clno 1*, trb 3, vl 1, vl 2, mdc),
+                      cnto 1, cnto 2, clno* 1, trb 3, vl 1, vl 2, mdc),
                       or no tempo indication (A coro, T coro, clno 1, clno 2,
-                      clno 2*, timp). \\
+                      clno* 2, timp). \\
     & 123  & trb 3  & 4th \eighthNote\ in \B1: d8 \\
-    & 161  & trb 2  & 1st \wholeNote\ in \B1: c′1 \\
     & 132  & –      & In \B1, parts consistently play \sharp f′2
                       on the 1st \halfNote\ (A solo, A coro, trb 1),
                       but \natural f″4 on the 2nd \quarterNote\
@@ -71,6 +74,7 @@ toe: |
                       on the 3rd \halfNote\ (A solo, A coro, trb 1),
                       but \natural f″4 on the last \quarterNote\
                       (S solo, S coro, cnto 2, clno 2, vl 2). \\
+    & 161  & trb 2  & 1st \wholeNote\ in \B1: c′1 \\
     & 163  & –      & In \B1, all parts except clno 1/2, clno* 1/2, and timp
                       contain a final bar with a full measure rest.
                       However, only clno 1/2* play in this final bar,
@@ -81,19 +85,23 @@ toe: |
     & 50   & vl 1   & 3rd \halfNote\ in \B1: b″2 \\
     & 84   & vla 1  & bar in \B1: d′2–\sharp f′2 \\
     & 95   & B      & 2nd \halfNote\ in \B1: G2 \\
-    & 101–126 & –   & These bars only appear in the trb/vla 1/2 parts,
-                      but neither in the vla 1/2 nor trb 1/2 parts.
-                      Since vl 1/2 pause in the sonata, however, it is likely
-                       that this section should be played by trb 1/2. \\
     & 138  & vla 1  & 3rd \halfNote\ in \B1: e′2 \\
-    & 141  & –      & In \B1, this bar is missing in both
-                      the trb/vla 1 and vla 1 part. \\
+    & 141  & trb+vla 1, vla 1 & bar missing n \B1 \\
     & 183  & trb 3  & last \eighthNote\ in \B1: e8 \\
     & 183  & T      & 4th \eighthNote\ in \B1: a8 \\
-    & 185  & trb/vla 1, trb 1 & 2nd \halfNote\ in \B1: d′2 \\
+    & 185  & trb+vla 1, trb 1 & 2nd \halfNote\ in \B1: d′2 \\
     & 206  & T      & 3rd \halfNote\ in \B1: b2 \\
     & 212  & vl 1   & 3rd \halfNote\ in \B1: f″2 \\
     & 217ff & –     & In \B1, the \textit{Amen} section is written out
                       in vlne and org. \\
+  5 & 1    & trb 1, vla 1, A & last \quarterNote\ in \B1: e′4 \\
+    & 9    & A      & last \quarterNote\ in \B1: e′4 \\
+    & 15–33 & S     & \B1 contains a separate sheet with an alternative,
+                      simplified version of the S solo. \\
+    & 44   & vl 2   & last \quarterNote\ in \B1: b′4 \\
+    & 52   & vl 2   & 4th \quarterNote\ in \B1: b′4 \\
+  8 & 3    & trb+vla 1 & 1st \halfNote\ in \B1: f′2 \\
+    & 16   & trb+vla 1, vla 1 & 2nd \halfNote\ in \B1: f′4–a′4 \\
+    & 45   & trb+vla 1, trb 1 & bar in \B1: d′4–e′2–d′4–f′2 \\
 parts:
   ottoni: Clarino I, II in C\\Timpani in C–G

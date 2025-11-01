@@ -263,3 +263,95 @@ B-SXCredoCornettoII = {
     g1.\fermata \markAmenUtSupra \bar "||" %216
   }
 }
+
+B-SXSanctusCornettoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoB-SXSanctus
+    c'4.\fE h8 c4. h8
+    h4 a8 gis a4. g8
+    g4 f4. g8 e f
+    g4 a f2
+    e h'4. c8 %5
+    d e a,4 g4. a8
+    h c h a a4 h
+    c2 h
+    c4. h8 c4. h8
+    h4 a8 gis a4 g8 a %10
+    h4 c c4. h8
+    c2 e4 e8 e
+    dis4 e e4. dis8 \noBreak
+    e1\fermata \bar "||"
+    \time 3/2 \tempoB-SXPleni \newSpacingSection
+      R1.*18 \noBreak %32
+    R1.\fermata \bar "||"
+    \time 6/4 \tempoB-SXOsanna \newSpacingSection
+      R1.*14 %47
+    r2 r4 r2 h4\fE
+    c2 c4 d2 d4
+    h c2 d4 e a, %50
+    h2. d4 g2
+    c,4 f2 d4 g8 f e4
+    d1.
+    c\fermata \bar "|." %54 finis
+  }
+}
+
+B-SXSonataSecundaCornettoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoB-SXSonataSecunda
+      \once \override Staff.TimeSignature.style = #'single-digit
+    R2.*9 %9
+    c'8\fE g c16 d e8 e16 d c8 %10
+    g'4~ g16 a g f e4
+    e8 c e16 d c8 c16 d e8
+    d4. d8 e4
+    d c4. c8
+    d2. %15
+    R2.*5 %20
+    f4. f8 g4
+    f8 e d4. d8
+    e2.
+    f4. f8 g4
+    f8 e d4. d8 %25
+    e2.\fermata \bar "|." %26 finis
+  }
+}
+
+B-SXAgnusCornettoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoB-SXAgnus
+    R1*20 \noBreak %20
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-SXAgnusB r2 e'\fE e \noBreak
+    d d d
+    c e e
+    d d d %25
+    e1 e2~
+    e d2. d4
+    d2 d d
+    c c d
+    c c c %30
+    c1 c2~
+    c g2. g4
+    g1.\fermata \bar "||"
+    \time 6/4 \tempoB-SXDona R1.*14 \bar "||" %47
+    \tempoB-SXDonaSonata R1.*2
+    r2 r4 r d'2\fE %50
+    c8. d16 c4 d e d4. d8
+    d4 d2 c8. e16 g4 f
+    e4 c2 c4 c4. h8
+    c4 c d c8 g g4. g8 \noBreak
+    e1. \bar "||" %55
+    \tempoB-SXDonaB g4\fE g g g2. \noBreak
+    c4 d d e e d
+    d r r r2 r4
+    R1.*2 %60
+    r4 g f e g2
+    c, c c4. h8
+    c4 c d c8 g g2
+    e4 r r r2 r4\fermata \bar "|." %64 finis
+  }
+}

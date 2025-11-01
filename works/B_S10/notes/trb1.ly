@@ -307,7 +307,7 @@ B-SXCredoTromboneI = {
     \tempoB-SXCrucifixus R1*10 \noBreak %99
     R1\fermata \bar "||" %100
     \time 3/2 \tempoB-SXCredoSonata
-      g'1\fE^\trb^\critnote g2 \noBreak
+      g'1\fE^\trb g2 \noBreak
     g1.
     g1 g2
     g1.
@@ -402,5 +402,147 @@ B-SXCredoTromboneI = {
     f e2~
     e d2. d4 %215
     e1.\fermata \markAmenUtSupra \bar "||" %216 finis
+  }
+}
+
+B-SXSanctusTromboneI = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key c \major \time 2/2 \tempoB-SXSanctus
+    e4.\fE^\vltr f8 g f d4^\critnote
+    c8 e4 d8 e f e4
+    c f8 h, c d e d
+    c4 c c h
+    c2 g'4. fis8 %5
+    g4. fis8 fis4 e8 dis
+    e4 d8 e fis4 g
+    g fis g2
+    e4. f8 g f d4
+    c8 e4 d8 e f g f %10
+    f4 e d2
+    e a4 a8 a
+    fis4 g \hA fis2 \noBreak
+    gis1\fermata \bar "||"
+    \time 3/2 \tempoB-SXPleni \newSpacingSection
+      R1.*18 \noBreak %32
+    R1.\fermata \bar "||"
+    \time 6/4 \tempoB-SXOsanna \newSpacingSection
+      e2\pE^\vla c4 c f d \noBreak
+    e e fis g e d %35
+    d2 g4^\trb c,2 d4
+    h d h8 g' e4 d d
+    e2 c4 c f d
+    e e fis g e d
+    d2 r4 r2 r4 %40
+    R1.*7 %47
+    r2 r4 r2 d4\fE^\vltr
+    e2 e4 fis2 g4
+    \once \tieDashed g2.~ g2 fis4 %50
+    g2. g4 g2
+    e4 f!2 f4 d e8 f
+    g1.
+    e\fermata \bar "|." %54 finis
+  }
+}
+
+B-SXSonataSecundaTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoB-SXSonataSecunda
+      \once \override Staff.TimeSignature.style = #'single-digit
+    c2.\fE^\vltr
+    d2 e4
+    c d2
+    c d4
+    e e2 %5
+    e2.
+    f
+    g2 f4
+    c d2
+    g,2. %10
+    R2.*4
+    g'2. %15
+    a2 g4
+    g e fis
+    g2 r4
+    R2.*2 %20
+    c,2 c4
+    c2 h4
+    c2.
+    c2 c4
+    c2 h4 %25
+    c2.\fermata \bar "|." %26 finis
+  }
+}
+
+B-SXAgnusTromboneI = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key c \major \time 2/2 \tempoB-SXAgnus
+    e4.\fE^\vltr e8 f4 f8 f
+    f4 f8 f f4 e
+    e2^\critnote e
+    e4. e8 e4 e
+    f4. f8 e4 e %5
+    e d8 f e4 e
+    e2 e
+    c1\pE^\trb
+    c
+    d2 g4 a %10
+    f2 e
+    e f
+    f4 e d2
+    e e^\vla
+    e1 %15
+    a2 f4.^\critnote a8
+    g4. f8 e2
+    fis fis
+    e e
+    dis4 e2 \hA dis4 \noBreak %20
+    e1\fermata \bar "||"
+    \time 3/2 \tempoB-SXAgnusB
+      r2 e\fE^\vltr e \noBreak
+    d1 d2
+    e1 e2
+    g1 g2 %25
+    g1 g2~
+    g g fis
+    g1 g2
+    g1 g2
+    g e1 %30
+    e d2~
+    d d1 \noBreak
+    e1.\fermata \bar "||"
+    \time 6/4 \tempoB-SXDona
+      e4\fE^\trb d2 e4 g2 \noBreak
+    g4 e a f d g %35
+    e a\pE g g2 d4
+    e d2\fE^\vla d4 d2
+    d4 e2 e4 d2
+    h4 g'\pE a g g fis
+    g r r r2 r4 %40
+    R1.*3
+    r2 r4 r d2\fE^\trb
+    d4^\critnote d2 d4 e2 %45
+    e4 d2 h4 g'\p a \noBreak
+    g g fis g2. \bar "||"
+    \tempoB-SXDonaSonata
+      g4\fE^\trb g2 g4 g2 \noBreak
+    g4 g2 c, f4~
+    f g2 g4 g2 %50
+    g g4 g d2
+    d4 g2 g4 g2
+    c, f g
+    g4 a g g g2 \noBreak
+    g1. \bar "||" %55
+    \tempoB-SXDonaB r4 g\fE^\vltr f e d2 \noBreak
+    g4 a g2 g4 fis
+    g g\pE a g g fis
+    g fis2\fE e4 e dis
+    e2. r2 r4 %60
+    r g! f e d!2
+    e d d
+    e4 f2 e4 d2
+    e4 r r r2 r4 \fermata \bar "|." %64 finis
   }
 }

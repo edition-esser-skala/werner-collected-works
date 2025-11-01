@@ -17,6 +17,11 @@ markAmenUtSupra = {
   \mark \markup \remark "Amen ut supra"
 }
 
+markOsannaUtSupra = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Osanna ut supra"
+}
+
 tempoB-SXSonata = \tempoMarkup "Sonata"
 tempoB-SXKyrie = \tempoMarkup "Kyrie"
   tempoB-SXChriste = \tempoMarkup "Christe"
@@ -49,6 +54,16 @@ tempoB-SXCredo = \tempoMarkup "Patrem"
   tempoB-SXEtUnam = \tempoMarkup "Et unam"
   tempoB-SXEtExpecto = \tempoMarkup "Et expecto"
   tempoB-SXEtVitam = \tempoMarkup "Et vitam" %240
+tempoB-SXSanctus = \tempoMarkup "Sanctus"
+  tempoB-SXPleni = \tempoMarkup "Pleni · Adagio"
+  tempoB-SXOsanna = \tempoMarkup "Osanna"
+tempoB-SXBenedictus = \tempoMarkup "Benedictus"
+tempoB-SXSonataSecunda = \tempoMarkup "Sonata"
+tempoB-SXAgnus = \tempoMarkup "Agnus Dei"
+  tempoB-SXAgnusB = \tempoMarkup "Agnus Dei"
+  tempoB-SXDona = \tempoMarkup "Dona nobis pacem"
+  tempoB-SXDonaSonata = \tempoMarkup "Sonata"
+  tempoB-SXDonaB = \tempoMarkup "Dona"
 
 \include "notes/cnto1.ly"
 \include "notes/cnto2.ly"

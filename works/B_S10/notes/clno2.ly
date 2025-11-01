@@ -175,3 +175,71 @@ B-SXCredoClarinoII = {
     g1.\fermata \markAmenUtSupra \bar "||" %216 finis
   }
 }
+
+B-SXSanctusClarinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoB-SXSanctus
+    R1*13 \noBreak %13
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-SXPleni \newSpacingSection
+      R1.*18 \noBreak %32
+    R1.\fermata \bar "||"
+    \time 6/4 \tempoB-SXOsanna \newSpacingSection
+      R1.*20 %53
+    R1.\fermata \bar "|." %54 finis
+  }
+}
+
+B-SXSonataSecundaClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoB-SXSonataSecunda
+      \once \override Staff.TimeSignature.style = #'single-digit
+    R2.*18 %18
+    c'8\fE g c e c4
+    e8 c e g e4 %20
+    f4. f8 g4
+    f8 e d4. d8
+    e2.
+    f4. f8 g4
+    f8 e d4. d8 %25
+    e2.\fermata \bar "|." %26 finis
+  }
+}
+
+B-SXAgnusClarinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoB-SXAgnus
+    R1*20 \noBreak %20
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-SXAgnusB r2 e'\fE e \noBreak
+    d d d
+    c e e
+    d d d %25
+    e1 e2~
+    e d2. d4
+    d2 d d
+    c c d
+    c c c %30
+    c1 c2~
+    c g2. g4
+    g1.\fermata \bar "||"
+    \time 6/4 \tempoB-SXDona R1.*14 \bar "||" %47
+    \tempoB-SXDonaSonata r2 r4 r g'\fE f \noBreak
+    e d2 c c4
+    c c4. h8 c4 r r %50
+    R1.*3
+    r4 c d c8 g g4. g8 \noBreak
+    e1. \bar "||" %55
+    \tempoB-SXDonaB g4\fE g g g2. \noBreak
+    c4 d d e e d
+    d r r r2 r4
+    R1.*2 %60
+    r4 g f e g2
+    c, c c4. h8
+    c4 c d c8 g g2
+    e4 r r r2 r4\fermata \bar "|." %64 finis
+  }
+}

@@ -369,3 +369,154 @@ B-SXCredoViolinoII = {
     c1.\fermata \markAmenUtSupra \bar "||" %216 finis
   }
 }
+
+B-SXSanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoB-SXSanctus
+    c'4.\fE h8 c4. h8
+    h4 a8 gis a4. g8
+    g4 f4. g8 e f
+    g4 a f2
+    e h'4. c8 %5
+    d e a,4 g4. a8
+    h c h a a4 h
+    c2 h
+    c4. h8 c4. h8
+    h4 a8 gis a4 g8 a %10
+    h4 c c4. h8
+    c2 e4 e8 e
+    dis4 e e4. dis8 \noBreak
+    e1\fermata \bar "||"
+    \time 3/2 \tempoB-SXPleni \newSpacingSection
+      g,1\pE g2 \noBreak %15
+    g c h
+    c a1
+    g2 d1
+    g1.
+    f2. f4 f2 %20
+    a1.
+    g2. g4 g2
+    g1.
+    g1 d'2
+    h4 e d2. d4 %25
+    h2. h4 c d
+    e g, a2 h
+    c c2. h4
+    c1 g2
+    a1. %30
+    g1 g2
+    a g1 \noBreak
+    e1.\fermata \bar "||"
+    \time 6/4 \tempoB-SXOsanna \newSpacingSection
+      R1.*6 %39
+    h'2\pE h4 cis2 cis4 %40
+    dis2 e4 e2 dis4
+    e2 c4 a2 d4
+    h2 c4 c c2
+    c h4 c2 a4^\critnote
+    d h2 c c4 %45
+    b2. a2 r4
+    R1.
+    r2 r4 r2 h4\fE
+    c2 c4 d2 d4
+    h c2 d4 e a, %50
+    h2. d4 g2
+    c,4 f2 d4^\critnote g8 f e4
+    d1.
+    c\fermata \bar "|." %54 finis
+  }
+}
+
+B-SXBenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoB-SXBenedictus
+    g'1\pE
+    g4. c8 c2
+    h c
+    a2 c4 g
+    f2 e %5
+    d4 g8 g' g4. fis8
+    g2. e4
+    d2 c
+    h4 c h c
+    c4. h8 c2\fermata \markOsannaUtSupra \bar "||" %10 finis
+  }
+}
+
+B-SXSonataSecundaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoB-SXSonataSecunda
+      \once \override Staff.TimeSignature.style = #'single-digit
+    e'2.
+    d4. d8 g4
+    f2 d4
+    e2 d4
+    c h2 %5
+    cis2.
+    c
+    c2 c4
+    g' f2
+    e2. %10
+    R2.*4
+    d2. %15
+    d2 d4
+    e e4. dis8
+    e2.
+    R2.*2 %20
+    f4. f8 g4
+    f8 e d4. d8
+    e2.
+    f4. f8 g4
+    f8 e d4. d8 %25
+    e2.\fermata \bar "|." %26 finis
+  }
+}
+
+B-SXAgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoB-SXAgnus
+    c'4.\fE c8 c4 c8 c
+    d4 d8 d d4 c
+    c2 h
+    h4. h8 c4 c
+    c4. h8 h4 a %5
+    a4. h8 gis4 a
+    a4. gis8 a2
+    R1*13 \noBreak %20
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-SXAgnusB
+      r2 c\fE c \noBreak
+    h h h
+    c c c
+    d d d %25
+    e1 a,2~
+    a a1
+    h2 d d
+    e e d
+    c c c %30
+    c1 c2~
+    c c h \noBreak
+    c1.\fermata \bar "||"
+    \time 6/4 \tempoB-SXDona R1.*6 %39
+    r4 d2\fE c4 h2 %40
+    c4 h2 c c4~
+    c c4. h8 c4 c d
+    c c4. h8 c4 c\p d
+    c c4. h8 c4 r r
+    R1.*3 \bar "||" %47
+    \tempoB-SXDonaSonata R1.*8 \bar "||" %55
+    \tempoB-SXDonaB r4 d\fE d c h2 \noBreak
+    c h a
+    g4 c2\p h4 a2
+    g4 c2\f a4 h2
+    h2. r4 g'! f %60
+    e d2 r r4
+    c2 c c4 h
+    c c d c c h
+    c r r r2 r4\fermata \bar "|." %64 finis
+  }
+}

@@ -561,3 +561,197 @@ B-SXCredoAltoLyrics = \lyricmode {
   sae -- cu -- %215
   li. %216 finis
 }
+
+B-SXSanctusAlto = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoB-SXSanctus
+    \mvTr e4.\fE^\tutti f8 g[ f] d4^\critnote
+    c8 e4 d8 e[ f] e4
+    c f8[ h,] c[ d e d]
+    c4 c c( h)
+    c2 g'4. fis8 %5
+    g4. fis8 fis4 e8[ dis]
+    e4 d8[ e] fis4 g
+    g( fis) g2
+    e4. f8 g[ f] d4^\critnote
+    c8 e4 d8 e[ f g f] %10
+    f4 e d2
+    e a4 a8 a
+    fis4 g \hA fis4. fis8 \noBreak
+    gis1\fermata \bar "||"
+    \time 3/2 \tempoB-SXPleni \newSpacingSection
+      \tiny \mvTr g2\pE^\markup \remark "S solo [alternative version]" ^\tweak TextScript.X-offset #-3 ^\markup \normalsize \critnote c d \noBreak %15
+    e c f
+    g f e
+    d g,1
+    g'8[ f e f] g4 g, c8[ d h c]
+    a2. a4 a2 %20
+    a8[ g f g] a4 c f8[ g e f]
+    d2. d4 d2
+    d8[ c h c] d4 g, g'8[ d e f]
+    e4 g8[ f] e[ d c h] a2
+    g4 a a1 %25
+    g r2
+    R1.*2
+    c8[ g a h] c[ d e f] g[ g, c h]
+    a[ c d e] f4 c f8[ g f e] %30
+    d[ g, a h] c[ d e f] g2
+    f4 e d1
+    c1.\fermata \bar "||" \normalsize
+    \time 6/4 \tempoB-SXOsanna \newSpacingSection
+      \after 4*0 ^\markup \remark "Alto" R1.*2 %35
+    \mvTr d,4\pE^\solo g2 e4 a f
+    d( f8[ e] d4 c2 h4)
+    c2 r4 r2 r4
+    R1.*3 %41
+    r2 c4 f!2 d4
+    g2 e4 a8[( g] f2
+    e d4) c r r
+    R1. %45
+    r2 r4 c f2
+    d4 g c, c( f8[ e] d4
+    c d2) e \mvTr d4\fE^\tutti
+    e2 e4 fis2 g4
+    g2.~ g2 fis4 %50
+    g2. g4 g2
+    e4 f!2 f4 d( e8[ f]
+    g1.)
+    e\fermata \bar "|." %54 finis
+  }
+}
+
+B-SXSanctusAltoLyrics = \lyricmode {
+  San -- _ _ _
+  _ _ _ _ _
+  _ _ _
+  _ ctus, san --
+  ctus, san -- _ %5
+  _ _ _ _
+  _ _ _ ctus,
+  san -- ctus,
+  san -- _ _ _
+  _ _ _ _ %10
+  _ ctus, san --
+  ctus Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth.
+  Ple -- ni sunt %15
+  coe -- li, sunt
+  coe -- li et
+  ter -- ra
+  glo -- _ _ _
+  _ ri -- a, %20
+  glo -- _ _ _
+  _ ri -- a,
+  glo -- _ _ _
+  _ _ _ _
+  ri -- a tu -- %25
+  a,
+
+  glo -- _ _ %29
+  _ _ _ _ %30
+  _ _ _
+  ri -- a tu --
+  a.
+
+  O -- san -- na in ex -- %36
+  cel --
+  sis,
+
+  o -- san -- na %42
+  in ex -- cel --
+  sis,
+  %45
+  o -- san --
+  na in ex -- cel --
+  sis, o --
+  san -- na in ex --
+  cel -- _ %50
+  sis, o -- san --
+  na in ex -- cel --
+
+  sis. %54 finis
+}
+
+B-SXAgnusAlto = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoB-SXAgnus
+    \mvTr e4.\fE^\tutti e8 f4 f8 f
+    f4 f8 f f4 e
+    e2 e
+    e4. e8 e4 e
+    f4. f8 e4 e %5
+    e d8([ f)] e4 e
+    e2 e
+    R1*13 \noBreak %20
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-SXAgnusB
+      r2 \mvTr e\fE^\tuttiE e \noBreak
+    d d d
+    e e e
+    g g g %25
+    g1 g2~
+    g g( fis)
+    g g g
+    g g g
+    g e e %30
+    e1 d2~
+    d d1 \noBreak
+    e1.\fermata \bar "||"
+    \time 6/4 \tempoB-SXDona
+      r4 \mvTr g\fE^\solo f e d2 \noBreak
+    c d d %35
+    c4 f2\p e4 d2
+    c4 r r r2 r4
+    R1.*10 \bar "||" %47
+    \tempoB-SXDonaSonata R1.*8 \bar "||" %55
+    \tempoB-SXDonaB r4 \mvTr g'\fE^\tutti f e d2 \noBreak
+    g4( a) g2 g4( fis)
+    g g(\p a) g g( fis)
+    g fis2\f e4 e( dis)
+    e2. r2 r4 %60
+    r g! f e d!2
+    e d d
+    e4 f2 e4 d2
+    e4 r r r2 r4 \fermata \bar "|." %64 finis
+  }
+}
+
+B-SXAgnusAltoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re, %5
+  mi -- se -- re -- re
+  no -- bis.
+
+  A -- gnus %22
+  De -- i, qui
+  tol -- lis, qui
+  tol -- lis pec -- %25
+  ca -- ta __
+  mun --
+  di, a -- gnus
+  De -- i, qui
+  tol -- lis pec -- %30
+  ca -- ta __
+  mun --
+  di:
+  Do -- na no -- bis
+  pa -- cem, pa -- %35
+  cem, pa -- cem, pa --
+  cem.
+
+  Do -- na no -- bis %56
+  pa -- cem, pa --
+  cem, pa -- cem, pa --
+  cem, no -- bis pa --
+  cem, %60
+  do -- na no -- bis
+  pa -- cem, pa --
+  cem, pa -- cem, pa --
+  cem. %64 finis
+}
