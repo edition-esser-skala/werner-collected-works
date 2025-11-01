@@ -101,107 +101,107 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
-  \bookpart {
-    \section "2" "Kyrie"
-    \addTocEntry
-    \score { %\articulate
-      <<
-        \new StaffGroup \with { \smallGroupDistance } <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "cnto"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \B-SXKyrieCornettoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \B-SXKyrieCornettoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
-            \set Staff.soloIIText = \markup \remark \medium "clno 2"
-            \partCombine #'(0 . 10) \B-SXKyrieClarinoI \B-SXKyrieClarinoII
-          }
-        >>
-        \new Staff \with { \smallStaffDistance } {
-          \set Staff.instrumentName = \markup \center-column { "clno*" "1, 2" }
-          \set Staff.soloText = \markup \remark \medium "clno 1"
-          \set Staff.soloIIText = \markup \remark \medium "clno 2"
-          \partCombine #'(0 . 10) \B-SXKyrieClarinoIb \B-SXKyrieClarinoIIb
-        }
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \B-SXKyrieTromboneI
-            }
-            \new Staff {
-              \set Staff.instrumentName = \markup \center-column { "trb" "2" "vla" }
-              \B-SXKyrieTromboneII
-            }
-            \new Staff {
-              \set Staff.instrumentName = "3"
-              \B-SXKyrieTromboneIII
-            }
-          >>
-        >>
-        \new Staff \with { \smallStaffDistance } {
-          \set Staff.instrumentName = "timp"
-          \B-SXKyrieTimpani
-        }
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \B-SXKyrieViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \B-SXKyrieViolinoII
-            }
-          >>
-        >>
-        \new ChoirStaff <<
-          \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \B-SXKyrieSoprano }
-          }
-          \new Lyrics \lyricsto Soprano \B-SXKyrieSopranoLyrics
+  % \bookpart {
+  %   \section "2" "Kyrie"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "cnto"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \B-SXKyrieCornettoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \B-SXKyrieCornettoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+  %           \set Staff.soloText = \markup \remark \medium "clno 1"
+  %           \set Staff.soloIIText = \markup \remark \medium "clno 2"
+  %           \partCombine #'(0 . 10) \B-SXKyrieClarinoI \B-SXKyrieClarinoII
+  %         }
+  %       >>
+  %       \new Staff \with { \smallStaffDistance } {
+  %         \set Staff.instrumentName = \markup \center-column { "clno*" "1, 2" }
+  %         \set Staff.soloText = \markup \remark \medium "clno 1"
+  %         \set Staff.soloIIText = \markup \remark \medium "clno 2"
+  %         \partCombine #'(0 . 10) \B-SXKyrieClarinoIb \B-SXKyrieClarinoIIb
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \B-SXKyrieTromboneI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = \markup \center-column { "trb" "2" "vla" }
+  %             \B-SXKyrieTromboneII
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "3"
+  %             \B-SXKyrieTromboneIII
+  %           }
+  %         >>
+  %       >>
+  %       \new Staff \with { \smallStaffDistance } {
+  %         \set Staff.instrumentName = "timp"
+  %         \B-SXKyrieTimpani
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \B-SXKyrieViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \B-SXKyrieViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \B-SXKyrieSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \B-SXKyrieSopranoLyrics
 
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \B-SXKyrieAlto }
-          }
-          \new Lyrics \lyricsto Alto \B-SXKyrieAltoLyrics
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \B-SXKyrieAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \B-SXKyrieAltoLyrics
 
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \B-SXKyrieTenore }
-          }
-          \new Lyrics \lyricsto Tenore \B-SXKyrieTenoreLyrics
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \B-SXKyrieTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \B-SXKyrieTenoreLyrics
 
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \B-SXKyrieBasso }
-          }
-          \new Lyrics \lyricsto Basso \B-SXKyrieBassoLyrics
-        >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
-            % \transpose c c,
-            \B-SXKyrieOrgano
-          }
-        >>
-        \new FiguredBass { \B-SXKyrieBassFigures }
-      >>
-      \layout { }
-      \midi { \tempo 4 = 130 } % 90
-    }
-  }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \B-SXKyrieBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \B-SXKyrieBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \B-SXKyrieOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \B-SXKyrieBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 130 } % 90
+  %   }
+  % }
   % \bookpart {
   %   \section "3" "Gloria"
   %   \addTocEntry
@@ -303,4 +303,105 @@
   %     \midi { \tempo 4 = 70 } % see definitions
   %   }
   % }
+  \bookpart {
+    \section "4" "Credo"
+    % \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup \with { \smallGroupDistance } <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "cnto"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \B-SXCredoCornettoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \B-SXCredoCornettoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \set Staff.soloIIText = \markup \remark \medium "clno 2"
+            \partCombine #'(0 . 10) \B-SXCredoClarinoI \B-SXCredoClarinoII
+          }
+        >>
+        \new Staff \with { \smallStaffDistance } {
+          \set Staff.instrumentName = \markup \center-column { "clno*" "1, 2" }
+          \set Staff.soloText = \markup \remark \medium "clno 1"
+          \set Staff.soloIIText = \markup \remark \medium "clno 2"
+          \partCombine #'(0 . 10) \B-SXCredoClarinoIb \B-SXCredoClarinoIIb
+        }
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \B-SXCredoTromboneI
+            }
+            \new Staff {
+              \set Staff.instrumentName = \markup \center-column { "trb" "2" "vla" }
+              \B-SXCredoTromboneII
+            }
+            \new Staff {
+              \set Staff.instrumentName = "3"
+              \B-SXCredoTromboneIII
+            }
+          >>
+        >>
+        \new Staff \with { \smallStaffDistance } {
+          \set Staff.instrumentName = "timp"
+          \B-SXCredoTimpani
+        }
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \B-SXCredoViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \B-SXCredoViolinoII
+            }
+          >>
+        >>
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \B-SXCredoSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \B-SXCredoSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \B-SXCredoAlto }
+          }
+          \new Lyrics \lyricsto Alto \B-SXCredoAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \B-SXCredoTenore }
+          }
+          \new Lyrics \lyricsto Tenore \B-SXCredoTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \B-SXCredoBasso }
+          }
+          \new Lyrics \lyricsto Basso \B-SXCredoBassoLyrics
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
+            % \transpose c c,
+            \B-SXCredoOrgano
+          }
+        >>
+        \new FiguredBass { \B-SXCredoBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 240 } % see definitions
+    }
+  }
 }

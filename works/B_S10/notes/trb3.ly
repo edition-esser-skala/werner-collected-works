@@ -220,3 +220,96 @@ B-SXGloriaTromboneIII = {
     R1.\fermata \bar "|."
   }
 }
+
+B-SXCredoTromboneIII = {
+  \relative c' {
+    \clef bass
+    \key c \major \time 3/2 \tempoB-SXCredo
+    c,1\fE c2
+    g' d e
+    h1 h2
+    c gis a
+    e'1 e2 %5
+    c f,1
+    e1.
+    r2 e' a,
+    d2. d4 g,!2
+    c2. c4 c2 %10
+    r c a
+    h1 e2~
+    e h2. h4
+    e,1.
+    \tempoB-SXEtInUnum e'1\pE e2 %15
+    a f1
+    e2 c1
+    d1 g,2~
+    g a1
+    d1 d2 %20
+    h c g
+    a1 e'2
+    f g g,
+    c1.
+    \tempoB-SXEtExPatre R1.*11 %35
+    \tempoB-SXDeumDeDeo R1.*10 %45
+    \tempoB-SXGenitum R1.*18 %63
+    \tempoB-SXQuiPropter R1.*14 \noBreak %77
+    R1.\fermata \bar "||"
+    \time 2/2 \tempoB-SXEtIncarnatus R1*10 \noBreak %88
+    R1\fermata \bar "||"
+    \tempoB-SXCrucifixus R1*10 \noBreak %99
+    R1\fermata \bar "||" %100
+    \time 3/2 \tempoB-SXCredoSonata R1.*25 \noBreak %125
+    R1.\fermata \bar "||"
+    \tempoB-SXEtResurrexit R1.*6 %132
+    r2 r h\fE
+    c1 g2
+    c1 g2 %135
+    c g1
+    c2 r r
+    R1.*6 \bar "||" %143
+    \tempoB-SXEtAscendit R1.*14 %157
+    r2 r \tempoB-SXEtIterum f\fE
+    e2. e4 e2
+    a a a %160
+    g2. f!4 e2
+    f d2. d4
+    c2 c e
+    g d a' \noBreak
+    f d b %165
+    \time 2/2 g2 g4. g8 \noBreak
+    d1 \bar "||"
+    \time 3/2 \tempoB-SXCuiusRegni
+      r2 b' d \noBreak
+    f f4 f f f
+    d2 b r4 g' %170
+    e2 c r4 a'
+    f2 d r4 g
+    e c g1
+    c2 e g \noBreak
+    c, r r\fermata \bar "||" %175
+    \time 2/2 \tempoB-SXEtInSpiritum \newSpacingSection
+      R1*6 %181
+    e8.\fE e16 a8 d, g! g4 c,8
+    f8. f16 d8 h e e e c-\critnote
+    f8.[ f16] d8 e4 a,8 e'4
+    a,2 \tempoB-SXEtUnam f\pE %185
+    f f
+    f' r8 f e d
+    e4 a, e'2
+    a, r
+    R1*5 %194
+    \tempoB-SXEtExpecto R1*4 %198
+    \time 3/2 \tempoB-SXEtVitam R1.*7 %205
+    r2 r h\fE
+    c d e
+    d d h
+    c1 d2
+    g, d'2. d4 %210
+    g,1 e'2
+    f! d c
+    g g e'
+    f1 c2~
+    c g2. g4 %215
+    c,1.\fermata \markAmenUtSupra \bar "||" %216 finis
+  }
+}

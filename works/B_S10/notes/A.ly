@@ -363,3 +363,201 @@ B-SXGloriaAltoLyrics = \lyricmode {
   a -- men,
   a -- men. %162 finis
 }
+
+B-SXCredoAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \autoBeamOff \tempoB-SXCredo
+    \mvTr g'1\fE^\tutti g2
+    g fis e
+    dis1 dis2
+    e e e
+    e1 e2 %5
+    e e( d!)
+    e1.
+    r2 e e
+    fis2. fis4 d2
+    e2. e4 e2 %10
+    r e fis
+    dis1 e2~
+    e e2. dis4
+    e1.
+    \tempoB-SXEtInUnum \mvTr e2.\pE^\solo e4 h2 %15
+    c d2. d4
+    e2. g4( f e
+    f1) e2~
+    e e1
+    d2 f2. f4 %20
+    g2 e d
+    c4( d) e( f) g( a
+    f e d2.) d4
+    c1 r2
+    \tempoB-SXEtExPatre R1.*11 %35
+    \tempoB-SXDeumDeDeo g'1 e2
+    e dis dis^\critnote
+    g1 e2
+    d c2. c4
+    h2 h c %40
+    d d e
+    f! f g
+    e1 e2~
+    e e( dis)
+    e1. %45
+    \tempoB-SXGenitum R1.*18 %63
+    \tempoB-SXQuiPropter R1.*14 \noBreak %77
+    R1.\fermata \bar "||"
+    \time 2/2 \tempoB-SXEtIncarnatus
+      R1*10 \noBreak %88
+    R1\fermata \bar "||"
+    \tempoB-SXCrucifixus
+      \mvTr e2\pE^\soloE d \noBreak %90
+    e4. f8 g2
+    e e
+    e8. e16 e8 e f4 f8 f
+    f8. f16 f8 f e4 e
+    c2 as %95
+    b c
+    r4 h c2
+    h4 g g4. g8
+    g2 h4 g \noBreak
+    g4. g8 g2\fermata \bar "||" %100
+    \time 3/2 \tempoB-SXCredoSonata R1.*25 \noBreak %125
+    R1.\fermata \bar "||"
+    \tempoB-SXEtResurrexit R1.*17 \bar "||" %143
+    \tempoB-SXEtAscendit R1.*14 %157
+    r2 r \tempoB-SXEtIterum \mvTr f'\fE^\tutti \noBreak
+    g2. g4 g2
+    g g fis %160
+    g1.
+    f!2 f2. f4
+    e2 e g
+    d f e \noBreak
+    f f f %165
+    \time 2/2 g4( d) d4. d8 \noBreak
+    d1 \bar "||"
+    \time 3/2 \tempoB-SXCuiusRegni r2 f f \noBreak
+    f f4 f f f
+    f2 f r4 g %170
+    g2 g r4 e
+    f2 f r4 g
+    g g g1
+    e2 r r \noBreak
+    R1.\fermata \bar "||" %175
+    \time 2/2 \tempoB-SXEtInSpiritum \newSpacingSection
+      r4 \mvTr c8\pE^\solo f d c16 d e8 f \noBreak
+    d d16 d e8. e16 f8 e e4
+    d r r2
+    r g8 g g g
+    g f!16 e d8 e d4 c %180
+    e8 d c d16 c h8. h16 h4
+    \mvTr e8.\fE^\tutti e16 e8 fis d d4 e8
+    f8. f16 fis8 fis gis gis gis e
+    f8. f16 f8 e4 e8 e4
+    e2 \tempoB-SXEtUnam r %185
+    R1*9 %194
+    \tempoB-SXEtExpecto R1*4 %198
+    \time 3/2 \tempoB-SXEtVitam R1.*7 %205
+    r2 r \mvTr g\fE^\tuttiE
+    e fis g
+    fis fis g
+    g1( fis2)
+    g g2. fis4 %210
+    g1 g2
+    f! f e
+    g g g
+    f1 e2~
+    e d2. d4 %215
+    e1.\fermata \markAmenUtSupra \bar "||" %216 finis
+  }
+}
+
+B-SXCredoAltoLyrics = \lyricmode {
+  Pa -- trem
+  o -- mni -- po --
+  ten -- tem,
+  fa -- cto -- rem
+  coe -- li %5
+  et ter --
+  rae,
+  vi -- si --
+  bi -- li -- um
+  o -- mni -- um %10
+  et in --
+  vi -- si --
+  bi -- li --
+  um.
+  Et in u -- %15
+  num Do -- mi --
+  num Je --
+  sum __
+  Chri --
+  stum, Fi -- li -- %20
+  um De -- i
+  u -- ni -- ge --
+  ni --
+  tum.
+
+  De -- um %36
+  de De -- o,
+  lu -- men
+  de lu -- mi --
+  ne, De -- um %40
+  ve -- rum de
+  De -- o, de
+  De -- o __
+  ve --
+  ro. %45
+
+  Cru -- ci -- %90
+  fi -- _ _
+  _ xus
+  e -- ti -- am pro no -- bis sub
+  Pon -- ti -- o Pi -- la -- to,
+  pas -- _ %95
+  _ sus,
+  pas -- sus
+  et se -- pul -- tus
+  est, et se --
+  pul -- tus est. %100
+
+  Et %158
+  i -- te -- rum
+  ven -- tu -- rus %160
+  est
+  cum glo -- ri --
+  a iu -- di --
+  ca -- re vi --
+  vos, vi -- vos %165
+  et __ mor -- tu --
+  os,
+  cu -- ius
+  re -- gni non e -- rit
+  fi -- nis, non %170
+  e -- rit, non
+  e -- rit, non
+  e -- rit fi --
+  nis.
+
+  Et in Spi -- ri -- tum San -- ctum, %176
+  Do -- mi -- num et vi -- vi -- fi -- can --
+  tem,
+  qui ex Pa -- tre
+  Fi -- li -- o -- que pro -- ce -- dit, %180
+  qui cum Pa -- tre et Fi -- li -- o
+  si -- mul ad -- o -- ra -- tur et
+  con -- glo -- ri -- fi -- ca -- tur: qui lo --
+  cu -- tus est per Pro -- phe --
+  tas. %185
+
+  Et %206
+  vi -- tam ven --
+  tu -- ri, ven --
+  tu --
+  ri sae -- cu -- %210
+  li, et
+  vi -- tam ven --
+  tu -- ri, ven --
+  tu -- ri __
+  sae -- cu -- %215
+  li. %216 finis
+}

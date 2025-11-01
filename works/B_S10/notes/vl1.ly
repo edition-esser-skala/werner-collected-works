@@ -222,3 +222,145 @@ B-SXGloriaViolinoI = {
     R1.\fermata \bar "|." %163 finis
   }
 }
+
+B-SXCredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \tempoB-SXCredo
+    g''1\fE g2
+    g a e
+    fis1 h,2
+    e e e
+    e1 e2 %5
+    e e a,
+    e'1.
+    r2 e e
+    d2. d4 d2
+    c2. c4 c2 %10
+    r e a
+    fis1 g2~
+    g h2. h4
+    h1.
+    \tempoB-SXEtInUnum R1.*10 %24
+    \tempoB-SXEtExPatre R1.*11 %35
+    \tempoB-SXDeumDeDeo R1.*10 %45
+    \tempoB-SXGenitum g2.\pE g4 g2
+    g g2. fis4
+    g2 g g
+    g e fis
+    h e, a^\critnote %50
+    fis r r
+    r e a
+    dis, fis e
+    e2. a4 fis2
+    e1. %55
+    e1 e2~
+    e h' fis
+    g g1
+    g2. g4 d'2
+    h1 d2 %60
+    g,1.
+    a2 a1
+    h1.
+    \tempoB-SXQuiPropter d,1 d2
+    d1 cis2 %65
+    d1.
+    h1 h4 e
+    dis2. dis4 dis2
+    h c d
+    a h c %70
+    d1.
+    d
+    c
+    h
+    a %75
+    h1 h4 c
+    h1. \noBreak
+    h\fermata \bar "||"
+    \time 2/2 \tempoB-SXEtIncarnatus
+      e2.\pE d4 \noBreak
+    d e c2 %80
+    h e
+    dis r4 g
+    g8. g16 fis4 fis8. fis16 g4
+    fis g8 g, a2
+    h cis %85
+    fis4. e8 d8. e16 fis4
+    fis e d dis~
+    dis e fis g \noBreak
+    fis2 e\fermata \bar "||"
+    \tempoB-SXCrucifixus R1*10 \noBreak %101
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-SXCredoSonata R1.*25 \noBreak %125
+    R1.\fermata \bar "||"
+    \tempoB-SXEtResurrexit R1.*6 %132
+    r2 r g\fE
+    g1 g2
+    g1 g2 %135
+    g g2. g4
+    g1 r2
+    R1.*2
+    r2 r e4\fE d %140
+    c d e fis gis2
+    a a2. gis4 \noBreak
+    a1. \bar "||"
+    \tempoB-SXEtAscendit a \noBreak
+    a1 b2 %145
+    c d g,
+    a2. g4 f2
+    g1.
+    a
+    a %150
+    d4 c8 b a g f e d4 d'
+    h1.
+    c4 b8 a g f e d c4 c'
+    a1.
+    b1 c2 %155
+    b1 a2
+    g g1
+    a \tempoB-SXEtIterum a2\fE
+    g2. g4 g2
+    g g c, %160
+    g'1 g2
+    a4 c, f2. f4
+    g2 g g
+    g f a \noBreak
+    a f f %165
+    \time 2/2 b,4 d d4. d8 \noBreak
+    d1 \bar "||"
+    \time 3/2 \tempoB-SXCuiusRegni r2 f f \noBreak
+    f f4 f f f
+    f2 b r4 g %170
+    g2 g r4 c,
+    f2 f r4 d
+    g g g1
+    g2 c h \noBreak
+    c r r\fermata \bar "||" %175
+    \time 2/2 \tempoB-SXEtInSpiritum \newSpacingSection
+      R1*6 %181
+    e,8.\fE e16 e8 d d g4 c8 \noBreak
+    a4 a8 d h4 e,8 a
+    a4 f8 h,4 a16 c e4
+    e2 \tempoB-SXEtUnam r %185
+    R1*3
+    r2 a\pE
+    a a4 g8. a16 %190
+    f4 f f2
+    f f
+    f f4 e
+    d8 e16 f e8[ d] e2
+    \tempoB-SXEtExpecto R1*4 %198
+    \time 3/2 \tempoB-SXEtVitam R1.*7 %205
+    r2 r g\fE
+    g fis e
+    fis a g
+    g c a
+    g a2. a4 %210
+    g1 c,2
+    f! f e^\critnote
+    g g g
+    c,1 g'2~
+    g g2. g4 %215
+    g1.\fermata \markAmenUtSupra \bar "||" %216 finis
+  }
+}

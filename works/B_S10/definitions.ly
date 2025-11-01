@@ -12,6 +12,11 @@ markKyrieUtSupra = {
   \mark \markup \remark "Kyrie ut supra"
 }
 
+markAmenUtSupra = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Amen ut supra"
+}
+
 tempoB-SXSonata = \tempoMarkup "Sonata"
 tempoB-SXKyrie = \tempoMarkup "Kyrie"
   tempoB-SXChriste = \tempoMarkup "Christe"
@@ -27,6 +32,23 @@ tempoB-SXGloria = \tempoMarkup "Et in terra"
   tempoB-SXAmenA = \tempoMarkup "Amen · Allegro" %240
   tempoB-SXAmenSonata = \tempoMarkup "Sonata"
   tempoB-SXAmenB = \tempoMarkup "Amen"
+tempoB-SXCredo = \tempoMarkup "Patrem"
+  tempoB-SXEtInUnum = \tempoMarkup "Et in unum"
+  tempoB-SXEtExPatre = \tempoMarkup "Et ex Patre"
+  tempoB-SXDeumDeDeo = \tempoMarkup "Deum de Deo"
+  tempoB-SXGenitum = \tempoMarkup "Genitum"
+  tempoB-SXQuiPropter = \tempoMarkup "Qui propter"
+  tempoB-SXEtIncarnatus = \tempoMarkup "Et incarnatus" %80
+  tempoB-SXCrucifixus = \tempoMarkup "Crucifixus" %70
+  tempoB-SXCredoSonata = \tempoMarkup "Sonata" %240
+  tempoB-SXEtResurrexit = \tempoMarkup "Et resurrexit"
+  tempoB-SXEtAscendit = \tempoMarkup "Et ascendit"
+  tempoB-SXEtIterum = \tempoMarkup "Et iterum" %bar 166: 120
+  tempoB-SXCuiusRegni = \tempoMarkup "Cuius regni"
+  tempoB-SXEtInSpiritum = \tempoMarkup "Et in Spiritum" %70
+  tempoB-SXEtUnam = \tempoMarkup "Et unam"
+  tempoB-SXEtExpecto = \tempoMarkup "Et expecto"
+  tempoB-SXEtVitam = \tempoMarkup "Et vitam" %240
 
 \include "notes/cnto1.ly"
 \include "notes/cnto2.ly"

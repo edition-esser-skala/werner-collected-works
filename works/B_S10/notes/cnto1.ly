@@ -174,3 +174,100 @@ B-SXGloriaCornettoI = {
     R1.\fermata \bar "|." %163 finis
   }
 }
+
+B-SXCredoCornettoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \tempoB-SXCredo
+    g''1\fE g2
+    g a e
+    fis1 h,2
+    e e e
+    e1 e2 %5
+    e e a,
+    e'1.
+    r2 e e
+    d1 d2
+    c1 c2 %10
+    r e a
+    fis1 g2~
+    g h2. h4
+    h1.
+    \tempoB-SXEtInUnum R1.*10 %24
+    \tempoB-SXEtExPatre R1.*11 %35
+    \tempoB-SXDeumDeDeo R1.*10 %45
+    \tempoB-SXGenitum R1.*18 %63
+    \tempoB-SXQuiPropter R1.*14 \noBreak %77
+    R1.\fermata \bar "||"
+    \time 2/2 \tempoB-SXEtIncarnatus R1*10 \noBreak %88
+    R1\fermata \bar "||"
+    \tempoB-SXCrucifixus R1*10 \noBreak %99
+    R1\fermata \bar "||" %100
+    \time 3/2 \tempoB-SXCredoSonata
+      g4\fE e c g c d \noBreak
+    e2~ e8 f e d c2
+    R1.*2
+    g'2~ g8 a g f e4 g %105
+    a2~ a8 b a g f2
+    e e2. d4
+    d1.
+    g4 g8 g g4 g g2
+    R1. %110
+    a4 a8 a h4 a h2
+    R1.
+    f4 f8 f g4 f g2
+    R1.
+    g4 g8 g g4 g g4. f8 %115
+    e g f e d2. c4
+    c1.
+    g'4 g8 g g4 g g4. f8
+    e g f e d2. c4
+    c1. %120
+    R
+    c4 g c e c g
+    r2 r r4 g'
+    f e d2. c4
+    c2 e e \noBreak %125
+    e1.\fermata \bar "||"
+    \tempoB-SXEtResurrexit R1.*6 %132
+    r2 r g4\fE f
+    e d e f g2
+    e4 d c e d2 %135
+    c4 d d2. d4
+    c1.
+    R1.*6 \bar "||" %143
+    \tempoB-SXEtAscendit R1.*14 %157
+    r2 r \tempoB-SXEtIterum a'\fE \noBreak
+    g1 g2
+    g g fis %160
+    g1 g2
+    a f!1
+    e r2
+    R1.*2 %165
+    \time 2/2 R1*2 \bar "||"
+    \time 3/2 \tempoB-SXCuiusRegni r2 f f \noBreak
+    f f4 f f f
+    f2 b r4 g %170
+    g2 g r4 c,
+    f2 f r4 d
+    g g g1
+    g2 c h \noBreak
+    c r r\fermata \bar "||" %175
+    \time 2/2 \tempoB-SXEtInSpiritum \newSpacingSection
+      R1*9 %184
+    r2 \tempoB-SXEtUnam r %185
+    R1*9 %194
+    \tempoB-SXEtExpecto R1*4 %109
+    \time 3/2 \tempoB-SXEtVitam R1.*7 %205
+    r2 r d,\fE
+    e d g,
+    d' d r
+    R1.*2 %210
+    r2 r g
+    a f e4 f
+    g2 g g
+    a1 g2
+    e d2. g4 %215
+    e1.\fermata \markAmenUtSupra \bar "||" %216 finis
+  }
+}

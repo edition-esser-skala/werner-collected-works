@@ -90,3 +90,54 @@ B-SXGloriaTimpani = {
     R1.\fermata \bar "|." %163 finis
   }
 }
+
+B-SXCredoTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/2 \tempoB-SXCredo
+    R1.*14 %14
+    \tempoB-SXEtInUnum R1.*10 %24
+    \tempoB-SXEtExPatre R1.*11 %35
+    \tempoB-SXDeumDeDeo R1.*10 %45
+    \tempoB-SXGenitum R1.*18 %63
+    \tempoB-SXQuiPropter R1.*14 \noBreak %77
+    R1.\fermata \bar "||"
+    \time 2/2 \tempoB-SXEtIncarnatus R1*10 \noBreak %88
+    R1\fermata \bar "||"
+    \tempoB-SXCrucifixus R1*10 \noBreak %99
+    R1\fermata \bar "||" %100
+    \time 3/2 \tempoB-SXCredoSonata
+      R1.*2
+    c1.\fE
+    c
+    R1.*5 %109
+    c2 g4 c g2 %110
+    R1.*7 %117
+    c1 g2
+    c g1
+    c1. %120
+    c
+    R
+    c
+    c2 g1
+    c1. \noBreak %125
+    c1.\fermata \bar "||"
+    \tempoB-SXEtResurrexit R1.*17 \bar "||" %143
+    \tempoB-SXEtAscendit R1.*22 %165
+    \time 2/2 R1*2 \bar "||"
+    \time 3/2 \tempoB-SXCuiusRegni R1.*6 %173
+    c1 g2
+    c r r\fermata \bar "||" %175
+    \time 2/2 \tempoB-SXEtInSpiritum \newSpacingSection
+      R1*9 %184
+    r2 \tempoB-SXEtUnam r %185
+    R1*9 %194
+    \tempoB-SXEtExpecto R1*4 %198
+    \time 3/2 \tempoB-SXEtVitam R1.*13 %211
+    r2 r c\fE
+    g1 c2
+    c1 c2~
+    c g1 %215
+    c1.\fermata \markAmenUtSupra \bar "||" %216 finis
+  }
+}

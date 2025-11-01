@@ -10,7 +10,7 @@ sources:
   B1:
     siglum: A-KR
     shelfmark: C 8/662
-    date: 1693
+    date: 1693-09-09
     rism: 600178930
     license: public domain
     principal: true
@@ -48,7 +48,7 @@ toe: |
   – & –    & –      & In \B1 (but not in \B2), whole notes in hemiolas are
                       frequently (but inconsistently) written with filled,
                       stemless note heads (Gloria: bars 46f, 51f, 57f, 74f,
-                      92f, 99f, and 135f). This notation has been tacitly
+                      92f, 99f, and 135f; Credo: 12f, 18f, 25f, 29f, 33f, 43f, 49f, 56f, 106f, 115f, 118f, 135f, 138f, 161f, 204f, 209f, and 214f). This notation has been tacitly
                       emended to the modern convention. \\
     & 62   & vl 1   & 2nd \quarterNote\ in \B1: e″8–\sharp f″16–g″16 \\
     & 64   & T      & 2nd \quarterNote\ in \B1: g8–a16–b16 \\
@@ -77,5 +77,23 @@ toe: |
                       while clno 1/2 and timp parts end after 162 bars.
                       Thus, it is unclear which instruments should play
                       in the final bar if version (2a) is performed. \\
+  4 & 37   & A      & 3rd \halfNote\ in \B1: e′2 \\
+    & 50   & vl 1   & 3rd \halfNote\ in \B1: b″2 \\
+    & 84   & vla 1  & bar in \B1: d′2–\sharp f′2 \\
+    & 95   & B      & 2nd \halfNote\ in \B1: G2 \\
+    & 101–126 & –   & These bars only appear in the trb/vla 1/2 parts,
+                      but neither in the vla 1/2 nor trb 1/2 parts.
+                      Since vl 1/2 pause in the sonata, however, it is likely
+                       that this section should be played by trb 1/2. \\
+    & 138  & vla 1  & 3rd \halfNote\ in \B1: e′2 \\
+    & 141  & –      & In \B1, this bar is missing in both
+                      the trb/vla 1 and vla 1 part. \\
+    & 183  & trb 3  & last \eighthNote\ in \B1: e8 \\
+    & 183  & T      & 4th \eighthNote\ in \B1: a8 \\
+    & 185  & trb/vla 1, trb 1 & 2nd \halfNote\ in \B1: d′2 \\
+    & 206  & T      & 3rd \halfNote\ in \B1: b2 \\
+    & 212  & vl 1   & 3rd \halfNote\ in \B1: f″2 \\
+    & 217ff & –     & In \B1, the \textit{Amen} section is written out
+                      in vlne and org. \\
 parts:
   ottoni: Clarino I, II in C\\Timpani in C–G

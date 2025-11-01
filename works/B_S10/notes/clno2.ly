@@ -109,3 +109,69 @@ B-SXGloriaClarinoII = {
     R1.\fermata \bar "|." %163 finis
   }
 }
+
+B-SXCredoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \tempoB-SXCredo
+    R1.*14 %14
+    \tempoB-SXEtInUnum R1.*10 %24
+    \tempoB-SXEtExPatre R1.*11 %35
+    \tempoB-SXDeumDeDeo R1.*10 %45
+    \tempoB-SXGenitum R1.*18 %63
+    \tempoB-SXQuiPropter R1.*14 \noBreak %77
+    R1.\fermata \bar "||"
+    \time 2/2 \tempoB-SXEtIncarnatus R1*10 \noBreak %88
+    R1\fermata \bar "||"
+    \tempoB-SXCrucifixus R1*10 \noBreak %99
+    R1\fermata \bar "||" %100
+    \time 3/2 \tempoB-SXCredoSonata
+      R1.*2
+    e'4 c g e g4. g8
+    c2. g4 e2
+    R1.*5 %109
+    g4 g8 g g4 g g2 %110
+    R1.
+    e'4 e8 e e4 e e2
+    R1.
+    c4 c8 c c4 c c2
+    R1.*3 %117
+    e4 e8 e e4 e d2
+    c c2. h4
+    c1. %120
+    e,4 c e g e c
+    R1.
+    c'4 g c e c e
+    d c g2. g4
+    e2 c g' \noBreak %125
+    g1.\fermata \bar "||"
+    \tempoB-SXEtResurrexit R1.*17 \bar "||" %143
+    \tempoB-SXEtAscendit R1.*14 %157
+    r2 r \tempoB-SXEtIterum c\fE \noBreak
+    c2. c4 c2
+    c c c %160
+    d1 c2~
+    c d2. d4
+    g,1 r2
+    R1.*2 %165
+    \time 2/2 R1*2 \bar "||"
+    \time 3/2 \tempoB-SXCuiusRegni R1.*6 %173
+    g2 g g
+    e r r\fermata \bar "||" %175
+    \time 2/2 \tempoB-SXEtInSpiritum \newSpacingSection
+      R1*9 %184
+    r2 \tempoB-SXEtUnam r %185
+    R1*9 %194
+    \tempoB-SXEtExpecto R1*4 %198
+    \time 3/2 \tempoB-SXEtVitam R1.*9 %207
+    r2 r d'\fE
+    e2. e4 d2
+    d d2. d4 %210
+    d1 c2~
+    c d g,
+    g d' c
+    c1 c2
+    g g2. g4 %215
+    g1.\fermata \markAmenUtSupra \bar "||" %216 finis
+  }
+}

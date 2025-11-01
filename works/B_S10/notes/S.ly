@@ -349,3 +349,266 @@ B-SXGloriaSopranoLyrics = \lyricmode {
   a -- men, a --
   men. %162 finis
 }
+
+B-SXCredoSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \autoBeamOff \tempoB-SXCredo
+    \mvTr e'1\fE^\tutti e2
+    d d h
+    h1 h2
+    g h c
+    h1 h2 %5
+    c a1
+    gis1.
+    r2 h c
+    c2. c4 h2
+    h2. h4 a2 %10
+    r a a
+    a1 g2~
+    g fis2. fis4
+    gis1.
+    \tempoB-SXEtInUnum R1.*10 %24
+    \tempoB-SXEtExPatre R1.*11 %35
+    \tempoB-SXDeumDeDeo \mvTr h1\pE^\solo c2
+    a h h
+    h1 a2
+    g g2. fis4
+    g2 g fis %40
+    g g a
+    a a h
+    g1 fis2~
+    fis fis1
+    e1. %45
+    \tempoB-SXGenitum R1.*18 %63
+    \tempoB-SXQuiPropter r2 r d'
+    h a g %65
+    a2. a4 d,2
+    h' fis g4( a)
+    h2. h4 h2
+    d! c h
+    c h a %70
+    h h h4( c)
+    d8[ e d e] d[ e d e] a,[ h a h]
+    c[ d c d] c[ d c d] g,[ a g a]
+    h[ c h c] h[ c h c] fis,[ g \hA fis g]
+    a[ h a h] c[ d c d] e[ fis e \hA fis] %75
+    dis2 dis e
+    e1( dis2)
+    e1.\fermata \bar "||"
+    \time 2/2 \tempoB-SXEtIncarnatus R1*10 \noBreak %88
+    R1\fermata \bar "||"
+    \tempoB-SXCrucifixus R1 \noBreak %90
+    \mvTr c2.\pE^\soloE h4
+    h( a) gis?2
+    a8. a16 a8 a a4 a8 a
+    g!8. g16 g8 g g4 g
+    es2.( d4) %95
+    es2 g(
+    f) es
+    d4 c c4. h8
+    c2 d4 c \noBreak
+    c4. h8 c2\fermata \bar "||" %100
+    \time 3/2 \tempoB-SXCredoSonata R1.*25 \noBreak %125
+    R1.\fermata \bar "||"
+    \tempoB-SXEtResurrexit \mvTr g''2\pE^\soloE e d \noBreak
+    c1 c2
+    d2. e4 f2
+    e c g'4( f) %130
+    e( d c h) a( d)
+    g,( a) a1
+    g r2
+    R1.*3 %136
+    r2 r g'4( f)
+    e( d c h) a( h)
+    c2 h1
+    a1 r2 %140
+    R1.*3 \bar "||"
+    \tempoB-SXEtAscendit R1.*14 %157
+    r2 r \tempoB-SXEtIterum \mvTr c\fE^\tutti \noBreak
+    c2. c4 c2
+    c c c %160
+    h!1 c2~
+    c c2. h4
+    c2 c c
+    b d c \noBreak
+    c d d %165
+    \time 2/2 b2 b4. b8 \noBreak
+    a1 \bar "||"
+    \time 3/2 \tempoB-SXCuiusRegni r2 d d \noBreak
+    c c4 c c c
+    d2 d r4 d %170
+    e2 e r4 c
+    d2 d r4 d
+    e e d1
+    c2 r r \noBreak
+    R1.\fermata \bar "||" %175
+    \time 2/2 \tempoB-SXEtInSpiritum \newSpacingSection
+      R1*6 %181
+    \mvTr h8.\fE^\tuttiE h16 c8 d h h4 c8
+    c8. c16 d8 d h h h c
+    c8. c16 d8 h4 c8 h4
+    cis2 \tempoB-SXEtUnam r %185
+    R1*9 %194
+    \tempoB-SXEtExpecto r4 \mvTr a8\pE^\soloE e a16[( h a h] c[ d c d] %195
+    e8) e c a e'4 e
+    e8. d16 c8. h16 c4 a \noBreak
+    dis, e e( \hA dis)
+    \time 3/2 \tempoB-SXEtVitam e1 e'2 \noBreak
+    c h a %200
+    gis e g'?
+    e d c
+    h g c
+    a4( h c d e2)
+    d d2. d4 %205
+    c1 \mvTr d2\fE^\tutti
+    e d cis
+    d d d
+    e1 d2~
+    d d2. d4 %210
+    d1 c2
+    c d e
+    d d c
+    c1 c2~
+    c c2. h4 %215
+    c1.\fermata \markAmenUtSupra \bar "||" %216 finis
+  }
+}
+
+B-SXCredoSopranoLyrics = \lyricmode {
+  Pa -- trem
+  o -- mni -- po --
+  ten -- tem,
+  fa -- cto -- rem
+  coe -- li %5
+  et ter --
+  rae,
+  vi -- si --
+  bi -- li -- um
+  o -- mni -- um %10
+  et in --
+  vi -- si --
+  bi -- li --
+  um.
+
+  De -- um %36
+  de De -- o,
+  lu -- men
+  de lu -- mi --
+  ne, De -- um %40
+  ve -- rum de
+  De -- o, de
+  De -- o __
+  ve --
+  ro. %45
+
+  Qui %64
+  pro -- pter nos %65
+  ho -- mi -- nes,
+  pro -- pter nos
+  ho -- mi -- nes
+  et pro -- pter
+  no -- stram sa -- %70
+  lu -- tem de --
+  scen -- _ _
+  _ _ _
+  _ _ _
+  _ _ _ %75
+  _ dit de
+  coe --
+  lis.
+
+  Cru -- ci -- %91
+  fi -- xus
+  e -- ti -- am pro no -- bis sub
+  Pon -- ti -- o Pi -- la -- to,
+  pas -- %95
+  sus, pas --
+  sus
+  et se -- pul -- tus
+  est, et se --
+  pul -- tus est. %100
+
+  Et re -- sur -- %127
+  re -- xit
+  ter -- ti -- a
+  di -- e se -- %130
+  cun -- dum
+  Scri -- ptu --
+  ras,
+
+  se -- %137
+  cun -- dum
+  Scri -- ptu --
+  ras. %140
+
+  Et %158
+  i -- te -- rum
+  ven -- tu -- rus %160
+  est cum __
+  glo -- ri --
+  a iu -- di --
+  ca -- re vi --
+  vos, vi -- vos %165
+  et mor -- tu --
+  os,
+  cu -- ius
+  re -- gni non e -- rit
+  fi -- nis, non %170
+  e -- rit, non
+  e -- rit, non
+  e -- rit fi --
+  nis.
+
+  si -- mul ad -- o -- ra -- tur et %182
+  con -- glo -- ri -- fi -- ca -- tur: qui lo --
+  cu -- tus est per Pro -- phe --
+  tas. %185
+
+  Et ex -- pe -- %195
+  cto, et ex -- pe -- cto
+  re -- sur -- re -- cti -- o -- nem
+  mor -- tu -- o --
+  rum, et
+  vi -- tam ven -- %200
+  tu -- ri, et
+  vi -- tam ven --
+  tu -- ri, ven --
+  tu --
+  ri sae -- cu -- %205
+  li, et
+  vi -- tam ven --
+  tu -- ri, ven --
+  tu -- ri __
+  sae -- cu -- %210
+  li, et
+  vi -- tam ven --
+  tu -- ri, ven --
+  tu -- ri __
+  sae -- cu -- %215
+  li. %216 finis
+}
+
+
+
+
+
+% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
+% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
+% O -- san -- na in ex -- cel -- sis.
+
+
+% ## Benedictus
+
+% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
+% O -- san -- na in ex -- cel -- sis.
+
+
+% ## Agnus Dei
+
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Do -- na no -- bis pa -- cem.

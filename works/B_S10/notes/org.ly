@@ -532,3 +532,449 @@ B-SXGloriaBassFigures = \figuremode {
   q2 <4>4 <3>2.
   r1. %163 finis
 }
+
+B-SXCredoOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/2 \tempoB-SXCredo
+    \mvTr c1.\fE-\tutti
+    g'2 d e
+    h1.
+    c2 gis a
+    e'1. %5
+    c2 f,1
+    e1.
+    r2 e' a,
+    d1 g,!2
+    c1. %10
+    r2 c a
+    h1 e2~
+    e h1
+    e,1.
+    \tempoB-SXEtInUnum \mvTr e'1.\pE-\soloE %15
+    a2 f1
+    e2 c1
+    d g,2~
+    g a1
+    d1. %20
+    h2 c g
+    a1 e'2
+    f g1
+    c,1.
+    \tempoB-SXEtExPatre c1 f,2 %25
+    e' a, h
+    c1 a2
+    d d fis
+    h, cis d2~
+    d a1 %30
+    d1.
+    r2 g, d'
+    e2. e4 c2
+    h4 c d1
+    g,1. %35
+    \clef "treble_8" \tempoB-SXDeumDeDeo g'1 a2
+    c h h
+    e1 c2
+    h a2. a4
+    g1 a2 %40
+    h h cis
+    d d h
+    c!1 a2~
+    a h1
+    e,1. %45
+    \clef bass \tempoB-SXGenitum g,2. a4 h2
+    c d1
+    g,2 g a
+    h cis d
+    g, a1 %50
+    d2 d h
+    c!1 a2
+    h1 gis2
+    a1 h2
+    c! c gis %55
+    a2. a4 c2~
+    c h1
+    e2 h1
+    c2. c4 d2
+    e e h %60
+    c2. c4 e2
+    c d1
+    g,1.
+    \tempoB-SXQuiPropter g'1 fis2
+    g fis e %65
+    d1.
+    dis1 e4 c
+    h1.
+    g
+    a %70
+    g
+    fis
+    e'
+    d
+    c %75
+    h1 g4 a
+    h1. \noBreak
+    e,\fermata \bar "||"
+    \time 2/2 \tempoB-SXEtIncarnatus
+      \mvTr e'2.\pE-\soloE fis4 \noBreak
+    g,2 a %80
+    h c4. cis8
+    h2 g
+    d'1
+    d
+    g,2 fis %85
+    d'4. cis8 h4 fis'8 e
+    d4 cis h2
+    h1 \noBreak
+    h2 e,\fermata \bar "||"
+    \tempoB-SXCrucifixus \mvTr c''2\pE-\soloE g \noBreak %90
+    c, g
+    a e'
+    cis d
+    h c
+    c f, %95
+    es es'
+    d c
+    g1
+    c2 g~ \noBreak
+    g c\fermata \bar "||" %100
+    \time 3/2 \tempoB-SXCredoSonata
+      c1.\fE \noBreak
+    c
+    c
+    c
+    c %105
+    f,1 b2
+    g a1
+    d1.
+    c2 h!4 c g2
+    c h4 c g2 %110
+    a' gis4 a e2
+    a gis4 a e2
+    f e4 f c2
+    f e4 f c2
+    c1 h2 %115
+    c g1
+    c1.
+    c1 h2
+    c g1
+    c1. %120
+    c
+    c
+    c
+    f,2 g1
+    c1. \noBreak %125
+    c\fermata \bar "||"
+    \tempoB-SXEtResurrexit \mvTr c1\pE-\soloE g'2 \noBreak
+    a f e
+    d1.
+    c1 h2 %130
+    c1 d2
+    e4 c d1
+    g, h2\fE
+    c1 g2
+    c1 g2 %135
+    c g1
+    c h2\pE
+    c1 d2
+    a e'1
+    a, gis2\fE %140
+    a1 e'2
+    c d e \noBreak
+    a,1. \bar "||"
+    \tempoB-SXEtAscendit f'2 f e \noBreak
+    d c b %145
+    a b c
+    f,1.
+    e'
+    f
+    cis %150
+    d
+    g,
+    c!
+    f,
+    b1 a2 %155
+    b2. c4 d2
+    b c1
+    f, \tempoB-SXEtIterum \mvTr f'2\fE-\tutti \noBreak
+    e1.
+    a %160
+    g2. f!4 e2
+    f d1
+    c2 c e
+    g d a' \noBreak
+    f d b %165
+    \time 2/2 g1 \noBreak
+    d \bar "||"
+    \time 3/2 \tempoB-SXCuiusRegni
+      r2 b' d \noBreak
+    f1.
+    d2 b r4 g' %170
+    e2 c r4 a'
+    f2 d r4 g
+    e c g1
+    c2 e g \noBreak
+    c, r r\fermata \bar "||" %175
+    \time 2/2 \tempoB-SXEtInSpiritum \newSpacingSection
+      \mvTr c4\pE-\solo f, g c8 f, \noBreak
+    g4 e' d8 g, a4
+    d8 e fis d h! g d' e
+    fis g c, d g, a h g
+    c f g c, g' g, c4 %180
+    c f,8 d' e4 e,
+    \mvTr e'\fE-\tutti a8 d, g!4. c,8
+    f!4 d8 h e4. c8
+    f4 d8 e4 a,8 e'4
+    a,2 \tempoB-SXEtUnam \mvTr f\pE-\solo %185
+    f1
+    f'2 r8 f e d
+    e4 a, e'2
+    a, f
+    f cis' %190
+    d b
+    b1
+    b2 h4 c
+    g2 c
+    \tempoB-SXEtExpecto a1 %195
+    a
+    a
+    h4 c h2
+    \time 3/2 \tempoB-SXEtVitam e1 gis2
+    a g f %200
+    e1 h2
+    c h a
+    g1 e'2
+    f1 c2
+    f, g1 %205
+    c \mvTr h2\fE-\tutti
+    c d e
+    d1 h2
+    c1 d2
+    g, d'1 %210
+    g, e'2
+    f! d c
+    g1 e'2
+    f1 c2~
+    c g1 %215
+    c1.\fermata \markAmenUtSupra \bar "||" %216 finis
+  }
+}
+
+B-SXCredoBassFigures = \figuremode {
+  r1.
+  r2 <_+>1
+  <[5\+] _+>1.
+  r2 <6>1
+  <_+>1. %5
+  <[5!]>2 <7> <6>
+  <[_+]>1.
+  r2 <_+>1
+  <7 _+>1.
+  <7>1 <6>2 %10
+  r q <[6\\]>
+  <7 [5\+] _+>1.
+  r2 \bo <[5\+] 4> \bc <[\t] _+>
+  <_+>1.
+  q %15
+  r2 <6>1
+  <_+>2 \bo <[5!]>1
+  r \bc <[6] _->2
+  r <4> <_+>
+  <_!>1. %20
+  <6>
+  <_!>1 <6>2
+  \bo <[6]>4 \bc <[5]> <4>2 <3>
+  r1.
+  r %25
+  r2 <6> <6 5>
+  r1.
+  <7 _+>1 <6>2
+  q <5> <[_+]>
+  r <4> <_+> %30
+  q1.
+  r1 <_+>2
+  r1.
+  <6>4 <[6]> <4>2 <_+>
+  r1. %35
+  r1 <_!>2
+  <6> <[5\+] _+>1
+  r <6>2
+  <[6]> <7>2. <6\\>4
+  r1 <6\\>2 %40
+  <[6]>1 <6>2
+  \bo <[_!]>1 \bc <[6]>2
+  r1 <6\\ 5>2
+  r \bo <[5\+] 4> \bc <[\t] _+>
+  <_+>1. %45
+  r1 <6>2
+  r <4> <_+>
+  r1 <7>2
+  <6> q \bo <[_+]>
+  \bc <[6]> <4> <_+> %50
+  <[_+]>1 <6>2
+  r1 <_!>2
+  \bo <[5\+] _+>1 \bc <[6]>2
+  <_+>1 <7 [5\+ _+]>2
+  r1 <6>2 %55
+  r1 <6>2
+  r \bo <[5\+] 4> \bc <[\t] _+>
+  r2 <6 [_!]>1
+  r <_+>2
+  r1 <6>2 %60
+  r1.
+  r2 \bo <[4]> \bc <[_+]>
+  r1.
+  r1 <6>2
+  r q <6\\> %65
+  <_+>1.
+  <6 [_+]>1 r4 <6>
+  \bo <[5\+] _+>1.
+  \bc <[5!]>
+  <7>1 <6\\>2 %70
+  r1.
+  <6>
+  q
+  <6 _+>
+  <6> %75
+  <[5\+] _+>1 <6>4 \bo <[6\\]>
+  <5\+ 4>1 \bc <[\t] _+>2
+  <_+>1.
+  <_!>2. <6>4
+  <5> <6> <5> <6\\> %80
+  <5\+> <6> <5> <6>8 <6\\>
+  \bo <[5\+] _+>2 \bc <[5!]>
+  <6 4>4 <7 _+>2 <6 4>4
+  <5 _+> <6 4> <5 \t> <\t _+>
+  <7\\> <6\\> <[5\+] _+>2 %85
+  <6 [_+]>4. <6\\>8 \bo <[5\+] _!>4 \bc <[5\+] _+>
+  <6 [_+]> <7>8 <6\\> \bo <[5\+] _!>4 \bc <[\t] _+>
+  <7 _+> <6 4> <5\+ _+> <6 4>
+  <5\+ 4> <\t _+> <[_+]>2
+  r <4>4 <3> %90
+  r2 <4>4 <3>
+  \bo <[9]> \bc <[8]> <_+>2
+  <6> <_!>
+  <6 5>1
+  <_->2 <7[-] _->4 <6 \t> %95
+  <[5-]>2 <6>
+  <7>4 <6[!]> <_->2
+  <5 _!>4 <6- 4> <5 \t> <\t _!>
+  r2 <5 _!>4 <6- 4>
+  <5 \t> <\t _!>2. %100
+  r1.
+  r
+  r
+  r
+  r %105
+  r
+  <6 5 [_-]>2 <4> <_+>
+  <[_+]>1.
+  r2 <6>1
+  r2 q1 %110
+  r2 q <[_+]>
+  r <6> <[_+]>
+  r <6>1
+  r2 q1
+  r q2 %115
+  r <4> <3>
+  r1.
+  r1 <6>2
+  r <4> <3>
+  r1. %120
+  r
+  r
+  r
+  r2 <4> <3>
+  r1. %125
+  r
+  r
+  r1 <6>2
+  <7>1 <6>2
+  r1 <6>2 %130
+  r1 <_+>2
+  r4 <[6]> <4>2 <_+>
+  r1 <6>2
+  r1 <[6]>2
+  r1. %135
+  r2 <4> <3>
+  r1 <6>2
+  r1 <_!>2
+  r <4> <_+>
+  <_!>1 <6>2 %140
+  r1 <_+>2
+  <6> <6 5> <_+>
+  q1.
+  r1 <[\t]>2
+  r1. %145
+  <6>1 <3>2
+  r1.
+  <6>
+  r
+  <6> %150
+  r
+  r
+  r
+  r
+  r1 <6>2 %155
+  r1 <5>2
+  <[6]> <4> <3>
+  r1.
+  <6>
+  <7>1 <6\\>2 %160
+  r1 <6>2
+  r <7> <6>
+  r1 <6>2
+  <_->1.
+  r2 <6[-]>1 %165
+  <_->1
+  <_+>
+  r2 <[5!]> <6[-]>
+  r1.
+  <6[-]>1 r4 <_!> %170
+  <6>1.
+  q
+  q2 <4> <3>
+  r <6>1
+  r1. %175
+  r2.. <6>8
+  r4 <6\\>4. <[6 5 _-]>8 <4> <_+>
+  r4 <6> q <[_+]>8 <6[!]>
+  q4 <6 5>8 <_+> r2
+  r8 <6>4. <4>8 <3>4. %180
+  r <6>8 <_+>2
+  q4 <_!>8 <_+> r2
+  r4 <_+>8 <[5\+]> <_+>4. <6>8
+  r4 <[6]>8 <_+>4. <4>8 <_+>
+  q1 %185
+  r
+  r2 r8 <6>4.
+  <_+>2 <4>4 <_+>
+  q2 <[5!]>
+  r <6> %190
+  r1
+  r
+  r
+  <4>4 <3>2.
+  <_!>1 %195
+  r
+  r
+  <[5\+] _+>4 <6> \bo <[5\+] 4> \bc <[\t] _+>
+  <_+>1 <6>2
+  r <6> q %200
+  <_+>1 <6[!]>2
+  r <6> <6\\>
+  r1 <6>2
+  r1.
+  <[6]>2 <4> <3> %205
+  r1 <6>2
+  r2 <[_+]> <6\\>
+  \bo <[_+]>1 \bc <[6]>2
+  r1 <7 _+>2
+  r <4> <_+> %210
+  r1 <6>2
+  r <[6]>1
+  r <6>2
+  r1.
+  r2 \bo <[4]> \bc <[3]> %215
+  r1. %216 finis
+}

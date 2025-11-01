@@ -248,3 +248,159 @@ B-SXGloriaTromboneI = {
     R1.\fermata \bar "|." %163 finis
   }
 }
+
+B-SXCredoTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/2 \tempoB-SXCredo
+    g'1\fE^\vltr g2
+    g fis e
+    dis1 dis2
+    e1 e2
+    e1 e2 %5
+    e e d!
+    e1.
+    r2 e e
+    fis1 d2
+    e1 e2 %10
+    r e fis
+    dis1 e2~
+    e e2. dis4
+    e1.
+    \tempoB-SXEtInUnum h1\pE^\trb e2 %15
+    e a, d
+    h e1
+    d d2~
+    d d cis
+    d d1 %20
+    d2 e g
+    e1.
+    d4 c d2 h
+    c1.
+    \tempoB-SXEtExPatre e1^\vla c2 %25
+    c1 d2
+    e1 e2
+    d1 d2
+    d e d
+    d d cis %30
+    d fis1
+    g fis2
+    e1 e2
+    d4 e d1
+    d1. %35
+    \tempoB-SXDeumDeDeo R1.*10 %45
+    \tempoB-SXGenitum R1.*18 %63
+    \tempoB-SXQuiPropter R1.*14 \noBreak %77
+    R1. \bar "||"
+    \time 2/2 \tempoB-SXEtIncarnatus
+      g2\pE^\vla e4 a \noBreak
+    d, h c2 %80
+    d? e4. cis8
+    dis2 d
+    d1
+    d2.^\critnote \once \tieDashed fis4~
+    fis e \hA fis2~ %85
+    fis8[ d] h e16 cis d8 h cis4
+    fis8[ d] e e16 cis d8. e16 fis4
+    fis e dis e8 h \noBreak
+    h2 h\fermata \bar "||"
+    \tempoB-SXCrucifixus R1*10 \noBreak %99
+    R1\fermata \bar "||" %100
+    \time 3/2 \tempoB-SXCredoSonata
+      g'1\fE^\trb^\critnote g2 \noBreak
+    g1.
+    g1 g2
+    g1.
+    g %105
+    f1 f2
+    g e1
+    fis1.
+    e2 g4 e g2
+    e g4 e g2 %110
+    e gis4 e \hA gis2
+    e gis4 e \hA gis2
+    a g4 a g2
+    a g4 a g2
+    g1 g2~ %115
+    g d1
+    e1.
+    g1 g2~
+    g d1
+    e1. %120
+    g
+    g
+    g
+    a2 g1
+    g2 c,1 \noBreak %125
+    c1.\fermata \bar "||"
+    \tempoB-SXEtResurrexit e1\pE^\vla g2 \noBreak
+    e f g
+    f1 d2
+    e1 d2 %130
+    e1 fis2
+    g g2. fis4
+    g1 g2\fE^\trb
+    g1 g2
+    g1 g2 %135
+    g g1
+    g2 e\pE^\vla d
+    e1 d2^\critnote
+    e e1
+    c e2\fE %140
+    e1^\critnote e2
+    e f e
+    e1. \bar "||"
+    \tempoB-SXEtAscendit R1.*14 %157
+    r2 r \tempoB-SXEtIterum f\fE^\vltr
+    g1 g2
+    g g fis %160
+    g1.
+    f!2 f1
+    e1 g2
+    d f e \noBreak
+    f1 f2 %165
+    \time 2/2 g4 d d2 \noBreak
+    d1 \bar "||"
+    \time 3/2 \tempoB-SXCuiusRegni r2 f f
+    f2. f4 f f
+    f2 f r4 g %170
+    g2 g r4 e
+    f2 f r4 g
+    g g g1
+    e2 e d \noBreak
+    e r r\fermata \bar "||" %175
+    \time 2/2 \tempoB-SXEtInSpiritum \newSpacingSection
+      R1*6 %181
+    e8.\fE^\vltr e16 e8 fis d d4 e8
+    f8. f16 fis8 fis gis gis gis e
+    f8.[ f16] f8 e4 e8 e4
+    e2 \tempoB-SXEtUnam c\pE^\trb^\critnote %185
+    c1
+    f2 f
+    e e
+    cis r
+    R1*5 %194
+    \tempoB-SXEtExpecto e1^\vla %195
+    e
+    e2 e4 a \noBreak
+    fis e \hA fis2
+    \time 3/2 \tempoB-SXEtVitam gis1 e2 \noBreak
+    e1 a4 d, %200
+    e1 d2
+    e g! fis
+    g1 g2
+    f!1 g2
+    a g1 %205
+    e g2\fE^\vltr
+    e fis g
+    fis1 g2
+    g1 fis2
+    g g2. fis4 %210
+    g1 g2
+    f!1 e2
+    g g1
+    f e2~
+    e d2. d4 %215
+    e1.\fermata \markAmenUtSupra \bar "||" %216 finis
+  }
+}
