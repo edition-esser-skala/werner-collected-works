@@ -3,11 +3,11 @@
 I-IV-LaSoprano = {
   \relative c' {
     \clef treble
-    \key d \major \time 4/4 \tempoI-IV-La \autoBeamOff
+    \key d \major \time 4/4 \tempoI-IV-XLIXa \autoBeamOff
       \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
     \mvTr d8~[\trill\pE^\solo d32 cis d e] fis16.[\trill e32 d e fis g] a16.[\trill g32 fis g a64 h cis32] d[ e fis g a g fis e]
     d16[ d,\trill fis\trill a]\trill d32[ cis h a g fis e d] a'8 e r4
-    \time 3/4 \tempoI-IV-Lab
+    \time 3/4 \tempoI-IV-XLIXab
       \sbOn a2~ a32([ gis a h) cis16 d] \sbOff
     e8[ fis] g!2
     fis8[ a32( g fis e)] d4 r %5
@@ -30,7 +30,7 @@ I-IV-LaSoprano = {
     d,4 r r
     R2.*4 \noBreak %26
     R2.\fermata \bar "||"
-    \time 4/4 \tempoI-IV-Lb \newSpacingSection
+    \time 4/4 \tempoI-IV-XLIXb \newSpacingSection
       \revert Score.SpacingSpanner.common-shortest-duration
       \mvDl d'2\fE^\tutti d4 d \noBreak
     d d, r d'
@@ -45,7 +45,7 @@ I-IV-LaSoprano = {
     a[ fis d e] fis2\trill
     e4 r r2 \noBreak
     R1\fermata \bar "||" %45
-    \key d \minor \tempoI-IV-Lc
+    \key d \minor \tempoI-IV-XLIXc
       r8 \mvTr d\pE^\solo f a cis[ e] \sbOn \tuplet 3/2 8 { e16[ f e } d cis] \sbOff \noBreak
     d2 c
     b h
@@ -62,7 +62,7 @@ I-IV-LaSoprano = {
     c8[ h16 a] \hA h4\trill a r
     R1*2 %56
     R1\fermata \bar "||"
-    \key a \major \time 6/8 \newSpacingSection \tempoI-IV-Ld
+    \key a \major \time 6/8 \newSpacingSection \tempoI-IV-XLIXd
       \mvTr a4\fE^\tutti a8 a4 a8 \noBreak
     gis([ a)] h a([ h)] cis
     h4 e8 cis([ d)] e %60
@@ -84,9 +84,9 @@ I-IV-LaSoprano = {
     d[ cis d e fis gis] a4 e8
     \tuplet 3/2 8 { fis16([ e d)] } cis8([ h)] a4 r8 \noBreak
     a16([ d)] cis8([ h)] a4 r8\fermata \bar "||"
-    \time 4/4 \tempoI-IV-Le \newSpacingSection R1*8 \noBreak %86
+    \time 4/4 \tempoI-IV-XLIXe \newSpacingSection R1*8 \noBreak %86
     R1\fermata \bar "||"
-    \key d \major \time 3/2 \tempoI-IV-Lf \newSpacingSection
+    \key d \major \time 3/2 \tempoI-IV-XLIXf \newSpacingSection
       \mvTr d2\fE^\tutti e4 e2 cis4 \noBreak
     fis d r h cis8([ d] e4)
     a,2 r r %90

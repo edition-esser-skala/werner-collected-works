@@ -3,11 +3,11 @@
 I-IV-LaTenore = {
   \relative c' {
     \clef "treble_8"
-    \key d \major \time 4/4 \tempoI-IV-La \autoBeamOff
+    \key d \major \time 4/4 \tempoI-IV-XLIXa \autoBeamOff
     R1*2
-    \time 3/4 \tempoI-IV-Lab R2.*24 \noBreak %26
+    \time 3/4 \tempoI-IV-XLIXab R2.*24 \noBreak %26
     R2.\fermata \bar "||"
-    \time 4/4 \tempoI-IV-Lb \newSpacingSection
+    \time 4/4 \tempoI-IV-XLIXb \newSpacingSection
       \mvDl d2\fE^\tutti d4 d \noBreak
     d d, r d'
     d d, d'8 a fis d %30
@@ -21,10 +21,10 @@ I-IV-LaTenore = {
     a fis4) a8 a2\trill
     a4 r r2 \noBreak
     R1\fermata \bar "||" %40
-    \key d \minor \tempoI-IV-Lc
+    \key d \minor \tempoI-IV-XLIXc
       R1*16 \noBreak %56
     R1\fermata \bar "||"
-    \key a \major \time 6/8 \newSpacingSection \tempoI-IV-Ld
+    \key a \major \time 6/8 \newSpacingSection \tempoI-IV-XLIXd
       \mvTr e'8([\fE^\tutti d)] cis16([ h)] a4 a8 \noBreak
     h4 h8 e([ d)] cis
     e4 e8 e4 e8 %60
@@ -46,7 +46,7 @@ I-IV-LaTenore = {
     r d cis16([ h)] cis8.([ d16)] e8
     d16([ fis)] e4 cis r8 \noBreak
     \tuplet 3/2 8 { a16([ gis fis)] } e4 e r8\fermata \bar "||"
-      \time 4/4 \tempoI-IV-Le \newSpacingSection
+      \time 4/4 \tempoI-IV-XLIXe \newSpacingSection
       \mvTr cis'4\pE^\solo d4. h8 gis' h, \noBreak
     a fis a cis e! d fis e %80
     cis4 cis r2
@@ -56,7 +56,7 @@ I-IV-LaTenore = {
     \sbOnSix \tuplet 3/2 16 { a32[\trill g? a fis\trill e fis d\trill cis d fis\trill e fis] d[\trill cis d a\trill g? a fis\trill e fis d'\trill cis d] a[\trill g? a fis\trill e fis } \sbOff d16 fis] gis4 \sbOff %85
     a4 r r2 \noBreak
     R1\fermata \bar "||"
-    \key d \major \time 3/2 \tempoI-IV-Lf \newSpacingSection
+    \key d \major \time 3/2 \tempoI-IV-XLIXf \newSpacingSection
       R1. \noBreak
     \mvTr d2\fE^\tutti d4 e2 cis4
     fis d2 h e4 %90

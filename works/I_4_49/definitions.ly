@@ -6,13 +6,13 @@ sbOnSix = {
   \set beatStructure = #'(2 2 2 2)
 }
 
-tempoI-IV-La = \tempoMarkup "Largo"
-  tempoI-IV-Lab = \tempoMarkup "Larghetto"
-tempoI-IV-Lb = \tempoMarkup "Allegro assai"
-tempoI-IV-Lc = \tempoMarkup "Largo"
-tempoI-IV-Ld = \tempoMarkup "Vivace"
-tempoI-IV-Le = \tempoMarkup "Largo"
-tempoI-IV-Lf = \tempoMarkup "Vivace"
+tempoI-IV-XLIXa = \tempoMarkup "Largo"
+  tempoI-IV-XLIXab = \tempoMarkup "Larghetto"
+tempoI-IV-XLIXb = \tempoMarkup "Allegro assai"
+tempoI-IV-XLIXc = \tempoMarkup "Largo"
+tempoI-IV-XLIXd = \tempoMarkup "Vivace"
+tempoI-IV-XLIXe = \tempoMarkup "Largo"
+tempoI-IV-XLIXf = \tempoMarkup "Vivace"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

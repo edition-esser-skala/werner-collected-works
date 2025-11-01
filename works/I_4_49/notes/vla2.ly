@@ -3,9 +3,9 @@
 I-IV-LaViolaII = {
   \relative c' {
     \clef alto
-    \key d \major \time 4/4 \tempoI-IV-La
+    \key d \major \time 4/4 \tempoI-IV-XLIXa
     R1*2
-    \time 3/4 \tempoI-IV-Lab
+    \time 3/4 \tempoI-IV-XLIXab
       r8 cis16(\pp e) r8 cis16( e) r8 e16( cis)
     r8 cis16( a) r8 cis16( a) r8 e'16( cis)
     r8 d16( a) r8 fis'16( d) r8 c16( a) %5
@@ -21,7 +21,7 @@ I-IV-LaViolaII = {
     e r r4 r
     R2.*2 \noBreak
     R2.\fermata \bar "||"
-    \time 4/4 \tempoI-IV-Lb \newSpacingSection
+    \time 4/4 \tempoI-IV-XLIXb \newSpacingSection
       d'2\f d4 d \noBreak
     d d, r d'
     d d, d'8-! a-! fis-! d-! %30
@@ -35,7 +35,7 @@ I-IV-LaViolaII = {
     a fis d e d2\trill
     cis4 r r2 \noBreak
     R1\fermata \bar "||" %40
-    \key d \minor \tempoI-IV-Lc R1 \noBreak
+    \key d \minor \tempoI-IV-XLIXc R1 \noBreak
     r16 d\p d( f) f( e) e( d) r a a( c!) c( b) b( a)
     r b b( d) d( c) c( b) r h h( d) d( c) c( h)
     cis4 r r2
@@ -52,10 +52,10 @@ I-IV-LaViolaII = {
     h,( gis') gis( h) h( a) a( gis) gis( fis) fis( e) e( d) c( h) %55
     c2~ c8. d16 h8.\trill a16 \noBreak
     a2 r\fermata \bar "||"
-    \key a \major \time 6/8 \newSpacingSection \tempoI-IV-Ld
+    \key a \major \time 6/8 \newSpacingSection \tempoI-IV-XLIXd
       R2.*20 \noBreak %77
     R2.\fermata \bar "||"
-    \time 4/4 \tempoI-IV-Le \newSpacingSection
+    \time 4/4 \tempoI-IV-XLIXe \newSpacingSection
       \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
       a4\p h gis h \noBreak
     a4. a8 h h' d, e %80
@@ -66,7 +66,7 @@ I-IV-LaViolaII = {
     r2 a4 h %85
     cis8 e e16( d) fis( d) d( cis) a( cis) cis( h) gis( h) \noBreak
     \tuplet 3/2 8 { \sbOn a gis a cis h cis e d e } a e \sbOff cis4 r\fermata \bar "||"
-    \key d \major \time 3/2 \tempoI-IV-Lf \newSpacingSection
+    \key d \major \time 3/2 \tempoI-IV-XLIXf \newSpacingSection
       \revert Score.SpacingSpanner.common-shortest-duration
       r2 g'\f a4 a~
     a fis h g r2

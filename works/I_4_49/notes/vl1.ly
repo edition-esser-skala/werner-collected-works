@@ -3,10 +3,10 @@
 I-IV-LaViolinoI = {
   \relative c' {
     \clef treble
-    \key d \major \time 4/4 \tempoI-IV-La
+    \key d \major \time 4/4 \tempoI-IV-XLIXa
     r4 <d fis a>8\pp fis r4 <d a' fis'>8 d'
     R1
-    \time 3/4 \tempoI-IV-Lab cis16(\pp e) r8 cis16( e) r8 cis16( e) r8
+    \time 3/4 \tempoI-IV-XLIXab cis16(\pp e) r8 cis16( e) r8 cis16( e) r8
     e16( g) r8 e16( g) r8 e16( g) r8
     fis16( a) r8 d,16( fis) r8 a,16( c) r8 %5
     h16( d) r8 e16( g) r8 h,16( d) r8
@@ -29,7 +29,7 @@ I-IV-LaViolinoI = {
     f r a r e r %25
     r d' b8.\trill \once \slurDashed a32( g) f8 e \noBreak
     d4 r r\fermata \bar "||"
-    \time 4/4 \tempoI-IV-Lb \newSpacingSection R1 \noBreak
+    \time 4/4 \tempoI-IV-XLIXb \newSpacingSection R1 \noBreak
     r16 a''\f fis a d, fis a, d fis,8 d r4
     r16 d fis a d fis, a d fis a, d fis a8 fis %30
     e16 a8 a a a16 gis gis8 gis16 g g8 g16
@@ -42,12 +42,12 @@ I-IV-LaViolinoI = {
     a, d fis, a d, fis e a fis d a' fis d' fis a fis
     e32 a, h cis d e fis gis a16 e cis e cis a e cis' a e cis e \noBreak
     cis4 r r2\fermata \bar "||" %40
-    \key d \minor \tempoI-IV-Lc R1*3
+    \key d \minor \tempoI-IV-XLIXc R1*3
     a32(\ff gis a h cis d e64 fis gis32) \once \slurDashed a( \hA gis a h cis d e64 fis gis32) a a cis cis e e \hA cis cis a a e e cis cis e e
     a,4 r r2 %45
     R1*11 \noBreak %56
     R1\fermata \bar "||"
-    \key a \major \time 6/8 \newSpacingSection \tempoI-IV-Ld
+    \key a \major \time 6/8 \newSpacingSection \tempoI-IV-XLIXd
       cis16\f e d fis e8 fis16 a gis h a8 \noBreak
     h r gis a16 cis h d cis8
     r4 r8 cis,16 e d fis e8~ %60
@@ -69,9 +69,9 @@ I-IV-LaViolinoI = {
     d cis d e fis gis a8.\trill gis32( fis) e8
     \tuplet 3/2 8 { fis16 e d } cis8 h\trill \appoggiatura a a'8.\trill gis32( fis) e8 \noBreak
     \tuplet 3/2 8 { fis16 e d } cis8 h\trill a4 r8\fermata \bar "||"
-    \time 4/4 \tempoI-IV-Le \newSpacingSection R1*8 \noBreak %86
+    \time 4/4 \tempoI-IV-XLIXe \newSpacingSection R1*8 \noBreak %86
     R1\fermata \bar "||"
-    \key d \major \time 3/2 \tempoI-IV-Lf \newSpacingSection
+    \key d \major \time 3/2 \tempoI-IV-XLIXf \newSpacingSection
       d2\fE e4 e2 cis4 \noBreak
     fis d r h cis8 d e4
     a,2 r r %90

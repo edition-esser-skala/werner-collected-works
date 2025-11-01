@@ -3,10 +3,10 @@
 I-IV-LaOrgano = {
   \relative c {
     \clef bass
-    \key d \major \time 4/4 \tempoI-IV-La
+    \key d \major \time 4/4 \tempoI-IV-XLIXa
     \mvTr d8\fE-\solo d, r4 d'8 d, r4
     d''16-\markup \remark "organo solo allo unisono" d,\trill fis\trill a\trill d32 cis h a g fis e d a'8\trill e\trill cis\trill e\trill
-    \time 3/4 \tempoI-IV-Lab \mvTr a,\p-\tasto r a r a r
+    \time 3/4 \tempoI-IV-XLIXab \mvTr a,\p-\tasto r a r a r
     cis r a r cis r
     d r fis r d r %5
     g r e r gis r
@@ -31,7 +31,7 @@ I-IV-LaOrgano = {
     d r f r cis! r %25
     d r g r a r \noBreak
     d,4 r r\fermata \bar "||"
-    \time 4/4 \tempoI-IV-Lb \newSpacingSection
+    \time 4/4 \tempoI-IV-XLIXb \newSpacingSection
       \mvTr d8.[\f-\tuttiE d16 fis8 a] d a fis d \noBreak
     fis d fis a d a fis a
     fis d fis a d a fis d %30
@@ -45,7 +45,7 @@ I-IV-LaOrgano = {
     a fis d cis d a fis d
     a' a a a a r a r \noBreak
     a4 r r2\fermata \bar "||" %40
-    \key d \minor \tempoI-IV-Lc
+    \key d \minor \tempoI-IV-XLIXc
       \mvTr d4\pE-\solo r e cis \noBreak
     d r d r
     d r d r
@@ -63,7 +63,7 @@ I-IV-LaOrgano = {
     e1-\tasto %55
     r8 f!-\markup \remark "con pedale" e dis e4 e, \noBreak
     a2 r\fermata \bar "||"
-    \key a \major \time 6/8 \tempoI-IV-Ld \newSpacingSection
+    \key a \major \time 6/8 \tempoI-IV-XLIXd \newSpacingSection
       \mvTr a8\f-\tutti h cis d e fis \noBreak
     e e' d cis h a
     gis fis e a h cis %60
@@ -85,7 +85,7 @@ I-IV-LaOrgano = {
     h4 a16 gis fis8 e16 d cis8
     d e4 fis8 e16 d cis8 \noBreak
     d e4 a, r8\fermata \bar "||"
-    \time 4/4 \tempoI-IV-Le \newSpacingSection
+    \time 4/4 \tempoI-IV-XLIXe \newSpacingSection
       \mvTr fis'2\p-\solo eis \noBreak
     fis gis %80
     a8 a,\f cis e! a16-! e-! cis'-! a-! e'-! cis-! a-! e-!
@@ -95,7 +95,7 @@ I-IV-LaOrgano = {
     d8 r d r d4 h %85
     a1~-\tasto \noBreak
     a8 a a a a4 r\fermata \bar "||"
-    \clef treble \key d \major \time 3/2 \tempoI-IV-Lf \newSpacingSection
+    \clef treble \key d \major \time 3/2 \tempoI-IV-XLIXf \newSpacingSection
       << { d''2 e4 e2 cis4 } \\ { \mvTr r2\f-\tuttiE g a4 a } >> \noBreak
     \clef "treble_8" d,2 \clef bass g, a4 a~
     a fis h g r e %90

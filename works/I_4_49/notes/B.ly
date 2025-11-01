@@ -3,11 +3,11 @@
 I-IV-LaBasso = {
   \relative c {
     \clef bass
-    \key d \major \time 4/4 \tempoI-IV-La \autoBeamOff
+    \key d \major \time 4/4 \tempoI-IV-XLIXa \autoBeamOff
     R1*2
-    \time 3/4 \tempoI-IV-Lab R2.*24 \noBreak %26
+    \time 3/4 \tempoI-IV-XLIXab R2.*24 \noBreak %26
     R2.\fermata \bar "||"
-    \time 4/4 \tempoI-IV-Lb \newSpacingSection
+    \time 4/4 \tempoI-IV-XLIXb \newSpacingSection
       \mvDl d'2\fE^\tutti d4 d \noBreak
     d d, r d'
     d d, d'8 a fis d %30
@@ -21,9 +21,9 @@ I-IV-LaBasso = {
     a[ fis)] d([ cis)] d2
     a4 r r2 \noBreak
     R1\fermata \bar "||" %40
-    \key d \minor \tempoI-IV-Lc R1*16 \noBreak %56
+    \key d \minor \tempoI-IV-XLIXc R1*16 \noBreak %56
     R1\fermata \bar "||"
-    \key a \major \time 6/8 \newSpacingSection \tempoI-IV-Ld
+    \key a \major \time 6/8 \newSpacingSection \tempoI-IV-XLIXd
       \mvTr a8([\fE^\tutti h)] cis d([ e)] fis \noBreak
     e([ e')] d cis([ h)] a
     gis([ fis)] e a([ h)] cis %60
@@ -45,10 +45,10 @@ I-IV-LaBasso = {
     h4 a16([ gis)] fis8([ e16 d cis8)]
     d8 e4 fis8([ e16 d cis8)] \noBreak
     d e4 a, r8\fermata \bar "||"
-    \time 4/4 \tempoI-IV-Le \newSpacingSection
+    \time 4/4 \tempoI-IV-XLIXe \newSpacingSection
       R1*8 \noBreak %86
     R1\fermata \bar "||"
-    \key d \major \time 3/2 \tempoI-IV-Lf \newSpacingSection
+    \key d \major \time 3/2 \tempoI-IV-XLIXf \newSpacingSection
       R1. \noBreak
     r2 \mvTr g'\fE^\tutti a4 a~
     a fis h g r e %90

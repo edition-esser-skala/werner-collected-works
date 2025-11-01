@@ -3,9 +3,9 @@
 I-IV-LaViolaI = {
   \relative c' {
     \clef alto
-    \key d \major \time 4/4 \tempoI-IV-La
+    \key d \major \time 4/4 \tempoI-IV-XLIXa
     R1*2
-    \time 3/4 \tempoI-IV-Lab r8 e16(\pp g) r8 e16( g) r8 g16( e)
+    \time 3/4 \tempoI-IV-XLIXab r8 e16(\pp g) r8 e16( g) r8 g16( e)
     r8 e16( cis) r8 e16( cis) r8 g'16( e)
     r8 fis16( d) r8 a'16( fis) r8 fis16( d) %5
     r8 d16( h) r8 h'16( g) r8 e16( h)
@@ -20,7 +20,7 @@ I-IV-LaViolaI = {
     e, r r4 r
     R2.*2 \noBreak %26
     R2.\fermata \bar "||"
-    \time 4/4 \tempoI-IV-Lb \newSpacingSection
+    \time 4/4 \tempoI-IV-XLIXb \newSpacingSection
       d'2\f d4 d \noBreak
     d d, r d'
     d d, d'8-! a-! fis-! d-! %30
@@ -34,7 +34,7 @@ I-IV-LaViolaI = {
     a fis d e d2\trill
     cis4 r r2 \noBreak
     R1\fermata \bar "||" %40
-    \key d \minor \tempoI-IV-Lc R1 \noBreak
+    \key d \minor \tempoI-IV-XLIXc R1 \noBreak
     r16 f\p f( a) a( g) g( f) r fis fis( a) a( g) g( fis)
     r g g( b) b( a) a( g) r d d( f) f( e) e( d)
     e4 r r2
@@ -51,10 +51,10 @@ I-IV-LaViolaI = {
     gis( e') e( d) e,( c') c( h) h( a) a( gis) gis( \hA h) a( \hA gis) %55
     a2~ a8. h16 gis4\trill \noBreak
     a2 r\fermata \bar "||"
-    \key a \major \time 6/8 \newSpacingSection \tempoI-IV-Ld
+    \key a \major \time 6/8 \newSpacingSection \tempoI-IV-XLIXd
       R2.*20 \noBreak %77
     R2.\fermata \bar "||"
-    \time 4/4 \tempoI-IV-Le \newSpacingSection
+    \time 4/4 \tempoI-IV-XLIXe \newSpacingSection
       \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
       r2 h,4\p gis'~ \noBreak
     gis8 a fis4 r8 d h'4~ %80
@@ -65,7 +65,7 @@ I-IV-LaViolaI = {
     r2 fis4 d8 \tuplet 3/2 8 { h'16 a h } %85
     e,8 g~ g16 fis a8 e cis'16( e,) e( d) h' d, \noBreak
     \tuplet 3/2 8 { \sbOn cis h cis a gis a cis h cis e d e \sbOff } a4 r\fermata \bar "||"
-    \key d \major \time 3/2 \tempoI-IV-Lf \newSpacingSection
+    \key d \major \time 3/2 \tempoI-IV-XLIXf \newSpacingSection
       \revert Score.SpacingSpanner.common-shortest-duration
       r2 g\f a4 a~
     a fis h g r2

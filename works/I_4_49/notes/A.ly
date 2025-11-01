@@ -3,11 +3,11 @@
 I-IV-LaAlto = {
   \relative c' {
     \clef treble
-    \key d \major \time 4/4 \tempoI-IV-La \autoBeamOff
+    \key d \major \time 4/4 \tempoI-IV-XLIXa \autoBeamOff
     R1*2
-    \time 3/4 \tempoI-IV-Lab R2.*24 \noBreak %26
+    \time 3/4 \tempoI-IV-XLIXab R2.*24 \noBreak %26
     R2.\fermata \bar "||"
-    \time 4/4 \tempoI-IV-Lb \newSpacingSection
+    \time 4/4 \tempoI-IV-XLIXb \newSpacingSection
       \mvDl d'2\fE^\tutti d4 d \noBreak
     d d, r d'
     d d, d'8 a fis d %30
@@ -21,7 +21,7 @@ I-IV-LaAlto = {
     a[ fis)] d([ e)] d2\trill
     cis4 r r2 \noBreak
     R1\fermata \bar "||" %40
-    \key d \minor \tempoI-IV-Lc
+    \key d \minor \tempoI-IV-XLIXc
       r2 r8 \mvDl g'\pE^\solo \tuplet 3/2 8 { g16([ a g)] } f([ e)] \noBreak
     f2( fis)
     g( gis)
@@ -38,7 +38,7 @@ I-IV-LaAlto = {
     a[ gis16 fis?] \hA gis4 a r
     R1*2 \noBreak %56
     R1\fermata \bar "||"
-    \key a \major \time 6/8 \newSpacingSection \tempoI-IV-Ld
+    \key a \major \time 6/8 \newSpacingSection \tempoI-IV-XLIXd
       \mvTr cis,8([\fE^\tutti d)] e fis([ e)] d \noBreak
     e4 e8 e([ fis16 gis)] a8
     h([ a)] gis a4 a8 %60
@@ -60,9 +60,9 @@ I-IV-LaAlto = {
     fis16[( e fis gis a h] a4) a8
     a16([ h a8 gis)] a4 r8 \noBreak
     fis16([ h)] a8([ gis)] a4 r8\fermata \bar "||"
-    \time 4/4 \tempoI-IV-Le \newSpacingSection R1*8 \noBreak %86
+    \time 4/4 \tempoI-IV-XLIXe \newSpacingSection R1*8 \noBreak %86
     R1\fermata \bar "||"
-    \key d \major \time 3/2 \tempoI-IV-Lf \newSpacingSection
+    \key d \major \time 3/2 \tempoI-IV-XLIXf \newSpacingSection
       r2 \mvTr g\fE^\tutti a4 a~ \noBreak
     a fis h g r2
     r d e4 e~ %90

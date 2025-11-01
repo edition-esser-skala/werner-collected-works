@@ -3,10 +3,10 @@
 I-IV-LaViolinoII = {
   \relative c' {
     \clef treble
-    \key d \major \time 4/4 \tempoI-IV-La
+    \key d \major \time 4/4 \tempoI-IV-XLIXa
     r4 <d fis a>8\pp fis r4 <d a' fis'>8 d'
     R1
-    \time 3/4 \tempoI-IV-Lab a16(\pp cis) r8 a16( cis) r8 a16( cis) r8
+    \time 3/4 \tempoI-IV-XLIXab a16(\pp cis) r8 a16( cis) r8 a16( cis) r8
     cis16( e) r8 cis16( e) r8 cis16( e) r8
     d16( fis) r8 a,16( d) r8 fis,16( a) r8 %5
     g16( h) r8 g16( h) r8 gis16( h) r8
@@ -28,7 +28,7 @@ I-IV-LaViolinoII = {
     f r a r e r %25
     r d' b8.\trill a32( g) f8 e \noBreak
     d4 r r\fermata \bar "||"
-    \time 4/4 \tempoI-IV-Lb \newSpacingSection R1 \noBreak
+    \time 4/4 \tempoI-IV-XLIXb \newSpacingSection R1 \noBreak
     r16 fis'\f d fis a, d fis, a fis8 d r4
     r16 a d fis a d, fis a d fis, a d fis8 d %30
     cis4 r16 cis h cis d8. d16 e4~
@@ -41,12 +41,12 @@ I-IV-LaViolinoII = {
     a, d fis, a d, fis e a fis d a' fis d' a fis d'
     cis32 a h cis d e fis gis a16 e cis e cis a e a e cis a cis \noBreak
     a4 r r2\fermata \bar "||" %40
-    \key d \minor \tempoI-IV-Lc R1*3
+    \key d \minor \tempoI-IV-XLIXc R1*3
     a32(\ff gis a h cis d e64 fis gis32) a( \hA gis a h cis d e64 fis gis32) a a cis cis e e \hA cis cis a a e e cis cis e e
     a,4 r r2 %45
     R1*11 \noBreak %56
     R1\fermata \bar "||"
-    \key a \major \time 6/8 \newSpacingSection \tempoI-IV-Ld
+    \key a \major \time 6/8 \newSpacingSection \tempoI-IV-XLIXd
       R2. \noBreak
     gis16\f h a cis h8 cis16 e d fis e8
     e,16 gis fis a gis8 a r r %60
@@ -68,9 +68,9 @@ I-IV-LaViolinoII = {
     d cis d e fis gis a8.\trill \once \slurDashed gis32( fis) e8
     \tuplet 3/2 8 { d16 cis h } a8 gis\trill a4 a16 e'
     \tuplet 3/2 8 { d16 cis h } a8 gis\trill a4 r8\fermata \bar "||"
-    \time 4/4 \tempoI-IV-Le \newSpacingSection R1*8 \noBreak %86
+    \time 4/4 \tempoI-IV-XLIXe \newSpacingSection R1*8 \noBreak %86
     R1\fermata \bar "||"
-    \key d \major \time 3/2 \tempoI-IV-Lf \newSpacingSection
+    \key d \major \time 3/2 \tempoI-IV-XLIXf \newSpacingSection
       d2\fE e4 e2 cis4 \noBreak
     fis d r h cis8 d e4
     a,2 r r %90
