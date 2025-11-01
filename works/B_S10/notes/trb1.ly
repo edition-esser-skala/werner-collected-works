@@ -23,6 +23,7 @@ B-SXKyrieTromboneI = {
   \relative c' {
     \clef alto
     \key c \major \time 3/4 \tempoB-SXKyrie
+      \once \override Staff.TimeSignature.style = #'single-digit
     g'2\fE^\trb e4
     g2.
     f2 e8 f

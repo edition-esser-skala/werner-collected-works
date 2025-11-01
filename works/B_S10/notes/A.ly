@@ -4,6 +4,7 @@ B-SXKyrieAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoB-SXKyrie
+      \once \override Staff.TimeSignature.style = #'single-digit
     \mvDl g'2\fE^\tutti e4
     g2.
     f2 e8[ f]

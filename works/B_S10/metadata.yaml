@@ -104,4 +104,7 @@ toe: |
     & 16   & trb+vla 1, vla 1 & 2nd \halfNote\ in \B1: f′4–a′4 \\
     & 45   & trb+vla 1, trb 1 & bar in \B1: d′4–e′2–d′4–f′2 \\
 parts:
-  ottoni: Clarino I, II in C\\Timpani in C–G
+  ottoni_a: Cornetto I, II\\Clarino I, II in C\\Timpani in C–G
+  ottoni_b: Clarino I, II in C\\Timpani in C–G
+  trb_vla1: Trombone I\\Viola I
+  trb_vla2: Trombone II\\Viola II

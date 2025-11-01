@@ -4,6 +4,7 @@ B-SXKyrieTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 3/4 \autoBeamOff \tempoB-SXKyrie
+      \once \override Staff.TimeSignature.style = #'single-digit
     \mvDl c4\fE^\tutti h a
     g2.
     a4 d c

@@ -16,6 +16,7 @@ B-SXKyrieClarinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoB-SXKyrie
+      \once \override Staff.TimeSignature.style = #'single-digit
     R2.*8 \bar "||" %8
     R2.*8 \bar "||" %16
     R2.*8 \bar "||" %24

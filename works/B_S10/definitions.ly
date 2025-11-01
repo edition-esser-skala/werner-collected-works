@@ -61,7 +61,7 @@ tempoB-SXBenedictus = \tempoMarkup "Benedictus"
 tempoB-SXSonataSecunda = \tempoMarkup "Sonata"
 tempoB-SXAgnus = \tempoMarkup "Agnus Dei"
   tempoB-SXAgnusB = \tempoMarkup "Agnus Dei"
-  tempoB-SXDona = \tempoMarkup "Dona nobis pacem"
+  tempoB-SXDona = \tempoMarkup "Dona"
   tempoB-SXDonaSonata = \tempoMarkup "Sonata"
   tempoB-SXDonaB = \tempoMarkup "Dona"
 

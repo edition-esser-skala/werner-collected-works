@@ -38,6 +38,7 @@ B-SXKyrieOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoB-SXKyrie
+      \once \override Staff.TimeSignature.style = #'single-digit
     \mvTr c'4\fE-\tutti g a
     e2.
     f4 h, c

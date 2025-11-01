@@ -21,6 +21,7 @@ B-SXKyrieTromboneIII = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoB-SXKyrie
+      \once \override Staff.TimeSignature.style = #'single-digit
     c'4\fE g a
     e2.
     f4 h, c

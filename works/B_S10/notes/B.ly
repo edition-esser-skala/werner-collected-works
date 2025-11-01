@@ -4,6 +4,7 @@ B-SXKyrieBasso = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \autoBeamOff \tempoB-SXKyrie
+      \once \override Staff.TimeSignature.style = #'single-digit
     \mvDl c'4\fE^\tutti g a
     e2.
     f4 h, c

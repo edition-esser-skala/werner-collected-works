@@ -4,6 +4,7 @@ B-SXKyrieSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoB-SXKyrie
+      \once \override Staff.TimeSignature.style = #'single-digit
     \mvDl e'4\fE^\tutti d c
     c2.~
     c4 d e

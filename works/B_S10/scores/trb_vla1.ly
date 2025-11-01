@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name (markup #:center-column ("trb 1" "vla 1")))
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,7 +12,7 @@
     \paper { system-count = #2 }
     \score {
       <<
-        \new Staff { \B-SXSonataOrgano }
+        \new Staff { \B-SXSonataTromboneI }
       >>
     }
   }
@@ -21,7 +21,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \B-SXKyrieOrgano }
+        \new Staff { \B-SXKyrieTromboneI }
       >>
     }
   }
@@ -30,7 +30,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \B-SXGloriaOrgano }
+        \new Staff { \B-SXGloriaTromboneI }
       >>
     }
   }
@@ -39,28 +39,21 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \B-SXCredoOrgano }
+        \new Staff { \B-SXCredoTromboneI }
       >>
     }
   }
   \bookpart {
     \section "5" "Sanctus"
     \addTocEntry
+    \paper { system-count = #7 }
     \score {
       <<
-        \new Staff { \B-SXSanctusOrgano }
+        \new Staff { \B-SXSanctusTromboneI }
       >>
     }
-  }
-  \bookpart {
-    \section "6" "Benedictus"
-    \addTocEntry
-    \paper { system-count = #2 }
-    \score {
-      <<
-        \new Staff { \B-SXBenedictusOrgano }
-      >>
-    }
+    \tacet "section" "Benedictus"
+\markup { \vspace #3 \fontsize #3 \fill-line { "" "Osanna ut supra" "" } }
   }
   \bookpart {
     \section "7" "Sonata"
@@ -68,7 +61,7 @@
     \paper { system-count = #3 }
     \score {
       <<
-        \new Staff { \B-SXSonataSecundaOrgano }
+        \new Staff { \B-SXSonataSecundaTromboneI }
       >>
     }
   }
@@ -77,7 +70,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \B-SXAgnusOrgano }
+        \new Staff { \B-SXAgnusTromboneI }
       >>
     }
   }
