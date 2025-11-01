@@ -3,7 +3,7 @@
 I-IV-XLIOrgano = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \tempoI-IV-XLIa
+    \key g \minor \time 4/4 \tempoI-IV-XLa
     \mvTr g'4\pE-\solo r8 g g4 r8 g
     g4. d8 b g g'\fE d
     es c f! f, b4 a8\pE d
@@ -23,7 +23,7 @@ I-IV-XLIOrgano = {
     g4 r8 g g4 r8 h,
     c4 r8 c d b16 c d8 d, \noBreak
     g4 r r2\fermata \bar "||"
-    \time 3/2 \tempoI-IV-XLIb \newSpacingSection
+    \time 3/2 \tempoI-IV-XLb \newSpacingSection
       d'2 f a \noBreak %20
     d d, r4 a'
     d2 d, r4 a'
@@ -35,14 +35,14 @@ I-IV-XLIOrgano = {
     e1 c2
     d1. \noBreak
     c1 r2 %30
-    \time 4/4 \tempoI-IV-XLIc \newSpacingSection
+    \time 4/4 \tempoI-IV-XLc \newSpacingSection
       a4 r r8 g' g g \noBreak
     r fis fis fis r g g g
     r f f f r es es es
     r h h h r c c c
     r fis fis fis r g g g \noBreak %35
     g2 r\fermata \bar "||"
-    \time 3/2 \tempoI-IV-XLId \newSpacingSection
+    \time 3/2 \tempoI-IV-XLd \newSpacingSection
       g,1\fE g'2~ \noBreak
     g f1~
     f2 es2. d4
@@ -88,7 +88,7 @@ I-IV-XLIOrgano = {
     d
     cis2 d1 \noBreak
     g,1.\fermata \bar "||" %75
-    \time 4/4 \tempoI-IV-XLIe \newSpacingSection
+    \time 4/4 \tempoI-IV-XLe \newSpacingSection
       b8 b' a f b4 r \noBreak
     b, b' a8 c16 b a8 f
     g4 e f r
@@ -114,12 +114,12 @@ I-IV-XLIOrgano = {
     r8 b' d, es f4 f,
     b r r8 g'\fE es f \noBreak
     b,4 r r2\fermata \bar "||" %100
-    \tempoI-IV-XLIf d2\pE e4 cis \noBreak
+    \tempoI-IV-XLf d2\pE e4 cis \noBreak
     d2 e
     f es
     d es!4 b8 c \noBreak
     d4 d, g2\fermata \bar "||" %105
-    \time 3/4 \tempoI-IV-XLIg \newSpacingSection
+    \time 3/4 \tempoI-IV-XLg \newSpacingSection
       g'8 a b4 g \noBreak
     fis d \hA fis
     g4. f8 es d

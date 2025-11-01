@@ -3,7 +3,7 @@
 I-IV-XLIViolinoII = {
   \relative c' {
     \clef treble
-    \key g \minor \time 4/4 \tempoI-IV-XLIa
+    \key g \minor \time 4/4 \tempoI-IV-XLa
     r4 r8 b'16(\p c) c8( b) r b16( c)
     c8( b) r4 r r8 f!\f
     c'4~ c16 c d es d8 b r a\p
@@ -20,7 +20,7 @@ I-IV-XLIViolinoII = {
     c8( h) r16 g h c c8( \hA h) r4
     R1 \noBreak
     R1\fermata \bar "||"
-    \time 3/2 \tempoI-IV-XLIb \newSpacingSection R1. \noBreak %20
+    \time 3/2 \tempoI-IV-XLb \newSpacingSection R1. \noBreak %20
     r4 a\f d8 e f g f \hA e d cis
     d a\p f e d \hA e f g f \hA e d cis
     d4 r r2 r
@@ -30,14 +30,14 @@ I-IV-XLIViolinoII = {
     f4 r r2 r
     R1.*2 \noBreak
     r8 c''\f g c e, g c, \hA e g, c e, g %30
-    \time 4/4 \tempoI-IV-XLIc \newSpacingSection
+    \time 4/4 \tempoI-IV-XLc \newSpacingSection
       cis,4 r r8 cis\p cis cis \noBreak
     r c c c r b b b
     r h h h r g g g
     r g g g r g g g
     r es' es es r d d d \noBreak %35
     d2 r\fermata \bar "||"
-    \time 3/2 \tempoI-IV-XLId \newSpacingSection
+    \time 3/2 \tempoI-IV-XLd \newSpacingSection
       r2 g\f g \noBreak
     as1 as2
     g1 g2~
@@ -77,7 +77,7 @@ I-IV-XLIViolinoII = {
     a fis \once \tieDashed g~
     g1 fis2 \noBreak
     g1.\fermata \bar "||" %75
-    \time 4/4 \tempoI-IV-XLIe \newSpacingSection
+    \time 4/4 \tempoI-IV-XLe \newSpacingSection
       r2 r8 b\f b16 c b c \noBreak
     d8 b r4 r2
     R1
@@ -102,9 +102,9 @@ I-IV-XLIViolinoII = {
     R1
     r8 b'\f b16 c b c d8 b c a \noBreak
     b4 r r2\fermata \bar "||" %100
-    \tempoI-IV-XLIf R1*4 \noBreak
+    \tempoI-IV-XLf R1*4 \noBreak
     R1\fermata \bar "||" %105
-    \time 3/4 \tempoI-IV-XLIg \newSpacingSection
+    \time 3/4 \tempoI-IV-XLg \newSpacingSection
       R2.*6 %111
     r4 b2\f
     c4 c8( d) es( d)

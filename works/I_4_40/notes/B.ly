@@ -3,7 +3,7 @@
 I-IV-XLIBasso = {
   \relative c {
     \clef bass
-    \key g \minor \time 4/4 \tempoI-IV-XLIa \autoBeamOff
+    \key g \minor \time 4/4 \tempoI-IV-XLa \autoBeamOff
     \mvTr g'8[\pE^\solo b16 a] g4. b16[ a] g4~
     g8[ b16 a] g8 d b g r4
     r2 r8 b f'4~
@@ -23,7 +23,7 @@ I-IV-XLIBasso = {
     g2~ g8.[ as16] g[ f g d]
     es[ c es'16. d32] c16[ b! a g] fis[ d' b g] d4 \noBreak
     g, r r2\fermata \bar "||"
-    \time 3/2 \tempoI-IV-XLIb \newSpacingSection
+    \time 3/2 \tempoI-IV-XLb \newSpacingSection
       d'2 f! a \noBreak %20
     d d, r4 a'
     d2 d, r4 a'
@@ -35,14 +35,14 @@ I-IV-XLIBasso = {
     c[ g a h] c[ e, f g] c,[ \hA e f g]
     f[ g a g] f[ e d \hA e] f[ g a h] \noBreak
     c2 c, r %30
-    \time 4/4 \tempoI-IV-XLIc \newSpacingSection
+    \time 4/4 \tempoI-IV-XLc \newSpacingSection
       a'8 a16 a a8 a16 a b!2 \noBreak
     a g8 g16 g g8 g16 g
     as2 g
     f4 f8 f es!2(
     fis) g \noBreak %35
     R1\fermata \bar "||"
-    \time 3/2 \tempoI-IV-XLId \newSpacingSection
+    \time 3/2 \tempoI-IV-XLd \newSpacingSection
       R1.*10 %46
     r2 c, c
     des1 des2
@@ -71,7 +71,7 @@ I-IV-XLIBasso = {
     d
     cis2 d1 \noBreak
     g,1.\fermata \bar "||" %75
-    \time 4/4 \tempoI-IV-XLIe \newSpacingSection
+    \time 4/4 \tempoI-IV-XLe \newSpacingSection
       b'4 c d8 b r4 \noBreak
     b8( d4) c16([ b)] c8([ e,)] f([ g16 a)]
     b8 c16([ d)] c8 b a f16([ g)] a8 b
@@ -97,12 +97,12 @@ I-IV-XLIBasso = {
     d8.([ es16)] f8 g f4( f,)
     b r r2 \noBreak
     R1\fermata \bar "||" %100
-    \tempoI-IV-XLIf r8 a' d, d' cis16([ d] e4) g,8 \noBreak
+    \tempoI-IV-XLf r8 a' d, d' cis16([ d] e4) g,8 \noBreak
     f d a' d c16([ g)] e([ c)] \appoggiatura c'8 b4\trill
     a8 a a b c c16([ d)] es!8 g,
     fis d16([ e)] \hA fis[ g a b] g4~ g16[ d es c] \noBreak
     d2 g,\fermata \bar "||" %105
-    \time 3/4 \tempoI-IV-XLIg \newSpacingSection
+    \time 3/4 \tempoI-IV-XLg \newSpacingSection
       r4 g'2 \noBreak
     d'4. c8 d4
     b g b
