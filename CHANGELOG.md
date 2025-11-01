@@ -1,10 +1,24 @@
 # Changelog
 
+## 2025.10.0 – 2025-11-01
+
+### Added
+
+- works: WerW B.S10, D.1.16, D.2.2, E.5–7, G.5, H.1.10, H.2.3, I.1.6, I.2.7, I.3.13, I.4.48, I.5.4, J.5, M.15, N.20, and O.10
+- preface: info on emending dotted rhythm, 16–8–6 notation and examples
+
+### Changed
+
+- composer name from work metadata is now used for the title page
+- renumbered WerW H.2.5 → 4, 9 → 5, 10 → 8, 11 → 9; I.4.41 → 40, 45–48 → 44–47, 50 → 49, 53 → 52
+
+
+
 ## 2025.09.0 – 2025-09-28
 
 ### Added
 
-- works: B.19/49/60/68, C.2, D.5.S2, and O.9
+- works: WerW B.19/49/60/68, C.2, D.5.S2, and O.9
 
 
 ## 2025.08.0 – 2025-08-31
