@@ -3,7 +3,7 @@
 I-IV-LXVIIIOrgano = {
   \relative c {
     \clef bass
-    \twofourtime \key b \major \time 2/4 \tempoI-IV-LXVIIIa
+    \twofourtime \key b \major \time 2/4 \tempoI-IV-LXVIIa
     \mvTr b8\pE-\solo c d es
     d g f es
     d b g a
@@ -50,7 +50,7 @@ I-IV-LXVIIIOrgano = {
     b' a g d
     es g f f, \noBreak %45
     b4 r\fermata \bar "||"
-    \time 3/4 \tempoI-IV-LXVIIIb \newSpacingSection
+    \time 3/4 \tempoI-IV-LXVIIb \newSpacingSection
       g4\pE g' es \noBreak
     d2 r4
     c c' a
@@ -78,7 +78,7 @@ I-IV-LXVIIIOrgano = {
     c4 cis d
     g d d, \noBreak
     g2.\fermata \bar "||"
-    \time 2/4 \tempoI-IV-LXVIIIc \newSpacingSection
+    \time 2/4 \tempoI-IV-LXVIIc \newSpacingSection
       es'4\pE r \noBreak
     es r %75
     es d
@@ -125,14 +125,14 @@ I-IV-LXVIIIOrgano = {
     b8 a16 g f8 es
     d es f f, \noBreak
     b4 r\fermata \bar "||"
-    \time 4/4 \tempoI-IV-LXVIIId \newSpacingSection
+    \time 4/4 \tempoI-IV-LXVIId \newSpacingSection
       d2\pE d \noBreak %120
     d c
     cis d
     g4 a b b,
     es c f b8 es, \noBreak
     f4 f, b2\fermata \bar "||" %125
-    \time 3/4 \tempoI-IV-LXVIIIe \newSpacingSection
+    \time 3/4 \tempoI-IV-LXVIIe \newSpacingSection
       b4\pE d g \noBreak
     es f f,
     b d b

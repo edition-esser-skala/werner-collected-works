@@ -3,7 +3,7 @@
 I-IV-LXVIIIViolinoI = {
   \relative c' {
     \clef treble
-    \twofourtime \key b \major \time 2/4 \tempoI-IV-LXVIIIa
+    \twofourtime \key b \major \time 2/4 \tempoI-IV-LXVIIa
     b'8.\p a32 g f8 g
     f b, r a'
     \sbOn \tuplet 3/2 8 { b16 c d d es f } \sbOff \appoggiatura f8 es4\trill
@@ -48,7 +48,7 @@ I-IV-LXVIIIViolinoI = {
     b8 f' b b,
     \tuplet 3/2 8 { \sbOn g'16 f es d c b \sbOff } \appoggiatura b8 a4 \noBreak %45
     b r\fermata \bar "||"
-    \time 3/4 \tempoI-IV-LXVIIIb \newSpacingSection
+    \time 3/4 \tempoI-IV-LXVIIb \newSpacingSection
       R2. \noBreak
     r16 a'32\pE g fis16 g d \hA fis a, d fis, a d, d'
     es!4 r r
@@ -76,7 +76,7 @@ I-IV-LXVIIIViolinoI = {
     c b a!
     b8 c a2\trill \noBreak
     g r4\fermata \bar "||"
-    \time 2/4 \tempoI-IV-LXVIIIc \newSpacingSection
+    \time 2/4 \tempoI-IV-LXVIIc \newSpacingSection
       R2*3 %76
     r16 g\fE as b c d es f
     g b, c d es f g as
@@ -115,14 +115,14 @@ I-IV-LXVIIIViolinoI = {
     d c16 b a8 g
     f b16 c c4\trillE \noBreak
     b r\fermata \bar "||"
-    \time 4/4 \tempoI-IV-LXVIIId \newSpacingSection
+    \time 4/4 \tempoI-IV-LXVIId \newSpacingSection
       r2 r8 d\pE a b \noBreak %120
     fis4 f4. es!16 d es4
     e2 d4 d'
     es!2 d4 f~
     f8 es g es c4 d8 es \noBreak
     d4 c\trill b2\fermata \bar "||" %125
-    \time 3/4 \tempoI-IV-LXVIIIe \newSpacingSection
+    \time 3/4 \tempoI-IV-LXVIIe \newSpacingSection
       r4 b2~\pE \noBreak
     b4 a2\trill
     b r4

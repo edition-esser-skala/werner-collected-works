@@ -12,7 +12,7 @@
 
 \book {
   \bookpart {
-    \section "I.4.48" "Salve Regina"
+    \section "I.4.47" "Salve Regina"
     \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate

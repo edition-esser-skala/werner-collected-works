@@ -3,7 +3,7 @@
 I-IV-LXVIIISoprano = {
   \relative c' {
     \clef treble
-    \key b \major \time 2/4 \tempoI-IV-LXVIIIa \autoBeamOff
+    \key b \major \time 2/4 \tempoI-IV-LXVIIa \autoBeamOff
     \mvTr b'4.\pE^\solo \tuplet 3/2 8 { c16[ b a] }
     \once \tieDashed b4~ \tuplet 3/2 8 { \sbOn b16[ c d c b a] \sbOff
     b([ c d)] d([ es f)] } \appoggiatura f8 es4\trill
@@ -42,7 +42,7 @@ I-IV-LXVIIISoprano = {
     b r
     R2*9 \noBreak %45
     R2\fermata \bar "||"
-    \time 3/4 \tempoI-IV-LXVIIIb \newSpacingSection
+    \time 3/4 \tempoI-IV-LXVIIb \newSpacingSection
       g4 \appoggiatura a8 b4 r8 cis \noBreak
     \appoggiatura cis d4 d, r
     c' \appoggiatura d8 es4 r8 fis
@@ -69,7 +69,7 @@ I-IV-LXVIIISoprano = {
     g r4 %70
     R2.*2 \noBreak
     R2.\fermata \bar "||"
-    \time 2/4 \tempoI-IV-LXVIIIc \newSpacingSection
+    \time 2/4 \tempoI-IV-LXVIIc \newSpacingSection
       es'4. es8 \noBreak
     es b g b %75
     es4 b
@@ -111,14 +111,14 @@ I-IV-LXVIIISoprano = {
     b r
     R2*5 \noBreak %118
     R2\fermata \bar "||"
-    \time 4/4 \tempoI-IV-LXVIIId \newSpacingSection
+    \time 4/4 \tempoI-IV-LXVIId \newSpacingSection
       r8 d a b fis4. g8 \noBreak %120
     a a h16([ a)] \hA h8 c4. c16([ d)]
     e8 a, a g fis4 fis
     r c'~ c8[ b] d b
     g g' es4. f8 d es \noBreak
     d4( c) b2\fermata \bar "||" %125
-    \time 3/4 \tempoI-IV-LXVIIIe \newSpacingSection
+    \time 3/4 \tempoI-IV-LXVIIe \newSpacingSection
       b2. \noBreak
     c4 c8([ d)] es4
     d b d
