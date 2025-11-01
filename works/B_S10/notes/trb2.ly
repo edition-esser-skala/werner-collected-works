@@ -456,24 +456,24 @@ B-SXSonataSecundaTromboneII = {
     g2 g4
     a2 h4
     g2 h4
-    c e h
+    c e h %5
     a2.
     a
     g2 a4
     g a f
-    g2.
+    g2. %10
     R2.*4
-    h2.
+    h2. %15
     a2 h4
     h h2
     h2.
-    R2.*2
+    R2.*2 %20
     a2 g4
     a d, g
     g2.
     a2 g4
-    a d, g
-    g2.\fermata \bar "|."
+    a d, g %25
+    g2.\fermata \bar "|." %26 finis
   }
 }
 

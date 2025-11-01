@@ -223,10 +223,10 @@ B-SXGloriaTromboneIII = {
 }
 
 B-SXCredoTromboneIII = {
-  \relative c' {
+  \relative c {
     \clef bass
     \key c \major \time 3/2 \tempoB-SXCredo
-    c,1\fE c2
+    c1\fE c2
     g' d e
     h1 h2
     c gis a
