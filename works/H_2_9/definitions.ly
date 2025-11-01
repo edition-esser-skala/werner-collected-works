@@ -5,8 +5,8 @@ tl = {
   \override LyricSpace.minimum-distance = #1
 }
 
-tempoH-II-Xa = \tempoMarkup "In chorali"
-tempoH-II-Xb = \tempoMarkup "Alla capella"
+tempoH-II-IXa = \tempoMarkup "In chorali"
+tempoH-II-IXb = \tempoMarkup "Alla capella"
 
 \include "notes/S.ly"
 \include "notes/A.ly"

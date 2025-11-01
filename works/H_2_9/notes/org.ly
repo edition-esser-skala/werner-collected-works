@@ -3,11 +3,11 @@
 H-II-XOrgano = {
   \relative c {
     \clef bass
-    \key c \major \time 6/2 \tempoH-II-Xa
+    \key c \major \time 6/2 \tempoH-II-IXa
       \set Staff.timeSignatureFraction = 2/2
     R1*6/2 \noBreak
     R \bar "||"
-    \time 4/2 \tempoH-II-Xb d1. d2 \noBreak
+    \time 4/2 \tempoH-II-IXb d1. d2 \noBreak
     f1 c
     g' d %5
     cis2 d a1
@@ -29,9 +29,9 @@ H-II-XOrgano = {
     e f dis1
     e\breve \noBreak
     a,\fermata \bar "||"
-    \time 6/2 \tempoH-II-Xa R1*6/2 \noBreak
+    \time 6/2 \tempoH-II-IXa R1*6/2 \noBreak
     \time 8/2 R1*8/2 \bar "||" %20
-    \time 4/2 \tempoH-II-Xb f'2. f4 f2 f \noBreak
+    \time 4/2 \tempoH-II-IXb f'2. f4 f2 f \noBreak
     d1 a
     b2 c d1
     c \clef treble << {
@@ -61,9 +61,9 @@ H-II-XOrgano = {
     b g e!1
     f c~ \noBreak
     c f,\fermata \bar "||" %45
-    \time 6/2 \tempoH-II-Xa R1*6/2 \noBreak
+    \time 6/2 \tempoH-II-IXa R1*6/2 \noBreak
     R \bar "||"
-    \time 4/2 \tempoH-II-Xb a'1. a2 \noBreak
+    \time 4/2 \tempoH-II-IXb a'1. a2 \noBreak
     d,1 d
     dis1. dis2 %50
     e1 c2 a
@@ -84,9 +84,9 @@ H-II-XOrgano = {
     c1. h2
     c\breve \noBreak
     f,\fermata \bar "||"
-    \time 6/2 \tempoH-II-Xa R1*6/2 \noBreak
+    \time 6/2 \tempoH-II-IXa R1*6/2 \noBreak
     R \bar "||" %65
-    \time 4/2 \tempoH-II-Xb c'!1. c2 \noBreak
+    \time 4/2 \tempoH-II-IXb c'!1. c2 \noBreak
     f1 b,~
     b2 \hA b f' f
     c1 g
@@ -111,9 +111,9 @@ H-II-XOrgano = {
     f, f'2 c
     d\breve \noBreak
     c\fermata \bar "||" %90
-    \time 6/2 \tempoH-II-Xa R1*6/2 \noBreak
+    \time 6/2 \tempoH-II-IXa R1*6/2 \noBreak
     R \bar "||"
-    \time 4/2 \tempoH-II-Xb fis\breve \noBreak
+    \time 4/2 \tempoH-II-IXb fis\breve \noBreak
     g1 cis,
     d e~ %95
     e a,
@@ -139,9 +139,9 @@ H-II-XOrgano = {
     r2 d1 cis2
     d\breve \noBreak
     a\fermata \bar "||"
-    \time 6/2 \tempoH-II-Xa R1*6/2 \noBreak
+    \time 6/2 \tempoH-II-IXa R1*6/2 \noBreak
     R \bar "||" %115
-    \time 4/2 \tempoH-II-Xb f'!1. f2 \noBreak
+    \time 4/2 \tempoH-II-IXb f'!1. f2 \noBreak
     b,1 c
     g r2 c
     f1 b,
@@ -163,9 +163,9 @@ H-II-XOrgano = {
     d\breve %135
     d \noBreak
     g,\fermata \bar "||"
-    \time 6/2 \tempoH-II-Xa R1*6/2 \noBreak
+    \time 6/2 \tempoH-II-IXa R1*6/2 \noBreak
     R \bar "||"
-    \time 4/2 \tempoH-II-Xb \clef "treble_8" c'!1 d \noBreak %140
+    \time 4/2 \tempoH-II-IXb \clef "treble_8" c'!1 d \noBreak %140
     \clef bass f, g
     d e2 f
     b,1 h2 c
@@ -177,9 +177,9 @@ H-II-XOrgano = {
     e1 f
     c\breve \noBreak %150
     f,\fermata \bar "||"
-    \time 6/2 \tempoH-II-Xa R1*6/2 \noBreak
+    \time 6/2 \tempoH-II-IXa R1*6/2 \noBreak
     R \bar "||"
-    \time 4/2 \tempoH-II-Xb e'1 e2 e \noBreak
+    \time 4/2 \tempoH-II-IXb e'1 e2 e \noBreak
     d1 a' %155
     h! e,
     h\breve
@@ -190,9 +190,9 @@ H-II-XOrgano = {
     d e
     a,\breve \noBreak
     e'\fermata \bar "||"
-    \time 6/2 \tempoH-II-Xa R1*6/2 \noBreak %165
+    \time 6/2 \tempoH-II-IXa R1*6/2 \noBreak %165
     R \bar "||"
-    \time 4/2 \tempoH-II-Xb f!1. f2 \noBreak
+    \time 4/2 \tempoH-II-IXb f!1. f2 \noBreak
     g1 d
     b' g
     es2. es4 c1 %170
@@ -205,9 +205,9 @@ H-II-XOrgano = {
     a!\breve
     gis \noBreak
     a\fermata \bar "||"
-    \time 6/2 \tempoH-II-Xa R1*6/2 \noBreak %180
+    \time 6/2 \tempoH-II-IXa R1*6/2 \noBreak %180
     R \bar "||"
-    \time 4/2 \tempoH-II-Xb c!1 c2 c \noBreak
+    \time 4/2 \tempoH-II-IXb c!1 c2 c \noBreak
     d1 a2 a'~
     a a g1
     d e %185

@@ -3,11 +3,11 @@
 H-II-XTenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \major \time 6/2 \tempoH-II-Xa \autoBeamOff
+    \key c \major \time 6/2 \tempoH-II-IXa \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
     c\breve c2 c \noBreak
     h\breve a2 a\fermata \bar "||"
-    \time 4/2 \tempoH-II-Xb a1 a2 b~ \noBreak
+    \time 4/2 \tempoH-II-IXb a1 a2 b~ \noBreak
     b a g1
     g a %5
     a2. d4 cis1
@@ -23,9 +23,9 @@ H-II-XTenore = {
     gis( a) a1~
     a2 gis4 fis \hA gis1 \noBreak
     a\breve\fermata \bar "||"
-    \time 6/2 \tempoH-II-Xa c\breve c2 c \noBreak
+    \time 6/2 \tempoH-II-IXa c\breve c2 c \noBreak
     \time 8/2 h\breve a2. a4 a1\fermata \bar "||" %20
-    \time 4/2 \tempoH-II-Xb a2. a4 a2 a \noBreak
+    \time 4/2 \tempoH-II-IXb a2. a4 a2 a \noBreak
     a d c1
     b2( g) f1
     g r
@@ -50,9 +50,9 @@ H-II-XTenore = {
     d2 b c g
     c1 c \noBreak
     c c\fermata \bar "||" %45
-    \time 6/2 \tempoH-II-Xa c\breve c2 c \noBreak
+    \time 6/2 \tempoH-II-IXa c\breve c2 c \noBreak
     h!\breve a2 a\fermata \bar "||"
-    \time 4/2 \tempoH-II-Xb cis1 cis \noBreak
+    \time 4/2 \tempoH-II-IXb cis1 cis \noBreak
     d2 a d d
     c!1. c2 %50
     h h a c
@@ -68,9 +68,9 @@ H-II-XTenore = {
     b a4 g as1
     g\breve \noBreak
     a!\fermata \bar "||"
-    \time 6/2 \tempoH-II-Xa c\breve c2 c \noBreak
+    \time 6/2 \tempoH-II-IXa c\breve c2 c \noBreak
     h\breve a2 a\fermata \bar "||" %65
-    \time 4/2 \tempoH-II-Xb g1 g2 g
+    \time 4/2 \tempoH-II-IXb g1 g2 g
     a1 b~
     b2 \hA b a a
     g\breve
@@ -95,9 +95,9 @@ H-II-XTenore = {
     c a2 g
     f4( g a1 \once \stemUp h!2) \noBreak
     c\breve\fermata \bar "||" %90
-    \time 6/2 \tempoH-II-Xa c\breve c4. c8 c2 \noBreak
+    \time 6/2 \tempoH-II-IXa c\breve c4. c8 c2 \noBreak
     h\breve a2 a\fermata \bar "||"
-    \time 4/2 \tempoH-II-Xb a1 a \noBreak
+    \time 4/2 \tempoH-II-IXb a1 a \noBreak
     b2 b2. b4 a2
     a h4 a gis2 a~ %95
     a gis a1
@@ -118,9 +118,9 @@ H-II-XTenore = {
     a( d) e1
     a,1.( gis2) \noBreak
     a\breve\fermata \bar "||"
-    \time 6/2 \tempoH-II-Xa c\breve c2 c \noBreak
+    \time 6/2 \tempoH-II-IXa c\breve c2 c \noBreak
     h\breve a2 a\fermata \bar "||" %115
-    \time 4/2 \tempoH-II-Xb a1. a2 \noBreak
+    \time 4/2 \tempoH-II-IXb a1. a2 \noBreak
     b1 g2 g
     g1 r2 g
     a f f g~
@@ -142,9 +142,9 @@ H-II-XTenore = {
     r2 fis d' b4( c) %135
     d1. d2 \noBreak
     d\breve\fermata \bar "||"
-    \time 6/2 \tempoH-II-Xa c\breve c2 c \noBreak
+    \time 6/2 \tempoH-II-IXa c\breve c2 c \noBreak
     h\breve a4. a8 a2\fermata \bar "||"
-    \time 4/2 \tempoH-II-Xb c!1 d \noBreak %140
+    \time 4/2 \tempoH-II-IXb c!1 d \noBreak %140
     a2 a b( g)
     f d' c1
     d d2 c~
@@ -156,9 +156,9 @@ H-II-XTenore = {
     e2 g c, c
     c\breve \noBreak %150
     c\fermata \bar "||"
-    \time 6/2 \tempoH-II-Xa c\breve c2 c \noBreak
+    \time 6/2 \tempoH-II-IXa c\breve c2 c \noBreak
     h!\breve a2 a\fermata \bar "||"
-    \time 4/2 \tempoH-II-Xb gis1 gis2 gis \noBreak
+    \time 4/2 \tempoH-II-IXb gis1 gis2 gis \noBreak
     a1 a2 e'~ %155
     e dis e e
     e( dis4 cis) \hA dis1
@@ -169,9 +169,9 @@ H-II-XTenore = {
     a,2 a1 gis2
     a\breve \noBreak
     gis\fermata \bar "||"
-    \time 6/2 \tempoH-II-Xa c\breve c4. c8 c2 \noBreak %165
+    \time 6/2 \tempoH-II-IXa c\breve c4. c8 c2 \noBreak %165
     h\breve a4. a8 a2\fermata \bar "||"
-    \time 4/2 \tempoH-II-Xb c!1. f2 \noBreak
+    \time 4/2 \tempoH-II-IXb c!1. f2 \noBreak
     d b d1
     r2 d1 b2
     b2. b4 c2 c %170
@@ -184,9 +184,9 @@ H-II-XTenore = {
     a! a2 a
     h!1. h2 \noBreak
     a\breve\fermata \bar "||"
-    \time 6/2 \tempoH-II-Xa c!\breve c2 c \noBreak %180
+    \time 6/2 \tempoH-II-IXa c!\breve c2 c \noBreak %180
     h\breve a4. a8 a2\fermata \bar "||"
-    \time 4/2 \tempoH-II-Xb g1 g2 g \noBreak
+    \time 4/2 \tempoH-II-IXb g1 g2 g \noBreak
     f2.( g4) a1
     a2 a b2. b4
     a1 gis %185
