@@ -3,7 +3,7 @@
 H-II-IXTenore = {
   \relative c' {
     \clef "treble_8"
-    \key d \minor \time 4/4 \tempoH-II-IXa \autoBeamOff
+    \key d \minor \time 4/4 \tempoH-II-VIIIa \autoBeamOff
     \mvTr d4.\pE^\solo d8 d([ cis)] cis a
     f'4 d r8 b d d
     c! c c2 c4
@@ -25,7 +25,7 @@ H-II-IXTenore = {
     c c16 c c8 c c c r a\p
     f a f([ e16 d)] a'8 e'4\f e8
     d8. d16 d4 r8 d d4~ %25
-    d8[ c!] h8. h16 \tempoH-II-IXb a4 r
+    d8[ c!] h8. h16 \tempoH-II-VIIIb a4 r
     r8 d4 d8 c a f'8. f16
     e8 e4 e8 a, b8.([ a16)] f([ g)]
     a4 r8 d d cis f8. f16

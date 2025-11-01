@@ -6,7 +6,7 @@
 
 \book {
   \bookpart {
-    \section "H.2.9" "De profundis"
+    \section "H.2.8" "De profundis"
     \addTocEntry
     \score {
       <<

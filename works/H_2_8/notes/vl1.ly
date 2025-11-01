@@ -3,7 +3,7 @@
 H-II-IXViolinoI = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/4 \tempoH-II-IXa
+    \key d \minor \time 4/4 \tempoH-II-VIIIa
     R1*2
     r2 r8 c'\f c c
     a'4. a8 f8. f16 f8 f
@@ -26,7 +26,7 @@ H-II-IXViolinoI = {
     f c4 f8 e16 c g e c8 r
     r2 r16 a'\f cis e a8 e16 a
     fis8 a16 \hA fis d'8 b16 g a8 g4 f8 %25
-    e4. e8 \tempoH-II-IXb e4 r
+    e4. e8 \tempoH-II-VIIIb e4 r
     R1
     r2 r8 d4 d8
     c a f'8. f16 e4 r8 d

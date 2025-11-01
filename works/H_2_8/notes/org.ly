@@ -3,7 +3,7 @@
 H-II-IXOrgano = {
   \relative c {
     \clef bass
-    \key d \minor \time 4/4 \tempoH-II-IXa
+    \key d \minor \time 4/4 \tempoH-II-VIIIa
     \mvTr d8\pE-\solo d' f, d a'4 a,
     d f8 d g4 b8 g
     c4 f, c2
@@ -29,7 +29,7 @@ H-II-IXOrgano = {
     f f a f c' c, r cis\p
     d cis d4 cis a8\f \hA cis
     d4. g8 fis g d4 %25
-    e8 a, e4 \tempoH-II-IXb a8 a'4-! a8-!
+    e8 a, e4 \tempoH-II-VIIIb a8 a'4-! a8-!
     << { r8 d4 d8 c a f'4 } \\ { f,8 d b'4 a8 f d d~ d cis16 h } >>
     \hA cis4 d8 b g d'16 e
     f8. e16 d e f g a4 d,

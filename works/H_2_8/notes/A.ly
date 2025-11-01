@@ -3,7 +3,7 @@
 H-II-IXAlto = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/4 \tempoH-II-IXa \autoBeamOff
+    \key d \minor \time 4/4 \tempoH-II-VIIIa \autoBeamOff
     r2 \mvTr e4.\pE^\solo e8
     e([ d)] d a' b4. b8
     g4 a g4. g8
@@ -24,7 +24,7 @@ H-II-IXAlto = {
     f f16 f f8 a g g r e\p
     f e f4 e cis8\f e
     fis8. fis16 fis8 g a( g4 f8 %25
-    e4.) e8 \tempoH-II-IXb e4 r
+    e4.) e8 \tempoH-II-VIIIb e4 r
     R1
     r8 a4 a8 f d b'8. b16
     a8 f8.([ g16)] a8 a, e'4 d8
