@@ -1,0 +1,30 @@
+title: Missa solemnis Alleluja
+id: WerW B.50
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: A 73
+    rism: 600037876
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/724.html
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  2 & 15  & vl 2 & 2nd \eighthNote\ in \B1: b′8 \\
+    & 18f & vl 2 & bars swapped in \B1 \\
+    & 24  & vl 1 & 1st \eighthNote\ in \B1: c″8 \\
+    & 99  & vl 1 & 1st \eighthNote\ in \B1: e″8 \\
+    & 123 & vl 1 & rhythm of 2nd \halfNote\ in \B1: 4 × \sixteenthNoteDotted~\thirtysecondNote \\
+  3 & 7   & vl 2 & 15th \sixteenthNote\ in \B1: f′16 \\
+    & 16  & S    & rhythm of 1st and 3rd \quarterNote\ in \B1: 8–16–16 \\
+    & 33  & T    & 7th \eighthNote\ in \B1: g′8 \\
+    & 57  & vl 1 & 3rd \eighthNote\ in \B1: c″8 \\
+    & 87  & vl 2 & 1st \halfNote\ in \B1: f″8–d″8–h′8–e″8 \\
+    & 96  & A    & bar in \B1: f′8–e′8–f′2–f′4–a′4 \\
+    & 123 & org  & 15th \sixteenthNote\ in \B1: d″16 \\
+  4 & 27  & vl 1 & last \eighthNote\ in \B1: b8 \\
+    & 33  & S    & last \eighthNote\ in \B1: e″32–a′16. \\
+    & 64  & vl 1 & bar in \B1: c″1–\halfNoteRest \\
