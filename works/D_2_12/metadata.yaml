@@ -1,13 +1,14 @@
 title: 4 Offertoria
 id: WerW D.2.12
 genre: offertorium
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+scoring: S (solo), S, A, T, B (coro), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
   A1:
     siglum: H-Bn
     shelfmark: Ms. Mus. 179
     license: public domain
+    principal: true
     notes: comprises 1st and 2nd movement, as well as beginning of 3rd movement (bars 1–63)
   A2:
     siglum: A-Wn
@@ -15,11 +16,32 @@ sources:
     rism: 600101187
     url: https://data.onb.ac.at/dtl/3451806
     license: public domain
-    note: comprises end of 3rd movement (bars 64–85), as well as 4th movement
+    notes: comprises end of 3rd movement (bars 64–85), as well as 4th movement
 tocstyle: default
-toc:
-  4 & – & vl & In \B2, staves for vl 1/2 are empty. Here, they play colla parte wit S and A, respectively. \\
-lyrics:
+toe: |
+  1 & 6  & vl   & last \eighthNote\ missing in \A1,
+                  here completed according to bar 15 \\
+  2 & 10 & vl 2 & 4th \eighthNote\ in \A1: c″8 \\
+    & 12 & vl 2 & 4th \eighthNote\ in \A1: d″8 \\
+  4 & –  & vl   & In \A2, staves for vl 1/2 are empty. Here, they play
+                  colla parte wit S and A, respectively. \\
+lyrics: |
+  O salutaris hostia,\\
+  quae coeli pandis ostium:\\
+  bella premunt hostilia,\\
+  da robur, fer auxilium.\\
+  Uni trinoque Domino\\
+  sit sempiterna gloria,\\
+  qui vitam sine termino\\
+  nobis donet in Patria.\\
+  (Cantus Index 830336)\\[1ex]
+  O sacrum convivium,\\
+  in quo Christus sumitur.\\
+  Recolitur memoria passionis eius,\\
+  mens impletur gratia\\
+  et futurae gloriae nobis pignus datur.\\
+  Alleluia.\\
+  (Cantus Index 203576)\\[1ex]
   Panis angelicus\\
   fit panis hominum,\\
   dat panis coelicus\\
@@ -27,6 +49,7 @@ lyrics:
   O res mirabilis\\
   manducat Dominum\\
   pauper servus et humilis.\\
+  Amen.\\
   (Cantus Index 830301:06)\\[1ex]
   O quam suavis est, Domine, spiritus tuus,\\
   qui ut dulcedinem tuam in filios demonstrares\\

@@ -1,5 +1,170 @@
 \version "2.24.0"
 
+D-II-XIIaOrgano = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 4/4 \tempoD-II-XIIa
+    e8\fE fis g fis16 e dis8 h cis \hA dis
+    e g a h c h16 a h8 a
+    g fis16 e d!8 c h a16 g fis8 d
+    g g' fis d g h, c d
+    << { g[ a] } \\ { g,4 } >> h'8 a16 g fis8 d g fis %5
+    e a fis e16 d g8 a h c
+    d fis,16 e dis8 h e g a fis
+    dis cis16 h \hA cis8 \hA dis e g a h
+    c! h16 a h8 a g fis16 e h'8 h,
+    e fis g fis16 e dis8 h cis \hA dis %10
+    e g a h c! h16 a h8 a
+    g fis16 e d!8 c h a16 g fis8 d
+    g g' fis d g h, c d
+    << { g[ a] } \\ { g,4 } >> h'8 a16 g fis8 d g fis
+    e a fis e16 d g8 a h c %15
+    d fis,16 e dis8 h e g a fis
+    dis cis16 h \hA cis8 \hA dis e g a h
+    c! h16 a h8 a g fis16 e h'8 h,
+    e, e'16 fis g8 a h d,! e fis
+    g fis16 e fis8 e d cis16 h fis'8 fis, %20
+    h d'16 c! h8 a! g h fis e16 d
+    g8 h, c d e d16 c d8 c
+    h a16 g d'8 d, g g' a h
+    e, g dis cis?16 h e8 e, h' dis
+    e\p g dis cis?16 h e8 e, h' dis %25
+    e\f g fis e16 d g8 g, a' fis
+    g h,16 c d8 d, g h'16 a g8 fis
+    e g dis cis?16 h e,8 e' fis dis
+    e g16 a h8 h, e c'! a h
+    g fis16 e h'8 h, e4 r\fermata \bar "|." %30 finis
+  }
+}
+
+D-II-XIIaBassFigures = \figuremode {
+  r2 <[6]>
+  r4 <6>2 <_+>4
+  <6> <5> <6> \bo <[6]>
+  r \bc q2 <6 5>4
+  r2 <[6]> %5
+  <6>4 q2.
+  r4 <6>2.
+  <[6 5]> <6 5>8 <[_+]>
+  r4 <_+> <6> <4>8 <_+>
+  r2 <[6]> %10
+  r4 <6>2 <_+>4
+  <6> <5> \bo <[6]> <6>
+  r \bc <[6]>2 <6 5>4
+  r2 <[6]>
+  <6>4 \bo <[6]>2. %15
+  r4 \bc <[6]>2.
+  <6 5>2. q8 <_+>
+  r4 <_+> <6> <4>8 <_+>
+  r2 <[_!]>4 <6\\>8 <[5\+ _+]>
+  r4 <[5\+] _+> <6> \bo <[5\+] 4>8 \bc <[\t] _+> %20
+  r2. <[6]>4
+  r <6>2.
+  <[6]>4 <4>8 <_+>2 \bo <[_+]>8
+  r4 <6>2 <_+>4
+  r <6>2 <_+>4 %25
+  r \bc <[6!]>2.
+  r8. <6 5>16 <_+>2 \bo <[6]>8 <6\\>
+  r4 \bc <[6]>2.
+  r4 <_+> r4. \bo <[_+]>8
+  <6>4 \bc <[_+]>2. %30 finis
+}
+
+D-II-XIIbOrgano = {
+  \relative c {
+    \clef bass
+    \key g \dorian \time 4/4 \tempoD-II-XIIba
+    \mvTr g'2\fE-\tuttiE r
+    fis r
+    f es
+    e4. e8 d2
+    b r %5
+    a' g
+    g c,
+    c f4 b,
+    f2 b4 r
+    r8 b'4 as8 g4 c %10
+    g2 c,4 r
+    r8 c'4 b!8 a4 d
+    a2 d,8 \mvTr d'\p-\soloE d d
+    d d d d cis cis cis cis
+    cis cis cis cis d d d d %15
+    d d d d c c c c
+    c c c c b b b b
+    b b b b fis fis fis fis
+    fis fis fis fis g g g g
+    g g g g c, c c c %20
+    c c c c f! f f f
+    f f f f f f f f
+    f, f f f b b b\fE b \noBreak
+    b b b b b4 r\fermata \bar "||"
+    \tempoD-II-XIIbb
+      \mvTr g8\fE-\tuttiE g' g c, g' g, c d \noBreak %25
+    g, g' f! es d \hA es f f,
+    b b' b es, b' b, \hA es f
+    b,4 r8 b' a f r b
+    a f r b\p a f r b
+    a f r4 r2 %30
+    r8 d\fE d d g es f f,
+    b4 r r2
+    r8 f' f f b es, f f,
+    b b' b es, b' b, \hA es f
+    b,4 r8 c g' g, c d %35
+    g,4 r8 g' fis d r g
+    fis d r g\p \hA fis d r g
+    fis d r4 r2
+    r8 fis\f fis fis g c, d d,
+    g4 r r2 %40
+    r8 fis' fis fis g c, d d,
+    g es' c d g,4 r\fermata \bar "|." %42 finis
+  }
+}
+
+D-II-XIIbBassFigures = \figuremode {
+  r1
+  <7- 5>
+  <4! 2>2 <6>
+  <6\\> <_+>
+  <[5!]>1 %5
+  <6>2 <7 _!>4 <6- 4>
+  <5 \t> <\t _-> <7 _!> <6 4>
+  <5 \t> <\t _-> <7->2
+  <4>4 <3>2.
+  r2 <7 _!>4 <_-> %10
+  <4> <_!> <[_-]>2
+  r8 <_->4. <7 [5!] _+>2
+  <4>4 <_+>2.
+  r2 <[6]>
+  r1 %15
+  r2 <4\+ 2>
+  <\t \t> <6>
+  r <[6]>
+  r1
+  r2 <_-> %20
+  <\t>1
+  r4. <7->8 <6 4>2
+  <5 4>4 <[\t 3]>2.
+  r1
+  r4. <_-> <6 [_-]>8 <_+> %25
+  r2 <6>4 <6 4>8 <5 3>
+  r2. \bo <[6]>4
+  r2 <6>
+  q q
+  \bc <[6]>1 %30
+  r8 <6>2 <6 5>8 <4> <3>
+  r1
+  r8 <7-> r2 <4>8 <3>
+  r2. <6>4
+  r4. <_-> <6 [_-]>8 <_+> %35
+  r2 \bo <[6]>
+  <6> q
+  \bc <[6]>1
+  r8 <7- 5>2 <_->8 <4> <_+>
+  r1 %40
+  r8 <7->2 <_->8 <4> <_+>
+  r4 <6 5 [_-]>8 <_+> r2 %42 finis
+}
+
 D-II-XIIcOrgano = {
   \relative c {
     \clef bass
@@ -64,10 +229,10 @@ D-II-XIIcOrgano = {
     a2 f4
     g4. a8 h4
     c g2 %60
-    c,4 f-\soloE f,
+    c,4 f f,
     g r16 g' a h c h a g
     f e d c g'4 g,
-    c8 d e4\pE c
+    c8 d e4 c
     f, f' d %65
     g, g' e
     a, a' fis
@@ -78,14 +243,14 @@ D-II-XIIcOrgano = {
     e, fis g
     c, d d,
     << { g' } \\ { g, } >> r8 f'!\f e d
-    c4-\tutti e c %75
+    c4 e c %75
     f8 f, f'4 r8 f
     g g, g'4 r8 g
     a a, a'4 h
     c e, f
     g r r %80
     g8 c g2
-    c,4 f-\soloE f,
+    c,4 f f,
     g r16 g' a h c h a g
     f e d c g'4 g,
     << { c'2 } \\ { c, } >> r4\fermata \bar "|." %85 finis

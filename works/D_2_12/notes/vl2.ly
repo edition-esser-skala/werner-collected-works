@@ -1,5 +1,91 @@
 \version "2.24.0"
 
+D-II-XIIaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \tempoD-II-XIIa
+    e'8\fE h r16 h' a g fis h, dis h e h fis' h,
+    g'8 e c h16 a g8 e' fis, dis'
+    e g a16 d, fis a h d, g h a d, c d
+    h d g d a d a' d, h8 g' a, fis'
+    g, d' g a16 h a g fis e d8 a' %5
+    g fis16 e a d, fis a h g d h g d' e-\critnote g,
+    fis e d e fis8 fis' g, h c h16 a
+    h8 dis e16 h fis' h, g' fis e4 dis8
+    e e, dis c'! h e fis, dis'
+    e h r16 h' a g fis h, dis h e h fis' h, %10
+    g'8 e c h16 a g8 e' fis, dis'
+    e g a16 d, fis a h d, g h a d, c d
+    h d g d a d a' d, h8 g' a, fis'
+    g, d' g a16 h a g fis e d8 a'
+    g fis16 e a d, fis a h g d h g d' e g, %15
+    fis e d e fis8 fis' g, h c h16 a
+    h8 dis e16 h fis' h, g' fis e4 dis8
+    e e, dis c'! h e fis, dis'
+    e16 e, g a h h' a g fis d h fis' e cis? ais e'
+    d h e8 ais, g' fis h cis, ais' %20
+    h h,16 c d e32 fis g16 a h d, g h a d, a' c
+    h8 g e d16 c h8 g' a, fis'
+    g16 d c h a8 fis' g, h' c16 e, dis a'
+    e h e g fis h, fis' h g e h e dis h fis' h,
+    e,\p h e g fis h, fis' h g e h e dis h fis' h, %25
+    g'\f g' fis e d! a h c h g d h' c a a' c,
+    h d g g, d8 fis' g16 d, g a h e dis fis
+    g e h e fis fis, g a g e h g' a fis fis' a,
+    g h e e, h8 dis' e e, c' dis,
+    e16 g h e h,8 dis' e4 r\fermata \bar "|." %30 finis
+  }
+}
+
+
+D-II-XIIbViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \dorian \time 4/4 \tempoD-II-XIIba
+    d'2\fE r
+    es r
+    d es4 c8 c
+    cis4. cis8 d2
+    d r %5
+    f, h4 c~
+    c b2 a4
+    g4. g8 a4 b
+    b4. a8 b4 r
+    r8 d4 f8^\critnote h,4 c %10
+    c4. h8 c4 r
+    r8 es4 g8^\critnote cis,4 d
+    d4. cis8 d16 d,\p f a d4
+    r16 f, a d f4 r16 e, a cis e4
+    r16 e a cis e4 r16 d,, f a d4 %15
+    r16 a d f a4 r16 d,, fis a d4
+    r16 d fis a d4 r16 d,, g b d4
+    r16 b d g b4 r16 d,, fis a d4
+    r16 d fis a c4 r16 d,, g b d4
+    r16 b d g b4 r16 c,, es g c4 %20
+    r16 g c es g4 r16 c,, f a c4
+    r16 a c f a4 r16 b, d f b4
+    r16 f, c' f a4 r16 b,,\f d f b4 \noBreak
+    r16 f b d f8 f, d4 r\fermata \bar "||"
+    \tempoD-II-XIIbb R1 \noBreak
+    b'16\fE a g a b c d es f8 b d,16 b c a
+    b4 r r2
+    r r16 c' a f b8 b,
+    r16 f a c f8 f, r16 c'\p a c b8 b,16 d'
+    c8 f, r4 r2 %30
+    r8 b\f b b b es c8. c16
+    d8 b16 c d es d \hA es f g f g a b a b
+    c8 es, es es d g c, a'
+    b,4 r r2
+    r16 f16 g a b8 g b a16 g a8 g16 fis %35
+    g4 r r16 a' fis d g8 g,
+    r16 d fis a d8 d, r16 a'\pE fis d g8 g,16 b'
+    a8 d, r4 r2
+    r8 es'\fE es d16 c b8 g' d, fis'
+    g d,16 e! fis g \hA fis g a b a b c d c d %40
+    es8 es es d16 c b8 g' d, fis'
+    g es, c d g,4 r\fermata \bar "|." %42 finis
+  }
+}
 D-II-XIIcViolinoII = {
   \relative c' {
     \clef treble
@@ -63,7 +149,7 @@ D-II-XIIcViolinoII = {
     c16 g' c h a g f e d c h a
     h4 r16 g a h c h a g
     f e d c g'4 g,
-    c r8 c'16\pE h c8 g
+    c r8 c'16 h c8 g
     a16 h c8 f, d'16 c d8 a %65
     h16 c d8 g, e'16 d e8 h
     c16 d e8 a, c a' c,

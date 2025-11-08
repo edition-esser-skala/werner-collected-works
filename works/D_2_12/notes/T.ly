@@ -1,5 +1,131 @@
 \version "2.24.0"
 
+D-II-XIIaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key e \minor \time 4/4 \autoBeamOff \tempoD-II-XIIa
+    R1*9 %9
+    e,2\fE h'4 h %10
+    g fis e dis
+    e fis g a
+    h d! h a
+    g g a h
+    c d h4. h8 %15
+    a4 h g c
+    h a g fis
+    e dis e r
+    R1*2 %20
+    r2 g4 d'
+    h a g fis
+    g r r2
+    r e4 h'
+    g\p fis e dis %25
+    r2 g4\f a
+    g fis g r
+    r2 e4 fis
+    e dis e r
+    R1\fermata \bar "|." %30 finis
+  }
+}
+
+D-II-XIIaTenoreLyrics = \lyricmode {
+  U -- ni tri -- %10
+  no -- que Do -- mi --
+  no sit sem -- pi --
+  ter -- na glo -- ri --
+  a, qui vi -- tam
+  si -- ne ter -- mi -- %15
+  no no -- bis do --
+  net in Pa -- _
+  _ tri -- a.
+
+  A -- _ %21
+  _ _ _ _
+  men,
+  a -- men,
+  a -- men, a -- men, %25
+  a -- _
+  _ _ men,
+  a -- _
+  _ _ men. %29 finis
+}
+
+D-II-XIIbTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \dorian \time 4/4 \autoBeamOff \tempoD-II-XIIba
+    \mvTr d2\fE^\tuttiE r
+    c r
+    h c4 c8 c
+    e!4. e8 a,2
+    b r %5
+    c d4 g,8 g
+    g4. g8 g4 a8([ b)]
+    c4. c8 c4 b
+    c4. c8 d b4 c8
+    d2. c4 %10
+    d4. d8 c c4 d8
+    es2( e4) d
+    e4. e8 d4 r
+    R1*10 \noBreak %23
+    R1\fermata \bar "||"
+    \tempoD-II-XIIbb
+      r8 \mvTr b\fE^\tuttiE b c b([ a16 g] a8[ g16 fis] \noBreak %25
+    g4) r r2
+    r8 d' d es d([ c16 b] c8[ b16 a]
+    b4) r8 b c4 r8 b
+    c4 r8 b\p c4 r8 b
+    c4 r r2 %30
+    r8 d\fE d d b b b8. a16
+    b4 r r2
+    r8 c c c b b b8. a16
+    b8 d d es d([ c16 b] c8[ b16 a]
+    b4) r r2 %35
+    r4 r8 d d4 r8 b
+    a4 r8 d\p d4 r8 b
+    a4 r r2
+    r8 c\fE c b16([ a)] d8 es d8. d16
+    d4 r r2 %40
+    r8 c c b16([ a)] d8 es d8. d16
+    d4 r r2\fermata \bar "|." %42 finis
+  }
+}
+
+D-II-XIIbTenoreLyrics = \lyricmode {
+  O,
+  o,
+  o sa -- crum con --
+  vi -- vi -- um,
+  o, %5
+  o sa -- crum con --
+  vi -- vi -- um, con --
+  vi -- vi -- um, con --
+  vi -- vi -- um, in quo
+  Chri -- stus %10
+  su -- mi -- tur, in quo
+  Chri -- stus
+  su -- mi -- tur.
+
+  Al -- le -- lu -- ia, __ %25
+
+  al -- le -- lu -- ia, __
+  al -- le -- lu --
+  ia, al -- le -- lu --
+  ia, %30
+  al -- le -- lu -- ia, al -- le -- lu --
+  ia,
+  al -- le -- lu -- ia, al -- le -- lu --
+  ia, al -- le -- lu -- ia, __
+  %35
+  al -- le -- lu --
+  ia, al -- le -- lu --
+  ia,
+  al -- le -- lu -- ia, al -- le -- lu --
+  ia, %40
+  al -- le -- lu -- ia, al -- le -- lu --
+  ia. %42 finis
+}
+
 D-II-XIIcTenore = {
   \relative c' {
     \clef "treble_8"
@@ -27,7 +153,7 @@ D-II-XIIcTenore = {
     c c4. h8 %60
     c4 r r
     R2.*13 %74
-    \mvTr e4\f^\tutti c c~ %75
+    e4 c c~ %75
     c8[ a] d2~
     d8[ h] e2~
     e8[ c] f4 d

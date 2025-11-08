@@ -1,5 +1,131 @@
 \version "2.24.0"
 
+D-II-XIIaBasso = {
+  \relative c {
+    \clef bass
+    \key e \minor \time 4/4 \autoBeamOff \tempoD-II-XIIa
+    R1*9 %9
+    e2\fE h'4 h %10
+    g fis e dis
+    e fis g a
+    h d! h a
+    g g a h
+    c d h4. h8 %15
+    a4 h g c
+    h a g fis
+    e dis e r
+    R1*2 %20
+    r2 g4 d'
+    h a g fis
+    g r r2
+    r e4 h'
+    g\p fis e dis %25
+    r2 g4\f a
+    g fis g r
+    r2 e4 fis
+    e dis e r
+    R1\fermata \bar "|." %30 finis
+  }
+}
+
+D-II-XIIaBassoLyrics = \lyricmode {
+  U -- ni tri -- %10
+  no -- que Do -- mi --
+  no sit sem -- pi --
+  ter -- na glo -- ri --
+  a, qui vi -- tam
+  si -- ne ter -- mi -- %15
+  no no -- bis do --
+  net in Pa -- _
+  _ tri -- a.
+
+  A -- _ %21
+  _ _ _ _
+  men,
+  a -- men,
+  a -- men, a -- men, %25
+  a -- _
+  _ _ men,
+  a -- _
+  _ _ men. %29 finis
+}
+
+D-II-XIIbBasso = {
+  \relative c {
+    \clef bass
+    \key g \dorian \time 4/4 \autoBeamOff \tempoD-II-XIIba
+    \mvTr g'2\fE^\tuttiE r
+    fis r
+    f es4 es8 es
+    e4. e8 d2
+    b r %5
+    a' g~
+    g c,~
+    c4 c f( b,
+    f4.) f8 b4 r
+    r8 b'4 as8 g4 c %10
+    g4. g8 c,4 r
+    r8 c'4 b!8 a4 d
+    a4. a8 d,4 r
+    R1*10 \noBreak %23
+    R1\fermata \bar "||"
+    \tempoD-II-XIIbb
+      r8 \mvTr g\fE^\tuttiE g c, g' g, c d \noBreak %25
+    g,4 r r2
+    r8 b' b es, b' b, \hA es f
+    b,4 r8 b' a4 r8 b
+    f4 r8 b\p a4 r8 b
+    f4 r r2 %30
+    r8 d\fE d d g es f8. f16
+    b,4 r r2
+    r8 f' f f b es, f8. f16
+    b,8 b' b es, b' b,  \hA es f
+    b,4 r r2 %35
+    r4 r8 g' fis4 r8 g
+    d4 r8 g\p fis4 r8 g
+    d4 r r2
+    r8 fis\f fis fis g c, d8. d16
+    g,4 r r2 %40
+    r8 fis' fis fis g c, d8. d16
+    g,4 r r2\fermata \bar "|." %42 finis
+  }
+}
+
+D-II-XIIbBassoLyrics = \lyricmode {
+  O,
+  o,
+  o sa -- crum con --
+  vi -- vi -- um,
+  o, %5
+  o sa --
+  crum __
+  con -- vi --
+  vi -- um,
+  in quo Chri -- stus %10
+  su -- mi -- tur,
+  in quo Chri -- stus
+  su -- mi -- tur.
+
+  Al -- le -- lu -- ia, al -- le -- lu -- %25
+  ia,
+  al -- le -- lu -- ia, al -- le -- lu --
+  ia, al -- le -- lu --
+  ia, al -- le -- lu --
+  ia, %30
+  al -- le -- lu -- ia, al -- le -- lu --
+  ia,
+  al -- le -- lu -- ia, al -- le -- lu --
+  ia, al -- le -- lu -- ia, al -- le -- lu --
+  ia, %35
+  al -- le -- lu --
+  ia, al -- le -- lu --
+  ia,
+  al -- le -- lu -- ia, al -- le -- lu --
+  ia, %40
+  al -- le -- lu -- ia, al -- le -- lu --
+  ia. %42 finis
+}
+
 D-II-XIIcBasso = {
   \relative c {
     \clef bass
@@ -27,7 +153,7 @@ D-II-XIIcBasso = {
     c g4. g8 %60
     c,4 r r
     R2.*13 %74
-    r4 \mvTr e\f^\tutti e %75
+    r4 e e %75
     f2.
     g
     a2 h4

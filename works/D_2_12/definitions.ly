@@ -1,5 +1,8 @@
 \version "2.24.0"
 
+tempoD-II-XIIa = \tempoMarkup "[Tempo deest]"
+tempoD-II-XIIba = \tempoMarkup "Adagio"
+  tempoD-II-XIIbb = \tempoMarkup "Allegro"
 tempoD-II-XIIc = \tempoMarkup "[Tempo deest]"
 tempoD-II-XIId = \tempoMarkup "[Tempo deest]"
 
