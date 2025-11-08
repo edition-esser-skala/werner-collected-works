@@ -1,6 +1,7 @@
 \version "2.24.0"
 
-tempoD-V-II = \tempoMarkup "[Tempo deest]"
+tempoD-II-XIIc = \tempoMarkup "[Tempo deest]"
+tempoD-II-XIId = \tempoMarkup "[Tempo deest]"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

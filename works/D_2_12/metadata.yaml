@@ -1,0 +1,36 @@
+title: 4 Offertoria
+id: WerW D.2.12
+genre: offertorium
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms. Mus. 179
+    license: public domain
+    notes: comprises 1st and 2nd movement, as well as beginning of 3rd movement (bars 1–63)
+  A2:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.15974
+    rism: 600101187
+    url: https://data.onb.ac.at/dtl/3451806
+    license: public domain
+    note: comprises end of 3rd movement (bars 64–85), as well as 4th movement
+tocstyle: default
+toc:
+  4 & – & vl & In \B2, staves for vl 1/2 are empty. Here, they play colla parte wit S and A, respectively. \\
+lyrics:
+  Panis angelicus\\
+  fit panis hominum,\\
+  dat panis coelicus\\
+  figuris terminum.\\
+  O res mirabilis\\
+  manducat Dominum\\
+  pauper servus et humilis.\\
+  (Cantus Index 830301:06)\\[1ex]
+  O quam suavis est, Domine, spiritus tuus,\\
+  qui ut dulcedinem tuam in filios demonstrares\\
+  pane suavissimo de coelo praestito,\\
+  esurientes reples bonis,\\
+  fastidiosos divites dimittens inanes.\\
+  (\bibleverse{Wis}(12:1,16:21))

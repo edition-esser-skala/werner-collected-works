@@ -1,9 +1,82 @@
 \version "2.24.0"
 
-D-V-IIITenore = {
+D-II-XIIcTenore = {
   \relative c' {
     \clef "treble_8"
-    \key d \dorian \time 4/2 \tempoD-V-III \autoBeamOff
+    \key c \major \time 3/4 \tempoD-II-XIIc \autoBeamOff
+    R2.*40 %40
+    \mvDl c4\fE^\tuttiE c c
+    h4. h8 h4
+    a a a
+    a4. a8 a4
+    g! h h %45
+    h4. h8 h4
+    c e2
+    dis e4
+    e e4. dis8
+    e4 r r %50
+    R2.
+    e4 e e
+    a,4. a8 a4
+    d d d
+    g,4. g8 g4 %55
+    c c e
+    d4. d8 e4
+    e2 f4
+    d2 d4
+    c c4. h8 %60
+    c4 r r
+    R2.*13 %74
+    \mvTr e4\f^\tutti c c~ %75
+    c8[ a] d2~
+    d8[ h] e2~
+    e8[ c] f4 d
+    r8 e16([ d] e8[ c] a4)
+    h r r %80
+    d8 e d2
+    e4 r r
+    R2.*2
+    R2.\fermata \bar "|." %85 finis
+  }
+}
+
+D-II-XIIcTenoreLyrics = \lyricmode {
+  O res mi -- %41
+  ra -- bi -- lis,
+  o res mi --
+  ra -- bi -- lis
+  man -- du -- cat %45
+  Do -- mi -- num
+  pau -- per
+  ser -- vus
+  et hu -- mi --
+  lis. %50
+
+  O res mi --
+  ra -- bi -- lis,
+  o res mi --
+  ra -- bi -- lis %55
+  man -- du -- cat
+  Do -- mi -- num
+  pau -- per
+  ser -- vus
+  et hu -- mi -- %60
+  lis.
+
+  A -- men, a -- %75
+  _
+  _
+  _ men,
+  a --
+  men, %80
+  a -- men, a --
+  men. %82 finis
+}
+
+D-II-XIIdTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \dorian \time 4/2 \tempoD-II-XIId \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
     d1. d2
     d a1 a2
@@ -48,7 +121,7 @@ D-V-IIITenore = {
   }
 }
 
-D-V-IIITenoreLyrics = \lyricmode {
+D-II-XIIdTenoreLyrics = \lyricmode {
   O quam
   sua -- vis est,
   Do -- mi -- ne, spi --

@@ -7,11 +7,11 @@
 
 \book {
   \bookpart {
-    \section "D.5.3" "O quam suavis est"
+    \section "xxx" ""
     \addTocEntry
     \score {
       <<
-        \new Staff { \D-V-IIIOrgano }
+        \new Staff { \xxxOrgano }
       >>
     }
   }

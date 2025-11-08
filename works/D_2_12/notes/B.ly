@@ -1,9 +1,82 @@
 \version "2.24.0"
 
-D-V-IIIBasso = {
+D-II-XIIcBasso = {
   \relative c {
     \clef bass
-    \key d \dorian \time 4/2 \tempoD-V-III \autoBeamOff
+    \key c \major \time 3/4 \tempoD-II-XIIc \autoBeamOff
+    R2.*40 %40
+    \mvDl c'4\fE^\tuttiE c c
+    gis4. gis8 gis4
+    a a a
+    dis,4. dis8 dis4
+    e g! e %45
+    h'4. h8 g4
+    c2 a4
+    h2 g4
+    a h4. h8
+    e,2 r4 %50
+    R2.
+    e4 e' e
+    cis4. cis8 cis4
+    d, d' d
+    h4. h8 h4 %55
+    c! e, c
+    g'4. g8 e4
+    a2 f4
+    g4.( a8) h4
+    c g4. g8 %60
+    c,4 r r
+    R2.*13 %74
+    r4 \mvTr e\f^\tutti e %75
+    f2.
+    g
+    a2 h4
+    c( e, f)
+    g r r %80
+    g8 c g2
+    c,4 r r
+    R2.*2
+    R2.\fermata \bar "|." %85 finis
+  }
+}
+
+D-II-XIIcBassoLyrics = \lyricmode {
+  O res mi -- %41
+  ra -- bi -- lis,
+  o res mi --
+  ra -- bi -- lis
+  man -- du -- cat %45
+  Do -- mi -- num
+  pau -- per
+  ser -- vus
+  et hu -- mi --
+  lis. %50
+
+  O res mi --
+  ra -- bi -- lis,
+  o res mi --
+  ra -- bi -- lis %55
+  man -- du -- cat
+  Do -- mi -- num
+  pau -- per
+  ser -- vus
+  et hu -- mi -- %60
+  lis.
+
+  A -- men, %75
+  a --
+  _
+  _ men,
+  a --
+  men, %80
+  a -- men, a --
+  men. %82 finis
+}
+
+D-II-XIIdBasso = {
+  \relative c {
+    \clef bass
+    \key d \dorian \time 4/2 \tempoD-II-XIId \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
     d1. d2
     d1 d2 d
@@ -47,7 +120,7 @@ D-V-IIIBasso = {
   }
 }
 
-D-V-IIIBassoLyrics = \lyricmode {
+D-II-XIIdBassoLyrics = \lyricmode {
   O quam
   sua -- vis est,
   Do -- mi -- ne, spi --

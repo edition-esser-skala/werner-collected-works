@@ -1,9 +1,94 @@
 \version "2.24.0"
 
-D-V-IIIAlto = {
+D-II-XIIcAlto = {
   \relative c' {
     \clef treble
-    \key d \dorian \time 4/2 \tempoD-V-III \autoBeamOff
+    \key c \major \time 3/4 \tempoD-II-XIIc \autoBeamOff
+    R2.*40 %40
+    \mvDl g'4\fE^\tuttiE g g
+    h4. h8 h4
+    e,4 e e
+    fis4. fis8 fis4
+    e e g! %45
+    fis4. fis8 g4
+    e2 a4
+    fis2 g4
+    fis fis4. fis8
+    e4 r r %50
+    R2.
+    g4 g g
+    g4. g8 g4
+    f! f f
+    f4. f8 f4 %55
+    e g g
+    g4. g8 g4
+    a2 a4
+    g2 g4
+    g g4. g8 %60
+    g4 r r
+    R2.*7 %68
+    r4 \mvTr d2\pE^\soloE
+    e8[ d] e2 %70
+    fis8[ e] \hA fis2
+    g4 a4. g16[ fis]
+    g2 fis4
+    g2 r4
+    \mvTr g2\f^\tutti g4 %75
+    r8 a16[ g] a8[ f!] d4
+    r8 h'16[ a] h8[ g] e4
+    r8 c'16[ h] c8[ a g f]
+    e4 r8 g([ f e)]
+    d4 r r %80
+    g8 g g2
+    g4 r r
+    R2.*2
+    R2.\fermata \bar "|." %85 finis
+  }
+}
+
+D-II-XIIcAltoLyrics = \lyricmode {
+  O res mi -- %41
+  ra -- bi -- lis,
+  o res mi --
+  ra -- bi -- lis
+  man -- du -- cat %45
+  Do -- mi -- num
+  pau -- per
+  ser -- vus
+  et hu -- mi --
+  lis. %50
+
+  O res mi --
+  ra -- bi -- lis,
+  o res mi --
+  ra -- bi -- lis %55
+  man -- du -- cat
+  Do -- mi -- num
+  pau -- per
+  ser -- vus
+  et hu -- mi -- %60
+  lis.
+
+  A -- %69
+  _ _ %70
+  _ _
+  _ _ _
+  _ _
+  men,
+  a -- men, %75
+  a -- _ _
+  _ _ _
+  _ _
+  men, a --
+  men, %80
+  a -- men, a --
+  men. %82 finis
+}
+
+D-II-XIIdAlto = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 4/2 \tempoD-II-XIId \autoBeamOff
       \set Staff.timeSignatureFraction = 2/2
     f1. f2
     f1 f2 f
@@ -50,7 +135,7 @@ D-V-IIIAlto = {
   }
 }
 
-D-V-IIIAltoLyrics = \lyricmode {
+D-II-XIIdAltoLyrics = \lyricmode {
   O quam
   sua -- vis est,
   Do -- mi -- ne, spi --
