@@ -17,7 +17,8 @@ toe: |
     & 18f & vl 2 & bars swapped in \B1 \\
     & 24  & vl 1 & 1st \eighthNote\ in \B1: c″8 \\
     & 99  & vl 1 & 1st \eighthNote\ in \B1: e″8 \\
-    & 123 & vl 1 & rhythm of 2nd \halfNote\ in \B1: 4 × \sixteenthNoteDotted~\thirtysecondNote \\
+    & 123 & vl 1 & rhythm of 2nd \halfNote\ in \B1:
+                   4 × \sixteenthNoteDotted~\thirtysecondNote \\
   3 & 7   & vl 2 & 15th \sixteenthNote\ in \B1: f′16 \\
     & 16  & S    & rhythm of 1st and 3rd \quarterNote\ in \B1: 8–16–16 \\
     & 33  & T    & 7th \eighthNote\ in \B1: g′8 \\

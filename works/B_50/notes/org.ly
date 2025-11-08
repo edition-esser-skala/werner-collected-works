@@ -966,3 +966,136 @@ B-LSanctusBassFigures = \figuremode {
   \bo <[6]>2 <4> \bc <[3]>
   r1. %67 finis
 }
+
+B-LBenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoB-LBenedictus
+    \mvTr f,8\pE-\solo f' e c f4 r8 f
+    b,4 c f, r
+    R1
+    r8 c'' h g r c, h g
+    r c' h g e f g g, %5
+    c r r4 f8 a e4
+    f f,8 a b4 g8 b
+    c4 e8 c f b, c c,
+    f\fE d' a b c8. d16 e8 c
+    d b c c, f4 r\fermata \markOsannaUtSupra \bar "||" %10 finis
+  }
+}
+
+B-LBenedictusBassFigures = \figuremode {
+  r4 \bo <[6]>2.
+  r1
+  r
+  r4 <6>2 q4
+  r q \bc <[6]> <6 4>8 <5 _!> %5
+  r2. <6>4
+  \bo <[4]>8 \bc <[3]>4. <5>8 <6>4.
+  r2 r8 q <4> <3>
+  r <6> q q <8> <7> <5>4
+  q8 <6> <6 4> <5 3> r2 %10 finis
+}
+
+B-LAgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoB-LAgnus
+    \mvTr c2\pE-\solo h
+    c4 c'8 b16 a g8 g g g
+    f4 r fis8 fis fis fis
+    e2 \mvTr c'4.\f-\tutti c8
+    cis,2 d'4. d8 %5
+    dis,2 e4. e8
+    \mvTr c!4\pE-\conPedale a h c
+    a h e2
+    cis-\solo d!
+    e f %10
+    e4 f d e
+    c d e e,
+    a2 ais
+    h cis
+    d4. c8 h2 %15
+    e8 e' c a h e, h4
+    e r8 d! \mvTr c4.\f-\tutti c8
+    f4. a8 d,4. f8
+    d c h c g4 r8 \mvTr g\pE-\conPedale
+    c g r g\ppE c g' e h \noBreak %20
+    c2 g\fermata \bar "||"
+    \time 3/2 \tempoB-LDona \newSpacingSection
+      \mvTr c'2.\f-\tutti h4 c2 \noBreak
+      g r4 g c2
+    g r4 \mvTr g,\p-\conPedale c2
+    g4 g'2\f-! e4 a f %25
+    d g e c f2
+    d4 g e c h c
+    a d h g c2
+    f! g c,
+    d e fis %30
+    g4 e h c d d,
+    g g'2 fis4 g2
+    d r4 d g g,
+    d'2 r4 \mvTr d\pE-\conPedale g g,
+    d' \clef "treble_8" d'2-!\fE << { g2 e4 } \\ { h4 e c } >> %35
+    a d h \clef bass g2 e4
+    a f! d g e c
+    f2 d4 g e c
+    f2 d4 g e a
+    f d h c g' c, %40
+    g2 r4 g' c2
+    g r4 \mvTr g,\pE-\conPedale c2
+    g r r
+    r4 a'\fE e f g g,
+    c2 a4-\conPedale f g2 %45
+    c, r r\fermata \bar "|." %46 finis
+  }
+}
+
+B-LAgnusBassFigures = \figuremode {
+  r2 <5>
+  <9 4>8 <8 3>4. <4\+ _->2
+  <6> <6\\ 5[!]>
+  <8 6 4>8 <\t 5 _+>4. <[5!]>2
+  <7- 5> <6- 4>8 <5 3>4. %5
+  <7[!] 5 [_+]>2 <6 4>8 <5[!] 3>4.
+  \bo <[5 _]>8 <6> <5> <6\\> <7 _+>4 <5>8 <6>
+  <6\\ 5>4 \bc <[5\+ _+]>2.
+  <6>2 <9>8 <8>4.
+  <6[!]>2 <5 9>8 <6 8>4. %10
+  <7 _+>4 <5> <7>8 <6-> <9 4> <8 _+>
+  <6>2 <6 4>4 <5 _+>
+  r2 <6\\ [_+]>
+  <5\+>4 <6> <[6!]>2
+  <_+> <7 [5\+] _+> %15
+  r4. <6\\>8 <7 [5\+] _+>4 \bo <[5\+] 4>8 \bc <[\t] _+>
+  r4. <6 [_!]>8 r2
+  r4. <_+>2 <5[!]>8
+  <6> q <6 5>2.
+  r2. \bo <[6]>8 \bc q %20
+  <9>4 <8>2.
+  r2. \bo <[6]>4 <9> \bc <[8]>
+  r1.
+  r
+  r2. <6>4 <3> q %25
+  <8> <3> \bo <[6]>1
+  r1 \bc q2
+  r4 <_+> <[6]>1
+  r2 <9>4 <8> <5> <6>
+  <5 _+> <6 \t> <5> <6> q2 %30
+  \bo <[9]>4 \bc <[5]> <6> <6 5> <4> <_+>
+  r2. <[6]>4 <9> <8>
+  <_+>2. q
+  q2. \bo <[_+]>
+  \bc q1 r4 <8> %35
+  <10 8> <5 _+> <6>2. <6>4
+  <3> q <8> <3> <6>2
+  <5>4 <6>2. q2
+  <5>4 <6>2. q2
+  r <6 5>1 %40
+  r1.
+  r
+  r
+  r2 <6>4 <6 5> <4> <3>
+  r1 \bo <[4]>4 \bc <[3]> %45
+  r1. %46 finis
+}

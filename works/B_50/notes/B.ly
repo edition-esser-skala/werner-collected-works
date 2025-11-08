@@ -682,3 +682,95 @@ B-LSanctusBassoLyrics = \lyricmode {
   cel --
   sis. %67 finis
 }
+
+B-LAgnusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoB-LAgnus
+    R1*3
+    r2 \mvTr c'4.\fE^\tutti c8
+    cis,4 cis d'4. d8 %5
+    dis,4 dis e4.\p e8
+    c!4 a h c
+    a( h) e r
+    R1*4 %12
+    r8 \mvTr a4\pE^\solo h16([ c)] fis,4 fis
+    r8 d'([ h)] g e([ cis)] a!4
+    r8 a'4 h16([ c!)] dis,4 dis %15
+    e8. e16 c'8 a h([ g16 e] h4)
+    e r \mvDl c'4.\fE^\tutti c,8
+    f4 f8 a d,4 d8 f
+    d c h([ c)] g4 r8 g'\pE
+    c g r g, c([ g')] e([ h)] \noBreak %20
+    c2 g\fermata \bar "||"
+    \time 3/2 \tempoB-LDona \newSpacingSection
+      \mvDl c'2.\fE^\tutti h4 c2 \noBreak
+    g r4 g( c c,)
+    g'2 r4 g,(\p c2)
+    g4 g'2\f e4 a( f) %25
+    d( g) e c f2
+    d4 g( e) c h c
+    a d h g r c(
+    f!2) g c,
+    d e fis %30
+    g4( e) h( c) d2
+    g,4 g'2 fis4 g2
+    d r4 d( g2)
+    d r4 d(\p g g,)
+    d'2 r r %35
+    r r4 g2\f e4
+    a( f!) d( g) e c
+    f2 d4 g( e) c
+    f2 d4 g( e) a
+    f( d) h( c) g'( c,) %40
+    g2 r4 g'( c2)
+    g r4 g,(\p c2)
+    g r r
+    r4 a'(\f e) f g2
+    c,4 c'( a) f g2 %45
+    c, r r\fermata \bar "|." %46 finis
+  }
+}
+
+B-LAgnusBassoLyrics = \lyricmode {
+  Mi -- se -- %4
+  re -- re, mi -- se -- %5
+  re -- re, mi -- se --
+  re -- re no -- bis,
+  no -- bis.
+
+  Mi -- se -- re -- re, %13
+  mi -- se -- re -- re,
+  mi -- se -- re -- re, %15
+  mi -- se -- re -- re no --
+  bis. A -- gnus
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun -- di, pec --
+  ca -- ta, pec -- ca -- ta %20
+  mun -- di:
+  Do -- na no --
+  bis pa --
+  cem, pa --
+  cem, do -- na no -- %25
+  bis pa -- cem, no --
+  bis pa -- cem, do -- na
+  no -- bis pa -- cem, pa --
+  cem, do --
+  na no -- bis, %30
+  no -- bis pa --
+  cem, do -- na no --
+  bis pa --
+  cem, pa --
+  cem, %35
+  do -- na
+  no -- bis pa -- cem,
+  no -- bis pa -- cem,
+  do -- na no -- bis
+  pa -- cem, pa -- %40
+  cem, pa --
+  cem, pa --
+  cem,
+  no -- bis pa --
+  cem, pa -- cem, pa -- %45
+  cem. %46 finis
+}

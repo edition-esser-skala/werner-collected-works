@@ -503,3 +503,74 @@ B-LSanctusViolinoI = {
     R1.\fermata \bar "|." %67 finis
   }
 }
+
+B-LBenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoB-LBenedictus
+    r2 r8 f'16\p c \tuplet 3/2 8 { c b a } a8
+    \sbOn \tuplet 3/2 8 { d16 c b a g f e d c b a g } \sbOff a4 r8 c'~
+    c g'16( f) e\trill d c8~ c h16 a \hA h4\trill
+    c8 r g16( h) d( f) e8 r g,,16( h) d( f)
+    e8 r g'16( d) h( g) c,8 r r4 %5
+    \sbOn g'64( a b!16.) a64( b c16.) b64( c d16.) g,64( a b16.) \sbOff a4 r
+    r16 a\trill c\trill f\trill a8 f, r16 b\trill d\trill g\trill b8 g,
+    r16 c-! e-! g-! c-! g-! e-! c-! r4 r8 g\f
+    \sbOn a16 f \tuplet 3/2 8 { b c d c b a } g f e8 b'~ \tuplet 3/2 8 { b16 c d } c b
+    \tuplet 3/2 8 { a b c d c b } \sbOff \appoggiatura a8 g8.\trill f16 f4 r\fermata \markOsannaUtSupra \bar "||" %10 finis
+  }
+}
+
+B-LAgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-LAgnus
+    e'2\p d4. h8
+    g4. g16 a b4. b8
+    a4 r r8 a a a
+    a( gis) gis4 r8 e'\f e e
+    e4 r r8 f f f %5
+    fis4 r r8 e h g
+    R1
+    r2 r8 h\p h h
+    e2~ e8 d f4
+    g2~ g8 f a4 %10
+    gis8.\trill fis?32 \hA gis a8 a, f'4. e8
+    e( c) a( f') e4. e8
+    e4 r r8 ais,16( cis) cis( e) e( d)
+    d4 r r8 cis16( e) e( g) g( e)
+    fis4 r r8 dis16( fis) fis( a) a( g) %15
+    g?4. a8~ a16 h g8 fis4
+    e8 h32(\f d!16.) c32( e16.) d32( f16.) e8 c16 e g8 c
+    a f16. c32 a4 r16 d a16. f32 d8 a'
+    h \tuplet 3/2 8 { c16 d e } d8 c h4 r16 d\p \tuplet 3/2 8 { d[ e f] }
+    e8 d r16 d,\pp \tuplet 3/2 8 { d[ e f] } e8 d r4 \noBreak %20
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-LDona \newSpacingSection
+      e'8\f f! g2 g4 g8 f e4 \noBreak
+    d16( f8.) e16( g8.) f16( a8.) d,16( f8.) e16( g8.) c,16( e8.)
+    d16(\p f8.) e16( g8.) f16( a8.) d,16( f8.) e16( g8.) c,16( e8.)
+    d2 r r %25
+    r r4 c2\f a4
+    d h g2 r4 c~
+    c a d h e c~
+    c a h8 c d h c d e c
+    a4 d h e d2~ %30
+    d4 g2 g4 g fis
+    g2 r r
+    a,16( c8.) h16( d8.) c16( e8.) a,16( c8.) h16( d8.) g,16( h8.)
+    a16(\p c8.) h16( d8.) c16( e8.) a,16( c8.) h16( d8.) g,16( h8.)
+    a2 r r4 c~\fE %35
+    c a d h2 g4
+    r2 r r4 c~
+    c a d h g c
+    a d2 h4 e c
+    a f'2 e4 d e %40
+    d16( f8.) e16( g8.) f16( a8.) d,16( f8.) e16( g8.) c,16( e8.)
+    d16(\p f8.) e16( g8.) f16( a8.) d,16( f8.) e16( g8.) c,16( e8.)
+    d16(\f f8.) e16( g8.) f16( a8.) g16( h8.) a16( c8.) h16( d8.)
+    c4.\trill h16 a g4 a d, g
+    e2 r r %45
+    R1.\fermata \bar "|." %46 finis
+  }
+}

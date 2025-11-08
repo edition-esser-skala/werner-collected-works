@@ -1,5 +1,9 @@
 \version "2.24.0"
 
+markOsannaUtSupra = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Osanna ut supra"
+}
 conPedale = \markup \remark "con Pedale"
 
 tempoB-LKyrie = \tempoMarkup "Vivace"
@@ -23,6 +27,9 @@ tempoB-LCredo = \tempoMarkup "Allegro"
 tempoB-LSanctus = \tempoMarkup "Adagiose"
   tempoB-LPleni = \tempoMarkup "Spirituoso"
   tempoB-LOsanna = \tempoMarkup "Osanna · Molto allegro"
+tempoB-LBenedictus = \tempoMarkup "Larghetto"
+tempoB-LAgnus = \tempoMarkup "Adagio"
+  tempoB-LDona = \tempoMarkup "Vivace"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

@@ -659,3 +659,121 @@ B-LSanctusAltoLyrics = \lyricmode {
   ex -- cel --
   sis. %67 finis
 }
+
+B-LBenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoB-LBenedictus
+    \mvTr c16([\pE^\solo f)] a([ c)] c,([ e)] g b \tuplet 3/2 8 { a([ g f)] } f8 r c
+    \sbOn d16[ b' \tuplet 3/2 8 { a g f] e[ d c b a g] } \sbOff a8 c f16([ a)] a c
+    g8.([\trill a32 h]) c8 a \appoggiatura g f4.\trill f8
+    e c g'2.~
+    g4~ g8.[ a32 h] c16([ g)] a([ c,)] \appoggiatura e8 d8.\trill c16 %5
+    c4 r a16([ c)] f([ a)] g([ e)] c b!
+    b([\trill a)] a8 r f' \tuplet 3/2 8 { d16([ c b)] } b8 r g'
+    \tuplet 3/2 8 { e16([ d c)] } c8 r g' a16([ f)] b g \appoggiatura f8 e8.\trill f16
+    f4 r r2
+    R1\fermata \markOsannaUtSupra \bar "||" %10 finis
+  }
+}
+
+B-LBenedictusAltoLyrics = \lyricmode {
+  Be -- ne -- di -- ctus, qui ve -- nit, qui
+  ve -- _ nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi --
+  ni, in no --
+  mi -- ne Do -- mi -- %5
+  ni, be -- ne -- di -- ctus, qui
+  ve -- nit, qui ve -- nit, qui
+  ve -- nit in no -- mi -- ne Do -- mi --
+  ni. %9 finis
+}
+
+B-LAgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoB-LAgnus
+    r8 \mvTr c([\pE^\solo e)] g f([ d)] h g16[( f')]
+    f8([ e)] e16([ f)] g([ a)] b8 cis, cis4\trill
+    d8 f a f dis2\trill
+    e r
+    r8 \mvTr g4\fE^\tutti g8 g([ f)] f4 %5
+    r8 a4 a8 a([ g)] g4
+    g8([\p a)] a4 a8([ h)] g([ a)]
+    fis2\trill e4 r
+    R1*8 %16
+    r2 \mvDl g4.\fE^\tutti g8
+    f f4 e8 f4 f8 f
+    f e f([ e)] d4 r
+    r8 d\pE g4 g, g'~ \noBreak %20
+    g2 g\fermata \bar "||"
+    \time 3/2 \tempoB-LDona \newSpacingSection
+      \mvDl g2.\fE^\tutti g4 g2 \noBreak
+    g r4 g~ g2
+    g r4 d(\pE e2)
+    d r r %25
+    r4 g2\fE e4 a f~
+    f d r2 r4 c~
+    c a d h e c~
+    c a h8[ c d h] c[ d e c]
+    a4 d h e d2\trill %30
+    d4 g2 g4 g( fis)
+    g g2( a g4)
+    fis2 r4 \hA fis( d g)
+    fis2 r4 \hA fis(\p d g)
+    fis2 r4 g2\f e4 %35
+    a( fis) d2 r
+    r r4 g2 e4
+    a( f!2) d4 g( e)
+    c f2 d4 g e
+    r a( g) g g2 %40
+    g r4 g~ g2
+    g r4 g~\p g2
+    g r r
+    r4 e8([\f f] g4) a g2~
+    g4 g a2( g) %45
+    g r r\fermata \bar "|." %46 finis
+  }
+}
+
+B-LAgnusAltoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta mun --
+  di, pec -- ca -- ta mun --
+  di:
+  Mi -- se -- re -- re, %5
+  mi -- se -- re -- re,
+  mi -- se -- re -- re
+  no -- bis.
+
+  A -- gnus %17
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun -- di,
+  pec -- ca -- ta mun -- %20
+  di:
+  Do -- na no --
+  bis pa --
+  cem, pa --
+  cem, %25
+  pa -- _ _ _
+  cem, pa --
+  _ _ _ _ _
+  _ _ _
+  _ cem, no -- bis pa -- %30
+  cem, do -- na no --
+  bis pa --
+  cem, pa --
+  cem, pa --
+  cem, no -- bis %35
+  pa -- cem,
+  pa -- cem,
+  no -- bis pa --
+  cem, do -- na no -- bis,
+  no -- bis pa -- %40
+  cem, pa --
+  cem, pa --
+  cem,
+  do -- na no --
+  bis pa -- %45
+  cem. %46 finis
+}

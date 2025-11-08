@@ -633,3 +633,85 @@ B-LSanctusTenoreLyrics = \lyricmode {
   _ _ _
   sis. %67 finis
 }
+
+B-LAgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoB-LAgnus
+    R1*4
+    \mvTr e4.\fE^\tutti e8 d4 d %5
+    fis4. fis8 e4 e
+    r8 c4\p c8 h([ fis')] e([ c)]
+    c4( h) h r
+    R1*8 %16
+    r2 \mvDl c4.\fE^\tutti c8
+    a4 a8 a a4 d8 c!
+    d a g4 g r8 h\p
+    c h r d e8[ d e d]~ \noBreak %20
+    d c16([ h)] c4\trill h2\fermata \bar "||"
+    \time 3/2 \tempoB-LDona \newSpacingSection
+      \mvDl e2.\fE^\tutti d4 d( c) \noBreak
+    h2 r4 h( c2)
+    h r4 g~\p g2
+    g r4 c2\f a4 %25
+    d h g( c) a2
+    r r4 g2 e4
+    a( fis) d d' g,2
+    r4 a2( g) e4
+    r fis e8[ \hA fis g e] \hA fis[ g] a4~ %30
+    a g8[ a] h4 a a2\trill
+    h4 h2 d4 h2
+    a4 r r a( h2)
+    a r4 a(\p h2)
+    a4 d2\f h4 e c %35
+    a d h g r c~
+    c a d( h) g2
+    r4 a2 h4 c2~
+    c4 a d2 c~
+    c4 d2 c4 h( c) %40
+    h2 r4 h( g c)
+    h2 r4 d(\p e2)
+    d r r
+    r4 e2\f d4 d2
+    e c2.( h4) %45
+    c2 r r\fermata \bar "|." %46 finis
+  }
+}
+
+B-LAgnusTenoreLyrics = \lyricmode {
+  Mi -- se -- re -- re, %5
+  mi -- se -- re -- re,
+  mi -- se -- re -- re
+  no -- bis.
+
+  A -- gnus %17
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun -- di, pec --
+  ca -- ta, pec -- ca -- %20
+  ta mun -- di:
+  Do -- na no --
+  bis pa --
+  cem, pa --
+  cem, do -- na %25
+  no -- bis pa -- cem,
+  do -- na
+  no -- bis pa -- cem,
+  pa -- cem,
+  pa -- _ _ _ %30
+  _ _ cem, pa --
+  cem, do -- na no --
+  bis pa --
+  cem, pa --
+  cem, do -- na, do -- na %35
+  no -- bis pa -- cem, pa --
+  cem, pa -- cem,
+  do -- na no --
+  bis, no -- bis __
+  pa -- cem, pa -- %40
+  cem, pa --
+  cem, pa --
+  cem,
+  no -- bis pa --
+  cem, pa -- %45
+  cem. %46 finis
+}
