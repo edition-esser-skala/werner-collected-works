@@ -498,7 +498,7 @@
     }
   }
   \bookpart {
-    \section "O.9" "Il Settèmbre, im Herbstmonat"
+    \section "O.10" "L’Ottòbre, im Weinmonat"
     \addTocEntry
     \paper { system-count = #7 }
     \score {
@@ -547,6 +547,58 @@
       <<
         \new Staff { \O-XeContinuo }
         \new FiguredBass { \O-XeBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "O.11" "Il Novèmbre, im Wintermonat"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-XIaContinuo }
+        \new FiguredBass { \O-XIaBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \O-XIbContinuo }
+        \new FiguredBass { \O-XIbBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-XIcContinuo }
+        \new FiguredBass { \O-XIcBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \O-XIdContinuo }
+        \new FiguredBass { \O-XIdBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-XIeContinuo }
+        \new FiguredBass { \O-XIeBassFigures }
       >>
     }
   }

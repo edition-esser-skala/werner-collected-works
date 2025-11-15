@@ -31,6 +31,9 @@ markTitle = #(define-music-function
     }
   #})
 
+altOne = \markup \remark \circle "1"
+altTwo = \markup \remark \circle "2"
+
 markGennaroI = \markTitle
   "1. Il Capo d’Anno diſſegnando il freddo con la Cronologia."
   "Neu-Jahrs-Anfang, zeiget an die kalt- und froſtige Zeit: dann auch gegenwärtige Jahr-Zahl in denen Noten."
@@ -221,6 +224,28 @@ markOttobreV = \markTitle
   "5. Che viva L’Imperatrice Thereſia."
   "Es lebe Ihro Maj. die Kayſerin Thereſia."
 
+markNovembreI = \markTitle
+  "1. Il Studioſo Melancolico."
+  "Der melancholiſche Student."
+markNovembreIIa = \markTitle
+  "2. Menuet il Giorno di 10. hore."
+  "Die Tags-Länge 10. Stund, …"
+markNovembreIIb = \markTitle
+  "La notte di 14. hore."
+  "… die Nacht 14. Stund."
+markNovembreIII = \markTitle
+  "3. La Tempeſtà di mare."
+  "Ein Sturm-Wetter auf der See."
+markNovembreIVa = \markTitle
+  "4. Menuet il Giorno di 9. hore."
+  "Die Tags-Länge 9. Stund, …"
+markNovembreIVb = \markTitle
+  "La notte di 15. hore."
+  "… die Nacht 15. Stund."
+markNovembreV = \markTitle
+  "5. Il Molino."
+  "Die Mahl-Mühl."
+
 
 \layout {
   \set Score.doubleRepeatBarType = #":|.|:"
@@ -289,6 +314,12 @@ tempoO-Xb = \tempoMarkup "[Tempo deest]"
 tempoO-Xc = \tempoMarkup "[Tempo deest]"
 tempoO-Xd = \tempoMarkup "Allegro assai"
 tempoO-Xe = \tempoMarkup "Allegro assai"
+
+tempoO-XIa = \tempoMarkup "Allegro assai"
+tempoO-XIb = \tempoMarkup "[Tempo deest]"
+tempoO-XIc = \tempoMarkup "Tempo di bon gusto"
+tempoO-XId = \tempoMarkup "[Tempo deest]"
+tempoO-XIe = \tempoMarkup "Tempo passato"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

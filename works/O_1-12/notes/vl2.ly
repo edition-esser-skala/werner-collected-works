@@ -2684,3 +2684,234 @@ O-XeViolinoII = {
     d4 r\fermata \bar ":|." %182 finis
   }
 }
+
+O-XIaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/4 \tempoO-XIa
+      \markNovembreI
+    c'4\p c, r
+    d' d, r
+    h' h, r
+    c' c, r
+    cis' cis r %5
+    d d, r
+    h' h, r
+    c'! c, r
+    a' a, r
+    a' a, r %10
+    a' a, r
+    gis'8(\f e') f( e) dis( e)
+    dis4 r r
+    r8 d e( d) cis( d)
+    cis4 r r %15
+    r8 c d( c) h( c)
+    h4 r r
+    R2.
+    r4 cis(\p d)
+    d2.~ %20
+    d4 h( c!)
+    c2.~
+    c4 a( h)
+    h2 g8 h
+    c4\f e e, %25
+    r c' f,
+    r d g
+    r e e
+    r c e
+    r c f %30
+    e8 d c4 h
+    c2 r4
+    e\p c r
+    c f r
+    e8 d c4 h \noBreak %35
+    c2 r4 \bar ":|.|:"
+    e'4\f e, r \noBreak
+    f' c r
+    cis cis, r
+    d' a r %40
+    f'2.~\p
+    f4 d( e)
+    e2.~
+    e4 cis( d)
+    d2.~ %45
+    d4 h!( cis)
+    cis2 a8( \hA cis)
+    d4 d, r
+    d'\f d, r
+    b' d, r %50
+    h' d, r
+    c'! c, r
+    gis' e' r
+    a, e' d8 c
+    h a g!4 fis %55
+    e2 r4
+    a2\p r4
+    r8 c! d( c) h( c)
+    h4 r r
+    r8 h c( h) a( h) %60
+    a4 r r
+    r8 a h( a) gis( a)
+    gis4 r r
+    r c\f c,
+    r c' c, %65
+    r c2
+    \tuplet 3/2 4 { d8 c h } a4 gis
+    a c'\p c,
+    r c' c,
+    r c2 %70
+    \tuplet 3/2 4 { d8 c h } a4 gis
+    a2 r4\fermata \bar ":|." %72 finis
+  }
+}
+
+O-XIbViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/4 \tempoO-XIb
+      \set Score.currentBarNumber = #73
+      \markNovembreIIa
+    e'2.
+    c'4 f,( e)
+    h' e,( dis) %75
+    \grace dis8 e2 r4
+    a,8 b' a4 g!
+    \grace g8 f2 r4
+    g,,8 a' g4 f
+    e c'2 %80
+    a'8( a,) \grace c h2\trill \noBreak
+    c r4 \bar ":|.|:"
+    \markNovembreIIb e4( fis) g~ \noBreak
+    g fis e~
+    e dis c!~ %85
+    c h a
+    g e2
+    h'4 e,2
+    c'8( e,) \grace g fis2\trill
+    e r4 %90
+    f'!( e) dis
+    h' e,, r
+    b'( a) gis
+    e' d8 c h a
+    a'( a,) \grace c h2\trill %95
+    a r4\fermata \bar ":|." %96 finis
+  }
+}
+
+O-XIcViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/2 \tempoO-XIc
+      \set Score.currentBarNumber = #97
+      \markNovembreIII
+    a''8\fE a,16 a a8 a a4 a a16 h c h a[ h c d]
+    e8 e,16 e e8 e e4 e e16 fis gis \hA fis e[ \hA fis \hA gis e]
+    a8 a,16 a a8 a a4 a a16 h c h a[ h c d]
+    e8 e'16 e e8 e, e16 e e e e[ e e e] e4 r %100
+    r8 c'4 e8 a, f4 a8 d, d d4
+    r8 h'4 d8 g, e4 g8 c, c c4
+    r8 a'4 c8 f, d4 f8 h, h h4
+    c8 d16 e f g a h c8 h16 a g f e d c8 d16 e f g a h
+    c\p e e e e[ e e e] e e e e e[ e e e] d d d d d[ d d d] %105
+    d d d d d[ d d d] d d d d d[ d d d] c c c c c[ c c c]
+    c c c c c[ c c c] c c c c c[ c c c] h h h h h[ h h h]
+    h8\f g4 h8 e, a4 c8 h4 h,
+    e8 fis16 g a h cis dis e8 d16 c? h a g fis e4 r \bar ":|.|:"
+    cis'16(\p d8.) d16( e8.) e16( d8.) d16( cis8.) cis16( a8.) \hA cis16( e8.) %110
+    d8\f cis16 h a g f e d8 e16 f g a h cis d4 r
+    h16(\p c8.) c16( d8.) d16( c8.) c16( h8.) h16( g8.) h16( d8.)
+    c8\f h16 a g f e d c8 d16 e f g a h c4 r
+    c\p r r cis d16( c8.) d16([ c) h( c)]
+    h4 r r h c16( b8.) c16([ \hA b) a( \hA b)] %115
+    a4 r r a h16( a8.) h16([ a) gis( a)]
+    gis4 r r \hA gis a16( g8.) a16([ g) f( g)]
+    f2 r4 f f f
+    e8\f fis16 gis a h c d e8 d16 c h a gis fis e4 r
+    r8 c'4 e8 a, f4 a8 d, d d4 %120
+    r8 h'4 d8 g, e4 g8 c, c c4
+    r8 a'4 c8 f, d4 f8 h, h h4
+    a8 h16 c d e fis gis a8 \hA gis16 \hA fis e d c h a8 h16 c d e fis gis
+    a( a'8.) g!16( f!8.) e16( f8.) e16( d8.) c16( h8.) a16( gis8.)
+    a8 h16 c d e fis gis a8 \hA gis16 \hA fis e d c h a4 r\fermata \bar ":|." %125 finis
+  }
+}
+
+O-XIdViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/4 \tempoO-XId
+      \set Score.currentBarNumber = #126
+      \markNovembreIVa
+    e'2.~
+    e8 c a4 a'
+    \grace a8 gis2 r4
+    e,8 a e'4 d
+    \grace d8 c2 r4 %130
+    a h8( cis) cis8.\trill h32( \hA cis)
+    d4 e8( f) f8.\trill e32( f)
+    g8( d) e( c) d( h) \noBreak
+    c2 r4 \bar ":|.|:"
+    g'2. \noBreak %135
+    g8 e a g f e
+    f2 r4
+    d,8 a' d4 c!
+    \grace c8 b2 a4
+    g8 d' g4 f %140
+    \grace f8 e2 d4
+    c8( g) a( f) g( e)
+    f2 r4
+    a8( h) cis( d) \tuplet 3/2 4 { e f g
+    f e d } f2 %145
+    e,8( fis) gis( a) \tuplet 3/2 4 { h c d
+    c h a } a'4~ a8 a,
+    f'( a,) \grace c h2\trill
+    a r4\fermata \bar ":|." %149 finis
+  }
+}
+
+O-XIeViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \minor \time 2/4 \tempoO-XIe
+      \set Score.currentBarNumber = #150
+      \markNovembreV
+    \tuplet 3/2 8 { c'16\fE c c c[ c c] c c c c[ c c]
+    h h h h[ h h] h h h h[ h h]
+    a a a a[ a a] a a a a[ a a]
+    gis h a \hA gis[ fis e] a h c h[ c d]
+    c d e e[ f! g!] a g f } e[ dis]
+    e8 e, r c'~ %155
+    c16 h h,8 r h'~
+    h16 a a,8 r a'~
+    a g!16. a32 h16. e,32 e'8~
+    e e,4 dis8
+    e e'4 d!8~ %160
+    \tuplet 3/2 8 { d16 c c c[ c c] dis dis dis e[ e e]
+    cis cis cis d[ d d] } d8 c~
+    c h!4 a8~
+    a g4 f8~
+    f g16. f32 e16. g32 c16. e32 %165
+    a,16. d32 c4 h8\trill
+    c g e e'
+    d h g d'
+    \tuplet 3/2 8 { c16 c c c[ c c] c c c c[ c c]
+    h h h h[ h h] h h h h[ h h] } %170
+    c8.\trill h32 c d16 a a8
+    h8.\trill a32( h) c16 g g8
+    a8.\trill g32 a h16. f32 d16. h'32
+    gis8.\trill fis32 \hA gis a16. e32 c16. a'32
+    f8. f16 e8 h'~ %175
+    \tuplet 3/2 8 { h16 h h a[ a a] b b b b[ b b]
+    a a a a[ a a] dis dis dis dis[ dis dis] }
+    e8 gis, a h~
+    h a gis dis
+    e e'\p dis d %180
+    cis c h a
+    gis8.\f gis16 a8 h
+    e,8. fis16 \tuplet 3/2 8 { gis gis gis a[ a a]
+    h h h a[ a a] } gis8 h~
+    h16 c a8 h gis %185
+    \tuplet 3/2 8 { a16 a a a'[ a a] e e e c[ c c]
+    a a, a a[ a a] } a4\fermata \bar "|." %187 finis
+  }
+}

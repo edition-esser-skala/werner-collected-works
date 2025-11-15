@@ -4755,17 +4755,426 @@ O-XeBassFigures = \figuremode {
   r %182 finis
 }
 
-% \repeat volta 2 {
+O-XIaContinuo = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 3/4 \tempoO-XIa
+      \markNovembreI
+    r4 a'\p a,
+    r a' a,
+    r a' a,
+    r a' a,
+    r a' a, %5
+    r a' a,
+    r a' a,
+    r a' a,
+    r f' f,
+    r c' c, %10
+    r dis' dis,
+    e2 r4
+    h'2\f r4
+    e2 r4
+    a2 r4 %15
+    d,2 r4
+    g2 r4
+    c,2 r4
+    f2\p r4
+    h,2 r4 %20
+    e2 r4
+    a,2 r4
+    d2 r4
+    g,2 r4
+    c'\f c, r %25
+    f f, r
+    g' g, r
+    a' a, r
+    e' e, r
+    f' f, r %30
+    g' g, r
+    c c'8 g c,4
+    r e\p e,
+    r f' f,
+    r g' g, \noBreak %35
+    c g c, \bar ":|.|:"
+    r c''\f c, \noBreak
+    r f f,
+    r a' a,
+    r d d, %40
+    d'2\p r4
+    g2 r4
+    c,2 r4
+    f2 r4
+    b,2 r4 %45
+    e2 r4
+    a,2 r4
+    d\f d' d,
+    r c'! c,
+    r b' b, %50
+    r h' h,
+    r a' a,
+    r gis' gis,
+    r a' a,
+    r h' h, %55
+    e h e,
+    cis'2\p r4
+    d2 r4
+    g,2 r4
+    c!2 r4 %60
+    f,2 r4
+    h2 r4
+    e,2 r4
+    a'\f a, r
+    f' f, r %65
+    c' c,
+    r d' e e,
+    a'\p a, r
+    f' f, r
+    c' c, r %70
+    d' e e,
+    << { a^\altOne e' a } \\ { a,2_\altTwo r4\fermata } >> \bar ":|." %72 finis
+  }
+}
 
-%     }
-%     \alternative {
-%       {  }
-%       {  }
-%     }
-%     \repeat volta 2 {
+O-XIaBassFigures = \figuremode {
+  r2.
+  r4 <6 4>2.
+  <7\\ 2>
+  <8 3>
+  <7! _+> %5
+  <6 4>
+  <7\\ 2>
+  <_!>
+  <5 3>
+  <8 6>4 <\t \t> %10
+  r <7 5 [_+]>2
+  <_+>2.
+  <7 [5\+] _+>
+  <7! _+>
+  <7[!] _+> %15
+  <7! _+>
+  <7! 3>
+  <3>
+  r
+  <7 [5\+] _!> %20
+  <7 _!>
+  q
+  q
+  <7 3>
+  <3> %25
+  r
+  r
+  r
+  <[6]>
+  r %30
+  <6 4>4 <\t \t> <5 3>
+  r2.
+  r4 <6>2
+  r2.
+  r4 <6 4> <5 3> %35
+  r2.
+  r
+  r
+  r4 <_+>2
+  r4 <_!>2 %40
+  r2.
+  <_- 7>
+  <7- 3>
+  <3 7>
+  <7 3> %45
+  <3 7>
+  <7 _+>
+  r
+  r4 <4\+ 2>2.
+  <6> %50
+  <6\\>
+  <_!>
+  <6>
+  <_!>
+  <6[!] 4>4 <5\+ _+> %55
+  r2.
+  <6 5>
+  <7! _+>
+  <3 7!>
+  <7 3> %60
+  <3 7>
+  <7 [5\+] _+>
+  <_+ 7!>
+  <_!>
+  r %65
+  <6>4 <\t>2
+  <6 5>4 <4 6> <_+ 5>
+  <_!>2.
+  r
+  <6> %70
+  <5 6>4 <4 6> <_+ 5>
+  r2. %72 finis
+}
 
-%     }
-%     \alternative {
-%       {  }
-%       {  }
-%     } \bar "||"
+O-XIbContinuo = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 3/4 \tempoO-XIb
+      \set Score.currentBarNumber = #73
+      \markNovembreIIa
+    a'8 h c4 h
+    r a( gis)
+    r g( f) %75
+    r e d
+    cis2 r4
+    d8 a' d4 c!
+    h2 r4
+    c a e %80
+    f g g, \noBreak
+    c << { e'8^\altOne d c h } \\ { g_\altTwo f e d } >> \bar ":|.|:"
+    \markNovembreIIb c4 c' h \noBreak
+    a2 g4
+    fis2 e4 %85
+    dis2 r4
+    e g8 fis g4
+    e c'8 h c4
+    a h h,
+    e e'8 d! c h %90
+    a2 h4
+    gis fis8 \hA gis e4
+    d2 e4
+    c2 r4
+    d e e, %95
+    << { a8^\altOne a'( g! f e d) } \\ { a2_\altTwo r4\fermata } >> \bar ":|." %96 finis
+  }
+}
+
+O-XIbBassFigures = \figuremode {
+  r4 <6> <\t> %73
+  r <6> q
+  r q <6\\> %75
+  r <_+>2
+  <6> <5[!]>4
+  <_!>2.
+  <6>
+  r2 <6>4 %80
+  <6 5> <3>2
+  r2.
+  <3>4 <4\+> <6>8 <\t>
+  <7>4 <6\\> <6>8 <\t>
+  <7>4 <6\\> <6!>8 <\t> %85
+  <7>4 <6> <5>
+  <_!> <6>2
+  r2.
+  <6\\ 5>4 <[5\+] _+>2
+  r2. %90
+  <6!>4 <5> <[5\+] _+>
+  <6>2.
+  <6->4 <5> <[5!] _+>
+  <6>2.
+  <6 5>4 <_+>2 %95
+  r2. %96 finis
+}
+
+O-XIcContinuo = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 3/2 \tempoO-XIc
+      \set Score.currentBarNumber = #97
+      \markNovembreIII
+    a'8\fE a,16 a a8 a a4 a a16 h c h a[ h c d]
+    e8 e,16 e e8 e e4 e' e16 fis gis \hA fis e[ \hA fis \hA gis e]
+    a8 a,16 a a8 a a4 a a16 h c h a[ h c d]
+    e8 e'16 e e8 e, e16 e e e e[ e e e] e fis gis \hA fis e[ \hA fis \hA gis e] %100
+    a,4 c d f g h
+    g, h c e f a
+    f, a h d h g
+    c r c8 d16 e f g a h c8 h16 a g f e d
+    c4 r r a'\p fis d %105
+    g g, r g' e c
+    fis fis, r fis' dis h
+    e\f g a c h h,
+    e8 d!16 c h a g fis e8 fis16 g a h c dis e4 r \bar ":|.|:"
+    a8\p a,16 a a8 a a4 a a16 h cis h a[ h \hA cis a] %110
+    d8\f e16 f g a h cis d8 \hA cis16 h a g f e d4 r
+    g8\p g,16 g g8 g g4 g g16 a h a g[ a h g]
+    c8\f d16 e f g a h c8 h16 a g f e d c4 r
+    R1.*5 %118
+    e8\f fis16 gis a h c d e8 d16 c h a gis fis e \hA fis \hA gis \hA fis e[ \hA fis \hA gis e]
+    a,4 c d f g h %120
+    g, h c e f a
+    f, a h d e gis
+    a8 gis16 fis e d c h a8 h16 c d e fis gis a8 \hA gis16 \hA fis e d c h
+    a4 d c d e e
+    a8 gis16 fis e d c h a8 h16 c d e fis gis a4 r\fermata \bar ":|." %125 finis
+  }
+}
+
+O-XIcBassFigures = \figuremode {
+  r1. %97
+  \bo <[_+]>
+  r
+  \bc q %100
+  r4 <6> <_!> <6>2 q4
+  r q2 q q4
+  r q2 q4 q2
+  r1.
+  r1 <6 5>4 <\t \t _+> %105
+  r1 <6 5>4  <\t \t>
+  <5! 3>1 <6 5 [_+]>4 <7 [5\+] _+>
+  r <6>2 q4 <[5\+] _+>2
+  <_!>1.
+  <5 _+>4 <6! 4> <7 5> <6 4> <5 _+>2 %110
+  <_!>1.
+  <5 3>4 <6 4[!]> <7 5> <6 4> <5 3>2
+  r1.*6 %118
+  <[_+]>1.
+  r4 <6>2 q q4 %120
+  r q2 q q4
+  r q2 q4 <_+> <6>
+  <_!>1.
+  r2 <6> <6 4>4 <5 _+>
+  r1. %125 finis
+}
+
+O-XIdContinuo = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 3/4 \tempoO-XId
+      \set Score.currentBarNumber = #126
+      \markNovembreIVa
+    a'8 h c4 h
+    a g f
+    e8 h' e4 d
+    c c, h
+    a8 e' a4 g %130
+    r f e
+    r d c!
+    h c g' \noBreak
+    c, << { e'8^\altOne d c h } \\ { g8_\altTwo f e d } >> \bar ":|.|:"
+    \markNovembreIVb c d e4 d \noBreak %135
+    cis a \hA cis
+    d8 f a4 g
+    f2 e4
+    d d' c!
+    b2 a4 %140
+    g g, f'
+    e f c
+    f, f' e8 d
+    cis4 a \hA cis
+    d d'8 c! h! a %145
+    gis4 e \hA gis
+    a f c
+    d e e,
+    << { a8^\altOne a' g!( f e d) } \\ { a2_\altTwo r4\fermata } >> \bar ":|." %149 finis
+  }
+}
+
+O-XIdBassFigures = \figuremode {
+  r2. %126
+  r4 <_ 2> <6 \t>
+  <_+> q <\t>
+  <6> <3> q
+  r2. %130
+  r4 <4> <6\\>
+  r2 <4>4
+  <6>2 <3>4
+  r2.
+  r %135
+  <5>4 <8 _+> <5>
+  <_!>2.
+  <6[!]>2 <6>4
+  <6->2 <6>4
+  q2 q4 %140
+  <6 [_-]> <\t> <6>
+  q2 <3>4
+  r2.
+  <6>4 <_+> <5>
+  <_!>2. %145
+  <6>4 <_+> <5!>
+  <_!>2 <6>4
+  <6 5> <_+>2
+  r2. %149 finis
+}
+
+O-XIeContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key a \minor \time 2/4 \tempoO-XIe
+      \set Score.currentBarNumber = #150
+      \markNovembreV
+    a'8\fE c f a,
+    gis h e g,
+    fis a d f,
+    e d c gis
+    a a'16. g!32 f8 fis
+    e g c e, %155
+    dis fis h d,
+    cis e a c,
+    h e16. fis32 g8 e
+    a c h h,
+    e4 r %160
+    r8 a4 g!8~
+    g f! e4
+    d c
+    h! a
+    g c8 c' %165
+    f, a g g,
+    \tuplet 3/2 8 { c'16 c c c[ c c] c c c c[ c c]
+    h h h h[ h h] h h h h[ h h]
+    a a a a[ a a] a a a a[ a a] }
+    g8 g,4 g'8 %170
+    \tuplet 3/2 8 { g16 g g g[ g g] f f f f[ f f]
+    f f f f[ f f] e e e e[ e e]
+    e e e e[ e e] d d d d[ d d]
+    d d d d[ d d] c c c c[ c c]
+    h h h a[ a a] gis gis gis gis[ gis gis] %175
+    a a a a'[ a a] g! g g g[ g g]
+    f f f f[ f f] fis fis fis fis[ fis fis]
+    e e-\tasto e e[ e e] e e e e[ e e]
+    e e e e[ e e] e e e e[ e e]
+    e e e e[\p e e] e e e e[ e e] %180
+    e e e e[ e e] e e e e[ e e] }
+    e8\f e'4 d8~
+    d c h a
+    gis fis e \hA gis
+    a f d e %185
+    \tuplet 3/2 8 { a,16-\unisono a a a'[ a a] e e e c[ c c]
+    a a a a[ a a] } a4\fermata \bar "|." %187 finis
+  }
+}
+
+O-XIeBassFigures = \figuremode {
+  r4. <6>8 %150
+  <7>16 <6> r4 q8
+  <7>16 <6> r4 q8
+  <7 _+>16 <6> <\t>8 <6>4
+  r <7>8 q16 <6\\>
+  <_!>4. <6>8 %155
+  \bo <7 [_+]>16 <6 \t> <\t \t>4 \bc <6 [_+]>8
+  <7>16 <6> <\t>4 <6>8
+  <7 _+> <_!> <6>4
+  r8 <5>16 <6> <6 4>8 <5\+ _+>
+  r2 %160
+  r8 <3!> <4\+ 2> <6 3>
+  <4\+ 2> <6[!]> <7> <6!>
+  <7> <6> <7> <6>
+  <7> <6> <7> <6>
+  <7>4 <3> %165
+  <6>8 <3> <6 4> <5 3>
+  r2
+  <6>
+  <3 5>8 <\t \t> <5> <6\\>
+  r2 %170
+  <4 2>4 <6 3>
+  <4 2> <6 3>
+  <4 2> <6 3>
+  <4\+ 2> <6 3>
+  r8 <4 2> <6 3> <5 \t> %175
+  <10 9> <\t 8> <4\+ _->4
+  <6 3> <6\\ 5!>
+  <_+>2
+  r
+  r %180
+  r
+  <_+>4 <4 2!>8 <6 _+>
+  <4\+ 2> <6> <6\\> <_!>
+  <5! 3> <\t 3> <7 _+> <6>16 <5>
+  <_! 9> <\t 8>8. <6>8 <_+> %185
+  <_!>2
+  r %187 finis
+}

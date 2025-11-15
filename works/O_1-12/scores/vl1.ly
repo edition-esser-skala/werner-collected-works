@@ -451,7 +451,7 @@
     }
   }
   \bookpart {
-    \section "O.9" "Il Settèmbre, im Herbstmonat"
+    \section "O.10" "L’Ottòbre, im Weinmonat"
     \addTocEntry
     \score {
       <<
@@ -494,6 +494,54 @@
     \score {
       <<
         \new Staff { \O-XeViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "O.11" "Il Novèmbre, im Wintermonat"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-XIaViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \O-XIbViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \paper { system-count = #14 }
+    \score {
+      <<
+        \new Staff { \O-XIcViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \O-XIdViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-XIeViolinoI }
       >>
     }
   }

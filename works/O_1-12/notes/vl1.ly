@@ -2685,3 +2685,234 @@ O-XeViolinoI = {
     d4 r\fermata \bar ":|." %182 finis
   }
 }
+
+O-XIaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/4 \tempoO-XIa
+      \markNovembreI
+    e'4\p e, r
+    f' f, r
+    gis' gis, r
+    a' a, r
+    g'! g,! r %5
+    f' f, r
+    gis gis, r
+    a' a, r
+    c' c, r
+    c' c, r %10
+    c' c, r
+    h'2 r4
+    r8 a'\f h( a) gis( a)
+    gis4 r r
+    r8 g \slurDashed a( g) fis( g) \slurSolid %15
+    fis4 r r
+    r8 f g( f) e( f)
+    e4 gis\p( a)
+    a2.~
+    a4 fis( g!) %20
+    g2.~
+    g4 e( f!)
+    f2.~
+    f4 d( e)
+    e\f g g, %25
+    r a' a,
+    r h h,
+    r c' c,
+    r g' g,
+    r a a' %30
+    g8 f e4 d
+    c2 r4
+    g'\p g, r
+    a' a, r
+    g'8 f e4 d \noBreak %35
+    c2 r4 \bar ":|.|:"
+    g''4\f g, r \noBreak
+    a' a, r
+    e' e, r
+    f' f, r %40
+    r a'(\p b)
+    b2.~
+    b4 gis( a)
+    a2.~
+    a4 fis( g!) %45
+    g2.~
+    g4 e( f!)
+    f f, r
+    fis'\f fis, r
+    g' g, r %50
+    gis' gis, r
+    a' a, r
+    h' h, r
+    c'2 h8 a
+    g! fis e4 dis %55
+    e2 r4
+    r8 g\p a( g) fis( g)
+    fis4 r r
+    r8 f g( f) e( f)
+    e4 r r %60
+    r8 e f( e) dis( e)
+    dis4 r r
+    r8 d e( d) c( d)
+    c4 a'\f a,
+    r a' a, %65
+    r a a,
+    \tuplet 3/2 4 { f'8 e d } c4 h
+    a a''\p a,
+    r a' a,
+    r a a, %70
+    \tuplet 3/2 4 { f'8 e d } c4 h
+    a2 r4\fermata \bar "|." %72 finis
+  }
+}
+
+O-XIbViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/4 \tempoO-XIb
+      \set Score.currentBarNumber = #73
+      \markNovembreIIa
+    e'2.
+    c'4 f,( e)
+    h' e,( dis) %75
+    \grace dis8 e2 r4
+    a,8 b' a4 g!
+    \grace g8 f2 r4
+    g,,8 a' g4 f
+    e c'2 %80
+    a'8( a,) \grace c h2\trill \noBreak
+    c r4 \bar ":|.|:"
+    \markNovembreIIb e4( fis) g~ \noBreak
+    g fis e~
+    e dis c!~ %85
+    c h a
+    g e2
+    h'4 e,2
+    c'8( e,) \grace g fis2\trill
+    e r4 %90
+    f'!( e) dis
+    h' e,, r
+    b'( a) gis
+    e' d8 c h a
+    a'( a,) \grace c h2\trill %95
+    a r4\fermata \bar ":|." %96 finis
+  }
+}
+
+O-XIcViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/2 \tempoO-XIc
+      \set Score.currentBarNumber = #97
+      \markNovembreIII
+    a''8\fE a,16 a a8 a a4 a a16 h c h a[ h c d]
+    e8 e,16 e e8 e e4 e e16 fis gis \hA fis e[ \hA fis \hA gis e]
+    a8 a,16 a a8 a a4 a a16 h c h a[ h c d]
+    e8 e'16 e e8 e, e16 e e e e[ e e e] e4 r %100
+    c''16( h) a( g) a( g) f( e) f( e) d( c) d( c) h( a) h( a) g( f) g( f) e( d)
+    h''( a) g( f) g( f) e( d) e( d) c( h) c( h) a( g) a( g) f( e) f( e) d( c)
+    a''( g) f( e) f( e) d( c) d( c) h( a) h( a) g( f) g( f) e( d) g( f) e( d)
+    e8 f16 g a h c d e8 d16 c h a g f e8 f16 g a h c d
+    e\p c' c c c[ c c c] c c c c c[ c c c] c c c c c[ c c c] %105
+    h h h h h[ h h h] h h h h h[ h h h] h h h h h[ h h h]
+    a a a a a[ a a a] a a a a a[ a a a] a a a a a[ a a a]
+    g(\f fis) e( dis) e( d) c( h) c( h) a( g) a( g) fis( e) h'4 h,
+    e8 fis16 g a h cis dis e8 d16 c? h a g fis e4 r \bar ":|.|:"
+    e'16(\p f!8.) f16( g8.) g16( f8.) f16( e8.) e4 a %110
+    f8\f e16 d cis h a g f8 g16 a h cis d e f4 r
+    d16(\p e8.) e16( f8.) f16( e8.) e16( d8.) d4 g
+    e8\f d16 c h a g f e8 f16 g a h c d e4 r
+    a16(\p g8.) g16( a8.) a16([ g8.)] a16( g) fis( g) \hA fis4 r
+    g16( f8.) f16( g8.) g16([ f8.)] g16( f) e( f) e4 r %115
+    f16( e8.) e16( f8.) f16([ e8.)] f16( e dis e) \hA dis4 r
+    e16( d8.) d16( e8.) e16([ d8.)] e16( d) c( d) c4 r
+    a16( h8.) h16( c8.) c16( cis8.) cis16( d8.) d16( dis8.) dis16( e8.)
+    e8\f d16 c h a gis fis e8 \hA fis16 \hA gis a h c d e4 r
+    c'16( h) a( g) a( g) f( e) f( e) d( c) d( c) h( a) h( a) g( f) g( f) e( d) %120
+    h''( a) g( f) g( f) e( d) e( d) c( h) c( h) a( g) a( g) f( e) f( e) d( c)
+    a''( g) f( e) f( e) d( c) d( c) h( a) h( a) gis( fis) \hA gis( \hA fis) e( d) e( d) c( h)
+    a8 h16 c d e fis gis a8 \hA gis16 \hA fis e d c h a8 h16 c d e fis gis
+    a( a'8.) g!16( f!8.) e16( f8.) e16( d8.) c16( h8.) a16( gis8.)
+    a8 h16 c d e fis gis a8 \hA gis16 \hA fis e d c h a4 r\fermata \bar ":|." %125 finis
+  }
+}
+
+O-XIdViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/4 \tempoO-XId
+      \set Score.currentBarNumber = #126
+      \markNovembreIVa
+    e'2.~
+    e8 c a4 a'
+    \grace a8 gis2 r4
+    e,8 a e'4 d
+    \grace d8 c2 r4 %130
+    a h8( cis) cis8.\trill h32( \hA cis)
+    d4 e8( f) f8.\trill e32( f)
+    g8( d) e( c) d( h) \noBreak
+    c2 r4 \bar ":|.|:"
+    g'2. \noBreak %135
+    g8 e a g f e
+    f2 r4
+    d,8 a' d4 c!
+    \grace c8 b2 a4
+    g8 d' g4 f %140
+    \grace f8 e2 d4
+    c8( g) a( f) g( e)
+    f2 r4
+    a8( h) cis( d) \tuplet 3/2 4 { e f g
+    f e d } f2 %145
+    e,8( fis) gis( a) \tuplet 3/2 4 { h c d
+    c h a } a'4~ a8 a,
+    f'( a,) \grace c h2\trill
+    a r4\fermata \bar ":|." %149 finis
+  }
+}
+
+O-XIeViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \minor \time 2/4 \tempoO-XIe
+      \set Score.currentBarNumber = #150
+      \markNovembreV
+    r4 r8 f'~\fE
+    f16 e e,8 r e'~
+    e16 d d,8 r d'~
+    d16 c e,8 r4
+    R2
+    \tuplet 3/2 8 { g'!16 g g g[ g g] g g g g[ g g] %155
+    fis fis fis fis[ fis fis] fis fis fis fis[ fis fis]
+    e e e e[ e e] e e e e[ e e]
+    dis e fis h,[ cis dis] e fis g g[ a h]
+    c h a g[ fis e] } g,8 fis
+    \tuplet 3/2 8 { e16 e' e e[ e e] f! f f gis[ gis gis] } %160
+    a16. a,32 a'8 h16. h,32 h'8
+    a16. a,32 a'8 \tuplet 3/2 8 { g16 a b a[ \hA b g]
+    f g a g[ a f] e f g f[ g e]
+    d e f e[ f d] c d e d[ e c]
+    h g a h[ c d] e c d e[ f g] %165
+    a g f e[ d c] } e8 d\trill
+    c4 r
+    \tuplet 3/2 8 { g'16 g g g[ g g] g g g g[ g g] }
+    c8 e,4 fis8
+    g d h g %170
+    a a~ \tuplet 3/2 8 { a16 h c d[ e f] }
+    g,8 g~ \tuplet 3/2 8 { g16 a h c[ d e] }
+    f,8 f~ \tuplet 3/2 8 { f16 g a h[ c d] }
+    e,8 e~ \tuplet 3/2 8 { e16 fis gis a[ h c]
+    d e f f[ e d] h' a gis f![ e d] } %175
+    c4 cis8~ \tuplet 3/2 8 { cis16 d e }
+    d4 c8~ \tuplet 3/2 8 { c16 h a }
+    gis8 e' dis d
+    cis c h a
+    gis \tuplet 3/2 8 { gis16\p gis gis } a8 h~ %180
+    h a gis dis
+    \tuplet 3/2 8 { e16\f e e e[ e e] f! f f fis[ fis fis]
+    gis gis gis a[ a a] h h h c[ c c] }
+    d8 d~ \tuplet 3/2 8 { d16 e f f[ e d]
+    c[ h a] } a' a, h8 gis %185
+    \tuplet 3/2 8 { a16 a a a'[ a a] e e e c[ c c]
+    a a, a a[ a a] } a4\fermata \bar "|." %187 finis
+  }
+}
