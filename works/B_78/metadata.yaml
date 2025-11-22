@@ -1,0 +1,17 @@
+title: Kyrie
+id: WerW B.78
+genre: mass
+scoring: S, A, B (solo), S, A, T, B (coro), 2 clno (C), 2 tr (C), 2 trb, timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms. Mus. 179 (3)
+    license: public domain
+    principal: true
+toe: |
+  –  & clno, tr & In \A1, trumpets are labeled as “Tromba 1a” to “4ta”. \\
+  73 & clno 2 & 2nd \halfNoteDotted\ in \A1: d″4–c″4 \\*
+  87 & trb 1  & 1st to 4th \quarterNote\ in \A1: \wholeNoteRest \\
+parts:
+  ottoni: Clarino I, II in C\\Tromba I, II in C\\Timpani in C–G
