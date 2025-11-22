@@ -1,0 +1,43 @@
+\version "2.24.0"
+
+\include "../../../definitions_main.ly"
+\include "../definitions.ly"
+\include "score_settings/coro.ly"
+
+\book {
+  \bookpart {
+    \section "B-LXIIKyrie" ""
+    \addTocEntry
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \B-LXIIKyrieSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \B-LXIIKyrieSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \B-LXIIKyrieAlto }
+          }
+          \new Lyrics \lyricsto Alto \B-LXIIKyrieAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \B-LXIIKyrieTenore }
+          }
+          \new Lyrics \lyricsto Tenore \B-LXIIKyrieTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \B-LXIIKyrieBasso }
+          }
+          \new Lyrics \lyricsto Basso \B-LXIIKyrieBassoLyrics
+        >>
+        \new Staff { \B-LXIIKyrieOrgano }
+        \new FiguredBass { \B-LXIIKyrieBassFigures }
+      >>
+    }
+  }
+}

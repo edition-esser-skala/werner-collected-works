@@ -1,0 +1,18 @@
+title: Missa Beatæ Mariæ Virginis
+id: WerW B.62
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: CZ-Pak
+    shelfmark: 1341
+    rism: 550268621
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 24 & A    & 6th \eighthNote\ in \B1: d′8 \\
+  2 & 4  & A    & 4th \eighthNote\ in \B1: g′8 \\
+    & 81 & vl 2 & 2nd \sixteenthNote\ in \B1: d′16:
+                  10th \sixteenthNote: g16 \\
