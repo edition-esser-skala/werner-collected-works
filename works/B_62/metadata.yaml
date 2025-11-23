@@ -12,7 +12,11 @@ sources:
     principal: true
 tocstyle: default
 toe: |
-  1 & 24 & A    & 6th \eighthNote\ in \B1: d′8 \\
-  2 & 4  & A    & 4th \eighthNote\ in \B1: g′8 \\
-    & 81 & vl 2 & 2nd \sixteenthNote\ in \B1: d′16:
-                  10th \sixteenthNote: g16 \\
+  1 & 24  & A    & 6th \eighthNote\ in \B1: d′8 \\
+  2 & 4   & A    & 4th \eighthNote\ in \B1: g′8 \\
+    & 81  & vl 2 & 2nd \sixteenthNote\ in \B1: d′16:
+                   10th \sixteenthNote: g16 \\
+  3 & 26  & S    & 3rd \quarterNote\ in \B1: c″8–b′8 \\
+    & 32  & T    & last \eighthNote\ in \B1: \sharp c′8 \\
+    & 154 & vl 2 & 7th \eighthNote\ in \B1: g′8 \\
+    & 202 & T    & 7th \eighthNote\ in \B1: a8 \\

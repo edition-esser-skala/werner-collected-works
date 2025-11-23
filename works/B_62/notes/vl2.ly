@@ -196,3 +196,177 @@ B-LXIIGloriaViolinoII = {
     g\fermata \bar "|." %134 finis
   }
 }
+
+B-LXIICredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoB-LXIICredo
+    g'4\fE a r8 h c c
+    h a g d' e d e4
+    d8 d d cis d4 r
+    r2 d8 d e d16 c
+    h4 a8 g g4 h8 a %5
+    h4 e dis8. dis16 dis4
+    e8 h c4. h8 h a
+    h4 r r2
+    r8 h h a g8. a16 h4
+    r8 h h a g8. a16 h4 %10
+    g h c h8 a
+    h2 h8 g a g
+    g4 fis e2
+    c'8. c16 c8 h h16 g f d e8 c'
+    R1 %15
+    a4 h c h8 a
+    h4 a8 g a h16 c d4~
+    d8 c16 h c4~ c8 e d c
+    h4 r g a8 h
+    a2 d~ %20
+    d4 e a,8 d g, a
+    a4. g8 g2
+    h a4. a8
+    h2 a4. a8
+    a g g g c4 c %25
+    c8 h h c h a h4
+    r2 r4 e
+    c4. h8 a4 fis'
+    fis2~ fis8 e d cis
+    d2. e4~ %30
+    e d cis fis
+    fis8 e d2 e8 d \noBreak
+    d4 cis h2\fermata \bar "||"
+    \key d \major \time 3/2 \tempoB-LXIIEtIncarnatus \newSpacingSection
+      d2\fE a4 g fis e \noBreak
+    fis a d cis d fis %35
+    e a, a1
+    r2 cis4 h cis a
+    gis2 gis a
+    fis4 e d2 cis
+    r a' h %40
+    gis4 fis \hA gis a \hA gis2
+    a h gis
+    a e'4 d cis h
+    a2 r r
+    R1. %45
+    cis4 e g! fis g a
+    fis fis e d e fis
+    d2. cis4 d e
+    cis1.
+    a2 h cis %50
+    fis,1.
+    R
+    cis'4 e g fis g a
+    fis fis e d e fis
+    d2 r r %55
+    R1.
+    h2\pE d1
+    gis,4 a h2 r
+    r cis e
+    ais,4 h cis2 r %60
+    r r g~
+    g fis e
+    d4\fE fis h ais h d
+    cis2 r r
+    R1. %65
+    r2 fis\pE h,4 a
+    g1.
+    fis4 ais cis fis e fis
+    fis1.
+    r4 fis e d e fis %70
+    d2 r r
+    R1.*2\bar "||"
+    \key g \major R1.*19 \noBreak %92
+    R1.\fermata \bar "||"
+    \tempoB-LXIIEtResurrexit g,2\fE h d \noBreak
+    g g r %95
+    r h, d
+    g d e
+    c2. c4 h2
+    h a r
+    r r d %100
+    c1 h2
+    a a1
+    g2 g a4 h
+    c1.~
+    c4 a h c d c %105
+    d1.~
+    d4 h c d e d
+    e1.~
+    e4 c d e f e
+    f1.~ %110
+    f2 e d
+    e4 d d2 r
+    r d e
+    f1.
+    e4 d e2 d %115
+    h2. h4 c2~
+    c4 d h1
+    c c2
+    h2. h4 h2
+    h a h %120
+    c h a
+    h2. a4 a2
+    R1.
+    h2 c d
+    e d1 %125
+    c h2
+    a a2. g4
+    g2 h h
+    e dis2. e4
+    e2 dis dis %130
+    e4 d c2. c4
+    d c h2. h4
+    c h h2 r4 e
+    dis e e2 dis \noBreak
+    R1.\fermata \bar "||" %135
+    \time 4/4 \tempoB-LXIIEtInSpiritum \newSpacingSection
+      R1*16 %151
+    r2 r16 c\pE h c d g, g d'
+    e4 r r2
+    r c,8 e a-\critnote c
+    e h c4 h a %155
+    gis r r r8 e
+    dis g fis r r c c h
+    h4 r r8 g' a d
+    h16 d g4 fis8 e4 fis
+    g g, d' d %160
+    r8 d e d e h c8. h16
+    c8 e d c h d e d
+    e8. e16 d4 r8 d h a
+    h8. a16 h8 h h4 a
+    r2 r8 d e d %165
+    e4 fis g8 e d4
+    c4. h16 a h2
+    R1*2
+    d4 cis h4. d8 %170
+    e4 d cis8 cis d \hA cis
+    d e a, g fis d'4 cis8~
+    cis h h8. ais16 h8 h c h16 a
+    h4 r r2
+    r d4 cis %175
+    h4. d8 e4 d
+    cis8 d16 e fis8 e4 d16 cis d4~
+    d8 cis16 h \hA cis4 d d
+    e d c4. h16 a
+    h8 d16 c h8 a h4 r %180
+    R1
+    r2 r4 g
+    d' d r8 d e d
+    e h c8. h16 c4 c
+    e8 e dis e c4. h16 a %185
+    h8 e4 dis8 e e d cis16 h
+    cis4. cis8 d e fis e
+    fis4 e d8. d16 d4
+    R1*5 %193
+    d4 cis h4. d8
+    e4 d cis8 d h \hA cis %195
+    d a h a h d r4
+    g,2 fis4 g
+    fis8 a r4 r2
+    r2 r8 g a d~
+    d c16 h c4. h16 a h8 cis %200
+    d4 c h4. c16 h
+    a2 g
+    g1~
+    g\fermata \bar "|." %204 finis
+  }
+}
