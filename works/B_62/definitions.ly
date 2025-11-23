@@ -19,6 +19,8 @@ tempoB-LXIISanctus = \tempoMarkup "[Tempo deest]"
   tempoB-LXIIPleni = \tempoMarkup "Allegro"
 tempoB-LXIIBenedictus = \tempoMarkup "[Tempo deest]"
   tempoB-LXIIOsanna = \tempoMarkup "[Tempo deest]"
+tempoB-LXIIAgnus = \tempoMarkup "[Tempo deest]"
+  tempoB-LXIIDona = \tempoMarkup "Presto"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

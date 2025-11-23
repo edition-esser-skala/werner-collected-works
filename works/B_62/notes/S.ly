@@ -161,7 +161,7 @@ B-LXIIGloriaSoprano = {
     d4.( cis16[ h] e4) e %25
     e d8 cis d2
     cis h
-    ais4 h2 \hA ais4 \noBeam
+    ais4 h2 \hA ais4 \noBreak
     h1\fermata \bar "||"
     \tempoB-LXIIQuiTollis R1*15 %44
     \mvTr g2\fE^\tutti h %45
@@ -821,15 +821,195 @@ B-LXIIBenedictusSopranoLyrics = \lyricmode {
   sis. %57 finis
 }
 
+B-LXIIAgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoB-LXIIAgnus
+    R1*7 %7
+    \mvTr g'4\fE^\tutti g e' d8 c
+    h([ a)] h d e4 d8([ e)]
+    c2 h %10
+    h8([ a)] h([ cis)] d4 d
+    c c c h8([ a)]
+    a2 g
+    h8([ a)] a([ h)] h2(
+    ais4) h h( ais) %15
+    h2 d4 d
+    dis e8 e e([ \hA dis)] dis4
+    r h e e
+    e dis dis4. dis8
+    e4 d c4. c8 %20
+    c4 h h a
+    h4. a8 g4 gis
+    a ais h e
+    e( dis) e2
+    R1 %25
+    r4 d! d( cis8[ h]
+    ais2) h4 fis'
+    fis( e2) d8([ cis)]
+    cis2 h4 d
+    d2. cis4~ %30
+    cis h \hA cis d
+    d( cis c) h \noBreak
+    h a r2\fermata \bar "||"
+    \tempoB-LXIIDona \mvTr d4\pE^\solo d d d \noBreak
+    c2( d4) h %35
+    g1^\critnote
+    c4. h16[ a] h8[ a] a([ h)]
+    h([ a)] a4 d d
+    d d c2(
+    d4) h h8([ a)] a([ h)] %40
+    h4( a) g2
+    R1*13 %54
+    \mvTr d'4\fE^\tutti d d d %55
+    c2( d4) h
+    a4. h8 a2~
+    a4 a a g
+    c2 h
+    a g %60
+    c2.\p h4~
+    h a2 g4
+    g( fis) g2
+    h\f cis
+    d8 a h[ a] h4 cis8[ h] %65
+    cis4. d8 e4 a,
+    R1
+    r2 r8 cis16[ h] \hA cis8[ d]
+    e[ d cis h] \hA cis4 d
+    g2 fis %70
+    e d
+    r a\p(
+    g) fis
+    e d
+    r r8 cis'16[\f h] \hA cis8[ d] %75
+    e[ d cis h] \hA cis4. fis8
+    h,4 e2 dis4
+    e cis h2~
+    h2. a4
+    ais2 h~ %80
+    h4 ais h2
+    R1*2
+    d4 d d d
+    c!2( d4) h %85
+    a2. a4
+    a g8[ a16 h] c2
+    h a~
+    a8[ h16 c] d4 c h~
+    h a r2 %90
+    R1
+    r2 r8 cis16[ h] \hA cis8[ d]
+    e[ d cis h] \hA cis4 d
+    d8([ cis)] cis([ d)] d([ \hA cis)] cis4
+    cis8 cis d e d2~ %95
+    d8 d d[( e16 d] cis8[ d16 e] fis8) fis
+    e2 d
+    R1
+    d4 d d d
+    c!2.( h4) %100
+    a8 fis16[ e] fis8[ g] a[ g fis e]
+    fis4 g c2~
+    c8[ h a g] a2
+    h8[ a g fis] g2
+    c h4 e %105
+    d4. c8 h4 a8([ h)]
+    c2. h4
+    a2 g4 r
+    c2~\p c8[ h16 a] h4~
+    h8[ a16 g] a4. g16[ fis] g4~ %110
+    g fis g2\fermata \bar "|." %111 finis
+  }
+}
 
+B-LXIIAgnusSopranoLyrics = \lyricmode {
+  A -- gnus De -- i, qui %8
+  tol -- lis pec -- ca -- ta
+  mun -- di: %10
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re
+  no -- bis,
+  mi -- se -- re --
+  re no -- %15
+  bis. A -- gnus
+  De -- i, qui tol -- lis
+  pec -- ca -- ta
+  mun -- di: Mi -- se --
+  re -- re, mi -- se -- %20
+  re -- re no -- bis,
+  mi -- se -- re -- _
+  _ _ _ re
+  no -- bis.
+  %25
+  qui tol --
+  lis pec --
+  ca -- ta
+  mun -- di, qui
+  tol -- _ %30
+  _ lis pec --
+  ca -- ta
+  mun -- di:
+  Do -- na no -- bis
+  pa -- cem, %35
+  pa --
+  _ _ _ cem,
+  pa -- cem, do -- na
+  no -- bis pa --
+  cem, pa -- cem, %40
+  pa -- cem.
 
+  Do -- na no -- bis %55
+  pa -- cem,
+  do -- na no --
+  bis pa -- cem,
+  pa -- _
+  _ cem, %60
+  pa -- _
+  _ cem,
+  pa -- cem,
+  pa -- _
+  _ cem, pa -- _ _ %65
+  _ cem, pa -- cem,
 
+  pa -- _
+  _ _ cem,
+  pa -- cem, %70
+  pa -- cem,
+  pa --
+  cem,
+  pa -- cem,
+  pa -- _ %75
+  _ _ _
+  _ _ _
+  _ cem, pa --
+  cem,
+  pa -- _ %80
+  _ cem,
 
-% ## Agnus Dei
+  do -- na no -- bis %84
+  pa -- cem, %85
+  pa -- cem,
+  pa -- _ _
+  _ _
+  _ _ _
+  cem, %90
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+  pa -- _
+  _ _ cem,
+  pa -- cem, pa -- cem,
+  do -- na no -- bis pa -- %95
+  cem, pa -- cem,
+  pa -- cem,
+
+  do -- na no -- bis
+  pa -- %100
+  cem, pa -- _ _
+  _ cem, pa --
+  _
+  _ _
+  _ _ cem, %105
+  do -- na no -- bis
+  pa -- cem,
+  pa -- cem,
+  pa -- _
+  _ _ _ %110
+  _ cem. %111 finis
+}

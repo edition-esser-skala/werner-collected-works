@@ -24,3 +24,9 @@ toe: |
   5 & 6   & vl 2 & 1st \sixteenthNote\ in \B1: \sharp f′16 \\
     & 44  & T    & 4th \quarterNote\ in \B1: b4 \\
     & 53  & A    & 2nd \quarterNote\ in \B1: c′4 \\
+  6 & 11  & A    & 1st \eighthNote\ in \B1: a′8 \\
+    & 36  & S    & bar in \B1: a′1 \\
+    & 43  & vl 2 & 2nd \eighthNote\ in \B1: \sharp f″8 \\
+    & 48  & vl 2 & 2nd \eighthNote\ in \B1: \sharp f′8 \\
+    & 53  & vl 2 & 4th \eighthNote\ in \B1: \sharp f″8 \\
+    & 95  & org  & treble ottavo clef added by editor \\

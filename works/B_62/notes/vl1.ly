@@ -456,3 +456,115 @@ B-LXIIBenedictusViolinoI = {
     g1\fermata \bar "|." %57 finis
   }
 }
+
+B-LXIIAgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoB-LXIIAgnus
+    R1*2
+    g''8\fE fis16 g h8 h h cis, a'16 g g8
+    fis4 a16 h32 cis d16 d d8 cis d h
+    cis16 h a8 g4 fis8.[ e16 e8. d16] %5
+    d8 g, c! c c16 h h8 h a
+    g e' a,8. g16 g2
+    g4 g e' d8 c
+    h a h d e4 d8 e
+    c2 h %10
+    h8 a h cis d4 d
+    c c c h8 a
+    a2 g
+    h8 a a h h2
+    ais4 h h ais %15
+    h2 d4 d
+    dis e8 e e \hA dis dis4
+    r h e e
+    e dis dis4. dis8
+    e4 d c4. c8 %20
+    c4 h h a
+    h4. a8 g4 gis
+    a ais h e
+    e dis e2
+    R1 %25
+    r4 d! d cis8 h
+    ais2 h4 fis'~
+    fis e2 d8 cis
+    cis2 h4 d
+    d2. cis4~ %30
+    cis h \hA cis d
+    d cis c h \noBreak
+    h a r2\fermata \bar "||"
+    \tempoB-LXIIDona r8 a16\pE g a8 fis r g16 fis g8 h \noBreak
+    r4 fis8 g a4 d, %35
+    r8 c' d e e d d e
+    e4 fis g8 fis fis g
+    g fis fis4 r2
+    e4 e e e
+    a8 d, d g g fis fis g %40
+    g4 fis g16 d\fE e fis g a h c
+    d8 g, g fis g h a16 h a h
+    g4 g16 a g a fis4 fis16 g fis g
+    e4 e d r
+    r16 h\pE cis d e8 g, g fis r4 %45
+    r8 g a h h a a h
+    h4 cis d8 \hA cis cis d
+    d cis cis4 r2
+    fis8 e e fis fis e16 d e4~
+    e8 d d d d cis cis d %50
+    d4 cis d16 a\fE h cis d e fis g
+    a8 d, d cis d a' h e,
+    fis e16 d g8 g g4 fis16 g a8~
+    a g16 fis g8 g g4 fis
+    d d d d %55
+    c2 d4 h
+    a4. h8 a2~
+    a4 a a g
+    c2 h
+    a g %60
+    R1*3
+    h2\fE cis
+    d8 a h a h4 cis8 h %65
+    cis4. d8 e4 a,
+    R1
+    r2 r8 cis16 h \hA cis8 d
+    e d cis h \hA cis4 d
+    g2 fis %70
+    e d
+    R1*3
+    r2 r8 cis16\fE h \hA cis8 d %75
+    e d cis h \hA cis4. fis8
+    h,4 e2 dis4
+    e cis h2~
+    h2. a4
+    ais2 h~ %80
+    h4 ais h2
+    R1*2
+    d4 d d d
+    c!2 d4 h %85
+    a2. a4
+    a g8 a16 h c2
+    h a~
+    a8 h16 c d4 c \once \tieDashed h~
+    h a r2 %90
+    R1
+    r2 r8 cis16 h \hA cis8 d
+    e d cis h \hA cis4 d
+    d8 cis cis d d \hA cis cis4
+    cis8 cis d e d2~ %95
+    d8 d d e16 d cis8 d16 e fis8 fis
+    e2 d
+    R1
+    d4 d d d
+    c!2. h4 %100
+    a8 fis16 e fis8 g a g fis e
+    fis4 g c2~
+    c8 h a g a2
+    h8 a g fis g2
+    c h4 e %105
+    d4. c8 h4 a8 h
+    c2. h4
+    a2 g4 r
+    c2~\p c8 h16 a h4~
+    h8 a16 g a4. g16 fis g4~ %110
+    g fis g2\fermata \bar "|." %111 finis
+  }
+}

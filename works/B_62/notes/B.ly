@@ -670,3 +670,172 @@ B-LXIIBenedictusBassoLyrics = \lyricmode {
   cel --
   sis. %57 finis
 }
+
+B-LXIIAgnusBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoB-LXIIAgnus
+    R1*7 %7
+    \mvTr g'8([\fE^\tutti fis)] e([ d)] c4 d8 fis
+    g4 g,8 g' c,4 g'8 g
+    a4 d, g g, %10
+    R1
+    a'8([ g)] fis([ e)] fis([ d g)] c,
+    d2 g,
+    R1
+    r2 fis'4 fis %15
+    d e8 fis h,4( h'
+    a!) g8 a h4 h,8 h
+    e2( g8[ fis)] g([ a)]
+    h4 h, h' a
+    g4. g8 a4 g %20
+    fis g d d
+    dis h e4. d?8
+    c4 cis h8([ a)] g([ a)]
+    h2 e,
+    h' ais %25
+    h4( h') e, eis
+    e2 d
+    r4 e fis h
+    fis fis, r h
+    g' gis a!2 %30
+    fis4 gis g fis8([ g)]
+    a2( fis4) g \noBreak
+    d d r2\fermata \bar "||"
+    \tempoB-LXIIDona R1*23 %56
+    r2 r8 \mvTr fis16[\fE^\tutti e] fis8[ g]
+    a[ g fis e] fis4 g~
+    g8[ fis16 e] fis8[ d] g[ fis e d]
+    c4 d g,2 %60
+    r4 fis'\p g2
+    e4 fis g2
+    c,4 d g,2
+    R1*2 %65
+    a'4\f a a a
+    g2( a4) fis
+    cis8[( cis'16 h] \hA cis8[ h] \hA cis[ a]) a4
+    e2 a,4 d
+    e8[ d cis a] d[ e fis d] %70
+    g4 a d,2
+    r4 h\p cis d8[ \hA cis]
+    h4 cis d4. e16[ fis]
+    g4 a d,2
+    R1*3 %77
+    r2 r8 gis16[\fE fis] \hA gis8[ a]
+    h[ a gis fis] \hA gis4 a
+    r8 g[ fis e] d[ cis d h] %80
+    e4 fis h,2
+    r4 g' fis4. g16[ a]
+    h8[ a g e] fis4 d8[ g]~
+    g[ fis16 e] fis8 g fis d r4
+    r a'( d,) g %85
+    r8 fis16[ e] fis8[ g] a[ g fis e]
+    fis4 g4. fis16[ e] fis8[ d]
+    g[ fis e d] c4 cis
+    d1
+    g,4 d' r8 fis16[ e] fis8[ g] %90
+    a[ g fis e] fis4 g~
+    g8[ fis16 e] fis8[ d] cis[ a] a'4
+    e2 a,4 d
+    a'4. d,8 a'4 a,
+    r2 d8 d e fis %95
+    g4 gis a d,8[ e16 fis]
+    g4 a d, d
+    d d c!2(
+    d4) h r8 fis'16[ e] fis8[ g]
+    a[ g fis e] fis4 g %100
+    d2 a
+    d4 g, a2
+    d~ d8[ c h a]
+    g2 e'8[ d c h]
+    a4 fis' g c,~ %105
+    c8[ h16 a] h8[ c] d2
+    r8 a'([ g a] fis4) g
+    c,( d) g r
+    r fis\p g2
+    e4 fis g e %110
+    c( d) g,2\fermata \bar "|." %111 finis
+  }
+}
+
+B-LXIIAgnusBassoLyrics = \lyricmode {
+  A -- gnus De -- i, qui %8
+  tol -- lis, qui tol -- lis pec --
+  ca -- ta mun -- di: %10
+
+  Mi -- se -- re -- re
+  no -- bis.
+
+  A -- gnus %15
+  De -- i, qui tol --
+  lis pec -- ca -- ta, pec --
+  ca -- ta
+  mun -- di: Mi -- se --
+  re -- re, mi -- se -- %20
+  re -- re no -- bis,
+  mi -- se -- re -- re,
+  mi -- se -- re -- re
+  no -- bis.
+  A -- gnus %25
+  De -- i, qui
+  tol -- lis
+  pec -- ca -- ta
+  mun -- di, qui
+  tol -- _ _ %30
+  _ _ lis pec --
+  ca -- ta
+  mun -- di:
+
+  Pa -- _ %57
+  _ _ _
+  _ _
+  _ _ cem, %60
+  pa -- _
+  _ _ _
+  _ _ cem,
+
+  do -- na no -- bis %66
+  pa -- cem,
+  pa -- cem,
+  pa -- _ _
+  _ _ %70
+  _ _ cem,
+  pa -- _ _
+  _ _ _ _
+  _ _ cem,
+
+  pa -- _ %78
+  _ _ cem,
+  pa -- _ %80
+  _ _ cem,
+  pa -- _ _
+  _ _ _
+  _ cem, pa -- cem,
+  pa -- cem, %85
+  pa -- _ _
+  _ _ _ _
+  _ _ cem,
+  pa --
+  _ cem, pa -- _ %90
+  _ _ _
+  _ _ cem,
+  pa -- _ _
+  _ cem, pa -- cem,
+  do -- na no -- bis %95
+  pa -- cem, pa -- _
+  _ cem, do -- na
+  no -- bis pa --
+  cem, pa -- _
+  _ _ cem, %100
+  pa -- cem,
+  pa -- cem, pa --
+  _
+  _ _
+  _ _ _ _ %105
+  _ cem,
+  pa -- cem,
+  pa -- cem,
+  pa -- _
+  _ _ _ cem, %110
+  pa -- cem. %111 finis
+}
