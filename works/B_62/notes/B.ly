@@ -539,3 +539,134 @@ B-LXIICredoBassoLyrics = \lyricmode {
   a --
   men. %204 finis
 }
+
+B-LXIISanctusBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoB-LXIISanctus
+    R1
+    r2 \mvTr d~\fE^\tutti
+    d4 c h4. c8
+    d2 g,
+    r eis' %5
+    e4 d8[ e] fis2
+    h, r
+    a'!( d,4) g
+    a8. a,16 a4 fis' g~
+    g a d,2 %10
+    a'1~
+    a4 a, d2
+    \tempoB-LXIIPleni r8 h d e fis4 d8 ais
+    h2 d4 h~
+    h8 h fis'4 h,2( %15
+    fis'4) fis, r2
+    h4 cis8[ d] e2
+    a!4 d,8 g a4( a,)
+    d r e2
+    fis h, %20
+    e fis4 fis8 fis
+    fis2 h,
+    R1*5 %28
+    r4 r8 c g'4.( fis8)
+    g4. d16([ e)] fis8([ g16 a)] h8 g
+    g fis g g a([ d, g a)] %30
+    d,4 r r8 gis gis gis
+    a4 a a2
+    a8 fis fis fis g!4 g
+    d4. c8 h4 a8([ e')]
+    a g fis e d4 g, %35
+    d' d d2~
+    d g,\fermata \bar "|." %37 finis
+  }
+}
+
+B-LXIISanctusBassoLyrics = \lyricmode {
+  San -- %2
+  _ _ _
+  _ ctus,
+  san -- %5
+  _ _ _
+  ctus,
+  san -- ctus
+  Do -- mi -- nus De -- _
+  us Sa -- %10
+  _
+  ba -- oth.
+  Ple -- ni sunt coe -- li et
+  ter -- ra, coe --
+  li et ter -- %15
+  ra
+  glo -- _ _
+  _ ri -- a tu --
+  a, glo --
+  _ _ %20
+  _ _ ri -- a
+  tu -- a.
+
+  O -- san -- %28
+  na, o -- san -- na, o --
+  san -- na in ex -- cel -- %30
+  sis, o -- san -- na
+  in ex -- cel --
+  sis, o -- san -- na in ex --
+  cel -- sis, in ex --
+  cel -- sis, in ex -- cel -- sis, %35
+  in ex -- cel --
+  sis. %37 finis
+}
+
+B-LXIIBenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoB-LXIIBenedictus
+    R1*33 \noBreak %33
+    R1\fermata \bar "||"
+    \tempoB-LXIIOsanna \mvTr g'2\fE^\tutti d4 g \noBreak %35
+    r8 h a g fis[( e)] fis([ d)]
+    g([ c)] h([ a)] g([ fis)] g([ e)]
+    fis([ e)] fis([ d)] r4 g
+    a8([ h16 a] h8[ a)] g e d c
+    h a h([ a)] g4 r %40
+    R1
+    g'2 d4 g~
+    g fis8([ g)] a2
+    d,4 fis e8 e e e
+    fis4( g) c,8 c' c c %45
+    a4 a h8([ a g a]
+    h4 h,) e2
+    R1*2
+    d2 a4 d %50
+    r8 e d c h([ a)] h([ g)]
+    c4 d r8 g g g
+    g([ fis)] e([ d)] c4( d)
+    g,2 c\pE
+    d4 d d8([ e)] d([ c)] %55
+    h([ a h g] cis4 d)
+    g,1\fermata \bar "|." %57 finis
+  }
+}
+
+B-LXIIBenedictusBassoLyrics = \lyricmode {
+  O -- san -- na, %35
+  o -- san -- na in ex --
+  cel -- sis, in ex --
+  cel -- sis, o --
+  san -- na, o -- san -- na
+  in ex -- cel -- sis, %40
+
+  o -- san -- na, __
+  o -- san --
+  na, o -- san -- na in ex --
+  cel -- sis, o -- san -- na %45
+  in ex -- cel --
+  sis,
+
+  o -- san -- na, %50
+  o -- san -- na in ex --
+  cel -- sis, o -- san -- na
+  in ex -- cel --
+  sis, o --
+  san -- na in ex -- %55
+  cel --
+  sis. %57 finis
+}

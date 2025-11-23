@@ -554,3 +554,174 @@ B-LXIICredoAltoLyrics = \lyricmode {
   a -- men, a --
   men. %204 finis
 }
+
+B-LXIISanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoB-LXIISanctus
+    r4 \mvTr fis2\fE^\tutti e4~
+    e e fis g
+    fis2 d4. e8
+    d2 d
+    r4 gis2 gis4 %5
+    fis4.( g8 fis2)
+    fis r4 fis8([ g]
+    a2) a
+    a8. a16 a4 r2
+    e2. d4~ %10
+    d cis fis4. g8
+    a4. a8 a2
+    \tempoB-LXIIPleni R1
+    r8 fis gis ais h2~
+    h4 ais fis fis8 fis %15
+    fis4 fis r2
+    r gis4( a8[ h]
+    a4) a8 h a4.( g8)
+    fis4 r g2~
+    g4 fis8[ e] fis2 %20
+    e2. d8 d16([ e)]
+    fis2 fis
+    R1*5 %27
+    r4 r8 g g4( a)
+    g r8 fis16([ g)] a8 g4 g8
+    a4. g8 g fis e4 %30
+    fis r r8 e e e
+    e4 e e2
+    e8 d d d d4 d8([ e)]
+    fis4 fis8 g g2
+    fis4 a8 g fis4 g~ %35
+    g8[ fis16 e] fis4 d d
+    d2 d\fermata \bar "|." %37 finis
+  }
+}
+
+B-LXIISanctusAltoLyrics = \lyricmode {
+  San -- _
+  _ _ _
+  _ _ ctus,
+  san -- ctus,
+  san -- ctus, %5
+  san --
+  ctus, san --
+  ctus
+  Do -- mi -- nus
+  De -- _ %10
+  us, De -- us
+  Sa -- ba -- oth.
+
+  Ple -- ni sunt coe --
+  li, coe -- li et %15
+  ter -- ra
+  glo --
+  ri -- a tu --
+  a, glo --
+  _ _ %20
+  _ ri -- a
+  tu -- a.
+
+  O -- san -- %28
+  na, o -- san -- na, o --
+  san -- na in ex -- cel -- %30
+  sis, o -- san -- na
+  in ex -- cel --
+  sis, o -- san -- na in ex --
+  cel -- sis, o -- san --
+  na in ex -- cel -- _ %35
+  sis, in ex --
+  cel -- sis. %37 finis
+}
+
+B-LXIIBenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoB-LXIIBenedictus
+    R1*6 %6
+    \mvTr e2.\pE^\solo dis4
+    e g8 g g([ fis)] fis e
+    e4 dis r g
+    g2 fis8[ e d c] %10
+    h[ c d e] d[ fis] g g
+    g4( fis8.) fis16 g4 r
+    R1
+    r2 d
+    d4 cis8 e d2~ %15
+    d4 d8 e d8. cis16 cis4
+    cis d g h8 g
+    g([ fis)] fis fis g4 g8 g
+    fis4 fis8 cis d4 cis
+    d r r2 %20
+    R1
+    r2 fis4 fis
+    fis fis8 e fis([ g)] d d
+    d8. d16 d4 r d
+    e8. d16 c4 r fis %25
+    dis8. e16 fis4 r fis
+    fis8. fis16 fis4 g( fis8.) fis16
+    g4 r r2
+    R1*5 \noBreak %33
+    R1\fermata \bar "||"
+    \tempoB-LXIIOsanna R1*4 %38
+    r2 \mvTr g\fE^\tutti
+    d4 g r8 h a g %40
+    fis([ e)] fis([ d)] g2~
+    g4 d8 e fis4 g
+    e fis8([ e)] e2
+    fis4 a g2(
+    a4 g) g2 %45
+    r8 fis fis fis fis4 g
+    g( fis) g2
+    R1*2
+    r8 h a g fis([ e)] fis([ d)] %50
+    g2 g4 g
+    g( fis) g2
+    d4 h^\critnote e( d)
+    d r r a'8([\p g)]
+    fis4( g) fis2 %55
+    d4 g e( d)
+    d1\fermata \bar "|." %57 finis
+  }
+}
+
+B-LXIIBenedictusAltoLyrics = \lyricmode {
+  Be -- ne -- %7
+  di -- ctus, qui ve -- nit, qui
+  ve -- nit in
+  no -- _ %10
+  _ _ mi -- ne
+  Do -- mi -- ni,
+
+  qui
+  ve -- nit in no -- %15
+  mi -- ne Do -- mi -- ni,
+  be -- ne -- di -- ctus, qui
+  ve -- nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi --
+  ni. %20
+
+  Be -- ne --
+  di -- ctus, qui ve -- nit in
+  no -- mi -- ne, in
+  no -- mi -- ne, in %25
+  no -- mi -- ne, in
+  no -- mi -- ne Do -- mi --
+  ni.
+
+  O -- %39
+  san -- na, o -- san -- na %40
+  in ex -- cel --
+  sis, o -- san -- na
+  in ex -- cel --
+  sis, o -- san --
+  na, %45
+  o -- san -- na in ex --
+  cel -- sis,
+
+  o -- san -- na in ex -- %50
+  cel -- sis, o --
+  san -- na
+  in ex -- cel --
+  sis, o --
+  san -- na %55
+  in ex -- cel --
+  sis. %57 finis
+}

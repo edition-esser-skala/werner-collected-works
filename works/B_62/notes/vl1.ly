@@ -362,3 +362,97 @@ B-LXIICredoViolinoI = {
     g\fermata \bar "|." %204 finis
   }
 }
+
+B-LXIISanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoB-LXIISanctus
+    d'1~\fE
+    d4 c2 h4
+    a2. g4
+    g fis g2
+    d'2. cis4~ %5
+    cis h2 ais4
+    h2 d~
+    d4 cis fis2~
+    fis8. e16 e4 d2~
+    d4 cis fis2~ %10
+    fis4 e2 d4~
+    d cis d2
+    \tempoB-LXIIPleni R1
+    r2 r8 h d e
+    fis4 fis8 cis d4 \hA cis8 h %15
+    h4 ais cis d8 e
+    d2. cis8 d
+    cis4 fis8 e e2
+    d4 d2 cis8 h
+    ais2 d~ %20
+    d4 cis8 h ais4 h8 h
+    h4 ais h2
+    R1
+    r8 h16 c! d8 e d g, c h16 a
+    h8 g' d h' c,4 r %25
+    r8 fis g16 d e d d8 a' h16 d, e d
+    c8 h fis' g d c16 h h8 a16 g
+    g8 h16 c d8 e d g, c4
+    h8 h16 c d2 g,8 h
+    cis d h e cis d4 \hA cis8 %30
+    d d d d d d d d
+    d c! c4 r8 c c c
+    c c c c c4 h
+    a8 h16 c d8 e d g, c4~
+    c8 c c c c4 h~ %35
+    h8 a16 g a4. g16 fis g4~
+    g8 fis16 e fis4 g2\fermata \bar "|." %37 finis
+  }
+}
+
+B-LXIIBenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoB-LXIIBenedictus
+    r8 e'16\fE h h a g fis g8 e e dis
+    e g'16 a h8 c~ c16 a h8~ h16 g a8~
+    a16 fis g e fis8 g \sbOn \tuplet 3/2 8 { e16 fis g a h c } fis,8 g
+    r fis \tuplet 3/2 8 { g16 a h a h c } \sbOff h d, g4 fis8
+    g h16 g a8 h16 a g h, c h c h h a %5
+    g h h e e8 dis r e16 h h a g fis
+    g4 r r2
+    r8 e'16\pE h h a g fis e4 r
+    R1*3 %11
+    r4 r8 fis'\fE \tuplet 3/2 8 { \sbOn g16 a h a h c \sbOff } h d, g8~
+    g fis r4 r \tuplet 3/2 8 { \sbOn fis16 g a g a h \sbOff }
+    a d, g4 fis8 g4 r
+    R1*5 %19
+    r8 h16\fE fis fis e d cis d8 h4 ais8 %20
+    h4 ais r8 d cis h16 ais
+    h8 h16 fis fis e d cis d8 h r4
+    R1*5 %27
+    r8 e'16\fE h h a g fis g8 e e dis
+    e g'16 a h8 c~ c16 a h8~ h16 g a8~
+    a16 fis g e fis8 g \tuplet 3/2 8 { \sbOn e16 fis g a h c } fis,8 g %30
+    r fis \tuplet 3/2 8 { g16 a h a h c } \sbOff h d, g4 fis8
+    g h16 g a8 h16 a g h, c h c h h a
+    g h h e e8 dis r e16 h h a g fis \noBreak
+    e4 r r2\fermata \bar "||"
+    \tempoB-LXIIOsanna R1*5 %39
+    r2 d'\fE %40
+    a4 d r8 e d c
+    h a h g a4 h
+    cis d2 \hA cis4
+    d d d c~
+    c h e2 %45
+    e4 e dis e
+    e dis e2
+    g d4 g
+    r8 e d c h a h g
+    d'4 d r2 %50
+    r8 g fis e d c d h
+    e e d c h c h a
+    g2. fis4
+    g d'\pp d c~
+    c h a2 %55
+    g4 g g fis
+    g1\fermata \bar "|." %57 finis
+  }
+}

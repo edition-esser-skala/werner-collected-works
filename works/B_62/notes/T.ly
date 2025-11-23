@@ -506,3 +506,135 @@ B-LXIICredoTenoreLyrics = \lyricmode {
   _ men, a --
   men. %204 finis
 }
+
+B-LXIISanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \autoBeamOff \tempoB-LXIISanctus
+    r4 \mvTr h\fE^\tutti g gis
+    a2. d4~
+    d d d4. c8
+    h4 a h2
+    r4 h2 h4 %5
+    ais( d2 cis4)
+    d2 r
+    e2. d4
+    d8. cis16 cis4 a h~
+    h a a2~ %10
+    a d4^\critnote fis
+    e4. e8 fis2
+    \tempoB-LXIIPleni r2 r8 ais, h cis
+    d2 fis
+    d4 cis h cis8 d %15
+    d4 cis ais h8[ cis]
+    h2. e4~
+    e d8 d d4( cis)
+    d r r2
+    r4 cis2 h8[ a] g4 e' cis d8 d %20
+    d4( cis) d2
+    R1*5 %27
+    r4 r8 c h4( e8[ d)]
+    d4 r r8 h16([ c)] d4
+    e8 fis d d a a h([ a)] %30
+    a4 r r8 h h h
+    a4 c! e a,
+    r8 a a a g4 d'
+    d a8 r r2
+    r r8 a d d %35
+    d4. c8 \once \stemUp h4.( a16[ g]
+    a2) h\fermata \bar "|." %37 finis
+  }
+}
+
+B-LXIISanctusTenoreLyrics = \lyricmode {
+  San -- _ _
+  _ _
+  ctus, san -- _
+  _ _ ctus,
+  san -- ctus, %5
+  san --
+  ctus,
+  san -- ctus
+  Do -- mi -- nus De -- _
+  us, De -- %10
+  _ us
+  Sa -- ba -- oth.
+  Ple -- ni sunt
+  coe -- li,
+  coe -- li, coe -- li et %15
+  ter -- ra glo -- _
+  _ _
+  ri -- a tu --
+  a,
+  glo -- _ %20
+  _ _ _ ri -- a
+  tu -- a.
+
+  O -- san -- %28
+  na, o -- san --
+  na, o -- san -- na in ex -- cel -- %30
+  sis, o -- san -- na
+  in ex -- cel -- sis,
+  o -- san -- na in ex --
+  cel -- sis,
+  o -- san -- na %35
+  in ex -- cel --
+  sis. %37 finis
+}
+
+B-LXIIBenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \autoBeamOff \tempoB-LXIIBenedictus
+    R1*33 \noBreak
+    R1\fermata \bar "||"
+    \tempoB-LXIIOsanna R1 \noBreak %35
+    \mvTr d2\fE^\tutti a4 d
+    r8 e d c h([ a)] h([ g)]
+    d'2~ d8[ e16 d] e8[ d]
+    c[ d16 c] d8[ c] h4 h8 c
+    d([ c d c)] h4 r %40
+    r2 r8 c h a
+    g4 d' d d8 d
+    a a a h a2
+    a4 r r g^\critnote
+    d'2 c %45
+    c4 c h2~
+    h h
+    r8 e d! c h([ a)] h([ g)]
+    c4 h8 e d([ c d e]
+    fis4) fis r2 %50
+    R1
+    r2 r8 e d c
+    h([ a)] h([ g)] a2
+    h4 r e2\pE
+    d1~ %55
+    d8 c d h a2
+    h1\fermata \bar "|." %57 finis
+  }
+}
+
+B-LXIIBenedictusTenoreLyrics = \lyricmode {
+  O -- san -- na, %36
+  o -- san -- na in ex --
+  cel -- _
+  _ _ sis, in ex --
+  cel -- sis, %40
+  o -- san -- na
+  in ex -- cel -- sis, o --
+  san -- na in ex -- cel --
+  sis, o --
+  san -- na %45
+  in ex -- cel --
+  sis,
+  o -- san -- na in ex --
+  cel -- sis, o -- san --
+  na, %50
+
+  o -- san -- na
+  in ex -- cel --
+  sis, o --
+  san -- %55
+  na in ex -- cel --
+  sis. %57 finis
+}
