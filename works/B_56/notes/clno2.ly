@@ -73,7 +73,7 @@ B-LVIGloriaClarinoII = {
     e e16 e e e e e c2\fermata \bar "||" %30
     \tempoB-LVIEtInTerra R1*22 \noBreak %52
     R1\fermata \bar "||"
-    \time 4/4 \tempoB-LVIGratias \newSpacingSection
+    \time 4/2 \tempoB-LVIGratias \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2
       c'2\fE c c d \noBreak
     c d c1 %55
@@ -95,7 +95,7 @@ B-LVIGloriaClarinoII = {
       \unset Staff.timeSignatureFraction
       R1*26 \noBreak %106
     R1\fermata \bar "||"
-    \key c \major
+    \time 3/4 \newSpacingSection
       \once \override Staff.TimeSignature.style = #'single-digit
       R2.*74 \noBreak %181
     R2.\fermata \bar "||"

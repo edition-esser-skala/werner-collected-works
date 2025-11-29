@@ -9,8 +9,9 @@
 
 \book {
   \bookpart {
-    \section "B-LVIKyrie" ""
+    \section "1" "Kyrie"
     \addTocEntry
+    \paper { system-count = #9 }
     \score {
       <<
         \new StaffGroup <<
@@ -23,6 +24,26 @@
             \new Staff {
               \set Staff.instrumentName = "2"
               \B-LVIKyrieClarinoII
+            }
+          >>
+        >>
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Gloria"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \B-LVIGloriaClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \B-LVIGloriaClarinoII
             }
           >>
         >>

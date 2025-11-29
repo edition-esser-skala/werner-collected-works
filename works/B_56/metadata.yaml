@@ -32,3 +32,20 @@ toe: |
     & 232 & trb 1 & 6th to 8th \eighthNote\ in \B1: a′4–f′8 \\
     & 236 & A     & 2nd \halfNote\ in \B1: b8–g′4–a′8 \\
     & 237 & S     & grace note added by editor \\
+  3 & –   & clno  & In \B1, clno 1/2 are missing for \textit{Credo} to
+                    \textit{Agnus Dei}, most likely because the parts
+                    were only incompletely copied. \\
+    & 50  & trb 2 & 4th \eighthNote\ in \B1: \sharp c′8 \\
+    & 53–67 & –   & It is unclear whether this section should be performend
+                    by the chorus or by soloists: The directive “Tutti”
+                    only appears in S (bar~53, 6th~\eighthNote),
+                    B (bar~53, 2nd~\halfNote), and vl~1 (bar~54,
+                    2nd~\quarterNote). \\
+    & 55  & T     & 1st \quarterNote\ in \B1: d′16–e′16–d′8 \\
+    & 61  & trb 1 & 6th \eighthNote\ in \B1: d′8 \\
+    & 132 & B     & 2nd \quarterNote\ in \B1: g4 \\
+  4 & 15  & trb 1 & bar in \B1: g′4.–g′8–g′4 \\
+    & 17  & vl 1  & 6th \eighthNote\ in \B1: a″8 \\
+  6 & 50 & trb 2  & bar in \B1: \halfNoteRest–\sharp d′1 \\
+parts:
+  clno12: Clarino I, II in C

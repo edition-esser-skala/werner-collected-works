@@ -4,7 +4,7 @@ B-LVIKyrieTromboneI = {
   \relative c' {
     \clef alto
     \key c \major \time 4/4 \tempoB-LVIKyrie
-    e4.\fE e8 d2
+    \mvTr e4.\fE-\tutti e8 d2
     R1
     es4.\p es8 d4 r
     r gis2\f a4~
@@ -115,7 +115,7 @@ B-LVIGloriaTromboneI = {
     r8 e f16 e f8~ f g16 f e dis e8~
     e f16 e d cis d8~ d16 e c d h8. a16 \noBreak
     a8 a'4 gis8 a4 r\fermata \bar "||"
-    \time 4/4 \tempoB-LVIGratias \newSpacingSection
+    \time 4/2 \tempoB-LVIGratias \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2
       \mvTr g1.\fE-\tutti g4 g \noBreak
     g2 h4 h g1 %55
@@ -257,5 +257,250 @@ B-LVIGloriaTromboneI = {
     d c h g'8 a
     g2 g4 a8 g
     g4 r r2\fermata \bar "|." %238 finis
+  }
+}
+
+B-LVICredoTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoB-LVICredo
+    R1*2
+    r2 \mvTr g'4.\fE-\tutti g8
+    g g g g r g\pE g g
+    g g g g r4 r8 a\fE %5
+    f d h'4 g r8 c
+    a h c h16 a g8 c4 a8
+    g2 e4 r
+    g8. g16 a8 d, d fis g a
+    d,4 r8 e fis4 g~ %10
+    g fis g r
+    R1*24 \noBreak %35
+    R1\fermata \bar "||"
+    \tempoB-LVIEtIncarnatus
+      r2 r8 \mvTr h,\pE-\solo h h \noBreak
+    fis'2 e
+    d fis~
+    fis4 e2 e4~ %40
+    e d e2~
+    e d
+    fis h,
+    h ais4 h~
+    h ais h2 %45
+    r8 h g' e cis4 d
+    cis2 h4 r
+    R1
+    fis'4. fis8 fis4 fis
+    fis8. fis16 fis8 fis g2 %50
+    fis4 r8 \hA fis g g e g
+    fis h, h'2 a4
+    g2 fis
+    R1
+    r4 h\fE ais fis %55
+    g2 fis4 gis8 gis
+    a8 g e fis g4. \hA fis16 e
+    fis1
+    r4 h ais fis
+    g2 fis %60
+    gis4. ais8 h fis^\critnote h4~
+    h ais r e!
+    dis h r fis'
+    h, e2 d!4
+    cis4. cis8 h4 r %65
+    R1 \noBreak
+    R\fermata \bar "||"
+    \time 3/2 \tempoB-LVIEtResurrexit \newSpacingSection
+      \mvTr d!2\fE-\tutti r4 g a fis \noBreak
+    d d r g\p a fis
+    d d r g\f a fis %70
+    d d r g2 g4
+    e g a fis g a
+    d, e fis a g4. a8
+    h4 g g2 fis
+    g r r %75
+    R1.*9 %84
+    r2 r \mvTr h,~\pE-\solo %85
+    h c d
+    e r r
+    g c, f
+    e r r
+    r a, e' %90
+    e h'1
+    e,2 r r
+    R1.
+    r2 \mvTr a2.\fE-\tutti a4
+    a2. a4 g g %95
+    g2 r4 g2 h4
+    g a g1
+    g2 r r
+    R1.*16 %114
+    g2.\fE g4 g g %115
+    g2 g r
+    R1.*2
+    r2 r g\fE
+    g2. g4 g g %120
+    a2 a e
+    f2. f4 a a
+    a2 a r
+    r g g
+    g2. g4 g g %125
+    a2 g1 \noBreak
+    g1.\fermata \bar "||"
+    \time 4/4 \tempoB-LVIEtUnam \newSpacingSection
+      \mvTr c,2\pE-\solo r8 f f f \noBreak
+    e2 r8 f f f
+    f2. a4 %130
+    d, g c, r
+    R1*3
+    e2 f %135
+    f1
+    e2 e8 e e e
+    e e fis fis e2 \noBreak
+    e1\fermata \bar "||"
+    \tempoB-LVIEtVitam R1*2 %141
+    r2 \mvTr g\fE-\tutti
+    e4 c8 e d4 g,
+    r8 h c d e fis g4~
+    g fis g8 d g f %145
+    e c4 d16 e f8 c4 f8~
+    f e16 d e8 g16 f e8 d16 c d4
+    c8 g'4 f16 e d8 g, g'4~
+    g e fis g8 \hA fis16 e
+    fis8 d e \hA fis g a h a16 g %150
+    a2 d,
+    R1
+    f!2 e4 c8 e
+    d g, r g' f4 d8 f
+    e a, r a' g4. b8 %155
+    a g f4 e4. fis16 g
+    a4 g2 fis4
+    r g e8 d c4~
+    c h r2
+    R1 %160
+    f'2 e4 c8 e
+    d4 h8 g' a4 f8 a
+    g4 e r2
+    r4 r8 a g4 e8 a
+    g4 g g g8 g %165
+    g2 g\fermata \bar "|." %166 finis
+  }
+}
+
+B-LVISanctusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoB-LVISanctus
+    r4 \mvTr g'\fE-\tutti g
+    g g r
+    R2.*10 %12
+    r4 g\fE g
+    g g8 g g4
+    g^\critnote g4. g8 \noBreak %15
+    g2.\fermata \bar "||"
+    \time 4/4 \tempoB-LVIPleni \newSpacingSection
+      R1*18 \noBreak %34
+    R1\fermata \bar "||" %35
+    \tempoB-LVIOsanna R1*7 %42
+    r2 c,\fE
+    f4. f8 e4 c8 d
+    e f g a b2 %45
+    a4 f2 e4
+    d4. c8 d e f g
+    a2 g4 a~
+    a g g fis
+    g2 r4 e %50
+    a f! g2
+    d r
+    r4 d8 e f g a h
+    c2 c,4 r
+    e f2 e4 %55
+    f a8 g f e d c
+    h4 g'8 f e d c h
+    a4 f'8 e d c h a
+    g4 c a8 h c d
+    e f g2 g,4 %60
+    r g'2 f8 e
+    d4. c16 h a2
+    g4 g'8 f e d c4~
+    c a'8 g f e d4~
+    d e d2 %65
+    e4 g8\p f e d c4~
+    c a'8 g f e d4~
+    d e d2
+    e4 r r2\fermata \bar "|." %69 finis
+  }
+}
+
+B-LVIBenedictusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key f \major \time 3/2 \tempoB-LVIBenedictus
+    \mvTr c2\pE-\solo f d
+    c a r
+    R1.*6 %8
+    r2 d g
+    e1 f2 %10
+    e c r
+    r g'1~
+    g2 a4 g a2
+    r f1~
+    f2 g4 f g2 %15
+    R1.*4
+    g1.~ %20
+    g2 f a
+    d,1 e2
+    d1 d2
+    e1.\fermata \markOsannaUtSupraE \bar "||" %24 finis
+  }
+}
+
+B-LVIAgnusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoB-LVIAgnus
+    R1*5
+    r2 \mvTr a'\pE-\soloE
+    g f
+    e1
+    fis2 e
+    e4 fis2 e4~
+    e dis e2
+    \mvTr g4\fE-\tutti g f2
+    g r4 d
+    g4. f8 e4. e8
+    d1
+    g,2 r8 d' e4~ \noBreak
+    e a d,2\fermata \bar "||"
+    \time 3/2 \tempoB-LVIDona \newSpacingSection
+      R1.*29 %46
+    r2 e\fE g
+    c, f a
+    d, g h
+    e, a2. fis4 %50
+    g e dis1
+    e r2
+    R1.*7 %59
+    r2 r e~\fE %60
+    e4 a, f'2 r4 d~
+    d h g'2. e4~
+    e c a'2 g
+    g1 fis2
+    g d2. g4 %65
+    e2. c4 e g
+    c, a d1~
+    d4 h e1~
+    e4 c f1~
+    f4 d g1~ %70
+    g2 a f
+    d4 g2 h4 g d
+    e1 g2
+    c, f a
+    d, g h %75
+    e,4 a g1
+    g2 e\p g
+    c, f a
+    d, g h
+    e,4 a g1 %80
+    g2 e\f g
+    g r r\fermata \bar "|." %82 finis
   }
 }

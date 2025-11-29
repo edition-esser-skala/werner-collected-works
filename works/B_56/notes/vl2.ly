@@ -135,7 +135,7 @@ B-LVIGloriaViolinoII = {
     a4 r r2
     R1 \noBreak
     R\fermata \bar "||"
-    \time 4/4 \tempoB-LVIGratias \newSpacingSection
+    \time 4/2 \tempoB-LVIGratias \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2
       c1.\fE d4 d \noBreak
     e2 g e1 %55
@@ -279,5 +279,238 @@ B-LVIGloriaViolinoII = {
     c h4 a8 g a16 h c8 d
     \appoggiatura c4 h2\trillE c8 e f d
     e4 r r2\fermata \bar "|." %238 finis
+  }
+}
+
+B-LVICredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-LVICredo
+    R1*2
+    r2 e'4\fE g8 g
+    e e d d e4\p g8 g
+    e e d d r e\f c a %5
+    f'4 d r8 g e c
+    a' g f8. f16 e f e f g8 f
+    e4 d\trill c r
+    g'8 g,16 d' c8 h a d, r4
+    r8 g16 h a8 g d'4. e8 %10
+    d4. d8 d4 r
+    R1*24 \noBreak %35
+    R1\fermata \bar "||"
+    \tempoB-LVIEtIncarnatus R1*11 %47
+    r8 d,\pE fis h, h'4 h,
+    r8 fis'16 h d8 cis16 h fis'8 fis, r \hA fis
+    cis' a,! r fis'' h,4. h8 %50
+    h4 h h8. h16 h8 h
+    d2 cis4. d16 \hA cis
+    h4. cis16 h ais8 ais\fE h4~
+    h8 h ais gis \hA ais2\trill
+    h cis %55
+    r4 e dis h
+    c!2 h8 e4 g8
+    fis h, r4 r ais
+    h4. e,8 fis4 r
+    r h ais fis %60
+    gis4. ais8 h fis h4~
+    h ais8 fis eis4 cis
+    r d' e! fis
+    h, e2 d!4
+    cis2 h4 r %65
+    R1 \noBreak
+    R\fermata \bar "||"
+    \time 3/2 \tempoB-LVIEtResurrexit \newSpacingSection
+      r2 r4 h\fE a fis \noBreak
+    h8 c h a g4 h8 c d4\p a
+    h8 c h a g4 h8 c d4\f a %70
+    h8 c h a g4 g e d
+    c h' a fis g a
+    d, e fis a g8 a g a
+    h4 e, g2 fis
+    g r h~\p %75
+    h8 a g4 a4. c8 h4 e
+    c a, r2 r
+    r4 c d2 e
+    a, a' a~
+    a8 g fis4 g4. h8 a4 d %80
+    h g, r2 r
+    r4 d' h' a g2
+    r4 e a g fis2
+    r4 h, h' a g fis
+    e1 dis2 %85
+    e1 r2
+    R1.*7 %93
+    r2 a2.\fE a4
+    a2 f d'4 h %95
+    g2 e4 e' d h
+    c1 h2
+    c2. h8 a g4 f
+    g c h a g c
+    a8 g f4 e2 d %100
+    c r r
+    R1.*13 %114
+    e'2.\fE e4 g g %115
+    e2 d r
+    R1.
+    r2 r h\f
+    g'2. g4 g g
+    e2 e e, %120
+    c'2. c4 c c
+    a2. a4 a a
+    f2 d r
+    r d g
+    h2. h4 g2 %125
+    a g1 \noBreak
+    g1.\fermata \bar "||"
+    \time 4/4 \tempoB-LVIEtUnam \newSpacingSection R1*3 %130
+    r4 g\pE f2
+    a d,
+    e f
+    d4 g2 f4
+    e2 d %135
+    R1*3 \noBreak
+    R1\fermata \bar "||"
+    \tempoB-LVIEtVitam R1*6 %145
+    c'2\fE a4 f8 a
+    g4 c, r8 e f g
+    a h c2 h4
+    c8 g4 c8~ c h16 a h8 c
+    d4 g, g'8 fis16 e d8 c16 h %150
+    a8 d, d'4. d8 h c16 d
+    c8 d16 e d4 g,2
+    r c
+    h4 g8 h a d, r d'
+    c4 a8 c h e, e'4~ %155
+    e8 e d2 c4~
+    c h a d
+    h c8 d g,4 g
+    r8 g a h c d e d16 c
+    f4. f8 e4 c %160
+    a f8 a g c e d16 c
+    g'4 g, r d'
+    c a r e'
+    d h8 d c g c4
+    h8 h e4 d c~ %165
+    c h c2\fermata \bar "|." %166 finis
+  }
+}
+
+B-LVISanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoB-LVISanctus
+      \once \override Staff.TimeSignature.style = #'single-digit
+    r4 e'\fE d
+    c c r
+    R2.*10 %12
+    r4 c\fE d
+    e4. e8 d4
+    e d2 \noBreak %15
+    e2.\fermata \bar "||"
+    \time 4/4 \tempoB-LVIPleni \newSpacingSection
+      R1*2
+    r8 h\f e g! g16( fis) fis8 a e
+    e16( dis) dis8 h'16 h, fis' a, g h e e, g8 fis %20
+    e e'~ e16 e, d' e \sbOn c( d) d16.\trill c64( d) \sbOff e8 cis
+    r16 a f' e d4~ d16 e c a \once \slurDashed a8( gis16.)\trill a32
+    a4 r r r8 fis\p
+    h e, r e c' a, r4
+    R1 %25
+    r8 d' e, c' d,4 r
+    r2 r4 r16 d\fE g f?
+    e8 c'16 h a8 e' a,4 r
+    R1*3 %31
+    r4 \tuplet 3/2 8 { \sbOn g16\pE a h h c d } e8 c, r4
+    r a'~\fE \tuplet 3/2 8 { a16 h a gis a fis } \sbOff \hA gis8. gis16
+    a8. h16 gis8.\trill a16 a8. d16 h4\trill \noBreak
+    a r r2\fermata \bar "||" %35
+    \tempoB-LVIOsanna R1*5 %40
+    g2\fE c4. c8
+    h4 g8 a h c d e
+    f2 e~
+    e4 d g, c~
+    c b8 a g f d e %45
+    f4 a g2
+    r r4 a~
+    a8 h c d e4. e8
+    d4 d d2
+    d4 h e4. e8 %50
+    c4 a8 h c d e f
+    g2 g,
+    r4 f8 g a h c d
+    e2 e,4. f8
+    g4 a b2 %55
+    a4 r d8 c h a
+    g f e4 c'8 h a g
+    f e d4 h'8 a g f
+    e2 a4. h8
+    c d e f g4. f16 e %60
+    d2 g,4 r
+    r f8 g a h c d
+    e4 e, r c'8 b
+    a g f4 r d'8 c
+    h!4 c2 h4 %65
+    c r r c8\p b
+    a g f4 r d'8 c
+    h!4 c2 h4
+    c r r2\fermata \bar "|." %69 finis
+  }
+}
+
+B-LVIAgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-LVIAgnus
+    e1\pE
+    f
+    g~
+    g2 f
+    d4 e2 d4~ %5
+    d cis d2
+    R1*5 %11
+    c'4\fE e a,4. h8
+    c g c2 h8 d
+    d( c) c b b4 a8 g
+    fis4 g2 f4~ %15
+    f e d g~ \noBreak
+    g fis g2\fermata \bar "||"
+    \time 3/2 \tempoB-LVIDona \newSpacingSection
+      R1.*21 %38
+    r2 r e~\fE
+    e4 a f2 a, %40
+    r4 h' g2 g,
+    R1.*3
+    r2 g'2. c4 %45
+    a d \appoggiatura c2 h1\trill
+    c2. e4 c g
+    a2 d4 f d a
+    h2 e4 g e h
+    c2. c4 h2 %50
+    h h1
+    h r2
+    R1.*7 %59
+    r2 g2. c4 %60
+    a2. f4 a d
+    h2. g4 h e
+    c2. d4 h2
+    e d1
+    d r2 %65
+    r g,2. c4
+    a2. f4 a d
+    h2. g4 h e
+    c2. a4 c f
+    d2. h4 d g %70
+    e1 d4 c
+    h2 g r
+    r4 c2 e4 c g
+    a2 d4 f d a
+    h2 e4 g e h %75
+    c d d1\trill
+    e4 c2\p e4 c g
+    a2 d4 f d a
+    h2 e4 g e h
+    c d d1\trill %80
+    e2 e\f d
+    e r r\fermata \bar "|." %82 finis
   }
 }
