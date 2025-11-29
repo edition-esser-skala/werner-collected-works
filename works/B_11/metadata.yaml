@@ -1,0 +1,19 @@
+title: Missa in Celeri Transitu
+id: WerW B.11
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.24
+    rism: 530001934
+    url: https://copia.oszk.hu/kotta/missa-in-celeri-transitu-in-f/
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  3 & 22 & –   &  inconsistent tempo indication in \A1
+                  (B, org, and vlne: “Adagio”;
+                  S, A, and T: “Largo”; none: vl 1, 2) \\
+  4 & 11 & org & treble ottavo clef added by editor \\
