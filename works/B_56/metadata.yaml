@@ -1,0 +1,34 @@
+title: Missa Laudate Dominum in sono tubæ
+id: WerW B.56
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-HE
+    shelfmark: VIII a 6
+    rism: 600090682
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 11  & vl 1  & 1st \quarterNote\ in \B1: \sharp e″4 \\
+    & 17  & –     & tempo indication in org and vlne: “Allegretto” \\
+    & 72  & A     & last \eighthNote\ in \B1: d′8 \\
+    & 73  & trb 1 & last \eighthNote\ in \B1: e′8 \\
+  2 & 1   & –     & tempo indication in trb 1, org, and vlne: “Presto” \\
+    & 4   & trb 1 & 1st \quarterNote\ in \B1: a′4 \\
+    & 28  & trb 1 & 2nd \halfNote\ in \B1: 4×a′8 \\
+    & 30  & B     & bar in \B1: c1 \\
+    & 31  & –     & tempo indication in org and vlne: “Largo” \\
+    & 31  & S     & 1st \quarterNoteDotted\ in \B1: e′4. \\
+    & 44  & trb 1 & 1st \eighthNote\ in \B1: f′8 \\
+    & 64  & A     & 2nd \halfNote\ in \B1: g2 \\
+    & 65  & trb 1 & last \quarterNote\ in \B1: b4 \\
+    & 79  & A     & bar in \B1: e′ breve \\
+    & 87  & vl 2  & 6th \eighthNote\ in \B1: \sharp f′8 \\
+    & 183 & vl 1  & tempo indication in \B1: “Andante” \\
+    & 186 & vl 1  & 8th \sixteenthNote\ in \B1: a′16 \\
+    & 232 & trb 1 & 6th to 8th \eighthNote\ in \B1: a′4–f′8 \\
+    & 236 & A     & 2nd \halfNote\ in \B1: b8–g′4–a′8 \\
+    & 237 & S     & grace note added by editor \\
