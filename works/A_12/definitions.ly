@@ -6,7 +6,6 @@ JobsFrau = \markup { \override #'(box-padding . 0.5) \box "Jobs Frau" }
 Leviathan = \markup { \override #'(box-padding . 0.5) \box "Leviathan" }
 Schöpffer = \markup { \override #'(box-padding . 0.5) \box "Schöpffer" }
 fC = \set Staff.forceClef = ##t
-bfdot = \markup { \combine \transparent \figured-bass 0 \raise #.6 \draw-circle #.2 #0 ##t }
 sempreP = \markup \remark \whiteout \pad-markup #0.5 \concat { "sempre " \bold \fontsize #2 "p" }
 markScenaSexta = {
   \once \override Score.RehearsalMark.self-alignment-X = #LEFT

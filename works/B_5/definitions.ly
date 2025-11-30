@@ -1,6 +1,5 @@
 \version "2.24.0"
 
-bfdot = \markup { \combine \transparent \figured-bass 0 \raise #.6 \draw-circle #.2 #0 ##t }
 markOsannaUtSupra = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark "Osanna ut supra"

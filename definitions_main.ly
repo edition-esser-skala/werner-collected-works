@@ -25,6 +25,13 @@ ignoreMelismas = \set ignoreMelismata = ##t
 obeyMelismas = \unset ignoreMelismata
 vlne = \markup \remark "vlne"
 
+dotbf = #(define-scheme-function
+  (bf)
+  (number-or-string?)
+  (markup #:combine
+    #:figured-bass (if (number? bf) (number->string bf) bf)
+    #:translate '(1.3 . .6) #:draw-circle .2 0 #t))
+
 extendLV = #(define-music-function
   (parser location further)
   (number?)

@@ -1184,10 +1184,10 @@ B-VSanctusBassFigures = \figuremode {
   r2. %40
   r1
   r
-  r2 <5 3>4 <\bfdot>8 <6>
+  r2 <#(dotbf 5) 3>4. <6>8
   q2 <7>4 <6\\>
   r1 %45
-  <5>4 <\bfdot>8 <6> q2
+  <#(dotbf 5)>4. <6>8 q2
   <7>4 <6>2.
   r1
   r2 <6>
@@ -1202,10 +1202,10 @@ B-VSanctusBassFigures = \figuremode {
   <4> <_+>2.
   r1
   r %60
-  r2 <5 3>4 <\bfdot>8 <6>
+  r2 <#(dotbf 5) 3>4. <6>8
   q2 <7>4 <6\\>
   r1
-  <5>4 <\bfdot>8 <6> q2
+  <#(dotbf 5)>4. <6>8 q2
   <7>4 <6>2. %65
   r1
   r
