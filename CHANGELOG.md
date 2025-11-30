@@ -1,5 +1,18 @@
 # Changelog
 
+## 2025.11.0 – 2025-11-30
+
+### Added
+
+- works: WerW B.11/50/56/62/74/76–78, D.1.12, N.19, and O.11
+- global scheme function `dotbf` for creating a dotted bass figure (replaces macro `\bfdot`)
+
+### Removed
+
+- WerW D.5.2/3 (merged to WerW D.1.12)
+- WerW D.5.4 (merged to WerW C.2)
+
+
 ## 2025.10.0 – 2025-11-01
 
 ### Added
