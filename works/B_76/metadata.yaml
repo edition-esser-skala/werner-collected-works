@@ -1,0 +1,19 @@
+title: Missa
+subtitle: fragment
+id: WerW B.76
+genre: mass
+scoring: "[?], b, org solo"
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.39/4
+    rism: 530003974
+    url: https://copia.oszk.hu/kotta/7-orgelstimmen-zu-werners-messen/
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  – & – & –   & \A1 only comprises an org part. \\
+extra_abbreviations:
+  "?": unknown
