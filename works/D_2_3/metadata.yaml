@@ -1,0 +1,23 @@
+title: In monte Oliveti
+id: WerW D.2.3
+genre: offertorium
+festival: pro Cœna Domini
+scoring: S, A, T, B (coro), [2 vla], b, cemb
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.60
+    date: 1759
+    rism: 530001967
+    url: https://copia.oszk.hu/kotta/dominic-palmarum-in-dm/
+    license: public domain
+    principal: true
+toe: |
+  –  & vla  & added by later hand \\
+  43 & vlne & last \eighthNote\ in \A1: g8 \\
+lyrics:
+  In monte Oliveti orabat ad Patrem:\\
+  Pater si fieri potest,\\
+  transeat a me calix iste.\\[1ex]
+  (\bibleverse{Mat}(26:39))
