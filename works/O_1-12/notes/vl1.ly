@@ -2916,3 +2916,229 @@ O-XIeViolinoI = {
     a a, a a[ a a] } a4\fermata \bar "|." %187 finis
   }
 }
+
+O-XIIaViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \major \time 2/4 \tempoO-XIIa
+      \markDecembreI
+    a'16(\fE c) f8 c16( f) a8
+    b2
+    b16( g) e8 g16( e) b8~
+    b a16 g a4
+    c8 f4 a8~ %5
+    a d,4 b8
+    g d4 f8~
+    f e16 d e4
+    f8 d16 f g4~
+    g8 f a'4~ %10
+    a8 g g( f)
+    e c' g( a)
+    e( f) \appoggiatura e d4\trill
+    c8 c,\p g'( a)
+    e( f) \appoggiatura e d4\trill \noBreak %15
+    c r \bar ":|.|:"
+    g''~\f g16 e c8 \noBreak
+    b!4 b'~
+    b16 a-! g-! f-! e-! d-! c-! b-!
+    b8( a) a'4~ %20
+    a16 g-! f-! e-! d-! c-! b-! a-!
+    g4 g'~
+    g16 f-! e-! d-! cis-! b-! a-! g-!
+    f8 f'16 g a8 g
+    f( g) \appoggiatura f e4\trill %25
+    d f8.\trill e32 f
+    \tuplet 3/2 8 { g16 f e } c8 c, b'
+    b(\trill a) a'4~
+    a16 f d8~ d16 b g8
+    \grace f8 e g4 a8 %30
+    b16 c d4 c16 b
+    a8 f' c( d)
+    a( b) \appoggiatura a g4\trill
+    f8 a'\p c,( d)
+    a( b) \appoggiatura a g4\trill %35
+    f r\fermata \bar ":|." %36 finis
+  }
+}
+
+O-XIIbViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \tempoO-XIIb
+      \set Score.currentBarNumber = #37
+      \markDecembreII
+    f'8.[\fE c16 a8. f16 a8. c16] %37
+    f8.[ c16 a8. f16 a8. c16]
+    f8 a16 g f8 e16 d c8. b16
+    a8. g16 f4 r8 r16 g16\p %40
+    a8. g16 f4 r8 r16 g\f
+    a8. h16 c4. d16( c)
+    h8. c16 d4. e16( d)
+    c8. d16 e4. f16( e)
+    d8. e16 f4. g16( f) %45
+    e8. d16 c4 r8 r16 d\p
+    e8. d16 c4 r8 r16 d\f
+    e4~ \tuplet 3/2 4 { e8 f g a f a }
+    d,4~ \tuplet 3/2 4 { d8 e f g e g }
+    c,4~ \tuplet 3/2 4 { c8 d e f d f %50
+    h, d c \hA h a g f e d
+    e c d e f g a h c
+    f, g a g g' f e f d } \noBreak
+    c4 c, r \bar ":|.|:"
+    \tuplet 3/2 4 { g''8 a b! } c8.[ b16 a8. g16] \noBreak %55
+    \tuplet 3/2 4 { f8 g a } b8.[ a16 g8. f16]
+    \tuplet 3/2 4 { e8 f g } a8. g16 \tuplet 3/2 4 { f8 g a }
+    d,8. e16 d4( cis8.)\trill d16
+    d4 \tuplet 3/2 4 { d'8 c! b a b c
+    b a g } g,4. fis8 %60
+    g4 \tuplet 3/2 4 { c'8 b a g a b
+    a g f! } f,4. e8
+    f4 f'~ \tuplet 3/2 4 { f8 g a
+    d, e fis } g4~ \tuplet 3/2 4 { g8 a b
+    e, f g } a4~ \tuplet 3/2 4 { a8 b c } %65
+    d,8. d'16 \appoggiatura d8 c4 b
+    a~ \tuplet 3/2 4 { a8 b c d b g
+    e g f e d c b a g
+    a f g a b c d e f
+    b, c d c c' b a b g } %70
+    f4 f, r\fermata \bar ":|." %71 finis
+  }
+}
+
+O-XIIcViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \tempoO-XIIc
+      \set Score.currentBarNumber = #72
+      \markDecembreIIIa
+    \tuplet 3/2 4 { f'8\fE g a } f,2
+    \tuplet 3/2 4 { a'8 b c } f,,2
+    b'16( d8.) c16( g8.) a16( f8.)
+    \tuplet 3/2 4 { e8 f g } c,4 r %75
+    f \tuplet 3/2 4 { g8 f e } f( c)
+    c( b) b( a) a( g)
+    \tuplet 3/2 4 { a g f } e( d) c h \noBreak
+    c2 r4 \bar ":|.|:"
+    \markDecembreIIIb g''2 \tuplet 3/2 4 { a8 b! c } %80
+    b c d4 c8( b)
+    b( a) a( g) g( f)
+    \tuplet 3/2 4 { e f g } c,4 c'8( es,)
+    es( d) d4 b'8( d,)
+    d( cis) cis4 a'8( c,) %85
+    \once \slurDashed c( h) h4 g'8( b,)
+    b( a) a4 b8.\trill a32( b)
+    c16( f8.) \tuplet 3/2 4 { d8 c b a g f }
+    \grace f8 e2 r4
+    f' \tuplet 3/2 4 { g8 f e } f c %90
+    c( b) \grace b a2
+    f4\p \tuplet 3/2 4 { g8 f e } f( c)
+    c( b) b( a) f'([\f c')]
+    d,( b') a g f e
+    f2 r4\fermata \bar ":|." %95 finis
+  }
+}
+
+O-XIIdViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoO-XIId
+      \set Score.currentBarNumber = #96
+      \markDecembreIV
+    c4. c16( d) d2
+    e16( g) b( d) e( g) b( b,) \grace b8 a2
+    a16( c) es( fis) a( \hA fis) \hA es( c) b2
+    as16(-. as-. as-. as-.) as(-. as-. as-. as-.) g(-. g-. g-. g-.) g(-. g-. g-. g-.)
+    g(-. g-. g-. g-.) g(-. g-. g-. g-.) fis d32 \hA fis a16 \hA fis32 a d16 a32 d fis16 d32 \hA fis %100
+    g2 g8( g,) g4
+    e'!2 \grace e8 f( f,) f4
+    es16(-. es-. es-. es-.) es(-. es-. es-. es-.) d( g,) h( d) f( as) h( d)
+    es4 fis g8 g, g4
+    d'( e) f8( f,) f4 %105
+    es16(-. es-. es-. es-.) es(-. es-. es-. es-.) d( d d d) d( d d d)
+    c2 b
+    a16(-. a-. a-. a-.) a(-. a-. a-. a-.) a(-. a-. a-. a-.) d(-. d-. d-. d-.)
+    d(-. d-. d-. d-.) d(-. d-. d-. d-.) cis( a) \hA cis( e) g( b!) cis( e)
+    f4 d b2 %110
+    g'4 e8 b as2
+    g4. f8 b4. a8
+    d4 e!8( f) f,2~
+    f8. g16 e8.\trill f16 f8. a'!32( f) c16. f64( c) a16. c64( a)
+    f4 r r2\fermata \bar "||" %115 finis
+  }
+}
+
+O-XIIeViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \major \time 2/4 \tempoO-XIIe
+      \set Score.currentBarNumber = #116
+      \markDecembreV
+    f'32(\fE e) f8. a32( g) a8.
+    f4. e16 d
+    c8 b a b
+    c b a4
+    c8\p b a b %120
+    c b a4
+    \tuplet 3/2 4 { a'8\f b a } g[ f]
+    e d c4
+    \tuplet 3/2 4 { a'8\p b a } g[ f]
+    e d c d %125
+    e\f d c d
+    e d c d
+    es\p d c d
+    es d c d
+    es\f d c b! %130
+    as g f es
+    d c h a!
+    g4 h8.\trill a32 \hA h
+    d8.\trill c32 d f8.\trill e!32 f
+    h8.\trill a32 \hA h d8.\trill c32 d %135
+    f8.\trill e32 f h8.\trill a32 \hA h
+    c8 c, c a'
+    g c, c32( d e f g a h16)
+    c8\p c, c a'
+    g c, c32( d e f g a h16) %140
+    c8\f h a g
+    f e d c
+    h16( c) a( \hA h) g( a) fis( a)
+    g4 r
+    c'8 g4 f!8 %145
+    e g c, e
+    a, f' e d
+    e\p g c, e
+    a, f' e d
+    e\f g c, e %150
+    a, f' e d \noBreak
+    c4 r \bar ":|.|:"
+    c32(\trill h) c8. e32( d) e8. \noBreak
+    c4. h16 a
+    g8 f e f %155
+    g f e4
+    g8\p f e f
+    g f e f
+    g a16 b! a8 g
+    f e d16\f e f g %160
+    a8 g f g
+    a g f4
+    a8\p g f g
+    a g f b
+    f4 e\trill %165
+    d r
+    f'8\f f, f d'
+    c f, f32( g a b c d e16)
+    f8\p f, f d'
+    c f, f32( g a b c d e16) %170
+    f8\f e d c
+    b a g f
+    e16( f) d( e) c( d) h( d)
+    c4 r
+    f'8 c4 b!8 %175
+    a c f, a
+    d, b' a g
+    a\p c f, a
+    d, b' a g
+    a\f c f, a %180
+    d, b' a g
+    f4 r\fermata \bar ":|." %182 finis
+  }
+}

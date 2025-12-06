@@ -5178,3 +5178,426 @@ O-XIeBassFigures = \figuremode {
   <_!>2
   r %187 finis
 }
+
+O-XIIaContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key f \major \time 2/4 \tempoO-XIIa
+      \markDecembreI
+    f8\fE f f f
+    e e e e
+    e e e e
+    f f f f
+    a, a a a %5
+    b b b b
+    h h h h
+    c c c c
+    d d e e
+    f f d d %10
+    h h g g
+    c8. d16 e8 f
+    g f g g,
+    c8.\p d16 e8 f
+    g f g g, \noBreak %15
+    << { c c'16 b!^\altOne a8 g } \\ { c,8_\altTwo g'16 f e8 d } >> \bar ":|.|:"
+    c8\f c c c \noBreak
+    d d d d
+    e e e e
+    f f f f %20
+    b, b b b
+    e e e e
+    a, a a a
+    d b' f g
+    a g a a, %25
+    d d d d
+    e e e e
+    f f f f
+    b, b b b
+    c c c c %30
+    d d e e
+    f8. g16 a8 b
+    c b c c,
+    f f,16\p g a8 b
+    c b c c, %35
+    << { f^\altOne f' e d } \\ { f,4_\altTwo r\fermata } >> \bar ":|." %36 finis
+  }
+}
+
+O-XIIaBassFigures = \figuremode {
+  r2
+  <5 3>4 <\t \t>
+  r2
+  <4 2>8 <3 1>4.
+  <6>2 %5
+  <7 3>4 <6>
+  q4. <5>8
+  <4> <3>4 <[6]>8
+  <6 3>4 <7 3>8 <6>16 <5>
+  \bo <[9] 4>8 \bc <[8] 3>4. %10
+  <7 5>8 <6> <8 _!> <7>
+  r4 <6>8 <6 5>
+  <6 4>4 <5 _!>
+  r <6>8 <6 5>
+  <6 4>4 <5 _!> %15
+  r2
+  r
+  <6->4 <\t>
+  <5> <6>8 <5>
+  <4 9> <3 8>4. %20
+  <7 3>4 <\t \t>8 <6>16 <5>
+  <3 7>4 <\t \t>8 <6\\>16 <5>
+  <7 _+>4 <\t \t>8 <6>16 <5>
+  <3 9>8 <3> <6> <6 5>
+  <6 4>4 <5 _+> %25
+  <_!>2
+  <6[!]>4. <5>8
+  <4> <3>4.
+  <7>4 <6>
+  <3>4. <6>8 %30
+  q4. q16 <5>
+  r4 <6>8 <6 5>
+  <6 4>4 <5 3>
+  r <6>8 <[6 5]>
+  <6 4>4 <5 3> %35
+  r2 %36 finis
+}
+
+O-XIIbContinuo = {
+  \relative c {
+    \clef bass
+    \key f \major \time 3/4 \tempoO-XIIb
+      \set Score.currentBarNumber = #37
+      \markDecembreII
+    f,8.[\fE a16 c8. f16 c8. a16]
+    f8.[ a16 c8. f16 c8. a16]
+    f8.[ g16 a8. b16 c8. c,16]
+    f8.[ g16 a8. g16 f8. e16] %40
+    f8.[\p g16 a8. g16 f8. e16]
+    f8.[\f f'16 e8. d16 e8. f16]
+    g4 f8.[ e16 f8. g16]
+    a4 g8.[ f16 g8. a16]
+    h4 a8.[ g16 a8. \hA h16] %45
+    c8.[ d16 e8. d16 c8. h16]
+    c8.[\p d16 e8. d16 c8. h16]
+    c4\f c, f
+    h h, e
+    a a, d %50
+    g g, a8 h
+    c8. d16 \tuplet 3/2 4 { e8 f g a h c
+    f, g a } g4 g, \noBreak
+    c << { \tuplet 3/2 4 { g'8^\altTwo a f e f d } } \\ { \tuplet 3/2 4 { c8_\altOne d b! a b g } } >> \bar ":|.|:"
+    c'8.[ b!16 a8. g16] \tuplet 3/2 4 { f8 g a } \noBreak %55
+    b8.[ a16 g8. f16] \tuplet 3/2 4 { e8 f g }
+    a8.[ g16 f8. e16 d8. c16]
+    \tuplet 3/2 4 { b8 a g } a8.[ b16 g8. a16]
+    d8. e16 fis4. d8
+    g8.[ a16 b8. c16 d8. d,16] %60
+    g8. f!16 e4. c8
+    f8.[ g16 a8. b16 c8. c,16]
+    f8.[ g16 a8. g16 a8. f16]
+    b8.[ a16 b8. a16 b8. g16]
+    c8.[ b16 c8. b16 c8. a16] %65
+    d8.[ d,16 e8. c16 d8. e16]
+    f8.[ e16 d8. c16] b4
+    c c'8.[ c,16 d8. e16]
+    f8. g16 \tuplet 3/2 4 { a8 b c d e f
+    b, c d } c4 c, %70
+    f << { \tuplet 3/2 4 { f8(^\altOne a g f e d) } } \\ { f,4_\altTwo r\fermata } >> \bar ":|." %71 finis
+  }
+}
+
+O-XIIbBassFigures = \figuremode {
+  r2. %37
+  r
+  r4 <6> <8>8. <7>16
+  r4 <6>2 %40
+  r2.
+  r4 <6>2
+  <_!>4 <6>2
+  <3>4 <6 _!>2
+  <5>4 <6>2 %45
+  r2.
+  r
+  r
+  <5! 3>
+  r %50
+  <_!>2 <6>8 <\t>
+  r2.
+  r4 <_!> <6 4>8 <5 _!>
+  r2.
+  <5 3>4 <\t \t> <3 8> %55
+  r2.
+  <_+>
+  r4 <6 4>4.. <5 _+>16
+  <_+>4 <6>4. <7 [_+]>8
+  <_->4 <6> <_+> %60
+  r <6>4. <7>8
+  r4 <6> <3>
+  r <6>2
+  <5>4 <6>2
+  <5>4 <6>2 %65
+  <3>4 <6> q
+  <3>2 <6>4
+  r2 q4
+  r2.
+  r4 <3> <6 4>8 <5 3> %70
+  r2. %71 finis
+}
+
+O-XIIcContinuo = {
+  \relative c {
+    \clef bass
+    \key f \major \time 3/4 \tempoO-XIIc
+      \set Score.currentBarNumber = #72
+      \markDecembreIIIa
+    \mvDl f4\fE e d
+    c b a
+    g' e f
+    c c' b %75
+    a b a
+    g f e
+    f g g, \noBreak
+    c << { c'8^\altOne b! a g } \\ { g_\altTwo f e d } >> \bar ":|.|:"
+    \markDecembreIIIb c'4 b! a \noBreak %80
+    g f e
+    f e d
+    c c'8 b a4
+    b, b'8 a g4
+    a, a'8 g fis4 %85
+    g, g'8 f e4
+    f, f'8 e d4
+    a b d
+    c c' b
+    a b a %90
+    g f c8\p b
+    a4 b a
+    g f a\f
+    b c c,
+    << { f^\altOne f'8 g a b } \\ { f,2_\altTwo r4\fermata } >> \bar ":|." %95 finis
+  }
+}
+
+O-XIIcBassFigures = \figuremode {
+  <8 3>2 \bassFigureExtendersOn q4 %72
+  <6 4>2 q4 \bassFigureExtendersOff
+  r <6>2
+  r2. %75
+  <6>4 q8 <4> <6>4
+  r2 q4
+  <6 5> <6 4> <5 _!>
+  r2.
+  r2 <6>4 %80
+  r q q8 <5>
+  <3>4 q q
+  r2 <6>8 <5->
+  <4-> <3> <\t>4 <_->
+  <4>8 <_+> <\t>4 <6>8 <5!> %85
+  <4> <_!> <\t>4 <6>8 <5->
+  <4> <3> <\t>4 <6>
+  q2 <5>8 <6>
+  r2.
+  <6>4 q8 <4> <6>4 %90
+  q <3> <\t>
+  <6>4 q8 <4> <6>4
+  q2 q4
+  <6 5> <6 4> <5 3>
+  r2. %95 finis
+}
+
+O-XIIdContinuo = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoO-XIId
+      \set Score.currentBarNumber = #96
+      \markDecembreIV
+    f16(-. f-. f-. f-.) f(-. f-. f-. f-.) f(-. f-. f-. f-.) f(-. f-. f-. f-.)
+    f4 r f16(-. f-. f-. f-.) f(-. f-. f-. f-.)
+    fis4 r g16(-. g-. g-. g-.) g(-. g-. g-. g-.)
+    f!(-. f-. f-. f-.) f(-. f-. f-. f-.) es(-. es-. es-. es-.) es(-. es-. es-. es-.)
+    e(-. e-. e-. e-.) e(-. e-. e-. e-.) d4 r %100
+    c'16(-. c-. c-. c-.) c(-. c-. c-. c-.) h(-. h-. h-. h-.) h(-. h-. h-. h-.)
+    b(-. b-. b-. b-.) b(-. b-. b-. b-.) as(-. as-. as-. as-.) as(-. as-. as-. as-.)
+    fis(-. fis-. fis-. fis-.) fis(-. fis-. fis-. fis-.) g4 r
+    c16 c c c c c c c h h h h h h h h
+    b b b b b b b b a a a a a a a a %105
+    a a a a a a a a b b b b g g g g
+    e! e e e fis fis fis fis g g g g es es es es
+    cis cis cis cis cis cis cis cis d d d d b b b b
+    gis gis gis gis gis gis gis gis a4 r
+    d16 d d d d d d d cis cis cis cis cis cis cis cis %110
+    c c c c c c c c h h h h h h h h
+    c c c c c-\tasto c c c c c c c c c c c
+    c c c c c c c c des des des des h h h h
+    c c c c c, c c c f f f f f f f f
+    f4 r r2\fermata \bar "||" %115 finis
+  }
+}
+
+O-XIIdBassFigures = \figuremode {
+  r2 <6 4> %96
+  <7 4 2> <8 3>
+  <7- 5 3>1
+  <4! _->2 <6>
+  <6\\ 3> <_+> %100
+  <_-> <6>
+  <4! 2\+> <6 3>
+  <7- 5 [_!]> <5 _!>
+  <5 _->4 <6 4\+> <6>2
+  <6 3>4 <4!> <6[!]>2 %105
+  <5- 3> <3 9>4 <5 3>
+  <6 5> <5 3> <_- 9> <5 3>
+  <6 5 [_!]>2 <5!>
+  <7! 5 [_!]> <5 _+>
+  <_!> <7- 5> %110
+  <5 3>4. <7>8 <7- 5>2
+  <5 4>8 <\t 3>2..
+  r2 <5- 3>8 <\t \t> \bo <7[-] 5 [_!]> \bc <\t \t [\t]>
+  <6[-] 4> <5 3>2.
+  r1 %115 finis
+}
+
+O-XIIeContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key f \major \time 2/4 \tempoO-XIIe
+      \set Score.currentBarNumber = #116
+      \markDecembreV
+    f8\fE f f f
+    f f f f
+    f g a g
+    f g a g
+    f\p g a g %120
+    f g a g
+    f4\f e8 f
+    g f e d16 c
+    f4\p e8 f
+    g f e d %125
+    c\f d e d
+    c d e d
+    c\p d es d
+    c d es d
+    c4\f c'8-\unisono b! %130
+    as g f es
+    d c h a!
+    g16 g' f g g, g' f g
+    g, g' f g g, g' f g
+    g, g' f g g, g' f g %135
+    g, g' f g g, g' f g
+    e!8 a g f
+    e a g f
+    e\p a g f
+    e a g f %140
+    e\f d16 e f8 e
+    d c h a
+    g' a h c
+    h a g f
+    e4 h %145
+    c e
+    f g
+    c,\p e
+    f g
+    c,\f e %150
+    f g \noBreak
+    << { c,8^\altOne c'16 b! a8 g } \\ { c,8_\altTwo g'16 f e8 d } >> \bar ":|.|:"
+    c8 c c c \noBreak
+    c c c c
+    c d e d %155
+    c d e d
+    cis\p d e d
+    cis d e d
+    cis4 a
+    d8 e f e %160
+    d\f e f e
+    d e f e
+    d\p e f e
+    d e f g
+    a b g a %165
+    d, d'\f c! b
+    a d c b
+    a d c b
+    a\p d c b
+    a d c b %170
+    a\f g16 a b8 a
+    g f e d
+    c d e f
+    e d c b
+    a4 e' %175
+    f a,
+    b c
+    f,\p a
+    b c
+    f,\f a %180
+    b c
+    << { f,8^\altOne f' e d } \\ { f,4_\altTwo r\fermata } >> \bar ":|." %182 finis
+  }
+}
+
+O-XIIeBassFigures = \figuremode {
+  r2 %116
+  r
+  r4 <6>
+  r q
+  r2 %120
+  r
+  r4 <6>8 q
+  <_!> <\t> <6>4
+  r q8 q
+  <_!> <\t> <6>4 %125
+  r q
+  r q
+  <_-> <6>
+  <_-> <6>
+  <_->2 %130
+  r
+  r
+  <_!>
+  r
+  r %135
+  r
+  <6>8 <\t>4.
+  <6>8 <\t>4.
+  <6>8 <\t>4.
+  <6>8 <\t>4. %140
+  <6>8 <6!> <3> q
+  r2
+  <_!>4 <6>8 <6 4\+>
+  <6>2
+  q4 q8 <5> %145
+  r4 <6>
+  <8 6> <6 4>8 <5 _!>
+  r4 <6>
+  <[8] 6> <6 4>8 <5 _!>
+  r4 <6> %150
+  <8 6> <6 4>8 <5 _!>
+  r2
+  r
+  r
+  r4 <6> %155
+  r2
+  <5! 3>4 <6\\>
+  r q
+  <5! 3> <8 _+>8 <7 \t>
+  <_!>4 <6> %160
+  r2
+  r
+  r
+  r4 <6>8 q
+  <6 4>4 <[\tllur \tllur]>8 <5 _+> %165
+  r2
+  <6>
+  q
+  q
+  q %170
+  q8 q <3> q
+  q2
+  r4 <6>8 <4!>
+  <6>2
+  q4 q8 <5> %175
+  r4 <6>
+  <[8 6]> <6 4>8 <5 3>
+  r4 <6>
+  <8 [6]> <6 4>8 <5 3>
+  r4 <6> %180
+  <[8 6]> <6 4>8 <5 3>
+  r2 %182 finis
+}

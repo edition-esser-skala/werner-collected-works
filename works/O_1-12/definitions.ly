@@ -246,6 +246,25 @@ markNovembreV = \markTitle
   "5. Il Molino."
   "Die Mahl-Mühl."
 
+markDecembreI = \markTitle
+  "1. L’Inverno."
+  "Der Winter."
+markDecembreII = \markTitle
+  "2. Il ſole in capricorno."
+  "Die Sonn in dem Steinbock."
+markDecembreIIIa = \markTitle
+  "3. Menuet il Giorno di 8. hore."
+  "Die Tags-Länge 8. Stund, …"
+markDecembreIIIb = \markTitle
+  "La notte di 16. hore."
+  "… die Nacht 16. Stund."
+markDecembreIV = \markTitle
+  "4. Il ſomno."
+  "Der Schlaf, oder ein Nacht-Stuck."
+markDecembreV = \markTitle
+  "5. Il fine dell’ anno."
+  "Des Jahrs ENDE."
+
 
 \layout {
   \set Score.doubleRepeatBarType = #":|.|:"
@@ -320,6 +339,12 @@ tempoO-XIb = \tempoMarkup "[Tempo deest]"
 tempoO-XIc = \tempoMarkup "Tempo di bon gusto"
 tempoO-XId = \tempoMarkup "[Tempo deest]"
 tempoO-XIe = \tempoMarkup "Tempo passato"
+
+tempoO-XIIa = \tempoMarkup "Andantino"
+tempoO-XIIb = \tempoMarkup "Allegro"
+tempoO-XIIc = \tempoMarkup "[Tempo deest]"
+tempoO-XIId = \tempoMarkup "Larghetto e sempre piano"
+tempoO-XIIe = \tempoMarkup "Molto allegro"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

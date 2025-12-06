@@ -16,6 +16,19 @@
   systems-per-page = #4
 }
 
+paperFiveSystems = \paper {
+  top-system-spacing.basic-distance = #10
+  top-system-spacing.minimum-distance = #10
+  top-markup-spacing.basic-distance = #0
+  top-markup-spacing.minimum-distance = #0
+  markup-system-spacing.basic-distance = #10
+  markup-system-spacing.minimum-distance = #10
+  system-system-spacing.basic-distance = #17
+  system-system-spacing.minimum-distance = #17
+  systems-per-page = #5
+  page-count = #1
+}
+
 \book {
   \bookpart {
     \section "O.1" "Il Gennàro, oder im Jenner"
@@ -1609,6 +1622,154 @@
       >>
       \layout { }
       \midi { \tempo 4 = 70 }
+    }
+  }
+  \bookpart {
+    \section "O.12" "Il Decèmbre, im Chriſtmonat"
+    \addTocEntry
+    \paperFiveSystems
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-XIIaViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-XIIaViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-XIIaContinuo
+          }
+        >>
+        \new FiguredBass { \O-XIIaBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 70 }
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper { system-count = #7 }
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-XIIbViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-XIIbViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-XIIbContinuo
+          }
+        >>
+        \new FiguredBass { \O-XIIbBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4. = 90 }
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-XIIcViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-XIIcViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-XIIcContinuo
+          }
+        >>
+        \new FiguredBass { \O-XIIcBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 120 }
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \paper { system-count = #7 }
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-XIIdViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-XIIdViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-XIIdContinuo
+          }
+        >>
+        \new FiguredBass { \O-XIIdBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 60 }
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \O-XIIeViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \O-XIIeViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "bc"
+            % \transpose c c,
+            \O-XIIeContinuo
+          }
+        >>
+        \new FiguredBass { \O-XIIeBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 120 }
     }
   }
 }

@@ -602,4 +602,58 @@
       >>
     }
   }
+  \bookpart {
+    \section "O.12" "Il Decèmbre, im Chriſtmonat"
+    \addTocEntry
+    \paper { system-count = #6 }
+    \score {
+      <<
+        \new Staff { \O-XIIaContinuo }
+        \new FiguredBass { \O-XIIaBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "☙"
+    \addTocEntry
+    \paper { system-count = #7 }
+    \score {
+      <<
+        \new Staff { \O-XIIbContinuo }
+        \new FiguredBass { \O-XIIbBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❦"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \O-XIIcContinuo }
+        \new FiguredBass { \O-XIIcBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "❧"
+    \addTocEntry
+    \paper { system-count = #7 }
+    \score {
+      <<
+        \new Staff { \O-XIIdContinuo }
+        \new FiguredBass { \O-XIIdBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "⁂"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \O-XIIeContinuo }
+        \new FiguredBass { \O-XIIeBassFigures }
+      >>
+    }
+  }
 }
