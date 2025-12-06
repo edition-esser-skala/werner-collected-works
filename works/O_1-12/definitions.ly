@@ -266,10 +266,6 @@ markDecembreV = \markTitle
   "Des Jahrs ENDE."
 
 
-\layout {
-  \set Score.doubleRepeatBarType = #":|.|:"
-}
-
 tempoO-Ia = \tempoMarkup "Allegro"
   tempoO-Iab = \tempoMarkup "Adagio"
   tempoO-Iac = \tempoMarkup "Presto"

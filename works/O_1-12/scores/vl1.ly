@@ -277,7 +277,7 @@
   \bookpart {
     \subsection "❦"
     \addTocEntry
-    \paper { system-count = #6 }
+    \paper { system-count = #5 }
     \score {
       <<
         \new Staff { \O-VIcViolinoI }
@@ -405,6 +405,7 @@
   \bookpart {
     \section "O.9" "Il Settèmbre, im Herbstmonat"
     \addTocEntry
+    \paper { systems-per-page = #10 }
     \score {
       <<
         \new Staff { \O-IXaViolinoI }
@@ -472,7 +473,7 @@
   \bookpart {
     \subsection "❦"
     \addTocEntry
-    \paper { system-count = #5 }
+    \paper { system-count = #4 }
     \score {
       <<
         \new Staff { \O-XcViolinoI }

@@ -121,11 +121,11 @@ paperFiveSystems = \paper {
   \bookpart {
     \subsection "❧"
     \addTocEntry
-    \paper { system-count = #6 }
+    \paperFiveSystems
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -298,6 +298,7 @@ paperFiveSystems = \paper {
   \bookpart {
     \section "O.3" "Il Màrzo, in dem Merzen"
     \addTocEntry
+    \paper { system-count = #7 }
     \score { %\articulate
       <<
         \new StaffGroup <<
@@ -445,6 +446,7 @@ paperFiveSystems = \paper {
   \bookpart {
     \section "O.4" "L’Aprìle, im April"
     \addTocEntry
+    \paper { system-count = #7 }
     \score { %\articulate
       <<
         \new StaffGroup <<
@@ -799,7 +801,7 @@ paperFiveSystems = \paper {
   \bookpart {
     \subsection "❦"
     \addTocEntry
-    \paper { system-count = #6 }
+    \paper { system-count = #4 }
     \score { %\articulate
       <<
         \new StaffGroup <<
@@ -858,7 +860,7 @@ paperFiveSystems = \paper {
   \bookpart {
     \subsection "⁂"
     \addTocEntry
-    \paper { system-count = #6 }
+    \paper { system-count = #7 }
     \score { %\articulate
       <<
         \new StaffGroup <<
@@ -888,11 +890,11 @@ paperFiveSystems = \paper {
   \bookpart {
     \section "O.7" "Il Lùglio, im Heumonat"
     \addTocEntry
-    \paper { system-count = #6 }
+    \paperFiveSystems
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -948,7 +950,7 @@ paperFiveSystems = \paper {
   \bookpart {
     \subsection "❦"
     \addTocEntry
-    \paper { system-count = #14 }
+    \paper { system-count = #12 }
     \score { %\articulate
       <<
         \new StaffGroup <<
@@ -1008,11 +1010,11 @@ paperFiveSystems = \paper {
   \bookpart {
     \subsection "⁂"
     \addTocEntry
-    \paper { system-count = #6 }
+    \paperFiveSystems
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
@@ -1096,6 +1098,7 @@ paperFiveSystems = \paper {
   \bookpart {
     \subsection "❦"
     \addTocEntry
+    \paper { system-count = #7 }
     \score { %\articulate
       <<
         \new StaffGroup <<
@@ -1155,7 +1158,7 @@ paperFiveSystems = \paper {
   \bookpart {
     \subsection "⁂"
     \addTocEntry
-    \paper { system-count = #6 }
+    \paper { system-count = #4 }
     \score { %\articulate
       <<
         \new StaffGroup <<
@@ -1185,6 +1188,7 @@ paperFiveSystems = \paper {
   \bookpart {
     \section "O.9" "Il Settèmbre, im Herbstmonat"
     \addTocEntry
+    \paper { system-count = #10 }
     \score { %\articulate
       <<
         \new StaffGroup <<
@@ -1614,7 +1618,7 @@ paperFiveSystems = \paper {
           >>
           \new Staff {
             \set Staff.instrumentName = "bc"
-            \transpose c c,
+            % \transpose c c,
             \O-XIeContinuo
           }
         >>

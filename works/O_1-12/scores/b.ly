@@ -109,7 +109,7 @@
   \bookpart {
     \section "O.3" "Il Màrzo, in dem Merzen"
     \addTocEntry
-    \paper { system-count = #6 }
+    \paper { system-count = #7 }
     \score {
       <<
         \new Staff { \O-IIIaContinuo }
@@ -276,7 +276,7 @@
   \bookpart {
     \subsection "❦"
     \addTocEntry
-    \paper { system-count = #5 }
+    \paper { system-count = #4 }
     \score {
       <<
         \new Staff { \O-VIcContinuo }
@@ -326,7 +326,7 @@
   \bookpart {
     \subsection "❦"
     \addTocEntry
-    \paper { system-count = #12 }
+    \paper { page-count = #1 }
     \score {
       <<
         \new Staff { \O-VIIcContinuo }
@@ -427,7 +427,7 @@
   \bookpart {
     \subsection "❦"
     \addTocEntry
-    \paper { system-count = #6 }
+    \paper { system-count = #4 }
     \score {
       <<
         \new Staff { \O-IXcContinuo }
@@ -477,7 +477,7 @@
   \bookpart {
     \subsection "❦"
     \addTocEntry
-    \paper { system-count = #5 }
+    \paper { system-count = #4 }
     \score {
       <<
         \new Staff { \O-XcContinuo }
