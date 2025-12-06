@@ -453,3 +453,304 @@ B-LVICredoAltoLyrics = \lyricmode {
   %140
   men. %141 finis
 }
+
+B-LVISanctusAlto = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \minor \time 2/2 \autoBeamOff \tempoB-LVISanctus
+    R1*5 %5
+    \mvTr d2.(\fE^\tuttiE e4)
+    f1
+    e4 fis g2~
+    g a
+    g g %10
+    f2.( g4)
+    a1
+    g4( d) g2
+    a( d,)
+    d es4( f %15
+    es2) f4( g)
+    f1
+    f2 d4 es
+    f1
+    es4( f) g2~ %20
+    g a
+    g1
+    fis2 r
+    r a~
+    a g4 g %25
+    g2 fis
+    g2. g4 \noBreak
+    fis\breve*1/2\fermata \bar "||"
+    \time 3/4 \tempoB-LVIPleni \newSpacingSection
+      \mvTr b4\pE^\solo b b \noBreak
+    b2 b4 %30
+    R2.*2
+    r4 d, f
+    r c f
+    f4. f8 e!4 %35
+    f f r
+    R2.*6 %42
+    g4 r a
+    g8 g g2
+    fis4 r r %45
+    r8 g, g'4 f
+    es4. es8 es4
+    d2 g4
+    es d4. d8
+    d4 g g %50
+    g2 g4
+    R2.
+    r4 r \mvTr fis\fE^\tutti
+    g4. g8 f4
+    f es( c) %55
+    f2 fis4
+    g4. g8 a4
+    a a( g)
+    fis2.\fermata \bar "|." %59 finis
+  }
+}
+
+B-LVISanctusAltoLyrics = \lyricmode {
+  San -- %6
+  ctus,
+  san -- _ _
+  ctus,
+  san -- ctus, %10
+  san --
+  ctus,
+  san -- ctus,
+  san --
+  ctus, san -- %15
+  ctus,
+  san --
+  ctus, san -- _
+  _
+  ctus, san -- %20
+  ctus,
+  san --
+  ctus
+  Do --
+  mi -- nus %25
+  De -- us
+  Sa -- ba --
+  oth.
+  Ple -- ni sunt
+  coe -- li %30
+
+  glo -- _ %33
+  _ _
+  _ ri -- a %35
+  tu -- a,
+
+  glo -- _ %43
+  ri -- a tu --
+  a, %45
+  glo -- _ _
+  _ ri -- a,
+  glo -- ri --
+  a tu -- a,
+  ple -- ni sunt %50
+  coe -- li.
+
+  O --
+  san -- na in
+  ex -- cel -- %55
+  sis, o --
+  san -- na in
+  ex -- cel --
+  sis. %59 finis
+}
+
+B-LVIBenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \minor \time 2/2 \autoBeamOff \tempoB-LVIBenedictus
+    \mvTr a'2(\pE^\solo b)
+    a( g)
+    f( e)
+    d r
+    f( g) %5
+    a( b)
+    a r
+    a( b)
+    c b
+    b( a) %10
+    g( b)
+    a( g)
+    f r
+    f g4 a
+    f2 e %15
+    d cis
+    d e
+    f d
+    e1
+    d~ \noBreak %20
+    d\fermata \bar "||"
+    \time 4/4 \tempoB-LVIOsanna
+      \mvTr f2\fE^\tutti e4 e \noBreak
+    f a f2
+    e1\fermata
+    R1*5 %29
+    a2 gis4 e8([ fis)] %30
+    g4 g fis d8([ e)]
+    f4 f e e
+    e8([ f)] g([ a)] d,4 d
+    d8([ e)] f([ g)] a4 d,8 d
+    e2 f4 r %35
+    f2 e4 e
+    e4. e8 e4 e
+    r d d d
+    d d e2(
+    d4 h) cis a' %40
+    a( g) e2
+    a gis4 e8([ fis)]
+    g4 g fis d8([ e)]
+    f4 f e e
+    e8([ f)] g([ a)] d,4 d %45
+    d8([ e)] f([ g)] a4 d,8 d
+    e4 a a4. a8
+    g4 g f4. f8
+    e2 fis\fermata \bar "|." %49 finis
+  }
+}
+
+B-LVIBenedictusAltoLyrics = \lyricmode {
+  Be --
+  ne --
+  di --
+  ctus,
+  qui __ %5
+  ve --
+  nit
+  in __
+  no -- mi --
+  ne __ %10
+  Do --
+  mi --
+  ni.
+  O -- san -- na
+  in ex -- %15
+  cel -- _
+  _ _
+  _ _
+  _
+  sis. __ %20
+
+  O -- san -- na
+  in ex -- cel --
+  sis,
+
+  o -- san -- na %30
+  in ex -- cel -- sis,
+  in ex -- cel -- sis,
+  in ex -- cel -- sis,
+  in ex -- cel -- sis, o --
+  san -- na, %35
+  o -- san -- na
+  in ex -- cel -- sis,
+  o -- san -- na
+  in ex -- cel --
+  sis, o -- %40
+  san -- na,
+  o -- san -- na
+  in ex -- cel -- sis,
+  in ex -- cel -- sis,
+  in ex -- cel -- sis, %45
+  in ex -- cel -- sis, o --
+  san -- na in ex --
+  cel -- sis, in ex --
+  cel -- sis. %49 finis
+}
+
+B-LVIAgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \autoBeamOff \tempoB-LVIAgnus
+    \mvTr d4.\pE^\solo e8 f4 f8 g16([ a)]
+    cis,4 cis16([ d)] e8 e([ d)] d4
+    r a' a8([ d,)] g4
+    r g f8([ a,)] a4
+    d( gis) a a~ %5
+    a g g f
+    f e e8 a, d4~
+    d cis d r
+    \mvTr f4.\fE^\tutti f8 fis4 fis8 fis
+    g4 g8 g a4 a %10
+    a8([ g)] g g g4 g8 g
+    f4 e d2
+    c4 f2 e4
+    d g g f
+    e( a2) g4 %15
+    g4.( fis8) g2
+    d4^\aTre g g f8 f
+    f4 es8 es d4 d \noBreak
+    d4.( c8) d2\fermata \bar "||"
+    \tempoB-LVIDona f!4. f8 e4 g \noBreak %20
+    f a g g
+    e e d2
+    e4 e( f8[ d)] e([ f)]
+    g2. f4
+    f4.( e8) f4 a %25
+    a8([ g)] g4 r2
+    r4 d e e
+    f2 e4 e(
+    f) d e c
+    d( e) f( e) %30
+    d2 e4 r
+    r g2 f4
+    f e g f
+    f g g f
+    e2 f4 f %35
+    e g f a
+    g2 e4 f
+    cis( d) e e
+    fis g e f
+    d2 cis4 d %40
+    e2 fis\fermata \bar "|." %41 finis
+  }
+}
+
+B-LVIAgnusAltoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta,
+  pec -- ca -- ta,
+  pec -- ca -- ta
+  mun -- di: Mi -- %5
+  se -- re -- re,
+  mi -- se -- re -- re no --
+  _ bis.
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta %10
+  mun -- di, pec -- ca -- ta, pec --
+  ca -- ta mun --
+  di: Mi -- se --
+  re -- re, mi -- se --
+  re -- re %15
+  no -- bis.
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Do -- na no -- bis %20
+  pa -- cem, no -- bis
+  pa -- cem, pa --
+  cem, do -- na
+  no -- bis
+  pa -- cem, da %25
+  pa -- cem,
+  da pa -- cem,
+  pa -- cem, do --
+  na no -- bis
+  pa -- cem, %30
+  pa -- cem,
+  do -- na
+  no -- bis pa -- cem,
+  do -- na no -- bis
+  pa -- cem, da %35
+  pa -- cem, no -- bis
+  pa -- cem, da
+  pa -- cem, da
+  pa -- cem, do -- na
+  pa -- cem, da %40
+  pa -- cem. %41 finis
+}

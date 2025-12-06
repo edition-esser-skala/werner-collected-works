@@ -236,3 +236,124 @@ B-LVICredoTromboneI = {
     d\breve*1/2\fermata \bar "|." %141 finis
   }
 }
+
+B-LVISanctusTromboneI = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key d \minor \time 2/2 \tempoB-LVISanctus
+    R1*5 %5
+    d2.\fE e4
+    f1
+    e4 fis \once \tieDashed g2~
+    g a
+    g g %10
+    f2. g4
+    a1
+    g4 d g2
+    a d,
+    d es4 f %15
+    es2 f4 g
+    f1
+    f2 d4 es
+    f1
+    es4 f g2~ %20
+    g a
+    g1
+    fis2 r
+    r a~
+    a g4 g %25
+    g2 fis
+    g2. g4 \noBreak
+    fis\breve*1/2\fermata \bar "||"
+    \time 3/4 \tempoB-LVIPleni \newSpacingSection
+      R2.*24 %52
+    r4 r fis\fE
+    g4. g8 f4
+    f es c %55
+    f2 fis4
+    g4. g8 a4
+    a a g
+    fis2.\fermata \bar "|." %59 finis
+  }
+}
+
+B-LVIBenedictusTromboneI = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key d \minor \time 2/2 \tempoB-LVIBenedictus
+    R1*20 \noBreak %20
+    R1\fermata \bar "||"
+    \time 4/4 \tempoB-LVIOsanna
+      f2\fE e4 e \noBreak
+    f a f2
+    e1\fermata
+    R1*5 %29
+    a2 gis4 e8 fis %30
+    g4 g fis d8 e
+    f4 f e e
+    e8 f g a d,4 d
+    d8 e f g a4 d,8 d
+    e2 f4 r %35
+    f2 e4 e
+    e4. e8 e4 e
+    r d d d
+    d d e2
+    d4 h cis a' %40
+    a g e2
+    a gis4 e8 fis
+    g4 g fis d8 e
+    f4 f e e
+    e8 f g a d,4 d %45
+    d8 e f g a4 d,8 d
+    e4 a a4. a8
+    g4 g f4. f8
+    e2 fis\fermata \bar "|." %49 finis
+  }
+}
+
+B-LVIAgnusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key d \minor \time 4/4 \tempoB-LVIAgnus
+    \mvTr f4\pE-\solo a f2
+    g f4 fis
+    g fis d2
+    e~ e8 d e4
+    f! d e e %5
+    d2 c~
+    c4 g' f2
+    e d4. e8
+    \mvTr f4.\fE-\tutti f8 fis4 fis8 fis
+    g4 g8 g a4 a~ %10
+    a8 g g g g4 g8 g
+    f4 e d2
+    c4 f2 e4
+    d g2 f4
+    e a2 g4 %15
+    g4. fis8 g2
+    R1*2 \noBreak
+    R1\fermata \bar "||"
+    \tempoB-LVIDona f!4. f8 e4 g \noBreak %20
+    f a g g
+    e e d2
+    e4 e f8 d e f
+    g2. f4
+    f4. e8 f4 a %25
+    a8 g g4 r2
+    r4 d e e
+    f2 e4 e
+    f d e c
+    d e f e %30
+    d2 e4 r
+    r g2 f4
+    f e g f
+    f g2 f4
+    e2 f4 f %35
+    e g f a
+    g2 e4 f
+    cis d e e
+    fis g e f
+    d2 cis4 d %40
+    e2 fis\fermata \bar "|." %41 finis
+  }
+}

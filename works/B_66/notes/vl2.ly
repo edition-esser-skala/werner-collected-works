@@ -4,7 +4,6 @@ B-LVIKyrieViolinoII = {
   \relative c' {
     \clef treble
     \key d \minor \time 4/4 \tempoB-LVIKyrie
-    \key d \minor \time 4/4 \tempoB-LVIKyrie
     R1*14 %14
     a'2.\fE a4 %15
     h e, e'2~
@@ -259,5 +258,125 @@ B-LVICredoViolinoII = {
     d4 c2 b4~
     b a2 g4 %140
     a\breve*1/2\fermata \bar "|." %141 finis
+  }
+}
+
+B-LVISanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \minor \time 2/2 \tempoB-LVISanctus
+    R1*6 %6
+    a'2.\fE b4
+    c1
+    b4 c d2~
+    d4 cis d e %10
+    f2 r
+    a,2. b4
+    c2 b
+    a4 d, d' c
+    b a g f %15
+    g a b2
+    b a
+    b1
+    a2. b4
+    c1 %20
+    b4 c d2~
+    d4 c b c
+    d1
+    R
+    r2 d~ %25
+    d d
+    d2. d4 \noBreak
+    d\breve*1/2\fermata \bar "||"
+    \time 3/4 \tempoB-LVIPleni \newSpacingSection
+      R2.*3 %31
+    r8 d\pE b f d f
+    b,4 r8 d d4
+    r r8 c c4
+    R2. %35
+    r4 r8 a' b c
+    f,4 r8 f b d
+    f,4 r8 f a c
+    d,4 b'4. b8
+    a4 r r %40
+    R2.*12 %52
+    r4 r d\fE
+    b4. b8 c4
+    d es8 c f \hA es %55
+    d2 c4
+    b4. c8 d4
+    d d2
+    d2.\fermata \bar "|." %59 finis
+  }
+}
+
+B-LVIBenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \minor \time 2/2 \tempoB-LVIBenedictus
+    R1*20 \noBreak %20
+    R1\fermata \bar "||"
+    \time 4/4 \tempoB-LVIOsanna
+      r4 d'\fE d cis \noBreak
+    d a a2
+    a1\fermata
+    R1*7 %31
+    d2 cis4 a8 h
+    c4 c h g8 a
+    b4 b a d~
+    d cis d8 d, f g %35
+    a2 a
+    R1*2
+    r2 r4 a
+    a gis a2 %40
+    d cis
+    R1*2
+    d2 cis4 a8 h
+    c4 c h g8 a %45
+    b4 b a d~
+    d cis f2~
+    f4 e4. a,8 d4~
+    d cis d2\fermata \bar "|." %49 finis
+  }
+}
+
+B-LVIAgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoB-LVIAgnus
+    R1*8 %8
+    a'4\fE a a4. a8
+    b4 b8 d c4 c %10
+    b b8 b a4 a8 a
+    a4 a a g
+    a2 r4 c~
+    c b a d
+    d c c b %15
+    a2 h
+    d4 d d a
+    h g a b8 d \noBreak
+    b4 c fis,2\fermata \bar "||"
+    \tempoB-LVIDona r4 d'4. cis8 e4~ %20
+    e8 d f2 e8 d
+    cis a h \hA cis d d, f g
+    a4 r r a
+    b8 g a b c b a4
+    g2 a %25
+    r4 b b8 a a4
+    r b b a~
+    a8 g a h c4 c
+    d8 f g b, c e f a,
+    h g c g d'4 c %30
+    c h c c~
+    c b a a
+    b8 g a b c a b c
+    d4 e8 d cis a d4~
+    d cis d d~ %35
+    d8 cis e4~ e8 d f4~
+    f e8 d cis4 d
+    a h cis c~
+    c b2 a4~
+    a g2 f8 g %40
+    a2 a\fermata \bar "|." %41 finis
   }
 }

@@ -260,3 +260,122 @@ B-LVICredoViolinoI = {
     a\breve*1/2\fermata \bar "|." %141 finis
   }
 }
+
+B-LVISanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \minor \time 2/2 \tempoB-LVISanctus
+    R1*6 %6
+    a'2.\fE b4
+    c1
+    b4 c d2~
+    d4 cis d e %10
+    f2 r
+    a,2. b4
+    c2 b
+    a4 d, d' c
+    b a g f %15
+    g a b2
+    b a
+    b1
+    a2. b4
+    c1 %20
+    b4 c d2~
+    d4 c b c
+    d1
+    R
+    r2 d~ %25
+    d d
+    d2. d4 \noBreak
+    d\breve*1/2\fermata \bar "||"
+    \time 3/4 \tempoB-LVIPleni \newSpacingSection
+      R2.*3 %31
+    r8 f\pE d b f b
+    d,4 r8 f f4
+    r r8 f f4
+    R2.*2 %36
+    d'8 b f'4 r
+    c8 a f'4 r
+    f4. g8 e!4
+    f r r %40
+    R2.*12 %52
+    r4 r fis\fE
+    d4. d8 a'4
+    f! c f %55
+    f2 a4
+    b2 a4~
+    a d, g
+    a2.\fermata \bar "|." %59 finis
+  }
+}
+
+B-LVIBenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \minor \time 2/2 \tempoB-LVIBenedictus
+    R1*20 \noBreak %20
+    R1\fermata \bar "||"
+    \time 4/4 \tempoB-LVIOsanna
+      r4 d'\fE d cis \noBreak
+    d a a2
+    a1\fermata
+    R1*7 %31
+    d2 cis4 a8 h
+    c4 c h g8 a
+    b4 b a d~
+    d cis d8 d, f g %35
+    a2 a
+    R1*2
+    r2 r4 a
+    a gis a2 %40
+    d cis
+    R1*2
+    d2 cis4 a8 h
+    c4 c h g8 a %45
+    b4 b a d~
+    d cis f2~
+    f4 e4. a,8 d4~
+    d cis d2\fermata \bar "|." %49 finis
+  }
+}
+
+B-LVIAgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoB-LVIAgnus
+    R1*8 %8
+    d'2\fE fis4 a
+    d,4. d8 a'4 a %10
+    b b8 g e4 e8 a
+    f!4 a d, b
+    c c'2 g4~
+    g d'2 a4~
+    a a2 b4 %15
+    d,2 d
+    g4. g8 a4 d,8 d
+    d4 es a g~ \noBreak
+    g c, a'2\fermata \bar "||"
+    \tempoB-LVIDona a4. f!8 g4 e \noBreak %20
+    a4. f8 b4 b
+    e, a d,2
+    a'4 cis, d2~
+    d4 g2 a4
+    c2. c,4 %25
+    b d c2
+    d4 f e2
+    d4 f g c
+    f, b e, f
+    g g g2 %30
+    d4 g g e
+    f e a c,
+    b g' c, a'
+    f b8 g e4 f8 g
+    a2 a4. f8 %35
+    g4 e a4. f8
+    b4 b e, a~
+    a d, a' a~
+    a b e, a
+    d, g cis, a' %40
+    d, a' fis2\fermata \bar "|." %41 finis
+  }
+}

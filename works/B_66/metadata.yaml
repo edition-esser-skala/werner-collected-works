@@ -13,5 +13,6 @@ tocstyle: default
 toe: |
   3 & 34  & T    & 1st \halfNote\ in \B1: e4 \\
     & 37  & trb 1, vl 1 & 4th \quarterNote\ in \B1: d′4 \\
-    & 54  & T    & 2nd \halfNote\ in \B1: \sharo c′2 \\
+    & 54  & T    & 2nd \halfNote\ in \B1: \sharp c′2 \\
     & 108 & vl 1 & 1st \quarterNote\ in \B1: f″4 \\
+  5 & 36  & org  & treble ottavo clef added by editor \\

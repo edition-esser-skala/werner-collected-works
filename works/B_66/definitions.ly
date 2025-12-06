@@ -14,6 +14,12 @@ tempoB-LVICredo = \tempoMarkup "Adagio"
   tempoB-LVICrucifixus = \tempoMarkup "Allabreve" %130
   tempoB-LVIEtResurrexit = \tempoMarkup "[Tempo deest]" %160
   tempoB-LVIEtVitam = \tempoMarkup "Allabreve" %240
+tempoB-LVISanctus = \tempoMarkup "Allabreve"
+  tempoB-LVIPleni = \tempoMarkup "[Tempo deest]"
+tempoB-LVIBenedictus = \tempoMarkup "Allabreve"
+  tempoB-LVIOsanna = \tempoMarkup "Presto"
+tempoB-LVIAgnus = \tempoMarkup "Adagio"
+  tempoB-LVIDona = \tempoMarkup "Presto"
 
 \include "notes/trb1.ly"
 \include "notes/trb2.ly"

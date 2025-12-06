@@ -459,3 +459,265 @@ B-LVICredoTenoreLyrics = \lyricmode {
   a -- %140
   men. %141 finis
 }
+
+B-LVISanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key d \minor \time 2/2 \autoBeamOff \tempoB-LVISanctus
+    R1
+    \mvTr a2.(\fE^\tuttiE b4)
+    c1
+    b4 c d2~
+    d cis %5
+    d a
+    a r
+    r d~
+    d d
+    e1 %10
+    a,2 r
+    R1
+    g4( a) b2
+    c( a)
+    b b~ %15
+    b b
+    c1
+    d2 r
+    R1*2 %20
+    r2 d
+    es2. c4
+    a2 d~
+    d c4 c
+    b1 %25
+    a
+    b2. b4 \noBreak
+    a\breve*1/2\fermata \bar "||"
+    \time 3/4 \tempoB-LVIPleni \newSpacingSection
+      R2.*2 %30
+    \mvTr b4\pE^\solo b4.( a8)
+    b4 r r
+    r r8 d8[ c b]
+    c4 r8 c8[ b a]
+    g4. g8 g4 %35
+    a a r
+    R2.*4 %40
+    r4 d8[ es] f4
+    b,2 a4
+    b r a
+    b8 b b4( c)
+    a2 r4 %45
+    R2.
+    r8 es[ es' d c b]
+    a2 g4
+    g g4.( fis8)
+    g2 r4 %50
+    R2.
+    g4 g4.( fis8)
+    g4 r \mvTr a\fE^\tutti
+    b d c
+    b c2 %55
+    b c4
+    d4. d8 a4
+    d b2
+    a2.\fermata \bar "|." %59 finis
+  }
+}
+
+B-LVISanctusTenoreLyrics = \lyricmode {
+  San -- %2
+  ctus,
+  san -- _ _
+  _ %5
+  ctus, san --
+  ctus,
+  san --
+  ctus,
+  san -- %10
+  ctus,
+
+  san -- ctus,
+  san --
+  ctus, san -- %15
+  ctus,
+  san --
+  ctus,
+
+  san -- %21
+  _ _
+  ctus Do --
+  mi -- nus
+  De -- %25
+  us
+  Sa -- ba --
+  oth.
+
+  et ter -- %31
+  ra
+  glo --
+  _ _
+  _ ri -- a %35
+  tu -- a,
+
+  glo -- _ %41
+  _ ri --
+  a, glo --
+  ri -- a tu --
+  a, %45
+
+  glo --
+  _ ri --
+  a tu --
+  a, %50
+
+  et ter --
+  ra. O --
+  san -- na in
+  ex -- cel -- %55
+  sis, o --
+  san -- na in
+  ex -- cel --
+  sis. %59 finis
+}
+
+B-LVIBenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key d \minor \time 2/2 \autoBeamOff \tempoB-LVIBenedictus
+    R1*20 \noBreak %20
+    R1\fermata \bar "||"
+    \time 4/4 \tempoB-LVIOsanna
+      \mvTr a2\fE^\tuttiE a4 a \noBreak
+    a e' e( d)
+    cis1\fermata
+    R1*2 %26
+    d2 cis4 a8([ h)]
+    c4 c h g8([ a)]
+    b4 b a d~
+    d cis d r8 d %30
+    h([ a \hA h cis)] d4 a
+    a2 a
+    a4 r8 a h4 h
+    g r8 g f([ g a b]
+    a2) a %35
+    d cis4 a8([ h)]
+    c4 c h g!8([ a)]
+    b4 b a2
+    a4 a gis( a
+    h2) e,4 f %40
+    f( g) a2
+    r4 c! d4. d8
+    h([ a)] \hA h([ cis)] d4 a8 a
+    a2 a
+    a4 r8 a h4 h %45
+    g r8 g f([ g a b])
+    a4 e' d4. d8
+    a4 a a2~
+    a a\fermata \bar "|." %49 finis
+  }
+}
+
+B-LVIBenedictusTenoreLyrics = \lyricmode {
+  O -- san -- na %22
+  in ex -- cel --
+  sis,
+
+  o -- san -- na %27
+  in ex -- cel -- sis,
+  in ex -- cel -- _
+  _ sis, o -- %30
+  san -- na, o --
+  san -- na
+  in ex -- cel -- sis,
+  in ex -- cel --
+  sis, %35
+  o -- san -- na
+  in ex -- cel -- sis,
+  in ex -- cel --
+  sis, o -- san --
+  na, o -- %40
+  san -- na,
+  o -- san -- na
+  in ex -- cel -- sis, o --
+  san -- na
+  in ex -- cel -- sis, %45
+  in ex -- cel --
+  sis, o -- san -- na
+  in ex -- cel --
+  sis. %49 finis
+}
+
+B-LVIAgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \minor \time 4/4 \autoBeamOff \tempoB-LVIAgnus
+    R1*8 %8
+    \mvTr d4\fE^\tutti d d d8 d
+    d4 d8 d d4 d %10
+    d d8 d e4 e8 e
+    d4 a b2
+    a g4. g8
+    g4 g a4. a8
+    a4 a d2~ %15
+    d d
+    g,4.^\aTre g8 d'4 d8 d
+    h4 c8 c fis,4 g \noBreak
+    es2 d\fermata \bar "||"
+    \tempoB-LVIDona a'2 g \noBreak %20
+    a b
+    a4 a a( d)
+    cis cis a d
+    d4. d8 c4 c
+    c2 c %25
+    r r4 c
+    c8([ b)] b4 r a
+    d2 g,4 g
+    f b g f
+    f e8([ f)] g4 g %30
+    g2 g4 g
+    f( g) a2
+    r r4 c
+    b b a a
+    a2 a4 a( %35
+    g) g a a
+    b2 a
+    a4( d) cis a
+    a g g a
+    f g a4. d8 %40
+    d4.( cis8) d2\fermata \bar "|." %41 finis
+  }
+}
+
+B-LVIAgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i, qui %9
+  tol -- lis pec -- ca -- ta %10
+  mun -- di, pec -- ca -- ta, pec --
+  ca -- ta mun --
+  di: Mi -- se --
+  re -- re, mi -- se --
+  re -- re no -- %15
+  bis.
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Do -- na %20
+  no -- bis
+  pa -- cem, pa --
+  cem, da pa -- cem,
+  do -- na no -- bis
+  pa -- cem, %25
+  da
+  pa -- cem, da
+  pa -- cem, da
+  pa -- cem, do -- na
+  no -- bis pa -- cem, %30
+  pa -- cem, da
+  pa -- cem,
+  da
+  pa -- cem, no -- bis
+  pa -- cem, do -- %35
+  na no -- bis
+  pa -- cem,
+  pa -- cem, da
+  pa -- cem, no -- bis
+  pa -- cem, no -- bis %40
+  pa -- cem. %41 finis
+}

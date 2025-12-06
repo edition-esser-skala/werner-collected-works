@@ -644,3 +644,347 @@ B-LVICredoBassFigures = \figuremode {
   <\t 4> <5 \t> \bassFigureExtendersOn <5 _+> <5 2> %140
   <5 _+>1 \bassFigureExtendersOff %141 finis
 }
+
+B-LVISanctusOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key d \minor \time 2/2 \tempoB-LVISanctus
+    \mvTr d2.-!\fE-\tuttiE e4-!
+    << {
+      a2. b4
+      c1
+      b4 c \once \tieDashed d2~
+      d
+    } \\ {
+      f,1 %2
+      e4 fis g2~
+      g2. f4
+      e g
+    } >> a g %5
+    f2. e4
+    d1
+    c2 g'~
+    g f
+    e1 %10
+    d2. e4
+    f1
+    e4 fis g2~
+    g fis
+    g4 f es d %15
+    es2 d4 \hA es
+    f1
+    b,
+    f'
+    c %20
+    g'2 f
+    es1
+    d~
+    d~
+    d~ %25
+    d
+    g,2. g4 \noBreak
+    d'\breve*1/2\fermata \bar "||"
+    \time 3/4 \tempoB-LVIPleni \newSpacingSection
+      \mvTr b2\pE-\solo d4 \noBreak
+    es4. f8 g4 %30
+    d8 es f2
+    b,4 r b
+    b4. b'8 a g
+    a4. a8 g f
+    g2 c,4 %35
+    f4. f8 g a
+    b4 r b
+    a r a
+    g2 g4
+    f2 es4 %40
+    d2 a4
+    b2 fis4
+    g g' fis
+    g es2
+    d d4 %45
+    g2 g4
+    c,2 c4
+    d2 es4
+    c d2
+    g, b4 %50
+    c4. d8 es4
+    b8 c d2
+    g, \mvTr d'4\fE-\tutti
+    g2 a4
+    b2 a4 %55
+    b2 a4
+    g2 fis4~
+    fis g2
+    d2.\fermata \bar "|." %59 finis
+  }
+}
+
+B-LVISanctusBassFigures = \figuremode {
+  r1
+  r
+  r
+  r
+  r2 <_+> %5
+  <6>2. <6\\>4
+  <5>2. <6>4
+  <8 3> <\t 4\+> <4>2
+  <_-> <6>
+  <7>4 <6\\> <7> <8> %10
+  r1
+  r
+  \bo <[6 _]>4 \bc <[6 5]> <_->2
+  <2> <6>4 <5>
+  r2. \bo <[6]>4 %15
+  r2 \bc q
+  <4> <3>
+  r1
+  r
+  <_-> %20
+  r2 <6>
+  <7>4 <6> <5> <6>
+  <_+>1
+  <8 _+>2 <7 5>
+  <6 \t> <\t 4> %25
+  <5 \t> <\t _+>
+  r1
+  <[_+]>
+  r2.
+  r %30
+  <[6]>4 <4> <3>
+  r2.
+  r
+  <[6]>
+  <7>2 q4 %35
+  r2.
+  r
+  <[6]>
+  <7>2 <6!>4
+  r2. %40
+  <6>2 \bo <[6]>4
+  r2 <6>4
+  r2 \bc <[6]>4
+  r <7> <6>
+  <_+>2 <7 [_+]>4 %45
+  <8 _->2 <7[!] _!>4
+  <_->2 <8 6 [_-]>8 <7 5>
+  <7 _+>2.
+  <6 5 [_-]>4 <4> <_+>
+  r2. %50
+  <_->
+  <[6]>4 <4> <_+>
+  r2 <_+>4
+  r2 <[6!]>4
+  <3> \bo <[4-] 2> \bc <[6]> %55
+  r2 <6\\>4
+  r2 <[6]>4
+  r <9> <8>
+  <_+>2. %59 finis
+}
+
+B-LVIBenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key d \minor \time 2/2 \tempoB-LVIBenedictus
+    \mvTr d4\pE-\solo f g e
+    cis a h \hA cis
+    d f g a
+    b! g a a,
+    d f e c! %5
+    f d g e
+    f a, b c
+    f a g f
+    e c d e
+    f f, a b %10
+    c e g e
+    f a b c
+    f, d' b c
+    f, f e cis
+    d f g a %15
+    b g a g
+    f d cis a
+    d f g e
+    a g a a,
+    d f, g a \noBreak %20
+    d,2 r\fermata \bar "||"
+    \time 4/4 \tempoB-LVIOsanna
+      \mvTr d'2\fE-\tuttiE a'4. g8 \noBreak
+    f4 cis d2
+    a1\fermata
+    a'2-\tasto gis4-! e8-! fis-! %25
+    g4-! g-! fis-! d8-! e-!
+    << {
+      d'2 cis4 a8 h %27
+      c2 h4 g8 a
+      b2 a4
+    } \\ {
+      f4 f e2~ %27
+      e4. fis8 g2
+      d4. e8 f e f g
+    } >>
+    a2 h %30
+    e, d~
+    d8 e f g a2~
+    a4 e8 fis g2~
+    g4 d8 e f4. g8
+    a2 d, %35
+    \clef "treble_8" d'^\critnote cis4 a8 h
+    \clef bass a2 gis4 e8 fis
+    g2 fis4 d8 e
+    f4 f e8 d c4
+    h8 d e d cis a d4 %40
+    b2 a
+    r4 a' h2
+    e, d~
+    d8 e f g a2~
+    a4 e8 fis g2~ %45
+    g4 d8 e f e f g
+    a2 a~
+    a1~
+    a2 d,\fermata \bar "|." %49 finis
+  }
+}
+
+B-LVIBenedictusBassFigures = \figuremode {
+  r1
+  \bo <[6]>2 \bc q
+  r <6 5>4 <_+>
+  r2 \bo <[_+]>
+  r \bc <[6!]> %5
+  r1
+  r2 <6 5>
+  r1
+  \bo <[6]>2 \bc q
+  <4> <6> %10
+  r <_->4 <5>
+  r2 <6 5>
+  r q
+  r2. \bo <[6]>4
+  r2 <6>4 \bc <[_+]> %15
+  r2 <_+>
+  \bo <[6]> \bc q
+  r <5>4 <7>
+  <5 4>2 <\t _+>
+  r1 %20
+  r
+  r2 <4>4 <_+>
+  <[6]> <6 5> <9> <8>
+  <_+>1
+  r %25
+  r
+  r
+  r
+  r2. <6>4
+  <4> <_+> <6\\>2 %30
+  <5! _!>4 <6\\ \t> <_+>2
+  <_!> <_+>
+  <_!>4 <6>8 <5> <_!>2
+  <_->4 <6>8 <5>4. <6>4
+  <4> <_+>2. %35
+  r2 <6>
+  <_!> <[6 _!]>4 <_!>
+  <_->2 \bo <[6]>
+  \bc q <[5!] _+>4 <6>
+  <7> \bo <[5!] _+> \bc <[6]>2 %40
+  <7>4 <6> <_+>2
+  r4 <_!> <6\\>2
+  <5! _!>4 <6\\ \t> <_+>2
+  <[_!]> <_+>
+  <_!>4 <6>8 <5> <_!>2 %45
+  <_->2. <[6]>4
+  <5 4> <\t _+> <6 4>2
+  <7 6>4 <\t 5> <6 \t> <\t 4>
+  <4> <_+> q2 %49 finis
+}
+
+B-LVIAgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \tempoB-LVIAgnus
+    \mvTr d4.\pE-\solo cis8 d2
+    d2. d4
+    d2 g
+    cis, d4 c
+    b h a a' %5
+    fis g e f
+    c cis d2
+    a d
+    \mvTr d\fE-\tutti c!
+    b4. b'8 fis2 %10
+    g4. g8 cis,2
+    d4 c b2
+    f4 f' c2
+    g d'
+    a fis4 g %15
+    d'2 g,
+    \clef "treble_8" g'4.^\aTreE g8 d'2
+    h4 c fis, g \noBreak
+    es2 d\fermata \bar "||"
+    \clef bass \tempoB-LVIDona
+      d2 e \noBreak %20
+    f g
+    a b
+    a4 a d,2
+    g c,4 f
+    c2 f, %25
+    g a
+    b c
+    d c4 c~
+    c b2 a4
+    g2. c4 %30
+    g2 c4 c
+    d e f2
+    g a
+    b4 g a d,
+    a2 d %35
+    e f
+    g a
+    a a
+    d,4 g c, f
+    b, e a, d %40
+    a2 d\fermata \bar "|." %41 finis
+  }
+}
+
+B-LVIAgnusBassFigures = \figuremode {
+  r4. <[6]>8 r2
+  <9 7\\ 4 2> <9>8 <8> <8 _+> <7[!] \t>
+  <6 4>4 <5 _+> <9> <8>
+  <10 6 5>2 <9>8 <8> <6>4
+  <7> <6\\> <_+> <_!> %5
+  <6 5>2 q
+  <4>4 <6 5> <9> <8>
+  <4> <_+> <3 1>4. <4 2>8
+  r2 <6 4\+ 2>
+  <6> <6 5> %10
+  <9>4 <8> <6 5>2
+  \bo <[_!]>4 \bc <[6]> <7> <6>
+  r2 <4>4 <3>
+  <4> <3> <4> <3>
+  <4> <3> <6 5>2 %15
+  <4>4 <_+> <_!>2
+  <[_-]> <4>4 <3>
+  <6 5> <_-> <6 5> <[_-]>
+  <7> <6> <_+>2
+  <8>2 <7>8 <6\\> <8>4 %20
+  <7>8 <6> <8>4 <7> <6>8 <5>
+  <_+>2 <7>4 <6>
+  <_+>1
+  r
+  <4>4 <3> <9> <8> %25
+  <9> <8> <9> <8>
+  <9> <8> <7> <6>
+  <5> <6!>2 <3>4
+  <2> <6 3> <2> <6>
+  <7 _!> <6 4> <7 5>2 %30
+  <4>4 <_!>2.
+  <7>4 <10 5[-]> <9> <8>
+  <7> <6> <7> <6>
+  r q <7 _+>2
+  <4>4 <_+>2. %35
+  <7>8 <6\\> <8>4 <7>8 <6> <8>4
+  <7> <6>8 <5> <[5] _+>4 <6 4>
+  <_+ 1> <4 2[!]> <_+> <_!>
+  <7 _+> <_-> <7>2
+  q4 q <7 _+>2 %40
+  <4>4 <_+> <[_+]>2 %41 finis
+}

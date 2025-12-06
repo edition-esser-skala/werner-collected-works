@@ -481,3 +481,267 @@ B-LVICredoBassoLyrics = \lyricmode {
   %140
   men. %141 finis
 }
+
+B-LVISanctusBasso = {
+  \relative c {
+    \clef bass
+    \twotwotime \key d \minor \time 2/2 \autoBeamOff \tempoB-LVISanctus
+    \mvTr d2.(\fE^\tuttiE e4)
+    f1
+    e4 fis g2~
+    g2. f4
+    e g a g %5
+    f2. e4
+    d1
+    r2 g~
+    g f
+    e1 %10
+    d2 d4( e)
+    f1
+    e4 fis g2~
+    g fis
+    g4 f es d %15
+    es2 d4( \hA es)
+    f1
+    b,
+    f'
+    c %20
+    g'2 f
+    es1
+    d
+    R1*2 %25
+    d2 d
+    g,2. g4 \noBreak
+    d'\breve*1/2\fermata \bar "||"
+    \time 3/4 \tempoB-LVIPleni \newSpacingSection
+      R2.*2 %30
+    \mvTr b'4\pE^\solo f2
+    b,4 r r
+    r r8 b'[ a g]
+    a4 r8 a[ g f]
+    g4. g8 c,4 %35
+    f f r
+    R2.*3
+    r4 a8[ b] c4 %40
+    f,4. f8 a,4
+    b b r
+    g' r fis
+    g8 g es2
+    d r4 %45
+    R2.
+    r8 c[ c' b a g]
+    fis4. fis8 g4(
+    c,) d2
+    g, r4 %50
+    R2.
+    g'4 d2
+    g, \mvTr d'4\fE^\tutti
+    g4. g8 a4
+    b b( a) %55
+    b2 a4
+    g4. g8 fis4
+    fis g2
+    d2.\fermata \bar "|." %59 finis
+  }
+}
+
+B-LVISanctusBassoLyrics = \lyricmode {
+  San --
+  ctus,
+  san -- _ _
+  ctus,
+  san -- _ _ _ %5
+  _ _
+  ctus,
+  san --
+  ctus,
+  san -- %10
+  ctus, san --
+  ctus,
+  san -- _ _
+  ctus,
+  san -- _ _ _ %15
+  _ ctus,
+  san --
+  ctus,
+  san --
+  ctus, %20
+  san -- ctus,
+  san --
+  ctus
+
+  De -- us %26
+  Sa -- ba --
+  oth.
+
+  et ter -- %31
+  ra
+  glo --
+  _ _
+  _ ri -- a %35
+  tu -- a,
+
+  glo -- _ %40
+  _ ri -- a
+  tu -- a,
+  glo -- _
+  ri -- a tu --
+  a, %45
+
+  glo --
+  _ ri -- a __
+  tu --
+  a, %50
+
+  et ter --
+  ra. O --
+  san -- na in
+  ex -- cel -- %55
+  sis, o --
+  san -- na in
+  ex -- cel --
+  sis. %59 finis
+}
+
+B-LVIBenedictusBasso = {
+  \relative c {
+    \clef bass
+    \twotwotime \key d \minor \time 2/2 \autoBeamOff \tempoB-LVIBenedictus
+    R1*20 \noBreak %20
+    R1\fermata \bar "||"
+    \time 4/4 \tempoB-LVIOsanna
+      \mvTr d2\fE^\tuttiE a'4. g8 \noBreak
+    f4 cis d2
+    a1\fermata
+    a'2 gis4 e8([ fis)] %25
+    g4 g fis d8([ e)]
+    f4 f e2
+    e4. fis8 g2
+    d4. e8 f([ e f g]
+    a4.) a8 h4 h %30
+    e,2 d
+    d8([ e f g)] a2~
+    a4 e8([ fis)] g2~
+    g4 d8([ e)] f4.( g8
+    a2) d, %35
+    R1
+    a'2 gis4 e8([ fis)]
+    g4 g fis d8([ e)]
+    f4 f e8([ d] c4
+    h8[ d e d]) cis([ a)] d4 %40
+    b2 a
+    r4 a' h4. h8
+    e,4 e d2~
+    d8[ e f g] a2~
+    a4 e8([ fis)] g2~ %45
+    g4 d8 e f([ e)] f([ g)]
+    a4. a8 a2~
+    a1~
+    a2 d,\fermata \bar "|." %49 finis
+  }
+}
+
+B-LVIBenedictusBassoLyrics = \lyricmode {
+  O -- san -- na %22
+  in ex -- cel --
+  sis,
+  o -- san -- na %25
+  in ex -- cel -- sis,
+  in ex -- cel --
+  sis, o -- san --
+  na, o -- san --
+  na in ex -- %30
+  cel -- sis,
+  o -- san --
+  na in __
+  ex -- cel --
+  sis, %35
+
+  o -- san -- na
+  in ex -- cel -- sis,
+  in ex -- cel --
+  sis, o -- %40
+  san -- na,
+  o -- san -- na
+  in ex -- cel --
+  sis, __
+  o -- san -- %45
+  na, o -- san -- na
+  in ex -- cel --
+
+  sis. %49 finis
+}
+
+B-LVIAgnusBasso = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \autoBeamOff \tempoB-LVIAgnus
+    R1*8 %8
+    \mvTr d4.\fE^\tutti d8 c!4 c8 c
+    b4 b8 b' fis4 fis %10
+    g g8 g cis,4 cis8 cis
+    d4 c b2
+    f4 r c'4. c8
+    g4 g d'4. d8
+    a4 a' fis( g %15
+    d2) g,
+    R1*2 \noBreak
+    R1\fermata \bar "||"
+    \tempoB-LVIDona d'2 e \noBreak %20
+    f g
+    a( b)
+    a4 a d,2
+    g c,4 f
+    c2 f, %25
+    g a
+    b c
+    d c4 c'~
+    c b b a
+    g2. c,4 %30
+    g2 c4 c
+    d( e) f2
+    g4. g8 a4 a
+    b g a d,
+    a2 d %35
+    e4. e8 f4 f
+    g2 a4 a
+    a2 a4 a
+    d, g c, f
+    b, e a, d %40
+    a2 d\fermata \bar "|." %41 fnis
+  }
+}
+
+B-LVIAgnusBassoLyrics = \lyricmode {
+  A -- gnus De -- i, qui %9
+  tol -- lis pec -- ca -- ta %10
+  mun -- di, pec -- ca -- ta, pec --
+  ca -- ta mun --
+  di: Mi -- se --
+  re -- re, mi -- se --
+  re -- re no -- %15
+  bis.
+
+  Do -- na %20
+  no -- bis
+  pa --
+  cem, da pa --
+  cem, no -- bis
+  pa -- cem, %25
+  do -- na
+  no -- bis
+  pa -- cem, do --
+  na no -- bis
+  pa -- cem, %30
+  pa -- cem, da
+  pa -- cem,
+  do -- na no -- bis
+  pa -- cem, no -- bis
+  pa -- cem, %35
+  do -- na no -- bis
+  pa -- cem, da
+  pa -- cem, da
+  pa -- cem, do -- na
+  no -- bis pa -- cem, %40
+  pa -- cem. %41 finis
+}
