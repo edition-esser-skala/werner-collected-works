@@ -1393,7 +1393,7 @@ O-IVbContinuo = {
     d4\fE d'8 fis, g a
     d,2.~-\tasto %50
     d4 d'8 fis, g a
-    d,2.~
+    d,2.~-\tasto
     d~
     d~
     d~ %55
@@ -5013,7 +5013,7 @@ O-XIIdContinuo = {
     c'16(-. c-. c-. c-.) c(-. c-. c-. c-.) h(-. h-. h-. h-.) h(-. h-. h-. h-.)
     b(-. b-. b-. b-.) b(-. b-. b-. b-.) as(-. as-. as-. as-.) as(-. as-. as-. as-.)
     fis(-. fis-. fis-. fis-.) fis(-. fis-. fis-. fis-.) g4 r
-    c16 c c c c c c c h h h h h h h h
+    c16^\markup \remarkE "simile" c c c c c c c h h h h h h h h
     b b b b b b b b a a a a a a a a %105
     a a a a a a a a b b b b g g g g
     e! e e e fis fis fis fis g g g g es es es es
@@ -5047,7 +5047,7 @@ O-XIIdBassFigures = \figuremode {
   <5 3>4. <7>8 <7- 5>2
   <5 4>8 <\t 3>2..
   r2 <5- 3>8 <\t \t> \bo <7[-] 5 [_!]> \bc <\t \t [\t]>
-  <6[-] 4> <5 3>2.
+  <6[-] 4>4 <5 3>2.
   r1 %115 finis
 }
 

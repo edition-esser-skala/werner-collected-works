@@ -285,7 +285,7 @@ O-IIbViolinoI = {
     fis16([ e8.) d16( cis8.) h16( a8.)]
     g4~ \tuplet 3/2 4 { g8 a h } a g %60
     g4 fis8( g) g8.\trill fis32 g
-    a8 d, \afterGrace fis'4 e8 \afterGrace d4 cis8
+    a8 d, \afterGrace 3/4 fis'4 e8 \afterGrace 3/4 d4 cis8
     h16([ h'8.) g16( fis8.) e16( d8.)]
     cis8( d) e( a,) \tuplet 3/2 4 { fis' g a }
     \grace fis e2 r4 %65
@@ -785,7 +785,7 @@ O-IVbViolinoI = {
     a4 a, fis8( d)
     a( cis) e( g!) fis( cis)
     d fis16( d) a'( fis) d'( a) fis'( d) a'( fis)
-    d2 r4\fermata \bar ":|." %84 finis
+    d'2 r4\fermata \bar ":|." %84 finis
   }
 }
 
@@ -1850,7 +1850,7 @@ O-VIIIeViolinoI = {
     c16( h8.) d16( \hA h8.) g16( f8.) %195
     \tuplet 3/2 4 { f8 e g g f a a g b
     b a c c h d c e g
-    a f d } \grace d h2\trill \noBreak
+    a f d } \grace c h2\trill \noBreak
     c2 r4 \bar ":|.|:"
     \markAgostoVb g'2. \noBreak %200
     \tuplet 3/2 4 { a8 b! c } \grace c b2
@@ -2705,11 +2705,11 @@ O-XIIdViolinoI = {
     as16(-. as-. as-. as-.) as(-. as-. as-. as-.) g(-. g-. g-. g-.) g(-. g-. g-. g-.)
     g(-. g-. g-. g-.) g(-. g-. g-. g-.) fis d32 \hA fis a16 \hA fis32 a d16 a32 d fis16 d32 \hA fis %100
     g2 g8( g,) g4
-    e'!2 \grace e8 f( f,) f4
+    e'!2 \grace f8 f( f,) f4
     es16(-. es-. es-. es-.) es(-. es-. es-. es-.) d( g,) h( d) f( as) h( d)
     es4 fis g8 g, g4
     d'( e) f8( f,) f4 %105
-    es16(-. es-. es-. es-.) es(-. es-. es-. es-.) d( d d d) d( d d d)
+    es16(-. es-. es-. es-.) es(-. es-. es-. es-.) d(-. d-. d-. d-.) d(-. d-. d-. d-.)
     c2 b
     a16(-. a-. a-. a-.) a(-. a-. a-. a-.) a(-. a-. a-. a-.) d(-. d-. d-. d-.)
     d(-. d-. d-. d-.) d(-. d-. d-. d-.) cis( a) \hA cis( e) g( b!) cis( e)
