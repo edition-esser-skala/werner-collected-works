@@ -24,9 +24,7 @@ toe: |
     & 15  & org  & 1st \halfNote\ in \B2: d4–D4 \\
     & 17  & T    & last \eighthNote\ in \B2: c′16–b16 \\
     & 45  & vl 2 & 2nd \halfNote\ in \B2: a′4–c″4 \\
-  2 & –   & vl   & The rhythm \rhythmSdSS\ is always written as \rhythmSdTT\
-                   in both \B1 and \B2. \\
-    & 2   & B    & 8th \sixteenthNote\ in \B1: e16 \\
+  2 & 2   & B    & 8th \sixteenthNote\ in \B1: e16 \\
     & 23  & S    & 1st \quarterNote\ in \B2: c″16–b′16–c″16–e″16 \\
     & 39  & vl 2 & 2nd to 4th \eighthNote\ in \B2: d″4–g″8 \\
     & 49  & org  & 4th \quarterNote\ of lower voice in \B1: g′4 \\
