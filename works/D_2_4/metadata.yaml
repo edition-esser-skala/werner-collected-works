@@ -1,0 +1,41 @@
+title: O Maria semper pia
+id: WerW D.2.4
+genre: offertorium
+festival: de B.V.M.
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.61
+    rism: 530001968
+    url: https://copia.oszk.hu/kotta/offertorium-de-b-v-m/
+    license: public domain
+    principal: true
+toe: |
+  –   & trb & in \A1 denoted as “ad libitum” \\
+  186 & T   & tutti voice missing in \A1 \\
+lyrics:
+  O Maria semper pia\\
+  nos afflictos conturbatos consolare.\\[1ex]
+  Et in hoc procelloso mundi pelago\\
+  naufragantes materno oculo respice.\\[1ex]
+  Ut tua potenti virtute\\
+  nos eripias ex hoc naufragio.\\[1ex]
+  Ad te clamo Mater pia,\\
+  te suspiro ô Maria,\\
+  suspirantem explorantem\\
+  pia Mater respice.\\[1ex]
+  En me vexat mentis pavor,\\
+  me enervat orci furor,\\
+  te paventem et trementem\\
+  chara Mater erige.\\
+  Hinc me torquet vitae error,\\
+  hinc cruentat mortis terror,\\
+  aberrantem et labantem\\
+  pia Mater corrige.\\[1ex]
+  O beatissima Virgo Maria!\\
+  Sis nobis dux in hac via\\
+  ut post hanc mortalem vitam\\
+  aeternam tecum in coelis jubilemus.\\[1ex]
+  Alleluia.
