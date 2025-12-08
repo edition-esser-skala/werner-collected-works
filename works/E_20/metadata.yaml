@@ -1,0 +1,70 @@
+title: O Maria hilff mir kämpfen
+id: WerW E.20
+genre: cantilena
+festival: pro Adventu
+scoring: A, T (solo), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.323
+    rism: 530003653
+    url: https://copia.oszk.hu/kotta/cantilena-pro-adventu-4/
+    license: public domain
+    principal: true
+toe: |
+  – & – & In \A1, the four stanzas are written out in A and T.
+          In the instrumental parts, one stanza is written,
+          and repetition is indicated by the directive
+          “Aria da capo 3 volte” or similar. \\
+lyrics:
+  \begin{multicols}{2}
+  \textit{Der zur Tugend geneygte Chriſt}\\
+  O Maria hilff mir kämpfen\\
+  und die böße Neygung dämpfen,\\
+  leithe mich mit deiner Gnad.\\[1ex]
+  \textit{Maria die weiße Lehrmeiſterin}\\
+  Ich will treulich dir beystehen\\
+  wan du alles wirſt verſchmähen\\
+  waß zu deiner Seelen Schad.\\[1ex]
+  \textit{beyde}\\
+  Gott wird alzeit auf dich/mich merkhen,\\
+  deinen (meinen) gueten Vorßaz ſtärken\\
+  wie er ſelbſt verſprochen hat.\\[3ex]
+  \textit{Chriſt}\\
+  Muetter! dir will mich ergeben,\\
+  lehre mich noch mehr zu leben\\
+  nach der Richtſchnur meiner Pflicht.\\[1ex]
+  \textit{Maria}\\
+  Merkh auf deine Worth und Thaten,\\
+  halt die Weld vor puren Schatten,\\
+  urthle deinen nägſten nicht.\\[1ex]
+  \textit{beyde}\\
+  Alßdan khan es wohl geſchehen\\
+  daß du wirſt (ich werd) im Friden ſtehen\\
+  und gelangen zu dem Liecht.\par\columnbreak
+  \textit{Chriſt}\\
+  Ô du Lehrerin der Weißen,\\
+  thue mich fehrner unterweiſen\\
+  waß ein Chriſt noch yeben ſoll?\\[1ex]
+  \textit{Maria}\\
+  In der Lieb ſey nie erkaltet,\\
+  acht nicht waß man von dir haltet,\\
+  ſeye alzeit demuethvoll.\\[1ex]
+  \textit{beyde}\\
+  Wan du (ich) einmall ſo weit khomen,\\
+  geht es dir (mir) mit allen Frommen\\
+  ohne end auf ewig wohl.\\[3ex]
+  \textit{Chriſt}\\
+  Wan ich aber ſolte leben\\
+  und mich gänzlich Gott ergeben,\\
+  daß ich recht volkhomen wär?\\[1ex]
+  \textit{Maria}\\
+  Alßdan müeßt daß gringſte meyden,\\
+  lieben und beständig leiden,\\
+  pur zu größrer Gottes Ehr.\\[1ex]
+  \textit{beyde}\\
+  Ey ſo thue dich (will ich mich) bequemen,\\
+  von dem Bößen Urlaub nehmen,\\
+  und thue (will) folgen dißer Lehr.
+  \end{multicols}
