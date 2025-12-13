@@ -1,0 +1,17 @@
+title: Litaniæ lauretanæ
+id: WerW G.9
+genre: litany
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.73 (1)
+    date: 1757
+    rism: 530004264
+    url: https://copia.oszk.hu/kotta/lytaniae-breves-in-g-und-sub-tuum-praesidium/
+    license: public domain
+    principal: true
+toe: |
+  12 & A & 4th \eighthNote\ in \A1: \sharp f′8 \\
+  36 & A & 1st \halfNote\ in \A1: \sharp f′2 \\
