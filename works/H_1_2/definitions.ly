@@ -1,0 +1,18 @@
+\version "2.24.0"
+
+tempoH-I-IIDixit = \tempoMarkup "[Tempo deest]"
+tempoH-I-IIConfiteborA = \tempoMarkup "[Tempo deest]"
+  tempoH-I-IIConfiteborB = \tempoMarkup "Adagio"
+  tempoH-I-IIConfiteborC = \tempoMarkup "Andante"
+tempoH-I-IIBeatusA = \tempoMarkup "[Tempo deest]"
+  tempoH-I-IIBeatusB = \tempoMarkup "[Tempo deest]"
+  tempoH-I-IIBeatusC = \tempoMarkup "Adagio"
+  tempoH-I-IIBeatusD = \tempoMarkup "Andante"
+
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"

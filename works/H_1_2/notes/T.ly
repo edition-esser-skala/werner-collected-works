@@ -1,0 +1,464 @@
+\version "2.24.0"
+
+H-I-IIDixitTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \tempoH-I-IIDixit \autoBeamOff
+    r2 \mvTr d8\fE^\tutti d e d
+    d8. d16 d4 e8 a,16 a h8([ g)]
+    a4 r a8 a h a
+    a a16 g fis([ g)] a h a8 a r4
+    cis4. a8 d4. cis16 d %5
+    h8 h r h a a a4
+    a d8 d d d d d
+    e h c!4 fis, r8 h
+    e4. d8 c([ h)] a h16([ c)]
+    d4. c8 h([ a] g[ a16 h)] %10
+    c4. h8 a g a4
+    h r r2
+    R1*12 %24
+    r4 r8 \mvTr d\fE^\tutti e8. fis16 e8 c %25
+    h h r4 r8 e e e
+    e8. e16 a,8 h h4. h8
+    h4 r r2
+    R1*3 %31
+    r2 r4 \mvTr d8\fE^\tuttiE d
+    h4 h8 h h4. h8
+    h8. ais16 ais4 r8 d d e
+    r cis cis d r d d([ e)] %35
+    e d d4 cis d8 d
+    d4 cis cis8. cis16 h8 h
+    h([ cis16 d] e4.) d16 d d8([ cis)]
+    d4 \mvTr a8\pE^\soloE h16([ cis)] d8 e16 fis e8 d
+    cis16([ h)] a8 r4 r2 %40
+    r8 a d c16 d h8 h e4~
+    e8[ d] cis[ d16 e] fis4. e8
+    d[ e16 fis] e8[ d] cis d d([ \hA cis)]
+    d4 r r2
+    R1 %45
+    r2 d4. d8
+    h h e e e8. d16 d8 h
+    c4. d8 h h h4
+    a2 r
+    R1 %50
+    r2 r4 \mvTr d~\fE^\tutti
+    d8 d e cis d4 e~
+    e8 e d c h([ a)] g4
+    r8 d'[ c a] g4. a16[ h]
+    c8[ d] e4 a,2 %55
+    r8 fis( g[ a16 g] fis8) d r g
+    fis2 g8[ a] h[ c16 d]
+    e4 a, d2
+    d8 d([ c a)] h4 d8 d
+    cis4.( h8 a4.) h8 %60
+    h4( a) a d~
+    d8 d e cis d4 fis~
+    fis8 fis e d cis cis d([ e16 d]
+    cis8) a r d( cis2)
+    d8 d([ h a)] a4 r %65
+    r h4. h8 a g
+    fis fis r d'4 d8 r \once \tieDashed e~
+    e d cis4 d e
+    d8 d([ e a,)] a4 r
+    d8 d e cis d d16([ c] h8) h %70
+    c h c([ d16 c)] h8 a([ h a)]
+    a d e d d d16 d e8 d
+    d e d4 d r
+    r d d r\fermata \bar "|." %74 finis
+  }
+}
+
+H-I-IIDixitTenoreLyrics = \lyricmode {
+  Di -- xit, di -- xit
+  Do -- mi -- nus Do -- mi -- no me --
+  o, di -- xit, di -- xit
+  Do -- mi -- nus Do -- mi -- no me -- o:
+  Se -- de, se -- de a %5
+  dex -- tris a dex -- tris me --
+  is, do -- nec po -- nam in -- i --
+  mi -- cos tu -- os, sca --
+  bel -- lum pe -- dum, sca --
+  bel -- lum pe -- %10
+  dum, pe -- dum tu -- o --
+  rum.
+
+  Sa -- cer -- dos in ae -- %25
+  ter -- num se -- cun -- dum
+  or -- di -- nem Mel -- chi -- se --
+  dech.
+
+  Iu -- di -- %32
+  ca -- bit in na -- ti --
+  o -- ni -- bus, im -- ple -- bit
+  ru -- i -- nas, im -- ple -- %35
+  bit ru -- i -- nas, con -- quas --
+  sa -- bit ca -- pi -- ta in
+  ter -- ra mul -- to --
+  rum. De tor -- ren -- te in vi -- a
+  bi -- bet, %40
+  pro -- pter -- e -- a ex -- al -- ta --
+  _ _ _
+  _ _ _ bit ca --
+  put.
+  %45
+  si -- cut
+  e -- rat in prin -- ci -- pi -- o et
+  nunc, et nunc et sem --
+  per
+  %50
+  et __
+  in sae -- cu -- la sae --
+  cu -- lo -- rum, a -- men,
+  a -- _ _
+  _ _ men, %55
+  a -- men, a --
+  _ _ _
+  _ _ _
+  men, a -- men, a -- men,
+  a -- men, %60
+  a -- men, et __
+  in sae -- cu -- la sae --
+  cu -- lo -- rum, a -- men, a --
+  men, a --
+  men, a -- men, %65
+  sae -- cu -- lo -- rum,
+  a -- men, a -- men, a --
+  men, a -- men, a --
+  men, a -- men,
+  et in sae -- cu -- la sae -- cu -- %70
+  lo -- rum, a -- men, a --
+  men, in sae -- cu -- la sae -- cu -- lo -- rum,
+  a -- men, a -- men,
+  a -- men. %74 finis
+}
+
+H-I-IIConfiteborTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoH-I-IIConfiteborA
+    R1
+    r2 r4 r8 \mvTr d\fE^\tuttiE
+    e d d d16([ e)] fis8 e e4
+    d r r2
+    r r4 a8 h16([ cis)] %5
+    d8 e16([ fis)] e8 d cis16([ h)] a8 r4
+    R1*2
+    r8 fis' e fis fis e e4
+    d r r2 %10
+    R1*6 %16
+    r4 \mvTr a\fE^\tutti a a8 a
+    a a a a a4 a8 a
+    g h c4 fis, r
+    e'4. e8 e4 e8 e %20
+    d4. d8 d2
+    c4. h8 a h16 h a8. a16
+    h4 r r2
+    R1*6 %29
+    r4 \mvTr a8\pE^\solo h cis4 h8 a %30
+    a8. gis16 gis4 a8 h cis cis
+    cis4( h)\trill cis8 gis? cis h
+    ais8. ais16 h8 cis d d16 d cis8 h
+    cis d e2 d8 d
+    d4 cis8 h h2 %35
+    a4 r r2
+    r \mvTr e'8.\fE^\tutti e16 e4
+    fis8 fis16 e fis8 d e4. d16 cis
+    d4. e8 cis16([ dis] e4) \hA dis8
+    e4 r r2 %40
+    R1
+    e4. d8 cis([ a)] h cis
+    d d16 d d8. d16 cis4 r
+    R1*2 %45
+    r8 a a a d4. cis8
+    h cis16([ d)] e4. d16[ cis] h8[ d]
+    e8. a,16 a8 a4 a16 a fis8([ h)]
+    e,4 r8 d' d d r h16 h
+    cis([ h)] cis8 r cis16 cis d4~ d16[ cis h a] %50
+    h8 h a4 a r
+    R1 \noBreak
+    R\fermata \bar "||"
+    \tempoH-I-IIConfiteborB R1*20 %73
+    r4 \mvTr h8\pE^\solo^\aTreE h h h a! a
+    a8. a16 g8 g g fis g a %75
+    h2 a4 \mvTr d8\fE^\tutti d
+    d8. d16 e4 cis d
+    h a a8 a h([ a)]
+    a4 r r2
+    r8 a[ d cis] h[ d e d] %80
+    cis2 h
+    a8 cis[ fis e] d[ cis16 d] e8[ d]
+    cis4 a2 g4~
+    g8[ e] fis8.[ g16] a2
+    a4 r8 d4 d8 r h( %85
+    a) a a4 a r\fermata \bar "|." %86 finis
+  }
+}
+
+H-I-IIConfiteborTenoreLyrics = \lyricmode {
+  in %2
+  to -- to, to -- to cor -- de me --
+  o,
+  in con -- %5
+  si -- li -- o iu -- sto -- rum,
+
+  et con -- gre -- ga -- ti -- o -- %9
+  ne. %10
+
+  Con -- fes -- si -- o %17
+  et ma -- gni -- fi -- cen -- ti -- a
+  o -- pus e -- ius
+  et iu -- sti -- ti -- a %20
+  e -- ius ma --
+  net in sae -- cu -- lum sae -- cu --
+  li.
+
+  Me -- mor e -- rit in %30
+  sae -- cu -- lum te -- sta -- men -- ti
+  su -- i, vir -- tu -- tem
+  o -- pe -- rum su -- o -- rum an -- nun -- ti --
+  a -- bit po -- pu -- lo
+  po -- pu -- lo su -- %35
+  o,
+  O -- pe -- ra
+  ma -- nu -- um e -- ius ve -- ri -- tas
+  et iu -- di -- ci --
+  um. %40
+
+  con -- fir -- ma -- ta in
+  sae -- cu -- lum sae -- cu -- li,
+
+  Re -- dem -- pti -- o -- nem %46
+  mi -- sit po -- _ _
+  _ pu -- lo, po -- pu -- lo su --
+  o, man -- da -- vit in ae --
+  ter -- num te -- sta -- men -- %50
+  _ tum su -- um.
+
+  si -- cut e -- rat in prin -- %74
+  ci -- pi -- o et nunc, et nunc et %75
+  sem -- per et in
+  sae -- cu -- la sae -- cu --
+  lo -- rum, a -- men, a --
+  men,
+  a -- _ %80
+  _ _
+  men, a -- _ _
+  men, a -- _
+  _ _
+  men, a -- men, a -- %85
+  men, a -- men. %86 finis
+}
+
+H-I-IIBeatusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \major \time 3/4 \autoBeamOff \tempoH-I-IIBeatusA
+      \once \override Staff.TimeSignature.style = #'single-digit
+    R2.*39 %39
+    r4 \mvTr e\fE^\tuttiE e8 e %40
+    d4 d8 d d e
+    e8. e16 e8 e a,([ h)]
+    cis([ gis)] a4( gis8[ fis)]
+    gis2 r4
+    cis2 cis4 %45
+    cis8 cis h2
+    h h4
+    h a2
+    a4 a a
+    a8 a gis2 %50
+    gis4 cis cis
+    cis2.
+    d8 d cis4. cis8
+    cis4 r r
+    R2. %55
+    r4 r \mvTr cis\pE^\solo
+    cis2.
+    cis4.( h8) a gis
+    a4. h8 cis4
+    d( cis) h %60
+    cis8([ h)] a4 cis
+    h4. h8 cis h
+    a4.( h16[ cis] h8) a
+    gis4.( a8) h4~
+    h8 cis gis4( fis) %65
+    e r r
+    R2.*14 %80
+    r4 e' e
+    cis4. h8 cis a
+    h4 e, e'~
+    e d8[ cis] d4
+    cis2. %85
+    h4 e d
+    cis4. a8 h cis
+    d2 cis4
+    h4. cis8 d4~
+    d cis h %90
+    ais2 ais4
+    h4.( cis8 d4)
+    cis h( ais)
+    h r r
+    R2.*2 %96
+    r4 r \mvTr h\fE^\tutti
+    cis ais4. h16([ cis)]
+    h4 ais cis
+    h h h %100
+    h4. ais8 ais4
+    R2.
+    r4 ais8([ h)] cis([ \hA ais)]
+    d4. cis8 h h
+    a!4 a r %105
+    cis r8 a h cis
+    d8. d16 d4 r
+    r r8 h cis d
+    e8. e16 e4. h8^\critnote
+    a8. a16 a4 r %110
+    d8 d d d d([ cis)]
+    d4 r r
+    R2. \noBreak
+    R\fermata \bar "||"
+    \time 4/4 \tempoH-I-IIBeatusB
+      r8 \mvTr e\pE^\soloE cis a e'2~ \noBreak %115
+    e8 dis16 cis \hA dis8. dis16 e4 r8 h
+    h cis16 d e8 d cis2~
+    cis8[ d16 cis] h8 a gis([ a16 h] cis8) h16 h
+    h4. h8 a4 r
+    R1 %120
+    r2 r4 r16 \mvTr a\fE^\tuttiE a a
+    a8 a r4 r2
+    fis8 fis16 fis h8 h h h r4
+    gis8 gis16 gis cis8 cis cis cis r4
+    a8 a16 a a8 h cis a a a %125
+    a gis r4 \after 4 \tempoH-I-IIBeatusC r2
+    R1
+    r4 h4. gis8 cis4~
+    cis8 h16 cis a8 cis d d r4
+    e4. cis8 fis4. e16 fis %130
+    e4. e8 fis4 d8 d~
+    d fis e2 d8 cis \noBreak
+    h cis16 cis h4 cis r\fermata \bar "||"
+    \tempoH-I-IIBeatusD R1*12 %145
+    r2 r4 \mvTr e8\fE^\tutti e
+    e d16 cis d8 h cis2
+    h4. h8 a a16 gis a8 h
+    a a a([ gis)] a4 r
+    r2 r4 e' %150
+    e8 e([ fis cis] d[ d e h)]
+    cis4 r8 fis,4( gis16[ a] \once \stemUp h4)
+    h8 h([ cis gis] a4 h8[ a)]
+    gis4 h( cis h)
+    h cis fis \once \tieDashed e~ %155
+    e d2 cis4
+    cis r8 a( \once \stemUp h a4 gis8)
+    a e'[ fis cis] r d[ e h]
+    cis4 r fis2
+    e d4. cis8 %160
+    h4 r r2
+    r8 e[ fis cis] r d[ e h]
+    cis4. h16([ a)] h2
+    a4 r r2
+    r4 gis a r\fermata \bar "|." %165 finis
+  }
+}
+
+H-I-IIBeatusTenoreLyrics = \lyricmode {
+  Glo -- ri -- a, %40
+  glo -- ri -- a et di --
+  vi -- ti -- ae in do --
+  mo e --
+  ius:
+  Et iu -- %45
+  sti -- ti -- a
+  e -- ius
+  ma -- net,
+  ma -- net in
+  sae -- cu -- lum, %50
+  ma -- net in
+  sae --
+  cu -- lum sae -- cu --
+  li.
+  %55
+  Ex --
+  or --
+  tum __ est in
+  te -- ne -- bris
+  lu -- men %60
+  re -- ctis: Mi --
+  se -- ri -- cors et
+  mi -- se --
+  ra -- tor __
+  et iu -- %65
+  stus.
+
+  In me -- %81
+  mo -- ri -- a ae --
+  ter -- na e --
+  _ rit
+  iu -- %85
+  stus: Ab au --
+  di -- ti -- o -- ne
+  ma -- la
+  non, __ _ _
+  non ti -- %90
+  me -- bit,
+  non __
+  ti -- me --
+  bit.
+
+  Pa -- %97
+  ra -- tum cor
+  e -- ius spe --
+  ra -- re in %100
+  Do -- mi -- no,
+
+  con -- fir --
+  ma -- tum est cor
+  e -- ius: %105
+  non, non com -- mo --
+  ve -- bi -- tur
+  do -- nec de --
+  spi -- ci -- at, de --
+  spi -- ci -- at %110
+  in -- i -- mi -- cos su --
+  os.
+
+  Dis -- per -- sit de -- %115
+  dit pau -- pe -- ri -- bus: Iu --
+  sti -- ti -- a e -- ius ma --
+  net in sae -- cu -- lum
+  sae -- cu -- li:
+  %120
+  Et i -- ra --
+  sce -- tur,
+  den -- ti -- bus su -- is fre -- met,
+  den -- ti -- bus su -- is fre -- met,
+  den -- ti -- bus su -- is fre -- met et ta -- %125
+  be -- scet:
+
+  De -- si -- de --
+  ri -- um pec -- ca -- to -- rum,
+  de -- si -- de -- ri -- um %130
+  pec -- ca -- to -- rum, pec --
+  ca -- to -- rum per --
+  i -- bit, per -- i -- bit.
+
+  et in %146
+  sae -- cu -- la sae -- cu -- lo --
+  rum, in sae -- cu -- la sae -- cu -- lo --
+  rum, a -- men,
+  a -- %150
+  men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- _ _ %155
+  _ _
+  men, a --
+  men, a -- _
+  men, a --
+  _ _ _ %160
+  men,
+  a -- _
+  _ men, a --
+  men,
+  a -- men. %165 finis
+}

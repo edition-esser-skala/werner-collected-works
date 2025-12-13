@@ -1,0 +1,44 @@
+title: Vesperæ
+subtitle: Dixit Dominus · Confitebor · Beatus vir · \\Laudate pueri · Laudate Dominum · Magnificat
+id: WerW H.1.2
+genre: vesper
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.89
+    rism: 530002142
+    url: https://copia.oszk.hu/kotta/vesper-in-g/
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 22  & B    & 4th \eighthNote\ in \B1: a16–a16 \\
+    & 56  & org  & In \B1, the treble ottavo clef is written
+                   in bar 57 (3rd \halfNote). \\
+    & 73  & vl 2 & 2nd \eighthNote\ in \B1: b′8 \\
+  2 & 9   & vl 1 & 5th \eighthNote\ in \B1: d′′′16.–a″32 \\
+    & 10  & vl 2 & 5th \eighthNote\ in \B1: b′8 \\
+    & 12  & vl 1 & 1st \halfNote\ in \B1: b′4–\crotchetRest \\
+    & 18  & A    & 2nd \halfNote\ in \B1: \sharp f′8.–\sharp f′16–\sharp f′4 \\
+    & 40  & A    & 4th \sixteenthNote\ in \B1: \sharp g′16 \\
+    & 41  & org  & 4th \quarterNote\ in \B1: b8.–a16 \\
+    & 57  & vl 2 & 2nd to 4th \eighthNote\ in \B1: 3×f′8 \\
+    & 74  & org & treble ottavo clef added by editor \\
+    & 75  & A    & 5th to 7th \eighthNote\ in \B1: \sharp c′4. \\
+    & 80  & org  & treble ottavo clef added by editor \\
+    & 85  & vl 1 & 2nd \eighthNote\ in \B1: \sharp f′8–a′8 \\
+  3 & 101 & S    & 1st \halfNote\ in \B1: d″8.–d″16–\sharp c″4 \\
+    & 107 & A    & 2nd/3rd \quarterNote\ in \B1: \sharp f′2 \\
+    & 109 & T    & last \eighthNote\ in \B1: a8 \\
+    & 110 & vl 2 & 4th \sixteenthNote\ in \B1: \sharp f′16 \\
+    & 111 & vl 2 & 9th \sixteenthNote\ in \B1: \sharp c″16 \\
+    & 113 & vl 2 & 5th \eighthNote\ in \B1: \sharp c′8 \\
+    & 124 & vl 1 & 3rd \quarterNote\ in \B1: \sharp c″16–\sharp c″16–\sharp c″8 \\
+    & 128 & org  & treble ottavo clef added by editor \\
+    & 130 & org  & last \sixteenthNote\ in \B1: d′16 \\
+    & 133 & vl 2 & 3rd \eighthNote\ in \B1: \sharp c′8 \\
+    & 133 & org  & 3rd \eighthNote\ in \B1: \quaverRest \\
+    & 153 & org  & treble ottavo clef added by editor \\
+    & 159 & org  & In \A1, the bass clef appears at the start of the bar. \\
