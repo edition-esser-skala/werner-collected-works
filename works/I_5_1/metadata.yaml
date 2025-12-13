@@ -1,0 +1,16 @@
+title: Sub tuum præsidium
+id: WerW I.5.1
+genre: sacred song
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.73 (2)
+    date: 1757
+    rism: 530004265
+    url: https://copia.oszk.hu/kotta/lytaniae-breves-in-g-und-sub-tuum-praesidium/
+    license: public domain
+    principal: true
+toe: |
+  13 & vl 2 & 12th \sixteenthNote\ in \A1: a′16 \\
