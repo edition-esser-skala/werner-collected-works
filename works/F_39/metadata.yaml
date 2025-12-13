@@ -1,0 +1,34 @@
+title: Cœlestis urbs Jerusalem
+id: WerW F.39
+genre: hymn
+festival: in dedicatione
+scoring: S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.210 (9)
+    rism: 530004300
+    url: https://copia.oszk.hu/kotta/hymni-de-b-virgine-de-apostolis-et-aliis-festis-1mae-classis/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: M 25
+    rism: 600038644
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/258.html
+    license: public domain
+lyrics:
+  Coelestis urbs Jerusalem,\\
+  beata pacis visio,\\
+  quae celsa de viventibus\\
+  saxis ad astra tolleris:\\
+  Sponsaeque ritu cingeris\\
+  mille angelorum millibus.\\[1ex]
+  Decus parenti debitum\\
+  sit usquequaque Altissimo\\
+  natoque Patris unico,\\
+  et inclyto Paraclito\\
+  cui laus, potestas, gloria\\
+  aeterna sit per saecula.\\[1ex]
+  (Cantus Index a01590)
