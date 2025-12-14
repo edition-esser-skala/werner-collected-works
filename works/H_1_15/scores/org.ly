@@ -2,17 +2,18 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 2")
+#(define option-instrument-name "org")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Dixit Dominus"
     \addTocEntry
-    \paper { system-count = #12 }
+    \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \H-I-XVIDixitViolinoII }
+        \new Staff { \H-I-XVDixitOrgano }
+        \new FiguredBass { \H-I-XVDixitBassFigures }
       >>
     }
   }
@@ -21,7 +22,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-I-XVILaudateViolinoII }
+        \new Staff { \H-I-XVLaudateOrgano }
+        \new FiguredBass { \H-I-XVLaudateBassFigures }
       >>
     }
   }
@@ -30,7 +32,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-I-XVILaetatusViolinoII }
+        \new Staff { \H-I-XVLaetatusOrgano }
+        \new FiguredBass { \H-I-XVLaetatusBassFigures }
       >>
     }
   }
@@ -39,7 +42,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-I-XVINisiViolinoII }
+        \new Staff { \H-I-XVNisiOrgano }
+        \new FiguredBass { \H-I-XVNisiBassFigures }
       >>
     }
   }
@@ -49,17 +53,19 @@
     \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \H-I-XVILaudaViolinoII }
+        \new Staff { \H-I-XVLaudaOrgano }
+        \new FiguredBass { \H-I-XVLaudaBassFigures }
       >>
     }
   }
   \bookpart {
     \section "6" "Magnificat"
     \addTocEntry
-    \paper { system-count = #8 }
+    \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \H-I-XVIMagnificatViolinoII }
+        \new Staff { \H-I-XVMagnificatOrgano }
+        \new FiguredBass { \H-I-XVMagnificatBassFigures }
       >>
     }
   }

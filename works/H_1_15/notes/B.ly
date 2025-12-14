@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-I-XVIDixitBasso = {
+H-I-XVDixitBasso = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \autoBeamOff \tempoH-I-XVIDixit
+    \key c \major \time 4/4 \autoBeamOff \tempoH-I-XVDixit
     \mvDl c'4\fE^\tutti h a8 a16 a h8 h16 h
     c8 c, e4 f d
     e c d( h)
@@ -40,7 +40,7 @@ H-I-XVIDixitBasso = {
     c g e c g'8. g16 g8 g %45
     c h c4 g e8 g
     c, c16 c a'8 e f c g'4
-    \tempoH-I-XVIDixitB c,8 c[ d e] f[ d e fis]
+    \tempoH-I-XVDixitB c,8 c[ d e] f[ d e fis]
     g e d4 c8 r r4
     r2 r8 c[ d e] %50
     f![ d e fis] g[ e fis gis]
@@ -52,7 +52,7 @@ H-I-XVIDixitBasso = {
   }
 }
 
-H-I-XVIDixitBassoLyrics = \lyricmode {
+H-I-XVDixitBassoLyrics = \lyricmode {
   Di -- xit Do -- mi -- nus Do -- mi -- no
   me -- o: Se -- de a
   dex -- tris me --
@@ -100,10 +100,10 @@ H-I-XVIDixitBassoLyrics = \lyricmode {
   men. %56 finis
 }
 
-H-I-XVILaudateBasso = {
+H-I-XVLaudateBasso = {
   \relative c {
     \clef bass
-    \key a \minor \time 4/4 \autoBeamOff \tempoH-I-XVILaudate
+    \key a \minor \time 4/4 \autoBeamOff \tempoH-I-XVLaudate
     r4 r8 \mvTr a'\fE^\tutti gis e r a
     gis e r a gis e r a
     gis e c d e4. e8
@@ -147,7 +147,7 @@ H-I-XVILaudateBasso = {
   }
 }
 
-H-I-XVILaudateBassoLyrics = \lyricmode {
+H-I-XVLaudateBassoLyrics = \lyricmode {
   Lau -- da -- te, lau --
   da -- te, lau -- da -- te, lau --
   da -- te no -- men Do -- mi --
@@ -190,10 +190,10 @@ H-I-XVILaudateBassoLyrics = \lyricmode {
   men. %44 finis
 }
 
-H-I-XVILaetatusBasso = {
+H-I-XVLaetatusBasso = {
   \relative c {
     \clef bass
-    \key f \major \time 3/2 \autoBeamOff \tempoH-I-XVILaetatus
+    \key f \major \time 3/2 \autoBeamOff \tempoH-I-XVLaetatus
     r2 r4 \mvTr f\fE^\tutti e c
     f2 r4 f e c
     f2 f4 e f2
@@ -242,7 +242,7 @@ H-I-XVILaetatusBasso = {
   }
 }
 
-H-I-XVILaetatusBassoLyrics = \lyricmode {
+H-I-XVLaetatusBassoLyrics = \lyricmode {
   Lae -- ta -- tus
   sum in his, quae
   di -- cta sunt mi --
@@ -290,10 +290,10 @@ H-I-XVILaetatusBassoLyrics = \lyricmode {
   men. %61 finis
 }
 
-H-I-XVINisiBasso = {
+H-I-XVNisiBasso = {
   \relative c {
     \clef bass
-    \key d \minor \time 4/4 \autoBeamOff \tempoH-I-XVINisi
+    \key d \minor \time 4/4 \autoBeamOff \tempoH-I-XVNisi
     R1*7 %7
     r4 r8 \mvTr d(\fE^\tuttiE cis) a r d
     cis a r f'16 f g8 f e8. e16
@@ -315,7 +315,7 @@ H-I-XVINisiBasso = {
     R1 %25
     r8 \mvTr f'16\fE^\tutti f e e e e d d d d cis8 cis
     d16 d d d g8 e16 e cis8 d a4
-    \tempoH-I-XVINisiB d r r2
+    \tempoH-I-XVNisiB d r r2
     r8 d( a a'4) g8 f4\trill
     e8 a4 g8 f4.( d8) %30
     a a'4 g f16[ e] f4
@@ -328,7 +328,7 @@ H-I-XVINisiBasso = {
   }
 }
 
-H-I-XVINisiBassoLyrics = \lyricmode {
+H-I-XVNisiBassoLyrics = \lyricmode {
   Va -- num est %8
   vo -- bis an -- te lu -- cem sur -- ge --
   re: sur -- gi -- te post -- %10
@@ -361,10 +361,10 @@ H-I-XVINisiBassoLyrics = \lyricmode {
   a -- men, a -- men. %37 finis
 }
 
-H-I-XVILaudaBasso = {
+H-I-XVLaudaBasso = {
   \relative c {
     \clef bass
-    \key g \major \time 3/2 \tempoH-I-XVILauda \autoBeamOff
+    \key g \major \time 3/2 \tempoH-I-XVLauda \autoBeamOff
     \mvTr g'2\fE^\tutti g4 d h d
     g4. g8 g4 d h d
     g fis8 fis g4( d) h( g)
@@ -403,7 +403,7 @@ H-I-XVILaudaBasso = {
     g g8 g fis fis d d g g e e
     a4 fis e2 d4 h8 h \noBreak
     c!4 a'8 a fis4 g d2
-    \tempoH-I-XVILaudaB g,4 g'2 e4 a fis \noBreak
+    \tempoH-I-XVLaudaB g,4 g'2 e4 a fis \noBreak
     d g8[ fis] e4 a8[ g] fis[ e d c] %55
     h4 e c2 a4 d(
     h) g r2 r
@@ -420,7 +420,7 @@ H-I-XVILaudaBasso = {
   }
 }
 
-H-I-XVILaudaBassoLyrics = \lyricmode {
+H-I-XVLaudaBassoLyrics = \lyricmode {
   Lau -- da, lau -- da, Ie --
   ru -- sa -- lem, lau -- da, Ie --
   ru -- sa -- lem, Do -- mi --
@@ -475,10 +475,10 @@ H-I-XVILaudaBassoLyrics = \lyricmode {
   _ men, a -- men. %67 finis
 }
 
-H-I-XVIMagnificatBasso = {
+H-I-XVMagnificatBasso = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \autoBeamOff \tempoH-I-XVIMagnificat
+    \key c \major \time 4/4 \autoBeamOff \tempoH-I-XVMagnificat
     r4 \mvDl c'\fE^\tutti h8([ a)] g f
     e d c4 a'8([ g)] f e
     d'([ c)] h a g([ f)] e([ f)]
@@ -508,7 +508,7 @@ H-I-XVIMagnificatBasso = {
     r8 \mvTr g4\pE^\solo f16 g e8([ c')] h a %35
     gis8. fis16 e4 r2
     R1*3
-    \tempoH-I-XVIMagnificatB r8 \mvTr g4\fE^\tutti e8 a8.[\trill g32 a] f!16[ d f8] %40
+    \tempoH-I-XVMagnificatB r8 \mvTr g4\fE^\tutti e8 a8.[\trill g32 a] f!16[ d f8] %40
     g8.[\trill f32 g] e8 c r2
     R1
     r8 g'4 e8 a8.[\trill g32 a] f!16[ d f8]
@@ -519,7 +519,7 @@ H-I-XVIMagnificatBasso = {
   }
 }
 
-H-I-XVIMagnificatBassoLyrics = \lyricmode {
+H-I-XVMagnificatBassoLyrics = \lyricmode {
   Ma -- gni -- fi -- cat
   a -- ni -- ma, a -- ni -- ma,
   a -- ni -- ma me -- a __

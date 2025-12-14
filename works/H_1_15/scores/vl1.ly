@@ -12,7 +12,7 @@
     \paper { system-count = #12 }
     \score {
       <<
-        \new Staff { \H-I-XVIDixitViolinoI }
+        \new Staff { \H-I-XVDixitViolinoI }
       >>
     }
   }
@@ -21,7 +21,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-I-XVILaudateViolinoI }
+        \new Staff { \H-I-XVLaudateViolinoI }
       >>
     }
   }
@@ -30,7 +30,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-I-XVILaetatusViolinoI }
+        \new Staff { \H-I-XVLaetatusViolinoI }
       >>
     }
   }
@@ -39,7 +39,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-I-XVINisiViolinoI }
+        \new Staff { \H-I-XVNisiViolinoI }
       >>
     }
   }
@@ -49,7 +49,7 @@
     \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \H-I-XVILaudaViolinoI }
+        \new Staff { \H-I-XVLaudaViolinoI }
       >>
     }
   }
@@ -59,7 +59,7 @@
     \paper { system-count = #8 }
     \score {
       <<
-        \new Staff { \H-I-XVIMagnificatViolinoI }
+        \new Staff { \H-I-XVMagnificatViolinoI }
       >>
     }
   }

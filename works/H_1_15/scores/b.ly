@@ -12,7 +12,7 @@
     \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \H-I-XVIDixitOrgano }
+        \new Staff { \H-I-XVDixitOrgano }
       >>
     }
   }
@@ -21,7 +21,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-I-XVILaudateOrgano }
+        \new Staff { \H-I-XVLaudateOrgano }
       >>
     }
   }
@@ -30,7 +30,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-I-XVILaetatusOrgano }
+        \new Staff { \H-I-XVLaetatusOrgano }
       >>
     }
   }
@@ -39,7 +39,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-I-XVINisiOrgano }
+        \new Staff { \H-I-XVNisiOrgano }
       >>
     }
   }
@@ -49,7 +49,7 @@
     \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \H-I-XVILaudaOrgano }
+        \new Staff { \H-I-XVLaudaOrgano }
       >>
     }
   }
@@ -59,7 +59,7 @@
     \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \H-I-XVIMagnificatOrgano }
+        \new Staff { \H-I-XVMagnificatOrgano }
       >>
     }
   }

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-I-XVIDixitViolinoII = {
+H-I-XVDixitViolinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoH-I-XVIDixit
+    \key c \major \time 4/4 \tempoH-I-XVDixit
     r16 c'\fE e16. f32 g16. a32 h16 a32 g c16. c32 h16. a32 g16. f32 e16. d32
     e16. g32 c8~ c16. g32 e16. c32 a16. f32 a'8~ a16. f32 d16. h32
     g16. e32 g'8~ g16. e32 c16. a32 f16. d32 f'8~ f16. d32 h16. g32
@@ -35,7 +35,7 @@ H-I-XVIDixitViolinoII = {
     e d c e d16 h8 g16 d'8 h %45
     c d c4 h c8 h
     c c4 c8 c e d4\trill
-    \tempoH-I-XVIDixitB e r r2
+    \tempoH-I-XVDixitB e r r2
     r4 r8 d, e fis g e
     fis g4 f e8 f g %50
     c, r r4 r2
@@ -47,10 +47,10 @@ H-I-XVIDixitViolinoII = {
   }
 }
 
-H-I-XVILaudateViolinoII = {
+H-I-XVLaudateViolinoII = {
   \relative c' {
     \clef treble
-    \key a \minor \time 4/4 \tempoH-I-XVILaudate
+    \key a \minor \time 4/4 \tempoH-I-XVLaudate
     r4 r16 e\fE a c e e, gis h c e a c
     h e,, gis h c e a c h e,, gis h c e a c
     h e,, gis h e a, f' a, e8 a' h, gis'
@@ -89,10 +89,10 @@ H-I-XVILaudateViolinoII = {
   }
 }
 
-H-I-XVILaetatusViolinoII = {
+H-I-XVLaetatusViolinoII = {
   \relative c' {
     \clef treble
-    \key f \major \time 3/2 \tempoH-I-XVILaetatus
+    \key f \major \time 3/2 \tempoH-I-XVLaetatus
     r4 f2\fE a4 g c
     a f2 a4 g c
     a f2 c'4 a f'
@@ -134,10 +134,10 @@ H-I-XVILaetatusViolinoII = {
   }
 }
 
-H-I-XVINisiViolinoII = {
+H-I-XVNisiViolinoII = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/4 \tempoH-I-XVINisi
+    \key d \minor \time 4/4 \tempoH-I-XVNisi
     R1*7 %7
     r4 r8 f'\fE e e r f
     e e r a, b a g8. g16
@@ -159,7 +159,7 @@ H-I-XVINisiViolinoII = {
     R1 %25
     r8 c16\f c cis cis cis cis d d d d e8 a,
     f'16 f f f d8 e4 d cis8
-    \tempoH-I-XVINisiB d4 r r2
+    \tempoH-I-XVNisiB d4 r r2
     R1*2 %30
     r2 r8 d, a a'~
     a g f4 e fis8 g~
@@ -171,10 +171,10 @@ H-I-XVINisiViolinoII = {
   }
 }
 
-H-I-XVILaudaViolinoII = {
+H-I-XVLaudaViolinoII = {
   \relative c' {
     \clef treble
-    \key g \major \time 3/2 \tempoH-I-XVILauda
+    \key g \major \time 3/2 \tempoH-I-XVLauda
     g'4\fE g2 a4 h a
     h g2 a4 h a
     h d2 fis4 d g
@@ -217,7 +217,7 @@ H-I-XVILaudaViolinoII = {
     d g8 g a a d d h h e e
     cis4 fis h, \hA cis d d8 d \noBreak
     e4 c8 c d4 d d2
-    \tempoH-I-XVILaudaB d r r \noBreak
+    \tempoH-I-XVLaudaB d r r \noBreak
     R1. %55
     r4 g,2 e4 a fis
     d g8 fis e4 a8 g fis e fis d
@@ -234,10 +234,10 @@ H-I-XVILaudaViolinoII = {
   }
 }
 
-H-I-XVIMagnificatViolinoII = {
+H-I-XVMagnificatViolinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoH-I-XVIMagnificat
+    \key c \major \time 4/4 \tempoH-I-XVMagnificat
     r2 r4 g'\fE
     c4. c8 c4 a~
     a8 h16 c d8 c h4 c~
@@ -257,7 +257,7 @@ H-I-XVIMagnificatViolinoII = {
     r8 h'4 cis8 d f e d
     c4 r8 d e h e d
     cis d4 \hA cis8 d4 r
-    \after 1*10 \tempoH-I-XVIMagnificatB R1*11 %40
+    \after 1*10 \tempoH-I-XVMagnificatB R1*11 %40
     r8 g,4\fE e8 a8.\trillE g32 a f16 d f8
     g8.\trill f32 g e8 a16 g fis8 g4 \hA fis8
     g4 r r2
