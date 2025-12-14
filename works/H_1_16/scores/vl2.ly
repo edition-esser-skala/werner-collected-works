@@ -12,7 +12,7 @@
     \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \H-I-XVIIDixitViolinoII }
+        \new Staff { \H-I-XVIDixitViolinoII }
       >>
     }
   }
@@ -22,7 +22,7 @@
     \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \H-I-XVIIConfiteborViolinoII }
+        \new Staff { \H-I-XVIConfiteborViolinoII }
       >>
     }
   }
@@ -32,7 +32,7 @@
     \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \H-I-XVIIBeatusViolinoII }
+        \new Staff { \H-I-XVIBeatusViolinoII }
       >>
     }
   }
@@ -42,7 +42,7 @@
     \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \H-I-XVIIPueriViolinoII }
+        \new Staff { \H-I-XVIPueriViolinoII }
       >>
     }
   }
@@ -52,7 +52,7 @@
     \paper { system-count = #2 }
     \score {
       <<
-        \new Staff { \H-I-XVIILaudateViolinoII }
+        \new Staff { \H-I-XVILaudateViolinoII }
       >>
     }
   }
@@ -62,7 +62,7 @@
     \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \H-I-XVIIMagnificatViolinoII }
+        \new Staff { \H-I-XVIMagnificatViolinoII }
       >>
     }
   }

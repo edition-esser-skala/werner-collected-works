@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-I-XVIIDixitViolinoI = {
+H-I-XVIDixitViolinoI = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoH-I-XVIIDixit
+    \key c \major \time 4/4 \tempoH-I-XVIDixit
     c16\fE e g c g h d g c, e g c h g d h
     g c e c a d f d h e g e c f a f
     d g h g c g e c' h g d h g4
@@ -21,10 +21,10 @@ H-I-XVIIDixitViolinoI = {
   }
 }
 
-H-I-XVIIConfiteborViolinoI = {
+H-I-XVIConfiteborViolinoI = {
   \relative c' {
     \clef treble
-    \key a \minor \time 4/4 \tempoH-I-XVIIConfitebor
+    \key a \minor \time 4/4 \tempoH-I-XVIConfitebor
     R1*2
     e'8\fE e a g g g~ g16 g fis fis
     g8 g, r g'4 fis16 e \hA fis8.\trill fis16
@@ -46,10 +46,10 @@ H-I-XVIIConfiteborViolinoI = {
   }
 }
 
-H-I-XVIIBeatusViolinoI = {
+H-I-XVIBeatusViolinoI = {
   \relative c' {
     \clef treble
-    \key f \major \time 3/2 \tempoH-I-XVIIBeatus
+    \key f \major \time 3/2 \tempoH-I-XVIBeatus
     R1.*4
     r2 r g''~\fE %5
     g4 e a4. a8 f4 f
@@ -75,10 +75,10 @@ H-I-XVIIBeatusViolinoI = {
   }
 }
 
-H-I-XVIIPueriViolinoI = {
+H-I-XVIPueriViolinoI = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/4 \tempoH-I-XVIIPueri
+    \key d \minor \time 4/4 \tempoH-I-XVIPueri
     <d a' f'>8[\pE r <cis e a> r <f d' a'>] r r4
     <f' a, d,>8[ r <g c,! e,> r <a c, f,>] r r4
     <g c, e,>8[ r <f h, d,> r <e g, c,>] r r16 g\fE e c
@@ -101,10 +101,10 @@ H-I-XVIIPueriViolinoI = {
   }
 }
 
-H-I-XVIILaudateViolinoI = {
+H-I-XVILaudateViolinoI = {
   \relative c' {
     \clef treble
-    \key b \major \time 4/4 \tempoH-I-XVIILaudate
+    \key b \major \time 4/4 \tempoH-I-XVILaudate
     R1*4
     r8 b'\pE c8.\trill b32 c d16 c b4 d8 %5
     c c f16\fE c a f d' d c c b8 d
@@ -114,10 +114,10 @@ H-I-XVIILaudateViolinoI = {
   }
 }
 
-H-I-XVIIMagnificatViolinoI = {
+H-I-XVIMagnificatViolinoI = {
   \relative c' {
     \clef treble
-    \key g \major \time 4/4 \tempoH-I-XVIIMagnificat
+    \key g \major \time 4/4 \tempoH-I-XVIMagnificat
     R1*3
     r2 d16\fE d32 d d16 d fis fis a a
     d h8 d16 a d8 g,16 fis d'8 d16 h-\critnote e8 e16 %5

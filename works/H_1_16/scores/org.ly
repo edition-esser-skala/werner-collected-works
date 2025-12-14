@@ -12,8 +12,8 @@
     \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \H-I-XVIIDixitOrgano }
-        \new FiguredBass { \H-I-XVIIDixitBassFigures }
+        \new Staff { \H-I-XVIDixitOrgano }
+        \new FiguredBass { \H-I-XVIDixitBassFigures }
       >>
     }
   }
@@ -23,8 +23,8 @@
     \paper { system-count = #7 }
     \score {
       <<
-        \new Staff { \H-I-XVIIConfiteborOrgano }
-        \new FiguredBass { \H-I-XVIIConfiteborBassFigures }
+        \new Staff { \H-I-XVIConfiteborOrgano }
+        \new FiguredBass { \H-I-XVIConfiteborBassFigures }
       >>
     }
   }
@@ -33,8 +33,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-I-XVIIBeatusOrgano }
-        \new FiguredBass { \H-I-XVIIBeatusBassFigures }
+        \new Staff { \H-I-XVIBeatusOrgano }
+        \new FiguredBass { \H-I-XVIBeatusBassFigures }
       >>
     }
   }
@@ -44,8 +44,8 @@
     \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \H-I-XVIIPueriOrgano }
-        \new FiguredBass { \H-I-XVIIPueriBassFigures }
+        \new Staff { \H-I-XVIPueriOrgano }
+        \new FiguredBass { \H-I-XVIPueriBassFigures }
       >>
     }
   }
@@ -55,8 +55,8 @@
     \paper { system-count = #3 }
     \score {
       <<
-        \new Staff { \H-I-XVIILaudateOrgano }
-        \new FiguredBass { \H-I-XVIILaudateBassFigures }
+        \new Staff { \H-I-XVILaudateOrgano }
+        \new FiguredBass { \H-I-XVILaudateBassFigures }
       >>
     }
   }
@@ -66,8 +66,8 @@
     \paper { system-count = #7 }
     \score {
       <<
-        \new Staff { \H-I-XVIIMagnificatOrgano }
-        \new FiguredBass { \H-I-XVIIMagnificatBassFigures }
+        \new Staff { \H-I-XVIMagnificatOrgano }
+        \new FiguredBass { \H-I-XVIMagnificatBassFigures }
       >>
     }
   }

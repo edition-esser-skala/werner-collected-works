@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-I-XVIIDixitAlto = {
+H-I-XVIDixitAlto = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoH-I-XVIIDixit \autoBeamOff
+    \key c \major \time 4/4 \tempoH-I-XVIDixit \autoBeamOff
     r8 \mvTr g'4\fE^\tutti g8 g4 g
     g8 e a f h g16 g c8 a
     g4 g8 g g g r4
@@ -23,7 +23,7 @@ H-I-XVIIDixitAlto = {
   }
 }
 
-H-I-XVIIDixitAltoLyrics = \lyricmode {
+H-I-XVIDixitAltoLyrics = \lyricmode {
   do -- nec po -- nam
   in -- i -- mi -- cos tu -- os, sca -- bel -- lum
   pe -- dum tu -- o -- rum.
@@ -42,10 +42,10 @@ H-I-XVIIDixitAltoLyrics = \lyricmode {
   sae -- cu -- lo -- rum, a -- men. %16 finis
 }
 
-H-I-XVIIConfiteborAlto = {
+H-I-XVIConfiteborAlto = {
   \relative c' {
     \clef treble
-    \key a \minor \time 4/4 \autoBeamOff \tempoH-I-XVIIConfitebor
+    \key a \minor \time 4/4 \autoBeamOff \tempoH-I-XVIConfitebor
     r2 r8 \mvTr e4\pE^\solo a8
     gis8. gis16 a8 h c h16 a g8 f
     e e a([ g)] g \mvTr g16\fE^\tutti g \mvTr g8^\critnote fis16 fis
@@ -70,7 +70,7 @@ H-I-XVIIConfiteborAlto = {
   }
 }
 
-H-I-XVIIConfiteborAltoLyrics = \lyricmode {
+H-I-XVIConfiteborAltoLyrics = \lyricmode {
   in con --
   si -- li -- o iu -- sto -- rum, et con -- gre --
   ga -- ti -- o -- ne. et iu -- sti -- ti -- a
@@ -93,10 +93,10 @@ H-I-XVIIConfiteborAltoLyrics = \lyricmode {
   men, a -- men. %21 finis
 }
 
-H-I-XVIIBeatusAlto = {
+H-I-XVIBeatusAlto = {
   \relative c' {
     \clef treble
-    \key f \major \time 3/2 \autoBeamOff \tempoH-I-XVIIBeatus
+    \key f \major \time 3/2 \autoBeamOff \tempoH-I-XVIBeatus
     R1.
     r2 \mvTr f4\pE^\solo f f e
     f8([ g)] a4 a g f2\trill
@@ -132,7 +132,7 @@ H-I-XVIIBeatusAlto = {
   }
 }
 
-H-I-XVIIBeatusAltoLyrics = \lyricmode {
+H-I-XVIBeatusAltoLyrics = \lyricmode {
   In man -- da -- tis %2
   e -- ius vo -- let ni --
   mis.
@@ -166,10 +166,10 @@ H-I-XVIIBeatusAltoLyrics = \lyricmode {
   men. %34 finis
 }
 
-H-I-XVIIPueriAlto = {
+H-I-XVIPueriAlto = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/4 \autoBeamOff \tempoH-I-XVIIPueri
+    \key d \minor \time 4/4 \autoBeamOff \tempoH-I-XVIPueri
     R1
     r4 r8 \mvTr g'\pE^\solo a f c' b16 a
     g8 f16([ e)] f4 e r8 \mvTr e\fE^\tutti
@@ -191,7 +191,7 @@ H-I-XVIIPueriAlto = {
   }
 }
 
-H-I-XVIIPueriAltoLyrics = \lyricmode {
+H-I-XVIPueriAltoLyrics = \lyricmode {
   Sit no -- men Do -- mi -- ni %2
   be -- ne -- di -- ctum, Ex --
   cel -- sus su -- per o -- mnes gen -- tes
@@ -211,10 +211,10 @@ H-I-XVIIPueriAltoLyrics = \lyricmode {
   men. %19 finis
 }
 
-H-I-XVIILaudateAlto = {
+H-I-XVILaudateAlto = {
   \relative c' {
     \clef treble
-    \key b \major \time 4/4 \autoBeamOff \tempoH-I-XVIILaudate
+    \key b \major \time 4/4 \autoBeamOff \tempoH-I-XVILaudate
     \mvTr b4\pE^\solo c16([ b)] c8 d es16 f g8 g
     f f r4 r f8 g
     a a16([ b)] c([ a)] g([ f)] e8 f16 f f8([ \hA e)]
@@ -227,7 +227,7 @@ H-I-XVIILaudateAlto = {
   }
 }
 
-H-I-XVIILaudateAltoLyrics = \lyricmode {
+H-I-XVILaudateAltoLyrics = \lyricmode {
   Lau -- da -- te Do -- mi -- num, o -- mnes
   gen -- tes, su -- per
   nos mi -- se -- ri -- cor -- di -- a e --
@@ -239,10 +239,10 @@ H-I-XVIILaudateAltoLyrics = \lyricmode {
   men. %9 finis
 }
 
-H-I-XVIIMagnificatAlto = {
+H-I-XVIMagnificatAlto = {
   \relative c' {
     \clef treble
-    \key g \major \time 4/4 \autoBeamOff \tempoH-I-XVIIMagnificat
+    \key g \major \time 4/4 \autoBeamOff \tempoH-I-XVIMagnificat
     r2 r8 \mvTr g'\pE^\solo g fis
     g16([ a)] h([ c)] a8 fis16 a d,8 d r4
     R1
@@ -267,7 +267,7 @@ H-I-XVIIMagnificatAlto = {
   }
 }
 
-H-I-XVIIMagnificatAltoLyrics = \lyricmode {
+H-I-XVIMagnificatAltoLyrics = \lyricmode {
   et ex -- ul --
   ta -- vit spi -- ri -- tus me -- us
 

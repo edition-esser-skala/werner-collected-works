@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "b")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,57 +12,56 @@
     \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \H-I-XVIIDixitViolinoI }
+        \new Staff { \H-I-XVIDixitOrgano }
       >>
     }
   }
   \bookpart {
     \section "2" "Confitebor"
     \addTocEntry
-    \paper { system-count = #5 }
+    \paper { system-count = #7 }
     \score {
       <<
-        \new Staff { \H-I-XVIIConfiteborViolinoI }
+        \new Staff { \H-I-XVIConfiteborOrgano }
       >>
     }
   }
   \bookpart {
     \section "3" "Beatus vir"
     \addTocEntry
-    \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \H-I-XVIIBeatusViolinoI }
+        \new Staff { \H-I-XVIBeatusOrgano }
       >>
     }
   }
   \bookpart {
     \section "4" "Laudate pueri"
     \addTocEntry
-    \paper { system-count = #5 }
+    \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \H-I-XVIIPueriViolinoI }
+        \new Staff { \H-I-XVIPueriOrgano }
       >>
     }
   }
   \bookpart {
     \section "5" "Laudate Dominum"
     \addTocEntry
-    \paper { system-count = #2 }
+    \paper { system-count = #3 }
     \score {
       <<
-        \new Staff { \H-I-XVIILaudateViolinoI }
+        \new Staff { \H-I-XVILaudateOrgano }
       >>
     }
   }
   \bookpart {
     \section "6" "Magnificat"
     \addTocEntry
-    \paper { system-count = #5 }
+    \paper { system-count = #7 }
     \score {
       <<
-        \new Staff { \H-I-XVIIMagnificatViolinoI }
+        \new Staff { \H-I-XVIMagnificatOrgano }
       >>
     }
   }
