@@ -734,3 +734,254 @@ H-I-IIPueriBassoLyrics = \lyricmode {
   men, a -- %200
   men. %201 finis
 }
+
+H-I-IILaudateBasso = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \autoBeamOff \tempoH-I-IILaudate
+    R1*4
+    r4 \mvDl c'\fE^\tutti a8([ f)] g([ a)] %5
+    b([ a)] g([ f)] e4. e8
+    f8. f16 g8 a b[ a b g]
+    c[ b c a] d[ c d] b
+    c c a f b g c8. c16
+    a8([ f)] a([ b)] c4 c,8 cis %10
+    d4 f8([ g)] a4 a,
+    b4. b8 c[( c d a]
+    b[ g] c8.) c16 f,4 r
+    R1*3 %16
+    r4 d'8 c h([ g)] a([ \hA h)]
+    c([ h)] c([ d)] e([ d)] e f
+    g4 g, r h'8([ a)]
+    gis4 gis8 gis a8. a16 a4 %20
+    r2 g
+    e f
+    d g
+    e4 e8 c g2
+    c4 r r2 %25
+    f8([ g)] a h? c4 c,
+    r2 f8([ g)] a h?
+    c8. c16 c,4 r f8 e
+    d d16 d e4 a, a'8 g
+    fis e \hA fis d g8. g16 g8 e %30
+    f e f4 c r
+    R1*3
+    f4. f8 a a16 g a8 h %35
+    c g c2( b4)
+    a a8 f g g16 f g8 a
+    b b d,([ e)] f4 r
+    r2 c4. c8
+    d d16 c d8 e f d b([ c)] %40
+    f,4 r r c'
+    f, r r2\fermata \bar "|." %42 finis
+  }
+}
+
+H-I-IILaudateBassoLyrics = \lyricmode {
+  Lau -- da -- te %5
+  e -- um, o -- mnes
+  po -- pu -- li, lau -- da --
+  _ _ te
+  e -- um, o -- mnes po -- pu -- li, lau --
+  da -- te e -- um, lau -- %10
+  da -- te e -- um,
+  o -- mnes po --
+  pu -- li.
+
+  Su -- per nos mi -- %17
+  se -- ri -- cor -- di -- a
+  e -- ius, et
+  ve -- ri -- tas Do -- mi -- ni %20
+  ma --
+  net, ma --
+  net, ma --
+  net in ae -- ter --
+  num. %25
+  Glo -- ri -- a Pa -- tri,
+  glo -- ri -- a
+  Fi -- li -- o et Spi --
+  ri -- tu -- i San -- cto, si -- cut
+  e -- rat in prin -- ci -- pi -- o et %30
+  nunc et sem -- per
+
+  et in sae -- cu -- la sae -- cu -- %35
+  lo -- rum, a --
+  men, et in sae -- cu -- la sae -- cu --
+  lo -- rum, a -- men,
+  et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a -- %40
+  men, a --
+  men. %42 finis
+}
+
+H-I-IIMagnificatBasso = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \autoBeamOff \tempoH-I-IIMagnificatA
+    r4 \mvTr b'\fE^\tutti b8. b16 b4
+    a a8 a b a g8. g16
+    \tempoH-I-IIMagnificatB f4 r r2
+    r8 f b a b f b a16 a
+    b4 f8 d es4 c %5
+    d b c a
+    b c d es
+    f8 g es([ f)] b,4 r
+    R1*9 %17
+    \mvTr f'4\pE^\solo f r a8 c
+    fis, fis g a b4 g8 es
+    cis4. cis8 d4 r8 d' %20
+    b[ g8.] d'16[ c d] es8[ c,8.] c'16[ b c]
+    a8[ f8.] c'16[ b c] d8[ b,8.] b'16[ a b]
+    g8[ es8.] b'16[ a b] c8[ a,8.] a'16[ g a]
+    fis8 d r d cis8. cis16 cis8 cis
+    d2 g, %25
+    R1*8 %33
+    r2 \mvTr b'4\fE^\tutti b
+    r8 b, d b f'8. f16 f4 %35
+    r8 f es es16 es d4 b
+    r b' as as
+    r8 as as g16 f es4 c
+    r as' f d8 c
+    h c g4 c r %40
+    r2 r4 r8 \mvTr g'\pE^\solo
+    c,16[ c' h c] g[ c es, g] c,8. c16 c4
+    r8 c es es16 fis g4 g,
+    r8 g' a h c2~
+    c16[ c, e f] g[ as b g] \hA as[ g] f8 r4 %45
+    r8 f g as \once \tieDashed b2~
+    b16[ b, d es] f[ g as f] g8 es r4
+    r8 es g b c[ as16 g] f8[ es]
+    d[ b' b, as'] g[ es' es, des']
+    c as b,8. b16 es4 r %50
+    R1*16 %66
+    r2 r8 g c b
+    a8. a16 a4 b g8 f
+    e2 f4 r
+    R1 %70
+    a4. g8 fis4 fis8 fis
+    g4. f8 e[ f16 g] \hA e8[ d]
+    cis[ a h \hA cis] d[ e f d]
+    g e16 e a8([ a,)] d4 r
+    R1 %75
+    r2 r8 \mvTr d\fE^\tutti f d
+    a'8. a16 a8 g f e d c!
+    b4. b8 a4 r
+    r2 r4 b'
+    c4 c8 b a4 a8 a %80
+    b4 b8 a g4 g8 g
+    a4 a8 g f([ e)] d c!
+    b!([ a)] gis gis a4. a8
+    d4 r r2
+    R1*3 \noBreak %87
+    R1\fermata \bar "||"
+    \tempoH-I-IIMagnificatC r4 \mvTr b2\fE^\tutti b8 b \noBreak
+    h4 h r2 %90
+    c4 c8 c b8. b16 b4
+    r2 f'4 f8 f
+    es!4. es8 d4 d8 d
+    d2 g,4 r
+    R1*4 \noBreak %98
+    R1\fermata \bar "||"
+    \tempoH-I-IIMagnificatD
+      \mvTr b'4.\fE^\tutti f8 g g16 f g8 es \noBreak %100
+    f b,16([ c)] d[( es f g] a8[ f g a])
+    b f b4. a16[ g] f[ g a b]
+    c8 c,16([ d] es[ f g a)] b8 b,[ c d]
+    \once \tieDashed es4~ es16[ f g es] b'4 r
+    R1*2 %106
+    b4. f8 g g16 f g8 es
+    f b,16([ c)] d([ es f g] a8[ f g a)]
+    b4 r r8 f16[ g] a[ f g a]
+    b8[ g c c,] f4 r %110
+    r2 r8 b,16([ c] d[ b c d)]
+    es4 r r8 b16([ c] d[ c d es)]
+    f4 r r8 c16([ d] es[ f g a]
+    b8) g es([ f)] b,4 r8 d'(
+    es) es, r c'( d) d, r b'( %115
+    c) c, r a'( b) g es([ f)]
+    b,4 r r f'
+    b, r r2\fermata \bar "|." %118 finis
+  }
+}
+
+H-I-IIMagnificatBassoLyrics = \lyricmode {
+  Ma -- gni -- fi -- cat
+  a -- ni -- ma me -- a Do -- mi --
+  num,
+  et ex -- ul -- ta -- vit spi -- ri -- tus
+  me -- us in De -- o %5
+  sa -- lu -- ta -- ri
+  me -- o, sa -- lu --
+  ta -- ri me -- o.
+
+  Qui -- a, qui -- a %18
+  fe -- cit mi -- hi ma -- gna, qui
+  po -- tens est, et %20
+  san -- _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ ctum, et san -- ctum no -- men
+  e -- ius. %25
+
+  Fe -- cit, %34
+  fe -- cit po -- ten -- ti -- am %35
+  in bra -- chi -- o su -- o,
+  dis -- per -- sit,
+  dis -- per -- sit su -- per -- bos
+  men -- te, men -- te
+  cor -- dis su -- i. %40
+  De --
+  po -- _ _ su -- it
+  po -- ten -- tes de se -- de
+  et ex -- al -- ta --
+  _ _ vit, %45
+  et ex -- al -- ta --
+  _ _ vit,
+  et ex -- al -- ta -- _
+  _ _
+  _ vit hu -- mi -- les. %50
+
+  Su -- sce -- pit %67
+  Is -- ra -- el pu -- e -- rum
+  su -- um,
+
+  re -- cor -- da -- tus mi -- %71
+  se -- ri -- cor -- _
+  _ _
+  _ di -- ae su -- ae.
+  %75
+  Si -- cut lo --
+  cu -- tus est ad pa -- tres no -- stros,
+  A -- bra -- ham
+  et
+  se -- mi -- ni e -- ius, et %80
+  se -- mi -- ni e -- ius, et
+  se -- mi -- ni, se -- mi -- ni
+  e -- ius in sae -- cu --
+  la.
+
+  Glo -- ri -- a %90
+  Pa -- tri, %90
+  glo -- ri -- a Fi -- li -- o,
+  glo -- ri -- a
+  et Spi -- ri -- tu -- i San -- cto,
+
+  et in sae -- cu -- la sae -- cu -- %100
+  lo -- rum, a --
+  men, a -- _ _ _
+  men, a -- men, a --
+  _ men,
+
+  et in sae -- cu -- la sae -- cu -- %107
+  lo -- rum, a --
+  men, a -- _
+  _ men, %110
+  a --
+  men, a --
+  men, a --
+  men, a -- men, a --
+  men, a -- men, a -- %115
+  men, a -- men, a --
+  men, a --
+  men. %118 finis
+}

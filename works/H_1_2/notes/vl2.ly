@@ -480,3 +480,159 @@ H-I-IIPueriViolinoII = {
     a,2 r\fermata \bar "|." %201 finis
   }
 }
+
+H-I-IILaudateViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoH-I-IILaudate
+    R1
+    c2\fE e
+    f f4 f8 f
+    f4 f a2
+    g r %5
+    r4 g g8 e f g
+    a4 f2 g4~
+    g a2 b4~
+    b a g2
+    a4 a g2 %10
+    f e
+    d c4 f~
+    f e f2
+    R1
+    g8. g16 g4 a8 a g fis %15
+    g4 r r2
+    r4 f4. f8 f f
+    e4. f8 g4. f16 e
+    e4 d r h'
+    h h8 h a8. a16 a4 %20
+    a8 fis g a d,4 d
+    g8 e f g f2
+    a8 f g a \once \tieDashed g2~
+    g1
+    g4 e2 f8 e %25
+    f2 e4 e~
+    e f8 e f4. f8
+    e4 e8 e f8. f16 f8 f
+    f d h4 a a'8 a
+    a a a a g8. g16 g8 g %30
+    f g f4 e r
+    R1
+    f4. f8 a a16 g a8 h
+    c g c2 b4~
+    b a4. g8 f4~ %35
+    f8 e16 d e4 f4. g8
+    a4 a8 a b b16 a b8 c
+    f, f b2 a4~
+    a8 g f2 e4
+    f4. g8 f f' g, e' %40
+    f4 r r e
+    f r r2\fermata \bar "|." %42 finis
+  }
+}
+
+H-I-IIMagnificatViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoH-I-IIMagnificatA
+    r4 b'\fE g8. g16 g4
+    f4. c'8 d c b8. b16
+    \tempoH-I-IIMagnificatB a8 f a c f e16 d c b a g
+    f f' c f d f c f d f c f d f c f
+    d4 c16 f es f g g, g' f es f32 es d16 es %5
+    f f, f' es d es32 d c16 d es es, es' d c d32 c b16 c
+    d es32 d c16 d es f32 es d16 es f g32 f es16 f g a32 g f16 g
+    a8 b c, a' r16 es,32 d c16 d es d c8
+    d4 r r r8 b'
+    g a b4 r2 %10
+    R1
+    r16 b32 a g16 a b8 g a4 r
+    r2 r16 e'32 d c16 h c4
+    R1*3 %16
+    r16 g'32^\critnote f e16 f g8 \hA e f16 b,32 a g16 a b8 g
+    a a\pE a a a a a a
+    a a g-\critnote fis d d' b b
+    b b, b b a d e fis %20
+    r g a b r c d es
+    r f,! g a r b c d
+    r es, f g r a b c
+    r d, e fis r \hA e \hA fis g
+    r g g fis r g \hA fis g %25
+    r b, b a r g' a b
+    r c b a r g a b
+    r as g f! r es d c
+    r g' g b, r d e fis
+    r d e fis r g a b %30
+    r as g f r es d c
+    c r d r c r r4
+    r2 r8 d\fE es f
+    r g es c b b16 d d b f' d
+    b'4 r r8 f16 a a f c' a %35
+    f'4 r r8 b,16 d d b f' d
+    b'4 r r8 h,,16 d f d h' f
+    d'4 r r8 es,16 g g es c' g
+    es'4 r r2
+    r r8 c,16 es es c g' es %40
+    c'8 r c r r16 c, h c c8 \hA h
+    c4 r r16 c' h c g c es, g
+    c,4 r r16 g'\pE fis g d g h, d
+    g,4 r r16 c' h c g c e, g
+    c,4 r r16 f' e f c f as, c %45
+    f,4 r r16 b a b f b d, f
+    b,4 r r16 es'! d es b es g, b
+    es,4 r r2
+    R1
+    r2 r16 es'\fE d es b es g, b %50
+    c f e f c f a,! c d b' a b f b b, as'
+    g d es g, f8 d' es4 r
+    R1*10 %62
+    r4 b2\fE a8 g
+    a4 a2 g8 fis
+    g4 g2 fis8 g %65
+    a b16 c b8 a g b, b a
+    g4 r r2
+    R1*6 %73
+    r2 r16 a''\fE g a f a a, c!
+    b g' f g e g g, b a f' f, a g e' e, g %75
+    f a d d, e8 cis' d,16 f a d d8 d
+    d8. cis16 cis a \hA cis e d \hA cis d \hA e f8 \hA e
+    d4. cis16 d \hA cis4 r
+    r2 g
+    g4 g8 g f2 %80
+    f4 f8 f e2~
+    e f~
+    f e
+    d8 d' e f g a16 b g8 f
+    e c d \hA e f g16 a f8 \hA e %85
+    d b c d e f16 g \hA e8 d
+    cis a h \hA cis d d, d d \noBreak
+    d d d cis d4 r\fermata \bar "||"
+    \tempoH-I-IIMagnificatC r4 b'2\fE b4 \noBreak
+    as4 as r h, %90
+    c r r2
+    r4 e f r
+    R1
+    r2 g,16( b) d( g) b( d) b'( fis)
+    g4 r r2 %95
+    f,16(\pE a) c( f) a( c) f,( e) f4 r
+    \slurDashed b,,16( d) f( b) d( f) b,( a) b4 r
+    r2 f16( a) c( f) c'( es,) d( c) \slurSolid \noBreak
+    b4 b,8 b b a a4\fermata \bar "||"
+    \tempoH-I-IIMagnificatD R1*3 %102
+    r2 b'4.\fE f8
+    g g16 f g8 es f b,16 c d es f g
+    a8 a16 b c a b c f,4 b~ %105
+    b8 a16 g f g a b c8 c,16 d es f g a
+    \stemUp b8 f b4. a8 g4 \stemNeutral
+    f2 r
+    b4. g8 a a16 g f8 f
+    g2 f8 a16 g f g a b %110
+    c8 c,16 d es f g a b8 d,16 es f d es f
+    b,8 g'4 f8~ f16 f d es f es f g
+    f8 a,16 b c d es f g4. g8
+    f d' c a' b,4 r8 f'~
+    f es r es4 d8 r d~ %115
+    d c r c d16 b-\critnote c d c8 a'
+    b,4 r r <a f c>
+    <b f b,> r r2\fermata \bar "|." %118 finis
+  }
+}

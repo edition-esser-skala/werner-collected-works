@@ -35,7 +35,8 @@ toe: |
     & 110 & vl 2 & 4th \sixteenthNote\ in \B1: \sharp f′16 \\
     & 111 & vl 2 & 9th \sixteenthNote\ in \B1: \sharp c″16 \\
     & 113 & vl 2 & 5th \eighthNote\ in \B1: \sharp c′8 \\
-    & 124 & vl 1 & 3rd \quarterNote\ in \B1: \sharp c″16–\sharp c″16–\sharp c″8 \\
+    & 124 & vl 1 & 3rd \quarterNote\ in \B1:
+                   \sharp c″16–\sharp c″16–\sharp c″8 \\
     & 128 & org  & treble ottavo clef added by editor \\
     & 130 & org  & last \sixteenthNote\ in \B1: d′16 \\
     & 133 & vl 2 & 3rd \eighthNote\ in \B1: \sharp c′8 \\
@@ -59,4 +60,22 @@ toe: |
     & 156 & org  & treble ottavo clef added by editor \\
     & 163 & org  & 3rd \quarterNote\ of lower voice in \B1: c′4 \\
     & 170 & org  & treble ottavo clef added by editor \\
-    & 173 T ??
+    & 173 & T    & 2nd \quarterNote\ in \B1: b4 \\
+  5 & 1   & S    & 1st \halfNote\ in \B1: g′2 \\
+    & 12f & T    & last \eighthNote\ of bar 12 in \B1: \flat b8;
+                   1st \halfNote\ of bar 13: c′4.–c′8 \\
+    & 29  & T    & 1st \eighthNote\ in \B1: c′8 \\
+    & 30  & T    & last \eighthNote\ in \B1: d′8 \\
+    & 40  & T    & 4th \quarterNote\ in \B1: c′8 \\
+  6 & 5   & vl 1 & grace note removed by editor \\
+    & 17  & vl 1 & 3rd \quarterNote\ in \B1: a″16.–f″32–e″16.–f″32 \\
+    & 17  & vl 2 & 2nd/3rd \sixteenthNote\ in \B1: g″16–f″32–e″32 \\
+    & 19  & vl 2 & 3rd \eighthNote\ in \B1: a′8 \\
+    & 23  & org  & 4th \eighthNote\ in \B1: g8 \\
+    & 91  & S    & 2nd \halfNote\ in \B1: \sharp c″8.–\sharp c″16–\sharp c″4 \\
+    & 94  & S    & 1st \halfNote\ in \B1: \flat b′4–a′4 \\
+    & 95  & org  & treble ottavo clef added by editor \\
+    & 112 & org  & treble ottavo clef added by editor \\
+    & 113 & A    & last \eighthNote\ in \B1: f′8 \\
+    & 113 & org  & treble ottavo clef added by editor \\
+    & 116 & vl 2 & 10th \sixteenthNote\ in \B1: c″16 \\

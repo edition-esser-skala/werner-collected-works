@@ -554,7 +554,7 @@ H-I-IIPueriTenore = {
     g fis e \hA fis8[ g] %170
     a2. g4
     fis e d e8[ \hA fis]
-    g4 h c2
+    g4 a8([^\critnote h)] c2
     h e~
     e dis4 cis? %175
     h a g fis
@@ -694,4 +694,245 @@ H-I-IIPueriTenoreLyrics = \lyricmode {
   men, a --
   men, a -- %200
   men. %201 finis
+}
+
+H-I-IILaudateTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \major \time 4/4 \autoBeamOff \tempoH-I-IILaudate
+    R1*3
+    r2 r4 \mvTr f\fE^\tuttiE
+    e8([ c)] d([ e)] f4. e8 %5
+    d c b2 b4
+    a4. a8 d4. b8
+    e4. c8 f4. d8
+    c4 c d c
+    c c8([ d)] g,4 g8 a %10
+    a2 a
+    f4. g8 g([ c)] a([ c)]^\critnote
+    d4 c c2
+    R1*2 %15
+    d8. d16 d4 e8 e d cis
+    d4 d4. d8 g, g
+    g4. g8 g4 g8 a
+    g4 g r d'
+    d c8 h? c8. c16 c4 %20
+    r2 d8 h? c d
+    e4 e c8 a h? c
+    d4 d d8 h c d
+    e2( d)
+    e4 r r2 %25
+    c4 c8 c c4 c
+    r2 c4 c8 c
+    c8. c16 c4 r c8 c
+    d^\critnote d16 d h4 c c8 c
+    d d d d d8. d16 d8 c^\critnote %30
+    c c c4 c r
+    R1*2
+    c4. c8 d d16 c d8 e
+    f4 c4. c16([ b] c8[ d)] %35
+    g,2 r
+    R1
+    r2 f4. f8
+    a a16 g a8 h c g c4~
+    c b8 c4 d8 d([^\critnote c)] %40
+    c4 r r c
+    c r r2\fermata \bar "|." %42 finis
+  }
+}
+
+H-I-IILaudateTenoreLyrics = \lyricmode {
+  Lau -- %4
+  da -- te e -- um, %5
+  o -- mnes po -- pu --
+  li, lau -- da -- te
+  e -- um, o -- mnes,
+  o -- mnes po -- pu --
+  li, lau -- da -- te, lau -- %10
+  da -- te
+  e -- um, o -- mnes
+  po -- pu -- li.
+
+  Quo -- ni -- am con -- fir -- ma -- ta %16
+  est su -- per nos mi --
+  se -- ri -- cor -- di -- a
+  e -- ius, et
+  ve -- ri -- tas Do -- mi -- ni %20
+  ma -- net in ae --
+  ter -- num, ma -- net in ae --
+  ter -- num, ma -- net in ae --
+  ter --
+  num. %25
+  Glo -- ri -- a Pa -- tri,
+  glo -- ri -- a
+  Fi -- li -- o et Spi --
+  ri -- tu -- i San -- cto, si -- cut
+  e -- rat in prin -- ci -- pi -- o et %30
+  nunc et sem -- per
+
+  et in sae -- cu -- la sae -- cu -- %34
+  lo -- rum, a -- %35
+  men,
+
+  et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men, a -- men, a -- %40
+  men, a --
+  men. %42 finis
+}
+
+H-I-IIMagnificatTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key b \major \time 4/4 \autoBeamOff \tempoH-I-IIMagnificatA
+    r4 \mvTr d\fE^\tutti c8. c16 c4
+    c c8 c b c d c16([ b)]
+    \tempoH-I-IIMagnificatB c4 r r2
+    r8 a b c b a b c16 c
+    b4 a8 f' f4 es %5
+    es d d c
+    d2. es4
+    c8 b g([ f)] f4 r
+    R1*17 %25
+    r2 \mvTr d'4.\pE^\solo d8
+    es4. es8 d8. d16 d4
+    r8 d d d c8. c16 c4
+    cis2 d4 r
+    r8 d4 fis,8 g8. g16 g4 %30
+    r8 h4 h8 c8. es32([ d)] c8 b?
+    a16[ c b a] b[ d c b] c[ es d c] d[ c d es]
+    f es32([ d c16)] b c4 b r
+    r2 \mvTr d4\fE^\tutti d
+    r8 d b b b8. a16 a4 %35
+    r8 c c c16 c d4 d
+    r b h h
+    r8 h h h16 h c4 c
+    r c c h8 c
+    d c c([ h)] c4 r %40
+    R1*27 %67
+    r8 \mvTr c\pE^\solo f es d8. c16 b4
+    b b8 b b4 a
+    d4. d8 d2 %70
+    c4. c8 c4. c8
+    \once \tieDashed b2~ b8. b16 b8 b
+    a4. g8 f4. g16 f
+    e2 d4 r
+    R1 %75
+    r2 r8 \mvTr a'\fE^\tutti a a
+    a8. a16 a8 a a a a a
+    f4 b e, r
+    r2 d'
+    c4. c8 c2 %80
+    b b4. b8
+    a2 a4 a
+    b h8 h a4. a8
+    a4 r r2
+    R1*3 \noBreak %87
+    R1\fermata \bar "||"
+    \tempoH-I-IIMagnificatC r4 \mvTr d2\fE^\tutti d8 d \noBreak
+    d4 d r2 %90
+    g,4 g8 g g8. g16 g4
+    r2 as4 as8 as
+    a4. a8 a4 b8 c
+    d2 d4 r
+    \mvTr g,4.\pE^\solo^\aTreE g8 e e e e %95
+    f8. f16 f4 r8 f a a
+    b4 b r8 b g f
+    e2 f4 r \noBreak
+    R1\fermata \bar "||"
+    \tempoH-I-IIMagnificatD R1 \noBreak %100
+    r2 \mvTr f'4.\fE^\tuttiE c8
+    d d16 c d8 b c f,16([ g)] a[ b c d]
+    es4. d16[ c] d4 r
+    r8 b es4. d16[ c] b[ c d es]
+    f8 f,16([ g] a[ f g a)] b4 r8 b %105
+    f4 r r2
+    R1
+    r8 d16([ es] f[ g a b] c2)
+    b4 r r8 a16[ b] c[ a b c]
+    d4 c c r %110
+    r2 b4. f8
+    g c,16 d es([ f)] g([ a)] b8 d16([ c)] b4
+    a8 f16[ g] a[ b c d] es2
+    d8 d c4 d r8 f~
+    f es r es4 d8 r d~ %115
+    d c r c( d4 c)
+    d r r c
+    d r r2\fermata \bar "|." %118 finis
+  }
+}
+
+H-I-IIMagnificatTenoreLyrics = \lyricmode {
+  Ma -- gni -- fi -- cat
+  a -- ni -- ma me -- a Do -- mi --
+  num,
+  et ex -- ul -- ta -- vit spi -- ri -- tus
+  me -- us in De -- o %5
+  sa -- lu -- ta -- ri,
+  sa -- lu --
+  ta -- ri me -- o.
+
+  Et mi -- %26
+  se -- ri -- cor -- di -- a,
+  mi -- se -- ri -- cor -- di -- a
+  e -- ius
+  a pro -- ge -- ni -- e %30
+  in pro -- ge -- ni -- es ti --
+  men -- _ _ _
+  _ ti -- bus e -- um.
+  Fe -- cit,
+  fe -- cit po -- ten -- ti -- am %35
+  in bra -- chi -- o su -- o,
+  dis -- per -- sit,
+  dis -- per -- sit su -- per -- bos
+  men -- te, men -- te
+  cor -- dis su -- i. %40
+
+  Su -- sce -- pit Is -- ra -- el %68
+  pu -- e -- rum su -- um,
+  re -- cor -- da -- %70
+  tus mi -- se -- ri --
+  cor -- di -- ae, mi --
+  se -- ri -- cor -- di -- ae
+  su -- ae.
+  %75
+  Si -- cut lo --
+  cu -- tus est ad pa -- tres no -- stros,
+  A -- bra -- ham
+  et
+  se -- mi -- ni %80
+  e -- ius, et
+  se -- mi -- ni
+  e -- ius in sae -- cu --
+  la.
+
+  Glo -- ri -- a %89
+  Pa -- tri, %90
+  glo -- ri -- a Fi -- li -- o,
+  glo -- ri -- a
+  et Spi -- ri -- tu -- i
+  San -- cto,
+  si -- cut e -- rat in prin -- %95
+  ci -- pi -- o et nunc et
+  sem -- per, et nunc et
+  sem -- per
+
+  et in %101
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  _ _ men,
+  a -- _ _ _
+  men, a -- men, a -- %105
+  men,
+
+  a --
+  men, a -- _
+  _ _ men, %110
+  et in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men, a -- _ _
+  _ men, a -- men, a --
+  men, a -- men, a -- %115
+  men, a --
+  men, a --
+  men. %118 finis
 }

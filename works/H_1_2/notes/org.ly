@@ -1129,3 +1129,344 @@ H-I-IIPueriBassFigures = \figuremode {
   r2 <6>4 <_+> %200
   <[_+]>1 %201 finis
 }
+
+H-I-IILaudateOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoH-I-IILaudate
+    \mvTr f8\fE-\tutti g a g f a g f
+    e f e d c b a g
+    f f' a g f f g a
+    b b, d e f g a b
+    c c, c' b a f g a %5
+    b a g f e c d e
+    f f g a b a b g
+    c b c a d c d b
+    c c a f b g c b
+    a f a b c c, e cis %10
+    d d f g a a, c a
+    b b d b c c d a
+    b g c c, f f' a g
+    f g a e f d g f
+    e d c b a c d c %15
+    b a g f' g e a a,
+    d e d c h g a \hA h
+    c h c d e d e f
+    g g, g' a h c \hA h a
+    gis e fis \hA gis a h a g %20
+    fis d e \hA fis g g, g' f
+    e c d e f f, f' e
+    d d e f g g, g' f
+    e d e c g2
+    c8 d e d c4 r %25
+    f8 g a h? c4 c,
+    c r f8 g a h?
+    c4 c, r f8 e
+    d d e e, a' b! a g
+    fis e \hA fis d g f? g e %30
+    f e f f, c' d c b
+    a g' a f b a b g
+    f g a g f e f d
+    c c' e c d c d e
+    f, g a f f e f d %35
+    c c16 b c8 a b a b g
+    f f' a f g f g a
+    b, c d e f g a g
+    f e f d c c e c
+    d d16 c d8 e f d b c %40
+    f, f' g c, f f, c'4
+    f, r r2\fermata \bar "|." %42 finis
+  }
+}
+
+H-I-IILaudateBassFigures = \figuremode {
+  r1
+  <6>
+  r
+  r
+  r2 <[6]> %5
+  r <6 [5]>
+  r <5>4 <6>
+  <5> <6> <5> <6>
+  \bo <[7 _]>4 <6> \bc <[6 5]>2
+  <6> <4>4 \bo <[6 _]>8 \bc <[6 5]> %10
+  <9>4 <6> <4> <[6]>
+  <9> <6>8 <[6]> <7>4. <[6]>8
+  <6 5>4 <[3]>2.
+  r4. <6>8 q4 \bo <[4]>8 \bc <[4!]>
+  <6>2 \bo <[8]>4 <4>8 \bc <[4\+]> %15
+  <6>4. q8 q4 <4>8 <_+>
+  r2 <6>
+  \bo <[9]>4 <8>8 \bc <[6!]> <6>2
+  <6 4>4 <[5] _!>2.
+  <6 [_!]>1 %20
+  <6>2 <[_!]>
+  <6>1
+  r2 <_!>
+  <6>2 <4>4 <3>
+  r1 %25
+  r
+  r
+  <[5]>
+  r8 <6!> \bo <[5!] 4> \bc <[\t] _+> r2
+  <6> <_->4. <6>8 %30
+  r <[6]>2..
+  <6> q8
+  r2.. <6!>8
+  <4> <3>4. <7>4 <6[-]>
+  <4> <[6]> r4. <6!>8 %35
+  <4> <3>4. <9>4 <6>
+  r2 <7>4 <6->
+  r <6> \bo <[4]> <3>
+  r8 \bc <[6]>4 <6!>8 <4>4 <[6]>
+  <7> <6[-]>8 <6 5>4. <6 [5]>4 %40
+  r <7>8 q r2
+  r1 %42 finis
+}
+
+H-I-IIMagnificatOrgano = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \tempoH-I-IIMagnificatA
+    \mvTr b4\fE-\tutti b' b2
+    a b8 a g4
+    \tempoH-I-IIMagnificatB f r f r
+    r8 f b a b f b a
+    b4 f8 d es es c c %5
+    d d b b c c a a
+    b b' c, b' d, b' es, b'
+    f g es f b, b' es, f
+    b,4 r8 \mvTr b'\pE-\solo g a b4
+    r r8 b a f g c, %10
+    f4. g8 a b c c,
+    f d'\fE b c f,4 a\pE
+    b4. h8 c c, c' a
+    b4 g a f
+    g8 f e c f a b g %15
+    a b16 c d8 b a b c c,
+    f4 r r8 f\fE b, c
+    f, f'\pE f f es es es es
+    d c b a g g g' es
+    cis cis cis cis d4 r8 d %20
+    g g, r g' c c, r c
+    f f, r f' b b, r b
+    es es, r es'^\critnote a a, r a
+    d d, r d' cis4 r8 \hA cis
+    d4 r8 d g,4 r8 es' %25
+    cis4 r8 d g,4 r8 g'
+    fis4 r8 \hA fis g g, r g'
+    f4 r8 f es4 r8 es
+    es4 r8 es d4 r8 d
+    c4 r8 c b4 r8 g' %30
+    f!4 r8 f es4 r8 es
+    es r d r a r b c
+    d es f f, b4 r8 b'\fE
+    es,4 r8 f b,4-\tutti b'
+    r8 b, d b f'4 f, %35
+    r8 f' es es d4 b
+    r b' as2
+    r8 as as g16 f es4 c
+    r as' f d8 c
+    h c g4 c r %40
+    r16 c'-\solo h c as c g c fis,4 g8 g,
+    c4 r r16 c' h c g c es, g
+    c,4 r r16 g'\pE fis g d g h, d
+    g,4 g'8 f e2
+    c4 e f r %45
+    f4. es8 d2
+    b4 d es r
+    es4. g8 as4 as,8 a
+    b4 d es g
+    as8 as, b4 es r8 g\fE %50
+    as as, r \hA a'? b b, r d
+    es c as b es,4 r8 es'\pE
+    f4 d r8 es f g
+    as b16 c b8 \hA as g es r es
+    es4 d r8 es es des %55
+    c g' c e, f as16 g f8 es?
+    d! a' d fis, g g, c cis
+    r d e fis g a16 b g8 f
+    es c d es f g16 a f8 es
+    d b c d es f16 g es8 d %60
+    c a b c d4. c8
+    b a g b c4 d
+    r8 g\fE a b c d16 es c8 b
+    a f g a b c16 d b8 a
+    g es f g a b16 c a8 g %65
+    fis4. fis8 g es d d,
+    g2 c8\pE g' c b
+    a2 b4 g8 f
+    e2 r8 f g a
+    b c16 d b8 a g es f g %70
+    a b16 c a8 g fis d e \hA fis
+    g a16 b g8 f e f16 g  \hA e8 d
+    cis a h \hA cis d e f d
+    g e a a, d4 r8 f\fE
+    g4 e f8 d e cis %75
+    d f g a d, d-\tutti f d
+    a4 a'8 g f e d c!
+    b2 a8 a' h cis
+    d e16 f d8 c b g a b
+    c d16 e c8 b a f g a %80
+    b c16 d b8 a g e f g
+    a h16 cis a8 g f e d c
+    b! a gis4 a2
+    d4 r r8 g-\soloE a b
+    c c, c'4 r8 f, g a %85
+    b b, b'4 r8 e, f g
+    a a, a'4 r8 f16 e d8 b \noBreak
+    gis gis a a d,4 r\fermata \bar "||"
+    \tempoH-I-IIMagnificatC r4 \mvTr b'2\fE-\tutti b4 \noBreak
+    h2 r %90
+    c b
+    r f'
+    es! d
+    d g,4 r
+    \clef "treble_8" \mvTr g'2\pE-\solo-\aTreE ^\tweak TextScript.X-offset #0 ^\critnote e %95
+    f r8 f a4
+    b b r8 b g f
+    e2 f4 r \noBreak
+    \clef bass b,16 d f b e,8 e f4 f,\fermata \bar "||"
+    \tempoH-I-IIMagnificatD
+      \mvTr b'4.-!\fE-\tutti f8-! g-! g16-! f-! g8-! es-! \noBreak %100
+    f-! b,16-! c-! d-! es-! f-! g-! a8 f g a
+    b f b4. a16 g f g a b
+    c8 c,16 d es f g a b8 b, c d
+    es4~ es16 f g es b'4 \clef "treble_8" b16 c d es
+    f8 f,16 g a f g a b4 r8 b %105
+    f4 \clef treble f'16 g a b c8 c,16 d es f g a
+    \clef bass b,4. f8 g g16 f g8 es
+    f b,16 c d es f g a8 f g a
+    b4 r r8 f16 g a f g a
+    b8 g c c, f4 \clef treble f'16 g a b %110
+    c8 c,16 d es f g a b8 \clef bass b,,16[ c] d b c d
+    es8 \clef "treble_8" c16[^\critnote d] es f g a b8 \clef bass b,16[ c] d c d es
+    f8 \clef "treble_8" f16[^\critnote g] a b c d es8 \clef bass c,16[ d] es f g a
+    b8 g es f b,4 r8 d'
+    es es, r c' d d, r b' %115
+    c c, r a' b g es f
+    b, c16 d es f g a b8 b, f4
+    b r r2\fermata \bar "|." %118 finis
+  }
+}
+
+H-I-IIMagnificatBassFigures = \figuremode {
+  r2 <4 2>
+  <6 5>2 r8 <[6]> <7> <6[!]>
+  r1
+  r4. \bo <[6]>2 \bc q8
+  r4. <6>8 <9>4 <[5]> %5
+  <9> <[5]> <9> \bo <[5]>
+  r <7> \bc <[6]>2
+  r4 <6 5>2 <6>4
+  r2 q
+  r \bo <[6]>8 \bc q <7> <[7 _!]> %10
+  r2. <4>8 <3[!]>
+  r4. <[_!]> <6>4
+  r q8 <5> <_!>4. <6>8
+  r2 <[6]>
+  r1 %15
+  r2 <[6]>4 <4>8 <3[!]>
+  r2.. <_!>8
+  r2 <4 2>
+  <_+>4 <6>8 <6\\> r2
+  <7 _!>2 <_+> %20
+  r1
+  <7>2 q
+  q q
+  <_+> <7 [_!]>
+  <6 4>4. <[5] _+>8 r2 %25
+  <7 _!>4. <_+>8 r2
+  <7>1
+  <4! _->2 <6>
+  <6\\ [5-]> <_+>
+  <4\+ 2> <6> %30
+  <4! _-> <6>
+  <4 2>4 <[6]> <6 5>2
+  <6>4 <4>8 <3> r2
+  r1
+  r2 <4>4 <3> %35
+  r <4 2> <6>2
+  r <4 2!>
+  r8 <\t \t>4. <6>2
+  r <[_-]>4 <6! [5-]>8 <[6- 4]>
+  <6 5>4 \bo <[6] 4>8 \bc <[5] _!> r2 %40
+  r <7 [_!]>4 \bo <[6] 4>8 \bc <[5] _!>
+  r1
+  r2 r16 <_!>4..
+  r2 <6>
+  r <_-> %45
+  r <6 5->
+  r1
+  r2. <6>8 \bo <[5 _]>
+  r4 <6 5->2 \bc <[6 5-]>4
+  r <4>8 <3>2 <6>8 %50
+  r4. \bo <[6 5]>2 \bc <[6 5-]>8
+  r4 <6>2.
+  \bo <[_-]>4 <6>2.
+  r2 <6>
+  \bc <[4-] 2>4 <6>2. %55
+  <_!>4. <6>8 <_->2
+  <[5!] _+>4. <6> q8 <5 [_!]>
+  \bo <[4]>8 <\tllur> \bc <[_+]>2.
+  <6 5>1
+  q %60
+  q2 <_+>
+  <6>8 <6\\>4. <6 5>4 <_+>
+  r2 <7>
+  \bo <[6 5]> <7>
+  <6 5> \bc <[7 _]>4 <6\\> %65
+  <7> <6>8 <5>4. \bo <[6] 4>8 \bc <[5] _+>
+  r1
+  <6 5>
+  \bo <[7]>2 <4>8 <\tllur> \bc <[3]>4
+  r2 <6 5> %70
+  r q
+  r <6\\ 5>
+  <6 5 [_!]> <9[!]>4 <6>
+  \bo <[6!]>4 <5! 4>8 \bc <[\t] _+> r2
+  r4 <6\\> \bo <[6]> <6\\> %75
+  r4 <6!>8 \bc <[5!] _+> r2
+  \bo <[6 4]>4 \bc <[5! _+]> <6>4. <[6 _!]>8
+  <7>4. <6>8 <[5! _+]>2
+  r <6 5>
+  <[_!]> <6 5!> %80
+  r <6! 5>
+  <[5!] _+> <6>
+  r4 <7 _!> \bo <[5!] 4> \bc <[\t] _+>
+  r1
+  \bo <[7] _!> %85
+  \bc <[7]>
+  <[7 5!] _+>2 r8 <6>4.
+  <7 _!>4 <5! 4>8 \bc <[\t] _+> r2
+  r1
+  <7-> %90
+  r2 <4! _->
+  r <_->
+  <4[!] 2\+> <7 [_+]>4 <6 4>
+  <5 \t> <\t _+>2.
+  r2 <5> %95
+  \bo <9 4]>4 \bc <[8 3]>2.
+  r1
+  <5 3>
+  r4 <7-> <6! 4>8 <5 3>4.
+  r1 %100
+  r2 <6>4. <[3]>8
+  <3>4 q <2>8 \bo <[6]>16 \bc <[8]> <3> q q q
+  q1
+  r2 \bo <[4]>8 \bc <[3]>4.
+  r1 %105
+  \bo <[4]>8 \bc <[3]> <3>16 q q q r8 q16 q q q q q
+  r2 <6>
+  \bo <[7 _]>2 <6>
+  r1
+  <6 5>4 \bc <[_! _]>2 <3>16 q q q %110
+  <3[-]>8 <3>16 q \bo <[3]> <3> q \bc <[3]> r4 <6>
+  r1
+  r8 <3>16 q q q q q q8 <10>16 q r4
+  r4 <6 5> r4. <6>8
+  <9> <[8]>4. <9>8 <[8]>4. %115
+  <9>8 <[8]>4 <6 5>4. <[6 5]>4
+  <10>8 q16 q q q q q q2
+  r1 %118 finis
+}

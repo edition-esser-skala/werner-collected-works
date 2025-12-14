@@ -473,3 +473,157 @@ H-I-IIPueriViolinoI = {
     a,2 r\fermata \bar "|." %201 finis
   }
 }
+
+H-I-IILaudateViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoH-I-IILaudate
+    f2\fE a
+    c c4. c8
+    c2 c4 c
+    d2 c
+    R1 %5
+    r2 r4 c
+    c8 a b c d4. d8
+    e2 f
+    e8 e f4. f8 g, e'
+    f f, f'2 e4~ %10
+    e d2 c4~
+    c b2 a4
+    g2 f4 r
+    c'8. c16 c4 d8 d c h
+    c4 r r2 %15
+    R1
+    r2 d4. d8
+    d d c h c4. d16 c
+    c4 h r d
+    e e8 d c8. c16 c4 %20
+    d4. d8 h2
+    c a
+    d h
+    c8 h c2 \hA h4
+    c g2 a8 g %25
+    a2 g
+    g4 a8 g a4. a8
+    g4 g8 g a4 a
+    a8 h a gis a4 c8 c
+    c c d c b8. b16 b8 c %30
+    a g a4 g r
+    c4. c8 d d16 c d8 e
+    f4 c r8 c f4~
+    f8 e16 d e8 c d4. c8
+    c4 r r2 %35
+    c4. c8 d d16 c d8 e
+    f c f2 es4
+    d2 c~
+    c8 c4 d8 g,2
+    r8 d'4 c16 b a8 f' g, e' %40
+    f4 r r <e c g>
+    <f c a> r r2\fermata \bar "|." %42 finis
+  }
+}
+
+H-I-IIMagnificatViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoH-I-IIMagnificatA
+    r4 b'\fE es8. es16 es4
+    es d8 c d f f e
+    \tempoH-I-IIMagnificatB f f, a c f e16 d c b a g
+    f f' c f d f c f d f c f d f c f
+    d4^\critnote c16 f es f g g, g' f es f32 es d16 es %5
+    f f, f' es d es32 d c16 d es es, es' d c d32 c b16 c
+    d es32 d c16 d es f32 es d16 es f g32 f es16 f g a32 g f16 g
+    a8 b c, a' r16 c,32( b) a16 b c8 a
+    b4 r r r8 d
+    es4 d r2 %10
+    R1
+    r16 g32( f) e16 f g8 \hA e f4 r
+    r2 r16 g32 f e16 d \hA e8 r
+    R1*3 %16
+    r16 b'32 a g16 a b8 g a16^\critnote g32 f e16 f g8 \hA e
+    f c\pE c c c c c c
+    d a d c b g' g g
+    g g, g g g fis g a %20
+    r b c d r es f g
+    r a, b c r d es f
+    r g, a b r c d es
+    r fis, g a r g a b
+    r b a a r g a b %25
+    r g g fis r b c d
+    r es d c r b c d
+    r h c d r g, f es
+    r b' a g r fis g a
+    r fis g a r b c d %30
+    r f, g as r g f es
+    f r f r f r f r
+    r2 r8 b\fE c d
+    r16 c32( b) a16 b c8 a b16 b, d b f' d b' f
+    d'4 r r16 f, a f c' a f' c %35
+    a'4 r r16 b, d b f' d b' f
+    d'4 r r16 d,, f d h' f d' \hA h
+    f'4 r r16 es, g es c' g es' c
+    g'4 r r2
+    r r16 c,, es c g' es c' g %40
+    es'8 r es r r16 es, d es es8 d
+    c4 r r16 c' h c g c es, g
+    c,4 r r16 g'\pE fis g d g h, d
+    g,4 r r16 c' h c g c e, g
+    c,4 r r16 f' e f c f as, c %45
+    f,4 r r16 b a b f b d, f
+    b,4 r r16 es'! d es b es g, b
+    es,4 r r2
+    R1
+    r2 r16 es'\fE d es b es g, b %50
+    c f e f c f a,! c d b' a b f b b, as'
+    g d es g, f8 d' es4 r
+    R1*10 %62
+    r2 r4 es~\fE
+    es d8 c d4 d~
+    d c8 b c4 c~ %65
+    c8 d16 es d8 c b g g fis
+    g4 r r2
+    R1*6 %73
+    r2 r16 a'\fE g a f a a, c!
+    b g' f g e g g, b a f' f, a g e' e, g %75
+    f a d d, e8 cis' d,16 a' f' g a8 f
+    f8. e16 e a, cis \hA e f \hA e f g a8 a~
+    a g16 f g4 a r
+    f2 f4 f8 f
+    e2 e4 e8 e %80
+    d2 d4 d8 d
+    cis4. cis8 d2~
+    d d4 cis
+    d r r b'~
+    b8 c16 b a8 g a a, a'4~ %85
+    a8 b16 a g8 f g g, g'4~
+    g8 a16 g f8 e d f, f f \noBreak
+    f f e e d4 r\fermata \bar "||"
+    \tempoH-I-IIMagnificatC r4 d'2\fE d4 \noBreak
+    d2 d,16( f) as( h) d( as) g( f) %90
+    es4 r r2
+    \slurDashed g16( b) des( e) g( \hA e) c( b) as4 r
+    R1
+    r2 g,16( b) d( g) b( d) b'( fis) \slurSolid
+    g4 r r2 %95
+    f,16(\pE a) c( f) \slurDashed a( c) f,( e) f4 r
+    b,,16( d) f( b) d( f) b,( a) b4 r \slurSolid
+    r2 f16( a) c( f) c'( es,) d( c) \noBreak
+    d4 des,8 des d c c4\fermata \bar "||"
+    \tempoH-I-IIMagnificatD R1*5 %104
+    f'4.\fE c8 d d16 c d8 b %105
+    c f,16 g a b c d es8 es,16 f g a b c
+    d8 b16 c d b c d es8 b es4~
+    es8 d d4 r8 f4 c8
+    d d16 c d8 b c f, f'4~
+    f e f8 f,16 g a b c d %110
+    es8 es,16 f g a b c d4 r
+    r8 es,16 f g a b c d8 f16 es d8.\trill c32 d
+    c4 r r8 es,16 f g a b c
+    d8 b' c, a' b, f'16 es d c b a
+    g8 es'16 d c b a g f8 d'16 c b a g f %115
+    es8 c'16 b a g f es d d' c b c8 a'
+    b4 r r <a, f c>
+    <b f b,> r r2\fermata \bar "|." %118 finis
+  }
+}
