@@ -8,6 +8,8 @@ tempoH-I-IIBeatusA = \tempoMarkup "[Tempo deest]"
   tempoH-I-IIBeatusB = \tempoMarkup "[Tempo deest]"
   tempoH-I-IIBeatusC = \tempoMarkup "Adagio"
   tempoH-I-IIBeatusD = \tempoMarkup "Andante"
+tempoH-I-IIPueriA = \tempoMarkup "[Tempo deest]"
+  tempoH-I-IIPueriB = \tempoMarkup "Alla breve"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

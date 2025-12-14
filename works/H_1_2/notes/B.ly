@@ -508,3 +508,229 @@ H-I-IIBeatusBassoLyrics = \lyricmode {
   men,
   a -- men. %165 finis
 }
+
+H-I-IIPueriBasso = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \autoBeamOff \tempoH-I-IIPueriA
+    r8 \mvTr a'\fE^\tuttiE c gis a e16 e c'8 gis
+    a e c' gis a f d e
+    a,4 r r2
+    R1*6 %9
+    r2 r8 c' e h %10
+    c g16 g e'8 h c g e' h
+    c a f g c,4 r
+    R1*3 %15
+    r2 r8 g' g g,
+    R1
+    r2 r8 c' c c,
+    R1*14 %32
+    r8 e g dis e h16 h g'8 dis
+    e h g' dis e c a h
+    e4 r r2 %35
+    R1*37 %72
+    r2 r8 a c gis
+    a e16 e c'8 gis a e c' gis
+    a f d e a,4 r %75
+    R1*8 %83
+    r2 r8 g' h fis
+    g d16 d h'8 fis g d h' fis %85
+    g e c d g,4 r
+    R1*2
+    r8 g' g g, r2
+    r8 g' g g, r2 %90
+    R1*13 %103
+    r8 \mvTr a'\fE^\tuttiE c gis a e16 e c'8 gis
+    a e c' gis a f dis8. dis16 %105
+    e4 r r2 \noBreak
+    R1\fermata \bar "||"
+    \time 2/2 \tempoH-I-IIPueriB \newSpacingSection
+      a1 \noBreak
+    h
+    gis2. gis4 %110
+    a2 a4 e
+    f1
+    e
+    r4 g! c h
+    a g fis g8[ a] %115
+    h4 fis h a
+    gis fis e \hA fis8[ \hA gis]
+    a4 e a2~
+    a gis
+    r a~ %120
+    a gis4 fis
+    e d c h
+    a2 a'4 g!
+    f! e d2~
+    d c4 h %125
+    c h a g
+    fis1
+    h
+    R1*3 %131
+    a'1
+    h
+    gis2. gis4
+    a2 a4 e %135
+    f1
+    e
+    r4 e a g
+    f e d e8[ f]
+    g4 d g f %140
+    e d c d8[ e]
+    f4 c f e
+    d f8[ e] d4 c
+    h2 c
+    g1 %145
+    c
+    R1*5 %151
+    c'1
+    d
+    h2. h4
+    c1 %155
+    R
+    g
+    a
+    fis2. fis4
+    g1 %160
+    R1*5 %165
+    h1
+    c
+    ais2. ais4
+    h1
+    R1*4 %173
+    e,1
+    fis %175
+    dis2. dis4
+    e1
+    R1*5 %182
+    a1
+    h
+    gis2. gis4 %185
+    a2 a4 g
+    f e d( e8[ f)]
+    g2 g4 f
+    e d c d8[ e]
+    f2 f4 e %190
+    d c h c8[ d]
+    e4 a, e'2
+    a, a'4\p g!
+    f e d e8[ f]
+    g2 g4 f %195
+    e d c d8[ e]
+    f2 f4 e
+    d c h c8[ d]
+    e4 a, e'2
+    a,4 r r e'\fE %200
+    a,2 r\fermata \bar "|." %201 finis
+  }
+}
+
+H-I-IIPueriBassoLyrics = \lyricmode {
+  Lau -- da -- te pu -- e -- ri Do -- mi --
+  num, lau -- da -- te no -- men Do -- mi --
+  ni.
+
+  Lau -- da -- te %10
+  pu -- e -- ri Do -- mi -- num, lau -- da -- te
+  no -- men Do -- mi -- ni.
+
+  Lau -- da -- te, %16
+  lau -- da -- te.
+
+  Lau -- da -- te pu -- e -- ri Do -- mi -- %33
+  num, lau -- da -- te no -- men Do -- mi --
+  ni. %35
+
+  Lau -- da -- te %73
+  pu -- e -- ri Do -- mi -- num, lau -- da -- te
+  no -- men Do -- mi -- ni. %75
+
+  Lau -- da -- te %84
+  pu -- e -- ri Do -- mi -- num, lau -- da -- te %85
+  no -- men Do -- mi -- ni.
+
+  Lau -- da -- te, %89
+  lau -- da -- te. %90
+
+  Lau -- da -- te pu -- e -- ri Do -- mi -- %104
+  num, lau -- da -- te no -- men Do -- mi -- %105
+  ni.
+
+  Et
+  in
+  sae -- cu -- %110
+  la sae -- cu --
+  lo --
+  rum,
+  a -- _ _
+  _ _ _ _ %115
+  _ _ _ _
+  _ _ _ _
+  _ _ _
+  men,
+  a -- %120
+  _ _
+  _ _ _ _
+  men, a -- _
+  _ _ _
+  _ _ %125
+  _ _ _ _
+  _
+  men,
+
+  et %132
+  in
+  sae -- cu --
+  la sae -- cu -- %135
+  lo --
+  rum,
+  a -- _ _
+  _ _ _ _
+  men, a -- _ _ %140
+  _ _ _ _
+  men, a -- _ _
+  _ _ _ _
+  _ _
+  _ %145
+  men,
+
+  et %152
+  in
+  sae -- cu --
+  la, %155
+
+  et
+  in
+  sae -- cu --
+  la, %160
+
+  et %166
+  in
+  sae -- cu --
+  la,
+
+  et %174
+  in %175
+  sae -- cu --
+  la,
+
+  et %183
+  in
+  sae -- cu -- %185
+  la sae -- cu --
+  lo -- rum, a --
+  men, a -- _
+  _ _ _ _
+  men, a -- _ %190
+  _ _ _ _
+  _ men, a --
+  men, a -- _
+  _ _ _ _
+  men, a -- _ %195
+  _ _ _ _
+  men, a -- _
+  _ _ _ _
+  _ men, a --
+  men, a -- %200
+  men. %201 finis
+}

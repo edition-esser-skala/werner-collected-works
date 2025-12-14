@@ -42,3 +42,21 @@ toe: |
     & 133 & org  & 3rd \eighthNote\ in \B1: \quaverRest \\
     & 153 & org  & treble ottavo clef added by editor \\
     & 159 & org  & In \A1, the bass clef appears at the start of the bar. \\
+  4 & 10f & vl   & 14th, 6th, and 14th \sixteenthNote\ in \B1: d″16 \\
+    & 12  & vl 1 & rhythm of 3rd \quarterNote\ in \B1: 16.–32–16.–32 \\
+    & 20  & A    & 4th \quarterNote\ in \B1: a′16–g′16–a′16–\sharp f′16 \\
+    & 22  & vl 1 & rhythm of 1st and 3rd \quarterNote\ in \B1: 16.–32–16.–32 \\
+    & 23  & vl 2 & rhythm of 2nd \eighthNote\ in \B1: 16.–32 \\
+    & 48  & A    & 2nd to 4th \quarterNote\ in \B1: f′2–\quaverRest–d′8 \\
+    & 49  & S    & 2nd \halfNote\ in \B1: d′2 \\
+    & 49  & A    & 1st \halfNote\ in \B1: d′4–\sharp c′4 \\
+    & 50  & vl 2 & rhythm of 1st and 3rd \quarterNote\ in \B1: 16.–32–16.–32 \\
+    & 53  & vl 2 & rhythm of 6th \eighthNote\ in \B1: 16.–32 \\
+    & 84f & vl   & 14th, 6th, and 14th \sixteenthNote\ in \B1: a″16 \\
+    & 90  & vl 2 & 1st \halfNote\ in \B1: g16.–g′32–b′16.–a′32–g′8–g′8 \\
+    & 104 & vl 1 & 2nd \sixteenthNote\ in \B1: e′16 \\
+    & 129 & org  & treble ottavo clef added by editor \\
+    & 156 & org  & treble ottavo clef added by editor \\
+    & 163 & org  & 3rd \quarterNote\ of lower voice in \B1: c′4 \\
+    & 170 & org  & treble ottavo clef added by editor \\
+    & 173 T ??

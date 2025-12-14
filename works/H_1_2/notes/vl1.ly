@@ -286,3 +286,190 @@ H-I-IIBeatusViolinoI = {
     cis16 h cis a' h,8\fE gis' a,4 r\fermata \bar "|." %165 finis
   }
 }
+
+H-I-IIPueriViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoH-I-IIPueriA
+      \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
+    r8 c'16\fE d e e, e'32 d c h c16 h h c32 d e16 e, e'32 d c h
+    c16 h h c32 d e16 e, e'32 d c h c16. e32 a16. a,32 h8 gis'
+    a,16 e' f g a e a32 g f e f8 f16 e d4~
+    d16. e32 c16. d32 h4 a r8 a\pE
+    a,4 r8 a' a,4 d8 dis %5
+    e16 h'\fE c d e h e32 d c h c4 r
+    R1*2
+    r8 g\pE g g, c4. d8
+    e f g g, c e'16\fE f g g,-\critnote g'32 f e d %10
+    e16 d d e32 f g16 g, g'32 f e d e16 d d e32 f g16 g, g'32 f e d
+    e16. g32 c16. e,32 d8 h' c,16^\critnote g' a h c g c32 h a g
+    a8 a16 g f4~ f16. g32 e16. f32 d4
+    c r r2
+    R1 %15
+    r2 r8 d\fE g g,
+    r g\pE g,4 r8 g' g,4
+    r8 g' g g, c e'\fE g e
+    fis,\pE fis g g e e fis fis
+    g4 r8 g, d'4 r8 d %20
+    g e c d g,16 d''\fE e fis g d g32 f? e d
+    e16^\critnote e fis g a e a32 g fis e fis16 a h c d a d32 c h a
+    h a g fis g16 h, a8 fis' g,4 r8 g'
+    h g r d g d r4
+    R1*2 %26
+    r2 r16 fis g a h \hA fis h32 a g \hA fis
+    g4 r r16 e fis g a e a32 g \hA fis e
+    fis4 r r2
+    R1*3 %32
+    r8 g16\fE a h h, h'32 a g fis g16 \hA fis fis g32 a h16 h, h'32 a g fis
+    g16 fis fis g32 a h16 h, h'32 a g \hA fis g \hA fis e dis e16 g, fis8 dis'
+    e16 h c d e h e32 d c h c16 a h c d a d32 c h a %35
+    h16 g a h c g c32 h a g a16 fis g a h \hA fis h32 a g \hA fis
+    g16 h e4 dis8 e4 e
+    r f! e r8 e\pE
+    f2. e4
+    e1~ %40
+    e2 d
+    r8 d g4 r8 g e4
+    r8 c f4 r8 a r a,
+    r g r c r h! r h
+    r c r e, r e r e %45
+    r f r d' r es r \hA es
+    r d r d r cis r \hA cis
+    r d r d r d r d,
+    r d4 cis8 d4 r
+    r2 r4 r8 e'\fE %50
+    d4. d8 c4 r8 g'~
+    g16 c, d e f c f32 e d c d16 d e f g d g32 f e d
+    e16 g a b c g c32 \hA b a g a g f e f16 a, g8 e'
+    f,4 r r8 f' d c
+    r2 r16 c d16. e32 f16. g32 a16. c,32 %55
+    b16. b32 c16. d32 e16. f32 g16. b,32 a16. a32 \hA b16. c32 d16. e32 f16. g32
+    a,8 g r4 r2
+    R1
+    r16 g a16. h32 c16. d32 e16. g,32 f16. f32 g16. a32 h16. c32 d16. f,32
+    e16. g32 a16. h32 c16. h32 c16. d32 e16. e32 d16. c32 d8 h %60
+    c4 r r2
+    R1*2
+    r4 r8 e4 d8 r d~
+    d c r c,4 h8 r h'\pE %65
+    c c d d g,4 r
+    r2 r8 a a fis
+    g g a a d,4 r
+    R1*2 %70
+    r8 e16. fis32 gis16. a32 h8 r2
+    R1
+    r2 c16\fE h c d e e, e'32 d c h
+    c16 h h c32 d e16 e, e'32 d c h c16 h h c32 d e16 e, e'32 d c h
+    c e fis gis a16 a, h,8 gis' a16. e'32 fis16. gis32 a16. h32 c16. e,32 %75
+    d16. d32 e16. fis32 gis16. a32 h16. d,32 c16. c32 h16. a32 h8 gis
+    a4 r r2
+    R1
+    r2 r8 h16.\pE cis32 dis16. e32 fis8
+    r e16. fis32 g16. a32 h8 r a,16. h32 c16. d32 e8 %80
+    r d16. e32 fis16. g32 a8 r2
+    r2 r8 g, g g,
+    e' e fis fis g g e e
+    c cis d d \kneeBeam g,16 g''\fE h c d d,-\critnote d'32 c h a
+    h16 a a h32 c d16 d, d'32 c h a h16 a a h32 c d16 d, d'32 c h a %85
+    h a g fis g16 h, a8 fis' g16. d32 e16. fis32 g16. a32 h16. d,32
+    c16. c32 d16. e32 fis16. g32 a16. c,32 h16. h'32 a16. g32 a8 fis
+    g g,\pE g g, r a' fis d
+    g16. g'32\fE h16. a32 g8 g, r g,\pE a d
+    \kneeBeam g,16. g''32\fE h16. a32 g8 g, g,4\pE r8 e' %90
+    a,4 r8 d g, g h g
+    c h a h16 c d8 d h e
+    c cis d d g,4 r8 h''~\fE
+    h a r \once \tieDashed a~ a16. d,32 e16. fis32 g16. a32 h16. d,32
+    c16. c32 d16. e32 fis16. g32 a16. c,32 h16. a32 h16. c32 h8 a %95
+    g g,\pE h a gis gis gis gis
+    a a a a d d d dis
+    e16. gis32\fE a16. h32 c16. d32 e16. fis32 gis4 r
+    R1*2 %100
+    r2 r4 e,\pE
+    r e r e
+    a,4. h8 c d e e
+    a,16 a'\fE^\critnote c d e e, e'32 d c h
+    c16 h h c32 d e16 e, e'32 d c h %105
+    c16 h h c32 d e16 e, e'32 d c h c16( h) c c c h c c
+    h16. gis32 a16. h32 c16. d32 e16. fis32 gis4 r \noBreak
+    R1\fermata \bar "||"
+    \time 2/2 \tempoH-I-IIPueriB \newSpacingSection
+      \revert Score.SpacingSpanner.common-shortest-duration
+      R1*18 %125
+    e1
+    fis
+    dis2. dis4
+    e2 e4 h
+    c1 %130
+    h
+    r4 c f e
+    d c h c8 d
+    e4 h e d
+    c h a h8 c %135
+    d1
+    r4 h e d
+    c h a h8 c
+    d4 a d c
+    h a g a8 h %140
+    c4 c2 h4
+    a2 a~
+    a h4 c
+    d2 c~
+    c h %145
+    r c
+    d1
+    h2. h4
+    c2 c4 h
+    a h8 c d4 c %150
+    h h c d
+    e d c2~
+    c h4 a
+    h c d2~
+    d4 c e d %155
+    c1
+    r4 h e d
+    c h a h8 c
+    d4 a d c
+    h a g2~ %160
+    g fis4 e
+    fis a d c
+    h a8 h c4 h
+    a g8 a h4 a
+    g h e2~ %165
+    e dis
+    e4 e2 dis8 e
+    fis4 cis fis2~
+    fis4 e dis cis
+    h cis8 dis e2~ %170
+    e4 d c h
+    a h8 c d4 c
+    h h2 a4~
+    a g8 fis g2
+    R1 %175
+    r2 fis'~
+    fis4 h, e d
+    cis dis8 e fis4 e
+    dis2 e~
+    e4 d8 c! d4 h %180
+    c2. d8 c
+    h1
+    a2 r
+    R1*2 %185
+    e'1
+    f
+    d2. d4
+    e2 e4 d
+    c h a h8 c %190
+    d2 d4 c
+    h c h2
+    a r
+    d2.\p c4
+    h a g a8 h %195
+    c4 c, c' h
+    a g f g8 a
+    h4 h, h' a
+    gis a2 \hA gis4
+    a a\f d, e %200
+    a,2 r\fermata \bar "|." %201 finis
+  }
+}

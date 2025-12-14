@@ -445,3 +445,383 @@ H-I-IIBeatusAltoLyrics = \lyricmode {
   men,
   a -- men. %165 finis
 }
+
+H-I-IIPueriAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoH-I-IIPueriA
+    r8 \mvTr a'\fE^\tutti a h a gis16 gis a8 h
+    a gis a h a a f e
+    e4 r r2
+    r r8 \mvTr a16([\pE^\solo h)] c4~
+    c8 a16([ h)] c4. h16 a h8 a %5
+    a([ gis)] gis4 r2
+    a8 f e d h'4 h
+    g8 e d c a'8.([ g16)] f8 e
+    d16[ e] f4 e16[ d] e[ d e f] \once \tieDashed g4~
+    g8[ f16 e] d8. d16 e8 \mvTr e\fE^\tutti g f %10
+    e d16 d g8 f e d g8. f16
+    e8 e d d e4 r
+    R1
+    r2 r8 \mvTr c\pE^\solo d e
+    f4. g16([ f)] e8 e e e %15
+    e2 d4 r
+    r r8 g16([ a)] h4~ h16[ a h c]
+    d8 h16 c d8 h c16 h c8 r c
+    c4. h16 h h4 a
+    g16[ fis g a] h8[ a16 g] fis[ e \hA fis g] a8[-\critnote g16 \hA fis] %20
+    g8.[ a16] g8 fis g4 r
+    R1
+    r2 r8 g h g
+    r g h g r2
+    r8 d e fis e e a4~ %25
+    a8 g16([ fis)] g8 e fis[ g16 a] h4~
+    h a h r
+    r8 g fis g a4 a
+    r8 fis e \hA fis g4. g8
+    fis[ g16 a] h4. a16[ g] a4~ %30
+    a8[ g16 fis] g8 \hA fis16 e dis[ fis e \hA dis] e[ \hA fis e \hA fis]
+    dis[ fis e \hA dis] g4. \hA fis16 e e8([ dis)]
+    e \mvTr g\fE^\tutti h a g fis16 fis h8. a16
+    g8 fis h a g g fis8. fis16
+    e4 r r2 %35
+    R1
+    r2 e4 r
+    f! r r2
+    R1
+    r8 a a a b8. b16 b4 %40
+    b8 b16 b b16([ a)] \hA b8 a4 a
+    d,8 d g b e,8. e16 e4
+    c8 c f a16 a a4. f8
+    f8. e16 e4 r2
+    e4. e8 e8. e16 e4 %45
+    f8. f16 f8 f es4. es16 es
+    d8. d16 g8 b a4 a
+    r f~^\critnote f4. d8
+    d4.(^\critnote cis8) d4 r
+    R1*4 %53
+    a'8. g16 f8 a b a r a
+    b a g8. g16 f4 r %55
+    R1
+    r2 c8 c f e16 f
+    d8([ e16 f] g4.) f16 e d8. d16
+    c4 r r2
+    R1*2 %61
+    r2 r8 d g4~
+    g8 a16 fis g4. a8 g f
+    e16 d c8 r4 r2
+    R1 %65
+    r2 g'8 g c4~
+    c8 b16 a \hA b8 c16 \hA b a([ g)] a8 r4
+    r2 d,8 d g4~
+    g8 f16 e f8 g16 f e8 e e e
+    e f16 e d4. e16 d c4 %70
+    h r a'8 g! f e16 f
+    g[ a f g] e8[ d16 e] f[ g e f] d4~
+    d8 c16 c h4 a8 \mvTr a'\fE^\tutti a h
+    a gis16 gis a8 h a gis a h
+    a a a gis a4 r %75
+    R1
+    r2 r8 \mvTr h\pE^\solo g! e
+    a4. g16([ fis)] g8 \hA fis g8. g16
+    fis8 h g4 \hA fis fis8 fis
+    g4. g8 a([ c16 h]) a8 g %80
+    fis4~ fis16[ g a \hA fis] g[ \hA fis g a] g[ a fis g]
+    a[ g a h] a[ h g a] h8 g16 a h4~
+    h16[ c a g] a4~ a16[ h g fis] g8 g
+    g4( fis) g8 \mvTr g\fE^\tutti g a
+    g fis16 fis g8 a g \hA fis g a %85
+    g g g fis g4 r
+    R1
+    \mvTr h4.\pE^\solo a16 g a2
+    g4 h4. a16 g a8. a16
+    g4 h2 a8 gis %90
+    a a a g16 fis g8 g r d
+    e4. a16 g fis8 g16 \hA fis g4~
+    g8 a16 g g8([ fis)] g4 r
+    R1*2 %95
+    h4. c8 d d c h
+    a8. h16 c4. h16([ a)] h8 a
+    a gis r4 r2
+    r8 e a g f16[ e f g] f[ g a8]~
+    a g16 a g8 f e16[ d e f] e[ f g8]~ %100
+    g f16 e d8 c h16[ a h c] h[ c d8]~
+    d[ c16 h] c8 a' a gis16[( fis]) \hA gis[ a h \hA gis]
+    a[ gis a h] c4. h16[ a] a8[ gis]
+    a \mvTr a\fE^\tutti a h a gis16 gis a8 h
+    a gis a h a a fis8. fis16 %105
+    e4 r r2 \noBreak
+    R1\fermata \bar "||"
+    \time 2/2 \tempoH-I-IIPueriB \newSpacingSection
+      R1*12 %119
+    a1 %120
+    h
+    gis2. gis4
+    a2 a4 e
+    f1
+    e %125
+    r4 g! c h
+    a g fis g8[ a]
+    h4 fis h a
+    gis fis e \hA fis8[ \hA gis]
+    a4 e a2~ %130
+    a gis
+    r a~
+    a gis4 fis
+    e d c h
+    a2 a'4 g! %135
+    f! a h a
+    gis1
+    r2 r4 e
+    a g! f e
+    d2. d4 %140
+    g f e d
+    c2. d8[ e]
+    f4 a8[ g] f2~
+    f e
+    d1 %145
+    e4 e a g
+    f e d e8[ f]
+    g4 d g f
+    e d c d8[ e]
+    f4 e d e8[ f] %150
+    g4 g2( f4)
+    e2 a4 g
+    f e d e8[ f]
+    g1
+    g2 g~ %155
+    g fis
+    g2. f4
+    e1
+    d
+    r2 g %160
+    a1
+    fis2 fis4 fis
+    g fis e dis8([ e)]
+    fis4 e dis cis8[ \hA dis]
+    e4. fis8 g4 \hA fis8[ e] %165
+    fis1
+    e2 r
+    R1
+    r2 h'~
+    h4 a g fis %170
+    e fis8[ g] a2~
+    a4 g fis g8[ a]
+    d,4 d \once \tieDashed e2~
+    e4 g c h
+    a g fis g8[ a] %175
+    h4 fis h a
+    g fis e \hA fis8[ g]
+    a2 a~
+    a4 h8[ a] g4 e
+    fis2. gis4 %180
+    a e a2~
+    a gis
+    r a~
+    a gis4 fis
+    gis a h2 %185
+    a r
+    r a
+    h1
+    g2. g4
+    a2 a4 g %190
+    f2 f
+    r e
+    e r
+    a4(\pE g f g8[ a])
+    d,2 g~ %195
+    g4 f e f8[ g]
+    c,2 f~
+    f4 e d e8[ f]
+    e4 e e2
+    e r4 e\fE %200
+    e2 r\fermata \bar "|." %201 finis
+  }
+}
+
+H-I-IIPueriAltoLyrics = \lyricmode {
+  Lau -- da -- te pu -- e -- ri Do -- mi --
+  num, lau -- da -- te no -- men Do -- mi --
+  ni.
+  Sit no --
+  men Do -- mi -- ni be -- ne -- %5
+  di -- ctum,
+  ex hoc nunc et us -- que,
+  ex hoc nunc et us -- que in
+  sae -- _ _ _ _
+  _ cu -- lum. Lau -- da -- te %10
+  pu -- e -- ri Do -- mi -- num, lau -- da -- te
+  no -- men Do -- mi -- ni.
+
+  A so -- lis
+  or -- tu us -- que ad oc -- %15
+  ca -- sum,
+  lau -- da --
+  _ bi -- le no -- men Do -- mi -- ni, lau --
+  da -- bi -- le no -- men
+  Do -- _ _ _ %20
+  _ _ mi -- ni.
+
+  Ex -- cel -- sus,
+  ex -- cel -- sus,
+  ex -- cel -- sus su -- per o -- %25
+  mnes gen -- tes Do -- _
+  mi -- nus,
+  et su -- per coe -- los,
+  et su -- per coe -- los
+  glo -- _ _ _ %30
+  _ ri -- a, glo -- _
+  _ _ ri -- a e --
+  ius. Lau -- da -- te pu -- e -- ri Do -- mi --
+  num, lau -- da -- te no -- men Do -- mi --
+  ni. %35
+
+  Quis,
+  quis,
+
+  quis si -- cut Do -- mi -- nus, %40
+  Do -- mi -- nus De -- us no -- ster,
+  qui in al -- tis ha -- bi -- tat,
+  qui in al -- tis, in al -- tis
+  ha -- bi -- tat,
+  et hu -- mi -- li -- a %45
+  re -- spi -- cit, hu -- mi -- li -- a
+  re -- spi -- cit in coe -- lo
+  et __ in
+  ter -- ra?
+
+  Su -- sci -- tans a ter -- ra, a %54
+  ter -- ra in -- o -- pem, %55
+
+  et de ster -- co -- re
+  e -- ri -- gens pau -- pe --
+  rem.
+
+  Ut col -- %62
+  lo -- cet e -- um cum prin --
+  ci -- pi -- bus,
+  %65
+  cum prin -- ci --
+  pi -- bus po -- pu -- li su -- i,
+  cum prin -- ci --
+  pi -- bus po -- pu -- li su -- i, cum
+  prin -- ci -- pi -- bus po -- pu -- li su -- %70
+  i, cum prin -- ci -- pi -- bus
+  po -- _ _ _
+  pu -- li su -- i. Lau -- da -- te
+  pu -- e -- ri Do -- mi -- num, lau -- da -- te
+  no -- men Do -- mi -- ni. %75
+
+  Qui ha -- bi --
+  ta -- re fa -- cit ste -- ri --
+  lem in do -- mo, ma -- trem
+  fi -- li -- o -- rum lae -- %80
+  tan -- _ _
+  _ _ _ tem, lae -- tan --
+  _ tem, lae --
+  tan -- tem. Lau -- da -- te
+  pu -- e -- ri Do -- mi -- num, lau -- da -- te %85
+  no -- men Do -- mi -- ni.
+
+  Glo -- ri -- a Pa --
+  tri, glo -- ri -- a Fi -- li --
+  o, glo -- ri -- a %90
+  et Spi -- ri -- tu -- i San -- cto, Spi --
+  ri -- tu -- i San -- cto, Spi -- ri --
+  tu -- i San -- cto,
+
+  si -- cut e -- rat in prin -- ci -- %96
+  pi -- o et nunc et
+  sem -- per,
+  et nunc et sem -- _
+  per, et nunc et sem -- _ %100
+  per, et nunc et sem -- _
+  per, et nunc et sem --
+  _ _ _ _
+  per. Lau -- da -- te pu -- e -- ri Do -- mi --
+  num, lau -- da -- te no -- men Do -- mi -- %105
+  ni.
+
+  Et %120
+  in
+  sae -- cu --
+  la sae -- cu --
+  lo --
+  rum, %125
+  a -- _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ %130
+  men,
+  a --
+  _ _
+  _ _ _ _
+  men, a -- _ %135
+  _ _ _ _
+  men,
+  a --
+  _ _ _ _
+  men, a -- %140
+  _ _ _ _
+  _ _
+  _ _ _
+  men,
+  a -- %145
+  men, a -- _ _
+  _ _ _ _
+  men, a -- _ _
+  _ _ _ _
+  _ _ _ _ %150
+  men, a --
+  men, a -- _
+  _ _ _ _
+  _
+  men, a -- %155
+  _
+  _ _
+  _
+  men,
+  et %160
+  in
+  sae -- cu -- la
+  sae -- cu -- lo -- rum,
+  a -- _ _ _
+  _ _ _ _ %165
+  _
+  men,
+
+  a --
+  _ _ _ %170
+  _ _ _
+  _ _ _
+  men, a -- _
+  _ _ _
+  _ _ _ _ %175
+  men, a -- _ _
+  _ _ _ _
+  men, a --
+  _ _ _
+  _ _ %180
+  _ _ _
+  men,
+  a --
+  _ _
+  _ _ _ %185
+  men,
+  et
+  in
+  sae -- cu --
+  la sae -- cu -- %190
+  lo -- rum,
+  a --
+  men,
+  a --
+  men, a -- %195
+  _ _ _
+  men, a --
+  _ _ _
+  _ men, a --
+  men, a -- %200
+  men. %201 finis
+}

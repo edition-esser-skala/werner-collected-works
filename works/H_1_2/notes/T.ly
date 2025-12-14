@@ -462,3 +462,236 @@ H-I-IIBeatusTenoreLyrics = \lyricmode {
   men,
   a -- men. %165 finis
 }
+
+H-I-IIPueriTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \minor \time 4/4 \autoBeamOff \tempoH-I-IIPueriA
+    r8 \mvTr e\fE^\tutti e e e e16 e e8 e
+    e e e e e a, a gis
+    a4 r r2
+    R1*6 %9
+    r2 r8 c c d %10
+    c h16 h c8 d c h c d
+    c c c h c4 r
+    R1*3 %15
+    r2 r8 h d h
+    R1
+    r2 r8 e e e
+    R1*14 %32
+    r8 e e fis e dis16 dis e8 fis
+    e dis e fis e e e dis
+    e4 r r2 %35
+    R1*37 %72
+    r2 r8 c e d
+    c h16 h e8 d c h e d
+    c c h8. h16 a4 r %75
+    R1*8 %83
+    r2 r8 d d d
+    h a16 a d8. c16 h8 a d c %85
+    h h a8. a16 g4 r
+    R1*2
+    r8 h d h r2
+    r8 d d d r2 %90
+    R1*13 %103
+    r8 \mvTr e\fE^\tuttiE e e e e16 e e8. e16
+    e8 e e e c a a8. a16 %105
+    gis4 r r2 \noBreak
+    R1\fermata \bar "||"
+    \time 2/2 \tempoH-I-IIPueriB \newSpacingSection
+      R1*6 %113
+    e'1
+    fis %115
+    dis2. dis4
+    e2 e4 h
+    c1
+    h
+    r4 c f e %120
+    d c h c8[ d]
+    e4 h e d
+    c h a h8[ c]
+    d4 c h a
+    gis2. a8[ h] %125
+    e,2 e'~
+    e dis4 cis
+    h a g fis
+    e2 e'4 d
+    c h a c %130
+    d c8[ d] e4 d
+    c1
+    r2 d~
+    d e~
+    e4 d c h %135
+    a h8[ c] d2~
+    d4 e8[ d] c4 h
+    c2 c4 h
+    a1
+    h2 h4 a %140
+    g1
+    a2. h8[ c]
+    d1
+    g,~
+    g %145
+    g2 r
+    R1*4 %150
+    r4 g a h
+    c d e d8[ e]
+    f1~
+    f2 e4 d
+    e4. d8 c4 h %155
+    a h8[ c] d4 c
+    h1
+    c~
+    c2 h4 a
+    h h e d %160
+    c h a h8[ c]
+    d4 c h a
+    g2 r
+    R1*3 %166
+    r2 e'~
+    e dis4 cis
+    dis cis h a
+    g fis e \hA fis8[ g] %170
+    a2. g4
+    fis e d e8[ \hA fis]
+    g4 h c2
+    h e~
+    e dis4 cis? %175
+    h a g fis
+    g1
+    R1*4 %181
+    e'1
+    f
+    d2. d4
+    e2 e4 d %185
+    c h a( h8[ c)]
+    d2 d4 c
+    h a g a8[ h]
+    c2 c4 h
+    a g f g8[ a] %190
+    h2. a4
+    gis a2( \hA gis4)
+    a2 c4\pE h
+    a h8[ c] d2~
+    d4 c h a %195
+    g a8[ h] c2~
+    c4 h a g
+    f g8[ a] h2~
+    h4 c h2
+    a r4 h\fE %200
+    cis2 r\fermata \bar "|." %201 finis
+  }
+}
+
+H-I-IIPueriTenoreLyrics = \lyricmode {
+  Lau -- da -- te pu -- e -- ri Do -- mi --
+  num, lau -- da -- te no -- men Do -- mi --
+  ni.
+
+  Lau -- da -- te %10
+  pu -- e -- ri Do -- mi -- num, lau -- da -- te
+  no -- men Do -- mi -- ni.
+
+  Lau -- da -- te, %16
+  lau -- da -- te.
+
+  Lau -- da -- te pu -- e -- ri Do -- mi -- %33
+  num, lau -- da -- te no -- men Do -- mi --
+  ni. %35
+
+  Lau -- da -- te %73
+  pu -- e -- ri Do -- mi -- num, lau -- da -- te
+  no -- men Do -- mi -- ni. %75
+
+  Lau -- da -- te %84
+  pu -- e -- ri Do -- mi -- num, lau -- da -- te %85
+  no -- men Do -- mi -- ni.
+
+  Lau -- da -- te, %89
+  lau -- da -- te. %90
+
+  Lau -- da -- te pu -- e -- ri Do -- mi -- %104
+  num, lau -- da -- te no -- men Do -- mi -- %105
+  ni.
+
+  Et %114
+  in %115
+  sae -- cu --
+  la sae -- cu --
+  lo --
+  rum,
+  a -- _ _ %120
+  _ _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ %125
+  men, a --
+  _ _
+  _ _ _ _
+  men, a -- _
+  _ _ _ _ %130
+  _ _ _ _
+  men,
+  a --
+  _
+  _ _ _ %135
+  _ _ _
+  _ _ _
+  men, a -- _
+  _
+  men, a -- _ %140
+  _
+  _ _
+  _
+  _
+  %145
+  men,
+
+  a -- _ _ %151
+  _ _ _ _
+  _
+  _ _
+  _ _ _ _ %155
+  _ _ _ _
+  _
+  _
+  _ _
+  men, a -- _ _ %160
+  _ _ _ _
+  _ _ _ _
+  men,
+
+  a -- %167
+  _ _
+  _ _ _ _
+  _ _ _ _ %170
+  _ _
+  _ _ _ _
+  _ men, a --
+  men, a --
+  _ _ %175
+  _ _ _ _
+  men,
+
+  et %182
+  in
+  sae -- cu --
+  la sae -- cu -- %185
+  lo -- rum, a --
+  men, a -- _
+  _ _ _ _
+  men, a -- _
+  _ _ _ _ %190
+  _ _
+  men, a --
+  men, a -- _
+  _ _ _
+  _ _ _ %195
+  _ _ _
+  _ _ _
+  _ _ _
+  men, a --
+  men, a -- %200
+  men. %201 finis
+}

@@ -130,8 +130,64 @@
   %     \midi { \tempo 4 = 80 } % 60 – 80
   %   }
   % }
+  % \bookpart {
+  %   \section "3" "Beatus vir"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \H-I-IIBeatusViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \H-I-IIBeatusViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \H-I-IIBeatusSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \H-I-IIBeatusSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \H-I-IIBeatusAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \H-I-IIBeatusAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \H-I-IIBeatusTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \H-I-IIBeatusTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \H-I-IIBeatusBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \H-I-IIBeatusBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \H-I-IIBeatusOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \H-I-IIBeatusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 } % 80 – 60 – 70 (– 100)
+  %   }
+  % }
   \bookpart {
-    \section "3" "Beatus vir"
+    \section "4" "Laudate pueri"
     \addTocEntry
     \score { %\articulate
       <<
@@ -140,50 +196,50 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \H-I-IIBeatusViolinoI
+              \H-I-IIPueriViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \H-I-IIBeatusViolinoII
+              \H-I-IIPueriViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \H-I-IIBeatusSoprano }
+            \new Voice = "Soprano" { \dynamicUp \H-I-IIPueriSoprano }
           }
-          \new Lyrics \lyricsto Soprano \H-I-IIBeatusSopranoLyrics
+          \new Lyrics \lyricsto Soprano \H-I-IIPueriSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \H-I-IIBeatusAlto }
+            \new Voice = "Alto" { \dynamicUp \H-I-IIPueriAlto }
           }
-          \new Lyrics \lyricsto Alto \H-I-IIBeatusAltoLyrics
+          \new Lyrics \lyricsto Alto \H-I-IIPueriAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \H-I-IIBeatusTenore }
+            \new Voice = "Tenore" { \dynamicUp \H-I-IIPueriTenore }
           }
-          \new Lyrics \lyricsto Tenore \H-I-IIBeatusTenoreLyrics
+          \new Lyrics \lyricsto Tenore \H-I-IIPueriTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \H-I-IIBeatusBasso }
+            \new Voice = "Basso" { \dynamicUp \H-I-IIPueriBasso }
           }
-          \new Lyrics \lyricsto Basso \H-I-IIBeatusBassoLyrics
+          \new Lyrics \lyricsto Basso \H-I-IIPueriBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \H-I-IIBeatusOrgano
+            \H-I-IIPueriOrgano
           }
         >>
-        \new FiguredBass { \H-I-IIBeatusBassFigures }
+        \new FiguredBass { \H-I-IIPueriBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 100 } % 80 – 60 – 70 (– 100)
+      \midi { \tempo 4 = 75 } % 240
     }
   }
 }
