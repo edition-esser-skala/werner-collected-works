@@ -1,0 +1,16 @@
+title: Salve Regina
+id: WerW I.4.48
+genre: antiphon
+scoring: S, T, B (solo), S, A, T, B (coro), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: K 25
+    rism: 600038581
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/487.html
+    license: public domain
+    principal: true
+toe: |
+  1  & org & 4th \eighthNote\ in \B1: f8 \\
+  37 & org & 3rd \sixteenthNote\ in \B1: e16 \\
