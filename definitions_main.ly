@@ -56,6 +56,16 @@ skips = #(define-music-function
   (number?)
   #{ \repeat unfold #n { \skip 8 } #})
 
+tempoTitle = #(define-music-function
+  (parser location title)
+  (string?)
+  #{ \tempo \markup \medium { \larger \larger \italic #title } #})
+
+tempoTitleMarkup = #(define-music-function
+  (parser location title tempo)
+  (string? string?)
+  #{ \tempo \markup \medium { \larger \larger { \italic #title "·" #tempo } } #})
+
 \layout {
   \context {
     \Lyrics

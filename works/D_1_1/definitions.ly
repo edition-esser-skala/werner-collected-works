@@ -10,7 +10,7 @@ tempoD-I-I = \tempoMarkup "Allegro"
 tempoD-I-I-b = \tempoMarkup "Adagio"
 tempoD-I-I-c = \tempoMarkup "Allegro"
 tempoD-I-I-d = \tempoMarkup "Recitativo"
-tempoD-I-I-e = \tempoMarkup "Aria · Vivace"
+tempoD-I-I-e = \tempoTitleMarkup "Aria" "Vivace"
 tempoD-I-I-f = \tempoMarkup "Allegro"
 
 \include "notes/vl1.ly"

@@ -14,15 +14,15 @@ markQuomodoDaCapo = {
 }
 
 tempoD-III-IIIaa = \tempoMarkup "Allabreve moderato"
-tempoD-III-IIIab = \tempoMarkup "Et terribilibus · Vivace"
+tempoD-III-IIIab = \tempoTitleMarkup "Et terribilibus" "Vivace"
 tempoD-III-IIIac = \tempoMarkup "Larghetto / Largo"
 
 tempoD-III-IIIba = \tempoMarkup "Alla capella"
-tempoD-III-IIIbb = \tempoMarkup "Et omnis terra · [Tempo deest]"
+tempoD-III-IIIbb = \tempoTitleMarkup "Et omnis terra" "[Tempo deest]"
 tempoD-III-IIIbc = \tempoMarkup "Largo"
 
 tempoD-III-IIIca = \tempoMarkup "Allabreve"
-tempoD-III-IIIcb = \tempoMarkup "Quomodo conversa · Vivace"
+tempoD-III-IIIcb = \tempoTitleMarkup "Quomodo conversa" "Vivace"
 tempoD-III-IIIcc = \tempoMarkup "Largo"
 
 \include "notes/S.ly"

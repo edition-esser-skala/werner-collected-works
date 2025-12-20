@@ -33,7 +33,7 @@ tempoB-XLEtResurrexit = \tempoMarkup "Vivace"
 tempoB-XLSanctus = \tempoMarkup "Adagiose"
   tempoB-XLSanctusB = \tempoMarkup "Allegro"
   tempoB-XLPleni = \tempoMarkup "Andante"
-  tempoB-XLOsanna = \tempoMarkup "Osanna · Allabreve moderato"
+  tempoB-XLOsanna = \tempoTitleMarkup "Osanna" "Allabreve moderato"
 
 tempoB-XLBenedictus = \tempoMarkup "Larghetto"
 

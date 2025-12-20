@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 tempoE-Va = \tempoMarkup "Recitativo"
-tempoE-Vb = \tempoMarkup "Aria · Larghetto"
+tempoE-Vb = \tempoTitleMarkup "Aria" "Larghetto"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

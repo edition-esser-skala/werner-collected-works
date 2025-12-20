@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 tempoD-II-Ia = \tempoMarkup "Recitativo"
-tempoD-II-Ib = \tempoMarkup "Arietta · Vivace"
+tempoD-II-Ib = \tempoTitleMarkup "Arietta" "Vivace"
 tempoD-II-Ic = \tempoMarkup "Adagio"
 tempoD-II-Id = \tempoMarkup "Allegro"
 

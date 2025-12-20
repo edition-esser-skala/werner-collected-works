@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 tempoD-I-IXa = \tempoMarkup "Vivace"
-tempoD-I-IXb = \tempoMarkup "Aria · Largo"
+tempoD-I-IXb = \tempoTitleMarkup "Aria" "Largo"
 tempoD-I-IXc = \tempoMarkup "Allegro"
 
 \include "notes/clno1.ly"

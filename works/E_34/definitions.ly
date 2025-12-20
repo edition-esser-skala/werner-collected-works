@@ -8,7 +8,7 @@ markChorusUtSupra = {
   \mark \markup \remark "Chorus ut supra"
 }
 
-tempoE-XXXIVa = \tempoMarkup "Chorus · [Vivace]"
+tempoE-XXXIVa = \tempoTitleMarkup "Chorus" "[Vivace]"
 tempoE-XXXIVb = \tempoMarkup "[Andante]"
 tempoE-XXXIVc = \tempoMarkup "[Andante]"
 tempoE-XXXIVd = \tempoMarkup "Larghetto / Largo / Ariose"

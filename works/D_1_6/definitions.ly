@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 tempoD-I-VIa = \tempoMarkup "Allegro"
-tempoD-I-VIb = \tempoMarkup "Aria · Larghetto"
+tempoD-I-VIb = \tempoTitleMarkup "Aria" "Larghetto"
 tempoD-I-VIc = \tempoMarkup "Allegretto"
 tempoD-I-VId = \tempoMarkup "Largo"
 tempoD-I-VIe = \tempoMarkup "Vivace"

@@ -2,8 +2,8 @@
 
 tempoD-II-VIa = \tempoMarkup "Allegro"
 tempoD-II-VIb = \tempoMarkup "[Tempo deest]"
-tempoD-II-VIc = \tempoMarkup "Recitativo · Adagio"
-tempoD-II-VId = \tempoMarkup "Aria · Allegro non molto"
+tempoD-II-VIc = \tempoTitleMarkup "Recitativo" "Adagio"
+tempoD-II-VId = \tempoTitleMarkup "Aria" "Allegro non molto"
 tempoD-II-VIe = \tempoMarkup "Allegro"
 
 \include "notes/clno1.ly"

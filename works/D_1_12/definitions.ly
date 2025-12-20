@@ -1,8 +1,8 @@
 \version "2.24.0"
 
 tempoD-I-XIIa = \tempoMarkup "Vivace"
-tempoD-I-XIIb = \tempoMarkup "Aria · Larghetto"
-tempoD-I-XIIc = \tempoMarkup "Chorus · Allegro"
+tempoD-I-XIIb = \tempoTitleMarkup "Aria" "Larghetto"
+tempoD-I-XIIc = \tempoTitleMarkup "Chorus" "Allegro"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

@@ -33,7 +33,7 @@ tempoB-XXXVEtResurrexit = \tempoMarkup "Vivace"
 
 tempoB-XXXVSanctus = \tempoMarkup "Largo"
   tempoB-XXXVPleni = \tempoMarkup "Vivace"
-  tempoB-XXXVOsanna = \tempoMarkup "Osanna · Presto"
+  tempoB-XXXVOsanna = \tempoTitleMarkup "Osanna" "Presto"
 
 tempoB-XXXVBenedictus = \tempoMarkup "Molto largo"
 

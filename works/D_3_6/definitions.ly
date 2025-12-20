@@ -14,15 +14,15 @@ markQuiaVenitDiesUtSupra = {
 }
 
 tempoD-III-VIaa = \tempoMarkup "Allabreve"
-tempoD-III-VIab = \tempoMarkup "Ut vivificaret · Vivace"
+tempoD-III-VIab = \tempoTitleMarkup "Ut vivificaret" "Vivace"
 tempoD-III-VIac = \tempoMarkup "Largo"
 
 tempoD-III-VIba = \tempoMarkup "[Tempo deest]"
-tempoD-III-VIbb = \tempoMarkup "Quia in te · Vivace"
+tempoD-III-VIbb = \tempoTitleMarkup "Quia in te" "Vivace"
 tempoD-III-VIbc = \tempoMarkup "Largo"
 
 tempoD-III-VIca = \tempoMarkup "Allabreve"
-tempoD-III-VIcb = \tempoMarkup "Quia venit dies · Vivace"
+tempoD-III-VIcb = \tempoTitleMarkup "Quia venit dies" "Vivace"
 tempoD-III-VIcc = \tempoMarkup "Largo"
 
 \include "notes/S.ly"

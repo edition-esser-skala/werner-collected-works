@@ -4,7 +4,7 @@ tempoD-I-XIVa = \tempoMarkup "Vivace"
 tempoD-I-XIVb = \tempoMarkup "Largo"
 tempoD-I-XIVc = \tempoMarkup "Vivace"
 tempoD-I-XIVd = \tempoMarkup "Recitativo"
-tempoD-I-XIVe = \tempoMarkup "Aria · Molto allegro"
+tempoD-I-XIVe = \tempoTitleMarkup "Aria" "Molto allegro"
 tempoD-I-XIVf = \tempoMarkup "Allegro"
 
 \include "notes/vl1.ly"

@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-tempoD-III-Ia = \tempoMarkup "Pars Prima · [Tempo deest]"
+tempoD-III-Ia = \tempoTitleMarkup "Pars Prima" "[Tempo deest]"
 tempoD-III-Ib = \tempoMarkup "Pars 2:da"
 tempoD-III-Ic = \tempoMarkup "Pars Tertia"
 tempoD-III-Id = \tempoMarkup "Pars 4:ta"

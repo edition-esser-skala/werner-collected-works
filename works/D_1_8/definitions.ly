@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 tempoD-I-VIIIa = \tempoMarkup "Adagio"
-tempoD-I-VIIIb = \tempoMarkup "Aria · Largo"
+tempoD-I-VIIIb = \tempoTitleMarkup "Aria" "Largo"
 tempoD-I-VIIIc = \tempoMarkup "Allegro"
 tempoD-I-VIIId = \tempoMarkup "Adagio"
 tempoD-I-VIIIe = \tempoMarkup "Allegro"

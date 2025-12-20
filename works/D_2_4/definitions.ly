@@ -10,7 +10,7 @@ tempoD-II-IVa = \tempoMarkup "Larghetto"
 tempoD-II-IVb = \tempoMarkup "Allegro" %100
 tempoD-II-IVc = \tempoMarkup "Largo" %50
 tempoD-II-IVd = \tempoMarkup "Adagiose" %130
-tempoD-II-IVe = \tempoMarkup "Aria · Allegretto" %75
+tempoD-II-IVe = \tempoTitleMarkup "Aria" "Allegretto" %75
 tempoD-II-IVf = \tempoMarkup "Tempo ordinario" %60
 tempoD-II-IVg = \tempoMarkup "Allegro" %100
 

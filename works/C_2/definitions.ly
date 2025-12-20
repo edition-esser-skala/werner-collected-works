@@ -19,7 +19,7 @@ tempoC-IIBenedictus = \tempoMarkup "Adagio"
   tempoC-IIOsanna = \tempoMarkup "Largo"
 tempoC-IIAgnus = \tempoMarkup "Adagio"
   tempoC-IILux = \tempoMarkup "[Tempo deest]"
-  tempoC-IICumSanctis = \tempoMarkup "Cum Sanctis · Presto"
+  tempoC-IICumSanctis = \tempoTitleMarkup "Cum Sanctis" "Presto"
   tempoC-IIQuia = \tempoMarkup "Adagio"
   tempoC-IIRequiem = \tempoMarkup "Adagio"
 

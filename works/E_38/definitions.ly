@@ -12,9 +12,9 @@ markFine = {
 }
 
 tempoE-XXXVIIIa = \tempoMarkup "Vivace"
-tempoE-XXXVIIIb = \tempoMarkup "Aria Pastorum · Andante"
-tempoE-XXXVIIIc = \tempoMarkup "Aria Angeli · Largo"
-tempoE-XXXVIIId = \tempoMarkup "Chorus · Vivace"
+tempoE-XXXVIIIb = \tempoTitleMarkup "Aria Pastorum" "Andante"
+tempoE-XXXVIIIc = \tempoTitleMarkup "Aria Angeli" "Largo"
+tempoE-XXXVIIId = \tempoTitleMarkup "Chorus" "Vivace"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

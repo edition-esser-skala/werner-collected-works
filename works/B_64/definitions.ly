@@ -32,7 +32,7 @@ tempoB-LXIVEtVitam = \tempoMarkup "Presto"
 
 tempoB-LXIVSanctus = \tempoMarkup "Largo"
   tempoB-LXIVPleni = \tempoMarkup "[Tempo deest]"
-  tempoB-LXIVOsanna = \tempoMarkup "Osanna · [Tempo deest]"
+  tempoB-LXIVOsanna = \tempoTitleMarkup "Osanna" "[Tempo deest]"
 
 tempoB-LXIVBenedictus = \tempoMarkup "[Tempo deest]"
 

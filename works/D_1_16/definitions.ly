@@ -1,7 +1,7 @@
 \version "2.24.0"
 
-tempoD-I-XVIa = \tempoMarkup "Recitativo · Largo"
-tempoD-I-XVIb = \tempoMarkup "Aria · Allegro"
+tempoD-I-XVIa = \tempoTitleMarkup "Recitativo" "Largo"
+tempoD-I-XVIb = \tempoTitleMarkup "Aria" "Allegro"
 tempoD-I-XVIc = \tempoMarkup "Allegro"
 
 \include "notes/vl1.ly"

@@ -6,7 +6,7 @@ markDomumDaCapo = {
 }
 
 tempoD-I-Va = \tempoMarkup "Allegro"
-tempoD-I-Vb = \tempoMarkup "Arietta · Larghetto"
+tempoD-I-Vb = \tempoTitleMarkup "Arietta" "Larghetto"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"

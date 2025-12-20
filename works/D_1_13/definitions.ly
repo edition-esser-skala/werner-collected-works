@@ -2,8 +2,8 @@
 
 tempoD-I-XIIIa = \tempoMarkup "Andante"
 tempoD-I-XIIIb = \tempoMarkup "Recitativo"
-tempoD-I-XIIIc = \tempoMarkup "Aria · Allegretto"
-tempoD-I-XIIId = \tempoMarkup "Chorus · Vivace"
+tempoD-I-XIIIc = \tempoTitleMarkup "Aria" "Allegretto"
+tempoD-I-XIIId = \tempoTitleMarkup "Chorus" "Vivace"
 tempoD-I-XIIIe = \tempoMarkup "Presto"
 
 \include "notes/vl1.ly"
