@@ -1,0 +1,15 @@
+title: Sonatina
+id: WerW M.16
+genre: sonata
+scoring: 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.285
+    rism: 530003616
+    url: https://copia.oszk.hu/kotta/sonatina-a-3-ex-a/
+    license: public domain
+    principal: true
+toe: |
+  52 & vl 1 6 last \eighthNote\ in \A1: b″8 \\
