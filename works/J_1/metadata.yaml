@@ -1,0 +1,27 @@
+title: Te Deum
+id: WerW J.1
+genre: hymn
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.258
+    rism: 530002135
+    url: https://copia.oszk.hu/kotta/te-deum-laudamus-in-c/
+    license: public domain
+    principal: true
+    notes: partly autograph (only vlne part by Werner)
+  B1:
+    siglum: A-Ed
+    shelfmark: C 7
+    rism: 600038247
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/74.html
+    license: public domain
+toe: |
+  – & –  & clno 1/2 and timp only appear in \B1
+           and are likely not by Werner. \\
+  2 & vl & last \eighthNote\ in \A1: e′8 \\
+  2 & T  & 7th \eighthNote\ in \A1 and \B1: d′8 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
