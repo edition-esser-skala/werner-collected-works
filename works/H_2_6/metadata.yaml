@@ -1,0 +1,22 @@
+title: Miserere
+id: WerW H.2.6
+genre: psalm
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, 2 vla, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.264/a
+    date: 1764
+    rism: 530003597
+    url: https://copia.oszk.hu/kotta/miserere-mei-deus-von-anderer-hand-f-durchstrichen-von-zweiter-hand-gm/
+    license: public domain
+    principal: true
+toe: |
+  11   & vlne  & tempo indication in \A1: “Tempo ordinario” \\
+  15   & vla 2 & 1st \quarterNote\ in \A1: \flat b8–a16–\flat b16 \\
+  96   & T     & tempo indication in \A1: “Largo” \\
+  161  & vl 2  & 7th \eighthNote\ in \A1: g″16–c″16 \\
+  180f & vla 2 & 2nd \halfNote\ of bar 180 in \A1: \flat b4.–c′8;
+                 1st \eighthNote\ of bar 181: \flat b8 \\
+  247  & vla 2 & 3rd \quarterNote\ in \A1: d′8.–c′16 \\
