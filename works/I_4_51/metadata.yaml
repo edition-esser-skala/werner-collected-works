@@ -1,0 +1,24 @@
+title: Salve Regina
+id: WerW I.4.51
+genre: antiphon
+scoring: S, A, T (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: K 30
+    rism: 600038585
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/493.html
+    license: public domain
+    principal: true
+    notes: org and vlne part missing
+toe: |
+  –     & org  & Since org and vlne parts are missing in the only
+                 extant source, this voice has been reconstructed
+                 by the editor in bars 1–22 and 38–74.
+                 Completion of the remaining bars is left
+                 as an exercise for the period performer. \\
+  62–74 & T    & In \B1, these bars have been cancelled by different hand
+                 and replaced with novel bars. \\
+  58    & vl 2 & 2nd \halfNote\ in \B1: a′8–a8–f′4 \\
+  73    & vl 2 & 1st to 3rd \quarterNote\ in \B1: g′2. \\

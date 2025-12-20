@@ -1,0 +1,20 @@
+\version "2.24.0"
+
+\include "../../../definitions_main.ly"
+\include "../definitions.ly"
+#(define option-instrument-name "org")
+\include "score_settings/one-staff.ly"
+
+\book {
+  \bookpart {
+    \section "I.4.51" "Salve Regina"
+    \addTocEntry
+    \paper { system-count = #14 }
+    \score {
+      <<
+        \new Staff { \I-IV-LIOrgano }
+        \new FiguredBass { \I-IV-LIBassFigures }
+      >>
+    }
+  }
+}
