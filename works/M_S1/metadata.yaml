@@ -1,0 +1,39 @@
+composer:
+  last: Anonymus
+title: Sechs Fugen
+id: WerW M.S1
+genre: fugues
+scoring: 2 vl, vla, bc
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-B
+    shelfmark: Am.B 530
+    rism: 452506110
+    url: https://resolver.staatsbibliothek-berlin.de/SBB000361DC00000000
+    license: public domain
+    principal: true
+  B2:
+    siglum: A-KR
+    shelfmark: H 42/121
+    rism: 600172596
+    license: public domain
+    notes: contains fugue no. 1 as part of a sinfonia attributed to Johann Joseph Fux (FuxWV III.2.1)
+tocstyle: default
+toe: |
+  – & –  & bc   & All bass figures have been added by the editor. \\
+  1 & 4  & vla  & 6th \eighthNote\ in \B2: \sharp f′8 \\
+    & 17 & vl 2 & last \quarterNote\ in \B1: \quaverRest–e″8 \\
+    & 20 & vla  & 1st \halfNote\ in \B2: \sharp c′2 \\
+    & 24 & vl 2 & 2nd/3rd \quarterNote\ in \B2:
+                  e″16–\sharp f″16–g″8–\sharp c″16–d″16–e″8 \\
+    & 30 & vla  & 1st \quarterNoteDotted\ in \B2: a4. \\
+    & 43 & vla  & 2nd \eighthNote\ in \B2: \sharp f′8 \\
+    & 46–50 & vla & bars in \B1 originally (similar to \B2):%
+                  \newline\includegraphics{snippet_M_S1.pdf}\newline%
+                  corrected with red ink to the version shown \\
+    & 50 & vl 2 & 1st \quarterNote\ in \B1: originally \sharp f′ (as in \B2),
+                  corrected with red ink to d′4 \\
+  2 & 23 & vl 2 & 5th \eighthNote\ in \B1: d″8 \\
+    & 35 & vl 2 & 2nd \quarterNote\ in \B1: f′16–e′16–d′8 \\
+  6 & 31 & vl 1 & 6th/7th \sixteenthNote\ in \B1: e′16–\sharp f′16 \\
