@@ -101,7 +101,7 @@
           }
           \new Staff {
             \set Staff.instrumentName = "bc"
-            \transpose c c,
+            % \transpose c c,
             \M-SIcContinuo
           }
           \new FiguredBass { \M-SIcBassFigures }
