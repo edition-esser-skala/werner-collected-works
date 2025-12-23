@@ -1,0 +1,184 @@
+% latexmk -cd -lualatex works/A_9/appendix.tex
+% latexmk -c -cd works/A_9/appendix.tex
+
+\documentclass{ees}
+
+\newlist{lyricslist}{description}{1}
+\setlist[lyricslist]{
+  partopsep=0pt,
+  labelindent=0em,
+  labelwidth=4.5em,
+  leftmargin=4.5em,
+  labelsep=0pt,
+  first=\ltseries,
+  font=\normalfont\itshape\ltseries,
+  style=multiline
+}
+
+\newenvironment{lyrics}[1]{%
+  \subsection{#1}\nopagebreak%
+  \begin{lyricslist}%
+  \let\voice\item%
+}{%
+  \end{lyricslist}%
+}
+
+\begin{document}
+
+\clearscrheadfoot
+
+\chapter{Lyrics}
+
+\textit{Roles:} Judex (B) · Coro (SATB)
+
+\section{Actus primus}
+
+\begin{lyrics}{Scena prima}
+  \voice[Judex]
+  Weill dan der Sünder Geil
+  sich mehrt und überhäuffet,
+  und die erboßte Weld
+  veracht ihr Seelenheyll,
+  sich auf Barmherzigkheit
+  und meine Langmuth ſteiffet,
+  ſo ſoll mein Zorn ergrimmen,
+  ich will ſie als ein Hafnerwerkch
+  zerſchmettern und zertrümmern.
+  Wollan, bereithet euch zur Stelle,
+  ihr Siben Engelsgeiſter!
+  Und höret mit Erſtaunen,
+  was ich nun anbefehle,
+  eur Gott, eur Herr und Meiſter,
+  man blaſe auf das erſchröckhlichſte
+  die große Zornpoſaunen.
+\end{lyrics}
+
+\begin{lyrics}{Scena secunda}
+  \voice[Chorus]
+  Ach! Ô unerhörte Sach!
+  Ach! dergleichen nie geſchehen,
+  es muß die gantze Weld
+  verſchröckhen, untergehen,
+  das Feur mit Blueth vermengt
+  fallt heufig her von oben,
+  ach! ach! ach hätten wür doch nicht
+  die Bueß ſo lang verſchoben!
+
+  \voice[Judex]
+  Diß iſt ein kleiner Anfang
+  der vorbeſtimmten Straffen,
+  ich werd ſie alle noch zugleich
+  in meinen Zorn hinraffen.
+
+  \voice[Chorus]
+  Ô waß ein Ungeheur!
+  Ein Berg mit puren Feur
+  bewegt ſich ungefehr,
+  und ſtürtzet in das Meer.
+
+  \voice[Judex]
+  Nunmehro will ich lachen
+  zu ihren Untergang,
+  die Erd ſoll nun erkrachen
+  ob der Poſaunen Klang.
+
+  \voice[Chorus]
+  Ô Gott! waß würd noch werden?
+  Eß fallt ein großer Stern
+  herabwerths auf die Erden,
+  der würd uns all verzehrn.
+
+  \voice[Judex]
+  Die Weld ſoll noch verſchmachten
+  was über ſie wird kommen,
+  dieweil ſie vor nur lachten
+  und ſpotteten der Frommen.
+
+  \voice[Chorus]
+  Hilff Himmel waß iſt diſes?
+  Die Sonn verlihret ihren Schein,
+  der Mond zieht ſeine Strahlen ein,
+  kein Menſch kan mehr beſtehen,
+  wür müßen unfählbar
+  noch all vor Forcht vergehen.
+
+  \voice[Judex]
+  So ſollen alle Plagen,
+  die nur erdenckhlich ſein,
+  auf ſie hinunter fallen
+  und ſammentlich zermallen,
+  ſie mögen immer klagen,
+  ich ſpotte ihrer Peyn.
+
+  \voice[Chorus]
+  Ô Jammer! Elend! Noth!
+  waß unerhörter Schröckhen!
+  will dan der grechte Gott
+  ſein ſchwäre Hand außſtreckhen?
+  waß ungeheure Thier
+  gleich denen Scorpionen,
+  die ſonſt in Abgrund wohnen,
+  begeben ſich herfür.
+
+  \voice[Judex]
+  Man laße jene Engel,
+  ſo in den Euphrat
+  bißher versteckhet waren
+  nunmehro hervorgehen,
+  da ſolle die böſe Weld
+  zum Überfluß erfahren,
+  wie ſie verdienet hat
+  vor ihre Laſtermängel.
+
+  \voice[Chorus]
+  Waß grauſamvolles Kriegsheer
+  ſtellt ſich vor uns mit Schröckhen!
+  Ô daß uns doch die Berge
+  und Bühel gleich bedecken.
+  Die Mäuler dißer Roßen
+  ſeynd voller Rauch und Schwefel,
+  ſie ſtehen ſchon bereith
+  zu ſtraffen unſern Frevel.
+
+  \voice[Judex]
+  Wollan, nun iſt beſchloßen
+  der Untergang der Erden,
+  ich ſchwör bey mir,
+  es ſoll hinführ
+  kein Zeit zur Bueß mehr werden.
+\end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+
+\end{document}
