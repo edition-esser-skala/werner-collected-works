@@ -32,6 +32,15 @@ dotbf = #(define-scheme-function
     #:figured-bass (if (number? bf) (number->string bf) bf)
     #:translate '(1.3 . .6) #:draw-circle .2 0 #t))
 
+dotbfflat = #(define-scheme-function
+  (bf)
+  (number-or-string?)
+  (markup #:combine
+    #:combine
+      #:figured-bass (if (number? bf) (number->string bf) bf)
+      #:translate '(-.575 . .3) #:fontsize -5.5 #:flat
+    #:translate '(1.3 . .6) #:draw-circle .2 0 #t))
+
 extendLV = #(define-music-function
   (parser location further)
   (number?)
