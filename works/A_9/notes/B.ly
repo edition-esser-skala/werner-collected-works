@@ -181,3 +181,58 @@ A-IXScenaSecundaBassoLyrics = \lyricmode {
   Bueß, zur Bueß mehr wer -- _
   den. %84 finis
 }
+
+A-IXScenaTertiaBasso = {
+  \relative c {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoA-IXScenaTertiaA
+    r8^\StMichael c' es16 es g c, as'8 as r f
+    f as g d es es r4
+    \clef bass \tempoA-IXScenaTertiaB \mvTr des,2\fE^\tutti r8 \hA des des des
+    h4. h8 c4 r8 c'
+    a!4. a8 g4 g %5
+    R1\fermata
+    \clef treble \tempoA-IXScenaTertiaA
+      r8^\StMichael b es16 es es f g8 c, b'16 b as g
+    as8 r16 f f f as f es8 es es16 c es d
+    b8 r16 d es g fis g g8 d r4
+    r8 b es g as8. as16 as8 f %10
+    f d b as' g g r16 g es g
+    c,8. c16 c8 e g g b as
+    f f r f c' f, f f
+    f c16 d es es f c d8 d r16 d a c
+    b8. b16 b8 d es c c' b %15
+    g g r4 r8 d d es
+    f8. f16 f8 g as8. as16 as8 g
+    es es r16 es es g es8. b16 b8 b
+    es g b des, c c r c
+    c g' e c b b16 c des b \hA des c %20
+    as8 as16 c c c f c des4 r16 f as f
+    f8. c16 c4 r2\fermata \bar "|." %22 finis
+  }
+}
+
+A-IXScenaTertiaBassoLyrics = \lyricmode {
+  Auf, auf, ihr Tod -- ten, ey -- let! Ihr
+  ſolt vor Grich -- te ge -- hen.
+  Ô, ô har -- te
+  Don -- ner -- worth! Wer
+  wird be -- ſte -- hen! %5
+
+  Nun -- meh -- ro bre -- chet an der groß und bitt -- re
+  Tag, wo al -- ler Men -- ſchen Werth mit der ge -- rech -- ten
+  Waag durch -- for -- ſchet ſol -- len wer -- den.
+  Hier muß De -- mos -- te -- nes und %10
+  Ci -- ce -- ro ver -- ſtum -- men, die Schön -- heit
+  He -- le -- næ mit Scham -- röth ſich ver --
+  mum -- men. Ein groſ -- ſer A -- le --
+  xan -- der ver -- lieh -- ret Muth und Stär -- ckhe, wan er be --
+  fra -- get wird umb ſei -- ne Hel -- den -- %15
+  wer -- ckhe. Ein ar -- mer
+  La -- za -- rus wird hö -- her æs -- ti --
+  mi -- ret, als ein Tar -- qui -- ni -- us, der
+  vor -- mahls hoch ſtol -- zie -- ret. Es
+  hilfft kein ap -- pel -- li -- ren, kein Gold noch Geld spen -- %20
+  di -- ren, der Ar -- me wie der Reich gild hier dem
+  Rich -- ter gleich. %22 finis
+}

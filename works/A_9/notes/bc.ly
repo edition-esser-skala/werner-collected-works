@@ -411,3 +411,171 @@ A-IXScenaSecundaBassFigures = \figuremode {
   r <_-> <4> <3>
   r1 %84 finis
 }
+
+A-IXScenaTertiaContinuo = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \tempoA-IXScenaTertiaA
+    c2\pE h~
+    h c8 c' g es
+    \tempoA-IXScenaTertiaB des2\fE r8 \hA des des des
+    h2 c4 c'
+    a!2 g %5
+    R1\fermata
+    \tempoA-IXScenaTertiaA es2\pE e
+    f fis
+    g4 c, d d,
+    es'2 d~ %10
+    d es
+    e1
+    f2 a,!~
+    a fis
+    g c %15
+    d4 d, h'2~
+    h1
+    c2 g~
+    g as
+    e'1 %20
+    f2 b,4 h
+    c c, f2\fermata \bar "|." %22 finis
+  }
+}
+
+A-IXScenaTertiaBassFigures = \figuremode {
+  r2 <7- 5>
+  <\t \t>1
+  <6 4 2!>2 r8 <\t \t \t>4.
+  <7- 5>2 <_!>4 <_->
+  <7> <6\\> <4>8 <_!>4. %5
+  r1
+  r2 <6>4 <5->
+  <_->2 <7- [_!]>
+  <_->4 q <4> <_+>
+  r2 <5-> %10
+  <6 5->1
+  <6>2 <5>
+  <_-> <6>
+  r q
+  r1 %15
+  <4>4 <_+> <6>2
+  <7- 5>1
+  r2 <6 [_-]>
+  r1
+  <6>2 <7- 5> %20
+  <_->q4 <7- 5 [_!]>
+  <4> <_!> <[_!]>2 %22 finis
+}
+
+A-IXAriaPrimaContinuo = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoA-IXAriaPrima
+    f,8\fE f' f f b,4 b'~
+    b a g2
+    f r4 f~
+    f e d2
+    c8 c' c c b16 c d b g8 b %5
+    a16 b c a f8 a g16 a b g e8 g
+    f4 r8 f, b4 r8 g
+    c b a b c b c c,
+    f f'\pE a, f b b' b b
+    b4 a g2 %10
+    f8 f a f b16 c d b g a b g
+    a b c a f g a f g a b g e f g e
+    f8 c a f b4 h
+    c8 g e c r2
+    R1 %15
+    r8 c'' h g e4 f
+    g g, a\fE a'
+    g8 f e d c a' f g
+    c, g' c b! a f16\pE g a8 f
+    b, b' b b b4 a %20
+    g2 f8 f, a f
+    b4 h c e
+    f a, b g
+    c8 g' c b! a4 f
+    e c f,8 f' a f %25
+    b16 c d b g a b g a b c a f g a f
+    g a b g e f g e f8 c a f
+    b4 h c8 b' a g
+    f4 r d r
+    a b c c, %30
+    d'2\fE c
+    f4 r8 f, b4 r8 g
+    c b a b c b c c,
+    f\fermata f'\pE f e d2
+    cis d8 d' d d %35
+    b16 c d b g4 fis d
+    g8 cis, cis cis d2
+    a8 a' a a fis16 g a \hA fis d8 \hA fis
+    g, g' g g e16 f g e c8 e
+    f, f' f e d2 %40
+    e4 f8 d e4 e,
+    a\fE d d c
+    h2 a
+    d4 g2 f4
+    e2 d8 d' d\pE c! %45
+    b2 a
+    g f4 f,
+    b h c c'
+    h8 e, e' d c4 a
+    gis e a4. g8 %50
+    f2 e4 f8 d
+    e4 e, a r \markDaCapo \bar "||" %52 finis
+  }
+}
+
+A-IXAriaPrimaBassFigures = \figuremode {
+  r1
+  <5 2>4 <6>q2
+  r1
+  <5 2>4 <6> <6!>2
+  r1 %5
+  r
+  r
+  r4 <6>8 q <6 4>4 <5 3>
+  r1
+  <5 2>4 <6> q2 %10
+  r1
+  r
+  <4>8 <6> r2 q8 <5>
+  <4> <6>2..
+  r1 %15
+  r4 \bo <[6]> \bc q2
+  <4>4 <_!> <6\\> <\t>
+  <_!> <6>2 <6 5>8 <_!>
+  r2 <[6]>
+  r <5 2>4 <6> %20
+  q1
+  r4 <6>8 <5> <4> <3> <6> <5>
+  \bo <[4]> \bc <[3]> <6> <5-> r2
+  r \bo <[6]>
+  <6>1 %25
+  r2 <7>8 <6>4.
+  <7>8 \bc <[6]>2 <\t>4.
+  r4 <6>8 <5>4. \bo <[6]>4
+  r1
+  \bc q4 <6>8 <5> <4>4 <3> %30
+  <6!>2 <8>4 <7->
+  r1
+  r4 <6>8 <[6]> <6 4>4 <5 3>
+  r4. <6\\>8 <5>4 <6->
+  <6>2 <_+> %35
+  <6> <[6]>
+  r8 <7- 5>4. <5 3[!]>4 <6! 4\+>
+  <_+>2 <[6]>
+  <_-> <[6]>
+  r <5>8 <6!>4 <5>8 %40
+  <[5!] _+>4. <6[!]>8 <6 4>4 <5! _+>
+  <6>2 <[6!] 4\+ 2>4 <6>
+  <7> <6\\> <_+>2
+  <6->4 <_-> <4\+ 2> <6>
+  <7> <6\\> r4. <[6]>8 %45
+  <7>4 <6> <7> <6>
+  <7> <6>2.
+  r4 <6>8 <5> <4> <3> r4
+  <6\\>8 <[5!] _+>4. <6>2
+  \bo <[6 _!]>2.. \bc <[6 _]>8 %50
+  <7> <6\\>4. <[5!] _+> <6[!]>8
+  <6 4>4 <5[!] _+>2. %52 finis
+}

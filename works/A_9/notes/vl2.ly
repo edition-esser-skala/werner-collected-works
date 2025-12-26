@@ -171,3 +171,76 @@ A-IXScenaSecundaViolinoII = {
     R1*4 \bar "||" %84 finis
   }
 }
+
+A-IXScenaTertiaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoA-IXScenaTertiaA
+    R1*2
+    \tempoA-IXScenaTertiaB e'2\fE r8 \hA e e e
+    f f f f e4 c~
+    c8 es d c c( h) h4 %5
+    R1\fermata
+    \tempoA-IXScenaTertiaA R1*15 %21
+    R1\fermata \bar "|." %22 finis
+  }
+}
+
+A-IXAriaPrimaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoA-IXAriaPrima
+    R1
+    r8 f'\f f f e16 f g e b8 g'
+    c, a'4 a8 f c4 a8
+    r c c c h16 c d \hA h f8 d'
+    g, e4 c8 r b' g' d %5
+    r a f' c r g e' b
+    a c f, a d, d' g, b
+    e, f16 g f8 g' f8. g16 e4\trill
+    f r r2
+    r8 f\p f f e16 f g e b8 e %10
+    f4 r r2
+    R1
+    r4 r8 f, b16 c d4 g,8
+    g4 r8 e f16 g a f h c d \hA h
+    e, f g e a h c a d, e f d g a h g %15
+    e8 c r4 r2
+    r8 g'\f g g fis16 g a \hA fis c8 fis
+    g d g a16 h c g c4 h8
+    c4 r r2
+    r r8 f,\p f f %20
+    e16 f g e b!8 e f4 r
+    r r8 d' g, a16 b c8 b
+    b a r c f, g16 a b8 d
+    g,4 r r2
+    r8 c c c a16 b c a f4 %25
+    r8 d' d16 c d8 r c c16 b c8
+    r b b16 a b8 r f' f16 e f8
+    R1
+    a,16 g f e d c b a a' g f e d c b a
+    r2 r8 c'\f c c %30
+    h16 c d \hA h f8 d' g,4~ g16 g' f g
+    c,8 a a a f d' g, b
+    e, f16 g f8 g' f8. g16 e4\trill
+    f\fermata r r2
+    a,16\p cis e \hA cis a8 e' a,4 r %35
+    r8 d d16 c d8 d,4 r
+    r2 r8 gis gis gis
+    a16 h? cis a cis,4 r2
+    d4 b' c, r
+    c a' f16 e d4 c8 %40
+    h16 c d \hA h c4 r2
+    r8 a'\f a a gis16 a h \hA gis e8 a
+    a4 gis r a
+    b!4. c16 d a4 d,
+    r8 g g g f16 g a f d4\p %45
+    r8 d' d b' r c, c a'
+    r b, b g' a, f16 g a b c8
+    r2 r8 c16 d e f g8
+    r2 r8 e16 d c h a8
+    r e16 fis gis a h8 r a,16 h c d e8
+    r a a a gis16 a h \hA gis a4
+    R1 \markDaCapo \bar "||"
+  }
+}

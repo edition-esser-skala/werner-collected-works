@@ -131,3 +131,23 @@ A-IXScenaSecundaAltoLyrics = \lyricmode {
   fen un -- ſern Fre --
   vel. %80 finis
 }
+
+A-IXScenaTertiaAlto = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoA-IXScenaTertiaA
+    R1*2
+    \tempoA-IXScenaTertiaB g'2\fE r8 g g g
+    f4. f8 e c es g
+    g4 fis g g %5
+    R1\fermata
+    \tempoA-IXScenaTertiaA R1*15 %21
+    R1\fermata \bar "|." %22 finis
+  }
+}
+
+A-IXScenaTertiaAltoLyrics = \lyricmode {
+  Ô, ô har -- te %3
+  Don -- ner -- worth! Wer wird al --
+  da be -- ſte -- hen! %5 finis
+}

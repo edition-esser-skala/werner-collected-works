@@ -131,3 +131,23 @@ A-IXScenaSecundaTenoreLyrics = \lyricmode {
   ſtraf -- fen un -- ſern Fre --
   vel. %80 finis
 }
+
+A-IXScenaTertiaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \dorian \time 4/4 \autoBeamOff \tempoA-IXScenaTertiaA
+    R1*2
+    \tempoA-IXScenaTertiaB e2\fE r8 \hA e e e
+    d4. d8 g,4 r8 es'
+    c4 a! d d %5
+    R1\fermata
+    \tempoA-IXScenaTertiaA R1*15 %21
+    R1\fermata \bar "|." %22 finis
+  }
+}
+
+A-IXScenaTertiaTenoreLyrics = \lyricmode {
+  Ô, ô har -- te %3
+  Don -- ner -- worth! Wer
+  wird be -- ſte -- hen! %5 finis
+}
