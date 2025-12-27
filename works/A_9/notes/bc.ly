@@ -579,3 +579,201 @@ A-IXAriaPrimaBassFigures = \figuremode {
   <7> <6\\>4. <[5!] _+> <6[!]>8
   <6 4>4 <5[!] _+>2. %52 finis
 }
+
+A-IXScenaQuartaContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-IXScenaQuarta
+    b1
+    h
+    gis
+    a2 cis
+    d g,16 g' d b g4 %5
+    g f g gis
+    a a' fis2
+    c b
+    h \bar ";" \markScenaQuinta c \bar "|" %9 finis
+  }
+}
+
+A-IXScenaQuartaBassFigures = \figuremode {
+  r1
+  <6>
+  q
+  r2 q
+  r <_-> %5
+  <4\+ 2>4 <6> <_-> <7 5 [_!]>
+  <4> <_+> <6>2
+  <4\+ 2> <6>
+  <7- 5> <_-> %9 finis
+}
+
+A-IXScenaQuintaContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-IXScenaQuinta
+    \partial 2 c2~\p^\markup \remark "stendato" \bar ";" c c
+    h! c
+    d es
+    g as~
+    as4 g8 as b4 b, %5
+    es1\fermata \bar "|." %6 finis
+  }
+}
+
+A-IXScenaQuintaBassFigures = \figuremode {
+  <_->1 <6- 4 2>2
+  <7- 5> <_->
+  <6-> <[5-]>
+  <6- [_-]> <5[-]>4 <6>
+  <2[-]> <6 [_-]>8 <[5-]> <6 4->4 <5 3> %5
+  <[5-]>1 %6 finis
+}
+
+A-IXAriaSecundaContinuo = {
+  \relative c {
+    \clef bass
+    \key es \lydian \time 3/4 \tempoA-IXAriaSecunda
+      \once \override Staff.TimeSignature.style = #'single-digit
+    es2\pE b4
+    es,2 r4
+    es'2 b4
+    es,2 r4
+    es'2 c4 %5
+    d2 g4
+    es e2
+    f2 r4
+    g2.
+    f2 r4 %10
+    << { g } \\ { g, } >> a2
+    b4 b' a
+    g, g' f
+    e c f
+    b, c c, %15
+    f2 r4
+    d' f as
+    g2 r4
+    c, es g
+    f f, es' %20
+    d a f
+    b b' as
+    g d b
+    es2 r4
+    h2 g4 %25
+    c2 r4
+    d b! d
+    es2 g4
+    as f \hA as
+    b as g %30
+    as b b,
+    es2 r4 \noBreak
+    es2\fE r4
+    \time 2/4 \tempoA-IXAriaSecundaB \newSpacingSection
+      es4 r8 es\pE \noBreak
+    es es d d %35
+    c c g as
+    b b b' b
+    es, es g, g
+    as as a a
+    b b b b %40
+    es es c c
+    f f d d
+    a a a b
+    f' f es es
+    d d a a %45
+    b b es es
+    f f f, f
+    b b'16 c b as g f
+    es8 es d d
+    c c g g %50
+    as as a a
+    b b d d
+    es es d es
+    b b' g g
+    as as f f %55
+    b b g g
+    d d d es
+    b b' as as
+    g g d d
+    es es as as %60
+    b b b, b
+    es\f es d d
+    c c g g
+    as as b b
+    g g' d d %65
+    es es as as
+    b b b, b
+    es4 r\fermata \bar "|." %68 finis
+  }
+}
+
+A-IXAriaSecundaBassFigures = \figuremode {
+  r2.
+  r
+  r2 <7->4
+  r2.
+  r %5
+  <7 [5!]>4 <6>2
+  r4 <6> <5>
+  <9 4> <8 3>2
+  <6!>2.
+  r %10
+  <6->4 <6> <5->
+  r2 \bo <[6]>4
+  r2 <6>4
+  \bc <[6]>2.
+  r4 <6 4> <5 _!> %15
+  r2.
+  r4 <6 _-> <6>
+  <_!>2.
+  <_->4 <6> <6 [_-]>
+  r2 <\t>4 %20
+  <6> q2
+  r <\t>4
+  <6> q2
+  <5 4->4 <\t 3>2
+  <6>2. %25
+  r
+  <6[-]>2 <5->4
+  r2 <6>4
+  r2 q4
+  r2 q4 %30
+  r <4> <3>
+  r2.
+  r
+  r2
+  r4 <[6]> %35
+  r <6>
+  r2
+  r4 <6>
+  r <[6]>
+  r2 %40
+  r
+  r4 <6>
+  q8 <5->4.
+  r4 <\t>
+  <6> q %45
+  r <5>8 <6>
+  <6 4>4 <5 \t>8 <\t 3>
+  r2
+  r4 <[6]>
+  r <6> %50
+  r <[6]>
+  r <6>
+  r <5->
+  <6 4>8 <5 3> <6>4
+  r4 <[_-]> %55
+  r <6>
+  q8 <5-> <\t>4
+  r q
+  <6> q
+  r <5>8 <6> %60
+  <6 4>4 \bo <[5 \t]>8 <\t 3>
+  r4 \bc <[6 _]>
+  r <6>
+  r <6 4>8 <5 3>
+  <6>4 q %65
+  r <5>8 <6>
+  <6 4>4 \bo <[5 \t]>8 \bc <[\t 3]>
+  r2 %68 finis
+}

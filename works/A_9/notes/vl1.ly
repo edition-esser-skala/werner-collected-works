@@ -247,3 +247,94 @@ A-IXAriaPrimaViolinoI = {
     R1 \markDaCapo \bar "||" %52 finis
   }
 }
+
+A-IXScenaQuintaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-IXScenaQuinta
+    \partial 2 es'2~\p^\markup \remark "stendato" \bar ";"
+      es d~
+    d es
+    d4 f b,2~
+    b as
+    b4. c8 \hA b2 %5
+    b1\fermata \bar "|." %6 finis
+  }
+}
+
+A-IXAriaSecundaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key es \lydian \time 3/4 \tempoA-IXAriaSecunda
+      \once \override Staff.TimeSignature.style = #'single-digit
+    \after 4*0 -\conSord R2.
+    r8 r16 g''\pE es4-! b-!
+    g r r
+    r8 r16 g b4-! es-!
+    g2 es4 %5
+    f2 d4
+    es g2
+    c, r4
+    b2 b8( a)
+    a4 r r %10
+    b c2
+    b c4
+    d4. e8 f4
+    g e f8( c)
+    d( g) \appoggiatura f4 e2 %15
+    f4 r r
+    f8( g) as4 c,
+    \appoggiatura c h2 r4
+    es8( f) g4 b,!
+    \appoggiatura b a2 r4 %20
+    f'2.~
+    f8 d b4 r
+    es f4.\trill es16( f)
+    g2 r4
+    d g2~ %25
+    g8 es c4 r
+    b! d f~
+    f8( es) es4 r
+    r as f
+    r f es~ %30
+    es8 c \appoggiatura es4 d2\trill
+    es4 r r \noBreak
+    R2.
+    \time 2/4 \tempoA-IXAriaSecundaB \newSpacingSection
+      b,8\pE c16 d es( d) es( f) \noBreak
+    g( as) b( c) b( \hA as) g( f) %35
+    es( es') d( es) g( es) d( es)
+    d( es) f( es) d( c) b( as)
+    g( es) g( as) b( es) d( es)
+    c( es) as( g) f( es) d( es)
+    d( c) b( c) d( es) f( d) %40
+    g( f) es( d) es( d) c( b)
+    a!( b) c( a) b( f) b( d)
+    c( d) es( d) es( f,) d'( f,)
+    c'( b) a( b) c( d) es( c)
+    f f, f8\trill f'16 f, f8\trill %45
+    d'16( f) b( b,) g'( es) d( c)
+    b8. c16 c4\trill
+    b r8 \once \slurDashed es,16( f)
+    g( as) b( c) b( \hA as) g( f)
+    es( es') d( es) g( es) d( es) %50
+    c( b) as( g) f( es) d( es)
+    d( b) d( f) b( d) es( f)
+    es8 f16 g f8 es
+    es16( d) d( f) es( b) es( g)
+    c,( b) c( as) as'( g) \hA as( f) %55
+    d( c) d( b) es( d) es( es,)
+    f( g) as( g) \hA as( b,) g'( b,)
+    f'( es) d( es) f( g) as( f)
+    b b, b8\trill b'16 b, b8\trill
+    g'16( b) es( es,) c'( as) g( f) %60
+    es8. f16 f4\trill
+    es16\f es' d c b as g f
+    es es' es8\trill b'16 es, es8\trill
+    c' b16 as g f es d
+    es8. d32 c b8 as %65
+    g8.\trill f32 g as8 f
+    es8. f16 f4\trill
+    es r\fermata \bar "|." %68 finis
+  }
+}

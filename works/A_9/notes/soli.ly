@@ -132,3 +132,193 @@ A-IXAriaPrimaSoliLyrics = \lyricmode {
   recht in ſein Ver -- ſpre -- chen, Ver --
   ſpre -- chen. %52 finis
 }
+
+A-IXScenaQuartaSoli = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXScenaQuarta
+    r4^\Judex r8 f b b d \hA b
+    g g r g g g h g
+    e8. e16 e8 gis h e, d e
+    c c r e a8. a16 e8 g
+    f8. f16 f d f a b4 r16 g \hA b d, %5
+    cis8 cis' d d, b'([ g)] f([ d)]
+    d a r4 \clef treble r8^\StMichael d' d16 d d e
+    fis8 fis fis16 g a b g8 d d16 d d es
+    f8 f f16 as g d \bar ";" \markScenaQuinta es4 r \bar "|" %9 finis
+  }
+}
+
+A-IXScenaQuartaSoliLyrics = \lyricmode {
+  Auf auf ihr Him -- mels
+  Gei -- ſter! Be -- ge -- bet euch nun
+  all -- zu -- gleich in al -- le Theil der
+  Er -- den, ver -- sam -- blet ih -- re
+  A -- ſchen -- ſtaub, da -- mit ſie ſchnell nach mein Be -- %5
+  fehl zu -- gleich be -- ſee -- let
+  wer -- den. Ihr Tod -- te ſte -- het
+  auf und kom -- met zu Ge -- richt, es ley -- det kein Ver --
+  ſchub, kein Pro -- te -- ſti -- ren nicht. %9 finis
+}
+
+A-IXScenaQuintaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXScenaQuinta
+    \partial 2 \once \override Parentheses.font-size = #3
+      \parenthesize es4 g,^\Petrus \bar ";"
+      c8. c16 c8 es as,8. as16 as8 f
+    d' d d16 d f es c4 r8 es
+    b b d \hA b g g r b
+    es es g \hA es c8. c16 c8 c
+    d f es c g4(\trill f) %5
+    es1\fermata \bar "|." %6 finis
+  }
+}
+
+A-IXScenaQuintaSoliLyrics = \lyricmode {
+  (nicht.) So kom -- me dann, em -- pfang den Lohn, du
+  mein ge -- we -- ne -- dey -- ter Leib! Laß
+  dich nun -- mehr be -- ſee -- len, man
+  wird dir vor dein Her -- tzen -- leyd ein
+  Wol -- luſt Orth be -- ſtel -- %5
+  len. %6 finis
+}
+
+A-IXAriaSecundaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key es \lydian \time 3/4 \autoBeamOff \tempoA-IXAriaSecunda
+      \once \override Staff.TimeSignature.style = #'single-digit
+    b4 es f8([ d)]
+    es4 r r
+    es \tuplet 3/2 4 { b8([ as g)] \hA as([ g f)] }
+    g4 r r
+    b es \tuplet 3/2 4 { es8([ f g)] } %5
+    f([ a,!)] b2
+    g'8([ es)] c4 b
+    b8([\trill a)] a4 r
+    e' e e8([ f)]
+    f2 r4 %10
+    es! c8([ a)] f([ es)]
+    d4 r f
+    b2 d4
+    c4. b8 a4
+    \tuplet 3/2 4 { d8([ c b)] } \appoggiatura a4 g2\trill %15
+    f r4
+    f' d c
+    \appoggiatura c h2 r4
+    es! c b
+    \appoggiatura b a2 \tuplet 3/2 4 { a8([ b c)] } %20
+    b([ c] c4.)\trill b16([ c)]
+    d2 d4
+    es f8([ d)] b([ as)]
+    as([ g)] g4 r
+    d' g,8([ h)] d([ f)] %25
+    \appoggiatura f4 es2 r4
+    b! f'8([ d)] b([ as)]
+    \appoggiatura as4 g2 es'4
+    c2 f4
+    d4. d8 es([ b)] %30
+    c([ es,)] \appoggiatura g4 f2\trill
+    es r4 \noBreak
+    R2.
+    \time 2/4 \tempoA-IXAriaSecundaB \newSpacingSection
+      r4 r8 es16([ f)] \noBreak
+    g([ as)] b([ c)] b([ \hA as)] g([ f)] %35
+    es8. es16 es8 es'
+    d16([ es)] f([ es)] d([ c)] b([ as)]
+    g8. as16 b8 es
+    c c f16([ es)] d([ es)]
+    d8 b r d %40
+    g,4 es'8([ c)]
+    \appoggiatura b a4 r8 b
+    c16([ d] es4) d8
+    c4 r8 a
+    b4 c %45
+    d8.([\trill c32 d] es8) c
+    b8.([ c16] c4)\trill
+    b r8 es,16([ f)]
+    g([ as)] b([ c)] b([ \hA as)] g([ f)]
+    es8. es16 es8 es' %50
+    c16([ b)] as([ g)] f8 es'
+    d8. c16 b8 as
+    g as16([ b)] \hA as8 g
+    g16([ f)] f8 r b
+    c16([ b] c4) f8 %55
+    \appoggiatura es d4 r8 es,
+    f16([ g] as4) g8
+    f4 r8 d'
+    es8.([ d32 c] b8) as
+    g8.([\trill f32 g] as8) f %60
+    es8.([ f16] f4)
+    es r
+    R2*5 %67
+    R2\fermata \bar "|." %68 finis
+  }
+}
+
+A-IXAriaSecundaSoliLyrics = \lyricmode {
+  Ô mei -- ne
+  Füeß!
+  wie hö -- nig --
+  ſüeß
+  würd euch die %5
+  Müeh be --
+  loh -- net, be --
+  loh -- net,
+  und du mein
+  Mund, %10
+  der man -- che
+  Stund die
+  Weld, die
+  Weld zur Büeß
+  er -- mah -- %15
+  net.
+  Ô mei -- ne
+  Füeß!
+  wie hö -- nig --
+  ſüeß würd %20
+  euch __ die
+  Müeh, die
+  Müeh doch be --
+  loh -- net,
+  und du mein %25
+  Mund,
+  der man -- che
+  Stund die
+  Weld, die
+  Weld zur Büeß %30
+  er -- mah --
+  net.
+
+  Ihr
+  mei -- ne Glie -- der %35
+  ins -- ge -- mein, nun
+  werd ihr bald ge --
+  züh -- ret ſein mit
+  je -- nen Kleid der
+  Eh -- ren, dorth %40
+  iſt kein
+  Leyd, kein
+  Trau -- rig --
+  keit, die
+  Freu -- den %45
+  ſich __ ſtäts
+  meh --
+  ren. Ihr
+  mei -- ne Glie -- der
+  ins -- ge -- mein, nun %50
+  werd ihr bald ge --
+  züh -- ret ſein mit
+  je -- nen Kleid der
+  Eh -- ren, dorth
+  iſt __ kein %55
+  Leyd, kein
+  Trau -- rig --
+  keit, die
+  Freu -- den
+  ſich __ ſtäts %60
+  meh --
+  ren. %62 finis
+}

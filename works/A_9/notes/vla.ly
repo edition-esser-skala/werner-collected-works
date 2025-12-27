@@ -204,3 +204,163 @@ A-IXAriaPrimaViola = {
     R1*7 \markDaCapo \bar "||" %52 finis
   }
 }
+
+A-IXScenaQuintaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-IXScenaQuinta
+    \partial 2 g'2~\p^\markup \remark "stendato" \bar ";"
+      g f~
+    f es
+    f es
+    b c4 as'8 f
+    d4 es2 d4 %5
+    es1\fermata \bar "|." %6 finis
+  }
+}
+
+A-IXAriaSecundaViolaI = {
+  \relative c' {
+    \clef alto
+    \key es \lydian \time 3/4 \tempoA-IXAriaSecunda
+      \once \override Staff.TimeSignature.style = #'single-digit
+    g'4\p b8( g) f( d)
+    es4 r r
+    g~ \tuplet 3/2 4 { g8 f es f es d }
+    es4 r r
+    R2.*3 %7
+    r8 r16 a f4-! c-!
+    b r r
+    r8 r16 f a4-! c-! %10
+    es! r r
+    r8 r16 d' b4-! f-!
+    R2.*3 %15
+    r8 r16 a f4-! c-!
+    R2.
+    r8 r16 h' g4-! d-!
+    R2.
+    r8 r16 c f4-! a-! %20
+    b r r
+    r d, f
+    es r r
+    r8 r16 g es4-! b-!
+    R2. %25
+    r8 r16 c' g4-! es-!
+    R2.
+    r8 r16 b' g4-! es-!
+    c r f
+    f r r %30
+    R2.
+    r8 r16 b\f g4-! es-! \noBreak
+    b8. g'16 es4-! b-!
+    \time 2/4 \tempoA-IXAriaSecundaB \newSpacingSection
+      g4 r8 g'\p \noBreak
+    g g f f %35
+    g g b as
+    f f f f
+    g g es es
+    es es f f
+    f f f f %40
+    g g g g
+    f f f f
+    f f f f
+    f f a a
+    b b f f %45
+    f f g g
+    \pa f f f f \pd
+    d4 r8 es16 f
+    g8 g f f
+    g g b b %50
+    es, es f f
+    f f f f
+    g es f g
+    g f g g
+    es es f f %55
+    f f g g
+    f f f es
+    d d d d
+    es es f f
+    es g es as %60
+    \pa g es4 d8 \pd
+    es\f es f f
+    g g g g
+    es es es f
+    es es f f %65
+    es es es as
+    \pa g es4 d8 \pd
+    es4 r\fermata \bar "|." %68 finis
+  }
+}
+
+A-IXAriaSecundaViolaII = {
+  \relative c' {
+    \clef alto
+    \key es \lydian \time 3/4 \tempoA-IXAriaSecunda
+      \once \override Staff.TimeSignature.style = #'single-digit
+    es4\p g8( es) d( f)
+    g4 r r
+    b,~ \tuplet 3/2 4 { b8 as g \hA as g f }
+    g4 r r
+    R2.*3 %7
+    r8 r16 f' c4-! a-!
+    g r r
+    r8 r16 a f4-! a-! %10
+    b r r
+    r8 r16 b' f4-! c-!
+    R2.*3 %15
+    r8 r16 f c4-! a-!
+    R2.
+    r8 r16 g' d4-! h-!
+    R2.
+    r8 r16 a a4-! c-! %20
+    b r r
+    r f as
+    b r r
+    r8 r16 es b4-! g-!
+    R2. %25
+    r8 r16 g' es4-! c-!
+    R2.
+    r8 r16 g' es4-! b-!
+    es, r c'
+    d r r %30
+    R2.
+    r8 r16 g\f es4-! b-! \noBreak
+    g8. es'16 b4-! g-!
+    \time 2/4 \tempoA-IXAriaSecundaB \newSpacingSection
+      es4 r8 b'\p \noBreak
+    b b b b %35
+    es es es c
+    b d d d
+    b b b b
+    c c c c
+    d d d d %40
+    b b es es
+    c c d d
+    c c c b
+    a a c c
+    d d c c %45
+    d d b es
+    d b4 a8
+    b4 r8 b
+    b b b b
+    es es g g %50
+    c, c c c
+    d d d d
+    b b b b
+    b b b b
+    c c c c %55
+    d d b b
+    b d d b
+    b b b b
+    b b d d
+    b b c f, %60
+    b b b b
+    g\f g b b
+    es es es b
+    c c b b
+    b b d d %65
+    b b c c
+    b b b b
+    g4 r\fermata \bar "|." %68 finis
+  }
+}
