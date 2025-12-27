@@ -1,9 +1,13 @@
 \version "2.24.0"
 
+Judas = \markup { \override #'(box-padding . 0.5) \box "Judas" }
 Judex = \markup { \override #'(box-padding . 0.5) \box "Judex" }
+Lucifer = \markup { \override #'(box-padding . 0.5) \box "Lucifer" }
 Petrus = \markup { \override #'(box-padding . 0.5) \box "Petrus" }
+StMagdalena = \markup { \override #'(box-padding . 0.5) \box "St: Magdalena" }
 StMichael = \markup { \override #'(box-padding . 0.5) \box "St: Michael" }
 
+fC = \set Staff.forceClef = ##t
 markScenaQuinta = {
   \once \override Score.RehearsalMark.self-alignment-X = #LEFT
   \mark \markup \remark "(Scena quinta)"
@@ -21,6 +25,10 @@ tempoA-IXScenaQuarta = \tempoMarkup "Recitativo"
 tempoA-IXScenaQuinta = \tempoMarkup "Adagio"
 tempoA-IXAriaSecunda = \tempoMarkup "Adagio"
   tempoA-IXAriaSecundaB = \tempoMarkup "Vivace"
+tempoA-IXScenaSexta = \tempoMarkup "Recitativo"
+tempoA-IXAriaTertia = \tempoMarkup "Tempo sicilian[o]"
+tempoA-IXScenaSeptima = \tempoMarkup "Recitativo"
+tempoA-IXAriaQuarta = \tempoMarkup "[Tempo deest]"
 
 \include "notes/trb.ly"
 \include "notes/vl1.ly"

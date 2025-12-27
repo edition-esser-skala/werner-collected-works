@@ -338,3 +338,248 @@ A-IXAriaSecundaViolinoI = {
     es r\fermata \bar "|." %68 finis
   }
 }
+
+A-IXAriaTertiaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 6/8 \tempoA-IXAriaTertia
+    \partial 8 r8-\conSord r4 g''8 b,8. a16 b8
+    b4 a8 r4 d8
+    es!4.~ es8. d16 cis8
+    d4.~ d8. c16 h8
+    c4.~ c8. b16 a8 %5
+    b4.~ b8. a16 g8
+    as4.~ as8. g16 fis8
+    g4 r8 r4 g8
+    cis4.~ cis8. d16 es!8
+    d4 a'8 b8. a16 g8 %10
+    es!8. d16 c8 b8. c16 a8
+    g4 r8 r4 r8
+    r4 g'8 h,8. c16 d8
+    g,4 g'8 g4 d8
+    es4.~ es8. f16 g8 %15
+    cis,8. d16 e8 d8. \hA e16 f8
+    es4.~ es8. d16 cis8
+    d4.~ d8. c16 b!8
+    a8. b16 g8 f8. g16 e8
+    d8. d'16 a8 d,4 r8 %20
+    r4 g'8 b,8. a16 b8
+    b4\trill a8 r4 r8
+    r4 g'8 f4.~
+    f e~
+    e d~ %25
+    d8. es16 f8 g4.~
+    g~ g8. fis16 g8
+    fis4 r8 r4 r8
+    r4 g8 h,8. c16 d8
+    g,8. g'16 f!8 es8. f16 d8 %30
+    cis4.~ cis8. d16 e8
+    d16( cis) d8 es d4 c8
+    b8. a16 g8 es'4 c'8
+    d,4 b'8 c,8. d16 es8
+    d8. es16 c8 b8. c16 a8 %35
+    g4 d'8 g8. as16 f!8
+    es4 r8 r4 es8
+    d4.~ d4 es8
+    d8. es16 c8 b8. c16 a8
+    g8. d16 b8 g4\fermata r8 %40
+    r4 r8 r4 b'8
+    c4 b8 c8. a16 b8
+    r4 g'8 f4.~
+    f r4 r8
+    r4 d'8 g,4 f8 %45
+    g8. f16 e8 f4.~
+    f4 g8 f8. g16 e8
+    f8. a16 c,8 a4 r8
+    r4 as'8 g4.~
+    g8. c,16 h8 c8. es,16 c8 %50
+    r4 g''8 f4.~
+    f8. b,16 a8 b8. d,16 b8
+    r r16 a'' g8 a4.~
+    a8. g16 fis8 g4.~
+    g~ g8. fis16 g8 %55
+    fis8. a16 cis,8 d8. a16 fis8
+    d4. r4 r8
+    r4 es'!8 d8. c16 h8
+    c8. g16 es8 c4 r8
+    r4 b''!8 a8. b16 g8 %60
+    f8. e16 d8 \hA e4 cis8
+    a4 r8 d8. e16 f8
+    \time 4/4 d,4 r r2 \markDaCapo \bar "||" %63 finis
+  }
+}
+
+A-IXScenaSeptimaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-IXScenaSeptima
+    R1*12 %12
+    r32 g''\f g g g g g16 r32 e e e e e e16 r32 f f f f f f16 r32 f,\p f f f f f16
+    r cis-!\f e-! g-! b-! cis! e-! g-! b g,32 g g16 g g8 r
+    r2 r32 d\f e f g a h cis d a h cis d e f g %15
+    \kneeBeam a16. d,,32 d8 r4 r16 g'\p g8 r4
+    r16 g(\f c16.) es,32( g16.) c,32( \hA es16.) g,32( a4) r
+    r32 b\p b b b8 r4 r16 f'32\f e d16. f32 a,16. d32 f,16. a32
+    d,4.\p d8 e4 r
+    b''\ff r r16 d\f a16. f32 d16. a32 f16. d32 %20
+    b4 r r2
+    R1\fermata \bar "|." %22 finis
+  }
+}
+
+A-IXAriaQuartaViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \major \time 2/2 \tempoA-IXAriaQuarta
+    \partial 4 r4 R1
+    r8 a'\fE d a fis' d a' fis
+    e a16 gis a8 e cis e a, cis
+    e, e'16 d e8 cis a cis e, a
+    cis,2 r %5
+    r8 a' cis a e' cis g'! e
+    fis a16 g a8 fis d fis16 e fis8 d
+    a d16 cis d8 a fis4 d
+    r cis'2\p cis4
+    r e2 e4 %10
+    r8 fis,\f h fis dis' h fis' \hA dis
+    h'4 fis dis h
+    r h2\p h4
+    r d!2 d4
+    r8 e,\f a e cis' a e' cis %15
+    a'4 e cis a
+    r h\p g'2
+    r4 cis, a'2
+    r4 d, h'2
+    r4 e, cis'2 %20
+    r r8 d, fis a
+    d2 r
+    r r8 a, cis e
+    a2 r
+    r r8 gis, h e %25
+    gis2 r
+    r4 a8\f a e e cis4
+    r e8 e cis cis a4
+    R1*6 %34
+    r4 a8\f a cis cis e e %35
+    fis fis h, h d d fis fis
+    gis gis cis, cis e e \hA gis gis
+    a a d, d fis fis a a
+    h h e, e gis gis h h
+    cis4 h8 a gis fis e d %40
+    cis4 h8 a gis fis e d
+    cis2 d\trill
+    e4 fis8 gis a h cis d
+    cis2 h
+    a4 a' e cis %45
+    R1
+    r8 a\f d a fis' d a' fis
+    e a16 gis a8 e cis e a, cis
+    e, e'16 d e8 cis a cis e, a
+    cis,2 r %50
+    r8 a' cis a e' cis g'! e
+    fis a16 g a8 fis d fis16 e fis8 d
+    a d16 cis d8 a fis4 d
+    r e'\p a2
+    r4 d, h'2 %55
+    r8 a,\f cis a e' cis a' e
+    cis'4 a r2
+    r4 a,\p d2
+    r4 g, e'2
+    r8 d,\f fis d a' fis d' a %60
+    fis'4 d r2
+    r4 h\p g'2
+    r4 cis, a'2
+    r4 d, h'2
+    r4 e, cis'2 %65
+    r r8 d, fis a
+    d2 r
+    r r8 a, cis e
+    a2 r
+    r r8 gis, h e %70
+    gis2 r
+    r8 a, h cis d e fis g
+    a4 e cis a
+    R1*6 %79
+    r4 d,8\f d fis fis a a %80
+    h h e, e g g h h
+    cis cis fis, fis a a cis cis
+    d d g, g h h d d
+    e e a, a cis cis e e
+    fis4 e8 d cis h a g %85
+    fis fis' e d cis h a g
+    fis2 g
+    a4 h8 cis d e fis g
+    fis2 e\trill
+    d\fermata r %90
+    R1*3
+    r8 cis'\f cis cis cis cis cis cis
+    cis4 ais, cis fis %95
+    h2 fis
+    dis h
+    r8 h' h h h h h h
+    h4 g, h e
+    a2 e %100
+    cis a
+    r8 a' a a a a a a
+    d4 a fis d
+    R1*2 %105
+    \override TupletBracket.tuplet-slur = ##t
+      \override TupletBracket.bracket-visibility = #'if-no-beam
+      % \tupletDown
+    r2 \tuplet 3/2 2 { \stemUp h4\p ais h \stemNeutral
+    d! cis d } f2
+    r \tuplet 3/2 2 { ais,4 gis \hA ais
+    cis h cis } fis2
+    r \tuplet 3/2 2 { gis,4 fis \hA gis %110
+    \stemUp h a! h \stemNeutral } eis2
+    fis4 fis, ais cis
+    r fis \tuplet 3/2 2 { fis e fis }
+    r g, e'2
+    r4 a, fis'2 %115
+    r4 h, g'2
+    r4 cis, a'2
+    r4 d, h'2
+    r4 e, cis'2
+    R1*4 %123
+    r4 a,\f d fis
+    h, h'8 a g fis e d %125
+    cis2. e4
+    a,2 r
+    r4 h'8 a gis fis e d
+    cis4 cis'8 h a gis fis e
+    d4 d'8 cis h a gis fis %130
+    e4 a,8 h cis4 d
+    e4.\trill d16 e fis4 d
+    cis2 h\trill
+    a r
+    R1 %135
+    r4 e'\p h' a
+    gis fis e d
+    cis8 d e cis a h cis a
+    e4 cis2 a4
+    r cis' gis' fis %140
+    eis d! cis h
+    a8 h cis a fis gis? a fis
+    cis4 cis' ais fis
+    R1
+    r4 cis''8 h ais g! fis e %145
+    d4 h2 fis4
+    d h r2
+    R1
+    r4 h''8 a! gis fis e d
+    cis4 a2 e4 %150
+    cis a r2
+    r4 fis' d'2
+    r4 gis, e'2
+    r4 a, fis'2
+    r4 h, gis'2 %155
+    r4 a gis fis
+    e d cis h
+    a2 r
+    R1*3 %161
+    r2 ais4( h)
+    h( cis) cis( fis,)
+    fis2 r
+    R1*4 \markDaCapo \bar "||" %168 finis
+  }
+}

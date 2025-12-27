@@ -364,3 +364,80 @@ A-IXAriaSecundaViolaII = {
     g4 r\fermata \bar "|." %68 finis
   }
 }
+
+A-IXAriaTertiaViola = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 6/8 \tempoA-IXAriaTertia
+    \partial 8 r8 R2.*35 %35
+    g'4\pE f!8 es4 d8
+    c4 b!8 a4 g8
+    fis8. e16 d8 g4 c8
+    b4 c8 d4 d8
+    g,4.~ g4\fermata r8 %40
+    R2.*22 %62
+    \time 4/4 R1 \markDaCapo \bar "||" %63 finis
+  }
+}
+
+A-IXScenaSeptimaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-IXScenaSeptima
+    R1*12 %12
+    \mvDl b2\pE gis
+    g cis~
+    cis d %15
+    c h!
+    c cis~
+    cis d
+    b a
+    g f %20
+    g4 gis a2
+    d, r\fermata \bar "|." %22 finis
+  }
+}
+
+A-IXAriaQuartaViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key d \major \time 2/2 \tempoA-IXAriaQuarta
+    \partial 4 r4 R1*34 %34
+    r2 a'\fE %35
+    d, h'
+    e, cis'
+    fis, d'
+    gis, e'
+    a, r %40
+    a r
+    a,4 a' fis d
+    cis2. d4
+    e2 e,
+    a r %45
+    R1*34 %79
+    r2 d,\fE %80
+    g e'
+    a, fis'
+    h, g'
+    cis, a'
+    d, r %85
+    d r
+    d4 d' h g
+    fis2. g4
+    a2 a,
+    d,\fermata r %90
+    R1*33 %123
+    r2 fis'\fE
+    g e %125
+    a cis,
+    d h
+    e2. e4
+    fis2. fis4
+    gis2. gis4 %130
+    a2 fis
+    cis d
+    e e,
+    a r
+    R1*34 \markDaCapo \bar "||" %168 finis
+  }
+}

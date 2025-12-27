@@ -16,12 +16,13 @@ sources:
     principal: true
 tocstyle: default
 toe: |
-  –  & –  & vla  & In \B1, there is no staff for vla in movements 3, 4.
+  –  & –  & vla  & In \B1, there is no staff for vla in movements 3, 4, 10, 11, 12.
                    Here, a vla part has been added
                    by the editor to these movements.
-                   In arias (no. XXX), the vla plays in unison
+                   In arias (no. 10, 12), the vla plays in unison
                    with bc whenever the voice pauses during the first section.
-                   In accompagnatos (no. XXX), it plays
+                   In accompagnatos (no. 11), it plays
                    unison with bc.
                    In choruses (no. 3, 4), it generally plays unison
                    with T in fugues, and unison with bc otherwise.
+                   TODO: mark in full score
