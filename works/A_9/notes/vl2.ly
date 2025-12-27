@@ -577,3 +577,83 @@ A-IXAriaQuartaViolinoII = {
     R1*4 \markDaCapo \bar "||" %168 finis
   }
 }
+
+A-IXAriaQuintaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 6/8 \tempoA-IXAriaQuinta
+    b'8.\f c16 d es f4 b8
+    a c16 b a g f8 b es,
+    d f16 es d c b8 f' g
+    a, c16 b a g f8 a c
+    d16 c b c d b e d c d \hA e c %5
+    f e d \hA e f d g f \hA e d c b
+    a b a b c8 d d, e
+    a16 b a b c8 d d, e
+    f16 a c b a g f4 r8
+    R2. %10
+    r4 r8 f16 e f g a b
+    a8 f r r4 r8
+    r4 r8 \sbOn \tuplet 3/2 8 { d'16[\p c d f es f } b8]
+    r4 r8 \tuplet 3/2 8 { f16[ e f a g a } c8] \sbOff
+    R2. %15
+    r16 f,\f c f a, c f, a f a c, f
+    a,4 r8 r4 r8
+    f''16\f e f8 a f16 f c c a8
+    R2.
+    a16 g a8 f' c16 c a a f8 %20
+    R2.
+    c'16 e g8 g g( f) e
+    f4 r8 f\p c a
+    R2.*2 %25
+    f8.\f g16 a b c4 f8
+    e g16 f \hA e d c8 g' b,
+    a c16 b a g f8 c' f
+    d f16 es! d c b8 f b
+    g16 f es f g es a g f g a f %30
+    b a g a b g c b a b c a
+    d es d es f8 g g, a
+    d16 es d es f8 g g, a
+    b f16 es d c b4 r8
+    R2. %35
+    f'16 g a g a b a b c8 b
+    a4 r8 r4 r8
+    r4 r8 \sbOn \tuplet 3/2 8 { d16[\pE c d f es f } b8]
+    r4 r8 \tuplet 3/2 8 { f16[ e f a g a } c8] \sbOff
+    R2. %40
+    r16 f,\f c f a, c f, c' a c f, a
+    b4 r8 r4 r8
+    g es'16 d es8 b g es
+    R2.
+    a8 f'16 e f8 c a f %45
+    R2.
+    f16\p a c8 c c( b) a
+    b4 r8 f'\f d b
+    r4 r8 f'\p d b
+    R2. %50
+    r8 b,16\f c d es f8 b, b'
+    g16 f es f g es a g f g a f
+    b a g a b g c b a b c a
+    d es d es f8 g g, a
+    d16 es d es f8 g g, a %55
+    b f16 es d c b4\fermata r8
+    R2.
+    d16\p fis a8 a a( g) fis
+    g4 r8 f( es) d
+    es4 r8 g\f es c %60
+    c4\p r8 es( d) c
+    d4 r8 f\f d b
+    R2.
+    c'16(\f h) c8 r d16( c) d8 r
+    es16( d) es8 r r4 r8 %65
+    d16( cis) d8 r e16( d) \hA e8 r
+    \once \slurDashed f16( e) f8 r r4 r8
+    R2.*2
+    cis8\p e16 d \hA e8 \hA cis a e %70
+    d' f16 e f8 d a f
+    cis e16 d \hA e8  \hA cis a' \hA cis,
+    R2.*3 %75
+    \time 4/4 \tempoA-IXAriaQuintaB
+      R1*2 \markDaCapo \bar "||" %77 finis
+  }
+}

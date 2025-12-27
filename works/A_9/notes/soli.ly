@@ -827,3 +827,173 @@ A-IXAriaQuartaSoliLyrics = \lyricmode {
   _ ge --
   bohrn. %168 finis
 }
+
+A-IXScenaSineNumeroSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXScenaSineNumero
+    r8^\Lucifer d a16 a a h g8 g16 g h h h c
+    d8 d d16 d f e c8 c r e
+    a, a h c c g r4
+    r8 a cis16 cis e a, g8. g16 g8 a
+    b g \hA b a f f r a %5
+    d d f d c! c c g
+    b b d c a a r c
+    f f c d h8. h16 h8 c
+    d d f e c8. c16 c8 e
+    a,8. a16 d8 a h h r e %10
+    e8. a,16 a8 b g!8. g16 g8 g
+    g g b a f8. f16 f8 d'
+    b g cis d d a r4
+    r8 a a16 a d a b8. b16 b8 d
+    f b, d \hA b g g r g %15
+    f f as g es8. es16 es8 c'
+    b g fis g g d r4
+    R1\fermata \bar "|." %18 finis
+  }
+}
+
+A-IXScenaSineNumeroSoliLyrics = \lyricmode {
+  Nun iſt mein Neyd ge -- ſtil -- let, weil ich mein fin -- ſters
+  Reich ſo woll be -- ſe -- tzet ſe -- he, und
+  zahl -- reich an -- ge -- fül -- let. Hier
+  wird die Ehr -- ſucht Je -- za -- bels mit
+  Schmach und Schand er -- fül -- let, der %5
+  Durſt des trunckh -- nen Ho -- lo -- fern mit
+  gſchmoltz -- nen Ertz er -- ſtil -- let, der
+  Pha -- ri -- se -- er Neid und Haß wird
+  da in al -- ler U -- ber -- maß ge --
+  fol -- tert und ge -- quäl -- let, der %10
+  Pu -- ti -- phar ſein gei -- len Weib iſt
+  ſchon vor ih -- ren zar -- ten Leib ein
+  Schwe -- fel -- bad be -- ſtel -- let.
+  Vor al -- le La -- ſter ins -- ge -- mein, die
+  im -- mer zu er -- den -- ckhen, wird %15
+  ein be -- ſon -- der Mar -- ter ſeyn, die
+  Leib und See -- le krän -- khen. %17 finis
+}
+
+A-IXAriaQuintaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key b \major \time 6/8 \autoBeamOff \tempoA-IXAriaQuinta
+    R2.*9 %9
+    f,8 b b b([ a)] g %10
+    f4 r8 r4 r8
+    f es' es es([ d)] c
+    b16[ a b d b f] b4.\trill
+    c16[ b c es c f,] c'4.\trill
+    d16[ c d f d b] f'8 es d %15
+    c16([ a c a)] f8 r4 r8
+    f a b c([ d)] e
+    f4 r8 r4 r8
+    d e f c([ f]) b,
+    a4 r8 r4 r8 %20
+    f f' f f([ e)] d
+    c4 r8 r4 r8
+    c a f c' f16([ e f8)]
+    c[ a f] c'[ f16 e f8]
+    c[ a f] c4.\trill %25
+    f4 r8 r4 r8
+    R2.*8 %34
+    f8 b b b([ a)] g %35
+    f4 r8 r4 r8
+    f es' es es([ d)] c
+    b16[ a b d b f] b4.\trill
+    c16[ b c es c f,] c'4.\trill
+    d16[ c d f d b] f'8 es d %40
+    c16([ a c a)] f8 r4 r8
+    f b d f([ d)] b
+    \appoggiatura as g4. r4 r8
+    g c e g([ \hA e)] c
+    \appoggiatura b a!4. r4 r8 %45
+    f b b b([ a)] g
+    f4 r8 r4 r8
+    f' d b f4 b8
+    f'[ d b] f16[ a b c d es]
+    f8[ d b] f4. %50
+    b, r4 r8
+    R2.*4 %55
+    R2.\fermata
+    g'8 b g d'4 g8
+    \appoggiatura g fis4 r8 r4 r8
+    g, h d f([ es!)] d
+    es16([ d es d)] c8 r4 r8 %60
+    f, a c es([ d)] c
+    d16([ c d c)] b8 r4 r8
+    f' d c h([ c)] d
+    c4 r8 r4 r8
+    g es' d cis([ d)] e %65
+    d4 r8 r4 r8
+    a d f es!([ d)] cis
+    d([ c)] b a([ b)] g
+    f4. g
+    a2.~\trill %70
+    a~
+    a4.~ a16[ g a h? cis a]
+    d8[ c b] a[ b g]
+    f[ e d] b'[ a g]
+    a4 g8 a4. %75
+    \time 4/4 \tempoA-IXAriaQuintaB d,8 d' b g cis e d16[( a b g]
+    f4 e)\trill d2 \markDaCapo \bar "||" %77 finis
+  }
+}
+
+A-IXAriaQuintaSoliLyrics = \lyricmode {
+  Waß ach -- te ich der %10
+  Peyn,
+  ich pfle -- ge nur zu
+  la -- _
+  _ _
+  _ _ chen, zu %15
+  la -- chen,
+  weil ich den größ -- ten
+  Gnuß,
+  dem Him -- mel zum Ver --
+  drus %20
+  kan ich ver -- gnüe -- get
+  ſeyn
+  in mei -- nen Höl -- len __
+  Ra -- _
+  _ _ %25
+  chen.
+
+  Waß ach -- te ich der %35
+  Peyn,
+  ich pfle -- ge nur zu
+  la -- _
+  _ _
+  _ _ chen, zu %40
+  la -- chen,
+  weil ich den größ -- ten
+  Gnuß,
+  dem Him -- mel zum Ver --
+  drus %45
+  kan ich ver -- gnüe -- get
+  ſeyn
+  in mei -- nen Höl -- len
+  Ra -- _
+  _ _ %50
+  chen.
+
+  Mein Ab -- ſicht wa -- re %57
+  nur
+  die See -- len zu ver --
+  blen -- den, %60
+  die See -- len zu ver --
+  blen -- den,
+  durch man -- cher -- ley Be --
+  trug
+  mit fal -- ſcher Liſt und %65
+  Lug
+  die menſch -- lich Cre -- a --
+  tur mir e -- wig
+  zu ver --
+  pfän -- %70
+
+  _ _ %73
+  _ _
+  _ _ _ %75
+  den, mir e -- wig zu ver -- pfän --
+  den. %77 finis
+}

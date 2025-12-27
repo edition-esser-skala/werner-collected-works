@@ -441,3 +441,39 @@ A-IXAriaQuartaViola = {
     R1*34 \markDaCapo \bar "||" %168 finis
   }
 }
+
+A-IXAriaQuintaViola = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 6/8 \tempoA-IXAriaQuinta
+    b8\fE b' b b a g
+    f4 es8 d4 c8
+    b4 c8 d4 es8
+    f4 g8 a4 f,8
+    b4 g8 c4 a8 %5
+    d4 b8 e4 c8
+    f f,16 g a8 b4 c8
+    f f,16 g a8 b4 c8
+    f c16 b a g f4 r8
+    R2.*16 %25
+    f8\fE f' f f e d
+    c4 d8 e4 c8
+    f4 g8 a4 f8
+    b,4 c8 d4 b8
+    es!4 c8 f4 d8 %30
+    g4 es8 a4 f8
+    b b,16 c d8 es4 f8
+    b b,16 c d8 es4 f8
+    b,4 r8 r4 r8
+    R2.*16 %50
+    b4\fE c8 d4 b8
+    es4 c8 f4 d8
+    g4 es8 a4 f8
+    b b,16 c d8 es4 f8
+    b b,16 c d8 es4 f8 %55
+    b,4 r8 b4\fermata r8
+    R2.*19 %75
+    \time 4/4 \tempoA-IXAriaQuintaB
+      R1*2 \markDaCapo \bar "||" %77 finis
+  }
+}

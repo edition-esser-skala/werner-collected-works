@@ -583,3 +583,83 @@ A-IXAriaQuartaViolinoI = {
     R1*4 \markDaCapo \bar "||" %168 finis
   }
 }
+
+A-IXAriaQuintaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 6/8 \tempoA-IXAriaQuinta
+    b'8.\f c16 d es f4 b8
+    a c16 b a g f8 b es,
+    d f16 es d c b8 f' g
+    a, c16 b a g f8 c' a'
+    r d, b' r e, c' %5
+    r f, d' r g,, c
+    a16 b a b c8 d d, e
+    a16 b a b c8 d d, e
+    f16 a c b a g f4 r8
+    R2. %10
+    f16 e f g a b a g a b c d
+    c8 a r r4 r8
+    r4 r8 \sbOn \tuplet 3/2 8 { f'16\p[ es f b a b } d8]
+    r4 r8 \tuplet 3/2 8 { a16[ g a c b c } es8] \sbOff
+    R2. %15
+    r16 a,\f f a c, f a, f' c f a, c
+    f,4 r8 r4 r8
+    a'16\f g a8 c a16 a f f c8
+    R2.
+    f16 e f8 a f16 f c c a8 %20
+    R2.
+    e'16 g b8 b b( a) g
+    a4 r8 a\p f c
+    R2.*2 %25
+    f,8.\f g16 a b c4 f8
+    e g16 f \hA e d c8 g' b,
+    a c16 b a g f8 c' f
+    d f16 es! d c b8 f d'
+    r g, es' r a, f' %30
+    r b, g' r c, a'
+    d,16 es d es f8 g g, a
+    d16 es d es f8 g g, a
+    b f16 es d c b4 r8
+    R2. %35
+    f'8 f' f f( es) d
+    c4 r8 r4 r8
+    r4 r8 \sbOn \tuplet 3/2 8 { f16[\pE es f b a b } d8]
+    r4 r8 \tuplet 3/2 8 { a16[ g a c a c } es8] \sbOff
+    R2. %40
+    r16 a,\f f a c, f a, f' c f a, c
+    f,4 r8 r4 r8
+    b8 g'16 f g8 es b g
+    R2.
+    c8 a'16 g a8 f c a %45
+    R2.
+    a16\p c es8 es es( d) c
+    d4 r8 b'\f f d
+    r4 r8 b'\p f d
+    R2. %50
+    r8 b,16\f c d es f8 b d
+    r g, es' r a, f'
+    r b, g' r c, a'
+    d,16 es d es f8 g g, a
+    d16 es d es f8 g g, a %55
+    b f16 es d c b4\fermata r8
+    R2.
+    fis'16\p a c8 c c( b) a
+    h4 r8 d( c) h
+    c4 r8 c\f g es %60
+    f4\p r8 c'( b) a
+    b4 r8 b\f f d
+    R2.
+    c'16(\f h) c8 r d16( c) d8 r
+    es16( d) es8 r r4 r8 %65
+    d16( cis) d8 r e16( d) \hA e8 r
+    f16( e) f8 r r4 r8
+    R2.*2
+    e8\p a16 g a8 \hA e cis a %70
+    f' a16 g a8 f d a
+    e a16 g a8 \hA e cis a
+    R2.*3 %75
+    \time 4/4 \tempoA-IXAriaQuintaB
+      R1*2 \markDaCapo \bar "||" %77 finis
+  }
+}
