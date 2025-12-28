@@ -12,6 +12,10 @@ markScenaQuinta = {
   \once \override Score.RehearsalMark.self-alignment-X = #LEFT
   \mark \markup \remark "(Scena quinta)"
 }
+markScenaNona = {
+  \once \override Score.RehearsalMark.self-alignment-X = #LEFT
+  \mark \markup \remark "(Scena nona)"
+}
 
 tempoA-IXIntro = \tempoMarkup "Adagiosè"
   tempoA-IXIntroB = \tempoMarkup "Vivace"
@@ -32,6 +36,9 @@ tempoA-IXAriaQuarta = \tempoMarkup "[Tempo deest]"
 tempoA-IXScenaSineNumero = \tempoMarkup "Recitativo"
 tempoA-IXAriaQuinta = \tempoMarkup "Tempo giusto"
   tempoA-IXAriaQuintaB = \tempoMarkup "Adagio"
+tempoA-IXScenaOctava = \tempoMarkup "Recitativo"
+tempoA-IXScenaNona = \tempoMarkup "Recitativo"
+tempoA-IXAriaSexta = \tempoMarkup "Vivace"
 
 \include "notes/trb.ly"
 \include "notes/vl1.ly"

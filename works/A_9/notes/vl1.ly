@@ -663,3 +663,133 @@ A-IXAriaQuintaViolinoI = {
       R1*2 \markDaCapo \bar "||" %77 finis
   }
 }
+
+A-IXAriaSextaViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \dorian \time 2/4 \tempoA-IXAriaSexta
+    c16\f c c c c' c c c
+    g' g g g g, g g g
+    c c c c c' c c c
+    h c d \hA h g4
+    as~ as16 as b \hA as %5
+    g4~ g16 g as g
+    f4~ f16 f g f
+    es8. f16 g8 as
+    es4 d\trill
+    c8. b!32 as g8 \hA as %10
+    es4 d\trill
+    c r
+    R2
+    r8 g'\p \tuplet 3/2 4 { c[ d es] }
+    R2 %15
+    r4 es8. d32 c
+    b!16 c d es f8 f
+    g,4 r
+    R2
+    b8 c16 d es8 d %20
+    es4 r
+    R2*2
+    r16 d\f d d d d d d
+    f f f f \kneeBeam as8 b,, %25
+    r es'\p as, f'
+    b, g' c, as'
+    d, b' r4
+    R2
+    r16 b,\f g b es,8 es' %30
+    r16 c as c f,8 f'
+    r16 d b d g,8 g'
+    r16 c, as' es b f' b f
+    g b g b es, g b, es
+    c es c es as, c f, \hA as %35
+    d, f' g as b8 \hA as
+    g8. as16 f4\trill
+    es r
+    R2
+    r8 g,\p \tuplet 3/2 4 { c[ d es] } %40
+    R2*2
+    r8 c16 d e f g8
+    c,4 as'
+    r8 g16 f e? d c8 %45
+    as'4 f,
+    b r
+    b8 c16 d es8 d
+    es4 r
+    es,8 f16 g as8 g %50
+    f f'16 es d8 c
+    h16\f h h h h h h h
+    as' as as as as as as as
+    g8 es, r4
+    g'8 g, r4 %55
+    r8 c\p f, d'
+    g, es' as, f'
+    h, g' r4
+    R2*2 %60
+    c,,16\f c c c c' c c c
+    g' g g g g, g g g
+    c c c c c' c c c
+    h c d \hA h g4
+    as~ as16 as b \hA as %65
+    g4~ g16 g as g
+    f4~ f16 f g f
+    es8. f16 g8 as
+    es4 d\trill
+    c8. b!32 as g8 \hA as %70
+    es4 d\trill
+    c\fermata r
+    R2*3 %75
+    r8 a''32(\p g fis e) d8 \hA fis32( \hA e d c)
+    b!4 r
+    r8 g'32( f! es! d) c8 es32( d c b)
+    a4 r
+    r16 f b f d' b f' d %80
+    b'8 b, r16 d f d
+    g g, b g es' b g' es
+    c'8 c, r16 e g \hA e
+    a8 f, r4
+    R2 %85
+    f'16 es! d c b8 a
+    g f es d
+    c a' b b,
+    f'4 r
+    r16 b,\f d b f' d b' f %90
+    g c, es c g' es c' g
+    a d, f d a' f d' a
+    b g es'^\critnote b c a f' c
+    d b d f b8 b,
+    c16 a c fis a8 a, %95
+    b16 g b d g8 g,~
+    g16 b d8 c b
+    a d, r4
+    es'!~ es16 es f! es
+    d4~ d16 d es d %100
+    c4~ c16 c d c
+    b8. c16 d8 es
+    b4 a\trill
+    g'8. f!32 es d8 es
+    b4 a\trill %105
+    g r
+    R2
+    r8 c16\p d es f g8
+    r g,16 a h c d \hA h
+    c8 g es c %110
+    r f'32( es d c) b!8 d32( c b as)
+    g4 r8 g'32( f es d)
+    c4 r8 as'32( g f es)
+    d16 f, b f d' b f' d
+    b'8 b, r16 d f d %115
+    g8 es, r16 g c g
+    fis8 d r4
+    r16 a d a fis' d a' \hA fis
+    b8 a g f
+    es d c es %120
+    d4. d8
+    g,4 r
+    R2
+    r4 b'~
+    b8 b b b %125
+    b2
+    a\trill
+    g \markDaCapo \bar "||" %128 finis
+  }
+}

@@ -657,3 +657,130 @@ A-IXAriaQuintaViolinoII = {
       R1*2 \markDaCapo \bar "||" %77 finis
   }
 }
+
+A-IXAriaSextaViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \dorian \time 2/4 \tempoA-IXAriaSexta
+    r8 es\f es es
+    d d' g g,
+    r c es f
+    g d h g
+    r f' c d %5
+    r es b c
+    r d a! h
+    c c, c'4~
+    c h\trillE
+    c c,~ %10
+    c h\trill
+    c r
+    R2
+    r8 g'\p \tuplet 3/2 4 { es8[ d c] }
+    R2*3 %17
+    r4 es8. d32 c
+    b16 c d es f8 f
+    g,4 r %20
+    R2*3
+    r16 f'\f f f f f f f
+    as as as as f8 d %25
+    r es'\p as, f'
+    b, g' c, as'
+    d, b' r4
+    R2
+    r4 r16 g,\f es g %30
+    c,8 c' r16 as f \hA as
+    d,8 d' r16 b g b
+    es,8 c' f, d'
+    r16 b' g b es, g b, es
+    c es c es as, c f, \hA as %35
+    d, d' es f es8 f
+    es8. f16 d4\trill
+    es r
+    R2
+    r8 g,\p \tuplet 3/2 4 { es[ d c] } %40
+    R2
+    r8 c16 d es8 f
+    g4 c
+    r8 c16 b! as g f8
+    g4 c, %45
+    r8 f16 g as b c8
+    b4 f
+    R2
+    b8. as16 g \hA as b8
+    es,4 r %50
+    r8 as16 g f8 es
+    d16\f d' d d d d d d
+    d d d d d d d d
+    es8 c, r4
+    d'8 h, r4 %55
+    r8 c'\p f, d'
+    g, es' as, f'
+    h, g' r4
+    R2*2 %60
+    r8 es,\f es es
+    d d' g g,
+    r c es f
+    g d h g
+    r f' c d %65
+    r es b c
+    r d a! h
+    c c, c'4~
+    c h\trill
+    c c,~ %70
+    c h\trillE
+    c\fermata r
+    R2*4 %76
+    r8 d'32( c b a) g8 h32( a g f!)
+    es4 r
+    r8 c'32( b a g) f8 a32( g f es)
+    d16 f b f d' b f' d %80
+    b'8 b, r16 d f d
+    g g, b g es' b g' es
+    c'8 c, r16 e g \hA e
+    a8 f, r4
+    R2 %85
+    f'16 es! d c b8 a
+    g f es d
+    c a' b b,
+    f'4 r
+    r16 b,\f d b f' d b' f %90
+    g c, es c g' es c' g
+    a d, f d a' f d' a
+    b g es'^\critnote b c a f' c
+    d8 b r g'~
+    g fis r \once \tieDashed a~ %95
+    a g r g,~
+    g b a g
+    fis16 e? \hA fis8 r4
+    r8 c' g a
+    r b f! g %100
+    r a e fis
+    g g, g'4~
+    g fis\trillE
+    r8 g, g'4~
+    g fis\trill %105
+    g r
+    R2
+    r4 r8 es16\p f
+    g a h c d es f d
+    es8 c g es %110
+    R2
+    r8 b'32( as g f) es4
+    r8 c'32( b as g) f4
+    r16 f b f d' b f' d
+    b'8 b, r16 d f d %115
+    g8 es, r16 g c g
+    fis8 d r4
+    r16 a d a fis' d a' \hA fis
+    b8 a g f
+    es d c es %120
+    d4. d8
+    g,4 r
+    R2
+    r4 g'~
+    g8 g g g %125
+    g2
+    fis\trill
+    g \markDaCapo \bar "||" %128 finis
+  }
+}

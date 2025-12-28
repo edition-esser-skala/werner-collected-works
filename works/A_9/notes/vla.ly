@@ -477,3 +477,59 @@ A-IXAriaQuintaViola = {
       R1*2 \markDaCapo \bar "||" %77 finis
   }
 }
+
+A-IXAriaSextaViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key c \dorian \time 2/4 \tempoA-IXAriaSexta
+    c8\fE c' c4~
+    c8 h b4~
+    b8 a as4
+    g2
+    R2*3 %7
+    r8 as es f
+    g4 g,
+    r8 as' es f %10
+    g4 g,
+    c r
+    R2*17 %29
+    r4 r8 g\fE %30
+    as4 r8 \hA as
+    b4 r8 b
+    c4 d
+    es g
+    as f %35
+    b8 as g \hA as
+    b4 b,
+    es r
+    R2*21 %59
+    r8 c'\fE g es %60
+    c c' c4~
+    c8 h b4~
+    b8 a as4
+    g2
+    R2*3 %67
+    r8 as es f
+    g4 g,
+    r8 as' es f %70
+    g4 g,
+    c\fermata r
+    R2*17 %89
+    r4 r8 d\fE %90
+    es4 r8 e
+    f4 r8 fis
+    g4 a
+    b r8 g
+    a4 r8 fis %95
+    g4 r8 es!
+    b4 c
+    d8 d' fis, d
+    R2*3 %101
+    r8 es b c
+    d4 d,
+    r8 es' b c
+    d4 d, %105
+    g r
+    R2*22 \markDaCapo \bar "||" %128 finis
+  }
+}

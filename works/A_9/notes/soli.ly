@@ -997,3 +997,238 @@ A-IXAriaQuintaSoliLyrics = \lyricmode {
   den, mir e -- wig zu ver -- pfän --
   den. %77 finis
 }
+
+A-IXScenaOctavaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXScenaOctava
+    r8^\Judas b b16 b es \hA b g8 h d16 d f es
+    c8 g c16 c es c b8 f as16 as c b
+    g8 g \clef treble r^\StMichael b es es g \hA es
+    c e g16 g b as f8 f r as
+    as8. es16 es8 c f8. f16 f8 a %5
+    c es, f c des des r f
+    es es g \hA es c8. c16 c8 c
+    b d! f as g g r g
+    g d f g es es16 es es es es f
+    g8 r16 g g g b as f8 r16 f f f c d %10
+    es8 es es16 es f c d8 d d16 d d e?
+    fis8 fis r a c, c es d
+    b b r g h8. h16 h8 d
+    cis8. cis16 cis8 e g g b a
+    f f r4 \bar ";" \clef bass \markScenaNona r8^\Judex f, b16 b d \hA b \bar "|" %15 finis
+  }
+}
+
+A-IXScenaOctavaSoliLyrics = \lyricmode {
+  Ô daß doch di -- ſer Tag zu un -- ſern Troſt und
+  Glickh in ei -- nen Au -- gen -- blickh ver -- wand -- let mö -- ge
+  wer -- den! Nein nein, du ir -- reſt
+  weith ſambt dei -- nen Mit -- ge -- ferd -- ten, hat
+  Jo -- su -- e durch ſein Be -- fehl die %5
+  Son -- ne auf -- ge -- hal -- ten, da --
+  mit er möch -- te in der Stell der
+  Feun -- de Köpff zer -- ſtal -- ten. Wie
+  mehr will ſich ge -- zim -- men, den der er -- zöhrn -- te
+  Gott zu ſei -- ner größ -- ten Ehr, dem Sün -- der noch vill %10
+  mehr zu ſei -- nem Hon und Spott, den Tag des Zohrn und
+  Grim -- men ein lan -- ge Zeit bey --
+  ſe -- tze, auf daß er ſich recht
+  grau -- ſam -- lich an ſei -- nen Feun -- den
+  le -- ze. Wol -- lan die Zeit rueckht %15 finis
+}
+
+A-IXScenaNonaSoli = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXScenaNona
+    \partial 2 r8^\Judex f b16 b d \hA b
+    g8 g h16 g d f es8 es16 es g g g c
+    b8 b r16 g fis g g8. d16 d4
+    R1\fermata \bar "|." %3 finis
+  }
+}
+
+A-IXScenaNonaSoliLyrics = \lyricmode {
+  Woll -- an die Zeit rueckht
+  an, daß ich mich all -- gmach rä -- che, daß Ur -- theil je -- den
+  ſpre -- che wie er ver -- die -- net hat. %3 finis
+}
+
+A-IXAriaSextaSoli = {
+  \relative c {
+    \clef bass
+    \twofourtime \key c \dorian \time 2/4 \autoBeamOff \tempoA-IXAriaSexta
+    R2*12 %12
+    c'4 g
+    \tuplet 3/2 4 { es8([ d c]) } r es'
+    d([ h)] g([ f)] %15
+    es([ d)] c4
+    b'!4. as8
+    g([ f)] es([ c')]
+    b4. as8
+    g([ f)] es4 %20
+    b'8([ c16 d] es8) d
+    c([ b)] as([ g)]
+    f([ es)] d([ c)]
+    b as'4 as8
+    as f d b %25
+    g'16[ es f g] as[ f g \hA as]
+    b[ g as b] c[ \hA as b c]
+    d8 b es es,
+    b4. b8
+    es,4 r %30
+    R2*8 %38
+    c''4 g
+    \tuplet 3/2 4 { es8([ d c)] } r es' %40
+    d([ h)] g([ f)]
+    es([ d)] c4
+    c'4. b!8
+    as([ g)] f([ des')]
+    \appoggiatura des c4. b8 %45
+    as([ g)] f4
+    f8([ g16 as] b8) \hA as
+    g4 r
+    b8([ c16 d] es8) d
+    c4 r8 es %50
+    d4. c8
+    h g4 g8
+    h h h h
+    c[ c,]~ c16[ d es c]
+    d[ c h c] d[ es f g] %55
+    es[ c d es] f[ d es f]
+    g[ es f g] as[ f g \hA as]
+    h,8 h' c c,
+    g4. g8
+    c4 r %60
+    R2*11 %71
+    R2\fermata
+    b'4. a16([ g)]
+    d'4 d,
+    g es'8([ g,)] %75
+    fis4 d
+    g r8 d'
+    es([ g,)] es([ c)]
+    f16([ g a b] c8) f,
+    d4 b %80
+    f'8([ b16 a] b8) d
+    g,4 r
+    g8([ c16 h] c8) e
+    a,4. b8
+    c16([ b a g] f8) es! %85
+    d4 b'8 a
+    g f es d
+    c4 b8([ b')]
+    f4. f8
+    b,4 r %90
+    R2*16 %106
+    g'4. a16([ h)]
+    c8([ g)] es([ c)]
+    d'16([ c] h4) g8
+    es4 c %110
+    b'! r8 d
+    es([ b)] g([ es)]
+    c'([ f,)] as([ c)]
+    d,4 b
+    f'8([ b16 a] b8) d %115
+    g,4 r8 es'
+    fis,4 g
+    a8 d,4 a'8
+    b([ a)] g f!
+    es d c es %120
+    d4. d8
+    g,4 d''
+    b g
+    es!2
+    r4 cis %125
+    d2~
+    d4 d
+    g,2 \markDaCapo \bar "||" %128 finis
+  }
+}
+
+A-IXAriaSextaSoliLyrics = \lyricmode {
+  Nun ſoll %13
+  ſich mein
+  Rach auß -- %15
+  güeſ -- ſen
+  wan ich
+  ſe -- he
+  zu den
+  Füeſ -- ſen %20
+  mei -- ne
+  Feund dar --
+  ni -- der
+  falln und daß
+  Zet -- ter -- gſchrey er -- %25
+  ſchalln, __ _
+  _ _
+  _ daß Zet -- ter --
+  gſchrey er --
+  ſchalln. %30
+
+  Nun ſoll %39
+  ſich mein %40
+  Rach auß --
+  güeſ -- ſen
+  wan ich
+  ſeh zu
+  mei -- nen %45
+  Füeſ -- ſen
+  mei -- ne
+  Feund,
+  mei -- ne
+  Feund dar -- %50
+  ni -- der
+  falln und daß
+  Zet -- ter -- gſchrey er --
+  ſchalln, __
+  _ _ %55
+  _ _
+  _ _
+  _ daß Zet -- ter --
+  gſchrey er --
+  ſchalln. %60
+
+  Mil -- li -- %73
+  o -- nen
+  Don -- ner -- %75
+  keu -- le,
+  die wie
+  lau -- ther
+  Zoh -- ren --
+  pfey -- le, %80
+  ſol -- len
+  ſie,
+  ſol -- len
+  ſie zu
+  Bo -- den %85
+  ſchlagn und in
+  Grund, in Grund der
+  Höll, der
+  Höl -- len
+  jagn. %90
+
+  Mil -- li -- %107
+  o -- nen
+  Don -- ner --
+  keu -- le, %110
+  die wie
+  lau -- ther
+  Zoh -- ren --
+  pfey -- le,
+  ſol -- len %115
+  ſie zu
+  Bo -- den
+  ſchlagn und in
+  Grund, und in
+  Grund, in Grund der %120
+  Höl -- len
+  jagn, in
+  Grund der
+  Hölln,
+  der %125
+  Höl --
+  len
+  jagn. %128 finis
+}

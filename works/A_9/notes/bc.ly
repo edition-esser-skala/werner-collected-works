@@ -1547,3 +1547,314 @@ A-IXAriaQuintaBassFigures = \figuremode {
   r4 <_-> <[6!] 4\+ 2> <6>
   <6 4> <5[!] _+>2. %77 finis
 }
+
+A-IXScenaOctavaContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-IXScenaOctava
+    es2 h!
+    c d
+    es g
+    e f
+    c a!~ %5
+    a b
+    g as
+    d! es
+    h! c
+    b as %10
+    a b
+    a1
+    << { g'2 } \\ { g, } >> f'!
+    e cis
+    d4 d8 f \markScenaNona \bar ";" b,2 \bar "|" %15 finis
+  }
+}
+
+A-IXScenaOctavaBassFigures = \figuremode {
+  <[5-]>2 <6>
+  <_-> <6->
+  <[5-]> <6- [_-]>
+  <6> <_->
+  <6- [_-]> <6> %5
+  <5-> <_->
+  <6- [_-]> <[5-]>
+  <6-> <[5-]>
+  <6> <_->
+  <4! 2> <6> %10
+  <5->1
+  <6\\>
+  <_->2 <4! 2>
+  <6\\> <7- 5>
+  r4 <6[-]>2. %15 finis
+}
+
+A-IXScenaNonaContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-IXScenaNona
+    \partial 2 b2
+    h c
+    cis d4 d,
+    g1\fermata \bar "|." %3 finis
+  }
+}
+
+A-IXScenaNonaBassFigures = \figuremode {
+  r2 <6> <_->
+  <7- 5 [_!]> <4>4 <_+>
+  r1 %3 finis
+}
+
+A-IXAriaSextaContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key c \dorian \time 2/4 \tempoA-IXAriaSexta
+    c8\fE c' c4~
+    c8 h b4~
+    b8 a as4
+    g2
+    R2*3 %7
+    r8 as es f
+    g4 g,
+    r8 as' es f %10
+    g4 g,
+    c8 c'\pE g es
+    c es h g
+    c4 r8 c
+    h4 g %15
+    c2
+    d4 b!
+    es8 f g es
+    d4 b
+    es4. f8 %20
+    g2
+    as4. g8
+    f es d c
+    b4 r
+    b r %25
+    es f
+    g as
+    b8. as16 g8 \hA as
+    b4 b,
+    es, r8 g\fE %30
+    as4 r8 \hA as
+    b4 r8 b
+    c4 d
+    es g
+    as f %35
+    b8 as g \hA as
+    b4 b,
+    es8 g16\pE f es8 d
+    c es h g
+    c4 r8 c %40
+    h4 g
+    c4. d8
+    e4 c
+    f, f'
+    e c %45
+    f4. es8
+    d2
+    es4. f8
+    g2
+    as4. g8 %50
+    f2
+    g4 r
+    f r
+    es c
+    h g %55
+    c d
+    es f
+    g8 f es f
+    g4 g,
+    c8 c'\fE g es %60
+    c c' c4~
+    c8 h b4~
+    b8 a as4
+    g2
+    R2*3 %67
+    r8 as es f
+    g4 g,
+    r8 as' es f %70
+    g4 g,
+    c8\fermata c'\pE b! a!
+    g g, g'4~
+    g8 fis f4~
+    f8 e es4 %75
+    d fis
+    g h,
+    c es
+    f! a,
+    b!4. c8 %80
+    d4. b8
+    es4 r
+    e c
+    f f,8 g
+    a4 f %85
+    b b'8 a
+    g f es d
+    c4 b8 b'
+    f4 f,
+    b r8 d\fE %90
+    es4 r8 e
+    f4 r8 fis
+    g4 a
+    b r8 g
+    a4 r8 fis %95
+    g4 r8 es!
+    b4 c
+    d8 d' fis, d
+    R2*3 %101
+    r8 es' b c
+    d4 d,
+    r8 es b c
+    d4 d, %105
+    g8 g'\pE d b
+    g d' g f!
+    es4 c
+    h g'
+    c8 g es c %110
+    d4 b!
+    es g
+    as f
+    b,4. c8
+    d4. b8 %115
+    es4 c
+    d8 d' b g
+    fis4 d
+    g4. f8
+    es d c es %120
+    d4 d,
+    g r
+    g' r
+    r g
+    es! cis %125
+    d2
+    d,
+    g \markDaCapo \bar "||" %128 finis
+  }
+}
+
+A-IXAriaSextaBassFigures = \figuremode {
+  r2
+  <5 2>8 <6>4.
+  <2>4 <5>8 <6>
+  <_!>2
+  r2*3 %7
+  r4 <6>8 <[_-]>
+  <6 4>4 <5 _!>
+  r <6>8 <[_-]> %10
+  <6 4>4 <5 _!>
+  r2
+  r4 \bo <[6]>
+  r2
+  \bc q %15
+  r
+  <6[-]>
+  r4. <6>8
+  q2
+  r4. <6 [_-]>8 %20
+  <6>2
+  r
+  r
+  r
+  <7-> %25
+  r4 \bo <[_-]>
+  r2
+  r4 \bc <[6]>
+  <4> <3>
+  r2 %30
+  r4. <6>8
+  r4. q8
+  \bo <[5]> <6-> <6>4
+  r2
+  r4 \bc <[_-]> %35
+  r <6>8 q
+  <6 4>4 <5 3>
+  r4 <6>8 <6!>
+  r4 \bo <[6]>
+  r2 %40
+  <6>
+  r
+  \bc <[6]>
+  <_->4 <6- [_-]>
+  <6>2 %45
+  <_->
+  <6>
+  r4. <6 [_-]>8
+  <6>2
+  r4. q8 %50
+  <6 _->2
+  <_!>
+  <4! [_-]>
+  <6>
+  q %55
+  r
+  r4 <_->
+  <_!> <[6]>8 <_->
+  <4>4 <_!>
+  r2 %60
+  r
+  <5 2>8 <6>4.
+  <2>4 <5>8 <6>
+  <_!>2
+  r2*3 %67
+  r4 <6>8 <[_-]>
+  <6 4>4 <5 _!>
+  r <6>8 <[_-]> %70
+  <6 4>4 <5 _!>
+  r <6>8 <6\\>
+  r2
+  <5 2>8 <[6]>4.
+  <2>4 \bo <[5]>8 \bc <[6]> %75
+  <_+>2
+  <_->
+  r
+  r
+  r %80
+  r
+  r
+  <[6]>
+  r
+  r %85
+  r
+  r
+  r
+  <4>4 <3>
+  r2 %90
+  r4. \bo <[6]>8
+  r4. \bc q8
+  <5> <6-> <5> <6>
+  r2
+  <7>8 <6>4. %95
+  <9>8 <8>4.
+  <6>4 q8 <5>
+  <_+>2
+  r2*3 %101
+  r4 <6>
+  <6 4> <5 _+>
+  r <6>
+  <6 4> <5 _+> %105
+  r2
+  r4 <_!>
+  \bo <[6]>2
+  \bc q
+  r %110
+  <6[-]>
+  r
+  <[6]>
+  r
+  <6> %115
+  r
+  <_+>4 \bo <[6]>
+  \bc q2
+  r
+  r %120
+  <4>4 <_+>
+  r2
+  r
+  r4 <6->
+  r <7 5 [_!]> %125
+  <6 4>2
+  <5 _+>
+  r %128 finis
+}
