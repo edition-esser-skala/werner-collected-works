@@ -740,8 +740,115 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \section "17" "Aria sexta"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #3
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-IXAriaSextaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-IXAriaSextaViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \A-IXAriaSextaViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Judex"
+  %           \new Voice = "Soli" { \dynamicUp \A-IXAriaSextaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-IXAriaSextaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \A-IXAriaSextaContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-IXAriaSextaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 }
+  %   }
+  % }
+  % \bookpart {
+  %   \section "18" "Scena decima"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #3
+  %     system-count = #5
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-IXScenaDecimaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-IXScenaDecimaViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \A-IXScenaDecimaViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "soli"
+  %           \new Voice = "Soli" { \dynamicUp \A-IXScenaDecimaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-IXScenaDecimaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \A-IXScenaDecimaContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-IXScenaDecimaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "17" "Aria sexta"
+    \section "19" "Chorus"
     \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
@@ -752,7 +859,7 @@
       markup-system-spacing.minimum-distance = #10
       system-system-spacing.basic-distance = #17
       system-system-spacing.minimum-distance = #17
-      systems-per-page = #3
+      systems-per-page = #2
     }
     \score { %\articulate
       <<
@@ -761,36 +868,54 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \A-IXAriaSextaViolinoI
+              \A-IXChorusViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \A-IXAriaSextaViolinoII
+              \A-IXChorusViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \A-IXAriaSextaViola
+            \A-IXChorusViola
           }
         >>
         \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
-            \set Staff.instrumentName = "Judex"
-            \new Voice = "Soli" { \dynamicUp \A-IXAriaSextaSoli }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \A-IXChorusSoprano }
           }
-          \new Lyrics \lyricsto Soli \A-IXAriaSextaSoliLyrics
+          \new Lyrics \lyricsto Soprano \A-IXChorusSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \A-IXChorusAlto }
+          }
+          \new Lyrics \lyricsto Alto \A-IXChorusAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \A-IXChorusTenore }
+          }
+          \new Lyrics \lyricsto Tenore \A-IXChorusTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \A-IXChorusBasso }
+          }
+          \new Lyrics \lyricsto Basso \A-IXChorusBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \A-IXAriaSextaContinuo
+            \A-IXChorusContinuo
           }
         >>
-        \new FiguredBass { \A-IXAriaSextaBassFigures }
+        \new FiguredBass { \A-IXChorusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 110 }
+      \midi { \tempo 4 = 60 }
     }
   }
 }

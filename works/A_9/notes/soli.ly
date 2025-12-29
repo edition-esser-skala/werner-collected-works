@@ -1232,3 +1232,43 @@ A-IXAriaSextaSoliLyrics = \lyricmode {
   len
   jagn. %128 finis
 }
+
+A-IXScenaDecimaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXScenaDecima
+    r4^\StMichael r8 b es es g \hA es
+    c8. c16 c8 e g g b as
+    f8. f16 f8 f f c es f
+    d8. d16 d8 f g8. g16 a8 b
+    b8. f16 f4 \fC r^\StMagdalena b8 d %5
+    fis, c' es d b b \fC g,^\Petrus g
+    h! h d es c c \clef "treble_8" r^\Judas g
+    c c g as b4 b8 c
+    des8. des16 des8 c as as r f
+    a a16 a c8 des b4 r8 \hA b %10
+    h h d f, g g \fC r^\Lucifer g
+    c c c16 g b c as8 as c16 c es c
+    des8. des16 des4 r8 g,16 g h d h g
+    es8 es r es'16^\markup \remark "staccato" c as8 f es' c
+    c8. g16 g4 r2\fermata \bar "|." %15 finis
+  }
+}
+
+A-IXScenaDecimaSoliLyrics = \lyricmode {
+  Be -- rei -- thet euch nun
+  all -- zu -- gleich, die ihr al -- hier ver --
+  ſam -- blet ſeyd, es kom -- met ſchon der
+  Rich -- ter an in groſ -- ſer Krafft und
+  Herr -- lich -- keit. Ô wie %5
+  bang iſt mein Ge -- mü -- the! Mir er --
+  ſtar -- ret das Ge -- blüe -- the. Wan
+  ſich der Grech -- te ſorgt vor dem
+  Rich -- ter -- ſtuhl zu ſte -- hen, wie
+  wird es dan end -- lich mir und %10
+  mei -- nes glei -- chen ge -- hen? Ich
+  wer -- de ſchon die Zun -- ge ſpi -- tzen, all und je -- de
+  an -- zu -- klagn, und des Rich -- ters Zorn er --
+  hi -- tzen, daß ihr ſolt vor Forcht und
+  Angſt ver -- zagn. %15 finis
+}

@@ -39,6 +39,8 @@ tempoA-IXAriaQuinta = \tempoMarkup "Tempo giusto"
 tempoA-IXScenaOctava = \tempoMarkup "Recitativo"
 tempoA-IXScenaNona = \tempoMarkup "Recitativo"
 tempoA-IXAriaSexta = \tempoMarkup "Vivace"
+tempoA-IXScenaDecima = \tempoMarkup "Recitativo"
+tempoA-IXChorus = \tempoMarkup "Adagio[se]"
 
 \include "notes/trb.ly"
 \include "notes/vl1.ly"

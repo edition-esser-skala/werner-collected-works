@@ -533,3 +533,61 @@ A-IXAriaSextaViola = {
     R2*22 \markDaCapo \bar "||" %128 finis
   }
 }
+
+A-IXScenaDecimaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-IXScenaDecima
+    R1*4
+    r2 b\p^\markup \remark "stendato" %5
+    a g
+    f'! es
+    e e~
+    e f
+    es des %10
+    d c
+    R1*3
+    R1\fermata \bar "|." %15 finis
+  }
+}
+
+A-IXChorusViola = {
+  \relative c' {
+    \clef alto
+    \key c \dorian \time 4/4 \tempoA-IXChorus
+    R1
+    r8 f\fE f f h,2
+    c g
+    g'2. f8 e
+    f2 c %5
+    r4 es2 d8 c
+    d4. d8 g,4 c
+    f,2 g
+    c4 es, d g~
+    g fis g8 b b b %10
+    a! a d2 cis4
+    d c4. c8 b b
+    a2 b
+    r4 d g g,8 g
+    a2. a4 %15
+    d2 es!4. es8
+    f4 b f2
+    r8 fis fis fis fis4. fis8
+    g4 g,8 a b4. b8
+    c4 c8 d es4. es8 %20
+    f4 c' e,2
+    f2. f4
+    es! c as2
+    g r
+    R1 %25
+    r8 g g g as4 e
+    f8 d' d d es4 h
+    c g as2
+    g4 g'8 f es4. c8
+    a'!4. a8 as2 %30
+    g4 fis g2
+    c,4 r r8 f\p f f
+    h,4 c g2
+    c r\fermata \bar "|." %34 finis
+  }
+}

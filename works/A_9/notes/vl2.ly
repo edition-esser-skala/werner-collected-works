@@ -784,3 +784,61 @@ A-IXAriaSextaViolinoII = {
     g \markDaCapo \bar "||" %128 finis
   }
 }
+
+A-IXScenaDecimaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-IXScenaDecima
+    R1*4
+    r2 f\p^\markup \remark "stendato" %5
+    a4 fis g2
+    as g~
+    g \once \tieDashed g~
+    g c,
+    f1 %10
+    d'!4 h! c2
+    R1*3
+    R1\fermata \bar "|." %15 finis
+  }
+}
+
+A-IXChorusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoA-IXChorus
+    r8 g'\fE g g es4 es
+    as8 as as2 g8 f
+    es4. es8 d4 b!
+    r2 r8 c f g~
+    g g f f f4 es %5
+    d r r8 f f f
+    f4. g16 f e8 e e e
+    f as c,2 h4
+    c8 g' g g f4 d
+    c8 c d d d4 r %10
+    R1
+    r8 d es! es d d g4~
+    g fis g r
+    r2 r4 g~
+    g8 g f f e e e e %15
+    f4 r r8 g4 g8
+    a a b b b( a) a4
+    r8 d d d c4. c8
+    b4 d g, g
+    r g c, c %20
+    r8 as'4 b8 c4. c8
+    as4. as8 g2~
+    g8 es g2 f4
+    g2 r8 g g g
+    as4 e f4. f8 %25
+    es4 h c8 c'4 b?8~
+    b as as as g4. f8
+    es4 g4. g8 f f
+    g4 r r8 g g g
+    fis4. fis8 f4. f8 %30
+    f f es es d4. d8
+    c4 r r8 f\p f f
+    f4 es d4. d8
+    e2 r\fermata \bar "|." %34 finis
+  }
+}

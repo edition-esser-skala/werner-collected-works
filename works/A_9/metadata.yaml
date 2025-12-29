@@ -16,14 +16,15 @@ sources:
     principal: true
 tocstyle: default
 toe: |
-  –  & –  & vla  & In \B1, there is no staff for vla in movements 3, 4, 10–12, 14, 17.
+  –  & –  & vla  & In \B1, there is no staff for vla in movements 3, 4, 10–12, 14, 17–19.
                    Here, a vla part has been added
                    by the editor to these movements.
                    In arias (no. 10, 12, 14, 17), the vla plays in unison
                    with bc whenever the voice pauses during the first section.
-                   In accompagnatos (no. 11), it plays
+                   In accompagnatos (no. 11, 18), it plays
                    unison with bc.
-                   In choruses (no. 3, 4), it generally plays unison
+                   In choruses (no. 3, 4, 19), it generally plays unison
                    with T in fugues, and unison with bc otherwise.
-                   TODO: mark in full score
+                   TODO: mark in full score or better remove altogether?
   17 & 93 & vl & 3rd \sixteenthNote\ in \B1: d″16 \\
+  18 & –  & –  & In this movement, Petrus is denoted “St: Petrus”. \\

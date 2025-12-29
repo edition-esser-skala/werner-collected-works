@@ -236,3 +236,78 @@ A-IXScenaTertiaBassoLyrics = \lyricmode {
   di -- ren, der Ar -- me wie der Reich gild hier dem
   Rich -- ter gleich. %22 finis
 }
+
+A-IXChorusBasso = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \autoBeamOff \tempoA-IXChorus
+    R1
+    r8 f\fE f f h,4 h
+    c4. c8 g4 r
+    g'2. f8 e
+    f4. f8 c2 %5
+    r4 es2 d8 c
+    d4. d8 g,4 c
+    f4. f8 g2
+    c, r
+    r r8 b b b %10
+    a! a d2( cis4)
+    d c4. c8 b b
+    a4 a b2
+    r4 d g g,
+    R1 %15
+    d'2 es!4. es8
+    f4 b f f
+    r8 fis fis fis fis4. fis8
+    g4 g,8 a b4. b8
+    c4 c8 d es4. es8 %20
+    f4 c' e, e
+    f4. f8 f4 f
+    es! c as4. as8
+    g2 r
+    R1*2 %26
+    r8 d' d d es!4 h
+    c g8 g as2
+    g8 g g' f es4. c8
+    a'! a a a as4. as8 %30
+    g4 fis g4. g8
+    c,4 r r8 f\p f f
+    h,4 c g4. g8
+    c2 r\fermata \bar "|." %34 finis
+  }
+}
+
+A-IXChorusBassoLyrics = \lyricmode {
+  So iſt dan di -- ſer, %2
+  di -- ſer Tag
+  des Jam -- mers
+  und der Plag %5
+  des Jam -- mers
+  und der Plag nun
+  an -- ge -- ru --
+  ckhet.
+  Daß Gwiſ -- ſen %10
+  hart ge -- dru --
+  ckhet, uns der Sün -- den --
+  fall ge -- druckht,
+  ge -- dru -- ckhet,
+  %15
+  da wür zwar
+  offt ge -- hö -- ret
+  von di -- ſen ſtren -- gen
+  Gricht, di -- ſen ſtren -- gen
+  Gricht, di -- ſen ſtren -- gen %20
+  Gricht, von di -- ſen
+  ſtren -- gen Gricht, von
+  di -- ſen ſtren -- gen
+  Gricht,
+
+  doch bli -- ben wür be -- %27
+  thö -- ret, be -- thö --
+  ret, und glaub -- ten dan -- noch,
+  glaub -- ten dan -- noch nicht, und %30
+  glaub -- ten dan -- noch
+  nicht, und glaub -- ten
+  dan -- noch, dan -- noch
+  nicht. %34 finis
+}

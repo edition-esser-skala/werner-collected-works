@@ -151,3 +151,81 @@ A-IXScenaTertiaSopranoLyrics = \lyricmode {
   Don -- ner -- worth! Wer
   wird al -- da be -- ſte -- hen! %5 finis
 }
+
+A-IXChorusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoA-IXChorus
+    r8 g'\fE g g es4 es
+    as8 as as2 g8([ f)]
+    es4. es8 d2
+    r8 es' es es c4. c8
+    c2 r %5
+    r4 c2 h8 a
+    h4. h8 b4 r
+    r8 c as f es!4( d)
+    c c'2 b!8 b
+    a!4. a8 b b d d %10
+    cis4 d8 d e4. e8
+    a,4 r r2
+    r8 es es es d d g4~
+    g fis g8 g d' d
+    cis4 d e a,~ %15
+    a r r8 g4 g8
+    a4 f f f
+    r8 d' d d es4. es8
+    d4 d g, g
+    r8 es es f g4. g8 %20
+    c,4 r r2
+    r4 des' h4. h8
+    c g c2 c4
+    h8 d d d es4 h
+    c c8 g as2 %25
+    g8 g d'4.( c8) c b!
+    b([ as)] as as g2
+    g r8 c c4~
+    c8 h d2 c4
+    r8 c c c c4. c8 %30
+    h4 c2 \hA h4
+    c8 c\p c c as4 as
+    g2. g4
+    g2 r\fermata \bar "|." %34 finis
+  }
+}
+
+A-IXChorusSopranoLyrics = \lyricmode {
+  So iſt dan di -- ſer
+  Tag des Jam -- mers
+  und der Plag,
+  ſo iſt dan di -- ſer
+  Tag %5
+  des Jam -- mers
+  und der Plag
+  nun an -- ge -- ru --
+  ckhet. Ô wie ſo
+  ma -- nich -- mall hat uns der %10
+  Sün -- den, der Sün -- den --
+  fall
+  daß Gwiſ -- ſen hart ge -- dru --
+  _ ckhet, daß Gwiſ -- ſen
+  hart ge -- dru -- ckhet, __ %15
+  da wür
+  offt ge -- hö -- ret
+  von di -- ſen ſtren -- gen
+  Gricht, von di -- ſen,
+  von di -- ſen ſtren -- gen %20
+  Gricht,
+  von di -- ſen
+  ſtren -- gen, ſtren -- gen
+  Gricht, doch bli -- ben wür be --
+  thö -- ret, be -- thö -- %25
+  ret, be -- thö -- ret, be --
+  thö -- ret, be -- thö --
+  ret, und glaub --
+  ten dan -- noch,
+  und glaub -- ten dan -- noch %30
+  nicht, dan -- noch
+  nicht, und glaub -- ten dan -- noch,
+  dan -- noch
+  nicht. %34 finis
+}

@@ -1858,3 +1858,131 @@ A-IXAriaSextaBassFigures = \figuremode {
   <5 _+>
   r %128 finis
 }
+
+A-IXScenaDecimaContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-IXScenaDecima
+    g'1
+    e!
+    f2 a,!
+    b es
+    f4 f, b2\pE^\markup \remark "stendato" %5
+    a g
+    f'! es
+    e e~
+    e f
+    es des %10
+    d c
+    e! f4 a,!
+    b2 h
+    c f4 fis
+    g g, c2\fermata \bar "|." %15 finis
+  }
+}
+
+A-IXScenaDecimaBassFigures = \figuremode {
+  <6- [_-]>1
+  <6>
+  <_->2 <6>
+  r <[5-]>
+  <4[-]>4 <3>2. %5
+  <6\\>2 <_->
+  <4! _-> <6>
+  q <5->
+  <7- 5[-]> <_->
+  <4! 2> <6-> %10
+  <6!> <_!>
+  <[6]> <_->4 <6>
+  <_->2 <6 [_!]>
+  <_-> q4 <7- 5 [_!]>
+  <4> <_!>2. %15 finis
+}
+
+A-IXChorusContinuo = {
+  \relative c {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoA-IXChorus
+    r8 << { \mvTr g''_\fE g g g2 g8 } \\ { \voiceThree s4. es4 es c8 } \\ { \voiceTwo s4. r8 c c c as } >>
+    \clef bass f f f h,2
+    c g
+    g'2. f8 e
+    f2 c %5
+    r4 es2 d8 c
+    d4. d8 g,4 c
+    f,2 g
+    c4 \clef "treble_8" es d g~
+    g fis g8 \clef bass b,[ b b] %10
+    a! a d2 cis4
+    d c4. c8 b b
+    a2 b
+    r4 d g g,8 \noBeam \clef "treble_8" g'
+    a2. a4 %15
+    \clef bass d,2 es!4. es8
+    f4 b f2
+    r8 fis fis fis fis4. fis8
+    g4 g,8 a b4. b8
+    c4 c8 d es4. es8 %20
+    f4 c' e,2
+    f2. f4
+    es! c as2
+    g \clef treble << {
+      es'''!4 h
+      c c8 g as2 %25
+      g8
+    } \\ {
+      r8 g g g
+      as4 e f2 %25
+      es8
+    } \\ {
+      \voiceFour s2
+      s r8 d d d %25
+      s
+    } >> \clef "treble_8" g, g g as4 e
+    f8 \clef bass d[ d d] es4 h
+    c g as2
+    g4 g'8 f es4. c8
+    a'!4. a8 as2 %30
+    g4 fis g2
+    c,4 r r8 f\p f f
+    h,4 c g2
+    c r\fermata \bar "|." %34 finis
+  }
+}
+
+A-IXChorusBassFigures = \figuremode {
+  r1
+  r8 <8 _->4. <7->4 <6>8 <5>
+  <9>4 <8> <_!> <_->
+  <6->2 <4 2->4 <_->8 <[6]>
+  <9 _->4 <8 \t> <5 4> <\t 3> %5
+  r <6 3> <\t 2> <6!>8 <6 [4]>
+  <6!>2 <6! _->4 <_!>
+  <9 _-> <8 \t> <6[-] 4> <5 _!>
+  r <6> <7> <_->
+  <4 2> <6>4. q %10
+  <7 [5!] _+>4 <3[!]> <6 4 2!> \bo <6 [_!]>8 \bc <5 [\t]>
+  r4 <5 _-> <4\+ 2> <6>
+  <7 5-> <6\\ \t> <9 6> <8 \t>
+  r <_+>2.
+  <7 _+>4 <6 4> <5[!] \t> <\t _+> %15
+  r2 <9 7>4 <8 6[!]>
+  <7>2 <6 4>8 <5 3>4.
+  r8 <6>4. <7- 5>2
+  r <6>
+  r q %20
+  <_->4 <6-> <6>2
+  <9 5 _->4 <8 6- \t> <[6!] 4! 2>2
+  <6> <7>4 <6>
+  <_!>1
+  r %25
+  r8 <6- _!> <[5 \t]>4 <4>8 <3> <6> <5->
+  <4> <5->4. <9>8 <8> <6> <5>
+  <9> <8> <6 _!> <5 \t> <7>4 <6>
+  <4>8 <_!> q <6 [_-]> <7>4 <6>
+  <6\\>2 <6!> %30
+  <7 _!>4 <7- 5 [_!]> <6 4> <5 _!>
+  r2 r8 <_->4.
+  <6 5>2 <4>4 <_!>
+  q1 %34 finis
+}
