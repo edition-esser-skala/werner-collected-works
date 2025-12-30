@@ -1272,3 +1272,163 @@ A-IXScenaDecimaSoliLyrics = \lyricmode {
   hi -- tzen, daß ihr ſolt vor Forcht und
   Angſt ver -- zagn. %15 finis
 }
+
+A-IXASAriaPrimaSoli = {
+  \relative c {
+    \clef bass
+    \key es \lydian \time 3/2 \autoBeamOff \tempoA-IXASAriaPrima
+    R1.*8 %8
+    r4 es g r8 b es b g es
+    b'4 f d b d' b %10
+    g es r es g8 g b b
+    c,2 r4 f as8 as c c
+    d,2 r4 f b d
+    g, b es, es'~ es8[ d c b]
+    a![ g f e] f4 d'~ d8[ c b a] %15
+    g[ f es d] es4 c'~ c8[ b a g]
+    f[ es d c] d4 b'~ b8[ a g f]
+    g[ f es d] es[ d c b] c[ b a g]
+    a4 f r f' b8([ a)] b4
+    a2 r4 f b, b' %20
+    a2 r4 f g a
+    b a8([ b)] c4( a) f( es)
+    d2 r4 f b d
+    g, b es, es'~ es8[ d c b]
+    a[ g f e] f4 f'~ f8[ es d c] %25
+    b4 a8[ g] f[ g a b] c[ es, d c]
+    d[ b c d] es[ f g a] b4 d,
+    es g f1
+    b,2 r r
+    R1.*7 %36
+    r4 es g r8 b es b g es
+    b'4 f d b d' b
+    g es g b4. g8 es g
+    c,2 a'!4 c4. a8 f a %40
+    d,2 h'4 d4. \hA h8 g \hA h
+    es,4 c' b f8([ g)] as4 as
+    g es r2 r
+    r r4 b' es, es'
+    d2 r4 b ges es %45
+    b'2 r4 b c d
+    es d8([ c)] b4( as) g!( f)
+    g b g b es, g
+    c, c'~ c8[ b as g] f[ es d c]
+    d4 \once \tieDashed d'~ d8[ c b as] g[ f es d] %50
+    es[ es' d c] b[ as g f] es[ d c b]
+    g'[ es f g] as[ b c d] es4 g,
+    as c b,1\trill
+    es2 r r
+    R1.*7 %61
+    R1.\fermata
+    r4 g c g es g
+    c, es' d h g f
+    es8([ d es d)] c2 r %65
+    r4 f c' c, g' b!
+    as des c g e c
+    as'8([ g \hA as g)] f2 r4 d'!
+    g, b es,2 r4 c'
+    f, as d,2 r4 g %70
+    es g c, d es f
+    g a! h c d \hA h
+    c g e c8[ \hA e] g[ c b c]
+    as4 f d b8[ d] f[ b as b]
+    g4 as8[ b] a[ b c d] es4 g, %75
+    fis8[ a d, e] \hA fis[ g a \hA fis] g[ f es d]
+    es[ d c es] d4 c d2
+    g, r r
+    R1.*4 %82
+    r4 d' g b a d
+    b a8([ g)] fis4 e d c
+    b8([ a b a)] g2 r %85
+    r4 g' c g d' g,
+    es' d8([ c)] h4 a! g f
+    es8([ d es d)] c2 r4 a'
+    d, f b,2 r4 g'
+    c, es a,2 r4 a' %90
+    b a g fis g c,
+    d e fis g a \hA fis
+    g b8[ a] g4 f es d
+    c es'8[ d] c4 b a g
+    fis d e \hA fis g d' %95
+    es! g, d1\trill
+    \time 4/4 \tempoA-IXASAriaPrimaB g,8 b' es c, fis a g([ cis,]
+    d2)\trill g, \markDaCapo \bar "||" %98 finis
+  }
+}
+
+A-IXASAriaPrimaSoliLyrics = \lyricmode {
+  Auf auf, auf auf zum Zorn und %9
+  Rach, ihr mei -- ne E -- le -- %10
+  men -- ten, nun rä -- chet je -- ne
+  Schmach, nun rä -- chet je -- ne
+  Schmach wor -- durch ſie
+  mich zu ſchän -- _
+  _ _ _ %15
+  _ _ _
+  _ _ _
+  _ _ _
+  _ den bey Tag und
+  Nacht da -- hin ge -- %20
+  tracht, nun wird dem
+  Spill ein End ge --
+  macht, daß Blat wird
+  ſich bald wen -- _
+  _ _ _ %25
+  _ _ _ _
+  _ _ _ _
+  den, bald wen --
+  den.
+
+  Auf auf, auf auf zum Zorn und %37
+  Rach, ihr mei -- ne E -- le --
+  men -- ten, nun rä -- chet je -- ne
+  Schmach, nun rä -- chet je -- ne %40
+  Schmach, nun rä -- chet je -- ne
+  Schmach wor -- durch ſie
+  mich zu ſchän -- den
+  bey Tag und
+  Nacht da -- hin ge -- %45
+  tracht, nun wird dem
+  Spill ein End ge --
+  macht, daß Blat wird ſich bald
+  wen -- _ _
+  _ _ _ %50
+  _ _ _
+  _ _ _ _
+  den, bald wen --
+  den.
+
+  Schlagt auf das Buech der %63
+  Schuld, ihr eng -- li -- ſche Tra --
+  ban -- then, %65
+  nun ma -- chet mein Ge --
+  dult den La -- ſter -- balckh zu
+  ſchan -- den, nun
+  hat daß End alls
+  um -- ge -- wend, die -- %70
+  weil die Sün -- der ſo ver --
+  blend mein Gu -- that nit er --
+  khän -- _ _ _ _
+  _ _ _ _ _
+  _ _ _ _ _ %75
+  _ _ _
+  _ _ _ _
+  ten.
+
+  Schlagt auf das Buech der %83
+  Schuld, ihr eng -- li -- ſche Tra --
+  ban -- then, %85
+  nun ma -- chet mein Ge --
+  dult den La -- ſter -- balckh zu
+  ſchan -- den, nun
+  hat daß End alls
+  um -- ge -- wend, die -- %90
+  weil die Sün -- der ſo ver --
+  blend mein Gu -- that nit er --
+  khän -- _ _ _ _ _
+  _ _ _ _ _ _
+  _ _ _ _ _ _ %95
+  _ _ _
+  ten, mein Gu -- that nicht er -- khän --
+  ten. %98 finis
+}

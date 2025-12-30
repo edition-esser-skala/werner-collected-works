@@ -311,3 +311,102 @@ A-IXChorusBassoLyrics = \lyricmode {
   dan -- noch, dan -- noch
   nicht. %34 finis
 }
+
+A-IXASScenaPrimaBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXASScenaPrima
+    r4^\markup \remark "majestoso"^\Judex es8 g h! h r d16 f,
+    es8 es r c'16 g e8 r16 g b8 as
+    f f r as16 c fis,8 fis a c,
+    d4 r r r8 es16 g
+    b8 f d b e e r c16 e %5
+    g8 b des c as as r c16 as
+    fis8 a c b g4 r8 g16 as
+    b8 b d \hA b es c, r c'16 a
+    f8 f a f d d r b'16 d
+    g,8 b f8. f16 b,4 r %10
+    r8 d16 d g d f g es8 es r c'16 g
+    e8 g b as f f r c'16 as
+    fis8 fis a c, d4 r
+    r8 c16 e! g g b c as8 as16 as as as c \hA as
+    f8 f r a16 c es,8 es ges f %15
+    des des r b'16 f ges8 \hA b f8. f16
+    b,4 r r8 f'16 f b b d! \hA b
+    g!8 g r d16 es f8 f as g
+    es es r c'16 a! fis8 a c,8. h!16
+    h4 r r8 es16 es g g g b %20
+    b8 es, r \hA es16 f g8 g b e,
+    f f r4 r8 des'16 b as8 f
+    f8. c16 c4 r8 f16 g a a a c
+    h!8 h r h16 h d8 f, as g
+    es es c' c, fis4 r8 \hA fis %25
+    g8. g16 g,4 r8 c16 e g g c g
+    a8 a r e16 f g8 cis e g,
+    f f r f16 a d8 d, gis8. a16
+    a4 r r8 f16 f a a a c!
+    c8 f, r f16 a c8 f, a f %30
+    d d f b g g g fis
+    a4 r8 a g h16 g d'8 f,
+    es c r g'16 c b8 g e c
+    as f r f'16 as b,4 h
+    c4. c8 \key c \dorian \tempoA-IXASScenaPrimaB f,4 \mvTr f'\fE^\tutti %35
+    es r8 \hA es cis4. cis8
+    d4 r r8 b as' as
+    g4 fis g r
+    r8 es es es e4. e8
+    f4 r8 f fis fis fis fis %40
+    g2. fis4
+    g( g,) c \tempoA-IXASScenaPrimaC r
+    \key c \major  r8^\Judex d a'16 a c b g8 d g16 g b g
+    es8 c b'16 g fis g g8 d r4
+    R1\fermata \bar "|." %45 finis
+  }
+}
+
+A-IXASScenaPrimaBassoLyrics = \lyricmode {
+  Hört ihr Him -- mel was ich
+  ſa -- ge, und die Erd ver -- nehm die
+  Kla -- ge, ſo ich jezt er -- khlä -- ren
+  will: Ich bin
+  der euch all ent -- ſchlaf -- fen, auß den %5
+  nichts her -- vor ge -- raf -- fen, pur zu
+  di -- ſen End und Zihl, daß ihr
+  mein Ge -- bott ſolt hal -- ten, in der
+  Lie -- be nicht ent -- hal -- ten, und der
+  Weld den Ruck -- hen kert: %10
+  Wa -- ren diß nicht klei -- ne Sa -- chen, die ihr
+  leicht könt mög -- lich ma -- chen, waß ich
+  lieb -- reich hab be -- gehrt.
+  Dan -- noch iſt der größ -- te Theil wi -- der je -- der -- mans Ver --
+  hof -- fen ſchne -- der Wol -- luſt zue -- ge -- %15
+  lof -- fen und ver -- ſcherzt daß See -- len --
+  heyll: Nun diß Klein -- od zu ge --
+  win -- nen wolt ich mich nit lang be --
+  ſin -- nen, al -- ler Men -- ſchen -- ſchuld zu
+  tragn, ich ver -- tauſch -- te mei -- ne %20
+  Gott -- heid mit des ar -- men Sün -- ders
+  Schwach -- heit, thä -- te Leib und
+  Le -- ben wagn biß ich end -- lich voll der
+  Schmer -- tzen und mit gantz ver -- lieb -- ten
+  Her -- tzen an den Creütz ver -- %25
+  ſchi -- den bin. Al -- les diß habt ihr ver --
+  ach -- tet, nur die Weld vor groß ge --
+  ach -- tet, ſe -- het eu -- ren ſtol -- tzen
+  Sinn. Nun be -- tracht ob es nicht
+  bil -- lig, weil ihr ſelbſt ſo ey -- gen -- %30
+  wil -- lig al -- ler Boß -- heit zue -- ge --
+  than, wan ihr von mir auß -- ge --
+  ſchloſ -- ſen in die Höl -- le werd ver --
+  ſtoſ -- ſen, ob ihr nicht ſelbſt
+  Schuld da -- ran. Ô %35
+  weh! und a -- ber --
+  weh! was har -- te
+  Don -- ner -- worth!
+  So ſol -- len wür al --
+  dorth nun e -- wig e -- wig %40
+  woh -- nen,
+  woh -- nen.
+  Ja al -- ſo iſt der Schlus, mein Au -- ge ſoll hin --
+  forth den Sün -- der nicht mehr ſcho -- nen. %44 finis
+}

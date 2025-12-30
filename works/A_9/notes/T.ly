@@ -229,3 +229,32 @@ A-IXChorusTenoreLyrics = \lyricmode {
   glaub -- ten dan -- noch
   nicht. %34 finis
 }
+
+A-IXASScenaPrimaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXASScenaPrima
+    R1*34 %34
+    r2 \key c \dorian \tempoA-IXASScenaPrimaB r4 as\fE %35
+    c r8 c e4. e8
+    a,!4 r r8 d d d
+    c4 a! h r
+    r8 b b b b4. b8
+    as4 r8 c c c c c %40
+    h([ g] as[ a] h c4) c8
+    c4( h) c \tempoA-IXASScenaPrimaC r
+    \key c \major R1*2
+    R1\fermata \bar "|." %45 finis
+  }
+}
+
+A-IXASScenaPrimaTenoreLyrics = \lyricmode {
+  Ô %35
+  weh! und a -- ber --
+  weh! was har -- te
+  Don -- ner -- worth!
+  So ſol -- len wür al --
+  dorth nun e -- wig e -- wig %40
+  woh -- nen,
+  woh -- nen. %42 finis
+}

@@ -228,3 +228,32 @@ A-IXChorusAltoLyrics = \lyricmode {
   ten dan -- noch
   nicht. %34 finis
 }
+
+A-IXASScenaPrimaAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXASScenaPrima
+    R1*34 %34
+    r2 \key c \dorian \tempoA-IXASScenaPrimaB r4 f\fE %35
+    fis r8 \hA fis g4. g8
+    fis4 r r8 f f f
+    es!4. es8 d4 r
+    r8 g g g g4. g8
+    as4 r8 \hA as a a a a %40
+    d,([ h] c4 d8) c a'! a
+    d,4( g) g \tempoA-IXASScenaPrimaC r
+    \key c \major R1*2
+    R1\fermata \bar "|." %45 finis
+  }
+}
+
+A-IXASScenaPrimaAltoLyrics = \lyricmode {
+  Ô %35
+  weh! und a -- ber --
+  weh! was har -- te
+  Don -- ner -- worth!
+  So ſol -- len wür al --
+  dorth nun e -- wig e -- wig %40
+  woh -- nen, woh -- nen,
+  woh -- nen. %42 finis
+}

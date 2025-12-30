@@ -847,8 +847,151 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \section "19" "Chorus"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #2
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-IXChorusViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-IXChorusViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \A-IXChorusViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \A-IXChorusSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \A-IXChorusSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \A-IXChorusAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \A-IXChorusAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \A-IXChorusTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \A-IXChorusTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \A-IXChorusBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \A-IXChorusBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \A-IXChorusContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-IXChorusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
+  % \part "secundus" "II" "Actus secundus"
+  % \bookpart {
+  %   \section "20" "Scena prima"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #2
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-IXASScenaPrimaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-IXASScenaPrimaViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \A-IXASScenaPrimaViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \A-IXASScenaPrimaSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \A-IXASScenaPrimaSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \A-IXASScenaPrimaAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \A-IXASScenaPrimaAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \A-IXASScenaPrimaTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \A-IXASScenaPrimaTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "B" "soli" }
+  %           \new Voice = "Basso" { \dynamicUp \A-IXASScenaPrimaBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \A-IXASScenaPrimaBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \A-IXASScenaPrimaContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-IXASScenaPrimaBassFigures }
+  %     >>
+  %     \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "19" "Chorus"
+    \section "21" "Aria prima"
     \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
@@ -859,7 +1002,7 @@
       markup-system-spacing.minimum-distance = #10
       system-system-spacing.basic-distance = #17
       system-system-spacing.minimum-distance = #17
-      systems-per-page = #2
+      systems-per-page = #3
     }
     \score { %\articulate
       <<
@@ -868,54 +1011,36 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \A-IXChorusViolinoI
+              \A-IXASAriaPrimaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \A-IXChorusViolinoII
+              \A-IXASAriaPrimaViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \A-IXChorusViola
+            \A-IXASAriaPrimaViola
           }
         >>
         \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \A-IXChorusSoprano }
+            \set Staff.instrumentName = "Judex"
+            \new Voice = "Soli" { \dynamicUp \A-IXASAriaPrimaSoli }
           }
-          \new Lyrics \lyricsto Soprano \A-IXChorusSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \A-IXChorusAlto }
-          }
-          \new Lyrics \lyricsto Alto \A-IXChorusAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \A-IXChorusTenore }
-          }
-          \new Lyrics \lyricsto Tenore \A-IXChorusTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \A-IXChorusBasso }
-          }
-          \new Lyrics \lyricsto Basso \A-IXChorusBassoLyrics
+          \new Lyrics \lyricsto Soli \A-IXASAriaPrimaSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \A-IXChorusContinuo
+            \A-IXASAriaPrimaContinuo
           }
         >>
-        \new FiguredBass { \A-IXChorusBassFigures }
+        \new FiguredBass { \A-IXASAriaPrimaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 160 } % 60
     }
   }
 }

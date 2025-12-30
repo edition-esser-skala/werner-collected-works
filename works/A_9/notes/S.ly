@@ -229,3 +229,32 @@ A-IXChorusSopranoLyrics = \lyricmode {
   dan -- noch
   nicht. %34 finis
 }
+
+A-IXASScenaPrimaSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXASScenaPrima
+    R1*34 %34
+    r2 \key c \dorian \tempoA-IXASScenaPrimaB r4 c'\fE %35
+    a! r8 a b4. b8
+    a4 r r8 b h? h
+    c4. c8 h4 r
+    r8 b es es des4. des8
+    c4 r8 f es es es es %40
+    d!([ g] g[ fis] f[ e)] es4
+    d2 c4 \tempoA-IXASScenaPrimaC r
+    \key c \major R1*2
+    R1\fermata \bar "|." %45 finis
+  }
+}
+
+A-IXASScenaPrimaSopranoLyrics = \lyricmode {
+  Ô %35
+  weh! und a -- ber --
+  weh! was har -- te
+  Don -- ner -- worth!
+  So ſol -- len wür al --
+  dorth nun e -- wig e -- wig %40
+  woh -- nen,
+  woh -- nen. %42 finis
+}

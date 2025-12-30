@@ -851,3 +851,151 @@ A-IXChorusViolinoI = {
     g2 r\fermata \bar "|." %34 finis
   }
 }
+
+A-IXASScenaPrimaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-IXASScenaPrima
+    r16 g''\p es16. c32 g8 es r16 as' f16. d!32 h8 f
+    \sbOn r32 es g c es g, c \hA es \sbOff g8 es, r16 des'32 des des16 des des des des des
+    \sbOn c32 f, as c f \hA as, c f \sbOff as16. f,32 f8 r16 es' c16. a32 fis16. c'32 a16. \hA fis32
+    \sbOn g g h! g d' h g' d \sbOff h'16. g,32 g8 r16 b' g16. es32 b16. g32 g8
+    r16 b d16. f32 b16. \hA b,32 b8 \sbOn r32 b' g \hA b e, g b, des \sbOff g,16. b'32 b8 %5
+    r16 g32 g g16 g b,8 g' \sbOn r32 c, c c c c c c \sbOff as'16. f,32 f8
+    r16 a' fis16. a32 \sbOn c, fis fis fis fis fis fis fis \sbOff g16 g,32. b64 d16 \hA b32. d64 g8 g,
+    \sbOn r32 f' f f f f f f \sbOff b16 f d b \sbOn r32 g' g g g g g g \sbOff c16 g es c
+    \sbOn r32 c c c c c c c \sbOff f16 c a f \sbOn r32 f b d f \hA b, d f \sbOff b8 f
+    r16 b g16. \hA b32 c,8 a' r16 d32\f d b b f f d d b b f f d d %10
+    r4 d''\f r16 es,\p es( f) f( g) g8
+    r4 des' r16 c\f as16. f32 c16. as32 f8
+    r16 es'\p es16. es32 es16. es32 es16. es32 r16 g32\f g d d h! h g g d d h h g g
+    r16 b''\p b8 r4 r16 as f8 r16 c as8
+    r16 c' c16. es,32 es16( d) \hA es8 r16 ges ges16. ges32 a,4 %15
+    r16 f' des16. f32 b8 f r16 ges8 f32 es des8( c16.)\trill b32
+    b f\f g a! \hA b c des es f \hA b, c \hA des \hA es f g a b16. b,32 b8 r4
+    g'16.\f d32 h16. d32 g,4 r16 as'\p as8 r16 h,!h8
+    r16 c,\f es16. g32 c8 es r16 es\p es8 r16 fis, fis8
+    r16 g'-!\f d-! h!-! g-! d-! h-! g-! r2 %20
+    r16 es'-!\f g-! b-! es-! g-! b8-! r16 des,8\p des des16 des des16
+    r c8 c c16 c c r4 r8 as~
+    as8. b16 g4\trill f r
+    r as'\f r2
+    r16 g\p g16. g,32 g16. g32 g16. g32 r16 es' es16. c,32 c16. c32 c16. c32 %25
+    r2 c''4\f r
+    \sbOn r16 a32\f e cis16 e32 \hA cis \sbOff a16-! e-! cis-! a-! r32 b''\p b b b16 b b,4
+    r32 a' a a a16 a a,4~ a8 d~ d16( cis) d8
+    cis16 a'-!\f e-! \hA cis-! a-! e-! cis-! a-! r32 a''\p a a a16 a a16. f,32 f8
+    r32 f' f f f16 f f16. f,32 f8 r32 c'' c c c16 c c16. a,32 a8 %30
+    r f' d2 c4\trill
+    d16.\f fis32 a16. c,32 es16. a,32 c16. fis,32 g8 r r16 as'\p as8
+    r16 c,\f c16. g32 g16. es32 es16. c32 e8 r des' r
+    r c\p as'4 f f,~
+    f8 f e! e \key c \dorian \tempoA-IXASScenaPrimaB f4 r %35
+    r16 fis\f a c es!8 ges r16 e, g b! cis8 e
+    r16 d, fis a d fis a d r32 f, f f f8 r32 f f f f8
+    r32 es! es es es8 r32 es, es es es8 r16 g, h d g h d g
+    r8 b16. g32 es16. g32 es16. b32 r16 des-! des-! des-! des-! des-! des-! des-!
+    r8 c'16. as32 f16. \hA as32 f16. c32 r16 es!-! es-! es-! es-! es-! es-! es-! %40
+    d8 g4 fis8 f e es es
+    d d d d c4 \tempoA-IXASScenaPrimaC r
+    \key c \major R1*2
+    R1\fermata \bar "|." %45 finis
+  }
+}
+
+A-IXASAriaPrimaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key es \lydian \time 3/2 \tempoA-IXASAriaPrima
+    \sbTHOn r16 es\f es es es es es es g g g g b b b b es es es es g g g g
+    f b,, b b b b b b d d d d f f f f b b b b as' as as as
+    g b b b b b b b b as g f g f es d es d c b as g f es
+    c' c' c c c c c c c b as g \hA as g f es f es d c b a g f
+    d' as' as as as as as as d, f f f f f f f b, as' as as as as as as %5
+    g8 g4 g8 g4 as f4.\trill es16 f
+    g8\p b,4 b8 b4 c b8. as32 g \hA as8. g32 f
+    g16\f b' b b b b b b c,4 \tuplet 3/2 4 { as'8 g f } \appoggiatura es4 d2\trill
+    es r r
+    r16 b\pE b b b b b b f' b, b b b b b b b' b, b b b c d b %10
+    g'8 es b g es' b g es r b' es4~
+    es16 d c b c b as g \hA as8 es c as r c' f4~
+    f16 es d c d c b a b8 f d b r2
+    r r8 es' g4 r8 c, es4
+    r8 a,! c4 r8 d f4 r8 b, d4 %15
+    r8 g, b4 r8 c es4 r8 a, c4
+    r8 f, a4 r8 b d4 r8 f, b4
+    R1.
+    r8 f' c( d) c( d) c( d) r2
+    r8 f c( des) c( \hA des) c( \hA des) r2 %20
+    r8 a c f a4 a, r2
+    R1.
+    r8 b' f d b4 f d b
+    r2 r8 es' g4 r8 c, es4
+    r8 a, c4 r8 f a4 r8 d, f4 %25
+    r8 b, d4 r2 r
+    R1.*2
+    r16 b,\f b b b b b b d d d d f f f f b b b b d d d d
+    c f, f f f f f f a a a a a a a a c c c c es es es es %30
+    d b b b b b b b b b b b b b b b es es es es g g g g
+    f b,, b b b b b b d d d d f f f f b b b b as' as as as
+    g b b b b b b b es, es es es g g g g b, b b b des des des des
+    c c' c c c c c c f, f f f as as as as c, c c c es es es es
+    d b c d es f g as b b b b b b b b b as g f b \hA as g f %35
+    g f es d es d c b c b as g \hA as g f es g4 f\trill
+    es2 r r
+    r16 b'\p b b b b b b f' b, b b b b b b b' b ,b b b c d b
+    g'8 es b g es' b g es r4 es'~
+    es8 c as c f,2 r4 f'~ %40
+    f8 d b d g,2 r4 g'~
+    g8 es c es b!2 r
+    r4 g'\f f c8 d es4 es
+    d8 b'\p f( g) f( g) f( g) r2
+    r8 b, f( ges) f( \hA ges) f( \hA ges) r2 %45
+    r8 d f b d4 d, r2
+    R1.
+    r8 g! b es g4 g, b es,
+    r2 r8 as c4 r8 f, \hA as4
+    r8 d, f4 r8 b d4 r8 g, b4 %50
+    R1.*3
+    r16 es,\f es es es es es es g g g g b b b b es es es es g g g g
+    f b,, b b b b b b d d d d f f f f b b b b as' as as as %55
+    g b b b b b b b b as g f g f es d es d c b as g f es
+    c' c' c c c c c c c b as g \hA as g f es f es d c b a g f
+    d' as' as as as as as as d, f f f f f f f b, as' as as as as as as
+    g8 g4 g8 g4 as f4.\trill es16 f
+    g8\p b,4 b8 b4 c b8. as32 g \hA as8. g32 f %60
+    g16\f b' b b b b b b c,4 \tuplet 3/2 4 { as'8 g f } \appoggiatura es4 d2\trill
+    es\fermata r r
+    R1.*2
+    r4 g, es'8 d es d c b c b %65
+    as4 f r2 r
+    R1.
+    r4 c'\p as'8 g \hA as g f2
+    r4 b, g'8 f g f es2
+    r4 as, f'8 es f es d2 %70
+    r4 g, es'8 d es d c es d c
+    h2 r r
+    r8 g'\p c4 r8 e, g4 r8 c, \hA e4
+    r8 as c4 r8 f, b4 r8 d, f4
+    r es2 c es4 %75
+    fis,2 r r
+    R1.
+    r16 g\f g g g g g g b b b b d d d d g g g g b b b b
+    a d,, d d d d d d fis fis fis fis a a a a d d d d a a a a
+    b b b b g g g g b b b b d d d d g g g g b b b b %80
+    es, es es es g g g g c, c c c es es es es a,! a a a c c c c
+    fis, d' d d d d d d g,4 \tuplet 3/2 4 { es'8 d c } \appoggiatura b4 a2\trill
+    g r r
+    R1.
+    r4 d'\f b'8 a b a g f g f %85
+    es4 c r2 r
+    R1.
+    r4 g\p es'8 d es d c2
+    r4 f, d'8 c d c b2
+    r4 es, c'8 b c b a2 %90
+    r4 d, b'8 a b a g b a g
+    fis2 r r
+    R1.*4 %96
+    \time 4/4 \tempoA-IXASAriaPrimaB R1*2 \markDaCapo \bar "||" %98 finis
+  }
+}

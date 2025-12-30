@@ -16,6 +16,11 @@ markScenaNona = {
   \once \override Score.RehearsalMark.self-alignment-X = #LEFT
   \mark \markup \remark "(Scena nona)"
 }
+sbTHOn = {
+  \set subdivideBeams = ##t
+  \set baseMoment = #(ly:make-moment 1/4)
+  \set beatStructure = #'(2 2 2 2 2 2)
+}
 
 tempoA-IXIntro = \tempoMarkup "Adagiosè"
   tempoA-IXIntroB = \tempoMarkup "Vivace"
@@ -41,6 +46,12 @@ tempoA-IXScenaNona = \tempoMarkup "Recitativo"
 tempoA-IXAriaSexta = \tempoMarkup "Vivace"
 tempoA-IXScenaDecima = \tempoMarkup "Recitativo"
 tempoA-IXChorus = \tempoMarkup "Adagio[se]"
+
+tempoA-IXASScenaPrima = \tempoMarkup "Recitativo"
+  tempoA-IXASScenaPrimaB = \tempoTitleMarkup "Chorus" "Adagio"
+  tempoA-IXASScenaPrimaC = \tempoMarkup "Recitativo"
+tempoA-IXASAriaPrima = \tempoMarkup "Tempo ordinario"
+  tempoA-IXASAriaPrimaB = \tempoMarkup "Adagio"
 
 \include "notes/trb.ly"
 \include "notes/vl1.ly"

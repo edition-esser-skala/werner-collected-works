@@ -591,3 +591,99 @@ A-IXChorusViola = {
     c r\fermata \bar "|." %34 finis
   }
 }
+
+A-IXASScenaPrimaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-IXASScenaPrima
+    c4\pE r c r
+    c r b r
+    as r a r
+    g r es' r
+    d r c r %5
+    e! r f r
+    d r g r8 es
+    d4 r c r
+    a! r b d
+    es f b, r %10
+    h r c r
+    b r as r
+    a r g r
+    e'! r f r
+    a,! r a r %15
+    b r es f
+    b, r d! r
+    h r h r
+    c r a! r
+    g r es' r %20
+    g, r e' r
+    f f, b h
+    c c, << { f' } \\ { f, } >> es'
+    d r h! r
+    c r fis r8 \hA fis %25
+    g4 g, e'! r
+    cis r \hA cis r
+    d r b2
+    a4 r f' r
+    a, r a r %30
+    b r es2
+    d4 r h r
+    c16. c'32 c16. g32 g16. es32 es16. c32 b4 r
+    as f b h
+    c c, \key c \dorian \tempoA-IXASScenaPrimaB f f'\fE %35
+    es r8 \hA es cis2
+    d4 r b8 b as' as
+    g g fis fis g4 r
+    es4. es8 e e e e
+    f4 r8 f fis fis fis fis %40
+    g2. fis4
+    g g, c \tempoA-IXASScenaPrimaC r
+    \key c \major R1*2
+    R1\fermata \bar "|." %45 finis
+  }
+}
+
+A-IXASAriaPrimaViola = {
+  \relative c' {
+    \clef alto
+    \key es \lydian \time 3/2 \tempoA-IXASAriaPrima
+    es2\fE r4 es' g, es
+    d2 r4 b' d, b
+    es2 r4 es' g, es
+    as2 r4 f' a, f
+    b2 r4 b d, b %5
+    es4. es8 c'4 as b b,
+    es2\pE es'4 as, b b,
+    es\fE g as f b b,
+    es2 r r
+    R1.*19 %28
+    r2 r4 b'\fE d, b
+    a2 r4 f' a, f %30
+    b2 r4 b' g es
+    d2 r4 b' d, b
+    es2 r4 es g es
+    as2 r4 f as a
+    b2 r4 g d b %35
+    es g as c b b,
+    es2 r r
+    R1.*16 %53
+    r2 r4 es'\fE g, es
+    d2 r4 b' d, b %55
+    es2 r4 es' g, es
+    as2 r4 f' a, f
+    b2 r4 b d, b
+    es4. es8 c'4 as b b,
+    es2\p es'4 as, b b, %60
+    es\f g as f b b,
+    es2\fermata r r
+    R1.*15 %77
+    r2 r4 g\fE b, g
+    fis2 r4 d'' fis, d
+    g2 r4 g b g %80
+    c,2 r4 c' c, es
+    d b es c d d,
+    g2 r r
+    R1.*13 %96
+    \time 4/4 \tempoA-IXASAriaPrimaB R1*2 \markDaCapo \bar "||" %98 finis
+  }
+}
