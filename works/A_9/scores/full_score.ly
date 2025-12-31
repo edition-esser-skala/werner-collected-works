@@ -389,7 +389,7 @@
   %       >>
   %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
   %         \new Staff {
-  %           \set Staff.instrumentName = "Petrus"
+  %           \set Staff.instrumentName = "St: Petrus"
   %           \new Voice = "Soli" { \dynamicUp \A-IXAriaSecundaSoli }
   %         }
   %         \new Lyrics \lyricsto Soli \A-IXAriaSecundaSoliLyrics
@@ -990,8 +990,92 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \section "21" "Aria prima"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #3
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-IXASAriaPrimaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-IXASAriaPrimaViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \A-IXASAriaPrimaViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Judex"
+  %           \new Voice = "Soli" { \dynamicUp \A-IXASAriaPrimaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-IXASAriaPrimaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \A-IXASAriaPrimaContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-IXASAriaPrimaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 160 } % 60
+  %   }
+  % }
+  % \bookpart {
+  %   \section "22" "Scena secunda"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #21
+  %     system-system-spacing.minimum-distance = #21
+  %     systems-per-page = #5
+  %     system-count = #8
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "t-trb" "soli" }
+  %           \new Voice = "Soli" { \dynamicUp \A-IXASScenaSecundaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-IXASScenaSecundaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \A-IXASScenaSecundaContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-IXASScenaSecundaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "21" "Aria prima"
+    \section "23" "Aria secunda"
     \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
@@ -1011,36 +1095,36 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \A-IXASAriaPrimaViolinoI
+              \A-IXASAriaSecundaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \A-IXASAriaPrimaViolinoII
+              \A-IXASAriaSecundaViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \A-IXASAriaPrimaViola
+            \A-IXASAriaSecundaViola
           }
         >>
         \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
-            \set Staff.instrumentName = "Judex"
-            \new Voice = "Soli" { \dynamicUp \A-IXASAriaPrimaSoli }
+            \set Staff.instrumentName = "St: Petrus"
+            \new Voice = "Soli" { \dynamicUp \A-IXASAriaSecundaSoli }
           }
-          \new Lyrics \lyricsto Soli \A-IXASAriaPrimaSoliLyrics
+          \new Lyrics \lyricsto Soli \A-IXASAriaSecundaSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \A-IXASAriaPrimaContinuo
+            \A-IXASAriaSecundaContinuo
           }
         >>
-        \new FiguredBass { \A-IXASAriaPrimaBassFigures }
+        \new FiguredBass { \A-IXASAriaSecundaBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 160 } % 60
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+      \midi { \tempo 4 = 60 }
     }
   }
 }

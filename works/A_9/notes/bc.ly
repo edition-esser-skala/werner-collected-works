@@ -2292,3 +2292,191 @@ A-IXASAriaPrimaBassFigures = \figuremode {
   r4 <4\+ 2->2 <6>8 <7- 5 [_!]>
   <5 4>4 <\t _+>2. %98 finis
 }
+
+A-IXASScenaSecundaContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-IXASScenaSecunda
+    R1
+    e!2 f4 h,!
+    c2 fis
+    g4 d es2
+    d4 d8 f! b,2 %5
+    c d
+    h!1
+    c2 cis~
+    cis1
+    d2 e %10
+    f4 a, b h
+    c c, a'2
+    b cis~
+    cis1
+    d2 a %15
+    c! fis
+    << { g } \\ { g, } >> a
+    b d
+    e! cis
+    d e %20
+    f4 b, c c,
+    << { f'2 } \\ { f, } >> d'
+    h! gis
+    a dis
+    e4 e, a2\fermata \bar "|." %25 finis
+  }
+}
+
+A-IXASScenaSecundaBassFigures = \figuremode {
+  r1
+  <6>2 <_->4 <7- 5>
+  <_->2 <7- 5>
+  <_->4 <6- _+> <7> <6\\>
+  <_+> <6 _!>2. %5
+  <_->2 <6->
+  <6>1
+  <_->2 <6 [_!]>
+  <7- 5>1
+  r2 <6[!]> %10
+  r4 <6>2 <6 5>4
+  <4> <3> <6\\>2
+  <6> q
+  <5> <7- 5>
+  r <6 [_!]> %15
+  <4\+ _-> <7- 5>
+  <_-> <6[!]>
+  r <6[-]>
+  <6> q
+  r <6[!]> %20
+  r <4>4 <3>
+  r2 <6->
+  <6> <6 [_!]>
+  r <7 5 [_+]>
+  <4>4 <_+>2. %25 finis
+}
+
+A-IXASAriaSecundaContinuo = {
+  \relative c {
+    \clef bass
+    \twoonetime \key a \major \time 1/2 \tempoA-IXASAriaSecunda
+    a8\pE a' a e
+    cis a e' e,
+    a a' a a
+    a a, d dis
+    e fis gis e %5
+    a fis h a
+    gis e dis h
+    gis e' dis h
+    e cis gis' e
+    a fis h h, %10
+    e e' dis h
+    e, a h h,
+    e16 d! cis h a8 e
+    a a'16 g fis8 a
+    d, d' ais fis %15
+    h fis gis! e
+    a, h cis a
+    d h e d
+    cis a' gis e
+    a cis gis e %20
+    a fis cis a
+    d h e e,
+    a a' gis e
+    a g fis cis
+    d h cis gis! %25
+    a d e e,
+    a cis' gis e
+    a d, e e,
+    a\fermata a'16 g fis8 e
+    d cis d a %30
+    d, d'16 e fis8 d
+    cis fis h, e
+    a, a'16 g fis8 cis
+    d h' ais fis
+    h, h'4 a8 %35
+    g dis e \hA g
+    fis d ais h
+    fis4 fis'8 h,
+    fis fis'16 e dis8 h
+    g' dis e \hA g %40
+    fis e d h
+    cis h cis cis,
+    fis fis' eis cis
+    fis h cis cis,
+    fis, fis'16 e! d8 a %45
+    d4. a8
+    d, d'16 e fis8 d
+    cis fis h, e
+    a, a'16 gis fis8 a
+    eis cis r \hA eis %50
+    fis, fis'4 e8
+    d ais h d
+    cis a eis' fis
+    cis4. fis,8
+    cis' cis'16 h ais8 fis %55
+    d ais h d
+    cis h a fis
+    gis2
+    cis \markDaCapo \bar "||" %59 finis
+  }
+}
+
+A-IXASAriaSecundaBassFigures = \figuremode {
+  r2
+  <[6]>
+  r4. <6 4>8
+  \bo <[5] _+>4. \bc <[7]>8
+  r2 %5
+  r4 <_+>
+  \bo <[6]> <6>
+  q \bc <[6]>
+  r8 <6> q4
+  r <4>8 <_+> %10
+  r4 <[6]>
+  r <6 4>8 <5 _+>
+  r2
+  r4 <6>
+  r <[6]> %15
+  r8 <6 [_!]> <6>4
+  r2
+  r
+  <6>4 q
+  \bo <[6]> \bc <[6]>4 %20
+  r8 <6> <[6]>4
+  r <4>8 <_+>
+  r4 <[6]>
+  r8 <\t> <6> <[5!]>
+  r <6\\> <6> <[6 5]> %25
+  r <6 5> <4> <_+>
+  r4 <[6]>
+  r8 <6 5> <4> <_+>
+  r4 <6>8 <6\\ [_!]>
+  r8 <[6]>4. %30
+  r2
+  r4. <_+>8
+  r4 \bo <[6]>8 <6>
+  r4 \bc <[6]>
+  r <_+>8 <\t> %35
+  <6> \bo <[6]> <_!> \bc <[5!]>
+  <_+> <6> q4
+  <_+> q
+  q <[6]>
+  <6>8 <[6]> <_!>4 %40
+  <_+>8 <6 [_!]> <6>4
+  <6 4[!]> <5 _+>
+  r <[6]>
+  r <6 4>8 <5\+ _+>
+  r2 %45
+  r
+  r
+  r4. <_+>8
+  r <6>16 <[6\\]> <5>4
+  <6>4. q8 %50
+  r4 <_+>
+  <6>8 <[6]>4.
+  <_+>8 <6> q4
+  <_+>2
+  q4 <6> %55
+  q8 <[6]>4.
+  <_+>4 <6>8 <6\\ 5>
+  \bo <[5\+] 4>4 \bc <[\t] _+>
+  r2 %59 finis
+}

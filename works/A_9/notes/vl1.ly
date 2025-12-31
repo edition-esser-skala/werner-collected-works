@@ -999,3 +999,65 @@ A-IXASAriaPrimaViolinoI = {
     \time 4/4 \tempoA-IXASAriaPrimaB R1*2 \markDaCapo \bar "||" %98 finis
   }
 }
+
+A-IXASAriaSecundaViolinoI = {
+  \relative c' {
+    \clef treble
+    \twoonetime \key a \major \time 1/2 \tempoA-IXASAriaSecunda
+    a''16(-\conSord e) e( cis) cis8 h
+    r16 cis e( a) \tuplet 3/2 8 { \sbOn gis fis e d cis h \sbOff }
+    cis e, a cis e8 fis16( e)
+    e8 d16 cis \tuplet 3/2 8 { \sbOn fis e d cis h a \sbOff }
+    gis( e') dis( e) \hA dis( e) \hA dis( e) %5
+    cis( cis') a( fis) \tuplet 3/2 8 { \sbOn dis e fis fis gis a \sbOff }
+    h4~ h16( fis) dis( h)
+    e8 dis16 cis h( a) gis( fis)
+    gis( a) a( h) h( e) e( gis)
+    \tuplet 3/2 8 { \sbOn cis, dis e fis gis a \sbOff } \appoggiatura e8 dis8.\trill e16 %10
+    \tuplet 3/2 8 { \sbOn e e, fis gis a h h cis dis dis e fis
+    gis a h cis h a gis fis e \sbOff } fis8\trill
+    e4 \tuplet 3/2 8 { \sbOn cis16 d! e d cis h
+    cis a h cis d e d e fis e d cis \sbOff }
+    d a fis d r4 %15
+    h'16 fis d h r4
+    r16 a' gis( a) e'( cis) cis( a)
+    fis fis' d h \tuplet 3/2 8 { \sbOn gis a h h cis d \sbOff }
+    e2~
+    e16 a gis( fis) e( d) cis( h) %20
+    cis8 a, r4
+    fis''16( d) d( h) \appoggiatura a8 gis8.\trill a16
+    \tuplet 3/2 8 { \sbOn a a, h cis d e e fis gis gis a h
+    cis a h cis d e d e fis e fis g
+    fis gis a gis a h a h cis h cis d %25
+    cis a e fis d h \sbOff } \appoggiatura a8 gis8. a16
+    \tuplet 3/2 8 { \sbOn a16 e' e e e e h' gis e gis e h
+    cis a e fis d h \sbOff } \appoggiatura a8 gis8.\trill a16
+    a4\fermata r
+    d'16( a) a( g) \tuplet 3/2 8 { \sbOn fis e d e d cis \sbOff } %30
+    d4 a'8 \tuplet 3/2 8 { d16 e fis }
+    e( cis) h( a) d( h) a( gis!)
+    cis a cis e a( g) a( e)
+    fis8 d' \tuplet 3/2 8 { \sbOn cis16 h ais ais gis fis
+    fis e d d cis h \sbOff } r4 %35
+    h'8. a16 \tuplet 3/2 8 { \sbOn g fis e d cis h \sbOff }
+    ais8 fis r4
+    r16 fis' cis( d) cis8 r
+    r16 fis, ais cis fis8 r
+    R2*2 %41
+    r8 fis gis,! eis'
+    \tuplet 3/2 8 { \sbOn fis16 fis, gis a h cis cis dis? eis eis fis gis
+    a h cis d! cis h \sbOff } \tuplet 3/2 8 { a gis fis } gis8\trill
+    fis4 r %45
+    r16 a fis d \tuplet 3/2 8 { \sbOn a g fis \hA g fis e \sbOff }
+    fis( a) d( cis) d( a) fis( d)
+    r e' d( cis) r d cis( h)
+    cis a fis' gis a8 fis,
+    r4 r8 cis' %50
+    \tuplet 3/2 8 { \sbOn cis16 h a a gis fis \sbOff } r4
+    fis'8. e!16 \tuplet 3/2 8 { \sbOn d cis h a gis fis \sbOff }
+    eis8 cis r4
+    r16 cis' gis a gis8 r
+    r16 cis, eis gis cis8 fis %55
+    R2*4 \markDaCapo \bar "||" %59 finis
+  }
+}

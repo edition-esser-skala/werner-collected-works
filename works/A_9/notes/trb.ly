@@ -19,3 +19,13 @@ A-IXScenaSecundaTrombone = {
     es1-\markup \remarkE "(7)" \bar "||" %84 finis
   }
 }
+
+A-IXASScenaSecundaTrombone = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoA-IXASScenaSecunda
+    c1
+    R1*23 %24
+    R1\fermata \bar "|." %25 finis
+  }
+}

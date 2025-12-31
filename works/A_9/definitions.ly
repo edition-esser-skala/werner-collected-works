@@ -3,9 +3,9 @@
 Judas = \markup { \override #'(box-padding . 0.5) \box "Judas" }
 Judex = \markup { \override #'(box-padding . 0.5) \box "Judex" }
 Lucifer = \markup { \override #'(box-padding . 0.5) \box "Lucifer" }
-Petrus = \markup { \override #'(box-padding . 0.5) \box "Petrus" }
 StMagdalena = \markup { \override #'(box-padding . 0.5) \box "St: Magdalena" }
 StMichael = \markup { \override #'(box-padding . 0.5) \box "St: Michael" }
+StPetrus = \markup { \override #'(box-padding . 0.5) \box "St: Petrus" }
 
 fC = \set Staff.forceClef = ##t
 markScenaQuinta = {
@@ -20,6 +20,13 @@ sbTHOn = {
   \set subdivideBeams = ##t
   \set baseMoment = #(ly:make-moment 1/4)
   \set beatStructure = #'(2 2 2 2 2 2)
+}
+twoonetime = {
+  \overrideTimeSignatureSettings
+    1/2
+    1/8
+    #'(4)
+    #'((end . (((1 . 16) . (4 4)))))
 }
 
 tempoA-IXIntro = \tempoMarkup "Adagiosè"
@@ -52,6 +59,8 @@ tempoA-IXASScenaPrima = \tempoMarkup "Recitativo"
   tempoA-IXASScenaPrimaC = \tempoMarkup "Recitativo"
 tempoA-IXASAriaPrima = \tempoMarkup "Tempo ordinario"
   tempoA-IXASAriaPrimaB = \tempoMarkup "Adagio"
+tempoA-IXASScenaSecunda = \tempoMarkup "Recitativo"
+tempoA-IXASAriaSecunda = \tempoMarkup "Larghetto"
 
 \include "notes/trb.ly"
 \include "notes/vl1.ly"

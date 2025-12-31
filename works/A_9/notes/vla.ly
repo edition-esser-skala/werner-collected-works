@@ -687,3 +687,23 @@ A-IXASAriaPrimaViola = {
     \time 4/4 \tempoA-IXASAriaPrimaB R1*2 \markDaCapo \bar "||" %98 finis
   }
 }
+
+A-IXASAriaSecundaViola = {
+  \relative c' {
+    \clef alto
+    \twoonetime \key a \major \time 1/2 \tempoA-IXASAriaSecunda
+    R2*22
+    a8\pE a' gis e
+    a g fis cis
+    d h cis gis! %25
+    a d e e,
+    a cis' gis e
+    a d, e e,
+    a4\fermata r
+    R2*13 %42
+    fis8 fis' eis cis
+    fis h cis cis,
+    fis,4 r %45
+    R2*14 \markDaCapo \bar "||" %59 finis
+  }
+}

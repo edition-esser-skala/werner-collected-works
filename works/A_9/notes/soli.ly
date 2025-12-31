@@ -166,7 +166,7 @@ A-IXScenaQuintaSoli = {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoA-IXScenaQuinta
     \partial 2 \once \override Parentheses.font-size = #3
-      \parenthesize es4 g,^\Petrus \bar ";"
+      \parenthesize es4 g,^\StPetrus \bar ";"
       c8. c16 c8 es as,8. as16 as8 f
     d' d d16 d f es c4 r8 es
     b b d \hA b g g r b
@@ -1242,7 +1242,7 @@ A-IXScenaDecimaSoli = {
     f8. f16 f8 f f c es f
     d8. d16 d8 f g8. g16 a8 b
     b8. f16 f4 \fC r^\StMagdalena b8 d %5
-    fis, c' es d b b \fC g,^\Petrus g
+    fis, c' es d b b \fC g,^\StPetrus g
     h! h d es c c \clef "treble_8" r^\Judas g
     c c g as b4 b8 c
     des8. des16 des8 c as as r f
@@ -1431,4 +1431,184 @@ A-IXASAriaPrimaSoliLyrics = \lyricmode {
   _ _ _
   ten, mein Gu -- that nicht er -- khän --
   ten. %98 finis
+}
+
+A-IXASScenaSecundaSoli = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXASScenaSecunda
+    c1^\markup \remark "t-trb"
+    \clef treble r8^\StMichael c g'16 g g as f8 f16 f f f as g
+    es8 es \clef "treble_8" r^\StPetrus c a c es d
+    b r16 \hA b d8 \hA b g4 r8 fis
+    a a r4 \fC r8^\markup \remark "ardito" ^\Lucifer f b16 b c d %5
+    es8 c a16 a c d b8 b r16 \hA b d \hA b
+    g8. g16 g8 h d d f es
+    c c c16 c es c a8 a r16 a a b
+    g8. g16 g8 g b b b a
+    f f r16 a a d c!8 c e c %10
+    a4 r8 f' d b g f
+    f c r4 \clef treble r8^\StMichael c' fis16 fis g a
+    g8 d g16 g b g e!8 e r16 e e a
+    g8. g16 g8 g b b b a
+    f f r d f f a f %15
+    es es r c es es es d
+    b b8*1/2\( \clef bass g\)^\Judex g16 g a b f!8 f16 f a a c es,
+    d8 d r f b b d \hA b
+    g g g16 g a b a8 e g16 g b a
+    f8 f r a c! g b c %20
+    a a r16 d, e f f8. c16 c4
+    \clef "treble_8" r8^\StPetrus f a16 a g f b8 b b16 b d \hA b
+    g8. g16 g8 g e gis h d
+    c8. c16 c4 r8 a c a
+    a8. e16 e4 r2\fermata \bar "|." %25 finis
+  }
+}
+
+A-IXASScenaSecundaSoliLyrics = \lyricmode {
+  \skip 1
+  Woll -- an, die Zeit bricht an, ihr ſolt vor Ge -- rich -- te
+  ge -- hen. Ô ü -- ber -- bitt -- re
+  Forcht, wie werd ich da be --
+  ſte -- hen! Ô Gott der du ge -- %5
+  recht in all und je -- den Wer -- ckhen, hier ſe -- he
+  dei -- nen Knecht, den du mit ſond -- rer
+  Gnad nur al -- zeit thä -- teſt ſtär -- ckhen, wie Er dich
+  drey -- mahl hat ver -- läug -- net und ver --
+  ſchwö -- ret, als hät -- te Er dich nim -- mer -- %10
+  mehr ge -- ſe -- hen noch ge --
+  hö -- ret. Weich ab du Hoff -- arths --
+  geiſt, hier kan -- ſtu nicht be -- ſte -- hen, ob -- ſchon der
+  Rich -- ter würd kein Pünct -- lein ü -- ber --
+  ſe -- hen, hier zei -- ge ich die %15
+  Thrä -- nen nebſt ſei -- nen ſtren -- gen
+  Le -- ben. Ja ja ich mueß be -- khen -- nen und ihm ſelbſt Zeug -- nus
+  ge -- ben, ver -- füe -- ge dich ſo --
+  dan zu je -- nen Eh -- ren -- thron, da ſolſt nach dein Ver --
+  lan -- gen bald e -- wig -- lich em -- %20
+  pfan -- gen die gold -- ne Eh -- ren Cron.
+  Ô gnä -- di -- ge Sen -- tenz, nun prey -- ſe ich in
+  E -- wig -- kheit die gött -- li -- che Barm --
+  her -- zig -- kheit mit größ -- ter
+  Re -- ve -- renz. %25 finis
+}
+
+A-IXASAriaSecundaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \twoonetime \key a \major \time 1/2 \autoBeamOff \tempoA-IXASAriaSecunda
+    r4 a8 h16([ gis)]
+    a4 e16([ gis)] h([ d)]
+    cis4 e8 fis16([ e)]
+    e8 d16([ cis)] \tuplet 3/2 8 { fis([ e d)] cis([ h a)] }
+    gis4 h8 e %5
+    cis \tuplet 3/2 8 { cis16([ dis e)] } \hA dis8 \tuplet 3/2 8 { dis16([ e fis)] }
+    e([ h)] gis([ e)] h'8 h
+    h16([ e)] dis([ cis)] h([ a)] gis([ fis)]
+    gis([ a)] a([ h)] h8 e
+    cis a \appoggiatura gis fis8. e16 %10
+    e4 r
+    R2
+    r4 a8 h16([ gis)]
+    a4 d8 e16([ cis)]
+    d4 cis8 \tuplet 3/2 8 { cis16([ d e)] } %15
+    d8 \tuplet 3/2 8 { d16([ e fis)] } \appoggiatura fis8 e8. d16
+    cis4 a8 cis16([ a)]
+    fis8 \tuplet 3/2 8 { fis16([ gis a)] } gis8 \tuplet 3/2 8 { gis16([ a h)] }
+    a8 \tuplet 3/2 8 { a16([ h cis)] } h8 \tuplet 3/2 8 { h16([ cis d)]
+    cis([ d cis)] } h([ a)] h([ d)] cis([ h)] %20
+    cis([ d)] d([ e)] e([ cis)] cis([ a)]
+    \tuplet 3/2 8 { fis([ gis a)] h([ cis d)] } \appoggiatura a8 gis8. a16
+    a4 r
+    R2*5 %28
+    r4\fermata d8 e16([ cis)]
+    d8 r \tuplet 3/2 8 { a16([ g fis)] \hA g([ fis e)] } %30
+    fis4 a8 \tuplet 3/2 8 { d16([ e fis)] }
+    e([ cis)] h([ a)] d([ h)] a([ gis!)]
+    a4 d8 e
+    fis fis fis16([ e)] fis([ cis)]
+    d8 h dis8. dis16 %35
+    e8 fis \tuplet 3/2 8 { g16([ fis e)] d([ cis h)] }
+    ais8 h cis d16([ h)]
+    cis8 r fis16([ cis)] d([ h)]
+    cis8 r h cis16([ dis)]
+    e8 fis \tuplet 3/2 8 { g16([ fis e)] d([ cis h)] } %40
+    ais8 cis h \tuplet 3/2 8 { d16([ cis h)] }
+    a4( gis!8.)\trill fis16
+    fis4 r
+    R2
+    r4 d'8 e16([ cis)] %45
+    d4 \tuplet 3/2 8 { a16([ g fis)] \hA g([ fis e)] }
+    fis4 a8 \tuplet 3/2 8 { d16([ e fis)] }
+    e([ cis)] h([ a)] d([ h)] a([ gis!)]
+    a4 cis8 cis
+    cis gis16([ a)] \tuplet 3/2 8 { h([ cis d)] } cis([ h)] %50
+    a([ gis)] fis8 ais8. ais16
+    h8 cis \tuplet 3/2 8 { d16([ cis h)] a([ gis fis)] }
+    eis8 fis gis a16([ fis)]
+    gis8 r cis16([ gis)] a([ fis)]
+    gis8 r fis gis16([ ais)] %55
+    h8 cis \tuplet 3/2 8 { d16([ cis h)] a([ gis fis)] }
+    eis8 gis cis dis16([ e)]
+    \appoggiatura cis8 his4.\trill cis8
+    cis2 \markDaCapo \bar "||" %59 finis
+  }
+}
+
+A-IXASAriaSecundaSoliLyrics = \lyricmode {
+  Troſt und
+  Freud, Süeſ -- ſig --
+  kheit iſt auf
+  e -- wig zue -- be --
+  reüth je -- nem %5
+  ſo die Sün -- de
+  flüe -- het, ſich der
+  bö -- ſen Weld ent --
+  züe -- het und die
+  bö -- ſe Gſell -- ſchafft %10
+  meydt.
+
+  Troſt und
+  Freud, Süeſ -- ſig --
+  kheit iſt auf %15
+  e -- wig zue -- be --
+  reüth je -- nem
+  ſo die Sün -- de
+  flüe -- het, ſich der
+  bö -- ſen Weld ent -- %20
+  züe -- het und die
+  bö -- ſe Gſell -- ſchafft
+  meydt.
+
+  Glau -- bet %29
+  nur, die Na -- %30
+  tur iſt ge --
+  wohnt zur Sün -- den --
+  ſpuhr, wer nun
+  di -- ſe wird ver --
+  mey -- den, all ſein %35
+  Creütz ge -- dul -- tig
+  ley -- den, tragt dar --
+  von groſ -- ſen
+  Lohn ſambt der
+  gwün -- ſchten Eh -- ren %40
+  Cron, der gwün -- ſchten
+  Eh -- ren
+  Cron.
+
+  Glau -- bet %45
+  nur, die Na --
+  tur iſt ge --
+  wohnt zur Sün -- den --
+  ſpuhr, wer nun
+  di -- ſe wird ver -- %50
+  mey -- den, all ſein
+  Creütz ge -- dul -- tig
+  ley -- den, tragt dar --
+  von groſ -- ſen
+  Lohn ſambt der %55
+  gwün -- ſchten Eh -- ren
+  Cron, der gwün -- ſchten
+  Eh -- ren
+  Cron. %59 finis
 }
