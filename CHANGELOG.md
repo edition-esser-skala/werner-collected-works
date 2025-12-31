@@ -1,5 +1,23 @@
 # Changelog
 
+## 2025.12.0 – 2025-12-31
+
+### Added
+
+- works: WerW B.66, D.2.3/4, E.15/20/37/39, F.38–40, G.9, H.1.2, H.2.6, I.1.7, I.2.9, I.3.14, I.4.48/50/51, I.5.1, J.1, M.16/S1, N.11, and O.12
+- global macros: `\dotbfflat`, `\tempoTitle`, and `\tempoTitleMarkup`
+- info on permission by CZ-Pak to use their manuscripts
+
+### Changed
+
+- revised WerW O.1–12
+- renumbered WerW H.1.16/17 to 15/16
+
+### Removed
+
+- global macros `\rhythmSdTT` and `\rhythmSdSS`
+
+
 ## 2025.11.0 – 2025-11-30
 
 ### Added
