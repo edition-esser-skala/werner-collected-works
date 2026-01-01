@@ -61,6 +61,8 @@ tempoA-IXASAriaPrima = \tempoMarkup "Tempo ordinario"
   tempoA-IXASAriaPrimaB = \tempoMarkup "Adagio"
 tempoA-IXASScenaSecunda = \tempoMarkup "Recitativo"
 tempoA-IXASAriaSecunda = \tempoMarkup "Larghetto"
+tempoA-IXASScenaTertia = \tempoMarkup "Recitativo"
+tempoA-IXASAriaTertia = \tempoMarkup "Andante passato"
 
 \include "notes/trb.ly"
 \include "notes/vl1.ly"

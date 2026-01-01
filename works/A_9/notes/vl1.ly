@@ -1061,3 +1061,46 @@ A-IXASAriaSecundaViolinoI = {
     R2*4 \markDaCapo \bar "||" %59 finis
   }
 }
+
+A-IXASAriaTertiaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-IXASAriaTertia
+    g''4~\f g16( c,) a'( c,) \appoggiatura c8 h4 c8 \tuplet 3/2 8 { c16 d e }
+    f( e) f8 d' f, f16( e) e( d) c( g) f( a)
+    d,16. d32 e16 f g( e) c8 r2
+    r8 g''~ g16 g f e d8 d~ \sbOn \tuplet 3/2 8 { d16 e fis g a h }
+    e,8 e~ \tuplet 3/2 8 { e16 fis g a g a } \sbOff fis8~ \tuplet 3/2 8 { fis16 g a } h( c) c( d) %5
+    \tuplet 3/2 8 { \sbOn d16 c h c h a \sbOff } \appoggiatura g8 fis8.\trill g16 g8 d~ d16( e) e( f?)
+    f( e) f8~ f f e16( d) e8~ e16( f) f( g)
+    g( f) g8~ g16 a32 g f16 e d8 g, r a'16( a,)
+    h8 c16 d \appoggiatura c8 h8.\trill c16 c4 r
+    R1*3 %12
+    r8 g'~\p \tuplet 3/2 8 { \sbOn g16 a g fis g a \sbOff } h8 g, r4
+    R1*6 %19
+    g'4~\f g16( c,) a'( c,) \appoggiatura c8 h4 c8~ \tuplet 3/2 8 { c16 d e } %20
+    f( e) f8 d' f, f16( e) e( d) c( e) d( c)
+    h8 d'~ d16 d c h a8 h16 c d8 c
+    h8. c16 \appoggiatura h8 a8.\trill g16 g4 r
+    R1*5 %28
+    r2 r8 \once \tieDashed d~\f \tuplet 3/2 8 { \sbOn d16 e f g a h \sbOff }
+    e,4 r r2 %30
+    R1*2
+    r8 g,~\f \sbOn \tuplet 3/2 8 { g16\fE a h c d e a, h c d e f h, c d e f g
+    c, d e f g a } \appoggiatura a8 g8.\trill f16 \tuplet 3/2 8 { e f g a g f } \appoggiatura e8 d8.\trill c16
+    \tuplet 3/2 8 { c16 e d c h a g a g f e d e f g a g f } \appoggiatura e8 d8.\trill c16 \sbOff %35
+    c4\fermata r r2
+    R1
+    r2 r4 r8 e'~\p
+    \tuplet 3/2 8 { e16 d cis } cis8 d16( a) e'( a,) f'8 d, r4
+    R1*3 %42
+    r8 h''~\f \sbOn \tuplet 3/2 8 { h16 c h a g fis g e \hA fis g a h c h a g fis e
+    dis cis h c h a } \sbOff \appoggiatura g8 fis8.\trill e16 e4 r
+    R1 %45
+    r2 r16 a'\p \tuplet 3/2 8 { d,[ e cis] } d8 d,
+    R1
+    r2 r8 a'~\f \tuplet 3/2 8 { \sbOn a16 h c d e fis \sbOff }
+    h,4 r r2
+    R1*5 \markDaCapo \bar "||" %54 finis
+  }
+}

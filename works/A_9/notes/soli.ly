@@ -1612,3 +1612,255 @@ A-IXASAriaSecundaSoliLyrics = \lyricmode {
   Eh -- ren
   Cron. %59 finis
 }
+
+A-IXASScenaTertiaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXASScenaTertia
+    r8^\StMichael d fis16 fis g a cis,4 r8 e
+    g8. g16 a8 e fis8. fis16 fis8 a
+    d, d e h cis4 \fC r8^\StMagdalena a'
+    d d d a h4 r8 fis
+    a a c! h g g \clef "treble_8" r h,^\Lucifer %5
+    e8. e16 e8 e e h16 h d d e h
+    c8 c r16 c c c c8. g!16 g8 c
+    e cis b a f r16 f f f f g
+    a8 r16 a a a a d c8 g b16 b c g
+    a8 a8*1/2\( \clef bass c,\)^\Judex f16 f a f d8 d16 \clef "treble_8" d'^\Lucifer d d h d %10
+    g,8 r16 g g g g a h8 h d16 d d e
+    c4 r8 e a, a d a
+    h h r4 \clef treble r8^\StMichael a e'16 e f g
+    f8 d b'16 g f d d8 a r4
+    \clef bass r8^\Judex fis fis16 fis fis h a8 a c!16 c c h %15
+    g8 g16 \clef treble h^\StMichael h8 e d!8. d16 d8 fis
+    a d, fis c h h \clef "treble_8" r^\Lucifer g
+    c8. c16 c c g a b8 b16 b b b d \hA b
+    a8 a8*1/2\( \clef bass a\)^\Judex e16 e g a fis8 fis a16 a c! b
+    g8 g8*1/2\( \clef treble d'\)^\StMichael g16 g d es f!8 f as16 as as g %20
+    es8 es8*1/2\( \clef "treble_8" g,\)^\Lucifer c16 c d es b8. b16 b8 d
+    f d b f g g8*1/2\( \clef treble b\)^\StMichael es16 es es f
+    g8. g16 g8 c, b8. b16 d8 c
+    a a \clef bass r^\markup \remark "svave" ^\Judex f a a c a
+    fis fis r a b8. b16 b8 a %25
+    fis fis r \hA fis g g b d
+    gis, gis16 gis gis a h c a8 a16 a a a c a
+    f!8 r16 d f d gis a a8 e r4
+    \clef treble r8^\StMichael^\StMagdalena << {
+      c'' e c a8. a16 a8 a
+      c^\markup \remark "ich" c c16[ h] c8 c4( h)\trill %30
+      a2
+    } {
+      e8 c a' f8. f16 f8 f
+      a a a16[ gis] a8 a4( gis)\trill %30
+      a2
+    } >> r\fermata \bar "|." %31 finis
+  }
+}
+
+A-IXASScenaTertiaSoliLyrics = \lyricmode {
+  Kom mein ver -- lieb -- te Braut und
+  fol -- ge mir, nit förch -- te dir, geh
+  ſi -- cher und ver -- traut. Wie
+  iſt mir umb daß Hertz, ich
+  möcht vor Angſt ver -- za -- gen. Ge -- %5
+  rech -- ter Rich -- ter hö -- re, ver -- neh -- me mei -- ne
+  Kla -- gen, hier iſt dir vor -- ge -- ſtelt ein
+  la -- ſter -- haff -- tes Weib, die vor -- mahls ſich der
+  Weld mit ih -- ren zar -- ten Leib vill -- fäl -- tig feil ge --
+  bo -- then. Ich muß nur dei -- ner ſpot -- ten. Wie, auf was Arth und %10
+  Weiß ſo will man dan al -- hier gleich wie ich woll ver --
+  ſpühr ſchon auch daß Recht ver --
+  kür -- tzen? Er ſucht mit groſ -- ſen
+  Fleis ſie e -- wig -- lich zu ſtür -- tzen.
+  Diß ma -- chet nur der Neid der alt -- uer -- güff -- ten %15
+  Schlan -- gen. Sie wird Barm -- her -- zig -- kheit ohn --
+  fehl -- bar noch er -- lan -- gen. Je --
+  ru -- sa -- lem kan Zeu -- gnus ge -- ben von ih -- ren La -- ſter --
+  le -- ben. Die Sünd iſt ſchon ver -- nicht wo Reu und Bueß vor --
+  han -- den. Woll -- an du Nat -- ter -- zücht, nun ſte -- heſt du zu -- %20
+  ſchan -- den. Ich ſoll wegn ei -- ner Hoff -- arths Sünd auf
+  e -- wig ſeyn ver -- ſtoſ -- ſen. Ge -- nueg daß ſie ihr
+  Le -- bens -- zeit bueß -- fer -- tig -- lich be --
+  ſchloſ -- ſen. So kom -- me mei -- ne
+  Freun -- din, die du ſo vill ge -- %25
+  lie -- bet, ſtell dich zur rech -- ten
+  Sei -- then, ſey hin -- forth nit be -- trüe -- bet, du biſt nun -- meh -- ro
+  ſchon zur See -- lig -- kheit er -- kho -- ren.
+  Troſt -- rei -- cher Au -- gen -- blickh da
+  du zur Weld ge -- boh -- %30
+  ren. %31 finis
+}
+
+A-IXASAriaTertiaSoliA = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXASAriaTertia
+    R1*8 %8
+    r2 r8 g' \tuplet 3/2 8 { c16([ d e)] } d([ c)]
+    h8 c d16([ h)] g([ f)] e8 f g c %10
+    a16([ h)] c([ g)] \appoggiatura g8 f4\trill e r
+    R1
+    r2 r8 h' h16([ a)] h8
+    c16([ d)] c([ d)] c([ e)] d([ c)] h8 c d16([ a)] h([ c)]
+    d8 d d([ c)] h4 r8 g %15
+    \tuplet 3/2 8 { g16([ a h)] c([ d e)] } a,8 a \tuplet 3/2 8 { a16([ h c)] d([ c d)] } h8 a
+    h16([ c)] d([ c)] h[ c a c] h[ c d c] h[ c a c]
+    h[ d] c h a4\trill g r
+    R1*4 %22
+    r2 r8 g d' e16([ f!)]
+    e8 c g' f16([ e)] d8 e f \tuplet 3/2 8 { f16([ g a)] }
+    g([ d)] e([ f)] e4\trill d r %25
+    R1
+    r2 r8 h h h
+    c16([ d)] c([ d)] c([ e)] d([ c)] h8 c d16([ a)] h([ c)]
+    d8 d d([ c)] h4 r
+    r8 g \tuplet 3/2 8 { g16([ a h)] c([ d e)] } a,8 a \tuplet 3/2 8 { a16([ h c)] d([ c d)] } %30
+    h8 d g, h c16([ d)] e([ d)] c[ d h d]
+    c[ d e d] c[ d h d] c[ e] d c \appoggiatura c8 h4\trill
+    c r r2
+    R1*2 %35
+    r2\fermata r8 a h16([ c)] d([ e)]
+    \tuplet 3/2 8 { c16([ h a)] } f'8 \appoggiatura f e8. d16 c8 e a, h16([ cis)]
+    d8 e \tuplet 3/2 8 { \sbOn f16([ e d c h a)] \sbOff } gis4 r
+    R1
+    r2 r4 r8 g %40
+    \tuplet 3/2 8 { g16([ a h)] c([ d e)] } a,8 a \tuplet 3/2 8 { a16([ h c)] d([ c d)] } h8 a
+    \tuplet 3/2 8 { h16([ c d)] e([ d c)] } \appoggiatura h8 a4 g r
+    R1
+    r2 r8 h \tuplet 3/2 8 { h16([ cis dis)] dis([ e fis)] }
+    g([ fis)] e8 \appoggiatura e d8. c16 h8 c \tuplet 3/2 8 { d16([ c h)] } a([ g)] %45
+    fis8 g a32([ h c8 h16)] a4 r
+    R1*2
+    r4 r8 g \tuplet 3/2 8 { g16([ a h)] c([ d e)] } a,8 a
+    \tuplet 3/2 8 { a16([ h c)] d([ c d)] } h8 a h16([ c)] d([ c)] h[ c a c] %50
+    h[ c d c] h[ c a c] h[ d] c h \appoggiatura h8 a4\trill
+    g r r8 gis16([ a)] a([ h)] h([ c)]
+    c8([ h16 a)] h8 c g4( fis)\trill
+    e2 r \markDaCapo \bar "||" %54 finis
+  }
+}
+
+A-IXASAriaTertiaSoliALyrics = \lyricmode {
+  Ô süeſ -- ſe %9
+  Lieb, troſt -- rei -- che Bueß, wie ha -- ſtu %10
+  mich be -- gli -- ckhet!
+
+  Wer ſol -- te
+  nicht nach Schuld und Pflicht den Sün -- den --
+  fall be -- reu -- en, wan %15
+  er al -- dorth an je -- nen Orth ſich
+  kan er -- freu -- _ _
+  _ en, er -- freu -- en.
+
+  Ô süeſ -- ſe %23
+  Lieb, troſt -- rei -- che Bueß, wie ha -- ſtu
+  mich be -- gli -- ckhet! %25
+
+  Wer ſol -- te
+  nicht nach Schuld und Pflicht den Sün -- den --
+  fall be -- reu -- en,
+  wan er al -- dorth an je -- nen %30
+  Orth ſich e -- wig kan er -- freu --
+  _ _ _ en, er -- freu --
+  en.
+
+  So wer -- den %36
+  dan ſo ü -- ber -- groß die Lie -- bes --
+  werckh be -- loh -- net,
+
+  zur %40
+  See -- lig -- kheit und Him -- mels -- freud,
+  wie d’Schrifft ver -- mah -- net.
+
+  So wer -- den
+  dan ſo ü -- ber -- groß die Lie -- bes -- %45
+  werckh be -- loh -- net,
+
+  zur  See -- lig -- kheit und %49
+  Him -- mels -- freud, wie d’Schrifft ver -- mah -- %50
+  _ _ _ net, ver -- mah --
+  net, die Schrifft ver
+  mah -- net, ver -- mah --
+  net. %54 finis
+}
+
+A-IXASAriaTertiaSoliB = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXASAriaTertia
+    R1*10 %10
+    r2 r8 c \tuplet 3/2 8 { g'16([ a h)] } a([ g)]
+    fis8 g a16([ \hA fis)] d([ c)] h8 c d g
+    e16([ fis)] g([ d)] \appoggiatura d8 c4 h8 d d16([ c)] d8
+    e16([ f)] e([ f)] g8 f16([ e)] d8 e f g16([ a)]
+    g8 f e4\trill d8 d \tuplet 3/2 8 { d16([ e f)] g([ a h)] } %15
+    e,8 e \tuplet 3/2 8 { e16([ fis g)] a([ g a)] } fis8 a d, \hA fis
+    g16([ a)] h([ a)] g[ a fis a] g[ a h a] g[ a fis a]
+    g[ h] a g \appoggiatura g8 fis4\trill g r
+    R1*6 %24
+    r2 r8 d g h16([ g)] %25
+    e8 g c a16([ g)] fis8 fis g a
+    h16([ g)] e([ a)] \appoggiatura g8 fis4 g8 d d d
+    e16([ f)] e([ f)] g8 f16([ e)] d8 e f g16([ a)]
+    g8 f e4\trill d r
+    r r8 c \tuplet 3/2 8 { c16([ d e)] f([ g a)] } d,8 d %30
+    \tuplet 3/2 8 { d16([ e f)] g([ f g)] } e8 d e16([ f)] g([ f)] e[ f d f]
+    e[ f g f] e[ f d f] e[ g] f e \appoggiatura e8 d4
+    c r r2
+    R1*2 %35
+    R1\fermata
+    R
+    r2 r8 h h16([ e)] e([ d)]
+    cis8 \tuplet 3/2 8 { g'16([ a b)] } \hA \appoggiatura b8 a8.\trill g16 f8 \tuplet 3/2 8 { f16([ g a)] } \appoggiatura a8 g8. f16
+    e8 g \tuplet 3/2 8 { \sbOn a16([ g f e d c)] \sbOff } h8 d \tuplet 3/2 8 { d16([ e f)] g([ a h)] } %40
+    e,8 e \tuplet 3/2 8 { e16([ fis g)] a([ g a)] } fis8 a d, \hA fis
+    g16([ fis)] g([ a)] \appoggiatura g8 \hA fis4 g r
+    R1*3 %45
+    r2 r8 a, \tuplet 3/2 8 { a16([ h c)] d([ c d)] }
+    h8 d g e16([ d)] cis8 cis d e
+    \tuplet 3/2 8 { fis16([ g a)] g([ \hA fis e)] } \appoggiatura d8 cis4\trill d r
+    r8 d \tuplet 3/2 8 { d16([ e fis)] g([ a h)] } e,8 e \tuplet 3/2 8 { e16([ fis g)] a([ g a)] }
+    fis8 a d, \hA fis g16([ a)] h([ a)] g[ a fis a] %50
+    g[ a h a] g[ a fis a] g[ h] a g \appoggiatura g8 fis4\trill
+    g8 h,16([ cis)] cis([ dis)] dis([ e)] e2~
+    e4 e16([ g!)] fis([ e)] e4( dis)\trill
+    e2 r \markDaCapo \bar "||" %54 finis
+  }
+}
+
+A-IXASAriaTertiaSoliBLyrics = \lyricmode {
+  Der See -- len -- %11
+  dieb er -- ſtum -- men muß wo di -- ſe
+  zwey ver -- ſtri -- ckhet. Wer ſol -- te
+  nicht nach Schuld und Pflicht den Sün -- den --
+  fall be -- reu -- en, wan er al -- %15
+  dorth an je -- nen Orth ſich e -- wig
+  kan er -- freu -- _ _
+  _ en, er -- freu -- en.
+
+  Der See -- len -- %25
+  dieb er -- ſtum -- men muß wo di -- ſe
+  zwey ver -- ſtri -- ckhet. Wer ſol -- te
+  nicht nach Schuld und Pflicht den Sün -- den --
+  fall be -- reu -- en,
+  wan er al -- dorth an %30
+  je -- nen Orth ſich kan er -- freu --
+  _ _ _ en, er -- freu --
+  en.
+
+  man würd nicht %38
+  nur der Sün -- den loß, der Weg wird
+  auch ge -- bah -- net zur See -- lig -- %40
+  kheit und Him -- mels -- freud, gleich wie die
+  Schrifft ver -- mah -- net.
+
+  man würd nicht %46
+  nur der Sün -- den loß, der Weg wird
+  auch ge -- bah -- net
+  zur See -- lig -- kheit und Him -- mels --
+  freud, gleich wie die Schrifft ver -- mah -- %50
+  _ _ _ net, ver -- mah --
+  net, die Schrifft ver -- mah --
+  net, ver -- mah --
+  net. %54 finis
+}

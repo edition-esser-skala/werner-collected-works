@@ -2480,3 +2480,193 @@ A-IXASAriaSecundaBassFigures = \figuremode {
   \bo <[5\+] 4>4 \bc <[\t] _+>
   r2 %59 finis
 }
+
+A-IXASScenaTertiaContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-IXASScenaTertia
+    fis2 e
+    cis d
+    h a
+    fis' dis~
+    dis e %5
+    c gis
+    a e'
+    cis d~
+    d e
+    f4 a, h!2 %10
+    c gis
+    a f'
+    e4 d cis2
+    d4 g a a,
+    dis1 %15
+    e2 fis~
+    fis g
+    e d
+    cis c
+    b h %20
+    c d~
+    d es
+    e1
+    f2 es
+    d cis %25
+    c b
+    h c
+    d e4 e,
+    a2 d
+    dis e4 e, %30
+    a2 r\fermata \bar "|." %31 finis
+  }
+}
+
+A-IXASScenaTertiaBassFigures = \figuremode {
+  <6>2 <6\\>
+  <6 5> <_+>
+  <7>4 <6\\> <_+>2
+  <6> <6 [_+]>
+  <7 5 [_+]>1 %5
+  r2 <6>
+  r <6 [_!]>
+  <[6]>1
+  r2 <6[!]>
+  r4 <6> q2 %10
+  r q
+  r <7>4 <6>
+  <_+> <4\+ 2> <6>2
+  r4 <_-> <4> <_+>
+  <6 [_+]>2 <7[!] 5 [_+]> %15
+  r <6[!]>
+  r1
+  <6>2 <6->
+  <6> <4\+ 2>
+  <6> <7- 5[!]> %20
+  <_-> <6->
+  r <[5-]>
+  <6>1
+  r2 <4 2>
+  <7 _+> <7- 5> %25
+  <4\+ 2> <6>
+  <6\\ 5[!]> <6>
+  r <4>4 <_+>
+  r1
+  <7 5 [_+]>2 <6 4>4 <5 _+> %30
+  r1 %31 finis
+}
+
+A-IXASAriaTertiaContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-IXASAriaTertia
+    c8\fE d e f g f e a
+    d, a h g c d e f
+    g f e a d, a h g
+    c c16 d e8 f g g,16 a h8 g
+    c c, cis' a d, d'16 c h8 a %5
+    g c d d, g g' f! e
+    d d, d' g, c c'16 h a8 g16 f
+    e8 c' e, f g e f d
+    g c, g' g, c d\pE e f
+    g a h h, c d e c %10
+    f e d g, c e h c
+    d e fis fis, g a h g
+    c h a d g, g' h, g
+    c c' e, f! g f16 e d8 c
+    h g c c, g' g' h g %15
+    c c, cis a d fis g d
+    g,4 g'8 d g,4 g'8 d
+    g, c d d, g\fE a h c
+    d c h e a, e' fis d
+    g f e f g f e a %20
+    d, a h g c c16 d e8 f
+    g g,16 a h8 c d c h c
+    d c d d, g a\pE h g
+    c e h c g' f16 e d8 c
+    h g c c, g' a h g %25
+    c h a c d c h a
+    g c d d, g g' h, g
+    c c' e, f g f16 e d8 c
+    h g c c, g' g'\fE h, g
+    c c'\pE e, c f f, fis' d %30
+    g h c g c,4 c'8 g
+    c,4 c'8 g c, f g g,
+    c c'\fE e, c f d g e
+    a f h g c f, g g,
+    c e h g c f g g, %35
+    c\fermata c\pE d e a, c' gis e
+    a, a' gis e a g f e
+    d cis d dis e fis gis e
+    a g f cis d c h g
+    c e f, fis g g' h, g %40
+    c c, cis' a d fis g d
+    g, c d d, g h'\fE fis d
+    g e dis h e e' a, c
+    h a h h, e g\pE dis h
+    e g fis d g e h c %45
+    d h' fis g d e \hA fis d
+    g fis e g a g fis cis
+    d g a a, d e\fE fis d
+    g, g'\pE h, g c c, cis' a
+    d fis g d g,4 g'8 d %50
+    g,4 g'8 d g, c d d,
+    g g'4 fis8 e d c gis
+    a a' g! a h4 h,
+    e2 r \markDaCapo \bar "||" %54 finis
+  }
+}
+
+A-IXASAriaTertiaBassFigures = \figuremode {
+  r2. <[6]>4
+  r8 <6> q <7>4. <6>8 q
+  r4 <[6]>4. <6>8 q4
+  \bo <[4]>8 <3> <6> q r2
+  r4 \bc <[6]> <_+> <6> %5
+  r <6 4>8 <5 _+>4. <\t>4
+  r4. <7>8 r2
+  <6>4. q8 r2
+  <7>4 <4>8 <3>4. <6>8 q
+  r1 %10
+  r8 <[6]> <7> q4. <6>8 q
+  <_+>1
+  r8 <[6]> <7> <7 _+> r2
+  r4 <6>8 q2 q8
+  <[6]>4 <9>8 <8> r2 %15
+  r4 \bo <[6]> \bc <[_+]>4. <_+>8
+  r4. q2 q8
+  r <6 5> <4> <_+> r2
+  <_+>4 <[6]>4. <6>8 q <7 [_+]>
+  <4> q <6> q4. q4 %20
+  r8 q q <7> <4> <[3]> <6> q
+  r4 q8 q <_+> <6> q q
+  <6 4>4 <5 _+>2.
+  r4 <[6]> r4. <6>8
+  q1 %25
+  r4. <6>8 <_+>4 <[6]>
+  r8 <6 5> <4> <_+> r2
+  r4 <6>8 q2 q8
+  q4 <9>8 <8> r2
+  r2. <[6]>4 %30
+  r1
+  r2 r8 <6>4.
+  r1
+  r4 <6>2 <6 4>8 <5 3>
+  r4 <[6]>2 <6 4>8 <5 3> %35
+  r <6> q <_+>4. <[6]>4
+  r8 <6> q4. q8 q <6\\>
+  r <[6]>4 <7[!] 5 _+>8 <_+>2
+  q8 <[4\+] _-> <6> <[6]>4. <6>4
+  r4. <7 5>8 r2 %40
+  r4 <[6]> <_+>4. q8
+  r4 <4>8 <_+>4. <[6]>4
+  r <[6 _+]>2.
+  <[5\+] _+>4 <6 4>8 <5\+ _+>4. <[6 _+]>4
+  r8 <6> <6[!]>4. <6>8 q q %45
+  <_+> <6> q4 <_+>2
+  r8 <[6]>4 <6>8 <_+>4 \bo <[6]>8 <6>
+  \bc <[_+]> <6 5> <4> <_+> q2
+  r2. <[6]>4
+  r4. <_+>2 q8 %50
+  r4. q4 <6 5>8 <4> <_+>
+  r <3> <4\+> <6\\> <_!> <4\+> <6> q
+  r4 <6>8 <6\\> <6 4>4 <5\+ _+>
+  r1 %54 finis
+}

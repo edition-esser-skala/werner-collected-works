@@ -707,3 +707,36 @@ A-IXASAriaSecundaViola = {
     R2*14 \markDaCapo \bar "||" %59 finis
   }
 }
+
+A-IXASAriaTertiaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-IXASAriaTertia
+    c8\fE d e f g f e a
+    d, a h g c d e f
+    g f e a d, a h g
+    c c16 d e8 f g g,16 a h8 g
+    c c, cis' a d, d'16 c h8 a %5
+    g c d d, g g' f! e
+    d d, d' g, c c'16 h a8 g16 f
+    e8 c' e, f g e f d
+    g c, g' g, c4 r
+    R1*8 %17
+    r2 g8\fE a h c
+    d c h e a, e' fis d
+    g f e f g f e a %20
+    d, a h g c c16 d e8 f
+    g g,16 a h8 c d c h c
+    d c d d, g4 r
+    R1*9 %32
+    r8 c'\fE e, c f d g e
+    a f h g c f, g g,
+    c e h g c f g g, %35
+    c4\fermata r r2
+    R1*5 %41
+    r2 r8 h'\fE fis d
+    g e dis h e e' a, c
+    h a h h, e4 r
+    R1*10 \markDaCapo \bar "||" %54 finis
+  }
+}
