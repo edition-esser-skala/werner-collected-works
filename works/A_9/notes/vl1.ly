@@ -1104,3 +1104,91 @@ A-IXASAriaTertiaViolinoI = {
     R1*5 \markDaCapo \bar "||" %54 finis
   }
 }
+
+A-IXASScenaQuartaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-IXASScenaQuartaA
+    R1
+    r4 \tempoA-IXASScenaQuartaB r es'\fE r
+    d r g, r
+    cis e!8 a, \sbOn a32\f d' a fis d a' \hA fis d a \hA fis' d a fis d' a \hA fis \sbOff
+    \tempoA-IXASScenaQuartaC dis4 r r2 %5
+    R1*7 %12
+    r16 c''\p c16. g32 e4 r16 a a16. e32 cis16. e32 a,,8
+    r16 b'' b16. b32 cis,16. e32 e16. e32 a,16( d,) f( a) d( f) a8
+    r16 g64( f e d) c16. e32 g,4 r16 f-!\f a-! c-! f-! a-! c8 %15
+    r2 r16 f,\p a,16. f'32 g,8 e'
+    \sbOn r32\f f, g a b c d e f a, b c d e f g \kneeBeam a16. a,,32 a8\trill r4
+    r16 es''32\p es es16. es32 es4 r16 es32( d) c16. a32 fis4 \sbOff
+    r16 g( b16.) d32( g16.) b32( d8) \sbOn r16 f,!32 f f16. f32 f4 \sbOff
+    r16 a-!\f e-! cis-! a-! e-! cis-! a-! r c'\p c16. c32 c8 es %20
+    \sbOn r32 a fis a c, es a, c \sbOff fis,16. c'32 c8 r16 d,( g) b( d) g( b8)
+    r16 b, b16. b32 g'8 b, \sbOn r32 d\f cis h? a g fis e \sbOff d8 r
+    r16 f'!\p f16. f32 d'4 r16 es, es16. es32 c'4
+    r8 es r16 es, es16. es32 \sbOn d16 b32 b d d f f \sbOff b8 d
+    r es, d( c16.)\trill b32 b16. f'32 b16. f32 d'4 %25
+    r16 g, d16. h32 g16. d32 h16. g32 r16 g'' g16. c,32 c4
+    r16 g' g16. g,32 g4 r16 d'\f d16. a32 a16. f32 f16. d32
+    f16.\p c'!32 c16. es32 es4 \sbOn r16 f32 es d16. f32 \sbOff b,16. d32 f,8
+    r16 d'' d8 r16 f, f8 \sbOn r32 e e e e16 h gis16. h32 e,8
+    r32 f' f f f16 d h4 r32 e,\f a c e a, c e a4 \sbOff %30
+    r16 d-!\p h-! g-! d4 \sbOn r16 g32( e) c16 e32( c) g16 c32( g) e8 \sbOff
+    r16 e' e16. e32 e8 e r16 d d16. d32 d8 d
+    r2 \sbOn r32 a,\f h cis d e f g a d, e f g a h cis
+    d a h cis d e f g a d, e f g a h cis d4 r
+    r16 g,32\p g d d b b g g d d b8 r16 a'' a16. es32 es16. c32 c8 %35
+    r32 f, b d f \hA b, d f b16. b,32 b8 r2 \sbOff
+    d2\p^\markup \remark "stendato" f
+    r16 es g16. \hA es32 c16. c32 \hA es16. c32 g4 r
+    R1*24 %62
+    R1\fermata \bar "|." %63 finis
+  }
+}
+
+A-IXASAriaQuartaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 12/8 \tempoA-IXASAriaQuarta
+    d16\fE e f g a b a8 e' a, d b' d, cis4 a'8
+    b g, b' a f, a' g e, g' f d, f'
+    es d cis d4 f,8\p es d cis d4 f'8\f
+    e16 f g a b8 e,16 f g a b8 e,16 f g a b d, cis8 a16 h \hA cis a
+    d8-! r r d-! r r c-! r r c-! r r %5
+    b-! r r b-! r r a-! r r a-! r r
+    d e cis d4 r8 f,\p g e d4 r8
+    r2*3/2 r16 d'\f f d a'8 r16 g, b g d'8
+    r16 c e c g'8 r16 f, a f c'8 r2*3/2
+    r16 f\f a f c'8 r16 f, d f b,8 r16 g' b g d'8 r16 g, e g c,8 %10
+    r2*3/2 r4 r8 r16 b'\f b b b8
+    r16 a a a a8 r16 as as as as8 r16 as,\p as as as8 r16 g g g g8
+    r16 f f f f8 r16 g g g g8 r f f' c a f
+    r16 b b b b8 r16 h h h h8 r a a' e cis a
+    r r d es4. cis d %15
+    r4 a'8 b!4. gis a
+    r2*3/2 a,,16\f h c d e f e8 h' e,
+    a f' a, gis4 e'8 f d, f' e c, e'
+    d h, d' c a, c' b a gis a4 e'8
+    f e dis h' d, c f a, gis a4 r8 %20
+    r16 e'\p gis e h'8 r16 c, e c a'8 r16 a, cis a e'8 r16 f, a f d'8
+    r2*3/2 r4 r8 r16 a\p c f a8
+    a16( g) g8 a r16 b, d g b8 b16( a) a8 h r16 c, e a c8
+    r2*3/2 r4 r8 r16 e,\f a e c'8
+    r16 e, gis e h'8 r16 a, cis a a'8 r16 a, cis a e'8 r16 a, f a d,8 %25
+    r16 a'\p cis e a8 r16 d, a f d8 r16 d' fis a d8 r16 g, d b! g8
+    r2*3/2 r4 r8 r16 b'\f b b b8
+    r16 a a a a8 r16 as as as as8 r16 as,\pE as as as8 r16 g g g g8
+    r16 f f f f8 r16 g g g g8 r f f' c a f
+    r16 b b b b8 r16 h h h h8 r a a' e cis a %30
+    r4 d8 es4. cis d
+    r4 b'!8 cis,( d e) a,4 r8 r4 r8
+    r2*3/2 d,16\f e f g a b a8 e' a,
+    d b' d, cis4 a'8 b g, b' a f, a'
+    g e, g' f d, f' es d cis d4 f,8\p %35
+    es d cis d4 f'8\f e16 f g a b8 e,16 f g a b8
+    e,16 f g a b d, cis8 a16 h \hA cis a d8-! r r d-! r r
+    c-! r r c-! r r b-! r r b-! r r
+    a-! r r a-! r r d e cis d c16 b a g
+    f8 g e d4. r2*3/2\fermata \bar "|." %40 finis
+  }
+}

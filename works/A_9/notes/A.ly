@@ -257,3 +257,22 @@ A-IXASScenaPrimaAltoLyrics = \lyricmode {
   woh -- nen, woh -- nen,
   woh -- nen. %42 finis
 }
+
+A-IXASScenaQuartaAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXASScenaQuartaA
+    R1
+    r4 \tempoA-IXASScenaQuartaB g'\fE r a
+    r8 d,16 d g g g g g8 g r g
+    g g g fis fis fis r4
+    \tempoA-IXASScenaQuartaC R1*58 %62
+    R1\fermata \bar "|." %63 finis
+  }
+}
+
+A-IXASScenaQuartaAltoLyrics = \lyricmode {
+  Ach! ach! %2
+  daß die Berg he -- rüe -- ber füeh -- len, uns
+  ſambt -- lich zu be -- de -- ckhen! %4 finis
+}

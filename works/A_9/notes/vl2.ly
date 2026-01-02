@@ -1096,3 +1096,91 @@ A-IXASAriaTertiaViolinoII = {
     R1*5 \markDaCapo \bar "||" %54 finis
   }
 }
+
+A-IXASScenaQuartaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-IXASScenaQuartaA
+    R1
+    r4 \tempoA-IXASScenaQuartaB r c'\fE r
+    h! r c r
+    g4. fis8 \sbOn a32\f d' a fis d a' \hA fis d a \hA fis' d a fis d' a \hA fis \sbOff
+    \tempoA-IXASScenaQuartaC dis4 r r2 %5
+    R1*7 %12
+    r16 g'\p g16. e32 c4 r16 e e16. cis32 a16. e32 cis8
+    r16 g'' g16. g32 e16. cis32 a16. \hA cis32 f,8 d16( f) a( d) f8
+    r4 \sbOn r16 b,64( a g f) e16. g32 \sbOff c,8 f16-!\f a-! c-! f-! a8 %15
+    r2 r8 f,4\p e16. g32
+    \sbOn a f\f g a b c d e f a, b c d e f g \kneeBeam a16. a,,32 a8\trill r4
+    r16 c'32\p c c16. c32 c4 r16 c32( b) a16. fis32 es'4 \sbOff
+    r16 d,( g16.) b32( d16.) g32( b8) \sbOn r16 d,32 d d16. d32 d4 \sbOff
+    r16 a'-!\f e-! cis-! a-! e-! cis-! a-! r a'\p a16. a32 a8 c %20
+    \sbOn r32 fis c es a, c fis, a \sbOff d,16. a'32 a8 r16 b,( d) g( b) d( g8)
+    r16 g, g16. g32 e8 g \sbOn r32 d'\f cis h? a g fis e \sbOff d8 r
+    r16 d'\p d16. d32 b'4 r16 c, c16. c32 a'4
+    r8 c r16 c, c16. c32 \sbOn f,16 d32 d f f b b d8 f \sbOff
+    r c \once \slurDashed b( a16.)\trill b32 b16. d32 f16. d32 b'4 %25
+    r16 h, g16. d'32 h16. g32 d16. h32 r16 es' es16. es,32 es4
+    r16 e' e16. e,32 e4 r16 d'\f d16. a32 a16. f32 f16. d32
+    c!16.\p a'32 a16. c32 c4 \sbOn r16 d32 c b16. d32 f,16. b32 d,8
+    r16 h''! h8 r16 d, d8 r32 h! h h h16 gis e16. gis32 gis8
+    r32 d' d d d16 h gis4 r32 c,\f e a c c, e a c4 \sbOff %30
+    r16 h'-!\p g-! d-! h4 \sbOn r16 e32( c) g16 c32( g) e16 g32( e) c8 \sbOff
+    r16 cis' cis16. cis32 cis8 cis r16 h h16. h32 h8 h
+    r2 \sbOn r32 a,\f h cis d e f g a d, e f g a h cis
+    d a h cis d e f g a d, e f g a h cis d4 r
+    r16 d,32\p d b b g g d d b b g8 r16 f'' f16. c32 c16. a32 a8 %35
+    r32 d, f b d f, \hA b d \sbOff f16. f,32 f8 r2
+    f\p^\markup \remark "stendato" d'
+    r16 c es16. c32 g16. g32 c16. g32 es4 r
+    R1*24 %62
+    R1\fermata \bar "|." %63 finis
+  }
+}
+
+A-IXASAriaQuartaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 12/8 \tempoA-IXASAriaQuarta
+    f8\fE a f e a, a'~ a g16 a b8 e,16 d cis d e f
+    g a b c d e f, g a b c d e, f g a h cis d, e f g a d,
+    b'4 a8 a4 a,8\p b4 a8 a4 a'8\f
+    b16( a) b8 r b16( a) b8 r b16( a) b8 r a16 h cis d e \hA cis
+    a8-! r r g-! r r g-! r r f-! r r %5
+    f-! r r e-! r r e-! r r d-! r r
+    f g e d4 r8 d\p e cis d4 r8
+    r2*3/2 r8 r16 a'\f f d b'8[ r16 d b g]
+    e8[ r16 g e c] a' c f c a'8 r2*3/2
+    r8 r16 c,\f a c d,8[ r16 f d f] b,8[ r16 d' b d] e, e' c g e8 %10
+    r2*3/2 r4 r8 r16 g'\f g g g8
+    r16 f f f f8 r16 f f f f8 r16 f,\p f f f8 r16 e e e e8
+    r16 d d d d8 r16 c c c c8 r f f' a! c, a
+    r16 g g g g8 r16 f f f f8 r e a' e cis a
+    r4 d8 es4. cis d %15
+    r4 a'8 b!4. gis a
+    r2*3/2 c,8\f e c h e, e'~
+    e d16 e f8 gis,4 r8 d16 e f g a h c, d e f g a
+    h, c d e fis gis a, h c d e a, f'4 e8 e4 c'8~
+    c4 h8 e, \hA h' a~ a f e e4 r8 %20
+    r r16 h'\p gis \hA h e,8[ r16 a f a] a,8[ r16 e'' cis e] a,8[ r16 a g b]
+    d,4 r8 r4 r8 r4 r8 r16 f\p a c f8
+    f16( e) e8 fis g16 g, b d g8 g16( f) f8 gis a16 a, c e a8
+    r2*3/2 r4 r8 r r16 c,\f e c
+    h8[ r16 \hA h e \hA h] cis8[ r16 a d a] e'8[ r16 e, a e] f d' a d f,8 %25
+    r r16 a\p cis e f8[ r16 d, f a] d8[ r16 d fis a] b!8[ r16 d, b d]
+    g,4 r8 r4 r8 r4 r8 r16 g'\f g g g8
+    r16 f f f f8 r16 f f f f8 r16 f,\pE f f f8 r16 e e e e8
+    r16 d d d d8 r16 c c c c8 r f f' a! c, a
+    r16 g g g g8 r16 f f f f8 r e a' e cis a %30
+    r4 d8 es4. cis d
+    r4 b'!8 cis,( d e) a,4 r8 r4 r8
+    r2*3/2 f8\f a f e a, a'~
+    a g16 a b8 e,16 d cis d e f g a b c d e f, g a b c d
+    e, f g a h cis d, e f g a d, b'4 a8 a4 a,8\p %35
+    b4 a8 a4 a'8\f b16( a) b8 r b16( a) b8 r
+    b16( a) b8 r a16 h cis d e \hA cis a8-! r r g-! r r
+    g-! r r f-! r r f-! r r e-! r r
+    e-! r r d-! r r f g e d16 f e g f e
+    d8 e cis d4. r2*3/2\fermata \bar "|." %40 finis
+  }
+}

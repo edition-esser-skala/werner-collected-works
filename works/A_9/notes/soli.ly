@@ -1864,3 +1864,68 @@ A-IXASAriaTertiaSoliBLyrics = \lyricmode {
   net, ver -- mah --
   net. %54 finis
 }
+
+A-IXASAriaQuartaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \minor \time 12/8 \autoBeamOff \tempoA-IXASAriaQuarta
+    R1.*6 %6
+    r2*3/2 r4 r8 r4 a8
+    d a d a f a f d r r4 r8
+    r4 r8 r4 c'8 f c f c a c
+    a f r r4 r8 r4 r8 r4 c'8 %10
+    c b a a g f e f g c,4 r8
+    r2*3/2 r4 r8 r4 c'8
+    c([ h)] d d([ c)] b b4.\trill a4 f'8
+    f([ e)] g f([ e)] d d4.\trill cis4 a8
+    b!4.~ b8 a g a4. d,4 a'8 %15
+    f'4.~ f8 e d e4. a,4 f'8
+    e([ d)] c h c16([ \hA h)] a([ gis)] a4. r4 r8
+    R1.*2
+    r2*3/2 r4 r8 r4 a8 %20
+    e' e e c a d e cis a f d d'
+    d d16([ c)] b!([ a)] b8 c d c16([ d)] c([ b)] a([ g)] a4 f'8
+    f16([ e)] e8 c c16([ b)] b8 g' g16([ f)] f8 d d16([ c)] c8 e
+    f e dis e d16([ c)] h([ a)] \hA h([ d)] c([ \hA h)] a([ gis)] a4 r8
+    r2*3/2 r4 r8 r4 a8 %25
+    e' cis a f d a' d d d b g d'
+    c16([ d)] c([ b)] a([ g)] a8 b c d b g \appoggiatura f e4 r8
+    r2*3/2 r4 r8 r4 c'8
+    c[ h d]~ d c b b4.\trill a4 f'8
+    f([ e)] g f([ e)] d d4.\trill cis4 a8 %30
+    b!4.~ b8 a g a4. d,4 d'8
+    es4.~ es8 d cis d[ c b]~ b a g
+    f4.~ f8 g e d4. r4 r8
+    R1.*6 %39
+    R1.\fermata \bar "|." %40 finis
+  }
+}
+
+A-IXASAriaQuartaSoliLyrics = \lyricmode {
+  Nun %7
+  muß ich ver -- zweif -- fln, ver -- zweif -- fln,
+  ſo kom -- met ihr Teuf -- fln, ihr
+  Teuf -- fln! und %10
+  führt mich hi -- nun -- ter in Ab -- grund der Höll.
+  Ô
+  e -- wi -- ges Ver -- der -- ben, all
+  Au -- gen -- blickh zu ſter -- ben und
+  doch __ dar -- bey le -- ben, und %15
+  doch __ dar -- bey le -- ben in
+  heiß und ſie -- den -- ten Öehl.
+
+  Thue %20
+  ich mich zer -- reiſ -- ſen, zu Stu -- ckhen zer -- beiſ -- ſen, ſo
+  ſte -- het doch al -- les an vo -- ri -- ger Stell. Ô
+  Jam -- mer, ô Schmer -- tzen, wie tringt es zu Her -- tzen, daß
+  ich hab ver -- loh -- ren mein ein -- zi -- ge Seel.
+  Thue %25
+  ich mich zer -- reiſ -- ſen, zu Stu -- ckhen zer -- beiſ -- ſen, ſo
+  blei -- bet doch al -- les an vo -- ri -- ger Stell.
+  Ô
+  Jam -- mer, ô Schmer -- tzen, wie
+  trin -- get es zu Her -- tzen, daß %30
+  ich __ hab ver -- loh -- ren, daß
+  ich __ hab ver -- loh -- ren mein
+  ein -- zi -- ge Seel. %33 finis
+}

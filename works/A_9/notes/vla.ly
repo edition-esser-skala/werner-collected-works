@@ -740,3 +740,71 @@ A-IXASAriaTertiaViola = {
     R1*10 \markDaCapo \bar "||" %54 finis
   }
 }
+
+A-IXASScenaQuartaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-IXASScenaQuartaA
+    R1
+    r4 \tempoA-IXASScenaQuartaB r fis2\fE
+    f es
+    e d4 r
+    \tempoA-IXASScenaQuartaC R1*8 %12
+    c4\pE r8 e cis4 r
+    cis r8 \hA cis d4 r
+    e r8 e f4 r %15
+    b, h c c,
+    f r cis' r
+    c r c r
+    b r h r
+    a r f' es %20
+    d r g, r8 g'
+    cis,4 r8 \hA cis d4 r16 d f!16. d32
+    b4 r a r
+    a r b r
+    es f8 f, b4 r %25
+    h r c r
+    cis r d16. d'32 d16. a32 a16. f32 f16. d32
+    a4 r d r
+    h! r gis r
+    gis r a r8 a %30
+    h4 r c r
+    b r gis r
+    a8 d a' a, d4 r
+    r2 fis4 r
+    g r a, r %35
+    b d es r8 f
+    b,2-\markup \remark "stendato" h
+    c r
+    R1*24 %62
+    R1\fermata \bar "|." %63 finis
+  }
+}
+
+A-IXASAriaQuartaViola = {
+  \relative c' {
+    \clef alto
+    \key d \minor \time 12/8 \tempoA-IXASAriaQuarta
+    d8\fE d' d cis c r h b r a e a,
+    R1.
+    g'4 a8 f e d g4\p a8 f e d
+    g-!\fE r r g-! r r g-! r r g-! r r
+    f'16 g f e d c b c b a g f e' f e d c b a b a g f e %5
+    d' e d c b a g a g f e d cis' d \hA cis b a g f g f e d c
+    b8 g a f' e d d'\p g, a d,4 r8
+    R1.*9 %16
+    r2*3/2 a8\fE a' a gis g r
+    fis f r e h e, r2*3/2
+    r d'4 e8 c h a
+    a'4 h8 gis4 a8 d,4 e8 a,4 r8 %20
+    R1.*12 %32
+    r2*3/2 d8\fE d' d cis c r
+    h b r a e a, r2*3/2
+    r g'4 a8 f e d %35
+    g4\pE a8 f e d g-!\fE r r g-! r r
+    g-! r r g-! r r f'16 g f e d c b c b a g f
+    e' f e d c b a b a g f e d' e d c b a g a g f e d
+    cis' d \hA cis b a g f g f e d c b8 g a d, r r
+    b'' g a d,4. r2*3/2\fermata \bar "|." %40 finis
+  }
+}

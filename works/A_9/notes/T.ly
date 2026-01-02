@@ -258,3 +258,22 @@ A-IXASScenaPrimaTenoreLyrics = \lyricmode {
   woh -- nen,
   woh -- nen. %42 finis
 }
+
+A-IXASScenaQuartaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXASScenaQuartaA
+    R1
+    r4 \tempoA-IXASScenaQuartaB d\fE r c
+    r8 h!16 h h h h c c8 c r c
+    e! e e a, a a r4
+    \tempoA-IXASScenaQuartaC R1*58 %62
+    R1\fermata \bar "|." %63 finis
+  }
+}
+
+A-IXASScenaQuartaTenoreLyrics = \lyricmode {
+  Ach! ach! %2
+  daß die Berg he -- rüe -- ber füeh -- len, uns
+  ſambt -- lich zu be -- de -- ckhen! %4 finis
+}

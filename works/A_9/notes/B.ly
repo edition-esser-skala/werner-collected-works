@@ -410,3 +410,139 @@ A-IXASScenaPrimaBassoLyrics = \lyricmode {
   Ja al -- ſo iſt der Schlus, mein Au -- ge ſoll hin --
   forth den Sün -- der nicht mehr ſcho -- nen. %44 finis
 }
+
+A-IXASScenaQuartaBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXASScenaQuartaA
+    r8^\Judex f16 f a a c a fis8 fis16 fis a a c b
+    g8 g \tempoA-IXASScenaQuartaB \mvTr b4\fE^\tutti r fis
+    r8 f16 f f f f g es8 es r \hA es
+    e e e d d d r4
+    \clef treble \tempoA-IXASScenaQuartaC r8^\StMichael h' fis'16 fis fis g e8. e16 e8 e %5
+    e h h c d d16 d d d f e
+    c8 c \clef "treble_8" e^\markup \remark "furioso"^\Judas a, r4 g'!8 c,
+    r a d16 d a c h8 h16 fis a a c h
+    g8 g8*1/2\( \clef treble h\)^\StMichael e16 e fis g d!8. d16 a8 h
+    c c e d h h16 \clef "treble_8" g^\markup \remark "desperato"^\Judas h h h d %10
+    f!8 f16 d h h d c a8 a8*1/2\( \fC c\)^\Lucifer c16 c e c
+    a8 a h c c8. g16 g4
+    \clef bass r8^\markup \remark "furioso" ^\Judex g16 g g g c g a8 a r e16 f
+    g8 g b a f f r a16 d
+    c!8 g b c a a r f16 a %15
+    d8[ b] g[ f] f8. c16 c4
+    r2 r8 e16 e g g a e
+    fis8 fis r  \hA fis16 g a8 a c b
+    g g r b16 d gis,8 gis h d,
+    e4 r r8 f16 a c c c a %20
+    fis fis fis a c c, es d b8 b r d16 g
+    b8 g cis,8. cis16 d4 r
+    r8 b16 d f f b d a8 a r a16 c
+    es,8 es g f d d r b'16 f
+    g g a b f4 r f8 b %25
+    g g d g es16 es es f g g g a
+    b8 b b16 g \hA b a f8. f16 f4
+    r8 f16 f a a c f, b8 b r f16 \hA b
+    g8 g d f e e r e16 gis
+    h!8 h d c a4 r8 a16 c %30
+    g!8 d f g e e r c16 e
+    g8 g b a f f r f16 d
+    cis[ a'] f[ d] a8. a16 d4 r
+    r2 r8 d16 fis a a c! b
+    g8 g r b16 g f!8 a c es, %35
+    d d r b'16 f g16. g32 a16 b f4
+    \clef "treble_8" r4^\Judas b r8 as as g
+    es8. es16 es4 \clef treble r8^\StMichael b'16 b es es g \hA es
+    c8 c r e16 g b,8 g g' f
+    d d \clef "treble_8" r16^\Judas a a d c!8 c e c %40
+    a a16 c c c f c d8 d16 d d d e f
+    f8 c r4 \clef treble r8^\StMichael d d16 d a b
+    c8 c16 c c es d a b8 b r d
+    f! f a f d8. d16 d8 d
+    e8. e16 g8 b, c c r4 %45
+    r8 e16 e a8 e f f a f
+    d8. d16 d8 f e e d e
+    c c r a' g! d f g
+    e4 r8 e a a, d a
+    h h r4 r8 e e16 e a e %50
+    f8 f r d c! e g b
+    a a16 f f f a f d8 d d16 c es d
+    b8 b r g' f!8. f16 c8 d
+    es es es16 es f c d8 \clef "treble_8" b^\Judas d16 d f d
+    h8 h16 d es es es d h!8 r16 h h c d es %55
+    c8 c r es cis cis b a
+    f \clef treble a^\StMichael d16 d e f c8 c r16 c e c
+    a8. a16 a8 f' d4 r16 f e f
+    f8 c r4 \clef "treble_8" r8^\Judas c c16 c es d
+    b8 b16 g \hA b b b d h8 h d16 d f es %60
+    c8 c8*1/2\( \clef treble c\)^\StMichael es16 es es f g8 g16 a b b b a
+    f8 f8*1/2\( \clef "treble_8" a,\)^\Judas d16 d f d h!8 r16 h h d cis d
+    d8 a r4 r2\fermata \bar "|." %63 finis
+  }
+}
+
+A-IXASScenaQuartaBassoLyrics = \lyricmode {
+  Nun werd ich mein Mueth er -- khiel -- len an di -- ſen La -- ſter --
+  bö -- ckhen. Ach! ach!
+  daß die Berg he -- rüe -- ber füeh -- len,
+  uns ſambt -- lich zu be -- de -- ckhen!
+  Her -- vor mit dir, du Gal -- gen -- zühr, nun %5
+  ſol -- ſtu Rech -- nung ge -- ben von dei -- nen La -- ſter --
+  le -- ben! An -- na! Chai -- pha!
+  ihr ho -- he Schrifft -- ge -- lehr -- te, ach helf -- fet mir doch
+  re -- chten! Umb -- ſonſt, ſie wer -- den ih -- re Sach daß
+  min -- deſt nit ver -- fech -- ten. So helf -- fet doch ihr %10
+  Teu -- feln, ſonſt muß ich gar ver -- zwei -- feln. Die Sor -- ge laß ich
+  dir, der Bra -- ten ghö -- ret mir.
+  Hö -- re du ver -- damb -- ter Böß -- wicht, war ich
+  dir nicht woll ge -- wo -- gen, da mein
+  Gnad dich hat ge -- zo -- gen zu den %15
+  ho -- hen Bi -- ſchoffs -- ambt.
+  Als der Geitz dich wolt be --
+  thö -- ren, ſucht ich di -- ſes ab -- zu --
+  khe -- ren, doch du bli -- beſt un -- ver --
+  ſchambt, je -- ne groſ -- ſe En -- gels -- %20
+  ſpei -- ſe gnoſ -- ſe -- ſtu boß -- haff -- ter -- wei -- ſe zu der
+  See -- len Un -- ter -- gang.
+  Ja du kön -- teſt nit mehr ra -- ſten mich als
+  ei -- nen Weld -- ver -- ha -- ſten zu ver --
+  kauf -- fen oh -- ne Zwang. Als -- dan %25
+  kom -- me -- ſtu Ver -- rä -- ther, mich als ei -- nen U -- bel --
+  thät -- ter mei -- nen Feund zu ü -- ber -- gebn,
+  diß wolt ich noch gern ver -- zei -- hen, dir wie
+  an -- dern Gnad ver -- lei -- hen, wan du
+  nur an dei -- nen Lebn nicht ein %30
+  Hen -- ckher wä -- reſt wor -- den, dan ſo
+  grau -- sam ſich er -- mor -- den iſt die
+  gröſ -- ſte Un -- ge -- bühr.
+  Weill du dan mit al -- len
+  Teuf -- feln lie -- ber gäntz -- lich wolſt ver -- %35
+  zweif -- feln, ey ſo ba -- ckhe dich von mir.
+  Ach! wie iſt, wie
+  gſchie -- het mir? Du wirſt nach un -- end -- lich
+  Jah -- ren all dein Un -- glickh erſt er --
+  fah -- ren. Vil -- leicht wan tau -- ſend Jahr ver -- %40
+  gan -- gen ſo wer -- de ich doch end -- lich Barm -- her -- tzig -- kheit er --
+  lan -- gen. Wann Mil -- li -- on der
+  Jah -- ren in ei -- ner Zeit ver -- ſchloſ -- ſen, ſo
+  wä -- re doch kein Au -- gen -- blickh der
+  E -- wig -- kheit ver -- floſ -- ſen. %45
+  Stel -- le dir nun vor das gan -- tze
+  Fir -- ma -- ment in sei -- ner Cir -- cus --
+  run -- de wär pu -- res Per -- ga --
+  ment, ſo dir vor Au -- gen
+  ſtun -- de, nun ſchrei -- be al -- lent -- %50
+  hal -- ben die klein -- ſte Züf -- fer --
+  zah -- len ſo eng du auf fa -- zier die -- ſel -- be kän -- teſt
+  mah -- len, nun zeh -- le rund -- he --
+  rum, bring es in ei -- ne Sum. Und nach ſo un -- er --
+  denckh -- lich er -- ſchröckh -- lich lan -- ger Zeit wird ſich vil -- leicht dan %55
+  end -- ten die grau -- e E -- wig --
+  kheit? Kein Pun -- ctum wär ver --  gan -- gen, ja ja ich
+  ſchwö -- re dir, daß ſie kaum an -- ge --
+  fan -- gen. Ô wer kan diß be --
+  greif -- fen, ſo ſoll ich im -- mer -- forth im Feur un -- end -- lich %60
+  bren -- nen? Nun wir -- ſtu erſt er -- khen -- nen wie tor -- recht du ge --
+  han -- dlet. Ô daß ich doch gleich wär in pu -- res Nichts ver --
+  wan -- dlet! %63 finis
+}
