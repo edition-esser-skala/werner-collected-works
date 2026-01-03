@@ -546,3 +546,201 @@ A-IXASScenaQuartaBassoLyrics = \lyricmode {
   han -- dlet. Ô daß ich doch gleich wär in pu -- res Nichts ver --
   wan -- dlet! %63 finis
 }
+
+A-IXASScenaQuintaBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXASScenaQuintaA
+      \set Staff.timeSignatureFraction = 4/4
+    r8^\markup \remark "svave" ^\Judex f b b a a c es,
+    d4 r8 f b b16 b d8 \hA b
+    g g r c a8. a16 a8 e
+    f8. f16 f8 d b' g f d
+    d a r4 r2 %5
+    r8 b'^\markup \remark "furioso" f16 f f g as8 f d'16 h as g
+    \time 2/4 \markTimeSig #'(2 4) es8 r16 \hA es g g g c
+    \time 4/4 \markTimeSig #'(4 4) b8 b16 f f as c b g8 g r \hA b
+    c, c as' c d, c16 b es4~
+    es4. d16 es es8. b16 b4 %10
+    \key c \dorian \tempoA-IXASScenaQuintaB r4 \mvTr es\fE^\tutti d d8 d
+    c8. c16 c4 r c'
+    b!8. b16 b8 b as8. as16 as8 as
+    fis fis fis fis g4 r
+    \clef treble \key c \major \tempoA-IXASScenaQuintaC r8^\StMichael c g'16 g g a f8 f f16 f a f %15
+    d8 d8*1/2\( \clef "treble_8" d\)^\StPetrus d16 d a h c8 c c16 e d a
+    h8 h \clef treble r^\StMagdalena g' c c e c
+    a a16 a a a h c c8 g r4
+    \fC r8^\StMichael c, e16 e e fis gis4 r8 h
+    d, d16 d f8 e c c r e %20
+    d a16 c e8 d h h r g'
+    e fis16 g h,8( a16.)\trill g32 g4 r\fermata \bar "|." %22 finis
+  }
+}
+
+A-IXASScenaQuintaBassoLyrics = \lyricmode {
+  So kom -- met dan mit Freu -- den
+  an, ihr mei -- ne Ge -- be -- ne --
+  dey -- te! Be -- ſizt das Reich an --
+  je -- zo gleich, wie ich euch nun be --
+  deu -- the. %5
+  Ihr a -- ber wei -- chet forth an je -- nes Jam -- mer
+  Orth, da werd ihr grau -- ſam
+  müſ -- ſen vor eu -- re La -- ſter büſ -- ſen. Ihr
+  En -- gel a -- ber ſchlüeſ -- ſet die E --
+  wi -- ge Höl -- len -- pfort. %10
+  Ô al -- zeit! Ô
+  E -- wig -- kheit! Ô
+  nim -- mer -- mehr zur Wi -- der -- kher! Grau --
+  ſa -- mes Her -- tzen -- leyd!
+  So laſ -- ſet uns dan gleich in ſchön -- ſter Ord -- nung %15
+  ge -- hen! Ô mein glor -- rei -- cher Leib, wie woll wird dir ge --
+  ſche -- hen! Nun werd ich bald er --
+  fah -- ren, was nie kein Aug ge -- ſe -- hen.
+  Er -- öff -- net euch ſo -- dan, ihr
+  e -- wi -- ge Him -- mels -- pfor -- ten, und %20
+  ſe -- het, es komt al -- dor -- then der
+  Kö -- nig der Glo -- ry an. %22 finis
+}
+
+A-IXASChorusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXASChorusA
+    r4 r8 g'\fE c8. c16 c8 g
+    c,8. c16 c8 g' c a fis g
+    d8. d16 d8 c' h h a a
+    gis8. gis16 gis8 gis a a fis g
+    d8. d16 d8 h c4 d8 d %5
+    e4 fis g8 c, d4
+    g, r r2
+    R1*2
+    r2 r4 r8 a' %10
+    d8. d16 d8 a d,8. d16 d8 a'
+    f d h c! g8. g16 g8 f'
+    e e d d cis8. cis16 cis8 cis
+    d d h c g'8. g16 g8 e
+    f4 g8 g a4 h %15
+    c8 f, g4 c, r
+    R1*2 \bar "||"
+    \tempoA-IXASChorusB R1 \noBreak
+    r4 g' e g %20
+    c,8([ d)] e([ c)] g'4 h,
+    c h a4. a8
+    g4 h' c8([ h)] a([ c)]
+    h([ a)] g([ h)] a4. a8
+    g4 g e g %25
+    c,8([ d)] e([ c]) g'[( a)] h([ g])
+    c4 h a4. a8
+    g2 r
+    R1*2 %30
+    g2 g4 g
+    g8([ a]) g([ f!]) e([ f]) e([ d])
+    c4 c'8([ b]) a([ \hA b]) a([ g])
+    f4. g16[ a] b8[ c \hA b a]
+    g4. a16[ b] c8[ d c \hA b] %35
+    a4. b16[ c] d8[ e d c]
+    h4 c g2
+    r4 c, c c
+    c8([ d]) c([ b]) a([ \hA b]) a([ g])
+    f4 f' f8([ g]) f([ e]) %40
+    d([ e)] d([ c)] h!4 g'
+    g8([ a]) g([ f]) e([ f]) e([ d])
+    c4. d16[ e] f8[ g f e]
+    d4. e16[ f] g8[ a g f]
+    e4. f16[ g] a8[ h a g] %45
+    fis4 g d2
+    g, r
+    R1
+    r2 r4 g'
+    e a f2 %50
+    d4 g4. f8[ e d]
+    c4 a d2
+    g,4 g' e a
+    f! d g2
+    c, r %55
+    r4 g'4. f8[ e d]
+    c4 a'4. g8[ f e]
+    d4 h'4. a8[ g f]
+    e4 c'4. h8[ a g]
+    a[ g f e] f[ e d c] %60
+    h4 c g' c,
+    h c g'( c,)
+    g2 r
+    r4 c' h c
+    g c g2 %65
+    c, r4 e
+    f c r e
+    f c' a e
+    f1
+    c\fermata \bar "|." %70 finis
+  }
+}
+
+A-IXASChorusBassoLyrics = \lyricmode {
+  Je -- ru -- ſa -- lem! wie
+  wun -- der -- ſchön ſeyn al -- le dei -- ne
+  Woh -- nun -- gen. Ô kla -- rer Tag der
+  E -- wig -- kheit, den uns der Schö -- pffer
+  zue -- be -- reith, kein Fin -- ſter, kein %5
+  Fin -- ſter dir mehr ſcha --
+  det.
+
+  Je -- %10
+  ru -- ſa -- lem! wie wun -- der -- ſchön ſeyn
+  al -- le dei -- ne Woh -- nun -- gen. Ô
+  kla -- rer Tag der E -- wig -- kheit, den
+  uns der Schö -- pffer zue -- be -- reith, kein
+  Fin -- ſter, kein Fin -- ſter %15
+  dir mehr ſcha -- det.
+
+  Weill dich die %20
+  War -- heit ſelbst er --
+  leucht, dich ſelbst er --
+  leucht, die War -- heit,
+  War -- heit dich er --
+  leucht, weill dich die %25
+  War -- heit ſelbst er --
+  leucht, dich ſelbst er --
+  leucht,
+
+  uns mit den %31
+  Gna -- den -- thau be --
+  feucht, den Gna -- den --
+  thau be -- feucht, __
+  _ _ _ %35
+  _ _ _
+  _ be -- feucht,
+  uns mit den
+  Gna -- den -- thau be --
+  feucht, den Gna -- den -- %40
+  thau be -- feucht, den
+  Gna -- den -- thau be --
+  feucht, __ _ _
+  _ _ _
+  _ _ _ %45
+  _ be -- feuch --
+  tet
+
+  und
+  all zur Hoch -- %50
+  zeit la -- _
+  _ det, la --
+  det, und all zur
+  Hoch -- zeit la --
+  det, %55
+  la -- _
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ %60
+  det, zur Hoch -- zeit
+  la -- det, la --
+  det,
+  zur Hoch -- zeit
+  la -- det, la -- %65
+  det, zur
+  Hoch -- zeit, zur
+  Hoch -- zeit la -- det,
+  la --
+  det. %70 finis
+}

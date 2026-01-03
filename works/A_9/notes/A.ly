@@ -276,3 +276,168 @@ A-IXASScenaQuartaAltoLyrics = \lyricmode {
   daß die Berg he -- rüe -- ber füeh -- len, uns
   ſambt -- lich zu be -- de -- ckhen! %4 finis
 }
+
+A-IXASScenaQuintaAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXASScenaQuintaA
+      \set Staff.timeSignatureFraction = 4/4
+    R1*6 %6
+    \time 2/4 \markTimeSig #'(2 4) R2
+    \time 4/4 \markTimeSig #'(4 4) R1*3 %10
+    \key c \dorian \tempoA-IXASScenaQuintaB r4 g'\fE f f8 f
+    es8. es16 es4 r g
+    g8. g16 g8 g as8. as16 as8 as
+    a a a a g4 r
+    \key c \major \tempoA-IXASScenaQuintaC R1*7 %21
+    R1\fermata \bar "|." %22 finis
+  }
+}
+
+A-IXASScenaQuintaAltoLyrics = \lyricmode {
+  Ô al -- zeit! Ô %11
+  E -- wig -- kheit! Ô
+  nim -- mer -- mehr zur Wi -- der -- kher! Grau --
+  ſa -- mes Her -- tzen -- leyd! %14 finis
+}
+
+A-IXASChorusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-IXASChorusA
+    r4 r8 g'\fE g8. g16 g8 g
+    g8. g16 g8 g g e a g
+    fis8. fis16 fis8 fis gis gis a a
+    h8. h16 h8 gis e a a g
+    fis8. fis16 fis8 d e4 fis8 fis %5
+    g4 a g8 g g([ fis)]
+    g4 r r2
+    R1*2
+    r2 r4 r8 e %10
+    f!8. f16 f8 e f8. f16 f8 e
+    f f f e d8. d16 d8 d
+    e e f f e8. e16 e8 a
+    f f f e d8. d16 d8 c
+    c d d e e f f g %15
+    g a g4 g r
+    R1*2 \bar "||"
+    \tempoA-IXASChorusB R1*2 %20
+    r2 g
+    e4 g c,8([ d)] e([ c)]
+    g'4. g8 e4 a
+    d, g e a
+    d,8([ c)] h([ d)] c4 r %25
+    r2 g'
+    e4 g c,8([ d)] e([ c)]
+    g'4. g8 e4 c'
+    h8([ a)] g([ h)] a([ g)] fis([ a)]
+    g([ d)] g2 fis4 %30
+    g r r g
+    g g g8([ a)] g([ f)]
+    e([ f)] e([ d)] c4. d16[ e]
+    f8[ g f e] d4. e16[ f]
+    g8[ a g f] e4. f16[ g] %35
+    a8[ b a g] f4. g16[ a]
+    g8[ f] e[ d16 c] d8[ g, g' f]
+    e[ f e d] c4 r
+    R1*2 %40
+    r2 g'
+    g4 g g8([ a)] g([ f)]
+    e([ f)] e([ d)] c4. d16[ e]
+    f8[ g f e] d4. e16[ f]
+    g8[ a g f] e4. fis16[ g] %45
+    a4 g2 fis4
+    g g e a
+    f!2 d4 g8[ f]
+    e[ d e c] d2
+    c r %50
+    r r4 g'
+    e a fis2
+    d4 g2 e4
+    r f! d g
+    e2 c4 f8([ e] %55
+    d[ c)] d2 g4~
+    g8[ f e d] c4 a'~
+    a8[ g f e] d4 h'~
+    h8[ a g f] e4. f16[ g]
+    c,4. d16[ e] a,4. h16[ c] %60
+    d4 e d e
+    g e d( e)
+    d2 r
+    r4 e g e
+    d e g2 %65
+    g r4 g
+    a g r g
+    a g f g
+    f1
+    e\fermata \bar "|." %70 finis
+  }
+}
+
+A-IXASChorusAltoLyrics = \lyricmode {
+  Je -- ru -- ſa -- lem! wie
+  wun -- der -- ſchön ſeyn al -- le dei -- ne
+  Woh -- nun -- gen. Ô kla -- rer Tag der
+  E -- wig -- kheit, den uns der Schö -- pffer
+  zue -- be -- reith, kein Fin -- ſter, kein %5
+  Fin -- ſter dir mehr ſcha --
+  det.
+
+  Je -- %10
+  ru -- ſa -- lem! wie wun -- der -- ſchön ſeyn
+  al -- le dei -- ne Woh -- nun -- gen. Ô
+  kla -- rer Tag der E -- wig -- kheit, den
+  uns der Schö -- pffer zue -- be -- reith, kein
+  Fin -- ſter dir, kein Fin -- ſter dir mehr %15
+  ſcha -- det, ſcha -- det.
+
+  Weill %21
+  dich die War -- heit
+  ſelbst er -- leucht, dich
+  ſelbst, dich ſelbst er --
+  leucht, er -- leucht, %25
+  weill
+  dich die War -- heit
+  ſelbst er -- leucht, die
+  War -- heit ſelbst er --
+  leucht, ſelbst er -- %30
+  leucht, uns
+  mit den Gna -- den --
+  thau be -- feucht, __ _
+  _ _ _
+  _ _ _ %35
+  _ _ _
+  _ _ _
+  _ _
+
+  uns %41
+  mit den Gna -- den --
+  thau be -- feucht, __ _
+  _ _ _
+  _ _ _ %45
+  _ Thau be --
+  feucht und all zur
+  Hoch -- zeit la --
+  _ _
+  det, %50
+  und
+  all zur Hoch --
+  zeit la -- det,
+  und all zur
+  Hoch -- zeit la -- %55
+  det, la --
+  _ _
+  _ _
+  _ _
+  _ _ _ _ %60
+  det, zur Hoch -- zeit
+  la -- det, la --
+  det,
+  zur Hoch -- zeit
+  la -- det, la -- %65
+  det, zur
+  Hoch -- zeit, zur
+  Hoch -- zeit la -- det,
+  la --
+  det. %70 finis
+}

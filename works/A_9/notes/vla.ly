@@ -94,7 +94,6 @@ A-IXScenaSecundaViola = {
   \relative c' {
     \clef alto
     \key c \dorian \time 4/4 \tempoA-IXScenaSecundaA
-    \key c \dorian \tempoA-IXScenaSecundaA
     R1
     h'2\fE r
     b r
@@ -806,5 +805,102 @@ A-IXASAriaQuartaViola = {
     e' f e d c b a b a g f e d' e d c b a g a g f e d
     cis' d \hA cis b a g f g f e d c b8 g a d, r r
     b'' g a d,4. r2*3/2\fermata \bar "|." %40 finis
+  }
+}
+
+A-IXASScenaQuintaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-IXASScenaQuintaA
+      \set Staff.timeSignatureFraction = 4/4
+    b2\p^\markup \remark "stendato" c
+    d1
+    e!2 f4 cis
+    d2 g,4 gis
+    a2 d4 r8 r16 b\f %5
+    b4 r h r
+    \time 2/4 \markTimeSig #'(2 4) c r
+    \time 4/4 \markTimeSig #'(4 4) d r es r
+    as, f b es\p
+    ces a b r8 r16 \hA b\f %10
+    \key c \dorian \tempoA-IXASScenaQuintaB es2 d4. d8
+    c2 r4 c'
+    b!4. b8 as4. as8
+    fis fis fis fis g4 r
+    \key c \major \tempoA-IXASScenaQuintaC R1*7 %21
+    R1\fermata \bar "|." %22 finis
+  }
+}
+
+A-IXASChorusViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-IXASChorusA
+    c8\fE c'16 h c8 g c, c'16 h c8 g
+    c, c'16 h c8 g c, a' fis g
+    d d'4 c8 h h a a
+    gis gis gis gis a a fis g
+    d, d' d h c4 d %5
+    e fis g8 c, d d,
+    g g'16 fis g8 d g, g'16 fis g8 d
+    g, g'16 f e8 d c c'16 b a8 g
+    f e d c b a g f
+    e e'16 d cis8 cis d g a a, %10
+    d d'16 cis d8 a d, d'16 cis d8 a
+    f d h! c! g g' g f
+    e e d d cis cis cis cis
+    d d h c g g' g e
+    f4 g a h %15
+    c8 f, g g, c c'16 h c8 g
+    c, c'16 h c8 g e c g' g, \noBreak
+    c4 r r2 \bar "||"
+    \tempoA-IXASChorusB c2 h4 d \noBreak
+    g,8 a h g c4 h %20
+    e8 d c e d4. d8
+    c4 d e8 d c4
+    d2 r
+    r r4 c
+    h d g,8 a h g %25
+    e' d c e d4. h8
+    c4 d e c
+    d r r2
+    R1
+    r2 d %30
+    d4 d d8 e d c
+    h c h a g4 r
+    R1*4 %36
+    r2 r4 g
+    g g g8 a g f
+    e f e d c4 c'
+    c8 d c b a \hA b a g %40
+    f4 d' d8 e d c
+    h! c h a g4. a16 h
+    c8 d c h a4. h16 c
+    d8 e d c h4. c16 d
+    e8 f e d c4. d16 e %45
+    d8 c h a16 g a2
+    g r
+    R1*2
+    r4 c a d %50
+    h2 g
+    R1
+    r2 r4 c
+    a d h2
+    g a %55
+    h4 h4. a8 g f
+    e4 c'4. h8 a g
+    f4 d'4. c8 h a
+    g4 r c4. d16 e
+    a,4. h16 c f,4. g16 a %60
+    h4 g h c
+    d c h c
+    h2 r
+    r4 c d c
+    h c2 h4 %65
+    c2 r4 c
+    c e r c
+    c e c g
+    a1
+    g\fermata \bar "|." %70 finis
   }
 }

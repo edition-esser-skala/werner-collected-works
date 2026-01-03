@@ -1,12 +1,11 @@
 title: Die Auferstehung
-subtitle: Die allgemeine Auferſtehung deren Todten mit dem darauf erfolgenden Lezten Gericht
+subtitle: Die allgemeine Auferſtehung deren Todten\\mit dem darauf erfolgenden Lezten Gericht
 id: WerW A.9
 genre: oratorio
-festival:
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, 2 vla, b, org
+scoring: S, A, 3 T, B (solo), S, A, T, B (coro), t-trb, 2 vl, 2 vla, b, org
 license: cc-by-sa-4.0
 sources:
-  A1:
+  B1:
     siglum: H-Bn
     shelfmark: Ms.mus III.4
     date: 1745-04-16
@@ -16,15 +15,18 @@ sources:
     principal: true
 tocstyle: default
 toe: |
-  –  & –  & vla  & In \B1, there is no staff for vla in movements 3, 4, 10–12, 14, 17–21, 23–27.
-                   Here, a vla part has been added
+  –  & –  & vla  & In \B1, there is no staff for vla in movements 3, 4, 10–12,
+                   14, 17–21, and 23, 25–29. Here, a vla part has been added
                    by the editor to these movements.
-                   In arias (no. 10, 12, 14, 17, 21, 23, 25, 27), the vla plays in unison
-                   with bc whenever the voice pauses during the first section.
-                   In accompagnatos (no. 11, 18, 20, 24, 26), it plays
-                   unison with bc.
-                   In choruses (no. 3, 4, 19, 20, 26), it generally plays unison
-                   with T in fugues, and unison with bc otherwise.
-                   TODO: mark in full score or better remove altogether? 25 already final?
+                   In arias (no. 10, 12, 14, 17, 21, 23, 25, 27),
+                   the vla plays in unison with bc whenever the voice
+                   pauses during the first section.
+                   In accompagnatos (no. 11, 18, 20, 26, 28),
+                   it plays unison with bc.
+                   In choruses (no. 3, 4, 19, 20, 26, 28, 29),
+                   it generally plays unison with T in fugues,
+                   and unison with bc otherwise. \\
   17 & 93 & vl   & 3rd \sixteenthNote\ in \B1: d″16 \\
   25 & 3  & vl 2 & 7th \eighthNote\ in \B1: b″8 \\
+commentary: |
+  \includepdf[pages=-,link=false,pagecommand={}]{../works/A_9/appendix.pdf}

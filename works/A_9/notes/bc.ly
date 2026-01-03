@@ -2896,3 +2896,225 @@ A-IXASAriaQuartaBassFigures = \figuremode {
   q q r8 <8 6> <_+> r4.
   <5>8 <8 6> <_+> r4. r2. %40 finis
 }
+
+A-IXASScenaQuintaContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-IXASScenaQuintaA
+      \set Staff.timeSignatureFraction = 4/4
+    b2\p^\markup \remark "stendato" c
+    d1
+    e!2 f4 cis
+    d2 g,4 gis
+    a2 d4 r8 r16 b\f %5
+    b4 r h r
+    \time 2/4 \markTimeSig #'(2 4) c r
+    \time 4/4 \markTimeSig #'(4 4) d r es r
+    as, f b es\p
+    ces a b r8 r16 \hA b\f %10
+    \key c \dorian \tempoA-IXASScenaQuintaB es2 d4. d8
+    c2 r4 c'
+    b!4. b8 as4. as8
+    fis fis fis fis g4. f8\pE
+    \key c \major \tempoA-IXASScenaQuintaC e!2 a %15
+    fis1
+    g2 e
+    f! g4 g,
+    c2 h~
+    h a %20
+    fis g4 h
+    c d8 d, g4 r\fermata \bar "|." %22 finis
+  }
+}
+
+A-IXASScenaQuintaBassFigures = \figuremode {
+  r2 <6 _->
+  <6->1
+  <6>2. q4
+  r2 <_->4 <7 5 [_!]>
+  <4> <_+>2. %5
+  r2 <7- 5>
+  <_->
+  <6-> \bo <[5-]>
+  \bc q4 <_-> r <[5-] _->
+  <[5- _-]> <7- 5- [_!]> <5 4>4.. <\t 3>16 %10
+  <[5-] _!>2 <6!>
+  <_->2. q4
+  <4! _->2 <6>
+  <7- 5 [_!]> <_!>
+  <6> q %15
+  q <5>
+  r <6>
+  r <4>4 <3>
+  r2 <6\\>
+  <5!>1 %20
+  <6>2. q4
+  r <6 4>8 <5 _+> r2 %22 finis
+}
+
+A-IXASChorusContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-IXASChorusA
+    c8\fE c'16 h c8 g c, c'16 h c8 g
+    c, c'16 h c8 g c, a' fis g
+    d d'4 c8 h h a a
+    gis gis gis gis a a fis g
+    d, d' d h c4 d %5
+    e fis g8 c, d d,
+    g g'16 fis g8 d g, g'16 fis g8 d
+    g, g'16 f e8 d c c'16 b a8 g
+    f e d c b a g f
+    e e'16 d cis8 cis d g a a, %10
+    d d'16 cis d8 a d, d'16 cis d8 a
+    f d h! c! g g' g f
+    e e d d cis cis cis cis
+    d d h c g g' g e
+    f4 g a h %15
+    c8 f, g g, c c'16 h c8 g
+    c, c'16 h c8 g e c g' g, \noBreak
+    c4 r r2 \bar "||"
+    \tempoA-IXASChorusB << {
+      c'2 h4 d \noBreak
+      g,8 a h g c4 h %20
+    } \\ {
+      R1
+      r4 g e g %20
+    } >>
+    c,8 d e c g'4 h,
+    c h a2
+    g8 a h g c h a c
+    h a g h a2
+    g4 g' e g %25
+    c,8 d e c g' a h g
+    c4 h a2
+    g \clef treble << {
+      c'8 d e c %28
+      d4 e8 d c e d c
+      h4. a16 g
+    } \\ {
+      e4 c' %28
+      h8 a g h a g fis a
+      g d g4
+    } >> \clef "treble_8" d2 %30
+    \clef bass g, g4 g
+    g8 a g f! e f e d
+    c4 c'8 b a \hA b a g
+    f4. g16 a b8 c \hA b a
+    g4. a16 b c8 d c \hA b %35
+    a4. b16 c d8 e d c
+    h4 c g2
+    c, c4 c
+    c8 d c b a \hA b a g
+    f4 f' f8 g f e %40
+    d e d c h!4 g'
+    g8 a g f e f e d
+    c4. d16 e f8 g f e
+    d4. e16 f g8 a g f
+    e4. f16 g a8 h a g %45
+    fis4 g d2
+    g,4 \clef treble << {
+      e''' c2
+      a4 d4. c8 h a
+      g4 c2
+    } \\ {
+      g4 e a %47
+      f!2 d4 g8 f
+      e d e c d4
+    } >> \clef bass g,
+    e a f2 %50
+    d4 g4. f8 e d
+    c4 a d2
+    g,4 g' e a
+    f! d g2
+    c, f4 d %55
+    g, g'4. f8 e d
+    c4 a'4. g8 f e
+    d4 h'4. a8 g f
+    e4 c'4. h8 a g
+    a g f e f e d c %60
+    h4 c g' c,
+    h c g' c,
+    g2 r
+    r4 c' h c
+    g c g2 %65
+    c, r4 e
+    f c r e
+    f c a e
+    f1
+    <c c'>\fermata \bar "|." %70 finis
+  }
+}
+
+A-IXASChorusBassFigures = \figuremode {
+  r1
+  r2. <6>4
+  <_+>4. <\t>8 <6\\>2
+  <[6]>2. <6 5>4
+  <_+>4. <6>8 <5> <6> <5 _+> <6 \t> %5
+  <5> <6> <5> <5>4. <4>8 <_+>
+  r4. q2 q8
+  r4 <6>8 q4. q8 <6 _->
+  <6> q <6-> <6> q q <6- _-> <6>
+  <6\\> <5- 3> <7- 5>4. <6 5 _->8 <4> <_+> %10
+  r4. <_+>2 q8
+  <[6]>4 <6 5> r4. <\t>8
+  <6\\>2 <[6]>
+  r4 <6 5> r4. <6>8
+  <5> <6> <5> <6> <5> <6> <5> <6> %15
+  r4 <4>8 <3> r2
+  r <[6]>
+  r1
+  r
+  r %20
+  r2. <6>4
+  r <[6]> <#(dotbf 5)>4. <6\\>8
+  r1
+  <[6]>2 <7>4 <6\\>
+  r2 <6> %25
+  r1
+  r4 <[6]> <#(dotbf 5)>4. <6\\>8
+  r1
+  r
+  r2 <4>4 <_+> %30
+  r1
+  r2 <[6]>
+  r1
+  r
+  <[_-]> %35
+  r
+  <6>2 <4>4 <_!>
+  r1
+  r
+  r %40
+  r2 <[6]>
+  r1
+  r
+  r
+  r %45
+  <[6]>2 <4>4 <_+>
+  r1
+  r
+  r
+  <6>2 <5>4 <6> %50
+  q1
+  r2 <_+>
+  r1
+  r
+  r %55
+  r
+  r
+  r
+  r
+  r2.. <6>8 %60
+  q1
+  <[6]>
+  r
+  r2 <[6]>
+  r <4>4 <3> %65
+  r1
+  r
+  r2 <6>4 q
+  r1
+  r %70 finis
+}
