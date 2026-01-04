@@ -28,5 +28,7 @@ toe: |
                    and unison with bc otherwise. \\
   17 & 93 & vl   & 3rd \sixteenthNote\ in \B1: d″16 \\
   25 & 3  & vl 2 & 7th \eighthNote\ in \B1: b″8 \\
+parts:
+  vla: Viola I, II
 commentary: |
   \includepdf[pages=-,link=false,pagecommand={}]{../works/A_9/appendix.pdf}
