@@ -68,9 +68,9 @@ H-I-XIbViolinoII = {
     R1*2 %11
     r4 r8 d\pE e16 d c h a h c8
     c16( h) h8 r4 r16 h\fE d g e g c e,
-    d g h, d g,4 r16 h8\dstU h16 r h8\dstU h16
-    r a8\dstD a16 r a8\dstD a16 r gis8\dstD gis16 r \hA gis8\dstD gis16 %15
-    r e8\dstD e16 r e8\dstD e16 r fis!8\dstD fis16 r g8\dstD g16
+    d g h, d g,4 r16 h8 h16 r h8 h16
+    r a8 a16 r a8 a16 r gis8 gis16 r \hA gis8 gis16 %15
+    r e8 e16 r e8 e16 r fis!8 fis16 r g8 g16
     fis8 e' h, h' g \tuplet 3/2 8 { e16\pE dis e } h'8 \tuplet 3/2 8 { fis16 e fis }
     g8 e r e16 d c8 c c c
     \kneeBeam h16 h'' ais( h) fis( g) dis( e) h8. a16 g4

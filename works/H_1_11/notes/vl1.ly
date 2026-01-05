@@ -68,9 +68,9 @@ H-I-XIbViolinoI = {
     R1*2 %11
     r4 r8 g~\pE g16 f e d c d e8
     e16( d) d8 r4 r16 g\fE d g e g c e,
-    d g h, d g,4 r16 d'8\dstU d16 r d8\dstU d16
-    r c8\dstU c16 r c8\dstU c16 r h8\dstU h16 r h8\dstU h16 %15
-    r a8\dstD a16 r a8\dstD a16 r h8\dstU h16 r e8\dstU e16
+    d g h, d g,4 r16 d'8 d16 r d8 d16
+    r c8 c16 r c8 c16 r h8 h16 r h8 h16 %15
+    r a8 a16 r a8 a16 r h8 h16 r e8 e16
     fis,8 e' h, dis' e \tuplet 3/2 8 { g,16\pE fis g } fis'8 \tuplet 3/2 8 { a,16 g a }
     h8 g r g16 fis e( e') dis( e) \hA dis( e) \hA dis( e)
     dis( h') ais( h) fis( g) dis( e) h8 d4 h8

@@ -32,7 +32,7 @@ B-XXXVKyrieViolinoII = {
     d16( g) g( d) h32( c d c) h8 c16 g8 c16 h8 r
     c16 g8 c16 h8 d c16 c8 c16 e e8 e16
     g g8 g16 c, c8 c16 h8 \tuplet 3/2 8 { c16 h c } d8 g %30
-    e16 e, g c h8.\trill h16 c g8\dstD c16 h8.\trill d16
+    e16 e, g c h8.\trill h16 c g8 c16 h8.\trill d16
     \sbOn e32( f g e) c( d e c) a( h c a) f( g a f) \sbOff g,16 g' e c g'8 g, \noBreak
     c16 e8 g16 g c8 e16 e4 r\fermata \bar "||"
     \key a \minor \tempoB-XXXVChriste

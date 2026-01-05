@@ -18,7 +18,7 @@ H-I-IaViolinoII = {
     r8 fis fis fis h, c4 h8
     h4 r r16 fis'\pE h dis fis \hA dis h \hA fis
     r g e g h-\critnote g e c r4 r16 g' h d %15
-    a fis8\dstD d16 r4 r2
+    a fis8 d16 r4 r2
     r h'8(\p c) h16( g) a( fis)
     d8( e) d16( h) c( a) h8 g r4
     r r16 g'\fE h d e8. e16 e8 h
@@ -29,10 +29,10 @@ H-I-IaViolinoII = {
     d g,4 e8 d e d8. d16
     e4 r r2 %25
     R1*2
-    r2 r16 h'8\pE\dstU h16 h-. h-. h-. h-.
-    r a8\dstD a16 a-. a-. a-. a-. r << { h8 h16 h h h h } \\ { g8 g16 g g g g } >>
-    r h8\dstU h16 r g8\dstD g16 fis dis'8\dstU fis16 r g,8\dstD e16 %30
-    r c'8\dstU a16 r d,8\dstD a'16 r h8\dstD g16 r4
+    r2 r16 h'8\pE h16 h-. h-. h-. h-.
+    r a8 a16 a-. a-. a-. a-. r << { h8 h16 h h h h } \\ { g8 g16 g g g g } >>
+    r h8 h16 r g8 g16 fis dis'8 fis16 r g,8 e16 %30
+    r c'8 a16 r d,8 a'16 r h8 g16 r4
     r r8 a a16( g) g8 r h
     g e r a16 g fis8 g \hA fis4\trill
     e r r2
@@ -252,7 +252,7 @@ H-I-IfViolinoII = {
     R1*4
     r8 a'4\pE e8 fis8. fis16 g d d a' %5
     h8. h16 a8 g fis16 h, dis fis g8 fis
-    e8. e16 a8 fis d16 h'8\dstD g16 e c c' a
+    e8. e16 a8 fis d16 h'8 g16 e c c' a
     fis d d'\fE a h d a d h d8 g16 a,8 d
     h4 r r2
     R1 %10
@@ -274,7 +274,7 @@ H-I-IfViolinoII = {
     r2 r4 g8. h16
     e,8. a16 a8 g~ g fis g16 g' d h %30
     a\f d, fis a h g h d e e, gis h c a c e
-    d a h g' fis d8\dstU a16 fis fis' dis h g' e h g
+    d a h g' fis d8 a16 fis fis' dis h g' e h g
     e e' c a fis fis' h, e fis,8.\trill fis16 gis4
     \tempoH-I-Ifb e4. c8 g'4. e8
     h' h, e16 d e fis g d g4 fis8 %35
