@@ -9,37 +9,9 @@
 
 allaOttava = \markup \remark "alla 8va"
 allaOttavaE = \markup \remarkE "alla 8va"
-aDue = \markup \remark "a 2"
-aDueE = \markup \remarkE "a 2"
-aTre = \markup \remark "a 3"
-aTreE = \markup \remarkE "a 3"
-aQuattro = \markup \remark "a 4"
-aQuattroE = \markup \remarkE "a 4"
-dstU = \tweak self-alignment-X #CENTER ^\markup { \hspace #1.3 \teeny \musicglyph #'"scripts.uhenzelongfermata" }
-dstD = \tweak self-alignment-X #CENTER _\markup { \hspace #1.3 \teeny \musicglyph #'"scripts.dhenzelongfermata" }
-hA = \once \override Accidental.stencil = ##f
 incipitVlISoprano = \incipit "I" "soprano" #-16.1 #-0.8
 incipitVlIISoprano = \incipit "II" "soprano" #-16.4 #-0.8
 incipitVlIIAlto = \incipit "II" "alto" #-16.4 #-0.8
-ignoreMelismas = \set ignoreMelismata = ##t
-obeyMelismas = \unset ignoreMelismata
-vlne = \markup \remark "vlne"
-
-dotbf = #(define-scheme-function
-  (bf)
-  (number-or-string?)
-  (markup #:combine
-    #:figured-bass (if (number? bf) (number->string bf) bf)
-    #:translate '(1.3 . .6) #:draw-circle .2 0 #t))
-
-dotbfflat = #(define-scheme-function
-  (bf)
-  (number-or-string?)
-  (markup #:combine
-    #:combine
-      #:figured-bass (if (number? bf) (number->string bf) bf)
-      #:translate '(-.575 . .3) #:fontsize -5.5 #:flat
-    #:translate '(1.3 . .6) #:draw-circle .2 0 #t))
 
 extendLV = #(define-music-function
   (parser location further)
@@ -59,26 +31,3 @@ setLyricsDistance = #(define-scheme-function
     \override VerticalAxisGroup.staff-staff-spacing.padding = #-100
     \override VerticalAxisGroup.staff-staff-spacing.stretchability = #0
   #}) % default (engraver-init.ly) : 2.8
-
-skips = #(define-music-function
-  (parser location n)
-  (number?)
-  #{ \repeat unfold #n { \skip 8 } #})
-
-tempoTitle = #(define-music-function
-  (parser location title)
-  (string?)
-  #{ \tempo \markup \medium { \larger \larger \italic #title } #})
-
-tempoTitleMarkup = #(define-music-function
-  (parser location title tempo)
-  (string? string?)
-  #{ \tempo \markup \medium { \larger \larger { \italic #title "·" #tempo } } #})
-
-\layout {
-  \context {
-    \Lyrics
-    \override StanzaNumber.font-series = #'medium
-    \override StanzaNumber.font-size = #-1
-  }
-}

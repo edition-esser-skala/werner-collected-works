@@ -7,7 +7,6 @@ StMagdalena = \markup { \override #'(box-padding . 0.5) \box "St: Magdalena" }
 StMichael = \markup { \override #'(box-padding . 0.5) \box "St: Michael" }
 StPetrus = \markup { \override #'(box-padding . 0.5) \box "St: Petrus" }
 
-fC = \set Staff.forceClef = ##t
 markScenaQuinta = {
   \once \override Score.RehearsalMark.self-alignment-X = #LEFT
   \mark \markup \remark "(Scena quinta)"
