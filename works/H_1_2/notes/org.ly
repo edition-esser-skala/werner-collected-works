@@ -1322,7 +1322,7 @@ H-I-IIMagnificatOrgano = {
     r f'
     es! d
     d g,4 r
-    \clef "treble_8" \mvTr g'2\pE-\solo-\aTreE ^\tweak TextScript.X-offset #0 ^\critnote e %95
+    \clef "treble_8" \mvTr g'2\pE-\solo-\aTreE ^\mvTz^\critnote e %95
     f r8 f a4
     b b r8 b g f
     e2 f4 r \noBreak

@@ -323,7 +323,7 @@ B-IGloriaOrgano = {
     b4 g a
     d a' a,
     d f a
-    \clef "treble_8" \mvTr d\pE-\solo ^\tweak TextScript.X-offset #0 ^\aTre d, d'
+    \clef "treble_8" \mvTr d\pE-\solo ^\mvTz^\aTre d, d'
     e c!8 d e4 %75
     f f, a8. b16
     c4. c8 b a
@@ -1167,7 +1167,7 @@ B-IAgnusOrgano = {
     a2 g\fermata \bar "||"
     \tempoB-IDona \newSpacingSection \mvTr c'8\fE-\tutti c, e g c4 g \noBreak
     c8 g e c g'4 r
-    c8-\tasto g e c g'4 \clef "treble_8" r8 \mvTr e\pE-\soloE ^\tweak TextScript.X-offset #0 ^\aTre %20
+    c8-\tasto g e c g'4 \clef "treble_8" r8 \mvTr e\pE-\soloE ^\mvTz^\aTre %20
     a h c d e4 e,
     e'4. a,8 e4 r
     \clef bass \mvTr d'8\fE-\tutti d, f a d4 g,
@@ -1175,12 +1175,12 @@ B-IAgnusOrgano = {
     g r c,! r %25
     f8 c a f c'4 r
     d8-\tasto a f d a'4 r
-    \mvTr d8\pE-\solo ^\tweak TextScript.X-offset #0 ^\aTre e f g a4 a,
+    \mvTr d8\pE-\solo ^\mvTz^\aTre e f g a4 a,
     a'4. d,8 a4 r
     \mvTr d4.\fE-\tutti h!8 g4 r %30
     c4. e8 f4 d
     e a e2
-    a,4 r \clef "treble_8" \mvTr a'8\pE-\solo ^\tweak TextScript.X-offset #0 ^\aTre h c d
+    a,4 r \clef "treble_8" \mvTr a'8\pE-\solo ^\mvTz^\aTre h c d
     e4 e, e'4. a,8
     e4 r \clef bass c8-\solo d e f %35
     g4 g, g'4. c,8

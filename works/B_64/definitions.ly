@@ -10,17 +10,17 @@ markOsannaUtSupra = {
 }
 
 tempoB-LXIVKyrie = \tempoMarkup "Allegro"
-  tempoB-LXIVChriste = \tempoMarkup "[Tempo deest]"
+  tempoB-LXIVChriste = \tempoMarkup "[no tempo]"
   tempoB-LXIVChristeB = \tempoMarkup "Adagio"
 
 tempoB-LXIVGloria = \tempoMarkup "Grave"
-  tempoB-LXIVLaudamus = \tempoMarkup "[Tempo deest]"
+  tempoB-LXIVLaudamus = \tempoMarkup "[no tempo]"
 tempoB-LXIVDomineDeus = \tempoMarkup "Andante"
 tempoB-LXIVQuiTollis = \tempoMarkup "Adagio"
 tempoB-LXIVQuoniam = \tempoMarkup "Andante"
 tempoB-LXIVCumSancto = \tempoMarkup "Presto"
 
-tempoB-LXIVCredo = \tempoMarkup "[Tempo deest]"
+tempoB-LXIVCredo = \tempoMarkup "[no tempo]"
 tempoB-LXIVQuiPropter = \tempoMarkup "Adagio"
 tempoB-LXIVCrucifixus = \tempoMarkup "Adagio"
   tempoB-LXIVSubPontio = \tempoMarkup "Allabreve"
@@ -31,10 +31,10 @@ tempoB-LXIVEtInSpiritum = \tempoMarkup "Andante"
 tempoB-LXIVEtVitam = \tempoMarkup "Presto"
 
 tempoB-LXIVSanctus = \tempoMarkup "Largo"
-  tempoB-LXIVPleni = \tempoMarkup "[Tempo deest]"
-  tempoB-LXIVOsanna = \tempoTitleMarkup "Osanna" "[Tempo deest]"
+  tempoB-LXIVPleni = \tempoMarkup "[no tempo]"
+  tempoB-LXIVOsanna = \tempoTitleMarkup "Osanna" "[no tempo]"
 
-tempoB-LXIVBenedictus = \tempoMarkup "[Tempo deest]"
+tempoB-LXIVBenedictus = \tempoMarkup "[no tempo]"
 
 tempoB-LXIVAgnus = \tempoMarkup "Adagio"
   tempoB-LXIVDona = \tempoMarkup "Andante"

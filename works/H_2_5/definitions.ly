@@ -1,8 +1,8 @@
 \version "2.24.0"
 
-tempoH-II-V = \tempoMarkup "[Tempo deest]"
+tempoH-II-V = \tempoMarkup "[no tempo]"
 tempoH-II-Vb = \tempoMarkup "Largo"
-tempoH-II-Vc = \tempoMarkup "[Tempo deest]"
+tempoH-II-Vc = \tempoMarkup "[no tempo]"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

@@ -833,7 +833,7 @@ B-LXIVCrucifixusOrgano = {
     \clef bass
     \key d \minor \time 3/2 \tempoB-LXIVCrucifixus
       \set Score.currentBarNumber = #103
-    r4 \mvTr d\pE-\solo ^\tweak TextScript.X-offset #0 ^\markup \remark "staccato" d d d d
+    r4 \mvTr d\pE-\solo ^\mvTz^\markup \remark "staccato" d d d d
     r e e e e e
     r d d d d d %105
     r g g g g g
@@ -1488,7 +1488,7 @@ B-LXIVBenedictusOrgano = {
   \relative c {
     \clef "treble_8"
     \key d \minor \time 3/4 \tempoB-LXIVBenedictus
-    \mvTr d'8\pE-\solo ^\tweak TextScript.X-offset #0 ^\aTre e f4 cis
+    \mvTr d'8\pE-\solo ^\mvTz^\aTre e f4 cis
     d2 a4
     f'2 e4
     d2 c!4

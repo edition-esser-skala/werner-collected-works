@@ -17,7 +17,7 @@ tempoD-III-VIaa = \tempoMarkup "Allabreve"
 tempoD-III-VIab = \tempoTitleMarkup "Ut vivificaret" "Vivace"
 tempoD-III-VIac = \tempoMarkup "Largo"
 
-tempoD-III-VIba = \tempoMarkup "[Tempo deest]"
+tempoD-III-VIba = \tempoMarkup "[no tempo]"
 tempoD-III-VIbb = \tempoTitleMarkup "Quia in te" "Vivace"
 tempoD-III-VIbc = \tempoMarkup "Largo"
 

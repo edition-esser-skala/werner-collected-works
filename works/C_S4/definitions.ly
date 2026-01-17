@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-tempoC-SIV = \tempoMarkup "[Tempo deest]"
+tempoC-SIV = \tempoMarkup "[no tempo]"
 
 \include "notes/cor1.ly"
 \include "notes/cor2.ly"

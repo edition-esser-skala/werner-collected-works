@@ -643,7 +643,7 @@ B-LXIIIFragmentBasso = {
 }
 
 B-LXIIIFragmentBassoLyrics = \lyricmode {
-  \repeat unfold 10 { \skip 8 }
+  \skips 10
   fa -- %4
   cto -- rem %5 finis
 }

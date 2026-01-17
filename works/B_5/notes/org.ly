@@ -741,7 +741,7 @@ B-VCredoOrgano = {
     g g' h g c f, g g, \noBreak
     c c c c c4 r\fermata \bar "||"
     \key a \minor \time 3/4 \tempoB-VEtInSpiritum \newSpacingSection
-      \mvTr a'8[\pE-\solo ^\tweak TextScript.X-offset #0 ^\markup \remark "Organo solo" h c h] c h16 a \noBreak
+      \mvTr a'8[\pE-\solo ^\mvTz^\markup \remark "Organo solo" h c h] c h16 a \noBreak
     gis8 fis e d c h
     a d e d e e, %95
     << { a'[ h c h] } \\ { a,4 s } >> c'8 h16 a

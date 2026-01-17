@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 tempoI-II-IVa = \tempoMarkup "Larghetto"
-tempoI-II-IVb = \tempoMarkup "[Tempo deest]"
+tempoI-II-IVb = \tempoMarkup "[no tempo]"
 tempoI-II-IVc = \tempoMarkup "Adagio"
 tempoI-II-IVd = \tempoMarkup "Presto"
 

@@ -1,10 +1,10 @@
 \version "2.24.0"
 
-tempoD-II-XIIa = \tempoMarkup "[Tempo deest]"
+tempoD-II-XIIa = \tempoMarkup "[no tempo]"
 tempoD-II-XIIba = \tempoMarkup "Adagio"
   tempoD-II-XIIbb = \tempoMarkup "Allegro"
-tempoD-II-XIIc = \tempoMarkup "[Tempo deest]"
-tempoD-II-XIId = \tempoMarkup "[Tempo deest]"
+tempoD-II-XIIc = \tempoMarkup "[no tempo]"
+tempoD-II-XIId = \tempoMarkup "[no tempo]"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

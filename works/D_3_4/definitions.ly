@@ -1,7 +1,7 @@
 \version "2.24.0"
 
-tempoD-III-IV-a = \tempoMarkup "[Tempo deest]"
-tempoD-III-IV-b = \tempoMarkup "[Tempo deest]"
+tempoD-III-IV-a = \tempoMarkup "[no tempo]"
+tempoD-III-IV-b = \tempoMarkup "[no tempo]"
 tempoD-III-IV-c = \tempoMarkup "Presto"
 tempoD-III-IV-d = \tempoMarkup "Presto"
 

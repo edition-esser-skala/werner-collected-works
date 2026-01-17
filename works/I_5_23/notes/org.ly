@@ -4,7 +4,7 @@ I-V-XXIII-Organo = {
   \relative c {
     \clef bass
     \key a \minor \time 4/4 \tempoI-V-XXIII
-    \mvTr a8\pE-\solo ^\tweak TextScript.X-offset #0 ^\aQuattro a' d, f a, a'4 gis8
+    \mvTr a8\pE-\solo ^\mvTz^\aQuattro a' d, f a, a'4 gis8
     a f d e c16 d c h a h c d
     e e, e'8~ e dis e c a h
     e, e' a a, d d, g! g'

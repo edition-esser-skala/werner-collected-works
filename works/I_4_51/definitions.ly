@@ -1,7 +1,7 @@
 \version "2.24.0"
 
-tempoI-IV-LIa = \tempoMarkup "[Tempo deest]"
-tempoI-IV-LIb = \tempoMarkup "[Tempo deest]"
+tempoI-IV-LIa = \tempoMarkup "[no tempo]"
+tempoI-IV-LIb = \tempoMarkup "[no tempo]"
 tempoI-IV-LIc = \tempoMarkup "Presto"
 
 \include "notes/vl1.ly"

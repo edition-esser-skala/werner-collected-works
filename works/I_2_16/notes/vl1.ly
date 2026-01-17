@@ -36,7 +36,7 @@ I-II-XVI-ViolinoI = {
     a a2 h4
     c1 \noBreak
     h\fermata \bar "||"
-    \time 3/2 \newSpacingSection \set Staff.forceClef = ##t
+    \time 3/2 \newSpacingSection \fC
       a'2 a g! \noBreak %35
     g g g
     g1 g2

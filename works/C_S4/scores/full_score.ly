@@ -14,22 +14,22 @@
         \new StaffGroup \with { \setGroupDistance #15 #15 } <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "Corno di" "bassetto I, II" "in F" }
-            \set Staff.soloText = \markup \remark \medium "cdb 1"
-            \set Staff.soloIIText = \markup \remark \medium "cdb 2"
+            \setSoloText "cdb 1"
+            \setSoloIIText "cdb 2"
             % \transpose c f,
             \partCombine #'(0 . 10) \C-SIVCornoDiBassettoI \C-SIVCornoDiBassettoII
           >>
           \new Staff <<
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \remark \medium "fag 1"
-            \set Staff.soloIIText = \markup \remark \medium "fag 2"
+            \setSoloText "fag 1"
+            \setSoloIIText "fag 2"
             \partCombine #'(0 . 10) \C-SIVFagottoI \C-SIVFagottoII
           >>
         >>
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Corno I, II" "D" ""
-            \set Staff.soloText = \markup \remark \medium "cor 1"
+            \setSoloText "cor 1"
             % \transpose c d,
             \partCombine #'(0 . 10) \C-SIVCornoI \C-SIVCornoII
           >>

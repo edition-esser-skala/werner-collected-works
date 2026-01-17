@@ -4,7 +4,7 @@ tempoJ-IVa = \tempoMarkup "Vivace"
 tempoJ-IVb = \tempoMarkup "Andante"
 tempoJ-IVc = \tempoMarkup "Allegro"
 tempoJ-IVd = \tempoMarkup "Andante"
-tempoJ-IVe = \tempoMarkup "[Tempo deest]"
+tempoJ-IVe = \tempoMarkup "[no tempo]"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"

@@ -5,7 +5,7 @@ I-IV-LIIIaAlto = {
     \clef treble
     \key g \minor \time 3/2 \tempoI-IV-LIIa \autoBeamOff
     R1.*3
-    r2 \mvTr d\pE^\solo ^\tweak TextScript.X-offset #0 ^\markup \remark "Ariose" d4 e8([ fis)]
+    r2 \mvTr d\pE^\solo ^\mvTz^\markup \remark "Ariose" d4 e8([ fis)]
     g1 \afterGrace g2( { a8[ b]) } %5
     fis2 fis2.\trill g4
     g1 g4( d)

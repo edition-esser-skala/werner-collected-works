@@ -235,7 +235,7 @@ B-XXIXCredoOrgano = {
     c cis d4. c8 %30
     h h' fis d g d e h
     c c' d d, g r r4
-    \key g \minor \mark \critnote g8 b!16 a g8. f!16 es!8 g16 f es8 d
+    \key g \minor \markCritnote g8 b!16 a g8. f!16 es!8 g16 f es8 d
     c4 d8 d, g d' b g
     d' d' c b a g fis! d %35
     g f es d c c'16 b! a8 g

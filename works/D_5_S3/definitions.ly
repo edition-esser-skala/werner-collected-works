@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-tempoD-V-SIII = \tempoMarkup "[Tempo deest]"
+tempoD-V-SIII = \tempoMarkup "[no tempo]"
 
 \include "notes/S.ly"
 \include "notes/A.ly"

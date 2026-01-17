@@ -2,7 +2,7 @@
 
 tempoH-I-Ia = \tempoMarkup "Andante"
   tempoH-I-Iab = \tempoMarkup "Vivace"
-tempoH-I-Ib = \tempoMarkup "[Tempo deest]"
+tempoH-I-Ib = \tempoMarkup "[no tempo]"
 tempoH-I-Ic = \tempoMarkup "Andante"
 tempoH-I-Id = \tempoMarkup "Vivace"
 tempoH-I-Ie = \tempoMarkup "Presto"

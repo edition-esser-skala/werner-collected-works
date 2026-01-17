@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 tempoI-III-XV = \tempoMarkup "Andante"
-tempoI-III-XV-b = \tempoMarkup "[Tempo deest]"
+tempoI-III-XV-b = \tempoMarkup "[no tempo]"
 tempoI-III-XV-c = \tempoMarkup "Allegro"
 tempoI-III-XV-d = \tempoMarkup "Largo"
 tempoI-III-XV-e = \tempoMarkup "Allegro"

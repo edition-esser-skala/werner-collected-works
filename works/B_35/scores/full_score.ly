@@ -702,8 +702,8 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \medium \remark "clno solo"
-            \set Staff.soloIIText = \markup \medium \remark "clno 2"
+            \setSoloText "clno solo"
+            \setSoloIIText "clno 2"
             \partCombine #'(0 . 10) \B-XXXVSanctusClarinoI \B-XXXVSanctusClarinoII
           >>
         >>
@@ -805,7 +805,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloIIText = \markup \medium \remark "clno 2"
+            \setSoloIIText "clno 2"
             \partCombine #'(0 . 10) \B-XXXVAgnusClarinoI \B-XXXVAgnusClarinoII
           >>
         >>

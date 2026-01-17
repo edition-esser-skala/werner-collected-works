@@ -370,7 +370,7 @@ B-XXXIIGloriaOrgano = {
     a16 a' g f e8 f g g, \noBreak %40
     c4 r r\fermata \bar "||"
     \key a \minor \time 4/4 \tempoB-XXXIIGratias \newSpacingSection
-      \mvTr a'8\pE-\solo-\tasto ^\tweak TextScript.X-offset #0 ^ \markup \remark "senza accompagnamento sin alla voce" r gis e a4 r8 a, \noBreak
+      \mvTr a'8\pE-\solo-\tasto ^\mvTz^ \markup \remark "senza accompagnamento sin alla voce" r gis e a4 r8 a, \noBreak
     d f g h, c r e c
     f r fis d g g, r gis'
     a d, g c, f r d r %45

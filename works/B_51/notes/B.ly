@@ -284,7 +284,7 @@ B-LICredoBasso = {
     es4 d c( b8[ a)] g4 a
     b g' es( f) b, r %75
     R1.*2
-    r2 r \mvTr c4\pE^\soloE ^\tweak TextScript.X-offset #0 ^\critnote d
+    r2 r \mvTr c4\pE^\soloE ^\mvTz^\critnote d
     es4. es8 d4 e f2
     es4 fis g2 f4 b %80
     g( a) d,2 r

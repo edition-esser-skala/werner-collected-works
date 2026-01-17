@@ -151,7 +151,7 @@ E-XXXVIIIOrgano = {
     a f g g, c c c c \noBreak
     c2 r\fermata \markFine \bar "||"
     \clef "treble_8" \time 3/4
-      \mvTr a'4\pE-\solo^\tweak TextScript.X-offset #0 ^\aTre c a \noBreak %145
+      \mvTr a'4\pE-\solo^\mvTz^\aTre c a \noBreak %145
     e'2 dis4
     e2 c4
     h gis a

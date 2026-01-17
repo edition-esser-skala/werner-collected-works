@@ -27,7 +27,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \J-III-ClarinoI \J-III-ClarinoII
           >>
         >>

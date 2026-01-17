@@ -135,7 +135,7 @@ D-IV-VBassoLyricsA = \lyricmode {
 }
 
 D-IV-VBassoLyricsB = \lyricmode {
-  \repeat unfold 6 { \skip 4 }
+  \skips 6
   Si -- cut
   e -- _ rat, __
   si --

@@ -4,7 +4,7 @@ D-I-VOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoD-I-Va
-    \mvTr c8\fE-\tutti ^\tweak TextScript.X-offset #0 ^\markup \remark "staccato per tutto" c c c c c c c
+    \mvTr c8\fE-\tutti ^\mvTz^\markup \remark "staccato per tutto" c c c c c c c
     h h h h h h h h
     a a a a a a a a
     << { g' g g g } \\ { g,4 s } >> f'8 f f f

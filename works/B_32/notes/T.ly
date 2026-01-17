@@ -552,7 +552,7 @@ B-XXXIIAgnusTenore = {
     \mvDl c4.\fE^\tuttiE d8 e16([ d)] e8 r e
     e e r c c c r f
     d e d([ c)] d4 r
-    \mvTr gis,4.\pE^\solo ^\tweak TextScript.X-offset #0 ^\aTreE gis8 a4 a
+    \mvTr gis,4.\pE^\solo ^\mvTz^\aTreE gis8 a4 a
     b a g4. f!8 %5
     e4 f e2
     a4 r r2

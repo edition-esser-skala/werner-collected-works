@@ -4,7 +4,7 @@ tempoD-II-Xa = \tempoMarkup "Adagio"
 tempoD-II-Xb = \tempoMarkup "Andante"
 tempoD-II-Xc = \tempoMarkup "Adagio"
 tempoD-II-Xd = \tempoMarkup "Presto"
-tempoD-II-Xe = \tempoMarkup "[Tempo deest]"
+tempoD-II-Xe = \tempoMarkup "[no tempo]"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

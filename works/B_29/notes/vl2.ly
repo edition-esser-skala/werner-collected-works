@@ -116,7 +116,7 @@ B-XXIXCredoViolinoII = {
     \time 4/4 \tempoB-XXIXEtIncarnatus \newSpacingSection
       R1*5 \noBreak %31
     r2 r8 b16(\pp c) c( a) a( \hA b)
-    \key g \minor \mark \critnote b4 r r2 \noBreak
+    \key g \minor \markCritnote b4 r r2 \noBreak
     r8 c \tuplet 3/2 8 { \sbOn b16 a g a g fis \sbOff } g8 b d b
     a( fis) fis16( g) g( a) a8 b a16 fis g a %35
     d,8 r r h'16( c) c8 c, r4

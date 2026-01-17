@@ -158,7 +158,7 @@ H-II-VIOrgano = {
     b r2\fermata \bar "||" %125
     \time 4/4 \key f \major \tempoH-II-VINeProjicias \newSpacingSection
       \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
-      \mvTr g'16.\fE-\solo ^\tweak TextScript.X-offset #0 ^\orgSolo g32 b16. g32 d'16. d,32 fis16. d32 g8 g, r16 b' g16. b32 \noBreak
+      \mvTr g'16.\fE-\solo ^\mvTz^\orgSolo g32 b16. g32 d'16. d,32 fis16. d32 g8 g, r16 b' g16. b32 \noBreak
     c,16. es'32 a,16. c32 f,16. a32 d,16. f32 b,16. d'32 b16. d32 g,16. b32 c,16. es32
     a,16. c'32 a16. c32 fis,16. a32 d,16. \hA fis32 g16. d32 es16. c32 d8 d,
     g16. g'32\p b16. g32 d'16. d,32 fis16. d32 g8 es c d
@@ -242,7 +242,7 @@ H-II-VIOrgano = {
       c4. a8 fis4 g8 es'
     } >> \noBreak
     d4 d, g r\fermata \bar "||"
-    \tempoH-II-VIBenigne \mvTr d'8\pE-\soloE ^\tweak TextScript.X-offset #0 ^\orgSolo d' d d cis e a, \hA cis \noBreak %200
+    \tempoH-II-VIBenigne \mvTr d'8\pE-\soloE ^\mvTz^\orgSolo d' d d cis e a, \hA cis \noBreak %200
     d d, r f g b e! c,
     f a d b, e g cis a,
     d f b, d g, b' a a,

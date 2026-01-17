@@ -2,7 +2,7 @@
 
 tempoK-IIIa = \tempoMarkup "Largo"
 tempoK-IIIb = \tempoMarkup "Adagio"
-tempoK-IIIc = \tempoMarkup "[Tempo deest]"
+tempoK-IIIc = \tempoMarkup "[no tempo]"
 
 \include "notes/S1.ly"
 \include "notes/S2.ly"

@@ -4,13 +4,13 @@ K-IIIaCembalo = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \tempoK-IIIa
-    b8-\soloE ^\tweak TextScript.X-offset #0 ^\markup \remark "vla, cemb" d4 b8 f' f, a f
+    b8-\soloE ^\mvTz^\markup \remark "vla, cemb" d4 b8 f' f, a f
     b b' d, f b, f' b a
     g a g f es c f es
     d b f' es d g es c
     f es f f, b d es f %5
-    \clef bass b,,-\tutti ^\tweak TextScript.X-offset #0 ^\markup \remark \concat { "vla, vlne, cemb " \critnote } b' a f d g es f
-    b, \clef treble b''[-\solo ^\tweak TextScript.X-offset #0 ^\markup \remark "vla, cemb" a g] f es d c
+    \clef bass b,,-\tutti ^\mvTz^\markup \remark \concat { "vla, vlne, cemb " \critnote } b' a f d g es f
+    b, \clef treble b''[-\solo ^\mvTz^\markup \remark "vla, cemb" a g] f es d c
     b b' f f, b4 b'8 b,
     b f' b a g b a g
     fis d e \hA fis g a b g %10

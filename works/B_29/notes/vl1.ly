@@ -120,7 +120,7 @@ B-XXIXCredoViolinoI = {
     r8 e'16 c \tuplet 3/2 8 { a h a g fis e fis e d } d8 r4 \sbOff %30
     R1 \noBreak
     r2 r8 d'16(\pp es!) es( fis!) fis( g)
-    \key g \minor \mark \critnote g4 r r2 \noBreak
+    \key g \minor \markCritnote g4 r r2 \noBreak
     r8 es \tuplet 3/2 8 { \sbOn d16 c b c b a \sbOff } b8 d4 g8
     fis( a,) a16( b) b( c) c d es8 d8.\trill c16 %35
     b8 d g16( f) f( es) es4 r

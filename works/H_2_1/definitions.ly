@@ -5,7 +5,7 @@ tempoH-II-Ib = \tempoMarkup "Andante"
 tempoH-II-Ic = \tempoMarkup "Allegro"
 tempoH-II-Id = \tempoMarkup "Adagio"
 tempoH-II-Ie = \tempoMarkup "Presto"
-tempoH-II-If = \tempoMarkup "[Tempo deest]"
+tempoH-II-If = \tempoMarkup "[no tempo]"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

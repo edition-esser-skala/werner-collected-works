@@ -10,8 +10,8 @@ markOsannaUtSupra = {
 }
 
 tempoB-XXIIIKyrie = \tempoMarkup "Alla capella"
-  tempoB-XXIIIChriste = \tempoMarkup "[Tempo deest]"
-tempoB-XXIIICredo = \tempoMarkup "[Tempo deest]"
+  tempoB-XXIIIChriste = \tempoMarkup "[no tempo]"
+tempoB-XXIIICredo = \tempoMarkup "[no tempo]"
   tempoB-XXIIIEtIncarnatus = \tempoMarkup "Largo"
   tempoB-XXIIICrucifixus = \tempoMarkup "Lente"
   tempoB-XXIIIEtResurrexit = \tempoMarkup "Vivace"

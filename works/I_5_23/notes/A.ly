@@ -4,7 +4,7 @@ I-V-XXIII-Alto = {
   \relative c' {
     \clef treble
     \key a \minor \time 4/4 \tempoI-V-XXIII \autoBeamOff
-    \mvTr e4\pE^\solo ^\tweak TextScript.X-offset #0 ^\aQuattro f e d
+    \mvTr e4\pE^\solo ^\mvTz^\aQuattro f e d
     c8( d4) h8 a4 r
     R1
     r8 g' g f!16([ e)] f4 r

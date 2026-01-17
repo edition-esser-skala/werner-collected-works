@@ -112,7 +112,7 @@ J-IIOrgano = {
     e f g g, c c' f, g \noBreak %90
     c,1\fermata \bar "||"
     \clef "treble_8" \time 3/4 \tempoJ-IIe \newSpacingSection
-      \mvTr e'2\pE-\solo ^\tweak TextScript.X-offset #0 ^\aTre e4 \noBreak
+      \mvTr e'2\pE-\solo ^\mvTz^\aTre e4 \noBreak
     h2.
     cis
     h8 cis dis4 h %95

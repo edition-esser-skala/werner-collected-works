@@ -5,7 +5,7 @@ markRorateDaCapo = {
   \mark \markup \remarkE "Rorate da capo"
 }
 
-tempoD-IV-VI = \tempoMarkup "[Tempo deest]"
+tempoD-IV-VI = \tempoMarkup "[no tempo]"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

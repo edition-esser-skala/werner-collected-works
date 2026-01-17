@@ -1,11 +1,11 @@
 \version "2.24.0"
 
-tempoH-I-IVa = \tempoMarkup "[Tempo deest]"
-tempoH-I-IVb = \tempoMarkup "[Tempo deest]"
-tempoH-I-IVc = \tempoMarkup "[Tempo deest]"
-tempoH-I-IVd = \tempoMarkup "[Tempo deest]"
-tempoH-I-IVe = \tempoMarkup "[Tempo deest]"
-tempoH-I-IVf = \tempoMarkup "[Tempo deest]"
+tempoH-I-IVa = \tempoMarkup "[no tempo]"
+tempoH-I-IVb = \tempoMarkup "[no tempo]"
+tempoH-I-IVc = \tempoMarkup "[no tempo]"
+tempoH-I-IVd = \tempoMarkup "[no tempo]"
+tempoH-I-IVe = \tempoMarkup "[no tempo]"
+tempoH-I-IVf = \tempoMarkup "[no tempo]"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

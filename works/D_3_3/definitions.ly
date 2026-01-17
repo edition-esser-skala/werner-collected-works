@@ -18,7 +18,7 @@ tempoD-III-IIIab = \tempoTitleMarkup "Et terribilibus" "Vivace"
 tempoD-III-IIIac = \tempoMarkup "Larghetto / Largo"
 
 tempoD-III-IIIba = \tempoMarkup "Alla capella"
-tempoD-III-IIIbb = \tempoTitleMarkup "Et omnis terra" "[Tempo deest]"
+tempoD-III-IIIbb = \tempoTitleMarkup "Et omnis terra" "[no tempo]"
 tempoD-III-IIIbc = \tempoMarkup "Largo"
 
 tempoD-III-IIIca = \tempoMarkup "Allabreve"

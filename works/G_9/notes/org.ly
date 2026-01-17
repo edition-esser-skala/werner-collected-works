@@ -39,7 +39,7 @@ G-IXOrgano = {
     g2. d4 h d
     g,2. g'4 fis g
     d2 r r
-    \clef "treble_8" \mvTr d'4\pE-\solo-\tasto ^\tweak TextScript.X-offset #0 ^\aTre d d d d d %35
+    \clef "treble_8" \mvTr d'4\pE-\solo-\tasto ^\mvTz^\aTre d d d d d %35
     d d d d d d
     d d d d d d
     d d d \clef bass \mvTr d,\fE-\tutti g a

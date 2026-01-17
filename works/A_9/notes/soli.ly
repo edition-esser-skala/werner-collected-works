@@ -1466,7 +1466,7 @@ A-IXASScenaSecundaSoli = {
 }
 
 A-IXASScenaSecundaSoliLyrics = \lyricmode {
-  \skip 1
+  \skips 1
   Woll -- an, die Zeit bricht an, ihr ſolt vor Ge -- rich -- te
   ge -- hen. Ô ü -- ber -- bitt -- re
   Forcht, wie werd ich da be --

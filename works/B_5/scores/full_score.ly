@@ -80,7 +80,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \B-VGloriaClarinoI \B-VGloriaClarinoII
           >>
         >>
@@ -147,7 +147,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \B-VCredoClarinoI \B-VCredoClarinoII
           >>
         >>
@@ -214,7 +214,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             \partCombine #'(0 . 10) \B-VSanctusClarinoI \B-VSanctusClarinoII
           >>
         >>
@@ -325,7 +325,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloIIText = \markup \remark \medium "clno 2"
+            \setSoloIIText "clno 2"
             \partCombine #'(0 . 10) \B-VAgnusClarinoI \B-VAgnusClarinoII
           >>
         >>

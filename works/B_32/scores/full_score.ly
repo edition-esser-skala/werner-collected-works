@@ -25,7 +25,7 @@
         \new StaffGroup \with { \setGroupDistance #11 #11 } <<
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Corno I, II" "C" ""
-            \set Staff.soloText = \markup \remark \medium "cor 1"
+            \setSoloText "cor 1"
             % \transpose c c,
             \partCombine #'(0 . 10) \B-XXXIIKyrieCornoI \B-XXXIIKyrieCornoII
           >>
@@ -93,7 +93,7 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "cor" "1, 2" }
-            \set Staff.soloIIText = \markup \remark \medium "cor 2"
+            \setSoloIIText "cor 2"
             % \transpose c c,
             \partCombine #'(0 . 10) \B-XXXIIGloriaCornoI \B-XXXIIGloriaCornoII
           >>
@@ -174,7 +174,7 @@
         \new StaffGroup \with { \setGroupDistance #11 #11 } <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "cor" "1, 2" }
-            \set Staff.soloIIText = \markup \remark \medium "cor 2"
+            \setSoloIIText "cor 2"
             % \transpose c c,
             \partCombine #'(0 . 10) \B-XXXIICredoCornoI \B-XXXIICredoCornoII
           >>

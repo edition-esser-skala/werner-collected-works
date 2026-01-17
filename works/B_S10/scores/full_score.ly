@@ -43,15 +43,15 @@
           >>
           \new Staff {
             \set Staff.instrumentName = \transposedName "Clarino 1, 2" "C" ""
-            \set Staff.soloText = \markup \remark \medium "clno 1"
-            \set Staff.soloIIText = \markup \remark \medium "clno 2"
+            \setSoloText "clno 1"
+            \setSoloIIText "clno 2"
             \partCombine #'(0 . 10) \B-SXSonataClarinoI \B-SXSonataClarinoII
           }
         >>
         \new Staff {
           \set Staff.instrumentName = \transposedName "Clarino* 1, 2" "C" ""
-          \set Staff.soloText = \markup \remark \medium "clno 1"
-          \set Staff.soloIIText = \markup \remark \medium "clno 2"
+          \setSoloText "clno 1"
+          \setSoloIIText "clno 2"
           \partCombine #'(0 . 10) \B-SXSonataClarinoIb \B-SXSonataClarinoIIb
         }
         \new StaffGroup <<
@@ -120,15 +120,15 @@
           >>
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
-            \set Staff.soloIIText = \markup \remark \medium "clno 2"
+            \setSoloText "clno 1"
+            \setSoloIIText "clno 2"
             \partCombine #'(0 . 10) \B-SXKyrieClarinoI \B-SXKyrieClarinoII
           }
         >>
         \new Staff \with { \smallStaffDistance } {
           \set Staff.instrumentName = \markup \center-column { "clno*" "1, 2" }
-          \set Staff.soloText = \markup \remark \medium "clno 1"
-          \set Staff.soloIIText = \markup \remark \medium "clno 2"
+          \setSoloText "clno 1"
+          \setSoloIIText "clno 2"
           \partCombine #'(0 . 10) \B-SXKyrieClarinoIb \B-SXKyrieClarinoIIb
         }
         \new StaffGroup <<
@@ -221,15 +221,15 @@
           >>
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
-            \set Staff.soloIIText = \markup \remark \medium "clno 2"
+            \setSoloText "clno 1"
+            \setSoloIIText "clno 2"
             \partCombine #'(0 . 10) \B-SXGloriaClarinoI \B-SXGloriaClarinoII
           }
         >>
         \new Staff \with { \smallStaffDistance } {
           \set Staff.instrumentName = \markup \center-column { "clno*" "1, 2" }
-          \set Staff.soloText = \markup \remark \medium "clno 1"
-          \set Staff.soloIIText = \markup \remark \medium "clno 2"
+          \setSoloText "clno 1"
+          \setSoloIIText "clno 2"
           \partCombine #'(0 . 10) \B-SXGloriaClarinoIb \B-SXGloriaClarinoIIb
         }
         \new StaffGroup <<
@@ -322,15 +322,15 @@
           >>
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
-            \set Staff.soloIIText = \markup \remark \medium "clno 2"
+            \setSoloText "clno 1"
+            \setSoloIIText "clno 2"
             \partCombine #'(0 . 10) \B-SXCredoClarinoI \B-SXCredoClarinoII
           }
         >>
         \new Staff \with { \smallStaffDistance } {
           \set Staff.instrumentName = \markup \center-column { "clno*" "1, 2" }
-          \set Staff.soloText = \markup \remark \medium "clno 1"
-          \set Staff.soloIIText = \markup \remark \medium "clno 2"
+          \setSoloText "clno 1"
+          \setSoloIIText "clno 2"
           \partCombine #'(0 . 10) \B-SXCredoClarinoIb \B-SXCredoClarinoIIb
         }
         \new StaffGroup <<
@@ -423,15 +423,15 @@
           >>
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
-            \set Staff.soloIIText = \markup \remark \medium "clno 2"
+            \setSoloText "clno 1"
+            \setSoloIIText "clno 2"
             \partCombine #'(0 . 10) \B-SXSanctusClarinoI \B-SXSanctusClarinoII
           }
         >>
         \new Staff \with { \smallStaffDistance } {
           \set Staff.instrumentName = \markup \center-column { "clno*" "1, 2" }
-          \set Staff.soloText = \markup \remark \medium "clno 1"
-          \set Staff.soloIIText = \markup \remark \medium "clno 2"
+          \setSoloText "clno 1"
+          \setSoloIIText "clno 2"
           \partCombine #'(0 . 10) \B-SXSanctusClarinoIb \B-SXSanctusClarinoIIb
         }
         \new StaffGroup <<
@@ -582,15 +582,15 @@
           >>
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
-            \set Staff.soloIIText = \markup \remark \medium "clno 2"
+            \setSoloText "clno 1"
+            \setSoloIIText "clno 2"
             \partCombine #'(0 . 10) \B-SXSonataSecundaClarinoI \B-SXSonataSecundaClarinoII
           }
         >>
         \new Staff {
           \set Staff.instrumentName = \markup \center-column { "clno*" "1, 2" }
-          \set Staff.soloText = \markup \remark \medium "clno 1"
-          \set Staff.soloIIText = \markup \remark \medium "clno 2"
+          \setSoloText "clno 1"
+          \setSoloIIText "clno 2"
           \partCombine #'(0 . 10) \B-SXSonataSecundaClarinoIb \B-SXSonataSecundaClarinoIIb
         }
         \new StaffGroup <<
@@ -658,15 +658,15 @@
           >>
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "clno 1"
-            \set Staff.soloIIText = \markup \remark \medium "clno 2"
+            \setSoloText "clno 1"
+            \setSoloIIText "clno 2"
             \partCombine #'(0 . 10) \B-SXAgnusClarinoI \B-SXAgnusClarinoII
           }
         >>
         \new Staff \with { \smallStaffDistance } {
           \set Staff.instrumentName = \markup \center-column { "clno*" "1, 2" }
-          \set Staff.soloText = \markup \remark \medium "clno 1"
-          \set Staff.soloIIText = \markup \remark \medium "clno 2"
+          \setSoloText "clno 1"
+          \setSoloIIText "clno 2"
           \partCombine #'(0 . 10) \B-SXAgnusClarinoIb \B-SXAgnusClarinoIIb
         }
         \new StaffGroup <<
