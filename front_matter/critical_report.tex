@@ -29,6 +29,8 @@
   }%
 }{}
 
+\ifthenelse{\isundefined{\MetadataEnlargefirstpage}}{}{\ees@enlargefirstpagetrue}
+
 \ifthenelse{\isundefined{\MetadataToe}}{\ees@toefalse}{}
 
 \ifthenelse{\isundefined{\MetadataAbbrwidth}}{}{\let\ees@abbrwidth\MetadataAbbrwidth}
