@@ -3,6 +3,7 @@ id: WerW E.4
 genre: aria
 festival: Adventus, Dominica I
 scoring: S (solo), 2 vl, vla amabile (solo), b, org
+ark: 68748/e1gjwe4
 license: cc-by-sa-4.0
 sources:
   A1:
@@ -21,7 +22,6 @@ toe: |
 extra_abbreviations:
   vla amabile: Viola amabile
 abbrwidth: 6em
-ark: 68748/e1gjwe4
 parts:
   vla: Viola amabile
   S_solo: Soprano solo
