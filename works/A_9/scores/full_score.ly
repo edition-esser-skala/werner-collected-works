@@ -206,7 +206,7 @@
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \set Staff.instrumentName = \markup \center-column { "[vla]" "bc" }
+            \set Staff.instrumentName = \markup \center-column { "[vla]" "bc" }
             % \transpose c c,
             \A-IXScenaTertiaContinuo
           }
