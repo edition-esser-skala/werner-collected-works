@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026.01.0 – 2026-01-31
+
+### Added
+
+- works: WerW A.9, B.30, and E.8
+- ARKs for all works
+
+### Changed
+
+- updated files to EES Tools v2026.01.0
+
+### Fixed
+
+- WerW I.5.2: identifier
+
+
 ## 2025.12.0 – 2025-12-31
 
 ### Added
