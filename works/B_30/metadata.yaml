@@ -22,3 +22,7 @@ toe: |
   3 & 33  & B    & 11th \sixteenthNote\ in \A1: a16 \\
     & 58  & vl 1 & 5th \eighthNote\ in \A1: g′8 \\
     & 62  & T    & 4th \eighthNote\ in \A1: e′8 \\
+  6 & 1   & S    & tempo indication in \A1: “Andante” \\
+    & 6   & A    & 1st \quarterNote\ in \A1: g′4 \\
+    & 10  & S    & bar in \A1: a′2–\crotchetRest \\
+    & 38  & vl 1 & 1st \quarterNote\ in \A1: d″8–e″16–d″16 \\

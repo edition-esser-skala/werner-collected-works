@@ -424,3 +424,200 @@ B-XXXCredoAltoLyrics = \lyricmode {
   men, a -- men, a -- %110
   men. %111 finis
 }
+
+B-XXXSanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoB-XXXSanctus
+    \mvTr g'4\fE^\tutti g r
+    g g r
+    a4. a8 f4~
+    f8 g f4( e)
+    d r8 f a f %5
+    f d b'4. b8
+    g4 r r8 g(
+    a) f f([ g)] f([ e)]
+    f4 r r
+    R2.*10 %19
+    \tempoB-XXXSanctusB \mvTr f4\fE^\tuttiE c'2~ %20
+    c4 b a~
+    a g f
+    g8([ d)] e4 f
+    g8([ f] g4 f)
+    e8([ d)] e4 f %25
+    g d e
+    f c d
+    e8[ d e f] g4
+    f e d
+    c2 r4\fermata \bar "|." %30 finis
+  }
+}
+
+B-XXXSanctusAltoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus, san --
+  ctus, san --
+  ctus Do -- mi -- nus %5
+  De -- us Sa -- ba --
+  oth, De --
+  us Sa -- ba --
+  oth.
+
+  O -- san -- %20
+  _ na __
+  in ex --
+  cel -- sis, o --
+  san --
+  na in ex -- %25
+  cel -- _ _
+  _ _ _
+  _ _
+  _ _ _
+  sis. %30 finis
+}
+
+B-XXXBenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoB-XXXBenedictus
+    R1*10 \noBreak %10
+    R1\fermata \bar "||"
+    \key c \major \tempoB-XXXOsanna R1*3
+    \mvTr g4\fE^\tuttiE g'2 fis8([ e)] %15
+    d([ e)] fis([ g)] a[ h] c4~
+    c8[ h16 a] h8[ a16 g] a4. h8
+    c c,4 e16([ c)] g'8 g, r4
+    R1*2 %20
+    f4 f'2 e4
+    d8 g, g'2 f4
+    e a d,8([ e f g)]
+    c,([ d)] e d16([ c)] h!4 a8 c
+    h2 a8 a' g!([ f)] %25
+    e g16([ f e8)] d16([ c)] d4 g,
+    R1
+    r2 g4 g'~
+    g8[ fis16 e] \hA fis4 g8 d g4~
+    g f16[ g a8] g4 a8[ g] %30
+    g4. g8 a2
+    g4 r8 g g2~
+    g g4 g8 g
+    f4.( a8) g2
+    r4 a( g) g %35
+    g2 g\fermata \bar "|." %36 finis
+  }
+}
+
+B-XXXBenedictusAltoLyrics = \lyricmode {
+  O -- san -- na %15
+  in ex -- cel -- _
+  _ _ _
+  sis, in ex -- cel -- sis,
+
+  o -- san -- na %21
+  in ex -- cel -- sis,
+  in ex -- cel --
+  sis, in ex -- cel -- sis, ex --
+  cel -- sis, o -- san -- %25
+  na in __ ex -- cel -- sis,
+
+  o -- san --
+  _ na, o -- san --
+  _ _ _ %30
+  na, o -- san --
+  na, o -- san --
+  na in ex --
+  cel -- sis,
+  in __ ex -- %35
+  cel -- sis. %36 finis
+}
+
+B-XXXAgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoB-XXXAgnus
+      \once \override Staff.TimeSignature.style = #'single-digit
+    \mvDl g'4.\fE^\tutti g8 g4
+    g8 r r h h([ a)]
+    gis4 r8 \hA gis a4
+    g f e
+    dis8 e4( \hA dis16[ cis?] \hA dis4) %5
+    e4^\critnote g\p g
+    g( f!) g
+    f8.([ g16] a2)
+    d,4 f4.( e16[ d)]
+    e4 r r %10
+    R2.*4
+    r8 g4^\solo h16([ a)] h8 g %15
+    g([ fis)] fis4 r
+    r8 a4 c16([ h)] c8 a
+    a([ g)] g4 e8 g
+    h g fis2
+    e4 r r %20
+    \mvDl g4.\fE^\tutti g8 e4
+    e r8 g g([ f)]
+    e4 r8 g fis fis
+    g2( fis4) \noBreak
+    g2 r4\fermata \bar "||" %25
+    \time 3/2 \tempoB-XXXDona \newSpacingSection
+      R1.*3
+    c,2 d4 f2 e4
+    f( d) e c8[ d] e[ d e fis] %30
+    g[ d g f] e[ d e c] d[ e f g]
+    a[ g a f] g[ f e g] f[ g a h]
+    c4 c, r2 r
+    g' a4 c2 h4
+    c( a) g2 a8[ g] f4~ %35
+    f e f8([ e f g]) c,4 c(
+    d g) c, f e8[ f g e]
+    a4.\trill g16[ f] e8[ c d e] f[ g a h]
+    c[ g c h] a[ g f g] e[ f] g4~
+    g fis g d( g) c, %40
+    d e f8([ e] f2) e4
+    r g g2 r4 a~
+    a8[ g f a] g2 g
+    g4 e( a g) g2\fermata \bar "|." %44 finis
+  }
+}
+
+B-XXXAgnusAltoLyrics = \lyricmode {
+  A -- gnus De --
+  i, qui tol --
+  lis pec -- ca --
+  ta, pec -- ca --
+  ta mun -- %5
+  di: Mi -- se --
+  re -- re
+  no --
+  bis, no --
+  bis. %10
+
+  Mi -- se -- re -- re %15
+  no -- bis,
+  mi -- se -- re -- re
+  no -- bis, mi -- se --
+  re -- re no --
+  bis. %20
+  A -- gnus De --
+  i, qui tol --
+  lis pec -- ca -- ta
+  mun --
+  di: %25
+
+  Do -- na no -- bis %29
+  pa -- cem, pa -- _ %30
+  _ _ _
+  _ _ _
+  _ cem,
+  do -- na no -- bis
+  pa -- cem, pa -- _ %35
+  cem, pa -- cem, pa --
+  cem, pa -- _
+  _ _ _ _
+  _ _ _ _
+  _ cem, no -- bis, %40
+  no -- bis pa -- cem,
+  pa -- cem, pa --
+  cem, pa --
+  cem, pa -- cem. %44 finis
+}

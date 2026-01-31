@@ -14,6 +14,12 @@ tempoB-XXXCredo = \tempoMarkup "Andante passato"
   tempoB-XXXCrucifixus = \tempoMarkup "Tarde" %40
   tempoB-XXXEtResurrexit = \tempoMarkup "Vivace" %80
   tempoB-XXXEtVitam = \tempoMarkup "Allegro" %90
+tempoB-XXXSanctus = \tempoMarkup "Andante"
+  tempoB-XXXSanctusB = \tempoMarkup "Allegro"
+tempoB-XXXBenedictus = \tempoMarkup "Andante"
+  tempoB-XXXOsanna = \tempoMarkup "Allegro"
+tempoB-XXXAgnus = \tempoMarkup "Andante passato"
+  tempoB-XXXDona = \tempoMarkup "Vivace"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

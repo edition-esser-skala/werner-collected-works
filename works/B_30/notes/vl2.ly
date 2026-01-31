@@ -248,3 +248,122 @@ B-XXXCredoViolinoII = {
     g4 g r2\fermata \bar "|." %111 finis
   }
 }
+
+B-XXXSanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoB-XXXSanctus
+    e4\fE r8 e g c
+    e4 r8 a, cis e
+    f a16 g a8 f16 e f8 d16 cis
+    d8 g f d' a, cis
+    d f,16 e d8 f a d %5
+    r g,16 fis g8 b d g
+    g,4 r8 g16 c e8 g
+    c, f4 g8 f e
+    f16 a32 g f16 e f8 c a f
+    r a16 g a8 f c a %10
+    r c4 f e8
+    f4 r r
+    R2.*7 %19
+    \tempoB-XXXSanctusB f4\fE c'2~ %20
+    c4 b a~
+    a g f
+    g8 d e4 f
+    g8 f g4 f
+    e8 d e4 f %25
+    g d e
+    f c d
+    e8 d e f g4
+    f e d
+    c2 r4\fermata \bar "|." %30 finis
+  }
+}
+
+B-XXXBenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoB-XXXBenedictus
+    r4 a'8\p h c gis a h
+    c a r4 r8 h e4~
+    e16 a, c e f4~ f16 g, h d e f e f
+    \sbOn \tuplet 3/2 8 { g a g } f a \sbOff \appoggiatura e8 d8.\trill c16 c8 g'4 g8
+    g2~\trillE g16 e c8 r4
+    r8 d e4~ e16( c) c( a) r4
+    r8 h e4~ e16 a, c e f4~
+    \sbOn \tuplet 3/2 8 { f16 e d } g f \sbOff e8 c r2
+    r r8 c~\f c16 d32 c h8~
+    h16 c32 h a8~ a16 h32 a gis8 a16 h c d e fis gis \hA fis32 e \noBreak
+    a32( e16.) f32( a,16.) \appoggiatura c8 h8.\trill a16 a4 r\fermata \bar "||"
+    \key c \major \tempoB-XXXOsanna R1*3
+    g,4\fE g'2 fis8 e %15
+    d e fis g a h c4~
+    c8 h16 a h8 a16 g a4. h8
+    c c,4 e16 c g'8 g, r4
+    R1*2 %20
+    r2 c4 c'~
+    c b a d~
+    d c2 b4
+    a r8 a gis4 a~
+    a8 gis16 fis? \hA gis4 a8 a' g f %25
+    e g16 f e8 d16 c d4 g,
+    R1
+    r2 g,4 g'~
+    g8 fis16 e \hA fis4 g8 d g4~
+    g f16 g a8 g4 a8 g %30
+    g4. g8 a2
+    g4 r8 g g2~
+    g g4. g8
+    f4. a8 g2
+    r4 a g g %35
+    g4. g8 g2\fermata \bar "|." %36 finis
+  }
+}
+
+B-XXXAgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoB-XXXAgnus
+      \once \override Staff.TimeSignature.style = #'single-digit
+    c'8.\trill\fE e32 d c8 d4 c8
+    h[ dis] e h4 a8
+    gis4 r8 \hA gis a4
+    g f e
+    dis8 e4 \hA dis16 cis \hA dis4\trill %5
+    e8 g4\p g g8
+    r a4 a8 cis cis
+    r d4 d, d8
+    r d'4 d, d8
+    cis\f e16 a cis a \hA cis e a e \hA cis e %10
+    d a fis a d,4 r
+    g16\p h d h g'8 d h g
+    r16 dis fis \hA dis h'4 r16 fis' dis \hA fis
+    h,8 g r g4 a8
+    d,4 r r %15
+    R2.*4
+    r8 e\fE f16( g) g( a) a( h) h( c) %20
+    c8.\trillE e32 d c8 h a8. a16
+    g4 r8 c a8. a16
+    g4 r8 c16 a fis4
+    g2 fis4 \noBreak
+    g2 r4\fermata \bar "||" %25
+    \time 3/2 \tempoB-XXXDona \newSpacingSection
+      R1.*3
+    c,2 d4 f2 e4
+    f d e c8 d e d e fis %30
+    g d g f e d e c d e f g
+    a g a f g f e g f g a h
+    c4 c, r2 r
+    g' a4 c2 h4
+    c a g2 a8 g f4~ %35
+    f e f8 e f g c,4 c
+    d g c, f e8 f g e
+    a4.\trill g16 f e8 c d e f g a h
+    c g c h a g f g e f g4~
+    g fis g d g c, %40
+    d e f8 e f2 e4
+    r g g2 r4 a~
+    a8 g f a g2 g~
+    g4 e a g g2\fermata \bar "|." %44 finis
+  }
+}
