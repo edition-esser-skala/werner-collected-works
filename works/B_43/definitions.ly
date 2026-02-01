@@ -1,0 +1,17 @@
+\version "2.24.0"
+
+tempoB-XLIIIKyrie = \tempoMarkup "Allegro"
+  tempoB-XLIIIChriste = \tempoMarkup "Andante"
+  tempoB-XLIIIKyrieB = \tempoMarkup "Presto"
+tempoB-XLIIIGloria = \tempoMarkup "Andante"
+  tempoB-XLIIIQuiTollis = \tempoMarkup "Adagio"
+  tempoB-XLIIIQuoniam = \tempoMarkup "Allegro"
+  tempoB-XLIIICumSancto = \tempoMarkup "Presto"
+
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"

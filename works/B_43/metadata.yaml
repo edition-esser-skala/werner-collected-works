@@ -1,0 +1,27 @@
+title: Missa In pace dormiam et requiescam
+id: WerW B.43
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwb43
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: A 63
+    rism: 600037869
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/714.html
+    license: public domain
+    principal: true
+  B2:
+    siglum: A-HE
+    shelfmark: VIII a 6
+    rism: 600090681
+    license: public domain
+tocstyle: default
+toe: |
+  1 & 2  & vl 1 & 13th \sixteenthNote\ in \B1: g′16 \\
+    & 3  & vl 2 & 2nd \eighthNote\ in \B1: g′8 \\
+    & 35 & vl 2 & 4th \eighthNote\ in \B1: e″8 \\
+  2 & 75 & B    & 4th \sixteenthNote\ in \B1 and \B2: g16 \\
+    & 69 & vl 2 & last \eighthNote\ in \B1: g′8 \\
+    & 97 & T    & 3rd \quarterNote\ in \B1: e′4 \\
