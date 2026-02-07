@@ -1,0 +1,22 @@
+title: Missa quadragesima
+id: WerW B.57
+genre: mass
+scoring: S, A, T, B (coro), b, org
+ark: 68748/e1gjwb57
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-HE
+    shelfmark: VIII a 6
+    rism: 600090684
+    license: public domain
+    principal: true
+  B2:
+    siglum: SK-BRm
+    shelfmark: box 100, no. 119, inv.no. 206
+    license: public domain
+tocstyle: default
+toe: |
+  3 & 162 & T & 4th \halfNote\ in \B1: c′2 \\
+    & 162 & B & 2nd \halfNote\ in \B1: d2 \\
+    & 164 & A & 1st \halfNote\ in \B1 and \B2: d′2 \\
