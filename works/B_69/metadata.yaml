@@ -1,0 +1,28 @@
+title: Missa Pacem deposcimus omnes
+id: WerW B.69
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwb69
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.39/3
+    rism: 530003973
+    url: https://copia.oszk.hu/kotta/7-orgelstimmen-zu-werners-messen/
+    license: public domain
+    notes: only org part extant
+  B1:
+    siglum: H-Gk
+    shelfmark: AMC, W. 83.
+    rism: 530012382
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  – & –   & –    & \B1 is the only known complete copy of this work and thus used as principal source. However, comparison to the org part of \A1 shows that several sections of the work have been revised in \B1, most likely by Benedek Istvánffy. Thus, the org part of \A1 is reproduced in this edition as appendix to each movement. Major differences are evident in the following bars: (1) \textit{Kyrie}: Bars 23–27 of \A1 have been replaced with 11 novel bars in \B1 (i.e., bars 22–31). (2) \textit{Gloria}: (a) Bars 26–56 of \A1 (\textit{Gratias} and \textit{Domine}) have been replaced with 10 novel bars in \B1 (i.e., bars 26–35). (b) The \textit{Qui tollis} (bars 57–62 in \A1) has been revised in \B1 (bars 36–41) without changing its extent (6 bars). (c) The \textit{Quoniam} (bars 100–112 in \A1) has been extended to 23 bars in \B1 (i.e., bars 79–101).
+  1 & 5   & A    & 5th \quarterNote\ in \B1: f′4 \\
+  2 & 17  & vl 1 & last \quarterNote\ in \B1: a′4 \\
+    & 17  & vl 2 & 3rd \halfNote\ in \B1: f″2 \\
+    & 71  & vl 1 & last \eighthNote\ in \B1: d″8 \\
+    & 109 & S    & 4th \eighthNote\ in \B1: c″8 \\
