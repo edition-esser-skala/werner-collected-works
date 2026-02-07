@@ -25,3 +25,10 @@ toe: |
   2 & 75 & B    & 4th \sixteenthNote\ in \B1 and \B2: g16 \\
     & 69 & vl 2 & last \eighthNote\ in \B1: g′8 \\
     & 97 & T    & 3rd \quarterNote\ in \B1: e′4 \\
+  3 & 5  & org  & last \eighthNote\ in \B1 and \B2: c8 \\
+    & 11 & org  & 6th \eighthNote\ in \B1 and \B2: \flat b8 \\
+    & 14 & T    & 3rd \quarterNote\ in \B1 and \B2: \flat b4 \\
+    & 42 & A    & 2nd \halfNote\ in \B1 and \B2: a′2 \\
+    & 58 & A    & last \quarterNote\ in \B1 and \B2: g′4 \\
+    & 66 & S    & 7th \eighthNote\ in \B1 and \B2: e″8 \\
+  5 & 28 & org  & 4th \eighthNote\ in \B1 and \B2: f8 \\

@@ -177,3 +177,189 @@ B-XLIIIGloriaViolinoII = {
     d4 r r2\fermata \bar "|." %109 finis
   }
 }
+
+B-XLIIICredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoB-XLIIICredo
+    a'4\pE f8 d4 e a8
+    f r r4 r2
+    r4 r8 f4 d8 g16 f g8~
+    g e4 a b8 a8. a16
+    g4 r r2 %5
+    r d'8. d16 e!8 f
+    g4. f8 e f4 e8
+    f4 r r2
+    R1*5 %13
+    r2 r16 a\fE f d c! e g b
+    a f g e f c a f' e c8 e16 a fis d g~ %15
+    g g,8 es'16 a, g' d, fis' g b g b e, g c, e
+    a, a' f a d, f b, d g, g' e g cis, e a, \hA cis
+    f, f' d f h, d gis, \hA h e, a f d a8 cis' \noBreak
+    d2 r\fermata \bar "||"
+    \tempoB-XLIIIEtIncarnatus
+      r2 r16 h\pE h( d) d( f) f( es) \noBreak %20
+    c4 r r16 cis cis( e) e( g) g( f)
+    d4 r8 b! \sbOn d16. h32 \tuplet 3/2 8 { h16\trill a \hA h } d16. \hA h32 \tuplet 3/2 8 { h16\trill a \hA h } \sbOff
+    a4 r r16 c \tuplet 3/2 8 { a\trill g a } r c \tuplet 3/2 8 { a\trill g a }
+    r b! \tuplet 3/2 8 { g\trill f g } r b \tuplet 3/2 8 { g\trill f g } r2
+    fis32( a16.) a32( c16.) c32( fis16.) fis32( a16.) d,4 r %25
+    gis,32( h16.) h32( d16.) d32( gis16.) gis32( h16.) a4 r
+    \sbOn fis16. a,32 \tuplet 3/2 8 { a16\trill gis a } \hA fis'16. a,32 \tuplet 3/2 8 { a16\trill \hA gis a } \sbOff \hA gis4 r8 a~
+    a a gis gis a4 r
+    R1*7 \noBreak %35
+    R1\fermata \bar "||"
+    \time 3/2 \tempoB-XLIIIEtResurrexit \newSpacingSection
+      c,8\fE f a f c f a c f, b d b \noBreak
+    a4 f r2 r
+    r r8 d f a d4 h
+    c c2 h8 a \hA h2\trill %40
+    c r r
+    r4 a8 g a4 c8 b! c4 e
+    f8 c g' c, a' c, g' c, f c a' c,
+    e4 c r c b a
+    b g r b a g %45
+    a c h a gis8 a \hA h4
+    c e a, f'! e, gis'
+    a8 a,\p c e a e c' a h gis e d
+    c e16 d c8 h a4 r r2
+    r8 g'!\f e c e c g c e c g e %50
+    r4 a a a a a
+    b b b b b b
+    a a a a a a
+    g g g g g g
+    fis8 d \hA fis a d \hA fis, a d fis a d, \hA fis %55
+    g d b d g,4 d' f8 c a c
+    f,4 d r g' r b,
+    r8 g' es g \hA es4 f \hA es d \noBreak
+    c8 f a, c f,4 r r2
+    \time 4/4 \tempoB-XLIIIEtInSpiritum \newSpacingSection
+      r2 d'16(\pE\trillE c) d8 e16( fis) fis( g) \noBreak %60
+    g4 r b,8. b16 cis( d) d( e)
+    e4 r r2
+    R1
+    r2 r16 d,\fE f d b' f d' b
+    r d, g d h' g d' \hA h r es, g \hA es c' g es' c %65
+    r e, a e cis' a e' \hA cis a f a d f8 e
+    d c b16 a b8 e, cis' d4~
+    d8 cis16 h? \hA cis4\trill d r
+    R1*6 \noBreak %75
+    R1\fermata \bar "||"
+    \tempoB-XLIIIEtVitam R1*3
+    d,4.\fE e8 f g16 f e8 d
+    e4. fis8 g a16 g f8 e %80
+    f d16 e f8 e d4 c~
+    c r d4. e8
+    f g16 f e8 d e4. fis8
+    g a16 g f8 e f4 f8 g
+    a b16 a g8 fis g b16 a g8 fis %85
+    g4 r r2
+    d4. e8 f!16 g f8 e d
+    e16 f e8 d c d e16 d c8 h
+    c a a' g f16 g a g f g e f
+    d4 r8 f e16 d e8 a,4 %90
+    r2 r8 a' g f
+    g f16 g e8 d16 e f4. e16 d
+    e2\trill fis8 d16 e \hA fis8 g
+    a4 d, d4. cis8
+    d2 r\fermata \bar "|." %95 finis
+  }
+}
+
+B-XLIIISanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoB-XLIIISanctus
+    r2 r8 a'\fE b c
+    d d, b'16 a g8 e a4 g8
+    f g a4. c8 h a
+    gis16 fis? \hA gis8 a h e,4 r
+    r8 a d c b a g a16 b %5
+    c2 c4.\trill c8
+    c16. a32 a8\trill c16. f32 f8\trill a16. a,32 a8\trill c16. f32 f8\trill
+    a16 f c a c a g e \sbOn \tuplet 3/2 8 { f\trill e f a\trill g a c\trill b c } f8 \sbOff
+    r d\p d d r c c c
+    r c h h c4 r %10
+    r2 r4 r8 e~
+    e f16 e d8 cis d16 \hA cis d8 r4
+    r8 d\fE d b c16 b c8 r c
+    c a f f d' d r b
+    b b g g a4. b8 %15
+    a4. a8 a2\fermata \bar "|." %16 finis
+  }
+}
+
+B-XLIIIBenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoB-XLIIIBenedictus
+    f'8.\f\trill e32 d c32( a16.) b32( g16.) a8 f r4
+    g8.\trill\p a32 b c4 f,8.\trill g32 a b4
+    e,8.\trill f32 g a4 r2
+    R1
+    c8.\trill\f h32 a \hA h32( e,16.) gis32( \hA h16.) \tuplet 3/2 8 { e,16 d c } c8 r4 %5
+    R1*2
+    r2 f'8.\f\trill e32 d c32( a16.) b32( g16.)
+    a32( f16.) d'32( b16.) c32( a16.) b32( g16.) \sbOn a c32 c16.\trill b64( c) d16. e32 e16.\trill d64( e) \noBreak
+    f16. a,32 a16.\trill g64( a) d,16. e32 e16.\trill d64( e) f4 r\fermata \bar "||"
+    \tempoB-XLIIIOsanna R1*2
+    d2\fE b'4 cis,
+    d8 f4 e f16 e d8 c
+    h16 a \hA h8 e cis a f'4 e16 d %15
+    e8 a, a'4. f8 e4
+    e r r2
+    r4 d b' cis,
+    d8 e16 d c8 h a r r4
+    R1 %20
+    r4 c a' h,
+    c8 d e f d e f g
+    e f g a f a16 g f8 e
+    d16 e f8 e16 d e8 a,4 r
+    R1 %25
+    r4 d b' cis,
+    d8 f e4. cis8 d f
+    e4 f8 g e2\trill
+    d r\fermata \bar "|." %29 finis
+  }
+}
+
+B-XLIIIAgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoB-XLIIIAgnus
+    f8\pE f fis fis g g~ g16 f g8
+    f4 a c8 g~ g16 f g8
+    c,4 r r2
+    R1
+    e4. gis8 a4 r %5
+    fis8 a4 \hA fis8 g d4 d8
+    h h h h cis4 r
+    R1*2
+    r8 f4\fE f8 d'2 %10
+    h4 h r8 g4 g8
+    e!4. f16 g a8 f a g
+    f d f e d f e d \noBreak
+    e2 r\fermata \bar "||"
+    \tempoB-XLIIIDona R1*2 %16
+    r2 d4.\fE f8
+    f e e g~ g f16 e f g a8~
+    a gis16 fis \hA gis a h8 e, e a4~
+    a8 g16 f g8 f e a, a' g~ %20
+    g f16 e f8 d~ d cis16 h? \hA cis d e8~
+    e d4 c8 b16 c d4 g8~
+    g fis16 e \hA fis g a4 g16 fis g a b8~
+    b a16 b a8 g~ g fis16 e \hA fis4
+    r8 d g4 es16 d \hA es4 c8 %25
+    r c f4 d16 c d4 b8
+    r cis a'4 f8 g e4\trill
+    d r8 f g16 f g8 r g
+    a g f16 g a8 g4 r
+    R1 %30
+    r2 r4 r8 e
+    f16 e f8 r e f16 e f8 r e
+    f16 g a4 b8 e, a g f
+    e f e d e4 f
+    f8 r f r e f e4\trill %35
+    d r r2\fermata \bar "|." %36 finis
+  }
+}
