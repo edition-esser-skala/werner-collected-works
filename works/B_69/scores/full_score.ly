@@ -17,84 +17,84 @@
 }
 
 \book {
-  % \bookpart {
-  %   \section "1a" "Kyrie (H-Gk version)"
-  %   \addTocEntry
-  %   \paper {
-  %     indent = 3\cm
-  %     system-count = #9
-  %   }
-  %   \score { %\articulate
-  %     <<
-  %       \new StaffGroup <<
-  %         \new GrandStaff <<
-  %           \set GrandStaff.instrumentName = "Violino"
-  %           \new Staff {
-  %             \set Staff.instrumentName = "I"
-  %             \B-LXIXKyrieViolinoI
-  %           }
-  %           \new Staff {
-  %             \set Staff.instrumentName = "II"
-  %             \B-LXIXKyrieViolinoII
-  %           }
-  %         >>
-  %       >>
-  %       \new ChoirStaff <<
-  %         \new Staff {
-  %           \incipitSoprano
-  %           \new Voice = "Soprano" { \dynamicUp \B-LXIXKyrieSoprano }
-  %         }
-  %         \new Lyrics \lyricsto Soprano \B-LXIXKyrieSopranoLyrics
+  \bookpart {
+    \section "1a" "Kyrie (H-Gk version)"
+    \addTocEntry
+    \paper {
+      indent = 3\cm
+      system-count = #9
+    }
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "Violino"
+            \new Staff {
+              \set Staff.instrumentName = "I"
+              \B-LXIXKyrieViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "II"
+              \B-LXIXKyrieViolinoII
+            }
+          >>
+        >>
+        \new ChoirStaff <<
+          \new Staff {
+            \incipitSoprano
+            \new Voice = "Soprano" { \dynamicUp \B-LXIXKyrieSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \B-LXIXKyrieSopranoLyrics
 
-  %         \new Staff {
-  %           \incipitAlto
-  %           \new Voice = "Alto" { \dynamicUp \B-LXIXKyrieAlto }
-  %         }
-  %         \new Lyrics \lyricsto Alto \B-LXIXKyrieAltoLyrics
+          \new Staff {
+            \incipitAlto
+            \new Voice = "Alto" { \dynamicUp \B-LXIXKyrieAlto }
+          }
+          \new Lyrics \lyricsto Alto \B-LXIXKyrieAltoLyrics
 
-  %         \new Staff {
-  %           \incipitTenore
-  %           \new Voice = "Tenore" { \dynamicUp \B-LXIXKyrieTenore }
-  %         }
-  %         \new Lyrics \lyricsto Tenore \B-LXIXKyrieTenoreLyrics
+          \new Staff {
+            \incipitTenore
+            \new Voice = "Tenore" { \dynamicUp \B-LXIXKyrieTenore }
+          }
+          \new Lyrics \lyricsto Tenore \B-LXIXKyrieTenoreLyrics
 
-  %         \new Staff {
-  %           \set Staff.instrumentName = "Basso"
-  %           \new Voice = "Basso" { \dynamicUp \B-LXIXKyrieBasso }
-  %         }
-  %         \new Lyrics \lyricsto Basso \B-LXIXKyrieBassoLyrics
-  %       >>
-  %       \new StaffGroup <<
-  %         \new Staff {
-  %           \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
-  %           % \transpose c c,
-  %           \B-LXIXKyrieOrgano
-  %         }
-  %       >>
-  %       \new FiguredBass { \B-LXIXKyrieBassFigures }
-  %     >>
-  %     \layout { }
-  %     \midi { \tempo 4 = 170 } % 55
-  %   }
-  % }
-  % \bookpart {
-  %   \section "1b" "Kyrie (H-Bn version)"
-  %   \addTocEntry
-  %   \paper {
-  %     system-separator-markup = ##f
-  %     systems-per-page = #7
-  %   }
-  %   \score { %\articulate
-  %     <<
-  %       \new Staff {
-  %         \set Staff.instrumentName = "org"
-  %         \B-LXIXbKyrieOrgano
-  %       }
-  %       \new FiguredBass { \B-LXIXbKyrieBassFigures }
-  %     >>
-  %     \layout { }
-  %   }
-  % }
+          \new Staff {
+            \set Staff.instrumentName = "Basso"
+            \new Voice = "Basso" { \dynamicUp \B-LXIXKyrieBasso }
+          }
+          \new Lyrics \lyricsto Basso \B-LXIXKyrieBassoLyrics
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
+            % \transpose c c,
+            \B-LXIXKyrieOrgano
+          }
+        >>
+        \new FiguredBass { \B-LXIXKyrieBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 170 } % 55
+    }
+  }
+  \bookpart {
+    \section "1b" "Kyrie (H-Bn version)"
+    \addTocEntry
+    \paper {
+      system-separator-markup = ##f
+      systems-per-page = #7
+    }
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = "org"
+          \B-LXIXbKyrieOrgano
+        }
+        \new FiguredBass { \B-LXIXbKyrieBassFigures }
+      >>
+      \layout { }
+    }
+  }
   \bookpart {
     \section "2a" "Gloria (H-Gk version)"
     \addTocEntry
@@ -151,22 +151,244 @@
       \midi { \tempo 4 = 160 } % 60 – 200 – 110
     }
   }
-  % \bookpart {
-  %   \section "2b" "Gloria (H-Bn version)"
-  %   \addTocEntry
-  %   \paper {
-  %     system-separator-markup = ##f
-  %     systems-per-page = #9
-  %   }
-  %   \score { %\articulate
-  %     <<
-  %       \new Staff {
-  %         \set Staff.instrumentName = "org"
-  %         \B-LXIXbGloriaOrgano
-  %       }
-  %       \new FiguredBass { \B-LXIXbGloriaBassFigures }
-  %     >>
-  %     \layout { }
-  %   }
-  % }
+  \bookpart {
+    \section "2b" "Gloria (H-Bn version)"
+    \addTocEntry
+    \paper {
+      system-separator-markup = ##f
+      systems-per-page = #9
+    }
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = "org"
+          \B-LXIXbGloriaOrgano
+        }
+        \new FiguredBass { \B-LXIXbGloriaBassFigures }
+      >>
+      \layout { }
+    }
+  }
+  \bookpart {
+    \section "3a" "Credo (H-Gk version)"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \B-LXIXCredoViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \B-LXIXCredoViolinoII
+            }
+          >>
+        >>
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \B-LXIXCredoSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \B-LXIXCredoSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \B-LXIXCredoAlto }
+          }
+          \new Lyrics \lyricsto Alto \B-LXIXCredoAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \B-LXIXCredoTenore }
+          }
+          \new Lyrics \lyricsto Tenore \B-LXIXCredoTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \B-LXIXCredoBasso }
+          }
+          \new Lyrics \lyricsto Basso \B-LXIXCredoBassoLyrics
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
+            % \transpose c c,
+            \B-LXIXCredoOrgano
+          }
+        >>
+        \new FiguredBass { \B-LXIXCredoBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 80 } % 50 – 50 – 120 – 100
+    }
+  }
+  \bookpart {
+    \section "3b" "Credo (H-Bn version)"
+    \addTocEntry
+    \paper {
+      system-separator-markup = ##f
+      systems-per-page = #9
+    }
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = "org"
+          \B-LXIXbCredoOrgano
+        }
+        \new FiguredBass { \B-LXIXbCredoBassFigures }
+      >>
+      \layout { }
+    }
+  }
+  \bookpart {
+    \section "4a" "Sanctus · Benedictus (H-Gk version)"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \B-LXIXSanctusViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \B-LXIXSanctusViolinoII
+            }
+          >>
+        >>
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \B-LXIXSanctusSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \B-LXIXSanctusSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \B-LXIXSanctusAlto }
+          }
+          \new Lyrics \lyricsto Alto \B-LXIXSanctusAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \B-LXIXSanctusTenore }
+          }
+          \new Lyrics \lyricsto Tenore \B-LXIXSanctusTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \B-LXIXSanctusBasso }
+          }
+          \new Lyrics \lyricsto Basso \B-LXIXSanctusBassoLyrics
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
+            % \transpose c c,
+            \B-LXIXSanctusOrgano
+          }
+        >>
+        \new FiguredBass { \B-LXIXSanctusBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 60 } %80 – 60 – 110
+    }
+  }
+  \bookpart {
+    \section "4b" "Sanctus · Benedictus (H-Bn version)"
+    \addTocEntry
+    \paper {
+      system-separator-markup = ##f
+      systems-per-page = #9
+    }
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = "org"
+          \B-LXIXbSanctusOrgano
+        }
+        \new FiguredBass { \B-LXIXbSanctusBassFigures }
+      >>
+      \layout { }
+    }
+  }
+  \bookpart {
+    \section "5a" "Agnus Dei (H-Gk version)"
+    \addTocEntry
+    \score { %\articulate
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \B-LXIXAgnusViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \B-LXIXAgnusViolinoII
+            }
+          >>
+        >>
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \B-LXIXAgnusSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \B-LXIXAgnusSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \B-LXIXAgnusAlto }
+          }
+          \new Lyrics \lyricsto Alto \B-LXIXAgnusAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \B-LXIXAgnusTenore }
+          }
+          \new Lyrics \lyricsto Tenore \B-LXIXAgnusTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \B-LXIXAgnusBasso }
+          }
+          \new Lyrics \lyricsto Basso \B-LXIXAgnusBassoLyrics
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
+            % \transpose c c,
+            \B-LXIXAgnusOrgano
+          }
+        >>
+        \new FiguredBass { \B-LXIXAgnusBassFigures }
+      >>
+      \layout { }
+      \midi { \tempo 4 = 60 } %90
+    }
+  }
+  \bookpart {
+    \section "5b" "Agnus Dei (H-Bn version)"
+    \addTocEntry
+    \paper {
+      system-separator-markup = ##f
+      systems-per-page = #9
+    }
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = "org"
+          \B-LXIXbAgnusOrgano
+        }
+        \new FiguredBass { \B-LXIXbAgnusBassFigures }
+      >>
+      \layout { }
+    }
+  }
 }

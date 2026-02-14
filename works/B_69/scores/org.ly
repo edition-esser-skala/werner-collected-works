@@ -7,12 +7,52 @@
 
 \book {
   \bookpart {
-    \section "B-LXIXKyrie" ""
+    \section "1" "Kyrie"
     \addTocEntry
     \score {
       <<
         \new Staff { \B-LXIXKyrieOrgano }
         \new FiguredBass { \B-LXIXKyrieBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Gloria"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-LXIXGloriaOrgano }
+        \new FiguredBass { \B-LXIXGloriaBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Credo"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-LXIXCredoOrgano }
+        \new FiguredBass { \B-LXIXCredoBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Sanctus · Benedictus"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-LXIXSanctusOrgano }
+        \new FiguredBass { \B-LXIXSanctusBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Agnus Dei"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-LXIXAgnusOrgano }
+        \new FiguredBass { \B-LXIXAgnusBassFigures }
       >>
     }
   }

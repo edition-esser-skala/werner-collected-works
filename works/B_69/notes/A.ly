@@ -298,3 +298,356 @@ B-LXIXGloriaAltoLyrics = \lyricmode {
   men, a --
   men. %140 finis
 }
+
+B-LXIXCredoAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoB-LXIXCredo
+    \mvDl g'4.\fE^\tutti g8 g4 g8 g
+    g g g4 g r
+    R1*5 %7
+    r8 \mvTr d([\fE^\tutti e)] f g4. f8
+    e4 r r8 e([ f)] g
+    a4. g8 f([ g)] a4 %10
+    g8 g4 f8 e4 a
+    d, g2 fis4
+    g8 \mvTr g4\pE^\solo g8 fis([ g)] a4
+    h4. h8 a4 r
+    r e2 dis4 %15
+    e2 fis4 fis~
+    fis8 g e4.( fis8) d!4~
+    d8[ e] c4 h8([ fis')] h([ a)]
+    g([ fis] e2) dis4
+    e r r2 %20
+    R1*4
+    g4. fis8 g e d4 %25
+    c8 c h4 a8 c'4 h8~
+    h a4 g8 g f4 e8
+    d d g r r a h g~
+    g g a f4 e16 e d8. d16
+    e8 \mvTr e\fE^\tutti f a g e f a %30
+    g g a a f g16 g e4
+    d r8 g4 e8 c f \noBreak
+    d([ e] d4) e8 e a([ g)] \bar "||"
+    \tempoB-LXIXEtIncarnatus g \key c \dorian r r4 r2 \noBreak
+    R1*7 \noBreak %41
+    R1\fermata \bar "||"
+    \tempoB-LXIXCrucifixus R1 \noBreak
+    r2 \mvTr d4\fE^\tutti b'
+    cis, d d cis %45
+    d r8 a' g([ a16 g)] f8([ e)]
+    d8.([ e16)] fis8([ g)] \hA e4 r8 a
+    d,([ b')] a([ g)] f4( g)
+    f b8 g f4. f8
+    d8 d g([ f16 es] as4) g8.([ f16)] %50
+    e8 e a([ g16 f] \once \stemUp b4) a
+    a r r8 a g f
+    e a, a' g fis4 g~
+    g8[ fis16 e?] \hA fis4 g r
+    d~ d16[ es] f8 g([ as16 g)] f8([ es)] %55
+    f([ g16 f)] es8([ d)] es([ f)] g4
+    f4. es16[ d] es4. d16[ c]
+    d8 d4 a'8 g([ fis)] g4 \noBreak
+    fis r r2 \bar "||"
+    \key c \major \time 3/4 \tempoB-LXIXEtResurrexit \newSpacingSection
+      \mvTr h,!4\pE^\solo \tuplet 3/2 4 { h8([ c d)] c([ h a)] } \noBreak %60
+    h4 h r
+    d \tuplet 3/2 4 { g8([ a h)] a([ g fis)] }
+    g4 d r
+    \mvTr d\fE^\tutti d g
+    g g2 %65
+    fis4 r r
+    R2.
+    fis2 fis4
+    g a a
+    g( h) h %70
+    c( d) d
+    c d g,8([ a)]
+    h4 a g
+    fis fis e
+    d e e %75
+    e2( dis4)
+    e h' gis
+    e f! g
+    f a f
+    d8 d e4 f %80
+    e g e
+    f f f
+    f a( f)
+    g g g
+    g h g %85
+    a g g
+    a g g
+    g g e \noBreak
+    a g2 \bar "||"
+    \time 4/4 \tempoB-LXIXEtVitam \newSpacingSection
+      g4 r r2 \noBreak %90
+    R1*3
+    r8 c,4 e d f8~
+    f e4 a8 g f16 e f8[ d] %95
+    e16[ fis g8]~ g[ \hA fis] g d( e16[ fis g8)]
+    d fis8.([ g16 a8] e16[ \hA fis g \hA fis] e[ d c8)]
+    h g'([ e fis] g16[ f g e] f[ e f d)]
+    e8 e g4 f a
+    g e8([ a)] g16[ f g e] f[ e f d] %100
+    e[ d e c] d[ f] e([ d)] c4 r8 c
+    d16[ e f8] r h, c16[ d e8]~ e16[ f g8]
+    c, f8.([ g16 a8)] d,4 r8 d
+    e16[ f g8] r d e16[ f g8] e[ c]~
+    c[ f8. e16 d8]~ d[ g8. f16 e8]~ %105
+    e f d4 e r8 c~\p
+    c[ f8. e16 \once \tieDashed d8]~ d[ g8. f16 e8]~
+    e f d4\trill e r\fermata \bar "|." %108 finis
+  }
+}
+
+B-LXIXCredoAltoLyrics = \lyricmode {
+  Cre -- do, cre -- do in
+  u -- num De -- um,
+
+  vi -- si -- bi -- li -- %8
+  um et __ in --
+  vi -- si -- bi -- li -- %10
+  um, vi -- si -- bi -- li --
+  um o -- mi --
+  um. Et in u -- num
+  Do -- mi -- num
+  Je -- sum %15
+  Chri -- stum, Fi --
+  li -- um __ De --
+  i u -- ni --
+  ge -- ni --
+  tum. %20
+
+  Ge -- ni -- tum non fa -- %25
+  ctum, non fa -- ctum, con -- sub --
+  stan -- ti -- a -- lem Pa --
+  tri, per quem, per quem o --
+  mni -- a, o -- mni -- a fa -- cta
+  sunt. Qui pro -- pter nos, nos ho -- mi -- %30
+  nes et pro -- pter no -- stram sa -- lu --
+  tem de -- scen -- dit de
+  coe -- lis, de coe --
+  lis.
+
+  Cru -- ci -- %44
+  fi -- xus e -- ti -- %45
+  am, Pi -- la -- to
+  pas -- sus et se --
+  pul -- tus, pas --
+  sus et se -- pul -- tus
+  est, se -- pul -- tus %50
+  est, se -- pul -- tus
+  est, sub Pon -- ti --
+  o Pi -- la -- to pas -- _
+  _ sus
+  et __ se -- pul -- tus, %55
+  pas -- sus, pas -- sus,
+  pas -- _ _ _
+  sus et se -- pul -- tus
+  est.
+  Et re -- sur -- %60
+  re -- xit
+  ter -- ti -- a __
+  di -- e
+  se -- cun -- dum
+  Scri -- ptu -- %65
+  ras,
+
+  et in
+  Spi -- ri -- tum
+  San -- ctum, %70
+  Do -- mi --
+  num, qui lo --
+  cu -- tus est,
+  lo -- cu -- tus
+  est per Pro -- %75
+  phe --
+  tas, et u --
+  nam san -- ctam
+  ca -- tho -- li --
+  cam et a -- po -- %80
+  sto -- li -- cam
+  Ec -- cle -- si --
+  am, con --
+  fi -- te -- or
+  u -- num ba -- %85
+  ptis -- ma in
+  re -- mis -- si --
+  o -- nem pec --
+  ca -- to --
+  rum, %90
+
+  et vi -- tam ven -- %94
+  tu -- ri sae -- cu -- li, a -- %95
+  _ men, a --
+  men, a --
+  men, a --
+  men, et vi -- tam ven --
+  tu -- ri sae -- _ %100
+  _ _ cu -- li, a --
+  _ _ _
+  men, a -- men, a --
+  _ _ _ _
+  %105
+  men, a -- men, a --
+
+  men, a -- men. %108 finis
+}
+
+B-LXIXSanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoB-LXIXSanctus
+    r2 \mvTr g'~\fE^\tutti
+    g4 f e r
+    f e2 d4~
+    d c h2
+    a4 a'4.( g8) d([ e)] %5
+    f2 r4 g~
+    g8[ f] d e f4. e16([ d)] \noBreak
+    e4. e8 d2\fermata \bar "||"
+    \time 3/4 \tempoB-LXIXPleni \newSpacingSection
+      R2.*16 \noBreak %24
+    R2.\fermata \bar "||" %25
+    \time 4/4 \tempoB-LXIXBenedictus \newSpacingSection
+      R1 \noBreak
+    r4 \mvTr a'2\pE^\solo^\aDueE g4
+    f2 e8 f g([ f16 e)]
+    d4 r r f~
+    f e d2 %30
+    c8 g'16([ f)] e([ f g e)] c8 a'16([ g)] fis([ g a \hA fis)]
+    d8 d g4~ g8[ a16 h] c8[( h)]
+    a4 g2 fis4 \noBreak
+    g r r2
+    \tempoB-LXIXOsanna r2 r4 \mvTr c~\fE^\tutti %35
+    c h a2
+    g8 e f g a8.([ g16)] f4
+    g4. f16[ e] f4. e16[ d]
+    e4 r r g~
+    g fis g g, %40
+    R1
+    r8 f a h c8.([ d16)] e8([ g)]
+    d g, r4 d'8.([ e16)] f8([ a)]
+    e a, r4 r8 h'([ a)] f
+    e2 e8 e16([ f] g8) a %45
+    d,4.( e8 f4) c
+    r g'4. g8 f4
+    e r r8 c e fis
+    g([ h,)] c([ d)] e8.([ d16] c8[ e]
+    g4) g, r8 a'4 g16([ f)] %50
+    g4.( f16[ e] d8[ g,)] g'4
+    g e a( g)
+    g r r2\fermata \bar "|." %53 finis
+  }
+}
+
+B-LXIXSanctusAltoLyrics = \lyricmode {
+  San --
+  _ ctus,
+  san -- _ _
+  ctus, san --
+  ctus Do -- mi -- %5
+  nus, Do --
+  mi --  nus De -- us
+  Sa -- ba -- oth.
+
+  Be -- ne -- %27
+  di -- ctus, qui ve --
+  nit, be --
+  ne -- di -- %30
+  ctus, qui ve -- nit, qui ve --
+  nit in no -- mi --
+  ne Do -- mi --
+  ni.
+  Be -- %35
+  ne -- di --
+  ctus, o -- san -- na in __ ex --
+  cel -- _ _ _
+  sis, be --
+  ne -- di -- ctus, %40
+
+  o -- san -- na in __ ex --
+  cel -- sis, in __ ex --
+  cel -- sis, in __ ex --
+  cel -- sis, in __ ex -- %45
+  cel -- sis,
+  be -- ne -- di --
+  ctus, o -- san -- na
+  in __ ex -- cel --
+  sis, in ex -- %50
+  cel -- sis,
+  in ex -- cel --
+  sis. %53 finis
+}
+
+B-LXIXAgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoB-LXIXAgnus
+    R1*4
+    \mvTr h'8\pE^\solo h h, a' gis16([ fis?)] \hA gis8 r4 %5
+    r2 r4 a~
+    a8 g g f! e8.([ fis32 g)] a8([ g)]
+    fis fis g2( \hA fis4)
+    g r \mvTr gis\fE^\tutti a~
+    a g2 f!8 f %10
+    f4( e) d r8 g
+    a4.( f8) d([ g)] g4~
+    g8 f4 e8 d d4 e8
+    f16([ e)] f8 r4 e8 e a4
+    f8 f4 f8 e4 e %15
+    e2^\critnote e4 r
+    R1*6 \noBreak %22
+    R1\fermata \bar "||"
+    \tempoB-LXIXDona R1 \noBreak
+    \mvTr a4.\fE^\tutti g8 a4 e8 c16[( d] %25
+    e[ fis g8] a16[ g a8]) d, g4( f8)
+    e g4 g16([ f)] e8([ c16 d] e[ f g8)]
+    a g4 fis8 g4. fis8
+    g4 d r8 e4 gis8
+    e4 e e8.[\trill f32 g] a16[ g f e] %30
+    d8.[\trill e32 f] g16[ f e d] c8[ f16 e] d8[ g16 f]
+    e8[ a8. g16 f8] e4 e
+    e r a4. g8
+    a4 g8 c,16[( d] e[ f] g4 e8)
+    d4 r r8 e16([ f] g[ a h8)] %35
+    c g16[ f] e[ d c8] r a'16[ g] f[ e d8]
+    r h'16[ a] g[ f e8]~ e a g4
+    g8 g16[\p f] e[ d c8] r a'16[ g] f[ e d8]
+    r h'16[ a] g[ f e8]~ e a g4
+    g r r2\fermata \bar "|." %40 finis
+  }
+}
+
+B-LXIXAgnusAltoLyrics = \lyricmode {
+  Mi -- se -- re -- re no -- bis, %5
+  mi --
+  se -- re -- re no -- bis,
+  mi -- se -- re --
+  re. A -- gnus __
+  De -- i, qui %10
+  tol -- lis pec --
+  ca -- ta mun --
+  _ _ di: Mi -- se --
+  re -- re, mi -- se -- re --
+  re, mi -- se -- re -- re %15
+  no -- bis.
+
+  Do -- na no -- bis pa -- %25
+  cem, pa --
+  cem, no -- bis pa --
+  cem, pa -- cem, do -- na
+  no -- bis, no -- bis
+  pa -- cem, pa -- _ %30
+  _ _ _ _
+  _ cem, pa --
+  cem, do -- na
+  no -- bis pa --
+  cem, pa -- %35
+  cem, pa -- _ _ _
+  _ _ cem, pa --
+  cem, pa -- _ _ _
+  _ _ cem, pa --
+  cem. %40 finis
+}

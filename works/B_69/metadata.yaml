@@ -20,9 +20,15 @@ sources:
     principal: true
 tocstyle: default
 toe: |
-  – & –   & –    & \B1 is the only known complete copy of this work and thus used as principal source. However, comparison to the org part of \A1 shows that several sections of the work have been revised in \B1, most likely by Benedek Istvánffy. Thus, the org part of \A1 is reproduced in this edition as appendix to each movement. Major differences are evident in the following bars: (1) \textit{Kyrie}: Bars 23–27 of \A1 have been replaced with 11 novel bars in \B1 (i.e., bars 22–31). (2) \textit{Gloria}: (a) Bars 26–56 of \A1 (\textit{Gratias} and \textit{Domine}) have been replaced with 10 novel bars in \B1 (i.e., bars 26–35). (b) The \textit{Qui tollis} (bars 57–62 in \A1) has been revised in \B1 (bars 36–41) without changing its extent (6 bars). (c) The \textit{Quoniam} (bars 100–112 in \A1) has been extended to 23 bars in \B1 (i.e., bars 79–101).
+  – & –   & –    & \B1 is the only known complete copy of this work and thus used as principal source. However, comparison to the org part of \A1 shows that several sections of the work have been revised in \B1, most likely by Benedek Istvánffy. Thus, the org part of \A1 is reproduced as appendix to each movement in this edition. Major differences are evident in the first three movements: (1) \textit{Kyrie}: Bars 23–27 of \A1 have been replaced with 11 novel bars in \B1 (i.e., bars 22–31). (2) \textit{Gloria}: (a) Bars 26–56 of \A1 (\textit{Gratias} and \textit{Domine}) have been replaced with 10 novel bars in \B1 (i.e., bars 26–35). (b) The \textit{Qui tollis} (bars 57–62 in \A1) has been revised in \B1 (bars 36–41) without changing its extent (6 bars). (c) The \textit{Quoniam} (bars 100–112 in \A1) has been extended to 23 bars in \B1 (i.e., bars 79–101). (3) \textit{Credo}: (a) Bars 33–34 of \A1 haved been replaced by a single bar in \B1, so that the \textit{Et incarnatus} is played attaca. (b) Bars 78–113 in \A1 (\textit{Et iterum} to \textit{resurrectionem mortuorum}) have been replaced with 13 novel bars in \B1 (i.e., bars 77–89). There are no major differences between \A1 and \B1 in \textit{Sanctus/Benedictus} and \textit{Agnus Dei}. \\
   1 & 5   & A    & 5th \quarterNote\ in \B1: f′4 \\
   2 & 17  & vl 1 & last \quarterNote\ in \B1: a′4 \\
     & 17  & vl 2 & 3rd \halfNote\ in \B1: f″2 \\
     & 71  & vl 1 & last \eighthNote\ in \B1: d″8 \\
     & 109 & S    & 4th \eighthNote\ in \B1: c″8 \\
+  3 & 31  & T    & 6th \eighthNote\ in \B1: c′16–c′16 \\
+    & 44  & S    & 3rd to 5th \eighthNote\ in \B1: \sharp f′8–g′4 \\
+    & 95  & T    & 2nd \eighthNote\ in \B1: d′8. \\
+  6 & 3   & vl 2 & 4th \quarterNote\ in \B1: \sharp d″8–e″16–\sharp f″16 \\
+    & 13  & vl 2 & 2nd to 4th \eighthNote\ in \B1: f′8–e′4 \\
+    & 16  & A    & 1st \halfNote\ in \B1: f′2 \\
