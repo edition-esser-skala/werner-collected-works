@@ -1,0 +1,21 @@
+title: Missa Fiducia in Deum
+id: WerW B.65
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+ark: 68748/e1gjwb65
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: CZ-Pak
+    shelfmark: 1343
+    rism: 550268623
+    license: public domain
+    principal: true
+  B2:
+    siglum: CZ-Bm
+    shelfmark: A 20238
+    license: public domain
+tocstyle: default
+toe: |
+
+acknowledgements: Permission of the Metropolitní Kapitula u Sv. Víta v Praze to use their archival materials for this edition is gratefully acknowledged.
