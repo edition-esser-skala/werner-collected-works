@@ -7,11 +7,11 @@
 
 \book {
   \bookpart {
-    \section "B-XXXVIIIKyrie" ""
+    \section "2" "Gloria"
     \addTocEntry
     \score {
       <<
-        \new Staff { \B-XXXVIIIKyrieViola }
+        \new Staff { \B-XXXVIIIGloriaTrombone }
       >>
     }
   }

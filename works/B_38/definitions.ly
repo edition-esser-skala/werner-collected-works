@@ -1,6 +1,10 @@
 \version "2.24.0"
 
 conPedale = \markup \remark "con pedale"
+markOsannaUtSupra = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Osanna ut supra"
+}
 sbTOn = {
   \set subdivideBeams = ##t
   \set baseMoment = #(ly:make-moment 1/16)
@@ -25,7 +29,12 @@ tempoB-XXXVIIICredo = \tempoMarkup "Allegro"
   tempoB-XXXVIIIEtResurrexit = \tempoMarkup "Vivace" %100
   tempoB-XXXVIIIEtUnam = \tempoMarkup "Largo" %60
   tempoB-XXXVIIIEtVitam = \tempoMarkup "Allegro" %120
-% tempoB-XXXVIII = \tempoMarkup ""
+tempoB-XXXVIIISanctus = \tempoMarkup "Tempo ordinario"
+  tempoB-XXXVIIIPleni = \tempoMarkup "Andante"
+  tempoB-XXXVIIIOsanna = \tempoTitleMarkup "Osanna" "Allegro"
+tempoB-XXXVIIIBenedictus = \tempoMarkup "Ariose"
+tempoB-XXXVIIIAgnus = \tempoMarkup "Largo"
+  tempoB-XXXVIIIDona = \tempoMarkup "Allegro"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"

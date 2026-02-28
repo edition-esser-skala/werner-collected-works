@@ -41,7 +41,7 @@ B-XXXVIIIGloriaTrombone = {
     d( f) b( a) g( f) %65
     e( g) c4. b8
     \tuplet 3/2 4 { a(\trill g a) b(\trill a b) c( b a) }
-    g( f) \appoggiatura a g4.\trill f8
+    g( f) \appoggiatura a g4.\trill f8 \noBreak
     f2 r4\fermata \bar "||"
     \time 4/4 \tempoB-XXXVIIIDomine \newSpacingSection
       R1*34 \noBreak %103

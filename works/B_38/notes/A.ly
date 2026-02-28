@@ -530,3 +530,234 @@ B-XXXVIIICredoAltoLyrics = \lyricmode {
   a -- men,
   a -- men. %169 finis
 }
+
+B-XXXVIIISanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoB-XXXVIIISanctus
+    \mvTr e4\fE^\tutti e g g
+    g8( c4) g8 g2
+    g4 r r8 gis gis gis
+    a4 f8 d4( g8) e4
+    c f e e8 g %5
+    a4( g2) fis4
+    g r g g
+    a8([ f d g] e[ a)] g4
+    g4. g8 g4. g8
+    g4 r r2 \noBreak %10
+    R1\fermata \bar "||"
+    \tempoB-XXXVIIIPleni R1*19 \noBreak %30
+    R1\fermata \bar "||"
+    \tempoB-XXXVIIIOsanna \mvTr c,2\fE^\tutti d \noBreak
+    c4 f2 e4
+    a2 g8 g,([ a)] h
+    c[ d e fis] g8.[ f16] e8[ d16 c] %35
+    d2\trill c8 c([ d)] e
+    f[ g a h] c8.[ h16] a8[ g16 f]
+    g8[ c,] c'4. a8[ e fis]
+    g4. g8 e4.( a8)
+    d,4 r8 g f!([ e16 f] g8[ f] %40
+    e4) c r2
+    R1
+    r2 c
+    d c4 f~
+    f e f16[ g a8] g[ f] %45
+    g4. f16[ g] c,4 r8 c
+    d([ e f g)] c, a'4 f8
+    d[ e f g] a[ f g a]
+    b[ a] g16[ a \hA b8] a[ g] f[ e16 d]
+    e8[ a,] a'2 g4 %50
+    r a c4. b8
+    a4. g16([ f)] g8[ c, c' b]
+    a8.[ h16] c8[ d] g,([ c)] a f
+    g[ c, d e] f[ g a h]
+    c4. h16[ a] g4. a16[ g] %55
+    f8.[ g16] a8[ g16 f] e8.[ f16] g8[ fis16 e]
+    d8.[ e16] f8[ e16 d] c4 a'8 g
+    f([ d16 e] f4) e8 c([ d e)]
+    f[( g a h] c8.[ h32 a]) g4
+    r8 f4 e16([ d)] e8 c a'4 %60
+    g2~ g8[ fis16 e] \hA fis4
+    g r r2
+    c, d
+    c4 f!2 e4
+    a2 g %65
+    f4. g16([ f)] e8([ f g a)]
+    g2 g4 g
+    g1
+    g2 r\fermata \bar "|." %69 finis
+  }
+}
+
+B-XXXVIIISanctusAltoLyrics = \lyricmode {
+  San -- ctus, san -- ctus,
+  san -- ctus, san --
+  ctus Do -- mi -- nus
+  De -- us, De -- us
+  Sa -- ba -- oth, De -- us %5
+  Sa -- ba --
+  oth, san -- ctus,
+  san -- ctus
+  De -- us Sa -- ba --
+  oth. %10
+
+  O -- san -- %32
+  na in ex --
+  cel -- sis, in __ ex --
+  cel -- _ _ %35
+  _ sis, in __ ex --
+  cel -- _ _
+  _ _ _
+  sis, o -- san --
+  na, o -- san -- %40
+  na,
+
+  o --
+  san -- na in __
+  ex -- cel -- _ %45
+  _ _ sis, o --
+  san -- na in ex --
+  cel -- _
+  _ _ _ _
+  _ _ sis, %50
+  o -- san -- na
+  in ex -- cel --
+  _ _ sis, in ex --
+  cel -- _
+  _ _ _ _ %55
+  _ _ _ _
+  _ _ sis, in ex --
+  cel -- sis, o --
+  san -- na
+  in ex -- cel -- sis, o -- %60
+  san -- _
+  na,
+  o -- san --
+  na in ex --
+  cel -- sis, %65
+  in ex -- cel --
+  sis, in ex --
+  cel --
+  sis. %69 finis
+}
+
+B-XXXVIIIBenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoB-XXXVIIIBenedictus
+    \mvTr f16([\pE^\soloE g a b] c8) a16([ g)] f([ e)] f8 r c'
+    d8.([ c32 b] a8[ g)] f4 r8 g
+    \sbOn \tuplet 3/2 8 { a16[( b a } g f] \sbOff c'8) b16([ a)] g4 r8 f
+    f16([ e)] e8 r d d16([ cis)] cis8 r a'
+    \tuplet 3/2 8 { b16([ a g)] } a b \appoggiatura g8 fis8. g16 g8 d'4 b16([ a)] %5
+    g([ fis?)] g8 r4 r8 f c'16([ a f e)]
+    d8 d'~ \sbOn \tuplet 3/2 8 { d16[ c h a g f] } \sbOff e8 g c8. b16
+    a16([ h c g)] f8.\trill e16 e4 r
+    R1*3 %11
+    R1\fermata \markOsannaUtSupra \bar "||" %12 finis
+  }
+}
+
+B-XXXVIIIBenedictusAltoLyrics = \lyricmode {
+  Be -- ne -- di -- ctus, qui
+  ve -- nit in
+  no -- mi -- ne, qui
+  ve -- nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni, be -- ne -- %5
+  di -- ctus, qui ve --
+  nit, ve -- nit in no -- mi --
+  ne __ Do -- mi -- ni. %8 finis
+}
+
+B-XXXVIIIAgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoB-XXXVIIIAgnus
+    \mvTr g'4.\fE^\tutti g8 f4 f8 f
+    e4 e8 a g4. c8
+    a([ g] a4) g8 r r4
+    r2 \mvTr d4.\pE^\solo^\aTre g8
+    g e4 a fis h8~ %5
+    h g4 a8 fis( g4 \hA fis8)
+    g4 r r2
+    R1*4 %11
+    r2 \mvTr g4.\fE^\tutti g8
+    g g r g g g r g
+    g4 g8 g a4 g
+    f f8 g f e c([ f)] %15
+    e e f([ g)] f4 r
+    r8 c d e f4 g8 a
+    g4 g g2 \noBreak
+    g r\fermata \bar "||"
+    \tempoB-XXXVIIIDona \mvTr g4.\fE^\tutti h8 e,4. g8 \noBreak %20
+    c,4. e8 r a( g4)
+    g r8 g g4 r8 g
+    g4 r8 f d4 r8 e
+    c'16([ h c8)] r d, h'16([ a h8)] r c,
+    a'16([ g a8)] r g4 g8 g([ fis)] %25
+    g4 r r2
+    r d
+    d4 r r2
+    r8 d4 fis8 r h,4 d8
+    r g4 h8 r e,4 g8 %30
+    a4( g) g r8 g
+    g4 r8 g g4 r8 h
+    a4 r8 h a4 r8 a
+    g4 r8 a g4. fis8
+    g4 r r2 %35
+    r8 e([ g)] e a4 f
+    h g c a
+    g2 g4 r8 d(
+    e[ d c e)] d4 r8 g(
+    e) a r f( d) g r e %40
+    c[ f d g] e[ a d,] g~
+    g r r g([ e)] a g4
+    g r8 g( e) a g4
+    g r r2
+    R1\fermata \bar "|." %45 finis
+  }
+}
+
+B-XXXVIIIAgnusAltoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se --
+  re -- _ _ _ _ %5
+  _ re no --
+  bis.
+
+  A -- gnus %12
+  De -- i, qui tol -- lis, qui
+  mun -- di, pec -- ca -- ta
+  mun -- di, pec -- ca -- ta mun -- %15
+  di, pec -- ca -- ta,
+  pec -- ca -- ta mun -- di, pec --
+  ca -- ta mun --
+  di:
+  Do -- na no -- bis %20
+  pa -- cem, pa --
+  cem, no -- bis pa --
+  cem, pa -- cem, do --
+  na no -- bis pa --
+  cem, pa -- cem, pa -- %25
+  cem,
+  pa --
+  cem,
+  do -- na no -- bis,
+  do -- na no -- bis %30
+  pa -- cem, no --
+  bis pa -- cem, pa --
+  _ _ _ _
+  _ _ _ _
+  cem, %35
+  do -- na no -- bis
+  pa -- cem, no -- bis
+  pa -- cem, pa --
+  cem, pa --
+  cem, pa -- cem, pa -- %40
+  _ _ cem, __
+  pa -- cem, pa --
+  cem, pa -- cem, pa --
+  cem. %44 finis
+}

@@ -388,3 +388,148 @@ B-XXXVIIICredoViolinoII = {
     d,4. g8 e4r\fermata \bar "|." %169 finis
   }
 }
+
+B-XXXVIIISanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-XXXVIIISanctus
+    r16 c\fE e g c g e c r e g c e c g e
+    r e g c e c g e c8 g'~ g16 c8 e16
+    d h' g d h d g, h r e,\pE gis h e h \hA gis e
+    r4 r16 d f a h d g, h r c, e g
+    a c f, a r d, f a c4 r %5
+    R1
+    r16 g\f h d g d h g r e g c e c g c
+    a f'8 d16 h g'8 e16 c8 f d h16 d
+    c e d g c, e g c d,8 c' g, h'
+    c4 r r2 \noBreak %10
+    R1\fermata \bar "||"
+    \tempoB-XXXVIIIPleni R1*3 %14
+    d,16.\f\trill e64( f) g16 d h d g f e16. f128( g a h) c16 g e g c b %15
+    \sbOn \tuplet 3/2 8 { a g a f g a } \sbOff r g e g f32( e) f8 e d c16
+    h d8 c h d16 g,8 c4 h8
+    c4 r r8 g\p c e
+    r16 f e d c8 h c4 r
+    R1 %20
+    r2 r4 r8 d~\f
+    d16. e64 fis g16 d h d g f e c8 e16 g d8 g16
+    e8 c r4 r2
+    r c16\p d e f \sbOn g a \tuplet 3/2 8 { b a g } \sbOff
+    a8 f, r4 r8 d''16 c h\trill a g\trill f %25
+    e8 c r16 g' a b a g f e d c h? c
+    h4 r r2
+    r r4 r8 g'\f
+    a16 h c d c h a g f8. e16 d e d c
+    \sbOn \tuplet 3/2 8 { h c d } c h \sbOff c4~ c8. d16 h4\trill \noBreak %30
+    c r r2\fermata \bar "||"
+    \tempoB-XXXVIIIOsanna c,2\fE d \noBreak
+    c4 f2 e4
+    a2 g8 g a h
+    c d e fis g8. f16 e8 d16 c %35
+    d2\trill c8 c, d e
+    f g a h c8. h16 a8 g16 f
+    g8 c, c'4. a8 e fis
+    g4. g8 e4. a8
+    d,4 r8 g f! e16 f g8 f %40
+    e4 c r2
+    R1
+    r2 c
+    d c4 f~
+    f e f16 g a8 g f %45
+    g4. f16 g c,4 r8 c
+    d e f g c, a'4 f8
+    d e f g a f g a
+    b a g16 a \hA b8 a g f e16 d
+    e8 a, a'2 g4 %50
+    r a c4. b8
+    a4. g16 f g8 c, c' b
+    a8. h16 c8 d g, c a f
+    g c, d e f g a h
+    c4. h16 a g4. a16 g %55
+    f8. g16 a8 g16 f e8. f16 g8 fis16 e
+    d8. e16 f8 e16 d c4 a'8 g
+    f d16 e f4 e8 c d e
+    f g a h c8. h32 a g4
+    r8 f4 e16 d e8 c a'4 %60
+    g2~ g8 fis16 e \hA fis4
+    g r r2
+    c, d
+    c4 f!2 e4
+    a2 g %65
+    f4. g16 f e8 f g a
+    g2 g4 g
+    h c2 h4
+    c2 r\fermata \bar "|." %69 finis
+  }
+}
+
+B-XXXVIIIBenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoB-XXXVIIIBenedictus
+    r2 r8 a'\p f a
+    r4 r8 c16 b a8 f g16( f) g8
+    c, r r4 r r8 f
+    f16( e) e8 r d d16( cis) cis8 r4
+    R1 %5
+    r8 g'4 c8 \once \slurDashed a16( g) a8 r4
+    r8 f g16( f) g8 r2
+    r r8 g\f c8. b16
+    a8 c h a gis8.\trill a32 \hA h a8.\trill \hA h32 c
+    h8.\trill c32 d c16 a8 h16 a4 gis8.\trill a16
+    a4 r r2
+    R1\fermata \markOsannaUtSupra \bar "||"
+  }
+}
+
+B-XXXVIIIAgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-XXXVIIIAgnus
+    r8 e'16(\fE c) g( e) c8 r f'16( c) a( f) a8
+    r cis,16( e) a8 c r e16( c) g( e) c( c')~
+    c a g e' c f a f e8 d16(\p f) e( f) e( d)
+    c( e) d( f) e( g) f( e) d4 r
+    r8 e c a r fis' d h %5
+    r g' e a fis g4 \hA fis8
+    g16(\f d) h( d) g( d) h( d) gis,4 r
+    r8 e\p g c r a a a
+    r f f f r d d' d,
+    cis4 r8 a' h d r g, %10
+    a c r4 r2
+    R1
+    r8 d16.\f e64 f g16 d h g r8 d16. e64 f g16 d h g
+    r8 e'16 f g a b8 c c4 e8
+    c4. c16 b a8 c a4\trill %15
+    g8 g a b c4. \hA b8
+    a a h c d2~
+    d4 c2 h4 \noBreak
+    c2 r\fermata \bar "||"
+    \tempoB-XXXVIIIDona r16 c\fE e g e g d g c, a c e c e h e \noBreak %20
+    a, f a c a c g c f, a'32 g f16 a g d e c
+    d g h, c d g, e' g, d' g h, c d g, e' g,
+    d'8 e f16 e f8 r g e4~
+    e16 c a c d c d8~ d16 h gis h c h c8~
+    c16 a fis a h g32 a h16 c d g e c a8 fis' %25
+    g4 r r2
+    R1
+    r16 d, g h d g h, d g, h d, g h, d g d
+    h g h d g h d fis g8 g,e16 g h d
+    e c e g e g d g c, a c e c e g, c %30
+    a8 a' g16 d e c d g h, c d g, e' g,
+    d' g h, c d g, e' g, d'8 g, r4
+    r16 e' c a e'4 r16 e c a d4
+    r16 d h g d'8 a h e a, d
+    h16 h c d e fis g a h a g \hA fis g f e d %35
+    e8 c~ c16 d e c a h c a d e f d
+    h c d h e f g e c d e c f g a f
+    e g d g c, e g c h4 r8 d,,
+    e16 g d g c, e g c h8 d g e
+    r c f d r h e c~ %40
+    c16 d d8~ d16 e e8 e a d, g
+    e4 r8 g, c4. h8^\critnote
+    c4 r r2
+    c8 r g e c c'16 g e8 g16 e
+    c4 r r2\fermata \bar "|." %45 finis
+  }
+}

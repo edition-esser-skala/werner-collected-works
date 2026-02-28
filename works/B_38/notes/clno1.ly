@@ -240,3 +240,99 @@ B-XXXVIIICredoClarinoI = {
     g4.\trill g8 g4 r\fermata \bar "|." %169 finis
   }
 }
+
+B-XXXVIIISanctusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-XXXVIIISanctus
+    r8 e16\fE e e8 e r g16 g g8 g
+    r c16 c c8.\trill d16 e8 g e8.\trill e16
+    d4 r r2
+    R1*3 %6
+    r8 \pa d g g e g c c
+    a8.\trill g32 a h8.\trill a32 h c8~ c16. h64 a g4~
+    g g8 e d4.\trill d8
+    e8. e32 e \pd e16 g e c \pa g c32 c c16 c \pd c e c g \noBreak %10
+    e4 r r2\fermata \bar "||"
+    \tempoB-XXXVIIIPleni \mvTr c'16\fE-\solo d e f \sbOn \tuplet 3/2 8 { g a g f e d } \sbOff c d e c c8.\trill d32 e \noBreak
+    f16 f g a g d e f e f g d c16. c32 d16 e
+    d8. e16 \sbOn fis g \tuplet 3/2 8 { a g \hA fis } \sbOff g8. a16 \appoggiatura g8 fis8.\trill g16
+    g4 r r2 %15
+    R1*5 %20
+    r4 r8 d~ d16 g fis e d e d c
+    d8 g, r g'~ g16 c h a \sbOn \tuplet 3/2 8 { g a g f e d }
+    e8.\trill d32 e \tuplet 3/2 8 { f16 e f g f g } \sbOff a b a g f e d e
+    d4 r r2
+    R1*3 %27
+    r4 r8 d e16 f g a g f e d
+    c4 r8 c f16 g a b a g f e
+    d8 g e \tuplet 3/2 8 { a16 g f } e8. f16 d8.\trill c16 \noBreak %30
+    c4 r r2\fermata \bar "||"
+    \tempoB-XXXVIIIOsanna R1*5 %36
+    \pa f2\fE a
+    g4. f8 e a e fis
+    g4. g8 \pd e4. a8
+    d,4 r r2 %40
+    r8 e4 g8 d4 g~
+    g8 f d e \pa f4. g16 a
+    g8 f16 e d8 e \pd f4 r
+    \pa R1
+    r8 c d e f16 g a8 g f %45
+    e4~ e16 f g8 f4 r \pd
+    R1*7 %53
+    \pa r8 c d e f g a h
+    c4. h16 a g4 \pd r %55
+    R1
+    r2 c,4. d16 e
+    f8 d16 e f4\trill e r
+    R1*4 %62
+    c2 d
+    \pa c4 f2 e4
+    a2 g %65
+    f4. g16 f e8 f g a
+    g1~
+    g4. f16 e d2\trill \pd
+    c r\fermata \bar "|." %69 finis
+  }
+}
+
+B-XXXVIIIAgnusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-XXXVIIIAgnus
+    g''8\fE g4 g8 a a4 a8
+    a4. a8 \pa g g4 g8
+    f g \pd a4\trill g8 r r4
+    R1*8 %11
+    r2 e8. g32 f \pa e16 f g8 \pd
+    g g r g e d r g
+    \pa e e~ e16 f g8 f4 g
+    a4. g8 a g f a %15
+    g f16 e f8 g f4. g8
+    a4. g8 f f g a
+    g2~ g4.\trill g8 \pd \noBreak
+    g2 r\fermata \bar "||"
+    \tempoB-XXXVIIIDona e4\fE r8 g e4 r8 g \noBreak %20
+    a4 r8 g \pa f a g g \pd
+    g4 r16 \pa g, g g g4 \pd r16 \pa g g g
+    g8 \pd r r4 r2
+    R1
+    r4 r8 g'4 g8 g fis %25
+    g4 r r2
+    R1*3
+    e4 r8 g \pa e16 d e8 \pd r g %30
+    \pa a4 g g r16 g, g g
+    g4 r16 g g g g4 r \pd
+    R1*3 %35
+    \pa g'4. g8 a4~ a8.\trill g32 a
+    h4~ h8.\trill a32 h c4~ c8.\trillE h32 a
+    g8 g g4\trill g8 g,16 g g g g g
+    g8. g32 g g16 g g g \pd g4 r
+    \pa r2 r4 r8 c~ %40
+    c16 d d8 d16( e) e8 \sbOn e16 f \tuplet 3/2 8 { f g a } \sbOff g8 g \pd
+    g4 r8 g e a g8.\trill g16
+    g4 r r2
+    c,8 e16 c g8 c16 g e8. e32 e e16 e e e
+    e4 r r2\fermata \bar "|." %45 finis
+  }
+}

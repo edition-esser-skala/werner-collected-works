@@ -183,3 +183,64 @@ B-XXXVIIICredoTimpani = {
     g8. g32 g g16 g g g c4 r\fermata \bar "|." %169 finis
   }
 }
+
+B-XXXVIIISanctusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoB-XXXVIIISanctus
+    c4\fE r8 c16 c c8 c r c16 c
+    c8 c r c16 g c8 g c8. c32 c
+    g4 r r2
+    R1*3 %6
+    r4 r16 g32 g g16 g c4 r16 c32 c c16 c
+    c8 r g r c c g8. g32 g
+    c8 g c c16 c g8. g32 g g16 g g g
+    c8. c32 c c8 c16 g c8. c32 c c16 c c c \noBreak %10
+    c4 r r2\fermata \bar "||"
+    \tempoB-XXXVIIIPleni R1*19 \noBreak %30
+    R1\fermata \bar "||"
+    \tempoB-XXXVIIIOsanna R1*34 %65
+    r4 g\fE c8 c16 c c8 c
+    g4 c g8 g c c16 c
+    g4 c g8 g16 g g8 g
+    c2 r\fermata \bar "|." %69 finis
+  }
+}
+
+B-XXXVIIIAgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoB-XXXVIIIAgnus
+    c8.\fE c32 c c16 c c c c8 c16 c c8 r
+    r4 r8 c c8. c32 c c16 c c c
+    c8 c16 c c8 c c r r4
+    R1*8 %11
+    r2 c8. c32 c c8 g
+    c g r g16 g c8 g r g
+    c8. c32 c c8 c c c16 c c8 c
+    c c16 c c8 c c c16 c c c c c %15
+    c4 r r8 c16 c c8 c
+    c4 r r2
+    g8. g32 g c8 c g g16 g g g g g \noBreak
+    c2 r\fermata \bar "||"
+    \tempoB-XXXVIIIDona c4\fE r8 g c4 r8 c16 c \noBreak %20
+    c4 r r g8 c16 c
+    g8. g32 g g8 c g8. g32 g g8 c
+    g4 r r2
+    R1*6 %29
+    c4 r8 g c c16 c c4 %30
+    r g8 c g8. g32 g g8 c
+    g8. g32 g g8 c g4 r
+    R1*3 %35
+    r8 c16 c c8 c c c r4
+    g8 g r g16 g c8 c r c16 c
+    c8 g c c16 c g8. g32 g g16 g g g
+    c8 g c8. c32 c g4 r
+    R1 %40
+    r4 g8. g32 g c8 c g g16 g
+    c4 r8 c16 c c8 c g g16 g
+    c4 r r2
+    c8. c32 c c8 c c8. c32 c c16 c c c
+    c4 r r2\fermata \bar "|." %45 finis
+  }
+}

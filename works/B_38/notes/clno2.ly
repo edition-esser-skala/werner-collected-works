@@ -196,3 +196,83 @@ B-XXXVIIICredoClarinoII = {
     d4.\trill d8 e4 r\fermata \bar "|." %169 finis
   }
 }
+
+B-XXXVIIISanctusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-XXXVIIISanctus
+    r8 c16\fE c c8 c r e16 e e8 e
+    r g16 g g8 g g d' c8.\trill c16
+    g4 r r2
+    R1*3 %6
+    r8 g16 g g8 d' c e4 g8
+    c, f d g e c d4
+    e8 d c4 g8. g32 g g8 g
+    g16 c32 c c16 c c e c g e8. e32 e e16 c' g e \noBreak %10
+    c4 r r2\fermata \bar "||"
+    \tempoB-XXXVIIIPleni R1*19 \noBreak %30
+    R1\fermata \bar "||"
+    \tempoB-XXXVIIIOsanna R1*5 %36
+    r2 r4 c'~\fE
+    c8 d e d c4 a'
+    d,2 r
+    R1*2 %41
+    r2 r8 c f8. e16
+    d8 e f g c,4 r
+    r2 c4 f~
+    f e d~ d16 c d8 %45
+    g,4 r r2
+    R1*7 %53
+    c2 d
+    c4 f2 e4 %55
+    d4. e16 d c4 r
+    R1*7 %63
+    r4 c d e
+    c4. d16 e d4 c~ %65
+    c d g, e'
+    d e d c
+    d g, g8 g16 g g8 g
+    e2 r\fermata \bar "|." %69 finis
+  }
+}
+
+B-XXXVIIIAgnusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-XXXVIIIAgnus
+    e'8\fE e4 e8 c c4 f8
+    e4. f8 e4 c~
+    c8 e f4\trill e8 r r4
+    R1*8 %11
+    r2 c8. e32 d c8 d
+    e d r d c g r d'
+    c4. c8 c2~
+    c4 c8 e c16 d e8 c f %15
+    e4 r r8 c d e
+    f4 r r d~
+    d e8 d16 c d4.\trill d8 \noBreak
+    e2 r\fermata \bar "||"
+    \tempoB-XXXVIIIDona c4\fE r8 d c4 r8 e \noBreak %20
+    c4 r8 e d4. c8
+    d4 r16 g, g g g4 r16 g g g
+    g8 r r4 r2
+    R1
+    r4 r8 d'4 e8 d8. d16 %25
+    d4 r r2
+    R1*3
+    c4 r8 d c c r e %30
+    d4. c8 d16 g, g g g4
+    r16 g g g g4 r2
+    R1*3 %35
+    r8 e' g e c4 f
+    d g e a8.\trill g32 f
+    e8 d c e d g,16 g g g g g
+    g8. g32 g g16 g g g g,4 r
+    R1 %40
+    r4 r8 g' c8.\trill h32 c d16 c d8
+    e4 r8 e c f d8.\trill d16
+    e4 r r2
+    g,8 c16 g e8 g16 e c8. c32 c c16 c c c
+    c4 r r2\fermata \bar "|." %45 finis
+  }
+}

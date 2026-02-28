@@ -630,25 +630,222 @@ B-XXXVIIICredoSopranoLyrics = \lyricmode {
   a -- men. %169 finis
 }
 
+B-XXXVIIISanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoB-XXXVIIISanctus
+    \mvTr c'4\fE^\tutti c e e
+    g g e8 d e4
+    d r r8 h h h
+    c4 d h c
+    a4. d8 c c4 e8 %5
+    d([ c)] h([ a16 g]) a4.\trill  a8
+    h4 r e4. g8
+    c,( d4 e f8) d([ g)]
+    e([ d)] c([ e)] d4. d8
+    e4 r r2 \noBreak %10
+    R1\fermata \bar "||"
+    \tempoB-XXXVIIIPleni R1*6 %17
+    \mvTr g,16.([\trill\pE^\solo a64 h c16 d)] e([ f)] \tuplet 3/2 8 { g([ f e)] } c([\trill h]) c8 r e16([ c)]
+    a([ a' g f)] \sbOn \tuplet 3/2 8 { e([ f g)] f([ e d)] e([ d c)] } c8 \tuplet 3/2 8 { c,16[ h c e d e]
+    g[ f g h a h] d[ e f } e d] \sbOff e32[ f g f e16 d] c32[ d e d c16 e] %20
+    d[ a] h g \appoggiatura h8 a4\trill g r
+    R1*2
+    g16[ a h c] \sbOn d[ e \tuplet 3/2 8 { f! e d] } \sbOff e8 c r4
+    r8 a'16([ g)] f([\trill e)] d c h8 g g'4~ %25
+    g16[ f e d] c[ b] a([ \hA b)] a4 r16 a[ h? c]
+    h[ d32 c h16 a] g[ f] e([ f)] e8 g c4~
+    \tuplet 3/2 8 { c16[ d e] } f d \appoggiatura c8 h4\trill c r
+    R1*2 \noBreak %30
+    R1\fermata \bar "||"
+    \tempoB-XXXVIIIOsanna
+      r8 \mvTr c,([\fE^\tutti d)] e f[ g a h] \noBreak
+    c8.[ h16] a8[ g16 f] g8[ c,] c'4~
+    c8[ a e fis] g h16([ a g8)] fis
+    e([ fis g a)] h4 r8 g %35
+    f([ g16 a)] g2 r4
+    R1*2
+    g2 a
+    g4 c2 h4 %40
+    e2 d4 g~
+    g8[ f] d([ e)] f[ c] f8.[ e16]
+    d8[ e f g] c,4 r
+    r f, a2
+    g4 c2 h!4 %45
+    e4.( d16[ e] f4.) e8
+    d([ c)] b4 b8([ a16 g] a8) f
+    b([ c)] d([ e)] f4. e8
+    d16[ e f8] e[ d] cis[ a] d4~
+    d8[ cis16 h] \hA cis4 d r %50
+    R1*3
+    c2 d
+    c4 f2 e4 %55
+    d4. e16[ d] c4. d16[ c]
+    b4. c16[ \hA b] a8[ h] c4~
+    c h c8 e16([ d c8)] h
+    a[ h c d] e[ f g e]
+    f[ d a h] c4 r %60
+    R1
+    g2 a4( d)
+    g, c2 h4
+    c4.( d16[ c] h8[ c16 d]) e4
+    c4. d16([ c)] h4 c8.[ h16] %65
+    a8[ h16 c] d2 c4
+    h c d e
+    d c2 h4
+    c2 r\fermata \bar "|." %69 finis
+  }
+}
 
+B-XXXVIIISanctusSopranoLyrics = \lyricmode {
+  San -- ctus, san -- ctus,
+  san -- ctus, san -- ctus, san --
+  ctus Do -- mi -- nus
+  De -- us, De -- us
+  Sa -- ba -- oth, De -- us, %5
+  De -- us __ Sa -- ba --
+  oth, san -- ctus,
+  san -- ctus
+  De -- us Sa -- ba --
+  oth. %10
 
+  Ple -- ni sunt coe -- li, sunt %18
+  coe -- li et ter -- ra glo --
+  _ _ _ _ %20
+  _ ri -- a tu -- a,
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
+  ple -- _ _ ni %24
+  sunt coe -- li et ter -- ra glo -- %25
+  _ ri -- a, glo --
+  _ _ ri -- a, glo -- _
+  ri -- a tu -- a.
 
+  In ex -- cel -- %32
+  _ _ _ _
+  sis, in __ ex --
+  cel -- sis, ex -- %35
+  cel -- sis,
 
-% ## Benedictus
+  o -- san -- %39
+  na in ex -- %40
+  cel -- sis, in __
+  ex -- cel -- _
+  _ sis,
+  o -- san --
+  na in ex -- %45
+  cel -- sis,
+  in ex -- cel -- sis,
+  in ex -- cel -- _
+  _ _ _ _
+  _ sis, %50
 
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
+  o -- san -- %54
+  na in ex -- %55
+  cel -- _ _ _
+  _ _ _ _
+  _ sis, in __ ex --
+  cel -- _
+  _ sis, %60
 
+  o -- san --
+  na in ex --
+  cel -- sis,
+  in ex -- cel -- _ %65
+  _ _ sis,
+  in ex -- cel -- sis,
+  in ex -- cel --
+  sis. %69 finis
+}
 
-% ## Agnus Dei
+B-XXXVIIIAgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoB-XXXVIIIAgnus
+    \mvTr c'4.\fE^\tutti c8 a4 a8 d
+    cis cis r c e4 g
+    f8([ e] f4) e8 r r4
+    r2 r8 \mvTr h~\pE^\soloE^\aTreE h16[ c] d8
+    e[ c]~ c16[ d e8] fis[ d]~ d16[ e \hA fis8] %5
+    g e4 c8 a([ h16 c] d4)
+    d r r2
+    R1*4 %11
+    r2 \mvTr e8.([\fE^\tutti g32 f] e8) d
+    e d r d e d r d
+    e~ e8.[ f16] g8 f c4 b8
+    a8.([ c32 b)] a8 g a g f([ a)] %15
+    g g a b c4.( \hA b8)
+    a a h c d2~
+    d4 c2 h4 \noBreak
+    c2 r\fermata \bar "||"
+    \tempoB-XXXVIIIDona \mvTr e4.\fE^\tutti g8 c,4. e8 \noBreak %20
+    a,4. c8 f4.( e8)
+    d g([ d)] e r g([ d)] e
+    r e( f4.) g8 e16[ d e8]~
+    e f d16[ c d8]~ d e c16[ h c8]~
+    c d h8.([ c16] d8) e d4 %25
+    d16 g,[ a h] c[ d e fis] g[ \hA fis e d] e[d  c h]
+    c[ h a g] a[ g fis e] \hA fis8 g4( \hA fis8)
+    g4 r r2
+    h4. d8 g,16([ fis)] g8 r4
+    e'4. g8 c,16([ h)] c8 r c~ %30
+    c f4 e8 d g([ d)] e
+    r g([ d)] e r d e4
+    r8 f e4. c8 d4~
+    d8[ e] d4. e8 d4
+    d r r2 %35
+    c4. c8 c[ a] d4~
+    d8[ h] e4. c8 f4
+    e8([ d c e)] d4 r8 h(
+    c[ h] c4)\trill h16 d[ e f] g[ f e d]
+    c8.[\trill d32 e] f16[ e d c] h8.[\trill c32 d] e16[ d c h] %40
+    a[ d c d] h[ e d e] c8.[\trill h32 a] g16[ a g f]
+    e8 g c4. \tuplet 3/2 8 { f16[ e d] } \appoggiatura c8 h4\trill
+    c8 g' \once \tieDashed c,4~ \sbOn \tuplet 3/2 8 { c16[ d e f e d] } \sbOff \appoggiatura c8 h4
+    c r r2
+    R1\fermata \bar "|." %45 finis
+  }
+}
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+B-XXXVIIIAgnusSopranoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se --
+  re -- _ %5
+  _ _ re no --
+  bis.
+
+  A -- gnus %12
+  De -- i, qui tol -- lis, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di, pec -- ca -- ta mun -- %15
+  di, pec -- ca -- ta mun --
+  di, pec -- ca -- ta mun --
+  _ _
+  di:_
+  Do -- na no -- bis %20
+  pa -- cem, pa --
+  cem, no -- bis pa -- cem,
+  do -- na no --
+  bis pa -- cem, no --
+  bis pa -- cem, pa -- %25
+  cem, pa -- _ _ _
+  _ _ cem, pa --
+  cem,
+  do -- na no -- bis,
+  do -- na no -- bis pa -- %30
+  _ _ cem, no -- bis
+  pa -- cem, pa -- _
+  _ _ _ _
+  _ cem, pa --
+  cem, %35
+  do -- na no -- _
+  _ _ bis
+  pa -- cem, pa --
+  cem, pa -- _
+  _ _ _ _ %40
+  _ _ _ _
+  cem, pa -- _ _ _
+  cem, pa -- _ _
+  cem. %44 finis
+}

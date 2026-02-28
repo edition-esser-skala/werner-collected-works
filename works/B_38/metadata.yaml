@@ -1,7 +1,7 @@
 title: Missa
 id: WerW B.38
 genre: mass
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), a-trb solo, timp (C–G), 2 vl, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro),\\2 clno (C), a-trb solo, timp (C–G), 2 vl, b, org
 ark: 68748/e1gjwb38
 license: cc-by-sa-4.0
 sources:
@@ -14,12 +14,15 @@ sources:
     principal: true
 tocstyle: default
 toe: |
-  1 & 16   & vl 1   & 4th \sixteenthNote\ in \b1: g″16 \\
+  1 & 16   & vl 1   & 4th \sixteenthNote\ in \B1: g″16 \\
     & 25   & clno 1 & 2nd \eighthNote\ in \B1: g″8 \\
     & 66   & org    & last \eighthNote\ of upper voice in \B1: b8 \\
-  2 & 1    & vl     & rhythm of 1st and 3rd \quarterNote\ in \B1:
-                      16.–6×64 \\
+  2 & 1    & vl     & rhythm of 1st and 3rd \quarterNote\ in \B1: 16.–6×64 \\
     & 170f & vl     & rhythm of 1st \quarterNote\ in \B1: 16–4×32 \\
     & 185  & vl 2   & 2nd \eighthNote\ in \B1: c″8 \\
-    & 202  & clno 1 & rhythm of last \quarterNote\ in \B1: 8.–32–32 \\
-    & 210  & clno 1 & rhythm of 3rd \halfNote\ in \B1: 16.–32–32–16–¹6 \\
+    & 202  & clno   & rhythm of last \quarterNote\ in \B1: 8.–32–32 \\
+    & 210  & clno   & rhythm of 3rd \halfNote\ in \B1: 16.–32–32–16–¹6 \\
+  6 & 42   & vl 2   & last \eighthNote\ in \B1: c″8 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  a-trb: Alto trombone solo
