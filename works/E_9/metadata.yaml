@@ -1,0 +1,61 @@
+title: Beglückter Edens Garten
+id: WerW E.9
+genre: aria
+festival: de Adventu
+scoring: T (solo), 4 vl, b, org
+ark: 68748/e1gjwe9
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.312
+    rism: 530003643
+    url: https://copia.oszk.hu/kotta/aria-de-adventu/
+    license: public domain
+    principal: true
+toe: |
+  –  & –    & In \A1, the four stanzas are written out in T.
+              In the instrumental parts, one stanza is written,
+              and repetition is indicated
+              by the directive “Da Capo 3 volte”. \\
+  10 & T    & 4th \sixteenthNote\ in 3rd and 4th stanza of \A1: a16 \\
+  19 & vl 2 & rhythm of 3rd \quarterNote\ in \A1: 8–tuplet 16 \\
+parts:
+  vl1a: Violino I senza sordino
+  vl1b: Violino I con sordino
+  vl2a: Violino II senza sordino
+  vl2b: Violino II con sordino
+  T_solo: Tenore solo
+lyrics:
+  Beglückter Edens Garten,\\
+  darin die größte Luſtbarkeit\\
+  mit all erwünſchter Süeßigkeit\\
+  unß ſtunde zu erwarthen.\\
+  Doch wird man auch geſtehen,\\
+  daß niemahls ſey an einem Orth\\
+  ein größers Unheyl alß aldorth\\
+  durch Adams Fall geſchehen.\\[1ex]
+  Diß mueſte ſeyn gerochen,\\
+  dieweil hierdurch der höchſte Gott\\
+  in ſeim Befelh nur war geſpodt,\\
+  es wurd der Stab gebrochen;\\
+  wir arme Adams Erben\\
+  verſcherzten alle Gnad und Huld\\
+  und ſolten wegen diſer Schuld\\
+  des ewign Todes ſterben.\\[1ex]
+  Doch wurde Frid getroffen,\\
+  dieweil ſchon die Barmherzigkeit\\
+  beſigte die Gerechtigkeit,\\
+  da war auch Gnad zu hoffen.\\
+  Gott ließe ſich gefallen,\\
+  damit wir möchten insgemein\\
+  von dißer Schuld befreyet ſeyn,\\
+  vor jederman zu zahlen.\\[1ex]
+  Nun kham es auf dem Willen\\
+  bey einer Edlen Jungfrau rein\\
+  die ſolt ein Mitgehülffin ſeyn,\\
+  diß Gheimnuß zu erfüllen,\\
+  und ßehet wie beſcheiden\\
+  ſie ſich in ſolche hohe Gnad\\
+  gehorßamlich ergeben hat\\
+  zu unßern gröſten Freuden.
