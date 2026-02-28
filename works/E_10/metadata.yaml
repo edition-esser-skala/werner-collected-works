@@ -1,0 +1,45 @@
+title: Alle Weld ist nun betranget
+id: WerW E.10
+genre: cantilena
+festival: pro Adventu
+scoring: B (solo), 2 vl, b, org
+ark: 68748/e1gjwe10
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.313
+    rism: 530003644
+    url: https://copia.oszk.hu/kotta/cantilena-pro-adventu/
+    license: public domain
+    principal: true
+toe: |
+  –  & –    & In \A1, the three stanzas are written out in B.
+              In the instrumental parts, one stanza is written,
+              and repetition is indicated
+              by the directive “Da Capo 2 volte”. \\
+  1  & –    & tempo indication in vl 1, 2, and B part of \A1:
+              “Adagio”; in vlne and org: “Adagiose” \\
+  4  & vl 2 & last \eighthNote\ in \A1: \flat e′8 \\
+  11 & vl 2 & 3rd \sixteenthNote\ in \A1: \flat e′16 \\
+parts:
+  B_solo: Basso solo
+lyrics:
+  Alle Weld iſt nun betranget,\\
+  an dem Joch der Armueth hanget,\\
+  wer hilfft wohl auß dißer Noth?\\
+  Jene große Frau der Armen,\\
+  die will aller ſich erbarmen,\\
+  ſie erzwinget alls bey Gott.\\[1ex]
+  Ein Menſch jezt den andren druket,\\
+  nur der Arme wird gezukhet,\\
+  weiß nicht wo er Hilff mehr findt.\\
+  Solchen wolt ich weißlich lehren,\\
+  daß Er ſolt Mariam ehren,\\
+  dan ſie hilfft nur gar geſchwind.\\[1ex]
+  Alle Lieb hat nun ein Ende,\\
+  Haß, Verfolgung geht behände\\
+  jenen auf den Fueßtrit nach.\\
+  Niemand woll darob ſich kränkhen,\\
+  ſtäts nur an Mariam denkhen,\\
+  ſie errett auß aller Noth.
