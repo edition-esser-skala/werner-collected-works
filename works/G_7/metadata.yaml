@@ -1,0 +1,19 @@
+title: Litaniæ lauretanæ
+id: WerW G.7
+genre: litany
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwg7
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.71
+    date: 1757
+    rism: 530001978
+    url: https://copia.oszk.hu/kotta/lytaniae-b-v-m/
+    license: public domain
+    principal: true
+toe: |
+  55  & org  & bar in \B1: a2. \\
+  144 & vl 2 & 3rd \quarterNote\ in \B1: \flat b′4 \\
+  159 & A    & bar in \B1: f′2–\crotchetRest \\
