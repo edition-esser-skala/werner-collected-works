@@ -1,0 +1,29 @@
+title: Salutis humanæ sator
+id: WerW F.42
+genre: hymn
+festival: in Ascensione Domini
+scoring: S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwf42
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.210 (12)
+    rism: 530004303
+    url: https://copia.oszk.hu/kotta/hymni-de-b-virgine-de-apostolis-et-aliis-festis-1mae-classis/
+    license: public domain
+    principal: true
+lyrics:
+  Salutis humanae sator,\\
+  Jesu voluptas cordium,\\
+  orbis redempti conditor,\\
+  et casta lux amantium.\\[1ex]
+  Qua victus es clementia\\
+  ut nostra ferres crimina\\
+  mortem subires innocens\\
+  a morte nos ut tolleres.\\[1ex]
+  Tu dux ad astra et semita\\
+  sis meta nostris cordibus\\
+  sis lacrymarum gaudium\\
+  sis dulce vitae praemium.\\[1ex]
+  (Cantus Index 008331.1)
