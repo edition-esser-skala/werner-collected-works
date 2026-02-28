@@ -1,0 +1,35 @@
+title: Ut queant laxis
+id: WerW F.46
+genre: hymn
+festival: "in festo S: Joannis Bapt:"
+scoring: S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwf46
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.210 (16)
+    rism: 530004307
+    url: https://copia.oszk.hu/kotta/hymni-de-b-virgine-de-apostolis-et-aliis-festis-1mae-classis/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: M 14
+    rism: 600038640
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/247.html
+    license: public domain
+lyrics:
+  Ut queant laxis resonare fibris\\
+  mira gestorum famuli tuorum\\
+  solve polluti labii reatum\\
+  sancte Ioannes.\\[1ex]
+  Nuntius celso veniens Olympo\\
+  te Patri magnum fore nasciturum\\
+  nomen et vitae seriem gerendae\\
+  ordine promit.\\[1ex]
+  Gloria Patri genitoque proli\\
+  et tibi compar utriusque semper\\
+  Spiritus alme Deus unus omni\\
+  tempore saecli.\\[1ex]
+  (Cantus Index 008406)
