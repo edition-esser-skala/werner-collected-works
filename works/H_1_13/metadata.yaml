@@ -1,0 +1,19 @@
+title: Vesperae de Confessore
+subtitle: Dixit Dominus · Confitebor · Beatus vir · \\Laudate pueri · Laudate Dominum · Magnificat
+id: WerW H.1.13
+genre: vesper
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
+ark: 68748/e1gjwh113
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.100
+    rism: 530002153
+    url: https://copia.oszk.hu/kotta/vespere-de-confessore-in-c-de-festo/
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
