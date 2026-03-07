@@ -15,5 +15,12 @@ sources:
     principal: true
 tocstyle: default
 toe: |
+  3 & 28  & org     & In \A1, the treble ottavo clef appears
+                      not earlier than bar 31 (2nd \halfNote). \\
+    & 48  & A       & 4th \quarterNote\ in \A1: d′4 \\
+    & 76  & vl 1    & bar in \A1: e″1–\halfNoteRest \\
+    & 95  & vl 2, A & bar in \A1: b1. \\
+  6 & 73  & vlne    & 4th \eighthNote\ in \A1: a8 \\
+    & 127 & timp    & bar in \A1: c2–\crotchetRest \\
 parts:
   ottoni: Clarino I, II in C\\Timpani in C–G

@@ -34,3 +34,46 @@ H-I-XIIIDixitTimpani = {
     c1 r2\fermata \bar "|." %108 finis
   }
 }
+
+H-I-XIIIMagnificatTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoH-I-XIIIMagnificat
+      \once \override Staff.TimeSignature.style = #'single-digit
+    c4\fE c8 c c4
+    g g8 g c4
+    g c c8 c
+    g2 r4
+    r c g %5
+    c g c
+    c8 c g4 g8 g
+    c2 r4
+    R2.*15 %23
+    g4. g8 c g
+    c c g g16 g g8 g %25
+    c4 r r
+    R2.*38 %64
+    g4 g g %65
+    c c8 c c4
+    c r r
+    R2.
+    g4 g8 g c c
+    g4 g r %70
+    R2.
+    r4 c g
+    c g8 g g g
+    c4 g g
+    c g g8 g %75
+    c2 r4
+    R2.*42 %118
+    r4 c c
+    g g8 g g4 %120
+    c c c
+    g g r
+    r c c
+    g g8 g g4
+    c c c %125
+    c c8 c c c
+    c2.\fermata-\critnote \bar "|." %127 finis
+  }
+}

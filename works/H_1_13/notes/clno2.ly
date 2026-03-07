@@ -43,3 +43,46 @@ H-I-XIIIDixitClarinoII = {
     g r2\fermata \bar "|." %108 finis
   }
 }
+
+H-I-XIIIMagnificatClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoH-I-XIIIMagnificat
+      \once \override Staff.TimeSignature.style = #'single-digit
+    r4 e\fE e
+    g2 g4
+    g g8 g g g
+    g2 r4
+    r e' d %5
+    c d e
+    e d2\trill
+    c r4
+    R2.*15 %23
+    g4. g8 g4
+    c16 d e f g4. f8 %25
+    e4 r r
+    R2.*38 %64
+    d2 d4 %65
+    e8 c16 d e8 e e4
+    f2 e4
+    f8 d16 e f8 f f4
+    d4. d8 e e
+    d4 d r %70
+    R2.
+    r4 e d
+    e d d
+    e d8 c d4
+    e d2 %75
+    e r4
+    R2.*42 %118
+    r4 e, c
+    g'4. g8 d'4 %120
+    c4. d8 e f
+    d g, d' e f g
+    e g16 f e8 d c e
+    d4 d2\trill
+    c4 c e %125
+    c2.
+    c\fermata \bar "|." %127 finis
+  }
+}

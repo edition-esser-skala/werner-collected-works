@@ -2,6 +2,10 @@
 
 tempoH-I-XIIIDixit = \tempoMarkup "[no tempo]"
 tempoH-I-XIIIConfitebor = \tempoMarkup "Vivace"
+tempoH-I-XIIIBeatus = \tempoMarkup "[no tempo]"
+tempoH-I-XIIIPueri = \tempoMarkup "[no tempo]"
+tempoH-I-XIIILaudate = \tempoMarkup "[no tempo]"
+tempoH-I-XIIIMagnificat = \tempoMarkup "[no tempo]"
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
