@@ -1,0 +1,20 @@
+title: Miserere
+id: WerW H.2.7
+genre: psalm
+scoring: S, A, T, B (coro)
+ark: 68748/e1gjwh27
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.264/b
+    date: ca. 1764
+    rism: 530003598
+    url: https://copia.oszk.hu/kotta/miserere-mei-deus-g-moll/
+    license: public domain
+    principal: true
+toe: |
+  152 & S & bar in other part of \A1: g′1–g′2–c″2 \\
+  152 & B & bar in other part of \A1: c1–c′2–c′2 \\
+  166 & T & bar in \A1: d′1.–d′2 \\
+  168 & B & 1st \wholeNote\ in other part of \A1: B2–B2 \\
