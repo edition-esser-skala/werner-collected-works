@@ -1,0 +1,22 @@
+title: Regina cœli
+id: WerW I.3.8
+genre: antiphon
+scoring: S, A, T, B (coro), 2 vla, b, org
+ark: 68748/e1gjwi38
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.196
+    rism: 530002169
+    url: https://copia.oszk.hu/kotta/regina-coeliin-in-f/
+    license: public domain
+    principal: true
+  B2:
+    siglum: A-Ed
+    shelfmark: J 19
+    rism: 600038545
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/446.html
+    license: public domain
+toe: |
+  49 & T & 2nd \halfNote\ in \B1 and \B2: d′2 \\
