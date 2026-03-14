@@ -1,0 +1,21 @@
+title: Salve Regina
+id: WerW I.4.38
+genre: antiphon
+scoring: T (solo), 2 vl, b, org
+ark: 68748/e1gjwi438
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.139
+    rism: 530002032
+    url: https://copia.oszk.hu/kotta/salve-regina-9/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: K 24
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/486.html
+    license: public domain
+parts:
+  T_solo: Tenore solo
