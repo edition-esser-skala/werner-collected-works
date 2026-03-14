@@ -101,11 +101,81 @@ J-VIViolinoI = {
     \tuplet 3/2 8 { fis16 e d } d,8 d32 e fis g a h c d h8 h, r4
     r e32\p f g a h c d e \sbOff s2 %95
     s4.. f32 g a8 r r4
-    r2 s
-    s1*20 \bar "||" %117
+    r2 r4 r8 a
+    h c4 h8 c16.\f c,32 e16. d32 c16. e32 g16. c32
+    c8 h16. c32 \sbOn \tuplet 3/2 8 { d16 c h a g f e f g f e d } c32 d e f g a h c \sbOff
+    h16 d h g d h' g d h e h gis e h'' gis e %100
+    \sbOn \tuplet 3/2 8 { c d e d c h } a32 h c d e fis gis a \tuplet 3/2 8 { \hA gis16 \hA fis e } e,8 e32 fis gis a h c d e
+    c8 a, a'32 h c d e f g a \tuplet 3/2 8 { f16 e d } d,8 d'32 e f g a h c d
+    \kneeBeam \tuplet 3/2 8 { h16 a g } g,,8 g'32 a h c d e f g \tuplet 3/2 8 { e16 d c } c,8 c'32 d e f g a h c
+    h8 d, \appoggiatura e32 d16 c32 d \appoggiatura f e16 d32 e \sbOff f16 d' h f d h f d
+    c a' c a e' c a' e dis fis a \hA fis \hA dis a fis dis %105
+    \sbOn e32 fis g a h cis dis e c h c d e fis g a \sbOff fis16. dis32 e16. g,32 fis16. dis'32 \appoggiatura e dis16 cis32 \hA dis
+    e,8 s4. h'8 h h h
+    h h h h c c c c
+    ais ais ais ais h h h h
+    gis gis gis gis a a a a %110
+    h h h h c c c c
+    a a a a s2
+    s1
+    <d, h' g'>16.\f g32 h16. a32 \sbOn g a h c d e f g \sbOff e16. c32 d16. h32 \sbOn c d e f g a h c
+    s2 e,8 r e32 c d e f g a h \sbOff %115
+    c16. c,32 e16. d32 c16. c'32 d16. g,32 c16 h32 c d16 h \tuplet 3/2 8 { \sbOn c h a g a b \sbOff }
+    a g32 f e16 s s2. \bar "||"
     \time 3/4 \tempoJ-VIe \newSpacingSection
-      s2.*57 \noBreak %174
-    c8 c c c h h %175
+      R2.*3 %120
+    r8 a,[-!\p a-! a]-! a b16 a32 \hA b
+    c8 r r4 c
+    d8 r r4 d8 c
+    d r s2
+    s2.*2 %126
+    c'16 a g f e8 e d d
+    r c16.\f d32 e16. g32 f16 e f d c h
+    c32( g'16.) g32( f16.) f32( e16.) s4.
+    s2 \slurDashed a,32( g16.) g32( f16.) \slurSolid %130
+    \appoggiatura f16 e8.\trill d16 c4 r
+    r8 fis'[-!\p fis-! fis]-! fis\trill e16 \hA fis
+    g8 r r4 r
+    r8 cis,[-! cis-! cis]-! cis\trill h16 \hA cis
+    d8 r r4 r %135
+    r8 e[-! e-! e]-! e\trill d16 e
+    f8 r r4 r
+    r8 h,![-! h-! h]-! h\trill a16 h
+    c8([ d e f)] g f16 e
+    f8 r r4 r %140
+    R2.*2
+    r8 a,[-! a-! a]-! a b16 a32 \hA b
+    c8 r r4 c(
+    d8) b'([ a g f e)] %145
+    f a([ c b a g)]
+    f \tuplet 3/2 8 { d'16 c b } a8 a g g
+    r f16.\f g32 a16. c32 b16 a \hA b g f e
+    f32( c'16.) c32( b16.) b32( a16.) a32( g16.) g32( f16.) f32( es16.)
+    d32( d'16.) d32( c16.) c32( h16.) h32( a16.) a32( g16.) g32( f16.) %150
+    e!16. g32 f16 e s4 s16. b'32 a16 g
+    a f e d g e d c d,8 h'!
+    c,4 r r
+    r8 c'16. d32 e16. g32 f16 e f d c h
+    c4 r r %155
+    s2.*2
+    s8 g'16 f e8 g d g
+    c,4 e a~
+    a8 g fis e d c %160
+    h r d4. e16 fis
+    s2.
+    s4 h16. d32 c16 h c a g fis
+    \slurDashed g32( a16.) a32( h16.) h32( c16.) c32( d16.) \slurSolid d16 d,32 e f16 e32 d
+    s2. %165
+    s4 r r
+    R2.
+    a8(\p h c d e a,)
+    f'4 d, r
+    g8( a h c d g,) %170
+    e'4 c, r
+    s2.
+    s2 d'4
+    e r r
+    c'8 c c c h h %175
     \tempoJ-VIf c16\f c g g e e g g h h g g \noBreak
     c c g g e e g g h h g g
     c c g g e e g g c, c e e
@@ -205,6 +275,6 @@ J-VIViolinoI = {
     e c' c e, e c' c e, f d' d f, %270
     s1.
     s2 d8 c' c d, d h' h d,
-    c'2 r r\fermata \bar "|."
+    c'2 r r\fermata \bar "|." %273 finis
   }
 }

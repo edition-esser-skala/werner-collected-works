@@ -74,14 +74,113 @@ J-VISoprano = {
       e4 r r\fermata \bar "||"
     \time 4/4 \tempoJ-VId \newSpacingSection
       s1*5 %72
-    a,8 gis r h c e c a %73
+    a,8 gis r h c e c a
     f'16([ e)] f8 r a, h d h g
-    s1*43 \bar "||" %117
+    e'16([ d)] e8 r4 r2 %75
+    r8 g, c4. h16 a h8 c16([ d)]
+    e2 a,4 d~
+    d1
+    d8 e a,8. h16 h4 r
+    r2 r8 d4 h8 %80
+    h[( a16 h]) c8 c c16([ h)] h8 r4
+    r8 e4 c8 c([ h16 c)] d8 d
+    d([ c16 d)] e8 c c h h([ e16 d)]
+    c([ h c8)] a([ d16 c)] h([ a h8)] g([ c16 h)]
+    a([ h c8)] d16[( e f8]) f e d8. d16 %85
+    c4 r r2
+    R1*11 %97
+    r2 \mvTr c4\fE^\tuttiE c
+    c8([ h)] h h c d16 d e4
+    d8 d d d e4. e8 %100
+    e4 e8 e e8. e16 e4
+    c8 e c a f'4 f
+    d8 d d16([ e)] c([ d)] e4. e8
+    d d d e f4 f
+    r8 e e e dis4 dis %105
+    e c8 c h4. h8
+    h4 r \mvTr fis'4.\pE^\solo dis8
+    h4 h r8 c e c
+    \appoggiatura h8 ais4. ais8 h fis' dis h
+    \appoggiatura a gis4. gis8 a a a a %110
+    e'4 e8 h c8. c16 c4
+    r8 a d a s2
+    s1
+    h8 \mvTr d4\fE^\tuttiE d8 e d16 d c8 e
+    d d r c c8. c16 c8 f %115
+    s2 e8 d16 d c8 c16 c
+    c8 e16 e d4 e r\fermata \bar "||" %117
     \time 3/4 \tempoJ-VIe \newSpacingSection
-      s2.*58 %175
-    \tempoJ-VIf s2.*31 \bar "||" %206
+      r4 \mvTr c\pE^\solo d \noBreak
+    s2.
+    g8([ f)] e([ d)] c([ b)] %120
+    b([ a)] a4 r
+    r r f'~
+    f8[ es] d([ c)] b([ a)]
+    s2.*2 %125
+    a8([ c)] f([ e!)] d([ g)]
+    e8. f16 e4( d)\trill
+    c r r
+    R2.*4 %132
+    d4 g s
+    s2.*2 %135
+    R2.
+    c,4 f d
+    \appoggiatura c8 h!4. c8 d c16([ h)]
+    c4 g8 a b a16([ g)]
+    a4 c d %140
+    d c8([ b)] c4
+    g'8([ f)] e([ d)] c([ b)]
+    b a a4 r
+    R2.
+    b8([ d)] c([ \hA b)] a([ g)] %145
+    f f' e d c([ b)]
+    a b a4( g)
+    f r r
+    R2.*26 \noBreak %174
+    R2.\fermata \bar "||" %175
+    \tempoJ-VIf r4 \mvDl e'\fE^\tuttiE d8 d \noBreak
+    c c e e d d
+    c c c4. e8
+    d d c2
+    h4 h2 %180
+    c4. c8 e4
+    c h e
+    e e e8 e
+    e4 a, a
+    d2 d4 %185
+    d2 d4
+    d d d
+    d4. d8 d4
+    r d d
+    e4. e8 e4~ %190
+    e d4. d8
+    d4 h( d)
+    c h d8([ h)]
+    c4( h) d
+    c g h %195
+    c( e c)
+    a( f' d)
+    h( g' e)
+    c( a') f
+    d( h) d %200
+    c h d8([ h)]
+    s2.*2
+    r4 c2
+    c4. c8 c4 \noBreak %205
+    c c( h) \bar "||"
     \time 4/4 \tempoJ-VIg \newSpacingSection
-      s1*12 \bar "||" %218
+      c8 g4 g8 es'4 es \noBreak
+    s1
+    s4 as,? g2
+    g r4 g~ %210
+    g f es c'
+    h! r s2
+    s2 b4. b8
+    as4 as8 as a4. a8
+    a4 a s2 %215
+    s4 a h!4. h8
+    c2 c \noBreak
+    h! r\fermata \bar "||" %218
     \time 3/2 \tempoJ-VIh \newSpacingSection
       R1.*14 %232
     r2 g g
@@ -195,6 +294,107 @@ J-VISopranoLyrics = \lyricmode {
 
   o -- sus A -- po -- sto -- lo -- rum %73
   cho -- rus, A -- po -- sto -- lo -- rum
+  cho -- rus, %75
+  te mar -- ty -- rum can -- di --
+  da -- tus lau --
+
+  dat ex -- er -- ci -- tus.
+  Te per %80
+  or -- bem ter -- ra -- rum,
+  te per or -- bem ter --
+  ra -- rum, ter -- ra -- rum, san --
+  cta, san -- cta con --
+  fi -- te -- tur Ec -- cle -- si -- %85
+  a.
+
+  Tu Rex %98
+  glo -- ri -- ae, glo -- ri -- ae, Chri --
+  ste, tu Pa -- tris sem -- pi -- %100
+  ter -- nus es Fi -- li -- us,
+  tu ad li -- be -- ran -- dum
+  su -- sce -- ptu -- rus ho -- mi --
+  nem, non hor -- ru -- i -- sti,
+  non hor -- ru -- i -- sti %105
+  Vir -- gi -- nis u -- te --
+  rum. Tu de --
+  vi -- cto mor -- tis a --
+  cu -- le -- o, mor -- tis a --
+  cu -- le -- o, a -- pe -- ru -- %110
+  i -- sti cre -- den -- ti -- bus
+  re -- gna "coe -"
+
+  rum. Tu ad dex -- te -- ram De -- i
+  se -- des in glo -- ri -- a, in %115
+  glo -- ri -- a, glo -- ri -- a,
+  glo -- ri -- a Pa -- tris.
+  Iu -- dex
+
+  es -- se ven -- %120
+  tu -- rus,
+  es --
+  se "ven -"
+
+  tu -- rus, es -- %126
+  se ven -- tu --
+  rus.
+
+  Te "er -" %133
+
+  te er -- go, %137
+  er -- go quae -- su --
+  mus, er -- go quae -- su --
+  mus, tu -- is %140
+  fa -- mu -- lis,
+  fa -- mu -- lis
+  sub -- ve -- ni,
+
+  quos pre -- ti -- %145
+  o -- so san -- gui -- ne
+  re -- de -- mi --
+  sti.
+
+  Et re -- ge %176
+  e -- os, et ex -- tol -- le
+  il -- los us -- que
+  in ae -- ter --
+  num. Per %180
+  sin -- gu -- los
+  di -- es be --
+  ne -- di -- ci -- mus
+  te et lau --
+  da -- mus %185
+  no -- men
+  tu -- um in
+  sae -- cu -- lum,
+  et in
+  sae -- cu -- lum __ %190
+  sae -- cu --
+  li. Di --
+  gna -- re, di --
+  gna -- re
+  Do -- mi -- ne %195
+  si --
+  ne __
+  pec --
+  ca -- to
+  cu -- sto -- %200
+  di -- re, "si -"
+
+  di -- %204
+  gna -- re cu -- %205
+  sto -- di --
+  re. Mi -- se -- re -- re
+
+  re no --
+  stri Do -- %210
+  _ _ mi --
+  ne,
+  cor -- di --
+  a tu -- a Do -- mi --
+  ne, "quem -" %215
+  spe -- ra -- vi --
+  mus in
+  te.
 
   In te, %233
   Do -- mi -- ne, spe --

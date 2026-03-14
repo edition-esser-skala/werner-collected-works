@@ -110,7 +110,7 @@ J-VIViolinoII = {
     s4.. f32 g \tuplet 3/2 8 { e16 d c } c,8 c'32 d e f g a h c \sbOff
     h8 h, \appoggiatura c32 h16 a32 h \appoggiatura d c16 h32 c d16 d' h f d h f d
     c16 a' c a e' c a' e dis fis a \hA fis \hA dis a fis dis %105
-    \sbOn e32 fis g a h cis dis e c h c d e fis g a \sbOff fis16. dis32 e16. g,32 fis16. dis'32 \appoggiatura e32 dis16 cis32 dis
+    \sbOn e32 fis g a h cis dis e c h c d e fis g a \sbOff fis16. dis32 e16. g,32 fis16. dis'32 \appoggiatura e32 dis16 cis32 \hA dis
     e,8 g[\p g g] fis fis fis fis
     g g g g g g g g
     fis fis fis fis fis fis fis fis
@@ -134,8 +134,8 @@ J-VIViolinoII = {
     r c16.\f d32 e16. g32 f16 e f d c h
     c32( g'16.) g32( f16.) f32( e16.) s4.
     a,32( d16.) d32( c16.) c32( b16.) b32( a16.) a32( g16.) g32( f16.) %130
-    \appoggiatura f8 e8.\trill d16 c4 r
-    r8 a'[-!\p a-! a]-! a g16 a
+    \appoggiatura f16 e8.\trill d16 c4 r
+    r8 a'[-!\p a-! a]-! a\trillE g16 a
     s2.
     r8 e[-! e-! e]-! e\trill d16 e
     d8 r r4 r %135
@@ -154,7 +154,7 @@ J-VIViolinoII = {
     f32( c'16.) c32( b16.) b32( a16.) a32( g16.) g32( f16.) f32( es16.)
     d32( d'16.) d32( c16.) c32( h16.) h32( a16.) a32( g16.) g32( f16.) %150
     e!16. g32 f16 e f d c h! c16. b'32 a16 g
-    a f e d g e d c d,8 h'
+    a f e d g e d c d,8 h'!
     c,4 r r
     r8 c'16. d32 e16 .g32 f16 e f d c h
     c4 r r %155
