@@ -1,0 +1,22 @@
+title: Salve Regina
+id: WerW I.4.20
+genre: antiphon
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwi420
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.120
+    rism: 530002016
+    url: https://copia.oszk.hu/kotta/salve-regina-c/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: K 32
+    rism: 600038587
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/495.html
+    license: public domain
+toe: |
+  41 & vl 1 & grace note added by editor \\
