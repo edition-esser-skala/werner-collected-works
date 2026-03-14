@@ -1,0 +1,17 @@
+title: Sub tuum præsidium
+id: WerW I.5.22
+genre: sacred song
+scoring: A, T, B (solo), b, org
+ark: 68748/e1gjw522
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.247
+    rism: 530002123
+    url: https://copia.oszk.hu/kotta/sub-tuum-praesidium-2/
+    license: public domain
+    principal: true
+toe: |
+  9  & B & bar in \A1: a2–\sharp c2 \\
+  55 & A & bar in \A1: g′2–\sharp f′1 \\
