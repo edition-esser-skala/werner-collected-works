@@ -1,0 +1,24 @@
+title: Pastorella
+id: WerW N.4
+genre: pastorella
+festival: Nativitas Domini
+scoring: 2 vl, vla, b, org
+ark: 68748/e1gjwn4
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.289
+    date: 1758
+    rism: 530003620
+    url: https://copia.oszk.hu/kotta/pastorella-6/
+    license: public domain
+    principal: true
+toe: |
+  16 & vl 2 & 2nd \sixteenthNote\ in \A1: g″16 \\
+  24 & org  & 2nd/3rd \quarterNote\ in \A1:
+              \sharp f8.–g32–\sharp f32–e32–d8.–e32–d32–\sharp c32 \\
+  33 & vl 1 & rhythm of 1st \wholeNote\ in \A1:
+              2 × \quarterNoteDotted–\eighthNote \\
+  43 & vl 1 & rhythm of 1st \wholeNote\ in \A1:
+              2 × \quarterNoteDotted–\eighthNote \\
