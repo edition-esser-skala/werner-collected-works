@@ -1,0 +1,30 @@
+title: Debora
+subtitle: Debora, ein WeIb Von Gott erkIeſt, alß StIze SeIner FreVnDen; IaheL, eIn WeIb, ſo Gott erWähLet zVr GeIſeL SeIner FeInDen. Erwießen durch den untergang des König Jabins Feld Haubtmann Sisera
+id: WerW A.19
+genre: oratorio
+scoring: S, A, 3 T, B (solo), S, A, T, B (coro), 2 vl, 2 vla, b, org
+ark: 68748/e1gjwa19
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.12
+    date: 1760
+    rism: 530001922
+    url: https://copia.oszk.hu/kotta/debora-barak-sisera-und-jahel/
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  –  & –  & vla  & In \A1, there is no staff for vla in movements 2. Here, a vla part has been added
+                   by the editor to these movements.
+                   In arias (no. 4),
+                   the vla plays in unison with bc whenever the voice
+                   pauses during the first section.
+                   In accompagnatos (no. ),
+                   it plays unison with bc.
+                   In choruses (no. 2),
+                   it generally plays unison with T in fugues,
+                   and unison with bc otherwise. \\
+commentary: |
+  \includepdf[pages=-,link=false,pagecommand={}]{../works/A_19/appendix.pdf}

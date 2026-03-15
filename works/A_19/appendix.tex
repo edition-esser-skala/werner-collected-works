@@ -1,0 +1,245 @@
+% latexmk -cd -lualatex works/A_19/appendix.tex
+% latexmk -c -cd works/A_19/appendix.tex
+
+\documentclass{ees}
+
+\newlist{lyricslist}{description}{1}
+\setlist[lyricslist]{
+  partopsep=0pt,
+  labelindent=0em,
+  labelwidth=6em,
+  leftmargin=6em,
+  labelsep=0pt,
+  first=\ltseries,
+  font=\normalfont\itshape\ltseries,
+  style=multiline
+}
+
+\newenvironment{lyrics}[1]{%
+  \subsection{#1}\nopagebreak%
+  \begin{lyricslist}%
+  \let\voice\item%
+}{%
+  \end{lyricslist}%
+}
+
+\begin{document}
+
+\clearscrheadfoot
+
+\chapter{Lyrics}
+
+\textit{Unterredende Perſonen.}\\
+Jahel, die beherzte Heldin. Canto.\\
+Debora, Eine mit Prophetiſchen Geiſt begaabte Richterin in Israel. Alto. \\
+Sisera, der Feldfürſt des Cananiter Königs Jabin. Tenore.\\
+Barack, der Israelitiſchen Feld-Obriſter. Baſso.\\
+Chorus. der ſtreitenden Israelitern.
+
+\section{Actus primus}
+
+\begin{lyrics}{Scena prima}
+  \voice[Chorus der Israeliten]
+  Gott Israel, blickh auf daß Joch,\\
+  ſo unßern Ohnmachtsnaken drüket.\\
+  Erbarme dich und helffe doch\\
+  eh unßer Hofnungsgeiſt erſtiket.\\
+  Zernicht den Zwang von Bänden\\
+  der bangen Dienſtbarkeit\\
+  und mach von Feundesbanden\\
+  dein Israel befreyt,\\
+  und mach dein Volk befreyt.
+\end{lyrics}
+
+\begin{lyrics}{Scena secunda}
+  \voice[Debora]
+  Er ſterbe, er ſterbe. Diſer Schluß,\\
+  der unßre Freyheit flüglen muß,\\
+  ſoll unſrer Feunde Dämpfer ſeyn.
+
+  \voice[Barak]
+  Welch Raßen nimmt dich ein?\\
+  Laßtu den Sanfftmuethsgeiſt\\
+  auß ſeinen Trieben gleitten,\\
+  du wüetteſt mit dir ſelbſt,\\
+  waß will mir daß bedeuthen?\\
+  Wohin verlierſt du dich?
+
+  \voice[Debora]
+  Ja Barak höre mich,\\
+  und durch mich Gottes Willen,\\
+  den Ich und du erfüllen\\
+  durch ſein Geheißen ſoll.\\
+  Der Herr, von dem daß Wohl\\
+  ſowie daß Weh entſprünget,\\
+  der Helden höbt und ſtürzt,\\
+  der Wueth und Lüſt bezwünget,\\
+  der unſern Feund erhub\\
+  damit er tieffer fallt,\\
+  will nun durch unſer Schwerd,\\
+  gelenket durch den Gewald,\\
+  der ßeine Allmacht wird\\
+  in unſre Kräfften ſenken,\\
+  durch den geſtürzten Feund\\
+  unß unſer Freyheit ſchenkhen.
+
+  \voice[Barak]
+  Wie dunkel redeſt du\\
+  von Troſt ergänzten Sachen,\\
+  waß ſoll ich mir hierauß\\
+  dan vor Begriffe machen.
+
+  \voice[Debora]
+  Held, höre fehrner zue,\\
+  du wirſt ſogleich daß Liecht\\
+  in meinen Reden fünden,\\
+  den Werkzeug, welchen Gott\\
+  zur Geißel unſrer Sünden\\
+  bißhero angewant,\\
+  ſoll unſre Tapferkeit\\
+  alß zweyter Werkzeug auch\\
+  ſelbſt wider brechen,\\
+  und zwar in einen Streit,\\
+  den du mit Sisera ſolſt wagen,\\
+  wo du zwar Israel wirſt rächen,\\
+  doch ſeinen Feund nicht ſchlagen.
+
+  \voice[Barak]
+  Du ſprichſt geheimnußvoll\\
+  und lokerſt meinen Sinn\\
+  zu ganz verwirten Denken,\\
+  wohin wird endlich ſich\\
+  dein klarer Ausſpruch lenken?
+
+  \voice[Debora]
+  Ich rede, wie ich ſoll,\\
+  nun frage weiter nicht,\\
+  die Zeit wird dich ſchon lehren,\\
+  waß Sieg und Schlagen heiſt,\\
+  jez folge nun dem Herren,\\
+  der dich durch beſondern Ruff\\
+  zu ſeines Israels\\
+  Befreyer hat ernennet,\\
+  du ſolſt die Kriegesflamm,\\
+  ſo um den Tabor brennet,\\
+  mit tapferen Behuf\\
+  von zehentauſend Mann\\
+  der Kinder Sabulon\\
+  und Nephtalim erſtüken.\\
+  Doch wird die Siegeskron\\
+  von dißesmahl ſich nicht\\
+  um deine Schläffe ſchicken,\\
+  dan Gott wird Sisera\\
+  und ſein erboßtes Leben\\
+  in eines Weibes Hände geben.
+
+  \voice[Barak]
+  Bringt eines Weibes Hand\\
+  ſo villes wohl zu Stand,\\
+  daß ſie auch Helden überwindet?
+
+  \voice[Debora]
+  Wenn Gott die Siegeskrafft\\
+  auf Weiber Armbe bindet,\\
+  ſo zwüngt ein Weibe diß,\\
+  waß auch bey Helden offt\\
+  ſchon unerzwünglich ſcheint und hieß.
+\end{lyrics}
+
+\begin{lyrics}{Aria prima}
+  \voice[Debora]
+  Es muß nicht ſtäts ein Donnerſtein\\
+  den ſtolzen Keder ſchmettern,\\
+  und nicht alzeit ein Sturmwind ſeyn\\
+  die Äeſte abzublättern.\\
+  Indeme auch zuweil\\
+  ein ſchwach doch ſcharffes Beill\\
+  ihn khan zu Boden werffen.\\[1ex]
+  Alßo wird ein ſchwaches Weib,\\
+  welchen Gott die Hände führet,\\
+  wan ſie auch den ſtärkeſten Leib\\
+  eines Helden nur berühret\\
+  den Sieg erwarthen därffen.
+\end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+\end{document}
