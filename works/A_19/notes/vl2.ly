@@ -200,3 +200,221 @@ A-XIXAAriaPrimaViolinoII = {
     R4.\fermata \markDaCapo \bar "||" %111 finis
   }
 }
+
+A-XIXAScenaQuartaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XIXAScenaQuarta
+    r16 b''\f f16. d32 b16. d32 \hA b16. f32 d4 r16 d' c16. h32
+    c4 r b r
+    r16 es, es16.( g32) g16.( b32) b16.( es32) c4 r
+    a r e' r
+    r32 a,\ff a a a a a a a a a a a a a a d,4 r %5
+    d' r r16 es(\p c16.) g32( es16.) c32( \hA es8)
+    r2 d'4 r
+    r32 es,\f f g as b c d es g, \hA as \hA b c d \hA es f g4 r
+    c,\pE r r16 g' \tuplet 3/2 8 { g[ f g] } r b, \tuplet 3/2 8 { b[ as \hA b] }
+    r b \tuplet 3/2 8 { b[ as \hA b] } r4 r16 as es16. c32 as4 %10
+    R1
+    r32 f'\ff g a b c d es f \hA b, c d \hA es f g a b a g f \hA es d c \hA b f' \hA es d c \hA b as g f
+    g4 r g\pE r
+    c r c r
+    r16 d f,16. b32 d,16. f32 b,8 r2 %15
+    r16 c'8 c16 c8 r r16 b d16. \hA b32 g16. h32 h16. d32
+    g,4 r e! r
+    e' r a,32( d,16.) a'32( f16.) d'32( a16.) f'32( d16.)
+    c16 b32 a g f e d c8 r r2
+    f64_[( a32.) g64( b32.) a64( c32.) \hA b64( d32.)] c64( e32.) d64( f32.) e64( g32.) f16 r2 %20
+    R1*7 %27
+    R1\fermata \bar "|." %28 finis
+  }
+}
+
+A-XIXAAriaSecundaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key es \lydian \time 12/8 \tempoA-XIXAAriaSecunda
+    es16\f d es f g as b8 b, r es'16 d es f g a b8 b, r
+    c'( e,) f b( d,) es c(\p e,) f b( d,) es
+    as16\f b \hA as g f es d4 r8 g( a) b-! f-! a-! b-!
+    g(\p a) b-! f-! a-! b-! es(\f g,) as d( fis,) g
+    c( e,) f b( d,) es as16 g f es d c b8 d' es %5
+    c as b es, es'16 d c b as8 f b es,16 g b g es'8
+    r g\p es r es b r b g r g\f es
+    f( a!) b a( c) a b16 f d' b f' d b'8 b, r
+    r f\p a r b d r d, f r g b
+    r d f r a, b r2*3/2 %10
+    \sbOn r8 a16([\p b) \tuplet 3/2 8 { c b a] } r8 b16([ c) \tuplet 3/2 8 { d c b] } r8 a,16([ b) \tuplet 3/2 8 { c b a] } r8 b16([ c) \tuplet 3/2 8 { d c b] } \sbOff
+    g'8( h,) c f( a,) b es( g,) a b f' d
+    b g' es c a' r d, b' r f c' a
+    f16\f b d8 f b f d r2*3/2
+    r4 r8 b,16\f a b c d es f8 c r b'16 a b c d e %15
+    f e f g a f g8( h,) c f( a,) b es( g,) a
+    d( fis,) g c16 es d c b a b8 c d g g,16 fis g8
+    fis d r r4 r8 r4 r8 c'(\p e,) f
+    r4 r8 b( d,) es r4 r8 a( cis,) d
+    R1. %20
+    r2*3/2 d'8(\p fis,) g es'4.~
+    es16 d32 es f16 es d cis d4.~ d16 c?32 d es16 d c h c4.
+    b16( c) d( es) f( as,) g8 r r r4 r8 r b4~\f
+    b16 as g f es d c' b as g f es d' c b as g f es' d c b as g
+    f' es d c b as g \hA as b8 es16 d c b as g f es d8 b b'\p %25
+    g r r r f' b g r r r4 r8
+    r2*3/2 r4 r8 r4 es,8\f
+    c( d) es f4 d8 b( c) d es es' es
+    es( g,) as d( fis,) g c( e,) f b( d,) es
+    as16 g f es d c b8 d' es c as b es, es' es \noBreak %30
+    r es es r es es c b16 as g f g4\fermata r8
+    \time 4/4 \tempoA-XIXAAriaSecundaB \newSpacingSection
+      r2 r4 r8 g\p \noBreak
+    es'4 r8 c f4 r8 b,
+    g'4 r8 g c,4 r8 d
+    g,4 r8 as f'4 r8 g, %35
+    es'4 r8 d, b'4 r
+    \sbOn g32(\f fis g a) b16 g fis32( e? \hA fis g) a16 \hA fis \tuplet 3/2 8 { g16\trill \hA fis g b\trill a b c\trill b c a\trill g a } \sbOff
+    g32 g' f! es! d c b a g4 r r8 d\p
+    b'4 r r8 f c'4
+    r8 f, b4 r2 %40
+    R1
+    r8 a\p a16( fis) fis8 r2
+    \sbOn d16\ff d32 d d( e64 fis g a b c) \sbOff d16 a fis d r2
+    R1*2 %45
+    R1\fermata \markDaCapo \bar "||" %46 finis
+  }
+}
+
+A-XIXAScenaQuintaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XIXAScenaQuinta
+    R1
+    r8 f'(\p c) as( fis4) r
+    r32 g\f a b c d es f g16 d b g r2
+    r32 b'\f a g f es d c b d c \hA b a g f es d4 r
+    r2 r16 { c64(\ff d es f) } g16[ \tuplet 5/4 { es64( f g a h)] } c16 \tuplet 5/4 { g64( a h c d) } es16[ c64( d \hA es f)] %5
+    g4 r r2
+    r16 c,\p c32( as16.) as32( es16.) es32( c16.) c4 r
+    r16 a'\p a16. fis32 a8. a16 d,4 b'
+    g4. fis8 a4 b8 a
+    \mvTr f2\p-\markup \remark "stendato" es %10
+    c a'
+    f g
+    d' g,4 f
+    d2 c
+    d e %15
+    c4 d2 g4
+    a2 g4. d8
+    e4 r r2\fermata \bar "|." %18 finis
+  }
+}
+
+A-XIXAAriaTertiaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/8 \tempoA-XIXAAriaTertia
+    a16\f a' gis a c a
+    h, a' gis a c a
+    c, a' gis a c a
+    d, a' gis a c a
+    gis8 r r %5
+    e16( a) g!8 e
+    f r r
+    d16( g) f8 d
+    e r g
+    a16( c) h( d) c( e) %10
+    d8 e f
+    gis,16( h) a( c) h( d)
+    \tuplet 3/2 8 { c h a } c8 a
+    \tuplet 3/2 8 { h16 a h } gis8 h
+    a32( c16.) d32( c16.) h32( a16.) %15
+    gis16( a) \hA gis( fis) e8
+    r a h
+    c32( e16.) d32( c16.) h32( a16.)
+    a'32( f16.) e32( d16.) c32( h16.)
+    c32(\p e16.) d32( c16.) h32( a16.) %20
+    h32( d16.) c32( h16.) a32( gis16.)
+    a8 c,16\f d e8
+    a,4 r8
+    \sbOn \tuplet 3/2 8 { gis'16\p a h } a32( \hA gis16.) fis32( e16.)
+    R4. %25
+    \tuplet 3/2 8 { c'16 d e } d32( c16.) h32( a16.)
+    \tuplet 3/2 8 { f!16 g! a } g32( f16.) e32( d16.)
+    R4.
+    \tuplet 3/2 8 { e16 f g } f32( e16.) d32( c16.) \sbOff
+    R4.*2 %31
+    fis32( a16.) g32( \hA fis16.) e32( d16.)
+    R4.*2
+    c16\p c' h c e c %35
+    d, c' h c e c
+    e, c' h c e c
+    f, c' h c e c
+    h8 d g
+    c,4 r8 %40
+    d4 r8
+    e4 a,8
+    h16( g') fis( e) d( c)
+    d4 r8
+    R4.*3 %47
+    e,32(\f h'16.) a32( gis16.) fis?32( e16.)
+    c'8 a4~
+    a16.\trill gis64 a h8 a %50
+    gis g4~
+    g16.\trill fis64 g a8 g
+    fis f4~
+    f16.\trill e64 f g8 f
+    e32( g16.) f32( e16.) d32( c16.) %55
+    \slurDashed f32( a16.) g32( f16.) e32( d16.) \slurSolid
+    g32( h16.) a32( g16.) f32( e16.)
+    a16.\trill h64 c d8 c
+    h32( d16.) c32( h16.) a32( g16.)
+    R4.*4 %63
+    e'32(\p g16.) f32( e16.) d32( c16.)
+    r8 a f' %65
+    r h, g'
+    r c, a'
+    r d, h'
+    e,32( g16.) f32( e16.) d32( c16.)
+    a32( c16.) b32( a16.) g32( f16.) %70
+    d'32( a'16.) g32( fis16.) e32( d16.)
+    h!32( d16.) c32( h16.) a32( g16.)
+    e'32( h'16.) a32( gis16.) fis32( e16.)
+    c32( e16.) d32( c16.) h32( a16.)
+    f'!32( e16.) d32( c16.) h32( a16.) %75
+    gis16(\trill fis) \hA gis( a) h( \hA gis)
+    a(\trill gis) a( h) c( a)
+    h(\trill a) h( c) d( h)
+    c8 a r
+    R4.*5 %84
+    \tuplet 3/2 8 { c16\f h a } c8 a %85
+    \tuplet 3/2 8 { h16 a h } gis8 h
+    a32( c16.) d32( c16.) h32( a16.)
+    gis16( a) \hA gis( fis) e8
+    r a h
+    c32( e16.) d32( c16.) h32( a16.) %90
+    a'32( f16.) e32( d16.) c32( h16.)
+    c32(\p e16.) d32( c16.) h32( a16.)
+    h32( d16.) c32( h16.) a32( gis16.)
+    \sbOn a8\f \tuplet 3/2 8 { c,16 h c e d e } \sbOff
+    a8 e c \noBreak %95
+    a4 r8\fermata \bar "||"
+    \time 4/4 \tempoA-XIXAAriaTertiaB \newSpacingSection
+      r2 r8 h\p\trill e \trill g\trill \noBreak
+    h\trill g\trill e\trill h\trill r e\trill g\trill h\trill
+    e\trill h\trill g\trill e\trill r4 r8 g\pp
+    fis h cis dis e8. e16 dis( e) cis( \hA dis) %100
+    h8 g16( a) fis( g) e( \hA fis) dis8 r r4
+    R1
+    g8\p c g16( a) f!( g) e4 r
+    R1
+    r8 fis a16( h) g( a) fis4 r %105
+    r r8 es'\pp cis( d) r d
+    h!( c) r g g( fis) d4
+    g2.\p a4~
+    a h4. c4 d8~
+    d16 c d8 r4 r8 a' fis16( e) \hA fis8 %110
+    h,16( a) h8 r4 r8 dis4 fis8
+    r e4 g8 r fis4 a8
+    R1
+    R\fermata \markDaCapo \bar "||" %114 finis
+  }
+}
