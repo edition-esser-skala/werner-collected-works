@@ -139,7 +139,7 @@ B-LXXVIGloriaOrgano = {
     \tempoB-LXXVIQuiTollis e'2~-\tutti e \noBreak
     e4 r r8 f f f
     dis2 e4 c!
-    h1~-\markup \remark "con Pedale"
+    h1~-\conPedale
     h4 r r8 d!4 d8 %35
     c4. d8 e2
     fis4 h, fis2
@@ -750,7 +750,7 @@ B-LXXVIAgnusOrgano = {
     \clef bass d,8. d16 d8 fis d4 r
     g, r c8. c16 c8 e
     c4. g'8 c, c'16 h a8 g
-    fis g d4 g, r8 d'-\markup \remark "con Pedale" %35
+    fis g d4 g, r8 d'-\conPedale %35
     g4 r8 d g,4 r\fermata \bar "|." %36 finis
   }
 }

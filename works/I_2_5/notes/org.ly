@@ -41,7 +41,7 @@ I-II-VOrgano = {
       g~
       g4*1/2
     } \\ {
-      \mvDl <g g,>1~\pE_\org-\solo-\markup \remark "con pedale" \noBreak %30
+      \mvDl <g g,>1~\pE_\org-\solo-\conPedale \noBreak %30
       q~
       q8
     } >> \clef treble \mvTr g'[-!\fE-\tuttiE g-! g]-! cis \clef bass g,[ g g]

@@ -634,7 +634,7 @@ B-XLVSanctusOrgano = {
     r4 d f d f a \noBreak
     b a8 g a4 g a a, %45
     \time 4/4 \tempoB-XLVOsannaB \newSpacingSection
-      d4 r r8 b'-\markup \remark "con pedale" fis d
+      d4 r r8 b'-\conPedale fis d
     g d b g d'4 r\fermata \bar "|." %47 finis
   }
 }

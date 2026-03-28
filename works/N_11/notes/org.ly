@@ -176,7 +176,7 @@ N-XIOrgano = {
     g'4\fE r8 d
     h g r d'\p
     h g r d'\f
-    g,2~-\markup \remark "con Pedale"
+    g,2~-\conPedale
     g~ %5
     g4 r
     R2
@@ -223,7 +223,7 @@ N-XIOrgano = {
       g( g) g( g)
       g( g) g( g) %40
     } \\ {
-      g,2~-\markup \remark "con Pedale" %35
+      g,2~-\conPedale %35
       g~
       g~
       g~

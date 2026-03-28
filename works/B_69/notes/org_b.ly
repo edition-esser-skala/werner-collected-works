@@ -139,7 +139,7 @@ B-LXIXbGloriaOrgano = {
     c a f g c,4 r\fermata \bar "||"
     \key c \major \tempoTitleMarkup "Qui tollis" "Largo"
       a''4-\solo f d e \noBreak
-    a,8 r gis-\markup \remark "con pedale" r a r d r
+    a,8 r gis-\conPedale r a r d r
     e4 f!-\tutti gis8 a d, e
     f4 d8 g a, b g a %60
     fis g << { e' f } \\ { e, } >> d' e cis d \noBreak
@@ -541,7 +541,7 @@ B-LXIXbCredoOrgano = {
     f4 r8 d g[ g8. a16 h8]
     c[ g8. a16 h8] c[ c,8. d16 e8]
     f[ d8. e16 f8] g[ e8. f16 g8]
-    a f g g, c,[ c'8.-\markup \remark "con pedale" d16 e8] %130
+    a f g g, c,[ c'8.-\conPedale d16 e8] %130
     f[ d8. e16 f8] g[ e8. f16 g8]
     a f g4 c, r\fermata \bar "|." %132 finis
   }
@@ -739,7 +739,7 @@ B-LXIXbSanctusOrgano = {
     g1~\p^\tasto
     g~ %50
     g
-    c4-\markup \remark "con pedale" a'-! f-! g-!
+    c4-\conPedale a'-! f-! g-!
     c, r r2\fermata \bar "|." %53 finis
   }
 }

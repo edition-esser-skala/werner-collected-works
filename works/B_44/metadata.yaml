@@ -14,12 +14,6 @@ sources:
     principal: true
 tocstyle: default
 toe: |
-  – & –   & org     & In \B1, the directive \textit{con Pedale} appears in
-                      movements (bars) 1 (2, 9), 2 (18, 45, 47), 3 (52, 100),
-                      4 (5), and 6 (47). By contrast, vlne contains
-                      \textit{piano} at these positions.
-                      Thus, dynamics in the original org manuscript
-                      might have been misinterpreted upon copying. \\
   2 & 21f & vlne    & bars in \B1 one octave higher \\*
   3 & 84  & A       & 7th \eighthNote\ in \B1: e′8 \\
     & 92  & vl 1    & 4th \eighthNote\ in \B1: g″16.–\sharp f″32 \\

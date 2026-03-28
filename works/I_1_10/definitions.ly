@@ -1,7 +1,5 @@
 \version "2.24.0"
 
-conPedale = \markup \remark "con pedale"
-
 tempoI-I-Xa = \tempoMarkup "Adagio"
 tempoI-I-Xb = \tempoMarkup "Tempo moderato" %70
 tempoI-I-Xc = \tempoMarkup "Allegro" %105

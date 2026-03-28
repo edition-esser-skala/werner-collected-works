@@ -61,7 +61,7 @@ I-IV-LaOrgano = {
     a r fis' r e2~-\tasto
     e4 e, a8 r d r
     e1-\tasto %55
-    r8 f!-\markup \remark "con pedale" e dis e4 e, \noBreak
+    r8 f!-\conPedale e dis e4 e, \noBreak
     a2 r\fermata \bar "||"
     \key a \major \time 6/8 \tempoI-IV-XLIXd \newSpacingSection
       \mvTr a8\f-\tutti h cis d e fis \noBreak

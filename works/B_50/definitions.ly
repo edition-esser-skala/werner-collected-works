@@ -4,7 +4,6 @@ markOsannaUtSupra = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark "Osanna ut supra"
 }
-conPedale = \markup \remark "con Pedale"
 
 tempoB-LKyrie = \tempoMarkup "Vivace"
   tempoB-LChriste = \tempoMarkup "Molto andante"

@@ -451,7 +451,7 @@ B-XXXIXCredoOrgano = {
     f2 r8 a! c fis,
     g4 f es! d
     c b! as2
-    g4 c8 g'-\markup \remark "con Pedale" c g es c \noBreak %70
+    g4 c8 g'-\conPedale c g es c \noBreak %70
     g g g g g4 r\fermata \bar "||"
     \time 2/1 \tempoB-XXXIXCrucifixus \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2

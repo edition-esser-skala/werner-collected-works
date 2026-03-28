@@ -83,8 +83,8 @@ G-IXOrgano = {
     g4 r r2 %70
     r r8 g g' f
     e!4. d8 cis a r4
-    a8-\markup \remark "con Pedale" a' f d a4 a'8 g
-    fis4 d g4. g8-\markup \remark "con Pedale"
+    a8-\conPedale a' f d a4 a'8 g
+    fis4 d g4. g8-\conPedale
     gis2 a8 f b g \noBreak %75
     a4 a, d2\fermata \bar "||"
     \key g \major \tempoG-IXe

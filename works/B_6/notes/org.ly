@@ -507,7 +507,7 @@ B-VICredoOrgano = {
     r f8 f es! es
     d d g4 a b!8 g
     a a a, a d4 d \noBreak
-    gis,2-\markup \remark "con pedali" a\fermata \bar "||"
+    gis,2-\conPedale a\fermata \bar "||"
     \key d \major \tempoB-VIEtResurrexit
       \mvTr d2\fE-\tutti e \noBreak %50
     fis g

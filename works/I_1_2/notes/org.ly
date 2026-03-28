@@ -48,7 +48,7 @@ I-I-IIOrgano = {
     r4 d f g a2 a, \segnoMark 1
     \time 4/4 \tempoI-I-IIb
       \unset Staff.timeSignatureFraction \newSpacingSection
-      r2-\markup \remark "con pedale" a'8 a a a \noBreak
+      r2-\conPedale a'8 a a a \noBreak
     g g es es cis cis d d
     h h h h a2~
     a d,\fermata \bar "|." %45 finis

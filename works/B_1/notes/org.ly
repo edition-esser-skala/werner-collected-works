@@ -657,7 +657,7 @@ B-ICredoOrgano = {
     gis4. gis8 a4 fis
     e cis h! e %60
     h2 e4 r
-    r8 \mvTr ais,\p-\markup \remark "con pedale" ais ais h2 \noBreak
+    r8 \mvTr ais,\p-\conPedale ais ais h2 \noBreak
     e, r\fermata \bar "||"
     \tempoB-ICrucifixus
       \mvTr a8\pE-\solo c gis e a4 a' \noBreak

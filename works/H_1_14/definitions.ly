@@ -1,7 +1,5 @@
 \version "2.24.0"
 
-conPed = \markup \remark "con pedale"
-
 tempoH-I-XIVa = \tempoMarkup "Vivace"
 tempoH-I-XIVb = \tempoMarkup "Vivace"
 tempoH-I-XIVc = \tempoMarkup "Vivace"

@@ -202,7 +202,7 @@ B-XLIIIGloriaOrgano = {
     g8. f16 e8 f c4 r %75
     a a' b a
     g f e! d
-    cis b! a \mvTr a'8\pE-\markup \remark "con pedale" cis,
+    cis b! a \mvTr a'8\pE-\conPedale cis,
     d4 cis d2 \noBreak
     a r\fermata \bar "||" %80
     \tempoB-XLIIIQuoniam \mvTr f4\fE-\solo r f r \noBreak

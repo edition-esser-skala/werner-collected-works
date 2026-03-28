@@ -126,7 +126,7 @@ I-III-VIOrgano = {
     r b! b b b b
     r as as as as as
     r fis fis fis fis fis %115
-    r g\pp^\markup \remark "con pedale" g g g g
+    r g\pp^\conPedale g g g g
     r g g g fis fis \noBreak
     g1 r2\fermata \bar "||"
     \key c \major \time 4/4 \tempoI-III-VIf \newSpacingSection

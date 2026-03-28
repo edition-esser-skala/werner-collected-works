@@ -385,7 +385,7 @@ B-XXXICredoOrgano = {
     g fis g4 d16 \clef bass \mvTr d[\fE-\tutti fis a] d a fis d
     g, d' h d g d h g c e' c e gis, h e, gis
     a, a' c a d a f d g,! g' h g c g e c
-    g' d h g r8 gis'-\markup \remark "con pedale" a e c a %50
+    g' d h g r8 gis'-\conPedale a e c a %50
     e' gis a cis, d fis g h,
     c e a fis g c, d d,
     g16 d' \mvTr h\pE-\solo d g d h g d' a' fis a d a fis d
@@ -625,7 +625,7 @@ B-XXXIBenedictusOrgano = {
     h4 g d' d,
     \after 4 -\tastoE a'1~
     a
-    a,2 d8 d'-\markup \remark "con pedale"-\unisonoE h g
+    a,2 d8 d'-\conPedale-\unisonoE h g
     a4 a, d r\fermata \bar "|." %45 finis
   }
 }

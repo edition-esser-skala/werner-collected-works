@@ -1,6 +1,5 @@
 \version "2.24.0"
 
-conPedale = \markup \remark "con pedale"
 markOsannaUtSupra = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark "Osanna ut supra"

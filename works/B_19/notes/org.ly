@@ -9,7 +9,7 @@ B-XIXKyrieOrgano = {
     d4 r r8 d d d
     d2~ d
     e4 f d dis %5
-    e1~-\markup \remark "con pedale"
+    e1~-\conPedale
     e2. r4
     r8 cis cis cis r d d d
     r g g g r c! c c
@@ -17,7 +17,7 @@ B-XIXKyrieOrgano = {
     r g g g r f f e
     r d d c r b b a
     r g g' f e r r a
-    d a f d a2~-\markup \remark "con pedale"
+    d a f d a2~-\conPedale
     a1~ \noBreak %15
     a\fermata \bar "||"
     \clef treble \time 3/2 \tempoB-XIXChriste \newSpacingSection
@@ -59,7 +59,7 @@ B-XIXKyrieOrgano = {
     g4. a8 b4 gis
     \clef bass << { a } \\ { a,4. } >> h8 cis4 a
     h cis d b
-    a1~-\markup \remark "con pedale"
+    a1~-\conPedale
     a~ %45
     a~
     a
@@ -204,7 +204,7 @@ B-XIXGloriaOrgano = {
     e c! r f d b r e
     cis a d d, a'4 r8 f'
     g f16 e a8 a, d d' b g
-    a f16 d a4 d8 b-\markup \remark "con pedale" g a
+    a f16 d a4 d8 b-\conPedale g a
     d,4 r r2\fermata \bar "|." %70 finis
   }
 }
@@ -354,7 +354,7 @@ B-XIXCredoOrgano = {
     r8 g' f e d4 r
     r8 es d c h h c c %50
     d d es es e e cis cis
-    d(-.-\markup \remark "con pedale" d-.) d(-. d-.) d(-. d-.) d(-. d-.)
+    d(-.-\conPedale d-.) d(-. d-.) d(-. d-.) d(-. d-.)
     d4 r8 d g d b g \noBreak
     d'2 r\fermata \bar "||"
     \time 3/2 \tempoB-XIXEtResurrexit \newSpacingSection
@@ -575,7 +575,7 @@ B-XIXSanctusOrgano = {
     r8 g e f c c r4
     f8 f f f d d b b
     c f c4 f, r \noBreak %15
-    r r8 c'-\markup \remark "con pedale" f,4 r\fermata \bar "||"
+    r r8 c'-\conPedale f,4 r\fermata \bar "||"
     \time 3/2 \tempoB-XIXOsanna \newSpacingSection
     << {
       s2 d''1 \noBreak %17
@@ -673,7 +673,7 @@ B-XIXBenedictusOrgano = {
     f4 r8 a b4 h
     c cis d4. c8
     b!2 a4 r
-    a^\markup \remark "con pedale" r a r\fermata \markOsannaUtSupra \bar "||" %15 finis
+    a^\conPedale r a r\fermata \markOsannaUtSupra \bar "||" %15 finis
   }
 }
 
@@ -723,7 +723,7 @@ B-XIXAgnusOrgano = {
     \mvTr a'4.\fE-\tutti f8 d4 e
     a, r gis-\solo r
     a f' d e
-    f4.-\tutti c8 f4 f,8 fis'-\soloE-\markup \remark "con pedale" %25
+    f4.-\tutti c8 f4 f,8 fis'-\soloE-\conPedale %25
     g4. d8 g4. e8
     a4.-\tutti e8 a4. e8
     a e c a e4 e'
@@ -734,7 +734,7 @@ B-XIXAgnusOrgano = {
     d d' b! gis
     a r r2
     \tempoB-XIXDonaB e4\p r r2 %35
-    h4 r a-\markup \remark "con pedale" d
+    h4 r a-\conPedale d
     a2 d\fermata \bar "|." %37 finis
   }
 }

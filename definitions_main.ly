@@ -9,6 +9,7 @@
 
 allaOttava = \markup \remark "alla 8va"
 allaOttavaE = \markup \remarkE "alla 8va"
+conPedale = \markup \remark "con pedale"
 incipitVlISoprano = \incipit "I" "soprano" #-16.1 #-0.8
 incipitVlIISoprano = \incipit "II" "soprano" #-16.4 #-0.8
 incipitVlIIAlto = \incipit "II" "alto" #-16.4 #-0.8

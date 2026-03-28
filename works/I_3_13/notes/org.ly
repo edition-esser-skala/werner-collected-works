@@ -89,7 +89,7 @@ I-III-XIIIOrgano = {
     d4 g c, f
     h,2 c4 \hA h %80
     c2 g4 r \noBreak
-    g2~-\markup \remark "con pedale" g4 r\fermata \bar "||"
+    g2~-\conPedale g4 r\fermata \bar "||"
     \key c \major \tempoI-III-XIIIe
       \mvTr c4.\fE-\tutti c8 c4. c8 \noBreak
     c4 r c r
@@ -110,7 +110,7 @@ I-III-XIIIOrgano = {
     c e f a h, g' e \mvTr c\fE-\tutti
     a' f g g, c4. c8 %100
     c4. c8 c4 r8 c
-    a' f g4 c8 g-!-\markup \remark "con pedale" e-! g-!
+    a' f g4 c8 g-!-\conPedale e-! g-!
     c,4 r r2\fermata \bar "|." %103 finis
   }
 }

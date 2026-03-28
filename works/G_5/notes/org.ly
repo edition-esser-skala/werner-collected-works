@@ -67,7 +67,7 @@ G-VOrgano = {
     es2.
     d2 es4
     c d d, %55
-    g g'-\markup \remark "con Pedale" g
+    g g'-\conPedale g
     es c d \noBreak
     g,2 r4\fermata \bar "||"
     \clef "treble_8" \twotwotime \key g \major \time 2/2 \tempoG-Vd \newSpacingSection

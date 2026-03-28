@@ -5,14 +5,14 @@ B-XLIVKyrieOrgano = {
     \clef bass
     \key d \major \time 4/4 \tempoB-XLIVKyrie
     \mvTr d'4.\fE-\tutti a8 fis d fis a
-    d4 r8 a\p fis d fis a
+    d4 r8 \mvTr a\p-\conPedale fis d fis a
     d4 r8 a\fE d a fis d
     a4 r r2
     R1 %5
     r2 r4 r8 \mvTr a\fE-\tutti
     h d e g! a, cis d fis
     g, h cis e fis, fis' h, e
-    fis e fis fis, h4 r8 \mvTr h'\pE-\solo
+    fis e fis fis, h4 r8 \mvTr h'\pE-\solo-\conPedale
     ais4 r8 fis h4 r8 h, %10
     cis4 r8 a! d4 r8 \mvTr fis\fE-\tutti
     g h cis, e fis a h, d
@@ -66,7 +66,7 @@ B-XLIVGloriaOrgano = {
     g2. %15
     fis4 dis2
     e r4
-    f!2-\tastoE r4
+    f!2-\tastoE-\conPedale r4
     gis2 r4
     a2 r4 %20
     ais,2-\critnote r4
@@ -99,9 +99,9 @@ B-XLIVGloriaOrgano = {
     fis h a g
     fis e dis4
     e8 d16 cis d8 e cis d g,4
-    \mvTr a1~\p-\tastoE %45
+    \mvTr a1~\p-\tastoE-\conPedale %45
     a2 a8\fE d a4
-    \mvTr d1~\p-\tastoE
+    \mvTr d1~\p-\tastoE-\conPedale
     d8 d'\fE h! fis g d h g
     d'2 r\fermata \bar "|." %48 finis
   }
@@ -217,7 +217,7 @@ B-XLIVCredoOrgano = {
     c cis2
     d r4 %50
     gis a a,
-    d b-\tastoE f
+    d b-\tastoE-\conPedale f
     g a2 \noBreak
     d,2 r4\fermata \bar "||"
     \key d \major \time 3/2 \tempoB-XLIVEtResurrexit
@@ -276,7 +276,7 @@ B-XLIVCredoOrgano = {
     } \\ {
        d, e16 fis g e fis8
     } >> \clef "treble_8" a, h16 cis d h cis8 \noBeam \clef bass d, e16 fis g e
-    fis g a fis g a h g a2~-\tastoE %100
+    fis g a fis g a h g a2~-\tastoE-\conPedale %100
     \once \tieDashed a~ a8 d, a4
     d r r2\fermata \bar "|." %102 finis
   }
@@ -393,7 +393,7 @@ B-XLIVSanctusOrgano = {
     h' fis r
     g a2
     d, r4
-    \mvTr g,4\p-\tastoE a2 %5
+    \mvTr g,4\p-\tastoE-\conPedale a2 %5
     d4-\critnote r h\f
     e r cis
     fis r d
@@ -570,7 +570,7 @@ B-XLIVAgnusOrgano = {
     a~
     a4 fis h %45
     g a2
-    \mvTr <d d,>2.~\pE-\tastoE
+    \mvTr <d d,>2.~\pE-\tastoE-\conPedale
     q~
     q2 r4\fermata \bar "|." %49 finis
   }

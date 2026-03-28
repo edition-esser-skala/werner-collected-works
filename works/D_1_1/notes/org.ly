@@ -16,12 +16,12 @@ D-I-I-Organo = {
     c32\f c, c c c c c c c c c c c c c c c c c c c c c c e8 c %10
     f d g e a f h g \noBreak
     c c, r4 r2
-    \tempoD-I-I-b c4-\markup \remark "con pedale" r f r \noBreak
+    \tempoD-I-I-b c4-\conPedale r f r \noBreak
     <g g,>1~
     q4 r r2 %15
     c,4 r r2
     f,8 f' f f d d h h
-    g4 r r r8 g-\markup \remark "con pedale" \noBreak
+    g4 r r r8 g-\conPedale \noBreak
     c g es c \tempoD-I-I-c g'4 r8 h \noBreak
     c c, r e'! f f, r d' %20
     g g, r16 g' h g c8 h16 a g f e d
@@ -81,7 +81,7 @@ D-I-I-Organo = {
     \time 3/4 \tempoD-I-I-f \newSpacingSection
       \mvTr g4\fE-\tutti g' d \noBreak
     g, r r %75
-    g-\markup \remark "con pedale" g' d
+    g-\conPedale g' d
     g, h r8 \tuplet 3/2 8 { g16 a h }
     c4 a r8 \tuplet 3/2 8 { a16 h c }
     d4 r r
@@ -99,7 +99,7 @@ D-I-I-Organo = {
     d[ g] fis r g r
     d r r4 r
     r8 e \noBeam c r d r
-    g,[ e']-\markup \remark "con pedale" c r d r
+    g,[ e']-\conPedale c r d r
     g,4 r r\fermata \bar "|." %95 finis
   }
 }

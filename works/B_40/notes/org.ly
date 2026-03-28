@@ -518,7 +518,7 @@ B-XLCumSanctoOrgano = {
     c8 g e c g' \clef bass g,[ g' g]
     e16 f e d c d e c f g f e d e f d
     g a g f e f g e a8 f g g, %145
-    c-!-\markup \remark "con pedale" e-! a-! c,-! h-! d-! g-! h,-!
+    c-!-\conPedale e-! a-! c,-! h-! d-! g-! h,-!
     a-! c-! f-! a,-! g-! c-! g4
     c r r2\fermata \bar "|." %148 finis
   }
@@ -708,7 +708,7 @@ B-XLEtIncarnatusOrgano = {
     d r g8 g, g' f!
     es c h g c b' as g %60
     fis d e fis g es b c
-    d c d d, g4 c-\markup \remark "con pedale"
+    d c d d, g4 c-\conPedale
     f b, es a,
     d8 g d d, g4 r\fermata \bar "||" %64 finis
   }

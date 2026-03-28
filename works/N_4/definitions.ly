@@ -1,7 +1,5 @@
 \version "2.24.0"
 
-conPedale = \markup \remark "con pedale"
-
 tempoN-IVa = \tempoMarkup "Andante moderato"
 tempoN-IVb = \tempoMarkup "Larghetto"
 tempoN-IVc = \tempoMarkup "Allegro"

@@ -238,7 +238,7 @@ B-XXXVGloriaOrgano = {
     f c a c f,4 r8 d'
     g d h d g,4 r8 g'
     c g e g c,4 r8 g' %10
-    c g e c g8-!-\markup \remark "con pedale" g-! g-! g-!
+    c g e c g8-!-\conPedale g-! g-! g-!
     g-! g-! g-! g-! g-! g-! g-! g-!
     g-! g-! g-! g-! g-! g-! g-! g-!
     g-! g-! g-! g-! g-! g-! g-! g-!
@@ -499,10 +499,10 @@ B-XXXVQuiTollisOrgano = {
     \clef bass
     \key c \major \time 4/4 \tempoB-XXXVQuiTollis
       \set Score.currentBarNumber = #114
-    \mvTr c2~\fE-\tutti-\markup \remark "con pedale solo" c~
+    \mvTr c2~\fE-\tutti-\conPedale c~
     c~ c4 r %115
     r8 a a a dis dis dis dis
-    e2~\pE e~-\markup \remark "con pedale solo"
+    e2~\pE e~-\conPedale
     e~ e
     r8 \mvTr c'4\fE-\tutti c8 f,4 a
     d,4. d8 h4 c %120
@@ -888,7 +888,7 @@ B-XXXVCrucifixusOrgano = {
     g4. g8 c4 c %80
     a4. a8 d4 d
     g, r as'8 as g fis
-    g4 g, c8-\markup \remark "con pedale" c'4 h8
+    g4 g, c8-\conPedale c'4 h8
     c g es c g2~
     g2. r4\fermata \bar "||" %85 finis
   }

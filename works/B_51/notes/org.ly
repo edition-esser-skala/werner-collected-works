@@ -94,7 +94,7 @@ B-LIGloriaOrgano = {
     a b f'4 f,
     b r r
     R2.*2
-    f'8^\markup \remark "con pedale" f fis fis fis fis %15
+    f'8^\conPedale f fis fis fis fis %15
     g g fis fis d d
     g g fis fis fis fis
     g g fis fis es! es

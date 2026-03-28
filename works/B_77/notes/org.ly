@@ -186,7 +186,7 @@ B-LXXVIICredoOrgano = {
     es1 c2
     f1 d2
     b' f1
-    b,2-\markup \remark "con Pedale" d f \noBreak %50
+    b,2-\conPedale d f \noBreak %50
     b,1 r2\fermata \bar "||"
     \time 4/2 \tempoB-LXXVIICrucifixus \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2
@@ -508,7 +508,7 @@ B-LXXVIISanctusOrgano = {
     a~ a~
     a~ a~
     a~ a~ %45
-    d4-\markup \remark "con Pedale" b g a
+    d4-\conPedale b g a
     d,2 r\fermata \bar "|." %47 finis
   }
 }

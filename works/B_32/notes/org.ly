@@ -350,7 +350,7 @@ B-XXXIIGloriaOrgano = {
     c4 r as' r
     g r f r
     es r d r \noBreak
-    g r8 g,-\markup \remark "con pedale" c g es c %25
+    g r8 g,-\conPedale c g es c %25
     \key c \major \time 3/4 \tempoB-XXXIIGlorificamus \newSpacingSection
       \once \override Staff.TimeSignature.style = #'single-digit
       g'4 h!\fE g \noBreak
@@ -443,7 +443,7 @@ B-XXXIIGloriaOrgano = {
     a4 d e c8 d \noBreak
     e d e e, a4 h\fE
     \tempoB-XXXIIQuiSedes
-      << { c16^\vlne c'32 g e16 c } \\ { c16-\tutti_\org c' e, c } >> g'8 g, c4 r8 c-\markup \remark "con pedal[e]" \noBreak
+      << { c16^\vlne c'32 g e16 c } \\ { c16-\tutti_\org c' e, c } >> g'8 g, c4 r8 c-\conPedale \noBreak
     g'4 g g r16 g, h g
     c c' e, c g g' h, g c c' c, e f, f' d f %115
     g, g' e g a,8 h c h c c,
