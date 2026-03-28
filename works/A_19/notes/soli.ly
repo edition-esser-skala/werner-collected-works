@@ -719,3 +719,309 @@ A-XIXAAriaTertiaSoliLyrics = \lyricmode {
   _ dir hin --
   ge -- ſtellt. %114 finis
 }
+
+A-XIXAScenaSextaSoli = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIXAScenaSexta
+      \set Staff.timeSignatureFraction = 4/4
+    r8^\Barak f a c e,16 e e f g b d c
+    a8 a r f a e g a
+    f d f16 f a f d8 d r16 g b g
+    f8 c es f d4 r
+    r8^\markup \remark "ardito" d g16 g h! g f8 h d16 h g f %5
+    \time 2/4 \markTimeSig #'(2 4) es4 r16 c \hA es g
+    \time 4/4 \markTimeSig #'(4 4) b8. b16 b8 g e e g f
+    d d f16 f f g a8 d, fis16 a c d
+    b8 b r \hA b f8. f16 c8 d
+    es es es16 g f c d8 d r b'^\markup \remark "ariose" %10
+    g es es' c a c b16[ f] g[ es]
+    d4 c8.\trill b16 b4 r
+    r8 d g16 g h! d f,8 f f16 as g d
+    es8 es c'4 r8 b f g
+    as8. as16 as8 c b f as \hA b %15
+    g r16 g g g b g e!8 e g16 b as g
+    as8 as16 \clef treble f'^\Debora as8 c fis,8. fis16 fis a c d
+    b8. b16 b8 g f c' a f
+    d d r f b b d \hA b
+    g g16 g g8 a b8. b16 b8 a %20
+    f f r4 r8 f b16 b b c
+    d8 h g16 g d f e8 e r16 e e fis
+    gis gis gis a h d c h c4 r8 c
+    g g d e f a g d
+    e8. e16 e8 e16 f g8 g b a %25
+    f r r16 f a f d8. d16 d8 d'
+    gis,8 gis h! d, e4 r
+    \clef bass R1
+    r4^\Barak r8 c,^\markup \remark "furioso" f8. f16 a8 f
+    d d a' d, b'8. b16 b8 f %30
+    g d f g es c \hA es16 f g a
+    b8. b16 des8 c as r16 \hA as as as c \hA as
+    fis8 a c16 a c b g4 r
+    r8 f^\markup \remark "ardito" b16 b d \hA b a8 a c16 a f es
+    d8 d r4 r8 d g16 g g a %35
+    h!8. h16 h h c d f,8 r16 f f8 g
+    as f \hA as g es es r c'
+    b b, as'  \hA b g g f16 c es f
+    d8 r16 d d d d e fis8 fis a16 a c b
+    g8 d g16 g a b f8 f c'16 a f es %40
+    d4 r16 f b f g8 g c b
+    a8.[( b32 c] \hA b16[ f)] g[ es] f8[( d16 b] f8.) f16
+    b2 r\fermata \bar "|." %43 finis
+  }
+}
+
+A-XIXAScenaSextaSoliLyrics = \lyricmode {
+  Nun groſ -- ſe De -- bo -- ra ſeyn dei -- nes Knech -- tes
+  Pflich -- ten be -- reits zum Werk ge --
+  bracht und von den Kriegs -- ge -- rich -- ten ſchon al -- les
+  zum Ge -- brau -- che dar.
+  Es iſt der Krie -- ger auch zum Schla -- gen auf -- ge -- %5
+  friſcht, und wan ſich
+  Got -- tes Krafft in unſ -- re Spieſ -- ſe
+  miſcht, ſo wird der Feun -- de Weh bald un -- ßer Wohl er --
+  he -- ben, doch dei -- ne Ge -- gen --
+  warth muß unß voll -- end be -- le -- ben, dan %10
+  al -- les han -- get bloß von dei -- nem
+  Bey -- _ ſeyn ab.
+  Es will ſich un -- ſer Glük durch dich ver -- ſi -- chert
+  ße -- hen, khom, khom, mit
+  dir iſt al -- lein, waß ich zu ſa -- gen %15
+  hab, doch blei -- beſt du zu -- rük, ſo will ich auch nicht
+  ge -- hen. Ja treu -- er Ba -- rak ja! ſo wird auch
+  De -- bo -- ra mit dir zu Fel -- de
+  gie -- hen, Ich wer -- de mein Be --
+  müe -- hen in eu -- re Tapf -- fer -- keit ein -- %20
+  theil -- len. Geh, un -- ſer Um -- ſtand
+  leydt vor je -- zo khein Ver -- weil -- len, führ den er --
+  mun -- tert Heer mit Muth zum Streit -- ten an. Sieh
+  auch den Ta -- bor -- berg und da er --
+  war -- the dan die zu un -- ſern Glü -- kes %25
+  Streitt von mir er -- ße -- he -- ne, und
+  dir be -- ſtimm -- te Zeit.
+
+  Ihr Krie -- ger Is -- ra --
+  els! Heut iſt der Mit -- tel Tag der %30
+  unſ -- re Dienst -- bahr -- keit durch ei -- nen ſelbſt von
+  Gott be -- fohl -- nen Streit mit ſei -- nem En -- de
+  auch daß En -- de brin -- gen mag.
+  Ver -- gaa -- ret eu -- ren Mueth mit himm -- li -- ſchen Ver --
+  trau -- en, ſo wird unß un -- ßer %35
+  Gott durch mir ver -- ſpriz -- tes Bluet den Fried und
+  Frey -- heits Tem -- pel bau -- en. Die
+  groſ -- ſe De -- bo -- ra, die Got -- tes -- die -- ne --
+  rin wird mit unß in den Streit zu un -- ſern An -- trieb
+  züehn, und waß macht wohl den Sieg dem Sie -- ger mehr ver -- %4ß
+  gwißt, alß wan die Tu -- gend Schwerd und
+  From -- heit füh -- ren
+  iſt. %43 finis
+}
+
+A-XIXAAriaQuartaSoli = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \autoBeamOff \tempoA-XIXAAriaQuarta
+    \partial 8 r8 R1*5 %5
+    r2 r4 r8 f
+    d64([ c b16.)] b'8 a64([ g f16.)] f16([ es)] d([ es)] f([ a,)] b8 f'
+    g16([ a)] b([ f)] es([ f)] g([ d)] c([ d)] es([ b)] a8 f'
+    b16([ d)] c([\trill b)] a([\trill g)] f([\trill es)] d8. e16 f8 g
+    \tuplet 3/2 8 { a16([ b c)] } d([ d,)] \tuplet 3/2 8 { g([ a b)] } c([ c,)] \tuplet 3/2 8 { f([ g a)] } b([ d,)] e8 d' %10
+    c16([ f,)] d([ b)] c8.\trill c16 f,4 r
+    R1*2
+    r4 r8 f' b f d b
+    \tuplet 3/2 8 { g'16([ as b)] \hA as([ g f)] } es8 g c g e c %15
+    \tuplet 3/2 8 { a'16([ b c)] b([ a g)] } f8 c' \tuplet 3/2 8 { d16([ c b)] b([ a g)] g([ f es)] es([ d c)]
+    c'([ b a)] a([ g f)] f([ es d)] } a'8 \tuplet 3/2 8 { b16([ a g)] g([ f es)] es([ d c)] } g'8
+    \tuplet 3/2 8 { a16([ g f)] } f([ es)] d8 f g b c, g'
+    a c d, a' b d es, g
+    f8. f16 b,4 r2 %20
+    R1 \noBreak
+    R\fermata \bar "||"
+    \key g \minor \time 3/8 \tempoA-XIXAAriaQuartaB \newSpacingSection
+      R4.*10 %32
+    d8 g b
+    a32([ g) a8] c16 b a
+    b64([ a g16.)] r8 r %35
+    c16([ b)] a([ g)] f!([ es)]
+    d8 f4
+    g16[ f es f] g16.[\trill f64 g]
+    a16[ g f g] a16.[\trill g64 a]
+    b16[ c] c8.[(\trill b32 c]) %40
+    d16[( c32 b a16 g]) f([ a)]
+    b4 g8
+    \tuplet 3/2 8 { es16([ f es)] } d([ c)] a'8
+    \tuplet 3/2 8 { f16([ g f)] } es([ d)] b'8
+    g32[ f es f g16 a b c] %45
+    d[ c32 b a16 g f es]
+    d([ es)] f8. f16
+    b,4 r8
+    R4.*7 %55
+    a'8 d, d'
+    cis16([ d)] \hA cis b! a g
+    f64([ e d16.)] r8 r
+    c'! f,16([ g)] a([ b)]
+    c([ b)] c b a g %60
+    f64([ e f16.)] r8 f
+    d4 d8
+    g4 e8
+    cis4 cis8
+    d16[ cis d e? f g] %65
+    a8 r a
+    d16[( cis d a)] f([ d)]
+    a'4 r8
+    d, f g16([ a)]
+    b([ a g f)] e([ d)] %70
+    cis8 r cis'
+    d d, g
+    b a8. a16
+    \time 4/4 \tempoA-XIXAAriaQuartaC \newSpacingSection
+      d,8 d gis gis a8.([ h32 cis] d16[ a)] f([ d)]
+    a4. a8 d4 r\fermata \markDaCapo \bar "||" %75 finis
+  }
+}
+
+A-XIXAAriaQuartaSoliLyrics = \lyricmode {
+  Waß %6
+  weicht dem ſcharf -- fen Son -- nen -- liecht und
+  ſei -- ner Sie -- ges -- wür -- kung nicht? Wan
+  es durch Meer und Er -- de bricht, iſt
+  doch ein weit ent -- fehrn -- tes Feur, ein %10
+  weit ent -- fehrn -- tes Feur.
+
+  Waß weicht dem ſcharf -- fen %14
+  Son -- nen -- liecht und ſei -- ner Sie -- ges -- %15
+  wür -- kung nicht? Wan es durch Meer und
+  Er -- de bricht, wan es durch Meer und
+  Er -- de bricht, iſt  doch ein weit ent --
+  fehrn -- tes Feur, ein weit, ein weit ent --
+  fehrn -- tes Feur. %20
+
+  Umb wie -- vil %33
+  ſchärf -- fer muß der
+  Schein, %35
+  der Schein dem
+  Feund ſo
+  na -- _
+  _ _
+  _ her __ %40
+  Tu -- gend
+  ſeyn, ſo
+  na -- her, ſo
+  na -- her, ſo
+  na -- %45
+  _
+  her Tu -- gend
+  ſeyn,
+
+  da wir in %56
+  De -- bo -- ra unß er --
+  freun,
+  da wir in
+  De -- bo -- ra unß er -- %60
+  freun, drum
+  iſt der
+  Sieg ge --
+  wiß nicht
+  theur, __ %65
+  _ ge --
+  wiß __ nicht
+  theur,
+  drum iſt der
+  Sieg __ nicht %70
+  theur, drum
+  iſt ge -- wiß
+  der Sieg nicht
+  theur, ge -- wiß nicht theur, __ ge --
+  wiß nicht theur. %75 finis
+}
+
+A-XIXAScenaSeptimaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIXAScenaSeptima
+      \set Staff.timeSignatureFraction = 4/4
+    r8^\markup \remark "ardito"^\Sisera g d'16 d h! g es'8 c b16 b d \hA b
+    g8 g r16 b b c des8. des16 des8 b
+    g' e! des c as as r c
+    f f, f e! g4 r
+    r8 as c16 c es c a4 r %5
+    r8 c c16 c es d b8. b16 b8 d
+    \time 6/4 \markTimeSig #'(6 4) fis,16 g a b c es d a b4 r8 \hA b f a c es
+    \time 4/4 \markTimeSig #'(4 4) d8. d16 d8 f b, b d \hA b
+    g g' es16 c a b b8 f r4
+    R1 %10
+    r8 d'^\markup \remark "furioso" d16 d h! g es'4 r8 \hA es
+    b16 b f g as c \hA b f g8. g16 g4
+    r8 b b16 des c g as8 as r f'
+    es16 b g \hA b es,4 r8 c' es16 as, c \hA as
+    f8 f r c' des b g f %15
+    es g c4. c8 \tuplet 3/2 8 { es16[ d c] } c8
+    \tuplet 3/2 8 { h!16[ a g] } g8 r4 r8 g c16 e c g
+    a4 r8 a f d' c!16 g b c
+    a8 c f16 c a f d8 d' b d
+    g, g16 g g f a g e4 r %20
+    \clef treble r8^\Debora e' a a, f' d16 e fis g a b
+    g8. g16 g8 b f8. f16 a8 f
+    es es es16 g f c d8 d r4
+    g8 r16 h! d8 g, f8. f16 f8 g
+    as f \hA as g es4 g %25
+    r8 b es, g f a c f,
+    d r16 a' d a fis d b'8 g r4
+    r2 r8 d' h g
+    es8. d16 c8 c' b16[ f] d[ b] as'8. as16
+    g8 r16 g b g es g c,8 e16 g b8 as16 g %30
+    as8. as16 as4 r8 es b'16 b c des
+    c8 as as es f[( des')] b([ as)]
+    as8. es16 es4 r2
+    \clef bass r8^\markup \remark "ardito"^\Barak f, b16 f d f b,4 r
+    r8 d g b d8. d,16 d8 fis %35
+    a c b a \hA b4 r8 d,
+    g g h16 h a g c8 c, r4
+    r8 g' g16 g c g a8 c d16 b g f
+    f8.[ g16] g4\trill f r
+    R1 \bar "|" %40 finis
+  }
+}
+
+A-XIXAScenaSeptimaSoliLyrics = \lyricmode {
+  Und Ta -- bor ist be -- dekt mit ze -- hen -- tau -- ſend
+  Knech -- ten des fre -- hen Is -- ra -- els, die
+  wi -- der mich zu fech -- ten der
+  Kün -- heits Kü -- zel treibt.
+  Wohl -- an Ver -- weg -- ne bleibt; %5
+  bleibt nur in eu -- ren Vor -- ſaz stark, und
+  rei -- zet eu -- res Ü -- ber -- wün -- ders Muth, von wel -- chen ein em --
+  pfünd -- lich Mark eur fei -- ges Scla -- ven --
+  blut euch end -- li -- chen ſoll zei -- gen.
+  %10
+  Ihr Sie -- ger Ja -- bins auf! laßt
+  eu -- ren Grim -- men jez den un -- be -- zaum -- ten Lauf.
+  Ich gib euch al -- les ei -- gen; ſpillt
+  eu -- re Pfei -- le nur auf die ver -- weg -- nen
+  Kno -- chen und hemmt der Nie -- der -- %15
+  tracht daß auf -- ge -- baum -- te
+  Po -- chen. Iſt nun die Schlacht vor --
+  bey, dan le -- get un -- ter Siegs -- ge --
+  ſchrey die Scla -- ven -- köpf -- fe all dem Kö -- nig
+  Ja -- bin vor ſei -- ne Füeſ -- ſe hin. %20
+  Dir Ba -- rak dir! di -- ſe iſt die auß -- er --
+  ſeh -- ne Stund, die Is -- ra -- e -- lens
+  Joch durch Pfeil -- le ſo zer -- ſtü -- ken:
+  Geh, geh, mach durch Ta -- pffer -- keit den
+  treuſ -- ſen Feun -- den kund, daß, %25
+  daß Gott nur wan, und wem Er
+  will den Sieg, den Sieg khan ſchi -- ken.
+  Steig von dem
+  Berg her -- ab und greif die Feun -- de
+  an, es iſt von ih -- ren Grab be -- reits der De -- kel %30
+  auf -- ge -- than. Der Herr wird ſelb -- ſten
+  dein und dei -- ner Völ -- ker
+  Füh -- rer ſeyn.
+  Komt Krie -- ger ru -- ket an!
+  Und zeigt durch eu -- ren Armb, waß %35
+  je -- ne Hülf -- fe kan, die
+  euch zu di -- ßen Streit be -- ruf -- fen,
+  ver -- traut ihm eu -- er Wohl und fol -- get mei -- nen
+  Stuf -- _ fen. %38 finis
+}

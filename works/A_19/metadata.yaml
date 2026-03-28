@@ -18,15 +18,17 @@ tocstyle: default
 toe: |
   –  & –  & vla  & In \A1, there is no staff for vla in movements 2. Here, a vla part has been added
                    by the editor to these movements.
-                   In arias (no. 4, 7),
+                   In arias (no. 4, 7, 9, 11),
                    the vla plays in unison with bc whenever the voice
                    pauses during the first section.
-                   In accompagnatos (no. 6, 8),
+                   In accompagnatos (no. 6, 8, 10, 12, 13),
                    it plays unison with bc.
-                   In choruses (no. 2),
+                   In choruses (no. 2, 13),
                    it generally plays unison with T in fugues,
                    and unison with bc otherwise. \\
   8 & 6 & vl 1 & 6th \eighthNote\ in \A1: f″16 \\
   9 & 84 & Debora & bar in \A1: a′8.–b′16–b′4 \\
+  13 & 1–16 & \A1 lacks systems for vl 1 and 2. Here, they play unison with S and A, respectively. \\
+     & 9 & T & 3rd \quarterNote\ in \A1: d′8–d′8 \\
 commentary: |
   \includepdf[pages=-,link=false,pagecommand={}]{../works/A_19/appendix.pdf}

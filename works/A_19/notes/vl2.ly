@@ -418,3 +418,193 @@ A-XIXAAriaTertiaViolinoII = {
     R\fermata \markDaCapo \bar "||" %114 finis
   }
 }
+
+A-XIXAScenaSextaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XIXAScenaSexta
+      \set Staff.timeSignatureFraction = 4/4
+    R2*53 %27
+    r2 f16.\ff f64 f f16 a c a f' c
+    a' a32 a a16 f c c32 c c16 a f4 r
+    r2 r16 f'\p es( d) c( b) as( \hA b) %30
+    g4 r <c es, g,>\f r
+    <b e, g,> r r8 c\p f16( c) c8
+    r c a'!16( c,) c8 r16 d\f g16. d32 \sbOn b16._[\trill a64( \hA b) a16.\trill g64( a)] \sbOff
+    b4 r r2
+    r16 d-!\f b-! f-! d-! d'-! b-! \hA f-! d4 r %35
+    <g' h,! d, g,>4 r <f h, d, g,> r
+    r2 r16 c,-!\f es-! g-! c-! g-! \hA es-! c-!
+    b4 r r2
+    R1*4 %42
+    R1\fermata \bar "|." %43 finis
+  }
+}
+
+A-XIXAAriaQuartaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoA-XIXAAriaQuarta
+    \partial 8 f8\fE^\conSord \sbOn b32( c d es) f16 b, \appoggiatura b8 a8.\trill b16 \tuplet 3/2 8 { b\trill a b b\trill a b b\trill a b b\trill a b } \sbOff
+    b( g') f( es) \sbOn d64( c b16.) c64( b a16.) \tuplet 3/2 8 { b16\trill a b b\trill a b b c d } c( b) \sbOff
+    a( b) c( es,) es( d) f( es') es(\p d) c( es,) es( d) f( es')
+    \sbOn es(\f d32 es) f16 f, b32( c b c) d16 d, \sbOff g g' g(\trill f) f(\trill es) es(\trill d)
+    c(\trill b) a(\trill g) \sbOn \tuplet 3/2 8 { f g a a b c } \sbOff d( es) f( b,) c( d) es( a,) %5
+    d,(\p es) f( b,) c( d) \once \slurDashed es( a,) b16.\f b'32 f16. d32 b4
+    r16 b'(\p c d) r a( b c) b( a32 g) f16( es) f( d) d( b)
+    g'( a) b( f) es( f) g( d) c( d) es( b) a a b( c)
+    b4 r r2
+    r8 \tuplet 3/2 8 { d'16 e f } r8 \tuplet 3/2 8 { c16 d e } r8 \tuplet 3/2 8 { b16 c d } r4 %10
+    R1
+    r2 d16(\f es!) f( f,) g( es') d( c)
+    \sbOn \tuplet 3/2 8 { d\trill c d d\trill c d d\trill c d d\trill c d } g4~ \tuplet 3/2 8 { g16 f es d c b } \sbOff
+    a16. f32 a16. c32 f,4 r16 b(\p c d) r d,( es f)
+    \sbOn \tuplet 3/2 8 { g as b \hA as g f } \sbOff es4 r16 c'( d e) r e,( f g) %15
+    \sbOn \tuplet 3/2 8 { a b c b a g } \sbOff f8 c' d2
+    c b
+    a16 b c8 f, d r2
+    R1
+    r4 r8 f\f \tuplet 3/2 8 { g16 f es } g8~ \sbOn \tuplet 3/2 8 { g16 a b } c b %20
+    \tuplet 3/2 8 { a g f } a8~ \tuplet 3/2 8 { a16 b c } d c \tuplet 3/2 8 { b c d es d c } b8 a \noBreak
+    b16( f) \tuplet 3/2 8 { g16 f es d c b c b a } \sbOff b4 r\fermata \bar "||"
+    \key g \minor \time 3/8 \tempoA-XIXAAriaQuartaB \newSpacingSection
+      \after 4*0 ^\senzaSord R4. \noBreak
+    r8 a'\f d
+    \tuplet 3/2 8 { b16\trill a b } r8 r %25
+    r g c
+    \tuplet 3/2 8 { a16 g a } r8 r
+    r f b
+    g8. b16 a g
+    fis d e? \hA fis g a %30
+    b c d c d d,
+    g f!32 es! d16 c b a
+    g4 r8
+    R4.
+    b'16\p a g f es d %35
+    c64( b c16.) r8 r
+    f'16\p es d c b a
+    g32( g') f16 es d c b
+    a32( a') g16 f es d c
+    b a32 g f16 es d c %40
+    d4 r8
+    r16 d es f b,8
+    r16 es f g c,8
+    r16 f g a d,8
+    R4.*3 %47
+    r8 f\f b
+    \tuplet 3/2 8 { a16 g a } r8 r
+    r g c %50
+    \tuplet 3/2 8 { b16 a b } r8 r
+    r a d
+    cis8.\trill d32 e d8~
+    \sbOn d16 g f64( e d16.) cis8\trill \sbOff
+    d16 c32 b a16 g f e %55
+    d4 r8
+    R4.
+    d8.\p e16 f g
+    a64( g f16.) r8 a
+    g32 f g8 g16 a b %60
+    c64( b a16.) r8 r
+    r d\trill b\trill
+    \tuplet 3/2 8 { g16\trill a b } r8 r
+    r cis\trill a\trill
+    \tuplet 3/2 8 { f16\trill g a } r8 r
+    r cis e
+    a, f' f
+    e16 f32 g a16 g f \hA e
+    f8 r r
+    R4.*4 %73
+    \time 4/4 \tempoA-XIXAAriaQuartaC \newSpacingSection
+      R1
+    R\fermata \markDaCapo \bar "||" %75 finis
+  }
+}
+
+A-XIXAScenaSeptimaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XIXAScenaSeptima
+      \set Staff.timeSignatureFraction = 4/4
+    R2*19 %9
+    b16\ff b32 b b16 b d d32 d d16 d f f32 f f16 f b b32 b b16 b %10
+    d4 r r16 es g16. \hA es32 c16.  \hA es32 c16. g32
+    r2 r32 \mvTr es\f-\markup \remark "assai" f g as b c d es g, as b c d es f
+    g4 r r16 \mvTr as,(\f-\markup \remark "sempre" c16.) \hA as32( f'16.) c32( as'8)
+    r4 b16. g32 es16. g32 c,4 r
+    r16 c'( a!16.) f32( a16.) c,32( es8) r2 %15
+    r16 c, es( d) c4 r2
+    r16 g'\trill h!\trill d\trill f( g as) h,! c4 r
+    r16 a' e16. cis32 a4 r2
+    << { f'16 f32 f f16 f } \\ { a,8 } >> f'16 c a f d4 r
+    r2 \sbOn r16 \tuplet 3/2 16 { e'32\ff d e c h c g f g e d e c' h c g f g e d e } \sbOff %20
+    a4 r r2
+    R1*11 %32
+    r2 f16\ff f32 f f16-! a-! c-! f-! a-! f-!
+    d d32 d d8 r4 \sbOn d,32 d d d f f f f b b b b d d d d
+    d4 r r2 %35
+    r r8 g,\p \tuplet 3/2 8 { g16\trill fis g b\trill a \hA b } \sbOff
+    d4 r r16 g\f-! es-! c-! g-! c-! g-! es-!
+    c4 r r2
+    r4 r8 e\f f16. d'32 d8\trill g,16. c32 c8\trill
+    a16 a' f c a f' c a f4 r \bar "|" %40 finis
+  }
+}
+
+A-XIXAChorusAViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XIXAChorusA
+    r4-\critnote r8 f\fE e4 r8 e
+    f4 r r8 fis fis fis
+    g4 r r8 gis gis gis
+    a e e f g4 r
+    r8 f fis g a g4 a8 %5
+    d, g f e f4 r
+    r8 f g a b4 f
+    g2. g4
+    g4 r8 g a a fis fis
+    g4. g8 g fis r \hA fis %10
+    g4 g f8 f f f
+    f f r4 r8 a a a
+    g4 r r8 f f f
+    e4 f e4. e8
+    d4 r8 f\p e4. e8 %15
+    d4 r \tempoA-XIXAChorusAb r2
+    R1*5 %21
+    \tempoA-XIXAChorusAc r32 f\ff g a b c d e f es d c b a g f d' c b a g f es d d e fis g a b c d
+    b16 g \hA b d \sbOn g32( f) es( d) \hA es( d) c( \hA es) d16 fis, g4 \hA fis8
+    g32( f) es( d) \hA es( d) \once \slurDashed c( b) \sbOff c8 d \tempoA-XIXAChorusAd g,4 r
+    R1*2 %26
+    b16\ff c32 d es f g a b d, \hA es f g a \hA b c d f, g a \hA b c d es f \hA  b, c d \hA es f g a
+    \tempoA-XIXAChorusAe d4 r \tempoA-XIXAChorusAf r2
+    R1
+    \tempoA-XIXAChorusAg R %30
+    \tempoA-XIXAChorusAh R1*2
+    r2 r8 h,!\pp c( h)
+    c16( c,) d8 g,([ c)] c( h!) r4
+    \tempoA-XIXAChorusAi r2 r16 es'-!\ff c-! as-! f4 %35
+    r8 d'16 c b8 es d32 b' a! g f \hA es d c b16 a32 g f es d c
+    \tempoA-XIXAChorusAj b4 r r2
+    R1*2
+    \tempoA-XIXAChorusAk R1*4 %43
+    R1\fermata \bar "|." %44 finis
+  }
+}
+
+A-XIXAChorusBViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoA-XIXAChorusB
+    g'16.\f a32 h16. c32 d16. e32 fis16. d32 g16. a32 h16. c32 d16. h32 g16. h32
+    e,16. c'32 a16. c32 fis,16. a32 d,16. c32 h4\p d,16( a') fis( a)
+    d,16\f e32 fis g a h c d8 d, r32 e fis g a h cis d e8 d
+    cis8.\p d16 \hA cis( h) a( gis) a a g( f) e( d) cis( d)
+    cis4 r d16.\f e32 fis16. g32 a16. h32 c16. a32 %5
+    h16. g32 h16. c32 d16. a32 h16. g32 a d, e fis g a h c d16. a32 h16. g32
+    a16. d,32 fis16. a32 \sbOn d( c) h( a) h( a) g( fis) \sbOff e16. c32 e16. g32 \sbOn e'( d) c( h) c( h) a( g) \sbOff
+    fis16. d32 fis16. a32 \sbOn fis'32( e) d( c) d( c) h( a) g'( fis) e( d) e( d) c( h) a'( g) fis( e) fis( e) d( c) \sbOff
+    h d d d d d d d d g g g g g g g fis d, d d d d d d d e fis g a h c d
+    h16 g' d h a g' d, fis' \sbOn g,32( d') c( d) g,( h) a( h) d,( g) fis( g) h,( d) c( d) \sbOff %10
+    <g, d' h'>8 q q q q4 r\fermata \bar "|." %11 finis
+  }
+}

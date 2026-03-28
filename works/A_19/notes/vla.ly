@@ -286,3 +286,134 @@ A-XIXAAriaTertiaViola = {
     R1\fermata \markDaCapo \bar "||" %114 finis
   }
 }
+
+A-XIXAScenaSextaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XIXAScenaSexta
+    R2*53 %27
+    f4\ff r f r
+    f r f r
+    fis2\pE d %30
+    h! c
+    e! f
+    d g4 r16 d\fE f16. f,32
+    b4 r c\pE a
+    b2 h~ %35
+    h1~
+    h2 c
+    d4 r r2
+    R1*4
+    R1\fermata \bar "|." %43 finis
+  }
+}
+
+A-XIXAAriaQuartaViola = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 4/4 \tempoA-XIXAAriaQuarta
+    \partial 8 \mvTr f8\p-\markup \remark "sempre" d b f' es d g f es
+    d es f f, b g' d es
+    f a, b a b\pp a b a
+    << { b' a g f } \\ { b,\p } >> es d c b
+    f' g a f b d, es f %5
+    b\pp d, es f b,4 b'16.\p f32 d16. f32
+    b,8 r r4 r2
+    R1*3 %10
+    r2 f8 a b c
+    f es! d c b d es f
+    << { b a g f } \\ { b, } >> es c16 d es8 e
+    f4 r r2
+    R1*5 %19
+    r4 r8 d es es16 d c8 es %20
+    f f16 es d8 f g es f f, \noBreak
+    b es f f, b4 r\fermata \bar "||"
+    \key g \minor \time 3/8 \tempoA-XIXAAriaQuartaB \newSpacingSection
+      R4.*51 %73
+    \time 4/4 \tempoA-XIXAAriaQuartaC R1
+    R\fermata \markDaCapo \bar "||" %75 finis
+  }
+}
+
+A-XIXAScenaSeptimaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XIXAScenaSeptima
+      \set Staff.timeSignatureFraction = 4/4
+    R2*19 %9
+    b4\ffE r \hA b r %10
+    g r c r
+    d r es\fE r
+    e r f r
+    g r as c,
+    a! r b h %15
+    c r8 as' fis4 r8 \hA fis
+    g4 r e! r
+    cis16. a32 \hA cis16. e32 a16. e32 \hA cis16. a32 d4 e
+    f16 f, a c f8 f, b2
+    h c4 r %20
+    R1*12 %32
+    r2 a!4\ffE r
+    b r \hA b r
+    g r fis\pE r %35
+    d' r g r
+    f! r es r
+    e r8 c f4 b,
+    c4. c8 d\fE b c c,
+    f r f r f f'4 e8 \bar "|" %40 finis
+  }
+}
+
+A-XIXAChorusAViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XIXAChorusA
+    d4\fE r8 d cis4 r8 \hA cis
+    d4 r r8 c c c
+    b4 r r8 d d d
+    cis4 r r8 h h cis
+    d4 r r8 e e fis %5
+    g g c! c, f4. e8
+    d4. c8 b4. a8
+    g g' e! c g4. g8
+    c c'16. g32 e8 c a4 d
+    g8 d b g d' d'16. a32 fis8 d %10
+    g, g' es c f d a b
+    f f' f f fis4 r
+    g,8 g' g g gis4 r8 \hA gis
+    a, a' f d a4. a8
+    b4 gis\p a4. a8 %15
+    d4 r \tempoA-XIXAChorusAb r2
+    R1*5 %21
+    \tempoA-XIXAChorusAc a8\ffE a a a b b d d
+    g, g' es c16 \hA es d8 b16 g d'8 d,
+    g es' c d \tempoA-XIXAChorusAd g, g'[^\aTre c, f]
+    b, b a \hA b f f16. g32 a8 f %25
+    g4 a b8 es, f4
+    b r r2
+    \tempoA-XIXAChorusAe r \tempoA-XIXAChorusAf r4 r8 c
+    cis4. cis8 d4 r
+    \tempoA-XIXAChorusAg R1 %30
+    \tempoA-XIXAChorusAh r2 r8 g f f
+    es4 h c r
+    r8 a a a g4 r
+    c'8\pp g es c g4 g'8\f b
+    \tempoA-XIXAChorusAi es,4\ffE g as a %35
+    b8 b,16 c d8 es b4 r
+    \tempoA-XIXAChorusAj R1*2
+    r2 d16\ff d32 d f16 a d a f a
+    \tempoA-XIXAChorusAk d,2 dis %40
+    e4 c8 a h2
+    e8 r r4 \tempoA-XIXAChorusAl r2
+    R1
+    R\fermata \bar "|." %44 finis
+  }
+}
+
+A-XIXAChorusBViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 4/4 \tempoA-XIXAChorusB
+    
+  }
+}

@@ -53,3 +53,118 @@ A-XIXAScenaPrimaSopranoLyrics = \lyricmode {
   und mach dein Volk be -- %20
   freyt. %21 finis
 }
+
+A-XIXAChorusASoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIXAChorusA
+    r8 a'\fE d4 r8 a e'4
+    r8 d d d es4. es8
+    d8 d d d f!4. f8
+    e4 r r8 g, g a
+    f4 r r8 c'! c d %5
+    b b a g a c d e
+    f4. e8 d4. c8
+    h! h c4. h16[ a] h4
+    c r8 g c c a a
+    b16([ c] d4) \hA b8 b a r a %10
+    b4. c8 a b c d
+    d c r4 r8 c c c
+    b4 r r8 d d d
+    cis cis d2 \hA cis4
+    d h!\p a4. a8 %15
+    a4 r \tempoA-XIXAChorusAb r2
+    R1*5 %21
+    \tempoA-XIXAChorusAc r8 c\ffE f c16 f d8 b16 d a8 d16 a
+    b8 g16 \hA b es8 c16 \hA es d8 b16 g d8 d16 d
+    g4 r \tempoA-XIXAChorusAd r8 d'^\aTreE es d16 c
+    d8 d16 es f8 \hA es16 d c8 c r d %25
+    es f16 g f8 \hA es16 f d8 \hA es16 es c8 c16 c
+    d4 r r2
+    \tempoA-XIXAChorusAe r2 \tempoA-XIXAChorusAf r8 g,^\markup \remark "lamentuoso" c c
+    b g \hA b a a8. a16 a8 r
+    \tempoA-XIXAChorusAg R1 %30
+    \tempoA-XIXAChorusAh r8 f^\markup \remark "lamentabile" b d h h r h
+    c g d' g, es' c c as
+    fis4. fis8 g4 r
+    R1
+    \tempoA-XIXAChorusAi r8 b^\markup \remark "ardito" es \hA b16 \hA es c8 as16 c f8 c16 f %35
+    d[ es] f4 \hA es8 d4 r
+    \tempoA-XIXAChorusAj R1*3
+    \tempoA-XIXAChorusAk r8 a^\markup \remark "lamentable" d16 d f d c8 c r c %40
+    h h c c h2
+    h4 r \tempoA-XIXAChorusAl r2
+    R1
+    R\fermata \bar "|."
+  }
+}
+
+A-XIXAChorusASopranoLyrics = \lyricmode {
+  Ja Held! Ja Held!
+  Zeig unß die Groß -- muths
+  Weeg, zeig unß die Groß -- muths
+  Weeg wan un -- ſer
+  Bluet, wan un -- ſer %5
+  Bluet nach dei -- nem Steeg auch ſtrö -- me --
+  weiß nach -- flüeſ -- _
+  ſen, nach -- flüeſ -- _ ſen
+  ſoll, wird unß nur Gott den
+  Sieg __ ver -- lei -- hen, waß %10
+  ü -- ber -- bleibt vom Joch be --
+  frey -- en, ſo ſter -- ben
+  wir, ſo ſter -- ben
+  wir ver -- gnüe -- gen --
+  voll, ver -- gnüe -- gen -- %15
+  voll.
+
+  So ſter -- ben die Hun -- de und fal -- le zu %22
+  Grun -- de waß im -- mer den Nah -- men von Is -- ra -- el
+  tragt. Der Herr wird unß
+  ſtü -- zen und Is -- ra -- el ſchü -- zen vor %25
+  al -- le, vor al -- le die un -- ſe -- ren Ru -- ken ge --
+  plagt.
+  Ô Weh! Ô
+  Noth! Wir ſeyn zu grund ge -- richt.
+  %30
+  Ô Schand! Ô Schan -- de! die
+  Stär -- ke und der Muth, daß Glü -- ke
+  auch ge -- bricht.
+
+  So wer -- den die ſtol -- ze -- ſten Gei -- ſter ge -- %35
+  ſtürzt und zer -- nicht.
+
+  Ach ſcho -- net un -- ſern Le -- ben da %40
+  wir euch al -- les ge --
+  ben. %42 finis
+}
+
+A-XIXAChorusBSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoA-XIXAChorusB
+    r8 g'\fE d' d r h g' g
+    e e d d d d r4
+    r8 d d e16 fis g8 g4 fis8
+    e e r4 r2
+    r8 a, h cis d4 r %5
+    r8 d d d d d r d
+    d d r h g g r c
+    a a r d h e16 e d8 d16 d
+    d8 d16 d d8 g16 g fis8 fis r d
+    d d16 d d4 d r %10
+    R1\fermata \bar "|." %11 finis
+  }
+}
+
+A-XIXAChorusBSopranoLyrics = \lyricmode {
+  So ſter -- bet, ſo ſter -- bet
+  und lehr -- net er -- ken -- nen
+  des eu -- fren -- den Hoch -- muts Be --
+  trüe -- gen
+  und daß man nur %5
+  erſt nach dem Sie -- gen, dem
+  Sie -- gen ſich Sie -- ger und
+  Hel -- den, ſich Sie -- ger und Hel -- den ſoll
+  nen -- nen, ſich Hel -- den ſoll nen -- nen, ſich
+  Hel -- den ſoll nen -- nen. %10 finis
+}
