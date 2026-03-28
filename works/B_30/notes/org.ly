@@ -76,7 +76,7 @@ B-XXXKyrieBassFigures = \figuremode {
   r4. q2 q8
   r q q2.
   <6>1
-  r2 %5
+  r %5
   r
   r2. \bc <[6]>4
   r1

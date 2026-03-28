@@ -72,7 +72,7 @@ B-XXXGloriaViolinoII = {
     a4 r r2\fermata \bar "||" %25
     \key f \major \time 6/8 \tempoB-XXXDomine \newSpacingSection
       \revert Score.SpacingSpanner.common-shortest-duration
-      r2. \noBreak
+      R2. \noBreak
     r4 r8 f'\fE g a
     b g c f, \slurDashed f'16(\trill e) f8
     r e16(\trill d) \slurSolid e8 a,16 h c8 d~
