@@ -7,13 +7,24 @@
 
 \book {
   \bookpart {
-    \section "F.42" "Salutis humanæ sator"
+    \section "F.42a" "Salutis humanæ sator (H-Bn version)"
     \addTocEntry
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \F-XLIIOrgano }
-        \new FiguredBass { \F-XLIIBassFigures }
+        \new Staff { \F-XLIIaOrgano }
+        \new FiguredBass { \F-XLIIaBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "F.42b" "Salutis humanæ sator (A-Ed version)"
+    \addTocEntry
+    \paper { systems-per-page = #4 }
+    \score {
+      <<
+        \new Staff { \F-XLIIbOrgano }
+        \new FiguredBass { \F-XLIIbBassFigures }
       >>
     }
   }

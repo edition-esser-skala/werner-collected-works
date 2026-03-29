@@ -13,7 +13,17 @@ sources:
     url: https://copia.oszk.hu/kotta/hymni-de-b-virgine-de-apostolis-et-aliis-festis-1mae-classis/
     license: public domain
     principal: true
-lyrics:
+  B1:
+    siglum: A-Ed
+    shelfmark: M 10
+    rism: 600038636
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/243.html
+    license: public domain
+toe: |
+  – & – & \A1 and \B1 represent two different versions of the work,
+          both of which are reproduced in this edition. \\
+lyrics: |
+  \textsb{H-Bn version}\\
   Salutis humanae sator,\\
   Jesu voluptas cordium,\\
   orbis redempti conditor,\\
@@ -26,4 +36,18 @@ lyrics:
   sis meta nostris cordibus\\
   sis lacrymarum gaudium\\
   sis dulce vitae praemium.\\[1ex]
-  (Cantus Index 008331.1)
+  (Cantus Index 008331.1)\\[3ex]
+  \textsb{A-Ed version}\\
+  Salutis humanae sator,\\
+  Jesu, voluptas cordium,\\
+  orbis redempti conditor,\\
+  et casta lux amantium.\\[1ex]
+  Perrumpis infernum chaos,\\
+  vinctis catenas detrahis,\\
+  victor triumpho nobili\\
+  ad dexteram Patris sede.\\[1ex]
+  Jesu tibi sit gloria,\\
+  qui victor in coelum redis\\
+  cum Patre et almo Spiritu\\
+  in sempiterna saecula.\\[1ex]
+  (Cantus Index 008331.1; 3rd stanza: 008255.1:08)

@@ -7,12 +7,22 @@
 
 \book {
   \bookpart {
-    \section "F.42" "Salutis humanæ sator"
+    \section "F.42a" "Salutis humanæ sator (H-Bn version)"
     \addTocEntry
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \F-XLIIViolinoI }
+        \new Staff { \F-XLIIaViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "F.42b" "Salutis humanæ sator (A-Ed version)"
+    \addTocEntry
+    \paper { systems-per-page = #3 }
+    \score {
+      <<
+        \new Staff { \F-XLIIbViolinoI }
       >>
     }
   }
