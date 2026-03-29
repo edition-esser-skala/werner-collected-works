@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026.03.0 – 2026-03-28
+
+### Added
+
+- works: WerW H.1.13, H.2.7, I.1.9/10, I.2.11, I.3.8, I.4.10/20/38, I.5.22, and N.4
+- global macro `\conPedale`
+
+### Changed
+
+- merged WerW F.61 to 42
+- revised WerW J.6 (unreleased)
+
+
 ## 2026.02.0 – 2026-02-28
 
 ### Added
