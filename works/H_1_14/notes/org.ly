@@ -22,7 +22,7 @@ H-I-XIVaOrgano = {
     c, c'16. g32 e8. c16 g8 g'16. d32 h8. g16
     c8 c'16. g32 e16. g32 c,16. e32 f16. a32 d,16. f32 g16. h32 e,16. g32
     a16. c32 f,16. a32 h16. d32 g,16. h32 c8 a fis d'
-    h g d d, g16-!-\conPed-\tastoE g-! g-! g-! g-! g-! g-! g-!
+    h g d d, g16-!-\conPedale-\tastoE g-! g-! g-! g-! g-! g-! g-!
     g-! g-! g-! g-! g-! g-! g-! g-! g4 r8 gis' %20
     a f d d e e gis e16 \hA gis
     a8 f16 a h8 g16 h c8 c, r16 e8 c16
