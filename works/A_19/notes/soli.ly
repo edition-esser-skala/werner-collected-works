@@ -1025,3 +1025,190 @@ A-XIXAScenaSeptimaSoliLyrics = \lyricmode {
   ver -- traut ihm eu -- er Wohl und fol -- get mei -- nen
   Stuf -- _ fen. %38 finis
 }
+
+A-XIXBScenaPrimaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIXBScenaPrimaA
+    r8^\Jahel g' c e h8. h16 h8 c
+    d d f e c c c d
+    e8. a,16 a8 cis e g f e
+    f4 r8 f c8. c16 g8 a
+    b b b16 d c g a8 a r f' %5
+    d d b d g, d f16 a g d
+    e8 e r4 r2
+    r8 r16 e\f a4 r8 r16 a d a c d
+    h8 h a16 c h fis g8 r16 g h8 c
+    d8. g,16 g8 h d f! a g %10
+    e4 r8 e gis, h d e
+    c e a,16 a d a h8 h r h
+    c c16 c e8 c a r16 a f'8 d
+    \tempoA-XIXBScenaPrimaB h d c16 g a f e4 d\trill
+    c r r2\fermata \bar "|." %15 finis
+  }
+}
+
+A-XIXBScenaPrimaSoliLyrics = \lyricmode {
+  Be -- glük -- tes Is -- ra -- el! Ich
+  hab im Geiſt ge -- ſehn dein ſcharf -- fes
+  Hel -- den -- ſchwerd auf Lor -- ber -- ä -- ſten
+  ſtehn, und hat dein Sie -- ges --
+  recht mit Glük ver -- eint ge -- ſtrit -- ten, ſo %5
+  wird der Feun -- de bald um Pal -- men -- rün -- den
+  bit -- ten.
+  Ja ja ja ja der ſchö -- ne
+  Grund, wo -- rauf mein Hof -- fen rueht, iſt mir ſchon
+  büng da -- vor, daß Ja -- bins To -- be -- %10
+  gluet durch ſei -- ner Krie -- ger
+  Tod auch gänz -- lich ſey er -- töd -- tet, dan
+  Is -- ra -- el ret -- tet Gott, wer iſt, der
+  Ja -- bin dan -- noch böſ -- ſer ret -- _
+  tet. %15 finis
+}
+
+A-XIXBAriaPrimaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIXBAriaPrima
+    R1*8 %8
+    r2 r4 r8 g'
+    c c, \tuplet 3/2 8 { e16[(\trill d e]) g[(\trill f g]) } c8 r \tuplet 3/2 8 { g16([\trill f g)] c([\trill h c)] } %10
+    e8 c~ \tuplet 3/2 8 { c16[ d e] e([ d c)] } g'8 g, r g
+    c16([\trill h)] c8 c e \sbOn d32([ c d e fis16 g)] \sbOff \tuplet 3/2 8 { a16[ g \hA fis] e([ d c]) }
+    h4 r8 d e4 r8 a,
+    fis'4 r8 h, g' fis16([ g)] \tuplet 3/2 8 { a([ g \hA fis)] e([ d c)] }
+    c([ h)] h8 r d dis([ e)] g,4 %15
+    g8([ fis)] r fis' fis([ g)] c,4
+    c8([ h)] r d e4~ \sbOn \tuplet 3/2 8 { e16[ d c c h a] }
+    fis'4~ \tuplet 3/2 8 { fis16[ e d d c h] } \sbOff g'8.[\trill \hA fis32 e] \tuplet 3/2 8 { d16[ e d] c([ h a)] }
+    h8 r r d g d h g
+    e8.([ fis32 g)] a8([ g)] \hA fis32([ g a g) \hA fis8] h32([ c d c) h8] %20
+    g32([ a h a) g8] c32([ d e d) c8] a32([ h c h) a8] d32([ e fis e) d8]
+    h8 g h d g2~
+    g8.[ a16] a8.[ g32 a] h16[ g] fis([ e)] d8 \tuplet 3/2 8 { e16([ d c)] }
+    h4( a)\trill g r
+    R1*4 %28
+    r4 r8 g c c, \tuplet 3/2 8 { e16([ d e)] g([ f g)] }
+    a8 r \tuplet 3/2 8 { d,16([ c d)] a'([ g a)] } h8 r \tuplet 3/2 8 { e,16([ d e)] h'([ a h)] } %30
+    c([ d e f)] d([ e)] f([ g)] e8 c r c
+    a([ h32 c d e] f8) d h([ c32 d e f] g8) e
+    c([ a')] g([ f)] e4 r
+    r8 d d d h'4 r
+    r8 c, c c a'4 r8 a, %35
+    h8.[(\trill c32 d]) c8.[(\trill d32 e]) d8.[(\trill e32 f]) e8.[(\trill f32 g])
+    d8 g, r c a32([ g) f8.] \once \slurDashed f32([ e) d8.]
+    h'32([ a) g8.] g32([ f) e8.] c'[( h32 a]) g8([ f)]
+    e4 c' d, h'
+    c, a' \sbOn \tuplet 3/2 8 { h,16[\trill a h c\trill h c] d[\trill c d e\trill d e] %40
+    f[\trill e f g\trill f g] a[\trill g a h\trill a h] } \sbOff c2~^\frma
+    \once \tieDashed c~ c8.[ d16] d4\trill
+    c r r2
+    R1 \noBreak
+    R\fermata \bar "||" %45
+    \key f \major \time 3/8 \tempoA-XIXBAriaPrimaB
+      c8 \tuplet 3/2 8 { d16([ e f)] } d8 \noBreak
+    d c r
+    e32([ f e f g8)] b,
+    b a r
+    c f \tuplet 3/2 8 { es16([ d cis)] } %50
+    \appoggiatura cis8 d4 f8
+    b16([ a g f)] e([ f)]
+    \appoggiatura f8 e4 r8
+    g, c b
+    a([ h)] c %55
+    \sbOn d32([ e f g a16 f]) \sbOff d([ c)]
+    h([ a)] g8 r
+    d' es f
+    es([ f)] g
+    d16([ es f8]) \tuplet 3/2 8 { \hA es16([ d c)] } %60
+    d8 r r
+    g, c16([ g)] e!([ c)]
+    d4.\trill
+    e\trill
+    f4~ \tuplet 3/2 8 { f16[ g a] } %65
+    g[ d'32( c) h16 a] g([ f)]
+    \sbOn e[ g \tuplet 3/2 8 { c d c b a gis]
+    a[ h c d e d c h ais]
+    h[ c d e f e d c h] } \sbOff
+    c[ e32 d c16 h a g] %70
+    f[ f'32 e d16 c h a]
+    \tuplet 3/2 8 { e'[ dis e] } e,8 r
+    R4.
+    r8 e' e,
+    f!4 gis8 %75
+    a4.~
+    a~
+    a~
+    a~\fermata-\frma
+    \time 4/4 a8.[ h16] h4\trill a r\fermata \markDaCapo \bar "||" %80 finis
+  }
+}
+
+A-XIXBAriaPrimaSoliLyrics = \lyricmode {
+  Der %9
+  Ad -- ler ſchwüngt ſich zwar, ſchwüngt ſich %10
+  zwar zu __ der Son -- ne und
+  kom -- met ihr zur Zeit __ _ auch
+  nah, fliegt er zu
+  hoch, zu hoch an ih -- re
+  Woh -- ne, iſt vor ſein %15
+  Aug, iſt vor ſein
+  Aug die Blen --
+  _ _ _ dung
+  da, die ihn in Ab -- grund
+  wi -- der ja -- _ %20
+  _ _ _ _
+  _ get, wi -- der ja --
+  _ _ get, wi -- der
+  ja -- get.
+
+  Der Ad -- ler ſchwingt ſich %29
+  zwar, ſchwingt ſich zwar, ſchwingt ſich %30
+  zwar zu der Son -- ne und
+  kom -- met ihr __ zur
+  Zeit auch nah,
+  fliegt er zu hoch,
+  fliegt er zu hoch, zu %35
+  hoch an ih -- re
+  Woh -- ne, iſt vor ſein
+  Aug die Blen -- dung
+  da, die ihn in
+  Ab -- grund ja -- _ %40
+  _ _ _
+  _
+  get.
+
+  So fliegt der %46
+  Hoch -- muth
+  auch __ ver --
+  we -- gen,
+  und wan er %50
+  ſich an
+  Wol -- khen
+  glaubt,
+  komt ihm von
+  Gott ein %55
+  Keul __ ent --
+  ge -- gen,
+  der ihm ſein
+  ſtol -- zes
+  Flug -- werk %60
+  raubt
+  und zu den
+  De --
+  mueths --
+  bo -- %65
+  _ den
+  ſchla --
+  _
+  _
+  _ %70
+  _
+  _ get,
+
+  zu den
+  Bo -- den %75
+  ſchla --
+
+  _ get. %80 finis
+}

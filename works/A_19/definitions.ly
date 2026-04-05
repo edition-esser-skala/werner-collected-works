@@ -2,6 +2,7 @@
 
 Barak = \markup { \override #'(box-padding . 0.5) \box "Barak" }
 Debora = \markup { \override #'(box-padding . 0.5) \box "Debora" }
+Jahel = \markup { \override #'(box-padding . 0.5) \box "Jahel" }
 Sisera = \markup { \override #'(box-padding . 0.5) \box "Sisera" }
 frma = \markup \remark "ferma"
 
@@ -36,6 +37,11 @@ tempoA-XIXAChorusA = \tempoMarkup "[Chor Israels,] Largo"
   tempoA-XIXAChorusAk = \tempoMarkup "Cananiter Chor"
   tempoA-XIXAChorusAl = \tempoMarkup "Recitativo"
 tempoA-XIXAChorusB = \tempoMarkup "Tempo ordinario"
+
+tempoA-XIXBScenaPrimaA = \tempoMarkup "Recitativo"
+  tempoA-XIXBScenaPrimaB = \tempoMarkup "Ariose"
+tempoA-XIXBAriaPrima = \tempoMarkup "Allegro"
+  tempoA-XIXBAriaPrimaB = \tempoMarkup "Andante"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

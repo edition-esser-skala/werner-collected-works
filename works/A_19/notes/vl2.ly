@@ -608,3 +608,90 @@ A-XIXAChorusBViolinoII = {
     <g, d' h'>8 q q q q4 r\fermata \bar "|." %11 finis
   }
 }
+
+A-XIXBAriaPrimaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XIXBAriaPrima
+    r4 \sbOn \tuplet 3/2 8 { c16\f\trill h c } c16. e32 \tuplet 3/2 8 { e16\trill d e } e16. g32 \tuplet 3/2 8 { g16\trill f g } g16. c32
+    \tuplet 3/2 8 { e16\trill d e } f g \tuplet 3/2 8 { a g f } e d \tuplet 3/2 8 { c\trill h c } d e \tuplet 3/2 8 { f e d } c h \sbOff
+    c4 r16 \grace d16 c \grace d c \grace d c \tuplet 3/2 8 { d c d } r8 r16 \grace c h \grace c h \grace c h
+    \tuplet 3/2 8 { c h c } r8 r16 \grace h a \grace h a \grace h a h( c) c( h) h( a) a( g32 fis)
+    g16(\p c) c( h) h( a) a( g32 fis) g64( a h16.) a8 g64( a h16.) a64( g fis16.) %5
+    g64(\f a h16.) g16( a) g64( a h16.) a64( g fis16.) g8 g'64( f e16.) d64( e f16.) e64( d cis16.)
+    d16( a) f'64( e d16.) c64( d e16.) d64( c h16.) c8 a~ a g~
+    g f~ f e a8. f16 d8.\trill e32 f
+    g8 \tuplet 3/2 8 { f16 e d } \appoggiatura c8 h8.\trill c16 c\p e8 d16 c4
+    r2 \sbOn \tuplet 3/2 8 { g'16\p f g c h c } e8 r %10
+    \tuplet 3/2 8 { c16 h c e d e } g8 g, g4 r8 d
+    \tuplet 3/2 8 { e16 d e a g a } c8 e, d4 r \sbOff
+    r8 d64(\p e fis g a16) h8 r r e,64( fis g a h16) c8 r
+    r fis,64( g a h c16) d8 r c e d \tuplet 3/2 8 { e16 d c }
+    c8([ h)] fis'( g) r4 e8( a,) %15
+    r4 ais'8( h) r4 a8( d,)
+    r32 h c d e16 fis g8 g, e' e, r4
+    fis'8 fis, r4 r2
+    \sbOn \tuplet 3/2 8 { h16\trill\f a h d\trill c d } \sbOff g d h g r2
+    e32(\p fis g \hA fis) e8 r4 fis32( g a g) \hA fis8 r4 %20
+    g32( a h a) g8 r4 a32( h c h) a8 r4
+    r2 h32(\p c d c) h8 c32( d e d) c8
+    a32( h c h) a8 a32( h c h) a8 r2
+    r r4 \sbOn \tuplet 3/2 8 { g16\f fis g } g16. h32
+    \tuplet 3/2 8 { h16\trillE a h } h16. d32 \tuplet 3/2 8 { d16 e f! f e d } c16. h32 \tuplet 3/2 8 { a16 g f e f g f e d } %25
+    e8 c' \tuplet 3/2 8 { c16 d c } h a h8 h \tuplet 3/2 8 { h16 c h } a gis \sbOff
+    a8.\trill gis32( a) a8.\trill \hA gis32( a) a8.\trill \hA gis32( a) a8.\trill \hA gis32( a)
+    a8.\trill c32 h a8 a gis16 gis32 a h16 \hA gis gis'8 h,
+    c a' g g, e'4 r
+    r \sbOn \tuplet 3/2 8 { d,16\p c d a' g a } h8 r \tuplet 3/2 8 { e,16 d e h' a h } %30
+    c8 r r4 \tuplet 3/2 8 { e16\f f g g a h } c8 r \sbOff
+    r a\p r f r h r g
+    r2 g,8(\f e') d( c)
+    h4 r r2
+    e32(\p d16.) c32( h16.) c32( h16.) a32( g16.) a4 r %35
+    g8.\trill a32 h a8.\trill h32 c h8.\trill c32 d c8.\trill d32 e
+    h16( a) g( fis) g4 r r8 d'
+    h4 r8 e c4 r
+    r e, r8 d h4
+    r8 c a4 r2 %40
+    R1*2
+    \sbOn \tuplet 3/2 8 { c16\f\trill h c } c16. e32 \tuplet 3/2 8 { e16\trill d e } e16. g32 \tuplet 3/2 8 { g16\trill f g } g16. c32 \tuplet 3/2 8 { c16\trill h c } c16. e32
+    \tuplet 3/2 8 { e16\trill d e } e16. g32 \tuplet 3/2 8 { g16\trill f g } g16. c32 \sbOff c8 h16( a) g( e) d( c) \noBreak
+    g8.\trill c32 d d4\trill c r\fermata \bar "||" %45
+    \key f \major \time 3/8 \tempoA-XIXBAriaPrimaB
+      R4. \noBreak
+    f,8.\p a16 a( c)
+    e8 r r
+    R4.
+    f,16( a) c8 \tuplet 3/2 8 { es16 d cis } %50
+    \appoggiatura cis8 d4 r8
+    b d16( c) d8
+    g,4 r8
+    c,16( d) e( f) \tuplet 3/2 8 { g( a b) }
+    a8 r r %55
+    R4.
+    fis'64(\f g32.) d64( e32.) h64([ d32.) g,64( \hA h32.)] d,64( g32.) h,64( d32.)
+    g,32(\p h16.) g32( c16.) g32( d'16.)
+    g,32( c16.) g32( d'16.) g,32( es'16.)
+    h32( c16.) d32( \hA h16.) c32( a16.) %60
+    h64(\f d32.) c64( e!32.) d64([ f32.) e64( g32.)] a64( c32.) \hA h64( d32.)
+    c4.~\p
+    c~
+    c~
+    c
+    R
+    r8 c\p g'
+    a, d a'
+    h, e h'
+    c, r r
+    R4.
+    gis32(\pp a16.) h32( \hA gis16.) a32( fis16.)
+    gis32( h16.) a32( c16.) \hA h32( a16.) %75
+    h4 r8
+    r f'!\p gis, %75
+    a32( h c \hA h) a8 r
+    a32( h c \hA h) a8 r
+    a32( h c \hA h) a8 r
+    R4.\fermata-\frma
+    \time 4/4 R1\fermata \markDaCapo \bar "||" %80 finis
+  }
+}

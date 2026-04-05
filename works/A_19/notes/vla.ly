@@ -414,6 +414,46 @@ A-XIXAChorusBViola = {
   \relative c' {
     \clef alto
     \key g \major \time 4/4 \tempoA-XIXAChorusB
-    
+    g8\f g' fis d e e' h h,
+    c c' d fis, g\p r fis r
+    g\f g,4 fis8 e e' cis d
+    a4 r r2
+    a8 a' g e fis d c! a %5
+    g g' fis g d d' fis, g
+    d d16. c32 h8 g c c16. h32 c8 a
+    d, d'16. c32 d8 h e c16. e32 fis8 d16. fis32
+    g8 d16. g32 h8 g16. h32 d8 d, r d
+    g16 d h g d'8 d, g r g r %10
+    g g g g g4 r\fermata \bar "|." %11 finis
+  }
+}
+
+A-XIXBAriaPrimaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XIXBAriaPrima
+    c8\f r c r c r c r
+    c r r g' c, r r g'
+    c,16 c' h c  a, a' g a h, h' a h g, g' fis g
+    a, a' g a fis, fis' e \hA fis g,8 r r d'
+    g,4\p r8 d g c d d, %5
+    g\f c d d, g r r a'
+    d, r r g \sbOn \tuplet 6/4 4 { c,16 d e f g a h, c d e f g
+    a, h c d e f g, a h c d e } \sbOff f8 d g f
+    e f g g, c4 r
+    R1*14 %23
+    r2 g8\fE r g r
+    g r g r c f! g g, %25
+    c4 r8 c g'4 r8 e
+    a, a' g g, f f' e e
+    d d dis dis e4 r16 e32 fis gis16 e
+    a a,32 h c16 a h g!32 a h16 g c4 r
+    R1*13 %42
+    c8\f r c r c r c r
+    c r c r c d e f \noBreak
+    g4 g, c r\fermata \bar "||" %45
+    \key f \major \time 3/8 \tempoA-XIXBAriaPrimaB
+      R4.*34 %79
+    \time 4/4 R1\fermata \markDaCapo \bar "||" %80 finis
   }
 }

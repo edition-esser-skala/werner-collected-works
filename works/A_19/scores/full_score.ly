@@ -592,73 +592,148 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \section "14" "Chorus der Israeliter"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #19.5
+  %     system-system-spacing.minimum-distance = #19.5
+  %     systems-per-page = #2
+  %     system-count = #5
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-XIXAChorusBViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-XIXAChorusBViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \A-XIXAChorusBSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \A-XIXAChorusBSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \A-XIXAChorusBAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \A-XIXAChorusBAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \A-XIXAChorusBTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \A-XIXAChorusBTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \A-XIXAChorusBBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \A-XIXAChorusBBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "[vla]" "bc" }
+  %           % \transpose c c,
+  %           \A-XIXAChorusBContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIXAChorusBBassFigures }
+  %     >>
+  %     \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  %   \markup { \vspace #7 \fontsize #3 \fill-line { "" "Il Fine della parte 1ma." "" } }
+  % }
+  % \part "secundus" "II" "Actus secundus"
+  % \bookpart {
+  %   \section "15" "Scena prima"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #21
+  %     system-system-spacing.minimum-distance = #21
+  %     systems-per-page = #5
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "soli"
+  %           \new Voice = "Soli" { \dynamicUp \A-XIXBScenaPrimaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-XIXBScenaPrimaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \A-XIXBScenaPrimaContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIXBScenaPrimaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "14" "Chorus der Israeliter"
+    \section "16" "Aria prima"
     \addTocEntry
     \paper {
-      top-system-spacing.basic-distance = #10
-      top-system-spacing.minimum-distance = #10
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #10
-      markup-system-spacing.minimum-distance = #10
-      system-system-spacing.basic-distance = #19.5
-      system-system-spacing.minimum-distance = #19.5
-      systems-per-page = #2
-      system-count = #5
+      system-system-spacing.basic-distance = #22
+      system-system-spacing.minimum-distance = #22
+      systems-per-page = #3
+      page-count = #7
     }
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \A-XIXAChorusBViolinoI
+              \A-XIXBAriaPrimaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \A-XIXAChorusBViolinoII
+              \A-XIXBAriaPrimaViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \A-XIXAChorusBSoprano }
+            \set Staff.instrumentName = "Jahel"
+            \new Voice = "Soli" { \dynamicUp \A-XIXBAriaPrimaSoli }
           }
-          \new Lyrics \lyricsto Soprano \A-XIXAChorusBSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \A-XIXAChorusBAlto }
-          }
-          \new Lyrics \lyricsto Alto \A-XIXAChorusBAltoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \A-XIXAChorusBTenore }
-          }
-          \new Lyrics \lyricsto Tenore \A-XIXAChorusBTenoreLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \A-XIXAChorusBBasso }
-          }
-          \new Lyrics \lyricsto Basso \A-XIXAChorusBBassoLyrics
+          \new Lyrics \lyricsto Soli \A-XIXBAriaPrimaSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "[vla]" "bc" }
             % \transpose c c,
-            \A-XIXAChorusBContinuo
+            \A-XIXBAriaPrimaContinuo
           }
         >>
-        \new FiguredBass { \A-XIXAChorusBBassFigures }
+        \new FiguredBass { \A-XIXBAriaPrimaBassFigures }
       >>
       \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 75 } %60
     }
-    \markup { \vspace #7 \fontsize #3 \fill-line { "" "Il Fine della parte 1ma." "" } }
   }
 }
