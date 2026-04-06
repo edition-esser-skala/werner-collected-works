@@ -197,7 +197,7 @@ A-XIXAAriaPrimaViolinoI = {
     r e dis
     e r r
     R4.*6 \noBreak %110
-    R4.\fermata \markDaCapo \bar "||" %111 finis
+    R4.\fermata \markAriaDaCapo \bar "||" %111 finis
   }
 }
 
@@ -279,7 +279,7 @@ A-XIXAAriaSecundaViolinoI = {
     r8 c\p c16( d) d8 r2
     \sbOn d,16\ff d32 d d( e64 fis g a b c) \sbOff d16 a fis d r2
     R1*2 %45
-    R1\fermata \markDaCapo \bar "||" %46 finis
+    R1\fermata \markAriaDaCapo \bar "||" %46 finis
   }
 }
 
@@ -417,7 +417,7 @@ A-XIXAAriaTertiaViolinoI = {
     g16( fis) g8 r4 r8 fis4 a8
     r g4 h8 r a4 c8
     R1
-    R\fermata \markDaCapo \bar "||" %114 finis
+    R\fermata \markAriaDaCapo \bar "||" %114 finis
   }
 }
 
@@ -518,7 +518,7 @@ A-XIXAAriaQuartaViolinoI = {
     R4.*4 %73
     \time 4/4 \tempoA-XIXAAriaQuartaC \newSpacingSection
       R1
-    R\fermata \markDaCapo \bar "||" %75 finis
+    R\fermata \markAriaDaCapo \bar "||" %75 finis
   }
 }
 
@@ -694,6 +694,100 @@ A-XIXBAriaPrimaViolinoI = {
     a32( h c \hA h) a8 r
     a32( h c \hA h) a8 r
     R4.\fermata-\frma
-    \time 4/4 R1\fermata \markDaCapo \bar "||" %80 finis
+    \time 4/4 R1\fermata \markAriaDaCapo \bar "||" %80 finis
+  }
+}
+
+A-XIXBAriaSecundaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/8 \tempoA-XIXBAriaSecunda
+    \partial 8 d8\f g g,16 a b c
+    d c d e fis d
+    g fis g a b c
+    d8 d, d'
+    g~ g16 f32 g a16 g %5
+    f8~ f16 es32 f g16 f
+    es8 d16( fis) fis( a)
+    b,64( c d16.) c64([ d es16.)] d32( g16.)
+    es64([ d  c16.)] b8 a\trill
+    b64( c d16.) c64([ d es16.)] d32( g16.) %10
+    es64([ d  c16.)] b8 a\trill
+    g4 r8
+    r g\p b'
+    a d,, a''
+    g c,, g'' %15
+    fis16 a32( g) \hA fis16 e? d8
+    es4.\trill
+    d\trill
+    \sbOn \tuplet 3/2 8 { c16 d es } d c b a \sbOff
+    b8 g r %20
+    R4.*3
+    \sbOn c32\ff c c c f f f f a a a a
+    c( b a g) a( g f es!) f( es d c) \sbOff %25
+    d64 d, d d d d d d d8 r
+    r f\p as
+    r fis( g)
+    r g b
+    r c d %30
+    r d es
+    r es f~
+    \sbOn f32(\f es d c) d( c b a) b( a g f)
+    g'( f es d) es( d c b) c( b a g) \sbOff
+    a4 r8 %35
+    r r h(
+    c) r cis(
+    d) r r
+    R4.*5 %43
+    r8 r f,\f
+    b b,16 c d es %45
+    f es f g a fis
+    g fis g a b c
+    d8 d, d'
+    g~ g16 f32 g a16 g
+    f8~ f16 es32 f g16 f %50
+    es8 d16( fis) fis( a)
+    b,64( c d16.) c64([ d es16.)] d32( g16.)
+    es64([ d  c16.)] b8 a\trill
+    g4 r8
+    r r e'\p %55
+    e16( d) d8 r
+    r r d
+    d16( c) c8 r
+    R4.*3 %61
+    \sbOn \tuplet 3/2 16 { a'32\ff g a fis e \hA fis d c d a g a fis e \hA fis } d16 \sbOff
+    R4.*11 %73
+    g16\f fis g a b g
+    c, b c d es c %75
+    d c d e fis d
+    g a g f es d
+    c es d c d d \noBreak
+    g,4 r8\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoA-XIXBAriaSecundaB \newSpacingSection
+      R2*2 %81
+    r8 a'\p \tuplet 3/2 8 { a16 g f } f8
+    R2
+    r8 c' \tuplet 3/2 8 { c16 b a } a8
+    r4 d~ %85
+    d8 e16 d \hA e4~
+    e8 f16 e f4~
+    f8 g16 f \sbOn \tuplet 3/2 8 { g f e d c b } \sbOff
+    a c8 f16 a-! f-! c-! a-!
+    r4 r8 f\p %90
+    d'32( c d es!) f8 r4
+    r8 g, d'32( c d e) f8
+    r g, c32( h c d) e8
+    R2
+    r16 a,\p a a a a a a %95
+    a a a a a a a a
+    d, d' d d a' c, c c
+    h h h h h h h h
+    c c c c b b b a32( g)
+    a8( c) b( a) %100
+    R2
+    r8 r16 c\pp c8( b16.) d32
+    d8( c16.) es!32 es8( d16.) c32
+    b8( a16.) c32 b16( a) b8
+    a4 r\fermata \markAriaDaCapo \bar "||" %105 finis
   }
 }

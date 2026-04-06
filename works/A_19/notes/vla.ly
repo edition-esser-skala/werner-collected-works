@@ -141,7 +141,7 @@ A-XIXAAriaPrimaViola = {
     f4 r\fermata \bar "||"
     \time 3/8 \tempoA-XIXAAriaPrimaB \newSpacingSection
       R4.*26 %110
-    R4.\fermata \markDaCapo \bar "||" %111 finis
+    R4.\fermata \markAriaDaCapo \bar "||" %111 finis
   }
 }
 
@@ -200,7 +200,7 @@ A-XIXAAriaSecundaViola = {
     c'4 r8 g4 r8 as4 b8 es,4\fermata r8
     \time 4/4 \tempoA-XIXAAriaSecundaB \newSpacingSection
       R1*14
-    R1\fermata \markDaCapo \bar "||" %46 finis
+    R1\fermata \markAriaDaCapo \bar "||" %46 finis
   }
 }
 
@@ -283,7 +283,7 @@ A-XIXAAriaTertiaViola = {
     a4 r8\fermata \bar "||"
       \time 4/4 \tempoA-XIXAAriaTertiaB \newSpacingSection
     R1*17 %113
-    R1\fermata \markDaCapo \bar "||" %114 finis
+    R1\fermata \markAriaDaCapo \bar "||" %114 finis
   }
 }
 
@@ -331,7 +331,7 @@ A-XIXAAriaQuartaViola = {
     \key g \minor \time 3/8 \tempoA-XIXAAriaQuartaB \newSpacingSection
       R4.*51 %73
     \time 4/4 \tempoA-XIXAAriaQuartaC R1
-    R\fermata \markDaCapo \bar "||" %75 finis
+    R\fermata \markAriaDaCapo \bar "||" %75 finis
   }
 }
 
@@ -454,6 +454,54 @@ A-XIXBAriaPrimaViola = {
     g4 g, c r\fermata \bar "||" %45
     \key f \major \time 3/8 \tempoA-XIXBAriaPrimaB
       R4.*34 %79
-    \time 4/4 R1\fermata \markDaCapo \bar "||" %80 finis
+    \time 4/4 R1\fermata \markAriaDaCapo \bar "||" %80 finis
+  }
+}
+
+A-XIXBAriaSecundaViola = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 3/8 \tempoA-XIXBAriaSecunda
+    \partial 8 d8\f g g,16 a b c
+    d c d e fis d
+    g fis g a b c
+    d8 d, d'
+    es!16 c a c f, es' %5
+    d b g b es, d'
+    c a fis a d, \hA fis
+    g b a c b d
+    c es d8 d,
+    g,16 b a c b d %10
+    c es d8 d,
+    g4 r8
+    R4.*11 %23
+    \sbOn f'32\ff f f f f f f f f f f f \sbOff
+    f,8 r r %25
+    b4 r8
+    R4.*6 %32
+    b'4\fE d,8
+    es c' es,
+    f4 r8 %35
+    R4.*9 %44
+    b,8\f b16 c d es %45
+    f es f g a fis
+    g fis g a b c
+    d8 d, d'
+    es16 c a c f, es'
+    d b g b es, d' %50
+    c a fis a d, \hA fis
+    g b a c b d
+    c es d8 d,
+    g4 r8
+    R4.*19 %73
+    g,16\f fis g a b g
+    c b c d es c %75
+    d c d e fis d
+    g a g f es d
+    c es d c d d, \noBreak
+    g4 r8\fermata
+    \twofourtime \time 2/4 \tempoA-XIXBAriaSecundaB \newSpacingSection
+    R2*25 %104
+    R2\fermata \markAriaDaCapo \bar "||" %105 finis
   }
 }

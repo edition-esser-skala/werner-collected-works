@@ -209,7 +209,7 @@ A-XIXAAriaPrimaSoli = {
     a4.~
     \afterGrace a^\frma h16
     h4.\trill %110
-    a4 r8\fermata \markDaCapo \bar "||" %111 finis
+    a4 r8\fermata \markAriaDaCapo \bar "||" %111 finis
   }
 }
 
@@ -476,7 +476,7 @@ A-XIXAAriaSecundaSoli = {
     d8 d, r d' h16([ a \hA h8)] \tuplet 3/2 8 { h16([ c d)] } c([ \hA h)]
     c8 es \tuplet 3/2 8 { d16([ es f)] } es([ d)] es8[ d] c4~
     c2~ c %45
-    ^\frma c8.([ d16)] d4 c2\fermata \markDaCapo \bar "||" %46 finis
+    ^\frma c8.([ d16)] d4 c2\fermata \markAriaDaCapo \bar "||" %46 finis
   }
 }
 
@@ -644,7 +644,7 @@ A-XIXAAriaTertiaSoli = {
     r8 h a g fis16[ e \hA fis g] a[ g a \hA fis]
     g[ fis g a] h[ a h g] a[ g a h] c[ h c a]
     h8([ a16 g] fis8) e e2~^\frma
-    e8.[ fis16] fis4\trill e2\fermata \markDaCapo \bar "||" %114 finis
+    e8.[ fis16] fis4\trill e2\fermata \markAriaDaCapo \bar "||" %114 finis
   }
 }
 
@@ -877,7 +877,7 @@ A-XIXAAriaQuartaSoli = {
     b a8. a16
     \time 4/4 \tempoA-XIXAAriaQuartaC \newSpacingSection
       d,8 d gis gis a8.([ h32 cis] d16[ a)] f([ d)]
-    a4. a8 d4 r\fermata \markDaCapo \bar "||" %75 finis
+    a4. a8 d4 r\fermata \markAriaDaCapo \bar "||" %75 finis
   }
 }
 
@@ -1029,7 +1029,7 @@ A-XIXAScenaSeptimaSoliLyrics = \lyricmode {
 A-XIXBScenaPrimaSoli = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \autoBeamOff \tempoA-XIXBScenaPrimaA
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIXBScenaPrima
     r8^\Jahel g' c e h8. h16 h8 c
     d d f e c c c d
     e8. a,16 a8 cis e g f e
@@ -1140,7 +1140,7 @@ A-XIXBAriaPrimaSoli = {
     a~
     a~
     a~\fermata-\frma
-    \time 4/4 a8.[ h16] h4\trill a r\fermata \markDaCapo \bar "||" %80 finis
+    \time 4/4 a8.[ h16] h4\trill a r\fermata \markAriaDaCapo \bar "||" %80 finis
   }
 }
 
@@ -1211,4 +1211,248 @@ A-XIXBAriaPrimaSoliLyrics = \lyricmode {
   ſchla --
 
   _ get. %80 finis
+}
+
+A-XIXBScenaSecundaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIXBScenaSecunda
+    r8^\markup \remark "ardito"^\Jahel c' f c c g r r16 a
+    b8 b16 d c8 g a a r a
+    e'16 e e16. e32 e16 cis a b g8 g r16 g g a
+    b8. b16 b8 a f f r a
+    f'8. f16 f8 d c! g b16 d c g %5
+    a8 a r r16 f b8. b16 b b d \hA b
+    g8. g16 g4 r8 d' d16 h g f
+    e8 e e fis gis8. gis16 gis8 r
+    r h h16 h h c d8 d d16 f e h
+    c8 c r c c e c g! %10
+    a a f'16 d h c c8 g r4
+    \clef "treble_8" r8^\markup \remark "lamentuoso"^\Sisera a, e'16 cis a b g8 g g16 a b a
+    f8 f r a c8. c16 c8 c
+    a fis a16 c h fis g8 r16 h e8 g
+    d! r16 d a c e d h8 h r4 %15
+    r8 h^\markup \remark "ardito" h16 h h c d8 r16 d d f e h
+    c8 e a,16 a a gis h8 h r g
+    a a cis e f d c16 g b c
+    a8 r16 a c8 d b8. b16 b8 d
+    g, h d f e e r g^\markup \remark "lamentuoso" %20
+    b,8. b16 b8 r16 a fis8. fis16 fis4
+    r16 gis gis a h c d e f!8 d f e
+    c c r c c g g a
+    b g g'16 e c b a8 c d16 b g f
+    f8 c r4 r8 a' a b %25
+    c8. c16 c8 d es c \hA es d
+    b g \hA b d cis8. cis16 cis8 e
+    g, g b a f f r a
+    d,16 e fis g a c b a \hA b8. b16 b8 d
+    \tempoA-XIXBScenaSecundaB g, g \tuplet 3/2 8 { es'16[ d c] b[ a g] } fis8 d' e fis %30
+    g[ d] es16([ d c8)] b4 a\trill
+    g r r2\fermata \bar "|." %32 finis
+  }
+}
+
+A-XIXBScenaSecundaSoliLyrics = \lyricmode {
+  Er -- freu -- te Hoff -- nung! du
+  haſt mich nicht hin -- ter -- gan -- gen, Ich
+  ßeh den Si -- se -- ra in ei -- nen ban -- gen, und forcht -- ge --
+  jag -- ten Lau -- fe ir -- ren, der
+  Him -- mel ſoll ihn nun zu mei -- ner Hüt -- te %5
+  füh -- ren. Doch ja! Er komt ge -- ra -- de
+  auf mich zue, ver -- ſtel -- le dich mein
+  Mund, vil -- leicht ſuecht Er die Rueh,
+  wo Er ſie ſi -- cher ſoll "/: je" -- doch auf e -- "wig :/"
+  fün -- den; doch will ich hier ver -- %10
+  ſtekt erſt ſei -- nen Schluß er -- grün -- den.
+  Wo -- hin mein ſcheu -- her Fueß! wirſt du mich end -- lich
+  tra -- gen? Ô Schan -- de! die daß
+  March in Bei -- nen fär -- ben mueß, Ich bin Ich
+  bin, ja ja ich bin ge -- ſchla -- gen, %15
+  wo fan -- de Ba -- rak doch die har -- te Mog -- lich --
+  keit? mich in die Flucht zu trei -- ben: mich,
+  deſ -- ſen Hel -- den -- fauſt der kün -- ſte Mueth ge --
+  ſcheuht; der ei -- ne Kunſt be -- ßaß ſtäts
+  ſie -- gend zu ver -- blei -- ben. Al -- %20
+  lei -- ne Ach! und a -- ber Ach!
+  jezt treibt mich Schan -- de, Noth -- ge -- fahr in Scheuh und
+  Flüch -- ten, mir jagt ein nied -- rer
+  Knecht mit ei -- nem Mord -- ſtahl nach mich gänz -- lich zu ver --
+  nich -- ten. Wo -- hin be -- %25
+  ſchäm -- tes Haubt ver -- ber -- geſt du dich
+  dan? daß dein ge -- hez -- ter Geiſt nich
+  ſei -- nen Siz ver -- lieh -- ret, die
+  Forcht gibt je -- des Blat vor mei -- nen Mör -- der an ſo
+  ſich von Lufft be -- wegt mit leiſ -- ſen %30
+  Wiſch -- blen rüh -- _
+  ret. %32 finis
+}
+
+A-XIXBAriaSecundaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \minor \time 3/8 \autoBeamOff \tempoA-XIXBAriaSecunda
+    \partial 8 r8 R4.*11 %11
+    r8 r d,
+    g16([ fis)] g([ a)] b([ c)]
+    d([ cis)] d([ e)] f!([ d)]
+    g([ fis)] g([ g,)] b([ c)] %15
+    d8 d, r
+    R4.*3
+    r8 b'4 %20
+    b16([ a)] c8 es
+    es16([ d)] d8 f
+    \tuplet 3/2 8 { g16([ f g)] es([ d \hA es)] c([ b c)] }
+    a8 f r
+    R4. %25
+    r8 r b
+    f' \tuplet 3/2 8 { f16([ es d)] c([ b as)] }
+    as([ g)] g8 c
+    g' \tuplet 3/2 8 { g16([ f e)] d([ c b)] }
+    \sbOn a!8[~ a32 b c b d c b a] %30
+    b8[~ b32 c d b es d c b]
+    c8[~ c32 d es c f es d c] \sbOff
+    d4 r8
+    R4.
+    f,8 a c %35
+    b4( h8)
+    c4( cis8)
+    d4 es!8
+    c!16([ b)] a([ g)] f([ es)]
+    \sbOn d[ b32 c d16 es f g32 a] %40
+    b16[ g32 a b16 c d es32 f]
+    g32[ f es16~ es32 d c16~ c b] \sbOff
+    a8 c \tuplet 3/2 8 { b16([ c d)]
+    es([ d c)] } b([ c)] c8
+    b4 r8 %45
+    R4.*8 %53
+    r8 r d
+    cis16([ d)] \tuplet 3/2 8 { e([ d cis)] b!([ a g)] } %55
+    g([ fis)] fis8 c'
+    h16([ c)] \tuplet 3/2 8 { d([ c h)] as([ g f)] }
+    f([ es!)] es8 g
+    f16([ g)] a([ b)] \tuplet 3/2 8 { c([ d es)]
+    d([ c b)] } b8 d %60
+    g,16([ es')] c([ b)] a([ g)]
+    g([ fis)] fis8 d'
+    es! g \tuplet 3/2 8 { g16([ f es)] }
+    es([ d)] d8 d
+    c8.[\trill b32( c)] d16([ c)] %65
+    b32([ c b a g16 a b c]) \sbOff
+    d8 d,4
+    es!4.
+    d4 b'8
+    a4.\trill %70
+    g~\trill
+    g\fermata~-\frma
+    g16[ a] a8. g16
+    g4 r8
+    R4.*4 \noBreak %78
+    R4.\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoA-XIXBAriaSecundaB \newSpacingSection
+      r4 r8 d' \noBreak %80
+    \sbOn cis32([ d e d \hA cis16 b!)] \sbOff a8.\trill g16
+    \tuplet 3/2 8 { f([ e d)] } d8 r f'
+    \sbOn e32([ f g f \hA e16 d)] \sbOff c8.\trill b16
+    \tuplet 3/2 8 { a([ g f)] } f8 r c'
+    cis[ d16 \hA cis] d4~ %85
+    d8[ e16 d] \hA e4~
+    e8[ f16 e] f4~
+    f8[ g16 f] \tuplet 3/2 8 { g[( f e]) d[( c b]) }
+    a8 f r c'
+    \tuplet 3/2 8 { f16([ e f)] } c8 a f %90
+    \tuplet 3/2 8 { d16([ es! f)] } b,8 r d'
+    \tuplet 3/2 8 { g16([ fis g)] } d8 h g
+    \tuplet 3/2 8 { e16([ f g)] } c,8 r c\f
+    f a16 f c'8 e16 c
+    f8 f, r f\pE %95
+    \sbOn fis32([ g a b c16 d)] \sbOff es!8 fis,
+    g4 r8 c
+    \sbOn h32([ c d es f!16 g)] \sbOff as8 h,
+    c4( cis)
+    d r8 d %100
+    g([ d)] b g
+    d4 r
+    R2*2
+    R2\fermata \markAriaDaCapo \bar "||" %105 finis
+  }
+}
+
+A-XIXBAriaSecundaSoliLyrics = \lyricmode {
+  Mich ſchrö -- ken die %12
+  Bü -- ſche, mich
+  ja -- gen die
+  Blät -- ter, %15
+
+  mir %20
+  ſcheint jeds Ge --
+  zü -- ſche ein
+  donn -- ren -- des
+  Wet -- ter
+  %25
+  daß
+  nach mir die
+  Stei -- ne des
+  To -- des her --
+  ja -- %30
+  _
+  _
+  gt,
+
+  die Stein des %35
+  To --
+  _
+  _ des
+  To -- des her --
+  ja -- %40
+  _
+  _
+  gt, die Stein
+  des Tods her --
+  jagt. %45
+
+  Mich %54
+  ſchrö -- ken die %55
+  Bü -- ſche, mich
+  ja -- gen die
+  Blät -- ter, mir
+  ſcheint jeds Ge --
+  zü -- ſche ein %60
+  donn -- ren -- des
+  Wet -- ter daß
+  nach mir die
+  Stei -- ne des
+  Tods __ her -- %65
+  ja --
+  gt, des
+  To --
+  des, des
+  To -- %70
+  _
+
+  des her --
+  jagt.
+
+  Es %80
+  wan -- ken die
+  Füeſ -- ſe, es
+  züt -- tern die
+  Glüe -- der, es
+  ſtei -- _ %85
+  _
+  _
+  gen die
+  Äng -- ſte, der
+  Mueth fal -- let dar -- %90
+  nie -- der, der
+  Mueth fal -- let dar --
+  nie -- der, und
+  waß ich er -- bli -- ke, er --
+  bli -- ke daß %95
+  macht __ mich ver --
+  zagt, daß
+  macht __ mich ver --
+  zagt, __
+  _ daß %100
+  macht mich ver --
+  zagt. %102 finis
 }

@@ -1,5 +1,10 @@
 \version "2.24.0"
 
+markAriaDaCapo = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Aria da capo"
+}
+
 Barak = \markup { \override #'(box-padding . 0.5) \box "Barak" }
 Debora = \markup { \override #'(box-padding . 0.5) \box "Debora" }
 Jahel = \markup { \override #'(box-padding . 0.5) \box "Jahel" }
@@ -38,10 +43,14 @@ tempoA-XIXAChorusA = \tempoMarkup "[Chor Israels,] Largo"
   tempoA-XIXAChorusAl = \tempoMarkup "Recitativo"
 tempoA-XIXAChorusB = \tempoMarkup "Tempo ordinario"
 
-tempoA-XIXBScenaPrimaA = \tempoMarkup "Recitativo"
+tempoA-XIXBScenaPrima = \tempoMarkup "Recitativo"
   tempoA-XIXBScenaPrimaB = \tempoMarkup "Ariose"
 tempoA-XIXBAriaPrima = \tempoMarkup "Allegro"
   tempoA-XIXBAriaPrimaB = \tempoMarkup "Andante"
+tempoA-XIXBScenaSecunda = \tempoMarkup "Recitativo"
+  tempoA-XIXBScenaSecundaB = \tempoMarkup "Ariose"
+tempoA-XIXBAriaSecunda = \tempoMarkup "Vivace"
+  tempoA-XIXBAriaSecundaB = \tempoMarkup "Larghetto"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

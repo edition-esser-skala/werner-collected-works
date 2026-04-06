@@ -197,7 +197,7 @@ A-XIXAAriaPrimaViolinoII = {
     e gis a
     h r r
     R4.*6 \noBreak %110
-    R4.\fermata \markDaCapo \bar "||" %111 finis
+    R4.\fermata \markAriaDaCapo \bar "||" %111 finis
   }
 }
 
@@ -279,7 +279,7 @@ A-XIXAAriaSecundaViolinoII = {
     r8 a\p a16( fis) fis8 r2
     \sbOn d16\ff d32 d d( e64 fis g a b c) \sbOff d16 a fis d r2
     R1*2 %45
-    R1\fermata \markDaCapo \bar "||" %46 finis
+    R1\fermata \markAriaDaCapo \bar "||" %46 finis
   }
 }
 
@@ -415,7 +415,7 @@ A-XIXAAriaTertiaViolinoII = {
     h,16( a) h8 r4 r8 dis4 fis8
     r e4 g8 r fis4 a8
     R1
-    R\fermata \markDaCapo \bar "||" %114 finis
+    R\fermata \markAriaDaCapo \bar "||" %114 finis
   }
 }
 
@@ -516,7 +516,7 @@ A-XIXAAriaQuartaViolinoII = {
     R4.*4 %73
     \time 4/4 \tempoA-XIXAAriaQuartaC \newSpacingSection
       R1
-    R\fermata \markDaCapo \bar "||" %75 finis
+    R\fermata \markAriaDaCapo \bar "||" %75 finis
   }
 }
 
@@ -692,6 +692,100 @@ A-XIXBAriaPrimaViolinoII = {
     a32( h c \hA h) a8 r
     a32( h c \hA h) a8 r
     R4.\fermata-\frma
-    \time 4/4 R1\fermata \markDaCapo \bar "||" %80 finis
+    \time 4/4 R1\fermata \markAriaDaCapo \bar "||" %80 finis
+  }
+}
+
+A-XIXBAriaSecundaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/8 \tempoA-XIXBAriaSecunda
+    \partial 8 d8\f g g,16 a b c
+    d c d e fis d
+    g fis g a b c
+    d8 d, d'~
+    d16 es c4~ %5
+    c16 d b4~
+    b16 c a4~
+    a16( g) fis( a) g8
+    g4 fis16( a)
+    a( g) fis( a) g8 %10
+    g4 fis8
+    g4 r8
+    r g\p b'
+    a d,, a''
+    g c,, g'' %15
+    fis d, d'~
+    d g, c~
+    c fis, b!
+    \sbOn a16 g \tuplet 3/2 8 { fis g a } g \hA fis \sbOff
+    g4 r8 %20
+    R4.*3
+    \sbOn a32\ff a a a c c c c f f f f
+    a( g f e) f( es d c) d( c b a) \sbOff %25
+    b64 b, b b b b b b b8 r
+    r d\p f
+    r fis( g)
+    r e g
+    r r a %30
+    b r b
+    c r c
+    \sbOn d16\f f32( es) d( c b a) b( a g f)
+    g'( f es d) es( d c b) c( b a g) \sbOff
+    a4 r8 %35
+    f8( g) r
+    g( a) r
+    a( b) r
+    R4.*5 %43
+    r8 r f\f
+    b b,16 c d es %45
+    f es f g a fis
+    g fis g a b c
+    d8 d, d'~
+    d16 es c4~
+    c16 d b4~ %50
+    b16 c a4~
+    a16( g) fis( a) g8
+    g4 fis8
+    g4 r8
+    r r g\p %55
+    g16( fis) fis8 r
+    r r f
+    f16( es) es8 r
+    R4.*3 %61
+    \sbOn \tuplet 3/2 16 { a'32\ff g a fis e \hA fis d c d a g a fis e \hA fis } d16 \sbOff
+    R4.*11 %73
+    g16\f fis g a b g
+    c, b c d es c %75
+    d c d e fis d
+    g a g f es d
+    c es d c d d \noBreak
+    g,4 r8\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoA-XIXBAriaSecundaB \newSpacingSection
+      R2*2 %81
+    r8 f'\p \tuplet 3/2 8 { f16 e d } d8
+    R2
+    r8 a' \tuplet 3/2 8 { a16 g f } f8
+    r d' fis,([ g)] %85
+    r e' gis,([ a)]
+    r a a([ b)]
+    r c \sbOn \tuplet 3/2 8 { e16 d c b a g } \sbOff
+    f a8 c16 f-! c-! a-! f-!
+    r8 f\p c'32( b c d) es!8 %90
+    r f, b32( a b c) d8
+    r4 r8 g,
+    e'32( d \hA e f) g8 r4
+    R2
+    r16 f,\p f f f f f f %95
+    fis fis fis fis fis fis fis fis
+    g g g g g fis fis fis
+    g g g g d d d d
+    g g g g g g g g
+    fis8( a) g( \hA fis)
+    R2
+    r8 r16 a\pp a8( g16.) b32
+    b8( a16.) g32 fis8 a
+    g( fis16.) a32 g16( \hA fis) g8
+    fis4 r\fermata \markAriaDaCapo \bar "||"
   }
 }

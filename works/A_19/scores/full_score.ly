@@ -692,14 +692,88 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \section "16" "Aria prima"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #22
+  %     system-system-spacing.minimum-distance = #22
+  %     systems-per-page = #3
+  %     page-count = #7
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-XIXBAriaPrimaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-XIXBAriaPrimaViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Jahel"
+  %           \new Voice = "Soli" { \dynamicUp \A-XIXBAriaPrimaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-XIXBAriaPrimaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "[vla]" "bc" }
+  %           % \transpose c c,
+  %           \A-XIXBAriaPrimaContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIXBAriaPrimaBassFigures }
+  %     >>
+  %     \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+  %     \midi { \tempo 4 = 75 } %60
+  %   }
+  % }
+  % \bookpart {
+  %   \section "17" "Scena secunda"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #21
+  %     system-system-spacing.minimum-distance = #21
+  %     systems-per-page = #5
+  %     page-count = #2
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "soli"
+  %           \new Voice = "Soli" { \dynamicUp \A-XIXBScenaSecundaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-XIXBScenaSecundaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \A-XIXBScenaSecundaContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIXBScenaSecundaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "16" "Aria prima"
+    \section "18" "Aria secunda"
     \addTocEntry
     \paper {
       system-system-spacing.basic-distance = #22
       system-system-spacing.minimum-distance = #22
       systems-per-page = #3
-      page-count = #7
     }
     \score { %\articulate
       <<
@@ -708,31 +782,31 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \A-XIXBAriaPrimaViolinoI
+              \A-XIXBAriaSecundaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \A-XIXBAriaPrimaViolinoII
+              \A-XIXBAriaSecundaViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Jahel"
-            \new Voice = "Soli" { \dynamicUp \A-XIXBAriaPrimaSoli }
+            \set Staff.instrumentName = "Sisera"
+            \new Voice = "Soli" { \dynamicUp \A-XIXBAriaSecundaSoli }
           }
-          \new Lyrics \lyricsto Soli \A-XIXBAriaPrimaSoliLyrics
+          \new Lyrics \lyricsto Soli \A-XIXBAriaSecundaSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "[vla]" "bc" }
             % \transpose c c,
-            \A-XIXBAriaPrimaContinuo
+            \A-XIXBAriaSecundaContinuo
           }
         >>
-        \new FiguredBass { \A-XIXBAriaPrimaBassFigures }
+        \new FiguredBass { \A-XIXBAriaSecundaBassFigures }
       >>
-      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+      \layout { }
       \midi { \tempo 4 = 75 } %60
     }
   }

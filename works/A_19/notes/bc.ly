@@ -413,7 +413,7 @@ A-XIXAAriaPrimaContinuo = {
     c8 d dis
     e4.~^\frma
     e %110
-    a,4 r8\fermata \markDaCapo \bar "||" %111 finis
+    a,4 r8\fermata \markAriaDaCapo \bar "||" %111 finis
   }
 }
 
@@ -721,7 +721,7 @@ A-XIXAAriaSecundaContinuo = {
     d8 d, r d g, d' g f
     es c h g c d es e
     f16 g as8 g fis g2^\frma %45
-    g, c\fermata \markDaCapo \bar "||" %46 finis
+    g, c\fermata \markAriaDaCapo \bar "||" %46 finis
   }
 }
 
@@ -938,7 +938,7 @@ A-XIXAAriaTertiaContinuo = {
     e a, h r
     h r h r
     g a h2~^\frma
-    h e,\fermata \markDaCapo \bar "||" %114 finis
+    h e,\fermata \markAriaDaCapo \bar "||" %114 finis
   }
 }
 
@@ -1235,7 +1235,7 @@ A-XIXAAriaQuartaContinuo = {
     << { f' e d c b a } \\ { f8 } >>
     g16 b' a g a a,
     \time 4/4 \tempoA-XIXAAriaQuartaC d4 h a8 a' f d
-    a2 d,4 r\fermata \markDaCapo \bar "||" %75 finis
+    a2 d,4 r\fermata \markAriaDaCapo \bar "||" %75 finis
   }
 }
 
@@ -1541,7 +1541,7 @@ A-XIXAChorusBBassFigures = \figuremode {
 A-XIXBScenaPrimaContinuo = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoA-XIXBScenaPrimaA
+    \key c \major \time 4/4 \tempoA-XIXBScenaPrima
     c2 d
     h e
     cis1
@@ -1662,7 +1662,7 @@ A-XIXBAriaPrimaContinuo = {
     r d d
     r dis dis
     e4.\fermata_\frma
-    \time 4/4 e4 e, a r\fermata \markDaCapo \bar "||" %80 finis
+    \time 4/4 e4 e, a r\fermata \markAriaDaCapo \bar "||" %80 finis
   }
 }
 
@@ -1747,4 +1747,295 @@ A-XIXBAriaPrimaBassFigures = \figuremode {
   r8 <7 5 [_+]>4
   <6 4>4.
   <5[!] 4>4 <\t _+>2. %80 finis
+}
+
+A-XIXBScenaSecundaContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XIXBScenaSecunda
+    a'2 e
+    e f8. c16 a8 f
+    cis'2 cis~
+    cis d
+    d e %5
+    f16. a32 c,16. f32 a,16. c32 f,16. a32 d2
+    h! h
+    c h4. a8
+    gis2 gis
+    a e' %10
+    f4 d g4. e8
+    cis2 cis
+    d dis~
+    dis e
+    fis g16\f g32 g g16 h g d h g %15
+    e'2\pE gis
+    a4 f e e
+    cis2 d4 e
+    f2 d
+    h! c %20
+    cis c
+    h! gis
+    a e'
+    e f4 b,
+    c cis d2 %25
+    fis fis
+    g e
+    cis d
+    fis g
+    \tempoA-XIXBScenaSecundaB es4 c d c %30
+    b c d d,
+    g2 r\fermata \bar "|." %32 finis
+  }
+}
+
+A-XIXBScenaSecundaBassFigures = \figuremode {
+  <6>2 q
+  <5->1
+  <6>2 <5>
+  <7->1
+  r2 <6[!]> %5
+  r <6->
+  <6> <5>
+  r <6\\>
+  <6> <5>
+  r <6 [_!]> %10
+  r <4>4 <3>
+  <6>2 <5>
+  r <7[!] 5 [_+]>
+  r1
+  <6[!]> %15
+  <_+>2 <5>
+  r4 <7>8 <6\\> <_+>4 <6 _!>
+  <[6]>2. <6[!]>4
+  r2 <6->
+  <6>1 %20
+  <7- 5>2 <4\+ 2>
+  <6\\> <5>
+  r <6 [_!]>
+  <5->1
+  <4>4 <6 3>2. %25
+  <5[!]>2 <7->
+  <_-> <6\\>
+  <5>1
+  <6>2 <_->
+  \bo <[5-]>4 \bc <[_-]> <_+> <3[!]>8 <4\+> %30
+  <6>4 <_-> <6- 4> <5 _+>
+  r1 %32 finis
+}
+
+A-XIXBAriaSecundaContinuo = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 3/8 \tempoA-XIXBAriaSecunda
+    \partial 8 d8\f g g,16 a b c
+    d c d e fis d
+    g fis g a b c
+    d8 d, d'
+    es!16 c a c f, es' %5
+    d b g b es, d'
+    c a fis a d, \hA fis
+    g b a c b d
+    c es d8 d,
+    g,16 b a c b d %10
+    c es d8 d,
+    g16 g' d8 b
+    g\pE b' g
+    fis d' f,
+    e c' es, %15
+    d4 r8
+    R4.*3
+    g8 g, d'16 es %20
+    f8 a, f
+    b b' d,
+    es c' e,
+    \sbOn f32\ff f f f f f f f f f f f \sbOff
+    f,8 r r %25
+    b4 r8
+    d4\pE r8
+    es4 r8
+    e4 r8
+    f4 r8 %30
+    g4 r8
+    a4 r8
+    b4\fE d,8
+    es c' es,
+    f4 es8\pE %35
+    d( es) es
+    e f f
+    fis g g
+    a f a
+    b, b' a %40
+    g, g' f
+    es c' es,
+    f es d
+    g16 es f8 f,
+    b\f b16 c d es %45
+    f es f g a fis
+    g fis g a b c
+    d8 d, d'
+    es16 c a c f, es'
+    d b g b es, d' %50
+    c a fis a d, \hA fis
+    g b a c b d
+    c es d8 d,
+    g16 d b8 g
+    a\pE cis4 %55
+    d8. e16 fis8
+    g h,4
+    c!8 c' b!
+    a f! a
+    b d, b %60
+    es4 c8
+    d d'4~
+    d8 g, c~
+    c fis, b~
+    b e, fis %65
+    g8. f16 es8
+    d4 d'8~
+    d g, c~
+    c fis, g~
+    g c, d %70
+    es b c
+    d4.~\fermata-\frma
+    d4 d,8
+    g16\f fis g a b g
+    c b c d es c %75
+    d c d e fis d
+    g a g f es d
+    c es d c d d, \noBreak
+    g4 r8\fermata
+    \twofourtime \time 2/4 \tempoA-XIXBAriaSecundaB \newSpacingSection
+      d'8\pE d d d \noBreak %80
+    e? e cis cis
+    d d d d
+    c! c e e
+    f f f f
+    b, b h h %85
+    c c cis cis
+    d d d d
+    e e e e
+    f f f f
+    a, a a a %90
+    b b b b
+    h h h h
+    c c c c
+    f\f a16 f c'8 e16 c
+    f8 f, es!\pE es %95
+    d d c c
+    b b a a
+    g g' f f
+    es es es es
+    d4 r %100
+    g8 d b g
+    d'4 r
+    R2
+    g8-\tasto d b g
+    d4 r \markAriaDaCapo \bar "||" %105 finis
+  }
+}
+
+A-XIXBAriaSecundaBassFigures = \figuremode {
+  <_+>8 r4.
+  q
+  r
+  q
+  \bo <[7]>8 <7> q %5
+  q q q
+  q <6>4
+  <9>16 <6> <6\\>8 \bc <[6]>
+  r <6 4> <5 _+>
+  \bo <[9]>16 <6> <6\\>8 \bc <[6]> %10
+  r <6 4> <5 _+>
+  r4.
+  r
+  \bo <[6]>8 <_+> <6>
+  q <_!> \bc <[6]> %15
+  <_+>4.
+  r4.*3
+  r4 <6->8 %20
+  <4> <6> <7->
+  <4> <3> <6>
+  r4 q8
+  r4.
+  r %25
+  r
+  <6>
+  r
+  <[6]>
+  r %30
+  r
+  r
+  r4 <6>8
+  r4.
+  r %35
+  <6>4 <5!>8
+  <6>4 <5\+>8
+  <6>4 <6->8
+  \bo <[6]>4.
+  r4 <6>8 %40
+  r4 \bc <[6]>8
+  r4.
+  r8 <6> q
+  q16 q <4>8 <3>
+  r4. %45
+  r
+  r
+  <_+>
+  \bo <[7]>8 <7> q
+  q q q %50
+  q <6>4
+  <9>16 <6> <6\\>8 \bc <[6]>
+  r <6 4> <5 _+>
+  r4.
+  <[5!] _+>8 \bo <6 [_!]> \bc <5 [\t]> %55
+  <9[!] 4> <8 _+> <5[!]>
+  <_!> <6> <5[!]>
+  <9 4> <8 _-> <6>
+  q4.
+  r %60
+  <5>8 <6> q
+  <[4]> <_+>4
+  <4 2> <_->8
+  <\t> <6>4
+  <2>8 <6> q %65
+  r4.
+  <_+>
+  <2->8 <\t> <_->
+  <2> <6>4
+  <2!>8 <6> <\t> %70
+  r <6>4
+  <4>4.
+  <6 4>4 <[5] _+>8
+  r4.
+  r %75
+  r
+  r
+  r
+  r
+  r2 %80
+  <6\\>4 <[6 _!]>
+  r2
+  <_!>
+  r
+  \bo <[5 2\+]>8 <\t 3> <5\+> <6> %85
+  <5 2> <\t 3!> <5\+ _!> <6 \t>
+  <5 2!> <\t 3>4 <6>8
+  <6 2> \bc <[\t 3]>4.
+  r2
+  <6>4. <5->8 %90
+  r2
+  <6>4. <5>8
+  <_!>2
+  r4 <[_!]>
+  r4 <4 2> %95
+  <_+> <6 4\+>
+  <6> <7>8 <6\\>
+  <_!>4 <4! _->
+  <6> <6\\ [5-]>
+  <_+>2 %100
+  r
+  q
+  r
+  r
+  r %105 finis
 }
