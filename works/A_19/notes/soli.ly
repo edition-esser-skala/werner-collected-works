@@ -1456,3 +1456,601 @@ A-XIXBAriaSecundaSoliLyrics = \lyricmode {
   macht mich ver --
   zagt. %102 finis
 }
+
+A-XIXBScenaTertiaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIXBScenaTertia
+    r4^\Jahel b' r8 h h c16 d
+    f,8 f f16 g as g es8 es r es'
+    b b b c as as16 as as c b f
+    g8 g r16 g b c des8. des16 des8 b
+    b b b c a! a16 a cis8 e %5
+    g,8. g16 g8 a b g \hA b a
+    f f r a a a a d
+    c! \tempoA-XIXBScenaTertiaB a a a dis4~ dis8.[ e32 fis]
+    e8.[~\trill \tuplet 3/2 16 { e32 d c] } h8 \tuplet 3/2 8 { c16[ h a] } g4( fis8.)\trill e16
+    e8 \clef "treble_8" g,^\Sisera c16 c c e h8 r16 h h c d e %10
+    f8 d h g e4 r8 g
+    c8. c16 c8 d e4 a,
+    r8 g16 a b8 a f f r f'
+    c8. c16 e8 c a a a16 b c d
+    b8 b r d g, g g8. a16 %15
+    f8 d' h g e8. e16 e8 \clef treble e''^\Jahel
+    r e h16 c d e c8 c c16 c e c
+    a8 a r16 a a h cis8. cis16 cis8 d
+    e a, g a f4 r8 f'
+    c! g b c a4 r8 c %20
+    f, f a f d d d e
+    f16 f f a g d f g e4 r8 e
+    gis h d e c c c16 c d e
+    a,8 cis e16 \hA cis a g fis8 a c d
+    es8. es16 es8 fis, g g r g %25
+    d'8. g,16 g8 as f f f16 as g d
+    es8 g c es b8. b16 b8 d
+    f d b d g, g r b
+    c as f es \tempoA-XIXBScenaTertiaC d f es \tuplet 3/2 8 { as16[ g f] }
+    es8.[ f16] f4 es8 \clef "treble_8" g,^\Sisera c g %30
+    a8. a16 a8 e g g g a
+    b g g16 \hA b a e f8 r16 f f8 a
+    fis8. fis16 fis8 a c c c b
+    g g16 \clef treble g'^\Jahel g g g a h!8 h h16 h c d
+    es,8 es r es' b8. b16 b8 f %35
+    as as c b g g es'4
+    r8 es, as as16 c f,8 a c16 a f c
+    d8 d \clef "treble_8" d4^\Sisera r8^\critnote d a16 b c d
+    b8 g g16 g g a h8 h h16 h c d
+    c8 c c16 g b c a8 a r a %40
+    e8. e16 e8 f g b a e
+    f f r16 d' cis d d8. a16 a4
+    \clef treble r8^\Jahel d' a16 b c d \hA b8 f \hA b16 b d b
+    \tempoA-XIXBScenaTertiaD g8 g es' c a f b4~
+    b2~ b8.[ c16] c4\trill %45
+    \key b \major \tempoA-XIXBScenaTertiaE b r r2
+    R1*5 %51
+    \key c \major \tempoA-XIXBScenaTertiaF r2^\Jahel r8 a\pocoP c r16 e
+    gis,8. gis16 gis8 h d f e h
+    c c c16 c e c g8 h d16 h g h
+    e,8 e r4 r8 c'\f^\markup \remark "ardito" f16 c a f %55
+    d8 fis a16 c es d b8 b r \hA b
+    b d \hA b f a cis e16 \hA cis a b
+    g8 g g16 a b a f8 f r f'
+    c!8. c16 g8 a b16 b b b b d c g
+    a8 a r c f, f c d %60
+    es8. es16 es8 d \tempoA-XIXBScenaTertiaG b4 r8 g'
+    h!4. c16[ d] c8 c c c
+    b4. a16[ g] g8 d r4
+    r8 b'\f^\markup \remark "ardito" es g d8. d16 d8 f
+    as, as c b g r16 g g g g a %65
+    h8 h r h d8. d16 d f es d
+    es4 r8 \hA es b b d \hA b
+    g8. g16 g es g b c8. c16 c es d \hA es
+    es8. b16 b4 r2\fermata \bar "|." %69 finis
+  }
+}
+
+A-XIXBScenaTertiaSoliLyrics = \lyricmode {
+  Herr! darf ſich ei -- ne
+  Magd zu dei -- ner Hülf er -- biet -- ten? So
+  ße -- ze dein Ver -- trau -- en in mei -- ne ar -- me
+  Hüt -- ten; ſo -- wohl die blei -- che Farb, alß
+  dein ver -- wüerk -- tes Wee -- ßen laßt mich die %5
+  bäng -- ſte Forcht auß dei -- nem Ant -- liz
+  le -- ßen, die ei -- ner Un -- rueh
+  Rad in dei -- nen ſtar --
+  _ _ ren A -- dern
+  treibt. Mein Schik -- ſaal hat noch Gnad dem Un -- ſtern "/: der" mich %10
+  haſ -- "ſet :/" ein -- ver -- leibt, daß
+  ich zu mei -- nem Troſt dich,
+  und die Hüt -- ten fan -- de; Ja
+  laſ -- ſe mich hi -- nein, weil ich doch dei -- ner
+  Han -- de mein Le -- ben Si -- cher -- %15
+  heit, und Rueh ſoll ſchul -- dig ſeyn. Wer,
+  wer ei -- nem Hel -- den khan daß theu -- re Le -- ben
+  ſchü -- zen, der iſt ge -- wiß -- lich auch vom
+  Glü -- ke ſehr ge -- liebt. Und
+  da es e -- ben mir, dich %20
+  Herr! zu un -- ter -- ſtü -- zen, heut die
+  Gle -- gen -- heit auß ſond -- rer Güet -- te gibt, ſo
+  wer -- de ich die Krafft, die an der Mög -- lich --
+  kheit von mei -- ner Wür -- kung hafft an dei -- ne
+  Si -- cher -- heit ver -- wen -- den, dekh %25
+  dich doch je -- zo nur mit di -- ſem Man -- tel
+  zue, dan um daß Wi -- der -- ſpill von
+  dei -- nem Glük zu en -- den, be --
+  gehrt vor al -- len erſt dein mat -- tes
+  Aug die Rueh. Der Schlaff ſchwächt %30
+  mich wohl ſehr, al -- lein der trok -- ne
+  Durſt er -- lam -- met mich noch mehr, drum ge -- be
+  mir zu -- vor ein Waſ -- ſer her zu
+  trün -- ken. Daß Waſ -- ſer macht den Mueth nur gar zu häff -- tig
+  ßin -- ken. Hier haſt du Milch den %35
+  här -- ben Durſt zu küh -- len, trink
+  und du wirſt dich bald da -- mit ge -- la -- bet
+  füh -- len. Jez, jez gue -- te Ja -- hel
+  geh, und ſtell dich vor die Thüer, dan ſol -- te je -- mand
+  dich "/: wer" da he -- rin "ſey:/" fra -- gen, ſo %40
+  mueſt du ih -- me kek zur And -- worth
+  ßa -- gen, es ſey -- e nie -- mand hier.
+  Mein Herr ſchlaff un -- be -- ßorgt, ich wer -- de ganz ge --
+  wiß vor dei -- ne Frey -- heit wa --
+  _ %45
+  chen.
+
+  Er ſchläfft; und %52
+  waß ihm Gott ſo lan -- ge hat ge --
+  borgt, daß ſol -- le ihm der Schlaff jez blue -- tig zah -- len
+  ma -- chen. Hier ligſt du ſtol -- zer %55
+  Leib in mei -- ner Macht zur Er -- den, Ich,
+  die ein ſchwa -- ches Weib muß ü -- ber dei -- nen
+  Tod und Le -- ben Herrſch -- rin wer -- den. Je --
+  doch man mueß daß Wild, da es in ga -- ren henkt, er --
+  mor -- den; dein Schlaff daß ſchwar -- ze %60
+  To -- den -- bild iſt dir arm --
+  ſee -- li -- ger zum Gra -- bes --
+  ne -- ze wor -- den.
+  Gott! ſieh die rech -- te Hand mit
+  ei -- nem Ham -- mer voll, die lin -- ke mit dem %65
+  Na -- gel, der dein Ge -- heiß er -- fül -- len
+  ſoll, ſteh mir in di -- ſen
+  Wer -- ke bey, da -- mit es dir zu Ehr er -- wünſcht voll --
+  en -- det ſey. %69 finis
+}
+
+A-XIXBAriaTertiaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoA-XIXBAriaTertia
+    R1*5 %5
+    r2 r8 g' c4
+    r8 g h d16 es f[ g as8]~ as g16([ f)]
+    \tuplet 3/2 8 { es([ d c)] } c8 r es \appoggiatura f16 es[ d] \appoggiatura es d[ c] \appoggiatura d c[ b] \appoggiatura c b[ as]
+    g8. as16 b8 es c16([\trill b) c8] f16[\trill es f8]
+    d8 es \tuplet 3/2 8 { f16([ g as)] g([ f es)] d([ es f)] } b,8 r b %10
+    c16([ d)] d([ es)] es([ b)] c([ g)] as4.\trill as8
+    g4 r r2
+    r r8 f b4
+    r8 b es g c, c4 d16([ es)]
+    f([ g as g] f8) es es16([ d)] d8 r4 %15
+    r8 b es \tuplet 3/2 8 { des16([ c h)] } c8 as f16([ g)] es8
+    d f b d \tuplet 3/2 8 { es16([ f g)] } f([\trill es)] d([\trill c)] b([\trill as)]
+    as([\trill g)] g8 r b h([ c)] r c
+    cis([ d)] r d d([ es)] r f
+    d4. es8 c4. d8 %20
+    h4 r8 \hA h c([ g)] es([ c)]
+    g' g g16([ as)] b([ c)] des([ c)] \hA des8 des c16([ b)]
+    as8 f16([ g)] \hA as([ b)] c([ d)] es([ d)] es8 es d16([ c)]
+    h8 g r g' as,4 f'
+    g, es' f, d' %25
+    \sbOn \tuplet 3/2 8 { es,16[\trill d es f\trill es f] g[\trill f g a!\trill g a] h[\trill a \hA h c\trill \hA h c] d[\trill c d es\trill d es]
+    f[\trill es f g\trill f g] } \sbOff as8 h, c2~
+    c\fermata~-\frma c8.[ d16] d4\trill
+    c r r2
+    R1*3 \noBreak %32
+    R1\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoA-XIXBAriaTertiaB
+      b8 es4 g8 \noBreak
+    es d16([ c)] b8 as %35
+    as\trill g r4
+    r8 g16([ as)] b([ c)] des8
+    des([ c)] c4
+    r8 as16([ b)] c([ d)] es8
+    es([ d)] d([ c)] %40
+    b8.\trill a16 g4
+    R2*3
+    r8 f\f b d %45
+    f b, d f
+    b f d f
+    b, d f, b
+    f d r f
+    g16([\trill f) g8] r g %50
+    a16([\trill g) a8] r b
+    g' f16 es d([ c)] b([ a)]
+    \sbOn \tuplet 6/4 4 { b[ c d es d es] c[ d es f es f] } \sbOff
+    d8 f b, d
+    g, es'4 g,8 %55
+    fis d([ e)] \hA fis
+    \sbOn \tuplet 6/4 4 { g16[ fis g a g a] b[ a b c b c]
+    d[ c d e d \hA e] fis[ \hA e \hA fis g \hA fis g]
+    a[ g fis g \hA fis e] \hA fis[ \hA e d es d c]
+    d[ c b c b a] b[ a g a g fis] } \sbOff %60
+    g4 g8 \tuplet 3/2 8 { es'16([ d c)] }
+    \tempoA-XIXBAriaTertiaC b4( a8.) g16
+    g2\fermata \markAriaDaCapo \bar "||" %63 finis
+  }
+}
+
+A-XIXBAriaTertiaSoliLyrics = \lyricmode {
+  Ô Gott! %6
+  der durch un -- er -- glich -- ne
+  Stär -- ke daß fün -- ſtre Nichts von
+  di -- ßer Weld alß ein __ ſo __
+  groſ -- ſes Wun -- der -- wer -- ke nur %10
+  durch ein Wort hat her -- ge --
+  ſtellt;
+  Ô Gott!
+  Ô Gott!  der durch un -- er --
+  glich -- ne Stär -- ke %15
+  daß fün -- ſtre Nichts von di -- ßer
+  Weld alß ein ſo groſ -- ſes Wun -- der --
+  wer -- ke nur durch ein
+  Wort, nur durch ein
+  Wort hat her -- ge -- %20
+  ſtellt, hat her -- ge --
+  ſtellt, und auch den Men -- ſchen dich zu
+  lo -- ben, auch den Men -- ſchen dich zu
+  lo -- ben vor al -- len
+  Din -- gen haſt er -- %25
+  ho -- _ _ _
+  _ ben, er -- ho --
+  _
+  ben.
+
+  Nun weil von %34
+  Si -- se -- ra dem %35
+  En -- de
+  ge -- rad zu --
+  wi -- der,
+  ge -- rad zu --
+  wi -- der %40
+  iſt ge -- ſchehn,
+
+  ſo laſ -- ſe %45
+  ihn, ſo laſ -- ſe
+  ihn durch mei -- ne
+  Händ, durch mei -- ne
+  Hän -- de jez
+  in, __ jez %50
+  in __ ſein
+  vo -- ri -- ges Nichts hin --
+  ge -- _
+  hn, jez in ſein
+  vo -- ri -- ges %55
+  Nichts, in __ ſein
+  vo -- _
+  _ _
+  _ _
+  _ _ %60
+  _ ri -- ges
+  Nichts hin --
+  gehn. %63 finis
+}
+
+A-XIXBScenaQuartaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIXBScenaQuarta
+      \set Staff.timeSignatureFraction = 4/4
+    es'8^\markup \remark "ardito"^\Jahel b r16 des f es c8. c16 c4
+    r8 c, e! f g8. g16 g8 as
+    b b des c \tempoA-XIXBScenaQuartaB as4 r
+    \clef "treble_8" r8^\markup \remark "lamentabile" ^\Sisera c, es a,! b4 r
+    r8 f'\pocoF r16 f d! b g4 r8 g %5
+    d' d f es c g g as
+    b g \hA b16 b a e f8 f r a
+    gis4(^\markup \remark "à poco più piano" g)( fis)( f)
+    es!2\trill d8 g\pocoF r16 g h d
+    es4 r r8 a, c b %10
+    g d' es16 c b g g8.[ a16] a4\trill
+    g r \clef treble r8^\markup \remark "furioso" ^\Jahel b' es16 \hA b g es
+    c'8 g g16 as b c des8 b g16 \hA b as g
+    as8 as r f' es16 b g \hA b es,8 g
+    b des f es c c r c %15
+    b d f \hA b, as as as16 c b f
+    g8 g r16 b es \hA b c8. c16 c8 f
+    \tempoA-XIXBScenaQuartaC d es16[ f] \hA es[ b] \tuplet 3/2 8 { c[ \hA b as] } g4 f\trill
+    \time 2/4 \markTimeSig #'(2 4) es r
+    \time 4/4 \markTimeSig #'(4 4) \clef bass r8^\markup \remark "ardito" ^\Barak g, g16 g c g as8 f h!16 h d f, %20
+    es8 es es16 f g as b8 b b16 b c g
+    as8 as r c f, f f g
+    es es es16 g f c d4 r
+    r8 d d16 d d e fis8. fis16 fis fis g a
+    g8 d r16 d d es f8 f as d, %25
+    es es16 f g as b c \hA as8. as16 as8 c
+    f, f c8. d16 es8 a c16 a f es
+    d8 d16 \clef treble f'^\Jahel b b b c d8. a16 a8 c
+    h h h16 c d es c8. c16 c4
+    r8 es es16 g \hA es b c8. g16 g8 as %30
+    b b b c des4. c16[ b]
+    as8 as r16 \hA as as b c8. c16 c8 d
+    es c \hA es d b b r \hA b
+    b b d8. es16 f!8 d b16 b d \hA b
+    g8 g r g d d d es %35
+    f f f16 as g d es8 es r4
+    \clef bass r8^\Barak a,!16 a c8 b g r g16 g g fis
+    a8 a16 a d a fis a d,4 r
+    r8 f f16 f b f f8 c' c16 a f es
+    d8 r16 d f8 b as8. as16 as8 f %40
+    f f as g es es r es'
+    b8. b16 f8 g as as as16 f d \hA as'
+    g4 r16 g b g es8 es es16 es g \hA es
+    c8 c r16 c e g a!8. e16 e8 a
+    \tempoA-XIXBScenaQuartaD f d b'16[ a] g[ \hA b] a8 f16[ d] a8. a16 %45
+    d4 r r2\fermata \bar "|." %46 finis
+  }
+}
+
+A-XIXBScenaQuartaSoliLyrics = \lyricmode {
+  Ster -- be! ver -- ruch -- ter Hoch -- mueths -- geiſt!
+  weil Gott der Hel -- den Herr dich
+  al -- ſo ſter -- ben heiſt.
+  Ô weh! ô weh!
+  waß? ach waß ge -- ſchicht? wer %5
+  heff -- tet mein Ge -- ſicht ver -- rä -- the --
+  riſch an di -- ße har -- te Er -- den? ich
+  ſter --
+  _ be und und ach ô
+  weh! ßo -- gar ein %10
+  Weib mueß noch mein Hen -- ker wer -- _
+  den. Ja ſtol -- zer Held jez
+  geh! und ſue -- che dei -- nen Sieg bey dei -- nes Lei -- bes
+  Wür -- men, die in dein ſtol -- zes Herz ſo --
+  wohl alß in Ge -- dür -- men den %15
+  un -- ver -- zag -- ten Zahn zu ih -- rer Nah -- rung
+  ße -- zen, ſchon ob ſie dich da mehr alß
+  dei -- ne Knech -- te ſchä -- _
+  zen.
+  Welch un -- ſicht -- bah -- rer Flor um -- neb -- let doch den %20
+  Mann? nach weſ -- ſen Bluet mein Schwerd ſich ſo be -- gü -- rig
+  ßeh -- net; mein Aug wend ſei -- nen
+  Blik nur ſtäts ver -- ge -- bens an.
+  Mein Ey -- fer, ſo ge -- reizt nach ſei -- ner Wür -- kung
+  bren -- net, wird nur mit Wün -- ſchen ab -- ge -- %25
+  ſpei -- ßet und den -- noch fün -- de ich khein Orth, ſo
+  mir den Si -- se -- ra zu mei -- ner Khü -- lung
+  wei -- ßet. Er -- ſpa -- hre nur daß Sehn -- ſuchts -- wort, klag
+  dei -- ne Blen -- dung nun nicht fehr -- ner an.
+  Khomm her ich zei -- ge dir den Mann, der %30
+  dei -- ne Sehn -- ſuchts -- flam -- me
+  rei -- zet, und wan dein dur -- ſtig Schwerd nach
+  noch mehr Bluet -- ſafft gei -- zet, ſo
+  iſt ein Kör -- per voll vor dei -- nen Durſt zu --
+  ge -- gen, hier ligt Er ſon -- der %35
+  Macht, ſich wü -- der dich zu re -- gen.
+  Si -- se -- ra er -- blaſt! Si -- se -- ra zer --
+  nich -- tet der ſtol -- ze Siegs -- pal -- laſt
+  durch ei -- nen Na -- gel -- ſpiz zu -- grun -- de jez ge --
+  richt? Der Armb auf deſ -- ſen Wink ſo %40
+  vil -- le tau -- ſend Klin -- gen,
+  den Son -- nen -- ſtral -- len ſelbſt zu -- wet -- te offt ge --
+  blizt, läßt ſich von ei -- nem Wei -- ber -- armb be --
+  zwün -- gen, alß deſ -- ſen gan -- ze Krafft in
+  ei -- nem ſchwa -- chen Ham -- mer -- ſtrei -- che %45
+  ſizt. %46 finis
+}
+
+A-XIXBAriaQuartaSoli = {
+  \relative c {
+    \clef bass
+    \key b \major \time 3/8 \autoBeamOff \tempoA-XIXBAriaQuarta
+    \partial 8 f8^\markup \remark "ardito" \tuplet 3/2 8 { b16([ a b)] } d([ c)] b([ a)]
+    b8 b, b'
+    \tuplet 3/2 8 { b16([ c b)] } a([ g)] f([ es)]
+    d8 b d'
+    c f, b %5
+    a f c'
+    d16([ b)] b([ g)] g([ f)]
+    e8 r r
+    r f4
+    e8 g c %10
+    a4 f8
+    b, g' b
+    c, a' c
+    f, b d
+    c16([ d c b a g)] %15
+    f8 r f
+    d b' g
+    e c' a
+    \tuplet 3/2 8 { f16([ g f)] } e([ d)] c([ b)]
+    a8 c f~ %20
+    f16[ b,] c8. c16
+    f4 r8
+    R4.*8 %30
+    cis8 e a
+    f a d
+    c!16([ d)] c([ b)] a([ g)]
+    a32([ b c b a16)] g f8
+    d f b %35
+    a c, a'
+    g b, g'
+    fis32([ g a g)] \hA fis16([ e)] d8
+    b' c, b'
+    a b, a' %40
+    g a, g'
+    fis16[ d e? \hA fis g a]
+    b[ fis g a b c]
+    d[ c] b([ a)] g([ f)]
+    es([ d)] c8 d %45
+    g,4 r8
+    R4.*7 \noBreak %53
+    R4.\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoA-XIXBAriaQuartaB
+      r4 r8 f'\f \noBreak %55
+    b8. b,16 b4
+    r8 f' b d
+    c16([ b)] a([ g)] f8 es16 f
+    d8 b r b'
+    es, g4 h8 %60
+    c c, r c'
+    f, a4 c8
+    d b, r b'
+    \tuplet 3/2 8 { g16([ a b)] } es,8 r c'
+    \tuplet 3/2 8 { a16([ b c)] } f,8 r d' %65
+    b a16 g f8 es16 f
+    d4 r8 b'
+    es,4 r8 c'
+    f,4 r8 d'
+    g, b4 c8 %70
+    a a4 b8
+    g g4 a8
+    fis16[ d e? \hA fis] g[ a b c]
+    d4 d,
+    g16([ a)] b([ c)] d8 g, %75
+    es c r4
+    f16([ g)] a([ b)] c8 f,
+    d b r f'
+    g8([ a32 b c d)] es8[ es,]
+    f8([ g32 a b c)] d8[ d,] %80
+    es([ f32 g a b)] c8 es,
+    d b r4
+    r r8 b'
+    g es r c'
+    a f r d' %85
+    b([ a16 g)] f8 es
+    d16[ es f g] f[ g as b]
+    g[ f es f] g[ a b c]
+    a[ g f g] a[ b c d]
+    es[ d c b] a([ g)] f([ es)] %90
+    d8 b' g es
+    f4 f,8 f
+    b4 r
+    R2*7 %100
+    R2\fermata \bar "|." %101 finis
+  }
+}
+
+A-XIXBAriaQuartaSoliLyrics = \lyricmode {
+  Fort küh -- ne -- ſte
+  Stärk -- he der
+  fre -- he -- ſten
+  Hel -- den, fort
+  ſchrök -- lich -- ſte %5
+  Spi -- ze des
+  ſtreit -- ten -- den
+  Heers,
+  des
+  ſtreit -- ten -- den %10
+  Heers, hört
+  auf eu -- ren
+  Ruhm in den
+  Sie -- gen zu
+  mel -- %15
+  den, Be --
+  käm -- pfer der
+  Er -- den, Be --
+  ſie -- ger des
+  Meers, Be -- %20
+  ſie -- ger des
+  Meers,
+
+  daß al -- les %31
+  waß Eur hoch --
+  tra -- ben -- de
+  Stärk __ ge -- than,
+  daß trefft ihr %35
+  in ein der
+  ſchwä -- che -- ſten
+  Wei -- bern an,
+  in ein der
+  ſchwä -- che -- ſten %40
+  Wei -- bern jez
+  an, __
+  _
+  _ der ſchwäch --
+  ſten Wei -- bern %45
+  an.
+
+  ẞeht %55
+  Si -- se -- ra
+  jen -- ner ſo
+  ſehr ver -- ſi -- cher -- te
+  Sie -- ger, ent --
+  geiſt -- ren -- der %60
+  Don -- ner der
+  mue -- thig -- ſten
+  Krie -- ger! auf
+  de -- me daß
+  Glü -- ke des %65
+  Kö -- nigs und Völ -- ker be --
+  ſtund, geht
+  jez, geht
+  jezt, geht
+  jez ô em -- %70
+  pfünd -- lich und
+  beiſ -- ſen -- de
+  Schan -- _
+  _ de
+  gar durch ei -- nes %75
+  Wei -- bes,
+  gar durch ei -- nes
+  Wei -- bes ver --
+  zär -- _
+  _ _ %80
+  _ le -- te
+  Han -- de
+  mit
+  Le -- ben mit
+  Kö -- nig mit %85
+  Glü -- ke und
+  Völ -- _
+  _ _
+  _ _
+  _ ker zu -- %90
+  grund, mit Glük und
+  Völ -- ker zu --
+  grund. %93 finis
+}
+
+A-XIXBScenaQuintaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIXBScenaQuinta
+    r8^\Jahel d' g d es8. es16 es8 g
+    c, g g a b b b16 b c g
+    a8 a r16 a cis e f8. f16 f8 d
+    c g b c a4 r8 c
+    a a c d b b16 b b b d \hA b %5
+    g8 g16 g h8 d es8. es16 es8 c
+    b f as \hA b g4 c
+    r8 g16 as b8 c des \hA b \hA des c
+    as8. as16 as8 c f, f f f
+    f16([ g] as4) g16[ f] f8 e! \clef bass r^\Barak c %10
+    as8. as16 as8 c f,8. f16 f8 a
+    c c es des b b as16 as as g
+    es8 es r c' b8. b16 f8 g
+    as as as16 c b f g4 r16 g b g
+    c8. c,16 c8 e! g b as g %15
+    as as r16 \hA as c \hA as f8. f16 f8 e!
+    g g r c, f f f a
+    d, fis a16 a \hA fis d b'8 b r \hA b
+    a e g a f d fis16 g a b
+    g8 g g16 g d e f8 d' h g %20
+    f8. a16 g8 d e e r4
+    r8 a e f g g g a
+    fis8. fis16 g8 a g4 r8 d
+    e e c' a fis8. fis16 fis fis g a
+    g8 g r h16 g e8 c c' a %25
+    fis8.[ g32 a] g16[ d] e[ c] d4. d8
+    g,4 r r2\fermata \bar "|." %27 finis
+  }
+}
+
+A-XIXBScenaQuintaSoliLyrics = \lyricmode {
+  Mein Herr wie den -- keſt du ſo
+  vor -- theil -- hafft und guet vor mei -- ne Ohn -- machts --
+  kräff -- ten, ſchreib doch daß Lor -- ber -- recht dem
+  äch -- ten Sie -- ger zu, der
+  Na -- gel und der Ham -- mer die ihn an Bo -- den %5
+  heff -- ten ſind ja der Sie -- ger nicht und
+  ſo auch nicht die Hand, Nein!
+  ei -- ne höch -- re Macht hat ſie nur
+  an -- ge -- wand; die iſt, der al -- ler
+  Ruehm ge -- büh -- ret. Ich %10
+  ken -- ne wohl daß nich -- tes ſey, waß
+  von der höch -- ſten Macht des Him -- mels nicht her --
+  rüh -- ret, doch iſt auch der Na --
+  tur daß Merk -- mahl ja nicht neu, daß Gott nur
+  ſei -- ne Krafft in je -- nen See -- len %15
+  ye -- bet, die Er am al -- ler -- mei -- ſten
+  lie -- bet. Es zieht ein Lieb -- ling
+  ja auch ei -- nen Theil der Eh -- ren des
+  lie -- ben -- den an ſich; drum iſt der Schluß ge --
+  recht, daß nach Ihm auch vor dich ein Blat vom %20
+  Lor -- ber -- zweig ge -- hö -- re.
+  Nun hat der Sie -- ger dich zum
+  Sie -- ge an -- ge -- wandt, ſo
+  ſey -- e nach dem Sie -- ger dir die größ -- te
+  Eh -- re ſo von mir alß al -- len %25
+  Völ -- _ kern zue -- er --
+  khandt. %27 finis
+}

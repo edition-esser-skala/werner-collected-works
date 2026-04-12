@@ -505,3 +505,233 @@ A-XIXBAriaSecundaViola = {
     R2\fermata \markAriaDaCapo \bar "||" %105 finis
   }
 }
+
+A-XIXBScenaTertiaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XIXBScenaTertia
+    R1*45 %45
+    \key b \major \tempoA-XIXBScenaTertiaE b2~\pp b~
+    b4 r h r8 g
+    c c' b! b a a gis gis
+    a2~-\tasto a4 r8 d,
+    es! es d d cis2 %50
+    r8 b'-! r gis-\parenthesize-! a4 a,
+    \key c \major \tempoA-XIXBScenaTertiaF d,4 r r2
+    R1*16 %68
+    R1\fermata \bar "|." %69 finis
+  }
+}
+
+A-XIXBAriaTertiaViola = {
+  \relative c' {
+    \clef alto
+    \key c \dorian \time 4/4 \tempoA-XIXBAriaTertia
+    c'1\pE
+    h4 r r8 c \sbOn \tuplet 3/2 8 { es16 d c } c des
+    b4 r r8 f \tuplet 3/2 8 { c'16 b as } as( g) \sbOff
+    fis4 r r16 d' c( h) as( g) fis( g)
+    f( d') c( h) f( as) g( f) es( c'32 b as g f16) es8( d16.)\trill c32 %5
+    c4 r r2
+    R1*5 %11
+    g'16( b) as( g) \sbOn \tuplet 3/2 8 { c( b \hA as) } as( g) \sbOff f( \hA as) g( f) \sbOn \tuplet 3/2 8 { b( \hA as g) } \once \slurDashed g( f) \sbOff
+    es( g) f( es) \sbOn \tuplet 3/2 8 { c'-! b-! as-! g-! f-! es-! d-! es-! f-! } b,8 \sbOff r4
+    R1*14 %27
+    R1\fermata_\frma
+    r2 r16 c' b( as) g( b) \hA as( g)
+    \sbOn \tuplet 3/2 8 { as( b \hA as) } g( f) \sbOff e( g) f( \hA e) f( c') b( as) g( b) \hA as( g)
+    as8 r r4 g16( h) d( c) \hA h( a) g( f) %30
+    es( d) f( es) g( f) as( g) h( c) d( c) h( as) g( f)
+    \tuplet 3/2 8 { es( d c) } c8~ c h c4 r\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoA-XIXBAriaTertiaB
+      R2*28 %61
+    \tempoA-XIXBAriaTertiaC R2
+    R\fermata \markAriaDaCapo \bar "||" %63 finis
+  }
+}
+
+A-XIXBScenaQuartaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XIXBScenaQuarta
+      \set Staff.timeSignatureFraction = 4/4
+    R1*2
+    r2 \tempoA-XIXBScenaQuartaB f4\pp r
+    f r des r
+    d r h! r %5
+    R1
+    r2 d4\pE r
+    r8 d\pp cis cis r c h! h
+    r16 fis-! fis-! fis-! fis-! fis-! fis-! fis-! g8-! r h!\pocoFE r
+    c4 r c r %10
+    b c d8 d d, d
+    g4 r r2
+    R2*65 %45
+    R1\fermata \bar "|." %46 finis
+  }
+}
+
+A-XIXBAriaQuartaViola = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 3/8 \tempoA-XIXBAriaQuarta
+    \partial 8 f8\pocoFE d b f'
+    d b b'
+    b a16 g f es
+    d8 b b'
+    a4 g8 %5
+    f f, a
+    b g b
+    c r r
+    f,16 f'32 f f16 f f f
+    e f \hA e d c b %10
+    a8 f r
+    R4.*4 %15
+    f16\pE g a g f a
+    b a g a b g
+    c d c b a c
+    d d' c b a g
+    f g f e d c32 b %20
+    a16 b c b c c,
+    f8\f a' f
+    e16 d c d \hA e fis
+    g8 b g
+    f!16 e d \hA e f g %25
+    a g fis e? \hA fis d
+    g f e d \hA e c
+    f e d c d h
+    e d cis h? \hA cis a
+    d8. e16 f g %30
+    a\p h cis \hA h \hA cis a
+    d a f a d, f
+    e8 c! \hA e
+    f16 e f g a f
+    b a b f d b %35
+    f' e f c a f
+    g' fis g d b g
+    d' c d e? fis d
+    g b es, g c, es
+    f a d, f b, d %40
+    es g c, es a, c
+    d8. c16 b a
+    << { g' fis g a b c } \\ { g,8 } >>
+    d''16 c b a g f
+    es d c8 d %45
+    g16\f fis g a b c
+    d c h a \hA h g
+    c b a g a f!
+    b a g f g e
+    a g fis e? \hA fis d %50
+    g8. f16 es d
+    c es d8 d,
+    g g' d \noBreak
+    g,4 r8\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoA-XIXBAriaQuartaB
+      b16\f b' a b f b d, f \noBreak %55
+    b,4 r
+    b'16 b,32 b b16 b b8 b'
+    a f r a,
+    b4 d
+    es g %60
+    c, es
+    f a
+    b, r16 b\pE d b
+    es4 c
+    f d %65
+    g, a
+    b d
+    es e
+    f fis
+    g8 g es! es %70
+    f! f d d
+    es es c c
+    d4. c8
+    b16 b' a g fis es d c
+    b4 h %75
+    c r
+    a f
+    b! r
+    es c
+    d b %80
+    c a
+    b r
+    r8 b d b
+    es c' c, es
+    f d' d, f %85
+    g4 a
+    b d,
+    es e
+    f f,
+    g a %90
+    b8 d es! g
+    f f f, f
+    b4\f d
+    es g
+    c, es %95
+    f a
+    d,16 d' c b a g f es
+    d b' a g f es d c
+    b8 es f f,
+    b4 r16 b' f d %100
+    b4 r\fermata \bar "|." %101 finis
+  }
+}
+
+A-XIXBChorusViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 4/4 \tempoA-XIXBChorus
+    g'4.\fE g8 g g g g
+    g g g g g g fis fis
+    g g r g, c4 r8 a
+    d d' h fis g d h g
+    d'4 r r2 %5
+    d16\f e32 fis g a h cis d16 d,32 d d16 d d4 r
+    r8 dis4 dis8 e e r4
+    r8 cis4 cis8 h h r4
+    R1
+    r2 e4. e8 %10
+    a e c a e'4 e,
+    a8 a d d g! d h g
+    d' d' c h a g16 fis e8 d16 c
+    h4. c8 d d' h g \noBreak
+    d4 d, g2 %15
+    \tempoA-XIXBChorusB R1*3
+    g2 e'8 e d c
+    h c h a g h a g %20
+    fis e d4 r8 d' c h
+    a g a h16 c d8 a d4~
+    d8 e d c h16 c h8 a g
+    fis4 r r2
+    R1 %25
+    r2 g
+    a8 g a h c g c4~
+    c h a2~
+    a4 gis a r
+    R1*2 %31
+    a2 c8 a c d
+    e c e fis! g f e d16 c
+    d2 c4 r
+    r2 r8 g g g %35
+    a4 r8 a f a g \hA f
+    e4 r r8 e a a
+    g! e g a h4 h
+    h2 h4 r
+    R1 %40
+    r4 a f'4. f8
+    e d c h cis cis4 e8
+    d c h a h d c h
+    c h a g fis a g fis
+    g4 r d2 %45
+    h'4. h8 h4 e
+    a, h8 c d2
+    d, r4 g~
+    g8 a16 g a4. d,8 r d'
+    h e a, d h g r4 %50
+    r8 g a g fis4 r8 g
+    a4 h a r8 h
+    d4 h a d
+    e d c h
+    a2 h4 r\fermata \bar "|." %55 finis
+  }
+}

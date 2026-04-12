@@ -178,3 +178,113 @@ A-XIXAChorusBBassoLyrics = \lyricmode {
   nen -- nen, und Hel -- den ſoll nen -- nen, ſich
   Hel -- den ſoll nen -- nen. %10 finis
 }
+
+A-XIXBChorusBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoA-XIXBChorus
+    r8 g' g g g4. g8
+    g4 r g8. g16 fis8 fis
+    g g r g c,4 r8 a
+    d d' h fis g([ d)] h([ g)]
+    d'4 r r2 %5
+    R1
+    r8 dis4 dis8 e e r4
+    r8 cis4 cis8 h h r4
+    R1
+    r2 r8 e e e %10
+    a([ e)] c([ a)] e'8. e16 e4
+    a8 a d, d g([ d)] h([ g)]
+    d' d r h' a g16([ fis)] e8 d16([ c)]
+    h4 h8 c d4( h8[ g]
+    d'2) g, %15
+    \tempoA-XIXBChorusB R1*5 %20
+    d'2 h'8 h a g
+    fis([ g)] fis([ e)] d([ e)] d([ c)]
+    h([ c h a)] g([ g')] fis([ e)]
+    d4 r r2
+    R1*2 %26
+    c2 e8 d e fis
+    g d g2 f4
+    e2 a,
+    R1 %30
+    r2 e'
+    f8 d \hA f g a([ \hA f)] a([ h)]
+    c4. h16[ a] g2~
+    g c,4 r
+    R1 %35
+    r8 c c c d c h d
+    c4 r r8 a c d
+    e4 c h e
+    h2 e4 e
+    c'4. c8 h([ a)] g([ fis)] %40
+    e([ d)] c([ h)] a4 a'
+    gis4. gis8 a([ g)] fis!([ e)]
+    fis fis4 fis8 g([ fis)] e([ d)]
+    c4 c d2
+    g, r %45
+    g e'4. e8
+    d([ c)] h([ a)] g g'4 g8
+    fis([ e)] d([ c)] h4 h
+    c4. h16[ c] d4. c16[ d]
+    e8[ d16 e] fis8[ e16 fis] g8[ fis16 g] a8[ g16 a] %50
+    h8[ a16 h] c8[ h16 c] d4 h8 g
+    fis4( g) d r8 g
+    fis4( g) d8([ d')] h([ g)]
+    e4( h) c g'
+    d2 g,4 r\fermata \bar "|." %55 finis
+  }
+}
+
+A-XIXBChorusBassoLyrics = \lyricmode {
+  So ſey dir Dank ge --
+  ſagt, Dank ge -- ſagt vor
+  al -- len, ô Held! ô
+  Held! der Hel -- den Sie -- ges --
+  gott; %5
+
+  dei -- ne Feun -- de,
+  Feun -- de fal -- len,
+
+  und wie der %10
+  Son -- nen Mor -- gen -- roth
+  wer -- den dei -- ne Freun -- de
+  glän -- zen den Hoch -- mueths -- lauf be --
+  grän -- zen, be -- grän --
+  zen. %15
+
+  Auch Ja -- hel dir ſey %21
+  Lob ge -- ſagt, ge --
+  ſa -- gt, ge --
+  ſagt
+
+  dem Hoch -- muth biſt zum %27
+  Sinn -- bild wor -- den,
+  wor -- den,
+  %30
+  dem
+  Hoch -- muth biſt zum Sinn -- bild
+  wor -- _ _
+  den
+  %35
+  auf wel -- che Arth Gott je -- ne
+  ſchlagt und auch in
+  Zue -- kunfft ſtäts wird
+  ſchla -- gen, die
+  wi -- der ſei -- ne %40
+  Freund ſich wa -- gen,
+  wi -- der ſei -- ne
+  Freund, wi -- der ſei -- ne
+  Freund ſich wa --
+  gen, %45
+  die wi -- der
+  ſei -- ne Freund, wi -- der
+  ſei -- ne Freund ſich
+  wa -- _ _ _
+  _ _ _ _ %50
+  _ _ _ gen, ſich
+  wa -- gen, ſich
+  wa -- gen, ſich
+  wa -- gen, ſich
+  wa -- gen. %55 finis
+}

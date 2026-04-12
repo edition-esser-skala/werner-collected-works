@@ -2039,3 +2039,810 @@ A-XIXBAriaSecundaBassFigures = \figuremode {
   r
   r %105 finis
 }
+
+A-XIXBScenaTertiaContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XIXBScenaTertia
+    es2 d
+    h! c
+    d d
+    es e~
+    e cis~ %5
+    cis cis
+    d1
+    \after 8 \tempoA-XIXBScenaTertiaB dis2 r8 h a' a
+    g g, g a h h h h
+    c2 d %10
+    h c
+    e cis
+    cis d
+    e f
+    d h!~ %15
+    h c
+    gis' a4 e
+    cis1
+    cis2 d8 d'16. a32 f8 d
+    e2 f %20
+    a, h!
+    h c
+    h a
+    cis c
+    c b %25
+    h h
+    c d~
+    d es
+    as \tempoA-XIXBScenaTertiaC b,8 as g c
+    b2 es4 e %30
+    cis2 cis~
+    cis d
+    c1
+    b2 d
+    c d %35
+    d es4 r16 b' g \hA es
+    c2 a!
+    b fis
+    g f
+    e! cis'~ %40
+    cis cis
+    d16 d' cis d b8 g a4. g8
+    fis2 d
+    \tempoA-XIXBScenaTertiaD es4 c f d8 d
+    es es e e f f f, f %45
+    \key b \major \tempoA-XIXBScenaTertiaE b2~\pp b~
+    b4 r h r8 g
+    c c' b! b a a gis gis
+    a2~-\tasto a4 r8 d,
+    es! es d d cis2 %50
+    r8 b'-! r gis-\parenthesize-! a4 a,
+    \key c \major \tempoA-XIXBScenaTertiaF d,8 d' c! e a,2
+    h! gis
+    a h!
+    c16. c'32 g16. c32 e,16. g32 c,16. e32 a,2 %55
+    fis g4 g'
+    d2 cis
+    cis d
+    e e
+    f a, %60
+    fis \tempoA-XIXBScenaTertiaG g8 g' g g
+    f! f f f es4 r
+    r8 cis cis cis d4 d,
+    es2 f
+    f es4 es' %65
+    d2 h!
+    c d
+    es as
+    b4. b,8 es,4 r\fermata \bar "|." %69 finis
+  }
+}
+
+A-XIXBScenaTertiaBassFigures = \figuremode {
+  <[5-]>2 <6!>
+  <5> <_->
+  <6-> <5->
+  <[5-]> <7- 5[-]>
+  r <6> %5
+  <5> <7- 5>
+  r1
+  <7 5 [_+]>2 r8 \bo <[5\+]> \bc <[6\\] 4\+>4
+  <6>2 <6 4>4 <5\+ _+>
+  r2 <6> %10
+  <5>1
+  <6>2 <[6]>
+  <7- 5>1
+  <6[!]>
+  <6->2 <6> %15
+  <5>1
+  <[6]>2. <6 [_!]>4
+  \bo <[6]>1
+  r
+  \bc <[6!]> %20
+  <6>2 q
+  <5>1
+  <6\\>
+  <[6]>2 <4\+ 2>
+  <4\+ _-> <6> %25
+  q <5>
+  <_-> <6->
+  r \bo <[5-]>
+  \bc q2. \bo <6- [_-]>8 \bc q
+  <4[-]>4 <3> <[5-]> <6> %30
+  q2 <5>
+  <7->1
+  <4\+>
+  <6>2 <6!>
+  <_-> <6-> %35
+  <5-> <[5-]>
+  <6- [_-]> <6>
+  r q
+  <_-> <4!>
+  <6> q %40
+  r <7- 5>
+  r4. <[_-]>8 <4>4 <_+>
+  <6>2 <6->
+  \bo <[5-]>4 \bc <[_-]>2 <6->4
+  <5[-]> <\t> <4[-]> <3> %45
+  r2 <6 4>4 <7! 4 2>
+  <4 2>8 <3 1>4. <6> <_!>8
+  <_->4 <4! 2\+> <[5!] _+>8 <6 4> <7 5 [_!]>4
+  <_+>2.. q8
+  <5 3>4 <\t \t> <7 5 [_!]>2 %50
+  r4. <7 5 [_!]>8 <6 4>4 <5[!] _+>
+  r4 <6>8 <_+> r2
+  <6\\> <6>
+  r <6[!]>
+  r <6> %55
+  q <_->4 q
+  <6->2 <6>
+  <5>1
+  <6[!]>2 <5->
+  r <6> %60
+  <7- 5> <_->8 q4.
+  <4! _->2 <6>
+  r8 <7- [_!]> <\t \t>4 <5 4> <5- _!>
+  <[5-]>2 <6 _->
+  <\t \t> <[5-]> %65
+  <6!> <5>
+  <_-> <6->
+  \bo <[5-]> <5->
+  <4->4. <3>8 \bc <[5-]>2 %69 finis
+}
+
+A-XIXBAriaTertiaContinuo = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \tempoA-XIXBAriaTertia
+    c4\pE r r8 c c c
+    c4 r c r
+    c r f r
+    d r g r
+    g h, c8 f g g, %5
+    as f' g g, c4 r16 g' es16. c32
+    h4 r r8 \hA h h h
+    c c g' as b!4 d,
+    es8 c g4 as8 as'16 g \hA as8 f
+    b g d es b b'16 as g8 es %10
+    as f g es f es16 d c8 d
+    es es' as, c d, f g b
+    c, es as, c b b' d, b
+    es es' g, es as as, \hA as' g
+    f f,16 g as8 a << { b'[ f] } \\ { b, } >> d8 b %15
+    es, es' g4 as a
+    b4. as8 g \hA as b d,
+    es4 g as r8 a
+    b4 r8 h c4 f,
+    b es, as d, %20
+    g c,8 g' c g es c
+    g4 r r8 e' e e
+    f4 r r8 fis fis fis
+    g g es! es c c d d
+    h h c c as as h h %25
+    c4 r g r8 g'
+    as g f4 es8 e f fis
+    g2\fermata-\frma g,
+    c4 d es e
+    f c f, r8 c' %30
+    f,4 r g2~-\tasto
+    g~ g4 r8 g \noBreak
+    c f g g, c,4 r\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoA-XIXBAriaTertiaB
+      es'4\pE r \noBreak
+    g d %35
+    es r
+    es r
+    e r
+    f r
+    fis d %40
+    g4.\f f8
+    es! f4 es8
+    d es4 d8
+    c b a4
+    b r %45
+    b r
+    b r
+    b r
+    b b'
+    es,8\pE g16 f es d c8 %50
+    f a16 g f es d8
+    es4 f
+    g a
+    b r8 b,
+    es g c, es %55
+    d d'4 c8
+    b fis g es
+    d2~-\tasto
+    d~
+    d %60
+    r8 es d c
+    \tempoA-XIXBAriaTertiaC d2
+    g,\fermata \markAriaDaCapo \bar "||" %63 finis
+  }
+}
+
+A-XIXBAriaTertiaBassFigures = \figuremode {
+  r1
+  <7! 4 2>2 <_->
+  <7- _!> <_->
+  <[5!] _+> <_!>
+  <7 _!>4 <5>4. <_->8 <6- 4> <5 _!> %5
+  r <_-> <6- 4> <5 _!> r4 r16 <\t>8.
+  <[6]>2 r8 <7- 5>4.
+  r4 <6 [_-]>2 <6>4
+  r <6->2 <6>4
+  r8 q q2 <[6]>4 %10
+  r8 <6 [_-]> <6> q <_->4 <6->8 <\t>
+  r2 \bo <[7 5-]>4 <7>
+  \bc <[7 _]>1
+  r
+  <_->4 <6>8 <5>4 <_->8 <\t> q %15
+  \bo <[9] 4-> \bc <[8] 3> <6 _-> <5 _!> \bo <[5]> \bc <[5!]> <6> <5>
+  r4. <\t>8 <6>2
+  r4 <6> \bo <[5 2!]>8 <\t 3>4 <6>8
+  <5 2\+> <\t 3>4 <6>8 <5 2> \bc <[\t 3]> <7 _->4
+  <7-> <7> q <7 [5-]> %20
+  <7 _!>4. <_!>4 q8 <[6]>4
+  <_!>2 r8 <7- 5[-]>4.
+  <_->2 r8 <7- 5 [_!]>4.
+  <_!>4 <6> <6- 5> <5- 3>
+  <6 5> <_-> <6 5-> <5 3> %25
+  \bo <[9]>8 \bc <[8]>4. <_!> <6- [_-]>8
+  <6>4 <_->8 <4!> <6>4. \once \bassFigureExtendersOn q8
+  r1
+  r4 <6!> <6>2
+  <_->4 <_!> <_->4. <_!>8 %30
+  <_->2 <_!>
+  r2.. q8
+  r <_-> <6 4> <5 _!> r2
+  r
+  <6>4 q %35
+  r2
+  <7->
+  <7- 5>
+  <_->
+  <7- 5 [_!]>8 <6>4. %40
+  r2
+  <6>8 <_!>4.
+  <6>2
+  r8 q <7> <6>
+  r2 %45
+  r
+  r
+  r
+  r
+  r4 <[6]> %50
+  r <6>8 q
+  <5> <6> <6 4> <5 3>
+  <5> <6-> <5-> <6>
+  r2
+  r %55
+  <_+>
+  <6>8 <[6]>4 <6>8
+  <_+>2
+  r
+  r %60
+  r
+  \bo <[6] 4>4 \bc <[5] _+>
+  r2 %63 finis
+}
+
+A-XIXBScenaQuartaContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XIXBScenaQuarta
+      \set Staff.timeSignatureFraction = 4/4
+    g2 as4. c8
+    e,!2 e'~
+    e \tempoA-XIXBScenaQuartaB f4\pp r
+    f r des r
+    d r h! r %5
+    h\pE r c r
+    cis r d r
+    r8 d\pp cis cis r c h! h
+    r16 fis-! fis-! fis-! fis-! fis-! fis-! fis-! g8-! r h!\pocoFE r
+    c4 r c r %10
+    b c d8 d d, d
+    g4 r es'\pE r
+    e2 e
+    f g
+    g as %15
+    d, d
+    es4 g as2
+    \tempoA-XIXBScenaQuartaC as4 g8 as b b b, b
+    \time 2/4 \markTimeSig #'(2 4) es16 es' d \hA es c g es g
+    \time 4/4 \markTimeSig #'(4 4) c,2~ c %20
+    c e!
+    c a!
+    a b16-!\f f-! \hA b-! d-! f-! \hA b,-! d-! f-!
+    b2\pE a4 d,
+    h!2 as %25
+    g c
+    a! a
+    b fis'
+    f es
+    g, e' %30
+    e e8 e e e
+    f16. c32 as16. c32 f,4 fis'2~
+    fis g
+    d1
+    es2 h!~ %35
+    h c16. es'32 d16. \hA es32 c16. as32 g16. \hA as32
+    fis2 g4 es
+    d r r16 b\fE d f b d f, \hA b
+    d,2\pE a
+    b h~ %40
+    h c
+    d d
+    es g
+    e cis
+    \tempoA-XIXBScenaQuartaD d4 g a8 d, a4 %45
+    d2 r\fermata \bar "|." %46 finis
+  }
+}
+
+A-XIXBScenaQuartaBassFigures = \figuremode {
+  <6- [_-]> <[5-]>
+  <6>1
+  <5->2 <_->
+  <_!> <6[-]>
+  q <6> %5
+  <5> <_->
+  <7- [_!]>1
+  r8 <4\+ 3> <6 5!>4. <4\+ _->8 <6 5!>4
+  r16 <7- 5>4.. <_!>2
+  <_->2 <4\+ 2> %10
+  <6>4 <_-> <6- 4> <5 _+>
+  <_->2 <[5-]>
+  <6> <7- 5[-]>
+  <_-> \bo <6- [_-]>
+  \bc <5 [\t]> <[5-]> %15
+  <6-> <5->
+  <[5-]>4 <6- [_-]> <5[-]> <6>
+  <4 2[-]> <6- [_-]>8 <[5-]> <6 4[-]>4 <5 3>
+  r2
+  <_-> <6- 4>4 <7! [4] 2> %20
+  <_->2 <5->
+  <6- _-> <6>
+  <5->1
+  r2 <6\\>4 <_+>
+  <6>2 <6[!]> %25
+  <6- [_-]> <6- _->
+  <6> <5->
+  r <6>
+  <4! 2> <6>
+  <6- _-> <6> %30
+  <5-> <7- 5[-]>
+  <_-> <5 [_!]>
+  <7-> <_->
+  <6- [_!]>1
+  <[5-]>2 <6> %35
+  <5> <_->
+  <5>2 <_->4 <7>8 <6>
+  <_+>1
+  <6->2 <6>
+  r <7- 5> %40
+  r <_->
+  <6-> <5->
+  <[5-]> <6- [_-]>
+  <6> <6>
+  r4 <_-> <_+>4 <4>8 <_+> %45
+  r1 %46 finis
+}
+
+A-XIXBAriaQuartaContinuo = {
+  \relative c {
+    \clef bass
+    \key b \major \time 3/8 \tempoA-XIXBAriaQuarta
+    \partial 8 f8\pocoFE d b f'
+    d b b'
+    b a16 g f es
+    d8 b b'
+    a4 g8 %5
+    f f, a
+    b g b
+    c r r
+    f,16 f'32 f f16 f f f
+    e f \hA e d c b %10
+    a8 f r
+    R4.*4 %15
+    f16\pE g a g f a
+    b a g a b g
+    c d c b a c
+    d d' c b a g
+    f g f e d c32 b %20
+    a16 b c b c c,
+    f8\f a' f
+    e16 d c d \hA e fis
+    g8 b g
+    f!16 e d \hA e f g %25
+    a g fis e? \hA fis d
+    g f e d \hA e c
+    f e d c d h
+    e d cis h? \hA cis a
+    d8. e16 f g %30
+    a\p h cis \hA h \hA cis a
+    d a f a d, f
+    e8 c! \hA e
+    f16 e f g a f
+    b a b f d b %35
+    f' e f c a f
+    g' fis g d b g
+    d' c d e? fis d
+    g b es, g c, es
+    f a d, f b, d %40
+    es g c, es a, c
+    d8. c16 b a
+    << { g' fis g a b c } \\ { g,8 } >>
+    d''16 c b a g f
+    es d c8 d %45
+    g16\f fis g a b c
+    d c h a \hA h g
+    c b a g a f!
+    b a g f g e
+    a g fis e? \hA fis d %50
+    g8. f16 es d
+    c es d8 d,
+    g g' d \noBreak
+    g,4 r8\fermata \bar "||"
+    \twofourtime \time 2/4 \tempoA-XIXBAriaQuartaB
+      b16\f b' a b f b d, f \noBreak %55
+    b,4 r
+    b'16 b,32 b b16 b b8 b'
+    a f r a,
+    b4 d
+    es g %60
+    c, es
+    f a
+    b, r16 b\pE d b
+    es4 c
+    f d %65
+    g, a
+    b d
+    es e
+    f fis
+    g8 g es! es %70
+    f! f d d
+    es es c c
+    d4. c8
+    b16 b' a g fis es d c
+    b4 h %75
+    c r
+    a f
+    b! r
+    es c
+    d b %80
+    c a
+    b r
+    r8 b d b
+    es c' c, es
+    f d' d, f %85
+    g4 a
+    b d,
+    es e
+    f f,
+    g a %90
+    b8 d es! g
+    f f f, f
+    b4\f d
+    es g
+    c, es %95
+    f a
+    d,16 d' c b a g f es
+    d b' a g f es d c
+    b8 es f f,
+    b4 r16 b' f d %100
+    b4 r\fermata \bar "|." %101 finis
+  }
+}
+
+A-XIXBAriaQuartaBassFigures = \figuremode {
+  r8 <6>4.
+  <[6]>
+  r
+  r
+  <6>4 <6!>8 %5
+  r4.
+  r4 <6>8
+  <_!>4.
+  r
+  \bo <[6]> %10
+  \bc q
+  r4.*4 %15
+  r4.
+  r
+  <_!>4 \bo <[5!]>8
+  r \bc <[_!]>4
+  r4. %20
+  <6>8 <4> <_!>
+  r4.
+  \bo <[6]>
+  r
+  \bc q %25
+  \bo <[5!] _+>8 \bc <[6]> <5[!]>
+  <_!> <[6]> <5->
+  r4 <5>8
+  <[5!] _+> <[6 _!]> <5[!] \t>
+  r4. %30
+  \bo <[5!] _+>
+  r
+  \bc <[6!]>
+  r
+  r %35
+  r
+  r
+  <_+>
+  r8 \bo <[6]> <7>
+  <9> <6> <7> %40
+  <9> <6> \bc <[7]>
+  <_+>4.
+  r
+  q
+  r8 <6 5> <_+> %45
+  r4.
+  <_+>8 <[6]> <5!>
+  <_!> <[6]> <5->
+  r4.
+  \bo <[5!] _+>8 \bc <[6]> <5!> %50
+  r4.
+  r8 <6 4> <5 _+>
+  r4 <_+>8
+  r4.
+  r2 %55
+  r
+  r
+  <[6]>
+  r
+  r4 <6> %60
+  r2
+  r4 q
+  r2
+  r
+  r %65
+  r4 <6>
+  r q
+  <5>8 <6>4.
+  <5>8 <6>4.
+  r4 <5>8 <6> %70
+  r4 <5>8 <6>
+  r4 <5>8 <6>
+  <_+>2
+  <6>4 \bo <[6]>
+  <6> \bc <[\t]> %75
+  r2
+  <6>
+  r
+  <5>8 <6> <5> <6>
+  <5> <6> <5> <6> %80
+  r2
+  r
+  r
+  r
+  r %85
+  r4 <6>8 <5>
+  r4 <6>
+  r <[6]>
+  r2
+  <6->4 <6> %90
+  r2
+  <4>4 <3>
+  r2
+  r4 <6>
+  r2 %95
+  r
+  <6>4 \bo <[6]>
+  <6> \bc <[6]>
+  r2
+  r %100
+  r %101 finis
+}
+
+A-XIXBScenaQuintaContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XIXBScenaQuinta
+    h!2 c
+    e! e
+    cis d
+    e f8-! c-! a-! f-!
+    fis'2 d %5
+    h! c
+    d es4 r
+    e2 e
+    f des
+    h! c %10
+    c a!
+    a b4 h
+    c2 d
+    d es
+    e1 %15
+    f2 des
+    c a!
+    fis g
+    cis d4 c
+    h!2 h~ %20
+    h c16 e g c e c g e
+    cis2 cis
+    c h!
+    c4 a d c
+    h! g c a %25
+    d8 c h c d4 d,
+    g8 e' c d g,4 r\fermata \bar "|." %27 finis
+  }
+}
+
+A-XIXBScenaQuintaBassFigures = \figuremode {
+  <[6]>2 <_->
+  <6> <5->
+  <6>1
+  <6[!]>
+  <6>2 <6-> %5
+  <[6]> <_->
+  <6-> <[5-]>
+  <6> <7->
+  <_-> <[5-]>
+  <7- 5 [_!]> <_!> %10
+  <6- _-> <6>
+  <5-> <_->4 <7- [_!]>
+  <_->2 <6->
+  <5-> <[5-]>
+  <[6]>1 %15
+  r2 <7>4 <6!>
+  <_!>2 <6>
+  q <_->
+  <6>2 <[_!]>4 <4\+>
+  <6>2 <5> %20
+  r1
+  <6>2 <5>
+  <4\+> <6>
+  r2 <_+>4 <\t>
+  <[6]>1 %25
+  <_+>4 <[6]> <4> <_+>
+  r <6 5>2. %27 finis
+}
+
+A-XIXBChorusContinuo = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoA-XIXBChorus
+    g'4.\fE g8 g g g g
+    g g g g g g fis fis
+    g g r g, c4 r8 a
+    d d' h fis g d h g
+    d'4 r r2 %5
+    d16\f e32 fis g a h cis d16 d,32 d d16 d d4 r
+    r8 dis4 dis8 e e r4
+    r8 cis4 cis8 h h r4
+    \clef "treble_8" h'4. h8 h4. h8
+    h4 h, \clef bass e4. e8 %10
+    a e c a e'4 e,
+    a8 a d d g! d h g
+    d' d' c h a g16 fis e8 d16 c
+    h4. c8 d d' h g \noBreak
+    d4 d, g2 %15
+    \clef treble \tempoA-XIXBChorusB g''2-! e'8-! e-! d-! c-! \noBreak
+    << {
+      h c h a h g' fis e %17
+      d cis d e fis e16 d e8 fis
+    } \\ {
+      d,2 g8 h a g %17
+      fis g fis e d d'4 c8
+    } >>
+    \clef "treble_8" g,2 e'8 e d c
+    h c h a g h a g %20
+    \clef bass d2 h'8 h a g
+    fis g fis e d e d c
+    h c h a g g' fis e
+    d4 \clef treble << {
+      d''4. c!8 c h16 a
+      h8 d c h a d a h %25
+      c e d c
+    } \\ {
+      d,8 d e4. fis8
+      g d g4~ g8 f f e16 d %25
+      e8 g f e
+    } >> \clef "treble_8" g,2
+    \clef bass c, e8 d e fis!
+    g d g2 f4
+    e2 a,4 \clef treble << {
+      c''8 d
+      e g~ g fis!16 e dis8 fis e d %30
+      c4. h16 a
+    } \\ {
+      e4
+      g!8 e g a h a gis h %30
+      a e a4
+    } >> \clef bass e,2
+    f8 d \hA f g a \hA f a h
+    c4. h16 a g2~
+    g4 g, c \clef treble << {
+      r8 a'' %34
+      g e' d c h
+    } \\ {
+      c,8 c %34
+      e c f a g
+    } >> \clef "treble_8" g, g g %35
+    a \clef bass c,[ c c] d c h d
+    c4 r8 h a4 c8 d
+    e4 c h e
+    h2 e4 e-!
+    c'4.-! c8-! h-! a-! g-! fis-! %40
+    << {
+      s4 a4 f'4. f8
+      e d c h cis2
+      d8 c h a
+    } \\ {
+      \parOn e8^\parenthesize-! \parOff d^\parenthesize-! c h a4 a' %41
+      gis2 a8 g fis! e
+      fis2
+    } >> g8 fis e d
+    c2 d
+    g, \clef "treble_8" d' %45
+    \clef bass g, e'4. e8
+    d c h a g g'4 g8
+    fis e d c h4 h
+    c4. h16 c d4. c16 d
+    e8 d16 e fis8 e16 fis g8 fis16 g a8 g16 a %50
+    h8 a16 h c8 h16 c d4 h8 g
+    fis4 g d r
+    r2 r8 d' h g
+    e4 h c g'
+    d2 g,4 r\fermata \bar "|." %55 finis
+  }
+}
+
+A-XIXBChorusBassFigures = \figuremode {
+  r2 <6 4>
+  q8 <5 3>4. <4 2>4 <6>8 <5>
+  <4> <3>4 <7!>2 <7 _+>8
+  <_+>4 <6>8 <[6]>4 <_+>8 <[6]>4
+  r1 %5
+  r
+  r8 <7! 5>4 <[6]>8 r2
+  r8 <6\\>4. <_+>2
+  <[5] _+> <6 4>
+  <[5] _+> <_+> %10
+  r8 <[\t]>4. <_+>2
+  r2. <[6]>4
+  r4 <\t>8 <6>4. \bo <[6]>4
+  <6>2. \bc <[6]>4
+  <4> <_+>2. %15
+  r1
+  r
+  r
+  <8 3>4 <6>8 <5> <6> <5>4.
+  <6>2 r8 <10> q q %20
+  r2 \bo <[6]>
+  <6>1
+  \bc <[6]>2.. <6\\>8
+  r1
+  r %25
+  r
+  <6>8 <5> <6> <7> <6>4 q
+  <4> <3> <2>2
+  <4>4 <_+>2.
+  r1 %30
+  r2 <4>4 <_+>
+  r2 <5>4 <6!>
+  r2 <3>4 <6 4>
+  <5 4> <\t 3> <6>2
+  r1 %35
+  <5>8 <6>4. <_!>4 <6>8 <_!>
+  r4. <6\\> <6>4
+  <_!> <5>8 <6> <_+>2
+  <4>4 <_+>2.
+  r1 %40
+  r
+  r
+  r2 <8 3>
+  <3 5>4 <_ 6>2.
+  r1 %45
+  r2 <5>4. <6\\>8
+  r1
+  \bo <[6]>2 \bc q
+  <5>4 <6>8 q <5>4 <6>
+  <5>8 <7> <5> <7> <5>4 <6\\>8 <6>16 <6\\> %50
+  <6>4 q8 <5>4. <6>4
+  \bo <[6]>1
+  r2. \bc q4
+  <6>4 q2.
+  <4>4 <_+>2. %55 finis
+}

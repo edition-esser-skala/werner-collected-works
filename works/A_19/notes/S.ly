@@ -168,3 +168,119 @@ A-XIXAChorusBSopranoLyrics = \lyricmode {
   nen -- nen, ſich Hel -- den ſoll nen -- nen, ſich
   Hel -- den ſoll nen -- nen. %10 finis
 }
+
+A-XIXBChorusSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoA-XIXBChorus
+    r8 d' d g e8. e16 g8 e
+    e d r4 c8. c16 a'8 c,
+    c h r h c4 r8 cis
+    d d d d d4. d8
+    d4 r r2 %5
+    r r8 a a a
+    fis' c! c h g g h e
+    g ais, ais ais h h r4
+    r8 fis fis fis g([ h)] e([ g,)]
+    fis8. fis16 fis4 r8 h h h %10
+    c([ e)] a([ c,)] h8. h16 h4
+    c8 c d d h16([ c) d8]~ d h
+    a a a h c d e fis
+    g([ fis16 e)] d8 e d2~ \noBreak
+    d d %15
+    \tempoA-XIXBChorusB g, e'8 e d c
+    h([ c)] h([ a)] g g'([ fis)] e
+    d([ cis)] d([ e)] fis([ e16 d)] e8([ fis)]
+    g8.([ fis16] e8) d c([ h16 c] d8[ e16 fis])
+    g8 g,4 a8 h16([ c d8)] c([ h)] %20
+    a([ g fis e)] d4 r
+    R1
+    g8 g4 a8 h h4 cis8
+    d[ a] d4. c8 c[ h16 a]
+    h8[ d c h] a[ d a h] %25
+    c[ e d c] h[ d c h]
+    c4. h16[ a] g4 r
+    R1
+    h2 c8 a c d
+    e( g4) fis16([ e)] dis8([ fis)] e([ d)] %30
+    c4.( h16_[ a] h2)
+    a4 r r2
+    R1
+    r8 g g g a4 r8 a
+    g([ e')] d([ c]) h h4 h8 %35
+    c4.( h16[ c] a8[ h16 c] d4)
+    g,8 g a h c4 c
+    h e dis e~
+    e8[ dis16 cis] \hA dis4 e r
+    R1*3 %42
+    r2 g,
+    e'4. e8 d([ c)] h([ a)]
+    g d'4 g8 fis([ e)] d([ e16 fis)] %45
+    g4 g,4.( a8) h([ cis)]
+    d([ a)] d([ c)] h4 g
+    r2 r8 d'4 d8
+    c([ h)] a([ g)] fis a h4~
+    h8 c4 d g8[ fis e] %50
+    d4 e a, r8 d
+    d2 d8 a d4~
+    d2 d4 d
+    c( d) e d
+    d2 d4 r\fermata \bar "|." %55 finis
+  }
+}
+
+A-XIXBChorusSopranoLyrics = \lyricmode {
+  So ſey dir Dank ge -- ſagt vor
+  al -- len, Dank ge -- ſagt vor
+  al -- len, ô Held! ô
+  Held! der Hel -- den Sie -- ges --
+  gott; %5
+  ſo müeſ -- ſen
+  dei -- ne Feun -- de fal -- len, müeſ -- ſen
+  dei -- ne Feun -- de fal -- len,
+  und wie der Son -- nen
+  Mor -- gen -- roth, und wie der %10
+  Son -- nen Mor -- gen -- roth
+  wer -- den dei -- ne Freun -- de
+  glän -- zen die den Hoch -- mueths -- lauf be --
+  grän -- zen, be -- grän --
+  zen. %15
+  Auch Ja -- hel dir ſey
+  Lob ge -- ſagt, dir ſey
+  Lob ge -- ſagt, ge --
+  ſagt, __ ge -- ſa __
+  gt, dir ſey Lob ge -- %20
+  ſa __ gt,
+
+  in -- dem durch dein klu -- ges
+  Mor -- _ _ _
+  _ _ %25
+  _ _
+  _ _ den
+
+  dem Hoch -- muth biſt zum
+  Sinn -- bild wor -- den, %30
+  wor --
+  den
+
+  auf wel -- che Arth Gott
+  je -- ne ſchlagt, je -- ne %35
+  ſchla --
+  get und auch in Zue -- kunfft
+  wird ſtäts ſchla -- _
+  _ gen,
+
+  die %43
+  wi -- der ſei -- ne
+  Freund, wi -- der ſei -- ne %45
+  Freund, ſei -- ne
+  Freund ſich wa -- gen,
+  wi -- der
+  ſei -- ne Freund ſich wa --
+  _ _ _ %50
+  _ _ gen, ſich
+  wa -- gen, ſich wa --
+  gen, ſich
+  wa -- gen, ſich
+  wa -- gen. %55 finis
+}
