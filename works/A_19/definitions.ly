@@ -69,8 +69,7 @@ tempoA-XIXBAriaQuarta = \tempoMarkup "Allegretto mà non troppo"
   tempoA-XIXBAriaQuartaB = \tempoMarkup "Vivace"
 tempoA-XIXBScenaQuinta = \tempoMarkup "Recitativo"
 tempoA-XIXBChorus = \tempoMarkup "Tempo ordinario"
-  tempoA-XIXBChorusB = \tempo4=110
-  % tempoA-XIXBChorusB = \tempoMarkup "Allegro"
+  tempoA-XIXBChorusB = \tempoMarkup "Allegro"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
