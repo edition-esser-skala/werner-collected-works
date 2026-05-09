@@ -180,4 +180,39 @@
       >>
     }
   }
+  \bookpart {
+    \section "6" "Agnus Dei"
+    \addTocEntry
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \B-XLIAgnusSoprano }
+          }
+          \new Lyrics \lyricsto Soprano \B-XLIAgnusSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \B-XLIAgnusAlto }
+          }
+          \new Lyrics \lyricsto Alto \B-XLIAgnusAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \B-XLIAgnusTenore }
+          }
+          \new Lyrics \lyricsto Tenore \B-XLIAgnusTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \B-XLIAgnusBasso }
+          }
+          \new Lyrics \lyricsto Basso \B-XLIAgnusBassoLyrics
+        >>
+        \new Staff { \B-XLIAgnusOrgano }
+        \new FiguredBass { \B-XLIAgnusBassFigures }
+      >>
+    }
+  }
 }

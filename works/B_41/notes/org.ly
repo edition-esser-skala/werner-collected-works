@@ -761,6 +761,46 @@ B-XLIAgnusOrgano = {
     h' a!4 d,
     h a e'2
     a,4 \mvTr a'\pE-\soloE gis r
+    fis r gis e
+    a r g r %10
+    fis r h, r
+    e r fis fis,
+    h \mvTr h'\fE-\tuttiE e, fis8 d
+    e2 h8 h' fis gis
+    a4 gis fis e %15
+    d c h2~ \noBreak
+    h e,\fermata \bar "||"
+    \tempoB-XLIDona \mvTr a'4.\fE-\tutti a8 fis4 d \noBreak
+    fis2\trillE << {
+      e'4.^\critnote e8
+      cis4 a cis2\trill %20
+      h8 cis d cis16 h
+    } \\ {
+      e,8 e fis gis
+      a h cis h a gis16 fis e8 fis %20
+      gis fis16 e fis8 gis
+    } >> a a, h cis
+    d e fis e d e fis gis
+    a h cis h a a,16 h cis8 d
+    e4. d8 cis4 fis
+    h, e a, a'8 gis %25
+    fis e16 dis cis8 \hA dis e fis gis a
+    h4 h, e r
+    a4. a8 fis4 d!
+    e fis g8 e h cis
+    d e fis g a, h cis d %30
+    e fis g a h h,16 cis d8 e
+    fis fis d h fis2
+    h4 \clef "treble_8" h' a! fis
+    g8 \clef bass e4 e8 d4 h
+    a fis' e cis %35
+    h e a, a'
+    d,2 e~-\tastoE
+    e1~
+    e~
+    e2. e,4 %40
+    a r8 fis'\pE d4 e
+    a, r r2\fermata \bar "|." %42 finis
   }
 }
 
@@ -770,7 +810,41 @@ B-XLIAgnusBassFigures = \figuremode {
   <6> q <6! 5>2
   r4 <6\\>2.
   <7!>2 <9 4>8 <8 _!>4. %5
-  <5>4 <6!> <7!>2
-  <6\\> <4>4 <3>
+  <5>4 <6!> <7>8 <6>4.
+  <6\\>2 <4>4 <3>
   r2 <6\\>
+  r <6!>4 <7>
+  <4>8 <3>4. <2>2 %10
+  <7 _+>1
+  <_!>2 <6 4>4 <5 _+>
+  r2 <7 _+>8 <6 4>4 <8 6>8
+  <6 4>4 <5 3>8 <6 \t>4. <6>8 <6 5>
+  r4 <\t>2 <6 4>8 <\t _!> %15
+  r4 <6> <7 _+> <6\\ 4>
+  <5 \t> <\t _+>2.
+  r1
+  r
+  r %20
+  r
+  r
+  r
+  r4 <6 4>8 <8 6> <6>2
+  <7>4 q r4. <6>8 %25
+  r4 q2.
+  <4>4 <_+>2.
+  r2 <6>
+  <6 _!> r8 <_!> <6!> <7 5!>
+  r1 %30
+  <_!>
+  <_+>4 <6> <4> <_+>
+  r4 <10> q q
+  q8 <5 _!>4<6 \t>8 <6>4 <6\\>
+  r4 <5>8 <6\\>4. <6>4 %35
+  <7> q2.
+  <9 7>4 <8 6>8 <7 5> r2
+  r1
+  r
+  <6 4>2 <5 \t>4 <\t 3> %40
+  r2 <6>
+  r1 %42 finis
 }

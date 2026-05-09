@@ -22,11 +22,11 @@ toe: |
   2 & 5   & vl 1 & 4th \eighthNote\ in \B1: \sharp g″16–b″16 \\
     & 12  & S    & last \eighthNote\ in \B1: \sharp c″8 \\
     & 60  & A    & 2nd \quarterNote\ in \B1: g′4 \\
-    & 86  & A    & 6th \eighthNote\ in \B1: b′8 \\
+    & 81  & org  & upper voice added by editor \\
+    & 86  & vl 2, A & 6th \eighthNote\ in \B1: b′8 \\
     & 86  & T    & 8th \sixteenthNote\ in \B1: a16 \\
     & 90  & S    & 5th \eighthNote\ missing in \B1 \\
   3 & 5   & org  & lower voice added by editor \\
   4 & 6   & B    & 7th \eighthNote\ in \B1: b8 \\
-  6 & –   & –    & This movement is currently missing,
-                   since the digitized version lacks the last page of vlne.
-                   It will be added later. \\
+  6 & 19–21 & org & upper voice added by editor \\
+    & 34  & vl 1 & 4th \quarterNote\ in \B1: e″4 \\

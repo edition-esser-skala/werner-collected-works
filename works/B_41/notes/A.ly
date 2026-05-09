@@ -593,6 +593,38 @@ B-XLIAgnusAlto = {
     r8 fis g4 g8([ fis)] fis4
     h( e, e2)\trill
     e4 r \mvTr eis8([\pE^\solo gis)] h([ cis)]
+    a16([ gis)] fis8 r a e16([ fis gis a)] h([ cis)] d8
+    d16([ his)] cis8 r4 r2 %10
+    ais8([ cis)] fis,([ e)] d h h' fis
+    g([ ais)] ais([ h)] d,4( cis)\trill
+    h8 \mvTr fis'4\fE^\tutti fis8 gis a4 h8
+    a([ gis16 fis] gis4) fis8.([ gis16] a8) h
+    e,4.( fis16[ gis] a4. g8) %15
+    fis d a'2 gis8([ fis16 e)] \noBreak
+    fis2\trill gis\fermata \bar "||"
+    \tempoB-XLIDona R1*3 %20
+    r2 \mvTr a4.\fE^\tuttiE a8
+    fis4 d fis2\trill
+    e4 e2( a4)
+    gis8 gis[ a h] e,8.[ fis32 gis] a4~
+    a gis a r %25
+    R1
+    h4. h8 gis4 e~
+    e a2 fis4
+    g8([ fis16 \hA g)] a8([ fis)] d( g4) fis16([ e)]
+    fis8([ g] a[ \hA g16 fis)] e4 a( %30
+    g8[ a] h[ a16 \hA g]) fis2
+    fis4 fis fis2
+    fis4 r r2
+    r8 g4 g8 fis4 gis
+    a4.( h16[ a)] gis4 a~ %35
+    a8[ h16 a] gis4 a r8 a(
+    fis4 h) e, gis(
+    a h) e,8 a4 a8
+    gis4 e fis8[ e fis gis]
+    a[ e] a4. gis16[ fis] gis4 %40
+    a r8 a(\p fis4 e)
+    e r r2\fermata \bar "|." %42 finis
   }
 }
 
@@ -605,4 +637,36 @@ B-XLIAgnusAltoLyrics = \lyricmode {
   mi -- se -- re -- re
   no --
   bis. A -- gnus
+  De -- i, qui tol -- lis pec --
+  ca -- ta: %10
+  Mi -- se -- re -- re, mi --
+  se -- re -- re no --
+  bis. A -- gnus De -- i, qui
+  tol -- lis __ pec --
+  ca -- %15
+  ta, pec -- ca -- ta __
+  mun -- di:
+
+  Do -- na %21
+  no -- bis pa --
+  cem, pa --
+  cem, pa -- _ _
+  _ cem, %25
+
+  do -- na no -- bis, __
+  no -- bis,
+  no -- bis pa -- cem,
+  pa -- cem, pa -- %30
+  cem,
+  no -- bis pa --
+  cem,
+  do -- na no -- bis
+  pa -- cem, pa -- %35
+  _ cem, pa --
+  cem, pa --
+  cem, do -- na
+  no -- bis pa --
+  _ _ _ _ %40
+  cem, pa --
+  cem. %42 finis
 }

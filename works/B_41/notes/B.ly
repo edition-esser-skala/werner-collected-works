@@ -525,6 +525,36 @@ B-XLIAgnusBasso = {
     r8 h'4 h8 a!4 d,
     h( a e'2)
     a,4 r r2
+    R1*4 %12
+    \mvTr h'4.\fE^\tutti h8 e,4 fis8 d
+    e2 h8 h' fis gis
+    a4( gis) fis e %15
+    d c h2~ \noBreak
+    h e\fermata \bar "||"
+    \tempoB-XLIDona \mvTr a4.\fE^\tuttiE a8 fis4 d \noBreak
+    fis2\trill e8 e[ fis gis]
+    a[ h cis h] a[ gis16 fis] e8[ fis] %20
+    gis[ fis16 e] fis8[ gis] a[ a, h cis]
+    d[ e] fis([ e)] d[ e fis gis]
+    a[ h cis h] a[ a,16 h] cis8[ d]
+    e4. d8 cis4 fis
+    h,( e) a, a'8[ gis] %25
+    fis[ e16 dis] cis8[ \hA dis] e[ fis] gis([ a)]
+    h4( h,) e r
+    a4. a8 fis4 d!
+    e fis g8[ e h cis]
+    d[ e fis g] a4 a, %30
+    e'8[ fis g a] h[ h,16 cis] d8[ e]
+    fis fis([ d h] fis'4 fis,)
+    h r r2
+    r8 e4 e8 d4 h
+    a fis' e cis %35
+    h e a, a'
+    d,2 e
+    R1*2
+    e4 cis8([ a')] e2 %40
+    a,4 r8 fis'(\p d4 e)
+    a, r r2\fermata \bar "|." %42 finis
   }
 }
 
@@ -537,4 +567,34 @@ B-XLIAgnusBassoLyrics = \lyricmode {
   mi -- se -- re -- re
   no --
   bis.
+
+  A -- gnus De -- i, qui %13
+  tol -- lis pec -- ca -- ta,
+  pec -- ca -- ta %15
+  mun -- _ _
+  di:
+  Do -- na no -- bis
+  pa -- cem, pa --
+  _ _ _ %20
+  _ _ _
+  _ cem, pa --
+  _ _ _
+  _ cem, no -- bis
+  pa -- cem, pa -- %25
+  _ _ _ cem,
+  pa -- cem,
+  do -- na no -- bis,
+  no -- bis pa --
+  _ _ cem, %30
+  pa -- _ _
+  cem, pa --
+  cem,
+  do -- na no -- bis
+  pa -- cem, do -- na %35
+  no -- bis pa -- cem,
+  pa -- cem,
+
+  no -- bis pa -- %40
+  cem, pa --
+  cem. %42 finis
 }

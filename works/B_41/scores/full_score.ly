@@ -351,7 +351,7 @@
         \new FiguredBass { \B-XLIAgnusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 55 } %110
     }
   }
 }

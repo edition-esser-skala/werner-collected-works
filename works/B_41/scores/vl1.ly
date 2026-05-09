@@ -52,4 +52,13 @@
       >>
     }
   }
+  \bookpart {
+    \section "6" "Agnus Dei"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-XLIAgnusViolinoI }
+      >>
+    }
+  }
 }

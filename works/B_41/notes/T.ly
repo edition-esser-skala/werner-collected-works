@@ -520,6 +520,37 @@ B-XLIAgnusTenore = {
     r8 h d4 e8([ a,!)] a4
     gis!( a2 gis4)
     a r r2
+    R1*4 %12
+    \mvTr d4.\fE^\tutti h8 h([ e)] cis fis
+    e2 d8 d fis[ e]~
+    e cis r cis a4.( h16[ cis)] %15
+    d4 e fis h, \noBreak
+    h2 h\fermata \bar "||"
+    \tempoB-XLIDona R1 \noBreak
+    r2 \mvTr e4.\fE^\tutti e8
+    cis4 a cis2\trill %20
+    h8([ cis)] d([ cis16 h)] cis8 cis([ d e)]
+    a,4 a8[ gis] fis[ gis a h]
+    cis[ d e d] cis4 r
+    r e4. d8 cis[ h16 a]
+    h2 a4 r %25
+    cis8([ dis] e[ \hA dis16 cis] h8[ a)] gis4
+    fis2 e4 r
+    r2 d'4. d8
+    cis4 a h2
+    a4 d( cis) a %30
+    r e'( d) h
+    ais8 ais h2( ais4)
+    h8 h4 h8 a4 fis
+    g8.([ a16] h8[ cis] d4.) e16([ d)]
+    cis4( a) h r %35
+    h4.( gis8) e4 cis'~
+    cis8[ d16 cis] h8[ a] gis4 e(
+    fis) gis a4. a8
+    h4 cis d8[ cis d h]
+    cis4. h16[ a] h2 %40
+    cis4 r8 cis(\p d4 h)
+    cis r r2\fermata \bar "|." %42 finis
   }
 }
 
@@ -532,4 +563,35 @@ B-XLIAgnusTenoreLyrics = \lyricmode {
   mi -- se -- re -- re
   no --
   bis.
+
+  A -- gnus De -- i, qui %13
+  tol -- lis pec -- ca --
+  ta, pec -- ca -- %15
+  ta, pec -- ca -- ta
+  mun -- di:
+
+  Do -- na
+  no -- bis pa -- %20
+  cem, pa -- cem, pa --
+  cem, pa -- _
+  _ cem,
+  pa -- _ _
+  _ cem, %25
+  pa -- cem,
+  pa -- cem,
+  do -- na
+  no -- bis pa --
+  cem, pa -- cem, %30
+  pa -- cem,
+  no -- bis pa --
+  cem, do -- na no -- bis
+  pa -- cem,
+  pa -- cem, %35
+  no -- bis pa --
+  _ cem, no --
+  bis, do -- na
+  no -- bis pa --
+  _ _ _ %40
+  cem, pa --
+  cem. %42 finis
 }

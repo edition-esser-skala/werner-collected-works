@@ -39,7 +39,7 @@ B-XLIGloriaViolinoI = {
   \relative c' {
     \clef treble
     \key a \major \time 4/4 \tempoB-XLIGloria
-      \tightNotes
+      \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
     a''8\fE a, r \times 4/5 { a32( h cis h a) } e'8 e, r \times 4/5 { e'32( fis gis fis e) }
     a16( cis) cis( h) h( a) a( gis) gis( fis) fis( e) e( d) d( cis)
     cis8\trill d32( e fis g) a16( g) g( fis) fis8.\trill gis32 a h16( a) a( gis)
@@ -75,7 +75,8 @@ B-XLIGloriaViolinoI = {
     r8 \once \slurDashed e,16(\f a) a( gis) gis( fis) e8 a16( d) d( cis) cis( h)
     a8 e'16( a) a( gis) gis( fis) e8.\trill fis32( gis) a16( e) fis( d) %35
     cis8 \tuplet 3/2 8 { fis16 e d } cis8 \tuplet 3/2 8 { d16 cis h } a4 r\fermata \bar "||"
-    \key a \minor \time 3/4 \tempoB-XLIQuiTollis \newSpacingSection \looseNotes
+    \key a \minor \time 3/4 \tempoB-XLIQuiTollis \newSpacingSection
+      \revert Score.SpacingSpanner.common-shortest-duration
       R2.*2
     r8 e'4\p e8 c' e,
     r d4 d8 e, d' %40
@@ -348,6 +349,37 @@ B-XLIAgnusViolinoI = {
     r8 e4 e8 e( d) d4 %5
     r8 d4 d8 cis4 d~
     d8 d cis4 h4. e8
-    cis e~\p e16 d e8 r h'~ h16 a h8
+    cis e~\p e16 d e8 r h' h16( a) h8
+    r8 a a16( gis) a8 r2
+    r8 e e16( d) e8 r e e16( d) e8 %10
+    r e e16( d) e8 r d d16( cis) d8
+    r cis cis( d) d cis16 h cis4\trill
+    h8 d4\f d8 d cis4 fis8
+    e4 r r8 fis16 gis a8 h
+    e,4. fis16 gis a4. g8 %15
+    fis4 e dis8 e16 fis e4~ \noBreak
+    e8 dis16 cis \hA dis4\trill e2\fermata \bar "||"
+    \tempoB-XLIDona R1*4 %21
+    r2 d4.\fE d8
+    cis4 a cis2\trill
+    h8 h cis d e a,4 h16 cis
+    d e fis8 e d cis e16 d cis8 h %25
+    a h cis h16 a gis8 fis e4~
+    e8 dis16 cis \hA dis4 e8 e'4 e8
+    cis d! e cis a2
+    R1
+    r4 a8 h cis d e d16 cis %30
+    h4. cis8 d16 cis d e fis8 e16 d
+    cis4 d cis2\trill
+    h8 d4 d8 cis4 a
+    h8. cis16 d8 e fis4 d^\critnote
+    r8 cis4 dis8 e4. fis16 e %35
+    d4. e16 d cis8 d e4~
+    e8 fis16 e d8 cis h e4 e8
+    dis4 h cis8 a16 h cis d? e8
+    h4 r h4. gis8
+    e cis'4 h16 a h2 %40
+    cis4 r r2
+    R1\fermata \bar "|." %42 finis
   }
 }

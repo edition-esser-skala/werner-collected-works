@@ -569,6 +569,34 @@ B-XLIAgnusSoprano = {
     r8 d4 d8 cis4 d~
     d cis h2\trill
     cis4 r r2
+    R1*4 %12
+    r8 \mvTr d4\fE^\tutti d8 d cis4 d8
+    cis([ h16 a)] h8 cis d2
+    cis4 r8 cis cis4.( d16[ e] %15
+    fis4) e dis8[ e16 fis] e4~ \noBreak
+    e8[ dis16 cis] \hA dis4 e2\fermata \bar "||"
+    \tempoB-XLIDona R1*4 %21
+    r2 \mvTr d4.\fE^\tuttiE d8
+    cis4 a cis2\trill
+    h8 h[ cis d] e a,4 h16[ cis]
+    d[ e fis8] e[ d] cis[ e16 d] cis8[ h] %25
+    a[ h] cis[ h16 a] gis8[ fis] e4~
+    e8[ dis16 cis] \hA dis4 e8 e'4 e8
+    cis([ d! e cis)] a2
+    R1
+    r4 a8([ h] cis[ d] e[ d16 cis)] %30
+    h4 h8[ cis] d16[ cis d e] fis8[ e16 d]
+    cis4 d cis2\trill
+    h8 d4 d8 cis4 a
+    h8.[( cis16] d8[ e] fis4) d
+    r8 cis4 dis8 e4. fis16[ e] %35
+    d4. e16[ d] cis8[ d] e4~
+    e8[ fis16 e] d8[ cis] h e4 e8
+    dis4 h cis8([ a16 h] cis[ d? e8)]
+    h4 r h4.( gis8)
+    e2 e %40
+    e4 r8 a(\p h4 gis)
+    a r r2\fermata \bar "|." %42 finis
   }
 }
 
@@ -581,10 +609,32 @@ B-XLIAgnusSopranoLyrics = \lyricmode {
   mi -- se -- re -- _
   re no --
   bis.
+
+  A -- gnus De -- i, qui %13
+  tol -- lis pec -- ca --
+  ta, pec -- ca -- %15
+  ta mun -- _
+  _ di:
+
+  Do -- na %22
+  no -- bis pa --
+  cem, pa -- _ _ _
+  _ _ _ _ %25
+  _ _ _ _
+  _ cem, do -- na
+  no -- bis
+
+  pa -- %30
+  cem, pa -- _ _
+  _ cem, pa --
+  cem, do -- na no -- bis
+  pa -- cem,
+  no -- bis pa -- _ %35
+  _ _ _ _
+  _ cem, do -- na
+  no -- bis pa --
+  cem, pa --
+  cem, pa -- %40
+  cem, pa --
+  cem. %42 finis
 }
-
-
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.

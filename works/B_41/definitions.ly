@@ -1,8 +1,5 @@
 \version "2.24.0"
 
-tightNotes = \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
-looseNotes = \revert Score.SpacingSpanner.common-shortest-duration
-
 tempoB-XLIKyrie = \tempoMarkup "Vivace"
 tempoB-XLIGloria = \tempoMarkup "Allegro"
   tempoB-XLIQuiTollis = \tempoMarkup "Largo"
@@ -20,6 +17,7 @@ tempoB-XLISanctus = \tempoMarkup "Largo"
 tempoB-XLIBenedictus = \tempoMarkup "Andante moderato"
   tempoB-XLIOsanna = \tempoMarkup "Presto"
 tempoB-XLIAgnus = \tempoMarkup "Largo"
+  tempoB-XLIDona = \tempoMarkup "Molto allegro"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
