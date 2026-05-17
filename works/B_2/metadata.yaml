@@ -1,0 +1,16 @@
+title: Missa
+id: WerW B.2
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwb2
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.15
+    rism: 530001925
+    url: https://copia.oszk.hu/kotta/messe-in-am/
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
