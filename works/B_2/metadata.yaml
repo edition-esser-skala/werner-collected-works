@@ -14,3 +14,11 @@ sources:
     principal: true
 tocstyle: default
 toe: |
+  2 & 8  & S         & bar in \B1: \sharp g′4–\sharp g′8–a′4–\crotchetRest \\
+  3 & 31 & org, vlne & tempo indication in \B1: “Largo” \\
+    & 90 & S         & 1st \halfNote\ in \B1: a′2 \\
+  4 & 4  & org       & notes in treble clef added by editor \\
+  5 & 28 & vl, S     & 4th \eighthNote\ in \B1: d″8 \\
+  6 & 1  & org, vlne & tempo indication in \B1: “Largo” \\
+    & 15 & vlne      & tempo indication in \B1: “Adagio” \\
+    & 41 & B         & 1st \quarterNote\ in \B1: \sharp c′4 \\

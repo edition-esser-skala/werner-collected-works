@@ -1,6 +1,16 @@
 \version "2.24.0"
 
 tempoB-IIKyrie = \tempoMarkup "Allegro"
+tempoB-IIGloria = \tempoMarkup "[no tempo]"
+tempoB-IICredo = \tempoMarkup "[no tempo]"
+  tempoB-IIEtIncarnatus = \tempoMarkup "Adagio"
+  tempoB-IIEtResurrexit = \tempoMarkup "Allegro"
+  tempoB-IIAmen = \tempoMarkup "Allegro"
+tempoB-IISanctus = \tempoMarkup "Presto"
+tempoB-IIBenedictus = \tempoMarkup "Allegro"
+  tempoB-IIOsanna = \tempoMarkup "Andante"
+tempoB-IIAgnus = \tempoMarkup "Largo"
+  tempoB-IIDona = \tempoMarkup "Largo"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
