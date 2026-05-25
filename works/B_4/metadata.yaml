@@ -1,0 +1,35 @@
+title: Missa Intendi mi, ch’io t’intendo
+id: WerW B.4
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
+ark: 68748/e1gjwb4
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.17
+    rism: 530001927
+    url: https://copia.oszk.hu/kotta/missa-c/
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 2   & timp   & 3rd \quarterNote\ in \A1: G8–G8 \\
+    & 8   & vl 1   & 9th \sixteenthNote\ in \A1: a′16 \\
+    & 17  & vl 1   & last \eighthNote\ in \A1: f′8 \\
+    & 26  & clno 2 & 2nd \quarterNote\ in \A1: f″4 \\
+    & 28  & clno 1 & 2nd \quarterNote\ in \A1: f″4 \\
+    & 30  &  –     & In \A1, “alquanto” in the tempo indication
+                     appears in vl 1 princ, vl 2 princ, A, T, and vlne,
+                     but not in vl 1 rip, vl 2 rip, and org. \\
+    & 30  & vl 2   & grace note added by editor \\
+    & 63  & org    & 1st \quarterNote\ in \A1: originally g4,
+                     corrected by Werner to g8–G8 \\
+    & 64  & org    & 1st \quarterNote\ in \A1: originally f4,
+                     corrected by Werner to f8–F8 \\
+    & 73  & org    & bar added later by Werner \\
+    & 108 & clno 1 & 4th \quarterNote\ in \A1: g″4 \\
+  2 & 130 & –      & \A1, tempo indication in org: “Largo”;
+                     in A: “Adagiose” (“se” added later by Werner) \\
+    & 149 & T      & 2nd \quarterNote\ in \A1: g8–a8 \\
+    & 151 & S      & \A1, tempo indication in S: “Largo” \\
