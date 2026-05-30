@@ -7,19 +7,9 @@ vla = \markup \remark \whiteout "vla"
 trb = \markup \remark \whiteout "trb"
 vltr = \markup \remark \whiteout "vla & trb"
 
-markKyrieUtSupra = {
-  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Kyrie ut supra"
-}
-
 markAmenUtSupra = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark "Amen ut supra"
-}
-
-markOsannaUtSupra = {
-  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Osanna ut supra"
 }
 
 tempoB-SXSonata = \tempoMarkup "Sonata"

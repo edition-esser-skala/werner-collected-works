@@ -14,6 +14,15 @@ incipitVlISoprano = \incipit "I" "soprano" #-16.1 #-0.8
 incipitVlIISoprano = \incipit "II" "soprano" #-16.4 #-0.8
 incipitVlIIAlto = \incipit "II" "alto" #-16.4 #-0.8
 
+markKyrieUtSupra = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Kyrie ut supra"
+}
+markOsannaUtSupra = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Osanna ut supra"
+}
+
 extendLV = #(define-music-function
   (parser location further)
   (number?)

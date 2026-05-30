@@ -34,7 +34,7 @@ B-XLVIIIKyrieViolinoI = {
     R2.*4 %30
     h8(\f d) d( fis) h( fis)
     g( e,) d4( cis8.)\trill h16 \noBreak
-    h2 r4\fermata \markKyrieDaCapo \bar "||" %33 finis
+    h2 r4\fermata \markKyrieUtSupra \bar "||" %33 finis
   }
 }
 

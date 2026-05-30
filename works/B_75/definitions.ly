@@ -1,10 +1,5 @@
 \version "2.24.0"
 
-markOsannaUtSupra = {
-  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Osanna ut supra"
-}
-
 tempoB-LXXVKyrie = \tempoMarkup "Vivace"
   tempoB-LXXVChriste = \tempoTitleMarkup "Christe" "Andante"
   tempoB-LXXVKyrieFuga = \tempoMarkup "Allegro"

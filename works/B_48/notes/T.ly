@@ -37,7 +37,7 @@ B-XLVIIIKyrieTenore = {
     h( ais4) %30
     h r r
     R2.
-    R\fermata \markKyrieDaCapo \bar "||" %33 finis
+    R\fermata \markKyrieUtSupra \bar "||" %33 finis
   }
 }
 

@@ -1,9 +1,5 @@
 \version "2.24.0"
 
-markOsannaUtSupra = {
-  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Osanna ut supra"
-}
 sbFourOn = {
   \set subdivideBeams = ##t
   \set baseMoment = #(ly:make-moment 1/4)

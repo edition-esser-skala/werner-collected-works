@@ -22,7 +22,7 @@ B-XLVIIIKyrieBasso = {
     d r r2\fermata \bar "||"
     \time 3/4 \tempoB-XLVIIIChriste \newSpacingSection
       R2.*16 %32
-    R2.\fermata \markKyrieDaCapo \bar "||" %33 finis
+    R2.\fermata \markKyrieUtSupra \bar "||" %33 finis
   }
 }
 

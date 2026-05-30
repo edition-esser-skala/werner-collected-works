@@ -1,12 +1,5 @@
 \version "2.24.0"
 
-markOsannaUtSupra = {
-  \once \override Score.RehearsalMark.break-visibility =
-    #begin-of-line-invisible
-  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Osanna ut supra"
-}
-
 tempoB-XLVKyrie = \tempoMarkup "Andante moderato"
 tempoB-XLVGloria = \tempoMarkup "Andante"
   tempoB-XLVDomine = \tempoMarkup "Alla capella"

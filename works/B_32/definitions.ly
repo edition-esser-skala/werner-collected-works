@@ -5,10 +5,6 @@ SIeIIsolo = \markup \remark "S 1 & 2 solo"
 SIIsolo = \markup \remark "S 2 solo"
 Asolo = \markup \remark "A solo"
 Atutti = \markup \remark "A tutti"
-markOsannaUtSupra = {
-  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Osanna ut supra"
-}
 
 tempoB-XXXIIKyrie = \tempoMarkup "Vivace"
   tempoB-XXXIIChriste = \tempoMarkup "Passato"

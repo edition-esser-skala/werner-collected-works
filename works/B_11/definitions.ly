@@ -1,9 +1,5 @@
 \version "2.24.0"
 
-markKyrieUtSupra = {
-  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Kyrie ut supra"
-}
 markOsannaUtSupraE = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remarkE "Osanna ut supra"

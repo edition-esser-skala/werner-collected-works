@@ -37,7 +37,7 @@ B-XLVIIIKyrieAlto = {
     d8[ e] cis2\trill %30
     h4 r r
     R2. \noBreak
-    R\fermata \markKyrieDaCapo \bar "||" %33 finis
+    R\fermata \markKyrieUtSupra \bar "||" %33 finis
   }
 }
 

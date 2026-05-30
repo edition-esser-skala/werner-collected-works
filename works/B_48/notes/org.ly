@@ -37,7 +37,7 @@ B-XLVIIIKyrieOrgano = {
     g' e fis %30
     h,\fE h' d,
     e fis fis, \noBreak
-    h2 r4\fermata \markKyrieDaCapo \bar "||" %33 finis
+    h2 r4\fermata \markKyrieUtSupra \bar "||" %33 finis
   }
 }
 
