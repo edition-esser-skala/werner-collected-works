@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026.05.0 – 2026-05-30
+
+### Added
+
+- works: WerW B.2/4/52
+- WerW B.41: Agnus Dei
+- global macros `\markKyrieUtSupra` and `\markOsannaUtSupra`
+
+
 ## 2026.04.0 – 2026-05-01
 
 ### Added
