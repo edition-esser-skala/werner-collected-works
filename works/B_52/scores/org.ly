@@ -7,12 +7,64 @@
 
 \book {
   \bookpart {
-    \section "B-LIIKyrie" ""
+    \section "1" "Kyrie"
     \addTocEntry
+    \paper { system-count = #8 }
     \score {
       <<
         \new Staff { \B-LIIKyrieOrgano }
         \new FiguredBass { \B-LIIKyrieBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Gloria"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-LIIGloriaOrgano }
+        \new FiguredBass { \B-LIIGloriaBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Credo"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-LIICredoOrgano }
+        \new FiguredBass { \B-LIICredoBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Sanctus"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-LIISanctusOrgano }
+        \new FiguredBass { \B-LIISanctusBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Benedictus"
+    \addTocEntry
+    \paper { system-count = #3 }
+    \score {
+      <<
+        \new Staff { \B-LIIBenedictusOrgano }
+        \new FiguredBass { \B-LIIBenedictusBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Agnus Dei"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-LIIAgnusOrgano }
+        \new FiguredBass { \B-LIIAgnusBassFigures }
       >>
     }
   }

@@ -7,11 +7,58 @@
 
 \book {
   \bookpart {
-    \section "B-LIIKyrie" ""
+    \section "1" "Kyrie"
     \addTocEntry
+    \paper { system-count = #8 }
     \score {
       <<
         \new Staff { \B-LIIKyrieOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Gloria"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-LIIGloriaOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Credo"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-LIICredoOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Sanctus"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-LIISanctusOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Benedictus"
+    \addTocEntry
+    \paper { system-count = #3 }
+    \score {
+      <<
+        \new Staff { \B-LIIBenedictusOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Agnus Dei"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-LIIAgnusOrgano }
       >>
     }
   }
