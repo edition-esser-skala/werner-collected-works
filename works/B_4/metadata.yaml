@@ -13,6 +13,8 @@ sources:
     license: public domain
     principal: true
 tocstyle: default
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
 toe: |
   1 & 2   & timp   & 3rd \quarterNote\ in \A1: G8–G8 \\
     & 8   & vl 1   & 9th \sixteenthNote\ in \A1: a′16 \\
@@ -32,4 +34,18 @@ toe: |
   2 & 130 & –      & \A1, tempo indication in org: “Largo”;
                      in A: “Adagiose” (“se” added later by Werner) \\
     & 149 & T      & 2nd \quarterNote\ in \A1: g8–a8 \\
-    & 151 & S      & \A1, tempo indication in S: “Largo” \\
+    & 151 & S      & tempo indication in \A1: “Largo” \\
+  3 & 2   & A      & 1st to 3rd \eighthNote\ in \A1: g′8–g′4 \\
+    & 35  & vl 1   & 4th \eighthNote\ in \A1: d″8 \\
+    & 63  & vl 2   & 1st \quarterNote\ in \A1: b4 \\
+    & 110 & clno 2 & 2nd \quarterNote\ in \A1: e″4 \\
+    & 157 & clno 1 & 4th \eighthNote\ in \A1: f″8 \\
+    & 162–165 & timp & bars missing in \A1 \\
+    & 191 & clno 2 & 4th \eighthNote\ missing in \A1 \\
+    & 207 & A      & 2nd \quarterNote\ in \A1: g′4 \\
+  4 & 3   & vl 2   & 4th \eighthNote\ in \A1: e′8 \\
+    & 9   & vl 2   & 6th \eighthNote\ in \A1: b′8 \\
+    & 16–17 & vl 1 & In \A1, the cadence originally comprised four bars: \\
+                     \multicolumn{4}{c}{\includegraphics{snippet_B_4.pdf}} \\
+    & 43  & clno 2 & 2nd/3rd \halfNote\ in \A1: d″1 \\
+    & 64  & vl 2   & 2nd \wholeNote\ in \A1: c″2–\halfNoteRest \\

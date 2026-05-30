@@ -313,3 +313,299 @@ B-IVGloriaViolinoII = {
     d4. g8 e4 r\fermata \bar "|." %221 finis
   }
 }
+
+B-IVCredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoB-IVCredo
+    e'16\fE d e4 d8 c d
+    e e, e' d c d
+    e4. d8 c e
+    d8. d16 h8 g d h
+    r4 r g' %5
+    a16 c h c a8 f a4
+    h16 d c d h8 g h4
+    c16 e d e c8 a c4
+    d16 f e f d8 h d4
+    e r8 e4 e8 %10
+    e c4 h16 a h4\trill
+    c r r
+    R2.*7 %19
+    c8\pE e16 d c8 e g4 %20
+    g,8 h16 a g8 h d4
+    r r8 a16 h c8 a
+    d4 r r
+    r8 d,[ e fis] g8. a16
+    h8 e, r4 r %25
+    g8 h16 a g8 h g4
+    r8 h16 a g8 h g c
+    h4~ h16 g a h e,4~
+    e8 a4 c e8~
+    e gis16 fis e4 r %30
+    r r r8 c
+    d4. c8 h8. c32 d
+    e4. d8 c8. d32 e
+    f4. e8 d8. e32 f
+    g8 e16 d c8 h16 a h4\trill %35
+    c r r
+    R2.*10 %46
+    e4\fE d8 g4 fis8
+    g4. g8 f d
+    e4 r r
+    R2. %50
+    r4 d c~
+    c h8 c d4
+    g,2 r4
+    r a g~
+    g fis8 g a4~ %55
+    a8 g g4 f~
+    f8 e e4 r
+    d2 e4
+    f2.~
+    f4 e8 d e c %60
+    d4. c8 d h
+    c4 a d
+    c-\critnote g g'
+    fis g d
+    c d2 %65
+    g,4 e''2
+    d c4~
+    c h a~
+    a g8 a h4
+    c2.~ %70
+    c2 h4 \noBreak
+    c2.\fermata \bar "||"
+    \key a \minor \time 4/4 \tempoB-IVEtIncarnatus \newSpacingSection
+      a8\fE^\conSord c16 h a8 e a4. a8~ \noBreak
+    a16 gis gis8 r e c4 r8 d'
+    g,4~ g16 a b8 e,4 r8 a %75
+    a4~ a16 h c8 fis,4 r8 h
+    h4 r8 h~ h16 a a8 r f
+    d g r e c f r d
+    h4 r8 e c4 r
+    R1 %80
+    r2 r8 c'\pE c c
+    h4 r r8 b b b
+    a4 r r8 a a a
+    gis4 r r8 a4 a8
+    a4 r r8 g g g %85
+    fis4 r r8 h h h
+    c4 r r8 a a a
+    h4 r r8 e, g16( h) h( c)
+    c4 r r2
+    R1 %90
+    r2 r8 a,\fE d4
+    e4. c8 d4. c8
+    h gis' a2 gis4
+    a r r8 a\pE a a
+    b4. b8 b( a) a4 %95
+    g2 f4 gis
+    a8 cis cis cis cis cis cis cis
+    d a a a a a a a
+    gis e \hA gis8.\trill fis?32 \hA gis a8.\trill \hA gis32 a h8 h
+    h a cis8.\trill h32 \hA cis d8.\trill \hA cis32 d e8 e %100
+    \once \slurDashed e( d) a d b4. a8
+    g4. f8 e4. e8
+    \once \slurDashed e( d) r4 r8 a' a a
+    \once \slurDashed a( gis) r c, h h h h \noBreak
+    a2 r\fermata \bar "||" %105
+    \key c \major \time 3/4 \tempoB-IVEtResurrexit \newSpacingSection
+      r8 e''4\fE c8 g e \noBreak
+    c e'4 c8 g e
+    f a4 c8 f a
+    e, e4 g8 c e
+    c a4 a8 cis16 h \hA cis8 %110
+    d f,4 a8 d f
+    d h4 d8 e16 d e8
+    d h4 g8 d h
+    g4 r r
+    r8 e''16 d e8 d c d %115
+    e e16 d e8 d c d
+    e e16 d e8 d c d
+    e8. c16 g8 e c4
+    r8 e'16 d c8 h c h
+    c e16 d c8 h c e %120
+    d4 d2\trill
+    d8 h16 c d8 c h a
+    g e'16 f! g8 f e d
+    c a16 h c8 h a g
+    f e16 d c8 a' h, gis' %125
+    a, a'16\p h c8 h a gis
+    a16 gis a h c8 h a gis
+    a d, g c, f4
+    e8 e16 fis gis8 \hA fis e gis'
+    r a,,16 h c8 h a c' %130
+    r d,16 e f!8 e d f'
+    r g,16 a h8 a g h
+    c\fE e16 f g8 f e d
+    e e16 f g8 f e d
+    e e16 d e8 g4 e8 %135
+    d g4 d8 h g
+    e'4 e c
+    f2.
+    e4 d2
+    e16 e, g c e8 c4 h8 %140
+    c g16 e c4 r
+    R2.*15 %156
+    r8 c'16\f c e e g g c c g g
+    e e g g c c e, e d d h' h
+    c c g g c c g g e8 c
+    r d16 d h h g g d' d fis fis %160
+    g g h h g g d d h h g g
+    e e c c e e g g h h d d
+    e e c c e e g g c c g g \noBreak
+    e e c' c d,8 c' g, h'
+    \time 4/4 \tempoB-IVEtUnam \newSpacingSection
+      c4 r r2 \noBreak %165
+    R1*5 %170
+    r8 a,\pE h gis r16 a h c h8 gis
+    e c r4 r2
+    r16 c e g c e, g c \tempoB-IVMortuorum es(-.\pp es-. es-. es-.) es(-. es-. es-. es-.)
+    c(-. c-. c-. c-.) c(-. c-. c-. c-.) h!(-. h-. h-. h-.) c(-. c-. c-. c-.)
+    c(-. c-. c-. c-.) b(-. b-. b-. b-.) b(-. b-. b-. b-.) as(-. as-. as-. as-.)
+    as(-. as-. as-. as-.) as(-. as-. as-. as-.) as(-. as-. as-. as-.) as(-. as-. as-. as-.) \noBreak %175
+    as(-. as-. as-. as-.) g(-. g-. g-. f-.) g2\fermata \bar "||"
+    \tempoB-IVEtVitam R1*3 %180
+    r2 c,4\fE g'~
+    g e8 c d4 g
+    r8 g c4. fis,8 h4~
+    h8 a16 g a8 g fis g4 \hA fis8
+    g d16 e f4. e16 d e8 c %185
+    r c f4. e16 d e8 c
+    a'4. d,8 g4. c,8
+    f4. g16 a g8 e d g
+    e4. d16 c d8 h r e
+    d4. c16 h c8 e a8. g16 %190
+    fis4 g e4. fis16 g
+    a8 g e d d4 r8 g
+    e a4 f!8 d g4 e8
+    c f16 g \once \tieDashed a8~ a d, d g4
+    f4. g16 f e8 g f4~ %195
+    f8 e16 d e4 f8 c f4~
+    f e8 c d4. g8
+    c,4. f8~ f e16 d e4
+    f8 c f a g4. f16 e
+    d8 d4 b'8 a4. g16 f %200
+    e4 f8. e16 d4~ d16 e f8
+    g8 e16 f g8 g c,4 r
+    d g2 e8 c
+    d g, g'4. f16 e f8 d
+    e a, a'4. g16 f g4~ %205
+    g8 f16 e f4. e16 d e4~
+    e8 d a'4 d, r
+    r8 g'4 f16 e d4. c8
+    h c16( h) c4. h16 a h4
+    c16 e d c h a g f e c' h a g f e d %210
+    c8 r h r c4 r\fermata \bar "|." %211 finis
+  }
+}
+
+B-IVSanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-IVSanctus
+    r8 e'\fE c g a g c4~
+    c8 e c f~ f e16 d e8 c
+    r h g d-\critnote e d g4~
+    g8 h g c~ c h16 a h8 g
+    cis4. cis8 d4 d %5
+    dis4. dis8 e4 e
+    f2 e
+    dis4 e2 d4~
+    d8 g, c4. c8^\critnote c4
+    h16 c d4 c8 h h c4~ \noBreak %10
+    c8 h16 a h4 c2\fermata \bar "||"
+    \tempoB-IVPleni R1*17 \noBreak
+    R1\fermata \bar "||"
+    \time 4/2 \tempoB-IVOsanna \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*5 %34
+    r1 c,\fE %35
+    g' e2 a~
+    a g4 f g2 c,
+    r e2. c4 e f
+    g f e d c2 c'~
+    c h4 a h2 a4 g %40
+    a g8 fis e4 \hA fis g2 c,
+    f1 e2 a~
+    a g4 f g1~
+    g2 g, r1
+    a2 d h e %45
+    a, d d1
+    d r2 g~
+    g4 e g a \once \stemUp h a g f!
+    e2 a1 g4 a
+    d,2 h' e, a %50
+    d,4 d e f g2 e
+    a1 g2 c~
+    c h4 a h2. h4
+    c2. h4 a2. g4
+    f e d2 g2. f4 %55
+    e d c2 f2. e8 d
+    e1 e
+    r2 e a1
+    g2 g2. e4 g a
+    h2 h, r1 %60
+    a'4 f a h c2. h8 a
+    g4 e g a h2 g~
+    g g h c~
+    c h c1\fermata-\critnote \bar "|." %64 finis
+  }
+}
+
+B-IVAgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-IVAgnus
+    r8 g'\fE c g \sbOn a16. c32 c16.\trill h64( c) f8 a,
+    g16. c32 c16.\trill h64( c) e8 g, f h d f,
+    e16.\trill d64( e) g16.\trill f64( g) c16.\trill h64( c) e16.\trill d64( e) \sbOff a16. e32 cis16. a32 e'16. \hA cis32 a16. e32
+    \sbOn f16.\trill e64( f) a16.\trill g64( a) d16.\trill cis64( d) f16.\trill e64( f) \sbOff h16. fis32 dis16. h32 \hA fis'16. \hA dis32 h16. fis32
+    \sbOn g16.\trill fis64( g) h16.\trill a64( h) e16.\trill dis64( e) g16.\trill fis64( g) \sbOff b16. g32 g16. e32 e4\trill %5
+    \sbOn f,16.\trill e64( f) a16.\trill g64( a) d16.\trill cis64( d) f16.\trill g64( a) \sbOff g16. d32 d16. h32 g4
+    c16. es32 es16. g32 c16. c,32 c16. c32 es16. fis,32 fis16. fis32 a!16. c,32 c16. c32
+    h4 r \once \tieDashed gis'2~\p
+    gis fis
+    h, d! %10
+    e fis4 e~
+    e dis e h'
+    a4. e16 f! g!4 d
+    e e'2 d4
+    b8. b16 a8 g %15
+    f4 a~
+    a g8. a16 h4 cis \noBreak
+    h2 h\fermata \bar "||"
+    \tempoB-IVDona R1*7 %24
+    c,4.\fE c8 a'4 cis, %25
+    d8 e f e16 f g4 h,
+    c!8 d e d16 e f8 g f e
+    d4 g4. f8 e d
+    c h a g fis' e d c
+    h a g fis' e \hA fis g4~ %30
+    g8 f16 e f8 d e g16 f e8 d
+    c4 r r d'~
+    d8 c h c16 d g,4 c~
+    c8 a d4. h8 e4~
+    e8 d16 c f4. e16 d e8 d %35
+    cis d16 e d4. g,8 c4~
+    c8 f, b4. c8 a f
+    g2 c,4 r
+    a' d4. e16 f g4~
+    g8 f e g c,4. b16 a %40
+    g4. e8 c4 r
+    a'8 h!16 c d4. c8 h a
+    g4 c4. b8 a \hA b16 c
+    d2 d,4. d8
+    h'!4 dis, e8 fis g \hA fis16 g %45
+    a4 cis, d8 e fis e16 \hA fis
+    g8 a h a16 h c!4 g
+    r8 a4 a8 f'!4 a,
+    h8 c d c16 d e4 g,
+    a d4. h8 e4~ %50
+    e8 c a d h g c4
+    d c h c~
+    c8 h16 a h4 c8 g c e
+    g2~ g8 e4 c8
+    d4. d8 e4 r\fermata \bar "|." %55 finis
+  }
+}

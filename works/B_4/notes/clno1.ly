@@ -123,3 +123,178 @@ B-IVGloriaClarinoI = {
     \pa a4 g \pd g r\fermata \bar "|." %221 finis
   }
 }
+
+B-IVCredoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoB-IVCredo
+    e'8\fE g16 f \pa e8 d c d \pd
+    e g16 f \pa e8 d c d \pd
+    e g16 f \pa e8 g4 c8 \pd
+    h h16 h h8 h h4
+    r \pa g g %5
+    a2 a4
+    h2 h4
+    c2 c4
+    d2 d4 \pd
+    c r r %10
+    g8 a g4. g8
+    g4 r r
+    R2.*34 %46
+    g2\fE fis4
+    g r8 g f f
+    e4 r r
+    \pa r a g %50
+    g f8 g a4
+    d, g f~
+    f e8 f g4
+    c,2 r4 \pd
+    R2. %55
+    r4 \pa g' \once \tieDashed f~
+    f8 e \pd e4 r
+    R2.*6 %63
+    \pa r4 g2
+    a h4 %65
+    c g c~
+    c h \pd r
+    R2.
+    \pa d,4 g2~
+    g4 e2 \pd %70
+    a4 g2 \noBreak
+    g2.\fermata \bar "||"
+    \time 4/4 \tempoB-IVEtIncarnatus \newSpacingSection
+      R1*32 \noBreak %104
+    R1\fermata \bar "||" %105
+    \time 3/4 \tempoB-IVEtResurrexit \newSpacingSection
+      r4 g\fE g \noBreak
+    r g g
+    r a a
+    r g g
+    r a a %110
+    f f f
+    g4. g8 g4
+    g8 g16 g g8 g g4
+    R2.
+    r8 g16 g g8 g g g %115
+    g2.
+    g
+    g4 e r
+    r8 \pa e,16 e e8 e e e
+    e e16 e e8 e e4 \pd %120
+    R2.*12 %132
+    \pa g'2\fE g4
+    g2 g4
+    g4. h8 c c \pd %135
+    h4 r8 g16 g \pa g8 g \pd
+    g4 r8 g16 g g8 a
+    a4. a8 g4
+    g g2
+    g4 r r %140
+    R2.*16 %156
+    e4.\fE g8^\critnote g g
+    g4. c8 h h
+    c4 c r8 g
+    g4. g8 g fis %160
+    g4 g r
+    c,2 d4
+    e g2 \noBreak
+    g4 g2
+    \time 4/4 \tempoB-IVEtUnam \newSpacingSection
+      g4 r r2 \noBreak %165
+    R1*11 \noBreak %176
+    R1\fermata \bar "||"
+    \tempoB-IVEtVitam R1*12 %189
+    r4 d\fE g e8 c %190
+    \pa d4 g, c4. d16 e
+    d8 d d4 d8 d g4~
+    g8 c, f4. e16 d e4~
+    e8 d16 e d8 c d d g4
+    f4. g16 f e8 g f4~ %195
+    f8 e16 d e4 \pd f r
+    R1
+    \pa r2 g4 \once \tieDashed c~
+    c a8 f g4 c, \pd
+    R1*3 %202
+    \pa r2 r8 g' c4~
+    c8 h16 a h8 g \pd r2
+    R1 %205
+    \pa r2 r4 r8 e
+    a4. a8 \pd g4 r
+    r8 g4 g8 g4 g
+    g4. g8 g2
+    g4 r r2 %210
+    e8 r d r e4 r\fermata \bar "|." %211 finis
+  }
+}
+
+B-IVSanctusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-IVSanctus
+    R1*2
+    r4 \pa d'\fE e8 d g4
+    f e d2 \pd
+    R1*5 %9
+    r8 \pa d g16 f e f g4. g8 \noBreak %10
+    g4 g16 a g f \pd e2\fermata \bar "||"
+    \tempoB-IVPleni R1*17 \noBreak %28
+    R1\fermata \bar "||"
+    \time 4/2 \tempoB-IVOsanna \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*11 %40
+    r1 \pa r4 g2\fE g4
+    a f a h c4. h8 a4 g
+    a2 g4 f g1~
+    g r \pd
+    r r2 g %45
+    fis g1 \hA fis2
+    g1 r
+    R\breve*3 %50
+    \pa g1. e2
+    a1 g2 c~
+    c h4 a h1
+    c \pd r
+    R\breve*3 %57
+    \pa e,1 a
+    g2 g1 c2 \pd
+    h1 r2 g %60
+    \pa a4 f a h c2. h8 a \pd
+    g2. f8 e d2 e4. f8
+    g1. g2
+    g1\trill g\fermata \bar "|." %64 finis
+  }
+}
+
+B-IVAgnusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-IVAgnus
+    g''4.\fE g8 a4. g16 f
+    g4. g8 f2
+    e4 r r2
+    R1*2 %5
+    r2 r8 g16. g32 g8 g
+    g4 r r2
+    R1*9 \noBreak %16
+    R1\fermata \bar "||"
+    \tempoB-IVDona r4 \pa e2\fE a8 g16 a \noBreak
+    f8 e16 f d2 g8 f16 g
+    e8 d16 e c4 c4. d16 e %20
+    f8 g a h c4 r \pd
+    R1*10 %31
+    \pa r4 a4. g8 f g16 a
+    d,4 g4. f8 e f16 g
+    c,8 c f4 d8 d g4
+    e8 e a4 g r \pd %35
+    R1*11 %46
+    r2 r4 \pa e
+    e a4. g8 f a
+    d,4 g4. f8 e g
+    c,4 f16 e f8 d d g16 f g8 %50
+    e a4 f8 d g4 e16 f
+    g2~ g4. g8
+    g2 g4 r
+    r8 c, e g \once \tieDashed c2~
+    c8 h16 a \pd h4 c r\fermata \bar "|." %55 finis
+  }
+}
