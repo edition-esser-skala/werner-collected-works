@@ -95,7 +95,7 @@ N-IIViolinoII = {
     d8 h, d'
     cis16[( e]) \tuplet 3/2 8 { e d e e d e } \sbOff
     fis8 d r
-    r16 e, \noBeam \tuplet 3/2 8 { \sbTOn e d e e d e } \sbOff
+    r16 e, \brkBeam \tuplet 3/2 8 { \sbTOn e d e e d e } \sbOff
     fis8 d r %90
     a32( a') gis( a) a,[( a') \hA gis( a)] a,( a') \hA gis( a)
     a,( a') gis( a) a,[( a') \hA gis( a)] a,( a') \hA gis( a)

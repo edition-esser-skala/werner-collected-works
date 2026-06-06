@@ -329,7 +329,7 @@ H-I-XIVcOrgano = {
     d8 a fis d g4. h8
     e, a d,!4 a'8 a h cis
     d8. cis16 h8 fis g a h g
-    a2 d,8 \noBeam \clef bass d << {
+    a2 d,8 \brkBeam \clef bass d << {
       r8 a'
       cis4 h16 a h cis
     } \\ {
@@ -446,7 +446,7 @@ H-I-XIVdOrgano = {
     d a' f cis d b' g a %40
     d, d-! << { r d'~ d c! b4 } \\ { f4 e8 a4 g8 } >>
     f d a \clef treble << { c'' b4 a8 } \\ { a~ a g4 } >> \clef "treble_8" f,8
-    c' \noBeam \clef bass c, g'4. f8 e4
+    c' \brkBeam \clef bass c, g'4. f8 e4
     d8. c!16 b4 a g
     d'8 d'4 c!8 b4 a %45
     g f e! d8. c!16

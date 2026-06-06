@@ -54,7 +54,7 @@ Q-SIaCello = {
     d fis' e fis d fis a, fis'
     d, fis' e fis d fis a, fis'
     d, fis' e d cis h a g %50
-    fis8 \noBeam \clef "treble_8" a' a4\trill
+    fis8 \brkBeam \clef "treble_8" a' a4\trill
     h16 g32( a) h16 a g fis e fis
     g e32( fis) g16 fis e d cis d
     << { \appoggiatura d8 cis4 } \\ { a } >> \clef bass r8 a
@@ -64,7 +64,7 @@ Q-SIaCello = {
     d fis' e fis d fis a, fis'
     d, fis' e fis d fis a, fis'
     d, fis' e d cis h a g %60
-    fis8 \noBeam \clef "treble_8" a' a4\trill
+    fis8 \brkBeam \clef "treble_8" a' a4\trill
     b16 g32( a) \hA b16 a g f e \hA f
     g e32( f) g16 \hA f e d cis d
     << { \appoggiatura d8 cis4 } \\ { a } >> r

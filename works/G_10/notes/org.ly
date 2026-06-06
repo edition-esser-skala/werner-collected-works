@@ -35,11 +35,11 @@ G-XOrgano = {
     fis g8 d b g
     e'4 c f4. es8
     d4. d8 g g, g' f!
-    e! a e4 \tempoG-Xc  << { a,8^\org \noBeam } \\ { a4*1/2_\vlne } >> \clef treble << { a''16 h cis d e8 a, } \\ { \mvTr a4\fE-\tutti g8 f } >> %30
+    e! a e4 \tempoG-Xc  << { a,8^\org \brkBeam } \\ { a4*1/2_\vlne } >> \clef treble << { a''16 h cis d e8 a, } \\ { \mvTr a4\fE-\tutti g8 f } >> %30
     \clef "treble_8" d4 c!8 b \clef bass g4 f8
-    e f c4 << { f,8^\org \noBeam } \\ { f4*1/2_\vlne } >> \clef treble << { a''16 h cis d e8 a, } \\ { a4 g8 f } >>
+    e f c4 << { f,8^\org \brkBeam } \\ { f4*1/2_\vlne } >> \clef treble << { a''16 h cis d e8 a, } \\ { a4 g8 f } >>
     \clef "treble_8" d4 c!8 b \clef bass g4 f8
-    e f c4 << { f,8^\org \noBeam } \\ { f4*1/2_\vlne } >> \clef treble << { a''16 h cis d e8 a, } \\ { a4 g8 f } >>
+    e f c4 << { f,8^\org \brkBeam } \\ { f4*1/2_\vlne } >> \clef treble << { a''16 h cis d e8 a, } \\ { a4 g8 f } >>
     \clef "treble_8" d4 c!8 b \clef bass g4 f8 %35
     e f c4 f r8 d~
     d b f' f, r4 r8 f'

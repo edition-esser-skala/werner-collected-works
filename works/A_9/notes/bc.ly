@@ -1916,7 +1916,7 @@ A-IXChorusContinuo = {
     a! a d2 cis4
     d c4. c8 b b
     a2 b
-    r4 d g g,8 \noBeam \clef "treble_8" g'
+    r4 d g g,8 \brkBeam \clef "treble_8" g'
     a2. a4 %15
     \clef bass d,2 es!4. es8
     f4 b f2

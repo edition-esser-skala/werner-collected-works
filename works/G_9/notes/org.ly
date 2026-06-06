@@ -11,7 +11,7 @@ G-IXOrgano = {
     r4 r8 d g4 e8 g %5
     a fis cis d a d a4
     d8 e c d h c16 d e8 fis
-    g e d e c4 h8 \noBeam \clef "treble_8" h'~^\aTre
+    g e d e c4 h8 \brkBeam \clef "treble_8" h'~^\aTre
     h e, a h c a fis! g
     d e d d' h c a e %10
     fis g d4 \clef bass \mvTr g4.\fE-\tutti h8

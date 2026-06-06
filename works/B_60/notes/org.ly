@@ -150,7 +150,7 @@ B-LXGloriaOrgano = {
     \mvTr a'4\pE-\solo gis fis e
     d8. cis16 h8 a e'4 r
     \clef "treble_8" e'^\aTre r e e,
-    a8 fis16 d e4 a8 \noBeam \clef bass \mvTr fis\fE-\tutti cis4
+    a8 fis16 d e4 a8 \brkBeam \clef bass \mvTr fis\fE-\tutti cis4
     fis, r d8 d' a a %5
     d,4 r h'8 h' fis fis,
     h h' fis g d4 cis8 d

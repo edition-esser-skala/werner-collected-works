@@ -115,7 +115,7 @@ B-XXIXGloriaOrgano = {
     e fis h, h' g a!
     d, d' cis d a a
     \clef "treble_8" \mvTr fis'\pE-\aTre e dis e c a
-    h e h4 e,8 \noBeam \clef bass \mvTr e\fE-\tutti
+    h e h4 e,8 \brkBeam \clef bass \mvTr e\fE-\tutti
     cis d! a a' fis d %30
     g e cis d a a'
     fis h g e cis a

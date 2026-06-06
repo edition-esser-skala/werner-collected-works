@@ -95,10 +95,10 @@ D-I-I-Organo = {
     g8 r h, r r \tuplet 3/2 8 { g16 a h }
     c4 a r8 \tuplet 3/2 8 { a16 h c }
     d4 r r
-    r8 g \noBeam fis r g r %90
+    r8 g \brkBeam fis r g r %90
     d[ g] fis r g r
     d r r4 r
-    r8 e \noBeam c r d r
+    r8 e \brkBeam c r d r
     g,[ e']-\conPedale c r d r
     g,4 r r\fermata \bar "|." %95 finis
   }

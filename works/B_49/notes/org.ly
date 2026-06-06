@@ -10,7 +10,7 @@ B-XLIXKyrieOrgano = {
     a' a, r4 r8 d16\f e f4
     r8 g16 a b4 r8 c,!16 d e4 %5
     r8 f16 g a4 \clef "treble_8" r8 e' f e16 d
-    e8 c r f, c' \noBeam \clef bass e, f e16 d
+    e8 c r f, c' \brkBeam \clef bass e, f e16 d
     e8 c r c a' g f4
     e8 a d, g c, \clef "treble_8" g'[ e' d]
     c4 h \clef bass a4. d,8 %10
@@ -147,7 +147,7 @@ B-XLIXGloriaOrgano = {
     g,8 b' a f g, g' a g16 f
     b2 a %25
     g4~ g16 f e d cis8 d a4
-    d8 \noBeam \clef "treble_8" \mvTr f'\fE-\tutti e4 r8 d \clef bass a4
+    d8 \brkBeam \clef "treble_8" \mvTr f'\fE-\tutti e4 r8 d \clef bass a4
     a8 gis c4 h r8 a
     a g f4 e r8 d
     d c! b!4 a g %30

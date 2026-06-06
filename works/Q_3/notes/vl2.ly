@@ -55,7 +55,7 @@ Q-IIIaViolinoII = {
     dis gis,16\p ais his cis dis8 r4 %55
     r8 gis, gis'4 r
     R2.
-    r8 gis\fE \noBeam eis cis4 gis'8
+    r8 gis\fE \brkBeam eis cis4 gis'8
     a[ cis, fis, a'] a8.\trill gis32 a
     h8[ e,! gis, h'] h8.\trillE a32 h %60
     cis8[ e,] a, cis'4 e,8~

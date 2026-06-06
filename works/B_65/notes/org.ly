@@ -229,8 +229,8 @@ B-LXVCredoOrgano = {
     g g' es d c b a \hA b %55
     f'4 d8 g f d es f
     g4. f8 es d d c
-    d \noBeam \clef "treble_8" d'^\aTreE g,4 c8 c, f4~
-    f8 d d' c b4 a8 \noBeam \clef bass \once \tieDashed \mvTr a~\fE-\tutti
+    d \brkBeam \clef "treble_8" d'^\aTreE g,4 c8 c, f4~
+    f8 d d' c b4 a8 \brkBeam \clef bass \once \tieDashed \mvTr a~\fE-\tutti
     a a f d16 e f g f g a4~ %60
     a8 a g e f4 e8 a16 g
     f4 d \clef "treble" << {

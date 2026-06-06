@@ -94,9 +94,9 @@ N-IIViolinoI = {
     d16([ fis)] \tuplet 3/2 8 { \sbTOn fis\trill e fis fis\trill e fis %85
     gis\trill fis \hA gis gis\trill fis \hA gis gis\trill fis \hA gis } \sbOff
     a8 a, r
-    r16 gis' \noBeam \tuplet 3/2 8 { \sbTOn gis\trill fis \hA gis gis\trill fis \hA gis \sbOff }
+    r16 gis' \brkBeam \tuplet 3/2 8 { \sbTOn gis\trill fis \hA gis gis\trill fis \hA gis \sbOff }
     a8 a, r
-    r16 gis \noBeam \tuplet 3/2 8 { \sbTOn gis\trill fis \hA gis gis\trill fis \hA gis \sbOff } %90
+    r16 gis \brkBeam \tuplet 3/2 8 { \sbTOn gis\trill fis \hA gis gis\trill fis \hA gis \sbOff } %90
     a32( a') gis( a) a,[( a') \hA gis( a)] a,( a') \hA gis( a)
     a,( a') gis( a) a,[( a') \hA gis( a)] a,( a') \hA gis( a)
     a,( a') gis( a) a,[( a') \hA gis( a)] a,( a') \hA gis( a)

@@ -113,7 +113,7 @@ B-LXVIIIGloriaTenore = {
     R1.\fermata \bar "||"
     \time 4/2 \tempoB-LXVIIIQuiTollis \newSpacingSection
       \set Staff.timeSignatureFraction = 2/2
-      r1 c^\tutti \noBeam
+      r1 c^\tutti \brkBeam
     a2( d) h1 %40
     r r2 fis
     g e a1

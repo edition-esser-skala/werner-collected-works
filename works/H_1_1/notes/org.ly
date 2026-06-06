@@ -671,7 +671,7 @@ H-I-IfOrgano = {
     g4. fis8 g16 f e d c h a gis %20
     a8 d e e, a a' gis e
     a a, h g! c \clef "treble_8" c'16[^\aTre h] a8 a
-    d8. c16 h8 h e c16 a h8 \noBeam \clef bass h,
+    d8. c16 h8 h e c16 a h8 \brkBeam \clef bass h,
     e g dis h e g fis d
     g fis e d c h a a'16 g %25
     fis8 g16 c, d8 d, g a h c

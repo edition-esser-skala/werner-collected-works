@@ -27,7 +27,7 @@ I-V-VII-Organo = {
     \time 4/4 \tempoI-V-VIIb \newSpacingSection
       h' \clef "treble" << { \mvTr h''8\fE_\tutti h c4 h8 e } \\ { r h e, a~ a g } >> \noBreak %20
     \clef bass h,4 e,8 a4 g8 fis4
-    << { e4*1/2^\vlne } \\ { e8_\org \noBeam } >> \clef treble << { e' g4 fis8 h } \\ { e, h e~ e[ d!] } >> \clef bass fis,4
+    << { e4*1/2^\vlne } \\ { e8_\org \brkBeam } >> \clef treble << { e' g4 fis8 h } \\ { e, h e~ e[ d!] } >> \clef bass fis,4
     g fis8 h4 a8 g4
     fis8 h e,4 d8 \clef "treble_8" a'[ h g]
     a \clef bass d,[ e cis] << { d4*1/2^\vlne } \\ { d8_\org } >> \clef treble << { fis'' e d cis } \\ { a g fis e } >> %25

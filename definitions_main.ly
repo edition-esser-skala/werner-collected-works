@@ -23,6 +23,8 @@ markOsannaUtSupra = {
   \mark \markup \remark "Osanna ut supra"
 }
 
+brkBeam = #(make-music 'BeamForbidEvent)
+
 extendLV = #(define-music-function
   (parser location further)
   (number?)

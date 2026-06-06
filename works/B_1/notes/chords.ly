@@ -329,10 +329,10 @@ B-IGloriaChords = {
     e d c d e f g a f g a b g a b c %105
     a8.\trill b32 a g16( f) \once \slurDashed e( f) e4 \voiceOne \tiny <e, a>
     <d f>2 <c g'>4 b'
-    a8 \noBeam \oneVoice \normalsize c f4.\trill e16 d e4~\trill
+    a8 \brkBeam \oneVoice \normalsize c f4.\trill e16 d e4~\trill
     e8 d16 c d4.\trillE c16 h c4
     \voiceOne \tiny <f, a>4 <e g> <a, f'> <d g> %110
-    <e g> <e a>8 <g c> <a c> <f c'> <g c> \noBeam \oneVoice \normalsize d'
+    <e g> <e a>8 <g c> <a c> <f c'> <g c> \brkBeam \oneVoice \normalsize d'
     e16 f g a d, e f g e f g a d, e f g \noBreak
     \tuplet 3/2 8 { \sbOn e f g a g f \sbOff } \appoggiatura e8 d8.\trill c16 c4 r\fermata \bar "||"
     \tempoB-ICumSancto R1*4 %117
@@ -880,8 +880,8 @@ B-ISanctusChords = {
     c4 \voiceOne \tiny d8 h <e, a>4 <e c'> %20
     <a d> d8 h \oneVoice \normalsize r16 c e f g4~
     \sbOn \tuplet 3/2 8 { g16 a g } fis e \sbOff \hA fis4\trill g \voiceOne \tiny h,8 c
-    <fis, c'> <g h> <g a> \noBeam \oneVoice \normalsize d' d16 e d e \tuplet 3/2 8 { \sbOn d e fis fis g a \sbOff }
-    h8 g \voiceOne \tiny <g, h>4 <g c>8 \noBeam \oneVoice \normalsize c \tuplet 3/2 8 { \sbOn c16 d e e f g \sbOff }
+    <fis, c'> <g h> <g a> \brkBeam \oneVoice \normalsize d' d16 e d e \tuplet 3/2 8 { \sbOn d e fis fis g a \sbOff }
+    h8 g \voiceOne \tiny <g, h>4 <g c>8 \brkBeam \oneVoice \normalsize c \tuplet 3/2 8 { \sbOn c16 d e e f g \sbOff }
     a8 d, \tuplet 3/2 8 { \sbOn d16 e f f g a } h8 e, \tuplet 3/2 8 { e16 f g g a h \sbOff } %25
     c c h a g\trill f e\trill d e8 r \tuplet 3/2 8 { \sbOn c16 d e e f g \sbOff }
     a8.\trill g32 f e8 d c16 d e f g a h c
@@ -1087,7 +1087,7 @@ B-IAgnusChords = {
     e4 d8 e g4 d
     g f2. %10
     e2 a4 g
-    fis2 g8 \noBeam e d4
+    fis2 g8 \brkBeam e d4
     e2 d4 <e g>
     e <f a> g a
     d,2 g4 f! %15

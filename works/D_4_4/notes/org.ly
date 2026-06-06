@@ -17,7 +17,7 @@ D-IV-IVOrgano = {
     b8 f d b f' c a f %5
     c' \clef treble << { c''[ g a] b8. c16 d8 c16 b a8 } \\ { s4. r8 g d e
     f } >> \clef "treble_8" d[ a b] c a d4
-    c8 \noBeam \clef bass c, << { s8 f g16 a b8~ b } \\ { d,16-! e-! f8~ f e f16 g f e } >>
+    c8 \brkBeam \clef bass c, << { s8 f g16 a b8~ b } \\ { d,16-! e-! f8~ f e f16 g f e } >>
     d4 c8 g' f f g16 a b8~
     b a g4 f4. e16 f %10
     g8 g, c4 r8 f d16 es d c

@@ -71,7 +71,7 @@ B-VIIIGloriaOrgano = {
     fis8 h, cis4 \mvTr fis,8\fE-\tutti fis' gis e
     a e cis a e' e, r4
     a'8 a, fis fis' dis e h4
-    e,8 \noBeam \clef "treble_8" \mvTr e'\pE-\soloE-\aTre gis h e e, r h' %10
+    e,8 \brkBeam \clef "treble_8" \mvTr e'\pE-\soloE-\aTre gis h e e, r h' %10
     e, e' cis h fis4 fis'8 e
     dis dis e e dis dis cis cis
     h gis e fis \clef bass h, \mvTr h'\fE-\tutti gis cis
@@ -92,7 +92,7 @@ B-VIIIGloriaOrgano = {
     fis h, r h cis2
     h4 r8 h' gis16 e cis'8 a16 fis h8
     e, cis16 a fis'8 dis16 h gis' fis e dis cis4 %30
-    h8 \noBeam \clef "treble_8" gis'' e16 cis fis8 h, \clef treble << {
+    h8 \brkBeam \clef "treble_8" gis'' e16 cis fis8 h, \clef treble << {
       gis'' e16 cis fis8
       dis16 h e8~ e
     } \\ {
@@ -165,7 +165,7 @@ B-VIIICredoOrgano = {
     cis8 fis cis2 fis, r4
     a' e fis cis r8 cis d d
     a4 r8 fis' h4 gis e h
-    e \clef "treble_8" e' cis8 \noBeam \clef bass a fis4 d r8 gis
+    e \clef "treble_8" e' cis8 \brkBeam \clef bass a fis4 d r8 gis
     e4 cis r8 fis d4 h e \noBreak %20
     cis8 a e2 a r4\fermata \bar "||"
     \time 4/4 \tempoB-VIIIEtIncarnatus \newSpacingSection
@@ -285,7 +285,7 @@ B-VIIISanctusOrgano = {
       h,8 e4 cis8 a fis'4 %9
       dis8[ h gis']
     } >> \clef "treble_8" gis, cis4 a8 fis %10
-    h \noBeam \clef bass h, e4 cis8 a fis'4
+    h \brkBeam \clef bass h, e4 cis8 a fis'4
     dis8 h gis'4 e8 dis cis4
     h r8 e a16 gis fis e dis8 gis~
     gis16 fis e dis cis8 a h e h4

@@ -45,7 +45,7 @@ D-II-IIICembalo = {
       d8 cis %23
       d4 d4. e16 d c8 h
       c4
-    } >> \clef "treble_8" c4. d16 c b8 \noBeam \clef bass f~ %25
+    } >> \clef "treble_8" c4. d16 c b8 \brkBeam \clef bass f~ %25
     f g16 f e8 d e4 c
     f4. f,8 b2
     e a,

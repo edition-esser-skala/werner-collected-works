@@ -60,7 +60,7 @@ I-II-VOrgano = {
       e, fis g4
     } >> \clef "treble_8" g, \clef bass c,~
     c8 a e'4 d8 g4 f8
-    e8. d16 c h a8 d4 << { a4*1/2^\vlne } \\ { a8_\org \noBeam } >> \clef treble << {
+    e8. d16 c h a8 d4 << { a4*1/2^\vlne } \\ { a8_\org \brkBeam } >> \clef treble << {
       c'' %43
       h e a, h c g f4~
       f8

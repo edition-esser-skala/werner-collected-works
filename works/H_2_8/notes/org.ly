@@ -44,7 +44,7 @@ H-II-IXOrgano = {
       g8 a4
       f8 g4 e8 c f4
     } >> \clef "treble_8" c8 %35
-    d \noBeam \clef bass f, g4 e8 e f4
+    d \brkBeam \clef bass f, g4 e8 e f4
     d a d4. c!8
     f2 r8 es es es
     d4 es8 cis d4 d,

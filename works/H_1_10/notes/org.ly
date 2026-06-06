@@ -1262,7 +1262,7 @@ H-I-XBeatiOrgano = {
     } \\ {
       e,8 %34
       fis gis a16 e a4
-    } >> \clef "treble_8" e8 c \noBeam \clef bass a %35
+    } >> \clef "treble_8" e8 c \brkBeam \clef bass a %35
     g! e fis gis a f e a
     e4 e, a r\fermata \bar "|." %37 finis
   }

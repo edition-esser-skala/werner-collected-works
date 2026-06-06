@@ -641,7 +641,7 @@ B-XXXVCumSanctoOrgano = {
     d~ d8.\trill c32 d e8.\trill d32 c h8 g
     c4 e f d
     e8 c f g e16 c c'8 h a
-    g \noBeam \clef "treble_8" e'~ e16 d c h a8 a~ a16 g fis e
+    g \brkBeam \clef "treble_8" e'~ e16 d c h a8 a~ a16 g fis e
     d8 d'~ d16 c h a g8 g~ g16 f e d %180
     c8 c'~ c16 h a g fis8 g4 \hA fis8
     g2 a

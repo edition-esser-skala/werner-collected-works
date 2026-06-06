@@ -204,8 +204,8 @@ B-LXIIGloriaOrgano = {
     g, g'16 fis e8 a d,4 d8 c
     h4 h'8 a g4 g8 fis
     e fis g c, d2
-    g,8 g' g fis16 g e8 \noBeam \clef "treble_8" h' h a16 h
-    g8 \noBeam \clef bass g g fis16 g e8 a, e'4 %10
+    g,8 g' g fis16 g e8 \brkBeam \clef "treble_8" h' h a16 h
+    g8 \brkBeam \clef bass g g fis16 g e8 a, e'4 %10
     ais h r8 e, g a?
     h4 h, e2
     c8. c16 c4 d g,

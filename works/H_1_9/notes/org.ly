@@ -47,10 +47,10 @@ H-I-IX-aOrgano = {
     f, f a a d,4. d'8
     b g e f c c'4 f,8
     e e f a b d c4
-    f,8 \noBeam \clef bass f~-\tutti f16 e g8~ g16 f a8~ a16 g b g
+    f,8 \brkBeam \clef bass f~-\tutti f16 e g8~ g16 f a8~ a16 g b g
     e8 f4 e8 f16 g f e d4 %45
-    c8 \noBeam \clef "treble_8" e'~ e16 d f d h!8 c4 b8~
-    b \noBeam \clef bass f~ f16 e g8~ g16 f a8~ a g16 f
+    c8 \brkBeam \clef "treble_8" e'~ e16 d f d h!8 c4 b8~
+    b \brkBeam \clef bass f~ f16 e g8~ g16 f a8~ a g16 f
     e8 f~ f e16 d cis8 d a4
     d8 d' a a, d \clef treble << {
       a''~ a16 gis h8~

@@ -124,7 +124,7 @@ B-LIIGloriaOrgano = {
     \mvTr f,4\fE-\tutti d h8 c g4
     c8 \clef treble << { r r a'' g c f b,~ b } \\ { c,8 d16 e f4 e8 d4 c8 } >>
     \clef "treble_8" f, g16 a b4 a8 g4
-    f8 \noBeam \clef bass c d16 e f4 e8 d4
+    f8 \brkBeam \clef bass c d16 e f4 e8 d4
     c8 f b, e a, d g, c %45
     f, f'16 e d4 c r8 f
     e g c es, es d b' d,

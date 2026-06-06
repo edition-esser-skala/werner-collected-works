@@ -35,7 +35,7 @@ B-LIKyrieOrgano = {
       r8 r d
       d d g g16 f e8 e f f16 es %20
       d8
-    } >> \clef "treble_8" f, f f b \noBeam \clef bass b, es es16 d
+    } >> \clef "treble_8" f, f f b \brkBeam \clef bass b, es es16 d
     c8 c f f16 es d8 d g g16 f
     es8 f g a b4 r8 b,
     es es16 d c8 c f f16 es d8 d

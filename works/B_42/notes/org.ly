@@ -130,7 +130,7 @@ B-XLIIGloriaOrgano = {
       e a d, g~ g[ fis]
     } >> e4
     d \clef treble << { d''8 c h[ e cis] } \\ { e,8 a4 g } >> \clef "treble_8" d,8
-    a' \breakBeam \clef bass a, d4. c!8 h e %45
+    a' \brkBeam \clef bass a, d4. c!8 h e %45
     a,4 g \clef treble << {
       a''8 d4 c8
       h
@@ -279,7 +279,7 @@ B-XLIICredoOrgano = {
     d4 \clef "treble_8" r8 e'4 c d8~ %55
     d h4 c a h8
     g e h'4 e,8 \clef bass c[ g' g,]
-    c a e' e, a \breakBeam \clef "treble_8" a'~ a16 g! a h
+    c a e' e, a \brkBeam \clef "treble_8" a'~ a16 g! a h
     c8 \clef bass c,[ g' d] g,2
     \clef treble \mvTr e''8\pE-\solo e e e f f f f %60
     dis dis dis dis e e c a
@@ -310,7 +310,7 @@ B-XLIICredoOrgano = {
       e a d, g~ g[ fis]
     } >> e4
     d \clef treble << { d''8 c h[ e cis] } \\ { e,8 a4 g } >> \clef "treble_8" d,8
-    a' \breakBeam \clef bass a, d4. c!8 h e
+    a' \brkBeam \clef bass a, d4. c!8 h e
     a,4 g \clef treble << {
       a''8 d4 c8 %85
       h

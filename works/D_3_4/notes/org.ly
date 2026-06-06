@@ -560,7 +560,7 @@ D-III-IV-dOrgano = {
     } >> \clef "treble_8" d e
     d8 g, c!4 \clef bass g h
     a8 d, g4 fis g~
-    g8 fis e4 d8 \noBeam \clef "treble_8" a' h4 %5
+    g8 fis e4 d8 \brkBeam \clef "treble_8" a' h4 %5
     a8 d, g4 \clef bass d e
     d8 g, c!4 h c~
     c8 h a4 g8 g'4 h8
@@ -572,7 +572,7 @@ D-III-IV-dOrgano = {
       d c! h e d8. c16 h8
     } >> \clef bass g~ %10
     g a g f e a d,4
-    c8 \clef "treble_8" c'4 h8 a4 g8 \noBeam \clef bass e
+    c8 \clef "treble_8" c'4 h8 a4 g8 \brkBeam \clef bass e
     a, d4 c8 h4 a
     g8 h e fis g4. fis8
     g4 \clef treble << { c'4~ c8[ h a] } \\ { e8 e fis g4 } >> \clef bass d,8 %15

@@ -642,11 +642,11 @@ B-XLVIIIAgnusOrgano = {
     a4 a, r8 a' gis fis
     e d cis h a h' a g
     fis e d c h fis' g e %35
-    c a d d, g \noBeam \clef treble g' a h16 c
-    d4. e16 fis g8 \noBeam \clef bass g, fis e
+    c a d d, g \brkBeam \clef treble g' a h16 c
+    d4. e16 fis g8 \brkBeam \clef bass g, fis e
     d c h a << { g' fis e d } \\ { g, s4. } >>
     cis8 h a g fis h g a
-    d, \noBeam \clef "treble_8" d' e fis16 g a8 h cis4 %40
+    d, \brkBeam \clef "treble_8" d' e fis16 g a8 h cis4 %40
     d8 \clef bass d[ cis h] a g fis e
     d cis h a << { g' fis e d } \\ { g, s4. } >>
     cis8 d a4 d8 fis g a

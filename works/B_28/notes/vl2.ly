@@ -276,7 +276,7 @@ B-XXVIIIAgnusViolinoII = {
     g d4 e8 f16( e) \hA f8 r4
     r8 h e e, c'4 r8 e~ %10
     e d16 c h c d8~ d c16 d e8 d
-    cis4 d4. \hA cis16 h \hA cis4 \noBeam
+    cis4 d4. \hA cis16 h \hA cis4 \brkBeam
     d2 r\fermata \bar "||"
     \time 3/2 \tempoB-XXVIIIDona \newSpacingSection
       R1. \noBreak

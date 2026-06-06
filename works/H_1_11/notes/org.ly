@@ -158,7 +158,7 @@ H-I-XIbOrgano = {
     \tempoH-I-XIbb e8 \clef "treble_8" << { e' h'8. a16 g8[ h] a } \\ { r8 r h, e8. d!16 c8 } >> \clef bass e,
     h'8. a16 g8 e a8. g16 fis8 d!
     g16 e d c h8 c d h a4
-    g8 \clef "treble_8" h'16[ g] fis e fis d g fis g e fis8 \noBeam \clef bass h, %35
+    g8 \clef "treble_8" h'16[ g] fis e fis d g fis g e fis8 \brkBeam \clef bass h, %35
     e8. d!16 c8 a d8. c16 h8 g
     c h a16 h c8 h e h4
     e, r r2\fermata \bar "|." %38 finis
@@ -484,7 +484,7 @@ H-I-XIeOrgano = {
     a h c
     h \clef "treble_8" e8 d! c h
     a4 d8. c16 h4 \noBreak
-    e8. d16 c4 d8 \noBeam \clef bass \mvTr d,\fE-\tutti
+    e8. d16 c4 d8 \brkBeam \clef bass \mvTr d,\fE-\tutti
     \time 4/4 \tempoH-I-XIeb e g4 fis8 g4. fis8 %90
     e4 d g d
     r r8 g a c4 h8

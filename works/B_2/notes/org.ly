@@ -137,7 +137,7 @@ B-IIGloriaOrgano = {
     a4 g8 g' c g a e
     f a d, f e a e4
     a, \clef "treble_8" r8 d'4 c8 h a
-    h e a, h c4 d8 \noBeam \clef bass a~
+    h e a, h c4 d8 \brkBeam \clef bass a~
     a g f e f2 %45
     e r8 e4 d8
     cis4 d a \clef "treble_8" r8 << {
@@ -312,7 +312,7 @@ B-IICredoOrgano = {
     f4 d e a, e2
     \time 4/4 \tempoB-IIAmen \newSpacingSection
       a4 \clef "treble_8" r8 d'~ d c h a \noBreak
-    h e a, h c4 d8 \noBeam \clef bass a~ %95
+    h e a, h c4 d8 \brkBeam \clef bass a~ %95
     a g f e f2
     e r8 e4 d8
     cis4 d a \clef "treble_8" << {

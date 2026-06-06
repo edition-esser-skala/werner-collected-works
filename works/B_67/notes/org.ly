@@ -285,9 +285,9 @@ B-LXVIIGloriaOrgano = {
     } \\ {
       r8 g %105
       e[ c]
-    } >> \clef "treble_8" d \noBeam \clef bass g, e c f d
+    } >> \clef "treble_8" d \brkBeam \clef bass g, e c f d
     b e cis a d g a a,
-    d4 \clef treble << { d''8 b g[ c!] } \\ { r8\p g e[ c!] } >> \clef "treble_8" d \noBeam \clef bass g,
+    d4 \clef treble << { d''8 b g[ c!] } \\ { r8\p g e[ c!] } >> \clef "treble_8" d \brkBeam \clef bass g,
     e c f d b e cis a
     d g a a, d4 a\f %110
     d, r r2\fermata \bar "|." %111 finis

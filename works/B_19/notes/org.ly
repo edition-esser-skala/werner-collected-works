@@ -340,7 +340,7 @@ B-XIXCredoOrgano = {
     \time 4/4 \tempoB-XIXCrucifixus \newSpacingSection
       \mvTr d4.-!\fE-\tutti d8-! f4-! gis-! \noBreak
     << { a4. a8 b4 } \\ { a8. g16 f8 e d g16 f e8 a16 g } >>
-    f8 e16 d e4 a,8 \noBeam \clef "treble_8" a' h4
+    f8 e16 d e4 a,8 \brkBeam \clef "treble_8" a' h4
     e, r \clef bass d4. d8 %45
     cis4 b! << {
       a8^\vlne a' h cis

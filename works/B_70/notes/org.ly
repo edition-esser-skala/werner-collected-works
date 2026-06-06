@@ -11,7 +11,7 @@ B-LXXKyrieOrgano = {
     b a16 g fis4 g8 \clef treble g'4 f8 %5
     \clef bass c,4. h8 es4 d
     r8 c4 b8 a4 g8 g'~
-    g f es4 d c8 \breakBeam \clef "treble_8" c'~
+    g f es4 d c8 \brkBeam \clef "treble_8" c'~
     c h es4 \clef bass g,4. fis8
     b4 a r8 g4 f8 %10
     es4 d c b

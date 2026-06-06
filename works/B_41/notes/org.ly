@@ -170,7 +170,7 @@ B-XLIGloriaOrgano = {
     fis16 gis fis e d e fis gis a h a gis fis4
     e8 \clef "treble_8" e'4 d!8 cis d4 cis8
     h e16 d cis8 h a4 r8 a %90
-    d16 e d cis h8 h e16 fis e d cis8 \noBeam \clef bass e,
+    d16 e d cis h8 h e16 fis e d cis8 \brkBeam \clef bass e,
     a16 h a g fis g fis e d cis h a g8 a
     d \clef treble << { r r a'' h cis d h cis } \\ { d, e fis g e fis gis a16[ e] } >>
     \clef "treble_8" a,8[ h] \clef bass e, fis gis a fis

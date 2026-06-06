@@ -143,8 +143,8 @@ B-XLVIGloriaOrgano = {
     a d, a4 d8 \clef "treble_8" \mvTr d'[\pE-\aTre-\soloE fis, g]
     d d' c! h a g fis4
     g4. fis8 e g a c
-    h e, h4 e8 \noBeam \clef bass \mvTr c\fE_\tutti g'4 %35
-    c,8 \noBeam \clef "treble_8" c' c h16 a h8 \noBeam \clef bass g g fis16 e
+    h e, h4 e8 \brkBeam \clef bass \mvTr c\fE_\tutti g'4 %35
+    c,8 \brkBeam \clef "treble_8" c' c h16 a h8 \brkBeam \clef bass g g fis16 e
     fis8 d e fis g c, d4
     g, g'8-\solo e h h'16\pE a g8 e
     h h16 a h8 g c4 r8 cis
@@ -515,7 +515,7 @@ B-XLVISanctusOrgano = {
       c8
     } \\ {
       d,,4 r8 d e d16 e fis8 e16 fis
-      g8 \noBeam d' e d16 e f8 e16 \hA f d8 g
+      g8 \brkBeam d' e d16 e f8 e16 \hA f d8 g
       e
     } >> \clef "treble_8" c[ h a] g \clef bass g[ fis! e]
     d1~

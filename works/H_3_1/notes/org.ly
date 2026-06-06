@@ -55,7 +55,7 @@ H-III-IOrgano = {
     c c, d b c c' b a
     b g c c, f \clef treble << { d'' c8. b16 a8 } \\ { \mvTr b8\fE-\tutti a8. g16 f8 } >> %50
     \clef bass f, e8. d16 c8 c a8. g16
-    f8 \noBeam \clef "treble_8" a' d8. \noBeam \clef bass d,16 g8. e16 a8. f16
+    f8 \brkBeam \clef "treble_8" a' d8. \brkBeam \clef bass d,16 g8. e16 a8. f16
     b8. g16 c8. b16 a8 f4 e8
     f4 r8 e4 f g8 \noBreak
     e f c8. c16 f,4 r\fermata \bar "||" %55
@@ -113,7 +113,7 @@ H-III-IOrgano = {
       \mvTr b4.-!\fE-\tutti b8-! a4.-! f8-!
     g4.-! es8-! f4-! b8-! b-!
     b4-! a-! \clef treble << { a'8[ f] } \\ { f4. f8 } >> %110
-    e \noBeam \clef bass g, c4 r8 f, \once \tieDashed b4~
+    e \brkBeam \clef bass g, c4 r8 f, \once \tieDashed b4~
     b8 a16 g a8 g16 f g2
     \once \tieDashed f~ f4 r8 d
     es!4 r8 c b2

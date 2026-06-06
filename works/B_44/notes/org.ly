@@ -275,7 +275,7 @@ B-XLIVCredoOrgano = {
       d'' cis h a
     } \\ {
        d, e16 fis g e fis8
-    } >> \clef "treble_8" a, h16 cis d h cis8 \noBeam \clef bass d, e16 fis g e
+    } >> \clef "treble_8" a, h16 cis d h cis8 \brkBeam \clef bass d, e16 fis g e
     fis g a fis g a h g a2~-\tastoE-\conPedale %100
     \once \tieDashed a~ a8 d, a4
     d r r2\fermata \bar "|." %102 finis
