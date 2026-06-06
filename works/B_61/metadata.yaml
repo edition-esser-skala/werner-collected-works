@@ -1,0 +1,21 @@
+title: Missa pro quadragesima alla capella
+id: WerW B.61
+genre: mass
+scoring: S, A, T, B (coro), b, org
+ark: 68748/e1gjwb61
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-HE
+    shelfmark: VIII a 6
+    rism: 600090691
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 24 & A   & bar in \B1: e′1–d′2 \\
+    & 34 & org & 1st \halfNote\ in \B1: g4–\crotchetRest \\
+  2 & 68 & org & bar missing in \B1 \\
+  3 & 6  & org & 1st \wholeNote\ in \B1: G1 \\
+  4 & 10 & B   & bar in \B1: e2.–e4 \\
+  5 & 37 & org & 2nd \halfNote\ in \B1: c″4.–c″16–d″16 \\

@@ -1,0 +1,17 @@
+\version "2.24.0"
+
+tempoB-LXIKyrie = \tempoMarkup "Alla capella · Vivace"
+  tempoB-LXIChriste = \tempoTitle "Christe"
+tempoB-LXICredo = \tempoMarkup "Vivace moderato"
+  tempoB-LXIEtIncarnatus = \tempoMarkup "Moderato"
+tempoB-LXISanctus = \tempoMarkup "Allabreve"
+  tempoB-LXIOsanna = \tempoTitleMarkup "Osanna" "[Vivace]"
+tempoB-LXIBenedictus = \tempoMarkup "Vivace"
+tempoB-LXIAgnus = \tempoMarkup "Vivace"
+  tempoB-LXIDona = \tempoMarkup "Vivace"
+
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"
