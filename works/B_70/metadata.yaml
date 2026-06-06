@@ -1,0 +1,22 @@
+title: Missa Fiat pax in virtute tua
+id: WerW B.70
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwb70
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Gk
+    shelfmark: AMC, *W 157
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  2 & 4  & T    & 6th to 8th \eighthNote\ in \B1: 3×a8 \\
+    & 31 & org  & 2nd \eighthNote\ in \B1: c8 \\
+    & 35 & vl 2 & 2nd \eighthNote\ in \B1: f′32–\sharp e′32–d′16;
+                  6th \eighthNote: g′32–f′32–\sharp e′16 \\
+    & 36 & vl 2 & 1st \quarterNote\ in \B1: \semiquaverRest–a′16–g′16–f′16 \\
+  5 & 5  & vl 2 & 1st \quarterNote\ in \B1: \flat b8–a16–\flat b16 \\
+  6 & 5  & A    & 6th \eighthNote\ in \B1: d′8 \\*
+    & 9  & T    & 4th \eighthNote\ in \B1: \flat b8 \\
