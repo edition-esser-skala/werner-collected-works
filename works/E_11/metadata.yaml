@@ -1,0 +1,57 @@
+title: Heut mueß jene Sonne weichen
+id: WerW E.11
+genre: cantilena
+festival: pro Adventu de Immaculata Conceptione
+scoring: T (solo), 2 vl, b, org solo
+ark: 68748/e1gjwe11
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.314
+    rism: 530003645
+    url: https://copia.oszk.hu/kotta/cantilena-pro-adventu-de-immaculata-conceptione/
+    license: public domain
+    principal: true
+toe: |
+  – & – & In \A1, the four stanzas are partially written out in T
+          (i.e., stanzas 1/2 and 3/4).
+          In the instrumental parts, one stanza is written,
+          and repetition is indicated
+          by the directive “Da Capo 3 volte”. \\
+parts:
+  T_solo: Tenore solo
+  org_solo: Organo solo
+lyrics:
+  Heut mueß jene Sonne weichen,\\
+  die daß Rund der Weld beleucht,\\
+  Mond und Sterne mueß erbleichen,\\
+  nichts Mariae ſich vergleicht.\\
+  Goldrubinen, Hyacinthen,\\
+  und waß man khan Edles finden,\\
+  iſt alß eytler Staub geacht\\
+  wan man dißen Schaz betracht.\\[1ex]
+  Wer hat ſich wohl je erkheket,\\
+  daß Er gründlich ßagen khan,\\
+  keine Sünd hab ihn beflekhet,\\
+  Er ſey frey und loß davon.\\
+  Alle Zungen müeßen ſchweigen\\
+  und mit einem Eyd bezeugen,\\
+  nur Maria ſey quitirt,\\
+  daß ſie keine Sünd berührt.\\[1ex]
+  Sie allein khan billich prangen\\
+  gleich der keuſchen Lilienblum,\\
+  weil ſie ohne Sünd empfangen,\\
+  ſo gebührt der größte Ruhm,\\
+  Ihr alleinig unter allen,\\
+  dan ſo hat es Gott gefallen,\\
+  weil Er ſie von Ewigkheit\\
+  ſchon zur Wohnung vorbereith.\\[1ex]
+  So vill Notten, ſo vill Kronen\\
+  wünſchte ich anjez zur Hand,\\
+  dich Mariam zu belohnen\\
+  alß mit einem Ehrenband,\\
+  ſo vill Lobſprüch heut geſchehen\\
+  wünſcht ich auß mein Mund zu gehen,\\
+  dir zu zeig’n mit Lieb und Treu,\\
+  waß ein rechter Dienner ſey.
