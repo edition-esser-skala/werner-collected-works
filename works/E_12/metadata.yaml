@@ -1,0 +1,132 @@
+title: Hier lig ich in der Bahr
+id: WerW E.12
+genre: cantilena
+festival: pro defunctis
+scoring: B (solo), 2 vl, b, org
+ark: 68748/e1gjwe12
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.315
+    rism: 530003647
+    url: https://copia.oszk.hu/kotta/cantinela-pro-defunctis-in-cm/
+    license: public domain
+    principal: true
+toe: |
+  – & – & \B1 contains two parts for B solo. The first part comprises
+          the lyrics “Hier lig ich in der Bahr” (six stanzas, written out).
+          Only these lyrics are reproduced in the scores of this edition.
+          Moreover, a second set of lyrics “Die Uhr iſt gloffen ab”
+          (four stanzas) has been added later. The second part comprises
+          the lyrics “Mein Seel ſteh auf und ſchrey” (seven stanzas). \\
+parts:
+  B_solo: Basso solo
+lyrics:
+  \begin{multicols}{3}\small
+  \textsb{[First part, original lyrics]}\\
+  Hier lig ich in der Bahr,\\
+  die ich vill bange Jahr\\
+  mein Nahmen nach beſtändig\\
+  und alzeit unabwendig\\
+  im Kloſter biß in Tod\\
+  gedient hab meinem Gott.\\[1ex]
+  Ich bin zwar ohne Ruhm\\
+  zum großen Fürſtenthumb\\
+  ein Fürſtentochter gweßen,\\
+  jezt muß ich doch verweßen,\\
+  mein Fürſtenthumb wird ſeyn\\
+  die Krufften ganz allein.\\[1ex]
+  Ganz gern unbeſchwert\\
+  küß ich anjezt die Erd,\\
+  hab zwar mein Herz verlohren,\\
+  weillß durch den Tod erfrohren,\\
+  in meiner Bruſt brint doch\\
+  s’Herz Auguſtini noch.\\[1ex]
+  Fürſt Esterhasiſch Hauß,\\
+  jezt iſts mit mir halt auß,\\
+  weil ich ins Grab gerathen\\
+  danckh ich vor alle Gnaden,\\
+  die ich von ihnen hab\\
+  empfangen bis ins Grab.\\[1ex]
+  Ô liebſte Schweſtern mein,\\
+  laßt mich noch euer ſeyn,\\
+  jezt thue ich Urlaub nehmen,\\
+  muß mich zum Grab bequemen,\\
+  verzeyht mein wan ich ſchon\\
+  euch hab was Leyds gethan.\\[1ex]
+  Khomm ich vor Gottes Thron,\\
+  will betten vor euch ſchon,\\
+  daß er euch allen Seegen\\
+  gantz reichlich woll beylegen,\\
+  hingegen bitte ich\\
+  vergißt auch nit auf mich.\par\columnbreak
+  \textsb{[First part, alternative lyrics]}\\
+  Die Uhr iſt gloffen ab,\\
+  auf mich wart ſchon daß Grab,\\
+  dieweill mein Stund geſchlagen,\\
+  drum heißts jezt fortgetragen\\
+  den Leib, daß er zur Erd\\
+  chriſtlich beſtattet werd.\\[1ex]
+  Die Seel iſt zwar ſchon dorth\\
+  an dem beſtimmbten Orth,\\
+  wo Gott daß Urtheil fehlet\\
+  und mir den Lohn beſtellet,\\
+  wie die Verdienſte mein\\
+  zur Freud oder zur Pein.\\[1ex]
+  Darumb ihr Freunde all\\
+  bett für mich allzumahl,\\
+  daß Gott mir wolle geben\\
+  im Himmel s’ewig Leben,\\
+  allwo der Engel Schaar\\
+  Gott lobet immerdar.\\[1ex]
+  Damit ich dort zugleich\\
+  auch bitten mög vor euch,\\
+  daß ihr allhier vor allen\\
+  lebet nach ſeyn Gefallen,\\
+  auf daß ihr nach den Todt\\
+  ewig lobt euren Gott.\par\columnbreak
+  \textsb{[Second part]}\\
+  Mein Seel ſteh auf und ſchrey,\\
+  was vor ein Tyraney,\\
+  daß ein Menſch ſo vermeßen\\
+  auf ſein Freundt khan vergeßen,\\
+  der ſchon ſo lange Zeit\\
+  in Fegfeur brint und leydt.\\[1ex]
+  Ich bin dein Vatter gweſt,\\
+  und hab aufs allerbeſt\\
+  dich chriſtlich auferzogen,\\
+  zur Frombkeit ſtäts bewogen,\\
+  ſchau alſo liebt ich dich\\
+  und du vergiſt auf mich.\\[1ex]
+  Schon ich dein Mutter bin,\\
+  die ich ſo ſchmerzlich bin,\\
+  hab dich, weil ich dir gwogen,\\
+  mit eigner Bruſt geſogen,\\
+  ſchau alſo liebt ich dich\\
+  und du vergiſt auf mich.\\[1ex]
+  Ô liebſte Gmahlin mein,\\
+  ich hab ja nur allein\\
+  mein ganzes Herz dir geben\\
+  in meinen Ehſtand Leben,\\
+  ſchau alſo liebt ich dich\\
+  und du vergiſt auf mich.\\[1ex]
+  Ich war der Bruder dein\\
+  und due die Schweſter mein,\\
+  ich hab dich zart geliebet,\\
+  und wan dich waß betrübet,\\
+  wars mir ins Hertz ein Stich,\\
+  und jezt vergiſt auf mich.\\[1ex]
+  Dort ſeuffzt ein guter Freundt,\\
+  der geſtern war wie heunt,\\
+  ich thät mich nie verweillen\\
+  mein Herz mit ihm zu theilen,\\
+  dich liebt ich inniglich\\
+  und du vergiſt auf mich.\\[1ex]
+  Ach ſchaut uns Todte an\\
+  wie man uns helffen khan,\\
+  werd obern Kopff ihn ſehen\\
+  mit Blümlein gſchriben ſtehen,\\
+  ach unßer größte Bitt\\
+  iſt nur vergiß mein nit.
+  \end{multicols}
