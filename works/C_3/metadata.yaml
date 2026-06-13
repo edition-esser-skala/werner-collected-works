@@ -1,0 +1,76 @@
+title: Requiem
+subtitle: Contrafactum of two madrigals by Antonio Caldara
+id: WerW C.3
+genre: requiem
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwc3
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.57
+    rism: 530001965
+    url: https://copia.oszk.hu/kotta/requiem-in-g-moll/
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  – & –  & –   & Werner repurposed two madrigals by Antonio Caldara
+                 (no.~1 and~2 in the autograph manuscript D-Dl Mus.2170-G-1)
+                 for several sections of this requiem:
+                 Introitus –
+                   own material;
+                 Kyrie –
+                   Mio Dio, sin dall’eterno
+                   (no.~2, bars 1–21, fol. 7r–v);
+                 Parce mihi Domine –
+                   own material;
+                 Ad te levavi animam (psalm 25/24, first verse) –
+                   Dell’uom la vita è un sogno
+                   (no. 1, bars 1–22, fol. 1r–v);
+                 Neque irrideant me (second verse) –
+                   own material;
+                 Confundantur omnes (third verse) –
+                   Che furno ombre fantasmi
+                   (no. 1, bars 28–48, fol. 2r–3r);
+                 Sanctus –
+                   own material;
+                 Osanna –
+                   Quando egli nasce e ogn’or sogna
+                   (no. 1, bars 57–80, fol. 3r–4r);
+                 Benedictus –
+                   Solo si sreglia allora che morendo
+                   (no. 1, bars 81–86, fol. 4r);
+                 Osanna –
+                   Alla vita immortal egli rinasce
+                   (no. 1, bars 87–130, fol. 4r–6r);
+                 Agnus Dei –
+                   own material;
+                 Cum Sanctis –
+                   Il mio destin nelle mie mani
+                   (no. 2, bars 55–69 and 93–104, fol. 9v–12v). \\
+  2 & 14 & org & treble ottavo clef added by editor \\
+  3 & 25 & org & bar in \A1: G1 \\
+  7 & 31 & org & treble ottavo clef added by editor \\
+    & 38 & T   & last \eighthNote\ in \A1: d8 \\
+    & 50 & org & bar in \A1: G breve \\
+lyrics: |
+  \textsb{Nocturna prima · Lectio prima}\\
+  Parce mihi Domine, nihil enim sunt dies mei.\\
+  Quid est homo? quia magnificas eum\\
+  aut quid apponis erga eum cor tuum
+  visitas eum diluculo et subito probas illum.\\
+  Quare me posuisti contrarium tibi?\\
+  et factus sum mihimetipsi gravis?\\
+  Cur non tollis peccatum meum,\\
+  et quare non aufers iniquitatem meam?\\
+  Ecce nunc in pulvere dormio,\\
+  et si mane me quaesieris non subsistam.\\
+  (\bibleverse{Job}(7:16-21))\\[1ex]
+  \textsb{Nocturna secunda · Psalmus 25/24}\\
+  Ad te Domine levavi animam meam:\\
+  Deus meus in te confido, non erubescam.\\
+  Neque irrideant me inimici mei:\\
+  etenim universi qui sustinent te non confundentur.\\
+  Confundantur omnes iniqua agentes supervacue.\\
+  (\bibleverse{Ps}(25/24:1-3))
