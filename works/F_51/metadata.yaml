@@ -1,0 +1,34 @@
+title: Placare Christe servulis
+id: WerW F.51
+genre: hymn
+festival: in festo omnium sanctorum
+scoring: S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwf51
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.210 (21)
+    rism: 530004312
+    url: https://copia.oszk.hu/kotta/hymni-de-b-virgine-de-apostolis-et-aliis-festis-1mae-classis/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: M 22
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/256.html
+    license: public domain
+lyrics:
+  Placare Christe servulis\\
+  quibus Patris clementiam\\
+  tuae ad tribunal gratiae\\
+  patrona virgo postulat.\\[1ex]
+  Vos purpurati Martyres\\
+  vos candidati praemio\\
+  confessionis exules\\
+  vocate nos in patriam.\\[1ex]
+  Deo Patri sit gloria\\
+  natoque Patris unico\\
+  cum Spiritu paraclito\\
+  in sempiterna saecula.\\[1ex]
+  (Cantus Index a01577)
