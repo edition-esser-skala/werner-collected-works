@@ -1,0 +1,36 @@
+title: Christo profusum sanguine
+id: WerW F.58
+genre: hymn
+festival: de Tempore
+scoring: S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwf58
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.210 (28)
+    rism: 530004318
+    url: https://copia.oszk.hu/kotta/hymni-de-b-virgine-de-apostolis-et-aliis-festis-1mae-classis/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: M 41
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/274.html
+    license: public domain
+toe: |
+  – & – & \B1 contains a single stanza with lyrics “Lucis creator optime.” \\
+lyrics:
+  Christo profusum sanguine\\
+  et martyrum victorias\\
+  dignamque coelo lauream\\
+  laetis sequamur vocibus.\\[1ex]
+  Terrore victo saeculi\\
+  poenisque spretis corporis\\
+  mortis sacrae compendio\\
+  vitam beatam possident.\\[1ex]
+  Te nunc Redemptor quaesumus\\
+  ut martyrum consortio\\
+  jungas precantes servulos\\
+  in sempiterna saecula.\\[1ex]
+  (Cantus Index 008252.2)
