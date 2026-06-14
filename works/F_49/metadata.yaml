@@ -1,0 +1,34 @@
+title: Quicumque Christum quæritis
+id: WerW F.49
+genre: hymn
+festival: in transfiguratione Domini
+scoring: S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwf49
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.210 (19)
+    rism: 530004310
+    url: https://copia.oszk.hu/kotta/hymni-de-b-virgine-de-apostolis-et-aliis-festis-1mae-classis/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-KN
+    shelfmark: 130 (45)
+    rism: 601001044
+    license: public domain
+lyrics:
+  Quicumque Christum quaeritis\\
+  oculos in altum tollite\\
+  illic licebit visere\\
+  signum perennis gloriae.\\[1ex]
+  Hic ille Rex est gentium\\
+  populique Rex Judaici\\
+  promissus Abrahae Patri\\
+  eiusque in aevum semini.\\[1ex]
+  Gloria tibi Domine\\
+  qui apparuisti hodie\\
+  cum Patre et Sancto Spiritu\\
+  in sempiterna saecula.\\[1ex]
+  (Cantus Index a01543.1)
