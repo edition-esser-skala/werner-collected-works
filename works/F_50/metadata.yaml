@@ -1,0 +1,40 @@
+title: Tibi Christe splendor Patris
+id: WerW F.50
+genre: hymn
+festival: de ANgelis et de Sancte Michaele
+scoring: S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwf50
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.210 (20)
+    rism: 530004311
+    url: https://copia.oszk.hu/kotta/hymni-de-b-virgine-de-apostolis-et-aliis-festis-1mae-classis/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-KN
+    shelfmark: 130 (46)
+    rism: 601001045
+    license: public domain
+lyrics:
+  Tibi Christe splendor Patris\\
+  vita virtus cordium\\
+  in conspectu angelorum\\
+  votis voce psallimus\\
+  alternantes concrepando\\
+  melos damus vocibus.\\[1ex]
+  Quo custode procul pelle\\
+  Rex Christe piissime\\
+  omne nefas inimici\\
+  mundos corde et corpore\\
+  paradiso redde tuo\\
+  nos sola clementia.\\[1ex]
+  Gloriam Patri melodis\\
+  personemus vocibus\\
+  gloriam Christo canamus\\
+  gloriam Paraclito\\
+  qui trinus et unus Deus\\
+  extat ante saecula.\\[1ex]
+  (Cantus Index 008403)
