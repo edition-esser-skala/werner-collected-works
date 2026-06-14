@@ -24,6 +24,12 @@ markOsannaUtSupra = {
 }
 
 brkBeam = #(make-music 'BeamForbidEvent)
+mvT = #(define-music-function
+  (parser location offset)
+  (number?)
+  #{
+    \once \override TextScript.X-offset = #offset
+  #})
 
 extendLV = #(define-music-function
   (parser location further)
