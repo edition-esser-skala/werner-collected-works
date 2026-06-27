@@ -1,0 +1,21 @@
+title: Salve Regina
+id: WerW I.4.11
+genre: antiphon
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwi411
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.111
+    date: 1757
+    rism: 530002004
+    url: https://copia.oszk.hu/kotta/salve-regina-5/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: K 31
+    rism: 600038586
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/494.html
+    license: public domain
