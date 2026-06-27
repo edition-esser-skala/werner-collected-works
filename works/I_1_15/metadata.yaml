@@ -1,0 +1,22 @@
+title: Alma Redemptoris mater
+id: WerW I.1.15
+genre: antiphon
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwi115
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.174
+    date: 1763
+    rism: 530002080
+    url: https://copia.oszk.hu/kotta/alma-redemptoris-in-c-2/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: H 15
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/378.html
+    license: public domain
+toe: |
+  88 & T & bar missing in \A1 \\
