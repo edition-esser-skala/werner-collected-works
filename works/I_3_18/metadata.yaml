@@ -1,0 +1,21 @@
+title: Regina cœli
+id: WerW I.3.18
+genre: antiphon
+scoring: B (solo), 2 vl, b, org
+ark: 68748/e1gjwi318
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.206
+    rism: 530002098
+    url: https://copia.oszk.hu/kotta/regina-coeli-in-a-2/
+    license: public domain
+    principal: true
+parts:
+  B_solo: Basso solo
+toe: |
+  51 – & – & tempo indication in vlne part of \B1: “Largo”;
+             in B and org: “Larghetto” \\
+  65 – & – & tempo indication in vlne and B part of \B1: “Largo”;
+             in org part: “Larghetto” \\
