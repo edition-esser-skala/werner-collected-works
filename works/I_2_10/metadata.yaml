@@ -1,0 +1,20 @@
+title: Ave Regina cœlorum
+id: WerW I.2.10
+genre: antiphon
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwi210
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.155
+    date:
+    rism: 530002048
+    url: https://copia.oszk.hu/kotta/ave-regina-in-dm/
+    license: public domain
+    principal: true
+toe: |
+  16  & org & treble ottavo clef added by editor \\
+  96  & org & treble ottavo clef added by editor \\
+  114 & org & treble ottavo clef added by editor \\
+  126 & org & treble ottavo clef added by editor \\
