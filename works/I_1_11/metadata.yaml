@@ -1,0 +1,18 @@
+title: Alma Redemptoris mater
+id: WerW I.1.11
+genre: antiphon
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwi111
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.170
+    date: 1755
+    rism: 530002063
+    url: https://copia.oszk.hu/kotta/alma-redemptoris-in-f-dur/
+    license: public domain
+    principal: true
+toe: |
+  37 & vlne & tempo indication in \A1: “Presto” \\
+  89 & T    & 4th \quarterNote\ in \A1: c′4 \\
