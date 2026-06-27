@@ -1,0 +1,16 @@
+title: Salve Regina
+id: WerW I.4.26
+genre: antiphon
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org (solo)
+ark: 68748/e1gjwi426
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.126
+    rism: 530002019
+    url: https://copia.oszk.hu/kotta/salve-regina-31/
+    license: public domain
+    principal: true
+parts:
+  org_solo: Organo solo
