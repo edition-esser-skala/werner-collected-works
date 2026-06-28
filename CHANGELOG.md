@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026.06.0 – 2026-06-28
+
+### Added
+
+- works: WerW B.42/61, B.70 (unreleased), C.3, E.11–14, F.48–51/58, G.21, H.1.3, I.1.11/15/28, I.2.10, I.3.18, and I.4.11/22/25/26
+- global macros `\brkBeam` and `\mvT`
+- preface: info on elisions in lyrics
+- template for hymns with three stanzas
+
+### Fixed
+
+- WerW I.2.11: WerW number
+
+
 ## 2026.05.0 – 2026-05-30
 
 ### Added
