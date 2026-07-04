@@ -1,0 +1,20 @@
+title: Sub tuum præsidium
+id: WerW I.5.17
+genre: sacred song
+scoring: S, A, T, B (coro), 2 vla, b, org
+ark: 68748/e1gjwi517
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.242
+    rism: 530002118
+    url: https://copia.oszk.hu/kotta/subtuum-in-c/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: L 4
+    rism: 600038619
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/547.html
+    license: public domain
