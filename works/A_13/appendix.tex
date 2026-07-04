@@ -1,0 +1,139 @@
+% latexmk -cd -lualatex works/A_13/appendix.tex
+% latexmk -c -cd works/A_13/appendix.tex
+
+\documentclass{ees}
+
+\newlist{lyricslist}{description}{1}
+\setlist[lyricslist]{
+  partopsep=0pt,
+  labelindent=0em,
+  labelwidth=4.5em,
+  leftmargin=4.5em,
+  labelsep=0pt,
+  first=\ltseries,
+  font=\normalfont\itshape\ltseries,
+  style=multiline
+}
+
+\newenvironment{lyrics}[1]{%
+  \subsection{#1}\nopagebreak%
+  \begin{lyricslist}%
+  \let\voice\item%
+}{%
+  \end{lyricslist}%
+}
+
+\begin{document}
+
+\clearscrheadfoot
+
+\chapter{Lyrics}
+
+\textit{Roles:} Die Barmherzigkeit (S) · Die Gerechtigkeit (T) · Der beklagte Adam (T) · Der Schöpffer aller Dingen (B) · Chorus deren Engeln (STTB)
+
+% \begin{lyrics}{Scena prima}
+%   \voice[]
+
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+\end{document}

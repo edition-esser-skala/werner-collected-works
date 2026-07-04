@@ -1,0 +1,33 @@
+title: Adam
+subtitle: Die wegen dem Fall Adams zu dem zeitlich- als ewigen Untergang trachtend höchſt-erzörnte Gerechtigkeit. Doch endlich auch glücklich beſieget von der auf all erſinnliche Hilffs-Mittel bedachten Barmherzigkeit
+id: WerW A.13
+genre: oratorio
+scoring: S, 3 T, B (solo), S, 2 T, B (coro), ob, 2 vl, vla, bc
+ark: 68748/e1gjwa13
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.8
+    rism: 530001918
+    date: 1749-06-09
+    license: public domain
+    principal: true
+  C1:
+    siglum: A-KN
+    shelfmark: D-I-614a-29
+    date: 1749
+    license: public domain
+tocstyle: default
+toe: |
+  –  & –  & vla  & In \B1, there is no staff for vla in movements .
+                   Here, a vla part has been added
+                   by the editor to these movements.
+                   In arias (no. ), the vla plays in unison
+                   with bc whenever the voice pauses during the first section.
+                   In accompagnatos (no. ), it plays
+                   unison with bc.
+                   In choruses (no. ), it generally plays unison
+                   with T in fugues (), and unison with bc otherwise. \\
+commentary: |
+  \includepdf[pages=-,link=false,pagecommand={}]{../works/A_13/appendix.pdf}
