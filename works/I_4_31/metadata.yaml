@@ -1,0 +1,23 @@
+title: Salve Regina
+id: WerW I.4.31
+genre: antiphon
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwi431
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.131
+    date: 1761
+    rism: 530002024
+    url: https://copia.oszk.hu/kotta/salve-regina-25/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: K 27
+    rism: 600038582
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/489.html
+    license: public domain
+toe: |
+  92 & vl & rhythm of 1st \quarterNote\ in \A1: 16–4×32 \\
