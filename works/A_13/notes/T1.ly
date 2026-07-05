@@ -1,0 +1,13 @@
+\version "2.24.2"
+
+A-XIIIChorusTenoreI = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \minor \time 4/4 \autoBeamOff \tempoA-XIIIChorus
+    
+  }
+}
+
+A-XIIIChorusTenoreILyrics = \lyricmode {
+
+}

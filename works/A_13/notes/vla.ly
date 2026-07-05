@@ -66,3 +66,164 @@ A-XIIIIntroViola = {
     a1\fermata \bar "|." %62 finis
   }
 }
+
+A-XIIIAriaPrimaViola = {
+  \relative c' {
+    \clef alto
+    \key d \minor \time 4/4 \tempoA-XIIIAriaPrima
+    d'8\fE a16 g f8 e d4 r
+    cis a b8 b' f g
+    a4 a, d r
+    r2 f8 c a g-\critnote
+    f4 r c''8\p g e d %5
+    cis4 r d'8\f a f e
+    d4 g a8. g16 f8 e
+    d4. c8 b4 f'8 g
+    a4 a, b'8 a16 g f8 g
+    a4 a, d r %10
+    R1*11 %21
+    r2 f8\f c a g
+    f4 r c''8\p g e d
+    cis4 r d'8\f a f e
+    d4 g a r %25
+    R1*13 %39
+    r2 d,8\fE c b a
+    g4 a d, r\fermataFine
+    R1*25
+    \after 2 \tempoA-XIIIAriaPrimaB R1
+    R\fermata \markAriaDaCapo \bar "||" %67 finis
+  }
+}
+
+A-XIIIAriaSecundaViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key c \major \time 2/4 \tempoA-XIIIAriaSecunda
+    R2*17 %17
+    g8\fE h c d
+    e e, fis d
+    g h c a %20
+    d h16. c32 d8 d,
+    g4 r
+    R2*17 %39
+    c8\fE e f g %40
+    a a, h g
+    c e f d
+    g e16. f32 g8 g,
+    c4\fermataFine r
+    R2*29 %73
+    R2\fermata \markAriaDaCapo \bar "||" %74 finis
+  }
+}
+
+A-XIIIAriaTertiaViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 4/4 \tempoA-XIIIAriaTertia
+    d8\fE fis cis a d e fis d
+    g h a fis cis8. h16 cis8 a
+    d fis e d cis cis' gis e
+    a d, e d cis a h e
+    cis a h cis d fis g! h %5
+    a16. g32 fis16. g32 a8 a, h fis16 g a8 a
+    d,4 r r2
+    R1*7 %14
+    a'8\fE cis' gis e a a, cis a %15
+    h e cis a d4 r
+    R1*5 %21
+    d8\fE d' cis h a g fis e
+    d fis g h a16. g32 fis16. g32 a8 a,
+    h fis16. g32 a8 a d,4\fermataFine r
+    R1*13 %37
+    R1\fermata \markAriaDaCapo \bar "||" %38 finis
+  }
+}
+
+A-XIIIScenaQuartaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XIIIScenaQuarta
+      \set Staff.timeSignatureFraction = 4/4
+    R1*9 %9
+    \time 2/4 \markTimeSig #'(2 4) R2 %10
+    \time 4/4 \markTimeSig #'(4 4)
+      f2^\markup \remark "stendato"^\conSord d
+    g d
+    h! c
+    d es
+    e f %15
+    des c
+    c a!
+    a b
+    d! h
+    h c %20
+    d es
+    as b4 b,
+    es2 r
+    R1*15 %38
+    r2 as,^\markup \remark "stendato"^\conSord
+    d! es %40
+    e cis
+    d c~
+    c cis
+    d4 g a a,
+    b r r2 %45
+    R1*6 %51
+    R1\fermata \bar "|." %52 finis
+  }
+}
+
+A-XIIIAriaQuartaViola = {
+  \relative c' {
+    \clef alto
+    \key c \dorian \time 3/4 \tempoA-XIIIAriaQuarta
+      \once \override Staff.TimeSignature.style = #'single-digit
+    R2.*27 %27
+    c4 e c \markCritnote
+    \stopStaff s2.
+    \startStaff R2.*3
+    R2.\fermata \markAriaDaCapo \bar "||" %33 finis
+  }
+}
+
+A-XIIIScenaQuintaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XIIIScenaQuinta
+    R1*20
+    r2 h!2^\markup \remark "stendato"^\conSord
+    c h!~
+    h b~
+    b1~
+    b2 as %25
+    a b
+    h1
+    c2 d
+    es as~
+    as4 g8 as b4 b, %30
+    es r r2
+    R1*5 %36
+    r2 a,^\markup \remark "stendato"^\conSord
+    a b
+    fis'1
+    fis2 g %40
+    d cis~
+    cis d
+    e f
+    h,! c
+    h a %45
+    dis e
+    a h4 h,
+    e r r2
+    R1*19 %67
+    R1\fermata \bar "|." %68 finis
+  }
+}
+
+A-XIIIChorusViola = {
+  \relative c' {
+    \clef alto
+    \key d \minor \time 4/4 \tempoA-XIIIChorus
+    
+  }
+}
