@@ -405,71 +405,146 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "11" "Chorus deren Engeln"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #19.5
+  %     system-system-spacing.minimum-distance = #19.5
+  %     systems-per-page = #2
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-XIIIChorusViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-XIIIChorusViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \A-XIIIChorusSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \A-XIIIChorusSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T 1"
+  %           \new Voice = "TenoreI" { \dynamicUp \A-XIIIChorusTenoreI }
+  %         }
+  %         \new Lyrics \lyricsto TenoreI \A-XIIIChorusTenoreILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T 2"
+  %           \new Voice = "TenoreII" { \dynamicUp \A-XIIIChorusTenoreII }
+  %         }
+  %         \new Lyrics \lyricsto TenoreII \A-XIIIChorusTenoreIILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \A-XIIIChorusBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \A-XIIIChorusBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "[vla]" "bc" }
+  %           % \transpose c c,
+  %           \A-XIIIChorusContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIIIChorusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 55 } %100
+  %   }
+  % }
+  % \part "secunda" "II" "Pars secunda"
+  % \bookpart {
+  %   \section "12" "Scena sexta"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #21
+  %     system-system-spacing.minimum-distance = #21
+  %     systems-per-page = #5
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "soli"
+  %           \new Voice = "Soli" { \dynamicUp \A-XIIIScenaSextaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-XIIIScenaSextaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \A-XIIIScenaSextaContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIIIScenaSextaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "11" "Chorus deren Engeln"
-    % \addTocEntry
+    \section "13" "Aria quinta"
+    \addTocEntry
     \paper {
-      top-system-spacing.basic-distance = #10
-      top-system-spacing.minimum-distance = #10
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #10
-      markup-system-spacing.minimum-distance = #10
-      system-system-spacing.basic-distance = #19.5
-      system-system-spacing.minimum-distance = #19.5
-      % systems-per-page = #2
+      system-system-spacing.basic-distance = #22
+      system-system-spacing.minimum-distance = #22
+      indent = 2.5\cm
+      systems-per-page = #3
     }
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \A-XIIIChorusViolinoI
+              \A-XIIIAriaQuintaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \A-XIIIChorusViolinoII
+              \A-XIIIAriaQuintaViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \A-XIIIChorusSoprano }
+            \set Staff.instrumentName = "Gerechtigkeit"
+            \new Voice = "Soli" { \dynamicUp \A-XIIIAriaQuintaSoli }
           }
-          \new Lyrics \lyricsto Soprano \A-XIIIChorusSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T 1"
-            \new Voice = "TenoreI" { \dynamicUp \A-XIIIChorusTenoreI }
-          }
-          \new Lyrics \lyricsto TenoreI \A-XIIIChorusTenoreILyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "T 2"
-            \new Voice = "TenoreII" { \dynamicUp \A-XIIIChorusTenoreII }
-          }
-          \new Lyrics \lyricsto Tenore \A-XIIIChorusTenoreIILyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \A-XIIIChorusBasso }
-          }
-          \new Lyrics \lyricsto Basso \A-XIIIChorusBassoLyrics
+          \new Lyrics \lyricsto Soli \A-XIIIAriaQuintaSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "[vla]" "bc" }
             % \transpose c c,
-            \A-XIIIChorusContinuo
+            \A-XIIIAriaQuintaContinuo
           }
         >>
-        \new FiguredBass { \A-XIIIChorusBassFigures }
+        \new FiguredBass { \A-XIIIAriaQuintaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 50 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }

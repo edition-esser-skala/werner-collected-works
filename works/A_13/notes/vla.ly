@@ -224,6 +224,94 @@ A-XIIIChorusViola = {
   \relative c' {
     \clef alto
     \key d \minor \time 4/4 \tempoA-XIIIChorus
-    
+    d4. d8 b4 g8 g'
+    d2 r8 g e! e
+    c c a a r f' d d
+    b b g g a a' f d
+    a'4 a, d8 d d d %5
+    d4 cis d2
+    a'4. a8 a4 gis
+    a2 r8 d, d d
+    b'4 g fis f
+    e dis e2 %10
+    a, \tempoA-XIIIChorusB r \noBreak
+    R1
+    r2 a
+    gis4 h e, c'
+    h4. h8 a4 r8 a %15
+    g! b a g f4 a
+    g16 a b4 a16 g f4 d
+    b'4. b8 e,4 r
+    r a d8 e f4
+    e4. e8 e2 %20
+    R1
+    r2 r4 g,
+    fis a d, b'
+    a4. a8 g4 c
+    b4. b8 a4 d~ %25
+    d cis d2
+    R1*2
+    b2 a4 c
+    f, b a4. a8 %30
+    g4 c b4. b8
+    a2 r4 b
+    a4. a8 b4 c
+    d g, a4. a8
+    d,4 cis d b' %35
+    e, a h cis
+    d d, e2
+    r r4 e
+    f8 g a4 h2
+    e,4 a a2 %40
+    a4 a g d
+    d'1
+    d\fermata \bar "|." %43 finis
+  }
+}
+
+A-XIIIAriaQuintaViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key f \major \time 2/4 \tempoA-XIIIAriaQuinta
+    f8.\fE g16 a8 f
+    e4 a
+    d,8 c16 b a8 b
+    c4 c,
+    f f'~ %5
+    f e
+    d8 c16 h a8 \hA h
+    c4 b'!~
+    b a
+    g8 f16 e d8 e %10
+    f f' a, c
+    d, d' g, b
+    c, c' f, a
+    b,4 b'~
+    b a8 b %15
+    c b c c,
+    f4 r
+    R2*30 %47
+    c4\fE r
+    g' r
+    c, r %50
+    r16 g' f g e f d e
+    c8 a' e f
+    g f g g,
+    c4 r
+    R2*27 %81
+    r4 f\f
+    b, h
+    c cis
+    d d, %85
+    e e'
+    f8 f' a, c
+    d, d' g, b
+    c, c' f, a
+    b,4 b'~ %90
+    b a8 b
+    c b c c,
+    f,4\fermataFine r %133
+    R2*40
+    R2\fermata \markAriaDaCapo \bar "||" %134 finis
   }
 }

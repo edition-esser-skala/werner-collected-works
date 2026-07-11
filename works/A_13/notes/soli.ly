@@ -898,3 +898,253 @@ A-XIIIScenaQuintaSoliLyrics = \lyricmode {
   diß mit Bil -- lig -- keit ge -- ſche -- hen. Ô mei -- ne Gei -- ſter --
   ſchaar helfft mir doch Gott an -- fle -- hen. %67 finis
 }
+
+A-XIIIScenaSextaSoli = {
+  \relative c' {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIIScenaSexta
+    r8^\Schöpffer f, f16 f b f d8 d g16 g b g
+    fis8 fis16 d a' \hA fis d a' b4 r8 \hA b
+    f c es8. es16 d4 r8 f
+    f f as g es es es16 es es f
+    g8 g g16 b a e f8 f f16 f a f %5
+    d8 f e16 gis h d, c8 a' f8. a16
+    a8. e16 e4 \clef "treble_8" r8^\Gerechtigkeit f a16 a a b
+    c8 c16 c e cis a g f8 r16 a a a a b
+    c8 c16 c a a c b g8 g gis16 gis h d,
+    e8 e8*1/2\( \clef treble e'\)^\Barmherzigkeit a16 e g! a f8 f8*1/2\( \clef "treble_8" a,\)^\Adam a16 a a h %10
+    c8. c16 c8 c b b b a
+    f f8*1/2\( \fC a\)^\Gerechtigkeit a16 a d a b8. b16 b4
+    r8 d f16 d cis d d8 a r4
+    R1\fermata \bar "|." %14 finis
+  }
+}
+
+A-XIIIScenaSextaSoliLyrics = \lyricmode {
+  Da -- mit dan al -- le Weld ver -- neh -- me und er --
+  fah -- re, daß ich ohn -- end -- lich grecht, doch
+  auch barm -- her -- zig ſey, ſo
+  iſt es feſt -- ge -- ſtellt ich geb mein ein -- zign
+  Sohn vors menſch -- li -- che Ge -- ſchlecht auf daß nun ſol -- cher %5
+  Gſtald der Schuld -- brief werd be -- zahlt und all der
+  Erb -- ſünd frey. Weill dan der Schluß ge --
+  faſ -- ſet ô höch -- ſte Ma -- jes -- tæt, ſo wur -- de ich ver --
+  haſ -- ſet wan ich daß gring -- ſte thätt dar -- wi -- der pro -- tes --
+  ti -- ren. So will ſichs auch ge -- büh -- ren. Ey bin ich dan von %10
+  mei -- nen Fall nun würckh -- lich frey ge --
+  ſpro -- chen? Diß glau -- be nicht dan dei -- ne Sünd
+  wird zeit -- lich noch ge -- ro -- chen. %13 finis
+}
+
+A-XIIIAriaQuintaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \twofourtime \key f \major \time 2/4 \autoBeamOff \tempoA-XIIIAriaQuinta
+    R2*17 %17
+    f,4. a16([ b)]
+    c8 c,4 d16([ e)]
+    f4 f'~ %20
+    f8 e16([ d)] c8 d
+    b4.\trill b8
+    a4 d~
+    d8 d c4
+    r b~ %25
+    b8 b a4
+    r g
+    e16([ f g8)] f16([ g a8)]
+    b16([ c d8)] c([ b)]
+    a c4 d16([ e)] %30
+    f8([ e)] d([ c)]
+    h16([ a \hA h8)] c([ d)]
+    e32([ d) c8.] c4
+    es4. es8
+    d([ es)] f([ g)] %35
+    as32([ g) f8.] es32([ d) c8.]
+    c4\trill h
+    c8.([ h32 a] g8) f
+    e!16[ f g a] e[ f g a]
+    f[ g a h] f[ g a \hA h] %40
+    g[ a h c] g[ a \hA h c]
+    a[ h c d] a[ \hA h c d]
+    h[ g a \hA h] c[ d e f]
+    g2~
+    g16[ a f g] e[ f d e] %45
+    c8[ a] e([ f)]
+    g4. g8
+    c,4 r
+    R2*6 %54
+    f4. a16([ b!)] %55
+    c8 c,4 d16([ e)]
+    f4 f'~
+    f8 e16([ d)] c8 d
+    b4.\trill b8
+    a4 d~ %60
+    d8 d c16([ b) c8]
+    r4 b~
+    b8 b a16([ g) a8]
+    d c16([ b a8)] gis
+    a cis4 e8 %65
+    f4. f8
+    e([ d)] c!([ b!)]
+    a([ g)] f4
+    r8 d'4 b8
+    g4. g8 %70
+    f16([ e f8)] d' f,
+    f4\trill e
+    f g
+    a16[ b c d] a[ b c d]
+    b[ c d e] b[ c d e] %75
+    c[ d e f] c[ d e f]
+    d[ e f g] d[ e f g]
+    e[ f d e] c[ e d e]
+    f[ g e f] d[ e c d]
+    b8[ a] g([ f)] %80
+    b16([ c d b] c8) c,
+    f4 r
+    R2*10 %92
+    r4\fermataFine a8 h16([ cis)]
+    d8 a~ a16[ g] f([ e)]
+    f32([ e d8.)] a'16([ b!)] c!([ d)] %95
+    \tuplet 3/2 8 { b([ c d)] } c([ b)] a([ g)] f([ es)]
+    d4 b'8 d
+    \tuplet 3/2 8 { g,16([ a b)] b([ c d)] } es8 c16([ b)]
+    a4 c8 d
+    es \tuplet 3/2 8 { es16([ f g)] } \appoggiatura g8 f8.\trill \hA es16 %100
+    d([ c)] d8 d16([ es)] es([ f)]
+    f8 es16([ d)] \tuplet 3/2 8 { g([ f \hA es)] d([ c b)] }
+    b8\trill a b c
+    d \tuplet 3/2 8 { d16([ es f)] } \hA es8 d
+    c16[ es d c] d[ c b a] %105
+    b[ d c b] c[ b a g]
+    a8 c f4~
+    f16[ d] c([ b)] a([ g)] f([ e)]
+    f4 r
+    R2*3 %112
+    g4. c8
+    a a([ b)] c
+    d4 d~ %115
+    d8 c16([ b)] a8 b16([ c)]
+    b8. a16 g4
+    b16([ a] \once \stemUp b4) b8
+    a cis e g,
+    f4 r %120
+    e'4. f,8
+    d' c16([ b)] a8 gis
+    a4 a
+    f' r8 f
+    g16([ f)] e([ d)] c8 b %125
+    a16([ g a g)] f4
+    d'4. g,8
+    c4. f,8
+    b([ c16 d] c8) b
+    a4 c %130
+    f16([ e f8)] r f
+    e([ d)] \tuplet 3/2 { c([ h a)] }
+    c4( h8.)\trill a16
+    a2\fermata \markAriaDaCapo \bar "||" %134 finis
+  }
+}
+
+A-XIIIAriaQuintaSoliLyrics = \lyricmode {
+  Ob -- ſchon %18
+  Gott auß der
+  Noth al -- %20
+  len Men -- ſchen
+  helf -- fen
+  will, iſt __
+  da -- rum,
+  iſt __ %25
+  da -- rum,
+  da --
+  rum doch
+  nicht ſein
+  Zihl daß ſie %30
+  ſich in
+  ih -- ren
+  Le -- ben
+  nur auf
+  Yeb -- big -- %35
+  keit be --
+  ge -- ben
+  ſon -- dern
+  hal -- _
+  _ _ %40
+  _ _
+  _ _
+  _ _
+  _
+  _ %45
+  _ ten
+  ſein Ge --
+  bott.
+
+  Ob -- ſchon %55
+  Gott auß der
+  Noth al --
+  len Men -- ſchen
+  helf -- fen
+  will, iſt __ %60
+  da -- rum,
+  iſt __
+  da -- rum
+  doch nicht ſein
+  Zihl daß ſie %65
+  ſich in
+  ih -- ren
+  Le -- ben
+  nur auf
+  Yeb -- big -- %70
+  keit ſich be --
+  ge -- ben
+  ſon -- dern
+  hal -- _
+  _ _ %75
+  _ _
+  _ _
+  _ _
+  _ _
+  _ ten %80
+  ſein __ Ge --
+  bott.
+
+  Wer dem -- %93
+  nach di -- ſer
+  Sach reiff -- li -- %95
+  cher nach -- denck -- hen
+  wird le -- ben
+  wie es ſich ge --
+  bührt ſei -- nen
+  Schö -- pffer täg -- lich %100
+  eh -- ren und ſein
+  höch -- ſtes Lob ver --
+  meh -- ren der ent --
+  ge -- het al -- ler
+  Schmach, __ _ %105
+  _ _
+  _ ent -- ge --
+  het al -- ler
+  Schmach.
+
+  Wer dem -- %113
+  nach di -- ſer
+  Sach reiff -- %115
+  li -- cher nach --
+  denck -- hen wird
+  le -- ben
+  wie es ſich ge --
+  bührt %120
+  ſei -- nen
+  Schö -- pffer täg -- lich
+  eh -- ren
+  und ſein
+  höch -- ſtes Lob ver -- %125
+  meh -- ren
+  der ent --
+  ge -- het
+  al -- ler
+  Schmach, ent -- %130
+  geht, ent --
+  ge -- het
+  al -- ler
+  Schmach. %134 finis
+}

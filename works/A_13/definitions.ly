@@ -5,9 +5,12 @@ Gerechtigkeit = \markup { \override #'(box-padding . 0.5) \box "Gerechtigkeit" }
 Adam = \markup { \override #'(box-padding . 0.5) \box "Adam" }
 Schöpffer = \markup { \override #'(box-padding . 0.5) \box "Schöpffer" }
 
-fermataFine = \fermata^\markup \remark "fine"
-% fermataFine = { \once \override TextScript.outside-staff-priority = #10000 \fermata^\markup \remark "fine" }
-% fermataFine = \fermata ^\tweak TextScript.outside-staff-priority #10000 ^\markup \remark "fine"
+fermataFine = #(define-event-function () ()
+  #{ \tweak Script.outside-staff-priority #0
+       \fermata
+     \tweak TextScript.self-alignment-X #-.4
+       ^\markup \remark "fine" #}
+)
 
 markAriaDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
@@ -38,6 +41,10 @@ tempoA-XIIIScenaQuarta = \tempoMarkup "Recitativo"
 tempoA-XIIIAriaQuarta = \tempoMarkup "Largo"
 tempoA-XIIIScenaQuinta = \tempoMarkup "Recitativo"
 tempoA-XIIIChorus = \tempoMarkup "Largo"
+  tempoA-XIIIChorusB = \tempoMarkup "Presto moderato"
+
+tempoA-XIIIScenaSexta = \tempoMarkup "Recitativo"
+tempoA-XIIIAriaQuinta = \tempoMarkup "Allegro"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

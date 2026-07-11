@@ -9,8 +9,9 @@ sources:
   B1:
     siglum: H-Bn
     shelfmark: Ms.mus III.8
-    rism: 530001918
     date: 1749-06-09
+    rism: 530001918
+    url: https://copia.oszk.hu/kotta/adam/
     license: public domain
     principal: true
     notes: full score
@@ -25,13 +26,14 @@ toe: |
   –  & –  & vla  & In \B1, a staff for vla only appears in movements 1.
                    Here, a vla part has been added
                    by the editor to these movements.
-                   In arias (no. 3, 5, 7, 9), the vla plays in unison
+                   In arias (no. 3, 5, 7, 9, 13), the vla plays in unison
                    with bc whenever the voice pauses during the first section.
                    In accompagnatos (no. 8), it plays
                    unison with bc.
-                   In choruses (no. ), it generally plays unison
-                   with T in fugues (), and unison with bc otherwise. \\
+                   In choruses (no. 11), it generally plays unison
+                   with T in fugues, and unison with bc otherwise. \\
   3 & 4 & org & last \eighthNote\ in \B1: F8 \\
   9 & 29ff & – & A page containing part of this aria has not been digitized; this part will be added later. \\
+  11 & 30 & vl 2 & 1st \quarterNote\ in \B1: a4 \\
 commentary: |
   \includepdf[pages=-,link=false,pagecommand={}]{../works/A_13/appendix.pdf}

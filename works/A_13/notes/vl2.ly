@@ -373,6 +373,178 @@ A-XIIIChorusViolinoII = {
   \relative c' {
     \clef treble
     \key d \minor \time 4/4 \tempoA-XIIIChorus
-    
+    a'4.\fE a8 b b b b
+    a4~ a8 d b b g g
+    e e r c' a a f f
+    d d r d' cis cis d d
+    d4 cis d r %5
+    R1*2
+    r2 r8 d, a' a~
+    a g b4 a4. a8
+    gis gis a2 gis4 %10
+    a2 \tempoA-XIIIChorusB r \noBreak
+    R1*3
+    r2 r4 d, %15
+    cis e a, f'
+    e4. e8 d4 f
+    e4. d8 cis4. cis8
+    d cis d e f e d c
+    h4. h8 a4 a~ %20
+    a gis a4. a8
+    b! b' a g f4 g
+    a fis g2
+    r4 f es4. es8
+    d4 g f4. f8 %25
+    e!2 d
+    R1*2
+    r2 r4 c
+    b-\critnote d c f %30
+    e4. e8 d4 g
+    f4. f8 e4 cis
+    d4. d8 e4 e
+    fis g2 \hA fis4
+    g f8 e d cis d4 %35
+    cis a' gis g
+    fis f e a
+    d, g cis,8 d \once \tieDashed e4~
+    e d8 cis d4 d
+    d cis8 h? \hA cis2 %40
+    d4 d d a'~
+    a g8 fis g2
+    fis1\fermata \bar "|." %43 finis
+  }
+}
+
+A-XIIIAriaQuintaViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \major \time 2/4 \tempoA-XIIIAriaQuinta
+    a'8.\f b16 c b c8
+    g a16 b c b c8
+    f, c' f4~
+    f8 e16 d c b a g
+    f4 d'8 e16 f %5
+    g8 g, c d16 e
+    f( e) f4 f8
+    f e r d
+    e f16 g c,8. c16
+    d8. e16 f8 g %10
+    c,4 r
+    f4. g,8
+    e'4. f,8
+    d'4~ d16 c d8
+    c4. d8 %15
+    f,4 e\trill
+    f8 a'16 f c8 a
+    f4 r
+    R2
+    r8 f4\p a16 b %20
+    c( b) c8 r4
+    R2*2
+    r4 g8 a16 b
+    c8 f, b4 %25
+    r e,8 f16 g
+    a8 d, g4
+    r r8 a
+    d, e16 f g f g8
+    c,4 r %30
+    r f8 g16 a
+    d,4 r
+    R2
+    r8 g c c
+    c16 h c8 r4 %35
+    R2
+    r8 d g, g
+    g16( f) g8 r4
+    r r8 c,
+    f16 g a8 r d, %40
+    g16 a h8 r e,
+    a16 h c8 r f,
+    h16 c d8 r4
+    r8 c, d e16 f
+    g8 a16 h c8 d %45
+    g, e r4
+    R2
+    r16 c'\f h c \hA h c a \hA h
+    g a f g e f d e
+    c c' h c \hA h c a \hA h %50
+    g4~ g16 a h g
+    c d e4 d8
+    c8. d16 h4\trill
+    c8 g c,4
+    R2*2 %56
+    r8 f4\p a16 b!
+    c( b) c8 r4
+    R2
+    r8 a d4~ %60
+    d8 d c16( b) c8
+    r f, b4~
+    b8 b a16( g) a8
+    r d, d16( cis) d8
+    cis16 d e8 a,4 %65
+    R2*3
+    r8 f'4 b8
+    g16( f) g4 g8 %70
+    r f f f
+    f e16 d e8 c
+    R2
+    r4 r8 a
+    b16 c d8 r g, %75
+    c16 d e8 r a,
+    d16 e f8 r b,
+    e16 f g8 r4
+    R2*3 %81
+    r8 c4\f a8
+    r f d'16 c d8
+    r g, e'16 d e8
+    r a, f'16 e f8 %85
+    r b, g'16 f g8
+    c,16 b c8 r4
+    f4. g,8
+    e'4. f,8
+    d'4~ d16 c d8 %90
+    c4. d16( d,)
+    f4 e\trill
+    f\fermataFine r
+    r16 d'\p c b a g f e
+    \sbOn \tuplet 3/2 8 { f e d } d cis \sbOff d4 %95
+    r16 d' c! b a g f es
+    d c b a b4
+    R2
+    r16 a' b f c' f, f'8
+    r4 \sbOn f,16 a \tuplet 3/2 8 { c d es } \sbOff %100
+    d b f d b( a) b8
+    R2
+    r16 f' a c f( es) f8
+    r d c b
+    a4 r8 d, %105
+    b'4 r8 c,
+    a'4 r
+    R2
+    r4 r8 e'\f
+    f4. g,8 %110
+    e'4. f,8
+    d' b~ b16 c d8
+    g,4 r
+    R2*2 %115
+    r8 a\p d c
+    b4 r
+    d16 cis d4 d8
+    R2
+    f4. g,8 %120
+    e'4. f,8
+    d' c16 b a8 gis
+    a e cis a
+    R2
+    r8 c!4 b'8 %125
+    a16( g) a8 r4
+    r8 d4 b8
+    r c4 a8
+    r b g16( f) g8
+    a16( g) a8 r4 %130
+    r r8 d,
+    h'16( a) \hA h8 r4
+    R2
+    R\fermata \markAriaDaCapo \bar "||" %134 finis
   }
 }
