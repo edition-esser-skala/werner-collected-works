@@ -9,8 +9,9 @@ sources:
   B1:
     siglum: H-Bn
     shelfmark: Ms.mus III.7
-    rism: 530001917
     date: 1748-05-08
+    rism: 530001917
+    url: https://copia.oszk.hu/kotta/job/
     license: public domain
     principal: true
 tocstyle: default
