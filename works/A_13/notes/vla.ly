@@ -315,3 +315,115 @@ A-XIIIAriaQuintaViola = {
     R2\fermata \markAriaDaCapo \bar "||" %134 finis
   }
 }
+
+A-XIIIScenaSeptimaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XIIIScenaSeptima
+    R1*5 %5
+    r2 r16 c-!\p c-! c-! c-! c-! c-! c-!
+    h!4 r r16 c-! c-! c-! c-! c-! c-! c-!
+    b4 r r16 as-! as-! as-! as-! as-! as-! as-!
+    fis4 r r16 a'!-! a-! a-! a-! a-! a-! a-!
+    fis4 r r16 g-! g-! g-! g,-! g-! g-! g-! %10
+    e'!4\f r cis r
+    cis r d r
+    e! r f r
+    d r c r
+    a' r d, r %15
+    e r f a,
+    b r r2
+    r d\p^\markup \remark "stendato"
+    cis d4 r
+    R1 %20
+    h!2^\markup \remark "stendato"^\conSord c
+    d es
+    e e
+    f g
+    as fis %25
+    g f
+    e! cis
+    d e!
+    f es
+    cis c4 b8 c %30
+    d4 d, g r
+    R1*4 %35
+    R1\fermata \bar "|." %36 finis
+  }
+}
+
+A-XIIIAriaSextaViola = {
+  \relative c' {
+    \clef alto
+    \key c \dorian \time 3/4 \tempoA-XIIIAriaSexta
+    R2.*33 %33
+    r4 r g'\pE^\pizz
+    e f c' %35
+    as8 g f es d c
+    h4 g c8 d
+    es f g4 g,
+    c\fermataFine r r
+    R2.*17 %56
+    \tempoA-XIIIAriaSextaB R2.
+    R\fermata \markAriaDaCapo \bar "||" %58 finis
+  }
+}
+
+A-XIIIScenaOctavaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XIIIScenaOctava
+    R1
+    b2\p^\markup \remark "stendato" a
+    g f'!
+    fis g
+    cis,1~ %5
+    cis2 d
+    e f
+    fis dis
+    e1
+    cis2 c %10
+    h1
+    gis2 a
+    d e
+    f fis
+    g e %15
+    f es
+    cis d
+    g gis
+    a b
+    h,! c %20
+    cis d4 dis
+    e4 r r2
+    R1*3 %25
+    R1\fermata \bar "|." %26 finis
+  }
+}
+
+A-XIIIAriaSeptimaViola = {
+  \relative c' {
+    \clef alto
+    \key e \minor \time 4/4 \tempoA-XIIIAriaSeptima
+    R1*8 %8
+    h4 e8 fis h, e fis fis,
+    h4 r r2 %10
+    R1*11 \bar "||" %21
+    \twofourtime \time 2/4 \tempoA-XIIIAriaSeptimaB
+      R2*18 %39
+    d8.\f e16 fis8 d %40
+    g fis e d
+    cis4. h8
+    a g' fis e
+    d cis h fis'
+    h g a a, %45
+    d4 r
+    R2*21 %67
+    g,8.\f a16 h8 g
+    c h a g'
+    fis4. e8 %70
+    d c h a
+    g' fis e h
+    c e d d,
+    g4 r\fermataFine \bar "|." %74 finis
+  }
+}

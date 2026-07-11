@@ -503,48 +503,254 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "13" "Aria quinta"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #22
+  %     system-system-spacing.minimum-distance = #22
+  %     indent = 2.5\cm
+  %     systems-per-page = #3
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-XIIIAriaQuintaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-XIIIAriaQuintaViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Gerechtigkeit"
+  %           \new Voice = "Soli" { \dynamicUp \A-XIIIAriaQuintaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-XIIIAriaQuintaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "[vla]" "bc" }
+  %           % \transpose c c,
+  %           \A-XIIIAriaQuintaContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIIIAriaQuintaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
+  % \bookpart {
+  %   \section "14" "Scena septima"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #22
+  %     system-system-spacing.minimum-distance = #22
+  %     systems-per-page = #3
+  %     page-count = #4
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-XIIIScenaSeptimaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-XIIIScenaSeptimaViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "soli"
+  %           \new Voice = "Soli" { \dynamicUp \A-XIIIScenaSeptimaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-XIIIScenaSeptimaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "[vla]" "bc" }
+  %           % \transpose c c,
+  %           \A-XIIIScenaSeptimaContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIIIScenaSeptimaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
+  % \bookpart {
+  %   \section "15" "Aria sexta"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #22
+  %     system-system-spacing.minimum-distance = #22
+  %     systems-per-page = #3
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-XIIIAriaSextaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-XIIIAriaSextaViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Adam"
+  %           \new Voice = "Soli" { \dynamicUp \A-XIIIAriaSextaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-XIIIAriaSextaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "[vla]" "bc" }
+  %           % \transpose c c,
+  %           \A-XIIIAriaSextaContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIIIAriaSextaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 72 }
+  %   }
+  % }
+  % \bookpart {
+  %   \section "16" "Scena octava"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #22
+  %     system-system-spacing.minimum-distance = #22
+  %     systems-per-page = #3
+  %     page-count = #3
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-XIIIScenaOctavaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-XIIIScenaOctavaViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "soli"
+  %           \new Voice = "Soli" { \dynamicUp \A-XIIIScenaOctavaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-XIIIScenaOctavaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "[vla]" "bc" }
+  %           % \transpose c c,
+  %           \A-XIIIScenaOctavaContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIIIScenaOctavaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
+  % \bookpart {
+  %   \section "17" "Aria septima"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #22
+  %     system-system-spacing.minimum-distance = #22
+  %     systems-per-page = #3
+  %     indent = 2.5\cm
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-XIIIAriaSeptimaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-XIIIAriaSeptimaViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Barmherzigkeit"
+  %           \new Voice = "Soli" { \dynamicUp \A-XIIIAriaSeptimaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-XIIIAriaSeptimaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "[vla]" "bc" }
+  %           % \transpose c c,
+  %           \A-XIIIAriaSeptimaContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIIIAriaSeptimaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 } %90
+  %   }
+  % }
   \bookpart {
-    \section "13" "Aria quinta"
+    \section "18" "Scena nona"
     \addTocEntry
     \paper {
-      system-system-spacing.basic-distance = #22
-      system-system-spacing.minimum-distance = #22
-      indent = 2.5\cm
-      systems-per-page = #3
+      system-system-spacing.basic-distance = #21
+      system-system-spacing.minimum-distance = #21
+      systems-per-page = #5
+      system-count = #8
     }
     \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \A-XIIIAriaQuintaViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \A-XIIIAriaQuintaViolinoII
-            }
-          >>
-        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Gerechtigkeit"
-            \new Voice = "Soli" { \dynamicUp \A-XIIIAriaQuintaSoli }
+            \set Staff.instrumentName = "soli"
+            \new Voice = "Soli" { \dynamicUp \A-XIIIScenaNonaSoli }
           }
-          \new Lyrics \lyricsto Soli \A-XIIIAriaQuintaSoliLyrics
+          \new Lyrics \lyricsto Soli \A-XIIIScenaNonaSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "[vla]" "bc" }
+            \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \A-XIIIAriaQuintaContinuo
+            \A-XIIIScenaNonaContinuo
           }
         >>
-        \new FiguredBass { \A-XIIIAriaQuintaBassFigures }
+        \new FiguredBass { \A-XIIIScenaNonaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }

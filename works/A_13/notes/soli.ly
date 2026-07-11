@@ -1148,3 +1148,454 @@ A-XIIIAriaQuintaSoliLyrics = \lyricmode {
   al -- ler
   Schmach. %134 finis
 }
+
+A-XIIIScenaSeptimaSoli = {
+  \relative c' {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIIScenaSeptima
+    r8^\Schöpffer f, f16 f b f d8. d16 d8 f
+    as8. as16 as8 g e! e16 e g g g a
+    b8. b16 b8 g e e g f
+    d d r f\f b f f d
+    h! d f16 f g d es8 es r16 c' h! c %5
+    c8. g16 g4 \clef "treble_8" r2^\Gerechtigkeit
+    r8 d' d16 d h! g es'8. es16 es4
+    r8 des des16 b g e! f8 f r c'
+    c c es c h!8. h16 h8 d
+    c8. c16 es8 c c g r4 %10
+    r8 g c16 e c g a8. a16 a8 a
+    g g b a f f r d'
+    c! g b c a8. a16 a8 c
+    h! d f f, g g r g
+    e' e cis a f'8. f16 f8 d %15
+    c g b c a a16 c c c f c
+    d8. d16 d8 b as8. f16 e!8 f
+    f c \fC r^\Adam a' a a d f
+    b,8. b16 b8 a f f16 \clef treble a'^\Barmherzigkeit a a a b
+    c!8 c c16 es d a b8 b8*1/2\( \clef bass f,\)^\Schöpffer b16 b f \hA b %20
+    g8 g8*1/2\( \clef "treble_8" g\)^\Gerechtigkeit d'16 d h! g es'8 es r \hA es
+    b b d \hA b g g16 b b b c des
+    c8. g16 g8 as b b des c
+    as as r f' es b des \hA es
+    c8. c16 c8 c es8. es16 es8 d %25
+    h! h r h d d f es
+    c8. g16 g8 a b b b a
+    f f r d' c e! g g,
+    a8. a16 a8 b c c es fis,
+    g8. g16 g8 g fis es' d16[ b] a[ g] %30
+    b4 a\trill g8 \clef treble g'^\Barmherzigkeit h!16 h h c
+    d8 d16 h! as f f es c8 c16 \clef bass g^\Schöpffer g g c c,
+    as'8. as16 as8 c a a c es,
+    f \clef "treble_8" f^\Adam b16 b b c d8. d16 d8 f
+    es c b g g8. d16 d4 %35
+    R1\fermata \bar "|." %36 finis
+  }
+}
+
+A-XIIIScenaSeptimaSoliLyrics = \lyricmode {
+  Weil dan mein ein -- ge -- bohr -- ner Sohn daß
+  menſch -- li -- che Ver -- bre -- chen an ih -- me ſelbſt frey --
+  wil -- lig -- lich auß Lieb will laſ -- ſen
+  rä -- chen. So hör nun je -- der --
+  man mit Züt -- tern und Er -- ſtau -- nen daß grech -- te %5
+  Ur -- theyl an:
+  Eß ſol -- le dem -- nach Got -- tes Sohn
+  die Gſtalt des Knechts an -- neh -- men, auch
+  ſich zu al -- len Spott und Hohn frey --
+  wil -- lig -- lich be -- que -- men. %10
+  Er ſoll in ei -- nen wüe -- ſten Stall zur
+  Weld ge -- boh -- ren wer -- den, in
+  ſei -- ner zar -- ten Kind -- heit ſchon er --
+  tra -- gen vill Be -- ſchwär -- den und
+  wan er dan in Mans -- ge -- ſtalt ſich %15
+  ein -- ſtens wird dar -- ſtel -- len, da wird der Neyd auf
+  al -- ler Seith ihn grim -- mig -- lich an --
+  bel -- len. Ô Sünd ô Sünd wie
+  ſtreng wir -- ſtu ge -- ro -- chen. Da ſe -- he nun mein
+  Menſch waß du wohl haſt ver -- bro -- chen. Diß will noch nicht er -- %20
+  kleck -- hen. Man hör dem -- nach mit Schröck -- hen: Er
+  wird in Strickh und Ban -- den dem fal -- ſchen Gricht gott --
+  loß be -- zücht vor -- gſtelt mit Spott und
+  Schan -- den, ſein gan -- tzer Leib mit
+  Gei -- ſel -- ſtreich recht mör -- der -- lich zer -- %25
+  fe -- zet, und von des Sa -- thans
+  Wuth zu -- gleich noch är -- ger an -- ge --
+  he -- tzet wird Er zur grö -- ſten
+  Schmach und Hohn mit ei -- ner ſpi -- tzig
+  dör -- nern Cron ſchmerz -- hafft ge -- crö -- net %30
+  wer --  _ den. Er -- züt -- ret doch ihr
+  Him -- meln! Er -- ſchütt -- re dich ô Er -- den! Be -- tracht dem -- nach wie
+  groß die Sünd in mei -- nen Au -- gen
+  ſey. Waß Schmertz und Jam -- mer ich em -- pfünd diß
+  zei -- get an mein büt -- ter Reu. %35 finis
+}
+
+A-XIIIAriaSextaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \dorian \time 3/4 \autoBeamOff \tempoA-XIIIAriaSexta
+    g4 \tuplet 3/2 { es'8([ d c)] } h([ d)]
+    c([ b16 as] g4) f
+    es\trill d r
+    R2.
+    b'4 \tuplet 3/2 { c8([ d es)] } b4 %5
+    f'8([ es d c)] b([ as)]
+    \appoggiatura as4 g2 r4
+    b b b
+    e4.( des8) c([ b)]
+    \tuplet 3/2 { as([ g f)] } f4 r %10
+    c' c c
+    fis4.( es!8) d([ c)]
+    \tuplet 3/2 { b([ a g)] } g4 r
+    g b8([ c)] d4~
+    d c b %15
+    as \tuplet 3/2 { c8([ b \hA as)] } g4
+    fis8([ a)] \tuplet 3/2 { a([ b c)] } d([ es16 d]
+    es8) c b4( a8.)\trill g16
+    g2 r4
+    R2. %20
+    g4 c8([ b!16 as)] g8([ b)]
+    as2 \tuplet 3/2 { g8([ \hA as b)] }
+    as4 g r
+    f8([ g)] as([ b)] c4
+    h8([ c] d4) as %25
+    g2 r4
+    g8([ a!)] h([ c)] d4
+    es e2
+    f8([ f,)] f4 es'
+    es( des) c %30
+    r h c8([ d)]
+    g,([ h)] d([ f)] es([ c)]
+    as16([ g f8)] es4( d8.)\trill c16
+    c2 r4
+    R2.*4 %38
+    R2.\fermataFine
+    g'8([ es')] d4. c8 %40
+    b!4 r h
+    c g a8([ c)]
+    b!4\trill a d
+    es8([ d] es4) es
+    d2 d4 %45
+    cis2 c4
+    b4. a8 g4
+    b a8([ h)] h([ c)]
+    c4 d2
+    \tuplet 3/2 { es8([ d c)] } c4 d %50
+    d( cis) b!
+    a2 h4
+    c! d2
+    es4 c8([ d)] es4
+    b! f'8([ d)] b([ as)] %55
+    g4 b es,8([ es')]
+    \tempoA-XIIIAriaSextaB \tuplet 3/2 { c([ b as)] } g4( f8.)\trill es16
+    es2 r4\fermata \markAriaDaCapo \bar "||" %58 finis
+  }
+}
+
+A-XIIIAriaSextaSoliLyrics = \lyricmode {
+  Hin -- weg mit
+  al -- len
+  Freu -- den
+
+  ſo mir die %5
+  Welt __ vor --
+  zeigt,
+  ich bin zu
+  Creutz __ und
+  Ley -- den, %10
+  ich bin zu
+  Creutz __ und
+  Ley -- den
+  ur -- bie -- thig __
+  und ge -- %15
+  neigt, und ge --
+  neigt ur -- bie --
+  thig und ge --
+  neigt.
+  %20
+  Hin -- weg mit
+  al -- len
+  Freu -- den
+  ſo mir die
+  Welt __ vor -- %25
+  zeigt,
+  ich bin zu
+  Creutz und
+  Ley -- den ur --
+  bie -- thig %30
+  und ge --
+  neigt, ur -- bie --
+  thig und ge --
+  neigt.
+
+  Die Sünd will %40
+  ich be --
+  reu -- en, be --
+  reu -- en mit
+  al -- ler
+  Macht, mit %45
+  al -- ler
+  Macht und Gwald,
+  mein Haubt mit
+  A -- ſchen
+  ſtreu -- en nur %50
+  daß, __ nur
+  daß ich
+  Gnad er --
+  halt, nur daß
+  ich Gnad er -- %55
+  halt, nur daß
+  ich Gnad er --
+  halt. %58 finis
+}
+
+A-XIIIScenaOctavaSoli = {
+  \relative c' {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIIScenaOctava
+    r8^\Schöpffer f, d16 f b f g8 g16 g f c es f
+    d8 \clef "treble_8" f^\markup \remark "lamentuoso" ^\Gerechtigkeit b d fis,[ a] c4
+    b16[ a] \hA b8 r d h d f! d
+    c16[ h!] c8 r16 c es c c8. g16 g4
+    r8 a a16 a cis d e8 e r e %5
+    g e cis g f f16 f a a a d
+    c8 c16 c c b d c a8 a r c
+    d d a c h h dis16 e fis a,
+    g8 g r h c8. c16 c8 e
+    a, a a16 g h a fis8 fis16 fis fis8 a %10
+    gis8. gis16 gis8 h d d d e
+    f! f r16 f f e c8. c16 c8 e
+    f d c a a e r4
+    r8 a a16 a a b c8 c c16 c es d
+    b8 b b16 b b c des8 des des c %15
+    as8. as16 as4 r8 a a16 a a c
+    b8 g g16 g b a f8 f r16 a d a
+    b8. b16 b4 r8 f' f16 d cis d
+    d8 a r4 r8 f b16 d \hA b f
+    g8 h d16 h g f es8 es16 g c c es c %20
+    b8 b16 b b g fis g g8 d \clef treble h''4^\Barmherzigkeit
+    r8 h h16 h h e d8 d16 d d a c d
+    h8 \clef bass d,,^\Schöpffer g16 g h g e8 e gis16 e h' e,
+    c8 \clef treble a''^\Barmherzigkeit a16 a a h cis8 cis r \hA cis
+    d h g h h8.[ cis16] cis4\trill %25
+    h r r2\fermata \bar "|." %26 finis
+  }
+}
+
+A-XIIIScenaOctavaSoliLyrics = \lyricmode {
+  Man hör dem -- nach mit Züt -- tern den Schlus deß
+  Ur -- theils an. Nun -- mehr ô fro -- me
+  Her -- tzen zer -- flüeſt in bütt -- ren
+  Schmer -- tzen, es wei -- ne wer nur kan.
+  Er ſoll auf ſei -- nen Ruck -- hen ein %5
+  ſchwä -- re Creutz -- laſt tra -- gen, man würd ihn he -- rum
+  zuck -- hen auch jäm -- mer -- lich zer -- ſchla -- gen, und
+  end -- lich ſoll Er gar an diß ge -- häff -- tet
+  wer -- den, zwey Mör -- der müſ -- ſen
+  auch als ſei -- ne Mit -- ge -- fär -- then zu %10
+  ſei -- nen größ -- ten Spott mit -- ley -- den und auch
+  ſter -- ben da -- mit er nur bey Gott möcht
+  al -- len Gnad er -- wer -- ben.
+  Ein bütt -- rer Gal -- len -- dranckh an -- ſtath des Myr -- hen --
+  wein wird ihn noch dar -- ge -- reicht, diß muß ſein %15
+  Lab -- ſal ſeyn, der ü -- ber -- häuff -- te
+  Schmertz da al -- le Glü -- der kra -- chen wird ihm ſein
+  mat -- tes Hertz in Leib zer -- bre -- chen
+  ma -- chen. Und mit ge -- neig -- ten
+  Haubt wird er ſein Geiſt auf -- ge -- ben hie -- mit zu -- gleich be -- %20
+  ſchlüeſ -- ſen ſein jam -- mer -- vol -- les Le -- ben. Ô
+  Ô un -- er -- hör -- tes Ur -- theil, ſo iſt dan gar kein
+  Gnad? Nein nein diß kan nicht ſeyn dein Bitt komt vill zu
+  ſpath. So will mich dan be -- que -- men und
+  kläg -- lich Ur -- laub neh -- _ %25
+  men. %26 finis
+}
+
+A-XIIIAriaSeptimaSoli = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \autoBeamOff \tempoA-XIIIAriaSeptima
+    r8 h' g e r c' a f
+    dis([ c')] h([ a)] g fis r h
+    gis h e,16([ \hA gis)] h([ d)] c([ h)] c8 r h
+    ais cis fis,16([ \hA ais)] \hA cis([ e)] d([ \hA cis)] d8 r d
+    c16([ h)] c8 e h ais16([ gis)] \hA ais8 r g %5
+    g16([ fis)] fis8 h eis, fis16([ \hA eis)] fis8 r ais
+    h16([ ais)] h8 c! dis e4. d16 cis
+    d8 c h8. h16 \tuplet 3/2 8 { ais16([ h cis)] d([ \hA cis h)] } \hA cis4\trill
+    h r r2
+    r4 r8 h g e r e' %10
+    c! a g16([ fis)] g8 g fis r h
+    g h e e, a16([ gis)] a8 r e
+    ais ais cis e, fis16([ e)] fis8 r h
+    c c e c ais16([ gis)] \hA ais8 r \hA ais
+    h h d! h gis16([ fis)] \hA gis8 r \hA gis %15
+    a!4 h\trill c!16([ d] e4) h8
+    ais4( a4. h8) g a
+    g4( fis)\trill e r
+    R1*3 \bar "||" %21
+    \twofourtime \time 2/4 \tempoA-XIIIAriaSeptimaB
+      r8 d' h g \noBreak
+    c16([ d) e8] c16([ h) c8]
+    d h r d
+    c a d, c' %25
+    c h r d
+    e d16([ c)] h([ a)] g8
+    g fis r a
+    h16([ a)] h8 cis16([ h)] \hA cis8
+    d d, r d' %30
+    cis h a g
+    fis16[ a d, e] fis[ g a h]
+    g[ h e, fis] g[ a h cis]
+    a[ cis fis, g] a[ h \hA cis d]
+    h[ d g, a] h[ cis d e] %35
+    cis8 a h \hA cis
+    d2~
+    d8[ a] h16([ a g8)]
+    fis16([ e d8] e4)\trill
+    d r %40
+    R2*6 %46
+    r8 d' h g
+    c!16([ d e8)] c16([ h c8)]
+    d h r d,16([ e)]
+    fis([ g)] a([ h)] c8 c %50
+    c h d4
+    e8 d16([ c)] h([ a)] g8
+    g fis r d'
+    d h gis e
+    c'16([ h)] c8 r c %55
+    c a fis d
+    h'16[ d c d] g,[ h a h]
+    e,[ e' d e] a,[ c h c]
+    fis,[ a d, e] fis[ g a h]
+    g[ h e, fis] g[ a h c] %60
+    a[ c fis, g] a[ h c d]
+    h8 h a g
+    d'2~
+    d~
+    d~ %65
+    d8[ e16 d] e8 d16([ c)]
+    h([ a g8] a4)\trill
+    g r
+    R2*5 %73
+    R2\fermataFine \bar "|." %74 finis
+  }
+}
+
+A-XIIIAriaSeptimaSoliLyrics = \lyricmode {
+  A Di -- o, a Di -- o
+  mein Ge -- lieb -- ter, wan
+  ich dein groſ -- ſen Schmer -- tzen in
+  mein lieb -- vol -- len Her -- tzen recht
+  in -- ner -- lich er -- we -- ge mit %5
+  Trau -- ren ü -- ber -- le -- ge ſo
+  werd ich noch be -- trüb -- ter, ich
+  noch be -- trüb -- ter, noch be -- trüb --
+  ter.
+  A Di -- o, a %10
+  Di -- o mein Ge -- lieb -- ter, wan
+  ich dein groſ -- ſen Schmer -- tzen in
+  mein lieb -- vol -- len Her -- tzen recht
+  in -- ner -- lich er -- we -- ge mit
+  Trau -- ren ü -- ber -- le -- ge ſo %15
+  werd ich noch be --
+  trüb -- ter, be --
+  trüb -- ter.
+
+  Al -- lein der %22
+  gött -- lich
+  Wil -- len ſo
+  all -- zeit muß ge -- %25
+  ſche -- hen gantz
+  un -- ver -- ruckht be --
+  ſte -- hen kan
+  mir noch ein -- ſtens
+  ge -- ben ein %30
+  neu be -- glickh -- tes
+  Le -- _
+  _ _
+  _ _
+  _ _ %35
+  ben und mir mein
+  Ku --
+  mer
+  ſtil --
+  len. %40
+
+  Al -- lein der %47
+  gött -- lich
+  Wil -- len ſo
+  all -- zeit muß ge -- %50
+  ſche -- hen gantz
+  un -- ver -- ruckht be --
+  ſte -- hen kan
+  mir noch ein -- ſtens
+  ge -- ben ein %55
+  neu be -- glickh -- tes
+  Le -- _
+  _ _
+  _ _
+  _ _ %60
+  _ _
+  ben und mir mein
+  Ku --
+
+  _ mer %66
+  ſtil --
+  len. %68 finis
+}
+
+A-XIIIScenaNonaSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIIScenaNona
+    r8^\Gerechtigkeit g c16 c c e h8 h h16 fis a h
+    g8 g r16 g h g d'8. d16 d8 e
+    f8. f16 f8 e c c r e
+    e h h c d d d16 f e h
+    c8 c16 c c e c g a8 a d16 d d c %5
+    a8 a r4 \fC r8^\markup \remark "lamentabile" ^\Adam a e'16 cis a g
+    f8 d' c16 g b c a8 a r16 a a b
+    c8 c es16 es es d b8 b16 b b b d \hA b
+    f8 f as16 as b f g8 g r16 g h d
+    es8. es16 es8 c b g fis g %10
+    g d r4 \clef treble r8^\Barmherzigkeit b'' b16 b b c
+    a!8 a c16 c c d b8 b r16 \hA b d \hA b
+    a8. a16 a8 e g b a e
+    f f16 a a a a d c8 c16 c c a c b
+    g8 g r16 b fis g g8. d16 d4 %15
+    \clef bass r2^\Schöpffer r8 es, g16 g g as
+    b8. b16 b8 f d f as g
+    es4 r8 g b b b g
+    e8. e16 e8 g e g b a
+    f4 r8 f f a f c %20
+    d d16 d g d f g e8 e r c'
+    a g16[ f] e[ d] c[ h] c4 r
+    R1\fermata \bar "|." %23 finis
+  }
+}
+
+A-XIIIScenaNonaSoliLyrics = \lyricmode {
+  Ge -- denck -- he dan ô Menſch was Gott vor dich muß
+  ley -- den und du be -- gibſt dich pur auf
+  lau -- ter Yeb -- big -- kei -- ten, al --
+  lein diß laſt er nur auf ei -- ne Zeit paſ --
+  sie -- ren al -- dorth wird er ſein Recht ſchon wiſ -- ſen auß -- zu -- %5
+  füh -- ren. Kein Luſt ſoll nun bey
+  mir ein Stat noch Blatz mehr fün -- den, ich will mit
+  Reu be -- wei -- nen mei -- ne Sün -- den, der Herr mein Gott ſolt
+  ſein daß ein -- zi -- ge Ver -- lan -- gen, den will ich
+  frue und ſpath mit Her -- zens -- freud umb -- %10
+  fan -- gen. Dein Vor -- ſatz iſt ge --
+  macht gar weiß -- lich und be -- ſchei -- den, da -- he -- ro
+  ha -- be Acht daß du zu al -- len
+  Zei -- ten dar -- wi -- der ſträff -- lich le -- beſt, der Wo -- luſt Ab -- ſchied
+  ge -- beſt und mei -- deſt al -- len Pracht. %15
+  Al -- ſo hab ich die
+  Welt ge -- liebt daß ich mein ein -- zign
+  Sohn dar -- ge -- ben biß zum
+  Tod be -- trübt und ſei -- ner nicht ver --
+  ſchon auf daß der Menſch möcht %20
+  le -- ben mueß Er daß ſei -- nig ge -- ben ohn
+  ein -- zi -- gen Par -- don. %22 finis
+}

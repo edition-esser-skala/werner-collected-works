@@ -543,3 +543,210 @@ A-XIIIAriaQuintaViolinoI = {
     R2\fermata \markAriaDaCapo \bar "||" %134 finis
   }
 }
+
+A-XIIIScenaSeptimaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XIIIScenaSeptima
+    R1*5 %5
+    r2 r16 g'-!\p g-! g-! g-! g-! g-! g-!
+    as4 r r16 g-! g-! g-! g-! g-! g-! g-!
+    g4 r r16 f-! f-! f-! f-! f-! f-! f-!
+    es4 r r16 f-! f-! f-! f-! f-! f-! f-!
+    es4 r r16 d-! d-! d-! d-! d-! d-! d-! %10
+    g,4 r r32 e''\f cis e a, \hA cis e, a cis,4
+    r2 r16 f32 a d16 a32 d f16 d32 f a8
+    r2 r16 c-! a-! f-! c-! a-! f8
+    r16 d' f16. h,!32 d8 r r16 g8 e c g16
+    e4 r r16 d-! f-! a-! d-! f-! a8 %15
+    r16 r32 g e8 r16 r32 g, e8 r16 a'32 f c16 a f8 r
+    r16 d' d16. d32 d4 r2
+    r d\p^\markup \remark "stendato"
+    e a,4 r
+    R1 %20
+    d2^\markup \remark "stendato"^\conSord c
+    b1
+    g
+    f2 es~
+    es1 %25
+    d2 h'!
+    c e!
+    a, c!~
+    c a
+    b a4 g~ %30
+    g fis g r
+    R1*4 %35
+    R1\fermata \bar "|." %36 finis
+  }
+}
+
+A-XIIIAriaSextaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 3/4 \tempoA-XIIIAriaSexta
+    \after 4*0 -\markup \remark "sempre pizz." R2.*2
+    r4 r8 d' h g
+    es c d4 r
+    R2.*2 %6
+    r8 b'! g' es f d
+    es b g4 r
+    r8 g'16 f e8 des c4
+    r8 c as f e g %10
+    as f c4 r
+    r8 a''!16 g fis8 es! d4
+    r8 d b g fis a
+    b g d4 r
+    R2.*4 %18
+    r8 d' b g fis a
+    g g' es c h d %20
+    c4 r r
+    r8 c as f e g
+    f as g4 r8 r16 c
+    as8 g f4 r
+    d'8 es f g as4 %25
+    g8. f16 es8 d es4
+    d r r
+    c8 d e f g4
+    f f, es'
+    r des c %30
+    r h c
+    d! g, r
+    R2.
+    r8 g' es c h d
+    c c' as f e g %35
+    f g as g f \hA as
+    g f es d es h
+    c f, es c' d, h'
+    c4\fermataFine r r
+    R2. %40
+    g4 a d
+    g, r r
+    R2.
+    r4 b' g
+    a4. g8 f4 %45
+    e8 fis g4 a
+    d, r r
+    R2.
+    g,4 g'8 f16 es d8 g
+    es4 c r %50
+    R2.
+    r4 d8 c d4
+    g, g'8 f g4
+    g, r r
+    R2. %55
+    b!4. c16 d es4
+    \tempoA-XIIIAriaSextaB es, es d
+    es2 r4\fermata \markAriaDaCapo \bar "||" %58 finis
+  }
+}
+
+A-XIIIScenaOctavaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XIIIScenaOctava
+    R1
+    d'2\p^\markup \remark "stendato" c
+    b d
+    es d
+    e1 %5
+    g,2 f!
+    c'!1
+    a2 h~
+    h c
+    e a, %10
+    h1
+    d2 c
+    a2. gis4
+    a2 a
+    b1 %15
+    as2 a
+    g f
+    d1~
+    d4 cis d2
+    d' g, %20
+    g2. fis4
+    g r r2
+    R1*3 %25
+    R1\fermata \bar "|." %26 finis
+  }
+}
+
+A-XIIIAriaSeptimaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \tempoA-XIIIAriaSeptima
+    r4^\conSord r8 g''\pE e c r a
+    fis16( e) fis8 r4 r8 \tuplet 3/2 8 { fis16 g a } g( e) fis8
+    r2 r8 a16 h c d e8
+    r2 r8 h16 cis d e fis8
+    r2 r8 cis16 d e fis g8 %5
+    r2 r8 ais,16 h cis d e8
+    r2 r8 h ais h16 a
+    gis8 a4 g8 fis h, r4
+    r16 fis'' g fis e e d cis d d \hA cis h e \hA cis h ais
+    h4 r r8 h e e, %10
+    r c'! g16( fis) g8 r h16 cis dis e fis8
+    r h, h h c e e16( d) e8
+    r e, e e dis fis fis16( e) fis8
+    r2 r8 fis' fis fis,
+    d'!16( cis) d8 r4 r8 e e e, %15
+    c'16( h) c8 r4 r2
+    r8 cis cis cis fis16( e) fis8 r4
+    r2 r8 g,16 a h cis d8
+    e16( d) e8 r4 r8 e f e
+    dis e16 fis e8 e, e8. fis16 dis4 \noBreak %20
+    e r r2 \bar "||"
+    \twofourtime \time 2/4 \tempoA-XIIIAriaSeptimaB
+      r4^\senzaSord r8 d'\p \noBreak
+    e16( d) e8 fis16( e) fis8
+    \sbOn \tuplet 3/2 8 { g16 fis g d c d h a h } g8
+    R2 %25
+    \tuplet 3/2 8 { g16 fis g h a h d c d } g8 \sbOff
+    e d16 c h a g8
+    g\trill fis16 g a8 d,
+    r h' cis16( h) \hA cis8
+    d16 a fis g a8 fis %30
+    R2
+    r8 fis'16 e fis8 fis,
+    g g'16 fis g8 g,
+    a a'16 g a8 a,
+    h h'16 a h8 h, %35
+    cis16( h) \hA cis8 r4
+    R2*3
+    r16 a\f h cis d e fis d %40
+    h h' a h g a fis g
+    e g fis g e fis d e
+    cis d h \hA cis a h g a
+    fis a h cis d4~
+    d8 \tuplet 3/2 8 { g16 fis e } \appoggiatura d8 cis4 %45
+    d8 a d,4
+    r r8 d'\p
+    e16( d) e8 fis16( e) fis8
+    \sbOn \tuplet 3/2 8 { g16 fis g d c d h a h } g8
+    R2 %50
+    \sbOn \tuplet 3/2 8 { g'16 fis g d c d h a h } g8
+    R2
+    \tuplet 3/2 8 { d'16 c d a g a fis e fis } d8 \sbOff
+    r gis16 a h c! d8
+    r a16 h c d e8 %55
+    r fis,16 g! a h c8
+    r d4 g,8
+    c, e'4 a,8
+    d, fis'16 e fis8 fis,
+    g g'16 fis g8 g, %60
+    a a'16 g a8 a,
+    h16( a) h8 r4
+    r8 fis g a
+    r g a h
+    a16 h g a fis d e fis %65
+    g8 g, g4
+    R2
+    r16 d'\f e fis g a h g
+    e e' d e c d h c
+    a c h c a h g a %70
+    fis g e fis d e c d
+    h d e fis g4~
+    g8 \tuplet 3/2 8 { c16 h a } \appoggiatura g8 fis4\trill
+    g r\fermataFine \bar "|." %74 finis
+  }
+}

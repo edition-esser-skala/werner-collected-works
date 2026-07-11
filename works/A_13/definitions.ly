@@ -22,10 +22,6 @@ markAriaDaCapo = {
 %   \once \override Score.RehearsalMark.self-alignment-X = #LEFT
 %   \mark \markup \remark "(Scena sexta)"
 % }
-% markChorus = {
-%   \once \override Score.RehearsalMark.self-alignment-X = #LEFT
-%   \mark \markup \remark "(Chorus)"
-% }
 
 tempoA-XIIIIntro = \tempoMarkup "Adagiosè"
   tempoA-XIIIIntroB = \tempoMarkup "Allegro"
@@ -45,6 +41,13 @@ tempoA-XIIIChorus = \tempoMarkup "Largo"
 
 tempoA-XIIIScenaSexta = \tempoMarkup "Recitativo"
 tempoA-XIIIAriaQuinta = \tempoMarkup "Allegro"
+tempoA-XIIIScenaSeptima = \tempoMarkup "Recitativo"
+tempoA-XIIIAriaSexta = \tempoMarkup "Largo"
+  tempoA-XIIIAriaSextaB = \tempoMarkup "Adagio"
+tempoA-XIIIScenaOctava = \tempoMarkup "Recitativo"
+tempoA-XIIIAriaSeptima = \tempoMarkup "Largo"
+  tempoA-XIIIAriaSeptimaB = \tempoMarkup "Allegretto"
+tempoA-XIIIScenaNona = \tempoMarkup "Recitativo"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
