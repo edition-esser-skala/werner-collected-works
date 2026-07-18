@@ -93,3 +93,91 @@ A-XIIIChorusTenoreIILyrics = \lyricmode {
   fal --
   len. %43 finis
 }
+
+A-XIIIFinaleTenoreII = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \minor \time 4/4 \autoBeamOff \tempoA-XIIIFinale
+    f,2^\tuttiE f8 f g g
+    g4 g8 g a4 g
+    f4. f8 e4 r8 e
+    e e a4 r8 a a a
+    a4 g8 g c4. g8 %5
+    a4. d8 b4 g~
+    g f e8 e'4 d8
+    cis4 d8 e d4 h \noBreak
+    cis2 r\fermata
+    \tempoA-XIIIFinaleB R1 \noBreak %10
+    r2 a
+    f'4. f8 gis, gis a h
+    c([ d)] c([ h)] a4 d~
+    d8 b g4 a4. h16([ cis)]
+    d8[ d,] d'4. es8[ d c] %15
+    b[ a g f] e4 f8([ g)]
+    a4 r g4. a8
+    b4 r c4. d8
+    e4 r f,4. g8
+    a4 b g4. g8 %20
+    a4 r r2
+    R1
+    r8 f f f d'4 r8 d
+    h([ c)] d([ \hA h)] c4 r
+    r a a8([ g)] fis([ a)] %25
+    d,4 g g8([ f)] e([ g)]
+    c,4 d8([ e)] f4 b
+    e, r r2
+    r8 d' d c b([ d16 c] b8) a
+    g4 r r8 g4 a16([ h)] %30
+    c4 r r8 g a([ b)]
+    c4 r8 a g4 r8 a
+    f4 r8 a d d h h
+    cis4 a gis e
+    f4. f8 e4 r %35
+    r2 r4 d'
+    d2 d,
+    d2. d4
+    d1\fermata \bar "|." %39 finis
+  }
+}
+
+A-XIIIFinaleTenoreIILyrics = \lyricmode {
+  Wür ſtim -- men dan ein --
+  häl -- lig ein Lob und
+  Danckh -- lied an weils
+  Gott al -- ſo, al -- ſo ge --
+  fäl -- lig ſo preys ihm %5
+  je -- der -- man, je --
+  der -- man, je -- der --
+  man, preys ihm je -- der --
+  man.
+  %10
+  Singt
+  hey -- lig, hey -- lig iſt Gott
+  Sa -- ba -- oth, Sa --
+  ba -- oth, iſt Gott
+  Sa -- _ _ %15
+  _ _ ba --
+  oth, Sa -- ba --
+  oth, Sa -- ba --
+  oth, Sa -- ba --
+  oth, Gott Sa -- ba -- %20
+  oth,
+
+  der euch er -- löſt von
+  Höl -- len -- tod,
+  von Höl -- len -- %25
+  tod, von Höl -- len --
+  tod, von Höl -- len --
+  tod
+  an -- je -- zo in __ der
+  Zeit, in der %30
+  Zeit, in der
+  Zeit und dorth, und
+  dorth in al -- le E -- wig --
+  kheit, in al -- le
+  E -- wig -- kheit, %35
+  in
+  al -- le
+  E -- wig --
+  kheit. %39 finis
+}

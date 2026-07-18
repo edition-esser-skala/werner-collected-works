@@ -750,3 +750,91 @@ A-XIIIAriaSeptimaViolinoI = {
     g r\fermataFine \bar "|." %74 finis
   }
 }
+
+A-XIIIAriaOctavaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XIIIAriaOctava
+    r8 c'\f e, f g16( c) e( g) f8 e16 d
+    e( g) g( a) a( h) h( c) c8 a16( h) h( c) c( d)
+    d8 c h16( a) g( fis) g d d e f8.\trill f16
+    e e e f g16. g32 f16 e \sbOn d16.\trill c64( d) e16.\trill d64( e) f16.\trill e64( f) g16.\trill f64( g)
+    a16.\trill g64( a) h16.\trill a64( h) \sbOff c8 h16 a g8 e16. g32 f8 d %5
+    e16 c8 e16 d8 h c4 r
+    r16 g\p c( e) d d c( h) c8 e, r e'
+    d c16 h a8 g fis4 r
+    r r8 g c16 d e8 e16( d) d( c)
+    h4 r r8 c a'4 %10
+    r8 h, g'4 r8 a, fis'4
+    r8 d g,16( fis) g8 r2
+    \sbOn r8 h16.\trill\f a64( h) c16.\trill h64( c) d16.\trill c64( d) e16.\trill d64( e) fis16.\trill e64( \hA fis) g16.\trill \hA fis64( g) a16.\trill g64( a) \sbOff
+    h16( g) e( c) \appoggiatura h8 a8.\trill g16 g4 r
+    r16 g\p c e d d c( h) c8 e, g c %15
+    r2 r8 c e, f
+    g a16 h c d e8 r c f, g
+    a h16 c d e fis8 h, c16 d e f? g8
+    R1
+    r8 c, a'4 r8 h, g'4 %20
+    r8 a, f'4 r8 d g4
+    r2 r16 g\f e g c, e a, c
+    f, a' f a d, f h, d g, h' g h e, g c, e
+    a, c' a c f, a d, f h, d g, h e, g c, e
+    a, a' g f e8 d c4 r\fermataFine %25
+    r2 r8 f'16\p e f c a f
+    r8 d' b'16( a) \hA b8 r a, a'16( g) a8
+    r2 r8 a, d16( c) b( a)
+    b8 d, r4 d16( c) d8 r4
+    r2 r8 a' f'4 %30
+    r8 b, g'4 r8 c, a'4
+    r8 d, b'4 r2
+    r r16 c,\f a c f, f' d f
+    b, d \hA b d g, g' e g c, e c e a, a' f a
+    d, f d f b, d g, \hA b e, g c d a8 g\trill %35
+    f4 r r8 f'16\p e f c a f
+    r4 r8 g e'16( d) c( h) c4
+    R1*2
+    R1\fermata \markAriaDaCapo \bar "||" %40 finis
+  }
+}
+
+A-XIIIFinaleViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoA-XIIIFinale
+    d'2\fE d8 d g g
+    e4. e8 f f g g
+    f c f f e4 r
+    r8 c c c f4 e8 e
+    a4 d, r8 g e e %5
+    c c f f d d g4~
+    g8 g f f e4. d8
+    cis4 d8 e d4. d8 \noBreak
+    cis2 r\fermata
+    \tempoA-XIIIFinaleB R1*5 %14
+    r2 r4 d %15
+    b'4. b8 cis, cis d e
+    f g f e d4. c8
+    b c b a g4 g'8 f
+    e f e d c4 r
+    c d c4. c8 %20
+    c4 r r8 b b b
+    g'4 r8 g e f g e
+    f c4 c8 a4 r8 d
+    h c d \hA h c4 r
+    r a'4. g8 fis a %25
+    d,4 g4. f8 e g
+    c, d16 e f8 e d16 e f8 e d
+    cis a h \hA cis d \hA cis d e
+    f4 r r2
+    r8 g, a h c \hA h c d %30
+    e e f g c,4 r
+    r r8 a g4 r8 e'
+    a,4 r8 f' f f f f
+    e4 r r2
+    r4 d e fis %35
+    g2. fis4
+    g d2 c4~
+    c b8 a b2\trill
+    a1\fermata \bar "|." %39 finis
+  }
+}

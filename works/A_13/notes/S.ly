@@ -79,3 +79,87 @@ A-XIIIChorusSopranoLyrics = \lyricmode {
   fal --
   len. %43 finis
 }
+
+A-XIIIFinaleSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \autoBeamOff \tempoA-XIIIFinale
+    a'2^\tuttiE b8 b h h
+    c g c4 c4. c8
+    a4. a8 g g g g
+    c4 a d cis
+    r8 d b b g g c c %5
+    a a f f b g16([ a)] b([ c)] d8
+    c4. a8 g g g4~
+    g8 g f e f4. f8 \noBreak
+    e2 r\fermata
+    \tempoA-XIIIFinaleB R1*3 %12
+    r2 d
+    b'4. b8 cis, cis d e
+    f([ g)] f([ e)] d4 d'~ %15
+    d8[ c!] b4 a4. h16([ cis)]
+    d4 d, d4. e16([ fis)]
+    g4 g g4. a16([ b)]
+    c4 c, c4. d16([ e)]
+    f4 f4. f8 e4 %20
+    r8 f f f d'4 r8 d
+    h([ c)] d([ \hA h)] c4. c8
+    c,4 r r2
+    r8 g' g g e'4 r8 e
+    cis([ d)] e([ \hA cis)] d4 r8 d %25
+    h([ c)] d([ \hA h)] c4. c8
+    a4 a4.( g16[ f)] g4
+    a8 cis([ d)] e a,4 r
+    r8 d, e fis g([ \hA fis)] g([ a)]
+    b b([ c)] d g,4 r %30
+    r8 c c b a([ c16 b] a8) g
+    f c' f4 r8 g, a4
+    r8 a d d d4. d8
+    cis4 a h cis
+    d4. d8 a2 %35
+    r4 d c! a
+    b2 a4 a~
+    a g8([ fis)] g4. g8
+    fis1\fermata \bar "|." %39 finis
+  }
+}
+
+A-XIIIFinaleSopranoLyrics = \lyricmode {
+  Wür ſtim -- men dan ein --
+  häl -- lig ein Lob und
+  Danckh -- lied an weils Gott al --
+  ſo ge -- fäl -- lig
+  ſo preys ihm je -- der -- man, ſo %5
+  preys ihm je -- der -- man, ſo preys ihm
+  je -- der -- man, ſo prey __
+  ſe ihm doch je -- der --
+  man.
+
+  Singt %13
+  hey -- lig, hey -- lig iſt Gott
+  Sa -- ba -- oth, Sa -- %15
+  _ _ ba --
+  oth, Gott Sa -- ba --
+  oth, Gott Sa -- ba --
+  oth, Gott Sa -- ba --
+  oth, Sa -- ba -- oth, %20
+  der euch er -- löſt von
+  Höl -- len, Höl -- len --
+  tod
+  der euch er -- löſt von
+  Höl -- len -- tod, von %25
+  Höl -- len, Höl -- len --
+  tod, Höl -- len --
+  tod, Höl -- len -- tod
+  an -- je -- zo in __ der
+  Zeit, in der Zeit, %30
+  an -- je -- zo in __ der
+  Zeit und dorth, und dorth
+  in al -- le E -- wig --
+  kheit, in al -- le
+  E -- wig -- kheit, %35
+  in al -- le,
+  al -- le, al --
+  le E -- wig --
+  kheit. %39 finis
+}

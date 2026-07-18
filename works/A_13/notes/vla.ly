@@ -74,7 +74,7 @@ A-XIIIAriaPrimaViola = {
     d'8\fE a16 g f8 e d4 r
     cis a b8 b' f g
     a4 a, d r
-    r2 f8 c a g-\critnote
+    r2 f8 c a g
     f4 r c''8\p g e d %5
     cis4 r d'8\f a f e
     d4 g a8. g16 f8 e
@@ -425,5 +425,74 @@ A-XIIIAriaSeptimaViola = {
     g' fis e h
     c e d d,
     g4 r\fermataFine \bar "|." %74 finis
+  }
+}
+
+A-XIIIAriaOctavaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XIIIAriaOctava
+    c'8\fE c, r f, c'8. c16 f8 g
+    c, c'4 h8 a d4 c8
+    h c d d, g f16 e d8 d'
+    a g16 f e8 f g f16 e d d' c h
+    a8 g16 f e8 d16 c h8 c f g %5
+    c, a f g c4 r
+    R1*6 %12
+    g8\fE g' d h c a h fis
+    g c d d, g4 r
+    R1*7 %21
+    r2 c8\f c' a f
+    d d' h g e e' c a
+    f f' d h g e c a'
+    f d g g, c4 r\fermataFine %25
+    R1*14 %39
+    R1\fermata \markAriaDaCapo \bar "||" %40 finis
+  }
+}
+
+A-XIIIFinaleViola = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \minor \time 4/4 \tempoA-XIIIFinale
+    d2\fE b8 b g g
+    c4. c'8 a a e e
+    f f f, f c'4 r8 c
+    c c f f d d a' a
+    fis4 g8 g e e c c %5
+    f f d d g4. f8
+    e e f f c4. b8
+    a4 d8 cis d2 \noBreak
+    a r\fermata
+    \tempoA-XIIIFinaleB R1 \noBreak %10
+    r2 a
+    f'4. f8 gis, gis a h
+    c d c h a4 d~
+    d8 b g4 a4. h16 cis
+    d8 d, d'4. es8 d c %15
+    b a g f e4 f8 g
+    a4 r g4. a8
+    b4 r c4. d8
+    e4 r f,4. g8
+    a4 b g4. g8 %20
+    a4 r r2
+    R1
+    r8 f f f d'4 r
+    r r8 g, g g e'4~
+    e8 d cis e a, a d4~ %25
+    d8 c h d g, g c4
+    c,4 d8 e f4 b
+    e, r r2
+    r8 d' d c b d16 c b8 a
+    g4 r r8 g4 a16 h %30
+    c4 r r8 g a b
+    c4 r8 f e4 r8 a,
+    f4 r8 a d d h h
+    cis4 a gis e
+    f4. f8 e4 r %35
+    r2 r4 d'
+    d2 d,
+    d1
+    d\fermata \bar "|." %39 finis
   }
 }

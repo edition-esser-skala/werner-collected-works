@@ -754,3 +754,93 @@ A-XIIIAriaSeptimaViolinoII = {
     g r\fermataFine \bar "|." %74 finis
   }
 }
+
+A-XIIIAriaOctavaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XIIIAriaOctava
+    r8 e\f c d e16( g) c( e) d8 c16 h
+    c( e) e( fis) fis( g) g( a) a8 fis16( g) g( a) a( h)
+    h( d,) e8 d16( c) h( a) h4 r16 a a h
+    c c c d c16. e32 d16 c h8 c a h\trill
+    c d\trill e16 g f e d8 c16. e32 d8 h %5
+    c16 e,8 a16 f8 d e4 r
+    r8 a\p f16 f e( d) e8 c r4
+    r8 g' e16( d) e8 a,4 r
+    r2 r8 e' a fis
+    d4 r8 g e'4 r8 fis, %10
+    d'4 r8 e, c'4 r8 d,
+    h'4 r8 g' g,16( fis) g8 r4
+    \sbOn r8 h16.\trill\f a64( h) c16.\trill h64( c) d16.\trill c64( d) e16.\trill d64( e) fis16.\trill e64( \hA fis) g16.\trill \hA fis64( g) a16.\trill g64( a) \sbOff
+    h16( g) e( c) \appoggiatura h8 a8.\trill g16 g4 r
+    r8 g\p a16( f!) e( d) e8 c c' e %15
+    r2 r8 e,4 d8
+    c c16 d e f g8 r a f e
+    d d16 e fis g a8 d, e16 f g a h8
+    r2 r4 r8 g
+    e'4 r8 f, d'4 r8 e, %20
+    c'4 r8 d, h'4 r
+    r2 r16 g'\f e g c, e a, c
+    f, a' f a d, f h, d g, h' g h e, g c, e
+    a, c' a c f, a d, f h, d g, h e, g c, e
+    a, a' g f e8 d c4 r\fermataFine %25
+    r2 r4 r8 f\p
+    d'16( c) d8 r g cis,16( h) \hA cis8 r4
+    a16( g) a8 r4 r2
+    r8 d, d'16( c) d8 r2
+    r r4 r8 d, %30
+    b'4 r8 e, c'4 r8 f,
+    d'4 r8 g, e'4 r
+    r2 r4 r8 d,~\f
+    d b' r e,4 c'8 r f,~
+    f d' r g,~ g16e f4 e8 %35
+    f4 r r8 f'16\p e f c a f
+    r8 g d'4 r2
+    R1*2
+    R1\fermata \markAriaDaCapo \bar "||" %40 finis
+  }
+}
+
+A-XIIIFinaleViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoA-XIIIFinale
+    a'2\fE b8 b h h
+    c g c4. c8 c, c
+    a'4. a8 g g g g
+    c4 a d cis
+    r8 d b b g g c c %5
+    a a f f b g16 a b c d8
+    c4. a8 g g g4~
+    g8 g f e f f gis gis \noBreak
+    a2 r\fermata
+    \tempoA-XIIIFinaleB R1*3 %12
+    r2 d,
+    b'4. b8 cis, cis d e
+    f g f e d4 d'~ %15
+    d8 c! b4 a4. h16 cis
+    d4 d, d4. e16 fis
+    g4 g g4. a16 b
+    c4 c, c4. d16 e
+    f4 f4. f8 e4 %20
+    r8 f f f d'4 r8 d
+    h c d \hA h c4. c8
+    c,4 r r2
+    r8 g' g g e'4 r8 e
+    cis d e \hA cis d4 r8 d %25
+    h c d \hA h c4. c8
+    a4 a4. g16 f g4
+    a8 cis, d e a,4 r
+    r8 d e fis g \hA fis g a
+    b b c d g,4 r %30
+    r8 c c b a c16 b a8 g
+    f c' f4 r8 g, a4
+    r8 a d d d4. d8
+    cis4 a h cis
+    d4. d8 a2 %35
+    r4 d c! a
+    b2 a~
+    a4 g8 fis g2\trill
+    fis1\fermata \bar "|." %39 finis
+  }
+}

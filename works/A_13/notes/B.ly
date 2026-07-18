@@ -91,3 +91,91 @@ A-XIIIChorusBassoLyrics = \lyricmode {
   fal --
   len. %43 finis
 }
+
+A-XIIIFinaleBasso = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \autoBeamOff \tempoA-XIIIFinale
+    d2^\tuttiE b8 b g g
+    c4 c8 c' a4 e
+    f4. f8 c4 r8 c
+    c c f f d4 a'8 a
+    fis4 g8 g e e c c %5
+    f f d d g4. f8
+    e4 f c4. b8
+    a a' d, cis d4. d8 \noBreak
+    a2 r\fermata
+    \tempoA-XIIIFinaleB d2 b'4. b8 \noBreak %10
+    cis, cis d e f([ g)] f([ e)]
+    d4 d e8([ d)] c([ h)]
+    a4 e' f fis
+    g4. g8 g([ a16 g)] f8([ e)]
+    d d'4 c8 b([ c)] b([ a)] %15
+    g4 g a8([ g)] f([ e)]
+    d4 d'8([ c)] b([ c)] b([ a)]
+    g4. f8 e([ f)] e([ d)]
+    c4 c'8 b a([ b)] a([ g)]
+    f4 b, c4. c8 %20
+    f,4 r r2
+    r r8 c' c c
+    a'4 r8 a fis([ g)] a([ \hA fis)]
+    g4. g8 c, c c c
+    a'4 r8 a fis([ g)] a([ \hA fis)] %25
+    g4 r8 g e([ f)] g([ e)]
+    f([ e)] d([ c)] b4. b8
+    a a' a g f([ a16 g] f8) e
+    d4 r r2
+    r8 g g f e([ g16 f] e8) d %30
+    c c d e f([ e)] f([ g)]
+    a4 r8 f c'4 r8 cis,
+    d4 r8 d b' b gis gis
+    a4 r r2
+    r4 d, cis a %35
+    b4. b8 a4 d
+    g2 fis
+    g2. g4
+    d1\fermata \bar "|." %39 finis
+  }
+}
+
+A-XIIIFinaleBassoLyrics = \lyricmode {
+  Wür ſtim -- men dan
+  ein -- häl -- lig ein Lob und
+  Danckh -- lied an weils
+  Gott al -- ſo ge -- fäl -- lig, ge --
+  fäl -- lig ſo preys ihm je -- der -- %5
+  man, ſo preys ihm je -- der --
+  man, ſo prey -- ſe,
+  prey -- ſe ihm doch je -- der --
+  man.
+  Singt hey -- lig, %10
+  hey -- lig iſt Gott Sa -- ba --
+  oth, Gott Sa -- ba --
+  oth, ſingt hey -- lig
+  iſt Gott Sa -- ba --
+  oth, iſt Gott Sa -- ba -- %15
+  oth, ſingt hey -- lig
+  iſt Gott Sa -- ba --
+  oth, Gott Sa -- ba --
+  oth, iſt Gott Sa -- ba --
+  oth, Gott Sa -- ba -- %20
+  oth,
+  der euch er --
+  löſt von Höl -- len,
+  Höl -- len -- tod, der euch er --
+  löſt von Höl -- len -- %25
+  tod, von Höl -- len --
+  tod, von Höl -- len --
+  tod an -- je -- zo in __ der
+  Zeit,
+  an -- je -- zo in __ der %30
+  Zeit, an -- je -- zo in __ der
+  Zeit und dorth, und
+  dorth in al -- le E -- wig --
+  kheit,
+  in al -- le %35
+  E -- wig -- kheit, in
+  al -- le
+  E -- wig --
+  kheit. %39 finis
+}

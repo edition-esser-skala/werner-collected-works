@@ -1599,3 +1599,108 @@ A-XIIIScenaNonaSoliLyrics = \lyricmode {
   le -- ben mueß Er daß ſei -- nig ge -- ben ohn
   ein -- zi -- gen Par -- don. %22 finis
 }
+
+A-XIIIAriaOctavaSoli = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIIAriaOctava
+    R1*5 %5
+    r2 r8 c' e, f
+    g e f g c, e g([ c16 e]
+    d8) c16([ h)] a8 g fis a h c
+    d g, a h c16([ h) c8] r a
+    h d g, h e,16[ e' c e] a,[ c fis, a] %10
+    d,[ d' h d] g,[ h e, g] c,[ c' a c] fis,[ a d, \hA fis]
+    h,8 d g16([ a h c] d[ h)] a([ g)] d8. d16
+    g,4 r r2
+    r r8 c' e, f!
+    g e f g c, r r c' %15
+    d16([ c)] h([ a)] g8 f e4 r8 f
+    g a16([ h)] c8 c, a'8. g16 f8 g
+    a h16([ c)] d8 d, h'8. a16 g8 h
+    c c, c'4. h16([ a)] g8 f
+    e16[ e' c e] a,[ c f, a] d,[ d' h d] g,[ h e, g] %20
+    c,[ c' a c] f,[ a d, f] h,8 d' c a16([ f)]
+    e([ f g f] g8) g, c4 r
+    R1*2
+    r2 r4\fermataFine r8 e %25
+    f16([ g)] a([ b)] c([ g)] e([ c)] a'8. g16 f8 a
+    d, b'?16([ a)] g([ f)] e([ d)] cis4 r8 a'
+    f cis d e16([ g)] f([ e)] d([ cis)] d8 d'
+    b fis g a16([ c)] b([ a)] g([ fis)] g8 d
+    b' a16([ g)] f([ e)] d8 cis a' f d %30
+    b16[ b' g \hA b] e,[ g c, e] a,[ c' a c] f,[ a d, f]
+    b,[ d' b d] g,[ \hA b e, g] c,[ d e c] f[ g a b]
+    c[ g a f] c8. c16 f,4 r
+    R1
+    r2 r4 r8 c' %35
+    f16([ a)] g([ f)] c'([ g)] a([ b)] a8. g16 f8 a
+    d, e16([ f)] g([ f)] e([ f)] e4 r8 e16([ fis)]
+    gis8 gis a h16([ d)] c([ h)] a([ gis)] a8 g
+    f e dis8. dis16 e8 h' c16([ a)] f([ d)]
+    e4. e8 a,4 r\fermata \markAriaDaCapo \bar "||" %40 finis
+  }
+}
+
+A-XIIIAriaOctavaSoliLyrics = \lyricmode {
+  So habt dan %6
+  acht und nicht ver -- acht mein groſ --
+  ſe Lieb und Gnad, wer die ver --
+  ſcherzt nit wohl be -- herzt der
+  ko -- met einſt zu ſpath, __ _ %10
+  _ _ _ _
+  _ der ko -- met einſt zu
+  ſpath.
+  So habt dan
+  acht und nit ver -- acht mein %15
+  groſ -- ſe Lieb und Gnad, wer
+  die ver -- ſcherzt nit wohl be -- herzt, wer
+  die ver -- ſcherzt nit wohl be -- herzt, der
+  ko -- met, ko -- met einſt zu
+  ſpath, __ _ _ _ %20
+  _ _ _ der ko -- met
+  einſt __ zu ſpath.
+
+  Wolt %25
+  ihr dem -- nach nit weh und ach auf
+  e -- wig dorth ver -- ſpührn, ſo
+  müſ -- ſet ihr jezt nach Ge -- bühr, ſo
+  müſ -- ſet ihr jezt nach Ge -- bühr ein
+  fro -- men Wan -- del führn, ein fro -- men %30
+  Wan -- _ _ _
+  _ _ _ _
+  _ _ del führn.
+
+  Wolt %35
+  ihr dem -- nach nit weh und ach auf
+  e -- wig dorth ver -- ſpührn, ſo
+  müſ -- ſet ihr jezt nach Ge -- bühr ein
+  fro -- men Wan -- del führn, ein fro -- men
+  Wan -- del führn. %40 finis
+}
+
+A-XIIIScenaDecimaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIIIScenaDecima
+    r8^\Barmherzigkeit a' e' g, f d' c16 c g a
+    b8 d \hA b8. a16 a8 a \clef "treble_8" r^\Gerechtigkeit c,
+    c16 c a c f8 f, d' d r16 d a b
+    c8 c es c b b16 g es' c b g
+    g8 d r4 \fC r8^\Adam g h16 h c d %5
+    g,8. g16 g8 c a c f f,
+    d'8. d16 d8 b as8. as16 as8 r16 f
+    f8 c r4 r2\fermata \bar "|." %8 finis
+  }
+}
+
+A-XIIIScenaDecimaSoliLyrics = \lyricmode {
+  Ô groſ -- ſer Gott dir danck -- he ich daß
+  du mein Bitt er -- hö -- ret. Wan
+  du nicht hät -- teſt Gnad ge -- fun -- den ſo wär der
+  Menſch ſchon ü -- ber -- wun -- den von Höl -- len -- brand ver --
+  zeh -- ret. Da -- rum ſoll Gott von %5
+  mei -- nen Gſchlecht mit al -- len Fug und
+  bil -- lign Recht auf e -- wig ſeyn ver --
+  eh -- ret. %8 finis
+}
