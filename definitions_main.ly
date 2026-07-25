@@ -22,6 +22,17 @@ markOsannaUtSupra = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark "Osanna ut supra"
 }
+markAriaDaCapo = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Aria da capo"
+}
+
+fermataFine = #(define-event-function () ()
+  #{ \tweak Script.outside-staff-priority #0
+       \fermata
+     \tweak TextScript.self-alignment-X #-.4
+       ^\markup \remark "fine" #}
+)
 
 brkBeam = #(make-music 'BeamForbidEvent)
 mvT = #(define-music-function
