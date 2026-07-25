@@ -223,7 +223,7 @@ A-IXAriaPrimaViolinoII = {
     h16 c d \hA h f8 d' g,4~ g16 g' f g
     c,8 a a a f d' g, b
     e, f16 g f8 g' f8. g16 e4\trill
-    f\fermata r r2
+    f\fermataFine r r2
     a,16\p cis e \hA cis a8 e' a,4 r %35
     r8 d d16 c d8 d,4 r
     r2 r8 gis gis gis
@@ -241,7 +241,7 @@ A-IXAriaPrimaViolinoII = {
     r2 r8 e16 d c h a8
     r e16 fis gis a h8 r a,16 h c d e8
     r a a a gis16 a h \hA gis a4
-    R1 \markDaCapo \bar "||"
+    R1 \markAriaDaCapo \bar "||"
   }
 }
 
@@ -332,7 +332,7 @@ A-IXAriaSecundaViolinoII = {
     es8. d32 c b8 as %65
     g8.\trill f32 g as8 f
     es8. f16 f4\trill
-    es r\fermata \bar "|." %68 finis
+    es r\fermataFine \bar "|." %68 finis
   }
 }
 
@@ -379,7 +379,7 @@ A-IXAriaTertiaViolinoII = {
     c4 g8 c8. d16 b8
     a8. g16 fis8 b8. a16 g8
     g4 as8 g8. a16 fis8
-    g8. d16 b8 g4\fermata r8 %40
+    g8. d16 b8 g4\fermataFine r8 %40
     r4 d''8 b8. d16 f,!8
     g8. es16 f8 g4 f8
     g8. a16 b8 c8. b16 c8
@@ -402,7 +402,7 @@ A-IXAriaTertiaViolinoII = {
     cis8. h16 \hA cis8 d4 e8 %60
     a,4 b!8 a8. g16 a8
     f8. g16 a8 d,4 r8
-    \time 4/4 R1 \markDaCapo \bar "||" %63 finis
+    \time 4/4 R1 \markAriaDaCapo \bar "||" %63 finis
   }
 }
 
@@ -507,7 +507,7 @@ A-IXAriaQuartaViolinoII = {
     d2. h'4
     a h8 cis d cis d e
     d2 cis\trill
-    d\fermata r %90
+    d\fermataFine r %90
     R1*3
     r8 ais'\f ais ais ais ais ais ais
     fis4 fis, ais fis' %95
@@ -574,7 +574,7 @@ A-IXAriaQuartaViolinoII = {
     r2 fis4( gis)
     gis( ais) ais( h)
     h2 r
-    R1*4 \markDaCapo \bar "||" %168 finis
+    R1*4 \markAriaDaCapo \bar "||" %168 finis
   }
 }
 
@@ -636,7 +636,7 @@ A-IXAriaQuintaViolinoII = {
     b a g a b g c b a b c a
     d es d es f8 g g, a
     d16 es d es f8 g g, a %55
-    b f16 es d c b4\fermata r8
+    b f16 es d c b4\fermataFine r8
     R2.
     d16\p fis a8 a a( g) fis
     g4 r8 f( es) d
@@ -654,7 +654,7 @@ A-IXAriaQuintaViolinoII = {
     cis e16 d \hA e8  \hA cis a' \hA cis,
     R2.*3 %75
     \time 4/4 \tempoA-IXAriaQuintaB
-      R1*2 \markDaCapo \bar "||" %77 finis
+      R1*2 \markAriaDaCapo \bar "||" %77 finis
   }
 }
 
@@ -728,7 +728,7 @@ A-IXAriaSextaViolinoII = {
     c h\trill
     c c,~ %70
     c h\trillE
-    c\fermata r
+    c\fermataFine r
     R2*4 %76
     r8 d'32( c b a) g8 h32( a g f!)
     es4 r
@@ -781,7 +781,7 @@ A-IXAriaSextaViolinoII = {
     g8 g g g %125
     g2
     fis\trill
-    g \markDaCapo \bar "||" %128 finis
+    g \markAriaDaCapo \bar "||" %128 finis
   }
 }
 
@@ -956,7 +956,7 @@ A-IXASAriaPrimaViolinoII = {
     g8 es4 es8 es4 f d4.\trill c16 d
     es8\p g,4 g8 g4 as g8. f32 es f8. es32 d %60
     es16\f b'' b b b b b b c,4 \tuplet 3/2 4 { as'8 g f } \appoggiatura es4 d2\trill
-    es\fermata r r
+    es\fermataFine r r
     R1.*2
     r4 g, es'8 d es d c b c b %65
     as4 f r2 r
@@ -987,7 +987,7 @@ A-IXASAriaPrimaViolinoII = {
     b2 r4 c b8 d c b
     a2 r r
     R1.*4 %96
-    \time 4/4 \tempoA-IXASAriaPrimaB R1*2 \markDaCapo \bar "||" %98 finis
+    \time 4/4 \tempoA-IXASAriaPrimaB R1*2 \markAriaDaCapo \bar "||" %98 finis
   }
 }
 
@@ -1023,7 +1023,7 @@ A-IXASAriaSecundaViolinoII = {
     cis a e fis d h \sbOff } \appoggiatura a8 gis8. a16
     \tuplet 3/2 8 { \sbOn a e' e e e e h' gis e gis e h
     cis a e fis d h \sbOff } \appoggiatura a8 gis8.\trill a16
-    a4\fermata r
+    a4\fermataFine r
     r \tuplet 3/2 8 { \sbOn a'16 g fis \hA g fis e \sbOff } %30
     fis( a) d( cis) d( a) fis( d)
     a'( cis) h( a) fis( h) a( gis!)
@@ -1049,7 +1049,7 @@ A-IXASAriaSecundaViolinoII = {
     eis8 cis r4
     r16 cis eis fis \hA eis8 r
     r16 cis eis gis cis8 fis %55
-    R2*4 \markDaCapo \bar "||" %59 finis
+    R2*4 \markAriaDaCapo \bar "||" %59 finis
   }
 }
 
@@ -1082,7 +1082,7 @@ A-IXASAriaTertiaViolinoII = {
     r4 r16 g,\f e16. g32 c,16. a'32 f16. a32 d,16. h'32 g16. h32
     e,16. c'32 a16. c32 \tuplet 3/2 8 { \sbOn d16 c h h c d } g,16. e'32 \tuplet 3/2 8 { f16 e d } \appoggiatura c8 h8.\trill c16
     \tuplet 3/2 8 { c e d c h a g a g f e d e f g a g f } \sbOff \appoggiatura e8 d8.\trill c16 %35
-    c4\fermata r r r8 e'~\p
+    c4\fermataFine r r r8 e'~\p
     \tuplet 3/2 8 { \sbOn e16 d c c h a \sbOff } h8 e, r2
     R1*4 %41
     r2 r8 d'~\f \tuplet 3/2 8 { \sbOn d16 e d c h a
@@ -1093,7 +1093,7 @@ A-IXASAriaTertiaViolinoII = {
     R1
     r2 r8 a'~\f \tuplet 3/2 8 { \sbOn a16 h c d e fis \sbOff }
     h,4 r r2
-    R1*5 \markDaCapo \bar "||" %54 finis
+    R1*5 \markAriaDaCapo \bar "||" %54 finis
   }
 }
 
@@ -1181,7 +1181,7 @@ A-IXASAriaQuartaViolinoII = {
     b16( a) b8 r a16 h cis d e \hA cis a8-! r r g-! r r
     g-! r r f-! r r f-! r r e-! r r
     e-! r r d-! r r f g e d16 f e g f e
-    d8 e cis d4. r2*3/2\fermata \bar "|." %40 finis
+    d8 e cis d4. r2*3/2\fermataFine \bar "|." %40 finis
   }
 }
 

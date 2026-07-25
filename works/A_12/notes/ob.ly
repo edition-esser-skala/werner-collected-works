@@ -19,9 +19,9 @@ A-XIIAriaTertiaOboe = {
     r2 g'8( e) c( b!) %25
     \tuplet 3/2 8 { as16 g f } f8 as'2 g8 f
     es \tuplet 3/2 8 { d16 c h } c( g) as( f) es8. f16 d4\trill
-    c\fermata r r2
+    c\fermataFine r r2
     R1*9 %37
-    R1\fermata \markDaCapo \bar "||" %38 finis
+    R1\fermata \markAriaDaCapo \bar "||" %38 finis
   }
 }
 
@@ -53,9 +53,9 @@ A-XIIAriaSextaOboe = {
     a8. e16 g8 f8. e16 d8
     es8. d16 cis8 a'8. f16 d8 %35
     es8. d16 cis8 d8. a16 b8 \noBreak
-    f8. g16 e8 d4 r8\fermata
+    f8. g16 e8 d4 r8\fermataFine
     \twofourtime \time 2/4 \tempoA-XIIAriaSextaB \newSpacingSection
       R2*41 %78
-    \time 4/4 \tempoA-XIIAriaSextaC R1\fermata \markDaCapo \bar "||" %79 finis
+    \time 4/4 \tempoA-XIIAriaSextaC R1\fermata \markAriaDaCapo \bar "||" %79 finis
   }
 }

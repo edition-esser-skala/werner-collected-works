@@ -385,7 +385,7 @@ A-XIXAAriaPrimaContinuo = {
     f, f' e f c f a, c
     f,8 b c c,
     f f f f \noBreak
-    f4 r\fermata \bar "||"
+    f4 r\fermataFine \bar "||"
     \time 3/8 \tempoA-XIXAAriaPrimaB \newSpacingSection
       d'4\pE e8 \noBreak %85
     f8. e16 d8
@@ -705,7 +705,7 @@ A-XIXAAriaSecundaContinuo = {
     as4\fE r8 d,4 r8 g4 r8 c,4 r8
     f4 f,8 b4 es8 as,4 d8 g,4 c8
     f, f'16 es d c b8 b' g as4 b8 es,4 r8 \noBreak %30
-    c'4 r8 g4 r8 as4 b8 es,\fermata es\pE d
+    c'4 r8 g4 r8 as4 b8 es,\fermataFine es\pE d
     \time 4/4 \tempoA-XIXAAriaSecundaB \newSpacingSection
       c16 c' g c es, g c, es g, g' d g h, d g, \hA h \noBreak
     c c' g c es, g c, es b b' f b d, f b, d
@@ -919,7 +919,7 @@ A-XIXAAriaTertiaContinuo = {
     d4 e8
     a,\f c e
     a e c \noBreak %95
-    a4 r8\fermata \bar "||"
+    a4 r8\fermataFine \bar "||"
       \time 4/4 \tempoA-XIXAAriaTertiaB \newSpacingSection
       e'8\p e e e e e e e \noBreak
     e e e e e e e e
@@ -1181,7 +1181,7 @@ A-XIXAAriaQuartaContinuo = {
     c b a a g f f es d f' es d d c b b a g g f es es f g } \sbOff
     f8 f, b d es es16 d c8 es %20
     f f16 es d8 f g es f f, \noBreak
-    b es f f, b4 r\fermata \bar "||"
+    b es f f, b4 r\fermataFine \bar "||"
     \key g \minor \time 3/8 \tempoA-XIXAAriaQuartaB \newSpacingSection
       g'16\f fis g a b c \noBreak
     d c d d, e fis
@@ -1626,7 +1626,7 @@ A-XIXBAriaPrimaContinuo = {
     g g,
     c8\f r c r c r c r
     c r c r c d e f \noBreak
-    g4 g, c r\fermata \bar "||" %45
+    g4 g, c r\fermataFine \bar "||" %45
     \key f \major \time 3/8 \tempoA-XIXBAriaPrimaB
       f8\pE f f \noBreak
     f f f
@@ -1903,7 +1903,7 @@ A-XIXBAriaSecundaContinuo = {
     d c d e fis d
     g a g f es d
     c es d c d d, \noBreak
-    g4 r8\fermata
+    g4 r8\fermataFine \bar "||"
     \twofourtime \time 2/4 \tempoA-XIXBAriaSecundaB \newSpacingSection
       d'8\pE d d d \noBreak %80
     e? e cis cis
@@ -2224,7 +2224,7 @@ A-XIXBAriaTertiaContinuo = {
     f c f, r8 c' %30
     f,4 r g2~-\tasto
     g~ g4 r8 g \noBreak
-    c f g g, c,4 r\fermata \bar "||"
+    c f g g, c,4 r\fermataFine \bar "||"
     \twofourtime \time 2/4 \tempoA-XIXBAriaTertiaB
       es'4\pE r \noBreak
     g d %35
@@ -2530,7 +2530,7 @@ A-XIXBAriaQuartaContinuo = {
     d b' a g f es d c
     b8 es f f,
     b4 r16 b' f d %100
-    b4 r\fermata \bar "|." %101 finis
+    b4 r\fermataFine \bar "|." %101 finis
   }
 }
 

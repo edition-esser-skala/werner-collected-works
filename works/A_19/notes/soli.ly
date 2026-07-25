@@ -181,7 +181,7 @@ A-XIXAAriaPrimaSoli = {
     a4( g)\trill
     f r
     R2*6 \noBreak %83
-    R2\fermata \bar "||"
+    R2\fermataFine \bar "||"
     \time 3/8 \tempoA-XIXAAriaPrimaB \newSpacingSection
       a8([ d)] cis \noBreak %85
     d([ a)] b
@@ -460,7 +460,7 @@ A-XIXAAriaSecundaSoli = {
     b b b b b b es16([ g)] f([ es)] d([ c)] b[ es d c b as]
     g[ c b as g f] es[ f g \hA as] b8 \tuplet 3/2 8 { c16[( b \hA as]) } g8([ f]) es4 r8
     R1.*3 \noBreak %30
-    R1.\fermata
+    R1.\fermataFine
     \time 4/4 \tempoA-XIXAAriaSecundaB \newSpacingSection
       r4 r8 c' c16([ h)] h8 r d \noBreak
     d16([ c)] c8 r es es16([ d)] d8 r f
@@ -625,7 +625,7 @@ A-XIXAAriaTertiaSoli = {
     a16.[^\critnote h32] h4\trill
     a r8 %85
     R4.*10 \noBreak %85
-    R4.\fermata \bar "||"
+    R4.\fermataFine \bar "||"
     \time 4/4 \tempoA-XIXAAriaTertiaB \newSpacingSection
       r4 h, g'16([\trill fis g8)] e4 \noBreak
     r e h'16([\trill a h8)] g4
@@ -837,7 +837,7 @@ A-XIXAAriaQuartaSoli = {
     a c d, a' b d es, g
     f8. f16 b,4 r2 %20
     R1 \noBreak
-    R\fermata \bar "||"
+    R\fermataFine \bar "||"
     \key g \minor \time 3/8 \tempoA-XIXAAriaQuartaB \newSpacingSection
       R4.*10 %32
     d8 g b
@@ -1104,7 +1104,7 @@ A-XIXBAriaPrimaSoli = {
     \once \tieDashed c~ c8.[ d16] d4\trill
     c r r2
     R1 \noBreak
-    R\fermata \bar "||" %45
+    R\fermataFine \bar "||" %45
     \key f \major \time 3/8 \tempoA-XIXBAriaPrimaB
       c8 \tuplet 3/2 8 { d16([ e f)] } d8 \noBreak
     d c r
@@ -1347,7 +1347,7 @@ A-XIXBAriaSecundaSoli = {
     g16[ a] a8. g16
     g4 r8
     R4.*4 \noBreak %78
-    R4.\fermata \bar "||"
+    R4.\fermataFine \bar "||"
     \twofourtime \time 2/4 \tempoA-XIXBAriaSecundaB \newSpacingSection
       r4 r8 d' \noBreak %80
     \sbOn cis32([ d e d \hA cis16 b!)] \sbOff a8.\trill g16
@@ -1627,7 +1627,7 @@ A-XIXBAriaTertiaSoli = {
     c\fermata~-\frma c8.[ d16] d4\trill
     c r r2
     R1*3 \noBreak %32
-    R1\fermata \bar "||"
+    R1\fermataFine \bar "||"
     \twofourtime \time 2/4 \tempoA-XIXBAriaTertiaB
       b8 es4 g8 \noBreak
     es d16([ c)] b8 as %35
@@ -1905,7 +1905,7 @@ A-XIXBAriaQuartaSoli = {
     f4 f,8 f
     b4 r
     R2*7 %100
-    R2\fermata \bar "|." %101 finis
+    R2\fermataFine \bar "|." %101 finis
   }
 }
 

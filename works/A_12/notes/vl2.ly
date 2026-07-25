@@ -104,7 +104,7 @@ A-XIIAriaPrimaViolinoII = {
     \appoggiatura es8 d4 f8 \tuplet 3/2 8 { g16 a b } g32( es16.) d32( c16.) g'32( c,16.) b32( c16.)
     \appoggiatura b8 a4 r16 f c'32( es16.) es32( d16.) f32( b,16.) b32( a16.) c32(\p es,16.)
     es32( d16.) f32( b,16.) b32( a16.) c'32(\f es16.) \tuplet 3/2 8 { \sbOn d16 es f g es c } b16. c32 c8\trill
-    \tuplet 3/2 8 { d16 es f g es c } b16. c32 c8\trill \sbOff b4\fermata r
+    \tuplet 3/2 8 { d16 es f g es c } b16. c32 c8\trill \sbOff b4\fermataFine r
     R1 %25
     r2 r8 g16.\f d'32 c8 b,16. b'32
     a8 f r4 r8 a\p d16 g, fis c'
@@ -119,7 +119,7 @@ A-XIIAriaPrimaViolinoII = {
     r8 fis16 g a( fis) g( b,) b( a) a8 r4
     r2 r8 g' es'16( d) d( cis)
     cis8 r r4 r2
-    R1\fermata \markDaCapo \bar "||" %39 finis
+    R1\fermata \markAriaDaCapo \bar "||" %39 finis
   }
 }
 
@@ -180,7 +180,7 @@ A-XIIAriaSecundaViolinoII = {
     e16( a8.) f!16( d8.) c8 \once \slurDashed h16( a) h8 gis
     a16 a, c e a8 a gis f! e d
     c16( e8.) f16( d8.) c8 d16 c d8 h %55
-    a4\fermata r r2
+    a4\fermataFine r r2
     r8 h\p e16 fis g8 \hA fis8 h4 a8
     g h4 e8 r d!4 c8
     h4. c16 d e8( c) a( g)
@@ -213,7 +213,7 @@ A-XIIAriaSecundaViolinoII = {
     r4 e dis h
     c dis e8 h e4~
     e e, e2
-    \tempoA-XIIAriaSecundaB dis\trill e\fermata \markDaCapo \bar "||" %90 finis
+    \tempoA-XIIAriaSecundaB dis\trill e\fermata \markAriaDaCapo \bar "||" %90 finis
   }
 }
 
@@ -248,7 +248,7 @@ A-XIIAriaTertiaViolinoII = {
     es4 d c r8 c' %25
     as4. g8 f4 g~
     g8 f g as16( f) es8. f16 d4\trill
-    c\fermata r r2
+    c\fermataFine r r2
     r4 d16 es f8 g16 a b8 a4~
     a16 g a8 d,4 r2 %30
     f8. g32 a b4 g8. a16 b8 c~
@@ -258,7 +258,7 @@ A-XIIAriaTertiaViolinoII = {
     g, a16 h c8 c,16 d \hA e d e4 e8 %35
     a, fis' g a d, b' c d
     g, es'4 g,4 fis16 e \hA fis4\trill
-    g2 r\fermata \markDaCapo \bar "||" %38 finis
+    g2 r\fermata \markAriaDaCapo \bar "||" %38 finis
   }
 }
 
@@ -335,7 +335,7 @@ A-XIIAriaQuartaViolinoII = {
     e a, r d4 g,8 r e'~
     e d16 cis d4 g16( a \once \stemUp h4.)
     a8( e') d( e) d8. e16 cis4\trill
-    d\fermata r r2 %30
+    d\fermataFine r r2 %30
     r a4\p h8.\trill a32( h)
     cis16 d e cis a4 r2
     r r8 cis16 h ais h cis8
@@ -354,7 +354,7 @@ A-XIIAriaQuartaViolinoII = {
     R1
     r2 r8 fis a! cis
     fis16( eis) fis8 r4 r2
-    R1\fermata \markDaCapo \bar "||" %49 finis
+    R1\fermata \markAriaDaCapo \bar "||" %49 finis
   }
 }
 
@@ -453,7 +453,7 @@ A-XIIAriaSextaViolinoII = {
     a4.~ a8. g16 a8
     b4 a16( cis,) d4 r8 %35
     b'4 a8 a8. f16 d8 \noBreak
-    d8. e16 cis8 d4 r8\fermata
+    d8. e16 cis8 d4 r8\fermataFine
     \twofourtime \time 2/4 \tempoA-XIIAriaSextaB \newSpacingSection
       \after 4*0 -\senzaSord R2 \noBreak
     r8 g\p c g
@@ -490,7 +490,7 @@ A-XIIAriaSextaViolinoII = {
     R2
     e'8 c g16( f) e8
     R2*4 %78
-    \time 4/4 \tempoA-XIIAriaSextaC R1\fermata \markDaCapo \bar "||" %79 finis
+    \time 4/4 \tempoA-XIIAriaSextaC R1\fermata \markAriaDaCapo \bar "||" %79 finis
   }
 }
 
@@ -552,7 +552,7 @@ A-XIIAriaSeptimaViolinoII = {
     r g8(\f d') e( c) h( a)
     g a16 g a8 fis g4 r
     r g8(\p d') e( c) h( a) %55
-    g a16 g a8 fis g4 r\fermata
+    g a16 g a8 fis g4 r\fermataFine
     R1
     r8 fis16\p g a h c8 fis, h, r4
     h'16(\trill a) h8 h16(\trillE a) h8 h8. c!16 d!8 e
@@ -581,7 +581,7 @@ A-XIIAriaSeptimaViolinoII = {
     r2 r8 h'16 a g8 fis!
     e4 r r2
     R1 %85
-    R\fermata \markDaCapo \bar "||" %86 finisg
+    R\fermata \markAriaDaCapo \bar "||" %86 finisg
   }
 }
 
@@ -659,7 +659,7 @@ A-XIIAriaOctavaViolinoII = {
     r8 fis'\f e d a'16( g) a8 a h16 cis
     \kneeBeam d8 fis,, e d a'16( g) a8 a h16 cis %40
     d8 a h g fis g16 fis g8 e \noBreak
-    d d' a fis d4 r\fermata
+    d d' a fis d4 r\fermataFine
     \key d \minor \time 3/4 \tempoA-XIIAriaOctavaB \newSpacingSection
       \once \override Staff.TimeSignature.style = #'single-digit
       \revert Score.SpacingSpanner.common-shortest-duration
@@ -689,7 +689,7 @@ A-XIIAriaOctavaViolinoII = {
     r e, e
     r f! f
     r fis fis
-    \time 4/4 R1\fermata \markDaCapo \bar "||" %69 finis
+    \time 4/4 R1\fermata \markAriaDaCapo \bar "||" %69 finis
   }
 }
 
@@ -788,7 +788,7 @@ A-XIIAriaNonaViolinoII = {
     R1
     r16 c\f e g c8 c c c c c
     c16( d e4) d8 c d16 c d8 h %50
-    c4 r r2\fermata \bar "|." %51 finis
+    c4 r r2\fermataFine \bar "|." %51 finis
   }
 }
 
@@ -815,14 +815,14 @@ A-XIIAriaDecimaViolinoII = {
     R1*2 %21
     r16 f\f f32( g16.) g32( a16.) a32( b16.) b32( c16.) c32( d16.) d32( es16.) es32( f16.)
     f4~ f32( c16.) d32( es16.) d32( b16.) g32( es'16.) d32( c16.) b32( a16.)
-    b4\fermata r r2
+    b4\fermataFine r r2
     R1 %25
     r16 c\p es16. g32 f8 f, r2
     R1*2
     r2 r4 r8 c'
     c( h) r es,! es( d) r4 %30
     R1
-    R\fermata \markDaCapo \bar "||" %32 finis
+    R\fermata \markAriaDaCapo \bar "||" %32 finis
   }
 }
 

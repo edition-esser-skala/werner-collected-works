@@ -195,7 +195,7 @@ A-XIIAriaPrimaBassoContinuo = {
     b b,16. c32 d8 b es4 e
     f,8 f'16. g32 a8 f b d, f a,\p
     b d f a\f b es, f f,
-    b es f f, b\fermata b' a g
+    b es f f, b\fermataFine b' a g
     f,\p f' e d c b a g %25
     f f'\f e d c b a g
     f' a16\p g f8 es d c b a
@@ -210,7 +210,7 @@ A-XIIAriaPrimaBassoContinuo = {
     d4 r8 cis d d16 e fis8 d
     g f es h c g' c b?
     a g f g a4 a,
-    d r r2\fermata \markDaCapo \bar "||" %39 finis
+    d r r2\fermata \markAriaDaCapo \bar "||" %39 finis
   }
 }
 
@@ -359,7 +359,7 @@ A-XIIAriaSecundaBassoContinuo = {
     c4 d e e,
     a r8 a' gis f! e d
     c4 d e e, %55
-    a8\fermata a' g! fis e\p e, e' fis
+    a8\fermataFine a' g! fis e\p e, e' fis
     g fis e4 dis2
     e fis4 d
     g g, c2
@@ -393,7 +393,7 @@ A-XIIAriaSecundaBassoContinuo = {
     h1~
     h
     ais2 h~
-    h e\fermata \markDaCapo \bar "||" %90 finis
+    h e\fermata \markAriaDaCapo \bar "||" %90 finis
   }
 }
 
@@ -583,7 +583,7 @@ A-XIIAriaTertiaBassoContinuo = {
     g4. f8 e2 %25
     f8 as16 g f8 es d c h4
     c8 d es f g f g g,
-    c\fermata es' d c b! a g4
+    c\fermataFine es' d c b! a g4
     fis f es8 d cis4
     d8 a' d c b a g f!16 es! %30
     d4. b8 c c' g a
@@ -593,7 +593,7 @@ A-XIIAriaTertiaBassoContinuo = {
     es8 d c b! a e' a g %35
     fis d e \hA fis g g, a h
     c4. cis8 d4 d,
-    g2 r\fermata \markDaCapo \bar "||" %38 finis
+    g2 r\fermata \markAriaDaCapo \bar "||" %38 finis
   }
 }
 
@@ -807,7 +807,7 @@ A-XIIAriaQuartaBassoContinuo = {
     fis16 g a fis d8 fis e16 fis g e cis a h cis
     d8 a fis d r g'16 fis e8 d
     cis4 d8 g a g a a,
-    d\fermata d' cis h a,\pE a' gis fis %30
+    d\fermataFine d' cis h a,\pE a' gis fis %30
     e fis e d cis4 h
     a8 a' e cis a a' gis fis
     eis4 cis fis8 cis fis e?
@@ -826,7 +826,7 @@ A-XIIAriaQuartaBassoContinuo = {
     d h' ais fis h a gis fis
     eis4 cis fis4. e8
     d4. cis8 h4 his
-    cis cis, fis r\fermata \markDaCapo \bar "||" %49 finis
+    cis cis, fis r\fermata \markAriaDaCapo \bar "||" %49 finis
   }
 }
 
@@ -1152,7 +1152,7 @@ A-XIIAriaQuintaBassoContinuo = {
     cis h?16 \hA cis a8 b a g
     f e16 f d8 c!16 d b8 a16 b
     g8 b' a g a a,
-    d4\fermata r8 d c! e %45
+    d4\fermataFine r8 d c! e %45
     a,4 r r
     r8 a'16\pE h c8 \hA h16 a gis8 e
     a g16 a f8 e16 f d8 f
@@ -1175,7 +1175,7 @@ A-XIIAriaQuintaBassoContinuo = {
     d e8 c d e %65
     f4. e8 d c16 b!
     a8 b c4 c,
-    f2 r4\fermata \markDaCapo \bar "||" %68 finis
+    f2 r4\fermata \markAriaDaCapo \bar "||" %68 finis
   }
 }
 
@@ -1475,7 +1475,7 @@ A-XIIAriaSextaBassoContinuo = {
     cis4. d4 f8
     g4 a8 f4 r8 %35
     g4 a8 f4 g8 \noBreak
-    a4 a,8 d4\fermata r8
+    a4 a,8 d4\fermataFine r8
     \twofourtime \time 2/4 \tempoA-XIIAriaSextaB \newSpacingSection
       f8\p f f f \noBreak
     e e e e
@@ -1518,7 +1518,7 @@ A-XIIAriaSextaBassoContinuo = {
     f f e e
     d d h h
     gis gis a d
-    \time 4/4 \tempoA-XIIAriaSextaC e4 e, a2\fermata \markDaCapo \bar "||" %79 finis
+    \time 4/4 \tempoA-XIIAriaSextaC e4 e, a2\fermata \markAriaDaCapo \bar "||" %79 finis
   }
 }
 
@@ -1711,7 +1711,7 @@ A-XIIAriaSeptimaBassoContinuo = {
     g4 h c2
     d4 d, g'8 d h\p d
     g,4 h c2 %55
-    d4 d, g8\fermata h'16 a g8 fis
+    d4 d, g8\fermataFine h'16 a g8 fis
     e\p g fis e dis4 h
     c a h8 fis' h a
     g e dis h e d16 c h8 c
@@ -1741,7 +1741,7 @@ A-XIIAriaSeptimaBassoContinuo = {
     h h, e2
     r4 d!8 e fis4. e8
     d4 e fis fis, %85
-    h2 r\fermata \markDaCapo \bar "||" %86 finis
+    h2 r\fermata \markAriaDaCapo \bar "||" %86 finis
   }
 }
 
@@ -1961,7 +1961,7 @@ A-XIIAriaOctavaBassoContinuo = {
     d r8 d'\f cis h a g
     fis d r d' cis h a g %40
     fis4 g a a, \noBreak
-    d8 d' a fis d4 r\fermata
+    d8 d' a fis d4 r\fermataFine
     \key d \minor \time 3/4 \tempoA-XIIAriaOctavaB \newSpacingSection
       \once \override Staff.TimeSignature.style = #'single-digit
       \mvDl d2\pE-\pizz d4 \noBreak
@@ -1990,7 +1990,7 @@ A-XIIAriaOctavaBassoContinuo = {
     r a a
     r f' f
     r dis dis
-    \time 4/4 e e, a2\fermata \markDaCapo \bar "||" %69 finis
+    \time 4/4 e e, a2\fermata \markAriaDaCapo \bar "||" %69 finis
   }
 }
 
@@ -2278,7 +2278,7 @@ A-XIIAriaNonaBassoContinuo = {
     f4 e8 f g4 g,
     << { c'4. h8 } \\ { c,4\f s } >> a'8 a g f
     e4. f8 g4 g, %50
-    c r r2\fermata \bar "|." %51 finis
+    c r r2\fermataFine \bar "|." %51 finis
   }
 }
 
@@ -2409,7 +2409,7 @@ A-XIIAriaDecimaBassoContinuo = {
     a f b es, f es f f,
     b\fE d es c d a b g'
     d16. d'32 c16. b32 a8 f b, es f f,
-    b\fermata b'16.\pE a32 g8 g, fis' f es! cis
+    b\fermataFine b'16.\pE a32 g8 g, fis' f es! cis
     d8. e16 fis8 d g es f? g %25
     c, c'16. b!32 a8 b f f,16. g32 a8 b
     f f' es d c d es f
@@ -2417,7 +2417,7 @@ A-XIIAriaDecimaBassoContinuo = {
     a g a a, d d'16. c!32 h8 c
     g g16 f es!8 c g g'16. f32 es8 d %30
     c c'16. b!32 a8 g fis d g c,
-    d4 d, g r\fermata \markDaCapo \bar "||" %32 finis
+    d4 d, g r\fermata \markAriaDaCapo \bar "||" %32 finis
   }
 }
 

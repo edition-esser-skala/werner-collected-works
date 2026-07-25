@@ -1,10 +1,5 @@
 \version "2.24.0"
 
-markAriaDaCapo = {
-  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Aria da capo"
-}
-
 Barak = \markup { \override #'(box-padding . 0.5) \box "Barak" }
 Debora = \markup { \override #'(box-padding . 0.5) \box "Debora" }
 Jahel = \markup { \override #'(box-padding . 0.5) \box "Jahel" }

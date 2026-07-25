@@ -5,19 +5,6 @@ Gerechtigkeit = \markup { \override #'(box-padding . 0.5) \box "Gerechtigkeit" }
 Adam = \markup { \override #'(box-padding . 0.5) \box "Adam" }
 Schöpffer = \markup { \override #'(box-padding . 0.5) \box "Schöpffer" }
 
-fermataFine = #(define-event-function () ()
-  #{ \tweak Script.outside-staff-priority #0
-       \fermata
-     \tweak TextScript.self-alignment-X #-.4
-       ^\markup \remark "fine" #}
-)
-
-markAriaDaCapo = {
-  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup \remark "Aria da capo"
-}
-
-
 tempoA-XIIIIntro = \tempoMarkup "Adagiosè"
   tempoA-XIIIIntroB = \tempoMarkup "Allegro"
   tempoA-XIIIIntroC = \tempoMarkup "Adagio"

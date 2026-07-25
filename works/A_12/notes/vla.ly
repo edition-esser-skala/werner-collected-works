@@ -98,13 +98,13 @@ A-XIIAriaPrimaViola = {
     c,16. f32 a,16. b32 c8 a f b16. d32 c8 f\p
     f, b16. d32 c8 f~\f f16 d b es \tuplet 3/2 8 { d c b } a8\trill
     b8. es16 \tuplet 3/2 8 { d c b } a8\trill
-    b4\fermata r %25
+    b4\fermataFine r %25
     R1*6 %31
     d8.\f c16 b8 a g d' es! d
     c8. b16 a8 a' d,16 g,8 es'16 b32( a) g8 fis16
     g4 r r2
     R1*5 %38
-    R1\fermata \markDaCapo \bar "||" %39 finis
+    R1\fermata \markAriaDaCapo \bar "||" %39 finis
   }
 }
 
@@ -133,7 +133,7 @@ A-XIIAriaSecundaViola = {
     c4 a8 f' e4 e
     e r8 a gis f! e d
     c4 a8 f' e4 e %55
-    e\fermata r r2
+    e\fermataFine r r2
     R1*11 %67
     g4.\f g8 e4 a
     g e r h~
@@ -143,7 +143,7 @@ A-XIIAriaSecundaViola = {
     a, d g, c
     fis, r r2
     R1*15 %89
-    \tempoA-XIIAriaSecundaB R1\fermata \markDaCapo \bar "||" %90 finis
+    \tempoA-XIIAriaSecundaB R1\fermata \markAriaDaCapo \bar "||" %90 finis
   }
 }
 
@@ -169,9 +169,9 @@ A-XIIAriaTertiaViola = {
     r2 e %25
     f8 as16 g f8 es d c h4
     c8 d es f g f g g,
-    c4\fermata r r2
+    c4\fermataFine r r2
     R1*9 %37
-    R1\fermata \markDaCapo \bar "||" %38 finis
+    R1\fermata \markAriaDaCapo \bar "||" %38 finis
   }
 }
 
@@ -236,9 +236,9 @@ A-XIIAriaQuartaViola = {
     fis16 g a fis d8 fis e16 fis g e cis a h cis
     d8 a fis d r g'16 fis e8 d
     cis4 d8 g a g a a,
-    d4\fermata r r2 %30
+    d4\fermataFine r r2 %30
     R1*18 %48
-    R1\fermata \markDaCapo \bar "||" %49 finis
+    R1\fermata \markAriaDaCapo \bar "||" %49 finis
   }
 }
 
@@ -324,10 +324,10 @@ A-XIIAriaSextaViola = {
     cis4. d4 f8
     g4 a8 f4 r8 %35
     g4 a8 f4 g8 \noBreak
-    a4 a,8 d4\fermata r8
+    a4 a,8 d4\fermataFine r8
     \twofourtime \time 2/4 \tempoA-XIIAriaSextaB \newSpacingSection
       R2*41 %78
-    \time 4/4 \tempoA-XIIAriaSextaC R1\fermata \markDaCapo \bar "||" %79 finis
+    \time 4/4 \tempoA-XIIAriaSextaC R1\fermata \markAriaDaCapo \bar "||" %79 finis
   }
 }
 
@@ -368,9 +368,9 @@ A-XIIAriaSeptimaViola = {
     d4.\f h8 g4 e'
     d4. d8 h4 r
     d4.\p h8 g4 e' %55
-    d4. d8 h4 r\fermata
+    d4. d8 h4 r\fermataFine
     R1*29 %85
-    R1\fermata \markDaCapo \bar "||" %86 finis
+    R1\fermata \markAriaDaCapo \bar "||" %86 finis
   }
 }
 
@@ -422,11 +422,11 @@ A-XIIAriaOctavaViola = {
     r4. d'8\f cis h a g
     fis d r d' cis h a g %40
     fis4 g a a, \noBreak
-    d8 d' a fis d4 r\fermata
+    d8 d' a fis d4 r\fermataFine
     \key d \minor \time 3/4 \tempoA-XIIAriaOctavaB \newSpacingSection
       \once \override Staff.TimeSignature.style = #'single-digit
       R2.*26 %68
-    \time 4/4 R1\fermata \markDaCapo \bar "||" %69 finis
+    \time 4/4 R1\fermata \markAriaDaCapo \bar "||" %69 finis
   }
 }
 
@@ -489,9 +489,9 @@ A-XIIAriaDecimaViola = {
     R1*16 %21
     b8\fE d es c d a b g'
     d16. d'32 c16. b32 a8 f b, es f f,
-    b4\fermata r r2
+    b4\fermataFine r r2
     R1*7 %31
-    R1\fermata \markDaCapo \bar "||" %32 finis
+    R1\fermata \markAriaDaCapo \bar "||" %32 finis
   }
 }
 

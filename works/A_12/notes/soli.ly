@@ -65,7 +65,7 @@ A-XIIAriaPrimaSoli = {
     es8 \tuplet 3/2 8 { es16([ f g)] } g([ f)] f([ es)] d8 f b,4~
     b16[ g'] f([ es)] d([ c)] b([ a)] b4 r
     R1*4 %23
-    R1\fermata
+    R1\fermataFine
     c4. \tuplet 3/2 8 { d16([ e f)] } \hA e8. e16 f8 b, %25
     b a r4 r2
     a16([ b] c4) g8 fis es'! d c
@@ -80,7 +80,7 @@ A-XIIAriaPrimaSoli = {
     b16([ a)] a8 d, b' b16([ a)] a8 a d
     c16([ h)] h([ c)] c([ d)] d([ es)] es4 r
     cis8 d16([ e)] \tuplet 3/2 8 { d[( \hA e f)] \hA e([ f g)] } d4 \appoggiatura f8 \hA e4\trill
-    d r r2\fermata \markDaCapo \bar "||" %39 finis
+    d r r2\fermata \markAriaDaCapo \bar "||" %39 finis
 
   }
 }
@@ -204,7 +204,7 @@ A-XIIAriaSecundaSoli = {
     e16([ h8.)] c16([ a8.)] \appoggiatura c8 h4.\trill a8 %50
     a4 r r2
     R1*4 %55
-    r2\fermata h
+    r2\fermataFine h
     e,4 c'4. h8 h a
     g8.([ fis16)] e4 d!8([ fis)] a([ c)]
     h16([ a] \once \stemUp h4) c16([ d)] e8([ c)] a([ g)]
@@ -235,7 +235,7 @@ A-XIIAriaSecundaSoli = {
     h2 r
     r r4 e
     e,2~ e4 fis
-    \tempoA-XIIAriaSecundaB fis2\trill e\fermata \markDaCapo \bar "||" %90 finis
+    \tempoA-XIIAriaSecundaB fis2\trill e\fermata \markAriaDaCapo \bar "||" %90 finis
   }
 }
 
@@ -339,7 +339,7 @@ A-XIIAriaTertiaSoli = {
     r8 d'4 g,8 es([ c')] as([ f)]
     g4. g,8 c4 r %25
     R1*2
-    r2\fermata g'4. b8
+    r2\fermataFine g'4. b8
     a([ cis)] d([ d,)] g16([ a b8)] a([ g)]
     g4 fis g4. a8 %30
     b([ a16 g] f8) g es4~ es16[ d] es8
@@ -349,7 +349,7 @@ A-XIIAriaTertiaSoli = {
     es([ d)] c([ b!)] a([ e')] a([ g)] %35
     fis d'4 c8 b g a h
     c c,4 cis8 d4. d8
-    g,2 r\fermata \markDaCapo \bar "||" %38 finis
+    g,2 r\fermata \markAriaDaCapo \bar "||" %38 finis
   }
 }
 
@@ -549,7 +549,7 @@ A-XIIAriaQuartaSoli = {
     d8([ cis16 h] a8) h fis4 e
     d r r2 %25
     R1*4
-    r2\fermata e'4. a,8 %30
+    r2\fermataFine e'4. a,8 %30
     gis4. \tuplet 3/2 8 { d'16([ e fis)] } e8([ a,)] gis([ d')]
     \tuplet 3/2 4 { cis([ h a)] } a4 cis4. d8
     d([ cis)] cis([ h)] ais4~ \tuplet 3/2 8 { ais16[ h cis] } h([ \hA ais)]
@@ -566,7 +566,7 @@ A-XIIAriaQuartaSoli = {
     h cis\trill d4. d8
     cis([ h)] a!([ gis)] a4 r
     r8 fis a cis \tuplet 3/2 4 { d([ cis h)] a([ gis fis)] }
-    a4( gis8.)\trill fis16 fis4 r\fermata \markDaCapo \bar "||" %49 finis
+    a4( gis8.)\trill fis16 fis4 r\fermata \markAriaDaCapo \bar "||" %49 finis
   }
 }
 
@@ -770,7 +770,7 @@ A-XIIAriaQuintaSoli = {
     a8 \tuplet 3/2 8 { b16([ a g)] } f4( e8.)\trill d16 %40
     d4 r r
     R2.*3
-    R2.\fermata %45
+    R2.\fermataFine %45
     r4 c' a
     e'4. \tuplet 3/2 8 { d16([ e f)] } e8 d
     c([ h)] a4 f'8 d
@@ -793,7 +793,7 @@ A-XIIAriaQuintaSoli = {
     f8([ e16 d] c!4) b! %65
     a c f
     f, a( g8.)\trill f16
-    f2 r4\fermata \markDaCapo \bar "||" %68 finis
+    f2 r4\fermata \markAriaDaCapo \bar "||" %68 finis
   }
 }
 
@@ -994,7 +994,7 @@ A-XIIAriaSextaSoli = {
     es8.([ d16)] cis8 d([ a)] b %30
     f8.([ g16)] e8 d4 r8
     R2.*5 \noBreak %36
-    R2. \fermata
+    R2. \fermataFine
     \time 2/4 \tempoA-XIIAriaSextaB \newSpacingSection
       a'16_([ b] c4.) \noBreak
     c16([ h c8)] c d16([ e)]
@@ -1032,7 +1032,7 @@ A-XIIAriaSextaSoli = {
     a4 c
     f2~
     f8 e16([ d] c8) h
-    \time 4/4 \tempoA-XIIAriaSextaC a8.([ h16)] h4\trill a2\fermata \markDaCapo \bar "||" %79 finis
+    \time 4/4 \tempoA-XIIAriaSextaC a8.([ h16)] h4\trill a2\fermata \markAriaDaCapo \bar "||" %79 finis
   }
 }
 
@@ -1171,7 +1171,7 @@ A-XIIAriaSeptimaSoli = {
     h,8\p d g4~ g8[ c] h[([ a)]
     g([ a16 g] a8) fis g4 r %45
     R1*10 %55
-    R1\fermata
+    R1\fermataFine
     e4. g8 fis([ ais)] h([ dis,)]
     e([ a)] c([ e,)] e4\trill dis
     e fis g4. fis16([ e)]
@@ -1199,7 +1199,7 @@ A-XIIAriaSeptimaSoli = {
     h,4. h8 e4 e8([ fis]
     g[ a)] h4 ais( fis)
     h( e,) fis4. fis8 %85
-    h,2 r\fermata \markDaCapo \bar "||" %86 finis
+    h,2 r\fermata \markAriaDaCapo \bar "||" %86 finis
   }
 }
 
@@ -1377,7 +1377,7 @@ A-XIIAriaOctavaSoli = {
     fis([ d')] h g fis4( e)\trill
     d r r2
     R1*2 %41
-    R1\fermata
+    R1\fermataFine
     \key d \minor \time 3/4 \tempoA-XIIAriaOctavaB \newSpacingSection
       \once \override Staff.TimeSignature.style = #'single-digit
       d'8([ cis] d4) a \noBreak
@@ -1406,7 +1406,7 @@ A-XIIAriaOctavaSoli = {
     c2.~
     c~
     c~
-    \time 4/4 c4 h\trill a2\fermata \markDaCapo \bar "||" %69 finis
+    \time 4/4 c4 h\trill a2\fermata \markAriaDaCapo \bar "||" %69 finis
   }
 }
 
@@ -1681,7 +1681,7 @@ A-XIIAriaNonaSoli = {
     a16([ h c h] c8) f, e4( d)\trill
     c r r2
     R1 %50
-    R\fermata \bar "|." %51 finis
+    R\fermataFine \bar "|." %51 finis
   }
 }
 
@@ -1804,7 +1804,7 @@ A-XIIAriaDecimaJob = {
     es8 f d es d4( c8.)\trill b16
     b4 r r2
     R1
-    R\fermata
+    R\fermataFine
     r8 d4 c8 h c des c16([ h)] %25
     c8 es4 d8 c f4 d8
     c4 c8 d es f g f16([ es)]
@@ -1812,7 +1812,7 @@ A-XIIAriaDecimaJob = {
     d4( cis8.)\trill d16 d4 g,8 es'!
     es([ d)] r4 r  c8 d %30
     es4. es8 d([ c)] b([ c)]
-    b4( a8.)\trill g16 g4 r\fermata \markDaCapo \bar "||" %32 finis
+    b4( a8.)\trill g16 g4 r\fermata \markAriaDaCapo \bar "||" %32 finis
   }
 }
 
@@ -1865,7 +1865,7 @@ A-XIIAriaDecimaSchöpffer = {
     c8 a b c b4( a8.)\trillE b16
     b4 r r2
     R1
-    r4\fermata b8 a16([ g)] a([ cis,)] d8 \tuplet 3/2 8 { g16([ a b)] } a([ g)]
+    r4\fermataFine b8 a16([ g)] a([ cis,)] d8 \tuplet 3/2 8 { g16([ a b)] } a([ g)]
     fis4 r r2 %25
     r8 c'4 b!8 a4 f8 b
     a4 a8 b c b16([ a)] g8 a
@@ -1873,7 +1873,7 @@ A-XIIAriaDecimaSchöpffer = {
     f4( e8.)\trillE d16 d4 r
     r g8 c c([ h)] r4 %30
     r fis8 g a4 g8([ a)]
-    g4( fis8.)\trill g16 g4 r\fermata \markDaCapo \bar "||" %32 finis
+    g4( fis8.)\trill g16 g4 r\fermata \markAriaDaCapo \bar "||" %32 finis
   }
 }
 

@@ -67,7 +67,7 @@ A-IXAriaPrimaSoli = {
     c[ b16 a] g8 f c8.[( f32 g] g4)\trill %30
     c r r2
     R1*2
-    r4\fermata r8 cis, d4. e16([ f)]
+    r4\fermataFine r8 cis, d4. e16([ f)]
     e4 r8 e fis4. \tuplet 3/2 8 { fis16([ g a)] } %35
     g4 r8 b a d, fis a
     b4. a16[ g] f2\trill
@@ -84,7 +84,7 @@ A-IXAriaPrimaSoli = {
     gis4. a16([ \hA gis)] a4 r8 c
     h16([ a] \once \stemUp \hA h4) d,8 c4 r8 e %50
     a dis, dis dis e([ d)] c d
-    c4( h)\trill a r \markDaCapo \bar "||" %52 finis
+    c4( h)\trill a r \markAriaDaCapo \bar "||" %52 finis
   }
 }
 
@@ -254,7 +254,7 @@ A-IXAriaSecundaSoli = {
     es8.([ f16] f4)
     es r
     R2*5 %67
-    R2\fermata \bar "|." %68 finis
+    R2\fermataFine \bar "|." %68 finis
   }
 }
 
@@ -388,7 +388,7 @@ A-IXAriaTertiaSoli = {
     d8. es16 c8 b8. c16 a8 %35
     g4 r8 r4 r8
     R2.*3
-    r4 r8 r4\fermata a8 %40
+    r4 r8 r4\fermataFine a8 %40
     b4 b8 f'8. d16 b8
     c4 b8 r r b
     es4.~ es8. d16 es8
@@ -411,7 +411,7 @@ A-IXAriaTertiaSoli = {
     cis,16([ h)] \hA cis8 r r4 cis8 %60
     d8. c16 b!8 a8. g16 a8
     f4 a8 d4.~
-    \time 4/4 d4 \appoggiatura d16 e4\trill d2 \markDaCapo \bar "||" %63 finis
+    \time 4/4 d4 \appoggiatura d16 e4\trill d2 \markAriaDaCapo \bar "||" %63 finis
   }
 }
 
@@ -610,7 +610,7 @@ A-IXAriaQuartaSoli = {
     e2.\trill d4
     d2 r %80
     R1*9 %89
-    R1\fermata %90
+    R1\fermataFine %90
     r2 fis,
     \tuplet 3/2 2 { d'4( cis h) } d( e)
     \tuplet 3/2 2 { fis( e d) } cis( h)
@@ -679,7 +679,7 @@ A-IXAriaQuartaSoli = {
     cis d4( h) %165
     a1
     gis2.\trill fis4
-    fis1 \markDaCapo \bar "||" %168 finis
+    fis1 \markAriaDaCapo \bar "||" %168 finis
   }
 }
 
@@ -914,7 +914,7 @@ A-IXAriaQuintaSoli = {
     f8[ d b] f4. %50
     b, r4 r8
     R2.*4 %55
-    R2.\fermata
+    R2.\fermataFine
     g'8 b g d'4 g8
     \appoggiatura g fis4 r8 r4 r8
     g, h d f([ es!)] d
@@ -935,7 +935,7 @@ A-IXAriaQuintaSoli = {
     f[ e d] b'[ a g]
     a4 g8 a4. %75
     \time 4/4 \tempoA-IXAriaQuintaB d,8 d' b g cis e d16[( a b g]
-    f4 e)\trill d2 \markDaCapo \bar "||" %77 finis
+    f4 e)\trill d2 \markAriaDaCapo \bar "||" %77 finis
   }
 }
 
@@ -1102,7 +1102,7 @@ A-IXAriaSextaSoli = {
     g4. g8
     c4 r %60
     R2*11 %71
-    R2\fermata
+    R2\fermataFine
     b'4. a16([ g)]
     d'4 d,
     g es'8([ g,)] %75
@@ -1143,7 +1143,7 @@ A-IXAriaSextaSoli = {
     r4 cis %125
     d2~
     d4 d
-    g,2 \markDaCapo \bar "||" %128 finis
+    g,2 \markAriaDaCapo \bar "||" %128 finis
   }
 }
 
@@ -1319,7 +1319,7 @@ A-IXASAriaPrimaSoli = {
     as c b,1\trill
     es2 r r
     R1.*7 %61
-    R1.\fermata
+    R1.\fermataFine
     r4 g c g es g
     c, es' d h g f
     es8([ d es d)] c2 r %65
@@ -1352,7 +1352,7 @@ A-IXASAriaPrimaSoli = {
     fis d e \hA fis g d' %95
     es! g, d1\trill
     \time 4/4 \tempoA-IXASAriaPrimaB g,8 b' es c, fis a g([ cis,]
-    d2)\trill g, \markDaCapo \bar "||" %98 finis
+    d2)\trill g, \markAriaDaCapo \bar "||" %98 finis
   }
 }
 
@@ -1521,7 +1521,7 @@ A-IXASAriaSecundaSoli = {
     \tuplet 3/2 8 { fis([ gis a)] h([ cis d)] } \appoggiatura a8 gis8. a16
     a4 r
     R2*5 %28
-    r4\fermata d8 e16([ cis)]
+    r4\fermataFine d8 e16([ cis)]
     d8 r \tuplet 3/2 8 { a16([ g fis)] \hA g([ fis e)] } %30
     fis4 a8 \tuplet 3/2 8 { d16([ e fis)] }
     e([ cis)] h([ a)] d([ h)] a([ gis!)]
@@ -1551,7 +1551,7 @@ A-IXASAriaSecundaSoli = {
     h8 cis \tuplet 3/2 8 { d16([ cis h)] a([ gis fis)] }
     eis8 gis cis dis16([ e)]
     \appoggiatura cis8 his4.\trill cis8
-    cis2 \markDaCapo \bar "||" %59 finis
+    cis2 \markAriaDaCapo \bar "||" %59 finis
   }
 }
 
@@ -1719,7 +1719,7 @@ A-IXASAriaTertiaSoliA = {
     c[ d e d] c[ d h d] c[ e] d c \appoggiatura c8 h4\trill
     c r r2
     R1*2 %35
-    r2\fermata r8 a h16([ c)] d([ e)]
+    r2\fermataFine r8 a h16([ c)] d([ e)]
     \tuplet 3/2 8 { c16([ h a)] } f'8 \appoggiatura f e8. d16 c8 e a, h16([ cis)]
     d8 e \tuplet 3/2 8 { \sbOn f16([ e d c h a)] \sbOff } gis4 r
     R1
@@ -1736,7 +1736,7 @@ A-IXASAriaTertiaSoliA = {
     h[ c d c] h[ c a c] h[ d] c h \appoggiatura h8 a4\trill
     g r r8 gis16([ a)] a([ h)] h([ c)]
     c8([ h16 a)] h8 c g4( fis)\trill
-    e2 r \markDaCapo \bar "||" %54 finis
+    e2 r \markAriaDaCapo \bar "||" %54 finis
   }
 }
 
@@ -1808,7 +1808,7 @@ A-IXASAriaTertiaSoliB = {
     e[ f g f] e[ f d f] e[ g] f e \appoggiatura e8 d4
     c r r2
     R1*2 %35
-    R1\fermata
+    R1\fermataFine
     R
     r2 r8 h h16([ e)] e([ d)]
     cis8 \tuplet 3/2 8 { g'16([ a b)] } \hA \appoggiatura b8 a8.\trill g16 f8 \tuplet 3/2 8 { f16([ g a)] } \appoggiatura a8 g8. f16
@@ -1824,7 +1824,7 @@ A-IXASAriaTertiaSoliB = {
     g[ a h a] g[ a fis a] g[ h] a g \appoggiatura g8 fis4\trill
     g8 h,16([ cis)] cis([ dis)] dis([ e)] e2~
     e4 e16([ g!)] fis([ e)] e4( dis)\trill
-    e2 r \markDaCapo \bar "||" %54 finis
+    e2 r \markAriaDaCapo \bar "||" %54 finis
   }
 }
 
@@ -1897,7 +1897,7 @@ A-IXASAriaQuartaSoli = {
     es4.~ es8 d cis d[ c b]~ b a g
     f4.~ f8 g e d4. r4 r8
     R1.*6 %39
-    R1.\fermata \bar "|." %40 finis
+    R1.\fermataFine \bar "|." %40 finis
   }
 }
 

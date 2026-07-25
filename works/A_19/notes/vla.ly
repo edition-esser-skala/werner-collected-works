@@ -138,7 +138,7 @@ A-XIXAAriaPrimaViola = {
     f, f' e f c f a, c
     f,8 b c c,
     f f f f \noBreak
-    f4 r\fermata \bar "||"
+    f4 r\fermataFine \bar "||"
     \time 3/8 \tempoA-XIXAAriaPrimaB \newSpacingSection
       R4.*26 %110
     R4.\fermata \markAriaDaCapo \bar "||" %111 finis
@@ -197,7 +197,7 @@ A-XIXAAriaSecundaViola = {
     as'4\fE r8 d,4 r8 g4 r8 c,4 r8
     f4 f,8 b4 es8 as,4 d8 g,4 c8
     f, f'16 es d c b8 b' g as4 b8 es,4 r8 \noBreak %30
-    c'4 r8 g4 r8 as4 b8 es,4\fermata r8
+    c'4 r8 g4 r8 as4 b8 es,4\fermataFine r8
     \time 4/4 \tempoA-XIXAAriaSecundaB \newSpacingSection
       R1*14
     R1\fermata \markAriaDaCapo \bar "||" %46 finis
@@ -280,7 +280,7 @@ A-XIXAAriaTertiaViola = {
     d4 e8
     a,\f c e
     a e c \noBreak %95
-    a4 r8\fermata \bar "||"
+    a4 r8\fermataFine \bar "||"
       \time 4/4 \tempoA-XIXAAriaTertiaB \newSpacingSection
     R1*17 %113
     R1\fermata \markAriaDaCapo \bar "||" %114 finis
@@ -327,7 +327,7 @@ A-XIXAAriaQuartaViola = {
     R1*5 %19
     r4 r8 d es es16 d c8 es %20
     f f16 es d8 f g es f f, \noBreak
-    b es f f, b4 r\fermata \bar "||"
+    b es f f, b4 r\fermataFine \bar "||"
     \key g \minor \time 3/8 \tempoA-XIXAAriaQuartaB \newSpacingSection
       R4.*51 %73
     \time 4/4 \tempoA-XIXAAriaQuartaC R1
@@ -451,7 +451,7 @@ A-XIXBAriaPrimaViola = {
     R1*13 %42
     c8\f r c r c r c r
     c r c r c d e f \noBreak
-    g4 g, c r\fermata \bar "||" %45
+    g4 g, c r\fermataFine \bar "||" %45
     \key f \major \time 3/8 \tempoA-XIXBAriaPrimaB
       R4.*34 %79
     \time 4/4 R1\fermata \markAriaDaCapo \bar "||" %80 finis
@@ -499,7 +499,7 @@ A-XIXBAriaSecundaViola = {
     d c d e fis d
     g a g f es d
     c es d c d d, \noBreak
-    g4 r8\fermata
+    g4 r8\fermataFine \bar "||"
     \twofourtime \time 2/4 \tempoA-XIXBAriaSecundaB \newSpacingSection
     R2*25 %104
     R2\fermata \markAriaDaCapo \bar "||" %105 finis
@@ -542,7 +542,7 @@ A-XIXBAriaTertiaViola = {
     \sbOn \tuplet 3/2 8 { as( b \hA as) } g( f) \sbOff e( g) f( \hA e) f( c') b( as) g( b) \hA as( g)
     as8 r r4 g16( h) d( c) \hA h( a) g( f) %30
     es( d) f( es) g( f) as( g) h( c) d( c) h( as) g( f)
-    \tuplet 3/2 8 { es( d c) } c8~ c h c4 r\fermata \bar "||"
+    \tuplet 3/2 8 { es( d c) } c8~ c h c4 r\fermataFine \bar "||"
     \twofourtime \time 2/4 \tempoA-XIXBAriaTertiaB
       R2*28 %61
     \tempoA-XIXBAriaTertiaC R2
@@ -673,7 +673,7 @@ A-XIXBAriaQuartaViola = {
     d b' a g f es d c
     b8 es f f,
     b4 r16 b' f d %100
-    b4 r\fermata \bar "|." %101 finis
+    b4 r\fermataFine \bar "|." %101 finis
   }
 }
 

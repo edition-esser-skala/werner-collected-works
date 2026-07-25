@@ -521,7 +521,7 @@ A-IXAriaPrimaContinuo = {
     h8 e, e' d c4 a
     gis e a4. g8 %50
     f2 e4 f8 d
-    e4 e, a r \markDaCapo \bar "||" %52 finis
+    e4 e, a r \markAriaDaCapo \bar "||" %52 finis
   }
 }
 
@@ -703,7 +703,7 @@ A-IXAriaSecundaContinuo = {
     g g' d d %65
     es es as as
     b b b, b
-    es4 r\fermata \bar "|." %68 finis
+    es4 r\fermataFine \bar "|." %68 finis
   }
 }
 
@@ -845,7 +845,7 @@ A-IXAriaTertiaContinuo = {
     c4 b!8 a4 g8
     << { fis'8. e16 d8 } \\ { fis,4 } >> g'4 c8
     b4 c8 d4 d,8
-    g4.~ g8.\fermata f!16 es!8 %40
+    g4.~ g8.\fermataFine f!16 es!8 %40
     d8. c16 b8 d4 d8
     es4 d8 es4 d8
     c4 b8 a4 f8
@@ -868,7 +868,7 @@ A-IXAriaTertiaContinuo = {
     a4 g8 f4 e8 %60
     d4 d'8 cis4 a8
     d4 c8 b8. a16 gis8
-    \time 4/4 a4 a, d2 \markDaCapo \bar "||" %63 finis
+    \time 4/4 a4 a, d2 \markAriaDaCapo \bar "||" %63 finis
   }
 }
 
@@ -1085,7 +1085,7 @@ A-IXAriaQuartaContinuo = {
     d4 d' h g
     fis2. g4
     a2 a,
-    d,\fermata d'\pE %90
+    d,\fermataFine d'\pE %90
     e fis
     h h,
     d e
@@ -1163,7 +1163,7 @@ A-IXAriaQuartaContinuo = {
     a h %165
     cis1
     cis,
-    fis \markDaCapo \bar "||" %168 finis
+    fis \markAriaDaCapo \bar "||" %168 finis
   }
 }
 
@@ -1443,7 +1443,7 @@ A-IXAriaQuintaContinuo = {
     g4 es8 a4 f8
     b b,16 c d8 es4 f8
     b b,16 c d8 es4 f8 %55
-    b,4 r8 b\fermata b'\pE a
+    b,4 r8 b\fermataFine b'\pE a
     << { g } \\ { g, g' g } >> g f es
     d4 r8 d4 r8
     g4 r8 g4 r8
@@ -1464,7 +1464,7 @@ A-IXAriaQuintaContinuo = {
     d e f g a b
     a4 g8 a4 a,8 %75
     \time 4/4 \tempoA-IXAriaQuintaB d4 g2 f8 g
-    a4 a, d2 \markDaCapo \bar "||" %77 finis
+    a4 a, d2 \markAriaDaCapo \bar "||" %77 finis
   }
 }
 
@@ -1676,7 +1676,7 @@ A-IXAriaSextaContinuo = {
     g4 g,
     r8 as' es f %70
     g4 g,
-    c8\fermata c'\pE b! a!
+    c8\fermataFine c'\pE b! a!
     g g, g'4~
     g8 fis f4~
     f8 e es4 %75
@@ -1730,7 +1730,7 @@ A-IXAriaSextaContinuo = {
     es! cis %125
     d2
     d,
-    g \markDaCapo \bar "||" %128 finis
+    g \markAriaDaCapo \bar "||" %128 finis
   }
 }
 
@@ -2152,7 +2152,7 @@ A-IXASAriaPrimaContinuo = {
     es4. es8 c'4 as b b,
     es2\p es'4 as, b b, %60
     es\f g as f b b,
-    es\fermata g8\pE f es4 f es d
+    es\fermataFine g8\pE f es4 f es d
     c2 c'4 g es g
     c,2 h g
     c2. d4 e2 %65
@@ -2188,7 +2188,7 @@ A-IXASAriaPrimaContinuo = {
     fis d2 c4 b2 %95
     c d d,
     \time 4/4 \tempoA-IXASAriaPrimaB g4 c2 b!8 cis
-    d4 d, g2 \markDaCapo \bar "||" %98 finis
+    d4 d, g2 \markAriaDaCapo \bar "||" %98 finis
   }
 }
 
@@ -2385,7 +2385,7 @@ A-IXASAriaSecundaContinuo = {
     a d e e,
     a cis' gis e
     a d, e e,
-    a\fermata a'16 g fis8 e
+    a\fermataFine a'16 g fis8 e
     d cis d a %30
     d, d'16 e fis8 d
     cis fis h, e
@@ -2415,7 +2415,7 @@ A-IXASAriaSecundaContinuo = {
     d ais h d
     cis h a fis
     gis2
-    cis \markDaCapo \bar "||" %59 finis
+    cis \markAriaDaCapo \bar "||" %59 finis
   }
 }
 
@@ -2592,7 +2592,7 @@ A-IXASAriaTertiaContinuo = {
     c c'\fE e, c f d g e
     a f h g c f, g g,
     c e h g c f g g, %35
-    c\fermata c\pE d e a, c' gis e
+    c\fermataFine c\pE d e a, c' gis e
     a, a' gis e a g f e
     d cis d dis e fis gis e
     a g f cis d c h g
@@ -2610,7 +2610,7 @@ A-IXASAriaTertiaContinuo = {
     g,4 g'8 d g, c d d,
     g g'4 fis8 e d c gis
     a a' g! a h4 h,
-    e2 r \markDaCapo \bar "||" %54 finis
+    e2 r \markAriaDaCapo \bar "||" %54 finis
   }
 }
 
@@ -2850,7 +2850,7 @@ A-IXASAriaQuartaContinuo = {
     g-! r r g-! r r f'16 g f e d c b c b a g f
     e' f e d c b a b a g f e d' e d c b a g a g f e d
     cis' d \hA cis b a g f g f e d c b8 g a d, r r
-    b'' g a d,4. r2*3/2\fermata \bar "|." %40 finis
+    b'' g a d,4. r2*3/2\fermataFine \bar "|." %40 finis
   }
 }
 

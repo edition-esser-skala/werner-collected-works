@@ -194,13 +194,13 @@ A-IXAriaPrimaViola = {
     r2 r8 b'\f b b
     a16 b c a f8 a d,4 r8 g
     g4 c,8 d c d c g
-    a4\fermata r r2
+    a4\fermataFine r r2
     R1*7 %41
     r2 r8 e'\f e e
     d16 e f d h8 h' e,4 r
     r8 d d d cis16 d e \hA cis a8 d
     d4 cis d r %45
-    R1*7 \markDaCapo \bar "||" %52 finis
+    R1*7 \markAriaDaCapo \bar "||" %52 finis
   }
 }
 
@@ -287,7 +287,7 @@ A-IXAriaSecundaViolaI = {
     es es f f %65
     es es es as
     \pa g es4 d8 \pd
-    es4 r\fermata \bar "|." %68 finis
+    es4 r\fermataFine \bar "|." %68 finis
   }
 }
 
@@ -360,7 +360,7 @@ A-IXAriaSecundaViolaII = {
     b b d d %65
     b b c c
     b b b b
-    g4 r\fermata \bar "|." %68 finis
+    g4 r\fermataFine \bar "|." %68 finis
   }
 }
 
@@ -373,9 +373,9 @@ A-IXAriaTertiaViola = {
     c4 b!8 a4 g8
     fis8. e16 d8 g4 c8
     b4 c8 d4 d8
-    g,4.~ g4\fermata r8 %40
+    g,4.~ g4\fermataFine r8 %40
     R2.*22 %62
-    \time 4/4 R1 \markDaCapo \bar "||" %63 finis
+    \time 4/4 R1 \markAriaDaCapo \bar "||" %63 finis
   }
 }
 
@@ -424,7 +424,7 @@ A-IXAriaQuartaViola = {
     d4 d' h g
     fis2. g4
     a2 a,
-    d,\fermata r %90
+    d,\fermataFine r %90
     R1*33 %123
     r2 fis'\fE
     g e %125
@@ -437,7 +437,7 @@ A-IXAriaQuartaViola = {
     cis d
     e e,
     a r
-    R1*34 \markDaCapo \bar "||" %168 finis
+    R1*34 \markAriaDaCapo \bar "||" %168 finis
   }
 }
 
@@ -470,10 +470,10 @@ A-IXAriaQuintaViola = {
     g4 es8 a4 f8
     b b,16 c d8 es4 f8
     b b,16 c d8 es4 f8 %55
-    b,4 r8 b4\fermata r8
+    b,4 r8 b4\fermataFine r8
     R2.*19 %75
     \time 4/4 \tempoA-IXAriaQuintaB
-      R1*2 \markDaCapo \bar "||" %77 finis
+      R1*2 \markAriaDaCapo \bar "||" %77 finis
   }
 }
 
@@ -512,7 +512,7 @@ A-IXAriaSextaViola = {
     g4 g,
     r8 as' es f %70
     g4 g,
-    c\fermata r
+    c\fermataFine r
     R2*17 %89
     r4 r8 d\fE %90
     es4 r8 e
@@ -529,7 +529,7 @@ A-IXAriaSextaViola = {
     r8 es' b c
     d4 d, %105
     g r
-    R2*22 \markDaCapo \bar "||" %128 finis
+    R2*22 \markAriaDaCapo \bar "||" %128 finis
   }
 }
 
@@ -674,7 +674,7 @@ A-IXASAriaPrimaViola = {
     es4. es8 c'4 as b b,
     es2\p es'4 as, b b, %60
     es\f g as f b b,
-    es2\fermata r r
+    es2\fermataFine r r
     R1.*15 %77
     r2 r4 g\fE b, g
     fis2 r4 d'' fis, d
@@ -683,7 +683,7 @@ A-IXASAriaPrimaViola = {
     d b es c d d,
     g2 r r
     R1.*13 %96
-    \time 4/4 \tempoA-IXASAriaPrimaB R1*2 \markDaCapo \bar "||" %98 finis
+    \time 4/4 \tempoA-IXASAriaPrimaB R1*2 \markAriaDaCapo \bar "||" %98 finis
   }
 }
 
@@ -698,12 +698,12 @@ A-IXASAriaSecundaViola = {
     a d e e,
     a cis' gis e
     a d, e e,
-    a4\fermata r
+    a4\fermataFine r
     R2*13 %42
     fis8 fis' eis cis
     fis h cis cis,
     fis,4 r %45
-    R2*14 \markDaCapo \bar "||" %59 finis
+    R2*14 \markAriaDaCapo \bar "||" %59 finis
   }
 }
 
@@ -731,12 +731,12 @@ A-IXASAriaTertiaViola = {
     r8 c'\fE e, c f d g e
     a f h g c f, g g,
     c e h g c f g g, %35
-    c4\fermata r r2
+    c4\fermataFine r r2
     R1*5 %41
     r2 r8 h'\fE fis d
     g e dis h e e' a, c
     h a h h, e4 r
-    R1*10 \markDaCapo \bar "||" %54 finis
+    R1*10 \markAriaDaCapo \bar "||" %54 finis
   }
 }
 
@@ -804,7 +804,7 @@ A-IXASAriaQuartaViola = {
     g-! r r g-! r r f'16 g f e d c b c b a g f
     e' f e d c b a b a g f e d' e d c b a g a g f e d
     cis' d \hA cis b a g f g f e d c b8 g a d, r r
-    b'' g a d,4. r2*3/2\fermata \bar "|." %40 finis
+    b'' g a d,4. r2*3/2\fermataFine \bar "|." %40 finis
   }
 }
 

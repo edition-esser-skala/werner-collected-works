@@ -174,7 +174,7 @@ A-XIXAAriaPrimaViolinoI = {
     c8.\trill \tuplet 3/2 16 { d32 c b } c8 c
     \sbOn \tuplet 3/2 8 { c16\trill b c d c b a b c b a g } \sbOff
     f8 a16. f32 c8 f16. c32 \noBreak
-    a4 r\fermata \bar "||"
+    a4 r\fermataFine \bar "||"
     \time 3/8 \tempoA-XIXAAriaPrimaB \newSpacingSection
       r8 f'\pE^\pizz e \noBreak %85
     r d f
@@ -264,7 +264,7 @@ A-XIXAAriaSecundaViolinoI = {
     g( h,) c r f f f( a,) b r es es
     es( g,) as d( fis,) g c( e,) f b( d,) es
     as16 g f es d c b8 d' es c as b es, g' g \noBreak %30
-    r g g r g g f16 as g f es d es4\fermata r8
+    r g g r g g f16 as g f es d es4\fermataFine r8
     \time 4/4 \tempoA-XIXAAriaSecundaB \newSpacingSection
       r2 r8 d\p g4 \noBreak
     r8 g c4 r8 d, b'4
@@ -398,7 +398,7 @@ A-XIXAAriaTertiaViolinoI = {
     h32( d16.) c32( h16.) a32( gis16.)
     \sbOn a8\f \tuplet 3/2 8 { c,16 h c e d e } \sbOff
     a8 e c \noBreak %95
-    a4 r8\fermata \bar "||"
+    a4 r8\fermataFine \bar "||"
     \time 4/4 \tempoA-XIXAAriaTertiaB \newSpacingSection
       r2 r8 e'\p\trill g\trill h\trill \noBreak
     e\trill h\trill g\trill e\trill r g\trill h\trill e\trill
@@ -468,7 +468,7 @@ A-XIXAAriaQuartaViolinoI = {
     R1
     r8 f\f \tuplet 3/2 8 { d'16 c b } b8~ \tuplet 3/2 8 { b16 a g } b8 \tuplet 3/2 8 { es16 d c } c8~ %20
     \tuplet 3/2 8 { c16 b a } c8 \tuplet 3/2 8 { f16 es d } d8~ \sbOn \tuplet 3/2 8 { d16 es f g f es d es f es d c } \noBreak
-    b( f) \tuplet 3/2 8 { g f es d es f es d c } \sbOff b4 r\fermata \bar "||"
+    b( f) \tuplet 3/2 8 { g f es d es f es d c } \sbOff b4 r\fermataFine \bar "||"
     \key g \minor \time 3/8 \tempoA-XIXAAriaQuartaB \newSpacingSection
       r8^\senzaSord d'\f g \noBreak
     \tuplet 3/2 8 { fis16\trill e? \hA fis } r8 r
@@ -659,7 +659,7 @@ A-XIXBAriaPrimaViolinoI = {
     R1
     \tuplet 3/2 8 { e,16\f\trill d e } e16. g32 \tuplet 3/2 8 { g16\trill f g } g16. c32 \tuplet 3/2 8 { c16\trill h c } c16. e32 \tuplet 3/2 8 { e16\trill d e } e16. g32
     \tuplet 3/2 8 { g16\trill f g } g16. c32 \tuplet 3/2 8 { c16\trill h c } c16. e32 \sbOff e16( c) h( a) g( e) d( c) \noBreak
-    g8.\trill c32 d d4\trill c r\fermata \bar "||" %45
+    g8.\trill c32 d d4\trill c r\fermataFine \bar "||" %45
     \key f \major \time 3/8 \tempoA-XIXBAriaPrimaB
       R4. \noBreak
     f,16(\p a) a( c) f( a)
@@ -762,7 +762,7 @@ A-XIXBAriaSecundaViolinoI = {
     d c d e fis d
     g a g f es d
     c es d c d d \noBreak
-    g,4 r8\fermata \bar "||"
+    g,4 r8\fermataFine \bar "||"
     \twofourtime \time 2/4 \tempoA-XIXBAriaSecundaB \newSpacingSection
       R2*2 %81
     r8 a'\p \tuplet 3/2 8 { a16 g f } f8
@@ -846,7 +846,7 @@ A-XIXBAriaTertiaViolinoI = {
     c1~ %30
     c16( f) as( g) f( es) d( c) h4 r8 \hA h
     c16( h) d( c) es( d) f( es) d( c) h( a!) g( f') es( d) \noBreak
-    c( g) as( f) \appoggiatura es8 d8.\trill c16 c4 r\fermata \bar "||"
+    c( g) as( f) \appoggiatura es8 d8.\trill c16 c4 r\fermataFine \bar "||"
     \twofourtime \time 2/4 \tempoA-XIXBAriaTertiaB
       \after 4*0 -\senzaSord R2*2 %35
     es16(\p f) g( as) g( \hA as) b( c)
@@ -992,7 +992,7 @@ A-XIXBAriaQuartaViolinoI = {
     b8 f, f8.\trill g32 a
     b16 f g es f8 f
     b,16 d' b f d8 d %100
-    d4 r\fermata\bar "|." %101 finis
+    d4 r\fermataFine \bar "|." %101 finis
   }
 }
 
