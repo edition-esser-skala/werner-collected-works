@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026.07.0 – 2026-06-28
+
+### Added
+
+- works: WerW A.13, I.4.31, I.5.15/17/27, M.1, and N.5
+- global macros: `\markAriaDaCapo` and `\fermataFine`
+
+### Changed
+
+- WerW A.9/12/19: adds “Aria da capo” and fermatas with “fine” annotation
+
+
 ## 2026.06.0 – 2026-06-28
 
 ### Added
