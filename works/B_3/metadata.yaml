@@ -1,0 +1,17 @@
+title: Missa victoriosa
+id: WerW B.3
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwb3
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.16
+    rism: 530001926
+    url: https://copia.oszk.hu/kotta/missa-victoriosa/
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  2 & 71 & vl 2 & 2nd \quarterNote\ in \A1: d′8–d′8 \\
