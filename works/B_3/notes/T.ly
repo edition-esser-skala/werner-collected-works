@@ -447,3 +447,385 @@ B-IIIGloriaTenoreLyrics = \lyricmode {
   men, a --
   men. %154 finis
 }
+
+B-IIICredoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 4/4 \autoBeamOff \tempoB-IIICredo
+    \mvTr h4\fE^\tutti a r8 h a a
+    h4 a r8 h a a
+    h4 g8[ h] cis4 a8[ \hA cis]
+    d4 h8 d cis( d4 \hA cis8)
+    d4 r r2 %5
+    a8 a a a16 a a8. a16 a4
+    h8 h a a16 a h8. h16 h4
+    c8 e d h c4. a8
+    d d d d h8. h16 a8 d
+    h c a8. a16 h4 r %10
+    \mvTr e8\pE^\solo^\aTre h g e h'8. h16 h4
+    e a, d! g,
+    c8 a fis([ g)] d4 r
+    r8 g g e a4. fis8
+    h4 g8([ e)] fis4. fis8 %15
+    h,4 r r2
+    R1*14 %30
+    r8 \mvTr a'\fE^\tutti h g a a h8. h16
+    a8 a h h h h16 h h4
+    h r8 a4 d h8
+    e c4 a fis8 r e' \noBreak
+    a,4( d) d2\fermata \bar "||" %35
+    \time 3/4 \tempoB-IIIEtIncarnatus \newSpacingSection
+      r8 \mvTr fis,\pE^\solo h([ d)] d([ fis)] \noBreak
+    fis8. fis,16 fis4 r
+    R2.
+    fis4 h d
+    c!( e) c %40
+    ais fis8([ \hA ais)] ais([ cis])
+    h2 h4
+    a! c!4. h16 a
+    g4 e g8 h
+    d8. e16 f4 gis, %45
+    a r8 a c e
+    g,!2 g4
+    f r8 a d f
+    a,2 a4
+    gis r8 \hA gis h a %50
+    a16([ gis)] gis8 r \hA gis\p h a
+    a16([ gis)] gis8 h\f d f([ d)]
+    c([ a)] c4( h8.)\trill a16
+    a4 r8 cis e d
+    d16([ cis)] cis8 r \hA cis\p e d %55
+    d16([ cis)] cis8 d4.\trill d8 \noBreak
+    cis2.\fermata \bar "||"
+    \time 4/2 \key d \minor \tempoB-IIICrucifixus \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*4 %61
+    \mvTr a1\fE^\tutti b!
+    gis a
+    r2 d1 c4( b)
+    a( g) f( e) f( g a h %65
+    c2) a r1
+    h c
+    a h
+    r a
+    h gis %70
+    a r
+    R\breve
+    r2 d h2. h4
+    g2 c a1
+    g2 g a( d) %75
+    g,1 r
+    R\breve*3
+    r1 r2 d'~ %80
+    d e cis c~
+    c d h1
+    c2 e a, d
+    g, e'1( c2)
+    d1 r2 c~ %85
+    c d r h~
+    h c r a~
+    a a h h
+    a h a2. a4 \noBreak
+    h\breve\fermata \bar "||" %90
+    \key c \major \time 3/2 \tempoB-IIIEtResurrexit \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      \mvTr g1\fE^\tutti r2 \noBreak
+    g d' h
+    g g r
+    g d' h
+    g g g %95
+    a1 a2
+    h2. h4 h2
+    c d h
+    c c1
+    h2 a1 %100
+    h r2
+    r a a
+    h h r
+    r a a
+    h d h %105
+    c c c
+    h h r
+    c1.~
+    c~
+    c2 c c %110
+    h2. h4 c2
+    c1( h2)
+    c1 r2
+    R1.
+    \mvTr a2\pE^\solo^\aTre gis a %115
+    e r4 a gis a
+    e2 c' f(
+    e d2.) d4
+    c2 e, c
+    g'1 g2 %120
+    g g g
+    g1 fis2
+    g f e
+    d2.( e4) f g
+    a g8([ f)] e4( d e f) %125
+    g2 e fis(
+    g) d1
+    g r2
+    R1.*17 %145
+    c1^\aTre c2
+    c c h
+    c2. c4 c2
+    \mvDl c2.\fE^\tutti d4 c2
+    h c1 %150
+    h h2
+    c2. d4 c2
+    h c1
+    h2 h c
+    a4.( h8 c2) d %155
+    c1 c2
+    c c( h)
+    c1 r2 \noBreak
+    R1.\fermata \bar "||"
+    \time 4/4 \tempoB-IIIEtUnam \newSpacingSection
+      R1*6 %165
+    r2 \mvTr d4.\pE^\solo d8
+    d g, d' e f!4. e16([ d])
+    c8 h a2 g4 \noBreak
+    g2\trill fis\fermata \bar "||"
+    \key g \major \time 3/2 \tempoB-IIIEtVitam \newSpacingSection
+      R1.*12 %181
+    \mvTr g2\fE^\tutti h a4 g
+    d'1 d2
+    d2. d4 d2
+    d( e1) %185
+    d r2
+    d2. c4 h c
+    d2. c4 h c
+    d2 c( a)
+    d d e %190
+    r cis d
+    r h cis
+    r e( d4 e
+    a,2) a1
+    a2 a1 %195
+    a4 h a1
+    a2 r r
+    r d1
+    d2 fis,4( g8[ a] h4 c!)
+    d2 r r %200
+    r4 h2( c4 d e)
+    h2 d( c4 d)
+    e2 r4 c( d e)
+    e2 r4 a,( h a)
+    gis2 r r %205
+    a4 c8[ h] a4 gis a \hA gis
+    a c8[ h] a4 gis a \hA gis
+    a1 gis2
+    a r c
+    a h1 %210
+    a r2
+    R1.
+    g2 h a4 g
+    d'1 d2
+    d2. c4 h( c) %215
+    d2.( c4 h c)
+    d2 c( a)
+    d d e
+    r cis d
+    r h c %220
+    r a h
+    r g a
+    fis2. g4 a h
+    fis2. g4 a h
+    fis2 r4 fis g a %225
+    h d8[ c] h4 a h a
+    h d8[ c] h4 a h a
+    h c a1
+    h2 r r
+    d1.\p %230
+    d
+    d4 e d1
+    d2 r r\fermata \bar "|." %233 finis
+  }
+}
+
+B-IIICredoTenoreLyrics = \lyricmode {
+  Pa -- trem o -- mni -- po --
+  ten -- tem, fa -- cto -- rem
+  coe -- _ _ _
+  _ li et ter --
+  rae, %5
+  vi -- si -- bi -- li -- um o -- mni -- um,
+  vi -- si -- bi -- li -- um o -- mni -- um
+  et in -- vi -- si -- bi -- li --
+  um, in -- vi -- si -- bi -- li -- um, in --
+  vi -- si -- bi -- li -- um. %10
+  Et in u -- num Do -- mi -- num
+  Je -- sum Chri -- stum,
+  Je -- sum Chri -- stum,
+  Fi -- li -- um De -- i
+  u -- ni -- ge -- ni -- %15
+  tum.
+
+  Qui pro -- pter nos, nos ho -- mi -- %31
+  nes et pro -- pter no -- stram sa -- lu --
+  tem de -- scen -- _
+  _ _ _ dit de
+  coe -- lis. %35
+  Et in -- car --
+  na -- tus est,
+
+  et in -- car --
+  na -- tus %40
+  est, in -- car --
+  na -- tus
+  de Spi -- ri -- tu
+  San -- cto ex Ma --
+  ri -- a Vir -- gi -- %45
+  ne, et ho -- mo
+  fa -- ctus
+  est, et ho -- mo
+  fa -- ctus
+  est, et ho -- mo %50
+  fa -- ctus, et ho -- mo
+  fa -- ctus, ho -- mo, ho --
+  mo fa -- ctus
+  est, et ho -- mo
+  fa -- ctus, et ho -- mo %55
+  fa -- ctus, fa -- ctus
+  est.
+
+  Cru -- ci -- %62
+  fi -- xus
+  e -- ti --
+  am pro no -- %65
+  bis,
+  cru -- ci --
+  fi -- xus,
+  cru --
+  ci -- fi -- %70
+  xus
+
+  sub Pon -- ti --
+  o Pi -- la --
+  to, Pi -- la -- %75
+  to
+
+  pas -- %80
+  _ sus, pas --
+  _ sus
+  et se -- pul -- tus
+  est, pas --
+  sus, pas -- %85
+  sus, pas --
+  sus, pas --
+  sus, pas -- sus
+  et se -- pul -- tus
+  est. %90
+  Et,
+  et re -- sur --
+  re -- xit,
+  et re -- sur --
+  re -- xit, sur -- %95
+  re -- xit
+  ter -- ti -- a
+  di -- e se --
+  cun -- dum
+  Scri -- ptu -- %100
+  ras.
+  Et a --
+  scen -- dit,
+  et a --
+  scen -- dit in %105
+  coe -- lum, a --
+  scen -- dit,
+  se --
+
+  det ad %110
+  dex -- te -- ram
+  Pa --
+  tris.
+
+  Et i -- te -- %115
+  rum ven -- tu -- rus
+  est cum glo --
+  ri --
+  a iu -- di --
+  ca -- re %120
+  vi -- vos et
+  mor -- tu --
+  os, cu -- ius
+  re -- gni non
+  e -- rit fi -- %125
+  nis, e -- rit __
+  fi --
+  nis.
+
+  Qui cum %146
+  Pa -- tre et
+  Fi -- li -- o
+  si -- mul ad --
+  o -- ra -- %150
+  tur et
+  con -- glo -- ri --
+  fi -- ca --
+  tur: qui lo --
+  cu -- tus %155
+  est per
+  Pro -- phe --
+  tas.
+
+  Et ex -- %166
+  pe -- cto re -- sur -- re -- cti --
+  o -- nem mor -- tu --
+  o -- rum.
+
+  Et vi -- tam ven -- %182
+  tu -- ri
+  sae -- cu -- li,
+  a -- %185
+  men,
+  a -- _ _ _
+  _ _ _ _
+  men, a --
+  men, a -- men, %190
+  a -- men,
+  a -- men,
+  a --
+  men,
+  a -- men, %195
+  a -- men, a --
+  men,
+  a --
+  men, a --
+  men, %200
+  a --
+  men, a --
+  men, a --
+  men, a --
+  men, %205
+  a -- _ _ _ _ _
+  _ _ _ _ _ _
+  _ _
+  men, a --
+  men, a -- %210
+  men,
+
+  et vi -- tam
+  ven -- tu -- ri
+  sae -- cu -- li, __ %215
+  a --
+  men, a --
+  men, a -- men,
+  a -- men,
+  a -- men, %220
+  a -- men,
+  a -- men,
+  a -- _ _ _
+  _ _ _ _
+  men, a -- _ _ %225
+  _ _ _ _ _ _
+  _ _ _ _ _ _
+  _ men, a --
+  men,
+  a -- %230
+  men,
+  a -- men, a --
+  men. %233 finis
+}

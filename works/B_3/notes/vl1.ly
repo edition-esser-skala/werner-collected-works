@@ -285,3 +285,243 @@ B-IIIGloriaViolinoI = {
     h2 r r\fermata \bar "|." %154 finis
   }
 }
+
+B-IIICredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoB-IIICredo
+    g''16\fE d g h a d, a' d h4 r
+    g,16 d g h a d, a' d h4 r
+    r16 g h d g8 h, r16 a cis e a8 \hA cis,
+    r16 h d fis h8 d, cis d e, \hA cis'
+    d16 a d fis h, h' g e cis a d fis, e8 \hA cis' %5
+    d16 a d fis e a, e' a fis4 r
+    g16 d g h a d, a' d h4 r
+    c,!16 g c e d g, d' g e c e g fis! d fis a
+    g d g h a d, a' d h d,, g h a d, a' d
+    h d e g a,8 fis' g16 d' h g d h' g d %10
+    h4 r r16 h\p dis fis h h, \hA dis fis
+    g e, g h c e a e fis d,! fis a h d g d
+    e g c, e a c, h g' a, d, fis a d d, fis a
+    h g h d g e, g h cis a \hA cis e a fis, a \hA cis
+    d h d fis h h, e g d8 h' fis, ais' %15
+    h4 r d,8 fis16 e d( e) cis( e)
+    d4 r fis8 a16 g fis( g) e( g)
+    fis4 r8 fis e16( d) cis( d) \hA cis( h) a8
+    r4 r8 g' fis16( e) dis( e) \hA dis( cis) h8
+    r g'4 h,8 r fis'4 e8 %20
+    d!16( e) d( e) d( e) d( e) cis8 fis, r4
+    r16 d' fis e d4 r16 e g fis e4
+    r16 cis e d \hA cis4 r16 d fis e d4
+    r8 d e fis g a h a16 g
+    fis8 g dis e fis g a g %25
+    fis4.\trill fis8 e4 r
+    g8 h16 a g( a) fis( a) g4 r
+    r8 h a g fis4 r
+    R1*2 %30
+    r16 fis\fE a d h g d h' a8 fis, r4
+    r16 d' fis a h8 g fis16 dis e g, fis8 \hA dis'
+    e16 h' g h e, g c, e a, a' fis a d, fis h, d
+    g, g' e g c, e a, cis fis,8 fis' g4~ \noBreak
+    g fis g2\fermata \bar "||" %35
+    \time 3/4 \tempoB-IIIEtIncarnatus \newSpacingSection
+      R2. \noBreak
+    r8 cis,\pp cis16( e) e8 e16( g) g8
+    r cis cis16( e,) e8 e16( cis) cis8
+    r d' d16( fis,) fis8 fis16( d) d8
+    r g g16( e) e8 e16( c!) c8 %40
+    r cis cis16( ais) ais8 ais16( fis) fis8
+    r fis' fis16( d) d8 d16( h) h8
+    r a'! a16( fis) fis8 fis16( dis) dis8
+    r e e16( h) h8 h16( g) g8
+    r f' f16( d) d8 d16( h) h8 %45
+    r e e16( c) c8 c16( a) a8
+    r b b16( g) g8 g16( e) e8
+    r f' f16( d) d8 d16( a) a8
+    r c! c16( a) a8 a16( fis) fis!8
+    r e' e16( dis) d8 d16( cis) c8 %50
+    h4 r r
+    r r a
+    a2 gis4
+    a8 a' a16( gis) g8 g16( fis!) f8
+    e4 r8 e cis d %55
+    e a, a4 h \noBreak
+    a2.\fermata \bar "||"
+    \time 4/2 \key d \minor \tempoB-IIICrucifixus \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      a1\fE b! \noBreak
+    gis a
+    r2 d1 c4 b %60
+    a g f e f g a h
+    c d e c d c b a
+    h2 e2. d4 cis \hA h
+    a1 r
+    R\breve %65
+    a1 b!
+    gis a2 c~
+    c4 c a1 g4 fis
+    g e e'1 d4 c
+    h a g fis e2 e' %70
+    c2. c4 a2 d
+    h1 g2 c
+    a1 h
+    r2 g c a
+    h c1 \hA h2 %75
+    c1 r2 e~
+    e f dis d~
+    d e cis c~
+    c d h1
+    c4 g c1 d2 %80
+    h1 e
+    a, d
+    g,2 c1 h2
+    c1 r
+    r2 h1 c2 %85
+    a a1 h2
+    g g1 a2
+    fis fis g1
+    fis2 g1 \hA fis2 \noBreak
+    g\breve\fermata \bar "||" %90
+    \key c \major \time 3/2 \tempoB-IIIEtResurrexit \newSpacingSection
+      \unset Staff.timeSignatureFraction
+    r8 g,\fE a h c d c d e f e f \noBreak
+    g a g a h c h c d e f g
+    e4 c g e r2
+    R1.
+    r2 r4 c' e c %95
+    a f r d' f d
+    h g r e' g e
+    c a' \appoggiatura a g2. f4
+    e8 g a h c1
+    h2 a1 %100
+    r8 d,, e fis g a g a h c h c
+    d e d e fis g \hA fis g a h c d
+    h4 g d h r2
+    R1.
+    r2 r4 g h d %105
+    e g c g e c'
+    h g d h2 d4
+    e8 f! e f e f e f e f e f
+    e f e f e f e f e f e f
+    d e d e d e d e d e d e %110
+    d d e f g g a h c4 g
+    a f d2 h'
+    c8 g f g e c h c g e d e
+    c4 e2 d4 c h
+    a2 r r %115
+    r8 e'\pE gis h e4 e, e2
+    r8 e gis h e4 g a f
+    c' c, f d d' f,
+    e8 c e g c4 g2 f8 e
+    d( e) d( e) d( e) d( f) e( f) e( f) %120
+    d( e) d( e) d( e) d( f) e( f) e( f)
+    d( e) d( f) es( f) \hA es( f) \hA es( f) \hA es( f)
+    d4 g, r2 r
+    d'4 e! f g a h
+    c2 c, r %125
+    r8 g h d g2 r
+    R1.
+    r8 h,\f d g h4 a8 g fis4 e
+    d c h2 a\trill
+    g8 d'\p c d h2 r %130
+    r8 h' a h g h a h g h a h
+    h,2 r4 fis'2 h4~
+    h g e2 r4 e~
+    e c a2 r4 a'~
+    a fis d2 r4 d~ %135
+    d h g2 r4 d'
+    e2 c, r4 e'
+    fis2 d, r4 \hA fis'
+    g h, r2 r
+    r8 d c d h2 r %140
+    r8 h a h gis2 r
+    r8 e' d e c2 r
+    r8 e d e h2 r
+    R1.*4 %147
+    r4 c,8\fE e g4 e8 g c4 g8 c
+    e f g2 g4 g c
+    h d c g e c' %150
+    h8 g fis e d c h a g4 d'
+    e8 f g2 g4 g c
+    h d c g e c'
+    h8 g, h d g g, h d g4 c,
+    f d, r f' d' f, %155
+    e8 c e g c c, e g c4 c,
+    a' c d, c' g, h'
+    c g8 e c4 e8 c g4 c8 g \noBreak
+    e2 r r\fermata \bar "||"
+    \time 4/4 \tempoB-IIIEtUnam \newSpacingSection
+      R1*4 %163
+    r4 e'~\pE e8( d) d( c)
+    h4 d~ d8( c) c( h) %165
+    a d16 c h8 c h4 a\trill
+    h d2~ d8 c16 h
+    c2 h4. h,8 \noBreak
+    cis2\trillE h\fermata \bar "||"
+    \key g \major \time 3/2 \tempoB-IIIEtVitam \newSpacingSection
+      R1. \noBreak %170
+    r4 d''\fE a h fis g
+    a d, a h fis g
+    a g8 fis g4 a h cis
+    d8 fis, g a d,4 a' g fis
+    h g' d e h c! %175
+    d g, d e h c
+    d d' c d e fis
+    g d h' g2 e4
+    r e a fis2 d4
+    r d g e2 cis4 %180
+    d a h c a d
+    h d g d c h
+    a d' a h fis g
+    a d, a h fis g
+    a g8 fis g4 a h cis %185
+    d8 fis, g a d,4 a' g fis
+    h g' d e h c!
+    d g, d e h c
+    d d' c d e fis
+    g d h'2 g, %190
+    r4 e' a2 fis,
+    r4 d' g2 e,
+    r4 cis'2 e4 a g
+    fis a8 g fis4 e fis e
+    fis a8 g fis4 e fis e %195
+    fis h e, a2 a4
+    fis d' a h fis g
+    a fis d2 r4 h
+    a fis d2 r
+    r4 g' d e h c! %200
+    d h g2 r4 e'
+    d h g2 r
+    r4 c8 d e4 e8 fis gis4 a
+    h e,2 c'4 h a
+    gis gis, a h c d %205
+    e2. fis8 gis a4 \hA gis
+    a2. gis4 a \hA gis
+    a1 gis2
+    a4 e8 d c4 e8 d c4 h
+    a d8 c h4 d8 c h4 h %210
+    a8 a' g a fis4 a d, fis
+    a, d fis,8 a g a fis a g a
+    h4 d g d c h
+    a2 d, r
+    r4 g' d e h c %215
+    d g, d e h c
+    d d' c d e fis
+    g d h'2 g,
+    r4 e' a2 fis,
+    r4 d' g2 e, %220
+    r4 c'! fis2 d,
+    r4 h' e2 c,
+    r4 d'' a h fis g
+    a d, a h fis g
+    a h8 c d4 e8 fis g4 a %225
+    h2. a4 h a
+    h2. a4 h a
+    h c a2. a4
+    h a8 g fis4 e d c
+    h2.\p a4 h a %230
+    h2. a4 h a
+    h e d2 d
+    d r r\fermata \bar "|." %233 finis
+  }
+}

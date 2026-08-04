@@ -74,8 +74,64 @@
   %     \midi { \tempo 4 = 60 } %120 – 80 – 110
   %   }
   % }
+  % \bookpart {
+  %   \section "2" "Gloria"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \B-IIIGloriaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \B-IIIGloriaViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \B-IIIGloriaSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \B-IIIGloriaSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \B-IIIGloriaAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \B-IIIGloriaAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \B-IIIGloriaTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \B-IIIGloriaTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \B-IIIGloriaBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \B-IIIGloriaBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \B-IIIGloriaOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \B-IIIGloriaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 } % see definitions
+  %   }
+  % }
   \bookpart {
-    \section "2" "Gloria"
+    \section "3" "Credo"
     \addTocEntry
     \score { %\articulate
       <<
@@ -84,47 +140,47 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \B-IIIGloriaViolinoI
+              \B-IIICredoViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \B-IIIGloriaViolinoII
+              \B-IIICredoViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \B-IIIGloriaSoprano }
+            \new Voice = "Soprano" { \dynamicUp \B-IIICredoSoprano }
           }
-          \new Lyrics \lyricsto Soprano \B-IIIGloriaSopranoLyrics
+          \new Lyrics \lyricsto Soprano \B-IIICredoSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \B-IIIGloriaAlto }
+            \new Voice = "Alto" { \dynamicUp \B-IIICredoAlto }
           }
-          \new Lyrics \lyricsto Alto \B-IIIGloriaAltoLyrics
+          \new Lyrics \lyricsto Alto \B-IIICredoAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \B-IIIGloriaTenore }
+            \new Voice = "Tenore" { \dynamicUp \B-IIICredoTenore }
           }
-          \new Lyrics \lyricsto Tenore \B-IIIGloriaTenoreLyrics
+          \new Lyrics \lyricsto Tenore \B-IIICredoTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \B-IIIGloriaBasso }
+            \new Voice = "Basso" { \dynamicUp \B-IIICredoBasso }
           }
-          \new Lyrics \lyricsto Basso \B-IIIGloriaBassoLyrics
+          \new Lyrics \lyricsto Basso \B-IIICredoBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \B-IIIGloriaOrgano
+            \B-IIICredoOrgano
           }
         >>
-        \new FiguredBass { \B-IIIGloriaBassFigures }
+        \new FiguredBass { \B-IIICredoBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 90 } % see definitions

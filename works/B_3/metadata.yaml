@@ -14,4 +14,6 @@ sources:
     principal: true
 tocstyle: default
 toe: |
-  2 & 71 & vl 2 & 2nd \quarterNote\ in \A1: d′8–d′8 \\
+  2 & 71  & vl 2 & 2nd \quarterNote\ in \A1: d′8–d′8 \\
+  3 & 175–178 & org & upper voice in \A1 is indeed
+                      different from S \\
