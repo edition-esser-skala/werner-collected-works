@@ -863,25 +863,330 @@ B-IIICredoSopranoLyrics = \lyricmode {
   men. %233 finis
 }
 
+B-IIISanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/2 \autoBeamOff \tempoB-IIISanctus
+    \mvTr h'2.\fE^\tutti c4 d c8[ d]
+    e4 d c1\trill
+    h4 g8[( a] h4 d c h)
+    a2 r r
+    R1. %5
+    r4 a d2. cis8[ d]
+    h4 d e2. d8[ e]
+    cis4 e fis2. e8[ fis]
+    d4 fis g1
+    fis2 e1\trill %10
+    d2 a a4 h
+    c! d e2. d8([ c)]
+    h2 r h4( c
+    d) c8([ h)] a4( h) c( d)
+    e2 e dis %15
+    e1 dis2
+    e h h4 c
+    d!1.
+    d1 h2
+    e d2. d4 \noBreak %20
+    d1.\fermata \bar "||"
+    \time 4/4 \tempoB-IIIPleni \newSpacingSection
+      R1*7 %28
+    \mvTr e8\pE^\solo dis16 e fis([ h,)] h a g8 e r h'
+    c d16 e d8 c16 d h8 g d'4~ %30
+    d16[ e32 d e8]~ e16[ fis32 e fis8]~ fis16[ g32 fis g8] fis16[ e d c]
+    h[ d c e] d([ h)] a([ g)] h4( a)\trill
+    g r r8 h16([ cis)] dis8 e
+    fis8.([ e16]) dis([ cis)] h([ a)] g8 e r4
+    c'~ c16[ d32 c h16 a] h4~ h16[ c32 h a16 g] %35
+    a4~ a16[ h32 a g16 fis] g16[ h a c] h[ d cis e]
+    dis8. dis16 e([ d32 c h16 a)] g4( fis)\trill
+    e r r2
+    R1 \noBreak
+    R\fermata \bar "||" %40
+    \tempoB-IIIOsanna \mvTr g2\fE^\tuttiE a \noBreak
+    g4 c2 h4
+    e2 d~
+    d4 cis8[ h] \hA cis2\trill \noBreak
+    d1\fermata %45
+    R1*5 %50
+    g,2 g8([ fis)] fis4
+    d' f, f8([ e)] e4
+    a2 a8([ gis)] gis4
+    e' g, g8([ fis!)] fis4
+    d' f, f8([ e)] e4 %55
+    c' e, dis e~
+    e dis e2
+    e e8([ dis)] dis4
+    h' d, d8([ cis)] cis4
+    a' c, c8([ h)] h4 %60
+    r8 g' h c d4 d,8([ e])
+    f([ g a h] c4) c,
+    r8 a' c d e4 e,8([ fis)]
+    g![ a h cis] d4 d,8[ e]
+    f[ g a h] c[ g] c4~ %65
+    c h c r
+    c2 c8([ h)] h4
+    d2 d8([ c)] c4
+    e4. e8 dis4 e~
+    e dis e2 %70
+    h a~
+    a8[ h c d] g,2~
+    g8[ a h c] fis,2~
+    fis8[ g a h] e,2~
+    e8[ fis g a] d,4 r %75
+    g2 g8([ fis)] fis4
+    d' c8([ h)] a[ g a h]
+    c4 h8[ a] g[ fis g a]
+    h4 a8[ g] fis[ e fis g]
+    a[ h c a] h4. a16[ g] %80
+    a2 h
+    r h
+    c4 d2 c8[ h]
+    c2 h\fermata \bar "|." %84 finis
+  }
+}
 
-% ## Sanctus
+B-IIISanctusSopranoLyrics = \lyricmode {
+  San -- _ _ _
+  _ _ _
+  ctus, san --
+  ctus,
+  %5
+  san -- _ _
+  _ _ _ _
+  _ _ _ _
+  _ _ _
+  ctus, san -- %10
+  ctus Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth, De --
+  us Sa -- ba --
+  oth, De -- us %15
+  Sa -- ba --
+  oth, Do -- mi -- nus
+  De --
+  us, De --
+  us Sa -- ba -- %20
+  oth.
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
+  Ple -- ni sunt coe -- li et ter -- ra, sunt %29
+  coe -- li, sunt coe -- li et ter -- ra glo -- %30
+  _
+  _ ri -- a tu --
+  a, ple -- ni sunt
+  coe -- li et ter -- ra
+  glo -- _ %35
+  _ _ _
+  _ ri -- a __ tu --
+  a.
 
+  O -- san -- %41
+  na in ex --
+  cel -- _
+  _ _
+  sis, %45
 
-% ## Benedictus
+  o -- san -- na %51
+  in ex -- cel -- sis,
+  o -- san -- na
+  in ex -- cel -- sis,
+  in ex -- cel -- sis, %55
+  in ex -- cel -- _
+  _ sis,
+  o -- san -- na
+  in ex -- cel -- sis,
+  in ex -- cel -- sis, %60
+  o -- san -- na in ex --
+  cel -- sis,
+  o -- san -- na in ex --
+  cel -- _ _
+  _ _ _ %65
+  _ sis,
+  o -- san -- na,
+  o -- san -- na
+  in ex -- cel -- _
+  _ sis, %70
+  o -- san --
+  _
+  _
+  _
+  na, %75
+  o -- san -- na
+  in ex -- cel --
+  _ _ _
+  _ _ _
+  _ _ _ %80
+  _ sis,
+  in
+  ex -- cel -- _
+  _ sis. %84 finis
+}
 
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
+B-IIIBenedictusSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoB-IIIBenedictus
+    r2 \mvTr d'4.\pE^\solo^\aTre fis8
+    fis([ e)] d cis d16([ cis)] d8 r a
+    cis4 cis8 cis d16([ cis)] d8 r d
+    h cis16 d \appoggiatura cis8 h8. h16 a4 r
+    r2 a4 d %5
+    h h8 h a4 a8 d
+    d16([ cis)] cis8 r a h4 cis8 cis
+    d4 e a,8 a ais([ h]
+    cis8.) cis16 h2 e4~
+    e4 d8 d cis4. cis8 %10
+    h2 r
+    R1
+    R\fermata \markOsannaUtSupra \bar "||" %13 finis
+  }
+}
 
+B-IIIBenedictusSopranoLyrics = \lyricmode {
+  Be -- ne --
+  di -- ctus, qui ve -- nit, qui
+  ve -- nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni,
+  be -- ne -- %5
+  di -- ctus, qui ve -- nit, qui
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni, in no --
+  mi -- ne, no --
+  mi -- ne Do -- mi -- %10
+  ni. %11 finis
+}
 
-% ## Agnus Dei
+B-IIIAgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/2 \autoBeamOff \tempoB-IIIAgnus
+    R1.*9 %9
+    \mvTr h'1\pE^\solo^\aTre h2 %10
+    a a a
+    h h h
+    c c c
+    a1 d2
+    c1( h2) %15
+    c g c
+    h1 h2
+    r a d
+    c1 c2
+    r h e %20
+    dis e1
+    e( dis2)
+    e1 r2
+    R1.
+    \mvDl e1\fE^\tutti e2 %25
+    e e e
+    c c c
+    d1.
+    d2 d1
+    d2 d e~ %30
+    e d1~
+    d2 c1
+    h2 h1
+    cis d2~
+    d d( cis) \noBreak %35
+    d1.\fermata \bar "||"
+    \time 4/4 \tempoB-IIIDona \newSpacingSection
+      g,4. a8 h([ c16 h] c8) a \noBreak
+    g4. a8 h[ c16 h] c8[ a]
+    h[ c16 h] c8[ a] h[ a16 g] a4\trill
+    g8 h([ a g] a) d, d'([ cis16 h)] %40
+    a8 h4 cis8 d[ fis]~ fis16[ d \hA cis h]
+    a8 h4 cis8 d[ h]~ h16[ d \hA cis e]
+    d[ a] d8 c16([ e d c)] h8 g'4 fis16[ e]
+    d[ h a g] a4\trill h8 g16[ a] h8[ c]
+    d16[ h a g] a4 d,8 g( a4) %45
+    d,8 h'( c16[ e d c)] h8 d([ c h]
+    a4) d, r2
+    R1*4 %51
+    r2 c'4. d8
+    e([ f16 e] \hA f8) d c4. d8
+    e[ f16 e] \hA f8[ d] e[ \hA f16 e] \hA f8[ d]
+    e[ d16 c] d8[ e] f[ e16 d] e8[ fis] %55
+    g16[ d c h] c[ e d c] h8 g'4 fis16[ e]
+    d[ h a g] a4 h8 g'4 fis16[ e]
+    d[ h a g] a4 d,8 g( a4)
+    d,8 h'( c16[ e d c)] h8 h4 e8~
+    e a,4 d g, c8~ %60
+    c fis,4 h8~ h[ d c h]
+    a4. h8 cis[ d16 \hA cis] d4~
+    d8[ cis16 h] \hA cis4\trill d8 fis,4 g8
+    a( h4) cis8 d( h4 \hA cis8)
+    d4 r r8 g,4( a8) %65
+    g g4( a8) g4 r
+    r8 d'[ c h] a[ g fis e]
+    d[ e16 fis] g8[ a] h h4 c8
+    a2 h4 r
+    r8 d[\p c h] a[ g fis e] %70
+    d[ e16 fis] g8[ a] h h4 c8
+    a2 h4 r
+    h(\f a) h r
+    g( fis) g r\fermata \bar "|." %74 finis
+  }
+}
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+B-IIIAgnusSopranoLyrics = \lyricmode {
+  A -- gnus %10
+  De -- i, qui
+  tol -- lis pec --
+  ca -- ta, pec --
+  ca -- ta
+  mun -- %15
+  di: Mi -- se --
+  re -- re,
+  mi -- se --
+  re -- re,
+  mi -- se -- %20
+  re -- re
+  no --
+  bis.
+
+  A -- gnus %25
+  De -- i, qui
+  tol -- lis pec --
+  ca --
+  ta mun --
+  di, pec -- ca -- %30
+  _
+  _
+  ta, pec --
+  ca -- ta __
+  mun -- %35
+  di:
+  Do -- na no -- bis
+  pa -- cem, pa -- _
+  _ _ _ _
+  cem, pa -- cem, do -- %40
+  na no -- bis pa --
+  cem, pa -- _ _
+  _ cem, pa -- cem, pa -- _
+  _ _ cem, pa -- _
+  _ _ cem, pa -- %45
+  cem, pa -- cem, pa --
+  cem,
+
+  do -- na %52
+  no -- bis pa -- cem,
+  pa -- _ _ _
+  _ _ _ _ %55
+  _ _ cem, pa -- _
+  _ _ cem, pa -- _
+  _ _ cem, pa --
+  cem, pa -- cem, pa -- _
+  _ _ _ _ %60
+  _ _
+  _ cem, pa -- _
+  _ cem, do -- na
+  no -- bis pa --
+  cem, pa -- %65
+  cem, pa -- cem,
+  pa -- _
+  _ _ cem, no -- bis
+  pa -- cem,
+  pa -- _ %70
+  _ _ cem, no -- bis
+  pa -- cem,
+  pa -- cem,
+  pa -- cem. %74 finis
+}
