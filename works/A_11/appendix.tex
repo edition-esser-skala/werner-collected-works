@@ -1,0 +1,181 @@
+% latexmk -cd -lualatex works/A_11/appendix.tex
+% latexmk -c -cd works/A_11/appendix.tex
+
+\documentclass{ees}
+
+\newlist{lyricslist}{description}{1}
+\setlist[lyricslist]{
+  partopsep=0pt,
+  labelindent=0em,
+  labelwidth=4.5em,
+  leftmargin=4.5em,
+  labelsep=0pt,
+  first=\ltseries,
+  font=\normalfont\itshape\ltseries,
+  style=multiline
+}
+
+\newenvironment{lyrics}[1]{%
+  \subsection{#1}\nopagebreak%
+  \begin{lyricslist}%
+  \let\voice\item%
+}{%
+  \end{lyricslist}%
+}
+
+\begin{document}
+
+\clearscrheadfoot
+
+\chapter{Lyrics}
+
+\textit{Roles:} Die Barmherzigkeit (S) · Der verlohrene Sohn (A)
+
+\section{Actus primus}
+
+\begin{lyrics}{Scena prima}
+  \voice[Der verlohrene Sohn]
+  Wo wend ich mich nun hin!\\
+  die Noth hat mich umbgeben,\\
+  ich bin von aller Weld\\
+  verlaßen, und veracht,\\
+  weil durch verkherten Sünn\\
+  in meinen Wolluſtleben\\
+  mein Haabſchafft, Guet und Geld\\
+  nun gänzlich durchgebracht,\\
+  daß Kleid der erſten Unſchuld\\
+  iſt völlig ſchon zerrißen,\\
+  mein Erbtheil iſt dahin,\\
+  ô Sünder der ich bin!\\
+  der Hunger meiner Seelen,\\
+  ſo mir ins Gwißen nagt,\\
+  will mich zu Todte quällen,\\
+  und mir die Speiß verſagt,\\
+  ſo doch mein liebſter Vatter\\
+  ſein gringſten Knechten gönnet,\\
+  ach daß ich doch nur bald\\
+  mit ihm wär außgeſöhnet.\\
+  Doch nein es iſt zu ſpatt,\\
+  mein Ungehorſamb zeiget,\\
+  daß ſich zu keiner Gnad\\
+  deß Vatters Hertz mehr neiget.
+\end{lyrics}
+
+\begin{lyrics}{Scena secunda}
+  \voice[Die Barmherzigkeit]
+  Nein nein verzage nicht,\\
+  du würſt noch Gnade fünden,\\
+  dan deines Vatters Hertz\\
+  hat allzu bittren Schmertz,\\
+  daß du von ihm gewichen,\\
+  bekhenne deine Schuld,\\
+  werff dich zu ſeinen Füeßen,\\
+  rueff nur umb Gnad und Huld,\\
+  laß bittre Thränen flüeßen,\\
+  ſo würſtu Gnad erlangen,\\
+  Verzeühung und Pardon,\\
+  Er würd dich ſelbſt umbfangen\\
+  als ſeinen liebſten Sohn.
+\end{lyrics}
+
+\begin{lyrics}{Aria prima}
+  \voice[Barmherzigkeit]
+  Ô Menſch dich nicht betrüeb!\\
+  dein Gott iſt ſo gearthet,\\
+  daß Er nur auff dich warthet,\\
+  biß du mit Reu und Schmertz\\
+  bewegſt ſein mildes Hertz,\\
+  dan Er iſt voll der Lieb.\\[1ex]
+  Nun iſt die Gnadenzeit,\\
+  wo du Verzeühung fündeſt,\\
+  und Gott mit Liebe bündeſt,\\
+  daß Er nicht ſtraffen kan\\
+  wie Er ſchon offt gethan,\\
+  drum dich zur Bueß bereüth!
+\end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+% \begin{lyrics}{}
+%   \voice[]
+% \end{lyrics}
+
+\end{document}

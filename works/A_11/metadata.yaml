@@ -1,0 +1,28 @@
+title: Der verlorene SOhn
+subtitle: Der Von der Gerechtigkeit abgeſchröckte und Durch die Barmherzigkeit wiederum bewegte, Bußfertige und zu seinem Liebreichen Vatter Vertraungsvoll zurück-kehrende Verlohrne Sohn oder Der zu Seinen Verliebten Heyland Sich wendende reumüthige Sünder
+id: WerW A.11
+genre: oratorio
+scoring: S, 3 T, B (solo), S, 2 T, B (coro), 2 fl, 2 vl, vla, bc
+ark: 68748/e1gjwa11
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.6
+    date: 1738-04
+    rism: 530001916
+    url: https://copia.oszk.hu/kotta/der-verlorene-sohn-oratorium-1747/
+    license: public domain
+    principal: true
+toe: |
+  –  & –  & vla  & In \B1, there is no staff for vla in movements.
+                   Here, a vla part has been added
+                   by the editor to these movements.
+                   In arias (no. 4), the vla plays in unison
+                   with bc whenever the voice pauses during the first section.
+                   In accompagnatos (no. ), it plays
+                   unison with bc.
+                   In choruses (no. ), it generally plays unison
+                   with T~2 in fugues, and unison with bc otherwise. \\
+commentary: |
+  \includepdf[pages=-,link=false,pagecommand={}]{../works/A_11/appendix.pdf}
