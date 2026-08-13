@@ -417,3 +417,213 @@ A-XIAriaPrimaBassFigures = \figuremode {
   r8 <7 _+>2..
   <6 4>4 <5 _+> r4. %65 finis
 }
+
+A-XIScenaTertiaContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoA-XIScenaTertia
+    d1
+    e
+    d
+    a
+    fis %5
+    g
+    f!
+    es
+    e'!
+    d %10
+    a
+    d
+    h
+    c
+    g %15
+    as
+    c
+    des
+    c
+    b %20
+    es
+    f4 f, b2
+    g1
+    d'
+    c %25
+    a
+    g
+    cis
+    \tempoA-XIScenaTertiaB d4 g~ g8 g g g
+    f f f f dis dis dis dis %30
+    e4 a d,2
+    e4 dis e e,
+    a1
+    \tempoA-XIScenaTertiaC fis
+    g4 c d d, %35
+    g2 r\fermata \bar "|." %36 finis
+  }
+}
+
+A-XIScenaTertiaBassFigures = \figuremode {
+  r1
+  <6\\>
+  r
+  <6 [_!]>
+  <7-> %5
+  <_->
+  <6 4! _->
+  <6>
+  <6\\>
+  r %10
+  <6 [_!]>
+  <6!>
+  <5>2 <7- 5>
+  <_->1
+  <6- [_-]> %15
+  <[5-]>
+  <6- [_-]>
+  <[5-]>
+  <6! _->
+  <_-> %20
+  <[5-] _->
+  <4[-]>4 <3> <[_!]>2
+  <_!>1
+  <6! 5->
+  <_-> %25
+  <6\\>
+  <_->
+  <7->
+  r4 <_-> <4\+>2
+  <6> <7 5 [_+]> %30
+  <_+> <5>4 <6!>
+  <_+> <7 5 [_+]> <6 4> <5 _+>
+  r1
+  <7->
+  <_->4 q <4> <_+> %35
+  r1 %36 finis
+}
+
+A-XIAriaSecundaContinuo = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \tempoA-XIAriaSecunda
+    b'8\fE b, r b f' f, r f'
+    b b, r b f' f, r f
+    b4 d es e
+    f a b8 d16. c32 b16. a32 g16. f32
+    es8 es'16. d32 c16. b32 a16. g32 \sbOn \tuplet 6/4 4 { f16 c' b a a g f f es d d c } \sbOff %5
+    b8 es f f, b es f f,
+    b4 r b8\pE b16 c d8 b
+    f'4 a, b r
+    c e f r
+    b, r8 b c4 r8 c %10
+    d4 e8 c f4 r8 f
+    b,4 r8 h c4 r8 c
+    d4 e f \sbOn f,16. f'32 \tuplet 3/2 8 { es16 des c } \sbOff
+    h8 h h h c4 d8 b
+    c c c c f,4 es'!\fE %15
+    d a b r
+    b8\pE b16 c d8 b f'4 a,
+    b r a fis
+    g r c f!
+    b, es a, d %20
+    g, r c r8 cis
+    d4 r e fis
+    g r a, h
+    c r8 es'16 d c b a g fis e d c
+    b4 c d8 d d d %25
+    g,4 r8 g\fE a4 r8 f'!
+    b,4 r8 es\pE f4 r8 es
+    d4 r8 c h4 g
+    c8 es f a b, d es g
+    a, c d f g, b c es %30
+    f, f'16 g a8 f b b,16 c d8 b
+    es16 f es d c b a g f8 f' d es
+    f f f, f b4 r8 b\f
+    f' f, r f' b b, r b
+    f' f, r f b4 d %35
+    es e f a
+    b8 d16. c32 b16. a32 g16. f32 es8 es'16. d32 c16. b32 a16. g32
+    \sbOn \tuplet 6/4 4 { f16 c' b a a g f f es d d c } \sbOff b8 es f f,
+    b es f f, b4 r\fermataFine
+    a\pE cis r16 d32\ff d d16 d d d d8 %40
+    r16 d32 d d d d d d8 r r16 c32 c c c c c c8 r
+    r16 c32 c c c c c c8 r r16 b32 b b b b b b8 r
+    c4\pE cis d g
+    es!8 c d d, g32\f g' g g g g g g g4:32
+    f!2:\p es!:\f %45
+    e:\p d4 r
+    g r r32 cis,\ff cis cis cis cis cis cis cis8 r
+    r2 r32 d d d d d d d d8 r
+    r32 dis dis dis dis dis dis dis dis8 r r32 e? e e e e e e e8 r
+    r32 a, a a a a a a a8 r f'16 g f e d c h a %50
+    gis32 gis gis gis gis gis gis gis gis8 r a\pE a' gis e
+    a a, e' f g g, h g
+    c4 e8 d cis a r \hA cis
+    d4 r8 d g,4 gis
+    a a'8 g! f d r f %55
+    g g, r g' a a, r cis
+    d16 e d c b a g b a8 a a a
+    \after 8 \tempoA-XIAriaSecundaB d,4 g a2
+    d,1 \fermata \markAriaDaCapo \bar "||" %59 finis
+  }
+}
+
+A-XIAriaSecundaBassFigures = \figuremode {
+  r1
+  r
+  r2 \bo <[5]>8 <6> <\t>4
+  r1
+  r %5
+  r8 <6> <4> <3>4 <6>8 <4> \bc <[3]>
+  r1
+  r
+  <[_!]>
+  <5>8 <6>4. <5 _!>8 <6>4. %10
+  <5>8 <6> q2.
+  q4. <6 5>8 <_!>2
+  <6!>8 <6-> <6 5>4 <_!>8 <_-> <\t>4
+  <7- 5>8 <6 5> <\t \t>4 <_!>2
+  <4>4 <_!>2 <4 2>4 %15
+  <6> q2.
+  r q4
+  r2 <6\\>4 <[6 5]>
+  r1
+  r2. <_+>4 %20
+  r2 <6>4. <5>8
+  <_+>2 <6\\>4 <5!>
+  <_->2 <6\\>4 <5!>
+  <_->1
+  <6>4 <5>8 <6> <4>4 <_+> %25
+  r2 <6[!]>
+  r2.. <4 2>8
+  <6>4. <6->8 <[6]>2
+  r1
+  r %30
+  r
+  r2. <[6]>4
+  <4> <3>2.
+  r1
+  r %35
+  \bo <[5]>8 <6> <\t>2.
+  r1
+  r2 r8 <6> <4> <3>
+  r <6> <4> \bc <[3]> r2
+  <[5!] _+>1 %40
+  r16 <6[!] 4\+ [2!]>2 <6 [_!]>
+  <6 4\+> <6>4..
+  <6 _->4 <[\t _!]> <_+>2
+  r4 <4>8 <_+> r2
+  <4! _-> <6> %45
+  <6\\> <_+>
+  r r32 <7- [_!]>4...
+  r1
+  r32 <[7! _+]>2 <[5!] _+>
+  <[5!]>4... r2 %50
+  <7 5 [_!]>2. <[6 _!]>4
+  r <6 [_!]> <_!>2
+  r4 <6>8 <6-> <6 [_!]>2
+  r2 <6!>4 <[\t _!]>
+  \bo <[5!] _+>2 <6> %55
+  r <5! _+>
+  r <5! 4>4 <\t _+>
+  r2 <5! 4>4 \bc <[\t] _+>
+  r1 %%9 finis
+}

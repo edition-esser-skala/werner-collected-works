@@ -103,6 +103,62 @@ A-XIAriaPrimaViola = {
   \relative c' {
     \clef alto
     \key g \minor \time 4/4 \tempoA-XIAriaPrima
-    \partial 8
+    \partial 8 r8 g'\fE g, b d g,4 r
+    r8 c d d, g g' f es
+    d b c d es f g f
+    e c d \hA e f g a f
+    b, d f f, b d f f, %5
+    b es f f, b es f f,
+    b b' d, b f f' fis d
+    g, g' b, g c4 r8 c
+    d d' fis, d g b d d,
+    g b d d, g c, d d, %10
+    g c d d, g4 r
+    R1*9 %20
+    r2 r4 r8 a'\fE
+    d,4 r r8 d f a
+    d,4 r r2
+    R1*14 %27
+    r8 g,\fE b d g,4 c
+    d r r2
+    R1*5 %44
+    r2 g,8\f g' b, g %45
+    d' d' fis, d g g, b g
+    c4 r8 c d d' fis, d
+    g b d d, g b d d,
+    g c d d, g c d d,
+    g,4\fermataFine r r2 %50
+    R1*14
+    \tempoA-XIAriaPrimaB r2 r4 r8\fermata \markAriaDaCapo \bar "||" %65 finis
+  }
+}
+
+A-XIAriaSecundaViola = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 4/4 \tempoA-XIAriaSecunda
+    b'8\fE b, r b f' f, r f'
+    b b, r b f' f, r f
+    b4 d es e
+    f a b8 d16. c32 b16. a32 g16. f32
+    es8 es'16. d32 c16. b32 a16. g32 \sbOn \tuplet 6/4 4 { f16 c' b a a g f f es d d c } \sbOff %5
+    b8 es f f, b es f f,
+    b4 r r2
+    R1*7 %14
+    r2 r4 es!\fE %15
+    d a b r
+    R1*9 %25
+    r4 r8 g\fE a4 r8 f'!
+    b,4 r r2
+    R1*5 %32
+    r2 r4 r8 b\f
+    f' f, r f' b b, r b
+    f' f, r f b4 d %35
+    es e f a
+    b8 d16. c32 b16. a32 g16. f32 es8 es'16. d32 c16. b32 a16. g32
+    \sbOn \tuplet 6/4 4 { f16 c' b a a g f f es d d c } \sbOff b8 es f f,
+    b es f f, b4 r\fermataFine
+    R1*19 %58
+    R1 \fermata \markAriaDaCapo \bar "||" %59 finis
   }
 }

@@ -177,3 +177,67 @@ A-XIAriaPrimaViolinoFlautoII = {
     \tempoA-XIAriaPrimaB r2 r4 r8\fermata \markAriaDaCapo \bar "||" %65 finis
   }
 }
+
+A-XIAriaSecundaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoA-XIAriaSecunda
+    r16 d'\f b16. f32 d16. b32 d'16. b'32 \appoggiatura b16 a16. g32 \appoggiatura g16 f16. es32 \appoggiatura es16 d16. c32 \appoggiatura c16 b16. a32
+    b16. d32 f,16. b32 d,16. b32 d16. b'32 \appoggiatura b16 a16. g32 \appoggiatura g16 f16. es32 \appoggiatura es16 d16. c32 \appoggiatura c16 b16. a32
+    \sbOn b16 f''64( es d c) \tuplet 3/2 { b16[ f d] } \tuplet 6/4 { b f'' f f d b } g g'64( f es d) \tuplet 3/2 { c16[ g es] } \tuplet 6/4 4 { c g'' g g e c
+    a c' b a-! a-! g-! f-! f-! es-! d-! d-! c-! d-! f-! es-! d-! d-! c-! b-! b-! a-! g-! g-! f-!
+    es g' f es es d c c b a a g f c' b a a g f f es d d c %5
+    b f'' d g, es' c } f,16. c'32 c8\trill \tuplet 6/4 4 { b16 f' d g, es' c } f,16. c'32 c8\trill
+    \tuplet 6/4 4 { b16 f' d b f d } b4 r2
+    r4 r8 f''~ \tuplet 6/4 4 { f16 d b d b f b f d f d b } \sbOff
+    r2 f'32 f' e d c b a g f8 a,
+    r4 r8 g''\p e c, r a'' %10
+    f d, r4 \sbOn \tuplet 6/4 4 { r16 a'' f c a f } a4 \sbOff
+    r2 e32\f e' d c h a g f \hA e8 e
+    R1
+    \sbOn \tuplet 6/4 4 { r16 as'\p f d h g } d'8 f, \tuplet 3/2 8 { e16 c g' } c8 r4
+    r2 r16 \tuplet 3/2 { c,32([\f d e)] } f16 d64( es f g) \tuplet 6/4 4 { a16 f' c a f a } %15
+    b[ \tuplet 3/2 { f32( g a]) } b16 f64( g a b) \tuplet 6/4 4 { c16 f c a f c' d f d b f d } b4
+    r2 r4 r8 f''~\f
+    \tuplet 6/4 4 { f16 d b d b f b f d f d b } r2 \sbOff
+    b'32\f g a b c d e fis g8 g, r r16 c,\p a'8[ r16 a]
+    d,8[ r16 b] g'8[ r16 g] c,8[ r16 a] fis'8 r %20
+    r32 b'-!\f g-! d-! b-! g-! d-! b-! g4 r2
+    r16 \tuplet 3/2 { a''32( h cis) } d-! a-! fis-! d-! d' a \hA fis d d,8 r2
+    r16 \tuplet 3/2 { d'32 e fis } g-! d-! b-! g-! g' d b g g,8 r2
+    r32 c''-! g-! es-! c es c g es8 c r2
+    r2 r4 r16 d\f fis16. a32 %25
+    b8 b, r16 g' b16. d32 c8 a, r16 f' a16. c32
+    b16. f32 d16. b32 \sbOn \tuplet 6/4 4 { g''16 f es d c b } \tuplet 3/2 { a f g } a8 r4
+    f16.\f d'32 \tuplet 3/2 { b16 f d } b8 r r2
+    r8 r16 c\p a'8[ r16 c] d,8[ r16 b] g'8[ r16 b]
+    c,8[ r16 a] f'8[ r16 a] b,8[ r16 g] es'8[ r16 g] %30
+    \kneeBeam \tuplet 3/2 8 { a,16 a''\f f c a c } f,4 \tuplet 3/2 8 { r16 d' b f d f } b,4 \sbOff
+    R1
+    r2 r16 d'\f b16. f32 d16. b32 d'16. b'32
+    \appoggiatura b16 a16. g32 \appoggiatura g16 f16. es32 \appoggiatura es16 d16. c32 \appoggiatura c16 b16. a32 b16. d32 f,16. b32 d,16. b32 d16. b'32
+    \appoggiatura b16 a16. g32 \appoggiatura g16 f16. es32 \appoggiatura es16 d16. c32 \appoggiatura c16 b16. a32 \sbOn b16 f''64( es d c) \tuplet 3/2 { b16[ f d] } \tuplet 6/4 { b f'' f f d b } %35
+    g g'64( f es d) \tuplet 3/2 { c16[ g es] } \tuplet 6/4 4 { c g'' g g e c a c' b a a g f f es d d c
+    d f es d d c b b a g g f es g' f es es d c c b a a g
+    f c' b a a g f f es d d c b f'' d g, es' c } f,16. c'32 c8\trill
+    \tuplet 6/4 4 { b16 f' d g, es' c } f,16. c'32 c8\trill \tuplet 6/4 4 { b16 f' d b f d } b4\fermataFine \sbOff
+    r2 r16 f'32\ff f f16 f a8 f %40
+    r16 gis32 gis gis gis gis gis gis8 r r16 e32 e e e e e e8 r
+    r16 fis32 fis fis fis fis fis fis8 r r16 d32 d d d d d d8 r
+    r2 r32 d\p fis a d16 d, r32 g b d g16 g,
+    r2 r32 d\f d d d d d d g4:32
+    as2:\p g:\f %45
+    g:\p fis32\f d' a \hA fis d[ d' a \hA fis] d4
+    r2 r32 g\ff g g g g g g g8 r
+    r2 r32 f! f f f f f f f8 r
+    r32 a a a a a a a a8 r r32 gis gis gis gis gis gis gis gis8 r
+    r32 e e e e e e e e8 r r2 %50
+    r32 d' d d d d d d d8 e, r2
+    r16 e' c'8~ \sbOn c16 h32 a g!16 f32 e d16 g, g'8 r4
+    \tuplet 3/2 8 { r16 g e c g e } c8 r r2
+    \tuplet 6/4 { f16 d f } a16. d32 f8 r r2
+    \tuplet 6/4 { r16 e cis a e cis } a8 r r2 %55
+    R1*3
+    R1\fermata \markAriaDaCapo \bar "||" %59 finis
+  }
+}

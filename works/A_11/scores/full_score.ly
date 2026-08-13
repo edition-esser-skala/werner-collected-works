@@ -110,49 +110,124 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "4" "Aria prima"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #22
+  %     system-system-spacing.minimum-distance = #22
+  %     systems-per-page = #3
+  %     page-count = #7
+  %     indent = 2\cm
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = \markup \center-column { "vl · fl" }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \A-XIAriaPrimaViolinoFlautoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \A-XIAriaPrimaViolinoFlautoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "Barmherzigkeit"
+  %           \new Voice = "Soli" { \dynamicUp \A-XIAriaPrimaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-XIAriaPrimaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "[vla]" "bc" }
+  %           % \transpose c c,
+  %           \A-XIAriaPrimaContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIAriaPrimaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
+  % \bookpart {
+  %   \section "5" "Scena tertia"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #21
+  %     system-system-spacing.minimum-distance = #21
+  %     systems-per-page = #5
+  %     system-count = #8
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "soli"
+  %           \new Voice = "Soli" { \dynamicUp \A-XIScenaTertiaSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \A-XIScenaTertiaSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \A-XIScenaTertiaContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \A-XIScenaTertiaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 90 }
+  %   }
+  % }
   \bookpart {
-    \section "4" "Aria prima"
+    \section "6" "Aria secunda"
     \addTocEntry
     \paper {
       system-system-spacing.basic-distance = #22
       system-system-spacing.minimum-distance = #22
       systems-per-page = #3
-      page-count = #7
       indent = 2\cm
     }
     \score { %\articulate
       <<
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = \markup \center-column { "vl · fl" }
+            \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \A-XIAriaPrimaViolinoFlautoI
+              \A-XIAriaSecundaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \A-XIAriaPrimaViolinoFlautoII
+              \A-XIAriaSecundaViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "Barmherzigkeit"
-            \new Voice = "Soli" { \dynamicUp \A-XIAriaPrimaSoli }
+            \set Staff.instrumentName = "Gerechtigkeit"
+            \new Voice = "Soli" { \dynamicUp \A-XIAriaSecundaSoli }
           }
-          \new Lyrics \lyricsto Soli \A-XIAriaPrimaSoliLyrics
+          \new Lyrics \lyricsto Soli \A-XIAriaSecundaSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "[vla]" "bc" }
             % \transpose c c,
-            \A-XIAriaPrimaContinuo
+            \A-XIAriaSecundaContinuo
           }
         >>
-        \new FiguredBass { \A-XIAriaPrimaBassFigures }
+        \new FiguredBass { \A-XIAriaSecundaBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 70 }
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) }
+      \midi { \tempo 4 = 80 }
     }
   }
 }
