@@ -407,3 +407,216 @@ A-XIAriaSecundaSoliLyrics = \lyricmode {
   zücht, da -- mit es werd ge --
   zücht. %59 finis
 }
+
+A-XIScenaQuartaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIScenaQuarta
+    r4^\Sohn r8 c f f a f
+    es es r \hA es es es g \hA es
+    d d r d d d a b?
+    c c r c es es es d
+    b4 \fC r8^\Barmherzigkeit d' d8. g,16 g8 a %5
+    h! h h c d d r d
+    h d f es c c r c
+    as c c8. g16 g4 r
+    \fC r^\Sohn r8 cis, cis cis d e
+    e a, r e' g g g a %10
+    f f r d b d d8. a16
+    a4 \fC r8 f'^\Barmherzigkeit b b b c
+    d4 r8 a a a c b
+    g g r g b b b d
+    c c r g' e c b8. a16 %15
+    a4 r8 c d d e f
+    f8. c16 c4 r2
+    r4 r8 a d d d d
+    d a r a c c d a
+    b b r \hA b b b d \hA b %20
+    as as r f \hA as as as g \noBreak
+    es c' as c c8. g16 g4
+    R1
+    \fC \tempoA-XIScenaQuartaB r2^\Sohn es4 as, \noBreak
+    r r8 g' g g b des, %25
+    c4 r8 es es es es f
+    ges ges r es c' c a! c
+    des, des r \hA des des des f \hA des
+    h!4 r8 d f f as g
+    es es r4 r8 \hA es es c %30
+    c4( h!8.) g16 g4 r
+    r r8 cis cis cis cis d
+    e e r e e e g f
+    d d r d d d f e
+    c4 r8 c c es d a %35
+    b b r d g g b g
+    es es r c fis4 g8[ g,]
+    b4( a8.) g16 g4 r\fermata \bar "|." %38 finis
+  }
+}
+
+A-XIScenaQuartaSoliLyrics = \lyricmode {
+  O Him -- mel wie waß
+  hör ich, ſo bin ich dan ver --
+  ſtoſ -- ſen, und gäntz -- lich auß -- ge --
+  ſchloſ -- ſen auß mei -- nes Vat -- ters
+  Gnad! Ver -- za -- ge nicht, weil %5
+  dich dein Vat -- ter lie -- bet, ſo
+  ſey nur un -- be -- trüe -- bet, leg
+  dein Be -- khänt -- nus ab!
+  Diß bin ich auch wie
+  bil -- lich von gan -- tzen Her -- tzen %10
+  wil -- lig, weill ich ge -- ſün -- digt
+  hab. Wol -- an ſo mach dich
+  auf mit kind -- li -- chen Ver --
+  trau -- en, thue dei -- ne Hoff -- nung
+  bau -- en auf die Barm -- her -- tzig -- %15
+  kheit, ſo ſchon vor dich iſt
+  zue -- be -- reuth:
+  dorth ſteth dein lieb -- ſter
+  Vat -- ter mit auß -- ge -- ſtreckh -- ten
+  Arm -- ben, will dei -- ner ſich er -- %20
+  bar -- men auß lau -- ter Lieb und
+  Freud, weill du zur Bueß be -- reith.
+
+  Vat -- ter!
+  Ach lieb -- ſter Vat -- ter %25
+  mein, ich hab mich ſchwär ver --
+  ſün -- digt im Him -- mel und auf
+  Er -- den, bin auch ſchon nit mehr
+  werth dein Kind ge -- nent zu
+  wer -- den, bitt wolſt mir %30
+  gnä -- dig ſeyn,
+  mit büt -- te -- re -- ſten
+  Schmer -- tzen und gantz reu -- vol -- len
+  Her -- tzen be -- khenn ich mei -- ne
+  Sünd, werff mich zu dei -- nen %35
+  Füeſ -- ſen, ach laß mir da ge --
+  nüeſ -- ſen daß ich Ver --
+  zey -- hung fünd. %38 finis
+}
+
+A-XIAriaTertiaSoli = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/8 \autoBeamOff \tempoA-XIAriaTertia
+    R2.*9 %9
+    d4 \appoggiatura { c16[ d] } e8 d4 \appoggiatura { c16[ d] } e8 %10
+    d8([ g,)] a h g r
+    g'16([ a h8)] a16([ g)] a8([ cis,)] d
+    a'8.([ g16)] fis8 \appoggiatura g fis e r
+    e4 fis8 g8.([ a16)] h8
+    a([ a,)] g' fis16([ e)] d8 r %15
+    d4 d8 e([ d16 cis)] d8
+    a'4 d,8 e([ d16 cis)] d8
+    cis16([ d e8)] fis e16([ fis g8)] g
+    e16([ fis g8)] g g16([ a,)] a8 r
+    fis'16([ g a8)] g fis([ e)] d %20
+    h'([ g)] e \appoggiatura d cis8.[ d16 e8]
+    d8.[ e16 fis8] g8.[ a16 h8]
+    a8.[ h16 g8] fis4.(
+    f2.)~
+    f8.[ e16 d8] cis8.[ h16 a8] %25
+    d4. h'8.[ a16 g8]
+    fis!8.[ g16 e8] d4 r8
+    R2.*10 %37
+    d4 \appoggiatura { c16[ d] } e8 d4 \appoggiatura { c16[ d] } e8
+    d8([ g,)] a h g r
+    d'8.([ c16)] h8 e8.([ fis16)] g8 %40
+    c,8.([ d16)] e8 e16([ a,)] a8 r
+    d8.([ e16)] c8 h8.([ a16)] g8
+    e'16([ d c8)] a g16([ fis)] fis8 r
+    g16([ a h8)] h h16([ c d8)] d
+    d16([ e f8)] f f16([ e)] e8 r %45
+    a,16([ h cis8)] cis cis16([ d e8)] e
+    e16([ fis! g8)] g g16([ fis)] fis8 r
+    d([ a')] c,! c16([ h)] h8 r
+    d([ g)] h e,8.[ fis16 g8]
+    c,8.[ d16 e8] d8.[ c16 h8]~ %50
+    h8.[ c16 a8] g4 r8
+    R2.*8 %59
+    e'4 h8 g'8.([ fis16)] e8 %60
+    h'4 e,8 \appoggiatura fis e8.([ dis16)] dis8
+    fis4 h,8 c!8.([ h16)] c8
+    c8.([ h16)] a8 a8.([ g16)] g8
+    h4 e8 g8.([ fis16)] e8
+    g8.([ fis16)] e8 e([ d!)] e %65
+    fis4 h,8 g'8.([ fis16)] e8
+    d8.([ h16)] cis8 h4 r8
+    R2.*2
+    e4 h8 c!4 \appoggiatura { d16[ e] } f8 %70
+    \appoggiatura f e4 d8 c8.([ h16)] a8
+    d8.([ e16)] c8 h4 \appoggiatura { c16[ d] } e8
+    d([ a')] c, h8.([ c16)] d8
+    g,([ a)] h e([ fis)] g
+    fis4 \appoggiatura { g16[ a] } h8 a([ d,)] d %75
+    c16([ d e8)] d16([ c)] h8([ a)] g
+    c16([ d e8)] d16([ c)] c([ h)] h8 r
+    h([ g')] fis16([ e)] d4 e8
+    \appoggiatura g fis4 e8 a16([ d,)] d8 r
+    h4 c8 d4 g8 %80
+    e4 a8 fis8.[ e16 d8]
+    g4.~ g8.[ fis16 e8]
+    h8.[ c16 a8] g4 r8
+    R2.*7 %90
+    R2.\fermataFine \bar "|." %91 finis
+  }
+}
+
+A-XIAriaTertiaSoliLyrics = \lyricmode {
+  Dan gleich wie die %10
+  Waſ -- ſer -- wel -- len
+  offt auß ih -- ren
+  Schranck -- hen flüeſ -- ſen
+  und die dür -- re
+  Erd be -- güeſ -- ſen, %15
+  al -- ſo ſol -- len
+  mei -- ne Au -- gen
+  nichts als ſcharf -- fe
+  Bueſ -- ſe -- lau -- gen
+  gantz reu -- müe -- thig %20
+  her -- vor -- quel --
+  _ _
+  _ _
+
+  _ %25
+  _ _
+  _ len.
+
+  Dan gleich wie die %38
+  Waſ -- ſer -- wel -- len
+  offt auß ih -- ren %40
+  Schranck -- hen flüeſ -- ſen
+  und die dür -- re
+  Erd be -- güeſ -- ſen,
+  al -- ſo ſol -- len
+  mei -- ne Au -- gen %45
+  nichts als ſcharf -- fe
+  Bueſ -- ſe -- lau -- gen
+  gantz reu -- müe -- thig
+  her -- vor -- quel --
+  _ _ %50
+  len.
+
+  Nur da -- mit die %60
+  mat -- te See -- le
+  ſo die Sün -- de
+  hat er -- ſtück -- het,
+  werd mit ſüeſ -- ſen
+  Troſt er -- quick -- het %65
+  und zu ih -- ren
+  Zihl ge -- langt.
+
+  Nur da -- mit die %70
+  mat -- te See -- le
+  ſo die Sün -- de
+  hat er -- ſtück -- het,
+  werd mit ſüeſ -- ſen
+  Troſt er -- quick -- het %75
+  und zu ih -- ren
+  Zihl ge -- lan -- get,
+  ſo da an dem
+  Creü -- tze han -- get
+  ſich al -- lein zu %80
+  Gott ge -- ſel --
+  _
+  _ le. %83 finis
+}

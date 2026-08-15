@@ -242,3 +242,124 @@ A-XIAriaSecundaViolinoI = {
     R1\fermata \markAriaDaCapo \bar "||" %59 finis
   }
 }
+
+A-XIScenaQuartaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XIScenaQuarta
+    R1*23 %23
+    \tempoA-XIScenaQuartaB es'1\p^\markup \remark "stendato" \noBreak
+    des %25
+    c
+    es
+    des
+    d
+    c~ %30
+    c4 h! c2
+    cis1~
+    cis
+    d
+    c! %35
+    b
+    g2 fis4 g~
+    g fis\trill g2\fermata \bar "|." %38 finis
+  }
+}
+
+A-XIAriaTertiaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/8 \tempoA-XIAriaTertia
+    d'8.^\pizz g16 e8 d8. g16 e8
+    d8. g,16 a8 h g r
+    <g' h, d, g,>4 r8 <fis a, d,>4 r8
+    a8. g16 fis8 \appoggiatura g fis\trill e r
+    e8. a16 f8 e8. a16 \hA f8 %5
+    e8. cis16 d8 \appoggiatura e d \hA cis r
+    d8. fis!16 e8 fis4 d8
+    e8. h16 cis8 d4 r8
+    r r16 d a8 fis4 r8
+    d'8. g16 e8 d8. g16 e8 %10
+    d8. g,16 a8 h g r
+    <g' h, d, g,>4 r8 <fis a, d,>4 r8
+    fis8. e16 d8 \appoggiatura e d cis r
+    cis8. e16 d8 e4 r8
+    e8. d16 e8 a,16 g fis8 g %15
+    a8. g16 fis8 h8. cis16 d8
+    r fis,16 g a8 h8. cis16 d8
+    cis8. e16 d8 e8. a,16 d8
+    cis8. e16 d8 e4 a8
+    \appoggiatura g fis8. a16 g8 a8. g16 fis8 %20
+    e8. g16 h8 \appoggiatura d, cis8. h16 a8
+    <fis' d d,>4 r8 <g h, e,>4 r8
+    <a cis, e,>4 r8 <fis a, d,>4 r8
+    f8. g16 a8 d,8. e16 \hA f8
+    f8. e16 d8 cis8. h16 a8 %25
+    d8. e16 fis8 h,8. cis16 d8
+    d8. e16 cis8 d8. a'16 g8
+    fis8. g16 e8 fis8. d16 a8
+    fis4 r8 d'8. g16 e8
+    d8. g16 e8 d8. g,16 a8 %30
+    h g r <g' h, d, g,>4 r8
+    dis8. a16 e'8 fis4 dis8
+    h4 r8 g'8. a16 h8
+    e,8. fis16 g8 e8. fis16 e8
+    dis8. fis16 \hA dis8 e8. fis16 g8 %35
+    e8. d16 c8 h4 h8
+    h8. e16 h8 << { h4 } \\ { g } >> r8
+    d'!8. g16 e8 d8. g16 e8
+    d8. g,16 a8 h g r
+    h8. c16 d8 e8. fis16 g8 %40
+    a8. fis16 g8 a d, r
+    <a' d, fis,>4 r8 <h, d, g,>4 r8
+    <e g, c,>4 r8 a,8. h16 c8
+    d g, r g' h, r
+    d f, f f16( e) e8 r %45
+    e' a, r a' cis, r
+    e g, g g16( fis!) fis8 r
+    d'8. e16 c!8 c h c
+    d4 g8 e4 g8
+    c,4 e8 d8. c16 h8 %50
+    h8. c16 a8 g8. g'16 e8
+    d8. g16 e8 d8. g,16 a8
+    h g r g'4 d8
+    e8. d16 c8 a8. c16 g8
+    fis8. d'16 fis8 a4 c,8 %55
+    h8. d16 g8 a4 c,8
+    h4 c8 h8. g16 a8
+    h4 c8 h8. g16 a8
+    g8. d16 h8 g4 r8
+    <g'' h, e,>4 r8 q4 r8 %60
+    h,8. g'16 e8 e8. dis16 fis8
+    h,,4 r8 a'8. g16 a8
+    a8. g16 fis8 e8. g16 h8
+    e8. fis16 g8 ais,4 r8
+    ais4 r8 h8. fis'16 ais,8 %65
+    h8. cis16 d!8 h4 e8
+    d8. h16 cis8 h8. dis16 fis8
+    dis8. h'16 g8 fis8. h16 g8
+    fis8. h,16 g8 fis8. g16 a8
+    <e' h e,>4 r8 <e c e,>4 r8 %70
+    <e h e,>4 r8 <e c e,>4 r8
+    <a d, d,>4 r8 <h, d, g,>4 r8
+    <a' d, d,>4 r8 <h, d, g,>4 r8
+    g'4 fis8 e4 d8
+    c8. d16 h8 a8. d,16 d'8 %75
+    c8. e16 d c \appoggiatura c8 h4 r8
+    c8. e16 d c \appoggiatura c8 h8. d16 g8
+    h4 r8 d,,8 d' c16 h
+    a8. d16 cis8 d8. fis16 a8
+    d,8. g16 fis8 g4 h8 %80
+    e,4 c'8 \appoggiatura g fis4 a8
+    g8. a16 h8 c,8. d16 e8
+    h8. c16 a8 g8. g'16 e8
+    d8. g16 e8 d8. g,16 a8
+    h8 g r g'4 d8 %85
+    e8. d16 c8 a8. c16 g8
+    fis8. d'16 fis8 a4 c,8
+    h8. d16 g8 a4 c,8
+    h4 c8 h8. g16 a8
+    h4 c8 h8. g16 a8 %90
+    g8. d16 h8 g4 r8\fermataFine \bar "|." %91 finis
+  }
+}

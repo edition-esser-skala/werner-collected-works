@@ -162,3 +162,78 @@ A-XIAriaSecundaViola = {
     R1 \fermata \markAriaDaCapo \bar "||" %59 finis
   }
 }
+
+A-XIScenaQuartaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XIScenaQuarta
+    R1*23 %23
+    \tempoA-XIScenaQuartaB as'1\p^\markup \remark "stendato" \noBreak
+    g
+    as
+    ges
+    f
+    f
+    es
+    d2 c
+    e!1
+    g
+    f
+    es
+    d
+    c2 a4 b8 g
+    b4 a\trill g2\fermata \bar "|."
+  }
+}
+
+A-XIAriaTertiaViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 6/8 \tempoA-XIAriaTertia
+    g'4^\pizz g8 g4 g8
+    g4 d8 g,4 r8
+    g'4 r8 d4 r8
+    d4 r8 a'4 r8
+    a4 d,8 a4 d8 %5
+    a'4 d,8 a4 r8
+    h4 cis8 d4 fis8
+    g4 a8 d,4 r8
+    d4. r4 r8
+    R2.*17 %26
+    r4 r8 d4 g8
+    a4 a,8 d4 r8
+    d8. d'16 h8 g4 g8
+    g4 g8 g4 d8 %30
+    g,8. h16 d8 g4.
+    fis4 e8 dis4.
+    e8. g16 h8 e4 d!8
+    c4 h8 ais4 ais8
+    h4 a8 g8. fis16 e8 %35
+    c'8. h16 a8 h4 h,8
+    e4 r8 e4 fis8
+    g4 r8 r4 r8
+    R2.*12 %50
+    r4 r8 g,4 g8
+    g4 g8 g4 d'8
+    g4 r8 h,4 g'8
+    c,4.~ c4 e8
+    d4 r8 fis4 r8 %55
+    g4 g,8 fis4 fis'8
+    g4 c,8 d4 d,8
+    g4 c8 d4 d,8
+    g4.~ g4 r8
+    R2.*8 %67
+    h4 h8 h4 h8
+    h4 h8 h4 r8
+    R2.*13 %82
+    r4 r8 g'4 g8
+    g4 g8 g4 d8
+    g,4 r8 h4 g'8 %85
+    c,4.~ c4 e8
+    d4 r8 fis4 r8
+    g4 g,8 fis4 fis'8
+    g4 c,8 d4 d,8
+    g4 c8 d4 d,8 %90
+    g4.~ g4 r8\fermataFine \bar "|." %91 finis
+  }
+}
