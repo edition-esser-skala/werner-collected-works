@@ -237,3 +237,126 @@ A-XIAriaTertiaViola = {
     g4.~ g4 r8\fermataFine \bar "|." %91 finis
   }
 }
+
+A-XIAriaQuartaViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key d \minor \time 2/4 \tempoA-XIAriaQuarta
+    \partial 8 r8 \mvTr d\p-\markup \remark "sempre" d d d
+    d d d d
+    a' a a a
+    a a a a
+    d, d d d %5
+    e e e e
+    f4 g
+    a8 a a a
+    a, a a a
+    b b b b %10
+    h h h h
+    c c c c
+    cis cis cis cis
+    d d d d
+    e e e e %15
+    f f f f
+    g g g g
+    a4 r8 cis,
+    d f a a,
+    d f a a, %20
+    d f a a,
+    d4 r
+    R2*17 %39
+    f,8\f f' f f %40
+    f f f f
+    e e e e
+    e e e e
+    f f f f
+    a, a a b %45
+    c4 r8 d
+    e e e e
+    f f a, a
+    b b b b
+    h h h h %50
+    c c e e
+    f a c c,
+    f a c c,
+    f a c c,
+    f4 r %55
+    R2*20 %75
+    c8\f c c c
+    c c c c
+    g g g g
+    g g g g
+    c c d d %80
+    e e f f
+    g4 r8 a
+    h h, h h
+    c4 h
+    c h %85
+    c8 e g g,
+    c4 r
+    R2*20 %107
+    R2\fermataFine
+    R2*37 %145
+    R2\fermata \markAriaDaCapo \bar "||" %146 finis
+  }
+}
+
+A-XIAriaQuintaViola = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 3/4 \tempoA-XIAriaQuinta
+    g''4.\fE f16 es \tuplet 3/2 4 { d8 es f }
+    es8. g,16 c,4 r
+    g'' \tuplet 3/2 4 { c8 b as g \hA as b }
+    as8. c,16 f,4 r
+    f' \tuplet 3/2 4 { b8 as g f g \hA as } %5
+    g4 g2~
+    g4 \tuplet 3/2 4 { f8 g as g f es }
+    \appoggiatura es8 d4 es~ \tuplet 3/2 4 { es8 f g
+    as g f } es8. f16 f4\trill
+    es2~\p \tuplet 3/2 4 { es8 f g %10
+    as g f } es8. f16 f4\trill
+    es g~ g16 f( es d)
+    c8. d32 es f4~ f16 es( d c)
+    h8. c32 d es2~
+    es8 d f8. es32( d) c8 h %15
+    c4 f2~
+    f8 e b'!8. as32( g) f8( e)
+    f2 fis4
+    g~ g16 f( es d) \tuplet 3/2 4 { es8 d c }
+    d8.( es16) \appoggiatura c8 h4.\trill c8 %20
+    c4 g\trill es\trill
+    c2 r4
+    R2.*13 %35
+    b''4. as16 g \tuplet 3/2 4 { f8 g \hA as }
+    g8. b,16 es,4 r
+    g'4. f16 es \tuplet 3/2 4 { d8 es f }
+    es8. g,16 c,4 r
+    R2.*30 %69
+    d'4. c16 b \tuplet 3/2 4 { a8 b c } %70
+    b4 g, r
+    d'' b'8 a16 g \tuplet 3/2 4 { fis8 g a }
+    g4~ g8 f16 es \tuplet 3/2 4 { d8 es f }
+    es4 c, r
+    R2. %75
+    c'4 as'8 g16 f \tuplet 3/2 4 { e8 f g }
+    f4~ f8 es16 d \tuplet 3/2 4 { c8 d es }
+    d8.[\trill es16 es8.\trill f16 f8.\trill g16]
+    g8 f16 es d8 c b as16 g
+    c8 es, g4( f8.)\trill es16 %80
+    es2 r4
+    R2.*16 %97
+    r4 g'~ g16 f( es d)
+    c8. d32 es f4~ f16 es( d c)
+    h8. c32 d es2~ %100
+    es8( d) f8. es32( d) c8( h)
+    c4 f2~
+    f8( e) b'!8. as32( g) f8( e)
+    f2( fis4)
+    g4~ g16 f( es d) \tuplet 3/2 4 { es8 d c } \noBreak %105
+    d( es) \appoggiatura c h4.\trill c8
+    \time 4/4 c4\fermataFine \tempoA-XIAriaQuintaB r r2 \noBreak
+    R1*32 %139
+    R1\fermata \markAriaDaCapo \bar "||" %140 finis
+  }
+}

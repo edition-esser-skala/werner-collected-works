@@ -362,3 +362,288 @@ A-XIAriaTertiaViolinoII = {
     g8. h16 d,8 h4 r8\fermataFine \bar "|." %91 finis
   }
 }
+
+A-XIAriaQuartaViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key d \minor \time 2/4 \tempoA-XIAriaQuarta
+    \partial 8 r8 f8.\fE^\conSord d16 f8. d16
+    f a a f f8. d'16
+    cis8. a16 \hA cis8. a16
+    cis a a e cis8. e'16
+    a,8. f16 a8. f16 %5
+    e8. cis16 e8. \hA cis16
+    d8. a'16 b8. g16
+    e cis' a e cis a \hA cis8
+    r16 f' c!8 r16 a f8~
+    f b,16 c d8 b %10
+    r16 g'' d8 r16 h g8~
+    g c,16 d e8 c
+    r16 a'' e8 r16 cis a8~
+    a d,16 e f8 d
+    r4 g'8 g, %15
+    r a~ a16 g f e
+    d4 g'8 g,
+    r e'~ e16 d cis h?
+    a8 d4 cis8
+    r d,4 cis8 %20
+    r d'4 cis8
+    d4 r
+    R2
+    r16 e cis a e a e cis
+    a4 r %25
+    r8 f'\p f f
+    r d d d
+    r h h h
+    r e e e
+    e[ r16 e] a8[ r16 a] %30
+    d8[ r16 a,] d8[ r16 d]
+    b'8[ r16 d,] g8[ r16 g]
+    c8[ r16 a,] c8[ r16 c]
+    a'8[ r16 c,] f8[ r16 a]
+    b8 b16 c d8 f, %35
+    e16 g' g f e d c b
+    a8. a16 b a g f
+    e8 e r4
+    R2
+    a8.\f f16 a8. f16 %40
+    a f f c a8. f'16
+    c'8. g16 e8. c'16
+    e c c g e8. g'16
+    c,8. a16 c8. a16
+    c4. b16 a %45
+    g4 r8 f
+    e16 g' e c g8 e
+    r16 a c a f8 c
+    r16 d' b f d8 b
+    r16 h' d \hA h g8 d %50
+    r16 e' c g e8 c
+    r4 r16 c' g' b,
+    a8 f r16 c' g' b,
+    a f c'8 a g
+    f4 r %55
+    R2
+    r16 e'\pE cis a e a e cis
+    a4 r
+    r16 d fis d a' \hA fis a \hA fis
+    d8 d' r4 %60
+    r16 g d b! g b g d
+    h8 h' r4
+    r16 c,! e c a' e c' a
+    r8 f' d h
+    g e r4 %65
+    r8 d' h gis
+    e16( c') c( h) a c \hA h a
+    gis8[ r16 h] e,8[ r16 \hA h']
+    c8[ r16 c] a'8[ r16 a]
+    f8[ r16 a] d,8[ r16 f] %70
+    h,8[ r16 g] g'8[ r16 g]
+    e4 r
+    R2*3 %75
+    e,8.\f c16 e8. c16
+    e g g e e8. c'16
+    h8. g16 \hA h8. g16
+    h d d \hA h h8. d16
+    g,8. e'16 h8. f'16 %80
+    e8. d32 c a8 f'
+    d16 c h a g8 r
+    r g h d
+    e, g h d
+    e, g d' h %85
+    g8. c16 e,8 d
+    c4 r16 c' a e
+    c4 r
+    r8 h'\p h16 a gis fis?
+    e8 h' e e, %90
+    c' a, r4
+    r8 a' e' a,,
+    f' d r4
+    r16 d fis a \hA fis d \hA fis a
+    g8 b,! r4 %95
+    r16 e gis h \hA gis e \hA h' \hA gis
+    e8 a, r4
+    R2
+    g'8 b!4 d8
+    g, e r4 %100
+    f8 a4 c8
+    f, d r4
+    r8 e' a,,4
+    r8 f'4 e8
+    r f4 e8 %105
+    r f4 e8
+    d16 d' a f d8 f
+    d4\fermataFine r
+    R2
+    r4 r8 a' %110
+    b16( g) b b a( fis) fis a
+    b( g) b b f8 b,
+    r4 r8 f'
+    d16( c b a) b4
+    r8 r16 es c'8[ r16 c,] %115
+    a'8[ r16 f] d'8[ r16 d,]
+    b'8 a16 g f es d c
+    b d f d b'8 b,
+    R2
+    r4 r16 g' e'8 %120
+    c a r16 c, a'8
+    f d r4
+    R2*6 %128
+    r4 r16 d d'8~
+    d16 b g8 r g %130
+    f a, f' f
+    d16( c b a) b4
+    R2
+    r16 f' a g f8 e!16 g
+    f8 a, r4 %135
+    R2
+    r4 r8 c'~
+    c16 a f8 r d'~
+    d16 b g8 r4
+    R2*2 %141
+    r8 b f d
+    b4 r
+    R2*2 %145
+    R2\fermata \markAriaDaCapo \bar "||" %146 finis
+  }
+}
+
+A-XIAriaQuintaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 3/4 \tempoA-XIAriaQuinta
+    \after 4*0 ^\conSord R2.
+    es4.\fE d16 c \tuplet 3/2 4 { h8 c d }
+    c8. es16 c4 r
+    as'~ \tuplet 3/2 4 { as8 g f } f4~
+    f8. d16 d4 r %5
+    g~ \tuplet 3/2 4 { g8 f es } es4~
+    es f as
+    f g2
+    c4 b f
+    g2.\p %10
+    c4 b f
+    es r d8( g)
+    es( as) f4 c8( f)
+    d( g) es2
+    f4 d g %15
+    es c f
+    g e c
+    c'8( b) as( g) fis( a?)
+    d,2 c8( g')
+    f( es) d4.\trill c8 %20
+    c2 r4
+    c2 r4
+    R2.
+    es4. d16 c \tuplet 3/2 4 { h8 c d }
+    c4 r r %25
+    b'!~ b16( as g f) es8 f
+    es4 r r
+    g~ \tuplet 3/2 4 { g8 as g f es d }
+    es4 r r
+    R2. %30
+    r8 c' \tuplet 3/2 4 { c8 b as as g f }
+    f4 r r
+    r b c
+    b8( es) d( c) b( as)
+    g( c) b( as) g( f) %35
+    g4 r r
+    g4. f16 es \tuplet 3/2 4 { d8 es f }
+    es8. g16 es4 r
+    es4. d16 c \tuplet 3/2 4 { h8 c d }
+    c4 r r %40
+    R2.
+    r8 d' \tuplet 3/2 4 { d8 c h h a! g }
+    c4 c, r
+    r8 c' \tuplet 3/2 4 { c b! as as g f }
+    b4 b, r %45
+    R2.*2
+    es8 f16( g) as8 b16( c) b8 c
+    d es f4 es
+    d8 b c d es f %50
+    g4 es, r
+    R2.*2
+    r8 b' as( g) f( e)
+    f4 as, r %55
+    R2.*2
+    r8 c' b( a!) g( fis)
+    g4 g, r
+    g'' b f! %60
+    es c, r
+    fis' a cis,
+    d d, r
+    R2.*2 %65
+    r8 f' es( d) c( h)
+    c4 c, r
+    R2.*3 %70
+    b'4. a16 g \tuplet 3/2 4 { fis8 g a }
+    g4 g, r
+    R2.
+    r4 g' f!
+    g2 \tuplet 3/2 4 { e8 f g } %75
+    c,2 r4
+    r f es'!
+    d es, b'
+    g \tuplet 3/2 4 { f8 g as g f es }
+    es2 d4\trill %80
+    es2 r4
+    R2.
+    r8 g[ a! h]~ h8.\trill a32( \hA h)
+    c4 c, r
+    R2. %85
+    r8 es[ c( d)] d8.\trill c32( d)
+    es4 c r
+    as' c \hA as
+    a2 a4
+    h d8 c \hA h4 %90
+    g r r
+    es f g
+    as b! c~
+    c as r
+    R2.*3 %97
+    r4 r d,8( g)
+    es( as) f4 c8( f)
+    d( g) es2 %100
+    f4 d g
+    es c f
+    g e c
+    c'8( b) as( g) fis( a?)
+    d,2 c8( g') \noBreak %105
+    f( es) d4.\trill c8
+    \time 4/4 \newSpacingSection
+      \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
+      c4\fermataFine \tempoA-XIAriaQuintaB r^\senzaSord r2 \noBreak
+    r4 r8 b'\p f'16 d b f f' d b f
+    g8 g, r4 b'16 g es b b' g es b
+    c8 as' b, b c c d d %115
+    es4 r16 b' g es b'8 f r16 f' d b
+    es f g f es d c b a! b c b a g f es
+    d\f c b c d es f g es d c d es f g a
+    f es d es f g a b g f es f g a b c
+    a f a c f8 c\p des b f \hA des' %115
+    des\trill c f a, b des f b,
+    b\trill a r4 r r8 b~
+    b16 g es b b' g es b es8 es' r c~
+    c16 a f c c' a f c a4 b
+    c8 d c b a g' f es %120
+    d4-\critnote r g16 g g g g g g g
+    r4 r8 f'\f b16 f d b b' f d b
+    g es b g g' es b g c'' g e c c' g \hA e c
+    a f c a a' f c a d'' a fis d d' a \hA fis d
+    b g d b b' g d b g4 r %125
+    r r8 a'\pE d16 a fis d d' a \hA fis d
+    d'8 b, r g' es'16 c g es es' c g es
+    c8 a r f' d'16 b f d d' b f d
+    b8 g r es' c'16 a es c c' a es c
+    a'8 fis4 b8 a16 fis d a b' g d b %130
+    a d' a fis d8 d' b g d b'~
+    b\trill a d fis, g b d g,~
+    g\trill fis16 g a b c a h a g a \hA h c d \hA h
+    c h c d es d es c d c d es f es f d
+    es f g f es f d es c8 g r b %135
+    a b a g fis es! d c
+    b16 g' g g g g g g c, g' g g g g g g
+    d8 g a, fis' g16 g' fis es d c b a
+    \tempoA-XIAriaQuintaC g4 r r2
+    R1\fermata \markAriaDaCapo \bar "||" %140 finis
+  }
+}
