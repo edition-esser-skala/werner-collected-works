@@ -360,3 +360,11 @@ A-XIAriaQuintaViola = {
     R1\fermata \markAriaDaCapo \bar "||" %140 finis
   }
 }
+
+A-XIAriaSextaViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key b \major \time 2/4 \tempoA-XIAriaSexta
+    
+  }
+}

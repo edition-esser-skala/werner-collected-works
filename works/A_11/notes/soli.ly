@@ -1213,3 +1213,197 @@ A-XIAriaQuintaSoliLyrics = \lyricmode {
   nur di -- ſes wohl be --
   tracht! %140 finis
 }
+
+A-XIBScenaPrimaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIBScenaPrima
+    r4^\Barmherzigkeit r8 b' b b g \hA b
+    b f r4 \hA b8 b c d
+    es es r \hA es b c des c
+    c c r es d a c h
+    h4 r8 c^\tuttiE as c c8. g16 %5
+    g4 r8 g^\Barmherzigkeit c c e! c
+    as as r c c c c d
+    es4 r8 \hA es es c \hA es d
+    b4 r8 \hA b b b d \hA b
+    g4 \tempoA-XIBScenaPrimaB r8 g^\tuttiE es'4 c %10
+    b4( a8.)\trill g16 g4 r\fermata \bar "|." %11 finis
+  }
+}
+
+A-XIBScenaPrimaSoliLyrics = \lyricmode {
+  Nun -- mehr iſts ſchon ge --
+  ſchloſ -- ſen, daß der Sün -- der
+  le -- be, ſein Hertz zu Gott er --
+  he -- be in di -- ſer Zeit -- lich --
+  kheit. Wür ſeynd hier -- zue be -- %5
+  reüth. Wohl -- an ſo ſeyt be --
+  ſtän -- dig, Gott eu -- ren Vor -- ſatz
+  ſtärkh da -- mit auch eu -- re
+  Werckh hin -- füh -- ro Chriſt -- lich
+  ſeyn. Diß ſchwörn wür %10
+  ins -- ge -- mein. %11 finis
+}
+
+A-XIAriaSextaSoli = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \autoBeamOff \tempoA-XIAriaSexta
+    R2*18 %18
+    b'16([ c d es] f8) f,
+    b4 r8 g' %20
+    f16([ es d8)] es16([ d c8)]
+    d16([ c b8)] b4
+    d4. e8
+    f([ c)] d([ a)]
+    b([ c16 d] c8) b %25
+    b4\trill a
+    c b16([ c d8)]
+    c16([ b a8)] g([ f)]
+    c'4 b16([ c d8)]
+    c16([ b a8)] g([ f)] %30
+    f'4 f
+    f8([ e16 d] c8) b
+    a16([ g f8)] g16([ f e8)]
+    f4 r
+    R2*4 %38
+    f'4 d
+    \appoggiatura c8 h4. h8 %40
+    c4 d
+    es16([ d c8)] c4
+    es c
+    \appoggiatura b8 a4. a8
+    b4 c %45
+    d16([ c b8)] b4
+    d d
+    d16([ c b8)] b16([ a g8)]
+    es'4 es
+    es16([ d c8)] c16([ b a8)] %50
+    f'4. es8
+    d16([ c b8)] g'16([ f es8)]
+    d16([ c b8)] c4\trillE
+    b r
+    d\p d %55
+    d16([ c b8)] b16([ a g8)]
+    es'4 es
+    es16([ d c8)] c16([ b a8)]
+    f'4. es8
+    d16([ c b8)] g'16([ f es8)] %60
+    d16([ c b8)] c4\trill
+    b r
+    R2*3 %65
+    R2\fermataFine
+    d4 c16([ d es8)]
+    d4 r8 g
+    d16([ c b8)] a16([ b c8)]
+    b16([ a g8)] g4 %70
+    g' h,
+    c r8 c
+    d16([ es f8)] f16([ es d8)]
+    es16([ d c8)] c4
+    es es %75
+    d d16([ es f8)]
+    f4 es16([ d c8)]
+    h4 h
+    c16([ d es8)] d16([ es f8)]
+    es4 f16([ es d8)] %80
+    c4( h8.) c16
+    c4 r
+    d a16([ b! c8)]
+    b4 c16([ d es8)]
+    \appoggiatura es d4. c8 %85
+    b16([ a g8)] g4
+    b b
+    a16([ b c8)] c16([ d es8)]
+    es16([ d c8)] b16([ a g8)]
+    g4\trill fis %90
+    a16([ b c8)] c16([ b a8)]
+    b16([ a g8)] g4
+    a16([ b c8)] c16([ b a8)]
+    b16([ a g8)] g4
+    g16([ a b8)] a16([ b c8)] %95
+    b16([ c d8)] es16([ d c8)]
+    b4( a8.) g16
+    \time 4/4 \tempoA-XIAriaSextaB g4 d'8 d g4 g,8 g16([ a)]
+    b4( a8.) g16 g4 r\fermata \markAriaDaCapo \bar "||" %99 finis
+  }
+}
+
+A-XIAriaSextaSoliLyrics = \lyricmode {
+  Wie __ der %19
+  Hierſch zur %20
+  Brun -- nen --
+  quel -- le,
+  al -- ſo
+  ſoll auch
+  dei -- ne %25
+  See -- le
+  zu den
+  Schöpf -- fer
+  al -- ler
+  Din -- gen %30
+  al -- zeit
+  höchſt be --
+  gü -- rig
+  ſeyn.
+
+  Wie der %39
+  Hierſch zur %40
+  Brun -- nen --
+  quel -- le,
+  al -- ſo
+  ſoll auch
+  mei -- ne %45
+  See -- le
+  zu dem
+  Schöpf -- fer
+  al -- ler
+  Din -- gen %50
+  al -- zeit
+  höchſt be --
+  gü -- rig
+  ſeyn,
+  zu dem %55
+  Schöpf -- fer
+  al -- ler
+  Din -- gen
+  al -- zeit
+  höchſt be -- %60
+  gü -- rig
+  ſeyn.
+
+  Weil Gott %67
+  ſelbſt nach
+  dir ver --
+  lan -- get, %70
+  und dich
+  pur mit
+  Lie -- be
+  fan -- get,
+  dei -- ne %75
+  See -- le
+  zu umb --
+  rin -- gen
+  mit dem
+  e -- wign %80
+  Glo -- ry --
+  ſchein,
+  weil Gott
+  ſelbſt nach
+  dir ver -- %85
+  lan -- get,
+  und dich
+  pur mit
+  Lie -- be
+  fan -- get, %90
+  dei -- ne
+  See -- le
+  zu umb --
+  rin -- gen
+  mit dem %95
+  e -- wign
+  Glo -- ry --
+  ſchein, mit dem e -- wign
+  Glo -- ry -- ſchein. %99 finis
+}

@@ -647,3 +647,109 @@ A-XIAriaQuintaViolinoII = {
     R1\fermata \markAriaDaCapo \bar "||" %140 finis
   }
 }
+
+A-XIAriaSextaViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \tempoA-XIAriaSexta
+    b'16\fE c d es f8 f,
+    b16 b' a b b, b' a b
+    b, b' a g f es d c
+    d8 b b16 c d es
+    f8 c f g16 a %5
+    b8 b, b' b,
+    b'16 a g f e d c b
+    a g f g a b c d
+    b a g a b c d e
+    c b a b c d e f %10
+    d c b c d e f g
+    e d c d \hA e f g a
+    b b a b g a f g
+    e e d \hA e c d b c
+    a b c b a b g a %15
+    f8 c' f b,
+    a16 b c b a8 g\trill
+    f4 r
+    b16\p c d es f8 f,
+    b16 b' a b b,8 g' %20
+    f16 es d8 es16 d c8
+    d16 c b8~ b16 f d f
+    b,8 d'4 e8
+    f4. g16 a
+    b,4 g' %25
+    r8 f,16 g a8 b
+    c16 b a8 b16 c d8
+    c16 b a8 g f
+    c'16 b a8 b16 c d8
+    c16 b a8 g f %30
+    f' f, f' f,
+    f' e16 d c8 b
+    a16 g f8 g16 f e8
+    f16\f c' d e f8 f,
+    f' f, f' f, %35
+    a' g16 f e8 d
+    a16 g f8 g16 f e8
+    f4 r
+    R2
+    r4 r16 d'\p es! f %40
+    g8 g, g' g,
+    g'16 f es8 es16 d c8
+    R2
+    r4 r16 c d es
+    f8 f, f' f, %45
+    f'16 es d8 d16 c b8
+    R2
+    g4 g
+    g16 f es8 es16 d c8
+    a'4 a8. b16 %50
+    c b a8 a16 b c8
+    f, d' b4~
+    b a\trill
+    b8 d, f d
+    R2 %55
+    g4\pp g
+    g16 f es8 es16 d c8
+    a'4 a8. b16
+    c b a8 a16 b c8
+    f, d' b4~ %60
+    b a\trill
+    b16\fE f' g a b8 b,
+    b' b, b' b,
+    b'4 r8 es,
+    d16 c b8 c16 b a8 %65
+    b4\fermataFine r
+    r r8 c\p
+    b16 a g8 d'16 c b8
+    R2
+    b,16 a g8 d'16 c b8 %70
+    R2
+    es'16 d c8 g'16 f es8
+    R2
+    es,16 d c8 g'16 f es8
+    es'4 es %75
+    d16 es f8 f16 g as8
+    as16 g f8 es16 d c8
+    h16 a! g8 g,4
+    c' d
+    es16 f g8 as16 g f8 %80
+    es4 d\trill
+    \tuplet 3/2 { c8 g es } c4
+    R2
+    \tuplet 3/2 { g'8 d b! } g4
+    R2 %85
+    \tuplet 3/2 { b'8 g d } b4
+    g' g
+    a16 b c8 c16 d es8
+    es16 d c8 b16 a g8
+    g4\trill fis %90
+    R2
+    b16 a g8 d'16 c b8
+    R2
+    b,16 a g8 d'16 c b8
+    g'4 a %95
+    b16 c d8 es16 d c8
+    b4 a\trill
+    \time 4/4 \tempoA-XIAriaSextaB g r r2
+    R1\fermata \markAriaDaCapo \bar "||" %99 finis
+  }
+}

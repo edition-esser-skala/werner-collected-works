@@ -15,10 +15,10 @@ sources:
     license: public domain
     principal: true
 toe: |
-  –  & –  & vla  & In \B1, a staff for vla only appears in movements 1, 7.
+  –  & –  & vla  & In \B1, a staff for vla only appears in movements 1, 7, 12.
                    Here, a vla part has been added
                    by the editor to these movements.
-                   In arias (no. 4, 6, 8, 10, 12), the vla plays in unison
+                   In arias (no. 4, 6, 8, 10, 14), the vla plays in unison
                    with bc whenever the voice pauses during the first section.
                    In accompagnatos (no. ), it plays
                    unison with bc.
@@ -27,5 +27,6 @@ toe: |
   12 & 68  & solo & 3rd \quarterNote\ in \B1: c′4 \\
      & 99  & bc   & 2nd \quarterNote\ in \B1: \flat e4 \\
      & 121 & vl 2 & 1st \quarterNote\ in \B1: d′+g′4 \\
+  14 & 32  & vl 1 & 1st \quarterNote\ in \B1: a″16–g″16–f″8 \\
 commentary: |
   \includepdf[pages=-,link=false,pagecommand={}]{../works/A_11/appendix.pdf}
