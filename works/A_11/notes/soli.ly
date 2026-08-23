@@ -1407,3 +1407,237 @@ A-XIAriaSextaSoliLyrics = \lyricmode {
   ſchein, mit dem e -- wign
   Glo -- ry -- ſchein. %99 finis
 }
+
+A-XIBScenaSecundaSoli = {
+  \relative c' {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIBScenaSecunda
+    r4^\Gerechtigkeit r8 a a a f a
+    a e r a g g b a
+    f4 r8 f a a a c!
+    c f, r f a a c a
+    fis fis r d' b g d8. d16 %5
+    g,4 r8 g' g g g h
+    h fis r a c c c h
+    g4 r8 g g g h c
+    d g, r d e4 fis8 g
+    g8. d16 d4 r2\fermata \bar "|." %10 finis
+  }
+}
+
+A-XIBScenaSecundaSoliLyrics = \lyricmode {
+  Weil ich kein Macht nun
+  ha -- be al -- hier in di -- ſer
+  Zeit, ſo wil ich dan jezt
+  har -- ren, mein Rach ſo lang ver --
+  ſpa -- ren biß in die E -- wig -- %5
+  kheit, dorth ſolln’ die un -- ver --
+  ſchamb -- te mit ſchärff -- ſter Höl -- len --
+  pein ohn End mit den Ver --
+  damb -- ten aufs ärg -- ſte ge --
+  quel -- let ſeyn. %10 finis
+}
+
+A-XIAriaSeptimaSoli = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIAriaSeptima
+    R1*18 %18
+    r2 r4 c'
+    h d c c, %20
+    r a' h c
+    f,4. f8 e4 r8 g
+    c c e, fis g4 r8 h
+    e,4 c' fis, d'
+    g, r8 e' d c h a %25
+    g([ fis)] e([ d)] c4 e'
+    d8([ a)] h([ g)] d4. d8
+    g,4 r r2
+    R1*7 %35
+    r4 c' h d
+    c c, r a'
+    h c f,4. f8
+    e4 r8 e a a a a
+    gis4 r8 e c' c c c %40
+    h4 e f, d'
+    e, c' d, h'
+    c, r8 d16[ e] f[ g a8] h[ c]
+    d[ h, c d] e16[ f g8] a[ h]
+    c[ a, h c] d16[ e fis8] gis[ a] %45
+    h[ gis, a h] c16[ h a8] c'4
+    h16[ a gis8] fis[ e] c16[ h a8] c'4
+    h16[ a gis8] fis[ e] c' a, r a'
+    fis fis dis dis h4 h'
+    ais fis h, a' %50
+    g e, r8 c'' a c
+    h([ fis g e] h4.) h8
+    e,4 r r2
+    R1*8 %61
+    r4 c'' h d
+    c c, r a'
+    h c f,4. f8
+    e4 r8 g c c e, fis %65
+    g4 r8 g d' d a h
+    c h a g f4. f8
+    e4 e' f, d'
+    e, c' d, h'
+    c, r8 e f16[ g a8] h[ c] %70
+    d[ h, c d] e16[ f g8] a[ h]
+    c[ h a g] f[ e d c]
+    g'4 g, r2
+    R1
+    r8 g' h g c4 c, %75
+    a'8 a c a d4 d,
+    h' r8 g fis4 d
+    g, f' e c
+    r8 a' f a g([ d e c]
+    g4.) g8 c4 r %80
+    R1*9 %89
+    R1\fermataFine %90
+    e2 c'4. c8
+    h([ a)] g([ fis)] e4 r8 h
+    e fis g a h4 r8 h
+    g4 e a r8 a
+    fis4 d g r8 g %95
+    e4 c f r8 d
+    g16[ a g f] e[ f g e] a[ h a g] f[ g a f]
+    h[ c h a] g[ a h g] c8[ h] a g
+    fis([ e)] d([ c)] h([ g')] e([ c)]
+    d4. d8 g,4 r %100
+    R1*5 %105
+    r2 f'
+    g a
+    r4 b b a
+    g4. g8 f4 r8 e
+    f g a h c4 r8 c %110
+    a4 f b r8 \hA b
+    g4 e a r8 a
+    fis4 d g r8 g
+    e4 c f r8 d
+    g16[ a g f] e[ f g e] a[ b a g] f[ g a f] %115
+    b[ c \hA b a] g[ a \hA b g] c8 c, r c'
+    h4 g c, b'
+    a r8 f d d b' b
+    e, e c' c f, f r d'
+    c([ g)] a([ f)] c4. c8 %120
+    f,4 a' a a
+    c2 a4 dis,
+    \tempoA-XIAriaSeptimaB e4. e8 a,2\fermata \markAriaDaCapo \bar "||" %123 finis
+  }
+}
+
+A-XIAriaSeptimaSoliLyrics = \lyricmode {
+  Er -- %19
+  öff -- ne dei -- nen, %20
+  er -- öff -- ne
+  dei -- nen Schlund du
+  ſchwar -- zer Höl -- len -- hund, du
+  ſchwar -- zer Höl -- len --
+  hund, er -- öff -- ne dei -- nen %25
+  Schlund du ſchwar -- zer,
+  ſchwar -- zer Höl -- len --
+  hund.
+
+  Er -- öff -- ne %36
+  dei -- nen, er --
+  öff -- ne dei -- nen
+  Schlund du  ſchwar -- zer Höl -- len --
+  hund, du ſchwar -- zer Höl -- len -- %40
+  hund, und ma -- che
+  dich, und ma -- che
+  dich ge -- faſ -- _
+  _ _ _
+  _ _ _ %45
+  _ _ _
+  _ _ _ _
+  _ _ _ ſet zu
+  al -- ler Peyn be -- reüth auff
+  den der ſich ver -- %50
+  laſ -- ſet nur auf Barm --
+  her -- zig --
+  kheit.
+
+  Er -- öff -- ne %62
+  dei -- nen, er --
+  öff -- ne dei -- nen
+  Schlund du ſchwar -- zer Höl -- len -- %65
+  hund, du ſchwar -- zer Höl -- len --
+  hund, er -- öff -- ne dei -- nen
+  Schlund, und ma -- che
+  dich, und ma -- che
+  dich ge -- faſ -- _ %70
+  _ _ _
+  _ _
+  _ ſet
+
+  zu al -- ler Peyn be -- %75
+  reüth, zu al -- ler Peyn be --
+  reüth auff den der
+  ſich ver -- laſ -- ſet
+  nur auf Barm -- her --
+  zig -- kheit. %80
+
+  Ver -- bütt -- re %91
+  dei -- ne Gall, weill
+  vill ver -- ſchid -- lich mahl hier
+  zeit -- lich Gnad, hier
+  zeit -- lich Gnad, hier %95
+  zeit -- lich Gnad em --
+  pfan -- _ _ _
+  _ _ _ gen und
+  ſol -- che, ſol -- che
+  doch ver -- acht. %100
+
+  Ver -- %106
+  bütt -- re,
+  ver -- bütt -- re
+  dei -- ne Gall, weill
+  vill ver -- ſchid -- lich mahl hier %110
+  zeit -- lich Gnad, hier
+  zeit -- lich Gnad, hier
+  zeit -- lich Gnad, hier
+  zeit -- lich Gnad em --
+  pfan -- _ _ _ %115
+  _ _ _ gen und
+  ſol -- che doch ver --
+  acht, drum ey -- le mit Ver --
+  lan -- gen, mit Ver -- lan -- gen zu
+  ihrn Ver -- der -- ben %120
+  tracht, zu ihrn Ver --
+  der -- ben, Ver --
+  der -- ben tracht. %123 finis
+}
+
+A-XIBScenaTertiaSoli = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIBScenaTertia
+    r4^\Barmherzigkeit r8 c' c c f c
+    a a r a a a a d
+    cis cis r \hA cis e e g, a
+    f4 r8 a a a a d
+    c! c r c c c c h %5
+    gis gis r e'^\markup \remark "ariose" e4 a,8[ h]
+    c4( h8.)\trill a16 a4 r
+    \fC r4^\Sohn r8 h, e e g h
+    h8. fis16 fis8 fis dis \hA fis a g
+    e e \fC r^\Barmherzigkeit e' e d! f e %10
+    c8. c16 c8 a f' d d c
+    a a r4 r2\fermata \bar "|." %12 finis
+  }
+}
+
+A-XIBScenaTertiaSoliLyrics = \lyricmode {
+  Laß ab von dein Be --
+  gin -- nen, weill al -- ler Men -- ſchen
+  Sin -- nen zum Böſ -- en iſt ge --
+  neigt, drum iſt es ja gantz
+  bil -- lig, daß man von Her -- tzen %5
+  wil -- lig Er -- barm -- nuß
+  vor __ ſie zeigt.
+  So hat dan die Barm --
+  her -- zig -- kheit ſchon würkh -- lich ü -- ber --
+  wun -- den? Weil ich ſchon hab die %10
+  Grech -- tig -- kheit ge -- feſ -- ſelt, und ge --
+  bun -- den.
+}

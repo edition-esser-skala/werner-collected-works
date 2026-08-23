@@ -365,6 +365,108 @@ A-XIAriaSextaViola = {
   \relative c' {
     \clef alto
     \twofourtime \key b \major \time 2/4 \tempoA-XIAriaSexta
-    
+    b'4\fE a
+    g d
+    es f
+    b, r
+    a' a, %5
+    g' f
+    e c
+    f f,
+    g' g,
+    a' a, %10
+    b' b,
+    c' c,
+    d r
+    e r
+    f c %15
+    f, r8 d'
+    c4 c,
+    f r
+    R2*15
+    f4\f r
+    d' r %35
+    a r8 b
+    c4 c,
+    f r
+    R2*23 %61
+    b4\f r
+    g' r
+    d r8 es
+    f4 f, %65
+    b\fermataFine r
+    R2*31 %97
+    \time 4/4 \tempoA-XIAriaSextaB R1
+    R\fermata \markAriaDaCapo \bar "||" %99 finis
+  }
+}
+
+A-XIAriaSeptimaViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoA-XIAriaSeptima
+    R1*4
+    g2\fE a %5
+    h c~
+    c4 h a2
+    g4 g'8 f e4. d16 c
+    d2 c4 c~
+    c8 h16 c d4. c16 d e4~ %10
+    e8 a, d8. c16 h8 c16 d c4
+    a d g,8 c4 d8
+    e4 c r8 h a g
+    r c h a r d c h
+    e4. fis16 g a4 g %15
+    e a d, e
+    f!4. e16 f g4 g,
+    a4. h16 c d4 c~
+    c h c r
+    R1*7 %26
+    r4 g\f a2
+    h c~
+    c4 h a8 e' d c
+    h g4 a8 h c a h %30
+    c e d c r f e d
+    r g f e r a g f
+    g h, c d16 e a,4 h
+    c r r8 a4 h16 c
+    d4 c2 h4 %35
+    c r r2
+    R1*16 %52
+    e,2\f fis
+    g a~
+    a4 g fis gis %55
+    a r8 c d h r d
+    e c r e f d r f
+    h,4 c d h
+    a1
+    a4 r d2~ %60
+    d8 h g4 g2
+    g4 r r2
+    R1*17 %79
+    r2 r4 c~\f %80
+    c8 h16 c d4. c16 d e4~
+    e8 a, d8. c16 h8 c16 d c4
+    a d g,8 c4 d8
+    e4 c r8 h a g
+    r c h a r d c h %85
+    e4. fis16 g a4 g
+    e a d, e
+    f!4. e16 f g4 g,
+    a4. h16 c d4 c~
+    c h c r\fermataFine %90
+    R1*9 %99
+    r2 g\f %100
+    a h
+    c2. h4
+    a2 g4 e
+    d2 c
+    R1 %105
+    r2 r8 a'\p g f
+    r b a g r c \hA b a
+    r d c b r4 c
+    b2 a4 r
+    R1*13 %122
+    \tempoA-XIAriaSeptimaB R1\fermata \markAriaDaCapo \bar "||" %123 finis
   }
 }

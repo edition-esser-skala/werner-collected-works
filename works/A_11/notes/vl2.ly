@@ -753,3 +753,130 @@ A-XIAriaSextaViolinoII = {
     R1\fermata \markAriaDaCapo \bar "||" %99 finis
   }
 }
+
+A-XIAriaSeptimaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XIAriaSeptima
+    r4 c'4.\fE h16 c d4~
+    d8 c16 d e4. a,8 d8. c16
+    h8 c16 d g,8. g16 a8 h c d
+    e e,16 f g4. a8 d, fis
+    g h a g r c h a %5
+    r d c h r e d c
+    d fis, g a16 h c8 d e fis
+    g a h a g4. f16 e
+    f8 a g f e c r e,
+    f d r f g e r g %10
+    a f r a h g~ g f16 e
+    f8 a g f e16 f e f g8 a16 h
+    c4 a' << { h, r } \\ { g2 } >>
+    a h
+    c2. h4 %15
+    a2 g8 a16 h c8 d16 e
+    a,4 h c8 g16 f e8 d
+    c d16 e f8 g16 a g8 d e c
+    e4 d\trillE c r
+    R1 %20
+    r8 f'16\p e d8 c h c16 d e8 e,
+    f g a h c4 d
+    c4. h16 a h4 r
+    R1
+    r8 g' fis e d c h a %25
+    g fis e d c4 r
+    r2 r8 c'\f h a
+    r d c h r e d c
+    d fis, g2 fis4
+    g16 a h4 c8 d e f! g %30
+    e c r e, f d r f
+    g e r g a f r a
+    d,4 e f d'
+    g,8 f e d c d16 e f8 g16 a
+    g8 d e c e4 d\trill %35
+    c r r2
+    r r8 f'16\p e d8 c
+    h c16 d e8 e, f g a h
+    c d e fis16 gis a8 a, a a
+    gis16 fis e \hA fis \hA gis a h \hA gis c8 c c c %40
+    h4 r r2
+    r8 e c16 h c8 d d, h'16 a h8
+    c c, r4 r8 a' h c
+    r h, c d r g a h
+    r a, h c r fis gis a %45
+    r gis, a h r c' h a
+    r gis fis e r c' h a
+    r gis fis e r e e e
+    fis16 e \hA fis8 fis'16 e \hA fis8 fis dis h \hA dis
+    R1 %50
+    r8 h g e c' a, r4
+    R1
+    r8 g'\f fis e r a g fis
+    r h a g r c h a
+    h4. a16 g a4 h %55
+    e, a4. gis16 a h4~
+    h8 a16 h c4. d,8 h'8. a16
+    gis8 a16 h a2 g4~
+    g8 a16 g f8 g e b' a g
+    fis4 g2 f4~ %60
+    f8 g16 f e8 f d2\trill
+    e4 r r2
+    r8 e'16\p d c8 h a g f e16 d
+    g8 d g c, a' h c d
+    e16 d e f g8 g, c a c4~ %65
+    c h a8 d a h
+    c d e4. d16 c d4
+    e r r2
+    r8 e c16 h c8 d d, h'16 a h8
+    c c, r4 r2 %70
+    R1*2
+    r8 h' c d r e, d c
+    r h'\pp c d r e, d c
+    r2 r8 g'\p c c %75
+    a a f4 r8 a d d
+    h h g4 r2
+    r r8 e' c e
+    a, f r4 r2
+    r r4 r8 e\f %80
+    f d r f g e r g
+    a f r a h g4 f16 e
+    f8 a g f e16 f e f g8 a16 h
+    c4 a' << { h, } \\ { g2 } >>
+    a h %85
+    c2. h4
+    a2 g8 a16 h c8 d16 e
+    a,4 h c8 g16 f e8 d
+    c d16 e f8 g16 a g8 d e c
+    e4 d\trill c r\fermataFine %90
+    r2 a'\p
+    fis'4. fis8 h,2
+    c4 e,8 a fis4 r8 \hA fis
+    h h g g e4 r8 c
+    a' a fis fis d4 r8 d %95
+    g g e e c a' f f
+    d h' g g e c' a a
+    g d' h h g4 r
+    a fis16 e \hA fis8 d4 r
+    r2 r8 h'\f a g %100
+    r c h a r d c h
+    r e d c d fis, g a16 h
+    c8 e d c h e d c
+    r f! e d r g f e
+    r a g f g h, c4~ %105
+    c b4 a8\p f r a
+    b g r \hA b c a r c
+    d b r d c4. c,8
+    d e f g a b c4
+    d2 g,8 g e' e %110
+    c c a4 r8 f d' d
+    b b g4 r8 e cis' cis
+    a a fis4 r8 d b' b
+    g g e4 r8 c f f
+    d b' g g e c' a a %115
+    f d' b b g g e4
+    R1
+    r8 a f f d b'4 g8
+    e c'4 a8 f f d'4
+    R1*3 %122
+    \tempoA-XIAriaSeptimaB R1\fermata \markAriaDaCapo \bar "||" %123 finis
+  }
+}
