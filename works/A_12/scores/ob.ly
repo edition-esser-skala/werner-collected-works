@@ -9,18 +9,20 @@
   \bookpart {
     \section "7" "Aria tertia"
     \addTocEntry
+    \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \A-XIIAriaTertiaBassoContinuo }
+        \new Staff { \A-XIIAriaTertiaOboe }
       >>
     }
   }
   \bookpart {
     \section "17" "Aria sexta · Siciliana"
     \addTocEntry
+    \paper { system-count = #7 }
     \score {
       <<
-        \new Staff { \A-XIIAriaSextaBassoContinuo }
+        \new Staff { \A-XIIAriaSextaOboe }
       >>
     }
   }
