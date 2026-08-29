@@ -1,4 +1,4 @@
-title: Der verlorene SOhn
+title: Der verlorene Sohn
 subtitle: Der Von der Gerechtigkeit abgeſchröckte und Durch die Barmherzigkeit wiederum bewegte, Bußfertige und zu seinem Liebreichen Vatter Vertraungsvoll zurück-kehrende Verlohrne Sohn oder Der zu Seinen Verliebten Heyland Sich wendende reumüthige Sünder
 id: WerW A.11
 genre: oratorio
@@ -14,11 +14,12 @@ sources:
     url: https://copia.oszk.hu/kotta/der-verlorene-sohn-oratorium-1747/
     license: public domain
     principal: true
+tocstyle: default
 toe: |
   –  & –  & vla  & In \B1, a staff for vla only appears
                    in movements 1, 7, 12, 16, and 19.
                    Here, a vla part has been added by the editor
-                   also to the remaining arias (no. 4, 6, 8, 10, 14, and 18),
+                   also to the remaining arias (no.~4, 6, 8, 10, 14, and 18),
                    where it plays unison with bc whenever the voice pauses
                    during the first section.
                    Moreover, a vla part has been added to the chorus (no. 20),
@@ -28,5 +29,9 @@ toe: |
      & 121 & vl 2 & 1st \quarterNote\ in \B1: d′+g′4 \\
   14 & 32  & vl 1 & 1st \quarterNote\ in \B1: a″16–g″16–f″8 \\
   20 & 29  & T    & 1st to 3rd \eighthNote\ in \B1: \flat a4. \\
+parts:
+  ob: Oboe solo
+  vla: Viola\\Viola d’amore solo
+  vlc: Violoncello solo
 commentary: |
   \includepdf[pages=-,link=false,pagecommand={}]{../works/A_11/appendix.pdf}
