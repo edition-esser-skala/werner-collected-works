@@ -874,3 +874,154 @@ A-XIAriaSeptimaViolinoI = {
     \tempoA-XIAriaSeptimaB R1\fermata \markAriaDaCapo \bar "||" %123 finis
   }
 }
+
+A-XIAriaOctavaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 4/4 \tempoA-XIAriaOctava
+    r4 d'8\fE cis d a' g f
+    e a,16 h c8 h a c' h a
+    gis gis,16 a h8 c gis a h c
+    gis a h c d16 e f8 e d
+    cis d e f g16 a b8 a g %5
+    f4. f8 e16 f g a b8 d,
+    cis16 h! \hA cis d e8 g, f d' e, cis'
+    f, d' e, cis' d d, r4
+    r2 cis'16\p a d a e'8 a,
+    R1*4 %13
+    r8 c'\f b a g a e f
+    g a e f g16 a b8 a g %15
+    f16 g a8 b d, \appoggiatura d cis8. cis16 d8 e
+    f e d16 e f8 e d c \tuplet 3/2 8 { h16 c d }
+    c4 h\trill a8 e a,4
+    r2 gis'16\p e a e h'8 e,
+    R1*3 %22
+    r2 r16 e a e gis e a e
+    h'8 e, r4 r16 a e' a, cis a d a
+    e'8 a, r4 r2 %25
+    r r16 a' e cis a4
+    r2 r16 a e cis a4
+    R1*2
+    r2 r8 a''\f g f %30
+    e f cis d e f cis d
+    d,2~ \kneeBeam d8 b''16 a g f e d
+    cis8 d e, \hA cis' f, d' e, cis'
+    d d, r4 r2
+    r16 f'\p c! a f4 r2 %35
+    r16 c' g e c4 r2
+    r16 f' c a f4 r2
+    r16 c' g e c4 r2
+    R1*2 %40
+    r8 c''\f b a g a e f
+    g a e f g16 a b8 a g
+    f4. f8 e16 f g a b8 d,
+    \appoggiatura d cis4. d8 e16 f g4 g8
+    g16 a b8 a g f d e, cis' %45
+    f, d' e, cis' f, d' e, cis'
+    d4 r r2\fermataFine \bar "|." %47 finis
+  }
+}
+
+A-XIBScenaQuartaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoA-XIBScenaQuarta
+    d'1~^\markup \remark "stendato"
+    d~
+    d
+    c~
+    c2 e %5
+    a,1
+    d
+    es2 d~
+    d b~
+    b1~ %10
+    b2 c
+    d4 es2 d4
+    es2 e
+    f1~
+    f4 e f2 %15
+    d1~
+    d2 es
+    g fis
+    d1
+    g, %20
+    as4 g g2\fermata \bar "|." %21 finis
+  }
+}
+
+A-XIChorusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoA-XIChorus
+    es'8\fE c g c es,4 r
+    R1*2
+    r4 r8 g c c c d
+    es2 d4 r8 des %5
+    c4. c8 c des4 c8
+    c4 b c2
+    r r4 r8 f,
+    c' c c c c h b b
+    as2 g4 r8 g %10
+    fis fis g g g4 fis
+    g r8 g as as h h
+    c2 cis
+    d es!
+    d4 r r r8 c %15
+    h g b b a a d4~
+    d8 es16 d c2 h4
+    c r r r8 d
+    cis a c fis, g4 r8 es'
+    es4 d c4. c8 %20
+    c4 r8 c d d es4~
+    es d es r8 b\pE
+    b b es c \appoggiatura b4 as2
+    g4 r8 d' d d d es
+    c4. a!8 f4 r8 f %25
+    b b as g \hA as4 as8 c
+    b b f' as, as g g b
+    b as c \hA as \appoggiatura g f4 f8 f
+    g g as as b4 \hA as8 g
+    as4 g8 f g16 \hA as g \hA as b8 \hA as \noBreak %30
+    g4 f\trill es r
+    \tempoA-XIChorusB R1*3
+    r2 r8 c'4\fE c8 %35
+    h as' g h, c g c b
+    as4. g16 f g8 b \hA as g
+    as f r4 r2
+    g4. g8 fis es' d fis,
+    g a h16 c d \hA h c8 g c d16 es %40
+    d2 g,4 c8 c
+    as g' f a,? b2
+    b8 b4 b8 g g c c
+    c f, b c16 d es d c b as8 b16 c
+    d c b as g \hA as b c f,4. b8~ %45
+    b g r c d4. c16 b
+    c4. b16 as? b8 b g as16 b
+    c b as g f8 g16 \hA as b \hA as g f es8 f16 g
+    a8 a \once \stemUp b4. a16 g a4
+    b8 d d d b4 g %50
+    r2 r4 c8 c
+    g' g g g es c c c
+    h g \hA h h c2~
+    c1~
+    c2 b!8 b b b %55
+    b2 b4 r
+    r2 r8 d4 d8
+    es4 g, fis4. fis8
+    g4 r8 b4 b8 a g
+    fis4. g16 a g8 d g f %60
+    es4. f8 g4 r8 d'~
+    d d c b a!4 a8 a
+    g2 r4 r8 es'~
+    es es d c b d4 d8
+    g, es'4 d8 c c d4 %65
+    c c d r
+    r8 d4 f8 es4 g
+    c, r r es~
+    es8 es d c h4 c~
+    c h c \tempoA-XIChorusC c8 c %70
+    c4 c c2
+    c4. c8 c2\fermata \bar "|." %72 finis
+  }
+}

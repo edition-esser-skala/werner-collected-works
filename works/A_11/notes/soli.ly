@@ -1641,3 +1641,173 @@ A-XIBScenaTertiaSoliLyrics = \lyricmode {
   Grech -- tig -- kheit ge -- feſ -- ſelt, und ge --
   bun -- den.
 }
+
+A-XIAriaOctavaSoliA = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 4/4 \autoBeamOff \tempoA-XIAriaOctava
+    R1*17 %17
+    r2 r4 a'8 gis
+    a e' d c \appoggiatura c h4 e,8 h'
+    c d16([ e)] f8 a, gis4 h8 c %20
+    gis a h c gis a h cis
+    d a e' a, f'8.([ e16)] d([ c)] h([ a)]
+    gis8 a h a16([ \hA gis)] a4 r
+    r2 r4 a8 a
+    a e16([ f)] g!8 g g16([ f)] f8 f' f %25
+    f16([ e)] e8 e d \appoggiatura d cis4 e8 d
+    cis \tuplet 3/2 8 { d16([ e f)] } e8 d \appoggiatura d cis4 cis8 d
+    e f cis d e f cis d
+    d2~ d16[ e d c] b[ f' e d]
+    cis8 d16([ e)] \appoggiatura d8 \hA cis8. d16 d4 r %30
+    R1*4
+    r4 c8 b16([ a)] g8 g d' f, %35
+    f16([ e)] e8 c' c d16([ c)] d8 e16([ d)] e8
+    f4 c8 f d d16([ c)] c([ b)] b([ a)]
+    \appoggiatura a8 g4 g8 a e f g a
+    e f g a b f c' f,
+    d'8.([ c16] b8) b b16([ g)] a([ \hA b)] \appoggiatura a8 g8. f16 %40
+    f4 r r2
+    R1*5 %46
+    R1\fermataFine \bar "|." %47 finis
+  }
+}
+
+A-XIAriaOctavaSoliALyrics = \lyricmode {
+  Diß laß %18
+  dir zur Wahr -- nung ſein, daß du
+  nit mehr wil -- ligſt ein in die %20
+  Sün -- de ſo ge -- ſchwin -- de ob ſie
+  auch ſchon noch ſo klein, ob ſie
+  auch ſchon noch ſo klein.
+  als dan
+  würd dich Gott er -- he -- ben und dich %25
+  ſchlieſ -- ſen in ſein Hertz ſo vor
+  dich ſo groſ -- ſen Schmertz hat er --
+  tul -- det un -- ver -- ſchul -- det bloß wegn
+  dei -- _
+  _ nen Sün -- den -- ſchertz, %30
+
+  als dan würd dich Gott er -- %35
+  he -- ben und dich ſchlieſ -- ſen in ſein
+  Hertz ſo vor dich ſo groſ -- ſen
+  Schmertz hat er -- tul -- det un -- ver --
+  ſchul -- det bloß wegn dei -- nen Sün -- den --
+  ſchertz, __ wegn dei -- nen Sün -- den -- %40
+  ſchertz. %41 finis
+}
+
+A-XIAriaOctavaSoliB = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 4/4 \autoBeamOff \tempoA-XIAriaOctava
+    R1*7 %7
+    r2 r4 d8 cis
+    d a' g f e4 a,8 e'
+    f g16([ a)] b8 d, \appoggiatura d cis4 e8 f %10
+    cis d e f cis d e fis
+    g d a' d, b'8.[ a16] g[ f e d]
+    e8 c! f b a16([ g] f4) e8
+    f4 r r2
+    R1*8 %22
+    r2 r4 e8 e
+    e h16([ c)] d8 d d16([ cis)] cis8 r4
+    r2 r4 a'8 a %25
+    a16([ g)] g8 g f \appoggiatura f e4 cis8 f
+    e \tuplet 3/2 8 { f16([ g a)] } g8 f \appoggiatura f e4 e8 f
+    cis d e f cis d e fis
+    g d a' d, b'8.([ a16] g8) g
+    g16([ e)] f([ g)] \appoggiatura f8 e8. d16 d4 r %30
+    R1*3
+    r4 f8 e16([ d)] c!8 c g' b,
+    b16([ a)] a8 r4 r2 %35
+    r4 a'8 a b16([ a)] \hA b8 g16([ f)] g8
+    a4 a8 a b b16([ a)] a([ g)] g([ f)]
+    \appoggiatura f8 e4 e8 f g a e f
+    g a e f f2~
+    f16[ g f e] d[ a' g f] e8 f16([ g)] \appoggiatura f8 e8. f16 %40
+    f4 r r2
+    R1*5 %46
+    R1\fermataFine \bar "|." %47 finis
+  }
+}
+
+A-XIAriaOctavaSoliBLyrics = \lyricmode {
+  Nun bin %8
+  ich ſchon wohl ge -- tröſt daß mein
+  groſ -- ſer Sün -- den -- reſt al -- le -- %10
+  maſ -- ſen nach -- ge -- laſ -- ſen und hin --
+  führ kein Forcht mehr preßt, __ _
+  _ hin -- führ kein Forcht mehr
+  preßt.
+
+  All dem %23
+  ſchwör ich noch zu le -- ben,
+  und mich %25
+  ſchlieſ -- ſen in ſein Hertz ſo vor
+  mich ſo groſ -- ſen Schmertz hat er --
+  tul -- det un -- ver -- ſchul -- det bloß wegn
+  mei -- nen Sün -- den -- ſchertz, __ wegn
+  mei -- nen Sün -- den -- ſchertz, %30
+
+  all dem ſchwör ich noch zu %34
+  le -- ben, %35
+  und mich ſchlieſ -- ſen in ſein
+  Hertz ſo vor mich ſo groſ -- ſen
+  Schmertz hat er -- tul -- det un -- ver --
+  ſchul -- det bloß wegn mei --
+  _ _ nen Sün -- den -- %40
+  ſchertz. %41 finis
+}
+
+A-XIBScenaQuartaSoli = {
+  \relative c' {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoA-XIBScenaQuarta
+    r4^\Gerechtigkeit r8 g b b b d
+    d a \clef treble r8^\Barmherzigkeit d' d a a c
+    b4 r8 g \hA b b d \hA b
+    g4 r8 c e e g b,
+    a4 \fC a,8^\Sohn h! cis8. cis16 cis8 d %5
+    e e e g f f \clef bass r^\Gerechtigkeit a,
+    a d, d c' b8. b16 b8 g
+    es' c b g d2
+    g,4 \fC r8^\Vater b' g g \hA b es,
+    d8. d16 d8 f as as as g %10
+    es es r b' c as f c'
+    d,[ b'] g es b2
+    es,4 \clef treble r8^\Sohn g'' e! e g c,
+    as'8. as16 as8 f des des e! f
+    f c r4 \clef "treble_8" r^\Gehorsame r8 a %15
+    a a d a b8. b16 b8 d
+    g, h d es c8. c16 c8 c
+    cis cis e g, fis4 \clef bass r8^\Vater a
+    fis fis a d, b'8. b16 b8 b
+    d h g f es8. es16 es8 c' %20
+    as c c g c,4 r\fermata \bar "|." %21 finis
+  }
+}
+
+A-XIBScenaQuartaSoliLyrics = \lyricmode {
+  So mueß ich gänz -- lich
+  wei -- chen? Hier fün -- de -- ſtu nicht
+  ſtatt, weill nichts als Lieb und
+  Gnad die Bueß ver -- die -- net
+  hat. Ô wie ſchmer -- tzens -- voll hab %5
+  ich dar -- nach ge -- ſu -- chet! Zu
+  dei -- nen Heyll iſt diß ge -- ſchehn ſonſt
+  wär -- ſtu gwiß ver -- flu --
+  chet. So kom -- me dan mein
+  lieb -- ſter Sohn be -- gehr nach dei -- nen %10
+  Wil -- len! Ich wer -- de als er --
+  füh -- len, er -- füh --
+  len. Ô Vat -- ter mein Ver --
+  lan -- gen iſt nur dei -- nen Zorn zu
+  ſtil -- len. Schenckh %15
+  mir doch auch die Vat -- ters -- huld, ob
+  ich ſchon hab auß Un -- ge -- tuld waß
+  ſträff -- li -- ches ge -- than! Euch
+  mei -- nen Kin -- dern all -- zu -- mahl ver --
+  zeyh ich eu -- ren Sün -- den -- fahl, ihr  %20
+  habt zu -- gleich Par -- don. %21 finis
+}
