@@ -1,0 +1,37 @@
+title: Missa Sanctæ Theclæ
+id: WerW B.9
+genre:
+festival:
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org solo
+ark: 68748/e1gjw
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.22
+    rism: 530001932
+    url: https://copia.oszk.hu/kotta/missa-sanctae-theclae-in-a/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: A 55
+    rism: 600037864
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/705.html
+    license: public domain
+tocstyle: default
+toe: |
+  1 & 23   & vl 1 & rhythm of last \eighthNote\ in \A1 and \B1: 32–32–16 \\
+    & 32   & vl 2 & 2nd \halfNote\ in \A1 and \B1: \sharp g′4.–\sharp g′8 \\
+  2 & 33   & vl 2 & 8th \sixteenthNote\ in \A1: e′′′16.\\
+    & 35   & vl 2 & 6th \eighthNote\ in \A1: e″32–d″32–e″16. \\
+    & 48   & vl 1 & last \sixteenthNote\ in \A1: e′′′16.\\
+    & 49   & vl 1 & 1st \halfNote\ in \A1: 4 × \sharp c″32–b′32–\sharp c″16. \\
+    & 62   & vl 2 & rhythm in \A1: 6 × 16.–32 \\
+    & 110  & A    & last \eighthNote\ in \A1: \sharp f′8 \\
+  3 & 1    & A    & tempo indication in \A1: “Molto andante” \\
+    & 28   & T    & 2nd \halfNote\ in \A1: b4–b8–b8 \\
+    & 78   & vl 2 & 1st \quaverRest\ missing in \A1 \\
+    & 126  & vl 2 & 3rd \quarterNote\ in \A1: b′8–\sharp g′16–a′16 \\
+    & 132  & vl 2 & rhythm of 2nd \quarterNote\ in \A1: 8–16–16 \\
+    & 137  & vl 2 & rhythm of 3rd \quarterNote\ in \A1: 8–16–16 \\
