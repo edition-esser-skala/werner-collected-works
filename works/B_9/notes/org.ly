@@ -647,3 +647,322 @@ B-IXCredoBassFigures = \figuremode {
   \bc <[6]>4 <4>8 <_+>4. <4>8 <_+>
   r1 %143 finis
 }
+
+B-IXSanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key a \major \time 3/2 \tempoB-IXSanctus
+    \mvTr a'2-!\fE-\tutti a,-! << {
+      s
+      e''1 e2~
+      e4 dis h cis d?2
+    } \\ {
+      a2~^!
+      a4 gis e fis gis a
+      h2. a4 fis gis
+    } >>
+    a2 fis1
+    e2 \clef "treble_8" cis'1 %5
+    h1.
+    \clef bass a2 a, a'~
+    a4 gis e fis g2
+    fis e1
+    d2 \clef treble << {
+      d''4 cis a h %10
+      cis dis e2. d4
+      h cis d e fis e
+      d2
+    } \\ {
+      d,4 e fis gis! %10
+      a2. gis4 e fis
+      gis ais h a8 gis fis4 gis8 ais
+      h2
+    } >> \clef "treble_8" fis2. e4
+    \clef bass h2. a!4 gis fis
+    e2 a2. g4 %15
+    fis e d2 e
+    a d,1
+    e2 cis fis
+    d e1 \noBreak
+    a,1.\fermata \bar "||" %20
+    \key d \major \time 4/4 \tempoB-IXPleni \newSpacingSection
+      \mvTr d8.\fE-\solo e16 fis8 g a h fis g \noBreak
+    a fis cis d a' a,16 h cis8 d
+    e fis cis d e fis gis h
+    a d, e e, << { fis' cis d e } \\ { fis,4 } >>
+    fis'8 d e e, a a'16\pE g! fis8 cis %25
+    d e fis d g fis e a,
+    d fis cis a d fis cis a
+    d e fis d g fis e g
+    << { a } \\ { a, h cis a } >> d fis cis a
+    d h' gis e a d, e d %30
+    cis8. h16 a8 cis d8. e16 fis8 d
+    g! e a g fis g^\critnote cis, a
+    d g a a, d8.\fE e16 fis8 d
+    g e16 fis g8 gis a a,16 h cis8 a \noBreak
+    d g a a, d4 r\fermata \bar "||" %35
+    \key a \major \tempoB-IXOsanna << {
+      r2 e4 e'~ \noBreak
+      e8 dis h h
+    } \\ {
+      \mvTr a,4\fE-\tutti a'4. gis8 e e %36
+      fis e16 fis gis8 fis16 gis
+    } >> a4 fis
+    e \clef treble << {
+      e''4. dis8 h4 %38
+      cis8 h16 cis d8 cis16 d h8 a16 h cis8 h16 cis
+      a8 gis16 a h8 a16 h
+    } \\ {
+      e,8 e fis e16 fis gis8 fis16 gis %38
+      a8 gis16 a fis8 e16 fis gis8 fis16 gis e8 dis16 e
+      fis8 e16 fis dis8 cis16 dis
+    } >> \clef "treble_8" e,4 e' %40
+    \clef bass h, h'4. ais8 fis fis
+    gis fis16 gis a8 fis e2
+    fis e4 r
+    \clef "treble_8" d!4 d' \clef bass a, a'~
+    a8 gis e e fis e16 fis gis8 fis16 gis %45
+    a4 fis e2~-\tastoE
+    e1~
+    e4 r a8 e cis a
+    e e' cis a e2
+    a^\critnote r\fermata \bar "|." %50 finis
+  }
+}
+
+B-IXSanctusBassFigures = \figuremode {
+  r1.
+  r
+  r
+  <5 4>4 <\t _+> <#(dotbf 5)>2. <6\\>4
+  <4> <_+> <6>2 <5>4 <6\\> %5
+  <8 5 4> <\t \t _+> <#(dotbf 5) _!>2. <6\\>4
+  \bo <[4]>4 \bc <[3]> r1
+  <5 2>2 <8>4 <6> <3> <4>
+  \bo <[6 _]>2 <5 _!>2. <6 \t>4
+  <5 4!> \bc <[\t 3]> r1 %10
+  r1.
+  r
+  r2 <4> <_+>
+  r1 \bo <[6]>2
+  r1. %15
+  \bc q1 <7 [_+]>2
+  r <7> <6>4 <5>
+  r2 <6>1
+  <6>2 <4> <_+>
+  r1. %20
+  r2. <[6]>4
+  r8 <6> <[6]>2.
+  <_+>2 q
+  r4 <6 4>8 <5 _+>4 <6>8 <\t>4
+  r4 <6 4>8 <5 _+> r2 %25
+  r8 <6\\> <6>4. <[6]>8 <7> q
+  r4 \bo <[6]>2 <6>4
+  r1
+  r2. <6>4
+  r \bc <[6]>4. <6>8 <4> <4\+> %30
+  \bo <[6]>1
+  r2 <6>4 \bc <[6]>
+  r <4>8 <_+> r2
+  r1
+  r4 <4>8 <_+> r2 %35
+  r1
+  r2 <_+>4 <6\\>
+  <4>8 <_+>2..
+  r1
+  r %40
+  <4>8 <_+> <\t>4 <2>8 <[6]> <6\\>4
+  <6>8 <6[!]>4 <6\\>8 <4>4 <_+>
+  <7> <6\\> <4>8 <_+>4.
+  r4 <6 4\+> <8 4>8 <\t _+>4.
+  <5 2>4 <6\\> <6>8 q16 q q4 %45
+  r <6\\>2.
+  r1
+  <_+>2 q4 \bo <[6]>
+  r \bc q <4> <_+>
+  r1 %50 finis
+}
+
+B-IXBenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key e \mixolydian \time 4/4 \tempoB-IXBenedictus
+    \mvTr e8\fE-\solo gis dis h e[ fis] gis r
+    a r ais r h fis dis h
+    e a h h, e gis\pE dis h
+    e4 r8 e ais,4. ais8
+    h4 r8 h' e, cis fis e %5
+    dis h ais fis' dis e fis fis,
+    h\fE dis ais fis h dis16.\pE cis32 dis8 h
+    e gis dis h e8. fis16 gis8 e
+    a8. gis16 fis8 fis, h h'16 a gis8 dis
+    e a, h4 cis dis %10
+    e8 a h a gis e dis h
+    e a h h, e4 r\fermata \markOsannaUtSupra \bar "||" %12 finis
+  }
+}
+
+B-IXBenedictusBassFigures = \figuremode {
+  r4 <[6]>2.
+  r4 <6> \bo <[7! _+]>2
+  r4 <6 4>8 <5 _+>4. \bc <[6 _]>4
+  r2 <6>4. <5>8
+  <_+>4. q q4 %5
+  \bo <[6]> <6> \bc <[6]> <6\\ 4>8 <5 _+>
+  \bo <[_+]>4 <6> <_+>2
+  r4 <6>2.
+  r2 <_+>4 <6>8 q
+  r4 <_+>2 \bc <[6]>4 %10
+  r <4>8 <4\+> \bo <[6]>4 \bc q
+  r <6 4>8 <5 _+> r2 %12 finis
+}
+
+B-IXAgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \tempoB-IXAgnus
+    \mvTr a'4.\fE-\tutti a8 e4 fis
+    cis4. cis8 d4 h8 a
+    e'4 r r h'
+    a gis fis4. e8
+    dis4 cis his cis %5
+    gis' gis, cis cis'8-\solo h!
+    a4 gis\pE a fis
+    dis e dis e
+    ais,8 ais ais ais h h'4 a8
+    gis fis e4 dis e %10
+    h1
+    e8 e' gis, e \mvTr a4.\fE-\tutti a8
+    d,!4. fis8 h,4. h8
+    gis4 a e' r
+    r8 d d d his4 cis8 cis %15
+    fis4 h, e a, \noBreak
+    dis2 e\fermata \bar "||"
+    \time 3/2 \tempoB-IXDona \newSpacingSection
+      a2.-! e4-! fis-! cis-! \noBreak
+    d2.-!\trill cis8-! d-! e4-! d8-! e-!
+    << {
+      e'2. h4 cis gis %20
+      a2.\trill gis8 a h4 a8 h
+      gis4 e fis gis a h
+    } \\ {
+      cis,4 a' gis2 e %20
+      fis4 cis dis2.\trill cis8 dis
+      e4 cis d h cis gis
+    } >>
+    a h cis2 d4 e
+    fis h gis2.\trill fis8 gis
+    a2 \clef treble << {
+      e''4 h cis gis %25
+      a2.\trill gis8 a h4 a8 h
+      gis4 e' cis h8 cis a4 gis8 a
+      fis4 fis' dis cis8 dis h4 a8 h
+      gis4 h e dis8 cis h4 a
+      gis fis8 e
+    } \\ {
+      gis2 e %25
+      fis4 cis dis2._\trillE cis8 dis
+      e4 cis a a' fis e8 fis
+      dis4 cis8 dis h4 h' gis fis8 gis
+      e4 dis8 e cis2 dis
+      e
+    } >> \clef "treble_8" h2. fis4 %30
+    \clef bass e2. h4 cis gis
+    a2.\trill gis8 a h4 a8 h
+    gis4 e << {
+      cis''2.\trillE h8 cis %33
+      a2.\trillE gis8 a h4 a8 h
+      gis4 \clef "treble_8" e' fis2.\trillE e8 fis %35
+      d!2.\trillE cis8 d e4 d8 e
+    } \\ {
+      r4 e, fis2~\trill %33
+      fis4 e8 fis dis2.\trill cis8 dis
+      e4 r r a h2~\trill %35
+      h4 a8 h gis2.\trill fis8 gis
+    } >>
+    \clef bass a2. e4 fis cis
+    d2.\trill cis8 d e4 d8 e
+    cis4 a \clef treble << {
+      fis''' e8 fis dis2
+      r4 d e d8 e cis4 h8 cis %40
+      d4 \clef bass d, e d8 e cis2
+      r4 cis d cis8 d
+    } \\ {
+      r4 a' h a8 h
+      gis2 r4 g a g8 a %40
+      fis4 r r g, a g8 a
+      fis2 r4 fis
+    } >> g d
+    e g fis e fis fis,
+    h2 h' gis
+    e h1 %45
+    e2 r4 e fis e8 fis
+    dis2 r4 d e d8 e
+    cis2 r4 a' h fis
+    gis2.\trill fis8 gis a4 e
+    fis2.\trill e8 fis gis4 fis8 gis %50
+    a4 d, e2 e,
+    a d e
+    cis gis a4 e'
+    fis d e2 e,
+    a1 r2\fermata \bar "|." %55 finis
+  }
+}
+
+B-IXAgnusBassFigures = \figuremode {
+  r2 <6 4>8 <5 _+> <5>4
+  <6 4>8 <5 _+>4. <5>4 <6\\>
+  <4>8 <_+> r2 <6\\ 4\+ 3>4
+  <6> <6\\> <8 4> <\t _+>
+  <6\\>4 <_!> <7 5 [_+]>2 %5
+  \bo <[5\+] 4>4 \bc <[\t] _+>2 <6>8 <6\\ [_!]>
+  r4 <[6]>2 <5>4
+  <6>8 <5>4. <5>4 <9 4>8 <8 _+>
+  <7! 5>2 <_+>8 q <4 2> <6\\ 4\+>
+  <8 6>2 <[6]> %10
+  <5 _+>4 <6 4> <5 \t> <\t _+>
+  r1
+  r4. <_+>8 r2
+  <6 5>4 <9>8 <8> r2
+  r8 <4\+ 2\+>4. <7 5 [_+]>4 <_!> %15
+  <7 _+> <_!> <7 _+>2
+  <7!>2 <_+>
+  r1.
+  r
+  r %20
+  r
+  r
+  <8 _+>2 <6>2. <6\\>4
+  <6>2 <6 5>1
+  r1. %25
+  r
+  r
+  r
+  r
+  r2 <4> <_+>4 <6\\> %30
+  r2. <[_+]>4 <6> q
+  <6 5>1 <_+>2
+  \bo <[6]>1.
+  r
+  r %35
+  r
+  r1 r4 \bc <[6]>
+  <6 5>1 <_+>2
+  <[6]>1.
+  r %40
+  r
+  r1 <3>4 <6>
+  <[_!]> <6> <6 4>2 <5 _+>
+  <_+>1 <6>2
+  r <4> <_+> %45
+  r2. <6>4 <_+>2
+  <5!>2. <6>4 <_+>2
+  <6>2. <6\\>4 <_+> <6\\>
+  <5!>2. <6>8 q r4 <6\\>
+  <5>2 <6>4 q8 q q2 %50
+  r <4> <_+>
+  r1.
+  \bo <[6]>2 \bc q1
+  r2 <4> <_+>
+  r1. %55 finis
+}

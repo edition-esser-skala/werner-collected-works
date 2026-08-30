@@ -273,3 +273,124 @@ B-IXCredoViolinoII = {
     cis r r2\fermata \bar "|." %143 finis
   }
 }
+
+B-IXSanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/2 \tempoB-IXSanctus
+    R1.*3
+    a'2\fE a, a'~
+    a4 gis e fis gis ais %5
+    h2. a4 fis gis
+    a2 r r
+    R1.
+    r2 r g~
+    g4 fis d e fis gis %10
+    a2. gis4 e fis
+    gis ais h a8 gis fis4 gis8 ais
+    h1 ais2
+    h h2. a4
+    gis fis e2 a~ %15
+    a4 g fis2 gis
+    a fis2. fis4
+    e2. e4 cis2
+    fis e2. e4 \noBreak
+    e1.\fermata \bar "||" %20
+    \key d \major \time 4/4 \tempoB-IXPleni \newSpacingSection
+      R1*14 \noBreak %34
+    R1\fermata \bar "||" %35
+    \key a \major \tempoB-IXOsanna R1 \noBreak
+    r2 a,4\fE a'~
+    a8 gis e e fis e16 fis gis8 fis16 gis
+    a8 gis16 a fis8 e16 fis gis8 fis16 gis e8 dis16 e
+    fis8 e16 fis dis8 cis16 dis e8 gis4 gis8 %40
+    fis8. e16 dis8 cis16 dis e8 fis~ fis16 e fis8
+    h,4 a8 a' a gis16 fis gis4
+    a, a'4. gis8 e e
+    fis e16 fis gis8 fis16 gis a8 e cis a
+    e'4 e r2 %45
+    r4 fis8 fis gis8 fis16 gis a8 gis16 a
+    h8 a16 h gis8 fis16 gis a8 gis16 a fis8 e16 fis
+    gis4 r e4. e8
+    e e4 e8 e2
+    e r\fermata \bar "|." %50 finis
+  }
+}
+
+B-IXBenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \mixolydian \time 4/4 \tempoB-IXBenedictus
+    gis'16.\fE h32 e16. gis32 h16. fis32 dis16. h32 \tuplet 3/2 8 { gis16 fis e } e8 h'( his)
+    his( cis) cis64( h ais16.) gis64( fis e16.) dis a''32 a8\trill r16 a, a8\trillE
+    gis64( a h16.) cis64( h a16.) e fis32 fis8\trill e4 r
+    r8 e\p \tuplet 3/2 8 { gis16 fis e } e8 r2
+    r8 h' \tuplet 3/2 8 { dis16 cis h } h8 r e16( cis) ais8.\trill ais16 %5
+    h( cis) dis( e) \sbOn fis( gis) \tuplet 3/2 8 { ais( gis fis) } \sbOff h16. h,32 h8 r4
+    dis,16.\f fis32 h16. dis32 fis16. cis32 ais16. fis32 \tuplet 3/2 8 { dis'16 cis h } h8 r4
+    gis16. h32 e16. gis32 h16. fis32 dis16. h32 \tuplet 3/2 8 { gis16 fis e } e8 r gis'\p
+    \tuplet 3/2 8 { cis,16 h a } a8 r a' \tuplet 3/2 8 { dis,16 cis h } h8 r4
+    r2 r16 e\f dis cis h( fis) gis( a) %10
+    \sbOn gis64( fis e16.) cis fis32 \sbOff \appoggiatura e8 dis8.\trillE fis16 fis( e) h gis' gis( fis) h, a'
+    \sbOn \tuplet 3/2 8 { gis a h } cis( e,) \sbOff \appoggiatura e8 dis8.\trill e16 e4 r\fermata \markOsannaUtSupra \bar "||" %12 finis
+  }
+}
+
+B-IXAgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoB-IXAgnus
+    r8 a'\fE cis cis cis( h) a a
+    a( gis) gis cis a a h cis
+    h4 his8 his cis4 d
+    cis8 cis h h h4 ais
+    his8 his cis cis dis4 cis~ %5
+    cis his cis e8 d
+    cis4 r8 h\pE e,8. e16 a8 fis~
+    fis fis h, h r a'4 gis8
+    g g g g fis h gis fis
+    e-! r h'-! r dis-! r h-! r %10
+    h fis gis e fis fis fis fis
+    gis4 r cis4.\fE cis8
+    d d4 cis8 d d4 d8
+    d d cis4 h8 h h h
+    r h h h dis4 cis8 cis %15
+    cis ais' fis d h gis' e cis \noBreak
+    a4. a8 gis2\fermata \bar "||"
+    \time 3/2 \tempoB-IXDona \newSpacingSection
+      R1.*5 %22
+    a2. e4 fis cis
+    d2.\trill cis8 d e4 d8 e
+    cis4 a gis'2 e %25
+    fis4 cis dis2.\trill cis8 dis
+    e4 cis a a' fis e8 fis
+    dis4 cis8 dis h4 h' gis fis8 gis
+    e4 dis8 e cis2 dis
+    e2. dis8 cis dis2 %30
+    e4 e2 dis4 e2~
+    e4 a fis2. fis4
+    h,2 r r
+    R1.
+    r4 e fis2.\trillE e8 fis %35
+    d!2.\trillE cis8 d e4 d8 e
+    cis4 a e' e cis e
+    fis2.\trill e8 fis h,4 e~
+    e cis r a' h a8 h
+    gis2 r4 g a g8 a %40
+    fis2 r r
+    r r r4 fis
+    g fis8 e d2 cis
+    dis2. dis4 h' h
+    gis2 fis1 %45
+    gis2 r r4 cis,
+    fis e8 fis dis4 h2 e4~
+    e cis a2 r4 a'
+    h2.\trill a8 h e,4 gis
+    a2.\trill gis8 a h2 %50
+    a1 gis2
+    a4 cis a d h e~
+    e8 d e4 e,2 r4 e'
+    cis d h1\trill
+    cis1 r2\fermata \bar "|." %55 finis
+  }
+}

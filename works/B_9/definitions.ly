@@ -19,6 +19,12 @@ tempoB-IXCredo = \tempoMarkup "[Molto] andante"
   tempoB-IXEtResurrexit = \tempoMarkup "Allegro" %180
   tempoB-IXEtUnam = \tempoMarkup "Andante" %75
   tempoB-IXEtVitam = \tempoMarkup "Vivace" %105
+tempoB-IXSanctus = \tempoMarkup "Andante"
+  tempoB-IXPleni = \tempoMarkup "Ariose / Largo"
+  tempoB-IXOsanna = \tempoTitleMarkup "Osanna" "Presto"
+tempoB-IXBenedictus = \tempoMarkup "Larghetto"
+tempoB-IXAgnus = \tempoMarkup "Largo"
+  tempoB-IXDona = \tempoMarkup "Allegro"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

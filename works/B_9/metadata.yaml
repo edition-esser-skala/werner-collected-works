@@ -1,9 +1,8 @@
 title: Missa Sanctæ Theclæ
 id: WerW B.9
-genre:
-festival:
+genre: mass
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org solo
-ark: 68748/e1gjw
+ark: 68748/e1gjwb9
 license: cc-by-sa-4.0
 sources:
   A1:
@@ -35,3 +34,11 @@ toe: |
     & 126  & vl 2 & 3rd \quarterNote\ in \A1: b′8–\sharp g′16–a′16 \\
     & 132  & vl 2 & rhythm of 2nd \quarterNote\ in \A1: 8–16–16 \\
     & 137  & vl 2 & rhythm of 3rd \quarterNote\ in \A1: 8–16–16 \\
+  4 & 21   & –    & tempo indication in org and vlne part of \A1:
+                    “Largo”;\newline in S and vl 1 part: “Ariose” \\
+    & 32   & vlne & 6th \eighthNote\ in \A1: a8 \\
+    & 41   & S    & 2nd \quarterNote\ in \A1: e′4 \\
+    & 50   & org  & bar in \A1: A1 \\
+  6 & 3    & A    & 1st \quarterNote\ in \A1: \sharp g′4 \\
+    & 6    & B    & 1st to 3rd \quarterNote\ in \A1: \sharp f2–B4 \\
+    & 49   & T    & rhythm of 3rd \halfNote\ in \A1: 8–8–4 \\

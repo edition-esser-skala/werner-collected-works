@@ -444,3 +444,195 @@ B-IXCredoBassoLyrics = \lyricmode {
   _ _ men, a --
   men. %143 finis
 }
+
+B-IXSanctusBasso = {
+  \relative c {
+    \clef bass
+    \key a \major \time 3/2 \autoBeamOff \tempoB-IXSanctus
+    \mvTr a'2\fE^\tutti a, a'~
+    a4 gis e fis gis a
+    h2. a4 fis gis
+    a2 fis1
+    e2 r r %5
+    R1.
+    a2 a, a'~
+    a4 gis e fis g2
+    fis e1\trill
+    d2 r r %10
+    R1.*3
+    h'2. a!4 gis fis
+    e2 a2. g?4 %15
+    fis e d2 e
+    a d,2. d4
+    e2 cis( fis)
+    d e2. e4 \noBreak
+    a,1.\fermata \bar "||" %20
+    \key d \major \time 4/4 \tempoB-IXPleni \newSpacingSection
+      R1*14 \noBreak %34
+    R1\fermata \bar "||" %35
+    \key a \major \tempoB-IXOsanna
+      \mvTr a4\fE^\tutti a'4. gis8 e e \noBreak
+    fis([ e16 fis] gis8[ fis16 gis] a4 fis)
+    e r r2
+    R1*2 %40
+    h4 h'4. ais8 fis fis
+    gis[ fis16 gis] a8[ fis] e2
+    fis e4 r
+    r2 a,4 a'~
+    a8 gis e e fis([ e16 fis] gis8[ fis16 gis)] %45
+    a4 fis e2~
+    e1
+    e4 r a8([ e)] cis([ a)]
+    e' e cis a' e2
+    a, r\fermata \bar "|." %50 finis
+  }
+}
+
+B-IXSanctusBassoLyrics = \lyricmode {
+  San -- ctus, san --
+  _ _ _ _ _
+  _ _ _ _
+  ctus, san --
+  ctus, %5
+
+  san -- ctus, san --
+  _ _ _ _
+  ctus, san --
+  ctus %10
+
+  san -- ctus Do -- mi -- %14
+  nus, san -- ctus %15
+  Do -- mi -- nus De --
+  us Sa -- ba --
+  oth, De --
+  us Sa -- ba --
+  oth. %20
+
+  O -- san -- na in ex -- %36
+  cel --
+  sis,
+
+  o -- san -- na in ex -- %41
+  cel -- _ _
+  _ sis,
+  o -- san --
+  na in ex -- cel -- %45
+  sis, o -- san --
+
+  na in ex --
+  cel -- sis, in ex -- cel --
+  sis. %50 finis
+}
+
+B-IXAgnusBasso = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \autoBeamOff \tempoB-IXAgnus
+    \mvTr a'4.\fE^\tutti a8 e4 fis8 fis
+    cis4 cis8 cis d d h([ a)]
+    e'4 r r h'8 h
+    a4 gis fis8 fis fis e
+    dis4 cis his cis %5
+    gis'2^\critnote cis,4 r
+    \mvTr a'\pE^\solo e cis8 a r a'
+    h,4 e8 e fis4 e
+    ais,2 h8 h([ cis)] dis
+    e([ fis)] gis([ a)] h fis gis e %10
+    h1
+    e4 r \mvTr a4.\fE^\tutti a8
+    d,!4 d8 fis h,4 h8 h'
+    gis gis a4 e r
+    r8 d d d his4 cis8 cis %15
+    fis4 h,8 h e4 a, \noBreak
+    dis2 e\fermata \bar "||"
+    \time 3/2 \tempoB-IXDona \newSpacingSection
+      a2. e4 fis cis \noBreak
+    d2.\trill cis8[ d] e4 d8[ e]
+    cis4 a gis'2 e %20
+    fis4 cis dis2.(\trill cis8[ dis)]
+    e2 d4 h cis gis
+    a( h cis2) d4( e)
+    fis h gis2.(\trill fis8[ gis)]
+    a2 r r %25
+    R1.*5 %30
+    e2. h4 cis gis'
+    a2.\trill gis8[ a] h4 a8[ h]
+    gis4 e r e fis2~\trillE
+    fis4 e8[ fis] dis2.\trill cis8[ dis]
+    e2 r r %35
+    R1.
+    a2. e4 fis cis
+    d2.\trill cis8[ d] e4 d8[ e]
+    cis4 a r2 r
+    R1. %40
+    r2 r4 g' a g8[ a]
+    fis2 r4 fis g d
+    e g fis( e fis2)
+    h, h'( gis)
+    e h1 %45
+    e2 r4 e fis e8[ fis]
+    dis2 r4 d e d8[ e]
+    cis2 r4 a' h fis
+    gis2.\trill fis8[ gis] a4 e
+    fis2.\trill e8[ fis] gis4 fis8[ gis] %50
+    a4 d, e1
+    a,2 d e
+    cis gis' a4 e
+    fis d e1
+    a, r2\fermata \bar "|." %55 finis
+  }
+}
+
+B-IXAgnusBassoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta mun --
+  di: Mi -- se --
+  re -- re, mi -- se -- re -- re,
+  mi -- se -- re -- re %5
+  no -- bis.
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: Mi -- se --
+  re -- re, mi -- se -- re -- re %10
+  no --
+  bis. A -- gnus
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun -- di,
+  pec -- ca -- ta mun -- di, pec -- %15
+  ca -- ta, pec -- ca -- ta
+  mun -- di:
+  Do -- na no -- bis
+  pa -- _ _ _
+  _ cem, no -- bis %20
+  pa -- cem, pa --
+  cem, do -- na no -- bis
+  pa -- cem,
+  no -- bis pa --
+  cem, %25
+
+  do -- na no -- bis %31
+  pa -- _ _ _
+  _ cem, pa -- _
+  _ _ _
+  cem, %35
+
+  do -- na no -- bis
+  pa -- _ _ _
+  _ cem,
+  %40
+  pa -- _ _
+  _ _ _ _
+  _ cem, pa --
+  cem, pa --
+  cem, pa -- %45
+  cem, pa -- _ _
+  _ _ _ _
+  cem, pa -- _ _
+  _ _ _ _
+  _ _ _ _ %50
+  _ cem, pa --
+  cem, do -- na
+  no -- bis, do -- na
+  no -- bis pa --
+  cem. %55 finis
+}
