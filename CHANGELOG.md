@@ -1,6 +1,18 @@
 # Changelog
 
-## 2026.07.0 – 2026-06-28
+## 2026.08.0 – 2026-08-30
+
+### Added
+
+- works: WerW A.11 and B.3/9
+
+### Fixed
+
+- WerW A.11: subtitle
+- WerW A.12: ob part
+
+
+## 2026.07.0 – 2026-08-01
 
 ### Added
 
