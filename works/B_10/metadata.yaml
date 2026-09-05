@@ -1,0 +1,26 @@
+title: Missa Vox clamantis
+id: WerW B.10
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwb10
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.23
+    rism: 530001933
+    url: https://copia.oszk.hu/kotta/missa-vox-clamantis-a-7-parti/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: A 94
+    rism: 600037892
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/744.html
+    license: public domain
+tocstyle: default
+toe: |
+  1 & 8  & S    & rhythm of 2nd \quarterNote\ in \A1: 8–16–16 \\
+    & 9  & vl 2 & 1st to 3rd \quarterNote\ in \A1 and \B1: a′4. \\
+  2 & 28 & A    & 1st/2nd \quarterNote\ in \A1 and \B1: b4–\crotchetRest \\
+  69 org ???
