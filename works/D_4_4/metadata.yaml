@@ -1,4 +1,4 @@
-title: Rorate cœli desuper
+title: Rorate cœli
 id: WerW D.4.4
 genre: introit
 scoring: S, A, T, B (coro), 2 vla, b, org
@@ -14,7 +14,7 @@ sources:
     principal: true
   B1:
     siglum: A-Wps
-    shelfmark: 126/1
+    shelfmark: 126:1
     rism: 600258652
     license: public domain
 lyrics:

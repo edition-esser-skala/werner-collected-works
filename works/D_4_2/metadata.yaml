@@ -1,4 +1,4 @@
-title: Rorate cœli desuper
+title: Rorate cœli
 id: WerW D.4.2
 genre: introit
 scoring: S, A, T, B (coro), 2 vla, b, org
@@ -7,9 +7,10 @@ license: cc-by-sa-4.0
 sources:
   A1:
     siglum: H-Bn
-    shelfmark: Ms.mus III.62 (2)
+    shelfmark: Ms.mus III.62:2
     date: 1746
     rism: 530005547
+    url: https://copia.oszk.hu/kotta/2-rorate-caeli-f-dur/
     license: public domain
     principal: true
 lyrics:

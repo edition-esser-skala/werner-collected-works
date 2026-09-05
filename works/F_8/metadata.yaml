@@ -15,8 +15,8 @@ sources:
     principal: true
   B2:
     siglum: A-Wn
-    shelfmark: Mus.Hs.23434 (11)
-    url: https://data.onb.ac.at/rec/AC14272301
+    shelfmark: Mus.Hs.23434:11
+    rism: 600116130
     license: public domain
 lyrics:
   Ave maris stella,\\

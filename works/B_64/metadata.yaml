@@ -14,12 +14,13 @@ sources:
   B2:
     siglum: A-WIL
     shelfmark: 1143
-    date: 1750–1820
+    rism: 600077662
     license: public domain
   B3:
     siglum: A-SEI
     shelfmark: E VIII 3 e
     date: 1741
+    rism: 1001376572
     license: public domain
 tocstyle: default
 toe: |

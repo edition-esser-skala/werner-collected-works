@@ -1,7 +1,7 @@
 title: 3 Resonsoria in Sabbato Sancto
 subtitle: Sicut ovis · Ierusalem surge · Plange quasi virgo
 id: WerW D.3.6
-genre: responsory
+genre: responsorium
 festival: Sabbatum Sanctum
 scoring: S, A, T, B (coro), b, org
 ark: 68748/e1gjwd36
@@ -9,7 +9,7 @@ license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
-    shelfmark: G 97
+    shelfmark: G 97 (F 7)
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/368.html
     license: public domain
     principal: true

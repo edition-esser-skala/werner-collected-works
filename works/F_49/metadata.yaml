@@ -8,14 +8,14 @@ license: cc-by-sa-4.0
 sources:
   A1:
     siglum: H-Bn
-    shelfmark: Ms.mus III.210 (19)
+    shelfmark: Ms.mus III.210:19
     rism: 530004310
     url: https://copia.oszk.hu/kotta/hymni-de-b-virgine-de-apostolis-et-aliis-festis-1mae-classis/
     license: public domain
     principal: true
   B1:
     siglum: A-KN
-    shelfmark: 130 (45)
+    shelfmark: 130:45
     rism: 601001044
     license: public domain
 lyrics:

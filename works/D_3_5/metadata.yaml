@@ -1,6 +1,6 @@
 title: Libera me
 id: WerW D.3.5
-genre: responsory
+genre: responsorium
 festival: Officium Defunctorum
 scoring: S, A, T, B (coro), 2 vla, b, org
 ark: 68748/e1gjwd35
@@ -8,7 +8,7 @@ license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
-    shelfmark: G 13 (1)
+    shelfmark: G 13:1 (D 13)
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/899.html
     license: public domain
     principal: true

@@ -5,14 +5,14 @@ scoring: S, A (solo), 2 vl, b, org
 ark: 68748/e1gjwi18
 license: cc-by-sa-4.0
 sources:
-  B1:
+  A1:
     siglum: H-Bn
     shelfmark: Ms.mus III.167
     rism: 530002060
     url: https://copia.oszk.hu/kotta/alma-redempt-in-c/
     license: public domain
     principal: true
-  B2:
+  B1:
     siglum: A-Ed
     shelfmark: H 13a
     rism: 600038482

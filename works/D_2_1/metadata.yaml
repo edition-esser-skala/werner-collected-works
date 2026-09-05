@@ -1,6 +1,6 @@
 title: In ecclesia Franciscus
 id: WerW D.2.1
-genre: offertory
+genre: offertorium
 festival: pro festo Portiunculæ
 scoring: A (solo), S, A, T, B (coro), 2 vl, b, org
 ark: 68748/e1gjwd21
@@ -8,9 +8,10 @@ license: cc-by-sa-4.0
 sources:
   B1:
     siglum: H-Bn
-    shelfmark: Ms.mus.III.58
+    shelfmark: Ms.mus III.58
     date: ca. 1780
     rism: 530001966
+    url: https://copia.oszk.hu/kotta/offertorium-pro-festo-protiunculae/
     license: public domain
     principal: true
 lyrics:

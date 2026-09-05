@@ -1,9 +1,9 @@
 composer:
   last: Novotný
   first: Franz Nikolaus
-title: 4 Responsoria
+title: 4 Responsoria pro Festo SS. Corporis Christi
 id: WerW D.3.S1
-genre: responsory
+genre: responsorium
 festival: Corpus Christi
 scoring: S, A, T, B (coro), 2 vl, b, org
 ark: 68748/e1gjwd3s1
@@ -11,7 +11,7 @@ license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
-    shelfmark: F 32
+    shelfmark: F 32 (F 23)
     rism: 600038318
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/968.html
     license: public domain

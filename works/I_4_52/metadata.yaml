@@ -9,16 +9,14 @@ sources:
     siglum: D-Dl
     shelfmark: Mus.2462-E-1
     rism: 1001054545
+    date: 1729-12-13
     url: https://digital.slub-dresden.de/id51457190X
     license: public domain
     principal: true
-    notes: authentic copy by Johann Georg Thonner, dated 1729-12-13
   B2:
     siglum: A-Wn
     shelfmark: SA.67.H.42
-    url: https://data.onb.ac.at/rec/AC14299748
     license: public domain
-    notes: copied by Raphael Kiesewetter, probably from \B1
 toe: |
   60  & org      & 5th \eighthNote\ in \B1 and \B2: a8 \\
   110 & vla 1, A & 3rd \quarterNote\ in \B1: f′4 \\

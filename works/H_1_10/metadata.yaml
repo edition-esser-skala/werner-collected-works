@@ -1,7 +1,7 @@
 title: Vesperæ de Dominica
 subtitle: Dixit Dominus · Confitebor · Beatus vir · Laudate pueri ·\\Laudate Dominum · In exitu Israel · Magnificat · Beati omnes
 id: WerW H.1.10
-genre: vesper
+genre: vespers
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b, org
 ark: 68748/e1gjwh110
 license: cc-by-sa-4.0
@@ -15,7 +15,7 @@ sources:
     principal: true
   B1:
     siglum: H-Bn
-    shelfmark: Ms.mus III.262 (2)
+    shelfmark: Ms.mus III.262:2
     rism: 530003594
     url: https://copia.oszk.hu/kotta/psalmi-de-vener/
     license: public domain

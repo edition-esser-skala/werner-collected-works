@@ -5,13 +5,13 @@ scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (C), timp (C–G), 2 vl, b
 ark: 68748/e1gjwb1
 license: cc-by-sa-4.0
 sources:
-  A1:
+  B1:
     siglum: A-HE
-    shelfmark: VIII a 6
+    shelfmark: VIII a 6:2
     rism: 600090689
     license: public domain
     principal: true
-  B1:
+  B2:
     siglum: A-Ed
     shelfmark: A 74
     url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/725.html
@@ -19,52 +19,52 @@ sources:
     notes: several pages missing in digitized version
 tocstyle: default
 toe: |
-  – & –    & –    & Minor differences between \A1 and \B1 occur in all parts.
+  – & –    & –    & Minor differences between \B1 and \B2 occur in all parts.
                     Notably, the timp parts of the two sources differ to a
-                    greater extent, and the part of \A1 is more virtuosic.
+                    greater extent, and the part of \B1 is more virtuosic.
                     Here, none of these differences are annotated. \\
-    & –    & –    & In \A1 and \B1, punctuated rhythms involving a
+    & –    & –    & In \B1 and \B2, punctuated rhythms involving a
                     \sixteenthNoteDotted\ typically comprise \thirtysecondNote,
                     i.e., 16.–32–32 or 32–32–16. Here, these rhythms are
                     reproduced as 16.–64–64 and 64–64–16., respectively. \\
-    & –    & org  & The title page of \A1 contains the note “NB In defectu
+    & –    & org  & The title page of \B1 contains the note “NB In defectu
                     Clarinorum Organum Clarinum concertantem supplet”.
-                    Accordingly, the org part of \A1 also contains the solo
+                    Accordingly, the org part of \B1 also contains the solo
                     parts of clno 1 in the \textit{Quoniam} and
                     \textit{Pleni sunt cœli}. Here, these organ solos are
                     reproduced in the org part as an appendix to the
                     respective movement. \\
-  1 & 9    & T    & 3rd \quarterNote\ in \B1: a4 \\
-    & 93   & vl 2 & 2nd \quarterNote\ in \A1: d′8–e′16–f′16 \\
-    & 98   & vl 2 & 1st \quarterNote\ in \A1 and \B1: a8–b16–c′16 \\
-    & 107  & vl 1 & 5th \eighthNote\ in \A1: a′8 \\
+  1 & 9    & T    & 3rd \quarterNote\ in \B2: a4 \\
+    & 93   & vl 2 & 2nd \quarterNote\ in \B1: d′8–e′16–f′16 \\
+    & 98   & vl 2 & 1st \quarterNote\ in \B1 and \B2: a8–b16–c′16 \\
+    & 107  & vl 1 & 5th \eighthNote\ in \B1: a′8 \\
   2 & 1    & –    & tempo indication in S, A, clno 1, timp, vl 1, and vl 2:
                     “Vivace”\newline (tempo indication missing in clno 2) \\
-    & 15   & B    & 1st \halfNote\ in \A1: \flat B8–\flat b8–a4 \\
-    & 55   & org  & 2nd \quarterNote\ of upper voice in \A1: e′4 \\
-    & 64   & B    & 1st \quarterNote\ in \A1 and \B1: G4 \\
-    & 87   & T    & 4th \eighthNote\ in \A1 and \B1: d′8 \\
-    & 96   & clno & rhythm of bar in \A1: \halfNoteDotted \\
-    & 119  & vl 2 & 5th \eighthNote\ in \A1 and \B1: d′8 \\
-    & 124  & S    & 9th \sixteenthNote\ in \A1 and \B1: a′16 \\
-    & 136  & timp & 4th \quarterNote\ in \A1: G8.–G32–A32–B32 \\
-  3 & 41   & vl 2 & 3rd to 5th \eighthNote\ in \A1: \quaverRest–e″4 \\
-    & 57   & B    & 2nd \halfNote\ in \A1 and \B1: e2 \\
-    & 68   & vl 1 & 2nd \eighthNote\ in \A1: a′8 \\
-    & 73   & vl 2 & 2nd to 4th \eighthNote\ in \A1: g′8–f′8–e′8 \\
-    & 89   & vl 2 & 4th \quarterNote\ in \A1: \sharp f′8–e′8 \\
-    & 98   & vl 2 & 2nd \quarterNote\ in \A1: d″4 \\
-    & 121  & vl 2 & 4th \quarterNote\ in \A1 and \B1: e′4 \\
-    & 129  & org  & 5th \quarterNote\ of upper voice in \A1: b4 \\
-    & 132  & vl 2 & 5th \quarterNote\ in \A1 and \B1: b4 \\
-    & 140  & B    & last \quarterNote\ in \A1: f4 \\
-  4 & 10   & clno 2 & 1st \quarterNote\ in \A1 and \B1: d″4 \\
-    & 48   & T    & 1st \halfNote\ in \A1 and \B1: c′2 \\
-    & 51   & vl 2 & 2nd \quarterNote\ in \A1: a′4:
+    & 15   & B    & 1st \halfNote\ in \B1: \flat B8–\flat b8–a4 \\
+    & 55   & org  & 2nd \quarterNote\ of upper voice in \B1: e′4 \\
+    & 64   & B    & 1st \quarterNote\ in \B1 and \B2: G4 \\
+    & 87   & T    & 4th \eighthNote\ in \B1 and \B2: d′8 \\
+    & 96   & clno & rhythm of bar in \B1: \halfNoteDotted \\
+    & 119  & vl 2 & 5th \eighthNote\ in \B1 and \B2: d′8 \\
+    & 124  & S    & 9th \sixteenthNote\ in \B1 and \B2: a′16 \\
+    & 136  & timp & 4th \quarterNote\ in \B1: G8.–G32–A32–B32 \\
+  3 & 41   & vl 2 & 3rd to 5th \eighthNote\ in \B1: \quaverRest–e″4 \\
+    & 57   & B    & 2nd \halfNote\ in \B1 and \B2: e2 \\
+    & 68   & vl 1 & 2nd \eighthNote\ in \B1: a′8 \\
+    & 73   & vl 2 & 2nd to 4th \eighthNote\ in \B1: g′8–f′8–e′8 \\
+    & 89   & vl 2 & 4th \quarterNote\ in \B1: \sharp f′8–e′8 \\
+    & 98   & vl 2 & 2nd \quarterNote\ in \B1: d″4 \\
+    & 121  & vl 2 & 4th \quarterNote\ in \B1 and \B2: e′4 \\
+    & 129  & org  & 5th \quarterNote\ of upper voice in \B1: b4 \\
+    & 132  & vl 2 & 5th \quarterNote\ in \B1 and \B2: b4 \\
+    & 140  & B    & last \quarterNote\ in \B1: f4 \\
+  4 & 10   & clno 2 & 1st \quarterNote\ in \B1 and \B2: d″4 \\
+    & 48   & T    & 1st \halfNote\ in \B1 and \B2: c′2 \\
+    & 51   & vl 2 & 2nd \quarterNote\ in \B1: a′4:
                     4th \quarterNote: a′4 \\
-  6 & 3    & A    & 1st to 3rd \quarterNote\ in \A1: f′2–e′4 \\
-    & 7    & S    & 4th \eighthNote\ in \A1 and \B1: g′8 \\
-    & 27   & B    & 2nd \eighthNote\ in \A1: b8 \\
-    & 44   & T    & 1st \quarterNote\ in \A1 and \B1: c′8–d′16–e′16 \\
+  6 & 3    & A    & 1st to 3rd \quarterNote\ in \B1: f′2–e′4 \\
+    & 7    & S    & 4th \eighthNote\ in \B1 and \B2: g′8 \\
+    & 27   & B    & 2nd \eighthNote\ in \B1: b8 \\
+    & 44   & T    & 1st \quarterNote\ in \B1 and \B2: c′8–d′16–e′16 \\
 parts:
   ottoni: Clarino I, II in C\\Timpani in C–G

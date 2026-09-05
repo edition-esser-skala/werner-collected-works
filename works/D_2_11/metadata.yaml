@@ -1,6 +1,6 @@
 title: Lauda Sion
 id: WerW D.2.11
-genre: offertory
+genre: offertorium
 festival: de SS. Sacramento Eucharistia
 scoring: B (solo), 2 vl, vla, b, org
 ark: 68748/e1gjwd211
@@ -8,7 +8,7 @@ license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Gdab
-    shelfmark: Bad Aussee, Ms 140
+    shelfmark: Bad Aussee Ms 140
     url: https://archiv.graz-seckau.at/actaproweb/document/Vz_2a779980-39f9-4523-ae47-261f04eca469
     license: public domain
     principal: true

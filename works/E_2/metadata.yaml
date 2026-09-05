@@ -5,10 +5,11 @@ scoring: A, T (solo), 2 vl, b, org
 ark: 68748/e1gjwe2
 license: cc-by-sa-4.0
 sources:
-  B1:
+  A1:
     siglum: H-Bn
     shelfmark: Ms.mus III.250
     rism: 530003588
+    url: https://copia.oszk.hu/kotta/advent-lied-3/
     license: public domain
     principal: true
 toe: |
