@@ -7,11 +7,60 @@
 
 \book {
   \bookpart {
-    \section "B-XKyrie" ""
+    \section "1" "Kyrie"
     \addTocEntry
+    \paper { system-count = #5 }
     \score {
       <<
         \new Staff { \B-XKyrieViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "2" "Gloria"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-XGloriaViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Credo"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \B-XCredoViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Sanctus"
+    \addTocEntry
+    \paper { system-count = #5 }
+    \score {
+      <<
+        \new Staff { \B-XSanctusViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Benedictus"
+    \addTocEntry
+    \paper { system-count = #5 }
+    \score {
+      <<
+        \new Staff { \B-XBenedictusViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Agnus Dei"
+    \addTocEntry
+    \paper { system-count = #7 }
+    \score {
+      <<
+        \new Staff { \B-XAgnusViolinoII }
       >>
     }
   }

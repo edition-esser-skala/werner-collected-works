@@ -9,6 +9,14 @@
 
 tempoB-XKyrie = \tempoMarkup "Vivace"
 tempoB-XGloria = \tempoMarkup "Vivace"
+tempoB-XCredo = \tempoMarkup "Vivace"
+  tempoB-XEtIncarnatus = \tempoMarkup "Adagio"
+  tempoB-XEtResurrexit = \tempoMarkup "Vivace"
+tempoB-XSanctus = \tempoMarkup "Vivace"
+tempoB-XBenedictus = \tempoMarkup "Larghetto"
+  tempoB-XOsanna = \tempoMarkup "Vivace"
+tempoB-XAgnus = \tempoMarkup "Largo"
+  tempoB-XDona = \tempoMarkup "Vivace"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

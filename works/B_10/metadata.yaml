@@ -23,4 +23,7 @@ toe: |
   1 & 8  & S    & rhythm of 2nd \quarterNote\ in \A1: 8–16–16 \\
     & 9  & vl 2 & 1st to 3rd \quarterNote\ in \A1 and \B1: a′4. \\
   2 & 28 & A    & 1st/2nd \quarterNote\ in \A1 and \B1: b4–\crotchetRest \\
-  69 org ???
+  4 & 33 & A    & last \eighthNote\ in \A1 and \B1: \sharp f′8 \\
+    & 35 & org  & bar in \A1 and \B1: d2. \\
+  5 & 26 & org  & bar in \A1 and \B1: d2. \\
+  6 & 1  & vl 2 & 2nd/3rd \quarterNote\ in \A1 and \B1: b′2 \\
