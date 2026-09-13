@@ -1,0 +1,32 @@
+title: Missa Antiquo moderna
+id: WerW B.55
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwb55
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-HE
+    shelfmark: VIII a 6:5
+    date: 1756
+    rism: 600090680
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 35 & org, vlne & 4th \quarterNote\ in \B1: f4 \\
+  2 & 6  & vl 2 & rhythm of 2nd/3rd \quarterNote\ in \B1: 2× 16–16–8 \\
+    & 18 & S    & rhythm of 1st \quarterNote\ in \B1: 8–16–16 \\
+    & 21 & vl 2 & 1st \quarterNote\ in \B1: d″16–g′16–g″8 \\
+    & 37 & vl 2 & 7th \eighthNote\ in \B1: d″8 \\
+    & 70 & vl 2 & 4th \eighthNote\ in \B1: f′8 \\
+    & 77 & vl 2 & 5th to 7th \eighthNote\ in \B1: d′4. \\
+  3 & 3  & vl 2 & 5th \quarterNote\ in \B1: d′4 \\
+    & 27 & B    & 3rd \eighthNote\ in \B1: d8 \\
+    & 29 & org, vlne & tempo indication in \B1: “Largo” \\
+    & 36 & vl 2 & 2nd to 4th \sixteenthNote\ in \B1: c′8–c′16 \\
+    & 40 & vl 2 & 4th \eighthNote\ in \B1: c′32–e′16. \\
+    & 48 & B    & 4th \eighthNote\ in \B1: e8 \\
+    & 51 & T    & last \eighthNote\ in \B1: d′8 \\
+    & 53 & A    & 6th \eighthNote\ in \B1: f′8 \\
+    & 77 & vl 1 & 5th \eighthNote\ in \B1: e″8 \\
