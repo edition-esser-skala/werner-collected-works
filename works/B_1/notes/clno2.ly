@@ -36,7 +36,7 @@ B-IKyrieClarinoII = {
     r8 g,\fE c4.\trill h16 c d4~\trill
     d8 c16 d e8 c r c d16 c d8
     g, e'4 c16 d e8 d16 c d8 d
-    d c16 h c8 c d4.\trill c16 d %90
+    d c16 h c4 d4.\trill c16 d %90
     e8 d16 e f4. e16 d e4\trill
     f r r2
     R1*2
@@ -45,7 +45,7 @@ B-IKyrieClarinoII = {
     f16 g a f d8.\trill e32 f g16 a h g e f g e
     f g f e d4\trill c r
     r c8 c d4.\trill c16 d
-    e8 d16 c g'4. fis16 e \hA fis4 %100
+    e8 d16 c g'4. fis16 e fis4 %100
     g c,4.\trill h16 c d4~\trill
     d8 c16 d e8 c r4 r8 d
     d8.\trill c32 d e8 e e8.\trill d32 e f8 e
@@ -66,7 +66,7 @@ B-IGloriaClarinoII = {
     e4 r8 e c8. c16 c4
     r8 fis4 d8 d8. d16 d4
     r8 e4 e8 e4. c8 %5
-    f2 e
+    f!2 e
     d c4 r
     d8 e e d d4 r
     R1*42 \noBreak %50
@@ -93,8 +93,8 @@ B-IGloriaClarinoII = {
       r2 r8 c'\fE e f
     e c e f e c r c
     d8. d16 c8 d e d c8. c16 %125
-    e8 c g d' c16 h c4 c8~
-    c d16 e f8 e d c c4\trill
+    d8 c g d' c16 h c4.~
+    c8 d16 e f8 e d c c4\trill
     c r r2
     R1*3 %131
     r2 r8 c e f

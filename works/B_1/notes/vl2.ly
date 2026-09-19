@@ -8,7 +8,7 @@ B-IKyrieViolinoII = {
     g32( a h a) g8 r \tuplet 3/2 8 { d,16 c d g f g h a h }
     c32( d e d) c8 r \tuplet 3/2 8 { g16 f g c h c e d e }
     f32( g a g) f8 r \tuplet 3/2 8 { a,16 g a c h c f e f }
-    cis32( d e d) \hA cis8 r \tuplet 3/2 8 { e,16 d e a g a cis h \hA cis } %5
+    cis32( d e d) cis8 r \tuplet 3/2 8 { e,16 d e a g a cis h cis } %5
     d32( e f e) d8 d32( e f e) d8 d32( e f e) d8
     h32( c d c) h8 r \tuplet 3/2 8 { d,16 c d g f g h a h }
     c!32( d e d) c8 c32( d e d) c8 c32( d e d) c8
@@ -17,7 +17,7 @@ B-IKyrieViolinoII = {
     c4 r r \sbOff
     r8 h16\p a h8 d g h
     e, c r4 r
-    r8 gis16 fis \hA gis8 h e gis
+    r8 gis16 fis gis8 h e gis
     a a, r4 r %15
     r8 f!16 e f8 a d f
     h,16 c d8 r4 r
@@ -29,25 +29,25 @@ B-IKyrieViolinoII = {
     g,32(\fE a h a) g8 g32( a h a) g8 g32( a h a) g8
     g a h \tuplet 3/2 8 { c16 h a } g8 \tuplet 3/2 8 { a16 g fis }
     g4 r r %25
-    r8 fis16\pE e \hA fis8 a d fis
+    r8 fis16\pE e fis8 a d fis
     h, g r4 r
-    r8 dis16 cis \hA dis8 fis h dis
+    r8 dis16 cis dis8 fis h dis
     e e, r4 r
     r8 c!16 h c8 e a c %30
     fis,8 d! r4 r
     r8 h'16 a h8 d c h
-    a4 r r8 h~
+    a4 r r8 h
     h g e4 r
     r r8 e16 d e8 a %35
     f! d r4 r
     r r8 d16 c d8 g
     e c r4 r
     r8 c' d, c' g, h'
-    c,\fE c'~ \sbOn \tuplet 3/2 8 { c16 h c g f g c h c e d e } %40
+    c,\fE c' \sbOn \tuplet 3/2 8 { c16 h c g f g c h c e d e } %40
     g32( a h a) g8 r \tuplet 3/2 8 { d,16 c d g f g h a h }
     c32( d e d) c8 r \tuplet 3/2 8 { g16 f g c h c e d e }
     f32( g a g) f8 r \tuplet 3/2 8 { a,16 g a c h c f e f }
-    cis32( d e d) \hA cis8 r \tuplet 3/2 8 { e,16 d e a g a cis h \hA cis }
+    cis32( d e d) cis8 r \tuplet 3/2 8 { e,16 d e a g a cis h cis }
     d32( e f e) d8 d32( e f e) d8 d32( e f e) d8 %45
     h32( c d c) h8 r \tuplet 3/2 8 { d,16 c d g f g h a h }
     c!32( d e d) c8 c32( d e d) c8 c32( d e d) c8
@@ -56,12 +56,12 @@ B-IKyrieViolinoII = {
     c4. c8 h4 \noBreak %50
     c2 r4\fermata \bar "||"
     \key a \minor \time 4/4 \tempoB-IChriste \newSpacingSection
-      r8 e,\fE \tuplet 3/2 8 { \sbOn e16 fis gis gis a h \sbOff } c8 a r e16 g? \noBreak
+      r8 e,\f \tuplet 3/2 8 { \sbOn e16 fis gis gis a h \sbOff } c8 a r e16 g? \noBreak
     a8. f16 d8. e32 f g8. e16 c8. d32 e
     f8. d16 h8. c32 d e8 c16 a e'16( gis) gis( h)
     e,8. h'16 a8 g f e d c %55
-    h4 r8 gis' a64( h c16.) f,64[( e d16.]) c64 h a16. h8\trill
-    a4 r r r8 c'~\pE
+    h4 r8 gis' a64( h c16.) f,64[( e d16.]) \once \slurDashed c64( h a16.) h8\trill
+    a4 r r r8 c'\pE
     c16 a' g! f e f, e d e4 r
     r8 d'16 a h8 g r c16 g a8 f
     r h16 fis gis8 e r a16 e f8 d %60
@@ -69,9 +69,9 @@ B-IKyrieViolinoII = {
     r r8 a,\pE h8. a32 g fis4
     e r8 h'16\f d! e8. c16 a8.\trill h32 c
     d8. h16 g8. a32 h c8. a16 fis8. g32 a
-    h16 g h8~ h16( dis) dis( fis) h,8. fis'16 e8 d? %65
+    h16 g h8 h16( dis) dis( fis) h,8. fis'16 e8 d? %65
     c h a g fis4 r8 fis'
-    g64 fis e16. c64[ h a16.] g64 fis e16. \hA fis8\trill e4 r
+    \slurDashed g64( fis e16.) c64[( h a16.]) g64( fis e16.) \slurSolid fis8\trill e4 r
     r8 h' a h e,4 r
     r2 a8.\trill\pE h32 c d8 h
     g8.\trill a32 h c8 a f h4 gis16 h %70
@@ -84,25 +84,25 @@ B-IKyrieViolinoII = {
     c4.\fE c8 d4.\trill c16 d
     e4. d16 e f g a f d e f d
     e f g e c d e c f g f e d4\trill
-    c8 c16 d e fis g4 fis16 e \hA fis4\trill
+    c8 c16 d e fis \once \tieDashed g8~ g fis16 e fis4\trill
     g8 g16 fis e d c h a8 a' fis16 g e fis %85
     g8 g, h16 c d h e fis g4 f8~
     f e16 d e8 e f4.\trill e16 f
     g4. f16 g a8 f4 d16 f
-    g8 e4 c16 d e4 d~
+    g8 e4 c16 d e4 d
     d c8 c d4.\trill c16 d %90
     e8 d16 e f4. e16 d e4\trill
     f8 c f e16 f d8.\trill c32 d e16 f g e
-    c8 f d16-\critnote e f8 g c, c4
+    c8 f d16 e f8 g c, c4
     a8 d4 d8 g,4 r
     r2 r4 r8 \once \tieDashed c~ %95
     c c d8.\trill c32 d e16 f g e c h a c
     f g a f d c h d g a h g e d c h
-    a-\critnote h c8 d g~ g fis16 e \hA fis4\trill
+    a-\critnote h c8 d \once \tieDashed g~ g fis16 e fis4\trill
     g r8 c, d4.\trill c16 d
-    e8 d16 c d g, g'8~ g fis16 e \hA fis4\trill %100
+    e8 d16 c d g, g'8~ g fis16 e fis4\trill %100
     g e8 e f4.\trill e16 f
-    g4.\trill f16 g a4. f8
+    g4.\trillE f16 g a4. f8
     d4 r8 g e8. c16 f8 e16 f
     d c h d e f g e c h a c d e f d
     h c d h g'8 g e a4 f8 %105
@@ -117,7 +117,7 @@ B-IGloriaViolinoII = {
     \clef treble
     \key c \major \time 4/4 \tempoB-IGloria
       \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
-    r2 g'16\fE h a h d8 g
+    r2 g'16\f h a h d8 g
     e g r4 g,,16 h a h d8 g
     e g c,4 r8 a'~ \sbOn a16 c c16.\trill h64 c
     d8 d, d4\trill r8 h'~ h16 d d16.\trill c64 d \sbOff
@@ -129,35 +129,35 @@ B-IGloriaViolinoII = {
     r8 g16\pE a h8 g fis d r fis %10
     \sbOn \tuplet 3/2 8 { g16\trill fis g h\trill a h c\trill h c e\trill d e } d8 g, r4
     r8 c, c c h a gis4
-    \tuplet 3/2 8 { a16 gis a c h c d cis d f e f } a8 e cis a \sbOff
+    \tuplet 3/2 8 { a16 gis a c h c d cis d f e f } a8 e cis! a \sbOff
     r2 r8 fis'\fE fis fis
     g b g a b4 a %15
-    g16 f g4 f8 e a f g
+    g16 f! g4 f8 e a f g
     f4 e8.\trill d16 d4 r
     R1*10 %27
     a''8.\f g32 a b16( d,) cis( g') f( d) a( b) b( a) d-! d,-!
     d( cis) g'( b) b( a) d( cis) g'( f) a a, d4~
     d16 b'-! a-! g-! f-! e-! d-! cis-! d4 r %30
-    r r8 f,~\pE f g f e
+    r r8 f,\pE f g f e
     f16( a) a( f) \kneeBeam a' c,, a'8 r16 e b'8 r16 e, c'8
     r16 d, h'8 r4 r2
     e8.\trill\f d32( e) f16( a,) gis( d') c( a) e( f) f( e) a-! a,-!
     a( gis) d'( e) f( e) a( gis) d'( c) e-! e,-! a4~ %35
     a16 f'-! e-! d-! c-! h-! a-! gis-! a4 r
     r8 e\pE a c a8. a16 g(\trill f) e(\trill d)
-    e8 g c e, d16 c \once \slurDashed d8~ d \tuplet 3/2 8 { e16 d e }
+    e8 g c e, d16 c \once \tieDashed d8 d \tuplet 3/2 8 { e16 d e }
     f8 a d f, e16 d e8~ \tuplet 3/2 8 { \sbOn e16\trill d e f\trill e f
-    g\trill f g a\trill g a \sbOff } b8. a32 g f16 f'-! e-! d-! f-! e-! d-! cis-! %40
-    d4 r r8 \tuplet 3/2 8 { \sbOn a16\fE g a b a \hA b c \hA b c }
+    g\trill f g a\trill g a \sbOff } b8.\trill a32 g f16 f'-! e-! d-! f-! e-! d-! cis-! %40
+    d4 r r8 \tuplet 3/2 8 { \sbOn a16\fE g a b a b c b c }
     d16( g,) f8~ f e f4 r
-    r8 \tuplet 3/2 8 { c'16\trill h! c d\trill c d e\trill d e } \sbOff \slurDashed f( g) a( a,) \slurSolid \appoggiatura a8 g8. f16
+    r8 \tuplet 3/2 8 { c'16\trillE h! c d\trillE c d e\trillE d e } \sbOff \slurDashed f( g) a( a,) \slurSolid \appoggiatura a8 g8. f16
     e4 r r16 e g b c8 e,16.\trill d64 e
-    f4 r r16 a\p c8~ c16 d d8 %45
+    f4 r r16 a\pE c8~ c16 d d8 %45
     r16 b d8~ d16 e e8 r16 c e8~ e16 f f( f,)
     d'8 d, r4 r r8 c'\fE
-    \tuplet 3/2 8 { \sbOn a16\trill g a b\trill a \hA b c\trill \hA b c } d f, \tuplet 3/2 8 { e\trill d e f\trill e f g\trill f g a\trill g a
-    b\trill a \hA b c\trill \hA b c d\trill c d e\trill d e \sbOff } f d c b a8.\trill b16
-    c a d d, e8.\trill f16 f f'8 g16 \appoggiatura f8 e8.\trill f16 \noBreak %50
+    \tuplet 3/2 8 { \sbOn a16\trill g a b\trill a b c\trill b c } d f, \tuplet 3/2 8 { e\trill d e f\trill e f g\trill f g a\trill g a
+    b\trill a b c\trill b c d\trill c d e\trill d e \sbOff } f d c b a8.\trill b16
+    c a d d, e8.\trill f16 f f'8 g16 \appoggiatura f8 e8. f16 \noBreak %50
     f4 r r2\fermata \bar "||"
     \tempoB-IQuiTollis \newSpacingSection
       e4.\fE e8 c4 cis8 cis \noBreak
@@ -170,7 +170,7 @@ B-IGloriaViolinoII = {
     a2.
     g %60
     f4 d8 es16 f g8 f
-    es d c d16 es f8 \hA es
+    es d c d16 es f8 es
     d4 g8 f g4
     c, f f
     e! c' es, %65
@@ -196,13 +196,13 @@ B-IGloriaViolinoII = {
     c16 e g c h8 g16 d h d g h, %85
     c e g c h8 g16 d h d g h,
     c8 c, r16 g'' e c h8 e
-    r16 a, c e a a, c e a, fis a \hA fis
+    r16 a, c e a a, c e a, fis a fis
     d g h d a8 g' d, fis'
     g4 r r %90
     r a, h
     c2 d4
     e c2
-    h4. h8 c4~
+    h4. h8 c4
     c2 h4 \noBreak %95
     c2 r4\fermata \bar "||"
     \time 4/4 \tempoB-IQuoniam \newSpacingSection
@@ -251,7 +251,7 @@ B-ICredoViolinoII = {
     d32( e fis e) d8 r d d fis %5
     g32( a h a) g8 r h, d g
     e32( f! g f) e8 r d c e
-    g32( a h a) g8 g,32( a h a) g8 h32( c d c) h8
+    \once \slurDashed g32( a h a) g8 g,32( a h a) g8 h32( c d c) h8
     e16 g e c d8 c' g, h'
     c g,16 f e32( f g f) e8 c32( d e d) c8 %10
     a'32( h c h) a8 f'32( g a g) f8 d32( e f e) d8
@@ -264,24 +264,24 @@ B-ICredoViolinoII = {
     a32( h c h) a8 c32( d e d) c8 a fis'
     g, e' d,4 r8 fis
     g32( a h a) g8 r4 r8 h %20
-    a32( g fis g) a8 r4 r8 fis
+    a32( g fis g) a8 r4 r8 fis!
     g32( a h a) g8 r4 r8 g
-    fis32( e dis e) \hA fis8 dis32( e fis e) \hA dis8 r dis'
-    e32( fis g \hA fis) e8 r4 r8 gis,
+    fis32( e dis e) fis8 dis32( e fis e) dis8 r dis'
+    \once \slurDashed e32( fis g fis) e8 r4 r8 gis,
     a32( h c h) a8 r gis a c %25
-    fis,32( g a g) \hA fis8 r \hA fis a d
-    d,32( c h c) d8 h32( c d c) h8 \once \slurDashed e32( fis g \hA fis) e8
+    \once \slurDashed fis,32( g a g) fis8 r fis a d
+    d,32( c h c) d8 h32( c d c) h8 \once \slurDashed e32( fis g fis) e8
     r4 r r8 cis
     d32( e fis e) d8 r4 r8 fis
     e32( d cis d) e8 r4 r8 cis' %30
     d32( e fis e) d8 r4 r8 fis,
-    g32( a h a) g8 e32( fis g \hA fis) e8 cis32( d e d) \hA cis8
+    \once \slurDashed g32( a h a) g8 e32( fis g fis) e8 cis32( d e d) cis8
     d32( e fis e) d8 r4 r8 fis
     g32( a h a) g8 r a g16 fis g8
-    cis,32( d e d) \hA cis8 cis32( d e d) \hA cis8 r ais' %35
-    h8. g16 fis8 g \hA fis fis
+    cis,32( d e d) cis8 cis32( d e d) cis8 r ais' %35
+    h8. g16 fis8 g fis fis
     fis g d'4 r8 h
-    \once \slurDashed a32( g fis g) a8 \hA fis32( g a g) \hA fis8 r \hA fis
+    \once \slurDashed a32( g fis g) a8 fis32( g a g) fis8 r fis
     d32( c h c) d8 d32( c h c) d8 r h'
     g32( f! e f) g8 r4 r8 c %40
     a32( g fis g) a8 r4-\critnote r8 fis'
@@ -292,7 +292,7 @@ B-ICredoViolinoII = {
     R2.
     r4 r r8 fis\f
     d32( c h c) d8 e32( f g f) e8 r c
-    \once \slurDashed e32( d c d) e8 fis32( g a g) \hA fis8 a32( g \hA fis g) a8
+    e32( d c d) e8 fis32( g a g) fis8 a32( g fis g) a8
     r d, g32( a h a) g8 g16 a h c %50
     d( h) e( g,) d8. c'16 \appoggiatura h8 a4\trillE \noBreak
     g r r\fermata \bar "||"
@@ -304,7 +304,7 @@ B-ICredoViolinoII = {
     e8 e fis fis gis \tuplet 3/2 8 { e16 d! e \sbOn g f g } h d \sbOff
     e16. c32 g16. c32 e,4 r8 e' e e
     d4. d8 c!4 dis
-    e8 h e dis16 cis? \hA dis8 dis e4~ %60
+    e8 h e dis16 cis? dis8 dis e4~ %60
     e8 e dis dis e4 r
     R1 \noBreak
     R\fermata \bar "||"
@@ -322,7 +322,7 @@ B-ICredoViolinoII = {
     r r8 gis'16 a h a h8 %75
     e,16 d e8 r4 r2
     r r4 r8 e'
-    c a~ a16 f a8 a4 gis8.\trillE a16 \noBreak
+    c a~ a16 f a8 \once \slurDashed a4( gis8.)\trillE a16 \noBreak
     a4 r r2\fermata \bar "||"
     \time 3/2 \tempoB-IEtResurrexit \newSpacingSection
       e4\fE^\senzaSordE c8 e g4 e8 g c4 e \noBreak %80
@@ -330,20 +330,20 @@ B-ICredoViolinoII = {
     e g, e'8 e d e c4 a
     r a f'8 f e f d4 h
     r h g'8 g f g e4 c
-    r a a'8 a g a fis fis e \hA fis %85
+    r a a'8 a g a fis fis e fis %85
     g d c d h4 d g, g'
     fis8 d h g' a,4 g' d, fis'
     g8 h, a h g4 h2 d4~
-    d8 a g a fis fis e-\critnote \hA fis d a' g a
+    d8 a g a fis fis e-\critnote fis d a' g a
     d, h' a h g4 d' h d %90
-    g,8 e' d e cis4 e2 \hA cis4
-    d8 fis e \hA fis dis4 fis2 \hA dis4
+    g,8 e' d e cis4 e2 cis4
+    d8 fis e fis dis4 fis2 dis4
     e h c e h dis
     e8 g,\p fis g e4 g r2
     r4 h fis dis r2 %95
     r4 e' h g r2
     r4 d'! a fis r2
-    r4 c'-\critnote e c r2
+    r4 c'^\critnote e c r2
     R1.
     r4 g d h r2 %100
     r4 d' dis fis r2
@@ -387,15 +387,15 @@ B-ICredoViolinoII = {
     g4 e g f8 g e4 g
     a2. g8 a f4 d %140
     g e r g e a
-    a2. gis8 fis \hA gis2
+    a2. gis8 fis gis2
     a r4 c, a' f
     e2 e1\trill
     d4 a'8 g f4 a g8 f g4 %145
     c,2 r4 e f2~
     f4 d8 c d4 g2 e4
-    c a8 b c \hA b c4 d8 c d4
-    e e~ e8 d e4 fis8 e \hA fis4
-    g b2 g4 cis?8 h \hA cis4 %150
+    c a8 b c b c4 d8 c d4
+    e e~ e8 d e4 fis8 e fis4
+    g b2 g4 cis8 h cis4 %150
     d8 cis d4 a8 g a4 h!8 a h4
     c8 h c4 c2. c4
     c d d2.\trill c8 d
@@ -424,7 +424,7 @@ B-ISanctusViolinoII = {
     r16 d d8\trill r16 c e16. g32 d16. c'32 c8 d,16. h'32 h8
     c4 r r8 e, e e %10
     e( d) d4 r8 c! c c
-    b d \hA b a gis4 a~
+    b d b a gis4 a~
     a8 a g g fis4.\trill fis8 \noBreak
     e2 r\fermata \bar "||"
     \tempoB-IPleni \newSpacingSection R1*14 \noBreak %28
@@ -441,7 +441,7 @@ B-ISanctusViolinoII = {
     r4 c g' e
     c8. d16 e8 f g16 f g4 a8
     h16 a h8 c d g,4 a~ %45
-    a8 gis16 fis \hA gis4 a8 g f4
+    a8 gis16 fis gis4 a8 g f4
     e a4. a8 g g
     fis2\trill e8 g a h
     c g f e d4 r
@@ -462,12 +462,12 @@ B-IAgnusViolinoII = {
     \clef treble
     \key c \major \time 4/4 \tempoB-IAgnus
     r8 \sbOn \tuplet 3/2 8 { g'16\trill\fE f g c\trill h c e\trill d e c\trill h c a\trill g a c\trill h c e\trill d e
-    d\trill c d } h g \tuplet 3/2 8 { d\trill c d } h8 r16 cis' \tuplet 3/2 8 { cis\trill h \hA cis } r e \tuplet 3/2 8 { e\trill d e }
+    d\trill c d } h g \tuplet 3/2 8 { d\trill c d } h8 r16 cis' \tuplet 3/2 8 { cis\trill h cis } r e \tuplet 3/2 8 { e\trill d e }
     r a, \tuplet 3/2 8 { a\trill g a } r c \tuplet 3/2 8 { c\trill h c } \sbOff h h' e, gis h, e gis, h
     e,16.\p a32 cis16. e32 r16 a, cis16. e32 f16. d32 a16. f32 d'16. a32 f16. d32
     r16 g h16. d32 r16 g, h16. d32 e16. c32 g16. e32 c'16. g32 e16. c32 %5
     \tuplet 3/2 8 { f16 a c } f8 e16. g32 c8 h16 d g, h d, g h, d
-    \tuplet 3/2 8 { \sbOn e16\trill d e h\trill a h gis\trill fis \hA gis e\trill d e } c8 a r4
+    \tuplet 3/2 8 { \sbOn e16\trill d e h\trill a h gis\trill fis gis e\trill d e } c8 a r4
     \tuplet 3/2 8 { d'16 c d a g a f e f d c d } h8 g r4 \sbOff
     r2 r16 g' h d g d h g
     r16 g g8\trill r16 f f8\trill r16 d d8\trill r16 d' d8\trill %10
@@ -484,14 +484,14 @@ B-IAgnusViolinoII = {
     r2 r8 gis4\p a8
     r gis,4 a8 r h'\f gis e
     f! f'16 e d8 cis d a b g
-    f16 e d8 cis4\trill d8 f' d f
-    b, b g \hA b e, e' c e %25
-    a, c4 a8 g e' cis16 h \hA cis8
+    f16 e d8 cis4\trillE d8 f' d f
+    b, b g b e, e' c! e %25
+    a, c4 a8 g e' cis16 h cis8
     r2 r8 a cis e
     r2 r8 cis4\p d8
     r cis,4 d8 r4 r8 a'\f
     f'4. d8 h4 r8 h %30
-    e4. c8 a4. d8
+    e4. c!8 a4. d8
     h e c a h4. h8
     a c e, c r2
     r8 gis'4\p a8 r gis,4 a8

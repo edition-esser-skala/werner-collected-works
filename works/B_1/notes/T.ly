@@ -45,8 +45,8 @@ B-IKyrieTenore = {
     R1\fermata \bar "||"
     \key c \major \time 4/4 \tempoB-IKyrieFuga
       R1*3 %77
-    \mvTr g4.\fE^\tutti g8 a4. g16([ a)]
-    h4. a16[ h] c[ d e c] a[ h c a]
+    \mvTr g4.\fE^\tuttiE g8 a4.\trillE g16([ a)]
+    h4.\trill a16[ h] c[ d e c] a[ h c a]
     h[ c d h] g[ a h g] c[ d c h] a4\trill %80
     g8 g c4.( h16_[ a] h4)
     c8 g c8.[\trill h32 c] d8[ a] h8.[\trill a32 h]
@@ -159,7 +159,7 @@ B-IGloriaTenore = {
     h4. h8 a4. a8
     g g e'([ d)] d4 r
     R1*2 %10
-    r8 \mvTr g,\pE^\solo c e d16[ c h a] g8. f16
+    r8 \mvTr g,\pE^\solo c e d16[( c h a] g8.) f16
     e8.\trill d16 c4 r2
     R1
     r2 r8 \mvTr a'\fE^\tutti a a
@@ -169,7 +169,7 @@ B-IGloriaTenore = {
     R1*12 %29
     r2 \mvTr d8.([\pE^\solo c32 b]) a16([ cis)] e([ g)] %30
     f8 d f4. e16([ d)] c8.([ b16)]
-    a4 c8 f d16[ \tuplet 3/2 16 { b32\trill a \hA b] } b16[\trill \tuplet 3/2 16 { g32 f g] } e'16[ \tuplet 3/2 16 { c32\trill b c] } c16[ \tuplet 3/2 16 { a32\trill g a] }
+    a4 c8 f d16[ \tuplet 3/2 16 { b32\trill a b] } b16[\trill \tuplet 3/2 16 { g32 f g] } e'16[ \tuplet 3/2 16 { c32\trill b c] } c16[ \tuplet 3/2 16 { a32\trill g a] }
     f'16[ \tuplet 3/2 16 { d32\trill c d] } d16[ \tuplet 3/2 16 { h32\trill a h] } g[ a h c d e f g] e16([ c)] a([ f')] e([ d)] c([ h)]
     \appoggiatura h8 c4 r r2
     R1*16 \noBreak %50
@@ -197,7 +197,7 @@ B-IGloriaTenore = {
     d2 cis4
     d2 \mvTr a4\pE^\solo
     d d, d'
-    e( c!8.[ d16)] e4 %75
+    e c!8.[( d16] e4) %75
     f f, r
     c' c8 c b a
     g4 r r
@@ -223,7 +223,7 @@ B-IGloriaTenore = {
       R1*16 \noBreak %112
     R1\fermata \bar "||"
     \tempoB-ICumSancto R1*2 %115
-    \mvTr g'2\fE^\tutti g4 g,
+    \mvTr g'2\fE^\tuttiE g4 g,
     r8 g' fis e d([ c)] h([ a)]
     g h c d e a,([ g)] f'
     e a, g[ f'] e[ c] d[ a16 h]
@@ -234,10 +234,10 @@ B-IGloriaTenore = {
     c8 c4( e16[ d)] c8 c( d[ e16 f])
     g8 g,~ g16[ a h8] c[ h] a[ h16 c] %125
     d8[ c h a] g4 g8[ a16 b]
-    c8[ b] a[ b16 c] d[ c32 \hA b] a8 g4
+    c8[ b] a[ b16 c] d[ c32 b] a8 g4
     a f' f f,
     r8 f' e d c([ b)] a([ g)]
-    f d' c b16 b a8([ \hA b)] a([ g)] %130
+    f d' c b16 b a8([ b)] a([ g)] %130
     f([ d')] c([ b)] a([ g f e]
     d2) c8 a'([ g)] a16([ h!)]
     c8 f e([ f)] e4 r8 c(
@@ -262,7 +262,7 @@ B-IGloriaTenoreLyrics = \lyricmode {
   ta -- tis, bo -- nae
   vo -- lun -- ta -- tis.
 
-  lau -- da -- mus te, __ _ lau -- %11
+  lau -- da -- mus te, __ lau -- %11
   da -- mus te,
 
   glo -- ri -- fi -- %14
@@ -298,7 +298,7 @@ B-IGloriaTenoreLyrics = \lyricmode {
   _ _
   bis. Qui
   tol -- lis pec --
-  ca -- ta %75
+  ca -- ta __ %75
   mun -- di:
   Su -- sci -- pe, su -- sci --
   pe,
@@ -366,12 +366,12 @@ B-ICredoTenore = {
     R2.*17 %27
     r4 r \mvTr a4~\pE^\solo
     a4. a8 d fis
-    e([ cis)] a([ \hA cis)] e([ g)] %30
-    fis16([ e \hA fis8)] d4 d8 fis
+    e([ cis)] a([ cis)] e([ g)] %30
+    fis16([ e fis8)] d4 d8 fis
     h,4. h8 a8. g16
-    fis([ g \hA fis e)] d4 a'8 d
+    fis([ g fis e)] d4 a'8 d
     h16(_[ ais] h4 d8) cis h
-    ais16[ gis \hA ais8]~ \sbOn ais16[ h \tuplet 3/2 8 { cis d e] } \sbOff fis8.([ e16)] %35
+    ais16[ gis ais8]~ \sbOn ais16[ h \tuplet 3/2 8 { cis d e] } \sbOff fis8.([ e16)] %35
     d8 cis16 h h4( ais8.)\trill h16
     h4 r r
     R2.*14 \noBreak %51
@@ -396,7 +396,7 @@ B-ICredoTenore = {
     h, g r4 d'4. c16[ h]
     c4. h16[ a] h4. a16[ g] %70
     a8 cis a d d4 c8 e
-    dis dis e4.( dis16[ cis]) \hA dis4
+    dis dis e4.( dis16[ cis]) dis4
     e r r r8 g,
     e'4. d16([ c)] d4. e16([ d)]
     c8([ e)] d([ c)] c h r4 %75
@@ -431,7 +431,7 @@ B-ICredoTenore = {
     \time 4/4 \tempoB-IEtUnam
       r8 \mvTr f,\pE^\solo a c e4. f16 g \noBreak
     a,8. a16 a8 f c' d es a, %120
-    b4. d8 g,4( f8.) e16
+    b4. d8 g,4( f8.)\trill e16
     e4 r r2
     R1*3 \noBreak %125
     R1\fermata \bar "||"
@@ -456,8 +456,8 @@ B-ICredoTenore = {
     f) d d'2( e) %145
     f r4 c2 a4
     f b2 g4 c2~
-    c a f4( d
-    g) c2 b8([ c] \once \stemDown a4 d
+    c a f4( d)
+    g c2( b8[ c] \once \stemDown a4 d
     b) g r2 r %150
     R1.
     c2 g e'4 c
@@ -517,7 +517,7 @@ B-ICredoTenoreLyrics = \lyricmode {
   sus, se -- pul -- tus
   est, sub
   Pon -- ti -- o Pi --
-  la -- to __ pas -- sus, %75
+  la -- to pas -- sus, %75
   pas -- _
   sus et se -- pul -- tus
   est.
@@ -612,7 +612,7 @@ B-ISanctusTenore = {
     d[ e f! d] e[ d] e[ d16 c] %35
     h8[ a] g([ c)] a([ h)] c([ d)]
     e([ d16 c] d8[ c16 h)] c4 r8 d
-    c4( d) g, r
+    c4 d g, r
     R1*2 %40
     r2 r4 g
     c a e'16([ f e8)] d([ c)]
@@ -656,8 +656,8 @@ B-ISanctusTenoreLyrics = \lyricmode {
   _ _
   _ _ _ %35
   _ sis, __ in __ ex --
-  cel -- sis, ex --
-  cel -- sis,
+  cel -- sis, in
+  ex -- cel -- sis,
 
   o -- %41
   san -- na in __ ex --
@@ -708,8 +708,8 @@ B-IAgnusTenore = {
     b r c! r %25
     a( c) g r
     a2 a4 r
-    \mvTr f'4.\pE^\soloE^\aTreE e16([ d)] cis([ h] \hA cis4) d8
-    cis16([ h] \hA cis4) d8 d cis r4
+    \mvTr f'4.\pE^\soloE^\aTreE e16([ d)] cis([ h] cis4) d8
+    cis16([ h] cis4) d8 d cis r4
     r \mvTr d4.(\fE^\tuttiE h!8) g4 %30
     r c4.( a8) f([ a)]
     gis4( a2 gis4)
@@ -724,7 +724,7 @@ B-IAgnusTenore = {
     g4 r c8([ h] c4)
     h r g2
     g4 r8 g( a[ h16 c]) d8([ c)]
-    h8([^\critnote c16 d)] g,4 g2
+    h8([ c16 d)] g,4 g2
     g4 r g2~ %45
     g4 g g2
     g4 r8 g( a[ h16 c)] d8([ c)]

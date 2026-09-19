@@ -19,13 +19,13 @@ B-IKyrieSoprano = {
     r4 \mvTr e,4.\pE^\solo a8
     gis16([ a] \once \stemUp h4) gis16([ a] h8^[ e)]
     c16([ h c8)] a4 r8 e' %15
-    f16[ e] f4 d16[ e] \appoggiatura g16 f8[ d]
-    \appoggiatura c16 h([ a h8)] r4 r8 d
+    f16[ e] f4 d16[ e] f8[ d]
+    h16([ a h8)] r4 r8 d
     e16[( d) e8]~ e16[ c d8] e[ c]
     a16([ g a8)] r a f'([ d)]
     h16([ a h8)] r h g'([ e)] %20
-    c16([ h c8)] r e \appoggiatura e16 d8.([\trill c16)]
-    h8 \grace d c h4( a)
+    c16([ h c8)] r e d8.([\trill c16)]
+    h8 c h4( a)
     g r r
     R2.*16 %39
     \mvTr e'4.\fE^\tuttiE e8 e4 %40
@@ -38,7 +38,7 @@ B-IKyrieSoprano = {
     c!4. c8 c4~
     c8 d c([ f e d)]
     e4 e4. e8
-    c f d2 %50
+    c f d2\trill %50
     e r4\fermata \bar "||"
     \key a \minor \time 4/4 \tempoB-IChriste \newSpacingSection
       R1*22 \noBreak %73
@@ -50,11 +50,11 @@ B-IKyrieSoprano = {
     h[ c d h] g[ a h g] c[ d c h] a4\trill
     g c4.\trill h16[ c] d4~\trill
     d8[ c16 d] e8( c4) a d8
-    h g4 g( fis16[ e]) \hA fis4
+    h g4 g( fis16[ e]) fis4
     g r r2 %90
     r4 f!8 f g4. f16([ g])
-    a4. g16[ a] b[ c d \hA b] g[ a b g]
-    a[ b c a] f[ g a f] b[ c \hA b a] g8[ \once \tieDashed c]~
+    a4. g16[ a] b[ c d b] g[ a b g]
+    a[ b c a] f[ g a f] b[ c b a] g8[\trill \once \tieDashed c]~
     c[ h16 c] d4. c16[ d] e8[ c]
     a[ c f a,] g[ h e g,] %95
     a16[ h c8] c([ h)] c16([ d e c)] a[ h c a]
@@ -62,7 +62,7 @@ B-IKyrieSoprano = {
     f[ g f e] d4\trill c16[( d]) c[( h]) a8[ d]~
     d[ h] g r r2
     g4. g8 a4.\trill g16([ a)] %100
-    h8[ a16 h] c4.\trill h16[ c] d4~
+    h8[ a16 h] c4.\trill h16[ c] d4~\trill
     d8[ c16 d] e8[ c] a c f([ d)]
     h d g([ e)] c e d[ c]
     h16[ c d h] c[ d e c] a[ h c a] h[ c d h]
@@ -151,8 +151,8 @@ B-IGloriaSoprano = {
     d4. d8 c4. c8
     h c a4\trill h r
     R1*3 %11
-    r8 \mvTr e4\pE^\solo a,8 gis16([ h)] d f \appoggiatura f8 e8. d16
-    \appoggiatura d8 c8.\trill h16 a4 r2
+    r8 \mvTr e4\pE^\solo a,8 gis16([ h)] d f e8. d16
+    c8.\trill h16 a4 r2
     r8 \mvTr d\fE^\tutti d d es4. es8
     d g g f! f es4 d8~ %15
     d cis4 b8 a a a b
@@ -163,7 +163,7 @@ B-IGloriaSoprano = {
     \tuplet 3/2 8 { \sbOn a16[( b c c d e] \sbOff } f4) f16[( d]) e([ c)] d4\trill
     c r r2
     c4. b16 c a8([ f')] e d %25
-    c d16([ c)] b8 a \sbOn \tuplet 3/2 8 { g16[( e f g a b] } \once \stemUp c8) \hA b
+    c d16([ c)] b8 a \sbOn \tuplet 3/2 8 { g16[( e f g a b] } \once \stemUp c8) b
     \tuplet 3/2 8 { r16 a[ b c d e] } \sbOff f4~ f16[ d] c b a8([ g)]
     f4 r r2
     R1*13 %41
@@ -216,7 +216,7 @@ B-IGloriaSoprano = {
       R1*16 \noBreak %112
     R1\fermata \bar "||"
     \tempoB-ICumSancto R1*7 %120
-    \mvTr g'2\fE^\tuttiE g4 g,
+    \mvTr g'2\fE^\tutti g4 g,
     r8 g' fis e d([ c)] h([ a)]
     g16([ a)] h8 c d g, a([ g)] c
     g([ a g)] c g16([^\critnote f] g4) a8
@@ -361,7 +361,7 @@ B-ICredoSoprano = {
     e d8 d cis cis d4~
     d c4. c8 b b %55
     a4 a8 a h h c4
-    c4._( h16[ a)] h4 r
+    c4.( h16_[ a)] h4 r
     c8 c c c cis8. cis16 cis4
     r8 d d d c4 dis
     e4. e8 dis dis e4~ %60
@@ -423,13 +423,13 @@ B-ICredoSoprano = {
     e2 c1
     h1.\trill
     a4 e'( c f) d2
-    d2.( cis8[ h] \hA cis2)
+    d2.( cis8[ h] cis2)
     d4 f2( e8[ d] c4 b) %145
     a f a g8[ a] f4 a
-    b g \hA b a8[ \hA b] g4 c
+    b g b a8[ b] g4 c
     a f a2( h)
     c g8([ f] g4 a8[ g] a4)
-    b2 r4 d cis8[ h] \hA cis4 %150
+    b2 r4 d cis8[ h] cis4 %150
     d8[ e] f4 r a, h!8[ a] h4
     c!8[ d] e4 c2. c4
     c d d2.\trill c8[ d]
@@ -558,7 +558,7 @@ B-ISanctusSoprano = {
     h!4( c2 h4)
     c8 g g g b2 %10
     a8 d d d c!2
-    b8 d \hA b([ a)] gis4 a~
+    b8 d b([ a)] gis4 a~
     a8 a g g fis4. fis8 \noBreak
     e2 r\fermata \bar "||"
     \tempoB-IPleni \newSpacingSection R1*14 \noBreak %28
@@ -634,13 +634,13 @@ B-IBenedictusSoprano = {
     \clef treble
     \key a \minor \time 4/4 \autoBeamOff \tempoB-IBenedictus
     R1*4
-    \mvTr e'4~\pE^\soloE e16[ c] h([ a)] \appoggiatura d8 f4 e16([ d)] c([ h]) %5
+    \mvTr e'4~\pE^\soloE e16[ c] h([ a)] f'4 e16([ d)] c([ h]) %5
     c([ h a gis)] a8 h c8.[\trill h32 c] d8.[\trill c32 d]
-    e8.[\trill d32 e] f8.[\trill e32 f] g16[ e] d c \appoggiatura c8 d8.\trill c16
+    e8.[\trill d32 e] f8.[\trill e32 f] g16[ e] d c \appoggiatura e8 d8.\trill c16
     c4 r r8 d, g4~
     g16[ f] f8 r4 r8 e a4~
-    a16[ gis] gis8 r \hA gis a8.[\trill gis32 a] h8.[\trill a32 h] %10
-    c8.[\trill h32 c] d8.[\trill c32 d] e16[ c] h a \appoggiatura a8 h8.\trill a16
+    a16[ gis] gis8 r gis a8.[\trill gis32 a] h8.[\trill a32 h] %10
+    c8.[\trill h32 c] d8.[\trill c32 d] e16[ c] h a \appoggiatura c8 h8.\trill a16
     a4 r r2
     R1
     R\fermata \markOsannaUtSupra \bar "||" %14 finis
@@ -672,13 +672,13 @@ B-IAgnusSoprano = {
     r8 a f'([ d)] h4 r
     r8 e d c c([ h)] h4
     cis^\aTreE d d8 d d4~ %10
-    d8[ c16 h] c8[ e] dis[ e16 \hA dis] e4~
-    e8[ dis16 cis] \hA dis4\trill e r
+    d8[ c16 h] c8[ e] dis[ e16 dis] e4~
+    e8[ dis16 cis] dis4\trill e r
     \mvTr e4.\fE^\tutti e8 d4 e8 e
     c4 f8 f e4. e8
     d2 d4. a8 %15
     d4 c4. c8 c c \noBreak
-    c4._( h16[ a)] h2\fermata \bar "||"
+    c4.( h16_[ a)] h2\fermata \bar "||"
     \tempoB-IDona \newSpacingSection \mvTr c4.\fE^\tuttiE d8 e4 d \noBreak
     e8([ d c e)] d4 r
     c8([ h] c4) h r %20

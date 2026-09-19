@@ -37,7 +37,7 @@ B-IKyrieOrgano = {
     r d!16 c d8 d, d' d,
     r g'16 fis g8 g, c g
     d'4 r8 dis h dis
-    e e'16 d e8 e, e' e,
+    e e'16 d! e8 e, e' e,
     r a16 g a8 a, a' a, %35
     r d16 c d8 d, d' d,
     r g'16 f g8 g, g' g,
@@ -50,7 +50,7 @@ B-IKyrieOrgano = {
     r a'16 g a8 a, a' a,
     r d16 cis d8 d, d' d, %45
     r g'16 f g8 g, g' g,
-    r c16 h c8 c, c' c,
+    r c!16 h c8 c, c' c,
     f' d g f g g,
     c c'16 h c8 c, a' e
     f4 g g, \noBreak %50
@@ -65,7 +65,7 @@ B-IKyrieOrgano = {
     f d g! g, c4 r8 a'16 e
     f8 d r g16 d e8 c r f16 c
     d8 h r e16 h c8 a d4 %60
-    e8\fE d cis a f' d\pE cis a
+    << { s4. a'8 } \\ { e8\fE d cis a } >> f' d\pE cis! a
     d d, r c' h e h' h,
     e4 r8 e'16\fE h c8 a r d!16 a
     h8 g r c16 g a8 fis r h16 fis
@@ -80,12 +80,12 @@ B-IKyrieOrgano = {
     d c h a gis4 r8 e \noBreak
     a d e e, a4 r\fermata \bar "||"
     \key c \major \time 4/4 \tempoB-IKyrieFuga
-      \mvTr c4.\fE-\tutti-! c8-! d4.\trill c16 d \noBreak %75
+      \mvTr c4.\fE-\tuttiE-! c8-! d4.\trill c16 d \noBreak %75
     e4.\trill d16 e f g a f d e f d
     e f g e c d e c f g f e d4\trill
     << {
       g4. g8 a4.\trill g16 a
-      h4. a16 h c d e c a h c a
+      h4.\trillE a16 h c d e c a h c a
       h c d h g a h g c d c h a4 %80
     } \\ {
       c,8 e16 d c8 h c h16 a d8 d,
@@ -138,7 +138,7 @@ B-IKyrieBassFigures = \figuremode {
   r
   r
   r2 <6>4
-  r <6 4>8 <6> <6 4> <5 3> %10
+  r <6 4>8 <[8] 6> <6 4> <5 3> %10
   r2.
   r
   <5>4 <6>8 <_+> <6>4
@@ -161,7 +161,7 @@ B-IKyrieBassFigures = \figuremode {
   r %30
   r8 <_+> r2
   r <6>4
-  <_+>4. \bo <[6 _+]>4 \once \bassFigureExtendersOn\bc q8
+  <_+>4. \bo <[6 _+]>4 \once \bassFigureExtendersOn \bc q8
   r4 <_+>2
   r2. %35
   r8 <[_!]> r2
@@ -177,20 +177,20 @@ B-IKyrieBassFigures = \figuremode {
   r
   r
   r4 <6 4>8 <8 6> <6 4> <5 3>
-  r2 r8 <6>
+  r2 r8 <[6]>
   r4 <4> <3> %50
   r2.
   r4 \bo <[6 _]> r4.. \bc <[6 _!]>16
   <5>4.. <6>16 <5>4.. <6>16
   <5>8 <[5\+]>4 <_+>8 <6>4 <[6]>
   r8 <6> q q <6-> <6> <6\\>4 %55
-  <[6]>4. <_+> <6 4>8 <5 _+>
+  \bo <[6]>4. \bc <[_+]> <6 4>8 <5 _+>
   r4 \bo <[6 _]>2 r8 \bc <[6 _!]>
   r4 <6 4>8 <5 3> r4.. \bo <[6]>16
   \bc <[5]>2 <5>
   q8 <[5\+]>4 <_+>8 <6>4 q8 <5> %60
-  <_+>4 <[6]> <6> \bo <[6]>
-  r4. <6>8 \bc <7 _+>4 \bo <[5\+] 4>8 \bc <[\t] _+>
+  <_+>4 <[6]> <6> <[6]>
+  r4. <6>8 <7 _+>4 \bo <[5\+] 4>8 \bc <[\t] _+>
   r2.. <_+>8
   <5\+>2 <5>8 \bo <[5\+]>4 <5\+ _+>8
   \bc <[6]>4 <[6 _+]>4. <6 [_+]>8 <6> q %65
@@ -223,17 +223,17 @@ B-IKyrieBassFigures = \figuremode {
   r2 \bo <[_-]>
   r4. \bc <[6]>8 \bo <5 [_-]>16 \bc <6 [\t]>8. <5 4>8 <\t 3>
   <7> <6!>4. <7>8 <6>4.
-  r2 <_!> %95
+  r1 %95
   r4 <7>2.
   r1
-  <5>16 <6>8. <5 2>8 <[6]> <6 5>4 <_+>
+  <5>16 <6> <5 3>8 <\t 2> <[6]> <6 5>4 <_+>
   r <6> <6 5>2
   r4 <[6]> <6 5> <_+> %100
   r2 <7 [_!]>8 <6>4.
   <7>8 <6>2..
   r4 <5>2 <6>8 <3>
-  r1
-  r8 <3> <6> q r2 %105
+  <3>1
+  q4 <6>8 q r2 %105
   r1
   <6 5>4 <4>8 <3> r2
   r8 <6> <4> <3> r2 %108 finis
@@ -250,12 +250,12 @@ B-IGloriaOrgano = {
     e e' d e e, e' d e a,, a' g a a, a' g a %5
     d, d' c d g,, g' f g c, c' h c f,, f' e f
     h, h' a h e,, e' d e a, a' g a d,, d' c d
-    g8 e c d g,16 h'-\markup \remark "org solo" a h e, g fis g
+    g8 e c d g,16-\markup \remark "org solo" h' a h e, g fis g
     c, e d e a, c h c fis,8 g d' d,
     g4 r r2 %10
     r8 \mvTr g'\pE-\solo e c h g r h
     c4 r r2
-    r8 a' f! d cis4 r8 \hA cis
+    r8 a' f! d cis4 r8 cis
     d4 r r8 \mvTr c\fE-\tutti c c
     b4 b'8 a g4 f %15
     e!4. d8 cis a d g
@@ -289,7 +289,7 @@ B-IGloriaOrgano = {
     c e\pE h g c c'16 b a8 c
     d d, e c f f, a b %45
     g' g, b c a' a, c d
-    b' b, g \hA b c f c c,
+    b' b, g b c f c c,
     f\fE d' a b c a' e f
     d a b g d' e f16 d c b
     a8 b c c, d' b c c, \noBreak %50
@@ -353,7 +353,7 @@ B-IGloriaOrgano = {
     c e h g c f g g, %100
     c e\pE g g, c8. d16 e8 c
     g g'16 f e8. d16 c8. h16 a8 a'16 g
-    fis8 g d d, g\fE h' fis d
+    fis8 g d d, g\fE h' fis! d
     g16 a h a g f e d c8 e h g
     c4 c'8 b a f e c %105
     f, f' g4 a8 a,\pE cis a
@@ -387,7 +387,7 @@ B-IGloriaOrgano = {
     a b16 c d8 c b f' c c,
     f4 \clef "treble_8" f'' f f,
     r8 f' e d c b a g
-    f d' c b a \hA b a g %130
+    f d' c b a b a g %130
     f d' c b a g f e
     d2 \clef bass c'
     c4 c, r8 c' h! a
@@ -434,7 +434,7 @@ B-IGloriaBassFigures = \figuremode {
   <_+> <6 _-> <6> <6\\>4 <[6]> <6>8
   <[5] _-> <6 \t> <6 4> <[5] _+>4. \bo <[6 _]>4 %30
   r4. \bc <[6 _!]>8 <6 5>4 <6 4>8 <5 3>
-  r4 <6>4. <[_-]>
+  r4 <6>2.
   r8 <_!>4. r4 <4>8 <_!>
   r <6> <6 5> <_+>4 <6>8 q <6\\>
   <_+> <6> q <6\\>4 <[6]> <6>8 %35
@@ -444,22 +444,22 @@ B-IGloriaBassFigures = \figuremode {
   r2 <4>8 <_+> <\t> <6>
   <6\\> <8> <7- 5>4. <_->8 <6 4> <5 _+> %40
   r4 <[6]>2 <6->8 <6>
-  q q <7 [_-]> <7[-]> r4 <[6]>
-  r4 <6>8 q4 <[6]>8 <6>4
-  r \bo <[6]>2 <6>4
+  q q <7 [_-]> <7[-]>4. <[6]>4
+  r <6>8 q4 <6>8 \bo <[6]>4
+  r <6>2 q4
   r \bc <[6]>2 <6>4 %45
   <_-> <6>2 q4
   r4 <[_-]>8 <6>4. <4>8 <3>
   r <6-> <6>4. q8 <[6]>4
-  <6->8 <6>4 <[6 _-]>8 <6>8 <[6]>4.
-  q4 <4>8 <3>4. <6 4>8 <5 3> %50
+  <6->8 <6>4 <6 [_-]>8 \bo <[6]> \bc q4.
+  <6>4 <4>8 <3>4. <6 4>8 <5 3> %50
   r1
   r2. <_+>4
   r <[5!]>2 <6 5>4
   r2.
   r %55
-  r4 <5>4. <6!>8
-  r4 <5 _->4. <6 \t>8
+  r4 <3 #(dotbf 5)>4. <_ 6!>8
+  r4 <#(dotbf 5) _->4. <6 \t>8
   <_->2.
   <[6]>4 <_!>2
   <6>4 <_->2 %60
@@ -522,7 +522,7 @@ B-IGloriaBassFigures = \figuremode {
   r
   r2 <8 3>
   r2 r8 <10> q q
-  q q q4 <5>4. <6\\>8 %120
+  q q q4 <#(dotbf 5)>4. <6\\>8 %120
   r <6> q q q2
   r4 <6\\>8 <3> <6> q <6 [_+]> <6>
   q4 <6[!]> <5 3>8 <6 4> <5 3> <6 4>
@@ -534,7 +534,7 @@ B-IGloriaBassFigures = \figuremode {
   <5>1
   r %130
   r
-  <5>4. <6!>8 <5 3> <6 4> <5 3> <6 4>
+  <#(dotbf 5)>4. <6!>8 <5 3> <6 4> <5 3> <6 4>
   <5 3> <6 4> <5 3> <6 4> <5 3>4 \bo <[6]>
   r4 <6>8 q4. q4
   r q2 q4 %135
@@ -543,7 +543,7 @@ B-IGloriaBassFigures = \figuremode {
   r4 q2 \bc <[6]>4
   <5 4> <[\t 3]>2.
   r4 <[6]>2 <6>4 %140
-  \bo <[5] 4> \bc <[\t] 3>2. %141 finis
+  <5 4> <\t 3>2. %141 finis
 }
 
 B-IQuoniamOrgano = {
@@ -557,7 +557,7 @@ B-IQuoniamOrgano = {
     c e h g c f g g, %100
     c e\pE g g, c8. d16 e8 c
     g g'16 f e8. d16 c8. h16 a8 a'16 g
-    fis8 g d d, g\fE h' fis d
+    fis8 g d d, g\fE h' fis! d
     g16 a h a g f e d c8 e h g
     c4 c'8 b a f e c %105
     f, f' g4 a8 a,\pE cis a
@@ -628,9 +628,9 @@ B-ICredoOrgano = {
     r d16 cis d8 a fis d
     r g'16 fis g8 e cis a
     r d'16 cis d8 a fis d
-    r g16 fis g8 \hA fis e g
-    r fis16 e \hA fis8 cis ais fis %35
-    h e fis e \hA fis fis,
+    r g16 fis g8 fis e g
+    r fis16 e fis8 cis ais fis %35
+    h e fis e fis fis,
     h h'16 a! g8 d h g
     r d'16 c! d8 a fis d
     r g'16 fis g8 d h g
@@ -652,7 +652,7 @@ B-ICredoOrgano = {
     g! gis a f8 d
     e4 a d, es %55
     c d g, c
-    a2 e!4 r
+    a2 e4 r
     c'4. c8 b'4. b8
     gis4. gis8 a4 fis
     e cis h! e %60
@@ -682,7 +682,7 @@ B-ICredoOrgano = {
     e c, r8 c'' h c a a g a
     f f e f d d' c d h h a h
     g g f g e e' d e c c h c
-    a a g a fis fis e \hA fis d d c d %85
+    a a g a fis fis e fis d d c d %85
     h h a h g fis g a h a h c
     d4 g d c d d,
     g' g, r8 g' fis g g,4 g'
@@ -729,11 +729,11 @@ B-ICredoOrgano = {
     << {
       c'2 g e'4 c %127
       a f d'2 h
-      c4 g c h8 c a4^\critnote d
+      c4 g c h8 c a4 d
     } \\ {
       \mvTr r4\fE-\tuttiE c, e d8 e c4 e \noBreak %127
       f d f e8 f d4 g
-      e c8 d e4 d8 e fis4 e8 \hA fis
+      e c8 d e4 d8 e fis4 e8 fis
     } >>
     g4 h8 a g2. e4 %130
     a2. a,4 d2
@@ -787,8 +787,8 @@ B-ICredoBassFigures = \figuremode {
   r4. <\t> %15
   r8 <5> <6>2
   r8 <_+>4 <\t>4.
-  r4. <6 [_!]>8 <5> <[_+]>
-  <5> <6> <6 4>4 <5 _+>
+  r4. <6 [_!]>8 <5>4
+  <5>8 <6> <6 4>4 <5 _+>
   r4. <\t> %20
   r8 <_+>4 <\t>4.
   r4 <6>2
@@ -826,7 +826,7 @@ B-ICredoBassFigures = \figuremode {
   <6 _-> <7 5 [_!]> <_+> <6>
   <7 _+> <_!> <7 _+> <5[-] [_!]> %55
   <6 5 _-> <_!> <7 _!> <_!>
-  <5 _ 3> <6\\ 4\+ [\t]> <_+>2
+  <5 3> <6\\ 4\+> <_+>2
   <[5!]>2 <4 2\+>
   <7 5 [_!]>2 <[_!]>4 <6\\>
   <[_!]> <6\\> \bo <[5\+] _+>2 %60
@@ -888,14 +888,14 @@ B-ICredoBassFigures = \figuremode {
   r <6>1
   r2 <5 4> <\t 3>
   r1.
-  r2 <7 4->
+  r2 <7 4- 2>
   <8 3> <4 2> %120
   <6-> <6>4 <5>
   <[_!]>2 <6\\>
   <_-> <[5-]>4 <7- 5 [_!]>
   <_+>2 <6! _!>
   <_-> <[6]> %125
-  <5 _ _->4 <6 4\+ [\t]> <_!>2
+  <5 _->4 <6 4\+> <_!>2
   r1.
   r
   r
@@ -1027,7 +1027,7 @@ B-ISanctusBassFigures = \figuremode {
   r4 \bo <[6]>2 \bc q4 %20
   <6>8 q \bo <[6]>2 \bc q4
   r <7 _+>2.
-  <7 _+>4 <4>8 <_+>4. \bo <[6]>4
+  q4 <4>8 <_+>4. \bo <[6]>4
   r2 \bc q
   r8 <6>2 q4. %25
   r4 \bo <[6]>4. <6>4 \bc <[6]>8
@@ -1119,7 +1119,7 @@ B-IBenedictusOrgano = {
     c, c' a g16 f e8 f g g,
     c c'16. g32 e16. g32 c,16. e32 g,8 g'16. d32 h16. d32 g,16. h32
     d8 d'16. a32 f16. a32 d,16. f32 a,8 a'16. e32 c16. e32 a,16. c32
-    e8 e'16. h32 gis16. h32 e,16. \hA gis32 c,8 a' gis e %10
+    e8 e'16. h32 gis16. h32 e,16. gis32 c,8 a' gis! e %10
     a, a' f d c d e e,
     a\fE a' g! f e d c h
     a h c d e fis gis e
@@ -1227,15 +1227,15 @@ B-IAgnusBassFigures = \figuremode {
   r4. <_+> <_->4
   <6 4> <5 _+>2.
   <_->1 %25
-  r
-  r
+  r4 <[6]>2.
+  r1
   r2 <_+>4 <5 _+>8 <6 4>
   <5 _+>2 <6 4>8 <5 _+>4.
   r1 %30
   r
   <_+>2 <4>4 <_+>
   r1
-  <_+>4 <5 _+>8 <6 4> <[5] _+>2
+  <_+>4 <5 _+>8 <6 4> <_+>2
   <6 4>8 <5 _+>4. <[5!]>2 %35
   r4 <5 3>8 <6 4> <5 3>2
   <6 4>8 <5 3>2..
@@ -1244,10 +1244,10 @@ B-IAgnusBassFigures = \figuremode {
   r2 <6 5> %40
   r2. <[6]>4
   r1
-  r8 <_!>4 <[6]>8 r4 <\t>
-  <[7]>2 <5 4>4 <\t 3>
+  r8 <_!>4 <[6]>4. <\t>4
+  <7>2 <5 4>4 <\t 3>
   r2. <5 3>8 <6 4> %45
-  <5 3>4 <\t \t>8 <6 4> r2
+  <5 3>4 q8 <6 4> <5 3>2
   r4. <[6]>8 r4 <\t>
   <7>2 <5 4>4 <\t 3>
   r2 <5 4>4 <\t 3>

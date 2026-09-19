@@ -6,7 +6,7 @@ B-IKyrieTimpani = {
     \key c \major \time 3/4 \tempoB-IKyrie
     c8\fE c16 g c8 c c4
     g8 g16 g g8 g g4
-    c8 c16 c c8 c c4
+    c8 c16 c c8 c c c
     c8. c32 c c8 c16 c c4
     R2.*2 %6
     g8 g16 g g8 g16 g g8 g
@@ -86,7 +86,7 @@ B-IGloriaTimpani = {
     c8 c16 c c8 c c4 r8 c
     g g16 g c8 g c4 r8 c
     g8. g32 g c8 g16 g c8 c16 c c8 c %135
-    c4 r g8 g16 g g8.-\critnote g32 g
+    c4 r g8 g16 g g8. \tuplet 3/2 { g32_\markup \remark "[sic!]" a h }
     c4 r c r
     r2 g8 g16 g c8 c
     g g16 g g8. g32 g c4 r8 c

@@ -27,7 +27,7 @@ B-IKyrieBasso = {
     a4 r8 fis dis([ h)]
     e4 r8 h' gis[ e]
     c'16[ h] c4 a16[ h] c8[ a] %35
-    f!([ d)] r a' f[ d]
+    f! d r a' f[ d]
     h'16[ a] h4 g16[ a] h8[ g]
     e c r g' e([ c)]
     f c g2
@@ -50,7 +50,7 @@ B-IKyrieBasso = {
     c8[ h16 a] h4. a16[ g] a4~
     a8[ gis16 fis?] gis4 a8 c h16([ d32 c h16 a] %60
     gis8) e r4 r16 d f[ d] a'8.[ g16]
-    f[ d8 f16] g8[ a]~ a16[ g32 fis g16 e] h'8[ h,]
+    f[ d8 f16]^\critnote g8[ a]~ a16[ g32 fis g16 e] h'8[ h,]
     e4 r r2
     R1*3 %66
     r2 r8 e h16([ dis)] fis([ a)]
@@ -62,7 +62,7 @@ B-IKyrieBasso = {
     R1 \noBreak
     R1\fermata \bar "||"
     \key c \major \time 4/4 \tempoB-IKyrieFuga
-      \mvTr c4.\fE^\tutti c8 d4. c16([ d)] \noBreak %75
+      \mvTr c4.\fE^\tuttiE c8 d4. c16([ d)] \noBreak %75
     e4.\trill d16[ e] f[ g a f] d[ e f d]
     e[ f g e] c[ d e c] f[ g f e] d4\trill
     c8 e16([ d)] c8([ h)] c h16([ a)] d4
@@ -123,7 +123,7 @@ B-IKyrieBassoLyrics = \lyricmode {
   son, e -- lei --
   son, e -- lei --
   _ _ _ _ %35
-  son, e -- lei --
+  _ son, e -- lei --
   _ _ _ _
   _ son, e -- lei --
   son, e -- lei --
@@ -204,19 +204,19 @@ B-IGloriaBasso = {
     h, e a, d
     g8 e c([ d)] g,4 r
     R1*4 %12
-    r8 \mvTr a'4\pE^\soloE d,8 cis16([ e)] g b \hA \appoggiatura b8 a8. g16
+    r8 \mvTr a'4\pE^\soloE d,8 cis16([ e)] g b a8. g16
     f8. e16 d4 r8 \mvTr c!\fE^\tuttiE c c
-    b4^\critnote b'8 a g4 f %15
+    b4 b'8 a g4 f %15
     e!4. d8 cis a d g
     a4 a, d r
     R1*23 %40
     \mvTr d'8.([\pE^\solo c32 b)] a16([ g)] a([ e)] f8 d r4
     R1
-    r2 r4 g16([ a)] h([ g)]
+    r2 r4 g16([ a)] h!([ g)]
     c8.([ h32 a] g16[ f)] e([ d)] e8 c r4
     r2 r8 a'~ a16[ f] d f %45
     b,8[ b']~ b16[ g e g] c,8[ c']~ c16[ a f a]
-    d,8[ d']~ d16[ b g \hA b] e,8 f4 e8
+    d,8[ d']~ d16[ b g b] e,8 f4 e8
     f4 r r2
     R1*2 \noBreak %50
     R1\fermata \bar "||"
@@ -252,8 +252,8 @@ B-IGloriaBasso = {
     g8 g d2
     g,4 g' e %90
     d2 d4
-    a' g f
-    e f c
+    a'( g) f
+    e( f) c
     g'4. g8 e4
     c' g2 \noBreak %95
     c, r4\fermata \bar "||"
@@ -272,10 +272,10 @@ B-IGloriaBasso = {
     c4 r r2 \noBreak
     R1\fermata \bar "||"
     \tempoB-ICumSancto
-      \mvTr c'2\fE^\tutti c4 c, \noBreak
+      \mvTr c'2\fE^\tuttiE c4 c, \noBreak
     r8 c' h a g([ f)] e([ d)] %115
-    c e d([ c)] h([ c)] h([ a]
-    g) e'([ d)] c h([ e)] d([ c)]
+    c e d([ c] h[ c)] h([ a])
+    g e'([ d)] c h([ e)] d([ c)]
     h[ g a h] c[ f e d]
     c[ f e d] c[ a' g f]
     e[ d c h] a2 %120
@@ -357,8 +357,8 @@ B-IGloriaBassoLyrics = \lyricmode {
   te -- ram Pa --
   tris: Mi -- se -- %90
   re -- re,
-  mi -- se -- re --
-  re no -- bis,
+  mi -- se --
+  re -- re,
   mi -- se -- re --
   re no -- %95
   bis.
@@ -377,8 +377,8 @@ B-IGloriaBassoLyrics = \lyricmode {
 
   Cum San -- cto,
   cum San -- cto Spi -- ri -- %115
-  tu in glo -- ri -- a __
-  De -- i Pa -- tris,
+  tu in glo -- ri --
+  a De -- i Pa -- tris,
   a -- _
   _ _
   _ _ %120
@@ -425,7 +425,7 @@ B-ICredoBasso = {
     fis d r a' d16([ a fis d]
     h8) g r d' g[ h16 g]
     e8[ g16 e] c8[ e16 c] a8[ c'16 a]
-    fis8[ a16 \hA fis] d8[ \hA fis16 d] h8[ d'16 h]
+    fis8[ a16 fis] d8[ fis16 d] h8[ d'16 h]
     g8[ fis16 e] d8([ fis)] a([ c)] %45
     h[ a16 g] fis8[ e d c]
     h16[ g' e c] d8[ c] d4\trill
@@ -437,7 +437,7 @@ B-ICredoBasso = {
     g! gis a f8 d
     e4 a d, es %55
     c d8 d g, g c4
-    a2 e'!4^\critnote r
+    a2 e'4^\critnote r
     c8 c c c b'4. b8
     gis gis gis gis a4 fis
     e cis h! e %60
@@ -449,16 +449,16 @@ B-ICredoBasso = {
     f d h' g! e c r4 %65
     R1
     r8 e a c d, f g h
-    e, c r4 a'4.( g16[ f])
-    g8 h c4~ c8[ h16 a] h4~
+    e, c r4 a'4.( g16[ f]
+    g8) h c4~ c8[ h16 a] h4~
     h8[ a16 g] a4. g16[ f] g4~ %70
     g8 f16([ e)] f8 d b' b a4~
     a g8([ a)] g4( fis8.) e16
     e4 r r2
-    r8 c a'4. gis16([ fis?)] \hA gis8 h
+    r8 c a'4. gis16([ fis?)] gis8 h
     a([ c)] h[( a)] a gis r4 %75
     r2 r8 a[( f d]
-    h') a16([ gis)] a8 h a4( gis8.) a16
+    h') a16([ gis)] a8 h a4( gis8.)\trill a16
     a4 r r2 \noBreak
     R1\fermata \bar "||"
     \time 3/2 \tempoB-IEtResurrexit \newSpacingSection
@@ -495,7 +495,7 @@ B-ICredoBasso = {
     \time 3/2 \tempoB-IEtVitam
       r4 \mvTr c\fE^\tutti e d8[ e] c4 e \noBreak
     f d f e8[ f] d4 g
-    e c8(_[ d] e4 d8[ e] fis4 e8[ \hA fis)]
+    e c8(_[ d] e4 d8[ e] fis4 e8[ fis)]
     g4 h8([ a] g2.) e4 %130
     a2. a,4 d2
     g, g4( a h a8[ h)]
@@ -568,13 +568,13 @@ B-ICredoBassoLyrics = \lyricmode {
 
   sub Pon -- ti -- o Pi -- la -- to
   pas -- sus, pas --
-  sus, pas -- _ _
+  sus, pas -- _
   _ _ _ %70
   sus et se -- pul -- tus, et __
   se -- pul -- tus
   est,
   sub Pon -- ti -- o Pi --
-  la -- to __ pas -- sus, %75
+  la -- to pas -- sus, %75
   pas --
   sus et se -- pul -- tus
   est.
@@ -651,8 +651,8 @@ B-ISanctusBasso = {
     a'( d,4) g
     c, f! e( f) %5
     c2 r\fermata
-    f( e4) d
-    cis2( d4) f
+    f e4( d)
+    cis2 d4( f)
     g c, g2
     c4 r r8 cis cis cis %10
     d4 d r8 fis fis fis
@@ -661,7 +661,7 @@ B-ISanctusBasso = {
     e2 r\fermata \bar "||"
     \tempoB-IPleni \newSpacingSection R1*5 %19
     \mvTr c8\pE^\solo e16([ f)] g8 h16 g c8 c, r c' %20
-    d16([ c h a)] \appoggiatura a8 g8.\trill f16 e8 c r16 g'[ a h]
+    d16([ c h a)] g8.\trill f16 e8 c r16 g'[ a h]
     c[ c, c'8]~ c16[ a fis d] h'[ g, h'8]~ h16[ g e c]
     d[ d'] h g d4\trill g, r
     g'16[ a h c] h[ g a h] c8[ g] e16[ g c, e]

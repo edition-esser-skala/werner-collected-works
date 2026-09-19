@@ -1,9 +1,16 @@
 \version "2.24.0"
 
+\layout {
+  \context {
+    \Staff
+    \accidentalStyle modern
+  }
+}
+
 tempoB-IKyrie = \tempoMarkup "Vivace"
   tempoB-IChriste = \tempoMarkup "Larghetto"
   tempoB-IKyrieFuga = \tempoMarkup "Allegro"
-tempoB-IGloria = \tempoMarkup \markup \concat { "Vivace passato " \normalsize \critnote }
+tempoB-IGloria = \tempoMarkup "Vivace passato"
   tempoB-IQuiTollis = \tempoMarkup "Largo"
   tempoB-IMiserere = \tempoMarkup "Tempo giusto"
   tempoB-IQuoniam = \tempoMarkup "Andante"

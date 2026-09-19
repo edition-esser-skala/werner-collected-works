@@ -482,7 +482,7 @@ B-IGloriaChords = {
     d e8 f g4 f %125
     f d e e
     c d8 a d c f[ e]
-    c4 a'8 b a \hA b a \hA b
+    c4 a'8 b a b a b
     a4 g8 f e2
     f f %130
     f4 e8 d c4. <g' b>8
@@ -510,13 +510,13 @@ B-IQuoniamChords = {
     e f g a d, e f g e f32 g a16 f \appoggiatura e8 d8.\trill c16 %100
     c4 r r2
     R1
-    r4 r8 d~ d16 g fis e d e d c
-    d8 g, r \once \tieDashed g'~ g16 c h a g f e d
+    r4 r8 d d16 g fis e d e d c
+    d8 g, r g' g16 c h a g f e d
     e d c d e f g a f g a b g a b c %105
-    a8.\trill b32 a g16( f) \once \slurDashed e( f) e4 r
+    a8.\trill b32 a g16( f) e( f) e4 r
     R1
     r8 c f4.\trill e16 d e4~\trill
-    e8 d16 c d4.\trillE c16 h c4
+    e8 d16 c d4.\trill c16 h c4
     R1 %110
     r2 r4 r8 d
     e16 f g a d, e f g e f g a d, e f g \noBreak
@@ -874,12 +874,12 @@ B-ISanctusChords = {
     \tempoB-IPleni \newSpacingSection
       \oneVoice c'16 d e f g8 g, c16 d e d c c d e \noBreak %15
     f f g a g f e d e d c8 r16 e f g
-    d e fis g c, d e fis g8 d~ d16 e f g
-    e8 g~ g16 a h c a h a g f g f e
+    d e fis g c, d e fis g8 d d16 e f g
+    e8 g g16 a h c a h a g f g f e
     d d e f g a g f e d c d d8.\trill c16
     c4 \voiceOne \tiny d8 h <e, a>4 <e c'> %20
     <a d> d8 h \oneVoice \normalsize r16 c e f g4~
-    \sbOn \tuplet 3/2 8 { g16 a g } fis e \sbOff \hA fis4\trill g \voiceOne \tiny h,8 c
+    \sbOn g16 a32 g fis16 e \sbOff fis4\trill g \voiceOne \tiny h,8 c
     <fis, c'> <g h> <g a> \brkBeam \oneVoice \normalsize d' d16 e d e \tuplet 3/2 8 { \sbOn d e fis fis g a \sbOff }
     h8 g \voiceOne \tiny <g, h>4 <g c>8 \brkBeam \oneVoice \normalsize c \tuplet 3/2 8 { \sbOn c16 d e e f g \sbOff }
     a8 d, \tuplet 3/2 8 { \sbOn d16 e f f g a } h8 e, \tuplet 3/2 8 { e16 f g g a h \sbOff } %25
@@ -973,7 +973,7 @@ B-IPleniChords = {
     d d e f g a g f e d c d d8.\trill c16
     c4 r r2 %20
     r r16 c e f g4~
-    \sbOn \tuplet 3/2 8 { g16 a g } fis e \sbOff \hA fis4\trill g r
+    \sbOn \tuplet 3/2 8 { g16 a g } fis e \sbOff fis4\trill g r
     r r8 d d16 e d e \tuplet 3/2 8 { \sbOn d e fis fis g a \sbOff }
     h8 g r4 r8 c, \tuplet 3/2 8 { \sbOn c16 d e e f g \sbOff }
     a8 d, \tuplet 3/2 8 { \sbOn d16 e f f g a } h8 e, \tuplet 3/2 8 { e16 f g g a h \sbOff } %25
