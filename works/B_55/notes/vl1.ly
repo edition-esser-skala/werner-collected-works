@@ -239,3 +239,104 @@ B-LVCredoViolinoI = {
     d c h2\trill a\fermata \bar "|." %106 finis
   }
 }
+
+B-LVSanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoB-LVSanctus
+    r8 e'\fE c a b4 h
+    cis4. cis8 d d, d' c
+    b8. c16 d2 c4
+    h b a4. a8
+    gis f'! e d c h c4 %5
+    h8 e,\pp c h16 d c8 a'4 c,8 \noBreak
+    h8.[ c16 h8. c16] h4 r\fermata \bar "||"
+    \time 4/4 \tempoB-LVPleni R1 \noBreak
+    r16 c''\fE g c e, g c, e g, g' e g c, e g, h^\critnote
+    e,8 c r e'\p d8. g16 g4\trill %10
+    c,8. f16 f4\trill h,8 e a,16( gis) a8
+    gis16( fis) gis8 r4 r8 a\fE a a
+    f' d b a gis h a4~ \noBreak
+    a8 gis16 fis gis4\trill a2\fermata \bar "||" %15
+    \time 3/2 \tempoB-LVOsanna \newSpacingSection
+      R1.*2
+    e'1\fE c2
+    d2. c4 h2
+    c4 h a2 h~
+    h4 a g2 r %20
+    c a h~
+    h4 a g2 g
+    a2.\trill h8 c d2
+    c1 h2
+    c e c %25
+    d2. c4 h2
+    c2. h4 a c
+    h a a2 gis
+    a a h4 c
+    d2 g,! r %30
+    R1.
+    r2 e' c
+    d2. c4 h2
+    c4 h a2 h~
+    h4 a g2 a~ %35
+    a4 c h a gis2
+    a1 gis2
+    a1.\fermata \bar "|." %38 finis
+  }
+}
+
+B-LVBenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoB-LVBenedictus
+    c'8.\trill\p h32 a g8 f e c r4
+    r8 a'16( c) g( c) f,( c') e,8 r r4
+    \sbOn \tuplet 3/2 8 { e'16\f d c c h a } \sbOff fis'8 r g,8.\trillE\p fis32 e d8 c
+    h g r4 r2
+    r4 r8 d' e f!16 g g( f) f( e) %5
+    d4 r r2
+    r8 g'\f f16( a) d,( f) \once \slurDashed e(\trill d) e8 r4
+    r8 d\p g4~ g16 f f8 r4
+    r r8 g,\f e16( c') h( a) \sbOn \tuplet 3/2 8 { g a g } f e \sbOff
+    d8 e16 f d8.\trill d16 c4 r\fermata \markOsannaUtSupra \bar "||" %10 finis
+  }
+}
+
+B-LVAgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoB-LVAgnus
+    r8 c'\pE c c h h b b
+    a a a d c a'4 c,8
+    c c c c r dis fis a,
+    a( gis) gis4 r2
+    R1 %5
+    r8 e' f g a32(^\critnote c16.) f,32( a16.) c,32( f16.) a,32( c16.)
+    a a32 a8\trill a16. a32 a8\trill gis4 r
+    e'16. c32 c8\trill c16. g32 g8\trill b16. g32 g8\trill g16. e32 e8\trill
+    f'16. d32 d8\trill d16. a32 a8\trill c!16. a32 a8\trill a16. fis32 fis8\trill
+    gis h4\fE h8 cis cis d d %10
+    e4. e8 d4. d8
+    c! d e4. d4 c8 \noBreak
+    r c a' c, h2\fermata \bar "||"
+    \time 4/4 \tempoB-LVDona
+      a4.\fE h8 c4 a \noBreak
+    r8 e' d c h e, e'16 d e8 %15
+    c16 h c4 d8 e d16 e c8 h16 a
+    h a h4 a8 g8. a16 h4~
+    h8 a16 h c8 d e8. d16 c8 h16 a
+    h8 e, h' cis d8 e f4~
+    f8 e16 d e8 d16 c d2\trill %20
+    e4 r r8 g f e
+    d h g4 r8 a g f
+    e c r4 r8 d' c b
+    a e' d c h f' e d
+    c e16 d c8 h a2~ %25
+    a4 gis8 a h gis4 a8
+    h4 gis c4. d8
+    e4 c h4. c8
+    d4 h r c
+    d h c8 h a4\p %30
+    h gis a r\fermata \bar "|." %31 finis
+  }
+}

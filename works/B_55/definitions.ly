@@ -22,7 +22,12 @@ tempoB-LVCredo = \tempoMarkup "Andante moderato"
   tempoB-LVEtResurrexit = \tempoMarkup "Vivace" %90
   tempoB-LVEtInSpiritum = \tempoMarkup "Larghetto" %90
   tempoB-LVEtVitam = \tempoMarkup "Allegro" %220
-% tempoB-LV = \tempoMarkup ""
+tempoB-LVSanctus = \tempoMarkup "Largo"
+  tempoB-LVPleni = \tempoMarkup "Allegro"
+  tempoB-LVOsanna = \tempoTitleMarkup "Osanna" "Allegretto"
+tempoB-LVBenedictus = \tempoMarkup "Andante"
+tempoB-LVAgnus = \tempoMarkup "Adagio"
+  tempoB-LVDona = \tempoMarkup "Presto"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

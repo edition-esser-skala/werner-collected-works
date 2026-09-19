@@ -8,13 +8,14 @@ sources:
   B1:
     siglum: A-HE
     shelfmark: VIII a 6:5
-    date: 1756
+    date: 1756-12-14
     rism: 600090680
     license: public domain
     principal: true
 tocstyle: default
 toe: |
   1 & 35 & org, vlne & 4th \quarterNote\ in \B1: f4 \\
+    & 42 & S    & 12th \sixteenthNote\ in \B1: c″16 \\
   2 & 6  & vl 2 & rhythm of 2nd/3rd \quarterNote\ in \B1: 2× 16–16–8 \\
     & 18 & S    & rhythm of 1st \quarterNote\ in \B1: 8–16–16 \\
     & 21 & vl 2 & 1st \quarterNote\ in \B1: d″16–g′16–g″8 \\
@@ -30,3 +31,7 @@ toe: |
     & 51 & T    & last \eighthNote\ in \B1: d′8 \\
     & 53 & A    & 6th \eighthNote\ in \B1: f′8 \\
     & 77 & vl 1 & 5th \eighthNote\ in \B1: e″8 \\
+  4 & 9  & vl 1 & last \sixteenthNote\ in \B1: c″16 \\
+  6 & 6  & vl 1 & rhythm of 2nd \halfNote\ in \B1: 4 × 16.–32 \\
+    & 15 & vl 2 & 4th \quarterNote\ in \B1: \sharp f′4 \\
+    & 29 & vl 2 & 6th \eighthNote\ in \B1: f′8 \\

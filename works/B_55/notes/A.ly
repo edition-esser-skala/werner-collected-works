@@ -359,3 +359,176 @@ B-LVCredoAltoLyrics = \lyricmode {
   ven -- tu -- ri sae -- cu -- %105
   li, a -- men. %106 finis
 }
+
+B-LVSanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoB-LVSanctus
+    \mvTr e2.\fE^\tutti d4
+    r8 b'4 b8 a2~
+    a8[ g16 a] b8[ a] gis4 a~
+    a g2 f8([ e)]
+    d4 h'! a8([ gis)] a a %5
+    gis4 r r2 \noBreak
+    R1\fermata \bar "||"
+    \time 4/4 \tempoB-LVPleni
+      r8 \mvTr g\fE^\tutti g g g4 g8 g \noBreak
+    g e r4 r r8 g
+    g e r4 r2 %10
+    R1*2
+    r8 \mvTr d\fE^\tuttiE d d h'! gis e([ f] \noBreak
+    e2) e\fermata \bar "||"
+    \time 3/2 \tempoB-LVOsanna \newSpacingSection
+      \mvTr e1\fE^\tutti c2( \noBreak %15
+    d2. c4) h2
+    c2.( h4) a2
+    a'1 gis2
+    a1( f2)
+    g!2.( f4) e2~ %20
+    e f2. e4
+    d2( e2. d4)
+    c2 f1
+    e2 d1
+    e2 g e %25
+    f4( e) d2 g
+    g4 f8[ g] a2. g4
+    f e8[ d] c2 h
+    a1 r2
+    R1.*2 %31
+    r2 r a'
+    f( g2. f4)
+    e2 f4( e) d2
+    e2.( d4) c2 %35
+    f1 e2
+    e1.
+    e\fermata \bar "|." %38 finis
+  }
+}
+
+B-LVSanctusAltoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus, san --
+  _ ctus Do --
+  _ mi --
+  nus De -- us Sa -- ba -- %5
+  oth.
+
+  Ple -- ni sunt coe -- li et
+  ter -- ra, et
+  ter -- ra %10
+
+  o -- san -- na in ex -- cel -- %13
+  sis.
+  O -- san -- %15
+  na
+  in __ ex --
+  cel -- sis,
+  o --
+  san -- na __ %20
+  in ex --
+  cel --
+  sis, in
+  ex -- cel --
+  sis, o -- san -- %25
+  na __ in ex --
+  cel -- _ _ _
+  _ _ _ _
+  sis,
+
+  o -- %32
+  san --
+  na in __ ex --
+  cel -- sis, %35
+  in ex --
+  cel --
+  sis. %38 finis
+}
+
+B-LVBenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoB-LVBenedictus
+    R1*2
+    r2 \mvTr g'4.\pE^\solo e16([ fis)]
+    g8 g,4 e'16([ fis)] g8 g, r e'
+    f g16 a \appoggiatura a8 g8.\trill f16 e4 r %5
+    r8 d e fis16 g a8 g16 g g8 fis
+    g4 r r r8 e
+    e16([ d)] d8 r4 r8 f f e16 d
+    e8 c16 d \appoggiatura c8 h8.\trill c16 c4 r
+    R1\fermata \markOsannaUtSupra \bar "||" %10 finis
+  }
+}
+
+B-LVBenedictusAltoLyrics = \lyricmode {
+  Be -- ne -- %3
+  di -- ctus, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni, %5
+  qui ve -- nit in no -- mi -- ne Do -- mi --
+  ni, qui
+  ve -- nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni. %9 finis
+}
+
+B-LVAgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoB-LVAgnus
+    R1*3
+    r4 r8 \mvTr e([\pE^\solo f)] fis gis16([ fis)] gis8
+    a2.( gis4) %5
+    a r r2
+    R1*3
+    r8 \mvTr e4\fE^\tutti e8 g! g f4 %10
+    e a8 g fis4( gis)
+    a e a g \noBreak
+    fis4.( dis8) h2\fermata \bar "||"
+    \time 4/4 \tempoB-LVDona R1 \noBreak
+    \mvTr e4.\fE^\tuttiE fis8 g4 e %15
+    r8 a[ g f] e[ a,] a'4~
+    a8[ g16 fis] g8[ a] h8.[ a16 g8. fis16]
+    e4 r8 a( gis[ a16 h] e,4)
+    e2 a
+    g!8 g4( a) a8 g4 %20
+    g8 c,4 d8 e4( f)
+    g8 h,4 c8 d([ c] d16[ c d8)]
+    g,4 r r g'16[ f g8]
+    c,[ g'] a16[ g a8] d,[ a'] h16[ a h8]
+    e,4 r a, a'8([ g)] %25
+    f([ e d f)] e e4 fis8
+    gis4 e a4. h8
+    c4 a gis4. a8
+    h4 gis r8 e([ a g]
+    f4) e2 c4(\pE %30
+    f e) e r\fermata \bar "|." %31 finis
+  }
+}
+
+B-LVAgnusAltoLyrics = \lyricmode {
+  Mi -- se -- re -- re %4
+  no -- %5
+  bis.
+
+  A -- gnus De -- i, qui %10
+  tol -- lis pec -- ca --
+  ta, pec -- ca -- ta
+  mun -- di:
+
+  Do -- na no -- bis %15
+  pa -- _ _
+  _ _
+  cem, pa --
+  cem, pa --
+  cem, no -- bis pa -- %20
+  cem, do -- na no --
+  bis, do -- na no --
+  bis pa --
+  _ _ _ _
+  cem, no -- bis %25
+  pa -- cem, do -- na
+  no -- bis, no -- bis
+  pa -- cem, do -- na
+  no -- bis pa --
+  cem, pa -- %30
+  cem. %31 finis
+}
