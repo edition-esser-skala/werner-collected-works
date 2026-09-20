@@ -1,0 +1,18 @@
+title: Requiem
+id: WerW C.1
+genre: requiem mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, b, org
+ark: 68748/e1gjwc1
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.37
+    date: 1763
+    rism: 530001947
+    url: https://copia.oszk.hu/kotta/requiem-a-8-parti/
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 1 & org & tempo indication in \A1: “Adagio” \\
