@@ -229,3 +229,333 @@ C-ISequentiaAltoLyrics = \lyricmode {
   _ _ men, %80
   a -- men. %81 finis
 }
+
+C-IHomoAlto = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoC-IHomo
+    r2 \mvTr e8([\fE^\tutti c)] e([ g)]
+    f([^\critnote g16 f] es8[ d)] es4 r
+    e8 e e e d4 r
+    R1
+    d4 g g f! %5
+    es8.([ f16] g8) es d4 r
+    R1
+    r2 r8 g g g
+    g([ f)] f4 r8 a! a a
+    a([ g)] g b a4. b16[ a] %10
+    g4. a16([ g)] fis8([ d)] e([ fis)]
+    g([ fis)] g4 fis r
+    \mvTr f8\pE^\solo f4 \tuplet 3/2 8 { g16([ a b)] } f8 r r4
+    f8.([ g32 a] b16[ f)] es([ d)] c8 a'16([ c,)] b8.\trill b16
+    a8 c4 d8 es([ f g)] f16([ es)] %15
+    d4 r r8 c f16 a c d
+    b8 b r4 r r8 es,
+    g g g a b b b b
+    a2~ a16[ b a b] c8 b
+    a4( g8.)\trill f16 f4 r %20
+    R1*12 %32
+    r2 \mvTr g4\fE^\tutti g
+    as g f16([ g as8)] g f
+    e e4 f16 g f8 as4 f8 %35
+    f([ e)] e4 r2
+    R1
+    g4 g8 g g4 g
+    es as g8 g g4~ \noBreak
+    g8 g16 g g4 g r \bar "|" %40
+    \tempoC-IPreterire R1*2
+    d8 g4 a8 b a16 g a8 g16([ fis)]
+    g8 g16([ f)] es8 d16([ c)] b8 c a d
+    c a' d, g fis d b' a %45
+    g4 e8 a d,4 r8 a'
+    g4 f8 g es4 es8 f
+    g f16 es f8 es16([ d)] es4 es8 f
+    g f16 e? f8 es?16([ d)] es8 c d c16([ h)]
+    c8 d es f g4 f %50
+    es4. d8 g4 f~
+    f8 es d8. d16 c4 r\fermata \bar "|." %52 finis
+  }
+}
+
+C-IHomoAltoLyrics = \lyricmode {
+  Ho -- mo
+  na -- tus
+  de mu -- li -- e -- re
+
+  bre -- vi vi -- vens %5
+  tem -- po -- re
+
+  re -- ple -- tur
+  mul -- tis, re -- ple -- tur
+  mul -- tis mi -- se -- _ %10
+  _ ri -- is, mi --
+  se -- ri -- is.
+  Qui qua -- si flos,
+  qua -- si flos e -- gre -- di --
+  tur et con -- te -- ri -- %15
+  tur et fu -- git ve -- lut
+  um -- bra et
+  nun -- quam in e -- o -- dem sta -- tu,
+  sta -- _ tu
+  per -- ma -- net. %20
+
+  Bre -- ves %33
+  di -- es ho -- mi -- nis
+  sunt, nu -- me -- rus men -- si -- um %35
+  e -- ius
+
+  a -- pud te est, con --
+  sti -- tu -- i -- sti ter --
+  mi -- nos e -- ius, %40
+
+  qui pre -- ter -- i -- re non po -- te -- %43
+  runt, non po -- te -- runt, non po -- te --
+  runt, non po -- te -- runt, non po -- te -- %45
+  runt, po -- te -- runt, non,
+  non po -- te -- runt, pre -- ter --
+  i -- re non po -- te -- runt, pre -- ter --
+  i -- re non po -- te -- runt, non po -- te --
+  runt, non po -- te -- runt, non %50
+  po -- te -- runt, non, __
+  non po -- te -- runt. %52 finis
+}
+
+C-ISanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoC-ISanctus
+    r8 \mvTr c4\fE^\tutti d8 e[ f] g4~
+    g8 f4 es8 d d'4 c8
+    b2~ b8 as4 g8
+    fis[ g16 a] g8[ fis] g4. a8
+    g4( fis) g r %5
+    r8 e g c as4 as
+    r8 fis a d b4 b
+    r8 g4 g8 g4. g8
+    fis4 r r2
+    R1*6 \noBreak %15
+    R1\fermata \bar "||"
+    \tempoC-IOsanna R1*2
+    r2 \mvTr c\fE^\tuttiE
+    fis g8([ a)] h a16([ h)] %20
+    c4. b8 as16[ g f8] g[ as]
+    d,[ es16 f] g8[ f] es([ d)] c c'
+    h4 b a! as8[ g16 f]
+    g4. as16[ g] f8[ c] f4~
+    f8[ es16 d] es8[ f] g4. e8 %25
+    c r r g' a!4.( fis8)
+    d2 r
+    r c
+    fis g4 d
+    g2 g8 es8.([ f16)] g8 %30
+    as4.( f8) g4 r
+    R1
+    c,2 fis
+    g8 h,([ c)] d es([ f] g[ f16 es)]
+    d4 r r8 c([ d)] e %35
+    f[( g as b] c4) c,~
+    c g'4. f16([ e)] f4
+    e2 r\fermata \bar "|." %38 finis
+  }
+}
+
+C-ISanctusAltoLyrics = \lyricmode {
+  San -- _ _ _
+  _ _ ctus, san -- _
+  _ _ _
+  _ _ _ ctus,
+  san -- ctus %5
+  Do -- mi -- nus De -- us,
+  Do -- mi -- nus De -- us,
+  De -- us Sa -- ba --
+  oth.
+
+  O -- %19
+  san -- na in ex -- %20
+  cel -- _ _ _
+  _ _ sis, in ex --
+  cel -- _ _ _
+  _ _ _ _
+  _ _ _ %25
+  sis, o -- san --
+  na,
+  o --
+  san -- na, o --
+  san -- na in __ ex -- %30
+  cel -- sis,
+
+  o -- san --
+  na in ex -- cel --
+  sis, in ex -- %35
+  cel -- sis, __
+  in ex -- cel --
+  sis. %38 finis
+}
+
+C-IBenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \key es \lydian \time 3/4 \autoBeamOff \tempoC-IBenedictus
+      \once \override Staff.TimeSignature.style = #'single-digit
+    R2.*13 %13
+    \mvTr g'2\pE^\solo f16([ g as8)]
+    g([ f)] g4 r %15
+    g es8([ g)] f es
+    d([ c)] d4 r
+    r es c~
+    c8[ d16 es] f4. es8
+    d4 d8([ es)] f([ d)] %20
+    b g' f([\trill es)] d([\trill c)]
+    d4 r r
+    R2.
+    b4( es) g
+    c, as'8([\trill g)] f([\trill es)] %25
+    d([ c)] d4 r
+    r r f
+    b,8[ g' f es d c]
+    b[ b' as g f es]
+    d16[ es f8] es([ d)] es16([ f g8)] %30
+    as[ f] es4( d8.)\trill es16
+    es4 r r
+    R2.*3 %35
+    R2.\fermata \markOsannaUtSupra \bar "||" %36 finis
+  }
+}
+
+C-IBenedictusAltoLyrics = \lyricmode {
+  Be -- ne -- %14
+  di -- ctus, %15
+  qui ve -- nit, qui
+  ve -- nit,
+  qui ve --
+  _ _
+  nit in no -- %20
+  mi -- ne Do -- mi --
+  ni,
+
+  be -- ne --
+  di -- ctus, qui %25
+  ve -- nit
+  in
+  no --
+  _
+  _ mi -- ne %30
+  Do -- _ mi --
+  ni. %32 finis
+}
+
+C-IAgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoC-IAgnus
+    \mvTr g'4.\fE^\tutti g8 f2~
+    f4 d8 f es16([ d)] es8 r g
+    es([ f16 g] as4) f r8 d
+    g4 g g( fis)
+    g r r2 %5
+    r r8 g4 g8
+    f2. a4
+    g2~ g8[ fis] g4
+    fis r r2
+    R1*6 %15
+    \mvTr es4.\fE^\tutti g8 es4 e8 e
+    f f4 g8 f4 es
+    d2 c8 e([ f g)]
+    c, f([ e)] es des16([ c)] des8 es([ f)]
+    b, es4 es8 es8.[ f16] g4~ %20
+    g8[ f] es4 d8 g4 es8 \noBreak
+    d2\trill c\fermata \bar "||"
+    r8 \mvTr g'4\pE^\soloE^\aTre es16([ g)] as8([ g16 f)] g4 \noBreak
+    R1
+    r8 d4 b16([ d)] es8([ d16 c)] d4 %25
+    r2 r4 d(
+    e8.) e16 f4 g4. f8
+    es4 fis8 fis g8. g16 g4
+    fis8 fis g2 fis4 \noBreak
+    g2 r\fermata \bar "||" %30
+    \tempoC-ICumSanctis R1 \noBreak
+    r2 \mvTr d8\fE^\tuttiE g4 fis8
+    g b16([ a)] g8 fis g16([ f es8] d) g16([ f)]
+    es([ d)] c([ es)] d([ f)] es([ d)] es([ f)] g([ f)] es8 d
+    es g4 a!16([ g)] fis8 d c d %35
+    d r g a g8. g16 f8 es16([ d)]
+    es8 g4 g8 g4~ g16[ e] f([ g)]
+    c,8 es f8. f16 b,8 c4 b8
+    b es16([ f] g[ as)] b([ as)] g([ f)] es([ f)] g([ as)] b([ as)]
+    g([ f)] es([ g)] as([ g)] f([ as)] d,8 es f16([ as!)] g([ f)] %40
+    es([ f)] g4 g8 g4~ g16[ f] g8
+    c, as'([ b)] as16([ g)] f([ g)] as([ b)] c8 c,
+    c4 r8 g'( as16[ b]) as([ g)] f4
+    g4. g8 g es as g \noBreak
+    g4. g8 g4 r\fermata \bar "||" %45
+    \tempoC-IRequiem \mvTr es4(\fE^\tuttiE e f) es8([ d)] \noBreak
+    es4 r r8 g as[ g]~
+    g[ f16 e] f2 e4
+    f as8 g fis4 g
+    e( f2) es8([ d)] %50
+    c4 d( es16[ f] es8)] d([ c)]
+    d4 r r2
+    R1
+    r8 b'! as g f8. f16 f8 r
+    r c' b a g8. g16 g4 %55
+    g2. g8 g
+    f4 g8 g f4.( e16[ d)]
+    e2 r\fermata \markCumSanctisUtSupra \bar "||" %58 finis
+  }
+}
+
+C-IAgnusAltoLyrics = \lyricmode {
+  A -- gnus De --
+  i, qui tol -- lis pec --
+  ca -- ta, pec --
+  ca -- ta mun --
+  di: %5
+  Do -- na
+  e -- i
+  re -- qui --
+  em.
+
+  A -- gnus De -- i, qui %16
+  tol -- lis pec -- ca -- ta
+  mun -- di: Do --
+  na, do -- na e -- i, do --
+  na e -- i re -- _ %20
+  qui -- em sem -- pi --
+  ter -- nam.
+  Lux ae -- ter -- na,
+
+  lux ae -- ter -- na %25
+  lu --
+  ce -- at e -- i,
+  lu -- ce -- at, lu -- ce -- at
+  e -- i, Do -- mi --
+  ne. %30
+
+  Cum San -- ctis
+  tu -- is in ae -- ter -- num
+  qui -- a, qui -- a pi -- us, pi -- us
+  es, qui -- a pi -- us, pi -- us %35
+  es, qui -- a, qui -- a pi -- us
+  es, qui -- a pi -- us,
+  qui -- a pi -- us es, pi -- us
+  es, qui -- a pi -- us, qui -- a
+  pi -- us, pi -- us, qui -- a pi -- us %40
+  es, qui -- a pi -- us
+  es, qui -- a, qui -- a pi -- us
+  es, pi -- us es,
+  qui -- a, qui -- a pi -- us,
+  pi -- us es. %45
+  Re -- qui --
+  em ae -- ter --
+  _ _
+  nam do -- na e -- i,
+  Do -- mi -- %50
+  ne, Do -- mi --
+  ne:
+
+  Et lux per -- pe -- tu -- a,
+  et lux per -- pe -- tu -- a %55
+  lu -- ce -- at,
+  lu -- ce -- at e --
+  i. %58 finis
+}
