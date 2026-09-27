@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026.09.0 – 2027-09-27
+
+### Added
+
+- works: WerW B.10/55 and C.1
+
+### Changed
+
+- revised WerW B.1
+- Template uses “modern” accidental style by default.
+
+### Fixed
+
+- All work metadata is now consistent with information in the catalogue of works.
+
+
 ## 2026.08.0 – 2026-08-30
 
 ### Added
