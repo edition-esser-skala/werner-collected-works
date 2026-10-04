@@ -18,7 +18,7 @@
 
 \book {
   \bookpart {
-    \section "D.4.3" "Rorate cœli desuper"
+    \section "D.4.3" "Rorate cœli"
     \addTocEntry
     \paper {
       indent = 3\cm

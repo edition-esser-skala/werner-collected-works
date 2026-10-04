@@ -7,7 +7,7 @@
 
 \book {
   \bookpart {
-    \section "D.4.6" "Rorate cœli desuper"
+    \section "D.4.6" "Rorate cœli"
     \addTocEntry
     \paper { systems-per-page = #8 }
     \score {
