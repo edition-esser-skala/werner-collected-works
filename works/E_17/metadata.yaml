@@ -1,0 +1,54 @@
+title: Heut tratt der Jacobs Stern
+id: WerW E.17
+genre: sacred song
+scoring: S (solo), 2 vl, b, org
+ark: 68748/e1gjwe17
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.320
+    rism: 530003650
+    url: https://copia.oszk.hu/kotta/advent-lied-in-f/
+    license: public domain
+    principal: true
+toe: |
+  –  & –   & In \A1, the four stanzas are written out in S.
+             In the instrumental parts, one stanza is written,
+             and repetition is indicated
+             by the directive “Da Capo 3 volte e poi sin al segno”. \\
+  56 & S & grace note added by editor \\
+  95 & S & lst \sixteenthNote\ in \A1: b′16 \\
+parts:
+  S_solo: Soprano solo
+lyrics:
+  Heüt tratt der Jacobs Stern\\
+  ins ſchöne Himmelszeichen\\
+  der keuſchen Jungfrau ein\\
+  dem müßt der helle Schein\\
+  der goldnen Sonnen weichen\\
+  und neigen ſich von fern.\\
+  Es war in gantzen Thürekreiß\\
+  kein Zeichen je ſo rein\\
+  die Jungfrau nur erhielt den Preis\\
+  ſie ſolt die würdigſt ſeyn.\\[1ex]
+  Hier war kein Fünſternuß\\
+  in dieſen Stern zu ſehen\\
+  es war allß klar und hell\\
+  daß dunckle Schattenfehl\\
+  muſt nur auch rückwerths gehen\\
+  der Höllen zum Verdruß.\\
+  Es würd demnach die fünſtre Welt\\
+  in allweeg hell beleücht\\
+  und gleichſam auf daß neu beſeelt\\
+  mit Gnadenthau befeücht.\\[1ex]
+  Es kam der Gnadenſtern\\
+  in d’Milchſtraß eingegangen\\
+  die ihm den Wachsthum gab\\
+  damit er könnt herab\\
+  auf dieſe Welt gelangen\\
+  und noch mehr Liecht beſchern.\\
+  Wer ſollte dieſen Gnadenſchein\\
+  nicht folgen williglich\\
+  weil er will unſer Führer ſeyn\\
+  und leithen ſicherlich.
