@@ -1,0 +1,20 @@
+\version "2.24.0"
+
+\include "../../../definitions_main.ly"
+\include "../definitions.ly"
+#(define option-instrument-name "org")
+\include "score_settings/one-staff.ly"
+
+\book {
+  \bookpart {
+    \section "E.16" "Schönſte Jungfrau unter allen"
+    \addTocEntry
+    \paper { system-count = #5 }
+    \score {
+      <<
+        \new Staff { \E-XVIOrgano }
+        \new FiguredBass { \E-XVIBassFigures }
+      >>
+    }
+  }
+}
