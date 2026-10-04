@@ -1,0 +1,27 @@
+title: Rorate cœli
+id: WerW D.4.7
+genre: introit
+scoring: S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwd47
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Sp
+    shelfmark: Vpl, a) 4:1
+    rism: 1001023508
+    license: public domain
+    principal: true
+toe: |
+  26 & A    & bar in \B1: \flat b′1 \\
+  26 & T    & 1st \halfNote\ in \B1: d′2 \\
+  29 & org  & treble ottavo clef added by editor \\
+  36 & vl 1 & bar in \B1: \flat b′1 \\
+lyrics:
+  Rorate coeli desuper,\\
+  et nubes pluant iustum:\\
+  aperiatur terra,\\
+  et germinet Salvatorem.\\
+  (\bibleverse{Isa}(45:8))\\[1ex]
+  Coeli enarrant gloriam Dei:\\
+  Et opera manuum eius annuntiat firmamentum.\\
+  (\bibleverse{Ps}(19/18:2))
