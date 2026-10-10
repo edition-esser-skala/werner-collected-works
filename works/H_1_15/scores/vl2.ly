@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,62 +12,57 @@
     \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \H-I-XVIDixitOrgano }
-        \new FiguredBass { \H-I-XVIDixitBassFigures }
+        \new Staff { \H-I-XVDixitViolinoII }
       >>
     }
   }
   \bookpart {
     \section "2" "Confitebor"
     \addTocEntry
-    \paper { system-count = #7 }
+    \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \H-I-XVIConfiteborOrgano }
-        \new FiguredBass { \H-I-XVIConfiteborBassFigures }
+        \new Staff { \H-I-XVConfiteborViolinoII }
       >>
     }
   }
   \bookpart {
     \section "3" "Beatus vir"
     \addTocEntry
+    \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \H-I-XVIBeatusOrgano }
-        \new FiguredBass { \H-I-XVIBeatusBassFigures }
+        \new Staff { \H-I-XVBeatusViolinoII }
       >>
     }
   }
   \bookpart {
     \section "4" "Laudate pueri"
     \addTocEntry
-    \paper { system-count = #6 }
+    \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \H-I-XVIPueriOrgano }
-        \new FiguredBass { \H-I-XVIPueriBassFigures }
+        \new Staff { \H-I-XVPueriViolinoII }
       >>
     }
   }
   \bookpart {
     \section "5" "Laudate Dominum"
     \addTocEntry
-    \paper { system-count = #3 }
+    \paper { system-count = #2 }
     \score {
       <<
-        \new Staff { \H-I-XVILaudateOrgano }
-        \new FiguredBass { \H-I-XVILaudateBassFigures }
+        \new Staff { \H-I-XVLaudateViolinoII }
       >>
     }
   }
   \bookpart {
     \section "6" "Magnificat"
     \addTocEntry
-    \paper { system-count = #7 }
+    \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \H-I-XVIMagnificatOrgano }
-        \new FiguredBass { \H-I-XVIMagnificatBassFigures }
+        \new Staff { \H-I-XVMagnificatViolinoII }
       >>
     }
   }

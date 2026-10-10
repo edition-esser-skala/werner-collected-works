@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-I-XVIDixitBasso = {
+H-I-XVDixitBasso = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoH-I-XVIDixit \autoBeamOff
+    \key c \major \time 4/4 \tempoH-I-XVDixit \autoBeamOff
     \mvTr c8\fE^\tutti c' h g16 g e8 c16 c g'4
     e8 c([ f)] d g([ e)] a f
     h([ g)] e([ c')] g g r \mvTr g\pE^\solo
@@ -23,7 +23,7 @@ H-I-XVIDixitBasso = {
   }
 }
 
-H-I-XVIDixitBassoLyrics = \lyricmode {
+H-I-XVDixitBassoLyrics = \lyricmode {
   Di -- xit Do -- mi -- nus Do -- mi -- no me --
   o: Se -- de, se -- de a
   dex -- tris me -- is, e --
@@ -42,10 +42,10 @@ H-I-XVIDixitBassoLyrics = \lyricmode {
   sae -- cu -- lo -- rum, a -- men. %16 finis
 }
 
-H-I-XVIConfiteborBasso = {
+H-I-XVConfiteborBasso = {
   \relative c {
     \clef bass
-    \key a \minor \time 4/4 \autoBeamOff \tempoH-I-XVIConfitebor
+    \key a \minor \time 4/4 \autoBeamOff \tempoH-I-XVConfitebor
     r4 r8 \mvTr e\pE^\solo a e c a
     e' e r4 r2
     \mvTr c'8\fE^\tutti a f g16 g c,8 c16 c r8 a'
@@ -70,7 +70,7 @@ H-I-XVIConfiteborBasso = {
   }
 }
 
-H-I-XVIConfiteborBassoLyrics = \lyricmode {
+H-I-XVConfiteborBassoLyrics = \lyricmode {
   in to -- to cor -- de
   me -- o,
   Ma -- gna o -- pe -- ra Do -- mi -- ni: in
@@ -94,10 +94,10 @@ H-I-XVIConfiteborBassoLyrics = \lyricmode {
   a -- men, a -- men. %21 finis
 }
 
-H-I-XVIBeatusBasso = {
+H-I-XVBeatusBasso = {
   \relative c {
     \clef bass
-    \key f \major \time 3/2 \autoBeamOff \tempoH-I-XVIBeatus
+    \key f \major \time 3/2 \autoBeamOff \tempoH-I-XVBeatus
     R1.*2
     r4 \mvTr f2\pE^\solo e4 d4. d8
     c2 d4( e) f4.( e8)
@@ -134,7 +134,7 @@ H-I-XVIBeatusBasso = {
   }
 }
 
-H-I-XVIBeatusBassoLyrics = \lyricmode {
+H-I-XVBeatusBassoLyrics = \lyricmode {
   Ge -- ne -- ra -- ti -- %3
   o re -- cto --
   rum be -- ne -- di -- ce -- %5
@@ -169,10 +169,10 @@ H-I-XVIBeatusBassoLyrics = \lyricmode {
   men. %34 finis
 }
 
-H-I-XVIPueriBasso = {
+H-I-XVPueriBasso = {
   \relative c {
     \clef bass
-    \key d \minor \time 4/4 \autoBeamOff \tempoH-I-XVIPueri
+    \key d \minor \time 4/4 \autoBeamOff \tempoH-I-XVPueri
     R1
     r2 \mvTr f8\pE^\solo d a b
     c c16 c d8. d16 c4 r8 \mvTr c\fE^\tutti
@@ -195,7 +195,7 @@ H-I-XVIPueriBasso = {
   }
 }
 
-H-I-XVIPueriBassoLyrics = \lyricmode {
+H-I-XVPueriBassoLyrics = \lyricmode {
   ex hoc nunc et %2
   us -- que in sae -- cu -- lum. A
   so -- lis or -- tu us -- que ad oc --
@@ -215,10 +215,10 @@ H-I-XVIPueriBassoLyrics = \lyricmode {
   men. %19 finis
 }
 
-H-I-XVILaudateBasso = {
+H-I-XVLaudateBasso = {
   \relative c {
     \clef bass
-    \key b \major \time 4/4 \autoBeamOff \tempoH-I-XVILaudate
+    \key b \major \time 4/4 \autoBeamOff \tempoH-I-XVLaudate
     R1
     r8 \mvTr b'4\pE^\solo a16 a g8 f16([ e)] d8 \hA e
     f4 r r2
@@ -231,7 +231,7 @@ H-I-XVILaudateBasso = {
   }
 }
 
-H-I-XVILaudateBassoLyrics = \lyricmode {
+H-I-XVLaudateBassoLyrics = \lyricmode {
   Quo -- ni -- am con -- fir -- ma -- ta %2
   est
   et
@@ -242,10 +242,10 @@ H-I-XVILaudateBassoLyrics = \lyricmode {
   men. %9 finis
 }
 
-H-I-XVIMagnificatBasso = {
+H-I-XVMagnificatBasso = {
   \relative c {
     \clef bass
-    \key g \major \time 4/4 \autoBeamOff \tempoH-I-XVIMagnificat
+    \key g \major \time 4/4 \autoBeamOff \tempoH-I-XVMagnificat
     R1*2
     r2 r8 \mvTr g'8\pE^\solo fis f
     e a16 a fis8 g d d r4
@@ -269,7 +269,7 @@ H-I-XVIMagnificatBasso = {
   }
 }
 
-H-I-XVIMagnificatBassoLyrics = \lyricmode {
+H-I-XVMagnificatBassoLyrics = \lyricmode {
   hu -- mi -- li -- %3
   ta -- tem an -- cil -- lae su -- ae.
   be -- a -- tam me di -- cent o -- mnes ge -- ne -- %5

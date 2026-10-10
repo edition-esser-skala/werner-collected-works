@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "org")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,7 +12,8 @@
     \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \H-I-XVIDixitOrgano }
+        \new Staff { \H-I-XVDixitOrgano }
+        \new FiguredBass { \H-I-XVDixitBassFigures }
       >>
     }
   }
@@ -22,7 +23,8 @@
     \paper { system-count = #7 }
     \score {
       <<
-        \new Staff { \H-I-XVIConfiteborOrgano }
+        \new Staff { \H-I-XVConfiteborOrgano }
+        \new FiguredBass { \H-I-XVConfiteborBassFigures }
       >>
     }
   }
@@ -31,7 +33,8 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-I-XVIBeatusOrgano }
+        \new Staff { \H-I-XVBeatusOrgano }
+        \new FiguredBass { \H-I-XVBeatusBassFigures }
       >>
     }
   }
@@ -41,7 +44,8 @@
     \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \H-I-XVIPueriOrgano }
+        \new Staff { \H-I-XVPueriOrgano }
+        \new FiguredBass { \H-I-XVPueriBassFigures }
       >>
     }
   }
@@ -51,7 +55,8 @@
     \paper { system-count = #3 }
     \score {
       <<
-        \new Staff { \H-I-XVILaudateOrgano }
+        \new Staff { \H-I-XVLaudateOrgano }
+        \new FiguredBass { \H-I-XVLaudateBassFigures }
       >>
     }
   }
@@ -61,7 +66,8 @@
     \paper { system-count = #7 }
     \score {
       <<
-        \new Staff { \H-I-XVIMagnificatOrgano }
+        \new Staff { \H-I-XVMagnificatOrgano }
+        \new FiguredBass { \H-I-XVMagnificatBassFigures }
       >>
     }
   }

@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-I-XVIDixitTenore = {
+H-I-XVDixitTenore = {
   \relative c' {
     \clef "treble_8"
-    \key c \major \time 4/4 \tempoH-I-XVIDixit \autoBeamOff
+    \key c \major \time 4/4 \tempoH-I-XVDixit \autoBeamOff
     \mvTr e8\fE^\tutti e d d16 d c8 c16 c h4\trill
     c a8([ d)] h e c4
     d c h r
@@ -23,7 +23,7 @@ H-I-XVIDixitTenore = {
   }
 }
 
-H-I-XVIDixitTenoreLyrics = \lyricmode {
+H-I-XVDixitTenoreLyrics = \lyricmode {
   Di -- xit Do -- mi -- nus Do -- mi -- no me --
   o: Se -- de a dex -- tris
   me -- is,
@@ -42,10 +42,10 @@ H-I-XVIDixitTenoreLyrics = \lyricmode {
   sae -- cu -- lo -- rum, a -- men. %16 finis
 }
 
-H-I-XVIConfiteborTenore = {
+H-I-XVConfiteborTenore = {
   \relative c' {
     \clef "treble_8"
-    \key a \minor \time 4/4 \autoBeamOff \tempoH-I-XVIConfitebor
+    \key a \minor \time 4/4 \autoBeamOff \tempoH-I-XVConfitebor
     R1*2
     r8 \mvTr e\fE^\tutti d8. d16 c8 g16 a h8 c
     d e16 e d8 c h4( a)
@@ -69,7 +69,7 @@ H-I-XVIConfiteborTenore = {
   }
 }
 
-H-I-XVIConfiteborTenoreLyrics = \lyricmode {
+H-I-XVConfiteborTenoreLyrics = \lyricmode {
   Con -- fes -- si -- o et ma -- gni -- fi -- %3
   cen -- ti -- a o -- pus e --
   ius mi -- se -- ri -- cors et mi -- se -- %5
@@ -91,10 +91,10 @@ H-I-XVIConfiteborTenoreLyrics = \lyricmode {
   a -- men, a -- men. %21 finis
 }
 
-H-I-XVIBeatusTenore = {
+H-I-XVBeatusTenore = {
   \relative c' {
     \clef "treble_8"
-    \key f \major \time 3/2 \autoBeamOff \tempoH-I-XVIBeatus
+    \key f \major \time 3/2 \autoBeamOff \tempoH-I-XVBeatus
     R1.*2
     r2 r4 \mvTr c\pE^\solo h d
     g, c b g a2~
@@ -130,7 +130,7 @@ H-I-XVIBeatusTenore = {
   }
 }
 
-H-I-XVIBeatusTenoreLyrics = \lyricmode {
+H-I-XVBeatusTenoreLyrics = \lyricmode {
   Po -- tens in %3
   ter -- ra e -- rit se --
   men e -- %5
@@ -164,10 +164,10 @@ H-I-XVIBeatusTenoreLyrics = \lyricmode {
   men. %34 finis
 }
 
-H-I-XVIPueriTenore = {
+H-I-XVPueriTenore = {
   \relative c' {
     \clef "treble_8"
-    \key d \minor \time 4/4 \autoBeamOff \tempoH-I-XVIPueri
+    \key d \minor \time 4/4 \autoBeamOff \tempoH-I-XVPueri
     r2 r8 \mvTr d\pE^\solo d cis
     d16([ f)] e([ d)] c8.\trill b16 a4 r
     r8 c h16([ c)] d8 g, g r \mvTr c~\fE^\tutti
@@ -190,7 +190,7 @@ H-I-XVIPueriTenore = {
   }
 }
 
-H-I-XVIPueriTenoreLyrics = \lyricmode {
+H-I-XVPueriTenoreLyrics = \lyricmode {
   Lau -- da -- te
   no -- men Do -- mi -- ni.
   A so -- lis or -- tu us --
@@ -212,10 +212,10 @@ H-I-XVIPueriTenoreLyrics = \lyricmode {
   men. %19 finis
 }
 
-H-I-XVILaudateTenore = {
+H-I-XVLaudateTenore = {
   \relative c' {
     \clef "treble_8"
-    \key b \major \time 4/4 \autoBeamOff \tempoH-I-XVILaudate
+    \key b \major \time 4/4 \autoBeamOff \tempoH-I-XVLaudate
     r2 r8 \mvTr b\pE^\solo b es
     es d16([ es)] f8 c b4.\trill b8
     a4 r r2
@@ -227,7 +227,7 @@ H-I-XVILaudateTenore = {
   }
 }
 
-H-I-XVILaudateTenoreLyrics = \lyricmode {
+H-I-XVLaudateTenoreLyrics = \lyricmode {
   lau -- da -- te
   e -- um, o -- mnes po -- pu --
   li.
@@ -238,10 +238,10 @@ H-I-XVILaudateTenoreLyrics = \lyricmode {
   men. %9 finis
 }
 
-H-I-XVIMagnificatTenore = {
+H-I-XVMagnificatTenore = {
   \relative c' {
     \clef "treble_8"
-    \key g \major \time 4/4 \autoBeamOff \tempoH-I-XVIMagnificat
+    \key g \major \time 4/4 \autoBeamOff \tempoH-I-XVMagnificat
     R1
     r8 \mvTr g\pE^\solo d'8. c16 h c d a g4\trill
     a8 d cis c h g r4
@@ -265,7 +265,7 @@ H-I-XVIMagnificatTenore = {
   }
 }
 
-H-I-XVIMagnificatTenoreLyrics = \lyricmode {
+H-I-XVMagnificatTenoreLyrics = \lyricmode {
   in De -- o sa -- lu -- ta -- ri me -- %2
   o. hu -- mi -- li -- ta -- tem
   an -- cil -- lae su -- ae.

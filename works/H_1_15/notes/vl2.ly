@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-I-XVIDixitViolinoII = {
+H-I-XVDixitViolinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoH-I-XVIDixit
+    \key c \major \time 4/4 \tempoH-I-XVDixit
     c16\fE e g c g h d g c, e g c h g d h
     g c e c a d f d h e g e c f a f
     d g h g c g e c' h g d h g4
@@ -21,10 +21,10 @@ H-I-XVIDixitViolinoII = {
   }
 }
 
-H-I-XVIConfiteborViolinoII = {
+H-I-XVConfiteborViolinoII = {
   \relative c' {
     \clef treble
-    \key a \minor \time 4/4 \tempoH-I-XVIConfitebor
+    \key a \minor \time 4/4 \tempoH-I-XVConfitebor
     R1*2
     r8 c'4\fE h8 e8. e16 d8 c
     h c d e d4. d8
@@ -46,10 +46,10 @@ H-I-XVIConfiteborViolinoII = {
   }
 }
 
-H-I-XVIBeatusViolinoII = {
+H-I-XVBeatusViolinoII = {
   \relative c' {
     \clef treble
-    \key f \major \time 3/2 \tempoH-I-XVIBeatus
+    \key f \major \time 3/2 \tempoH-I-XVBeatus
     R1.*5 %5
     c'2.\fE a4 d d
     b d c8 g c b a4 a~
@@ -73,10 +73,10 @@ H-I-XVIBeatusViolinoII = {
   }
 }
 
-H-I-XVIPueriViolinoII = {
+H-I-XVPueriViolinoII = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/4 \tempoH-I-XVIPueri
+    \key d \minor \time 4/4 \tempoH-I-XVPueri
     <d a' f'>8[\pE r <cis e a> r <f d' a'>] r r4
     <f' a, d,>8[ r <g c,! e,> r <a c, f,>] r r4
     <g c, e,>8[ r <f h, d,> r <e g, c,>] r r4
@@ -99,10 +99,10 @@ H-I-XVIPueriViolinoII = {
   }
 }
 
-H-I-XVILaudateViolinoII = {
+H-I-XVLaudateViolinoII = {
   \relative c' {
     \clef treble
-    \key b \major \time 4/4 \tempoH-I-XVILaudate
+    \key b \major \time 4/4 \tempoH-I-XVLaudate
     R1*4
     r4 f4.\pE b16 a g a b8 %5
     a a r f4\fE a8 f b
@@ -112,10 +112,10 @@ H-I-XVILaudateViolinoII = {
   }
 }
 
-H-I-XVIMagnificatViolinoII = {
+H-I-XVMagnificatViolinoII = {
   \relative c' {
     \clef treble
-    \key g \major \time 4/4 \tempoH-I-XVIMagnificat
+    \key g \major \time 4/4 \tempoH-I-XVMagnificat
     R1*3
     r2 d16\fE d32 d d16 d fis fis a a
     d h8 d16 a d8 g,16 fis d'8 d16 h e8 e16 %5

@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vl 2")
+#(define option-instrument-name "vl 1")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,7 +12,7 @@
     \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \H-I-XVIDixitViolinoII }
+        \new Staff { \H-I-XVDixitViolinoI }
       >>
     }
   }
@@ -22,7 +22,7 @@
     \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \H-I-XVIConfiteborViolinoII }
+        \new Staff { \H-I-XVConfiteborViolinoI }
       >>
     }
   }
@@ -32,7 +32,7 @@
     \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \H-I-XVIBeatusViolinoII }
+        \new Staff { \H-I-XVBeatusViolinoI }
       >>
     }
   }
@@ -42,7 +42,7 @@
     \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \H-I-XVIPueriViolinoII }
+        \new Staff { \H-I-XVPueriViolinoI }
       >>
     }
   }
@@ -52,7 +52,7 @@
     \paper { system-count = #2 }
     \score {
       <<
-        \new Staff { \H-I-XVILaudateViolinoII }
+        \new Staff { \H-I-XVLaudateViolinoI }
       >>
     }
   }
@@ -62,7 +62,7 @@
     \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \H-I-XVIMagnificatViolinoII }
+        \new Staff { \H-I-XVMagnificatViolinoI }
       >>
     }
   }
