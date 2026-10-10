@@ -1,0 +1,19 @@
+title: Christus natus est nobis
+id: WerW F.53
+genre: hymn
+festival: ad Matutinum in Nativitate Christi
+scoring: S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwf53
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.210:23
+    rism: 530004314
+    url: https://copia.oszk.hu/kotta/hymni-de-b-virgine-de-apostolis-et-aliis-festis-1mae-classis/
+    license: public domain
+    principal: true
+lyrics:
+  Christus natus est nobis.\\
+  Venite adoremus.\\[1ex]
+  (Cantus Index 001055)
