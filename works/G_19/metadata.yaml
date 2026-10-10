@@ -1,0 +1,16 @@
+title: Litaniæ lauretanæ
+id: WerW G.19
+genre: litany
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwg19
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.85
+    rism: 530001991
+    url: https://copia.oszk.hu/kotta/lytaniae-brevissima-in-f/
+    license: public domain
+    principal: true
+toe: |
+  41 & vl 1 & 2nd \eighthNote\ in \A1: d″8 \\
