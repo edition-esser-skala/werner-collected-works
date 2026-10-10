@@ -12,7 +12,7 @@
     \paper { system-count = #12 }
     \score {
       <<
-        \new Staff { \H-I-XVDixitViolinoII }
+        \new Staff { \H-I-VIDixitViolinoII }
       >>
     }
   }
@@ -21,7 +21,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-I-XVLaudateViolinoII }
+        \new Staff { \H-I-VILaudateViolinoII }
       >>
     }
   }
@@ -30,7 +30,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-I-XVLaetatusViolinoII }
+        \new Staff { \H-I-VILaetatusViolinoII }
       >>
     }
   }
@@ -39,17 +39,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-I-XVNisiViolinoII }
+        \new Staff { \H-I-VINisiViolinoII }
       >>
     }
   }
   \bookpart {
-    \section "5" "Lauda Ierusalem"
+    \section "5" "Lauda Jerusalem"
     \addTocEntry
     \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \H-I-XVLaudaViolinoII }
+        \new Staff { \H-I-VILaudaViolinoII }
       >>
     }
   }
@@ -59,7 +59,7 @@
     \paper { system-count = #8 }
     \score {
       <<
-        \new Staff { \H-I-XVMagnificatViolinoII }
+        \new Staff { \H-I-VIMagnificatViolinoII }
       >>
     }
   }

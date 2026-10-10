@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-I-XVDixitOrgano = {
+H-I-VIDixitOrgano = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoH-I-XVDixit
+    \key c \major \time 4/4 \tempoH-I-VIDixit
     \mvTr c8\fE-\tutti c' h h, a4 h
     c e f d
     e c d h
@@ -26,7 +26,7 @@ H-I-XVDixitOrgano = {
     g g'8 a h4 c %20
     d8 h fis g e h c a
     e'4 fis8 d g, g'16 f e8 d
-    c c' h a gis4 fis8 \hA gis
+    c c' h a gis4 fis8 gis
     a g f c d h e e,
     a \mvTr a'\fE-\tutti f g! c, c' h c %25
     a e f c g' g, h g
@@ -51,7 +51,7 @@ H-I-XVDixitOrgano = {
     c' g e c g' g, h g %45
     c h c c, g' g' e g
     c, c' a e f c g'4
-    \tempoH-I-XVDixitB << { s4. g8 a h c a h } \\ { c, c^! d^! e f d e fis g[ e] } >>
+    \tempoH-I-VIDixitB << { s4. g8 a h c a h } \\ { c, c^! d^! e f d e fis g[ e] } >>
     d4 c8 \clef treble << { a'' h c d } \\ { fis, g e fis } >>
     \clef "treble_8" g, a h c \clef bass c,[ d e] %50
     f! d e fis g e fis gis
@@ -63,7 +63,7 @@ H-I-XVDixitOrgano = {
   }
 }
 
-H-I-XVDixitBassFigures = \figuremode {
+H-I-VIDixitBassFigures = \figuremode {
   r4 \bo <[6]>2 \bc q4
   r2. <5>8 <6>
   <5> <6> <5> <6> <5> <6> <5> <6>
@@ -122,10 +122,10 @@ H-I-XVDixitBassFigures = \figuremode {
   r1 %56 finis
 }
 
-H-I-XVLaudateOrgano = {
+H-I-VILaudateOrgano = {
   \relative c {
     \clef bass
-    \key a \minor \time 4/4 \tempoH-I-XVLaudate
+    \key a \minor \time 4/4 \tempoH-I-VILaudate
     \mvTr a4\fE-\tutti r8 a' gis e r a
     gis e r a gis e r a
     gis e c d e d e e,
@@ -156,7 +156,7 @@ H-I-XVLaudateOrgano = {
     c, c'4 d8 e e' d c
     h a gis e a e a g
     f e d f e e' c a %30
-    \mvTr gis\fE-\tutti e16 fis \hA gis8 e a e c a
+    \mvTr gis\fE-\tutti e16 fis gis8 e a e c a
     e' e' gis, e a gis a a,
     e e'16 fis gis8 e a e c a
     e' e' c a f d e e,
@@ -168,7 +168,7 @@ H-I-XVLaudateOrgano = {
       r8 r a,4 c h16 a %35
       h cis d4 c16 h c d e4 dis8
       e
-    } >> \clef bass e,4 g fis16 e \hA fis gis a8~
+    } >> \clef bass e,4 g fis16 e fis gis a8~
     a g f4 e \clef "treble_8" << {
       e'8 d
       c16 e d c h4 s8
@@ -184,7 +184,7 @@ H-I-XVLaudateOrgano = {
   }
 }
 
-H-I-XVLaudateBassFigures = \figuremode {
+H-I-VILaudateBassFigures = \figuremode {
   r2 \bo <[6]>
   <6> q
   \bc <[6]>4 <6> <6 4> <5 _+>
@@ -231,10 +231,10 @@ H-I-XVLaudateBassFigures = \figuremode {
   r1 %44 finis
 }
 
-H-I-XVLaetatusOrgano = {
+H-I-VILaetatusOrgano = {
   \relative c {
     \clef bass
-    \key f \major \time 3/2 \tempoH-I-XVLaetatus
+    \key f \major \time 3/2 \tempoH-I-VILaetatus
     \mvTr f4.\fE-\tutti g8 a4 f e c
     f4. g8 a4 f e c
     f4. g8 a4 e f f,
@@ -251,7 +251,7 @@ H-I-XVLaetatusOrgano = {
     f es d a b b'
     f f' es d c b %15
     a g f es d c
-    b es f \hA es f f,
+    b es f es f f,
     b b' a g f es
     d b a f g a
     b b'8 a g4 f e! c %20
@@ -259,9 +259,9 @@ H-I-XVLaetatusOrgano = {
     g f e c d e
     f d e h c d
     e f g f g g,
-    c c' h a gis \hA h %25
+    c c' h a gis h %25
     a f c2 d4 f
-    e fis gis \hA fis8 e \hA fis4 \hA gis
+    e fis gis fis8 e fis4 gis
     a g8 f e4 d c h
     a f' e d e e,
     a \mvTr a'\fE-\tutti g! f e d %30
@@ -310,7 +310,7 @@ H-I-XVLaetatusOrgano = {
   }
 }
 
-H-I-XVLaetatusBassFigures = \figuremode {
+H-I-VILaetatusBassFigures = \figuremode {
   r1 <[6]>2
   r1 <6>2
   r2. \bc <[6]>
@@ -357,7 +357,7 @@ H-I-XVLaetatusBassFigures = \figuremode {
   <6>2. <6!>4 <6>2
   <_!>4 <[6]> <7> <6!>2. %45
   <6>1 q4 <3>
-  <_+>2 <7>4 <_+> <6>2
+  <_+> \bo <[\tllur]>8 \bc <[6]> <7>4 <_+> <6>2
   <6[!]>1 \bo <[6]>2
   r \bc q1
   <7>4 <6!> <6>2. <[6]>4 %50
@@ -375,10 +375,10 @@ H-I-XVLaetatusBassFigures = \figuremode {
 }
 
 
-H-I-XVNisiOrgano = {
+H-I-VINisiOrgano = {
   \relative c {
     \clef bass
-    \key d \minor \time 4/4 \tempoH-I-XVNisi
+    \key d \minor \time 4/4 \tempoH-I-VINisi
     \mvTr d8\pE-\solo f16 e d8 cis d e f fis
     g d e c f f, b4
     c8 c' e, c f, f' b, b'
@@ -406,7 +406,7 @@ H-I-XVNisiOrgano = {
     b g d b es4 e %25
     \mvTr f\fE-\tutti e d cis
     d g8 e cis d a4
-    \tempoH-I-XVNisiB d8 << {
+    \tempoH-I-VINisiB d8 << {
       a' d, d'4 c!8 b4\trill
       a8 d4 c8
     } \\ {
@@ -429,7 +429,7 @@ H-I-XVNisiOrgano = {
   }
 }
 
-H-I-XVNisiBassFigures = \figuremode {
+H-I-VINisiBassFigures = \figuremode {
   r4. <[6]>8 r2
   r8 <6> q2 q8 <5>
   r1
@@ -453,7 +453,7 @@ H-I-XVNisiBassFigures = \figuremode {
   r \bc q4. <6>8 <6[!]>4
   r4 <9 5>8 <8 6> r2
   r4 <5>2.
-  <[6]>4 <4>8 <_+>4 <6>8 q4
+  <[6]>4 <4>8 <_+>4 <6>8 <6[!]>4
   r8 <6-> <6>2 \bo <[6]>8 \bc <[5]> %25
   r4 <6\\>2 <[6]>4
   r4. <5->8 <6 5>4 <4>8 <_+>
@@ -469,10 +469,10 @@ H-I-XVNisiBassFigures = \figuremode {
   <7 _+>4 <4>8 <_+> r2 %37 finis
 }
 
-H-I-XVLaudaOrgano = {
+H-I-VILaudaOrgano = {
   \relative c {
     \clef bass
-    \key g \major \time 3/2 \tempoH-I-XVLauda
+    \key g \major \time 3/2 \tempoH-I-VILauda
     \mvTr g'4\fE-\tutti h8 a g4 d h d
     g h8 a g4 d h d
     g fis g d h g
@@ -512,7 +512,7 @@ H-I-XVLaudaOrgano = {
     g f e  h c d
     e2 d g4 fis
     e h c h a2
-    d4 c! h << { g'^\critnote } \\ { g, } >> fis' d %40
+    d4 c! h << { g' } \\ { g, } >> fis' d %40
     g e c a' h h,
     e2 fis4 gis a f
     d e cis a' fis g
@@ -526,7 +526,7 @@ H-I-XVLaudaOrgano = {
     g g fis d g e
     a fis e2 d4 h \noBreak
     c! a' fis g d2
-    \tempoH-I-XVLaudaB g,4 g'2-! e4-! a-! << {
+    \tempoH-I-VILaudaB g,4 g'2-! e4-! a-! << {
       d~ \noBreak
       d h e cis a d~ %55
       d
@@ -549,7 +549,7 @@ H-I-XVLaudaOrgano = {
   }
 }
 
-H-I-XVLaudaBassFigures = \figuremode {
+H-I-VILaudaBassFigures = \figuremode {
   r1 <6>2
   r1 q2
   r4 \bo <[6]>2. \bc q2
@@ -619,10 +619,10 @@ H-I-XVLaudaBassFigures = \figuremode {
   <6 5>2 <4>4 <_+>2. %67 finis
 }
 
-H-I-XVMagnificatOrgano = {
+H-I-VIMagnificatOrgano = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoH-I-XVMagnificat
+    \key c \major \time 4/4 \tempoH-I-VIMagnificat
     \mvTr c8\fE-\tutti e' d c h a g f
     e d c h << { a' g f e } \\ { a,4 s } >>
     d8 c h a << { g' f e f } \\ {  g,4 s} >>
@@ -631,11 +631,11 @@ H-I-XVMagnificatOrgano = {
     fis8 e d c h c d d,
     g \mvTr h'\pE-\solo a g fis e d c
     h g c e d h fis fis'
-    g fis e \hA fis g a h g
+    g fis e fis g a h g
     c h a c h a g fis %10
     e d! c h16 a gis8 e' a f
     d f e e, a4 a'8 g!
-    fis4^\critnote d8 \hA fis g g, h g
+    << { fis8[^\vlne a] } \\ { fis4_\org } >> d8 fis g g, h g
     c c' e, c g g' f e
     d f g g, c h a d %15
     g, g' a h c, c' h a
@@ -662,7 +662,7 @@ H-I-XVMagnificatOrgano = {
     c a a' g16 f e8 c16 d e8 c
     f e d g c, c' h a
     g g, c a d g d4
-    \tempoH-I-XVMagnificatB g,8 << {
+    \tempoH-I-VIMagnificatB g,8 << {
       h'8 e8.\trill d32 e c16 a c8 d8.\trill c32 d %40
       h8 s4. \clef treble c'8 a d8.\trill c32 d
       h16 g h8 c16 g c8~ c16 d h c a8
@@ -679,7 +679,7 @@ H-I-XVMagnificatOrgano = {
   }
 }
 
-H-I-XVMagnificatBassFigures = \figuremode {
+H-I-VIMagnificatBassFigures = \figuremode {
   r2 \bo <[6]>
   <6>1
   r4 \bc <[6]>2 <6>8 <6 5>

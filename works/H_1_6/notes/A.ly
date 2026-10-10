@@ -1,9 +1,9 @@
 \version "2.24.0"
 
-H-I-XVDixitAlto = {
+H-I-VIDixitAlto = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \autoBeamOff \tempoH-I-XVDixit
+    \key c \major \time 4/4 \autoBeamOff \tempoH-I-VIDixit
     \mvDl g'4.\fE^\tutti g8 a a16 a d,8 g16 g
     g8 g r4 r8 f4 d8
     r e4 c8 r d4 h8
@@ -41,7 +41,7 @@ H-I-XVDixitAlto = {
     g g g g g8. g16 g8 g %45
     g g g4 g g8 g
     g g16 g a8 g a g g4
-    \tempoH-I-XVDixitB g r r2
+    \tempoH-I-VIDixitB g r r2
     r4 r8 d e[ fis g e]
     fis g4 f8~ f[ e f g] %50
     c, r r4 r2
@@ -53,7 +53,7 @@ H-I-XVDixitAlto = {
   }
 }
 
-H-I-XVDixitAltoLyrics = \lyricmode {
+H-I-VIDixitAltoLyrics = \lyricmode {
   Di -- xit Do -- mi -- nus Do -- mi -- no
   me -- o: Se -- de,
   se -- de, se -- de
@@ -102,10 +102,10 @@ H-I-XVDixitAltoLyrics = \lyricmode {
   men. %56 finis
 }
 
-H-I-XVLaudateAlto = {
+H-I-VILaudateAlto = {
   \relative c' {
     \clef treble
-    \key a \minor \time 4/4 \autoBeamOff \tempoH-I-XVLaudate
+    \key a \minor \time 4/4 \autoBeamOff \tempoH-I-VILaudate
     r4 r8 \mvTr a'\fE^\tutti h gis r e
     h' gis r e h' gis r e
     h' gis a a a4 gis
@@ -132,13 +132,13 @@ H-I-XVLaudateAlto = {
     c r r2
     R1
     r2 r4 \mvTr e8\fE^\tutti e %30
-    e gis h \hA gis e \hA gis a a
-    gis8. gis16 h8 \hA gis a h a4
-    gis h8 \hA gis e \hA gis16 gis a8 a
+    e gis h gis e gis a a
+    gis8. gis16 h8 gis a h a4
+    gis h8 gis e gis16 gis a8 a
     gis gis a4. a8 a([ gis)]
     a e4 f e16[ d] e[ fis g8]~ %35
-    g[ f16 e] f[ g] a4 g8 fis16[( e \hA fis h]
-    g[ fis g \hA fis]) e4 r2
+    g[ f16 e] f[ g] a4 g8 fis16[( e fis h]
+    g[ fis g fis]) e4 r2
     r r8 e4 d8
     c16[ e d c] h[ a h e] c[ h c h] a8 r
     R1 %40
@@ -149,7 +149,7 @@ H-I-XVLaudateAlto = {
   }
 }
 
-H-I-XVLaudateAltoLyrics = \lyricmode {
+H-I-VILaudateAltoLyrics = \lyricmode {
   Lau -- da -- te, lau --
   da -- te, lau -- da -- te, lau --
   da -- te no -- men Do -- mi --
@@ -192,10 +192,10 @@ H-I-XVLaudateAltoLyrics = \lyricmode {
   men.
 }
 
-H-I-XVLaetatusAlto = {
+H-I-VILaetatusAlto = {
   \relative c' {
     \clef treble
-    \key f \major \time 3/2 \autoBeamOff \tempoH-I-XVLaetatus
+    \key f \major \time 3/2 \autoBeamOff \tempoH-I-VILaetatus
     r2 r4 \mvTr f\fE^\tutti g e
     f2 r4 f g e
     f2 f4 g f2
@@ -219,23 +219,33 @@ H-I-XVLaetatusAlto = {
     g2 \mvTr f4\pE^\solo g a2
     e4 a f d c!4.( b8)
     a4 c f a d,4. e8
-    f4 g a b8 g \tiny f4( e)
-    f2 r r %40
-    s1.*11 %51
-    s2. \tiny f2 e4
+    f4 g a b8 g \appoggiatura f4 e2
+    f r r %40
+    R1.
+    r2 r4 f2^\aDue e4
+    f d g f8 e d4 e
+    f( g) c, r r2
+    r f4 g8 f e4 e %45
+    r f d d8 d e4 d
+    cis d8 d d4( cis) d \mvTr f(\fE^\tutti
+    g) e f e f a
+    g8 g g g f2. e4
+    f2 e r %50
+    f4 g a g8 f e4 f
+    f( e) f f2 e4
     d g2 f4 e2
-    d4 g8[ f] e[ d] c4 g'8[ f d e]
+    d4( g8[ f] e[ d]) c4 g'8[ f d e]
     f4. g8 a[ g e f] g4 g %55
-    f g c, f2 e4
+    f( g) c, f2 e4
     r g2 f4 r a8[ g]
     f[ e] f4 g4. f8 e[ d] e4
     f4. e8 d[ c] d[ e16 f] g4. f8
-    e4 f e f2 e4 %60
+    e4 f e( f2 e4) %60
     f1 r2\fermata \bar "|." %61 finis
   }
 }
 
-H-I-XVLaetatusAltoLyrics = \lyricmode {
+H-I-VILaetatusAltoLyrics = \lyricmode {
   Lae -- ta -- tus
   sum in his, quae
   di -- cta sunt mi --
@@ -261,33 +271,113 @@ H-I-XVLaetatusAltoLyrics = \lyricmode {
   a, et a -- bun -- dan -- ti --
   a in tur -- ri -- bus tu --
   is. %40
-  % Glo -- ri -- a Pa -- tri
+
+  Pro -- pter %42
+  do -- mum Do -- mi -- ni De -- i
+  no -- stri
+  Glo -- ri -- a Pa -- tri %45
+  et Fi -- li -- o et Spi --
+  ri -- tu -- i San -- cto, si --
+  cut e -- rat in prin --
+  ci -- pi -- o et nunc et
+  sem -- per %50
+  et in sae -- cu -- la sae -- cu --
+  lo -- rum, a -- _
+  _ _ _ men,
+  a -- men, a --
+  _ _ _ _ men, %55
+  a -- men, a -- men,
+  a -- men, a --
+  _ _ _ _ _ _
+  _ _ _ _ _ _
+  _ men, a -- %60
+  men. %61 finis
 }
 
-H-I-XVNisiAlto = {
+H-I-VINisiAlto = {
   \relative c' {
     \clef treble
-    \key d \minor \time 4/4 \autoBeamOff \tempoH-I-XVNisi
-    s1*27 %27
-    \tempoH-I-XVNisiB s1*3 \autoBeamOn \tiny %30
-    r2 r8 d a a'~
-    a g f4 e fis8 g~
-    g16 a f g e d e a f8 f' e4
-    d8 e16 d cis8 d16 e a,4 r8 f
+    \key d \minor \time 4/4 \autoBeamOff \tempoH-I-VINisi
+    r2 \mvTr a'4.\pE^\solo d,8
+    b'8. a16 g4 r8 a g16([ d)] e([ f)]
+    e8 e16 f g4 c,8 a' d, f16 f
+    b8 g g e f a a8. a16
+    g4 g g r %5
+    R1*2
+    r8 \mvTr a4\fE^\tutti a,8 r a' a a,
+    r a'16 a a8 a b a g8. g16
+    f4 r f8. f16 f8 g %10
+    a b a8. a16 g8 r r b
+    a g fis4 g8 g g g
+    g2 fis4 r8 \mvTr a\pE^\solo^\aTreE
+    d, b' a16([ b)] c8 f, g es4
+    d r r2 %15
+    r g8 g16 g g8 a
+    b d, g4. f8 e!4
+    d r r2
+    R1
+    r2 r8 d g8. f16 %20
+    e8 e4 a8 f f g16([ a)] f([ g)]
+    a8 a16 a d,8 g16 f e8 e r4
+    R1
+    r2 r8 g f!16([ c)] d([ es)]
+    d8. es16 f4 r2 %25
+    r8 \mvTr f16\fE^\tuttiE f g g g g f f f f a8 a
+    a16 a a a b8 g16 g g8 f e4
+    \tempoH-I-VINisiB d r r2
+    R1*2 %30
+    r2 r8 d[ a a']~
+    a g f4\trill e fis8[ g]~
+    g16[ a f g] e[ d e a] f4 e
+    d8[( e16 d] cis8[ d16 e]) a,4 r8 f'
     e a4 g f8 e4~ %35
-    e8 d g4. f8 b8. b16
-    cis,8 d4 \hA cis8 d4 r\fermata \bar "|." %37 finis
+    e8[ d] g4. f8 b4
+    cis,8 d4( cis8) d4 r\fermata \bar "|." %37 finis
   }
 }
 
-H-I-XVNisiAltoLyrics = \lyricmode {
-  % et Fi -- li -- o
+H-I-VINisiAltoLyrics = \lyricmode {
+  Ni -- si
+  Do -- mi -- nus ae -- di -- fi --
+  ca -- ve -- rit do -- mum, in va -- num la --
+  bo -- ra -- ve -- runt qui ae -- di -- fi --
+  cant e -- am. %5
+
+  Va -- num est vo -- bis %8
+  an -- te lu -- cem, lu -- cem sur -- ge --
+  re: sur -- gi -- te post -- %10
+  quam se -- de -- ri -- tis, qui
+  man -- du -- ca -- tis pa -- nem do --
+  lo -- ris. Cum
+  de -- de -- rit di -- lec -- tis som --
+  num, %15
+  fi -- li -- i, mer -- ces,
+  fru -- ctus, fru -- ctus ven --
+  tris.
+
+  Be -- a -- tus %20
+  vir qui im -- ple -- vit de -- si --
+  de -- ri -- um su -- um ex ip -- sis:
+
+  Pa -- tri et
+  Fi -- li -- o %25
+  si -- cut e -- rat in prin -- ci -- pi -- o et nunc et
+  sem -- per et in sae -- cu -- la sae -- cu -- lo --
+  rum,
+
+  a -- %31
+  men, a -- men, a --
+  _ _ men,
+  a -- men, a --
+  _ _ _ _ _
+  _ _ _
+  men, a -- men.
 }
 
-H-I-XVLaudaAlto = {
+H-I-VILaudaAlto = {
   \relative c' {
     \clef treble
-    \key g \major \time 3/2 \tempoH-I-XVLauda \autoBeamOff
+    \key g \major \time 3/2 \tempoH-I-VILauda \autoBeamOff
     \mvTr g'2\fE^\tutti g4 fis g fis
     g4. g8 g4 fis g fis
     g a8 a g4( fis) g2
@@ -311,12 +401,12 @@ H-I-XVLaudaAlto = {
     h r4 g' fis e
     d r r e d c
     h2 cis d~
-    d4 e cis2. h8 \hA cis %25
+    d4 e cis2. h8 cis %25
     d2 r r
     R1.*10 %36
     r2 r r4 d
     g g fis a d, d
-    r d e d cis h8 \hA cis
+    r d e d cis h8 cis
     d4 d r2 r %40
     r r h4 fis'
     g fis8 e d!4 e c d
@@ -330,7 +420,7 @@ H-I-XVLaudaAlto = {
     d d8 d d d fis fis d d g g
     e4 a g2 fis4 g8 g \noBreak
     g4 e8 e a4 g g( fis)
-    \tempoH-I-XVLaudaB g2 r r \noBreak
+    \tempoH-I-VILaudaB g2 r r \noBreak
     R1. %55
     r4 g2 e4 a fis
     d g8[ fis] e4 a8[ g] fis[ e fis d]
@@ -347,7 +437,7 @@ H-I-XVLaudaAlto = {
   }
 }
 
-H-I-XVLaudaAltoLyrics = \lyricmode {
+H-I-VILaudaAltoLyrics = \lyricmode {
   Lau -- da, lau -- da, Ie --
   ru -- sa -- lem, lau -- da, Ie --
   ru -- sa -- lem, Do -- mi --
@@ -406,10 +496,10 @@ H-I-XVLaudaAltoLyrics = \lyricmode {
   a -- men. %67 finis
 }
 
-H-I-XVMagnificatAlto = {
+H-I-VIMagnificatAlto = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \autoBeamOff \tempoH-I-XVMagnificat
+    \key c \major \time 4/4 \autoBeamOff \tempoH-I-VIMagnificat
     \mvTr c2\fE^\tutti g'4. g8
     g4 e4. f16 g a8 g
     f g16 a g2 g8([ a)]
@@ -419,7 +509,7 @@ H-I-XVMagnificatAlto = {
     g4 r \mvTr d4.\pE^\solo e16 fis
     g8 a16 h a8 g fis8([ g)] a d,
     e d c4\trill h d8 g
-    e fis16 g \hA fis8 e dis4 e8 fis %10
+    e fis16 g fis8 e dis4 e8 fis %10
     g fis e4. h8 c a
     f' d c([ h)] a4 r
     R1*2
@@ -429,7 +519,7 @@ H-I-XVMagnificatAlto = {
     dis e16 e e8([ dis)] e4 r
     R1*4 %22
     r2 r8 e e a
-    gis16([ a fis \hA gis] a8) h c a f d
+    gis16([ a fis gis] a8) h c a f d
     c4( h8.) a16 a8 \mvTr e'\fE^\tutti f d %25
     e e r4 r8 g g fis
     g g r4 r2
@@ -442,10 +532,10 @@ H-I-XVMagnificatAlto = {
     f8 e d8. d16 c4 r %35
     R1*2
     r2 r8 g'4 fis8
-    g a16 h a8. g16 fis8( g4 \hA fis8)
-    \tempoH-I-XVMagnificatB g4 r r2 %40
+    g a16 h a8. g16 fis8( g4 fis8)
+    \tempoH-I-VIMagnificatB g4 r r2 %40
     r8 \mvTr g4\fE^\tutti e8 a8.[\trill g32 a] f16[ d f8]
-    g8.[\trill f32 g] e8[ a16 g] fis8 g4 \hA fis8
+    g8.[\trill f32 g] e8[ a16 g] fis8 g4 fis8
     g4 r r2
     r8 g4 e8 a8.[\trill g32 a] f!16[ d f8]
     g8.[\trill f32 g] e8[ g] c,16[ f8 a16] d,[ g8 h16] %45
@@ -454,7 +544,7 @@ H-I-XVMagnificatAlto = {
   }
 }
 
-H-I-XVMagnificatAltoLyrics = \lyricmode {
+H-I-VIMagnificatAltoLyrics = \lyricmode {
   Ma -- gni -- fi --
   cat a -- ni -- ma me -- a,
   a -- ni -- ma me -- a __

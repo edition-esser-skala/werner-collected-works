@@ -12,7 +12,7 @@
     \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \H-I-XVDixitOrgano }
+        \new Staff { \H-I-VIDixitOrgano }
       >>
     }
   }
@@ -21,7 +21,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-I-XVLaudateOrgano }
+        \new Staff { \H-I-VILaudateOrgano }
       >>
     }
   }
@@ -30,7 +30,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-I-XVLaetatusOrgano }
+        \new Staff { \H-I-VILaetatusOrgano }
       >>
     }
   }
@@ -39,17 +39,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \H-I-XVNisiOrgano }
+        \new Staff { \H-I-VINisiOrgano }
       >>
     }
   }
   \bookpart {
-    \section "5" "Lauda Ierusalem"
+    \section "5" "Lauda Jerusalem"
     \addTocEntry
     \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \H-I-XVLaudaOrgano }
+        \new Staff { \H-I-VILaudaOrgano }
       >>
     }
   }
@@ -59,7 +59,7 @@
     \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \H-I-XVMagnificatOrgano }
+        \new Staff { \H-I-VIMagnificatOrgano }
       >>
     }
   }
