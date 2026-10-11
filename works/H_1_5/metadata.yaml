@@ -1,0 +1,20 @@
+title: Vesperae
+subtitle: Dixit Dominus · Laudate pueri · Lætatus sum ·\\Nisi Dominus · Lauda Jerusalem · Magnificat
+id: WerW H.1.5
+genre: vespers
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjw
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.92
+    rism: 530002145
+    url: https://copia.oszk.hu/kotta/vesperae-f-dur/
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  1 & 20 & B   & last \quarterNote\ in \B1: d4 \\
+    & 75 & org & treble ottavo clef added by editor \\
+  2 & 1  & B   & tempo indication in \B1: “Presto spero un poco moderato”
