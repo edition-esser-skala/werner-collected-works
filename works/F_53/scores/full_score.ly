@@ -71,7 +71,7 @@
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
-            \transpose c c,
+            % \transpose c c,
             \F-LIIIOrgano
           }
         >>
