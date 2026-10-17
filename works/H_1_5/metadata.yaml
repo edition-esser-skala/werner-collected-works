@@ -1,9 +1,9 @@
-title: Vesperae
+title: Vesperæ
 subtitle: Dixit Dominus · Laudate pueri · Lætatus sum ·\\Nisi Dominus · Lauda Jerusalem · Magnificat
 id: WerW H.1.5
 genre: vespers
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
-ark: 68748/e1gjw
+ark: 68748/e1gjwh15
 license: cc-by-sa-4.0
 sources:
   B1:
@@ -15,6 +15,9 @@ sources:
     principal: true
 tocstyle: default
 toe: |
-  1 & 20 & B   & last \quarterNote\ in \B1: d4 \\
-    & 75 & org & treble ottavo clef added by editor \\
-  2 & 1  & B   & tempo indication in \B1: “Presto spero un poco moderato”
+  1 & 20  & B   & last \quarterNote\ in \B1: d4 \\
+    & 75  & org & treble ottavo clef added by editor \\
+  2 & 1   & B   & tempo indication in \B1: “Presto spero un poco moderato” \\
+  6 & 30  & B   & tempo indication in \B1: “Largo” \\
+    & 171 & vl  & rhythm of last bar in \B1: \halfNote–\crotchetRest \\*
+    & 171 & B, org & last bar in \B1: c2. \\
