@@ -1,0 +1,29 @@
+title: Alma Redemptoris mater
+id: WerW I.1.22
+genre: antiphon
+scoring: 2 S (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwi122
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.181
+    date: 1760
+    rism: 530002070
+    url: https://copia.oszk.hu/kotta/alma-redemptoris-in-g-2/
+    license: public domain
+    principal: true
+  B1:
+    siglum: A-Ed
+    shelfmark: H 11
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/373.html
+    license: public domain
+toe: |
+  14–62 & – & In the parts of \A1, the key signature of this section
+              is inconsistent: In vl~1 and~2, the complete section is in
+              G~major. In S~1, S~2, vlne, and org, the section starts in
+              C~major and changes to G~major at a line break preceding
+              bar~36 (S~1), 37 (S~2), 40 (org), or 43 (vlne).
+              Here, the key signatures have been standardized
+              to C~major (bars 14–34) and G~major (bars 35–62) in all parts. \\
+  43   & S 1 & rhythm of 1st \quarterNote\ in \A1: \sixteenthNote-tuplet \\
