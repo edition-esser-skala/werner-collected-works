@@ -1,0 +1,16 @@
+title: Salve Regina
+id: WerW I.4.3
+genre: antiphon
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwi43
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.103
+    rism: 530001996
+    url: https://copia.oszk.hu/kotta/salve-regina-18/
+    license: public domain
+    principal: true
+toe: |
+  10 & T & 2nd/3rd \halfNote\ in \B1: b1 \\
