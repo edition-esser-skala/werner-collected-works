@@ -1,0 +1,59 @@
+title: Der Wienneriſche Tändlmarckt
+subtitle: Zwey neue und extra luſtige muſicaliſche Tafel-Stücke
+id: WerW L.1
+genre: cantata
+scoring: 2 T, 2 B (solo), 2 vl, bc
+ark: 68748/e1gjwl1
+license: cc-by-sa-4.0
+sources:
+  C1:
+    siglum: A-Wst
+    shelfmark: M-8282
+    date: 1754
+    rism: 990068294
+    license: public domain
+    principal: true
+tocstyle: default
+toe: |
+  –  & –     & T, B & (a) In \C1, lyrics are generally typeset in Fraktur,
+                      while foreign words appear in Roman font.
+                      This convention is retained here.\newline
+                      (b) In recitativos, the vocal and bc staff
+                      (excluding bass figures) are printed both in the vocal
+                      and bc parts. Here, the version of the bc as written
+                      in the bc part, and vice versa for the vocal part. \\
+  1  & 8     & bc   & 3rd \quarterNoteDotted\ missing in \C1 \\
+     & 14    & vl 2 & 3rd \quarterNoteDotted\ in \C1: e′4 \\
+     & 30    & vl 2 & 1st \quarterNoteDotted\ in \C1: d″4–\quaverRest \\
+     & 33–40 & vl, bc & in \C1 indicated by “da capo Sin al Segno” \\
+  2  & 1     & B 2  & 3rd \quarterNote\ in bc part of \C1: a16–a16–a16–e16 \\
+  3  & 5     & vl 2 & 4th \thirtysecondNote\ in \C2: c″32;
+                      12th \thirtysecondNote: a″32 \\
+  4  & 8     & bc   & last \eighthNote\ in bc part of \C1: e8 \\
+  5  & 1     & –    & tempo indication in bc part of \C1: “Allegretto”;
+                      in T 1 part: “Allegro”; in vl 1 and 2 part:
+                      “Pizzicato e Larghetto” \\
+  7  & 11    & vl 2 & rhythm of 1st \eighthNote\ in \C1: 16.–32 \\
+     & 17    & vl 2 & 2nd \eighthNote\ in \C2: f′8 \\
+  8  & 2     & B 1  & 6th \sixteenthNote\ in bc part of \C1: \flat b16 \\
+     & 4     & B 1  & 8th \sixteenthNote\ and 3rd \quarterNote\ in bc part
+                      of \C1: c16–\flat B4 \\
+  9  & 5     & vl 2 & 5th \eighthNote\ in \C1: d″8 \\
+  11 & 8     & bc   & 4th \quarterNote\ in B 2 part of \C1: e4 \\
+  12 & 3     & vl 2 & 2nd \sixteenthNote\ in \C1: c′′′ \\
+  13 & 9     & bc   & 2nd \halfNote\ in T 1 part of \C1: c2 \\
+     & 11    & T 1  & (a) In the A-Wst item of \C1, the rather crude lyrics
+                      in this bar have been toned down to
+                      “ſonſt er presto presto crepir”.\newline
+                      (b) 3rd \quarterNote\ in \C1: a′8.–e16′–e′16 \\
+  14 & 5     & –    & tempo indication in bc and T 1 part of C1: “Ariose”;
+                      \newline in vl 1 and 2 part: “alla Siciliana” \\
+     & 44    & vl 1 & 10th \sixteenthNote\ in \C1: f′32–e′32 \\
+  15 & 1     & B 1  & 3rd \quarterNote\ in bc part of \C1:
+                      f8–\semiquaverRest–f16 \\
+     & 2     & B 1  & 4th \quarterNote\ in bc part of \C1:
+                      d′8–c8, with lyrics “-mand ge-” \\
+  17 & 5f    & bc   & 2nd \halfNote\ of bar~5 and 1st \halfNote\ of bar~6
+                      in T~2 part of \C1: \sharp c2–d2 \\
+commentary: |
+  \includepdf[pages=-,link=false,pagecommand={}]{../works/L_1/appendix.pdf}

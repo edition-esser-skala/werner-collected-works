@@ -1,0 +1,312 @@
+% latexmk -cd -lualatex works/L_1/appendix.tex
+% latexmk -c -cd works/L_1/appendix.tex
+
+\documentclass{ees}
+
+\pghyphenation{english}{Er-götz-lich-keit Tändel-marckht}
+
+\newlist{lyricslist}{description}{1}
+\setlist[lyricslist]{
+  partopsep=0pt,
+  labelindent=0em,
+  labelwidth=4.5em,
+  leftmargin=4.5em,
+  labelsep=0pt,
+  first=\ltseries,
+  font=\normalfont\itshape\ltseries,
+  style=multiline
+}
+
+\newenvironment{lyrics}[1]{%
+  \subsection{#1}\nopagebreak%
+  \begin{lyricslist}%
+  \let\voice\item%
+}{%
+  \end{lyricslist}%
+}
+
+\begin{document}
+
+\clearscrheadfoot
+
+\chapter{Prefatory pages}
+
+\textit{[bc part, fol. 1r]}\\
+Zwey neue | und extra luſtige muſicaliſche | Tafel-Stücke. | I. | Der Wienneriſche Tändlmarckt. | Mit 4. Singſtimmen, 2. Violinen und Baſſo ordinario. | Die Singſtim- | men ſtellen vor: Den Sägfeiller, Hollhippen-Kramer, einen Savoyarden | mit ſeinem Spielwerck, und einen Marcktſchreyer. Die Inſtru- | menten aber imitiren das ſogenannte Winne- | riſche Breinglöckl. | II. | Die Bauren-Richters-Wahl. | Mit 5. Singſtimmen. 2. Violinen und Baſſo ordinario. Die Singer ſind: | Der Bartlme Zimmermann, als Senior, der Paul Schnepfendreck, der | Böhmiſche Mazko, der Schwäbiſche Wirth, und der einäugige | Schulmeiſter, welche ein jeder in ſeiner Sprache, | die Vota zur Wahl geben. | Beyde Stücke/ ſind nach Art des Quodlibete eingerich- | tet, und jedes, zur angenehmen Abwechslung, mit 7. Arien, und darzu | gehörigen Recitativen verſeheh, mithin bey vornehmen Gaſt- | mahlen und anderen luſtigen Geſellſchaften mit | groſſem Applauſu zu produciren. | Von dem Autore des Muſicaliſchen Calenders | Gregorio Joſepho Werner, | Hochfürſtlich Eſtorhaſiſchen Capellmeiſtern zu Eiſenstadt in Ungarn. | AUGSPURG, | Verlegt von Johann Jacob Lotters ſeel. Erben.
+
+\textit{[fol. 2r]}\\
+Avertiſſement. | Hier werden einer courieuſen Welt/ zur Luſt und | Zeit-vertreiblichen Ergötzlichkeit zwey Muſicali- | ſche Quodlibetica vorgeſtellet. Daß erſtere | betitult ſich/ der Wieneriſche Tändelmarckht/ | allwo in dem Choro alles natürlich begriffen/ | wie jedwe- | dere ihre Waaren allda zum Verkauf pflegen auszuruffen/ | worunter das ſogenannte Breinglöckel in denen Inſtru- | mental-Stimmen Imitations-Weiß ſich hören läßt. Als- | dann erfolget Recitativ- und Arien-mäßig der Sägfeil- | ler/ Savojard, Hollhippen-Kramer/ ſamt dem Arzt | auf der Freyung. Alles iſt leicht zu tractiren/ | anbey mit
+
+\textit{[fol. 2v]}\\
+guten Fleiß kurz verfaſſet, damt das Auditorium immer | eine angenehme Veränderung hören möge. Das zweyte | Stuck/ wird nach allhießiger Landsart benamßet die Bon- | thätung/ oder die Bauren-Richters-Wahl/ ſo beſtehet | aus 5. Perſonagen; als der Barthlme Zimmermann/ | der Paul Schnepfendreck/ der Schwabnwürth/ der | Böhmiſch Mazko, und der Schulmeiſter/ welcher mit | ſeiner Schul-Jugend zu buchſtabieren anfanget. Alsdann | wird zur Wahl geſchritten/ mit einer vorgehenden Bauren- | Oration, da endlich nach langem Wortſtreit und Knittel- | haften Expreſſionen der Richter einſtimmig erwählet wird. | In allen beyden Pieçen wird ſodann jedem Vocaliſten/ | in ſeiner Perſon hauptſächlich die Pronunciation wohl | anrecommendiret. | Der ich mich übrigens zu der re- | ſpectivè geneigten Liebhaberen Dienſte/ | fernerhin gehor- | ſamſt anerbietend empfehle. | Ein befliſſener Diener | Gregorius Joſeph Werner.
+
+\cleardoublepage
+\chapter{Lyrics}
+
+\textit{Roles:} Der Savoiard (T) · Der Hollähippen-Krämer (T) · Arzt (B) · Der Sagfäller (B)
+\enlargethispage{2\baselineskip}
+
+\begin{lyrics}{1 Chorus · Das Breinglöckl}
+  \voice[Sagfäller]
+  Sagfälln
+
+  \voice[Savoiard]
+  O ſöner rarite
+
+  \voice[Arzt]
+  Sagfälln
+
+  \voice[Savoiard]
+  O ſöner Spillwerckh\\
+  wer will ſeh guckh in die Lokh.\\
+  Käfts Milli Frau än Millräm oder än Budä
+
+  \voice[H.-Krämer]
+  Käfts än Sand
+
+  \voice[Sagfäller]
+  Bändl käfts än Zwirn
+
+  \voice[Arzt]
+  Bändl käfts än Zwirn
+
+  \voice[Sagfäller]
+  Sagfälln
+
+  \voice[Savoiard]
+  re re re re re re re re re re re re re rettich.
+
+  \voice[Arzt]
+  Sagfälln
+
+  \voice[H.-Krämer]
+  re re re re re re re re re re re rettich.
+
+  \voice[Sagfäller]
+  Kafts Säfäla dri Würſt ſänd gantz warm,
+
+  \voice[Savoiard]
+  La laterna magic
+
+  \voice[H.-Krämer]
+  La laterna magic
+
+  \voice[Arzt]
+  Bändl käfts än Zwirn
+
+  \voice[Sagfäller]
+  Bändl käfts än Zwirn
+
+  \voice[Savoiard]
+  koäni alti Leibſtücker zu verkäffa\\
+  alte Hüet oder Haaſenbalck.
+
+  \voice[alle]
+  Aen neue Zeittung um än Creuzer daß Gott ärbarm.
+\end{lyrics}
+
+\begin{lyrics}{2 Recitativo}
+  \voice[Sagfäller]
+  Mei ſchöni Kunſt hat Archimedes erdenckt\\
+  und hätt ſi beym Studirn\\
+  döß Werckh recht auszuführn\\
+  ſchier bald an einer Bradwurſt erhenckt.
+\end{lyrics}
+
+\begin{lyrics}{3 Aria}
+  \voice[Sagfäller]
+  Sagfälln\\
+  diſi ſchwäri Kunſt\\
+  hab I nit glei umſunſt\\
+  in oänen Tag crepirt\\
+  biß I erſt glehrnt hab\\
+  auf den Tact recht fälln die Sag\\
+  in Zwingär äiniſpälln\\
+  hat mir den Kopf verwürt\\
+  Sagfälln.
+\end{lyrics}
+
+\begin{lyrics}{4 Recitativo}
+  \voice[Savoiard]
+  Ick gom auß die Savoier Länd\\
+  mit ſöner Raritè\\
+  die Spilliwerg bellè gallant\\
+  will ſi vor Creutzer ſeh?\\
+  da wird ſi find Bell Jl di Eld\\
+  wie ſi mack förkt daß ganſſe Welt\\
+  le Cont de Saſs ſis ä ſu ferd\\
+  da ſittert unter ſi die Herd,\\
+  wer greuſſer ſalt vien preſto qua\\
+  Ick ſpill trâtant la Miſuca.
+\end{lyrics}
+
+\begin{lyrics}{5 Aria forlana}
+  \voice[Savoiard]
+  Ô bella Margarita\\
+  ô laſcia far pur me\\
+  tu Sei il mio Corla vita\\
+  jo voglio morir per te\\
+  Sa rai la mia Spoſa\\
+  ti diro qualche coſa\\
+  pe pe perle pe perle pe.
+\end{lyrics}
+
+\enlargethispage{\baselineskip}
+\begin{lyrics}{6 Recitativo}
+  \voice[H.-Krämer]
+  Äs iſt än altes Sprichwort\\
+  ſo I hab ghert bald da bald dort:\\
+  was an den Galgen ghert ertrinckt nit\\
+  und was erſauft daß henkt mär nit,\\
+  döſtwögn laß I mi gern baden,\\
+  weil mir das Waſſer nit kan ſchaden.
+\end{lyrics}
+
+\begin{lyrics}{7 Aria}
+  \voice[H.-Krämer]
+  Allo frisch auf\\
+  bräf gwürffelt drauf\\
+  I zahl ja rödli auß\\
+  änß zwoä löſch ſauber auß\\
+  zahl bräf auß\\
+  bäm ſchlaperment\\
+  s’Krämöl geht drauf\\
+  hiezt falt drey vieri drauf\\
+  fünft ſechs höbt s’Spill gar auf\\
+  zahl braf auß\\
+  döß Spill wird ni mär auß\\
+  fein ſauber is auß.
+\end{lyrics}
+
+\begin{lyrics}{8 Recitativo}
+  \voice[Arzt]
+  Wohl edle geliebte\\
+  verliebt und auch betrübte\\
+  wer ſich will helffen ſehn\\
+  kan auf die Freyung gehn,\\
+  dort hab ich meinen Stand\\
+  wie jederman bekandt.\\
+  Seyts alle meine Kinder sagts Ja = =
+\end{lyrics}
+
+\begin{lyrics}{9 Aria}
+  \voice[Arzt]
+  Hier hab ich eine Pillen\\
+  die wegt biß zehen Pfund,\\
+  wer will ſein Kranckheit ſtillen\\
+  wird ſchwärlich darvon gſund\\
+  ich hab ein Panacea\\
+  von Aquafort und Pfeffer,\\
+  ſtirbt er daran noch nicht\\
+  ſo komt er mir gwiß öffter.
+\end{lyrics}
+
+\begin{lyrics}{11 Recitativo}
+  \voice[Sagfäller]
+  Hiez hab i oänen Vorthl glehrnt\\
+  der koſt mi zwey Maß Wein\\
+  den ſag i wärlä koänen nit\\
+  ſolts ä mei Vadä ſeyn\\
+  Dözen krump hin und her zu biegn\\
+  iſt gwiß koä Narädey\\
+  mär lehrnts nit glei ſo in där Wiegn\\
+  äs braucht Värſtand därbey.
+\end{lyrics}
+
+\newpage
+\begin{lyrics}{12 Aria}
+  \voice[Sagfäller]
+  Hoch und mitle niedre Stende\\
+  brauchen mi und ſänd gar froh,\\
+  ſpröchen döß Mann ſeine Hände\\
+  ſänd mehr werth als oän Fuhr Stroh,\\
+  dößwögn laß I mi bräf zahln\\
+  wäll ſö mi vor andern alln\\
+  holln und ſagen der verſtehts\\
+  alli andri wökher gehts.
+\end{lyrics}
+
+\begin{lyrics}{13 Recitativo}
+  \voice[Savoiard]
+  Allo allegramento!\\
+  wer guck in die Laterna magic\\
+  da ſeyn ſo vill ſöner Varietè,\\
+  o Unvergleiklik luſtig Curioſitè\\
+  da gom dö groſſe Mogol\\
+  mit undert Elephant\\
+  will ſi beſwinge der gänſſe Perſer Länd\\
+  da goms di Bader wißi\\
+  Mare Antonio Criſtier\\
+  ä nide ſo ſtärk a nide ſo ſtärk\\
+  ä nide ſo ſtärk ä nide ſo ſtärk\\
+  ſonſt dir in die Gſchiſte ofier\\
+  da iß ſi meine haltelang gelebte Groß-Vatteri\\
+  mit di langi Näß\\
+  da la la ra la la ra ra\\
+  da la la ra la la ra ra\\
+  da ſehe ſi lauteri Späß.
+\end{lyrics}
+
+\begin{lyrics}{14 Aria}
+  \voice[Savoiard]
+  O che bella Tortorella!\\
+  O bella Tortorella\\
+  che fai ſempre grugeru gru\\
+  S’io non amo ti mia donzella\\
+  giuro che ſono un becco futu\\
+  Sei coſtante al tuo amante\\
+  la ſcia paſſare tu mikh ſon verſteh\\
+  Sei fedele mamoiſelle\\
+  alſo verſpreckh I dir forte di Hee.
+\end{lyrics}
+
+\newpage
+\begin{lyrics}{15 Recitativo}
+  \voice[Arzt]
+  Hochgeneigte Compagnie,\\
+  ich glaub ihr höret nie\\
+  daß mich jemand noch geſchändet\\
+  und mein Paquet ſonſt übel hätt\\
+  an ſeinen Leib verwendet,\\
+  probirt es nur ihr werdet ſehn\\
+  daß keiner unter euch allen\\
+  mir künfftig wird zu Gfallen\\
+  mehr auf die Freyung gehn.
+\end{lyrics}
+
+\begin{lyrics}{16 Aria}
+  \voice[Arzt]
+  Ist etwann ein betagte Frau\\
+  mit neunzig Jahr zugegen,\\
+  die mach ich jung wann ſie ſchon grau\\
+  will ihr die Falten außfegen,\\
+  hat einer Wehtag in den Aug\\
+  daß er nicht wohl khan ſehen,\\
+  der brauch mein ſcharf geſalzne Laug\\
+  ſo iſts mit ihm geſchehen.
+\end{lyrics}
+
+\begin{lyrics}{17 Recitativo}
+  \voice[H.-Krämer]
+  Wäll I mei Krämel ganz verſpilt,\\
+  ſo iß Hollähippen Brauch\\
+  wälß oänen wie den andern gilt\\
+  ſo laß I mi taufen auch,\\
+  hiez brauchet I halt an Göden,\\
+  drum hed I ſchön geböden,\\
+  der gnädi Herr wolt willign ein\\
+  und hiez mei Bad und Tauf-Gött ſeyn.
+\end{lyrics}
+
+\begin{lyrics}{18 Aria}
+  \voice[H.-Krämer]
+  Äns bitt I mir dö auß\\
+  ä Kriegl Wein muß ä da ſeyn\\
+  ſonſt kriegät I än Grauß\\
+  daß Waſſer ſchmäkt mär ſo nit wohl\\
+  där Wein macht mi Guräſchi voll\\
+  hiez hoäſts döß Spill iß auß\\
+  fey ſauber iß auß.
+\end{lyrics}
+
+\end{document}
