@@ -1,0 +1,19 @@
+title: Regina cœli
+id: WerW I.3.4
+genre: antiphon
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwi34
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.192
+    rism: 530002085
+    url: https://copia.oszk.hu/kotta/regina-coeli-laetare-in-c/
+    license: public domain
+    principal: true
+toe: |
+  50   & org & last \quarterNote\ in first vlne/org part of \B1: f4 \\
+  89   & org & 2nd/3rd \halfNote\ in first vlne/org part of \B1: c1 \\
+  105  & org & 2nd/3rd \halfNote\ in first vlne/org part of \B1: c1 \\
+  178f & org & treble ottavo clef added by editor \\
