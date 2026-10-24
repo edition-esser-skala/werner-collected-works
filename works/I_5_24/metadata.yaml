@@ -1,0 +1,23 @@
+title: Sub tuum præsidium
+id: WerW I.5.24
+genre: antiphon
+scoring: S, A, T, B (coro), 2 vl, b, org
+ark: 68748/e1gjwi524
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.251
+    rism: 530002126
+    url: https://copia.oszk.hu/kotta/sub-tuum/
+    license: public domain
+    principal: true
+  B2:
+    siglum: A-Ed
+    shelfmark: L 7
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/550.html
+    license: public domain
+toe: |
+  23 & vl 2 & 1st \eighthNote\ in \B1: a′8 \\
+  25 & vl 1 & 4th to 8th \eighthNote\ in \B1:
+              e″8–\sharp c″4–\sharp f″4 \\
