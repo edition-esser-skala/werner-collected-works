@@ -1,6 +1,22 @@
 # Changelog
 
-## 2026.09.0 – 2027-09-27
+## 2026.10.0 – 2026-10-31
+
+### Added
+
+- works: WerW D.4.7–9, E.16–19, F.53–57, G.19, H.1.5, I.1.22, I.2.13, I.3.4, I.4.3/53, I.5.24, and L.1 (unreleased)
+
+### Changed
+
+- renumbered WerW H.1.15 to 6 (uses H-Bn manuscript as principal source, includes previously missing A sections)
+- renumbered WerW H.1.16 to 15
+
+### Fixed
+
+- WerW D.4.1–5: score titles
+
+
+## 2026.09.0 – 2026-09-27
 
 ### Added
 
