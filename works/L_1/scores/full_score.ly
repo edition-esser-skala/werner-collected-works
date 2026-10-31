@@ -111,7 +111,7 @@ tsf = { \override TextScript.font-name = "Unifraktur Maguntia" \override TextScr
     }
   }
   \bookpart {
-    \section "3" "Aria · Mei schöni Kunst"
+    \section "3" "Aria · Sagfälln"
     \addTocEntry
     \paper {
       system-system-spacing.basic-distance = #22
