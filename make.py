@@ -29,6 +29,7 @@ preface:
 >        front_matter/general_preface.tex
 >latexmk -c \\
 >        -outdir=final \\
+>        -e '$$bibtex_use=2;' \\
 >        front_matter/general_preface.tex
 """
 
@@ -56,7 +57,7 @@ tmp/{work}/{score}.pdf: works/{work}/scores/{score}.ly \
                         works/{work}/notes/*.ly \
                         works/{work}/definitions.ly
 >mkdir -p tmp/{work}
->$(LILYPOND) -dlog-file=$(basename $@).ly -o tmp/{work}/{score} '$(realpath $<)'
+>$(LILYPOND) -dlog-file={score}.ly -o tmp/{work}/{score} '$(realpath $<)'
 >cat $(basename $@).ly.log
 
 final/{work}/{score}: final/{work}/{score}.pdf
@@ -66,10 +67,11 @@ final/{work}/{score}.pdf: tmp/{work}/{score}.pdf \
 >python $(EES_TOOLS_PATH)/read_metadata.py \\
 >  -i works/{work}/metadata.yaml \\
 >  -t {score} \\
->  -k abbrwidth acknowledgements enlargefirstpage commentary festival genre lyrics tocstyle toe \\
+>  -k abbrwidth acknowledgements enlargefirstpage commentary festival genre lyrics tocrightmargin tocstyle toe \\
 >  -s ../tmp/{work} \\
 >  -c tag
 >latexmk -cd \\
+>        -bibtex \\
 >        -lualatex \\
 >        -outdir=../final/{work} \\
 >        -usepretex='\\def\\tocdir{{../tmp/{work}}}' \\
@@ -78,6 +80,7 @@ final/{work}/{score}.pdf: tmp/{work}/{score}.pdf \
 >cp final/{work}/{score}.log tmp/{work}/{score}.tex.log
 >latexmk -c \\
 >        -outdir=final/{work} \\
+>        -e '$$bibtex_use=2;' \\
 >        -jobname={score} \\
 >        front_matter/critical_report.tex
 """

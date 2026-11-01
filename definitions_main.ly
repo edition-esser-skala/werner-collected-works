@@ -27,21 +27,6 @@ markAriaDaCapo = {
   \mark \markup \remark "Aria da capo"
 }
 
-fermataFine = #(define-event-function () ()
-  #{ \tweak Script.outside-staff-priority #0
-       \fermata
-     \tweak TextScript.self-alignment-X #-.4
-       ^\markup \remark "fine" #}
-)
-
-brkBeam = #(make-music 'BeamForbidEvent)
-mvT = #(define-music-function
-  (parser location offset)
-  (number?)
-  #{
-    \once \override TextScript.X-offset = #offset
-  #})
-
 extendLV = #(define-music-function
   (parser location further)
   (number?)
