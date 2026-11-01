@@ -1,11 +1,5 @@
 \version "2.26.0"
 
-sbTOn = {
-  \set subdivideBeams = ##t
-  \set baseMoment = #(ly:make-moment 1/16)
-  \set beatStructure = #'(2 2 2 2)
-}
-
 tempoB-XXXVIIIKyrie = \tempoMarkup "Vivace"
   tempoB-XXXVIIIChriste = \tempoMarkup "Andante passato"
   tempoB-XXXVIIIKyrieFuga = \tempoMarkup "Allegro"

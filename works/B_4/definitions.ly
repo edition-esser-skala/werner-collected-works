@@ -1,11 +1,5 @@
 \version "2.26.0"
 
-sbFOn = {
-  \set subdivideBeams = ##t
-  \set baseMoment = #(ly:make-moment 1/16)
-  \set beatStructure = #'(2 2 2 2 2 2 2 2)
-}
-
 tempoB-IVKyrie = \tempoMarkup "Allegro"
   tempoB-IVChriste = \tempoMarkup "Tempo [alquanto] passato"
   tempoB-IVKyrieFuga = \tempoMarkup "Presto"

@@ -907,7 +907,7 @@ A-IXASAriaPrimaViolinoI = {
   \relative c' {
     \clef treble
     \key es \lydian \time 3/2 \tempoA-IXASAriaPrima
-    \sbTHOn r16 es\f es es es es es es g g g g b b b b es es es es g g g g
+    \sbQuarterOn r16 es\f es es es es es es g g g g b b b b es es es es g g g g
     f b,, b b b b b b d d d d f f f f b b b b as' as as as
     g b b b b b b b b as g f g f es d es d c b as g f es
     c' c' c c c c c c c b as g \hA as g f es f es d c b a g f

@@ -275,7 +275,7 @@ B-XXXVCredoViolinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 3/2 \tempoB-XXXVCredo
-    r2 \sbFourOn c'16(\fE d e f) g( a h c) c,4 r
+    r2 \sbQuarterOn c'16(\fE d e f) g( a h c) c,4 r
     g16( a h c) d( e fis g) g,4 r g16( a h c) d( e f g)
     e4 r c,16( d e f) g( a h c) e,4 r
     f16( g a b) c( d e f) f,4 r d16( e f g) a( h c d)

@@ -91,11 +91,11 @@ N-IIViolinoII = {
     r e g
     fis4 g8
     r e g
-    fis16([ a)] \tuplet 3/2 8 { \sbTOn a g a a g a } %85
+    fis16([ a)] \tuplet 3/2 8 { \sbOn a g a a g a } %85
     d8 h, d'
     cis16[( e]) \tuplet 3/2 8 { e d e e d e } \sbOff
     fis8 d r
-    r16 e, \brkBeam \tuplet 3/2 8 { \sbTOn e d e e d e } \sbOff
+    r16 e, \brkBeam \tuplet 3/2 8 { \sbOn e d e e d e } \sbOff
     fis8 d r %90
     a32( a') gis( a) a,[( a') \hA gis( a)] a,( a') \hA gis( a)
     a,( a') gis( a) a,[( a') \hA gis( a)] a,( a') \hA gis( a)

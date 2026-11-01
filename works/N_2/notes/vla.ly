@@ -93,7 +93,7 @@ N-IIViola = {
     a fis g e cis a
     d8 r r %85
     h' gis h
-    e,16[( cis']) \tuplet 3/2 8 { \sbTOn cis\trill h cis cis\trill h cis }
+    e,16[( cis']) \tuplet 3/2 8 { \sbOn cis\trill h cis cis\trill h cis }
     d8 h r
     r16 cis, \brkBeam \tuplet 3/2 8 { cis\trill h cis cis\trill h cis } \sbOff
     d8 h r %90

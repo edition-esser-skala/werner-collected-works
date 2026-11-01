@@ -543,7 +543,7 @@ B-IVSanctusViolinoI = {
     c16. e32 g,16. c32 e,4 r2 %20
     R1
     g16\f h8 d g16 \tuplet 3/2 8 { fis16[ g a] } h g d h g4
-    \sbFOn r16 \tuplet 3/2 16 { c,32\trill\p h c e\trill d e g\trill f g c\trill h c e\trill d e } g8 r16 \tuplet 3/2 16 { c,,32\trill h c f\trill e f a\trill g a c\trill h c f\trill e f } a8
+    \sbSixteenthOn r16 \tuplet 3/2 16 { c,32\trill\p h c e\trill d e g\trill f g c\trill h c e\trill d e } g8 r16 \tuplet 3/2 16 { c,,32\trill h c f\trill e f a\trill g a c\trill h c f\trill e f } a8
     r16 \tuplet 3/2 16 { d,,32\trill cis d fis\trill e \hA fis a\trill g a c\trill h c fis\trill e \hA fis } a8 r16 \tuplet 3/2 16 { d,,32\trill c d g\trill fis g h\trill a h d\trill c d g\trill fis g } h8 \sbOff
     r8 g~ g16 a32( g f16 e) f4~ f16 g32( f e16 d) %25
     e4 r r2

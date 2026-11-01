@@ -1,11 +1,5 @@
 \version "2.26.0"
 
-sbTOn = {
-  \set subdivideBeams = ##t
-  \set baseMoment = #(ly:make-moment 1/8)
-  \set beatStructure = #'(2 2 2)
-}
-
 tempoN-IIa = \tempoMarkup "Vivace moderato"
 tempoN-IIb = \tempoMarkup "Larghetto"
 tempoN-IIc = \tempoMarkup "Allegro passato"

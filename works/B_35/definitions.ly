@@ -1,11 +1,5 @@
 \version "2.26.0"
 
-sbFourOn = {
-  \set subdivideBeams = ##t
-  \set baseMoment = #(ly:make-moment 1/4)
-  \set beatStructure = #'(2 2 2)
-}
-
 tempoB-XXXVKyrie = \tempoMarkup "Allegro"
   tempoB-XXXVChriste = \tempoMarkup "Larghetto"
   tempoB-XXXVKyrieII = \tempoMarkup "Presto"

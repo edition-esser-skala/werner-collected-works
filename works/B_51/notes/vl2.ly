@@ -70,7 +70,7 @@ B-LIGloriaViolinoII = {
     r2 r16 es,\pE g16. es32 g16. es32 b'16. g32
     c4 r r16 c, f16. c32 as'16. f32 c'16. \hA as32
     d4 r r16 d, g16. d32 b'16. g32 d'16. b32 %45
-    \sbOn g'16. g,32 \tuplet 3/2 8 { g16 fis g } r g \tuplet 3/2 8 { g[ fis g] } \sbOnT \hA fis \tuplet 3/2 16 { d'32 c d fis[ e? \hA fis a g a] } \sbOff d16 a fis d
+    \sbOn g'16. g,32 \tuplet 3/2 8 { g16 fis g } r g \tuplet 3/2 8 { g[ fis g] } \sbSixteenthOn \hA fis \tuplet 3/2 16 { d'32 c d fis[ e? \hA fis a g a] } \sbOff d16 a fis d
     R1*5 %51
     \tempoB-LIQuiSedes r2 r16 f\fE c f d f c f
     b f d b r4 r16 b f b g b f b

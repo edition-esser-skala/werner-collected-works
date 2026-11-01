@@ -15,11 +15,7 @@ markScenaNona = {
   \once \override Score.RehearsalMark.self-alignment-X = #LEFT
   \mark \markup \remark "(Scena nona)"
 }
-sbTHOn = {
-  \set subdivideBeams = ##t
-  \set baseMoment = #(ly:make-moment 1/4)
-  \set beatStructure = #'(2 2 2 2 2 2)
-}
+
 twoonetime = {
   \overrideTimeSignatureSettings
     1/2

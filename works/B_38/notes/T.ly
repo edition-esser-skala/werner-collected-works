@@ -34,7 +34,7 @@ B-XXXVIIIKyrieTenore = {
     a8[~ a16. h64 c d16 c] %45
     h8[~ h16. c64 d e16 d] \sbOff
     c16.[\trill h64 a] g16[ f e d]
-    \sbTOn \tuplet 3/2 16 { e32[ d e f e f] } \sbOff g16.[\trill a64 h] c32[ d e f]
+    \sbSixteenthOn \tuplet 3/2 16 { e32[ d e f e f] } \sbOff g16.[\trill a64 h] c32[ d e f]
     \tuplet 3/2 16 { g([ f e)] a([ g f)] } e16.[\trill d64 c d8]
     c g c %50
     c16([ h)] h8 r

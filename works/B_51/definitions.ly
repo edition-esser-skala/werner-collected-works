@@ -1,11 +1,5 @@
 \version "2.26.0"
 
-sbOnT = {
-  \set subdivideBeams = ##t
-  \set baseMoment = #(ly:make-moment 1/16)
-  \set beatStructure = #'(2 2 2 2)
-}
-
 tempoB-LIKyrie = \tempoMarkup "Ariose"
 tempoB-LIGloria = \tempoMarkup "Vivace"
   tempoB-LIDomine = \tempoMarkup "Allegro"

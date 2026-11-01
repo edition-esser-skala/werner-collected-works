@@ -53,7 +53,7 @@ I-IV-LaTenore = {
     r8 e g fis d h d fis
     e16([\trill d)] cis([\trill h)] a!8 g fis d\f \sbOn fis16[ d32 fis a16 fis32 a]
     d16[ d,8 fis16] a[ fis32 a d16 a32 d] fis16[ fis,8 a16] d[ a32 d fis16 d32 fis]
-    \sbOnSix \tuplet 3/2 16 { a32[\trill g? a fis\trill e fis d\trill cis d fis\trill e fis] d[\trill cis d a\trill g? a fis\trill e fis d'\trill cis d] a[\trill g? a fis\trill e fis } \sbOff d16 fis] gis4 \sbOff %85
+    \sbSixteenthOn \tuplet 3/2 16 { a32[\trill g? a fis\trill e fis d\trill cis d fis\trill e fis] d[\trill cis d a\trill g? a fis\trill e fis d'\trill cis d] a[\trill g? a fis\trill e fis } \sbOff d16 fis] gis4 \sbOff %85
     a4 r r2 \noBreak
     R1\fermata \bar "||"
     \key d \major \time 3/2 \tempoI-IV-XLIXf \newSpacingSection

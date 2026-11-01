@@ -1,11 +1,5 @@
 \version "2.26.0"
 
-sbOnSix = {
-  \set subdivideBeams = ##t
-  \set baseMoment = #(ly:make-moment 1/16)
-  \set beatStructure = #'(2 2 2 2)
-}
-
 tempoI-IV-XLIXa = \tempoMarkup "Largo"
   tempoI-IV-XLIXab = \tempoMarkup "Larghetto"
 tempoI-IV-XLIXb = \tempoMarkup "Allegro assai"
