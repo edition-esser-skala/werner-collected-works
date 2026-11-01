@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VIITenore = {
   \relative c' {
@@ -110,7 +110,7 @@ G-VIITenore = {
     d r r2 \noBreak
     R1\fermata \bar "||"
     \time 4/2 \tempoG-VIIe \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*3 %177
     r1 \mvTr a\fE^\tutti
     d2 c f e4 d
@@ -131,7 +131,7 @@ G-VIITenore = {
     c\breve \noBreak %195
     c\fermata \bar "||"
     \time 4/4 \tempoG-VIIf \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*3
     r2 \mvTr g!8\pE^\solo g c e %200
     f4. f8 e4 e8 e

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXIKyrieSoprano = {
   \relative c' {
@@ -166,7 +166,7 @@ B-LXICredoSoprano = {
     c4 h a1\trill \noBreak
     h1.\fermata \bar "||"
     \key c \major \time 4/2 \tempoB-LXIEtIncarnatus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       h2 h1 cis2 \noBreak
     d2. d4 e1
     a,2 f'1 e4( d) %55
@@ -261,7 +261,7 @@ B-LXISanctusSoprano = {
   \relative c' {
     \clef treble
     \key g \major \time 4/2 \autoBeamOff \tempoB-LXISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d'1( h2) g
     e'1( cis2) a
     fis'2. fis4 d h e2~
@@ -282,7 +282,7 @@ B-LXISanctusSoprano = {
     g2 fis4 e fis1\trill \noBreak
     g\breve\fermata \bar "||"
     \time 3/2 \tempoB-LXIOsanna \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*2 %21
     g2 c2. a4
     d h e c a d
@@ -362,7 +362,7 @@ B-LXIBenedictusSoprano = {
   \relative c' {
     \clef treble
     \key g \major \time 4/2 \autoBeamOff \tempoB-LXIBenedictus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*2
     r1 a'2.( h4
     c d) e( fis) g2 g,~
@@ -396,7 +396,7 @@ B-LXIAgnusSoprano = {
   \relative c' {
     \clef treble
     \key g \major \time 4/2 \autoBeamOff \tempoB-LXIAgnus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     h'1 c
     h2. h4 e2 d~
     d cis dis e
@@ -426,7 +426,7 @@ B-LXIAgnusSoprano = {
     a\breve \noBreak
     a\fermata \bar "||"
     \time 3/2 \tempoB-LXIDona \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       g2( a) g \noBreak
     r4 d'2 cis4 d8[ a d c] %30
     h[ g a h] c[ e d c] h[ d c h]

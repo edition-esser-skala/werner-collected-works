@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-IVKyrieOrgano = {
   \relative c {
@@ -1215,7 +1215,7 @@ B-IVSanctusOrgano = {
     f d g h, c e f d \noBreak
     g e16 f g8 g, c4 r\fermata \bar "||"
     \time 4/2 \tempoB-IVOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr c1\fE-\tuttiE g' \noBreak %30
     e2 a1 g4 f
     g2 c, << {

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XIXKyrieOrgano = {
   \relative c {
@@ -162,7 +162,7 @@ B-XIXGloriaOrgano = {
     r4 c2 c4 e c \noBreak %35
     a f c1
     \clef bass \time 4/2 \tempoB-XIXQuiSedes \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr f\breve~\fE-\tutti \noBreak
     f1~ f2 e
     f4 b a g f g f e
@@ -174,7 +174,7 @@ B-XIXGloriaOrgano = {
     b b b b f2 r \noBreak %45
     f r f r\fermata \bar "||"
     \time 4/4 \tempoB-XIXQuoniam \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr f'8\pE-\solo a e c f d a b \noBreak
     c d e f c r r4
     r2 g'4 a8 a,

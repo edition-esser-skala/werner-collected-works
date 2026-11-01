@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XXXVITenore = {
   \relative c' {
     \clef "treble_8"
     \key g \minor \time 4/2 \tempoF-XXXVI \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     b2 b a d
     g, g1 fis2
     g b a f

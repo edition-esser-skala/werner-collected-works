@@ -1,8 +1,4 @@
-\version "2.24.0"
-
-tf = \override LyricText.font-name = "Unifraktur Maguntia"
-tr = \revert LyricText.font-name
-tsf = { \override TextScript.font-name = "Unifraktur Maguntia" \override TextScript.baseline-skip = #2 }
+\version "2.26.0"
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"

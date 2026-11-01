@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XIBasso = {
   \relative c {
@@ -25,7 +25,7 @@ I-IV-XIBasso = {
       R2*21 \noBreak %42
     R2\fermata \bar "||"
     \time 3/4 \tempoI-IV-XIe
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*2 %45
     \mvTr e4.\pE^\solo^\aTreE g8 fis a
     g([ fis)] g4 r

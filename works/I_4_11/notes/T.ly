@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XITenore = {
   \relative c' {
@@ -24,7 +24,7 @@ I-IV-XITenore = {
       R2*21 \noBreak %42
     R2\fermata \bar "||"
     \time 3/4 \tempoI-IV-XIe
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 \mvTr h'2\pE^\solo^\aTre \noBreak
     a4. c8 h a %45
     g([ fis)] g4 r

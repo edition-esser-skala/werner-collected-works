@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoG-Xa = \tempoMarkup "Larghetto / Adagio"
 tempoG-Xb = \tempoMarkup "Tempo ordinario" % 70

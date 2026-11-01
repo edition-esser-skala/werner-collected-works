@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 A-IXIntroContinuo = {
   \relative c {
@@ -29,7 +29,7 @@ A-IXIntroContinuo = {
     r2 r8 f\f f f \noBreak
     fis2 g\fermata \bar "||"
     \time 3/4 \tempoA-IXIntroB \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*5 %29
     es16 f g as b8 g c as %30
     f16 g a b c8 a d b
@@ -634,7 +634,7 @@ A-IXAriaSecundaContinuo = {
   \relative c {
     \clef bass
     \key es \lydian \time 3/4 \tempoA-IXAriaSecunda
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     es2\pE b4
     es,2 r4
     es'2 b4
@@ -2901,7 +2901,7 @@ A-IXASScenaQuintaContinuo = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoA-IXASScenaQuintaA
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     b2\p^\markup \remark "stendato" c
     d1
     e!2 f4 cis

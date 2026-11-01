@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XXVIChords = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoI-IV-XXVIa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     s2.*34 \bar "||" %34
     \time 4/4 \tempoI-IV-XXVIb \newSpacingSection
       s1*15 \bar "||" %49

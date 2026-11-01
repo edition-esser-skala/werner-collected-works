@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 Q-IViolinoI = {
   \relative c' {
@@ -36,7 +36,7 @@ Q-IViolinoI = {
     d16( b) a( g) f'( d) c( b) f8. es'16 c4\trill \noBreak %50
     b r r2\fermata \bar "||"
     \time 3/4 \tempoQ-Ib \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       b'8-!\pp r g-! r d-! r \noBreak
     b-! r r4 r
     b8-! r g-! r d-! r

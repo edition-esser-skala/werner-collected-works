@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XKyrieTenore = {
   \relative c' {
@@ -55,7 +55,7 @@ B-XGloriaTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \major \time 3/4 \autoBeamOff \tempoB-XGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr a4\fE^\tutti r8 a h a
     a4 r8 a h a
     a4 r8 h4 a8
@@ -220,7 +220,7 @@ B-XCredoTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \major \time 3/4 \autoBeamOff \tempoB-XCredo
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*3
     r4 \mvTr a8\pE^\solo g fis fis16 fis
     g8 a h a gis a %5
@@ -252,7 +252,7 @@ B-XCredoTenore = {
     R1*7 \noBreak %40
     R1\fermata \bar "||"
     \time 3/4 \tempoB-XEtResurrexit
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr d4\fE^\tutti r8 d d cis \noBreak
     d d r d d cis
     d d r d a([ gis)]
@@ -374,7 +374,7 @@ B-XSanctusTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \major \time 3/4 \autoBeamOff \tempoB-XSanctus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r4 \mvTr d\fE^\tutti d,
     r d' d,
     a'2.
@@ -433,7 +433,7 @@ B-XBenedictusTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \major \time 3/4 \autoBeamOff \tempoB-XBenedictus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*11 %11
     r4 r8 \mvTr a\fE^\tutti a a
     \tempoB-XOsanna fis d \once \stemUp h'4.( a16[ g]
@@ -488,7 +488,7 @@ B-XAgnusTenore = {
     gis4 cis h2 \noBreak
     cis r\fermata \bar "||" %15
     \time 3/4 \tempoB-XDona \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr d4.\fE^\tutti d8 d4 \noBreak
     d d8([ e d cis)]
     d fis,16[ g] a[ h cis8] d[ h]

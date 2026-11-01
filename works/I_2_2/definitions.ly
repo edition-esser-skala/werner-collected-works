@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 sempreP = \markup \remark \whiteout \pad-markup #0.5 \concat { "sempre " \bold \fontsize #2 "p" }
 

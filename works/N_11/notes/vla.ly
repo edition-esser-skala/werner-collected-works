@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 N-XIViola = {
   \relative c' {
@@ -57,7 +57,7 @@ N-XIViola = {
       h4
     } >> r\fermata \bar "||" %45
     \key c \major \time 3/4 \tempoN-XIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       g'2.\fE \noBreak
     c4 c, r
     c8( d) e( g) f( d)

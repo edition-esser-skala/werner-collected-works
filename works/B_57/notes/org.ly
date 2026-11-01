@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LVIIKyrieOrgano = {
   \relative c {
     \clef bass
     \key d \minor \time 4/2 \tempoB-LVIIKyrie
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d1-! e-!
     << {
       a h
@@ -160,7 +160,7 @@ B-LVIIGloriaOrgano = {
   \relative c {
     \clef bass
     \key d \minor \time 4/2 \tempoB-LVIIGloria
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << {
       s1 a'
       a2 a
@@ -429,7 +429,7 @@ B-LVIICredoOrgano = {
   \relative c {
     \clef bass
     \key d \minor \time 4/2 \tempoB-LVIICredo
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d1-! d2-! c-!
     << { a'1 } \\ { d,2 a } >> b1
     a \clef "treble_8" f'2 a
@@ -499,7 +499,7 @@ B-LVIICredoOrgano = {
     c\breve \noBreak
     f,\fermata \bar "||"
     \time 3/2 \tempoB-LVIIEtIncarnatus \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       b2 d c \noBreak
     b \clef "treble_8" d' c %65
     b d b
@@ -524,7 +524,7 @@ B-LVIICredoOrgano = {
     b1. \noBreak %85
     f\fermata \bar "||"
     \time 4/2 \tempoB-LVIICruxifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       d'1. d2 \noBreak
     d c d e
     f1 e2 a~
@@ -607,13 +607,13 @@ B-LVIICredoOrgano = {
     r2 b,1 b2 \noBreak
     d f b b \bar "||"
     \time 3/2 \tempoB-LVIIMortuorum
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       g1 g2 \noBreak
     a1 d,2~
     d a1 \noBreak %165
     d1.\fermata \bar "||"
     \time 4/2 \tempoB-LVIIEtVitam
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << {
       a'1-! a2 f \noBreak %167
       b1
@@ -853,7 +853,7 @@ B-LVIISanctusOrgano = {
   \relative c {
     \clef bass
     \key d \minor \time 4/2 \tempoB-LVIISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d1. c2
     d e f d
     c\breve
@@ -897,7 +897,7 @@ B-LVIISanctusOrgano = {
     g\breve \noBreak
     f\fermata \bar "||"
     \clef "treble_8" \time 3/2 \tempoB-LVIIBenedictus \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       d1 e2 \noBreak
     f g a
     b1. %40
@@ -914,7 +914,7 @@ B-LVIISanctusOrgano = {
     g1. \noBreak
     f\fermata \bar "||"
     \clef bass \time 4/2 \tempoB-LVIIOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       a1-! a2-! a-! \noBreak
     << {
       d1 d2 d
@@ -1020,7 +1020,7 @@ B-LVIIAgnusOrgano = {
   \relative c {
     \clef bass
     \key d \minor \time 4/2 \tempoB-LVIIAgnus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d1 b
     c\breve
     f1 r2 c'~

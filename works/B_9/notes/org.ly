@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-IXKyrieOrgano = {
   \relative c {
@@ -137,7 +137,7 @@ B-IXGloriaOrgano = {
     a gis fis e d fis e e, \noBreak
     a4 r r2\fermata \bar "||" %50
     \time 3/4 \tempoB-IXQuiTollis \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr fis'4\fE-\tutti fis fis \noBreak
     g g g
     gis gis gis
@@ -381,7 +381,7 @@ B-IXCredoOrgano = {
     e, h1 \noBreak
     e, r2\fermata \bar "||" %35
     \key a \minor \time 3/4 \tempoB-IXEtIncarnatus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr a2\pE-\solo d4 \noBreak
     e gis e
     dis e r

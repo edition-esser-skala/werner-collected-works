@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-IVKyrieViolinoI = {
   \relative c' {
@@ -551,7 +551,7 @@ B-IVSanctusViolinoI = {
     c16( e) d( c) \sbOn c32( h) h( a) a( g) g( f) f( e) e( d) d( c) c( h) \sbOff a16( a') f( d) \noBreak
     h( h') c( c,) \appoggiatura e8 d8.\trill c16 c4 r\fermata \bar "||"
     \time 4/2 \tempoB-IVOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \revert Score.SpacingSpanner.common-shortest-duration
       R\breve*8 %37
     g'1\fE c

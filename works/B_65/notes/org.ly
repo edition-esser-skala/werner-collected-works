@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXVKyrieOrgano = {
   \relative c {
@@ -496,7 +496,7 @@ B-LXVBenedictusBOrgano = {
     es f f, \noBreak
     b2.\fermata \bar "||" %15
     \time 4/2 \tempoB-LXVOsannaB \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr d\breve\fE-\tuttiE \noBreak
     a'1 g
     e2 f g1
@@ -699,7 +699,7 @@ B-LXVAgnusBOrgano = {
     cis d2 \noBreak
     a2.\fermata \bar "||"
     \clef treble \time 4/2 \tempoB-LXVDonaB \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       d'1 e \noBreak %28
     << {
       r2 a h1

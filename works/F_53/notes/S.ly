@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-LIIISoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 4/2 \autoBeamOff \tempoF-LIII
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     g'1. c2
     a a1 a2
     a( gis) a1

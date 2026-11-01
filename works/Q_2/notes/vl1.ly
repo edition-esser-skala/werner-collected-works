@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 Q-IIaViolinoI = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \tempoQ-IIa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*26 %26
     r4 e'\fE a~
     a gis8 fis e d

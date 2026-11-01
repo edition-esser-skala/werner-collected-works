@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 E-VIISoprano = {
   \relative c' {
     \clef treble
     \key f \major \time 3/4 \tempoE-VII \autoBeamOff
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r4 r \mvTr c'\pE^\solo
     f c a8([ b)]
     c4 f,8([ a)] g([ b)]

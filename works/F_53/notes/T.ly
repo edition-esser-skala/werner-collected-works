@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-LIIITenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/2 \autoBeamOff \tempoF-LIII
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c1 c
     c c2 cis
     d( h) cis cis

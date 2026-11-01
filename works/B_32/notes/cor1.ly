@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXIIKyrieCornoI = {
   \relative c' {
@@ -39,7 +39,7 @@ B-XXXIIGloriaCornoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoB-XXXIIGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     e'8.\fE e32 e32 \pa e8 g4 c8 \pd
     h8. h32 h h8 h g h
     c r g r g r
@@ -60,7 +60,7 @@ B-XXXIIGloriaCornoI = {
     \time 4/4 \tempoB-XXXIILaudamus \newSpacingSection
     R1*8 %25
     \time 3/4 \tempoB-XXXIIGlorificamus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*15 \noBreak %40
     R2.\fermata \bar "||"
     \time 4/4 \tempoB-XXXIIGratias \newSpacingSection
@@ -148,14 +148,14 @@ B-XXXIICredoCornoI = {
     \pa g g4 h8 \pd c a g8.\trill g16 \noBreak
     g e32 e e16 c e c32 c c16 g e4 r\fermata \bar "||"
     \time 3/4 \tempoB-XXXIIEtIncarnatus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*33 \noBreak %65
     R2.\fermata \bar "||"
     \time 4/4 \tempoB-XXXIICrucifixus \newSpacingSection
       R1*13 \noBreak %79
     R1\fermata \bar "||" %80
     \time 3/4 \tempoB-XXXIIEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       g'4\fE \pa e a \noBreak
     g2 c4
     h4. h8 g4

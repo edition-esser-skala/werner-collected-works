@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 N-XIViolinoII = {
   \relative c' {
@@ -50,7 +50,7 @@ N-XIViolinoII = {
     \slurDashed g16(-. g-.) g(-. g-.) \slurSolid \sbOn g16.\trill h64 a g16.\trill h64 a \sbOff \noBreak
     g4 r\fermata \bar "||" %45
     \key c \major \time 3/4 \tempoN-XIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       c,2.\fE \noBreak
     e,4.\trill c16 d e8( d)
     c4( g) h

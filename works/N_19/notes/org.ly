@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 N-XIXOrgano = {
   \relative c {
@@ -46,7 +46,7 @@ N-XIXOrgano = {
     b~ \noBreak
     b1 r2\fermata \bar "||"
     \time 3/4 \tempoN-XIXb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       g4\pE g' f \noBreak %30
     es2 b4
     c2.

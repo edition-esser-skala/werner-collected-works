@@ -125,7 +125,7 @@ B-VIICredoTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIICredo
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r2 c c h
     c4( d) e( d) c2 d~
     d c d d
@@ -171,7 +171,7 @@ B-VIICredoTenore = {
     g2. f4 e1~ \noBreak %45
     e e \fermata \bar "||"
     \time 3/2 \tempoB-VIIEtIncarnatus \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       a2 c2. h4 \noBreak
     a2.( g4) f2
     g e a~
@@ -198,7 +198,7 @@ B-VIICredoTenore = {
     h a2. a4 \noBreak %70
     gis1 r2\fermata \bar "||"
     \time 2/1 \tempoB-VIIEtResurrexit \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       c,2 c'1 c2 \noBreak
     f,4( g a h c2) c,
     r1 r2 f'~
@@ -428,7 +428,7 @@ B-VIISanctusTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     g2 c a( d)
     g, e'1 d2~
     d e a,( d)
@@ -621,7 +621,7 @@ B-VIIAgnusTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIIAgnus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c2. h4 a2. c4
     h1 a2 f
     c' cis4 cis d2 g,

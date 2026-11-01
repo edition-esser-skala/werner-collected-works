@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXVKyrieViolinoII = {
   \relative c' {
@@ -199,7 +199,7 @@ B-LXVBenedictusBViolinoII = {
     R2.*14 \noBreak %14
     R2.\fermata \bar "||" %15
     \time 4/2 \tempoB-LXVOsannaB \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*10 %25
     a'\breve\fE
     d1 c
@@ -287,7 +287,7 @@ B-LXVAgnusBViolinoII = {
     e d2 \noBreak
     cis2.\fermata \bar "||"
     \time 4/2 \tempoB-LXVDonaB \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve
     r2 a h1
     c2. c4 d2 h %30

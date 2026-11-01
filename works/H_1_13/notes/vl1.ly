@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-XIIIDixitViolinoI = {
   \relative c' {
@@ -210,7 +210,7 @@ H-I-XIIIPueriViolinoI = {
   \relative c' {
     \clef treble
     \key a \minor \time 3/4 \tempoH-I-XIIIPueri
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*9 %9
     r4 d'4.\pE g8 %10
     e a g4. f8
@@ -298,7 +298,7 @@ H-I-XIIIMagnificatViolinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoH-I-XIIIMagnificat
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r4 g''2\fE
     g4. g8 g4
     h c4. c8

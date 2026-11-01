@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLKyrieTimpani = {
   \relative c {
@@ -156,7 +156,7 @@ B-XLSanctusTimpani = {
     \tempoB-XLPleni R1*17 \noBreak %30
     R1\fermata \bar "||"
     \time 2/1 \tempoB-XLOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*8 %39
     r1 r2 r4 g\fE %40
     c c8 c c2 r c4 c8 c
@@ -189,7 +189,7 @@ B-XLAgnusTimpani = {
     R1. \noBreak
     R\fermata \bar "||"
     \time 2/1 \tempoB-XLDona \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*12 %40
     r1 c4.\fE c8 c4 c
     c c8 c c4 c c2 r

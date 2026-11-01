@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 P-IVSymphoniaPrimaViolinoII = {
   \relative c' {
@@ -747,7 +747,7 @@ P-IVSonataTertiaViolinoII = {
   \relative c' {
     \clef treble
     \key f \dorian \time 3/4 \tempoP-VISonataTertia
-      \override Staff.TimeSignature.style = #'single-digit
+      \override Staff.TimeSignature.style = #'single-number
     f4\fE g a
     b c des8( e,)
     f( b) as!4 g\trill
@@ -831,7 +831,7 @@ P-IVSonataTertiaViolinoII = {
     f g f \noBreak %80
     e1.\fermata \bar "||"
     \time 3/4 \tempoP-VISonataTertiaD \newSpacingSection
-      \override Staff.TimeSignature.style = #'single-digit
+      \override Staff.TimeSignature.style = #'single-number
       c'4\fE des4. c16 b \noBreak
     c8 e, f c' des c16 b
     c8 e, f b as16 f g e
@@ -1113,7 +1113,7 @@ P-IVSonataQuartaViolinoII = {
     a a' g a fis2 \noBreak
     e r\fermata \bar "||"
     \time 3/4 \tempoP-VISonataQuartaC \newSpacingSection
-      \override Staff.TimeSignature.style = #'single-digit
+      \override Staff.TimeSignature.style = #'single-number
       e4\fE fis r8 r16 f \noBreak
     e4 e r %100
     a h r8 r16 b
@@ -1407,7 +1407,7 @@ P-IVSonataQuintaViolinoII = {
     cis4 d8 e d4 cis \noBreak
     d r r2\fermata \bar "||"
     \time 3/4 \tempoP-VISonataQuintaC \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       f4\fE f r8 r16 f \noBreak
     e4 e r %80
     e e r8 r16 e
@@ -1579,7 +1579,7 @@ P-IVSonataSextaViolinoII = {
   \relative c' {
     \clef treble
     \key c \dorian \time 3/4 \tempoP-VISonataSexta
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     es4\fE g r8 r16 d
     es4 es r8 r16 c'
     c8.[\trill b!16 b8.\trill as16 as8.\trill g16]
@@ -1637,7 +1637,7 @@ P-IVSonataSextaViolinoII = {
     d c16 h c4~ c16 es d c h8.\trill c16 \noBreak
     c4 r r2\fermata \bar "||"
     \time 3/4 \tempoP-VISonataSextaC \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       es4\fE f8( b!) d( f) \noBreak
     b,2.~ %60
     b4 c8 b as g

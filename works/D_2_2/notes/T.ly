@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-II-IITenore = {
   \relative c' {
     \clef "treble_8"
     \key g \dorian \time 4/2 \tempoD-II-II \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*5 %5
     g1 b
     a2. a4 f2 d

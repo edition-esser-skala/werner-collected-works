@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-X-Organo = {
   \relative c {
@@ -18,7 +18,7 @@ I-III-X-Organo = {
     << { a'8[ gis] } \\ { a,4-\critnote } >> fis'8 e16 d cis8 d e e, \noBreak
     a cis16 d e8 e, a4 r\fermata \bar "||"
     \time 3/4 \tempoI-III-X-b \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       fis'2\pE his,4 \noBreak
     cis cis'8 h! a gis %15
     fis4 h8 a gis fis

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXIIIKyrieBasso = {
   \relative c {
@@ -20,7 +20,7 @@ B-XXXIIIKyrieBasso = {
     a,4 r r2 \noBreak
     r8 fis' d([ e)] a,4 r\fermata \bar "||"
     \key a \minor \time 3/4 \tempoB-XXXIIIChriste \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2. \noBreak
     r4 r \mvTr a'~\pE^\solo
     a8[ g!16 f] e8([ d)] c([ h)] %25
@@ -45,7 +45,7 @@ B-XXXIIIKyrieBasso = {
     a8[ g!] f2\trill \noBreak
     e r4\fermata \bar "||" %45
     \key a \major \time 4/2 \tempoB-XXXIIIKyrieB \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr a1\fE^\tutti a \noBreak
     a a
     a( h)
@@ -172,7 +172,7 @@ B-XXXIIIGloriaBasso = {
     a, a' a e16 e a8 e cis([ a)] \noBreak %65
     e'4 r8 e( a) e cis([ a)]
     \time 3/4 \tempoB-XXXIIIAmen
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       e'4 r r \noBreak
     R2.
     r4 r r8 e(
@@ -464,7 +464,7 @@ B-XXXIIISanctusBasso = {
   \relative c {
     \clef bass
     \key a \major \time 3/4 \autoBeamOff \tempoB-XXXIIISanctus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr a'4.\fE^\tutti a16[ gis] a8[ h]
     gis[ fis16 e] fis4. gis8
     a8.[ gis16] fis8[ e16 d] cis8[ d]

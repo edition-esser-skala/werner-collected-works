@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-X-ViolinoI = {
   \relative c' {
@@ -19,7 +19,7 @@ I-III-X-ViolinoI = {
     e fis32 gis a16 h cis a32 h cis16 d e8 d \appoggiatura cis h8.\trill a16 \noBreak
     a e8 fis16 \appoggiatura cis8 h8.\trill a16 a4 r\fermata \bar "||"
     \time 3/4 \tempoI-III-X-b \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \revert Score.SpacingSpanner.common-shortest-duration
       R2.*5 %18
     \mvTr cis8(\fE-\solo e) a( cis) h16( cis) d8

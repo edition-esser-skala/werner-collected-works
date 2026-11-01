@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXVKyrieAlto = {
   \relative c' {
@@ -408,7 +408,7 @@ B-LXVBenedictusBAlto = {
     d c4. c8 \noBreak
     b2.\fermata \bar "||" %15
     \time 4/2 \tempoB-LXVOsannaB \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*6 %21
     r1 \mvTr d~\fE^\tuttiE
     d a'
@@ -572,7 +572,7 @@ B-LXVAgnusBAlto = {
     e f2 \noBreak
     e2.\fermata \bar "||"
     \time 4/2 \tempoB-LXVDonaB \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       d1 e \noBreak
     f2. f4 g2 e
     c f4 e d2 g4 f %30

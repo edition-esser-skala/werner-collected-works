@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-IXKyrieAlto = {
   \relative c' {
@@ -109,7 +109,7 @@ B-IXGloriaAlto = {
     R1*6 \noBreak %49
     R1\fermata \bar "||" %50
     \time 3/4 \tempoB-IXQuiTollis \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr a2.\fE^\tutti \noBreak
     ais4 ais cis
     eis,2 eis4
@@ -294,7 +294,7 @@ B-IXCredoAlto = {
     a gis fis1\trill \noBreak
     gis1.\fermata \bar "||" %35
     \key a \minor \time 3/4 \tempoB-IXEtIncarnatus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*30 \noBreak %65
     R2.\fermata \bar "||"
     \time 4/4 \tempoB-IXCrucifixus \newSpacingSection

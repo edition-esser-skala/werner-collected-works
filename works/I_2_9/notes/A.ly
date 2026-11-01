@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-II-IXAlto = {
   \relative c' {
     \clef treble
     \key f \major \time 3/4 \tempoI-II-IX \autoBeamOff
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr f4\pE^\solo a g8([ f)]
     e([ d)] c4 d8([ e)]
     f c b2

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-IV-IIIViolaII = {
   \relative c' {
@@ -7,7 +7,7 @@ D-IV-IIIViolaII = {
       \once \omit Staff.TimeSignature
     s4*6
     \time 4/2 \tempoD-IV-III
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r2 d1 e2
     cis d2. c4 h2
     a r d4 e f g
@@ -26,9 +26,9 @@ D-IV-IIIViolaII = {
     f2 e4 d e1\trill \noBreak
     d\breve\fermata \bar "||"
     \time 14/4 \once \omit Staff.TimeSignature
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       s4*14 \bar "||"
-    \time 4/2 \set Staff.timeSignatureFraction = 2/2
+    \time 4/2 \set Staff.timeSignature = 2/2
       fis1 g2 d \noBreak %20
     es c f4 f d2
     d cis r d

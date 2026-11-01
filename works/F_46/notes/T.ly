@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XLVITenore = {
   \relative c' {
     \clef "treble_8"
     \key d \major \time 4/4 \tempoF-XLVI \autoBeamOff
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     R1
     a2 h
     cis d

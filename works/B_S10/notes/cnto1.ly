@@ -19,7 +19,7 @@ B-SXKyrieCornettoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoB-SXKyrie
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*8 \bar "||" %8
     R2.*8 \bar "||" %16
     R2.*8 \bar "||" %24
@@ -72,7 +72,7 @@ B-SXGloriaCornettoI = {
     d8 g g g g4. g8 \noBreak
     g2 g\fermata \bar "||" %5
     \time 3/4 \tempoB-SXLaudamus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*7 \noBreak %12
     R2.\fermata \bar "||"
     \time 2/2 \tempoB-SXGratias
@@ -310,7 +310,7 @@ B-SXSonataSecundaCornettoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoB-SXSonataSecunda
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*11 %11
     c'8\fE g c16 d e8 e16 d c8
     g'4~ g16 a g f e8 f

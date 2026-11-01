@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XIKyrieOrgano = {
   \relative c {
@@ -14,7 +14,7 @@ B-XIKyrieOrgano = {
     b2 c4 f \noBreak
     c2 f,\fermata \bar "||"
     \time 3/4 \tempoB-XIChriste
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr d'8\pE-\solo e f4 cis \noBreak %10
     d8 e f4 cis
     d b'2
@@ -297,7 +297,7 @@ B-XISanctusOrgano = {
   \relative c {
     \clef bass
     \key f \major \time 4/2 \tempoB-XISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << {
       c'1-! a4 f g a
       b c d c8 b a4 g a2
@@ -329,8 +329,8 @@ B-XISanctusOrgano = {
     c\breve \noBreak
     f,\fermata \bar "||"
     \time 3/4 \tempoB-XIOsanna \newSpacingSection
-      \unset Staff.timeSignatureFraction
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \unset Staff.timeSignature
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr f'8\pE-\solo g a4 f \noBreak
     c' e, f
     e2 d4 %25

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoJ-III-a = \tempoMarkup "Allegro"
 tempoJ-III-b = \tempoMarkup "Adagio" % 60

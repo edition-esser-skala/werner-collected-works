@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-V-IIAlto = {
   \relative c' {
@@ -18,7 +18,7 @@ I-V-IIAlto = {
     e8. e16 f8 d e16([ d)] e8 r4 \noBreak %15
     R1
     \time 3/4 \tempoI-V-IIb
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 gis^\aTre a8 a \noBreak
     f!4 f r
     d4. d8 e e

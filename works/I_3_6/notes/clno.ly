@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-VIClarino = {
   \relative c' {
@@ -21,7 +21,7 @@ I-III-VIClarino = {
     h16. h32 h16.\trill a64 h \tuplet 3/2 8 { c16 h a } g f \tuplet 3/2 8 { e f g a g f } e8( d16.)\trill c32 \sbOff \noBreak
     c8 g16. g32 g8 e16. e32 e4 r\fermata \bar "||"
     \time 3/4 \tempoI-III-VIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*21 \bar "||" %39
     \twofourtime \time 2/4 \tempoI-III-VIc \newSpacingSection
       R2*36 \noBreak %75

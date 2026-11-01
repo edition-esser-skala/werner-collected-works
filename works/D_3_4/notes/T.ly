@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-III-IV-aTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/2 \tempoD-III-IV-a \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r1 g
     c h2 e~
     e d c c

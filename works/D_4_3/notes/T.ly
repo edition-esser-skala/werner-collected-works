@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-IV-IIITenore = {
   \relative c' {
@@ -7,7 +7,7 @@ D-IV-IIITenore = {
       \once \omit Staff.TimeSignature
     s4*6
     \time 4/2 \tempoD-IV-III
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve
     a1( b2) gis
     a4( g) f( e) f( g) a( b)
@@ -26,9 +26,9 @@ D-IV-IIITenore = {
     a\breve \noBreak
     a\fermata \bar "||"
     \time 14/4 \once \omit Staff.TimeSignature
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       s4*14 \bar "||"
-    \time 4/2 \set Staff.timeSignatureFraction = 2/2
+    \time 4/2 \set Staff.timeSignature = 2/2
       d1 h2. g4 \noBreak %20
     g2 a f f
     g4( fis g2) fis1

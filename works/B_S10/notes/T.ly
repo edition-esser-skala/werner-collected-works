@@ -4,7 +4,7 @@ B-SXKyrieTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 3/4 \autoBeamOff \tempoB-SXKyrie
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvDl c4\fE^\tutti h a
     g2.
     a4 d c
@@ -132,7 +132,7 @@ B-SXGloriaTenore = {
     h8 d c^\critnote g! g2 \noBreak
     g1\fermata \bar "||" %5
     \time 3/4 \tempoB-SXLaudamus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*7 \noBreak %12
     R2.\fermata \bar "||"
     \time 2/2 \tempoB-SXGratias

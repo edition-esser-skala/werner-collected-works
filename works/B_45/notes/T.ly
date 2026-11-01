@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLVKyrieTenore = {
   \relative c' {
@@ -82,7 +82,7 @@ B-XLVGloriaTenore = {
     f r r2 \noBreak
     R1\fermata \bar "||"
     \time 2/1 \tempoB-XLVDomine \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r1 \mvTr a\fE^\tutti \noBreak
     a2 h c a
     b4( d) c( b) a2 d~ %25
@@ -101,7 +101,7 @@ B-XLVGloriaTenore = {
     a a a1 \noBreak
     a\breve\fermata \bar "||"
     \time 4/4 \tempoB-XLVQuiTollis \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*2 %41
     \mvTr d,2\pE^\solo f
     e4 f a g
@@ -471,7 +471,7 @@ B-XLVSanctusTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \minor \time 2/1 \autoBeamOff \tempoB-XLVSanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*2
     \mvTr d1\fE^\tuttiE f
     e2( d) e2. d4
@@ -486,7 +486,7 @@ B-XLVSanctusTenore = {
     c4 f2 e4 f1 \noBreak
     \time 1/1 R\fermata
     \time 4/4 \tempoB-XLVPleni \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*9 \noBreak %23
     R1\fermata \bar "||"
     \time 3/2 \tempoB-XLVOsanna \newSpacingSection

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-V-IIViolinoII = {
   \relative c' {
@@ -20,7 +20,7 @@ I-V-IIViolinoII = {
     a8 a' d, g c,4 r \noBreak %15
     r r16 gis'\p gis( h) r a a( c) r a \tuplet 3/2 8 { a\trill gis a }
     \time 3/4 \tempoI-V-IIb
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       gis4 r r \noBreak
     r r8 a d16( c) b!8
     b16( a) g8 r r e16( f) g8

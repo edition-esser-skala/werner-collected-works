@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 SIsolo = \markup \remark "S 1 solo"
 SIeIIsolo = \markup \remark "S 1 & 2 solo"

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-IIIKyrieAlto = {
   \relative c' {
@@ -55,7 +55,7 @@ B-IIIKyrieAlto = {
     g4 g g( fis) \noBreak
     g r r2\fermata \bar "||" %50
     \time 3/4 \tempoB-IIIChriste
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*13 %63
     \mvTr e4\pE^\solo^\aDue e8([ d)] cis([ h)]
     g'4 fis8([ e)] d([ cis)] %65
@@ -559,7 +559,7 @@ B-IIICredoAlto = {
       R2.*21 \noBreak %56
     R2.\fermata \bar "||"
     \time 4/2 \key d \minor \tempoB-IIICrucifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*2
     \mvTr d1\fE^\tuttiE es %60
     cis d
@@ -593,7 +593,7 @@ B-IIICredoAlto = {
     d1. d2 \noBreak
     d\breve\fermata \bar "||" %90
     \key c \major \time 3/2 \tempoB-IIIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr e1\fE^\tutti r2 \noBreak
     g g g
     e c r

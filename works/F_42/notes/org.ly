@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XLIIaOrgano = {
   \relative c {
     \clef bass
     \key d \minor \time 3/2 \tempoF-XLIIa
-      \set Staff.timeSignatureFraction = 3/2
+      \set Staff.timeSignature = 3/2
     d2 g4 g, d'2
     a d4 e f4. g8
     a2 d,4 \clef treble << { a'' b8 c d e f4 } \\ { f,8 e d e f g a4 } >>

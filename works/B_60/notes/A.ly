@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXKyrieAlto = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \tempoB-LXKyrie \autoBeamOff
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*10 %10
     \mvTr h2\pE^\solo e4
     dis2 e4

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLIIIKyrieAlto = {
   \relative c' {
@@ -23,7 +23,7 @@ B-XLIIIKyrieAlto = {
     g8[ f] e4\trill d r \noBreak
     r8 f e4 d r\fermata \bar "||"
     \time 3/4 \tempoB-XLIIIChriste \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*10 %28
     r8 \mvTr c\pE^\solo f a c,([ b)]\trill
     a c f a g8([ f)] %30
@@ -100,7 +100,7 @@ B-XLIIIGloriaAlto = {
   \relative c' {
     \clef treble
     \key d \minor \time 3/4 \autoBeamOff \tempoB-XLIIIGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*2
     r4 r8 \mvTr f\fE^\tutti f e
     f4 r8 f\p f e

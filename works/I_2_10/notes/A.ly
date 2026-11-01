@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-II-XAlto = {
   \relative c' {
     \clef treble
     \key d \dorian \time 4/2 \autoBeamOff \tempoI-II-Xa
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve
     r1 d~^\tuttiE
     d2 d1 d2
@@ -41,7 +41,7 @@ I-II-XAlto = {
     cis2 d d( \hA cis) \noBreak
     d\breve\fermata \bar "||" %35
     \key f \major \time 3/2 \tempoI-II-Xb
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       f1^\solo^\aTre f2 \noBreak
     f( e) fis
     g2.( fis4) g( a)

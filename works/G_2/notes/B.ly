@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-II-Basso = {
   \relative c {
@@ -84,7 +84,7 @@ G-II-Basso = {
     g4 d r2 \noBreak
     R1\fermata \bar "||"
     \time 4/2 \tempoG-II-e \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr g1\fE^\tutti g2 d \noBreak
     b' a4( g) f g8[ f] es4 d
     c d es f g2. f4 %115
@@ -107,7 +107,7 @@ G-II-Basso = {
     f2 d4 b f'1 \noBreak
     b,\breve\fermata \bar "||" %135
     \time 4/4 \tempoG-II-f \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*2
     r2 \mvTr g'8\pE^\solo e c g'
     as[ g f es] d!4. cis8

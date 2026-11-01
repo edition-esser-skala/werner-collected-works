@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-III-IIIaAlto = {
   \relative c' {
     \clef treble
     \key b \major \time 4/2 \tempoD-III-IIIaa \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     f1 g
     g g2 g
     g g g1
@@ -21,7 +21,7 @@ D-III-IIIaAlto = {
     b1._( a4 g) \noBreak
     a\breve\fermata \bar "||" %15
     \time 3/2 \tempoD-III-IIIab
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*3
     b,2 b'2. b4
     a c f, a2 h4 %20
@@ -123,7 +123,7 @@ D-III-IIIbAlto = {
   \relative c' {
     \clef treble
     \key g \dorian \time 4/2 \autoBeamOff \tempoD-III-IIIba
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d2 g1 fis2
     g b2. a4 g2~
     g4 f es2. d4 c2~
@@ -161,7 +161,7 @@ D-III-IIIbAlto = {
     fis2 g1( fis2) \noBreak
     g\breve\fermata \bar "||"
     \time 3/2 \tempoD-III-IIIbc
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       f!2.(^\aTre g4 a g8[ f)] \noBreak
     e2 f g %40
     c, r g'
@@ -242,7 +242,7 @@ D-III-IIIcAlto = {
   \relative c' {
     \clef treble
     \key f \major \time 4/2 \autoBeamOff \tempoD-III-IIIca
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     f2 f1 e2
     f( g1) f2
     r a gis a
@@ -276,7 +276,7 @@ D-III-IIIcAlto = {
     e( f1) e2 \noBreak
     f\breve\fermata \bar "||"
     \time 3/2 \tempoD-III-IIIcc
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       e2^\aTre f2. f4 \noBreak
     e1 r2 %35
     fis2 g4( d) g2

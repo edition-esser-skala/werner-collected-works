@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LKyrieBasso = {
   \relative c {
@@ -196,7 +196,7 @@ B-LGloriaBasso = {
     b g f \noBreak %30
     c' c r
     \time 4/2 \tempoB-LPropter \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve \noBreak
     f1 c
     d e2 f~
@@ -213,7 +213,7 @@ B-LGloriaBasso = {
     c( f) c1 \noBreak %45
     f,\breve\fermata \bar "||"
     \key d \minor \time 4/4 \tempoB-LDomine \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*20 \noBreak %66
     R1\fermata \bar "||"
     \key a \minor \time 3/2 \tempoB-LQuiTollis \newSpacingSection

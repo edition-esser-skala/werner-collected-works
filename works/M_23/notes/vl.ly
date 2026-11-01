@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 M-XXIIIaViolino = {
   \relative c' {
@@ -96,7 +96,7 @@ M-XXIIIbViolino = {
   \relative c' {
     \clef treble
     \key c \dorian \time 3/4 \tempoM-XXIIIb
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \partial 8 g''8\fE
     \repeat volta 2 {
       g4. f8 es d
@@ -194,7 +194,7 @@ M-XXIIIcViolino = {
   \relative c' {
     \clef treble
     \key c \dorian \time 3/4 \tempoM-XXIIIc
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \repeat volta 2 {
       R2.*2
       r4 g'\fE c~
@@ -308,7 +308,7 @@ M-XXIIIeViolino = {
   \relative c' {
     \clef treble
     \key c \dorian \time 3/4 \tempoM-XXIIIe
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \repeat volta 2 {
       g''4\fE c, h
       c g r

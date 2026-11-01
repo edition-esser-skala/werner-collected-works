@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-IX-aViolinoI = {
   \relative c' {
@@ -257,7 +257,7 @@ H-I-IX-eViolinoI = {
   \relative c' {
     \clef treble
     \key a \minor \time 4/2 \tempoH-I-IX-e
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*3
     r1 r2 e'
     a,4 c h a g fis e2~ %5

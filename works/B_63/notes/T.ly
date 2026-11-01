@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXIIIKyrieTenore = {
   \relative c' {
@@ -25,7 +25,7 @@ B-LXIIIKyrieTenore = {
     g,4 a g1 \noBreak
     a1.\fermata \bar "||" %20
     \time 4/2 \tempoB-LXIIIChriste \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r1 a \noBreak
     c2 c h2. cis4
     d a d1 c4 d
@@ -88,7 +88,7 @@ B-LXIIICredoTenore = {
   \relative c' {
     \clef "treble_8"
     \key f \lydian \time 4/2 \tempoB-LXIIICredo \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a1( b)
     a r2 a
     a a a d~
@@ -141,7 +141,7 @@ B-LXIIICredoTenore = {
     a1 as~ \noBreak %50
     as g\fermata \bar "||"
     \time 3/2 \tempoB-LXIIIEtIncarnatus
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1. \noBreak
     r2 e c'
     h1 a2
@@ -165,7 +165,7 @@ B-LXIIICredoTenore = {
     c1 h2 \noBreak
     c1 r2\fermata \bar "||"
     \time 4/2 \tempoB-LXIIICrucifixus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve \noBreak
     r1 g %75
     as h!
@@ -460,7 +460,7 @@ B-LXIIISanctusTenore = {
   \relative c' {
     \clef "treble_8"
     \key f \lydian \time 4/2 \tempoB-LXIIISanctus \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r1 c~
     c4 h g2 a2. h4
     c1 r2 c~
@@ -593,7 +593,7 @@ B-LXIIIAgnusTenore = {
   \relative c' {
     \clef "treble_8"
     \key f \lydian \time 4/2 \tempoB-LXIIIAgnus \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a1. d2~
     d h! h e~
     e c d d
@@ -618,7 +618,7 @@ B-LXIIIAgnusTenore = {
     a2 d c a \noBreak
     b1 c\fermata \bar "||"
     \time 3/2 \tempoB-LXIIIDona \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1. \noBreak
     c2. h4 c2 %25
     a g f4 a~
@@ -702,7 +702,7 @@ B-LXIIIFragmentTenore = {
   \relative c' {
     \clef "treble_8"
     \key f \lydian \time 4/2 \tempoB-LXIIIFragment \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r1 c
     e2 d4 c h2 c
     d4 c d2 e2. d4

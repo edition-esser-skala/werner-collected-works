@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-IBasso = {
   \relative c {
     \clef bass
     \key c \major \time 4/2 \tempoI-III-I \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*4
     r1 c %5
     e2 c g'2.( a4)
@@ -50,7 +50,7 @@ I-III-IBasso = {
     f) e f c
     r e(\f f) c %50
     \time 4/4 \tempoI-III-Ib
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       f, c'\fermata \bar "|." %51 finis
   }
 }

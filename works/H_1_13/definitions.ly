@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoH-I-XIIIDixit = \tempoMarkup "[no tempo]"
 tempoH-I-XIIIConfitebor = \tempoMarkup "Vivace"

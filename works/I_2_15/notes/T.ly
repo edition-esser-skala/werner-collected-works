@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-II-XV-Tenore = {
   \relative c' {
     \clef "treble_8"
     \key d \dorian \time 4/2 \tempoI-II-XV \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \markTimeSig #'(4 2)
     R\breve*3
     \mvTr a1(\fE^\tuttiE b)

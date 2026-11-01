@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-II-Organo = {
   \relative c {
@@ -139,7 +139,7 @@ G-II-Organo = {
     d es4 b8 c \noBreak
     d4 d, g2\fermata \bar "||"
     \time 4/2 \tempoG-II-e \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr g'1-!\fE-\tutti g2-! d-! \noBreak
     << {
       d'1 d2 g,
@@ -175,7 +175,7 @@ G-II-Organo = {
     f f' d b f1 \noBreak
     b\breve\fermata \bar "||" %135
     \time 4/4 \tempoG-II-f \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr g2\pE-\solo c \noBreak
     f,4 f' b, d
     es!4. des8 c4 e

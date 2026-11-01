@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 C-IIntroitusViolinoII = {
   \relative c' {
@@ -214,7 +214,7 @@ C-IBenedictusViolinoII = {
   \relative c' {
     \clef treble
     \key es \lydian \time 3/4 \tempoC-IBenedictus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     g'8(\p b) g( es) d( f)
     es4 r r
     g8( a!) a( b) b( c)

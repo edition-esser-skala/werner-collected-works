@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 E-XIVOrgano = {
   \relative c {
     \clef bass
     \key f \major \time 3/4 \tempoE-XIVa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr f4\fE-\tuttiE r r
     f r r
     << { f' c a f } \\ { f c a f } >>

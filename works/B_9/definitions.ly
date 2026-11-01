@@ -1,11 +1,4 @@
-\version "2.24.0"
-
-\layout {
-  \context {
-    \Staff
-    \accidentalStyle modern
-  }
-}
+\version "2.26.0"
 
 tempoB-IXKyrie = \tempoMarkup "Allegro"
 tempoB-IXGloria = \tempoMarkup "Allegro passato"

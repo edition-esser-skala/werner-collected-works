@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LIKyrieViolinoI = {
   \relative c' {
@@ -153,7 +153,7 @@ B-LICredoViolinoI = {
     c1 c2 \noBreak %40
     c1.\fermata \bar "||"
     \tempoB-LICrucifixus \time 2/1
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*5 %46
     b1\fE a
     c h2 b4 b
@@ -171,7 +171,7 @@ B-LICredoViolinoI = {
     fis g1 \hA fis2 \noBreak %60
     g\breve\fermata \bar "||"
     \time 3/2 \tempoB-LIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*7 %68
     r2 r d'8\fE f4 b8
     b4 a b8 f g2 fis4 %70

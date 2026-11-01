@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXVIIIKyrieViolinoII = {
   \relative c' {
@@ -53,7 +53,7 @@ B-LXVIIIGloriaViolinoII = {
     R1.*19 \noBreak %37
     R1.\fermata \bar "||"
     \time 4/2 \tempoB-LXVIIIQuiTollis \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve \noBreak
     r1 g,-\tuttiE %40
     e2 a fis d
@@ -87,7 +87,7 @@ B-LXVIIIGloriaViolinoII = {
     g e d1~ \noBreak
     d d\fermata \bar "||"
     \time 3/2 \tempoB-LXVIIIQuoniam \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*10 \noBreak
     r2 r4 g2-\tutti g4
     fis8 g fis g a4 d, h'2
@@ -253,7 +253,7 @@ B-LXVIIIBenedictusViolinoII = {
   \relative c' {
     \clef treble
     \key e \minor \time 3/4 \tempoB-LXVIIIBenedictus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     h'2.-\solo
     a4 h fis
     g8 a h4 c

@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XLVIIIViolinoI = {
   \relative c' {
     \clef treble
     \twofourtime \key e \major \time 2/4 \tempoF-XLVIII
-      \set Staff.timeSignatureFraction = 2/4
+      \set Staff.timeSignature = 2/4
     r4 r8 h'
     cis dis e cis
     dis e4 dis8

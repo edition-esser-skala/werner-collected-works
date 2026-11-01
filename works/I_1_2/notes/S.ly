@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-IISoprano = {
   \relative c' {
     \clef treble
     \key d \minor \time 2/1 \tempoI-I-IIa \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve
     d'1. c2
     b4( a b2) a a(
@@ -46,7 +46,7 @@ I-I-IISoprano = {
     r b!1 a2 \noBreak %40
     d1 cis \segnoMark 1
     \time 4/4 \tempoI-I-IIb
-      \unset Staff.timeSignatureFraction \newSpacingSection
+      \unset Staff.timeSignature \newSpacingSection
       a8\p a a a c!4 c \noBreak
     b2. a4
     gis4. gis8 a2~

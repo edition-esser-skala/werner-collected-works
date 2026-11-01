@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-VIIIKyrieBasso = {
   \relative c {
@@ -272,7 +272,7 @@ B-VIIIBenedictusBasso = {
     R1*6 \noBreak %6
     R1\fermata \bar "||"
     \time 4/2 \tempoB-VIIIOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr e1\fE^\tuttiE fis4 gis a2~ \noBreak
     a gis4( fis) e dis cis2
     h1 e2. dis4 %10

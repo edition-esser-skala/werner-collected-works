@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XIIIBasso = {
   \relative c {
     \clef bass
     \key a \minor \time 4/2 \tempoI-I-XIII \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a'2. a4 e2 g
     f1 e4( a,) a'2~
     a g f1

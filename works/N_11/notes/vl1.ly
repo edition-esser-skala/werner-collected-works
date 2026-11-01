@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 N-XIViolinoI = {
   \relative c' {
@@ -50,7 +50,7 @@ N-XIViolinoI = {
     h16(-. h-.) h(-. h-.) \sbOn h16.\trill d64 c h16.\trill d64 c \sbOff \noBreak
     h4 r\fermata \bar "||" %45
     \key c \major \time 3/4 \tempoN-XIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       e,2.\fE \noBreak
     g,4. c8 g( f)
     e4( g,) h

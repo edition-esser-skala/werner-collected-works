@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-LIAlto = {
   \relative c' {
     \clef treble
     \key d \minor \time 4/2 \autoBeamOff \tempoF-LI
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \phrasingSlurDashed
     r1 d
     b'2. a4 g2 b

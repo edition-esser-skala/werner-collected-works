@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-IV-VIOrgano = {
   \relative c {
@@ -7,7 +7,7 @@ D-IV-VIOrgano = {
       \once \omit Staff.TimeSignature
     c\breve*1/8 d d a' b a\fermata \bar "||"
     \clef treble \time 4/2
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << {
       c'1 a2 d~ %2
       d4 c f2

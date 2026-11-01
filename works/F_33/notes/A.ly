@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XXXIIIAlto = {
   \relative c' {
     \clef treble
     \key e \minor \time 3/2 \tempoF-XXXIII \autoBeamOff
-      \set Staff.timeSignatureFraction = 3/2
+      \set Staff.timeSignature = 3/2
     r2 r4 \mvDll fis\fE g fis
     g dis r \mvDll fis\p g fis
     g dis r2 r4 \mvDll e\f

@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XIIIViolaII = {
   \relative c' {
     \clef treble
     \twotwotime \key a \minor \time 4/2 \tempoI-I-XIII
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*2
     r1 a'2. a4
     e2 g f2. g4

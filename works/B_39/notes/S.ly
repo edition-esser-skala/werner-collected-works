@@ -293,7 +293,7 @@ B-XXXIXCredoSoprano = {
     g r r2 \noBreak %70
     R1\fermata \bar "||"
     \time 2/1 \tempoB-XXXIXCrucifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*3
     r1 \mvTr d'\fE^\tutti %75
     a2 c1 g4( a)
@@ -313,7 +313,7 @@ B-XXXIXCredoSoprano = {
     b1. a4( g) \noBreak %90
     a\breve\fermata \bar "||"
     \key c \major \time 3/4 \tempoB-XXXIXEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr d,4\pE^\solo \tuplet 3/2 4 { g8([ fis g)] h([ a h)] } \noBreak
     d h r g h d
     g d r g d g

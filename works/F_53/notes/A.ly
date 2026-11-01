@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-LIIIAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/2 \autoBeamOff \tempoF-LIII
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     e1. e2
     f f1 e2
     f( e4 d) e2 e

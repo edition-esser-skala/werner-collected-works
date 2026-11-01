@@ -38,7 +38,7 @@ B-SXKyrieOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoB-SXKyrie
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr c'4\fE-\tutti g a
     e2.
     f4 h, c
@@ -202,7 +202,7 @@ B-SXGloriaOrgano = {
     g,1 \noBreak
     c!\fermata \bar "||" %5
     \time 3/4 \tempoB-SXLaudamus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr c4\pE-\solo a h \noBreak
     c2.
     fis,
@@ -1134,7 +1134,7 @@ B-SXSonataSecundaOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoB-SXSonataSecunda
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     c2.\fE
     g'2 e4
     f d h

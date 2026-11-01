@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XXIISopranoII = {
   \relative c' {
@@ -18,7 +18,7 @@ I-I-XXIISopranoII = {
     g r r2 \noBreak
     R1\fermata \bar "||"
     \key c \major \time 3/4 \tempoI-I-XXIIb
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*9 %22
     r8 \mvTr g\pE^\soloE c e16 g e8 c16 g
     e8[ c'] \tuplet 3/2 8 { h16[ a g } h8] a4\trill

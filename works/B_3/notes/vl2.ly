@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-IIIKyrieViolinoII = {
   \relative c' {
@@ -55,7 +55,7 @@ B-IIIKyrieViolinoII = {
     g g, g g g8 e' a, g' d, fis' \noBreak
     g4 r r2\fermata \bar "||" %50
     \time 3/4 \tempoB-IIIChriste
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*3
     fis4\f e8( d) cis( h)
     g'( e) d( cis) h( ais) %55
@@ -332,7 +332,7 @@ B-IIICredoViolinoII = {
     e4 f4. f8 \noBreak
     e2.\fermata \bar "||"
     \time 4/2 \key d \minor \tempoB-IIICrucifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*2
     d1\fE es %60
     cis d
@@ -366,7 +366,7 @@ B-IIICredoViolinoII = {
     d1. d2 \noBreak
     d\breve\fermata \bar "||" %90
     \key c \major \time 3/2 \tempoB-IIIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*2 %92
     r8 g,\fE a h c d c d e f e f
     g a g a h c h c d e f g

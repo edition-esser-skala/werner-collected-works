@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LVIKyrieTromboneII = {
   \relative c' {
@@ -116,7 +116,7 @@ B-LVIGloriaTromboneII = {
     a gis a8~ a h16 a gis8 a4 \hA gis8
     a16 e' d c h4\trill a r\fermata \bar "||"
     \time 4/2 \tempoB-LVIGratias \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr e'1.\fE-\tutti d2 \noBreak
     c d c1 %55
     h r
@@ -144,11 +144,11 @@ B-LVIGloriaTromboneII = {
     d\breve \noBreak
     e\fermata \bar "||" %80
     \key e \minor \time 4/4 \tempoB-LVIDomine \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*26 \noBreak %106
     R1\fermata \bar "||"
     \key c \major \time 3/4 \tempoB-LVIQuiTollis \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 \mvTr g,2\fE-\tutti \noBreak
     g4 g g
     a2 a4 %110

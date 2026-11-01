@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VOrgano = {
   \relative c {
@@ -48,7 +48,7 @@ G-VOrgano = {
     g fis8 e d4 g d2 \noBreak
     h4 g << { d'2^\org } \\ { d,_\vlne } >> g\fermata \bar "||"
     \key g \dorian \time 3/4 \tempoG-Vc \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr g'4-!\pE-\markup \remark "Solo e staccato" g-! g-! \noBreak
     g-! g-! g-!
     g-! g-! g-! %40

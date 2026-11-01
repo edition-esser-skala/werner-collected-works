@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-II-IIViolinoII = {
   \relative c' {
@@ -33,7 +33,7 @@ H-II-IIViolinoII = {
     h4 c~ c h \noBreak
     c1\fermata \bar "||"
     \time 3/4 \tempoH-II-IIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*10 %38
     r8 e,16\pE fis? gis8 h4 e8
     c4 a r %40

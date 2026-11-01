@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-II-IITenore = {
   \relative c' {
@@ -33,7 +33,7 @@ H-II-IITenore = {
     d c d2 \noBreak
     e1\fermata \bar "||"
     \time 3/4 \tempoH-II-IIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 \mvTr c\pE^\solo f \noBreak
     a,2 b4 %30
     c8([ a)] f4 c'~

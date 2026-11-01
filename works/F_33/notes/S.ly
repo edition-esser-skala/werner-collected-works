@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XXXIIISoprano = {
   \relative c' {
     \clef treble
     \key e \minor \time 3/2 \tempoF-XXXIII \autoBeamOff
-      \set Staff.timeSignatureFraction = 3/2
+      \set Staff.timeSignature = 3/2
     r4 \mvDll h'\fE e dis e h
     r \mvDll h\p e dis e h
     r \mvDll h\f g'4. fis8 e2

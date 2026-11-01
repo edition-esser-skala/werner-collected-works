@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXIKyrieOrgano = {
   \relative c {
@@ -200,7 +200,7 @@ B-LXICredoOrgano = {
     d1. \noBreak
     g,\fermata \bar "||"
     \key c \major \time 4/2 \tempoB-LXIEtIncarnatus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       e'1~ e \noBreak
     d cis
     d g %55
@@ -301,7 +301,7 @@ B-LXISanctusOrgano = {
   \relative c {
     \clef treble
     \key g \major \time 4/2 \tempoB-LXISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d''2-! \clef bass g,,1 e2
     c a'1 fis2
     d h'1 g4 e
@@ -328,7 +328,7 @@ B-LXISanctusOrgano = {
     d'1 d, \noBreak
     g\breve\fermata \bar "||"
     \time 3/2 \tempoB-LXIOsanna \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
     \clef "treble_8" << {
       d''2 g2. e4 \noBreak %20
       a2
@@ -425,7 +425,7 @@ B-LXIBenedictusOrgano = {
   \relative c {
     \clef bass
     \key g \major \time 4/2 \tempoB-LXIBenedictus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     g'1 e
     d a'
     e d
@@ -462,7 +462,7 @@ B-LXIAgnusOrgano = {
   \relative c {
     \clef bass
     \key g \major \time 4/2 \tempoB-LXIAgnus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     g'1. fis2
     g e cis d
     a'2. g4 fis2 e
@@ -492,7 +492,7 @@ B-LXIAgnusOrgano = {
     a\breve \noBreak
     d\fermata \bar "||"
     \clef treble \time 3/2 \tempoB-LXIDona \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       g'2 a g \noBreak
     << { r4 d'2 cis4 d8 a d c } \\ { d,2 e d } >> %30
     \clef "treble_8" g, a g

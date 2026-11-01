@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-XIIIDixitTimpani = {
   \relative c {
@@ -39,7 +39,7 @@ H-I-XIIIMagnificatTimpani = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoH-I-XIIIMagnificat
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     c4\fE c8 c c4
     g g8 g c4
     g c c8 c

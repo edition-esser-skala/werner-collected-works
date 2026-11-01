@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLVKyrieSoprano = {
   \relative c' {
@@ -83,7 +83,7 @@ B-XLVGloriaSoprano = {
     R1*7 \noBreak %21
     R1\fermata \bar "||"
     \time 2/1 \tempoB-XLVDomine \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*3 %25
     \mvTr a1\fE^\tuttiE a2 h
     c a b4( c) d( e)
@@ -100,7 +100,7 @@ B-XLVGloriaSoprano = {
     d2 cis4 h? cis1 \noBreak
     d\breve\fermata \bar "||"
     \time 4/4 \tempoB-XLVQuiTollis \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr a2\pE^\solo b \noBreak %40
     a4 d, d' c
     b2 a
@@ -523,7 +523,7 @@ B-XLVSanctusSoprano = {
   \relative c' {
     \clef treble
     \key d \minor \time 2/1 \autoBeamOff \tempoB-XLVSanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*6 %6
     \mvTr d'1\fE^\tuttiE f
     e2 f( d1)
@@ -534,7 +534,7 @@ B-XLVSanctusSoprano = {
     c2 c c1 \noBreak
     \time 1/1 R\fermata \bar "||"
     \time 4/4 \tempoB-XLVPleni \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr a8\pE^\solo f16 a c8 a16 c f8 f r4 \noBreak %15
     r2 r4 r8 f16([ c)]
     a8 f c'16.[( b32 a16 g] f8) e16 f g8([ f)]

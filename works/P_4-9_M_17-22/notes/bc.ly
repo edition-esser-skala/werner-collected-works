@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 P-IVSymphoniaPrimaBassoContinuo = {
   \relative c {
@@ -1353,7 +1353,7 @@ P-IVSonataTertiaBassoContinuo = {
   \relative c {
     \clef bass
     \key f \dorian \time 3/4 \tempoP-VISonataTertia
-      \override Staff.TimeSignature.style = #'single-digit
+      \override Staff.TimeSignature.style = #'single-number
     f4\fE e es
     des a b8 c
     des4 c c'8 b
@@ -1437,7 +1437,7 @@ P-IVSonataTertiaBassoContinuo = {
     des1. \noBreak %80
     c\fermata \bar "||"
     \time 3/4 \tempoP-VISonataTertiaD \newSpacingSection
-      \override Staff.TimeSignature.style = #'single-digit
+      \override Staff.TimeSignature.style = #'single-number
     R2.*9 %90
     c'4\fE des4. c16 b
     c8 e, f c' des c16 b
@@ -1944,7 +1944,7 @@ P-IVSonataQuartaBassoContinuo = {
     fis4 e h'2 \noBreak
     e, r\fermata \bar "||"
     \time 3/4 \tempoP-VISonataQuartaC \newSpacingSection
-      \override Staff.TimeSignature.style = #'single-digit
+      \override Staff.TimeSignature.style = #'single-number
       e''4\fE dis r8 r16 d \noBreak
     c4 c r %100
     a gis r8 r16 g
@@ -2515,7 +2515,7 @@ P-IVSonataQuintaBassoContinuo = {
     a4 d8 g, a4 a, \noBreak
     d r r2\fermata \bar "||"
     \time 3/4 \tempoP-VISonataQuintaC \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       d4\fE d r8 r16 d \noBreak
     d4 d r %80
     cis cis r8 r16 cis
@@ -2912,7 +2912,7 @@ P-IVSonataSextaBassoContinuo = {
   \relative c {
     \clef bass
     \key c \dorian \time 3/4 \tempoP-VISonataSexta
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     c4\fE es r8 r16 g
     c,4 c r
     r r r8 r16 es
@@ -2965,7 +2965,7 @@ P-IVSonataSextaBassoContinuo = {
     d, g c, as' es f g g, \noBreak
     c4 r r2\fermata \bar "||"
     \time 3/4 \tempoP-VISonataSextaC \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       c4\fE d2 \noBreak
     es4 es' des %60
     c c,2

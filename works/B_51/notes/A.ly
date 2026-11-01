@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LIKyrieAlto = {
   \relative c' {
@@ -275,7 +275,7 @@ B-LICredoAlto = {
     f1 e4( d) \noBreak %40
     e1.\fermata \bar "||"
     \tempoB-LICrucifixus \time 2/1
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*4 %45
     \mvTr f1\fE^\tuttiE e
     g fis
@@ -294,7 +294,7 @@ B-LICredoAlto = {
     d1 d \noBreak %60
     d\breve\fermata \bar "||"
     \time 3/2 \tempoB-LIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*3
     r2 \mvTr f2.\pE^\solo e4 %65
     a8([ g] a4) g g2 f4~

@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-II-XV-ViolinoII = {
   \relative c' {
     \clef treble
     \key d \dorian \time 4/2 \tempoI-II-XV
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \markTimeSig #'(4 2)
     r1 d\fE
     f e2 a~

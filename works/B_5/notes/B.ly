@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-VKyrieBasso = {
   \relative c {
@@ -222,7 +222,7 @@ B-VGloriaBasso = {
     a[ c b d] c8 a16 f c4 f, \noBreak
     R1\fermata \bar "||" %35
     \time 4/2 \tempoB-VDomine \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*5 %40
     \mvTr d'1\fE^\tuttiE d2 cis
     d e c f
@@ -250,7 +250,7 @@ B-VGloriaBasso = {
     f2 e4 d a'1 \noBreak
     a, d\fermata \bar "||"
     \time 3/2 \tempoB-VQuiTollis \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r2 \mvTr f1\pE^\soloE \noBreak
     f2 f f
     f1 f2 %70
@@ -734,7 +734,7 @@ B-VSanctusBasso = {
     g'2. g,4 \noBreak
     c2 r\fermata \bar "||" %10
     \key a \minor \time 3/4 \tempoB-VPleni \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*29 \noBreak %39
     R2.\fermata \bar "||" %40
     \key c \major \time 4/4 \tempoB-VOsanna \newSpacingSection

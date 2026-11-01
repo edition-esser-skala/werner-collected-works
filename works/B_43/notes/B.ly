@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLIIIKyrieBasso = {
   \relative c {
@@ -23,7 +23,7 @@ B-XLIIIKyrieBasso = {
     cis d a4 d r \noBreak
     r8 b' g([ a)] d,4 r\fermata \bar "||"
     \time 3/4 \tempoB-XLIIIChriste \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*24 \noBreak %42
     R2.\fermata \bar "||"
     \time 4/4 \tempoB-XLIIIKyrieB \newSpacingSection
@@ -76,7 +76,7 @@ B-XLIIIGloriaBasso = {
   \relative c {
     \clef bass
     \key d \minor \time 3/4 \autoBeamOff \tempoB-XLIIIGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr d4\pE^\solo r8 d' f, a
     d,4 r r8 e
     f4 r8 \mvTr f\fE^\tutti a c

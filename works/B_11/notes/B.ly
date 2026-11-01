@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XIKyrieBasso = {
   \relative c {
@@ -14,7 +14,7 @@ B-XIKyrieBasso = {
     b4 b c f8 f \noBreak
     c2 f,\fermata \bar "||"
     \time 3/4 \tempoB-XIChriste
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*21 %30
     R2.\fermata \markKyrieUtSupra \bar "||" %31 finis
   }
@@ -240,7 +240,7 @@ B-XISanctusBasso = {
   \relative c {
     \clef bass
     \key f \major \time 4/2 \autoBeamOff \tempoB-XISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r1 \mvTr f\fE^\tuttiE
     d4 a b c d e f2~
     f e f1
@@ -264,8 +264,8 @@ B-XISanctusBasso = {
     c\breve \noBreak
     f,\fermata \bar "||"
     \time 3/4 \tempoB-XIOsanna \newSpacingSection
-      \unset Staff.timeSignatureFraction
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \unset Staff.timeSignature
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*10 %32
     r4 \mvTr h'\pE^\solo c
     h g r

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXVIIIKyrieSoprano = {
   \relative c' {
@@ -124,7 +124,7 @@ B-LXVIIIGloriaSoprano = {
     c a fis1
     e1.\fermata \bar "||"
     \time 4/2 \tempoB-LXVIIIQuiTollis \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*2 %40
     c'1^\tuttiE a2( d)
     h g e a4 g
@@ -159,7 +159,7 @@ B-LXVIIIGloriaSoprano = {
     r2 g1 fis4 e \noBreak
     fis1 g\fermata \bar "||"
     \time 3/2 \tempoB-LXVIIIQuoniam \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       h2.^\solo e4 d c \noBreak
     h a \appoggiatura a2 gis1
     a2 r4 a d c %75

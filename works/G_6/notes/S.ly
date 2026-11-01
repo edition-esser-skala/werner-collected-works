@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VISoprano = {
   \relative c' {
@@ -34,7 +34,7 @@ G-VISoprano = {
     d c c4 d r \noBreak
     R1\fermata \bar "||"
     \key d \minor \time 3/4 \tempoG-VIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*7 %45
     \mvTr d2.~\pE^\solo
     d4 cis8 e d4
@@ -114,7 +114,7 @@ G-VISoprano = {
     \tempoG-VId R1*15 \noBreak %141
     R1\fermata \bar "||"
     \time 3/4 \tempoG-VIe \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr d4\fE^\tutti d f \noBreak
     b,4. b8 b4
     c8 c c4 c %145

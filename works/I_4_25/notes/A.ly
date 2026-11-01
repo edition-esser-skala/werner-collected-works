@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XXVAlto = {
   \relative c' {
@@ -31,7 +31,7 @@ I-IV-XXVAlto = {
     \tempoI-IV-XXVd R1*19 \noBreak %43
     R1\fermata \bar "||"
     \time 4/2 \tempoI-IV-XXVe \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*5 %49
     \mvTr b,1\fE^\tuttiE c2.( b4) %50
     c2 d es4( b) es2~

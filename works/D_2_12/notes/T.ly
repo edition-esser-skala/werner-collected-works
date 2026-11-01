@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-II-XIIaTenore = {
   \relative c' {
@@ -203,7 +203,7 @@ D-II-XIIdTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \dorian \time 4/2 \tempoD-II-XIId \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d1. d2
     d a1 a2
     a2. a4 g2 f~

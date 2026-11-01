@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-IV-IXViolaI = {
   \relative c' {
@@ -7,7 +7,7 @@ D-IV-IXViolaI = {
       \once \omit Staff.TimeSignature
     s4*6 \bar "||"
     \time 4/2 \tempoD-IV-IX
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*4 %5
     c'1 a2 d~
     d c b2. b4

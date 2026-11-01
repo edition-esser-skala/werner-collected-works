@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-XXIOrgano = {
   \relative c {
     \clef treble
     \key g \major \time 3/4 \tempoG-XXIa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     << {
       d''4 e4. e8
       cis4 d2

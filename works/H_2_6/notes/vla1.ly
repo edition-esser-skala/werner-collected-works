@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-II-VIViolaI = {
   \relative c' {
@@ -35,7 +35,7 @@ H-II-VIViolaI = {
     \tempoH-II-VIEcceEnimA R1*14 \noBreak %63
     R1\fermata \bar "||"
     \key b \major \time 4/2 \tempoH-II-VIAsperges \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r2 f1\fE f2 \noBreak %65
     d g1 f2
     f a1 g2
@@ -49,10 +49,10 @@ H-II-VIViolaI = {
     f1. e4 d \noBreak %75
     e1 d\fermata \bar "||"
     \key f \major \time 4/4 \tempoH-II-VIAuditui \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*4 %80
     \time 3/4 \tempoH-II-VIExultabunt
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*14 \noBreak %94
     R2.\fermata \bar "||" %95
     \key g \minor \time 4/4 \tempoH-II-VIAverte
@@ -136,7 +136,7 @@ H-II-VIViolaI = {
     \tempoH-II-VIBenigne R1*18 \noBreak %217
     R1\fermata \bar "||"
     \time 4/2 \tempoH-II-VITunc \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr a'1\fE-\tuttiE b2. b4 \noBreak
     a2 b1 a2 %220
     g1\trill f
@@ -154,7 +154,7 @@ H-II-VIViolaI = {
     e f1 e2 \noBreak
     f\breve\fermata \bar "||"
     \time 4/4 \tempoH-II-VIGloria \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*4 %238
     \tempoH-II-VISicut f4.\fE e8 f g a g
     a4. g8 a g a4 %240

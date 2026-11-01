@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXVIIIKyrieClarinoI = {
   \relative c' {
@@ -59,7 +59,7 @@ B-XXXVIIIGloriaClarinoI = {
     e4 r r2\fermata \bar "||"
     \tempoB-XXXVIIILaudamus R1*7 \bar "|" %16
     \time 3/4 \tempoB-XXXVIIIGlorificamus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*14 \noBreak %30
     R2.\fermata \bar "||"
     \tempoB-XXXVIIIGratias R2.*37 \noBreak %68
@@ -83,7 +83,7 @@ B-XXXVIIIGloriaClarinoI = {
     g r e r \noBreak
     c r r2\fermata \bar "||"
     \time 3/4 \tempoB-XXXVIIIQuoniam \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr c8\fE-\solo d d4.\trill c16 d \noBreak
     e8( f) f( g) g( a)
     a( h) h4.\trill a16 h %135
@@ -184,7 +184,7 @@ B-XXXVIIICredoClarinoI = {
       R1*24 \noBreak %69
     R1\fermata \bar "||" %70
     \time 3/4 \tempoB-XXXVIIIEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       c8.\fE c32 c e8. e32 e g8. g32 g \noBreak
     c4 r r
     e,8. e32 e g8. g32 g c8. c32 c

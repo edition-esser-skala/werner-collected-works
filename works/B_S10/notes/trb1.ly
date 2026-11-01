@@ -23,7 +23,7 @@ B-SXKyrieTromboneI = {
   \relative c' {
     \clef alto
     \key c \major \time 3/4 \tempoB-SXKyrie
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     g'2\fE^\trb e4
     g2.
     f2 e8 f
@@ -111,7 +111,7 @@ B-SXGloriaTromboneI = {
     f8 f e e d2 \noBreak
     e1\fermata \bar "||" %5
     \time 3/4 \tempoB-SXLaudamus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       g4\pE^\trb a g \noBreak
     g2.
     a
@@ -450,7 +450,7 @@ B-SXSonataSecundaTromboneI = {
   \relative c' {
     \clef alto
     \key c \major \time 3/4 \tempoB-SXSonataSecunda
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     c2.\fE^\vltr
     d2 e4
     c d2

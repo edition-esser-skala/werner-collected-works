@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XLIIaTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \minor \time 3/2 \tempoF-XLIIa \autoBeamOff
-      \set Staff.timeSignatureFraction = 3/2
+      \set Staff.timeSignature = 3/2
     r2 r r4 f,
     a2 f4 g a4. b8
     a2 a r

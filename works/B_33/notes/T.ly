@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXIIIKyrieTenore = {
   \relative c' {
@@ -21,11 +21,11 @@ B-XXXIIIKyrieTenore = {
     e4 r r2 \noBreak
     r8 a, fis'([ e)] e4 r\fermata \bar "||"
     \key a \minor \time 3/4 \tempoB-XXXIIIChriste \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*22 \noBreak %44
     R2.\fermata \bar "||" %45
     \key a \major \time 4/2 \tempoB-XXXIIIKyrieB \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr a,1\fE^\tutti a \noBreak
     a a
     a( h)
@@ -121,7 +121,7 @@ B-XXXIIIGloriaTenore = {
     e4. e16 e e8 e e4 \noBreak %65
     e r8 e4 e8 e4
     \time 3/4 \tempoB-XXXIIIAmen
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       e r r \noBreak
     R2.
     r4 r8 a,( e'16[ d e8]
@@ -376,7 +376,7 @@ B-XXXIIISanctusTenore = {
   \relative c' {
     \clef "treble_8"
     \key a \major \time 3/4 \autoBeamOff \tempoB-XXXIIISanctus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.
     \mvTr e4.\fE^\tutti d16[ cis] d8[ e]
     cis16[ d cis h] a[ h cis d] e8[ d16 cis]

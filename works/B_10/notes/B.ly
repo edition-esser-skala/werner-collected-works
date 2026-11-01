@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XKyrieBasso = {
   \relative c {
@@ -51,7 +51,7 @@ B-XGloriaBasso = {
   \relative c {
     \clef bass
     \key d \major \time 3/4 \autoBeamOff \tempoB-XGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr d4\fE^\tutti r8 fis g a
     d,4 r8 fis g a
     d,4 h' gis8 a
@@ -188,7 +188,7 @@ B-XCredoBasso = {
   \relative c {
     \clef bass
     \key d \major \time 3/4 \autoBeamOff \tempoB-XCredo
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*5 %5
     r4 r \mvTr fis8\pE^\solo h
     e, a fis8.([ e16)] d4
@@ -223,7 +223,7 @@ B-XCredoBasso = {
     d4 r r2 \noBreak %40
     R1\fermata \bar "||"
     \time 3/4 \tempoB-XEtResurrexit
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr d4\fE^\tutti r8 d fis a \noBreak
     d d, r d fis a
     d d, r d' cis([ h)]
@@ -358,7 +358,7 @@ B-XSanctusBasso = {
   \relative c {
     \clef bass
     \key d \major \time 3/4 \autoBeamOff \tempoB-XSanctus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr d4\fE^\tutti d r
     d d r
     d( cis d)
@@ -439,7 +439,7 @@ B-XBenedictusBasso = {
   \relative c {
     \clef bass
     \key d \major \time 3/4 \autoBeamOff \tempoB-XBenedictus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*12 %12
     \tempoB-XOsanna R2.*2
     r4 r8 \mvTr a'\fE^\tutti a a %15
@@ -488,7 +488,7 @@ B-XAgnusBasso = {
     e1 \noBreak
     a,2 r\fermata \bar "||" %15
     \time 3/4 \tempoB-XDona \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr d4\fE^\tutti fis h8([ a16 g)] \noBreak
     fis4 g( a)
     d, r h(

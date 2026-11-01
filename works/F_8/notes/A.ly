@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-VIIIAlto = {
   \relative c' {
     \clef treble
     \key d \dorian \time 2/1 \tempoF-VIII \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     \phrasingSlurDashed d1. c2
     f1. e2
     d1.( cis2)

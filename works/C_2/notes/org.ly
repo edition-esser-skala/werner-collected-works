@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 C-IIIntroitusOrgano = {
   \relative c {
@@ -162,7 +162,7 @@ C-IISequentiaOrgano = {
     f f d d a'2 \noBreak
     a, d\fermata \bar "||"
     \time 3/4 \tempoC-IIQuidSum \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr b2\pE-\solo c4 \noBreak
     d2 es4 %40
     r f d
@@ -397,7 +397,7 @@ C-IIMementoOrgano = {
     R1 \noBreak
     R\fermata \bar "||"
     \time 3/4 \tempoC-IIConvertere \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr b4\pE-\solo d b \noBreak %30
     g2 a4
     b2 d4
@@ -653,7 +653,7 @@ C-IIBenedictusOrgano = {
     f d f, g a2 \noBreak
     d1\fermata \bar "||"
     \time 3/4 \tempoC-IIOsanna \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr d4\pE-\solo f d \noBreak
     a' a, r
     R2.*3 %22
@@ -779,7 +779,7 @@ C-IIAgnusOrgano = {
       \once \omit Staff.TimeSignature
     a'\breve*1/8 g f g a a \bar "||"
     \clef "treble_8" \time 3/4 \tempoC-IILux \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr f4\pE-\solo-\aTre a f \noBreak
     c'2 c,4
     g' b g %35

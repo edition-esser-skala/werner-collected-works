@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXKyrieOrgano = {
   \relative c {
     \clef bass
     \key a \major \time 3/4 \tempoB-LXKyrie
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr a'4\pE-\solo gis fis
     e d cis
     h8 a gis4 a

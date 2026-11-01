@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLKyrieClarinoI = {
   \relative c' {
@@ -211,7 +211,7 @@ B-XLSanctusClarinoI = {
     e4 e8. f32 g a8.\trill g32 f e8 d\trill \noBreak
     c4 r r2\fermata \bar "||"
     \time 2/1 \tempoB-XLOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*8 %39
     \pa r1 r4 d\fE g2 %40
     e4 e a2 f4 f e a
@@ -247,7 +247,7 @@ B-XLAgnusClarinoI = {
     R1. \noBreak
     R\fermata \bar "||"
     \time 2/1 \tempoB-XLDona \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*11 %39
     \pa R\breve %40
     r1 c'\fE

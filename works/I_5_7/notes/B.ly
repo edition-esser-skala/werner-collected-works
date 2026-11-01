@@ -4,7 +4,7 @@ I-V-VII-Basso = {
   \relative c {
     \clef bass
     \key d \major \time 4/2 \autoBeamOff \tempoI-V-VIIa
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*11 %11
     r1 \mvTr a'\pE^\soloE
     a2 a a a4 a

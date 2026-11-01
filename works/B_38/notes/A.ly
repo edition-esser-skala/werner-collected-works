@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXVIIIKyrieAlto = {
   \relative c' {
@@ -106,7 +106,7 @@ B-XXXVIIIGloriaAlto = {
     R\fermata \bar "||"
     \tempoB-XXXVIIILaudamus R1*7 \bar "|" %16
     \time 3/4 \tempoB-XXXVIIIGlorificamus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*14 \noBreak %30
     R2.\fermata \bar "||"
     \key f \major \tempoB-XXXVIIIGratias
@@ -165,7 +165,7 @@ B-XXXVIIIGloriaAlto = {
     e r r2 \noBreak
     R1\fermata \bar "||"
     \time 3/4 \tempoB-XXXVIIIQuoniam \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*50 \noBreak %182
     R2.\fermata \bar "||"
     \time 4/4 \tempoB-XXXVIIICumSancto \newSpacingSection
@@ -338,7 +338,7 @@ B-XXXVIIICredoAlto = {
     f4. e8 a4. g16([ f)] \noBreak
     g2 r\fermata \bar "||" %70
     \key c \major \time 3/4 \tempoB-XXXVIIIEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2. \noBreak
     r8 \mvTr e\fE^\tutti e([ g16 f] e8) d
     e4 e r

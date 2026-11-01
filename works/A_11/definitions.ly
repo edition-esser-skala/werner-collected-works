@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 Barmherzigkeit = \markup { \override #'(box-padding . 0.5) \box "Barmherzigkheit" }
 Gehorsame = \markup { \override #'(box-padding . 0.5) \box "Der gehorſame Sohn" }

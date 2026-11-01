@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXVIIIKyrieSoprano = {
   \relative c' {
@@ -109,7 +109,7 @@ B-XXXVIIIGloriaSoprano = {
     r8 f'16([ g] \tuplet 3/2 8 { a[ g f]) e([ d c)] } h8.\trill a16 g4 \noBreak %15
     r8 g'~ \tuplet 3/2 8 { g16[ f es] d([ \hA es f)] } \hA es4. es8\trill \bar "|"
     \time 3/4 \tempoB-XXXVIIIGlorificamus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       d4 r r \noBreak
     r8 c,16([ d)] e!([ f)] g([ a)] g[ a h c]
     a[ g f e] f[ g a h] a[ h c d]
@@ -159,7 +159,7 @@ B-XXXVIIIGloriaSoprano = {
     g4 r r2 \noBreak
     R1\fermata \bar "||"
     \time 3/4 \tempoB-XXXVIIIQuoniam \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*16 %148
     \mvTr c16[\pE^\solo d e f] e[ f g a] g[ f e d]
     c4.\trill c8 c([ e)] %150
@@ -404,7 +404,7 @@ B-XXXVIIICredoSoprano = {
     a4( g4. f16[ e)] f4 \noBreak
     e2 r\fermata \bar "||" %70
     \key c \major \time 3/4 \tempoB-XXXVIIIEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2. \noBreak
     r8 \mvTr g\fE^\tutti c([ e16 d] c8) h
     c4 g r

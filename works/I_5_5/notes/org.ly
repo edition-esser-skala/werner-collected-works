@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-V-VOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 2/1 \tempoI-V-Va
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     \mvTr c4\fE-\tuttiE d e f e f e d
     << { c' } \\ { c, } >> h' a g f e d c
     h a g h c d e d
@@ -19,7 +19,7 @@ I-V-VOrgano = {
     \mvTr g'4\fE-\tutti g,8 a h4 c h g8 a h4 c \noBreak
     h g8 a h4 c g' g, r2 %15
     \clef treble \time 4/4 \tempoI-V-Vb \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
     << {
       r4 c'' h g
       a8 h c4

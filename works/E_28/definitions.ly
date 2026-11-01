@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoE-XXVIIIa = \tempoTitleMarkup "Chorus" "Andante"
 tempoE-XXVIIIba = \tempoMarkup "Allegretto non troppo / Vivace in tempo schietto"

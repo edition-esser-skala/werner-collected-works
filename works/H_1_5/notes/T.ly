@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-VDixitTenore = {
   \relative c' {
@@ -425,7 +425,7 @@ H-I-VNisiTenore = {
   \relative c' {
     \clef "treble_8"
     \key e \minor \time 3/4 \autoBeamOff \tempoH-I-VNisi
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*18 %18
     r4 \mvTr d\pE^\solo^\aQuattro d
     d4. d8 d4 %20
@@ -595,7 +595,7 @@ H-I-VLaudaTenore = {
   \relative c' {
     \clef "treble_8"
     \key g \major \time 4/2 \autoBeamOff \tempoH-I-VLauda
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve
     r1 d
     h2 d e d4 cis
@@ -873,7 +873,7 @@ H-I-VMagnificatTenore = {
     \mvTr e\fE^\tutti e e e a,([ h)] c4 \noBreak
     c( h) c2\fermata \bar "||"
     \time 4/2 \tempoH-I-VMagnificatC \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve
     r1 c2. c4
     c2 c, g' h %45
@@ -888,7 +888,7 @@ H-I-VMagnificatTenore = {
     h\breve \noBreak
     a\fermata \bar "||" %55
     \time 4/4 \tempoH-I-VMagnificatD \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr d8.\pE^\solo^\aTreE d16 d8 a a8. a16 a4 \noBreak
     r8 f f' e d c16 c b4
     a r r2
@@ -902,7 +902,7 @@ H-I-VMagnificatTenore = {
     r8 c a c f,([ g16 a] b[ c d e] \noBreak
     f8) f d f e d d8. cis16
     \time 3/4 \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       d2 r4 \noBreak
     \mvTr a\pE^\solo^\aDue d, d'
     d8([ cis)] cis4 a %75

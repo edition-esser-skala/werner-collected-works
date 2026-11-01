@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLKyrieBasso = {
   \relative c {
@@ -493,7 +493,7 @@ B-XLSanctusBasso = {
     \tempoB-XLPleni R1*17 \noBreak %30
     R1\fermata \bar "||"
     \time 2/1 \tempoB-XLOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*3
     \mvTr c1\fE^\tuttiE g'2 e %35
     a f c'4.( h8 a4 g8[ f])
@@ -660,7 +660,7 @@ B-XLAgnusBasso = {
     R1. \noBreak
     R\fermata \bar "||"
     \time 2/1 \tempoB-XLDona \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     \mvTr c'1\fE^\tuttiE c, \noBreak
     a'2.( g8[ f]) e4 g2 c4 %30
     h8[ c h a] g[ a g f] e[ f g f] e[ f e d]

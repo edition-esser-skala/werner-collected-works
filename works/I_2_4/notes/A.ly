@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-II-IVAlto = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \tempoI-II-IVa \autoBeamOff
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr cis4\pE^\solo \tuplet 3/2 4 { cis8([ d e)] d([ cis h)] }
     cis8.[(\trill h16)] \tuplet 3/2 4 { cis8([ d e)] d([ cis h)] }
     cis8.[(\trill h16)] cis4 a'~

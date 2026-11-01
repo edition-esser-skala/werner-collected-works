@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-II-VITenore = {
   \relative c' {
@@ -53,7 +53,7 @@ H-II-VITenore = {
     es[ f \hA es d] c4~ c16[ d] b([ c)] a4\trill
     g r r2\fermata \bar "||"
     \key b \major \time 4/2 \tempoH-II-VIAsperges \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r2 \mvTr d'\fE^\tuttiE d c \noBreak %65
     b b2.( c4) d( es)
     f1 r2 c~
@@ -67,10 +67,10 @@ H-II-VITenore = {
     a a a1~ \noBreak %75
     a a\fermata \bar "||"
     \key f \major \time 4/4 \tempoH-II-VIAuditui \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*4 %80
     \time 3/4 \tempoH-II-VIExultabunt
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*14 \noBreak %94
     R2.\fermata \bar "||" %95
     \key g \minor \time 4/4 \tempoH-II-VIAverte
@@ -151,7 +151,7 @@ H-II-VITenore = {
     \tempoH-II-VIBenigne R1*18 \noBreak %217
     R1\fermata \bar "||"
     \time 4/2 \tempoH-II-VITunc \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r2 \mvTr c\fE^\tutti b4( g) b( c) \noBreak
     d2.( e4 f2) f, %220
     r1 c'
@@ -169,7 +169,7 @@ H-II-VITenore = {
     g( a) g2. g4 \noBreak
     a\breve\fermata \bar "||"
     \time 4/4 \tempoH-II-VIGloria \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r8 \mvTr d,\pE^\soloE^\aTre f a d d, r a' \noBreak %235
     d c! b8. b16 a4 r
     r cis8 a d g,16 g d4

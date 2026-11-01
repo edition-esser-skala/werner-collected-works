@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-III-IIIaTenore = {
   \relative c' {
     \clef "treble_8"
     \key b \major \time 4/2 \tempoD-III-IIIaa \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d1 b
     b2 c1 c2
     d es d1
@@ -21,7 +21,7 @@ D-III-IIIaTenore = {
     b1( g') \noBreak
     c,\breve\fermata \bar "||" %15
     \time 3/2 \tempoD-III-IIIab
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*2
     es,2 es'2. es4
     d f b, d2 e4
@@ -125,7 +125,7 @@ D-III-IIIbTenore = {
   \relative c' {
     \clef "treble_8"
     \key g \dorian \time 4/2 \autoBeamOff \tempoD-III-IIIba
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d2 d d2.( c4)
     b_( a g2) d' b~
     b4 a g1 es'2
@@ -165,7 +165,7 @@ D-III-IIIbTenore = {
     d\breve \noBreak
     d\fermata \bar "||"
     \time 3/2 \tempoD-III-IIIbc
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       d,2.(^\aTre e4 f! g) \noBreak
     a2 d, e %40
     f f' e
@@ -248,7 +248,7 @@ D-III-IIIcTenore = {
   \relative c' {
     \clef "treble_8"
     \key f \major \time 4/2 \autoBeamOff \tempoD-III-IIIca
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c1 c2 c
     f,4( f' e d) c2 c
     f1 e2 a,
@@ -283,7 +283,7 @@ D-III-IIIcTenore = {
     g( a) g1 \noBreak
     a\breve\fermata \bar "||"
     \time 3/2 \tempoD-III-IIIcc
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       a2^\aTre a gis \noBreak
     a1 r2 %35
     d d cis

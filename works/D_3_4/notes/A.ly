@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-III-IV-aAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/2 \tempoD-III-IV-a \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c1 g'
     e2 a1 g2
     f f e1

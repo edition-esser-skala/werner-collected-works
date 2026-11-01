@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-IXKyrieTenore = {
   \relative c' {
@@ -96,7 +96,7 @@ B-IXGloriaTenore = {
     R1 \noBreak
     R\fermata \bar "||" %50
     \time 3/4 \tempoB-IXQuiTollis \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr cis2.\fE^\tutti \noBreak
     cis4 cis cis
     h2 h4
@@ -274,7 +274,7 @@ B-IXCredoTenore = {
     h2. h4 h2 \noBreak
     h1.\fermata \bar "||" %35
     \key a \minor \time 3/4 \tempoB-IXEtIncarnatus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*9 %44
     r8 \mvTr e\pE^\solo d([ c)] h([ a)] %45
     gis([ a)] gis4 r

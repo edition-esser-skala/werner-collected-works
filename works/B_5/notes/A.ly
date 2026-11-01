@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-VKyrieAlto = {
   \relative c' {
@@ -169,7 +169,7 @@ B-VGloriaAlto = {
     R1*10 \noBreak %34
     R1\fermata \bar "||" %35
     \time 4/2 \tempoB-VDomine \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr d1\fE^\tutti d2 cis \noBreak
     d e c f
     e1 d2 a4( h
@@ -203,7 +203,7 @@ B-VGloriaAlto = {
     a g4 f e1~ \noBreak
     e d\fermata \bar "||"
     \time 3/2 \tempoB-VQuiTollis \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r2 \mvTr f1\pE^\solo \noBreak
     f2 f f
     g1 g2 %70
@@ -715,7 +715,7 @@ B-VSanctusAlto = {
     g2. g4 \noBreak
     g2 r\fermata \bar "||" %10
     \key a \minor \time 3/4 \tempoB-VPleni \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*29 \noBreak %39
     R2.\fermata \bar "||" %40
     \key c \major \time 4/4 \tempoB-VOsanna \newSpacingSection

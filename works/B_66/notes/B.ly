@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LVIKyrieBasso = {
   \relative c {
@@ -303,7 +303,7 @@ B-LVICredoBasso = {
       R1*18 \noBreak %40
     R1\fermata \bar "||"
     \time 4/2 \tempoB-LVICrucifixus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr d1\fE^\tuttiE f \noBreak
     c2 cis d2. d4
     a1 d
@@ -319,7 +319,7 @@ B-LVICredoBasso = {
     a a \noBreak
     a\breve\fermata \bar "||" %55
     \time 3/2 \tempoB-LVIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r4 \mvTr f'\pE^\solo f f f2 \noBreak
     f4 f f f f4.( e8)
     f2 r r

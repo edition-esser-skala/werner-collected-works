@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XXXIOrgano = {
   \relative c {
@@ -83,7 +83,7 @@ I-IV-XXXIOrgano = {
     c f, g4 \noBreak
     c, r\fermata \bar "||"
     \key c \dorian \time 3/4 \tempoI-IV-XXXIe
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr c'8.\pE-\solo d16 es4 as \noBreak
     f r g %80
     c, es c

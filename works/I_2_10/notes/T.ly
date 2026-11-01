@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-II-XTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \dorian \time 4/2 \autoBeamOff \tempoI-II-Xa
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*3
     r1 a^\tuttiE
     a2 a a1 %5
@@ -39,7 +39,7 @@ I-II-XTenore = {
     a\breve \noBreak
     a\fermata \bar "||" %35
     \key f \major \time 3/2 \tempoI-II-Xb
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r2^\solo^\aTre a f \noBreak
     c'1 a2
     g4( a b2) g

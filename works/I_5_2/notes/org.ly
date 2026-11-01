@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-V-IIOrgano = {
   \relative c {
@@ -21,7 +21,7 @@ I-V-IIOrgano = {
     a4 r c8 c' gis a \noBreak %15
     e4 r r2
     \clef "treble_8" \time 3/4 \tempoI-V-IIb
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       e'2^\aTre a,4 \noBreak
     d d, r
     g4. g8 c c,

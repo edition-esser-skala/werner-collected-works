@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXXVIKyrieOrgano = {
   \relative c {
@@ -20,7 +20,7 @@ B-LXXVIKyrieOrgano = {
     d' d, g r
     r8 c-\tasto d4 g, r\fermata \bar "||" %15
     \time 3/4 \tempoB-LXXVIChriste
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       e'8-\solo fis g e16 fis g8 a \noBreak
     h c h a g fis
     e d c d e fis
@@ -372,7 +372,7 @@ B-LXXVICredoOrgano = {
     e2 cis~ \noBreak
     cis8 cis cis cis d2\fermata \bar "||"
     \clef soprano \time 3/4 \tempoB-LXXVIEtVitam \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       g'4-! h-! d-! \noBreak %98
     << {
       e2.
@@ -608,7 +608,7 @@ B-LXXVIBenedictusOrgano = {
   \relative c {
     \clef bass
     \key g \major \time 3/4 \tempoB-LXXVIBenedictus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     e4-\solo g h
     e, r fis
     h, d e

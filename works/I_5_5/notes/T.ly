@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-V-VTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 2/1 \tempoI-V-Va \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     \mvDl c1\fE^\tuttiE c
     c a2( f)
     g2. g4 c,1
@@ -19,7 +19,7 @@ I-V-VTenore = {
     \mvTr h4.(\fE^\tutti c8) d4 c d h8([ c)] d4 c \noBreak
     d g d c h g r2 %15
     \time 4/4 \tempoI-V-Vb \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1 \noBreak
     r2 g
     a4 h c8([ d c h]

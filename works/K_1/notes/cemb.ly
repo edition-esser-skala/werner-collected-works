@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 K-IaCembalo = {
   \relative c {
@@ -214,7 +214,7 @@ K-IbCembalo = {
   \relative c {
     \clef bass
     \key g \major \time 4/2 \tempoK-Ib
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     g'2-\tutti g,2. a4 h c
     d e fis e d a d c
     h2 e c a

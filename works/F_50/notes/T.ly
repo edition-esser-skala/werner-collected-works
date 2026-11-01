@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-LTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 3/2 \tempoF-L \autoBeamOff
-      \set Staff.timeSignatureFraction = 3/2
+      \set Staff.timeSignature = 3/2
     r2 c h4 e~
     e d c8([ h] c2) a4
     r c a h g r

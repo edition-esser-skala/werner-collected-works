@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-XSoprano = {
   \relative c' {
     \clef treble
     \key d \minor \time 3/4 \tempoG-Xa \autoBeamOff
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr f'4.\pE^\solo e8 d([ c!16 b)]
     a8([ g)] f4( e)\trill
     d r r

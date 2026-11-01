@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XXVTenore = {
   \relative c' {
@@ -32,7 +32,7 @@ I-IV-XXVTenore = {
     \tempoI-IV-XXVd R1*19 \noBreak %43
     R1\fermata \bar "||"
     \time 4/2 \tempoI-IV-XXVe \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr f,1\fE^\tuttiE g2.( f4) \noBreak %45
     g2 a b4( f) b2~
     b as4( g) \hA as1~

@@ -21,7 +21,7 @@ B-SXKyrieClarinoIIb = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoB-SXKyrie
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*8 \bar "||" %8
     R2.*8 \bar "||" %16
     R2.*8 \bar "||" %24
@@ -64,7 +64,7 @@ B-SXGloriaClarinoIIb = {
     R1*4 \noBreak
     R1\fermata \bar "||" %5
     \time 3/4 \tempoB-SXLaudamus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*7 \noBreak %12
     R2.\fermata \bar "||"
     \time 2/2 \tempoB-SXGratias
@@ -225,7 +225,7 @@ B-SXSonataSecundaClarinoIIb = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoB-SXSonataSecunda
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*9 %9
     c'8\fE g c16 d e8 e16 d c8 %10
     g'4~ g16 a g f e4

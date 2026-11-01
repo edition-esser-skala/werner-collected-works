@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 C-IIIntroitusSoprano = {
   \relative c' {
@@ -122,7 +122,7 @@ C-IISequentiaSoprano = {
     c4 r8 d cis cis d d \noBreak
     d4( cis) d2\fermata \bar "||"
     \time 3/4 \tempoC-IIQuidSum \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 \mvTr b\pE^\solo a8([ g)] \noBreak
     f4( d') c8([ b)] %40
     a2 b4
@@ -294,7 +294,7 @@ C-IIMementoSoprano = {
     b4 a a4. a8 \noBreak
     a1\fermata \bar "||"
     \time 3/4 \tempoC-IIConvertere \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*41 \noBreak %70
     R2.\fermata \bar "||"
     \time 4/4 \tempoC-IIIntroibo \newSpacingSection
@@ -446,7 +446,7 @@ C-IIBenedictusSoprano = {
     R1*3 \noBreak %16
     R1\fermata \bar "||"
     \time 3/4 \tempoC-IIOsanna \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 \mvTr d'2\pE^\solo \noBreak
     d4( cis) f
     e2 d4 %20
@@ -572,7 +572,7 @@ C-IIAgnusSoprano = {
       \once \omit Staff.TimeSignature
       R4*6 \bar "||"
     \time 3/4 \tempoC-IILux \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 \mvTr f\pE^\soloE^\aTre a \noBreak
     a( g) g
     r g b %35

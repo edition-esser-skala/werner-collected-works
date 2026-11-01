@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-IIIDixitBasso = {
   \relative c {
@@ -285,7 +285,7 @@ H-I-IIIBeatusBasso = {
   \relative c {
     \clef bass
     \key d \minor \time 3/4 \autoBeamOff \tempoH-I-IIIBeatus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*13 %13
     \mvTr a'4\fE^\tutti a, a'
     f4. e8 d f %15

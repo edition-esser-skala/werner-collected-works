@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-VKyrieClarinoI = {
   \relative c' {
@@ -60,11 +60,11 @@ B-VGloriaClarinoI = {
     R1*17 \noBreak %34
     R1\fermata \bar "||" %35
     \time 4/2 \tempoB-VDomine \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*31 \noBreak %66
     R\breve\fermata \bar "||"
     \time 3/2 \tempoB-VQuiTollis \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*34 %101
     \time 4/4 \tempoB-VQuiSedes \newSpacingSection
       R1*3
@@ -192,7 +192,7 @@ B-VSanctusClarinoI = {
     g e d2\trill \noBreak
     e2^\critnote r\fermata \bar "||" %10
     \time 3/4 \tempoB-VPleni \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*29 \noBreak %39
     R2.\fermata \bar "||" %40
     \time 4/4 \tempoB-VOsanna \newSpacingSection

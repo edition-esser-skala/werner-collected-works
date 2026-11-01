@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoE-IIIa = \tempoMarkup "Tempo passato"
 tempoE-IIIb = \tempoMarkup "Vivace"

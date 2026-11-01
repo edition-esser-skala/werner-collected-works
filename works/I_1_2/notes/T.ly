@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-IITenore = {
   \relative c' {
     \clef "treble_8"
     \key d \minor \time 2/1 \tempoI-I-IIa \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d1. c2
     b4( a b2) a1
     r a2 d
@@ -47,7 +47,7 @@ I-I-IITenore = {
     c b? r d~ \noBreak %40
     d4 d, f g a1 \segnoMark 1
     \time 4/4 \tempoI-I-IIb
-      \unset Staff.timeSignatureFraction \newSpacingSection
+      \unset Staff.timeSignature \newSpacingSection
       r2 es'8\p es es es \noBreak
     es([ d)] g,4 e'4. d8~
     d d d d cis4 d~

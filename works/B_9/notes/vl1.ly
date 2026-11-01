@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-IXKyrieViolinoI = {
   \relative c' {
@@ -93,7 +93,7 @@ B-IXGloriaViolinoI = {
     cis16.\trill-\critnote h64( cis) cis16.\trill h64( cis) cis16.\trill h64( cis) cis16.\trill h64( cis) fis8 e16( d) cis( h) a( gis) \noBreak
     a4 r r2\fermata \bar "||" %50
     \time 3/4 \tempoB-IXQuiTollis \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*4
     r8 r16 a'16[\fE a8. a,16] a16(\trillE gis) a8 %55
     r r16 a'[ a8. fis,16] fis(\trillE e) fis8
@@ -197,7 +197,7 @@ B-IXCredoViolinoI = {
     e2. e4 \noBreak dis2 \noBreak
     e1.\fermata \bar "||" %35
     \key a \minor \time 3/4 \tempoB-IXEtIncarnatus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*30 \noBreak %65
     R2.\fermata \bar "||"
     \time 4/4 \tempoB-IXCrucifixus \newSpacingSection

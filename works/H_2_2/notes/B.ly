@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-II-IIBasso = {
   \relative c {
@@ -31,7 +31,7 @@ H-II-IIBasso = {
     g c, g2 \noBreak
     c1\fermata \bar "||"
     \time 3/4 \tempoH-II-IIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*8 %36
     r4 r8 \mvTr g'\pE^\solo h g
     c4 c, c'

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoB-LIIKyrie = \tempoMarkup "Allegro"
   tempoB-LIIChriste = \tempoMarkup "Largo"

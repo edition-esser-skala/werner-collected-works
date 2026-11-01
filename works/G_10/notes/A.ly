@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-XAlto = {
   \relative c' {
     \clef treble
     \key d \minor \time 3/4 \tempoG-Xa \autoBeamOff
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*9 %9
     \mvTr d4.\fE^\tutti e16([ fis)] g8 a %10
     b8.[( a16] g8[ f e f])

@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 E-I-Tenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/2 \tempoE-I \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r1 r2 c
     d h g1
     g2 r r h

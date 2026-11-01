@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VIIIAlto = {
   \relative c' {
@@ -58,7 +58,7 @@ G-VIIIAlto = {
     a'8 h c a g2 \noBreak
     g4^\critnote r r2\fermata \bar "||" %55
     \time 3/4 \tempoG-VIIIc \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 \mvTr a2\pE^\solo \noBreak
     f8([ b)] a4 g
     fis4. fis8 fis4

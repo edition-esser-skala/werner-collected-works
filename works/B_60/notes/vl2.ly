@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXKyrieViolinoII = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \tempoB-LXKyrie
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*21 %21
     r4 e\pE a
     gis4 fis8 gis e4

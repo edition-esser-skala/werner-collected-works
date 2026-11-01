@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 C-IIIntroitusAlto = {
   \relative c' {
@@ -119,7 +119,7 @@ C-IISequentiaAlto = {
     f f f f e e f f \noBreak
     e2 fis\fermata \bar "||"
     \time 3/4 \tempoC-IIQuidSum \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*32 %70
     r4 \mvTr d4\pE^\solo^\aTre d
     d( cis) cis
@@ -266,7 +266,7 @@ C-IIMementoAlto = {
     d2. cis4 \noBreak
     d1\fermata \bar "||"
     \time 3/4 \tempoC-IIConvertere \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*8 %37
     r4 r \mvTr c\pE^\solo
     d b8([ c)] d([ es)]
@@ -482,7 +482,7 @@ C-IIBenedictusAlto = {
     R1*3 \noBreak %16
     R1\fermata \bar "|."
     \time 3/4 \tempoC-IIOsanna \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*5 %22
     r4 \mvTr a\fE^\tutti d
     h2 c4
@@ -605,7 +605,7 @@ C-IIAgnusAlto = {
       \once \omit Staff.TimeSignature
       R4*6 \bar "||"
     \time 3/4 \tempoC-IILux \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr c2\pE^\solo^\aTre f4 \noBreak
     f( e) e
     r d g %35

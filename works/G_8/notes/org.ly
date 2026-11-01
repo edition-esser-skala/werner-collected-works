@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VIIIOrgano = {
   \relative c {
@@ -70,7 +70,7 @@ G-VIIIOrgano = {
     << { f e16 d } \\ { a8[ h] } >> \clef bass e,, f g c, g4 \noBreak
     c8 r g r c2\fermata \bar "||" %55
     \time 3/4 \tempoG-VIIIc \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr f,4\pE-\solo f' f, \noBreak
     b c g
     d'2 d4

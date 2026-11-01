@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-IV-VIViolinoII = {
   \relative c' {
@@ -7,7 +7,7 @@ D-IV-VIViolinoII = {
       \once \omit Staff.TimeSignature
     s4*6 \bar "||"
     \time 4/2
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r1 f \noBreak
     a2. g8 f g2. g4
     a1 r4 a e fis

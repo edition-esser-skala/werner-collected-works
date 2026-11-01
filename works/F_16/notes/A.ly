@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XVI-Alto = {
   \relative c' {
     \clef treble
     \key b \major \time 4/2 \tempoF-XVI \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve
     es1 d2 b
     c f es2. es4

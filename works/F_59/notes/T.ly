@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-LIXTenore = {
   \relative c' {
     \clef "treble_8"
     \key f \major \time 3/2 \tempoF-LIX \autoBeamOff
-      \set Staff.timeSignatureFraction = 3/2
+      \set Staff.timeSignature = 3/2
     f,2. g4 a f
     g a b g a h
     c8([ g] c2) h8([ a)] g4 c

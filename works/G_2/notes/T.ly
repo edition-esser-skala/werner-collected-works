@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-II-Tenore = {
   \relative c' {
@@ -84,7 +84,7 @@ G-II-Tenore = {
     R1*5 \noBreak %111
     R1\fermata \bar "||"
     \time 4/2 \tempoG-II-e \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve \noBreak
     \mvTr d'1\fE^\tuttiE d2 g,
     es' d4 c b d8[ c] b4 a %115
@@ -109,7 +109,7 @@ G-II-Tenore = {
     a4 a b1( a2) \noBreak
     b\breve\fermata \bar "||" %135
     \time 4/4 \tempoG-II-f \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*4
     r2 \mvTr g4.\pE^\solo g8 %140
     cis4 cis8 cis d d, r d'

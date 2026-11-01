@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLKyrieSoprano = {
   \relative c' {
@@ -517,7 +517,7 @@ B-XLSanctusSoprano = {
     R1*2 \noBreak %30
     R1\fermata \bar "||"
     \clef treble \time 2/1 \tempoB-XLOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r1 \mvTr g\fE^\tuttiE \noBreak
     c2 a e' c
     g'4. f8 e4 d8[ c] h[ a h c] h[ c d h]
@@ -616,7 +616,7 @@ B-XLAgnusSoprano = {
     R1. \noBreak
     R\fermata \bar "||"
     \time 2/1 \tempoB-XLDona \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*5 %33
     r1 \mvTr g\fE^\tuttiE
     g, e'4.( f8 g4) a %35

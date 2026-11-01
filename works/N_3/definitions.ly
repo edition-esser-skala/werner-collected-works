@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoN-IIIa = \tempoMarkup "Andante mà non troppo"
 tempoN-IIIb = \tempoMarkup "Larghetto"

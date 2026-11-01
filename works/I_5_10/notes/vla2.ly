@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-V-X-ViolaII = {
   \relative c' {
     \clef treble
     \key c \major \time 4/2 \tempoI-V-X
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     e1 f
     e2 a1 g2
     f f e2. e4

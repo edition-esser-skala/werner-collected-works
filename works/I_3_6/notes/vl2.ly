@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-VIViolinoII = {
   \relative c' {
@@ -17,7 +17,7 @@ I-III-VIViolinoII = {
     h8. g16 c8 \tuplet 3/2 8 { d16 c d \sbOn e f g f e d } \sbOff c8( h16.)\trill c32 \noBreak
     c16. e32 c16. e32 \tuplet 3/2 8 { \sbOn g,16 c g e g e \sbOff } c4 r\fermata \bar "||"
     \time 3/4 \tempoI-III-VIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \looseNotes
       R2.*21 \bar "||" %39
     \twofourtime \time 2/4 \tempoI-III-VIc \newSpacingSection

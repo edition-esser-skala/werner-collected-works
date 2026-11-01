@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-VDixitViolinoII = {
   \relative c' {
@@ -194,7 +194,7 @@ H-I-VNisiViolinoII = {
   \relative c' {
     \clef treble
     \key e \minor \time 3/4 \tempoH-I-VNisi
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r4 h'\pE h~
     h g' fis
     h,2.~
@@ -285,7 +285,7 @@ H-I-VLaudaViolinoII = {
   \relative c' {
     \clef treble
     \key g \major \time 4/2 \tempoH-I-VLauda
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*4
     g'1 e2 g %5
     a g4 fis g d e fis
@@ -446,7 +446,7 @@ H-I-VMagnificatViolinoII = {
     c'\fE c c c c d e4 \noBreak
     d2 e\fermata \bar "||"
     \time 4/2 \tempoH-I-VMagnificatC \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       a,2. a4 a2 a, \noBreak
     e' g f1
     e r2 e %45
@@ -461,7 +461,7 @@ H-I-VMagnificatViolinoII = {
     e \noBreak
     e\fermata \bar "||" %55
     \time 4/4 \tempoH-I-VMagnificatD \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r2 a8.\pE a16 d8 cis \noBreak
     d4 r r2
     r8 c d16( b) c8 d16 e f8 a, h
@@ -480,7 +480,7 @@ H-I-VMagnificatViolinoII = {
     e8 c'4 g8 a4 f \noBreak
     r8 d' f d e a, a8. a16
     \time 3/4 \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       a2 r4 \noBreak
     R2.*30 %103
     h!4\fE h h

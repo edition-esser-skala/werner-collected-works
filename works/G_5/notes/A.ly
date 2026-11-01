@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VAlto = {
   \relative c' {
@@ -43,7 +43,7 @@ G-VAlto = {
     h([ h')] a([ g)] fis4( g2) fis4 \noBreak
     g g2( fis4) g2\fermata \bar "||"
     \key g \dorian \time 3/4 \tempoG-Vc \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*9 %46
     r4 \mvTr fis\pE^\solo fis
     g g r

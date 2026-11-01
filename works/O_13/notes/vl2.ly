@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 O-XIIIaViolinoII = {
   \relative c' {
@@ -223,7 +223,7 @@ O-XIIIeViolinoII = {
   \relative c' {
     \clef treble
     \key a \minor \time 3/4 \tempoO-XIIIe
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r4 \once \tieDashed c'~\fE c16 h a g
     a4~ a16 g f e f8 a
     gis a h16 a gis fis e d c h

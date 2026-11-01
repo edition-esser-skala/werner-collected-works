@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXIXKyrieOrgano = {
   \relative c {
@@ -86,7 +86,7 @@ B-XXIXGloriaOrgano = {
   \relative c {
     \clef bass
     \key d \major \time 3/4 \tempoB-XXIXGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr d4\fE-\tutti r8 a' fis a
     d,4 r8 cis d d,
     a' a'16 g fis8 e d cis
@@ -201,7 +201,7 @@ B-XXIXCredoOrgano = {
   \relative c {
     \clef bass
     \key d \major \time 3/4 \tempoB-XXIXCredo
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr d4\fE-\tuttiE r16 d fis d a' a, cis a
     d4 r16 d fis d g g, h g
     d'8[ d' cis d ]a fis16 d
@@ -245,7 +245,7 @@ B-XXIXCredoOrgano = {
     g e! cis a' f b a gis \noBreak %40
     a4 a, d r\fermata \bar "||"
     \key d \major \time 3/4 \tempoB-XXIXEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr d4\fE-\tuttiE r8 d fis d \noBreak
     a' a, r a' cis a
     d d, r d g4
@@ -448,7 +448,7 @@ B-XXIXSanctusOrgano = {
     e d c a fis g d'4 \noBreak
     g, r r2\fermata \bar "||" %20
     \key e \minor \time 3/4 \tempoB-XXIXBenedictus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr e'4\fE-\solo r8 fis dis h \noBreak
     e4 r8 e fis d
     g4 r8 h, g h
@@ -469,7 +469,7 @@ B-XXIXSanctusOrgano = {
     << { a'[ g] } \\ { a, s } >> fis' h e,4~ \noBreak
     e d r\fermata \bar "||"
     \key d \major \time 4/2 \tempoB-XXIXOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr d1-!\fE-\tuttiE e2-! cis4 a \noBreak %40
     fis'2 d4 h g'2 e4 cis
     a'2 fis4 d e1\trill

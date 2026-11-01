@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-III-VTenore = {
   \relative c' {
     \clef bass
     \key d \dorian \time 4/2 \tempoD-III-V \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \set Score.caesuraType = #'((breath . chanthalfbar))
     \time 13/4 d,\breve*1/8 \[ d c \] d f \[ e d e f d \] \[ c d \] d \bar "||"
     \clef "treble_8" \time 4/2 a'1 a

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XIKyrieTenore = {
   \relative c' {
@@ -14,7 +14,7 @@ B-XIKyrieTenore = {
     b2. a4 \noBreak
     g2 a\fermata \bar "||"
     \time 3/4 \tempoB-XIChriste
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*21 %30
     R2.\fermata \markKyrieUtSupra \bar "||" %31 finis
   }
@@ -233,7 +233,7 @@ B-XISanctusTenore = {
   \relative c' {
     \clef "treble_8"
     \key f \major \time 4/2 \autoBeamOff \tempoB-XISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     \mvTrh c1\fE^\tuttiE a4 f g a
     b c d c8[ b] a4 g a2
     g( c) c1
@@ -256,8 +256,8 @@ B-XISanctusTenore = {
     f e4 d e1 \noBreak
     f\breve\fermata \bar "||"
     \time 3/4 \tempoB-XIOsanna \newSpacingSection
-      \unset Staff.timeSignatureFraction
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \unset Staff.timeSignature
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*10 %32
     r4 \mvTr g\pE^\solo e'
     d h r

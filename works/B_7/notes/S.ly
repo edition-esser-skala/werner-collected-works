@@ -118,7 +118,7 @@ B-VIICredoSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIICredo
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve
     g'1( a)
     h2 c c h
@@ -166,7 +166,7 @@ B-VIICredoSoprano = {
     c h1 a4( gis) \noBreak %45
     a2( gis4 fis) \hA gis1\fermata \bar "||"
     \time 3/2 \tempoB-VIIEtIncarnatus \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       c2 e2. d4 \noBreak
     c2.( h4) a( c)
     h2 c2. c4
@@ -193,7 +193,7 @@ B-VIICredoSoprano = {
     h c2. c4 \noBreak %70
     h1 r2\fermata \bar "||"
     \time 2/1 \tempoB-VIIEtResurrexit \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r2 g a^\critnote g \noBreak
     a1 g2 e'~
     e4 e d2 c1
@@ -418,7 +418,7 @@ B-VIISanctusSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r2 c'2. h8[ a] h2~
     h4 a8[ h] c2. h8[ c] d4 c
     h2 c2.( h8_[ a] h2)
@@ -622,7 +622,7 @@ B-VIIAgnusSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIIAgnus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r2 c'2. h4 a2~
     a gis a a
     a a4 a a2 h

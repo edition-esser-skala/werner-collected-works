@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-IIBasso = {
   \relative c {
     \clef bass
     \key d \minor \time 2/1 \tempoI-I-IIa \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve
     r1 a'~
     a2 g f4( e f2)
@@ -41,7 +41,7 @@ I-I-IIBasso = {
     g' d \noBreak %40
     r4 d( f g a2) a, \segnoMark 1
     \time 4/4 \tempoI-I-IIb
-      \unset Staff.timeSignatureFraction \newSpacingSection
+      \unset Staff.timeSignature \newSpacingSection
       r2 a'8\p a a a \noBreak
     g g es es cis cis d d
     h4. h8 a2~

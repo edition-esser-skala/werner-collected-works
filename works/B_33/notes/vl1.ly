@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXIIIKyrieViolinoI = {
   \relative c' {
@@ -18,12 +18,12 @@ B-XXXIIIKyrieViolinoI = {
     a16 cis8 cis16 \tuplet 3/2 8 { \sbOn h a gis a gis fis gis fis e fis e d e d cis d cis h \sbOff } \noBreak
     cis4 r r2\fermata \bar "||"
     \key a \minor \time 3/4 \tempoB-XXXIIIChriste \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \revert Score.SpacingSpanner.common-shortest-duration
       R2.*22 \noBreak %44
     R2.\fermata \bar "||" %45
     \key a \major \time 4/2 \tempoB-XXXIIIKyrieB \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       cis8\fE a d a e' a, fis' a, e' a fis a e a d, a' \noBreak
     cis, h a d cis a' gis h a e a, fis' e a d, a'
     cis, a cis e a a, cis e fis, fis' e d gis, h' a gis
@@ -107,7 +107,7 @@ B-XXXIIIGloriaViolinoI = {
     a e cis' h a cis gis h a cis gis h a e cis a' \noBreak %65
     gis e h gis e4 r2
     \time 3/4 \tempoB-XXXIIIAmen
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r8 h' e cis4 a8 \noBreak
     r fis fis' d4 h8
     e8. d16 cis e d cis h4\trill
@@ -220,7 +220,7 @@ B-XXXIIISanctusViolinoI = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \tempoB-XXXIIISanctus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*3
     e'4.\fE d16 cis d8 e
     cis a e' d16 cis h8 a %5

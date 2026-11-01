@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-XVIIViolinoII = {
   \relative c' {
@@ -59,7 +59,7 @@ G-XVIIViolinoII = {
     d c h2 \noBreak
     a1\fermata \bar "||"
     \time 4/2 \tempoG-XVIIf \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*4 %117
     r1 e'\fE
     a a,2 a'2~
@@ -90,7 +90,7 @@ G-XVIIViolinoII = {
     e\breve \noBreak
     e\fermata \bar "||" %145
     \time 4/4 \tempoG-XVIIg \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*3
     r8 h'\fE h d c h a g
     a4 d g, r %150

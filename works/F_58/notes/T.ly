@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-LVIIITenore = {
   \relative c' {
     \clef "treble_8"
     \key b \major \time 3/2 \autoBeamOff \tempoF-LVIII
-      \set Staff.timeSignatureFraction = 3/2
+      \set Staff.timeSignature = 3/2
     R1.
     r2 f, a4 f
     b8([ a b d] c4) b es4. es8

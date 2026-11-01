@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLVKyrieAlto = {
   \relative c' {
@@ -84,7 +84,7 @@ B-XLVGloriaAlto = {
     f r r2 \noBreak
     R1\fermata \bar "||"
     \time 2/1 \tempoB-XLVDomine \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*2
     r1 \mvTr d\fE^\tutti %25
     d2 e f d
@@ -102,7 +102,7 @@ B-XLVGloriaAlto = {
     f e4 d e1 \noBreak
     d\breve\fermata \bar "||"
     \time 4/4 \tempoB-XLVQuiTollis \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr a'2\pE^\solo b \noBreak %40
     a4 d, d' c
     b2 a
@@ -499,7 +499,7 @@ B-XLVSanctusAlto = {
   \relative c' {
     \clef treble
     \key d \minor \time 2/1 \autoBeamOff \tempoB-XLVSanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*4
     \mvTr a'1\fE^\tuttiE b %5
     a2( g) a2. g4
@@ -512,7 +512,7 @@ B-XLVSanctusAlto = {
     c2 g a1 \noBreak
     \time 1/1 R\fermata \bar "||"
     \time 4/4 \tempoB-XLVPleni \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*9 \noBreak %23
     R1\fermata \bar "||"
     \time 3/2 \tempoB-XLVOsanna \newSpacingSection

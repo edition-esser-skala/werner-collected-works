@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-II-Soprano = {
   \relative c' {
@@ -82,7 +82,7 @@ G-II-Soprano = {
     R1*2 \noBreak %111
     R1\fermata \bar "||"
     \time 4/2 \tempoG-II-e \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*5 %117
     r1 \mvTr d\fE^\tutti
     d2 g,4 g es'2 d4( c)
@@ -103,7 +103,7 @@ G-II-Soprano = {
     c2 d c1 \noBreak
     d\breve\fermata \bar "||" %135
     \time 4/4 \tempoG-II-f \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r2 \mvTr c4.\pE^\solo g8 \noBreak
     as4 a16([ g)] a8 b f r b
     b([ g)] es([ b')] c g c4~

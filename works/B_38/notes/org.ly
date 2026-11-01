@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXVIIIKyrieOrgano = {
   \relative c {
@@ -217,7 +217,7 @@ B-XXXVIIIGloriaOrgano = {
     f4 fis r16 g'32 g g16 d h g' d h \noBreak %15
     g4 r r2 \bar "|"
     \time 3/4 \tempoB-XXXVIIIGlorificamus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       g4\f g' h, \noBreak
     c c'\pE e,
     f d fis
@@ -338,7 +338,7 @@ B-XXXVIIIGloriaOrgano = {
     c r c r \noBreak
     c r r2\fermata \bar "||"
     \time 3/4 \tempoB-XXXVIIIQuoniam \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr c'4\fE-\solo h g \noBreak
     c a e
     f d g %135
@@ -725,7 +725,7 @@ B-XXXVIIICredoOrgano = {
     f c' f,4. f8 \noBreak
     c2 r\fermata \bar "||" %70
     \clef bass \key c \major \time 3/4 \tempoB-XXXVIIIEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr c4\fE-\tutti r r \noBreak
     r8 c e c e g
     c4 c, r

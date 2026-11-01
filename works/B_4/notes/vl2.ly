@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-IVKyrieViolinoII = {
   \relative c' {
@@ -518,7 +518,7 @@ B-IVSanctusViolinoII = {
     \tempoB-IVPleni R1*17 \noBreak
     R1\fermata \bar "||"
     \time 4/2 \tempoB-IVOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*5 %34
     r1 c,\fE %35
     g' e2 a~

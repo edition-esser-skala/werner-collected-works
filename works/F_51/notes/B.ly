@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-LIBasso = {
   \relative c {
     \clef bass
     \key d \minor \time 4/2 \autoBeamOff \tempoF-LI
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*3
     d1 b'2. a4
     g2 b a4 g f2 %5

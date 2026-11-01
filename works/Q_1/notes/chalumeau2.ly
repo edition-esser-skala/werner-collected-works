@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 Q-IChalumeauII = {
   \relative c' {
@@ -53,7 +53,7 @@ Q-IChalumeauII = {
     R1 \noBreak %50
     R\fermata \bar "||"
     \time 3/4 \tempoQ-Ib \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2. \noBreak
     b8.(\ppE c16) c8.( a16) a8.( b16)
     b4 r r

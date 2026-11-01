@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoI-IV-XXXVa = \tempoMarkup "Andante"
 tempoI-IV-XXXVb = \tempoMarkup "Allegro"

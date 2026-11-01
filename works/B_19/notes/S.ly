@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XIXKyrieSoprano = {
   \relative c' {
@@ -147,7 +147,7 @@ B-XIXGloriaSoprano = {
     a r r
     R1.*5 %36
     \time 4/2 \tempoB-XIXQuiSedes \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r4 \mvTr b\fE^\tutti a g f d' c b
     a f' e d c d c b
     a f8[ g] a4 b c2. d8([ e)]
@@ -159,7 +159,7 @@ B-XIXGloriaSoprano = {
     e!) f %45
     R\breve\fermata \bar "||"
     \time 4/4 \tempoB-XIXQuoniam \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*7 \noBreak %53
     R1\fermata \bar "||"
     \tempoB-XIXCumSancto R1*2 %56

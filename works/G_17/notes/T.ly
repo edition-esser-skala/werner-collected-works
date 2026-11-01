@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-XVIITenore = {
   \relative c' {
@@ -109,7 +109,7 @@ G-XVIITenore = {
     a a a( gis) \noBreak
     a1\fermata \bar "||"
     \time 4/2 \tempoG-XVIIf \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*2 %115
     r2 \mvTr a\fE^\tuttiE e'1
     e,2 e' e d
@@ -142,7 +142,7 @@ G-XVIITenore = {
     a( gis4 fis \hA gis1) \noBreak
     a\breve \bar "||" %145
     \time 4/4 \tempoG-XVIIg \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr e'4.\pE^\solo e8 a,2 \noBreak
     d4 r8 c! h2
     c8 g c h a2

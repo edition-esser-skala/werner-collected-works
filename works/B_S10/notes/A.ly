@@ -4,7 +4,7 @@ B-SXKyrieAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoB-SXKyrie
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvDl g'2\fE^\tutti e4
     g2.
     f2 e8[ f]
@@ -128,7 +128,7 @@ B-SXGloriaAlto = {
     f8 f e e d2 \noBreak
     e1\fermata \bar "||" %5
     \time 3/4 \tempoB-SXLaudamus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr e4\pE^\solo f f \noBreak
     e e e
     d4. d8 d4

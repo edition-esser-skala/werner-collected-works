@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LIKyrieOrgano = {
   \relative c {
@@ -320,7 +320,7 @@ B-LICredoOrgano = {
     f1. \noBreak %40
     c\fermata \bar "||"
     \tempoB-LICrucifixus \time 2/1
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr f1-!\fE-\tuttiE e-! \noBreak
     << {
       b' a
@@ -348,7 +348,7 @@ B-LICredoOrgano = {
     d\breve \noBreak %60
     g,\fermata \bar "||"
     \time 3/2 \tempoB-LIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr b'4.\pE-\solo a8 g4 f8 es d c b a \noBreak
     g4 g'8 f es4 f g a
     b2 c4 b a g8 f

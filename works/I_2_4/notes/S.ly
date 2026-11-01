@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-II-IVSoprano = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \tempoI-II-IVa \autoBeamOff
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr e8([\pE^\solo a)] \tuplet 3/2 4 { a([ h cis)] h([ a gis)] }
     a8.([\trill gis16)] \tuplet 3/2 4 { a8([ h cis)] h([ a gis)] }
     a8.([\trill gis16)] a4 cis~

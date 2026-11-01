@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-IIOrgano = {
   \relative c {
     \clef "treble_8"
     \key d \minor \time 2/1 \tempoI-I-IIa
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << { s1 a'' } \\ { d,1.^! c2 } >>
     b4 a b2 \clef bass a1~
     a2 g f4 e f2
@@ -47,7 +47,7 @@ I-I-IIOrgano = {
     g' d \noBreak %40
     r4 d f g a2 a, \segnoMark 1
     \time 4/4 \tempoI-I-IIb
-      \unset Staff.timeSignatureFraction \newSpacingSection
+      \unset Staff.timeSignature \newSpacingSection
       r2-\conPedale a'8 a a a \noBreak
     g g es es cis cis d d
     h h h h a2~

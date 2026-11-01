@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLVKyrieOrgano = {
   \relative c {
@@ -90,7 +90,7 @@ B-XLVGloriaOrgano = {
     f16-\markup \remark "Org. solo" f' a g f e d c b a g f c'8 c, \noBreak
     f4 r r2\fermata \bar "||"
     \time 2/1 \tempoB-XLVDomine \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << {
       s1 a' \noBreak
       a2 h c a
@@ -120,7 +120,7 @@ B-XLVGloriaOrgano = {
     a\breve \noBreak
     d\fermata \bar "||"
     \time 4/4 \tempoB-XLVQuiTollis \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr d8\pE-\solo e f d g g, d' e \noBreak %40
     f e d c b b' a f
     d g, d' e f f, a b
@@ -579,7 +579,7 @@ B-XLVSanctusOrgano = {
   \relative c {
     \clef bass
     \key d \minor \time 2/1 \tempoB-XLVSanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     \mvTr a'1-!\fE-\tuttiE b-!
     a2-! g-! a2.-! g4-!
     << {
@@ -600,7 +600,7 @@ B-XLVSanctusOrgano = {
     c b c c, f2. f4 \noBreak
     \time 1/1 f1\fermata \bar "||"
     \time 4/4 \tempoB-XLVPleni \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr f'8\pE-\solo r f r f4 r \noBreak %15
     r2 f16\fE f32 f f16 f f c a c
     f,8 r e'\pE r d r h r

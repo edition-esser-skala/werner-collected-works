@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-IIIKyrieOrgano = {
   \relative c {
@@ -55,7 +55,7 @@ B-IIIKyrieOrgano = {
     h g' e c d c d d, \noBreak
     g4 r r2\fermata \bar "||" %50 finis
     \time 3/4 \tempoB-IIIChriste
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr e'4\fE-\solo ^\mvTz ^\aDue fis g \noBreak
     a h h,
     e g e
@@ -679,7 +679,7 @@ B-IIICredoOrgano = {
     a2 gis4 \noBreak
     a2.\fermata \bar "||"
     \clef treble \key d \minor \time 4/2 \tempoB-IIICrucifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr a''1\fE-\tuttiE b! \noBreak
     gis a
     << {
@@ -732,7 +732,7 @@ B-IIICredoOrgano = {
     d'1. d2 \noBreak
     g,\breve\fermata \bar "||" %90
     \key c \major \time 3/2 \tempoB-IIIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr c2\fE-\tutti e c \noBreak
     h g h
     c e c

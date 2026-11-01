@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 A-IXScenaPrimaSoli = {
   \relative c {
@@ -189,7 +189,7 @@ A-IXAriaSecundaSoli = {
   \relative c' {
     \clef "treble_8"
     \key es \lydian \time 3/4 \autoBeamOff \tempoA-IXAriaSecunda
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     b4 es f8([ d)]
     es4 r r
     es \tuplet 3/2 4 { b8([ as g)] \hA as([ g f)] }

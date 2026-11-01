@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XIOrgano = {
   \relative c {
     \clef bass
     \key g \major \time 3/4 \tempoI-IV-XIa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr g'4\pE-\solo c, e
     d g fis8 g
     d4 r r
@@ -50,7 +50,7 @@ I-IV-XIOrgano = {
     g h, c d \noBreak
     g,4 r\fermata \bar "||"
     \time 3/4 \tempoI-IV-XIe
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr e'4\pE-\solo ^\mvTz ^\aTreE g e \noBreak
     dis2. %45
     e4 c d

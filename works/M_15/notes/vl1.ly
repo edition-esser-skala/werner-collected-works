@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 M-XVViolinoI = {
   \relative c' {
     \clef treble
     \key g \major \time 3/4 \tempoM-XVa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     h'8.\trill\fE c32 d a4 r8 d
     h g'16( fis) g4\trill r8 d\p
     e16( fis) g8 g32( fis16.) fis32( e16.) e32( d16.) d32( c16.)

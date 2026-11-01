@@ -140,7 +140,7 @@ B-VIICredoOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 2/1 \tempoB-VIICredo
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c2 a' f g4 f
     e d c h a2 d
     << { g } \\ { g, } >> a'4 g f!2 g4 f
@@ -217,7 +217,7 @@ B-VIICredoOrgano = {
     c g a1~ \noBreak %45
     a e\fermata \bar "||"
     \clef "treble_8" \time 3/2 \tempoB-VIIEtIncarnatus \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       a'2 c2. h4 \noBreak
     a2. g4 f2
     g e a~
@@ -244,7 +244,7 @@ B-VIICredoOrgano = {
     gis a1 \noBreak %70
     e r2\fermata \bar "||"
     \clef "treble_8" \time 2/1 \tempoB-VIIEtResurrexit \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       c'2 c'1 c2 \noBreak
     f,4 g a h c2 c,
     \clef treble << { e''2 d c } \\ { c h a } >> \clef "treble_8" f~
@@ -495,7 +495,7 @@ B-VIISanctusOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 2/1 \tempoB-VIISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c2. h8 c d2. c8 d
     e2. d8 e f2. e8 f
     g4 f e d8 c d1
@@ -726,7 +726,7 @@ B-VIIAgnusOrgano = {
   \relative c {
     \clef "treble_8"
     \key c \major \time 2/1 \tempoB-VIIAgnus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c'2. h4 \clef bass f2. e4
     d2 e a, \clef "treble_8" f'
     c' cis d g,

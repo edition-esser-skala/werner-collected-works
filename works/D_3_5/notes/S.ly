@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-III-VSoprano = {
   \relative c' {
     \clef treble
     \key d \dorian \time 4/2 \tempoD-III-V \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     \time 13/4 s4*13 \bar "||"
     \time 4/2 d1 e
     f2 fis g_( a

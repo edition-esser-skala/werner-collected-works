@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XIKyrieSoprano = {
   \relative c' {
@@ -14,7 +14,7 @@ B-XIKyrieSoprano = {
     d2 c \noBreak
     c c\fermata \bar "||"
     \time 3/4 \tempoB-XIChriste
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr a4\pE^\solo d e \noBreak %10
     f8([ e)] d4 a
     a2( gis4)
@@ -289,7 +289,7 @@ B-XISanctusSoprano = {
   \relative c' {
     \clef treble
     \key f \major \time 4/2 \autoBeamOff \tempoB-XISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*2
     \mvTr c'1\fE^\tuttiE a4 f g a
     b c d c8[ b] a4 g a h
@@ -312,8 +312,8 @@ B-XISanctusSoprano = {
     g\breve \noBreak
     a\fermata \bar "||"
     \time 3/4 \tempoB-XIOsanna \newSpacingSection
-      \unset Staff.timeSignatureFraction
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \unset Staff.timeSignature
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*9 %31
     r4 \mvTr g(\pE^\solo c)
     h8([ c)] d4 r

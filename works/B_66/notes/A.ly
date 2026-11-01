@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LVIKyrieAlto = {
   \relative c' {
@@ -267,7 +267,7 @@ B-LVICredoAlto = {
     cis,4 d d4. cis8 \noBreak %40
     d2 r\fermata \bar "||"
     \time 4/2 \tempoB-LVICrucifixus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr f1.\fE^\tuttiE a2 \noBreak
     g e f2. f4
     e1 r2 f~
@@ -283,7 +283,7 @@ B-LVICredoAlto = {
     e f cis d \noBreak
     e\breve\fermata \bar "||" %55
     \time 3/2 \tempoB-LVIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*11 %66
     r4 \mvTr f2\fE^\tutti g4 f e8 e
     f2 e4 e2 e4

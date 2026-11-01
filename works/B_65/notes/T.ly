@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXVKyrieTenore = {
   \relative c' {
@@ -400,7 +400,7 @@ B-LXVBenedictusBTenore = {
     b \hA b4. a8 \noBreak
     b2.\fermata \bar "||" %15
     \time 4/2 \tempoB-LXVOsannaB \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*3
     \mvTr a\breve\fE^\tuttiE
     d1 c %20
@@ -572,7 +572,7 @@ B-LXVAgnusBTenore = {
     a a2 \noBreak
     a2.\fermata \bar "||"
     \time 4/2 \tempoB-LXVDonaB \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*4 %31
     r1 a
     h c2. c4

@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-II-VIIOrgano = {
   \relative c {
     \clef treble
     \key b \major \time 4/2 \tempoI-II-VII
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << {
       b''1 c2 d
       es1 d2 b

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 J-III-Basso = {
   \relative c {
@@ -16,7 +16,7 @@ J-III-Basso = {
     g e8 e f16[ e f g] a[ g a h] \noBreak
     c8[ g] e c g'^\critnote g r4
     \time 3/4 \tempoJ-III-b
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       cis,2.\pp \noBreak
     d
     e2 f4 %15
@@ -58,7 +58,7 @@ J-III-Basso = {
     g4 r r2 %60
     R1*3
     \time 3/4 \tempoJ-III-e
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 r8 \mvTr c\fE^\tutti e! g \noBreak
     c4 r8 c, e g %65
     c4 r8 a fis g

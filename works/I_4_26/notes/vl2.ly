@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XXVIViolinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoI-IV-XXVIa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr g''2.~\pE-\conSord
     g4 f8( e) d( c)
     c4( d) c8 d

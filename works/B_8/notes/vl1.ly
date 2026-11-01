@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-VIIIKyrieViolinoI = {
   \relative c' {
@@ -139,7 +139,7 @@ B-VIIIBenedictusViolinoI = {
     gis32(\f e16.) dis32( cis16.) a'32( fis16.) e32( dis16.) e16 fis32 gis a16 cis, e8( dis16.)\trill cis32 \noBreak
     cis4 r r2\fermata \bar "||"
     \time 4/2 \tempoB-VIIIOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*2
     r1 h\fE %10
     cis4 dis e1 dis2

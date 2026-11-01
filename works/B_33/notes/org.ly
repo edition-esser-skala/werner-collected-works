@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXIIIKyrieOrgano = {
   \relative c {
@@ -27,7 +27,7 @@ B-XXXIIIKyrieOrgano = {
     a,4 r r2 \noBreak
     a'8-\conPedale fis d e a,4 r\fermata \bar "||"
     \key a \minor \time 3/4 \tempoB-XXXIIIChriste \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr a2\pE-\solo a'4 \noBreak
     gis4. e8 c a
     f' d e4 e, %25
@@ -52,7 +52,7 @@ B-XXXIIIKyrieOrgano = {
     a g! f2 \noBreak
     e r4\fermata \bar "||" %45
     \key a \major \time 4/2 \tempoB-XXXIIIKyrieB \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr a'4\fE-\tuttiE h cis d cis d cis h \noBreak
     a fis e d cis d cis h
     a a'8 gis fis4 e d cis8 h e4 d
@@ -198,7 +198,7 @@ B-XXXIIIGloriaOrgano = {
     a, a'4 e8 a e cis a \noBreak %65
     e'4 r8 e-\conPedale a e cis a
     \time 3/4 \tempoB-XXXIIIAmen
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       e' \clef treble << {
       h'' e cis4 a8 \noBreak
       r fis fis' d4 h8
@@ -573,7 +573,7 @@ B-XXXIIISanctusOrgano = {
   \relative c {
     \clef bass
     \key a \major \time 3/4 \tempoB-XXXIIISanctus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr a'4.\fE-\tutti-! a16-! gis-! a8-! h-!
     << { e4. d16 cis d8 e } \\ { gis, fis16 e fis4. gis8 } >>
     a8. gis16 fis8 e16 d cis8 d

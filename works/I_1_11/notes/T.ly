@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XITenore = {
   \relative c' {
@@ -20,7 +20,7 @@ I-I-XITenore = {
     b! f r h c g16 e' c8 c16 c \noBreak
     c8 c r4 r2\fermata \bar "||"
     \time 3/4 \tempoI-I-XIc \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2. \noBreak
     \mvTr f,8.\pE^\solo f16 a8 c f c %50
     a8.\trill g16 f4 r

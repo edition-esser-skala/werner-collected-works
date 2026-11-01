@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XKyrieViolinoI = {
   \relative c' {
@@ -36,7 +36,7 @@ B-XGloriaViolinoI = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \tempoB-XGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     fis16\fE a d a fis' d a' fis h8 e,
     \kneeBeam fis16 a,, d a fis' d a' fis h8 e,
     fis16 d a' fis d' h d fis h8 a
@@ -136,7 +136,7 @@ B-XCredoViolinoI = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \tempoB-XCredo
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*25 \noBreak %25
     R2.\fermata \bar "||"
     \time 4/4 \tempoB-XEtIncarnatus
@@ -156,7 +156,7 @@ B-XCredoViolinoI = {
     d( f) es( d)~ d cis!16 h! cis4 \noBreak %40
     d2 r\fermata \bar "||"
     \time 3/4 \tempoB-XEtResurrexit
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       fis8\fE a4 d e8 \noBreak
     fis16 a g a fis8 fis,16 a d8 e
     fis16 a g a fis8 a16 fis e a d, a'
@@ -219,7 +219,7 @@ B-XSanctusViolinoI = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \tempoB-XSanctus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r8 a'4\fE g16 fis h8 a
     d a4 g16 fis h8 a
     d a4 g fis8
@@ -248,7 +248,7 @@ B-XBenedictusViolinoI = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \tempoB-XBenedictus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     fis4\fE r8 ais\p h ais
     h4 r8 cis, d cis
     d8. e16 fis8 gis16 ais h8 cis
@@ -294,7 +294,7 @@ B-XAgnusViolinoI = {
     e8 e e4 e2\trill \noBreak
     e r\fermata \bar "||"
     \time 3/4 \tempoB-XDona \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       fis4\fE a fis16 g fis g \noBreak
     a4 g e
     fis fis~ fis16 e fis8

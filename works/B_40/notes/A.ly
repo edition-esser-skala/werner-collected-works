@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLKyrieAlto = {
   \relative c' {
@@ -471,7 +471,7 @@ B-XLSanctusAlto = {
     \tempoB-XLPleni R1*17 \noBreak %30
     R1\fermata \bar "||"
     \time 2/1 \tempoB-XLOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr c1\fE^\tuttiE g'2 e \noBreak
     a f c'4. h8 a4 g8[ f]
     e4 c g' f8([ e)] d4 g, g' f
@@ -555,7 +555,7 @@ B-XLAgnusAlto = {
     R1. \noBreak
     R\fermata \bar "||"
     \time 2/1 \tempoB-XLDona \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*6 %34
     r1 \mvTr c\fE^\tuttiE %35
     c, a'2.( g8[ f)]

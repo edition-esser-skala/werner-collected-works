@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XXIITenore = {
   \relative c' {
@@ -7,7 +7,7 @@ I-I-XXIITenore = {
     R1*12 \noBreak %12
     R1\fermata \bar "||"
     \key c \major \time 3/4 \tempoI-I-XXIIb
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*21 %34
     \key g \major R2.*28 %62
     \time 4/4 \tempoI-I-XXIIc R1*4 \noBreak %66

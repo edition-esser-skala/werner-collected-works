@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XXVIIIBasso = {
   \relative c {
     \clef bass
     \twotwotime \key f \major \time 4/2 \autoBeamOff \tempoI-I-XXVIIIa
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*8 %8
     \mvTr f1\pE^\solo g2 c,~
     c b' a f %10
@@ -68,7 +68,7 @@ I-I-XXVIIIBasso = {
     e2 f c1 %70
     f,2 f'1 f2
     \time 4/4 \tempoI-I-XXVIIIb
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       b,2 f\fermata \bar "|." %72 finis
   }
 }

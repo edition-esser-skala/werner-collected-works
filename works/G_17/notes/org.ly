@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-XVIIOrgano = {
   \relative c {
@@ -127,7 +127,7 @@ G-XVIIOrgano = {
     R1 \noBreak
     R\fermata \bar "||"
     \time 4/2 \tempoG-XVIIf \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr e'1-!\fE-\tuttiE \noBreak a-!
     a,2-! a'1-! g2-! %115
     << {
@@ -167,7 +167,7 @@ G-XVIIOrgano = {
     e\breve \noBreak
     a,\fermata \bar "||" %145
     \clef "treble_8" \time 4/4 \tempoG-XVIIg \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr e''2\pE-\solo a, \noBreak
     d4. c!8 h2
     c8 g c h a2

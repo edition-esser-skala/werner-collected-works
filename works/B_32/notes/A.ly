@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXIIKyrieAlto = {
   \relative c' {
@@ -128,7 +128,7 @@ B-XXXIIGloriaAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoB-XXXIIGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr g'4\fE^\tuttiE r8 g g g
     g4 r8 g g g
     g r g r g r
@@ -149,7 +149,7 @@ B-XXXIIGloriaAlto = {
     \key f \major \time 4/4 \tempoB-XXXIILaudamus \newSpacingSection
       R1*8 %25
     \key c \major \time 3/4 \tempoB-XXXIIGlorificamus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*15 \noBreak %40
     R2.\fermata \bar "||"
     \key a \minor \time 4/4 \tempoB-XXXIIGratias \newSpacingSection
@@ -349,7 +349,7 @@ B-XXXIICredoAlto = {
     d r8 g4( f8) d4 \noBreak
     e r r2\fermata \bar "||"
     \key d \minor \time 3/4 \tempoB-XXXIIEtIncarnatus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr d4\pE^\SIIsolo g8([ a)] b([ g)] \noBreak
     es[ c es' d] c4~
     c16[ d c8] b4 a %35
@@ -386,7 +386,7 @@ B-XXXIICredoAlto = {
       R1*13 \noBreak %79
     R1\fermata \bar "||" %80
     \key c \major \time 3/4 \tempoB-XXXIIEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr e4\fE^\Atutti c2 \noBreak
     c8([ d)] e2
     d4 g2~

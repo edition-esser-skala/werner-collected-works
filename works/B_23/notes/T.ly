@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXIIIKyrieTenore = {
   \relative c' {
@@ -88,7 +88,7 @@ B-XXIIICredoTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/2 \tempoB-XXIIICredo \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r2 c h g
     a h g4 e' d c
     d\breve
@@ -142,7 +142,7 @@ B-XXIIICredoTenore = {
     f1( g) \noBreak
     c,\breve\fermata \bar "||"
     \time 3/2 \tempoB-XXIIIEtIncarnatus \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       a'2 a a \noBreak
     a d g,
     e'! d2. d4 %55
@@ -160,7 +160,7 @@ B-XXIIICredoTenore = {
     b a2. a4 \noBreak
     a1.\fermata \bar "||"
     \time 4/2 \tempoB-XXIIICrucifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       b2. b4 h1 \noBreak
     c cis2. cis4 %70
     d2 c h! c~
@@ -176,7 +176,7 @@ B-XXIIICredoTenore = {
     c2 c1 c2 \noBreak
     c\breve\fermata \bar "||"
     \time 3/2 \tempoB-XXIIIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       c2 e4 d e e \noBreak
     r c d d e e
     r2 r r4 a, %85
@@ -404,7 +404,7 @@ B-XXIIISanctusTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/2 \autoBeamOff \tempoB-XXIIISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r1 c~
     c c2 c~
     c g fis g~
@@ -423,7 +423,7 @@ B-XXIIISanctusTenore = {
     d\breve \noBreak
     g,\fermata \bar "||"
     \time 3/2 \tempoB-XXIIIOsanna \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*3 %20
     r2 g c~
     c4 h e2 d
@@ -487,7 +487,7 @@ B-XXIIIBenedictusTenore = {
   \relative c' {
     \clef "treble_8"
     \key a \minor \time 4/2 \autoBeamOff \tempoB-XXIIIBenedictus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*2
     c1 c
     d c
@@ -519,7 +519,7 @@ B-XXIIIAgnusTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/2 \tempoB-XXIIIAgnus \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r1 g~
     g2 fis gis a~
     a4 d, g1 fis2

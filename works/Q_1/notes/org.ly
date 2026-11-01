@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 Q-IOrgano = {
   \relative c {
@@ -56,7 +56,7 @@ Q-IOrgano = {
     b c d es f es f f, \noBreak %50
     b4 r r2\fermata \bar "||"
     \time 3/4 \tempoQ-Ib \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       g'8-!\pp r g-! r g-! r \noBreak
     g-! r r4 r
     g,8-! r g-! r g-! r

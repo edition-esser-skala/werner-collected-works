@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-V-IITenore = {
   \relative c' {
@@ -16,7 +16,7 @@ I-V-IITenore = {
     c([ h)] c8 r4 g8 e' e16([ d)] d([ c)] \noBreak %15
     c([ h)] h8 r4 r2
     \time 3/4 \tempoI-V-IIb
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       e4.^\aTre e8 a,4 \noBreak
     d d, r
     g4. g8 c c,

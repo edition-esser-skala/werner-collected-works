@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XKyrieOrgano = {
   \relative c {
@@ -70,7 +70,7 @@ B-XGloriaOrgano = {
   \relative c {
     \clef bass
     \key d \major \time 3/4 \tempoB-XGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr d4\fE-\tutti r8 fis g a
     d,4 r8 fis g a
     d,4 h gis8 a
@@ -278,7 +278,7 @@ B-XCredoOrgano = {
   \relative c {
     \clef bass
     \key d \major \time 3/4 \tempoB-XCredo
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr d8.\pE-\solo e16 fis8 d e g
     fis cis d8. e16 fis4
     g8 fis e e' cis d
@@ -322,7 +322,7 @@ B-XCredoOrgano = {
     d4 g, a2 \noBreak %40
     d r\fermata \bar "||"
     \time 3/4 \tempoB-XEtResurrexit
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr d4\fE-\tutti r8 d fis a \noBreak
     d d, r d fis a
     d d, r d' cis h
@@ -495,7 +495,7 @@ B-XSanctusOrgano = {
   \relative c {
     \clef bass
     \key d \major \time 3/4 \tempoB-XSanctus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr d4\fE-\tutti d, r
     d' d, r
     d' cis d
@@ -582,7 +582,7 @@ B-XBenedictusOrgano = {
   \relative c {
     \clef bass
     \key d \major \time 3/4 \tempoB-XBenedictus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr h8\fE-\solo h'16 ais h8 fis\pE d fis
     h, h'16 ais h8 fis d fis
     h a16 g fis8 e d cis
@@ -667,7 +667,7 @@ B-XAgnusOrgano = {
     e'2 e, \noBreak
     a r\fermata \bar "||" %15
     \time 3/4 \tempoB-XDona \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr d4\fE-\tutti fis h8 a16 g \noBreak
     fis4 g a
     d,4. cis8 h4

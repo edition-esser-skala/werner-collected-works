@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 E-IIIaViolinoI = {
   \relative c' {
@@ -51,7 +51,7 @@ E-IIIbViolinoI = {
     \clef treble
     \key b \major \time 3/4 \tempoE-IIIb
       \set Score.currentBarNumber = #45
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     d'8\fE b16 d f8 d16 f b8 d,
     c a' f a, b e
     f a16 f c8 f16 c a8 c16 a

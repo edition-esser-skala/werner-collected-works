@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 C-IIIntroitusTromboneI = {
   \relative c' {
@@ -88,7 +88,7 @@ C-IISequentiaTromboneI = {
     f f f f e e f f \noBreak
     e2 fis\fermata \bar "||"
     \time 3/4 \tempoC-IIQuidSum \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*46 %84
     R2.\fermata \bar "||" %85
     \time 4/4 \tempoC-IILachrymosa \newSpacingSection
@@ -152,7 +152,7 @@ C-IIMementoTromboneI = {
     R1 \noBreak
     R\fermata \bar "||"
     \time 3/4 \tempoC-IIConvertere \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 f2~-\solo \noBreak %30
     f4 es2
     d4 f2
@@ -252,7 +252,7 @@ C-IIBenedictusTromboneI = {
     R1*16 \noBreak %16
     R1\fermata \bar "||"
     \time 3/4 \tempoC-IIOsanna \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*5 %22
     r4 a\fE d
     h2 c4
@@ -327,7 +327,7 @@ C-IIAgnusTromboneI = {
       \once \omit Staff.TimeSignature
       R4*6 \bar "||"
     \time 3/4 \tempoC-IILux \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*15 \noBreak %47
     R2.\fermata \bar "||"
     \time 4/4 \tempoC-IICumSanctis \newSpacingSection

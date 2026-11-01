@@ -4,7 +4,7 @@ I-V-VII-ViolinoII = {
   \relative c' {
     \clef treble
     \key d \major \time 4/2 \tempoI-V-VIIa
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     fis8\pp d' g, d' a d h d a d h d a d g, d'
     fis, e d g fis a h cis d fis h, d a d g, d'
     fis, a d fis a a, fis' a, e' a fis a e a d, a'

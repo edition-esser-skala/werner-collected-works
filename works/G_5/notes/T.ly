@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VTenore = {
   \relative c' {
@@ -43,7 +43,7 @@ G-VTenore = {
     h r r h a2 \noBreak
     h4 d d2 d\fermata \bar "||"
     \key g \dorian \time 3/4 \tempoG-Vc \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*9 %46
     r4 \mvTr a\pE^\solo a
     d d r

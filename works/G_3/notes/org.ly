@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-IIIOrgano = {
   \relative c {
@@ -54,7 +54,7 @@ G-IIIOrgano = {
     d' b es c d d' b g \noBreak
     d4 d, g2\fermata \bar "||"
     \time 3/4 \tempoG-IIIc
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr es'8.\pE-\solo f16 g4 as \noBreak %50
     b as g
     as b b,

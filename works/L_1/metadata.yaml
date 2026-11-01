@@ -14,6 +14,7 @@ sources:
     license: public domain
     principal: true
 tocstyle: default
+tocrightmargin: 6cm
 toe: |
   –  & –     & T, B & (a) In \C1, lyrics are generally typeset in Fraktur,
                       while foreign words appear in Roman font.

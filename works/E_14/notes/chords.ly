@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 E-XIVChords = {
   \relative c' {
     \clef treble
     \key f \major \time 3/4 \tempoE-XIVa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     s2.*23 \bar "||" %23
     \time 4/4 \tempoE-XIVb
       a'16(-\markup \remark "con flautino" d) e( f) a,( e') f( g) \tuplet 3/2 8 { f( e d) } d8 g8.\trill a32 b \bar "S-S" \noBreak

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoD-I-XVIa = \tempoTitleMarkup "Recitativo" "Largo"
 tempoD-I-XVIb = \tempoTitleMarkup "Aria" "Allegro"

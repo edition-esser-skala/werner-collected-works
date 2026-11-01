@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 J-III-ClarinoI = {
   \relative c' {
@@ -16,7 +16,7 @@ J-III-ClarinoI = {
     h4 r8 g \pa a16 g a h c8.\trill h32 a \noBreak
     g4 r8 c \pd h h r4
     \time 3/4 \tempoJ-III-b
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*9 %21
     \time 4/4 \tempoJ-III-c c,4\fE r8 e16 f g8 g g g \noBreak
     g4 r8 e16 f g8 g g g
@@ -36,7 +36,7 @@ J-III-ClarinoI = {
     g4 r r2 %60
     R1*3
     \time 3/4 \tempoJ-III-e
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*12 %75
     r8 \pa g''4\fE c8 h h \pd
     r \pa g4 e8 d d \pd

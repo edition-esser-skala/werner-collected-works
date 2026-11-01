@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-IV-IIIBasso = {
   \relative c {
@@ -7,7 +7,7 @@ D-IV-IIIBasso = {
       \once \omit Staff.TimeSignature
     c\breve*1/8 d d a' b a\fermata \bar "||"
     \time 4/2 \tempoD-IV-III
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve
     r2 d,1 e2
     cis d4( c) b2. b4
@@ -26,9 +26,9 @@ D-IV-IIIBasso = {
     a\breve \noBreak
     d\fermata \bar "||"
     \time 14/4 \once \omit Staff.TimeSignature
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       f\breve*1/8 g a a a a a c \once \hide Stem a4 a\breve*1/8 a g g a \bar "||"
-    \time 4/2 \set Staff.timeSignatureFraction = 2/2
+    \time 4/2 \set Staff.timeSignature = 2/2
       d,1 g2. g4 \noBreak %20
     c,2 f2. f4 b,2
     es1 d

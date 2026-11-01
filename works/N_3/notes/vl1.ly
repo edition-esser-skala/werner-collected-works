@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 N-IIIViolinoI = {
   \relative c' {
     \clef treble
     \key g \major \time 3/4 \tempoN-IIIa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     d'4.\fE g16( d) e8 c16( g)
     d'4. h16( g) c( a) fis( d)
     g( a) h( g) d'( h) g( d) c'( a) fis( d)

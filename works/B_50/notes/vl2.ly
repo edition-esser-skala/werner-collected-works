@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LKyrieViolinoII = {
   \relative c' {
@@ -134,7 +134,7 @@ B-LGloriaViolinoII = {
     d8 e32( f g a) b8 b, a f' \noBreak %30
     e g32( f e d) c16( e) g,( c) e,( g) c,8
     \time 4/2 \tempoB-LPropter \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r1 r2 g' \noBreak
     c, f1 e2
     d4 e f d g2 f
@@ -151,7 +151,7 @@ B-LGloriaViolinoII = {
     g a g1\trill \noBreak %45
     a\breve\fermata \bar "||"
     \key d \minor \time 4/4 \tempoB-LDomine \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*20 \noBreak %66
     R1\fermata \bar "||"
     \key a \minor \time 3/2 \tempoB-LQuiTollis \newSpacingSection

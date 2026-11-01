@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 C-IIIntroitusBasso = {
   \relative c {
@@ -136,7 +136,7 @@ C-IISequentiaBasso = {
     f f d d a'2( \noBreak
     a,) d\fermata \bar "||"
     \time 3/4 \tempoC-IIQuidSum \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*13 %51
     r4 \mvTr a'\pE^\solo g8([ f)]
     b4 b, g'8([ a)]
@@ -297,7 +297,7 @@ C-IIMementoBasso = {
     g4 d a4. a8 \noBreak
     d1\fermata \bar "||"
     \time 3/4 \tempoC-IIConvertere \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*41 \noBreak %70
     R2.\fermata \bar "||"
     \time 4/4 \tempoC-IIIntroibo \newSpacingSection
@@ -440,7 +440,7 @@ C-IIBenedictusBasso = {
     R1*16 \noBreak %16
     R1\fermata \bar "||"
     \time 3/4 \tempoC-IIOsanna \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 \mvTr f\pE^\solo d \noBreak
     a'2.~
     a~ %20
@@ -560,7 +560,7 @@ C-IIAgnusBasso = {
       \once \omit Staff.TimeSignature
     a'\breve*1/8 g f g a a \bar "||"
     \time 3/4 \tempoC-IILux \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*15 \noBreak %47
     R2.\fermata \bar "||"
     \time 4/4 \tempoC-IICumSanctis \newSpacingSection

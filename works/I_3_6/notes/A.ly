@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-VIAlto = {
   \relative c' {
@@ -7,7 +7,7 @@ I-III-VIAlto = {
     R1*17 \noBreak %17
     R1\fermata \bar "||"
     \time 3/4 \tempoI-III-VIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*21 \bar "||" %39
     \twofourtime \time 2/4 \tempoI-III-VIc \newSpacingSection
       R2*36 \noBreak %75

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLIIIKyrieTenore = {
   \relative c' {
@@ -23,7 +23,7 @@ B-XLIIIKyrieTenore = {
     e([ a,] a4)\trill a r \noBreak
     r8 d4 cis8 d4 r\fermata \bar "||"
     \time 3/4 \tempoB-XLIIIChriste \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*10 %28
     r8 \mvTr f,\pE^\solo a16([ b)] c8 g16[ f g8]~
     g f r c' c8.([\trill b32 a)] %30
@@ -100,7 +100,7 @@ B-XLIIIGloriaTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \minor \time 3/4 \autoBeamOff \tempoB-XLIIIGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*2
     r4 r8 \mvTr a\fE^\tutti c g
     a4 r8 a\p c g

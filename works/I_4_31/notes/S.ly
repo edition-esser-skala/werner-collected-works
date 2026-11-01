@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XXXISoprano = {
   \relative c' {
@@ -38,7 +38,7 @@ I-IV-XXXISoprano = {
       R2*47 \noBreak %77
     R2\fermata \bar "||"
     \key c \dorian \time 3/4 \tempoI-IV-XXXIe
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr g16([\pE^\solo f es8)] c4 c' \noBreak
     d~ d16[ es f8] es([ d)] %80
     es16([ d c8)] c4 es~

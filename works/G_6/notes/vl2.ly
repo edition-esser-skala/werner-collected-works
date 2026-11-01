@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VIViolinoII = {
   \relative c' {
@@ -43,7 +43,7 @@ G-VIViolinoII = {
     b8 g'16. b32 c,8 a' b, f'16. d32 b8 a \noBreak
     b4 r r2\fermata \bar "||"
     \key d \minor \time 3/4 \tempoG-VIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \revert Score.SpacingSpanner.common-shortest-duration
       R2.*40 \noBreak %78
     R2.\fermata \bar "||"
@@ -112,7 +112,7 @@ G-VIViolinoII = {
     r16 g, g8 r16 fis fis8 r16 g\pp g8 r16 f f8 \noBreak
     r16 es es8 r16 es es8 d4 r\fermata \bar "||"
     \time 3/4 \tempoG-VIe \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       b'8.\trill\f a32 b d8.\trill c32 d f8.\trill es32 f \noBreak
     b8 b, b4 b'
     g4. as16 g f8 es %145

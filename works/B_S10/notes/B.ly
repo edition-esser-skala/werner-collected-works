@@ -4,7 +4,7 @@ B-SXKyrieBasso = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \autoBeamOff \tempoB-SXKyrie
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvDl c'4\fE^\tutti g a
     e2.
     f4 h, c
@@ -130,7 +130,7 @@ B-SXGloriaBasso = {
     g,8 g g g g2 \noBreak
     c!1\fermata \bar "||" %5
     \time 3/4 \tempoB-SXLaudamus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*7 \noBreak %12
     R2.\fermata \bar "||"
     \time 2/2 \tempoB-SXGratias

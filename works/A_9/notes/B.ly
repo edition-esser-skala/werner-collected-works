@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 A-IXScenaSecundaBasso = {
   \relative c {
@@ -551,7 +551,7 @@ A-IXASScenaQuintaBasso = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \autoBeamOff \tempoA-IXASScenaQuintaA
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     r8^\markup \remark "svave" ^\Judex f b b a a c es,
     d4 r8 f b b16 b d8 \hA b
     g g r c a8. a16 a8 e

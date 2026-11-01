@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 J-III-Tenore = {
   \relative c' {
@@ -17,7 +17,7 @@ J-III-Tenore = {
     h8 g4 g'8 f[ c]~ c16[ h c d] \noBreak
     e8 h g c h h r4
     \time 3/4 \tempoJ-III-b
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       e2.~\pp \noBreak
     e4 d2
     h!2 a4 %15
@@ -55,7 +55,7 @@ J-III-Tenore = {
     h!4 r r2 %60
     R1*3
     \time 3/4 \tempoJ-III-e
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r8 \mvTr g\fE^\tutti c4. h8 \noBreak
     c4 r8 c c h %65
     c4 r8 c c h

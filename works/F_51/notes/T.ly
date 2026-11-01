@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-LITenore = {
   \relative c' {
     \clef "treble_8"
     \key d \minor \time 4/2 \autoBeamOff \tempoF-LI
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \phrasingSlurDashed
     R\breve*2
     r1 a

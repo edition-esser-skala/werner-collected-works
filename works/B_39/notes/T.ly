@@ -257,7 +257,7 @@ B-XXXIXCredoTenore = {
     d4 r r2 \noBreak %70
     R1\fermata \bar "||"
     \time 2/1 \tempoB-XXXIXCrucifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r2 \mvTrh d'1\fE^\tuttiE a2 \noBreak
     c1. b4( a)
     b2. b4 a d, d'2~
@@ -279,7 +279,7 @@ B-XXXIXCredoTenore = {
     g4( a) b( c) d2 cis4( e?) \noBreak %90
     d\breve\fermata \bar "||"
     \key c \major \time 3/4 \tempoB-XXXIXEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R2.*3
     \mvTr h4\fE^\tutti h h %95
     c c c

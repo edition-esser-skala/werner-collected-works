@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-IV-IXOrgano = {
   \relative c {
@@ -7,7 +7,7 @@ D-IV-IXOrgano = {
       \once \omit Staff.TimeSignature
     c\breve*1/8 d d a' b a \bar "||"
     \clef "treble_8" \time 4/2 \tempoD-IV-IX
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       c1-! \clef bass f,
     e2 a1 g2
     f2. f4 e2 a

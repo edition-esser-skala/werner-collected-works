@@ -125,7 +125,7 @@ B-VIICredoAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIICredo
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c1( d)
     e4(^\critnote f) g2 g fis
     g e a g~
@@ -173,7 +173,7 @@ B-VIICredoAlto = {
     e d1 c4 h \noBreak %45
     c1 h\fermata \bar "||"
     \time 3/2 \tempoB-VIIEtIncarnatus \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1. \noBreak
     e2 f2. e4
     d2 g^\critnote e~
@@ -200,7 +200,7 @@ B-VIICredoAlto = {
     e e2. e4 \noBreak %70
     e1 r2\fermata \bar "||"
     \time 2/1 \tempoB-VIIEtResurrexit \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       e1^\critnote f2 e \noBreak
     f4( e f2) e c'~
     c4 c h2 a1
@@ -430,7 +430,7 @@ B-VIISanctusAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     e2. d8[ e] f2. e8[ f]
     g2. f8[ g] a2 a
     g2.( f8[ e] f1)
@@ -640,7 +640,7 @@ B-VIIAgnusAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIIAgnus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     e2. d4 c2 c
     f e1 f2
     f4( e8[ d)] e4 e f2. f4

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 O-XIIIaBasso = {
   \relative c {
@@ -222,7 +222,7 @@ O-XIIIeBasso = {
   \relative c {
     \clef bass
     \key a \minor \time 3/4 \tempoO-XIIIe
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r4 a'~\fE a16 g f e
     \once \tieDashed f4~ f16 e d c d4
     r8 f d4 e

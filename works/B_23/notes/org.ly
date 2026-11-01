@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXIIIKyrieOrgano = {
   \relative c {
@@ -105,7 +105,7 @@ B-XXIIICredoOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 4/2 \tempoB-XXIIICredo
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << {
       r2 c' h g
       a h
@@ -169,7 +169,7 @@ B-XXIIICredoOrgano = {
     f1 g \noBreak
     c,\breve\fermata \bar "||"
     \clef bass \time 3/2 \tempoB-XXIIIEtIncarnatus \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       a'2 a a \noBreak
     d,1 es2
     cis d1 %55
@@ -187,7 +187,7 @@ B-XXIIICredoOrgano = {
     g a1 \noBreak
     d,1.\fermata \bar "||"
     \time 4/2 \tempoB-XXIIICrucifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       g,2 g'1 g,2 \noBreak
     c1 a %70
     b2 as g1~
@@ -203,7 +203,7 @@ B-XXIIICredoOrgano = {
     c1. c2 \noBreak
     f,\breve\fermata \bar "||"
     \time 3/2 \tempoB-XXIIIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       c'4 e2 g4 c c, \noBreak
     c' a f g c,2
     r r4 a d2 %85
@@ -457,7 +457,7 @@ B-XXIIISanctusOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 4/2 \tempoB-XXIIISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c1~ c~
     c~ c~
     c d~
@@ -486,7 +486,7 @@ B-XXIIISanctusOrgano = {
     g\breve \noBreak
     c\fermata \bar "||"
     \time 3/2 \tempoB-XXIIIOsanna \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       << { s1 c'2 } \\ { c,2^! f2.^! e4 } >> \noBreak
     a2 g r4 f~
     f e a8 g a h c d c h %20
@@ -554,7 +554,7 @@ B-XXIIIBenedictusOrgano = {
   \relative c {
     \clef bass
     \key a \minor \time 4/2 \tempoB-XXIIIBenedictus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a'4-\solo g f e f e d c
     d c8 h e4 d c d c h
     a a' g! f e c'8 h a4 g
@@ -597,7 +597,7 @@ B-XXIIIAgnusOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 4/2 \tempoB-XXIIIAgnus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << {
       s1 g'~
       g2 fis gis a~

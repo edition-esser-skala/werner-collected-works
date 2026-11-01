@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-XOrgano = {
   \relative c {
     \clef bass
     \key d \minor \time 3/4 \tempoG-Xa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr d4\pE-\solo a' b
     f8 g a4 a,
     d d'\fE b

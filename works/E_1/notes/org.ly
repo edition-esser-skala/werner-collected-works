@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 E-I-Organo = {
   \relative c {
     \clef treble
     \twotwotime \key c \major \time 4/2 \tempoE-I
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c''1-! \clef bass f,,
     d2 g e4 f e d
     c1 r2 g'

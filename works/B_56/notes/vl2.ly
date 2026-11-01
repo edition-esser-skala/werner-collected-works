@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LVIKyrieViolinoII = {
   \relative c' {
@@ -136,7 +136,7 @@ B-LVIGloriaViolinoII = {
     R1 \noBreak
     R\fermata \bar "||"
     \time 4/2 \tempoB-LVIGratias \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       c1.\fE d4 d \noBreak
     e2 g e1 %55
     d2 g,4 a h c d g,
@@ -165,7 +165,7 @@ B-LVIGloriaViolinoII = {
     c2 h4 a h1 \noBreak
     c\breve\fermata \bar "||" %80
     \key e \minor \time 4/4 \tempoB-LVIDomine \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       e'8\fE h16 g' g( fis) \once \slurDashed e( dis) e( h) g' e \once \slurDashed e( d) a' c, \noBreak
     h8 d\trill e a, h g, r4
     r8 h''16 d, d( c) a' c, c( h) g8 fis8. a16
@@ -193,7 +193,7 @@ B-LVIGloriaViolinoII = {
     a16 h \tuplet 3/2 8 { g fis e } \appoggiatura g8 fis8.\trill e16 e16. d32 \tuplet 3/2 8 { c16 h a } \sbOff g8 fis\trillE \noBreak
     e4 r r2\fermata \bar "||"
     \key c \major \time 3/4 \tempoB-LVIQuiTollis \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       c'4\fE g c \noBreak
     c8( h) h4 cis
     d a d %110
@@ -399,7 +399,7 @@ B-LVISanctusViolinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoB-LVISanctus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r4 e'\fE d
     c c r
     R2.*10 %12

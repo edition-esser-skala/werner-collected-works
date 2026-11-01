@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XISoprano = {
   \relative c' {
     \clef treble
     \key g \major \time 3/4 \tempoI-IV-XIa \autoBeamOff
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \tuplet 3/2 4 { \mvTr h'8([\pE^\solo c d)] e([ d c)] h([ a g)]
     fis([ g a)] } g4 r
     cis8([ d)] d,4 r
@@ -51,7 +51,7 @@ I-IV-XISoprano = {
     R2 \noBreak
     R\fermata \bar "||"
     \time 3/4 \tempoI-IV-XIe
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*11 \noBreak %54
     R2.\fermata \bar "||" %55
     \time 4/4 \tempoI-IV-XIf

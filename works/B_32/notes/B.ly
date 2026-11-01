@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXIIKyrieBasso = {
   \relative c {
@@ -91,7 +91,7 @@ B-XXXIIGloriaBasso = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \autoBeamOff \tempoB-XXXIIGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr c4\fE^\tuttiE r8 c' e, c
     g'4 r8 g h, g
     c r e r c r
@@ -112,7 +112,7 @@ B-XXXIIGloriaBasso = {
     \key f \major \time 4/4 \tempoB-XXXIILaudamus \newSpacingSection
       R1*8 %25
     \key c \major \time 3/4 \tempoB-XXXIIGlorificamus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*15 \noBreak %40
     R2.\fermata \bar "||"
     \key a \minor \time 4/4 \tempoB-XXXIIGratias \newSpacingSection
@@ -303,7 +303,7 @@ B-XXXIICredoBasso = {
     g16([ d h g)] h8 g' c([ f,] g4) \noBreak
     c, r r2\fermata \bar "||"
     \key d \minor \time 3/4 \tempoB-XXXIIEtIncarnatus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
         R2.*33 \noBreak %65
     R2.\fermata \bar "||"
     \key g \minor \time 4/4 \tempoB-XXXIICrucifixus \newSpacingSection
@@ -318,7 +318,7 @@ B-XXXIICredoBasso = {
     c[ g] es([ c)] g'4 g, \noBreak
     g4. g8 g4 r\fermata \bar "||" %80
     \key c \major \time 3/4 \tempoB-XXXIIEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr c2\fE^\tuttiE f4~ \noBreak
     f e a~
     a g c~

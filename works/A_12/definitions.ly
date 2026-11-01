@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 Eliphas = \markup { \override #'(box-padding . 0.5) \box "Eliphas" }
 Job = \markup { \override #'(box-padding . 0.5) \box "Job" }

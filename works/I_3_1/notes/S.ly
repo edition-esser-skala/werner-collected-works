@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-ISoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 4/2 \tempoI-III-I \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r1 g'
     h2 g c2.( h4)
     a2 d4( c) h c h a
@@ -56,7 +56,7 @@ I-III-ISoprano = {
     c c r c~\f
     c c c1~ %50
     \time 4/4 \tempoI-III-Ib
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       c2 c\fermata \bar "|." %51 finis
   }
 }

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-IIIAlto = {
   \relative c' {
@@ -45,7 +45,7 @@ G-IIIAlto = {
     fis8 g4 g8 \hA fis4 g8 g \noBreak
     g4( fis) g2\fermata \bar "||"
     \time 3/4 \tempoG-IIIc
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr es4.\pE^\solo g8 f es \noBreak %50
     d4. d8 es4
     R2.

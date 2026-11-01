@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-IV-IIISoprano = {
   \relative c' {
@@ -7,7 +7,7 @@ D-IV-IIISoprano = {
       \once \omit Staff.TimeSignature
     s4*6
     \time 4/2 \tempoD-IV-III
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       a'1( b2) gis
     a4( g) f( e) d2 r
     r a'( d4 cis) d2
@@ -26,9 +26,9 @@ D-IV-IIISoprano = {
     d2 cis4( h?) \hA cis1\trill
     d\breve\fermata \bar "||"
     \time 14/4 \once \omit Staff.TimeSignature
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       s4*14 \bar "||"
-    \time 4/2 \set Staff.timeSignatureFraction = 2/2
+    \time 4/2 \set Staff.timeSignature = 2/2
       a2 d2. d4 h2 \noBreak %25
     c2. c4 a2 b~
     b a4 g a1

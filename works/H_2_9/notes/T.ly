@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-II-XTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 6/2 \tempoH-II-IXa \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c\breve c2 c \noBreak
     h\breve a2 a\fermata \bar "||"
     \time 4/2 \tempoH-II-IXb a1 a2 b~ \noBreak

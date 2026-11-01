@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-IViolaI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/2 \tempoI-I-Ia
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r2 c'1 h4 a
     g2 e'1 d4 c
     h a g1 fis2
@@ -40,7 +40,7 @@ I-I-IViolaI = {
     a a2 a4 d2 c \noBreak
     c h! r1\fermata
     \time 3/2 \tempoI-I-Ib
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r2 c es \noBreak %35
     des c h!
     c1 c2

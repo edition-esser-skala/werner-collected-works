@@ -4,7 +4,7 @@ B-SXKyrieSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoB-SXKyrie
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvDl e'4\fE^\tutti d c
     c2.~
     c4 d e
@@ -132,7 +132,7 @@ B-SXGloriaSoprano = {
     d8 h c c c4( h) \noBreak
     c1\fermata \bar "||" %5
     \time 3/4 \tempoB-SXLaudamus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*7 \noBreak %12
     R2.\fermata \bar "||"
     \time 2/2 \tempoB-SXGratias

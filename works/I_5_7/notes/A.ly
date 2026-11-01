@@ -4,7 +4,7 @@ I-V-VII-Alto = {
   \relative c' {
     \clef treble
     \key d \major \time 4/2 \autoBeamOff \tempoI-V-VIIa
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     \mvTr d1\pE^\soloE d
     d2 d d d
     d fis a a

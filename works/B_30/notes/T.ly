@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXKyrieTenore = {
   \relative c' {
@@ -24,7 +24,7 @@ B-XXXKyrieTenore = {
     c e d([ h] c4. h8) \noBreak %20
     c4 r r2\fermata \bar "||"
     \time 3/4 \tempoB-XXXChriste \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 \mvTr e\pE^\solo a,16([ gis)] a8 \noBreak
     a([ gis16 fis?)] \hA gis8 h e16([ d e8)]
     c e a,8.[ h16] c8.[\trill d32 e]
@@ -265,7 +265,7 @@ B-XXXCredoTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 3/4 \autoBeamOff \tempoB-XXXCredo
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r4 \mvDl c\fE^\tutti c
     h d d
     c c r8 e
@@ -558,7 +558,7 @@ B-XXXAgnusTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 3/4 \autoBeamOff \tempoB-XXXAgnus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvDl c4.\fE^\tutti d8 d([ c)]
     h r r e c4
     h r8 e a,([ d)]

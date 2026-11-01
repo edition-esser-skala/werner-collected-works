@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoI-III-XIIIa = \tempoMarkup "Allegro" % 85
 tempoI-III-XIIIb = \tempoMarkup "Molto largo" % 60

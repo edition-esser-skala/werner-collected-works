@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VIAlto = {
   \relative c' {
@@ -40,7 +40,7 @@ G-VIAlto = {
     f g f4 f r \noBreak
     R1\fermata \bar "||"
     \key d \minor \time 3/4 \tempoG-VIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr d2.~\pE^\solo \noBreak
     d4 cis d %40
     e f2
@@ -128,7 +128,7 @@ G-VIAlto = {
     \tempoG-VId R1*15 \noBreak %141
     R1\fermata \bar "||"
     \time 3/4 \tempoG-VIe \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr f4\fE^\tutti f a \noBreak
     d,4. d8 f4
     g8 g f4 f %145

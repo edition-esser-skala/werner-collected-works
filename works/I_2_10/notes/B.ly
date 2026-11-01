@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-II-XBasso = {
   \relative c {
     \clef bass
     \key d \dorian \time 4/2 \autoBeamOff \tempoI-II-Xa
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*6 %6
     r1 d~^\tuttiE
     d d
@@ -36,7 +36,7 @@ I-II-XBasso = {
     a\breve \noBreak
     d\fermata \bar "||" %35 finis
     \key f \major \time 3/2 \tempoI-II-Xb
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*12 %47
     r4 d8([^\solo e] f4 d) f( g)
     a1 a,2

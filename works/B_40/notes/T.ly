@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLKyrieTenore = {
   \relative c' {
@@ -435,7 +435,7 @@ B-XLSanctusTenore = {
     \tempoB-XLPleni R1*17 \noBreak %30
     R1\fermata \bar "||"
     \time 2/1 \tempoB-XLOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*3
     r1 \mvTr g\fE^\tuttiE %35
     c2 a e' c
@@ -515,7 +515,7 @@ B-XLAgnusTenore = {
     R1. \noBreak
     R\fermata \bar "||"
     \time 2/1 \tempoB-XLDona \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*2 %30
     \mvTr g'1\fE^\tutti g,
     e'2.( d8[ c]) h4 d2 g4

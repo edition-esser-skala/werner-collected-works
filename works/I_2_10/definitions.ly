@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoI-II-Xa = \tempoMarkup "Alla capella"
 tempoI-II-Xb = \tempoMarkup "[no tempo]"

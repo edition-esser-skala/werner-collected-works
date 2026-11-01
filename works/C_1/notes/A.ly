@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 C-IIntroitusAlto = {
   \relative c' {
@@ -396,7 +396,7 @@ C-IBenedictusAlto = {
   \relative c' {
     \clef treble
     \key es \lydian \time 3/4 \autoBeamOff \tempoC-IBenedictus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*13 %13
     \mvTr g'2\pE^\solo f16([ g as8)]
     g([ f)] g4 r %15

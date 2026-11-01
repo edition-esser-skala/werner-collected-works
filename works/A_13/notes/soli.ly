@@ -565,7 +565,7 @@ A-XIIIScenaQuartaSoli = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoA-XIIIScenaQuarta
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     d8^\markup \remark "lamentuoso" ^\Adam r16 d d8 h16 d d8 gis, r h
     c8. c16 c8 h gis8. gis16 gis8 f'
     e c ais8. h16 h8 h16 \clef treble fis'^\Barmherzigkeit h8 h
@@ -681,7 +681,7 @@ A-XIIIAriaQuartaSoli = {
   \relative c' {
     \clef "treble_8"
     \key c \dorian \time 3/4 \autoBeamOff \tempoA-XIIIAriaQuarta
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     c4 es32([ d c8.)] h8([ d)]
     c2 d4
     es8([ d16 c] b!4) as

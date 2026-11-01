@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-IISoprano = {
   \relative c' {
     \clef treble
     \key g \mixolydian \time 4/2 \tempoF-II \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*3
     d'1 c2 a
     h c d2. d4 %5
@@ -53,7 +53,7 @@ F-IISoprano = {
     a1. a2
     h\breve \bar "||"
     \time 4/4 \tempoF-IIb
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       c2 h\fermata \bar "|." %50 finis
   }
 }

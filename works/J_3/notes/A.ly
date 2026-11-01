@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 J-III-Alto = {
   \relative c' {
@@ -17,7 +17,7 @@ J-III-Alto = {
     h h8 h a2 \noBreak
     g8 g g g g g r4
     \time 3/4 \tempoJ-III-b
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       g2.~\pp \noBreak
     g4 f a
     gis2 a4 %15
@@ -60,7 +60,7 @@ J-III-Alto = {
     b g' es16([ f)] g8 g16([ f)] f8 \hA es16([ d)] \hA es8 \noBreak
     d8 es4 f8 \hA es4( d)\trill
     \time 3/4 \tempoJ-III-e
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       c4 r8 \mvTr g'\fE^\tutti g g \noBreak
     g4 r8 g g g %65
     g4 r8 a a g

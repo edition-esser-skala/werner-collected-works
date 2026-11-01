@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 E-VIIViolinoI = {
   \relative c' {
     \clef treble
     \key f \major \time 3/4 \tempoE-VII
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     f16([\p^\conSord a8.) a16( c8.) c16( f8.)]
     f8.\trill e32 d c8( f) a,( b)
     c8.\trill d32 e f8( c) e( g)

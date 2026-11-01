@@ -746,7 +746,7 @@ A-XIIIScenaQuartaContinuo = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoA-XIIIScenaQuarta
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     g'2 f
     dis d
     c4 cis h2
@@ -862,7 +862,7 @@ A-XIIIAriaQuartaContinuo = {
   \relative c {
     \clef bass
     \key c \dorian \time 3/4 \tempoA-XIIIAriaQuarta
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     c2\p d4
     es2 g4
     c, d2

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-IIIKyrieSoprano = {
   \relative c' {
@@ -55,7 +55,7 @@ B-IIIKyrieSoprano = {
     d4 e d2 \noBreak
     d4 r r2\fermata \bar "||" %50
     \time 3/4 \tempoB-IIIChriste
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*11 %61
     \mvTr h4\pE^\solo^\aDue a8([ g)] fis([ e)]
     c'4 h8([ a)] g([ fis)]
@@ -519,7 +519,7 @@ B-IIICredoSoprano = {
       R2.*21 \noBreak %56
     R2.\fermata \bar "||"
     \time 4/2 \key d \minor \tempoB-IIICrucifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr a1\fE^\tuttiE b! \noBreak
     gis a
     r2 d1 c4( b) %60
@@ -554,7 +554,7 @@ B-IIICredoSoprano = {
     fis2( g1) \hA fis2 \noBreak
     g\breve\fermata \bar "||" %90
     \key c \major \time 3/2 \tempoB-IIIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr c1\fE^\tutti r2 \noBreak
     d h d
     c c r

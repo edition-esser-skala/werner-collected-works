@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XVI-Basso = {
   \relative c {
     \clef bass
     \key b \major \time 4/2 \tempoF-XVI \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*4
     \time 2/2 \markTimeSig #'(2 2) es1 %5
     \time 4/2 \markTimeSig #'(4 2) d2 b c f

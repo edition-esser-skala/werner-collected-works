@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXIIKyrieOrgano = {
   \relative c {
@@ -156,7 +156,7 @@ B-XXXIIGloriaFagotto = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoB-XXXIIGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     % r2.*17 %17 for MIDI
     % r1*8 % 25
     % r2.*16 %41
@@ -187,7 +187,7 @@ B-XXXIIGloriaFagotto = {
     es r d r \noBreak
     g r8 g, c g es c %25
     \key c \major \time 3/4 \tempoB-XXXIIGlorificamus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       g'4 h!\fE g \noBreak
     c e c
     f d f
@@ -324,7 +324,7 @@ B-XXXIIGloriaOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoB-XXXIIGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr c4\fE-\tutti r8 c' e, c
     << { g'4^\vlne } \\ { g,_\org } >> r8 g' h, g
     c-! r e-! r c-! r
@@ -352,7 +352,7 @@ B-XXXIIGloriaOrgano = {
     es r d r \noBreak
     g r8 g,-\conPedale c g es c %25
     \key c \major \time 3/4 \tempoB-XXXIIGlorificamus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       g'4 h!\fE g \noBreak
     c e c
     f d f
@@ -695,7 +695,7 @@ B-XXXIICredoOrgano = {
     } >> \noBreak
     c c16 c c8 c c4 r\fermata \bar "||"
     \key d \minor \time 3/4 \tempoB-XXXIIEtIncarnatus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr g'2\pE-\solo r4 \noBreak
     g2 r4
     a d d, %35
@@ -746,7 +746,7 @@ B-XXXIICredoOrgano = {
     c g' es c g4 r \noBreak
     R1\fermata \bar "||" %80
     \key c \major \time 3/4 \tempoB-XXXIIEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr c2\fE-\tutti f4~ \noBreak
     f e a~
     a g c~

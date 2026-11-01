@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-II-VIOrgano = {
   \relative c {
@@ -76,7 +76,7 @@ H-II-VIOrgano = {
     c c'16 b! a g fis e d8 es c d \noBreak
     g16. f32 es16. d32 c8 d g,4 r\fermata \bar "||"
     \clef treble \key b \major \time 4/2 \tempoH-II-VIAsperges \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr b''2\fE-\tuttiE \clef bass b,,4 c d es f2 \noBreak %65
     g es4 f g a b2~
     b4 a f g a b c b
@@ -90,13 +90,13 @@ H-II-VIOrgano = {
     f2 e4 d a'1 \noBreak %75
     a, d\fermata \bar "||"
     \key f \major \time 4/4 \tempoH-II-VIAuditui \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr f4\pE-\solo-\tasto r f r \noBreak
     f8 r c r f,4 r
     d' r8 d g4 fis
     g c, d8 d' g,16 d b g \noBreak %80
     \time 3/4 \tempoH-II-VIExultabunt
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       d'4 d' fis, \noBreak
     g g, a
     b r d
@@ -262,7 +262,7 @@ H-II-VIOrgano = {
     d f b d, c e f d \noBreak
     b a16 g c8 c, f4 r\fermata \bar "||"
     \time 4/2 \tempoH-II-VITunc \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr f'1\fE-\tuttiE g \noBreak
     d4 c b c d e f2~ %220
     f e f1
@@ -280,7 +280,7 @@ H-II-VIOrgano = {
     c f c1 \noBreak
     f,\breve\fermata \bar "||"
     \clef "treble_8" \time 4/4 \tempoH-II-VIGloria \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr d''8\pE-\solo-\aTre d, f a d d, r a' \noBreak %235
     d c! b4 a r8 d
     a4 cis8 a d g, d4

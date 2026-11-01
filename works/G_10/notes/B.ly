@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-XBasso = {
   \relative c {
     \clef bass
     \key d \minor \time 3/4 \tempoG-Xa \autoBeamOff
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*11 %11
     \mvTr c4.\fE^\tutti d16([ e)] f8 g
     a8.([ g16 f8. es16] d8[ c])

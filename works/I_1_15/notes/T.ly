@@ -1,17 +1,17 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XVTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 3/4 \autoBeamOff \tempoI-I-XVa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*28 \noBreak %28
     R2.\fermata \bar "||"
     \time 4/4 \tempoI-I-XVb
       R1*11 \noBreak %40
     R1\fermata \bar "||"
     \time 3/4 \tempoI-I-XVc
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvDl e8.\fE^\tutti e16 e8 d e16([ d e8)] \noBreak
     d4 r8 e a,4
     a r8 a a g

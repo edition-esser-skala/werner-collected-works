@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-IVBasso = {
   \relative c {
@@ -57,7 +57,7 @@ I-III-IVBasso = {
     R1.*3 \noBreak
     R1.\fermata \bar "||"
     \time 4/2 \tempoI-III-IVb
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*5 %144
     \mvTr g'1\fE^\tuttiE c,2 c %145
     d( g1) f2

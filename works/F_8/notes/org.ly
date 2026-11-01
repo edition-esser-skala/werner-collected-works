@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-VIIIOrgano = {
   \relative c {
     \clef "treble_8"
     \key d \dorian \time 2/1 \tempoF-VIII
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << {
       d'1. c2
       f1. e2

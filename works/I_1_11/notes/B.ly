@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XIBasso = {
   \relative c {
@@ -18,7 +18,7 @@ I-I-XIBasso = {
     b b, r g' c c,16 c e8 c16 c' \noBreak
     a8 f r4 r2\fermata \bar "||"
     \time 3/4 \tempoI-I-XIc \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*3 %51
     \mvTr d8.\pE^\solo d16 f8 a d a
     f8. e16 d4 r

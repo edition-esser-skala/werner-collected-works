@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XLVIIIBasso = {
   \relative c {
     \clef bass
     \twofourtime \key e \major \time 2/4 \autoBeamOff \tempoF-XLVIII
-      \set Staff.timeSignatureFraction = 2/4
+      \set Staff.timeSignature = 2/4
     R2*3
     r8 fis gis ais
     h gis e fis %5

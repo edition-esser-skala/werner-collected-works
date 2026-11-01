@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VBasso = {
   \relative c {
@@ -43,7 +43,7 @@ G-VBasso = {
     g fis8 e d4 g d2 \noBreak
     h4 g d'2 g,\fermata \bar "||"
     \key g \dorian \time 3/4 \tempoG-Vc \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*7 %44
     r4 \mvTr cis2\pE^\solo %45
     d8([ e)] fis([ g)] a([ b)]

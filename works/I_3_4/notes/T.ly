@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-IVTenore = {
   \relative c' {
@@ -60,7 +60,7 @@ I-III-IVTenore = {
     R1.*60 \noBreak %138
     R1.\fermata \bar "||"
     \time 4/2 \tempoI-III-IVb
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*3 %142
     r1 \mvTr c'\fE^\tuttiE
     g2 g a c~

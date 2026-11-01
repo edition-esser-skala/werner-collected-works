@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-II-XISoprano = {
   \relative c' {
     \clef treble
     \key b \major \time 3/4 \tempoI-II-XIa \autoBeamOff
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*41 %41
     \mvTr c'4\pE^\solo f, f'~
     f e8([ d)] c([ b)]

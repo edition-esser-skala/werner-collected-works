@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLIVKyrieTenore = {
   \relative c' {
@@ -375,7 +375,7 @@ B-XLIVBenedictusTenore = {
     fis1 e2 \noBreak
     fis1 r2\fermata \bar "||" %15
     \key d \major \time 4/2 \tempoB-XLIVOsanna
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve \noBreak
     \mvTr a,1\fE^\tuttiE gis4 h d2~
     d cis4( h) a2 fis'

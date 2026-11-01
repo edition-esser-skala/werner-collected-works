@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-IIDixitTenore = {
   \relative c' {
@@ -253,7 +253,7 @@ H-I-IIBeatusTenore = {
   \relative c' {
     \clef "treble_8"
     \key a \major \time 3/4 \autoBeamOff \tempoH-I-IIBeatusA
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*39 %39
     r4 \mvTr e\fE^\tuttiE e8 e %40
     d4 d8 d d e

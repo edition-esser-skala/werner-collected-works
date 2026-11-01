@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXVKyrieOrgano = {
   \relative c {
@@ -319,7 +319,7 @@ B-XXXVGratiasOrgano = {
   \relative c {
     \clef bass
     \key f \lydian \time 3/4 \tempoB-XXXVGratias
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \set Score.currentBarNumber = #36
     \mvTr f,4\pE-\solo f' e
     d8 d' c b a4

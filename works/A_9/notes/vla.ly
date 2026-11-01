@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 A-IXIntroViola = {
   \relative c' {
@@ -29,7 +29,7 @@ A-IXIntroViola = {
     r2 r8 f\f f f \noBreak
     a!4. a8 g2\fermata \bar "||"
     \time 3/4 \tempoA-IXIntroB \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*10 %34
     d4. b8 es!4 %35
     cis8.\trill h?32 \hA cis d4 d,
@@ -222,7 +222,7 @@ A-IXAriaSecundaViolaI = {
   \relative c' {
     \clef alto
     \key es \lydian \time 3/4 \tempoA-IXAriaSecunda
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     g'4\p b8( g) f( d)
     es4 r r
     g~ \tuplet 3/2 4 { g8 f es f es d }
@@ -295,7 +295,7 @@ A-IXAriaSecundaViolaII = {
   \relative c' {
     \clef alto
     \key es \lydian \time 3/4 \tempoA-IXAriaSecunda
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     es4\p g8( es) d( f)
     g4 r r
     b,~ \tuplet 3/2 4 { b8 as g \hA as g f }
@@ -812,7 +812,7 @@ A-IXASScenaQuintaViola = {
   \relative c' {
     \clef alto
     \key c \major \time 4/4 \tempoA-IXASScenaQuintaA
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     b2\p^\markup \remark "stendato" c
     d1
     e!2 f4 cis

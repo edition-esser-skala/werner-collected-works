@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-XIIIDixitBasso = {
   \relative c {
@@ -438,7 +438,7 @@ H-I-XIIIPueriBasso = {
   \relative c {
     \clef bass
     \key a \minor \time 3/4 \autoBeamOff \tempoH-I-XIIIPueri
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*9 %9
     r4 r \mvTr g'\pE^\solo %10
     a h g
@@ -587,7 +587,7 @@ H-I-XIIIMagnificatBasso = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \autoBeamOff \tempoH-I-XIIIMagnificat
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r4 \mvTr c2\fE^\tutti
     h4 g c
     g' c4. c8

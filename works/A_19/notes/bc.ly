@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 A-XIXIntroContinuo = {
   \relative c {
@@ -177,7 +177,7 @@ A-XIXAScenaSecundaContinuo = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoA-XIXAScenaSecunda
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     h!2 c
     d es
     as b4. \hA as8
@@ -1063,7 +1063,7 @@ A-XIXAScenaSextaContinuo = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoA-XIXAScenaSexta
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     f2 g4 e
     f d cis2
     d4 a b g
@@ -1321,7 +1321,7 @@ A-XIXAScenaSeptimaContinuo = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoA-XIXAScenaSeptima
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     h!2 c4 d
     es2 e~
     e f
@@ -2329,7 +2329,7 @@ A-XIXBScenaQuartaContinuo = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoA-XIXBScenaQuarta
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     g2 as4. c8
     e,!2 e'~
     e \tempoA-XIXBScenaQuartaB f4\pp r

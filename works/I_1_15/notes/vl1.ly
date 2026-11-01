@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XVViolinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoI-I-XVa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.
     r8 g'\p c( g) g( f)
     e4 r r
@@ -46,7 +46,7 @@ I-I-XVViolinoI = {
     r8 f' h,16 c d8 c d e16( c) h( c) \noBreak %40
     a8. h16 gis4\trill a r\fermata \bar "||"
     \time 3/4 \tempoI-I-XVc
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 r r8 c\fE
     h16( d) c( e) d( f) e( g) f( e) f8
     e16( g) f( a) g( a) e( g) f( a) d,( f)

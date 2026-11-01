@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XLIVBasso = {
   \relative c {
     \clef bass
     \key e \phrygian \time 4/2 \tempoF-XLIV \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve
     r2 a' g e
     f1 e2 c(

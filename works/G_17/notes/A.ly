@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-XVIIAlto = {
   \relative c' {
@@ -111,7 +111,7 @@ G-XVIIAlto = {
     d c h2 \noBreak
     a1\fermata \bar "||"
     \time 4/2 \tempoG-XVIIf \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*4 %117
     r1 \mvTr e'\fE^\tuttiE
     a a,2 a'2~
@@ -142,7 +142,7 @@ G-XVIIAlto = {
     e\breve \noBreak
     e\fermata \bar "||" %145
     \time 4/4 \tempoG-XVIIg \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r4 \mvTr g!2\pE^\solo f8([ e)] \noBreak
     f4 f8 a g([ d)] g f
     e4 e8 d e e fis4

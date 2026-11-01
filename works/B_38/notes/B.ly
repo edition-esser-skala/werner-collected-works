@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXVIIIKyrieBasso = {
   \relative c {
@@ -114,7 +114,7 @@ B-XXXVIIIGloriaBasso = {
     \tempoB-XXXVIIILaudamus
     R1*7 \bar "|" %16
     \time 3/4 \tempoB-XXXVIIIGlorificamus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*14 \noBreak %30
     R2.\fermata \bar "||"
     \key f \major \tempoB-XXXVIIIGratias
@@ -175,7 +175,7 @@ B-XXXVIIIGloriaBasso = {
     c r r2 \noBreak
     R1\fermata \bar "||"
     \time 3/4 \tempoB-XXXVIIIQuoniam \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
         R2.*50 \noBreak %182
     R2.\fermata \bar "||"
     \time 4/4 \tempoB-XXXVIIICumSancto \newSpacingSection
@@ -331,7 +331,7 @@ B-XXXVIIICredoBasso = {
       R1*24 \noBreak %69
     R1\fermata \bar "||" %70
     \key c \major \time 3/4 \tempoB-XXXVIIIEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2. \noBreak
     r8 \mvTr c\fE^\tutti e([ c)] e([ g)]
     c4 c, r

@@ -260,7 +260,7 @@ B-XXXIXCredoViolinoI = {
     h8 f es d16( f) es8 d es4\trill \noBreak %70
     d8. es16 d8. es16 d4 r\fermata \bar "||"
     \time 2/1 \tempoB-XXXIXCrucifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*3
     r1 d'\fE %75
     a2 c1 g4 a
@@ -280,7 +280,7 @@ B-XXXIXCredoViolinoI = {
     b1. a4( g) \noBreak %90
     a\breve\fermata \bar "||"
     \key c \major \time 3/4 \tempoB-XXXIXEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r16 d\p c d h8-! r g-! r \noBreak
     d16 h' a h g8-! r d-! r
     h16 h' a h h, h' a h h, h' a h

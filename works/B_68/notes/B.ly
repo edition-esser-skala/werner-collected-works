@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXVIIIKyrieBasso = {
   \relative c {
@@ -74,7 +74,7 @@ B-LXVIIIGloriaBasso = {
     a, h1 \noBreak
     e1.\fermata \bar "||"
     \time 4/2 \tempoB-LXVIIIQuiTollis \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       g1^\tuttiE e2( a) \noBreak
     fis d e4( h e d %40
     c2) a d1
@@ -107,7 +107,7 @@ B-LXVIIIGloriaBasso = {
     h2 c d1~ \noBreak
     d g,\fermata \bar "||"
     \time 3/2 \tempoB-LXVIIIQuoniam \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1. \noBreak
     r4 a'^\solo d,2 e
     c a r %75
@@ -516,7 +516,7 @@ B-LXVIIIBenedictusBasso = {
   \relative c {
     \clef bass
     \key e \minor \time 3/4 \autoBeamOff \tempoB-LXVIIIBenedictus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r4 e^\solo e
     fis h, h'8([ a)]
     g([ fis)] e d c!4

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VIIViolinoI = {
   \relative c' {
@@ -137,7 +137,7 @@ G-VIIViolinoI = {
     d16. a''32\fE f16. d32 b'4 a4. g8 \noBreak
     f8. g16 e8.\trill d16 d4 r\fermata \bar "||"
     \time 4/2 \tempoG-VIIe \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*4 %178
     r1 a\fE
     e'2 c f e4 d %180
@@ -158,7 +158,7 @@ G-VIIViolinoI = {
     g a g1 \noBreak %195
     a\breve\fermata \bar "||"
     \time 4/4 \tempoG-VIIf \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*2
     r2 r8 a\p a a
     gis4. gis8 e'4 r %200

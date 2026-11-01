@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 A-XIIIntroViolinoI = {
   \relative c' {
@@ -652,7 +652,7 @@ A-XIIAriaOctavaViolinoI = {
     d8 a h g fis g16 fis g8 e \noBreak
     d d' a fis d4 r\fermataFine
     \key d \minor \time 3/4 \tempoA-XIIAriaOctavaB \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \revert Score.SpacingSpanner.common-shortest-duration
       r4 \mvDl a'\pE-\pizz a \noBreak
     r b! b
@@ -735,7 +735,7 @@ A-XIIAriaNonaViolinoI = {
   \relative c' {
     \clef treble
     \key c \dorian \time 3/4 \tempoA-XIIAriaNona
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \after 4*0 -\conSord R2.*2
     r8 r16 g''\pE es4 h
     R2.*2 %5

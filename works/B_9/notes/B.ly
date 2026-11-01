@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-IXKyrieBasso = {
   \relative c {
@@ -104,7 +104,7 @@ B-IXGloriaBasso = {
     R1 \noBreak
     R\fermata \bar "||" %50
     \time 3/4 \tempoB-IXQuiTollis \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr fis2.\fE^\tutti \noBreak
     g4 g g
     gis2 gis4
@@ -272,7 +272,7 @@ B-IXCredoBasso = {
     e,4 e h1 \noBreak
     e1.\fermata \bar "||" %35
     \key a \minor \time 3/4 \tempoB-IXEtIncarnatus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*30 \noBreak %65
     R2.\fermata \bar "||"
     \time 4/4 \tempoB-IXCrucifixus \newSpacingSection

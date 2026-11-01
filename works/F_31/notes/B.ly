@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XXXIBasso = {
   \relative c {
     \clef bass
     \key d \minor \time 3/2 \tempoF-XXXI \autoBeamOff
-      \set Staff.timeSignatureFraction = 3/2
+      \set Staff.timeSignature = 3/2
     r2 d2. b4
     f'2 e g~
     g4 f2 b4 a4. g8

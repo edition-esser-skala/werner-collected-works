@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-II-XOrgano = {
   \relative c {
     \clef treble
     \key d \dorian \time 4/2 \tempoI-II-Xa
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a''1-\tuttiE a2 a
     a1 << {
       f2 d
@@ -52,7 +52,7 @@ I-II-XOrgano = {
     a\breve \noBreak
     d\fermata \bar "||" %35
     \clef "treble_8" \key f \major \key f \major \time 3/2 \tempoI-II-Xb
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       f2-\solo^\aTre a f \noBreak
     c'1 a2
     g4 a b2 g

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoM-IVa = \tempoMarkup "Larghissimo"
 tempoM-IVb = \tempoMarkup "Vivace"

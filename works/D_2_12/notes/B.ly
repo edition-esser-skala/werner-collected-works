@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-II-XIIaBasso = {
   \relative c {
@@ -203,7 +203,7 @@ D-II-XIIdBasso = {
   \relative c {
     \clef bass
     \key d \dorian \time 4/2 \tempoD-II-XIId \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d1. d2
     d1 d2 d
     f2. f4 c2 d~

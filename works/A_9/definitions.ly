@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 Judas = \markup { \override #'(box-padding . 0.5) \box "Judas" }
 Judex = \markup { \override #'(box-padding . 0.5) \box "Judex" }

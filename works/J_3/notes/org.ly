@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 J-III-Organo = {
   \relative c {
@@ -17,7 +17,7 @@ J-III-Organo = {
     g a h g e f g e f e f g a g a h \noBreak
     c8 g e c g' g, r4
     \time 3/4 \tempoJ-III-b
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       cis4.\pp cis8 cis cis \noBreak
     d4. d8 d d
     e4. e8 f f %15
@@ -71,7 +71,7 @@ J-III-Organo = {
     es es' g, \hA es b h c c, \noBreak
     g' g' as f g f g g,
     \time 3/4 \tempoJ-III-e
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr c8\fE-\tutti c'16 g e!8 c e g \noBreak
     c, c'16 g e8 c e g %65
     c c, c' a fis g

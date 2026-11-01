@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-XIIIViolinoI = {
   \relative c' {
@@ -7,7 +7,7 @@ I-III-XIIIViolinoI = {
     R1*15 \noBreak %15
     R1\fermata \bar "||"
     \time 3/4 \tempoI-III-XIIIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r8 e'~\f e16 c a a' \tuplet 3/2 8 { gis a h } d,8 \noBreak
     d( c) r4 r8 gis'
     gis( a) r a b16( a) \hA b8

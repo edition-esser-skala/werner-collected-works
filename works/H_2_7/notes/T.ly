@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-II-VIITenore = {
   \relative c' {
     \clef "treble_8"
     \key b \major \time 4/2 \tempoH-II-VII
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     b1 b
     b2( a) a1
     b h2 c~

@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-V-VViolinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 2/1 \tempoI-V-Va
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c4\fE d e f e f e d
     c h c d8 e f4 e d c
     h a g a8 h c4 d e d
@@ -21,7 +21,7 @@ I-V-VViolinoII = {
     h4\fE d8 c h4 g g d'8 c h4 g \noBreak
     g d'8 c h4 g g2 r %15
     \time 4/4 \tempoI-V-Vb \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       c,2 d4 e \noBreak
     f8 g f e d4. d8
     c4 r r2

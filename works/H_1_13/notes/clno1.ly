@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-XIIIDixitClarinoI = {
   \relative c' {
@@ -48,7 +48,7 @@ H-I-XIIIMagnificatClarinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoH-I-XIIIMagnificat
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r4 \pa c'2\fE
     d4. d8 e4
     d e2\trill

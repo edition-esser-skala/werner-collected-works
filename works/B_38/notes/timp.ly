@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXVIIIKyrieTimpani = {
   \relative c {
@@ -58,7 +58,7 @@ B-XXXVIIIGloriaTimpani = {
     c4 r r2\fermata \bar "||"
     \tempoB-XXXVIIILaudamus R1*7 \bar "|" %16
     \time 3/4 \tempoB-XXXVIIIGlorificamus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*14 \noBreak %30
     R2.\fermata \bar "||"
     \tempoB-XXXVIIIGratias R2.*37 \noBreak %68
@@ -82,7 +82,7 @@ B-XXXVIIIGloriaTimpani = {
     c4 r c r \noBreak
     c r r2\fermata \bar "||"
     \time 3/4 \tempoB-XXXVIIIQuoniam \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*50 \noBreak %182
     R2.\fermata \bar "||"
     \time 4/4 \tempoB-XXXVIIICumSancto \newSpacingSection
@@ -136,7 +136,7 @@ B-XXXVIIICredoTimpani = {
       R1*24 \noBreak %69
     R1\fermata \bar "||" %70
     \time 3/4 \tempoB-XXXVIIIEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       c8.\fE c32 c c8 c g8. g32 g \noBreak
     c4 r r
     c8. c32 c c8 g c g

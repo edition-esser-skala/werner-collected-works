@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLIVKyrieViolinoI = {
   \relative c' {
@@ -217,7 +217,7 @@ B-XLIVBenedictusViolinoI = {
     R1.*14 \noBreak %14
     R1.\fermata \bar "||" %15
     \key d \major \time 4/2 \tempoB-XLIVOsanna
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*3 %18
     r1 a'\fE
     gis4 h d1 cis2 %20

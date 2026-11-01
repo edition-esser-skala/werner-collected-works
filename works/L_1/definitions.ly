@@ -1,15 +1,25 @@
-\version "2.24.0"
+\version "2.26.0"
 
-\layout {
-  \context {
-    \Staff
-    \accidentalStyle modern
-  }
-}
+tf = #(define-music-function
+  (parser location)
+  ()
+  (if option-is-full-score #{
+    \override LyricText.font-name = "Unifraktur Maguntia"
+  #} #{
+    %do nothing
+  #}))
 
-% define \tf, \tr, and \tsf in each part file
-% these commands switch between Fraktur and Roman text
-% in the lyrics, which should only occur in the full score
+tr = \revert LyricText.font-name
+
+tsf = #(define-music-function
+  (parser location)
+  ()
+  (if option-is-full-score #{
+    \override TextScript.font-name = "Unifraktur Maguntia"
+    \override TextScript.baseline-skip = #2
+  #} #{
+    %do nothing
+  #}))
 
 tempoL-IBreingloeckl = \tempoMarkup "Allegro"
 tempoL-IMeiSchoeni = \tempoMarkup "Recitativo"

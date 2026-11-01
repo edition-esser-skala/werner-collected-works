@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-II-XViolinoI = {
   \relative c' {
     \clef treble
     \key d \dorian \time 4/2 \tempoI-II-Xa
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a'1\fE a2 a
     a1 f2 d
     b'2. a4 g f d e
@@ -40,7 +40,7 @@ I-II-XViolinoI = {
     g f e1 \noBreak
     d\breve\fermata \bar "||" %35
     \key f \major \time 3/2 \tempoI-II-Xb
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*12 %47
     \mvTr a'1\p-\solo a2
     r4 e'8 d c4 e c a

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LVIKyrieOrgano = {
   \relative c {
@@ -227,7 +227,7 @@ B-LVIGloriaOrgano = {
     f, f, h h' e, a e e, \noBreak
     a f' d e a,4 r\fermata \bar "||"
     \time 4/2 \tempoB-LVIGratias \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr c2\fE-\tutti c'1 h2 \noBreak
     c g c,1 %55
     g \clef treble g''2 g,
@@ -256,7 +256,7 @@ B-LVIGloriaOrgano = {
     g1 g, \noBreak
     c\breve\fermata \bar "||" %80
     \key e \minor \time 4/4 \tempoB-LVIDomine \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr e8\fE-\solo e' a, h g e fis d \noBreak
     g h, c d g, g' a fis
     g4 r r8 e4 dis8
@@ -285,7 +285,7 @@ B-LVIGloriaOrgano = {
     dis8 e h' h, e a h h, \noBreak
     e4 r r2\fermata \bar "||"
     \key c \major \time 3/4 \tempoB-LVIQuiTollis \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr c4\fE-\tutti e c \noBreak
     g'2 e4
     d f d %110
@@ -1045,7 +1045,7 @@ B-LVISanctusOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoB-LVISanctus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr c4\fE-\tutti c' g
     e c \mvTr c'\pE-\solo
     h gis e

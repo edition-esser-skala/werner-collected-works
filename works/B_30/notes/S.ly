@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXKyrieSoprano = {
   \relative c' {
@@ -26,7 +26,7 @@ B-XXXKyrieSoprano = {
     e([ c)] d g e([ f] d4)\trill \noBreak %20
     e r r2\fermata \bar "||"
     \time 3/4 \tempoB-XXXChriste \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*17 \noBreak %38
     R2.\fermata \bar "||"
     \time 3/2 \tempoB-XXXKyrieFuga \newSpacingSection
@@ -289,7 +289,7 @@ B-XXXCredoSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoB-XXXCredo
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r4 \mvDl e'\fE^\tuttiE e
     d g g
     e e r8 g
@@ -615,7 +615,7 @@ B-XXXAgnusSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoB-XXXAgnus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvDl e'8.([\fE^\tutti g32 f] e8) d e4
     d8 dis e4 e
     r8 h c[ cis] d4~

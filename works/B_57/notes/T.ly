@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LVIIKyrieTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \minor \time 4/2 \tempoB-LVIIKyrie \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve
     a1 h
     c2.( h4 a2) d~
@@ -132,7 +132,7 @@ B-LVIIGloriaTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \minor \time 4/2 \autoBeamOff \tempoB-LVIIGloria
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r1 a~
     a2 a b f
     g2. g4 a1
@@ -371,7 +371,7 @@ B-LVIICredoTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \minor \time 4/2 \autoBeamOff \tempoB-LVIICredo
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve
     a1 a2 g
     a e f c'
@@ -436,7 +436,7 @@ B-LVIICredoTenore = {
     e2( f1 e2) \noBreak
     f\breve\fermata \bar "||"
     \time 3/2 \tempoB-LVIIEtIncarnatus \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       b2 b es \noBreak
     d1 c2 %65
     b d b
@@ -461,7 +461,7 @@ B-LVIICredoTenore = {
     b1 b2 \noBreak %85
     a1.\fermata \bar "||"
     \time 4/2 \tempoB-LVIICruxifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r2 a1 a2 \noBreak
     a c a c4( b)
     a( g) f2 g a~
@@ -539,13 +539,13 @@ B-LVIICredoTenore = {
     r2 b d1 \noBreak
     b2 c d d^\critnote \bar "||"
     \time 3/2 \tempoB-LVIIMortuorum
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r2 b b \noBreak
     \once \tieDashed a1.~
     a \noBreak %165
     a\fermata \bar "||"
     \time 4/2 \tempoB-LVIIEtVitam
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a1 a2 f \noBreak
     b1 a2 d
     d c b2. b4
@@ -779,7 +779,7 @@ B-LVIISanctusTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \minor \time 4/2 \autoBeamOff \tempoB-LVIISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a2. g4 f g a2~
     a4 b c1 f,2
     g( a4 b c1)
@@ -818,7 +818,7 @@ B-LVIISanctusTenore = {
     b\breve
     c\fermata \bar "||"
     \time 3/2 \tempoB-LVIIBenedictus \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r2 d, e \noBreak
     f g a
     b1. %40
@@ -835,7 +835,7 @@ B-LVIISanctusTenore = {
     g1 g2 \noBreak
     f1.\fermata \bar "||"
     \time 4/2 \tempoB-LVIIOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve
     d'1 d2 d
     c a f'2. e4 %55
@@ -936,7 +936,7 @@ B-LVIIAgnusTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \minor \time 4/2 \autoBeamOff \tempoB-LVIIAgnus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a1 b
     g\breve
     a2 f' f( e4 d)

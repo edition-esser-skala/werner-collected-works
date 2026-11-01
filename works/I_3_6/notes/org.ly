@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-VIOrgano = {
   \relative c {
@@ -24,7 +24,7 @@ I-III-VIOrgano = {
     g g' a h c f, g g, \noBreak
     c4. c8 c4 r\fermata \bar "||"
     \time 3/4 \tempoI-III-VIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \looseNotes
       \mvTr a4\p-\solo r c \noBreak
     d r r %20

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LVIKyrieOrgano = {
   \relative c {
@@ -372,7 +372,7 @@ B-LVICredoOrgano = {
     a4 d a2 \noBreak %40
     d d\fermata \bar "||"
     \time 4/2 \tempoB-LVICrucifixus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr d1\fE-\tuttiE f \noBreak
     c2 cis d2. d4
     a1 d~
@@ -388,7 +388,7 @@ B-LVICredoOrgano = {
     a\breve \noBreak
     a\fermata \bar "||" %55
     \time 3/2 \tempoB-LVIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr f'2.\pE-\solo e4 d c8 b \noBreak
     a4 f b8 g a b c2
     f,4 f'2 e4 d c8 b

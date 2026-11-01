@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-ISoprano = {
   \relative c' {
     \clef treble
     \key a \minor \time 4/2 \tempoF-I \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve
     r1 e'
     a,2 a c2. c4

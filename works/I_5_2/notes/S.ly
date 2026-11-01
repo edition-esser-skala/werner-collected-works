@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-V-IISoprano = {
   \relative c' {
@@ -21,7 +21,7 @@ I-V-IISoprano = {
     r8 c16 c d8 h c16([ \hA h)] c8 r4 \noBreak %15
     r8 e e, e e4( dis)\trill
     \time 3/4 \tempoI-V-IIb
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       e h'^\aTre cis8 cis \noBreak
     d4 d r
     b!4. b8 g g

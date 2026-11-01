@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-II-XIOrgano = {
   \relative c {
     \clef bass
     \key b \major \time 3/4 \tempoI-II-XIa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr b4\pE-\solo d b
     f f' a
     b d, es

@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XLVISoprano = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \tempoF-XLVI \autoBeamOff
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     a'4 d2 cis4
     d8[ a] d4. cis8 h4~
     h a8[ g] fis[ d] d'4~

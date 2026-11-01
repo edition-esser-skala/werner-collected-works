@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-IVTenore = {
   \relative c' {
     \clef "treble_8"
     \key a \minor \time 4/2 \tempoI-I-IV \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \markTimeSig #'(4 2)
     a1 a
     a2 g g c

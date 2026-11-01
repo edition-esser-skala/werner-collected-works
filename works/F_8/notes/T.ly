@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-VIIITenore = {
   \relative c' {
     \clef "treble_8"
     \key d \dorian \time 2/1 \tempoF-VIII \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r1 a~
     a2 f c'1~
     c2 b a2. g4

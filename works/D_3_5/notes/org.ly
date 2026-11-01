@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-III-VOrgano = {
   \relative c {
     \clef bass
     \key d \dorian \time 4/2 \tempoD-III-V
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     \time 13/4 s4*13 \time 4/2 \normalsize \bar "||"
     d1 a
     d2. c!4 b2 fis

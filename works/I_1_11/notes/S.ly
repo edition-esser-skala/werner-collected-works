@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XISoprano = {
   \relative c' {
@@ -49,7 +49,7 @@ I-I-XISoprano = {
     r d' g g,16 g' e8 e r g16([ e)] \noBreak
     c8 a r4 r2\fermata \bar "||"
     \time 3/4 \tempoI-I-XIc \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr f8.\pE^\solo f16 a8 c f c \noBreak
     a8.\trill g16 f4 r %50
     R2.*2

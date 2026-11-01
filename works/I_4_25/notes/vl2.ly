@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XXVViolinoII = {
   \relative c' {
@@ -49,7 +49,7 @@ I-IV-XXVViolinoII = {
     r8 b'\ff f d b f' d b \noBreak
     f d b4 r2\fermata \bar "||"
     \time 4/2 \tempoI-IV-XXVe \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*5 %49
     b1\fE c2. b4 %50
     c2 d es4 b es2~

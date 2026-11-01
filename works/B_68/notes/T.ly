@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXVIIIKyrieTenore = {
   \relative c' {
@@ -112,7 +112,7 @@ B-LXVIIIGloriaTenore = {
     R1.*7 \noBreak %37
     R1.\fermata \bar "||"
     \time 4/2 \tempoB-LXVIIIQuiTollis \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r1 c^\tutti \brkBeam
     a2( d) h1 %40
     r r2 fis
@@ -145,7 +145,7 @@ B-LXVIIIGloriaTenore = {
     d c4 h a1~ \noBreak
     a h\fermata \bar "||"
     \time 3/2 \tempoB-LXVIIIQuoniam \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1. \noBreak
     r4 c^\solo d2 c4( h)
     c( h) c2 r %75

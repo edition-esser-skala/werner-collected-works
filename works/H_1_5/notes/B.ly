@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-VDixitBasso = {
   \relative c {
@@ -386,7 +386,7 @@ H-I-VNisiBasso = {
   \relative c {
     \clef bass
     \key e \minor \time 3/4 \autoBeamOff \tempoH-I-VNisi
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.
     r4 \mvTr e\pE^\solo fis
     g4. a8 h4
@@ -574,7 +574,7 @@ H-I-VLaudaBasso = {
   \relative c {
     \clef bass
     \key g \major \time 4/2 \autoBeamOff \tempoH-I-VLauda
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     g'1 e2 g
     a g4 fis g d e fis
     g2. fis4 g2 a
@@ -827,7 +827,7 @@ H-I-VMagnificatBasso = {
     a a e e f4 c \noBreak
     g'2 c,\fermata \bar "||"
     \time 4/2 \tempoH-I-VMagnificatC \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve \noBreak
     r1 a'2. a4
     a2 a, e' g %45
@@ -842,7 +842,7 @@ H-I-VMagnificatBasso = {
     e \noBreak
     a,\fermata \bar "||" %55
     \time 4/4 \tempoH-I-VMagnificatD \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r2 \mvTr d8.\pE^\solo d16 d8 a \noBreak
     d8. d16 d8 r r2
     r8 a' b a g f16 f d4
@@ -861,7 +861,7 @@ H-I-VMagnificatBasso = {
     c8) c r4 r2 \noBreak
     r8 d d d' cis d a8. a16
     \time 3/4 \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       d,2 r4 \noBreak
     R2.*30 %103
     \mvTr g4\fE^\tutti g g

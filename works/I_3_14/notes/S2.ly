@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-XIVSopranoII = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoI-III-XIVa \autoBeamOff
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.
     r8 \mvTr g'\pE^\solo c4. \tuplet 3/2 8 { h16([ c d)] }
     c([ d e d)] c8 h \sbOn \tuplet 3/2 8 { c16([ d c } h d)] \sbOff
@@ -69,7 +69,7 @@ I-III-XIVSopranoII = {
     R2*5 \noBreak %74
     R2\fermata \bar "||" %75
     \key c \dorian \time 3/4 \tempoI-III-XIVd \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2. \noBreak
     g'4 g g8([ c)]
     h8.([ c16] d4) es

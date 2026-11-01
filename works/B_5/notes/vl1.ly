@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-VKyrieViolinoI = {
   \relative c' {
@@ -149,7 +149,7 @@ B-VGloriaViolinoI = {
     r2 r4 r16 f'\f f( e)
     d g g( f) e8 f4 e8 f4\fermata \bar "||" %35
     \time 4/2 \tempoB-VDomine \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*2
     r1 a,1\fE
     a2 gis a h
@@ -179,7 +179,7 @@ B-VGloriaViolinoI = {
     d4 a d1 cis4 h \noBreak
     cis1 d\fermata \bar "||"
     \time 3/2 \tempoB-VQuiTollis \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*6 %73
     r8 d,\fE fis a d4 fis a d
     r8 d,, f b d4 f b d %75
@@ -431,7 +431,7 @@ B-VSanctusViolinoI = {
     h h c2 h4 \noBreak
     c2 r\fermata \bar "||" %10
     \key a \minor \time 3/4 \tempoB-VPleni \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2. \noBreak
     r16 h,\f h16. c32 d4~ d16. d32 c16. h32
     c16. e32 e16. c'32 c16. f,32 f16. e32 e8( dis)

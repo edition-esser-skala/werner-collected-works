@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 J-III-SalmoeI = {
   \relative c' {
@@ -6,7 +6,7 @@ J-III-SalmoeI = {
     \key c \major \time 4/4 \tempoJ-III-a
     R1*12 %12
     \time 3/4 \tempoJ-III-b
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*9 %21
     \time 4/4 \tempoJ-III-c R1*7 \noBreak %28
     R1\fermata \bar "||"
@@ -29,7 +29,7 @@ J-III-SalmoeI = {
     f( e) r4 r2
     R1*9 %63
     \time 3/4 \tempoJ-III-e
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*21 %84
     r4 r \tempoJ-III-f r %85
     R2.*5 %90

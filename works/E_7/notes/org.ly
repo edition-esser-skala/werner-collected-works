@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 E-VIIOrgano = {
   \relative c {
     \clef bass
     \key f \major \time 3/4 \tempoE-VII
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr f4\pE-\soloE c a
     f2 f'4
     a,2 c4

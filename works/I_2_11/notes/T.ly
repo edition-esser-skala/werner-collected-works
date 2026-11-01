@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-II-XITenore = {
   \relative c' {
     \clef "treble_8"
     \key b \major \time 3/4 \tempoI-II-XIa \autoBeamOff
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*86 \noBreak %86
     R2.\fermata \bar "||"
     \key f \major \mvTr f,4.(\pE^\solo^\aTre g8) a([ b)] \noBreak

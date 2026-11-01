@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XViolinoII = {
   \relative c' {
@@ -24,7 +24,7 @@ I-I-XViolinoII = {
     R1 \noBreak
     r2 r32 f\ff e d c b a g f a g f e d c b
     \time 3/4 \tempoI-I-Xc
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       a4 r r \noBreak %20
     h''16(\fE c) g( c) e,( g) c,( \hA e) g,( c) e,( g)
     c,4 r r

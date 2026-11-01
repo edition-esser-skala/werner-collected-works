@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXIXKyrieBasso = {
   \relative c {
@@ -73,7 +73,7 @@ B-XXIXGloriaBasso = {
   \relative c {
     \clef bass
     \key d \major \time 3/4 \autoBeamOff \tempoB-XXIXGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr d4\fE^\tutti r8 a' fis a
     d,4 r8 cis d8. d16
     a4 r d'8 cis
@@ -163,7 +163,7 @@ B-XXIXCredoBasso = {
   \relative c {
     \clef bass
     \key d \major \time 3/4 \autoBeamOff \tempoB-XXIXCredo
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvDl d'8\fE^\tuttiE d, r8 d a' a,
     d d r d g h
     d4 cis8 d a([ fis16 d)]
@@ -199,7 +199,7 @@ B-XXIXCredoBasso = {
     R1 \noBreak %40
     R\fermata \bar "||"
     \key d \major \time 3/4 \tempoB-XXIXEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr d4\fE^\tuttiE r8 d fis d \noBreak
     a' a, r a' cis a
     d d, r d g4
@@ -372,11 +372,11 @@ B-XXIXSanctusBasso = {
     e([ d)] c a' fis([ g] d4) \noBreak
     g, r r2 \noBreak \bar "||" %20
     \key e \minor \time 3/4 \tempoB-XXIXBenedictus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*18 \noBreak %38
     R2.\fermata \bar "||"
     \key d \major \time 4/2 \tempoB-XXIXOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr d'1\fE^\tuttiE e2 cis4 a \noBreak %40
     fis'2 d4( h) g'2 e4( cis)
     a'2 fis4 d e1\trill

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-XVIIIOrgano = {
   \relative c {
@@ -172,7 +172,7 @@ I-III-XVIIIOrgano = {
     d' a \noBreak %170
     d, r\fermata \bar "||"
     \time 3/4 \tempoI-III-XVIIIf \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       h2\pE r4 \noBreak
     r8 h h h h h
     e4 r r

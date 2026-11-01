@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XXIIAlto = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \autoBeamOff \tempoI-IV-XXII
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*15 %15
     \mvTr a'4\fE^\tutti a a
     a2.~

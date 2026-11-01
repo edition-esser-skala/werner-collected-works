@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-LIXViolinoII = {
   \relative c' {
     \clef treble
     \key f \major \time 3/2 \tempoF-LIX
-      \set Staff.timeSignatureFraction = 3/2
+      \set Staff.timeSignature = 3/2
     r2 c2. d4
     e c d e f2~
     f4 e8 d e4 d c e

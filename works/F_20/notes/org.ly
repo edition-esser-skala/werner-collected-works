@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XXOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 4/2 \tempoF-XX
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \markTimeSig #'(4 2)
     c1 d
     e f

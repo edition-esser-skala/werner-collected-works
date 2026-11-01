@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-II-XSoprano = {
   \relative c' {
     \clef treble
     \key d \dorian \time 4/2 \autoBeamOff \tempoI-II-Xa
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a'1^\tuttiE a2 a
     a1 f2 d
     b'2. a4 g f d e
@@ -40,7 +40,7 @@ I-II-XSoprano = {
     g f e1 \noBreak
     d\breve\fermata \bar "||" %35
     \key f \major \time 3/2 \tempoI-II-Xb
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       a'4(^\solo^\aTre b c2) a \noBreak
     g1 a2
     b2.( a4) b( c)

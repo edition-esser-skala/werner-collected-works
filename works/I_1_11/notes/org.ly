@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XIOrgano = {
   \relative c {
@@ -52,7 +52,7 @@ I-I-XIOrgano = {
     b! b, r g' c c,16 c e8 c16 c' \noBreak
     a8 f r4 r2\fermata \bar "||"
     \time 3/4 \tempoI-I-XIc \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr << { f4^\vlne } \\ { \mvDl \mvTrh f,4\pE-\solo _\mvTz_\org } >> r r \noBreak
     << { f' } \\ { f, } >> r r %50
     d' r r

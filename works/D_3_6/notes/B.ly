@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-III-VIaBasso = {
   \relative c {
     \clef bass
     \key f \major \time 4/2 \tempoD-III-VIaa \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     f1. d2
     a'1 fis2 g
     es c4 c d2 g
@@ -45,7 +45,7 @@ D-III-VIaBasso = {
     c\breve \noBreak
     f\fermata \bar "||" %40
     \time 3/2 \tempoD-III-VIac R1.*14 \noBreak %54
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
     R1.\fermata \markUtVivificaretUtSupra \bar "||" %55 finis
   }
 }
@@ -96,7 +96,7 @@ D-III-VIbBasso = {
   \relative c {
     \clef bass
     \key d \minor \time 4/2 \tempoD-III-VIba \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d2 d1 cis2
     d1 b'
     a r2 f
@@ -122,7 +122,7 @@ D-III-VIbBasso = {
     a a \noBreak
     a2. a4 d1\fermata \bar "||"
     \key a \minor \time 3/2 \tempoD-III-VIbc
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*16 \noBreak %40
     R1.\fermata \markQuiaInTeUtSupra \bar "||" %41 finis
   }
@@ -159,7 +159,7 @@ D-III-VIcBasso = {
   \relative c {
     \clef bass
     \key a \minor \time 4/2 \tempoD-III-VIca \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a'1 e
     d a
     f'\breve
@@ -180,7 +180,7 @@ D-III-VIcBasso = {
     e1 e \noBreak
     a,\breve\fermata \bar "||"
     \time 3/2 \tempoD-III-VIcb
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       a2. h4 c d \noBreak %20
     e2._( d8[ c)] h4( cis)
     d2._( c8[^\critnote h]) a4( h)
@@ -211,7 +211,7 @@ D-III-VIcBasso = {
     e d1 \noBreak
     a1.\fermata \bar "||"
     \time 4/2 \tempoD-III-VIcc
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*11 \noBreak %59
     R\breve\fermata \markQuiaVenitDiesUtSupra \bar "||" %60 finis
   }

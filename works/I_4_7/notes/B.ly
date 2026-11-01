@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-VII-Basso = {
   \relative c {
     \clef bass
     \key g \minor \time 3/4 \tempoI-IV-VII \autoBeamOff
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*13 %13
     \mvTr g'4\pE^\solo f4. es8
     d4 es2 %15

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XOrgano = {
   \relative c {
@@ -24,7 +24,7 @@ I-I-XOrgano = {
     a r8 a d4 r8 b \noBreak
     c!4 r8 c f f, r4
     \time 3/4 \tempoI-I-Xc
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr f'8\fE-\tutti f16 f f8 c f a \noBreak %20
     c4 c, r
     c8 c'16 c c8 g e c

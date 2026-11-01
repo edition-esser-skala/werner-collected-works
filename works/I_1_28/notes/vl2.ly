@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XXVIIIViolinoII = {
   \relative c' {
     \clef treble
     \twotwotime \key f \major \time 4/2 \tempoI-I-XXVIIIa
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r4 f\f f f g2 c,
     b'1~ b4 a8 g a4 f
     d'1 c~
@@ -75,7 +75,7 @@ I-I-XXVIIIViolinoII = {
     g2 f1 e2 %70
     r f4 g a f g a
     \time 4/4 \tempoI-I-XXVIIIb
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       f8 b4 a16 g a2\fermata \bar "|." %72 finis
   }
 }

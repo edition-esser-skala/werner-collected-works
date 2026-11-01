@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XXXIIIOrgano = {
   \relative c {
     \clef bass
     \key e \minor \time 3/2 \tempoF-XXXIII
-      \set Staff.timeSignatureFraction = 3/2
+      \set Staff.timeSignature = 3/2
     e4.\fE fis8 g a h4 g dis
     e << { h'8 a } \\ { h,4\p } >> g' fis e dis
     e h r e\f c'4. h8

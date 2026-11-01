@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoG-VIIIa = \tempoTitleMarkup "Kyrie" "Allegretto" % 80
 tempoG-VIIIb = \tempoTitleMarkup "Panis vivus" "Andante" % 70

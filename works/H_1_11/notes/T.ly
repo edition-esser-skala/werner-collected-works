@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-XIaTenore = {
   \relative c' {
@@ -314,7 +314,7 @@ H-I-XIeTenore = {
   \relative c' {
     \clef "treble_8"
     \key g \major \time 3/4 \autoBeamOff \tempoH-I-XIea
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr d8.\fE^\tutti d16 d8 d c d
     d d d d c d
     d4 r8 h h h

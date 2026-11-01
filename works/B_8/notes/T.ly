@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-VIIIKyrieTenore = {
   \relative c' {
@@ -289,7 +289,7 @@ B-VIIIBenedictusTenore = {
     cis,4 r r2 \noBreak
     R1\fermata \bar "||"
     \time 4/2 \tempoB-VIIIOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve \noBreak
     \mvTr h'1\fE^\tuttiE cis4 dis e2~
     e dis4( cis) h2 e,4( fis) %10

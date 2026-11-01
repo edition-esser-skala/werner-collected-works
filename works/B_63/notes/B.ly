@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXIIIKyrieBasso = {
   \relative c {
@@ -25,7 +25,7 @@ B-LXIIIKyrieBasso = {
     c1. \noBreak
     f\fermata \bar "||" %20
     \time 4/2 \tempoB-LXIIIChriste \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*2
     d1 f2 f
     e2.( fis4 g d) g2~
@@ -86,7 +86,7 @@ B-LXIIICredoBasso = {
   \relative c {
     \clef bass
     \key f \lydian \time 4/2 \tempoB-LXIIICredo \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     f\breve
     f1 r2 d
     a'2. g4 fis2 d
@@ -138,7 +138,7 @@ B-LXIIICredoBasso = {
     f2 f h,!1~ \noBreak %50
     h c\fermata \bar "||"
     \time 3/2 \tempoB-LXIIIEtIncarnatus
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*5 %56
     e2 a, g'!
     f1 e2
@@ -156,7 +156,7 @@ B-LXIIICredoBasso = {
     g1 g,2 \noBreak
     c1 r2\fermata \bar "||"
     \time 4/2 \tempoB-LXIIICrucifixus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*3 %76
     c1 es
     fis g2 g~
@@ -425,7 +425,7 @@ B-LXIIISanctusBasso = {
   \relative c {
     \clef bass
     \key f \lydian \time 4/2 \tempoB-LXIIISanctus \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     f1~ f4 e c2
     d e f4( e d2)
     c a'( g) c,
@@ -520,7 +520,7 @@ B-LXIIIAgnusBasso = {
   \relative c {
     \clef bass
     \key f \lydian \time 4/2 \tempoB-LXIIIAgnus \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     f1 d
     g e2 e
     a1 d,2 g!
@@ -545,7 +545,7 @@ B-LXIIIAgnusBasso = {
     c2 b a d \noBreak
     g1 f\fermata \bar "||"
     \time 3/2 \tempoB-LXIIIDona \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       f2. e4 f2 \noBreak
     c d c %25
     \once \stemUp d4( c8[ d] b4 c a) f
@@ -629,7 +629,7 @@ B-LXIIIFragmentBasso = {
   \relative c {
     \clef bass
     \key f \lydian \time 4/2 \tempoB-LXIIIFragment \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     f1 a2 g4 f
     e2 f g e
     d1 c

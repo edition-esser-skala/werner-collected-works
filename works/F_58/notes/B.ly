@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-LVIIIBasso = {
   \relative c {
     \clef bass
     \key b \major \time 3/2 \autoBeamOff \tempoF-LVIII
-      \set Staff.timeSignatureFraction = 3/2
+      \set Staff.timeSignature = 3/2
     R1.
     b2 d4 b f'4.( es8)
     d4 g8[ f] es4 d c f

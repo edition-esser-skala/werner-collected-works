@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XTenore = {
   \relative c' {
@@ -12,7 +12,7 @@ I-I-XTenore = {
     cis4 r8 e e16([ d)] d8 r d \noBreak
     g, g r e'16([ c)] a8 a r4
     \time 3/4 \tempoI-I-Xc
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr c8.\fE^\tutti c16 c8 c c c \noBreak %20
     c8. c16 c4 r
     e8. e16 e8 e c c

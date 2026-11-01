@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 P-IVSymphoniaPrimaViolinoI = {
   \relative c' {
@@ -732,7 +732,7 @@ P-IVSonataTertiaViolinoI = {
   \relative c' {
     \clef treble
     \key f \dorian \time 3/4 \tempoP-VISonataTertia
-      \override Staff.TimeSignature.style = #'single-digit
+      \override Staff.TimeSignature.style = #'single-number
     R2.*3
     c'4\fE d! e
     f g as8( h,) %5
@@ -816,7 +816,7 @@ P-IVSonataTertiaViolinoI = {
     c h1 \noBreak %80
     c1.\fermata \bar "||"
     \time 3/4 \tempoP-VISonataTertiaD \newSpacingSection
-      \override Staff.TimeSignature.style = #'single-digit
+      \override Staff.TimeSignature.style = #'single-number
       R2.*3
     f4\fE as4. g16 f %85
     g8 h, c g' as g16 f
@@ -1094,7 +1094,7 @@ P-IVSonataQuartaViolinoI = {
     dis e2 dis4 \noBreak
     e2 r\fermata \bar "||"
     \time 3/4 \tempoP-VISonataQuartaC \newSpacingSection
-      \override Staff.TimeSignature.style = #'single-digit
+      \override Staff.TimeSignature.style = #'single-number
       g4\fE a r8 r16 gis \noBreak
     a4 a, r %100
     c' d r8 r16 cis
@@ -1391,7 +1391,7 @@ P-IVSonataQuintaViolinoI = {
     g8 a16 g f8 g f4 e\trill \noBreak
     d r r2\fermata \bar "||"
     \time 3/4 \tempoP-VISonataQuintaC \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       a'4\fE a r8 r16 d \noBreak
     g,4 g r %80
     g g r8 r16 a
@@ -1565,7 +1565,7 @@ P-IVSonataSextaViolinoI = {
   \relative c' {
     \clef treble
     \key c \dorian \time 3/4 \tempoP-VISonataSexta
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     g''8(\fE c,) c4 r8 r16 h
     c4 c, r8 r16 es'
     es8.[\trill d16 d8.\trill c16 c8.\trill b16]
@@ -1626,7 +1626,7 @@ P-IVSonataSextaViolinoI = {
     f es16 d es f es f g8 as d,8.\trill c16 \noBreak
     c4 r r2\fermata \bar "||"
     \time 3/4 \tempoP-VISonataSextaC \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       c'8(\fE es) b!4 \tuplet 3/2 4 { f8( g as) } \noBreak
     as( g) g'4 f\trill %60
     e2 f8( g)

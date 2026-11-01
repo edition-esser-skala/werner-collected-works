@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XXXIIITenore = {
   \relative c' {
     \clef "treble_8"
     \key e \minor \time 3/2 \tempoF-XXXIII \autoBeamOff
-      \set Staff.timeSignatureFraction = 3/2
+      \set Staff.timeSignature = 3/2
     r2 r4 \mvDll h\fE h h
     h h r \mvDll h\p h h
     h h r2 \mvDll g4\f e'~

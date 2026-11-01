@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-III-II-aBasso = {
   \relative c {
     \clef bass
     \key d \minor \time 4/2 \tempoD-III-II-aa \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \markTimeSig #'(4 2)
     R\breve*3
     d1 d
@@ -38,7 +38,7 @@ D-III-II-aBasso = {
     \time 2/2 \markTimeSig #'(2 2) d2 d \noBreak
     \time 4/2 \markTimeSig #'(4 2) a\breve\fermata \bar "||"
     \time 4/4 \tempoD-III-II-ac \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*2 %35
     r2 a'4. a8
     b!([ g)] es d cis2
@@ -53,7 +53,7 @@ D-III-II-aBasso = {
     r8 f f f b4 fis \noBreak
     g2 d\fermata \bar "||"
     \time 3/2 \tempoD-III-II-ad \newSpacingSection R1.*6 %53
-    \time 4/2 \set Staff.timeSignatureFraction = 2/2 R\breve*7 %60
+    \time 4/2 \set Staff.timeSignature = 2/2 R\breve*7 %60
     R\breve\fermata \markSpiritusDaCapo \bar "||" %61 finis
   }
 }
@@ -108,7 +108,7 @@ D-III-II-bBasso = {
   \relative c {
     \clef bass
     \key e \minor \time 4/2 \tempoD-III-II-ba \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \markTimeSig #'(4 2)
     e1 e
     e2 e2. e4 e2
@@ -137,7 +137,7 @@ D-III-II-bBasso = {
     a2. a4 a1 \noBreak %25
     e'\breve\fermata \bar "||"
     \time 4/4 \tempoD-III-II-bb \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*2
     r2 g4 a~
     a fis g4. a8 %30
@@ -216,7 +216,7 @@ D-III-II-cBasso = {
   \relative c {
     \clef bass
     \key b \major \time 4/2 \tempoD-III-II-ca \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \markTimeSig #'(4 2)
     b1 b'1
     f2 fis g1

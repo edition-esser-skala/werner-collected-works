@@ -265,7 +265,7 @@ B-XXXIXCredoViolinoII = {
     a g4 fis g2 fis4 e \noBreak %90
     fis\breve\fermata \bar "||"
     \key c \major \time 3/4 \tempoB-XXXIXEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r16 h\p a h g8-! r d-! r \noBreak
     h16 g' fis g \parOn d8-\parenthesize-! r \parOff h-\parenthesize-! r
     g16 g' fis g g, g' fis g g, g' fis g

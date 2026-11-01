@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLKyrieViolinoI = {
   \relative c' {
@@ -350,7 +350,7 @@ B-XLSanctusViolinoI = {
     r a,16 h c d e8 f8.\trill e32 d c8 h\trill \noBreak %30
     c16 c' g e c e c g e4 r\fermata \bar "||"
     \clef treble \time 2/1 \tempoB-XLOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r1 g\fE \noBreak
     c2 a e' c
     g'4. f8 e4 d8 c h a h c h[ c d h]
@@ -427,7 +427,7 @@ B-XLAgnusViolinoI = {
     es8 d d4 d8 c c2 c4 \noBreak
     h2 r r\fermata \bar "||"
     \time 2/1 \tempoB-XLDona \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r4 e,8\fE f g4 a g e r2 \noBreak
     r4 a8 h c4 h8 a g4 c2 e4 %30
     d8 e d c h4 d g g, g'8 a g f

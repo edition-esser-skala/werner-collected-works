@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXKyrieBasso = {
   \relative c {
@@ -24,7 +24,7 @@ B-XXXKyrieBasso = {
     c, c' h([ g)] c f, g4 \noBreak %20
     c, r r2\fermata \bar "||"
     \time 3/4 \tempoB-XXXChriste \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*17 \noBreak %38
     R2.\fermata \bar "||"
     \time 3/2 \tempoB-XXXKyrieFuga \newSpacingSection
@@ -233,7 +233,7 @@ B-XXXCredoBasso = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \autoBeamOff \tempoB-XXXCredo
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr r4 \mvDl c'\fE^\tutti c,
     g' h8([ g)] a([ h)]
     c4 c, r8 e
@@ -535,7 +535,7 @@ B-XXXAgnusBasso = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \autoBeamOff \tempoB-XXXAgnus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvDl c'4.\fE^\tutti h8 c4
     g8 r r gis a4
     e r8 e f4(

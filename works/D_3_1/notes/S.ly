@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-III-ISoprano = {
   \relative c' {
     \clef treble
     \key g \dorian \time 4/2 \tempoD-III-Ia
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \markTimeSig #'(4 2)
     b'\breve~
     b2 a4 g a1\fermata \bar "||"

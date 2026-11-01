@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XXXITenore = {
   \relative c' {
@@ -38,7 +38,7 @@ I-IV-XXXITenore = {
       R2*47 \noBreak %77
     R2\fermata \bar "||"
     \key c \dorian \time 3/4 \tempoI-IV-XXXIe
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*22 \noBreak %100
     R2.\fermata \bar "||"
     \key c \major \time 4/4 \tempoI-IV-XXXIf

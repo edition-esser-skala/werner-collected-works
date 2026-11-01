@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VViolinoII = {
   \relative c' {
@@ -39,7 +39,7 @@ G-VViolinoII = {
     h4 a8 g fis4 g2 fis4 \noBreak
     g2. fis4 g2\fermata \bar "||"
     \key g \dorian \time 3/4 \tempoG-Vc \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 d'16(\p c) d8 b4
     r c-! c-!
     r b16( a) b8 g4 %40

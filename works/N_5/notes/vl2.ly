@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 N-VViolinoII = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \tempoN-Va
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     d'4\f d, fis'
     d d, fis'
     d cis8 h a g

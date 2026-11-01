@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXVGratiasTrombone = {
   \relative c' {
     \clef alto
     \key f \lydian \time 3/4 \tempoB-XXXVGratias
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \set Score.currentBarNumber = #36
     R2.*3
     r4 c4.\pE d16 e

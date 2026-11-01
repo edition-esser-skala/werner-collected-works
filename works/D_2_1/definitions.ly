@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoD-II-Ia = \tempoMarkup "Recitativo"
 tempoD-II-Ib = \tempoTitleMarkup "Arietta" "Vivace"

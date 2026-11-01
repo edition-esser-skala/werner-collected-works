@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 A-XIIIntroBassoContinuo = {
   \relative c {
@@ -1107,7 +1107,7 @@ A-XIIAriaQuintaBassoContinuo = {
   \relative c {
     \clef bass
     \key d \minor \time 3/4 \tempoA-XIIAriaQuinta
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr d'8\f-\soloE d, r f' e d
     cis h?16 \hA cis a8 g f e
     f e16 f d8 a' d c
@@ -1963,7 +1963,7 @@ A-XIIAriaOctavaBassoContinuo = {
     fis4 g a a, \noBreak
     d8 d' a fis d4 r\fermataFine
     \key d \minor \time 3/4 \tempoA-XIIAriaOctavaB \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvDl d2\pE-\pizz d4 \noBreak
     r d d
     r d d %45
@@ -2226,7 +2226,7 @@ A-XIIAriaNonaBassoContinuo = {
   \relative c {
     \clef bass
     \key c \dorian \time 3/4 \tempoA-XIIAriaNona
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr c2\pE-\soloE d4
     es h g
     c2 d4

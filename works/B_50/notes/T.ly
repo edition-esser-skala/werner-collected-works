@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LKyrieTenore = {
   \relative c' {
@@ -134,7 +134,7 @@ B-LGloriaTenore = {
     f, b c \noBreak %30
     c c r
     \time 4/2 \tempoB-LPropter \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       c1 f,2 b~ \noBreak
     b a g2. a4
     b( c) d2 c1
@@ -151,7 +151,7 @@ B-LGloriaTenore = {
     e f1( e2) \noBreak %45
     f\breve\fermata \bar "||"
     \key d \minor \time 4/4 \tempoB-LDomine \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*9 %55
     \mvTr a4.\pE^\solo b!16 c d8 d,16([ e)] fis([ g)] \tuplet 3/2 8 { a([ b c)] }
     b8. a16 g8 g'~ \sbOn \tuplet 3/2 8 { g16[ f e d c b] } a8[ f']~

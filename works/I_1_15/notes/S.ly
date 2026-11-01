@@ -1,17 +1,17 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XVSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoI-I-XVa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*28 \noBreak %28
     R2.\fermata \bar "||"
     \time 4/4 \tempoI-I-XVb
       R1*11 \noBreak %40
     R1\fermata \bar "||"
     \time 3/4 \tempoI-I-XVc
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvDl c'8.\fE^\tutti c16 c8 d c4\trill \noBreak
     h r8 c d4
     c r8 cis d h

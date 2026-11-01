@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXXVIIKyrieOrgano = {
   \relative c {
     \clef bass
     \key d \minor \time 4/2 \tempoB-LXXVIIKyrie
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d2. e4 f2 d
     r g1 f2
     e f c d
@@ -26,7 +26,7 @@ B-LXXVIIKyrieOrgano = {
     a, d2 r4 b
     g2 a d, r\fermata \bar "||" %20
     \time 3/2 \tempoB-LXXVIIChriste \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
     << {
       s2 c'' a \noBreak %21
       r4 b s1
@@ -50,7 +50,7 @@ B-LXXVIIKyrieOrgano = {
     a1.~-\tasto
     a1 r2\fermata \bar "||" %35
     \time 4/2 \tempoB-LXXVIIKyrieB \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       d1. e2 \noBreak
     f1 d
     a'2. g4 f2 e4 d
@@ -124,7 +124,7 @@ B-LXXVIICredoOrgano = {
   \relative c {
     \clef bass
     \key d \minor \time 4/2 \tempoB-LXXVIICredo
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d2. e4 f2 fis
     g1 d
     \clef soprano << { d''2 cis } \\ { e, a } >> \clef bass d,, g~
@@ -170,7 +170,7 @@ B-LXXVIICredoOrgano = {
     b a f g a4 d, cis d a d \noBreak
     a' d, a2 d1\fermata \bar "||"
     \key b \major \time 3/2 \tempoB-LXXVIIEtIncarnatus \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       b1 r2 \noBreak %35
     f' g a
     b g d
@@ -189,7 +189,7 @@ B-LXXVIICredoOrgano = {
     b,2-\conPedale d f \noBreak %50
     b,1 r2\fermata \bar "||"
     \time 4/2 \tempoB-LXXVIICrucifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       g'1.-! fis2 \noBreak
     es!1 d
     c g'2. g4
@@ -453,7 +453,7 @@ B-LXXVIISanctusOrgano = {
   \relative c {
     \clef bass
     \key d \minor \time 4/2 \tempoB-LXXVIISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << { s1 a' } \\ { d,1. c2 } >>
     f1 e
     d2 a4 b c1~
@@ -474,7 +474,7 @@ B-LXXVIISanctusOrgano = {
     f\breve \noBreak
     b\fermata \bar "||"
     \time 4/4 \tempoB-LXXVIIOsanna
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       a'2-! b!4-! d,-! \noBreak %20
     cis b'! a c,
     h a' g b,
@@ -621,7 +621,7 @@ B-LXXVIIAgnusOrgano = {
   \relative c {
     \clef bass
     \key d \minor \time 4/2 \tempoB-LXXVIIAgnus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d1 c
     b a2 a'
     g1 f2 a,
@@ -655,7 +655,7 @@ B-LXXVIIAgnusOrgano = {
     c1~ c \noBreak
     f,\breve\fermata \bar "||"
     \time 3/2 \tempoB-LXXVIIDona
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       a'2.-! f4-! b2-! \noBreak
     a4-! a2 g8 f g4 a
     << {

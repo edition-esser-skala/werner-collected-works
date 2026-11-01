@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-XVIIIViolinoII = {
   \relative c' {
@@ -143,7 +143,7 @@ I-III-XVIIIViolinoII = {
     d2 cis \noBreak %170
     d r\fermata \bar "||"
     \time 3/4 \tempoI-III-XVIIIf \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2. \noBreak
     r8 d\p d d d d
     h4 r r

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LVIKyrieTenore = {
   \relative c' {
@@ -278,7 +278,7 @@ B-LVICredoTenore = {
     R1*6 \noBreak %40
     R1\fermata \bar "||"
     \time 4/2 \tempoB-LVICrucifixus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr a'1\fE^\tuttiE a \noBreak
     c2 e a,2. a4
     a2 cis d1~
@@ -294,7 +294,7 @@ B-LVICredoTenore = {
     cis d^\critnote a h \noBreak
     cis\breve\fermata \bar "||" %55
     \time 3/2 \tempoB-LVIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*11 %66
     r4 \mvTr a2\fE^\tutti c4 a g8 g
     a2 g4 g2 a4

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 A-XIXIntroViola = {
   \relative c' {
@@ -339,7 +339,7 @@ A-XIXAScenaSeptimaViola = {
   \relative c' {
     \clef alto
     \key c \major \time 4/4 \tempoA-XIXAScenaSeptima
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     R2*19 %9
     b4\ffE r \hA b r %10
     g r c r
@@ -554,7 +554,7 @@ A-XIXBScenaQuartaViola = {
   \relative c' {
     \clef alto
     \key c \major \time 4/4 \tempoA-XIXBScenaQuarta
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     R1*2
     r2 \tempoA-XIXBScenaQuartaB f4\pp r
     f r des r

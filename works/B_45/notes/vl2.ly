@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLVKyrieViolinoII = {
   \relative c' {
@@ -51,7 +51,7 @@ B-XLVGloriaViolinoII = {
     R1*6 \noBreak %21
     R1\fermata \bar "||"
     \time 2/1 \tempoB-XLVDomine \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*2
     r1 d\fE %25
     d2 e f d
@@ -69,7 +69,7 @@ B-XLVGloriaViolinoII = {
     f e4 d e1 \noBreak
     d\breve\fermata \bar "||"
     \time 4/4 \tempoB-XLVQuiTollis \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r8 a'\p d4 r8 b4 a16 g\noBreak %40
     f( e) f8 r4 r2
     r r4 r8 d'
@@ -266,7 +266,7 @@ B-XLVSanctusViolinoII = {
   \relative c' {
     \clef treble
     \key d \minor \time 2/1 \tempoB-XLVSanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*4
     a'1\fE b %5
     a2 g a2. g4
@@ -279,7 +279,7 @@ B-XLVSanctusViolinoII = {
     f e f4 a,8 b c4 a \noBreak
     \time 1/1 f2 r\fermata \bar "||"
     \time 4/4 \tempoB-XLVPleni \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
       r2 r32 a,\f b c d e f g a a,-\critnote b c d e f g \noBreak %15
     a f g a b c d e f a, b c d e f g a16 f32 f f16 f f8 r

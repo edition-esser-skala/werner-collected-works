@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XXXISoprano = {
   \relative c' {
     \clef treble
     \key d \minor \time 3/2 \tempoF-XXXI \autoBeamOff
-      \set Staff.timeSignatureFraction = 3/2
+      \set Staff.timeSignature = 3/2
     R1.*3
     a'2. f4 b2
     a c2. b4 %5

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-II-ViolinoII = {
   \relative c' {
@@ -94,7 +94,7 @@ G-II-ViolinoII = {
     g4 fis g4. a8 \noBreak
     g8. a16 fis4\trill g2\fermata \bar "||"
     \time 4/2 \tempoG-II-e \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*3 %115
     g1\fE g2 d
     b' a4 g f!2. e8 d
@@ -117,7 +117,7 @@ G-II-ViolinoII = {
     f2 f4 f f1 \noBreak
     f\breve\fermata \bar "||" %135
     \time 4/4 \tempoG-II-f \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*4
     r2 r8 b4\pE b8 %140
     b8. b16 a8 g f!4 r8 a

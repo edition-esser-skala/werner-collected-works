@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXIIIKyrieOrgano = {
   \relative c {
@@ -35,7 +35,7 @@ B-LXIIIKyrieOrgano = {
     c1. \noBreak
     f,\fermata \bar "||" %20
     \clef "treble_8" \time 4/2 \tempoB-LXIIIChriste \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << {
       d''1 f2 f %21
       e2. fis4 g d g2
@@ -103,7 +103,7 @@ B-LXIIICredoOrgano = {
   \relative c {
     \clef bass
     \key f \lydian \time 4/2 \tempoB-LXIIICredo
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     f\breve
     f1 r2 d
     a'2. g4 fis2 d
@@ -162,7 +162,7 @@ B-LXIIICredoOrgano = {
     f2 f h,!1~ \noBreak %50
     h c\fermata \bar "||"
     \time 3/2 \tempoB-LXIIIEtIncarnatus
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       a'1 a,2 \noBreak
     e'1.~
     e~
@@ -186,7 +186,7 @@ B-LXIIICredoOrgano = {
     g1 g,2 \noBreak
     c1 r2\fermata \bar "||"
     \clef treble \time 4/2 \tempoB-LXIIICrucifixus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       c'1-! es-! \noBreak
     fis-! << {
       g2 g~ %75
@@ -501,7 +501,7 @@ B-LXIIISanctusOrgano = {
   \relative c {
     \clef bass
     \key f \lydian \time 4/2 \tempoB-LXIIISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << {
       s1 c'~
       c4 h g2 a s
@@ -644,7 +644,7 @@ B-LXIIIAgnusOrgano = {
   \relative c {
     \clef bass
     \key f \lydian \time 4/2 \tempoB-LXIIIAgnus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     f1 d
     g e2 e
     a1 d,2 g!
@@ -669,7 +669,7 @@ B-LXIIIAgnusOrgano = {
     c2 b a d \noBreak
     g,1 f\fermata \bar "||"
     \time 3/2 \tempoB-LXIIIDona \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       f'2.-! e4-! f2-! \noBreak
     << { c'2. h4 c2 } \\ { c,2 d c4 c } >> %25
     d4 c8 d b4 c a f
@@ -759,7 +759,7 @@ B-LXIIIFragmentOrgano = {
   \relative c {
     \clef bass
     \key f \lydian \time 4/2 \tempoB-LXIIIFragment
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << {
       s1 c'
       e2 d4 c h2 c

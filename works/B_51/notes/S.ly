@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LIKyrieSoprano = {
   \relative c' {
@@ -274,7 +274,7 @@ B-LICredoSoprano = {
     c1 c2 \noBreak %40
     c1.\fermata \bar "||"
     \tempoB-LICrucifixus \time 2/1
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*5 %46
     \mvTr b1\fE^\tuttiE a
     c h2 b4 b
@@ -292,7 +292,7 @@ B-LICredoSoprano = {
     fis( g1) \hA fis2 \noBreak %60
     g\breve\fermata \bar "||"
     \time 3/2 \tempoB-LIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr f4\pE^\solo b4.( c8) d([ es)] f2 \noBreak
     b,4 b c d8([ f)] es2
     d4 g e d8 c f([ e] f4)

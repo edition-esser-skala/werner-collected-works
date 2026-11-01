@@ -4,7 +4,7 @@ I-V-VII-Organo = {
   \relative c {
     \clef bass
     \key d \major \time 4/2 \tempoI-V-VIIa
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     \mvTr d4\pE-\solo e fis g fis g fis e
     d h'a g fis g fis e
     d fis e d cis d cis h

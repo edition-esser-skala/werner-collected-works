@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-IAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/2 \tempoI-I-Ia \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     e2 e f2. f4
     e( f) g( e) a2. a4
     g2 h e,( a)
@@ -40,7 +40,7 @@ I-I-IAlto = {
     f4 f2 f4 f2 e \noBreak
     e d r1\fermata
     \time 3/2 \tempoI-I-Ib
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*2 %36
     r2 g b
     as( g) fis

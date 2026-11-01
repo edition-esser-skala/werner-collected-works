@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VIIBasso = {
   \relative c {
@@ -136,7 +136,7 @@ G-VIIBasso = {
     R1*10 \noBreak %173
     R1\fermata \bar "||"
     \time 4/2 \tempoG-VIIe \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr d1\fE^\tutti a'2 f \noBreak %175
     b a4( g) f e d2~
     d cis d4( e f d)
@@ -159,7 +159,7 @@ G-VIIBasso = {
     c2 f c1 \noBreak %195
     f,\breve\fermata \bar "||"
     \time 4/4 \tempoG-VIIf \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*3
     \mvTr e'8\pE^\solo e gis h c2~ %200
     c8 c h4. h8 a4~

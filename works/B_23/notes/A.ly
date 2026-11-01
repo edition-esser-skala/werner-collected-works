@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXIIIKyrieAlto = {
   \relative c' {
@@ -91,7 +91,7 @@ B-XXIIICredoAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/2 \tempoB-XXIIICredo \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*2
     g'1 f2 d
     e c'1 h2~
@@ -144,7 +144,7 @@ B-XXIIICredoAlto = {
     d\breve \noBreak
     e\fermata \bar "||"
     \time 3/2 \tempoB-XXIIIEtIncarnatus \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       e2 e e \noBreak
     fis fis g
     g g fis %55
@@ -162,7 +162,7 @@ B-XXIIICredoAlto = {
     d4 e \appoggiatura d2 cis2.\trill d4 \noBreak
     d1.\fermata \bar "||"
     \time 4/2 \tempoB-XXIIICrucifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       d2. d4 g1 \noBreak
     g a2. a4 %70
     f1 g2 g~
@@ -178,7 +178,7 @@ B-XXIIICredoAlto = {
     f e4 d e1 \noBreak
     f\breve\fermata \bar "||"
     \time 3/2 \tempoB-XXIIIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       e2 g4 g g g \noBreak
     r e a g g g
     r c a2 fis %85
@@ -397,7 +397,7 @@ B-XXIIISanctusAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/2 \autoBeamOff \tempoB-XXIIISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     e2 f1 e4( d)
     e f g1 f2~
     f es d1~
@@ -416,7 +416,7 @@ B-XXIIISanctusAlto = {
     g4 d g2. f8[ e] d2 \noBreak
     e\breve\fermata \bar "||"
     \time 3/2 \tempoB-XXIIIOsanna \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r2 r c \noBreak
     f2.( e4 a2)
     g2 r4 f2 e4 %20
@@ -484,7 +484,7 @@ B-XXIIIBenedictusAlto = {
   \relative c' {
     \clef treble
     \key a \minor \time 4/2 \autoBeamOff \tempoB-XXIIIBenedictus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a'1 a2 a~
     a gis a1
     R\breve*2
@@ -515,7 +515,7 @@ B-XXIIIAgnusAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/2 \tempoB-XXIIIAgnus \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*2
     r1 c~
     c2 h cis d~

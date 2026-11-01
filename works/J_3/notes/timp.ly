@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 J-III-Timpani = {
   \relative c {
@@ -16,7 +16,7 @@ J-III-Timpani = {
     g r8 g c c16 c c8 c \noBreak
     c g16 g c g c8 g g r4
     \time 3/4 \tempoJ-III-b
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*9 %21
     \time 4/4 \tempoJ-III-c c4\fE r8 c16 c g8 g16 g g8 g \noBreak
     c4 r8 c16 c g8 g g8. g32 g
@@ -36,7 +36,7 @@ J-III-Timpani = {
     g4 r r2 %60
     R1*3
     \time 3/4 \tempoJ-III-e
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*12 %75
     r8 c16\fE g c8 c16 c g8 g
     r c16 g c8 c16 c g8 g

@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XLIViolinoI = {
   \relative c' {
     \clef treble
     \key g \minor \time 4/2 \tempoF-XLI
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     b'1 c2 d
     es1 d2 b
     c1 b

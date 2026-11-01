@@ -300,7 +300,7 @@ B-XXXIXCredoBasso = {
     g4 r r2 \noBreak %70
     R1\fermata \bar "||"
     \time 2/1 \tempoB-XXXIXCrucifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr g'1\fE^\tuttiE d2 f~ \noBreak
     f es4( d) es2. es4
     d g, g'1 f2
@@ -322,7 +322,7 @@ B-XXXIXCredoBasso = {
     g1. g2 \noBreak %90
     d'\breve\fermata \bar "||"
     \key c \major \time 3/4 \tempoB-XXXIXEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R2.*3
     \mvTr g,4\fE^\tutti g' g %95
     e c' c

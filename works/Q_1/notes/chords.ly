@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 Q-IChords = {
   \relative c' {
@@ -56,7 +56,7 @@ Q-IChords = {
     s \noBreak %50
     s \bar "||"
     \time 3/4 \tempoQ-Ib \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       s2. \noBreak
     s
     s

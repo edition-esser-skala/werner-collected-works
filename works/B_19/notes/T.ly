@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XIXKyrieTenore = {
   \relative c' {
@@ -144,7 +144,7 @@ B-XIXGloriaTenore = {
     r4 c2 c4 e c \noBreak %35
     a f c1
     \time 4/2 \tempoB-XIXQuiSedes \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       f2 r r4 \mvTr b\fE^\tutti a g \noBreak
     f d' c b a2 g
     a4( d c b) a( b) c2
@@ -156,7 +156,7 @@ B-XIXGloriaTenore = {
     e!) f \noBreak %45
     R\breve\fermata \bar "||"
     \time 4/4 \tempoB-XIXQuoniam \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*7 \noBreak %53
     R1\fermata \bar "|"
     \tempoB-XIXCumSancto

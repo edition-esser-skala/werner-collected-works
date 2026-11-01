@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 N-XIXViolinoI = {
   \relative c' {
@@ -37,7 +37,7 @@ N-XIXViolinoI = {
     b, f d' b f f' b, f f' \noBreak
     b, d8 b f'4 } b2 r\fermata \bar "||"
     \time 3/4 \tempoN-XIXb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \tupletNeutral
       r4 g,\p a8.\trill g32( a) \noBreak %30
     b8( c) c8.\trill \once \slurDashed b32( c) d8( b)

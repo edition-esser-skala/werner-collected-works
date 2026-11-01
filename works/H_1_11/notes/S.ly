@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-XIaSoprano = {
   \relative c' {
@@ -334,7 +334,7 @@ H-I-XIeSoprano = {
   \relative c' {
     \clef treble
     \key g \major \time 3/4 \autoBeamOff \tempoH-I-XIea
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr h'8.\fE^\tutti c16 d8 h c a
     h h16([ c)] d8 h c a
     h h e4. d8

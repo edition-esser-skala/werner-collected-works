@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-IIDixitOrgano = {
   \relative c {
@@ -353,7 +353,7 @@ H-I-IIBeatusOrgano = {
   \relative c {
     \clef bass
     \key a \major \time 3/4 \tempoH-I-IIBeatusA
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr a2\pE-\solo h4
     cis a cis
     d2 cis4~

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXIXKyrieViolinoI = {
   \relative c' {
@@ -44,7 +44,7 @@ B-XXIXGloriaViolinoI = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \tempoB-XXIXGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     fis'16\fE a d a fis8 e d e
     fis16 d a' g fis a e a fis8.\trill fis16
     e8 e a g fis g16 a
@@ -89,7 +89,7 @@ B-XXIXCredoViolinoI = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \tempoB-XXIXCredo
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r16 fis\fE a fis d'8 a e a
     r16 fis a fis d'8 a h g'
     r16 fis a fis e a fis d \sbOn \tuplet 3/2 8 { cis d e d e fis }
@@ -130,7 +130,7 @@ B-XXIXCredoViolinoI = {
     b8 \tuplet 3/2 8 { g'16\trill f g e d \hA e cis h? \hA cis \sbOff } d2~ \noBreak %40
     d8. e16 e4\trill d r\fermata \bar "||"
     \key d \major \time 3/4 \tempoB-XXIXEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       d16\fE a32( h cis d) e16 fis8 d32( e fis g) a8 fis \noBreak
     e16 cis32( d e fis) g16 a8 a,32( h cis d) e8 a
     fis8 a32( g fis e) d8 fis32( e d cis) h8 d32( cis h a)
@@ -215,7 +215,7 @@ B-XXIXSanctusViolinoI = {
     e4. e8 d d d4 \noBreak
     d r r2\fermata \bar "||" %20
     \key e \minor \time 3/4 \tempoB-XXIXBenedictus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r8 e\f h( a) h, a' \noBreak
     g16( a32 h c d e fis) g8 c, d,16( fis) a( c)
     h( c32 d e fis g a) h8 d, h16( d) g( h)
@@ -234,7 +234,7 @@ B-XXIXSanctusViolinoI = {
     R2. \noBreak
     R\fermata \bar "||"
     \key d \major \time 4/2 \tempoB-XXIXOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*7 %46
     a,2\fE h2. g4 cis2~
     cis4 a d2. h4 e cis

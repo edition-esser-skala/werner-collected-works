@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VIIITenore = {
   \relative c' {
@@ -58,7 +58,7 @@ G-VIIITenore = {
     r g8 a h c c([ h)] \noBreak
     c4 r r2\fermata \bar "||" %55
     \time 3/4 \tempoG-VIIIc \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*3
     \mvTr g4\pE^\solo b d
     es c r %60

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VIIISoprano = {
   \relative c' {
@@ -60,7 +60,7 @@ G-VIIISoprano = {
     f e16([ d)] e([ g)] f([ e)] d8 e d4\trill \noBreak
     e r r2\fermata \bar "||" %55
     \time 3/4 \tempoG-VIIIc \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 \mvTr c(\pE^\solo f) \noBreak
     d c b
     a4. a8 a4

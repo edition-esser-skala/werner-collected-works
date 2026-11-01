@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-XIIIDixitOrgano = {
   \relative c {
@@ -589,7 +589,7 @@ H-I-XIIIPueriOrgano = {
   \relative c {
     \clef bass
     \key a \minor \time 3/4 \tempoH-I-XIIIPueri
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr a'2\pE-\solo e4
     g2 d4
     a'2 g4
@@ -868,7 +868,7 @@ H-I-XIIIMagnificatOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoH-I-XIIIMagnificat
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr c2\fE-\tutti c4
     h g c
     g' c c,

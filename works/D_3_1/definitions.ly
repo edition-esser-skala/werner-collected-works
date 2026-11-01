@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoD-III-Ia = \tempoTitleMarkup "Pars Prima" "[no tempo]"
 tempoD-III-Ib = \tempoMarkup "Pars 2:da"

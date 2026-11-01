@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-IIIDixitSoprano = {
   \relative c' {
@@ -289,7 +289,7 @@ H-I-IIIBeatusSoprano = {
   \relative c' {
     \clef treble
     \key d \minor \time 3/4 \autoBeamOff \tempoH-I-IIIBeatus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*10 %10
     \mvTr d'4\fE^\tutti d, d'
     cis4. e8 d \hA cis

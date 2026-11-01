@@ -1,9 +1,6 @@
-\version "2.24.0"
+\version "2.26.0"
 
-tf = \revert LyricText.font-name
-tr = \revert LyricText.font-name
-tsf = \revert LyricText.font-name
-
+#(define option-is-full-score #f)
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
 #(define option-instrument-name "vl 1")

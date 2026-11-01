@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXXIVKyrieOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoB-LXXIVKyrie
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     c'8.-\tutti e32 d c8 g e g
     c,4 r r
     c'8. e32 d c8 g e g
@@ -472,7 +472,7 @@ B-LXXIVCredoOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoB-LXXIVCredo
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     c4.-\tutti c8 c' c,
     g4. g8 g' g,
     c4. c8 e e

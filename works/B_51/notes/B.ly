@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LIKyrieBasso = {
   \relative c {
@@ -250,7 +250,7 @@ B-LICredoBasso = {
     f1 f2 \noBreak %40
     c1.\fermata \bar "||"
     \tempoB-LICrucifixus \time 2/1
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr f1\fE^\tuttiE e \noBreak
     g fis2 f4 f
     e2 es d4 g, g'2~
@@ -272,7 +272,7 @@ B-LICredoBasso = {
     d1. d2 \noBreak %60
     g,\breve\fermata \bar "||"
     \time 3/2 \tempoB-LIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*5 %66
     r2 r r4 \mvTr c'~\pE^\solo
     c b!2 a g4~

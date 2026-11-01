@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoI-IV-La = \tempoMarkup "Andante"
 tempoI-IV-Lb = \tempoMarkup "Largo"

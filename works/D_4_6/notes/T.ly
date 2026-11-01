@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-IV-VITenore = {
   \relative c' {
@@ -7,7 +7,7 @@ D-IV-VITenore = {
       \once \omit Staff.TimeSignature
     s4*6 \bar "||"
     \time 4/2
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve \noBreak
     r1 c
     a2 d2. c4 c2(

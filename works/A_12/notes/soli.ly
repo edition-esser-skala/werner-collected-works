@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 A-XIIScenaPrimaSoli = {
   \relative c' {
@@ -740,7 +740,7 @@ A-XIIAriaQuintaSoli = {
   \relative c' {
     \clef "treble_8"
     \key d \minor \time 3/4 \autoBeamOff \tempoA-XIIAriaQuinta
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*8 %8
     r4 d a
     f16([ e] d4) f'8 e d %10
@@ -1379,7 +1379,7 @@ A-XIIAriaOctavaSoli = {
     R1*2 %41
     R1\fermataFine
     \key d \minor \time 3/4 \tempoA-XIIAriaOctavaB \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       d'8([ cis] d4) a \noBreak
     b!8([ a] \once \stemUp b4) g
     cis8([ d] e4) g, %45
@@ -1629,7 +1629,7 @@ A-XIIAriaNonaSoli = {
   \relative c' {
     \clef "treble_8"
     \key c \dorian \time 3/4 \autoBeamOff \tempoA-XIIAriaNona
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     g4 es' h
     c8.([ b32 as?] g4.) f8
     es4 r r

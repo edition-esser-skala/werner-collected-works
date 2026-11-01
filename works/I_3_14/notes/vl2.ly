@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-XIVViolinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoI-III-XIVa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*3
     r8 e'16\f d e8 e, c e
     d d'16 c d8 d, h d %5
@@ -56,7 +56,7 @@ I-III-XIVViolinoII = {
     \sbOn c16. h32 \tuplet 3/2 8 { a16 g f } \sbOff \appoggiatura e8 d4\trill \noBreak
     c r\fermata \bar "||" %75
     \key c \dorian \time 3/4 \tempoI-III-XIVd \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \after 4*0 ^\conSord R2.*3
     r4 g'2~\pE
     g8 es c4 r %80

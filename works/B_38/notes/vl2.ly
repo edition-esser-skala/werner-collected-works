@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXVIIIKyrieViolinoII = {
   \relative c' {
@@ -80,7 +80,7 @@ B-XXXVIIIGloriaViolinoII = {
     f,4 r r16 g32 g h16 d g d h d \noBreak %15
     g,8 h\p c( h) c a-! a-! a-! \bar "|"
     \time 3/4 \tempoB-XXXVIIIGlorificamus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \revert Score.SpacingSpanner.common-shortest-duration
       h8\f g16 a h c d e! d e f g \noBreak
     e8 g4\p c, e8
@@ -161,7 +161,7 @@ B-XXXVIIIGloriaViolinoII = {
     e32 g,, a h c d e f g c, d e f g a h c g a h c d e f g c, d e f g a h \noBreak
     c4 r r2\fermata \bar "||"
     \time 3/4 \tempoB-XXXVIIIQuoniam \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*8 %140
     d,8\trill\f \tuplet 3/2 8 { d16 e f } g8 d16 e f8.\trill e32 d
     e8 \tuplet 3/2 8 { g16 a h } c8 g16 a b8.\trill a32 g
@@ -302,7 +302,7 @@ B-XXXVIIICredoViolinoII = {
     R1*10 \noBreak %69
     R1\fermata \bar "||" %70
     \key c \major \time 3/4 \tempoB-XXXVIIIEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2. \noBreak
     r8 c4\fE e8 g d
     e g16 e c4 r

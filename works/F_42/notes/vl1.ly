@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XLIIaViolinoI = {
   \relative c' {
     \clef treble
     \key d \minor \time 3/2 \tempoF-XLIIa
-      \set Staff.timeSignatureFraction = 3/2
+      \set Staff.timeSignature = 3/2
     r4 a' b2 a4 d
     d c b4. b8 a4 d~
     d cis d a b8 c d e

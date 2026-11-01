@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XXXIViolinoII = {
   \relative c' {
@@ -60,7 +60,7 @@ I-IV-XXXIViolinoII = {
     c( g) \tuplet 3/2 8 { f e d c d e d c h } \sbOff \noBreak
     c4 r\fermata \bar "||"
     \key c \dorian \time 3/4 \tempoI-IV-XXXIe
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \after 4*0 -\conSord R2. \noBreak
     r8 f'\pE es( d) c( h) %80
     c16 d es8 c4 r

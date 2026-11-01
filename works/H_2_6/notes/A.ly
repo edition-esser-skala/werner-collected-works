@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-II-VIAlto = {
   \relative c' {
@@ -61,7 +61,7 @@ H-II-VIAlto = {
     R1*7 \noBreak %63
     R1\fermata \bar "||"
     \key b \major \time 4/2 \tempoH-II-VIAsperges \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r2 \mvTr f\fE^\tuttiE f f \noBreak %65
     d g1 f2
     f a a g
@@ -75,10 +75,10 @@ H-II-VIAlto = {
     d2 f1 e4( d) \noBreak %75
     e1 d\fermata \bar "||"
     \key f \major \time 4/4 \tempoH-II-VIAuditui \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*4 %80
     \time 3/4 \tempoH-II-VIExultabunt
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*14 \noBreak %94
     R2.\fermata \bar "||" %95
     \key g \minor \time 4/4 \tempoH-II-VIAverte
@@ -162,7 +162,7 @@ H-II-VIAlto = {
       R1*18 \noBreak %217
     R1\fermata \bar "||"
     \time 4/2 \tempoH-II-VITunc \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr a1\fE^\tuttiE b2. b4 \noBreak
     a2 b1 a2 %220
     g1 f
@@ -180,7 +180,7 @@ H-II-VIAlto = {
     e( f1) e2 \noBreak
     f\breve\fermata \bar "||"
     \time 4/4 \tempoH-II-VIGloria \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r8 \mvTr f16([\pE^\solo^\aTreE g]) a8 e f16([ e)] f8 r a \noBreak %235
     f16([ g] a4) g8 a4 r
     e4. a8 fis g16 g g8([ fis)]

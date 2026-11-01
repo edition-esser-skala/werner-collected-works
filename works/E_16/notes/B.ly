@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 E-XVIBasso = {
   \relative c {
     \clef bass
     \key b \major \time 3/4 \autoBeamOff \tempoE-XVI
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr b'2\pE^\solo a8([ g)]
     f2 g4
     a2 b4

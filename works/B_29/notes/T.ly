@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXIXKyrieTenore = {
   \relative c' {
@@ -76,7 +76,7 @@ B-XXIXGloriaTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \major \time 3/4 \autoBeamOff \tempoB-XXIXGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr a4\fE^\tutti r8 a a a
     a4 r8 a a8. a16
     a4 r a8 h16([ cis)]
@@ -180,7 +180,7 @@ B-XXIXCredoTenore = {
   \relative c' {
     \clef "treble_8"
     \key d \major \time 3/4 \autoBeamOff \tempoB-XXIXCredo
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvDl a8\fE^\tuttiE a r a a a
     a a r d d d
     d a4 a8 a4
@@ -205,7 +205,7 @@ B-XXIXCredoTenore = {
     \key g \minor R1*8 \noBreak %40
     R1\fermata \bar "||"
     \key d \major \time 3/4 \tempoB-XXIXEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr a4\fE^\tuttiE r8 d d d \noBreak
     cis cis r e a, cis
     d d r4 d8 h~
@@ -364,11 +364,11 @@ B-XXIXSanctusTenore = {
     h4 c4.( h8) a4 \noBreak
     h r r2\fermata \bar "||" %20
     \key e \minor \time 3/4 \tempoB-XXIXBenedictus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*18 \noBreak %38
     R2.\fermata \bar "||"
     \key d \major \time 4/2 \tempoB-XXIXOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*3 %42
     \mvTr a1\fE^\tuttiE h2 gis4 e
     cis'2 a4( fis) d'2 h4( gis)

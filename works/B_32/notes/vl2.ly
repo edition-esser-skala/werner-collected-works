@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXIIKyrieViolinoII = {
   \relative c' {
@@ -73,7 +73,7 @@ B-XXXIIGloriaViolinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoB-XXXIIGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     c'16\fE g' e g c g e g c g e g
     d g, h d g d h d g d h d
     e e( f g) r c,( d e) r g,( a b)
@@ -101,7 +101,7 @@ B-XXXIIGloriaViolinoII = {
     d( c) c4 r8 c c c \noBreak
     c( h) r4 r2 %25
     \key c \major \time 3/4 \tempoB-XXXIIGlorificamus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 r8 g32(\f a h c) d4 \noBreak
     r8 g32( f e d) c4 r8 e32( d c h)
     a8 c32( h a g) f8 a32( g f e) d8 f32( e d c)
@@ -213,7 +213,7 @@ B-XXXIICredoViolinoII = {
     h'8 d g16 d h g e c' a f' d8 g \noBreak
     e16 c g' e c' g e g c,4 r\fermata \bar "||"
     \key d \minor \time 3/4 \tempoB-XXXIIEtIncarnatus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*33 \noBreak %65
     R2.\fermata \bar "||"
     \key g \minor \time 4/4 \tempoB-XXXIICrucifixus \newSpacingSection
@@ -232,7 +232,7 @@ B-XXXIICredoViolinoII = {
     g h g' es, d g,16 a h c d8~ \noBreak
     d g, c16 h c8 \hA h4 r\fermata \bar "||" %80
     \key c \major \time 3/4 \tempoB-XXXIIEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       e4\fE c2~ \noBreak
     c8 d e4. e8
     d4 g2~

@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-VIIIViolinoI = {
   \relative c' {
     \clef treble
     \key d \dorian \time 2/1 \tempoF-VIII
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*3
     r1 a'~
     a2 f c'1~ %5

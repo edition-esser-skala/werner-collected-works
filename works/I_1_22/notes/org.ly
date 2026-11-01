@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XXIIOrgano = {
   \relative c {
@@ -18,7 +18,7 @@ I-I-XXIIOrgano = {
     g16-\markup \remark "org solo" g' fis g e c h c a a' g a fis d c d \noBreak
     h8 c d d, g4 r\fermata \bar "||"
     \key c \major \time 3/4 \tempoI-I-XXIIb
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr c4\fE-\solo r r \noBreak
     c r r %15
     c8. c32 c e8 c h c

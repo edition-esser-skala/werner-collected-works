@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-XXISoprano = {
   \relative c' {
     \clef treble
     \key g \major \time 3/4 \autoBeamOff \tempoG-XXIa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr d'4(\fE^\tutti e4.) e8
     cis4 d2
     h4( cis e)

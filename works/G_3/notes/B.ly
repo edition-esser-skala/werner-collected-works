@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-IIIBasso = {
   \relative c {
@@ -39,7 +39,7 @@ G-IIIBasso = {
     d' b es c d([ d')] b([ g]) \noBreak
     d2 g,\fermata \bar "||"
     \time 3/4 \tempoG-IIIc
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2. \noBreak %50
     r4 \mvTr as'\pE^\solo g
     as b( b,)

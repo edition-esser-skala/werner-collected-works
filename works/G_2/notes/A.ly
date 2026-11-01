@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-II-Alto = {
   \relative c' {
@@ -106,7 +106,7 @@ G-II-Alto = {
     R1*7 \noBreak %111
     R1\fermata \bar "||"
     \time 4/2 \tempoG-II-e \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*3 %115
     \mvTr g'1\fE^\tuttiE g2 d
     b' a4( g) f!2. e8[ d]
@@ -129,7 +129,7 @@ G-II-Alto = {
     f2 f4 f f1 \noBreak
     f\breve\fermata \bar "||" %135
     \time 4/4 \tempoG-II-f \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr g4.\pE^\solo d8 es4 e16([ d)] \hA e8 \noBreak
     f c r f f([ d)] b([ f')]
     g4.( f8) e4 g

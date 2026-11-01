@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 E-IIIaSoprano = {
   \relative c' {
@@ -115,7 +115,7 @@ E-IIIbSoprano = {
     \clef treble
     \key b \major \time 3/4 \autoBeamOff \tempoE-IIIb
       \set Score.currentBarNumber = #45
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr b'4\fE^\tuttiE b b
     a( c) b
     a4. a8 a4

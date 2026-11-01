@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXIKyrieBasso = {
   \relative c {
@@ -150,7 +150,7 @@ B-LXICredoBasso = {
     d1. \noBreak
     g,\fermata \bar "||"
     \key c \major \time 4/2 \tempoB-LXIEtIncarnatus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       e'\breve \noBreak
     d1 cis
     d g %55
@@ -238,7 +238,7 @@ B-LXISanctusBasso = {
   \relative c {
     \clef bass
     \key g \major \time 4/2 \autoBeamOff \tempoB-LXISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r2 g'1( e2)
     c a'1( fis2)
     d h'2. h4 g( e
@@ -257,7 +257,7 @@ B-LXISanctusBasso = {
     d'\breve \noBreak
     g,\fermata \bar "||"
     \time 3/2 \tempoB-LXIOsanna \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1. \noBreak %20
     r2 d' g~
     g4 e a2. fis4
@@ -337,7 +337,7 @@ B-LXIBenedictusBasso = {
   \relative c {
     \clef bass
     \key g \major \time 4/2 \autoBeamOff \tempoB-LXIBenedictus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     g'1 e
     d a2 a'
     e1 d2 d'
@@ -374,7 +374,7 @@ B-LXIAgnusBasso = {
   \relative c {
     \clef bass
     \key g \major \time 4/2 \autoBeamOff \tempoB-LXIAgnus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     g'1. fis2
     g( e) cis d
     a'2.( g4) fis2 e
@@ -397,7 +397,7 @@ B-LXIAgnusBasso = {
     a\breve \noBreak
     d\fermata \bar "||"
     \time 3/2 \tempoB-LXIDona \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*3 %31
     d2( e) d
     r4 g2 fis4 g8[ d] g4~

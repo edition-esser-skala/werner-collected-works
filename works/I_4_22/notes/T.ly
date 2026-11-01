@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XXIITenore = {
   \relative c' {
     \clef "treble_8"
     \key a \major \time 3/4 \autoBeamOff \tempoI-IV-XXII
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*17 %17
     \mvTr fis,4\fE^\tutti d' h8([ e)]
     e4. e8 e4

@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-IOrgano = {
   \relative c {
     \clef treble
     \twotwotime \key c \major \time 4/2 \tempoI-III-I
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c'1
     << {
       g'
@@ -76,7 +76,7 @@ I-III-IOrgano = {
     f e f c
     r e\f f c %50
     \time 4/4 \tempoI-III-Ib
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       f, c'\fermata \bar "|." %51 finis
   }
 }

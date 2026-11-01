@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoB-LXIIIKyrie = \tempoTitleMarkup "Alla capella" "Allegro"
   tempoB-LXIIIChriste = \tempoTitleMarkup "Christe" "[no tempo]"

@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-V-VAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 2/1 \tempoI-V-Va \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     \mvDl c'1\fE^\tuttiE c
     c a2( f)
     g2. g4 c,2 c
@@ -21,7 +21,7 @@ I-V-VAlto = {
     g \mvTr g2.\fE^\tutti g4 g2 \noBreak
     g1 g2 r %15
     \time 4/4 \tempoI-V-Vb \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       c,2 d4 e \noBreak
     f8([ g f e] d4.) d8
     c4 r r2

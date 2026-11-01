@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-XVIISoprano = {
   \relative c' {
@@ -98,7 +98,7 @@ G-XVIISoprano = {
     f e e2 \noBreak
     e1\fermata \bar "||"
     \time 4/2 \tempoG-XVIIf \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*8 %121
     \mvTr c'1\fE^\tuttiE g'
     g,2 g' g f!
@@ -125,7 +125,7 @@ G-XVIISoprano = {
     h\breve \noBreak
     a\fermata \bar "||" %145
     \time 4/4 \tempoG-XVIIg \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr h4.\pE^\solo h8 cis4 d8 e \noBreak
     a,4 h8 c d4. d8
     g,4 g8 a16([ h)] c8 c c4

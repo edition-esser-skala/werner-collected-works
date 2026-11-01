@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-III-VIaSoprano = {
   \relative c' {
     \clef treble
     \key f \major \time 4/2 \tempoD-III-VIaa \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c'1 d2 d
     d c1 b2
     b es d d
@@ -40,7 +40,7 @@ D-III-VIaSoprano = {
     c\breve \noBreak
     c\fermata \bar "||" %40
     \time 3/2 \tempoD-III-VIac
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       a2.^\aTre a4 f'2 \noBreak
     e d c4 b
     a d, d'1
@@ -115,7 +115,7 @@ D-III-VIbSoprano = {
   \relative c' {
     \clef treble
     \key d \minor \time 4/2 \tempoD-III-VIba \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a'1 g2 a
     a f'4( e d cis d2)
     cis1 r2 c
@@ -141,7 +141,7 @@ D-III-VIbSoprano = {
     e d1 cis4 h? \noBreak
     cis2. cis4 d1\fermata \bar "||"
     \key a \minor \time 3/2 \tempoD-III-VIbc
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r2 e^\aTre c! \noBreak %25
     h e, e'
     d1( c2)
@@ -210,7 +210,7 @@ D-III-VIcSoprano = {
   \relative c' {
     \clef treble
     \key a \minor \time 4/2 \tempoD-III-VIca \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c'1( h2 cis)
     d d1 c4 h
     a2 c h a
@@ -231,7 +231,7 @@ D-III-VIcSoprano = {
     gis( a1) gis2 \noBreak
     a\breve\fermata \bar "||"
     \time 3/2 \tempoD-III-VIcb
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*4 %23
     r2 e e'
     dis h, d' %25
@@ -259,7 +259,7 @@ D-III-VIcSoprano = {
     e a,1 \noBreak
     a1.\fermata \bar "||"
     \time 4/2 \tempoD-III-VIcc
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       g!1^\aTre c2 h4 h \noBreak
     c2 a2.( h4) c2 %50
     h( c) h h

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-II-XIIaOrgano = {
   \relative c {
@@ -349,7 +349,7 @@ D-II-XIIdOrgano = {
   \relative c {
     \clef bass
     \key d \dorian \time 4/2 \tempoD-II-XIId
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d1. d2
     d1 d2 d
     f1 c2 d~

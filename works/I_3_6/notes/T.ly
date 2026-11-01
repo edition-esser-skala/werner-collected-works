@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-VITenore = {
   \relative c' {
@@ -7,7 +7,7 @@ I-III-VITenore = {
     R1*17 \noBreak %17
     R1\fermata \bar "||"
     \time 3/4 \tempoI-III-VIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*11 %29
     r8 \mvTr e\pE^\solo d c h a %30
     f'([ a,)] gis([ d')] c([ h)]

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-VIIIKyrieOrgano = {
   \relative c {
@@ -323,7 +323,7 @@ B-VIIIBenedictusOrgano = {
     cis,8\fE cis' fis, gis e fis gis4 \noBreak
     cis, r r2\fermata \bar "||"
     \clef bass \time 4/2 \tempoB-VIIIOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << {
       s\breve \noBreak %8
       h'1 cis4 dis e2

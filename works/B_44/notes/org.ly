@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLIVKyrieOrgano = {
   \relative c {
@@ -462,7 +462,7 @@ B-XLIVBenedictusOrgano = {
     a!2 g1 \noBreak
     fis r2\fermata \bar "||" %15
     \key d \major \time 4/2 \tempoB-XLIVOsanna
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << {
       s\breve \noBreak
       a1 gis4 h d2~

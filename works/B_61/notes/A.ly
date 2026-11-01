@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXIKyrieAlto = {
   \relative c' {
@@ -166,7 +166,7 @@ B-LXICredoAlto = {
     fis( g2 fis8[ e] fis2) \noBreak
     g1.\fermata \bar "||"
     \key c \major \time 4/2 \tempoB-LXIEtIncarnatus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       g1 g2 g \noBreak
     f!( b1) a4( g)
     f2 a a g4( f) %55
@@ -261,7 +261,7 @@ B-LXISanctusAlto = {
   \relative c' {
     \clef treble
     \key g \major \time 4/2 \autoBeamOff \tempoB-LXISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r2 d g1~
     g4 e cis2 a'1~
     a4 fis d2 h'2.( g4)
@@ -282,7 +282,7 @@ B-LXISanctusAlto = {
     d1 d \noBreak
     d\breve\fermata \bar "||"
     \time 3/2 \tempoB-LXIOsanna \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       d2 g2. e4 \noBreak %20
     a2. fis4 h g
     r g e c a'2
@@ -364,7 +364,7 @@ B-LXIBenedictusAlto = {
   \relative c' {
     \clef treble
     \key g \major \time 4/2 \autoBeamOff \tempoB-LXIBenedictus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r1 r2 g'~
     g fis e2. fis4
     g e g1 fis2
@@ -401,7 +401,7 @@ B-LXIAgnusAlto = {
   \relative c' {
     \clef treble
     \key g \major \time 4/2 \autoBeamOff \tempoB-LXIAgnus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     g'1. a2~
     a g1( fis2)
     e e a( c!)
@@ -431,7 +431,7 @@ B-LXIAgnusAlto = {
     e\breve \noBreak
     fis\fermata \bar "||"
     \time 3/2 \tempoB-LXIDona \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1. \noBreak
     d2( e) d %30
     r4 g2 fis4 g8[ d] g4~

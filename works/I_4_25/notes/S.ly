@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XXVSoprano = {
   \relative c' {
@@ -49,7 +49,7 @@ I-IV-XXVSoprano = {
     b4 r r2 \noBreak
     R1\fermata \bar "||"
     \time 4/2 \tempoI-IV-XXVe \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*3 %47
     r1 r2 \mvTr f\fE^\tutti
     g2.( f4) g2 a

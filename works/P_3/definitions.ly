@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoP-IIIa = \tempoMarkup "Allegro assai"
 tempoP-IIIb = \tempoMarkup "Larghetto"

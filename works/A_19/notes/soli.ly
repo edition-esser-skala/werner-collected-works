@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 A-XIXAScenaSecundaSoli = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoA-XIXAScenaSecunda
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     r8^\markup \remark "ardito"^\Debora g'\f d' h!16 g es8 es r g16 c
     b8 f as16 c b f g8. g16 g4
     r8 c as16 f d es es8. b16 b4
@@ -724,7 +724,7 @@ A-XIXAScenaSextaSoli = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \autoBeamOff \tempoA-XIXAScenaSexta
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     r8^\Barak f a c e,16 e e f g b d c
     a8 a r f a e g a
     f d f16 f a f d8 d r16 g b g
@@ -940,7 +940,7 @@ A-XIXAScenaSeptimaSoli = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoA-XIXAScenaSeptima
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     r8^\markup \remark "ardito"^\Sisera g d'16 d h! g es'8 c b16 b d \hA b
     g8 g r16 b b c des8. des16 des8 b
     g' e! des c as as r c
@@ -1720,7 +1720,7 @@ A-XIXBScenaQuartaSoli = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoA-XIXBScenaQuarta
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     es'8^\markup \remark "ardito"^\Jahel b r16 des f es c8. c16 c4
     r8 c, e! f g8. g16 g8 as
     b b des c \tempoA-XIXBScenaQuartaB as4 r

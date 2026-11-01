@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-II-XBasso = {
   \relative c {
     \clef bass
     \key c \major \time 6/2 \tempoH-II-IXa \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c\breve f2 c \noBreak
     g'\breve d2 a \fermata \bar "||"
     \time 4/2 \tempoH-II-IXb d1. d2 \noBreak

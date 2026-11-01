@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 J-III-ViolinoII = {
   \relative c' {
@@ -17,7 +17,7 @@ J-III-ViolinoII = {
     h, d g h c, a16 h c h c d \noBreak
     e f g4 c8 h g, r4
     \time 3/4 \tempoJ-III-b
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r16 g'\pp e( g) cis,( e) g,( b) e,( g) cis,8 \noBreak
     r16 a'' f( a) d,( f) a,( d) f,( a) d,8
     r16 h''! gis( h) d,( \hA gis) h,( d) a( c) a'8 %15
@@ -63,7 +63,7 @@ J-III-ViolinoII = {
     \sbOn \tuplet 3/2 8 { g16\f fis g h a h } \sbOff d h g d r2 %60
     R1*3
     \time 3/4 \tempoJ-III-e
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r8 c'\fE e c4 h8 \noBreak
     c16 e, g c e8 c4 h8 %65
     c g4 c h8

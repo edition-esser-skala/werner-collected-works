@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoB-XXXIXKyrie = \tempoMarkup "Allegretto o vivace"
   tempoB-XXXIXChriste = \tempoMarkup "Andante passato"

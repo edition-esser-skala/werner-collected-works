@@ -1,11 +1,11 @@
-\version "2.24.0"
+\version "2.26.0"
 
 E-IIIbBasso = {
   \relative c {
     \clef bass
     \key b \major \time 3/4 \autoBeamOff \tempoE-IIIb
       \set Score.currentBarNumber = #45
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr b4\fE^\tuttiE d b
     f'2 g4
     f4. f8 f4

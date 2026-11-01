@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-V-X-Alto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/2 \tempoI-V-X \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     e1 f
     e2 a a g
     f f e2. e4

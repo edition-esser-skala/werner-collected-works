@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-II-VIITenore = {
   \relative c' {
     \clef "treble_8"
     \key b \major \time 4/2 \tempoI-II-VII \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*2
     r1 b
     c2 d es1

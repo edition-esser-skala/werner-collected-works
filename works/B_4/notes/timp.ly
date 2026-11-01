@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-IVKyrieTimpani = {
   \relative c {
@@ -199,7 +199,7 @@ B-IVSanctusTimpani = {
     \tempoB-IVPleni R1*17 \noBreak %28
     R1\fermata \bar "||"
     \time 4/2 \tempoB-IVOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*21 %50
     r2 g\fE c4 c8 c c2
     c4 c8 c c4 c c2 c4 g

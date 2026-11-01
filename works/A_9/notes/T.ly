@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 A-IXScenaSecundaTenore = {
   \relative c' {
@@ -282,7 +282,7 @@ A-IXASScenaQuintaTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoA-IXASScenaQuintaA
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     R1*6 %6
     \time 2/4 \markTimeSig #'(2 4) R2
     \time 4/4 \markTimeSig #'(4 4) R1*3 %10

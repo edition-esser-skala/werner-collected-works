@@ -248,7 +248,7 @@ B-XXXIXCredoAlto = {
     h4 r r2 \noBreak %70
     R1\fermata \bar "||"
     \time 2/1 \tempoB-XXXIXCrucifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*3
     \mvTr g'1\fE^\tuttiE d2 f~ %75
     f es4( d) es2. es4
@@ -268,7 +268,7 @@ B-XXXIXCredoAlto = {
     a g4 fis g2 fis4( e?) \noBreak %90
     fis\breve\fermata \bar "||"
     \key c \major \time 3/4 \tempoB-XXXIXEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R2.*3
     \mvTr d4\fE^\tuttiE d g %95
     g g g

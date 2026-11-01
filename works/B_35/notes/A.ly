@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXVKyrieAlto = {
   \relative c' {
@@ -194,7 +194,7 @@ B-XXXVGratiasAlto = {
   \relative c' {
     \clef treble
     \key f \lydian \time 3/4 \autoBeamOff \tempoB-XXXVGratias
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \set Score.currentBarNumber = #36
     \mvTr c'4.\pE^\solo c,8 c16([ d e8)]
     f4. f8 f16([ g a8)]

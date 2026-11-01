@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-II-XAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 6/2 \tempoH-II-IXa \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     e\breve f2 e \noBreak
     d\breve d2 cis\fermata \bar "||"
     \time 4/2 \tempoH-II-IXb f!1 f \noBreak

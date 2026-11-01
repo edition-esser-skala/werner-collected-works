@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XIXKyrieAlto = {
   \relative c' {
@@ -147,7 +147,7 @@ B-XIXGloriaAlto = {
     cis2 r r
     R1.*5 %36
     \time 4/2 \tempoB-XIXQuiSedes \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r4 \mvTr d\fE^\tutti c b a f8[ g] a4 b
     c d e2 f g
     f2.( g4) a2 a
@@ -159,7 +159,7 @@ B-XIXGloriaAlto = {
     g) a \noBreak %45
     R\breve\fermata \bar "||"
     \time 4/4 \tempoB-XIXQuoniam \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr f4\pE^\solo g\trill a8 b \tuplet 3/2 8 { c16([ b a)] } g([ f)] \noBreak
     e8 f \tuplet 3/2 8 { g16([ a b)] a([ g f)] } c'8. c,16 c8 r
     r4 r8 d b'([ a16 g)] f([ a)] c([ es,)]

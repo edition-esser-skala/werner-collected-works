@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-XIaViolinoI = {
   \relative c' {
@@ -175,7 +175,7 @@ H-I-XIeViolinoI = {
   \relative c' {
     \clef treble
     \key g \major \time 3/4 \tempoH-I-XIea
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     g''8.\fE g16 g8 g e a
     g8. g16 g8 g e fis
     g4 r8 h h h

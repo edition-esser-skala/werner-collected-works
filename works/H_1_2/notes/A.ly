@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-IIDixitAlto = {
   \relative c' {
@@ -255,7 +255,7 @@ H-I-IIBeatusAlto = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \autoBeamOff \tempoH-I-IIBeatusA
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr e4\pE^\solo a gis
     a2 e4
     fis2 e4~

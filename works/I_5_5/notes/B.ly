@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-V-VBasso = {
   \relative c {
     \clef bass
     \key c \major \time 2/1 \tempoI-V-Va \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     \mvDl c'1\fE^\tuttiE c
     c a2( f)
     g2. g4 c,1
@@ -19,7 +19,7 @@ I-V-VBasso = {
     \mvTr g'4.(\fE^\tutti a8) h4 c h g8([ a)] h4 c \noBreak
     h g8([ a)] h4 c g g r2 %15
     \time 4/4 \tempoI-V-Vb \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*2
     c,4 d e8([ fis)] g4~
     g fis g2

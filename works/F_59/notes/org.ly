@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-LIXOrgano = {
   \relative c {
     \clef "treble_8"
     \key f \major \time 3/2 \tempoF-LIX
-      \set Staff.timeSignatureFraction = 3/2
+      \set Staff.timeSignature = 3/2
     << {
       r2 c'2. d4
       e c d e f2

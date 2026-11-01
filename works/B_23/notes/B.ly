@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXIIIKyrieBasso = {
   \relative c {
@@ -61,7 +61,7 @@ B-XXIIICredoBasso = {
   \relative c {
     \clef bass
     \key c \major \time 4/2 \tempoB-XXIIICredo \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c1 d2 e
     f d e( a)
     g g d1
@@ -106,7 +106,7 @@ B-XXIIICredoBasso = {
     R\breve*10 \noBreak %51
     R\breve\fermata \bar "||"
     \time 3/2 \tempoB-XXIIIEtIncarnatus \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       a'2 a a \noBreak
     d,2. d4 es2
     cis d2. d4 %55
@@ -124,7 +124,7 @@ B-XXIIICredoBasso = {
     g a2. a4 \noBreak
     d,1.\fermata \bar "||"
     \time 4/2 \tempoB-XXIIICrucifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       g2. g4 g1 \noBreak
     c, a'2. a4 %70
     b2 as g1~
@@ -140,7 +140,7 @@ B-XXIIICredoBasso = {
     c c \noBreak
     f,\breve\fermata \bar "||"
     \time 3/2 \tempoB-XXIIIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       c'4 e2 g4 c c, \noBreak
     r a' f g c, c
     r2 r4 a d2 %85
@@ -352,7 +352,7 @@ B-XXIIISanctusBasso = {
   \relative c {
     \clef bass
     \key c \major \time 4/2 \autoBeamOff \tempoB-XXIIISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c\breve~
     c
     c1 d~
@@ -371,7 +371,7 @@ B-XXIIISanctusBasso = {
     g\breve \noBreak
     c\fermata \bar "||"
     \time 3/2 \tempoB-XXIIIOsanna \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       c2 f2.( e4 \noBreak
     a2) g r4 f~
     f e a8[ g a h] c[ d c h] %20
@@ -439,7 +439,7 @@ B-XXIIIBenedictusBasso = {
   \relative c {
     \clef bass
     \key a \minor \time 4/2 \autoBeamOff \tempoB-XXIIIBenedictus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*2
     c'1 c2 c~
     c h c1
@@ -471,7 +471,7 @@ B-XXIIIAgnusBasso = {
   \relative c {
     \clef bass
     \key c \major \time 4/2 \tempoB-XXIIIAgnus \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c1. h2
     cis d1 c2
     h e a,1

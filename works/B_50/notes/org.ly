@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LKyrieOrgano = {
   \relative c {
@@ -222,7 +222,7 @@ B-LGloriaOrgano = {
     b g f \noBreak %30
     c' c, r
     \clef "treble_8" \time 4/2 \tempoB-LPropter \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       c''1-! f,2 << { g' } \\ { b, } >> \noBreak
     \clef bass f1 c
     d e2 f~
@@ -239,7 +239,7 @@ B-LGloriaOrgano = {
     c f c1 \noBreak %45
     f,\breve\fermata \bar "||"
     \key d \minor \time 4/4 \tempoB-LDomine \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr d'8\fE-\solo f cis a d8. e16 f8 d \noBreak
     a' cis, d h a4 r8 f'
     d e f f, h cis d4

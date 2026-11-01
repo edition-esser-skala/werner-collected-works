@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 N-XIViolone = {
   \relative c {
@@ -66,7 +66,7 @@ N-XIViolone = {
       g4
     } >> r\fermata \bar "||" %45
     \key c \major \time 3/4 \tempoN-XIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       c4(-.\fE c-. c-.) \noBreak
     c(-. c-.) r
     c4. e8 d( g,)
@@ -243,7 +243,7 @@ N-XIOrgano = {
       g4
     } >> r\fermata \bar "||" %45
     \key c \major \time 3/4 \tempoN-XIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       c4(-.\fE c-. c-.) \noBreak
     c(-. c-.) r
     c4. e8 d( g,)

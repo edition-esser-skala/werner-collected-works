@@ -119,7 +119,7 @@ B-VIICredoBasso = {
   \relative c {
     \clef bass
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIICredo
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r2 a' f g4( f)
     e( d) c( h) a2 d
     g, r f'! g4( f)
@@ -166,7 +166,7 @@ B-VIICredoBasso = {
     c g a1~ \noBreak %45
     a e'\fermata \bar "||"
     \time 3/2 \tempoB-VIIEtIncarnatus \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*9 %55
     r2 h h
     g'1 e2
@@ -185,7 +185,7 @@ B-VIICredoBasso = {
     gis a2. a4 \noBreak %70
     e'1 r2\fermata
     \time 2/1 \tempoB-VIIEtResurrexit \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*5 %76
     r1 r2 g~
     g a h c~
@@ -394,7 +394,7 @@ B-VIISanctusBasso = {
   \relative c {
     \clef bass
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c2. h8[ c] d2. c8[ d]
     e2. d8[ e] f2. e8[ f]
     g4 f e d8[ c] d1
@@ -573,7 +573,7 @@ B-VIIAgnusBasso = {
   \relative c {
     \clef bass
     \key c \major \time 2/1 \autoBeamOff \tempoB-VIIAgnus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r1 f2. e4
     d2( e) a,1
     R\breve*3 %5

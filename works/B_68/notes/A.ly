@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXVIIIKyrieAlto = {
   \relative c' {
@@ -123,7 +123,7 @@ B-LXVIIIGloriaAlto = {
     e4 fis dis1\trill \noBreak
     e1.\fermata \bar "||"
     \time 4/2 \tempoB-LXVIIIQuiTollis \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve \noBreak
     r1 g^\tutti %40
     e2( a) fis d
@@ -157,7 +157,7 @@ B-LXVIIIGloriaAlto = {
     g e d1~ \noBreak
     d d\fermata \bar "||"
     \time 3/2 \tempoB-LXVIIIQuoniam \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1. \noBreak
     r4 e^\solo f2 e
     e e r %75

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LKyrieSoprano = {
   \relative c' {
@@ -137,7 +137,7 @@ B-LGloriaSoprano = {
     d e f \noBreak %30
     e e r
     \time 4/2 \tempoB-LPropter \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve \noBreak
     r1 r2 c
     f, b1 a2
@@ -154,7 +154,7 @@ B-LGloriaSoprano = {
     g( a) g1 \noBreak %45
     a\breve\fermata \bar "||"
     \key d \minor \time 4/4 \tempoB-LDomine \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*4 %50
     \mvTr d8.\pE^\solo d,16 d8 r e'16.([\trill d32)] cis16.([\trill b!32)] a8 g
     \tuplet 3/2 8 { f16([ e d)] } d8 r4 b'16([ d)] g([ f)] e([\trill d)] c[(\trill b)]

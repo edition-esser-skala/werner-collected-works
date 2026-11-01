@@ -1,11 +1,11 @@
-\version "2.24.0"
+\version "2.26.0"
 
 E-IIIbTenore = {
   \relative c' {
     \clef "treble_8"
     \key b \major \time 3/4 \autoBeamOff \tempoE-IIIb
       \set Score.currentBarNumber = #45
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr d4\fE^\tuttiE b d
     c( a) b
     c4. c8 c4

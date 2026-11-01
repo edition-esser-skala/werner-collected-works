@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-XIIIDixitTenore = {
   \relative c' {
@@ -401,7 +401,7 @@ H-I-XIIIPueriTenore = {
   \relative c' {
     \clef "treble_8"
     \key a \minor \time 3/4 \autoBeamOff \tempoH-I-XIIIPueri
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*13 %13
     \mvTr e,4\pE^\solo g h
     e4. h8 g h %15
@@ -606,7 +606,7 @@ H-I-XIIIMagnificatTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 3/4 \autoBeamOff \tempoH-I-XIIIMagnificat
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r4 \mvTr e2\fE^\tutti
     d4 h c
     h c4. c8

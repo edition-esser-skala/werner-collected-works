@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LVIKyrieClarinoI = {
   \relative c' {
@@ -74,7 +74,7 @@ B-LVIGloriaClarinoI = {
     \tempoB-LVIEtInTerra R1*22 \noBreak %52
     R1\fermata \bar "||"
     \time 4/2 \tempoB-LVIGratias \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       e'2\fE e e g \noBreak
     e \pao d e1 %55
     d r
@@ -92,11 +92,11 @@ B-LVIGloriaClarinoI = {
     \pa d2 d4 d d2 d \pd \noBreak
     c\breve\fermata \bar "||" %80
     \time 4/4 \tempoB-LVIDomine \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*26 \noBreak %106
     R1\fermata \bar "||"
     \time 3/4 \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*74 \noBreak %181
     R2.\fermata \bar "||"
     \time 4/4 \tempoB-LVIQuoniam \newSpacingSection

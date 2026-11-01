@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 A-XIXIntroViolinoI = {
   \relative c' {
@@ -425,7 +425,7 @@ A-XIXAScenaSextaViolinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoA-XIXAScenaSexta
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     R2*53 %27
     f16.\ff f64 f f16 a c a f' c a16. a64 a a16 c f c a' f
     c' c32 c c16 a f f32 f f16 c a4 r
@@ -526,7 +526,7 @@ A-XIXAScenaSeptimaViolinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoA-XIXAScenaSeptima
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     R2*19 %9
     d16\ff d32 d d16 d f f32 f f16 f b b32 b b16 b d d32 d d16 d %10
     f4 r r16 g c16. g32 es16. g32 \hA es16. c32
@@ -878,7 +878,7 @@ A-XIXBScenaQuartaViolinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoA-XIXBScenaQuarta
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     R1*2
     r2 \tempoA-XIXBScenaQuartaB r8 c'16\pp des des8 e!16( f)
     f4 r a!16(\pocoF b) ges( e!) f( des) a!( b)

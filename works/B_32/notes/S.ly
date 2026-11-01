@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXIIKyrieSoprano = {
   \relative c' {
@@ -114,7 +114,7 @@ B-XXXIIGloriaSopranoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoB-XXXIIGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr e'4\fE^\tuttiE r8 e g e
     d4 r8 d g d
     e r g r e r
@@ -142,7 +142,7 @@ B-XXXIIGloriaSopranoI = {
     r8 g'4 g8 g([ fis)] fis4 \noBreak
     r8 f f f es[( d)] \hA es16([ d \hA es8)] %25
     \key c \major \time 3/4 \tempoB-XXXIIGlorificamus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       d4 r r \noBreak
     R2.*2
     r8 d d d \sbOn d16[ e \tuplet 3/2 8 { f e d] } \sbOff
@@ -300,7 +300,7 @@ B-XXXIIGloriaSopranoII = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoB-XXXIIGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \after 4*0 ^ \markup \remarkE "(col Imo)" s2.*17
     \key f \major \time 4/4 \tempoB-XXXIILaudamus \newSpacingSection
       R1 \noBreak
@@ -312,7 +312,7 @@ B-XXXIIGloriaSopranoII = {
     h([ c)] c4 r8 c c c \noBreak
     c([ h)] h d c \hA h c16([ \hA h)] c8 %25
     \key c \major \time 3/4 \tempoB-XXXIIGlorificamus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       h4 r r \noBreak
     R2.*2
     r8 h g g \sbOn h16[ c \tuplet 3/2 8 { d c h] } \sbOff
@@ -434,7 +434,7 @@ B-XXXIICredoSoprano = {
     h'8 d g16([ d h g)] e8 a g4 \noBreak
     g r r2\fermata \bar "||"
     \key d \minor \time 3/4 \tempoB-XXXIIEtIncarnatus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2. \noBreak
     \mvTr g4\pE^\SIsolo c8([ d)] es([ g,)]
     fis([ a] g4) \hA fis %35
@@ -471,7 +471,7 @@ B-XXXIICredoSoprano = {
       R1*13 \noBreak %79
     R1\fermata \bar "||" %80
     \key c \major \time 3/4 \tempoB-XXXIIEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr g,4\fE^\tutti e a \noBreak
     g2 c4
     h4. h8 e4

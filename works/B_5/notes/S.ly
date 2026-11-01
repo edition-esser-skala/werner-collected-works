@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-VKyrieSoprano = {
   \relative c' {
@@ -227,7 +227,7 @@ B-VGloriaSoprano = {
     R1*10 \noBreak %34
     R1\fermata \bar "||" %35
     \time 4/2 \tempoB-VDomine \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*2
     r1 \mvTr a1\fE^\tuttiE
     a2 gis a h
@@ -257,7 +257,7 @@ B-VGloriaSoprano = {
     d4 a d1 cis4 h \noBreak
     cis1 d\fermata \bar "||"
     \time 3/2 \tempoB-VQuiTollis \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r2 \mvTr c1\pE^\soloE \noBreak
     d2 d d
     e1 e2 %70
@@ -748,7 +748,7 @@ B-VSanctusSoprano = {
     d e d4. d8 \noBreak
     e2 r\fermata \bar "||" %10
     \key a \minor \time 3/4 \tempoB-VPleni \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r8 \mvTr e\pE^\solo c a e'16([ c)] h a \noBreak
     a8\trill gis r4 r
     R2.*6 %18

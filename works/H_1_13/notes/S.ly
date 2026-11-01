@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-XIIIDixitSoprano = {
   \relative c' {
@@ -409,7 +409,7 @@ H-I-XIIIPueriSoprano = {
   \relative c' {
     \clef treble
     \key a \minor \time 3/4 \autoBeamOff \tempoH-I-XIIIPueri
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr a'4\pE^\solo c2
     h4 d4. d8
     c4 e4. e8
@@ -596,7 +596,7 @@ H-I-XIIIMagnificatSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoH-I-XIIIMagnificat
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r4 \mvTr c'2\fE^\tutti
     d4. d8 e4
     d e4. e8

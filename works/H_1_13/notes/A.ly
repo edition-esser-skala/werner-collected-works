@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-XIIIDixitAlto = {
   \relative c' {
@@ -386,7 +386,7 @@ H-I-XIIIPueriAlto = {
   \relative c' {
     \clef treble
     \key a \minor \time 3/4 \autoBeamOff \tempoH-I-XIIIPueri
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*6 %6
     r4 \mvTr e\pE^\solo a~
     a gis a~
@@ -587,7 +587,7 @@ H-I-XIIIMagnificatAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoH-I-XIIIMagnificat
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r4 \mvTr g'2\fE^\tutti
     g4. g8 g4
     g g4. g8

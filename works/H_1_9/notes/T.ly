@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-IX-aTenore = {
   \relative c' {
@@ -469,7 +469,7 @@ H-I-IX-eTenore = {
   \relative c' {
     \clef "treble_8"
     \key a \minor \time 4/2 \autoBeamOff \tempoH-I-IX-e
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r2 a a gis
     a4( h c a h2) h4 h
     a2. h8([ c)] h2. h4

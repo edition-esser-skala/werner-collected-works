@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LVIKyrieTenore = {
   \relative c' {
@@ -187,7 +187,7 @@ B-LVIGloriaTenore = {
     R1*13 \noBreak %52
     R1\fermata \bar "||"
     \time 4/2 \tempoB-LVIGratias \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr e1.\fE^\tuttiE d4 d \noBreak
     c2 d4 d c1 %55
     h r
@@ -215,7 +215,7 @@ B-LVIGloriaTenore = {
     d\breve^\critnote \noBreak
     e\fermata \bar "||" %80
     \key e \minor \time 4/4 \tempoB-LVIDomine \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*10 %90
     \mvTr d4\pE^\solo e8 d16([ cis)] d([ a)] a8 r4
     d e8 d16([ cis)] d([ a)] a8 a h16([ cis)]
@@ -225,7 +225,7 @@ B-LVIGloriaTenore = {
     R1*11 \noBreak %106
     R1\fermata \bar "||"
     \key c \major \time 3/4 \tempoB-LVIQuiTollis \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 \mvTr g2\fE^\tutti \noBreak
     g4 g g
     a2 a4 %110
@@ -744,7 +744,7 @@ B-LVISanctusTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 3/4 \autoBeamOff \tempoB-LVISanctus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r4 \mvDl e\fE^\tutti h
     c c r
     R2.*5 %7

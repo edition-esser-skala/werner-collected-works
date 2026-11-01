@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-III-IIIaBasso = {
   \relative c {
     \clef bass
     \key b \major \time 4/2 \tempoD-III-IIIaa \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     b'1 g
     es c2 c
     h c g1
@@ -21,7 +21,7 @@ D-III-IIIaBasso = {
     g'\breve \noBreak
     f\fermata \bar "||" %15
     \time 3/2 \tempoD-III-IIIab
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       b,2 b'2. b4 \noBreak
     a c f, as2 as4
     g b es, g2 es4
@@ -101,7 +101,7 @@ D-III-IIIbBasso = {
   \relative c {
     \clef bass
     \key g \dorian \time 4/2 \autoBeamOff \tempoD-III-IIIba
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     g'2. g4 d1
     g, g'2. f!4
     es2. d4 c2. d8[ es]
@@ -140,7 +140,7 @@ D-III-IIIbBasso = {
     d\breve \noBreak
     g,\fermata \bar "||"
     \time 3/2 \tempoD-III-IIIbc
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*16 %54
     R1.\fermata \markEtOmnisDaCapo \bar "||" %55 finis
   }
@@ -190,7 +190,7 @@ D-III-IIIcBasso = {
   \relative c {
     \clef bass
     \key f \major \time 4/2 \autoBeamOff \tempoD-III-IIIca
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     f2. f4 c1
     d2( e) f1
     r2 d e f
@@ -225,7 +225,7 @@ D-III-IIIcBasso = {
     c1. c2 \noBreak
     f\breve\fermata \bar "||"
     \time 3/2 \tempoD-III-IIIcc
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*16 %49
     R1.\fermata \markQuomodoDaCapo \bar "||" %50 finis
   }

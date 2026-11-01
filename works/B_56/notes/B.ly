@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LVIKyrieBasso = {
   \relative c {
@@ -203,7 +203,7 @@ B-LVIGloriaBasso = {
     R1*13 \noBreak %52
     R1\fermata \bar "||"
     \time 4/2 \tempoB-LVIGratias \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r2 \mvDl c'1\fE^\tutti h4 h \noBreak
     c2 g4 g c,1 %55
     g r
@@ -231,7 +231,7 @@ B-LVIGloriaBasso = {
     g\breve \noBreak
     c,\fermata \bar "||" %80
     \key e \minor \time 4/4 \tempoB-LVIDomine \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*15 %95
     \mvTr g'4\pE^\solo a8 g16([ fis)] g([ g,)] g8 r4
     g' a8 g16([ fis)] g([ g,)] g8 r4
@@ -243,7 +243,7 @@ B-LVIGloriaBasso = {
     R1*4 \noBreak %106
     R1\fermata \bar "||"
     \key c \major \time 3/4 \tempoB-LVIQuiTollis \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 \mvTr c2\fE^\tutti \noBreak
     g'4 g e
     d f d %110
@@ -727,7 +727,7 @@ B-LVISanctusBasso = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \autoBeamOff \tempoB-LVISanctus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r4 \mvDl c'\fE^\tutti g
     e c r
     R2.*2

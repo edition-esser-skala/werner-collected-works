@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VIIIViolinoII = {
   \relative c' {
@@ -50,7 +50,7 @@ G-VIIIViolinoII = {
     a'8 h c16 e! d c h8 c4 h8 \noBreak
     c16 e8 c16 r g' d h c g8 e16 c4\fermata \bar "||" %55 finis
     \time 3/4 \tempoG-VIIIc \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*5 %60
     r8 f16\p g a b c8 \hA b16 c d8
     c[ a] f d'4 b8

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-VKyrieOrgano = {
   \relative c {
@@ -284,7 +284,7 @@ B-VGloriaOrgano = {
     a8 b c f, c4 f,8\fE a \noBreak
     b g c f, c4 f\fermata \bar "||" %35
     \clef treble \time 4/2 \tempoB-VDomine \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr d''1-!\fE-\tutti d2-! cis-! \noBreak
     d e c f
     e1 << {
@@ -334,7 +334,7 @@ B-VGloriaOrgano = {
     f2 e4 d a'1 \noBreak
     a, d\fermata \bar "||"
     \time 3/2 \tempoB-VQuiTollis \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr f1.\pE-\solo \noBreak
     f
     f %70
@@ -1065,7 +1065,7 @@ B-VSanctusOrgano = {
     g1 \noBreak
     c2-\critnote r\fermata \bar "||" %10
     \key a \minor \time 3/4 \tempoB-VPleni \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr a4\pE-\solo a' c,8 d \noBreak
     e4 r16 e\fE e fis gis8 e
     a4 r8 a h h,

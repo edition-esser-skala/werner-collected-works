@@ -1,11 +1,4 @@
-\version "2.24.0"
-
-\layout {
-  \context {
-    \Staff
-    \accidentalStyle modern
-  }
-}
+\version "2.26.0"
 
 tempoI-III-IVa = \tempoMarkup "Andante"
 tempoI-III-IVb = \tempoMarkup "Alla breve"

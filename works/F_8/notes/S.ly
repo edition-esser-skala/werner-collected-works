@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-VIIISoprano = {
   \relative c' {
     \clef treble
     \key d \dorian \time 2/1 \tempoF-VIII \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*3
     r1 a'~
     a2 f c'1~ %5

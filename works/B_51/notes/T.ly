@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LIKyrieTenore = {
   \relative c' {
@@ -255,7 +255,7 @@ B-LICredoTenore = {
     as1 g4( f) \noBreak %40
     g1.\fermata \bar "||"
     \tempoB-LICrucifixus \time 2/1
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve \noBreak
     \mvTr b1\fE^\tuttiE a
     c h2 b4 b
@@ -276,7 +276,7 @@ B-LICredoTenore = {
     a( b a2.) a4 \noBreak %60
     g\breve\fermata \bar "||"
     \time 3/2 \tempoB-LIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*4 %65
     r4 \mvTr f2\pE^\solo e4 a8([ g)] a4
     g c2( h4) c2

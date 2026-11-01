@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 J-III-Soprano = {
   \relative c' {
@@ -17,7 +17,7 @@ J-III-Soprano = {
     d g8 e c4. f8 \noBreak
     e([ d)] c e d d r4
     \time 3/4 \tempoJ-III-b
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       b2.\pp \noBreak
     a4 d2~
     d c!4 %15
@@ -62,7 +62,7 @@ J-III-Soprano = {
     g8 b es es es16([ d)] d8 c16([ h!)] c8 \noBreak
     h!4 c8 d c4( h)\trill
     \time 3/4 \tempoJ-III-e
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       c4 r8 \mvTr c\fE^\tutti g' d \noBreak
     e!4 r8 e g d %65
     e4 r8 e d d

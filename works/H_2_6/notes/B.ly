@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-II-VIBasso = {
   \relative c {
@@ -46,7 +46,7 @@ H-II-VIBasso = {
     r8 c'16([ b)] a([ b)] a([ g)] fis8 g c,([ d)] \noBreak
     g,4 r r2\fermata \bar "||"
     \key b \major \time 4/2 \tempoH-II-VIAsperges \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r2 \mvTr b4(\fE^\tuttiE c) d( es) f2 \noBreak %65
     g es4( f) g( a) b2~
     b4 a f( g) a( b) c( b)
@@ -60,10 +60,10 @@ H-II-VIBasso = {
     f e4 d a'1 \noBreak %75
     a, d\fermata \bar "||"
     \key f \major \time 4/4 \tempoH-II-VIAuditui \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*4 %80
     \time 3/4 \tempoH-II-VIExultabunt
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*14 \noBreak %94
     R2.\fermata \bar "||"
     \key g \minor \time 4/4 \tempoH-II-VIAverte R1*9 \noBreak %104
@@ -136,7 +136,7 @@ H-II-VIBasso = {
     \tempoH-II-VIBenigne R1*18 \noBreak %217
     R1\fermata \bar "||"
     \time 4/2 \tempoH-II-VITunc \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr f'1\fE^\tuttiE g2 g \noBreak
     d4 c b c d e f2~ %220
     f e f1
@@ -154,7 +154,7 @@ H-II-VIBasso = {
     c) f c2. c4 \noBreak
     f\breve\fermata \bar "||"
     \time 4/4 \tempoH-II-VIGloria \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*4 %238
     \tempoH-II-VISicut \mvTr f8.\fE^\tutti f16 a8 c f, c a c
     f8. f16 f8 c' a e f4 %240

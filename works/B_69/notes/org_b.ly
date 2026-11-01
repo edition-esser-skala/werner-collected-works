@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXIXbKyrieOrgano = {
   \relative c {
@@ -103,7 +103,7 @@ B-LXIXbGloriaOrgano = {
     a e1
     f e2
     d b1
-    \time 4/2 \set Staff.timeSignatureFraction = 2/2 a2 a'1-! << {
+    \time 4/2 \set Staff.timeSignature = 2/2 a2 a'1-! << {
       d2~ %30
       d e, c'1
     } \\ {
@@ -117,7 +117,7 @@ B-LXIXbGloriaOrgano = {
     d2 b c1~ \noBreak
     c f,\fermata \bar "||"
     \key d \minor \time 4/4 \tempoTitleMarkup "Domine" "Andante" \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       d'16^\markup "org solo" d' cis d e,, g' f e f d' cis d g,, b' a g \noBreak
     a8 f16 d g8 a d, a16 f d4
     r r16a'' g a f8 d cis a %40
@@ -457,7 +457,7 @@ B-LXIXbCredoOrgano = {
     fis << { g'8 fis } \\ { g,8 } >> g'8 d b g \noBreak
     d'2.-\tasto r4 \bar "||" %60
     \key c \major \time 3/4 \tempoTitleMarkup "Et resurrexit" "Allegro" \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       g4-\solo g, d' \noBreak
     g, r r
     g' g, d'
@@ -694,7 +694,7 @@ B-LXIXbSanctusOrgano = {
     b4. a16 g a2~ \noBreak
     a d,\fermata \bar "||"
     \time 3/4 \tempoTitleMarkup "Pleni sunt" "Andante" \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       f4-\solo f' e \noBreak
     d2 a4 %10
     b c c,

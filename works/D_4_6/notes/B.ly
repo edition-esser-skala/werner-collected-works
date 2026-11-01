@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-IV-VIBasso = {
   \relative c {
@@ -6,9 +6,9 @@ D-IV-VIBasso = {
     \key f \major \time 6/4 \tempoD-IV-VI \autoBeamOff
       \once \omit Staff.TimeSignature
     c\breve*1/8 d d a' b a\fermata \bar "||"
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     \time 4/2
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*2
     f1 a
     g2. g4 g b g f %5

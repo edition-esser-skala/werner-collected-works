@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXKyrieViolinoI = {
   \relative c' {
@@ -26,7 +26,7 @@ B-XXXKyrieViolinoI = {
     e c e g d g, h d e16.\trill f64 g a16 f d8 g \noBreak %20
     e16 g c e, a f d g e4 r\fermata \bar "||"
     \time 3/4 \tempoB-XXXChriste \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*17 \noBreak %38
     R2.\fermata \bar "||"
     \time 3/2 \tempoB-XXXKyrieFuga \newSpacingSection
@@ -152,7 +152,7 @@ B-XXXCredoViolinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoB-XXXCredo
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     e16\fE f g f e4 c'
     h16 c d e d4 g
     e16 f g f e4 c'
@@ -320,7 +320,7 @@ B-XXXAgnusViolinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoB-XXXAgnus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     e'8.\trillE\fE g32 f e8 d e16 g c e,
     d8 r r h c16 e a c,
     h4 r8 cis d4~

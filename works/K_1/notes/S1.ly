@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 K-IbSopranoI = {
   \relative c' {
     \clef treble
     \key g \major \time 4/2 \autoBeamOff \tempoK-Ib
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r2 h'2.^\tutti c4 d c8[ h]
     a2. h8[ c] d2. e8[ fis]
     g4 g,2 a8[ h] c2. d8[ e]

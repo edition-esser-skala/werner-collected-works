@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXIKyrieTenore = {
   \relative c' {
@@ -155,7 +155,7 @@ B-LXICredoTenore = {
     a( h8[ c] d1) \noBreak
     d1.\fermata \bar "||"
     \key c \major \time 4/2 \tempoB-LXIEtIncarnatus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       e1 h2 e \noBreak
     a, d r e~
     e d4( c) b a \hA b2~ %55
@@ -248,7 +248,7 @@ B-LXISanctusTenore = {
   \relative c' {
     \clef "treble_8"
     \key g \major \time 4/2 \autoBeamOff \tempoB-LXISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r2 h1 c2~
     c r cis d~
     d r d h
@@ -268,7 +268,7 @@ B-LXISanctusTenore = {
     a\breve \noBreak
     h\fermata \bar "||"
     \time 3/2 \tempoB-LXIOsanna \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r2 g c~ \noBreak %20
     c4 a d2. h4
     e c r2 r
@@ -349,7 +349,7 @@ B-LXIBenedictusTenore = {
   \relative c' {
     \clef "treble_8"
     \key g \major \time 4/2 \autoBeamOff \tempoB-LXIBenedictus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r2 g2.( a4) h( cis)
     d( a) d1 c2
     h2.( cis4) d2 a~
@@ -386,7 +386,7 @@ B-LXIAgnusTenore = {
   \relative c' {
     \clef "treble_8"
     \key g \major \time 4/2 \autoBeamOff \tempoB-LXIAgnus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d2. d4 e2( d)
     d r a1
     a2 a1 g2
@@ -416,7 +416,7 @@ B-LXIAgnusTenore = {
     d cis4 h \hA cis1 \noBreak
     d\breve\fermata \bar "||"
     \time 3/2 \tempoB-LXIDona \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*2 %30
     g,2( a) g
     r4 d'2 cis4 d8[ a d c]

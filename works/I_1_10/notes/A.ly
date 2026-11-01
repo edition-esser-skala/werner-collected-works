@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XAlto = {
   \relative c' {
@@ -12,7 +12,7 @@ I-I-XAlto = {
     e4 r8 g g16([ f)] f8 r f \noBreak
     f16([ e)] e8 r g g16([ f)] f8 r4
     \time 3/4 \tempoI-I-Xc
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr a8.\fE^\tutti a16 a8 g a a \noBreak %20
     g8. g16 g4 r
     g8. g16 g8 e g \hA e

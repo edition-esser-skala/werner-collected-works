@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VIIOrgano = {
   \relative c {
@@ -182,7 +182,7 @@ G-VIIOrgano = {
     d4 g4.\fE f16 e f8 g \noBreak
     a4 a, d2\fermata \bar "||"
     \time 4/2 \tempoG-VIIe \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr d1-!\fE-\tuttiE a'2-! f-! \noBreak %175
     << { d'1 } \\ { b2 a4 g } >> f e d2~
     d cis d4 e f d
@@ -212,7 +212,7 @@ G-VIIOrgano = {
     c2 f c1 %195
     f,\breve\fermata \bar "||"
     \time 4/4 \tempoG-VIIf \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr a'2~\p-\soloE a \noBreak
     b4 f gis2
     g4 f dis2

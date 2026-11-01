@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXIIIKyrieSoprano = {
   \relative c' {
@@ -91,7 +91,7 @@ B-XXIIICredoSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 4/2 \tempoB-XXIIICredo \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve
     r1 c'
     h2 g a h
@@ -143,7 +143,7 @@ B-XXIIICredoSoprano = {
     c h4 a h1\trill \noBreak
     c\breve\fermata \bar "||"
     \time 3/2 \tempoB-XXIIIEtIncarnatus \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       c2 c c \noBreak
     c b b~
     b4 \hA b b2 a %55
@@ -161,7 +161,7 @@ B-XXIIICredoSoprano = {
     g e2. d4 \noBreak
     d1.\fermata \bar "||"
     \time 4/2 \tempoB-XXIIICrucifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r2 d'2. d4 d2 \noBreak
     es e1 f2 %70
     f1. es2
@@ -177,7 +177,7 @@ B-XXIIICredoSoprano = {
     g1. g2 \noBreak
     a\breve\fermata \bar "||"
     \time 3/2 \tempoB-XXIIIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       g4 c2 h4 c c \noBreak
     r c c h c c
     e2 c a4 d~ %85
@@ -397,7 +397,7 @@ B-XXIIISanctusSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 4/2 \autoBeamOff \tempoB-XXIIISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     g'2 a g4 c, c'2~
     c b a2.\trill \hA b8[ a]
     g2 c1 b2
@@ -416,7 +416,7 @@ B-XXIIISanctusSoprano = {
     c h4 a h1 \noBreak
     c\breve\fermata \bar "||"
     \time 3/2 \tempoB-XXIIIOsanna \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*2
     r2 r g %20
     c2.( h4 e2)
@@ -482,7 +482,7 @@ B-XXIIIBenedictusSoprano = {
   \relative c' {
     \clef treble
     \key a \minor \time 4/2 \autoBeamOff \tempoB-XXIIIBenedictus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a'1 a
     h a
     R\breve*2
@@ -513,7 +513,7 @@ B-XXIIIAgnusSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 4/2 \tempoB-XXIIIAgnus \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*3
     g'1. fis2
     gis( a1 \hA gis2) %5

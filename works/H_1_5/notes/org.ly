@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-VDixitOrgano = {
   \relative c {
@@ -482,7 +482,7 @@ H-I-VNisiOrgano = {
   \relative c {
     \clef bass
     \key e \minor \time 3/4 \tempoH-I-VNisi
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr e8\pE-\solo fis g4 dis
     e2 dis4
     e8 fis g4 dis
@@ -709,7 +709,7 @@ H-I-VLaudaOrgano = {
   \relative c {
     \clef bass
     \key g \major \time 4/2 \tempoH-I-VLauda
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     g'1-! e2-! g
     a g4 fis << {
       d'1
@@ -1064,7 +1064,7 @@ H-I-VMagnificatOrgano = {
     a a e e f4 c \noBreak
     g'2 c,\fermata \bar "||"
     \clef treble \time 4/2 \tempoH-I-VMagnificatC \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       a''2.-! a4-! a2-! a,-! \noBreak
     e'-! g-! \clef bass a,2. a4
     a2 a, e' g %45
@@ -1079,7 +1079,7 @@ H-I-VMagnificatOrgano = {
     e \noBreak
     a,\fermata \bar "||" %55
     \time 4/4 \tempoH-I-VMagnificatD \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr d'4.\pE-\solo ^\mvTz^\aTreE a8 d,4. a8 \noBreak
     d4 \clef "treble_8" f'8 e d c b4
     a8 \clef bass a[ b a] g f d4
@@ -1098,7 +1098,7 @@ H-I-VMagnificatOrgano = {
     c8 \clef "treble_8" c'[ a c] f, g16 a b c d e \noBreak
     f8 \clef bass d,[ d d'] cis d a a,
     \time 3/4 \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       d8 e \mvTr f4\pE-\solo ^\mvTz^\aDue cis \noBreak
     d f d
     a'4. g8 f e %75

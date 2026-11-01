@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-ITenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/2 \tempoI-III-I \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*3
     r1 g
     h2 g c1 %5
@@ -50,7 +50,7 @@ I-III-ITenore = {
     a) c c e
     r c(\f a) c %50
     \time 4/4 \tempoI-III-Ib
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       a2 g\fermata \bar "|." %51 finis
   }
 }

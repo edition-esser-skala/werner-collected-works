@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-V-XVIOrgano = {
   \relative c {
     \clef bass
     \key f \major \time 4/2 \tempoI-V-XVI
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     f1 f2 b,~
     b f' g2. g4
     d1 g2 es

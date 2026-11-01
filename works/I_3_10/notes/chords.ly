@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-X-Chords = {
   \clef treble
@@ -18,7 +18,7 @@ I-III-X-Chords = {
     <a' cis>2~ q8 <fis h> <cis a'>[ <h gis'>] \noBreak
     <e a>4 <cis a'>8 <h gis'> <e a>4 r\fermata \bar "||"
     \time 3/4 \tempoI-III-X-b \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       <fis a>2 q4 \noBreak
     q8 <eis gis> q4 <e a> %15
     a <fis h>2

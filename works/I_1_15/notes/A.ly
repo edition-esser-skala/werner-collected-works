@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XVAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoI-I-XVa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr g'4(\pE^\solo c) f,
     e8([\trill d)] e4 r
     g8.[(\trill a32 h] c8[ g)] g([ f)]
@@ -35,7 +35,7 @@ I-I-XVAlto = {
     \time 4/4 \tempoI-I-XVb R1*11 \noBreak %40
     R1\fermata \bar "||"
     \time 3/4 \tempoI-I-XVc
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvDl g'8.\fE^\tutti g16 g8 g g4 \noBreak
     g r8 g f16([ e f8)]
     e4 r8 e f d

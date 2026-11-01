@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-V-X-Tenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/2 \tempoI-V-X \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     c2 c1( d2)
     c2. d4 e2. e4
     c2 d h2. h4

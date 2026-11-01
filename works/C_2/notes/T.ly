@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 C-IIIntroitusTenore = {
   \relative c' {
@@ -128,7 +128,7 @@ C-IISequentiaTenore = {
     a a a a a2 \noBreak
     a1\fermata \bar "||"
     \time 3/4 \tempoC-IIQuidSum \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*31 %69
     r4 \mvTr g\pE^\solo^\aTre g %70
     g( fis) fis
@@ -277,7 +277,7 @@ C-IIMementoTenore = {
     g4 f! e4. e8 \noBreak
     fis1\fermata \bar "||"
     \time 3/4 \tempoC-IIConvertere \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*41 \noBreak %70
     R2.\fermata \bar "||"
     \time 4/4 \tempoC-IIIntroibo \newSpacingSection
@@ -423,7 +423,7 @@ C-IIBenedictusTenore = {
     R1*16 \noBreak %16
     R1\fermata \bar "||"
     \time 3/4 \tempoC-IIOsanna \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2. \noBreak
     r4 r \mvTr d\pE^\solo
     d( cis) f %20
@@ -542,7 +542,7 @@ C-IIAgnusTenore = {
       \once \omit Staff.TimeSignature
       R4*6 \bar "||"
     \time 3/4 \tempoC-IILux \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r4 \mvTr a\pE^\solo^\aTre f \noBreak
     c'2 c,4
     r b' g %35

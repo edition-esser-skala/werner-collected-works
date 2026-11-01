@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VIBasso = {
   \relative c {
@@ -30,7 +30,7 @@ G-VIBasso = {
     d es f4 b, r \noBreak
     R1\fermata \bar "||"
     \key d \minor \time 3/4 \tempoG-VIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*4 %42
     r4 \mvTr g'\pE^\solo c,
     f c2
@@ -120,7 +120,7 @@ G-VIBasso = {
     d2 g,8 g'\p g g \noBreak
     c,2 g4 r\fermata \bar "||"
     \time 3/4 \tempoG-VIe \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr b'4\fE^\tutti b a \noBreak
     g4. g8 d4
     es8 es f4 f %145

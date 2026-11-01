@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XXXVIIITenore = {
   \relative c' {
     \clef "treble_8"
     \key g \major \time 4/2 \tempoF-XXXVIII \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \phrasingSlurDashed
     g1 a2. a4
     h2 c\( c\) h

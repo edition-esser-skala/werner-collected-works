@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XLIVTenore = {
   \relative c' {
     \clef "treble_8"
     \key e \phrygian \time 4/2 \tempoF-XLIV \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     e1 d2 h
     c1 h2 e~
     e d e1

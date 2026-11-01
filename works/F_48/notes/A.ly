@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XLVIIIAlto = {
   \relative c' {
     \clef treble
     \twofourtime \key e \major \time 2/4 \autoBeamOff \tempoF-XLVIII
-      \set Staff.timeSignatureFraction = 2/4
+      \set Staff.timeSignature = 2/4
     e4 fis8 gis
     a fis gis[ a]~
     a16[ h gis a] fis8. fis16

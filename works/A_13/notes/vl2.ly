@@ -268,7 +268,7 @@ A-XIIIScenaQuartaViolinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoA-XIIIScenaQuarta
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     R1*9 %9
     \time 2/4 \markTimeSig #'(2 4) R2 %10
     \time 4/4 \markTimeSig #'(4 4)
@@ -302,7 +302,7 @@ A-XIIIAriaQuartaViolinoII = {
   \relative c' {
     \clef treble
     \key c \dorian \time 3/4 \tempoA-XIIIAriaQuarta
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \after 4*0 -\conSord R2.
     es4 es'32( d) c8. h8( d)
     c4 r r

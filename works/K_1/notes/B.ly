@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 K-IbBasso = {
   \relative c {
     \clef bass
     \key g \major \time 4/2 \autoBeamOff \tempoK-Ib
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     h'\breve^\tutti
     a
     g1 a

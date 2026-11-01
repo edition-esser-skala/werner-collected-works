@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-IIOrgano = {
   \relative c {
     \clef "treble_8"
     \key g \mixolydian \time 4/2 \tempoF-II
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d'1-! c2-! a-!
     \clef bass << {
       h c d1
@@ -71,7 +71,7 @@ F-IIOrgano = {
     d
     g, \bar "||"
     \time 4/4 \tempoF-IIb
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       c2 g\fermata \bar "|." %50 finis
   }
 }

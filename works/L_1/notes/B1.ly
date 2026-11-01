@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 L-IBreingloecklBassoI = {
   \relative c {
     \clef bass
     \key f \major \time 12/8 \autoBeamOff \tempoL-IBreingloeckl
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     \partial 8 r8 \scaleDurations 12/8 {
     R1*10 %10
     b'2 a4 r

@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-V-VSoprano = {
   \relative c' {
     \clef treble
     \key c \major \time 2/1 \tempoI-V-Va \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     \mvDl c'1\fE^\tuttiE c
     c a2( f)
     g2. g4 c,2 r
@@ -19,7 +19,7 @@ I-V-VSoprano = {
     \mvTr d2\fE^\tutti d4 e d g d e \noBreak
     d h8([ c)] d4 e d h r2 %15
     \time 4/4 \tempoI-V-Vb \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r4 c h g \noBreak
     a8_([ h] c2) h4
     c r r2

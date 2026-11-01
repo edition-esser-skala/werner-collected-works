@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XLIIaAlto = {
   \relative c' {
     \clef treble
     \key d \minor \time 3/2 \tempoF-XLIIa \autoBeamOff
-      \set Staff.timeSignatureFraction = 3/2
+      \set Staff.timeSignature = 3/2
       \phrasingSlurDashed
     r2 r4 d f2
     e4 a\( a\) g f2~

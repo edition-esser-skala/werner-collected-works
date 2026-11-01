@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LKyrieViolinoI = {
   \relative c' {
@@ -133,7 +133,7 @@ B-LGloriaViolinoI = {
     d8 e32( f g a) b8 b, a f' \noBreak %30
     e g32( f e d) c16( e) g,( c) e,( g) c,8
     \time 4/2 \tempoB-LPropter \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve \noBreak
     r1 r2 c'
     f, b1 a2
@@ -150,7 +150,7 @@ B-LGloriaViolinoI = {
     e2 f1 e2 \noBreak %45
     f\breve\fermata \bar "||"
     \key d \minor \time 4/4 \tempoB-LDomine \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
       \mvTr d'8.\trill\fE-\soloE c32 b \slurDashed a32( e16.) cis32( a16.) \slurSolid f32( e d cis) d8 r a''16( d) \noBreak
     d( cis) e,( g) g( f) gis,( d') \sbOn d( cis) cis d64( e f g) \sbOff << {

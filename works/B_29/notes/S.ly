@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXIXKyrieSoprano = {
   \relative c' {
@@ -80,7 +80,7 @@ B-XXIXGloriaSoprano = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \autoBeamOff \tempoB-XXIXGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr d'4\fE^\tutti r8 cis d cis
     d4 r8 e d8. d16
     cis8 cis([ d)] e fis e
@@ -188,7 +188,7 @@ B-XXIXCredoSoprano = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \autoBeamOff \tempoB-XXIXCredo
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvDl d'8\fE^\tuttiE d r d cis e
     d d r d h d
     a4 e'8 d cis([ d)]
@@ -218,7 +218,7 @@ B-XXIXCredoSoprano = {
     \key g \minor R1*8 \noBreak %40
     R1\fermata \bar "||"
     \key d \major \time 3/4 \tempoB-XXIXEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr d'4\fE^\tuttiE r8 a d fis \noBreak
     e e r8 cis e a
     fis fis r d h4
@@ -384,7 +384,7 @@ B-XXIXSanctusSoprano = {
     e4.) e8 d d d4 \noBreak
     d r r2\fermata \bar "||" %20
     \key e \minor \time 3/4 \tempoB-XXIXBenedictus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*7 %27
     r8 \mvTr h4\pE^\solo c8 h16([ g a fis)]
     g4 r8 e' d!16([ h c a)]
@@ -399,7 +399,7 @@ B-XXIXSanctusSoprano = {
     cis[ d)] e4 d8 d([ cis16 h] \noBreak
     cis8.) cis16 d4 r\fermata \bar "||"
     \key d \major \time 4/2 \tempoB-XXIXOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*7 %46
     \mvTr a2\fE^\tuttiE h2. g4 cis2~
     cis4 a d2. h4 e cis

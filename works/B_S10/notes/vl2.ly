@@ -18,7 +18,7 @@ B-SXKyrieViolinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoB-SXKyrie
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*8 \bar "||" %8
     h''4\fE a g
     fis2. %10
@@ -82,7 +82,7 @@ B-SXGloriaViolinoII = {
     d8 h c c c4 h \noBreak
     c1\fermata \bar "||" %5
     \time 3/4 \tempoB-SXLaudamus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*7 \noBreak %12
     R2.\fermata \bar "||"
     \time 2/2 \tempoB-SXGratias
@@ -450,7 +450,7 @@ B-SXSonataSecundaViolinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoB-SXSonataSecunda
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     e'2.
     d4. d8 g4
     f2 d4

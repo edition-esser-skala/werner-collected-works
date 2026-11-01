@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XIXKyrieViolinoII = {
   \relative c' {
@@ -99,7 +99,7 @@ B-XIXGloriaViolinoII = {
     c16( g8.) e16( g8.) c,2 r \noBreak %35
     R1.
     \time 4/2 \tempoB-XIXQuiSedes \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \revert Score.SpacingSpanner.common-shortest-duration
       r1 r4 b'\fE a g \noBreak
     f d' c b a2 g
@@ -112,7 +112,7 @@ B-XIXGloriaViolinoII = {
     r b g( b) g( b) g( b) a( f') a( f) c( f) a,( c) \noBreak %45
     f,( a) c( f) a( f) c( f) a,2 r\fermata \bar "||"
     \time 4/4 \tempoB-XIXQuoniam \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1 \noBreak
     r2 \sbOn \tuplet 3/2 8 { e16\pp f g f e d c d e d c h } \sbOff
     c16. e32( d16.) f32( e16.) g32( fis16.) a32( g16) b a g f a c8

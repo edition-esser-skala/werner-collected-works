@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-XIaOrgano = {
   \relative c {
@@ -395,7 +395,7 @@ H-I-XIeOrgano = {
   \relative c {
     \clef bass
     \key g \major \time 3/4 \tempoH-I-XIea
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr g'8.\fE-\tutti a16 h8 g a fis
     g g16 a h8 g a d,
     g g, r g' g g

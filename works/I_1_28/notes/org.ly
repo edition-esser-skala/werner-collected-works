@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XXVIIIOrgano = {
   \relative c {
     \clef bass
     \twotwotime \key f \major \time 4/2 \tempoI-I-XXVIIIa
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     \mvTr f,2\fE-\solo f'1 e2
     d4 g g g c,2 f
     b, b'1 a2
@@ -77,7 +77,7 @@ I-I-XXVIIIOrgano = {
     c2 f c1 %70
     f, r
     \time 4/4 \tempoI-I-XXVIIIb
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       b2 f\fermata \bar "|." %72 finis
   }
 }

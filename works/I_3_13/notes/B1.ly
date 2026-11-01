@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-XIIIBassoI = {
   \relative c {
@@ -21,7 +21,7 @@ I-III-XIIIBassoI = {
     c4 r r2 \noBreak %15
     R1\fermata \bar "||"
     \time 3/4 \tempoI-III-XIIIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*10 %26
     \mvTr a'4\pE^\soloE a, r8 a'
     gis16[ a h8]~ h16[ c d8] c[( h)]

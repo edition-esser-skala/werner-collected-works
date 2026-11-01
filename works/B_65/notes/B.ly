@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXVKyrieBasso = {
   \relative c {
@@ -396,7 +396,7 @@ B-LXVBenedictusBBasso = {
     R2.*14 \noBreak %14
     R2.\fermata \bar "||" %15
     \time 4/2 \tempoB-LXVOsannaB \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr d\breve\fE^\tuttiE \noBreak
     a'1 g
     e2 f g1
@@ -544,7 +544,7 @@ B-LXVAgnusBBasso = {
     cis d2 \noBreak
     a2.\fermata \bar "||"
     \time 4/2 \tempoB-LXVDonaB \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*3 %30
     r1 d
     e f2. f4

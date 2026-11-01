@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 Q-IIIaFlauto = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \tempoQ-IIIa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*12 %12
     a'8( h) h4.\trill a16 h
     cis8 a16( h cis8 d) e fis16 gis

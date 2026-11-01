@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-III-VIaOrgano = {
   \relative c {
     \clef bass
     \key f \major \time 4/2 \tempoD-III-VIaa
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     f1. d2
     a'1 fis2 g
     es c d g
@@ -63,7 +63,7 @@ D-III-VIaOrgano = {
     c\breve \noBreak
     f,\fermata \bar "||" %40
     \clef "treble_8" \time 3/2 \tempoD-III-VIac
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       d'2 d'1 \noBreak
     c2 b a4 g
     fis2 d g
@@ -144,7 +144,7 @@ D-III-VIbOrgano = {
   \relative c {
     \clef bass
     \key d \minor \time 4/2 \tempoD-III-VIba
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d2 d1 cis2
     d d, b'1
     a r2 f'
@@ -170,7 +170,7 @@ D-III-VIbOrgano = {
     a\breve~ \noBreak
     a1 d\fermata \bar "||"
     \key a \minor \clef "treble_8" \time 3/2 \tempoD-III-VIbc
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       a'2^\aTre c! a \noBreak %25
     e'1.~
     e1 dis2
@@ -239,7 +239,7 @@ D-III-VIcOrgano = {
   \relative c {
     \clef bass
     \key a \minor \time 4/2 \tempoD-III-VIca
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a'1 e
     d a
     f\breve
@@ -260,7 +260,7 @@ D-III-VIcOrgano = {
     e\breve \noBreak
     a\fermata \bar "||"
     \time 3/2 \tempoD-III-VIcb
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       a2. h4 c d \noBreak %20
     e2. d8 c h4 cis
     d2. c8 h a4 h
@@ -297,7 +297,7 @@ D-III-VIcOrgano = {
     e d1 \noBreak
     a1.\fermata \bar "||"
     \clef "treble_8" \time 4/2 \tempoD-III-VIcc
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       c2^\aTre c'2. c4 g2 \noBreak
     a f4 e d2 c %50
     g' a g1~

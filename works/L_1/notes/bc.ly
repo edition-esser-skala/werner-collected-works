@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 L-IBreingloecklContinuo = {
   \relative c {
@@ -166,7 +166,7 @@ L-IIckGomContinuo = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoL-IIckGom
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     g'2~ g
     fis f
     es e
@@ -523,7 +523,7 @@ L-IAllegramentoContinuo = {
   \relative c {
     \clef bass
     \key c \major \time 4/4 \tempoL-IAllegramento
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     b1
     c2 d
     d h!

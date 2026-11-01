@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VIOrgano = {
   \relative c {
@@ -43,7 +43,7 @@ G-VIOrgano = {
     d' es f f, b4. f8 \noBreak
     b4 r r2\fermata \bar "||"
     \key d \minor \time 3/4 \tempoG-VIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr d4\pE-\solo c b \noBreak
     a a'8 g f4 %40
     cis d2
@@ -182,7 +182,7 @@ G-VIOrgano = {
     d d d d g,4 r \noBreak
     r8 c\p c c g4 r\fermata \bar "||"
     \time 3/4 \tempoG-VIe \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr b4\fE-\tutti b' a \noBreak
     g4. g8 d4
     es f f, %145

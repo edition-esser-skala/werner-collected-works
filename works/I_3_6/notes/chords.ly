@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-VIChords = {
   \relative c' {
@@ -6,7 +6,7 @@ I-III-VIChords = {
     \key c \major \time 4/4 \tempoI-III-VIa
     s1*18 \bar "||" %18
     \time 3/4 \tempoI-III-VIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r8^\markup \remark "Flautino" e' d( c) h( a)
     r f'16( e) e( d) d( c) c( b) b( a) %20
     gis8 h'!16( a) a( gis) gis( f!) f( e) e( d)

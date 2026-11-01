@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXIXKyrieAlto = {
   \relative c' {
@@ -80,7 +80,7 @@ B-XXIXGloriaAlto = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \autoBeamOff \tempoB-XXIXGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr fis4\fE^\tutti r8 e fis e
     fis4 r8 e fis8. fis16
     e8 e( a4) a
@@ -176,7 +176,7 @@ B-XXIXCredoAlto = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \autoBeamOff \tempoB-XXIXCredo
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvDl fis8\fE^\tuttiE fis r fis e a
     fis fis r a g g
     fis4 e8 fis a8.([ fis16)]
@@ -199,7 +199,7 @@ B-XXIXCredoAlto = {
     \key g \minor R1*8 \noBreak %40
     R1\fermata \bar "||"
     \key d \major \time 3/4 \tempoB-XXIXEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr fis4\fE^\tuttiE r8 fis a a \noBreak
     a a r a a a
     a a r4 r8 d,
@@ -356,7 +356,7 @@ B-XXIXSanctusAlto = {
     g([ fis)] e a4 g8 g([ fis)] \noBreak
     g4 r r2\fermata \bar "||" %20
     \key e \minor \time 3/4 \tempoB-XXIXBenedictus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*7 %27
     r8 \mvTr g4\pE^\solo e16([ fis)] g([ e fis dis)]
     e4 r8 c' h16([ g a fis)]
@@ -371,7 +371,7 @@ B-XXIXSanctusAlto = {
     r8 e a g16 fis g4~ \noBreak
     g8 fis16([ e)] fis4 r\fermata \bar "||"
     \key d \major \time 4/2 \tempoB-XXIXOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*6 %45
     \mvTr d1\fE^\tuttiE e2 cis4 a
     fis'2 d4( h) g'2 e4( cis)

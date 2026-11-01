@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXVIIIKyrieTenore = {
   \relative c' {
@@ -151,7 +151,7 @@ B-XXXVIIIGloriaTenore = {
     \tempoB-XXXVIIILaudamus
     R1*7 \bar "|" %16
     \time 3/4 \tempoB-XXXVIIIGlorificamus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*14 \noBreak %30
     R2.\fermata \bar "||"
     \key f \major \tempoB-XXXVIIIGratias
@@ -190,7 +190,7 @@ B-XXXVIIIGloriaTenore = {
     c4 r r2 \noBreak
     R1\fermata \bar "||"
     \time 3/4 \tempoB-XXXVIIIQuoniam \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*50 \noBreak %182
     R2.\fermata \bar "||"
     \time 4/4 \tempoB-XXXVIIICumSancto \newSpacingSection
@@ -346,7 +346,7 @@ B-XXXVIIICredoTenore = {
     f c' f,4. f8 \noBreak
     c2 r\fermata \bar "||" %70
     \key c \major \time 3/4 \tempoB-XXXVIIIEtResurrexit \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2. \noBreak
     r8 \mvTr g'\fE^\tutti g4 g
     g g r

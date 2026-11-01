@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 M-XVOrgano = {
   \relative c {
     \clef bass
     \key g \major \time 3/4 \tempoM-XVa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     g4\fE d' r8 h
     e4 h r8 h\p
     c4 r r8 d

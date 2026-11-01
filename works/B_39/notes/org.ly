@@ -454,7 +454,7 @@ B-XXXIXCredoOrgano = {
     g4 c8 g'-\conPedale c g es c \noBreak %70
     g g g g g4 r\fermata \bar "||"
     \time 2/1 \tempoB-XXXIXCrucifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << {
       r2 d''1 a2 \noBreak %72
       c1. b4 a
@@ -487,7 +487,7 @@ B-XXXIXCredoOrgano = {
     g\breve \noBreak %90
     d\fermata \bar "||"
     \key c \major \time 3/4 \tempoB-XXXIXEtResurrexit \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr g4\pE-\solo r r \noBreak
     g r r
     g r r
@@ -526,7 +526,7 @@ B-XXXIXCredoOrgano = {
     f8 r f r f r \noBreak
     f4. f'8 f,4\fermata \bar "||"
     \time 4/4 \tempoB-XXXIXEtInSpiritum \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr d'16.\pE-\soloE d'32 cis16. d32 a16. f32 e16. f32 d16. d'32 cis?16. d32 b16. g32 f16. g32 \noBreak %130
     e16. c'32 b16. c32 a16. f32 e16. f32 d16. b32 a16. b32 g16. e'32 d16. e32
     a,16. f'32 e16. f32 b,16. g'32 f16. g32 c,16. a'32 g16. a32 d,16. b'32 a16. b32

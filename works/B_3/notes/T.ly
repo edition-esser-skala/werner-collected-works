@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-IIIKyrieTenore = {
   \relative c' {
@@ -55,7 +55,7 @@ B-IIIKyrieTenore = {
     h c a2 \noBreak
     h4 r r2\fermata \bar "||" %50
     \time 3/4 \tempoB-IIIChriste
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*48 \noBreak %98
     R2.\fermata \bar "||"
     \time 4/4 \tempoB-IIIKyrieFuga
@@ -498,7 +498,7 @@ B-IIICredoTenore = {
     d16([ cis)] cis8 d4.\trill d8 \noBreak
     cis2.\fermata \bar "||"
     \time 4/2 \key d \minor \tempoB-IIICrucifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*4 %61
     \mvTr a1\fE^\tutti b!
     gis a
@@ -528,7 +528,7 @@ B-IIICredoTenore = {
     a h a2. a4 \noBreak
     h\breve\fermata \bar "||" %90
     \key c \major \time 3/2 \tempoB-IIIEtResurrexit \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       \mvTr g1\fE^\tutti r2 \noBreak
     g d' h
     g g r

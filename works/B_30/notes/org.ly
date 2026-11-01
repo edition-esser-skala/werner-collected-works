@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXKyrieOrgano = {
   \relative c {
@@ -26,7 +26,7 @@ B-XXXKyrieOrgano = {
     c, c' h g c f, g g, \noBreak %20
     c a f g c,4 r\fermata \bar "||"
     \time 3/4 \tempoB-XXXChriste \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr a''8\pE-\solo a, r a'16 h c8 h16 a \noBreak
     e'8 e, r e16 fis gis8 \hA fis16 e
     a8 a, r c' a f
@@ -819,7 +819,7 @@ B-XXXAgnusOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoB-XXXAgnus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr c8\fE-\tutti c'4 h8 c4
     g8 r r gis a a,
     e'4 r8 e f4

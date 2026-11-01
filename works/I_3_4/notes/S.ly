@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-IVSoprano = {
   \relative c' {
@@ -26,7 +26,7 @@ I-III-IVSoprano = {
     R1.*60 \noBreak %138
     R1.\fermata \bar "||"
     \time 4/2 \tempoI-III-IVb
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr c'1\fE^\tutti g2 g \noBreak %140
     a( c1) h2
     e d4 c h2 a4 g

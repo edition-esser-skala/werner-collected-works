@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLKyrieOrgano = {
   \relative c {
@@ -938,7 +938,7 @@ B-XLSanctusOrgano = {
     a c16 h a8 g f4 g \noBreak %30
     c,8 r c r c4 r\fermata \bar "||"
     \clef treble \time 2/1 \tempoB-XLOsanna
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     << {
       r1 g'' \noBreak
       c2 a e' c
@@ -1111,7 +1111,7 @@ B-XLAgnusOrgano = {
     \mvTr g\pE-\tasto r4 fis fis fis \noBreak
     g2 r r\fermata \bar "||"
     \time 2/1 \tempoB-XLDona \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr c'4\fE-\tutti c,8 d e4 f e d8 c d4 e \noBreak
     f f,8 g a4 h c e8 d e4 c %30
     g d' g8 a g f e[ f g f] e f e d

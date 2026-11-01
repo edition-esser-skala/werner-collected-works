@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-II-VISoprano = {
   \relative c' {
@@ -61,7 +61,7 @@ H-II-VISoprano = {
     R1*7 \noBreak %63
     R1\fermata \bar "||"
     \key b \major \time 4/2 \tempoH-II-VIAsperges \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr b2\fE^\tuttiE b1 a2 \noBreak %65
     b es1 d2
     c f f es
@@ -75,13 +75,13 @@ H-II-VISoprano = {
     a, d1 cis4( h?) \noBreak %75
     cis1 d\fermata \bar "||"
     \key f \major \time 4/4 \tempoH-II-VIAuditui \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r8 \mvTr f8\pE^\solo c a16 c a8 f r4 \noBreak
     r2 r8 f' c a16 c
     fis,8 fis r d'~ d es es16([ d)] d([ c)] \noBreak
     b8 d~ d16[ c] c b a8 \tuplet 3/2 8 { a16([ b c)] } b8. b16 %80
     \time 3/4 \tempoH-II-VIExultabunt
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       a8 d, fis a d16[ c b a]
     b[ a g a] b[ c d es] f[ \hA es d c]
     d[ es f g] f[ \hA es d c] b[ as g \hA as]
@@ -178,7 +178,7 @@ H-II-VISoprano = {
     R1 \noBreak
     R\fermata \bar "||"
     \time 4/2 \tempoH-II-VITunc \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr c'2\fE^\tutti f1 e2 \noBreak
     f4 e d1 c2 %220
     b1\trill a2 a~
@@ -196,7 +196,7 @@ H-II-VISoprano = {
     c1. c2 \noBreak
     c\breve\fermata \bar "||"
     \time 4/4 \tempoH-II-VIGloria \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r8 \mvTr a\pE^\solo^\aTre d cis d16([ \hA cis)] d8 r e \noBreak %235
     f e d8. d16 cis4 r
     r8 e4 cis8 a b16 b a4\trill

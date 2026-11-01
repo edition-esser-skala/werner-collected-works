@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 M-XXIIIaBasso = {
   \relative c {
@@ -176,7 +176,7 @@ M-XXIIIbBasso = {
   \relative c {
     \clef bass
     \key c \dorian \time 3/4 \tempoM-XXIIIb
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \partial 8 r8
     \repeat volta 2 {
       c4\fE d es
@@ -358,7 +358,7 @@ M-XXIIIcBasso = {
   \relative c {
     \clef bass
     \key c \dorian \time 3/4 \tempoM-XXIIIc
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \repeat volta 2 {
       c8\fE h c d es f
       g4 g, r
@@ -575,7 +575,7 @@ M-XXIIIeBasso = {
   \relative c {
     \clef bass
     \key c \dorian \time 3/4 \tempoM-XXIIIe
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \repeat volta 2 {
       c4\fE es g
       es h r

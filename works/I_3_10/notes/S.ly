@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-X-Soprano = {
   \relative c' {
@@ -17,7 +17,7 @@ I-III-X-Soprano = {
     R1*2 \noBreak
     R1\fermata \bar "||"
     \time 3/4 \tempoI-III-X-b \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       cis4 cis8 a fis16([ eis)] fis8 \noBreak
     fis8([ eis)] eis4 cis' %15
     d8([ cis)] d2~

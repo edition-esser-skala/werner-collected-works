@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-V-IIBasso = {
   \relative c {
@@ -18,7 +18,7 @@ I-V-IIBasso = {
     a16([ gis)] a8 r4 e8 c' h a \noBreak %15
     a16([ gis)] gis8 r4 r2
     \time 3/4 \tempoI-V-IIb
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*7 %23
     \time 4/4 \tempoI-V-IIc \mvTr f4.\fE^\tutti e8 f4 d \noBreak
     e f b,! c %25

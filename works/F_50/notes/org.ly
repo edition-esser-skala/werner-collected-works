@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-LOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 3/2 \tempoF-L
-      \set Staff.timeSignatureFraction = 3/2
+      \set Staff.timeSignature = 3/2
     << {
       s2 c' h4 e~
       e d

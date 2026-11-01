@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 A-XIIIntroViola = {
   \relative c' {
@@ -424,7 +424,7 @@ A-XIIAriaOctavaViola = {
     fis4 g a a, \noBreak
     d8 d' a fis d4 r\fermataFine
     \key d \minor \time 3/4 \tempoA-XIIAriaOctavaB \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*26 %68
     \time 4/4 R1\fermata \markAriaDaCapo \bar "||" %69 finis
   }

@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-II-IIViolaI = {
   \relative c' {
     \clef treble
     \key g \dorian \time 4/2 \tempoD-II-II
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     g'1 b
     a2. a4 f2 d
     d'2. c4 b g b c

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoI-I-XIa = \tempoMarkup "Allegretto passato"
 tempoI-I-XIb = \tempoMarkup "Allegro" %90

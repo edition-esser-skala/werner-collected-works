@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XSoprano = {
   \relative c' {
@@ -18,7 +18,7 @@ I-I-XSoprano = {
     R\fermata \bar "||"
     \tempoI-I-Xb R1*7 %19
     \time 3/4 \tempoI-I-Xc
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr f'8.\fE^\tutti f16 f8 e c f \noBreak %20
     e8. e16 e4 r
     c8. c16 c8 c g c

@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-XIVOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoI-III-XIVa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr c'4\pE-\soloE r8 c, e g
     c4 r8 c, e g
     c4. g8 e g
@@ -82,7 +82,7 @@ I-III-XIVOrgano = {
     g f g g, \noBreak
     c4 r\fermata \bar "||" %75
     \key c \dorian \time 3/4 \tempoI-III-XIVd \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       c8.\pE d16 es4. d16 c \noBreak
     g'4 h, c
     g' h, c

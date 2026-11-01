@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 Q-IIaBasso = {
   \relative c {
     \clef bass
     \key a \major \time 3/4 \tempoQ-IIa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     a'8.\pE h16 cis4 a
     e' e, gis
     a cis, d

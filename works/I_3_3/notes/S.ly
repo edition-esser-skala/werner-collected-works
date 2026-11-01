@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-IIISoprano = {
   \relative c' {
     \clef treble
     \key b \major \time 3/4 \tempoI-III-III \autoBeamOff
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr f4\pE^\solo b8([ c)] d([ es)]
     f4 b, \tuplet 3/2 4 { c8([ d es)] }
     d4 c r8 \mvTr a\fE^\tutti

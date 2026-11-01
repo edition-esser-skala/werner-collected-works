@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-III-II-aSoprano = {
   \relative c' {
     \clef treble
     \key d \minor \time 4/2 \tempoD-III-II-aa \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \markTimeSig #'(4 2)
     R\breve
     a'1 a
@@ -40,7 +40,7 @@ D-III-II-aSoprano = {
     \time 2/2 \markTimeSig #'(2 2) h1 \noBreak
     \time 4/2 \markTimeSig #'(4 2) cis\breve\fermata \bar "||"
     \time 4/4 \tempoD-III-II-ac \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1 \noBreak
     r8 e!4 e8 f([ d)] b! a %35
     gis4.( a16[ h)] e,8 e4 a8
@@ -62,7 +62,7 @@ D-III-II-aSoprano = {
     a2 a d
     g, c f,~ \noBreak
     f4 g8([ a]) b4( a b2)
-    \time 4/2 \set Staff.timeSignatureFraction = 2/2
+    \time 4/2 \set Staff.timeSignature = 2/2
       a r r1 \noBreak
     r r2 f %55
     g a b4( c d e)
@@ -141,7 +141,7 @@ D-III-II-bSoprano = {
   \relative c' {
     \clef treble
     \key e \minor \time 4/2 \tempoD-III-II-ba \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \markTimeSig #'(4 2)
     h'1 h2 h
     h1 h2 cis
@@ -170,7 +170,7 @@ D-III-II-bSoprano = {
     c2. c4 c1 \noBreak %25
     h\breve\fermata \bar "||"
     \time 4/4 \tempoD-III-II-bb \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r2 c4 d~ \noBreak
     d h c8([ d)] c([ h)]
     a([ d, d' c)] h4 cis8 d
@@ -286,7 +286,7 @@ D-III-II-cSoprano = {
   \relative c' {
     \clef treble
     \key b \major \time 4/2 \tempoD-III-II-ca \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \markTimeSig #'(4 2)
     d'1. d2
     c2. c4 b1

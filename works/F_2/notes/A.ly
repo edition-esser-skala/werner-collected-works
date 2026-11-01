@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-IIAlto = {
   \relative c' {
     \clef treble
     \key g \mixolydian \time 4/2 \tempoF-II \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*2
     r1 g'
     f2 d e f
@@ -54,7 +54,7 @@ F-IIAlto = {
     g2 fis4 e \hA fis2 fis
     g\breve \bar "||"
     \time 4/4 \tempoF-IIb
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       g2 g\fermata \bar "|." %50 finis
   }
 }

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 K-IaAlto = {
   \relative c' {
@@ -214,7 +214,7 @@ K-IbAlto = {
   \relative c' {
     \clef treble
     \key g \major \time 4/2 \autoBeamOff \tempoK-Ib
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r4 d2(^\tutti e8[ fis] g1)
     fis4( e) d e fis2. g8[ a]
     g4 d g fis e a2 g4

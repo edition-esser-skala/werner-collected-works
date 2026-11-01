@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-IIAlto = {
   \relative c' {
     \clef treble
     \key d \minor \time 2/1 \tempoI-I-IIa \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     r1 a'~
     a2 g f4( e f e)
     d2 e f4( g) a2
@@ -46,7 +46,7 @@ I-I-IIAlto = {
     r g1 f2 \noBreak %40
     f1 e \segnoMark 1
     \time 4/4 \tempoI-I-IIb
-      \unset Staff.timeSignatureFraction \newSpacingSection
+      \unset Staff.timeSignature \newSpacingSection
       c!8\p c c c fis4. fis8 \noBreak
     g2. f4~
     f4. e16[( d)] e8( f4) e16([ d)]

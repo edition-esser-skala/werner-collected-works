@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-VKyrieTenore = {
   \relative c' {
@@ -166,7 +166,7 @@ B-VGloriaTenore = {
     R1*10 \noBreak %34
     R1\fermata \bar "||" %35
     \time 4/2 \tempoB-VDomine \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       R\breve*6 %41
     r1 \mvTr a\fE^\tutti
     a2 gis a h
@@ -195,7 +195,7 @@ B-VGloriaTenore = {
     a,\breve \noBreak
     a\fermata \bar "||"
     \time 3/2 \tempoB-VQuiTollis \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       r2 \mvTr a1\pE^\solo \noBreak
     b2 b b
     b1 b2 %70
@@ -728,7 +728,7 @@ B-VSanctusTenore = {
     h8 h c2 h4 \noBreak
     c2 r\fermata \bar "||" %10
     \key a \minor \time 3/4 \tempoB-VPleni \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*29 \noBreak %39
     R2.\fermata \bar "||" %40
     \key c \major \time 4/4 \tempoB-VOsanna \newSpacingSection

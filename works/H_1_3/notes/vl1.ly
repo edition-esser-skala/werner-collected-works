@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-IIIDixitViolinoI = {
   \relative c' {
@@ -133,7 +133,7 @@ H-I-IIIBeatusViolinoI = {
   \relative c' {
     \clef treble
     \key d \minor \time 3/4 \tempoH-I-IIIBeatus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*10 %10
     r8 d'16\fE e f8 a g f
     r e16 d e8 g f e

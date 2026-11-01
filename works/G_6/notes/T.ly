@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VITenore = {
   \relative c' {
@@ -34,7 +34,7 @@ G-VITenore = {
     b b b([ a)] b4 r \noBreak
     R1\fermata \bar "||"
     \key d \minor \time 3/4 \tempoG-VIb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*2 %40
     r4 \mvTr a\pE^\solo d
     d cis c~
@@ -120,7 +120,7 @@ G-VITenore = {
     \tempoG-VId R1*15 \noBreak %141
     R1\fermata \bar "||"
     \time 3/4 \tempoG-VIe \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr b4\fE^\tutti b c \noBreak
     d4. d8 b4
     b8 b b4 a %145

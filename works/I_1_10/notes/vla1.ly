@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-I-XViolaI = {
   \relative c' {
@@ -16,7 +16,7 @@ I-I-XViolaI = {
     d4. d8 d4 r\fermata \bar "||"
     \tempoI-I-Xb R1*7 %19
     \time 3/4 \tempoI-I-Xc
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       a'8\fE a16 a a8 g a a \noBreak %20
     g4 g r
     g8 g16 g g8 g g e

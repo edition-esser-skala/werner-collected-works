@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XKyrieAlto = {
   \relative c' {
@@ -61,7 +61,7 @@ B-XGloriaAlto = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \autoBeamOff \tempoB-XGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr fis4\fE^\tutti r8 a e e
     fis4 r8 a e e
     fis4 fis e
@@ -234,7 +234,7 @@ B-XCredoAlto = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \autoBeamOff \tempoB-XCredo
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*2
     r4 r \mvTr e8\pE^\solo d
     cis cis16 cis d8 e fis d~
@@ -270,7 +270,7 @@ B-XCredoAlto = {
     R1*7 \noBreak %40
     R1\fermata \bar "||"
     \time 3/4 \tempoB-XEtResurrexit
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr fis4\fE^\tutti r8 fis a e \noBreak
     fis fis r fis a e
     fis fis r a a([ h)]
@@ -403,7 +403,7 @@ B-XSanctusAlto = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \autoBeamOff \tempoB-XSanctus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r8 \mvTr fis4\fE^\tutti e16[ d] g8[ fis16 e]
     fis4. e16[ d] g8[ fis16 e]
     fis4 e4. d8~
@@ -462,7 +462,7 @@ B-XBenedictusAlto = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \autoBeamOff \tempoB-XBenedictus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     r4 \mvTr fis\pE^\solo fis
     fis2.
     fis4.( g8) fis([ e)]
@@ -537,7 +537,7 @@ B-XAgnusAlto = {
     e1 \noBreak
     e2 r\fermata \bar "||" %15
     \time 3/4 \tempoB-XDona \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr fis4\fE^\tutti a fis16([ g fis g]) \noBreak
     a4 g( e)
     fis fis~ fis16[ e fis8]

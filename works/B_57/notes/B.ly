@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LVIIKyrieBasso = {
   \relative c {
     \clef bass
     \key d \minor \time 4/2 \tempoB-LVIIKyrie \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d1 e
     f2.( e4 d2) g4 f
     e2 a4 g f e f2
@@ -125,7 +125,7 @@ B-LVIIGloriaBasso = {
   \relative c {
     \clef bass
     \key d \minor \time 4/2 \autoBeamOff \tempoB-LVIIGloria
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d1. d2
     f c d2.( c4
     b2) b a1
@@ -364,7 +364,7 @@ B-LVIICredoBasso = {
   \relative c {
     \clef bass
     \key d \minor \time 4/2 \autoBeamOff \tempoB-LVIICredo
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d1 d2 c
     d a b1
     a r
@@ -428,7 +428,7 @@ B-LVIICredoBasso = {
     c\breve \noBreak
     f,\fermata \bar "||"
     \time 3/2 \tempoB-LVIIEtIncarnatus \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*3 %66
     f'2 f b
     a1 g2
@@ -451,7 +451,7 @@ B-LVIICredoBasso = {
     b1 b2 \noBreak
     f1.\fermata \bar "||"
     \time 4/2 \tempoB-LVIICruxifixus \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       d'1. d2 \noBreak
     d c d e
     f1 e2 a~
@@ -515,13 +515,13 @@ B-LVIICredoBasso = {
     r2 b,1 b2 \noBreak
     d f^\critnote b b \bar "||"
     \time 3/2 \tempoB-LVIIMortuorum
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       g1 g2 \noBreak
     a1 d,2~
     d a1 \noBreak %165
     d1.\fermata \bar "||"
     \time 4/2 \tempoB-LVIIEtVitam
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r1 d \noBreak
     d2 b f'1
     e2 a a g
@@ -737,7 +737,7 @@ B-LVIISanctusBasso = {
   \relative c {
     \clef bass
     \key d \minor \time 4/2 \autoBeamOff \tempoB-LVIISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d1. c2
     d( e f) d
     c\breve
@@ -775,11 +775,11 @@ B-LVIISanctusBasso = {
     g\breve \noBreak
     f\fermata \bar "||"
     \time 3/2 \tempoB-LVIIBenedictus \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1.*14 \noBreak %51
     R1.\fermata \bar "||"
     \time 4/2 \tempoB-LVIIOsanna \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       a1 a2 a \noBreak
     f d b'1
     a r2 d,4 e %55
@@ -865,7 +865,7 @@ B-LVIIAgnusBasso = {
   \relative c {
     \clef bass
     \key d \minor \time 4/2 \autoBeamOff \tempoB-LVIIAgnus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     d1 b
     c\breve
     f1 r2 c'

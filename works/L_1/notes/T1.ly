@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 L-IBreingloecklTenoreI = {
   \relative c' {
@@ -9,7 +9,7 @@ L-IBreingloecklTenoreI = {
     d4 b8 b[ c] d c4. r8 r f
     d[ c] b b[ c d] c4 r8 c4 c8
     c4 c8 c4 c8 a4. r4 r8
-    \set Staff.timeSignatureFraction = 4/4 \scaleDurations 12/8 {
+    \set Staff.timeSignature = 4/4 \scaleDurations 12/8 {
       r4 r8 g' g8. g16 e8 g
       g16 g g g d4 e r %15
       R1
@@ -17,12 +17,12 @@ L-IBreingloecklTenoreI = {
       f8. f16 f f f f f4 d
       R1*2 %20
     }
-    \set Staff.timeSignatureFraction = 12/8
+    \set Staff.timeSignature = 12/8
       a8[ b] c c b a g4 r8 r4 r8
     c4 c8 c4 c8 c c c c4 c8
     c4 a8 c4 c8 c4. c4 c8
     c4.~ c4 c8 a4 r8 r4 r8
-    \set Staff.timeSignatureFraction = 4/4 \scaleDurations 12/8 {
+    \set Staff.timeSignature = 4/4 \scaleDurations 12/8 {
       d4 d8 f d d d c %25
       d d r d d4. d8
       d4 r r2
@@ -66,7 +66,7 @@ L-IIckGomTenoreI = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoL-IIckGom
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     r4 r8 g b8. b16 b8 d
     d8. a16 a8 a h8. h16 d8 es
     c4 r8 g b8. b16 c8 g
@@ -155,7 +155,7 @@ L-IAllegramentoTenoreI = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoL-IAllegramento
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     r8 r16 f, b16. b32 b16 c d8 d r d16 f
     a,8 a16 c es8 es16 d b4 r8 f
     b b16 b b b d b g8 r16 g g g h d

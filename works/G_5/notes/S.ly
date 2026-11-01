@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-VSoprano = {
   \relative c' {
@@ -42,7 +42,7 @@ G-VSoprano = {
     d2. d4 d2 \noBreak
     d4 h a2 h\fermata \bar "||"
     \key g \dorian \time 3/4 \tempoG-Vc \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr d16([\pE^\solo c d8)] b4 r \noBreak
     c16([ b c8)] a2\trill
     b16([ a g8)] g4 r %40

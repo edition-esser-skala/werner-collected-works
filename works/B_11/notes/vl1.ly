@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XIKyrieViolinoI = {
   \relative c' {
@@ -14,7 +14,7 @@ B-XIKyrieViolinoI = {
     d2 c \noBreak
     c c\fermata \bar "||"
     \time 3/4 \tempoB-XIChriste
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2. \noBreak %10
     a4\p d e
     \once \slurDashed f8( e) d( cis) d4~
@@ -124,7 +124,7 @@ B-XISanctusViolinoI = {
   \relative c' {
     \clef treble
     \key f \major \time 4/2 \tempoB-XISanctus
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*2
     c'1\fE a4 f g a
     b c d c8 b a4 g a h
@@ -147,8 +147,8 @@ B-XISanctusViolinoI = {
     g\breve \noBreak
     a\fermata \bar "||"
     \time 3/4 \tempoB-XIOsanna \newSpacingSection
-      \unset Staff.timeSignatureFraction
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \unset Staff.timeSignature
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.
     r4 g'\pE a
     g8( e) c4 r %25

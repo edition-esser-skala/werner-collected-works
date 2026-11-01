@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 C-IIIntroitusViolinoI = {
   \relative c' {
@@ -91,7 +91,7 @@ C-IISequentiaViolinoI = {
     c a d d cis4 d~ \noBreak
     d cis d2\fermata \bar "||"
     \time 3/4 \tempoC-IIQuidSum \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*46 %84
     R2.\fermata \bar "||" %85
     \time 4/4 \tempoC-IILachrymosa \newSpacingSection
@@ -155,7 +155,7 @@ C-IIMementoViolinoI = {
     R1 \noBreak
     R\fermata \bar "||"
     \time 3/4 \tempoC-IIConvertere \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*41 \noBreak %70
     R2.\fermata \bar "||"
     \time 4/4 \tempoC-IIIntroibo \newSpacingSection
@@ -233,7 +233,7 @@ C-IIBenedictusViolinoI = {
     d4. b!8 f4 e \noBreak
     d1\fermata \bar "||"
     \time 3/4 \tempoC-IIOsanna \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*5 %22
     r4 a'\fE a
     gis4. gis8 a4
@@ -308,7 +308,7 @@ C-IIAgnusViolinoI = {
       \once \omit Staff.TimeSignature
       R4*6 \bar "||"
     \time 3/4 \tempoC-IILux \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*15 \noBreak %47
     R2.\fermata \bar "||"
     \time 4/4 \tempoC-IICumSanctis \newSpacingSection

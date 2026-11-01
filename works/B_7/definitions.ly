@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoB-VIIKyrie = \tempoMarkup "Alla capella moderato"
   tempoB-VIIChriste = \tempoMarkup "Andante"

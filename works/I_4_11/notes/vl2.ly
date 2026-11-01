@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XIViolinoII = {
   \relative c' {
@@ -43,7 +43,7 @@ I-IV-XIViolinoII = {
     g32( h16.) d,32( g16.) e8 a, \noBreak
     h4 r\fermata \bar "||"
     \time 3/4 \tempoI-IV-XIe
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*11 \noBreak %54
     R2.\fermata \bar "||" %55
     \time 4/4 \tempoI-IV-XIf R1 \noBreak

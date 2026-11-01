@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XLIVOrgano = {
   \relative c {
     \clef "treble_8"
     \key e \phrygian \time 4/2 \tempoF-XLIV
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     e'1 d2 h
     << { c1 h2 e } \\ { r2 a, g e } >>
     \clef bass f1 e2 c

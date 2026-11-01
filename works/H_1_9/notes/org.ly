@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-IX-aOrgano = {
   \relative c {
@@ -636,7 +636,7 @@ H-I-IX-eOrgano = {
   \relative c {
     \clef bass
     \key a \minor \time 4/2 \tempoH-I-IX-e
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     a'1 e4 f e d
     c h a1 gis2
     a f'4 e d2 e

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXIIIKyrieSoprano = {
   \relative c' {
@@ -24,7 +24,7 @@ B-XXXIIIKyrieSoprano = {
     cis4 r r2 \noBreak
     r8 cis d([ h)] cis4 r\fermata \bar "||"
     \key a \minor \time 3/4 \tempoB-XXXIIIChriste \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \mvTr a8([\pE^\solo h)] c([ d)] e([ f)] \noBreak
     e4 e, r
     R2. %25
@@ -49,7 +49,7 @@ B-XXXIIIKyrieSoprano = {
     c[ h a gis] a4 \noBreak
     gis2 r4\fermata \bar "||" %45
     \key a \major \time 4/2 \tempoB-XXXIIIKyrieB \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr a1\fE^\tutti a \noBreak
     a a
     a( h)
@@ -179,7 +179,7 @@ B-XXXIIIGloriaSoprano = {
     cis e16 d cis8 h cis h a([ cis)] \noBreak %65
     h4 r8 h( cis) h a([ cis)]
     \time 3/4 \tempoB-XXXIIIAmen
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       h8 h([ e] cis4) a8 \noBreak
     r fis([ fis'] d4) h8
     e8.[ d16] cis[ e d cis] h4\trill
@@ -460,7 +460,7 @@ B-XXXIIISanctusSoprano = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \autoBeamOff \tempoB-XXXIIISanctus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*3
     \mvTr e'4.\fE^\tutti d16[ cis] d8[ e]
     cis a e'[ d16 cis] h8[ a] %5

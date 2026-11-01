@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-IXGloriaChords = {
   \relative c' {
@@ -13,7 +13,7 @@ B-IXGloriaChords = {
     cis32( a16.) fis'32( d16.) a16. h32 h8\trill a4 r
     s1*38 \bar "||" %50
     \time 3/4 \tempoB-IXQuiTollis \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       s2.*32 \bar "||" %82
     \time 4/4 \tempoB-IXQuoniam \newSpacingSection
       s1*14 \bar "||" %96
@@ -28,7 +28,7 @@ B-IXCredoChords = {
     \key a \major \time 3/2 \tempoB-IXCredo
     s1.*35 \bar "||" %35
     \key a \minor \time 3/4 \tempoB-IXEtIncarnatus \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       r8-\markup \remark "Flautino" e' d( c) h( a) \noBreak
     gis f' << {
       e_( d) c h %37

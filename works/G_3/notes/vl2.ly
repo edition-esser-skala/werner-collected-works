@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-IIIViolinoII = {
   \relative c' {
@@ -44,7 +44,7 @@ G-IIIViolinoII = {
     fis8 g4 g8 fis d4 b8 \noBreak
     a4. a8 g2\fermata \bar "||"
     \time 3/4 \tempoG-IIIc
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*9 %58
     b16\pE c d8 b d4 c8
     d b f d r4 %60

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LKyrieAlto = {
   \relative c' {
@@ -141,7 +141,7 @@ B-LGloriaAlto = {
     f g a \noBreak %30
     g g r
     \time 4/2 \tempoB-LPropter \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       r1 r2 g \noBreak
     c, f1 e2
     d4( e) f( d) g2 f
@@ -158,7 +158,7 @@ B-LGloriaAlto = {
     c2 c c1 \noBreak %45
     c\breve\fermata \bar "||"
     \key d \minor \time 4/4 \tempoB-LDomine \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       R1*12 %58
     r2 r8 \mvTr a16([\pE^\solo h)] cis([ d)] e8
     d fis a c, c16([ b)] b8 r4 %60

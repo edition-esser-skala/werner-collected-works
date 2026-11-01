@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-III-II-aAlto = {
   \relative c' {
     \clef treble
     \key d \minor \time 4/2 \tempoD-III-II-aa \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \markTimeSig #'(4 2)
     R\breve*5 %5
     d1 d
@@ -36,7 +36,7 @@ D-III-II-aAlto = {
     \time 2/2 \markTimeSig #'(2 2) f2 e4( d) \noBreak
     \time 4/2 \markTimeSig #'(4 2) e\breve\fermata \bar "||"
     \time 4/4 \tempoD-III-II-ac \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       a4. a8 b!([ g)] es d \noBreak
     cis2 d4 f~ %35
     f8[ e!16 d] e8 d cis4.( d16[ e)]
@@ -58,7 +58,7 @@ D-III-II-aAlto = {
     fis fis fis
     e2. f4 d( e) \noBreak
     f1( e2)
-    \time 4/2 \set Staff.timeSignatureFraction = 2/2
+    \time 4/2 \set Staff.timeSignature = 2/2
       f2 r r c \noBreak
     d e f c %55
     b c f( e4 d)
@@ -133,7 +133,7 @@ D-III-II-bAlto = {
   \relative c' {
     \clef treble
     \key e \minor \time 4/2 \tempoD-III-II-ba \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \markTimeSig #'(4 2)
     gis'1 gis
     gis2 gis2. gis4 gis2
@@ -162,7 +162,7 @@ D-III-II-bAlto = {
     a e a2. a4 \noBreak %25
     gis\breve\fermata \bar "||"
     \time 4/4 \tempoD-III-II-bb \newSpacingSection
-      \unset Staff.timeSignatureFraction
+      \unset Staff.timeSignature
       g4 a2 fis4 \noBreak
     g8([ a)] g([ fis)] e[ fis] g4~
     g fis g e~
@@ -278,7 +278,7 @@ D-III-II-cAlto = {
   \relative c' {
     \clef treble
     \key b \major \time 4/2 \tempoD-III-II-ca \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \markTimeSig #'(4 2)
     f1 f2 b~
     b a1 g2

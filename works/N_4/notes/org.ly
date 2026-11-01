@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 N-IVOrgano = {
   \relative c {
     \clef bass
     \key d \major \time 3/4 \tempoN-IVa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     d'8(\fE d,) d2
     d'8( d,) d2~
     d2.~-\tasto

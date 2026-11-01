@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 D-II-IIBasso = {
   \relative c {
     \clef bass
     \key g \dorian \time 4/2 \tempoD-II-II \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*7 %7
     d1 es
     d2. d4 b2 g

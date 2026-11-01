@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 A-IXIntroViolinoI = {
   \relative c' {
@@ -29,7 +29,7 @@ A-IXIntroViolinoI = {
     r8 c'\f c c as'4. g16 f \noBreak
     es8 es, es es d2\fermata \bar "||"
     \time 3/4 \tempoA-IXIntroB \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       g'4. es8 as4 \noBreak %25
     fis8.\trill e?32 \hA fis g4 g,
     as8 as' as( g) g( fis)
@@ -266,7 +266,7 @@ A-IXAriaSecundaViolinoI = {
   \relative c' {
     \clef treble
     \key es \lydian \time 3/4 \tempoA-IXAriaSecunda
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \after 4*0 -\conSord R2.
     r8 r16 g''\pE es4-! b-!
     g r r
@@ -1197,7 +1197,7 @@ A-IXASScenaQuintaViolinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoA-IXASScenaQuintaA
-      \set Staff.timeSignatureFraction = 4/4
+      \set Staff.timeSignature = 4/4
     d'2\p^\markup \remark "stendato" c
     b d
     c2. e4

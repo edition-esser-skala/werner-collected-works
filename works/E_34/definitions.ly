@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 Flauto = \markup \remark { \override #'(thickness . 1.5) \whiteout "Flauto" }
 Octav = \markup \remark { \override #'(thickness . 1.5) \whiteout "Octav" }

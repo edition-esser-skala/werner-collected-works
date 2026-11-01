@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XXVOrgano = {
   \relative c {
@@ -49,7 +49,7 @@ I-IV-XXVOrgano = {
     b r b\ffE b \noBreak
     b2 r\fermata \bar "||"
     \time 4/2 \tempoI-IV-XXVe \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr f'1\fE-\tuttiE g2. f4 \noBreak %45
     g2 a << {
       b4 f \once \tieDashed b2~

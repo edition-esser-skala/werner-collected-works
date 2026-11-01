@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-IV-XXIISoprano = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \autoBeamOff \tempoI-IV-XXII
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr cis'8([\pE^\solo d] e4) h
     a8([ gis)] a4 r
     e' d cis8([ h)]

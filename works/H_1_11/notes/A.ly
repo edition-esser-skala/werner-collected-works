@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 H-I-XIaAlto = {
   \relative c' {
@@ -330,7 +330,7 @@ H-I-XIeAlto = {
   \relative c' {
     \clef treble
     \key g \major \time 3/4 \autoBeamOff \tempoH-I-XIea
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr g'8.\fE^\tutti g16 g8 g e fis
     d g g g e fis
     g4 r8 g g g

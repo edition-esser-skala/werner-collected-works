@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 I-III-IVOrgano = {
   \relative c {
@@ -144,7 +144,7 @@ I-III-IVOrgano = {
     a4 f g2 g, \noBreak
     c1.\fermata \bar "||"
     \clef treble \time 4/2 \tempoI-III-IVb
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       c''1 g2 g \noBreak %140
     << {
       a c1 h2

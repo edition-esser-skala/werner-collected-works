@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 G-XXITenore = {
   \relative c' {
     \clef "treble_8"
     \key g \major \time 3/4 \autoBeamOff \tempoG-XXIa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.
     r4 r \mvTr d(\fE^\tutti
     e4.) e8 cis4

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XXXIIIKyrieAlto = {
   \relative c' {
@@ -21,11 +21,11 @@ B-XXXIIIKyrieAlto = {
     a4 r r2
     r8 a a([ gis)] a4 r\fermata \bar "||"
     \key a \minor \time 3/4 \tempoB-XXXIIIChriste \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       R2.*22 \noBreak %44
     R2.\fermata \bar "||" %45
     \key a \major \time 4/2 \tempoB-XXXIIIKyrieB \newSpacingSection
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
       \mvTr a1\fE^\tutti a \noBreak
     a a
     a( h)
@@ -130,7 +130,7 @@ B-XXXIIIGloriaAlto = {
     a cis16 h a8 gis a gis a4 \noBreak %65
     gis r8 gis( a) gis a4
     \time 3/4 \tempoB-XXXIIIAmen
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       gis4 r8 e[ a fis]~ \noBreak
     fis d r h[ h' gis]~
     gis e a16([ e] a4 gis8)
@@ -426,7 +426,7 @@ B-XXXIIISanctusAlto = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \autoBeamOff \tempoB-XXXIIISanctus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*2
     \mvTr a'4.\fE^\tuttiE a16[ gis] a8[ h]
     gis16[ fis gis a] h8 a4 h8

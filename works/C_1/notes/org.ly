@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 C-IIntroitusOrgano = {
   \relative c {
@@ -525,7 +525,7 @@ C-IBenedictusOrgano = {
   \relative c {
     \clef bass
     \key es \lydian \time 3/4 \tempoC-IBenedictus
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     \mvTr es,4\pE-\solo es' b
     es, es' b
     es, es' d

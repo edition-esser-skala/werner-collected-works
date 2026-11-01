@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 E-VISoprano = {
   \relative c' {
     \clef treble
     \key f \major \time 3/4 \tempoE-VI \autoBeamOff
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*9 \bar "S-S" %9
     r4 \mvTr a'4.\pE^\solo \tuplet 3/2 8 { c16([ b a)] } %10
     g8([ c,)] c'4.~ \tuplet 3/2 8 { c16[ d e] }

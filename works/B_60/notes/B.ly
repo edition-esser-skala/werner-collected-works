@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-LXKyrieBasso = {
   \relative c {
     \clef bass
     \key a \major \time 3/4 \tempoB-LXKyrie \autoBeamOff
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     R2.*17 %17
     r4 \mvTr gis'\pE^\solo a
     h fis( gis)

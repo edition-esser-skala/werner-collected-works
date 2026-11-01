@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 B-XLIIIKyrieViolinoI = {
   \relative c' {
@@ -23,7 +23,7 @@ B-XLIIIKyrieViolinoI = {
     g8 f e4\trill d8 a~ a16 d, g8~ \noBreak
     g f e4\trill d r\fermata \bar "||"
     \time 3/4 \tempoB-XLIIIChriste \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       a'16(\f c) f( a) c8.\trill b32 a c16( b) a( g) \noBreak
     a8 f,16\p a c( a) f'( a) c,( b) b( a) %20
     g8 g'\f c8.\trill d32 c b8 a
@@ -65,7 +65,7 @@ B-XLIIIGloriaViolinoI = {
   \relative c' {
     \clef treble
     \key d \minor \time 3/4 \tempoB-XLIIIGloria
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
     f16\p d a' f d' a f' d a'8 e
     r f4 e16 d c!8 b
     a16 b c a f8 a\f c g

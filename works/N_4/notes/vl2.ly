@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 N-IVViolinoII = {
   \relative c' {
     \clef treble
     \key d \major \time 3/4 \tempoN-IVa
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
     R2.
     d4.\fE e16( d) fis( d) g( e)

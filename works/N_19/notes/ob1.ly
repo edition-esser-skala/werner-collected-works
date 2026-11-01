@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 N-XIXOboeI = {
   \relative c' {
@@ -36,7 +36,7 @@ N-XIXOboeI = {
     \tuplet 3/2 2 { b4 f d' b f f' b, f d' \noBreak
     b d8 b f'4 } b2 r\fermata \bar "||"
     \time 3/4 \tempoN-XIXb \newSpacingSection
-      \once \override Staff.TimeSignature.style = #'single-digit
+      \once \override Staff.TimeSignature.style = #'single-number
       \tupletNeutral
       g,4\pE \tuplet 3/2 4 { b8\trill a b d\trill c d } \noBreak %30
     g( g,) g2\trill

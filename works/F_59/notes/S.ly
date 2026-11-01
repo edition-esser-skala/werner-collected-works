@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-LIXSoprano = {
   \relative c' {
     \clef treble
     \key f \major \time 3/2 \tempoF-LIX \autoBeamOff
-      \set Staff.timeSignatureFraction = 3/2
+      \set Staff.timeSignature = 3/2
     R1.*2
     r2 g'2. a4
     h g a \hA h c8([ b)] a4

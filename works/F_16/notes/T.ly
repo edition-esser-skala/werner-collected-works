@@ -1,10 +1,10 @@
-\version "2.24.0"
+\version "2.26.0"
 
 F-XVI-Tenore = {
   \relative c' {
     \clef "treble_8"
     \key b \major \time 4/2 \tempoF-XVI \autoBeamOff
-      \set Staff.timeSignatureFraction = 2/2
+      \set Staff.timeSignature = 2/2
     R\breve*3
     b1 a2 f
     \time 2/2 \markTimeSig #'(2 2) g c %5
