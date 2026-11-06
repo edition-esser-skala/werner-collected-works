@@ -5,11 +5,13 @@ tf = #(define-music-function
   ()
   (if option-is-full-score #{
     \override LyricText.font-name = "Unifraktur Maguntia"
+    \override LyricText.font-features = #'("cv12" "cv14" "cv15")
   #} #{
     %do nothing
   #}))
 
-tr = \revert LyricText.font-name
+tr = { \revert LyricText.font-name
+       \revert LyricText.font-features }
 
 tsf = #(define-music-function
   (parser location)

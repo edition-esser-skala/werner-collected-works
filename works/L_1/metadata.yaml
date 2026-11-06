@@ -21,8 +21,9 @@ toe: |
                       This convention is retained here.\newline
                       (b) In recitativos, the vocal and bc staff
                       (excluding bass figures) are printed both in the vocal
-                      and bc parts. Here, the version of the bc as written
-                      in the bc part, and vice versa for the vocal part. \\
+                      and bc parts. Here, the version printed in the bc part
+                      is used as principal source for bc, and vice versa
+                      for the vocal part.
   1  & 8     & bc   & 3rd \quarterNoteDotted\ missing in \C1 \\
      & 14    & vl 2 & 3rd \quarterNoteDotted\ in \C1: e′4 \\
      & 30    & vl 2 & 1st \quarterNoteDotted\ in \C1: d″4–\quaverRest \\
