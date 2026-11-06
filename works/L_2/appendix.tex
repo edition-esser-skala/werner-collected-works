@@ -1,0 +1,414 @@
+% latexmk -cd -lualatex works/L_2/appendix.tex
+% latexmk -c -cd works/L_2/appendix.tex
+
+\documentclass{ees}
+
+\pghyphenation{english}{}
+
+\newlist{lyricslist}{description}{1}
+\setlist[lyricslist]{
+  partopsep=0pt,
+  labelindent=0em,
+  labelwidth=7em,
+  leftmargin=7em,
+  labelsep=0pt,
+  first=\ltseries,
+  font=\normalfont\itshape\ltseries,
+  style=multiline
+}
+
+\newenvironment{lyrics}[1]{%
+  \subsection{#1}\nopagebreak%
+  \begin{lyricslist}%
+  \let\voice\item%
+}{%
+  \end{lyricslist}%
+}
+
+\begin{document}
+
+\clearscrheadfoot
+
+\chapter{Prefatory pages}
+
+\textit{[bc part, fol. 1r]}\\
+Zwey neue | und extra luſtige muſicaliſche | Tafel-Stücke. | I. | Der Wienneriſche Tändlmarckt. | Mit 4. Singſtimmen, 2. Violinen und Baſſo ordinario. | Die Singſtim- | men ſtellen vor: Den Sägfeiller, Hollhippen-Kramer, einen Savoyarden | mit ſeinem Spielwerck, und einen Marcktſchreyer. Die Inſtru- | menten aber imitiren das ſogenannte Winne- | riſche Breinglöckl. | II. | Die Bauren-Richters-Wahl. | Mit 5. Singſtimmen. 2. Violinen und Baſſo ordinario. Die Singer ſind: | Der Bartlme Zimmermann, als Senior, der Paul Schnepfendreck, der | Böhmiſche Mazko, der Schwäbiſche Wirth, und der einäugige | Schulmeiſter, welche ein jeder in ſeiner Sprache, | die Vota zur Wahl geben. | Beyde Stücke/ ſind nach Art des Quodlibete eingerich- | tet, und jedes, zur angenehmen Abwechslung, mit 7. Arien, und darzu | gehörigen Recitativen verſeheh, mithin bey vornehmen Gaſt- | mahlen und anderen luſtigen Geſellſchaften mit | groſſem Applauſu zu produciren. | Von dem Autore des Muſicaliſchen Calenders | Gregorio Joſepho Werner, | Hochfürſtlich Eſtorhaſiſchen Capellmeiſtern zu Eiſenstadt in Ungarn. | AUGSPURG, | Verlegt von Johann Jacob Lotters ſeel. Erben.
+
+\textit{[fol. 2r]}\\
+Avertiſſement. | Hier werden einer courieuſen Welt/ zur Luſt und | Zeit-vertreiblichen Ergötzlichkeit zwey Muſicali- | ſche Quodlibetica vorgeſtellet. Daß erſtere | betitult ſich/ der Wieneriſche Tändelmarckht/ | allwo in dem Choro alles natürlich begriffen/ | wie jedwe- | dere ihre Waaren allda zum Verkauf pflegen auszuruffen/ | worunter das ſogenannte Breinglöckel in denen Inſtru- | mental-Stimmen Imitations-Weiß ſich hören läßt. Als- | dann erfolget Recitativ- und Arien-mäßig der Sägfeil- | ler/ Savojard, Hollhippen-Kramer/ ſamt dem Arzt | auf der Freyung. Alles iſt leicht zu tractiren/ | anbey mit
+
+\textit{[fol. 2v]}\\
+guten Fleiß kurz verfaſſet, damt das Auditorium immer | eine angenehme Veränderung hören möge. Das zweyte | Stuck/ wird nach allhießiger Landsart benamßet die Bon- | thätung/ oder die Bauren-Richters-Wahl/ ſo beſtehet | aus 5. Perſonagen; als der Barthlme Zimmermann/ | der Paul Schnepfendreck/ der Schwabnwürth/ der | Böhmiſch Mazko, und der Schulmeiſter/ welcher mit | ſeiner Schul-Jugend zu buchſtabieren anfanget. Alsdann | wird zur Wahl geſchritten/ mit einer vorgehenden Bauren- | Oration, da endlich nach langem Wortſtreit und Knittel- | haften Expreſſionen der Richter einſtimmig erwählet wird. | In allen beyden Pieçen wird ſodann jedem Vocaliſten/ | in ſeiner Perſon hauptſächlich die Pronunciation wohl | anrecommendiret. | Der ich mich übrigens zu der re- | ſpectivè geneigten Liebhaberen Dienſte/ | fernerhin gehor- | ſamſt anerbietend empfehle. | Ein befliſſener Diener | Gregorius Joſeph Werner.
+
+\cleardoublepage
+\chapter{Lyrics}
+
+\textit{Roles:} Der Schullmeiſter (T) · Der Schwabnwürth (T) · Paul Schnepfendrekh (T) · \\Der Bömiſch Mazko (B) · Barthlme Zimmermann (B)
+\enlargethispage{2\baselineskip}
+
+\subsection{1 Introitus}
+
+\begin{lyrics}{2 Recitativo}
+  \voice[Schullmeiſter]
+  Kinder lährnts bräf drauf\\
+  und ſagts mär bald auf,\\
+  I kan enkh nit länger mehr daſtehn\\
+  I muß auf dö Bohnthätung gehn.
+\end{lyrics}
+
+\begin{lyrics}{3 Chorus}
+  \voice[alle]
+  Cas ti ri bom.
+\end{lyrics}
+
+\begin{lyrics}{4 Recitativo}
+  \voice[Schullmeiſter]
+  Allo ſei ſtät und gmach,\\
+  ſingts mir hiezt alli nach.
+\end{lyrics}
+
+\begin{lyrics}{5 Chorus}
+  \voice[alle]
+  Änmal äns iſt äns\\
+  ä Nulla daß iſt käns\\
+  zwämahl 2 iſt vieri\\
+  zwämahl 4 iſt ächti\\
+  zwämahl 5 iſt zöhni\\
+  zwämahl 10 iſt zwänzg\\
+  zöhnmahl 10 iſt hundert\\
+  zöhnmahl hundert iſt tauſend.
+\end{lyrics}
+
+\begin{lyrics}{6 Recitativo}
+  \voice[Barthlme]
+  Obwohl obſchon\\
+  obgleich und ſintemall\\
+  der leydig krach düerre Tod\\
+  mit ſeinem Pfeil\\
+  in ſcheller Eyl\\
+  unſern Richter den Thoma Pökh\\
+  den alten Gekh\\
+  in oänen hui hat troffen,\\
+  und Er äß wie ä Scheer\\
+  in dErden eini gſchloffen,\\
+  ſo wär uns do zum Troſt\\
+  ſei höniſüeſſer Moſt\\
+  zu oänen Labſall\\
+  auf ſeinem Todtenmahl.\\
+  Nu brauch mär halt än Man\\
+  der uns recht mit Verſtand\\
+  khan gehen an dö Hand\\
+  und unſrä gantzen Gmoän\\
+  ganz muädäſeel alloän\\
+  recht gſcheidt vorſtehen khan.
+
+  \voice[Schullmeiſter]
+  Warhaffti warhaffti\\
+  dö Röd iß ſaffti,\\
+  der Parthlme Zimmermann\\
+  halt gar äwei ſi Sermonion,\\
+  der Text iſt tröffli nobl\\
+  är ſchmäkt mei Seeil nit nahn Hobl.
+\end{lyrics}
+
+\begin{lyrics}{7 Aria 1}
+  \voice[Barthlme]
+  Ein Zimmermann der etwas khan\\
+  iſt allerdings zu loben,\\
+  weil er ſich plagt ſein Leben wagt\\
+  biß an die Spize oben,\\
+  was denckt er nicht dicht her und hin\\
+  biß er daß Holtz außzirckelt\\
+  da geht die edle Zeit dahin,\\
+  bevor wann er waß ſchnirkelt,\\
+  än ſolcher Mann ſtund uns wohl an\\
+  wann er ſolt Richter weren,\\
+  er iſt än Würth dem Dorf än Zürd,\\
+  den könt mär billich ehren.
+\end{lyrics}
+
+\begin{lyrics}{8 Recitativo}
+  \voice[Schnepfendrekh]
+  Nä nä auß deiner Wahl wird nit viel drauß,\\
+  der Barthlme hats hintern Ohrn\\
+  er ſticht uns d’Narren hint und vorn,\\
+  äs wurd bald hoäſſen bloß märn Hobl auß.
+
+  \voice[Schwabnwürth]
+  Der Bruäder Schnepfädreckh hat recht,\\
+  Er iſcht von oänen gſcheiden Gſchlecht\\
+  komt offt zum Tiſch der groſſä Herrä,\\
+  dort khän er kluge Sächä hörä.
+
+  \voice[Mazko]
+  Mär hamär ä ſo Sinn\\
+  und kemär nit mit Wahl auf ihm\\
+  mir könnä ja Schwabnwürth nähmä\\
+  vor Richter wohl erkhennä,\\
+  er liebt ja ä dö Gläßl Wein\\
+  da kamär Gmoän bräf luſti ſeyn.
+\end{lyrics}
+
+\begin{lyrics}{9 Aria 2}
+  \voice[Mazko]
+  Bey Schwabnwürth bey Schwabnwürth\\
+  da hed mär Dorf ä Zürd,\\
+  wär ſchon Mann der was khan\\
+  die Sachä wohl ausführt,\\
+  hamär ghert zu Inglſtadt\\
+  wie auf den Gretſcheri hat\\
+  ſtadli wohl ſtudirt.
+\end{lyrics}
+
+\begin{lyrics}{10 Recitativo}
+  \voice[Barthlme]
+  Bakts önk mit dem Schwäwerlegaun\\
+  könts ja umb oänen andern ſchaun,\\
+  wiſts denn nit daß dSuppen Schwabn\\
+  müſſen s’lözti Wort all habn.
+
+  \voice[Schullmeiſter]
+  Herr Barthlme hat recht,\\
+  der wär mir ä zu ſchlecht.
+
+  \voice[Schnepfendrekh]
+  Mär ſagt ja daß er tröffli wohl\\
+  daß Hüener Buckhä khönä ſoll,\\
+  mir löſſten vor die Oär bräf Geld,\\
+  ſo wär dö Gmoän ja gut beſtellt.
+
+  \voice[Barthlme]
+  Äs ſcheint wohl daſt än ſtinkäde Nahmä haſt,\\
+  geh lad die ei bey öem zu Gaſt,\\
+  du kanſt dö Oär all ſelbſt verzöhrn,\\
+  äs wird dirs ä von unß gwiß koäner wöhrn.
+\end{lyrics}
+
+\begin{lyrics}{11 Aria 3}
+  \voice[Barthlme]
+  I mit mein Verſtands Maß-Stab\\
+  möſſe alle Mängl ab\\
+  mi ſoll koäner nit anführn\\
+  hab no Roſämiſch in Hürn\\
+  hab Roſomiſch in Hirn\\
+  wölts nit folgen laſt äs ſeyn,\\
+  I gib koäni Wahl mehr drein.
+\end{lyrics}
+
+\clearpage
+\begin{lyrics}{12 Recitativo}
+  \voice[Schullmeiſter]
+  Mei Moänung bleibt halt wie zuvor\\
+  daß man den Parthl alß Senior\\
+  zum Richter Ambt erwöhlet\\
+  ſo wär als guet beſtellet.
+
+  \voice[Schwabnwürth]
+  Mir brauchä ja än höfflichä Männ\\
+  der jeden freundlich thuä khän\\
+  der Parthl iſcht von oän widrig geſinten humor,\\
+  er ſchlueg uns die Bandhäkä zwiſchä daß Ohr.
+
+  \voice[Schnepfendrekh]
+  Mei Wahl dö bleibt ſchon bey dem Schwabn\\
+  da könnä mär gute Schnöäka habn,
+
+  \voice[Barthlme]
+  zumall wann ers aus ſein Oärn ausbrüeth\\
+  und s’hundert vor än Bazen bieth.
+
+  \voice[Schullmeiſter]
+  Mit dem iß gar ä gfäl die Sach,\\
+  dann läffet ihm ä Haaß nur nach\\
+  ſo thät er ſi glei verkriechen,\\
+  mir könten von dem gleichwoll was anders rüechen.
+
+  \voice[Schnepfendrekh]
+  Öß ſeits mär alli wie es ſcheint\\
+  dem armen Schwäwerle mechti feund.
+\end{lyrics}
+
+\begin{lyrics}{13 Aria 4}
+  \voice[Schnepfendrekh]
+  Ein Schwab mueß ſchwören wie bekandt\\
+  wann er will wandern auß dem Land,\\
+  das lözte Wort mueß bey ihm ſeyn,\\
+  dö Sprach ſoll er auch halten rein,\\
+  zurukh ſoll er auch wider khern,\\
+  ſo thoäns dö Landsleuth all begehrn.
+\end{lyrics}
+
+\begin{lyrics}{14 Recitativo}
+  \voice[Mazko]
+  Hamär ſchon bald finſter Nacht,\\
+  iſt mär no koä Richter gmacht.
+
+  \voice[Schwabnwürth]
+  So wärthet halt biß morgä früe\\
+  biß der Halter treibt die Küeh.
+
+  \voice[Barthlme]
+  I kim enk nit bin wie ä Bock.
+
+  \voice[alle andern]
+  So legt di halt dö gantze Gmoän in Stokh.
+\end{lyrics}
+
+\subsection{15 Nacht-Stuck}
+
+\begin{lyrics}{16 Aria 5}
+  \voice[Schwabnwürth]
+  Auf auf ihr Völkle es täget ſchon,\\
+  I hör die Engle ſinge\\
+  daß Hänle kreht die Sonn aufgeht,\\
+  die Geiſchbökh frölich ſpringe,\\
+  ſo wölln wir gaun zur Wähöe ſchaun,\\
+  damit ſie wohl und guet gelinge.
+\end{lyrics}
+
+\begin{lyrics}{17 Recitativo}
+  \voice[Barthlme]
+  Öß Dalkhen, Limeln und öß Narren!\\
+  wanß lieber thäts dö Zeit erſpahren\\
+  und bald oän Richter wöhln.
+
+  \voice[Schnepfendrekh]
+  Döß iß mär wohl ä Zimmerſtokh\\
+  von zöhentauſend Ein.
+
+  \voice[Schullmeiſter]
+  Er ſteht ämall alß Senior\\
+  der ganzen Gmoän anjezo vor.
+
+  \voice[Mazko]
+  Parthl iſt mär wie grob Holz,\\
+  daß mues mit Hackhen klieben\\
+  moän ſchier är hat än Richtärſtolz\\
+  will ſie mit Gwald eiſchieben.
+
+  \voice[Barthlme]
+  Mazko Mazko\\
+  ti dabal fazgo
+
+  \voice[Mazko]
+  Du will mir gar Ohrfeign gebn\\
+  ſchwör I dir bey Leib und Löbn\\
+  muſt über Schwänzär ſpringä\\
+  und s’grimmi Tod bald ſinga.
+
+  \voice[Barthlme]
+  Du wirſt ja wohl koä Ziska ſeyn.
+
+  \voice[Mazko]
+  Glei halt Maul, bin I nit faul\\
+  ſchlag mär wie ein Trumi drein,\\
+  wann mahl bemiſch Kopp auffez\\
+  I ſchon alß zu Boden fez.\\
+  Schneeberg mueß ſi vor mir buckhn,\\
+  Ötſcher hau I gar in Stuckhn;\\
+  Monſchein züttert und ſi verkriecht\\
+  wann er Mazko zorni ſieht.
+
+  \voice[Schwabnwürth]
+  Seyd doch friedlich mächt ein Ende,\\
+  ich geb mein Wähl behende\\
+  auf den Paula Schnepfendrekh.
+
+  \voice[Mazko]
+  Nehmärn auf mein Wort nur köck.
+
+  \voice[Schullmeiſter]
+  Wanns den anderſt nit khan ſeyn\\
+  gib I mein Willen drein.
+
+  \voice[Barthlme]
+  Öß ſeyts Leuth äß is ä Grauß\\
+  bloſts mär alle den Hobl auß.
+\end{lyrics}
+
+\begin{lyrics}{18 Aria 6}
+  \voice[Barthlme]
+  Äß iß hiez beym Bauren faſt gar koä Reſpect\\
+  wann oäner viel Jahr ſchon bey öenen erſtreckt,\\
+  will lieber mi hiezund in d’Stadt eini ſezen,\\
+  dorth woäß mär dö Zimmerleuth böſſer zu ſchezen.
+\end{lyrics}
+
+\begin{lyrics}{19 Recitativo}
+  \voice[Schnepfendrekh]
+  Wälß mi den all zum Richter wolt,\\
+  ſo merkh I daß I folgen ſolt,\\
+  der Schullfur ſoll an meiner ſtat\\
+  ſchön dancken allen vor dö Gnad.
+
+  \voice[Schullmeiſter]
+  Sonderbahre \\
+  wohl achtbare!\\
+  auch Knödlvöſte.\\
+  I dankh enk aufs allerböſte\\
+  vor gehabte Müeh und Sorgen,\\
+  daß ihr uns habt dieſen Morgen\\
+  ſtats verſtorbnen Thoma Bökh\\
+  unſern Paulen Schnepfendrekh\\
+  ganz oänhelligli erwöhlet\\
+  wohl beſtöllet,\\
+  daß er ſoll döß gantze Orth\\
+  fort und fort\\
+  weißli regiern,\\
+  und unß allen dö Gurgl ſchmirn.
+\end{lyrics}
+
+\begin{lyrics}{20 Aria}
+  \voice[Schullmeiſter]
+  Mi braucht man zu allen Sachen\\
+  waß in Dorf nur immer iſt,\\
+  mues als gleich und öwen machen,\\
+  wans ſcho wär ä Hauffä Miſt,\\
+  in dem Sumär Wöderleuthen,\\
+  döß erfordert gwiß än gſcheiten\\
+  bin I nit ſelbſt mit darbey,\\
+  gſchieht pur lautri Käierey.
+\end{lyrics}
+
+\clearpage
+\begin{lyrics}{21 Recitativo}
+  \voice[Mazko]
+  Herr Richtär hamär ſcharffe Klagn\\
+  wider Parthl vorzutragn,\\
+  Schwabnwürth mus Vorſpröcher ſey,\\
+  der woäß auß der Studi fei,\\
+  wie mär Sachä her citirt\\
+  und ſo änHandl recht außführt.
+
+  \voice[Schwabnwürth]
+  Wohl weiß und großgünſchtiger Herr Richter\\
+  als ein kluger Fridens-Schlichter,\\
+  ich wend jezſcht zwo Klägä ein\\
+  vor dem Mazko und die Gmein,\\
+  dem erſchte wolt er Orfeig gebä,\\
+  auch thet er mit der gänzä Gmein änhöbä\\
+  und hieſſ ſie den Hoblä ſauber außbläſä,\\
+  diß riecht ein jedä in die Näſä.\\
+  Nu wölle älle Männ vor Männ\\
+  die grechte Satiſchfaction.
+
+  \voice[Richter]
+  Seyts zufrieden wann ihn leg\\
+  in den Stokh auf zwoä drey Täg?
+
+  \voice[Schwabnwürth]
+  So khän ſchön die gäntze Gmein\\
+  wie auch Mazko zufridä ſeyn.
+\end{lyrics}
+
+\begin{lyrics}{22 Chorus}
+  \voice[alle]
+  Mir habn än Richter oänen Mann\\
+  der nach der Grechtikheit gethan,\\
+  den wöll mär alle liebn und ehrn,\\
+  ſo lang ſei Richter-Ambt thuet wern.\\
+  Hiezt endli iſt d’Bohnthätung auß,\\
+  än jeder geh zum Sterz nach Hauß.
+\end{lyrics}
+
+\end{document}

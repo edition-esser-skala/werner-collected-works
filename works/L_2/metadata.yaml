@@ -1,0 +1,50 @@
+title: Die Bauren-Richters-Wahl
+subtitle: Zwey neue und extra luſtige muſicaliſche Tafel-Stücke
+id: WerW L.2
+genre: cantata
+scoring: 3 T, 2 B (solo), 2 vl, bc
+ark: 68748/e1gjwl2
+license: cc-by-sa-4.0
+sources:
+  C1:
+    siglum: A-Wst
+    shelfmark: M-8282
+    date: 1754
+    rism: 990068294
+    license: public domain
+    principal: true
+tocstyle: default
+tocrightmargin: 5cm
+toe: |
+  –  & –  & T, B & (a) In \C1, lyrics are generally typeset in Fraktur,
+                   while foreign words appear in Roman font.
+                   This convention is retained here.\newline
+                   (b) In recitativos, the vocal and bc staff
+                   (excluding bass figures) are printed both in the vocal
+                   and bc parts. Here, the version printed in the bc part
+                   is used as principal source for bc, and vice versa
+                   for the vocal part. \\
+  1  & 12 & vl 1 & 4th \sixteenthNote\ in \C1: g″16 \\
+  3  & 15 & T 2  & 3rd \eighthNote\ in \C1: f′8.–f′16 \\
+     & 17 & T 3  & 5th \eighthNote\ in \C1: d′8 \\
+  5  & 4  & B 2  & 3rd \halfNote\ in \C1: G2 \\
+     & 14 & T 2  & last \quarterNote\ in \C1: g4 \\
+  7  & 10 & vl 2 & rhytm of 7th \eighthNote\ in \C1: 32–32–16 \\
+  9  & 1  & vl 1 & grace note on 4th \eighthNote\ missing in \C1 \\
+  13 & 1  & –    & tempo indication in bc part of \C1: “Allegro”;
+                   in T 3 part: “Allegro passato”;
+                   in vl 1 and 2 part: “Allegretto passato” \\
+     & 37 & bc   & last \eighthNote\ in \C1: b8 \\
+  14 & 14 & vl 2 & 3rd \eighthNote\ in \C1: a′8 \\
+  16 & 14 & vl 2 & 2nd \quarterNote\ in \C1:
+                   \semiquaverRest–d′32–f′32–\flat b′16–f′32–\flat b′32 \\
+  18 & 18 & vl 1 & last \quarterNoteDotted\ in \C1: \sharp g′4-\quaverRest \\
+  20 & 1  & –    & tempo indication in vl 1 part of \C2: “Andante ariosè”;
+                   \newline in vl 2 part: “Allegretto” \\
+     & 21 & T 1  & 2nd \quarterNoteDotted\ in \C2:
+                   \sharp f4–\quaverRest \\
+  22 & 6  & vl 2 & 2nd/3rd \eighthNote\ in \C1: g″4 \\
+     & 10 & vl 1 & 5th \eighthNote\ in \C1: g″8 \\
+     & 15 & vl 1 & 3rd \eighthNote\ in \C1: c′′′8 \\
+commentary: |
+  \includepdf[pages=-,link=false,pagecommand={}]{../works/L_2/appendix.pdf}
