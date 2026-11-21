@@ -1,8 +1,9 @@
 \version "2.26.0"
 
+#(define option-is-full-score #f)
+#(define option-instrument-name "ob 1")
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "ob 1")
 \include "score_settings/one-staff.ly"
 
 \book {

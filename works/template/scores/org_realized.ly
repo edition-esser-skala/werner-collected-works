@@ -1,5 +1,6 @@
 \version "2.26.0"
 
+#(define option-is-full-score #f)
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
 \include "score_settings/org-realized.ly"

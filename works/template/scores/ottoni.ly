@@ -1,9 +1,10 @@
 \version "2.26.0"
 
-\include "../../../definitions_main.ly"
-\include "../definitions.ly"
+#(define option-is-full-score #f)
 #(define option-instrument-name-upper "clno")
 #(define option-instrument-name-lower "timp")
+\include "../../../definitions_main.ly"
+\include "../definitions.ly"
 \include "score_settings/three-staves.ly"
 
 \paper { indent = 1.5\cm }
