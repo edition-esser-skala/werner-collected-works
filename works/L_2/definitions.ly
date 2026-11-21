@@ -25,9 +25,6 @@ tsf = #(define-music-function
     %do nothing
   #}))
 
-altOne = \markup \remark \circle "1"
-altTwo = \markup \remark \circle "2"
-
 Barthlme = \markup { \override #'(box-padding . 0.5) \box "Barthlme" }
 Mazko = \markup { \override #'(box-padding . 0.5) \box "Mazko" }
 Richter = \markup { \override #'(box-padding . 0.5) \box "Richter" }

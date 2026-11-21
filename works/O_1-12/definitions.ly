@@ -31,9 +31,6 @@ markTitle = #(define-music-function
     }
   #})
 
-altOne = \markup \remark \circle "1"
-altTwo = \markup \remark \circle "2"
-
 markGennaroI = \markTitle
   "1. Il Capo d’Anno diſſegnando il freddo con la Cronologia."
   "Neu-Jahrs-Anfang, zeiget an die kalt- und froſtige Zeit: dann auch gegenwärtige Jahr-Zahl in denen Noten."
