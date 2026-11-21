@@ -1,0 +1,17 @@
+title: Pastorella
+id: WerW N.6
+genre: pastourelle
+scoring: 2 vl, vla, b, org
+ark: 68748/e1gjwn6
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: H-Bn
+    shelfmark: Ms.mus III.291
+    rism: 530003622
+    url: https://copia.oszk.hu/kotta/pastorella-8/
+    license: public domain
+    principal: true
+toe: |
+  10 & vl 2 & grace note added by editor \\
+  55 & vl 1 & rhythm of 1st \eighthNote\ in \A1: 2×\sixteenthNote \\
